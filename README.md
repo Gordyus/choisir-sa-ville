@@ -1,4 +1,4 @@
-# Où Habiter
+# Choisir sa Ville
 
 Application web publique orientée SEO pour aider à **choisir où habiter en France**
 (déménagement, location, achat).
