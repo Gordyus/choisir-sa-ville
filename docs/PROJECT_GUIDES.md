@@ -1,19 +1,12 @@
-# Project Guides – Où Habiter
+# Project Guides – Choisir Sa Ville
 
-## Vision
-Plateforme d’aide à la décision logement (ville, quartier, zone).
+## Vision produit
+Aide à la décision logement (ville / quartier / zone).
 
 ## Architecture
-- Monorepo
-- Types partagés
-- API stateless, cache-first
-
-## Applications
-### web
-SEO-first, pages publiques.
-
-### api
-Calculs à la demande, cache persistant.
+- Monorepo TypeScript
+- Frontend SEO-first
+- Backend stateless, cache-first
 
 ## Règle d’or
 Toute logique doit fonctionner pour **toute la France**.

@@ -1,9 +1,21 @@
-# Choisir sa Ville
+# Choisir Sa Ville
 
-Application web publique orientée SEO pour aider à **choisir où habiter en France**
-(déménagement, location, achat).
+**Choisir Sa Ville** est une plateforme d’aide à la décision pour les personnes souhaitant
+**déménager, louer ou acheter** un logement en France.
 
-Ce repository est structuré en **monorepo** et documenté pour un usage optimal
-avec des agents IA (Codex).
+Le projet répond à une question centrale :
+> *Quelle ville (ou quel quartier) choisir pour bien habiter ?*
 
-👉 Toute implémentation doit respecter la documentation située dans `docs/`.
+---
+
+## Vision
+
+- Aider les utilisateurs à comparer villes et quartiers
+- Fournir des indicateurs clairs, explicables et objectifs
+- Couvrir l’ensemble du territoire français de manière uniforme
+
+---
+
+## Domaine
+
+🌐 https://choisirsaville.fr

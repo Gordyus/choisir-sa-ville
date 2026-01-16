@@ -1,18 +1,18 @@
-# AGENTS.md
+# AGENTS.md – Choisir Sa Ville
 
-Ce document définit le cadre de travail des agents IA (Codex).
+## Principe fondamental
+La documentation est la source de vérité.
+Toute évolution doit être documentée avant implémentation.
 
-## Règle fondamentale
-La documentation fait foi.  
-Si une implémentation ne correspond pas à la documentation, **la documentation doit être mise à jour avant le code**.
+## Documents normatifs
+PROJECT_GUIDES.md
+SCORING_GUIDE.md
+DATA_CONTRACT.md
+CACHE_STRATEGY.md
+IMPORT_PIPELINE.md
 
-## Documents de référence (ordre de priorité)
-1. PROJECT_GUIDES.md
-2. 02-data-model-france.md
-3. 03-api-endpoints-mvp.md
-4. 01-monorepo-structure.md
-
-## Attentes
+## Règles
 - TypeScript strict
-- Code lisible, simple, maintenable
-- Respect des contrats (types, API, données)
+- Scoring en % (interne) + étoiles (UX)
+- Données publiques uniquement
+- Pas de logique locale
