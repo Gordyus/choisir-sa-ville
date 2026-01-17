@@ -9,14 +9,20 @@ import { Readable } from "node:stream";
 import { pipeline } from "node:stream/promises";
 import { fileURLToPath } from "node:url";
 import unzipper from "unzipper";
+import { importPostalCodes } from "./import-postal-codes.js";
 
 type InfraZoneType = "ARM" | "COMD" | "COMA";
 type ImportOnlyType = "COM" | InfraZoneType;
 
 type ImportOptions = {
   source: string;
+  regionSource: string;
+  departmentSource: string;
+  postalSource: string;
+  skipPostal: boolean;
   force: boolean;
   limit?: number;
+  postalLimit?: number;
   dryRun: boolean;
   onlyType?: ImportOnlyType;
   includeInfra: boolean;
@@ -24,9 +30,17 @@ type ImportOptions = {
 
 type CommuneInsert = Insertable<Database["commune"]>;
 type InfraZoneInsert = Insertable<Database["infra_zone"]>;
+type RegionInsert = Insertable<Database["region"]>;
+type DepartmentInsert = Insertable<Database["department"]>;
 
 const DEFAULT_SOURCE_URL =
   "https://www.insee.fr/fr/statistiques/fichier/8377162/v_commune_2025.csv";
+const DEFAULT_REGION_SOURCE_URL =
+  "https://www.insee.fr/fr/statistiques/fichier/8377162/v_region_2025.csv";
+const DEFAULT_DEPARTMENT_SOURCE_URL =
+  "https://www.insee.fr/fr/statistiques/fichier/8377162/v_departement_2025.csv";
+const DEFAULT_POSTAL_SOURCE_URL =
+  "https://static.data.gouv.fr/resources/communes-de-france-base-des-codes-postaux/20241113-073516/20230823-communes-departement-region.csv";
 const CACHE_DIR = ".cache";
 const BATCH_SIZE = 500;
 const LOG_EVERY = 1000;
@@ -36,6 +50,11 @@ function printUsage(): void {
 
 Options:
   --source <url>              Override dataset URL
+  --region-source <url>       Override regions dataset URL
+  --department-source <url>   Override departments dataset URL
+  --postal-source <url>       Override postal codes dataset URL
+  --skip-postal               Skip postal codes import
+  --postal-limit <n>          Stop after N valid postal pairs
   --force                     Redownload source file
   --limit <n>                 Stop after N valid rows per phase
   --dry-run                   Parse and report stats without DB writes
@@ -47,6 +66,10 @@ Options:
 function parseArgs(args: string[]): ImportOptions {
   const options: ImportOptions = {
     source: DEFAULT_SOURCE_URL,
+    regionSource: DEFAULT_REGION_SOURCE_URL,
+    departmentSource: DEFAULT_DEPARTMENT_SOURCE_URL,
+    postalSource: DEFAULT_POSTAL_SOURCE_URL,
+    skipPostal: false,
     force: false,
     dryRun: false,
     includeInfra: true
@@ -58,6 +81,52 @@ function parseArgs(args: string[]): ImportOptions {
       const value = args[i + 1];
       if (!value) throw new Error("Missing value for --source");
       options.source = value;
+      i += 1;
+      continue;
+    }
+    if (arg === "--region-source") {
+      const value = args[i + 1];
+      if (!value) throw new Error("Missing value for --region-source");
+      options.regionSource = value;
+      i += 1;
+      continue;
+    }
+    if (arg === "--department-source") {
+      const value = args[i + 1];
+      if (!value) throw new Error("Missing value for --department-source");
+      options.departmentSource = value;
+      i += 1;
+      continue;
+    }
+    if (arg === "--postal-source") {
+      const value = args[i + 1];
+      if (!value) throw new Error("Missing value for --postal-source");
+      options.postalSource = value;
+      i += 1;
+      continue;
+    }
+    if (arg === "--skip-postal") {
+      const value = args[i + 1];
+      if (value && !value.startsWith("--")) {
+        const normalized = value.toLowerCase();
+        if (normalized !== "true" && normalized !== "false") {
+          throw new Error("Invalid --skip-postal value (use true|false)");
+        }
+        options.skipPostal = normalized === "true";
+        i += 1;
+      } else {
+        options.skipPostal = true;
+      }
+      continue;
+    }
+    if (arg === "--postal-limit") {
+      const value = args[i + 1];
+      if (!value) throw new Error("Missing value for --postal-limit");
+      const parsed = Number(value);
+      if (!Number.isInteger(parsed) || parsed <= 0) {
+        throw new Error("Invalid --postal-limit value");
+      }
+      options.postalLimit = parsed;
       i += 1;
       continue;
     }
@@ -255,8 +324,31 @@ function normalizeCode(value: string | undefined): string | null {
 
 function normalizeInseeCode(value: string | undefined): string | null {
   const trimmed = normalizeCode(value);
-  if (!trimmed || trimmed.length !== 5) return null;
+  if (!trimmed) return null;
+  if (/^\d{1,4}$/.test(trimmed)) return trimmed.padStart(5, "0");
+  if (trimmed.length !== 5) return null;
   return trimmed;
+}
+
+function slugify(value: string): string {
+  const normalized = value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+  const lower = normalized.toLowerCase();
+  const cleaned = lower.replace(/[^a-z0-9]+/g, "-");
+  return cleaned.replace(/-+/g, "-").replace(/^-+|-+$/g, "");
+}
+
+function communeSlug(name: string, inseeCode: string): string {
+  const base = slugify(name);
+  const safeBase = base.length > 0 ? base : inseeCode;
+  return `${safeBase}-${inseeCode}`;
+}
+
+function infraZoneSlug(name: string, type: InfraZoneType, code: string): string {
+  const base = slugify(name);
+  const safeBase = base.length > 0 ? base : code;
+  return `${safeBase}-${type.toLowerCase()}-${code}`;
 }
 
 function parseInteger(value: string | undefined): number | null {
@@ -295,6 +387,7 @@ function mapToCommune(record: Record<string, string>): CommuneMapResult {
     row: {
       inseeCode,
       name: name.trim(),
+      slug: communeSlug(name, inseeCode),
       population: parseInteger(
         pickValue(normalized, ["population", "pop_total", "pmun"])
       ),
@@ -335,9 +428,94 @@ function mapToInfraZone(record: Record<string, string>): InfraZoneMapResult {
       type: typecom,
       code,
       parentCommuneCode,
-      name: name.trim()
+      name: name.trim(),
+      slug: infraZoneSlug(name, typecom, code)
     }
   };
+}
+
+type RegionMapResult = { row: RegionInsert } | { skip: "invalid" };
+
+function mapToRegion(record: Record<string, string>): RegionMapResult {
+  const normalized = normalizeRecord(record);
+  const code = normalizeCode(
+    pickValue(normalized, ["reg", "code", "region_code"])
+  );
+  const name = pickValue(normalized, ["libelle", "name", "nom"]);
+
+  if (!code || !name) return { skip: "invalid" };
+
+  return { row: { code, name: name.trim() } };
+}
+
+type DepartmentMapResult = { row: DepartmentInsert } | { skip: "invalid" };
+
+function mapToDepartment(record: Record<string, string>): DepartmentMapResult {
+  const normalized = normalizeRecord(record);
+  const code = normalizeCode(
+    pickValue(normalized, ["dep", "code", "department_code"])
+  );
+  const name = pickValue(normalized, ["libelle", "name", "nom"]);
+  const regionCode = normalizeCode(pickValue(normalized, ["reg", "region_code"]));
+
+  if (!code || !name) return { skip: "invalid" };
+
+  return { row: { code, name: name.trim(), regionCode } };
+}
+
+async function flushRegionBatch(
+  db: Db | null,
+  batch: Map<string, RegionInsert>,
+  dryRun: boolean
+): Promise<number> {
+  if (batch.size === 0) return 0;
+
+  const values = Array.from(batch.values());
+  batch.clear();
+
+  if (dryRun) return values.length;
+  if (!db) throw new Error("Database connection is not initialized.");
+
+  await db
+    .insertInto("region")
+    .values(values)
+    .onConflict((oc) =>
+      oc.column("code").doUpdateSet((eb) => ({
+        name: eb.ref("excluded.name"),
+        updatedAt: sql`now()`
+      }))
+    )
+    .execute();
+
+  return values.length;
+}
+
+async function flushDepartmentBatch(
+  db: Db | null,
+  batch: Map<string, DepartmentInsert>,
+  dryRun: boolean
+): Promise<number> {
+  if (batch.size === 0) return 0;
+
+  const values = Array.from(batch.values());
+  batch.clear();
+
+  if (dryRun) return values.length;
+  if (!db) throw new Error("Database connection is not initialized.");
+
+  await db
+    .insertInto("department")
+    .values(values)
+    .onConflict((oc) =>
+      oc.column("code").doUpdateSet((eb) => ({
+        name: eb.ref("excluded.name"),
+        regionCode: eb.ref("excluded.regionCode"),
+        updatedAt: sql`now()`
+      }))
+    )
+    .execute();
+
+  return values.length;
 }
 
 async function flushCommuneBatch(
@@ -359,6 +537,7 @@ async function flushCommuneBatch(
     .onConflict((oc) =>
       oc.column("inseeCode").doUpdateSet((eb) => ({
         name: eb.ref("excluded.name"),
+        slug: eb.ref("excluded.slug"),
         population: eb.ref("excluded.population"),
         departmentCode: eb.ref("excluded.departmentCode"),
         regionCode: eb.ref("excluded.regionCode"),
@@ -392,12 +571,137 @@ async function flushInfraBatch(
       oc.columns(["type", "code"]).doUpdateSet((eb) => ({
         parentCommuneCode: eb.ref("excluded.parentCommuneCode"),
         name: eb.ref("excluded.name"),
+        slug: eb.ref("excluded.slug"),
         updatedAt: sql`now()`
       }))
     )
     .execute();
 
   return values.length;
+}
+
+async function importRegions(
+  db: Db | null,
+  sourcePath: string,
+  delimiter: string,
+  options: ImportOptions
+): Promise<void> {
+  const { stream, entryName } = await openCsvStream(sourcePath);
+  if (entryName) {
+    console.log(`Using CSV entry: ${entryName}`);
+  }
+
+  const parser = parse({
+    columns: true,
+    delimiter,
+    bom: true,
+    trim: true,
+    relax_column_count: true,
+    skip_empty_lines: true
+  });
+
+  stream.pipe(parser);
+
+  const batch = new Map<string, RegionInsert>();
+  let seen = 0;
+  let selected = 0;
+  let skipped = 0;
+  let written = 0;
+
+  for await (const record of parser) {
+    seen += 1;
+    const mapped = mapToRegion(record as Record<string, string>);
+    if ("skip" in mapped) {
+      skipped += 1;
+      continue;
+    }
+
+    selected += 1;
+    batch.set(mapped.row.code, mapped.row);
+
+    if (batch.size >= BATCH_SIZE) {
+      written += await flushRegionBatch(db, batch, options.dryRun);
+    }
+
+    if (options.limit && selected >= options.limit) {
+      parser.destroy();
+      break;
+    }
+
+    if (seen % LOG_EVERY === 0) {
+      console.log(
+        `Region pass: ${seen} rows (selected ${selected}, written ${written}, skipped ${skipped})`
+      );
+    }
+  }
+
+  written += await flushRegionBatch(db, batch, options.dryRun);
+
+  console.log(
+    `Region pass done. Rows: ${seen}. Selected: ${selected}. Written: ${written}. Skipped: ${skipped}.`
+  );
+}
+
+async function importDepartments(
+  db: Db | null,
+  sourcePath: string,
+  delimiter: string,
+  options: ImportOptions
+): Promise<void> {
+  const { stream, entryName } = await openCsvStream(sourcePath);
+  if (entryName) {
+    console.log(`Using CSV entry: ${entryName}`);
+  }
+
+  const parser = parse({
+    columns: true,
+    delimiter,
+    bom: true,
+    trim: true,
+    relax_column_count: true,
+    skip_empty_lines: true
+  });
+
+  stream.pipe(parser);
+
+  const batch = new Map<string, DepartmentInsert>();
+  let seen = 0;
+  let selected = 0;
+  let skipped = 0;
+  let written = 0;
+
+  for await (const record of parser) {
+    seen += 1;
+    const mapped = mapToDepartment(record as Record<string, string>);
+    if ("skip" in mapped) {
+      skipped += 1;
+      continue;
+    }
+
+    selected += 1;
+    batch.set(mapped.row.code, mapped.row);
+
+    if (batch.size >= BATCH_SIZE) {
+      written += await flushDepartmentBatch(db, batch, options.dryRun);
+    }
+
+    if (options.limit && selected >= options.limit) {
+      parser.destroy();
+      break;
+    }
+
+    if (seen % LOG_EVERY === 0) {
+      console.log(
+        `Department pass: ${seen} rows (selected ${selected}, written ${written}, skipped ${skipped})`
+      );
+    }
+  }
+
+  written += await flushDepartmentBatch(db, batch, options.dryRun);
+
+  console.log(
+    `Department pass done. Rows: ${seen}. Selected: ${selected}. Written: ${written}. Skipped: ${skipped}.`
+  );
 }
 
 async function importCommunes(
@@ -555,17 +859,37 @@ async function run(): Promise<void> {
     process.exit(1);
   }
 
+  const regionPath = await resolveSourceFile(options.regionSource, options.force);
+  const regionDelimiter = await detectDelimiter(regionPath);
+
+  const departmentPath = await resolveSourceFile(
+    options.departmentSource,
+    options.force
+  );
+  const departmentDelimiter = await detectDelimiter(departmentPath);
+
   const sourcePath = await resolveSourceFile(options.source, options.force);
   const delimiter = await detectDelimiter(sourcePath);
+
+  let postalPath: string | null = null;
+  let postalDelimiter: string | null = null;
+  if (!options.skipPostal) {
+    postalPath = await resolveSourceFile(options.postalSource, options.force);
+    postalDelimiter = await detectDelimiter(postalPath);
+  }
 
   const db = options.dryRun ? null : createDb(dbUrl);
 
   try {
+    await importRegions(db, regionPath, regionDelimiter, options);
+    await importDepartments(db, departmentPath, departmentDelimiter, options);
+
     const shouldImportCommunes =
       !options.onlyType || options.onlyType === "COM";
     const shouldImportInfra =
       options.includeInfra &&
       (!options.onlyType || options.onlyType !== "COM");
+    const shouldImportPostalCodes = shouldImportCommunes && !options.skipPostal;
 
     if (shouldImportCommunes) {
       await importCommunes(db, sourcePath, delimiter, options);
@@ -577,6 +901,15 @@ async function run(): Promise<void> {
           ? (options.onlyType as InfraZoneType)
           : undefined;
       await importInfraZones(db, sourcePath, delimiter, options, infraOnlyType);
+    }
+
+    if (shouldImportPostalCodes && postalPath && postalDelimiter) {
+      await importPostalCodes(db, {
+        sourcePath: postalPath,
+        delimiter: postalDelimiter,
+        dryRun: options.dryRun,
+        limit: options.postalLimit
+      });
     }
   } finally {
     await db?.destroy();
