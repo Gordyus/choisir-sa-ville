@@ -39,6 +39,8 @@ pnpm -C packages/importer import:insee --postal-limit 5000
 - `--limit` applies per phase.
 - `--postal-limit` applies only to the postal code import phase.
 - Slugs are generated deterministically from names + codes during import.
+- Postal codes also carry latitude/longitude; the importer averages per commune
+  and fills missing `commune.lat`/`commune.lon`.
 
 ## Sources (Defaults)
 AUTHORITATIVE (INSEE COG):
@@ -106,4 +108,5 @@ Postal pass: 50000 rows (valid 50000, unique 50000, skipped 0, batchDup 0)
 Postal pass done. Rows: 39000. Valid pairs: 39000. Unique pairs: 39000. Attempted inserts: 39000. Skipped: 0. Batch duplicates: 0.
 Postal skip reasons (top 5): missing_commune=0, invalid_commune=0, unknown_commune=0, missing_postal=0, invalid_postal=0
 Postal inserted pairs: 39000
+Postal coordinates: updated 32000 commune(s) with lat/lon.
 ```

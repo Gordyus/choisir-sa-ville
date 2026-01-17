@@ -193,6 +193,38 @@ Query :
 Erreurs possibles :
 - `400 VALIDATION_ERROR`
 
+### GET /cities/bbox
+Charge les cities visibles dans une zone (map).
+
+Query :
+- `minLat` (number) : requis
+- `minLon` (number) : requis
+- `maxLat` (number) : requis
+- `maxLon` (number) : requis
+- `limit` (int) : 1..200 – défaut 200
+- `offset` (int) : >= 0 – défaut 0
+
+**200**
+```json
+{
+  "items": [
+    {
+      "inseeCode": "75056",
+      "name": "Paris",
+      "slug": "paris-75056",
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "departmentCode": "75",
+      "regionCode": "11"
+    }
+  ],
+  "meta": { "limit": 200, "offset": 0 }
+}
+```
+
+Erreurs possibles :
+- `400 VALIDATION_ERROR`
+
 ### GET /cities/:id
 Details d'une city (data source: commune). `id` = 5 chiffres ou slug.
 
