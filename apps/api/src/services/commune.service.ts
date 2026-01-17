@@ -12,6 +12,16 @@ export type CityListItem = {
   lon: number | null;
 };
 
+export type CityMarkerItem = {
+  inseeCode: string;
+  name: string;
+  slug: string;
+  lat: number;
+  lon: number;
+  departmentCode: string | null;
+  regionCode: string | null;
+};
+
 export type CityDetails = CityListItem & {
   departmentName: string | null;
   regionName: string | null;
@@ -55,6 +65,54 @@ export async function listCities(
     .limit(query.limit)
     .offset(query.offset)
     .execute();
+}
+
+export async function listCitiesByBBox(
+  db: Db,
+  query: {
+    minLat: number;
+    minLon: number;
+    maxLat: number;
+    maxLon: number;
+    limit: number;
+    offset: number;
+  }
+): Promise<CityMarkerItem[]> {
+  const rows = await db
+    .selectFrom("commune")
+    .select([
+      "inseeCode",
+      "name",
+      "slug",
+      "lat",
+      "lon",
+      "departmentCode",
+      "regionCode"
+    ])
+    .where("lat", "is not", null)
+    .where("lon", "is not", null)
+    .where("lat", ">=", query.minLat)
+    .where("lat", "<=", query.maxLat)
+    .where("lon", ">=", query.minLon)
+    .where("lon", "<=", query.maxLon)
+    .orderBy(sql`commune.population IS NULL`, "asc")
+    .orderBy("commune.population", "desc")
+    .orderBy("name", "asc")
+    .limit(query.limit)
+    .offset(query.offset)
+    .execute();
+
+  return rows
+    .filter((row) => row.lat !== null && row.lon !== null)
+    .map((row) => ({
+      inseeCode: row.inseeCode,
+      name: row.name,
+      slug: row.slug,
+      lat: row.lat as number,
+      lon: row.lon as number,
+      departmentCode: row.departmentCode,
+      regionCode: row.regionCode
+    }));
 }
 
 export async function getCityByInseeCode(

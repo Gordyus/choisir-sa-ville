@@ -1,6 +1,7 @@
 import type { FastifyPluginAsync } from "fastify";
 import {
   CityByCommuneCodeParams,
+  CityBBoxQuery,
   CityByIdParams,
   CitySearchQuery,
   InfraZoneListQuery
@@ -10,7 +11,8 @@ import { notFound } from "../errors/domain-error.js";
 import {
   getCityByInseeCode,
   getCityDetailsById,
-  listCities
+  listCities,
+  listCitiesByBBox
 } from "../services/commune.service.js";
 import {
   findInfraZoneByCodeOrSlug,
@@ -22,6 +24,19 @@ export function citiesRoute(db: Db): FastifyPluginAsync {
     app.get("/cities", async (req) => {
       const query = CitySearchQuery.parse(req.query);
       const rows = await listCities(db, query);
+
+      return {
+        items: rows,
+        meta: {
+          limit: query.limit,
+          offset: query.offset
+        }
+      };
+    });
+
+    app.get("/cities/bbox", async (req) => {
+      const query = CityBBoxQuery.parse(req.query);
+      const rows = await listCitiesByBBox(db, query);
 
       return {
         items: rows,
