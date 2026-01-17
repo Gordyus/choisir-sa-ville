@@ -20,6 +20,10 @@ export const CityByCommuneCodeParams = z.object({
   communeCode: z.string().regex(/^\d{5}$/)
 });
 
+export const CityByIdParams = z.object({
+  id: z.string().regex(/^(\d{5}|[a-z0-9]+(?:-[a-z0-9]+)*)$/)
+});
+
 export const InfraZoneListQuery = z.object({
   type: z.enum(["ARM", "COMD", "COMA"]).optional(),
   limit: z.coerce.number().int().min(1).max(50).default(50),

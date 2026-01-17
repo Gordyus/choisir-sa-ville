@@ -7,11 +7,15 @@ export type City = {
 export type Commune = {
   inseeCode: string;
   name: string;
+  slug: string;
   population: number | null;
   departmentCode: string | null;
   regionCode: string | null;
   lat: number | null;
   lon: number | null;
+  departmentName?: string | null;
+  regionName?: string | null;
+  postalCodes?: string[];
 };
 
 export type InfraZoneType = "ARM" | "COMD" | "COMA";
@@ -22,4 +26,16 @@ export type InfraZone = {
   code: string;
   parentCommuneCode: string;
   name: string;
+  slug: string;
+};
+
+export type Region = {
+  code: string;
+  name: string;
+};
+
+export type Department = {
+  code: string;
+  name: string;
+  regionCode: string | null;
 };
