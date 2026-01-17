@@ -1,6 +1,6 @@
-# Coding Rules – Choisir Sa Ville
+# Coding Rules
 
-- Code simple, lisible, maintenable
-- Pas d’over-engineering
-- Types partagés
-- Une responsabilité par module
+- TypeScript strict
+- Pas de logique métier dans les routes
+- Validation Zod systématique
+- Pas d’accès DB direct depuis l’API

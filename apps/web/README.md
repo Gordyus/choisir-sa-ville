@@ -1,7 +1,9 @@
-# apps/web – Choisir Sa Ville
+# @csv/web (stub)
 
-Frontend public SEO-first.
+Front app placeholder.
 
-- Pages villes / quartiers
-- Aucune logique métier
-- Performance et crawlabilité prioritaires
+We keep the MVP **host-agnostic**:
+- you can use Astro / Next.js / Angular
+- deploy on Cloudflare Pages, Vercel, OVH, etc.
+
+When you pick the front stack, we will bootstrap this folder accordingly.

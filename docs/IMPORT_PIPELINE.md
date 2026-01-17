@@ -1,5 +1,6 @@
-# Import Pipeline – Choisir Sa Ville
+# Import Pipeline
 
-- Données publiques officielles
-- Pipeline unique France entière
-- Normalisation stricte
+- Données publiques (INSEE, IGN, etc.)
+- Import via scripts dédiés
+- Jamais depuis l’API runtime
+- Traçabilité des sources obligatoire

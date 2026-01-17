@@ -1,5 +1,10 @@
-# Data Contract – Choisir Sa Ville
+# Data Contract
 
-- Sources publiques uniquement
-- Traitement uniforme
-- Slugs et identifiants stables
+Les données exposées par l’API sont :
+- versionnées
+- documentées
+- stables
+
+Toute modification implique :
+- migration
+- mise à jour doc

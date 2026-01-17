@@ -1,21 +1,47 @@
-# Choisir Sa Ville
+# ChoisirSaVille – MVP / POC (Local Dev Skeleton)
 
-**Choisir Sa Ville** est une plateforme d’aide à la décision pour les personnes souhaitant
-**déménager, louer ou acheter** un logement en France.
+This repository is a **portable** (host-agnostic) baseline:
+- API: **Node.js 20 + Fastify** (performance-oriented)
+- DB: **PostgreSQL** (Docker for local dev)
+- Monorepo: **PNPM workspaces**
+- Strict boundaries:
+  - `packages/core`: domain logic + types (no infra)
+  - `packages/db`: database access + migrations
+  - `apps/api`: HTTP adapter (no business logic)
 
-Le projet répond à une question centrale :
-> *Quelle ville (ou quel quartier) choisir pour bien habiter ?*
+## Prerequisites
+- Node.js 20+
+- pnpm (`corepack enable` recommended)
+- Docker + Docker Compose
 
----
+## Quickstart
+```bash
+cp .env.example .env
+pnpm install
+docker compose up -d
+pnpm db:migrate
+pnpm dev
+```
 
-## Vision
+Then:
+- API health: http://localhost:8787/health
 
-- Aider les utilisateurs à comparer villes et quartiers
-- Fournir des indicateurs clairs, explicables et objectifs
-- Couvrir l’ensemble du territoire français de manière uniforme
+## Useful commands
+```bash
+pnpm dev            # run API in watch mode
+pnpm db:migrate     # apply migrations
+pnpm db:reset       # drop & recreate schema (dev only)
+pnpm lint
+pnpm typecheck
+```
 
----
-
-## Domaine
-
-🌐 https://choisirsaville.fr
+## Project structure
+```
+apps/
+  api/              # Fastify HTTP API
+  web/              # (stub) front app placeholder
+packages/
+  core/             # domain types + validation
+  db/               # Kysely + migrations
+docs/               # project documentation
+```

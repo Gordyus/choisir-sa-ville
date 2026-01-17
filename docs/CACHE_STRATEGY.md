@@ -1,5 +1,8 @@
-# Cache Strategy – Choisir Sa Ville
+# Cache Strategy
 
-- Cache-first
-- TTL longs pour données statiques
-- Aucun recalcul inutile
+Objectif : réduire les calculs coûteux et appels DB.
+
+- Cache en mémoire en local
+- Interface Cache abstraite
+- Implémentation Redis/KV possible en prod
+- TTL explicite par use-case
