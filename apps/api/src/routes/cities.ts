@@ -1,14 +1,19 @@
 import type { FastifyPluginAsync } from "fastify";
 import {
   CityByCommuneCodeParams,
+  CityByIdParams,
   CitySearchQuery,
   InfraZoneListQuery
 } from "@csv/core";
 import type { Db } from "@csv/db";
 import { notFound } from "../errors/domain-error.js";
-import { getCityByInseeCode, listCities } from "../services/commune.service.js";
 import {
-  findInfraZoneByCode,
+  getCityByInseeCode,
+  getCityDetailsById,
+  listCities
+} from "../services/commune.service.js";
+import {
+  findInfraZoneByCodeOrSlug,
   listInfraZones
 } from "../services/infra-zone.service.js";
 
@@ -27,19 +32,19 @@ export function citiesRoute(db: Db): FastifyPluginAsync {
       };
     });
 
-    app.get("/cities/:communeCode", async (req) => {
-      const params = CityByCommuneCodeParams.parse(req.params);
-      const city = await getCityByInseeCode(db, params.communeCode);
+    app.get("/cities/:id", async (req) => {
+      const params = CityByIdParams.parse(req.params);
+      const city = await getCityDetailsById(db, params.id);
 
       if (!city) {
-        const infraZone = await findInfraZoneByCode(db, params.communeCode);
+        const infraZone = await findInfraZoneByCodeOrSlug(db, params.id);
         if (infraZone) {
           throw notFound("City not found", {
             kind: "INFRA_ZONE_CODE",
             hint: `Use /cities/${infraZone.parentCommuneCode}/infra-zones?type=${infraZone.type}`
           });
         }
-        throw notFound("City not found", { communeCode: params.communeCode });
+        throw notFound("City not found", { id: params.id });
       }
 
       return city;
@@ -51,7 +56,7 @@ export function citiesRoute(db: Db): FastifyPluginAsync {
       const city = await getCityByInseeCode(db, params.communeCode);
 
       if (!city) {
-        const infraZone = await findInfraZoneByCode(db, params.communeCode);
+        const infraZone = await findInfraZoneByCodeOrSlug(db, params.communeCode);
         if (infraZone) {
           throw notFound("City not found", {
             kind: "INFRA_ZONE_CODE",

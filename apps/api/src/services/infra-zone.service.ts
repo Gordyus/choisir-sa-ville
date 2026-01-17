@@ -5,11 +5,12 @@ export type InfraZoneListItem = {
   code: string;
   parentCommuneCode: string;
   name: string;
+  slug: string;
 };
 
 export type InfraZoneCodeInfo = Pick<
   InfraZoneListItem,
-  "type" | "code" | "parentCommuneCode"
+  "type" | "code" | "parentCommuneCode" | "slug"
 >;
 
 export async function listInfraZones(
@@ -23,7 +24,7 @@ export async function listInfraZones(
 ): Promise<InfraZoneListItem[]> {
   let query = db
     .selectFrom("infra_zone")
-    .select(["type", "code", "parentCommuneCode", "name"])
+    .select(["type", "code", "parentCommuneCode", "name", "slug"])
     .where("parentCommuneCode", "=", params.parentCommuneCode);
 
   if (params.type) {
@@ -45,8 +46,23 @@ export async function findInfraZoneByCode(
 ): Promise<InfraZoneCodeInfo | null> {
   const row = await db
     .selectFrom("infra_zone")
-    .select(["type", "code", "parentCommuneCode"])
+    .select(["type", "code", "parentCommuneCode", "slug"])
     .where("code", "=", code)
+    .executeTakeFirst();
+
+  return row ?? null;
+}
+
+export async function findInfraZoneByCodeOrSlug(
+  db: Db,
+  id: string
+): Promise<InfraZoneCodeInfo | null> {
+  const row = await db
+    .selectFrom("infra_zone")
+    .select(["type", "code", "parentCommuneCode", "slug"])
+    .where((eb) =>
+      eb.or([eb("code", "=", id), eb("slug", "=", id)])
+    )
     .executeTakeFirst();
 
   return row ?? null;
