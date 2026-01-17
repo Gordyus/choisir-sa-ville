@@ -93,6 +93,24 @@ Voir `docs/LOCALITY_MODEL.md` pour le détail complet.
 - Accès DB via Kysely
 - Migrations obligatoires, versionnées
 
+### Naming conventions (NON NEGOTIABLE)
+
+Database, TypeScript, and API JSON fields MUST use the same naming.
+
+- Column names: camelCase (e.g. inseeCode, parentCommuneCode)
+- TypeScript fields: camelCase
+- API JSON fields: camelCase
+
+Do NOT use snake_case in database columns.
+Do NOT auto-lowercase identifiers.
+PostgreSQL is case-sensitive only when quoted; Kysely uses quoted identifiers.
+
+This rule exists to:
+
+- avoid mapping layers
+- reduce IA and human errors
+- keep DB <-> code alignment
+
 ### Règles SQL
 
 - ❌ aucune requête SQL dans `packages/core`

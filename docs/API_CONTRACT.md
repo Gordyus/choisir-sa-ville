@@ -167,7 +167,7 @@ But : vérifier que l’API répond.
 Recherche simple de cities (communes INSEE).
 
 Query :
-- `q` (string) : terme recherche (min 1) **requis**
+- `q` (string) : terme recherche (min 1) **requis** (nom, slug ou code postal)
 - `limit` (int) : 1..50 – défaut 10
 - `offset` (int) : >= 0 – défaut 0 (si implémenté)
 
@@ -178,6 +178,7 @@ Query :
     {
       "inseeCode": "75056",
       "name": "Paris",
+      "slug": "paris-75056",
       "population": 2165423,
       "departmentCode": "75",
       "regionCode": "11",
@@ -192,19 +193,23 @@ Query :
 Erreurs possibles :
 - `400 VALIDATION_ERROR`
 
-### GET /cities/:communeCode
-Details d'une city (data source: commune). `communeCode` = 5 chiffres.
+### GET /cities/:id
+Details d'une city (data source: commune). `id` = 5 chiffres ou slug.
 
 **200**
 ```json
 {
   "inseeCode": "75056",
   "name": "Paris",
+  "slug": "paris-75056",
   "population": 2165423,
   "departmentCode": "75",
+  "departmentName": "Paris",
   "regionCode": "11",
+  "regionName": "?le-de-France",
   "lat": 48.8566,
-  "lon": 2.3522
+  "lon": 2.3522,
+  "postalCodes": ["75001", "75002", "75003"]
 }
 ```
 
@@ -212,7 +217,7 @@ Erreurs possibles :
 - `400 VALIDATION_ERROR`
 - `404 NOT_FOUND`
 
-Note: if `communeCode` matches an infra-zone code, response is `404 NOT_FOUND` with details.kind = `INFRA_ZONE_CODE`.
+Note: if `id` matches an infra-zone code or slug, response is `404 NOT_FOUND` with details.kind = `INFRA_ZONE_CODE`.
 
 ### GET /cities/:communeCode/infra-zones
 Liste des zones infra-communales pour une city (ARM, COMD, COMA).
@@ -230,7 +235,8 @@ Query :
       "type": "ARM",
       "code": "75111",
       "parentCommuneCode": "75056",
-      "name": "Paris 11e Arrondissement"
+      "name": "Paris 11e Arrondissement",
+      "slug": "paris-11e-arrondissement-arm-75111"
     }
   ],
   "meta": { "limit": 50, "offset": 0 }
