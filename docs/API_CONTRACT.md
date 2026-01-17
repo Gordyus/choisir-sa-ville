@@ -164,10 +164,10 @@ But : vérifier que l’API répond.
 ```
 
 ### GET /cities
-Recherche simple de cities (MVP).
+Recherche simple de cities (communes INSEE).
 
 Query :
-- `q` (string) : terme recherché (min 1) – défaut vide côté core, mais l’API peut imposer min 1
+- `q` (string) : terme recherche (min 1) **requis**
 - `limit` (int) : 1..50 – défaut 10
 - `offset` (int) : >= 0 – défaut 0 (si implémenté)
 
@@ -175,7 +175,15 @@ Query :
 ```json
 {
   "items": [
-    { "inseeCode": "75056", "name": "Paris", "population": 2165423 }
+    {
+      "inseeCode": "75056",
+      "name": "Paris",
+      "population": 2165423,
+      "departmentCode": "75",
+      "regionCode": "11",
+      "lat": 48.8566,
+      "lon": 2.3522
+    }
   ],
   "meta": { "limit": 10, "offset": 0 }
 }
@@ -184,8 +192,8 @@ Query :
 Erreurs possibles :
 - `400 VALIDATION_ERROR`
 
-### GET /cities/:idOrCode
-Details d'une city (data source: commune).
+### GET /cities/:communeCode
+Details d'une city (data source: commune). `communeCode` = 5 chiffres.
 
 **200**
 ```json
@@ -204,7 +212,9 @@ Erreurs possibles :
 - `400 VALIDATION_ERROR`
 - `404 NOT_FOUND`
 
-### GET /cities/:idOrCode/infra-zones
+Note: if `communeCode` matches an infra-zone code, response is `404 NOT_FOUND` with details.kind = `INFRA_ZONE_CODE`.
+
+### GET /cities/:communeCode/infra-zones
 Liste des zones infra-communales pour une city (ARM, COMD, COMA).
 
 Query :
@@ -217,7 +227,6 @@ Query :
 {
   "items": [
     {
-      "id": "ARM:75111",
       "type": "ARM",
       "code": "75111",
       "parentCommuneCode": "75056",

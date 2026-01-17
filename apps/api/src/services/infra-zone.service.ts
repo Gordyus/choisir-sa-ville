@@ -1,12 +1,16 @@
 import type { Db } from "@csv/db";
 
 export type InfraZoneListItem = {
-  id: string;
   type: "ARM" | "COMD" | "COMA";
   code: string;
   parentCommuneCode: string;
   name: string;
 };
+
+export type InfraZoneCodeInfo = Pick<
+  InfraZoneListItem,
+  "type" | "code" | "parentCommuneCode"
+>;
 
 export async function listInfraZones(
   db: Db,
@@ -19,12 +23,31 @@ export async function listInfraZones(
 ): Promise<InfraZoneListItem[]> {
   let query = db
     .selectFrom("infra_zone")
-    .select(["id", "type", "code", "parentCommuneCode", "name"])
+    .select(["type", "code", "parentCommuneCode", "name"])
     .where("parentCommuneCode", "=", params.parentCommuneCode);
 
   if (params.type) {
     query = query.where("type", "=", params.type);
   }
 
-  return query.orderBy("name", "asc").limit(params.limit).offset(params.offset).execute();
+  return query
+    .orderBy("type", "asc")
+    .orderBy("code", "asc")
+    .orderBy("name", "asc")
+    .limit(params.limit)
+    .offset(params.offset)
+    .execute();
+}
+
+export async function findInfraZoneByCode(
+  db: Db,
+  code: string
+): Promise<InfraZoneCodeInfo | null> {
+  const row = await db
+    .selectFrom("infra_zone")
+    .select(["type", "code", "parentCommuneCode"])
+    .where("code", "=", code)
+    .executeTakeFirst();
+
+  return row ?? null;
 }
