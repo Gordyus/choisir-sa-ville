@@ -1,4 +1,4 @@
-import type { Kysely } from "kysely";
+import type { Insertable, Kysely } from "kysely";
 import type { Database } from "../src/types.js";
 
 export async function up(db: Kysely<Database>): Promise<void> {
@@ -12,13 +12,15 @@ export async function up(db: Kysely<Database>): Promise<void> {
   await db.schema.createIndex("city_name_idx").on("city").column("name").execute();
 
   // Minimal seed (dev convenience)
+  const seed: Insertable<Database["city"]>[] = [
+    { inseeCode: "75056", name: "Paris", population: 2165423 },
+    { inseeCode: "69123", name: "Lyon", population: 522250 },
+    { inseeCode: "13055", name: "Marseille", population: 873076 }
+  ] as unknown as Insertable<Database["city"]>[];
+
   await db
     .insertInto("city")
-    .values([
-      { inseeCode: "75056", name: "Paris", population: 2165423 },
-      { inseeCode: "69123", name: "Lyon", population: 522250 },
-      { inseeCode: "13055", name: "Marseille", population: 873076 }
-    ])
+    .values(seed)
     .execute();
 }
 
