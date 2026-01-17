@@ -1,6 +1,6 @@
 import { parse } from "csv-parse";
 import type { Db, Database } from "@csv/db";
-import type { Insertable } from "kysely";
+import { sql, type Insertable } from "kysely";
 import fs from "node:fs";
 import fsPromises from "node:fs/promises";
 import { Readable } from "node:stream";
@@ -42,6 +42,13 @@ const POSTAL_KEYS = [
   "codepostal",
   "cp"
 ].map((key) => key.toLowerCase());
+
+const LAT_KEYS = ["latitude", "lat", "geo_latitude", "latitude_commune"].map((key) =>
+  key.toLowerCase()
+);
+const LON_KEYS = ["longitude", "lon", "geo_longitude", "longitude_commune"].map((key) =>
+  key.toLowerCase()
+);
 
 const DEFAULT_LOG_EVERY = 50000;
 
@@ -96,6 +103,15 @@ function splitPostalValues(value: string): string[] {
   return [value.trim()];
 }
 
+function parseCoordinate(value: string | undefined): number | null {
+  if (!value) return null;
+  const trimmed = value.trim();
+  if (trimmed.length === 0) return null;
+  const normalized = trimmed.replace(",", ".");
+  const parsed = Number.parseFloat(normalized);
+  return Number.isNaN(parsed) ? null : parsed;
+}
+
 async function openCsvStream(filePath: string): Promise<{
   stream: Readable;
   entryName?: string;
@@ -148,9 +164,23 @@ async function detectDelimiter(filePath: string): Promise<string> {
   return semicolons >= commas ? ";" : ",";
 }
 
-async function loadCommuneCodes(db: Db): Promise<Set<string>> {
-  const rows = await db.selectFrom("commune").select("inseeCode").execute();
-  return new Set(rows.map((row) => row.inseeCode));
+async function loadCommuneState(db: Db): Promise<{
+  communeCodes: Set<string>;
+  missingCoordinateCodes: Set<string>;
+}> {
+  const rows = await db
+    .selectFrom("commune")
+    .select(["inseeCode", "lat", "lon"])
+    .execute();
+  const communeCodes = new Set<string>();
+  const missingCoordinateCodes = new Set<string>();
+  for (const row of rows) {
+    communeCodes.add(row.inseeCode);
+    if (row.lat === null || row.lon === null) {
+      missingCoordinateCodes.add(row.inseeCode);
+    }
+  }
+  return { communeCodes, missingCoordinateCodes };
 }
 
 async function flushPostalBatch(
@@ -193,6 +223,45 @@ function summarizeSkips(skipped: Record<string, number>): string {
     .join(", ");
 }
 
+type CoordinateAggregate = {
+  sumLat: number;
+  sumLon: number;
+  count: number;
+};
+
+async function updateCommuneCoordinates(
+  db: Db | null,
+  coordinates: Map<string, CoordinateAggregate>,
+  dryRun: boolean
+): Promise<number> {
+  if (coordinates.size === 0) return 0;
+  if (dryRun || !db) return coordinates.size;
+
+  let updated = 0;
+  for (const [communeCode, aggregate] of coordinates) {
+    if (aggregate.count === 0) continue;
+    const lat = aggregate.sumLat / aggregate.count;
+    const lon = aggregate.sumLon / aggregate.count;
+    const result = await db
+      .updateTable("commune")
+      .set({
+        lat: sql`COALESCE("commune"."lat", ${lat})`,
+        lon: sql`COALESCE("commune"."lon", ${lon})`,
+        updatedAt: sql`now()`
+      })
+      .where("inseeCode", "=", communeCode)
+      .where((eb) => eb.or([eb("lat", "is", null), eb("lon", "is", null)]))
+      .executeTakeFirst();
+
+    const count = result?.numUpdatedRows ? Number(result.numUpdatedRows) : 0;
+    if (!Number.isNaN(count)) {
+      updated += count;
+    }
+  }
+
+  return updated;
+}
+
 export async function importPostalCodes(
   db: Db | null,
   options: PostalImportOptions
@@ -214,8 +283,11 @@ export async function importPostalCodes(
 
   stream.pipe(parser);
 
-  const communeCodes = db ? await loadCommuneCodes(db) : null;
+  const communeState = db ? await loadCommuneState(db) : null;
+  const communeCodes = communeState?.communeCodes ?? null;
+  const missingCoordinateCodes = communeState?.missingCoordinateCodes ?? null;
   const batch = new Map<string, CommunePostalCodeInsert>();
+  const coordinateCandidates = new Map<string, CoordinateAggregate>();
   const skipped: Record<string, number> = {
     missing_commune: 0,
     invalid_commune: 0,
@@ -236,6 +308,8 @@ export async function importPostalCodes(
   const logEvery = options.logEvery ?? DEFAULT_LOG_EVERY;
   let communeKey: string | null = null;
   let postalKey: string | null = null;
+  let latKey: string | null = null;
+  let lonKey: string | null = null;
   let loggedColumns = false;
   const samples: Array<{ communeCode: string; postalCode: string }> = [];
 
@@ -251,6 +325,12 @@ export async function importPostalCodes(
       }
       if (!postalKey) {
         postalKey = resolveColumn(normalized, POSTAL_KEYS);
+      }
+      if (!latKey) {
+        latKey = resolveColumn(normalized, LAT_KEYS);
+      }
+      if (!lonKey) {
+        lonKey = resolveColumn(normalized, LON_KEYS);
       }
       if (!loggedColumns && communeKey && postalKey) {
         console.log(`Postal columns: commune=${communeKey}, postal=${postalKey}`);
@@ -272,6 +352,28 @@ export async function importPostalCodes(
       if (communeCodes && !communeCodes.has(communeCode)) {
         skipped.unknown_commune += 1;
         continue;
+      }
+
+      if (latKey && lonKey) {
+        const rawLat = normalized[latKey];
+        const rawLon = normalized[lonKey];
+        const lat = parseCoordinate(rawLat);
+        const lon = parseCoordinate(rawLon);
+        if (lat !== null && lon !== null) {
+          const canUpdate =
+            !missingCoordinateCodes || missingCoordinateCodes.has(communeCode);
+          if (canUpdate) {
+            const aggregate = coordinateCandidates.get(communeCode) ?? {
+              sumLat: 0,
+              sumLon: 0,
+              count: 0
+            };
+            aggregate.sumLat += lat;
+            aggregate.sumLon += lon;
+            aggregate.count += 1;
+            coordinateCandidates.set(communeCode, aggregate);
+          }
+        }
       }
 
       const rawPostal = postalKey ? normalized[postalKey] : undefined;
@@ -371,6 +473,19 @@ export async function importPostalCodes(
     console.log(`Postal inserted pairs: ${stats.insertedPairs}`);
   } else {
     console.log("Postal inserted pairs: unknown (driver did not return counts)");
+  }
+
+  const updatedCommunes = await updateCommuneCoordinates(
+    db,
+    coordinateCandidates,
+    options.dryRun
+  );
+  if (options.dryRun || !db) {
+    console.log(
+      `Postal coordinates: would update ${updatedCommunes} commune(s) with lat/lon.`
+    );
+  } else {
+    console.log(`Postal coordinates: updated ${updatedCommunes} commune(s) with lat/lon.`);
   }
 
   return stats;
