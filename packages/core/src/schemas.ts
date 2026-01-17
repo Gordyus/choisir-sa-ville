@@ -12,6 +12,24 @@ export const CommuneSearchQuery = z.object({
 
 export const CitySearchQuery = CommuneSearchQuery;
 
+export const CityBBoxQuery = z
+  .object({
+    minLat: z.coerce.number(),
+    minLon: z.coerce.number(),
+    maxLat: z.coerce.number(),
+    maxLon: z.coerce.number(),
+    limit: z.coerce.number().int().min(1).max(200).default(200),
+    offset: z.coerce.number().int().min(0).default(0)
+  })
+  .refine((values) => values.minLat <= values.maxLat, {
+    message: "minLat must be <= maxLat",
+    path: ["minLat"]
+  })
+  .refine((values) => values.minLon <= values.maxLon, {
+    message: "minLon must be <= maxLon",
+    path: ["minLon"]
+  });
+
 export const CommuneByInseeCodeParams = z.object({
   inseeCode: z.string().length(5)
 });
