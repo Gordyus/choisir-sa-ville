@@ -1,9 +1,15 @@
-# @csv/web (stub)
+# @csv/web
 
-Front app placeholder.
+Front map POC for cities.
 
-We keep the MVP **host-agnostic**:
-- you can use Astro / Next.js / Angular
-- deploy on Cloudflare Pages, Vercel, OVH, etc.
+## Local dev
+
+```bash
+pnpm -C apps/web dev
+```
+
+## Notes
+- Configure the API base URL with `VITE_API_BASE_URL` (defaults to `http://localhost:8787`).
+- The map loads markers from `/cities/bbox` and details from `/cities/:id`.
 
 When you pick the front stack, we will bootstrap this folder accordingly.

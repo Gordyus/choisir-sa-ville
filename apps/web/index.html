@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choisir sa ville - Map POC</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="app-shell">
+        <main class="map-wrap">
+          <div id="map" class="map-canvas"></div>
+        </main>
+        <aside class="panel">
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow">Cities Explorer</p>
+              <h1>Choisir sa ville</h1>
+              <p class="subtitle">Live map of communes and infra context.</p>
+            </div>
+            <label class="search">
+              <span>Search</span>
+              <input
+                id="search"
+                type="text"
+                placeholder="Search coming soon"
+                disabled
+              />
+            </label>
+          </div>
+          <section id="details" class="panel-body"></section>
+          <div id="status" class="panel-status"></div>
+        </aside>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
