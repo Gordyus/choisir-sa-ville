@@ -44,11 +44,20 @@ export type CommunePostalCodeTable = {
   postalCode: string;
 };
 
+export type CacheStoreTable = {
+  key: string;
+  value: unknown;
+  expiresAt: Date;
+  createdAt: Generated<Date>;
+  updatedAt: Generated<Date>;
+};
+
 export type Database = {
   commune: CommuneTable;
   infra_zone: InfraZoneTable;
   region: RegionTable;
   department: DepartmentTable;
   commune_postal_code: CommunePostalCodeTable;
+  cache_store: CacheStoreTable;
   city: CommuneTable;
 };
