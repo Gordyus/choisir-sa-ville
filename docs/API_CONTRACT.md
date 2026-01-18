@@ -279,6 +279,45 @@ Erreurs possibles :
 - `400 VALIDATION_ERROR`
 - `404 NOT_FOUND`
 
+### POST /api/search
+Recherche de zones (cities/districts) sans blocage sur le calcul travel.
+
+Body :
+- `area` (object) : zone de recherche (MVP : bbox)
+  - `bbox.minLat` (number) requis
+  - `bbox.minLon` (number) requis
+  - `bbox.maxLat` (number) requis
+  - `bbox.maxLon` (number) requis
+- `filters` (object) : critères optionnels
+- `sort` (object) : `{ key, direction }` optionnel
+- `limit` (int) : 1..200 - défaut 50
+- `offset` (int) : >= 0 - défaut 0
+- `travel` (object) : optionnel, peut être présent mais ignoré pour ce endpoint
+
+**200**
+```json
+{
+  "items": [
+    {
+      "zoneId": "75056",
+      "zoneName": "Paris",
+      "type": "city",
+      "centroid": { "lat": 48.8566, "lng": 2.3522 },
+      "attributes": {
+        "population": 2165423,
+        "departmentCode": "75",
+        "regionCode": "11"
+      },
+      "travel": null
+    }
+  ],
+  "meta": { "limit": 50, "offset": 0, "total": 123 }
+}
+```
+
+Erreurs possibles :
+- `400 VALIDATION_ERROR`
+
 ---
 
 ## 6) Versioning

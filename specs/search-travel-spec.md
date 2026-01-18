@@ -121,7 +121,7 @@ Conversion
 - area: search area descriptor
 - filters: key value constraints
 - sort: column and direction
-- pagination: page, pageSize
+- pagination: limit, offset
 - travel optional
   - enabled: boolean
   - destinationAddress: string
@@ -174,7 +174,7 @@ Input
 Output
 
 - items: ZoneResultRow without travel, or with travel set to null
-- meta: total, page, pageSize
+- meta: total, limit, offset
 
 ### 5.2 POST /api/travel/matrix
 

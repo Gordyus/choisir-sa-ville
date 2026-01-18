@@ -131,10 +131,10 @@ Acceptance criteria
   - [ ] area (shape depends on your app: bbox, admin code, radius)
   - [ ] filters (criteria)
   - [ ] sort (criteria key)
-  - [ ] page, pageSize
+  - [ ] limit, offset
 - [ ] Response DTO:
   - [ ] items: ZoneResult[] (zone + attributes)
-  - [ ] meta: { page, pageSize, total }
+  - [ ] meta: { limit, offset, total }
 - [ ] Validate input (zod or equivalent)
 - [ ] Add basic pagination
 

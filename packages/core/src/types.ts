@@ -1,3 +1,5 @@
+import type { TravelStatus } from "./travel.js";
+
 export type City = {
   inseeCode: string;
   name: string;
@@ -58,4 +60,20 @@ export type Zone = {
   poiHub?: ZonePoiHub;
   geometry?: unknown;
   attributes: Record<string, number | string | boolean | null>;
+};
+
+export type ZoneResultTravel = {
+  distance_m?: number;
+  duration_s?: number;
+  status: TravelStatus;
+};
+
+export type ZoneResultRow = {
+  zoneId: string;
+  zoneName: string;
+  type: string;
+  centroid: ZonePoint;
+  poiHub?: ZonePoiHub;
+  attributes: Record<string, number | string | boolean | null>;
+  travel?: ZoneResultTravel | null;
 };

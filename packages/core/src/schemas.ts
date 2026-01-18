@@ -54,6 +54,53 @@ export const CityBBoxQuery = z
     path: ["minLon"]
   });
 
+export const SearchAreaSchema = z.object({
+  bbox: z
+    .object({
+      minLat: z.number(),
+      minLon: z.number(),
+      maxLat: z.number(),
+      maxLon: z.number()
+    })
+    .refine((values) => values.minLat <= values.maxLat, {
+      message: "minLat must be <= maxLat",
+      path: ["minLat"]
+    })
+    .refine((values) => values.minLon <= values.maxLon, {
+      message: "minLon must be <= maxLon",
+      path: ["minLon"]
+    })
+});
+
+export const SearchRequestSchema = z.object({
+  area: SearchAreaSchema,
+  filters: z
+    .record(z.union([z.number(), z.string(), z.boolean(), z.null()]))
+    .default({}),
+  sort: z
+    .object({
+      key: z.string(),
+      direction: z.enum(["asc", "desc"]).default("asc")
+    })
+    .optional(),
+  limit: z.coerce.number().int().min(1).max(200).default(50),
+  offset: z.coerce.number().int().min(0).default(0),
+  travel: z
+    .object({
+      enabled: z.boolean().default(false),
+      destinationAddress: z.string().optional(),
+      destination: z
+        .object({
+          lat: z.number(),
+          lng: z.number()
+        })
+        .optional(),
+      mode: z.enum(["car", "transit"]).optional(),
+      timeBucket: TimeBucketSchema.optional()
+    })
+    .optional()
+});
+
 export const CommuneByInseeCodeParams = z.object({
   inseeCode: z.string().length(5)
 });

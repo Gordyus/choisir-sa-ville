@@ -9,6 +9,8 @@ import { registerErrorHandler } from "./errors/error-handler.js";
 import { citiesRoute } from "./routes/cities.js";
 import { debugRoute } from "./routes/debug.js";
 import { healthRoute } from "./routes/health.js";
+import { searchRoute } from "./routes/search.js";
+import { createSearchService } from "./services/search.service.js";
 
 dotenv.config({
   path: path.resolve(process.cwd(), "../../.env")
@@ -26,9 +28,11 @@ await app.register(cors, { origin: true });
 registerErrorHandler(app);
 
 const db = createDb(env.DATABASE_URL);
+const searchService = createSearchService(db);
 
 await app.register(healthRoute);
 await app.register(citiesRoute(db));
+await app.register(searchRoute(searchService));
 if (env.NODE_ENV !== "production") {
   await app.register(debugRoute);
 }
