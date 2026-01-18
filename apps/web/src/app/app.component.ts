@@ -1,6 +1,5 @@
 import { Component, OnDestroy } from "@angular/core";
-import { AsyncPipe, NgFor, NgIf, NgSwitch, NgSwitchCase } from "@angular/common";
-import { FormsModule } from "@angular/forms";
+import { AsyncPipe, NgIf, NgSwitch, NgSwitchCase } from "@angular/common";
 import { combineLatest, map, startWith, take } from "rxjs";
 import { MapComponent } from "./map/map.component";
 import { MapDataService, type Viewport } from "./features/map/map-data.service";
@@ -12,6 +11,10 @@ import { TravelRouteService } from "./features/travel/travel-route.service";
 import { SearchAreaSuggestFacade } from "./features/search-area/search-area-suggest.facade";
 import { DestinationSuggestFacade } from "./features/travel/destination-suggest.facade";
 import { GeocodeService } from "./core/api/geocode.service";
+import { SearchAreaPanelComponent } from "./features/search-area/search-area-panel.component";
+import { TravelOptionsPanelComponent } from "./features/travel/travel-options-panel.component";
+import { ResultsTableComponent } from "./shared/ui/results-table.component";
+import { CityDetailsPanelComponent } from "./features/city-details/city-details-panel.component";
 import type { TravelMatrixResult, TravelMode } from "@csv/core";
 import {
   type GeocodeRequest,
@@ -26,11 +29,13 @@ import type { Subscription } from "rxjs";
   imports: [
     AsyncPipe,
     NgIf,
-    NgFor,
     NgSwitch,
     NgSwitchCase,
-    FormsModule,
-    MapComponent
+    MapComponent,
+    SearchAreaPanelComponent,
+    TravelOptionsPanelComponent,
+    ResultsTableComponent,
+    CityDetailsPanelComponent
   ],
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.css"]
@@ -124,6 +129,11 @@ export class AppComponent implements OnDestroy {
     this.searchService.search({ limit: 200, offset: 0 });
   }
 
+  updateQuery(value: string): void {
+    this.query = value;
+    this.onQueryInput();
+  }
+
   onQueryInput(): void {
     this.querySuggestionIndex = -1;
     this.resolvedAreaLabel = "";
@@ -167,10 +177,6 @@ export class AppComponent implements OnDestroy {
     this.mapData.requestPan({ lat: candidate.lat, lng: candidate.lng, zoom: 10 });
   }
 
-  suggestionBadge(candidate: GeocodeCandidate): string {
-    return formatSuggestionBadge(candidate.source);
-  }
-
   onDestinationInput(): void {
     this.clearTravelError();
     this.suggestionIndex = -1;
@@ -179,7 +185,7 @@ export class AppComponent implements OnDestroy {
     this.destinationSuggest.setQuery({
       query: this.destinationInput,
       enabled: this.travelEnabled,
-      selectedLabel: this.selectedCandidate?.label ?? null,
+      selectedLabel: null,
       viewport: this.mapData.getViewport()
     });
   }
@@ -300,7 +306,32 @@ export class AppComponent implements OnDestroy {
           this.isGeocoding = false;
           this.travelError = "Address lookup failed.";
         }
-      });
+    });
+  }
+
+  onTravelEnabledChange(value: boolean): void {
+    this.travelEnabled = value;
+    this.applyTravelOptions();
+  }
+
+  onDestinationInputChange(value: string): void {
+    this.destinationInput = value;
+    this.onDestinationInput();
+  }
+
+  onTravelModeChange(value: TravelMode): void {
+    this.travelMode = value;
+    this.applyTravelOptions();
+  }
+
+  onTravelDayChange(value: string): void {
+    this.travelDay = value;
+    this.clearTravelError();
+  }
+
+  onTravelTimeChange(value: string): void {
+    this.travelTime = value;
+    this.clearTravelError();
   }
 
   ngOnDestroy(): void {
@@ -319,34 +350,6 @@ export class AppComponent implements OnDestroy {
     this.selection.selectCity(zoneId);
   }
 
-  formatTravel(result: TravelMatrixResult | null, state: string): string {
-    if (!result) {
-      return state === "loading" ? "..." : "-";
-    }
-    if (result.status === "NO_ROUTE") return "--";
-    if (result.status !== "OK" || result.duration_s === undefined) return "!";
-    const minutes = Math.round(result.duration_s / 60);
-    return `${minutes} min`;
-  }
-
-  travelTitle(result: TravelMatrixResult | null): string {
-    if (!result) return "";
-    if (result.status === "ERROR") return "Travel lookup failed.";
-    if (result.status === "NO_ROUTE") return "No route available.";
-    return "";
-  }
-
-  formatDuration(seconds?: number): string {
-    if (seconds === undefined) return "-";
-    const minutes = Math.round(seconds / 60);
-    return `${minutes} min`;
-  }
-
-  formatDistance(meters?: number): string {
-    if (meters === undefined) return "-";
-    const km = meters / 1000;
-    return `${km.toFixed(1)} km`;
-  }
 }
 
 type ViewRow = {
@@ -425,19 +428,5 @@ function buildSearchArea(viewport: Viewport | null): SearchArea {
   };
 }
 
-function formatSuggestionBadge(source?: string): string {
-  switch (source) {
-    case "postalCode":
-      return "Code postal";
-    case "department":
-      return "Departement";
-    case "region":
-      return "Region";
-    case "commune":
-      return "Commune";
-    default:
-      return "Zone";
-  }
-}
 
 

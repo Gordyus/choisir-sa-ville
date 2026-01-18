@@ -1,0 +1,28 @@
+<form class="search" (ngSubmit)="onSubmit()">
+  <label>
+    <span>Search area</span>
+    <input
+      type="text"
+      name="searchArea"
+      [value]="query"
+      placeholder="City, postal code, region, department"
+      (input)="onInput($event)"
+      (keydown)="queryKey.emit($event)"
+    />
+  </label>
+  <ul class="geocode-suggestions" *ngIf="suggestions.length > 0">
+    <li
+      *ngFor="let candidate of suggestions; let i = index"
+      [class.active]="i === suggestionIndex"
+      (click)="candidateSelected.emit(candidate)"
+    >
+      <span class="suggestion-badge">{{ badgeFor(candidate) }}</span>
+      <span class="suggestion-label">{{ candidate.label }}</span>
+    </li>
+  </ul>
+  <span class="hint" *ngIf="isSuggesting">Searching locations...</span>
+  <span class="hint" *ngIf="resolvedAreaLabel">
+    Selected area: {{ resolvedAreaLabel }}
+  </span>
+  <button type="submit">Search this area</button>
+</form>

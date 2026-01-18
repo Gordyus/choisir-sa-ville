@@ -12,39 +12,17 @@
         <h1>Choisir sa ville</h1>
         <p class="subtitle">Live map of communes and infra context.</p>
       </div>
-      <form class="search" (ngSubmit)="runSearch()">
-        <label>
-          <span>Search area</span>
-          <input
-            type="text"
-            name="searchArea"
-            [(ngModel)]="query"
-            placeholder="City, postal code, region, department"
-            (input)="onQueryInput()"
-            (keydown)="onQueryKey($event)"
-          />
-        </label>
-        <ul
-          class="geocode-suggestions"
-          *ngIf="(querySuggestions$ | async)?.length ?? 0"
-        >
-          <li
-            *ngFor="let candidate of (querySuggestions$ | async) ?? []; let i = index"
-            [class.active]="i === querySuggestionIndex"
-            (click)="selectQueryCandidate(candidate)"
-          >
-            <span class="suggestion-badge">{{ suggestionBadge(candidate) }}</span>
-            <span class="suggestion-label">{{ candidate.label }}</span>
-          </li>
-        </ul>
-        <span class="hint" *ngIf="(isQuerySuggesting$ | async) === true">
-          Searching locations...
-        </span>
-        <span class="hint" *ngIf="resolvedAreaLabel">
-          Selected area: {{ resolvedAreaLabel }}
-        </span>
-        <button type="submit">Search this area</button>
-      </form>
+      <app-search-area-panel
+        [query]="query"
+        [suggestions]="(querySuggestions$ | async) ?? []"
+        [suggestionIndex]="querySuggestionIndex"
+        [isSuggesting]="(isQuerySuggesting$ | async) === true"
+        [resolvedAreaLabel]="resolvedAreaLabel"
+        (queryUpdated)="updateQuery($event)"
+        (queryKey)="onQueryKey($event)"
+        (candidateSelected)="selectQueryCandidate($event)"
+        (submitSearch)="runSearch()"
+      ></app-search-area-panel>
     </div>
     <section class="panel-section" *ngIf="viewState$ | async as viewState">
       <ng-container [ngSwitch]="viewState.status">
@@ -74,125 +52,37 @@
               <span>Showing {{ viewState.rows.length }} results</span>
             </div>
           </div>
-          <div class="detail-card">
-            <h3 class="detail-title">Travel options</h3>
-            <div class="detail-meta">
-              <label class="toggle">
-                <input type="checkbox" [(ngModel)]="travelEnabled" (change)="applyTravelOptions()" />
-                <span>Enable travel time</span>
-              </label>
-              <label>
-                <span>Destination address</span>
-                <input
-                  type="text"
-                  name="destination"
-                  [(ngModel)]="destinationInput"
-                  placeholder="10 Rue de la Paix, Paris"
-                  [disabled]="!travelEnabled"
-                  (input)="onDestinationInput()"
-                  (keydown)="onDestinationKey($event)"
-                />
-              </label>
-              <ul
-                class="geocode-suggestions"
-                *ngIf="travelEnabled && ((destinationSuggestions$ | async)?.length ?? 0)"
-              >
-                <li
-                  *ngFor="let candidate of (destinationSuggestions$ | async) ?? []; let i = index"
-                  [class.active]="i === suggestionIndex"
-                  (click)="selectCandidate(candidate)"
-                >
-                  {{ candidate.label }}
-                </li>
-              </ul>
-              <label>
-                <span>Mode</span>
-                <select
-                  name="mode"
-                  [(ngModel)]="travelMode"
-                  (change)="applyTravelOptions()"
-                  [disabled]="!travelEnabled"
-                >
-                  <option value="car">Car</option>
-                  <option value="transit">Transit</option>
-                </select>
-              </label>
-              <label>
-                <span>Arrive day</span>
-                <select
-                  name="travelDay"
-                  [(ngModel)]="travelDay"
-                  [disabled]="!travelEnabled"
-                  (change)="clearTravelError()"
-                >
-                  <option *ngFor="let day of dayOptions" [value]="day.value">
-                    {{ day.label }}
-                  </option>
-                </select>
-              </label>
-              <label>
-                <span>Arrive time</span>
-                <select
-                  name="travelTime"
-                  [(ngModel)]="travelTime"
-                  [disabled]="!travelEnabled"
-                  (change)="clearTravelError()"
-                >
-                  <option *ngFor="let time of timeOptions" [value]="time">
-                    {{ time }}
-                  </option>
-                </select>
-              </label>
-              <button type="button" (click)="applyTravelOptions()" [disabled]="!travelEnabled">
-                Apply travel
-              </button>
-              <span class="hint">Type an address near your search area (lat,lng also works).</span>
-              <span class="hint" *ngIf="(isDestinationSuggesting$ | async) === true">
-                Searching addresses...
-              </span>
-              <span class="hint" *ngIf="isGeocoding">Looking up address...</span>
-              <span class="hint" *ngIf="resolvedDestinationLabel">
-                Resolved: {{ resolvedDestinationLabel }}
-              </span>
-              <span class="error" *ngIf="travelError">{{ travelError }}</span>
-              <span class="hint" *ngIf="viewState.travelEnabled && viewState.travelStatus === 'loading'">
-                Loading travel times...
-              </span>
-              <span
-                class="error"
-                *ngIf="!travelError && viewState.travelEnabled && viewState.travelStatus === 'error'"
-              >
-                {{ viewState.travelMessage ?? "Travel service unavailable." }}
-              </span>
-            </div>
-          </div>
+          <app-travel-options-panel
+            [travelEnabled]="travelEnabled"
+            [destinationInput]="destinationInput"
+            [destinationSuggestions]="(destinationSuggestions$ | async) ?? []"
+            [suggestionIndex]="suggestionIndex"
+            [travelMode]="travelMode"
+            [travelDay]="travelDay"
+            [travelTime]="travelTime"
+            [dayOptions]="dayOptions"
+            [timeOptions]="timeOptions"
+            [travelError]="travelError"
+            [isSuggesting]="(isDestinationSuggesting$ | async) === true"
+            [isGeocoding]="isGeocoding"
+            [resolvedDestinationLabel]="resolvedDestinationLabel"
+            [travelStatus]="viewState.travelStatus"
+            [travelMessage]="viewState.travelMessage"
+            (travelEnabledChange)="onTravelEnabledChange($event)"
+            (destinationInputChange)="onDestinationInputChange($event)"
+            (destinationKey)="onDestinationKey($event)"
+            (candidateSelected)="selectCandidate($event)"
+            (modeChange)="onTravelModeChange($event)"
+            (dayChange)="onTravelDayChange($event)"
+            (timeChange)="onTravelTimeChange($event)"
+            (applyTravel)="applyTravelOptions()"
+          ></app-travel-options-panel>
           <div class="detail-card" *ngIf="viewState.rows.length > 0; else noResults">
-            <table class="results-table">
-              <thead>
-                <tr>
-                  <th>Zone</th>
-                  <th>Travel</th>
-                  <th>Population</th>
-                  <th>Dept</th>
-                  <th>Region</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr
-                  *ngFor="let item of viewState.rows"
-                  class="results-row"
-                  (click)="selectZone(item.zoneId)"
-                >
-                  <td>{{ item.zoneName }}</td>
-                  <td [title]="travelTitle(item.travel)">
-                    {{ formatTravel(item.travel, viewState.travelStatus) }}
-                  </td>
-                  <td>{{ item.attributes.population ?? "-" }}</td>
-                  <td>{{ item.attributes.departmentCode ?? "-" }}</td>
-                  <td>{{ item.attributes.regionCode ?? "-" }}</td>
-                </tr>
-              </tbody>
-            </table>
+            <app-results-table
+              [rows]="viewState.rows"
+              [travelStatus]="viewState.travelStatus"
+              (rowSelected)="selectZone($event)"
+            ></app-results-table>
           </div>
           <ng-template #noResults>
             <div class="detail-card">
@@ -204,85 +94,9 @@
         </ng-container>
       </ng-container>
     </section>
-    <section class="panel-body" *ngIf="detailsState$ | async as state">
-      <ng-container [ngSwitch]="state.status">
-        <div class="detail-card" *ngSwitchCase="'idle'">
-          <h2 class="detail-title">Pick a city</h2>
-          <div class="detail-meta">
-            <span>Click a marker to view details.</span>
-            <span>Markers load as you move across the map.</span>
-          </div>
-        </div>
-        <div class="detail-card" *ngSwitchCase="'loading'">
-          <h2 class="detail-title">Loading...</h2>
-          <div class="detail-meta">
-            <span>Fetching city details from the API.</span>
-          </div>
-        </div>
-        <div class="detail-card" *ngSwitchCase="'error'">
-          <h2 class="detail-title">Unable to load details</h2>
-          <div class="detail-meta">
-            <span>{{ state.message ?? "The city details could not be loaded." }}</span>
-          </div>
-        </div>
-        <ng-container *ngSwitchCase="'loaded'">
-          <ng-container *ngIf="state.city as city">
-            <div class="detail-card">
-              <h2 class="detail-title">{{ city.name }}</h2>
-              <div class="detail-meta">
-                <span>INSEE: {{ city.inseeCode }} - {{ city.slug }}</span>
-                <span>
-                  Dept: {{ city.departmentName ?? "Unknown" }}
-                  ({{ city.departmentCode ?? "?" }})
-                </span>
-                <span>
-                  Region: {{ city.regionName ?? "Unknown" }}
-                  ({{ city.regionCode ?? "?" }})
-                </span>
-                <span>Coords: {{ city.lat ?? "?" }}, {{ city.lon ?? "?" }}</span>
-              </div>
-            </div>
-            <div class="detail-card">
-              <h3 class="detail-title">Postal codes</h3>
-              <div class="detail-tags" *ngIf="city.postalCodes.length > 0; else noPostal">
-                <span class="tag" *ngFor="let code of city.postalCodes">
-                  {{ code }}
-                </span>
-              </div>
-              <ng-template #noPostal>
-                <div class="detail-tags">
-                  <span class="tag">No postal codes</span>
-                </div>
-              </ng-template>
-            </div>
-            <div class="detail-card" *ngIf="routeState$ | async as routeState">
-              <h3 class="detail-title">Route</h3>
-              <ng-container [ngSwitch]="routeState.status">
-                <div class="detail-meta" *ngSwitchCase="'idle'">
-                  <span>Select a city and enable travel to view the route.</span>
-                </div>
-                <div class="detail-meta" *ngSwitchCase="'loading'">
-                  <span>Loading route...</span>
-                </div>
-                <div class="detail-meta" *ngSwitchCase="'error'">
-                  <span>{{ routeState.message ?? "Route lookup failed." }}</span>
-                </div>
-                <div class="detail-meta" *ngSwitchCase="'loaded'">
-                  <span>Status: {{ routeState.route?.status ?? "ERROR" }}</span>
-                  <span>Duration: {{ formatDuration(routeState.route?.duration_s) }}</span>
-                  <span>Distance: {{ formatDistance(routeState.route?.distance_m) }}</span>
-                  <span *ngIf="routeState.route?.origin?.label">
-                    Origin: {{ routeState.route?.origin?.label }}
-                  </span>
-                  <span *ngIf="routeState.route?.destination?.label">
-                    Destination: {{ routeState.route?.destination?.label }}
-                  </span>
-                </div>
-              </ng-container>
-            </div>
-          </ng-container>
-        </ng-container>
-      </ng-container>
-    </section>
+    <app-city-details-panel
+      [state]="detailsState$ | async"
+      [routeState]="routeState$ | async"
+    ></app-city-details-panel>
   </aside>
 </div>
