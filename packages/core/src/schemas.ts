@@ -4,6 +4,10 @@ export const TimeBucketSchema = z
   .string()
   .regex(/^(mon|tue|wed|thu|fri|sat|sun)_(?:[01]\d|2[0-3]):(?:00|15|30|45)$/);
 
+export const TimeBucketInputSchema = z
+  .string()
+  .regex(/^(mon|tue|wed|thu|fri|sat|sun)_(?:[01]\d|2[0-3]):[0-5]\d$/);
+
 const ZonePointSchema = z.object({
   lat: z.number(),
   lng: z.number()
@@ -100,6 +104,30 @@ export const SearchRequestSchema = z.object({
     })
     .optional()
 });
+
+export const TravelMatrixOriginSchema = z.object({
+  zoneId: z.string(),
+  lat: z.number(),
+  lng: z.number()
+});
+
+export const TravelMatrixRequestSchema = z
+  .object({
+    mode: z.enum(["car", "transit"]),
+    destination: z.object({
+      lat: z.number(),
+      lng: z.number()
+    }),
+    timeBucket: TimeBucketInputSchema.optional(),
+    origins: z.array(TravelMatrixOriginSchema).min(1).max(1000)
+  })
+  .refine(
+    (value) => (value.mode === "transit" ? Boolean(value.timeBucket) : true),
+    {
+      message: "timeBucket is required for transit",
+      path: ["timeBucket"]
+    }
+  );
 
 export const CommuneByInseeCodeParams = z.object({
   inseeCode: z.string().length(5)

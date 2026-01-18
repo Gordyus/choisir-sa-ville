@@ -1,4 +1,4 @@
-import type { TravelStatus } from "./travel.js";
+import type { TravelStatus, TravelMatrixResult } from "./travel.js";
 
 export type City = {
   inseeCode: string;
@@ -76,4 +76,17 @@ export type ZoneResultRow = {
   poiHub?: ZonePoiHub;
   attributes: Record<string, number | string | boolean | null>;
   travel?: ZoneResultTravel | null;
+};
+
+export type TravelMatrixRequest = {
+  mode: TravelMode;
+  destination: ZonePoint;
+  timeBucket?: string;
+  origins: Array<{ zoneId: string; lat: number; lng: number }>;
+};
+
+export type TravelMatrixResponse = {
+  mode: TravelMode;
+  timeBucket: string;
+  results: TravelMatrixResult[];
 };

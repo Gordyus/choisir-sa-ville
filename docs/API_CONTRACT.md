@@ -318,6 +318,36 @@ Body :
 Erreurs possibles :
 - `400 VALIDATION_ERROR`
 
+### POST /api/travel/matrix
+Enrichit un ensemble de zones avec durÇ¸e et distance de trajet.
+
+Body :
+- `mode` (string) : `car` ou `transit`
+- `destination.lat` (number) requis
+- `destination.lng` (number) requis
+- `timeBucket` (string) : requis si `mode=transit`, optionnel si `mode=car`
+- `origins` (array) : [{ zoneId, lat, lng }]
+
+**200**
+```json
+{
+  "mode": "car",
+  "timeBucket": "none",
+  "results": [
+    {
+      "zoneId": "75056",
+      "duration_s": 1800,
+      "distance_m": 12000,
+      "status": "OK"
+    }
+  ]
+}
+```
+
+Erreurs possibles :
+- `400 VALIDATION_ERROR`
+- `429 RATE_LIMITED` (si limitation fournisseur)
+
 ---
 
 ## 6) Versioning
