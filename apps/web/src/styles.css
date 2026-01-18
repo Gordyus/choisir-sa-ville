@@ -90,6 +90,11 @@ h1 {
   color: var(--muted);
 }
 
+.search label {
+  display: grid;
+  gap: 6px;
+}
+
 .search input {
   padding: 10px 12px;
   border-radius: 10px;
@@ -99,11 +104,32 @@ h1 {
   color: var(--ink);
 }
 
+.search button {
+  align-self: start;
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: none;
+  background: var(--accent);
+  color: #fff;
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.search button:hover {
+  opacity: 0.9;
+}
+
 .panel-body {
   flex: 1;
   display: grid;
   gap: 16px;
   align-content: start;
+}
+
+.panel-section {
+  display: grid;
+  gap: 16px;
 }
 
 .detail-card {
@@ -132,6 +158,27 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.results-table th,
+.results-table td {
+  text-align: left;
+  padding: 8px 6px;
+  border-bottom: 1px solid #eee2d9;
+}
+
+.results-row {
+  cursor: pointer;
+}
+
+.results-row:hover {
+  background: #f7efe7;
 }
 
 .tag {

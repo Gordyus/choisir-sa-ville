@@ -1,8 +1,23 @@
-import { Component, ElementRef, OnDestroy, OnInit, ViewChild } from "@angular/core";
-import { Subject, filter, takeUntil } from "rxjs";
+import {
+  Component,
+  ElementRef,
+  Input,
+  OnChanges,
+  OnDestroy,
+  OnInit,
+  SimpleChanges,
+  ViewChild
+} from "@angular/core";
 import L from "leaflet";
-import { MapDataService, type CityMarker } from "../services/map-data.service";
+import { MapDataService } from "../services/map-data.service";
 import { SelectionService } from "../services/selection.service";
+
+export type MapMarker = {
+  id: string;
+  label: string;
+  lat: number;
+  lng: number;
+};
 
 @Component({
   selector: "app-map",
@@ -10,13 +25,14 @@ import { SelectionService } from "../services/selection.service";
   templateUrl: "./map.component.html",
   styleUrls: ["./map.component.css"]
 })
-export class MapComponent implements OnInit, OnDestroy {
+export class MapComponent implements OnInit, OnDestroy, OnChanges {
   @ViewChild("map", { static: true }) mapElement!: ElementRef<HTMLDivElement>;
+  @Input() markers: MapMarker[] = [];
 
   private map: L.Map | null = null;
   private clusterLayer: L.MarkerClusterGroup | null = null;
   private markerIconInstance: L.DivIcon | null = null;
-  private readonly destroy$ = new Subject<void>();
+  private pendingMarkers: MapMarker[] | null = null;
 
   private readonly handleViewport = (): void => {
     if (!this.map) return;
@@ -35,19 +51,19 @@ export class MapComponent implements OnInit, OnDestroy {
     private readonly selection: SelectionService
   ) {}
 
+  ngOnChanges(changes: SimpleChanges): void {
+    if (changes["markers"]) {
+      this.applyMarkers(this.markers);
+    }
+  }
+
   ngOnInit(): void {
     void this.initMap().catch((error) => {
       console.error(error);
-      this.mapData.reportStatus({
-        text: "Map failed to initialize.",
-        state: "error"
-      });
     });
   }
 
   ngOnDestroy(): void {
-    this.destroy$.next();
-    this.destroy$.complete();
 
     if (this.map) {
       this.map.off("moveend", this.handleViewport);
@@ -87,26 +103,30 @@ export class MapComponent implements OnInit, OnDestroy {
     this.map.on("moveend", this.handleViewport);
     this.map.on("zoomend", this.handleViewport);
 
-    this.mapData.bboxState$
-      .pipe(
-        filter((state) => state.status === "success"),
-        takeUntil(this.destroy$)
-      )
-      .subscribe((state) => {
-        if (!this.clusterLayer) return;
-        const markers = state.items.map((item) => this.createMarker(item));
-        // Swap markers only after a successful response to avoid flicker.
-        this.clusterLayer.clearLayers();
-        markers.forEach((marker) => this.clusterLayer?.addLayer(marker));
-      });
-
     this.handleViewport();
+    if (this.pendingMarkers) {
+      this.applyMarkers(this.pendingMarkers);
+      this.pendingMarkers = null;
+    } else if (this.markers.length > 0) {
+      this.applyMarkers(this.markers);
+    }
   }
 
-  private createMarker(item: CityMarker): L.Marker {
-    const marker = L.marker([item.lat, item.lon], { icon: this.markerIcon() });
+  private applyMarkers(markers: MapMarker[]): void {
+    if (!this.clusterLayer) {
+      this.pendingMarkers = markers;
+      return;
+    }
+
+    const leafletMarkers = markers.map((item) => this.createMarker(item));
+    this.clusterLayer.clearLayers();
+    leafletMarkers.forEach((marker) => this.clusterLayer?.addLayer(marker));
+  }
+
+  private createMarker(item: MapMarker): L.Marker {
+    const marker = L.marker([item.lat, item.lng], { icon: this.markerIcon() });
     marker.on("click", () => {
-      this.selection.selectCity(item.slug || item.inseeCode);
+      this.selection.selectCity(item.id);
     });
     return marker;
   }
