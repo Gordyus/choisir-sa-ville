@@ -20,7 +20,7 @@ test("POST /api/geocode returns candidates", async () => {
       const response: GeocodeResponse = {
         candidates: [{ label: "Rouen, France", lat: 49.4431, lng: 1.0993 }]
       };
-      return response;
+      return { response, cacheHit: false };
     }
   };
 
@@ -46,7 +46,7 @@ test("POST /api/geocode validates input", async () => {
   registerErrorHandler(app);
 
   const service: GeocodeService = {
-    geocode: async () => ({ candidates: [] })
+    geocode: async () => ({ response: { candidates: [] }, cacheHit: false })
   };
 
   await app.register(geocodeRoute(service));

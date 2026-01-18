@@ -214,6 +214,28 @@ Output
 
 - Route detail including geometry
 
+### 5.4 POST /api/geocode
+
+Purpose
+
+- Resolve a destination address near the current search area
+
+Input
+
+- query: string
+- near: { lat, lng } optional
+- bbox: { minLon, minLat, maxLon, maxLat } optional
+- limit: number (1..10)
+
+Output
+
+- candidates: [{ label, lat, lng, score?, source? }]
+
+Notes
+
+- Always bias using near and bbox when available.
+- Cache responses for up to 90 days.
+
 ## 6) Adapter interfaces
 
 Adapters isolate infrastructure choices while preserving contracts.
@@ -313,7 +335,12 @@ Indexes
 Provide a reference adapter (e.g. OSRM, OpenRouteService, or internal provider)
 behind the TravelProvider interface.
 
-### 8.3 API
+### 8.3 GeocodeProvider
+
+Use a provider adapter (e.g. Photon) behind GeocodeProvider.
+Configure the base URL via env var (e.g. GEOCODE_BASE_URL).
+
+### 8.4 API
 
 - Fastify endpoints under apps/api
 - Validation with Zod in packages/core

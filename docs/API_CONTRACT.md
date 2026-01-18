@@ -348,6 +348,29 @@ Erreurs possibles :
 - `400 VALIDATION_ERROR`
 - `429 RATE_LIMITED` (si limitation fournisseur)
 
+### POST /api/geocode
+RÇ¸sout une adresse de destination en coordonnÇ¸es (lat/lng).
+
+Body :
+- `query` (string) : requis, max 200
+- `near.lat` (number) : optionnel
+- `near.lng` (number) : optionnel
+- `bbox` (object) : optionnel
+  - `minLon`, `minLat`, `maxLon`, `maxLat`
+- `limit` (int) : 1..10
+
+**200**
+```json
+{
+  "candidates": [
+    { "label": "Rouen, France", "lat": 49.4431, "lng": 1.0993 }
+  ]
+}
+```
+
+Erreurs possibles :
+- `400 VALIDATION_ERROR`
+
 ### GET /api/route
 Retourne le trajet rÇ¸el (polyline) pour une zone sÇ¸lectionnÇ¸e.
 

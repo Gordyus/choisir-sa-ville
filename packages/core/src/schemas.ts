@@ -131,7 +131,7 @@ export const TravelMatrixRequestSchema = z
 
 export const GeocodeRequestSchema = z
   .object({
-    query: z.string().min(1),
+    query: z.string().min(1).max(200),
     near: z
       .object({
         lat: z.number(),

@@ -31,6 +31,8 @@ test("geocode service returns cached value without calling provider", async () =
   const second = await service.geocode({ query: "Rouen" });
 
   assert.equal(calls, 1);
-  assert.equal(first.candidates.length, 1);
-  assert.equal(second.candidates.length, 1);
+  assert.equal(first.response.candidates.length, 1);
+  assert.equal(second.response.candidates.length, 1);
+  assert.equal(first.cacheHit, false);
+  assert.equal(second.cacheHit, true);
 });

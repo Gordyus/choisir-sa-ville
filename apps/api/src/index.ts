@@ -40,7 +40,7 @@ registerErrorHandler(app);
 const db = createDb(env.DATABASE_URL);
 const searchService = createSearchService(db);
 const cacheStore = new PostgresCacheStore(db);
-const geocodeProvider = new PhotonGeocodeProvider({ baseUrl: "https://photon.komoot.io" });
+const geocodeProvider = new PhotonGeocodeProvider({ baseUrl: env.GEOCODE_BASE_URL });
 const geocodeService = createGeocodeService(cacheStore, geocodeProvider);
 const travelProvider = env.OSRM_BASE_URL
   ? new OsrmTravelProvider({ baseUrl: env.OSRM_BASE_URL })

@@ -182,6 +182,16 @@ Acceptance criteria
 - [ ] Test "some cached, some not" behavior
 - [ ] Test batching chunk size logic
 
+### 4.3 API - Geocode (address to lat/lng)
+
+- [ ] Implement POST /api/geocode
+- [ ] Request DTO: { query, near?, bbox?, limit? }
+- [ ] Response DTO: { candidates: [{ label, lat, lng, score?, source? }] }
+- [ ] Validate input (query length <= 200, limit 1..10)
+- [ ] Use CacheStore with TTL 90 days
+- [ ] Bias results with near + bbox when present
+- [ ] Add contract tests for schema + cache hit
+
 ---
 
 ## 5) API - Route (polyline on click)
@@ -357,6 +367,7 @@ Acceptance criteria
 ### 9.2 Add ENV.md (optional but recommended)
 
 - [ ] Required env vars for travel provider
+- [ ] Required env vars for geocode provider (base URL)
 - [ ] Local dev instructions
 - [ ] How to rotate keys
 
