@@ -18,7 +18,7 @@ export const CityBBoxQuery = z
     minLon: z.coerce.number(),
     maxLat: z.coerce.number(),
     maxLon: z.coerce.number(),
-    limit: z.coerce.number().int().min(1).max(200).default(200),
+    limit: z.coerce.number().int().min(1).max(500).default(200),
     offset: z.coerce.number().int().min(0).default(0)
   })
   .refine((values) => values.minLat <= values.maxLat, {
