@@ -1,7 +1,18 @@
-import { Component, OnDestroy } from "@angular/core";
+import { Component, OnDestroy, OnInit } from "@angular/core";
 import { AsyncPipe, NgFor, NgIf, NgSwitch, NgSwitchCase } from "@angular/common";
 import { FormsModule } from "@angular/forms";
-import { combineLatest, map, startWith, take } from "rxjs";
+import {
+  Subject,
+  combineLatest,
+  map,
+  startWith,
+  take,
+  debounceTime,
+  distinctUntilChanged,
+  switchMap,
+  of,
+  catchError
+} from "rxjs";
 import { MapComponent } from "./map/map.component";
 import { MapDataService, type Viewport } from "./services/map-data.service";
 import { CityDetailsService } from "./services/city-details.service";
@@ -15,6 +26,7 @@ import {
   computeBboxFromSearchArea,
   computeNearFromSearchArea,
   type GeocodeRequest,
+  type GeocodeCandidate,
   type SearchArea
 } from "@csv/core";
 import type { Subscription } from "rxjs";
@@ -34,7 +46,7 @@ import type { Subscription } from "rxjs";
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.css"]
 })
-export class AppComponent implements OnDestroy {
+export class AppComponent implements OnInit, OnDestroy {
   readonly detailsState$ = this.cityDetails.detailsState$;
   readonly searchState$ = this.searchService.searchState$;
   readonly travelState$ = this.travelMatrix.matrixState$;
@@ -83,11 +95,14 @@ export class AppComponent implements OnDestroy {
   travelEnabled = false;
   destinationInput = "";
   resolvedDestinationLabel = "";
+  destinationSuggestions: GeocodeCandidate[] = [];
+  suggestionIndex = -1;
   travelMode: TravelMode = "car";
   travelDay = "mon";
   travelTime = "08:30";
   travelError = "";
   isGeocoding = false;
+  isSuggesting = false;
   readonly dayOptions = [
     { value: "mon", label: "Monday" },
     { value: "tue", label: "Tuesday" },
@@ -99,6 +114,8 @@ export class AppComponent implements OnDestroy {
   ];
   readonly timeOptions = buildTimeOptions();
   private geocodeSubscription?: Subscription;
+  private suggestionSubscription?: Subscription;
+  private readonly destinationQuerySubject = new Subject<string>();
 
   constructor(
     private readonly cityDetails: CityDetailsService,
@@ -110,8 +127,85 @@ export class AppComponent implements OnDestroy {
     private readonly mapData: MapDataService
   ) {}
 
+  ngOnInit(): void {
+    this.suggestionSubscription = this.destinationQuerySubject
+      .pipe(
+        map((value) => value.trim()),
+        debounceTime(300),
+        distinctUntilChanged(),
+        switchMap((query) => {
+          if (!this.travelEnabled || query.length < 3) {
+            this.isSuggesting = false;
+            return of<GeocodeCandidate[]>([]);
+          }
+          if (this.selectedCandidateLabelMatches(query)) {
+            this.isSuggesting = false;
+            return of<GeocodeCandidate[]>([]);
+          }
+          this.isSuggesting = true;
+          const request = buildGeocodeRequest(query, this.mapData.getViewport());
+          return this.geocodeService.geocode(request).pipe(
+            map((response) => response.candidates),
+            catchError(() => of<GeocodeCandidate[]>([]))
+          );
+        })
+      )
+      .subscribe((candidates) => {
+        this.isSuggesting = false;
+        this.destinationSuggestions = candidates;
+        this.suggestionIndex = -1;
+      });
+  }
+
   runSearch(): void {
     this.searchService.search({ q: this.query, limit: 200, offset: 0 });
+  }
+
+  onDestinationInput(): void {
+    this.clearTravelError();
+    this.destinationSuggestions = [];
+    this.suggestionIndex = -1;
+    this.resolvedDestinationLabel = "";
+    this.selectedCandidate = null;
+    this.destinationQuerySubject.next(this.destinationInput);
+  }
+
+  onDestinationKey(event: KeyboardEvent): void {
+    if (this.destinationSuggestions.length === 0) return;
+    if (event.key === "ArrowDown") {
+      event.preventDefault();
+      this.suggestionIndex =
+        (this.suggestionIndex + 1) % this.destinationSuggestions.length;
+      return;
+    }
+    if (event.key === "ArrowUp") {
+      event.preventDefault();
+      this.suggestionIndex =
+        (this.suggestionIndex - 1 + this.destinationSuggestions.length) %
+        this.destinationSuggestions.length;
+      return;
+    }
+    if (event.key === "Enter" && this.suggestionIndex >= 0) {
+      event.preventDefault();
+      const candidate = this.destinationSuggestions[this.suggestionIndex];
+      if (candidate) {
+        this.selectCandidate(candidate);
+      }
+      return;
+    }
+    if (event.key === "Escape") {
+      this.destinationSuggestions = [];
+      this.suggestionIndex = -1;
+    }
+  }
+
+  selectCandidate(candidate: GeocodeCandidate): void {
+    this.destinationInput = candidate.label;
+    this.resolvedDestinationLabel = candidate.label;
+    this.destinationSuggestions = [];
+    this.suggestionIndex = -1;
+    this.travelError = "";
+    this.selectedCandidate = candidate;
   }
 
   applyTravelOptions(): void {
@@ -120,6 +214,9 @@ export class AppComponent implements OnDestroy {
     if (!this.travelEnabled) {
       this.travelMatrix.updateOptions({ enabled: false });
       this.resolvedDestinationLabel = "";
+      this.destinationSuggestions = [];
+      this.suggestionIndex = -1;
+      this.selectedCandidate = null;
       return;
     }
 
@@ -136,9 +233,24 @@ export class AppComponent implements OnDestroy {
     }
     const bucket = `${this.travelDay}_${this.travelTime}`;
 
+    if (this.selectedCandidate) {
+      this.resolvedDestinationLabel = this.selectedCandidate.label;
+      this.travelMatrix.updateOptions({
+        enabled: true,
+        destination: {
+          lat: this.selectedCandidate.lat,
+          lng: this.selectedCandidate.lng
+        },
+        mode: this.travelMode,
+        timeBucket: bucket
+      });
+      return;
+    }
+
     const destination = parseLatLng(rawQuery);
     if (destination) {
       this.resolvedDestinationLabel = rawQuery;
+      this.selectedCandidate = null;
       this.travelMatrix.updateOptions({
         enabled: true,
         destination,
@@ -162,6 +274,7 @@ export class AppComponent implements OnDestroy {
             this.travelError = "Address not found near your search area.";
             return;
           }
+          this.selectedCandidate = candidate;
           this.resolvedDestinationLabel = candidate.label;
           this.travelMatrix.updateOptions({
             enabled: true,
@@ -179,6 +292,14 @@ export class AppComponent implements OnDestroy {
 
   ngOnDestroy(): void {
     this.geocodeSubscription?.unsubscribe();
+    this.suggestionSubscription?.unsubscribe();
+  }
+
+  private selectedCandidate: GeocodeCandidate | null = null;
+
+  private selectedCandidateLabelMatches(query: string): boolean {
+    if (!this.selectedCandidate) return false;
+    return this.selectedCandidate.label.toLowerCase() === query.toLowerCase();
   }
 
   clearTravelError(): void {

@@ -68,9 +68,22 @@
                   [(ngModel)]="destinationInput"
                   placeholder="10 Rue de la Paix, Paris"
                   [disabled]="!travelEnabled"
-                  (input)="clearTravelError()"
+                  (input)="onDestinationInput()"
+                  (keydown)="onDestinationKey($event)"
                 />
               </label>
+              <ul
+                class="geocode-suggestions"
+                *ngIf="travelEnabled && destinationSuggestions.length > 0"
+              >
+                <li
+                  *ngFor="let candidate of destinationSuggestions; let i = index"
+                  [class.active]="i === suggestionIndex"
+                  (click)="selectCandidate(candidate)"
+                >
+                  {{ candidate.label }}
+                </li>
+              </ul>
               <label>
                 <span>Mode</span>
                 <select
@@ -113,6 +126,7 @@
                 Apply travel
               </button>
               <span class="hint">Type an address near your search area (lat,lng also works).</span>
+              <span class="hint" *ngIf="isSuggesting">Searching addresses...</span>
               <span class="hint" *ngIf="isGeocoding">Looking up address...</span>
               <span class="hint" *ngIf="resolvedDestinationLabel">
                 Resolved: {{ resolvedDestinationLabel }}

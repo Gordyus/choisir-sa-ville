@@ -221,6 +221,29 @@ h1 {
   color: #a12424;
 }
 
+.geocode-suggestions {
+  list-style: none;
+  margin: 0;
+  padding: 6px 0;
+  border-radius: 12px;
+  border: 1px solid var(--panel-edge);
+  background: #fff;
+  max-height: 200px;
+  overflow: auto;
+  box-shadow: 0 12px 24px rgba(15, 18, 25, 0.08);
+}
+
+.geocode-suggestions li {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.geocode-suggestions li:hover,
+.geocode-suggestions li.active {
+  background: #f7efe7;
+}
+
 .results-table {
   width: 100%;
   border-collapse: collapse;
