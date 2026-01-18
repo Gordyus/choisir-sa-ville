@@ -1,5 +1,29 @@
 import { z } from "zod";
 
+export const TimeBucketSchema = z
+  .string()
+  .regex(/^(mon|tue|wed|thu|fri|sat|sun)_(?:[01]\d|2[0-3]):(?:00|15|30|45)$/);
+
+const ZonePointSchema = z.object({
+  lat: z.number(),
+  lng: z.number()
+});
+
+const ZonePoiHubSchema = ZonePointSchema.extend({
+  label: z.string().optional(),
+  kind: z.string().optional()
+});
+
+export const ZoneSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  type: z.string(),
+  centroid: ZonePointSchema,
+  poiHub: ZonePoiHubSchema.optional(),
+  geometry: z.unknown().optional(),
+  attributes: z.record(z.union([z.number(), z.string(), z.boolean(), z.null()]))
+});
+
 /**
  * Common query schema for searching cities.
  * Keep it domain-level, not tied to Fastify.

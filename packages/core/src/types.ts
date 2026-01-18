@@ -39,3 +39,23 @@ export type Department = {
   name: string;
   regionCode: string | null;
 };
+
+export type ZonePoint = {
+  lat: number;
+  lng: number;
+};
+
+export type ZonePoiHub = ZonePoint & {
+  label?: string;
+  kind?: string;
+};
+
+export type Zone = {
+  id: string;
+  name: string;
+  type: string;
+  centroid: ZonePoint;
+  poiHub?: ZonePoiHub;
+  geometry?: unknown;
+  attributes: Record<string, number | string | boolean | null>;
+};
