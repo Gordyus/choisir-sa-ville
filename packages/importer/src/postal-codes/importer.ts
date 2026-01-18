@@ -1,12 +1,28 @@
 import { parse } from "csv-parse";
-import type { Db, Database } from "@csv/db";
-import { sql, type Insertable } from "kysely";
-import fs from "node:fs";
-import fsPromises from "node:fs/promises";
-import { Readable } from "node:stream";
-import unzipper from "unzipper";
-
-type CommunePostalCodeInsert = Insertable<Database["commune_postal_code"]>;
+import type { Db } from "@csv/db";
+import {
+  COMMUNE_KEYS,
+  DEFAULT_LOG_EVERY,
+  LAT_KEYS,
+  LON_KEYS,
+  POSTAL_BATCH_SIZE,
+  POSTAL_KEYS
+} from "./constants.js";
+import { detectDelimiter, normalizeRecord, openCsvStream, resolveColumn } from "./csv-utils.js";
+import {
+  loadCommuneState,
+  flushPostalBatch,
+  updateCommuneCoordinates,
+  type CoordinateAggregate,
+  type CommunePostalCodeInsert
+} from "./db.js";
+import {
+  normalizeCommuneCode,
+  normalizePostalCode,
+  parseCoordinate,
+  splitPostalValues
+} from "./normalize.js";
+import { summarizeSkips } from "./stats.js";
 
 export type PostalImportOptions = {
   sourcePath: string;
@@ -16,7 +32,7 @@ export type PostalImportOptions = {
   logEvery?: number;
 };
 
-type PostalImportStats = {
+export type PostalImportStats = {
   rowsRead: number;
   validPairs: number;
   uniquePairs: number;
@@ -26,240 +42,10 @@ type PostalImportStats = {
   skipped: Record<string, number>;
 };
 
-const COMMUNE_KEYS = [
-  "code_commune_insee",
-  "inseeCode",
-  "code_insee",
-  "codeinsee",
-  "com",
-  "code_commune"
-].map((key) => key.toLowerCase());
-
-const POSTAL_KEYS = [
-  "code_postal",
-  "postalCode",
-  "postal_code",
-  "codepostal",
-  "cp"
-].map((key) => key.toLowerCase());
-
-const LAT_KEYS = ["latitude", "lat", "geo_latitude", "latitude_commune"].map((key) =>
-  key.toLowerCase()
-);
-const LON_KEYS = ["longitude", "lon", "geo_longitude", "longitude_commune"].map((key) =>
-  key.toLowerCase()
-);
-
-const DEFAULT_LOG_EVERY = 50000;
-
 function isPrematureCloseError(error: unknown): boolean {
   if (!error || typeof error !== "object") return false;
   const code = (error as { code?: string }).code;
   return code === "ERR_STREAM_PREMATURE_CLOSE";
-}
-
-function normalizeRecord(record: Record<string, string>): Record<string, string> {
-  const normalized: Record<string, string> = {};
-  for (const [key, value] of Object.entries(record)) {
-    normalized[key.trim().toLowerCase()] = typeof value === "string" ? value.trim() : value;
-  }
-  return normalized;
-}
-
-function resolveColumn(record: Record<string, string>, keys: string[]): string | null {
-  for (const key of keys) {
-    if (Object.prototype.hasOwnProperty.call(record, key)) {
-      return key;
-    }
-  }
-  return null;
-}
-
-function normalizeCommuneCode(value: string | undefined): string | null {
-  if (!value) return null;
-  const trimmed = value.trim();
-  if (trimmed.length === 0) return null;
-  const padded = trimmed.padStart(5, "0");
-  if (!/^\d{5}$/.test(padded)) return null;
-  return padded;
-}
-
-function normalizePostalCode(value: string | undefined): string | null {
-  if (!value) return null;
-  const trimmed = value.trim();
-  if (trimmed.length === 0) return null;
-  const padded = trimmed.padStart(5, "0");
-  if (!/^\d{5}$/.test(padded)) return null;
-  return padded;
-}
-
-function splitPostalValues(value: string): string[] {
-  if (/[;,/|]/.test(value)) {
-    return value
-      .split(/[;,/|]/)
-      .map((item) => item.trim())
-      .filter((item) => item.length > 0);
-  }
-  return [value.trim()];
-}
-
-function parseCoordinate(value: string | undefined): number | null {
-  if (!value) return null;
-  const trimmed = value.trim();
-  if (trimmed.length === 0) return null;
-  const normalized = trimmed.replace(",", ".");
-  const parsed = Number.parseFloat(normalized);
-  return Number.isNaN(parsed) ? null : parsed;
-}
-
-async function openCsvStream(filePath: string): Promise<{
-  stream: Readable;
-  entryName?: string;
-}> {
-  if (filePath.toLowerCase().endsWith(".zip")) {
-    const directory = await unzipper.Open.file(filePath);
-    const entry = directory.files.find(
-      (file) => file.type === "File" && file.path.toLowerCase().endsWith(".csv")
-    );
-    if (!entry) {
-      throw new Error("No CSV file found in zip archive");
-    }
-    return { stream: entry.stream() as Readable, entryName: entry.path };
-  }
-  return { stream: fs.createReadStream(filePath) };
-}
-
-async function detectDelimiter(filePath: string): Promise<string> {
-  if (!filePath.toLowerCase().endsWith(".zip")) {
-    const handle = await fsPromises.open(filePath, "r");
-    const buffer = Buffer.alloc(4096);
-    const { bytesRead } = await handle.read(buffer, 0, buffer.length, 0);
-    await handle.close();
-
-    const sample = buffer.toString("utf8", 0, bytesRead);
-    const firstLine = sample.split(/\r?\n/)[0] ?? "";
-    const semicolons = (firstLine.match(/;/g) ?? []).length;
-    const commas = (firstLine.match(/,/g) ?? []).length;
-
-    return semicolons >= commas ? ";" : ",";
-  }
-
-  const { stream } = await openCsvStream(filePath);
-  let buffer = "";
-  for await (const chunk of stream) {
-    buffer += chunk.toString("utf8");
-    const newlineIndex = buffer.indexOf("\n");
-    if (newlineIndex !== -1) {
-      stream.destroy();
-      break;
-    }
-    if (buffer.length > 4096) {
-      stream.destroy();
-      break;
-    }
-  }
-  const firstLine = buffer.split(/\r?\n/)[0] ?? "";
-  const semicolons = (firstLine.match(/;/g) ?? []).length;
-  const commas = (firstLine.match(/,/g) ?? []).length;
-  return semicolons >= commas ? ";" : ",";
-}
-
-async function loadCommuneState(db: Db): Promise<{
-  communeCodes: Set<string>;
-  missingCoordinateCodes: Set<string>;
-}> {
-  const rows = await db
-    .selectFrom("commune")
-    .select(["inseeCode", "lat", "lon"])
-    .execute();
-  const communeCodes = new Set<string>();
-  const missingCoordinateCodes = new Set<string>();
-  for (const row of rows) {
-    communeCodes.add(row.inseeCode);
-    if (row.lat === null || row.lon === null) {
-      missingCoordinateCodes.add(row.inseeCode);
-    }
-  }
-  return { communeCodes, missingCoordinateCodes };
-}
-
-async function flushPostalBatch(
-  db: Db | null,
-  batch: Map<string, CommunePostalCodeInsert>,
-  dryRun: boolean
-): Promise<{ attempted: number; inserted?: number }> {
-  if (batch.size === 0) return { attempted: 0 };
-
-  const values = Array.from(batch.values());
-  batch.clear();
-
-  if (dryRun) return { attempted: values.length };
-  if (!db) throw new Error("Database connection is not initialized.");
-
-  const result = await db
-    .insertInto("commune_postal_code")
-    .values(values)
-    .onConflict((oc) => oc.columns(["communeCode", "postalCode"]).doNothing())
-    .execute();
-
-  let inserted: number | undefined;
-  for (const item of result as Array<{ numInsertedOrUpdatedRows?: bigint }>) {
-    if (item?.numInsertedOrUpdatedRows !== undefined) {
-      const value = Number(item.numInsertedOrUpdatedRows);
-      if (!Number.isNaN(value)) {
-        inserted = (inserted ?? 0) + value;
-      }
-    }
-  }
-
-  return { attempted: values.length, inserted };
-}
-
-function summarizeSkips(skipped: Record<string, number>): string {
-  const entries = Object.entries(skipped).sort((a, b) => b[1] - a[1]);
-  return entries
-    .slice(0, 5)
-    .map(([reason, count]) => `${reason}=${count}`)
-    .join(", ");
-}
-
-type CoordinateAggregate = {
-  sumLat: number;
-  sumLon: number;
-  count: number;
-};
-
-async function updateCommuneCoordinates(
-  db: Db | null,
-  coordinates: Map<string, CoordinateAggregate>,
-  dryRun: boolean
-): Promise<number> {
-  if (coordinates.size === 0) return 0;
-  if (dryRun || !db) return coordinates.size;
-
-  let updated = 0;
-  for (const [communeCode, aggregate] of coordinates) {
-    if (aggregate.count === 0) continue;
-    const lat = aggregate.sumLat / aggregate.count;
-    const lon = aggregate.sumLon / aggregate.count;
-    const result = await db
-      .updateTable("commune")
-      .set({
-        lat: sql`COALESCE("commune"."lat", ${lat})`,
-        lon: sql`COALESCE("commune"."lon", ${lon})`,
-        updatedAt: sql`now()`
-      })
-      .where("inseeCode", "=", communeCode)
-      .where((eb) => eb.or([eb("lat", "is", null), eb("lon", "is", null)]))
-      .executeTakeFirst();
-
-    const count = result?.numUpdatedRows ? Number(result.numUpdatedRows) : 0;
-    if (!Number.isNaN(count)) {
-      updated += count;
-    }
-  }
-
-  return updated;
 }
 
 export async function importPostalCodes(
@@ -421,7 +207,7 @@ export async function importPostalCodes(
         continue;
       }
 
-      if (batch.size >= 500) {
+      if (batch.size >= POSTAL_BATCH_SIZE) {
         const { attempted, inserted } = await flushPostalBatch(db, batch, options.dryRun);
         stats.uniquePairs += attempted;
         stats.attemptedInserts += attempted;
