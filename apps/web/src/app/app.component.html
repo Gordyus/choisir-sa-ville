@@ -14,6 +14,30 @@
       </div>
       <form class="search" (ngSubmit)="runSearch()">
         <label>
+          <span>Search area</span>
+          <input
+            type="text"
+            name="areaQuery"
+            [(ngModel)]="areaInput"
+            placeholder="City, postal code, region, department"
+            (input)="onAreaInput()"
+            (keydown)="onAreaKey($event)"
+          />
+        </label>
+        <ul class="geocode-suggestions" *ngIf="areaSuggestions.length > 0">
+          <li
+            *ngFor="let candidate of areaSuggestions; let i = index"
+            [class.active]="i === areaSuggestionIndex"
+            (click)="selectAreaCandidate(candidate)"
+          >
+            {{ candidate.label }}
+          </li>
+        </ul>
+        <span class="hint" *ngIf="isAreaSuggesting">Searching locations...</span>
+        <span class="hint" *ngIf="resolvedAreaLabel">
+          Selected area: {{ resolvedAreaLabel }}
+        </span>
+        <label>
           <span>Keyword</span>
           <input
             type="text"

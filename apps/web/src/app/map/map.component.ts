@@ -11,6 +11,7 @@ import {
 import L from "leaflet";
 import { MapDataService } from "../services/map-data.service";
 import { SelectionService } from "../services/selection.service";
+import type { Subscription } from "rxjs";
 
 export type MapMarker = {
   id: string;
@@ -38,6 +39,7 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
   private pendingMarkers: MapMarker[] | null = null;
   private routeLayer: L.Polyline | null = null;
   private pendingRoute: RouteLine | null = null;
+  private panSubscription?: Subscription;
 
   private readonly handleViewport = (): void => {
     if (!this.map) return;
@@ -78,6 +80,7 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
       this.map.remove();
       this.map = null;
     }
+    this.panSubscription?.unsubscribe();
   }
 
   private async initMap(): Promise<void> {
@@ -109,6 +112,11 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
 
     this.map.on("moveend", this.handleViewport);
     this.map.on("zoomend", this.handleViewport);
+    this.panSubscription = this.mapData.panRequest$.subscribe((request) => {
+      if (!this.map) return;
+      const zoom = request.zoom ?? this.map.getZoom();
+      this.map.setView([request.lat, request.lng], zoom, { animate: true });
+    });
 
     this.handleViewport();
     if (this.pendingMarkers) {

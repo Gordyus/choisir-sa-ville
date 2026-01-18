@@ -90,6 +90,10 @@ export class AppComponent implements OnInit, OnDestroy {
   );
 
   query = "";
+  areaInput = "";
+  resolvedAreaLabel = "";
+  areaSuggestions: GeocodeCandidate[] = [];
+  areaSuggestionIndex = -1;
   travelEnabled = false;
   destinationInput = "";
   resolvedDestinationLabel = "";
@@ -101,6 +105,7 @@ export class AppComponent implements OnInit, OnDestroy {
   travelError = "";
   isGeocoding = false;
   isSuggesting = false;
+  isAreaSuggesting = false;
   readonly dayOptions = [
     { value: "mon", label: "Monday" },
     { value: "tue", label: "Tuesday" },
@@ -113,7 +118,9 @@ export class AppComponent implements OnInit, OnDestroy {
   readonly timeOptions = buildTimeOptions();
   private geocodeSubscription?: Subscription;
   private suggestionSubscription?: Subscription;
+  private areaSuggestionSubscription?: Subscription;
   private readonly destinationQuerySubject = new Subject<string>();
+  private readonly areaQuerySubject = new Subject<string>();
 
   constructor(
     private readonly cityDetails: CityDetailsService,
@@ -153,10 +160,78 @@ export class AppComponent implements OnInit, OnDestroy {
         this.destinationSuggestions = candidates;
         this.suggestionIndex = -1;
       });
+
+    this.areaSuggestionSubscription = this.areaQuerySubject
+      .pipe(
+        map((value) => value.trim()),
+        debounceTime(300),
+        distinctUntilChanged(),
+        switchMap((query) => {
+          if (query.length < 3) {
+            this.isAreaSuggesting = false;
+            return of<GeocodeCandidate[]>([]);
+          }
+          this.isAreaSuggesting = true;
+          const request = buildAreaGeocodeRequest(query);
+          return this.geocodeService.geocode(request).pipe(
+            map((response) => response.candidates),
+            catchError(() => of<GeocodeCandidate[]>([]))
+          );
+        })
+      )
+      .subscribe((candidates) => {
+        this.isAreaSuggesting = false;
+        this.areaSuggestions = candidates;
+        this.areaSuggestionIndex = -1;
+      });
   }
 
   runSearch(): void {
     this.searchService.search({ q: this.query, limit: 200, offset: 0 });
+  }
+
+  onAreaInput(): void {
+    this.areaSuggestions = [];
+    this.areaSuggestionIndex = -1;
+    this.resolvedAreaLabel = "";
+    this.areaQuerySubject.next(this.areaInput);
+  }
+
+  onAreaKey(event: KeyboardEvent): void {
+    if (this.areaSuggestions.length === 0) return;
+    if (event.key === "ArrowDown") {
+      event.preventDefault();
+      this.areaSuggestionIndex =
+        (this.areaSuggestionIndex + 1) % this.areaSuggestions.length;
+      return;
+    }
+    if (event.key === "ArrowUp") {
+      event.preventDefault();
+      this.areaSuggestionIndex =
+        (this.areaSuggestionIndex - 1 + this.areaSuggestions.length) %
+        this.areaSuggestions.length;
+      return;
+    }
+    if (event.key === "Enter" && this.areaSuggestionIndex >= 0) {
+      event.preventDefault();
+      const candidate = this.areaSuggestions[this.areaSuggestionIndex];
+      if (candidate) {
+        this.selectAreaCandidate(candidate);
+      }
+      return;
+    }
+    if (event.key === "Escape") {
+      this.areaSuggestions = [];
+      this.areaSuggestionIndex = -1;
+    }
+  }
+
+  selectAreaCandidate(candidate: GeocodeCandidate): void {
+    this.areaInput = candidate.label;
+    this.resolvedAreaLabel = candidate.label;
+    this.areaSuggestions = [];
+    this.areaSuggestionIndex = -1;
+    this.mapData.requestPan({ lat: candidate.lat, lng: candidate.lng, zoom: 10 });
   }
 
   onDestinationInput(): void {
@@ -291,6 +366,7 @@ export class AppComponent implements OnInit, OnDestroy {
   ngOnDestroy(): void {
     this.geocodeSubscription?.unsubscribe();
     this.suggestionSubscription?.unsubscribe();
+    this.areaSuggestionSubscription?.unsubscribe();
   }
 
   private selectedCandidate: GeocodeCandidate | null = null;
@@ -401,6 +477,13 @@ function buildGeocodeRequest(query: string, viewport: Viewport | null): GeocodeR
     near,
     bbox,
     limit: 5
+  };
+}
+
+function buildAreaGeocodeRequest(query: string): GeocodeRequest {
+  return {
+    query,
+    limit: 6
   };
 }
 
