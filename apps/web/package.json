@@ -1,19 +1,27 @@
 {
   "name": "@csv/web",
   "private": true,
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "typecheck": "tsc -p tsconfig.json --noEmit"
+    "dev": "ng serve",
+    "build": "ng build",
+    "typecheck": "ng build --configuration development --no-progress"
   },
   "dependencies": {
-    "leaflet": "^1.9.4"
+    "@angular/common": "^20.0.0",
+    "@angular/compiler": "^20.0.0",
+    "@angular/core": "^20.0.0",
+    "@angular/platform-browser": "^20.0.0",
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3",
+    "rxjs": "^7.8.1",
+    "zone.js": "^0.15.0"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "^20.0.0",
+    "@angular/cli": "^20.0.0",
+    "@angular/compiler-cli": "^20.0.0",
     "@types/leaflet": "^1.9.12",
-    "typescript": "^5.7.2",
-    "vite": "^5.4.11"
+    "@types/leaflet.markercluster": "^1.5.5",
+    "typescript": "~5.8.3"
   }
 }

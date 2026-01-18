@@ -13,12 +13,12 @@ Tout agent (humain ou IA) doit s’y conformer strictement.
 
 apps/
   api/        # Adaptateur HTTP uniquement (Fastify)
-  web/        # Front (stack libre, agnostique hébergement)
+  web/        # Frontend Angular 20.x (LTS)
 
 packages/
   core/       # Logique métier pure, types, Zod (aucune infra)
   db/         # Accès DB, Kysely, migrations, scripts CLI
-  importer/  # Pipelines d’import hors runtime API
+  importer/   # Pipelines d’import hors runtime API
 
 ### Règles fondamentales
 
@@ -53,122 +53,139 @@ Interdits :
 
 ---
 
-## 3. Modèle territorial (décision produit)
+## 3. Frontend (NON NÉGOCIABLE)
 
-Le modèle territorial est fondé sur la hiérarchie suivante :
+### Framework
+
+- `apps/web` est une application **Angular 20.x (LTS)**
+- Angular 20.x est un **choix figé et non négociable pour le MVP**
+
+Interdits :
+
+- React
+- Vue
+- Svelte
+- Next / Nuxt
+- Tout pattern inspiré de React (hooks, state implicite, etc.)
+
+### Règles Angular
+
+- Architecture Angular classique :
+  - components + services
+  - dependency injection
+  - RxJS pour gestion asynchrone
+- Pas de logique métier lourde dans les composants
+
+### Carte & Leaflet
+
+- Initialisation de la carte :
+  - une seule fois (`ngOnInit`)
+  - destruction propre (`ngOnDestroy`)
+- Événements carte :
+  - uniquement `moveend` et `zoomend`
+  - jamais `move`
+- Appels API :
+  - debounced (RxJS)
+  - requêtes annulées si obsolètes (`switchMap`)
+  - aucun spam réseau autorisé
+
+Objectif : stabilité, performance, comportement prévisible.
+
+---
+
+## 4. Modèle territorial (décision produit)
+
+Hiérarchie officielle :
 
 Pays
  └── Région
      └── Département
-         └── Commune (niveau garanti partout)
+         └── Commune (pivot garanti)
              └── Zone infra-communale (optionnelle)
                  └── Adresse / Point
 
 ### Correspondance INSEE
 
-- `COM` → Commune
-- `ARM` → Zone infra-communale (arrondissements municipaux)
-- `COMD` → Zone infra-communale (communes déléguées)
-- `COMA` → Zone infra-communale (communes associées)
+- COM → Commune
+- ARM → Arrondissement municipal
+- COMD → Commune déléguée
+- COMA → Commune associée
 
 ### Décisions clés
 
-- La **commune (COM)** est le niveau pivot garanti.
-- Les **zones infra-communales** :
-  - ne sont jamais traitées comme des communes
+- La commune est l’unité pivot.
+- Les zones infra :
+  - ne sont jamais des communes
   - sont toujours rattachées à une commune parente
-- Les arrondissements (`ARM`) sont des zones de **premier ordre** pour :
-  - logement
-  - sécurité
-  - qualité de vie urbaine
+- Les ARM sont prioritaires pour logement / sécurité / qualité de vie.
 
-Voir `docs/LOCALITY_MODEL.md` pour le détail complet.
+Voir `docs/LOCALITY_MODEL.md`.
 
 ---
 
-## 4. Base de données
+## 5. Base de données
 
 - PostgreSQL uniquement
-- En local : PostgreSQL via Docker Compose
-- Accès DB via Kysely
-- Migrations obligatoires, versionnées
+- Accès via Kysely
+- Migrations obligatoires
 
-### Naming conventions (NON NEGOTIABLE)
+### Naming conventions (NON NÉGOCIABLE)
 
-Database, TypeScript, and API JSON fields MUST use the same naming.
+- camelCase partout :
+  - DB
+  - TypeScript
+  - API JSON
 
-- Column names: camelCase (e.g. inseeCode, parentCommuneCode)
-- TypeScript fields: camelCase
-- API JSON fields: camelCase
+Exemples :
 
-Do NOT use snake_case in database columns.
-Do NOT auto-lowercase identifiers.
-PostgreSQL is case-sensitive only when quoted; Kysely uses quoted identifiers.
+- inseeCode
+- parentCommuneCode
 
-This rule exists to:
+Interdits :
 
-- avoid mapping layers
-- reduce IA and human errors
-- keep DB <-> code alignment
+- snake_case
+- mapping implicite DB ↔ code
 
-### Règles SQL
-
-- ❌ aucune requête SQL dans `packages/core`
-- ❌ aucune requête SQL directe dans `apps/api`
-- ✅ tout accès DB passe par `packages/db`
-
-### Migrations (Windows / ESM)
-
-- Compatibles Windows + ESM
-- Imports dynamiques via `file://` URLs (`pathToFileURL`)
-- Defaults DB via `sql`now()``
+Objectif : zéro friction DB / code / API.
 
 ---
 
-## 5. Import de données
+## 6. Import de données
 
-- Tous les imports (INSEE, autres sources) :
-  - sont faits via `packages/importer`
-  - jamais depuis l’API runtime
-- Les imports doivent être :
+- Tous les imports passent par `packages/importer`
+- Jamais depuis l’API
+- Imports :
   - idempotents
   - batchés
   - rejouables
 
 ---
 
-## 6. Configuration & Environnement
+## 7. Configuration & environnement
 
-- Configuration uniquement via variables d’environnement
-- `.env.example` toujours à jour
+- Variables d’environnement uniquement
+- `.env.example` à jour
 - Aucun secret en dur
 
-Les scripts CLI doivent :
+Scripts CLI :
 
-- fonctionner en local (Windows inclus)
-- charger correctement les variables d’env
-- être exécutables indépendamment de l’API
+- compatibles Windows
+- indépendants de l’API
 
 ---
 
-## 7. Validation & Typage
+## 8. Validation & typage
 
 - TypeScript strict
-- Validation Zod obligatoire (entrées API, DTOs)
-- Erreurs standardisées selon `API_CONTRACT.md`
+- Zod obligatoire
+- Erreurs conformes à `API_CONTRACT.md`
 
 ---
 
-## 8. Portabilité / Hébergement
+## 9. Portabilité
 
-Objectif : application totalement agnostique de l’environnement.
-
-- API déployable sur :
-  - OVH
-  - VPS
-  - Docker
-  - cloud standard
-- Front déployable séparément (Cloudflare Pages, autre)
+- API déployable sur VPS / Docker / cloud standard
+- Front déployable indépendamment
 
 Interdits :
 
@@ -177,31 +194,25 @@ Interdits :
 
 ---
 
-## 9. Règles de contribution (humain & IA)
+## 10. Règles de contribution (humain & IA)
 
 Avant toute implémentation :
 
 1. Respecter ce document
-2. Respecter `API_CONTRACT.md` et `LOCALITY_MODEL.md`
-3. Respecter les frontières de packages
-4. Ne pas introduire de nouvelle techno sans validation
+2. Respecter `API_CONTRACT.md`
+3. Respecter `LOCALITY_MODEL.md`
+4. Respecter les frontières de packages
 
-Tout code non conforme :
-
-- doit être refusé
-- ou corrigé immédiatement
+Tout code non conforme doit être corrigé ou refusé.
 
 ---
 
-## 10. Philosophie MVP
+## 11. Philosophie MVP
 
 - Lisibilité > abstraction prématurée
-- SQL explicite > magie ORM
-- Portabilité > confort hébergeur
+- Portabilité > confort infra
 - Simplicité > sur-architecture
 
-> Une commune est le socle.  
+> La commune est le socle.  
 > Les zones infra apportent la précision.  
-> Les données ne doivent jamais être aplaties au mauvais niveau.
-
----
+> Ne jamais aplatir les données au mauvais niveau.

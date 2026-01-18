@@ -1,14 +1,20 @@
 {
   "extends": "../../tsconfig.base.json",
+  "compileOnSave": false,
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "ESNext",
+    "baseUrl": ".",
+    "outDir": "./dist/out-tsc",
+    "target": "ES2022",
+    "module": "ES2022",
     "moduleResolution": "Bundler",
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
-    "types": ["vite/client"],
+    "noEmit": false,
+    "useDefineForClassFields": false,
     "strict": true,
-    "noEmit": true,
-    "skipLibCheck": true
+    "lib": ["ES2022", "DOM"],
+    "skipLibCheck": true,
+    "types": []
   },
-  "include": ["src"]
+  "angularCompilerOptions": {
+    "strictTemplates": true
+  }
 }

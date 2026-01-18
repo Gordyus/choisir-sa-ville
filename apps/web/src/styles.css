@@ -23,7 +23,7 @@ body {
   color: var(--ink);
 }
 
-#app {
+app-root {
   min-height: 100vh;
   display: flex;
   align-items: stretch;
@@ -145,6 +145,20 @@ h1 {
 .panel-status {
   font-size: 0.85rem;
   color: var(--muted);
+}
+
+.city-marker.leaflet-div-icon {
+  background: transparent;
+  border: none;
+}
+
+.city-marker span {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: #d04a2e;
+  box-shadow: 0 0 0 2px rgba(208, 74, 46, 0.3);
 }
 
 .status-error {

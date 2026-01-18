@@ -1,0 +1,84 @@
+<div class="app-shell">
+  <main class="map-wrap">
+    <app-map></app-map>
+  </main>
+  <aside class="panel">
+    <div class="panel-header">
+      <div>
+        <p class="eyebrow">Cities Explorer</p>
+        <h1>Choisir sa ville</h1>
+        <p class="subtitle">Live map of communes and infra context.</p>
+      </div>
+      <label class="search">
+        <span>Search</span>
+        <input
+          type="text"
+          placeholder="Search coming soon"
+          disabled
+        />
+      </label>
+    </div>
+    <section class="panel-body" *ngIf="detailsState$ | async as state">
+      <ng-container [ngSwitch]="state.status">
+        <div class="detail-card" *ngSwitchCase="'idle'">
+          <h2 class="detail-title">Pick a city</h2>
+          <div class="detail-meta">
+            <span>Click a marker to view details.</span>
+            <span>Markers load as you move across the map.</span>
+          </div>
+        </div>
+        <div class="detail-card" *ngSwitchCase="'loading'">
+          <h2 class="detail-title">Loading...</h2>
+          <div class="detail-meta">
+            <span>Fetching city details from the API.</span>
+          </div>
+        </div>
+        <div class="detail-card" *ngSwitchCase="'error'">
+          <h2 class="detail-title">Unable to load details</h2>
+          <div class="detail-meta">
+            <span>{{ state.message ?? "The city details could not be loaded." }}</span>
+          </div>
+        </div>
+        <ng-container *ngSwitchCase="'loaded'">
+          <ng-container *ngIf="state.city as city">
+            <div class="detail-card">
+              <h2 class="detail-title">{{ city.name }}</h2>
+              <div class="detail-meta">
+                <span>INSEE: {{ city.inseeCode }} - {{ city.slug }}</span>
+                <span>
+                  Dept: {{ city.departmentName ?? "Unknown" }}
+                  ({{ city.departmentCode ?? "?" }})
+                </span>
+                <span>
+                  Region: {{ city.regionName ?? "Unknown" }}
+                  ({{ city.regionCode ?? "?" }})
+                </span>
+                <span>Coords: {{ city.lat ?? "?" }}, {{ city.lon ?? "?" }}</span>
+              </div>
+            </div>
+            <div class="detail-card">
+              <h3 class="detail-title">Postal codes</h3>
+              <div class="detail-tags" *ngIf="city.postalCodes.length > 0; else noPostal">
+                <span class="tag" *ngFor="let code of city.postalCodes">
+                  {{ code }}
+                </span>
+              </div>
+              <ng-template #noPostal>
+                <div class="detail-tags">
+                  <span class="tag">No postal codes</span>
+                </div>
+              </ng-template>
+            </div>
+          </ng-container>
+        </ng-container>
+      </ng-container>
+    </section>
+    <div
+      class="panel-status"
+      *ngIf="mapStatus$ | async as status"
+      [ngClass]="{ 'status-ok': status.state === 'ok', 'status-error': status.state === 'error' }"
+    >
+      {{ status.text }}
+    </div>
+  </aside>
+</div>

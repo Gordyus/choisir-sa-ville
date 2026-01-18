@@ -1,6 +1,6 @@
 # @csv/web
 
-Front map POC for cities.
+Angular 20.x (LTS) map POC for cities.
 
 ## Local dev
 
@@ -11,5 +11,3 @@ pnpm -C apps/web dev
 ## Notes
 - Configure the API base URL with `VITE_API_BASE_URL` (defaults to `http://localhost:8787`).
 - The map loads markers from `/cities/bbox` and details from `/cities/:id`.
-
-When you pick the front stack, we will bootstrap this folder accordingly.
