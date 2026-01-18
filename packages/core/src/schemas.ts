@@ -129,6 +129,40 @@ export const TravelMatrixRequestSchema = z
     }
   );
 
+export const GeocodeRequestSchema = z
+  .object({
+    query: z.string().min(1),
+    near: z
+      .object({
+        lat: z.number(),
+        lng: z.number()
+      })
+      .optional(),
+    bbox: z
+      .object({
+        minLon: z.number(),
+        minLat: z.number(),
+        maxLon: z.number(),
+        maxLat: z.number()
+      })
+      .optional(),
+    limit: z.coerce.number().int().min(1).max(10).optional()
+  })
+  .refine(
+    (values) => {
+      if (!values.bbox) return true;
+      return values.bbox.minLat <= values.bbox.maxLat;
+    },
+    { message: "minLat must be <= maxLat", path: ["bbox", "minLat"] }
+  )
+  .refine(
+    (values) => {
+      if (!values.bbox) return true;
+      return values.bbox.minLon <= values.bbox.maxLon;
+    },
+    { message: "minLon must be <= maxLon", path: ["bbox", "minLon"] }
+  );
+
 const LatLngStringSchema = z
   .string()
   .regex(/^-?\d+(?:\.\d+)?,\s*-?\d+(?:\.\d+)?$/);

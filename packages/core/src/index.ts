@@ -4,3 +4,4 @@ export * from "./geohash.js";
 export * from "./time-bucket.js";
 export * from "./cache.js";
 export * from "./travel.js";
+export * from "./geocode.js";
