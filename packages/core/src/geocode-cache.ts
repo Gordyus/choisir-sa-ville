@@ -13,7 +13,7 @@ export function buildGeocodeCacheKey(request: GeocodeRequest): string {
     : "none";
   const bboxKey = request.bbox ? hashBbox(request.bbox) : "none";
   const limit = request.limit ?? DEFAULT_LIMIT;
-  return `geocode:v1:${normalizedQuery}:${nearKey}:${bboxKey}:${limit}`;
+  return `geocode:v2:fr:${normalizedQuery}:${nearKey}:${bboxKey}:${limit}`;
 }
 
 export async function getCachedGeocode(

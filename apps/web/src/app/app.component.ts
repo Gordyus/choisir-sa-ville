@@ -1,26 +1,17 @@
-import { Component, OnDestroy, OnInit } from "@angular/core";
+import { Component, OnDestroy } from "@angular/core";
 import { AsyncPipe, NgFor, NgIf, NgSwitch, NgSwitchCase } from "@angular/common";
 import { FormsModule } from "@angular/forms";
-import {
-  Subject,
-  combineLatest,
-  map,
-  startWith,
-  take,
-  debounceTime,
-  distinctUntilChanged,
-  switchMap,
-  of,
-  catchError
-} from "rxjs";
+import { combineLatest, map, startWith, take } from "rxjs";
 import { MapComponent } from "./map/map.component";
-import { MapDataService, type Viewport } from "./services/map-data.service";
-import { CityDetailsService } from "./services/city-details.service";
-import { SelectionService } from "./services/selection.service";
-import { SearchService } from "./services/search.service";
-import { TravelMatrixService } from "./services/travel-matrix.service";
-import { TravelRouteService } from "./services/travel-route.service";
-import { GeocodeService } from "./services/geocode.service";
+import { MapDataService, type Viewport } from "./features/map/map-data.service";
+import { CityDetailsService } from "./features/city-details/city-details.service";
+import { SelectionService } from "./features/selection/selection.service";
+import { SearchService } from "./features/search/search.service";
+import { TravelMatrixService } from "./features/travel/travel-matrix.service";
+import { TravelRouteService } from "./features/travel/travel-route.service";
+import { SearchAreaSuggestFacade } from "./features/search-area/search-area-suggest.facade";
+import { DestinationSuggestFacade } from "./features/travel/destination-suggest.facade";
+import { GeocodeService } from "./core/api/geocode.service";
 import type { TravelMatrixResult, TravelMode } from "@csv/core";
 import {
   type GeocodeRequest,
@@ -44,12 +35,16 @@ import type { Subscription } from "rxjs";
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.css"]
 })
-export class AppComponent implements OnInit, OnDestroy {
+export class AppComponent implements OnDestroy {
   readonly detailsState$ = this.cityDetails.detailsState$;
   readonly searchState$ = this.searchService.searchState$;
   readonly travelState$ = this.travelMatrix.matrixState$;
   readonly travelOptions$ = this.travelMatrix.options$;
   readonly routeState$ = this.travelRoute.routeState$;
+  readonly querySuggestions$ = this.searchAreaSuggest.suggestions$;
+  readonly isQuerySuggesting$ = this.searchAreaSuggest.isSuggesting$;
+  readonly destinationSuggestions$ = this.destinationSuggest.suggestions$;
+  readonly isDestinationSuggesting$ = this.destinationSuggest.isSuggesting$;
   readonly markers$ = this.searchState$.pipe(
     map((state) =>
       state.items.map((item) => ({
@@ -91,20 +86,16 @@ export class AppComponent implements OnInit, OnDestroy {
 
   query = "";
   resolvedAreaLabel = "";
-  querySuggestions: GeocodeCandidate[] = [];
   querySuggestionIndex = -1;
   travelEnabled = false;
   destinationInput = "";
   resolvedDestinationLabel = "";
-  destinationSuggestions: GeocodeCandidate[] = [];
   suggestionIndex = -1;
   travelMode: TravelMode = "car";
   travelDay = "mon";
   travelTime = "08:30";
   travelError = "";
   isGeocoding = false;
-  isSuggesting = false;
-  isQuerySuggesting = false;
   readonly dayOptions = [
     { value: "mon", label: "Monday" },
     { value: "tue", label: "Tuesday" },
@@ -116,10 +107,6 @@ export class AppComponent implements OnInit, OnDestroy {
   ];
   readonly timeOptions = buildTimeOptions();
   private geocodeSubscription?: Subscription;
-  private suggestionSubscription?: Subscription;
-  private querySuggestionSubscription?: Subscription;
-  private readonly destinationQuerySubject = new Subject<string>();
-  private readonly querySuggestionSubject = new Subject<string>();
 
   constructor(
     private readonly cityDetails: CityDetailsService,
@@ -127,100 +114,47 @@ export class AppComponent implements OnInit, OnDestroy {
     private readonly searchService: SearchService,
     private readonly travelMatrix: TravelMatrixService,
     private readonly travelRoute: TravelRouteService,
+    private readonly searchAreaSuggest: SearchAreaSuggestFacade,
+    private readonly destinationSuggest: DestinationSuggestFacade,
     private readonly geocodeService: GeocodeService,
     private readonly mapData: MapDataService
   ) {}
 
-  ngOnInit(): void {
-    this.suggestionSubscription = this.destinationQuerySubject
-      .pipe(
-        map((value) => value.trim()),
-        debounceTime(300),
-        distinctUntilChanged(),
-        switchMap((query) => {
-          if (!this.travelEnabled || query.length < 3) {
-            this.isSuggesting = false;
-            return of<GeocodeCandidate[]>([]);
-          }
-          if (this.selectedCandidateLabelMatches(query)) {
-            this.isSuggesting = false;
-            return of<GeocodeCandidate[]>([]);
-          }
-          this.isSuggesting = true;
-          const request = buildGeocodeRequest(query, this.mapData.getViewport());
-          return this.geocodeService.geocode(request).pipe(
-            map((response) => response.candidates),
-            catchError(() => of<GeocodeCandidate[]>([]))
-          );
-        })
-      )
-      .subscribe((candidates) => {
-        this.isSuggesting = false;
-        this.destinationSuggestions = candidates;
-        this.suggestionIndex = -1;
-      });
-
-    this.querySuggestionSubscription = this.querySuggestionSubject
-      .pipe(
-        map((value) => value.trim()),
-        debounceTime(300),
-        distinctUntilChanged(),
-        switchMap((query) => {
-          if (query.length < 3) {
-            this.isQuerySuggesting = false;
-            return of<GeocodeCandidate[]>([]);
-          }
-          this.isQuerySuggesting = true;
-          const request = buildAreaGeocodeRequest(query);
-          return this.geocodeService.geocode(request).pipe(
-            map((response) => response.candidates),
-            catchError(() => of<GeocodeCandidate[]>([]))
-          );
-        })
-      )
-      .subscribe((candidates) => {
-        this.isQuerySuggesting = false;
-        this.querySuggestions = candidates;
-        this.querySuggestionIndex = -1;
-      });
-  }
-
   runSearch(): void {
-    this.searchService.search({ q: this.query, limit: 200, offset: 0 });
+    this.searchService.search({ limit: 200, offset: 0 });
   }
 
   onQueryInput(): void {
-    this.querySuggestions = [];
     this.querySuggestionIndex = -1;
     this.resolvedAreaLabel = "";
-    this.querySuggestionSubject.next(this.query);
+    this.searchAreaSuggest.setQuery(this.query);
   }
 
   onQueryKey(event: KeyboardEvent): void {
-    if (this.querySuggestions.length === 0) return;
+    const suggestions = this.searchAreaSuggest.getSnapshot();
+    if (suggestions.length === 0) return;
     if (event.key === "ArrowDown") {
       event.preventDefault();
       this.querySuggestionIndex =
-        (this.querySuggestionIndex + 1) % this.querySuggestions.length;
+        (this.querySuggestionIndex + 1) % suggestions.length;
       return;
     }
     if (event.key === "ArrowUp") {
       event.preventDefault();
       this.querySuggestionIndex =
-        (this.querySuggestionIndex - 1 + this.querySuggestions.length) %
-        this.querySuggestions.length;
+        (this.querySuggestionIndex - 1 + suggestions.length) % suggestions.length;
       return;
     }
     if (event.key === "Enter" && this.querySuggestionIndex >= 0) {
       event.preventDefault();
-      const candidate = this.querySuggestions[this.querySuggestionIndex];
+      const candidate = suggestions[this.querySuggestionIndex];
       if (candidate) {
         this.selectQueryCandidate(candidate);
       }
       return;
     }
     if (event.key === "Escape") {
-      this.querySuggestions = [];
+      this.searchAreaSuggest.clear();
       this.querySuggestionIndex = -1;
     }
   }
@@ -228,45 +162,52 @@ export class AppComponent implements OnInit, OnDestroy {
   selectQueryCandidate(candidate: GeocodeCandidate): void {
     this.query = candidate.label;
     this.resolvedAreaLabel = candidate.label;
-    this.querySuggestions = [];
+    this.searchAreaSuggest.clear();
     this.querySuggestionIndex = -1;
     this.mapData.requestPan({ lat: candidate.lat, lng: candidate.lng, zoom: 10 });
   }
 
+  suggestionBadge(candidate: GeocodeCandidate): string {
+    return formatSuggestionBadge(candidate.source);
+  }
+
   onDestinationInput(): void {
     this.clearTravelError();
-    this.destinationSuggestions = [];
     this.suggestionIndex = -1;
     this.resolvedDestinationLabel = "";
     this.selectedCandidate = null;
-    this.destinationQuerySubject.next(this.destinationInput);
+    this.destinationSuggest.setQuery({
+      query: this.destinationInput,
+      enabled: this.travelEnabled,
+      selectedLabel: this.selectedCandidate?.label ?? null,
+      viewport: this.mapData.getViewport()
+    });
   }
 
   onDestinationKey(event: KeyboardEvent): void {
-    if (this.destinationSuggestions.length === 0) return;
+    const suggestions = this.destinationSuggest.getSnapshot();
+    if (suggestions.length === 0) return;
     if (event.key === "ArrowDown") {
       event.preventDefault();
-      this.suggestionIndex =
-        (this.suggestionIndex + 1) % this.destinationSuggestions.length;
+      this.suggestionIndex = (this.suggestionIndex + 1) % suggestions.length;
       return;
     }
     if (event.key === "ArrowUp") {
       event.preventDefault();
       this.suggestionIndex =
-        (this.suggestionIndex - 1 + this.destinationSuggestions.length) %
-        this.destinationSuggestions.length;
+        (this.suggestionIndex - 1 + suggestions.length) % suggestions.length;
       return;
     }
     if (event.key === "Enter" && this.suggestionIndex >= 0) {
       event.preventDefault();
-      const candidate = this.destinationSuggestions[this.suggestionIndex];
+      const candidate = suggestions[this.suggestionIndex];
       if (candidate) {
         this.selectCandidate(candidate);
       }
       return;
     }
     if (event.key === "Escape") {
-      this.destinationSuggestions = [];
+      this.destinationSuggest.clear();
       this.suggestionIndex = -1;
     }
   }
@@ -274,7 +215,7 @@ export class AppComponent implements OnInit, OnDestroy {
   selectCandidate(candidate: GeocodeCandidate): void {
     this.destinationInput = candidate.label;
     this.resolvedDestinationLabel = candidate.label;
-    this.destinationSuggestions = [];
+    this.destinationSuggest.clear();
     this.suggestionIndex = -1;
     this.travelError = "";
     this.selectedCandidate = candidate;
@@ -286,7 +227,7 @@ export class AppComponent implements OnInit, OnDestroy {
     if (!this.travelEnabled) {
       this.travelMatrix.updateOptions({ enabled: false });
       this.resolvedDestinationLabel = "";
-      this.destinationSuggestions = [];
+      this.destinationSuggest.clear();
       this.suggestionIndex = -1;
       this.selectedCandidate = null;
       return;
@@ -364,16 +305,9 @@ export class AppComponent implements OnInit, OnDestroy {
 
   ngOnDestroy(): void {
     this.geocodeSubscription?.unsubscribe();
-    this.suggestionSubscription?.unsubscribe();
-    this.querySuggestionSubscription?.unsubscribe();
   }
 
   private selectedCandidate: GeocodeCandidate | null = null;
-
-  private selectedCandidateLabelMatches(query: string): boolean {
-    if (!this.selectedCandidate) return false;
-    return this.selectedCandidate.label.toLowerCase() === query.toLowerCase();
-  }
 
   clearTravelError(): void {
     if (this.travelError) {
@@ -479,13 +413,6 @@ function buildGeocodeRequest(query: string, viewport: Viewport | null): GeocodeR
   };
 }
 
-function buildAreaGeocodeRequest(query: string): GeocodeRequest {
-  return {
-    query,
-    limit: 6
-  };
-}
-
 function buildSearchArea(viewport: Viewport | null): SearchArea {
   if (!viewport) return null;
   return {
@@ -497,3 +424,20 @@ function buildSearchArea(viewport: Viewport | null): SearchArea {
     }
   };
 }
+
+function formatSuggestionBadge(source?: string): string {
+  switch (source) {
+    case "postalCode":
+      return "Code postal";
+    case "department":
+      return "Departement";
+    case "region":
+      return "Region";
+    case "commune":
+      return "Commune";
+    default:
+      return "Zone";
+  }
+}
+
+

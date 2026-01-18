@@ -20,6 +20,7 @@ type PhotonFeature = {
     city?: string;
     state?: string;
     country?: string;
+    countrycode?: string;
     postcode?: string;
     score?: number;
   };
@@ -55,6 +56,7 @@ export class PhotonGeocodeProvider implements GeocodeProvider {
 export function buildPhotonUrl(baseUrl: string, request: GeocodeRequest): URL {
   const url = new URL("/api", `${baseUrl}/`);
   url.searchParams.set("q", normalizeQuery(request.query));
+  url.searchParams.set("lang", "fr");
 
   if (typeof request.limit === "number") {
     url.searchParams.set("limit", String(request.limit));
@@ -90,6 +92,7 @@ export function mapPhotonResponse(payload: PhotonResponse): GeocodeResponse {
 
     const label = buildLabel(feature.properties);
     if (!label) continue;
+    if (!isFrance(feature.properties, label)) continue;
 
     const score =
       typeof feature.properties?.score === "number" ? feature.properties.score : undefined;
@@ -120,6 +123,20 @@ function buildLabel(props: PhotonFeature["properties"]): string {
     return `${label} ${props.postcode.trim()}`;
   }
   return label;
+}
+
+function isFrance(props: PhotonFeature["properties"], label: string): boolean {
+  if (!props) return false;
+  const countryCode = props.countrycode?.trim().toLowerCase();
+  if (countryCode === "fr") return true;
+
+  const country = props.country?.trim().toLowerCase();
+  if (country && country.includes("france")) return true;
+
+  const normalizedLabel = label.trim().toLowerCase();
+  if (normalizedLabel.includes("france")) return true;
+
+  return false;
 }
 
 async function fetchJson<T>(

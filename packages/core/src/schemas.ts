@@ -163,6 +163,11 @@ export const GeocodeRequestSchema = z
     { message: "minLon must be <= maxLon", path: ["bbox", "minLon"] }
   );
 
+export const AreaSuggestQuery = z.object({
+  q: z.string().min(1).max(200),
+  limit: z.coerce.number().int().min(1).max(20).default(6)
+});
+
 const LatLngStringSchema = z
   .string()
   .regex(/^-?\d+(?:\.\d+)?,\s*-?\d+(?:\.\d+)?$/);

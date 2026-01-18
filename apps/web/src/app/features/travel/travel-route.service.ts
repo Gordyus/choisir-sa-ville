@@ -17,8 +17,8 @@ import {
   type TravelPoint,
   type TravelStatus
 } from "@csv/core";
-import { environment } from "../../environments/environment";
-import { SelectionService } from "./selection.service";
+import { environment } from "../../../environments/environment";
+import { SelectionService } from "../selection/selection.service";
 import { TravelMatrixService, type TravelOptions } from "./travel-matrix.service";
 
 type RouteResponse = {

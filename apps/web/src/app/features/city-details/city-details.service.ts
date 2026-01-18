@@ -10,8 +10,8 @@ import {
   startWith,
   switchMap
 } from "rxjs";
-import { environment } from "../../environments/environment";
-import { SelectionService } from "./selection.service";
+import { environment } from "../../../environments/environment";
+import { SelectionService } from "../selection/selection.service";
 
 type CityDetails = {
   inseeCode: string;

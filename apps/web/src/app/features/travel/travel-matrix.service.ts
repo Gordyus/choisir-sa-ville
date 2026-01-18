@@ -11,8 +11,8 @@ import {
   catchError
 } from "rxjs";
 import { type TravelMatrixResult, type TravelMode, normalizeBucket } from "@csv/core";
-import { environment } from "../../environments/environment";
-import { SearchService } from "./search.service";
+import { environment } from "../../../environments/environment";
+import { SearchService } from "../search/search.service";
 
 export type TravelMatrixState = {
   status: "idle" | "loading" | "loaded" | "error";

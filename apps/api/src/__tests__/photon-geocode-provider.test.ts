@@ -15,6 +15,7 @@ test("buildPhotonUrl encodes near and bbox params", () => {
 
   assert.equal(url.pathname, "/api");
   assert.equal(url.searchParams.get("q"), "Rouen");
+  assert.equal(url.searchParams.get("lang"), "fr");
   assert.equal(url.searchParams.get("lat"), "49.4431");
   assert.equal(url.searchParams.get("lon"), "1.0993");
   assert.equal(url.searchParams.get("bbox"), "1,49,1.2,49.6");
@@ -31,6 +32,10 @@ test("mapPhotonResponse maps candidates and skips invalid rows", () => {
       {
         geometry: { coordinates: [2.3522, 48.8566] },
         properties: { name: "Paris", country: "France" }
+      },
+      {
+        geometry: { coordinates: [-73.5673, 45.5017] },
+        properties: { label: "Montreal, Quebec, Canada", countrycode: "ca" }
       },
       {
         geometry: { coordinates: [null as unknown as number, 0] },

@@ -1,9 +1,9 @@
 import { Injectable } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
 import { BehaviorSubject, Subject, catchError, map, of, switchMap } from "rxjs";
-import { environment } from "../../environments/environment";
-import type { Viewport } from "./map-data.service";
-import { MapDataService } from "./map-data.service";
+import { environment } from "../../../environments/environment";
+import type { Viewport } from "../map/map-data.service";
+import { MapDataService } from "../map/map-data.service";
 
 export type SearchResultItem = {
   zoneId: string;

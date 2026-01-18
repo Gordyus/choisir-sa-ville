@@ -14,26 +14,32 @@
       </div>
       <form class="search" (ngSubmit)="runSearch()">
         <label>
-          <span>Keyword</span>
+          <span>Search area</span>
           <input
             type="text"
-            name="query"
+            name="searchArea"
             [(ngModel)]="query"
             placeholder="City, postal code, region, department"
             (input)="onQueryInput()"
             (keydown)="onQueryKey($event)"
           />
         </label>
-        <ul class="geocode-suggestions" *ngIf="querySuggestions.length > 0">
+        <ul
+          class="geocode-suggestions"
+          *ngIf="(querySuggestions$ | async)?.length ?? 0"
+        >
           <li
-            *ngFor="let candidate of querySuggestions; let i = index"
+            *ngFor="let candidate of (querySuggestions$ | async) ?? []; let i = index"
             [class.active]="i === querySuggestionIndex"
             (click)="selectQueryCandidate(candidate)"
           >
-            {{ candidate.label }}
+            <span class="suggestion-badge">{{ suggestionBadge(candidate) }}</span>
+            <span class="suggestion-label">{{ candidate.label }}</span>
           </li>
         </ul>
-        <span class="hint" *ngIf="isQuerySuggesting">Searching locations...</span>
+        <span class="hint" *ngIf="(isQuerySuggesting$ | async) === true">
+          Searching locations...
+        </span>
         <span class="hint" *ngIf="resolvedAreaLabel">
           Selected area: {{ resolvedAreaLabel }}
         </span>
@@ -89,10 +95,10 @@
               </label>
               <ul
                 class="geocode-suggestions"
-                *ngIf="travelEnabled && destinationSuggestions.length > 0"
+                *ngIf="travelEnabled && ((destinationSuggestions$ | async)?.length ?? 0)"
               >
                 <li
-                  *ngFor="let candidate of destinationSuggestions; let i = index"
+                  *ngFor="let candidate of (destinationSuggestions$ | async) ?? []; let i = index"
                   [class.active]="i === suggestionIndex"
                   (click)="selectCandidate(candidate)"
                 >
@@ -141,7 +147,9 @@
                 Apply travel
               </button>
               <span class="hint">Type an address near your search area (lat,lng also works).</span>
-              <span class="hint" *ngIf="isSuggesting">Searching addresses...</span>
+              <span class="hint" *ngIf="(isDestinationSuggesting$ | async) === true">
+                Searching addresses...
+              </span>
               <span class="hint" *ngIf="isGeocoding">Looking up address...</span>
               <span class="hint" *ngIf="resolvedDestinationLabel">
                 Resolved: {{ resolvedDestinationLabel }}

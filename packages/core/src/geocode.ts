@@ -23,6 +23,10 @@ export type GeocodeCandidate = {
   lng: number;
   score?: number;
   source?: string;
+  code?: string;
+  postalCode?: string;
+  deptCode?: string;
+  regionCode?: string;
 };
 
 export type GeocodeResponse = {

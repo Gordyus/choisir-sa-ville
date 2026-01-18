@@ -34,7 +34,8 @@ test("buildGeocodeCacheKey normalizes query and hashes near/bbox", () => {
 
   const key = buildGeocodeCacheKey(request);
   const expected = [
-    "geocode:v1",
+    "geocode:v2",
+    "fr",
     "rue de paris",
     toGeohash6(48.8566, 2.3522),
     hashBbox(bbox),

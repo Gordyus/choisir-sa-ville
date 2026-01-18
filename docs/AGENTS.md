@@ -12,8 +12,10 @@ Tout agent (humain ou IA) doit s’y conformer strictement.
 - Séparation stricte des responsabilités :
 
 apps/
-  api/        # Adaptateur HTTP uniquement (Fastify)
-  web/        # Frontend Angular 20.x (LTS)
+  api/                        # Adaptateur HTTP uniquement (Fastify)
+    CODEX_API_GUIDELINES.md   # Contient les règles de développement à appliquer
+  web/                        # Frontend Angular 20.x (LTS)
+    CODEX_WEB_GUIDELINES.md   # Contient les règles de développement à appliquer
 
 packages/
   core/       # Logique métier pure, types, Zod (aucune infra)
