@@ -29,6 +29,10 @@ export type GeocodeResponse = {
   candidates: GeocodeCandidate[];
 };
 
+export type GeocodeProvider = {
+  geocode: (request: GeocodeRequest) => Promise<GeocodeResponse>;
+};
+
 export type SearchArea = {
   bbox?: GeocodeBbox | null;
 } | null;
