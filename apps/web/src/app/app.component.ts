@@ -23,8 +23,6 @@ import { TravelRouteService } from "./services/travel-route.service";
 import { GeocodeService } from "./services/geocode.service";
 import type { TravelMatrixResult, TravelMode } from "@csv/core";
 import {
-  computeBboxFromSearchArea,
-  computeNearFromSearchArea,
   type GeocodeRequest,
   type GeocodeCandidate,
   type SearchArea
@@ -391,10 +389,17 @@ function buildTimeOptions(): string[] {
 
 function buildGeocodeRequest(query: string, viewport: Viewport | null): GeocodeRequest {
   const area = buildSearchArea(viewport);
+  const bbox = area?.bbox ?? undefined;
+  const near = bbox
+    ? {
+        lat: (bbox.minLat + bbox.maxLat) / 2,
+        lng: (bbox.minLon + bbox.maxLon) / 2
+      }
+    : undefined;
   return {
     query,
-    near: computeNearFromSearchArea(area),
-    bbox: computeBboxFromSearchArea(area),
+    near,
+    bbox,
     limit: 5
   };
 }
