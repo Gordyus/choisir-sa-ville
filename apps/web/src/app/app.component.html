@@ -61,12 +61,12 @@
                 <span>Enable travel time</span>
               </label>
               <label>
-                <span>Destination (lat,lng)</span>
+                <span>Destination address</span>
                 <input
                   type="text"
                   name="destination"
                   [(ngModel)]="destinationInput"
-                  placeholder="48.8566,2.3522"
+                  placeholder="10 Rue de la Paix, Paris"
                   [disabled]="!travelEnabled"
                   (input)="clearTravelError()"
                 />
@@ -112,7 +112,11 @@
               <button type="button" (click)="applyTravelOptions()" [disabled]="!travelEnabled">
                 Apply travel
               </button>
-              <span class="hint">Use "lat,lng" format for now.</span>
+              <span class="hint">Type an address near your search area (lat,lng also works).</span>
+              <span class="hint" *ngIf="isGeocoding">Looking up address...</span>
+              <span class="hint" *ngIf="resolvedDestinationLabel">
+                Resolved: {{ resolvedDestinationLabel }}
+              </span>
               <span class="error" *ngIf="travelError">{{ travelError }}</span>
               <span class="hint" *ngIf="viewState.travelEnabled && viewState.travelStatus === 'loading'">
                 Loading travel times...

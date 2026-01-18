@@ -1,14 +1,23 @@
-import { Component } from "@angular/core";
+import { Component, OnDestroy } from "@angular/core";
 import { AsyncPipe, NgFor, NgIf, NgSwitch, NgSwitchCase } from "@angular/common";
 import { FormsModule } from "@angular/forms";
-import { combineLatest, map, startWith } from "rxjs";
+import { combineLatest, map, startWith, take } from "rxjs";
 import { MapComponent } from "./map/map.component";
+import { MapDataService, type Viewport } from "./services/map-data.service";
 import { CityDetailsService } from "./services/city-details.service";
 import { SelectionService } from "./services/selection.service";
 import { SearchService } from "./services/search.service";
 import { TravelMatrixService } from "./services/travel-matrix.service";
 import { TravelRouteService } from "./services/travel-route.service";
+import { GeocodeService } from "./services/geocode.service";
 import type { TravelMatrixResult, TravelMode } from "@csv/core";
+import {
+  computeBboxFromSearchArea,
+  computeNearFromSearchArea,
+  type GeocodeRequest,
+  type SearchArea
+} from "@csv/core";
+import type { Subscription } from "rxjs";
 
 @Component({
   selector: "app-root",
@@ -25,7 +34,7 @@ import type { TravelMatrixResult, TravelMode } from "@csv/core";
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.css"]
 })
-export class AppComponent {
+export class AppComponent implements OnDestroy {
   readonly detailsState$ = this.cityDetails.detailsState$;
   readonly searchState$ = this.searchService.searchState$;
   readonly travelState$ = this.travelMatrix.matrixState$;
@@ -73,10 +82,12 @@ export class AppComponent {
   query = "";
   travelEnabled = false;
   destinationInput = "";
+  resolvedDestinationLabel = "";
   travelMode: TravelMode = "car";
   travelDay = "mon";
   travelTime = "08:30";
   travelError = "";
+  isGeocoding = false;
   readonly dayOptions = [
     { value: "mon", label: "Monday" },
     { value: "tue", label: "Tuesday" },
@@ -87,13 +98,16 @@ export class AppComponent {
     { value: "sun", label: "Sunday" }
   ];
   readonly timeOptions = buildTimeOptions();
+  private geocodeSubscription?: Subscription;
 
   constructor(
     private readonly cityDetails: CityDetailsService,
     private readonly selection: SelectionService,
     private readonly searchService: SearchService,
     private readonly travelMatrix: TravelMatrixService,
-    private readonly travelRoute: TravelRouteService
+    private readonly travelRoute: TravelRouteService,
+    private readonly geocodeService: GeocodeService,
+    private readonly mapData: MapDataService
   ) {}
 
   runSearch(): void {
@@ -102,43 +116,69 @@ export class AppComponent {
 
   applyTravelOptions(): void {
     this.travelError = "";
-    console.debug("[travel] apply", {
-      enabled: this.travelEnabled,
-      destinationInput: this.destinationInput,
-      mode: this.travelMode,
-      day: this.travelDay,
-      time: this.travelTime
-    });
+    this.isGeocoding = false;
     if (!this.travelEnabled) {
       this.travelMatrix.updateOptions({ enabled: false });
+      this.resolvedDestinationLabel = "";
       return;
     }
 
-    const destination = parseLatLng(this.destinationInput);
-    if (!destination) {
-      this.travelError = "Enter destination as lat,lng (e.g. 48.8566,2.3522).";
-      console.warn("[travel] invalid destination", { destinationInput: this.destinationInput });
+    const rawQuery = this.destinationInput.trim();
+    if (!rawQuery) {
+      this.travelError = "Destination required.";
       this.travelMatrix.updateOptions({ enabled: true, destination: null });
       return;
     }
 
     if (!this.travelDay || !this.travelTime) {
       this.travelError = "Select a valid day and time.";
-      console.warn("[travel] missing day/time", {
-        day: this.travelDay,
-        time: this.travelTime
-      });
       return;
     }
     const bucket = `${this.travelDay}_${this.travelTime}`;
-    console.debug("[travel] bucket", { bucket });
 
-    this.travelMatrix.updateOptions({
-      enabled: true,
-      destination,
-      mode: this.travelMode,
-      timeBucket: bucket
-    });
+    const destination = parseLatLng(rawQuery);
+    if (destination) {
+      this.resolvedDestinationLabel = rawQuery;
+      this.travelMatrix.updateOptions({
+        enabled: true,
+        destination,
+        mode: this.travelMode,
+        timeBucket: bucket
+      });
+      return;
+    }
+
+    this.isGeocoding = true;
+    this.geocodeSubscription?.unsubscribe();
+    const request = buildGeocodeRequest(rawQuery, this.mapData.getViewport());
+    this.geocodeSubscription = this.geocodeService
+      .geocode(request)
+      .pipe(take(1))
+      .subscribe({
+        next: (response) => {
+          this.isGeocoding = false;
+          const candidate = response.candidates[0];
+          if (!candidate) {
+            this.travelError = "Address not found near your search area.";
+            return;
+          }
+          this.resolvedDestinationLabel = candidate.label;
+          this.travelMatrix.updateOptions({
+            enabled: true,
+            destination: { lat: candidate.lat, lng: candidate.lng },
+            mode: this.travelMode,
+            timeBucket: bucket
+          });
+        },
+        error: () => {
+          this.isGeocoding = false;
+          this.travelError = "Address lookup failed.";
+        }
+      });
+  }
+
+  ngOnDestroy(): void {
+    this.geocodeSubscription?.unsubscribe();
   }
 
   clearTravelError(): void {
@@ -226,4 +266,26 @@ function buildTimeOptions(): string[] {
     }
   }
   return options;
+}
+
+function buildGeocodeRequest(query: string, viewport: Viewport | null): GeocodeRequest {
+  const area = buildSearchArea(viewport);
+  return {
+    query,
+    near: computeNearFromSearchArea(area),
+    bbox: computeBboxFromSearchArea(area),
+    limit: 5
+  };
+}
+
+function buildSearchArea(viewport: Viewport | null): SearchArea {
+  if (!viewport) return null;
+  return {
+    bbox: {
+      minLon: viewport.west,
+      minLat: viewport.south,
+      maxLon: viewport.east,
+      maxLat: viewport.north
+    }
+  };
 }
