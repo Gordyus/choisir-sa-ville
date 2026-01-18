@@ -8,12 +8,15 @@ import { loadEnv } from "./config.js";
 import { registerErrorHandler } from "./errors/error-handler.js";
 import { citiesRoute } from "./routes/cities.js";
 import { debugRoute } from "./routes/debug.js";
+import { geocodeRoute } from "./routes/geocode.js";
 import { healthRoute } from "./routes/health.js";
 import { searchRoute } from "./routes/search.js";
 import { travelMatrixRoute } from "./routes/travel-matrix.js";
 import { travelRoute } from "./routes/travel-route.js";
 import { PostgresCacheStore } from "./services/cache-store.js";
+import { createGeocodeService } from "./services/geocode.service.js";
 import { OsrmTravelProvider } from "./services/osrm-travel-provider.js";
+import { PhotonGeocodeProvider } from "./services/photon-geocode-provider.js";
 import { createSearchService } from "./services/search.service.js";
 import { DisabledTravelProvider } from "./services/travel-provider.js";
 import { createTravelMatrixService } from "./services/travel-matrix.service.js";
@@ -37,6 +40,8 @@ registerErrorHandler(app);
 const db = createDb(env.DATABASE_URL);
 const searchService = createSearchService(db);
 const cacheStore = new PostgresCacheStore(db);
+const geocodeProvider = new PhotonGeocodeProvider({ baseUrl: "https://photon.komoot.io" });
+const geocodeService = createGeocodeService(cacheStore, geocodeProvider);
 const travelProvider = env.OSRM_BASE_URL
   ? new OsrmTravelProvider({ baseUrl: env.OSRM_BASE_URL })
   : new DisabledTravelProvider();
@@ -46,6 +51,7 @@ const travelRouteService = createTravelRouteService(db, cacheStore, travelProvid
 await app.register(healthRoute);
 await app.register(citiesRoute(db));
 await app.register(searchRoute(searchService));
+await app.register(geocodeRoute(geocodeService));
 await app.register(travelMatrixRoute(travelMatrixService));
 await app.register(travelRoute(travelRouteService));
 if (env.NODE_ENV !== "production") {
