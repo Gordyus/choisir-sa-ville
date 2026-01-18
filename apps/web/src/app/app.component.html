@@ -22,8 +22,8 @@
         <button type="submit">Search this area</button>
       </form>
     </div>
-    <section class="panel-section" *ngIf="searchState$ | async as searchState">
-      <ng-container [ngSwitch]="searchState.status">
+    <section class="panel-section" *ngIf="viewState$ | async as viewState">
+      <ng-container [ngSwitch]="viewState.status">
         <div class="detail-card" *ngSwitchCase="'idle'">
           <h2 class="detail-title">Search the map</h2>
           <div class="detail-meta">
@@ -40,21 +40,74 @@
         <div class="detail-card" *ngSwitchCase="'error'">
           <h2 class="detail-title">Search failed</h2>
           <div class="detail-meta">
-            <span>{{ searchState.message ?? "Unable to load results." }}</span>
+            <span>{{ viewState.message ?? "Unable to load results." }}</span>
           </div>
         </div>
         <ng-container *ngSwitchCase="'loaded'">
           <div class="detail-card">
             <div class="detail-meta">
-              <span>{{ searchState.total }} zones found</span>
-              <span>Showing {{ searchState.items.length }} results</span>
+              <span>{{ viewState.total }} zones found</span>
+              <span>Showing {{ viewState.rows.length }} results</span>
             </div>
           </div>
-          <div class="detail-card" *ngIf="searchState.items.length > 0; else noResults">
+          <div class="detail-card">
+            <h3 class="detail-title">Travel options</h3>
+            <div class="detail-meta">
+              <label class="toggle">
+                <input type="checkbox" [(ngModel)]="travelEnabled" (change)="applyTravelOptions()" />
+                <span>Enable travel time</span>
+              </label>
+              <label>
+                <span>Destination (lat,lng)</span>
+                <input
+                  type="text"
+                  name="destination"
+                  [(ngModel)]="destinationInput"
+                  placeholder="48.8566,2.3522"
+                  [disabled]="!travelEnabled"
+                />
+              </label>
+              <label>
+                <span>Mode</span>
+                <select
+                  name="mode"
+                  [(ngModel)]="travelMode"
+                  (change)="applyTravelOptions()"
+                  [disabled]="!travelEnabled"
+                >
+                  <option value="car">Car</option>
+                  <option value="transit">Transit</option>
+                </select>
+              </label>
+              <label>
+                <span>Arrive by (bucket)</span>
+                <input
+                  type="text"
+                  name="timeBucket"
+                  [(ngModel)]="timeBucket"
+                  placeholder="mon_08:30"
+                  [disabled]="!travelEnabled"
+                />
+              </label>
+              <button type="button" (click)="applyTravelOptions()" [disabled]="!travelEnabled">
+                Apply travel
+              </button>
+              <span class="hint">Use "lat,lng" format for now.</span>
+              <span class="error" *ngIf="travelError">{{ travelError }}</span>
+              <span class="hint" *ngIf="viewState.travelEnabled && viewState.travelStatus === 'loading'">
+                Loading travel times...
+              </span>
+              <span class="error" *ngIf="viewState.travelEnabled && viewState.travelStatus === 'error'">
+                {{ viewState.travelMessage ?? "Travel service unavailable." }}
+              </span>
+            </div>
+          </div>
+          <div class="detail-card" *ngIf="viewState.rows.length > 0; else noResults">
             <table class="results-table">
               <thead>
                 <tr>
                   <th>Zone</th>
+                  <th>Travel</th>
                   <th>Population</th>
                   <th>Dept</th>
                   <th>Region</th>
@@ -62,11 +115,14 @@
               </thead>
               <tbody>
                 <tr
-                  *ngFor="let item of searchState.items"
+                  *ngFor="let item of viewState.rows"
                   class="results-row"
                   (click)="selectZone(item.zoneId)"
                 >
                   <td>{{ item.zoneName }}</td>
+                  <td [title]="travelTitle(item.travel)">
+                    {{ formatTravel(item.travel, viewState.travelStatus) }}
+                  </td>
                   <td>{{ item.attributes.population ?? "-" }}</td>
                   <td>{{ item.attributes.departmentCode ?? "-" }}</td>
                   <td>{{ item.attributes.regionCode ?? "-" }}</td>

@@ -1,4 +1,4 @@
-import type { TravelStatus, TravelMatrixResult } from "./travel.js";
+import type { TravelStatus, TravelMatrixResult, TravelMode } from "./travel.js";
 
 export type City = {
   inseeCode: string;
