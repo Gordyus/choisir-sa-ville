@@ -10,11 +10,7 @@ import {
   switchMap,
   catchError
 } from "rxjs";
-import {
-  type TravelMatrixResult,
-  type TravelMode,
-  normalizeBucket
-} from "@csv/core";
+import { type TravelMatrixResult, type TravelMode, normalizeBucket } from "@csv/core";
 import { environment } from "../../environments/environment";
 import { SearchService } from "./search.service";
 
@@ -42,6 +38,7 @@ type MatrixRequest = {
 };
 
 const EMPTY_RESULTS: Record<string, TravelMatrixResult> = {};
+const DEFAULT_BUCKET = "mon_08:30";
 
 @Injectable({ providedIn: "root" })
 export class TravelMatrixService {
@@ -84,8 +81,14 @@ export class TravelMatrixService {
             return { kind: "idle" as const };
           }
 
-          const normalizedBucket = normalizeBucket(options.timeBucket);
-          const key = buildRequestKey(options, origins);
+          const normalizedBucket = safeNormalizeBucket(options.timeBucket);
+          const bucket = normalizedBucket ?? DEFAULT_BUCKET;
+          if (!normalizedBucket && options.timeBucket !== DEFAULT_BUCKET) {
+            console.warn("[travel] matrix bucket fallback", {
+              timeBucket: options.timeBucket
+            });
+          }
+          const key = buildRequestKey(options, origins, bucket);
           return {
             kind: "request" as const,
             request: {
@@ -93,7 +96,7 @@ export class TravelMatrixService {
               payload: {
                 mode: options.mode,
                 destination: options.destination,
-                timeBucket: normalizedBucket,
+                timeBucket: bucket,
                 origins
               }
             }
@@ -166,11 +169,23 @@ export class TravelMatrixService {
   }
 }
 
-function buildRequestKey(options: TravelOptions, origins: Array<{ zoneId: string }>): string {
+function buildRequestKey(
+  options: TravelOptions,
+  origins: Array<{ zoneId: string }>,
+  bucket: string
+): string {
   const destination = options.destination;
   const destKey = destination ? `${destination.lat},${destination.lng}` : "none";
   const originKey = origins.map((origin) => origin.zoneId).join("|");
-  return `${options.enabled}:${options.mode}:${options.timeBucket}:${destKey}:${originKey}`;
+  return `${options.enabled}:${options.mode}:${bucket}:${destKey}:${originKey}`;
+}
+
+function safeNormalizeBucket(value: string): string | null {
+  try {
+    return normalizeBucket(value);
+  } catch {
+    return null;
+  }
 }
 
 function indexResults(results: TravelMatrixResult[]): Record<string, TravelMatrixResult> {

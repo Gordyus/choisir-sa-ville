@@ -3,7 +3,8 @@ import { z } from "zod";
 const EnvSchema = z.object({
   NODE_ENV: z.string().default("development"),
   PORT: z.coerce.number().default(8787),
-  DATABASE_URL: z.string().min(1)
+  DATABASE_URL: z.string().min(1),
+  OSRM_BASE_URL: z.string().default("https://router.project-osrm.org")
 });
 
 export type AppEnv = z.infer<typeof EnvSchema>;

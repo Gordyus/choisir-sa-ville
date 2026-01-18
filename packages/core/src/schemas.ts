@@ -129,6 +129,27 @@ export const TravelMatrixRequestSchema = z
     }
   );
 
+const LatLngStringSchema = z
+  .string()
+  .regex(/^-?\d+(?:\.\d+)?,\s*-?\d+(?:\.\d+)?$/);
+
+export const RouteQuerySchema = z
+  .object({
+    mode: z.enum(["car", "transit"]),
+    zoneId: z.string().optional(),
+    originLatLng: LatLngStringSchema.optional(),
+    dest: LatLngStringSchema,
+    timeBucket: TimeBucketInputSchema.optional()
+  })
+  .refine((value) => Boolean(value.zoneId || value.originLatLng), {
+    message: "zoneId or originLatLng is required",
+    path: ["zoneId"]
+  })
+  .refine((value) => (value.mode === "transit" ? Boolean(value.timeBucket) : true), {
+    message: "timeBucket is required for transit",
+    path: ["timeBucket"]
+  });
+
 export const CommuneByInseeCodeParams = z.object({
   inseeCode: z.string().length(5)
 });

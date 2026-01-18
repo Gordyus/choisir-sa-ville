@@ -31,12 +31,12 @@ export class PostgresCacheStore implements CacheStore {
       .insertInto("cache_store")
       .values({
         key,
-        value: sql`to_jsonb(${value})`,
+        value: sql`${value}::jsonb`,
         expiresAt
       })
       .onConflict((oc) =>
         oc.column("key").doUpdateSet({
-          value: sql`to_jsonb(${value})`,
+          value: sql`${value}::jsonb`,
           expiresAt,
           updatedAt: sql`now()`
         })

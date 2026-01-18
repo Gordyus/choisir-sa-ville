@@ -1,6 +1,9 @@
 <div class="app-shell">
   <main class="map-wrap">
-    <app-map [markers]="(markers$ | async) ?? []"></app-map>
+    <app-map
+      [markers]="(markers$ | async) ?? []"
+      [routeLine]="(routeLine$ | async) ?? []"
+    ></app-map>
   </main>
   <aside class="panel">
     <div class="panel-header">
@@ -65,6 +68,7 @@
                   [(ngModel)]="destinationInput"
                   placeholder="48.8566,2.3522"
                   [disabled]="!travelEnabled"
+                  (input)="clearTravelError()"
                 />
               </label>
               <label>
@@ -80,14 +84,30 @@
                 </select>
               </label>
               <label>
-                <span>Arrive by (bucket)</span>
-                <input
-                  type="text"
-                  name="timeBucket"
-                  [(ngModel)]="timeBucket"
-                  placeholder="mon_08:30"
+                <span>Arrive day</span>
+                <select
+                  name="travelDay"
+                  [(ngModel)]="travelDay"
                   [disabled]="!travelEnabled"
-                />
+                  (change)="clearTravelError()"
+                >
+                  <option *ngFor="let day of dayOptions" [value]="day.value">
+                    {{ day.label }}
+                  </option>
+                </select>
+              </label>
+              <label>
+                <span>Arrive time</span>
+                <select
+                  name="travelTime"
+                  [(ngModel)]="travelTime"
+                  [disabled]="!travelEnabled"
+                  (change)="clearTravelError()"
+                >
+                  <option *ngFor="let time of timeOptions" [value]="time">
+                    {{ time }}
+                  </option>
+                </select>
               </label>
               <button type="button" (click)="applyTravelOptions()" [disabled]="!travelEnabled">
                 Apply travel
@@ -97,7 +117,10 @@
               <span class="hint" *ngIf="viewState.travelEnabled && viewState.travelStatus === 'loading'">
                 Loading travel times...
               </span>
-              <span class="error" *ngIf="viewState.travelEnabled && viewState.travelStatus === 'error'">
+              <span
+                class="error"
+                *ngIf="!travelError && viewState.travelEnabled && viewState.travelStatus === 'error'"
+              >
                 {{ viewState.travelMessage ?? "Travel service unavailable." }}
               </span>
             </div>
@@ -190,6 +213,31 @@
                   <span class="tag">No postal codes</span>
                 </div>
               </ng-template>
+            </div>
+            <div class="detail-card" *ngIf="routeState$ | async as routeState">
+              <h3 class="detail-title">Route</h3>
+              <ng-container [ngSwitch]="routeState.status">
+                <div class="detail-meta" *ngSwitchCase="'idle'">
+                  <span>Select a city and enable travel to view the route.</span>
+                </div>
+                <div class="detail-meta" *ngSwitchCase="'loading'">
+                  <span>Loading route...</span>
+                </div>
+                <div class="detail-meta" *ngSwitchCase="'error'">
+                  <span>{{ routeState.message ?? "Route lookup failed." }}</span>
+                </div>
+                <div class="detail-meta" *ngSwitchCase="'loaded'">
+                  <span>Status: {{ routeState.route?.status ?? "ERROR" }}</span>
+                  <span>Duration: {{ formatDuration(routeState.route?.duration_s) }}</span>
+                  <span>Distance: {{ formatDistance(routeState.route?.distance_m) }}</span>
+                  <span *ngIf="routeState.route?.origin?.label">
+                    Origin: {{ routeState.route?.origin?.label }}
+                  </span>
+                  <span *ngIf="routeState.route?.destination?.label">
+                    Destination: {{ routeState.route?.destination?.label }}
+                  </span>
+                </div>
+              </ng-container>
             </div>
           </ng-container>
         </ng-container>

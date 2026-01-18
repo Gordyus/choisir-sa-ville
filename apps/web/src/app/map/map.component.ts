@@ -19,6 +19,8 @@ export type MapMarker = {
   lng: number;
 };
 
+export type RouteLine = Array<{ lat: number; lng: number }>;
+
 @Component({
   selector: "app-map",
   standalone: true,
@@ -28,11 +30,14 @@ export type MapMarker = {
 export class MapComponent implements OnInit, OnDestroy, OnChanges {
   @ViewChild("map", { static: true }) mapElement!: ElementRef<HTMLDivElement>;
   @Input() markers: MapMarker[] = [];
+  @Input() routeLine: RouteLine | null = null;
 
   private map: L.Map | null = null;
   private clusterLayer: L.MarkerClusterGroup | null = null;
   private markerIconInstance: L.DivIcon | null = null;
   private pendingMarkers: MapMarker[] | null = null;
+  private routeLayer: L.Polyline | null = null;
+  private pendingRoute: RouteLine | null = null;
 
   private readonly handleViewport = (): void => {
     if (!this.map) return;
@@ -55,6 +60,9 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
     if (changes["markers"]) {
       this.applyMarkers(this.markers);
     }
+    if (changes["routeLine"]) {
+      this.applyRouteLine(this.routeLine);
+    }
   }
 
   ngOnInit(): void {
@@ -64,7 +72,6 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
   }
 
   ngOnDestroy(): void {
-
     if (this.map) {
       this.map.off("moveend", this.handleViewport);
       this.map.off("zoomend", this.handleViewport);
@@ -110,6 +117,13 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
     } else if (this.markers.length > 0) {
       this.applyMarkers(this.markers);
     }
+
+    if (this.pendingRoute) {
+      this.applyRouteLine(this.pendingRoute);
+      this.pendingRoute = null;
+    } else if (this.routeLine) {
+      this.applyRouteLine(this.routeLine);
+    }
   }
 
   private applyMarkers(markers: MapMarker[]): void {
@@ -121,6 +135,32 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
     const leafletMarkers = markers.map((item) => this.createMarker(item));
     this.clusterLayer.clearLayers();
     leafletMarkers.forEach((marker) => this.clusterLayer?.addLayer(marker));
+  }
+
+  private applyRouteLine(routeLine: RouteLine | null): void {
+    if (!this.map) {
+      this.pendingRoute = routeLine ?? [];
+      return;
+    }
+
+    if (!routeLine || routeLine.length === 0) {
+      if (this.routeLayer) {
+        this.routeLayer.remove();
+        this.routeLayer = null;
+      }
+      return;
+    }
+
+    const latLngs = routeLine.map((point) => [point.lat, point.lng] as L.LatLngTuple);
+    if (this.routeLayer) {
+      this.routeLayer.setLatLngs(latLngs);
+    } else {
+      this.routeLayer = L.polyline(latLngs, {
+        color: "#1f6a8f",
+        weight: 3,
+        opacity: 0.9
+      }).addTo(this.map);
+    }
   }
 
   private createMarker(item: MapMarker): L.Marker {

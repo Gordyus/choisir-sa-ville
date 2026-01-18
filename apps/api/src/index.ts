@@ -11,10 +11,13 @@ import { debugRoute } from "./routes/debug.js";
 import { healthRoute } from "./routes/health.js";
 import { searchRoute } from "./routes/search.js";
 import { travelMatrixRoute } from "./routes/travel-matrix.js";
+import { travelRoute } from "./routes/travel-route.js";
 import { PostgresCacheStore } from "./services/cache-store.js";
+import { OsrmTravelProvider } from "./services/osrm-travel-provider.js";
 import { createSearchService } from "./services/search.service.js";
 import { DisabledTravelProvider } from "./services/travel-provider.js";
 import { createTravelMatrixService } from "./services/travel-matrix.service.js";
+import { createTravelRouteService } from "./services/travel-route.service.js";
 
 dotenv.config({
   path: path.resolve(process.cwd(), "../../.env")
@@ -34,13 +37,17 @@ registerErrorHandler(app);
 const db = createDb(env.DATABASE_URL);
 const searchService = createSearchService(db);
 const cacheStore = new PostgresCacheStore(db);
-const travelProvider = new DisabledTravelProvider();
+const travelProvider = env.OSRM_BASE_URL
+  ? new OsrmTravelProvider({ baseUrl: env.OSRM_BASE_URL })
+  : new DisabledTravelProvider();
 const travelMatrixService = createTravelMatrixService(cacheStore, travelProvider);
+const travelRouteService = createTravelRouteService(db, cacheStore, travelProvider);
 
 await app.register(healthRoute);
 await app.register(citiesRoute(db));
 await app.register(searchRoute(searchService));
 await app.register(travelMatrixRoute(travelMatrixService));
+await app.register(travelRoute(travelRouteService));
 if (env.NODE_ENV !== "production") {
   await app.register(debugRoute);
 }

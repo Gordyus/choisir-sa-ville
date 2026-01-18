@@ -53,9 +53,7 @@ export async function listCities(
             .selectFrom("commune_postal_code")
             .select(sql`1`.as("one"))
             .where("commune_postal_code.postalCode", "ilike", `%${query.q}%`)
-            .where(
-              sql<boolean>`commune_postal_code.communeCode = commune.inseeCode`
-            )
+            .whereRef("commune_postal_code.communeCode", "=", "commune.inseeCode")
         )
       ])
     )

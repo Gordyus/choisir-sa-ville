@@ -348,6 +348,39 @@ Erreurs possibles :
 - `400 VALIDATION_ERROR`
 - `429 RATE_LIMITED` (si limitation fournisseur)
 
+### GET /api/route
+Retourne le trajet rÇ¸el (polyline) pour une zone sÇ¸lectionnÇ¸e.
+
+Query :
+- `mode` (string) : `car` ou `transit`
+- `zoneId` (string) : id zone (optionnel si `originLatLng` fourni)
+- `originLatLng` (string) : `lat,lng` (optionnel si `zoneId` fourni)
+- `dest` (string) : `lat,lng` requis
+- `timeBucket` (string) : requis si `mode=transit`
+
+**200**
+```json
+{
+  "zoneId": "75056",
+  "origin": { "lat": 48.8566, "lng": 2.3522, "label": "Paris" },
+  "destination": { "lat": 48.9, "lng": 2.4, "label": "Office" },
+  "mode": "car",
+  "timeBucket": "none",
+  "duration_s": 1200,
+  "distance_m": 8000,
+  "status": "OK",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [[2.3522, 48.8566], [2.4, 48.9]]
+  }
+}
+```
+
+Erreurs possibles :
+- `400 VALIDATION_ERROR`
+- `404 NOT_FOUND`
+- `422 DOMAIN_ERROR`
+
 ---
 
 ## 6) Versioning
