@@ -14,38 +14,29 @@
       </div>
       <form class="search" (ngSubmit)="runSearch()">
         <label>
-          <span>Search area</span>
-          <input
-            type="text"
-            name="areaQuery"
-            [(ngModel)]="areaInput"
-            placeholder="City, postal code, region, department"
-            (input)="onAreaInput()"
-            (keydown)="onAreaKey($event)"
-          />
-        </label>
-        <ul class="geocode-suggestions" *ngIf="areaSuggestions.length > 0">
-          <li
-            *ngFor="let candidate of areaSuggestions; let i = index"
-            [class.active]="i === areaSuggestionIndex"
-            (click)="selectAreaCandidate(candidate)"
-          >
-            {{ candidate.label }}
-          </li>
-        </ul>
-        <span class="hint" *ngIf="isAreaSuggesting">Searching locations...</span>
-        <span class="hint" *ngIf="resolvedAreaLabel">
-          Selected area: {{ resolvedAreaLabel }}
-        </span>
-        <label>
           <span>Keyword</span>
           <input
             type="text"
             name="query"
             [(ngModel)]="query"
-            placeholder="City name or postal code"
+            placeholder="City, postal code, region, department"
+            (input)="onQueryInput()"
+            (keydown)="onQueryKey($event)"
           />
         </label>
+        <ul class="geocode-suggestions" *ngIf="querySuggestions.length > 0">
+          <li
+            *ngFor="let candidate of querySuggestions; let i = index"
+            [class.active]="i === querySuggestionIndex"
+            (click)="selectQueryCandidate(candidate)"
+          >
+            {{ candidate.label }}
+          </li>
+        </ul>
+        <span class="hint" *ngIf="isQuerySuggesting">Searching locations...</span>
+        <span class="hint" *ngIf="resolvedAreaLabel">
+          Selected area: {{ resolvedAreaLabel }}
+        </span>
         <button type="submit">Search this area</button>
       </form>
     </div>

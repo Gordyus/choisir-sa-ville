@@ -90,10 +90,9 @@ export class AppComponent implements OnInit, OnDestroy {
   );
 
   query = "";
-  areaInput = "";
   resolvedAreaLabel = "";
-  areaSuggestions: GeocodeCandidate[] = [];
-  areaSuggestionIndex = -1;
+  querySuggestions: GeocodeCandidate[] = [];
+  querySuggestionIndex = -1;
   travelEnabled = false;
   destinationInput = "";
   resolvedDestinationLabel = "";
@@ -105,7 +104,7 @@ export class AppComponent implements OnInit, OnDestroy {
   travelError = "";
   isGeocoding = false;
   isSuggesting = false;
-  isAreaSuggesting = false;
+  isQuerySuggesting = false;
   readonly dayOptions = [
     { value: "mon", label: "Monday" },
     { value: "tue", label: "Tuesday" },
@@ -118,9 +117,9 @@ export class AppComponent implements OnInit, OnDestroy {
   readonly timeOptions = buildTimeOptions();
   private geocodeSubscription?: Subscription;
   private suggestionSubscription?: Subscription;
-  private areaSuggestionSubscription?: Subscription;
+  private querySuggestionSubscription?: Subscription;
   private readonly destinationQuerySubject = new Subject<string>();
-  private readonly areaQuerySubject = new Subject<string>();
+  private readonly querySuggestionSubject = new Subject<string>();
 
   constructor(
     private readonly cityDetails: CityDetailsService,
@@ -161,17 +160,17 @@ export class AppComponent implements OnInit, OnDestroy {
         this.suggestionIndex = -1;
       });
 
-    this.areaSuggestionSubscription = this.areaQuerySubject
+    this.querySuggestionSubscription = this.querySuggestionSubject
       .pipe(
         map((value) => value.trim()),
         debounceTime(300),
         distinctUntilChanged(),
         switchMap((query) => {
           if (query.length < 3) {
-            this.isAreaSuggesting = false;
+            this.isQuerySuggesting = false;
             return of<GeocodeCandidate[]>([]);
           }
-          this.isAreaSuggesting = true;
+          this.isQuerySuggesting = true;
           const request = buildAreaGeocodeRequest(query);
           return this.geocodeService.geocode(request).pipe(
             map((response) => response.candidates),
@@ -180,9 +179,9 @@ export class AppComponent implements OnInit, OnDestroy {
         })
       )
       .subscribe((candidates) => {
-        this.isAreaSuggesting = false;
-        this.areaSuggestions = candidates;
-        this.areaSuggestionIndex = -1;
+        this.isQuerySuggesting = false;
+        this.querySuggestions = candidates;
+        this.querySuggestionIndex = -1;
       });
   }
 
@@ -190,47 +189,47 @@ export class AppComponent implements OnInit, OnDestroy {
     this.searchService.search({ q: this.query, limit: 200, offset: 0 });
   }
 
-  onAreaInput(): void {
-    this.areaSuggestions = [];
-    this.areaSuggestionIndex = -1;
+  onQueryInput(): void {
+    this.querySuggestions = [];
+    this.querySuggestionIndex = -1;
     this.resolvedAreaLabel = "";
-    this.areaQuerySubject.next(this.areaInput);
+    this.querySuggestionSubject.next(this.query);
   }
 
-  onAreaKey(event: KeyboardEvent): void {
-    if (this.areaSuggestions.length === 0) return;
+  onQueryKey(event: KeyboardEvent): void {
+    if (this.querySuggestions.length === 0) return;
     if (event.key === "ArrowDown") {
       event.preventDefault();
-      this.areaSuggestionIndex =
-        (this.areaSuggestionIndex + 1) % this.areaSuggestions.length;
+      this.querySuggestionIndex =
+        (this.querySuggestionIndex + 1) % this.querySuggestions.length;
       return;
     }
     if (event.key === "ArrowUp") {
       event.preventDefault();
-      this.areaSuggestionIndex =
-        (this.areaSuggestionIndex - 1 + this.areaSuggestions.length) %
-        this.areaSuggestions.length;
+      this.querySuggestionIndex =
+        (this.querySuggestionIndex - 1 + this.querySuggestions.length) %
+        this.querySuggestions.length;
       return;
     }
-    if (event.key === "Enter" && this.areaSuggestionIndex >= 0) {
+    if (event.key === "Enter" && this.querySuggestionIndex >= 0) {
       event.preventDefault();
-      const candidate = this.areaSuggestions[this.areaSuggestionIndex];
+      const candidate = this.querySuggestions[this.querySuggestionIndex];
       if (candidate) {
-        this.selectAreaCandidate(candidate);
+        this.selectQueryCandidate(candidate);
       }
       return;
     }
     if (event.key === "Escape") {
-      this.areaSuggestions = [];
-      this.areaSuggestionIndex = -1;
+      this.querySuggestions = [];
+      this.querySuggestionIndex = -1;
     }
   }
 
-  selectAreaCandidate(candidate: GeocodeCandidate): void {
-    this.areaInput = candidate.label;
+  selectQueryCandidate(candidate: GeocodeCandidate): void {
+    this.query = candidate.label;
     this.resolvedAreaLabel = candidate.label;
-    this.areaSuggestions = [];
-    this.areaSuggestionIndex = -1;
+    this.querySuggestions = [];
+    this.querySuggestionIndex = -1;
     this.mapData.requestPan({ lat: candidate.lat, lng: candidate.lng, zoom: 10 });
   }
 
@@ -366,7 +365,7 @@ export class AppComponent implements OnInit, OnDestroy {
   ngOnDestroy(): void {
     this.geocodeSubscription?.unsubscribe();
     this.suggestionSubscription?.unsubscribe();
-    this.areaSuggestionSubscription?.unsubscribe();
+    this.querySuggestionSubscription?.unsubscribe();
   }
 
   private selectedCandidate: GeocodeCandidate | null = null;
