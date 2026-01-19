@@ -9,8 +9,8 @@ import {
   ViewChild
 } from "@angular/core";
 import L from "leaflet";
-import { MapDataService } from "../features/map/map-data.service";
-import { SelectionService } from "../features/selection/selection.service";
+import { MapDataService } from "../state/map-data.service";
+import { SelectionService } from "../../selection/selection.service";
 import type { Subscription } from "rxjs";
 
 export type MapMarker = {

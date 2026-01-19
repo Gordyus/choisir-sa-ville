@@ -26,7 +26,8 @@ export class SearchAreaPanelComponent {
     this.queryUpdated.emit(target?.value ?? "");
   }
 
-  onSubmit(): void {
+  onSubmit(event: Event): void {
+    event.preventDefault();
     this.submitSearch.emit();
   }
 

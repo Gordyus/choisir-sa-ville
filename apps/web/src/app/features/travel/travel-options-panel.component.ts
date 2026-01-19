@@ -35,4 +35,9 @@ export class TravelOptionsPanelComponent {
   @Output() dayChange = new EventEmitter<string>();
   @Output() timeChange = new EventEmitter<string>();
   @Output() applyTravel = new EventEmitter<void>();
+
+  onDestinationInput(event: Event): void {
+    const target = event.target as HTMLInputElement | null;
+    this.destinationInputChange.emit(target?.value ?? "");
+  }
 }

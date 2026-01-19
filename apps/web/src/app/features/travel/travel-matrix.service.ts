@@ -12,7 +12,7 @@ import {
 } from "rxjs";
 import { type TravelMatrixResult, type TravelMode, normalizeBucket } from "@csv/core";
 import { environment } from "../../../environments/environment";
-import { SearchService } from "../search/search.service";
+import { SearchFacade } from "../search/search.facade";
 
 export type TravelMatrixState = {
   status: "idle" | "loading" | "loaded" | "error";
@@ -58,7 +58,7 @@ export class TravelMatrixService {
 
   constructor(
     private readonly http: HttpClient,
-    private readonly searchService: SearchService
+    private readonly searchService: SearchFacade
   ) {
     combineLatest([this.searchService.searchState$, this.options$])
       .pipe(

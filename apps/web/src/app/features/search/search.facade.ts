@@ -1,33 +1,19 @@
 import { Injectable } from "@angular/core";
-import { HttpClient } from "@angular/common/http";
 import { BehaviorSubject, Subject, catchError, map, of, switchMap } from "rxjs";
-import { environment } from "../../../environments/environment";
-import type { Viewport } from "../map/map-data.service";
-import { MapDataService } from "../map/map-data.service";
-
-export type SearchResultItem = {
-  zoneId: string;
-  zoneName: string;
-  type: string;
-  centroid: { lat: number; lng: number };
-  attributes: Record<string, number | string | boolean | null>;
-  travel?: { status: string } | null;
-};
-
-type SearchResponse = {
-  items: SearchResultItem[];
-  meta: { limit: number; offset: number; total: number };
-};
+import { SearchApiService } from "../../core/api/search.service";
+import type { SearchRequest, SearchResponse } from "../../core/dto/search";
+import type { Viewport } from "../map/state/map-data.service";
+import { MapDataService } from "../map/state/map-data.service";
 
 export type SearchState = {
   status: "idle" | "loading" | "loaded" | "error";
-  items: SearchResultItem[];
+  items: SearchResponse["items"];
   total: number;
   message?: string;
 };
 
 @Injectable({ providedIn: "root" })
-export class SearchService {
+export class SearchFacade {
   private readonly stateSubject = new BehaviorSubject<SearchState>({
     status: "idle",
     items: [],
@@ -41,13 +27,13 @@ export class SearchService {
   readonly searchState$ = this.stateSubject.asObservable();
 
   constructor(
-    private readonly http: HttpClient,
+    private readonly api: SearchApiService,
     private readonly mapData: MapDataService
   ) {
     this.searchRequests
       .pipe(
         switchMap(({ request, snapshot }) =>
-          this.http.post<SearchResponse>(`${environment.apiBaseUrl}/api/search`, request).pipe(
+          this.api.search(request).pipe(
             map((response) => ({
               status: "loaded" as const,
               items: response.items,
@@ -95,12 +81,7 @@ export class SearchService {
 function buildSearchRequest(
   viewport: Viewport,
   params: { q?: string; limit?: number; offset?: number }
-): {
-  area: { bbox: { minLat: number; minLon: number; maxLat: number; maxLon: number } };
-  filters: Record<string, string>;
-  limit: number;
-  offset: number;
-} {
+): SearchRequest {
   const filters: Record<string, string> = {};
   const q = params.q?.trim();
   if (q) {

@@ -14,10 +14,10 @@
       <input
         type="text"
         name="destination"
-        [ngModel]="destinationInput"
         placeholder="10 Rue de la Paix, Paris"
         [disabled]="!travelEnabled"
-        (ngModelChange)="destinationInputChange.emit($event)"
+        [value]="destinationInput"
+        (input)="onDestinationInput($event)"
         (keydown)="destinationKey.emit($event)"
       />
     </label>

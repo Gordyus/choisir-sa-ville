@@ -11,7 +11,7 @@ import {
 } from "rxjs";
 import type { GeocodeCandidate, GeocodeRequest, SearchArea } from "@csv/core";
 import { GeocodeService } from "../../core/api/geocode.service";
-import type { Viewport } from "../map/map-data.service";
+import type { Viewport } from "../map/state/map-data.service";
 
 export type DestinationSuggestInput = {
   query: string;

@@ -1,4 +1,4 @@
-<div class="app-shell">
+<div class="app-shell" *ngIf="sessionState$ | async as session">
   <main class="map-wrap">
     <app-map
       [markers]="(markers$ | async) ?? []"
@@ -13,11 +13,11 @@
         <p class="subtitle">Live map of communes and infra context.</p>
       </div>
       <app-search-area-panel
-        [query]="query"
+        [query]="session.query"
         [suggestions]="(querySuggestions$ | async) ?? []"
-        [suggestionIndex]="querySuggestionIndex"
+        [suggestionIndex]="session.querySuggestionIndex"
         [isSuggesting]="(isQuerySuggesting$ | async) === true"
-        [resolvedAreaLabel]="resolvedAreaLabel"
+        [resolvedAreaLabel]="session.resolvedAreaLabel"
         (queryUpdated)="updateQuery($event)"
         (queryKey)="onQueryKey($event)"
         (candidateSelected)="selectQueryCandidate($event)"
@@ -53,19 +53,19 @@
             </div>
           </div>
           <app-travel-options-panel
-            [travelEnabled]="travelEnabled"
-            [destinationInput]="destinationInput"
+            [travelEnabled]="session.travelEnabled"
+            [destinationInput]="session.destinationInput"
             [destinationSuggestions]="(destinationSuggestions$ | async) ?? []"
-            [suggestionIndex]="suggestionIndex"
-            [travelMode]="travelMode"
-            [travelDay]="travelDay"
-            [travelTime]="travelTime"
+            [suggestionIndex]="session.suggestionIndex"
+            [travelMode]="session.travelMode"
+            [travelDay]="session.travelDay"
+            [travelTime]="session.travelTime"
             [dayOptions]="dayOptions"
             [timeOptions]="timeOptions"
-            [travelError]="travelError"
+            [travelError]="session.travelError"
             [isSuggesting]="(isDestinationSuggesting$ | async) === true"
-            [isGeocoding]="isGeocoding"
-            [resolvedDestinationLabel]="resolvedDestinationLabel"
+            [isGeocoding]="session.isGeocoding"
+            [resolvedDestinationLabel]="session.resolvedDestinationLabel"
             [travelStatus]="viewState.travelStatus"
             [travelMessage]="viewState.travelMessage"
             (travelEnabledChange)="onTravelEnabledChange($event)"
