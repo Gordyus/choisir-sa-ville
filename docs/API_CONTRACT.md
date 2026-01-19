@@ -279,6 +279,131 @@ Erreurs possibles :
 - `400 VALIDATION_ERROR`
 - `404 NOT_FOUND`
 
+### POST /api/search
+Recherche de zones (cities/districts) sans blocage sur le calcul travel.
+
+Body :
+- `area` (object) : zone de recherche (MVP : bbox)
+  - `bbox.minLat` (number) requis
+  - `bbox.minLon` (number) requis
+  - `bbox.maxLat` (number) requis
+  - `bbox.maxLon` (number) requis
+- `filters` (object) : critères optionnels
+- `sort` (object) : `{ key, direction }` optionnel
+- `limit` (int) : 1..200 - défaut 50
+- `offset` (int) : >= 0 - défaut 0
+- `travel` (object) : optionnel, peut être présent mais ignoré pour ce endpoint
+
+**200**
+```json
+{
+  "items": [
+    {
+      "zoneId": "75056",
+      "zoneName": "Paris",
+      "type": "city",
+      "centroid": { "lat": 48.8566, "lng": 2.3522 },
+      "attributes": {
+        "population": 2165423,
+        "departmentCode": "75",
+        "regionCode": "11"
+      },
+      "travel": null
+    }
+  ],
+  "meta": { "limit": 50, "offset": 0, "total": 123 }
+}
+```
+
+Erreurs possibles :
+- `400 VALIDATION_ERROR`
+
+### POST /api/travel/matrix
+Enrichit un ensemble de zones avec durÇ¸e et distance de trajet.
+
+Body :
+- `mode` (string) : `car` ou `transit`
+- `destination.lat` (number) requis
+- `destination.lng` (number) requis
+- `timeBucket` (string) : requis si `mode=transit`, optionnel si `mode=car`
+- `origins` (array) : [{ zoneId, lat, lng }]
+
+**200**
+```json
+{
+  "mode": "car",
+  "timeBucket": "none",
+  "results": [
+    {
+      "zoneId": "75056",
+      "duration_s": 1800,
+      "distance_m": 12000,
+      "status": "OK"
+    }
+  ]
+}
+```
+
+Erreurs possibles :
+- `400 VALIDATION_ERROR`
+- `429 RATE_LIMITED` (si limitation fournisseur)
+
+### POST /api/geocode
+RÇ¸sout une adresse de destination en coordonnÇ¸es (lat/lng).
+
+Body :
+- `query` (string) : requis, max 200
+- `near.lat` (number) : optionnel
+- `near.lng` (number) : optionnel
+- `bbox` (object) : optionnel
+  - `minLon`, `minLat`, `maxLon`, `maxLat`
+- `limit` (int) : 1..10
+
+**200**
+```json
+{
+  "candidates": [
+    { "label": "Rouen, France", "lat": 49.4431, "lng": 1.0993 }
+  ]
+}
+```
+
+Erreurs possibles :
+- `400 VALIDATION_ERROR`
+
+### GET /api/route
+Retourne le trajet rÇ¸el (polyline) pour une zone sÇ¸lectionnÇ¸e.
+
+Query :
+- `mode` (string) : `car` ou `transit`
+- `zoneId` (string) : id zone (optionnel si `originLatLng` fourni)
+- `originLatLng` (string) : `lat,lng` (optionnel si `zoneId` fourni)
+- `dest` (string) : `lat,lng` requis
+- `timeBucket` (string) : requis si `mode=transit`
+
+**200**
+```json
+{
+  "zoneId": "75056",
+  "origin": { "lat": 48.8566, "lng": 2.3522, "label": "Paris" },
+  "destination": { "lat": 48.9, "lng": 2.4, "label": "Office" },
+  "mode": "car",
+  "timeBucket": "none",
+  "duration_s": 1200,
+  "distance_m": 8000,
+  "status": "OK",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [[2.3522, 48.8566], [2.4, 48.9]]
+  }
+}
+```
+
+Erreurs possibles :
+- `400 VALIDATION_ERROR`
+- `404 NOT_FOUND`
+- `422 DOMAIN_ERROR`
+
 ---
 
 ## 6) Versioning

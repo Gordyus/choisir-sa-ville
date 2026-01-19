@@ -1,6 +1,9 @@
-<div class="app-shell">
+<div class="app-shell" *ngIf="sessionState$ | async as session">
   <main class="map-wrap">
-    <app-map></app-map>
+    <app-map
+      [markers]="(markers$ | async) ?? []"
+      [routeLine]="(routeLine$ | async) ?? []"
+    ></app-map>
   </main>
   <aside class="panel">
     <div class="panel-header">
@@ -9,76 +12,91 @@
         <h1>Choisir sa ville</h1>
         <p class="subtitle">Live map of communes and infra context.</p>
       </div>
-      <label class="search">
-        <span>Search</span>
-        <input
-          type="text"
-          placeholder="Search coming soon"
-          disabled
-        />
-      </label>
+      <app-search-area-panel
+        [query]="session.query"
+        [suggestions]="(querySuggestions$ | async) ?? []"
+        [suggestionIndex]="session.querySuggestionIndex"
+        [isSuggesting]="(isQuerySuggesting$ | async) === true"
+        [resolvedAreaLabel]="session.resolvedAreaLabel"
+        (queryUpdated)="updateQuery($event)"
+        (queryKey)="onQueryKey($event)"
+        (candidateSelected)="selectQueryCandidate($event)"
+        (submitSearch)="runSearch()"
+      ></app-search-area-panel>
     </div>
-    <section class="panel-body" *ngIf="detailsState$ | async as state">
-      <ng-container [ngSwitch]="state.status">
+    <section class="panel-section" *ngIf="viewState$ | async as viewState">
+      <ng-container [ngSwitch]="viewState.status">
         <div class="detail-card" *ngSwitchCase="'idle'">
-          <h2 class="detail-title">Pick a city</h2>
+          <h2 class="detail-title">Search the map</h2>
           <div class="detail-meta">
-            <span>Click a marker to view details.</span>
-            <span>Markers load as you move across the map.</span>
+            <span>Move the map to set a search area.</span>
+            <span>Click "Search this area" to load results.</span>
           </div>
         </div>
         <div class="detail-card" *ngSwitchCase="'loading'">
-          <h2 class="detail-title">Loading...</h2>
+          <h2 class="detail-title">Searching...</h2>
           <div class="detail-meta">
-            <span>Fetching city details from the API.</span>
+            <span>Fetching zones for the current map view.</span>
           </div>
         </div>
         <div class="detail-card" *ngSwitchCase="'error'">
-          <h2 class="detail-title">Unable to load details</h2>
+          <h2 class="detail-title">Search failed</h2>
           <div class="detail-meta">
-            <span>{{ state.message ?? "The city details could not be loaded." }}</span>
+            <span>{{ viewState.message ?? "Unable to load results." }}</span>
           </div>
         </div>
         <ng-container *ngSwitchCase="'loaded'">
-          <ng-container *ngIf="state.city as city">
+          <div class="detail-card">
+            <div class="detail-meta">
+              <span>{{ viewState.total }} zones found</span>
+              <span>Showing {{ viewState.rows.length }} results</span>
+            </div>
+          </div>
+          <app-travel-options-panel
+            [travelEnabled]="session.travelEnabled"
+            [destinationInput]="session.destinationInput"
+            [destinationSuggestions]="(destinationSuggestions$ | async) ?? []"
+            [suggestionIndex]="session.suggestionIndex"
+            [travelMode]="session.travelMode"
+            [travelDay]="session.travelDay"
+            [travelTime]="session.travelTime"
+            [dayOptions]="dayOptions"
+            [timeOptions]="timeOptions"
+            [travelError]="session.travelError"
+            [isSuggesting]="(isDestinationSuggesting$ | async) === true"
+            [isGeocoding]="session.isGeocoding"
+            [resolvedDestinationLabel]="session.resolvedDestinationLabel"
+            [travelStatus]="viewState.travelStatus"
+            [travelMessage]="viewState.travelMessage"
+            (travelEnabledChange)="onTravelEnabledChange($event)"
+            (destinationInputChange)="onDestinationInputChange($event)"
+            (destinationKey)="onDestinationKey($event)"
+            (candidateSelected)="selectCandidate($event)"
+            (modeChange)="onTravelModeChange($event)"
+            (dayChange)="onTravelDayChange($event)"
+            (timeChange)="onTravelTimeChange($event)"
+            (applyTravel)="applyTravelOptions()"
+          ></app-travel-options-panel>
+          <div class="detail-card" *ngIf="viewState.rows.length > 0; else noResults">
+            <app-results-table
+              [rows]="viewState.rows"
+              [travelStatus]="viewState.travelStatus"
+              (rowSelected)="selectZone($event)"
+            ></app-results-table>
+          </div>
+          <ng-template #noResults>
             <div class="detail-card">
-              <h2 class="detail-title">{{ city.name }}</h2>
               <div class="detail-meta">
-                <span>INSEE: {{ city.inseeCode }} - {{ city.slug }}</span>
-                <span>
-                  Dept: {{ city.departmentName ?? "Unknown" }}
-                  ({{ city.departmentCode ?? "?" }})
-                </span>
-                <span>
-                  Region: {{ city.regionName ?? "Unknown" }}
-                  ({{ city.regionCode ?? "?" }})
-                </span>
-                <span>Coords: {{ city.lat ?? "?" }}, {{ city.lon ?? "?" }}</span>
+                <span>No zones found for this area.</span>
               </div>
             </div>
-            <div class="detail-card">
-              <h3 class="detail-title">Postal codes</h3>
-              <div class="detail-tags" *ngIf="city.postalCodes.length > 0; else noPostal">
-                <span class="tag" *ngFor="let code of city.postalCodes">
-                  {{ code }}
-                </span>
-              </div>
-              <ng-template #noPostal>
-                <div class="detail-tags">
-                  <span class="tag">No postal codes</span>
-                </div>
-              </ng-template>
-            </div>
-          </ng-container>
+          </ng-template>
         </ng-container>
       </ng-container>
     </section>
-    <div
-      class="panel-status"
-      *ngIf="mapStatus$ | async as status"
-      [ngClass]="{ 'status-ok': status.state === 'ok', 'status-error': status.state === 'error' }"
-    >
-      {{ status.text }}
-    </div>
+    <app-city-details-panel
+      [state]="detailsState$ | async"
+      [routeState]="routeState$ | async"
+    ></app-city-details-panel>
   </aside>
 </div>

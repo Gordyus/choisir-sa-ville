@@ -1,3 +1,5 @@
+import type { TravelStatus, TravelMatrixResult, TravelMode } from "./travel.js";
+
 export type City = {
   inseeCode: string;
   name: string;
@@ -38,4 +40,53 @@ export type Department = {
   code: string;
   name: string;
   regionCode: string | null;
+};
+
+export type ZonePoint = {
+  lat: number;
+  lng: number;
+};
+
+export type ZonePoiHub = ZonePoint & {
+  label?: string;
+  kind?: string;
+};
+
+export type Zone = {
+  id: string;
+  name: string;
+  type: string;
+  centroid: ZonePoint;
+  poiHub?: ZonePoiHub;
+  geometry?: unknown;
+  attributes: Record<string, number | string | boolean | null>;
+};
+
+export type ZoneResultTravel = {
+  distance_m?: number;
+  duration_s?: number;
+  status: TravelStatus;
+};
+
+export type ZoneResultRow = {
+  zoneId: string;
+  zoneName: string;
+  type: string;
+  centroid: ZonePoint;
+  poiHub?: ZonePoiHub;
+  attributes: Record<string, number | string | boolean | null>;
+  travel?: ZoneResultTravel | null;
+};
+
+export type TravelMatrixRequest = {
+  mode: TravelMode;
+  destination: ZonePoint;
+  timeBucket?: string;
+  origins: Array<{ zoneId: string; lat: number; lng: number }>;
+};
+
+export type TravelMatrixResponse = {
+  mode: TravelMode;
+  timeBucket: string;
+  results: TravelMatrixResult[];
 };

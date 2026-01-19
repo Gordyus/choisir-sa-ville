@@ -1,0 +1,88 @@
+<div class="detail-card">
+  <h3 class="detail-title">Travel options</h3>
+  <div class="detail-meta">
+    <label class="toggle">
+      <input
+        type="checkbox"
+        [ngModel]="travelEnabled"
+        (ngModelChange)="travelEnabledChange.emit($event)"
+      />
+      <span>Enable travel time</span>
+    </label>
+    <label>
+      <span>Destination address</span>
+      <input
+        type="text"
+        name="destination"
+        placeholder="10 Rue de la Paix, Paris"
+        [disabled]="!travelEnabled"
+        [value]="destinationInput"
+        (input)="onDestinationInput($event)"
+        (keydown)="destinationKey.emit($event)"
+      />
+    </label>
+    <ul class="geocode-suggestions" *ngIf="travelEnabled && destinationSuggestions.length > 0">
+      <li
+        *ngFor="let candidate of destinationSuggestions; let i = index"
+        [class.active]="i === suggestionIndex"
+        (click)="candidateSelected.emit(candidate)"
+      >
+        {{ candidate.label }}
+      </li>
+    </ul>
+    <label>
+      <span>Mode</span>
+      <select
+        name="mode"
+        [ngModel]="travelMode"
+        (ngModelChange)="modeChange.emit($event)"
+        [disabled]="!travelEnabled"
+      >
+        <option value="car">Car</option>
+        <option value="transit">Transit</option>
+      </select>
+    </label>
+    <label>
+      <span>Arrive day</span>
+      <select
+        name="travelDay"
+        [ngModel]="travelDay"
+        [disabled]="!travelEnabled"
+        (ngModelChange)="dayChange.emit($event)"
+      >
+        <option *ngFor="let day of dayOptions" [value]="day.value">
+          {{ day.label }}
+        </option>
+      </select>
+    </label>
+    <label>
+      <span>Arrive time</span>
+      <select
+        name="travelTime"
+        [ngModel]="travelTime"
+        [disabled]="!travelEnabled"
+        (ngModelChange)="timeChange.emit($event)"
+      >
+        <option *ngFor="let time of timeOptions" [value]="time">
+          {{ time }}
+        </option>
+      </select>
+    </label>
+    <button type="button" (click)="applyTravel.emit()" [disabled]="!travelEnabled">
+      Apply travel
+    </button>
+    <span class="hint">Type an address near your search area (lat,lng also works).</span>
+    <span class="hint" *ngIf="isSuggesting">Searching addresses...</span>
+    <span class="hint" *ngIf="isGeocoding">Looking up address...</span>
+    <span class="hint" *ngIf="resolvedDestinationLabel">
+      Resolved: {{ resolvedDestinationLabel }}
+    </span>
+    <span class="error" *ngIf="travelError">{{ travelError }}</span>
+    <span class="hint" *ngIf="travelEnabled && travelStatus === 'loading'">
+      Loading travel times...
+    </span>
+    <span class="error" *ngIf="!travelError && travelEnabled && travelStatus === 'error'">
+      {{ travelMessage ?? "Travel service unavailable." }}
+    </span>
+  </div>
+</div>

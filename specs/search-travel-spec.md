@@ -1,4 +1,4 @@
-# App-urbaine — City Search + Travel-Time Ranking (spec.md)
+# App-urbaine - City Search + Travel-Time Ranking (Host-Agnostic Spec)
 
 ## 1) Scope
 
@@ -14,6 +14,9 @@ Outputs
 
 - A sortable table and a map with labels
 - Clicking a zone opens a details panel and draws the real route polyline
+
+This spec is hosting-agnostic. Adapters (CacheStore and TravelProvider) isolate
+infra-specific code so the API contracts stay stable across hosts.
 
 ## 2) Core UX
 
@@ -65,7 +68,7 @@ We use two speeds
 - Uses a single representative origin point per zone
 - Uses a matrix API to compute many origins to one destination in batches
 
-1) Real route polyline for selected zone
+2) Real route polyline for selected zone
 
 - Uses a directions API for one origin to the destination
 
@@ -81,11 +84,12 @@ Default origin choice
 - car: centroid
 - transit: poiHub if available else centroid
 
-Rule: the origin point used for the estimate must match the origin point used for the selected route, to prevent user distrust
+Rule: the origin point used for the estimate must match the origin point used for
+the selected route, to prevent user distrust.
 
 ### 3.2 Time bucket
 
-The system always uses a time bucket for transit
+The system always uses a time bucket for transit.
 
 Format
 
@@ -94,8 +98,11 @@ Format
 
 Conversion
 
-- For providers that require a concrete timestamp, convert the bucket to the next occurrence in Europe/Paris
+- For providers that require a concrete timestamp, convert the bucket to the next
+  occurrence in Europe/Paris
 - Cache keys must use the bucket, not the computed timestamp
+- For car, timeBucket is still included in cache keys (use a fixed value like "none"
+  if the client does not provide one)
 
 ## 4) Data model
 
@@ -114,7 +121,7 @@ Conversion
 - area: search area descriptor
 - filters: key value constraints
 - sort: column and direction
-- pagination: page, pageSize
+- pagination: limit, offset
 - travel optional
   - enabled: boolean
   - destinationAddress: string
@@ -150,7 +157,8 @@ Conversion
 
 ## 5) API contracts
 
-All endpoints should be hosted behind Cloudflare Workers
+Endpoints are host-agnostic. The reference implementation for this repo uses
+Fastify + PostgreSQL, but the contracts do not change across hosts.
 
 ### 5.1 POST /api/search
 
@@ -166,7 +174,7 @@ Input
 Output
 
 - items: ZoneResultRow without travel, or with travel set to null
-- meta: total, page, pageSize
+- meta: total, limit, offset
 
 ### 5.2 POST /api/travel/matrix
 
@@ -206,9 +214,75 @@ Output
 
 - Route detail including geometry
 
-## 6) Caching
+### 5.4 POST /api/geocode
 
-### 6.1 Travel time cache
+Purpose
+
+- Resolve a destination address near the current search area
+
+Input
+
+- query: string
+- near: { lat, lng } optional
+- bbox: { minLon, minLat, maxLon, maxLat } optional
+- limit: number (1..10)
+
+Output
+
+- candidates: [{ label, lat, lng, score?, source? }]
+
+Notes
+
+- Always bias using near and bbox when available.
+- Cache responses for up to 90 days.
+
+## 6) Adapter interfaces
+
+Adapters isolate infrastructure choices while preserving contracts.
+
+### 6.1 CacheStore
+
+Used for read-through caching of matrix and route results.
+
+TypeScript shape
+
+- get(key): Promise<string | null>
+- set(key, value, ttlSeconds): Promise<void>
+
+Notes
+
+- Values are stored as serialized JSON (caller owns encoding/decoding).
+- Expiration is enforced by the store or by comparing expiresAt in the value.
+
+### 6.2 TravelProvider
+
+Provides travel time estimates and route geometry.
+
+TypeScript shape
+
+- matrixCar(origins, destination): Promise<MatrixResult[]>
+- matrixTransit(origins, destination, arriveByIso): Promise<MatrixResult[]>
+- routeCar(origin, destination): Promise<RouteResult>
+- routeTransit(origin, destination, arriveByIso): Promise<RouteResult>
+
+MatrixResult
+
+- zoneId
+- duration_s
+- distance_m
+- status: OK | NO_ROUTE | ERROR
+
+RouteResult
+
+- duration_s
+- distance_m
+- status: OK | NO_ROUTE | ERROR
+- geometry (polyline or GeoJSON LineString)
+- optional transit details
+
+## 7) Caching
+
+### 7.1 Travel time cache
 
 Key
 
@@ -216,20 +290,15 @@ Key
 
 Notes
 
-- destGeohash6 should be derived from destination, providing stability and high cache hit rate
-- For car, timeBucket can be fixed to a constant value e.g. none
+- destGeohash6 should be derived from destination for stability
+- For car, timeBucket can be fixed (e.g. "none") if omitted
 
 TTL
 
 - car: 30 days
 - transit: 7 days
 
-Storage
-
-- Cloudflare KV is recommended for simple lookup cache
-- D1 optional for analytics and debugging
-
-### 6.2 Route cache
+### 7.2 Route cache
 
 Key
 
@@ -240,54 +309,48 @@ TTL
 - car: 30 days
 - transit: 7 days
 
-## 7) Frontend behaviour
+## 8) Reference implementation (this repo)
 
-### 7.1 Travel toggle behaviour
+This repo uses Fastify + PostgreSQL (Kysely) and Angular 20.
 
-- When travel is enabled
-  - Geocode destination
-  - Request /api/travel/matrix for the current candidate set
-  - Populate travel column and resort
+### 8.1 CacheStore (Postgres)
 
-### 7.2 Progressive enrichment
+Implement CacheStore with a Postgres table for each cache domain, or a shared table
+with a type discriminator.
 
-- Show table results immediately
-- Travel values start as loading state
-- Update rows when matrix results arrive
+Recommended columns
 
-### 7.3 Sorting
+- key text primary key
+- value jsonb
+- expiresAt timestamptz not null
+- createdAt timestamptz not null default now()
+- updatedAt timestamptz not null default now()
 
-- Default when travel enabled: duration ascending
-- If no route, push to bottom
+Indexes
 
-### 7.4 Map label strategy
+- expiresAt for cleanup jobs
 
-- Avoid labeling every zone
-- Suggested defaults
-  - Show labels for top 50 results plus selected zone
-  - Also show labels for currently visible viewport when zoomed in
+### 8.2 TravelProvider
 
-### 7.5 Selection
+Provide a reference adapter (e.g. OSRM, OpenRouteService, or internal provider)
+behind the TravelProvider interface.
 
-- Clicking a zone triggers /api/route
-- Draw polyline and show details panel
+### 8.3 GeocodeProvider
 
-## 8) Edge cases
+Use a provider adapter (e.g. Photon) behind GeocodeProvider.
+Configure the base URL via env var (e.g. GEOCODE_BASE_URL).
 
-- Destination geocode fails
-  - Show form validation error and disable travel
-- Transit route not available
-  - status NO_ROUTE, display in table and filterable
-- API rate limits
-  - Use batching, caching, and exponential backoff
-- Very large result sets
-  - Use pagination, and compute travel per page or for top N
+### 8.4 API
 
-## 9) Non functional requirements
+- Fastify endpoints under apps/api
+- Validation with Zod in packages/core
+- Errors follow API_CONTRACT.md
 
-- Use structured logs with request ids for travel calls
-- Keep provider keys secret server side
-- Ensure deterministic bucketing and cache keys
+## 9) Observability
+
+- Structured logs with requestId
+- Include cache hit rate and provider latency
+- Do not log PII from destination address
 
 ## 10) MVP defaults
 
@@ -297,3 +360,12 @@ TTL
   - car: centroid
   - transit: poiHub if present else centroid
 - Labels on map: top 50
+
+## 11) Portability
+
+To port to a different host (Workers/KV, serverless, etc.), implement:
+
+- CacheStore adapter for the host cache
+- TravelProvider adapter for the chosen routing vendor
+
+API contracts and UI do not change.

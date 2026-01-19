@@ -90,6 +90,11 @@ h1 {
   color: var(--muted);
 }
 
+.search label {
+  display: grid;
+  gap: 6px;
+}
+
 .search input {
   padding: 10px 12px;
   border-radius: 10px;
@@ -99,11 +104,42 @@ h1 {
   color: var(--ink);
 }
 
+.search button {
+  align-self: start;
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: none;
+  background: var(--accent);
+  color: #fff;
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.search button:hover {
+  opacity: 0.9;
+}
+
+.search button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.search .hint {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
 .panel-body {
   flex: 1;
   display: grid;
   gap: 16px;
   align-content: start;
+}
+
+.panel-section {
+  display: grid;
+  gap: 16px;
 }
 
 .detail-card {
@@ -132,6 +168,124 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.panel-section label input,
+.panel-section label select {
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 1px solid var(--panel-edge);
+  font-family: inherit;
+  background: #fff;
+  color: var(--ink);
+}
+
+.panel-section label input:disabled,
+.panel-section label select:disabled {
+  background: #f2ece6;
+  color: #9b928a;
+}
+
+.panel-section .detail-meta {
+  display: grid;
+  gap: 12px;
+}
+
+.panel-section button {
+  align-self: start;
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: none;
+  background: var(--accent);
+  color: #fff;
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.panel-section button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.panel-section .hint {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.panel-section .error {
+  font-size: 0.85rem;
+  color: #a12424;
+}
+
+.geocode-suggestions {
+  list-style: none;
+  margin: 0;
+  padding: 6px 0;
+  border-radius: 12px;
+  border: 1px solid var(--panel-edge);
+  background: #fff;
+  max-height: 200px;
+  overflow: auto;
+  box-shadow: 0 12px 24px rgba(15, 18, 25, 0.08);
+}
+
+.geocode-suggestions li {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.geocode-suggestions li:hover,
+.geocode-suggestions li.active {
+  background: #f7efe7;
+}
+
+.suggestion-badge {
+  font-size: 0.6rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 999px;
+  border: 1px solid var(--panel-edge);
+  background: var(--accent-quiet);
+  color: var(--ink);
+}
+
+.suggestion-label {
+  flex: 1;
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.results-table th,
+.results-table td {
+  text-align: left;
+  padding: 8px 6px;
+  border-bottom: 1px solid #eee2d9;
+}
+
+.results-row {
+  cursor: pointer;
+}
+
+.results-row:hover {
+  background: #f7efe7;
 }
 
 .tag {
