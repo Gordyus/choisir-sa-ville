@@ -65,6 +65,9 @@ export function mapToCommune(record: Record<string, string>): CommuneMapResult {
       if (parentCode) break;
     }
   }
+  if (parentCode === inseeCode) {
+    parentCode = null;
+  }
 
   return {
     row: {
