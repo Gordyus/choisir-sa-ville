@@ -1,10 +1,11 @@
 import { Component } from "@angular/core";
-import { RouterOutlet } from "@angular/router";
+import { MapPanelComponent } from "./features/map/ui/map-panel.component";
+import { RightPanelComponent } from "./features/right-panel/right-panel.component";
 
 @Component({
   selector: "app-root",
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [MapPanelComponent, RightPanelComponent],
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.css"]
 })

@@ -5,7 +5,14 @@
     </div>
   </header>
   <main class="app-main">
-    <router-outlet></router-outlet>
+    <div class="app-shell">
+      <section class="map-wrap">
+        <app-map-panel></app-map-panel>
+      </section>
+      <aside class="panel">
+        <app-right-panel></app-right-panel>
+      </aside>
+    </div>
   </main>
   <footer class="app-footer">
     <span class="app-footer-text">MVP preview</span>

@@ -19,9 +19,11 @@ export type PanRequest = {
 export class MapDataService {
   private readonly viewportSubject = new BehaviorSubject<Viewport | null>(null);
   private readonly panSubject = new Subject<PanRequest>();
+  private readonly highlightedIdSubject = new BehaviorSubject<string | null>(null);
 
   readonly viewport$: Observable<Viewport | null> = this.viewportSubject.asObservable();
   readonly panRequest$: Observable<PanRequest> = this.panSubject.asObservable();
+  readonly highlightedId$: Observable<string | null> = this.highlightedIdSubject.asObservable();
 
   updateViewport(viewport: Viewport): void {
     this.viewportSubject.next(viewport);
@@ -33,5 +35,9 @@ export class MapDataService {
 
   requestPan(request: PanRequest): void {
     this.panSubject.next(request);
+  }
+
+  setHighlightedId(id: string | null): void {
+    this.highlightedIdSubject.next(id);
   }
 }
