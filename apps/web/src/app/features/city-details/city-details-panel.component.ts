@@ -1,12 +1,11 @@
 import { Component, Input } from "@angular/core";
-import { NgFor, NgIf, NgSwitch, NgSwitchCase } from "@angular/common";
 import type { DetailsState } from "./city-details.service";
 import type { TravelRouteState } from "../travel/travel-route.service";
 
 @Component({
   selector: "app-city-details-panel",
   standalone: true,
-  imports: [NgFor, NgIf, NgSwitch, NgSwitchCase],
+  imports: [],
   templateUrl: "./city-details-panel.component.html",
   styles: [":host { display: block; }"]
 })

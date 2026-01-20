@@ -1,11 +1,10 @@
 import { Component, EventEmitter, Input, Output } from "@angular/core";
-import { NgFor, NgIf } from "@angular/common";
 import type { GeocodeCandidate } from "@csv/core";
 
 @Component({
   selector: "app-search-area-panel",
   standalone: true,
-  imports: [NgIf, NgFor],
+  imports: [],
   templateUrl: "./search-area-panel.component.html",
   styles: [":host { display: block; }"]
 })

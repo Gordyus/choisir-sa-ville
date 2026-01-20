@@ -1,80 +1,99 @@
-<section class="panel-body" *ngIf="state as state">
-  <ng-container [ngSwitch]="state.status">
-    <div class="detail-card" *ngSwitchCase="'idle'">
-      <h2 class="detail-title">Pick a city</h2>
-      <div class="detail-meta">
-        <span>Click a marker to view details.</span>
-        <span>Markers load as you move across the map.</span>
-      </div>
-    </div>
-    <div class="detail-card" *ngSwitchCase="'loading'">
-      <h2 class="detail-title">Loading...</h2>
-      <div class="detail-meta">
-        <span>Fetching city details from the API.</span>
-      </div>
-    </div>
-    <div class="detail-card" *ngSwitchCase="'error'">
-      <h2 class="detail-title">Unable to load details</h2>
-      <div class="detail-meta">
-        <span>{{ state.message ?? "The city details could not be loaded." }}</span>
-      </div>
-    </div>
-    <ng-container *ngSwitchCase="'loaded'">
-      <ng-container *ngIf="state.city as city">
+@if (state; as state) {
+  <section class="panel-body">
+    @switch (state.status) {
+      @case ("idle") {
         <div class="detail-card">
-          <h2 class="detail-title">{{ city.name }}</h2>
+          <h2 class="detail-title">Pick a city</h2>
           <div class="detail-meta">
-            <span>INSEE: {{ city.inseeCode }} - {{ city.slug }}</span>
-            <span>
-              Dept: {{ city.departmentName ?? "Unknown" }}
-              ({{ city.departmentCode ?? "?" }})
-            </span>
-            <span>
-              Region: {{ city.regionName ?? "Unknown" }}
-              ({{ city.regionCode ?? "?" }})
-            </span>
-            <span>Coords: {{ city.lat ?? "?" }}, {{ city.lon ?? "?" }}</span>
+            <span>Click a marker to view details.</span>
+            <span>Markers load as you move across the map.</span>
           </div>
         </div>
+      }
+      @case ("loading") {
         <div class="detail-card">
-          <h3 class="detail-title">Postal codes</h3>
-          <div class="detail-tags" *ngIf="city.postalCodes.length > 0; else noPostal">
-            <span class="tag" *ngFor="let code of city.postalCodes">
-              {{ code }}
-            </span>
+          <h2 class="detail-title">Loading...</h2>
+          <div class="detail-meta">
+            <span>Fetching city details from the API.</span>
           </div>
-          <ng-template #noPostal>
-            <div class="detail-tags">
-              <span class="tag">No postal codes</span>
-            </div>
-          </ng-template>
         </div>
-        <div class="detail-card" *ngIf="routeState as routeState">
-          <h3 class="detail-title">Route</h3>
-          <ng-container [ngSwitch]="routeState.status">
-            <div class="detail-meta" *ngSwitchCase="'idle'">
-              <span>Select a city and enable travel to view the route.</span>
-            </div>
-            <div class="detail-meta" *ngSwitchCase="'loading'">
-              <span>Loading route...</span>
-            </div>
-            <div class="detail-meta" *ngSwitchCase="'error'">
-              <span>{{ routeState.message ?? "Route lookup failed." }}</span>
-            </div>
-            <div class="detail-meta" *ngSwitchCase="'loaded'">
-              <span>Status: {{ routeState.route?.status ?? "ERROR" }}</span>
-              <span>Duration: {{ formatDuration(routeState.route?.duration_s) }}</span>
-              <span>Distance: {{ formatDistance(routeState.route?.distance_m) }}</span>
-              <span *ngIf="routeState.route?.origin?.label">
-                Origin: {{ routeState.route?.origin?.label }}
-              </span>
-              <span *ngIf="routeState.route?.destination?.label">
-                Destination: {{ routeState.route?.destination?.label }}
-              </span>
-            </div>
-          </ng-container>
+      }
+      @case ("error") {
+        <div class="detail-card">
+          <h2 class="detail-title">Unable to load details</h2>
+          <div class="detail-meta">
+            <span>{{ state.message ?? "The city details could not be loaded." }}</span>
+          </div>
         </div>
-      </ng-container>
-    </ng-container>
-  </ng-container>
-</section>
+      }
+      @case ("loaded") {
+        @if (state.city; as city) {
+          <div class="detail-card">
+            <h2 class="detail-title">{{ city.name }}</h2>
+            <div class="detail-meta">
+              <span>INSEE: {{ city.inseeCode }} - {{ city.slug }}</span>
+              <span>
+                Dept: {{ city.departmentName ?? "Unknown" }}
+                ({{ city.departmentCode ?? "?" }})
+              </span>
+              <span>
+                Region: {{ city.regionName ?? "Unknown" }}
+                ({{ city.regionCode ?? "?" }})
+              </span>
+              <span>Coords: {{ city.lat ?? "?" }}, {{ city.lon ?? "?" }}</span>
+            </div>
+          </div>
+          <div class="detail-card">
+            <h3 class="detail-title">Postal codes</h3>
+            @if (city.postalCodes.length > 0) {
+              <div class="detail-tags">
+                @for (code of city.postalCodes; track code) {
+                  <span class="tag">{{ code }}</span>
+                }
+              </div>
+            } @else {
+              <div class="detail-tags">
+                <span class="tag">No postal codes</span>
+              </div>
+            }
+          </div>
+          @if (routeState; as routeState) {
+            <div class="detail-card">
+              <h3 class="detail-title">Route</h3>
+              @switch (routeState.status) {
+                @case ("idle") {
+                  <div class="detail-meta">
+                    <span>Select a city and enable travel to view the route.</span>
+                  </div>
+                }
+                @case ("loading") {
+                  <div class="detail-meta">
+                    <span>Loading route...</span>
+                  </div>
+                }
+                @case ("error") {
+                  <div class="detail-meta">
+                    <span>{{ routeState.message ?? "Route lookup failed." }}</span>
+                  </div>
+                }
+                @case ("loaded") {
+                  <div class="detail-meta">
+                    <span>Status: {{ routeState.route?.status ?? "ERROR" }}</span>
+                    <span>Duration: {{ formatDuration(routeState.route?.duration_s) }}</span>
+                    <span>Distance: {{ formatDistance(routeState.route?.distance_m) }}</span>
+                    @if (routeState.route?.origin?.label) {
+                      <span>Origin: {{ routeState.route?.origin?.label }}</span>
+                    }
+                    @if (routeState.route?.destination?.label) {
+                      <span>Destination: {{ routeState.route?.destination?.label }}</span>
+                    }
+                  </div>
+                }
+              }
+            </div>
+          }
+        }
+      }
+    }
+  </section>
+}
