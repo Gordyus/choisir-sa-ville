@@ -14,6 +14,7 @@ import { healthRoute } from "./routes/health.js";
 import { searchRoute } from "./routes/search.js";
 import { travelMatrixRoute } from "./routes/travel-matrix.js";
 import { travelRoute } from "./routes/travel-route.js";
+import { zoneAggregatesRoute } from "./routes/zone-aggregates.js";
 import { PostgresCacheStore } from "./services/cache-store.js";
 import { createAreaSuggestService } from "./services/area-suggest.service.js";
 import { createGeocodeService } from "./services/geocode.service.js";
@@ -23,6 +24,7 @@ import { createSearchService } from "./services/search.service.js";
 import { DisabledTravelProvider } from "./services/travel-provider.js";
 import { createTravelMatrixService } from "./services/travel-matrix.service.js";
 import { createTravelRouteService } from "./services/travel-route.service.js";
+import { createZoneAggregatesService } from "./services/zone-aggregates.service.js";
 
 dotenv.config({
   path: path.resolve(process.cwd(), "../../.env")
@@ -50,6 +52,7 @@ const travelProvider = env.OSRM_BASE_URL
   : new DisabledTravelProvider();
 const travelMatrixService = createTravelMatrixService(cacheStore, travelProvider);
 const travelRouteService = createTravelRouteService(db, cacheStore, travelProvider);
+const zoneAggregatesService = createZoneAggregatesService(db, app.log);
 
 await app.register(healthRoute);
 await app.register(citiesRoute(db));
@@ -58,6 +61,7 @@ await app.register(areaSuggestRoute(areaSuggestService));
 await app.register(geocodeRoute(geocodeService));
 await app.register(travelMatrixRoute(travelMatrixService));
 await app.register(travelRoute(travelRouteService));
+await app.register(zoneAggregatesRoute(zoneAggregatesService));
 if (env.NODE_ENV !== "production") {
   await app.register(debugRoute);
 }

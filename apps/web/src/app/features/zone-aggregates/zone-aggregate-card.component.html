@@ -1,0 +1,13 @@
+@if (content; as content) {
+  <div class="aggregate-card">
+    <div class="aggregate-header">
+      <span class="aggregate-title">{{ content.title }}</span>
+      <span class="aggregate-value">{{ content.value }}</span>
+    </div>
+    <div class="aggregate-subtitle">{{ content.subtitle }}</div>
+  </div>
+} @else {
+  <div class="aggregate-card aggregate-card--empty">
+    <span class="aggregate-empty">Aggregate data unavailable.</span>
+  </div>
+}

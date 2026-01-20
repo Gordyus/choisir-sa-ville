@@ -6,3 +6,4 @@ export * from "./cache.js";
 export * from "./travel.js";
 export * from "./geocode.js";
 export * from "./geocode-cache.js";
+export * from "./zone-aggregates/index.js";

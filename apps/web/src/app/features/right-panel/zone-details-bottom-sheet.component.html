@@ -28,6 +28,17 @@
         <button type="button">Comparer</button>
         <button type="button">Voir plus</button>
       </div>
+      <div class="sheet-aggregates">
+        @if (aggregateState?.status === "loading") {
+          <p class="sheet-muted">Loading aggregates...</p>
+        } @else if (aggregateState?.status === "error") {
+          <p class="sheet-muted">
+            {{ aggregateState?.message ?? "Aggregate data unavailable." }}
+          </p>
+        } @else if (aggregateState?.status === "loaded") {
+          <app-zone-aggregate-card [result]="aggregateState?.result ?? null"></app-zone-aggregate-card>
+        }
+      </div>
     } @else {
       <p class="sheet-muted">Select a zone to see details.</p>
     }

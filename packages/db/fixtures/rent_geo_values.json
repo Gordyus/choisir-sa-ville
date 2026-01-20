@@ -1,0 +1,47 @@
+[
+  {
+    "aggregateId": "rent.v1",
+    "periodYear": 2023,
+    "geoLevel": "commune",
+    "geoCode": "75056",
+    "params": {
+      "year": 2023,
+      "segmentKey": "ALL_ALL"
+    },
+    "payload": {
+      "rentMedianPerM2": 32.1,
+      "rentP25PerM2": 24.5,
+      "rentP75PerM2": 42.0
+    }
+  },
+  {
+    "aggregateId": "rent.v1",
+    "periodYear": 2023,
+    "geoLevel": "commune",
+    "geoCode": "69123",
+    "params": {
+      "year": 2023,
+      "segmentKey": "ALL_ALL"
+    },
+    "payload": {
+      "rentMedianPerM2": 18.2,
+      "rentP25PerM2": 14.3,
+      "rentP75PerM2": 23.9
+    }
+  },
+  {
+    "aggregateId": "rent.v1",
+    "periodYear": 2023,
+    "geoLevel": "commune",
+    "geoCode": "13055",
+    "params": {
+      "year": 2023,
+      "segmentKey": "ALL_ALL"
+    },
+    "payload": {
+      "rentMedianPerM2": 16.7,
+      "rentP25PerM2": 12.8,
+      "rentP75PerM2": 21.4
+    }
+  }
+]

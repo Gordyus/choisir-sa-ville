@@ -8,7 +8,8 @@
     "build": "tsc -p tsconfig.json",
     "test": "node --test --import tsx \"src/__tests__/**/*.test.ts\"",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "seed:zone-aggregates": "tsx src/scripts/seed-zone-aggregates.ts"
   },
   "dependencies": {
     "@csv/core": "workspace:*",

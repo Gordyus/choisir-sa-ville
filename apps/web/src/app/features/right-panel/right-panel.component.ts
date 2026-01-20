@@ -5,6 +5,7 @@ import { SearchSessionFacade, type SessionState } from "../search/search-session
 import type { SearchResponse } from "../../core/dto/search";
 import { MapDataService } from "../map/state/map-data.service";
 import { RightPanelStore } from "./right-panel.store";
+import { ZoneAggregatesFacade, type ZoneAggregateState } from "../zone-aggregates/zone-aggregates.facade";
 import { SearchCriteriaPanelComponent } from "./search-criteria-panel.component";
 import { CriteriaSummaryBarComponent, type CriteriaChip } from "./criteria-summary-bar.component";
 import { ZoneResultsListComponent, type ZoneResultItem } from "./zone-results-list.component";
@@ -84,6 +85,13 @@ export class RightPanelComponent {
     if (!id) return null;
     return this.viewState().rows.find((row) => row.zoneId === id)?.travel ?? null;
   });
+  readonly rentAggregateState = toSignal(
+    this.zoneAggregates.getSelectedAggregateState("rent.v1", {
+      year: 2023,
+      segmentKey: "ALL_ALL"
+    }),
+    { initialValue: { status: "idle", aggregateId: "rent.v1" } as ZoneAggregateState }
+  );
   readonly detailsSummary = computed<ZoneDetailsSummary | null>(() => {
     const state = this.detailsState();
     if (state.status !== "loaded" || !state.city) return null;
@@ -98,7 +106,8 @@ export class RightPanelComponent {
   constructor(
     private readonly session: SearchSessionFacade,
     private readonly store: RightPanelStore,
-    private readonly mapData: MapDataService
+    private readonly mapData: MapDataService,
+    private readonly zoneAggregates: ZoneAggregatesFacade
   ) {}
 
   onSearch(): void {

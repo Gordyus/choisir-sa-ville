@@ -49,6 +49,7 @@
       [summary]="detailsSummary()"
       [detailsState]="detailsState()"
       [travelLabel]="formatTravel(selectedTravel(), view.travelStatus)"
+      [aggregateState]="rentAggregateState()"
       [expanded]="bottomSheetExpanded()"
       (toggleExpanded)="toggleBottomSheet()"
     ></app-zone-details-bottom-sheet>

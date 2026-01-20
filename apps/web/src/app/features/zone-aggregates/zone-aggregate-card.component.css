@@ -1,0 +1,47 @@
+:host {
+  display: block;
+}
+
+.aggregate-card {
+  border: 1px solid var(--panel-edge);
+  border-radius: 12px;
+  padding: 12px 14px;
+  background: #fff;
+  display: grid;
+  gap: 6px;
+}
+
+.aggregate-card--empty {
+  background: #f9f6f2;
+}
+
+.aggregate-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.aggregate-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.aggregate-value {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.aggregate-subtitle {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.aggregate-empty {
+  font-size: 0.85rem;
+  color: var(--muted);
+}

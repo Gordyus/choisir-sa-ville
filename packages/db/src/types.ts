@@ -52,6 +52,34 @@ export type CacheStoreTable = {
   updatedAt: Generated<Date>;
 };
 
+export type ZoneAggregatesTable = {
+  zoneId: string;
+  aggregateId: string;
+  periodYear: number;
+  paramsHash: string;
+  coverage: number;
+  source: string;
+  sourceVersion: string;
+  computedAt: Date;
+  payloadJson: unknown;
+};
+
+export type GeoAggregateValuesTable = {
+  aggregateId: string;
+  periodYear: number;
+  geoLevel: string;
+  geoCode: string;
+  paramsHash: string;
+  payloadJson: unknown;
+};
+
+export type ZoneGeoMapTable = {
+  zoneId: string;
+  geoLevel: string;
+  geoCode: string;
+  weight: number;
+};
+
 export type Database = {
   commune: CommuneTable;
   infra_zone: InfraZoneTable;
@@ -59,5 +87,8 @@ export type Database = {
   department: DepartmentTable;
   commune_postal_code: CommunePostalCodeTable;
   cache_store: CacheStoreTable;
+  zone_aggregates: ZoneAggregatesTable;
+  geo_aggregate_values: GeoAggregateValuesTable;
+  zone_geo_map: ZoneGeoMapTable;
   city: CommuneTable;
 };
