@@ -4,13 +4,19 @@ import path from "node:path";
 import { importPostalCodes } from "../postal-codes/importer.js";
 import { parseArgs } from "./cli.js";
 import { detectDelimiter } from "./csv-utils.js";
-import { buildChildCoordinateIndex } from "./geo-derivation.js";
+import {
+  buildChildCoordinateIndex,
+  buildOfflineCoordinateIndex,
+  buildPostalCoordinateIndex
+} from "./geo-derivation.js";
+import { DEFAULT_OFFLINE_COORDS_PATH } from "./constants.js";
 import { resolveSourceFile } from "./file-utils.js";
 import {
   importCommunes,
   importDepartments,
   importInfraZones,
-  importRegions
+  importRegions,
+  assertMandatoryArrondissements
 } from "./importers.js";
 import type { ImportOptions, InfraZoneType } from "./types.js";
 
@@ -54,12 +60,39 @@ async function executeImport(options: ImportOptions): Promise<void> {
     const shouldImportInfra =
       options.includeInfra && (!options.onlyType || options.onlyType !== "COM");
     const shouldImportPostalCodes = shouldImportCommunes && !options.skipPostal;
+    const offlinePath = shouldImportCommunes
+      ? await resolveSourceFile(DEFAULT_OFFLINE_COORDS_PATH, false)
+      : null;
+    const offlineDelimiter =
+      shouldImportCommunes && offlinePath ? await detectDelimiter(offlinePath) : ",";
+    const offlineIndex =
+      shouldImportCommunes && offlinePath
+        ? await buildOfflineCoordinateIndex(offlinePath, offlineDelimiter)
+        : { coords: new Map(), presentCodes: new Set() };
     const childIndex = shouldImportCommunes
-      ? await buildChildCoordinateIndex(sourcePath, delimiter)
+      ? await buildChildCoordinateIndex(sourcePath, delimiter, offlineIndex.coords)
       : new Map();
+    const postalIndex =
+      shouldImportCommunes && postalPath && postalDelimiter
+        ? await buildPostalCoordinateIndex(postalPath, postalDelimiter)
+        : {
+            strategy: "none",
+            coordsByInsee: new Map(),
+            presentCodes: new Set(),
+            coordsByName: new Map(),
+            nameStatus: new Map()
+          };
 
     if (shouldImportCommunes) {
-      await importCommunes(db, sourcePath, delimiter, options, childIndex);
+      await importCommunes(
+        db,
+        sourcePath,
+        delimiter,
+        options,
+        childIndex,
+        postalIndex,
+        offlineIndex
+      );
     }
 
     if (shouldImportInfra) {
@@ -68,6 +101,10 @@ async function executeImport(options: ImportOptions): Promise<void> {
           ? (options.onlyType as InfraZoneType)
           : undefined;
       await importInfraZones(db, sourcePath, delimiter, options, infraOnlyType);
+    }
+
+    if (shouldImportCommunes) {
+      await assertMandatoryArrondissements(db, options);
     }
 
     if (shouldImportPostalCodes && postalPath && postalDelimiter) {
