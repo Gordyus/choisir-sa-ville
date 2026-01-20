@@ -4,6 +4,7 @@ import path from "node:path";
 import { importPostalCodes } from "../postal-codes/importer.js";
 import { parseArgs } from "./cli.js";
 import { detectDelimiter } from "./csv-utils.js";
+import { buildChildCoordinateIndex } from "./geo-derivation.js";
 import { resolveSourceFile } from "./file-utils.js";
 import {
   importCommunes,
@@ -53,9 +54,12 @@ async function executeImport(options: ImportOptions): Promise<void> {
     const shouldImportInfra =
       options.includeInfra && (!options.onlyType || options.onlyType !== "COM");
     const shouldImportPostalCodes = shouldImportCommunes && !options.skipPostal;
+    const childIndex = shouldImportCommunes
+      ? await buildChildCoordinateIndex(sourcePath, delimiter)
+      : new Map();
 
     if (shouldImportCommunes) {
-      await importCommunes(db, sourcePath, delimiter, options);
+      await importCommunes(db, sourcePath, delimiter, options, childIndex);
     }
 
     if (shouldImportInfra) {

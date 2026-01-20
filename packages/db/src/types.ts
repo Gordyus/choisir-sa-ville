@@ -9,6 +9,8 @@ export type CommuneTable = {
   regionCode: string | null;
   lat: number | null;
   lon: number | null;
+  geoSource: string | null;
+  geoPrecision: string | null;
   createdAt: Generated<Date>;
   updatedAt: Generated<Date>;
 };

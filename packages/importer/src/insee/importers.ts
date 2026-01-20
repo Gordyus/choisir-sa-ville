@@ -14,6 +14,8 @@ import {
   mapToInfraZone,
   mapToRegion
 } from "./mappers.js";
+import type { ChildCoordinateIndex } from "./geo-derivation.js";
+import { deriveCommuneLocation } from "./geo-derivation.js";
 import type {
   CommuneInsert,
   DepartmentInsert,
@@ -151,7 +153,8 @@ export async function importCommunes(
   db: Db | null,
   sourcePath: string,
   delimiter: string,
-  options: ImportOptions
+  options: ImportOptions,
+  childIndex: ChildCoordinateIndex
 ): Promise<void> {
   const { stream, entryName } = await openCsvStream(sourcePath);
   if (entryName) {
@@ -175,6 +178,7 @@ export async function importCommunes(
   let skipped = 0;
   let ignored = 0;
   let written = 0;
+  const missingCoordinates: string[] = [];
 
   for await (const record of parser) {
     seen += 1;
@@ -189,6 +193,20 @@ export async function importCommunes(
     }
 
     const row = mapped.row;
+    if (row.lat !== null && row.lon !== null) {
+      row.geoSource = "insee";
+      row.geoPrecision = "exact";
+    } else {
+      const derived = deriveCommuneLocation(row.inseeCode, childIndex);
+      if (derived) {
+        row.lat = derived.lat;
+        row.lon = derived.lon;
+        row.geoSource = derived.geoSource;
+        row.geoPrecision = derived.geoPrecision;
+      } else {
+        missingCoordinates.push(row.inseeCode);
+      }
+    }
     selected += 1;
     batch.set(row.inseeCode, row);
 
@@ -209,6 +227,12 @@ export async function importCommunes(
   }
 
   written += await flushCommuneBatch(db, batch, options.dryRun);
+
+  if (missingCoordinates.length > 0) {
+    throw new Error(
+      `Missing commune coordinates for ${missingCoordinates.length} commune(s): ${missingCoordinates.join(", ")}`
+    );
+  }
 
   console.log(
     `Commune pass done. Rows: ${seen}. Selected: ${selected}. Written: ${written}. Skipped: ${skipped}. Ignored: ${ignored}.`

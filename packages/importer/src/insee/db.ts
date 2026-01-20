@@ -87,6 +87,8 @@ export async function flushCommuneBatch(
         regionCode: eb.ref("excluded.regionCode"),
         lat: eb.ref("excluded.lat"),
         lon: eb.ref("excluded.lon"),
+        geoSource: eb.ref("excluded.geoSource"),
+        geoPrecision: eb.ref("excluded.geoPrecision"),
         updatedAt: sql`now()`
       }))
     )
