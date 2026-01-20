@@ -32,14 +32,17 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
   @ViewChild("map", { static: true }) mapElement!: ElementRef<HTMLDivElement>;
   @Input() markers: MapMarker[] = [];
   @Input() routeLine: RouteLine | null = null;
+  @Input() highlightedId: string | null = null;
 
   private map: L.Map | null = null;
   private clusterLayer: L.MarkerClusterGroup | null = null;
   private markerIconInstance: L.DivIcon | null = null;
+  private markerIconActiveInstance: L.DivIcon | null = null;
   private pendingMarkers: MapMarker[] | null = null;
   private routeLayer: L.Polyline | null = null;
   private pendingRoute: RouteLine | null = null;
   private panSubscription?: Subscription;
+  private markerIndex = new Map<string, L.Marker>();
 
   private readonly handleViewport = (): void => {
     if (!this.map) return;
@@ -64,6 +67,9 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
     }
     if (changes["routeLine"]) {
       this.applyRouteLine(this.routeLine);
+    }
+    if (changes["highlightedId"]) {
+      this.applyHighlight();
     }
   }
 
@@ -142,7 +148,9 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
 
     const leafletMarkers = markers.map((item) => this.createMarker(item));
     this.clusterLayer.clearLayers();
+    this.markerIndex.clear();
     leafletMarkers.forEach((marker) => this.clusterLayer?.addLayer(marker));
+    this.applyHighlight();
   }
 
   private applyRouteLine(routeLine: RouteLine | null): void {
@@ -172,14 +180,28 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
   }
 
   private createMarker(item: MapMarker): L.Marker {
-    const marker = L.marker([item.lat, item.lng], { icon: this.markerIcon() });
+    const marker = L.marker([item.lat, item.lng], {
+      icon: this.markerIcon(item.id === this.highlightedId)
+    });
     marker.on("click", () => {
       this.selection.selectCity(item.id);
     });
+    this.markerIndex.set(item.id, marker);
     return marker;
   }
 
-  private markerIcon(): L.DivIcon {
+  private markerIcon(isActive: boolean): L.DivIcon {
+    if (isActive) {
+      if (!this.markerIconActiveInstance) {
+        this.markerIconActiveInstance = L.divIcon({
+          className: "city-marker city-marker--active",
+          html: "<span></span>",
+          iconSize: [16, 16],
+          iconAnchor: [8, 8]
+        });
+      }
+      return this.markerIconActiveInstance;
+    }
     if (!this.markerIconInstance) {
       this.markerIconInstance = L.divIcon({
         className: "city-marker",
@@ -189,5 +211,13 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
       });
     }
     return this.markerIconInstance;
+  }
+
+  private applyHighlight(): void {
+    if (!this.markerIndex.size) return;
+    for (const [id, marker] of this.markerIndex.entries()) {
+      const isActive = id === this.highlightedId;
+      marker.setIcon(this.markerIcon(isActive));
+    }
   }
 }

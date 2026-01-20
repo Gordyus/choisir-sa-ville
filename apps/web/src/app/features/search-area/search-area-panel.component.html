@@ -10,19 +10,24 @@
       (keydown)="queryKey.emit($event)"
     />
   </label>
-  <ul class="geocode-suggestions" *ngIf="suggestions.length > 0">
-    <li
-      *ngFor="let candidate of suggestions; let i = index"
-      [class.active]="i === suggestionIndex"
-      (click)="candidateSelected.emit(candidate)"
-    >
-      <span class="suggestion-badge">{{ badgeFor(candidate) }}</span>
-      <span class="suggestion-label">{{ candidate.label }}</span>
-    </li>
-  </ul>
-  <span class="hint" *ngIf="isSuggesting">Searching locations...</span>
-  <span class="hint" *ngIf="resolvedAreaLabel">
-    Selected area: {{ resolvedAreaLabel }}
-  </span>
+  @if (suggestions.length > 0) {
+    <ul class="geocode-suggestions">
+      @for (candidate of suggestions; track candidate.label; let i = $index) {
+        <li
+          [class.active]="i === suggestionIndex"
+          (click)="candidateSelected.emit(candidate)"
+        >
+          <span class="suggestion-badge">{{ badgeFor(candidate) }}</span>
+          <span class="suggestion-label">{{ candidate.label }}</span>
+        </li>
+      }
+    </ul>
+  }
+  @if (isSuggesting) {
+    <span class="hint">Searching locations...</span>
+  }
+  @if (resolvedAreaLabel) {
+    <span class="hint">Selected area: {{ resolvedAreaLabel }}</span>
+  }
   <button type="submit">Search this area</button>
 </form>

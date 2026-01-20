@@ -1,0 +1,33 @@
+:host {
+  display: block;
+  height: 100%;
+}
+
+.right-panel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 100%;
+}
+
+.results-wrap {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  padding-bottom: 16px;
+}
+
+.results-wrap.has-sheet {
+  padding-bottom: 96px;
+}
+
+.right-panel.sheet-expanded .results-wrap.has-sheet {
+  padding-bottom: 340px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .results-wrap {
+    scroll-behavior: auto;
+  }
+}

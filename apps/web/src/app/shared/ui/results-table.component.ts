@@ -1,5 +1,4 @@
 import { Component, EventEmitter, Input, Output } from "@angular/core";
-import { NgFor } from "@angular/common";
 import type { TravelMatrixResult } from "@csv/core";
 
 type ResultRow = {
@@ -14,7 +13,7 @@ type ResultRow = {
 @Component({
   selector: "app-results-table",
   standalone: true,
-  imports: [NgFor],
+  imports: [],
   templateUrl: "./results-table.component.html",
   styles: [":host { display: block; }"]
 })

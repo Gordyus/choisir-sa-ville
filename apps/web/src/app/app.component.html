@@ -1,102 +1,20 @@
-<div class="app-shell" *ngIf="sessionState$ | async as session">
-  <main class="map-wrap">
-    <app-map
-      [markers]="(markers$ | async) ?? []"
-      [routeLine]="(routeLine$ | async) ?? []"
-    ></app-map>
-  </main>
-  <aside class="panel">
-    <div class="panel-header">
-      <div>
-        <p class="eyebrow">Cities Explorer</p>
-        <h1>Choisir sa ville</h1>
-        <p class="subtitle">Live map of communes and infra context.</p>
-      </div>
-      <app-search-area-panel
-        [query]="session.query"
-        [suggestions]="(querySuggestions$ | async) ?? []"
-        [suggestionIndex]="session.querySuggestionIndex"
-        [isSuggesting]="(isQuerySuggesting$ | async) === true"
-        [resolvedAreaLabel]="session.resolvedAreaLabel"
-        (queryUpdated)="updateQuery($event)"
-        (queryKey)="onQueryKey($event)"
-        (candidateSelected)="selectQueryCandidate($event)"
-        (submitSearch)="runSearch()"
-      ></app-search-area-panel>
+<div class="app-layout">
+  <header class="app-header">
+    <div class="app-header-inner">
+      <span class="app-brand">Choisir sa ville</span>
     </div>
-    <section class="panel-section" *ngIf="viewState$ | async as viewState">
-      <ng-container [ngSwitch]="viewState.status">
-        <div class="detail-card" *ngSwitchCase="'idle'">
-          <h2 class="detail-title">Search the map</h2>
-          <div class="detail-meta">
-            <span>Move the map to set a search area.</span>
-            <span>Click "Search this area" to load results.</span>
-          </div>
-        </div>
-        <div class="detail-card" *ngSwitchCase="'loading'">
-          <h2 class="detail-title">Searching...</h2>
-          <div class="detail-meta">
-            <span>Fetching zones for the current map view.</span>
-          </div>
-        </div>
-        <div class="detail-card" *ngSwitchCase="'error'">
-          <h2 class="detail-title">Search failed</h2>
-          <div class="detail-meta">
-            <span>{{ viewState.message ?? "Unable to load results." }}</span>
-          </div>
-        </div>
-        <ng-container *ngSwitchCase="'loaded'">
-          <div class="detail-card">
-            <div class="detail-meta">
-              <span>{{ viewState.total }} zones found</span>
-              <span>Showing {{ viewState.rows.length }} results</span>
-            </div>
-          </div>
-          <app-travel-options-panel
-            [travelEnabled]="session.travelEnabled"
-            [destinationInput]="session.destinationInput"
-            [destinationSuggestions]="(destinationSuggestions$ | async) ?? []"
-            [suggestionIndex]="session.suggestionIndex"
-            [travelMode]="session.travelMode"
-            [travelDay]="session.travelDay"
-            [travelTime]="session.travelTime"
-            [dayOptions]="dayOptions"
-            [timeOptions]="timeOptions"
-            [travelError]="session.travelError"
-            [isSuggesting]="(isDestinationSuggesting$ | async) === true"
-            [isGeocoding]="session.isGeocoding"
-            [resolvedDestinationLabel]="session.resolvedDestinationLabel"
-            [travelStatus]="viewState.travelStatus"
-            [travelMessage]="viewState.travelMessage"
-            (travelEnabledChange)="onTravelEnabledChange($event)"
-            (destinationInputChange)="onDestinationInputChange($event)"
-            (destinationKey)="onDestinationKey($event)"
-            (candidateSelected)="selectCandidate($event)"
-            (modeChange)="onTravelModeChange($event)"
-            (dayChange)="onTravelDayChange($event)"
-            (timeChange)="onTravelTimeChange($event)"
-            (applyTravel)="applyTravelOptions()"
-          ></app-travel-options-panel>
-          <div class="detail-card" *ngIf="viewState.rows.length > 0; else noResults">
-            <app-results-table
-              [rows]="viewState.rows"
-              [travelStatus]="viewState.travelStatus"
-              (rowSelected)="selectZone($event)"
-            ></app-results-table>
-          </div>
-          <ng-template #noResults>
-            <div class="detail-card">
-              <div class="detail-meta">
-                <span>No zones found for this area.</span>
-              </div>
-            </div>
-          </ng-template>
-        </ng-container>
-      </ng-container>
-    </section>
-    <app-city-details-panel
-      [state]="detailsState$ | async"
-      [routeState]="routeState$ | async"
-    ></app-city-details-panel>
-  </aside>
+  </header>
+  <main class="app-main">
+    <div class="app-shell">
+      <section class="map-wrap">
+        <app-map-panel></app-map-panel>
+      </section>
+      <aside class="panel">
+        <app-right-panel></app-right-panel>
+      </aside>
+    </div>
+  </main>
+  <footer class="app-footer">
+    <span class="app-footer-text">MVP preview</span>
+  </footer>
 </div>

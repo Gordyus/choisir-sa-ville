@@ -21,15 +21,18 @@
         (keydown)="destinationKey.emit($event)"
       />
     </label>
-    <ul class="geocode-suggestions" *ngIf="travelEnabled && destinationSuggestions.length > 0">
-      <li
-        *ngFor="let candidate of destinationSuggestions; let i = index"
-        [class.active]="i === suggestionIndex"
-        (click)="candidateSelected.emit(candidate)"
-      >
-        {{ candidate.label }}
-      </li>
-    </ul>
+    @if (travelEnabled && destinationSuggestions.length > 0) {
+      <ul class="geocode-suggestions">
+        @for (candidate of destinationSuggestions; track candidate.label; let i = $index) {
+          <li
+            [class.active]="i === suggestionIndex"
+            (click)="candidateSelected.emit(candidate)"
+          >
+            {{ candidate.label }}
+          </li>
+        }
+      </ul>
+    }
     <label>
       <span>Mode</span>
       <select
@@ -50,9 +53,9 @@
         [disabled]="!travelEnabled"
         (ngModelChange)="dayChange.emit($event)"
       >
-        <option *ngFor="let day of dayOptions" [value]="day.value">
-          {{ day.label }}
-        </option>
+        @for (day of dayOptions; track day.value) {
+          <option [value]="day.value">{{ day.label }}</option>
+        }
       </select>
     </label>
     <label>
@@ -63,26 +66,34 @@
         [disabled]="!travelEnabled"
         (ngModelChange)="timeChange.emit($event)"
       >
-        <option *ngFor="let time of timeOptions" [value]="time">
-          {{ time }}
-        </option>
+        @for (time of timeOptions; track time) {
+          <option [value]="time">{{ time }}</option>
+        }
       </select>
     </label>
     <button type="button" (click)="applyTravel.emit()" [disabled]="!travelEnabled">
       Apply travel
     </button>
     <span class="hint">Type an address near your search area (lat,lng also works).</span>
-    <span class="hint" *ngIf="isSuggesting">Searching addresses...</span>
-    <span class="hint" *ngIf="isGeocoding">Looking up address...</span>
-    <span class="hint" *ngIf="resolvedDestinationLabel">
-      Resolved: {{ resolvedDestinationLabel }}
-    </span>
-    <span class="error" *ngIf="travelError">{{ travelError }}</span>
-    <span class="hint" *ngIf="travelEnabled && travelStatus === 'loading'">
-      Loading travel times...
-    </span>
-    <span class="error" *ngIf="!travelError && travelEnabled && travelStatus === 'error'">
-      {{ travelMessage ?? "Travel service unavailable." }}
-    </span>
+    @if (isSuggesting) {
+      <span class="hint">Searching addresses...</span>
+    }
+    @if (isGeocoding) {
+      <span class="hint">Looking up address...</span>
+    }
+    @if (resolvedDestinationLabel) {
+      <span class="hint">Resolved: {{ resolvedDestinationLabel }}</span>
+    }
+    @if (travelError) {
+      <span class="error">{{ travelError }}</span>
+    }
+    @if (travelEnabled && travelStatus === "loading") {
+      <span class="hint">Loading travel times...</span>
+    }
+    @if (!travelError && travelEnabled && travelStatus === "error") {
+      <span class="error">
+        {{ travelMessage ?? "Travel service unavailable." }}
+      </span>
+    }
   </div>
 </div>

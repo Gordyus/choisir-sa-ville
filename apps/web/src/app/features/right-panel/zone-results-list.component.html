@@ -1,0 +1,53 @@
+<div class="resultsList">
+  @if (rows.length === 0) {
+    <div class="result-empty">
+      <p>No zones found for this area.</p>
+    </div>
+  } @else {
+    <div class="resultsHeader">
+      <button
+        type="button"
+        class="sort-button"
+        (click)="toggleSort('name')"
+      >
+        City
+        <span class="sort-indicator">{{ sortIndicator("name") }}</span>
+      </button>
+      <button
+        type="button"
+        class="sort-button sort-button--travel"
+        (click)="toggleSort('travel')"
+      >
+        Travel
+        <span class="sort-indicator">{{ sortIndicator("travel") }}</span>
+      </button>
+    </div>
+    <div class="resultsBody">
+      @for (row of sortedRows(); track trackRow($index, row)) {
+        <div
+          class="resultRow"
+          role="button"
+          tabindex="0"
+          [class.resultRow--selected]="row.zoneId === selectedZoneId"
+          (click)="selected.emit(row.zoneId)"
+          (mouseenter)="hovered.emit(row.zoneId)"
+          (mouseleave)="hovered.emit(null)"
+          (focus)="hovered.emit(row.zoneId)"
+          (blur)="hovered.emit(null)"
+          (keydown.enter)="onRowKey($event, row.zoneId)"
+          (keydown.space)="onRowKey($event, row.zoneId)"
+          [attr.aria-label]="'Select ' + row.zoneName"
+        >
+          <span class="cityName">{{ row.zoneName }}</span>
+          <span
+            class="travelValue"
+            [class.travelValue--pending]="isTravelPending(row.travel)"
+            [class.travelValue--placeholder]="isTravelPlaceholder(row.travel)"
+          >
+            {{ formatTravel(row.travel) }}
+          </span>
+        </div>
+      }
+    </div>
+  }
+</div>

@@ -1,12 +1,11 @@
 import { Component, EventEmitter, Input, Output } from "@angular/core";
-import { NgFor, NgIf } from "@angular/common";
 import { FormsModule } from "@angular/forms";
 import type { GeocodeCandidate, TravelMode } from "@csv/core";
 
 @Component({
   selector: "app-travel-options-panel",
   standalone: true,
-  imports: [NgIf, NgFor, FormsModule],
+  imports: [FormsModule],
   templateUrl: "./travel-options-panel.component.html",
   styles: [":host { display: block; }"]
 })

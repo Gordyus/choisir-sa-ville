@@ -1,0 +1,41 @@
+:host {
+  display: block;
+}
+
+.criteria-summary {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: #fff;
+  border: 1px solid #ece3dc;
+  box-shadow: 0 8px 20px rgba(15, 18, 25, 0.08);
+}
+
+.criteria-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.criteria-chip {
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #f7efe7;
+  border: 1px solid var(--panel-edge);
+  font-size: 0.75rem;
+  color: var(--ink);
+}
+
+.criteria-edit {
+  border: none;
+  background: transparent;
+  color: var(--accent);
+  font-weight: 600;
+  cursor: pointer;
+}
