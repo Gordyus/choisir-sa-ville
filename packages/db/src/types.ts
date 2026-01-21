@@ -72,6 +72,9 @@ export type GeoAggregateValuesTable = {
   geoLevel: string;
   geoCode: string;
   paramsHash: string;
+  paramsFamilyHash: string;
+  source: string | null;
+  sourceVersion: string | null;
   payloadJson: unknown;
 };
 

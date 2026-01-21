@@ -18,6 +18,9 @@ export type GeoAggregateValueRecord = {
   geoLevel: string;
   geoCode: string;
   paramsHash: string;
+  paramsFamilyHash: string;
+  source: string | null;
+  sourceVersion: string | null;
   payloadJson: unknown;
 };
 
@@ -93,6 +96,20 @@ export async function getGeoAggregateValues(
     .execute();
 }
 
+export async function getLatestGeoAggregatePeriodYear(
+  db: Db,
+  input: { aggregateId: string; paramsFamilyHash: string }
+): Promise<number | null> {
+  const row = await db
+    .selectFrom("geo_aggregate_values")
+    .select((eb) => eb.fn.max("periodYear").as("periodYear"))
+    .where("aggregateId", "=", input.aggregateId)
+    .where("paramsFamilyHash", "=", input.paramsFamilyHash)
+    .executeTakeFirst();
+
+  return row?.periodYear ?? null;
+}
+
 export async function upsertGeoAggregateValuesBatch(
   db: Db,
   records: GeoAggregateValueRecord[]
@@ -106,7 +123,10 @@ export async function upsertGeoAggregateValuesBatch(
       oc
         .columns(["aggregateId", "periodYear", "geoLevel", "geoCode", "paramsHash"])
         .doUpdateSet({
-          payloadJson: (eb) => eb.ref("excluded.payloadJson")
+          source: (eb) => eb.ref("excluded.source"),
+          sourceVersion: (eb) => eb.ref("excluded.sourceVersion"),
+          payloadJson: (eb) => eb.ref("excluded.payloadJson"),
+          paramsFamilyHash: (eb) => eb.ref("excluded.paramsFamilyHash")
         })
     )
     .execute();

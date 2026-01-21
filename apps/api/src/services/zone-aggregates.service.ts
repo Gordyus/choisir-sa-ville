@@ -3,6 +3,7 @@ import { ZoneAggregatesService } from "@csv/core";
 import type { Db } from "@csv/db";
 import {
   getGeoAggregateValues,
+  getLatestGeoAggregatePeriodYear,
   getZoneAggregate,
   getZoneGeoWeights,
   upsertGeoAggregateValuesBatch,
@@ -51,9 +52,17 @@ export function createZoneAggregatesService(db: Db, logger?: ZoneAggregateLogger
         geoLevel: row.geoLevel,
         geoCode: row.geoCode,
         paramsHash: row.paramsHash,
+        paramsFamilyHash: row.paramsFamilyHash,
+        source: row.source,
+        sourceVersion: row.sourceVersion,
         payload: row.payloadJson
       }));
     },
+    getLatestPeriodYear: async (input) =>
+      getLatestGeoAggregatePeriodYear(db, {
+        aggregateId: input.aggregateId,
+        paramsFamilyHash: input.paramsFamilyHash
+      }),
     upsertGeoValuesBatch: async (records) => {
       await upsertGeoAggregateValuesBatch(
         db,
@@ -63,6 +72,9 @@ export function createZoneAggregatesService(db: Db, logger?: ZoneAggregateLogger
           geoLevel: record.geoLevel,
           geoCode: record.geoCode,
           paramsHash: record.paramsHash,
+          paramsFamilyHash: record.paramsFamilyHash,
+          source: record.source ?? null,
+          sourceVersion: record.sourceVersion ?? null,
           payloadJson: record.payload
         }))
       );

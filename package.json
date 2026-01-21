@@ -11,6 +11,9 @@
     "typecheck": "pnpm -r typecheck",
     "lint": "pnpm -r lint",
     "db:migrate": "pnpm -C packages/db migrate",
-    "db:reset": "pnpm -C packages/db reset"
+    "db:reset": "pnpm -C packages/db reset",
+    "import:rent:2023": "pnpm -C packages/db import:rent:2023",
+    "import:rent:latest": "pnpm -C packages/db import:rent:latest",
+    "import:rent:year": "pnpm -C packages/db import:rent:year"
   }
 }

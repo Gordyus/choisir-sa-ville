@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 import path from "node:path";
 import { readFile } from "node:fs/promises";
 import { createDb, upsertGeoAggregateValuesBatch, upsertZoneGeoWeightsBatch } from "@csv/db";
-import { hashAggregateParams } from "@csv/core";
+import { hashAggregateParams, hashAggregateParamsFamily } from "@csv/core";
 
 dotenv.config({ path: path.resolve(process.cwd(), "../../.env") });
 
@@ -41,17 +41,24 @@ const geoRecords = [] as Array<{
   geoLevel: string;
   geoCode: string;
   paramsHash: string;
+  paramsFamilyHash: string;
+  source: string | null;
+  sourceVersion: string | null;
   payloadJson: unknown;
 }>;
 
 for (const row of geoValues) {
   const paramsHash = await hashAggregateParams(row.params ?? {});
+  const paramsFamilyHash = await hashAggregateParamsFamily(row.params ?? {});
   geoRecords.push({
     aggregateId: row.aggregateId,
     periodYear: row.periodYear,
     geoLevel: row.geoLevel,
     geoCode: row.geoCode,
     paramsHash,
+    paramsFamilyHash,
+    source: "fixture.rent",
+    sourceVersion: "2023-01",
     payloadJson: row.payload
   });
 }

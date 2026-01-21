@@ -121,6 +121,12 @@ importers:
 
   packages/db:
     dependencies:
+      '@csv/core':
+        specifier: workspace:*
+        version: link:../core
+      csv-parse:
+        specifier: ^5.5.6
+        version: 5.6.0
       dotenv:
         specifier: ^16.6.1
         version: 16.6.1
@@ -130,6 +136,12 @@ importers:
       pg:
         specifier: ^8.13.1
         version: 8.17.1
+      unzipper:
+        specifier: ^0.12.3
+        version: 0.12.3
+      zod:
+        specifier: ^3.23.8
+        version: 3.25.76
     devDependencies:
       '@types/node':
         specifier: ^22.10.2
@@ -137,6 +149,9 @@ importers:
       '@types/pg':
         specifier: ^8.11.10
         version: 8.16.0
+      '@types/unzipper':
+        specifier: ^0.10.10
+        version: 0.10.11
       eslint:
         specifier: ^9.15.0
         version: 9.39.2(jiti@1.21.7)

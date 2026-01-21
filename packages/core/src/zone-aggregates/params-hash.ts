@@ -28,6 +28,13 @@ export async function hashAggregateParams(value: unknown): Promise<string> {
   return bufferToHex(digest);
 }
 
+export async function hashAggregateParamsFamily(
+  params: Record<string, unknown>
+): Promise<string> {
+  const { year: _year, periodYear: _periodYear, ...rest } = params;
+  return hashAggregateParams(rest);
+}
+
 function bufferToHex(buffer: ArrayBuffer): string {
   const bytes = new Uint8Array(buffer);
   return Array.from(bytes, (b) => b.toString(16).padStart(2, "0")).join("");

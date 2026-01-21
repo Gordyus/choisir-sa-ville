@@ -1,6 +1,6 @@
 import { ZodError } from "zod";
 import { getZoneAggregatePlugin } from "./registry.js";
-import { hashAggregateParams } from "./params-hash.js";
+import { hashAggregateParams, hashAggregateParamsFamily } from "./params-hash.js";
 import { noData, unknownAggregate, ZoneAggregateError } from "./errors.js";
 import type {
   AggregateId,
@@ -12,6 +12,7 @@ import type {
   ZoneAggregateLogger,
   ZoneAggregateRecord,
   ZoneAggregateResult,
+  PeriodYearParam,
   ZoneAggregateStore,
   ZoneGeoMapStore
 } from "./types.js";
@@ -46,9 +47,36 @@ export class ZoneAggregatesService {
       throw unknownAggregate(aggregateId);
     }
 
-    const parsedParams = plugin.paramsSchema.parse(params) as Record<string, unknown>;
-    const periodYear = resolvePeriodYear(parsedParams);
-    const paramsHash = await hashAggregateParams(parsedParams);
+    const normalized = normalizeAggregateQueryParams(params);
+    if (normalized.invalidYear) {
+      plugin.paramsSchema.parse({
+        ...normalized.paramsWithoutYear,
+        year: normalized.rawYearValue,
+        periodYear: normalized.rawYearValue
+      });
+      throw new ZoneAggregateError("VALIDATION_ERROR", "Invalid year parameter.", {
+        fields: ["year", "periodYear"]
+      });
+    }
+
+    const parsedParams = plugin.paramsSchema.parse({
+      ...normalized.paramsWithoutYear,
+      year: DEFAULT_PLACEHOLDER_YEAR,
+      periodYear: DEFAULT_PLACEHOLDER_YEAR
+    }) as Record<string, unknown>;
+    const paramsFamilyHash = await hashAggregateParamsFamily(parsedParams);
+    const periodYear = await resolvePeriodYearOrLatest(
+      this.geoAggregateStore,
+      aggregateId,
+      paramsFamilyHash,
+      normalized.requestedPeriodYear
+    );
+    const resolvedParams = plugin.paramsSchema.parse({
+      ...parsedParams,
+      year: periodYear,
+      periodYear
+    }) as Record<string, unknown>;
+    const paramsHash = await hashAggregateParams(resolvedParams);
 
     const cached = await this.aggregateStore.getAggregate({
       zoneId,
@@ -87,7 +115,7 @@ export class ZoneAggregatesService {
     const result = await plugin.compute({
       zoneId,
       periodYear,
-      params: parsedParams,
+      params: resolvedParams,
       paramsHash,
       zoneGeoWeights,
       geoStore: {
@@ -153,18 +181,77 @@ export class ZoneAggregatesService {
   }
 }
 
-function resolvePeriodYear(params: Record<string, unknown>): number {
-  const year = params["year"];
-  if (typeof year === "number" && Number.isFinite(year)) {
-    return year;
+const DEFAULT_PLACEHOLDER_YEAR = 2000;
+
+type NormalizedParams = {
+  paramsWithoutYear: Record<string, unknown>;
+  requestedPeriodYear?: PeriodYearParam;
+  rawYearValue?: unknown;
+  invalidYear: boolean;
+};
+
+function normalizeAggregateQueryParams(input: Record<string, unknown>): NormalizedParams {
+  const paramsWithoutYear = { ...input };
+  delete paramsWithoutYear.year;
+  delete paramsWithoutYear.periodYear;
+
+  const rawYearValue = input.periodYear ?? input.year;
+  const { value, invalid } = parsePeriodYearToken(rawYearValue);
+
+  return {
+    paramsWithoutYear,
+    requestedPeriodYear: value,
+    rawYearValue,
+    invalidYear: invalid
+  };
+}
+
+function parsePeriodYearToken(
+  value: unknown
+): { value?: PeriodYearParam; invalid: boolean } {
+  if (value === undefined || value === null) {
+    return { value: undefined, invalid: false };
   }
-  const periodYear = params["periodYear"];
-  if (typeof periodYear === "number" && Number.isFinite(periodYear)) {
-    return periodYear;
+
+  if (typeof value === "number") {
+    return Number.isFinite(value)
+      ? { value, invalid: false }
+      : { value: undefined, invalid: true };
   }
-  throw new ZoneAggregateError("VALIDATION_ERROR", "Missing year parameter.", {
-    fields: ["year", "periodYear"]
+
+  if (typeof value === "string") {
+    const trimmed = value.trim();
+    if (!trimmed) return { value: undefined, invalid: false };
+    if (trimmed.toLowerCase() === "latest") return { value: "latest", invalid: false };
+    if (/^\d+$/.test(trimmed)) {
+      return { value: Number.parseInt(trimmed, 10), invalid: false };
+    }
+    return { value: undefined, invalid: true };
+  }
+
+  return { value: undefined, invalid: true };
+}
+
+async function resolvePeriodYearOrLatest(
+  geoAggregateStore: GeoAggregateStore,
+  aggregateId: AggregateId,
+  paramsFamilyHash: string,
+  requestedPeriodYear: PeriodYearParam
+): Promise<number> {
+  if (typeof requestedPeriodYear === "number") {
+    return requestedPeriodYear;
+  }
+
+  const latest = await geoAggregateStore.getLatestPeriodYear({
+    aggregateId,
+    paramsFamilyHash
   });
+
+  if (!latest) {
+    throw noData("No aggregate data available.", { aggregateId, paramsFamilyHash });
+  }
+
+  return latest;
 }
 
 function mapError(

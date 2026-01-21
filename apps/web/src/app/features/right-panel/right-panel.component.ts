@@ -87,7 +87,6 @@ export class RightPanelComponent {
   });
   readonly rentAggregateState = toSignal(
     this.zoneAggregates.getSelectedAggregateState("rent.v1", {
-      year: 2023,
       segmentKey: "ALL_ALL"
     }),
     { initialValue: { status: "idle", aggregateId: "rent.v1" } as ZoneAggregateState }

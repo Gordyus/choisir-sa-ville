@@ -2,6 +2,8 @@ import type { ZodType, ZodTypeDef } from "zod";
 
 export type AggregateId = string;
 
+export type PeriodYearParam = number | "latest" | undefined;
+
 export type ZoneAggregateBase = {
   zoneId: string;
   aggregateId: AggregateId;
@@ -35,6 +37,9 @@ export type GeoAggregateValue<TPayload> = {
   geoLevel: string;
   geoCode: string;
   paramsHash: string;
+  paramsFamilyHash: string;
+  source?: string | null;
+  sourceVersion?: string | null;
   payload: TPayload;
 };
 
@@ -85,6 +90,10 @@ export type GeoAggregateStore = {
     geoCodes: string[];
     paramsHash: string;
   }) => Promise<Array<GeoAggregateValue<unknown>>>;
+  getLatestPeriodYear: (input: {
+    aggregateId: AggregateId;
+    paramsFamilyHash: string;
+  }) => Promise<number | null>;
   upsertGeoValuesBatch: (records: Array<GeoAggregateValue<unknown>>) => Promise<void>;
 };
 

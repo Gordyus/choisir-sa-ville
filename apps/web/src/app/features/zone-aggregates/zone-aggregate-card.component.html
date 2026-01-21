@@ -1,10 +1,53 @@
 @if (content; as content) {
   <div class="aggregate-card">
     <div class="aggregate-header">
-      <span class="aggregate-title">{{ content.title }}</span>
+      <span class="aggregate-title">
+        {{ content.title }}
+        <span
+          class="aggregate-info"
+          [attr.title]="content.yearTooltip"
+          aria-label="Data year info"
+          role="img"
+        >
+          i
+        </span>
+      </span>
       <span class="aggregate-value">{{ content.value }}</span>
     </div>
-    <div class="aggregate-subtitle">{{ content.subtitle }}</div>
+    @if (content.badges?.length) {
+      <div class="aggregate-badges">
+        @for (badge of content.badges; track badge.label) {
+          <span
+            class="aggregate-badge"
+            [class.aggregate-badge--warning]="badge.tone === 'warning'"
+            [attr.title]="badge.tooltip"
+            [attr.aria-label]="badge.label"
+          >
+            {{ badge.label }}
+          </span>
+        }
+      </div>
+    }
+    <div class="aggregate-details">
+      @if (content.range) {
+        <div class="aggregate-detail">
+          <span>{{ content.range }}</span>
+          @if (content.rangeTooltip) {
+            <span
+              class="aggregate-info aggregate-info--inline"
+              [attr.title]="content.rangeTooltip"
+              aria-label="Range info"
+              role="img"
+            >
+              i
+            </span>
+          }
+        </div>
+      }
+      @if (content.minMax) {
+        <div class="aggregate-detail">{{ content.minMax }}</div>
+      }
+    </div>
   </div>
 } @else {
   <div class="aggregate-card aggregate-card--empty">
