@@ -1,9 +1,85 @@
-node_modules
-dist
-.angular
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Node / JS / TS
+# =========================
+node_modules/
+dist/
+build/
+.out/
+.cache/
+.tmp/
+
+# =========================
+# Angular
+# =========================
+.angular/
+.angular/cache/
+.angular/workspace/
+coverage/
+
+# =========================
+# Environment variables
+# =========================
 .env
 .env.*
 !.env.example
-.DS_Store
-.pgdata
-packages/importer/.cache
+
+# =========================
+# Cloudflare / Workers / Pages
+# =========================
+.wrangler/
+.wrangler.toml
+.dev.vars
+
+# =========================
+# Databases
+# =========================
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# =========================
+# Tests
+# =========================
+test-results/
+playwright-report/
+cypress/videos/
+cypress/screenshots/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.iml
+
+# =========================
+# Monorepo tooling (Nx / Turborepo / etc.)
+# =========================
+.nx/
+.turbo/
+.pnpm-store/
+
+# =========================
+# Misc
+# =========================
+*.swp
+*.swo
+*.bak

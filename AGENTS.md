@@ -38,6 +38,8 @@ packages/
 - `packages/importer` :
   - ❌ jamais appelé depuis l’API
   - ✅ pipelines batch uniquement
+- `specs/` : documents normatifs (doivent être respectés par le code)
+- `docs/` : documents explicatifs ou contextuels
 
 ---
 
