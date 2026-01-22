@@ -12,6 +12,9 @@ import L from "leaflet";
 import type { Subscription } from "rxjs";
 import { Subject } from "rxjs";
 import { debounceTime } from "rxjs/operators";
+import { CityVisibilityLeafletService } from "../../../core/services/city-visibility-leaflet.service";
+import { CITY_MARKERS_MODE, MIN_ZOOM_FOR_CUSTOM_CITY_MARKERS } from "../../../core/services/city-visibility.config";
+import type { City } from "../../../core/services/city-visibility.types";
 import { SearchSessionFacade } from "../../search/search-session.facade";
 import { SelectionService } from "../../selection/selection.service";
 import { MapDataService } from "../state/map-data.service";
@@ -21,6 +24,7 @@ export type MapMarker = {
   label: string;
   lat: number;
   lng: number;
+  population?: number;
 };
 
 export type RouteLine = Array<{ lat: number; lng: number }>;
@@ -38,7 +42,7 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
   @Input() highlightedId: string | null = null;
 
   private map: L.Map | null = null;
-  private clusterLayer: L.MarkerClusterGroup | null = null;
+  private cityLayer: L.LayerGroup | null = null;
   private markerIconInstance: L.DivIcon | null = null;
   private markerIconActiveInstance: L.DivIcon | null = null;
   private pendingMarkers: MapMarker[] | null = null;
@@ -49,6 +53,8 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
   private mapMoveSubject = new Subject<void>();
   private mapMoveSubscription?: Subscription;
   private lastSearchBounds: L.LatLngBounds | null = null;
+  private allCities: City[] = [];
+  private visibleCityIds = new Set<string>();
 
   private readonly handleViewport = (): void => {
     if (!this.map) return;
@@ -61,6 +67,12 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
       zoom: this.map.getZoom()
     });
 
+    // Update visible cities only if enabled and zoom is high enough
+    // At low/medium zoom, we rely on OSM basemap labels
+    if (this.shouldShowCustomCityMarkers()) {
+      this.updateVisibleCities();
+    }
+
     // Trigger debounced search on map movement
     this.mapMoveSubject.next();
   };
@@ -69,6 +81,7 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
     private readonly session: SearchSessionFacade,
     private readonly mapData: MapDataService,
     private readonly selection: SelectionService,
+    private readonly cityVisibility: CityVisibilityLeafletService
   ) { }
 
   ngOnChanges(changes: SimpleChanges): void {
@@ -86,7 +99,7 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
   ngOnInit(): void {
     // Setup debounced search trigger
     this.mapMoveSubscription = this.mapMoveSubject
-      .pipe(debounceTime(200))
+      .pipe(debounceTime(150))
       .subscribe(() => {
         this.triggerSearchForCurrentBounds();
       });
@@ -112,7 +125,6 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
     if (!global.L) {
       global.L = L;
     }
-    await import("leaflet.markercluster");
 
     this.map = L.map(this.mapElement.nativeElement, {
       zoomControl: true
@@ -123,9 +135,9 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(this.map);
 
-    // Cluster markers to keep the map readable when zoomed out.
-    this.clusterLayer = L.markerClusterGroup();
-    this.clusterLayer.addTo(this.map);
+    // Create layer group for city markers (no clustering)
+    this.cityLayer = L.layerGroup();
+    this.cityLayer.addTo(this.map);
 
     this.markerIconInstance = L.divIcon({
       className: "city-marker",
@@ -159,16 +171,154 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
   }
 
   private applyMarkers(markers: MapMarker[]): void {
-    if (!this.clusterLayer) {
+    if (!this.cityLayer) {
       this.pendingMarkers = markers;
       return;
     }
 
-    const leafletMarkers = markers.map((item) => this.createMarker(item));
-    this.clusterLayer.clearLayers();
-    this.markerIndex.clear();
-    leafletMarkers.forEach((marker) => this.clusterLayer?.addLayer(marker));
-    this.applyHighlight();
+    // Mode: "resultsOnly" - markers are search results/selection, show them directly
+    if (CITY_MARKERS_MODE === 'resultsOnly' || CITY_MARKERS_MODE === 'none') {
+      // Clear existing markers
+      this.cityLayer.clearLayers();
+      this.markerIndex.clear();
+      this.visibleCityIds.clear();
+
+      if (CITY_MARKERS_MODE === 'resultsOnly') {
+        // Show all result markers directly (no viewport filtering)
+        markers.forEach((marker) => {
+          const leafletMarker = this.createMarkerFromMapMarker(marker);
+          this.cityLayer!.addLayer(leafletMarker);
+          this.visibleCityIds.add(marker.id);
+        });
+      }
+      // If mode is "none", don't show any markers
+
+      this.applyHighlight();
+      return;
+    }
+
+    // Mode: "all" - dynamic visibility (deprecated, causes instability)
+    // Convert markers to City format and store
+    this.allCities = markers.map((m) => this.markerToCity(m));
+
+    // Reset visibility service when data changes
+    this.cityVisibility.reset();
+
+    // Update visible cities immediately
+    this.updateVisibleCities();
+  }
+
+  /**
+   * Check if custom city markers should be shown
+   * Based on mode and zoom level
+   */
+  private shouldShowCustomCityMarkers(): boolean {
+    if (!this.map) return false;
+
+    const mode = CITY_MARKERS_MODE;
+
+    // "none" mode: never show custom markers
+    if (mode === 'none') return false;
+
+    // "resultsOnly" mode: markers are handled separately in applyMarkers
+    // No dynamic viewport-based visibility needed
+    if (mode === 'resultsOnly') return false;
+
+    // "all" mode: only show if zoom is high enough
+    const zoom = this.map.getZoom();
+    return zoom >= MIN_ZOOM_FOR_CUSTOM_CITY_MARKERS;
+  }
+
+  /**
+   * Update visible cities based on current map state
+   * Only called when mode is "all" and zoom is high enough
+   */
+  private updateVisibleCities(): void {
+    if (!this.map || !this.cityLayer) return;
+    if (!this.shouldShowCustomCityMarkers()) {
+      // Clear all markers if we shouldn't show them
+      this.cityLayer.clearLayers();
+      this.markerIndex.clear();
+      this.visibleCityIds.clear();
+      return;
+    }
+
+    this.cityVisibility.updateVisibleCities(
+      this.map,
+      this.allCities,
+      (visibleCities) => {
+        // Diff and update markers
+        const newVisibleIds = new Set(visibleCities.map((c) => c.id));
+
+        // Remove markers that are no longer visible
+        for (const id of this.visibleCityIds) {
+          if (!newVisibleIds.has(id)) {
+            const marker = this.markerIndex.get(id);
+            if (marker && this.cityLayer) {
+              this.cityLayer.removeLayer(marker);
+              this.markerIndex.delete(id);
+            }
+          }
+        }
+
+        // Add new markers
+        for (const city of visibleCities) {
+          if (!this.visibleCityIds.has(city.id)) {
+            const marker = this.createMarkerFromCity(city);
+            if (this.cityLayer) {
+              this.cityLayer.addLayer(marker);
+            }
+          }
+        }
+
+        // Update visible set
+        this.visibleCityIds = newVisibleIds;
+
+        // Update highlights
+        this.applyHighlight();
+      }
+    );
+  }
+
+  /**
+   * Convert MapMarker to City format
+   */
+  private markerToCity(marker: MapMarker): City {
+    return {
+      id: marker.id,
+      name: marker.label,
+      lat: marker.lat,
+      lon: marker.lng,
+      population: marker.population
+    };
+  }
+
+  /**
+   * Create Leaflet marker from City (for "all" mode)
+   */
+  private createMarkerFromCity(city: City): L.Marker {
+    const marker = L.marker([city.lat, city.lon], {
+      icon: this.markerIcon(city.id === this.highlightedId)
+    });
+    marker.on("click", () => {
+      this.selection.selectCity(city.id);
+    });
+    this.markerIndex.set(city.id, marker);
+    return marker;
+  }
+
+  /**
+   * Create Leaflet marker from MapMarker (for "resultsOnly" mode)
+   */
+  private createMarkerFromMapMarker(mapMarker: MapMarker): L.Marker {
+    const marker = L.marker([mapMarker.lat, mapMarker.lng], {
+      icon: this.markerIcon(mapMarker.id === this.highlightedId)
+    });
+    marker.on("click", () => {
+      this.selection.selectCity(mapMarker.id);
+    });
+    this.markerIndex.set(mapMarker.id, marker);
+    return marker;
   }
 
   private applyRouteLine(routeLine: RouteLine | null): void {
@@ -195,17 +345,6 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
         opacity: 0.9
       }).addTo(this.map);
     }
-  }
-
-  private createMarker(item: MapMarker): L.Marker {
-    const marker = L.marker([item.lat, item.lng], {
-      icon: this.markerIcon(item.id === this.highlightedId)
-    });
-    marker.on("click", () => {
-      this.selection.selectCity(item.id);
-    });
-    this.markerIndex.set(item.id, marker);
-    return marker;
   }
 
   private markerIcon(isActive: boolean): L.DivIcon {

@@ -1,0 +1,320 @@
+import { TestBed } from '@angular/core/testing';
+import { CityVisibilityService } from './city-visibility.service';
+import { ZOOM_TIERS } from './city-visibility.config';
+import type { City, ComputeVisibleCitiesInput, TierState } from './city-visibility.types';
+
+describe('CityVisibilityService', () => {
+  let service: CityVisibilityService;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({});
+    service = TestBed.inject(CityVisibilityService);
+  });
+
+  it('should be created', () => {
+    expect(service).toBeTruthy();
+  });
+
+  describe('computePriority', () => {
+    it('should return log10(population) for cities with population', () => {
+      const city: City = { id: '1', name: 'Paris', lat: 48.8566, lon: 2.3522, population: 2161000 };
+      const priority = service.computePriority(city);
+      expect(priority).toBeCloseTo(Math.log10(2161000), 5);
+    });
+
+    it('should return 1 for cities without population', () => {
+      const city: City = { id: '2', name: 'SmallTown', lat: 45.0, lon: 5.0 };
+      const priority = service.computePriority(city);
+      expect(priority).toBe(1);
+    });
+
+    it('should return 1 for cities with zero population', () => {
+      const city: City = { id: '3', name: 'Empty', lat: 45.0, lon: 5.0, population: 0 };
+      const priority = service.computePriority(city);
+      expect(priority).toBe(1);
+    });
+  });
+
+  describe('getTierForZoom', () => {
+    it('should select correct tier for zoom level', () => {
+      const state: TierState = { currentTierId: null, lastTransitionTime: 0 };
+      
+      const result1 = service.getTierForZoom(5, state);
+      expect(result1.tier.id).toBe('T0');
+
+      const result2 = service.getTierForZoom(7, state);
+      expect(result2.tier.id).toBe('T1');
+
+      const result3 = service.getTierForZoom(9, state);
+      expect(result3.tier.id).toBe('T2');
+
+      const result4 = service.getTierForZoom(12, state);
+      expect(result4.tier.id).toBe('T3');
+    });
+
+    it('should maintain tier with hysteresis', () => {
+      // Start at T1 (zoom 7)
+      let state: TierState = { currentTierId: 'T1', lastTransitionTime: Date.now() };
+
+      // Zoom to 5.9 - should stay in T1 due to hysteresis (T1 min is 6, margin is 0.3)
+      const result1 = service.getTierForZoom(5.9, state);
+      expect(result1.tier.id).toBe('T1');
+      state = result1.state;
+
+      // Zoom to 5.5 - should switch to T0 (below hysteresis threshold)
+      const result2 = service.getTierForZoom(5.5, state);
+      expect(result2.tier.id).toBe('T0');
+    });
+
+    it('should handle edge cases at tier boundaries', () => {
+      const state: TierState = { currentTierId: null, lastTransitionTime: 0 };
+
+      const result1 = service.getTierForZoom(6, state);
+      expect(['T0', 'T1']).toContain(result1.tier.id);
+
+      const result2 = service.getTierForZoom(8, state);
+      expect(['T1', 'T2']).toContain(result2.tier.id);
+    });
+  });
+
+  describe('computeVisibleCities - Determinism', () => {
+    it('should return same result for same input', () => {
+      const cities = createTestCities(100);
+      const input = createTestInput(cities, 8);
+
+      const result1 = service.computeVisibleCities(input);
+      const result2 = service.computeVisibleCities(input);
+
+      expect(result1.visibleCities.length).toBe(result2.visibleCities.length);
+      expect(result1.visibleCities.map(c => c.id)).toEqual(result2.visibleCities.map(c => c.id));
+    });
+
+    it('should return cities in same order for same input', () => {
+      const cities = createTestCities(100);
+      const input = createTestInput(cities, 8);
+
+      const result1 = service.computeVisibleCities(input);
+      const result2 = service.computeVisibleCities(input);
+
+      const ids1 = result1.visibleCities.map(c => c.id).join(',');
+      const ids2 = result2.visibleCities.map(c => c.id).join(',');
+
+      expect(ids1).toBe(ids2);
+    });
+  });
+
+  describe('computeVisibleCities - Budget', () => {
+    it('should respect targetMaxVisibleCities', () => {
+      const cities = createTestCities(1000);
+      const input = createTestInput(cities, 8); // T2: max 800
+
+      const result = service.computeVisibleCities(input);
+
+      expect(result.visibleCities.length).toBeLessThanOrEqual(800);
+    });
+
+    it('should show fewer cities at lower zoom levels', () => {
+      const cities = createTestCities(1000);
+      
+      const inputT0 = createTestInput(cities, 5); // T0: max 50
+      const inputT1 = createTestInput(cities, 7); // T1: max 200
+      const inputT2 = createTestInput(cities, 9); // T2: max 800
+
+      const resultT0 = service.computeVisibleCities(inputT0);
+      const resultT1 = service.computeVisibleCities(inputT1);
+      const resultT2 = service.computeVisibleCities(inputT2);
+
+      expect(resultT0.visibleCities.length).toBeLessThanOrEqual(50);
+      expect(resultT1.visibleCities.length).toBeLessThanOrEqual(200);
+      expect(resultT2.visibleCities.length).toBeLessThanOrEqual(800);
+
+      // More cities at higher zoom
+      expect(resultT2.visibleCities.length).toBeGreaterThan(resultT0.visibleCities.length);
+    });
+  });
+
+  describe('computeVisibleCities - Grid distribution', () => {
+    it('should limit cities per grid cell', () => {
+      // Create many cities in same location
+      const cities: City[] = [];
+      for (let i = 0; i < 20; i++) {
+        cities.push({
+          id: `city-${i}`,
+          name: `City ${i}`,
+          lat: 48.8566,
+          lon: 2.3522,
+          population: 100000 + i * 1000
+        });
+      }
+
+      const input = createTestInput(cities, 9); // T2: maxCitiesPerCell = 1
+
+      const result = service.computeVisibleCities(input);
+
+      // With grid cell size and same location, should only show 1 city
+      expect(result.visibleCities.length).toBeLessThanOrEqual(1);
+    });
+
+    it('should distribute cities across grid cells', () => {
+      const cities = createGridTestCities(5, 5); // 25 cities in 5x5 grid
+      const input = createTestInput(cities, 11); // T3: maxCitiesPerCell = 2
+
+      const result = service.computeVisibleCities(input);
+
+      // Should show cities distributed across grid
+      expect(result.visibleCities.length).toBeGreaterThan(10);
+      expect(result.visibleCities.length).toBeLessThanOrEqual(50); // 25 cells * 2 max
+    });
+  });
+
+  describe('computeVisibleCities - Tie-breaker', () => {
+    it('should sort by priority DESC', () => {
+      const cities: City[] = [
+        { id: '1', name: 'Small', lat: 48.0, lon: 2.0, population: 1000 },
+        { id: '2', name: 'Large', lat: 48.1, lon: 2.1, population: 1000000 },
+        { id: '3', name: 'Medium', lat: 48.2, lon: 2.2, population: 10000 }
+      ];
+
+      const input = createTestInput(cities, 9);
+      const result = service.computeVisibleCities(input);
+
+      // Should be sorted by population DESC (priority DESC)
+      expect(result.visibleCities[0].id).toBe('2'); // 1000000
+      expect(result.visibleCities[1].id).toBe('3'); // 10000
+      expect(result.visibleCities[2].id).toBe('1'); // 1000
+    });
+
+    it('should sort by name ASC when priority equal', () => {
+      const cities: City[] = [
+        { id: '1', name: 'Zebra', lat: 48.0, lon: 2.0, population: 1000 },
+        { id: '2', name: 'Apple', lat: 48.1, lon: 2.1, population: 1000 },
+        { id: '3', name: 'Mango', lat: 48.2, lon: 2.2, population: 1000 }
+      ];
+
+      const input = createTestInput(cities, 9);
+      const result = service.computeVisibleCities(input);
+
+      expect(result.visibleCities[0].name).toBe('Apple');
+      expect(result.visibleCities[1].name).toBe('Mango');
+      expect(result.visibleCities[2].name).toBe('Zebra');
+    });
+
+    it('should sort by id ASC when name and priority equal', () => {
+      const cities: City[] = [
+        { id: 'c', name: 'Same', lat: 48.0, lon: 2.0, population: 1000 },
+        { id: 'a', name: 'Same', lat: 48.1, lon: 2.1, population: 1000 },
+        { id: 'b', name: 'Same', lat: 48.2, lon: 2.2, population: 1000 }
+      ];
+
+      const input = createTestInput(cities, 9);
+      const result = service.computeVisibleCities(input);
+
+      expect(result.visibleCities[0].id).toBe('a');
+      expect(result.visibleCities[1].id).toBe('b');
+      expect(result.visibleCities[2].id).toBe('c');
+    });
+  });
+
+  describe('computeVisibleCities - Viewport filtering', () => {
+    it('should only show cities in viewport', () => {
+      const cities: City[] = [
+        { id: '1', name: 'In', lat: 48.8, lon: 2.3, population: 10000 },
+        { id: '2', name: 'Out', lat: 55.0, lon: 10.0, population: 10000 }
+      ];
+
+      const input = createTestInput(cities, 9);
+      const result = service.computeVisibleCities(input);
+
+      expect(result.visibleCities.some(c => c.id === '1')).toBe(true);
+      expect(result.visibleCities.some(c => c.id === '2')).toBe(false);
+    });
+
+    it('should use overscanned bbox to reduce flicker', () => {
+      const cities = createTestCities(100);
+      const input = createTestInput(cities, 9);
+
+      const result = service.computeVisibleCities(input);
+
+      // Should include some cities just outside strict viewport due to overscan
+      expect(result.visibleCities.length).toBeGreaterThan(0);
+    });
+  });
+
+  describe('computeVisibleCities - State updates', () => {
+    it('should update visibility state', () => {
+      const cities = createTestCities(50);
+      const input = createTestInput(cities, 9);
+
+      const result = service.computeVisibleCities(input);
+
+      expect(result.visibilityState).toBeDefined();
+      expect(result.visibilityState.tierId).toBe('T2');
+      expect(result.visibilityState.visibleCityIds.size).toBe(result.visibleCities.length);
+      expect(result.visibilityState.lastUpdateTime).toBeGreaterThan(0);
+    });
+
+    it('should update tier state', () => {
+      const cities = createTestCities(50);
+      const input = createTestInput(cities, 9);
+
+      const result = service.computeVisibleCities(input);
+
+      expect(result.tierState.currentTierId).toBe('T2');
+      expect(result.tierState.lastTransitionTime).toBeGreaterThan(0);
+    });
+  });
+});
+
+// Helper functions
+
+function createTestCities(count: number): City[] {
+  const cities: City[] = [];
+  for (let i = 0; i < count; i++) {
+    cities.push({
+      id: `city-${i}`,
+      name: `City ${String.fromCharCode(65 + (i % 26))}${i}`,
+      lat: 48.0 + (i % 10) * 0.1,
+      lon: 2.0 + Math.floor(i / 10) * 0.1,
+      population: 1000 + i * 1000
+    });
+  }
+  return cities;
+}
+
+function createGridTestCities(rows: number, cols: number): City[] {
+  const cities: City[] = [];
+  for (let r = 0; r < rows; r++) {
+    for (let c = 0; c < cols; c++) {
+      cities.push({
+        id: `city-${r}-${c}`,
+        name: `City ${r},${c}`,
+        lat: 48.0 + r * 0.05,
+        lon: 2.0 + c * 0.05,
+        population: 10000 + r * 1000 + c * 100
+      });
+    }
+  }
+  return cities;
+}
+
+function createTestInput(cities: City[], zoom: number): ComputeVisibleCitiesInput {
+  return {
+    cities,
+    zoom,
+    viewport: {
+      west: 1.5,
+      south: 47.5,
+      east: 3.5,
+      north: 49.5
+    },
+    projection: (lat: number, lon: number) => ({
+      x: (lon - 2.0) * 1000,
+      y: (lat - 48.0) * 1000
+    }),
+    tierState: {
+      currentTierId: null,
+      lastTransitionTime: 0
+    },
+    visibilityState: null
+  };
+}

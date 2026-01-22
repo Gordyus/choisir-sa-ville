@@ -1,0 +1,560 @@
+import { TestBed } from '@angular/core/testing';
+import { CityVisibilityService } from './city-visibility.service';
+import { ZOOM_TIERS } from './city-visibility.config';
+import type { City, ComputeVisibleCitiesInput, TierState } from './city-visibility.types';
+
+describe('CityVisibilityService (Updated)', () => {
+  let service: CityVisibilityService;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({});
+    service = TestBed.inject(CityVisibilityService);
+  });
+
+  it('should be created', () => {
+    expect(service).toBeTruthy();
+  });
+
+  describe('computeScore - Major City Bonuses', () => {
+    it('should give Paris bonus of 5', () => {
+      const paris: City = {
+        id: '75056',
+        name: 'Paris',
+        lat: 48.8566,
+        lon: 2.3522,
+        population: 2161000
+      };
+      const score = service.computeScore(paris);
+      const baseScore = Math.log10(2161000);
+      const expectedScore = baseScore + 5;
+      expect(score).toBeCloseTo(expectedScore, 2);
+    });
+
+    it('should give Marseille bonus of 4', () => {
+      const marseille: City = {
+        id: '13055',
+        name: 'Marseille',
+        lat: 43.2965,
+        lon: 5.3698,
+        population: 869815
+      };
+      const score = service.computeScore(marseille);
+      const baseScore = Math.log10(869815);
+      const expectedScore = baseScore + 4;
+      expect(score).toBeCloseTo(expectedScore, 2);
+    });
+
+    it('should give bonus for lowercase name', () => {
+      const city: City = {
+        id: 'test',
+        name: 'paris',
+        lat: 48.8566,
+        lon: 2.3522
+      };
+      const score = service.computeScore(city);
+      expect(score).toBeCloseTo(5, 2); // base 0 + bonus 5
+    });
+
+    it('should give bonus for trimmed name with spaces', () => {
+      const city: City = {
+        id: 'test',
+        name: '  Paris  ',
+        lat: 48.8566,
+        lon: 2.3522
+      };
+      const score = service.computeScore(city);
+      expect(score).toBeCloseTo(5, 2);
+    });
+
+    it('should no population gives base 0 + major city bonus', () => {
+      const paris: City = {
+        id: '75056',
+        name: 'Paris',
+        lat: 48.8566,
+        lon: 2.3522
+        // No population
+      };
+      const score = service.computeScore(paris);
+      expect(score).toBeCloseTo(5, 2); // 0 + 5 bonus
+    });
+
+    it('should small city without population gets score 0', () => {
+      const smallCity: City = {
+        id: 'small',
+        name: 'UnknownSmallTown',
+        lat: 45.0,
+        lon: 5.0
+        // No population, not in major cities list
+      };
+      const score = service.computeScore(smallCity);
+      expect(score).toBe(0);
+    });
+
+    it('should small city with low population gets low score', () => {
+      const smallCity: City = {
+        id: 'small',
+        name: 'SmallTown',
+        lat: 45.0,
+        lon: 5.0,
+        population: 500
+      };
+      const score = service.computeScore(smallCity);
+      expect(score).toBeCloseTo(Math.log10(500), 2); // ~2.7
+    });
+  });
+
+  describe('computeScore - Determinism', () => {
+    it('should return same score for same city', () => {
+      const city: City = {
+        id: 'paris',
+        name: 'Paris',
+        lat: 48.8566,
+        lon: 2.3522,
+        population: 2161000
+      };
+
+      const score1 = service.computeScore(city);
+      const score2 = service.computeScore(city);
+
+      expect(score1).toBe(score2);
+    });
+  });
+
+  describe('computeVisibleCities - Paris vs Alfortville', () => {
+    it('should rank Paris above Alfortville when Paris has no population', () => {
+      const paris: City = {
+        id: '75056',
+        name: 'Paris',
+        lat: 48.8566,
+        lon: 2.3522
+        // No population
+      };
+
+      const alfortville: City = {
+        id: '94002',
+        name: 'Alfortville',
+        lat: 48.8102,
+        lon: 2.4247,
+        population: 43000 // Alfortville has population
+      };
+
+      const cities = [alfortville, paris];
+      const input = createTestInput(cities, 5); // T0: low zoom
+
+      const result = service.computeVisibleCities(input);
+
+      // Find both cities in result
+      const parisInResult = result.visibleCities.find((c) => c.id === '75056');
+      const alfortvilleInResult = result.visibleCities.find((c) => c.id === '94002');
+
+      // Both should be visible (we have budget for more)
+      expect(parisInResult).toBeDefined();
+      expect(alfortvilleInResult).toBeDefined();
+
+      // Paris should come before Alfortville
+      const parisIdx = result.visibleCities.findIndex((c) => c.id === '75056');
+      const alfortvilleIdx = result.visibleCities.findIndex((c) => c.id === '94002');
+
+      expect(parisIdx).toBeLessThan(alfortvilleIdx);
+    });
+
+    it('should rank Paris above small communes even in same grid cell', () => {
+      const paris: City = {
+        id: '75056',
+        name: 'Paris',
+        lat: 48.8566,
+        lon: 2.3522
+      };
+
+      const smallCity1: City = {
+        id: 'small1',
+        name: 'SmallCommune1',
+        lat: 48.8560, // Very close to Paris
+        lon: 2.3520,
+        population: 10000
+      };
+
+      const smallCity2: City = {
+        id: 'small2',
+        name: 'SmallCommune2',
+        lat: 48.8570,
+        lon: 2.3525,
+        population: 15000
+      };
+
+      const cities = [smallCity1, smallCity2, paris];
+      const input = createTestInput(cities, 9); // T2: higher zoom, maxCitiesPerCell: 1
+
+      const result = service.computeVisibleCities(input);
+
+      // In same cell with maxCitiesPerCell=1, Paris should be selected
+      const parisVisible = result.visibleCities.find((c) => c.id === '75056');
+      expect(parisVisible).toBeDefined();
+    });
+  });
+
+  describe('computeVisibleCities - Determinism (updated)', () => {
+    it('should return same result for same input', () => {
+      const cities = createTestCities(100);
+      const input = createTestInput(cities, 8);
+
+      const result1 = service.computeVisibleCities(input);
+      const result2 = service.computeVisibleCities(input);
+
+      expect(result1.visibleCities.length).toBe(result2.visibleCities.length);
+      expect(result1.visibleCities.map((c) => c.id)).toEqual(
+        result2.visibleCities.map((c) => c.id)
+      );
+    });
+
+    it('should return cities in same order for same input', () => {
+      const cities = createTestCities(100);
+      const input = createTestInput(cities, 8);
+
+      const result1 = service.computeVisibleCities(input);
+      const result2 = service.computeVisibleCities(input);
+
+      const ids1 = result1.visibleCities.map((c) => c.id).join(',');
+      const ids2 = result2.visibleCities.map((c) => c.id).join(',');
+
+      expect(ids1).toBe(ids2);
+    });
+  });
+
+  describe('computeVisibleCities - Budget', () => {
+    it('should respect targetMaxVisibleCities', () => {
+      const cities = createTestCities(1000);
+      const input = createTestInput(cities, 8); // T2: max 800
+
+      const result = service.computeVisibleCities(input);
+
+      expect(result.visibleCities.length).toBeLessThanOrEqual(800);
+    });
+
+    it('should show fewer cities at lower zoom levels', () => {
+      const cities = createTestCities(1000);
+
+      const inputT0 = createTestInput(cities, 5); // T0: max 50
+      const inputT1 = createTestInput(cities, 7); // T1: max 200
+      const inputT2 = createTestInput(cities, 9); // T2: max 800
+
+      const resultT0 = service.computeVisibleCities(inputT0);
+      const resultT1 = service.computeVisibleCities(inputT1);
+      const resultT2 = service.computeVisibleCities(inputT2);
+
+      expect(resultT0.visibleCities.length).toBeLessThanOrEqual(50);
+      expect(resultT1.visibleCities.length).toBeLessThanOrEqual(200);
+      expect(resultT2.visibleCities.length).toBeLessThanOrEqual(800);
+
+      // More cities at higher zoom
+      expect(resultT2.visibleCities.length).toBeGreaterThan(resultT0.visibleCities.length);
+    });
+  });
+
+  describe('computeVisibleCities - Grid distribution', () => {
+    it('should respect maxCitiesPerCell', () => {
+      // Create many cities in same location
+      const cities: City[] = [];
+      for (let i = 0; i < 20; i++) {
+        cities.push({
+          id: `city-${i}`,
+          name: `City ${i}`,
+          lat: 48.8566,
+          lon: 2.3522,
+          population: 100000 + i * 1000
+        });
+      }
+
+      const input = createTestInput(cities, 9); // T2: maxCitiesPerCell = 1
+
+      const result = service.computeVisibleCities(input);
+
+      // With grid cell size and same location, should only show 1 city per cell
+      expect(result.visibleCities.length).toBeLessThanOrEqual(1);
+    });
+
+    it('should allow 2 cities per cell in T0 (reduced bucket eviction)', () => {
+      // Create 4 cities very close together
+      const cities: City[] = [
+        {
+          id: 'paris',
+          name: 'Paris',
+          lat: 48.8566,
+          lon: 2.3522
+        },
+        {
+          id: 'city2',
+          name: 'City2',
+          lat: 48.8560,
+          lon: 2.3520,
+          population: 50000
+        },
+        {
+          id: 'city3',
+          name: 'City3',
+          lat: 48.8570,
+          lon: 2.3530,
+          population: 40000
+        },
+        {
+          id: 'city4',
+          name: 'City4',
+          lat: 48.8575,
+          lon: 2.3535,
+          population: 30000
+        }
+      ];
+
+      const input = createTestInput(cities, 5); // T0: maxCitiesPerCell = 2
+
+      const result = service.computeVisibleCities(input);
+
+      // T0 allows 2 per cell, so we should see at least 2 cities
+      expect(result.visibleCities.length).toBeGreaterThanOrEqual(2);
+    });
+
+    it('should distribute cities across grid cells', () => {
+      const cities = createGridTestCities(5, 5); // 25 cities in 5x5 grid
+      const input = createTestInput(cities, 11); // T3: maxCitiesPerCell = 2
+
+      const result = service.computeVisibleCities(input);
+
+      // Should show cities distributed across grid
+      expect(result.visibleCities.length).toBeGreaterThan(10);
+      expect(result.visibleCities.length).toBeLessThanOrEqual(50); // 25 cells * 2 max
+    });
+  });
+
+  describe('computeVisibleCities - Tie-breaker (updated)', () => {
+    it('should sort by score DESC', () => {
+      const cities: City[] = [
+        {
+          id: '1',
+          name: 'SmallCity',
+          lat: 48.0,
+          lon: 2.0,
+          population: 1000
+        },
+        {
+          id: '2',
+          name: 'Paris', // Major city bonus
+          lat: 48.1,
+          lon: 2.1
+          // No population, but has bonus
+        },
+        {
+          id: '3',
+          name: 'MediumCity',
+          lat: 48.2,
+          lon: 2.2,
+          population: 10000
+        }
+      ];
+
+      const input = createTestInput(cities, 9);
+      const result = service.computeVisibleCities(input);
+
+      // Paris should be first (bonus 5 > log10(10000) ~4 > log10(1000) ~3)
+      expect(result.visibleCities[0].id).toBe('2');
+      expect(result.visibleCities[1].id).toBe('3');
+      expect(result.visibleCities[2].id).toBe('1');
+    });
+
+    it('should sort by population DESC when score equal', () => {
+      const cities: City[] = [
+        {
+          id: '1',
+          name: 'Zebra',
+          lat: 48.0,
+          lon: 2.0,
+          population: 100000
+        },
+        {
+          id: '2',
+          name: 'Apple',
+          lat: 48.1,
+          lon: 2.1,
+          population: 500000
+        },
+        {
+          id: '3',
+          name: 'Mango',
+          lat: 48.2,
+          lon: 2.2,
+          population: 1000
+        }
+      ];
+
+      const input = createTestInput(cities, 9);
+      const result = service.computeVisibleCities(input);
+
+      // Same score (no bonus, different populations), sort by population DESC
+      // 500000 > 100000 > 1000
+      expect(result.visibleCities[0].id).toBe('2'); // 500000
+      expect(result.visibleCities[1].id).toBe('1'); // 100000
+      expect(result.visibleCities[2].id).toBe('3'); // 1000
+    });
+
+    it('should sort by name ASC when score and population equal', () => {
+      const cities: City[] = [
+        {
+          id: '1',
+          name: 'Zebra',
+          lat: 48.0,
+          lon: 2.0,
+          population: 1000
+        },
+        {
+          id: '2',
+          name: 'Apple',
+          lat: 48.1,
+          lon: 2.1,
+          population: 1000
+        },
+        {
+          id: '3',
+          name: 'Mango',
+          lat: 48.2,
+          lon: 2.2,
+          population: 1000
+        }
+      ];
+
+      const input = createTestInput(cities, 9);
+      const result = service.computeVisibleCities(input);
+
+      expect(result.visibleCities[0].name).toBe('Apple');
+      expect(result.visibleCities[1].name).toBe('Mango');
+      expect(result.visibleCities[2].name).toBe('Zebra');
+    });
+
+    it('should sort by id ASC when all else equal', () => {
+      const cities: City[] = [
+        {
+          id: 'c',
+          name: 'Same',
+          lat: 48.0,
+          lon: 2.0,
+          population: 1000
+        },
+        {
+          id: 'a',
+          name: 'Same',
+          lat: 48.1,
+          lon: 2.1,
+          population: 1000
+        },
+        {
+          id: 'b',
+          name: 'Same',
+          lat: 48.2,
+          lon: 2.2,
+          population: 1000
+        }
+      ];
+
+      const input = createTestInput(cities, 9);
+      const result = service.computeVisibleCities(input);
+
+      expect(result.visibleCities[0].id).toBe('a');
+      expect(result.visibleCities[1].id).toBe('b');
+      expect(result.visibleCities[2].id).toBe('c');
+    });
+  });
+
+  describe('debugCityVisibility', () => {
+    it('should log debug info for city', () => {
+      const paris: City = {
+        id: '75056',
+        name: 'Paris',
+        lat: 48.8566,
+        lon: 2.3522
+      };
+
+      const alfortville: City = {
+        id: '94002',
+        name: 'Alfortville',
+        lat: 48.8102,
+        lon: 2.4247,
+        population: 43000
+      };
+
+      const cities = [paris, alfortville];
+      const projection = (lat: number, lon: number) => ({
+        x: (lon - 2.0) * 1000,
+        y: (lat - 48.0) * 1000
+      });
+
+      spyOn(console, 'log');
+
+      service.debugCityVisibility('Paris', cities, 5, projection);
+
+      expect(console.log).toHaveBeenCalled();
+    });
+
+    it('should handle city not found', () => {
+      const cities: City[] = [];
+      const projection = (lat: number, lon: number) => ({ x: 0, y: 0 });
+
+      spyOn(console, 'log');
+
+      service.debugCityVisibility('NonExistent', cities, 5, projection);
+
+      expect(console.log).toHaveBeenCalledWith('[CityVisibility Debug] City not found: NonExistent');
+    });
+  });
+});
+
+// Helper functions
+
+function createTestCities(count: number): City[] {
+  const cities: City[] = [];
+  for (let i = 0; i < count; i++) {
+    cities.push({
+      id: `city-${i}`,
+      name: `City ${String.fromCharCode(65 + (i % 26))}${i}`,
+      lat: 48.0 + ((i % 10) * 0.1),
+      lon: 2.0 + (Math.floor(i / 10) * 0.1),
+      population: 1000 + i * 1000
+    });
+  }
+  return cities;
+}
+
+function createGridTestCities(rows: number, cols: number): City[] {
+  const cities: City[] = [];
+  for (let r = 0; r < rows; r++) {
+    for (let c = 0; c < cols; c++) {
+      cities.push({
+        id: `city-${r}-${c}`,
+        name: `City ${r},${c}`,
+        lat: 48.0 + r * 0.05,
+        lon: 2.0 + c * 0.05,
+        population: 10000 + r * 1000 + c * 100
+      });
+    }
+  }
+  return cities;
+}
+
+function createTestInput(cities: City[], zoom: number): ComputeVisibleCitiesInput {
+  return {
+    cities,
+    zoom,
+    viewport: {
+      west: 1.5,
+      south: 47.5,
+      east: 3.5,
+      north: 49.5
+    },
+    projection: (lat: number, lon: number) => ({
+      x: (lon - 2.0) * 1000,
+      y: (lat - 48.0) * 1000
+    }),
+    tierState: {
+      currentTierId: null,
+      lastTransitionTime: 0
+    },
+    visibilityState: null
+  };
+}
