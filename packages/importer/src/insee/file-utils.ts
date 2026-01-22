@@ -32,7 +32,7 @@ async function downloadFile(url: string, destination: string): Promise<void> {
     throw new Error("Download failed: empty response body");
   }
 
-  await pipeline(Readable.fromWeb(response.body), fs.createWriteStream(destination));
+  await pipeline(Readable.fromWeb(response.body as any), fs.createWriteStream(destination));
 }
 
 export async function resolveSourceFile(source: string, force: boolean): Promise<string> {

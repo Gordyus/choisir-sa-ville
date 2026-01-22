@@ -1,5 +1,5 @@
-import type { Db } from "@csv/db";
-import { sql } from "kysely";
+import type { Db } from "@choisir-sa-ville/db";
+import { sql, type OnConflictBuilder, type ExpressionBuilder } from "kysely";
 import type {
   CommuneInsert,
   DepartmentInsert,
@@ -23,8 +23,8 @@ export async function flushRegionBatch(
   await db
     .insertInto("region")
     .values(values)
-    .onConflict((oc) =>
-      oc.column("code").doUpdateSet((eb) => ({
+    .onConflict((oc: OnConflictBuilder<any, any>) =>
+      oc.column("code").doUpdateSet((eb: ExpressionBuilder<any, any>) => ({
         name: eb.ref("excluded.name"),
         updatedAt: sql`now()`
       }))
@@ -50,8 +50,8 @@ export async function flushDepartmentBatch(
   await db
     .insertInto("department")
     .values(values)
-    .onConflict((oc) =>
-      oc.column("code").doUpdateSet((eb) => ({
+    .onConflict((oc: OnConflictBuilder<any, any>) =>
+      oc.column("code").doUpdateSet((eb: ExpressionBuilder<any, any>) => ({
         name: eb.ref("excluded.name"),
         regionCode: eb.ref("excluded.regionCode"),
         updatedAt: sql`now()`
@@ -78,8 +78,8 @@ export async function flushCommuneBatch(
   await db
     .insertInto("commune")
     .values(values)
-    .onConflict((oc) =>
-      oc.column("inseeCode").doUpdateSet((eb) => ({
+    .onConflict((oc: OnConflictBuilder<any, any>) =>
+      oc.column("inseeCode").doUpdateSet((eb: ExpressionBuilder<any, any>) => ({
         name: eb.ref("excluded.name"),
         slug: eb.ref("excluded.slug"),
         population: eb.ref("excluded.population"),
@@ -111,8 +111,8 @@ export async function flushInfraBatch(
   await db
     .insertInto("infra_zone")
     .values(values)
-    .onConflict((oc) =>
-      oc.columns(["type", "code"]).doUpdateSet((eb) => ({
+    .onConflict((oc: OnConflictBuilder<any, any>) =>
+      oc.columns(["type", "code"]).doUpdateSet((eb: ExpressionBuilder<any, any>) => ({
         parentCommuneCode: eb.ref("excluded.parentCommuneCode"),
         name: eb.ref("excluded.name"),
         slug: eb.ref("excluded.slug"),

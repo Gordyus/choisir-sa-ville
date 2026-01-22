@@ -1,5 +1,5 @@
 import { parse } from "csv-parse";
-import type { Db } from "@csv/db";
+import type { Db } from "@choisir-sa-ville/db";
 import {
   COMMUNE_KEYS,
   DEFAULT_LOG_EVERY,
@@ -125,18 +125,18 @@ export async function importPostalCodes(
 
       const rawCommune = communeKey ? normalized[communeKey] : undefined;
       if (!rawCommune) {
-        skipped.missing_commune += 1;
+        skipped.missing_commune = (skipped.missing_commune ?? 0) + 1;
         continue;
       }
 
       const communeCode = normalizeCommuneCode(rawCommune);
       if (!communeCode) {
-        skipped.invalid_commune += 1;
+        skipped.invalid_commune = (skipped.invalid_commune ?? 0) + 1;
         continue;
       }
 
       if (communeCodes && !communeCodes.has(communeCode)) {
-        skipped.unknown_commune += 1;
+        skipped.unknown_commune = (skipped.unknown_commune ?? 0) + 1;
         continue;
       }
 
@@ -164,7 +164,7 @@ export async function importPostalCodes(
 
       const rawPostal = postalKey ? normalized[postalKey] : undefined;
       if (!rawPostal) {
-        skipped.missing_postal += 1;
+        skipped.missing_postal = (skipped.missing_postal ?? 0) + 1;
         continue;
       }
 
@@ -174,7 +174,7 @@ export async function importPostalCodes(
       for (const postalValue of postalValues) {
         const postalCode = normalizePostalCode(postalValue);
         if (!postalCode) {
-          skipped.invalid_postal += 1;
+          skipped.invalid_postal = (skipped.invalid_postal ?? 0) + 1;
           continue;
         }
 

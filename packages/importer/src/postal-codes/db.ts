@@ -1,5 +1,5 @@
-import type { Db, Database } from "@csv/db";
-import { sql, type Insertable } from "kysely";
+import type { Db, Database } from "@choisir-sa-ville/db";
+import { sql, type OnConflictBuilder, type ExpressionBuilder, type Insertable } from "kysely";
 
 type CommunePostalCodeInsert = Insertable<Database["commune_postal_code"]>;
 
@@ -35,7 +35,7 @@ export async function flushPostalBatch(
   const result = await db
     .insertInto("commune_postal_code")
     .values(values)
-    .onConflict((oc) => oc.columns(["communeCode", "postalCode"]).doNothing())
+    .onConflict((oc: OnConflictBuilder<any, any>) => oc.columns(["communeCode", "postalCode"]).doNothing())
     .execute();
 
   let inserted: number | undefined;
@@ -48,7 +48,7 @@ export async function flushPostalBatch(
     }
   }
 
-  return { attempted: values.length, inserted };
+  return { attempted: values.length, inserted: inserted ?? 0 };
 }
 
 type CoordinateAggregate = {
@@ -78,7 +78,7 @@ export async function updateCommuneCoordinates(
         updatedAt: sql`now()`
       })
       .where("inseeCode", "=", communeCode)
-      .where((eb) => eb.or([eb("lat", "is", null), eb("lon", "is", null)]))
+      .where((eb: ExpressionBuilder<any, any>) => eb.or([eb("lat", "is", null), eb("lon", "is", null)]))
       .executeTakeFirst();
 
     const count = result?.numUpdatedRows ? Number(result.numUpdatedRows) : 0;

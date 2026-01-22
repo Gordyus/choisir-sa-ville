@@ -1,4 +1,4 @@
-import type { Database } from "@csv/db";
+import type { Database } from "@choisir-sa-ville/db";
 import type { Insertable } from "kysely";
 
 export type InfraZoneType = "ARM" | "COMD" | "COMA";

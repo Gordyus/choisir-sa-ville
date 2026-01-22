@@ -6,6 +6,8 @@ Tout agent (humain ou IA) doit s’y conformer strictement.
 
 ---
 
+In case of conflict, specs/*override docs/*
+
 ## 1. Architecture générale
 
 - Monorepo PNPM obligatoire

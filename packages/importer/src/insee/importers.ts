@@ -1,5 +1,5 @@
 import { parse } from "csv-parse";
-import type { Db } from "@csv/db";
+import type { Db } from "@choisir-sa-ville/db";
 import { BATCH_SIZE, LOG_EVERY } from "./constants.js";
 import {
   flushCommuneBatch,

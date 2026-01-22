@@ -1,4 +1,4 @@
-import { createDb } from "@csv/db";
+import { createDb } from "@choisir-sa-ville/db";
 import dotenv from "dotenv";
 import path from "node:path";
 import { importPostalCodes } from "../postal-codes/importer.js";
@@ -71,7 +71,7 @@ async function executeImport(options: ImportOptions): Promise<void> {
         sourcePath: postalPath,
         delimiter: postalDelimiter,
         dryRun: options.dryRun,
-        limit: options.postalLimit
+        ...(options.postalLimit !== undefined && { limit: options.postalLimit })
       });
     }
   } finally {
