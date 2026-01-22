@@ -1,16 +1,16 @@
 {
     "name": "choisir-sa-ville",
-    "version": "0.0.1",
     "private": true,
-    "packageManager": "pnpm@9.15.0",
+    "packageManager": "pnpm@9",
     "engines": {
-        "node": ">=20.0.0"
+        "node": ">=20"
     },
     "scripts": {
         "build": "pnpm -r build",
         "typecheck": "pnpm -r typecheck",
         "lint": "pnpm -r lint",
-        "test": "pnpm -r test"
+        "test": "pnpm -r test",
+        "format": "echo \"no formatter yet\""
     },
     "devDependencies": {
         "typescript": "^5.7.2"
