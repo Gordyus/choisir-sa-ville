@@ -3,20 +3,21 @@ import dotenv from "dotenv";
 import path from "node:path";
 import { importPostalCodes } from "../postal-codes/importer.js";
 import { parseArgs } from "./cli.js";
+import { DEFAULT_OFFLINE_COORDS_PATH } from "./constants.js";
 import { detectDelimiter } from "./csv-utils.js";
+import { resolveSourceFile } from "./file-utils.js";
 import {
   buildChildCoordinateIndex,
   buildOfflineCoordinateIndex,
   buildPostalCoordinateIndex
 } from "./geo-derivation.js";
-import { DEFAULT_OFFLINE_COORDS_PATH } from "./constants.js";
-import { resolveSourceFile } from "./file-utils.js";
 import {
+  assertMandatoryArrondissements,
+  importCommunePopulationsReference,
   importCommunes,
   importDepartments,
   importInfraZones,
-  importRegions,
-  assertMandatoryArrondissements
+  importRegions
 } from "./importers.js";
 import type { ImportOptions, InfraZoneType } from "./types.js";
 
@@ -50,6 +51,16 @@ async function executeImport(options: ImportOptions): Promise<void> {
     postalDelimiter = await detectDelimiter(postalPath);
   }
 
+  let populationReferencePath: string | null = null;
+  let populationReferenceDelimiter: string | null = null;
+  if (!options.skipPopulationReference) {
+    populationReferencePath = await resolveSourceFile(
+      options.populationReferenceSource,
+      options.force
+    );
+    populationReferenceDelimiter = await detectDelimiter(populationReferencePath);
+  }
+
   const db = options.dryRun ? null : createDb(dbUrl);
 
   try {
@@ -68,7 +79,10 @@ async function executeImport(options: ImportOptions): Promise<void> {
     const offlineIndex =
       shouldImportCommunes && offlinePath
         ? await buildOfflineCoordinateIndex(offlinePath, offlineDelimiter)
-        : { coords: new Map(), presentCodes: new Set() };
+        : {
+          coords: new Map<string, { lat: number; lon: number; source: string }>(),
+          presentCodes: new Set<string>()
+        };
     const childIndex = shouldImportCommunes
       ? await buildChildCoordinateIndex(sourcePath, delimiter, offlineIndex.coords)
       : new Map();
@@ -76,12 +90,15 @@ async function executeImport(options: ImportOptions): Promise<void> {
       shouldImportCommunes && postalPath && postalDelimiter
         ? await buildPostalCoordinateIndex(postalPath, postalDelimiter)
         : {
-            strategy: "none",
-            coordsByInsee: new Map(),
-            presentCodes: new Set(),
-            coordsByName: new Map(),
-            nameStatus: new Map()
-          };
+          strategy: "none" as const,
+          coordsByInsee: new Map<string, { lat: number; lon: number }>(),
+          presentCodes: new Set<string>(),
+          coordsByName: new Map<string, { lat: number; lon: number }>(),
+          nameStatus: new Map<
+            string,
+            { status: "unique_with_coords" | "unique_without_coords" | "ambiguous" }
+          >()
+        };
 
     if (shouldImportCommunes) {
       await importCommunes(
@@ -92,6 +109,16 @@ async function executeImport(options: ImportOptions): Promise<void> {
         childIndex,
         postalIndex,
         offlineIndex
+      );
+    }
+
+    // Import reference populations only when communes are imported
+    if (shouldImportCommunes && populationReferencePath && populationReferenceDelimiter) {
+      await importCommunePopulationsReference(
+        db,
+        populationReferencePath,
+        populationReferenceDelimiter,
+        options
       );
     }
 

@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { mapToCommune } from "./mappers.js";
+import { mapToCommune, mapToCommunePopulationReference } from "./mappers.js";
 
 type MapCase = {
   code: string;
@@ -30,4 +30,50 @@ test("mapToCommune picks parent code from trailing numeric field", () => {
     assert.ok("row" in result, `Expected mapped row for ${entry.code}`);
     assert.equal(result.parentCode, entry.expectedParent);
   }
+});
+
+test("mapToCommunePopulationReference accepts CODGEO + PMUN", () => {
+  const record = {
+    CODGEO: "75056",
+    PMUN: "2165039"
+  } as Record<string, string>;
+
+  const result = mapToCommunePopulationReference(record);
+  assert.ok(!("skip" in result));
+  if ("skip" in result) return;
+  assert.equal(result.inseeCode, "75056");
+  assert.equal(result.population, 2165039);
+});
+
+test("mapToCommunePopulationReference accepts com + population_municipale", () => {
+  const record = {
+    com: "13055",
+    population_municipale: "870709"
+  } as Record<string, string>;
+
+  const result = mapToCommunePopulationReference(record);
+  assert.ok(!("skip" in result));
+  if ("skip" in result) return;
+  assert.equal(result.inseeCode, "13055");
+  assert.equal(result.population, 870709);
+});
+
+test("mapToCommunePopulationReference skips invalid when population missing", () => {
+  const record = {
+    CODGEO: "69123"
+  } as Record<string, string>;
+
+  const result = mapToCommunePopulationReference(record);
+  assert.ok("skip" in result);
+  assert.equal(result.skip, "invalid");
+});
+
+test("mapToCommunePopulationReference skips invalid when insee missing", () => {
+  const record = {
+    PMUN: "12345"
+  } as Record<string, string>;
+
+  const result = mapToCommunePopulationReference(record);
+  assert.ok("skip" in result);
+  assert.equal(result.skip, "invalid");
 });

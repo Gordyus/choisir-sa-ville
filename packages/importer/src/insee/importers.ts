@@ -1,20 +1,15 @@
-import { parse } from "csv-parse";
 import type { Db } from "@csv/db";
+import { parse } from "csv-parse";
 import { sql } from "kysely";
 import { BATCH_SIZE, LOG_EVERY } from "./constants.js";
+import { openCsvStream } from "./csv-utils.js";
 import {
   flushCommuneBatch,
+  flushCommunePopulationReferenceBatch,
   flushDepartmentBatch,
   flushInfraBatch,
   flushRegionBatch
 } from "./db.js";
-import { openCsvStream } from "./csv-utils.js";
-import {
-  mapToCommune,
-  mapToDepartment,
-  mapToInfraZone,
-  mapToRegion
-} from "./mappers.js";
 import type {
   ChildCoordinateIndex,
   OfflineCoordinateIndex,
@@ -25,6 +20,13 @@ import {
   lookupOfflineCoordinates,
   lookupPostalCoordinates
 } from "./geo-derivation.js";
+import {
+  mapToCommune,
+  mapToCommunePopulationReference,
+  mapToDepartment,
+  mapToInfraZone,
+  mapToRegion
+} from "./mappers.js";
 import type {
   CommuneInsert,
   DepartmentInsert,
@@ -469,4 +471,66 @@ export async function assertMandatoryArrondissements(
       )}. ${optionsInfo}`
     );
   }
+}
+
+export async function importCommunePopulationsReference(
+  db: Db | null,
+  sourcePath: string,
+  delimiter: string,
+  options: ImportOptions
+): Promise<void> {
+  const { stream, entryName } = await openCsvStream(sourcePath);
+  if (entryName) {
+    console.log(`Using CSV entry: ${entryName}`);
+  }
+
+  const parser = parse({
+    columns: true,
+    delimiter,
+    bom: true,
+    trim: true,
+    relax_column_count: true,
+    skip_empty_lines: true
+  });
+
+  stream.pipe(parser);
+
+  const batch = new Map<string, number>();
+  let seen = 0;
+  let selected = 0;
+  let skipped = 0;
+  let written = 0;
+
+  for await (const record of parser) {
+    seen += 1;
+    const mapped = mapToCommunePopulationReference(record as Record<string, string>);
+    if ("skip" in mapped) {
+      skipped += 1;
+      continue;
+    }
+
+    selected += 1;
+    batch.set(mapped.inseeCode, mapped.population);
+
+    if (batch.size >= BATCH_SIZE) {
+      written += await flushCommunePopulationReferenceBatch(db, batch, options.dryRun);
+    }
+
+    if (options.limit && selected >= options.limit) {
+      parser.destroy();
+      break;
+    }
+
+    if (seen % LOG_EVERY === 0) {
+      console.log(
+        `Population reference pass: ${seen} rows (selected ${selected}, written ${written}, skipped ${skipped})`
+      );
+    }
+  }
+
+  written += await flushCommunePopulationReferenceBatch(db, batch, options.dryRun);
+
+  console.log(
+    `Population reference pass done. Rows: ${seen}. Selected: ${selected}. Written: ${written}. Skipped: ${skipped}.`
+  );
 }

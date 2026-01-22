@@ -10,6 +10,9 @@ export type ImportOptions = {
   departmentSource: string;
   postalSource: string;
   skipPostal: boolean;
+  populationReferenceSource: string;
+  populationReferenceYear: number;
+  skipPopulationReference: boolean;
   force: boolean;
   limit?: number;
   postalLimit?: number;

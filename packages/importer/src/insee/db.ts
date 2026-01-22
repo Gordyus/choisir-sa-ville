@@ -125,3 +125,31 @@ export async function flushInfraBatch(
 
   return values.length;
 }
+
+export async function flushCommunePopulationReferenceBatch(
+  db: Db | null,
+  batch: Map<string, number>,
+  dryRun: boolean
+): Promise<number> {
+  if (batch.size === 0) return 0;
+
+  const entries = Array.from(batch.entries());
+  batch.clear();
+
+  if (dryRun) return entries.length;
+  if (!db) throw new Error("Database connection is not initialized.");
+
+  // Perform a single UPDATE using FROM (VALUES ...) for efficient batch updates
+  const valuesFragment = sql.join(
+    entries.map(([code, pop]) => sql`(${code}, ${pop})`),
+    sql`, `
+  );
+
+  await sql`UPDATE commune AS c
+            SET "population" = v."population"::int,
+                "updatedAt" = now()
+            FROM (VALUES ${valuesFragment}) AS v("inseeCode", "population")
+            WHERE c."inseeCode" = v."inseeCode"`.execute(db);
+
+  return entries.length;
+}

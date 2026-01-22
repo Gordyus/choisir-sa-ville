@@ -1,4 +1,3 @@
-import type { CommuneInsert, DepartmentInsert, InfraZoneInsert, RegionInsert } from "./types.js";
 import {
   communeSlug,
   infraZoneSlug,
@@ -10,6 +9,7 @@ import {
   parseNumber,
   pickValue
 } from "./normalize.js";
+import type { CommuneInsert, DepartmentInsert, InfraZoneInsert, RegionInsert } from "./types.js";
 
 type CommuneMapResult =
   | { row: CommuneInsert; parentCode: string | null }
@@ -161,4 +161,20 @@ export function mapToDepartment(record: Record<string, string>): DepartmentMapRe
   if (!code || !name) return { skip: "invalid" };
 
   return { row: { code, name: name.trim(), regionCode } };
+}
+
+export function mapToCommunePopulationReference(
+  record: Record<string, string>
+): { inseeCode: string; population: number } | { skip: "invalid" | "ignored" } {
+  const normalized = normalizeRecord(record);
+  const inseeCode = normalizeInseeCode(
+    pickValue(normalized, ["codgeo", "com", "insee_code", "code_insee"]) ?? undefined
+  );
+  const population = parseInteger(
+    pickValue(normalized, ["pmun", "pmun_2023", "population_municipale", "pml"]) ?? undefined
+  );
+
+  if (!inseeCode || population === null) return { skip: "invalid" };
+
+  return { inseeCode, population };
 }

@@ -1,5 +1,7 @@
 import {
   DEFAULT_DEPARTMENT_SOURCE_URL,
+  DEFAULT_POPULATION_REFERENCE_SOURCE_URL,
+  DEFAULT_POPULATION_REFERENCE_YEAR,
   DEFAULT_POSTAL_SOURCE_URL,
   DEFAULT_REGION_SOURCE_URL,
   DEFAULT_SOURCE_URL
@@ -15,6 +17,9 @@ Options:
   --department-source <url>   Override departments dataset URL
   --postal-source <url>       Override postal codes dataset URL
   --skip-postal               Skip postal codes import
+  --population-ref-source <url>  Override reference population dataset URL (ZIP)
+  --population-ref-year <year>   Override reference population year
+  --skip-population-ref       Skip reference population import
   --postal-limit <n>          Stop after N valid postal pairs
   --force                     Redownload source file
   --limit <n>                 Stop after N valid rows per phase
@@ -31,6 +36,9 @@ export function parseArgs(args: string[]): ImportOptions {
     departmentSource: DEFAULT_DEPARTMENT_SOURCE_URL,
     postalSource: DEFAULT_POSTAL_SOURCE_URL,
     skipPostal: false,
+    populationReferenceSource: DEFAULT_POPULATION_REFERENCE_SOURCE_URL,
+    populationReferenceYear: DEFAULT_POPULATION_REFERENCE_YEAR,
+    skipPopulationReference: false,
     force: false,
     dryRun: false,
     includeInfra: true
@@ -77,6 +85,38 @@ export function parseArgs(args: string[]): ImportOptions {
         i += 1;
       } else {
         options.skipPostal = true;
+      }
+      continue;
+    }
+    if (arg === "--population-ref-source") {
+      const value = args[i + 1];
+      if (!value) throw new Error("Missing value for --population-ref-source");
+      options.populationReferenceSource = value;
+      i += 1;
+      continue;
+    }
+    if (arg === "--population-ref-year") {
+      const value = args[i + 1];
+      if (!value) throw new Error("Missing value for --population-ref-year");
+      const parsed = Number(value);
+      if (!Number.isInteger(parsed) || parsed <= 0) {
+        throw new Error("Invalid --population-ref-year value");
+      }
+      options.populationReferenceYear = parsed;
+      i += 1;
+      continue;
+    }
+    if (arg === "--skip-population-ref") {
+      const value = args[i + 1];
+      if (value && !value.startsWith("--")) {
+        const normalized = value.toLowerCase();
+        if (normalized !== "true" && normalized !== "false") {
+          throw new Error("Invalid --skip-population-ref value (use true|false)");
+        }
+        options.skipPopulationReference = normalized === "true";
+        i += 1;
+      } else {
+        options.skipPopulationReference = true;
       }
       continue;
     }
