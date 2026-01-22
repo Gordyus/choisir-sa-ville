@@ -9,9 +9,12 @@ import {
   ViewChild
 } from "@angular/core";
 import L from "leaflet";
-import { MapDataService } from "../state/map-data.service";
-import { SelectionService } from "../../selection/selection.service";
 import type { Subscription } from "rxjs";
+import { Subject } from "rxjs";
+import { debounceTime } from "rxjs/operators";
+import { SearchSessionFacade } from "../../search/search-session.facade";
+import { SelectionService } from "../../selection/selection.service";
+import { MapDataService } from "../state/map-data.service";
 
 export type MapMarker = {
   id: string;
@@ -43,6 +46,9 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
   private pendingRoute: RouteLine | null = null;
   private panSubscription?: Subscription;
   private markerIndex = new Map<string, L.Marker>();
+  private mapMoveSubject = new Subject<void>();
+  private mapMoveSubscription?: Subscription;
+  private lastSearchBounds: L.LatLngBounds | null = null;
 
   private readonly handleViewport = (): void => {
     if (!this.map) return;
@@ -54,12 +60,16 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
       east: bounds.getEast(),
       zoom: this.map.getZoom()
     });
+
+    // Trigger debounced search on map movement
+    this.mapMoveSubject.next();
   };
 
   constructor(
+    private readonly session: SearchSessionFacade,
     private readonly mapData: MapDataService,
-    private readonly selection: SelectionService
-  ) {}
+    private readonly selection: SelectionService,
+  ) { }
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes["markers"]) {
@@ -74,6 +84,13 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
   }
 
   ngOnInit(): void {
+    // Setup debounced search trigger
+    this.mapMoveSubscription = this.mapMoveSubject
+      .pipe(debounceTime(200))
+      .subscribe(() => {
+        this.triggerSearchForCurrentBounds();
+      });
+
     void this.initMap().catch((error) => {
       console.error(error);
     });
@@ -87,6 +104,7 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
       this.map = null;
     }
     this.panSubscription?.unsubscribe();
+    this.mapMoveSubscription?.unsubscribe();
   }
 
   private async initMap(): Promise<void> {
@@ -219,5 +237,38 @@ export class MapComponent implements OnInit, OnDestroy, OnChanges {
       const isActive = id === this.highlightedId;
       marker.setIcon(this.markerIcon(isActive));
     }
+  }
+
+  private triggerSearchForCurrentBounds(): void {
+    if (!this.map) return;
+
+    const currentBounds = this.map.getBounds();
+
+    // Prevent duplicate searches for same bounds
+    if (this.lastSearchBounds && this.boundsAreEqual(currentBounds, this.lastSearchBounds)) {
+      return;
+    }
+
+    this.lastSearchBounds = currentBounds;
+
+    // Trigger search via MapDataService
+    this.mapData.updateViewport({
+      south: currentBounds.getSouth(),
+      west: currentBounds.getWest(),
+      north: currentBounds.getNorth(),
+      east: currentBounds.getEast(),
+      zoom: this.map.getZoom()
+    });
+    this.session.runSearch();
+  }
+
+  private boundsAreEqual(a: L.LatLngBounds, b: L.LatLngBounds): boolean {
+    const tolerance = 0.0001;
+    return (
+      Math.abs(a.getSouth() - b.getSouth()) < tolerance &&
+      Math.abs(a.getWest() - b.getWest()) < tolerance &&
+      Math.abs(a.getNorth() - b.getNorth()) < tolerance &&
+      Math.abs(a.getEast() - b.getEast()) < tolerance
+    );
   }
 }
