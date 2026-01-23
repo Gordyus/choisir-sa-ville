@@ -2,7 +2,7 @@ import type { Migration, MigrationProvider } from "kysely";
 import { Migrator } from "kysely";
 import { promises as fs } from "node:fs";
 import path from "node:path";
-import { pathToFileURL } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import type { Db } from "./db.js";
 
 // ESM-safe migration provider (Windows-safe)
@@ -12,9 +12,7 @@ class ESMFileMigrationProvider implements MigrationProvider {
   async getMigrations(): Promise<Record<string, Migration>> {
     const entries = await fs.readdir(this.migrationFolder);
 
-    const migrationFiles = entries
-      .filter((f) => f.endsWith(".ts") || f.endsWith(".js"))
-      .sort();
+    const migrationFiles = entries.filter((f) => f.endsWith(".js")).sort();
 
     const migrations: Record<string, Migration> = {};
 
@@ -36,7 +34,8 @@ class ESMFileMigrationProvider implements MigrationProvider {
 }
 
 export function createMigrator(db: Db) {
-  const migrationFolder = path.join(process.cwd(), "migrations");
+  const here = path.dirname(fileURLToPath(import.meta.url));
+  const migrationFolder = path.join(here, "../dist/migrations");
   return new Migrator({
     db,
     provider: new ESMFileMigrationProvider(migrationFolder)

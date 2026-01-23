@@ -1,8 +1,7 @@
 import type { Kysely } from "kysely";
 import { sql } from "kysely";
-import type { Database } from "../src/types.js";
 
-export async function up(db: Kysely<Database>): Promise<void> {
+export async function up(db: Kysely<any>): Promise<void> {
   await db.schema
     .createTable("cache_store")
     .addColumn("key", "text", (c) => c.notNull().primaryKey())
@@ -19,7 +18,7 @@ export async function up(db: Kysely<Database>): Promise<void> {
     .execute();
 }
 
-export async function down(db: Kysely<Database>): Promise<void> {
+export async function down(db: Kysely<any>): Promise<void> {
   await db.schema.dropIndex("cache_store_expires_idx").execute();
   await db.schema.dropTable("cache_store").execute();
 }

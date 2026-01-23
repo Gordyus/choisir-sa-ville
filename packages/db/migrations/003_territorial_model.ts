@@ -1,8 +1,7 @@
 import type { Kysely } from "kysely";
 import { sql } from "kysely";
-import type { Database } from "../src/types.js";
 
-export async function up(db: Kysely<Database>): Promise<void> {
+export async function up(db: Kysely<any>): Promise<void> {
   await db.schema
     .createTable("commune")
     .addColumn("inseeCode", "varchar(5)", (c) => c.notNull().primaryKey())
@@ -90,7 +89,7 @@ export async function up(db: Kysely<Database>): Promise<void> {
   await sql`CREATE VIEW city AS SELECT * FROM commune`.execute(db);
 }
 
-export async function down(db: Kysely<Database>): Promise<void> {
+export async function down(db: Kysely<any>): Promise<void> {
   await sql`DROP VIEW IF EXISTS city`.execute(db);
 
   await db.schema

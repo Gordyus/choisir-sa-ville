@@ -90,3 +90,4 @@ packages/db/migrations/*.js
 packages/db/migrations/*.d.ts
 packages/db/migrations/*.map
 packages/db/*.tsbuildinfo
+packages/db/dist/**

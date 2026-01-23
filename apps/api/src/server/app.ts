@@ -1,6 +1,7 @@
 import fastify, { type FastifyInstance } from "fastify";
 
 import { dbPlugin } from "../plugins/db.plugin.js";
+import { registerAreasSuggestRoutes } from "../routes/areas-suggest.routes.js";
 import { registerDbHealthRoutes } from "../routes/db-health.routes.js";
 import { registerHealthRoutes } from "../routes/health.routes.js";
 import { registerVersionRoutes } from "../routes/version.routes.js";
@@ -35,6 +36,7 @@ export const createApp = (config: ApiConfig): FastifyInstance => {
             registerHealthRoutes(api);
             registerVersionRoutes(api);
             registerDbHealthRoutes(api);
+            registerAreasSuggestRoutes(api);
         },
         { prefix: "/api" }
     );
