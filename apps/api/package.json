@@ -3,9 +3,10 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "dev": "node --watch --enable-source-maps dist/server/main.js",
+        "build:deps": "pnpm -w run build:deps",
+        "dev": "pnpm run build:deps && node --watch --enable-source-maps dist/server/main.js",
         "build": "tsc -p tsconfig.json",
-        "start": "node --enable-source-maps dist/server/main.js",
+        "start": "pnpm run build:deps && pnpm run build && node --enable-source-maps dist/server/main.js",
         "typecheck": "tsc -p tsconfig.json --noEmit",
         "test": "echo \"no tests yet\"",
         "lint": "echo \"no lint yet\""
@@ -13,7 +14,9 @@
     "dependencies": {
         "@choisir-sa-ville/core": "workspace:*",
         "@choisir-sa-ville/db": "workspace:*",
-        "fastify": "^5.2.2"
+        "fastify": "^5.2.2",
+        "fastify-plugin": "^5.0.0",
+        "kysely": "^0.27.4"
     },
     "devDependencies": {
         "@types/node": "^22.10.2",

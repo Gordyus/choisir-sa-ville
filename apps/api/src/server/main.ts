@@ -1,9 +1,13 @@
 import { createApp } from "./app.js";
-import { readConfig } from "./config.js";
+import { getConfig } from "./config.js";
 
 const startServer = async (): Promise<void> => {
-    const config = readConfig();
-    const app = createApp();
+    const config = getConfig();
+    const app = createApp(config);
+
+    console.log(
+        `DATABASE_URL configured: ${config.databaseUrl ? "true" : "false"}`
+    );
 
     try {
         await app.listen({

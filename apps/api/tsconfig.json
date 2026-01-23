@@ -5,11 +5,14 @@
         "rootDir": "src",
         "module": "NodeNext",
         "moduleResolution": "NodeNext",
+        "sourceMap": true,
+        "inlineSources": true,
         "types": [
             "node"
         ]
     },
     "include": [
-        "src/**/*.ts"
+        "src/**/*.ts",
+        "src/**/*.d.ts"
     ]
 }

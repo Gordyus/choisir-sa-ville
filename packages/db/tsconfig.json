@@ -1,8 +1,11 @@
 {
-  "extends": "../../tsconfig.base.json",
-  "compilerOptions": {
-    "types": ["node"],
-    "outDir": "dist"
-  },
-  "include": ["src/**/*.ts", "migrations/**/*.ts"]
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.lib.json"
+    },
+    {
+      "path": "./tsconfig.migrations.json"
+    }
+  ]
 }
