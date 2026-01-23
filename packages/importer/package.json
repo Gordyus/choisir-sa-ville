@@ -5,8 +5,8 @@
   "main": "src/import-insee.ts",
   "scripts": {
     "import:insee": "tsx src/import-insee.ts",
-    "build": "tsc -p tsconfig.json",
     "typecheck": "tsc -p tsconfig.json --noEmit",
+    "build": "tsc -p tsconfig.json --noEmit",
     "test": "echo \"no tests yet\"",
     "lint": "echo \"no lint yet\""
   },

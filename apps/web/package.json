@@ -1,18 +1,11 @@
 {
-    "name": "@choisir-sa-ville/web",
-    "version": "0.0.1",
+    "name": "web",
     "private": true,
     "type": "module",
     "scripts": {
-        "build": "tsc -p tsconfig.json --noEmit",
         "typecheck": "tsc -p tsconfig.json --noEmit",
+        "build": "tsc -p tsconfig.json --noEmit",
         "test": "echo \"no tests yet\"",
-        "lint": "echo \"no lint yet\"",
-        "dev": "echo \"dev server not configured yet\""
-    },
-    "dependencies": {},
-    "devDependencies": {
-        "@types/node": "^22.10.2",
-        "typescript": "^5.7.2"
+        "lint": "echo \"no lint yet\""
     }
 }

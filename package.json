@@ -1,7 +1,7 @@
 {
     "name": "choisir-sa-ville",
     "private": true,
-    "packageManager": "pnpm@9",
+    "packageManager": "pnpm@10.28.0",
     "engines": {
         "node": ">=20"
     },
@@ -9,10 +9,14 @@
         "build": "pnpm -r build",
         "typecheck": "pnpm -r typecheck",
         "lint": "pnpm -r lint",
+        "lint:eslint": "eslint . --max-warnings=0",
         "test": "pnpm -r test",
         "format": "echo \"no formatter yet\""
     },
     "devDependencies": {
+        "@eslint/js": "^9.18.0",
+        "eslint": "^9.18.0",
+        "typescript-eslint": "^8.22.0",
         "typescript": "^5.7.2"
     }
 }

@@ -1,16 +1,26 @@
-/**
- * API configuration placeholder
- * Environment variables and settings will be added later
- */
-
-export interface AppConfig {
+export type ApiConfig = {
+    host: string;
     port: number;
-    env: 'development' | 'production' | 'test';
-}
+    nodeEnv: string;
+};
 
-export function loadConfig(): AppConfig {
+const defaultPort = 3000;
+const defaultHost = "0.0.0.0";
+const defaultNodeEnv = "development";
+
+const parsePort = (value: string | undefined): number => {
+    if (!value) {
+        return defaultPort;
+    }
+
+    const parsed = Number.parseInt(value, 10);
+    return Number.isFinite(parsed) ? parsed : defaultPort;
+};
+
+export const readConfig = (): ApiConfig => {
     return {
-        port: 3000,
-        env: 'development',
+        host: process.env.HOST ?? defaultHost,
+        port: parsePort(process.env.PORT),
+        nodeEnv: process.env.NODE_ENV ?? defaultNodeEnv
     };
-}
+};

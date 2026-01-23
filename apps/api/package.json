@@ -1,17 +1,20 @@
 {
-    "name": "@choisir-sa-ville/api",
-    "version": "0.0.1",
+    "name": "api",
     "private": true,
     "type": "module",
-    "main": "./dist/server/main.js",
     "scripts": {
-        "build": "tsc -p tsconfig.json --noEmit",
+        "dev": "node --watch --enable-source-maps dist/server/main.js",
+        "build": "tsc -p tsconfig.json",
+        "start": "node --enable-source-maps dist/server/main.js",
         "typecheck": "tsc -p tsconfig.json --noEmit",
         "test": "echo \"no tests yet\"",
-        "lint": "echo \"no lint yet\"",
-        "dev": "echo \"dev server not configured yet\""
+        "lint": "echo \"no lint yet\""
     },
-    "dependencies": {},
+    "dependencies": {
+        "@choisir-sa-ville/core": "workspace:*",
+        "@choisir-sa-ville/db": "workspace:*",
+        "fastify": "^5.2.2"
+    },
     "devDependencies": {
         "@types/node": "^22.10.2",
         "typescript": "^5.7.2"

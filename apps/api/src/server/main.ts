@@ -1,16 +1,21 @@
-/**
- * API entry point placeholder
- * Server startup logic will be added later
- */
+import { createApp } from "./app.js";
+import { readConfig } from "./config.js";
 
-import { createApp } from './app.js';
-
-export function main() {
+const startServer = async (): Promise<void> => {
+    const config = readConfig();
     const app = createApp();
-    console.log(`${app.name} v${app.version} - ready for implementation`);
-}
 
-// Only run if this is the main module
-if (import.meta.url === `file://${process.argv[1]}`) {
-    main();
-}
+    try {
+        await app.listen({
+            host: config.host,
+            port: config.port
+        });
+
+        console.log(`API listening on http://${config.host}:${config.port}`);
+    } catch (error) {
+        console.error(error);
+        process.exit(1);
+    }
+};
+
+void startServer();

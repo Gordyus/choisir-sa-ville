@@ -4,10 +4,10 @@
   "type": "module",
   "main": "src/index.ts",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "lint": "eslint .",
+    "build": "tsc -p tsconfig.json --noEmit",
     "test": "echo \"no tests yet\"",
+    "lint": "echo \"no lint yet\"",
     "migrate": "tsx src/migrate.ts",
     "reset": "tsx src/reset.ts"
   },

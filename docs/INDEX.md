@@ -25,6 +25,9 @@ Ce dossier contient la documentation de référence du projet.
 - Règles de contribution & commits
   ../CONTRIBUTING.md
 
+- État de fondation (vérifications)
+  FOUNDATION_STATUS.md
+
 ---
 
 ## Architecture & contrats
