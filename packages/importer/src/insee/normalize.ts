@@ -1,22 +1,6 @@
 import type { InfraZoneType } from "./types.js";
 
-export function normalizeRecord(record: Record<string, string>): Record<string, string> {
-  const normalized: Record<string, string> = {};
-  for (const [key, value] of Object.entries(record)) {
-    normalized[key.trim().toLowerCase()] = typeof value === "string" ? value.trim() : value;
-  }
-  return normalized;
-}
-
-export function pickValue(record: Record<string, string>, keys: string[]): string | undefined {
-  for (const key of keys) {
-    const value = record[key];
-    if (value !== undefined && value !== null && value !== "") {
-      return value;
-    }
-  }
-  return undefined;
-}
+export { normalizeRecord, pickValue } from "../shared/record.js";
 
 export function normalizeCode(value: string | undefined): string | null {
   if (!value) return null;

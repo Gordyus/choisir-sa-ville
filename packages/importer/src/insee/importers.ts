@@ -7,7 +7,7 @@ import {
   flushInfraBatch,
   flushRegionBatch
 } from "./db.js";
-import { openCsvStream } from "./csv-utils.js";
+import { openCsvStream } from "../shared/csv.js";
 import {
   mapToCommune,
   mapToDepartment,

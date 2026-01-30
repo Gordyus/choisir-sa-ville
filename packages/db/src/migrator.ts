@@ -1,31 +1,39 @@
 import type { Migration, MigrationProvider } from "kysely";
-import { Migrator } from "kysely";
-import { promises as fs } from "node:fs";
+import { Migrator, sql } from "kysely";
+import { existsSync, promises as fs } from "node:fs";
 import path from "node:path";
-import { fileURLToPath, pathToFileURL } from "node:url";
+import { fileURLToPath } from "node:url";
 import type { Db } from "./db.js";
 
-// ESM-safe migration provider (Windows-safe)
-class ESMFileMigrationProvider implements MigrationProvider {
-  public constructor(private readonly migrationFolder: string) { }
+class SqlFileMigrationProvider implements MigrationProvider {
+  public constructor(private readonly migrationFolder: string) {}
 
   async getMigrations(): Promise<Record<string, Migration>> {
     const entries = await fs.readdir(this.migrationFolder);
 
-    const migrationFiles = entries.filter((f) => f.endsWith(".js")).sort();
+    const migrationFiles = entries.filter((f) => f.endsWith(".sql") && !f.endsWith(".down.sql")).sort();
 
     const migrations: Record<string, Migration> = {};
 
     for (const fileName of migrationFiles) {
       const fullPath = path.join(this.migrationFolder, fileName);
+      const downPath = fullPath.replace(/\.sql$/i, ".down.sql");
 
-      // IMPORTANT: convert Windows absolute path to file:// URL
-      const moduleUrl = pathToFileURL(fullPath).href;
-
-      const mod = await import(moduleUrl);
       migrations[fileName] = {
-        up: mod.up,
-        down: mod.down
+        up: async (db) => {
+          const sqlText = await fs.readFile(fullPath, "utf8");
+          await sql.raw(sqlText).execute(db);
+        },
+        down: async (db) => {
+          try {
+            const downSql = await fs.readFile(downPath, "utf8");
+            await sql.raw(downSql).execute(db);
+          } catch (error) {
+            const code = (error as { code?: string } | null)?.code;
+            if (code === "ENOENT") return;
+            throw error;
+          }
+        }
       };
     }
 
@@ -35,9 +43,13 @@ class ESMFileMigrationProvider implements MigrationProvider {
 
 export function createMigrator(db: Db) {
   const here = path.dirname(fileURLToPath(import.meta.url));
-  const migrationFolder = path.join(here, "../dist/migrations");
+  const distFolder = path.join(here, "../dist/migrations");
+  const sourceFolder = path.join(here, "../migrations");
+
+  const migrationFolder = existsSync(distFolder) ? distFolder : sourceFolder;
+
   return new Migrator({
     db,
-    provider: new ESMFileMigrationProvider(migrationFolder)
+    provider: new SqlFileMigrationProvider(migrationFolder)
   });
 }

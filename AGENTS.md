@@ -16,7 +16,7 @@ In case of conflict, specs/*override docs/*
 apps/
   api/                        # Adaptateur HTTP uniquement (Fastify)
     CODEX_API_GUIDELINES.md   # Contient les règles de développement à appliquer
-  web/                        # Frontend Angular 20.x (LTS)
+  web/                        # Frontend Next.js + Tailwind + shadcn/ui
     CODEX_WEB_GUIDELINES.md   # Contient les règles de développement à appliquer
 
 packages/
@@ -63,37 +63,33 @@ Interdits :
 
 ### Framework
 
-- `apps/web` est une application **Angular 20.x (LTS)**
-- Angular 20.x est un **choix figé et non négociable pour le MVP**
+- `apps/web` est une application **Next.js** (React) avec **Tailwind CSS** + **shadcn/ui**
 
 Interdits :
 
-- React
 - Vue
 - Svelte
-- Next / Nuxt
-- Tout pattern inspiré de React (hooks, state implicite, etc.)
+- Nuxt (le frontend est Next.js)
 
-### Règles Angular
+### Règles frontend (générales)
 
-- Architecture Angular classique :
-  - components + services
-  - dependency injection
-  - RxJS pour gestion asynchrone
-- Pas de logique métier lourde dans les composants
+- Pas de logique métier lourde dans les composants UI
+- Éviter le coupling UI ↔ infra : typage explicite, séparation components / services (fetchers) / mapping
+- Requêtes réseau :
+  - debounced côté UI quand nécessaire
+  - requêtes annulées si obsolètes (AbortController)
+  - aucun spam réseau autorisé
 
-### Carte & Leaflet
+### Carte & Leaflet / OSM (NON NÉGOCIABLE)
 
-- Initialisation de la carte :
-  - une seule fois (`ngOnInit`)
-  - destruction propre (`ngOnDestroy`)
+- Initialisation de la carte : une seule fois (montage)
+- Destruction propre : remove/unsubscribe à l’unmount
 - Événements carte :
   - uniquement `moveend` et `zoomend`
   - jamais `move`
-- Appels API :
-  - debounced (RxJS)
-  - requêtes annulées si obsolètes (`switchMap`)
-  - aucun spam réseau autorisé
+- Chargements basés viewport :
+  - debounce + annulation
+  - déduplication des requêtes identiques
 
 Objectif : stabilité, performance, comportement prévisible.
 

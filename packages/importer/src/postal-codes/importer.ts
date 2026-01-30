@@ -8,7 +8,8 @@ import {
   POSTAL_BATCH_SIZE,
   POSTAL_KEYS
 } from "./constants.js";
-import { detectDelimiter, normalizeRecord, openCsvStream, resolveColumn } from "./csv-utils.js";
+import { detectDelimiter, openCsvStream } from "../shared/csv.js";
+import { normalizeRecord, resolveColumn } from "../shared/record.js";
 import {
   loadCommuneState,
   flushPostalBatch,

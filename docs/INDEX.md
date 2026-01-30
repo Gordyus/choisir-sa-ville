@@ -8,7 +8,7 @@ Ce dossier contient la documentation de référence du projet.
 
 1. AGENTS.md (règles non négociables)
 2. LOCAL_DEV.md (environnement)
-3. DB_MODEL.md + DATA_CONTRACT.md
+3. DB_MODEL.md + GUIDES.md
 4. API_CONTRACT.md
 5. Specs selon le sujet
 
@@ -35,9 +35,6 @@ Ce dossier contient la documentation de référence du projet.
 - API – Contrat HTTP
   API_CONTRACT.md
 
-- Données – Contrat & formats
-  DATA_CONTRACT.md
-
 - Modèle de base de données
   DB_MODEL.md
 
@@ -45,24 +42,15 @@ Ce dossier contient la documentation de référence du projet.
 
 ## Données & pipeline
 
-- Stratégie de cache
-  CACHE_STRATEGY.md
-
 - Import INSEE
   IMPORT_INSEE.md
 
-- Pipeline d’imports
-  IMPORT_PIPELINE.md
-
 ---
 
-## Guides & workflows
+## Guides & workflows (consolidés)
 
-- Guides projet
-  PROJECT_GUIDES.md
-
-- Workflows de développement
-  WORKFLOWS.md
+- Guides (philosophie, règles, workflows, data, cache, imports, scoring)
+  GUIDES.md
 
 ---
 

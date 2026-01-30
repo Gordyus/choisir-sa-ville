@@ -2,8 +2,8 @@ import { createDb } from "@choisir-sa-ville/db";
 import dotenv from "dotenv";
 import path from "node:path";
 import { importPostalCodes } from "../postal-codes/importer.js";
+import { detectDelimiter } from "../shared/csv.js";
 import { parseArgs } from "./cli.js";
-import { detectDelimiter } from "./csv-utils.js";
 import { resolveSourceFile } from "./file-utils.js";
 import {
   importCommunes,

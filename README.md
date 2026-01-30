@@ -18,7 +18,7 @@ Ce dépôt est volontairement structuré pour :
 
 apps/
   api/        # API HTTP (Fastify) – adaptateur uniquement
-  web/        # Frontend web (Angular)
+  web/        # Frontend web (Next.js App Router)
 
 packages/
   core/       # Logique métier pure, agrégats, règles, schémas
@@ -32,7 +32,7 @@ tools/        # Outils batch / import (hors runtime)
 
 ## Prérequis
 
-- Node.js ≥ 18
+- Node.js ≥ 20
 - pnpm
 - Docker (pour Postgres en local)
 
@@ -54,9 +54,15 @@ docker compose up -d
 
 pnpm --filter api dev
 
-### Frontend
+### Frontend web (Next.js)
 
-pnpm --filter web dev
+```
+pnpm -C apps/web dev          # serveur de dev avec rechargement
+pnpm -C apps/web typecheck    # vérifie le typage strict
+pnpm -C apps/web lint         # lint React/TS
+pnpm -C apps/web build        # build de prod
+pnpm -C apps/web start        # serveur Next.js en mode prod
+```
 
 ---
 
