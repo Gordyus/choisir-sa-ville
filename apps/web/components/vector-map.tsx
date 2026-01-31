@@ -6,6 +6,15 @@ import maplibregl, { Map as MapLibreMap, NavigationControl } from "maplibre-gl";
 import { useEffect, useRef } from "react";
 
 import { loadAppConfig } from "@/lib/config/appConfig";
+import {
+    ensureCityHighlightLayer,
+    removeCityHighlightLayer,
+    setHoveredCity,
+    type CityHighlightHandle
+} from "@/lib/map/cityHighlightLayers";
+import { ensureCityInteractiveLayer } from "@/lib/map/cityInteractiveLayer";
+import { debugLogSymbolLabelHints } from "@/lib/map/interactiveLayers";
+import { attachCityInteractionService } from "@/lib/map/mapInteractionService";
 import { loadVectorMapStyle } from "@/lib/map/mapStyle";
 import { cn } from "@/lib/utils";
 
@@ -19,6 +28,10 @@ interface VectorMapProps {
 export default function VectorMap({ className }: VectorMapProps): JSX.Element {
     const containerRef = useRef<HTMLDivElement | null>(null);
     const mapRef = useRef<MapLibreMap | null>(null);
+    const detachInteractionsRef = useRef<(() => void) | null>(null);
+    const detachDebugRef = useRef<(() => void) | null>(null);
+    const selectedCityRef = useRef<string | null>(null);
+    const highlightHandleRef = useRef<CityHighlightHandle | null>(null);
 
     useEffect(() => {
         let disposed = false;
@@ -32,6 +45,9 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
             try {
                 const appConfig = await loadAppConfig(controller.signal);
                 const style = await loadVectorMapStyle(appConfig.mapTiles, controller.signal);
+                if (appConfig.debug.enabled && appConfig.debug.logStyleHints) {
+                    debugLogSymbolLabelHints(style);
+                }
                 if (disposed || !containerRef.current) {
                     return;
                 }
@@ -46,15 +62,58 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
                 });
 
                 mapRef.current = map;
+                if (appConfig.debug.enabled) {
+                    (map as unknown as { showTileBoundaries?: boolean }).showTileBoundaries =
+                        appConfig.debug.showTileBoundaries;
+                    (map as unknown as { showCollisionBoxes?: boolean }).showCollisionBoxes =
+                        appConfig.debug.showCollisionBoxes;
+                }
                 map.addControl(new NavigationControl({ visualizePitch: true }), "top-right");
                 map.addControl(new maplibregl.AttributionControl({ compact: true }), "bottom-right");
 
-                const handleViewportSettled = (): void => {
-                    /* placeholder: hook for future marker/overlay sync */
-                };
+                map.once("load", () => {
+                    if (appConfig.debug.enabled && appConfig.debug.logStyleHints) {
+                        logStyleLayerCatalog(map);
+                    }
 
-                map.on("moveend", handleViewportSettled);
-                map.on("zoomend", handleViewportSettled);
+                    const interactiveLayerHandle = ensureCityInteractiveLayer(map);
+                    if (!interactiveLayerHandle) {
+                        console.warn(
+                            "[vector-map] City interactive layer unavailable; pointer interactions will be disabled."
+                        );
+                    }
+                    const highlightHandle = ensureCityHighlightLayer(map, {
+                        logStyleHints: appConfig.debug.enabled && appConfig.debug.logStyleHints
+                    });
+                    highlightHandleRef.current = highlightHandle;
+                    if (!highlightHandle) {
+                        console.warn("[vector-map] City highlight layer unavailable; hover highlight disabled.");
+                    }
+                    detachInteractionsRef.current = attachCityInteractionService(map, (event) => {
+                        const handle = highlightHandleRef.current;
+                        switch (event.type) {
+                            case "hoverCity":
+                                if (handle) {
+                                    setHoveredCity(map, handle, event.city.id);
+                                }
+                                break;
+                            case "leaveCity":
+                                if (handle) {
+                                    setHoveredCity(map, handle, null);
+                                }
+                                break;
+                            case "clickCity":
+                                selectedCityRef.current = event.city.id;
+                                break;
+                        }
+                    }, {
+                        logHoverFeatures: appConfig.debug.enabled && appConfig.debug.logHoverFeatures
+                    });
+
+                    if (appConfig.debug.enabled && appConfig.debug.logHoverFeatures) {
+                        detachDebugRef.current = attachInteractiveLayerDebug(map);
+                    }
+                });
             } catch (error) {
                 if (!(error instanceof DOMException && error.name === "AbortError")) {
                     console.error("[vector-map] Failed to initialize MapLibre map", error);
@@ -67,7 +126,13 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
         return () => {
             disposed = true;
             controller.abort();
+            detachInteractionsRef.current?.();
+            detachInteractionsRef.current = null;
+            detachDebugRef.current?.();
+            detachDebugRef.current = null;
+            highlightHandleRef.current = null;
             if (mapRef.current) {
+                removeCityHighlightLayer(mapRef.current);
                 mapRef.current.remove();
                 mapRef.current = null;
             }
@@ -75,4 +140,63 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
     }, []);
 
     return <div ref={containerRef} className={cn("h-full w-full", className)} />;
+}
+
+function logStyleLayerCatalog(map: MapLibreMap): void {
+    const style = map.getStyle();
+    const layers = style?.layers ?? [];
+    // eslint-disable-next-line no-console
+    console.log("[map-debug] style layers", {
+        count: layers.length,
+        ids: layers.map((layer) => layer.id)
+    });
+
+    const symbolTextLayers = layers
+        .filter((layer) => layer.type === "symbol")
+        .map((layer) => {
+            const layout = (layer as { layout?: Record<string, unknown> }).layout;
+            const sourceLayer = (layer as { "source-layer"?: string })["source-layer"];
+            return {
+                id: layer.id,
+                source: (layer as { source?: unknown }).source,
+                sourceLayer: sourceLayer ?? null,
+                hasTextField: typeof layout?.["text-field"] !== "undefined"
+            };
+        })
+        .filter((layer) => layer.hasTextField);
+
+    // eslint-disable-next-line no-console
+    console.log("[map-debug] symbol text layers", symbolTextLayers);
+}
+
+function attachInteractiveLayerDebug(map: MapLibreMap): () => void {
+    const logSnapshot = (reason: string): void => {
+        if (!map.isStyleLoaded()) {
+            return;
+        }
+        const canvas = map.getCanvas();
+        const bbox: [[number, number], [number, number]] = [
+            [0, 0],
+            [canvas.width, canvas.height]
+        ];
+
+        const features = map.queryRenderedFeatures(bbox, { layers: ["city-label-interactive"] });
+        const sample = features.slice(0, 8).map((feature) => feature.properties ?? {});
+
+        // eslint-disable-next-line no-console
+        console.log("[map-debug] city-label-interactive snapshot", {
+            reason,
+            zoom: map.getZoom(),
+            featureCount: features.length,
+            sample
+        });
+    };
+
+    const handleZoomEnd = (): void => logSnapshot("zoomend");
+    logSnapshot("load");
+    map.on("zoomend", handleZoomEnd);
+
+    return () => {
+        map.off("zoomend", handleZoomEnd);
+    };
 }
