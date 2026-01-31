@@ -24,6 +24,8 @@ build/
 .cache/
 .tmp/
 .next/
+**/.next/
+apps/web/.next/
 
 
 # =========================
