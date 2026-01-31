@@ -1,0 +1,38 @@
+{
+  "datasetVersion": "v2026-01-30",
+  "createdAtUtc": "2026-01-30T22:42:18.961Z",
+  "schemaVersion": 1,
+  "files": [
+    "communes/indexLite.json",
+    "communes/metrics/core.json",
+    "communes/metrics/housing.json",
+    "communes/postalIndex.json"
+  ],
+  "sources": [
+    {
+      "url": "https://www.insee.fr/fr/statistiques/fichier/8377162/v_commune_2025.csv",
+      "retrievedAtUtc": "2026-01-30T21:57:54.228Z",
+      "checksumSha256": "3f8d2913fb0bdee1f72f54706854dc0cd626ed4089bd5761ec9292db0cb12e7e"
+    },
+    {
+      "url": "https://www.insee.fr/fr/statistiques/fichier/8377162/v_region_2025.csv",
+      "retrievedAtUtc": "2026-01-30T21:57:53.833Z",
+      "checksumSha256": "d903566d9c0d263389d279baea6761917b7460749a07bec8ba37dd8f2ff7d98a"
+    },
+    {
+      "url": "https://www.insee.fr/fr/statistiques/fichier/8377162/v_departement_2025.csv",
+      "retrievedAtUtc": "2026-01-30T21:57:53.833Z",
+      "checksumSha256": "513900ca23edc682ef9b912d7bfc317129eac3a7d71ff19bc22b40ea4838e6eb"
+    },
+    {
+      "url": "https://static.data.gouv.fr/resources/communes-de-france-base-des-codes-postaux/20241113-073516/20230823-communes-departement-region.csv",
+      "retrievedAtUtc": "2026-01-30T21:57:54.839Z",
+      "checksumSha256": "f0a723e2f0aa89d93d87b6a304c3ed4806211203d11f85a4d02fe860acddde03"
+    },
+    {
+      "url": "https://www.insee.fr/fr/statistiques/fichier/8680726/ensemble.zip",
+      "retrievedAtUtc": "2026-01-30T22:39:26.270Z",
+      "checksumSha256": "5174fc225398a4c072fb8bb5298b7ccf30c017834c7a4171f44787379d83b3f5"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "zoomRules": [
+    {
+      "maxZoom": 6,
+      "includeInfra": false,
+      "cellSize": 50,
+      "budget": 35,
+      "infraShare": 0
+    },
+    {
+      "maxZoom": 7,
+      "includeInfra": false,
+      "cellSize": 50,
+      "budget": 45,
+      "infraShare": 0
+    },
+    {
+      "maxZoom": 9,
+      "includeInfra": false,
+      "cellSize": 50,
+      "budget": 35,
+      "infraShare": 0
+    },
+    {
+      "maxZoom": 11,
+      "includeInfra": false,
+      "cellSize": 70,
+      "budget": 600,
+      "infraShare": 0
+    },
+    {
+      "maxZoom": 99,
+      "includeInfra": true,
+      "cellSize": 60,
+      "budget": 900,
+      "infraShare": 0.4
+    }
+  ]
+}
