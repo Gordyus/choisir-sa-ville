@@ -3,7 +3,7 @@ import VectorMap from "@/components/vector-map";
 
 export default function HomePage(): JSX.Element {
     return (
-        <section className="flex h-full w-full flex-1 flex-col gap-6 px-4 py-6 lg:flex-row">
+        <section className="flex h-full w-full flex-1 flex-col gap-2 px-1 py-1 lg:flex-row">
             <div className="flex w-full flex-1 flex-col lg:w-[60%]">
                 <div className="relative h-[320px] flex-1 rounded-3xl border border-brand/15 bg-white shadow-xl shadow-brand/5">
                     <VectorMap className="min-h-[320px] rounded-3xl" />

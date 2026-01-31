@@ -1,4 +1,4 @@
-import type { ExpressionSpecification, Map as MapLibreMap, SymbolLayerSpecification } from "maplibre-gl";
+import type { ExpressionSpecification, LegacyFilterSpecification, Map as MapLibreMap, SymbolLayerSpecification } from "maplibre-gl";
 
 import { CITY_LABEL_LAYERS } from "./interactiveLayers";
 
@@ -13,6 +13,7 @@ type ReferenceLayerContext = {
     source: string;
     sourceLayer: string;
     textField?: ExpressionSpecification;
+    baseFilter?: LegacyFilterSpecification;
 };
 
 export function ensureCityInteractiveLayer(map: MapLibreMap): { layerId: string } | null {
@@ -56,6 +57,7 @@ function findReferenceLayer(map: MapLibreMap): ReferenceLayerContext | null {
         }
         const layout = layer.layout as Record<string, unknown> | undefined;
         const textField = layout?.["text-field"] as ExpressionSpecification | undefined;
+        const baseFilter = (layer as { filter?: unknown }).filter as LegacyFilterSpecification | undefined;
         const context: ReferenceLayerContext = {
             layerId: layer.id,
             source: layer.source,
@@ -63,6 +65,9 @@ function findReferenceLayer(map: MapLibreMap): ReferenceLayerContext | null {
         };
         if (typeof textField !== "undefined") {
             context.textField = textField;
+        }
+        if (typeof baseFilter !== "undefined") {
+            context.baseFilter = baseFilter;
         }
         return context;
     }
@@ -101,6 +106,11 @@ function buildInteractiveLayer(context: ReferenceLayerContext): SymbolLayerSpeci
         "text-ignore-placement": true
     };
 
+    const fallbackFilter: LegacyFilterSpecification = [
+        "any",
+        ...NAME_FIELDS.map((field) => ["has", field] as unknown as LegacyFilterSpecification)
+    ];
+
     return {
         id: CITY_INTERACTIVE_LAYER_ID,
         type: "symbol",
@@ -111,6 +121,6 @@ function buildInteractiveLayer(context: ReferenceLayerContext): SymbolLayerSpeci
             "text-opacity": 0,
             "icon-opacity": 0
         },
-        filter: ["any", ...NAME_FIELDS.map((field) => ["has", field])] as unknown as ExpressionSpecification
+        filter: context.baseFilter ?? fallbackFilter
     };
 }

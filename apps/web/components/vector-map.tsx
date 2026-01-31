@@ -62,6 +62,8 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
                 });
 
                 mapRef.current = map;
+                if (process.env.NODE_ENV === "development")
+                    (window as any).__MAP__ = map
                 if (appConfig.debug.enabled) {
                     (map as unknown as { showTileBoundaries?: boolean }).showTileBoundaries =
                         appConfig.debug.showTileBoundaries;
@@ -145,7 +147,7 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
 function logStyleLayerCatalog(map: MapLibreMap): void {
     const style = map.getStyle();
     const layers = style?.layers ?? [];
-    // eslint-disable-next-line no-console
+
     console.log("[map-debug] style layers", {
         count: layers.length,
         ids: layers.map((layer) => layer.id)
@@ -165,7 +167,7 @@ function logStyleLayerCatalog(map: MapLibreMap): void {
         })
         .filter((layer) => layer.hasTextField);
 
-    // eslint-disable-next-line no-console
+
     console.log("[map-debug] symbol text layers", symbolTextLayers);
 }
 
@@ -183,7 +185,7 @@ function attachInteractiveLayerDebug(map: MapLibreMap): () => void {
         const features = map.queryRenderedFeatures(bbox, { layers: ["city-label-interactive"] });
         const sample = features.slice(0, 8).map((feature) => feature.properties ?? {});
 
-        // eslint-disable-next-line no-console
+
         console.log("[map-debug] city-label-interactive snapshot", {
             reason,
             zoom: map.getZoom(),

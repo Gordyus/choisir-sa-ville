@@ -1,4 +1,10 @@
-import type { ExpressionSpecification, MapGeoJSONFeature, Map as MapLibreMap, SymbolLayerSpecification } from "maplibre-gl";
+import type {
+    ExpressionSpecification,
+    LegacyFilterSpecification,
+    MapGeoJSONFeature,
+    Map as MapLibreMap,
+    SymbolLayerSpecification
+} from "maplibre-gl";
 
 import {
     CITY_ID_FALLBACK_FIELDS,
@@ -101,6 +107,7 @@ type LayerContext = {
     textField?: TextFieldValue;
     textFont?: TextFontValue;
     textSize?: TextSizeValue;
+    baseFilter?: LegacyFilterSpecification;
 };
 
 function resolveCityLayerContext(map: MapLibreMap): LayerContext | null {
@@ -116,6 +123,7 @@ function resolveCityLayerContext(map: MapLibreMap): LayerContext | null {
             const textField = layout?.["text-field"] as TextFieldValue | undefined;
             const textFont = layout?.["text-font"] as TextFontValue | undefined;
             const textSize = layout?.["text-size"] as TextSizeValue | undefined;
+            const baseFilter = (layer as { filter?: unknown }).filter as LegacyFilterSpecification | undefined;
 
             const context: LayerContext = {
                 layerId,
@@ -138,6 +146,9 @@ function resolveCityLayerContext(map: MapLibreMap): LayerContext | null {
             }
             if (typeof textSize !== "undefined") {
                 context.textSize = textSize;
+            }
+            if (typeof baseFilter !== "undefined") {
+                context.baseFilter = baseFilter;
             }
 
             return context;
@@ -201,7 +212,9 @@ function buildHighlightLayer(context: LayerContext, idField: string): SymbolLaye
             "text-halo-width": 2.5,
             "text-halo-blur": 0.4
         },
-        filter: createImpossibleFilter(idField)
+        filter: context.baseFilter
+            ? (["all", context.baseFilter, createImpossibleFilter(idField)] as unknown as LegacyFilterSpecification)
+            : createImpossibleFilter(idField)
     };
 
     if (context.sourceLayer) {
@@ -211,10 +224,27 @@ function buildHighlightLayer(context: LayerContext, idField: string): SymbolLaye
     return layer;
 }
 
-function createImpossibleFilter(idField: string): ExpressionSpecification {
-    return ["==", ["coalesce", ["get", idField], "__none__"], "__none__"];
+function createImpossibleFilter(idField: string): LegacyFilterSpecification {
+    // Never match: require the property to exist, then compare it to a sentinel value.
+    // This avoids accidentally matching features where the property is missing.
+    return ["all", ["has", idField], ["==", idField, "__never__"]];
 }
 
-function createMatchFilter(idField: string, cityId: string): ExpressionSpecification {
-    return ["==", ["coalesce", ["get", idField], "__none__"], cityId];
+function createMatchFilter(idField: string, cityId: string): LegacyFilterSpecification {
+    const numericId = parseNumericId(cityId);
+    const match: LegacyFilterSpecification =
+        numericId == null ? (["==", idField, cityId] as unknown as LegacyFilterSpecification) : (["any",
+              ["==", idField, cityId],
+              ["==", idField, numericId]
+          ] as unknown as LegacyFilterSpecification);
+
+    return ["all", ["has", idField], match];
+}
+
+function parseNumericId(value: string): number | null {
+    if (!/^[1-9]\\d*$/.test(value)) {
+        return null;
+    }
+    const asNumber = Number(value);
+    return Number.isFinite(asNumber) ? asNumber : null;
 }
