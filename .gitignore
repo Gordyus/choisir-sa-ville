@@ -23,14 +23,8 @@ build/
 .out/
 .cache/
 .tmp/
+.next/
 
-# =========================
-# Angular
-# =========================
-.angular/
-.angular/cache/
-.angular/workspace/
-coverage/
 
 # =========================
 # Environment variables
@@ -91,3 +85,7 @@ packages/db/migrations/*.d.ts
 packages/db/migrations/*.map
 packages/db/*.tsbuildinfo
 packages/db/dist/**
+
+# next.js
+/.next/
+/out/
