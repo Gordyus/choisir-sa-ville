@@ -1,9 +1,10 @@
-import type { ZoomRule } from "@/lib/config/mapMarkersConfig";
+import type { HysteresisConfig, WorldGridConfig, ZoomRule } from "@/lib/config/mapMarkersConfig";
 
 import type { CommunesIndexLite } from "./communesIndexLite";
 import type { InfraZonesIndexLite } from "./infraZonesIndexLite";
 import { pointToCellId } from "./grid";
 import { scoreCommune, scoreInfra } from "./markerScoring";
+import { latLngToTile, resolveTileZoom, tileCellId } from "./worldGrid";
 
 export type MarkerKind = "commune" | "infra";
 
@@ -31,6 +32,9 @@ export type MarkerSelectionInput = {
     bounds: Bounds;
     zoom: number;
     zoomRules: ZoomRule[];
+    worldGrid: WorldGridConfig;
+    hysteresis: HysteresisConfig;
+    previous?: MarkerSelectionResult | null;
     project: ProjectFn;
     mapSize: { width: number; height: number };
 };
@@ -51,9 +55,15 @@ export function selectMarkers(input: MarkerSelectionInput): MarkerSelectionResul
     const settings = resolveZoomSettings(input.zoom, input.zoomRules);
     const cellCandidates = new Map<string, MarkerCandidate>();
 
-    iterateCommunes(input, settings, cellCandidates);
+    const resolveCellId = createCellIdResolver(input, settings);
+
+    iterateCommunes(input, settings, resolveCellId, cellCandidates);
     if (settings.includeInfra) {
-        iterateInfra(input, settings, cellCandidates);
+        iterateInfra(input, settings, resolveCellId, cellCandidates);
+    }
+
+    if (input.hysteresis.enabled && input.previous) {
+        applyHysteresis(input, settings, resolveCellId, cellCandidates);
     }
 
     const sorted = Array.from(cellCandidates.values()).sort((a, b) => b.score - a.score);
@@ -104,6 +114,7 @@ function resolveZoomSettings(zoom: number, zoomRules: ZoomRule[]): ZoomSettings 
 function iterateCommunes(
     input: MarkerSelectionInput,
     settings: ZoomSettings,
+    resolveCellId: (lat: number, lng: number) => string,
     cellCandidates: Map<string, MarkerCandidate>
 ): void {
     const length = input.communes.insee.length;
@@ -125,13 +136,14 @@ function iterateCommunes(
             label,
             score: scoreCommune(population, input.zoom)
         };
-        considerCandidate(candidate, input.project, settings.cellSize, cellCandidates);
+        considerCandidate(candidate, resolveCellId, cellCandidates);
     }
 }
 
 function iterateInfra(
     input: MarkerSelectionInput,
     settings: ZoomSettings,
+    resolveCellId: (lat: number, lng: number) => string,
     cellCandidates: Map<string, MarkerCandidate>
 ): void {
     const length = input.infra.id.length;
@@ -153,21 +165,75 @@ function iterateInfra(
             label,
             score: scoreInfra(population, input.zoom)
         };
-        considerCandidate(candidate, input.project, settings.cellSize, cellCandidates);
+        considerCandidate(candidate, resolveCellId, cellCandidates);
     }
 }
 
 function considerCandidate(
     candidate: MarkerCandidate,
-    project: ProjectFn,
-    cellSize: number,
+    resolveCellId: (lat: number, lng: number) => string,
     cellCandidates: Map<string, MarkerCandidate>
 ): void {
-    const point = project(candidate.lat, candidate.lng);
-    const cellId = pointToCellId(point, cellSize);
+    const cellId = resolveCellId(candidate.lat, candidate.lng);
     const current = cellCandidates.get(cellId);
     if (!current || current.score < candidate.score) {
         cellCandidates.set(cellId, candidate);
+    }
+}
+
+function createCellIdResolver(input: MarkerSelectionInput, settings: ZoomSettings): (lat: number, lng: number) => string {
+    if (input.worldGrid.enabled) {
+        const z = resolveTileZoom(
+            input.zoom,
+            input.worldGrid.tileZoomOffset,
+            input.worldGrid.minTileZoom,
+            input.worldGrid.maxTileZoom
+        );
+        return (lat, lng) => tileCellId(latLngToTile(lat, lng, z));
+    }
+
+    const cellSize = settings.cellSize;
+    const project = input.project;
+    return (lat, lng) => {
+        const point = project(lat, lng);
+        return pointToCellId(point, cellSize);
+    };
+}
+
+function applyHysteresis(
+    input: MarkerSelectionInput,
+    settings: ZoomSettings,
+    resolveCellId: (lat: number, lng: number) => string,
+    cellCandidates: Map<string, MarkerCandidate>
+): void {
+    const previous = input.previous;
+    if (!previous) return;
+
+    const ratio = input.hysteresis.replaceRatio;
+
+    const previousCandidates: MarkerCandidate[] = [];
+    previousCandidates.push(...previous.communes);
+    if (settings.includeInfra) {
+        previousCandidates.push(...previous.infra);
+    }
+
+    for (const prev of previousCandidates) {
+        if (!isInsideBounds(prev.lat, prev.lng, input.bounds)) continue;
+        const cellId = resolveCellId(prev.lat, prev.lng);
+        const next = cellCandidates.get(cellId);
+
+        if (!next) {
+            cellCandidates.set(cellId, prev);
+            continue;
+        }
+
+        if (next.id === prev.id && next.type === prev.type) {
+            continue;
+        }
+
+        if (next.score < prev.score * ratio) {
+            cellCandidates.set(cellId, prev);
+        }
     }
 }
 
@@ -180,4 +246,3 @@ function isInsideBounds(lat: number, lng: number, bounds: Bounds): boolean {
     }
     return lng >= bounds.west || lng <= bounds.east;
 }
-

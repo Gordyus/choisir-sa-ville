@@ -1,7 +1,5 @@
 "use client";
 
-"use client";
-
 import { useCallback, useState } from "react";
 
 import DebugOverlay from "@/components/debug-overlay";
@@ -41,7 +39,7 @@ export default function HomePage(): JSX.Element {
                         onDebugChange={showDebug ? handleDebugChange : undefined}
                     />
                     {showDebug && debugState ? (
-                        <div className="pointer-events-none absolute left-3 bottom-3 z-400">
+                        <div className="pointer-events-none absolute bottom-3 left-3 z-[400]">
                             <DebugOverlay
                                 zoom={debugState.zoom}
                                 communesCount={debugState.communesCount}

@@ -29,11 +29,28 @@
       "infraShare": 0
     },
     {
+      "maxZoom": 12,
+      "includeInfra": true,
+      "cellSize": 70,
+      "budget": 1000,
+      "infraShare": 0
+    },
+    {
       "maxZoom": 99,
       "includeInfra": true,
       "cellSize": 60,
       "budget": 900,
       "infraShare": 0.4
     }
-  ]
+  ],
+  "worldGrid": {
+    "enabled": true,
+    "tileZoomOffset": 0,
+    "minTileZoom": 3,
+    "maxTileZoom": 20
+  },
+  "hysteresis": {
+    "enabled": true,
+    "replaceRatio": 1.15
+  }
 }

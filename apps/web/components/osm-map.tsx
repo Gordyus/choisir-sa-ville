@@ -8,7 +8,7 @@ import { loadAppConfig } from "@/lib/config/appConfig";
 import { loadCommunesIndexLite, type CommunesIndexLite } from "@/lib/map/communesIndexLite";
 import { loadInfraZonesIndexLite, type InfraZonesIndexLite } from "@/lib/map/infraZonesIndexLite";
 import { createLeafletMarkerLayer, type MarkerLayerHandle } from "@/lib/map/leafletMarkerLayer";
-import { selectMarkers, type Bounds } from "@/lib/map/markerSelection";
+import { selectMarkers, type Bounds, type MarkerSelectionResult } from "@/lib/map/markerSelection";
 import { cn } from "@/lib/utils";
 
 type PendingRequest = {
@@ -39,6 +39,7 @@ export default function OsmMap({ className, onDebugChange }: OsmMapProps): JSX.E
     const markerLayerRef = useRef<MarkerLayerHandle | null>(null);
     const pendingRef = useRef<PendingRequest>({ timer: null, controller: null, lastSignature: null });
     const lastDebugRef = useRef<DebugSnapshot | null>(null);
+    const previousSelectionRef = useRef<MarkerSelectionResult | null>(null);
 
     const runViewportUpdate = useCallback(async (signature: string, controller: AbortController): Promise<void> => {
         try {
@@ -57,6 +58,9 @@ export default function OsmMap({ className, onDebugChange }: OsmMapProps): JSX.E
                 infra: dataset.infra,
                 zoom: map.getZoom(),
                 zoomRules: appConfig.mapMarkers.zoomRules,
+                worldGrid: appConfig.mapMarkers.worldGrid,
+                hysteresis: appConfig.mapMarkers.hysteresis,
+                previous: previousSelectionRef.current,
                 bounds: toBounds(bounds),
                 project: (lat, lng) => {
                     const point = map.latLngToContainerPoint([lat, lng]);
@@ -74,6 +78,7 @@ export default function OsmMap({ className, onDebugChange }: OsmMapProps): JSX.E
             }
             markerLayerRef.current.updateMarkers(selection);
             pendingRef.current.lastSignature = signature;
+            previousSelectionRef.current = selection;
 
             if (onDebugChange) {
                 const nextDebug: DebugSnapshot = {
@@ -220,4 +225,3 @@ async function loadDatasetBundle(signal?: AbortSignal): Promise<DatasetBundle> {
     ]);
     return { communes, infra };
 }
-

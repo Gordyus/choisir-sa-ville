@@ -6,8 +6,22 @@ export type ZoomRule = {
     infraShare: number;
 };
 
+export type WorldGridConfig = {
+    enabled: boolean;
+    tileZoomOffset: number;
+    minTileZoom: number;
+    maxTileZoom: number;
+};
+
+export type HysteresisConfig = {
+    enabled: boolean;
+    replaceRatio: number;
+};
+
 export type MapMarkersConfig = {
     zoomRules: ZoomRule[];
+    worldGrid: WorldGridConfig;
+    hysteresis: HysteresisConfig;
 };
 
 const DEFAULT_CONFIG: MapMarkersConfig = {
@@ -16,7 +30,9 @@ const DEFAULT_CONFIG: MapMarkersConfig = {
         { maxZoom: 9, includeInfra: false, cellSize: 90, budget: 300, infraShare: 0 },
         { maxZoom: 11, includeInfra: false, cellSize: 70, budget: 600, infraShare: 0 },
         { maxZoom: 99, includeInfra: true, cellSize: 60, budget: 900, infraShare: 0.4 }
-    ]
+    ],
+    worldGrid: { enabled: true, tileZoomOffset: 0, minTileZoom: 4, maxTileZoom: 12 },
+    hysteresis: { enabled: true, replaceRatio: 1.15 }
 };
 
 let configPromise: Promise<MapMarkersConfig> | null = null;
@@ -60,7 +76,7 @@ async function resolveMapMarkersConfig(signal?: AbortSignal): Promise<MapMarkers
 
 function normalizeConfig(config: MapMarkersConfig): MapMarkersConfig {
     const sorted = [...config.zoomRules].sort((a, b) => a.maxZoom - b.maxZoom);
-    return { zoomRules: sorted };
+    return { ...config, zoomRules: sorted };
 }
 
 function parseMapMarkersConfig(value: unknown): MapMarkersConfig | null {
@@ -76,7 +92,10 @@ function parseMapMarkersConfig(value: unknown): MapMarkersConfig | null {
         rules.push(parsed);
     }
 
-    return { zoomRules: rules };
+    const worldGrid = parseWorldGridConfig(record.worldGrid) ?? DEFAULT_CONFIG.worldGrid;
+    const hysteresis = parseHysteresisConfig(record.hysteresis) ?? DEFAULT_CONFIG.hysteresis;
+
+    return { zoomRules: rules, worldGrid, hysteresis };
 }
 
 function parseZoomRule(value: unknown): ZoomRule | null {
@@ -98,6 +117,36 @@ function parseZoomRule(value: unknown): ZoomRule | null {
     return { maxZoom, includeInfra, cellSize, budget, infraShare };
 }
 
+function parseWorldGridConfig(value: unknown): WorldGridConfig | null {
+    if (!value || typeof value !== "object") return null;
+    const record = value as Record<string, unknown>;
+
+    const enabled = toBoolean(record.enabled);
+    const tileZoomOffset = toFiniteNumber(record.tileZoomOffset);
+    const minTileZoom = toFiniteNumber(record.minTileZoom);
+    const maxTileZoom = toFiniteNumber(record.maxTileZoom);
+
+    if (enabled == null || tileZoomOffset == null || minTileZoom == null || maxTileZoom == null) return null;
+    if (!Number.isInteger(tileZoomOffset)) return null;
+    if (!Number.isInteger(minTileZoom) || !Number.isInteger(maxTileZoom)) return null;
+    if (minTileZoom < 0 || maxTileZoom < 0) return null;
+    if (minTileZoom > maxTileZoom) return null;
+
+    return { enabled, tileZoomOffset, minTileZoom, maxTileZoom };
+}
+
+function parseHysteresisConfig(value: unknown): HysteresisConfig | null {
+    if (!value || typeof value !== "object") return null;
+    const record = value as Record<string, unknown>;
+
+    const enabled = toBoolean(record.enabled);
+    const replaceRatio = toFiniteNumber(record.replaceRatio);
+    if (enabled == null || replaceRatio == null) return null;
+    if (replaceRatio < 1) return null;
+
+    return { enabled, replaceRatio };
+}
+
 function toFiniteNumber(value: unknown): number | null {
     if (typeof value !== "number") return null;
     if (!Number.isFinite(value)) return null;
@@ -108,4 +157,3 @@ function toBoolean(value: unknown): boolean | null {
     if (typeof value !== "boolean") return null;
     return value;
 }
-
