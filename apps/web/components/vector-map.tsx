@@ -13,7 +13,7 @@ import {
     type CityHighlightHandle
 } from "@/lib/map/cityHighlightLayers";
 import { ensureCityInteractiveLayer } from "@/lib/map/cityInteractiveLayer";
-import { debugLogSymbolLabelHints } from "@/lib/map/interactiveLayers";
+import { debugLogSymbolLabelHints, type CityIdentity } from "@/lib/map/interactiveLayers";
 import { attachCityInteractionService } from "@/lib/map/mapInteractionService";
 import { loadVectorMapStyle } from "@/lib/map/mapStyle";
 import { cn } from "@/lib/utils";
@@ -23,9 +23,10 @@ const INITIAL_ZOOM = 5;
 
 interface VectorMapProps {
     className?: string;
+    onCityClick?: (city: CityIdentity) => void;
 }
 
-export default function VectorMap({ className }: VectorMapProps): JSX.Element {
+export default function VectorMap({ className, onCityClick }: VectorMapProps): JSX.Element {
     const containerRef = useRef<HTMLDivElement | null>(null);
     const mapRef = useRef<MapLibreMap | null>(null);
     const detachInteractionsRef = useRef<(() => void) | null>(null);
@@ -106,6 +107,7 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
                                 break;
                             case "clickCity":
                                 selectedCityRef.current = event.city.id;
+                                onCityClick?.(event.city);
                                 break;
                         }
                     }, {
