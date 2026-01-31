@@ -6,6 +6,7 @@ import maplibregl, { Map as MapLibreMap, NavigationControl } from "maplibre-gl";
 import { useEffect, useRef } from "react";
 
 import { loadAppConfig } from "@/lib/config/appConfig";
+import { loadVectorMapStyle } from "@/lib/map/mapStyle";
 import { cn } from "@/lib/utils";
 
 const INITIAL_CENTER: [number, number] = [2.2137, 46.2276];
@@ -30,13 +31,14 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
 
             try {
                 const appConfig = await loadAppConfig(controller.signal);
+                const style = await loadVectorMapStyle(appConfig.mapTiles, controller.signal);
                 if (disposed || !containerRef.current) {
                     return;
                 }
 
                 const map = new maplibregl.Map({
                     container: containerRef.current,
-                    style: appConfig.mapTiles.styleUrl,
+                    style,
                     center: INITIAL_CENTER,
                     zoom: INITIAL_ZOOM,
                     attributionControl: false,

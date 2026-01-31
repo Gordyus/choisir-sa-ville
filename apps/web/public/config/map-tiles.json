@@ -1,4 +1,8 @@
 {
     "vectorTilesBaseUrl": "http://localhost:8080/data/v3",
-    "styleUrl": "http://localhost:8080/styles/basic-preview/style.json"
+    "styleUrl": "http://localhost:8080/styles/basic-preview/style.json",
+    "tilesMetadataUrl": "http://localhost:8080/data/v3/tiles.json",
+    "excludeLayers": [
+        "housenumber"
+    ]
 }

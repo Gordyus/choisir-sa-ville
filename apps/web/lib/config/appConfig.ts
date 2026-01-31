@@ -1,8 +1,6 @@
-import { loadMapMarkersConfig, type MapMarkersConfig } from "./mapMarkersConfig";
 import { loadMapTilesConfig, type MapTilesConfig } from "./mapTilesConfig";
 
 export type AppConfig = {
-    mapMarkers: MapMarkersConfig;
     mapTiles: MapTilesConfig;
 };
 
@@ -19,10 +17,7 @@ export async function loadAppConfig(signal?: AbortSignal): Promise<AppConfig> {
 }
 
 async function resolveAppConfig(signal?: AbortSignal): Promise<AppConfig> {
-    const [mapMarkers, mapTiles] = await Promise.all([
-        loadMapMarkersConfig(signal),
-        loadMapTilesConfig(signal)
-    ]);
-    return { mapMarkers, mapTiles };
+    const mapTiles = await loadMapTilesConfig(signal);
+    return { mapTiles };
 }
 

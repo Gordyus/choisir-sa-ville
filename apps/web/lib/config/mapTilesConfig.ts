@@ -1,17 +1,24 @@
 export type MapTilesConfig = {
     vectorTilesBaseUrl: string;
     styleUrl: string;
+    tilesMetadataUrl?: string;
+    excludeLayers?: string[];
 };
 
 const DEFAULT_BASE_URL = "http://localhost:8080/data/v3";
 const DEFAULT_CONFIG: MapTilesConfig = {
     vectorTilesBaseUrl: DEFAULT_BASE_URL,
-    styleUrl: `${DEFAULT_BASE_URL}/style.json`
+    styleUrl: `${DEFAULT_BASE_URL}/style.json`,
+    tilesMetadataUrl: `${DEFAULT_BASE_URL}/tiles.json`,
+    excludeLayers: []
 };
 
 let tilesConfigPromise: Promise<MapTilesConfig> | null = null;
 
 export async function loadMapTilesConfig(signal?: AbortSignal): Promise<MapTilesConfig> {
+    if (process.env.NODE_ENV === "development") {
+        return resolveMapTilesConfig(signal);
+    }
     if (!tilesConfigPromise) {
         tilesConfigPromise = resolveMapTilesConfig(signal).catch((error) => {
             tilesConfigPromise = null;
@@ -25,7 +32,8 @@ async function resolveMapTilesConfig(signal?: AbortSignal): Promise<MapTilesConf
     const url = "/config/map-tiles.json";
 
     try {
-        const response = await fetch(url, { signal: signal ?? null, cache: "force-cache" });
+        const cache = process.env.NODE_ENV === "development" ? "no-store" : "force-cache";
+        const response = await fetch(url, { signal: signal ?? null, cache });
         if (!response.ok) {
             console.warn(`[config] ${url} missing (${response.status}). Using defaults.`);
             return DEFAULT_CONFIG;
@@ -51,7 +59,11 @@ async function resolveMapTilesConfig(signal?: AbortSignal): Promise<MapTilesConf
 function normalizeConfig(config: MapTilesConfig): MapTilesConfig {
     const vectorTilesBaseUrl = config.vectorTilesBaseUrl.replace(/\/$/, "");
     const styleUrl = config.styleUrl;
-    return { vectorTilesBaseUrl, styleUrl };
+    const tilesMetadataUrl = config.tilesMetadataUrl ?? `${vectorTilesBaseUrl}/tiles.json`;
+    const excludeLayers = dedupeStrings(config.excludeLayers ?? []);
+    return excludeLayers && excludeLayers.length
+        ? { vectorTilesBaseUrl, styleUrl, tilesMetadataUrl, excludeLayers }
+        : { vectorTilesBaseUrl, styleUrl, tilesMetadataUrl };
 }
 
 function parseMapTilesConfig(value: unknown): MapTilesConfig | null {
@@ -66,11 +78,33 @@ function parseMapTilesConfig(value: unknown): MapTilesConfig | null {
         return null;
     }
 
-    return { vectorTilesBaseUrl, styleUrl };
+    const tilesMetadataUrl = toNonEmptyString(record.tilesMetadataUrl) ?? `${vectorTilesBaseUrl}/tiles.json`;
+    const excludeLayers = toStringArray(record.excludeLayers);
+
+    return excludeLayers && excludeLayers.length
+        ? { vectorTilesBaseUrl, styleUrl, tilesMetadataUrl, excludeLayers }
+        : { vectorTilesBaseUrl, styleUrl, tilesMetadataUrl };
 }
 
 function toNonEmptyString(value: unknown): string | null {
     if (typeof value !== "string") return null;
     const trimmed = value.trim();
     return trimmed.length > 0 ? trimmed : null;
+}
+
+function toStringArray(value: unknown): string[] | undefined {
+    if (!Array.isArray(value)) {
+        return undefined;
+    }
+    const normalized = value
+        .map((entry) => toNonEmptyString(entry))
+        .filter((entry): entry is string => Boolean(entry));
+    return normalized.length > 0 ? normalized : undefined;
+}
+
+function dedupeStrings(values: string[]): string[] {
+    if (!values.length) {
+        return [];
+    }
+    return Array.from(new Set(values));
 }
