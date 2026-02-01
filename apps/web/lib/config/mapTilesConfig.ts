@@ -24,7 +24,7 @@ export type MapTilesConfig = {
     cityLabelStyle?: CityLabelStyleConfig;
 };
 
-const DEFAULT_BASE_URL = "http://localhost:8080/data/v3";
+const DEFAULT_BASE_URL = "http://localhost:8080/data/france";
 const DEFAULT_CITY_LABEL_LAYER_IDS = ["place_label_other", "place_label_city"];
 const DEFAULT_CONFIG: MapTilesConfig = {
     vectorTilesBaseUrl: DEFAULT_BASE_URL,

@@ -1,5 +1,5 @@
 {
-    "vectorTilesBaseUrl": "http://localhost:8080/data/v3",
+    "vectorTilesBaseUrl": "http://localhost:8080/data/",
     "styleUrl": "http://localhost:8080/styles/basic-preview/style.json",
     "tilesMetadataUrl": "http://localhost:8080/data/v3/tiles.json",
     "excludeLayers": [

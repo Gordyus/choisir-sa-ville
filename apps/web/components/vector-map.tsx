@@ -3,8 +3,9 @@
 import "maplibre-gl/dist/maplibre-gl.css";
 
 import maplibregl, { Map as MapLibreMap, NavigationControl } from "maplibre-gl";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
+import { MapDebugOverlay } from "@/components/map-debug-overlay";
 import { loadAppConfig, type AppConfig } from "@/lib/config/appConfig";
 import {
     ensureCityHighlightLayer,
@@ -36,6 +37,9 @@ export default function VectorMap({ className, onCityClick }: VectorMapProps): J
     const selectedCityRef = useRef<string | null>(null);
     const highlightHandleRef = useRef<CityHighlightHandle | null>(null);
     const interactiveLayerIdsRef = useRef<string[]>([]);
+    const debugZoomCleanupRef = useRef<(() => void) | null>(null);
+    const [debugZoom, setDebugZoom] = useState<number | null>(null);
+    const [debugOverlayEnabled, setDebugOverlayEnabled] = useState(false);
 
     useEffect(() => {
         let disposed = false;
@@ -58,6 +62,8 @@ export default function VectorMap({ className, onCityClick }: VectorMapProps): J
                     return;
                 }
 
+                setDebugOverlayEnabled(appConfig.debug.enabled ?? false);
+
                 const map = new maplibregl.Map({
                     container: containerRef.current,
                     style,
@@ -78,6 +84,15 @@ export default function VectorMap({ className, onCityClick }: VectorMapProps): J
                 }
                 map.addControl(new NavigationControl({ visualizePitch: true }), "top-right");
                 map.addControl(new maplibregl.AttributionControl({ compact: true }), "bottom-right");
+
+                const handleZoomChange = (): void => {
+                    setDebugZoom(Number(map.getZoom().toFixed(2)));
+                };
+                handleZoomChange();
+                map.on("zoomend", handleZoomChange);
+                debugZoomCleanupRef.current = () => {
+                    map.off("zoomend", handleZoomChange);
+                };
 
                 map.once("load", () => {
                     void setupInteractiveLayers(map, appConfig);
@@ -157,6 +172,10 @@ export default function VectorMap({ className, onCityClick }: VectorMapProps): J
             detachInteractionsRef.current = null;
             detachDebugRef.current?.();
             detachDebugRef.current = null;
+            debugZoomCleanupRef.current?.();
+            debugZoomCleanupRef.current = null;
+            setDebugZoom(null);
+            setDebugOverlayEnabled(false);
             highlightHandleRef.current = null;
             if (mapRef.current) {
                 removeCityHighlightLayer(mapRef.current);
@@ -166,7 +185,12 @@ export default function VectorMap({ className, onCityClick }: VectorMapProps): J
         };
     }, []);
 
-    return <div ref={containerRef} className={cn("h-full w-full", className)} />;
+    return (
+        <div className={cn("relative h-full w-full", className)}>
+            <div ref={containerRef} className="h-full w-full" />
+            {debugOverlayEnabled && <MapDebugOverlay zoom={debugZoom} />}
+        </div>
+    );
 }
 
 function logStyleLayerCatalog(map: MapLibreMap): void {
