@@ -1,16 +1,38 @@
+import type { ExpressionSpecification } from "maplibre-gl";
+
+export type CityLabelStyleConfig = {
+    textColor?: string;
+    hoverTextColor?: string;
+    selectedTextColor?: string;
+    textHaloColor?: string;
+    hoverTextHaloColor?: string;
+    selectedTextHaloColor?: string;
+    textHaloWidth?: number;
+    hoverTextHaloWidth?: number;
+    selectedTextHaloWidth?: number;
+    textFont?: string[];
+    textSize?: number | ExpressionSpecification;
+};
+
 export type MapTilesConfig = {
     vectorTilesBaseUrl: string;
     styleUrl: string;
     tilesMetadataUrl?: string;
     excludeLayers?: string[];
+    optionalSourceLayers?: string[];
+    cityLabelLayerIds?: string[];
+    cityLabelStyle?: CityLabelStyleConfig;
 };
 
 const DEFAULT_BASE_URL = "http://localhost:8080/data/v3";
+const DEFAULT_CITY_LABEL_LAYER_IDS = ["place_label_other", "place_label_city"];
 const DEFAULT_CONFIG: MapTilesConfig = {
     vectorTilesBaseUrl: DEFAULT_BASE_URL,
     styleUrl: `${DEFAULT_BASE_URL}/style.json`,
     tilesMetadataUrl: `${DEFAULT_BASE_URL}/tiles.json`,
-    excludeLayers: []
+    excludeLayers: [],
+    optionalSourceLayers: [],
+    cityLabelLayerIds: DEFAULT_CITY_LABEL_LAYER_IDS
 };
 
 let tilesConfigPromise: Promise<MapTilesConfig> | null = null;
@@ -61,13 +83,28 @@ function normalizeConfig(config: MapTilesConfig): MapTilesConfig {
     const styleUrl = config.styleUrl;
     const tilesMetadataUrl = config.tilesMetadataUrl ?? `${vectorTilesBaseUrl}/tiles.json`;
     const excludeLayers = dedupeStrings(config.excludeLayers ?? []);
-    return excludeLayers && excludeLayers.length
-        ? { vectorTilesBaseUrl, styleUrl, tilesMetadataUrl, excludeLayers }
-        : { vectorTilesBaseUrl, styleUrl, tilesMetadataUrl };
+    const optionalSourceLayers = dedupeStrings(config.optionalSourceLayers ?? []);
+    const cityLabelLayerIds = dedupeStrings(config.cityLabelLayerIds ?? DEFAULT_CITY_LABEL_LAYER_IDS);
+    const normalized: MapTilesConfig = { vectorTilesBaseUrl, styleUrl, tilesMetadataUrl };
+    if (excludeLayers.length) {
+        normalized.excludeLayers = excludeLayers;
+    }
+    if (optionalSourceLayers.length) {
+        normalized.optionalSourceLayers = optionalSourceLayers;
+    }
+    if (cityLabelLayerIds.length) {
+        normalized.cityLabelLayerIds = cityLabelLayerIds;
+    }
+    if (config.cityLabelStyle) {
+        normalized.cityLabelStyle = config.cityLabelStyle;
+    }
+    return normalized;
 }
 
 function parseMapTilesConfig(value: unknown): MapTilesConfig | null {
-    if (!value || typeof value !== "object") return null;
+    if (!value || typeof value !== "object") {
+        return null;
+    }
     const record = value as Record<string, unknown>;
 
     const vectorTilesBaseUrl = toNonEmptyString(record.vectorTilesBaseUrl);
@@ -80,10 +117,96 @@ function parseMapTilesConfig(value: unknown): MapTilesConfig | null {
 
     const tilesMetadataUrl = toNonEmptyString(record.tilesMetadataUrl) ?? `${vectorTilesBaseUrl}/tiles.json`;
     const excludeLayers = toStringArray(record.excludeLayers);
+    const optionalSourceLayers = toStringArray(record.optionalSourceLayers);
+    const cityLabelLayerIds = toStringArray(record.cityLabelLayerIds) ?? DEFAULT_CITY_LABEL_LAYER_IDS;
+    const cityLabelStyle = parseCityLabelStyleConfig(record.cityLabelStyle);
 
-    return excludeLayers && excludeLayers.length
-        ? { vectorTilesBaseUrl, styleUrl, tilesMetadataUrl, excludeLayers }
-        : { vectorTilesBaseUrl, styleUrl, tilesMetadataUrl };
+    const parsed: MapTilesConfig = { vectorTilesBaseUrl, styleUrl, tilesMetadataUrl, cityLabelLayerIds };
+    if (excludeLayers && excludeLayers.length) {
+        parsed.excludeLayers = excludeLayers;
+    }
+    if (optionalSourceLayers && optionalSourceLayers.length) {
+        parsed.optionalSourceLayers = optionalSourceLayers;
+    }
+    if (cityLabelStyle) {
+        parsed.cityLabelStyle = cityLabelStyle;
+    }
+    return parsed;
+}
+
+function parseCityLabelStyleConfig(value: unknown): CityLabelStyleConfig | undefined {
+    if (!value || typeof value !== "object") {
+        return undefined;
+    }
+    const record = value as Record<string, unknown>;
+    const style: CityLabelStyleConfig = {};
+
+    assignColor(style, "textColor", record.textColor);
+    assignColor(style, "hoverTextColor", record.hoverTextColor);
+    assignColor(style, "selectedTextColor", record.selectedTextColor);
+    assignColor(style, "textHaloColor", record.textHaloColor);
+    assignColor(style, "hoverTextHaloColor", record.hoverTextHaloColor);
+    assignColor(style, "selectedTextHaloColor", record.selectedTextHaloColor);
+    assignNumber(style, "textHaloWidth", record.textHaloWidth);
+    assignNumber(style, "hoverTextHaloWidth", record.hoverTextHaloWidth);
+    assignNumber(style, "selectedTextHaloWidth", record.selectedTextHaloWidth);
+
+    if (Array.isArray(record.textFont)) {
+        const fonts = record.textFont
+            .map((entry) => (typeof entry === "string" ? entry.trim() : ""))
+            .filter((entry) => entry.length > 0);
+        if (fonts.length) {
+            style.textFont = fonts;
+        }
+    }
+
+    const textSize = record.textSize;
+    if (typeof textSize === "number" && Number.isFinite(textSize)) {
+        style.textSize = textSize;
+    } else if (Array.isArray(textSize)) {
+        style.textSize = textSize as ExpressionSpecification;
+    }
+
+    return Object.keys(style).length ? style : undefined;
+}
+
+const COLOR_KEYS: Array<keyof CityLabelStyleConfig> = [
+    "textColor",
+    "hoverTextColor",
+    "selectedTextColor",
+    "textHaloColor",
+    "hoverTextHaloColor",
+    "selectedTextHaloColor"
+];
+
+function assignColor(target: CityLabelStyleConfig, key: keyof CityLabelStyleConfig, value: unknown): void {
+    if (!COLOR_KEYS.includes(key)) {
+        return;
+    }
+    if (typeof value !== "string") {
+        return;
+    }
+    const trimmed = value.trim();
+    if (!trimmed) {
+        return;
+    }
+    target[key] = trimmed;
+}
+
+const NUMERIC_KEYS: Array<keyof CityLabelStyleConfig> = [
+    "textHaloWidth",
+    "hoverTextHaloWidth",
+    "selectedTextHaloWidth"
+];
+
+function assignNumber(target: CityLabelStyleConfig, key: keyof CityLabelStyleConfig, value: unknown): void {
+    if (!NUMERIC_KEYS.includes(key)) {
+        return;
+    }
+    if (typeof value !== "number" || !Number.isFinite(value)) {
+        return;
+    }
+    target[key] = value;
 }
 
 function toNonEmptyString(value: unknown): string | null {

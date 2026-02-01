@@ -5,13 +5,15 @@ import "maplibre-gl/dist/maplibre-gl.css";
 import maplibregl, { Map as MapLibreMap, NavigationControl } from "maplibre-gl";
 import { useEffect, useRef } from "react";
 
-import { loadAppConfig } from "@/lib/config/appConfig";
+import { loadAppConfig, type AppConfig } from "@/lib/config/appConfig";
 import {
     ensureCityHighlightLayer,
     removeCityHighlightLayer,
     setHoveredCity,
+    setSelectedCity,
     type CityHighlightHandle
 } from "@/lib/map/cityHighlightLayers";
+import { initCityInseeIndex } from "@/lib/map/cityInseeIndex";
 import { ensureCommuneInteractiveLayers, listCommuneInteractiveLayerIds } from "@/lib/map/cityInteractiveLayer";
 import { debugLogSymbolLabelHints, type CityIdentity } from "@/lib/map/interactiveLayers";
 import { attachCityInteractionService } from "@/lib/map/mapInteractionService";
@@ -46,7 +48,9 @@ export default function VectorMap({ className, onCityClick }: VectorMapProps): J
 
             try {
                 const appConfig = await loadAppConfig(controller.signal);
-                const style = await loadVectorMapStyle(appConfig.mapTiles, controller.signal);
+                const style = await loadVectorMapStyle(appConfig.mapTiles, controller.signal, {
+                    enableManagedCityLabels: appConfig.debug.managedCityLabelsEnabled
+                });
                 if (appConfig.debug.enabled && appConfig.debug.logStyleHints) {
                     debugLogSymbolLabelHints(style);
                 }
@@ -76,57 +80,71 @@ export default function VectorMap({ className, onCityClick }: VectorMapProps): J
                 map.addControl(new maplibregl.AttributionControl({ compact: true }), "bottom-right");
 
                 map.once("load", () => {
-                    if (appConfig.debug.enabled && appConfig.debug.logStyleHints) {
-                        logStyleLayerCatalog(map);
-                    }
-
-                    const interactiveLayerHandle = ensureCommuneInteractiveLayers(map);
-                    interactiveLayerIdsRef.current = interactiveLayerHandle?.layerIds ?? [];
-                    if (!interactiveLayerHandle || interactiveLayerIdsRef.current.length === 0) {
-                        console.warn(
-                            "[vector-map] Commune interactive layers unavailable; pointer interactions will be disabled."
-                        );
-                    }
-                    const highlightHandle = ensureCityHighlightLayer(map, {
-                        logStyleHints: appConfig.debug.enabled && appConfig.debug.logStyleHints
-                    });
-                    highlightHandleRef.current = highlightHandle;
-                    if (!highlightHandle) {
-                        console.warn("[vector-map] City highlight layer unavailable; hover highlight disabled.");
-                    }
-                    detachInteractionsRef.current = attachCityInteractionService(map, (event) => {
-                        const handle = highlightHandleRef.current;
-                        switch (event.type) {
-                            case "hoverCity":
-                                if (handle) {
-                                    setHoveredCity(map, handle, event.city.id, {
-                                        labelLayerId: event.labelLayerId
-                                    });
-                                }
-                                break;
-                            case "leaveCity":
-                                if (handle) {
-                                    setHoveredCity(map, handle, null);
-                                }
-                                break;
-                            case "clickCity":
-                                selectedCityRef.current = event.city.id;
-                                onCityClick?.(event.city);
-                                break;
-                        }
-                    }, {
-                        logHoverFeatures: appConfig.debug.enabled && appConfig.debug.logHoverFeatures,
-                        interactiveLayerIds: interactiveLayerIdsRef.current
-                    });
-
-                    if (appConfig.debug.enabled && appConfig.debug.logHoverFeatures) {
-                        detachDebugRef.current = attachInteractiveLayerDebug(map);
-                    }
+                    void setupInteractiveLayers(map, appConfig);
                 });
             } catch (error) {
                 if (!(error instanceof DOMException && error.name === "AbortError")) {
                     console.error("[vector-map] Failed to initialize MapLibre map", error);
                 }
+            }
+        }
+
+        async function setupInteractiveLayers(map: MapLibreMap, appConfig: AppConfig): Promise<void> {
+            const logStyleHints = appConfig.debug.enabled && appConfig.debug.logStyleHints;
+            if (logStyleHints) {
+                logStyleLayerCatalog(map);
+            }
+
+            try {
+                await initCityInseeIndex();
+            } catch (error) {
+                console.warn("[vector-map] Unable to warm city INSEE index", error);
+            }
+
+            const interactiveLayerHandle = ensureCommuneInteractiveLayers(map);
+            interactiveLayerIdsRef.current = interactiveLayerHandle?.layerIds ?? [];
+            if (!interactiveLayerHandle || interactiveLayerIdsRef.current.length === 0) {
+                console.warn(
+                    "[vector-map] Commune interactive layers unavailable; pointer interactions will be disabled."
+                );
+            }
+
+            const highlightHandle = ensureCityHighlightLayer(map, {
+                logStyleHints
+            });
+            highlightHandleRef.current = highlightHandle;
+            if (!highlightHandle) {
+                console.warn("[vector-map] City highlight layer unavailable; hover highlight disabled.");
+            }
+
+            detachInteractionsRef.current = attachCityInteractionService(map, (event) => {
+                const handle = highlightHandleRef.current;
+                switch (event.type) {
+                    case "hoverCity":
+                        if (handle) {
+                            setHoveredCity(map, handle, event.featureStateTarget);
+                        }
+                        break;
+                    case "leaveCity":
+                        if (handle) {
+                            setHoveredCity(map, handle, null);
+                        }
+                        break;
+                    case "clickCity":
+                        if (handle) {
+                            setSelectedCity(map, handle, event.featureStateTarget);
+                        }
+                        selectedCityRef.current = event.city.id;
+                        onCityClick?.(event.city);
+                        break;
+                }
+            }, {
+                logHoverFeatures: appConfig.debug.enabled && appConfig.debug.logHoverFeatures,
+                interactiveLayerIds: interactiveLayerIdsRef.current
+            });
+
+            if (appConfig.debug.enabled && appConfig.debug.logHoverFeatures) {
+                detachDebugRef.current = attachInteractiveLayerDebug(map);
             }
         }
 

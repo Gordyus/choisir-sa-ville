@@ -6,7 +6,11 @@ import type {
     SymbolLayerSpecification
 } from "maplibre-gl";
 
-import { COMMUNE_LABEL_LAYERS, PLACE_CLASS_FILTER } from "./interactiveLayers";
+import {
+    COMMUNE_LABEL_LAYERS,
+    MANAGED_CITY_LABEL_METADATA_FLAG,
+    PLACE_CLASS_FILTER
+} from "./interactiveLayers";
 
 export const COMMUNE_INTERACTIVE_LAYER_PREFIX = "commune-label-interactive::";
 
@@ -83,8 +87,12 @@ export function listCommuneInteractiveLayerIds(map: MapLibreMap): string[] {
 function collectLabelLayerContexts(map: MapLibreMap): LabelLayerContext[] {
     const style = map.getStyle();
     const layers = style?.layers ?? [];
-    const contexts: LabelLayerContext[] = [];
+    const managedContexts = collectManagedLabelContexts(layers);
+    if (managedContexts.length) {
+        return managedContexts;
+    }
 
+    const contexts: LabelLayerContext[] = [];
     for (const labelLayerId of COMMUNE_LABEL_LAYERS) {
         const layer = layers.find((entry) => entry.id === labelLayerId);
         const context = normalizeLayerContext(layer);
@@ -102,6 +110,24 @@ function collectLabelLayerContexts(map: MapLibreMap): LabelLayerContext[] {
     }
 
     return contexts;
+}
+
+function collectManagedLabelContexts(layers: StyleSpecification["layers"]): LabelLayerContext[] {
+    return layers
+        .filter((layer) => isManagedCityLabelLayer(layer))
+        .map((layer) => normalizeLayerContext(layer))
+        .filter((context): context is LabelLayerContext => Boolean(context));
+}
+
+function isManagedCityLabelLayer(layer: StyleSpecification["layers"][number] | undefined): boolean {
+    if (!layer) {
+        return false;
+    }
+    const metadata = (layer as { metadata?: unknown }).metadata;
+    if (!metadata || typeof metadata !== "object") {
+        return false;
+    }
+    return Boolean((metadata as Record<string, unknown>)[MANAGED_CITY_LABEL_METADATA_FLAG]);
 }
 
 function normalizeLayerContext(layer: StyleSpecification["layers"][number] | undefined): LabelLayerContext | null {

@@ -27,12 +27,25 @@ export default function RightPanelDetailsCard({ className, selectedCity, ...prop
             return;
         }
 
+        if (selectedCity.resolutionStatus === "unresolved") {
+            setStatus("idle");
+            setDetails(null);
+            return;
+        }
+
+        const targetInsee = selectedCity.inseeCode ?? selectedCity.id ?? null;
+        if (!targetInsee) {
+            setStatus("idle");
+            setDetails(null);
+            return;
+        }
+
         let alive = true;
         const controller = new AbortController();
         setStatus("loading");
         setDetails(null);
 
-        getCommuneByInsee(selectedCity.id, controller.signal)
+        getCommuneByInsee(targetInsee, controller.signal)
             .then((entry) => {
                 if (!alive) {
                     return;
@@ -63,7 +76,7 @@ export default function RightPanelDetailsCard({ className, selectedCity, ...prop
             alive = false;
             controller.abort();
         };
-    }, [selectedCity?.id]);
+    }, [selectedCity?.id, selectedCity?.inseeCode, selectedCity?.resolutionStatus]);
 
     const description = selectedCity
         ? `Informations de base pour ${selectedCity.name}`
@@ -97,6 +110,17 @@ function renderContent({
 
     if (status === "loading") {
         return <InfoMessage message="Chargement des informations..." loading />;
+    }
+
+    if (selectedCity.resolutionStatus === "unresolved") {
+        return (
+            <InfoMessage
+                message={
+                    selectedCity.unresolvedReason ??
+                    `Impossible de déterminer le code INSEE pour ${selectedCity.name}.`
+                }
+            />
+        );
     }
 
     if (status === "missing") {

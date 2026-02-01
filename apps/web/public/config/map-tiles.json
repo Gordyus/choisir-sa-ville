@@ -4,5 +4,40 @@
     "tilesMetadataUrl": "http://localhost:8080/data/v3/tiles.json",
     "excludeLayers": [
         "housenumber"
-    ]
+    ],
+    "optionalSourceLayers": [
+        "housenumber"
+    ],
+    "cityLabelLayerIds": [
+        "place_label_other",
+        "place_label_city"
+    ],
+    "cityLabelStyle": {
+        "textColor": "#1f2933",
+        "hoverTextColor": "#2d5bff",
+        "selectedTextColor": "#0f172a",
+        "textHaloColor": "#fefcf7",
+        "hoverTextHaloColor": "#ffffff",
+        "selectedTextHaloColor": "#ffe28f",
+        "textHaloWidth": 1.6,
+        "hoverTextHaloWidth": 2.2,
+        "selectedTextHaloWidth": 2.8,
+        "textFont": [
+            "Soehne-Bold",
+            "Arial Unicode MS Bold"
+        ],
+        "textSize": [
+            "interpolate",
+            [
+                "linear"
+            ],
+            [
+                "zoom"
+            ],
+            4,
+            11,
+            10,
+            18
+        ]
+    }
 }
