@@ -1,19 +1,20 @@
-import type { 
-    ExpressionSpecification, 
-    LegacyFilterSpecification, 
-    MapGeoJSONFeature, 
-    Map as MapLibreMap, 
-    SymbolLayerSpecification 
+import type {
+    LegacyFilterSpecification,
+    MapGeoJSONFeature,
+    Map as MapLibreMap,
+    StyleSpecification,
+    SymbolLayerSpecification
 } from "maplibre-gl";
 
 import {
     CITY_ID_FALLBACK_FIELDS,
     CITY_ID_FIELD,
-    CITY_LABEL_LAYERS,
-    debugLogSymbolLabelHints
+    COMMUNE_LABEL_LAYERS,
+    debugLogSymbolLabelHints,
+    PLACE_CLASS_FILTER
 } from "./interactiveLayers";
 
-const HIGHLIGHT_LAYER_ID = "city-label-hover-highlight";
+const HIGHLIGHT_LAYER_PREFIX = "commune-label-hover-highlight::";
 const highlightHandleCache = new WeakMap<MapLibreMap, CityHighlightHandle>();
 let missingLayerWarned = false;
 
@@ -40,14 +41,23 @@ const DEFAULT_TEXT_SIZE: TextSizeValue = [
 
 const DEFAULT_TEXT_FONT: TextFontValue = ["Open Sans Bold", "Arial Unicode MS Bold"] as unknown as TextFontValue;
 
-export type CityHighlightHandle = {
+type HighlightLayerEntry = {
+    labelLayerId: string;
     layerId: string;
     idFields: string[];
     baseFilter?: LegacyFilterSpecification;
 };
 
+export type CityHighlightHandle = {
+    layers: Map<string, HighlightLayerEntry>;
+};
+
 export type CityHighlightLayerOptions = {
     logStyleHints?: boolean;
+};
+
+export type SetHoveredCityOptions = {
+    labelLayerId?: string | null;
 };
 
 export function ensureCityHighlightLayer(
@@ -55,18 +65,18 @@ export function ensureCityHighlightLayer(
     options?: CityHighlightLayerOptions
 ): CityHighlightHandle | null {
     const existing = highlightHandleCache.get(map);
-    if (existing && map.getLayer(existing.layerId)) {
+    if (existing && highlightLayersExist(map, existing)) {
         return existing;
     }
 
-    const context = resolveCityLayerContext(map);
-    if (!context) {
+    const contexts = resolveCityLayerContexts(map);
+    if (!contexts.length) {
         if (!missingLayerWarned) {
             if (options?.logStyleHints) {
                 debugLogSymbolLabelHints(map.getStyle());
             }
             console.warn(
-                `[map-style] Unable to locate city label layer. Looked for: ${CITY_LABEL_LAYERS.join(", ")}`
+                `[map-style] Unable to locate commune label layers. Looked for: ${COMMUNE_LABEL_LAYERS.join(", ")}`
             );
             missingLayerWarned = true;
         }
@@ -74,39 +84,85 @@ export function ensureCityHighlightLayer(
     }
     missingLayerWarned = false;
 
-    const idFields = determineCityIdFields(map, context);
-    const highlightLayer = buildHighlightLayer(context, idFields);
-    if (context.insertBeforeId) {
-        map.addLayer(highlightLayer, context.insertBeforeId);
-    } else {
-        map.addLayer(highlightLayer);
+    const layers = new Map<string, HighlightLayerEntry>();
+
+    for (const context of contexts) {
+        const layerId = buildHighlightLayerId(context.labelLayerId);
+        const idFields = determineCityIdFields(map, context);
+        if (!map.getLayer(layerId)) {
+            const highlightLayer = buildHighlightLayer(context, idFields, layerId);
+            if (context.insertBeforeId) {
+                map.addLayer(highlightLayer, context.insertBeforeId);
+            } else {
+                map.addLayer(highlightLayer);
+            }
+        }
+
+        const entry: HighlightLayerEntry = {
+            labelLayerId: context.labelLayerId,
+            layerId,
+            idFields
+        };
+        if (typeof context.baseFilter !== "undefined") {
+            entry.baseFilter = context.baseFilter;
+        }
+        layers.set(context.labelLayerId, entry);
     }
 
-    const handle: CityHighlightHandle = { layerId: HIGHLIGHT_LAYER_ID, idFields };
-    if (typeof context.baseFilter !== "undefined") {
-        handle.baseFilter = context.baseFilter;
+    if (!layers.size) {
+        return null;
     }
+
+    const handle: CityHighlightHandle = { layers };
     highlightHandleCache.set(map, handle);
     return handle;
 }
 
-export function setHoveredCity(map: MapLibreMap, handle: CityHighlightHandle, cityId: string | null): void {
-    if (!map.getLayer(handle.layerId)) {
+export function setHoveredCity(
+    map: MapLibreMap,
+    handle: CityHighlightHandle,
+    cityId: string | null,
+    options?: SetHoveredCityOptions
+): void {
+    if (!handle.layers.size) {
         return;
     }
-    const filter = cityId ? createMatchFilter(handle.idFields, cityId) : createImpossibleFilter(handle.idFields);
-    map.setFilter(handle.layerId, withBaseFilter(filter, handle.baseFilter));
+
+    if (!cityId) {
+        handle.layers.forEach((entry) => applyFilter(map, entry, createImpossibleFilter(entry.idFields)));
+        return;
+    }
+
+    const targetLabelId = options?.labelLayerId ?? null;
+    if (targetLabelId && handle.layers.has(targetLabelId)) {
+        handle.layers.forEach((entry, labelId) => {
+            const filter = labelId === targetLabelId
+                ? createMatchFilter(entry.idFields, cityId)
+                : createImpossibleFilter(entry.idFields);
+            applyFilter(map, entry, filter);
+        });
+        return;
+    }
+
+    handle.layers.forEach((entry) => {
+        applyFilter(map, entry, createMatchFilter(entry.idFields, cityId));
+    });
 }
 
 export function removeCityHighlightLayer(map: MapLibreMap): void {
-    if (map.getLayer(HIGHLIGHT_LAYER_ID)) {
-        map.removeLayer(HIGHLIGHT_LAYER_ID);
+    const style = map.getStyle();
+    const layerIds =
+        style?.layers?.map((layer) => layer.id).filter((id) => id.startsWith(HIGHLIGHT_LAYER_PREFIX)) ?? [];
+    for (const layerId of layerIds) {
+        if (map.getLayer(layerId)) {
+            map.removeLayer(layerId);
+        }
     }
     highlightHandleCache.delete(map);
 }
 
 type LayerContext = {
-    layerId: string;
+    labelLayerId: string;
     source: string;
     sourceLayer?: string;
     insertBeforeId?: string;
@@ -116,51 +172,76 @@ type LayerContext = {
     baseFilter?: LegacyFilterSpecification;
 };
 
-function resolveCityLayerContext(map: MapLibreMap): LayerContext | null {
+function resolveCityLayerContexts(map: MapLibreMap): LayerContext[] {
     const style = map.getStyle();
     if (!style?.layers) {
-        return null;
+        return [];
     }
-    for (const layerId of CITY_LABEL_LAYERS) {
+
+    const contexts: LayerContext[] = [];
+    for (const layerId of COMMUNE_LABEL_LAYERS) {
         const layer = style.layers.find((entry) => entry.id === layerId);
-        if (layer && layer.type === "symbol" && typeof layer.source === "string") {
-            const layout = layer.layout as Record<string, unknown> | undefined;
-            const sourceLayer = (layer as { "source-layer"?: string })["source-layer"];
-            const textField = layout?.["text-field"] as TextFieldValue | undefined;
-            const textFont = layout?.["text-font"] as TextFontValue | undefined;
-            const textSize = layout?.["text-size"] as TextSizeValue | undefined;
-            const baseFilter = (layer as { filter?: unknown }).filter as LegacyFilterSpecification | undefined;
-
-            const context: LayerContext = {
-                layerId,
-                source: layer.source
-            };
-
-            const insertBeforeId = findLayerInsertedAfter(style.layers, layer.id);
-            if (typeof insertBeforeId !== "undefined") {
-                context.insertBeforeId = insertBeforeId;
-            }
-
-            if (sourceLayer) {
-                context.sourceLayer = sourceLayer;
-            }
-            if (typeof textField !== "undefined") {
-                context.textField = textField;
-            }
-            if (typeof textFont !== "undefined") {
-                context.textFont = textFont;
-            }
-            if (typeof textSize !== "undefined") {
-                context.textSize = textSize;
-            }
-            if (typeof baseFilter !== "undefined") {
-                context.baseFilter = baseFilter;
-            }
-
-            return context;
+        const context = createLayerContext(style.layers, layer);
+        if (context) {
+            contexts.push(context);
         }
     }
-    return null;
+
+    if (!contexts.length) {
+        const fallback = style.layers.find(
+            (layer) => layer.type === "symbol" && typeof (layer as { source?: unknown }).source === "string"
+        ) as StyleSpecification["layers"][number] | undefined;
+        const context = createLayerContext(style.layers, fallback);
+        if (context) {
+            contexts.push(context);
+        }
+    }
+
+    return contexts;
+}
+
+function createLayerContext(
+    layers: { id: string }[],
+    layer: StyleSpecification["layers"][number] | undefined
+): LayerContext | null {
+    if (!layer || layer.type !== "symbol" || typeof layer.source !== "string") {
+        return null;
+    }
+
+    const layout = layer.layout as Record<string, unknown> | undefined;
+    const sourceLayer = (layer as { "source-layer"?: string })["source-layer"];
+    const textField = layout?.["text-field"] as TextFieldValue | undefined;
+    const textFont = layout?.["text-font"] as TextFontValue | undefined;
+    const textSize = layout?.["text-size"] as TextSizeValue | undefined;
+    const baseFilter = (layer as { filter?: unknown }).filter as LegacyFilterSpecification | undefined;
+
+    const context: LayerContext = {
+        labelLayerId: layer.id,
+        source: layer.source
+    };
+
+    const insertBeforeId = findLayerInsertedAfter(layers, layer.id);
+    if (typeof insertBeforeId !== "undefined") {
+        context.insertBeforeId = insertBeforeId;
+    }
+
+    if (sourceLayer) {
+        context.sourceLayer = sourceLayer;
+    }
+    if (typeof textField !== "undefined") {
+        context.textField = textField;
+    }
+    if (typeof textFont !== "undefined") {
+        context.textFont = textFont;
+    }
+    if (typeof textSize !== "undefined") {
+        context.textSize = textSize;
+    }
+    if (typeof baseFilter !== "undefined") {
+        context.baseFilter = baseFilter;
+    }
+
+    return context;
 }
 
 function findLayerInsertedAfter(layers: { id: string }[], referenceLayerId: string): string | undefined {
@@ -190,7 +271,11 @@ function determineCityIdFields(map: MapLibreMap, context: LayerContext): string[
     return ["name", "name:fr"];
 }
 
-function buildHighlightLayer(context: LayerContext, idFields: string[]): SymbolLayerSpecification {
+function buildHighlightLayer(
+    context: LayerContext,
+    idFields: string[],
+    layerId: string
+): SymbolLayerSpecification {
     const textField: TextFieldValue = context.textField ?? DEFAULT_TEXT_FIELD;
     const textSize: TextSizeValue = context.textSize ?? DEFAULT_TEXT_SIZE;
     const textFont: TextFontValue = context.textFont ?? DEFAULT_TEXT_FONT;
@@ -202,9 +287,10 @@ function buildHighlightLayer(context: LayerContext, idFields: string[]): SymbolL
         "text-allow-overlap": true,
         "text-ignore-placement": true
     };
-
+    const impossible = createImpossibleFilter(idFields);
+    const withBase = withBaseFilter(impossible, context.baseFilter);
     const layer: SymbolLayerSpecification = {
-        id: HIGHLIGHT_LAYER_ID,
+        id: layerId,
         type: "symbol",
         source: context.source,
         layout,
@@ -214,7 +300,7 @@ function buildHighlightLayer(context: LayerContext, idFields: string[]): SymbolL
             "text-halo-width": 2.5,
             "text-halo-blur": 0.4
         },
-        filter: withBaseFilter(createImpossibleFilter(idFields), context.baseFilter)
+        filter: ["all", withBase, PLACE_CLASS_FILTER] as any
     };
 
     if (context.sourceLayer) {
@@ -283,5 +369,29 @@ function featureHasReadableProperty(features: readonly MapGeoJSONFeature[], fiel
         }
         return false;
     });
+}
+
+function buildHighlightLayerId(labelLayerId: string): string {
+    return `${HIGHLIGHT_LAYER_PREFIX}${labelLayerId}`;
+}
+
+function applyFilter(
+    map: MapLibreMap,
+    entry: HighlightLayerEntry,
+    filter: LegacyFilterSpecification
+): void {
+    if (!map.getLayer(entry.layerId)) {
+        return;
+    }
+    map.setFilter(entry.layerId, withBaseFilter(filter, entry.baseFilter));
+}
+
+function highlightLayersExist(map: MapLibreMap, handle: CityHighlightHandle): boolean {
+    for (const entry of handle.layers.values()) {
+        if (!map.getLayer(entry.layerId)) {
+            return false;
+        }
+    }
+    return true;
 }
 

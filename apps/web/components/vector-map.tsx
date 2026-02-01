@@ -12,7 +12,7 @@ import {
     setHoveredCity,
     type CityHighlightHandle
 } from "@/lib/map/cityHighlightLayers";
-import { ensureCityInteractiveLayer } from "@/lib/map/cityInteractiveLayer";
+import { ensureCommuneInteractiveLayers, listCommuneInteractiveLayerIds } from "@/lib/map/cityInteractiveLayer";
 import { debugLogSymbolLabelHints, type CityIdentity } from "@/lib/map/interactiveLayers";
 import { attachCityInteractionService } from "@/lib/map/mapInteractionService";
 import { loadVectorMapStyle } from "@/lib/map/mapStyle";
@@ -33,6 +33,7 @@ export default function VectorMap({ className, onCityClick }: VectorMapProps): J
     const detachDebugRef = useRef<(() => void) | null>(null);
     const selectedCityRef = useRef<string | null>(null);
     const highlightHandleRef = useRef<CityHighlightHandle | null>(null);
+    const interactiveLayerIdsRef = useRef<string[]>([]);
 
     useEffect(() => {
         let disposed = false;
@@ -79,10 +80,11 @@ export default function VectorMap({ className, onCityClick }: VectorMapProps): J
                         logStyleLayerCatalog(map);
                     }
 
-                    const interactiveLayerHandle = ensureCityInteractiveLayer(map);
-                    if (!interactiveLayerHandle) {
+                    const interactiveLayerHandle = ensureCommuneInteractiveLayers(map);
+                    interactiveLayerIdsRef.current = interactiveLayerHandle?.layerIds ?? [];
+                    if (!interactiveLayerHandle || interactiveLayerIdsRef.current.length === 0) {
                         console.warn(
-                            "[vector-map] City interactive layer unavailable; pointer interactions will be disabled."
+                            "[vector-map] Commune interactive layers unavailable; pointer interactions will be disabled."
                         );
                     }
                     const highlightHandle = ensureCityHighlightLayer(map, {
@@ -97,7 +99,9 @@ export default function VectorMap({ className, onCityClick }: VectorMapProps): J
                         switch (event.type) {
                             case "hoverCity":
                                 if (handle) {
-                                    setHoveredCity(map, handle, event.city.id);
+                                    setHoveredCity(map, handle, event.city.id, {
+                                        labelLayerId: event.labelLayerId
+                                    });
                                 }
                                 break;
                             case "leaveCity":
@@ -111,7 +115,8 @@ export default function VectorMap({ className, onCityClick }: VectorMapProps): J
                                 break;
                         }
                     }, {
-                        logHoverFeatures: appConfig.debug.enabled && appConfig.debug.logHoverFeatures
+                        logHoverFeatures: appConfig.debug.enabled && appConfig.debug.logHoverFeatures,
+                        interactiveLayerIds: interactiveLayerIdsRef.current
                     });
 
                     if (appConfig.debug.enabled && appConfig.debug.logHoverFeatures) {
@@ -178,19 +183,25 @@ function attachInteractiveLayerDebug(map: MapLibreMap): () => void {
         if (!map.isStyleLoaded()) {
             return;
         }
+        const interactiveLayerIds = listCommuneInteractiveLayerIds(map);
         const canvas = map.getCanvas();
         const bbox: [[number, number], [number, number]] = [
             [0, 0],
             [canvas.width, canvas.height]
         ];
 
-        const features = map.queryRenderedFeatures(bbox, { layers: ["city-label-interactive"] });
-        const sample = features.slice(0, 8).map((feature) => feature.properties ?? {});
+        const features = interactiveLayerIds.length
+            ? map.queryRenderedFeatures(bbox, { layers: interactiveLayerIds })
+            : [];
+        const sample = features.slice(0, 8).map((feature) => ({
+            layerId: feature.layer?.id ?? "<unknown>",
+            properties: feature.properties ?? {}
+        }));
 
-
-        console.log("[map-debug] city-label-interactive snapshot", {
+        console.log("[map-debug] commune interactive snapshot", {
             reason,
             zoom: map.getZoom(),
+            interactiveLayerCount: interactiveLayerIds.length,
             featureCount: features.length,
             sample
         });

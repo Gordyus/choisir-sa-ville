@@ -1,31 +1,38 @@
-import type { ExpressionSpecification, LegacyFilterSpecification, Map as MapLibreMap, SymbolLayerSpecification } from "maplibre-gl";
+import type {
+    ExpressionSpecification,
+    LegacyFilterSpecification,
+    Map as MapLibreMap,
+    StyleSpecification,
+    SymbolLayerSpecification
+} from "maplibre-gl";
 
-import { CITY_LABEL_LAYERS } from "./interactiveLayers";
+import { COMMUNE_LABEL_LAYERS, PLACE_CLASS_FILTER } from "./interactiveLayers";
 
-export const CITY_INTERACTIVE_LAYER_ID = "city-label-interactive";
-
-let missingReferenceLayerWarned = false;
+export const COMMUNE_INTERACTIVE_LAYER_PREFIX = "commune-label-interactive::";
 
 const NAME_FIELDS = ["name:fr", "name", "name:en"] as const;
 
-type ReferenceLayerContext = {
-    layerId: string;
+let missingReferenceLayerWarned = false;
+
+type LabelLayerContext = {
+    labelLayerId: string;
     source: string;
-    sourceLayer: string;
+    sourceLayer?: string;
     textField?: ExpressionSpecification;
     baseFilter?: LegacyFilterSpecification;
 };
 
-export function ensureCityInteractiveLayer(map: MapLibreMap): { layerId: string } | null {
-    if (map.getLayer(CITY_INTERACTIVE_LAYER_ID)) {
-        return { layerId: CITY_INTERACTIVE_LAYER_ID };
-    }
+export type CommuneInteractiveLayerHandle = {
+    layerIds: string[];
+    addedLayerIds: string[];
+};
 
-    const referenceLayer = findReferenceLayer(map);
-    if (!referenceLayer) {
+export function ensureCommuneInteractiveLayers(map: MapLibreMap): CommuneInteractiveLayerHandle | null {
+    const contexts = collectLabelLayerContexts(map);
+    if (!contexts.length) {
         if (!missingReferenceLayerWarned) {
             console.warn(
-                "[map-style] Unable to derive an interactive city layer; no suitable symbol layer found in style."
+                `[map-style] Unable to derive commune interactive layers; looked for: ${COMMUNE_LABEL_LAYERS.join(", ")}`
             );
             missingReferenceLayerWarned = true;
         }
@@ -33,72 +40,101 @@ export function ensureCityInteractiveLayer(map: MapLibreMap): { layerId: string 
     }
     missingReferenceLayerWarned = false;
 
-    const interactiveLayer = buildInteractiveLayer(referenceLayer);
-    map.addLayer(interactiveLayer, referenceLayer.layerId);
+    const layerIds: string[] = [];
+    const addedLayerIds: string[] = [];
 
-    return { layerId: CITY_INTERACTIVE_LAYER_ID };
+    for (const context of contexts) {
+        const interactiveLayerId = buildInteractiveLayerId(context.labelLayerId);
+        layerIds.push(interactiveLayerId);
+        if (map.getLayer(interactiveLayerId)) {
+            continue;
+        }
+        const interactiveLayer = buildInteractiveLayer(context, interactiveLayerId);
+        map.addLayer(interactiveLayer, context.labelLayerId);
+        addedLayerIds.push(interactiveLayerId);
+    }
+
+    if (!layerIds.length) {
+        return null;
+    }
+
+    return { layerIds, addedLayerIds };
 }
 
-function findReferenceLayer(map: MapLibreMap): ReferenceLayerContext | null {
+export function buildInteractiveLayerId(labelLayerId: string): string {
+    return `${COMMUNE_INTERACTIVE_LAYER_PREFIX}${labelLayerId}`;
+}
+
+export function extractLabelLayerIdFromInteractive(interactiveLayerId: string): string | null {
+    if (!interactiveLayerId.startsWith(COMMUNE_INTERACTIVE_LAYER_PREFIX)) {
+        return null;
+    }
+    return interactiveLayerId.slice(COMMUNE_INTERACTIVE_LAYER_PREFIX.length) || null;
+}
+
+export function listCommuneInteractiveLayerIds(map: MapLibreMap): string[] {
     const style = map.getStyle();
     const layers = style?.layers ?? [];
-
-    for (const layerId of CITY_LABEL_LAYERS) {
-        const layer = layers.find((entry) => entry.id === layerId);
-        if (!layer || layer.type !== "symbol") {
-            continue;
-        }
-        if (typeof layer.source !== "string") {
-            continue;
-        }
-        const sourceLayer = (layer as { "source-layer"?: string })["source-layer"];
-        if (!sourceLayer) {
-            continue;
-        }
-        const layout = layer.layout as Record<string, unknown> | undefined;
-        const textField = layout?.["text-field"] as ExpressionSpecification | undefined;
-        const baseFilter = (layer as { filter?: unknown }).filter as LegacyFilterSpecification | undefined;
-        const context: ReferenceLayerContext = {
-            layerId: layer.id,
-            source: layer.source,
-            sourceLayer
-        };
-        if (typeof textField !== "undefined") {
-            context.textField = textField;
-        }
-        if (typeof baseFilter !== "undefined") {
-            context.baseFilter = baseFilter;
-        }
-        return context;
-    }
-
-    for (const layer of layers) {
-        if (layer.type !== "symbol") {
-            continue;
-        }
-        if (typeof layer.source !== "string") {
-            continue;
-        }
-        const sourceLayer = (layer as { "source-layer"?: string })["source-layer"];
-        if (!sourceLayer) {
-            continue;
-        }
-        const layout = layer.layout as Record<string, unknown> | undefined;
-        const textField = layout?.["text-field"] as ExpressionSpecification | undefined;
-        const context: ReferenceLayerContext = {
-            layerId: layer.id,
-            source: layer.source,
-            sourceLayer
-        };
-        if (typeof textField !== "undefined") {
-            context.textField = textField;
-        }
-        return context;
-    }
-    return null;
+    return layers
+        .map((layer) => layer.id)
+        .filter((id): id is string => typeof id === "string" && id.startsWith(COMMUNE_INTERACTIVE_LAYER_PREFIX));
 }
 
-function buildInteractiveLayer(context: ReferenceLayerContext): SymbolLayerSpecification {
+function collectLabelLayerContexts(map: MapLibreMap): LabelLayerContext[] {
+    const style = map.getStyle();
+    const layers = style?.layers ?? [];
+    const contexts: LabelLayerContext[] = [];
+
+    for (const labelLayerId of COMMUNE_LABEL_LAYERS) {
+        const layer = layers.find((entry) => entry.id === labelLayerId);
+        const context = normalizeLayerContext(layer);
+        if (context) {
+            contexts.push(context);
+        }
+    }
+
+    if (!contexts.length) {
+        const fallback = layers.find((layer) => layer.type === "symbol" && typeof (layer as { source?: unknown }).source === "string");
+        const context = normalizeLayerContext(fallback);
+        if (context) {
+            contexts.push(context);
+        }
+    }
+
+    return contexts;
+}
+
+function normalizeLayerContext(layer: StyleSpecification["layers"][number] | undefined): LabelLayerContext | null {
+    if (!layer || layer.type !== "symbol" || typeof (layer as { source?: unknown }).source !== "string") {
+        return null;
+    }
+    const layout = layer.layout as Record<string, unknown> | undefined;
+    const sourceLayer = (layer as { "source-layer"?: string })["source-layer"];
+    const textField = layout?.["text-field"] as ExpressionSpecification | undefined;
+    const baseFilter = (layer as { filter?: unknown }).filter as LegacyFilterSpecification | undefined;
+
+    const context: LabelLayerContext = {
+        labelLayerId: layer.id,
+        source: (layer as { source: string }).source
+    };
+
+    if (sourceLayer) {
+        context.sourceLayer = sourceLayer;
+    }
+    if (typeof textField !== "undefined") {
+        context.textField = textField;
+    }
+    if (typeof baseFilter !== "undefined") {
+        context.baseFilter = baseFilter;
+    }
+
+    return context;
+}
+
+function buildInteractiveLayer(
+    context: LabelLayerContext,
+    interactiveLayerId: string
+): SymbolLayerSpecification {
     const layout: SymbolLayerSpecification["layout"] = {
         "text-field": context.textField ?? ["get", "name"],
         "text-size": 12,
@@ -111,16 +147,22 @@ function buildInteractiveLayer(context: ReferenceLayerContext): SymbolLayerSpeci
         ...NAME_FIELDS.map((field) => ["has", field] as unknown as LegacyFilterSpecification)
     ];
 
-    return {
-        id: CITY_INTERACTIVE_LAYER_ID,
+    const base = context.baseFilter ?? fallbackFilter;
+    const layer: SymbolLayerSpecification = {
+        id: interactiveLayerId,
         type: "symbol",
         source: context.source,
-        "source-layer": context.sourceLayer,
         layout,
         paint: {
             "text-opacity": 0,
             "icon-opacity": 0
         },
-        filter: context.baseFilter ?? fallbackFilter
+        filter: ["all", base, PLACE_CLASS_FILTER] as any
     };
+
+    if (context.sourceLayer) {
+        layer["source-layer"] = context.sourceLayer;
+    }
+
+    return layer;
 }

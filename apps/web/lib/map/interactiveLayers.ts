@@ -5,18 +5,20 @@ export type CityIdentity = {
     name: string;
 };
 
-export const CITY_LABEL_LAYERS: string[] = [
+export const COMMUNE_LABEL_LAYERS: string[] = [
     // OpenMapTiles / MapLibre default style IDs (underscores)
+    "place_label_other",
     "place_label_city",
-    "place_label_capital",
-    "place_label_major",
-    "place_label_town",
-    // Some styles use hyphens
-    "place-label-city",
-    "place-label-capital",
-    "place-label-major",
-    "place-label-town"
 ];
+
+export const PLACE_ALLOWED_CLASSES = ["city", "town", "village"] as const;
+
+
+export const PLACE_CLASS_FILTER: import("maplibre-gl").LegacyFilterSpecification = [
+    "in",
+    "class",
+    ...PLACE_ALLOWED_CLASSES
+] as any;
 
 export const CITY_ID_FIELD = "insee";
 export const CITY_ID_FALLBACK_FIELDS = ["osm_id", "osmId", "wikidata", "code", "id", "name:fr", "name"];
