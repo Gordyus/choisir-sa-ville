@@ -1,17 +1,16 @@
-import type {
-    ExpressionSpecification,
-    LegacyFilterSpecification,
-    MapGeoJSONFeature,
-    Map as MapLibreMap,
-    SymbolLayerSpecification
+import type { 
+    ExpressionSpecification, 
+    LegacyFilterSpecification, 
+    MapGeoJSONFeature, 
+    Map as MapLibreMap, 
+    SymbolLayerSpecification 
 } from "maplibre-gl";
 
 import {
     CITY_ID_FALLBACK_FIELDS,
     CITY_ID_FIELD,
     CITY_LABEL_LAYERS,
-    debugLogSymbolLabelHints,
-    pickCityIdFieldFromFeatures
+    debugLogSymbolLabelHints
 } from "./interactiveLayers";
 
 const HIGHLIGHT_LAYER_ID = "city-label-hover-highlight";
@@ -43,14 +42,18 @@ const DEFAULT_TEXT_FONT: TextFontValue = ["Open Sans Bold", "Arial Unicode MS Bo
 
 export type CityHighlightHandle = {
     layerId: string;
-    idField: string;
+    idFields: string[];
+    baseFilter?: LegacyFilterSpecification;
 };
 
 export type CityHighlightLayerOptions = {
     logStyleHints?: boolean;
 };
 
-export function ensureCityHighlightLayer(map: MapLibreMap, options?: CityHighlightLayerOptions): CityHighlightHandle | null {
+export function ensureCityHighlightLayer(
+    map: MapLibreMap,
+    options?: CityHighlightLayerOptions
+): CityHighlightHandle | null {
     const existing = highlightHandleCache.get(map);
     if (existing && map.getLayer(existing.layerId)) {
         return existing;
@@ -71,15 +74,18 @@ export function ensureCityHighlightLayer(map: MapLibreMap, options?: CityHighlig
     }
     missingLayerWarned = false;
 
-    const idField = determineCityIdField(map, context) ?? CITY_ID_FIELD;
-    const highlightLayer = buildHighlightLayer(context, idField);
+    const idFields = determineCityIdFields(map, context);
+    const highlightLayer = buildHighlightLayer(context, idFields);
     if (context.insertBeforeId) {
         map.addLayer(highlightLayer, context.insertBeforeId);
     } else {
         map.addLayer(highlightLayer);
     }
 
-    const handle: CityHighlightHandle = { layerId: HIGHLIGHT_LAYER_ID, idField };
+    const handle: CityHighlightHandle = { layerId: HIGHLIGHT_LAYER_ID, idFields };
+    if (typeof context.baseFilter !== "undefined") {
+        handle.baseFilter = context.baseFilter;
+    }
     highlightHandleCache.set(map, handle);
     return handle;
 }
@@ -88,8 +94,8 @@ export function setHoveredCity(map: MapLibreMap, handle: CityHighlightHandle, ci
     if (!map.getLayer(handle.layerId)) {
         return;
     }
-    const filter = cityId ? createMatchFilter(handle.idField, cityId) : createImpossibleFilter(handle.idField);
-    map.setFilter(handle.layerId, filter);
+    const filter = cityId ? createMatchFilter(handle.idFields, cityId) : createImpossibleFilter(handle.idFields);
+    map.setFilter(handle.layerId, withBaseFilter(filter, handle.baseFilter));
 }
 
 export function removeCityHighlightLayer(map: MapLibreMap): void {
@@ -162,33 +168,29 @@ function findLayerInsertedAfter(layers: { id: string }[], referenceLayerId: stri
     return index === -1 ? undefined : layers[index + 1]?.id;
 }
 
-function determineCityIdField(map: MapLibreMap, context: LayerContext): string | null {
+function determineCityIdFields(map: MapLibreMap, context: LayerContext): string[] {
+    const candidates = [CITY_ID_FIELD, ...CITY_ID_FALLBACK_FIELDS];
     try {
         const options: { sourceLayer?: string } = {};
         if (context.sourceLayer) {
             options.sourceLayer = context.sourceLayer;
         }
         const features = map.querySourceFeatures(context.source, options) as MapGeoJSONFeature[];
-        if (!features.length) {
-            return null;
+        if (features.length) {
+            const available = candidates.filter((field) => featureHasReadableProperty(features, field));
+            if (available.length) {
+                return available;
+            }
         }
-        const picked = pickCityIdFieldFromFeatures(features);
-        if (!picked && process.env.NODE_ENV === "development") {
-            console.warn(
-                "[map-style] No suitable identifier found on city label features. Falling back to name-based filtering."
-            );
-        }
-        const fallback = CITY_ID_FALLBACK_FIELDS[CITY_ID_FALLBACK_FIELDS.length - 1];
-        return picked ?? fallback ?? null;
     } catch (error) {
         if (process.env.NODE_ENV === "development") {
             console.warn("[map-style] Unable to inspect source features for city labels", error);
         }
-        return null;
     }
+    return ["name", "name:fr"];
 }
 
-function buildHighlightLayer(context: LayerContext, idField: string): SymbolLayerSpecification {
+function buildHighlightLayer(context: LayerContext, idFields: string[]): SymbolLayerSpecification {
     const textField: TextFieldValue = context.textField ?? DEFAULT_TEXT_FIELD;
     const textSize: TextSizeValue = context.textSize ?? DEFAULT_TEXT_SIZE;
     const textFont: TextFontValue = context.textFont ?? DEFAULT_TEXT_FONT;
@@ -212,9 +214,7 @@ function buildHighlightLayer(context: LayerContext, idField: string): SymbolLaye
             "text-halo-width": 2.5,
             "text-halo-blur": 0.4
         },
-        filter: context.baseFilter
-            ? (["all", context.baseFilter, createImpossibleFilter(idField)] as unknown as LegacyFilterSpecification)
-            : createImpossibleFilter(idField)
+        filter: withBaseFilter(createImpossibleFilter(idFields), context.baseFilter)
     };
 
     if (context.sourceLayer) {
@@ -224,27 +224,64 @@ function buildHighlightLayer(context: LayerContext, idField: string): SymbolLaye
     return layer;
 }
 
-function createImpossibleFilter(idField: string): LegacyFilterSpecification {
-    // Never match: require the property to exist, then compare it to a sentinel value.
-    // This avoids accidentally matching features where the property is missing.
-    return ["all", ["has", idField], ["==", idField, "__never__"]];
+function createImpossibleFilter(idFields: readonly string[]): LegacyFilterSpecification {
+    const fields = ensureFields(idFields);
+    const sentinelField = fields[0] ?? "name";
+    return ["all", createHasAnyExpression(fields), ["==", sentinelField, "__never__"]];
 }
 
-function createMatchFilter(idField: string, cityId: string): LegacyFilterSpecification {
+function createMatchFilter(idFields: readonly string[], cityId: string): LegacyFilterSpecification {
+    const fields = ensureFields(idFields);
     const numericId = parseNumericId(cityId);
-    const match: LegacyFilterSpecification =
-        numericId == null ? (["==", idField, cityId] as unknown as LegacyFilterSpecification) : (["any",
-              ["==", idField, cityId],
-              ["==", idField, numericId]
-          ] as unknown as LegacyFilterSpecification);
-
-    return ["all", ["has", idField], match];
+    const comparisons: LegacyFilterSpecification[] = [];
+    for (const field of fields) {
+        comparisons.push(["==", field, cityId]);
+        if (numericId != null) {
+            comparisons.push(["==", field, numericId]);
+        }
+    }
+    return ["all", createHasAnyExpression(fields), ["any", ...comparisons]];
 }
 
 function parseNumericId(value: string): number | null {
-    if (!/^[1-9]\\d*$/.test(value)) {
+    if (!/^[1-9]\d*$/.test(value)) {
         return null;
     }
     const asNumber = Number(value);
     return Number.isFinite(asNumber) ? asNumber : null;
 }
+
+function createHasAnyExpression(fields: readonly string[]): LegacyFilterSpecification {
+    return ["any", ...fields.map((field) => (["has", field] as LegacyFilterSpecification))];
+}
+
+function ensureFields(fields: readonly string[]): string[] {
+    if (fields.length === 0) {
+        return ["name"];
+    }
+    return [...fields];
+}
+
+function withBaseFilter(
+    filter: LegacyFilterSpecification,
+    baseFilter?: LegacyFilterSpecification
+): LegacyFilterSpecification {
+    if (!baseFilter) {
+        return filter;
+    }
+    return ["all", baseFilter, filter] as unknown as LegacyFilterSpecification;
+}
+
+function featureHasReadableProperty(features: readonly MapGeoJSONFeature[], field: string): boolean {
+    return features.some((feature) => {
+        const value = (feature.properties ?? {})[field];
+        if (typeof value === "string") {
+            return value.length > 0;
+        }
+        if (typeof value === "number") {
+            return Number.isFinite(value);
+        }
+        return false;
+    });
+}
+

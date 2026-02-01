@@ -19,7 +19,7 @@ export const CITY_LABEL_LAYERS: string[] = [
 ];
 
 export const CITY_ID_FIELD = "insee";
-export const CITY_ID_FALLBACK_FIELDS = ["code", "id", "name:fr", "name"];
+export const CITY_ID_FALLBACK_FIELDS = ["osm_id", "osmId", "wikidata", "code", "id", "name:fr", "name"];
 const CITY_NAME_FIELDS = ["name:fr", "name", "name:en"];
 const CITY_ID_SENTINEL = "__none__";
 
