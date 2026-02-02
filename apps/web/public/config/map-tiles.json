@@ -1,17 +1,10 @@
 {
-    "vectorTilesBaseUrl": "http://localhost:8080/data",
     "styleUrl": "http://localhost:8080/styles/basic/style.json",
     "tileJsonSources": {
         "france": "http://localhost:8080/data/france.json",
         "communes": "http://localhost:8080/data/communes.json",
         "arr_municipal": "http://localhost:8080/data/arr_municipal.json"
     },
-    "optionalSourceLayers": [
-        "housenumber"
-    ],
-    "excludeLayers": [
-        "housenumber"
-    ],
     "cityLabelLayerIds": [
         "place_label_other",
         "place_label_city"

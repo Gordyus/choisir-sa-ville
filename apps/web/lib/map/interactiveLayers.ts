@@ -3,62 +3,10 @@
  * This module provides types and utilities for city identification from map features.
  */
 
-import type { ExpressionSpecification, MapGeoJSONFeature, StyleSpecification } from "maplibre-gl";
+import type { MapGeoJSONFeature, StyleSpecification } from "maplibre-gl";
 
-import { DEFAULT_PLACE_CLASSES, FEATURE_FIELDS } from "./registry/layerRegistry";
-
-// Re-export registry constants for backward compatibility
-export {
-    ADMIN_POLYGON_SPECS as ADMIN_POLYGON_LAYER_SPECS,
-    DEFAULT_PLACE_CLASSES,
-    FEATURE_FIELDS,
-    LAYER_IDS,
-    OMT_LABEL_LAYER_IDS as BASE_COMMUNE_LABEL_LAYER_IDS,
-    SOURCE_IDS,
-    SOURCE_LAYERS
-} from "./registry/layerRegistry";
-
-// Re-export layer helpers for backward compatibility
-export {
-    buildPlaceClassExcludeFilter,
-    buildPlaceClassIncludeFilter as buildPlaceClassFilter,
-    getPlaceClasses as getPlaceClassList,
-    setPlaceClasses as setPlaceClassList
-} from "./layers/baseLabels";
-
-// ============================================================================
-// Constants (kept for backward compatibility)
-// ============================================================================
-
-export const CITY_ID_FIELD = FEATURE_FIELDS.inseeCode;
-export const CITY_ID_FALLBACK_FIELDS = FEATURE_FIELDS.fallbackIds;
-
-// Legacy layer IDs - kept for backward compatibility
-export const COMMUNE_POLYGON_SOURCE_ID = "communes";
-export const COMMUNE_POLYGON_SOURCE_LAYER = "communes";
-export const COMMUNE_FILL_LAYER_ID = "communes-fill";
-export const COMMUNE_LINE_LAYER_ID = "communes-line";
-
-export const ARR_MUNICIPAL_SOURCE_ID = "arr_municipal";
-export const ARR_MUNICIPAL_SOURCE_LAYER = "arr_municipal";
-export const ARR_MUNICIPAL_FILL_LAYER_ID = "arr-municipal-fill";
-export const ARR_MUNICIPAL_LINE_LAYER_ID = "arr-municipal-line";
-
-// Legacy - kept for cityInteractiveLayer.ts compatibility
-export const COMMUNE_LABEL_LAYERS: string[] = [
-    "custom-city-label::place_label_other",
-    "custom-city-label::place_label_city",
-    "place_label_other",
-    "place_label_city"
-];
-
-export const MANAGED_CITY_LABEL_LAYER_PREFIX = "custom-city-label::";
-export const MANAGED_CITY_LABEL_METADATA_FLAG = "csv:managedCityLabel";
-export const MANAGED_CITY_LABEL_METADATA_BASE_ID = "csv:managedCityBaseLayerId";
-
-export function buildManagedCityLabelLayerId(layerId: string): string {
-    return `${MANAGED_CITY_LABEL_LAYER_PREFIX}${layerId}`;
-}
+import { getPlaceClasses } from "./layers/baseLabels";
+import { FEATURE_FIELDS } from "./registry/layerRegistry";
 
 // ============================================================================
 // Types
@@ -90,7 +38,8 @@ export type CityIdentity = {
 // ============================================================================
 
 const CITY_NAME_FIELDS = FEATURE_FIELDS.names;
-const CITY_ID_SENTINEL = "__none__";
+const CITY_ID_FIELD = FEATURE_FIELDS.inseeCode;
+const CITY_ID_FALLBACK_FIELDS = FEATURE_FIELDS.fallbackIds;
 const CITY_RANK_FIELDS = ["rank", "rank_local"] as const;
 const CITY_CAPITAL_FIELDS = ["capital", "capital_level", "capital:municipality"] as const;
 const PROPERTY_SNAPSHOT_FIELDS = [
@@ -108,24 +57,6 @@ const PROPERTY_SNAPSHOT_FIELDS = [
     "wikidata",
     "insee"
 ] as const;
-
-// Place class state
-let placeClassSet = new Set(DEFAULT_PLACE_CLASSES.map((c) => c.toLowerCase()));
-
-// Update place class set when classes change (called from baseLabels)
-export function _updatePlaceClassSet(classes: readonly string[]): void {
-    placeClassSet = new Set(classes.map((c) => c.toLowerCase()));
-}
-
-export const CITY_ID_EXPRESSION: ExpressionSpecification = [
-    "coalesce",
-    ["get", CITY_ID_FIELD],
-    ...CITY_ID_FALLBACK_FIELDS.map((field) => ["get", field])
-] as unknown as ExpressionSpecification;
-
-export function createCityIdMatchExpression(cityId: string | null): ExpressionSpecification {
-    return ["==", CITY_ID_EXPRESSION, cityId ?? CITY_ID_SENTINEL];
-}
 
 export function extractCityIdentity(feature: MapGeoJSONFeature): CityIdentity | null {
     const inseeCandidate = pickFirstString(feature, [CITY_ID_FIELD]);
@@ -156,16 +87,6 @@ export function extractCityIdentity(feature: MapGeoJSONFeature): CityIdentity | 
         identity.resolutionStatus = "resolved";
     }
     return identity;
-}
-
-export function pickCityIdFieldFromFeatures(features: readonly MapGeoJSONFeature[]): string | null {
-    const fieldOrder = [CITY_ID_FIELD, ...CITY_ID_FALLBACK_FIELDS];
-    for (const field of fieldOrder) {
-        if (features.some((feature) => hasReadableProperty(feature, field))) {
-            return field;
-        }
-    }
-    return null;
 }
 
 let hasLoggedSymbolHints = false;
@@ -225,17 +146,14 @@ function pickFirstNumber(feature: MapGeoJSONFeature, fields: readonly string[]):
     return null;
 }
 
-function hasReadableProperty(feature: MapGeoJSONFeature, field: string): boolean {
-    return pickFirstString(feature, [field]) !== null;
-}
-
 function readPlaceClass(feature: MapGeoJSONFeature): CityPlaceClass | null {
     const rawValue = (feature.properties ?? {}).class;
     if (typeof rawValue !== "string") {
         return null;
     }
     const normalized = rawValue.trim().toLowerCase();
-    return placeClassSet.has(normalized) ? normalized : null;
+    const classSet = new Set(getPlaceClasses().map((c) => c.toLowerCase()));
+    return classSet.has(normalized) ? normalized : null;
 }
 
 function readCityRank(feature: MapGeoJSONFeature): number | null {

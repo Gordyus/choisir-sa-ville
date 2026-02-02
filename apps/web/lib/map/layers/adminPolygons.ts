@@ -14,7 +14,6 @@ import type { PolygonSourcesConfig } from "@/lib/config/mapTilesConfig";
 import {
     ADMIN_POLYGON_SPECS,
     FEATURE_FIELDS,
-    SOURCE_IDS,
     type AdminPolygonSpec
 } from "@/lib/map/registry/layerRegistry";
 import type { VectorLayerAvailability } from "@/lib/map/style/styleLoader";

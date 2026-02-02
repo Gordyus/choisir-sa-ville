@@ -52,9 +52,7 @@ export default function VectorMap({ className, onCityClick }: VectorMapProps): J
 
             try {
                 const appConfig = await loadAppConfig(controller.signal);
-                const style = await loadMapStyle(appConfig.mapTiles, controller.signal, {
-                    enableManagedCityLabels: appConfig.debug.managedCityLabelsEnabled
-                });
+                const style = await loadMapStyle(appConfig.mapTiles, controller.signal);
                 if (appConfig.debug.enabled && appConfig.debug.logStyleHints) {
                     debugLogSymbolLabelHints(style);
                 }

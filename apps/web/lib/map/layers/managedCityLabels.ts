@@ -60,7 +60,7 @@ export function splitCityLabelLayers(
     styleOverrides?: CityLabelStyleConfig
 ): StyleSpecification["layers"] {
     if (!layers) return layers;
-    
+
     const ids = targetIds ?? new Set(OMT_LABEL_LAYER_IDS);
     if (!ids.size) return layers;
 
@@ -133,10 +133,10 @@ function buildManagedLayerPair(
     // Base layer excludes city classes, managed layer includes them
     baseLayer.filter = combineFilters(originalFilter, cloneFilter(excludeFilter));
     managedLayer.filter = combineFilters(originalFilter, cloneFilter(includeFilter));
-    
+
     // Give managed layer a distinct ID
     managedLayer.id = buildManagedCityLabelLayerId(layer.id);
-    
+
     // Apply styling
     managedLayer.paint = buildManagedPaint(layer.paint, styleOverrides);
     managedLayer.metadata = buildManagedMetadata(layer);
@@ -159,12 +159,12 @@ function combineFilters(
     additional: LegacyFilterSpecification
 ): LegacyFilterSpecification {
     if (!existing) return additional;
-    
+
     // If existing is already an "all" compound, append to it
     if (Array.isArray(existing) && existing[0] === "all") {
         return [...existing, additional] as LegacyFilterSpecification;
     }
-    
+
     // Otherwise wrap both in "all"
     return ["all", existing, additional] as LegacyFilterSpecification;
 }
@@ -220,7 +220,7 @@ function applyLayoutOverrides(
     overrides?: CityLabelStyleConfig
 ): void {
     if (!overrides) return;
-    
+
     layer.layout = layer.layout ?? {};
 
     if (overrides.textFont) {
@@ -242,7 +242,7 @@ function applyHoverResponsiveTextSize(layer: SymbolLayerSpecification): void {
         "case",
         ["boolean", ["feature-state", "selected"], false],
         baseSize * 1.1,
-        ["boolean", ["feature-state", "hovered"], false],
+        ["boolean", ["feature-state", "hover"], false],
         baseSize * 1.05,
         baseSize
     ] as ExpressionSpecification;
@@ -260,7 +260,7 @@ function buildFeatureStateColor(
         "case",
         ["boolean", ["feature-state", "selected"], false],
         selected,
-        ["boolean", ["feature-state", "hovered"], false],
+        ["boolean", ["feature-state", "hover"], false],
         hover,
         base
     ];
@@ -278,7 +278,7 @@ function buildFeatureStateNumber(
         "case",
         ["boolean", ["feature-state", "selected"], false],
         selected,
-        ["boolean", ["feature-state", "hovered"], false],
+        ["boolean", ["feature-state", "hover"], false],
         hover,
         base
     ];

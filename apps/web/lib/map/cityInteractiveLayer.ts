@@ -12,25 +12,10 @@ import type {
 } from "maplibre-gl";
 
 import { buildPlaceClassIncludeFilter } from "./layers/baseLabels";
-import {
-    buildCityHitboxLayerId,
-    extractLabelLayerIdFromHitbox,
-    isCityHitboxLayer,
-    LAYER_IDS,
-    OMT_LABEL_LAYER_IDS
-} from "./registry/layerRegistry";
-
-// Re-export for backward compatibility
-export { buildCityHitboxLayerId as buildInteractiveLayerId };
-export { extractLabelLayerIdFromHitbox as extractLabelLayerIdFromInteractive };
-export const COMMUNE_INTERACTIVE_LAYER_PREFIX = LAYER_IDS.cityHitboxPrefix;
+import { isManagedCityLabelLayer } from "./layers/managedCityLabels";
+import { buildCityHitboxLayerId, isCityHitboxLayer } from "./registry/layerRegistry";
 
 const NAME_FIELDS = ["name:fr", "name", "name:en"] as const;
-
-let missingReferenceLayerWarned = false;
-
-// Managed city label layer metadata flag (for backward compatibility)
-const MANAGED_CITY_LABEL_METADATA_FLAG = "csv:managedCityLabel";
 
 type LabelLayerContext = {
     labelLayerId: string;
@@ -50,15 +35,8 @@ export type CommuneInteractiveLayerHandle = {
 export function ensureCommuneInteractiveLayers(map: MapLibreMap): CommuneInteractiveLayerHandle | null {
     const contexts = collectLabelLayerContexts(map);
     if (!contexts.length) {
-        if (!missingReferenceLayerWarned) {
-            console.warn(
-                `[map-style] Unable to derive commune interactive layers; looked for: ${OMT_LABEL_LAYER_IDS.join(", ")}`
-            );
-            missingReferenceLayerWarned = true;
-        }
         return null;
     }
-    missingReferenceLayerWarned = false;
 
     const layerIds: string[] = [];
     const addedLayerIds: string[] = [];
@@ -92,31 +70,7 @@ export function listCommuneInteractiveLayerIds(map: MapLibreMap): string[] {
 function collectLabelLayerContexts(map: MapLibreMap): LabelLayerContext[] {
     const style = map.getStyle();
     const layers = style?.layers ?? [];
-    const managedContexts = collectManagedLabelContexts(layers);
-    if (managedContexts.length) {
-        return managedContexts;
-    }
-
-    const contexts: LabelLayerContext[] = [];
-    for (const labelLayerId of OMT_LABEL_LAYER_IDS) {
-        const layer = layers.find((entry) => entry.id === labelLayerId);
-        const context = normalizeLayerContext(layer);
-        if (context) {
-            contexts.push(context);
-        }
-    }
-
-    if (!contexts.length) {
-        const fallback = layers.find(
-            (layer) => layer.type === "symbol" && typeof (layer as { source?: unknown }).source === "string"
-        );
-        const context = normalizeLayerContext(fallback);
-        if (context) {
-            contexts.push(context);
-        }
-    }
-
-    return contexts;
+    return collectManagedLabelContexts(layers);
 }
 
 function collectManagedLabelContexts(layers: StyleSpecification["layers"]): LabelLayerContext[] {
@@ -124,17 +78,6 @@ function collectManagedLabelContexts(layers: StyleSpecification["layers"]): Labe
         .filter((layer) => isManagedCityLabelLayer(layer))
         .map((layer) => normalizeLayerContext(layer))
         .filter((context): context is LabelLayerContext => Boolean(context));
-}
-
-function isManagedCityLabelLayer(layer: StyleSpecification["layers"][number] | undefined): boolean {
-    if (!layer) {
-        return false;
-    }
-    const metadata = (layer as { metadata?: unknown }).metadata;
-    if (!metadata || typeof metadata !== "object") {
-        return false;
-    }
-    return Boolean((metadata as Record<string, unknown>)[MANAGED_CITY_LABEL_METADATA_FLAG]);
 }
 
 function normalizeLayerContext(layer: StyleSpecification["layers"][number] | undefined): LabelLayerContext | null {

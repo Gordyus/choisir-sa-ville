@@ -5,17 +5,7 @@
 
 import type { Map as MapLibreMap, StyleSpecification } from "maplibre-gl";
 
-import { OMT_LABEL_LAYER_IDS } from "./registry/layerRegistry";
-
-// Managed city label metadata flag
-const MANAGED_CITY_LABEL_METADATA_FLAG = "csv:managedCityLabel";
-
-// List of commune label layers to look for
-const COMMUNE_LABEL_LAYERS: string[] = [
-    "custom-city-label::place_label_other",
-    "custom-city-label::place_label_city",
-    ...OMT_LABEL_LAYER_IDS
-];
+import { isManagedCityLabelLayer } from "./layers/managedCityLabels";
 
 const highlightHandleCache = new WeakMap<MapLibreMap, CityHighlightHandle>();
 let missingLayerWarned = false;
@@ -49,9 +39,7 @@ export function ensureCityHighlightLayer(
             if (options?.logStyleHints) {
                 debugLogSymbolLabelHints(map.getStyle());
             }
-            console.warn(
-                `[map-style] Unable to locate managed commune label layers. Looked for: ${COMMUNE_LABEL_LAYERS.join(", ")}`
-            );
+            console.warn("[map-style] Unable to locate managed commune label layers.");
             missingLayerWarned = true;
         }
         return null;
@@ -99,17 +87,6 @@ function hasManagedCityLabelLayer(map: MapLibreMap): boolean {
         return false;
     }
     return layers.some((layer) => isManagedCityLabelLayer(layer));
-}
-
-function isManagedCityLabelLayer(layer: StyleSpecification["layers"][number] | undefined): boolean {
-    if (!layer) {
-        return false;
-    }
-    const metadata = (layer as { metadata?: unknown }).metadata;
-    if (!metadata || typeof metadata !== "object") {
-        return false;
-    }
-    return Boolean((metadata as Record<string, unknown>)[MANAGED_CITY_LABEL_METADATA_FLAG]);
 }
 
 function updateFeatureState(

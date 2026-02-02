@@ -58,8 +58,8 @@ export type OmtLabelLayerId = (typeof OMT_LABEL_LAYER_IDS)[number];
 // ============================================================================
 
 export const ZOOM_RANGES = {
-    communes: { min: 9, max: 13 } as const,
-    arrMunicipal: { min: 11, max: 13 } as const
+    communes: { min: 11, max: 15 } as const,
+    arrMunicipal: { min: 13, max: 15 } as const
 } as const;
 
 // ============================================================================

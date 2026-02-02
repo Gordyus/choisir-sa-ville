@@ -4,7 +4,6 @@ export type DebugConfig = {
     logStyleHints: boolean;
     showTileBoundaries: boolean;
     showCollisionBoxes: boolean;
-    managedCityLabelsEnabled: boolean;
 };
 
 const DEFAULT_CONFIG: DebugConfig = {
@@ -12,8 +11,7 @@ const DEFAULT_CONFIG: DebugConfig = {
     logHoverFeatures: false,
     logStyleHints: false,
     showTileBoundaries: false,
-    showCollisionBoxes: false,
-    managedCityLabelsEnabled: true
+    showCollisionBoxes: false
 };
 
 let debugConfigPromise: Promise<DebugConfig> | null = null;
@@ -68,19 +66,13 @@ function parseDebugConfig(value: unknown): DebugConfig | null {
     const logStyleHints = toBoolean(record.logStyleHints);
     const showTileBoundaries = toBoolean(record.showTileBoundaries);
     const showCollisionBoxes = toBoolean(record.showCollisionBoxes);
-    const managedCityLabelsEnabledRaw = record.managedCityLabelsEnabled;
-    const managedCityLabelsEnabled =
-        typeof managedCityLabelsEnabledRaw === "undefined"
-            ? true
-            : toBoolean(managedCityLabelsEnabledRaw);
 
     if (
         enabled == null ||
         logHoverFeatures == null ||
         logStyleHints == null ||
         showTileBoundaries == null ||
-        showCollisionBoxes == null ||
-        managedCityLabelsEnabled == null
+        showCollisionBoxes == null
     ) {
         return null;
     }
@@ -90,8 +82,7 @@ function parseDebugConfig(value: unknown): DebugConfig | null {
         logHoverFeatures,
         logStyleHints,
         showTileBoundaries,
-        showCollisionBoxes,
-        managedCityLabelsEnabled
+        showCollisionBoxes
     };
 }
 
@@ -99,4 +90,3 @@ function toBoolean(value: unknown): boolean | null {
     if (typeof value !== "boolean") return null;
     return value;
 }
-

@@ -1,6 +1,14 @@
 /**
  * Style Pipeline - Orchestrates loading and transforming MapLibre styles.
- * This is the main entry point for loading map styles with all customizations.
+ * This is the single entry point for loading map styles with all customizations.
+ *
+ * Layer ordering and injection:
+ * 1. Base style is fetched from styleUrl
+ * 2. TileJSON metadata is loaded to check source-layer availability
+ * 3. Layers with unavailable source-layers are removed
+ * 4. City label layers are split into managed (feature-state) and base variants
+ * 5. Admin polygon sources (communes, arr_municipal) are injected before labels
+ * 6. Final style is returned with deterministic layer ordering
  */
 
 import type { StyleSpecification } from "maplibre-gl";
@@ -14,29 +22,15 @@ import { OMT_LABEL_LAYER_IDS } from "../registry/layerRegistry";
 import { loadSourceAvailability, loadStyle, type VectorLayerAvailability } from "./styleLoader";
 import { sanitizeLayers } from "./styleSanitizer";
 
-export type StylePipelineOptions = {
-    /** Enable verbose logging */
-    verbose?: boolean;
-    /** Enable managed city labels with feature-state styling (default: true) */
-    enableManagedCityLabels?: boolean;
-};
-
 /**
- * Load and transform a MapLibre style with all customizations:
- * - Fetches the base style from styleUrl
- * - Loads TileJSON metadata for auxiliary sources
- * - Sanitizes layers (removes excluded, optional missing, etc.)
- * - Splits city label layers for feature-state styling
- * - Injects admin polygon sources and layers
- * - Sets up place class filtering
+ * Load and transform a MapLibre style with all customizations.
+ * This is the ONLY way to load a map style - no alternative code paths exist.
  */
 export async function loadMapStyle(
     config: MapTilesConfig,
-    signal?: AbortSignal,
-    options?: StylePipelineOptions
+    signal?: AbortSignal
 ): Promise<StyleSpecification> {
-    const verbose = options?.verbose ?? (process.env.NODE_ENV === "development");
-    const enableManagedCityLabels = options?.enableManagedCityLabels ?? true;
+    const verbose = process.env.NODE_ENV === "development";
 
     // Step 1: Load base style and source availability in parallel
     const [baseStyle, availability] = await Promise.all([
@@ -48,21 +42,14 @@ export async function loadMapStyle(
         return baseStyle;
     }
 
-    // Step 2: Set up place class filtering
+    // Step 2: Configure place class filtering (city/town/village)
     setPlaceClasses(config.cityClasses);
 
-    // Step 3: Sanitize layers
-    const sanitizeOpts: Parameters<typeof sanitizeLayers>[1] = {
-        availability,
-        verbose
-    };
-    if (config.excludeLayers) sanitizeOpts.excludeLayers = config.excludeLayers;
-    if (config.optionalSourceLayers) sanitizeOpts.optionalSourceLayers = config.optionalSourceLayers;
-    
-    let processedLayers = sanitizeLayers(baseStyle.layers, sanitizeOpts);
+    // Step 3: Sanitize layers - remove those with unavailable source-layers
+    let processedLayers = sanitizeLayers(baseStyle.layers, { availability, verbose });
 
     // Step 4: Split city label layers for managed hover/selection styling
-    if (enableManagedCityLabels && !hasManagedCityLayers(processedLayers)) {
+    if (!hasManagedCityLayers(processedLayers)) {
         const targetIds = new Set(config.cityLabelLayerIds ?? OMT_LABEL_LAYER_IDS);
         processedLayers = splitCityLabelLayers(
             processedLayers,
@@ -78,7 +65,7 @@ export async function loadMapStyle(
         sources: { ...(baseStyle.sources ?? {}) }
     };
 
-    // Step 6: Inject admin polygon sources and layers
+    // Step 6: Inject admin polygon sources and layers (before labels for proper z-order)
     injectAdminPolygons(outputStyle, config.polygonSources, availability);
 
     return outputStyle;
@@ -117,5 +104,6 @@ async function loadTileJsonAvailability(
 }
 
 // Re-export commonly used types and functions for convenience
+export { getPlaceClasses, setPlaceClasses } from "../layers/baseLabels";
 export { type VectorLayerAvailability } from "./styleLoader";
-export { setPlaceClasses, getPlaceClasses } from "../layers/baseLabels";
+

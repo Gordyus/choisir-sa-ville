@@ -13,12 +13,8 @@ import type {
 
 import type { FeatureStateTarget } from "./cityHighlightLayers";
 import { getInseeByOsmId, getInseeByWikidata } from "./cityInseeIndex";
-import {
-    extractLabelLayerIdFromInteractive,
-    listCommuneInteractiveLayerIds
-} from "./cityInteractiveLayer";
 import { extractCityIdentity, type CityIdentity } from "./interactiveLayers";
-import { ADMIN_POLYGON_SPECS, FEATURE_FIELDS } from "./registry/layerRegistry";
+import { ADMIN_POLYGON_SPECS, extractLabelLayerIdFromHitbox, FEATURE_FIELDS } from "./registry/layerRegistry";
 
 const HOVER_THROTTLE_MS = 60;
 const CLICK_HITBOX_PX = 8;
@@ -26,23 +22,14 @@ const unresolvedWarningKeys = new Set<string>();
 
 type PolygonInteractionConfig = {
     layerId: string;
-    sourceId: string;
-    sourceLayer: string;
-    promoteIdField: string;
 };
 
 const POLYGON_INTERACTION_CONFIGS: PolygonInteractionConfig[] = [
     {
-        layerId: ADMIN_POLYGON_SPECS.arrMunicipal.fillLayerId,
-        sourceId: ADMIN_POLYGON_SPECS.arrMunicipal.sourceId,
-        sourceLayer: ADMIN_POLYGON_SPECS.arrMunicipal.sourceLayer,
-        promoteIdField: FEATURE_FIELDS.inseeCode
+        layerId: ADMIN_POLYGON_SPECS.arrMunicipal.fillLayerId
     },
     {
-        layerId: ADMIN_POLYGON_SPECS.communes.fillLayerId,
-        sourceId: ADMIN_POLYGON_SPECS.communes.sourceId,
-        sourceLayer: ADMIN_POLYGON_SPECS.communes.sourceLayer,
-        promoteIdField: FEATURE_FIELDS.inseeCode
+        layerId: ADMIN_POLYGON_SPECS.communes.fillLayerId
     }
 ];
 
@@ -77,7 +64,7 @@ type CityInteractionListener = (event: CityInteractionEvent) => void;
 
 export type CityInteractionServiceOptions = {
     logHoverFeatures?: boolean;
-    interactiveLayerIds?: string[];
+    interactiveLayerIds: string[];
 };
 
 export function attachCityInteractionService(
@@ -89,7 +76,10 @@ export function attachCityInteractionService(
     let lastMoveTs = 0;
     let selectedPolygonTargets: FeatureStateTarget[] = [];
     const logHoverFeatures = options?.logHoverFeatures ?? false;
-    const interactiveLayerIds = resolveInteractiveLayerIds(map, options?.interactiveLayerIds);
+    const interactiveLayerIds = options?.interactiveLayerIds;
+    if (!interactiveLayerIds || !interactiveLayerIds.length) {
+        return () => { /* noop */ };
+    }
     const polygonHoverCleanup = attachPolygonHoverHandlers(map);
 
     const applyPolygonSelection = (nextTargets: FeatureStateTarget[]): void => {
@@ -214,11 +204,7 @@ function attachPolygonHoverHandler(map: MapLibreMap, config: PolygonInteractionC
             applyHover(null);
             return;
         }
-        const target = createFeatureStateTarget(feature, {
-            sourceId: config.sourceId,
-            sourceLayer: config.sourceLayer,
-            promoteIdField: config.promoteIdField
-        });
+        const target = createFeatureStateTarget(feature);
         applyHover(target);
     };
 
@@ -312,7 +298,6 @@ function pickCityFeature(
         return null;
     }
     if (!interactiveLayerIds.length) {
-        warnMissingInteractiveLayer();
         return null;
     }
     const queryGeometry = buildQueryGeometry(point, options.searchRadius, map);
@@ -343,30 +328,13 @@ function pickCityFeature(
         return {
             city: resolvedCity,
             interactiveLayerId: layerId,
-            labelLayerId: extractLabelLayerIdFromInteractive(layerId),
+            labelLayerId: extractLabelLayerIdFromHitbox(layerId),
             featureStateTarget: createFeatureStateTarget(feature),
             lngLat,
             polygonTargets
         };
     }
     return null;
-}
-
-let hasWarnedMissingInteractiveLayer = false;
-
-function warnMissingInteractiveLayer(): void {
-    if (hasWarnedMissingInteractiveLayer) {
-        return;
-    }
-    console.warn("[map-interaction] Interactive commune layers are missing. Pointer events will be ignored.");
-    hasWarnedMissingInteractiveLayer = true;
-}
-
-function resolveInteractiveLayerIds(map: MapLibreMap, explicit?: string[]): string[] {
-    if (explicit?.length) {
-        return [...new Set(explicit)];
-    }
-    return listCommuneInteractiveLayerIds(map);
 }
 
 function buildQueryGeometry(
@@ -552,26 +520,18 @@ function projectPoint(map: MapLibreMap, point: PointLike): { lng: number; lat: n
     }
 }
 
-function createFeatureStateTarget(feature: MapGeoJSONFeature): FeatureStateTarget | null;
-function createFeatureStateTarget(
-    feature: MapGeoJSONFeature,
-    fallback?: { sourceId?: string; sourceLayer?: string; promoteIdField?: string }
-): FeatureStateTarget | null;
-function createFeatureStateTarget(
-    feature: MapGeoJSONFeature,
-    fallback?: { sourceId?: string; sourceLayer?: string; promoteIdField?: string }
-): FeatureStateTarget | null {
+function createFeatureStateTarget(feature: MapGeoJSONFeature): FeatureStateTarget | null {
     const source = typeof (feature as { source?: unknown }).source === "string"
         ? (feature as { source: string }).source
-        : fallback?.sourceId;
+        : null;
     if (!source) {
         return null;
     }
-    const id = feature.id ?? readPromotedId(feature, fallback?.promoteIdField ?? FEATURE_FIELDS.inseeCode);
+    const id = feature.id ?? readPromotedId(feature, FEATURE_FIELDS.inseeCode);
     if (id === null || typeof id === "undefined") {
         return null;
     }
-    const sourceLayer = (feature as { sourceLayer?: string }).sourceLayer ?? fallback?.sourceLayer;
+    const sourceLayer = (feature as { sourceLayer?: string }).sourceLayer;
     const result: FeatureStateTarget = { source, id };
     if (sourceLayer) {
         result.sourceLayer = sourceLayer;

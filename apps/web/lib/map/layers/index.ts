@@ -6,14 +6,9 @@ export { injectAdminPolygons } from "./adminPolygons";
 export {
     buildPlaceClassExcludeFilter,
     buildPlaceClassIncludeFilter,
-    ensureHitboxLayers,
-    extractLabelContexts,
-    extractLabelContextsFromMap,
     getPlaceClasses,
     isPlaceClass,
-    listHitboxLayerIds,
-    setPlaceClasses,
-    type LabelLayerContext
+    setPlaceClasses
 } from "./baseLabels";
 export {
     ARR_MUNICIPAL_COLORS,
@@ -41,3 +36,4 @@ export {
     isManagedCityLabelLayer,
     splitCityLabelLayers
 } from "./managedCityLabels";
+
