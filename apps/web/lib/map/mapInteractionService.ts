@@ -1,3 +1,8 @@
+/**
+ * Map Interaction Service - Handles hover and click interactions on the map.
+ * Manages feature state for polygons and resolves city identities.
+ */
+
 import type {
     MapGeoJSONFeature,
     MapLayerMouseEvent,
@@ -12,12 +17,8 @@ import {
     extractLabelLayerIdFromInteractive,
     listCommuneInteractiveLayerIds
 } from "./cityInteractiveLayer";
-import {
-    ADMIN_POLYGON_LAYER_SPECS,
-    CITY_ID_FIELD,
-    extractCityIdentity,
-    type CityIdentity
-} from "./interactiveLayers";
+import { extractCityIdentity, type CityIdentity } from "./interactiveLayers";
+import { ADMIN_POLYGON_SPECS, FEATURE_FIELDS } from "./registry/layerRegistry";
 
 const HOVER_THROTTLE_MS = 60;
 const CLICK_HITBOX_PX = 8;
@@ -32,16 +33,16 @@ type PolygonInteractionConfig = {
 
 const POLYGON_INTERACTION_CONFIGS: PolygonInteractionConfig[] = [
     {
-        layerId: ADMIN_POLYGON_LAYER_SPECS.arrMunicipal.fillLayerId,
-        sourceId: ADMIN_POLYGON_LAYER_SPECS.arrMunicipal.sourceId,
-        sourceLayer: ADMIN_POLYGON_LAYER_SPECS.arrMunicipal.sourceLayer,
-        promoteIdField: CITY_ID_FIELD
+        layerId: ADMIN_POLYGON_SPECS.arrMunicipal.fillLayerId,
+        sourceId: ADMIN_POLYGON_SPECS.arrMunicipal.sourceId,
+        sourceLayer: ADMIN_POLYGON_SPECS.arrMunicipal.sourceLayer,
+        promoteIdField: FEATURE_FIELDS.inseeCode
     },
     {
-        layerId: ADMIN_POLYGON_LAYER_SPECS.communes.fillLayerId,
-        sourceId: ADMIN_POLYGON_LAYER_SPECS.communes.sourceId,
-        sourceLayer: ADMIN_POLYGON_LAYER_SPECS.communes.sourceLayer,
-        promoteIdField: CITY_ID_FIELD
+        layerId: ADMIN_POLYGON_SPECS.communes.fillLayerId,
+        sourceId: ADMIN_POLYGON_SPECS.communes.sourceId,
+        sourceLayer: ADMIN_POLYGON_SPECS.communes.sourceLayer,
+        promoteIdField: FEATURE_FIELDS.inseeCode
     }
 ];
 
@@ -190,9 +191,7 @@ function attachPolygonHoverHandlers(map: MapLibreMap): Array<() => void> {
 
 function attachPolygonHoverHandler(map: MapLibreMap, config: PolygonInteractionConfig): () => void {
     if (!map.getLayer(config.layerId)) {
-        return () => {
-            /* noop */
-        };
+        return () => { /* noop */ };
     }
     let currentTarget: FeatureStateTarget | null = null;
 
@@ -496,7 +495,7 @@ function queryPolygonCityHits(map: MapLibreMap, geometry: QueryGeometry): Polygo
     }
     const features = map.queryRenderedFeatures(geometry, { layers: layerIds });
     return features.map((feature) => ({
-        inseeCode: readProperty(feature, [CITY_ID_FIELD]),
+        inseeCode: readProperty(feature, [FEATURE_FIELDS.inseeCode]),
         target: createFeatureStateTarget(feature),
         layerId: feature.layer?.id ?? null
     }));
@@ -568,16 +567,16 @@ function createFeatureStateTarget(
     if (!source) {
         return null;
     }
-    const id = feature.id ?? readPromotedId(feature, fallback?.promoteIdField ?? CITY_ID_FIELD);
+    const id = feature.id ?? readPromotedId(feature, fallback?.promoteIdField ?? FEATURE_FIELDS.inseeCode);
     if (id === null || typeof id === "undefined") {
         return null;
     }
     const sourceLayer = (feature as { sourceLayer?: string }).sourceLayer ?? fallback?.sourceLayer;
-    return {
-        source,
-        id,
-        sourceLayer: sourceLayer ?? undefined
-    };
+    const result: FeatureStateTarget = { source, id };
+    if (sourceLayer) {
+        result.sourceLayer = sourceLayer;
+    }
+    return result;
 }
 
 function readPromotedId(feature: MapGeoJSONFeature, field?: string): string | number | null {

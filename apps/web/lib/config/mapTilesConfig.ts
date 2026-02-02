@@ -280,17 +280,19 @@ function parseCityLabelStyleConfig(value: unknown): CityLabelStyleConfig | undef
     return Object.keys(style).length ? style : undefined;
 }
 
-const COLOR_KEYS: Array<keyof CityLabelStyleConfig> = [
+const COLOR_KEYS = [
     "textColor",
     "hoverTextColor",
     "selectedTextColor",
     "textHaloColor",
     "hoverTextHaloColor",
     "selectedTextHaloColor"
-];
+] as const;
+
+type ColorKey = (typeof COLOR_KEYS)[number];
 
 function assignColor(target: CityLabelStyleConfig, key: keyof CityLabelStyleConfig, value: unknown): void {
-    if (!COLOR_KEYS.includes(key)) {
+    if (!COLOR_KEYS.includes(key as ColorKey)) {
         return;
     }
     if (typeof value !== "string") {
@@ -300,23 +302,25 @@ function assignColor(target: CityLabelStyleConfig, key: keyof CityLabelStyleConf
     if (!trimmed) {
         return;
     }
-    target[key] = trimmed;
+    (target as Record<ColorKey, string>)[key as ColorKey] = trimmed;
 }
 
-const NUMERIC_KEYS: Array<keyof CityLabelStyleConfig> = [
+const NUMERIC_KEYS = [
     "textHaloWidth",
     "hoverTextHaloWidth",
     "selectedTextHaloWidth"
-];
+] as const;
+
+type NumericKey = (typeof NUMERIC_KEYS)[number];
 
 function assignNumber(target: CityLabelStyleConfig, key: keyof CityLabelStyleConfig, value: unknown): void {
-    if (!NUMERIC_KEYS.includes(key)) {
+    if (!NUMERIC_KEYS.includes(key as NumericKey)) {
         return;
     }
     if (typeof value !== "number" || !Number.isFinite(value)) {
         return;
     }
-    target[key] = value;
+    (target as Record<NumericKey, number>)[key as NumericKey] = value;
 }
 
 function toNonEmptyString(value: unknown): string | null {

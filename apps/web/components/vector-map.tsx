@@ -18,7 +18,7 @@ import { initCityInseeIndex } from "@/lib/map/cityInseeIndex";
 import { ensureCommuneInteractiveLayers, listCommuneInteractiveLayerIds } from "@/lib/map/cityInteractiveLayer";
 import { debugLogSymbolLabelHints, type CityIdentity } from "@/lib/map/interactiveLayers";
 import { attachCityInteractionService } from "@/lib/map/mapInteractionService";
-import { loadVectorMapStyle } from "@/lib/map/mapStyle";
+import { loadMapStyle } from "@/lib/map/style/stylePipeline";
 import { cn } from "@/lib/utils";
 
 const INITIAL_CENTER: [number, number] = [2.2137, 46.2276];
@@ -52,7 +52,7 @@ export default function VectorMap({ className, onCityClick }: VectorMapProps): J
 
             try {
                 const appConfig = await loadAppConfig(controller.signal);
-                const style = await loadVectorMapStyle(appConfig.mapTiles, controller.signal, {
+                const style = await loadMapStyle(appConfig.mapTiles, controller.signal, {
                     enableManagedCityLabels: appConfig.debug.managedCityLabelsEnabled
                 });
                 if (appConfig.debug.enabled && appConfig.debug.logStyleHints) {

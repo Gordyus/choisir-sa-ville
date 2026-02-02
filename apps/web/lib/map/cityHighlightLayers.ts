@@ -1,10 +1,21 @@
+/**
+ * City Highlight Layers - Manages hover and selection state for city labels.
+ * Uses feature-state for styling changes without layer filter manipulation.
+ */
+
 import type { Map as MapLibreMap, StyleSpecification } from "maplibre-gl";
 
-import {
-    COMMUNE_LABEL_LAYERS,
-    debugLogSymbolLabelHints,
-    MANAGED_CITY_LABEL_METADATA_FLAG
-} from "./interactiveLayers";
+import { OMT_LABEL_LAYER_IDS } from "./registry/layerRegistry";
+
+// Managed city label metadata flag
+const MANAGED_CITY_LABEL_METADATA_FLAG = "csv:managedCityLabel";
+
+// List of commune label layers to look for
+const COMMUNE_LABEL_LAYERS: string[] = [
+    "custom-city-label::place_label_other",
+    "custom-city-label::place_label_city",
+    ...OMT_LABEL_LAYER_IDS
+];
 
 const highlightHandleCache = new WeakMap<MapLibreMap, CityHighlightHandle>();
 let missingLayerWarned = false;
@@ -167,3 +178,18 @@ function applyFeatureState(
     }
 }
 
+function debugLogSymbolLabelHints(style?: StyleSpecification | null): void {
+    if (!style?.layers) {
+        return;
+    }
+    const candidates = style.layers.filter((layer) => {
+        if (layer.type !== "symbol") {
+            return false;
+        }
+        const layout = layer.layout as Record<string, unknown> | undefined;
+        return layout && typeof layout["text-field"] !== "undefined";
+    });
+    if (candidates.length) {
+        console.warn("[map-style] Available text symbol layers:", candidates.map((layer) => layer.id).join(", "));
+    }
+}

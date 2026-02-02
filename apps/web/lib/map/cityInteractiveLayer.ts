@@ -1,3 +1,8 @@
+/**
+ * City Interactive Layer - Creates invisible hitbox layers for city label interactions.
+ * These circle layers provide a forgiving click/hover target area for city labels.
+ */
+
 import type {
     CircleLayerSpecification,
     ExpressionSpecification,
@@ -6,17 +11,26 @@ import type {
     StyleSpecification
 } from "maplibre-gl";
 
+import { buildPlaceClassIncludeFilter } from "./layers/baseLabels";
 import {
-    buildPlaceClassFilter,
-    COMMUNE_LABEL_LAYERS,
-    MANAGED_CITY_LABEL_METADATA_FLAG
-} from "./interactiveLayers";
+    buildCityHitboxLayerId,
+    extractLabelLayerIdFromHitbox,
+    isCityHitboxLayer,
+    LAYER_IDS,
+    OMT_LABEL_LAYER_IDS
+} from "./registry/layerRegistry";
 
-export const COMMUNE_INTERACTIVE_LAYER_PREFIX = "city-hitbox::";
+// Re-export for backward compatibility
+export { buildCityHitboxLayerId as buildInteractiveLayerId };
+export { extractLabelLayerIdFromHitbox as extractLabelLayerIdFromInteractive };
+export const COMMUNE_INTERACTIVE_LAYER_PREFIX = LAYER_IDS.cityHitboxPrefix;
 
 const NAME_FIELDS = ["name:fr", "name", "name:en"] as const;
 
 let missingReferenceLayerWarned = false;
+
+// Managed city label layer metadata flag (for backward compatibility)
+const MANAGED_CITY_LABEL_METADATA_FLAG = "csv:managedCityLabel";
 
 type LabelLayerContext = {
     labelLayerId: string;
@@ -38,7 +52,7 @@ export function ensureCommuneInteractiveLayers(map: MapLibreMap): CommuneInterac
     if (!contexts.length) {
         if (!missingReferenceLayerWarned) {
             console.warn(
-                `[map-style] Unable to derive commune interactive layers; looked for: ${COMMUNE_LABEL_LAYERS.join(", ")}`
+                `[map-style] Unable to derive commune interactive layers; looked for: ${OMT_LABEL_LAYER_IDS.join(", ")}`
             );
             missingReferenceLayerWarned = true;
         }
@@ -50,7 +64,7 @@ export function ensureCommuneInteractiveLayers(map: MapLibreMap): CommuneInterac
     const addedLayerIds: string[] = [];
 
     for (const context of contexts) {
-        const interactiveLayerId = buildInteractiveLayerId(context.labelLayerId);
+        const interactiveLayerId = buildCityHitboxLayerId(context.labelLayerId);
         layerIds.push(interactiveLayerId);
         if (map.getLayer(interactiveLayerId)) {
             continue;
@@ -67,23 +81,12 @@ export function ensureCommuneInteractiveLayers(map: MapLibreMap): CommuneInterac
     return { layerIds, addedLayerIds };
 }
 
-export function buildInteractiveLayerId(labelLayerId: string): string {
-    return `${COMMUNE_INTERACTIVE_LAYER_PREFIX}${labelLayerId}`;
-}
-
-export function extractLabelLayerIdFromInteractive(interactiveLayerId: string): string | null {
-    if (!interactiveLayerId.startsWith(COMMUNE_INTERACTIVE_LAYER_PREFIX)) {
-        return null;
-    }
-    return interactiveLayerId.slice(COMMUNE_INTERACTIVE_LAYER_PREFIX.length) || null;
-}
-
 export function listCommuneInteractiveLayerIds(map: MapLibreMap): string[] {
     const style = map.getStyle();
     const layers = style?.layers ?? [];
     return layers
         .map((layer) => layer.id)
-        .filter((id): id is string => typeof id === "string" && id.startsWith(COMMUNE_INTERACTIVE_LAYER_PREFIX));
+        .filter((id): id is string => typeof id === "string" && isCityHitboxLayer(id));
 }
 
 function collectLabelLayerContexts(map: MapLibreMap): LabelLayerContext[] {
@@ -95,7 +98,7 @@ function collectLabelLayerContexts(map: MapLibreMap): LabelLayerContext[] {
     }
 
     const contexts: LabelLayerContext[] = [];
-    for (const labelLayerId of COMMUNE_LABEL_LAYERS) {
+    for (const labelLayerId of OMT_LABEL_LAYER_IDS) {
         const layer = layers.find((entry) => entry.id === labelLayerId);
         const context = normalizeLayerContext(layer);
         if (context) {
@@ -104,7 +107,9 @@ function collectLabelLayerContexts(map: MapLibreMap): LabelLayerContext[] {
     }
 
     if (!contexts.length) {
-        const fallback = layers.find((layer) => layer.type === "symbol" && typeof (layer as { source?: unknown }).source === "string");
+        const fallback = layers.find(
+            (layer) => layer.type === "symbol" && typeof (layer as { source?: unknown }).source === "string"
+        );
         const context = normalizeLayerContext(fallback);
         if (context) {
             contexts.push(context);
@@ -156,10 +161,10 @@ function normalizeLayerContext(layer: StyleSpecification["layers"][number] | und
         context.baseFilter = baseFilter;
     }
     if (typeof (layer as { minzoom?: number }).minzoom === "number") {
-        context.minzoom = (layer as { minzoom?: number }).minzoom;
+        context.minzoom = (layer as { minzoom: number }).minzoom;
     }
     if (typeof (layer as { maxzoom?: number }).maxzoom === "number") {
-        context.maxzoom = (layer as { maxzoom?: number }).maxzoom;
+        context.maxzoom = (layer as { maxzoom: number }).maxzoom;
     }
 
     return context;
@@ -175,20 +180,19 @@ function buildInteractiveLayer(
     ];
 
     const base = context.baseFilter ?? fallbackFilter;
-    const placeFilter = buildPlaceClassFilter();
-    // Circle hitboxes give us a forgiving hover/click target while keeping
-    // the visual label layer untouched.
+    const placeFilter = buildPlaceClassIncludeFilter();
+
     const layer: CircleLayerSpecification = {
         id: interactiveLayerId,
         type: "circle",
         source: context.source,
         paint: {
-            "circle-radius": buildInteractionRadiusExpression(context),
+            "circle-radius": buildInteractionRadiusExpression(),
             "circle-opacity": 0,
             "circle-color": "#000000",
             "circle-stroke-width": 0
         },
-        filter: ["all", base, placeFilter] as any
+        filter: ["all", base, placeFilter] as unknown as LegacyFilterSpecification
     };
 
     if (context.sourceLayer) {
@@ -204,20 +208,14 @@ function buildInteractiveLayer(
     return layer;
 }
 
-function buildInteractionRadiusExpression(_context: LabelLayerContext): ExpressionSpecification {
-    // Keep the stops easy to tweak: increase the later zoom values if we ever need
-    // larger hitboxes at city zoom levels.
+function buildInteractionRadiusExpression(): ExpressionSpecification {
     return [
         "interpolate",
         ["linear"],
         ["zoom"],
-        3,
-        6,
-        7,
-        10,
-        10,
-        16,
-        14,
-        24
+        3, 6,
+        7, 10,
+        10, 16,
+        14, 24
     ] as ExpressionSpecification;
 }
