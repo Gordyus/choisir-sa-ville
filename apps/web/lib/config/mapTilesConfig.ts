@@ -14,25 +14,52 @@ export type CityLabelStyleConfig = {
     textSize?: number | ExpressionSpecification;
 };
 
+export type TileJsonSourceId = "france" | "communes" | "arr_municipal";
+export type TileJsonSourceMap = Record<TileJsonSourceId, string> & Record<string, string>;
+
+export type PolygonSourceConfig = {
+    tileJsonUrl: string;
+    sourceLayer: string;
+};
+
+export type PolygonSourcesConfig = {
+    communes: PolygonSourceConfig;
+    arr_municipal: PolygonSourceConfig;
+};
+
 export type MapTilesConfig = {
     vectorTilesBaseUrl: string;
     styleUrl: string;
-    tilesMetadataUrl?: string;
     excludeLayers?: string[];
     optionalSourceLayers?: string[];
     cityLabelLayerIds?: string[];
     cityLabelStyle?: CityLabelStyleConfig;
+    tileJsonSources: TileJsonSourceMap;
+    cityClasses: string[];
+    polygonSources: PolygonSourcesConfig;
 };
 
-const DEFAULT_BASE_URL = "http://localhost:8080/data/france";
+type ParsedMapTilesConfig = Omit<MapTilesConfig, "tileJsonSources" | "cityClasses" | "polygonSources"> & {
+    tileJsonSources?: Record<string, string>;
+    cityClasses?: string[];
+    polygonSources?: RawPolygonSources;
+};
+
+const REQUIRED_TILE_JSON_SOURCE_IDS: TileJsonSourceId[] = ["france", "communes", "arr_municipal"];
+const DEFAULT_BASE_URL = "http://localhost:8080/data";
 const DEFAULT_CITY_LABEL_LAYER_IDS = ["place_label_other", "place_label_city"];
+const DEFAULT_CITY_CLASSES = ["city", "town", "village"] as const;
+const DEFAULT_TILE_JSON_SOURCES = buildDefaultTileJsonSources(DEFAULT_BASE_URL);
+const DEFAULT_POLYGON_SOURCES = buildDefaultPolygonSources(DEFAULT_TILE_JSON_SOURCES);
 const DEFAULT_CONFIG: MapTilesConfig = {
     vectorTilesBaseUrl: DEFAULT_BASE_URL,
     styleUrl: `${DEFAULT_BASE_URL}/style.json`,
-    tilesMetadataUrl: `${DEFAULT_BASE_URL}/tiles.json`,
     excludeLayers: [],
     optionalSourceLayers: [],
-    cityLabelLayerIds: DEFAULT_CITY_LABEL_LAYER_IDS
+    cityLabelLayerIds: DEFAULT_CITY_LABEL_LAYER_IDS,
+    tileJsonSources: DEFAULT_TILE_JSON_SOURCES,
+    cityClasses: [...DEFAULT_CITY_CLASSES],
+    polygonSources: DEFAULT_POLYGON_SOURCES
 };
 
 let tilesConfigPromise: Promise<MapTilesConfig> | null = null;
@@ -78,14 +105,23 @@ async function resolveMapTilesConfig(signal?: AbortSignal): Promise<MapTilesConf
     }
 }
 
-function normalizeConfig(config: MapTilesConfig): MapTilesConfig {
-    const vectorTilesBaseUrl = config.vectorTilesBaseUrl.replace(/\/$/, "");
+function normalizeConfig(config: ParsedMapTilesConfig): MapTilesConfig {
+    const vectorTilesBaseUrl = stripTrailingSlashes(config.vectorTilesBaseUrl ?? DEFAULT_BASE_URL);
     const styleUrl = config.styleUrl;
-    const tilesMetadataUrl = config.tilesMetadataUrl ?? `${vectorTilesBaseUrl}/tiles.json`;
     const excludeLayers = dedupeStrings(config.excludeLayers ?? []);
     const optionalSourceLayers = dedupeStrings(config.optionalSourceLayers ?? []);
     const cityLabelLayerIds = dedupeStrings(config.cityLabelLayerIds ?? DEFAULT_CITY_LABEL_LAYER_IDS);
-    const normalized: MapTilesConfig = { vectorTilesBaseUrl, styleUrl, tilesMetadataUrl };
+    const cityClassesRaw = dedupeStrings(config.cityClasses ?? [...DEFAULT_CITY_CLASSES]);
+    const cityClasses = cityClassesRaw.length ? cityClassesRaw : [...DEFAULT_CITY_CLASSES];
+    const tileJsonSources = normalizeTileJsonSources(config.tileJsonSources, vectorTilesBaseUrl);
+    const polygonSources = normalizePolygonSources(config.polygonSources, tileJsonSources);
+    const normalized: MapTilesConfig = {
+        vectorTilesBaseUrl,
+        styleUrl,
+        tileJsonSources,
+        cityClasses,
+        polygonSources
+    };
     if (excludeLayers.length) {
         normalized.excludeLayers = excludeLayers;
     }
@@ -101,27 +137,28 @@ function normalizeConfig(config: MapTilesConfig): MapTilesConfig {
     return normalized;
 }
 
-function parseMapTilesConfig(value: unknown): MapTilesConfig | null {
+function parseMapTilesConfig(value: unknown): ParsedMapTilesConfig | null {
     if (!value || typeof value !== "object") {
         return null;
     }
     const record = value as Record<string, unknown>;
 
-    const vectorTilesBaseUrl = toNonEmptyString(record.vectorTilesBaseUrl);
-    const styleUrl = toNonEmptyString(record.styleUrl) ??
-        (vectorTilesBaseUrl ? `${vectorTilesBaseUrl}/style.json` : null);
+    const vectorTilesBaseUrl = toNonEmptyString(record.vectorTilesBaseUrl) ?? DEFAULT_BASE_URL;
+    const styleUrl = toNonEmptyString(record.styleUrl);
 
-    if (!vectorTilesBaseUrl || !styleUrl) {
+    if (!styleUrl) {
         return null;
     }
 
-    const tilesMetadataUrl = toNonEmptyString(record.tilesMetadataUrl) ?? `${vectorTilesBaseUrl}/tiles.json`;
     const excludeLayers = toStringArray(record.excludeLayers);
     const optionalSourceLayers = toStringArray(record.optionalSourceLayers);
     const cityLabelLayerIds = toStringArray(record.cityLabelLayerIds) ?? DEFAULT_CITY_LABEL_LAYER_IDS;
     const cityLabelStyle = parseCityLabelStyleConfig(record.cityLabelStyle);
+    const tileJsonSources = parseTileJsonSourceOverrides(record.tileJsonSources);
+    const cityClasses = toStringArray(record.cityClasses);
+    const polygonSources = parsePolygonSources(record.polygonSources);
 
-    const parsed: MapTilesConfig = { vectorTilesBaseUrl, styleUrl, tilesMetadataUrl, cityLabelLayerIds };
+    const parsed: ParsedMapTilesConfig = { vectorTilesBaseUrl, styleUrl, cityLabelLayerIds };
     if (excludeLayers && excludeLayers.length) {
         parsed.excludeLayers = excludeLayers;
     }
@@ -131,7 +168,80 @@ function parseMapTilesConfig(value: unknown): MapTilesConfig | null {
     if (cityLabelStyle) {
         parsed.cityLabelStyle = cityLabelStyle;
     }
+    if (tileJsonSources) {
+        parsed.tileJsonSources = tileJsonSources;
+    }
+    if (cityClasses && cityClasses.length) {
+        parsed.cityClasses = cityClasses;
+    }
+    if (polygonSources) {
+        parsed.polygonSources = polygonSources;
+    }
     return parsed;
+}
+
+function normalizeTileJsonSources(
+    overrides: Record<string, string> | undefined,
+    vectorTilesBaseUrl: string
+): TileJsonSourceMap {
+    const defaults = buildDefaultTileJsonSources(vectorTilesBaseUrl);
+    if (!overrides) {
+        return defaults;
+    }
+    const normalized: TileJsonSourceMap = { ...defaults };
+    for (const [key, value] of Object.entries(overrides)) {
+        if (typeof value !== "string") {
+            continue;
+        }
+        const trimmed = value.trim();
+        if (!trimmed) {
+            continue;
+        }
+        normalized[key] = trimmed;
+    }
+    for (const required of REQUIRED_TILE_JSON_SOURCE_IDS) {
+        if (!normalized[required]) {
+            normalized[required] = defaults[required];
+        }
+    }
+    return normalized;
+}
+
+function parseTileJsonSourceOverrides(value: unknown): Record<string, string> | undefined {
+    if (!value || typeof value !== "object") {
+        return undefined;
+    }
+    const record = value as Record<string, unknown>;
+    const overrides: Record<string, string> = {};
+    for (const [key, raw] of Object.entries(record)) {
+        const normalized = toNonEmptyString(raw);
+        if (normalized) {
+            overrides[key] = normalized;
+        }
+    }
+    return Object.keys(overrides).length ? overrides : undefined;
+}
+
+function buildDefaultTileJsonSources(baseUrl: string): TileJsonSourceMap {
+    const normalizedBase = stripTrailingSlashes(baseUrl);
+    return {
+        france: `${normalizedBase}/france.json`,
+        communes: `${normalizedBase}/communes.json`,
+        arr_municipal: `${normalizedBase}/arr_municipal.json`
+    };
+}
+
+function buildDefaultPolygonSources(tileJsonSources: TileJsonSourceMap): PolygonSourcesConfig {
+    return {
+        communes: {
+            tileJsonUrl: tileJsonSources.communes,
+            sourceLayer: "communes"
+        },
+        arr_municipal: {
+            tileJsonUrl: tileJsonSources.arr_municipal,
+            sourceLayer: "arr_municipal"
+        }
+    };
 }
 
 function parseCityLabelStyleConfig(value: unknown): CityLabelStyleConfig | undefined {
@@ -215,6 +325,10 @@ function toNonEmptyString(value: unknown): string | null {
     return trimmed.length > 0 ? trimmed : null;
 }
 
+function stripTrailingSlashes(value: string): string {
+    return value.replace(/\/+$/, "");
+}
+
 function toStringArray(value: unknown): string[] | undefined {
     if (!Array.isArray(value)) {
         return undefined;
@@ -230,4 +344,52 @@ function dedupeStrings(values: string[]): string[] {
         return [];
     }
     return Array.from(new Set(values));
+}
+
+type RawPolygonSources = Partial<Record<keyof PolygonSourcesConfig, Partial<PolygonSourceConfig>>>;
+
+function parsePolygonSources(value: unknown): RawPolygonSources | undefined {
+    if (!value || typeof value !== "object") {
+        return undefined;
+    }
+    const record = value as Record<string, unknown>;
+    const entries: RawPolygonSources = {};
+    for (const key of Object.keys(record)) {
+        if (key !== "communes" && key !== "arr_municipal") {
+            continue;
+        }
+        const raw = record[key];
+        if (!raw || typeof raw !== "object") {
+            continue;
+        }
+        const typed = raw as Record<string, unknown>;
+        const tileJsonUrl = toNonEmptyString(typed.tileJsonUrl);
+        const sourceLayer = toNonEmptyString(typed.sourceLayer);
+        entries[key as keyof PolygonSourcesConfig] = {
+            ...(tileJsonUrl ? { tileJsonUrl } : {}),
+            ...(sourceLayer ? { sourceLayer } : {})
+        };
+    }
+    return Object.keys(entries).length ? entries : undefined;
+}
+
+function normalizePolygonSources(
+    overrides: RawPolygonSources | undefined,
+    tileJsonSources: TileJsonSourceMap
+): PolygonSourcesConfig {
+    const defaults = buildDefaultPolygonSources(tileJsonSources);
+    const buildEntry = (
+        key: keyof PolygonSourcesConfig,
+        fallback: PolygonSourceConfig
+    ): PolygonSourceConfig => {
+        const override = overrides?.[key];
+        return {
+            tileJsonUrl: override?.tileJsonUrl ?? fallback.tileJsonUrl,
+            sourceLayer: override?.sourceLayer ?? fallback.sourceLayer
+        };
+    };
+    return {
+        communes: buildEntry("communes", defaults.communes),
+        arr_municipal: buildEntry("arr_municipal", defaults.arr_municipal)
+    };
 }

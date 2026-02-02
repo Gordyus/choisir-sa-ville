@@ -1,16 +1,21 @@
-import type { ExpressionSpecification, MapGeoJSONFeature, StyleSpecification } from "maplibre-gl";
+import type {
+    ExpressionSpecification,
+    LegacyFilterSpecification,
+    MapGeoJSONFeature,
+    StyleSpecification
+} from "maplibre-gl";
 
-export type CityResolutionMethod = "feature" | "osm" | "wikidata" | "fallback";
+export type CityResolutionMethod = "feature" | "polygon" | "osm" | "wikidata" | "fallback";
 
-export type CityPlaceClass = (typeof PLACE_ALLOWED_CLASSES)[number];
+export type CityPlaceClass = string;
 
 export const BASE_COMMUNE_LABEL_LAYER_IDS = ["place_label_other", "place_label_city"] as const;
-export const MANAGED_CITY_LABEL_LAYER_SUFFIX = "__commune_custom";
+export const MANAGED_CITY_LABEL_LAYER_PREFIX = "custom-city-label::";
 export const MANAGED_CITY_LABEL_METADATA_FLAG = "csv:managedCityLabel";
 export const MANAGED_CITY_LABEL_METADATA_BASE_ID = "csv:managedCityBaseLayerId";
 
 export function buildManagedCityLabelLayerId(layerId: string): string {
-    return `${layerId}${MANAGED_CITY_LABEL_LAYER_SUFFIX}`;
+    return `${MANAGED_CITY_LABEL_LAYER_PREFIX}${layerId}`;
 }
 
 export type CityIdentity = {
@@ -25,6 +30,9 @@ export type CityIdentity = {
     unresolvedReason?: string | null;
     placeClass?: CityPlaceClass | null;
     location?: { lng: number; lat: number } | null;
+    rank?: number | null;
+    capitalType?: string | null;
+    propertiesSnapshot?: Record<string, unknown> | null;
 };
 
 export const COMMUNE_LABEL_LAYERS: string[] = [
@@ -32,19 +40,90 @@ export const COMMUNE_LABEL_LAYERS: string[] = [
     ...BASE_COMMUNE_LABEL_LAYER_IDS
 ];
 
-export const PLACE_ALLOWED_CLASSES = ["city", "town", "village"] as const;
+const DEFAULT_PLACE_CLASSES = ["city", "town", "village"] as const;
+let placeClassList: string[] = [...DEFAULT_PLACE_CLASSES];
+let placeClassSet = new Set(placeClassList.map((value) => value.toLowerCase()));
 
+export function setPlaceClassList(classes: readonly string[] | undefined): void {
+    if (!classes || !classes.length) {
+        placeClassList = [...DEFAULT_PLACE_CLASSES];
+        placeClassSet = new Set(placeClassList.map((value) => value.toLowerCase()));
+        return;
+    }
+    const normalized = classes
+        .map((value) => (typeof value === "string" ? value.trim().toLowerCase() : ""))
+        .filter((value) => value.length > 0);
+    placeClassList = normalized.length ? Array.from(new Set(normalized)) : [...DEFAULT_PLACE_CLASSES];
+    placeClassSet = new Set(placeClassList);
+}
 
-export const PLACE_CLASS_FILTER: import("maplibre-gl").LegacyFilterSpecification = [
-    "in",
-    "class",
-    ...PLACE_ALLOWED_CLASSES
-] as any;
+export function getPlaceClassList(): readonly string[] {
+    return placeClassList;
+}
+
+export function buildPlaceClassFilter(): LegacyFilterSpecification {
+    return ["in", "class", ...placeClassList] as LegacyFilterSpecification;
+}
+
+export function buildPlaceClassExcludeFilter(): LegacyFilterSpecification {
+    return ["!in", "class", ...placeClassList] as LegacyFilterSpecification;
+}
+
+function normalizePlaceClassValue(value: unknown): string | null {
+    if (typeof value !== "string") {
+        return null;
+    }
+    const trimmed = value.trim().toLowerCase();
+    return trimmed.length ? trimmed : null;
+}
+
+export const COMMUNE_POLYGON_SOURCE_ID = "communes";
+export const COMMUNE_POLYGON_SOURCE_LAYER = "communes";
+export const COMMUNE_FILL_LAYER_ID = "communes-fill";
+export const COMMUNE_LINE_LAYER_ID = "communes-line";
+
+export const ARR_MUNICIPAL_SOURCE_ID = "arr_municipal";
+export const ARR_MUNICIPAL_SOURCE_LAYER = "arr_municipal";
+export const ARR_MUNICIPAL_FILL_LAYER_ID = "arr-municipal-fill";
+export const ARR_MUNICIPAL_LINE_LAYER_ID = "arr-municipal-line";
+
+export const ADMIN_POLYGON_LAYER_SPECS = {
+    communes: {
+        sourceId: COMMUNE_POLYGON_SOURCE_ID,
+        sourceLayer: COMMUNE_POLYGON_SOURCE_LAYER,
+        fillLayerId: COMMUNE_FILL_LAYER_ID,
+        lineLayerId: COMMUNE_LINE_LAYER_ID
+    },
+    arrMunicipal: {
+        sourceId: ARR_MUNICIPAL_SOURCE_ID,
+        sourceLayer: ARR_MUNICIPAL_SOURCE_LAYER,
+        fillLayerId: ARR_MUNICIPAL_FILL_LAYER_ID,
+        lineLayerId: ARR_MUNICIPAL_LINE_LAYER_ID
+    }
+} as const;
+
 
 export const CITY_ID_FIELD = "insee";
 export const CITY_ID_FALLBACK_FIELDS = ["osm_id", "osmId", "wikidata", "code", "id", "name:fr", "name"];
 const CITY_NAME_FIELDS = ["name:fr", "name", "name:en"];
 const CITY_ID_SENTINEL = "__none__";
+const CITY_RANK_FIELDS = ["rank", "rank_local"] as const;
+const CITY_CAPITAL_FIELDS = ["capital", "capital_level", "capital:municipality"] as const;
+const PROPERTY_SNAPSHOT_FIELDS = [
+    "name",
+    "name:fr",
+    "name:en",
+    "class",
+    "rank",
+    "rank_local",
+    "capital",
+    "capital_level",
+    "capital:municipality",
+    "osm_id",
+    "osmId",
+    "wikidata",
+    "insee"
+] as const;
 
 export const CITY_ID_EXPRESSION: ExpressionSpecification = [
     "coalesce",
@@ -71,6 +150,8 @@ export function extractCityIdentity(feature: MapGeoJSONFeature): CityIdentity | 
     }
     const name = pickFirstString(feature, CITY_NAME_FIELDS) ?? id;
     const placeClass = readPlaceClass(feature);
+    const rank = readCityRank(feature);
+    const capitalType = readCapitalType(feature);
     const identity: CityIdentity = {
         id,
         name,
@@ -79,7 +160,10 @@ export function extractCityIdentity(feature: MapGeoJSONFeature): CityIdentity | 
         osmId: pickFirstString(feature, ["osm_id", "osmId"]) ?? null,
         wikidataId: pickFirstString(feature, ["wikidata"]) ?? null,
         placeClass,
-        location: null
+        location: null,
+        rank,
+        capitalType,
+        propertiesSnapshot: buildPropertiesSnapshot(feature)
     };
     if (inseeCandidate) {
         identity.resolutionMethod = "feature";
@@ -133,6 +217,22 @@ function pickFirstString(feature: MapGeoJSONFeature, fields: readonly string[]):
     return null;
 }
 
+function pickFirstNumber(feature: MapGeoJSONFeature, fields: readonly string[]): number | null {
+    for (const field of fields) {
+        const value = (feature.properties ?? {})[field];
+        if (typeof value === "number" && Number.isFinite(value)) {
+            return value;
+        }
+        if (typeof value === "string") {
+            const parsed = Number(value);
+            if (Number.isFinite(parsed)) {
+                return parsed;
+            }
+        }
+    }
+    return null;
+}
+
 function hasReadableProperty(feature: MapGeoJSONFeature, field: string): boolean {
     return pickFirstString(feature, [field]) !== null;
 }
@@ -152,12 +252,32 @@ function runIdentitySelfCheck(): void {
 }
 
 function readPlaceClass(feature: MapGeoJSONFeature): CityPlaceClass | null {
-    const value = (feature.properties ?? {}).class;
-    if (typeof value !== "string") {
+    const rawValue = normalizePlaceClassValue((feature.properties ?? {}).class);
+    if (!rawValue) {
         return null;
     }
-    const normalized = value.toLowerCase();
-    return PLACE_ALLOWED_CLASSES.includes(normalized as CityPlaceClass)
-        ? (normalized as CityPlaceClass)
-        : null;
+    return placeClassSet.has(rawValue) ? rawValue : null;
+}
+
+function readCityRank(feature: MapGeoJSONFeature): number | null {
+    return pickFirstNumber(feature, CITY_RANK_FIELDS);
+}
+
+function readCapitalType(feature: MapGeoJSONFeature): string | null {
+    const value = pickFirstString(feature, CITY_CAPITAL_FIELDS);
+    return value ?? null;
+}
+
+function buildPropertiesSnapshot(feature: MapGeoJSONFeature): Record<string, unknown> | null {
+    const properties = feature.properties ?? null;
+    if (!properties) {
+        return null;
+    }
+    const snapshot: Record<string, unknown> = {};
+    for (const key of PROPERTY_SNAPSHOT_FIELDS) {
+        if (typeof properties[key] !== "undefined") {
+            snapshot[key] = properties[key];
+        }
+    }
+    return Object.keys(snapshot).length ? snapshot : null;
 }

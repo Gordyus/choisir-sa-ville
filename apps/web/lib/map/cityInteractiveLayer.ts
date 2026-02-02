@@ -1,18 +1,18 @@
 import type {
+    CircleLayerSpecification,
     ExpressionSpecification,
     LegacyFilterSpecification,
     Map as MapLibreMap,
-    StyleSpecification,
-    SymbolLayerSpecification
+    StyleSpecification
 } from "maplibre-gl";
 
 import {
+    buildPlaceClassFilter,
     COMMUNE_LABEL_LAYERS,
-    MANAGED_CITY_LABEL_METADATA_FLAG,
-    PLACE_CLASS_FILTER
+    MANAGED_CITY_LABEL_METADATA_FLAG
 } from "./interactiveLayers";
 
-export const COMMUNE_INTERACTIVE_LAYER_PREFIX = "commune-label-interactive::";
+export const COMMUNE_INTERACTIVE_LAYER_PREFIX = "city-hitbox::";
 
 const NAME_FIELDS = ["name:fr", "name", "name:en"] as const;
 
@@ -24,6 +24,8 @@ type LabelLayerContext = {
     sourceLayer?: string;
     textField?: ExpressionSpecification;
     baseFilter?: LegacyFilterSpecification;
+    minzoom?: number;
+    maxzoom?: number;
 };
 
 export type CommuneInteractiveLayerHandle = {
@@ -153,6 +155,12 @@ function normalizeLayerContext(layer: StyleSpecification["layers"][number] | und
     if (typeof baseFilter !== "undefined") {
         context.baseFilter = baseFilter;
     }
+    if (typeof (layer as { minzoom?: number }).minzoom === "number") {
+        context.minzoom = (layer as { minzoom?: number }).minzoom;
+    }
+    if (typeof (layer as { maxzoom?: number }).maxzoom === "number") {
+        context.maxzoom = (layer as { maxzoom?: number }).maxzoom;
+    }
 
     return context;
 }
@@ -160,35 +168,56 @@ function normalizeLayerContext(layer: StyleSpecification["layers"][number] | und
 function buildInteractiveLayer(
     context: LabelLayerContext,
     interactiveLayerId: string
-): SymbolLayerSpecification {
-    const layout: SymbolLayerSpecification["layout"] = {
-        "text-field": context.textField ?? ["get", "name"],
-        "text-size": 12,
-        "text-allow-overlap": true,
-        "text-ignore-placement": true
-    };
-
+): CircleLayerSpecification {
     const fallbackFilter: LegacyFilterSpecification = [
         "any",
         ...NAME_FIELDS.map((field) => ["has", field] as unknown as LegacyFilterSpecification)
     ];
 
     const base = context.baseFilter ?? fallbackFilter;
-    const layer: SymbolLayerSpecification = {
+    const placeFilter = buildPlaceClassFilter();
+    // Circle hitboxes give us a forgiving hover/click target while keeping
+    // the visual label layer untouched.
+    const layer: CircleLayerSpecification = {
         id: interactiveLayerId,
-        type: "symbol",
+        type: "circle",
         source: context.source,
-        layout,
         paint: {
-            "text-opacity": 0,
-            "icon-opacity": 0
+            "circle-radius": buildInteractionRadiusExpression(context),
+            "circle-opacity": 0,
+            "circle-color": "#000000",
+            "circle-stroke-width": 0
         },
-        filter: ["all", base, PLACE_CLASS_FILTER] as any
+        filter: ["all", base, placeFilter] as any
     };
 
     if (context.sourceLayer) {
         layer["source-layer"] = context.sourceLayer;
     }
+    if (typeof context.minzoom === "number") {
+        layer.minzoom = context.minzoom;
+    }
+    if (typeof context.maxzoom === "number") {
+        layer.maxzoom = context.maxzoom;
+    }
 
     return layer;
+}
+
+function buildInteractionRadiusExpression(_context: LabelLayerContext): ExpressionSpecification {
+    // Keep the stops easy to tweak: increase the later zoom values if we ever need
+    // larger hitboxes at city zoom levels.
+    return [
+        "interpolate",
+        ["linear"],
+        ["zoom"],
+        3,
+        6,
+        7,
+        10,
+        10,
+        16,
+        14,
+        24
+    ] as ExpressionSpecification;
 }

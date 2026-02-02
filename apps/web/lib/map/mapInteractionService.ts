@@ -12,11 +12,46 @@ import {
     extractLabelLayerIdFromInteractive,
     listCommuneInteractiveLayerIds
 } from "./cityInteractiveLayer";
-import { extractCityIdentity, type CityIdentity } from "./interactiveLayers";
+import {
+    ADMIN_POLYGON_LAYER_SPECS,
+    CITY_ID_FIELD,
+    extractCityIdentity,
+    type CityIdentity
+} from "./interactiveLayers";
 
 const HOVER_THROTTLE_MS = 60;
 const CLICK_HITBOX_PX = 8;
 const unresolvedWarningKeys = new Set<string>();
+
+type PolygonInteractionConfig = {
+    layerId: string;
+    sourceId: string;
+    sourceLayer: string;
+    promoteIdField: string;
+};
+
+const POLYGON_INTERACTION_CONFIGS: PolygonInteractionConfig[] = [
+    {
+        layerId: ADMIN_POLYGON_LAYER_SPECS.arrMunicipal.fillLayerId,
+        sourceId: ADMIN_POLYGON_LAYER_SPECS.arrMunicipal.sourceId,
+        sourceLayer: ADMIN_POLYGON_LAYER_SPECS.arrMunicipal.sourceLayer,
+        promoteIdField: CITY_ID_FIELD
+    },
+    {
+        layerId: ADMIN_POLYGON_LAYER_SPECS.communes.fillLayerId,
+        sourceId: ADMIN_POLYGON_LAYER_SPECS.communes.sourceId,
+        sourceLayer: ADMIN_POLYGON_LAYER_SPECS.communes.sourceLayer,
+        promoteIdField: CITY_ID_FIELD
+    }
+];
+
+type PolygonCityHit = {
+    inseeCode: string | null;
+    target: FeatureStateTarget | null;
+    layerId: string | null;
+};
+
+type QueryGeometry = PointLike | [[number, number], [number, number]];
 
 type CityInteractionEvent =
     | {
@@ -51,8 +86,19 @@ export function attachCityInteractionService(
 ): () => void {
     let lastHoverId: string | null = null;
     let lastMoveTs = 0;
+    let selectedPolygonTargets: FeatureStateTarget[] = [];
     const logHoverFeatures = options?.logHoverFeatures ?? false;
     const interactiveLayerIds = resolveInteractiveLayerIds(map, options?.interactiveLayerIds);
+    const polygonHoverCleanup = attachPolygonHoverHandlers(map);
+
+    const applyPolygonSelection = (nextTargets: FeatureStateTarget[]): void => {
+        selectedPolygonTargets = updatePolygonFeatureStateCollection(
+            map,
+            selectedPolygonTargets,
+            nextTargets,
+            "selected"
+        );
+    };
 
     const handlePointerMove = (event: MapMouseEvent): void => {
         const now = performance.now();
@@ -85,6 +131,9 @@ export function attachCityInteractionService(
                 featureStateTarget: hit.featureStateTarget,
                 lngLat: hit.lngLat
             });
+            applyPolygonSelection(hit.polygonTargets);
+        } else {
+            applyPolygonSelection([]);
         }
     };
 
@@ -121,6 +170,8 @@ export function attachCityInteractionService(
         map.off("mousemove", handlePointerMove);
         map.off("mouseleave", handleMouseLeave);
         map.off("click", handleClick);
+        polygonHoverCleanup.forEach((cleanup) => cleanup());
+        applyPolygonSelection([]);
     };
 }
 
@@ -130,7 +181,121 @@ type CityFeatureHit = {
     labelLayerId: string | null;
     featureStateTarget: FeatureStateTarget | null;
     lngLat: { lng: number; lat: number } | null;
+    polygonTargets: FeatureStateTarget[];
 };
+
+function attachPolygonHoverHandlers(map: MapLibreMap): Array<() => void> {
+    return POLYGON_INTERACTION_CONFIGS.map((config) => attachPolygonHoverHandler(map, config));
+}
+
+function attachPolygonHoverHandler(map: MapLibreMap, config: PolygonInteractionConfig): () => void {
+    if (!map.getLayer(config.layerId)) {
+        return () => {
+            /* noop */
+        };
+    }
+    let currentTarget: FeatureStateTarget | null = null;
+
+    const applyHover = (nextTarget: FeatureStateTarget | null): void => {
+        if (featureTargetsEqual(currentTarget, nextTarget)) {
+            return;
+        }
+        if (currentTarget) {
+            setPolygonFeatureState(map, currentTarget, "hover", false);
+        }
+        currentTarget = nextTarget;
+        if (nextTarget) {
+            setPolygonFeatureState(map, nextTarget, "hover", true);
+        }
+    };
+
+    const handleMove = (event: MapLayerMouseEvent): void => {
+        const feature = (event.features && event.features[0]) ?? null;
+        if (!feature) {
+            applyHover(null);
+            return;
+        }
+        const target = createFeatureStateTarget(feature, {
+            sourceId: config.sourceId,
+            sourceLayer: config.sourceLayer,
+            promoteIdField: config.promoteIdField
+        });
+        applyHover(target);
+    };
+
+    const handleLeave = (): void => applyHover(null);
+
+    map.on("mousemove", config.layerId, handleMove);
+    map.on("mouseleave", config.layerId, handleLeave);
+
+    return () => {
+        map.off("mousemove", config.layerId, handleMove);
+        map.off("mouseleave", config.layerId, handleLeave);
+        applyHover(null);
+    };
+}
+
+function setPolygonFeatureState(
+    map: MapLibreMap,
+    target: FeatureStateTarget,
+    key: "hover" | "selected",
+    value: boolean
+): void {
+    try {
+        map.setFeatureState(
+            {
+                source: target.source,
+                sourceLayer: target.sourceLayer,
+                id: target.id
+            },
+            { [key]: value }
+        );
+    } catch (error) {
+        if (process.env.NODE_ENV === "development") {
+            console.warn("[map-interaction] Failed to toggle polygon state", error);
+        }
+    }
+}
+
+function featureTargetsEqual(a: FeatureStateTarget | null, b: FeatureStateTarget | null): boolean {
+    if (a === b) {
+        return true;
+    }
+    if (!a || !b) {
+        return false;
+    }
+    return a.id === b.id && a.source === b.source && a.sourceLayer === b.sourceLayer;
+}
+
+function updatePolygonFeatureStateCollection(
+    map: MapLibreMap,
+    current: FeatureStateTarget[],
+    next: FeatureStateTarget[],
+    key: "hover" | "selected"
+): FeatureStateTarget[] {
+    const dedupedNext = dedupeFeatureTargets(next);
+    for (const target of current) {
+        if (!dedupedNext.some((candidate) => featureTargetsEqual(candidate, target))) {
+            setPolygonFeatureState(map, target, key, false);
+        }
+    }
+    for (const target of dedupedNext) {
+        if (!current.some((candidate) => featureTargetsEqual(candidate, target))) {
+            setPolygonFeatureState(map, target, key, true);
+        }
+    }
+    return dedupedNext;
+}
+
+function dedupeFeatureTargets(targets: FeatureStateTarget[]): FeatureStateTarget[] {
+    const result: FeatureStateTarget[] = [];
+    for (const target of targets) {
+        if (!result.some((entry) => featureTargetsEqual(entry, target))) {
+            result.push(target);
+        }
+    }
+    return result;
+}
 
 type PickCityFeatureOptions = {
     logHoverFeatures: boolean;
@@ -156,6 +321,7 @@ function pickCityFeature(
     if (!features.length) {
         return null;
     }
+    const polygonHits = queryPolygonCityHits(map, queryGeometry);
     if (options.logHoverFeatures && process.env.NODE_ENV === "development") {
         console.debug("[map-interaction] hover features", features.map((feature) => feature.layer?.id));
     }
@@ -171,14 +337,17 @@ function pickCityFeature(
         }
         const resolvedCity = resolveCityIdentity(feature, identity, {
             warnOnUnresolved: options.warnOnUnresolved,
-            lngLat
+            lngLat,
+            polygonHits
         });
+        const polygonTargets = collectPolygonTargetsForInsee(polygonHits, resolvedCity.inseeCode);
         return {
             city: resolvedCity,
             interactiveLayerId: layerId,
             labelLayerId: extractLabelLayerIdFromInteractive(layerId),
             featureStateTarget: createFeatureStateTarget(feature),
-            lngLat
+            lngLat,
+            polygonTargets
         };
     }
     return null;
@@ -205,7 +374,7 @@ function buildQueryGeometry(
     point: PointLike,
     searchRadius: number,
     map: MapLibreMap
-): PointLike | [[number, number], [number, number]] {
+): QueryGeometry {
     if (!(typeof searchRadius === "number" && searchRadius > 0)) {
         return point;
     }
@@ -225,7 +394,11 @@ function buildQueryGeometry(
 function resolveCityIdentity(
     feature: MapGeoJSONFeature,
     identity: CityIdentity,
-    options: { warnOnUnresolved: boolean; lngLat: { lng: number; lat: number } | null }
+    options: {
+        warnOnUnresolved: boolean;
+        lngLat: { lng: number; lat: number } | null;
+        polygonHits: PolygonCityHit[];
+    }
 ): CityIdentity {
     const location = options.lngLat ?? identity.location ?? null;
     if (identity.inseeCode) {
@@ -233,6 +406,18 @@ function resolveCityIdentity(
             ...identity,
             id: identity.inseeCode,
             resolutionMethod: identity.resolutionMethod ?? "feature",
+            resolutionStatus: "resolved",
+            location
+        };
+    }
+
+    const viaPolygon = pickPolygonInsee(options.polygonHits);
+    if (viaPolygon) {
+        return {
+            ...identity,
+            id: viaPolygon,
+            inseeCode: viaPolygon,
+            resolutionMethod: "polygon",
             resolutionStatus: "resolved",
             location
         };
@@ -302,6 +487,43 @@ function readProperty(feature: MapGeoJSONFeature, fields: readonly string[]): st
     return null;
 }
 
+function queryPolygonCityHits(map: MapLibreMap, geometry: QueryGeometry): PolygonCityHit[] {
+    const layerIds = POLYGON_INTERACTION_CONFIGS
+        .map((config) => config.layerId)
+        .filter((layerId) => Boolean(map.getLayer(layerId)));
+    if (!layerIds.length) {
+        return [];
+    }
+    const features = map.queryRenderedFeatures(geometry, { layers: layerIds });
+    return features.map((feature) => ({
+        inseeCode: readProperty(feature, [CITY_ID_FIELD]),
+        target: createFeatureStateTarget(feature),
+        layerId: feature.layer?.id ?? null
+    }));
+}
+
+function pickPolygonInsee(polygonHits: PolygonCityHit[]): string | null {
+    for (const config of POLYGON_INTERACTION_CONFIGS) {
+        const preferred = polygonHits.find((hit) => hit.layerId === config.layerId && Boolean(hit.inseeCode));
+        if (preferred?.inseeCode) {
+            return preferred.inseeCode;
+        }
+    }
+    return polygonHits.find((hit) => Boolean(hit.inseeCode))?.inseeCode ?? null;
+}
+
+function collectPolygonTargetsForInsee(
+    polygonHits: PolygonCityHit[],
+    inseeCode: string | null | undefined
+): FeatureStateTarget[] {
+    if (!inseeCode) {
+        return [];
+    }
+    return polygonHits
+        .filter((hit) => hit.inseeCode === inseeCode && hit.target)
+        .map((hit) => hit.target as FeatureStateTarget);
+}
+
 function coercePoint(point: PointLike): { x: number; y: number } {
     if (Array.isArray(point)) {
         return { x: point[0], y: point[1] };
@@ -331,21 +553,46 @@ function projectPoint(map: MapLibreMap, point: PointLike): { lng: number; lat: n
     }
 }
 
-function createFeatureStateTarget(feature: MapGeoJSONFeature): FeatureStateTarget | null {
-    const source = (feature as { source?: unknown }).source;
-    if (typeof source !== "string") {
+function createFeatureStateTarget(feature: MapGeoJSONFeature): FeatureStateTarget | null;
+function createFeatureStateTarget(
+    feature: MapGeoJSONFeature,
+    fallback?: { sourceId?: string; sourceLayer?: string; promoteIdField?: string }
+): FeatureStateTarget | null;
+function createFeatureStateTarget(
+    feature: MapGeoJSONFeature,
+    fallback?: { sourceId?: string; sourceLayer?: string; promoteIdField?: string }
+): FeatureStateTarget | null {
+    const source = typeof (feature as { source?: unknown }).source === "string"
+        ? (feature as { source: string }).source
+        : fallback?.sourceId;
+    if (!source) {
         return null;
     }
-    const id = feature.id ?? null;
+    const id = feature.id ?? readPromotedId(feature, fallback?.promoteIdField ?? CITY_ID_FIELD);
     if (id === null || typeof id === "undefined") {
         return null;
     }
-    const sourceLayer = (feature as { sourceLayer?: string }).sourceLayer;
+    const sourceLayer = (feature as { sourceLayer?: string }).sourceLayer ?? fallback?.sourceLayer;
     return {
         source,
         id,
         sourceLayer: sourceLayer ?? undefined
     };
+}
+
+function readPromotedId(feature: MapGeoJSONFeature, field?: string): string | number | null {
+    if (!field) {
+        return null;
+    }
+    const props = feature.properties ?? {};
+    const value = props[field];
+    if (typeof value === "string" && value.length) {
+        return value;
+    }
+    if (typeof value === "number" && Number.isFinite(value)) {
+        return value;
+    }
+    return null;
 }
 
 function logUnresolvedCityWarning(

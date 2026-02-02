@@ -1,17 +1,36 @@
 {
-    "vectorTilesBaseUrl": "http://localhost:8080/data/",
-    "styleUrl": "http://localhost:8080/styles/basic-preview/style.json",
-    "tilesMetadataUrl": "http://localhost:8080/data/v3/tiles.json",
-    "excludeLayers": [
+    "vectorTilesBaseUrl": "http://localhost:8080/data",
+    "styleUrl": "http://localhost:8080/styles/basic/style.json",
+    "tileJsonSources": {
+        "france": "http://localhost:8080/data/france.json",
+        "communes": "http://localhost:8080/data/communes.json",
+        "arr_municipal": "http://localhost:8080/data/arr_municipal.json"
+    },
+    "optionalSourceLayers": [
         "housenumber"
     ],
-    "optionalSourceLayers": [
+    "excludeLayers": [
         "housenumber"
     ],
     "cityLabelLayerIds": [
         "place_label_other",
         "place_label_city"
     ],
+    "cityClasses": [
+        "city",
+        "town",
+        "village"
+    ],
+    "polygonSources": {
+        "communes": {
+            "tileJsonUrl": "http://localhost:8080/data/communes.json",
+            "sourceLayer": "communes"
+        },
+        "arr_municipal": {
+            "tileJsonUrl": "http://localhost:8080/data/arr_municipal.json",
+            "sourceLayer": "arr_municipal"
+        }
+    },
     "cityLabelStyle": {
         "textColor": "#1f2933",
         "hoverTextColor": "#2d5bff",
