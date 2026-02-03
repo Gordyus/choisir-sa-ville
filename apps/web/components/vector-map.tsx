@@ -72,7 +72,7 @@ export default function VectorMap({ className, onSelect }: VectorMapProps): JSX.
 
                 mapRef.current = map;
                 if (process.env.NODE_ENV === "development")
-                    (window as any).__MAP__ = map
+                    (window as any).map = map
                 if (appConfig.debug.enabled) {
                     (map as unknown as { showTileBoundaries?: boolean }).showTileBoundaries =
                         appConfig.debug.showTileBoundaries;

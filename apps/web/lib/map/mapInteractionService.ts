@@ -192,9 +192,9 @@ export function attachCityInteractionService(
         })();
     };
 
-    map.on("mousemove", handlePointerMove);
-    map.on("mouseleave", handleMouseLeave);
-    map.on("click", handleClick);
+    // map.on("mousemove", handlePointerMove);
+    // map.on("mouseleave", handleMouseLeave);
+    // map.on("click", handleClick);
 
     return () => {
         disposed = true;

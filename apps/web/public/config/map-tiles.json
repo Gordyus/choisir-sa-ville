@@ -34,23 +34,6 @@
         "selectedTextHaloColor": "#ffe28f",
         "textHaloWidth": 1.6,
         "hoverTextHaloWidth": 2.2,
-        "selectedTextHaloWidth": 2.8,
-        "textFont": [
-            "Soehne-Bold",
-            "Arial Unicode MS Bold"
-        ],
-        "textSize": [
-            "interpolate",
-            [
-                "linear"
-            ],
-            [
-                "zoom"
-            ],
-            4,
-            11,
-            10,
-            18
-        ]
+        "selectedTextHaloWidth": 2.8
     }
 }

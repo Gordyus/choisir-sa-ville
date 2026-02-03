@@ -140,8 +140,6 @@ function buildManagedLayerPair(
     // Apply styling
     managedLayer.paint = buildManagedPaint(layer.paint, styleOverrides);
     managedLayer.metadata = buildManagedMetadata(layer);
-    applyLayoutOverrides(managedLayer, styleOverrides);
-    applyHoverResponsiveTextSize(managedLayer);
 
     return { baseLayer, managedLayer };
 }
@@ -177,23 +175,26 @@ function buildManagedPaint(
 ): SymbolPaint {
     const paint: SymbolPaint = { ...(basePaint ?? {}) };
 
-    // Text color with feature-state
-    paint["text-color"] = buildFeatureStateColor(
-        overrides?.textColor ?? DEFAULT_TEXT_COLOR,
+    const baseTextColor = paint["text-color"] ?? overrides?.textColor ?? DEFAULT_TEXT_COLOR;
+    const baseHaloColor = paint["text-halo-color"] ?? overrides?.textHaloColor ?? DEFAULT_HALO_COLOR;
+    const baseHaloWidth = paint["text-halo-width"] ?? overrides?.textHaloWidth ?? DEFAULT_HALO_WIDTH;
+
+    // Default rendering must stay identical to the original OMT/OSM style.
+    // Only hover/selected are overridden via feature-state.
+    paint["text-color"] = buildFeatureStateValue(
+        baseTextColor,
         overrides?.hoverTextColor ?? HOVER_TEXT_COLOR,
         overrides?.selectedTextColor ?? SELECTED_TEXT_COLOR
     );
 
-    // Halo color with feature-state
-    paint["text-halo-color"] = buildFeatureStateColor(
-        overrides?.textHaloColor ?? DEFAULT_HALO_COLOR,
+    paint["text-halo-color"] = buildFeatureStateValue(
+        baseHaloColor,
         overrides?.hoverTextHaloColor ?? HOVER_HALO_COLOR,
         overrides?.selectedTextHaloColor ?? SELECTED_HALO_COLOR
     );
 
-    // Halo width with feature-state
-    paint["text-halo-width"] = buildFeatureStateNumber(
-        overrides?.textHaloWidth ?? DEFAULT_HALO_WIDTH,
+    paint["text-halo-width"] = buildFeatureStateValue(
+        baseHaloWidth,
         overrides?.hoverTextHaloWidth ?? HOVER_HALO_WIDTH,
         overrides?.selectedTextHaloWidth ?? SELECTED_HALO_WIDTH
     );
@@ -215,71 +216,16 @@ function readManagedMetadataFlag(layer: StyleSpecification["layers"][number]): b
     return meta?.[MANAGED_LAYER_METADATA_FLAG] === true;
 }
 
-function applyLayoutOverrides(
-    layer: SymbolLayerSpecification,
-    overrides?: CityLabelStyleConfig
-): void {
-    if (!overrides) return;
-
-    layer.layout = layer.layout ?? {};
-
-    if (overrides.textFont) {
-        layer.layout["text-font"] = overrides.textFont;
-    }
-
-    if (overrides.textSize !== undefined) {
-        layer.layout["text-size"] = overrides.textSize;
-    }
-}
-
-function applyHoverResponsiveTextSize(layer: SymbolLayerSpecification): void {
-    // Scale text slightly on hover/selection
-    const baseSize = layer.layout?.["text-size"];
-    if (typeof baseSize !== "number") return;
-
-    layer.layout = layer.layout ?? {};
-    layer.layout["text-size"] = [
+/**
+ * Build a feature-state-driven expression that falls back to the base style.
+ */
+function buildFeatureStateValue(base: unknown, hover: unknown, selected: unknown): ExpressionSpecification {
+    return [
         "case",
         ["boolean", ["feature-state", "selected"], false],
-        baseSize * 1.1,
+        selected,
         ["boolean", ["feature-state", "hover"], false],
-        baseSize * 1.05,
-        baseSize
+        hover,
+        base
     ] as ExpressionSpecification;
-}
-
-/**
- * Build a feature-state-driven color expression
- */
-function buildFeatureStateColor(
-    base: string,
-    hover: string,
-    selected: string
-): ExpressionSpecification {
-    return [
-        "case",
-        ["boolean", ["feature-state", "selected"], false],
-        selected,
-        ["boolean", ["feature-state", "hover"], false],
-        hover,
-        base
-    ];
-}
-
-/**
- * Build a feature-state-driven number expression
- */
-function buildFeatureStateNumber(
-    base: number,
-    hover: number,
-    selected: number
-): ExpressionSpecification {
-    return [
-        "case",
-        ["boolean", ["feature-state", "selected"], false],
-        selected,
-        ["boolean", ["feature-state", "hover"], false],
-        hover,
-        base
-    ];
 }
