@@ -15,8 +15,9 @@ import {
     type CityHighlightHandle
 } from "@/lib/map/cityHighlightLayers";
 import { ensureCommuneInteractiveLayers, listCommuneInteractiveLayerIds } from "@/lib/map/cityInteractiveLayer";
-import { debugLogSymbolLabelHints, type CityIdentity } from "@/lib/map/interactiveLayers";
+import { debugLogSymbolLabelHints } from "@/lib/map/interactiveLayers";
 import { attachCityInteractionService } from "@/lib/map/mapInteractionService";
+import type { MapSelection } from "@/lib/map/mapSelection";
 import { loadMapStyle } from "@/lib/map/style/stylePipeline";
 import { cn } from "@/lib/utils";
 
@@ -25,15 +26,14 @@ const INITIAL_ZOOM = 5;
 
 interface VectorMapProps {
     className?: string;
-    onCityClick?: (city: CityIdentity) => void;
+    onSelect?: (selection: MapSelection) => void;
 }
 
-export default function VectorMap({ className, onCityClick }: VectorMapProps): JSX.Element {
+export default function VectorMap({ className, onSelect }: VectorMapProps): JSX.Element {
     const containerRef = useRef<HTMLDivElement | null>(null);
     const mapRef = useRef<MapLibreMap | null>(null);
     const detachInteractionsRef = useRef<(() => void) | null>(null);
     const detachDebugRef = useRef<(() => void) | null>(null);
-    const selectedCityRef = useRef<string | null>(null);
     const highlightHandleRef = useRef<CityHighlightHandle | null>(null);
     const interactiveLayerIdsRef = useRef<string[]>([]);
     const debugZoomCleanupRef = useRef<(() => void) | null>(null);
@@ -140,8 +140,9 @@ export default function VectorMap({ className, onCityClick }: VectorMapProps): J
                         if (handle) {
                             setSelectedCity(map, handle, event.featureStateTarget);
                         }
-                        selectedCityRef.current = event.city.id;
-                        onCityClick?.(event.city);
+                        if (event.selection) {
+                            onSelect?.(event.selection);
+                        }
                         break;
                 }
             }, {

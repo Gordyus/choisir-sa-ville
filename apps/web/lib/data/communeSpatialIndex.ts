@@ -1,10 +1,12 @@
 import { loadCommunesIndexLite, type CommuneIndexLiteEntry } from "./communesIndexLite";
+import { normalizeName, tokenizeName } from "./nameNormalization";
+
+export { normalizeName, tokenizeName } from "./nameNormalization";
 
 const CELL_SIZE_DEGREES = 0.2;
 const MAX_SEARCH_RING = 6;
 const MAX_DISTANCE_KM = 30;
 const MAX_CANDIDATES = 64;
-const TOKEN_SPLIT_PATTERN = /[^a-z0-9]+/g;
 
 export type NearestCommuneResult = {
     inseeCode: string;
@@ -18,6 +20,11 @@ export type ResolveCommuneByClickParams = {
     lat: number;
     labelName?: string | null;
     debug?: boolean;
+    /**
+     * When true, only resolve when an exact name match exists nearby (no partial/distance fallback).
+     * This is the safe mode for label clicks.
+     */
+    requireNameMatch?: boolean;
 };
 
 export type ResolveCommuneByClickResult = {
@@ -94,24 +101,31 @@ export async function resolveCommuneByClick(
     const exactBest = sortedExact[0] ?? null;
 
     if (exactBest) {
-        logResolutionDebug(params, normalizedLabel, exactCandidates.length, sortedExact, "name:exact");
-        if (
-            params.debug &&
-            process.env.NODE_ENV === "development" &&
-            (!Number.isFinite(exactBest.distanceKm) || exactBest.distanceKm > MAX_DISTANCE_KM)
-        ) {
-            console.warn("[commune-resolution] Exact match beyond distance guard", {
+        const hasDistance = Number.isFinite(exactBest.distanceKm);
+        const distanceOk = !hasDistance || exactBest.distanceKm <= MAX_DISTANCE_KM;
+        if (distanceOk) {
+            logResolutionDebug(params, normalizedLabel, exactCandidates.length, sortedExact, "name:exact");
+            return {
+                inseeCode: exactBest.entry.inseeCode,
+                distanceKm: exactBest.distanceKm,
+                reason: "name:exact"
+            };
+        }
+        if (params.debug && process.env.NODE_ENV === "development") {
+            console.warn("[commune-resolution] Exact match rejected by distance guard", {
                 labelName: params.labelName ?? null,
                 inseeCode: exactBest.entry.inseeCode,
                 name: exactBest.entry.name,
                 distanceKm: exactBest.distanceKm
             });
         }
-        return {
-            inseeCode: exactBest.entry.inseeCode,
-            distanceKm: exactBest.distanceKm,
-            reason: "name:exact"
-        };
+        if (params.requireNameMatch) {
+            logResolutionDebug(params, normalizedLabel, exactCandidates.length, sortedExact, "name:exact");
+            return null;
+        }
+    } else if (params.requireNameMatch) {
+        logResolutionDebug(params, normalizedLabel, exactCandidates.length, [], "name:exact");
+        return null;
     }
 
     const spatialCandidates = collectSpatialCandidates(communes, grid, lng, lat);
@@ -374,29 +388,6 @@ function buildNameIndex(communes: Map<string, CommuneIndexLiteEntry>): Map<strin
     }
     return index;
 }
-
-export function normalizeName(value: string | null | undefined): string {
-    if (!value) {
-        return "";
-    }
-    return stripAccents(value.toLowerCase()).replace(/[^a-z0-9]+/g, "");
-}
-
-export function tokenizeName(value: string | null | undefined): string[] {
-    if (!value) {
-        return [];
-    }
-    const normalized = stripAccents(value.toLowerCase()).replace(TOKEN_SPLIT_PATTERN, " ");
-    return normalized
-        .split(" ")
-        .map((token) => token.trim())
-        .filter((token) => token.length > 0);
-}
-
-function stripAccents(value: string): string {
-    return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-}
-
 
 function listRingKeys(cx: number, cy: number, ring: number): string[] {
     if (ring === 0) {

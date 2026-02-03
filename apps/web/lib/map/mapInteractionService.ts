@@ -12,6 +12,8 @@ import type {
 } from "maplibre-gl";
 
 import { resolveCommuneByClick, resolveNearestCommuneInsee } from "@/lib/data/communeSpatialIndex";
+import { resolveInfraZoneByClick } from "@/lib/data/infraZoneSpatialIndex";
+import type { MapSelection } from "./mapSelection";
 
 import type { FeatureStateTarget } from "./cityHighlightLayers";
 import { extractCityIdentity, type CityIdentity } from "./interactiveLayers";
@@ -20,6 +22,9 @@ import { ADMIN_POLYGON_SPECS, extractLabelLayerIdFromHitbox, FEATURE_FIELDS } fr
 const HOVER_THROTTLE_MS = 60;
 const CLICK_HITBOX_PX = 8;
 const unresolvedWarningKeys = new Set<string>();
+
+const COMMUNE_LABEL_CLASSES = new Set(["city", "town", "village"]);
+const INFRA_LABEL_CLASSES = new Set(["suburb", "neighbourhood", "borough"]);
 
 type PolygonInteractionConfig = {
     layerId: string;
@@ -55,6 +60,7 @@ type CityInteractionEvent =
     | {
         type: "clickCity";
         city: CityIdentity;
+        selection: MapSelection;
         interactiveLayerId: string;
         labelLayerId: string | null;
         featureStateTarget: FeatureStateTarget | null;
@@ -125,10 +131,11 @@ export function attachCityInteractionService(
                 if (disposed) {
                     return;
                 }
-                if (hit) {
+                if (hit?.selection) {
                     listener({
                         type: "clickCity",
                         city: hit.city,
+                        selection: hit.selection,
                         interactiveLayerId: hit.interactiveLayerId,
                         labelLayerId: hit.labelLayerId,
                         featureStateTarget: hit.featureStateTarget,
@@ -206,6 +213,7 @@ type CityFeatureHit = {
     featureStateTarget: FeatureStateTarget | null;
     lngLat: { lng: number; lat: number } | null;
     polygonTargets: FeatureStateTarget[];
+    selection: MapSelection | null;
 };
 
 function attachPolygonHoverHandlers(map: MapLibreMap): Array<() => void> {
@@ -345,7 +353,15 @@ async function pickCityFeature(
         console.debug("[map-interaction] hover features", features.map((feature) => feature.layer?.id));
     }
     const lngLat = projectPoint(map, point);
-    for (const feature of features) {
+    const { x: pointerX, y: pointerY } = coercePoint(point);
+    const scored = features
+        .map((feature) => ({
+            feature,
+            distSq: computeFeatureDistanceSq(map, pointerX, pointerY, feature)
+        }))
+        .sort((a, b) => a.distSq - b.distSq);
+
+    for (const { feature } of scored) {
         const identity = extractCityIdentity(feature);
         if (!identity) {
             continue;
@@ -354,24 +370,92 @@ async function pickCityFeature(
         if (!layerId) {
             continue;
         }
+
+        if (options.resolutionMode === "hover") {
+            const infraSelectable = await isInfraLabelSelectable(identity, {
+                lngLat,
+                debug: options.debugResolution
+            });
+            if (identity.placeClass && INFRA_LABEL_CLASSES.has(identity.placeClass) && !infraSelectable) {
+                continue;
+            }
+        }
+
         const resolvedCity = await resolveCityIdentity(feature, identity, {
             warnOnUnresolved: options.warnOnUnresolved,
             lngLat,
-            polygonHits,
             resolutionMode: options.resolutionMode,
             debugResolution: options.debugResolution
         });
         const polygonTargets = collectPolygonTargetsForInsee(polygonHits, resolvedCity.inseeCode);
+        const selection = options.resolutionMode === "click"
+            ? await resolveMapSelection(identity, resolvedCity, {
+                lngLat,
+                debugResolution: options.debugResolution
+            })
+            : null;
+        if (options.resolutionMode === "click" && !selection) {
+            return null;
+        }
         return {
             city: resolvedCity,
             interactiveLayerId: layerId,
             labelLayerId: extractLabelLayerIdFromHitbox(layerId),
             featureStateTarget: createFeatureStateTarget(feature),
             lngLat,
-            polygonTargets
+            polygonTargets,
+            selection
         };
     }
     return null;
+}
+
+async function isInfraLabelSelectable(
+    identity: CityIdentity,
+    context: {
+        lngLat: { lng: number; lat: number } | null;
+        debug: boolean;
+    }
+): Promise<boolean> {
+    const placeClass = identity.placeClass ?? null;
+    if (!placeClass || !INFRA_LABEL_CLASSES.has(placeClass)) {
+        return true;
+    }
+
+    if (!context.lngLat) {
+        return false;
+    }
+
+    const resolved = await resolveInfraZoneByClick({
+        lng: context.lngLat.lng,
+        lat: context.lngLat.lat,
+        labelName: identity.name,
+        debug: context.debug,
+        requireNameMatch: true
+    });
+
+    return Boolean(resolved);
+}
+
+function computeFeatureDistanceSq(map: MapLibreMap, pointerX: number, pointerY: number, feature: MapGeoJSONFeature): number {
+    const geometry = (feature as unknown as { geometry?: unknown }).geometry as
+        | { type?: unknown; coordinates?: unknown }
+        | undefined;
+    if (!geometry || geometry.type !== "Point" || !Array.isArray(geometry.coordinates)) {
+        return Number.POSITIVE_INFINITY;
+    }
+    const [lng, lat] = geometry.coordinates as [number, number];
+    if (!Number.isFinite(lng) || !Number.isFinite(lat)) {
+        return Number.POSITIVE_INFINITY;
+    }
+    try {
+        const projected = map.project({ lng, lat });
+        const dx = projected.x - pointerX;
+        const dy = projected.y - pointerY;
+        return dx * dx + dy * dy;
+    } catch {
+        return Number.POSITIVE_INFINITY;
+    }
 }
 
 function buildQueryGeometry(
@@ -401,7 +485,6 @@ async function resolveCityIdentity(
     options: {
         warnOnUnresolved: boolean;
         lngLat: { lng: number; lat: number } | null;
-        polygonHits: PolygonCityHit[];
         resolutionMode: "hover" | "click";
         debugResolution: boolean;
     }
@@ -412,18 +495,6 @@ async function resolveCityIdentity(
             ...identity,
             id: identity.inseeCode,
             resolutionMethod: identity.resolutionMethod ?? "feature",
-            resolutionStatus: "resolved",
-            location
-        };
-    }
-
-    const viaPolygon = pickPolygonInsee(options.polygonHits);
-    if (viaPolygon) {
-        return {
-            ...identity,
-            id: viaPolygon,
-            inseeCode: viaPolygon,
-            resolutionMethod: "polygon",
             resolutionStatus: "resolved",
             location
         };
@@ -489,6 +560,80 @@ async function resolveCityIdentity(
     };
 }
 
+async function resolveMapSelection(
+    identity: CityIdentity,
+    resolvedCity: CityIdentity,
+    context: {
+        lngLat: { lng: number; lat: number } | null;
+        debugResolution: boolean;
+    }
+): Promise<MapSelection | null> {
+    const labelName = identity.name;
+    if (identity.inseeCode) {
+        return createCommuneSelection(identity.inseeCode, labelName);
+    }
+
+    const resolvedInsee = resolvedCity.inseeCode ?? null;
+    if (!context.lngLat) {
+        return resolvedInsee ? createCommuneSelection(resolvedInsee, resolvedCity.name) : null;
+    }
+
+    const { lng, lat } = context.lngLat;
+
+    const placeClass = identity.placeClass ?? null;
+
+    if (placeClass && INFRA_LABEL_CLASSES.has(placeClass)) {
+        const infraZone = await resolveInfraZoneByClick(
+            {
+                lng,
+                lat,
+                labelName,
+                debug: context.debugResolution,
+                requireNameMatch: true
+            }
+        );
+        if (infraZone) {
+            return {
+                kind: "infraZone",
+                id: infraZone.entry.id,
+                parentCommuneCode: infraZone.entry.parentCommuneCode,
+                name: infraZone.entry.name,
+                infraType: infraZone.entry.type,
+                code: infraZone.entry.code
+            };
+        }
+
+        return null;
+    }
+
+    if (!placeClass || COMMUNE_LABEL_CLASSES.has(placeClass)) {
+        const commune = await resolveCommuneByClick({
+            lng,
+            lat,
+            labelName,
+            debug: context.debugResolution,
+            requireNameMatch: true
+        });
+        if (commune) {
+            return createCommuneSelection(commune.inseeCode, labelName ?? resolvedCity.name);
+        }
+    }
+
+    if (resolvedInsee) {
+        return createCommuneSelection(resolvedInsee, resolvedCity.name);
+    }
+
+    return null;
+}
+
+function createCommuneSelection(inseeCode: string, name: string | null | undefined): MapSelection {
+    return {
+        kind: "commune",
+        inseeCode,
+        name: name && name.length ? name : inseeCode
+    };
+}
+
 function readProperty(feature: MapGeoJSONFeature, fields: readonly string[]): string | null {
     const props = feature.properties ?? {};
     for (const field of fields) {
@@ -516,16 +661,6 @@ function queryPolygonCityHits(map: MapLibreMap, geometry: QueryGeometry): Polygo
         target: createFeatureStateTarget(feature),
         layerId: feature.layer?.id ?? null
     }));
-}
-
-function pickPolygonInsee(polygonHits: PolygonCityHit[]): string | null {
-    for (const config of POLYGON_INTERACTION_CONFIGS) {
-        const preferred = polygonHits.find((hit) => hit.layerId === config.layerId && Boolean(hit.inseeCode));
-        if (preferred?.inseeCode) {
-            return preferred.inseeCode;
-        }
-    }
-    return polygonHits.find((hit) => Boolean(hit.inseeCode))?.inseeCode ?? null;
 }
 
 function collectPolygonTargetsForInsee(

@@ -12,8 +12,6 @@
         "lint": "echo \"no lint yet\""
     },
     "dependencies": {
-        "@choisir-sa-ville/core": "workspace:*",
-        "@choisir-sa-ville/db": "workspace:*",
         "fastify": "^5.2.2",
         "fastify-plugin": "^5.0.0",
         "kysely": "^0.27.4",

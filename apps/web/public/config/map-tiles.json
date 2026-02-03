@@ -12,7 +12,8 @@
     "cityClasses": [
         "city",
         "town",
-        "village"
+        "village",
+        "suburb"
     ],
     "polygonSources": {
         "communes": {

@@ -1,14 +1,14 @@
 import type { HTMLAttributes } from "react";
 
 import RightPanelDetailsCard from "@/components/right-panel-details-card";
-import type { CityIdentity } from "@/lib/map/interactiveLayers";
+import type { MapSelection } from "@/lib/map/mapSelection";
 import { cn } from "@/lib/utils";
 
 type RightPanelProps = HTMLAttributes<HTMLDivElement> & {
-    selectedCity?: CityIdentity | null;
+    selection?: MapSelection | null;
 };
 
-export default function RightPanel({ className, selectedCity, ...props }: RightPanelProps): JSX.Element {
+export default function RightPanel({ className, selection, ...props }: RightPanelProps): JSX.Element {
     return (
         <section
             className={cn(
@@ -33,7 +33,7 @@ export default function RightPanel({ className, selectedCity, ...props }: RightP
                         seront automatiquement annulées avant d&apos;être relancées.
                     </div>
                 </div>
-                <RightPanelDetailsCard className="w-full lg:mt-auto lg:flex-1" selectedCity={selectedCity ?? null} />
+                <RightPanelDetailsCard className="w-full lg:mt-auto lg:flex-1" selection={selection ?? null} />
             </div>
         </section>
     );

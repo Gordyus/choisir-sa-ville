@@ -5,82 +5,105 @@ import { useEffect, useState } from "react";
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { getCommuneByInsee, type CommuneIndexLiteEntry } from "@/lib/data/communesIndexLite";
-import type { CityIdentity } from "@/lib/map/interactiveLayers";
+import { getInfraZoneById, type InfraZoneIndexLiteEntry } from "@/lib/data/infraZonesIndexLite";
+import type { MapSelection } from "@/lib/map/mapSelection";
 import { cn } from "@/lib/utils";
 
 interface RightPanelDetailsCardProps extends HTMLAttributes<HTMLDivElement> {
-    selectedCity?: CityIdentity | null;
+    selection?: MapSelection | null;
 }
 
 type CardStatus = "idle" | "loading" | "ready" | "missing" | "error";
 
 const numberFormatter = new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 0 });
 
-export default function RightPanelDetailsCard({ className, selectedCity, ...props }: RightPanelDetailsCardProps): JSX.Element {
+export default function RightPanelDetailsCard({ className, selection, ...props }: RightPanelDetailsCardProps): JSX.Element {
     const [status, setStatus] = useState<CardStatus>("idle");
-    const [details, setDetails] = useState<CommuneIndexLiteEntry | null>(null);
+    const [communeDetails, setCommuneDetails] = useState<CommuneIndexLiteEntry | null>(null);
+    const [infraZoneDetails, setInfraZoneDetails] = useState<InfraZoneIndexLiteEntry | null>(null);
+    const [parentCommuneDetails, setParentCommuneDetails] = useState<CommuneIndexLiteEntry | null>(null);
+    const selectionKey = selection ? (selection.kind === "commune" ? selection.inseeCode : selection.id) : null;
 
     useEffect(() => {
-        if (!selectedCity) {
+        if (!selection) {
             setStatus("idle");
-            setDetails(null);
-            return;
-        }
-
-        if (selectedCity.resolutionStatus === "unresolved") {
-            setStatus("idle");
-            setDetails(null);
-            return;
-        }
-
-        const targetInsee = selectedCity.inseeCode ?? selectedCity.id ?? null;
-        if (!targetInsee) {
-            setStatus("idle");
-            setDetails(null);
+            setCommuneDetails(null);
+            setInfraZoneDetails(null);
+            setParentCommuneDetails(null);
             return;
         }
 
         let alive = true;
         const controller = new AbortController();
+        const { signal } = controller;
         setStatus("loading");
-        setDetails(null);
+        setCommuneDetails(null);
+        setInfraZoneDetails(null);
+        setParentCommuneDetails(null);
 
-        getCommuneByInsee(targetInsee, controller.signal)
-            .then((entry) => {
+        const activeSelection = selection;
+
+        async function load(target: MapSelection): Promise<void> {
+            try {
+                if (target.kind === "commune") {
+                    const entry = await getCommuneByInsee(target.inseeCode, signal);
+                    if (!alive) {
+                        return;
+                    }
+                    if (entry) {
+                        setCommuneDetails(entry);
+                        setStatus("ready");
+                    } else {
+                        setStatus("missing");
+                    }
+                    return;
+                }
+
+                const zone = await getInfraZoneById(target.id, signal);
                 if (!alive) {
                     return;
                 }
-                if (entry) {
-                    setDetails(entry);
-                    setStatus("ready");
-                } else {
-                    setDetails(null);
+                if (!zone) {
                     setStatus("missing");
+                    return;
                 }
-            })
-            .catch((error: unknown) => {
+                setInfraZoneDetails(zone);
+
+                const parent = zone.parentCommuneCode
+                    ? await getCommuneByInsee(zone.parentCommuneCode, signal)
+                    : null;
                 if (!alive) {
                     return;
                 }
-                if (isAbortError(error)) {
+                setParentCommuneDetails(parent);
+                setStatus("ready");
+            } catch (error) {
+                if (!alive || isAbortError(error)) {
                     return;
                 }
                 if (process.env.NODE_ENV === "development") {
-                    console.warn("[details-card] Failed to load commune details", error);
+                    console.warn("[details-card] Failed to load selection details", error);
                 }
-                setDetails(null);
                 setStatus("error");
-            });
+            }
+        }
+
+        void load(activeSelection);
 
         return () => {
             alive = false;
             controller.abort();
         };
-    }, [selectedCity?.id, selectedCity?.inseeCode, selectedCity?.resolutionStatus]);
+    }, [selection?.kind, selectionKey]);
 
-    const description = selectedCity
-        ? `Informations de base pour ${selectedCity.name}`
-        : "Sélectionne une ville pour afficher ses informations.";
+    const selectionLabel = selection
+        ? selection.name ?? (selection.kind === "commune" ? selection.inseeCode : selection.id)
+        : null;
+    const description = selection
+        ? selection.kind === "infraZone"
+            ? `Zone infra-communale sélectionnée : ${selectionLabel}`
+            : `Commune sélectionnée : ${selectionLabel}`
+        : "Sélectionne une zone ou une commune pour afficher ses informations.";
 
     return (
         <Card className={cn("flex h-full min-h-[240px] flex-col lg:min-h-[260px]", className)} {...props}>
@@ -89,7 +112,13 @@ export default function RightPanelDetailsCard({ className, selectedCity, ...prop
                 <CardDescription>{description}</CardDescription>
             </CardHeader>
             <CardContent className="flex-1 overflow-auto text-sm text-brand/80">
-                {renderContent({ status, details, selectedCity: selectedCity ?? null })}
+                {renderContent({
+                    status,
+                    selection: selection ?? null,
+                    communeDetails,
+                    infraZoneDetails,
+                    parentCommuneDetails
+                })}
             </CardContent>
         </Card>
     );
@@ -97,57 +126,63 @@ export default function RightPanelDetailsCard({ className, selectedCity, ...prop
 
 function renderContent({
     status,
-    details,
-    selectedCity
+    selection,
+    communeDetails,
+    infraZoneDetails,
+    parentCommuneDetails
 }: {
     status: CardStatus;
-    details: CommuneIndexLiteEntry | null;
-    selectedCity: CityIdentity | null;
+    selection: MapSelection | null;
+    communeDetails: CommuneIndexLiteEntry | null;
+    infraZoneDetails: InfraZoneIndexLiteEntry | null;
+    parentCommuneDetails: CommuneIndexLiteEntry | null;
 }): JSX.Element {
-    if (!selectedCity || status === "idle") {
-        return <InfoMessage message="Aucune ville sélectionnée." />;
+    if (!selection || status === "idle") {
+        return <InfoMessage message="Aucune sélection active." />;
     }
 
     if (status === "loading") {
         return <InfoMessage message="Chargement des informations..." loading />;
     }
 
-    if (selectedCity.resolutionStatus === "unresolved") {
-        return (
-            <InfoMessage
-                message={
-                    selectedCity.unresolvedReason ??
-                    `Impossible de déterminer le code INSEE pour ${selectedCity.name}.`
-                }
-            />
-        );
-    }
-
     if (status === "missing") {
-        return <InfoMessage message="Données indisponibles pour cette commune." />;
+        return <InfoMessage message="Données indisponibles pour cette sélection." />;
     }
 
     if (status === "error") {
         return <InfoMessage message="Erreur lors du chargement des données." />;
     }
 
-    const resolved = details ?? {
-        inseeCode: selectedCity.id,
-        name: selectedCity.name,
-        departmentCode: "",
-        regionCode: "",
-        lat: 0,
-        lon: 0,
-        population: null
-    };
+    if (selection.kind === "infraZone") {
+        const zone = infraZoneDetails;
+        if (!zone) {
+            return <InfoMessage message="Données indisponibles pour cette zone." />;
+        }
+        return (
+            <div className="space-y-3">
+                <DetailRow label="Nom" value={zone.name} emphasized />
+                <DetailRow label="Type" value={zone.type || "—"} />
+                <DetailRow label="Code" value={zone.code || zone.id} />
+                <DetailRow label="Identifiant" value={zone.id} />
+                <DetailRow label="Population" value={formatPopulation(zone.population)} />
+                <DetailRow label="Commune parente" value={parentCommuneDetails?.name ?? "—"} />
+                <DetailRow label="Code commune parente" value={zone.parentCommuneCode || "—"} />
+            </div>
+        );
+    }
+
+    const commune = communeDetails;
+    if (!commune) {
+        return <InfoMessage message="Données indisponibles pour cette commune." />;
+    }
 
     return (
         <div className="space-y-3">
-            <DetailRow label="Nom" value={resolved.name} emphasized />
-            <DetailRow label="Code INSEE" value={resolved.inseeCode} />
-            <DetailRow label="Département" value={resolved.departmentCode || "—"} />
-            <DetailRow label="Région" value={resolved.regionCode || "—"} />
-            <DetailRow label="Population" value={formatPopulation(resolved.population)} />
+            <DetailRow label="Nom" value={commune.name} emphasized />
+            <DetailRow label="Code INSEE" value={commune.inseeCode} />
+            <DetailRow label="Département" value={commune.departmentCode || "—"} />
+            <DetailRow label="Région" value={commune.regionCode || "—"} />
+            <DetailRow label="Population" value={formatPopulation(commune.population)} />
         </div>
     );
 }
