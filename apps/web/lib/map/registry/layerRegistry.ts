@@ -70,7 +70,7 @@ export const FEATURE_FIELDS = {
     /** Primary ID field for city/commune identification */
     inseeCode: "insee",
     /** Fallback ID fields in priority order */
-    fallbackIds: ["osm_id", "osmId", "wikidata", "code", "id", "name:fr", "name"] as const,
+    fallbackIds: ["code", "id", "name:fr", "name"] as const,
     /** Name fields in priority order */
     names: ["name:fr", "name", "name:en"] as const,
     /** Place class field */

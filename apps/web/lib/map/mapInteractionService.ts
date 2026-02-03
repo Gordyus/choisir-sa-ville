@@ -11,8 +11,9 @@ import type {
     PointLike
 } from "maplibre-gl";
 
+import { resolveCommuneByClick, resolveNearestCommuneInsee } from "@/lib/data/communeSpatialIndex";
+
 import type { FeatureStateTarget } from "./cityHighlightLayers";
-import { getInseeByOsmId, getInseeByWikidata } from "./cityInseeIndex";
 import { extractCityIdentity, type CityIdentity } from "./interactiveLayers";
 import { ADMIN_POLYGON_SPECS, extractLabelLayerIdFromHitbox, FEATURE_FIELDS } from "./registry/layerRegistry";
 
@@ -75,7 +76,10 @@ export function attachCityInteractionService(
     let lastHoverId: string | null = null;
     let lastMoveTs = 0;
     let selectedPolygonTargets: FeatureStateTarget[] = [];
+    let disposed = false;
+    let hoverRequestToken = 0;
     const logHoverFeatures = options?.logHoverFeatures ?? false;
+    const resolutionDebug = logHoverFeatures;
     const interactiveLayerIds = options?.interactiveLayerIds;
     if (!interactiveLayerIds || !interactiveLayerIds.length) {
         return () => { /* noop */ };
@@ -101,6 +105,7 @@ export function attachCityInteractionService(
     };
 
     const handleMouseLeave = (): void => {
+        hoverRequestToken++;
         if (lastHoverId !== null) {
             lastHoverId = null;
             listener({ type: "leaveCity" });
@@ -108,49 +113,76 @@ export function attachCityInteractionService(
     };
 
     const handleClick = (event: MapLayerMouseEvent): void => {
-        const hit = pickCityFeature(map, event.point, interactiveLayerIds, {
-            logHoverFeatures,
-            searchRadius: CLICK_HITBOX_PX,
-            warnOnUnresolved: true
-        });
-        if (hit) {
-            listener({
-                type: "clickCity",
-                city: hit.city,
-                interactiveLayerId: hit.interactiveLayerId,
-                labelLayerId: hit.labelLayerId,
-                featureStateTarget: hit.featureStateTarget,
-                lngLat: hit.lngLat
-            });
-            applyPolygonSelection(hit.polygonTargets);
-        } else {
-            applyPolygonSelection([]);
-        }
+        void (async () => {
+            try {
+                const hit = await pickCityFeature(map, event.point, interactiveLayerIds, {
+                    logHoverFeatures,
+                    searchRadius: CLICK_HITBOX_PX,
+                    warnOnUnresolved: true,
+                    resolutionMode: "click",
+                    debugResolution: resolutionDebug
+                });
+                if (disposed) {
+                    return;
+                }
+                if (hit) {
+                    listener({
+                        type: "clickCity",
+                        city: hit.city,
+                        interactiveLayerId: hit.interactiveLayerId,
+                        labelLayerId: hit.labelLayerId,
+                        featureStateTarget: hit.featureStateTarget,
+                        lngLat: hit.lngLat
+                    });
+                    applyPolygonSelection(hit.polygonTargets);
+                } else {
+                    applyPolygonSelection([]);
+                }
+            } catch (error) {
+                if (process.env.NODE_ENV === "development") {
+                    console.warn("[map-interaction] Failed to resolve city on click", error);
+                }
+            }
+        })();
     };
 
     const publishHover = (point: PointLike): void => {
-        const hit = pickCityFeature(map, point, interactiveLayerIds, {
-            logHoverFeatures,
-            searchRadius: 0,
-            warnOnUnresolved: false
-        });
-        const nextId = hit?.city.id ?? null;
-        if (nextId === lastHoverId) {
-            return;
-        }
-        lastHoverId = nextId;
-        if (hit) {
-            listener({
-                type: "hoverCity",
-                city: hit.city,
-                interactiveLayerId: hit.interactiveLayerId,
-                labelLayerId: hit.labelLayerId,
-                featureStateTarget: hit.featureStateTarget,
-                lngLat: hit.lngLat
-            });
-        } else {
-            listener({ type: "leaveCity" });
-        }
+        const requestId = ++hoverRequestToken;
+        void (async () => {
+            try {
+                const hit = await pickCityFeature(map, point, interactiveLayerIds, {
+                    logHoverFeatures,
+                    searchRadius: 0,
+                    warnOnUnresolved: false,
+                    resolutionMode: "hover",
+                    debugResolution: resolutionDebug
+                });
+                if (disposed || requestId !== hoverRequestToken) {
+                    return;
+                }
+                const nextId = hit?.city.id ?? null;
+                if (nextId === lastHoverId) {
+                    return;
+                }
+                lastHoverId = nextId;
+                if (hit) {
+                    listener({
+                        type: "hoverCity",
+                        city: hit.city,
+                        interactiveLayerId: hit.interactiveLayerId,
+                        labelLayerId: hit.labelLayerId,
+                        featureStateTarget: hit.featureStateTarget,
+                        lngLat: hit.lngLat
+                    });
+                } else {
+                    listener({ type: "leaveCity" });
+                }
+            } catch (error) {
+                if (process.env.NODE_ENV === "development") {
+                    console.warn("[map-interaction] Failed to resolve city on hover", error);
+                }
+            }
+        })();
     };
 
     map.on("mousemove", handlePointerMove);
@@ -158,6 +190,7 @@ export function attachCityInteractionService(
     map.on("click", handleClick);
 
     return () => {
+        disposed = true;
         map.off("mousemove", handlePointerMove);
         map.off("mouseleave", handleMouseLeave);
         map.off("click", handleClick);
@@ -286,14 +319,16 @@ type PickCityFeatureOptions = {
     logHoverFeatures: boolean;
     searchRadius: number;
     warnOnUnresolved: boolean;
+    resolutionMode: "hover" | "click";
+    debugResolution: boolean;
 };
 
-function pickCityFeature(
+async function pickCityFeature(
     map: MapLibreMap,
     point: PointLike,
     interactiveLayerIds: string[],
     options: PickCityFeatureOptions
-): CityFeatureHit | null {
+): Promise<CityFeatureHit | null> {
     if (!map.isStyleLoaded()) {
         return null;
     }
@@ -319,10 +354,12 @@ function pickCityFeature(
         if (!layerId) {
             continue;
         }
-        const resolvedCity = resolveCityIdentity(feature, identity, {
+        const resolvedCity = await resolveCityIdentity(feature, identity, {
             warnOnUnresolved: options.warnOnUnresolved,
             lngLat,
-            polygonHits
+            polygonHits,
+            resolutionMode: options.resolutionMode,
+            debugResolution: options.debugResolution
         });
         const polygonTargets = collectPolygonTargetsForInsee(polygonHits, resolvedCity.inseeCode);
         return {
@@ -358,15 +395,17 @@ function buildQueryGeometry(
     ];
 }
 
-function resolveCityIdentity(
+async function resolveCityIdentity(
     feature: MapGeoJSONFeature,
     identity: CityIdentity,
     options: {
         warnOnUnresolved: boolean;
         lngLat: { lng: number; lat: number } | null;
         polygonHits: PolygonCityHit[];
+        resolutionMode: "hover" | "click";
+        debugResolution: boolean;
     }
-): CityIdentity {
+): Promise<CityIdentity> {
     const location = options.lngLat ?? identity.location ?? null;
     if (identity.inseeCode) {
         return {
@@ -390,52 +429,62 @@ function resolveCityIdentity(
         };
     }
 
-    const osmId = identity.osmId ?? readProperty(feature, ["osm_id", "osmId"]);
-    const wikidataId = identity.wikidataId ?? readProperty(feature, ["wikidata"]);
-
-    const viaOsm = osmId ? getInseeByOsmId(osmId) : null;
-    if (viaOsm) {
-        return {
-            ...identity,
-            id: viaOsm,
-            inseeCode: viaOsm,
-            osmId: osmId ?? identity.osmId ?? null,
-            wikidataId: wikidataId ?? identity.wikidataId ?? null,
-            resolutionMethod: "osm",
-            resolutionStatus: "resolved",
-            location
-        };
+    if (location && options.resolutionMode === "click") {
+        try {
+            const resolved = await resolveCommuneByClick({
+                lng: location.lng,
+                lat: location.lat,
+                labelName: identity.name,
+                debug: options.debugResolution
+            });
+            if (resolved) {
+                return {
+                    ...identity,
+                    id: resolved.inseeCode,
+                    inseeCode: resolved.inseeCode,
+                    resolutionMethod: "position",
+                    resolutionStatus: "resolved",
+                    location
+                };
+            }
+        } catch (error) {
+            if (process.env.NODE_ENV === "development") {
+                console.warn("[map-interaction] Label-aware INSEE resolution failed", error);
+            }
+        }
     }
 
-    const viaWikidata = wikidataId ? getInseeByWikidata(wikidataId) : null;
-    if (viaWikidata) {
-        return {
-            ...identity,
-            id: viaWikidata,
-            inseeCode: viaWikidata,
-            osmId: osmId ?? identity.osmId ?? null,
-            wikidataId: wikidataId ?? identity.wikidataId ?? null,
-            resolutionMethod: "wikidata",
-            resolutionStatus: "resolved",
-            location
-        };
+    if (location) {
+        try {
+            const nearest = await resolveNearestCommuneInsee(location.lng, location.lat);
+            if (nearest) {
+                return {
+                    ...identity,
+                    id: nearest.inseeCode,
+                    inseeCode: nearest.inseeCode,
+                    resolutionMethod: "position",
+                    resolutionStatus: "resolved",
+                    location
+                };
+            }
+        } catch (error) {
+            if (process.env.NODE_ENV === "development") {
+                console.warn("[map-interaction] Spatial INSEE resolution failed", error);
+            }
+        }
     }
 
     if (options.warnOnUnresolved) {
         logUnresolvedCityWarning(identity.name, {
-            osmId: osmId ?? null,
-            wikidataId: wikidataId ?? null,
             lngLat: options.lngLat
         });
     }
 
     return {
         ...identity,
-        osmId: osmId ?? identity.osmId ?? null,
-        wikidataId: wikidataId ?? identity.wikidataId ?? null,
         resolutionMethod: "fallback",
         resolutionStatus: "unresolved",
-        unresolvedReason: "Unable to resolve INSEE from mapping",
+        unresolvedReason: "Unable to resolve INSEE from spatial index",
         location
     };
 }
@@ -556,7 +605,7 @@ function readPromotedId(feature: MapGeoJSONFeature, field?: string): string | nu
 
 function logUnresolvedCityWarning(
     name: string,
-    details: { osmId: string | null; wikidataId: string | null; lngLat: { lng: number; lat: number } | null }
+    details: { lngLat: { lng: number; lat: number } | null }
 ): void {
     const key = buildUnresolvedWarningKey(name, details);
     if (unresolvedWarningKeys.has(key)) {
@@ -568,22 +617,14 @@ function logUnresolvedCityWarning(
     }
     console.warn("[map-interaction] Unable to resolve INSEE", {
         name,
-        osmId: details.osmId ?? "<none>",
-        wikidata: details.wikidataId ?? "<none>",
         location: details.lngLat ?? "<unknown>"
     });
 }
 
 function buildUnresolvedWarningKey(
     name: string,
-    details: { osmId: string | null; wikidataId: string | null; lngLat: { lng: number; lat: number } | null }
+    details: { lngLat: { lng: number; lat: number } | null }
 ): string {
-    if (details.osmId) {
-        return `osm:${details.osmId}`;
-    }
-    if (details.wikidataId) {
-        return `wikidata:${details.wikidataId}`;
-    }
     if (details.lngLat) {
         const roundedLng = details.lngLat.lng.toFixed(3);
         const roundedLat = details.lngLat.lat.toFixed(3);

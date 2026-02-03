@@ -12,7 +12,7 @@ import { FEATURE_FIELDS } from "./registry/layerRegistry";
 // Types
 // ============================================================================
 
-export type CityResolutionMethod = "feature" | "polygon" | "osm" | "wikidata" | "fallback";
+export type CityResolutionMethod = "feature" | "polygon" | "position" | "fallback";
 
 export type CityPlaceClass = string;
 
@@ -20,9 +20,6 @@ export type CityIdentity = {
     id: string;
     name: string;
     inseeCode?: string | null;
-    originalId?: string | null;
-    osmId?: string | null;
-    wikidataId?: string | null;
     resolutionMethod?: CityResolutionMethod;
     resolutionStatus?: "resolved" | "unresolved";
     unresolvedReason?: string | null;
@@ -52,9 +49,6 @@ const PROPERTY_SNAPSHOT_FIELDS = [
     "capital",
     "capital_level",
     "capital:municipality",
-    "osm_id",
-    "osmId",
-    "wikidata",
     "insee"
 ] as const;
 
@@ -73,9 +67,6 @@ export function extractCityIdentity(feature: MapGeoJSONFeature): CityIdentity | 
         id,
         name,
         inseeCode: inseeCandidate ?? null,
-        originalId: fallbackId ?? inseeCandidate ?? null,
-        osmId: pickFirstString(feature, ["osm_id", "osmId"]) ?? null,
-        wikidataId: pickFirstString(feature, ["wikidata"]) ?? null,
         placeClass,
         location: null,
         rank,
@@ -178,14 +169,3 @@ function buildPropertiesSnapshot(feature: MapGeoJSONFeature): Record<string, unk
     return Object.keys(snapshot).length ? snapshot : null;
 }
 
-// Self-check in development
-if (process.env.NODE_ENV === "development") {
-    const fakeFeature = {
-        type: "Feature",
-        properties: { name: "SelfCheckVille", osm_id: 12345 }
-    } as unknown as MapGeoJSONFeature;
-    const identity = extractCityIdentity(fakeFeature);
-    if (!identity?.osmId || identity.osmId !== "12345") {
-        console.warn("[city-identity] Failed to normalize osm_id during self-check.");
-    }
-}

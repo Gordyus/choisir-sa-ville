@@ -14,7 +14,6 @@ import {
     setSelectedCity,
     type CityHighlightHandle
 } from "@/lib/map/cityHighlightLayers";
-import { initCityInseeIndex } from "@/lib/map/cityInseeIndex";
 import { ensureCommuneInteractiveLayers, listCommuneInteractiveLayerIds } from "@/lib/map/cityInteractiveLayer";
 import { debugLogSymbolLabelHints, type CityIdentity } from "@/lib/map/interactiveLayers";
 import { attachCityInteractionService } from "@/lib/map/mapInteractionService";
@@ -106,12 +105,6 @@ export default function VectorMap({ className, onCityClick }: VectorMapProps): J
             const logStyleHints = appConfig.debug.enabled && appConfig.debug.logStyleHints;
             if (logStyleHints) {
                 logStyleLayerCatalog(map);
-            }
-
-            try {
-                await initCityInseeIndex();
-            } catch (error) {
-                console.warn("[vector-map] Unable to warm city INSEE index", error);
             }
 
             const interactiveLayerHandle = ensureCommuneInteractiveLayers(map);
