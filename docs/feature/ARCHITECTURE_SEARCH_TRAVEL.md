@@ -93,7 +93,7 @@ Env vars:
   Leaflet + clustering + markers + route polyline.
   Listens to `moveend` / `zoomend` only.
 
-### Angular services
+### Frontend services
 - `MapDataService`
   - Viewport + bbox loading.
   - Debounce, cancellation, request dedupe.

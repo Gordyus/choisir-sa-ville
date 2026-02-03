@@ -1,47 +1,78 @@
-# ChoisirSaVille – MVP / POC (Local Dev Skeleton)
+# Choisir sa ville
 
-This repository is a **portable** (host-agnostic) baseline:
-- API: **Node.js 20 + Fastify** (performance-oriented)
-- DB: **PostgreSQL** (Docker for local dev)
-- Monorepo: **PNPM workspaces**
-- Strict boundaries:
-  - `packages/core`: domain logic + types (no infra)
-  - `packages/db`: database access + migrations
-  - `apps/api`: HTTP adapter (no business logic)
+Monorepo du projet **Choisir sa ville**.
 
-## Prerequisites
-- Node.js 20+
-- pnpm (`corepack enable` recommended)
-- Docker + Docker Compose
+Objectif : aider à comparer et sélectionner des zones géographiques en France
+(communes, EPCI, départements…) selon des critères objectifs
+(loyers, population, accessibilité, agrégats, etc.).
 
-## Quickstart
-```bash
-cp .env.example .env
-pnpm install
-docker compose up -d
-pnpm db:migrate
-pnpm dev
-```
+Ce dépôt est volontairement structuré pour :
 
-Then:
-- API health: http://localhost:8787/health
+- séparer strictement la logique métier, l’accès aux données et les adaptateurs
+- permettre une évolution progressive du POC vers un MVP
+- éviter toute dérive “spaghetti front / back”
 
-## Useful commands
-```bash
-pnpm dev            # run API in watch mode
-pnpm db:migrate     # apply migrations
-pnpm db:reset       # drop & recreate schema (dev only)
-pnpm lint
-pnpm typecheck
-```
+---
 
-## Project structure
-```
+## Structure du repo
+
 apps/
-  api/              # Fastify HTTP API
-  web/              # (stub) front app placeholder
+  api/        # API HTTP (Fastify) – adaptateur uniquement
+  web/        # Frontend web (Next.js App Router)
+
 packages/
-  core/             # domain types + validation
-  db/               # Kysely + migrations
-docs/               # project documentation
+  core/       # Logique métier pure, agrégats, règles, schémas
+  db/         # Accès base de données, migrations, repositories
+
+docs/         # Documentation technique et produit
+specs/        # Spécifications fonctionnelles et techniques
+tools/        # Outils batch / import (hors runtime)
+
+---
+
+## Prérequis
+
+- Node.js ≥ 20
+- pnpm
+- Docker (pour Postgres en local)
+
+---
+
+## Installation
+
+pnpm install
+
+---
+
+## Développement local
+
+### Base de données
+
+docker compose up -d
+
+### API
+
+pnpm --filter api dev
+
+### Frontend web (Next.js)
+
 ```
+pnpm -C apps/web dev          # serveur de dev avec rechargement
+pnpm -C apps/web typecheck    # vérifie le typage strict
+pnpm -C apps/web lint         # lint React/TS
+pnpm -C apps/web build        # build de prod
+pnpm -C apps/web start        # serveur Next.js en mode prod
+```
+
+---
+
+## Documentation
+
+Voir docs/INDEX.md
+
+---
+
+## Règles du projet
+
+Les règles techniques et architecturales non négociables sont définies dans :
+docs/AGENTS.md

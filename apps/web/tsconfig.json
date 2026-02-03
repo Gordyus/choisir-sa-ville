@@ -1,20 +1,37 @@
 {
-  "extends": "../../tsconfig.base.json",
-  "compileOnSave": false,
-  "compilerOptions": {
-    "baseUrl": ".",
-    "outDir": "./dist/out-tsc",
-    "target": "ES2022",
-    "module": "ES2022",
-    "moduleResolution": "Bundler",
-    "noEmit": false,
-    "useDefineForClassFields": false,
-    "strict": true,
-    "lib": ["ES2022", "DOM"],
-    "skipLibCheck": true,
-    "types": []
-  },
-  "angularCompilerOptions": {
-    "strictTemplates": true
-  }
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": {
+        "allowJs": false,
+        "baseUrl": ".",
+        "incremental": true,
+        "jsx": "preserve",
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+        "noEmit": true,
+        "paths": {
+            "@/*": [
+                "./*"
+            ]
+        },
+        "resolveJsonModule": true,
+        "types": [
+            "node"
+        ],
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "plugins": [
+            {
+                "name": "next"
+            }
+        ]
+    },
+    "include": [
+        "next-env.d.ts",
+        "**/*.ts",
+        "**/*.tsx",
+        ".next/types/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
 }

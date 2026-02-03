@@ -18,8 +18,14 @@ export function normalizeBucket(input: string): TimeBucket {
     throw new Error("Invalid time bucket day.");
   }
 
-  const hour = Number.parseInt(match[2], 10);
-  const minute = Number.parseInt(match[3], 10);
+  const hourStr = match[2];
+  const minuteStr = match[3];
+  if (!hourStr || !minuteStr) {
+    throw new Error("Invalid time bucket format.");
+  }
+
+  const hour = Number.parseInt(hourStr, 10);
+  const minute = Number.parseInt(minuteStr, 10);
 
   if (!Number.isInteger(hour) || hour < 0 || hour > 23) {
     throw new Error("Invalid time bucket hour.");
@@ -82,10 +88,15 @@ function parseBucket(bucket: TimeBucket): { day: TimeBucketDay; hour: number; mi
     throw new Error("Invalid time bucket format.");
   }
   const day = match[1] as TimeBucketDay;
+  const hourStr = match[2];
+  const minuteStr = match[3];
+  if (!hourStr || !minuteStr) {
+    throw new Error("Invalid time bucket format.");
+  }
   return {
     day,
-    hour: Number.parseInt(match[2], 10),
-    minute: Number.parseInt(match[3], 10)
+    hour: Number.parseInt(hourStr, 10),
+    minute: Number.parseInt(minuteStr, 10)
   };
 }
 
@@ -99,7 +110,11 @@ function dayIndex(day: TimeBucketDay): number {
 
 function shiftDay(day: TimeBucketDay, delta: number): TimeBucketDay {
   const index = (dayIndex(day) + delta + 7) % 7;
-  return DOWS[index];
+  const result = DOWS[index];
+  if (!result) {
+    throw new Error("Invalid day calculation");
+  }
+  return result;
 }
 
 function getZonedParts(
@@ -167,7 +182,10 @@ function getTimeZoneOffsetMinutes(date: Date, timeZone: string): number {
   const match = /GMT([+-]\d{1,2})(?::(\d{2}))?/.exec(part);
   if (!match) return 0;
 
-  const hours = Number.parseInt(match[1], 10);
+  const hoursStr = match[1];
+  if (!hoursStr) return 0;
+
+  const hours = Number.parseInt(hoursStr, 10);
   const minutes = match[2] ? Number.parseInt(match[2], 10) : 0;
   const sign = hours < 0 ? -1 : 1;
   return sign * (Math.abs(hours) * 60 + minutes);

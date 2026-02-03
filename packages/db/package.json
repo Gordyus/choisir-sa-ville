@@ -1,14 +1,16 @@
 {
-  "name": "@csv/db",
+  "name": "@choisir-sa-ville/db",
   "private": true,
   "type": "module",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "typecheck": "tsc -p tsconfig.json --noEmit",
-    "lint": "eslint .",
+    "typecheck": "tsc -b tsconfig.json --noEmit",
+    "build": "tsc -b tsconfig.json && node scripts/copy-sql-migrations.mjs",
+    "test": "echo \"no tests yet\"",
+    "lint": "echo \"no lint yet\"",
     "migrate": "tsx src/migrate.ts",
-    "reset": "tsx src/reset.ts"
+    "reset": "tsx src/reset.dev.ts"
   },
   "dependencies": {
     "dotenv": "^16.6.1",
