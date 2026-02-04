@@ -4,8 +4,12 @@
  * Responsibilities:
  * - Use label features as the sole interaction surface
  * - Resolve labels to entities via name-first, distance-second order
- * - Keep SelectionService highlight/active state in sync with feature-state
+ * - Update EntityStateService on user interactions (hover, click)
  * - Proactively set hasData on visible labels whenever the viewport changes
+ * - Expose getLabelTargetForEntity for the EntityGraphicsBinder
+ *
+ * Note: This service does NOT apply highlight/active feature-state directly.
+ * That responsibility belongs to EntityGraphicsBinder.
  */
 
 import type {
@@ -19,7 +23,7 @@ import { DEFAULT_INTERACTABLE_LABEL_LAYER_ID } from "@/lib/config/mapTilesConfig
 import { findCommunesByNormalizedName } from "@/lib/data/communesIndexLite";
 import { findInfraZonesByNormalizedName } from "@/lib/data/infraZonesIndexLite";
 import { normalizeName } from "@/lib/data/nameNormalization";
-import { entityRefKey, getSelectionService, type EntityRef } from "@/lib/selection";
+import { entityRefKey, getEntityStateService, type EntityRef } from "@/lib/selection";
 
 import { extractLabelIdentity, type LabelIdentity } from "./interactiveLayers";
 
@@ -44,6 +48,13 @@ export type FeatureStateTarget = {
     id: string | number;
 };
 
+export type GetLabelTargetForEntity = (entity: EntityRef | null) => FeatureStateTarget | null;
+
+export type MapInteractionServiceResult = {
+    cleanup: () => void;
+    getLabelTargetForEntity: GetLabelTargetForEntity;
+};
+
 export type MapInteractionServiceOptions = {
     debug?: boolean;
     labelLayerId?: string;
@@ -64,11 +75,6 @@ type LabelHit = {
     featureStateTarget: FeatureStateTarget;
 };
 
-type FeatureStateHandle = {
-    highlightTarget: FeatureStateTarget | null;
-    activeTarget: FeatureStateTarget | null;
-};
-
 // ============================================================================
 // Public API
 // ============================================================================
@@ -76,13 +82,9 @@ type FeatureStateHandle = {
 export function attachMapInteractionService(
     map: MapLibreMap,
     options?: MapInteractionServiceOptions
-): () => void {
-    const selectionService = getSelectionService();
+): MapInteractionServiceResult {
+    const entityStateService = getEntityStateService();
     const labelLayerId = options?.labelLayerId ?? DEFAULT_INTERACTABLE_LABEL_LAYER_ID;
-    const featureStateHandle: FeatureStateHandle = {
-        highlightTarget: null,
-        activeTarget: null
-    };
 
     let lastHighlightFeatureId: string | number | null = null;
     let lastMoveTs = 0;
@@ -90,17 +92,9 @@ export function attachMapInteractionService(
     let highlightRequestToken = 0;
     const debug = options?.debug ?? false;
 
+    const canvas = map.getCanvas();
     const hasDataEvaluator = new LabelHasDataEvaluator(map, labelLayerId, debug);
     hasDataEvaluator.start();
-
-    const unsubscribe = selectionService.subscribe(() => {
-        const state = selectionService.getState();
-        const highlightTarget = hasDataEvaluator.getLabelForEntity(state.highlighted);
-        const activeTarget = hasDataEvaluator.getLabelForEntity(state.active);
-
-        updateFeatureState(map, featureStateHandle, "highlightTarget", highlightTarget, "highlight");
-        updateFeatureState(map, featureStateHandle, "activeTarget", activeTarget, "active");
-    });
 
     const handleMouseMove = (event: MapMouseEvent): void => {
         const now = performance.now();
@@ -123,8 +117,8 @@ export function attachMapInteractionService(
         lastHighlightFeatureId = nextId;
 
         if (!hit) {
-            updateFeatureState(map, featureStateHandle, "highlightTarget", null, "highlight");
-            selectionService.setHighlighted(null);
+            canvas.style.cursor = "";
+            entityStateService.setHighlighted(null);
             return;
         }
 
@@ -135,22 +129,22 @@ export function attachMapInteractionService(
             }
 
             if (!evaluation.hasData || !evaluation.entityRef) {
-                updateFeatureState(map, featureStateHandle, "highlightTarget", null, "highlight");
-                selectionService.setHighlighted(null);
+                canvas.style.cursor = "";
+                entityStateService.setHighlighted(null);
                 return;
             }
 
-            updateFeatureState(map, featureStateHandle, "highlightTarget", hit.featureStateTarget, "highlight");
-            selectionService.setHighlighted(evaluation.entityRef);
+            canvas.style.cursor = "pointer";
+            entityStateService.setHighlighted(evaluation.entityRef);
         });
     };
 
     const handleMouseLeave = (): void => {
         highlightRequestToken++;
+        canvas.style.cursor = "";
         if (lastHighlightFeatureId !== null) {
             lastHighlightFeatureId = null;
-            updateFeatureState(map, featureStateHandle, "highlightTarget", null, "highlight");
-            selectionService.setHighlighted(null);
+            entityStateService.setHighlighted(null);
         }
     };
 
@@ -163,8 +157,7 @@ export function attachMapInteractionService(
                 }
 
                 if (!hit) {
-                    updateFeatureState(map, featureStateHandle, "activeTarget", null, "active");
-                    selectionService.setActive(null);
+                    entityStateService.setActive(null);
                     return;
                 }
 
@@ -180,17 +173,15 @@ export function attachMapInteractionService(
                 }
 
                 if (evaluation.hasData && evaluation.entityRef) {
-                    updateFeatureState(map, featureStateHandle, "activeTarget", hit.featureStateTarget, "active");
-                    selectionService.setActive(evaluation.entityRef);
+                    entityStateService.setActive(evaluation.entityRef);
                 } else {
-                    updateFeatureState(map, featureStateHandle, "activeTarget", null, "active");
-                    selectionService.setActive(null);
+                    entityStateService.setActive(null);
                 }
             } catch (error) {
                 if (process.env.NODE_ENV === "development") {
                     console.warn("[map-interaction] Failed to resolve entity on click", error);
                 }
-                selectionService.setActive(null);
+                entityStateService.setActive(null);
             }
         })();
     };
@@ -199,29 +190,27 @@ export function attachMapInteractionService(
     map.on("mouseleave", handleMouseLeave);
     map.on("click", handleClick);
 
-    return () => {
+    const cleanup = (): void => {
         disposed = true;
+        canvas.style.cursor = "";
         map.off("mousemove", handleMouseMove);
         map.off("mouseleave", handleMouseLeave);
         map.off("click", handleClick);
-
         hasDataEvaluator.stop();
-        unsubscribe();
-
-        if (featureStateHandle.highlightTarget) {
-            applyFeatureState(map, featureStateHandle.highlightTarget, { highlight: false });
-        }
-        if (featureStateHandle.activeTarget) {
-            applyFeatureState(map, featureStateHandle.activeTarget, { active: false });
-        }
     };
+
+    const getLabelTargetForEntity: GetLabelTargetForEntity = (entity) => {
+        return hasDataEvaluator.getLabelForEntity(entity);
+    };
+
+    return { cleanup, getLabelTargetForEntity };
 }
 
 // ============================================================================
-// Feature State Helpers
+// Feature State Helpers (hasData only - highlight/active moved to EntityGraphicsBinder)
 // ============================================================================
 
-function applyFeatureState(map: MapLibreMap, target: FeatureStateTarget, state: Record<string, boolean>): void {
+function applyHasDataState(map: MapLibreMap, target: FeatureStateTarget, hasData: boolean): void {
     try {
         map.setFeatureState(
             {
@@ -229,43 +218,10 @@ function applyFeatureState(map: MapLibreMap, target: FeatureStateTarget, state: 
                 sourceLayer: target.sourceLayer,
                 id: target.id
             },
-            state
+            { hasData }
         );
     } catch {
         // Ignore invalid targets (feature left the tile pyramid)
-    }
-}
-
-function updateFeatureState(
-    map: MapLibreMap,
-    handle: FeatureStateHandle,
-    key: "highlightTarget" | "activeTarget",
-    nextTarget: FeatureStateTarget | null,
-    stateKey: "highlight" | "active"
-): void {
-    const current = handle[key];
-
-    if (current === nextTarget) {
-        return;
-    }
-    if (
-        current &&
-        nextTarget &&
-        current.id === nextTarget.id &&
-        current.source === nextTarget.source &&
-        current.sourceLayer === nextTarget.sourceLayer
-    ) {
-        return;
-    }
-
-    if (current) {
-        applyFeatureState(map, current, { [stateKey]: false });
-        handle[key] = null;
-    }
-
-    if (nextTarget) {
-        applyFeatureState(map, nextTarget, { [stateKey]: true });
-        handle[key] = nextTarget;
     }
 }
 
@@ -338,7 +294,7 @@ class LabelHasDataEvaluator {
     ): Promise<LabelEvaluation> {
         const cached = this.getCachedEvaluation(target, label);
         if (cached) {
-            applyFeatureState(this.map, target, { hasData: cached.hasData });
+            applyHasDataState(this.map, target, cached.hasData);
             return cached;
         }
 
@@ -353,7 +309,7 @@ class LabelHasDataEvaluator {
         };
 
         this.cache.set(buildLabelFeatureKey(target), evaluation);
-        applyFeatureState(this.map, target, { hasData });
+        applyHasDataState(this.map, target, hasData);
 
         if (entityRef) {
             this.entityToLabel.set(entityRefKey(entityRef), target);

@@ -8,7 +8,7 @@
 
 import { useCallback, useEffect, useRef, useSyncExternalStore } from "react";
 
-import { getSelectionService } from "./selectionService";
+import { getEntityStateService } from "./selectionService";
 import { entityRefEquals, type EntityRef, type SelectionState } from "./types";
 
 // ============================================================================
@@ -20,7 +20,7 @@ import { entityRefEquals, type EntityRef, type SelectionState } from "./types";
  * Re-renders when any selection changes.
  */
 export function useSelectionState(): SelectionState {
-    const service = getSelectionService();
+    const service = getEntityStateService();
     const serverSnapshotCache = useRef<SelectionState | null>(null);
     const snapshotRef = useRef<SelectionState | null>(null);
 
@@ -118,7 +118,7 @@ export interface SelectionActions {
  * Get selection action handlers.
  */
 export function useSelectionActions(): SelectionActions {
-    const service = getSelectionService();
+    const service = getEntityStateService();
 
     return {
         setHighlighted: useCallback(

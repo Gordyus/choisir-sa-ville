@@ -16,10 +16,10 @@ export {
 } from "./types";
 
 export {
-    createSelectionService,
-    getSelectionService,
-    resetSelectionService,
-    type SelectionService
+    createEntityStateService,
+    getEntityStateService,
+    resetEntityStateService,
+    type EntityStateService
 } from "./selectionService";
 
 // React Hooks

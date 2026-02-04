@@ -47,7 +47,7 @@ export const LAYER_IDS = {
 
 export const ZOOM_RANGES = {
     communes: { min: 11, max: 15 } as const,
-    arrMunicipal: { min: 13, max: 15 } as const
+    arrMunicipal: { min: 11, max: 15 } as const
 } as const;
 
 // ============================================================================

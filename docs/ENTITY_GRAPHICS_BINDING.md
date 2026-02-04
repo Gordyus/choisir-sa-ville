@@ -1,22 +1,21 @@
 # Entity Graphics Binding (Labels + Polygons)
 
-Cette note documente la logique d'interaction et de synchronisation visuelle entre les **entités** du domaine (`EntityRef`) et leurs **représentations graphiques** MapLibre (labels, polygones).
+Cette note documente le binding entre les **entités du domaine** (`EntityRef`) et leurs **représentations graphiques** MapLibre (labels, polygones), ainsi que la répartition des responsabilités entre les services concernés.
 
-Contexte: le projet suit une architecture stricte `selection / data / map / ui` (voir `AGENTS.md`).
+Contexte : le projet suit une architecture stricte `selection / data / map / ui` (voir `AGENTS.md`).
 
 ---
 
 ## Objectif
 
-Une même entité (commune ou arrondissement municipal) peut être représentée sur la carte par plusieurs éléments:
+Une même entité (commune ou arrondissement municipal) peut être représentée sur la carte par plusieurs éléments :
 
 - un **label** (texte "place" dans le style de base)
 - un **polygone** (fill + line) issu d'un tile server (sources `communes` et `arr_municipal`)
 
-Ces éléments doivent:
+Ces éléments doivent réagir de façon cohérente aux changements d'état de l'entité : aujourd'hui `highlight` (hover) et `active` (click). Demain : couleurs par zone, labels supplémentaires, etc.
 
-- réagir de façon cohérente aux interactions utilisateur (hover/click)
-- refléter le même état visuel centralisé (via `SelectionService`)
+Le binding est la brique fondamentale qui permet ces évolutions sans changer la logique d'interaction.
 
 ---
 
@@ -24,125 +23,97 @@ Ces éléments doivent:
 
 ### Entités (domaine)
 
-Le type canonique est `EntityRef`:
+Le type canonique est `EntityRef` :
 
-- `commune`: `{ kind: "commune", inseeCode: string }`
-- `infraZone`: `{ kind: "infraZone", id: string }` (inclut notamment les `ARM`)
+- `commune` : `{ kind: "commune", inseeCode: string }`
+- `infraZone` : `{ kind: "infraZone", id: string }` (inclut notamment les `ARM`)
 
 ### États visuels (MapLibre feature-state)
 
-Le vocabulaire est strict (voir `AGENTS.md`):
+Le vocabulaire est strict (voir `AGENTS.md`) :
 
-- `hasData`: l'entité a des données (cliquable / "utile")
-- `highlight`: hover ou focus
-- `active`: entité sélectionnée
+- `hasData` : l'entité a des données (cliquable / "utile")
+- `highlight` : hover ou focus
+- `active` : entité sélectionnée
 
 Ces flags sont appliqués via `map.setFeatureState(...)` et consommés dans le style par `["feature-state", "..."]`.
 
 ---
 
-## Pourquoi "labels OK, polygones KO" (état actuel)
+## Architecture : trois modules, trois responsabilités
 
-### 1) Interaction "label-only"
+```
+mapInteractionService          — événements utilisateur uniquement
+  mousemove → résoudre label → EntityStateService.setHighlighted()
+  click     → résoudre label → EntityStateService.setActive()
+  LabelHasDataEvaluator (viewport, hasData sur labels — voir note ci-dessous)
+  expose getLabelTargetForEntity() pour le binder
 
-Le service `mapInteractionService` ne fait du hit-test que sur **un seul layer de labels** (config `interactableLabelLayerId`), via `queryRenderedFeatures(point, { layers: [labelLayerId] })`.
+EntityStateService             — source de vérité des états (renommage de SelectionService)
+  highlighted / active
+  subscribe / notify
 
-Conséquence:
+EntityGraphicsBinder           — nouveau module (lib/map/entityGraphicsBinder.ts)
+  subscribe EntityStateService
+  résoudre tous les targets pour une entité (label + polygone)
+  appliquer setFeatureState sur tous les targets
+  gérer le "unset" des anciens targets (éviter le state stale)
+```
 
-- si le curseur est sur un polygone mais pas sur un label, aucune feature n'est détectée
-- le highlight ne se déclenche pas sur les polygones
-- le clic sur un polygone ne produit pas de sélection
+### Principe fondamental du binder
 
-### 2) Feature-state appliqué uniquement aux labels
+Le binder est la **seule** place qui appelle `map.setFeatureState` pour `highlight` et `active`. Il ne dépend pas de React.
 
-La synchronisation `SelectionService -> map.setFeatureState` cible uniquement les features de labels, car le mapping interne construit est `EntityRef -> label FeatureStateTarget`.
+Il résout les targets d'une entité en deux étapes :
 
-Conséquence:
+1. **Label target** — dynamique, dépend de ce qui est rendu à l'écran. Fourni par `LabelHasDataEvaluator` via `getLabelTargetForEntity()`. Peut être `null` si le label n'est pas visible.
+2. **Polygon target** — déterministe, construit à partir du type d'entité. Pas besoin que le polygone soit rendu : si la feature n'est pas dans le tile pyramid, le `try/catch` autour de `setFeatureState` absorbe silencieusement.
 
-- même si les layers de polygones sont stylés avec `feature-state` (`highlight`/`active`), ils ne changent jamais, car on ne set jamais le state sur leurs IDs.
+```
+EntityRef(commune, "75056")
+  → label target  : { source: "france", sourceLayer: "place", id: <featureId> } | null
+  → polygon target: { source: "communes", sourceLayer: "communes", id: "75056" }
 
-### 3) Arrondissements: mismatch d'identifiants
+EntityRef(infraZone, "paris-11e")
+  → label target  : { source: "france", sourceLayer: "place", id: <featureId> } | null
+  → polygon target: { source: "arr_municipal", sourceLayer: "arr_municipal", id: <armInseeCode> }
+```
 
-Les polygones `arr_municipal` sont promus/identifiés côté tuiles avec un champ de type **INSEE** (ex: propriété `insee`).
+### Note sur `hasData`
 
-Mais côté domaine, un arrondissement est adressé comme une `infraZone` par `id`.
-
-Sans index de mapping `insee <-> infraZone.id`, on ne peut pas:
-
-- convertir un hit sur polygone `arr_municipal` en `EntityRef`
-- appliquer `highlight/active` sur le bon polygone lorsqu'une `infraZone` est sélectionnée
-
----
-
-## Architecture cible: binder "Entity ↔ Graphics"
-
-### Principe
-
-Centraliser dans `lib/map/` la traduction entre:
-
-- une **entité** (`EntityRef`)
-- les **targets MapLibre** à mettre à jour (labels + polygones)
-- la **résolution** d'une interaction à un point (label-first, puis polygone fallback)
-
-Cette brique ne doit pas dépendre de React, et ne doit pas charger de données métier lourde directement: elle s'appuie sur `SelectionService` et sur des index légers dans `lib/data/`.
-
-### Module proposé
-
-Créer un module (nom indicatif) `lib/map/entityGraphicsBinder.ts` avec 2 responsabilités:
-
-1. Résolution d'interaction:
-
-- `resolveEntityAtPoint(map, point) -> EntityRef | null`
-
-Règle:
-
-- étape 1: essayer les labels (chemin actuel)
-- étape 2 (fallback): essayer les polygones (fill/line) pour la même réaction hover/click
-
-2. Mapping entité -> feature-state targets:
-
-- `getTargetsForEntity(map, entityRef) -> FeatureStateTarget[]`
-
-Exemples:
-
-- pour une commune: label target (si présent) + polygon fill/line target (si présent)
-- pour un ARM: label target (si présent) + polygon target sur la source `arr_municipal` (nécessite mapping INSEE)
+`hasData` reste dans `mapInteractionService` via `LabelHasDataEvaluator`. C'est un cycle de vie différent : déclenché par le **viewport** (`moveend`/`zoomend`), pas par un changement d'état entité. Le binder ne gère pas `hasData`. Si demain on veut aussi appliquer `hasData` sur les polygones, c'est une extension de l'évaluateur.
 
 ---
 
-## Politique de hit-test (non négociable)
+## Ce qui bouge depuis `mapInteractionService`
 
-On conserve la règle produit/technique:
+| Aujourd'hui dans mapInteractionService | Destination |
+|---|---|
+| `selectionService.subscribe()` + sync highlight/active | EntityGraphicsBinder |
+| `updateFeatureState` / `applyFeatureState` | EntityGraphicsBinder |
+| `featureStateHandle` (tracking des anciens targets) | EntityGraphicsBinder |
 
-- **label-first**: chaque interaction commence par le hit-test sur les layers de labels
-
-Mais on ajoute:
-
-- **fallback polygone**: si aucun label n'est trouvé au point, on teste les layers de polygones
-
-But:
-
-- garder une interaction stable (labels sont la "surface primaire")
-- rendre les polygones interactifs sans casser les règles de performance
+| Reste dans mapInteractionService | Pourquoi |
+|---|---|
+| `mousemove` / `click` / `mouseleave` handlers | Événements utilisateur |
+| `pickLabelFeature` + résolution label → EntityRef | Logique de détection interaction |
+| `LabelHasDataEvaluator` | Cycle de vie viewport, pas état entité |
 
 ---
 
-## Synchronisation SelectionService -> MapLibre
+## Renommage SelectionService → EntityStateService
 
-Règle:
+Le service `SelectionService` est renommé en `EntityStateService` pour refléter sa rôle : source de vérité de l'état des entités, pas uniquement de la "sélection" utilisateur.
 
-- `SelectionService` reste la source de vérité pour `highlighted` et `active`
-- MapLibre doit être une projection de cet état sur plusieurs graphismes
+Fichiers concernés par le renommage :
 
-Stratégie:
+- `lib/selection/selectionService.ts` — le service + export `getSelectionService` → `getEntityStateService`
+- `lib/selection/hooks.ts` — `useSelection()` reste (c'est le hook de consommation UI, le nom reste pertinent)
+- `lib/selection/index.ts` — barrel exports
+- `mapInteractionService.ts` — importe et utilise le service
+- `components/` — consomment via hooks (pas de changement si `useSelection` reste)
 
-- sur chaque changement (subscribe), calculer les targets pour `highlighted` et pour `active`
-- appliquer `setFeatureState` sur toutes les targets (labels + polygones)
-- conserver un handle interne pour "unset" proprement les anciens targets (éviter le state stale)
-
-Note:
-
-- le module doit tolérer que des features sortent du tile pyramid (try/catch autour de `setFeatureState`).
+Le dossier `lib/selection/` reste pour l'instant. Le renommage du dossier est cosmétique et peut être fait séparément.
 
 ---
 
@@ -150,46 +121,46 @@ Note:
 
 ### Communes
 
-Les polygones communes peuvent être identifiés avec leur INSEE (champ `insee` promu en feature id).
+Les polygones communes sont identifiés par leur INSEE (`promoteId` configuré sur le champ `insee` dans `adminPolygons.ts`).
 
-Mapping:
+Mapping direct, pas d'index nécessaire :
 
-- `EntityRef(kind=commune, inseeCode)` -> polygonId = `inseeCode`
+- `EntityRef(kind=commune, inseeCode)` → `polygonId = inseeCode`
 
 ### Arrondissements municipaux (ARM)
 
-Nécessaire: un index `armInseeCode <-> infraZone.id`.
+Les polygones `arr_municipal` sont aussi promus avec le champ `insee`. Côté domaine, un ARM est adressé comme `infraZone` par `id`.
 
-Source recommandée:
+Index nécessaire : `armInseeCode ↔ infraZone.id`
 
-- `infraZones/indexLite.json` (déjà chargé côté client via `lib/data/infraZonesIndexLite.ts`)
-
-Règle:
-
-- limiter l'index aux entrées `type === "ARM"`
-- stocker en mémoire (cache) pour éviter tout coût récurrent
+- **Confirmé** : le champ `code` dans `InfraZoneIndexLiteEntry` correspond au champ `insee` promu sur les tuiles `arr_municipal`.
+- **Source** : `infraZonesIndexLite.ts` — index déjà chargé côté client.
+- **Règle** : filtrer sur `type === "ARM"`, construire un `Map<inseeCode, infraZoneId>` et un `Map<infraZoneId, inseeCode>` (bi-directionnel).
+- **Cycle de vie** : construit une fois, en mémoire, pas de coût récurrent.
 
 ---
 
-## Recommandations de style pour l'interaction polygone
+## Politique d'interaction (aujourd'hui)
 
-Le style actuel rend souvent les polygones "invisibles" en base (`opacity.base = 0`).
+Les polygones sont **passifs** aujourd'hui : ils réagissent aux changements d'état mais ne déclenchent pas d'interaction. L'interaction reste **label-first**.
 
-Si on veut une surface d'interaction fiable sans changer le rendu:
+- `mousemove` sur un label → highlight sur le label ET le polygone associé
+- `click` sur un label → active sur le label ET le polygone associé
+- `mousemove` sur un polygone seul (pas de label) → rien (pour l'instant)
 
-- ajouter un layer "hit" (fill) au-dessus des fills/lines admin
-- `fill-opacity` très faible (ex: `0.001`) pour être hittable
-- ce layer ne sert qu'au hit-test (pas au rendu visuel)
+Le fallback polygone (interaction déclenchée depuis un polygone) est hors scope de cette phase.
 
 ---
 
-## Checklist d'implémentation (à respecter)
+## Checklist d'implémentation
 
-- Le hit-test reste `label-first`, fallback polygone uniquement si aucun label.
-- Les states MapLibre restent: `hasData`, `highlight`, `active`.
-- `SelectionService` reste la source de vérité.
-- Le binder vit dans `lib/map/` et ne dépend pas de React.
-- Les mappings nécessaires (ARM) vivent dans `lib/data/`.
+- `SelectionService` est renommé en `EntityStateService` (`getEntityStateService`).
+- `useSelection()` reste (hook UI, nom pertinent).
+- `EntityGraphicsBinder` vit dans `lib/map/`, ne dépend pas de React.
+- Le binder est la **seule** place qui appelle `setFeatureState` pour `highlight`/`active`.
+- `mapInteractionService` ne garde que les handlers d'événements et la résolution label → EntityRef.
+- Les polygon targets sont construits de façon déterministe à partir de l'EntityRef + config des sources.
+- L'index ARM (`code ↔ id`) vit dans `lib/data/` (extension de `infraZonesIndexLite.ts`).
+- `hasData` reste dans `LabelHasDataEvaluator`, pas touché par ce changement.
 - Pas d'événements `move` sur la carte (seulement `moveend`/`zoomend`).
-- Dédup + annulation sur toute logique de fetch (si ajout futur).
-
+- `try/catch` autour de tout `setFeatureState` (features peuvent sortir du tile pyramid).

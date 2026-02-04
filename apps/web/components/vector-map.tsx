@@ -4,10 +4,11 @@
  * Vector Map Component
  *
  * Displays the interactive map with city labels.
- * Does NOT manage selection state - delegates to SelectionService.
+ * Does NOT manage selection state - delegates to EntityStateService.
  *
  * ARCHITECTURE:
- * - Map interactions → mapInteractionService → SelectionService
+ * - Map interactions -> mapInteractionService -> EntityStateService
+ * - Entity graphics binding -> entityGraphicsBinder -> setFeatureState
  * - This component only handles map rendering and cleanup
  * - No onSelect prop - consumers use useSelection() hook
  */
@@ -19,6 +20,7 @@ import { useEffect, useRef, useState } from "react";
 
 import { MapDebugOverlay } from "@/components/map-debug-overlay";
 import { loadAppConfig, type AppConfig } from "@/lib/config/appConfig";
+import { attachEntityGraphicsBinder } from "@/lib/map/entityGraphicsBinder";
 import { attachMapInteractionService } from "@/lib/map/mapInteractionService";
 import { loadMapStyle } from "@/lib/map/style/stylePipeline";
 import { cn } from "@/lib/utils";
@@ -46,6 +48,7 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
     const containerRef = useRef<HTMLDivElement | null>(null);
     const mapRef = useRef<MapLibreMap | null>(null);
     const detachInteractionsRef = useRef<(() => void) | null>(null);
+    const detachBinderRef = useRef<(() => void) | null>(null);
     const debugZoomCleanupRef = useRef<(() => void) | null>(null);
     const [debugZoom, setDebugZoom] = useState<number | null>(null);
     const [debugOverlayEnabled, setDebugOverlayEnabled] = useState(false);
@@ -125,10 +128,16 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
                 logStyleLayerCatalog(map);
             }
 
-            // Attach interaction service - it handles all SelectionService updates
-            detachInteractionsRef.current = attachMapInteractionService(map, {
+            // Attach interaction service - handles user interactions and EntityStateService updates
+            const interactionResult = attachMapInteractionService(map, {
                 debug,
                 labelLayerId: appConfig.mapTiles.interactableLabelLayerId
+            });
+            detachInteractionsRef.current = interactionResult.cleanup;
+
+            // Attach graphics binder - handles setFeatureState for highlight/active on labels and polygons
+            detachBinderRef.current = attachEntityGraphicsBinder(map, {
+                getLabelTargetForEntity: interactionResult.getLabelTargetForEntity
             });
         }
 
@@ -137,6 +146,8 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
         return () => {
             disposed = true;
             controller.abort();
+            detachBinderRef.current?.();
+            detachBinderRef.current = null;
             detachInteractionsRef.current?.();
             detachInteractionsRef.current = null;
             debugZoomCleanupRef.current?.();

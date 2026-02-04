@@ -31,6 +31,14 @@ let infraZonesIndexPromise: Promise<Map<string, InfraZoneIndexLiteEntry>> | null
 let infraZonesNameIndexCache: Map<string, string[]> | null = null;
 let infraZonesNameIndexPromise: Promise<Map<string, string[]>> | null = null;
 
+// ARM index caches: bi-directional mapping between infraZone.id and inseeCode (code field)
+type ArmIndexes = {
+    idToInseeCode: Map<string, string>;
+    inseeCodeToId: Map<string, string>;
+};
+let armIndexesCache: ArmIndexes | null = null;
+let armIndexesPromise: Promise<ArmIndexes> | null = null;
+
 export async function loadInfraZonesIndexLite(signal?: AbortSignal): Promise<Map<string, InfraZoneIndexLiteEntry>> {
     if (infraZonesIndexCache) {
         return infraZonesIndexCache;
@@ -77,6 +85,66 @@ export async function findInfraZonesByNormalizedName(
         }
     }
     return entries;
+}
+
+// ============================================================================
+// ARM Index (Arrondissements Municipaux) - Bi-directional id <-> inseeCode
+// ============================================================================
+
+/**
+ * Given an infraZone.id (ARM), returns the corresponding inseeCode (the "code" field).
+ * Returns null if the id is not found or is not an ARM.
+ */
+export async function getArmInseeCodeById(infraZoneId: string, signal?: AbortSignal): Promise<string | null> {
+    const indexes = await ensureArmIndexes(signal);
+    return indexes.idToInseeCode.get(infraZoneId) ?? null;
+}
+
+/**
+ * Given an inseeCode (promoted on arr_municipal tiles), returns the infraZone.id.
+ * Returns null if no ARM matches the given inseeCode.
+ */
+export async function getArmIdByInseeCode(inseeCode: string, signal?: AbortSignal): Promise<string | null> {
+    const indexes = await ensureArmIndexes(signal);
+    return indexes.inseeCodeToId.get(inseeCode) ?? null;
+}
+
+async function ensureArmIndexes(signal?: AbortSignal): Promise<ArmIndexes> {
+    if (armIndexesCache) {
+        return armIndexesCache;
+    }
+    if (!armIndexesPromise) {
+        armIndexesPromise = loadInfraZonesIndexLite(signal)
+            .then((index) => {
+                const indexes = buildArmIndexes(index);
+                armIndexesCache = indexes;
+                return indexes;
+            })
+            .catch((error) => {
+                armIndexesPromise = null;
+                throw error;
+            });
+    }
+    return armIndexesPromise;
+}
+
+function buildArmIndexes(index: Map<string, InfraZoneIndexLiteEntry>): ArmIndexes {
+    const idToInseeCode = new Map<string, string>();
+    const inseeCodeToId = new Map<string, string>();
+
+    for (const entry of index.values()) {
+        if (entry.type !== "ARM") {
+            continue;
+        }
+        const inseeCode = entry.code;
+        if (!inseeCode) {
+            continue;
+        }
+        idToInseeCode.set(entry.id, inseeCode);
+        inseeCodeToId.set(inseeCode, entry.id);
+    }
+
+    return { idToInseeCode, inseeCodeToId };
 }
 
 async function fetchInfraZonesIndexLite(signal?: AbortSignal): Promise<Map<string, InfraZoneIndexLiteEntry>> {

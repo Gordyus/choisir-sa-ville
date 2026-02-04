@@ -1,8 +1,8 @@
 {
-  "enabled": false,
-  "logHighlightFeatures": true,
-  "logEntityFetch": true,
-  "logStyleHints": true,
-  "showTileBoundaries": true,
-  "showCollisionBoxes": true
+  "enabled": true,
+  "logHighlightFeatures": false,
+  "logEntityFetch": false,
+  "logStyleHints": false,
+  "showTileBoundaries": false,
+  "showCollisionBoxes": false
 }

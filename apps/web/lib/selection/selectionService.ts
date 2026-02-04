@@ -1,8 +1,11 @@
 /**
- * Selection Service
+ * Entity State Service
  *
- * Headless, UI-agnostic service for managing entity selection state.
+ * Headless, UI-agnostic service for managing entity state (highlight, active).
  * No dependencies on MapLibre, React, or any UI framework.
+ *
+ * Renamed from SelectionService to reflect its broader role as the source
+ * of truth for entity visual state, not just user selection.
  */
 
 import {
@@ -17,7 +20,7 @@ import {
 // Service Interface
 // ============================================================================
 
-export interface SelectionService {
+export interface EntityStateService {
     /** Get current state snapshot */
     getState(): SelectionState;
 
@@ -44,7 +47,7 @@ export interface SelectionService {
 // Implementation
 // ============================================================================
 
-class SelectionServiceImpl implements SelectionService {
+class EntityStateServiceImpl implements EntityStateService {
     private state: SelectionState = {
         highlighted: null,
         active: null
@@ -112,7 +115,7 @@ class SelectionServiceImpl implements SelectionService {
                 listener(event);
             } catch (error) {
                 if (process.env.NODE_ENV === "development") {
-                    console.error("[SelectionService] Listener threw error", error);
+                    console.error("[EntityStateService] Listener threw error", error);
                 }
             }
         }
@@ -123,30 +126,30 @@ class SelectionServiceImpl implements SelectionService {
 // Factory & Singleton
 // ============================================================================
 
-let globalInstance: SelectionService | null = null;
+let globalInstance: EntityStateService | null = null;
 
 /**
- * Create a new selection service instance.
+ * Create a new entity state service instance.
  */
-export function createSelectionService(): SelectionService {
-    return new SelectionServiceImpl();
+export function createEntityStateService(): EntityStateService {
+    return new EntityStateServiceImpl();
 }
 
 /**
- * Get the global selection service instance (singleton).
+ * Get the global entity state service instance (singleton).
  * Creates the instance on first access.
  */
-export function getSelectionService(): SelectionService {
+export function getEntityStateService(): EntityStateService {
     if (!globalInstance) {
-        globalInstance = createSelectionService();
+        globalInstance = createEntityStateService();
     }
     return globalInstance;
 }
 
 /**
- * Reset the global selection service (useful for testing).
+ * Reset the global entity state service (useful for testing).
  */
-export function resetSelectionService(): void {
+export function resetEntityStateService(): void {
     if (globalInstance) {
         globalInstance.clearAll();
     }
