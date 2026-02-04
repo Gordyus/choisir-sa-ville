@@ -1,21 +1,27 @@
 /**
  * Map Interaction Service - Simplified hover and click interactions on map labels.
- * Uses native OSM labels (place_label_city, place_label_other) with feature-state.
+ *
+ * This service handles map interactions and translates them to SelectionService calls.
+ * It uses native OSM labels (place_label_city, place_label_other) with feature-state.
+ *
+ * ARCHITECTURE:
+ * - Map interactions → mapInteractionService → SelectionService
+ * - The map component does NOT manage selection state directly
+ * - Feature-state for visual feedback is managed internally
  */
 
 import type {
     MapGeoJSONFeature,
-    MapMouseEvent,
     Map as MapLibreMap,
+    MapMouseEvent,
     PointLike
 } from "maplibre-gl";
 
 import { resolveCommuneByClick } from "@/lib/data/communeSpatialIndex";
 import { resolveInfraZoneByClick } from "@/lib/data/infraZoneSpatialIndex";
+import { getSelectionService, type EntityRef } from "@/lib/selection";
 
-import type { FeatureStateTarget } from "./cityHighlightLayers";
 import { extractLabelIdentity, type LabelIdentity } from "./interactiveLayers";
-import type { MapSelection } from "./mapSelection";
 import { buildManagedCityLabelLayerId, OMT_LABEL_LAYER_IDS } from "./registry/layerRegistry";
 
 // ============================================================================
@@ -33,26 +39,75 @@ const MANAGED_LABEL_LAYER_IDS = OMT_LABEL_LAYER_IDS.map(buildManagedCityLabelLay
 // Types
 // ============================================================================
 
-export type MapInteractionEvent =
-    | {
-          type: "hover";
-          label: LabelIdentity;
-          featureStateTarget: FeatureStateTarget;
-      }
-    | { type: "hoverLeave" }
-    | {
-          type: "select";
-          label: LabelIdentity;
-          selection: MapSelection;
-          featureStateTarget: FeatureStateTarget;
-      }
-    | { type: "selectClear" };
-
-export type MapInteractionListener = (event: MapInteractionEvent) => void;
+export type FeatureStateTarget = {
+    source: string;
+    sourceLayer?: string;
+    id: string | number;
+};
 
 export type MapInteractionServiceOptions = {
     debug?: boolean;
 };
+
+// ============================================================================
+// Feature State Management (Internal)
+// ============================================================================
+
+type FeatureStateHandle = {
+    hoverTarget: FeatureStateTarget | null;
+    selectedTarget: FeatureStateTarget | null;
+};
+
+function applyFeatureState(
+    map: MapLibreMap,
+    target: FeatureStateTarget,
+    key: "hover" | "selected",
+    value: boolean
+): void {
+    try {
+        map.setFeatureState(
+            {
+                source: target.source,
+                sourceLayer: target.sourceLayer,
+                id: target.id
+            },
+            { [key]: value }
+        );
+    } catch {
+        // Silently ignore feature state errors
+    }
+}
+
+function updateFeatureState(
+    map: MapLibreMap,
+    handle: FeatureStateHandle,
+    key: "hoverTarget" | "selectedTarget",
+    nextTarget: FeatureStateTarget | null,
+    stateKey: "hover" | "selected"
+): void {
+    const current = handle[key];
+    
+    // Skip if same target
+    if (current === nextTarget) return;
+    if (current && nextTarget && 
+        current.id === nextTarget.id && 
+        current.source === nextTarget.source && 
+        current.sourceLayer === nextTarget.sourceLayer) {
+        return;
+    }
+
+    // Clear previous
+    if (current) {
+        applyFeatureState(map, current, stateKey, false);
+        handle[key] = null;
+    }
+
+    // Apply new
+    if (nextTarget) {
+        applyFeatureState(map, nextTarget, stateKey, true);
+        handle[key] = nextTarget;
+    }
+}
 
 // ============================================================================
 // Main Service
@@ -60,18 +115,28 @@ export type MapInteractionServiceOptions = {
 
 /**
  * Attach map interaction handlers for hover and click on city labels.
+ * All selection changes go through the central SelectionService.
  * Returns a cleanup function to detach all handlers.
  */
 export function attachMapInteractionService(
     map: MapLibreMap,
-    listener: MapInteractionListener,
     options?: MapInteractionServiceOptions
 ): () => void {
+    const selectionService = getSelectionService();
+    const featureStateHandle: FeatureStateHandle = {
+        hoverTarget: null,
+        selectedTarget: null
+    };
+
     let lastHoverFeatureId: string | number | null = null;
     let lastMoveTs = 0;
     let disposed = false;
     let hoverRequestToken = 0;
     const debug = options?.debug ?? false;
+
+    // ========================================================================
+    // Mouse Move (Hover)
+    // ========================================================================
 
     const handleMouseMove = (event: MapMouseEvent): void => {
         const now = performance.now();
@@ -94,23 +159,37 @@ export function attachMapInteractionService(
         lastHoverFeatureId = nextId;
 
         if (hit) {
-            listener({
-                type: "hover",
-                label: hit.label,
-                featureStateTarget: hit.featureStateTarget
+            // Update feature state for visual feedback
+            updateFeatureState(map, featureStateHandle, "hoverTarget", hit.featureStateTarget, "hover");
+            
+            // Resolve to EntityRef and update SelectionService
+            void resolveEntityRef(hit.label, map.unproject(event.point), debug).then((ref) => {
+                if (!disposed && ref) {
+                    selectionService.setHighlighted(ref);
+                }
             });
         } else {
-            listener({ type: "hoverLeave" });
+            updateFeatureState(map, featureStateHandle, "hoverTarget", null, "hover");
+            selectionService.setHighlighted(null);
         }
     };
+
+    // ========================================================================
+    // Mouse Leave
+    // ========================================================================
 
     const handleMouseLeave = (): void => {
         hoverRequestToken++;
         if (lastHoverFeatureId !== null) {
             lastHoverFeatureId = null;
-            listener({ type: "hoverLeave" });
+            updateFeatureState(map, featureStateHandle, "hoverTarget", null, "hover");
+            selectionService.setHighlighted(null);
         }
     };
+
+    // ========================================================================
+    // Click (Select)
+    // ========================================================================
 
     const handleClick = (event: MapMouseEvent): void => {
         void (async () => {
@@ -121,46 +200,59 @@ export function attachMapInteractionService(
                 }
 
                 if (!hit) {
-                    listener({ type: "selectClear" });
+                    updateFeatureState(map, featureStateHandle, "selectedTarget", null, "selected");
+                    selectionService.setActive(null);
                     return;
                 }
 
                 const lngLat = map.unproject(event.point);
-                const selection = await resolveSelection(hit.label, lngLat, debug);
+                const ref = await resolveEntityRef(hit.label, lngLat, debug);
 
                 if (disposed) {
                     return;
                 }
 
-                if (selection) {
-                    listener({
-                        type: "select",
-                        label: hit.label,
-                        selection,
-                        featureStateTarget: hit.featureStateTarget
-                    });
+                if (ref) {
+                    updateFeatureState(map, featureStateHandle, "selectedTarget", hit.featureStateTarget, "selected");
+                    selectionService.setActive(ref);
                 } else {
-                    // Could not resolve to a valid selection - clear
-                    listener({ type: "selectClear" });
+                    updateFeatureState(map, featureStateHandle, "selectedTarget", null, "selected");
+                    selectionService.setActive(null);
                 }
             } catch (error) {
                 if (process.env.NODE_ENV === "development") {
                     console.warn("[map-interaction] Failed to resolve selection on click", error);
                 }
-                listener({ type: "selectClear" });
+                selectionService.setActive(null);
             }
         })();
     };
 
+    // ========================================================================
+    // Attach Handlers
+    // ========================================================================
+
     map.on("mousemove", handleMouseMove);
     map.on("mouseleave", handleMouseLeave);
     map.on("click", handleClick);
+
+    // ========================================================================
+    // Cleanup
+    // ========================================================================
 
     return () => {
         disposed = true;
         map.off("mousemove", handleMouseMove);
         map.off("mouseleave", handleMouseLeave);
         map.off("click", handleClick);
+
+        // Clear feature states
+        if (featureStateHandle.hoverTarget) {
+            applyFeatureState(map, featureStateHandle.hoverTarget, "hover", false);
+        }
+        if (featureStateHandle.selectedTarget) {
+            applyFeatureState(map, featureStateHandle.selectedTarget, "selected", false);
+        }
     };
 }
 
@@ -188,7 +280,6 @@ function pickLabelFeature(map: MapLibreMap, point: PointLike): LabelHit | null {
         return null;
     }
 
-    // Take the first (topmost) feature
     const feature = features[0];
     if (!feature) {
         return null;
@@ -227,14 +318,14 @@ function createFeatureStateTarget(feature: MapGeoJSONFeature): FeatureStateTarge
 }
 
 // ============================================================================
-// Selection Resolution
+// Entity Resolution
 // ============================================================================
 
-async function resolveSelection(
+async function resolveEntityRef(
     label: LabelIdentity,
     lngLat: { lng: number; lat: number },
     debug: boolean
-): Promise<MapSelection | null> {
+): Promise<EntityRef | null> {
     const placeClass = label.placeClass;
 
     // InfraZone resolution for suburb/neighbourhood/borough
@@ -250,11 +341,7 @@ async function resolveSelection(
         if (infraZone) {
             return {
                 kind: "infraZone",
-                id: infraZone.entry.id,
-                parentCommuneCode: infraZone.entry.parentCommuneCode,
-                name: infraZone.entry.name,
-                infraType: infraZone.entry.type,
-                code: infraZone.entry.code
+                id: infraZone.entry.id
             };
         }
 
@@ -275,8 +362,7 @@ async function resolveSelection(
         if (commune) {
             return {
                 kind: "commune",
-                inseeCode: commune.inseeCode,
-                name: label.name
+                inseeCode: commune.inseeCode
             };
         }
     }

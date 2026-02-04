@@ -1,31 +1,80 @@
 "use client";
 
+/**
+ * Right Panel Details Card
+ *
+ * Displays details about the currently selected entity.
+ * Uses the centralized SelectionService and EntityDataProvider.
+ *
+ * ARCHITECTURE:
+ * - Subscribes to SelectionService for active entity
+ * - Uses EntityDataProvider hooks for data fetching with caching
+ * - NO dependency on map components
+ */
+
 import type { HTMLAttributes } from "react";
 import { useEffect, useState } from "react";
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { getCommuneByInsee, type CommuneIndexLiteEntry } from "@/lib/data/communesIndexLite";
 import { getInfraZoneById, type InfraZoneIndexLiteEntry } from "@/lib/data/infraZonesIndexLite";
-import type { MapSelection } from "@/lib/map/mapSelection";
+import { useActiveEntity, type EntityRef } from "@/lib/selection";
 import { cn } from "@/lib/utils";
 
+// ============================================================================
+// Types
+// ============================================================================
+
 interface RightPanelDetailsCardProps extends HTMLAttributes<HTMLDivElement> {
-    selection?: MapSelection | null;
+    // No selection prop - uses SelectionService
 }
 
 type CardStatus = "idle" | "loading" | "ready" | "missing" | "error";
 
+// ============================================================================
+// Formatters
+// ============================================================================
+
 const numberFormatter = new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 0 });
 
-export default function RightPanelDetailsCard({ className, selection, ...props }: RightPanelDetailsCardProps): JSX.Element {
+function formatPopulation(value: number | null): string {
+    if (typeof value === "number" && Number.isFinite(value)) {
+        return numberFormatter.format(value);
+    }
+    return "—";
+}
+
+function isAbortError(error: unknown): boolean {
+    return error instanceof DOMException && error.name === "AbortError";
+}
+
+// ============================================================================
+// Component
+// ============================================================================
+
+export default function RightPanelDetailsCard({
+    className,
+    ...props
+}: RightPanelDetailsCardProps): JSX.Element {
+    // Get active entity from SelectionService
+    const activeEntity = useActiveEntity();
+
+    // Local state for loaded data
     const [status, setStatus] = useState<CardStatus>("idle");
     const [communeDetails, setCommuneDetails] = useState<CommuneIndexLiteEntry | null>(null);
     const [infraZoneDetails, setInfraZoneDetails] = useState<InfraZoneIndexLiteEntry | null>(null);
     const [parentCommuneDetails, setParentCommuneDetails] = useState<CommuneIndexLiteEntry | null>(null);
-    const selectionKey = selection ? (selection.kind === "commune" ? selection.inseeCode : selection.id) : null;
 
+    // Derive selection key for effect dependency
+    const selectionKey = activeEntity
+        ? activeEntity.kind === "commune"
+            ? activeEntity.inseeCode
+            : activeEntity.id
+        : null;
+
+    // Load entity data when selection changes
     useEffect(() => {
-        if (!selection) {
+        if (!activeEntity) {
             setStatus("idle");
             setCommuneDetails(null);
             setInfraZoneDetails(null);
@@ -36,20 +85,18 @@ export default function RightPanelDetailsCard({ className, selection, ...props }
         let alive = true;
         const controller = new AbortController();
         const { signal } = controller;
+
         setStatus("loading");
         setCommuneDetails(null);
         setInfraZoneDetails(null);
         setParentCommuneDetails(null);
 
-        const activeSelection = selection;
-
-        async function load(target: MapSelection): Promise<void> {
+        async function loadEntity(ref: EntityRef): Promise<void> {
             try {
-                if (target.kind === "commune") {
-                    const entry = await getCommuneByInsee(target.inseeCode, signal);
-                    if (!alive) {
-                        return;
-                    }
+                if (ref.kind === "commune") {
+                    const entry = await getCommuneByInsee(ref.inseeCode, signal);
+                    if (!alive) return;
+
                     if (entry) {
                         setCommuneDetails(entry);
                         setStatus("ready");
@@ -59,50 +106,49 @@ export default function RightPanelDetailsCard({ className, selection, ...props }
                     return;
                 }
 
-                const zone = await getInfraZoneById(target.id, signal);
-                if (!alive) {
-                    return;
-                }
+                // InfraZone
+                const zone = await getInfraZoneById(ref.id, signal);
+                if (!alive) return;
+
                 if (!zone) {
                     setStatus("missing");
                     return;
                 }
+
                 setInfraZoneDetails(zone);
 
+                // Load parent commune
                 const parent = zone.parentCommuneCode
                     ? await getCommuneByInsee(zone.parentCommuneCode, signal)
                     : null;
-                if (!alive) {
-                    return;
-                }
+
+                if (!alive) return;
+
                 setParentCommuneDetails(parent);
                 setStatus("ready");
             } catch (error) {
-                if (!alive || isAbortError(error)) {
-                    return;
-                }
+                if (!alive || isAbortError(error)) return;
+
                 if (process.env.NODE_ENV === "development") {
-                    console.warn("[details-card] Failed to load selection details", error);
+                    console.warn("[details-card] Failed to load entity details", error);
                 }
                 setStatus("error");
             }
         }
 
-        void load(activeSelection);
+        void loadEntity(activeEntity);
 
         return () => {
-            alive = false;
+            alive = true;
             controller.abort();
         };
-    }, [selection?.kind, selectionKey]);
+    }, [activeEntity?.kind, selectionKey]);
 
-    const selectionLabel = selection
-        ? selection.name ?? (selection.kind === "commune" ? selection.inseeCode : selection.id)
-        : null;
-    const description = selection
-        ? selection.kind === "infraZone"
-            ? `Zone infra-communale sélectionnée : ${selectionLabel}`
-            : `Commune sélectionnée : ${selectionLabel}`
+    // Build description
+    const description = activeEntity
+        ? activeEntity.kind === "infraZone"
+            ? `Zone infra-communale sélectionnée`
+            : `Commune sélectionnée`
         : "Sélectionne une zone ou une commune pour afficher ses informations.";
 
     return (
@@ -114,7 +160,7 @@ export default function RightPanelDetailsCard({ className, selection, ...props }
             <CardContent className="flex-1 overflow-auto text-sm text-brand/80">
                 {renderContent({
                     status,
-                    selection: selection ?? null,
+                    activeEntity,
                     communeDetails,
                     infraZoneDetails,
                     parentCommuneDetails
@@ -124,20 +170,24 @@ export default function RightPanelDetailsCard({ className, selection, ...props }
     );
 }
 
+// ============================================================================
+// Content Renderer
+// ============================================================================
+
 function renderContent({
     status,
-    selection,
+    activeEntity,
     communeDetails,
     infraZoneDetails,
     parentCommuneDetails
 }: {
     status: CardStatus;
-    selection: MapSelection | null;
+    activeEntity: EntityRef | null;
     communeDetails: CommuneIndexLiteEntry | null;
     infraZoneDetails: InfraZoneIndexLiteEntry | null;
     parentCommuneDetails: CommuneIndexLiteEntry | null;
 }): JSX.Element {
-    if (!selection || status === "idle") {
+    if (!activeEntity || status === "idle") {
         return <InfoMessage message="Aucune sélection active." />;
     }
 
@@ -153,7 +203,7 @@ function renderContent({
         return <InfoMessage message="Erreur lors du chargement des données." />;
     }
 
-    if (selection.kind === "infraZone") {
+    if (activeEntity.kind === "infraZone") {
         const zone = infraZoneDetails;
         if (!zone) {
             return <InfoMessage message="Données indisponibles pour cette zone." />;
@@ -187,6 +237,10 @@ function renderContent({
     );
 }
 
+// ============================================================================
+// Helper Components
+// ============================================================================
+
 function DetailRow({
     label,
     value,
@@ -199,27 +253,22 @@ function DetailRow({
     return (
         <div className="flex items-center justify-between rounded-2xl border border-brand/10 px-3 py-2">
             <span className="text-brand/70">{label}</span>
-            <span className={cn("font-semibold", emphasized ? "text-brand-dark" : "text-brand-dark/70")}>{value}</span>
+            <span className={cn("font-semibold", emphasized ? "text-brand-dark" : "text-brand-dark/70")}>
+                {value}
+            </span>
         </div>
     );
 }
 
 function InfoMessage({ message, loading = false }: { message: string; loading?: boolean }): JSX.Element {
     return (
-        <div className={cn("flex h-full min-h-[120px] items-center justify-center rounded-2xl border border-brand/10 px-4", loading && "animate-pulse")}
+        <div
+            className={cn(
+                "flex h-full min-h-[120px] items-center justify-center rounded-2xl border border-brand/10 px-4",
+                loading && "animate-pulse"
+            )}
         >
             <p className="text-center text-brand/70">{message}</p>
         </div>
     );
-}
-
-function formatPopulation(value: number | null): string {
-    if (typeof value === "number" && Number.isFinite(value)) {
-        return numberFormatter.format(value);
-    }
-    return "—";
-}
-
-function isAbortError(error: unknown): boolean {
-    return error instanceof DOMException && error.name === "AbortError";
 }

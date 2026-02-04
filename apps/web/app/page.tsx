@@ -1,23 +1,25 @@
 "use client";
 
-import { useState } from "react";
+/**
+ * Home Page
+ *
+ * Main application layout with map and right panel.
+ * NO local selection state - uses centralized SelectionService.
+ */
 
 import RightPanel from "@/components/right-panel";
 import VectorMap from "@/components/vector-map";
-import type { MapSelection } from "@/lib/map/mapSelection";
 
 export default function HomePage(): JSX.Element {
-    const [selection, setSelection] = useState<MapSelection | null>(null);
-
     return (
         <section className="flex h-full w-full flex-1 flex-col gap-2 px-1 py-1 lg:flex-row">
             <div className="flex w-full flex-1 flex-col lg:w-[60%]">
                 <div className="relative h-[320px] flex-1 rounded-3xl border border-brand/15 bg-white shadow-xl shadow-brand/5">
-                    <VectorMap className="min-h-[320px] rounded-3xl" onSelect={setSelection} />
+                    <VectorMap className="min-h-[320px] rounded-3xl" />
                 </div>
             </div>
             <div className="h-full w-full lg:w-[40%]">
-                <RightPanel className="h-full" selection={selection} />
+                <RightPanel className="h-full" />
             </div>
         </section>
     );
