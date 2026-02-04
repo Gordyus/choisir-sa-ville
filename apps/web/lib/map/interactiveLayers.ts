@@ -1,84 +1,74 @@
 /**
- * Interactive Layers - City identity extraction and related types.
- * This module provides types and utilities for city identification from map features.
+ * Interactive Layers - Label identity extraction for map interactions.
+ * Simplified module that extracts minimal identity from map label features.
  */
 
 import type { MapGeoJSONFeature, StyleSpecification } from "maplibre-gl";
 
-import { getPlaceClasses } from "./layers/baseLabels";
 import { FEATURE_FIELDS } from "./registry/layerRegistry";
 
 // ============================================================================
 // Types
 // ============================================================================
 
-export type CityResolutionMethod = "feature" | "polygon" | "position" | "fallback";
-
-export type CityPlaceClass = string;
-
-export type CityIdentity = {
-    id: string;
+/**
+ * Minimal identity extracted from a map label feature.
+ * Used for hover/selection interactions.
+ */
+export type LabelIdentity = {
+    /** Feature ID from tile source (stable) */
+    featureId: string | number;
+    /** Vector source name */
+    source: string;
+    /** Source layer within the vector source */
+    sourceLayer: string | undefined;
+    /** Display name for the label */
     name: string;
-    inseeCode?: string | null;
-    resolutionMethod?: CityResolutionMethod;
-    resolutionStatus?: "resolved" | "unresolved";
-    unresolvedReason?: string | null;
-    placeClass?: CityPlaceClass | null;
-    location?: { lng: number; lat: number } | null;
-    rank?: number | null;
-    capitalType?: string | null;
-    propertiesSnapshot?: Record<string, unknown> | null;
+    /** Place class: city, town, village, suburb, neighbourhood, etc. */
+    placeClass: string | null;
 };
 
 // ============================================================================
-// City Identity Extraction
+// Label Identity Extraction
 // ============================================================================
 
-const CITY_NAME_FIELDS = FEATURE_FIELDS.names;
-const CITY_ID_FIELD = FEATURE_FIELDS.inseeCode;
-const CITY_ID_FALLBACK_FIELDS = FEATURE_FIELDS.fallbackIds;
-const CITY_RANK_FIELDS = ["rank", "rank_local"] as const;
-const CITY_CAPITAL_FIELDS = ["capital", "capital_level", "capital:municipality"] as const;
-const PROPERTY_SNAPSHOT_FIELDS = [
-    "name",
-    "name:fr",
-    "name:en",
-    "class",
-    "rank",
-    "rank_local",
-    "capital",
-    "capital_level",
-    "capital:municipality",
-    "insee"
-] as const;
+const NAME_FIELDS = FEATURE_FIELDS.names;
 
-export function extractCityIdentity(feature: MapGeoJSONFeature): CityIdentity | null {
-    const inseeCandidate = pickFirstString(feature, [CITY_ID_FIELD]);
-    const fallbackId = pickFirstString(feature, [...CITY_ID_FALLBACK_FIELDS]);
-    const id = inseeCandidate ?? fallbackId;
-    if (!id) {
+/**
+ * Extract minimal label identity from a MapGeoJSONFeature.
+ * Returns null if the feature lacks required fields.
+ */
+export function extractLabelIdentity(feature: MapGeoJSONFeature): LabelIdentity | null {
+    const featureId = feature.id;
+    if (featureId === undefined || featureId === null) {
         return null;
     }
-    const name = pickFirstString(feature, [...CITY_NAME_FIELDS]) ?? id;
-    const placeClass = readPlaceClass(feature);
-    const rank = readCityRank(feature);
-    const capitalType = readCapitalType(feature);
-    const identity: CityIdentity = {
-        id,
-        name,
-        inseeCode: inseeCandidate ?? null,
-        placeClass,
-        location: null,
-        rank,
-        capitalType,
-        propertiesSnapshot: buildPropertiesSnapshot(feature)
-    };
-    if (inseeCandidate) {
-        identity.resolutionMethod = "feature";
-        identity.resolutionStatus = "resolved";
+
+    const source = (feature as { source?: string }).source;
+    if (typeof source !== "string") {
+        return null;
     }
-    return identity;
+
+    const name = pickFirstString(feature, [...NAME_FIELDS]);
+    if (!name) {
+        return null;
+    }
+
+    const sourceLayer = (feature as { sourceLayer?: string }).sourceLayer;
+    const placeClass = readPlaceClass(feature);
+
+    return {
+        featureId,
+        source,
+        sourceLayer,
+        name,
+        placeClass
+    };
 }
+
+// ============================================================================
+// Debug Utilities
+// ============================================================================
 
 let hasLoggedSymbolHints = false;
 
@@ -121,51 +111,11 @@ function pickFirstString(feature: MapGeoJSONFeature, fields: readonly string[]):
     return null;
 }
 
-function pickFirstNumber(feature: MapGeoJSONFeature, fields: readonly string[]): number | null {
-    for (const field of fields) {
-        const value = (feature.properties ?? {})[field];
-        if (typeof value === "number" && Number.isFinite(value)) {
-            return value;
-        }
-        if (typeof value === "string") {
-            const parsed = Number(value);
-            if (Number.isFinite(parsed)) {
-                return parsed;
-            }
-        }
-    }
-    return null;
-}
-
-function readPlaceClass(feature: MapGeoJSONFeature): CityPlaceClass | null {
+function readPlaceClass(feature: MapGeoJSONFeature): string | null {
     const rawValue = (feature.properties ?? {}).class;
     if (typeof rawValue !== "string") {
         return null;
     }
-    const normalized = rawValue.trim().toLowerCase();
-    const classSet = new Set(getPlaceClasses().map((c) => c.toLowerCase()));
-    return classSet.has(normalized) ? normalized : null;
-}
-
-function readCityRank(feature: MapGeoJSONFeature): number | null {
-    return pickFirstNumber(feature, CITY_RANK_FIELDS);
-}
-
-function readCapitalType(feature: MapGeoJSONFeature): string | null {
-    return pickFirstString(feature, CITY_CAPITAL_FIELDS);
-}
-
-function buildPropertiesSnapshot(feature: MapGeoJSONFeature): Record<string, unknown> | null {
-    const properties = feature.properties ?? null;
-    if (!properties) {
-        return null;
-    }
-    const snapshot: Record<string, unknown> = {};
-    for (const key of PROPERTY_SNAPSHOT_FIELDS) {
-        if (typeof properties[key] !== "undefined") {
-            snapshot[key] = properties[key];
-        }
-    }
-    return Object.keys(snapshot).length ? snapshot : null;
+    return rawValue.trim().toLowerCase() || null;
 }
 

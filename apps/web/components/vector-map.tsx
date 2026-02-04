@@ -14,9 +14,8 @@ import {
     setSelectedCity,
     type CityHighlightHandle
 } from "@/lib/map/cityHighlightLayers";
-import { ensureCommuneInteractiveLayers, listCommuneInteractiveLayerIds } from "@/lib/map/cityInteractiveLayer";
 import { debugLogSymbolLabelHints } from "@/lib/map/interactiveLayers";
-import { attachCityInteractionService } from "@/lib/map/mapInteractionService";
+import { attachMapInteractionService } from "@/lib/map/mapInteractionService";
 import type { MapSelection } from "@/lib/map/mapSelection";
 import { loadMapStyle } from "@/lib/map/style/stylePipeline";
 import { cn } from "@/lib/utils";
@@ -33,9 +32,7 @@ export default function VectorMap({ className, onSelect }: VectorMapProps): JSX.
     const containerRef = useRef<HTMLDivElement | null>(null);
     const mapRef = useRef<MapLibreMap | null>(null);
     const detachInteractionsRef = useRef<(() => void) | null>(null);
-    const detachDebugRef = useRef<(() => void) | null>(null);
     const highlightHandleRef = useRef<CityHighlightHandle | null>(null);
-    const interactiveLayerIdsRef = useRef<string[]>([]);
     const debugZoomCleanupRef = useRef<(() => void) | null>(null);
     const [debugZoom, setDebugZoom] = useState<number | null>(null);
     const [debugOverlayEnabled, setDebugOverlayEnabled] = useState(false);
@@ -92,7 +89,7 @@ export default function VectorMap({ className, onSelect }: VectorMapProps): JSX.
                 };
 
                 map.once("load", () => {
-                    void setupInteractiveLayers(map, appConfig);
+                    void setupInteractions(map, appConfig);
                 });
             } catch (error) {
                 if (!(error instanceof DOMException && error.name === "AbortError")) {
@@ -101,58 +98,44 @@ export default function VectorMap({ className, onSelect }: VectorMapProps): JSX.
             }
         }
 
-        async function setupInteractiveLayers(map: MapLibreMap, appConfig: AppConfig): Promise<void> {
-            const logStyleHints = appConfig.debug.enabled && appConfig.debug.logStyleHints;
-            if (logStyleHints) {
+        function setupInteractions(map: MapLibreMap, appConfig: AppConfig): void {
+            const debug = appConfig.debug.enabled ?? false;
+            if (debug && appConfig.debug.logStyleHints) {
                 logStyleLayerCatalog(map);
             }
 
-            const interactiveLayerHandle = ensureCommuneInteractiveLayers(map);
-            interactiveLayerIdsRef.current = interactiveLayerHandle?.layerIds ?? [];
-            if (!interactiveLayerHandle || interactiveLayerIdsRef.current.length === 0) {
-                console.warn(
-                    "[vector-map] Commune interactive layers unavailable; pointer interactions will be disabled."
-                );
-            }
-
-            const highlightHandle = ensureCityHighlightLayer(map, {
-                logStyleHints
-            });
+            const highlightHandle = ensureCityHighlightLayer(map);
             highlightHandleRef.current = highlightHandle;
             if (!highlightHandle) {
                 console.warn("[vector-map] City highlight layer unavailable; hover highlight disabled.");
             }
 
-            detachInteractionsRef.current = attachCityInteractionService(map, (event) => {
+            detachInteractionsRef.current = attachMapInteractionService(map, (event) => {
                 const handle = highlightHandleRef.current;
                 switch (event.type) {
-                    case "hoverCity":
+                    case "hover":
                         if (handle) {
                             setHoveredCity(map, handle, event.featureStateTarget);
                         }
                         break;
-                    case "leaveCity":
+                    case "hoverLeave":
                         if (handle) {
                             setHoveredCity(map, handle, null);
                         }
                         break;
-                    case "clickCity":
+                    case "select":
                         if (handle) {
                             setSelectedCity(map, handle, event.featureStateTarget);
                         }
-                        if (event.selection) {
-                            onSelect?.(event.selection);
+                        onSelect?.(event.selection);
+                        break;
+                    case "selectClear":
+                        if (handle) {
+                            setSelectedCity(map, handle, null);
                         }
                         break;
                 }
-            }, {
-                logHoverFeatures: appConfig.debug.enabled && appConfig.debug.logHoverFeatures,
-                interactiveLayerIds: interactiveLayerIdsRef.current
-            });
-
-            if (appConfig.debug.enabled && appConfig.debug.logHoverFeatures) {
-                detachDebugRef.current = attachInteractiveLayerDebug(map);
-            }
+            }, { debug });
         }
 
         void initMap();
@@ -162,8 +145,6 @@ export default function VectorMap({ className, onSelect }: VectorMapProps): JSX.
             controller.abort();
             detachInteractionsRef.current?.();
             detachInteractionsRef.current = null;
-            detachDebugRef.current?.();
-            detachDebugRef.current = null;
             debugZoomCleanupRef.current?.();
             debugZoomCleanupRef.current = null;
             setDebugZoom(null);
@@ -208,44 +189,5 @@ function logStyleLayerCatalog(map: MapLibreMap): void {
         })
         .filter((layer) => layer.hasTextField);
 
-
     console.log("[map-debug] symbol text layers", symbolTextLayers);
-}
-
-function attachInteractiveLayerDebug(map: MapLibreMap): () => void {
-    const logSnapshot = (reason: string): void => {
-        if (!map.isStyleLoaded()) {
-            return;
-        }
-        const interactiveLayerIds = listCommuneInteractiveLayerIds(map);
-        const canvas = map.getCanvas();
-        const bbox: [[number, number], [number, number]] = [
-            [0, 0],
-            [canvas.width, canvas.height]
-        ];
-
-        const features = interactiveLayerIds.length
-            ? map.queryRenderedFeatures(bbox, { layers: interactiveLayerIds })
-            : [];
-        const sample = features.slice(0, 8).map((feature) => ({
-            layerId: feature.layer?.id ?? "<unknown>",
-            properties: feature.properties ?? {}
-        }));
-
-        console.log("[map-debug] commune interactive snapshot", {
-            reason,
-            zoom: map.getZoom(),
-            interactiveLayerCount: interactiveLayerIds.length,
-            featureCount: features.length,
-            sample
-        });
-    };
-
-    const handleZoomEnd = (): void => logSnapshot("zoomend");
-    logSnapshot("load");
-    map.on("zoomend", handleZoomEnd);
-
-    return () => {
-        map.off("zoomend", handleZoomEnd);
-    };
 }

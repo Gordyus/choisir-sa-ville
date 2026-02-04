@@ -1,9 +1,9 @@
 /**
- * City Highlight Layers - Manages hover and selection state for city labels.
+ * City Highlight Layers - Manages hover and selection feature-state for city labels.
  * Uses feature-state for styling changes without layer filter manipulation.
  */
 
-import type { Map as MapLibreMap, StyleSpecification } from "maplibre-gl";
+import type { Map as MapLibreMap } from "maplibre-gl";
 
 import { isManagedCityLabelLayer } from "./layers/managedCityLabels";
 
@@ -21,13 +21,12 @@ export type CityHighlightHandle = {
     selectedTarget: FeatureStateTarget | null;
 };
 
-export type CityHighlightLayerOptions = {
-    logStyleHints?: boolean;
-};
-
+/**
+ * Initialize highlight state tracking for a map.
+ * Returns a handle for managing hover/selection state.
+ */
 export function ensureCityHighlightLayer(
-    map: MapLibreMap,
-    options?: CityHighlightLayerOptions
+    map: MapLibreMap
 ): CityHighlightHandle | null {
     const existing = highlightHandleCache.get(map);
     if (existing) {
@@ -36,10 +35,7 @@ export function ensureCityHighlightLayer(
 
     if (!hasManagedCityLabelLayer(map)) {
         if (!missingLayerWarned) {
-            if (options?.logStyleHints) {
-                debugLogSymbolLabelHints(map.getStyle());
-            }
-            console.warn("[map-style] Unable to locate managed commune label layers.");
+            console.warn("[map-style] Unable to locate managed city label layers.");
             missingLayerWarned = true;
         }
         return null;
@@ -152,21 +148,5 @@ function applyFeatureState(
         if (process.env.NODE_ENV === "development") {
             console.warn(`[map-style] Failed to update feature state for ${key}`, error);
         }
-    }
-}
-
-function debugLogSymbolLabelHints(style?: StyleSpecification | null): void {
-    if (!style?.layers) {
-        return;
-    }
-    const candidates = style.layers.filter((layer) => {
-        if (layer.type !== "symbol") {
-            return false;
-        }
-        const layout = layer.layout as Record<string, unknown> | undefined;
-        return layout && typeof layout["text-field"] !== "undefined";
-    });
-    if (candidates.length) {
-        console.warn("[map-style] Available text symbol layers:", candidates.map((layer) => layer.id).join(", "));
     }
 }
