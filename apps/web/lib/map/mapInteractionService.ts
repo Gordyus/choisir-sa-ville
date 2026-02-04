@@ -549,8 +549,9 @@ async function resolveCommuneLabel(
 
     if (normalized) {
         const candidates = await findCommunesByNormalizedName(normalized);
-        if (candidates.length === 1) {
-            return { kind: "commune", inseeCode: candidates[0].inseeCode };
+        const [first] = candidates;
+        if (candidates.length === 1 && first) {
+            return { kind: "commune", inseeCode: first.inseeCode };
         }
         if (candidates.length > 1) {
             const nearest = pickNearestByDistance(candidates, lngLat);
@@ -584,8 +585,9 @@ async function resolveInfraZoneLabel(
 
     if (normalized) {
         const candidates = await findInfraZonesByNormalizedName(normalized);
-        if (candidates.length === 1) {
-            return { kind: "infraZone", id: candidates[0].id };
+        const [first] = candidates;
+        if (candidates.length === 1 && first) {
+            return { kind: "infraZone", id: first.id };
         }
         if (candidates.length > 1) {
             const nearest = pickNearestByDistance(candidates, lngLat);
