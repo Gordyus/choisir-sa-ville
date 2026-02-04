@@ -1,0 +1,165 @@
+# Changelog
+
+Toutes les modifications notables du projet sont documentées dans ce fichier.
+
+Le format est basé sur [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/),
+et ce projet adhère au [Semantic Versioning](https://semver.org/lang/fr/).
+
+---
+
+## [Unreleased]
+
+### En cours de développement
+
+- Recherche par nom de commune
+- Détails complets des communes (métriques)
+- Filtres de base
+
+---
+
+## [0.2.0] - 2026-02-04
+
+### 🚀 Migration majeure : Architecture statique (Jamstack)
+
+Cette version marque une **refonte complète de l'architecture** :
+- Abandon de l'API backend (Fastify + PostgreSQL)
+- Adoption d'une approche statique pure (données JSON + Next.js)
+
+### Added
+
+- **Pipeline de génération de données** (`packages/importer`)
+  - Téléchargement automatique depuis INSEE et La Poste
+  - Parse et normalisation des CSV
+  - Génération de JSON optimisés (format colonnes compressées)
+  - Cache local des téléchargements
+  - Versioning automatique des datasets
+
+- **Documentation complète**
+  - `AGENTS.md` : Règles techniques réécrites pour architecture actuelle
+  - `docs/ARCHITECTURE.md` : Architecture détaillée avec diagrammes
+  - `docs/DATA_PIPELINE.md` : Documentation du pipeline de données
+  - `docs/INDEX.md` : Index de la documentation
+  - `CLEANUP_GUIDE.md` : Guide de nettoyage post-migration
+
+- **Cache côté client**
+  - IndexedDB via `CachedEntityDataProvider`
+  - TTL 7 jours
+  - Versioning des données
+
+- **SelectionService headless**
+  - Service de sélection découplé (0 deps UI/Map)
+  - Pattern Observable
+  - Support highlight + active states
+
+- **EntityDataProvider abstraction**
+  - Interface abstraite pour l'accès aux données
+  - `StaticFilesEntityDataProvider` : lit depuis `/data/{version}/`
+  - `CachedEntityDataProvider` : décorateur avec cache IndexedDB
+  - Hooks React : `useEntity`, `useCommune`, `useInfraZone`
+
+- **Spatial indexes**
+  - Index en mémoire pour communes et infra-zones
+  - Recherche par nom normalisé
+  - Résolution spatiale pour désambiguïsation
+
+### Changed
+
+- **Architecture complète**
+  - Données générées au build (vs runtime DB queries)
+  - Next.js sert fichiers statiques (vs API endpoints)
+  - Cache client-side (vs cache serveur)
+
+- **Scripts npm**
+  - `pnpm dev` : lance uniquement le frontend
+  - `pnpm export:static` : génère les données statiques
+  - Suppression de `build:deps` (packages obsolètes)
+
+- **Documentation**
+  - Archivage de l'ancienne doc (API + DB) dans `docs/archive/`
+  - README complètement réécrit
+  - Nouvelle structure de documentation
+
+### Removed
+
+- **API backend** (`apps/api/`)
+  - Fastify server
+  - Routes `/api/areas/suggest`, `/api/health`, etc.
+  - Dépendances : Kysely, Fastify
+
+- **Base de données PostgreSQL**
+  - Schema SQL
+  - Migrations
+  - `docker-compose.yml`
+  - Package `@choisir-sa-ville/db` (jamais créé)
+
+- **Package core** (`packages/core/`)
+  - Jamais créé, références supprimées
+
+### Migration Guide
+
+Voir `CLEANUP_GUIDE.md` pour les étapes manuelles de nettoyage.
+
+### Breaking Changes
+
+⚠️ **Cette version n'est PAS rétro-compatible avec v0.1.x**
+
+- Aucun endpoint API disponible
+- Aucune base de données runtime
+- Les données doivent être générées avant le build frontend
+
+---
+
+## [0.1.0] - 2025-XX-XX
+
+### Added
+
+- **Frontend Next.js initial**
+  - Carte interactive MapLibre
+  - Composants shadcn/ui
+  - Layout de base (header, footer)
+
+- **Backend API Fastify** (obsolète depuis v0.2.0)
+  - Routes de base
+  - Connexion PostgreSQL
+  - Endpoints health check
+
+- **Modèle territorial**
+  - Définition de la hiérarchie (Pays → Région → Département → Commune → Infra-zone)
+  - Types INSEE (COM, ARM, COMD, COMA)
+  - Documentation `LOCALITY_MODEL.md`
+
+- **Tooling**
+  - Monorepo pnpm workspaces
+  - TypeScript strict
+  - ESLint configuration
+
+### Notes
+
+Cette version utilisait une architecture API + PostgreSQL qui a été **abandonnée** en v0.2.0.
+
+Voir `docs/archive/` pour la documentation de cette architecture.
+
+---
+
+## Format des versions
+
+- **Major (X.0.0)** : Changements incompatibles (breaking changes)
+- **Minor (0.X.0)** : Nouvelles fonctionnalités compatibles
+- **Patch (0.0.X)** : Corrections de bugs
+
+### Labels de changelog
+
+- `Added` : Nouvelles fonctionnalités
+- `Changed` : Modifications de fonctionnalités existantes
+- `Deprecated` : Fonctionnalités bientôt supprimées
+- `Removed` : Fonctionnalités supprimées
+- `Fixed` : Corrections de bugs
+- `Security` : Corrections de vulnérabilités
+
+---
+
+## Liens
+
+- [Repository](https://github.com/votre-org/choisir-sa-ville)
+- [Issues](https://github.com/votre-org/choisir-sa-ville/issues)
+- [Documentation](./docs/INDEX.md)

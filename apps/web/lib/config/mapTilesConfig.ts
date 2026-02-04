@@ -1,15 +1,17 @@
 import type { ExpressionSpecification } from "maplibre-gl";
 
+export const DEFAULT_INTERACTABLE_LABEL_LAYER_ID = "place_label_interractable";
+
 export type CityLabelStyleConfig = {
     textColor?: string;
-    hoverTextColor?: string;
-    selectedTextColor?: string;
+    highlightTextColor?: string;
+    activeTextColor?: string;
     textHaloColor?: string;
-    hoverTextHaloColor?: string;
-    selectedTextHaloColor?: string;
+    highlightTextHaloColor?: string;
+    activeTextHaloColor?: string;
     textHaloWidth?: number;
-    hoverTextHaloWidth?: number;
-    selectedTextHaloWidth?: number;
+    highlightTextHaloWidth?: number;
+    activeTextHaloWidth?: number;
     textFont?: string[];
     textSize?: number | ExpressionSpecification;
 };
@@ -32,7 +34,7 @@ export type MapTilesConfig = {
     tileJsonSources: TileJsonSourceMap;
     cityClasses: string[];
     polygonSources: PolygonSourcesConfig;
-    cityLabelLayerIds: string[];
+    interactableLabelLayerId: string;
     cityLabelStyle?: CityLabelStyleConfig;
 };
 
@@ -72,7 +74,7 @@ function parseMapTilesConfig(value: unknown): MapTilesConfig | null {
     const styleUrl = requireNonEmptyString(record.styleUrl);
     const tileJsonSources = requireTileJsonSources(record.tileJsonSources);
     const cityClasses = requireStringArray(record.cityClasses);
-    const cityLabelLayerIds = requireStringArray(record.cityLabelLayerIds);
+    const interactableLabelLayerId = parseInteractableLabelLayerId(record.interactableLabelLayerId);
     const polygonSources = requirePolygonSources(record.polygonSources);
     const cityLabelStyle = parseCityLabelStyleConfig(record.cityLabelStyle);
 
@@ -80,7 +82,7 @@ function parseMapTilesConfig(value: unknown): MapTilesConfig | null {
         !styleUrl ||
         !tileJsonSources ||
         !cityClasses ||
-        !cityLabelLayerIds ||
+        !interactableLabelLayerId ||
         !polygonSources ||
         cityLabelStyle === null
     ) {
@@ -92,7 +94,7 @@ function parseMapTilesConfig(value: unknown): MapTilesConfig | null {
         tileJsonSources,
         cityClasses,
         polygonSources,
-        cityLabelLayerIds
+        interactableLabelLayerId
     };
     if (cityLabelStyle) {
         parsed.cityLabelStyle = cityLabelStyle;
@@ -114,37 +116,37 @@ function parseCityLabelStyleConfig(value: unknown): CityLabelStyleConfig | undef
         if (typeof record.textColor !== "string") return null;
         style.textColor = record.textColor;
     }
-    if ("hoverTextColor" in record) {
-        if (typeof record.hoverTextColor !== "string") return null;
-        style.hoverTextColor = record.hoverTextColor;
+    if ("highlightTextColor" in record) {
+        if (typeof record.highlightTextColor !== "string") return null;
+        style.highlightTextColor = record.highlightTextColor;
     }
-    if ("selectedTextColor" in record) {
-        if (typeof record.selectedTextColor !== "string") return null;
-        style.selectedTextColor = record.selectedTextColor;
+    if ("activeTextColor" in record) {
+        if (typeof record.activeTextColor !== "string") return null;
+        style.activeTextColor = record.activeTextColor;
     }
     if ("textHaloColor" in record) {
         if (typeof record.textHaloColor !== "string") return null;
         style.textHaloColor = record.textHaloColor;
     }
-    if ("hoverTextHaloColor" in record) {
-        if (typeof record.hoverTextHaloColor !== "string") return null;
-        style.hoverTextHaloColor = record.hoverTextHaloColor;
+    if ("highlightTextHaloColor" in record) {
+        if (typeof record.highlightTextHaloColor !== "string") return null;
+        style.highlightTextHaloColor = record.highlightTextHaloColor;
     }
-    if ("selectedTextHaloColor" in record) {
-        if (typeof record.selectedTextHaloColor !== "string") return null;
-        style.selectedTextHaloColor = record.selectedTextHaloColor;
+    if ("activeTextHaloColor" in record) {
+        if (typeof record.activeTextHaloColor !== "string") return null;
+        style.activeTextHaloColor = record.activeTextHaloColor;
     }
     if ("textHaloWidth" in record) {
         if (typeof record.textHaloWidth !== "number" || !Number.isFinite(record.textHaloWidth)) return null;
         style.textHaloWidth = record.textHaloWidth;
     }
-    if ("hoverTextHaloWidth" in record) {
-        if (typeof record.hoverTextHaloWidth !== "number" || !Number.isFinite(record.hoverTextHaloWidth)) return null;
-        style.hoverTextHaloWidth = record.hoverTextHaloWidth;
+    if ("highlightTextHaloWidth" in record) {
+        if (typeof record.highlightTextHaloWidth !== "number" || !Number.isFinite(record.highlightTextHaloWidth)) return null;
+        style.highlightTextHaloWidth = record.highlightTextHaloWidth;
     }
-    if ("selectedTextHaloWidth" in record) {
-        if (typeof record.selectedTextHaloWidth !== "number" || !Number.isFinite(record.selectedTextHaloWidth)) return null;
-        style.selectedTextHaloWidth = record.selectedTextHaloWidth;
+    if ("activeTextHaloWidth" in record) {
+        if (typeof record.activeTextHaloWidth !== "number" || !Number.isFinite(record.activeTextHaloWidth)) return null;
+        style.activeTextHaloWidth = record.activeTextHaloWidth;
     }
     if ("textFont" in record) {
         if (!Array.isArray(record.textFont)) return null;
@@ -181,6 +183,13 @@ function requireStringArray(value: unknown): string[] | null {
         return null;
     }
     return value as string[];
+}
+
+function parseInteractableLabelLayerId(value: unknown): string | null {
+    if (typeof value === "undefined") {
+        return DEFAULT_INTERACTABLE_LABEL_LAYER_ID;
+    }
+    return requireNonEmptyString(value);
 }
 function requireTileJsonSources(value: unknown): TileJsonSourceMap | null {
     if (!value || typeof value !== "object") {

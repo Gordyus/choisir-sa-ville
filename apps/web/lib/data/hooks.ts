@@ -198,6 +198,7 @@ export function useHasEntity(ref: EntityRef | null): boolean {
 
         const controller = new AbortController();
 
+        console.log("useHasEntity checking", ref);
         getEntityDataProvider()
             .hasEntity(ref, controller.signal)
             .then((result) => {

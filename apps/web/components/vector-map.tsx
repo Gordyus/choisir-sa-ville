@@ -126,7 +126,10 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
             }
 
             // Attach interaction service - it handles all SelectionService updates
-            detachInteractionsRef.current = attachMapInteractionService(map, { debug });
+            detachInteractionsRef.current = attachMapInteractionService(map, {
+                debug,
+                labelLayerId: appConfig.mapTiles.interactableLabelLayerId
+            });
         }
 
         void initMap();

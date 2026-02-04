@@ -1,5 +1,5 @@
 /**
- * Map Interaction Service – highlight and click interactions on managed label layers.
+ * Map Interaction Service – highlight and click interactions on the interactable label layer.
  *
  * Responsibilities:
  * - Use label features as the sole interaction surface
@@ -15,15 +15,13 @@ import type {
     PointLike
 } from "maplibre-gl";
 
+import { DEFAULT_INTERACTABLE_LABEL_LAYER_ID } from "@/lib/config/mapTilesConfig";
 import { findCommunesByNormalizedName } from "@/lib/data/communesIndexLite";
-import { resolveNearestCommuneInsee } from "@/lib/data/communeSpatialIndex";
 import { findInfraZonesByNormalizedName } from "@/lib/data/infraZonesIndexLite";
-import { resolveNearestInfraZoneByDistance } from "@/lib/data/infraZoneSpatialIndex";
 import { normalizeName } from "@/lib/data/nameNormalization";
 import { entityRefKey, getSelectionService, type EntityRef } from "@/lib/selection";
 
 import { extractLabelIdentity, type LabelIdentity } from "./interactiveLayers";
-import { buildManagedCityLabelLayerId, OMT_LABEL_LAYER_IDS } from "./registry/layerRegistry";
 
 // ============================================================================
 // Constants
@@ -35,8 +33,6 @@ const HAS_DATA_TTL_MS = 60_000;
 const HAS_DATA_BATCH_SIZE = 40;
 const COMMUNE_LABEL_CLASSES = new Set(["city", "town", "village"]);
 const INFRA_LABEL_CLASSES = new Set(["suburb", "neighbourhood", "borough"]);
-
-const MANAGED_LABEL_LAYER_IDS = OMT_LABEL_LAYER_IDS.map(buildManagedCityLabelLayerId);
 
 // ============================================================================
 // Types
@@ -50,6 +46,7 @@ export type FeatureStateTarget = {
 
 export type MapInteractionServiceOptions = {
     debug?: boolean;
+    labelLayerId?: string;
 };
 
 type LabelFeatureKey = string;
@@ -81,6 +78,7 @@ export function attachMapInteractionService(
     options?: MapInteractionServiceOptions
 ): () => void {
     const selectionService = getSelectionService();
+    const labelLayerId = options?.labelLayerId ?? DEFAULT_INTERACTABLE_LABEL_LAYER_ID;
     const featureStateHandle: FeatureStateHandle = {
         highlightTarget: null,
         activeTarget: null
@@ -92,7 +90,7 @@ export function attachMapInteractionService(
     let highlightRequestToken = 0;
     const debug = options?.debug ?? false;
 
-    const hasDataEvaluator = new LabelHasDataEvaluator(map, debug);
+    const hasDataEvaluator = new LabelHasDataEvaluator(map, labelLayerId, debug);
     hasDataEvaluator.start();
 
     const unsubscribe = selectionService.subscribe(() => {
@@ -112,7 +110,7 @@ export function attachMapInteractionService(
         lastMoveTs = now;
 
         const requestId = ++highlightRequestToken;
-        const hit = pickLabelFeature(map, event.point);
+        const hit = pickLabelFeature(map, event.point, labelLayerId);
 
         if (disposed || requestId !== highlightRequestToken) {
             return;
@@ -159,7 +157,7 @@ export function attachMapInteractionService(
     const handleClick = (event: MapMouseEvent): void => {
         void (async () => {
             try {
-                const hit = pickLabelFeature(map, event.point);
+                const hit = pickLabelFeature(map, event.point, labelLayerId);
                 if (disposed) {
                     return;
                 }
@@ -277,6 +275,7 @@ function updateFeatureState(
 
 class LabelHasDataEvaluator {
     private map: MapLibreMap;
+    private labelLayerId: string;
     private debug: boolean;
     private timer: number | null = null;
     private requestId = 0;
@@ -284,8 +283,9 @@ class LabelHasDataEvaluator {
     private cache = new Map<LabelFeatureKey, LabelEvaluation>();
     private entityToLabel = new Map<string, FeatureStateTarget>();
 
-    constructor(map: MapLibreMap, debug: boolean) {
+    constructor(map: MapLibreMap, labelLayerId: string, debug: boolean) {
         this.map = map;
+        this.labelLayerId = labelLayerId;
         this.debug = debug;
     }
 
@@ -386,8 +386,7 @@ class LabelHasDataEvaluator {
             return;
         }
 
-        const availableLayers = MANAGED_LABEL_LAYER_IDS.filter((id) => this.map.getLayer(id));
-        if (!availableLayers.length) {
+        if (!this.map.getLayer(this.labelLayerId)) {
             return;
         }
 
@@ -397,7 +396,7 @@ class LabelHasDataEvaluator {
             [canvas.width, canvas.height]
         ];
 
-        const features = this.map.queryRenderedFeatures(bounds, { layers: availableLayers });
+        const features = this.map.queryRenderedFeatures(bounds, { layers: [this.labelLayerId] });
         if (!features.length) {
             return;
         }
@@ -439,17 +438,16 @@ class LabelHasDataEvaluator {
 // Label Picking Helpers
 // ============================================================================
 
-function pickLabelFeature(map: MapLibreMap, point: PointLike): LabelHit | null {
+function pickLabelFeature(map: MapLibreMap, point: PointLike, layerId: string): LabelHit | null {
     if (!map.isStyleLoaded()) {
         return null;
     }
 
-    const availableLayers = MANAGED_LABEL_LAYER_IDS.filter((id) => map.getLayer(id));
-    if (!availableLayers.length) {
+    if (!map.getLayer(layerId)) {
         return null;
     }
 
-    const features = map.queryRenderedFeatures(point, { layers: availableLayers });
+    const features = map.queryRenderedFeatures(point, { layers: [layerId] });
     if (!features.length) {
         return null;
     }
@@ -546,31 +544,26 @@ async function resolveCommuneLabel(
     debug: boolean
 ): Promise<EntityRef | null> {
     const normalized = normalizeName(label.name);
-
-    if (normalized) {
-        const candidates = await findCommunesByNormalizedName(normalized);
-        const [first] = candidates;
-        if (candidates.length === 1 && first) {
-            return { kind: "commune", inseeCode: first.inseeCode };
-        }
-        if (candidates.length > 1) {
-            const nearest = pickNearestByDistance(candidates, lngLat);
-            if (nearest) {
-                return { kind: "commune", inseeCode: nearest.inseeCode };
-            }
-        }
+    if (!normalized) {
+        logNoMatchingEntity(label, debug);
+        return null;
     }
 
-    const nearest = await resolveNearestCommuneInsee(lngLat.lng, lngLat.lat);
+    const candidates = await findCommunesByNormalizedName(normalized);
+
+    if (!candidates.length) {
+        logNoMatchingEntity(label, debug);
+        return null;
+    }
+
+    if (candidates.length === 1) {
+        const [only] = candidates;
+        return only ? { kind: "commune", inseeCode: only.inseeCode } : null;
+    }
+
+    const nearest = pickNearestByDistance(candidates, lngLat);
     if (nearest) {
         return { kind: "commune", inseeCode: nearest.inseeCode };
-    }
-
-    if (debug && process.env.NODE_ENV === "development") {
-        console.warn("[map-interaction] Commune resolution failed", {
-            labelName: label.name,
-            placeClass: label.placeClass
-        });
     }
 
     return null;
@@ -582,34 +575,40 @@ async function resolveInfraZoneLabel(
     debug: boolean
 ): Promise<EntityRef | null> {
     const normalized = normalizeName(label.name);
-
-    if (normalized) {
-        const candidates = await findInfraZonesByNormalizedName(normalized);
-        const [first] = candidates;
-        if (candidates.length === 1 && first) {
-            return { kind: "infraZone", id: first.id };
-        }
-        if (candidates.length > 1) {
-            const nearest = pickNearestByDistance(candidates, lngLat);
-            if (nearest) {
-                return { kind: "infraZone", id: nearest.id };
-            }
-        }
+    if (!normalized) {
+        logNoMatchingEntity(label, debug);
+        return null;
     }
 
-    const nearest = await resolveNearestInfraZoneByDistance(lngLat.lng, lngLat.lat);
+    const candidates = await findInfraZonesByNormalizedName(normalized);
+
+    if (!candidates.length) {
+        logNoMatchingEntity(label, debug);
+        return null;
+    }
+
+    if (candidates.length === 1) {
+        const [only] = candidates;
+        return only ? { kind: "infraZone", id: only.id } : null;
+    }
+
+    const nearest = pickNearestByDistance(candidates, lngLat);
     if (nearest) {
         return { kind: "infraZone", id: nearest.id };
     }
 
-    if (debug && process.env.NODE_ENV === "development") {
-        console.warn("[map-interaction] Infra-zone resolution failed", {
-            labelName: label.name,
-            placeClass: label.placeClass
-        });
+    return null;
+}
+
+function logNoMatchingEntity(label: LabelIdentity, debug: boolean): void {
+    if (!debug || process.env.NODE_ENV !== "development") {
+        return;
     }
 
-    return null;
+    console.warn("[map-interaction] No matching entity for label", {
+        labelName: label.name,
+        placeClass: label.placeClass
+    });
 }
 
 function pickNearestByDistance<T extends { lat: number; lon: number }>(

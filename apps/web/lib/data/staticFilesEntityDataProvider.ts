@@ -7,12 +7,11 @@
 
 import type {
     CommuneData,
-    EntityData,
-    EntityRef,
     InfraZoneData
 } from "@/lib/selection/types";
 
 import { BaseEntityDataProvider } from "./entityDataProvider";
+import { debugLogEntityFetch } from "./entityFetchDebug";
 
 // ============================================================================
 // Configuration
@@ -85,6 +84,7 @@ export class StaticFilesEntityDataProvider extends BaseEntityDataProvider {
      */
     private async fetchJson<T>(url: string, signal?: AbortSignal): Promise<T | null> {
         try {
+            debugLogEntityFetch(url, { domain: "staticFilesEntityDataProvider" });
             const response = await fetch(url, {
                 signal: signal ?? null,
                 headers: {

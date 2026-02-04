@@ -6,7 +6,7 @@
  * 1. Base style is fetched from styleUrl
  * 2. TileJSON metadata is loaded to check source-layer availability
  * 3. Layers with unavailable source-layers are removed
- * 4. City label layers are split into managed (feature-state) and base variants
+ * 4. Interactable label layer receives feature-state styling overrides
  * 5. Admin polygon sources (communes, arr_municipal) are injected before labels
  * 6. Final style is returned with deterministic layer ordering
  */
@@ -17,8 +17,7 @@ import type { MapTilesConfig } from "@/lib/config/mapTilesConfig";
 
 import { injectAdminPolygons } from "../layers/adminPolygons";
 import { setPlaceClasses } from "../layers/baseLabels";
-import { hasManagedCityLayers, splitCityLabelLayers } from "../layers/managedCityLabels";
-import { OMT_LABEL_LAYER_IDS } from "../registry/layerRegistry";
+import { applyInteractableLabelStyling } from "../layers/interactableLabelStyling";
 import { loadSourceAvailability, loadStyle, type VectorLayerAvailability } from "./styleLoader";
 import { sanitizeLayers } from "./styleSanitizer";
 
@@ -38,37 +37,75 @@ export async function loadMapStyle(
         loadTileJsonAvailability(config, signal)
     ]);
 
-    if (!Array.isArray(baseStyle.layers)) {
-        return baseStyle;
+    const resolvedBaseStyle = baseStyle ?? buildFallbackStyle(config);
+    if (!Array.isArray(resolvedBaseStyle.layers)) {
+        return resolvedBaseStyle;
     }
 
     // Step 2: Configure place class filtering (city/town/village)
     setPlaceClasses(config.cityClasses);
 
     // Step 3: Sanitize layers - remove those with unavailable source-layers
-    let processedLayers = sanitizeLayers(baseStyle.layers, { availability, verbose });
+    let processedLayers = sanitizeLayers(resolvedBaseStyle.layers, { availability, verbose });
 
-    // Step 4: Split city label layers for managed hover/selection styling
-    if (!hasManagedCityLayers(processedLayers)) {
-        const targetIds = new Set(config.cityLabelLayerIds ?? OMT_LABEL_LAYER_IDS);
-        processedLayers = splitCityLabelLayers(
-            processedLayers,
-            targetIds,
-            config.cityLabelStyle
-        );
-    }
+    // Step 4: Apply feature-state styling on the interactable label layer
+    applyInteractableLabelStyling(
+        processedLayers,
+        config.interactableLabelLayerId,
+        config.cityLabelStyle
+    );
 
     // Step 5: Build the output style
     const outputStyle: StyleSpecification = {
-        ...baseStyle,
+        ...resolvedBaseStyle,
         layers: processedLayers,
-        sources: { ...(baseStyle.sources ?? {}) }
+        sources: { ...(resolvedBaseStyle.sources ?? {}) }
     };
 
     // Step 6: Inject admin polygon sources and layers (before labels for proper z-order)
     injectAdminPolygons(outputStyle, config.polygonSources, availability);
 
     return outputStyle;
+}
+
+function buildFallbackStyle(config: MapTilesConfig): StyleSpecification {
+    const origin = safeOrigin(config.styleUrl) ?? safeOrigin(Object.values(config.tileJsonSources ?? {})[0] ?? "");
+    const glyphs = origin ? `${origin}/fonts/{fontstack}/{range}.pbf` : undefined;
+
+    const sources: StyleSpecification["sources"] = {};
+    for (const [id, url] of Object.entries(config.tileJsonSources ?? {})) {
+        if (typeof url === "string" && url.length) {
+            sources[id] = { type: "vector", url } as unknown as StyleSpecification["sources"][string];
+        }
+    }
+
+    const style: StyleSpecification = {
+        version: 8,
+        name: "Fallback",
+        sources,
+        layers: [
+            {
+                id: "background",
+                type: "background",
+                paint: { "background-color": "#f7f4ef" }
+            }
+        ]
+    } as StyleSpecification;
+
+    if (glyphs) {
+        (style as unknown as { glyphs?: string }).glyphs = glyphs;
+    }
+
+    return style;
+}
+
+function safeOrigin(value: string): string | null {
+    try {
+        const url = new URL(value);
+        return url.origin;
+    } catch {
+        return null;
+    }
 }
 
 /**

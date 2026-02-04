@@ -6,8 +6,9 @@
         "node": ">=22"
     },
     "scripts": {
-        "build:deps": "pnpm -r --filter ./packages/** build",
-        "build": "pnpm run build:deps && pnpm -r build",
+        "build": "pnpm --filter @choisir-sa-ville/web build",
+        "dev": "pnpm --filter @choisir-sa-ville/web dev",
+        "export:static": "pnpm --filter @choisir-sa-ville/importer export:static",
         "typecheck": "pnpm -r typecheck",
         "lint": "pnpm -r lint",
         "lint:eslint": "eslint . --max-warnings=0",

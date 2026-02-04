@@ -1,3 +1,6 @@
+import { normalizeName } from "./nameNormalization";
+import { debugLogEntityFetch } from "./entityFetchDebug";
+
 const MANIFEST_PATH = "/data/current/manifest.json";
 const INDEX_RELATIVE_PATH = "communes/indexLite.json";
 
@@ -24,6 +27,8 @@ interface RawIndexLite {
 let datasetVersionCache: string | null = null;
 let communesIndexCache: Map<string, CommuneIndexLiteEntry> | null = null;
 let communesIndexPromise: Promise<Map<string, CommuneIndexLiteEntry>> | null = null;
+let communesNameIndexCache: Map<string, string[]> | null = null;
+let communesNameIndexPromise: Promise<Map<string, string[]>> | null = null;
 
 export async function loadCommunesIndexLite(signal?: AbortSignal): Promise<Map<string, CommuneIndexLiteEntry>> {
     if (communesIndexCache) {
@@ -48,11 +53,55 @@ export async function getCommuneByInsee(code: string, signal?: AbortSignal): Pro
     return index.get(code) ?? null;
 }
 
+export async function findCommunesByNormalizedName(
+    normalizedName: string,
+    signal?: AbortSignal
+): Promise<CommuneIndexLiteEntry[]> {
+    if (!normalizedName) {
+        return [];
+    }
+    const [index, nameIndex] = await Promise.all([
+        loadCommunesIndexLite(signal),
+        ensureNameIndex(signal)
+    ]);
+    const codes = nameIndex.get(normalizedName) ?? [];
+    if (!codes.length) {
+        return [];
+    }
+    const entries: CommuneIndexLiteEntry[] = [];
+    for (const inseeCode of codes) {
+        const entry = index.get(inseeCode);
+        if (entry) {
+            entries.push(entry);
+        }
+    }
+    return entries;
+}
+
 async function fetchCommunesIndexLite(signal?: AbortSignal): Promise<Map<string, CommuneIndexLiteEntry>> {
     const version = await resolveDatasetVersion(signal);
     const url = `/data/${version}/${INDEX_RELATIVE_PATH}`;
     const raw = await fetchJson<RawIndexLite>(url, signal);
     return buildIndex(raw);
+}
+
+async function ensureNameIndex(signal?: AbortSignal): Promise<Map<string, string[]>> {
+    if (communesNameIndexCache) {
+        return communesNameIndexCache;
+    }
+    if (!communesNameIndexPromise) {
+        communesNameIndexPromise = loadCommunesIndexLite(signal)
+            .then((index) => {
+                const nameIndex = buildNameIndex(index);
+                communesNameIndexCache = nameIndex;
+                return nameIndex;
+            })
+            .catch((error) => {
+                communesNameIndexPromise = null;
+                throw error;
+            });
+    }
+    return communesNameIndexPromise;
 }
 
 async function resolveDatasetVersion(signal?: AbortSignal): Promise<string> {
@@ -65,6 +114,7 @@ async function resolveDatasetVersion(signal?: AbortSignal): Promise<string> {
 }
 
 async function fetchJson<T>(url: string, signal?: AbortSignal): Promise<T> {
+    debugLogEntityFetch(url, { domain: "communesIndexLite" });
     const init: RequestInit = {};
     if (typeof signal !== "undefined") {
         init.signal = signal;
@@ -107,6 +157,23 @@ function buildIndex(raw: RawIndexLite): Map<string, CommuneIndexLiteEntry> {
     }
 
     return index;
+}
+
+function buildNameIndex(index: Map<string, CommuneIndexLiteEntry>): Map<string, string[]> {
+    const nameIndex = new Map<string, string[]>();
+    for (const entry of index.values()) {
+        const normalized = normalizeName(entry.name);
+        if (!normalized) {
+            continue;
+        }
+        const bucket = nameIndex.get(normalized);
+        if (bucket) {
+            bucket.push(entry.inseeCode);
+        } else {
+            nameIndex.set(normalized, [entry.inseeCode]);
+        }
+    }
+    return nameIndex;
 }
 
 function getString(row: Array<string | number | null>, index: number): string | null {

@@ -5,10 +5,7 @@
         "communes": "http://localhost:8080/data/communes.json",
         "arr_municipal": "http://localhost:8080/data/arr_municipal.json"
     },
-    "cityLabelLayerIds": [
-        "place_label_other",
-        "place_label_city"
-    ],
+    "interactableLabelLayerId": "place_label_interractable",
     "cityClasses": [
         "city",
         "town",
@@ -26,14 +23,14 @@
         }
     },
     "cityLabelStyle": {
-        "textColor": "#1f2933",
-        "hoverTextColor": "#2d5bff",
-        "selectedTextColor": "#0f172a",
-        "textHaloColor": "#fefcf7",
-        "hoverTextHaloColor": "#ffffff",
-        "selectedTextHaloColor": "#ffe28f",
-        "textHaloWidth": 1.6,
-        "hoverTextHaloWidth": 2.2,
-        "selectedTextHaloWidth": 2.8
+        "textColor": "#111827",
+        "highlightTextColor": "#2563eb",
+        "activeTextColor": "#f59e0b",
+        "textHaloColor": "#ffffff",
+        "highlightTextHaloColor": "#ffffff",
+        "activeTextHaloColor": "#ffffff",
+        "textHaloWidth": 2.8,
+        "highlightTextHaloWidth": 3.6,
+        "activeTextHaloWidth": 4.2
     }
 }

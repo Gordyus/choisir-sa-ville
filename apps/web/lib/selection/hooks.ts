@@ -6,10 +6,10 @@
  * Provides React integration for the SelectionService.
  */
 
-import { useCallback, useSyncExternalStore } from "react";
+import { useCallback, useEffect, useRef, useSyncExternalStore } from "react";
 
-import { entityRefEquals, type EntityRef, type SelectionState } from "./types";
 import { getSelectionService } from "./selectionService";
+import { entityRefEquals, type EntityRef, type SelectionState } from "./types";
 
 // ============================================================================
 // useSelectionState Hook
@@ -21,15 +21,36 @@ import { getSelectionService } from "./selectionService";
  */
 export function useSelectionState(): SelectionState {
     const service = getSelectionService();
+    const serverSnapshotCache = useRef<SelectionState | null>(null);
+    const snapshotRef = useRef<SelectionState | null>(null);
+
+    const readSnapshot = useCallback(() => {
+        const next = service.getState();
+        if (!snapshotRef.current || !selectionStatesEqual(snapshotRef.current, next)) {
+            snapshotRef.current = next;
+        }
+        return snapshotRef.current;
+    }, [service]);
 
     const subscribe = useCallback(
         (callback: () => void) => service.subscribe(callback),
         [service]
     );
 
-    const getSnapshot = useCallback(() => service.getState(), [service]);
+    const getSnapshot = readSnapshot;
+    const getServerSnapshot = useCallback(() => {
+        if (serverSnapshotCache.current === null) {
+            serverSnapshotCache.current = readSnapshot();
+        }
+        return serverSnapshotCache.current;
+    }, [readSnapshot]);
 
-    return useSyncExternalStore(subscribe, getSnapshot, getSnapshot);
+    useEffect(() => {
+        serverSnapshotCache.current = null;
+        snapshotRef.current = null;
+    }, [service]);
+
+    return useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
 }
 
 // ============================================================================
@@ -49,7 +70,7 @@ export function useHighlightedEntity(): EntityRef | null {
 // ============================================================================
 
 /**
- * Get the currently active (selected) entity.
+ * Get the currently active entity.
  */
 export function useActiveEntity(): EntityRef | null {
     const state = useSelectionState();
@@ -139,4 +160,16 @@ export function useSelection(): SelectionHook {
         active: state.active,
         ...actions
     };
+}
+
+function selectionStatesEqual(a: SelectionState | null, b: SelectionState | null): boolean {
+    if (a === b) return true;
+    if (!a || !b) return false;
+    return entityRefsEqual(a.highlighted, b.highlighted) && entityRefsEqual(a.active, b.active);
+}
+
+function entityRefsEqual(a: EntityRef | null, b: EntityRef | null): boolean {
+    if (a === b) return true;
+    if (!a || !b) return false;
+    return entityRefEquals(a, b);
 }

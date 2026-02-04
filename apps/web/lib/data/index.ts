@@ -20,17 +20,15 @@ import { StaticFilesEntityDataProvider } from "./staticFilesEntityDataProvider";
 // Re-exports
 // ============================================================================
 
-export type { EntityDataProvider } from "./entityDataProvider";
-export { BaseEntityDataProvider } from "./entityDataProvider";
-export { IndexedDbCache, type CacheConfig } from "./cache/indexedDbCache";
 export {
     CachedEntityDataProvider,
     createCachedEntityDataProvider
 } from "./cache/cachedEntityDataProvider";
+export { IndexedDbCache, type CacheConfig } from "./cache/indexedDbCache";
+export { BaseEntityDataProvider } from "./entityDataProvider";
+export type { EntityDataProvider } from "./entityDataProvider";
 export {
-    StaticFilesEntityDataProvider,
-    createStaticFilesEntityDataProvider,
-    type StaticFilesConfig
+    createStaticFilesEntityDataProvider, StaticFilesEntityDataProvider, type StaticFilesConfig
 } from "./staticFilesEntityDataProvider";
 
 // ============================================================================

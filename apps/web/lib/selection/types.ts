@@ -49,7 +49,7 @@ export function entityRefKey(ref: EntityRef): string {
 /**
  * Visual state of an entity (UI-agnostic).
  * - normal: default state
- * - highlight: emphasized (hover, focus, search result)
+ * - highlight: emphasized (focus, search result)
  * - active: currently selected
  */
 export type EntityVisualState = "normal" | "highlight" | "active";
@@ -58,7 +58,7 @@ export type EntityVisualState = "normal" | "highlight" | "active";
  * Current selection state snapshot.
  */
 export type SelectionState = {
-    /** Currently highlighted entity (hover, focus, etc.) - at most one */
+    /** Currently highlighted entity (focus, etc.) - at most one */
     highlighted: EntityRef | null;
     /** Currently active entity (selected) - at most one */
     active: EntityRef | null;

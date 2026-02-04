@@ -24,13 +24,7 @@ export {
 
 // React Hooks
 export {
-    useSelectionState,
-    useHighlightedEntity,
-    useActiveEntity,
-    useIsHighlighted,
-    useIsActive,
-    useSelectionActions,
-    useSelection,
-    type SelectionActions,
+    useActiveEntity, useHighlightedEntity, useIsActive, useIsHighlighted, useSelection, useSelectionActions, useSelectionState, type SelectionActions,
     type SelectionHook
 } from "./hooks";
+
