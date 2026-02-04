@@ -1,6 +1,7 @@
 {
   "enabled": true,
-  "logHoverFeatures": false,
+  "logHighlightFeatures": false,
+  "logEntityFetch": false,
   "logStyleHints": false,
   "showTileBoundaries": false,
   "showCollisionBoxes": false

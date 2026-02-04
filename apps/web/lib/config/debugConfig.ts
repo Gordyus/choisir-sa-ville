@@ -1,6 +1,7 @@
 export type DebugConfig = {
     enabled: boolean;
-    logHoverFeatures: boolean;
+    logHighlightFeatures: boolean;
+    logEntityFetch: boolean;
     logStyleHints: boolean;
     showTileBoundaries: boolean;
     showCollisionBoxes: boolean;
@@ -8,13 +9,15 @@ export type DebugConfig = {
 
 const DEFAULT_CONFIG: DebugConfig = {
     enabled: false,
-    logHoverFeatures: false,
+    logHighlightFeatures: false,
+    logEntityFetch: false,
     logStyleHints: false,
     showTileBoundaries: false,
     showCollisionBoxes: false
 };
 
 let debugConfigPromise: Promise<DebugConfig> | null = null;
+let debugConfigOncePromise: Promise<DebugConfig> | null = null;
 
 export async function loadDebugConfig(signal?: AbortSignal): Promise<DebugConfig> {
     if (process.env.NODE_ENV === "development") {
@@ -29,7 +32,28 @@ export async function loadDebugConfig(signal?: AbortSignal): Promise<DebugConfig
     return debugConfigPromise;
 }
 
+/**
+ * Load debug config once (cached even in development).
+ * Useful for modules that must avoid re-fetching config on every operation.
+ */
+export async function loadDebugConfigOnce(signal?: AbortSignal): Promise<DebugConfig> {
+    if (!debugConfigOncePromise) {
+        debugConfigOncePromise = resolveDebugConfig(signal).catch((error) => {
+            debugConfigOncePromise = null;
+            throw error;
+        });
+    }
+    return debugConfigOncePromise;
+}
+
 async function resolveDebugConfig(signal?: AbortSignal): Promise<DebugConfig> {
+    // This config is meant for client-side diagnostics.
+    // On the server (SSR/RSC), a relative URL cannot be fetched without a base origin.
+    // Defaulting silently avoids noisy warnings during SSR.
+    if (typeof window === "undefined") {
+        return DEFAULT_CONFIG;
+    }
+
     const url = "/config/app-debug.json";
 
     try {
@@ -62,14 +86,16 @@ function parseDebugConfig(value: unknown): DebugConfig | null {
     const record = value as Record<string, unknown>;
 
     const enabled = toBoolean(record.enabled);
-    const logHoverFeatures = toBoolean(record.logHoverFeatures);
+    const logHighlightFeatures = toBoolean(record.logHighlightFeatures);
+    const logEntityFetch = toBoolean(record.logEntityFetch);
     const logStyleHints = toBoolean(record.logStyleHints);
     const showTileBoundaries = toBoolean(record.showTileBoundaries);
     const showCollisionBoxes = toBoolean(record.showCollisionBoxes);
 
     if (
         enabled == null ||
-        logHoverFeatures == null ||
+        logHighlightFeatures == null ||
+        logEntityFetch == null ||
         logStyleHints == null ||
         showTileBoundaries == null ||
         showCollisionBoxes == null
@@ -79,7 +105,8 @@ function parseDebugConfig(value: unknown): DebugConfig | null {
 
     return {
         enabled,
-        logHoverFeatures,
+        logHighlightFeatures,
+        logEntityFetch,
         logStyleHints,
         showTileBoundaries,
         showCollisionBoxes

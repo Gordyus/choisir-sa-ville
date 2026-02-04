@@ -1,78 +1,44 @@
 # Choisir sa ville
 
-Monorepo du projet **Choisir sa ville**.
+Application web pour explorer des zones géographiques en France (communes + zones infra) sur une carte, avec des métriques issues de sources ouvertes.
 
-Objectif : aider à comparer et sélectionner des zones géographiques en France
-(communes, EPCI, départements…) selon des critères objectifs
-(loyers, population, accessibilité, agrégats, etc.).
+**Architecture** : Jamstack (données statiques + Next.js)  
+**Runtime** : aucun backend API, aucune base de données
 
-Ce dépôt est volontairement structuré pour :
+## Démarrage rapide
 
-- séparer strictement la logique métier, l’accès aux données et les adaptateurs
-- permettre une évolution progressive du POC vers un MVP
-- éviter toute dérive “spaghetti front / back”
+Pré-requis : Node.js ≥ 22, pnpm ≥ 10.
 
----
-
-## Structure du repo
-
-apps/
-  api/        # API HTTP (Fastify) – adaptateur uniquement
-  web/        # Frontend web (Next.js App Router)
-
-packages/
-  core/       # Logique métier pure, agrégats, règles, schémas
-  db/         # Accès base de données, migrations, repositories
-
-docs/         # Documentation technique et produit
-specs/        # Spécifications fonctionnelles et techniques
-tools/        # Outils batch / import (hors runtime)
-
----
-
-## Prérequis
-
-- Node.js ≥ 20
-- pnpm
-- Docker (pour Postgres en local)
-
----
-
-## Installation
-
+```bash
 pnpm install
-
----
-
-## Développement local
-
-### Base de données
-
-docker compose up -d
-
-### API
-
-pnpm --filter api dev
-
-### Frontend web (Next.js)
-
-```
-pnpm -C apps/web dev          # serveur de dev avec rechargement
-pnpm -C apps/web typecheck    # vérifie le typage strict
-pnpm -C apps/web lint         # lint React/TS
-pnpm -C apps/web build        # build de prod
-pnpm -C apps/web start        # serveur Next.js en mode prod
+pnpm export:static
+pnpm dev
 ```
 
----
+Ouvrir http://localhost:3000
+
+## Données
+
+- Les données sont générées au build par `packages/importer` dans `apps/web/public/data/vYYYY-MM-DD/`.
+- Le frontend lit la version active via `apps/web/public/data/current/manifest.json`, puis charge les fichiers depuis `/data/{datasetVersion}/...`.
+
+Fichiers actuellement consommés au runtime (voir `apps/web/lib/data/*`):
+- `communes/indexLite.json`
+- `communes/postalIndex.json`
+- `communes/metrics/core.json`
+- `communes/metrics/housing.json`
+- `infraZones/indexLite.json`
+
+## Config (runtime)
+
+Configuration statique servie par Next.js :
+- `apps/web/public/config/map-tiles.json` : sources tuilées + couche de labels interactive
+- `apps/web/public/config/app-debug.json` : options debug (dev-friendly)
 
 ## Documentation
 
-Voir docs/INDEX.md
+- `AGENTS.md` : règles techniques (source de vérité)
+- `docs/INDEX.md` : index + parcours de lecture
+- `docs/ARCHITECTURE.md` : architecture actuelle (basée sur le code)
+- `docs/DATA_PIPELINE.md` : génération des datasets statiques
 
----
-
-## Règles du projet
-
-Les règles techniques et architecturales non négociables sont définies dans :
-docs/AGENTS.md

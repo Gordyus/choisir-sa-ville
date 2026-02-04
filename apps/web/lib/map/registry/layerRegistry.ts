@@ -38,18 +38,8 @@ export const LAYER_IDS = {
     communesFill: "communes-fill",
     communesLine: "communes-line",
     arrMunicipalFill: "arr-municipal-fill",
-    arrMunicipalLine: "arr-municipal-line",
-    // Suffix for managed city label layers (appended to base layer ID)
-    MANAGED_CITY_LABEL_SUFFIX: "__managed"
+    arrMunicipalLine: "arr-municipal-line"
 } as const;
-
-// ============================================================================
-// Base OMT Label Layer IDs - OpenMapTiles place label layers to target
-// ============================================================================
-
-export const OMT_LABEL_LAYER_IDS = ["place_label_other", "place_label_city"] as const;
-
-export type OmtLabelLayerId = (typeof OMT_LABEL_LAYER_IDS)[number];
 
 // ============================================================================
 // Zoom Ranges - Visibility ranges for polygon layers
@@ -57,7 +47,7 @@ export type OmtLabelLayerId = (typeof OMT_LABEL_LAYER_IDS)[number];
 
 export const ZOOM_RANGES = {
     communes: { min: 11, max: 15 } as const,
-    arrMunicipal: { min: 13, max: 15 } as const
+    arrMunicipal: { min: 11, max: 15 } as const
 } as const;
 
 // ============================================================================
@@ -115,13 +105,6 @@ export const ADMIN_POLYGON_SPECS: Record<"communes" | "arrMunicipal", AdminPolyg
 // ============================================================================
 // Helpers
 // ============================================================================
-
-/**
- * Build a managed city label layer ID from a base layer ID
- */
-export function buildManagedCityLabelLayerId(baseLayerId: string): string {
-    return `${baseLayerId}${LAYER_IDS.MANAGED_CITY_LABEL_SUFFIX}`;
-}
 
 /**
  * Get all polygon fill layer IDs

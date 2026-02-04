@@ -1,220 +1,129 @@
-# AGENTS – Décisions structurantes (MVP / POC)
+# AGENTS – Règles techniques du projet
 
-Ce document est l’autorité technique et produit du projet.
-Il définit les règles NON NÉGOCIABLES pour le MVP.
-Tout agent (humain ou IA) doit s’y conformer strictement.
+Ce document définit les règles **NON NÉGOCIABLES** pour le développement du projet.
 
----
-
-In case of conflict, specs/*override docs/*
-
-## 1. Architecture générale
-
-- Monorepo PNPM obligatoire
-- Séparation stricte des responsabilités :
-
-apps/
-  api/                        # Adaptateur HTTP uniquement (Fastify)
-    CODEX_API_GUIDELINES.md   # Contient les règles de développement à appliquer
-  web/                        # Frontend Next.js + Tailwind + shadcn/ui
-    CODEX_WEB_GUIDELINES.md   # Contient les règles de développement à appliquer
-
-packages/
-  core/       # Logique métier pure, types, Zod (aucune infra)
-  db/         # Accès DB, Kysely, migrations, scripts CLI
-  importer/   # Pipelines d’import hors runtime API
-
-### Règles fondamentales
-
-- `packages/core` :
-  - ❌ aucun accès DB
-  - ❌ aucun code HTTP
-  - ❌ aucun code dépendant de l’hébergeur
-- `apps/api` :
-  - ❌ aucune logique métier
-  - ❌ aucun SQL direct
-  - ✅ orchestration + validation + mapping HTTP
-- `packages/db` :
-  - ✅ Kysely uniquement
-  - ✅ migrations obligatoires
-- `packages/importer` :
-  - ❌ jamais appelé depuis l’API
-  - ✅ pipelines batch uniquement
-- `specs/` : documents normatifs (doivent être respectés par le code)
-- `docs/` : documents explicatifs ou contextuels
+**Dernière mise à jour** : 4 février 2026  
+**Architecture** : Jamstack (données statiques + Next.js)
 
 ---
 
-## 2. Backend / Runtime
+## 1) Architecture générale
 
-- Node.js 20+ obligatoire
-- Fastify obligatoire
-- API stateless
+### Principe fondamental
 
-Interdits :
+Le projet utilise une **architecture statique** :
+- **Build time** : génération de datasets JSON depuis des sources ouvertes (INSEE, etc.)
+- **Runtime** : Next.js sert des fichiers statiques (données + config)
+- **Aucun backend API** applicatif, **aucune base de données** au runtime
 
-- Express
-- Cloudflare Workers runtime (pour le MVP)
-- Framework backend imposé par un hébergeur
+### Monorepo
 
----
+```
+choisir-sa-ville/
+├── packages/
+│   └── importer/           # Pipeline de génération (batch, build-time)
+├── apps/
+│   └── web/                # Next.js (frontend)
+│       └── public/
+│           ├── config/     # Config runtime (JSON)
+│           └── data/       # Datasets statiques versionnés
+├── docs/
+└── specs/
+```
 
-## 3. Frontend (NON NÉGOCIABLE)
+### Séparation des responsabilités (apps/web)
 
-### Framework
+**lib/selection/** (source de vérité de l’état)
+- TypeScript pur, sans dépendance React/MapLibre
+- Émet des événements (`highlight`, `active`) via subscribe
+- Type central : `EntityRef` (`commune` | `infraZone`)
 
-- `apps/web` est une application **Next.js** (React) avec **Tailwind CSS** + **shadcn/ui**
+**lib/data/** (lecture des datasets statiques)
+- Accès runtime basé sur `/data/current/manifest.json` → `datasetVersion`
+- Modules principaux : `communesIndexLite.ts`, `infraZonesIndexLite.ts`
+- La couche “EntityDataProvider” existe pour des évolutions (détails par entité), mais le flux actuel UI s’appuie sur les index lites
 
-Interdits :
+**lib/map/** (adaptateur carte)
+- Charge le style via `stylePipeline.ts` (sanitize + injection polygones + styling labels)
+- Gère interactions via `mapInteractionService.ts`
+- Met à jour `SelectionService` (pas de logique UI)
 
-- Vue
-- Svelte
-- Nuxt (le frontend est Next.js)
-
-### Règles frontend (générales)
-
-- Pas de logique métier lourde dans les composants UI
-- Éviter le coupling UI ↔ infra : typage explicite, séparation components / services (fetchers) / mapping
-- Requêtes réseau :
-  - debounced côté UI quand nécessaire
-  - requêtes annulées si obsolètes (AbortController)
-  - aucun spam réseau autorisé
-
-### Carte & Leaflet / OSM (NON NÉGOCIABLE)
-
-- Initialisation de la carte : une seule fois (montage)
-- Destruction propre : remove/unsubscribe à l’unmount
-- Événements carte :
-  - uniquement `moveend` et `zoomend`
-  - jamais `move`
-- Chargements basés viewport :
-  - debounce + annulation
-  - déduplication des requêtes identiques
-
-Objectif : stabilité, performance, comportement prévisible.
+**components/** (UI)
+- Aucune logique métier lourde
+- Consomme `SelectionService` (hooks) et `lib/data/*` pour charger les infos à afficher
 
 ---
 
-## 4. Modèle territorial (décision produit)
+## 2) Frontend (NON NÉGOCIABLE)
 
-Hiérarchie officielle :
+### Stack obligatoire
 
-Pays
- └── Région
-     └── Département
-         └── Commune (pivot garanti)
-             └── Zone infra-communale (optionnelle)
-                 └── Adresse / Point
+- Next.js (App Router)
+- Tailwind CSS
+- shadcn/ui (components dans `apps/web/components/ui/`)
+- MapLibre GL JS
 
-### Correspondance INSEE
+Interdits : autre framework UI, autre framework CSS, état global React “gratuit”.
 
-- COM → Commune
-- ARM → Arrondissement municipal
-- COMD → Commune déléguée
-- COMA → Commune associée
+### Carte MapLibre – règles
 
-### Décisions clés
+**Init / cleanup**
+- Initialisation une seule fois au montage
+- Cleanup complet à l’unmount : `map.remove()`
 
-- La commune est l’unité pivot.
-- Les zones infra :
-  - ne sont jamais des communes
-  - sont toujours rattachées à une commune parente
-- Les ARM sont prioritaires pour logement / sécurité / qualité de vie.
+**Événements de viewport**
+- Pour tout traitement déclenché par un changement de viewport : **`moveend` + `zoomend` uniquement**
+- **Jamais** `move` pour du traitement continu (spam)
+
+**Pointer events**
+- Autorisés (ex: `mousemove`, `click`) pour l’interaction label-first
+
+**Interactions (label-first)**
+- Chaque interaction commence par `queryRenderedFeatures(point, { layers: [labelLayerId] })`
+- Résolution d’entité : nom normalisé → candidates (index lite) → nearest par distance
+
+**Feature-state**
+- Vocabulaire strict (labels) : `hasData`, `highlight`, `active`
+- Le style applique la priorité : `active > highlight > hasData > default`
+
+---
+
+## 3) Données (décisions produit)
+
+Hiérarchie :
+
+Pays → Région → Département → Commune (pivot) → Zone infra (optionnelle)
+
+Règle : une zone infra n’existe jamais sans commune parente (ARM/COMD/COMA).
 
 Voir `docs/LOCALITY_MODEL.md`.
 
 ---
 
-## 5. Base de données
+## 4) Pipeline de données (packages/importer)
 
-- PostgreSQL uniquement
-- Accès via Kysely
-- Migrations obligatoires
+- Batch Node.js, jamais appelé au runtime
+- Produit un dataset versionné `vYYYY-MM-DD`
+- Met à jour le pointeur runtime : `apps/web/public/data/current/manifest.json`
 
-### Naming conventions (NON NÉGOCIABLE)
-
-- camelCase partout :
-  - DB
-  - TypeScript
-  - API JSON
-
-Exemples :
-
-- inseeCode
-- parentCommuneCode
-
-Interdits :
-
-- snake_case
-- mapping implicite DB ↔ code
-
-Objectif : zéro friction DB / code / API.
+Commande :
+```bash
+pnpm --filter @choisir-sa-ville/importer export:static
+```
 
 ---
 
-## 6. Import de données
+## 5) Conventions
 
-- Tous les imports passent par `packages/importer`
-- Jamais depuis l’API
-- Imports :
-  - idempotents
-  - batchés
-  - rejouables
+- TypeScript strict (pas de `any` sans justification)
+- camelCase partout dans le code
+- Données : les fichiers “indexLite” sont optimisés (colonnes courtes comme `insee`, `lng`), c’est une exception assumée
 
 ---
 
-## 7. Configuration & environnement
+## 6) Qualité
 
-- Variables d’environnement uniquement
-- `.env.example` à jour
-- Aucun secret en dur
+- `pnpm typecheck` doit passer
+- `pnpm lint:eslint` doit passer (0 warning)
+- Tests : requis pour la logique critique lorsque présents (selection, indexes, importer)
 
-Scripts CLI :
-
-- compatibles Windows
-- indépendants de l’API
-
----
-
-## 8. Validation & typage
-
-- TypeScript strict
-- Zod obligatoire
-- Erreurs conformes à `API_CONTRACT.md`
-
----
-
-## 9. Portabilité
-
-- API déployable sur VPS / Docker / cloud standard
-- Front déployable indépendamment
-
-Interdits :
-
-- dépendances Cloudflare (Workers, D1, KV)
-- hypothèses infra dans le code métier
-
----
-
-## 10. Règles de contribution (humain & IA)
-
-Avant toute implémentation :
-
-1. Respecter ce document
-2. Respecter `API_CONTRACT.md`
-3. Respecter `LOCALITY_MODEL.md`
-4. Respecter les frontières de packages
-
-Tout code non conforme doit être corrigé ou refusé.
-
----
-
-## 11. Philosophie MVP
-
-- Lisibilité > abstraction prématurée
-- Portabilité > confort infra
-- Simplicité > sur-architecture
-
-> La commune est le socle.  
-> Les zones infra apportent la précision.  
-> Ne jamais aplatir les données au mauvais niveau.

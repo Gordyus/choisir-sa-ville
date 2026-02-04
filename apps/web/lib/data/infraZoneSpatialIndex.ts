@@ -107,6 +107,39 @@ export async function resolveInfraZoneByClick(
     };
 }
 
+export async function resolveNearestInfraZoneByDistance(
+    lng: number,
+    lat: number,
+    signal?: AbortSignal
+): Promise<ResolveInfraZoneByClickResult | null> {
+    if (!Number.isFinite(lng) || !Number.isFinite(lat)) {
+        return null;
+    }
+
+    const { zones, grid } = await loadSpatialContext(signal);
+    const candidates = collectSpatialCandidates(zones, grid, lng, lat);
+    if (!candidates.length) {
+        return null;
+    }
+
+    const sorted = sortCandidatesByScore(candidates);
+    const best = sorted[0] ?? null;
+    if (!best) {
+        return null;
+    }
+
+    if (!Number.isFinite(best.distanceKm) || best.distanceKm > MAX_DISTANCE_KM) {
+        return null;
+    }
+
+    return {
+        id: best.entry.id,
+        distanceKm: best.distanceKm,
+        reason: "distance",
+        entry: best.entry
+    };
+}
+
 async function loadSpatialContext(signal?: AbortSignal): Promise<SpatialContext> {
     const zones = await loadInfraZonesIndexLite(signal);
     const [grid, nameIndex] = await Promise.all([

@@ -30,8 +30,18 @@ export async function fetchJson<T>(url: string, signal?: AbortSignal): Promise<T
 /**
  * Load a MapLibre style specification from a URL
  */
-export async function loadStyle(styleUrl: string, signal?: AbortSignal): Promise<StyleSpecification> {
-    return fetchJson<StyleSpecification>(styleUrl, signal);
+ export async function loadStyle(styleUrl: string, signal?: AbortSignal): Promise<StyleSpecification | null> {
+    try {
+        return await fetchJson<StyleSpecification>(styleUrl, signal);
+    } catch (error) {
+        if (process.env.NODE_ENV === "development") {
+            console.warn(
+                `[style-loader] Failed to fetch ${styleUrl}. Map will fall back to a minimal style.`,
+                error
+            );
+        }
+        return null;
+    }
 }
 
 /**

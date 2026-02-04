@@ -1,14 +1,18 @@
+/**
+ * Right Panel Component
+ *
+ * Displays analysis and details about the current selection.
+ * Uses SelectionService - NO dependency on map components.
+ */
+
 import type { HTMLAttributes } from "react";
 
 import RightPanelDetailsCard from "@/components/right-panel-details-card";
-import type { MapSelection } from "@/lib/map/mapSelection";
 import { cn } from "@/lib/utils";
 
-type RightPanelProps = HTMLAttributes<HTMLDivElement> & {
-    selection?: MapSelection | null;
-};
+type RightPanelProps = HTMLAttributes<HTMLDivElement>;
 
-export default function RightPanel({ className, selection, ...props }: RightPanelProps): JSX.Element {
+export default function RightPanel({ className, ...props }: RightPanelProps): JSX.Element {
     return (
         <section
             className={cn(
@@ -33,7 +37,7 @@ export default function RightPanel({ className, selection, ...props }: RightPane
                         seront automatiquement annulées avant d&apos;être relancées.
                     </div>
                 </div>
-                <RightPanelDetailsCard className="w-full lg:mt-auto lg:flex-1" selection={selection ?? null} />
+                <RightPanelDetailsCard className="w-full lg:mt-auto lg:flex-1" />
             </div>
         </section>
     );

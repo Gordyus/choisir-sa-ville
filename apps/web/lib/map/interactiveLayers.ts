@@ -13,7 +13,7 @@ import { FEATURE_FIELDS } from "./registry/layerRegistry";
 
 /**
  * Minimal identity extracted from a map label feature.
- * Used for hover/selection interactions.
+ * Used for highlight/active interactions.
  */
 export type LabelIdentity = {
     /** Feature ID from tile source (stable) */

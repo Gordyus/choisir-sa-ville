@@ -80,7 +80,7 @@ cypress/screenshots/
 *.swo
 *.bak
 /.pgdata
-
+*.tsbuildinfo
 
 packages/db/migrations/*.js
 packages/db/migrations/*.d.ts

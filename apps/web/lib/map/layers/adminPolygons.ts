@@ -31,7 +31,7 @@ import {
     COMMUNE_COLORS,
     COMMUNE_LINE_WIDTH,
     COMMUNE_OPACITY
-} from "./hoverState";
+} from "./highlightState";
 
 const warnedMissingSources = new Set<string>();
 
@@ -213,7 +213,7 @@ function buildCommuneLineLayer(spec: ResolvedSpec): LineLayerSpecification {
         paint: {
             "line-color": buildLineColorExpr(COMMUNE_COLORS.line),
             "line-opacity": buildLineOpacityExpr(COMMUNE_OPACITY.line),
-            "line-width": buildLineWidthExpr(0, COMMUNE_LINE_WIDTH.hover, COMMUNE_LINE_WIDTH.selected)
+            "line-width": buildLineWidthExpr(0, COMMUNE_LINE_WIDTH.highlight, COMMUNE_LINE_WIDTH.active)
         }
     };
 }
@@ -244,7 +244,7 @@ function buildArrMunicipalLineLayer(spec: ResolvedSpec): LineLayerSpecification 
         paint: {
             "line-color": buildLineColorExpr(ARR_MUNICIPAL_COLORS.line),
             "line-opacity": buildLineOpacityExpr(ARR_MUNICIPAL_OPACITY.line),
-            "line-width": buildLineWidthExpr(0, ARR_MUNICIPAL_LINE_WIDTH.hover, ARR_MUNICIPAL_LINE_WIDTH.selected)
+            "line-width": buildLineWidthExpr(0, ARR_MUNICIPAL_LINE_WIDTH.highlight, ARR_MUNICIPAL_LINE_WIDTH.active)
         }
     };
 }

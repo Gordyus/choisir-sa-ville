@@ -1,5 +1,18 @@
 "use client";
 
+/**
+ * Vector Map Component
+ *
+ * Displays the interactive map with city labels.
+ * Does NOT manage selection state - delegates to EntityStateService.
+ *
+ * ARCHITECTURE:
+ * - Map interactions -> mapInteractionService -> EntityStateService
+ * - Entity graphics binding -> entityGraphicsBinder -> setFeatureState
+ * - This component only handles map rendering and cleanup
+ * - No onSelect prop - consumers use useSelection() hook
+ */
+
 import "maplibre-gl/dist/maplibre-gl.css";
 
 import maplibregl, { Map as MapLibreMap, NavigationControl } from "maplibre-gl";
@@ -7,32 +20,35 @@ import { useEffect, useRef, useState } from "react";
 
 import { MapDebugOverlay } from "@/components/map-debug-overlay";
 import { loadAppConfig, type AppConfig } from "@/lib/config/appConfig";
-import {
-    ensureCityHighlightLayer,
-    removeCityHighlightLayer,
-    setHoveredCity,
-    setSelectedCity,
-    type CityHighlightHandle
-} from "@/lib/map/cityHighlightLayers";
-import { debugLogSymbolLabelHints } from "@/lib/map/interactiveLayers";
+import { attachEntityGraphicsBinder } from "@/lib/map/entityGraphicsBinder";
 import { attachMapInteractionService } from "@/lib/map/mapInteractionService";
-import type { MapSelection } from "@/lib/map/mapSelection";
 import { loadMapStyle } from "@/lib/map/style/stylePipeline";
 import { cn } from "@/lib/utils";
+
+// ============================================================================
+// Constants
+// ============================================================================
 
 const INITIAL_CENTER: [number, number] = [2.2137, 46.2276];
 const INITIAL_ZOOM = 5;
 
+// ============================================================================
+// Types
+// ============================================================================
+
 interface VectorMapProps {
     className?: string;
-    onSelect?: (selection: MapSelection) => void;
 }
 
-export default function VectorMap({ className, onSelect }: VectorMapProps): JSX.Element {
+// ============================================================================
+// Component
+// ============================================================================
+
+export default function VectorMap({ className }: VectorMapProps): JSX.Element {
     const containerRef = useRef<HTMLDivElement | null>(null);
     const mapRef = useRef<MapLibreMap | null>(null);
     const detachInteractionsRef = useRef<(() => void) | null>(null);
-    const highlightHandleRef = useRef<CityHighlightHandle | null>(null);
+    const detachBinderRef = useRef<(() => void) | null>(null);
     const debugZoomCleanupRef = useRef<(() => void) | null>(null);
     const [debugZoom, setDebugZoom] = useState<number | null>(null);
     const [debugOverlayEnabled, setDebugOverlayEnabled] = useState(false);
@@ -49,9 +65,7 @@ export default function VectorMap({ className, onSelect }: VectorMapProps): JSX.
             try {
                 const appConfig = await loadAppConfig(controller.signal);
                 const style = await loadMapStyle(appConfig.mapTiles, controller.signal);
-                if (appConfig.debug.enabled && appConfig.debug.logStyleHints) {
-                    debugLogSymbolLabelHints(style);
-                }
+
                 if (disposed || !containerRef.current) {
                     return;
                 }
@@ -68,17 +82,25 @@ export default function VectorMap({ className, onSelect }: VectorMapProps): JSX.
                 });
 
                 mapRef.current = map;
-                if (process.env.NODE_ENV === "development")
-                    (window as any).map = map
+
+                // Debug access in development
+                if (process.env.NODE_ENV === "development") {
+                    (window as unknown as { map?: MapLibreMap }).map = map;
+                }
+
+                // Apply debug settings
                 if (appConfig.debug.enabled) {
                     (map as unknown as { showTileBoundaries?: boolean }).showTileBoundaries =
                         appConfig.debug.showTileBoundaries;
                     (map as unknown as { showCollisionBoxes?: boolean }).showCollisionBoxes =
                         appConfig.debug.showCollisionBoxes;
                 }
+
+                // Add controls
                 map.addControl(new NavigationControl({ visualizePitch: true }), "top-right");
                 map.addControl(new maplibregl.AttributionControl({ compact: true }), "bottom-right");
 
+                // Debug zoom tracking
                 const handleZoomChange = (): void => {
                     setDebugZoom(Number(map.getZoom().toFixed(2)));
                 };
@@ -88,8 +110,9 @@ export default function VectorMap({ className, onSelect }: VectorMapProps): JSX.
                     map.off("zoomend", handleZoomChange);
                 };
 
+                // Setup interactions once map is loaded
                 map.once("load", () => {
-                    void setupInteractions(map, appConfig);
+                    setupInteractions(map, appConfig);
                 });
             } catch (error) {
                 if (!(error instanceof DOMException && error.name === "AbortError")) {
@@ -100,42 +123,22 @@ export default function VectorMap({ className, onSelect }: VectorMapProps): JSX.
 
         function setupInteractions(map: MapLibreMap, appConfig: AppConfig): void {
             const debug = appConfig.debug.enabled ?? false;
+
             if (debug && appConfig.debug.logStyleHints) {
                 logStyleLayerCatalog(map);
             }
 
-            const highlightHandle = ensureCityHighlightLayer(map);
-            highlightHandleRef.current = highlightHandle;
-            if (!highlightHandle) {
-                console.warn("[vector-map] City highlight layer unavailable; hover highlight disabled.");
-            }
+            // Attach interaction service - handles user interactions and EntityStateService updates
+            const interactionResult = attachMapInteractionService(map, {
+                debug,
+                labelLayerId: appConfig.mapTiles.interactableLabelLayerId
+            });
+            detachInteractionsRef.current = interactionResult.cleanup;
 
-            detachInteractionsRef.current = attachMapInteractionService(map, (event) => {
-                const handle = highlightHandleRef.current;
-                switch (event.type) {
-                    case "hover":
-                        if (handle) {
-                            setHoveredCity(map, handle, event.featureStateTarget);
-                        }
-                        break;
-                    case "hoverLeave":
-                        if (handle) {
-                            setHoveredCity(map, handle, null);
-                        }
-                        break;
-                    case "select":
-                        if (handle) {
-                            setSelectedCity(map, handle, event.featureStateTarget);
-                        }
-                        onSelect?.(event.selection);
-                        break;
-                    case "selectClear":
-                        if (handle) {
-                            setSelectedCity(map, handle, null);
-                        }
-                        break;
-                }
-            }, { debug });
+            // Attach graphics binder - handles setFeatureState for highlight/active on labels and polygons
+            detachBinderRef.current = attachEntityGraphicsBinder(map, {
+                getLabelTargetForEntity: interactionResult.getLabelTargetForEntity
+            });
         }
 
         void initMap();
@@ -143,15 +146,15 @@ export default function VectorMap({ className, onSelect }: VectorMapProps): JSX.
         return () => {
             disposed = true;
             controller.abort();
+            detachBinderRef.current?.();
+            detachBinderRef.current = null;
             detachInteractionsRef.current?.();
             detachInteractionsRef.current = null;
             debugZoomCleanupRef.current?.();
             debugZoomCleanupRef.current = null;
             setDebugZoom(null);
             setDebugOverlayEnabled(false);
-            highlightHandleRef.current = null;
             if (mapRef.current) {
-                removeCityHighlightLayer(mapRef.current);
                 mapRef.current.remove();
                 mapRef.current = null;
             }
@@ -165,6 +168,10 @@ export default function VectorMap({ className, onSelect }: VectorMapProps): JSX.
         </div>
     );
 }
+
+// ============================================================================
+// Debug Helpers
+// ============================================================================
 
 function logStyleLayerCatalog(map: MapLibreMap): void {
     const style = map.getStyle();
