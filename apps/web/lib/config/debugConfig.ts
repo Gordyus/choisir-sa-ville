@@ -47,6 +47,13 @@ export async function loadDebugConfigOnce(signal?: AbortSignal): Promise<DebugCo
 }
 
 async function resolveDebugConfig(signal?: AbortSignal): Promise<DebugConfig> {
+    // This config is meant for client-side diagnostics.
+    // On the server (SSR/RSC), a relative URL cannot be fetched without a base origin.
+    // Defaulting silently avoids noisy warnings during SSR.
+    if (typeof window === "undefined") {
+        return DEFAULT_CONFIG;
+    }
+
     const url = "/config/app-debug.json";
 
     try {

@@ -19,12 +19,51 @@ Le runtime ne “devine” pas la version à charger : il lit un pointeur statiq
 
 Code : `apps/web/lib/data/communesIndexLite.ts`, `apps/web/lib/data/infraZonesIndexLite.ts`.
 
-Fichiers consommés aujourd’hui :
+Fichiers consommés aujourd'hui :
 - `communes/indexLite.json` : index compressé (colonnes + rows)
 - `infraZones/indexLite.json` : index compressé
 - `communes/postalIndex.json` : mapping postal (usage futur/tech)
 - `communes/metrics/*` : métriques au niveau commune (JSON)
 - `manifest.json` : méta + sources (dans chaque version)
+
+### Fichiers par niveau géographique
+
+Les métriques sont organisées par niveau géo sous des sous-dossiers dédiés :
+
+```
+communes/metrics/           — métriques au niveau commune
+departements/metrics/       — métriques au niveau département (futur)
+regions/metrics/            — métriques au niveau région (futur)
+```
+
+Chaque agrégat de métriques possède son propre sous-dossier (ex : `communes/metrics/insecurity/`), contenant :
+- un fichier `meta.json` qui déclare le niveau géo et la stratégie de fallback
+- un fichier `{year}.json` par année de données disponible
+
+### Pattern `meta.json` — `geoLevel` et `fallbackChain`
+
+Chaque `meta.json` d'agrégat décrit :
+- `geoLevel` : le niveau géographique des données (ex : `"commune"`)
+- `fallbackChain` : liste ordonnée des niveaux parents vers lesquels le runtime peut remonter si la donnée est absente à ce niveau (ex : `["department", "region"]`)
+
+Le runtime résout les données pour une entité en remontant la chaîne de fallback declarée dans `meta.json`. Cette résolution se fait au runtime, pas au build time — les données ne sont jamais dupliquées.
+
+Exemple pour l'agrégat insécurité au niveau commune :
+```json
+{
+  "geoLevel": "commune",
+  "fallbackChain": []
+}
+```
+`fallbackChain` vide signifie que si la commune n'a pas de donnée, aucun fallback n'est tenté (la valeur reste `null`). Dans le futur, un agrégat au niveau IRIS pourrait fallback vers la commune puis vers le département.
+
+### Agrégats connus
+
+| Agrégat | Dossier | Status |
+|---|---|---|
+| Insécurité (SSMSI) | `communes/metrics/insecurity/` | V1 — en cours |
+| Core (INSEE) | `communes/metrics/core.json` | Actif |
+| Housing | `communes/metrics/housing.json` | Actif |
 
 ### 2) Config runtime (JSON)
 

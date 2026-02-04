@@ -21,7 +21,12 @@ apps/web/public/data/
     │   ├── postalIndex.json
     │   └── metrics/
     │       ├── core.json
-    │       └── housing.json
+    │       ├── housing.json
+    │       └── insecurity/
+    │           ├── meta.json
+    │           ├── 2021.json
+    │           ├── 2022.json
+    │           └── 2023.json
     └── infraZones/
         └── indexLite.json
 ```

@@ -3,7 +3,8 @@
     "allow": [
       "Bash(pnpm typecheck:*)",
       "Bash(pnpm lint:eslint:*)",
-      "Bash(npx eslint:*)"
+      "Bash(npx eslint:*)",
+      "WebSearch"
     ]
   }
 }

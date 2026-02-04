@@ -10,7 +10,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const packageRoot = path.resolve(__dirname, "../../..");
 const cacheDir = path.resolve(packageRoot, ".cache");
 
-export async function downloadFile(url: string): Promise<SourceMeta & { fromCache: boolean }> {
+export async function downloadFile(url: string, { cacheTtlMs }: { cacheTtlMs?: number } = {}): Promise<SourceMeta & { fromCache: boolean }> {
     await ensureDir(cacheDir);
     const urlObj = new URL(url);
     const hashPrefix = sha256FromString(url).slice(0, 16);
@@ -19,14 +19,18 @@ export async function downloadFile(url: string): Promise<SourceMeta & { fromCach
 
     try {
         const fileStat = await stat(filePath);
-        const checksumSha256 = await sha256FromFile(filePath);
-        return {
-            url,
-            filePath,
-            retrievedAtUtc: fileStat.mtime.toISOString(),
-            checksumSha256,
-            fromCache: true
-        };
+        if (cacheTtlMs !== undefined && Date.now() - fileStat.mtimeMs > cacheTtlMs) {
+            console.info(`[downloadFile] Cache expired for ${basename} (TTL ${cacheTtlMs}ms) — re-downloading.`);
+        } else {
+            const checksumSha256 = await sha256FromFile(filePath);
+            return {
+                url,
+                filePath,
+                retrievedAtUtc: fileStat.mtime.toISOString(),
+                checksumSha256,
+                fromCache: true
+            };
+        }
     } catch {
         // Cache miss, fall through to download.
     }

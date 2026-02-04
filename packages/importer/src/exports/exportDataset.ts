@@ -6,13 +6,7 @@ import { exportMetricsCore } from "./communes/exportMetricsCore.js";
 import { exportMetricsHousing } from "./communes/exportMetricsHousing.js";
 import { exportPostalIndex } from "./communes/exportPostalIndex.js";
 import { exportInfraZonesIndexLite } from "./infra-zones/exportIndexLite.js";
-import {
-    DEFAULT_DEPARTMENT_SOURCE_URL,
-    DEFAULT_POPULATION_REFERENCE_SOURCE_URL,
-    DEFAULT_POSTAL_SOURCE_URL,
-    DEFAULT_REGION_SOURCE_URL,
-    DEFAULT_SOURCE_URL
-} from "./constants.js";
+import { SOURCE_URLS, type SourceKey } from "./constants.js";
 import { downloadFile } from "./shared/downloadFile.js";
 import { ensureDir, writeJsonAtomic } from "./shared/fileSystem.js";
 import { parseCsv, parseCsvFile, type CsvRecord } from "./shared/parseCsv.js";
@@ -29,12 +23,12 @@ async function main(): Promise<void> {
 
     const sources = await downloadSources();
     const [communeRecords, regionRecords, departmentRecords, postalRecordsRaw] = await Promise.all([
-        parseCsvFile(sources[0].filePath),
-        parseCsvFile(sources[1].filePath),
-        parseCsvFile(sources[2].filePath),
-        parseCsvFile(sources[3].filePath)
+        parseCsvFile(sources.communes.filePath),
+        parseCsvFile(sources.regions.filePath),
+        parseCsvFile(sources.departments.filePath),
+        parseCsvFile(sources.postal.filePath)
     ]);
-    const populationCsv = await readZipEntryText(sources[4].filePath, "donnees_communes.csv");
+    const populationCsv = await readZipEntryText(sources.populationRef.filePath, "donnees_communes.csv");
     const populationRecords = parseCsv(populationCsv);
 
     const departmentRegionMap = buildDepartmentRegionMap(departmentRecords);
@@ -65,7 +59,7 @@ async function main(): Promise<void> {
     files.push(await exportMetricsCore({ context, communes }));
     files.push(await exportMetricsHousing({ context, communes }));
 
-    await writeManifest({ datasetDir, datasetVersion, files, sources });
+    await writeManifest({ datasetDir, datasetVersion, files, sources: Object.values(sources) });
     await writeCurrentManifest({ currentManifestPath, datasetVersion, files });
 
     console.info(
@@ -90,15 +84,12 @@ async function resolveDatasetDir(datasetVersion: string): Promise<{
     return { datasetDir, currentManifestPath };
 }
 
-async function downloadSources(): Promise<[SourceMeta, SourceMeta, SourceMeta, SourceMeta, SourceMeta]> {
-    const sources = await Promise.all([
-        downloadFile(DEFAULT_SOURCE_URL),
-        downloadFile(DEFAULT_REGION_SOURCE_URL),
-        downloadFile(DEFAULT_DEPARTMENT_SOURCE_URL),
-        downloadFile(DEFAULT_POSTAL_SOURCE_URL),
-        downloadFile(DEFAULT_POPULATION_REFERENCE_SOURCE_URL)
-    ]);
-    return sources as [SourceMeta, SourceMeta, SourceMeta, SourceMeta, SourceMeta];
+async function downloadSources(): Promise<Record<SourceKey, SourceMeta>> {
+    const entries = Object.entries(SOURCE_URLS) as [SourceKey, string][];
+    const pairs = await Promise.all(
+        entries.map(async ([key, url]) => [key, await downloadFile(url)] as const)
+    );
+    return Object.fromEntries(pairs) as unknown as Record<SourceKey, SourceMeta>;
 }
 
 function computeDatasetVersion(referenceDate = new Date()): string {

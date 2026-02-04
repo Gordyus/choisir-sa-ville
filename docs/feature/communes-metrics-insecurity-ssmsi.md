@@ -188,13 +188,91 @@ Le nom du fichier cache commence par un hash de l’URL, suivi du basename de l�
 Pour “forcer” un re-téléchargement de la ressource SSMSI, supprimer le fichier cache correspondant (exemple PowerShell, à adapter selon le nom exact présent sur la machine) :
 - `Get-ChildItem packages\\importer\\.cache | Where-Object Name -match \"98fd2271\" | Remove-Item -Force`
 
+## Familles d'insécurité et indice global
+
+### Les 3 familles
+
+Les 3 taux thématiques correspondent à 3 familles d'insécurité :
+
+| Famille | Clé de sortie | Contenu |
+|---|---|---|
+| Sécurité des personnes | `violencesPersonnesPer1000` | Violences physiques, agressions, violences sexuelles, vols avec violence |
+| Sécurité des biens | `securiteBiensPer1000` | Cambriolages, vols sans violence, vols de véhicules, vols dans véhicules |
+| Tranquillité publique | `tranquillitePer1000` | Dégradations, destructions, incendies volontaires, incivilités |
+
+### Indice global — formule
+
+L'indice global est une moyenne pondérée des 3 taux, puis normalisée en [0..100] par rang percentile national.
+
+**Poids** :
+
+| Famille | Poids |
+|---|---|
+| Sécurité des personnes | 0.40 |
+| Sécurité des biens | 0.35 |
+| Tranquillité publique | 0.25 |
+
+Justification des poids : les violences contre les personnes sont le critère le plus significatif pour la qualité de vie perçue selon les enquêtes victimisation françaises (ECSV). Les vols et cambriolages sont très parlants pour les habitants mais moins graves statistiquement. Les incivilités impactent la perception quotidienne mais sont moins corrélées au sentiment d'insécurité fort.
+
+**Formule** :
+```
+scoreRaw = 0.40 * violencesPersonnesPer1000
+         + 0.35 * securiteBiensPer1000
+         + 0.25 * tranquillitePer1000
+
+indexGlobal = round(100 * percentile_rank(scoreRaw, distribution_nationale))
+```
+
+Si une famille est `null` pour une commune, elle est exclue et les poids restants sont renormalisés (somme = 1). Si les 3 familles sont `null`, l'indice global est `null`.
+
+La colonne `indexGlobal` (entier 0–100) est ajoutée dans chaque fichier `{year}.json`.
+
+---
+
+## Niveaux d'affichage
+
+L'indice global est traduit en 4 niveaux pour l'affichage UI (badge + coloration carte). Les seuils sont basés sur les quartiles de la distribution nationale de `indexGlobal` pour chaque année.
+
+| Niveau | Plage `indexGlobal` | Couleur |
+|---|---|---|
+| Faible | 0–24 | Vert |
+| Modéré | 25–49 | Ambre / jaune |
+| Élevé | 50–74 | Orange |
+| Très élevé | 75–100 | Rouge |
+
+Les seuils sont baked au build time dans `meta.json` (pas de calcul percentile au runtime). Le fichier `meta.json` documente les seuils effectifs utilisés pour chaque année.
+
+---
+
+## UX — badge et coloration carte
+
+### Badge sur les cards d'entité
+
+Un badge shadcn/ui est affiché sur chaque card d'entité, montrant le niveau global (faible / modéré / élevé / très élevé) avec le code couleur ci-dessus. Si l'entité n'a pas de donnée, le badge n'est pas affiché.
+
+Le badge est **entité-centric** : il fonctionne pour toute entité (commune, infraZone, futur quartier). Pour une infraZone, la donnée est résolue via la commune parente (héritage géographique, voir `docs/LOCALITY_MODEL.md`).
+
+### Coloration des polygones sur la carte
+
+Une option (toggle) permet de colorer les polygones communes selon leur niveau d'insécurité global, avec la même palette que le badge. Les entités sans donnée gardent leur couleur par défaut.
+
+Cette coloration est une couche de style sur les polygones, indépendante du mécanisme de feature-state (`highlight` / `active`) géré par `EntityGraphicsBinder`.
+
+---
+
+## Lien avec la spec zone-level
+
+Les taux et l'indice global produits par cet agrégat sont l'**entrée** pour l'agrégat zone-level décrit dans `specs/zone-safety-insecurity-index-spec.md`. Cette spec définit comment ces valeurs commune-level sont agrégées vers un niveau zone plus coarse (via pondération population), puis exposées à l'utilisateur.
+
+---
+
 ## Intégration au pipeline
 
 Le pipeline existant est orchestré par :
 - `packages/importer/src/exports/exportDataset.ts` via `pnpm --filter @choisir-sa-ville/importer export:static`
 
-L’intégration attendue de cet agrégat :
-- téléchargement SSMSI ajouté aux sources du manifest versionné,
+L'intégration attendue de cet agrégat :
+- téléchargement SSMSI ajouté aux sources du manifest versionné (clé `ssmsi` dans `SOURCE_URLS`),
 - export des fichiers `communes/metrics/insecurity/...`,
 - ajout des nouveaux chemins dans `files[]` du manifest.
 
