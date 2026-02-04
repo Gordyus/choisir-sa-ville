@@ -4,6 +4,7 @@ import { readFile } from "node:fs/promises";
 import { exportIndexLite } from "./communes/exportIndexLite.js";
 import { exportMetricsCore } from "./communes/exportMetricsCore.js";
 import { exportMetricsHousing } from "./communes/exportMetricsHousing.js";
+import { exportMetricsInsecurity } from "./communes/metrics/insecurity/exportMetricsInsecurity.js";
 import { exportPostalIndex } from "./communes/exportPostalIndex.js";
 import { exportInfraZonesIndexLite } from "./infra-zones/exportIndexLite.js";
 import { SOURCE_URLS, type SourceKey } from "./constants.js";
@@ -58,6 +59,14 @@ async function main(): Promise<void> {
     files.push(await exportPostalIndex({ context, postalRecords }));
     files.push(await exportMetricsCore({ context, communes }));
     files.push(await exportMetricsHousing({ context, communes }));
+    files.push(
+        ...(await exportMetricsInsecurity({
+            context,
+            communes,
+            populationByInsee,
+            ssmsiSource: sources.ssmsi
+        }))
+    );
 
     await writeManifest({ datasetDir, datasetVersion, files, sources: Object.values(sources) });
     await writeCurrentManifest({ currentManifestPath, datasetVersion, files });
@@ -87,7 +96,13 @@ async function resolveDatasetDir(datasetVersion: string): Promise<{
 async function downloadSources(): Promise<Record<SourceKey, SourceMeta>> {
     const entries = Object.entries(SOURCE_URLS) as [SourceKey, string][];
     const pairs = await Promise.all(
-        entries.map(async ([key, url]) => [key, await downloadFile(url)] as const)
+        entries.map(async ([key, url]) => {
+            const cacheTtlMs = key === "ssmsi" ? 90 * 24 * 60 * 60 * 1000 : undefined;
+            if (typeof cacheTtlMs === "number") {
+                return [key, await downloadFile(url, { cacheTtlMs })] as const;
+            }
+            return [key, await downloadFile(url)] as const;
+        })
     );
     return Object.fromEntries(pairs) as unknown as Record<SourceKey, SourceMeta>;
 }

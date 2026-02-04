@@ -1,0 +1,542 @@
+import path from "node:path";
+import { readFile } from "node:fs/promises";
+
+import { asyncBufferFromFile, parquetMetadataAsync, parquetReadObjects, parquetSchema } from "hyparquet";
+import { compressors } from "hyparquet-compressors";
+
+import { SOURCE_URLS } from "../../../constants.js";
+import { writeJsonAtomic } from "../../../shared/fileSystem.js";
+import type { ExportCommune, ExportContext, SourceMeta } from "../../../shared/types.js";
+
+const OUTPUT_COLUMNS = [
+    "insee",
+    "population",
+    "violencesPersonnesPer1000",
+    "securiteBiensPer1000",
+    "tranquillitePer1000",
+    "indexGlobal"
+] as const;
+
+type MetricGroup = "violencesPersonnes" | "securiteBiens" | "tranquillite";
+
+type MappingFileV1 = {
+    version: 1;
+    categoryKeyColumn: string | null;
+    columns?: { insee?: string | null; year?: string | null; facts?: string | null };
+    groups: Record<MetricGroup, string[]>;
+};
+
+type ExportMetricsInsecurityParams = {
+    context: ExportContext;
+    communes: ExportCommune[];
+    populationByInsee: Map<string, number>;
+    ssmsiSource: SourceMeta;
+};
+
+type GroupAccumulator = {
+    sumFacts: number;
+    rows: number;
+};
+
+type CommuneYearAcc = {
+    violencesPersonnes: GroupAccumulator;
+    securiteBiens: GroupAccumulator;
+    tranquillite: GroupAccumulator;
+};
+
+type UnmappedCounter = Map<string, number>;
+
+export async function exportMetricsInsecurity({
+    context,
+    communes,
+    populationByInsee,
+    ssmsiSource
+}: ExportMetricsInsecurityParams): Promise<string[]> {
+    const generatedAtUtc = new Date().toISOString();
+    const mapping = await loadMapping();
+
+    const targetDir = path.join(context.datasetDir, "communes", "metrics", "insecurity");
+
+    const file = await asyncBufferFromFile(ssmsiSource.filePath);
+
+    const metadata = await parquetMetadataAsync(file);
+    const schema = parquetSchema(metadata);
+    const columnNames = schema.children.map((e) => e.element.name);
+
+    const inseeColumn = resolveColumn(columnNames, mapping.columns?.insee, [
+        "insee",
+        "codgeo",
+        "code_commune",
+        "com",
+        "codeinsee"
+    ]);
+    const yearColumn = resolveColumn(columnNames, mapping.columns?.year, ["annee", "year", "millesime"]);
+    const factsColumn = resolveColumn(columnNames, mapping.columns?.facts, [
+        "faits",
+        "nbfaits",
+        "count",
+        "nombre",
+        "valeur",
+        "nombre_faits",
+        "nb_faits"
+    ]);
+
+    const categoryColumn = resolveColumn(columnNames, mapping.categoryKeyColumn, [
+        "categorie",
+        "category",
+        "infraction",
+        "code_infraction",
+        "libelle",
+        "qualification",
+        "nature",
+        "classe"
+    ]);
+
+    const files: string[] = [];
+
+    const groupByCategory = buildGroupLookup(mapping.groups);
+    if (groupByCategory.size === 0) {
+        const metaPath = path.join(targetDir, "meta.json");
+        await writeJsonAtomic(metaPath, buildMeta({
+            generatedAtUtc,
+            yearsAvailable: [],
+            mappingFile: "ssmsiToGroups.v1.json",
+            unmapped: { rows: 0, top: [] },
+            ssmsi: {
+                url: ssmsiSource.url,
+                resourceId: "98fd2271-4d76-4015-a80c-bcec329f6ad0"
+            },
+            population: {
+                zipUrl: SOURCE_URLS.populationRef,
+                zipEntry: "donnees_communes.csv",
+                fieldsTried: ["pmun", "ptot", "population"]
+            },
+            warnings: [
+                "SSMSI mapping is empty. Run inspectSsmsi.ts and populate mapping/ssmsiToGroups.v1.json (groups + categoryKeyColumn)."
+            ],
+            inferred: { inseeColumn, yearColumn, factsColumn, categoryColumn }
+        }));
+        files.push("communes/metrics/insecurity/meta.json");
+        console.warn("[metrics:insecurity] Skipped export (empty mapping)");
+        return files;
+    }
+
+    if (!inseeColumn || !yearColumn || !factsColumn || !categoryColumn) {
+        const metaPath = path.join(targetDir, "meta.json");
+        await writeJsonAtomic(metaPath, buildMeta({
+            generatedAtUtc,
+            yearsAvailable: [],
+            mappingFile: "ssmsiToGroups.v1.json",
+            unmapped: { rows: 0, top: [] },
+            ssmsi: {
+                url: ssmsiSource.url,
+                resourceId: "98fd2271-4d76-4015-a80c-bcec329f6ad0"
+            },
+            population: {
+                zipUrl: SOURCE_URLS.populationRef,
+                zipEntry: "donnees_communes.csv",
+                fieldsTried: ["pmun", "ptot", "population"]
+            },
+            warnings: [
+                "SSMSI parquet columns could not be inferred. Run inspectSsmsi.ts and fill mapping/ssmsiToGroups.v1.json."
+            ],
+            inferred: { inseeColumn, yearColumn, factsColumn, categoryColumn }
+        }));
+        files.push("communes/metrics/insecurity/meta.json");
+
+        console.warn("[metrics:insecurity] Skipped export (missing required parquet columns)", {
+            inseeColumn,
+            yearColumn,
+            factsColumn,
+            categoryColumn
+        });
+
+        return files;
+    }
+
+    const unmapped: UnmappedCounter = new Map();
+
+    const byYear = new Map<number, Map<string, CommuneYearAcc>>();
+
+    const totalRows = Number(metadata.num_rows);
+    const chunkSize = 100_000;
+    for (let rowStart = 0; rowStart < totalRows; rowStart += chunkSize) {
+        const rowEnd = Math.min(totalRows, rowStart + chunkSize);
+        const rows = await parquetReadObjects({
+            file,
+            columns: [inseeColumn, yearColumn, factsColumn, categoryColumn],
+            rowStart,
+            rowEnd,
+            compressors
+        });
+
+        for (const row of rows) {
+            const insee = normalizeInsee(row[inseeColumn]);
+            if (!insee) continue;
+
+            const year = normalizeYear(row[yearColumn]);
+            if (!year) continue;
+
+            const facts = normalizeNonNegativeNumber(row[factsColumn]);
+            if (facts === null) continue;
+
+            const categoryKeyRaw = row[categoryColumn];
+            const categoryKey = categoryKeyRaw === null || typeof categoryKeyRaw === "undefined" ? "" : String(categoryKeyRaw).trim();
+            if (!categoryKey) {
+                continue;
+            }
+
+            const group = groupByCategory.get(categoryKey) ?? null;
+            if (!group) {
+                unmapped.set(categoryKey, (unmapped.get(categoryKey) ?? 0) + 1);
+                continue;
+            }
+
+            const yearMap = getOrCreate(byYear, year, () => new Map());
+            const acc = getOrCreate(yearMap, insee, () => createAcc());
+
+            const bucket = acc[group];
+            bucket.sumFacts += facts;
+            bucket.rows += 1;
+        }
+    }
+
+    const yearsAvailable = Array.from(byYear.keys()).sort((a, b) => a - b);
+
+    // Write per-year files
+    for (const year of yearsAvailable) {
+        const accByInsee = byYear.get(year) ?? new Map();
+
+        const rows = communes
+            .slice()
+            .sort((a, b) => a.insee.localeCompare(b.insee))
+            .map((commune) => {
+                const population = populationByInsee.get(commune.insee) ?? null;
+                const acc = accByInsee.get(commune.insee) ?? null;
+
+                const violences = computeRatePer1000(acc?.violencesPersonnes ?? null, population);
+                const biens = computeRatePer1000(acc?.securiteBiens ?? null, population);
+                const tranquillite = computeRatePer1000(acc?.tranquillite ?? null, population);
+
+                return {
+                    insee: commune.insee,
+                    population,
+                    violencesPersonnesPer1000: violences,
+                    securiteBiensPer1000: biens,
+                    tranquillitePer1000: tranquillite,
+                    scoreRaw: computeRawScore({
+                        violencesPersonnesPer1000: violences,
+                        securiteBiensPer1000: biens,
+                        tranquillitePer1000: tranquillite
+                    })
+                };
+            });
+
+        const scoreValues = rows
+            .map((r) => r.scoreRaw)
+            .filter((v): v is number => typeof v === "number" && Number.isFinite(v));
+
+        const indexByScore = buildPercentileIndex(scoreValues);
+
+        const tabularRows = rows.map((r) => {
+            const indexGlobal = r.scoreRaw === null ? null : indexByScore.get(r.scoreRaw) ?? null;
+            return [
+                r.insee,
+                r.population,
+                r.violencesPersonnesPer1000,
+                r.securiteBiensPer1000,
+                r.tranquillitePer1000,
+                indexGlobal
+            ] as const;
+        });
+
+        const outPath = path.join(targetDir, `${year}.json`);
+        await writeJsonAtomic(outPath, {
+            year,
+            unit: "faits pour 1000 habitants",
+            source: "Ministère de l’Intérieur – SSMSI (base communale de la délinquance enregistrée)",
+            generatedAtUtc,
+            columns: OUTPUT_COLUMNS,
+            rows: tabularRows
+        });
+
+        files.push(`communes/metrics/insecurity/${year}.json`);
+    }
+
+    const metaPath = path.join(targetDir, "meta.json");
+    await writeJsonAtomic(metaPath, buildMeta({
+        generatedAtUtc,
+        yearsAvailable,
+        mappingFile: "ssmsiToGroups.v1.json",
+        unmapped: summarizeUnmapped(unmapped),
+        ssmsi: {
+            url: ssmsiSource.url,
+            resourceId: "98fd2271-4d76-4015-a80c-bcec329f6ad0"
+        },
+        population: {
+            zipUrl: SOURCE_URLS.populationRef,
+            zipEntry: "donnees_communes.csv",
+            fieldsTried: ["pmun", "ptot", "population"]
+        },
+        warnings: [],
+        inferred: { inseeColumn, yearColumn, factsColumn, categoryColumn }
+    }));
+
+    files.push("communes/metrics/insecurity/meta.json");
+
+    console.info(`[metrics:insecurity] Exported insecurity metrics for ${yearsAvailable.length} years`);
+    return files;
+}
+
+function createAcc(): CommuneYearAcc {
+    return {
+        violencesPersonnes: { sumFacts: 0, rows: 0 },
+        securiteBiens: { sumFacts: 0, rows: 0 },
+        tranquillite: { sumFacts: 0, rows: 0 }
+    };
+}
+
+function computeRatePer1000(acc: GroupAccumulator | null, population: number | null): number | null {
+    if (!acc || acc.rows === 0) {
+        return null;
+    }
+    if (!population || !Number.isFinite(population) || population <= 0) {
+        return null;
+    }
+    const rate = (acc.sumFacts / population) * 1000;
+    return round1(rate);
+}
+
+function round1(value: number): number {
+    return Math.round(value * 10) / 10;
+}
+
+function computeRawScore(values: {
+    violencesPersonnesPer1000: number | null;
+    securiteBiensPer1000: number | null;
+    tranquillitePer1000: number | null;
+}): number | null {
+    const parts: Array<{ value: number; weight: number }> = [];
+
+    if (values.violencesPersonnesPer1000 !== null) parts.push({ value: values.violencesPersonnesPer1000, weight: 0.4 });
+    if (values.securiteBiensPer1000 !== null) parts.push({ value: values.securiteBiensPer1000, weight: 0.35 });
+    if (values.tranquillitePer1000 !== null) parts.push({ value: values.tranquillitePer1000, weight: 0.25 });
+
+    if (!parts.length) {
+        return null;
+    }
+
+    const sumWeights = parts.reduce((acc, p) => acc + p.weight, 0);
+    if (sumWeights <= 0) {
+        return null;
+    }
+
+    let score = 0;
+    for (const p of parts) {
+        score += (p.weight / sumWeights) * p.value;
+    }
+
+    return score;
+}
+
+function buildPercentileIndex(scores: number[]): Map<number, number> {
+    const result = new Map<number, number>();
+    if (!scores.length) {
+        return result;
+    }
+
+    const sorted = scores.slice().sort((a, b) => a - b);
+    const n = sorted.length;
+
+    // Midrank percentile for ties.
+    const ranges = new Map<number, { start: number; end: number }>();
+    for (let i = 0; i < n; i++) {
+        const value = sorted[i]!;
+        const existing = ranges.get(value);
+        if (!existing) {
+            ranges.set(value, { start: i, end: i });
+        } else {
+            existing.end = i;
+        }
+    }
+
+    for (const [value, range] of ranges) {
+        const midRank = (range.start + range.end) / 2;
+        const percentile = n === 1 ? 1 : midRank / (n - 1);
+        result.set(value, Math.round(100 * percentile));
+    }
+
+    return result;
+}
+
+function summarizeUnmapped(unmapped: UnmappedCounter): { rows: number; top: Array<{ key: string; rows: number }> } {
+    const entries = Array.from(unmapped.entries()).sort((a, b) => b[1] - a[1]);
+    const rows = entries.reduce((sum, [, count]) => sum + count, 0);
+    const top = entries.slice(0, 25).map(([key, count]) => ({ key, rows: count }));
+    return { rows, top };
+}
+
+function buildMeta(params: {
+    generatedAtUtc: string;
+    yearsAvailable: number[];
+    mappingFile: string;
+    unmapped: { rows: number; top: Array<{ key: string; rows: number }> };
+    ssmsi: { url: string; resourceId: string };
+    population: { zipUrl: string; zipEntry: string; fieldsTried: string[] };
+    warnings: string[];
+    inferred: Record<string, string | null>;
+}): Record<string, unknown> {
+    return {
+        source: "Bases statistiques communales de la délinquance enregistrée - SSMSI",
+        license: "Licence Ouverte / Etalab",
+        geoLevel: "commune",
+        fallbackChain: [],
+        unit: "faits pour 1000 habitants",
+        yearsAvailable: params.yearsAvailable,
+        generatedAtUtc: params.generatedAtUtc,
+        methodology:
+            "Agrégation communale par catégorie, normalisée par population INSEE de référence (non annuelle).",
+        inputs: {
+            ssmsiParquetUrl: params.ssmsi.url,
+            ssmsiResourceId: params.ssmsi.resourceId,
+            populationReference: {
+                inseeZipUrl: params.population.zipUrl,
+                zipEntry: params.population.zipEntry,
+                fieldsTried: params.population.fieldsTried,
+                note: "Population non annuelle : taux par année normalisés avec une population de référence."
+            }
+        },
+        mapping: {
+            mappingFile: params.mappingFile,
+            unmapped: params.unmapped
+        },
+        inferredColumns: params.inferred,
+        warnings: params.warnings
+    };
+}
+
+async function loadMapping(): Promise<MappingFileV1> {
+    const mappingPath = new URL("./mapping/ssmsiToGroups.v1.json", import.meta.url);
+    const raw = await readFile(mappingPath, "utf8");
+    const parsed = JSON.parse(raw) as MappingFileV1;
+
+    if (parsed.version !== 1 || !parsed.groups) {
+        throw new Error("Invalid ssmsiToGroups mapping file");
+    }
+
+    return parsed;
+}
+
+function buildGroupLookup(groups: Record<MetricGroup, string[]>): Map<string, MetricGroup> {
+    const lookup = new Map<string, MetricGroup>();
+    for (const groupKey of Object.keys(groups) as MetricGroup[]) {
+        for (const category of groups[groupKey] ?? []) {
+            if (typeof category !== "string") continue;
+            const key = category.trim();
+            if (!key) continue;
+            lookup.set(key, groupKey);
+        }
+    }
+    return lookup;
+}
+
+function resolveColumn(columnNames: string[], forced: string | null | undefined, candidates: string[]): string | null {
+    if (forced) {
+        const resolved = resolveExactColumn(columnNames, forced);
+        return resolved;
+    }
+
+    for (const candidate of candidates) {
+        const resolved = resolveExactColumn(columnNames, candidate);
+        if (resolved) {
+            return resolved;
+        }
+    }
+
+    // Fallback: heuristic by normalized key.
+    const normalized = new Map(columnNames.map((name) => [normalizeKey(name), name] as const));
+    for (const candidate of candidates) {
+        const hit = normalized.get(normalizeKey(candidate));
+        if (hit) return hit;
+    }
+
+    return null;
+}
+
+function resolveExactColumn(columnNames: string[], name: string): string | null {
+    const hit = columnNames.find((c) => c === name);
+    return hit ?? null;
+}
+
+function normalizeKey(value: string): string {
+    return value.trim().toLowerCase().replace(/[^a-z0-9]+/g, "_");
+}
+
+function normalizeInsee(value: unknown): string | null {
+    if (typeof value === "string") {
+        const trimmed = value.trim().toUpperCase();
+        if (!trimmed) return null;
+        const cleaned = trimmed.replace(/\s+/g, "");
+        if (/^\d+$/.test(cleaned) && cleaned.length < 5) {
+            return cleaned.padStart(5, "0");
+        }
+        // Accept 5-char INSEE including alphanumerics (e.g. 2A/2B for Corsica).
+        return cleaned;
+    }
+
+    if (typeof value === "number" && Number.isFinite(value)) {
+        const asInt = Math.trunc(value);
+        const asString = String(asInt);
+        if (/^\d+$/.test(asString) && asString.length < 5) {
+            return asString.padStart(5, "0");
+        }
+        return asString;
+    }
+
+    return null;
+}
+
+function normalizeYear(value: unknown): number | null {
+    if (typeof value === "number" && Number.isFinite(value)) {
+        const year = Math.trunc(value);
+        return year >= 1900 && year <= 2100 ? year : null;
+    }
+    if (typeof value === "string") {
+        const parsed = Number.parseInt(value.trim(), 10);
+        return Number.isFinite(parsed) && parsed >= 1900 && parsed <= 2100 ? parsed : null;
+    }
+    return null;
+}
+
+function normalizeNonNegativeNumber(value: unknown): number | null {
+    if (value === null || typeof value === "undefined") {
+        return null;
+    }
+
+    if (typeof value === "number") {
+        if (!Number.isFinite(value)) return null;
+        if (value < 0) return null;
+        return value;
+    }
+
+    if (typeof value === "string") {
+        const trimmed = value.trim();
+        if (!trimmed) return null;
+        const parsed = Number.parseFloat(trimmed.replace(",", "."));
+        if (!Number.isFinite(parsed)) return null;
+        if (parsed < 0) return null;
+        return parsed;
+    }
+
+    return null;
+}
+
+function getOrCreate<K, V>(map: Map<K, V>, key: K, create: () => V): V {
+    const existing = map.get(key);
+    if (existing) {
+        return existing;
+    }
+    const next = create();
+    map.set(key, next);
+    return next;
+}

@@ -1,11 +1,21 @@
 {
   "datasetVersion": "v2026-02-04",
-  "createdAtUtc": "2026-02-04T18:43:28.846Z",
+  "createdAtUtc": "2026-02-04T20:55:13.677Z",
   "schemaVersion": 1,
   "files": [
     "communes/indexLite.json",
     "communes/metrics/core.json",
     "communes/metrics/housing.json",
+    "communes/metrics/insecurity/2016.json",
+    "communes/metrics/insecurity/2017.json",
+    "communes/metrics/insecurity/2018.json",
+    "communes/metrics/insecurity/2019.json",
+    "communes/metrics/insecurity/2020.json",
+    "communes/metrics/insecurity/2021.json",
+    "communes/metrics/insecurity/2022.json",
+    "communes/metrics/insecurity/2023.json",
+    "communes/metrics/insecurity/2024.json",
+    "communes/metrics/insecurity/meta.json",
     "communes/postalIndex.json",
     "infraZones/indexLite.json"
   ],
@@ -34,6 +44,11 @@
       "url": "https://www.insee.fr/fr/statistiques/fichier/8680726/ensemble.zip",
       "retrievedAtUtc": "2026-01-30T22:39:26.270Z",
       "checksumSha256": "5174fc225398a4c072fb8bb5298b7ccf30c017834c7a4171f44787379d83b3f5"
+    },
+    {
+      "url": "https://www.data.gouv.fr/api/1/datasets/r/98fd2271-4d76-4015-a80c-bcec329f6ad0",
+      "retrievedAtUtc": "2026-02-04T20:51:18.629Z",
+      "checksumSha256": "fa989c5bcae90a6bc530e89383cf5336ee1a1229d8a564e7e35386ec121002eb"
     }
   ]
 }
