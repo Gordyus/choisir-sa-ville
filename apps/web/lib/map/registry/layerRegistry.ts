@@ -39,8 +39,6 @@ export const LAYER_IDS = {
     communesLine: "communes-line",
     arrMunicipalFill: "arr-municipal-fill",
     arrMunicipalLine: "arr-municipal-line",
-    // Interactive hitbox layer prefix
-    cityHitboxPrefix: "city-hitbox::",
     // Suffix for managed city label layers (appended to base layer ID)
     MANAGED_CITY_LABEL_SUFFIX: "__managed"
 } as const;
@@ -119,27 +117,10 @@ export const ADMIN_POLYGON_SPECS: Record<"communes" | "arrMunicipal", AdminPolyg
 // ============================================================================
 
 /**
- * Build a city hitbox layer ID from a label layer ID
+ * Build a managed city label layer ID from a base layer ID
  */
-export function buildCityHitboxLayerId(labelLayerId: string): string {
-    return `${LAYER_IDS.cityHitboxPrefix}${labelLayerId}`;
-}
-
-/**
- * Extract the original label layer ID from a hitbox layer ID
- */
-export function extractLabelLayerIdFromHitbox(hitboxLayerId: string): string | null {
-    if (!hitboxLayerId.startsWith(LAYER_IDS.cityHitboxPrefix)) {
-        return null;
-    }
-    return hitboxLayerId.slice(LAYER_IDS.cityHitboxPrefix.length) || null;
-}
-
-/**
- * Check if a layer ID is a city hitbox layer
- */
-export function isCityHitboxLayer(layerId: string): boolean {
-    return layerId.startsWith(LAYER_IDS.cityHitboxPrefix);
+export function buildManagedCityLabelLayerId(baseLayerId: string): string {
+    return `${baseLayerId}${LAYER_IDS.MANAGED_CITY_LABEL_SUFFIX}`;
 }
 
 /**
