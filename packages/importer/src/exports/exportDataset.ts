@@ -14,7 +14,7 @@ import {
     DEFAULT_SOURCE_URL
 } from "./constants.js";
 import { downloadFile } from "./shared/downloadFile.js";
-import { ensureDir } from "./shared/fileSystem.js";
+import { ensureDir, writeJsonAtomic } from "./shared/fileSystem.js";
 import { parseCsv, parseCsvFile, type CsvRecord } from "./shared/parseCsv.js";
 import { readZipEntryText } from "./shared/readZipEntry.js";
 import type { ExportCommune, ExportContext, ExportInfraZone, PostalRecord, SourceMeta } from "./shared/types.js";
@@ -22,7 +22,7 @@ import { writeManifest } from "./writeManifest.js";
 
 async function main(): Promise<void> {
     const datasetVersion = computeDatasetVersion();
-    const datasetDir = await resolveDatasetDir(datasetVersion);
+    const { datasetDir, currentManifestPath } = await resolveDatasetDir(datasetVersion);
     const context: ExportContext = { datasetDir, datasetVersion };
 
     console.info(`[dataset] Target directory: ${datasetDir}`);
@@ -66,6 +66,7 @@ async function main(): Promise<void> {
     files.push(await exportMetricsHousing({ context, communes }));
 
     await writeManifest({ datasetDir, datasetVersion, files, sources });
+    await writeCurrentManifest({ currentManifestPath, datasetVersion, files });
 
     console.info(
         `[dataset] Completed static export (${files.length} files) for ${datasetVersion}`
@@ -77,12 +78,16 @@ main().catch((error) => {
     process.exitCode = 1;
 });
 
-async function resolveDatasetDir(datasetVersion: string): Promise<string> {
+async function resolveDatasetDir(datasetVersion: string): Promise<{
+    datasetDir: string;
+    currentManifestPath: string;
+}> {
     const packageRoot = path.resolve(process.cwd());
     const repoRoot = path.resolve(packageRoot, "../..");
     const datasetDir = path.join(repoRoot, "apps", "web", "public", "data", datasetVersion);
+    const currentManifestPath = path.join(repoRoot, "apps", "web", "public", "data", "current", "manifest.json");
     await ensureDir(datasetDir);
-    return datasetDir;
+    return { datasetDir, currentManifestPath };
 }
 
 async function downloadSources(): Promise<[SourceMeta, SourceMeta, SourceMeta, SourceMeta, SourceMeta]> {
@@ -114,6 +119,17 @@ function computeDatasetVersion(referenceDate = new Date()): string {
     }
 
     return `v${year}-${month}-${day}`;
+}
+
+async function writeCurrentManifest(params: {
+    currentManifestPath: string;
+    datasetVersion: string;
+    files: string[];
+}): Promise<void> {
+    await writeJsonAtomic(params.currentManifestPath, {
+        datasetVersion: params.datasetVersion,
+        files: params.files.slice().sort()
+    });
 }
 
 function mapCommunes(records: CsvRecord[], departmentRegionMap: Map<string, string | null>): ExportCommune[] {

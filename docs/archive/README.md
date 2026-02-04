@@ -84,3 +84,10 @@ La nouvelle architecture conserve :
 Ces documents sont conservés pour comprendre l'évolution du projet, mais **ne doivent pas être utilisés** pour le développement actuel.
 
 Si vous voulez contribuer au projet, lisez la **documentation actuelle** dans `docs/` (hors `docs/archive/`).
+
+---
+
+## Note
+
+D’autres documents historiques (setup DB/API, guides legacy) ont été supprimés de `docs/` lors du refactoring.
+Ils restent accessibles via l’historique Git.

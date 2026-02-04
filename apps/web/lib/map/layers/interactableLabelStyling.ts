@@ -1,107 +1,119 @@
-import type {
-    ExpressionSpecification,
-    StyleSpecification,
-    SymbolLayerSpecification
-} from "maplibre-gl";
+/**
+ * Interactable Label Styling - Apply feature-state-based styling to a single label layer.
+ *
+ * This module is intentionally small and opinionated:
+ * - No legacy/backward compatibility paths
+ * - Single exported entry point used by the style pipeline
+ * - Only uses feature-state flags: hasData, highlight, active
+ *
+ * Goal:
+ * - Labels with data (hasData=true) are visually distinct and clearly clickable
+ * - Labels without data are de-emphasized but still readable
+ */
+
+import type { ExpressionSpecification, LayerSpecification, SymbolLayerSpecification } from "maplibre-gl";
 
 import type { CityLabelStyleConfig } from "@/lib/config/mapTilesConfig";
 
-// Defaults are intentionally high-contrast so users can immediately spot data-backed (clickable) labels.
-const DEFAULT_TEXT_COLOR = "#111827"; // near-black
-const HIGHLIGHT_TEXT_COLOR = "#2563eb"; // blue
-const ACTIVE_TEXT_COLOR = "#f59e0b"; // amber
-const DEFAULT_HALO_COLOR = "#ffffff"; // white outline for readability
-const HIGHLIGHT_HALO_COLOR = "#ffffff";
-const ACTIVE_HALO_COLOR = "#ffffff";
-const DEFAULT_HALO_WIDTH = 2.8;
-const HIGHLIGHT_HALO_WIDTH = 3.6;
-const ACTIVE_HALO_WIDTH = 4.2;
+const DEFAULTS = {
+    textColor: "#111827",
+    highlightTextColor: "#2563eb",
+    activeTextColor: "#f59e0b",
+    textHaloColor: "#ffffff",
+    highlightTextHaloColor: "#ffffff",
+    activeTextHaloColor: "#ffffff",
+    textHaloWidth: 2.8,
+    highlightTextHaloWidth: 3.6,
+    activeTextHaloWidth: 4.2,
 
-// Explicit non-interactable styling (do not depend on server defaults).
-const NO_DATA_TEXT_COLOR = "#6b7280"; // gray-500
-const NO_DATA_HALO_COLOR = "rgba(255,255,255,0.75)";
-const NO_DATA_HALO_WIDTH = 1.3;
-const NO_DATA_TEXT_OPACITY = 0.35;
+    noDataTextColor: "#797c83",
+    noDataTextOpacity: 1,
+    noDataTextHaloColor: "rgba(255,255,255,0.65)",
+    noDataTextHaloWidth: 1.4
+} as const;
 
-/**
- * Apply feature-state-driven styling to the server-provided interactable label layer.
- */
 export function applyInteractableLabelStyling(
-    layers: StyleSpecification["layers"],
+    layers: LayerSpecification[],
     targetLayerId: string,
-    styleOverrides?: CityLabelStyleConfig
+    style?: CityLabelStyleConfig
 ): void {
-    if (!layers || !targetLayerId) {
+    const layer = layers.find(
+        (entry): entry is SymbolLayerSpecification =>
+            entry.id === targetLayerId && entry.type === "symbol"
+    );
+    if (!layer) {
         return;
     }
 
-    for (const layer of layers) {
-        if (!layer || layer.type !== "symbol" || layer.id !== targetLayerId) {
-            continue;
-        }
+    layer.paint = layer.paint ?? {};
 
-        const symbolLayer = layer as SymbolLayerSpecification;
-        symbolLayer.paint = buildManagedPaint(symbolLayer.paint, styleOverrides);
-    }
+    const textColor = style?.textColor ?? DEFAULTS.textColor;
+    const highlightTextColor = style?.highlightTextColor ?? DEFAULTS.highlightTextColor;
+    const activeTextColor = style?.activeTextColor ?? DEFAULTS.activeTextColor;
+
+    const textHaloColor = style?.textHaloColor ?? DEFAULTS.textHaloColor;
+    const highlightTextHaloColor = style?.highlightTextHaloColor ?? DEFAULTS.highlightTextHaloColor;
+    const activeTextHaloColor = style?.activeTextHaloColor ?? DEFAULTS.activeTextHaloColor;
+
+    const textHaloWidth = style?.textHaloWidth ?? DEFAULTS.textHaloWidth;
+    const highlightTextHaloWidth = style?.highlightTextHaloWidth ?? DEFAULTS.highlightTextHaloWidth;
+    const activeTextHaloWidth = style?.activeTextHaloWidth ?? DEFAULTS.activeTextHaloWidth;
+
+    layer.paint["text-color"] = buildLabelCaseExpr({
+        active: activeTextColor,
+        highlight: highlightTextColor,
+        hasData: textColor,
+        noData: DEFAULTS.noDataTextColor
+    });
+
+    layer.paint["text-opacity"] = buildHasDataOpacityExpr(
+        1,
+        DEFAULTS.noDataTextOpacity
+    );
+
+    layer.paint["text-halo-color"] = buildLabelCaseExpr({
+        active: activeTextHaloColor,
+        highlight: highlightTextHaloColor,
+        hasData: textHaloColor,
+        noData: DEFAULTS.noDataTextHaloColor
+    });
+
+    layer.paint["text-halo-width"] = buildLabelCaseExpr({
+        active: activeTextHaloWidth,
+        highlight: highlightTextHaloWidth,
+        hasData: textHaloWidth,
+        noData: DEFAULTS.noDataTextHaloWidth
+    });
+
+    layer.paint["text-halo-blur"] = 0;
 }
 
-type SymbolPaint = Exclude<SymbolLayerSpecification["paint"], undefined>;
-
-function buildManagedPaint(
-    basePaint: SymbolLayerSpecification["paint"],
-    overrides?: CityLabelStyleConfig
-): SymbolPaint {
-    const paint: SymbolPaint = { ...(basePaint ?? {}) };
-
-    paint["text-color"] = buildHasDataFeatureStateValue(
-        NO_DATA_TEXT_COLOR,
-        overrides?.textColor ?? DEFAULT_TEXT_COLOR,
-        overrides?.highlightTextColor ?? HIGHLIGHT_TEXT_COLOR,
-        overrides?.activeTextColor ?? ACTIVE_TEXT_COLOR
-    );
-
-    paint["text-halo-color"] = buildHasDataFeatureStateValue(
-        NO_DATA_HALO_COLOR,
-        overrides?.textHaloColor ?? DEFAULT_HALO_COLOR,
-        overrides?.highlightTextHaloColor ?? HIGHLIGHT_HALO_COLOR,
-        overrides?.activeTextHaloColor ?? ACTIVE_HALO_COLOR
-    );
-
-    paint["text-halo-width"] = buildHasDataFeatureStateValue(
-        NO_DATA_HALO_WIDTH,
-        overrides?.textHaloWidth ?? DEFAULT_HALO_WIDTH,
-        overrides?.highlightTextHaloWidth ?? HIGHLIGHT_HALO_WIDTH,
-        overrides?.activeTextHaloWidth ?? ACTIVE_HALO_WIDTH
-    );
-
-    paint["text-opacity"] = buildHasDataOpacityExpr(NO_DATA_TEXT_OPACITY);
-
-    return paint;
-}
-
-function buildHasDataFeatureStateValue(
-    baseNoData: unknown,
-    baseHasData: unknown,
-    highlight: unknown,
-    active: unknown
-): ExpressionSpecification {
+function buildLabelCaseExpr(values: {
+    active: unknown;
+    highlight: unknown;
+    hasData: unknown;
+    noData: unknown;
+}): ExpressionSpecification {
     return [
         "case",
         ["boolean", ["feature-state", "active"], false],
-        active,
+        values.active,
         ["boolean", ["feature-state", "highlight"], false],
-        highlight,
+        values.highlight,
         ["boolean", ["feature-state", "hasData"], false],
-        baseHasData,
-        baseNoData
+        values.hasData,
+        values.noData
     ] as ExpressionSpecification;
 }
 
-function buildHasDataOpacityExpr(noDataOpacity: number): ExpressionSpecification {
+function buildHasDataOpacityExpr(
+    hasDataOpacity: number,
+    noDataOpacity: number
+): ExpressionSpecification {
     return [
         "case",
         ["boolean", ["feature-state", "hasData"], false],
-        1,
+        hasDataOpacity,
         noDataOpacity
     ] as ExpressionSpecification;
 }
