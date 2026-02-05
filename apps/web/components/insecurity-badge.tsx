@@ -6,18 +6,18 @@
  * Displays a colored badge showing the insecurity level for a commune.
  * Uses the SSMSI indexGlobal (0-100 percentile rank) to determine level.
  *
- * Levels:
- * - Faible (0-24): Green
- * - Modéré (25-49): Amber
- * - Élevé (50-74): Orange
- * - Très élevé (75-100): Red
+ * Levels (using centralized INSECURITY_PALETTE):
+ * - Faible (0-24): Green (#22c55e)
+ * - Modéré (25-49): Yellow (#eab308)
+ * - Élevé (50-74): Orange (#f97316)
+ * - Très élevé (75-100): Red (#ef4444)
  *
  * Per spec: badge is entity-centric. For infraZones, pass parent commune INSEE code.
  */
 
 import type { HTMLAttributes } from "react";
 
-import { Badge, type BadgeProps } from "@/components/ui/badge";
+import { INSECURITY_PALETTE } from "@/lib/config/insecurityPalette";
 import {
     type InsecurityLevel,
     getInsecurityLevelLabel,
@@ -47,26 +47,6 @@ export interface InsecurityBadgeProps extends Omit<HTMLAttributes<HTMLSpanElemen
      */
     showLoading?: boolean;
 }
-
-// ============================================================================
-// Level → Badge Variant Mapping
-// ============================================================================
-
-type BadgeVariant = NonNullable<BadgeProps["variant"]>;
-
-const levelVariants: Record<InsecurityLevel, BadgeVariant> = {
-    faible: "success",
-    modere: "warning",
-    eleve: "warning", // Will apply custom orange color
-    "tres-eleve": "danger"
-};
-
-const levelCustomStyles: Record<InsecurityLevel, string> = {
-    faible: "",
-    modere: "",
-    eleve: "bg-orange-100 text-orange-800", // Custom orange (amber variant is yellow-ish)
-    "tres-eleve": ""
-};
 
 // ============================================================================
 // Component
@@ -119,19 +99,21 @@ export function InsecurityBadge({
         return null;
     }
 
-    const variant = levelVariants[data.level];
-    const customStyle = levelCustomStyles[data.level];
+    const bgColor = INSECURITY_PALETTE[data.level];
     const label = getInsecurityLevelLabel(data.level);
 
     return (
-        <Badge
-            variant={variant}
-            className={cn(customStyle, className)}
+        <span
+            className={cn(
+                "inline-flex items-center rounded-full px-3 py-1 text-sm font-medium text-white",
+                className
+            )}
+            style={{ backgroundColor: bgColor }}
             title={`Indice d'insécurité: ${data.indexGlobal ?? "—"}/100 (${data.year})`}
             {...props}
         >
             {label}
-        </Badge>
+        </span>
     );
 }
 

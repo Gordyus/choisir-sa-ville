@@ -26,9 +26,7 @@ import { cn } from "@/lib/utils";
 // Types
 // ============================================================================
 
-interface RightPanelDetailsCardProps extends HTMLAttributes<HTMLDivElement> {
-    // No selection prop - uses SelectionService
-}
+type RightPanelDetailsCardProps = HTMLAttributes<HTMLDivElement>;
 
 type CardStatus = "idle" | "loading" | "ready" | "missing" | "error";
 

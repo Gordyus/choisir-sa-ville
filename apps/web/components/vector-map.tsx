@@ -19,9 +19,11 @@ import maplibregl, { Map as MapLibreMap, NavigationControl } from "maplibre-gl";
 import { useEffect, useRef, useState } from "react";
 
 import { MapDebugOverlay } from "@/components/map-debug-overlay";
+import { MapLayerMenu } from "@/components/map-layer-menu";
 import { loadAppConfig, type AppConfig } from "@/lib/config/appConfig";
 import { attachEntityGraphicsBinder } from "@/lib/map/entityGraphicsBinder";
 import { attachMapInteractionService } from "@/lib/map/mapInteractionService";
+import { attachDisplayBinder } from "@/lib/map/state/displayBinder";
 import { loadMapStyle } from "@/lib/map/style/stylePipeline";
 import { cn } from "@/lib/utils";
 
@@ -49,6 +51,7 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
     const mapRef = useRef<MapLibreMap | null>(null);
     const detachInteractionsRef = useRef<(() => void) | null>(null);
     const detachBinderRef = useRef<(() => void) | null>(null);
+    const detachDisplayBinderRef = useRef<(() => void) | null>(null);
     const debugZoomCleanupRef = useRef<(() => void) | null>(null);
     const [debugZoom, setDebugZoom] = useState<number | null>(null);
     const [debugOverlayEnabled, setDebugOverlayEnabled] = useState(false);
@@ -139,6 +142,9 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
             detachBinderRef.current = attachEntityGraphicsBinder(map, {
                 getLabelTargetForEntity: interactionResult.getLabelTargetForEntity
             });
+
+            // Attach display binder - handles choropleth mode switching
+            detachDisplayBinderRef.current = attachDisplayBinder(map);
         }
 
         void initMap();
@@ -146,6 +152,8 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
         return () => {
             disposed = true;
             controller.abort();
+            detachDisplayBinderRef.current?.();
+            detachDisplayBinderRef.current = null;
             detachBinderRef.current?.();
             detachBinderRef.current = null;
             detachInteractionsRef.current?.();
@@ -164,6 +172,7 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
     return (
         <div className={cn("relative h-full w-full", className)}>
             <div ref={containerRef} className="h-full w-full" />
+            <MapLayerMenu />
             {debugOverlayEnabled && <MapDebugOverlay zoom={debugZoom} />}
         </div>
     );

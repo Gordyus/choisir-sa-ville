@@ -46,7 +46,7 @@ export async function loadMapStyle(
     setPlaceClasses(config.cityClasses);
 
     // Step 3: Sanitize layers - remove those with unavailable source-layers
-    let processedLayers = sanitizeLayers(resolvedBaseStyle.layers, { availability, verbose });
+    const processedLayers = sanitizeLayers(resolvedBaseStyle.layers, { availability, verbose });
 
     // Step 4: Apply feature-state styling on the interactable label layer
     applyInteractableLabelStyling(
