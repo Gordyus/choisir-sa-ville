@@ -34,6 +34,7 @@ export interface InsecurityMetricsRow {
     securiteBiensPer1000: number | null;
     tranquillitePer1000: number | null;
     indexGlobal: number | null;
+    level: number | null;
 }
 
 interface RawInsecurityData {
@@ -47,7 +48,7 @@ export type InsecurityLevel = "faible" | "modere" | "eleve" | "tres-eleve";
 
 export interface InsecurityMetricsResult {
     indexGlobal: number | null;
-    level: InsecurityLevel | null;
+    level: number | null;
     violencesPersonnesPer1000: number | null;
     securiteBiensPer1000: number | null;
     tranquillitePer1000: number | null;
@@ -234,6 +235,7 @@ function parseInsecurityData(raw: RawInsecurityData): Map<string, InsecurityMetr
     const securiteIdx = colIndex["securiteBiensPer1000"];
     const tranquilliteIdx = colIndex["tranquillitePer1000"];
     const indexGlobalIdx = colIndex["indexGlobal"];
+    const levelIdx = colIndex["level"];
 
     if (inseeIdx === undefined) {
         console.warn("[insecurityMetrics] Missing 'insee' column");
@@ -252,7 +254,8 @@ function parseInsecurityData(raw: RawInsecurityData): Map<string, InsecurityMetr
             securiteBiensPer1000: securiteIdx !== undefined ? (row[securiteIdx] as number | null) : null,
             tranquillitePer1000:
                 tranquilliteIdx !== undefined ? (row[tranquilliteIdx] as number | null) : null,
-            indexGlobal: indexGlobalIdx !== undefined ? (row[indexGlobalIdx] as number | null) : null
+            indexGlobal: indexGlobalIdx !== undefined ? (row[indexGlobalIdx] as number | null) : null,
+            level: levelIdx !== undefined ? (row[levelIdx] as number | null) : null
         });
     }
 
@@ -293,7 +296,7 @@ export async function getInsecurityMetrics(
 
     return {
         indexGlobal: row.indexGlobal,
-        level: computeInsecurityLevel(row.indexGlobal),
+        level: row.level,
         violencesPersonnesPer1000: row.violencesPersonnesPer1000,
         securiteBiensPer1000: row.securiteBiensPer1000,
         tranquillitePer1000: row.tranquillitePer1000,

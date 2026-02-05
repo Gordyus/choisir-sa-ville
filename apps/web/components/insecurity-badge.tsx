@@ -4,26 +4,38 @@
  * Insecurity Badge Component
  *
  * Displays a colored badge showing the insecurity level for a commune.
- * Uses the SSMSI indexGlobal (0-100 percentile rank) to determine level.
+ * Uses the pre-computed `level` field (0-4) from the SSMSI data export.
  *
- * Levels (using centralized INSECURITY_PALETTE):
- * - Faible (0-24): Green (#22c55e)
- * - Modéré (25-49): Yellow (#eab308)
- * - Élevé (50-74): Orange (#f97316)
- * - Très élevé (75-100): Red (#ef4444)
+ * Levels (using INSECURITY_COLORS palette):
+ * - 0: Très faible (very low) - Green (#22c55e)
+ * - 1: Faible (low) - Lime (#84cc16)
+ * - 2: Modéré (moderate) - Yellow (#eab308)
+ * - 3: Élevé (high) - Orange (#f97316)
+ * - 4: Plus élevé (very high) - Red (#ef4444)
  *
  * Per spec: badge is entity-centric. For infraZones, pass parent commune INSEE code.
  */
 
 import type { HTMLAttributes } from "react";
 
-import { INSECURITY_PALETTE } from "@/lib/config/insecurityPalette";
-import {
-    type InsecurityLevel,
-    getInsecurityLevelLabel,
-    useInsecurityMetrics
-} from "@/lib/data/insecurityMetrics";
+import { INSECURITY_COLORS } from "@/lib/config/insecurityPalette";
+import { useInsecurityMetrics } from "@/lib/data/insecurityMetrics";
 import { cn } from "@/lib/utils";
+
+// ============================================================================
+// Constants
+// ============================================================================
+
+/**
+ * Level labels (0-4) matching the exported data classification.
+ */
+const LEVEL_LABELS = [
+    "Très faible", // 0
+    "Faible",      // 1
+    "Modéré",      // 2
+    "Élevé",       // 3
+    "Plus élevé"   // 4
+] as const;
 
 // ============================================================================
 // Types
@@ -46,6 +58,34 @@ export interface InsecurityBadgeProps extends Omit<HTMLAttributes<HTMLSpanElemen
      * @default false
      */
     showLoading?: boolean;
+}
+
+// ============================================================================
+// Helpers
+// ============================================================================
+
+/**
+ * Get display label for a level code (0-4).
+ */
+function getLevelLabel(level: number | null): string {
+    if (level === null || !Number.isFinite(level)) {
+        return "";
+    }
+
+    const index = Math.max(0, Math.min(4, Math.floor(level)));
+    return LEVEL_LABELS[index] ?? "";
+}
+
+/**
+ * Get color for a level code (0-4).
+ */
+function getLevelColor(level: number | null): string {
+    if (level === null || !Number.isFinite(level)) {
+        return INSECURITY_COLORS[0]; // Default to très faible
+    }
+
+    const index = Math.max(0, Math.min(4, Math.floor(level)));
+    return INSECURITY_COLORS[index] ?? INSECURITY_COLORS[0];
 }
 
 // ============================================================================
@@ -99,8 +139,8 @@ export function InsecurityBadge({
         return null;
     }
 
-    const bgColor = INSECURITY_PALETTE[data.level];
-    const label = getInsecurityLevelLabel(data.level);
+    const bgColor = getLevelColor(data.level);
+    const label = getLevelLabel(data.level);
 
     return (
         <span
@@ -121,5 +161,5 @@ export function InsecurityBadge({
 // Exports for direct access
 // ============================================================================
 
-export { getInsecurityLevelLabel, type InsecurityLevel };
+export { getLevelLabel };
 

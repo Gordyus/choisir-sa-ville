@@ -5,26 +5,23 @@
  * Responsible for fill-color, fill-opacity, line-color on commune polygons
  * based on the selected display mode (default | insecurity).
  *
+ * ARCHITECTURE (Phase 3 - Task Performance):
+ * - fill-color: Compact feature-state expression (replaces giant ~35k match expression)
+ * - Viewport-only updates: feature-states applied only to rendered features (moveend + zoomend)
+ * - Batched updates: RAF-based batching to avoid frame drops
+ * - Mobile optimization: Adjusted fill-opacity for touch devices
+ *
  * RULES (from spec):
- * - fill-color: data-driven (insecurity level) - NO feature-state (keeps choroplèthe stable)
+ * - fill-color: feature-state based (insecurityLevelCode)
  * - line-color: data-driven + feature-state (highlight/active override)
  * - line-width: NOT modified (keep original for interaction)
- *
- * Architecture:
- * - Subscribes to displayModeService
- * - Saves original expressions on attach
- * - Restores original expressions when switching to "default" or detach
- * - Async loads insecurity data when switching to "insecurity" mode
+ * - Events: moveend + zoomend ONLY (never move)
  */
 
-import type { ExpressionSpecification, Map as MapLibreMap } from "maplibre-gl";
+import type { ExpressionSpecification, Map as MapLibreMap, MapGeoJSONFeature } from "maplibre-gl";
 
-import { INSECURITY_PALETTE, type InsecurityLevel } from "@/lib/config/insecurityPalette";
-import {
-    computeInsecurityLevel,
-    loadInsecurityMeta,
-    loadInsecurityYear,
-} from "@/lib/data/insecurityMetrics";
+import { INSECURITY_COLORS } from "@/lib/config/insecurityPalette";
+import { loadInsecurityMeta, loadInsecurityYear } from "@/lib/data/insecurityMetrics";
 import { COMMUNE_COLORS } from "@/lib/map/layers/highlightState";
 import { LAYER_IDS } from "@/lib/map/registry/layerRegistry";
 
@@ -51,6 +48,12 @@ type DisplayBinderState = {
     currentMode: DisplayMode;
     abortController: AbortController | null;
     unsubscribe: (() => void) | null;
+    // Viewport update tracking
+    insecurityLevelMap: Map<string, number> | null;
+    appliedStates: Set<string>;
+    moveEndHandler: (() => void) | null;
+    zoomEndHandler: (() => void) | null;
+    isMobile: boolean;
 };
 
 // ============================================================================
@@ -60,11 +63,25 @@ type DisplayBinderState = {
 const FILL_LAYER_ID = LAYER_IDS.communesFill;
 const LINE_LAYER_ID = LAYER_IDS.communesLine;
 
-/** Fill opacity for insecurity choroplèthe (spec: 0.18-0.30, set to midpoint) */
-const INSECURITY_FILL_OPACITY = 0.25;
+/** Fill opacity for insecurity choroplèthe (desktop) */
+const INSECURITY_FILL_OPACITY_DESKTOP = 0.25;
+
+/** Fill opacity for insecurity choroplèthe (mobile - more visible) */
+const INSECURITY_FILL_OPACITY_MOBILE = 0.75;
 
 /** Default fill color when no data */
 const DEFAULT_FILL_COLOR = "#64748b"; // slate-500
+
+/** RAF batch size (number of feature-states per animation frame) */
+const BATCH_SIZE = 200;
+
+// ============================================================================
+// Mobile Detection
+// ============================================================================
+
+function detectMobile(): boolean {
+    return window.matchMedia("(pointer: coarse)").matches;
+}
 
 // ============================================================================
 // Expression Builders
@@ -72,61 +89,43 @@ const DEFAULT_FILL_COLOR = "#64748b"; // slate-500
 
 /**
  * Build fill-color expression for insecurity mode.
- * Pure match expression (NO feature-state) - fill stays stable on hover/click.
+ * Compact feature-state expression (replaces giant match).
  *
- * Format: ["match", ["get", "insee"], "01001", "#22c55e", "01002", "#ef4444", ..., default]
+ * Priority: active > highlight > insecurityLevelCode (0-4)
  */
-function buildInsecurityFillColorExpr(
-    communeInsecurityMap: Map<string, InsecurityLevel>
-): ExpressionSpecification {
-    const matchExpr: unknown[] = ["match", ["get", "insee"]];
-
-    for (const [insee, level] of communeInsecurityMap) {
-        matchExpr.push(insee);
-        matchExpr.push(INSECURITY_PALETTE[level]);
-    }
-
-    // Fallback color for communes without data
-    matchExpr.push(DEFAULT_FILL_COLOR);
-
-    return matchExpr as ExpressionSpecification;
+function buildInsecurityFillColorExpr(): ExpressionSpecification {
+    return [
+        "case",
+        ["boolean", ["feature-state", "active"], false],
+        COMMUNE_COLORS.fill.active,
+        ["boolean", ["feature-state", "highlight"], false],
+        COMMUNE_COLORS.fill.highlight,
+        [
+            "match",
+            ["feature-state", "insecurityLevelCode"],
+            0, INSECURITY_COLORS[0],
+            1, INSECURITY_COLORS[1],
+            2, INSECURITY_COLORS[2],
+            3, INSECURITY_COLORS[3],
+            4, INSECURITY_COLORS[4],
+            DEFAULT_FILL_COLOR
+        ]
+    ] as ExpressionSpecification;
 }
 
 /**
  * Build line-color expression for insecurity mode.
- * Case expression with feature-state (active > highlight > data-driven match).
- *
- * Priority:
- * 1. active: COMMUNE_COLORS.line.active
- * 2. highlight: COMMUNE_COLORS.line.highlight
- * 3. match by insecurity level (darker colors)
+ * Case expression with feature-state (active > highlight > base).
  */
-function buildInsecurityLineColorExpr(
-    communeInsecurityMap: Map<string, InsecurityLevel>
-): ExpressionSpecification {
-    // Build inner match expression for level-based colors
-    const matchExpr: unknown[] = ["match", ["get", "insee"]];
-
-    for (const [insee, level] of communeInsecurityMap) {
-        matchExpr.push(insee);
-        // Line color slightly darker than fill
-        matchExpr.push(INSECURITY_PALETTE[level]);
-    }
-
-    // Fallback
-    matchExpr.push(COMMUNE_COLORS.line.base);
-
-    // Wrap in case for feature-state priority
-    const caseExpr: unknown[] = [
+function buildInsecurityLineColorExpr(): ExpressionSpecification {
+    return [
         "case",
         ["boolean", ["feature-state", "active"], false],
         COMMUNE_COLORS.line.active,
         ["boolean", ["feature-state", "highlight"], false],
         COMMUNE_COLORS.line.highlight,
-        matchExpr,
-    ];
-
-    return caseExpr as ExpressionSpecification;
+        COMMUNE_COLORS.line.base
+    ] as ExpressionSpecification;
 }
 
 // ============================================================================
@@ -134,27 +133,105 @@ function buildInsecurityLineColorExpr(
 // ============================================================================
 
 /**
- * Load insecurity data and build Map<insee, InsecurityLevel>.
+ * Load insecurity data and build Map<insee, level>.
  */
-async function loadInsecurityData(
-    signal?: AbortSignal
-): Promise<Map<string, InsecurityLevel>> {
+async function loadInsecurityData(signal?: AbortSignal): Promise<Map<string, number>> {
     const meta = await loadInsecurityMeta(signal);
 
     // Use most recent year
     const latestYear = Math.max(...meta.yearsAvailable);
     const yearData = await loadInsecurityYear(latestYear, signal);
 
-    const result = new Map<string, InsecurityLevel>();
+    const result = new Map<string, number>();
 
     for (const [insee, row] of yearData) {
-        const level = computeInsecurityLevel(row.indexGlobal);
-        if (level) {
-            result.set(insee, level);
+        // Use baked level field (0-4) directly from data
+        if (row.level !== null && Number.isFinite(row.level)) {
+            result.set(insee, row.level);
         }
     }
 
     return result;
+}
+
+// ============================================================================
+// Viewport Feature-State Updates
+// ============================================================================
+
+/**
+ * Apply feature-states to visible features in viewport.
+ * Uses RAF batching to avoid frame drops.
+ */
+function applyViewportFeatureStates(state: DisplayBinderState): void {
+    if (!state.insecurityLevelMap) {
+        return;
+    }
+
+    // Query rendered features (viewport-only)
+    const features = state.map.queryRenderedFeatures(undefined, {
+        layers: [FILL_LAYER_ID]
+    });
+
+    // Build batch of updates (skip already applied)
+    const batch: Array<{ feature: MapGeoJSONFeature; level: number }> = [];
+    for (const feature of features) {
+        const insee = feature.properties?.["insee"] as string | undefined;
+        if (!insee || !feature.id) continue;
+
+        // Skip if already applied
+        if (state.appliedStates.has(insee)) continue;
+
+        const level = state.insecurityLevelMap.get(insee);
+        if (level !== undefined) {
+            batch.push({ feature, level });
+        }
+    }
+
+    if (batch.length === 0) {
+        return;
+    }
+
+    // Apply in RAF chunks
+    let index = 0;
+    const applyChunk = (): void => {
+        const chunk = batch.slice(index, index + BATCH_SIZE);
+        for (const { feature, level } of chunk) {
+            state.map.setFeatureState(
+                { source: "communes", id: feature.id },
+                { insecurityLevelCode: level }
+            );
+            const insee = feature.properties?.["insee"] as string | undefined;
+            if (insee) {
+                state.appliedStates.add(insee);
+            }
+        }
+
+        index += BATCH_SIZE;
+        if (index < batch.length) {
+            requestAnimationFrame(applyChunk);
+        }
+    };
+
+    requestAnimationFrame(applyChunk);
+}
+
+/**
+ * Clear all feature-states for insecurity.
+ */
+function clearInsecurityFeatureStates(state: DisplayBinderState): void {
+    // Query all features that might have feature-state
+    const features = state.map.querySourceFeatures("communes");
+
+    for (const feature of features) {
+        if (feature.id) {
+            state.map.removeFeatureState(
+                { source: "communes", id: feature.id },
+                "insecurityLevelCode"
+            );
+        }
+    }
+
+    state.appliedStates.clear();
 }
 
 // ============================================================================
@@ -184,25 +261,24 @@ function saveCurrentExpressions(map: MapLibreMap): SavedExpressions {
 /**
  * Apply insecurity mode expressions to the map.
  */
-function applyInsecurityExpressions(
-    map: MapLibreMap,
-    communeData: Map<string, InsecurityLevel>
-): void {
-    const fillColorExpr = buildInsecurityFillColorExpr(communeData);
-    const lineColorExpr = buildInsecurityLineColorExpr(communeData);
+function applyInsecurityExpressions(state: DisplayBinderState): void {
+    const fillColorExpr = buildInsecurityFillColorExpr();
+    const lineColorExpr = buildInsecurityLineColorExpr();
 
-    map.setPaintProperty(FILL_LAYER_ID, "fill-color", fillColorExpr);
-    map.setPaintProperty(FILL_LAYER_ID, "fill-opacity", INSECURITY_FILL_OPACITY);
-    map.setPaintProperty(LINE_LAYER_ID, "line-color", lineColorExpr);
+    // Determine fill-opacity based on mobile detection
+    const fillOpacity = state.isMobile
+        ? INSECURITY_FILL_OPACITY_MOBILE
+        : INSECURITY_FILL_OPACITY_DESKTOP;
+
+    state.map.setPaintProperty(FILL_LAYER_ID, "fill-color", fillColorExpr);
+    state.map.setPaintProperty(FILL_LAYER_ID, "fill-opacity", fillOpacity);
+    state.map.setPaintProperty(LINE_LAYER_ID, "line-color", lineColorExpr);
 }
 
 /**
  * Restore original expressions.
  */
-function restoreOriginalExpressions(
-    map: MapLibreMap,
-    saved: SavedExpressions
-): void {
+function restoreOriginalExpressions(map: MapLibreMap, saved: SavedExpressions): void {
     if (saved.fillColor !== undefined) {
         map.setPaintProperty(FILL_LAYER_ID, "fill-color", saved.fillColor);
     }
@@ -211,6 +287,47 @@ function restoreOriginalExpressions(
     }
     if (saved.lineColor !== undefined) {
         map.setPaintProperty(LINE_LAYER_ID, "line-color", saved.lineColor);
+    }
+}
+
+// ============================================================================
+// Viewport Event Handlers
+// ============================================================================
+
+/**
+ * Install viewport update handlers (moveend + zoomend ONLY).
+ */
+function installViewportHandlers(state: DisplayBinderState): void {
+    // Remove existing handlers
+    removeViewportHandlers(state);
+
+    // Create handlers
+    const handleViewportUpdate = (): void => {
+        applyViewportFeatureStates(state);
+    };
+
+    state.moveEndHandler = handleViewportUpdate;
+    state.zoomEndHandler = handleViewportUpdate;
+
+    // Attach to map
+    state.map.on("moveend", state.moveEndHandler);
+    state.map.on("zoomend", state.zoomEndHandler);
+
+    // Apply initial viewport states
+    applyViewportFeatureStates(state);
+}
+
+/**
+ * Remove viewport update handlers.
+ */
+function removeViewportHandlers(state: DisplayBinderState): void {
+    if (state.moveEndHandler) {
+        state.map.off("moveend", state.moveEndHandler);
+        state.moveEndHandler = null;
+    }
+    if (state.zoomEndHandler) {
+        state.map.off("zoomend", state.zoomEndHandler);
+        state.zoomEndHandler = null;
     }
 }
 
@@ -231,6 +348,11 @@ async function handleModeChange(state: DisplayBinderState, mode: DisplayMode): P
     state.currentMode = mode;
 
     if (mode === "default") {
+        // Clean up insecurity mode
+        removeViewportHandlers(state);
+        clearInsecurityFeatureStates(state);
+        state.insecurityLevelMap = null;
+
         // Restore original expressions
         if (state.saved) {
             restoreOriginalExpressions(state.map, state.saved);
@@ -244,14 +366,21 @@ async function handleModeChange(state: DisplayBinderState, mode: DisplayMode): P
         const { signal } = state.abortController;
 
         try {
-            const communeData = await loadInsecurityData(signal);
+            // Load data
+            const levelMap = await loadInsecurityData(signal);
 
             // Check if still in insecurity mode after async load
             if (state.currentMode !== "insecurity") {
                 return;
             }
 
-            applyInsecurityExpressions(state.map, communeData);
+            state.insecurityLevelMap = levelMap;
+
+            // Apply expressions
+            applyInsecurityExpressions(state);
+
+            // Install viewport handlers
+            installViewportHandlers(state);
         } catch (error) {
             if (error instanceof DOMException && error.name === "AbortError") {
                 // Aborted, ignore
@@ -277,6 +406,11 @@ export function attachDisplayBinder(map: MapLibreMap): () => void {
         currentMode: displayModeService.getMode(),
         abortController: null,
         unsubscribe: null,
+        insecurityLevelMap: null,
+        appliedStates: new Set(),
+        moveEndHandler: null,
+        zoomEndHandler: null,
+        isMobile: detectMobile(),
     };
 
     // Save current expressions (will restore on detach or mode=default)
@@ -299,6 +433,12 @@ export function attachDisplayBinder(map: MapLibreMap): () => void {
             state.abortController.abort();
             state.abortController = null;
         }
+
+        // Remove viewport handlers
+        removeViewportHandlers(state);
+
+        // Clear feature-states
+        clearInsecurityFeatureStates(state);
 
         // Unsubscribe from mode changes
         if (state.unsubscribe) {
