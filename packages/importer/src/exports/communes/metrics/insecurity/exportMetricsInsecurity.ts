@@ -29,7 +29,6 @@ type MappingFileV1 = {
 type ExportMetricsInsecurityParams = {
     context: ExportContext;
     communes: ExportCommune[];
-    populationByInsee: Map<string, number>;
     ssmsiSource: SourceMeta;
 };
 
@@ -49,7 +48,6 @@ type UnmappedCounter = Map<string, number>;
 export async function exportMetricsInsecurity({
     context,
     communes,
-    populationByInsee,
     ssmsiSource
 }: ExportMetricsInsecurityParams): Promise<string[]> {
     const generatedAtUtc = new Date().toISOString();
@@ -80,6 +78,13 @@ export async function exportMetricsInsecurity({
         "nombre_faits",
         "nb_faits"
     ]);
+    const populationColumn = resolveColumn(columnNames, null, [
+        "insee_pop",
+        "population",
+        "pop",
+        "pmun",
+        "ptot"
+    ]);
 
     const categoryColumn = resolveColumn(columnNames, mapping.categoryKeyColumn, [
         "categorie",
@@ -107,14 +112,15 @@ export async function exportMetricsInsecurity({
                 resourceId: "98fd2271-4d76-4015-a80c-bcec329f6ad0"
             },
             population: {
-                zipUrl: SOURCE_URLS.populationRef,
-                zipEntry: "donnees_communes.csv",
-                fieldsTried: ["pmun", "ptot", "population"]
+                source: "SSMSI Parquet (insee_pop column)",
+                fallbackStrategy: "none",
+                columnInferred: null,
+                missingPopulation: []
             },
             warnings: [
                 "SSMSI mapping is empty. Run inspectSsmsi.ts and populate mapping/ssmsiToGroups.v1.json (groups + categoryKeyColumn)."
             ],
-            inferred: { inseeColumn, yearColumn, factsColumn, categoryColumn }
+            inferred: { inseeColumn, yearColumn, factsColumn, categoryColumn, populationColumn }
         }));
         files.push("communes/metrics/insecurity/meta.json");
         console.warn("[metrics:insecurity] Skipped export (empty mapping)");
@@ -133,14 +139,15 @@ export async function exportMetricsInsecurity({
                 resourceId: "98fd2271-4d76-4015-a80c-bcec329f6ad0"
             },
             population: {
-                zipUrl: SOURCE_URLS.populationRef,
-                zipEntry: "donnees_communes.csv",
-                fieldsTried: ["pmun", "ptot", "population"]
+                source: "SSMSI Parquet (insee_pop column)",
+                fallbackStrategy: "none",
+                columnInferred: null,
+                missingPopulation: []
             },
             warnings: [
                 "SSMSI parquet columns could not be inferred. Run inspectSsmsi.ts and fill mapping/ssmsiToGroups.v1.json."
             ],
-            inferred: { inseeColumn, yearColumn, factsColumn, categoryColumn }
+            inferred: { inseeColumn, yearColumn, factsColumn, categoryColumn, populationColumn }
         }));
         files.push("communes/metrics/insecurity/meta.json");
 
@@ -157,14 +164,19 @@ export async function exportMetricsInsecurity({
     const unmapped: UnmappedCounter = new Map();
 
     const byYear = new Map<number, Map<string, CommuneYearAcc>>();
+    const populationByInsee = new Map<string, number>();
 
     const totalRows = Number(metadata.num_rows);
     const chunkSize = 100_000;
     for (let rowStart = 0; rowStart < totalRows; rowStart += chunkSize) {
         const rowEnd = Math.min(totalRows, rowStart + chunkSize);
+        const columnsToRead = [inseeColumn, yearColumn, factsColumn, categoryColumn];
+        if (populationColumn) {
+            columnsToRead.push(populationColumn);
+        }
         const rows = await parquetReadObjects({
             file,
-            columns: [inseeColumn, yearColumn, factsColumn, categoryColumn],
+            columns: columnsToRead,
             rowStart,
             rowEnd,
             compressors
@@ -173,6 +185,14 @@ export async function exportMetricsInsecurity({
         for (const row of rows) {
             const insee = normalizeInsee(row[inseeColumn]);
             if (!insee) continue;
+
+            // Extract population if available (we take the first non-null value seen)
+            if (populationColumn && !populationByInsee.has(insee)) {
+                const pop = normalizeNonNegativeNumber(row[populationColumn]);
+                if (pop !== null && pop > 0) {
+                    populationByInsee.set(insee, pop);
+                }
+            }
 
             const year = normalizeYear(row[yearColumn]);
             if (!year) continue;
@@ -203,6 +223,9 @@ export async function exportMetricsInsecurity({
 
     const yearsAvailable = Array.from(byYear.keys()).sort((a, b) => a - b);
 
+    // Track communes with facts but missing population
+    const communesWithMissingPopulation = new Set<string>();
+
     // Write per-year files
     for (const year of yearsAvailable) {
         const accByInsee = byYear.get(year) ?? new Map();
@@ -213,6 +236,13 @@ export async function exportMetricsInsecurity({
             .map((commune) => {
                 const population = populationByInsee.get(commune.insee) ?? null;
                 const acc = accByInsee.get(commune.insee) ?? null;
+
+                // Track communes with facts but missing population
+                if (acc && (acc.violencesPersonnes.rows > 0 || acc.securiteBiens.rows > 0 || acc.tranquillite.rows > 0)) {
+                    if (!population) {
+                        communesWithMissingPopulation.add(commune.insee);
+                    }
+                }
 
                 const violences = computeRatePer1000(acc?.violencesPersonnes ?? null, population);
                 const biens = computeRatePer1000(acc?.securiteBiens ?? null, population);
@@ -274,12 +304,13 @@ export async function exportMetricsInsecurity({
             resourceId: "98fd2271-4d76-4015-a80c-bcec329f6ad0"
         },
         population: {
-            zipUrl: SOURCE_URLS.populationRef,
-            zipEntry: "donnees_communes.csv",
-            fieldsTried: ["pmun", "ptot", "population"]
+            source: "SSMSI Parquet (insee_pop column)",
+            fallbackStrategy: "none",
+            columnInferred: populationColumn,
+            missingPopulation: Array.from(communesWithMissingPopulation).sort()
         },
         warnings: [],
-        inferred: { inseeColumn, yearColumn, factsColumn, categoryColumn }
+        inferred: { inseeColumn, yearColumn, factsColumn, categoryColumn, populationColumn }
     }));
 
     files.push("communes/metrics/insecurity/meta.json");
@@ -387,7 +418,7 @@ function buildMeta(params: {
     mappingFile: string;
     unmapped: { rows: number; top: Array<{ key: string; rows: number }> };
     ssmsi: { url: string; resourceId: string };
-    population: { zipUrl: string; zipEntry: string; fieldsTried: string[] };
+    population: { source: string; fallbackStrategy: string; columnInferred: string | null; missingPopulation: string[] };
     warnings: string[];
     inferred: Record<string, string | null>;
 }): Record<string, unknown> {
@@ -400,15 +431,15 @@ function buildMeta(params: {
         yearsAvailable: params.yearsAvailable,
         generatedAtUtc: params.generatedAtUtc,
         methodology:
-            "Agrégation communale par catégorie, normalisée par population INSEE de référence (non annuelle).",
+            "Agrégation communale par catégorie, normalisée par population SSMSI (insee_pop, par année).",
         inputs: {
             ssmsiParquetUrl: params.ssmsi.url,
             ssmsiResourceId: params.ssmsi.resourceId,
-            populationReference: {
-                inseeZipUrl: params.population.zipUrl,
-                zipEntry: params.population.zipEntry,
-                fieldsTried: params.population.fieldsTried,
-                note: "Population non annuelle : taux par année normalisés avec une population de référence."
+            population: {
+                source: params.population.source,
+                fallbackStrategy: params.population.fallbackStrategy,
+                columnInferred: params.population.columnInferred,
+                note: "Population extraite du Parquet SSMSI (insee_pop). Pas de fallback externe."
             }
         },
         mapping: {
@@ -416,7 +447,10 @@ function buildMeta(params: {
             unmapped: params.unmapped
         },
         inferredColumns: params.inferred,
-        warnings: params.warnings
+        warnings: {
+            general: params.warnings,
+            missingPopulation: params.population.missingPopulation
+        }
     };
 }
 

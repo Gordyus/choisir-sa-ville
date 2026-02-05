@@ -63,7 +63,6 @@ async function main(): Promise<void> {
         ...(await exportMetricsInsecurity({
             context,
             communes,
-            populationByInsee,
             ssmsiSource: sources.ssmsi
         }))
     );
