@@ -59,11 +59,18 @@ Exemple pour l'agrégat insécurité au niveau commune :
 
 ### Agrégats connus
 
-| Agrégat | Dossier | Status |
-|---|---|---|
-| Insécurité (SSMSI) | `communes/metrics/insecurity/` | V1 — en cours |
-| Core (INSEE) | `communes/metrics/core.json` | Actif |
-| Housing | `communes/metrics/housing.json` | Actif |
+| Agrégat | Dossier | Status | Notes |
+|---|---|---|---|
+| **Insécurité (SSMSI)** | `communes/metrics/insecurity/` | **Actif** | Quartiles + level baked, viewport-only rendering |
+| Core (INSEE) | `communes/metrics/core.json` | Actif | |
+| Housing | `communes/metrics/housing.json` | Actif | |
+
+**Insécurité (SSMSI)** :
+- **Population source** : `insee_pop` du Parquet SSMSI (pas de fallback ZIP INSEE)
+- **Niveaux** : 0–4 (Très faible → Plus élevé), quartiles calculés sur `scoreRaw > 0`, baked au build-time
+- **Rendu carto** : Feature-state viewport-only (moveend + zoomend), pas de match géant
+- **Performance** : Batching RAF (200 features/frame), adaptive opacity mobile
+- **Documentation** : Voir `docs/METRICS_INSECURITY.md`
 
 ### 2) Config runtime (JSON)
 
