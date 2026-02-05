@@ -348,7 +348,12 @@ function buildPercentileIndex(scores: number[]): Map<number, number> {
     const sorted = scores.slice().sort((a, b) => a - b);
     const n = sorted.length;
 
-    // Midrank percentile for ties.
+    // Percent-rank (min-rank) for ties.
+    //
+    // IMPORTANT: We intentionally do NOT use midrank here.
+    // With midrank, if a large number of communes share the minimum score (common with zeros),
+    // the minimum percentile is no longer 0, which breaks the expected [0..100] normalization
+    // and downstream UX thresholds (quartiles).
     const ranges = new Map<number, { start: number; end: number }>();
     for (let i = 0; i < n; i++) {
         const value = sorted[i]!;
@@ -361,8 +366,8 @@ function buildPercentileIndex(scores: number[]): Map<number, number> {
     }
 
     for (const [value, range] of ranges) {
-        const midRank = (range.start + range.end) / 2;
-        const percentile = n === 1 ? 1 : midRank / (n - 1);
+        const minRank = range.start;
+        const percentile = n === 1 ? 1 : minRank / (n - 1);
         result.set(value, Math.round(100 * percentile));
     }
 
