@@ -140,3 +140,4 @@ export function InsecurityBadge({
 // ============================================================================
 
 export { getInsecurityLevelLabel, type InsecurityLevel };
+

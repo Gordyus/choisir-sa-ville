@@ -1,5 +1,5 @@
-import path from "node:path";
 import { readFile } from "node:fs/promises";
+import path from "node:path";
 
 import { asyncBufferFromFile, parquetMetadataAsync, parquetReadObjects, parquetSchema } from "hyparquet";
 import { compressors } from "hyparquet-compressors";

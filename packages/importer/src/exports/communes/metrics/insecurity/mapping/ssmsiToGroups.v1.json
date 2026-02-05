@@ -1,33 +1,33 @@
 {
-  "version": 1,
-  "categoryKeyColumn": "indicateur",
-  "columns": {
-    "insee": "CODGEO_2025",
-    "year": "annee",
-    "facts": "nombre"
-  },
-  "groups": {
-    "violencesPersonnes": [
-      "Violences physiques intrafamiliales",
-      "Violences physiques hors cadre familial",
-      "Violences sexuelles",
-      "Vols avec armes",
-      "Vols violents sans arme"
-    ],
-    "securiteBiens": [
-      "Vols sans violence contre des personnes",
-      "Cambriolages de logement",
-      "Vols de véhicule",
-      "Vols dans les véhicules",
-      "Vols d'accessoires sur véhicules",
-      "Escroqueries et fraudes aux moyens de paiement"
-    ],
-    "tranquillite": [
-      "Destructions et dégradations volontaires"
+    "version": 1,
+    "categoryKeyColumn": "indicateur",
+    "columns": {
+        "insee": "CODGEO_2025",
+        "year": "annee",
+        "facts": "nombre"
+    },
+    "groups": {
+        "violencesPersonnes": [
+            "Violences physiques intrafamiliales",
+            "Violences physiques hors cadre familial",
+            "Violences sexuelles",
+            "Vols avec armes",
+            "Vols violents sans arme"
+        ],
+        "securiteBiens": [
+            "Vols sans violence contre des personnes",
+            "Cambriolages de logement",
+            "Vols de véhicule",
+            "Vols dans les véhicules",
+            "Vols d'accessoires sur véhicules",
+            "Escroqueries et fraudes aux moyens de paiement"
+        ],
+        "tranquillite": [
+            "Destructions et dégradations volontaires"
+        ]
+    },
+    "notes": [
+        "Keys are indicateur labels exactly as found in the SSMSI parquet.",
+        "Conservative rule: if unsure, do not map (category excluded from totals)."
     ]
-  },
-  "notes": [
-    "Keys are indicateur labels exactly as found in the SSMSI parquet.",
-    "Conservative rule: if unsure, do not map (category excluded from totals)."
-  ]
 }

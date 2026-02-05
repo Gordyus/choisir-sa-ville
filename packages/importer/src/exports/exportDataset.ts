@@ -1,13 +1,13 @@
-import path from "node:path";
 import { readFile } from "node:fs/promises";
+import path from "node:path";
 
 import { exportIndexLite } from "./communes/exportIndexLite.js";
 import { exportMetricsCore } from "./communes/exportMetricsCore.js";
 import { exportMetricsHousing } from "./communes/exportMetricsHousing.js";
-import { exportMetricsInsecurity } from "./communes/metrics/insecurity/exportMetricsInsecurity.js";
 import { exportPostalIndex } from "./communes/exportPostalIndex.js";
-import { exportInfraZonesIndexLite } from "./infra-zones/exportIndexLite.js";
+import { exportMetricsInsecurity } from "./communes/metrics/insecurity/exportMetricsInsecurity.js";
 import { SOURCE_URLS, type SourceKey } from "./constants.js";
+import { exportInfraZonesIndexLite } from "./infra-zones/exportIndexLite.js";
 import { downloadFile } from "./shared/downloadFile.js";
 import { ensureDir, writeJsonAtomic } from "./shared/fileSystem.js";
 import { parseCsv, parseCsvFile, type CsvRecord } from "./shared/parseCsv.js";
