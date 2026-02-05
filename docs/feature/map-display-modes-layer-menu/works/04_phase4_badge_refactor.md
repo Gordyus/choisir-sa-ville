@@ -13,6 +13,7 @@ Refactoriser le composant `InsecurityBadge` pour utiliser la palette centralisé
 **Dépendances**: Phase 1 (INSECURITY_PALETTE)
 
 **Scope**:
+
 1. Remplacer shadcn/ui Badge par `<span>` natif + Tailwind
 2. Utiliser `INSECURITY_PALETTE` pour les couleurs
 3. Supprimer `levelVariants` et `levelCustomStyles` Records
@@ -63,6 +64,7 @@ export function InsecurityBadge({ ... }): JSX.Element | null {
 ```
 
 **Problèmes**:
+
 - ❌ Couleurs définies à deux endroits (Badge variants + custom styles)
 - ❌ Inconsistance: shadcn/ui variants ≠ colors réelles
 - ❌ Dépendance Badge supplémentaire
@@ -97,6 +99,7 @@ export function InsecurityBadge({ ... }): JSX.Element | null {
 ```
 
 **Avantages**:
+
 - ✅ Source unique: `INSECURITY_PALETTE`
 - ✅ Cohérence: Badge utilise même couleurs que carte
 - ✅ Pas de dépendance Badge
@@ -144,6 +147,7 @@ export function InsecurityBadge({ ... }): JSX.Element | null {
 ```
 
 **Justification**:
+
 - ✅ Badge juste wrapper sans valeur ajoutée
 - ✅ HTML natif `<span>` + Tailwind suffisant
 - ✅ Réduit dépendances
@@ -165,6 +169,7 @@ const bgColor = INSECURITY_PALETTE[data.level];
 ```
 
 **Justification**:
+
 - ✅ Source unique de vérité
 - ✅ Carte + Badge utilisent mêmes couleurs
 - ✅ Changement de palette = update 1 seul endroit
@@ -177,6 +182,7 @@ const bgColor = INSECURITY_PALETTE[data.level];
 **Question**: Adapter text color par niveau (comme avant) ou blanc fixe?
 
 **Avant**:
+
 ```typescript
 // Tailwind variants automagiquement ajustaient text color
 // Badge variant="success" → texte vert foncé
@@ -184,11 +190,13 @@ const bgColor = INSECURITY_PALETTE[data.level];
 ```
 
 **Après**:
+
 ```typescript
 className="... text-white"  // Toujours blanc
 ```
 
 **Justification**:
+
 - ✅ Toutes les couleurs palette assez saturées
 - ✅ Blanc lisible sur toutes (contraste WCAG AA)
 - ✅ Plus simple: pas d'algorithme luminosité
@@ -211,6 +219,7 @@ className="... text-white"  // Toujours blanc
 ```
 
 **Justification**:
+
 - ✅ Tailwind ne supporte pas hex arbitraires en className
 - ✅ Inline style est seule solution
 - ✅ Minimal: juste backgroundColor
@@ -311,11 +320,13 @@ $ pnpm lint:eslint
 **Question**: Comment gérer text color sur couleurs variables?
 
 **Options**:
+
 - Detecter luminosité → white/black adaptatif (complexe)
 - Utiliser couleur opposée pour chaque niveau (mapping)
 - Blanc fixe (plus simple)
 
 **Résolution**: Blanc fixe
+
 - Tous les niveaux assez saturés pour blanc lisible
 - Plus simple, moins d'erreurs
 - Cohérent avec design system moderne
@@ -325,10 +336,12 @@ $ pnpm lint:eslint
 ### Incertitude 2: Garder ou Supprimer Badge?
 
 **Options**:
+
 - Garder Badge (wrapper): overhead sans valeur
 - Utiliser `<span>` natif: plus léger
 
 **Résolution**: `<span>` natif
+
 - Badge juste wrapper cosmétique
 - `<span>` + Tailwind suffit
 - Réduit bundle et couplage
@@ -338,10 +351,12 @@ $ pnpm lint:eslint
 ## ✅ Validation Complète
 
 **Avant refactoring**:
+
 - Badge import (unused variant patterns)
 - levelVariants, levelCustomStyles (dupliquent couleurs)
 
 **Après refactoring**:
+
 - ✅ TypeScript: 0 errors
 - ✅ ESLint: 0 errors
 - ✅ Bundle: -21 KB
@@ -362,9 +377,11 @@ $ pnpm lint:eslint
 **Phase 4 COMPLETE**: Badge refactorisé, palette centralisée appliquée.
 
 ### Fichier Modifié
+
 - ✅ `apps/web/components/insecurity-badge.tsx` (1 fichier, ~40 LOC modifiées)
 
 ### Bénéfices
+
 - ✅ Source unique pour couleurs insécurité
 - ✅ Bundle réduit (-21 KB)
 - ✅ Cohérence garantie (badge + carte)
@@ -372,4 +389,5 @@ $ pnpm lint:eslint
 - ✅ Maintenance plus facile (1 place pour changer couleurs)
 
 ### Prochaines Étapes (Phase 5)
+
 - Régression verification (7 critères, 9 scénarios)

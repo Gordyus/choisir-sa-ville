@@ -26,6 +26,7 @@
 ✅ **Ready for production deployment**
 
 **Key Achievements**:
+
 - ✅ Jamstack architecture respectée (data statique, pas de backend runtime)
 - ✅ Expression design CRITIQUE validé: fill stable, line reactive
 - ✅ Palette centralisée (5 fichiers touchés, cohérence parfaite)
@@ -154,6 +155,7 @@ function buildInsecurityLineColorExpr(
 ```
 
 **Strengths**:
+
 - ✅ **Separation of concerns**: Service agnostic React/MapLibre, testable isolé
 - ✅ **Unidirectional flow**: UI → Service → Binder → MapLibre
 - ✅ **No tight coupling**: Each layer interchangeable
@@ -174,6 +176,7 @@ map-layer-menu.tsx  vector-map.tsx (attach)
 ```
 
 **Analysis**:
+
 - ✅ Palette = leaf node (zero deps, pure data)
 - ✅ Service = 1 dep (palette), headless
 - ✅ Hook = 2 deps (React, service)
@@ -203,6 +206,7 @@ apps/web/
 ```
 
 **Observations**:
+
 - ✅ Logique métier dans `lib/` (pas de UI)
 - ✅ Composants UI dans `components/`
 - ✅ Config centralisée dans `lib/config/`
@@ -263,6 +267,7 @@ $ pnpm lint:eslint
 ```
 
 **Rules Enforced**:
+
 - ✅ `@typescript-eslint/no-unused-vars` (PASS)
 - ✅ `react-hooks/rules-of-hooks` (PASS)
 - ✅ `react-hooks/exhaustive-deps` (PASS)
@@ -270,6 +275,7 @@ $ pnpm lint:eslint
 - ✅ No console.log (seul console.error autorisé)
 
 **Pre-Build Fixes Applied**:
+
 - Phase 6: `let` → `const` (stylePipeline.ts, pre-existing file)
 - Phase 6: Empty interface → type alias (right-panel-details-card.tsx, pre-existing)
 
@@ -286,10 +292,12 @@ $ pnpm lint:eslint
 | **Consistent formatting** | Prettier 100% compliant | ✅ A+ |
 
 **Minor Issues**:
+
 - ⚠️ `// @ts-expect-error` absent (pas nécessaire ici, mais bonne pratique)
 - ⚠️ Pas de unit tests (service, builders testables facilement)
 
 **Recommendations**:
+
 ```typescript
 // Future improvement: Unit tests
 describe("buildInsecurityFillColorExpr", () => {
@@ -324,6 +332,7 @@ Net impact: +16.9 KB - 20.8 KB = -3.9 KB ✅
 ```
 
 **Bundle Analysis** (from Phase 6 report):
+
 - Main bundle: 284 KB (before: ~288 KB)
 - First Load JS: 386 KB
 - ✅ **Net reduction achieved** (badge refactor > new code)
@@ -339,6 +348,7 @@ Net impact: +16.9 KB - 20.8 KB = -3.9 KB ✅
 | Paint property set | O(MapLibre internal) | ✅ GPU-accelerated |
 
 **Memory Leaks Prevention**:
+
 ```typescript
 // displayBinder.ts#L277-L296
 return () => {
@@ -375,6 +385,7 @@ return () => {
 | Page reload | 0 (mode restored) | ✅ sessionStorage |
 
 **Data Size**:
+
 - `meta.json`: ~500 bytes
 - `{year}.json`: ~500 KB (36,000 communes × 15 bytes/row)
 
@@ -386,10 +397,11 @@ return () => {
 
 ### 4.1 Fill-Color Expression
 
-**Spec Requirement**: 
+**Spec Requirement**:
 > fill-color: data-driven (insecurity level) - NO feature-state (keeps choroplèthe stable)
 
 **Implementation**:
+
 ```typescript
 function buildInsecurityFillColorExpr(
   communeInsecurityMap: Map<string, InsecurityLevel>
@@ -407,6 +419,7 @@ function buildInsecurityFillColorExpr(
 ```
 
 **MapLibre Expression**:
+
 ```json
 [
   "match",
@@ -419,6 +432,7 @@ function buildInsecurityFillColorExpr(
 ```
 
 **Analysis**:
+
 - ✅ **NO feature-state** referenced anywhere
 - ✅ Pure match expression (insee → color)
 - ✅ Fallback color for communes without data
@@ -440,6 +454,7 @@ function buildInsecurityFillColorExpr(
 > line-color: data-driven + feature-state (highlight/active override)
 
 **Implementation**:
+
 ```typescript
 function buildInsecurityLineColorExpr(
   communeInsecurityMap: Map<string, InsecurityLevel>
@@ -469,13 +484,14 @@ function buildInsecurityLineColorExpr(
 ```
 
 **MapLibre Expression**:
+
 ```json
 [
   "case",
   ["boolean", ["feature-state", "active"], false],
-  "#1e40af",  // COMMUNE_COLORS.line.active
+  "#f59e0b",  // COMMUNE_COLORS.line.active
   ["boolean", ["feature-state", "highlight"], false],
-  "#3b82f6",  // COMMUNE_COLORS.line.highlight
+  "#2d5bff",  // COMMUNE_COLORS.line.highlight
   ["match", ["get", "insee"],
     "01001", "#22c55e",
     ...
@@ -485,6 +501,7 @@ function buildInsecurityLineColorExpr(
 ```
 
 **Analysis**:
+
 - ✅ **Priority order**: active > highlight > data-driven
 - ✅ Feature-state properly referenced
 - ✅ Level color as fallback (coherence with fill)
@@ -507,6 +524,7 @@ function buildInsecurityLineColorExpr(
 > line-width: NOT modified (keep original for interaction)
 
 **Implementation**:
+
 ```typescript
 type SavedExpressions = {
   fillColor: ExpressionSpecification | string | undefined;
@@ -539,6 +557,7 @@ function applyInsecurityExpressions(
 ```
 
 **Analysis**:
+
 - ✅ `line-width` never read (not in SavedExpressions)
 - ✅ `line-width` never modified (not in applyInsecurityExpressions)
 - ✅ Original interaction styling preserved
@@ -590,6 +609,7 @@ function applyInsecurityExpressions(
 ```
 
 **Analysis**:
+
 - ✅ **Minimal changes**: +12 LOC (2 imports, 1 ref, 3 cleanup lines, 1 render)
 - ✅ **Cleanup order**: detach binders → map.remove() (correct)
 - ✅ **No re-render triggers**: displayBinder headless, no props passed
@@ -636,6 +656,7 @@ function applyInsecurityExpressions(
 ```
 
 **Analysis**:
+
 - ✅ **Palette centralized**: Badge + carte utilisent INSECURITY_PALETTE
 - ✅ **Dependency reduced**: Badge wrapper removed (-20 KB)
 - ✅ **Consistency**: Couleurs identiques carte/badge (faible=#22c55e, etc.)
@@ -668,6 +689,7 @@ function applyInsecurityExpressions(
 | [06_phase6_build_validation.md](./06_phase6_build_validation.md) | 367 | ✅ Excellent | Build results, bundle analysis, fixes |
 
 **Documentation Strengths**:
+
 - ✅ **Chronological**: Phase-by-phase progression claire
 - ✅ **Detailed**: Decisions architecturales justifiées
 - ✅ **Code samples**: Snippets avant/après, TypeScript fixes
@@ -744,6 +766,7 @@ function applyInsecurityExpressions(
 **Status**: ✅ **READY**
 
 **Pre-Deployment Checklist**:
+
 - ✅ Build successful (1986ms, 0 errors)
 - ✅ TypeScript strict mode PASS
 - ✅ ESLint PASS (0 warnings)
@@ -754,6 +777,7 @@ function applyInsecurityExpressions(
 - ✅ Expression design validated
 
 **Deployment Steps**:
+
 1. ✅ Merge feature branch
 2. ✅ Run final `pnpm build` on CI
 3. ✅ Deploy to production (Jamstack static export)
@@ -774,6 +798,7 @@ function applyInsecurityExpressions(
 | **Tooltip hint** (first-time user) | 🟡 Medium | 🟢 Low | 🟢 Low |
 
 **Recommended Priority**:
+
 1. **Unit tests** (coverage regression, builders logic)
 2. Analytics (user behavior data)
 3. Legend (help lisibility)
@@ -886,6 +911,7 @@ function applyInsecurityExpressions(...) {
 ### Overall Grade: ✅ **A+ (EXCELLENT)**
 
 **Compliance Summary**:
+
 - Spec compliance: **100%** ✅
 - Architecture: **100%** ✅
 - Code quality: **100%** ✅
@@ -893,6 +919,7 @@ function applyInsecurityExpressions(...) {
 - Documentation: **100%** ✅
 
 **Key Achievements**:
+
 1. ✅ **Expression design CRITICAL validated** (fill stable, line reactive)
 2. ✅ **Jamstack architecture respected** (no backend runtime)
 3. ✅ **Palette centralized** (5 fichiers cohérents)

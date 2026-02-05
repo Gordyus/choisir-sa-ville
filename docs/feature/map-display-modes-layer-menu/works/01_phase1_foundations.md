@@ -12,6 +12,7 @@
 Implémenter l'infrastructure de base pour la gestion du mode d'affichage (default | insecurity) de la choroplèthe.
 
 **Scope**:
+
 1. **Palette centralisée** (`insecurityPalette.ts`): couleurs hex des 4 niveaux d'insécurité
 2. **Service observable** (`displayModeService.ts`): singleton headless (aucune dépendance React/MapLibre)
 3. **Hook React** (`useDisplayMode.ts`): wrapper pour accès au service depuis composants
@@ -47,6 +48,7 @@ Implémenter l'infrastructure de base pour la gestion du mode d'affichage (defau
 ```
 
 **Avantages de cette séparation**:
+
 - ✅ Service indépendant (testable sans React)
 - ✅ Hook léger (juste bridge)
 - ✅ Palette centralisée (source unique)
@@ -62,6 +64,7 @@ Implémenter l'infrastructure de base pour la gestion du mode d'affichage (defau
 **Dépendances**: Aucune
 
 #### Contenu
+
 ```typescript
 export type InsecurityLevel = "faible" | "modere" | "eleve" | "tres-eleve";
 
@@ -89,7 +92,8 @@ export function isInsecurityLevel(value: unknown): value is InsecurityLevel {
 
 #### Validation
 
-✅ **TypeScript**: 
+✅ **TypeScript**:
+
 ```bash
 # Pas d'erreurs
 - Type Record valide
@@ -98,6 +102,7 @@ export function isInsecurityLevel(value: unknown): value is InsecurityLevel {
 ```
 
 ✅ **ESLint**:
+
 ```bash
 # Pas d'erreurs
 - Pas de unused imports
@@ -113,6 +118,7 @@ export function isInsecurityLevel(value: unknown): value is InsecurityLevel {
 **Dépendances**: Aucune (pur TypeScript)
 
 #### Contenu Clé
+
 ```typescript
 export type DisplayMode = "default" | "insecurity";
 
@@ -133,11 +139,13 @@ export const displayModeService = new DisplayModeService();
 #### Pattern: Observer Pattern (Event Emitter)
 
 **Pourquoi pas RxJS ou Redux?**
+
 - ❌ RxJS: Trop lourd pour 2 states
 - ❌ Redux: Overkill, boilerplate
 - ✅ EventEmitter simple: lightweight, directement utilisable
 
 **Idempotence**:
+
 ```typescript
 setMode(mode) {
   if (this.mode === mode) return; // ← Pas double-notification
@@ -159,6 +167,7 @@ private loadFromStorage(): void {
 ```
 
 **Choix: sessionStorage vs localStorage**
+
 - ✅ sessionStorage: Reinit à chaque F5 (comportement attendu)
 - ❌ localStorage: Persiste entre sessions (useless pour mode temporaire)
 
@@ -175,6 +184,7 @@ private loadFromStorage(): void {
 #### Validation
 
 ✅ **TypeScript**:
+
 ```bash
 # Pas d'erreurs
 - DisplayMode type literal: faible
@@ -184,6 +194,7 @@ private loadFromStorage(): void {
 ```
 
 ✅ **ESLint**:
+
 ```bash
 # Pas d'erreurs
 - Pas de unused variables
@@ -199,6 +210,7 @@ private loadFromStorage(): void {
 **Dépendances**: React 18, displayModeService
 
 #### Contenu
+
 ```typescript
 "use client"; // Next.js App Router
 
@@ -249,6 +261,7 @@ export function useDisplayMode(): UseDisplayModeReturn {
 #### Validation
 
 ✅ **TypeScript**:
+
 ```bash
 # Pas d'erreurs
 - UseDisplayModeReturn interface
@@ -257,6 +270,7 @@ export function useDisplayMode(): UseDisplayModeReturn {
 ```
 
 ✅ **ESLint (React Hooks)**:
+
 ```bash
 # Pas d'erreurs
 - useEffect dépendance vide: OK (pas d'update)
@@ -271,10 +285,12 @@ export function useDisplayMode(): UseDisplayModeReturn {
 ### Point 1: Où stocker le state global?
 
 **Incertitude initiale**:
+
 - Zustand? Redux? Context? Service?
 - Quel est le pattern "choisir-sa-ville"?
 
 **Résolution**:
+
 - ✅ Vérification AGENTS.md: "État global React gratuit" interdit
 - ✅ Service observable pattern est léger et isolé
 - ✅ Pas de React dépendance dans service (pur TS)
@@ -285,6 +301,7 @@ export function useDisplayMode(): UseDisplayModeReturn {
 **Problème**: `sessionStorage` existe pas en Node.js
 
 **Résolution**:
+
 ```typescript
 private loadFromStorage(): void {
   if (typeof window === "undefined") return; // ✓ Guard SSR
@@ -297,6 +314,7 @@ private loadFromStorage(): void {
 **Question**: Utiliser Tailwind colors ou hex custom?
 
 **Résolution**:
+
 - ✓ Hex direct: MapLibre ne comprend que hex
 - ✓ Tailwind comme référence (green-500 = #22c55e)
 - ✓ Palette centralisée = pas de desync
@@ -311,6 +329,7 @@ private loadFromStorage(): void {
 **Question**: Pourquoi pas `BehaviorSubject`?
 
 **Réponse**:
+
 - Bundle size: RxJS ~20 KB vs simple EventEmitter ~0 KB
 - Complexity: Overkill pour "default" ↔ "insecurity"
 - Existing codebase: MapLibre handlers sont aussi simple EventEmitter
@@ -321,6 +340,7 @@ private loadFromStorage(): void {
 **Question**: Si displayModeService → data loader → displayModeService?
 
 **Réponse**:
+
 - ✓ Phase 3 (DisplayBinder) importera displayModeService (pas l'inverse)
 - ✓ Graph d'import: palette → service → hook → components → binder
 - ✓ Aucune cycle
@@ -330,6 +350,7 @@ private loadFromStorage(): void {
 **Question**: Service est testable?
 
 **Réponse**:
+
 ```typescript
 // ✓ Peut être testé sans React
 const service = new DisplayModeService();
@@ -383,18 +404,21 @@ $ pnpm lint:eslint
 ### Manual Verification
 
 ✅ Service:
+
 - Singleton: `displayModeService` exported
 - Modes: "default" | "insecurity"
 - Storage: sessionStorage pour persistence
 - Subscriber: callback type correct
 
 ✅ Hook:
+
 - Client component: "use client" present
 - Lifecycle: useEffect cleanup correct
 - State sync: local state mirrors service
 - Memoization: useCallback pour setMode
 
 ✅ Palette:
+
 - 4 levels: faible, modere, eleve, tres-eleve
 - Hex format: #RRGGBB (MapLibre compatible)
 - Type guard: isInsecurityLevel() present
@@ -406,6 +430,7 @@ $ pnpm lint:eslint
 **Phase 1 COMPLETE**: Fondations en place, aucun blocage, prêt pour Phase 2 (MapLayerMenu UI).
 
 ### Prochaines Étapes (Phase 2)
+
 - Créer composant `MapLayerMenu` (dropdown UI)
 - Importer `useDisplayMode` hook
 - Intégrer dans `vector-map.tsx`

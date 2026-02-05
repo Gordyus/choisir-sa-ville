@@ -18,89 +18,89 @@
 export type DisplayMode = "default" | "insecurity";
 
 interface Subscriber {
-  (mode: DisplayMode): void;
+    (mode: DisplayMode): void;
 }
 
 class DisplayModeService {
-  private mode: DisplayMode = "default";
-  private subscribers: Set<Subscriber> = new Set();
-  private storageKey = "displayMode";
+    private mode: DisplayMode = "default";
+    private subscribers: Set<Subscriber> = new Set();
+    private storageKey = "displayMode";
 
-  constructor() {
-    this.loadFromStorage();
-  }
-
-  /**
-   * Charge le mode depuis sessionStorage (optionnel)
-   * Fallback: default
-   */
-  private loadFromStorage(): void {
-    if (typeof window === "undefined") return;
-    const stored = sessionStorage.getItem(this.storageKey);
-    if (stored === "insecurity" || stored === "default") {
-      this.mode = stored;
+    constructor() {
+        this.loadFromStorage();
     }
-  }
 
-  /**
-   * Persiste le mode dans sessionStorage
-   */
-  private saveToStorage(): void {
-    if (typeof window === "undefined") return;
-    sessionStorage.setItem(this.storageKey, this.mode);
-  }
+    /**
+     * Charge le mode depuis sessionStorage (optionnel)
+     * Fallback: default
+     */
+    private loadFromStorage(): void {
+        if (typeof window === "undefined") return;
+        const stored = sessionStorage.getItem(this.storageKey);
+        if (stored === "insecurity" || stored === "default") {
+            this.mode = stored;
+        }
+    }
 
-  /**
-   * Retourne le mode actuel
-   */
-  getMode(): DisplayMode {
-    return this.mode;
-  }
+    /**
+     * Persiste le mode dans sessionStorage
+     */
+    private saveToStorage(): void {
+        if (typeof window === "undefined") return;
+        sessionStorage.setItem(this.storageKey, this.mode);
+    }
 
-  /**
-   * Change le mode et notifie tous les subscribers
-   */
-  setMode(mode: DisplayMode): void {
-    if (this.mode === mode) return; // Idempotence
+    /**
+     * Retourne le mode actuel
+     */
+    getMode(): DisplayMode {
+        return this.mode;
+    }
 
-    this.mode = mode;
-    this.saveToStorage();
-    this.notifySubscribers();
-  }
+    /**
+     * Change le mode et notifie tous les subscribers
+     */
+    setMode(mode: DisplayMode): void {
+        if (this.mode === mode) return; // Idempotence
 
-  /**
-   * S'abonne aux changements de mode
-   * Retourne fonction de désabonnement
-   */
-  subscribe(callback: Subscriber): () => void {
-    this.subscribers.add(callback);
+        this.mode = mode;
+        this.saveToStorage();
+        this.notifySubscribers();
+    }
 
-    // Retourner fonction cleanup
-    return () => {
-      this.subscribers.delete(callback);
-    };
-  }
+    /**
+     * S'abonne aux changements de mode
+     * Retourne fonction de désabonnement
+     */
+    subscribe(callback: Subscriber): () => void {
+        this.subscribers.add(callback);
 
-  /**
-   * Notifie tous les subscribers
-   */
-  private notifySubscribers(): void {
-    this.subscribers.forEach((callback) => {
-      try {
-        callback(this.mode);
-      } catch (error) {
-        console.error("Error in displayMode subscriber:", error);
-      }
-    });
-  }
+        // Retourner fonction cleanup
+        return () => {
+            this.subscribers.delete(callback);
+        };
+    }
 
-  /**
-   * Réinitialise à default (utile pour cleanup)
-   */
-  reset(): void {
-    this.setMode("default");
-    this.subscribers.clear();
-  }
+    /**
+     * Notifie tous les subscribers
+     */
+    private notifySubscribers(): void {
+        this.subscribers.forEach((callback) => {
+            try {
+                callback(this.mode);
+            } catch (error) {
+                console.error("Error in displayMode subscriber:", error);
+            }
+        });
+    }
+
+    /**
+     * Réinitialise à default (utile pour cleanup)
+     */
+    reset(): void {
+        this.setMode("default");
+        this.subscribers.clear();
+    }
 }
 
 // Singleton instance

@@ -11,6 +11,7 @@
 Exécuter `pnpm build` pour valider que l'implémentation complète (Phases 1-5) compile sans erreurs et produit un bundle optimisé pour production.
 
 **Dépendances**:
+
 - ✅ Phase 1: Palette, Service, Hook
 - ✅ Phase 2: MapLayerMenu component
 - ✅ Phase 3: DisplayBinder (280 lignes)
@@ -25,7 +26,8 @@ Exécuter `pnpm build` pour valider que l'implémentation complète (Phases 1-5)
 pnpm build
 ```
 
-**Loci**: 
+**Loci**:
+
 - Root: `pnpm build` → monorepo build
 - Spécifiquement: `pnpm --filter @choisir-sa-ville/web build` → Next.js build
 
@@ -84,6 +86,7 @@ $ next build
 ```
 
 **Validation complète**:
+
 - ✅ TypeScript strict mode: All files
 - ✅ ESLint: All patterns (react-hooks, @typescript-eslint)
 - ✅ Next.js specific checks: All pages
@@ -176,6 +179,7 @@ Tracked Changes (expected):
 ### Fix 1: Empty Interface in right-panel-details-card.tsx
 
 **Error**:
+
 ```
 ./components/right-panel-details-card.tsx
 29:11  Error: An interface declaring no members is equivalent to 
@@ -183,6 +187,7 @@ Tracked Changes (expected):
 ```
 
 **Solution**:
+
 ```typescript
 // ❌ Before
 interface RightPanelDetailsCardProps extends HTMLAttributes<HTMLDivElement> {
@@ -200,6 +205,7 @@ type RightPanelDetailsCardProps = HTMLAttributes<HTMLDivElement>;
 ### Fix 2: Let Instead of Const in stylePipeline.ts
 
 **Error**:
+
 ```
 ./lib/map/style/stylePipeline.ts
 49:9  Error: 'processedLayers' is never reassigned. 
@@ -207,6 +213,7 @@ type RightPanelDetailsCardProps = HTMLAttributes<HTMLDivElement>;
 ```
 
 **Solution**:
+
 ```typescript
 // ❌ Before
 let processedLayers = sanitizeLayers(...);
@@ -294,6 +301,7 @@ CMD ["nginx", "-g", "daemon off;"]
 | **Pre-Build Fixes** | **0** | **2** | **✅ Fixed** |
 
 **Total changes**:
+
 - **5 files created** (Phases 1-3)
 - **5 files modified** (Phases 2-4, pre-build fixes)
 - **~600 lines code** (core logic)
@@ -321,6 +329,7 @@ CMD ["nginx", "-g", "daemon off;"]
 **Map Display Modes Feature (B6)** = ✅ **COMPLETE & VALIDATED**
 
 Feature ready for:
+
 - ✅ Production deployment
 - ✅ User testing
 - ✅ Code review

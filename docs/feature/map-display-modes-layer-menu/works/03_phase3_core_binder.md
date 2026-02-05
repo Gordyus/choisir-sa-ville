@@ -11,10 +11,12 @@
 Implémenter le cœur de la logique choroplèthe: le `DisplayBinder` qui écoute le service de mode et applique les expressions MapLibre correspondantes sur les layers communes.
 
 **Dépendances**:
+
 - Phase 1: `displayModeService`, `INSECURITY_PALETTE`
 - Existants: `COMMUNE_COLORS`, `LAYER_IDS`, `insecurityMetrics`
 
 **Scope**:
+
 1. Créer `displayBinder.ts`: Subscribe mode → build expressions → apply paint
 2. Expressions: fill-color (pure match), line-color (case + feature-state)
 3. Async loading: charger données insecurity + AbortController
@@ -140,6 +142,7 @@ function buildInsecurityFillColorExpr(
 ```
 
 **Résultat**:
+
 ```json
 ["match", ["get", "insee"],
   "01001", "#22c55e",
@@ -150,6 +153,7 @@ function buildInsecurityFillColorExpr(
 ```
 
 **Caractéristiques**:
+
 - ✅ Pure match (pas de feature-state)
 - ✅ Fill stable sur hover/click
 - ✅ Fallback pour communes sans données
@@ -186,6 +190,7 @@ function buildInsecurityLineColorExpr(
 ```
 
 **Résultat**:
+
 ```json
 ["case",
   ["boolean", ["feature-state", "active"], false], "#f59e0b",
@@ -200,6 +205,7 @@ function buildInsecurityLineColorExpr(
 ```
 
 **Caractéristiques**:
+
 - ✅ Active (orange) > Highlight (bleu) > Data match
 - ✅ Feature-state dans case (pas dans match)
 - ✅ Contour réagit à l'interaction
@@ -231,6 +237,7 @@ async function loadInsecurityData(
 ```
 
 **Flow**:
+
 1. Charger meta.json → récupérer `yearsAvailable`
 2. Prendre année la plus récente
 3. Charger {year}.json
@@ -286,6 +293,7 @@ async function handleModeChange(state: DisplayBinderState, mode: DisplayMode): P
 ```
 
 **Caractéristiques**:
+
 - ✅ AbortController pour cancel pendant load
 - ✅ Check mode après async (évite race condition)
 - ✅ Restore gracieux si mode=default
@@ -336,6 +344,7 @@ export function attachDisplayBinder(map: MapLibreMap): () => void {
 ```
 
 **Lifecycle**:
+
 1. **Attach**: Save expressions → Subscribe → Apply if not default
 2. **Mode change**: Abort pending → Restore ou Apply nouveau
 3. **Detach**: Abort → Unsubscribe → Restore
@@ -380,6 +389,7 @@ return () => {
 ```
 
 **Ordre important**:
+
 - Detach displayBinder AVANT entityGraphicsBinder
 - Raison: displayBinder restore expressions, entityGraphicsBinder restore feature-state
 - Inversé causerait expressions restaurées avec feature-state incorrect
@@ -404,6 +414,7 @@ type SavedExpressions = {
 ```
 
 **Justification**:
+
 - ✅ line-width déjà géré par highlightState.ts (feature-state)
 - ✅ Modifier line-width causerait conflit avec interactions existantes
 - ✅ Spec dit: "line-width = width normal constant"
@@ -417,6 +428,7 @@ type SavedExpressions = {
 > "highlight/active ne doit pas altérer fill-color"
 
 **Implémentation**:
+
 ```typescript
 // fill-color = PURE MATCH (pas de case/feature-state)
 ["match", ["get", "insee"],
@@ -426,6 +438,7 @@ type SavedExpressions = {
 ```
 
 **Alternative rejetée**:
+
 ```typescript
 // ❌ MAUVAIS: fill changerait sur hover
 ["case",
@@ -435,6 +448,7 @@ type SavedExpressions = {
 ```
 
 **Justification**:
+
 - ✅ Choroplèthe reste stable
 - ✅ Lecture visuelle claire
 - ✅ L'interaction est sur LINE, pas FILL
@@ -447,6 +461,7 @@ type SavedExpressions = {
 > "highlight/active s'applique au line (contour)"
 
 **Implémentation**:
+
 ```typescript
 ["case",
   ["boolean", ["feature-state", "active"], false], ACTIVE_COLOR,
@@ -458,6 +473,7 @@ type SavedExpressions = {
 **Priorité**: Active > Highlight > Data
 
 **Justification**:
+
 - ✅ Active (click) doit être le plus visible
 - ✅ Highlight (hover) secondaire
 - ✅ Data (niveau insécurité) = baseline
@@ -470,6 +486,7 @@ type SavedExpressions = {
 **Problème**: Mode peut changer pendant le chargement des données
 
 **Solution**:
+
 ```typescript
 if (state.abortController) {
   state.abortController.abort(); // Cancel pending
@@ -484,6 +501,7 @@ if (state.currentMode !== "insecurity") {
 ```
 
 **Justification**:
+
 - ✅ Pas de fetch inutiles
 - ✅ Pas de race conditions
 - ✅ Pattern standard React/async
@@ -506,6 +524,7 @@ return () => {
 ```
 
 **Justification**:
+
 - Expressions restaurées d'abord (displayBinder)
 - Puis feature-state cleared (entityGraphicsBinder)
 - Puis events removed
@@ -518,17 +537,20 @@ return () => {
 ### Blocage 1: ExpressionSpecification Type Coercion
 
 **Problème**:
+
 ```typescript
 const matchExpr: unknown[] = ["match", ["get", "insee"]];
 // TypeScript: cannot assign unknown[] to ExpressionSpecification
 ```
 
 **Solution**:
+
 ```typescript
 return matchExpr as ExpressionSpecification;
 ```
 
 **Justification**:
+
 - MapLibre expressions sont dynamiquement construites
 - Le type ExpressionSpecification est un union large
 - Runtime: structure correcte
@@ -539,17 +561,20 @@ return matchExpr as ExpressionSpecification;
 ### Blocage 2: Feature-state Boolean Wrapper
 
 **Problème**:
+
 ```typescript
 ["feature-state", "active"] // Retourne true|false|undefined
 ```
 
 **Solution**:
+
 ```typescript
 ["boolean", ["feature-state", "active"], false]
 // Force: undefined → false
 ```
 
 **Justification**:
+
 - MapLibre case attend boolean strict
 - `["feature-state", "active"]` peut retourner undefined
 - Wrapper boolean garantit true/false
@@ -561,6 +586,7 @@ return matchExpr as ExpressionSpecification;
 **Problème**: Données chargées mais mode a changé
 
 **Solution**:
+
 ```typescript
 const communeData = await loadInsecurityData(signal);
 
@@ -573,6 +599,7 @@ applyInsecurityExpressions(state.map, communeData);
 ```
 
 **Justification**:
+
 - AbortController stoppe le fetch
 - Check post-await stoppe l'application
 - Double protection
@@ -596,6 +623,7 @@ COMMUNE_COLORS.line.highlight  // #2d5bff (bleu)
 ```
 
 **Justification**:
+
 - Cohérence avec styling existant
 - Pas de duplication de couleurs
 - Active = orange, Highlight = bleu (déjà établi)
@@ -613,6 +641,7 @@ const INSECURITY_FILL_OPACITY = 0.35;
 ```
 
 **Justification**:
+
 - Spec dit "0.18-0.30 ou variant par niveau"
 - 0.35 = visible sans masquer le basemap
 - Fixe = plus simple, moins de confusion visuelle
@@ -631,6 +660,7 @@ const DEFAULT_FILL_COLOR = "#64748b";
 ```
 
 **Justification**:
+
 - Transparent = communes "disparaissent" visuellement
 - Neutre = visible mais distinct des niveaux
 - Slate-500 = cohérent avec design system
@@ -730,11 +760,13 @@ $ pnpm lint:eslint
 **Phase 3 COMPLETE**: Core binder implémenté, expressions correctes, intégration terminée.
 
 ### Prochaines Étapes (Phases 4-6)
+
 - Phase 4: Badge refactoring (utiliser palette centralisée)
 - Phase 5: Régression verification (7 critères)
 - Phase 6: Build validation (pnpm build)
 
 ### Fonctionnalités Activées
+
 - ✅ Switch mode default ↔ insecurity
 - ✅ Choroplèthe fill stable sur hover
 - ✅ Line color réactive aux interactions

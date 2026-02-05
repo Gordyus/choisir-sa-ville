@@ -11,10 +11,12 @@
  * - Positionnement: Fixed, top-left
  * - Backdrop: Click outside ferme le dropdown
  * - Icons: SVG inline (zéro dépendances)
- * - Styles: Tailwind CSS
+ * - Styles: Tailwind CSS + shadcn/ui Button
  */
 
+import { Button } from "@/components/ui/button";
 import { useDisplayMode } from "@/lib/map/state/useDisplayMode";
+import { cn } from "@/lib/utils";
 import { useCallback, useState } from "react";
 
 // ============================================================================
@@ -52,9 +54,14 @@ export function MapLayerMenu(): JSX.Element {
       {/* Menu Container */}
       <div className="fixed left-4 top-4 z-50">
         {/* Toggle Button */}
-        <button
+        <Button
           onClick={() => setIsOpen(!isOpen)}
-          className="flex items-center gap-2 rounded-lg border border-slate-200 bg-white px-3 py-2 shadow-md transition-all hover:shadow-lg"
+          variant="subtle"
+          size="sm"
+          className={cn(
+            "gap-2 rounded-lg shadow-md transition-all hover:shadow-lg",
+            isOpen && "shadow-lg"
+          )}
           aria-expanded={isOpen}
           aria-haspopup="menu"
         >
@@ -88,7 +95,7 @@ export function MapLayerMenu(): JSX.Element {
           >
             <polyline points="6 9 12 15 18 9" />
           </svg>
-        </button>
+        </Button>
 
         {/* Dropdown Menu */}
         {isOpen && (
@@ -97,13 +104,14 @@ export function MapLayerMenu(): JSX.Element {
             role="menu"
           >
             {/* Default Mode */}
-            <button
+            <Button
               onClick={() => handleModeSelect("default")}
-              className={`flex w-full items-center gap-3 px-4 py-3 text-left transition-colors ${
-                mode === "default"
-                  ? "bg-blue-50 text-blue-700"
-                  : "text-slate-700 hover:bg-slate-50"
-              }`}
+              variant="ghost"
+              size="sm"
+              className={cn(
+                "w-full justify-start gap-3 rounded-none px-4 py-3 text-left",
+                mode === "default" && "bg-blue-50 text-blue-700"
+              )}
               role="menuitem"
             >
               {/* Checkmark */}
@@ -122,16 +130,17 @@ export function MapLayerMenu(): JSX.Element {
               {mode !== "default" && <div className="w-4" />}
 
               <span className="text-sm font-medium">Default</span>
-            </button>
+            </Button>
 
             {/* Insecurity Mode */}
-            <button
+            <Button
               onClick={() => handleModeSelect("insecurity")}
-              className={`flex w-full items-center gap-3 border-t border-slate-200 px-4 py-3 text-left transition-colors ${
-                mode === "insecurity"
-                  ? "bg-blue-50 text-blue-700"
-                  : "text-slate-700 hover:bg-slate-50"
-              }`}
+              variant="ghost"
+              size="sm"
+              className={cn(
+                "w-full justify-start gap-3 rounded-none border-t border-slate-200 px-4 py-3 text-left",
+                mode === "insecurity" && "bg-blue-50 text-blue-700"
+              )}
               role="menuitem"
             >
               {/* Checkmark */}
@@ -150,7 +159,7 @@ export function MapLayerMenu(): JSX.Element {
               {mode !== "insecurity" && <div className="w-4" />}
 
               <span className="text-sm font-medium">Insecurity</span>
-            </button>
+            </Button>
           </div>
         )}
       </div>

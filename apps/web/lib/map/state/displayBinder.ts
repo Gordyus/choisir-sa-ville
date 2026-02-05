@@ -21,9 +21,9 @@ import type { ExpressionSpecification, Map as MapLibreMap } from "maplibre-gl";
 
 import { INSECURITY_PALETTE, type InsecurityLevel } from "@/lib/config/insecurityPalette";
 import {
-  computeInsecurityLevel,
-  loadInsecurityMeta,
-  loadInsecurityYear,
+    computeInsecurityLevel,
+    loadInsecurityMeta,
+    loadInsecurityYear,
 } from "@/lib/data/insecurityMetrics";
 import { COMMUNE_COLORS } from "@/lib/map/layers/highlightState";
 import { LAYER_IDS } from "@/lib/map/registry/layerRegistry";
@@ -40,17 +40,17 @@ import { displayModeService, type DisplayMode } from "./displayModeService";
  * We intentionally DO NOT modify line-width (keeps interaction styling).
  */
 type SavedExpressions = {
-  fillColor: ExpressionSpecification | string | undefined;
-  fillOpacity: ExpressionSpecification | number | undefined;
-  lineColor: ExpressionSpecification | string | undefined;
+    fillColor: ExpressionSpecification | string | undefined;
+    fillOpacity: ExpressionSpecification | number | undefined;
+    lineColor: ExpressionSpecification | string | undefined;
 };
 
 type DisplayBinderState = {
-  map: MapLibreMap;
-  saved: SavedExpressions | null;
-  currentMode: DisplayMode;
-  abortController: AbortController | null;
-  unsubscribe: (() => void) | null;
+    map: MapLibreMap;
+    saved: SavedExpressions | null;
+    currentMode: DisplayMode;
+    abortController: AbortController | null;
+    unsubscribe: (() => void) | null;
 };
 
 // ============================================================================
@@ -60,8 +60,8 @@ type DisplayBinderState = {
 const FILL_LAYER_ID = LAYER_IDS.communesFill;
 const LINE_LAYER_ID = LAYER_IDS.communesLine;
 
-/** Fill opacity for insecurity choroplèthe */
-const INSECURITY_FILL_OPACITY = 0.35;
+/** Fill opacity for insecurity choroplèthe (spec: 0.18-0.30, set to midpoint) */
+const INSECURITY_FILL_OPACITY = 0.25;
 
 /** Default fill color when no data */
 const DEFAULT_FILL_COLOR = "#64748b"; // slate-500
@@ -77,19 +77,19 @@ const DEFAULT_FILL_COLOR = "#64748b"; // slate-500
  * Format: ["match", ["get", "insee"], "01001", "#22c55e", "01002", "#ef4444", ..., default]
  */
 function buildInsecurityFillColorExpr(
-  communeInsecurityMap: Map<string, InsecurityLevel>
+    communeInsecurityMap: Map<string, InsecurityLevel>
 ): ExpressionSpecification {
-  const matchExpr: unknown[] = ["match", ["get", "insee"]];
+    const matchExpr: unknown[] = ["match", ["get", "insee"]];
 
-  for (const [insee, level] of communeInsecurityMap) {
-    matchExpr.push(insee);
-    matchExpr.push(INSECURITY_PALETTE[level]);
-  }
+    for (const [insee, level] of communeInsecurityMap) {
+        matchExpr.push(insee);
+        matchExpr.push(INSECURITY_PALETTE[level]);
+    }
 
-  // Fallback color for communes without data
-  matchExpr.push(DEFAULT_FILL_COLOR);
+    // Fallback color for communes without data
+    matchExpr.push(DEFAULT_FILL_COLOR);
 
-  return matchExpr as ExpressionSpecification;
+    return matchExpr as ExpressionSpecification;
 }
 
 /**
@@ -102,31 +102,31 @@ function buildInsecurityFillColorExpr(
  * 3. match by insecurity level (darker colors)
  */
 function buildInsecurityLineColorExpr(
-  communeInsecurityMap: Map<string, InsecurityLevel>
+    communeInsecurityMap: Map<string, InsecurityLevel>
 ): ExpressionSpecification {
-  // Build inner match expression for level-based colors
-  const matchExpr: unknown[] = ["match", ["get", "insee"]];
+    // Build inner match expression for level-based colors
+    const matchExpr: unknown[] = ["match", ["get", "insee"]];
 
-  for (const [insee, level] of communeInsecurityMap) {
-    matchExpr.push(insee);
-    // Line color slightly darker than fill
-    matchExpr.push(INSECURITY_PALETTE[level]);
-  }
+    for (const [insee, level] of communeInsecurityMap) {
+        matchExpr.push(insee);
+        // Line color slightly darker than fill
+        matchExpr.push(INSECURITY_PALETTE[level]);
+    }
 
-  // Fallback
-  matchExpr.push(COMMUNE_COLORS.line.base);
+    // Fallback
+    matchExpr.push(COMMUNE_COLORS.line.base);
 
-  // Wrap in case for feature-state priority
-  const caseExpr: unknown[] = [
-    "case",
-    ["boolean", ["feature-state", "active"], false],
-    COMMUNE_COLORS.line.active,
-    ["boolean", ["feature-state", "highlight"], false],
-    COMMUNE_COLORS.line.highlight,
-    matchExpr,
-  ];
+    // Wrap in case for feature-state priority
+    const caseExpr: unknown[] = [
+        "case",
+        ["boolean", ["feature-state", "active"], false],
+        COMMUNE_COLORS.line.active,
+        ["boolean", ["feature-state", "highlight"], false],
+        COMMUNE_COLORS.line.highlight,
+        matchExpr,
+    ];
 
-  return caseExpr as ExpressionSpecification;
+    return caseExpr as ExpressionSpecification;
 }
 
 // ============================================================================
@@ -137,24 +137,24 @@ function buildInsecurityLineColorExpr(
  * Load insecurity data and build Map<insee, InsecurityLevel>.
  */
 async function loadInsecurityData(
-  signal?: AbortSignal
+    signal?: AbortSignal
 ): Promise<Map<string, InsecurityLevel>> {
-  const meta = await loadInsecurityMeta(signal);
+    const meta = await loadInsecurityMeta(signal);
 
-  // Use most recent year
-  const latestYear = Math.max(...meta.yearsAvailable);
-  const yearData = await loadInsecurityYear(latestYear, signal);
+    // Use most recent year
+    const latestYear = Math.max(...meta.yearsAvailable);
+    const yearData = await loadInsecurityYear(latestYear, signal);
 
-  const result = new Map<string, InsecurityLevel>();
+    const result = new Map<string, InsecurityLevel>();
 
-  for (const [insee, row] of yearData) {
-    const level = computeInsecurityLevel(row.indexGlobal);
-    if (level) {
-      result.set(insee, level);
+    for (const [insee, row] of yearData) {
+        const level = computeInsecurityLevel(row.indexGlobal);
+        if (level) {
+            result.set(insee, level);
+        }
     }
-  }
 
-  return result;
+    return result;
 }
 
 // ============================================================================
@@ -165,53 +165,53 @@ async function loadInsecurityData(
  * Save current expressions from the map layers.
  */
 function saveCurrentExpressions(map: MapLibreMap): SavedExpressions {
-  return {
-    fillColor: map.getPaintProperty(FILL_LAYER_ID, "fill-color") as
-      | ExpressionSpecification
-      | string
-      | undefined,
-    fillOpacity: map.getPaintProperty(FILL_LAYER_ID, "fill-opacity") as
-      | ExpressionSpecification
-      | number
-      | undefined,
-    lineColor: map.getPaintProperty(LINE_LAYER_ID, "line-color") as
-      | ExpressionSpecification
-      | string
-      | undefined,
-  };
+    return {
+        fillColor: map.getPaintProperty(FILL_LAYER_ID, "fill-color") as
+            | ExpressionSpecification
+            | string
+            | undefined,
+        fillOpacity: map.getPaintProperty(FILL_LAYER_ID, "fill-opacity") as
+            | ExpressionSpecification
+            | number
+            | undefined,
+        lineColor: map.getPaintProperty(LINE_LAYER_ID, "line-color") as
+            | ExpressionSpecification
+            | string
+            | undefined,
+    };
 }
 
 /**
  * Apply insecurity mode expressions to the map.
  */
 function applyInsecurityExpressions(
-  map: MapLibreMap,
-  communeData: Map<string, InsecurityLevel>
+    map: MapLibreMap,
+    communeData: Map<string, InsecurityLevel>
 ): void {
-  const fillColorExpr = buildInsecurityFillColorExpr(communeData);
-  const lineColorExpr = buildInsecurityLineColorExpr(communeData);
+    const fillColorExpr = buildInsecurityFillColorExpr(communeData);
+    const lineColorExpr = buildInsecurityLineColorExpr(communeData);
 
-  map.setPaintProperty(FILL_LAYER_ID, "fill-color", fillColorExpr);
-  map.setPaintProperty(FILL_LAYER_ID, "fill-opacity", INSECURITY_FILL_OPACITY);
-  map.setPaintProperty(LINE_LAYER_ID, "line-color", lineColorExpr);
+    map.setPaintProperty(FILL_LAYER_ID, "fill-color", fillColorExpr);
+    map.setPaintProperty(FILL_LAYER_ID, "fill-opacity", INSECURITY_FILL_OPACITY);
+    map.setPaintProperty(LINE_LAYER_ID, "line-color", lineColorExpr);
 }
 
 /**
  * Restore original expressions.
  */
 function restoreOriginalExpressions(
-  map: MapLibreMap,
-  saved: SavedExpressions
+    map: MapLibreMap,
+    saved: SavedExpressions
 ): void {
-  if (saved.fillColor !== undefined) {
-    map.setPaintProperty(FILL_LAYER_ID, "fill-color", saved.fillColor);
-  }
-  if (saved.fillOpacity !== undefined) {
-    map.setPaintProperty(FILL_LAYER_ID, "fill-opacity", saved.fillOpacity);
-  }
-  if (saved.lineColor !== undefined) {
-    map.setPaintProperty(LINE_LAYER_ID, "line-color", saved.lineColor);
-  }
+    if (saved.fillColor !== undefined) {
+        map.setPaintProperty(FILL_LAYER_ID, "fill-color", saved.fillColor);
+    }
+    if (saved.fillOpacity !== undefined) {
+        map.setPaintProperty(FILL_LAYER_ID, "fill-opacity", saved.fillOpacity);
+    }
+    if (saved.lineColor !== undefined) {
+        map.setPaintProperty(LINE_LAYER_ID, "line-color", saved.lineColor);
+    }
 }
 
 // ============================================================================
@@ -222,44 +222,44 @@ function restoreOriginalExpressions(
  * Handle mode change.
  */
 async function handleModeChange(state: DisplayBinderState, mode: DisplayMode): Promise<void> {
-  // Abort any pending load
-  if (state.abortController) {
-    state.abortController.abort();
-    state.abortController = null;
-  }
-
-  state.currentMode = mode;
-
-  if (mode === "default") {
-    // Restore original expressions
-    if (state.saved) {
-      restoreOriginalExpressions(state.map, state.saved);
+    // Abort any pending load
+    if (state.abortController) {
+        state.abortController.abort();
+        state.abortController = null;
     }
-    return;
-  }
 
-  if (mode === "insecurity") {
-    // Create abort controller for this load
-    state.abortController = new AbortController();
-    const { signal } = state.abortController;
+    state.currentMode = mode;
 
-    try {
-      const communeData = await loadInsecurityData(signal);
-
-      // Check if still in insecurity mode after async load
-      if (state.currentMode !== "insecurity") {
+    if (mode === "default") {
+        // Restore original expressions
+        if (state.saved) {
+            restoreOriginalExpressions(state.map, state.saved);
+        }
         return;
-      }
-
-      applyInsecurityExpressions(state.map, communeData);
-    } catch (error) {
-      if (error instanceof DOMException && error.name === "AbortError") {
-        // Aborted, ignore
-        return;
-      }
-      console.error("[displayBinder] Failed to load insecurity data:", error);
     }
-  }
+
+    if (mode === "insecurity") {
+        // Create abort controller for this load
+        state.abortController = new AbortController();
+        const { signal } = state.abortController;
+
+        try {
+            const communeData = await loadInsecurityData(signal);
+
+            // Check if still in insecurity mode after async load
+            if (state.currentMode !== "insecurity") {
+                return;
+            }
+
+            applyInsecurityExpressions(state.map, communeData);
+        } catch (error) {
+            if (error instanceof DOMException && error.name === "AbortError") {
+                // Aborted, ignore
+                return;
+            }
+            console.error("[displayBinder] Failed to load insecurity data:", error);
+        }
+    }
 }
 
 // ============================================================================
@@ -271,45 +271,45 @@ async function handleModeChange(state: DisplayBinderState, mode: DisplayMode): P
  * Returns a cleanup function to call on unmount.
  */
 export function attachDisplayBinder(map: MapLibreMap): () => void {
-  const state: DisplayBinderState = {
-    map,
-    saved: null,
-    currentMode: displayModeService.getMode(),
-    abortController: null,
-    unsubscribe: null,
-  };
+    const state: DisplayBinderState = {
+        map,
+        saved: null,
+        currentMode: displayModeService.getMode(),
+        abortController: null,
+        unsubscribe: null,
+    };
 
-  // Save current expressions (will restore on detach or mode=default)
-  state.saved = saveCurrentExpressions(map);
+    // Save current expressions (will restore on detach or mode=default)
+    state.saved = saveCurrentExpressions(map);
 
-  // Subscribe to mode changes
-  state.unsubscribe = displayModeService.subscribe((mode) => {
-    void handleModeChange(state, mode);
-  });
+    // Subscribe to mode changes
+    state.unsubscribe = displayModeService.subscribe((mode) => {
+        void handleModeChange(state, mode);
+    });
 
-  // Apply current mode (if not default)
-  if (state.currentMode !== "default") {
-    void handleModeChange(state, state.currentMode);
-  }
-
-  // Return cleanup function
-  return () => {
-    // Abort any pending load
-    if (state.abortController) {
-      state.abortController.abort();
-      state.abortController = null;
+    // Apply current mode (if not default)
+    if (state.currentMode !== "default") {
+        void handleModeChange(state, state.currentMode);
     }
 
-    // Unsubscribe from mode changes
-    if (state.unsubscribe) {
-      state.unsubscribe();
-      state.unsubscribe = null;
-    }
+    // Return cleanup function
+    return () => {
+        // Abort any pending load
+        if (state.abortController) {
+            state.abortController.abort();
+            state.abortController = null;
+        }
 
-    // Restore original expressions
-    if (state.saved) {
-      restoreOriginalExpressions(state.map, state.saved);
-      state.saved = null;
-    }
-  };
+        // Unsubscribe from mode changes
+        if (state.unsubscribe) {
+            state.unsubscribe();
+            state.unsubscribe = null;
+        }
+
+        // Restore original expressions
+        if (state.saved) {
+            restoreOriginalExpressions(state.map, state.saved);
+            state.saved = null;
+        }
+    };
 }

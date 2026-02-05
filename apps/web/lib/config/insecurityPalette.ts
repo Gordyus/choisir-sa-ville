@@ -8,7 +8,10 @@
  * - Feature detection (choroplèthe)
  */
 
-export type InsecurityLevel = "faible" | "modere" | "eleve" | "tres-eleve";
+import type { InsecurityLevel } from "@/lib/data/insecurityMetrics";
+
+// Re-export the type so consumers can import from this file or from insecurityMetrics
+export type { InsecurityLevel };
 
 /**
  * INSECURITY_PALETTE
@@ -22,10 +25,10 @@ export type InsecurityLevel = "faible" | "modere" | "eleve" | "tres-eleve";
  * Format hex (24-bit RGB): #RRGGBB
  */
 export const INSECURITY_PALETTE: Record<InsecurityLevel, string> = {
-  faible: "#22c55e",      // green-500: insécurité basse
-  modere: "#eab308",      // yellow-500: insécurité modérée
-  eleve: "#f97316",       // orange-500: insécurité élevée
-  "tres-eleve": "#ef4444", // red-500: très haute insécurité
+    faible: "#22c55e",      // green-500: insécurité basse
+    modere: "#eab308",      // yellow-500: insécurité modérée
+    eleve: "#f97316",       // orange-500: insécurité élevée
+    "tres-eleve": "#ef4444", // red-500: très haute insécurité
 };
 
 /**
@@ -33,5 +36,5 @@ export const INSECURITY_PALETTE: Record<InsecurityLevel, string> = {
  * Utile pour validations à runtime ou parsing de données externes
  */
 export function isInsecurityLevel(value: unknown): value is InsecurityLevel {
-  return typeof value === "string" && value in INSECURITY_PALETTE;
+    return typeof value === "string" && value in INSECURITY_PALETTE;
 }

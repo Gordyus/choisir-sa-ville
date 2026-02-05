@@ -13,6 +13,7 @@ Créer l'interface utilisateur (dropdown) pour basculer entre les modes d'affich
 **Dépendances**: Phase 1 (useDisplayMode hook)
 
 **Scope**:
+
 1. Composant `MapLayerMenu`: Dropdown avec bouton toggle
 2. Intégration dans `vector-map.tsx`: Rendu du menu sur la carte
 3. Styling: Tailwind CSS, SVG inline (aucune dépendance externe)
@@ -92,6 +93,7 @@ export function MapLayerMenu(): JSX.Element {
 #### Composants Internes
 
 **Toggle Button**:
+
 ```typescript
 <button
   onClick={() => setIsOpen(!isOpen)}
@@ -104,6 +106,7 @@ export function MapLayerMenu(): JSX.Element {
 ```
 
 **Dropdown Items**:
+
 ```typescript
 {isOpen && (
   <div className="absolute left-0 top-full mt-2 w-40 rounded-lg border bg-white shadow-lg">
@@ -131,6 +134,7 @@ export function MapLayerMenu(): JSX.Element {
 #### SVG Icons Inline
 
 **Layers Icon** (16x16):
+
 ```svg
 <svg width="16" height="16" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
   <polygon points="12 2 2 7 2 17 12 22 22 17 22 7 12 2" />
@@ -140,6 +144,7 @@ export function MapLayerMenu(): JSX.Element {
 ```
 
 **Chevron Icon** (14x14, rotate on open):
+
 ```svg
 <svg width="14" height="14" className={`transition-transform ${isOpen ? "rotate-180" : ""}`}>
   <polyline points="6 9 12 15 18 9" />
@@ -147,6 +152,7 @@ export function MapLayerMenu(): JSX.Element {
 ```
 
 **Checkmark Icon** (16x16, dans les items):
+
 ```svg
 <svg width="16" height="16" viewBox="0 0 24 24">
   <polyline points="20 6 9 17 4 12" />
@@ -179,10 +185,12 @@ export function MapLayerMenu(): JSX.Element {
 ### 2. Modifié: `apps/web/components/vector-map.tsx`
 
 **Changements**:
+
 - ✅ Import MapLayerMenu
 - ✅ Rendu du composant dans return
 
 **Avant**:
+
 ```typescript
 import { MapDebugOverlay } from "@/components/map-debug-overlay";
 import { loadAppConfig, type AppConfig } from "@/lib/config/appConfig";
@@ -200,6 +208,7 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
 ```
 
 **Après**:
+
 ```typescript
 import { MapDebugOverlay } from "@/components/map-debug-overlay";
 import { MapLayerMenu } from "@/components/map-layer-menu";
@@ -257,6 +266,7 @@ Mode change reflété dans UI (checkmark moves, bg color)
 ### Comportement 3: Fermer le Menu
 
 **Via click backdrop**:
+
 ```
 User: Click sur backdrop
   ↓
@@ -266,6 +276,7 @@ Dropdown ferme, backdrop disappears
 ```
 
 **Via Escape key**:
+
 ```
 User: Press Escape
   ↓
@@ -275,6 +286,7 @@ Dropdown ferme
 ```
 
 **Via click item**:
+
 ```
 User: Click item
   ↓
@@ -378,11 +390,13 @@ $ pnpm lint:eslint
 ### Blocage 1: lucide-react Dépendance
 
 **Problème**:
+
 ```typescript
 import { Layers, ChevronDown, Check } from "lucide-react"; // ❌ Not in dependencies
 ```
 
 **Résolution**:
+
 ```typescript
 // ✅ SVG inline instead
 <svg width="16" height="16" viewBox="0 0 24 24" {...}>
@@ -392,6 +406,7 @@ import { Layers, ChevronDown, Check } from "lucide-react"; // ❌ Not in depende
 ```
 
 **Rationale**:
+
 - lucide-react ~20 KB gzipped
 - SVGs inline: ~50 bytes + CSS
 - Zero dependency burden
@@ -402,12 +417,14 @@ import { Layers, ChevronDown, Check } from "lucide-react"; // ❌ Not in depende
 ### Blocage 2: Button Import Unused
 
 **Problème initialement**:
+
 ```typescript
 import { Button } from "@/components/ui/button"; // ❌ Unused
 // Should be native <button>
 ```
 
 **Résolution**:
+
 ```typescript
 <button
   onClick={() => setIsOpen(!isOpen)}
@@ -418,6 +435,7 @@ import { Button } from "@/components/ui/button"; // ❌ Unused
 ```
 
 **Rationale**:
+
 - shadcn/ui Button: overkill pour simple toggle
 - Native <button> + Tailwind: suffisant
 - Réduit dépendances composant
@@ -430,6 +448,7 @@ import { Button } from "@/components/ui/button"; // ❌ Unused
 **Question**: Faut-il ARIA?
 
 **Résolution**: Oui, inclus:
+
 ```typescript
 <div role="menu">
   <button role="menuitem">Default</button>
@@ -438,6 +457,7 @@ import { Button } from "@/components/ui/button"; // ❌ Unused
 ```
 
 **Rationale**:
+
 - Screen readers doivent identifier menu
 - `role="menu"` + `role="menuitem"` = semantic HTML
 - `aria-expanded` pour button état
@@ -450,6 +470,7 @@ import { Button } from "@/components/ui/button"; // ❌ Unused
 ### Incertitude 1: Où placer le menu?
 
 **Options**:
+
 - ❌ Bottom-right (déjà utilisé pour attribution)
 - ❌ Top-right (déjà utilisé pour navigation controls)
 - ✅ Top-left (libre, convention courante)
@@ -461,11 +482,13 @@ import { Button } from "@/components/ui/button"; // ❌ Unused
 ### Incertitude 2: SVG ou Icon Library?
 
 **Options**:
+
 - ❌ Heroicons (13 KB gzipped)
 - ❌ lucide-react (20 KB gzipped)
 - ✅ SVG inline (~50 bytes)
 
 **Décision**: SVG inline
+
 - Zero impact bundle
 - Simples icons (layers, chevron, checkmark)
 - Tailwind compatible (`currentColor`)
@@ -477,10 +500,12 @@ import { Button } from "@/components/ui/button"; // ❌ Unused
 **Question**: Où mettre `isOpen`?
 
 **Options**:
+
 - ✅ Local `useState(false)` - UI concern only
 - ❌ Global displayModeService - mode concern, pas UI state
 
 **Rationale**:
+
 - `isOpen` est UI state (toggle dropdown)
 - `mode` est application state (choroplèthe mode)
 - Séparation des responsabilités
@@ -545,6 +570,7 @@ import { Button } from "@/components/ui/button"; // ❌ Unused
 **Phase 2 COMPLETE**: UI dropdown en place, intégrée dans vector-map.
 
 ### Prochaines Étapes (Phase 3)
+
 - Créer `displayBinder.ts`: Core logic pour appliquer expressions MapLibre
 - Importer `INSECURITY_PALETTE` pour couleurs
 - Watch `displayModeService` pour changements de mode

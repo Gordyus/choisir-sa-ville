@@ -21,16 +21,19 @@ Valider que l'implémentation des Phases 1-4 n'a rompu aucun comportement exista
 **Description**: Hover sur un label → feature-state `highlight` appliqué et visible
 
 **État avant Phase 1-4**: ✅ WORKING
+
 - `mapInteractionService.ts` gère `mousemove`
 - `queryRenderedFeatures` sur layer labels
 - `feature-state.highlight` set automatiquement
 
 **État après Phase 1-4**: ✅ STILL WORKING
+
 - Phase 3 (displayBinder) respecte `highlight` dans line-color expression
 - Highlight NOT affecte par displayMode (case[active > highlight > match])
 - ✅ **PASS**: Feature-state highlight intact
 
 **Implémentation vérifiée**:
+
 ```typescript
 // displayBinder.ts - line-color expression
 ["case",
@@ -47,16 +50,19 @@ Valider que l'implémentation des Phases 1-4 n'a rompu aucun comportement exista
 **Description**: Click sur commune → feature-state `active` appliqué, sélection mise à jour
 
 **État avant Phase 1-4**: ✅ WORKING
+
 - `SelectionService` gère la sélection
 - `mapInteractionService` set `feature-state.active`
 - UI reflète la sélection
 
 **État après Phase 1-4**: ✅ STILL WORKING
+
 - displayBinder respecte `active` avec priorité > highlight
 - Active NOT affecte fill-color (pure match, stable)
 - ✅ **PASS**: Feature-state active intact
 
 **Implémentation vérifiée**:
+
 ```typescript
 // displayBinder.ts - fill-color PURE MATCH (no feature-state)
 ["match", ["get", "insee"],
@@ -79,11 +85,13 @@ Valider que l'implémentation des Phases 1-4 n'a rompu aucun comportement exista
 **Description**: Interactions de viewport (pan, zoom) inchangées
 
 **État avant Phase 1-4**: ✅ WORKING
+
 - MapLibre gère interactions natives
 - `moveend`, `zoomend` pour data loading
 - Layers stables pendant pan/zoom
 
 **État après Phase 1-4**: ✅ STILL WORKING
+
 - displayBinder n'attache aucun handler pan/zoom
 - Paint property changes n'affectent pas viewport
 - ✅ **PASS**: Interactions viewport intact
@@ -95,10 +103,12 @@ Valider que l'implémentation des Phases 1-4 n'a rompu aucun comportement exista
 **Description**: Fill color communes reflète données (si présentes)
 
 **État avant Phase 1-4**: ✅ WORKING
+
 - Fill-color expressions basées sur données
 - Cohérent avec légende UI
 
 **État après Phase 1-4**: ✅ STILL WORKING
+
 - Mode "default": fill-color complètement restaurée à original
 - Mode "insecurity": fill-color remplacée par match[insee → level]
 - Fill JAMAIS affectée par feature-state (highlight/active)
@@ -111,15 +121,18 @@ Valider que l'implémentation des Phases 1-4 n'a rompu aucun comportement exista
 **Description**: Border color communes = COMMUNE_COLORS (interaction-based)
 
 **État avant Phase 1-4**: ✅ WORKING
+
 - Line-color = case[active > highlight > default]
 - Default mode: line-color original
 
 **État après Phase 1-4**: ✅ STILL WORKING
+
 - `restoreOriginalExpressions()` restaure line-color complet
 - Mode "default": line-color 100% original
 - ✅ **PASS**: Line color default mode intact
 
 **Implémentation vérifiée**:
+
 ```typescript
 // displayBinder.ts - detach()
 if (state.saved) {
@@ -137,6 +150,7 @@ if (state.saved) {
 **État avant Phase 1-4**: ❌ N/A (feature nouvelle)
 
 **État après Phase 1-4**: ✅ IMPLEMENTED & WORKING
+
 - `applyInsecurityExpressions()` remplace line-color
 - Active & highlight toujours prioritaires
 - Niveau insécurité = fallback quand no interaction
@@ -151,6 +165,7 @@ if (state.saved) {
 **État avant Phase 1-4**: ❌ N/A (feature nouvelle)
 
 **État après Phase 1-4**: ✅ IMPLEMENTED
+
 - Passer default → insecurity → default: expressions identiques
 - AbortController cleanup sur transitions
 - Aucune accumulation state ou data
@@ -163,6 +178,7 @@ if (state.saved) {
 ### Scénario 1: Démarrage en Mode Default
 
 **Étapes**:
+
 1. Charger page initiale
 2. Vérifier: MapLayerMenu visible (top-left)
 3. Vérifier: Mode affiché = "Default"
@@ -170,6 +186,7 @@ if (state.saved) {
 5. Vérifier: Borders = COMMUNE_COLORS standard
 
 **Résultat Attendu**: ✅ PASS
+
 - Menu visible
 - Mode initial correct
 - UI reflect l'état par défaut
@@ -180,6 +197,7 @@ if (state.saved) {
 ### Scénario 2: Hover Label en Mode Default
 
 **Étapes**:
+
 1. Mode: Default
 2. Hover sur label commune
 3. Vérifier: Border highlight color (COMMUNE_COLORS.highlight)
@@ -187,6 +205,7 @@ if (state.saved) {
 5. Vérifier: Border back to default
 
 **Résultat Attendu**: ✅ PASS
+
 - Highlight feature-state respecté
 - Couleur cohérente (bleue - COMMUNE_COLORS.line.highlight)
 - Aucun effet fill-color
@@ -199,6 +218,7 @@ if (state.saved) {
 ### Scénario 3: Click Commune en Mode Default
 
 **Étapes**:
+
 1. Mode: Default
 2. Click sur commune A
 3. Vérifier: SelectionService actif = commune A
@@ -207,6 +227,7 @@ if (state.saved) {
 6. Vérifier: Commune A back to default, B = active
 
 **Résultat Attendu**: ✅ PASS
+
 - Active feature-state prioritaire
 - Selection flow correct
 - Pas d'overlap
@@ -219,6 +240,7 @@ if (state.saved) {
 ### Scénario 4: Toggle Mode (Default → Insecurity, pas de data)
 
 **Étapes**:
+
 1. Mode: Default
 2. Click MapLayerMenu → "Insecurity"
 3. Vérifier: Loader async lancé (pas de hang)
@@ -228,6 +250,7 @@ if (state.saved) {
 5. Vérifier: UI responsive pendant load
 
 **Résultat Attendu**: ✅ PASS
+
 - Mode switch sans blocage
 - AbortController prêt si nouveau toggle
 - Pas de crash/errors visibles
@@ -238,6 +261,7 @@ if (state.saved) {
 ### Scénario 5: Toggle Mode (Insecurity avec data)
 
 **Étapes**:
+
 1. Mode: Default
 2. Data insecurity chargées (via cache ou fetch)
 3. Click → Mode Insecurity
@@ -248,6 +272,7 @@ if (state.saved) {
 6. Vérifier: Line-color changé (match par niveau)
 
 **Résultat Attendu**: ✅ PASS
+
 - Fill-color appliquée correctement
 - Expression pure match (pas feature-state)
 - Line-color appliquée (case avec priorité)
@@ -260,9 +285,10 @@ if (state.saved) {
 ### Scénario 6: Hover + Insecurity Mode
 
 **Étapes**:
+
 1. Mode: Insecurity (data loaded)
 2. Hover sur commune "élevée" (orange palette)
-3. Vérifier: 
+3. Vérifier:
    - Fill = orange niveau insécurité (STABLE)
    - Border = highlight color (COMMUNE_COLORS.line.highlight = bleu)
 4. Unhover
@@ -271,6 +297,7 @@ if (state.saved) {
    - Border = orange niveau (match fallback)
 
 **Résultat Attendu**: ✅ PASS
+
 - Fill JAMAIS changée (pure match)
 - Border réagit à highlight
 - Priorité respectée (highlight > data match)
@@ -283,6 +310,7 @@ if (state.saved) {
 ### Scénario 7: Click + Insecurity Mode
 
 **Étapes**:
+
 1. Mode: Insecurity
 2. Click commune "faible" (green palette)
 3. Vérifier:
@@ -293,6 +321,7 @@ if (state.saved) {
 5. Vérifier: Previous = red, New = active
 
 **Résultat Attendu**: ✅ PASS
+
 - Fill stable (no active color override)
 - Active prioritaire sur level
 - Selection correct
@@ -305,6 +334,7 @@ if (state.saved) {
 ### Scénario 8: Pan/Zoom en Mode Insecurity
 
 **Étapes**:
+
 1. Mode: Insecurity (data loaded)
 2. Pan (plusieurs directions)
 3. Vérifier: Choroplèthe stable
@@ -314,6 +344,7 @@ if (state.saved) {
 7. Vérifier: No memory leaks (dev tools)
 
 **Résultat Attendu**: ✅ PASS
+
 - Expressions ne dégradent pas avec pan
 - Zoom ne affecte expressions
 - Performance stable
@@ -326,6 +357,7 @@ if (state.saved) {
 ### Scénario 9: Mode Cycle Complet (default ↔ insecurity ↔ default)
 
 **Étapes**:
+
 1. Mode: Default (Take note: expressions = ORIGINAL_1)
 2. Click → Insecurity
 3. Data loaded, choroplèthe visible (expressions = INSECURITY)
@@ -335,6 +367,7 @@ if (state.saved) {
 7. Vérifier: Expressions = INSECURITY (identical step 3)
 
 **Résultat Attendu**: ✅ PASS
+
 - Cycle complet sans drift
 - Save/restore fonctionnent
 - Idempotence garantie
