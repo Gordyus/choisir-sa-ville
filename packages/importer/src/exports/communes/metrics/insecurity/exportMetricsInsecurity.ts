@@ -14,7 +14,8 @@ const OUTPUT_COLUMNS = [
     "violencesPersonnesPer1000",
     "securiteBiensPer1000",
     "tranquillitePer1000",
-    "indexGlobal"
+    "indexGlobal",
+    "level"
 ] as const;
 
 type MetricGroup = "violencesPersonnes" | "securiteBiens" | "tranquillite";
@@ -120,7 +121,8 @@ export async function exportMetricsInsecurity({
             warnings: [
                 "SSMSI mapping is empty. Run inspectSsmsi.ts and populate mapping/ssmsiToGroups.v1.json (groups + categoryKeyColumn)."
             ],
-            inferred: { inseeColumn, yearColumn, factsColumn, categoryColumn, populationColumn }
+            inferred: { inseeColumn, yearColumn, factsColumn, categoryColumn, populationColumn },
+            thresholdsByYear: new Map()
         }));
         files.push("communes/metrics/insecurity/meta.json");
         console.warn("[metrics:insecurity] Skipped export (empty mapping)");
@@ -147,7 +149,8 @@ export async function exportMetricsInsecurity({
             warnings: [
                 "SSMSI parquet columns could not be inferred. Run inspectSsmsi.ts and fill mapping/ssmsiToGroups.v1.json."
             ],
-            inferred: { inseeColumn, yearColumn, factsColumn, categoryColumn, populationColumn }
+            inferred: { inseeColumn, yearColumn, factsColumn, categoryColumn, populationColumn },
+            thresholdsByYear: new Map()
         }));
         files.push("communes/metrics/insecurity/meta.json");
 
@@ -226,6 +229,9 @@ export async function exportMetricsInsecurity({
     // Track communes with facts but missing population
     const communesWithMissingPopulation = new Set<string>();
 
+    // Calculate quartile thresholds per year
+    const thresholdsByYear = new Map<number, { q1: number; q2: number; q3: number }>();
+
     // Write per-year files
     for (const year of yearsAvailable) {
         const accByInsee = byYear.get(year) ?? new Map();
@@ -268,15 +274,21 @@ export async function exportMetricsInsecurity({
 
         const indexByScore = buildPercentileIndex(scoreValues);
 
+        // Calculate quartiles on scoreRaw > 0
+        const thresholds = calculateQuartiles(rows.map((r) => r.scoreRaw));
+        thresholdsByYear.set(year, thresholds);
+
         const tabularRows = rows.map((r) => {
             const indexGlobal = r.scoreRaw === null ? null : indexByScore.get(r.scoreRaw) ?? null;
+            const level = mapScoreToLevel(r.scoreRaw, thresholds);
             return [
                 r.insee,
                 r.population,
                 r.violencesPersonnesPer1000,
                 r.securiteBiensPer1000,
                 r.tranquillitePer1000,
-                indexGlobal
+                indexGlobal,
+                level
             ] as const;
         });
 
@@ -310,7 +322,8 @@ export async function exportMetricsInsecurity({
             missingPopulation: Array.from(communesWithMissingPopulation).sort()
         },
         warnings: [],
-        inferred: { inseeColumn, yearColumn, factsColumn, categoryColumn, populationColumn }
+        inferred: { inseeColumn, yearColumn, factsColumn, categoryColumn, populationColumn },
+        thresholdsByYear
     }));
 
     files.push("communes/metrics/insecurity/meta.json");
@@ -421,7 +434,18 @@ function buildMeta(params: {
     population: { source: string; fallbackStrategy: string; columnInferred: string | null; missingPopulation: string[] };
     warnings: string[];
     inferred: Record<string, string | null>;
+    thresholdsByYear: Map<number, { q1: number; q2: number; q3: number }>;
 }): Record<string, unknown> {
+    const thresholds: Record<string, { q1: number; q2: number; q3: number; method: string }> = {};
+    for (const [year, values] of params.thresholdsByYear) {
+        thresholds[String(year)] = {
+            q1: values.q1,
+            q2: values.q2,
+            q3: values.q3,
+            method: "quartiles on scoreRaw > 0"
+        };
+    }
+
     return {
         source: "Bases statistiques communales de la délinquance enregistrée - SSMSI",
         license: "Licence Ouverte / Etalab",
@@ -450,6 +474,11 @@ function buildMeta(params: {
         warnings: {
             general: params.warnings,
             missingPopulation: params.population.missingPopulation
+        },
+        thresholds,
+        levels: {
+            labels: ["Très faible", "Faible", "Modéré", "Élevé", "Plus élevé"],
+            method: "Quartile-based classification on non-zero scoreRaw distribution"
         }
     };
 }
@@ -578,4 +607,88 @@ function getOrCreate<K, V>(map: Map<K, V>, key: K, create: () => V): V {
     const next = create();
     map.set(key, next);
     return next;
+}
+
+/**
+ * Calculate quartiles (Q1, Q2, Q3) on all scoreRaw values that are > 0.
+ * Uses simple linear interpolation.
+ * If all scores are 0 or no scores exist, returns { q1: 0, q2: 0, q3: 0 }.
+ */
+function calculateQuartiles(scores: Array<number | null>): { q1: number; q2: number; q3: number } {
+    // Filter to scoreRaw > 0
+    const validScores = scores.filter((v): v is number => typeof v === "number" && Number.isFinite(v) && v > 0);
+
+    if (validScores.length === 0) {
+        return { q1: 0, q2: 0, q3: 0 };
+    }
+
+    // Sort in ascending order
+    const sorted = validScores.slice().sort((a, b) => a - b);
+    const n = sorted.length;
+
+    const q1 = percentile(sorted, 25);
+    const q2 = percentile(sorted, 50);
+    const q3 = percentile(sorted, 75);
+
+    return { q1, q2, q3 };
+}
+
+/**
+ * Calculate the p-th percentile using linear interpolation.
+ * @param sortedValues - Array of values sorted in ascending order
+ * @param p - Percentile (0-100)
+ */
+function percentile(sortedValues: number[], p: number): number {
+    if (sortedValues.length === 0) return 0;
+    if (sortedValues.length === 1) return sortedValues[0]!;
+
+    const n = sortedValues.length;
+    const position = (p / 100) * (n - 1);
+    const lower = Math.floor(position);
+    const upper = Math.ceil(position);
+
+    if (lower === upper) {
+        return sortedValues[lower]!;
+    }
+
+    const fraction = position - lower;
+    const lowerValue = sortedValues[lower]!;
+    const upperValue = sortedValues[upper]!;
+
+    return lowerValue + fraction * (upperValue - lowerValue);
+}
+
+/**
+ * Map scoreRaw to a level (0–4) based on quartile thresholds.
+ * - scoreRaw = 0 → level = 0 ("Très faible")
+ * - 0 < scoreRaw < Q1 → level = 1 ("Faible")
+ * - Q1 ≤ scoreRaw < Q2 → level = 2 ("Modéré")
+ * - Q2 ≤ scoreRaw < Q3 → level = 3 ("Élevé")
+ * - Q3 ≤ scoreRaw → level = 4 ("Plus élevé")
+ */
+function mapScoreToLevel(
+    scoreRaw: number | null,
+    thresholds: { q1: number; q2: number; q3: number }
+): number {
+    if (scoreRaw === null || !Number.isFinite(scoreRaw)) {
+        return 0;
+    }
+
+    if (scoreRaw === 0) {
+        return 0;
+    }
+
+    if (scoreRaw < thresholds.q1) {
+        return 1;
+    }
+
+    if (scoreRaw < thresholds.q2) {
+        return 2;
+    }
+
+    if (scoreRaw < thresholds.q3) {
+        return 3;
+    }
+
+    return 4;
 }
