@@ -4,7 +4,9 @@
       "Bash(pnpm typecheck:*)",
       "Bash(pnpm lint:eslint:*)",
       "Bash(npx eslint:*)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
