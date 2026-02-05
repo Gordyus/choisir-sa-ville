@@ -1,0 +1,37 @@
+{
+    "_comment": "DEPRECATED: This file is not used at runtime. Configuration is now generated dynamically by /api/config/map-tiles. See .env.example for NEXT_PUBLIC_TILESERVER_BASE_URL",
+    "styleUrl": "http://localhost:8080/styles/basic/style.json",
+    "tileJsonSources": {
+        "france": "http://localhost:8080/data/france.json",
+        "communes": "http://localhost:8080/data/communes.json",
+        "arr_municipal": "http://localhost:8080/data/arr_municipal.json"
+    },
+    "interactableLabelLayerId": "place_label_interractable",
+    "cityClasses": [
+        "city",
+        "town",
+        "village",
+        "suburb"
+    ],
+    "polygonSources": {
+        "communes": {
+            "tileJsonUrl": "http://localhost:8080/data/communes.json",
+            "sourceLayer": "communes"
+        },
+        "arr_municipal": {
+            "tileJsonUrl": "http://localhost:8080/data/arr_municipal.json",
+            "sourceLayer": "arr_municipal"
+        }
+    },
+    "cityLabelStyle": {
+        "textColor": "#111827",
+        "highlightTextColor": "#2563eb",
+        "activeTextColor": "#f59e0b",
+        "textHaloColor": "#ffffff",
+        "highlightTextHaloColor": "#ffffff",
+        "activeTextHaloColor": "#ffffff",
+        "textHaloWidth": 2.8,
+        "highlightTextHaloWidth": 3.6,
+        "activeTextHaloWidth": 4.2
+    }
+}
