@@ -10,7 +10,16 @@
       "Bash(git stash:*)",
       "Bash(cd:*)",
       "Bash(pnpm eslint:*)",
-      "Bash(powershell:*)"
+      "Bash(powershell:*)",
+      "Bash(git -C \"D:\\\\Projects\\\\choisir-sa-ville\" status)",
+      "Bash(git -C \"D:\\\\Projects\\\\choisir-sa-ville\" diff)",
+      "Bash(git -C \"D:\\\\Projects\\\\choisir-sa-ville\" diff --cached)",
+      "Bash(git -C \"D:\\\\Projects\\\\choisir-sa-ville\" log --oneline -10)",
+      "Bash(git -C \"D:\\\\Projects\\\\choisir-sa-ville\" show --name-status c08407d)",
+      "Bash(git -C \"D:\\\\Projects\\\\choisir-sa-ville\" diff docs/feature/map-display-modes-layer-menu/works/review.md)",
+      "Bash(git -C \"D:\\\\Projects\\\\choisir-sa-ville\" add \"docs/feature/map-display-modes-layer-menu/works/review.md\")",
+      "Bash(git -C \"D:\\\\Projects\\\\choisir-sa-ville\" commit -m \"$\\(cat <<''EOF''\ndocs: update review headers to reflect post-validation corrections\n\n- Add Final Validation line documenting PASS status\n- Add Post-Validation Corrections line confirming 4/4 points resolved\n- Clean up trailing whitespace in metadata section\n- These corrections complete the Layer Menu feature validation and mark the branch ready for production merge\nEOF\n\\)\")",
+      "Bash(git -C \"D:\\\\Projects\\\\choisir-sa-ville\" log -1)"
     ]
   }
 }
