@@ -93,7 +93,7 @@ function formatRate(rate: number | null): string {
     if (rate === null || !Number.isFinite(rate)) {
         return "—";
     }
-    return `${rate.toFixed(1)} pour 1000 hab.`;
+    return rate.toFixed(1);
 }
 
 // ============================================================================
@@ -412,13 +412,13 @@ async function updateHighlightPopup(state: DisplayBinderState, inseeCode: string
 
         // Build popup content
         const content = document.createElement("div");
-        content.className = "bg-white p-2 rounded text-sm";
+        content.className = "bg-white px-2 py-1.5 rounded text-sm shadow-sm space-y-1";
 
-        // Commune name
-        const nameDiv = document.createElement("div");
-        nameDiv.className = "font-semibold mb-1";
-        nameDiv.textContent = commune.name;
-        content.appendChild(nameDiv);
+        // Title
+        const titleDiv = document.createElement("div");
+        titleDiv.className = "text-sm";
+        titleDiv.textContent = "Nombre d'incidents pour 1000 habitants";
+        content.appendChild(titleDiv);
 
         // Metrics (if available)
         if (row) {

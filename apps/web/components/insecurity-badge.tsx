@@ -19,7 +19,7 @@
 import type { HTMLAttributes } from "react";
 
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
-import { INSECURITY_COLORS, INSECURITY_CATEGORIES } from "@/lib/config/insecurityPalette";
+import { INSECURITY_CATEGORIES, INSECURITY_COLORS } from "@/lib/config/insecurityPalette";
 import { useInsecurityMetrics } from "@/lib/data/insecurityMetrics";
 import { cn } from "@/lib/utils";
 
@@ -96,7 +96,7 @@ function formatRate(rate: number | null): string {
     if (rate === null || !Number.isFinite(rate)) {
         return "—";
     }
-    return `${rate.toFixed(1)}`;
+    return rate.toFixed(1);
 }
 
 // ============================================================================
@@ -170,8 +170,8 @@ export function InsecurityBadge({
                 </TooltipTrigger>
                 <TooltipContent>
                     <div className="space-y-1">
-                        <div className="font-semibold">
-                            {label} ({data.indexGlobal ?? "—"}/100)
+                        <div className="text-sm">
+                            Nombre d'incidents pour 1000 habitants
                         </div>
                         <div className="text-sm space-y-0.5">
                             <div>{INSECURITY_CATEGORIES[0]} : {formatRate(data.violencesPersonnesPer1000)}</div>
