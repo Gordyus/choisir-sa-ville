@@ -21,6 +21,7 @@ import type { HTMLAttributes } from "react";
 import { INSECURITY_COLORS } from "@/lib/config/insecurityPalette";
 import { useInsecurityMetrics } from "@/lib/data/insecurityMetrics";
 import { cn } from "@/lib/utils";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 
 // ============================================================================
 // Constants
@@ -88,6 +89,16 @@ function getLevelColor(level: number | null): string {
     return INSECURITY_COLORS[index] ?? INSECURITY_COLORS[0];
 }
 
+/**
+ * Format a rate value for display.
+ */
+function formatRate(rate: number | null): string {
+    if (rate === null || !Number.isFinite(rate)) {
+        return "—";
+    }
+    return `${rate.toFixed(1)} pour 1000 hab.`;
+}
+
 // ============================================================================
 // Component
 // ============================================================================
@@ -143,17 +154,37 @@ export function InsecurityBadge({
     const label = getLevelLabel(data.level);
 
     return (
-        <span
-            className={cn(
-                "inline-flex items-center rounded-full px-3 py-1 text-sm font-medium text-white",
-                className
-            )}
-            style={{ backgroundColor: bgColor }}
-            title={`Indice d'insécurité: ${data.indexGlobal ?? "—"}/100 (${data.year})`}
-            {...props}
-        >
-            {label}
-        </span>
+        <TooltipProvider>
+            <Tooltip>
+                <TooltipTrigger asChild>
+                    <span
+                        className={cn(
+                            "inline-flex items-center rounded-full px-3 py-1 text-sm font-medium text-white",
+                            className
+                        )}
+                        style={{ backgroundColor: bgColor }}
+                        {...props}
+                    >
+                        {label}
+                    </span>
+                </TooltipTrigger>
+                <TooltipContent>
+                    <div className="space-y-1">
+                        <div className="font-semibold">
+                            {label} ({data.indexGlobal ?? "—"}/100)
+                        </div>
+                        <div className="text-sm space-y-0.5">
+                            <div>Violences : {formatRate(data.violencesPersonnesPer1000)}</div>
+                            <div>Sécurité des biens : {formatRate(data.securiteBiensPer1000)}</div>
+                            <div>Tranquillité : {formatRate(data.tranquillitePer1000)}</div>
+                        </div>
+                        <div className="text-xs text-muted-foreground mt-1">
+                            Année {data.year}
+                        </div>
+                    </div>
+                </TooltipContent>
+            </Tooltip>
+        </TooltipProvider>
     );
 }
 
