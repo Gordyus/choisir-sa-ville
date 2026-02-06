@@ -8,6 +8,21 @@ import { SOURCE_URLS } from "../../../constants.js";
 import { writeJsonAtomic } from "../../../shared/fileSystem.js";
 import type { ExportCommune, ExportContext, SourceMeta } from "../../../shared/types.js";
 
+const DEFAULT_EPSILON = 0.05;
+
+const EPSILON = (() => {
+    const envValue = process.env.CSVV_INSECURITY_INDEXGLOBAL_EPSILON;
+    if (envValue !== undefined) {
+        const parsed = Number.parseFloat(envValue);
+        if (!Number.isFinite(parsed) || parsed < 0) {
+            console.warn(`[metrics:insecurity] Invalid CSVV_INSECURITY_INDEXGLOBAL_EPSILON="${envValue}". Using default ${DEFAULT_EPSILON}.`);
+            return DEFAULT_EPSILON;
+        }
+        return parsed;
+    }
+    return DEFAULT_EPSILON;
+})();
+
 const OUTPUT_COLUMNS = [
     "insee",
     "population",
@@ -272,7 +287,7 @@ export async function exportMetricsInsecurity({
             .map((r) => r.scoreRaw)
             .filter((v): v is number => typeof v === "number" && Number.isFinite(v));
 
-        const indexByScore = buildPercentileIndex(scoreValues);
+        const indexByScore = buildPercentileIndex(scoreValues, EPSILON);
 
         // Calculate quartiles on scoreRaw > 0
         const thresholds = calculateQuartiles(rows.map((r) => r.scoreRaw));
@@ -383,13 +398,49 @@ function computeRawScore(values: {
     return score;
 }
 
-function buildPercentileIndex(scores: number[]): Map<number, number> {
+/**
+ * Build percentile index with epsilon filtering.
+ * 
+ * Scores ≤ epsilon are assigned indexGlobal=0.
+ * Scores > epsilon are ranked among themselves and rescaled to [1..100] using percentile rank.
+ * 
+ * @param scores - Array of valid scores
+ * @param epsilon - Threshold below which scores are assigned index 0 (default: 0)
+ * @returns Map from score to indexGlobal
+ */
+function buildPercentileIndex(scores: number[], epsilon = 0): Map<number, number> {
     const result = new Map<number, number>();
     if (!scores.length) {
         return result;
     }
 
-    const sorted = scores.slice().sort((a, b) => a - b);
+    // Separate scores into two groups
+    const belowOrEqualEpsilon: number[] = [];
+    const aboveEpsilon: number[] = [];
+
+    for (const score of scores) {
+        if (score <= epsilon) {
+            belowOrEqualEpsilon.push(score);
+        } else {
+            aboveEpsilon.push(score);
+        }
+    }
+
+    // All scores ≤ epsilon get indexGlobal=0
+    for (const score of belowOrEqualEpsilon) {
+        if (!result.has(score)) {
+            result.set(score, 0);
+        }
+    }
+
+    // If no scores above epsilon, log warning and return
+    if (aboveEpsilon.length === 0) {
+        console.warn(`[metrics:insecurity] No scores > ${epsilon} found. All communes will have indexGlobal=0.`);
+        return result;
+    }
+
+    // Compute percentile rank for scores > epsilon
+    const sorted = aboveEpsilon.slice().sort((a, b) => a - b);
     const n = sorted.length;
 
     // Percent-rank (min-rank) for ties.
@@ -409,10 +460,12 @@ function buildPercentileIndex(scores: number[]): Map<number, number> {
         }
     }
 
+    // Rescale to [1..100]
     for (const [value, range] of ranges) {
         const minRank = range.start;
         const percentile = n === 1 ? 1 : minRank / (n - 1);
-        result.set(value, Math.round(100 * percentile));
+        const indexGlobal = Math.round(1 + 99 * percentile);
+        result.set(value, indexGlobal);
     }
 
     return result;
