@@ -197,7 +197,7 @@ function applyViewportFeatureStates(state: DisplayBinderState): void {
         const chunk = batch.slice(index, index + BATCH_SIZE);
         for (const { feature, level } of chunk) {
             state.map.setFeatureState(
-                { source: "communes", id: feature.id },
+                { source: "communes", sourceLayer: "communes", id: feature.id },
                 { insecurityLevelCode: level }
             );
             const insee = feature.properties?.["insee"] as string | undefined;
@@ -225,7 +225,7 @@ function clearInsecurityFeatureStates(state: DisplayBinderState): void {
     for (const feature of features) {
         if (feature.id) {
             state.map.removeFeatureState(
-                { source: "communes", id: feature.id },
+                { source: "communes", sourceLayer: "communes", id: feature.id },
                 "insecurityLevelCode"
             );
         }
