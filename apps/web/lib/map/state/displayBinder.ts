@@ -18,12 +18,15 @@
  * - Events: moveend + zoomend ONLY (never move)
  */
 
-import type { ExpressionSpecification, Map as MapLibreMap, MapGeoJSONFeature } from "maplibre-gl";
+import type { ExpressionSpecification, MapGeoJSONFeature, Map as MapLibreMap } from "maplibre-gl";
+import maplibregl from "maplibre-gl";
 
-import { INSECURITY_COLORS } from "@/lib/config/insecurityPalette";
+import { INSECURITY_CATEGORIES, INSECURITY_COLORS } from "@/lib/config/insecurityPalette";
+import { getCommuneByInsee } from "@/lib/data/communesIndexLite";
 import { loadInsecurityMeta, loadInsecurityYear } from "@/lib/data/insecurityMetrics";
 import { COMMUNE_COLORS } from "@/lib/map/layers/highlightState";
 import { LAYER_IDS } from "@/lib/map/registry/layerRegistry";
+import { getEntityStateService } from "@/lib/selection";
 
 import { displayModeService, type DisplayMode } from "./displayModeService";
 
@@ -54,6 +57,10 @@ type DisplayBinderState = {
     moveEndHandler: (() => void) | null;
     zoomEndHandler: (() => void) | null;
     isMobile: boolean;
+    // Highlight popup
+    highlightPopup: maplibregl.Popup | null;
+    highlightUnsubscribe: (() => void) | null;
+    highlightAbortController: AbortController | null;
 };
 
 // ============================================================================
@@ -64,16 +71,30 @@ const FILL_LAYER_ID = LAYER_IDS.communesFill;
 const LINE_LAYER_ID = LAYER_IDS.communesLine;
 
 /** Fill opacity for insecurity choroplèthe (desktop) */
-const INSECURITY_FILL_OPACITY_DESKTOP = 0.25;
+const INSECURITY_FILL_OPACITY_DESKTOP = 0.75;
 
 /** Fill opacity for insecurity choroplèthe (mobile - more visible) */
-const INSECURITY_FILL_OPACITY_MOBILE = 0.75;
+const INSECURITY_FILL_OPACITY_MOBILE = 1;
 
 /** Default fill color when no data */
 const DEFAULT_FILL_COLOR = "#64748b"; // slate-500
 
 /** RAF batch size (number of feature-states per animation frame) */
 const BATCH_SIZE = 200;
+
+// ============================================================================
+// Popup Helpers
+// ============================================================================
+
+/**
+ * Format a rate value for display in popup.
+ */
+function formatRate(rate: number | null): string {
+    if (rate === null || !Number.isFinite(rate)) {
+        return "—";
+    }
+    return `${rate.toFixed(1)} pour 1000 hab.`;
+}
 
 // ============================================================================
 // Mobile Detection
@@ -332,6 +353,154 @@ function removeViewportHandlers(state: DisplayBinderState): void {
 }
 
 // ============================================================================
+// Highlight Popup Management
+// ============================================================================
+
+/**
+ * Remove highlight popup if it exists.
+ */
+function removeHighlightPopup(state: DisplayBinderState): void {
+    if (state.highlightPopup) {
+        state.highlightPopup.remove();
+        state.highlightPopup = null;
+    }
+
+    if (state.highlightAbortController) {
+        state.highlightAbortController.abort();
+        state.highlightAbortController = null;
+    }
+}
+
+/**
+ * Create or update highlight popup for a commune in insecurity mode.
+ */
+async function updateHighlightPopup(state: DisplayBinderState, inseeCode: string): Promise<void> {
+    // Remove existing popup
+    removeHighlightPopup(state);
+
+    // Create abort controller for this request
+    state.highlightAbortController = new AbortController();
+    const { signal } = state.highlightAbortController;
+
+    try {
+        // Fetch commune data and insecurity metrics in parallel
+        const [commune, insecurityLevelMap] = await Promise.all([
+            getCommuneByInsee(inseeCode, signal),
+            state.insecurityLevelMap ? Promise.resolve(state.insecurityLevelMap) : loadInsecurityData(signal)
+        ]);
+
+        // Check if aborted during fetch
+        if (signal.aborted) {
+            return;
+        }
+
+        // Validate commune data
+        if (!commune) {
+            return;
+        }
+
+        // Get insecurity row for detailed metrics
+        const meta = await loadInsecurityMeta(signal);
+        const latestYear = Math.max(...meta.yearsAvailable);
+        const yearData = await loadInsecurityYear(latestYear, signal);
+        const row = yearData.get(inseeCode);
+
+        // Check if aborted during fetch
+        if (signal.aborted) {
+            return;
+        }
+
+        // Build popup content
+        const content = document.createElement("div");
+        content.className = "bg-white p-2 rounded text-sm";
+
+        // Commune name
+        const nameDiv = document.createElement("div");
+        nameDiv.className = "font-semibold mb-1";
+        nameDiv.textContent = commune.name;
+        content.appendChild(nameDiv);
+
+        // Metrics (if available)
+        if (row) {
+            const metric1 = document.createElement("div");
+            metric1.textContent = `${INSECURITY_CATEGORIES[0]} : ${formatRate(row.violencesPersonnesPer1000)}`;
+            content.appendChild(metric1);
+
+            const metric2 = document.createElement("div");
+            metric2.textContent = `${INSECURITY_CATEGORIES[1]} : ${formatRate(row.securiteBiensPer1000)}`;
+            content.appendChild(metric2);
+
+            const metric3 = document.createElement("div");
+            metric3.textContent = `${INSECURITY_CATEGORIES[2]} : ${formatRate(row.tranquillitePer1000)}`;
+            content.appendChild(metric3);
+        } else {
+            // No data available
+            const noDataDiv = document.createElement("div");
+            noDataDiv.className = "text-gray-500 italic";
+            noDataDiv.textContent = "Aucune donnée disponible";
+            content.appendChild(noDataDiv);
+        }
+
+        // Create and show popup at commune centroid
+        const popup = new maplibregl.Popup({
+            closeButton: false,
+            closeOnClick: false,
+            anchor: "bottom",
+            offset: 10
+        })
+            .setLngLat([commune.lon, commune.lat])
+            .setDOMContent(content)
+            .addTo(state.map);
+
+        state.highlightPopup = popup;
+    } catch (error) {
+        // Ignore abort errors
+        if (error instanceof DOMException && error.name === "AbortError") {
+            return;
+        }
+        console.error("[displayBinder] Failed to create highlight popup:", error);
+    }
+}
+
+/**
+ * Install highlight popup subscription for insecurity mode.
+ */
+function installHighlightPopupSubscription(state: DisplayBinderState): void {
+    // Remove existing subscription
+    removeHighlightPopupSubscription(state);
+
+    const entityStateService = getEntityStateService();
+
+    // Subscribe to highlight changes
+    state.highlightUnsubscribe = entityStateService.subscribe((event) => {
+        if (event.type !== "highlight") {
+            return;
+        }
+
+        // Clear popup if highlight cleared or not a commune
+        if (!event.entity || event.entity.kind !== "commune") {
+            removeHighlightPopup(state);
+            return;
+        }
+
+        // Update popup for highlighted commune
+        void updateHighlightPopup(state, event.entity.inseeCode);
+    });
+}
+
+/**
+ * Remove highlight popup subscription.
+ */
+function removeHighlightPopupSubscription(state: DisplayBinderState): void {
+    if (state.highlightUnsubscribe) {
+        state.highlightUnsubscribe();
+        state.highlightUnsubscribe = null;
+    }
+
+    removeHighlightPopup(state);
+}
+
+// ============================================================================
 // Mode Handlers
 // ============================================================================
 
@@ -350,6 +519,7 @@ async function handleModeChange(state: DisplayBinderState, mode: DisplayMode): P
     if (mode === "default") {
         // Clean up insecurity mode
         removeViewportHandlers(state);
+        removeHighlightPopupSubscription(state);
         clearInsecurityFeatureStates(state);
         state.insecurityLevelMap = null;
 
@@ -381,6 +551,9 @@ async function handleModeChange(state: DisplayBinderState, mode: DisplayMode): P
 
             // Install viewport handlers
             installViewportHandlers(state);
+
+            // Install highlight popup subscription
+            installHighlightPopupSubscription(state);
         } catch (error) {
             if (error instanceof DOMException && error.name === "AbortError") {
                 // Aborted, ignore
@@ -411,6 +584,9 @@ export function attachDisplayBinder(map: MapLibreMap): () => void {
         moveEndHandler: null,
         zoomEndHandler: null,
         isMobile: detectMobile(),
+        highlightPopup: null,
+        highlightUnsubscribe: null,
+        highlightAbortController: null,
     };
 
     // Save current expressions (will restore on detach or mode=default)
@@ -436,6 +612,9 @@ export function attachDisplayBinder(map: MapLibreMap): () => void {
 
         // Remove viewport handlers
         removeViewportHandlers(state);
+
+        // Remove highlight popup subscription
+        removeHighlightPopupSubscription(state);
 
         // Clear feature-states
         clearInsecurityFeatureStates(state);
