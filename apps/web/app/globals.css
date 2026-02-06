@@ -23,3 +23,13 @@ body {
 .map-label--infra {
     background: rgba(217, 119, 6, 0.9);
 }
+
+/* MapLibre Popup styling */
+.maplibregl-popup-tip {
+    display: none;
+}
+
+.maplibregl-popup-content {
+    padding: 0;
+    background: transparent;
+}

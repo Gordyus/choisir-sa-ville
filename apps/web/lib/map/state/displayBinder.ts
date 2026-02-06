@@ -430,7 +430,7 @@ async function updateHighlightPopup(state: DisplayBinderState, inseeCode: string
 
         // Build popup content
         const content = document.createElement("div");
-        content.className = "bg-white/80 border rounded-md px-3 py-1.5 text-sm shadow-md space-y-1";
+        content.className = "bg-white border rounded-md px-1 py-1.5 text-sm text-brand shadow-md space-y-1";
 
         // Title
         const titleDiv = document.createElement("div");
