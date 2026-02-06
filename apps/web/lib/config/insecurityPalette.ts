@@ -9,6 +9,7 @@
  */
 
 import type { InsecurityLevel } from "@/lib/data/insecurityMetrics";
+import { INSECURITY_CATEGORIES as INSECURITY_CATEGORIES_CONFIG } from "./insecurityMetrics";
 
 // Re-export the type so consumers can import from this file or from insecurityMetrics
 export type { InsecurityLevel };
@@ -54,12 +55,9 @@ export const INSECURITY_COLORS = [
 /**
  * Noms des trois catégories d'insécurité SSMSI
  * Affichés dans les tooltips et détails métriques
+ * Re-exported from centralized config for backward compatibility
  */
-export const INSECURITY_CATEGORIES = [
-    "Crimes violents",        // violencesPersonnesPer1000
-    "Atteintes aux biens",    // securiteBiensPer1000
-    "Troubles à l'ordre public" // tranquillitePer1000
-] as const;
+export const INSECURITY_CATEGORIES = INSECURITY_CATEGORIES_CONFIG.map(c => c.label) as readonly [string, string, string];
 
 /**
  * Type guard pour validation de niveau d'insécurité

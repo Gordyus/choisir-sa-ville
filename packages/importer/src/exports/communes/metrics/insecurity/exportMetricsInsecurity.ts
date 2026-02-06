@@ -6,9 +6,10 @@ import { compressors } from "hyparquet-compressors";
 
 import { SOURCE_URLS } from "../../../constants.js";
 import { writeJsonAtomic } from "../../../shared/fileSystem.js";
+import { INSECURITY_CATEGORIES, INSECURITY_EPSILON } from "../../../shared/insecurityMetrics.js";
 import type { ExportCommune, ExportContext, SourceMeta } from "../../../shared/types.js";
 
-const DEFAULT_EPSILON = 0.05;
+const DEFAULT_EPSILON = INSECURITY_EPSILON;
 
 const EPSILON = (() => {
     const envValue = process.env.CSVV_INSECURITY_INDEXGLOBAL_EPSILON;
@@ -377,9 +378,12 @@ function computeRawScore(values: {
 }): number | null {
     const parts: Array<{ value: number; weight: number }> = [];
 
-    if (values.violencesPersonnesPer1000 !== null) parts.push({ value: values.violencesPersonnesPer1000, weight: 0.4 });
-    if (values.securiteBiensPer1000 !== null) parts.push({ value: values.securiteBiensPer1000, weight: 0.35 });
-    if (values.tranquillitePer1000 !== null) parts.push({ value: values.tranquillitePer1000, weight: 0.25 });
+    // Use centralized weights from config
+    const [violencesWeight, biensWeight, tranquilliteWeight] = INSECURITY_CATEGORIES.map(c => c.weight);
+
+    if (values.violencesPersonnesPer1000 !== null) parts.push({ value: values.violencesPersonnesPer1000, weight: violencesWeight });
+    if (values.securiteBiensPer1000 !== null) parts.push({ value: values.securiteBiensPer1000, weight: biensWeight });
+    if (values.tranquillitePer1000 !== null) parts.push({ value: values.tranquillitePer1000, weight: tranquilliteWeight });
 
     if (!parts.length) {
         return null;
