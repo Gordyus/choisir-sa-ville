@@ -52,6 +52,16 @@ export const INSECURITY_COLORS = [
 ] as const;
 
 /**
+ * Noms des trois catégories d'insécurité SSMSI
+ * Affichés dans les tooltips et détails métriques
+ */
+export const INSECURITY_CATEGORIES = [
+    "Crimes violents",        // violencesPersonnesPer1000
+    "Atteintes aux biens",    // securiteBiensPer1000
+    "Troubles à l'ordre public" // tranquillitePer1000
+] as const;
+
+/**
  * Type guard pour validation de niveau d'insécurité
  * Utile pour validations à runtime ou parsing de données externes
  */

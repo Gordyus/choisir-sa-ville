@@ -18,10 +18,10 @@
 
 import type { HTMLAttributes } from "react";
 
-import { INSECURITY_COLORS } from "@/lib/config/insecurityPalette";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
+import { INSECURITY_COLORS, INSECURITY_CATEGORIES } from "@/lib/config/insecurityPalette";
 import { useInsecurityMetrics } from "@/lib/data/insecurityMetrics";
 import { cn } from "@/lib/utils";
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 
 // ============================================================================
 // Constants
@@ -96,7 +96,7 @@ function formatRate(rate: number | null): string {
     if (rate === null || !Number.isFinite(rate)) {
         return "—";
     }
-    return `${rate.toFixed(1)} pour 1000 hab.`;
+    return `${rate.toFixed(1)}`;
 }
 
 // ============================================================================
@@ -174,9 +174,9 @@ export function InsecurityBadge({
                             {label} ({data.indexGlobal ?? "—"}/100)
                         </div>
                         <div className="text-sm space-y-0.5">
-                            <div>Violences : {formatRate(data.violencesPersonnesPer1000)}</div>
-                            <div>Sécurité des biens : {formatRate(data.securiteBiensPer1000)}</div>
-                            <div>Tranquillité : {formatRate(data.tranquillitePer1000)}</div>
+                            <div>{INSECURITY_CATEGORIES[0]} : {formatRate(data.violencesPersonnesPer1000)}</div>
+                            <div>{INSECURITY_CATEGORIES[1]} : {formatRate(data.securiteBiensPer1000)}</div>
+                            <div>{INSECURITY_CATEGORIES[2]} : {formatRate(data.tranquillitePer1000)}</div>
                         </div>
                         <div className="text-xs text-muted-foreground mt-1">
                             Année {data.year}
