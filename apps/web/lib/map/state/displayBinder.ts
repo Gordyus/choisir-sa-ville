@@ -18,7 +18,7 @@
  * - Events: moveend + zoomend ONLY (never move)
  */
 
-import type { ExpressionSpecification, MapGeoJSONFeature, Map as MapLibreMap } from "maplibre-gl";
+import type { ExpressionSpecification, MapGeoJSONFeature, Map as MapLibreMap, MapMouseEvent } from "maplibre-gl";
 import maplibregl from "maplibre-gl";
 
 import { INSECURITY_CATEGORIES, INSECURITY_COLORS } from "@/lib/config/insecurityPalette";
@@ -61,6 +61,8 @@ type DisplayBinderState = {
     highlightPopup: maplibregl.Popup | null;
     highlightUnsubscribe: (() => void) | null;
     highlightAbortController: AbortController | null;
+    highlightMouseMoveHandler: ((e: MapMouseEvent) => void) | null;
+    highlightRafId: number | null;
 };
 
 // ============================================================================
@@ -81,6 +83,10 @@ const DEFAULT_FILL_COLOR = "#64748b"; // slate-500
 
 /** RAF batch size (number of feature-states per animation frame) */
 const BATCH_SIZE = 200;
+
+/** Popup offset from cursor (pixels) */
+const POPUP_OFFSET_X = 15;
+const POPUP_OFFSET_Y = 10;
 
 // ============================================================================
 // Popup Helpers
@@ -360,6 +366,18 @@ function removeViewportHandlers(state: DisplayBinderState): void {
  * Remove highlight popup if it exists.
  */
 function removeHighlightPopup(state: DisplayBinderState): void {
+    // Cancel pending RAF
+    if (state.highlightRafId !== null) {
+        cancelAnimationFrame(state.highlightRafId);
+        state.highlightRafId = null;
+    }
+
+    // Remove mousemove listener
+    if (state.highlightMouseMoveHandler) {
+        state.map.off("mousemove", state.highlightMouseMoveHandler);
+        state.highlightMouseMoveHandler = null;
+    }
+
     if (state.highlightPopup) {
         state.highlightPopup.remove();
         state.highlightPopup = null;
@@ -441,11 +459,12 @@ async function updateHighlightPopup(state: DisplayBinderState, inseeCode: string
             content.appendChild(noDataDiv);
         }
 
-        // Create and show popup at commune centroid
+        // Create popup at initial position (will be updated on mousemove)
+        // Start at commune centroid as fallback
         const popup = new maplibregl.Popup({
             closeButton: false,
             closeOnClick: false,
-            anchor: "bottom",
+            anchor: "bottom-left",
             offset: 10
         })
             .setLngLat([commune.lon, commune.lat])
@@ -453,6 +472,40 @@ async function updateHighlightPopup(state: DisplayBinderState, inseeCode: string
             .addTo(state.map);
 
         state.highlightPopup = popup;
+
+        // Install mousemove handler to follow cursor
+        const handleMouseMove = (e: MapMouseEvent): void => {
+            if (!state.highlightPopup || !state.highlightPopup.isOpen()) {
+                return;
+            }
+
+            // Cancel any pending update
+            if (state.highlightRafId !== null) {
+                cancelAnimationFrame(state.highlightRafId);
+            }
+
+            // Schedule position update in RAF
+            state.highlightRafId = requestAnimationFrame(() => {
+                if (!state.highlightPopup) {
+                    return;
+                }
+
+                // Apply offset to mouse position
+                const offsetPoint = new maplibregl.Point(
+                    e.point.x + POPUP_OFFSET_X,
+                    e.point.y + POPUP_OFFSET_Y
+                );
+
+                // Convert screen coordinates to map coordinates
+                const lngLat = state.map.unproject(offsetPoint);
+                state.highlightPopup.setLngLat(lngLat);
+
+                state.highlightRafId = null;
+            });
+        };
+
+        state.highlightMouseMoveHandler = handleMouseMove;
+        state.map.on("mousemove", handleMouseMove);
     } catch (error) {
         // Ignore abort errors
         if (error instanceof DOMException && error.name === "AbortError") {
@@ -587,6 +640,8 @@ export function attachDisplayBinder(map: MapLibreMap): () => void {
         highlightPopup: null,
         highlightUnsubscribe: null,
         highlightAbortController: null,
+        highlightMouseMoveHandler: null,
+        highlightRafId: null,
     };
 
     // Save current expressions (will restore on detach or mode=default)
