@@ -57,7 +57,11 @@ export const INSECURITY_COLORS = [
  * Affichés dans les tooltips et détails métriques
  * Re-exported from centralized config for backward compatibility
  */
-export const INSECURITY_CATEGORIES = INSECURITY_CATEGORIES_CONFIG.map(c => c.label) as readonly [string, string, string];
+export const INSECURITY_CATEGORIES = [
+    INSECURITY_CATEGORIES_CONFIG[0]!.label,
+    INSECURITY_CATEGORIES_CONFIG[1]!.label,
+    INSECURITY_CATEGORIES_CONFIG[2]!.label
+] as const;
 
 /**
  * Type guard pour validation de niveau d'insécurité

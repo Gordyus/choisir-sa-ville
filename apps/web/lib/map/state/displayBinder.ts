@@ -401,11 +401,8 @@ async function updateHighlightPopup(state: DisplayBinderState, inseeCode: string
     const { signal } = state.highlightAbortController;
 
     try {
-        // Fetch commune data and insecurity metrics in parallel
-        const [commune, insecurityLevelMap] = await Promise.all([
-            getCommuneByInsee(inseeCode, signal),
-            state.insecurityLevelMap ? Promise.resolve(state.insecurityLevelMap) : loadInsecurityData(signal)
-        ]);
+        // Fetch commune data
+        const commune = await getCommuneByInsee(inseeCode, signal);
 
         // Check if aborted during fetch
         if (signal.aborted) {
