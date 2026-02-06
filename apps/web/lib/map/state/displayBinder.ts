@@ -23,9 +23,10 @@ import maplibregl from "maplibre-gl";
 
 import { INSECURITY_CATEGORIES, INSECURITY_COLORS } from "@/lib/config/insecurityPalette";
 import { getCommuneByInsee } from "@/lib/data/communesIndexLite";
-import { loadInsecurityMeta, loadInsecurityYear } from "@/lib/data/insecurityMetrics";
+import { loadInsecurityMeta, loadInsecurityYear, type InsecurityMetricsRow } from "@/lib/data/insecurityMetrics";
 import { COMMUNE_COLORS } from "@/lib/map/layers/highlightState";
 import { LAYER_IDS } from "@/lib/map/registry/layerRegistry";
+import { GenericPopup, type PopupContent } from "@/lib/map/popupRenderer";
 import { getEntityStateService } from "@/lib/selection";
 
 import { displayModeService, type DisplayMode } from "./displayModeService";
@@ -58,7 +59,7 @@ type DisplayBinderState = {
     zoomEndHandler: (() => void) | null;
     isMobile: boolean;
     // Highlight popup
-    highlightPopup: maplibregl.Popup | null;
+    popup: GenericPopup | null;
     highlightUnsubscribe: (() => void) | null;
     highlightAbortController: AbortController | null;
     highlightMouseMoveHandler: ((e: MapMouseEvent) => void) | null;
@@ -363,6 +364,25 @@ function removeViewportHandlers(state: DisplayBinderState): void {
 // ============================================================================
 
 /**
+ * Build popup content for insecurity metrics.
+ */
+function buildInsecurityPopupContent(row: InsecurityMetricsRow | undefined): PopupContent {
+    let html = '<div class="bg-white border rounded-md px-1 py-1.5 text-sm text-brand shadow-md space-y-1">';
+    html += '<div class="text-sm">Nombre d\'incidents pour 1000 habitants</div>';
+
+    if (row) {
+        html += `<div>${INSECURITY_CATEGORIES[0]} : ${formatRate(row.violencesPersonnesPer1000)}</div>`;
+        html += `<div>${INSECURITY_CATEGORIES[1]} : ${formatRate(row.securiteBiensPer1000)}</div>`;
+        html += `<div>${INSECURITY_CATEGORIES[2]} : ${formatRate(row.tranquillitePer1000)}</div>`;
+    } else {
+        html += '<div class="text-gray-500 italic">Aucune donnée disponible</div>';
+    }
+
+    html += '</div>';
+    return { html };
+}
+
+/**
  * Remove highlight popup if it exists.
  */
 function removeHighlightPopup(state: DisplayBinderState): void {
@@ -378,9 +398,8 @@ function removeHighlightPopup(state: DisplayBinderState): void {
         state.highlightMouseMoveHandler = null;
     }
 
-    if (state.highlightPopup) {
-        state.highlightPopup.remove();
-        state.highlightPopup = null;
+    if (state.popup) {
+        state.popup.close();
     }
 
     if (state.highlightAbortController) {
@@ -425,54 +444,19 @@ async function updateHighlightPopup(state: DisplayBinderState, inseeCode: string
             return;
         }
 
-        // Build popup content
-        const content = document.createElement("div");
-        content.className = "bg-white border rounded-md px-1 py-1.5 text-sm text-brand shadow-md space-y-1";
+        // Build content
+        const content = buildInsecurityPopupContent(row);
 
-        // Title
-        const titleDiv = document.createElement("div");
-        titleDiv.className = "text-sm";
-        titleDiv.textContent = "Nombre d'incidents pour 1000 habitants";
-        content.appendChild(titleDiv);
-
-        // Metrics (if available)
-        if (row) {
-            const metric1 = document.createElement("div");
-            metric1.textContent = `${INSECURITY_CATEGORIES[0]} : ${formatRate(row.violencesPersonnesPer1000)}`;
-            content.appendChild(metric1);
-
-            const metric2 = document.createElement("div");
-            metric2.textContent = `${INSECURITY_CATEGORIES[1]} : ${formatRate(row.securiteBiensPer1000)}`;
-            content.appendChild(metric2);
-
-            const metric3 = document.createElement("div");
-            metric3.textContent = `${INSECURITY_CATEGORIES[2]} : ${formatRate(row.tranquillitePer1000)}`;
-            content.appendChild(metric3);
-        } else {
-            // No data available
-            const noDataDiv = document.createElement("div");
-            noDataDiv.className = "text-gray-500 italic";
-            noDataDiv.textContent = "Aucune donnée disponible";
-            content.appendChild(noDataDiv);
+        // Show popup at commune centroid (will be repositioned on mousemove)
+        if (!state.popup) {
+            return;
         }
 
-        // Create popup at initial position (will be updated on mousemove)
-        // Start at commune centroid as fallback
-        const popup = new maplibregl.Popup({
-            closeButton: false,
-            closeOnClick: false,
-            anchor: "bottom-left",
-            offset: 10
-        })
-            .setLngLat([commune.lon, commune.lat])
-            .setDOMContent(content)
-            .addTo(state.map);
-
-        state.highlightPopup = popup;
+        state.popup.show([commune.lon, commune.lat], content);
 
         // Install mousemove handler to follow cursor
         const handleMouseMove = (e: MapMouseEvent): void => {
-            if (!state.highlightPopup || !state.highlightPopup.isOpen()) {
+            if (!state.popup?.isOpen()) {
                 return;
             }
 
@@ -483,7 +467,7 @@ async function updateHighlightPopup(state: DisplayBinderState, inseeCode: string
 
             // Schedule position update in RAF
             state.highlightRafId = requestAnimationFrame(() => {
-                if (!state.highlightPopup) {
+                if (!state.popup) {
                     return;
                 }
 
@@ -495,7 +479,9 @@ async function updateHighlightPopup(state: DisplayBinderState, inseeCode: string
 
                 // Convert screen coordinates to map coordinates
                 const lngLat = state.map.unproject(offsetPoint);
-                state.highlightPopup.setLngLat(lngLat);
+
+                // Update position with same content
+                state.popup.show(lngLat, content);
 
                 state.highlightRafId = null;
             });
@@ -634,7 +620,7 @@ export function attachDisplayBinder(map: MapLibreMap): () => void {
         moveEndHandler: null,
         zoomEndHandler: null,
         isMobile: detectMobile(),
-        highlightPopup: null,
+        popup: new GenericPopup(map, { openDelay: 500 }),
         highlightUnsubscribe: null,
         highlightAbortController: null,
         highlightMouseMoveHandler: null,

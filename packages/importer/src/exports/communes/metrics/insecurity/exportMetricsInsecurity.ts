@@ -379,7 +379,9 @@ function computeRawScore(values: {
     const parts: Array<{ value: number; weight: number }> = [];
 
     // Use centralized weights from config
-    const [violencesWeight, biensWeight, tranquilliteWeight] = INSECURITY_CATEGORIES.map(c => c.weight);
+    const violencesWeight = INSECURITY_CATEGORIES[0]!.weight;
+    const biensWeight = INSECURITY_CATEGORIES[1]!.weight;
+    const tranquilliteWeight = INSECURITY_CATEGORIES[2]!.weight;
 
     if (values.violencesPersonnesPer1000 !== null) parts.push({ value: values.violencesPersonnesPer1000, weight: violencesWeight });
     if (values.securiteBiensPer1000 !== null) parts.push({ value: values.securiteBiensPer1000, weight: biensWeight });
