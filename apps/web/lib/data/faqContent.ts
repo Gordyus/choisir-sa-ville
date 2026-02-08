@@ -1,11 +1,5 @@
 import type { ReactNode } from "react";
 
-import {
-    INSECURITY_CATEGORIES,
-    INSECURITY_LEVELS,
-    getWeightPercentage
-} from "@/lib/config/insecurityMetrics";
-
 export type FAQItem = {
     id: string;
     title: string;
@@ -16,66 +10,66 @@ export const FAQ_ITEMS: FAQItem[] = [
     {
         id: "insecurity-index",
         title: "Indice de sécurité : comment ça marche ?",
-        content: `L'indice de sécurité classe les communes sur une échelle de 0 à 100, basée sur le nombre d'incidents enregistrés pour 100 000 habitants.
+        content: `L'indice de sécurité mesure le niveau relatif d'insécurité d'une commune par rapport aux autres communes de France, sur une échelle de 0 à 100.
 
-**Les 5 niveaux :**
-${INSECURITY_LEVELS.map((l) => `- **${l.label}** (${l.description})`).join("\n")}
+Plus le score est élevé, plus la commune se situe dans une position relative d'insécurité élevée par rapport à l'ensemble des communes françaises de taille comparable.
 
-**Comment fonctionne le classement :**
-Les communes sont classées par **percentile** selon leur score brut d'insécurité, avec une double perspective :
-- **National** : Comparaison avec toutes les communes françaises
-- **Catégorie de taille** : Comparaison avec des communes de taille similaire (prioritaire)
+Les 5 niveaux de classification :
 
-Plus le score brut est faible, plus l'indice de sécurité est proche de 0 (commune très sûre). Les communes avec le score le plus élevé ont un indice proche de 100 (insécurité la plus importante).
+• Niveau 0 - Très faible (vert) : Percentile 0-20
+  Parmi les 20% de communes les moins touchées
 
-**Classification par taille de population :**
+• Niveau 1 - Faible (vert-jaune) : Percentile 20-40
+  Légèrement en-dessous de la moyenne nationale
 
-Pour permettre des comparaisons légitimes, les communes sont classées en 3 catégories selon leur population :
+• Niveau 2 - Modéré (jaune) : Percentile 40-60
+  Proche de la moyenne nationale
 
-- **Petites communes** : moins de 10 000 habitants
-- **Communes moyennes** : 10 000 à 100 000 habitants  
-- **Grandes villes** : plus de 100 000 habitants
+• Niveau 3 - Élevé (orange) : Percentile 60-80
+  Légèrement au-dessus de la moyenne nationale
 
-Le niveau affiché (0 à 4) reflète le classement **au sein de la catégorie de taille**.
+• Niveau 4 - Plus élevé (rouge) : Percentile 80-100
+  Parmi les 20% de communes les plus touchées
 
-**Pourquoi cette classification ?**
+Pourquoi comparer les communes par taille ?
 
-Les petites communes peuvent avoir des taux très élevés avec peu de faits divers.
+Les communes sont classées en 3 catégories de taille (petites, moyennes, grandes) avant calcul du percentile. Cette segmentation évite de comparer des contextes urbains trop différents.
 
-**Exemple** : Une commune de 50 habitants avec 1 seul fait divers aura un taux de 2 000 pour 100 000 habitants, alors qu'une grande ville avec 200 faits pour 100 000 habitants aura un taux bien plus faible.
+Une petite commune rurale de 500 habitants n'est comparée qu'aux autres petites communes, pas à Paris ou Marseille. Cela rend la comparaison plus pertinente et équitable.
 
-Comparer ces deux communes directement serait mathématiquement invalide. La classification par taille résout ce biais en comparant chaque commune à ses **pairs de taille similaire**.
+Comment est calculé le score ?
 
-**Que signifie "pour 100 000 habitants" ?**
+Le score agrège 3 familles d'indicateurs issus des données officielles :
 
-C'est le standard scientifique international (ONU, études académiques). Les taux sont exprimés en "faits pour 100 000 habitants" au lieu de "pour 1 000" pour faciliter les comparaisons internationales et éviter les confusions avec les pourcentages.
+1. Atteintes volontaires à l'intégrité physique (40% du score)
+   Violences, coups et blessures
 
-**Les 3 familles d'infractions mesurées :**
-${INSECURITY_CATEGORIES.map(
-    (cat) => `- **${cat.label}** (${getWeightPercentage(cat.weight)}% du score global)`
-).join("\n")}
+2. Atteintes aux biens (35% du score)
+   Vols, cambriolages, dégradations
 
-**La pondération :**
-Ces 3 familles sont combinées avec des poids différents pour obtenir un indice composite :
-${INSECURITY_CATEGORIES.map((cat) => `- **${cat.label}** : ${(cat.weight * 100).toFixed(0)}%`).join("\n")}
+3. Atteintes à la tranquillité publique (25% du score)
+   Troubles à l'ordre public, dégradations légères
 
-Cette pondération reflète l'importance relative de chaque catégorie dans le sentiment d'insécurité selon les enquêtes victimisation françaises.
+Chaque famille est normalisée pour 100 000 habitants puis pondérée pour obtenir un score global.
 
-**Code couleur sur la carte :**
-- 🟢 **Vert** = Très faible insécurité (indice 0–24)
-- 🟡 **Jaune** = Faible insécurité (indice 25–49)
-- 🟠 **Orange** = Insécurité modérée (indice 50–74)
-- 🔴 **Rouge foncé** = Insécurité élevée (indice 75–100)
-- 🔴 **Rouge** = Très élevée (top 10%)
+Source des données :
 
-**Source et fiabilité :**
-**Source :** Ministère de l'Intérieur – SSMSI (Système Statistique de Sécurité Intérieure)
-- Base communale de la délinquance enregistrée
-- Années disponibles : 2016 à 2024
-- Actualisation : annuelle
-- Normalisation : Population INSEE pour mettre à l'échelle (incidents pour 100 000 habitants)
-- Granularité : Communes (niveau pivot)
+Les données proviennent exclusivement de sources officielles publiques :
 
-**Important :** Cet indice mesure les **infractions enregistrées** par les autorités, pas les faits réels. Les tendances géographiques et temporelles sont significatives, mais le chiffre brut dépend du taux de signalement.`
+• Ministère de l'Intérieur - Service statistique ministériel de la sécurité intérieure (SSMSI)
+• INSEE - Données de population
+
+Les données sont mises à jour annuellement et reflètent l'année civile la plus récente disponible.
+
+Comment interpréter cet indice ?
+
+Cet indice est un indicateur comparatif, pas une mesure absolue du danger. Il compare les communes entre elles selon les données déclarées officiellement.
+
+Limites importantes :
+• Les données reflètent les faits constatés et enregistrés, pas nécessairement la réalité exhaustive
+• Le niveau peut varier d'une année à l'autre
+• Un niveau "élevé" ne signifie pas qu'une commune est dangereuse, mais qu'elle se situe dans la partie haute de la distribution nationale
+
+Utilisez cet indice comme un élément d'information parmi d'autres, pas comme un critère unique de décision.`
     }
 ];
