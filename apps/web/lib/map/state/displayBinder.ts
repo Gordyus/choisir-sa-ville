@@ -174,8 +174,8 @@ async function loadInsecurityData(signal?: AbortSignal): Promise<Map<string, num
 
     for (const [insee, row] of yearData) {
         // Use baked level field (0-4) directly from data
-        if (row.level !== null && Number.isFinite(row.level)) {
-            result.set(insee, row.level);
+        if (row.levelCategory !== null && Number.isFinite(row.levelCategory)) {
+            result.set(insee, row.levelCategory);
         }
     }
 
@@ -368,12 +368,12 @@ function removeViewportHandlers(state: DisplayBinderState): void {
  */
 function buildInsecurityPopupContent(row: InsecurityMetricsRow | undefined, year?: number): PopupContent {
     let html = '<div class="bg-white border rounded-md px-1 py-1.5 text-sm text-brand shadow-md space-y-1">';
-    html += '<div class="text-sm">Nombre d\'incidents pour 1000 habitants</div>';
+    html += '<div class="text-sm">Nombre d\'incidents pour 100 000 habitants</div>';
 
     if (row) {
-        html += `<div>${INSECURITY_CATEGORIES[0]} : ${formatRate(row.violencesPersonnesPer1000)}</div>`;
-        html += `<div>${INSECURITY_CATEGORIES[1]} : ${formatRate(row.securiteBiensPer1000)}</div>`;
-        html += `<div>${INSECURITY_CATEGORIES[2]} : ${formatRate(row.tranquillitePer1000)}</div>`;
+        html += `<div>${INSECURITY_CATEGORIES[0]} : ${formatRate(row.violencesPersonnesPer100k)}</div>`;
+        html += `<div>${INSECURITY_CATEGORIES[1]} : ${formatRate(row.securiteBiensPer100k)}</div>`;
+        html += `<div>${INSECURITY_CATEGORIES[2]} : ${formatRate(row.tranquillitePer100k)}</div>`;
         if (year) {
             html += `<div class="text-xs text-gray-600 mt-1">Indice ${year}</div>`;
         }

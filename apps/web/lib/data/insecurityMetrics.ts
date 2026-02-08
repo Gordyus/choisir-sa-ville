@@ -13,6 +13,8 @@
 
 import { useEffect, useState } from "react";
 
+import type { PopulationCategory } from "@/lib/config/insecurityMetrics";
+
 // ============================================================================
 // Types
 // ============================================================================
@@ -30,11 +32,16 @@ export interface InsecurityMetricsMeta {
 export interface InsecurityMetricsRow {
     insee: string;
     population: number | null;
-    violencesPersonnesPer1000: number | null;
-    securiteBiensPer1000: number | null;
-    tranquillitePer1000: number | null;
-    indexGlobal: number | null;
-    level: number | null;
+    populationCategory: PopulationCategory | null;
+    violencesPersonnesPer100k: number | null;
+    securiteBiensPer100k: number | null;
+    tranquillitePer100k: number | null;
+    indexGlobalNational: number | null;
+    indexGlobalCategory: number | null;
+    levelNational: number;
+    levelCategory: number;
+    rankInCategory: string | null;
+    dataCompleteness: number;
 }
 
 interface RawInsecurityData {
@@ -47,11 +54,17 @@ interface RawInsecurityData {
 export type InsecurityLevel = "faible" | "modere" | "eleve" | "tres-eleve";
 
 export interface InsecurityMetricsResult {
-    indexGlobal: number | null;
-    level: number | null;
-    violencesPersonnesPer1000: number | null;
-    securiteBiensPer1000: number | null;
-    tranquillitePer1000: number | null;
+    population: number | null;
+    populationCategory: PopulationCategory | null;
+    violencesPersonnesPer100k: number | null;
+    securiteBiensPer100k: number | null;
+    tranquillitePer100k: number | null;
+    indexGlobalNational: number | null;
+    indexGlobalCategory: number | null;
+    levelNational: number;
+    levelCategory: number;
+    rankInCategory: string | null;
+    dataCompleteness: number;
     year: number;
 }
 
@@ -228,14 +241,19 @@ function parseInsecurityData(raw: RawInsecurityData): Map<string, InsecurityMetr
         }
     }
 
-    // Expected columns
+    // Expected columns (12 columns after Phase 2)
     const inseeIdx = colIndex["insee"];
     const populationIdx = colIndex["population"];
-    const violencesIdx = colIndex["violencesPersonnesPer1000"];
-    const securiteIdx = colIndex["securiteBiensPer1000"];
-    const tranquilliteIdx = colIndex["tranquillitePer1000"];
-    const indexGlobalIdx = colIndex["indexGlobal"];
-    const levelIdx = colIndex["level"];
+    const populationCategoryIdx = colIndex["populationCategory"];
+    const violencesIdx = colIndex["violencesPersonnesPer100k"];
+    const securiteIdx = colIndex["securiteBiensPer100k"];
+    const tranquilliteIdx = colIndex["tranquillitePer100k"];
+    const indexGlobalNationalIdx = colIndex["indexGlobalNational"];
+    const indexGlobalCategoryIdx = colIndex["indexGlobalCategory"];
+    const levelNationalIdx = colIndex["levelNational"];
+    const levelCategoryIdx = colIndex["levelCategory"];
+    const rankInCategoryIdx = colIndex["rankInCategory"];
+    const dataCompletenessIdx = colIndex["dataCompleteness"];
 
     if (inseeIdx === undefined) {
         console.warn("[insecurityMetrics] Missing 'insee' column");
@@ -249,13 +267,16 @@ function parseInsecurityData(raw: RawInsecurityData): Map<string, InsecurityMetr
         map.set(insee, {
             insee,
             population: populationIdx !== undefined ? (row[populationIdx] as number | null) : null,
-            violencesPersonnesPer1000:
-                violencesIdx !== undefined ? (row[violencesIdx] as number | null) : null,
-            securiteBiensPer1000: securiteIdx !== undefined ? (row[securiteIdx] as number | null) : null,
-            tranquillitePer1000:
-                tranquilliteIdx !== undefined ? (row[tranquilliteIdx] as number | null) : null,
-            indexGlobal: indexGlobalIdx !== undefined ? (row[indexGlobalIdx] as number | null) : null,
-            level: levelIdx !== undefined ? (row[levelIdx] as number | null) : null
+            populationCategory: populationCategoryIdx !== undefined ? (row[populationCategoryIdx] as PopulationCategory | null) : null,
+            violencesPersonnesPer100k: violencesIdx !== undefined ? (row[violencesIdx] as number | null) : null,
+            securiteBiensPer100k: securiteIdx !== undefined ? (row[securiteIdx] as number | null) : null,
+            tranquillitePer100k: tranquilliteIdx !== undefined ? (row[tranquilliteIdx] as number | null) : null,
+            indexGlobalNational: indexGlobalNationalIdx !== undefined ? (row[indexGlobalNationalIdx] as number | null) : null,
+            indexGlobalCategory: indexGlobalCategoryIdx !== undefined ? (row[indexGlobalCategoryIdx] as number | null) : null,
+            levelNational: levelNationalIdx !== undefined ? (row[levelNationalIdx] as number) : 0,
+            levelCategory: levelCategoryIdx !== undefined ? (row[levelCategoryIdx] as number) : 0,
+            rankInCategory: rankInCategoryIdx !== undefined ? (row[rankInCategoryIdx] as string | null) : null,
+            dataCompleteness: dataCompletenessIdx !== undefined ? (row[dataCompletenessIdx] as number) : 0
         });
     }
 
@@ -295,11 +316,17 @@ export async function getInsecurityMetrics(
     }
 
     return {
-        indexGlobal: row.indexGlobal,
-        level: row.level,
-        violencesPersonnesPer1000: row.violencesPersonnesPer1000,
-        securiteBiensPer1000: row.securiteBiensPer1000,
-        tranquillitePer1000: row.tranquillitePer1000,
+        population: row.population,
+        populationCategory: row.populationCategory,
+        violencesPersonnesPer100k: row.violencesPersonnesPer100k,
+        securiteBiensPer100k: row.securiteBiensPer100k,
+        tranquillitePer100k: row.tranquillitePer100k,
+        indexGlobalNational: row.indexGlobalNational,
+        indexGlobalCategory: row.indexGlobalCategory,
+        levelNational: row.levelNational,
+        levelCategory: row.levelCategory,
+        rankInCategory: row.rankInCategory,
+        dataCompleteness: row.dataCompleteness,
         year: targetYear
     };
 }

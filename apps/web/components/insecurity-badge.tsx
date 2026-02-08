@@ -4,7 +4,12 @@
  * Insecurity Badge Component
  *
  * Displays a colored badge showing the insecurity level for a commune.
- * Uses the pre-computed `level` field (0-4) from the SSMSI data export.
+ * Uses the pre-computed `levelCategory` field (0-4) from the SSMSI data export.
+ *
+ * Double Perspective (Phase 3):
+ * - Main badge displays levelCategory (category-based comparison)
+ * - Subtitle shows rankInCategory and category label
+ * - Tooltip shows both category and national perspectives
  *
  * Levels (using INSECURITY_COLORS palette):
  * - 0: Très faible (very low) - Green (#22c55e)
@@ -20,6 +25,7 @@ import type { HTMLAttributes } from "react";
 
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { INSECURITY_CATEGORIES, INSECURITY_COLORS } from "@/lib/config/insecurityPalette";
+import { POPULATION_CATEGORIES } from "@/lib/config/insecurityMetrics";
 import { useInsecurityMetrics } from "@/lib/data/insecurityMetrics";
 import { cn } from "@/lib/utils";
 
@@ -146,37 +152,68 @@ export function InsecurityBadge({
     }
 
     // Hide on error or no data
-    if (error || !data || data.level === null) {
+    if (error || !data) {
         return null;
     }
 
-    const bgColor = getLevelColor(data.level);
-    const label = getLevelLabel(data.level);
+    const level = data.levelCategory;
+    const bgColor = getLevelColor(level);
+    const label = getLevelLabel(level);
+    const categoryLabel = data.populationCategory 
+        ? POPULATION_CATEGORIES[data.populationCategory].label
+        : "Catégorie inconnue";
 
     return (
         <TooltipProvider>
             <Tooltip>
                 <TooltipTrigger asChild>
-                    <span
-                        className={cn(
-                            "inline-flex items-center rounded-full px-3 py-1 text-sm font-medium text-white",
-                            className
+                    <div className="flex flex-col gap-1">
+                        {/* Main badge: Category level */}
+                        <span
+                            className={cn(
+                                "inline-flex items-center rounded-full px-3 py-1 text-sm font-medium text-white",
+                                className
+                            )}
+                            style={{ backgroundColor: bgColor }}
+                            {...props}
+                        >
+                            {label}
+                        </span>
+                        
+                        {/* Subtitle: Rank in category */}
+                        {data.rankInCategory && (
+                            <span className="text-xs text-muted-foreground">
+                                {data.rankInCategory} {categoryLabel}
+                            </span>
                         )}
-                        style={{ backgroundColor: bgColor }}
-                        {...props}
-                    >
-                        {label}
-                    </span>
+                    </div>
                 </TooltipTrigger>
                 <TooltipContent>
-                    <div className="space-y-1">
+                    <div className="space-y-2">
+                        <p className="font-medium">
+                            Niveau {level} ({categoryLabel})
+                        </p>
+                        <p className="text-muted-foreground text-sm">
+                            Niveau {data.levelNational} (classement national)
+                        </p>
+                        <div className="border-t border-border my-2" />
                         <div className="text-sm">
-                            Nombre d'incidents pour 1000 habitants
+                            Nombre d'incidents pour 100 000 habitants
                         </div>
                         <div className="text-sm space-y-0.5">
-                            <div>{INSECURITY_CATEGORIES[0]} : {formatRate(data.violencesPersonnesPer1000)}</div>
-                            <div>{INSECURITY_CATEGORIES[1]} : {formatRate(data.securiteBiensPer1000)}</div>
-                            <div>{INSECURITY_CATEGORIES[2]} : {formatRate(data.tranquillitePer1000)}</div>
+                            <div>{INSECURITY_CATEGORIES[0]} : {formatRate(data.violencesPersonnesPer100k)}</div>
+                            <div>{INSECURITY_CATEGORIES[1]} : {formatRate(data.securiteBiensPer100k)}</div>
+                            <div>{INSECURITY_CATEGORIES[2]} : {formatRate(data.tranquillitePer100k)}</div>
+                        </div>
+                        <div className="border-t border-border my-2" />
+                        <div className="text-xs space-y-1 text-muted-foreground">
+                            <p>Percentile national: {data.indexGlobalNational ?? "—"}</p>
+                            <p>Percentile catégorie: {data.indexGlobalCategory ?? "—"}</p>
+                            {data.dataCompleteness < 1.0 && (
+                                <p className="text-amber-600">
+                                    Données partielles ({Math.round(data.dataCompleteness * 100)}%)
+                                </p>
+                            )}
                         </div>
                         <div className="text-xs text-muted-foreground mt-1">
                             Année {data.year}
