@@ -285,11 +285,13 @@ Pas de calcul runtime, juste lookup palette.
 
 | Level | Label | Couleur | Condition |
 |-------|-------|---------|-----------|
-| 0 | Très faible | `#22c55e` (vert) | `indexGlobalCategory = null` ou `0-24` |
-| 1 | Faible | `#84cc16` (lime) | `indexGlobalCategory 25-49` |
-| 2 | Modéré | `#eab308` (jaune) | `indexGlobalCategory 50-74` |
-| 3 | Élevé | `#f97316` (orange) | `indexGlobalCategory 75-99` |
-| 4 | Plus élevé | `#ef4444` (rouge) | `indexGlobalCategory 100` |
+| 0 | Très faible | `#22c55e` (vert) | `indexGlobalCategory = null` ou `[0-20)` |
+| 1 | Faible | `#84cc16` (lime) | `indexGlobalCategory [20-40)` |
+| 2 | Modéré | `#eab308` (jaune) | `indexGlobalCategory [40-60)` |
+| 3 | Élevé | `#f97316` (orange) | `indexGlobalCategory [60-80)` |
+| 4 | Plus élevé | `#ef4444` (rouge) | `indexGlobalCategory [80-100]` |
+
+**Méthodologie**: Quintiles standards (5 catégories équilibrées de 20 points chacune), conforme aux standards internationaux (Numbeo Crime Index, méthodologies académiques ICVS).
 
 **Rationale** : Les niveaux sont calculés sur les percentiles **catégorie** (pas national), garantissant :
 - Comparaisons légitimes entre communes de tailles similaires

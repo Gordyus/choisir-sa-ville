@@ -304,15 +304,17 @@ const tabularRows = communes.map(c => [
 - Calcul percentile [0..100]
 - Map score → percentile
 
-**Fonction `mapIndexToLevel()`** (existante, inchangée):
+**Fonction `mapIndexToLevel()`** (mise à jour quintiles standards):
 ```typescript
 function mapIndexToLevel(indexGlobal: number | null): number {
     if (indexGlobal === null || !Number.isFinite(indexGlobal)) return 0;
-    if (indexGlobal < 25) return 0;
-    if (indexGlobal < 50) return 1;
-    if (indexGlobal < 75) return 2;
-    if (indexGlobal < 99) return 3;
-    return 4;
+    
+    // Quintiles standards (alignés sur Numbeo Crime Index et méthodologies académiques)
+    if (indexGlobal < 20) return 0;  // [0-20)   = Très bas
+    if (indexGlobal < 40) return 1;  // [20-40)  = Bas
+    if (indexGlobal < 60) return 2;  // [40-60)  = Moyen
+    if (indexGlobal < 80) return 3;  // [60-80)  = Haut
+    return 4;  // [80-100] = Très haut (top 20%)
 }
 ```
 

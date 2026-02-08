@@ -33,6 +33,25 @@ conforme aux standards internationaux (ONU-ICVS, classements homicides, littéra
 
 **Référence**: `specs/security-index-population-classification.md`
 
+#### Fix: Adoption des Quintiles Standards pour le Mapping de Niveaux
+
+**Changement méthodologique**:
+- Fonction `mapIndexToLevel()` modifiée pour utiliser les quintiles standards (5 × 20 points)
+- Ancien mapping asymétrique: [0-25, 25-50, 50-75, 75-99, 100]
+- Nouveau mapping équilibré: [0-20, 20-40, 40-60, 60-80, 80-100]
+
+**Justification**:
+- Alignement sur Numbeo Crime Index (standard international grand public)
+- Méthodologie académique (quintiles ICVS, standards ONU)
+- Meilleure UX: Rouen #2/42 désormais niveau 4 (était 3 avec ancien mapping)
+
+**Impact**:
+- ~21% des grandes villes obtiennent niveau 4 (9/42) au lieu de 2.4% (1/42)
+- Distribution plus équilibrée sur les 5 niveaux
+- Top 9 grandes villes niveau 4: Bordeaux, Rouen, Grenoble, Lille, Lyon, Paris, Marseille, Montpellier, Saint-Denis
+
+**Référence**: Validé par PO/Architect gatekeeper, conforme doc/RESEARCH-security-index-methodologies.md
+
 ### En cours de développement
 
 - Recherche par nom de commune

@@ -370,4 +370,31 @@ Scale: 0-100
 
 ---
 
+## Classification par Niveau (Level Mapping)
+
+### Méthodologie Adoptée: Quintiles Standards
+
+La fonction `mapIndexToLevel()` convertit l'index global [0-100] en 5 niveaux discrets:
+
+| Niveau | Tranche | Sémantique | Standards |
+|--------|---------|------------|-----------|
+| 0 | [0-20) | Très bas | Numbeo: Very Low |
+| 1 | [20-40) | Bas | Numbeo: Low |
+| 2 | [40-60) | Moyen | Numbeo: Moderate |
+| 3 | [60-80) | Haut | Numbeo: High |
+| 4 | [80-100] | Très haut | Numbeo: Very High |
+
+**Justification:**
+- Alignement sur Numbeo Crime Index (référence grand public internationale)
+- Quintiles académiques (5 catégories équilibrées de 20 points)
+- Distribution équitable (20% des communes par niveau en théorie)
+- Cohérence UX (top 20% = niveau maximum, pas uniquement #1)
+
+**Évolution:**
+- 2026-02-08: Passage de mapping asymétrique [25/25/25/24/1 points] à quintiles standards [20/20/20/20/20 points].
+- Impact: Niveau 4 désormais attribué à [80-100] au lieu de [100 uniquement].
+- Résultat: ~21% des grandes villes obtiennent niveau 4 (9/42) au lieu de 2.4% (1/42).
+
+---
+
 **Document de référence pour décision architecturale finale.**
