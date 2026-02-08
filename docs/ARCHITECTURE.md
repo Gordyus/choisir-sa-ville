@@ -66,9 +66,12 @@ Exemple pour l'agrégat insécurité au niveau commune :
 | Housing | `communes/metrics/housing.json` | Actif | |
 
 **Insécurité (SSMSI)** :
-- **Population source** : `insee_pop` du Parquet SSMSI (pas de fallback ZIP INSEE)
-- **Index calculation** : Percentile simple sur tous les `scoreRaw`, rescaled à [0..100]
-- **Niveaux** : 0–4 (Très faible → Plus élevé), mappés directement depuis `indexGlobal` percentiles : 0-24/25-49/50-74/75-99/100
+- Source: Bases SSMSI (ministère de l'intérieur)
+- Calcul: Score pondéré (40% violences, 35% biens, 25% tranquillité)
+- Classification par taille de population (3 catégories)
+- Double indexGlobal: [0..100] national + [0..100] catégorie
+- Niveaux [0..4] basés sur percentiles catégorie
+- Unité: Faits pour 100,000 habitants
 - **Rendu carto** : Feature-state viewport-only (moveend + zoomend), pas de match géant
 - **Performance** : Batching RAF (200 features/frame), adaptive opacity mobile
 - **Documentation** : Voir `docs/METRICS_INSECURITY.md`

@@ -9,6 +9,30 @@ et ce projet adhère au [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Unreleased]
 
+### BREAKING CHANGES
+
+#### Indice de Sécurité: Classification par Taille de Population
+
+L'indice de sécurité (insécurité) adopte désormais une classification par taille de population 
+conforme aux standards internationaux (ONU-ICVS, classements homicides, littérature scientifique).
+
+**Changements schéma JSON**:
+- `indexGlobal` renommé en `indexGlobalNational`
+- `level` renommé en `levelNational`
+- Nouveaux champs: `populationCategory`, `indexGlobalCategory`, `levelCategory`, `rankInCategory`
+- Taux exprimés en "pour 100,000 hab" au lieu de "pour 1,000" (×100)
+
+**Impact utilisateur**:
+- Badge affiche désormais le niveau **dans la catégorie de taille** (petites/moyennes/grandes)
+- Comparaisons légitimes entre communes de tailles similaires
+- Bordeaux (1ère ville >100k hab) correctement classée niveau 4
+
+**Migration**:
+- Dataset version: `v2026-02-08` (nouvelle structure)
+- Frontend: Mise à jour automatique via hook `useInsecurityMetrics`
+
+**Référence**: `specs/security-index-population-classification.md`
+
 ### En cours de développement
 
 - Recherche par nom de commune
