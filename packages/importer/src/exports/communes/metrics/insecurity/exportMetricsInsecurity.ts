@@ -702,34 +702,27 @@ function getOrCreate<K, V>(map: Map<K, V>, key: K, create: () => V): V {
 }
 
 /**
- * Map indexGlobal [0..100] to a level (0–4) based on percentile thresholds.
- * - indexGlobal 0–24 → level = 0 ("Très faible")
- * - indexGlobal 25–49 → level = 1 ("Faible")
- * - indexGlobal 50–74 → level = 2 ("Modéré")
- * - indexGlobal 75–99 → level = 3 ("Élevé")
- * - indexGlobal 100 → level = 4 ("Plus élevé")
- * - null or invalid → level = 0 ("Très faible")
+ * Map indexGlobal [0..100] to a level (0–4) based on standard quintiles.
+ * Quintiles standards (alignés sur Numbeo Crime Index et méthodologies académiques).
+ * Référence: doc/RESEARCH-security-index-methodologies.md
+ * 
+ * - indexGlobal 0–19   → level = 0 ("Très faible" / Very Low)
+ * - indexGlobal 20–39  → level = 1 ("Faible" / Low)
+ * - indexGlobal 40–59  → level = 2 ("Modéré" / Moderate)
+ * - indexGlobal 60–79  → level = 3 ("Élevé" / High)
+ * - indexGlobal 80–100 → level = 4 ("Plus élevé" / Very High)
+ * - null or invalid    → level = 0 ("Très faible")
  */
 function mapIndexToLevel(indexGlobal: number | null): number {
     if (indexGlobal === null || !Number.isFinite(indexGlobal)) {
         return 0;
     }
 
-    if (indexGlobal < 25) {
-        return 0;
-    }
-
-    if (indexGlobal < 50) {
-        return 1;
-    }
-
-    if (indexGlobal < 75) {
-        return 2;
-    }
-
-    if (indexGlobal < 100) {
-        return 3;
-    }
-
-    return 4;
+    // Quintiles standards (alignés sur Numbeo Crime Index et méthodologies académiques)
+    // Référence: doc/RESEARCH-security-index-methodologies.md
+    if (indexGlobal < 20) return 0;  // [0-20)   = Très bas (Very Low)
+    if (indexGlobal < 40) return 1;  // [20-40)  = Bas (Low)
+    if (indexGlobal < 60) return 2;  // [40-60)  = Moyen (Moderate)
+    if (indexGlobal < 80) return 3;  // [60-80)  = Haut (High)
+    return 4;  // [80-100] = Très haut (Very High)
 }

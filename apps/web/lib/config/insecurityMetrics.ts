@@ -10,11 +10,11 @@ export const INSECURITY_CATEGORIES = [
 ] as const;
 
 export const INSECURITY_LEVELS = [
-    { level: 0, label: "Très faible", description: "indexGlobal 0–24" },
-    { level: 1, label: "Faible", description: "indexGlobal 25–49" },
-    { level: 2, label: "Modéré", description: "indexGlobal 50–74" },
-    { level: 3, label: "Élevé", description: "indexGlobal 75–99" },
-    { level: 4, label: "Plus élevé", description: "indexGlobal 100" }
+    { level: 0, label: "Très faible", description: "Percentile [0-20)" },
+    { level: 1, label: "Faible", description: "Percentile [20-40)" },
+    { level: 2, label: "Modéré", description: "Percentile [40-60)" },
+    { level: 3, label: "Élevé", description: "Percentile [60-80)" },
+    { level: 4, label: "Plus élevé", description: "Percentile [80-100]" }
 ] as const;
 
 export const POPULATION_CATEGORIES = {
