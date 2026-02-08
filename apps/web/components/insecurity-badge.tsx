@@ -24,8 +24,8 @@
 import type { HTMLAttributes } from "react";
 
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
-import { INSECURITY_COLORS } from "@/lib/config/insecurityPalette";
 import { POPULATION_CATEGORIES } from "@/lib/config/insecurityMetrics";
+import { INSECURITY_COLORS } from "@/lib/config/insecurityPalette";
 import { useInsecurityMetrics } from "@/lib/data/insecurityMetrics";
 import { cn } from "@/lib/utils";
 
@@ -149,7 +149,7 @@ export function InsecurityBadge({
     const level = data.levelCategory;
     const bgColor = getLevelColor(level);
     const label = getLevelLabel(level);
-    const categoryLabel = data.populationCategory 
+    const categoryLabel = data.populationCategory
         ? POPULATION_CATEGORIES[data.populationCategory].label
         : "Catégorie inconnue";
 
@@ -171,26 +171,26 @@ export function InsecurityBadge({
                 <TooltipContent>
                     <div className="space-y-2">
                         <p className="font-medium">
-                            Niveau {level} ({categoryLabel})
+                            {categoryLabel}
                         </p>
-                        
-                        <div className="text-xs space-y-1">
-                            <p>Violences physiques: {Math.round(data.violencesPersonnesPer100k ?? 0)} pour 100 000 hab.</p>
-                            <p>Atteintes aux biens: {Math.round(data.securiteBiensPer100k ?? 0)} pour 100 000 hab.</p>
-                            <p>Tranquillité publique: {Math.round(data.tranquillitePer100k ?? 0)} pour 100 000 hab.</p>
+
+                        <div className="text-s space-y-1">
+                            <p>Violences physiques: {Math.round(data.violencesPersonnesPer100k ?? 0)}</p>
+                            <p>Atteintes aux biens: {Math.round(data.securiteBiensPer100k ?? 0)}</p>
+                            <p>Tranquillité publique: {Math.round(data.tranquillitePer100k ?? 0)}</p>
                         </div>
-                        
+                        <p className="text-muted-foreground text-xs">
+                            Pour 100 000 habitants
+                        </p>
                         {data.dataCompleteness < 1.0 && (
                             <p className="text-amber-600 text-xs">
                                 Données partielles ({Math.round(data.dataCompleteness * 100)}%)
                             </p>
                         )}
-                        
-                        {year && (
-                            <p className="text-xs text-muted-foreground">
-                                Année {year}
-                            </p>
-                        )}
+
+                        <p className="text-xs text-muted-foreground">
+                            Année {data.year}
+                        </p>
                     </div>
                 </TooltipContent>
             </Tooltip>
