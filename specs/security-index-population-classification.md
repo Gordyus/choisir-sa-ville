@@ -2,7 +2,7 @@
 
 **Version**: 1.0  
 **Date**: 2026-02-08  
-**Statut**: ✅ Validé PO/Architect Gatekeeper  
+**Statut**: ✅ IMPLÉMENTÉ (2026-02-08, branche aggregat-insecurity)  
 **Auteur**: GitHub Copilot CLI  
 **Breaking Change**: Oui (schéma de données + métrique)
 
