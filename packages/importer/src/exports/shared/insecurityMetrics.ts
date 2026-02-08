@@ -17,6 +17,38 @@ export const INSECURITY_LEVELS = [
     { level: 4, label: "Plus élevé", description: "indexGlobal 100" }
 ] as const;
 
+export const POPULATION_CATEGORIES = {
+    small: { 
+        min: 0, 
+        max: 9999, 
+        label: "Petites communes",
+        description: "Villages et petites communes rurales"
+    },
+    medium: { 
+        min: 10000, 
+        max: 99999, 
+        label: "Communes moyennes",
+        description: "Villes moyennes"
+    },
+    large: { 
+        min: 100000, 
+        max: Infinity, 
+        label: "Grandes villes",
+        description: "Grandes villes et métropoles"
+    }
+} as const;
+
+export type PopulationCategory = "small" | "medium" | "large";
+
+export function getPopulationCategory(population: number | null): PopulationCategory | null {
+    if (population === null || !Number.isFinite(population) || population <= 0) {
+        return null;
+    }
+    if (population < 10000) return "small";
+    if (population < 100000) return "medium";
+    return "large";
+}
+
 // Utility
 export function getTotalWeight(): number {
     return INSECURITY_CATEGORIES.reduce((sum, cat) => sum + cat.weight, 0);

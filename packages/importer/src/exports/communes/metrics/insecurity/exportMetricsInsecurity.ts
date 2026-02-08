@@ -6,17 +6,21 @@ import { compressors } from "hyparquet-compressors";
 
 import { SOURCE_URLS } from "../../../constants.js";
 import { writeJsonAtomic } from "../../../shared/fileSystem.js";
-import { INSECURITY_CATEGORIES } from "../../../shared/insecurityMetrics.js";
+import { INSECURITY_CATEGORIES, POPULATION_CATEGORIES, getPopulationCategory, type PopulationCategory } from "../../../shared/insecurityMetrics.js";
 import type { ExportCommune, ExportContext, SourceMeta } from "../../../shared/types.js";
 
 const OUTPUT_COLUMNS = [
     "insee",
     "population",
-    "violencesPersonnesPer1000",
-    "securiteBiensPer1000",
-    "tranquillitePer1000",
-    "indexGlobal",
-    "level",
+    "populationCategory",
+    "violencesPersonnesPer100k",
+    "securiteBiensPer100k",
+    "tranquillitePer100k",
+    "indexGlobalNational",
+    "indexGlobalCategory",
+    "levelNational",
+    "levelCategory",
+    "rankInCategory",
     "dataCompleteness"
 ] as const;
 
@@ -120,6 +124,7 @@ export async function exportMetricsInsecurity({
                 columnInferred: null,
                 missingPopulation: []
             },
+            categoryCounts: { small: 0, medium: 0, large: 0 },
             warnings: [
                 "SSMSI mapping is empty. Run inspectSsmsi.ts and populate mapping/ssmsiToGroups.v1.json (groups + categoryKeyColumn)."
             ],
@@ -147,6 +152,7 @@ export async function exportMetricsInsecurity({
                 columnInferred: null,
                 missingPopulation: []
             },
+            categoryCounts: { small: 0, medium: 0, large: 0 },
             warnings: [
                 "SSMSI parquet columns could not be inferred. Run inspectSsmsi.ts and fill mapping/ssmsiToGroups.v1.json."
             ],
@@ -247,20 +253,29 @@ export async function exportMetricsInsecurity({
                     }
                 }
 
-                const violences = computeRatePer1000(acc?.violencesPersonnes ?? null, population);
-                const biens = computeRatePer1000(acc?.securiteBiens ?? null, population);
-                const tranquillite = computeRatePer1000(acc?.tranquillite ?? null, population);
+                const violencesPer1k = computeRatePer1000(acc?.violencesPersonnes ?? null, population);
+                const biensPer1k = computeRatePer1000(acc?.securiteBiens ?? null, population);
+                const tranquillitePer1k = computeRatePer1000(acc?.tranquillite ?? null, population);
+
+                // Classify population category
+                const populationCategory = getPopulationCategory(population);
+
+                // Convert rates from /1000 to /100k (×100)
+                const violencesPersonnesPer100k = violencesPer1k !== null ? violencesPer1k * 100 : null;
+                const securiteBiensPer100k = biensPer1k !== null ? biensPer1k * 100 : null;
+                const tranquillitePer100k = tranquillitePer1k !== null ? tranquillitePer1k * 100 : null;
 
                 return {
                     insee: commune.insee,
                     population,
-                    violencesPersonnesPer1000: violences,
-                    securiteBiensPer1000: biens,
-                    tranquillitePer1000: tranquillite,
+                    populationCategory,
+                    violencesPersonnesPer100k,
+                    securiteBiensPer100k,
+                    tranquillitePer100k,
                     scoreRaw: computeRawScore({
-                        violencesPersonnesPer1000: violences,
-                        securiteBiensPer1000: biens,
-                        tranquillitePer1000: tranquillite
+                        violencesPersonnesPer1000: violencesPer1k,
+                        securiteBiensPer1000: biensPer1k,
+                        tranquillitePer1000: tranquillitePer1k
                     })
                 };
             });
@@ -269,28 +284,73 @@ export async function exportMetricsInsecurity({
             .map((r) => r.scoreRaw)
             .filter((v): v is number => typeof v === "number" && Number.isFinite(v));
 
-        const indexByScore = buildPercentileIndex(scoreValues);
+        const indexByScoreNational = buildPercentileIndex(scoreValues);
+
+        // Group by population category
+        const categorizedCommunes = {
+            small: rows.filter(c => c.populationCategory === "small"),
+            medium: rows.filter(c => c.populationCategory === "medium"),
+            large: rows.filter(c => c.populationCategory === "large")
+        };
+
+        // Calculate percentile + rank for each category
+        const categoryIndices = new Map<string, { indexByScore: Map<number, number>; sortedByScore: typeof rows }>();
+
+        for (const [category, communesInCategory] of Object.entries(categorizedCommunes)) {
+            const scoreValuesCategory = communesInCategory
+                .map(c => c.scoreRaw)
+                .filter((v): v is number => typeof v === "number" && Number.isFinite(v));
+            
+            const indexByScoreCategory = buildPercentileIndex(scoreValuesCategory);
+            
+            // Sort by score descending for rank calculation
+            const sortedByScore = [...communesInCategory]
+                .filter(c => c.scoreRaw !== null)
+                .sort((a, b) => (b.scoreRaw ?? 0) - (a.scoreRaw ?? 0));
+            
+            categoryIndices.set(category, { indexByScore: indexByScoreCategory, sortedByScore });
+        }
 
         const tabularRows = rows.map((r) => {
-            const indexGlobal = r.scoreRaw === null ? null : indexByScore.get(r.scoreRaw) ?? null;
-            const level = mapIndexToLevel(indexGlobal);
+            const indexGlobalNational = r.scoreRaw === null ? null : indexByScoreNational.get(r.scoreRaw) ?? null;
+            const levelNational = mapIndexToLevel(indexGlobalNational);
+            
+            // Calculate category-specific indices
+            const category = r.populationCategory ?? "small"; // Fallback for null
+            const categoryData = categoryIndices.get(category);
+            const indexGlobalCategory = r.scoreRaw === null || !categoryData 
+                ? null 
+                : categoryData.indexByScore.get(r.scoreRaw) ?? null;
+            const levelCategory = mapIndexToLevel(indexGlobalCategory);
+            
+            // Calculate rank in category
+            let rankInCategory: string | null = null;
+            if (categoryData && r.scoreRaw !== null) {
+                const rank = categoryData.sortedByScore.findIndex(c => c.insee === r.insee) + 1;
+                const totalInCategory = categorizedCommunes[category as keyof typeof categorizedCommunes]?.length ?? 0;
+                rankInCategory = rank > 0 ? `${rank}/${totalInCategory}` : null;
+            }
             
             // Calculate data completeness (0-1 range)
             const presentCount = [
-                r.violencesPersonnesPer1000 !== null,
-                r.securiteBiensPer1000 !== null,
-                r.tranquillitePer1000 !== null
+                r.violencesPersonnesPer100k !== null,
+                r.securiteBiensPer100k !== null,
+                r.tranquillitePer100k !== null
             ].filter(Boolean).length;
             const dataCompleteness = presentCount / 3;
             
             return [
                 r.insee,
                 r.population,
-                r.violencesPersonnesPer1000,
-                r.securiteBiensPer1000,
-                r.tranquillitePer1000,
-                indexGlobal,
-                level,
+                r.populationCategory,
+                r.violencesPersonnesPer100k,
+                r.securiteBiensPer100k,
+                r.tranquillitePer100k,
+                indexGlobalNational,
+                indexGlobalCategory,
+                levelNational,
+                levelCategory,
+                rankInCategory,
                 dataCompleteness
             ] as const;
         });
@@ -298,7 +358,7 @@ export async function exportMetricsInsecurity({
         const outPath = path.join(targetDir, `${year}.json`);
         await writeJsonAtomic(outPath, {
             year,
-            unit: "faits pour 1000 habitants",
+            unit: "faits pour 100 000 habitants",
             source: "Ministère de l’Intérieur – SSMSI (base communale de la délinquance enregistrée)",
             generatedAtUtc,
             columns: OUTPUT_COLUMNS,
@@ -307,6 +367,13 @@ export async function exportMetricsInsecurity({
 
         files.push(`communes/metrics/insecurity/${year}.json`);
     }
+
+    // Calculate population category counts for meta.json
+    const categoryCounts = {
+        small: communes.filter(c => getPopulationCategory(populationByInsee.get(c.insee) ?? null) === "small").length,
+        medium: communes.filter(c => getPopulationCategory(populationByInsee.get(c.insee) ?? null) === "medium").length,
+        large: communes.filter(c => getPopulationCategory(populationByInsee.get(c.insee) ?? null) === "large").length
+    };
 
     const metaPath = path.join(targetDir, "meta.json");
     await writeJsonAtomic(metaPath, buildMeta({
@@ -324,6 +391,7 @@ export async function exportMetricsInsecurity({
             columnInferred: populationColumn,
             missingPopulation: Array.from(communesWithMissingPopulation).sort()
         },
+        categoryCounts,
         warnings: [],
         inferred: { inseeColumn, yearColumn, factsColumn, categoryColumn, populationColumn }
     }));
@@ -439,6 +507,7 @@ function buildMeta(params: {
     unmapped: { rows: number; top: Array<{ key: string; rows: number }> };
     ssmsi: { url: string; resourceId: string };
     population: { source: string; fallbackStrategy: string; columnInferred: string | null; missingPopulation: string[] };
+    categoryCounts: { small: number; medium: number; large: number };
     warnings: string[];
     inferred: Record<string, string | null>;
 }): Record<string, unknown> {
@@ -448,11 +517,11 @@ function buildMeta(params: {
         license: "Licence Ouverte / Etalab",
         geoLevel: "commune",
         fallbackChain: [],
-        unit: "faits pour 1000 habitants",
+        unit: "faits pour 100 000 habitants",
         yearsAvailable: params.yearsAvailable,
         generatedAtUtc: params.generatedAtUtc,
         methodology:
-            "Agrégation communale par catégorie, normalisée par population SSMSI (insee_pop, par année).",
+            "Agrégation communale par catégorie, normalisée par population SSMSI (insee_pop, par année). Classification par taille de population avec double perspective (nationale et catégorie).",
         inputs: {
             ssmsiParquetUrl: params.ssmsi.url,
             ssmsiResourceId: params.ssmsi.resourceId,
@@ -472,8 +541,32 @@ function buildMeta(params: {
             general: params.warnings,
             missingPopulation: params.population.missingPopulation
         },
+        populationCategories: {
+            small: {
+                min: POPULATION_CATEGORIES.small.min,
+                max: POPULATION_CATEGORIES.small.max,
+                label: POPULATION_CATEGORIES.small.label,
+                count: params.categoryCounts.small
+            },
+            medium: {
+                min: POPULATION_CATEGORIES.medium.min,
+                max: POPULATION_CATEGORIES.medium.max,
+                label: POPULATION_CATEGORIES.medium.label,
+                count: params.categoryCounts.medium
+            },
+            large: {
+                min: POPULATION_CATEGORIES.large.min,
+                max: POPULATION_CATEGORIES.large.max === Infinity ? null : POPULATION_CATEGORIES.large.max,
+                label: POPULATION_CATEGORIES.large.label,
+                count: params.categoryCounts.large
+            }
+        },
         indexGlobal: {
-            method: "percentile_rank on all scoreRaw values, rescaled to [0..100]"
+            method: "percentile_rank on all scoreRaw values, rescaled to [0..100]",
+            perspectives: {
+                national: "Percentile across all 34,875+ communes",
+                category: "Percentile within population category (small/medium/large)"
+            }
         },
         levels: {
             labels: ["Très faible", "Faible", "Modéré", "Élevé", "Plus élevé"],
