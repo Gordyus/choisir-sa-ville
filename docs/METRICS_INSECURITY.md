@@ -95,7 +95,7 @@ L'export calcule :
    - **National** : percentile rank min-rank (0–100) sur toutes les communes
    - **Catégorie** : percentile rank min-rank (0–100) par catégorie de taille
 8. **Niveau** : classification sur `indexGlobalCategory` (percentiles catégorie) :
-   - Mapping : `indexGlobal=null → 0`, `0-24 → 0`, `25-49 → 1`, `50-74 → 2`, `75-99 → 3`, `100 → 4`
+   - Mapping quintiles : `indexGlobal=null → 0`, `0-19 → 0`, `20-39 → 1`, `40-59 → 2`, `60-79 → 3`, `80-100 → 4`
 9. **Rang catégorie** : Tri décroissant par `scoreRaw` dans la catégorie → format `"rank/total"` (ex: "1/42")
 
 ### Sortie
