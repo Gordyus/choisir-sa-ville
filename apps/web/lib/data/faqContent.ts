@@ -52,6 +52,31 @@ Le score agrège 3 familles d'indicateurs issus des données officielles :
 
 Chaque famille est normalisée pour 100 000 habitants puis pondérée pour obtenir un score global.
 
+Exemple de calcul concret :
+
+Prenons une commune moyenne fictive de 50 000 habitants avec les données suivantes pour l'année 2024 :
+
+• Atteintes à l'intégrité physique : 820 faits / 50 000 hab = 1640 pour 100 000 hab
+• Atteintes aux biens : 2100 faits / 50 000 hab = 4200 pour 100 000 hab
+• Atteintes à la tranquillité : 650 faits / 50 000 hab = 1300 pour 100 000 hab
+
+Le score brut est calculé ainsi :
+(1640 × 40%) + (4200 × 35%) + (1300 × 25%) = 656 + 1470 + 325 = 2451 pour 100 000 hab
+
+Ce score brut est ensuite comparé à toutes les communes de taille similaire (ici, les communes moyennes de 10 000 à 100 000 habitants) pour obtenir un percentile [0-100], qui détermine le niveau affiché.
+
+Pourquoi ces pondérations ?
+
+Les poids 40%, 35%, 25% reflètent l'importance relative de chaque catégorie dans la construction de l'indice :
+
+• 40% pour les violences physiques : Ces infractions, bien que de natures diverses, concernent l'intégrité des personnes et ont un impact psychologique fort sur le sentiment de sécurité
+
+• 35% pour les atteintes aux biens : Cambriolages, vols et dégradations représentent une part importante des faits constatés et affectent directement le quotidien des habitants
+
+• 25% pour la tranquillité publique : Troubles à l'ordre public et incivilités contribuent à la perception générale de sécurité d'un territoire
+
+Cette pondération permet d'équilibrer gravité perçue (violences) et volume d'exposition (biens, tranquillité).
+
 Source des données :
 
 Les données proviennent exclusivement de sources officielles publiques :
