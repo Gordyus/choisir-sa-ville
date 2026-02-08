@@ -173,12 +173,22 @@ export function InsecurityBadge({
                         <p className="font-medium">
                             Niveau {level} ({categoryLabel})
                         </p>
-                        <p className="text-muted-foreground text-sm">
-                            Niveau {data.levelNational} (classement national)
-                        </p>
+                        
+                        <div className="text-xs space-y-1">
+                            <p>Violences physiques: {Math.round(data.violencesPersonnesPer100k ?? 0)} pour 100 000 hab.</p>
+                            <p>Atteintes aux biens: {Math.round(data.securiteBiensPer100k ?? 0)} pour 100 000 hab.</p>
+                            <p>Tranquillité publique: {Math.round(data.tranquillitePer100k ?? 0)} pour 100 000 hab.</p>
+                        </div>
+                        
                         {data.dataCompleteness < 1.0 && (
-                            <p className="text-amber-600 text-sm">
+                            <p className="text-amber-600 text-xs">
                                 Données partielles ({Math.round(data.dataCompleteness * 100)}%)
+                            </p>
+                        )}
+                        
+                        {year && (
+                            <p className="text-xs text-muted-foreground">
+                                Année {year}
                             </p>
                         )}
                     </div>
