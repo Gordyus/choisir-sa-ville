@@ -3,7 +3,7 @@
   "license": "Licence Ouverte / Etalab",
   "geoLevel": "commune",
   "fallbackChain": [],
-  "unit": "faits pour 1000 habitants",
+  "unit": "faits pour 100 000 habitants",
   "yearsAvailable": [
     2016,
     2017,
@@ -15,8 +15,8 @@
     2023,
     2024
   ],
-  "generatedAtUtc": "2026-02-08T17:06:51.996Z",
-  "methodology": "Agrégation communale par catégorie, normalisée par population SSMSI (insee_pop, par année).",
+  "generatedAtUtc": "2026-02-08T18:15:40.645Z",
+  "methodology": "Agrégation communale par catégorie, normalisée par population SSMSI (insee_pop, par année). Classification par taille de population avec double perspective (nationale et catégorie).",
   "inputs": {
     "ssmsiParquetUrl": "https://www.data.gouv.fr/api/1/datasets/r/98fd2271-4d76-4015-a80c-bcec329f6ad0",
     "ssmsiResourceId": "98fd2271-4d76-4015-a80c-bcec329f6ad0",
@@ -65,8 +65,32 @@
       "55307"
     ]
   },
+  "populationCategories": {
+    "small": {
+      "min": 0,
+      "max": 9999,
+      "label": "Petites communes",
+      "count": 33874
+    },
+    "medium": {
+      "min": 10000,
+      "max": 99999,
+      "label": "Communes moyennes",
+      "count": 953
+    },
+    "large": {
+      "min": 100000,
+      "max": null,
+      "label": "Grandes villes",
+      "count": 42
+    }
+  },
   "indexGlobal": {
-    "method": "percentile_rank on all scoreRaw values, rescaled to [0..100]"
+    "method": "percentile_rank on all scoreRaw values, rescaled to [0..100]",
+    "perspectives": {
+      "national": "Percentile across all 34,875+ communes",
+      "category": "Percentile within population category (small/medium/large)"
+    }
   },
   "levels": {
     "labels": [
