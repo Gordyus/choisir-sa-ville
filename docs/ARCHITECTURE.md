@@ -61,16 +61,18 @@ Exemple pour l'agrégat insécurité au niveau commune :
 
 | Agrégat | Dossier | Status | Notes |
 |---|---|---|---|
-| **Insécurité (SSMSI)** | `communes/metrics/insecurity/` | **Actif** | Quartiles + level baked, viewport-only rendering |
+| **Insécurité (SSMSI)** | `communes/metrics/insecurity/` | **Actif** | Percentile simple [0..100], levels baked, viewport-only rendering |
 | Core (INSEE) | `communes/metrics/core.json` | Actif | |
 | Housing | `communes/metrics/housing.json` | Actif | |
 
 **Insécurité (SSMSI)** :
 - **Population source** : `insee_pop` du Parquet SSMSI (pas de fallback ZIP INSEE)
-- **Niveaux** : 0–4 (Très faible → Plus élevé), quartiles calculés sur `scoreRaw > 0`, baked au build-time
+- **Index calculation** : Percentile simple sur tous les `scoreRaw`, rescaled à [0..100]
+- **Niveaux** : 0–4 (Très faible → Plus élevé), mappés directement depuis `indexGlobal` percentiles : 0-24/25-49/50-74/75-99/100
 - **Rendu carto** : Feature-state viewport-only (moveend + zoomend), pas de match géant
 - **Performance** : Batching RAF (200 features/frame), adaptive opacity mobile
 - **Documentation** : Voir `docs/METRICS_INSECURITY.md`
+- **Configuration partagée** : `INSECURITY_CATEGORIES` et `INSECURITY_LEVELS` dupliqués dans `packages/importer/src/exports/shared/insecurityMetrics.ts` et `apps/web/lib/config/insecurityMetrics.ts` (acceptable car packages Node/React isolés; centraliser si 3e package dépend)
 
 ### 2) Config runtime (JSON)
 

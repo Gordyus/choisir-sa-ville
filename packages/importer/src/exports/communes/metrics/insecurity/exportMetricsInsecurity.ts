@@ -6,23 +6,8 @@ import { compressors } from "hyparquet-compressors";
 
 import { SOURCE_URLS } from "../../../constants.js";
 import { writeJsonAtomic } from "../../../shared/fileSystem.js";
-import { INSECURITY_CATEGORIES, INSECURITY_EPSILON } from "../../../shared/insecurityMetrics.js";
+import { INSECURITY_CATEGORIES } from "../../../shared/insecurityMetrics.js";
 import type { ExportCommune, ExportContext, SourceMeta } from "../../../shared/types.js";
-
-const DEFAULT_EPSILON = INSECURITY_EPSILON;
-
-const EPSILON = (() => {
-    const envValue = process.env.CSVV_INSECURITY_INDEXGLOBAL_EPSILON;
-    if (envValue !== undefined) {
-        const parsed = Number.parseFloat(envValue);
-        if (!Number.isFinite(parsed) || parsed < 0) {
-            console.warn(`[metrics:insecurity] Invalid CSVV_INSECURITY_INDEXGLOBAL_EPSILON="${envValue}". Using default ${DEFAULT_EPSILON}.`);
-            return DEFAULT_EPSILON;
-        }
-        return parsed;
-    }
-    return DEFAULT_EPSILON;
-})();
 
 const OUTPUT_COLUMNS = [
     "insee",
@@ -31,7 +16,8 @@ const OUTPUT_COLUMNS = [
     "securiteBiensPer1000",
     "tranquillitePer1000",
     "indexGlobal",
-    "level"
+    "level",
+    "dataCompleteness"
 ] as const;
 
 type MetricGroup = "violencesPersonnes" | "securiteBiens" | "tranquillite";
@@ -137,8 +123,7 @@ export async function exportMetricsInsecurity({
             warnings: [
                 "SSMSI mapping is empty. Run inspectSsmsi.ts and populate mapping/ssmsiToGroups.v1.json (groups + categoryKeyColumn)."
             ],
-            inferred: { inseeColumn, yearColumn, factsColumn, categoryColumn, populationColumn },
-            thresholdsByYear: new Map()
+            inferred: { inseeColumn, yearColumn, factsColumn, categoryColumn, populationColumn }
         }));
         files.push("communes/metrics/insecurity/meta.json");
         console.warn("[metrics:insecurity] Skipped export (empty mapping)");
@@ -165,8 +150,7 @@ export async function exportMetricsInsecurity({
             warnings: [
                 "SSMSI parquet columns could not be inferred. Run inspectSsmsi.ts and fill mapping/ssmsiToGroups.v1.json."
             ],
-            inferred: { inseeColumn, yearColumn, factsColumn, categoryColumn, populationColumn },
-            thresholdsByYear: new Map()
+            inferred: { inseeColumn, yearColumn, factsColumn, categoryColumn, populationColumn }
         }));
         files.push("communes/metrics/insecurity/meta.json");
 
@@ -245,9 +229,6 @@ export async function exportMetricsInsecurity({
     // Track communes with facts but missing population
     const communesWithMissingPopulation = new Set<string>();
 
-    // Calculate quartile thresholds per year
-    const thresholdsByYear = new Map<number, { q1: number; q2: number; q3: number }>();
-
     // Write per-year files
     for (const year of yearsAvailable) {
         const accByInsee = byYear.get(year) ?? new Map();
@@ -288,15 +269,20 @@ export async function exportMetricsInsecurity({
             .map((r) => r.scoreRaw)
             .filter((v): v is number => typeof v === "number" && Number.isFinite(v));
 
-        const indexByScore = buildPercentileIndex(scoreValues, EPSILON);
-
-        // Calculate quartiles on scoreRaw > 0
-        const thresholds = calculateQuartiles(rows.map((r) => r.scoreRaw));
-        thresholdsByYear.set(year, thresholds);
+        const indexByScore = buildPercentileIndex(scoreValues);
 
         const tabularRows = rows.map((r) => {
             const indexGlobal = r.scoreRaw === null ? null : indexByScore.get(r.scoreRaw) ?? null;
-            const level = mapScoreToLevel(r.scoreRaw, thresholds);
+            const level = mapIndexToLevel(indexGlobal);
+            
+            // Calculate data completeness (0-1 range)
+            const presentCount = [
+                r.violencesPersonnesPer1000 !== null,
+                r.securiteBiensPer1000 !== null,
+                r.tranquillitePer1000 !== null
+            ].filter(Boolean).length;
+            const dataCompleteness = presentCount / 3;
+            
             return [
                 r.insee,
                 r.population,
@@ -304,7 +290,8 @@ export async function exportMetricsInsecurity({
                 r.securiteBiensPer1000,
                 r.tranquillitePer1000,
                 indexGlobal,
-                level
+                level,
+                dataCompleteness
             ] as const;
         });
 
@@ -338,8 +325,7 @@ export async function exportMetricsInsecurity({
             missingPopulation: Array.from(communesWithMissingPopulation).sort()
         },
         warnings: [],
-        inferred: { inseeColumn, yearColumn, factsColumn, categoryColumn, populationColumn },
-        thresholdsByYear
+        inferred: { inseeColumn, yearColumn, factsColumn, categoryColumn, populationColumn }
     }));
 
     files.push("communes/metrics/insecurity/meta.json");
@@ -376,87 +362,49 @@ function computeRawScore(values: {
     securiteBiensPer1000: number | null;
     tranquillitePer1000: number | null;
 }): number | null {
-    const parts: Array<{ value: number; weight: number }> = [];
+    const v = values.violencesPersonnesPer1000 ?? 0;
+    const b = values.securiteBiensPer1000 ?? 0;
+    const t = values.tranquillitePer1000 ?? 0;
 
-    // Use centralized weights from config
-    const violencesWeight = INSECURITY_CATEGORIES[0]!.weight;
-    const biensWeight = INSECURITY_CATEGORIES[1]!.weight;
-    const tranquilliteWeight = INSECURITY_CATEGORIES[2]!.weight;
-
-    if (values.violencesPersonnesPer1000 !== null) parts.push({ value: values.violencesPersonnesPer1000, weight: violencesWeight });
-    if (values.securiteBiensPer1000 !== null) parts.push({ value: values.securiteBiensPer1000, weight: biensWeight });
-    if (values.tranquillitePer1000 !== null) parts.push({ value: values.tranquillitePer1000, weight: tranquilliteWeight });
-
-    if (!parts.length) {
+    // If all values are null, return null (no data at all)
+    if (values.violencesPersonnesPer1000 === null &&
+        values.securiteBiensPer1000 === null &&
+        values.tranquillitePer1000 === null) {
         return null;
     }
 
-    const sumWeights = parts.reduce((acc, p) => acc + p.weight, 0);
-    if (sumWeights <= 0) {
-        return null;
-    }
-
-    let score = 0;
-    for (const p of parts) {
-        score += (p.weight / sumWeights) * p.value;
-    }
+    // Weighted sum with original weights (NO renormalization)
+    // Missing values treated as 0 - preserves weight hierarchy
+    const score = 
+        INSECURITY_CATEGORIES[0]!.weight * v +
+        INSECURITY_CATEGORIES[1]!.weight * b +
+        INSECURITY_CATEGORIES[2]!.weight * t;
 
     return score;
 }
 
 /**
- * Build percentile index with epsilon filtering.
+ * Build percentile index for all scores.
  * 
- * Scores ≤ epsilon are assigned indexGlobal=0.
- * Scores > epsilon are ranked among themselves and rescaled to [1..100] using percentile rank.
+ * Maps each unique score to its percentile rank, rescaled to [0..100].
  * 
  * @param scores - Array of valid scores
- * @param epsilon - Threshold below which scores are assigned index 0 (default: 0)
  * @returns Map from score to indexGlobal
  */
-function buildPercentileIndex(scores: number[], epsilon = 0): Map<number, number> {
+function buildPercentileIndex(scores: number[]): Map<number, number> {
     const result = new Map<number, number>();
     if (!scores.length) {
         return result;
     }
 
-    // Separate scores into two groups
-    const belowOrEqualEpsilon: number[] = [];
-    const aboveEpsilon: number[] = [];
-
-    for (const score of scores) {
-        if (score <= epsilon) {
-            belowOrEqualEpsilon.push(score);
-        } else {
-            aboveEpsilon.push(score);
-        }
-    }
-
-    // All scores ≤ epsilon get indexGlobal=0
-    for (const score of belowOrEqualEpsilon) {
-        if (!result.has(score)) {
-            result.set(score, 0);
-        }
-    }
-
-    // If no scores above epsilon, log warning and return
-    if (aboveEpsilon.length === 0) {
-        console.warn(`[metrics:insecurity] No scores > ${epsilon} found. All communes will have indexGlobal=0.`);
-        return result;
-    }
-
-    // Compute percentile rank for scores > epsilon
-    const sorted = aboveEpsilon.slice().sort((a, b) => a - b);
+    // Sort unique scores
+    const sorted = Array.from(new Set(scores)).sort((a, b) => a - b);
     const n = sorted.length;
 
-    // Percent-rank (min-rank) for ties.
-    //
-    // IMPORTANT: We intentionally do NOT use midrank here.
-    // With midrank, if a large number of communes share the minimum score (common with zeros),
-    // the minimum percentile is no longer 0, which breaks the expected [0..100] normalization
-    // and downstream UX thresholds (quartiles).
+    // Use min-rank percentile for ties.
+    // This ensures ties get the same percentile rank (lowest rank in the tie).
     const ranges = new Map<number, { start: number; end: number }>();
-    for (let i = 0; i < n; i++) {
+    for (let i = 0; i < sorted.length; i++) {
         const value = sorted[i]!;
         const existing = ranges.get(value);
         if (!existing) {
@@ -466,11 +414,11 @@ function buildPercentileIndex(scores: number[], epsilon = 0): Map<number, number
         }
     }
 
-    // Rescale to [1..100]
+    // Rescale to [0..100]
     for (const [value, range] of ranges) {
         const minRank = range.start;
-        const percentile = n === 1 ? 1 : minRank / (n - 1);
-        const indexGlobal = Math.round(1 + 99 * percentile);
+        const percentile = n === 1 ? 0 : minRank / (n - 1);
+        const indexGlobal = Math.round(100 * percentile);
         result.set(value, indexGlobal);
     }
 
@@ -493,17 +441,7 @@ function buildMeta(params: {
     population: { source: string; fallbackStrategy: string; columnInferred: string | null; missingPopulation: string[] };
     warnings: string[];
     inferred: Record<string, string | null>;
-    thresholdsByYear: Map<number, { q1: number; q2: number; q3: number }>;
 }): Record<string, unknown> {
-    const thresholds: Record<string, { q1: number; q2: number; q3: number; method: string }> = {};
-    for (const [year, values] of params.thresholdsByYear) {
-        thresholds[String(year)] = {
-            q1: values.q1,
-            q2: values.q2,
-            q3: values.q3,
-            method: "quartiles on scoreRaw > 0"
-        };
-    }
 
     return {
         source: "Bases statistiques communales de la délinquance enregistrée - SSMSI",
@@ -534,10 +472,12 @@ function buildMeta(params: {
             general: params.warnings,
             missingPopulation: params.population.missingPopulation
         },
-        thresholds,
+        indexGlobal: {
+            method: "percentile_rank on all scoreRaw values, rescaled to [0..100]"
+        },
         levels: {
             labels: ["Très faible", "Faible", "Modéré", "Élevé", "Plus élevé"],
-            method: "Quartile-based classification on non-zero scoreRaw distribution"
+            method: "Percentile-based classification: level = floor(indexGlobal / 25)"
         }
     };
 }
@@ -669,83 +609,32 @@ function getOrCreate<K, V>(map: Map<K, V>, key: K, create: () => V): V {
 }
 
 /**
- * Calculate quartiles (Q1, Q2, Q3) on all scoreRaw values that are > 0.
- * Uses simple linear interpolation.
- * If all scores are 0 or no scores exist, returns { q1: 0, q2: 0, q3: 0 }.
+ * Map indexGlobal [0..100] to a level (0–4) based on percentile thresholds.
+ * - indexGlobal 0–24 → level = 0 ("Très faible")
+ * - indexGlobal 25–49 → level = 1 ("Faible")
+ * - indexGlobal 50–74 → level = 2 ("Modéré")
+ * - indexGlobal 75–99 → level = 3 ("Élevé")
+ * - indexGlobal 100 → level = 4 ("Plus élevé")
+ * - null or invalid → level = 0 ("Très faible")
  */
-function calculateQuartiles(scores: Array<number | null>): { q1: number; q2: number; q3: number } {
-    // Filter to scoreRaw > 0
-    const validScores = scores.filter((v): v is number => typeof v === "number" && Number.isFinite(v) && v > 0);
-
-    if (validScores.length === 0) {
-        return { q1: 0, q2: 0, q3: 0 };
-    }
-
-    // Sort in ascending order
-    const sorted = validScores.slice().sort((a, b) => a - b);
-    const n = sorted.length;
-
-    const q1 = percentile(sorted, 25);
-    const q2 = percentile(sorted, 50);
-    const q3 = percentile(sorted, 75);
-
-    return { q1, q2, q3 };
-}
-
-/**
- * Calculate the p-th percentile using linear interpolation.
- * @param sortedValues - Array of values sorted in ascending order
- * @param p - Percentile (0-100)
- */
-function percentile(sortedValues: number[], p: number): number {
-    if (sortedValues.length === 0) return 0;
-    if (sortedValues.length === 1) return sortedValues[0]!;
-
-    const n = sortedValues.length;
-    const position = (p / 100) * (n - 1);
-    const lower = Math.floor(position);
-    const upper = Math.ceil(position);
-
-    if (lower === upper) {
-        return sortedValues[lower]!;
-    }
-
-    const fraction = position - lower;
-    const lowerValue = sortedValues[lower]!;
-    const upperValue = sortedValues[upper]!;
-
-    return lowerValue + fraction * (upperValue - lowerValue);
-}
-
-/**
- * Map scoreRaw to a level (0–4) based on quartile thresholds.
- * - scoreRaw = 0 → level = 0 ("Très faible")
- * - 0 < scoreRaw < Q1 → level = 1 ("Faible")
- * - Q1 ≤ scoreRaw < Q2 → level = 2 ("Modéré")
- * - Q2 ≤ scoreRaw < Q3 → level = 3 ("Élevé")
- * - Q3 ≤ scoreRaw → level = 4 ("Plus élevé")
- */
-function mapScoreToLevel(
-    scoreRaw: number | null,
-    thresholds: { q1: number; q2: number; q3: number }
-): number {
-    if (scoreRaw === null || !Number.isFinite(scoreRaw)) {
+function mapIndexToLevel(indexGlobal: number | null): number {
+    if (indexGlobal === null || !Number.isFinite(indexGlobal)) {
         return 0;
     }
 
-    if (scoreRaw === 0) {
+    if (indexGlobal < 25) {
         return 0;
     }
 
-    if (scoreRaw < thresholds.q1) {
+    if (indexGlobal < 50) {
         return 1;
     }
 
-    if (scoreRaw < thresholds.q2) {
+    if (indexGlobal < 75) {
         return 2;
     }
 
-    if (scoreRaw < thresholds.q3) {
+    if (indexGlobal < 100) {
         return 3;
     }
 

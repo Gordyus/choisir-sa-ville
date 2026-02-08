@@ -366,7 +366,7 @@ function removeViewportHandlers(state: DisplayBinderState): void {
 /**
  * Build popup content for insecurity metrics.
  */
-function buildInsecurityPopupContent(row: InsecurityMetricsRow | undefined): PopupContent {
+function buildInsecurityPopupContent(row: InsecurityMetricsRow | undefined, year?: number): PopupContent {
     let html = '<div class="bg-white border rounded-md px-1 py-1.5 text-sm text-brand shadow-md space-y-1">';
     html += '<div class="text-sm">Nombre d\'incidents pour 1000 habitants</div>';
 
@@ -374,6 +374,9 @@ function buildInsecurityPopupContent(row: InsecurityMetricsRow | undefined): Pop
         html += `<div>${INSECURITY_CATEGORIES[0]} : ${formatRate(row.violencesPersonnesPer1000)}</div>`;
         html += `<div>${INSECURITY_CATEGORIES[1]} : ${formatRate(row.securiteBiensPer1000)}</div>`;
         html += `<div>${INSECURITY_CATEGORIES[2]} : ${formatRate(row.tranquillitePer1000)}</div>`;
+        if (year) {
+            html += `<div class="text-xs text-gray-600 mt-1">Indice ${year}</div>`;
+        }
     } else {
         html += '<div class="text-gray-500 italic">Aucune donnée disponible</div>';
     }
@@ -444,8 +447,8 @@ async function updateHighlightPopup(state: DisplayBinderState, inseeCode: string
             return;
         }
 
-        // Build content
-        const content = buildInsecurityPopupContent(row);
+        // Build content with year
+        const content = buildInsecurityPopupContent(row, latestYear);
 
         // Show popup at commune centroid (will be repositioned on mousemove)
         if (!state.popup) {

@@ -1,8 +1,10 @@
 # Task 1.1: Implement Epsilon Filter (ε=0.05) for indexGlobal Calculation
 
+⚠️ **DEPRECATED (2026-02-08)** - The epsilon concept has been removed from the security index calculation. See `UPDATE-2026-02-08-epsilon-removal.md` for details.
+
 **Agent**: copilot-minor-medium-developer  
 **Date**: 2025-01-15T14:30  
-**Type**: Implementation  
+**Type**: Implementation (DEPRECATED)
 **Feature**: Insecurity Metrics (SSMSI)
 
 ---

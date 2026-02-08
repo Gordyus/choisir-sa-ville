@@ -10,14 +10,12 @@ export const INSECURITY_CATEGORIES = [
 ] as const;
 
 export const INSECURITY_LEVELS = [
-    { level: 0, label: "Très faible", description: "scoreRaw ≤ 0.05" },
-    { level: 1, label: "Faible", description: "0.05 < scoreRaw ≤ Q1" },
-    { level: 2, label: "Modéré", description: "Q1 ≤ scoreRaw < Q2" },
-    { level: 3, label: "Élevé", description: "Q2 ≤ scoreRaw < Q3" },
-    { level: 4, label: "Plus élevé", description: "Q3 ≤ scoreRaw" }
+    { level: 0, label: "Très faible", description: "indexGlobal 0–24" },
+    { level: 1, label: "Faible", description: "indexGlobal 25–49" },
+    { level: 2, label: "Modéré", description: "indexGlobal 50–74" },
+    { level: 3, label: "Élevé", description: "indexGlobal 75–99" },
+    { level: 4, label: "Plus élevé", description: "indexGlobal 100" }
 ] as const;
-
-export const INSECURITY_EPSILON = 0.05;
 
 // Utility
 export function getTotalWeight(): number {
