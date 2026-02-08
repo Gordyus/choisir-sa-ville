@@ -24,7 +24,7 @@
 import type { HTMLAttributes } from "react";
 
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
-import { INSECURITY_CATEGORIES, INSECURITY_COLORS } from "@/lib/config/insecurityPalette";
+import { INSECURITY_COLORS } from "@/lib/config/insecurityPalette";
 import { POPULATION_CATEGORIES } from "@/lib/config/insecurityMetrics";
 import { useInsecurityMetrics } from "@/lib/data/insecurityMetrics";
 import { cn } from "@/lib/utils";
@@ -95,16 +95,6 @@ function getLevelColor(level: number | null): string {
     return INSECURITY_COLORS[index] ?? INSECURITY_COLORS[0];
 }
 
-/**
- * Format a rate value for display.
- */
-function formatRate(rate: number | null): string {
-    if (rate === null || !Number.isFinite(rate)) {
-        return "—";
-    }
-    return rate.toFixed(1);
-}
-
 // ============================================================================
 // Component
 // ============================================================================
@@ -167,26 +157,16 @@ export function InsecurityBadge({
         <TooltipProvider>
             <Tooltip>
                 <TooltipTrigger asChild>
-                    <div className="flex flex-col gap-1">
-                        {/* Main badge: Category level */}
-                        <span
-                            className={cn(
-                                "inline-flex items-center rounded-full px-3 py-1 text-sm font-medium text-white",
-                                className
-                            )}
-                            style={{ backgroundColor: bgColor }}
-                            {...props}
-                        >
-                            {label}
-                        </span>
-                        
-                        {/* Subtitle: Rank in category */}
-                        {data.rankInCategory && (
-                            <span className="text-xs text-muted-foreground">
-                                {data.rankInCategory} {categoryLabel}
-                            </span>
+                    <span
+                        className={cn(
+                            "inline-flex items-center rounded-full px-3 py-1 text-sm font-medium text-white",
+                            className
                         )}
-                    </div>
+                        style={{ backgroundColor: bgColor }}
+                        {...props}
+                    >
+                        {label}
+                    </span>
                 </TooltipTrigger>
                 <TooltipContent>
                     <div className="space-y-2">
@@ -196,28 +176,11 @@ export function InsecurityBadge({
                         <p className="text-muted-foreground text-sm">
                             Niveau {data.levelNational} (classement national)
                         </p>
-                        <div className="border-t border-border my-2" />
-                        <div className="text-sm">
-                            Nombre d'incidents pour 100 000 habitants
-                        </div>
-                        <div className="text-sm space-y-0.5">
-                            <div>{INSECURITY_CATEGORIES[0]} : {formatRate(data.violencesPersonnesPer100k)}</div>
-                            <div>{INSECURITY_CATEGORIES[1]} : {formatRate(data.securiteBiensPer100k)}</div>
-                            <div>{INSECURITY_CATEGORIES[2]} : {formatRate(data.tranquillitePer100k)}</div>
-                        </div>
-                        <div className="border-t border-border my-2" />
-                        <div className="text-xs space-y-1 text-muted-foreground">
-                            <p>Percentile national: {data.indexGlobalNational ?? "—"}</p>
-                            <p>Percentile catégorie: {data.indexGlobalCategory ?? "—"}</p>
-                            {data.dataCompleteness < 1.0 && (
-                                <p className="text-amber-600">
-                                    Données partielles ({Math.round(data.dataCompleteness * 100)}%)
-                                </p>
-                            )}
-                        </div>
-                        <div className="text-xs text-muted-foreground mt-1">
-                            Année {data.year}
-                        </div>
+                        {data.dataCompleteness < 1.0 && (
+                            <p className="text-amber-600 text-sm">
+                                Données partielles ({Math.round(data.dataCompleteness * 100)}%)
+                            </p>
+                        )}
                     </div>
                 </TooltipContent>
             </Tooltip>
