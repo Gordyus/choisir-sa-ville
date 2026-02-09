@@ -60,17 +60,24 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
     const detachDisplayBinderRef = useRef<(() => void) | null>(null);
     const debugZoomCleanupRef = useRef<(() => void) | null>(null);
     const urlSyncCleanupRef = useRef<(() => void) | null>(null);
+    const initializedRef = useRef(false);
     const [debugZoom, setDebugZoom] = useState<number | null>(null);
     const [debugOverlayEnabled, setDebugOverlayEnabled] = useState(false);
+
+    // Parse URL state once at component mount to avoid re-parsing on URL changes
+    const initialViewState = useRef(parseViewFromURL(searchParams));
 
     useEffect(() => {
         let disposed = false;
         const controller = new AbortController();
 
         async function initMap(): Promise<void> {
-            if (!containerRef.current || mapRef.current) {
+            // Only initialize once - do not reinitialize on URL changes
+            if (!containerRef.current || mapRef.current || initializedRef.current) {
                 return;
             }
+
+            initializedRef.current = true;
 
             try {
                 const appConfig = await loadAppConfig(controller.signal);
@@ -82,10 +89,9 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
 
                 setDebugOverlayEnabled(appConfig.debug.enabled ?? false);
 
-                // Parse URL view state or fallback to defaults
-                const urlView = parseViewFromURL(searchParams);
-                const initialCenter = urlView?.center ?? INITIAL_CENTER;
-                const initialZoom = urlView?.zoom ?? INITIAL_ZOOM;
+                // Use initial view state parsed at component mount
+                const initialCenter = initialViewState.current?.center ?? INITIAL_CENTER;
+                const initialZoom = initialViewState.current?.zoom ?? INITIAL_ZOOM;
 
                 const map = new maplibregl.Map({
                     container: containerRef.current,
@@ -200,7 +206,7 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
                 mapRef.current = null;
             }
         };
-    }, [searchParams]);
+    }, []);
 
     return (
         <div className={cn("relative h-full w-full", className)}>
