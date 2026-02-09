@@ -43,6 +43,15 @@ const pendingBundleFetches = new Map<BundleKey, Promise<BundleData | null>>();
 // Dataset Version Resolution
 // ============================================================================
 
+/**
+ * Resolve the current dataset version by fetching and parsing the manifest.
+ * Uses an in-memory cache to avoid redundant fetches.
+ * 
+ * Note: If a fetch is already in-flight when this function is called with a new signal,
+ * the new signal will be ignored and the existing fetch will continue. This is acceptable
+ * as manifest fetches are small, infrequent, and fast. The abort mechanism is primarily
+ * useful for the first call during component mount/unmount cycles.
+ */
 async function resolveDatasetVersion(signal?: AbortSignal): Promise<string> {
     if (datasetVersionCache) {
         return datasetVersionCache;

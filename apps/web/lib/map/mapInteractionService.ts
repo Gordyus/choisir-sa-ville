@@ -412,7 +412,7 @@ class LabelHasDataEvaluator {
 // ============================================================================
 
 /** Sources that come from our own dataset — always have data */
-const OWN_DATA_SOURCES = new Set(["commune-labels-vector", "arr_municipal"]);
+const OWN_DATA_SOURCES = new Set(["commune-labels-vector", "arr_municipal", "transaction-addresses"]);
 
 function isOwnDataSource(source: string): boolean {
     return OWN_DATA_SOURCES.has(source);

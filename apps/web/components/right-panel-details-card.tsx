@@ -292,14 +292,14 @@ function TransactionHistoryView({ data }: { data: TransactionAddressData }): JSX
                 <p className="font-semibold text-brand-dark">{data.transactions.length}</p>
             </div>
             <div className="space-y-2">
-                {sortedTransactions.map((tx, index) => {
+                {sortedTransactions.map((tx) => {
                     const pricePerM2 = tx.surfaceM2 && tx.surfaceM2 > 0
                         ? pricePerM2Formatter.format(Math.round(tx.priceEur / tx.surfaceM2))
                         : null;
 
                     return (
                         <div
-                            key={`${tx.date}-${index}`}
+                            key={`${tx.date}-${tx.priceEur}-${tx.typeLocal}-${tx.surfaceM2 ?? 'null'}`}
                             className="rounded-2xl border border-brand/10 px-3 py-2 space-y-1"
                         >
                             <div className="flex items-center justify-between">
