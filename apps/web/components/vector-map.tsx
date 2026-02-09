@@ -22,6 +22,8 @@ import { MapDebugOverlay } from "@/components/map-debug-overlay";
 import { MapLayerMenu } from "@/components/map-layer-menu";
 import { loadAppConfig, type AppConfig } from "@/lib/config/appConfig";
 import { attachEntityGraphicsBinder } from "@/lib/map/entityGraphicsBinder";
+import { getCommuneLabelsVectorLayerId } from "@/lib/map/layers/communeLabelsVector";
+import { getArrMunicipalLabelsVectorLayerId } from "@/lib/map/layers/arrMunicipalLabelsVector";
 import { attachMapInteractionService } from "@/lib/map/mapInteractionService";
 import { attachDisplayBinder } from "@/lib/map/state/displayBinder";
 import { loadMapStyle } from "@/lib/map/style/stylePipeline";
@@ -131,10 +133,14 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
                 logStyleLayerCatalog(map);
             }
 
+            const communeLabelsLayerId = getCommuneLabelsVectorLayerId();
+
             // Attach interaction service - handles user interactions and EntityStateService updates
+            // Use our custom commune labels layer + arrondissement labels for full interaction coverage
             const interactionResult = attachMapInteractionService(map, {
                 debug,
-                labelLayerId: appConfig.mapTiles.interactableLabelLayerId
+                labelLayerId: communeLabelsLayerId,
+                additionalLabelLayerIds: [getArrMunicipalLabelsVectorLayerId()]
             });
             detachInteractionsRef.current = interactionResult.cleanup;
 

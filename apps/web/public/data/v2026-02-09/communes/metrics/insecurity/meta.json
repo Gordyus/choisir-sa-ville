@@ -1,0 +1,105 @@
+{
+  "source": "Bases statistiques communales de la délinquance enregistrée - SSMSI",
+  "license": "Licence Ouverte / Etalab",
+  "geoLevel": "commune",
+  "fallbackChain": [],
+  "unit": "faits pour 100 000 habitants",
+  "yearsAvailable": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "generatedAtUtc": "2026-02-09T13:20:58.178Z",
+  "methodology": "Agrégation communale par catégorie, normalisée par population SSMSI (insee_pop, par année). Classification par taille de population avec double perspective (nationale et catégorie).",
+  "inputs": {
+    "ssmsiParquetUrl": "https://www.data.gouv.fr/api/1/datasets/r/98fd2271-4d76-4015-a80c-bcec329f6ad0",
+    "ssmsiResourceId": "98fd2271-4d76-4015-a80c-bcec329f6ad0",
+    "population": {
+      "source": "SSMSI Parquet (insee_pop column)",
+      "fallbackStrategy": "none",
+      "columnInferred": "insee_pop",
+      "note": "Population extraite du Parquet SSMSI (insee_pop). Pas de fallback externe."
+    }
+  },
+  "mapping": {
+    "mappingFile": "ssmsiToGroups.v1.json",
+    "unmapped": {
+      "rows": 684666,
+      "top": [
+        {
+          "key": "Usage de stupéfiants (AFD)",
+          "rows": 269756
+        },
+        {
+          "key": "Trafic de stupéfiants",
+          "rows": 242872
+        },
+        {
+          "key": "Usage de stupéfiants",
+          "rows": 172038
+        }
+      ]
+    }
+  },
+  "inferredColumns": {
+    "inseeColumn": "CODGEO_2025",
+    "yearColumn": "annee",
+    "factsColumn": "nombre",
+    "categoryColumn": "indicateur",
+    "populationColumn": "insee_pop"
+  },
+  "warnings": {
+    "general": [],
+    "missingPopulation": [
+      "55039",
+      "55050",
+      "55139",
+      "55189",
+      "55239",
+      "55307"
+    ]
+  },
+  "populationCategories": {
+    "small": {
+      "min": 0,
+      "max": 9999,
+      "label": "Petites communes",
+      "count": 33874
+    },
+    "medium": {
+      "min": 10000,
+      "max": 99999,
+      "label": "Communes moyennes",
+      "count": 953
+    },
+    "large": {
+      "min": 100000,
+      "max": null,
+      "label": "Grandes villes",
+      "count": 42
+    }
+  },
+  "indexGlobal": {
+    "method": "percentile_rank on all scoreRaw values, rescaled to [0..100]",
+    "perspectives": {
+      "national": "Percentile across all 34,875+ communes",
+      "category": "Percentile within population category (small/medium/large)"
+    }
+  },
+  "levels": {
+    "labels": [
+      "Très faible",
+      "Faible",
+      "Modéré",
+      "Élevé",
+      "Plus élevé"
+    ],
+    "method": "Percentile-based classification: level = floor(indexGlobal / 25)"
+  }
+}

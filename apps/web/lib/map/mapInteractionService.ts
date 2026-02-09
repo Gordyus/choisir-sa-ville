@@ -21,7 +21,7 @@ import type {
 
 import { DEFAULT_INTERACTABLE_LABEL_LAYER_ID } from "@/lib/config/mapTilesConfig";
 import { findCommunesByNormalizedName } from "@/lib/data/communesIndexLite";
-import { findInfraZonesByNormalizedName } from "@/lib/data/infraZonesIndexLite";
+import { findInfraZonesByNormalizedName, getArmIdByInseeCode } from "@/lib/data/infraZonesIndexLite";
 import { normalizeName } from "@/lib/data/nameNormalization";
 import { entityRefKey, getEntityStateService, type EntityRef } from "@/lib/selection";
 
@@ -58,6 +58,8 @@ export type MapInteractionServiceResult = {
 export type MapInteractionServiceOptions = {
     debug?: boolean;
     labelLayerId?: string;
+    /** Additional label layers to query for interactions (e.g., arrondissement labels) */
+    additionalLabelLayerIds?: string[];
 };
 
 type LabelFeatureKey = string;
@@ -85,6 +87,7 @@ export function attachMapInteractionService(
 ): MapInteractionServiceResult {
     const entityStateService = getEntityStateService();
     const labelLayerId = options?.labelLayerId ?? DEFAULT_INTERACTABLE_LABEL_LAYER_ID;
+    const allLabelLayerIds = [labelLayerId, ...(options?.additionalLabelLayerIds ?? [])];
 
     let lastHighlightFeatureId: string | number | null = null;
     let lastMoveTs = 0;
@@ -93,7 +96,7 @@ export function attachMapInteractionService(
     const debug = options?.debug ?? false;
 
     const canvas = map.getCanvas();
-    const hasDataEvaluator = new LabelHasDataEvaluator(map, labelLayerId, debug);
+    const hasDataEvaluator = new LabelHasDataEvaluator(map, allLabelLayerIds, debug);
     hasDataEvaluator.start();
 
     const handleMouseMove = (event: MapMouseEvent): void => {
@@ -104,7 +107,7 @@ export function attachMapInteractionService(
         lastMoveTs = now;
 
         const requestId = ++highlightRequestToken;
-        const hit = pickLabelFeature(map, event.point, labelLayerId);
+        const hit = pickLabelFeatureFromLayers(map, event.point, allLabelLayerIds);
 
         if (disposed || requestId !== highlightRequestToken) {
             return;
@@ -151,7 +154,7 @@ export function attachMapInteractionService(
     const handleClick = (event: MapMouseEvent): void => {
         void (async () => {
             try {
-                const hit = pickLabelFeature(map, event.point, labelLayerId);
+                const hit = pickLabelFeatureFromLayers(map, event.point, allLabelLayerIds);
                 if (disposed) {
                     return;
                 }
@@ -231,7 +234,7 @@ function applyHasDataState(map: MapLibreMap, target: FeatureStateTarget, hasData
 
 class LabelHasDataEvaluator {
     private map: MapLibreMap;
-    private labelLayerId: string;
+    private labelLayerIds: string[];
     private debug: boolean;
     private timer: number | null = null;
     private requestId = 0;
@@ -239,9 +242,9 @@ class LabelHasDataEvaluator {
     private cache = new Map<LabelFeatureKey, LabelEvaluation>();
     private entityToLabel = new Map<string, FeatureStateTarget>();
 
-    constructor(map: MapLibreMap, labelLayerId: string, debug: boolean) {
+    constructor(map: MapLibreMap, labelLayerIds: string[], debug: boolean) {
         this.map = map;
-        this.labelLayerId = labelLayerId;
+        this.labelLayerIds = labelLayerIds;
         this.debug = debug;
     }
 
@@ -298,8 +301,13 @@ class LabelHasDataEvaluator {
             return cached;
         }
 
-        const entityRef = await resolveEntityRef(label, lngLat, this.debug);
-        const hasData = Boolean(entityRef);
+        // Own data sources: build EntityRef directly from feature ID (= insee code via promoteId).
+        // This bypasses the expensive name → normalize → index search → distance pipeline.
+        const entityRef = isOwnDataSource(target.source)
+            ? await resolveOwnSourceEntityRef(target)
+            : await resolveEntityRef(label, lngLat, this.debug);
+
+        const hasData = isOwnDataSource(target.source) || Boolean(entityRef);
         const evaluation: LabelEvaluation = {
             hasData,
             entityRef,
@@ -342,7 +350,9 @@ class LabelHasDataEvaluator {
             return;
         }
 
-        if (!this.map.getLayer(this.labelLayerId)) {
+        // Collect available layers
+        const activeLayers = this.labelLayerIds.filter((id) => this.map.getLayer(id));
+        if (!activeLayers.length) {
             return;
         }
 
@@ -352,7 +362,7 @@ class LabelHasDataEvaluator {
             [canvas.width, canvas.height]
         ];
 
-        const features = this.map.queryRenderedFeatures(bounds, { layers: [this.labelLayerId] });
+        const features = this.map.queryRenderedFeatures(bounds, { layers: activeLayers });
         if (!features.length) {
             return;
         }
@@ -394,16 +404,44 @@ class LabelHasDataEvaluator {
 // Label Picking Helpers
 // ============================================================================
 
-function pickLabelFeature(map: MapLibreMap, point: PointLike, layerId: string): LabelHit | null {
+/** Sources that come from our own dataset — always have data */
+const OWN_DATA_SOURCES = new Set(["commune-labels-vector", "arr_municipal"]);
+
+function isOwnDataSource(source: string): boolean {
+    return OWN_DATA_SOURCES.has(source);
+}
+
+/**
+ * Build EntityRef directly from feature ID for our own data sources.
+ * The feature ID is the INSEE code (set via promoteId on the vector source).
+ * This skips the expensive name → normalize → index search → distance pipeline.
+ */
+async function resolveOwnSourceEntityRef(target: FeatureStateTarget): Promise<EntityRef | null> {
+    const inseeCode = String(target.id);
+    if (!inseeCode) {
+        return null;
+    }
+
+    if (target.source === "arr_municipal") {
+        const infraZoneId = await getArmIdByInseeCode(inseeCode);
+        return infraZoneId ? { kind: "infraZone", id: infraZoneId } : null;
+    }
+
+    // commune-labels-vector: featureId IS the commune inseeCode
+    return { kind: "commune", inseeCode };
+}
+
+function pickLabelFeatureFromLayers(map: MapLibreMap, point: PointLike, layerIds: string[]): LabelHit | null {
     if (!map.isStyleLoaded()) {
         return null;
     }
 
-    if (!map.getLayer(layerId)) {
+    const activeLayers = layerIds.filter((id) => map.getLayer(id));
+    if (!activeLayers.length) {
         return null;
     }
 
-    const features = map.queryRenderedFeatures(point, { layers: [layerId] });
+    const features = map.queryRenderedFeatures(point, { layers: activeLayers });
     if (!features.length) {
         return null;
     }

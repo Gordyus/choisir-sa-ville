@@ -16,7 +16,9 @@ import type { StyleSpecification } from "maplibre-gl";
 import type { MapTilesConfig } from "@/lib/config/mapTilesConfig";
 
 import { injectAdminPolygons } from "../layers/adminPolygons";
+import { injectArrMunicipalLabelsVector } from "../layers/arrMunicipalLabelsVector";
 import { setPlaceClasses } from "../layers/baseLabels";
+import { injectCommuneLabelsVector } from "../layers/communeLabelsVector";
 import { applyInteractableLabelStyling } from "../layers/interactableLabelStyling";
 import { loadSourceAvailability, loadStyle, type VectorLayerAvailability } from "./styleLoader";
 import { sanitizeLayers } from "./styleSanitizer";
@@ -48,9 +50,22 @@ export async function loadMapStyle(
     // Step 3: Sanitize layers - remove those with unavailable source-layers
     const processedLayers = sanitizeLayers(resolvedBaseStyle.layers, { availability, verbose });
 
+    // Step 3.5: Remove OSM place labels (we use our own commune labels instead)
+    const filteredLayers = processedLayers.filter((layer) => {
+        const layerId = String(layer.id ?? "");
+        // Remove all OSM place label layers except "other" (suburbs, arrondissements)
+        if (layerId.startsWith("place_label") && !layerId.includes("other")) {
+            if (verbose) {
+                console.info(`[loadMapStyle] Removing OSM layer: ${layerId} (replaced by commune_labels)`);
+            }
+            return false;
+        }
+        return true;
+    });
+
     // Step 4: Apply feature-state styling on the interactable label layer
     applyInteractableLabelStyling(
-        processedLayers,
+        filteredLayers,
         config.interactableLabelLayerId,
         config.cityLabelStyle
     );
@@ -58,12 +73,27 @@ export async function loadMapStyle(
     // Step 5: Build the output style
     const outputStyle: StyleSpecification = {
         ...resolvedBaseStyle,
-        layers: processedLayers,
+        layers: filteredLayers,
         sources: { ...(resolvedBaseStyle.sources ?? {}) }
     };
 
     // Step 6: Inject admin polygon sources and layers (before labels for proper z-order)
     injectAdminPolygons(outputStyle, config.polygonSources, availability);
+
+    // Step 7: Inject custom commune labels vector layer
+    if (config.tileJsonSources.commune_labels) {
+        injectCommuneLabelsVector(outputStyle, {
+            tileJsonUrl: config.tileJsonSources.commune_labels,
+            sourceLayer: "commune_labels"
+        });
+        
+        if (process.env.NODE_ENV === "development") {
+            console.info("[loadMapStyle] Commune labels vector layer injected");
+        }
+    }
+
+    // Step 8: Inject arrondissement labels (uses existing arr_municipal source from Step 6)
+    injectArrMunicipalLabelsVector(outputStyle);
 
     return outputStyle;
 }
