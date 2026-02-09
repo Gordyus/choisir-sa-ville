@@ -15,6 +15,7 @@
 import type { HTMLAttributes } from "react";
 import { useEffect, useState } from "react";
 
+import { InsecurityBadge } from "@/components/insecurity-badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { getCommuneByInsee, type CommuneIndexLiteEntry } from "@/lib/data/communesIndexLite";
 import { getInfraZoneById, type InfraZoneIndexLiteEntry } from "@/lib/data/infraZonesIndexLite";
@@ -25,9 +26,7 @@ import { cn } from "@/lib/utils";
 // Types
 // ============================================================================
 
-interface RightPanelDetailsCardProps extends HTMLAttributes<HTMLDivElement> {
-    // No selection prop - uses SelectionService
-}
+type RightPanelDetailsCardProps = HTMLAttributes<HTMLDivElement>;
 
 type CardStatus = "idle" | "loading" | "ready" | "missing" | "error";
 
@@ -139,7 +138,7 @@ export default function RightPanelDetailsCard({
         void loadEntity(activeEntity);
 
         return () => {
-            alive = true;
+            alive = false;
             controller.abort();
         };
     }, [activeEntity?.kind, selectionKey]);
@@ -210,7 +209,10 @@ function renderContent({
         }
         return (
             <div className="space-y-3">
-                <DetailRow label="Nom" value={zone.name} emphasized />
+                <div className="flex items-center justify-between">
+                    <DetailRow label="Nom" value={zone.name} emphasized />
+                    <InsecurityBadge inseeCode={zone.parentCommuneCode} />
+                </div>
                 <DetailRow label="Type" value={zone.type || "—"} />
                 <DetailRow label="Code" value={zone.code || zone.id} />
                 <DetailRow label="Identifiant" value={zone.id} />
@@ -228,7 +230,10 @@ function renderContent({
 
     return (
         <div className="space-y-3">
-            <DetailRow label="Nom" value={commune.name} emphasized />
+            <div className="flex items-center justify-between">
+                <DetailRow label="Nom" value={commune.name} emphasized />
+                <InsecurityBadge inseeCode={commune.inseeCode} />
+            </div>
             <DetailRow label="Code INSEE" value={commune.inseeCode} />
             <DetailRow label="Département" value={commune.departmentCode || "—"} />
             <DetailRow label="Région" value={commune.regionCode || "—"} />

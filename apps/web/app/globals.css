@@ -16,23 +16,20 @@ body {
     background: radial-gradient(circle at top, #fefefe 0%, #f3f5f4 45%, #e4ebe7 100%);
 }
 
-.leaflet-tooltip.map-label {
-    background: rgba(17, 24, 39, 0.9);
-    color: #fff;
-    border: none;
-    border-radius: 999px;
-    font-size: 0.75rem;
-    font-weight: 500;
-    padding: 0.15rem 0.65rem;
-    box-shadow: 0 2px 6px rgba(15, 29, 26, 0.2);
-    pointer-events: none;
-    text-transform: capitalize;
-}
-
 .map-label--commune {
     background: rgba(27, 77, 62, 0.85);
 }
 
 .map-label--infra {
     background: rgba(217, 119, 6, 0.9);
+}
+
+/* MapLibre Popup styling */
+.maplibregl-popup-tip {
+    display: none;
+}
+
+.maplibregl-popup-content {
+    padding: 0 !important;
+    background: transparent !important;
 }

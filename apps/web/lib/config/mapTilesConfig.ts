@@ -48,7 +48,7 @@ export async function loadMapTilesConfig(signal?: AbortSignal): Promise<MapTiles
 }
 
 async function resolveMapTilesConfig(signal?: AbortSignal): Promise<MapTilesConfig> {
-    const url = "/config/map-tiles.json";
+    const url = "/api/config/map-tiles";
 
     const cache = process.env.NODE_ENV === "development" ? "no-store" : "force-cache";
     const response = await fetch(url, { signal: signal ?? null, cache });

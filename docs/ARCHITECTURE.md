@@ -59,11 +59,23 @@ Exemple pour l'agrégat insécurité au niveau commune :
 
 ### Agrégats connus
 
-| Agrégat | Dossier | Status |
-|---|---|---|
-| Insécurité (SSMSI) | `communes/metrics/insecurity/` | V1 — en cours |
-| Core (INSEE) | `communes/metrics/core.json` | Actif |
-| Housing | `communes/metrics/housing.json` | Actif |
+| Agrégat | Dossier | Status | Notes |
+|---|---|---|---|
+| **Insécurité (SSMSI)** | `communes/metrics/insecurity/` | **Actif** | Percentile simple [0..100], levels baked, viewport-only rendering |
+| Core (INSEE) | `communes/metrics/core.json` | Actif | |
+| Housing | `communes/metrics/housing.json` | Actif | |
+
+**Insécurité (SSMSI)** :
+- Source: Bases SSMSI (ministère de l'intérieur)
+- Calcul: Score pondéré (40% violences, 35% biens, 25% tranquillité)
+- Classification par taille de population (3 catégories)
+- Double indexGlobal: [0..100] national + [0..100] catégorie
+- Niveaux [0..4] basés sur percentiles catégorie
+- Unité: Faits pour 100,000 habitants
+- **Rendu carto** : Feature-state viewport-only (moveend + zoomend), pas de match géant
+- **Performance** : Batching RAF (200 features/frame), adaptive opacity mobile
+- **Documentation** : Voir `docs/METRICS_INSECURITY.md`
+- **Configuration partagée** : `INSECURITY_CATEGORIES` et `INSECURITY_LEVELS` dupliqués dans `packages/importer/src/exports/shared/insecurityMetrics.ts` et `apps/web/lib/config/insecurityMetrics.ts` (acceptable car packages Node/React isolés; centraliser si 3e package dépend)
 
 ### 2) Config runtime (JSON)
 

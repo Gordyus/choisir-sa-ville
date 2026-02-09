@@ -1,8 +1,11 @@
+import Link from "next/link";
+
 import { Button } from "@/components/ui/button";
 
 const navigation = [
     { label: "Explorer", href: "#" },
-    { label: "Recherche guidée", href: "#" }
+    { label: "Recherche guidée", href: "#" },
+    { label: "FAQ", href: "/faq" }
 ];
 
 export default function Header(): JSX.Element {
@@ -24,9 +27,13 @@ export default function Header(): JSX.Element {
                 </div>
                 <nav className="hidden items-center gap-8 text-sm text-brand/80 md:flex">
                     {navigation.map((item) => (
-                        <a key={item.label} href={item.href} className="transition hover:text-brand-dark">
+                        <Link
+                            key={item.label}
+                            href={item.href}
+                            className="transition hover:text-brand-dark"
+                        >
                             {item.label}
-                        </a>
+                        </Link>
                     ))}
                 </nav>
                 <Button className="hidden sm:inline-flex" variant="subtle">

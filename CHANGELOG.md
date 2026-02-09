@@ -9,6 +9,68 @@ et ce projet adhère au [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Unreleased]
 
+### Added
+
+#### Package `@choisir-sa-ville/shared`
+
+Création d'un package interne dédié aux **configurations et constantes métier** partagées entre `packages/importer` et `apps/web`.
+
+**Contenu**:
+- `src/config/insecurityMetrics.ts` — Configuration des catégories d'insécurité, niveaux de risque, et seuils de population
+
+**Bénéfices**:
+- ✅ Élimination de la duplication de configuration (Single Source of Truth)
+- ✅ Type-safety garantie entre importer et web
+- ✅ Maintenabilité améliorée (modification en un seul endroit)
+
+**Migration**:
+- `packages/importer/src/exports/shared/insecurityMetrics.ts` → déplacé vers `packages/shared/src/config/`
+- `apps/web/lib/config/insecurityMetrics.ts` → supprimé (duplication éliminée)
+- Imports mis à jour: `@choisir-sa-ville/shared/config/insecurity-metrics`
+
+### BREAKING CHANGES
+
+#### Indice de Sécurité: Classification par Taille de Population
+
+L'indice de sécurité (insécurité) adopte désormais une classification par taille de population 
+conforme aux standards internationaux (ONU-ICVS, classements homicides, littérature scientifique).
+
+**Changements schéma JSON**:
+- `indexGlobal` renommé en `indexGlobalNational`
+- `level` renommé en `levelNational`
+- Nouveaux champs: `populationCategory`, `indexGlobalCategory`, `levelCategory`, `rankInCategory`
+- Taux exprimés en "pour 100,000 hab" au lieu de "pour 1,000" (×100)
+
+**Impact utilisateur**:
+- Badge affiche désormais le niveau **dans la catégorie de taille** (petites/moyennes/grandes)
+- Comparaisons légitimes entre communes de tailles similaires
+- Bordeaux (1ère ville >100k hab) correctement classée niveau 4
+
+**Migration**:
+- Dataset version: `v2026-02-08` (nouvelle structure)
+- Frontend: Mise à jour automatique via hook `useInsecurityMetrics`
+
+**Référence**: `specs/security-index-population-classification.md`
+
+#### Fix: Adoption des Quintiles Standards pour le Mapping de Niveaux
+
+**Changement méthodologique**:
+- Fonction `mapIndexToLevel()` modifiée pour utiliser les quintiles standards (5 × 20 points)
+- Ancien mapping asymétrique: [0-25, 25-50, 50-75, 75-99, 100]
+- Nouveau mapping équilibré: [0-20, 20-40, 40-60, 60-80, 80-100]
+
+**Justification**:
+- Alignement sur Numbeo Crime Index (standard international grand public)
+- Méthodologie académique (quintiles ICVS, standards ONU)
+- Meilleure UX: Rouen #2/42 désormais niveau 4 (était 3 avec ancien mapping)
+
+**Impact**:
+- ~21% des grandes villes obtiennent niveau 4 (9/42) au lieu de 2.4% (1/42)
+- Distribution plus équilibrée sur les 5 niveaux
+- Top 9 grandes villes niveau 4: Bordeaux, Rouen, Grenoble, Lille, Lyon, Paris, Marseille, Montpellier, Saint-Denis
+
+**Référence**: Validé par PO/Architect gatekeeper, conforme doc/RESEARCH-security-index-methodologies.md
+
 ### En cours de développement
 
 - Recherche par nom de commune

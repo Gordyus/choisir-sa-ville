@@ -13,7 +13,8 @@ export default [
             "**/.next",
             "**/out",
             "packages/importer/**",
-            "pnpm-lock.yaml"
+            "pnpm-lock.yaml",
+            "**/next-env.d.ts"
         ]
     },
     js.configs.recommended,
