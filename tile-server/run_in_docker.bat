@@ -1,0 +1,1 @@
+docker run --rm -p 8080:8080 -v "D:\Projects\tilemaker\data:/data" maptiler/tileserver-gl:latest --config /data/config.json

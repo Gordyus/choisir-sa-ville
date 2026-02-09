@@ -91,3 +91,5 @@ packages/db/dist/**
 # next.js
 /.next/
 /out/
+/tile-server/sources
+*.mbtiles

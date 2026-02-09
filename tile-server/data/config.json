@@ -1,0 +1,19 @@
+{
+  "options": {
+    "paths": {
+      "root": "/data",
+      "styles": "/data/styles",
+      "fonts": "/data/fonts"
+    }
+  },
+  "styles": {
+    "basic": {
+      "style": "basic/style.json"
+    }
+  },
+  "data": {
+    "france": { "mbtiles": "france-z0-13.mbtiles" },
+    "communes": { "mbtiles": "communes.mbtiles" },
+    "arr_municipal": { "mbtiles": "arr_municipal.mbtiles" }
+  }
+}
