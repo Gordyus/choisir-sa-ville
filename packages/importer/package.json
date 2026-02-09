@@ -5,6 +5,7 @@
   "main": "src/exports/exportDataset.ts",
   "scripts": {
     "export:static": "tsx src/exports/exportDataset.ts",
+    "export:labels-geojson": "tsx src/export-labels-geojson.ts",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "build": "tsc -p tsconfig.json --noEmit",
     "test": "echo \"no tests yet\"",

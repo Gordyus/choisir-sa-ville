@@ -11,6 +11,7 @@ export type TabularData<Columns extends readonly string[]> = {
 export type ExportContext = {
     datasetVersion: string;
     datasetDir: string;
+    rootDir?: string;
 };
 
 export type ExportCommune = {
