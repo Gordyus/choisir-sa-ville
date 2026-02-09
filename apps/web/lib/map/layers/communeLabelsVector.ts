@@ -53,11 +53,11 @@ export function injectCommuneLabelsVector(
         type: "symbol",
         source: COMMUNE_LABELS_SOURCE_ID,
         "source-layer": sourceLayer,
-        minzoom: 6,
+        minzoom: 0,
         maxzoom: 18,
         layout: {
             "text-field": ["get", "name"],
-            "text-font": ["Open Sans Regular", "Arial Unicode MS Regular"], // Fallback fonts
+            "text-font": ["Noto Sans Regular"], // Fallback fonts
             "text-size": [
                 "interpolate",
                 ["linear"],
