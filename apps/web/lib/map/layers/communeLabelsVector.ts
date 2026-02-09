@@ -71,7 +71,7 @@ export function injectCommuneLabelsVector(
             "text-offset": [0, 0],
             "text-allow-overlap": false,
             "text-optional": true,
-            "symbol-sort-key": ["-", ["coalesce", ["get", "population"], 0]] // Higher population = higher priority
+            "symbol-sort-key": ["coalesce", ["get", "population"], 0] // Higher population = higher priority (larger number = rendered first)
         },
         paint: {
             "text-color": [
