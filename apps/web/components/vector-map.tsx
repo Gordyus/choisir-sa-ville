@@ -11,11 +11,13 @@
  * - Entity graphics binding -> entityGraphicsBinder -> setFeatureState
  * - This component only handles map rendering and cleanup
  * - No onSelect prop - consumers use useSelection() hook
+ * - URL synchronization: viewport (center + zoom) synced with ?view= query param
  */
 
 import "maplibre-gl/dist/maplibre-gl.css";
 
 import maplibregl, { Map as MapLibreMap, NavigationControl } from "maplibre-gl";
+import { useSearchParams } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
 import { MapDebugOverlay } from "@/components/map-debug-overlay";
@@ -27,6 +29,7 @@ import { getArrMunicipalLabelsVectorLayerId } from "@/lib/map/layers/arrMunicipa
 import { attachMapInteractionService } from "@/lib/map/mapInteractionService";
 import { attachDisplayBinder } from "@/lib/map/state/displayBinder";
 import { loadMapStyle } from "@/lib/map/style/stylePipeline";
+import { formatViewForURL, parseViewFromURL } from "@/lib/map/urlState";
 import { cn } from "@/lib/utils";
 
 // ============================================================================
@@ -49,12 +52,14 @@ interface VectorMapProps {
 // ============================================================================
 
 export default function VectorMap({ className }: VectorMapProps): JSX.Element {
+    const searchParams = useSearchParams();
     const containerRef = useRef<HTMLDivElement | null>(null);
     const mapRef = useRef<MapLibreMap | null>(null);
     const detachInteractionsRef = useRef<(() => void) | null>(null);
     const detachBinderRef = useRef<(() => void) | null>(null);
     const detachDisplayBinderRef = useRef<(() => void) | null>(null);
     const debugZoomCleanupRef = useRef<(() => void) | null>(null);
+    const urlSyncCleanupRef = useRef<(() => void) | null>(null);
     const [debugZoom, setDebugZoom] = useState<number | null>(null);
     const [debugOverlayEnabled, setDebugOverlayEnabled] = useState(false);
 
@@ -77,11 +82,16 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
 
                 setDebugOverlayEnabled(appConfig.debug.enabled ?? false);
 
+                // Parse URL view state or fallback to defaults
+                const urlView = parseViewFromURL(searchParams);
+                const initialCenter = urlView?.center ?? INITIAL_CENTER;
+                const initialZoom = urlView?.zoom ?? INITIAL_ZOOM;
+
                 const map = new maplibregl.Map({
                     container: containerRef.current,
                     style,
-                    center: INITIAL_CENTER,
-                    zoom: INITIAL_ZOOM,
+                    center: initialCenter,
+                    zoom: initialZoom,
                     attributionControl: false,
                     hash: false
                 });
@@ -113,6 +123,21 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
                 map.on("zoomend", handleZoomChange);
                 debugZoomCleanupRef.current = () => {
                     map.off("zoomend", handleZoomChange);
+                };
+
+                // URL synchronization - update URL on viewport changes
+                const handleViewChange = (): void => {
+                    const center = map.getCenter();
+                    const zoom = map.getZoom();
+                    const viewParam = formatViewForURL([center.lng, center.lat], zoom);
+                    const newUrl = `${window.location.pathname}?${viewParam}`;
+                    window.history.replaceState(null, "", newUrl);
+                };
+                map.on("moveend", handleViewChange);
+                map.on("zoomend", handleViewChange);
+                urlSyncCleanupRef.current = () => {
+                    map.off("moveend", handleViewChange);
+                    map.off("zoomend", handleViewChange);
                 };
 
                 // Setup interactions once map is loaded
@@ -158,6 +183,8 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
         return () => {
             disposed = true;
             controller.abort();
+            urlSyncCleanupRef.current?.();
+            urlSyncCleanupRef.current = null;
             detachDisplayBinderRef.current?.();
             detachDisplayBinderRef.current = null;
             detachBinderRef.current?.();
@@ -173,7 +200,7 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
                 mapRef.current = null;
             }
         };
-    }, []);
+    }, [searchParams]);
 
     return (
         <div className={cn("relative h-full w-full", className)}>
