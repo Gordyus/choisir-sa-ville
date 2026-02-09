@@ -22,6 +22,7 @@ type IndexLiteData = {
 
 type GeoJsonFeature = {
     type: "Feature";
+    id: string; // Feature ID for vector tiles
     geometry: {
         type: "Point";
         coordinates: [number, number]; // [lng, lat]
@@ -83,6 +84,7 @@ export async function exportLabelsGeoJson(context: ExportContext): Promise<strin
 
         features.push({
             type: "Feature",
+            id: insee, // Feature ID for promoteId in MapLibre
             geometry: {
                 type: "Point",
                 coordinates: [lng, lat] // GeoJSON standard: [longitude, latitude]
