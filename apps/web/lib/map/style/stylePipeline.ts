@@ -49,9 +49,22 @@ export async function loadMapStyle(
     // Step 3: Sanitize layers - remove those with unavailable source-layers
     const processedLayers = sanitizeLayers(resolvedBaseStyle.layers, { availability, verbose });
 
+    // Step 3.5: Remove OSM place labels (we use our own commune labels instead)
+    const filteredLayers = processedLayers.filter((layer) => {
+        const layerId = String(layer.id ?? "");
+        // Remove all OSM place label layers except "other" (suburbs, arrondissements)
+        if (layerId.startsWith("place_label") && !layerId.includes("other")) {
+            if (verbose) {
+                console.info(`[loadMapStyle] Removing OSM layer: ${layerId} (replaced by commune_labels)`);
+            }
+            return false;
+        }
+        return true;
+    });
+
     // Step 4: Apply feature-state styling on the interactable label layer
     applyInteractableLabelStyling(
-        processedLayers,
+        filteredLayers,
         config.interactableLabelLayerId,
         config.cityLabelStyle
     );
@@ -59,7 +72,7 @@ export async function loadMapStyle(
     // Step 5: Build the output style
     const outputStyle: StyleSpecification = {
         ...resolvedBaseStyle,
-        layers: processedLayers,
+        layers: filteredLayers,
         sources: { ...(resolvedBaseStyle.sources ?? {}) }
     };
 
