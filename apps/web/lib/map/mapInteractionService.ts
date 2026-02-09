@@ -400,6 +400,7 @@ function pickLabelFeature(map: MapLibreMap, point: PointLike, layerId: string): 
     }
 
     if (!map.getLayer(layerId)) {
+        console.warn(`[pickLabelFeature] Layer ${layerId} not found in map`);
         return null;
     }
 
@@ -413,13 +414,24 @@ function pickLabelFeature(map: MapLibreMap, point: PointLike, layerId: string): 
         return null;
     }
 
+    if (process.env.NODE_ENV === "development") {
+        console.log(`[pickLabelFeature] Found feature:`, {
+            id: feature.id,
+            source: (feature as { source?: string }).source,
+            sourceLayer: (feature as { sourceLayer?: string }).sourceLayer,
+            properties: feature.properties
+        });
+    }
+
     const label = extractLabelIdentity(feature);
     if (!label) {
+        console.warn(`[pickLabelFeature] Failed to extract label identity from feature:`, feature);
         return null;
     }
 
     const featureStateTarget = createFeatureStateTarget(feature);
     if (!featureStateTarget) {
+        console.warn(`[pickLabelFeature] Failed to create feature state target`);
         return null;
     }
 
