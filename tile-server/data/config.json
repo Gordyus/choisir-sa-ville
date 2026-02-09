@@ -14,6 +14,7 @@
   "data": {
     "france": { "mbtiles": "france-z0-13.mbtiles" },
     "communes": { "mbtiles": "communes.mbtiles" },
-    "arr_municipal": { "mbtiles": "arr_municipal.mbtiles" }
+    "arr_municipal": { "mbtiles": "arr_municipal.mbtiles" },
+    "commune_labels": { "mbtiles": "commune-labels.mbtiles" }
   }
 }
