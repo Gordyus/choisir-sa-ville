@@ -16,6 +16,7 @@ import type { StyleSpecification } from "maplibre-gl";
 import type { MapTilesConfig } from "@/lib/config/mapTilesConfig";
 
 import { injectAdminPolygons } from "../layers/adminPolygons";
+import { injectArrMunicipalLabelsVector } from "../layers/arrMunicipalLabelsVector";
 import { setPlaceClasses } from "../layers/baseLabels";
 import { injectCommuneLabelsVector } from "../layers/communeLabelsVector";
 import { applyInteractableLabelStyling } from "../layers/interactableLabelStyling";
@@ -90,6 +91,9 @@ export async function loadMapStyle(
             console.info("[loadMapStyle] Commune labels vector layer injected");
         }
     }
+
+    // Step 8: Inject arrondissement labels (uses existing arr_municipal source from Step 6)
+    injectArrMunicipalLabelsVector(outputStyle);
 
     return outputStyle;
 }

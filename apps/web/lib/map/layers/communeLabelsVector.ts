@@ -30,23 +30,25 @@ export type CommuneLabelsVectorConfig = {
 // Population-based text size: varies by both zoom and population.
 // At each zoom step, larger cities get bigger text.
 // Features with text-size 0 are effectively hidden by MapLibre.
+// CRITICAL: Use "step" at root level (not "interpolate") to avoid zoom interpolation
+// that breaks population thresholds between zoom levels.
 const TEXT_SIZE_EXPRESSION: ExpressionSpecification = [
-    "interpolate", ["linear"], ["zoom"],
-    // z0-5: Only megacities (> 300k) - very large and visible from far away
-    0, ["step", ["coalesce", ["get", "population"], 0],
-        0,        // pop < 300k: hidden at z0-5
+    "step", ["zoom"],
+    // z0-5: Only megacities (> 300k)
+    ["step", ["coalesce", ["get", "population"], 0],
+        0,        // pop < 300k: hidden
         300000, 16
     ],
     // z6-7: Major cities (> 50k)
     6, ["step", ["coalesce", ["get", "population"], 0],
-        0,        // pop < 50k: hidden at z6-7
+        0,        // pop < 50k: hidden
         50000, 13,
         100000, 15,
         300000, 17
     ],
     // z8-9: Medium cities (> 10k)
     8, ["step", ["coalesce", ["get", "population"], 0],
-        0,        // pop < 10k: hidden at z8-9
+        0,        // pop < 10k: hidden
         10000, 12,
         50000, 14,
         100000, 16,
@@ -54,7 +56,7 @@ const TEXT_SIZE_EXPRESSION: ExpressionSpecification = [
     ],
     // z10-11: Towns (> 2k)
     10, ["step", ["coalesce", ["get", "population"], 0],
-        0,        // pop < 2k: hidden at z10-11
+        0,        // pop < 2k: hidden
         2000, 11,
         10000, 13,
         50000, 15,
