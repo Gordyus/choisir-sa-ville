@@ -1,0 +1,39 @@
+{
+  "25d9b1aa8bcd": {
+    "id": "25d9b1aa8bcd",
+    "label": "40 RUE DES CHENES, Le Pouget",
+    "lat": 43.594539,
+    "lng": 3.513641,
+    "transactions": [
+      {
+        "date": "2022-03-23",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-23",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "53d9b8150e09": {
+    "id": "53d9b8150e09",
+    "label": "27 AV DE CANET, Le Pouget",
+    "lat": 43.593356,
+    "lng": 3.51521,
+    "transactions": [
+      {
+        "date": "2023-10-30",
+        "priceEur": 285800,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  }
+}

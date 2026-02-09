@@ -1,0 +1,76 @@
+{
+  "f5b416cf5f62": {
+    "id": "f5b416cf5f62",
+    "label": "522 CHE DU MAS DE FAVET, Lunel",
+    "lat": 43.663809,
+    "lng": 4.146105,
+    "transactions": [
+      {
+        "date": "2020-12-17",
+        "priceEur": 560000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-17",
+        "priceEur": 560000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "257c8301d760": {
+    "id": "257c8301d760",
+    "label": "244 CHE DU MAS DE FAVET, Lunel",
+    "lat": 43.666321,
+    "lng": 4.145139,
+    "transactions": [
+      {
+        "date": "2021-02-12",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "e055fa882060": {
+    "id": "e055fa882060",
+    "label": "1460 CHE DU PONT DES ANES, Lunel",
+    "lat": 43.66492,
+    "lng": 4.152175,
+    "transactions": [
+      {
+        "date": "2021-03-11",
+        "priceEur": 192020,
+        "typeLocal": "Maison",
+        "surfaceM2": 27,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-11",
+        "priceEur": 192020,
+        "typeLocal": "Maison",
+        "surfaceM2": 27,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d3c5ec85f51": {
+    "id": "4d3c5ec85f51",
+    "label": "512 CHE DU MAS DE FAVET, Lunel",
+    "lat": 43.664411,
+    "lng": 4.146263,
+    "transactions": [
+      {
+        "date": "2025-04-08",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 20,
+        "isVefa": false
+      }
+    ]
+  }
+}

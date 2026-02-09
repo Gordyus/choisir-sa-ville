@@ -1,0 +1,32 @@
+{
+  "45a4d06562c8": {
+    "id": "45a4d06562c8",
+    "label": "5003 LE VILLAGE, Liausson",
+    "lat": 43.635182,
+    "lng": 3.373592,
+    "transactions": [
+      {
+        "date": "2022-04-06",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f4ae7452b32": {
+    "id": "4f4ae7452b32",
+    "label": "5002 LE VILLAGE, Liausson",
+    "lat": 43.635265,
+    "lng": 3.37342,
+    "transactions": [
+      {
+        "date": "2022-09-07",
+        "priceEur": 252940,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  }
+}

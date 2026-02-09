@@ -1,0 +1,122 @@
+{
+  "073c9d5ca43e": {
+    "id": "073c9d5ca43e",
+    "label": "319 RUE JOSEPH DE LA MARTINIERE, Murviel-lès-Montpellier",
+    "lat": 43.601869,
+    "lng": 3.732941,
+    "transactions": [
+      {
+        "date": "2020-09-25",
+        "priceEur": 449900,
+        "typeLocal": "Maison",
+        "surfaceM2": 166,
+        "isVefa": false
+      }
+    ]
+  },
+  "b59c4e0542d3": {
+    "id": "b59c4e0542d3",
+    "label": "11 CLOS PHILIBERT COMMERSON, Murviel-lès-Montpellier",
+    "lat": 43.602937,
+    "lng": 3.732507,
+    "transactions": [
+      {
+        "date": "2021-04-13",
+        "priceEur": 465000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "a96f5d707cc7": {
+    "id": "a96f5d707cc7",
+    "label": "5 CLOS DES ARBOUSIERS, Murviel-lès-Montpellier",
+    "lat": 43.600539,
+    "lng": 3.733183,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 414145,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "02b4bfd4b11d": {
+    "id": "02b4bfd4b11d",
+    "label": "9 CLOS PHILIBERT COMMERSON, Murviel-lès-Montpellier",
+    "lat": 43.602674,
+    "lng": 3.732618,
+    "transactions": [
+      {
+        "date": "2022-06-23",
+        "priceEur": 493780,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "deaea4c08147": {
+    "id": "deaea4c08147",
+    "label": "1 LOT CLOS DE L'ETOILE, Murviel-lès-Montpellier",
+    "lat": 43.602458,
+    "lng": 3.730147,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 475000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "5663406bff1e": {
+    "id": "5663406bff1e",
+    "label": "1 CLOS DES GENEVRIERS, Murviel-lès-Montpellier",
+    "lat": 43.601908,
+    "lng": 3.731395,
+    "transactions": [
+      {
+        "date": "2022-09-09",
+        "priceEur": 495000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc9c8af3bcea": {
+    "id": "bc9c8af3bcea",
+    "label": "55 CLOS DES GENETS, Murviel-lès-Montpellier",
+    "lat": 43.601987,
+    "lng": 3.734512,
+    "transactions": [
+      {
+        "date": "2023-07-31",
+        "priceEur": 555115,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a3110546bb6": {
+    "id": "9a3110546bb6",
+    "label": "2 CLOS PHILIBERT COMMERSON, Murviel-lès-Montpellier",
+    "lat": 43.603221,
+    "lng": 3.732257,
+    "transactions": [
+      {
+        "date": "2025-03-24",
+        "priceEur": 203047.03,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  }
+}

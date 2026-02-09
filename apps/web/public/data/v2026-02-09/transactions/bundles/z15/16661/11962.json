@@ -1,0 +1,62 @@
+{
+  "ff2457cc9877": {
+    "id": "ff2457cc9877",
+    "label": "5009 LE CROS, Taussac-la-Billière",
+    "lat": 43.622206,
+    "lng": 3.05172,
+    "transactions": [
+      {
+        "date": "2021-04-16",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "a6d66453c4f9": {
+    "id": "a6d66453c4f9",
+    "label": "5028 LE CROS, Rosis",
+    "lat": 43.622733,
+    "lng": 3.048778,
+    "transactions": [
+      {
+        "date": "2021-09-27",
+        "priceEur": 56000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "abe1847b72d3": {
+    "id": "abe1847b72d3",
+    "label": "5372F LE TOURREL, Rosis",
+    "lat": 43.626512,
+    "lng": 3.049148,
+    "transactions": [
+      {
+        "date": "2023-08-29",
+        "priceEur": 427200,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "836618e89aa1": {
+    "id": "836618e89aa1",
+    "label": "5069 LE CROS, Rosis",
+    "lat": 43.622627,
+    "lng": 3.048937,
+    "transactions": [
+      {
+        "date": "2023-12-14",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 12,
+        "isVefa": false
+      }
+    ]
+  }
+}

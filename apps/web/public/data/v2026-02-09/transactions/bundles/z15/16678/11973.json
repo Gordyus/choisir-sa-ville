@@ -1,0 +1,91 @@
+{
+  "1cc666b3a822": {
+    "id": "1cc666b3a822",
+    "label": "5023 CASTELSEC, Roquessels",
+    "lat": 43.533322,
+    "lng": 3.230696,
+    "transactions": [
+      {
+        "date": "2020-07-16",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "4de0d94f0ce5": {
+    "id": "4de0d94f0ce5",
+    "label": "8 CHE DE L ESTABEL, Roquessels",
+    "lat": 43.533554,
+    "lng": 3.23088,
+    "transactions": [
+      {
+        "date": "2023-12-18",
+        "priceEur": 251107,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-02",
+        "priceEur": 219054,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "4df796b5e640": {
+    "id": "4df796b5e640",
+    "label": "5033 CASTELSEC, Roquessels",
+    "lat": 43.533246,
+    "lng": 3.230502,
+    "transactions": [
+      {
+        "date": "2023-11-10",
+        "priceEur": 231900,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "df5574e8a8ad": {
+    "id": "df5574e8a8ad",
+    "label": "5031 CASTELSEC, Roquessels",
+    "lat": 43.533523,
+    "lng": 3.230675,
+    "transactions": [
+      {
+        "date": "2024-10-01",
+        "priceEur": 61888,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5c2ce6242e5": {
+    "id": "a5c2ce6242e5",
+    "label": "5066 RUE DE CASTEL SEC, Roquessels",
+    "lat": 43.533073,
+    "lng": 3.231383,
+    "transactions": [
+      {
+        "date": "2024-12-17",
+        "priceEur": 173000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2024-12-17",
+        "priceEur": 173000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "1d16640fac84": {
+    "id": "1d16640fac84",
+    "label": "7679F LA MAIRE, Sérignan",
+    "lat": 43.26844,
+    "lng": 3.337759,
+    "transactions": [
+      {
+        "date": "2021-11-29",
+        "priceEur": 15000,
+        "typeLocal": "Maison",
+        "surfaceM2": 16,
+        "isVefa": false
+      }
+    ]
+  },
+  "b67453e22ce2": {
+    "id": "b67453e22ce2",
+    "label": "20 ORPELLIERES BASSES, Sérignan",
+    "lat": 43.268634,
+    "lng": 3.334149,
+    "transactions": [
+      {
+        "date": "2024-02-14",
+        "priceEur": 31074000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "be663e752fea": {
+    "id": "be663e752fea",
+    "label": "5919 LA SEOUNE ET LA MAIRE, Sérignan",
+    "lat": 43.268444,
+    "lng": 3.334238,
+    "transactions": [
+      {
+        "date": "2024-02-14",
+        "priceEur": 31074000,
+        "typeLocal": "Maison",
+        "surfaceM2": 26,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-14",
+        "priceEur": 31074000,
+        "typeLocal": "Maison",
+        "surfaceM2": 26,
+        "isVefa": false
+      }
+    ]
+  },
+  "0111d19c4664": {
+    "id": "0111d19c4664",
+    "label": "5110 LA SEOUNE ET LA MAIRE, Sérignan",
+    "lat": 43.267756,
+    "lng": 3.33553,
+    "transactions": [
+      {
+        "date": "2024-02-14",
+        "priceEur": 31074000,
+        "typeLocal": "Maison",
+        "surfaceM2": 241,
+        "isVefa": false
+      }
+    ]
+  },
+  "2cdcfc76f291": {
+    "id": "2cdcfc76f291",
+    "label": "5650F BEAUSEJOUR, Sérignan",
+    "lat": 43.268294,
+    "lng": 3.339005,
+    "transactions": [
+      {
+        "date": "2024-04-22",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  }
+}

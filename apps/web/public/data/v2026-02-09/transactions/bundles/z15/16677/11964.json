@@ -1,0 +1,127 @@
+{
+  "2aa5205d9638": {
+    "id": "2aa5205d9638",
+    "label": "3 IMP DE LA CROIX, Pézènes-les-Mines",
+    "lat": 43.606716,
+    "lng": 3.226936,
+    "transactions": [
+      {
+        "date": "2020-12-16",
+        "priceEur": 337900,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad1070a4ceed": {
+    "id": "ad1070a4ceed",
+    "label": "5051 LE CHAMP DU FRAYSSE, Carlencas-et-Levas",
+    "lat": 43.607909,
+    "lng": 3.227982,
+    "transactions": [
+      {
+        "date": "2021-03-03",
+        "priceEur": 411580,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-03",
+        "priceEur": 411580,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "68495b1bd286": {
+    "id": "68495b1bd286",
+    "label": "245 RTE DES VIGNALS, Pézènes-les-Mines",
+    "lat": 43.606981,
+    "lng": 3.22885,
+    "transactions": [
+      {
+        "date": "2021-07-06",
+        "priceEur": 350750,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-06",
+        "priceEur": 350750,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "48208ae4adb9": {
+    "id": "48208ae4adb9",
+    "label": "305 RTE DES VIGNALS, Pézènes-les-Mines",
+    "lat": 43.607028,
+    "lng": 3.227787,
+    "transactions": [
+      {
+        "date": "2022-02-14",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-14",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "7475573bf7a4": {
+    "id": "7475573bf7a4",
+    "label": "357 RTE DES VIGNALS, Pézènes-les-Mines",
+    "lat": 43.607347,
+    "lng": 3.227513,
+    "transactions": [
+      {
+        "date": "2022-03-02",
+        "priceEur": 298000,
+        "typeLocal": "Maison",
+        "surfaceM2": 208,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-02",
+        "priceEur": 298000,
+        "typeLocal": "Maison",
+        "surfaceM2": 208,
+        "isVefa": false
+      }
+    ]
+  },
+  "c1a6504a2cb5": {
+    "id": "c1a6504a2cb5",
+    "label": "1 RTE DES VIGNALS, Carlencas-et-Levas",
+    "lat": 43.607909,
+    "lng": 3.227982,
+    "transactions": [
+      {
+        "date": "2024-06-12",
+        "priceEur": 408845,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-12",
+        "priceEur": 408845,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  }
+}

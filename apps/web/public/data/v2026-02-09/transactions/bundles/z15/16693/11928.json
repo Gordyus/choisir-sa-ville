@@ -1,0 +1,69 @@
+{
+  "668c21b8e9cd": {
+    "id": "668c21b8e9cd",
+    "label": "5068F LES TRAVERS, Sorbs",
+    "lat": 43.896513,
+    "lng": 3.401241,
+    "transactions": [
+      {
+        "date": "2022-02-21",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "611aa9989eab": {
+    "id": "611aa9989eab",
+    "label": "5008 LE VILLAGE, Sorbs",
+    "lat": 43.892159,
+    "lng": 3.400477,
+    "transactions": [
+      {
+        "date": "2024-03-12",
+        "priceEur": 361000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "ab254d631d8f": {
+    "id": "ab254d631d8f",
+    "label": "5044 LE VILLAGE, Sorbs",
+    "lat": 43.897466,
+    "lng": 3.40315,
+    "transactions": [
+      {
+        "date": "2024-06-24",
+        "priceEur": 224000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-24",
+        "priceEur": 224000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e753b23ac28": {
+    "id": "0e753b23ac28",
+    "label": "5003 LE VILLAGE, Sorbs",
+    "lat": 43.892151,
+    "lng": 3.399076,
+    "transactions": [
+      {
+        "date": "2024-11-26",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  }
+}

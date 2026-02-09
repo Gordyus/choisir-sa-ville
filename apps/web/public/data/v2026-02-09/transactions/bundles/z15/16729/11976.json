@@ -1,0 +1,91 @@
+{
+  "6d9d1209eed4": {
+    "id": "6d9d1209eed4",
+    "label": "5022 AV DE VERDUN, Mireval",
+    "lat": 43.508737,
+    "lng": 3.80084,
+    "transactions": [
+      {
+        "date": "2020-08-25",
+        "priceEur": 270450,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d224a934291": {
+    "id": "5d224a934291",
+    "label": "76 CHE DES AMOURIES, Mireval",
+    "lat": 43.508754,
+    "lng": 3.799639,
+    "transactions": [
+      {
+        "date": "2020-10-22",
+        "priceEur": 475000,
+        "typeLocal": "Maison",
+        "surfaceM2": 167,
+        "isVefa": false
+      }
+    ]
+  },
+  "71163eb8d172": {
+    "id": "71163eb8d172",
+    "label": "6059 SAINT-ETIENNE, Mireval",
+    "lat": 43.514007,
+    "lng": 3.800627,
+    "transactions": [
+      {
+        "date": "2023-02-13",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-13",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "8539d0e66693": {
+    "id": "8539d0e66693",
+    "label": "20 AV DE VERDUN, Mireval",
+    "lat": 43.508823,
+    "lng": 3.801067,
+    "transactions": [
+      {
+        "date": "2024-05-23",
+        "priceEur": 237040,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "47ef03b1587c": {
+    "id": "47ef03b1587c",
+    "label": "5057F CHE DE LA TIEULIERE, Mireval",
+    "lat": 43.509626,
+    "lng": 3.799956,
+    "transactions": [
+      {
+        "date": "2025-05-21",
+        "priceEur": 407000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      },
+      {
+        "date": "2025-05-21",
+        "priceEur": 407000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  }
+}

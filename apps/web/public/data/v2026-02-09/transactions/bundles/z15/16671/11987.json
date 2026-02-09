@@ -1,0 +1,106 @@
+{
+  "45d92075d492": {
+    "id": "45d92075d492",
+    "label": "32 AV JEAN SENEGAS, Thézan-lès-Béziers",
+    "lat": 43.424455,
+    "lng": 3.160864,
+    "transactions": [
+      {
+        "date": "2020-08-27",
+        "priceEur": 314500,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e4a7296500c": {
+    "id": "5e4a7296500c",
+    "label": "17 RUE DU CLOS DES MASSELETTES, Thézan-lès-Béziers",
+    "lat": 43.422946,
+    "lng": 3.16372,
+    "transactions": [
+      {
+        "date": "2021-02-25",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "a126c31df202": {
+    "id": "a126c31df202",
+    "label": "7 RUE DE LA CARRIERASSE, Thézan-lès-Béziers",
+    "lat": 43.421209,
+    "lng": 3.163869,
+    "transactions": [
+      {
+        "date": "2021-04-21",
+        "priceEur": 367000,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-21",
+        "priceEur": 367000,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      }
+    ]
+  },
+  "f2e0dd18ce03": {
+    "id": "f2e0dd18ce03",
+    "label": "5 RUE DU CLOS DES MASSELETTES, Thézan-lès-Béziers",
+    "lat": 43.422032,
+    "lng": 3.163366,
+    "transactions": [
+      {
+        "date": "2022-03-31",
+        "priceEur": 291350,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ece62a0d42f": {
+    "id": "9ece62a0d42f",
+    "label": "4 RUE DE LA GRANGETTE, Thézan-lès-Béziers",
+    "lat": 43.422877,
+    "lng": 3.163282,
+    "transactions": [
+      {
+        "date": "2022-04-07",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b9eb36a6b51": {
+    "id": "2b9eb36a6b51",
+    "label": "3 AV JEAN SENEGAS, Thézan-lès-Béziers",
+    "lat": 43.42381,
+    "lng": 3.160506,
+    "transactions": [
+      {
+        "date": "2024-12-06",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2024-12-06",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

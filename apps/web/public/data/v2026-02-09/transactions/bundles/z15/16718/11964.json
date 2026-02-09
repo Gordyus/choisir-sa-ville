@@ -1,0 +1,84 @@
+{
+  "e419deb43533": {
+    "id": "e419deb43533",
+    "label": "5114 VALMALLE (HAMEAU), Saint-Paul-et-Valmalle",
+    "lat": 43.609492,
+    "lng": 3.671846,
+    "transactions": [
+      {
+        "date": "2020-12-28",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4cc0768c95e": {
+    "id": "b4cc0768c95e",
+    "label": "3 LA ROUVIERE, Saint-Paul-et-Valmalle",
+    "lat": 43.608865,
+    "lng": 3.67656,
+    "transactions": [
+      {
+        "date": "2022-10-27",
+        "priceEur": 52000,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-27",
+        "priceEur": 52000,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  },
+  "98973eb819c7": {
+    "id": "98973eb819c7",
+    "label": "5552F LA ROUVIERE, Saint-Paul-et-Valmalle",
+    "lat": 43.608133,
+    "lng": 3.67804,
+    "transactions": [
+      {
+        "date": "2022-12-22",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0433d31066f": {
+    "id": "c0433d31066f",
+    "label": "23 LA ROUVIERE, Saint-Paul-et-Valmalle",
+    "lat": 43.608227,
+    "lng": 3.676151,
+    "transactions": [
+      {
+        "date": "2023-08-03",
+        "priceEur": 114740,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "57490009966e": {
+    "id": "57490009966e",
+    "label": "5383F LA ROUVIERE, Saint-Paul-et-Valmalle",
+    "lat": 43.608215,
+    "lng": 3.676646,
+    "transactions": [
+      {
+        "date": "2024-10-18",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  }
+}

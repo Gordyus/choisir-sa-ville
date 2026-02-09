@@ -1,0 +1,39 @@
+{
+  "9db960b1f3b5": {
+    "id": "9db960b1f3b5",
+    "label": "273 AV DE L AIGOUAL, Saint-Clément-de-Rivière",
+    "lat": 43.686557,
+    "lng": 3.832821,
+    "transactions": [
+      {
+        "date": "2021-02-18",
+        "priceEur": 575080,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-18",
+        "priceEur": 575080,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "302403467d84": {
+    "id": "302403467d84",
+    "label": "1570 AV DE SAINT GELY, Saint-Clément-de-Rivière",
+    "lat": 43.684274,
+    "lng": 3.832444,
+    "transactions": [
+      {
+        "date": "2021-08-27",
+        "priceEur": 308500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

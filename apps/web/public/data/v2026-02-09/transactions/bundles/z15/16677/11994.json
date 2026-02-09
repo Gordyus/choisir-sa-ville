@@ -1,0 +1,47 @@
+{
+  "9a4ed5e59394": {
+    "id": "9a4ed5e59394",
+    "label": "180 CR BOUJAN A ST JEAN DE GREZAN, Béziers",
+    "lat": 43.366418,
+    "lng": 3.226593,
+    "transactions": [
+      {
+        "date": "2021-01-15",
+        "priceEur": 124650,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "86a608b4e65e": {
+    "id": "86a608b4e65e",
+    "label": "9002F MERCORENT, Béziers",
+    "lat": 43.368954,
+    "lng": 3.2245,
+    "transactions": [
+      {
+        "date": "2021-03-22",
+        "priceEur": 380000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "eb099bdbed0b": {
+    "id": "eb099bdbed0b",
+    "label": "900 ART ANC RTE DE BEDARIEUX VC 4, Béziers",
+    "lat": 43.366075,
+    "lng": 3.219311,
+    "transactions": [
+      {
+        "date": "2023-09-13",
+        "priceEur": 172990,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": true
+      }
+    ]
+  }
+}

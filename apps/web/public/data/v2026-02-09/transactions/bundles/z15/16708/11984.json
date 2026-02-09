@@ -1,0 +1,39 @@
+{
+  "79e8d025f505": {
+    "id": "79e8d025f505",
+    "label": "5176F FONTEBEZE, Mèze",
+    "lat": 43.449225,
+    "lng": 3.561708,
+    "transactions": [
+      {
+        "date": "2021-10-13",
+        "priceEur": 115150,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-13",
+        "priceEur": 115150,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "7dbe073f445c": {
+    "id": "7dbe073f445c",
+    "label": "9313 ENGARONE, Mèze",
+    "lat": 43.447762,
+    "lng": 3.567497,
+    "transactions": [
+      {
+        "date": "2023-12-15",
+        "priceEur": 1020700,
+        "typeLocal": "Maison",
+        "surfaceM2": 179,
+        "isVefa": false
+      }
+    ]
+  }
+}

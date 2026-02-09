@@ -1,0 +1,90 @@
+{
+  "e513a460773f": {
+    "id": "e513a460773f",
+    "label": "5787F CHE DES MAGES, Saint-Bauzille-de-la-Sylve",
+    "lat": 43.62004,
+    "lng": 3.550657,
+    "transactions": [
+      {
+        "date": "2021-06-22",
+        "priceEur": 371950,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-22",
+        "priceEur": 371950,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "961f85333839": {
+    "id": "961f85333839",
+    "label": "2 CHE DE L HERMITAGE, Saint-Bauzille-de-la-Sylve",
+    "lat": 43.61626,
+    "lng": 3.548633,
+    "transactions": [
+      {
+        "date": "2021-07-01",
+        "priceEur": 334500,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-01",
+        "priceEur": 334500,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "a133e1f9e351": {
+    "id": "a133e1f9e351",
+    "label": "13 DRAYE DE LAS GARRIGUES, Saint-Bauzille-de-la-Sylve",
+    "lat": 43.614791,
+    "lng": 3.550377,
+    "transactions": [
+      {
+        "date": "2022-12-16",
+        "priceEur": 545630,
+        "typeLocal": "Maison",
+        "surfaceM2": 178,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-16",
+        "priceEur": 545630,
+        "typeLocal": "Maison",
+        "surfaceM2": 178,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c23c9b8f104": {
+    "id": "8c23c9b8f104",
+    "label": "17 DRAYE DE LAS GARRIGUES, Saint-Bauzille-de-la-Sylve",
+    "lat": 43.61453,
+    "lng": 3.551139,
+    "transactions": [
+      {
+        "date": "2025-03-21",
+        "priceEur": 373200,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-21",
+        "priceEur": 373200,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

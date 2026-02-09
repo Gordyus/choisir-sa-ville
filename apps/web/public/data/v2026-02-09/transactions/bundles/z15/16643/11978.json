@@ -1,0 +1,84 @@
+{
+  "a16da9063714": {
+    "id": "a16da9063714",
+    "label": "5373 EUZEDES, Riols",
+    "lat": 43.498592,
+    "lng": 2.852569,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 258000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "c62203d07ad5": {
+    "id": "c62203d07ad5",
+    "label": "5642F EUZEDES, Riols",
+    "lat": 43.498445,
+    "lng": 2.852179,
+    "transactions": [
+      {
+        "date": "2021-03-16",
+        "priceEur": 30000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "803fd2e30bf5": {
+    "id": "803fd2e30bf5",
+    "label": "5730F EUZEDES, Riols",
+    "lat": 43.498283,
+    "lng": 2.851565,
+    "transactions": [
+      {
+        "date": "2022-04-09",
+        "priceEur": 93500,
+        "typeLocal": "Maison",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "94ccf0243ca3": {
+    "id": "94ccf0243ca3",
+    "label": "5550 LISSARTELAS, Riols",
+    "lat": 43.499594,
+    "lng": 2.853421,
+    "transactions": [
+      {
+        "date": "2022-08-06",
+        "priceEur": 3650,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-06",
+        "priceEur": 3650,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "278aa1e8d0c5": {
+    "id": "278aa1e8d0c5",
+    "label": "5101 EUZEDES, Riols",
+    "lat": 43.498764,
+    "lng": 2.852198,
+    "transactions": [
+      {
+        "date": "2024-07-23",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  }
+}

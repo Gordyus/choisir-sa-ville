@@ -1,0 +1,61 @@
+{
+  "3d0ce19ad37a": {
+    "id": "3d0ce19ad37a",
+    "label": "5314 CHEMIN DU MOULIN, Fabrègues",
+    "lat": 43.562371,
+    "lng": 3.803798,
+    "transactions": [
+      {
+        "date": "2020-10-13",
+        "priceEur": 411500,
+        "typeLocal": "Maison",
+        "surfaceM2": 185,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-13",
+        "priceEur": 411500,
+        "typeLocal": "Maison",
+        "surfaceM2": 185,
+        "isVefa": false
+      }
+    ]
+  },
+  "e26d92c30e7b": {
+    "id": "e26d92c30e7b",
+    "label": "5495 CHEMIN DU MOULIN, Fabrègues",
+    "lat": 43.562055,
+    "lng": 3.803591,
+    "transactions": [
+      {
+        "date": "2022-09-05",
+        "priceEur": 432930,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-05",
+        "priceEur": 432930,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "42586bf3c20d": {
+    "id": "42586bf3c20d",
+    "label": "9058 CHEMIN DU MOULIN, Fabrègues",
+    "lat": 43.561993,
+    "lng": 3.804749,
+    "transactions": [
+      {
+        "date": "2023-06-02",
+        "priceEur": 10000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

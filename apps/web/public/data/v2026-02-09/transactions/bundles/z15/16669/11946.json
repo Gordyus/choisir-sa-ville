@@ -1,0 +1,32 @@
+{
+  "425af204f31b": {
+    "id": "425af204f31b",
+    "label": "5133 SUR VINAS, Avène",
+    "lat": 43.752384,
+    "lng": 3.137066,
+    "transactions": [
+      {
+        "date": "2023-07-07",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "0da9351608af": {
+    "id": "0da9351608af",
+    "label": "5097 SUR VINAS, Avène",
+    "lat": 43.752881,
+    "lng": 3.139241,
+    "transactions": [
+      {
+        "date": "2023-12-12",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  }
+}

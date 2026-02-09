@@ -1,0 +1,24 @@
+{
+  "6d4eaa6f1b56": {
+    "id": "6d4eaa6f1b56",
+    "label": "6 CHE DE LA PLAINE, Lézignan-la-Cèbe",
+    "lat": 43.491978,
+    "lng": 3.439771,
+    "transactions": [
+      {
+        "date": "2022-12-27",
+        "priceEur": 1641467,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-27",
+        "priceEur": 1641467,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  }
+}

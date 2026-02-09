@@ -15,7 +15,8 @@
  */
 export type EntityRef =
     | { kind: "commune"; inseeCode: string }
-    | { kind: "infraZone"; id: string };
+    | { kind: "infraZone"; id: string }
+    | { kind: "transactionAddress"; id: string; bundleZ: number; bundleX: number; bundleY: number };
 
 /**
  * Check if two entity references are equal.
@@ -30,6 +31,9 @@ export function entityRefEquals(a: EntityRef | null, b: EntityRef | null): boole
     if (a.kind === "infraZone" && b.kind === "infraZone") {
         return a.id === b.id;
     }
+    if (a.kind === "transactionAddress" && b.kind === "transactionAddress") {
+        return a.id === b.id;
+    }
     return false;
 }
 
@@ -37,9 +41,9 @@ export function entityRefEquals(a: EntityRef | null, b: EntityRef | null): boole
  * Get a stable string key for an entity reference.
  */
 export function entityRefKey(ref: EntityRef): string {
-    return ref.kind === "commune"
-        ? `commune:${ref.inseeCode}`
-        : `infraZone:${ref.id}`;
+    if (ref.kind === "commune") return `commune:${ref.inseeCode}`;
+    if (ref.kind === "infraZone") return `infraZone:${ref.id}`;
+    return `transactionAddress:${ref.id}`;
 }
 
 // ============================================================================
@@ -112,8 +116,31 @@ export type InfraZoneData = {
 };
 
 /**
+ * Transaction line as returned by the data provider.
+ */
+export type TransactionLine = {
+    date: string;
+    priceEur: number;
+    typeLocal: "Maison" | "Appartement";
+    surfaceM2: number | null;
+    isVefa: boolean;
+};
+
+/**
+ * Transaction address history as returned by the data provider.
+ */
+export type TransactionAddressData = {
+    id: string;
+    label: string;
+    lat: number;
+    lng: number;
+    transactions: TransactionLine[];
+};
+
+/**
  * Union type for entity data with discriminant.
  */
 export type EntityData =
     | { kind: "commune"; data: CommuneData }
-    | { kind: "infraZone"; data: InfraZoneData };
+    | { kind: "infraZone"; data: InfraZoneData }
+    | { kind: "transactionAddress"; data: TransactionAddressData };

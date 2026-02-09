@@ -1,0 +1,61 @@
+{
+  "a73a957d2517": {
+    "id": "a73a957d2517",
+    "label": "282 RUE DU MAS DE MOUNIE, Sainte-Croix-de-Quintillargues",
+    "lat": 43.774585,
+    "lng": 3.912185,
+    "transactions": [
+      {
+        "date": "2020-09-25",
+        "priceEur": 506550,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b39c6a43bbe": {
+    "id": "5b39c6a43bbe",
+    "label": "214 CHE DES CLAUSSES, Sainte-Croix-de-Quintillargues",
+    "lat": 43.773233,
+    "lng": 3.911236,
+    "transactions": [
+      {
+        "date": "2024-06-14",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-27",
+        "priceEur": 600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-27",
+        "priceEur": 600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd7e3002f1e9": {
+    "id": "dd7e3002f1e9",
+    "label": "87 RUE DU MAS DE MOUNIE, Sainte-Croix-de-Quintillargues",
+    "lat": 43.775339,
+    "lng": 3.912022,
+    "transactions": [
+      {
+        "date": "2024-12-03",
+        "priceEur": 426700,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  }
+}

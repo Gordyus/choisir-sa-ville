@@ -1,0 +1,47 @@
+{
+  "4a8353fc7a48": {
+    "id": "4a8353fc7a48",
+    "label": "57 AV DE NEFFIES, Caux",
+    "lat": 43.510609,
+    "lng": 3.36128,
+    "transactions": [
+      {
+        "date": "2022-08-03",
+        "priceEur": 317600,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "eb3526d94475": {
+    "id": "eb3526d94475",
+    "label": "18 AV DES GLYCINES, Caux",
+    "lat": 43.509061,
+    "lng": 3.360386,
+    "transactions": [
+      {
+        "date": "2023-01-12",
+        "priceEur": 405000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c05552e932e": {
+    "id": "2c05552e932e",
+    "label": "2 AV DU SEGALA, Caux",
+    "lat": 43.511092,
+    "lng": 3.361103,
+    "transactions": [
+      {
+        "date": "2023-10-03",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "2411845a1275": {
+    "id": "2411845a1275",
+    "label": "5003 HAMEAU DES RIVES, Saint-André-de-Buèges",
+    "lat": 43.84559,
+    "lng": 3.63314,
+    "transactions": [
+      {
+        "date": "2021-02-12",
+        "priceEur": 295820,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "9519e2974383": {
+    "id": "9519e2974383",
+    "label": "5002 HAMEAU DES RIVES, Saint-André-de-Buèges",
+    "lat": 43.845671,
+    "lng": 3.633302,
+    "transactions": [
+      {
+        "date": "2021-02-12",
+        "priceEur": 295820,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,761 @@
+{
+  "8f045db60efa": {
+    "id": "8f045db60efa",
+    "label": "5 RUE DE LA DESCOLE, Castelnau-de-Guers",
+    "lat": 43.43297,
+    "lng": 3.438469,
+    "transactions": [
+      {
+        "date": "2020-07-06",
+        "priceEur": 151000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "b2c4316343c3": {
+    "id": "b2c4316343c3",
+    "label": "30 RUE DEDALE, Castelnau-de-Guers",
+    "lat": 43.435396,
+    "lng": 3.437549,
+    "transactions": [
+      {
+        "date": "2020-07-16",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e832e5c10ef": {
+    "id": "6e832e5c10ef",
+    "label": "20 RUE DES NEREIDES, Castelnau-de-Guers",
+    "lat": 43.435033,
+    "lng": 3.437449,
+    "transactions": [
+      {
+        "date": "2020-08-27",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6701a7e880d": {
+    "id": "f6701a7e880d",
+    "label": "7 RUE SILENE, Castelnau-de-Guers",
+    "lat": 43.435858,
+    "lng": 3.438227,
+    "transactions": [
+      {
+        "date": "2020-09-28",
+        "priceEur": 79700,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "22ef36b1afa8": {
+    "id": "22ef36b1afa8",
+    "label": "12 RUE DE MEGERE, Castelnau-de-Guers",
+    "lat": 43.435251,
+    "lng": 3.436649,
+    "transactions": [
+      {
+        "date": "2020-09-19",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "62f6391840be": {
+    "id": "62f6391840be",
+    "label": "5442 CHE DE L'HERAULT, Castelnau-de-Guers",
+    "lat": 43.435516,
+    "lng": 3.435057,
+    "transactions": [
+      {
+        "date": "2020-11-13",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c7c125217c8": {
+    "id": "9c7c125217c8",
+    "label": "2 RUE TORIDE, Castelnau-de-Guers",
+    "lat": 43.434537,
+    "lng": 3.437736,
+    "transactions": [
+      {
+        "date": "2020-12-29",
+        "priceEur": 119000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "50e47537d6a0": {
+    "id": "50e47537d6a0",
+    "label": "4 RUE SILENE, Castelnau-de-Guers",
+    "lat": 43.435949,
+    "lng": 3.438677,
+    "transactions": [
+      {
+        "date": "2022-03-24",
+        "priceEur": 187300,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-10",
+        "priceEur": 171300,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "12151c7b79c5": {
+    "id": "12151c7b79c5",
+    "label": "4 ESCALIER BARTHELEMY, Castelnau-de-Guers",
+    "lat": 43.435454,
+    "lng": 3.436518,
+    "transactions": [
+      {
+        "date": "2024-07-19",
+        "priceEur": 122000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-16",
+        "priceEur": 113500,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "fcf7ef21a6e2": {
+    "id": "fcf7ef21a6e2",
+    "label": "2B AV MINERVE, Castelnau-de-Guers",
+    "lat": 43.435403,
+    "lng": 3.436801,
+    "transactions": [
+      {
+        "date": "2022-06-15",
+        "priceEur": 225500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 126,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-22",
+        "priceEur": 216500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e9f1b1927ac": {
+    "id": "1e9f1b1927ac",
+    "label": "20 RUE DE MEGERE, Castelnau-de-Guers",
+    "lat": 43.435002,
+    "lng": 3.436903,
+    "transactions": [
+      {
+        "date": "2023-09-18",
+        "priceEur": 71000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-23",
+        "priceEur": 141900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "99e82a86030d": {
+    "id": "99e82a86030d",
+    "label": "29 RUE DES NEREIDES, Castelnau-de-Guers",
+    "lat": 43.434673,
+    "lng": 3.437878,
+    "transactions": [
+      {
+        "date": "2021-06-02",
+        "priceEur": 136000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4a436f778e0": {
+    "id": "c4a436f778e0",
+    "label": "28 RUE DES NEREIDES, Castelnau-de-Guers",
+    "lat": 43.434916,
+    "lng": 3.437684,
+    "transactions": [
+      {
+        "date": "2022-05-25",
+        "priceEur": 80900,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-28",
+        "priceEur": 78000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "a526cbc6972b": {
+    "id": "a526cbc6972b",
+    "label": "8 AV MINERVE, Castelnau-de-Guers",
+    "lat": 43.43509,
+    "lng": 3.437012,
+    "transactions": [
+      {
+        "date": "2021-07-26",
+        "priceEur": 74000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b907946ed19": {
+    "id": "5b907946ed19",
+    "label": "8 RUE DE MEGERE, Castelnau-de-Guers",
+    "lat": 43.43542,
+    "lng": 3.436378,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b4d84f74aff": {
+    "id": "1b4d84f74aff",
+    "label": "5 RUE EOLE, Castelnau-de-Guers",
+    "lat": 43.433144,
+    "lng": 3.433927,
+    "transactions": [
+      {
+        "date": "2021-10-05",
+        "priceEur": 449000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-05",
+        "priceEur": 449000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "84ef6c3a753f": {
+    "id": "84ef6c3a753f",
+    "label": "17 RUE PARNASSE, Castelnau-de-Guers",
+    "lat": 43.434591,
+    "lng": 3.438106,
+    "transactions": [
+      {
+        "date": "2021-09-17",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "4883a118dd02": {
+    "id": "4883a118dd02",
+    "label": "1 DSC DES HORTS, Castelnau-de-Guers",
+    "lat": 43.435803,
+    "lng": 3.436153,
+    "transactions": [
+      {
+        "date": "2021-11-06",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "9584b962f60c": {
+    "id": "9584b962f60c",
+    "label": "30 RUE SILENE, Castelnau-de-Guers",
+    "lat": 43.435641,
+    "lng": 3.437261,
+    "transactions": [
+      {
+        "date": "2021-11-26",
+        "priceEur": 66000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb10a6cdc971": {
+    "id": "cb10a6cdc971",
+    "label": "1 VC LA PLACETTE, Castelnau-de-Guers",
+    "lat": 43.435801,
+    "lng": 3.4381,
+    "transactions": [
+      {
+        "date": "2022-03-03",
+        "priceEur": 12000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "069083362f90": {
+    "id": "069083362f90",
+    "label": "14 CHE DE L'HERAULT, Castelnau-de-Guers",
+    "lat": 43.435729,
+    "lng": 3.436265,
+    "transactions": [
+      {
+        "date": "2022-04-05",
+        "priceEur": 79000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6b0516fde4c": {
+    "id": "f6b0516fde4c",
+    "label": "10 RUE PARNASSE, Castelnau-de-Guers",
+    "lat": 43.434858,
+    "lng": 3.437513,
+    "transactions": [
+      {
+        "date": "2022-06-28",
+        "priceEur": 106800,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "023fc13a4419": {
+    "id": "023fc13a4419",
+    "label": "1 RUE DES OLIVIERS, Castelnau-de-Guers",
+    "lat": 43.432838,
+    "lng": 3.436178,
+    "transactions": [
+      {
+        "date": "2022-09-14",
+        "priceEur": 431000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-14",
+        "priceEur": 431000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "faf29038b408": {
+    "id": "faf29038b408",
+    "label": "1 LE CHATEAU, Castelnau-de-Guers",
+    "lat": 43.435227,
+    "lng": 3.438297,
+    "transactions": [
+      {
+        "date": "2022-11-09",
+        "priceEur": 211330,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd3f9ce9e57b": {
+    "id": "cd3f9ce9e57b",
+    "label": "24 RUE DES NEREIDES, Castelnau-de-Guers",
+    "lat": 43.434982,
+    "lng": 3.437577,
+    "transactions": [
+      {
+        "date": "2022-11-24",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  },
+  "b47cb4759b85": {
+    "id": "b47cb4759b85",
+    "label": "4 RUE NEREE, Castelnau-de-Guers",
+    "lat": 43.433537,
+    "lng": 3.434551,
+    "transactions": [
+      {
+        "date": "2022-11-29",
+        "priceEur": 340632,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-29",
+        "priceEur": 340632,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-29",
+        "priceEur": 340632,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-29",
+        "priceEur": 340632,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ae6b754c8fa": {
+    "id": "4ae6b754c8fa",
+    "label": "6 AV DE LA BARRIERE, Castelnau-de-Guers",
+    "lat": 43.432739,
+    "lng": 3.434562,
+    "transactions": [
+      {
+        "date": "2022-11-21",
+        "priceEur": 267700,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "370eeb963972": {
+    "id": "370eeb963972",
+    "label": "2 RUE PARNASSE, Castelnau-de-Guers",
+    "lat": 43.43497,
+    "lng": 3.437278,
+    "transactions": [
+      {
+        "date": "2022-12-29",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c1919f64cce": {
+    "id": "2c1919f64cce",
+    "label": "11 VC DE LA GARENNE, Castelnau-de-Guers",
+    "lat": 43.434399,
+    "lng": 3.437999,
+    "transactions": [
+      {
+        "date": "2023-03-30",
+        "priceEur": 275750,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "a60d246e76c2": {
+    "id": "a60d246e76c2",
+    "label": "16 RUE DEDALE, Castelnau-de-Guers",
+    "lat": 43.435753,
+    "lng": 3.437713,
+    "transactions": [
+      {
+        "date": "2023-04-13",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "afae068d4a96": {
+    "id": "afae068d4a96",
+    "label": "34 RUE PARNASSE, Castelnau-de-Guers",
+    "lat": 43.4347,
+    "lng": 3.437669,
+    "transactions": [
+      {
+        "date": "2023-04-19",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "a981d6de8c00": {
+    "id": "a981d6de8c00",
+    "label": "22 RUE DES NEREIDES, Castelnau-de-Guers",
+    "lat": 43.435016,
+    "lng": 3.437523,
+    "transactions": [
+      {
+        "date": "2023-05-10",
+        "priceEur": 59000,
+        "typeLocal": "Maison",
+        "surfaceM2": 24,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ec9f908a1b1": {
+    "id": "9ec9f908a1b1",
+    "label": "11 RUE TORIDE, Castelnau-de-Guers",
+    "lat": 43.434174,
+    "lng": 3.437572,
+    "transactions": [
+      {
+        "date": "2023-07-21",
+        "priceEur": 40000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-21",
+        "priceEur": 40000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "30384d2bd7fe": {
+    "id": "30384d2bd7fe",
+    "label": "9 RUE DE TERAL, Castelnau-de-Guers",
+    "lat": 43.434814,
+    "lng": 3.437437,
+    "transactions": [
+      {
+        "date": "2023-10-26",
+        "priceEur": 23000,
+        "typeLocal": "Maison",
+        "surfaceM2": 22,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4ee58c5f42a": {
+    "id": "b4ee58c5f42a",
+    "label": "25 RUE DES NEREIDES, Castelnau-de-Guers",
+    "lat": 43.434796,
+    "lng": 3.437901,
+    "transactions": [
+      {
+        "date": "2023-09-30",
+        "priceEur": 129500,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4b81c55fed5": {
+    "id": "f4b81c55fed5",
+    "label": "4 PLAN LESPARE, Castelnau-de-Guers",
+    "lat": 43.435681,
+    "lng": 3.437214,
+    "transactions": [
+      {
+        "date": "2024-04-02",
+        "priceEur": 215913,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "dde323e52a18": {
+    "id": "dde323e52a18",
+    "label": "4B AV MINERVE, Castelnau-de-Guers",
+    "lat": 43.435403,
+    "lng": 3.436801,
+    "transactions": [
+      {
+        "date": "2024-05-17",
+        "priceEur": 230000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 5,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d6a74ac4339": {
+    "id": "8d6a74ac4339",
+    "label": "4 AV MINERVE, Castelnau-de-Guers",
+    "lat": 43.43532,
+    "lng": 3.43683,
+    "transactions": [
+      {
+        "date": "2024-05-17",
+        "priceEur": 230000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca2d4d8df27f": {
+    "id": "ca2d4d8df27f",
+    "label": "13 AV DE FLORENSAC, Castelnau-de-Guers",
+    "lat": 43.432883,
+    "lng": 3.437577,
+    "transactions": [
+      {
+        "date": "2024-07-04",
+        "priceEur": 465000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-04",
+        "priceEur": 465000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9596dcd43cd": {
+    "id": "c9596dcd43cd",
+    "label": "5213 AV DE FLORENSAC, Castelnau-de-Guers",
+    "lat": 43.433773,
+    "lng": 3.437238,
+    "transactions": [
+      {
+        "date": "2024-07-23",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "60e84402a71d": {
+    "id": "60e84402a71d",
+    "label": "6 AV DE POMEROLS, Castelnau-de-Guers",
+    "lat": 43.432696,
+    "lng": 3.437976,
+    "transactions": [
+      {
+        "date": "2024-07-26",
+        "priceEur": 285650,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "ced7c0a2b833": {
+    "id": "ced7c0a2b833",
+    "label": "20 RUE SILENE, Castelnau-de-Guers",
+    "lat": 43.43593,
+    "lng": 3.43766,
+    "transactions": [
+      {
+        "date": "2024-09-12",
+        "priceEur": 83000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4ba04d9460e": {
+    "id": "b4ba04d9460e",
+    "label": "22 RUE PARNASSE, Castelnau-de-Guers",
+    "lat": 43.434489,
+    "lng": 3.437909,
+    "transactions": [
+      {
+        "date": "2025-03-28",
+        "priceEur": 58440,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "db26bb82ede1": {
+    "id": "db26bb82ede1",
+    "label": "18 AV DE PEZENAS, Castelnau-de-Guers",
+    "lat": 43.436941,
+    "lng": 3.438267,
+    "transactions": [
+      {
+        "date": "2025-04-14",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "8be09721b7ab": {
+    "id": "8be09721b7ab",
+    "label": "4 RUE DES OLIVIERS, Castelnau-de-Guers",
+    "lat": 43.433364,
+    "lng": 3.436217,
+    "transactions": [
+      {
+        "date": "2025-05-06",
+        "priceEur": 207500,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

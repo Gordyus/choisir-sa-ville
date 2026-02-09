@@ -1,0 +1,53 @@
+{
+  "93ced74c8ec1": {
+    "id": "93ced74c8ec1",
+    "label": "6484 MAS DE MAIGRET, Villeneuve-lès-Maguelone",
+    "lat": 43.536423,
+    "lng": 3.832358,
+    "transactions": [
+      {
+        "date": "2023-04-26",
+        "priceEur": 47000,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-26",
+        "priceEur": 47000,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "2887366e7bbc": {
+    "id": "2887366e7bbc",
+    "label": "5221 MAS DE MAIGRET, Villeneuve-lès-Maguelone",
+    "lat": 43.536046,
+    "lng": 3.830498,
+    "transactions": [
+      {
+        "date": "2023-04-26",
+        "priceEur": 488000,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-26",
+        "priceEur": 488000,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-26",
+        "priceEur": 488000,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  }
+}

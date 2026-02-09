@@ -1,0 +1,46 @@
+{
+  "f46fd6e5aaa5": {
+    "id": "f46fd6e5aaa5",
+    "label": "5118 MALBOSC, Le Soulié",
+    "lat": 43.538903,
+    "lng": 2.653843,
+    "transactions": [
+      {
+        "date": "2020-12-11",
+        "priceEur": 397000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-11",
+        "priceEur": 397000,
+        "typeLocal": "Maison",
+        "surfaceM2": 500,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-11",
+        "priceEur": 397000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "68960040bfbc": {
+    "id": "68960040bfbc",
+    "label": "5168 LES TAILLADES, Le Soulié",
+    "lat": 43.535312,
+    "lng": 2.650278,
+    "transactions": [
+      {
+        "date": "2021-06-24",
+        "priceEur": 27000,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  }
+}

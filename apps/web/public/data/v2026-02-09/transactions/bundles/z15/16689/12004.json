@@ -1,0 +1,54 @@
+{
+  "2552d6e46cb1": {
+    "id": "2552d6e46cb1",
+    "label": "6362F GAILLARDELS, Portiragnes",
+    "lat": 43.285548,
+    "lng": 3.357432,
+    "transactions": [
+      {
+        "date": "2021-06-21",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "1cd205d929a9": {
+    "id": "1cd205d929a9",
+    "label": "5457 DOM DE LA TOUR DE L ORB, Portiragnes",
+    "lat": 43.285957,
+    "lng": 3.359964,
+    "transactions": [
+      {
+        "date": "2024-05-06",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c5d44aa742a": {
+    "id": "0c5d44aa742a",
+    "label": "5183F GAILLARDELS, Portiragnes",
+    "lat": 43.286343,
+    "lng": 3.359811,
+    "transactions": [
+      {
+        "date": "2024-05-06",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-06",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  }
+}

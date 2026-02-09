@@ -1,0 +1,32 @@
+{
+  "6097235e4e98": {
+    "id": "6097235e4e98",
+    "label": "154 CHE DE PUECH MOUTARDE, Saint-Sériès",
+    "lat": 43.739276,
+    "lng": 4.094681,
+    "transactions": [
+      {
+        "date": "2021-07-21",
+        "priceEur": 780550,
+        "typeLocal": "Maison",
+        "surfaceM2": 184,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3314f1d874a": {
+    "id": "b3314f1d874a",
+    "label": "219 CHE DE PLOMBIERES, Entre-Vignes",
+    "lat": 43.736601,
+    "lng": 4.097592,
+    "transactions": [
+      {
+        "date": "2024-02-08",
+        "priceEur": 290800,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  }
+}

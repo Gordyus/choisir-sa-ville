@@ -1,0 +1,32 @@
+{
+  "f1b83ad6dd5f": {
+    "id": "f1b83ad6dd5f",
+    "label": "4 RUE DU PONTIL, Fozières",
+    "lat": 43.752139,
+    "lng": 3.357263,
+    "transactions": [
+      {
+        "date": "2022-04-29",
+        "priceEur": 10000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "757a68e5988f": {
+    "id": "757a68e5988f",
+    "label": "4 RUE DE LA CALADE, Fozières",
+    "lat": 43.751476,
+    "lng": 3.356222,
+    "transactions": [
+      {
+        "date": "2024-03-21",
+        "priceEur": 153000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

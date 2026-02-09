@@ -1,0 +1,104 @@
+{
+  "4295a94a74a7": {
+    "id": "4295a94a74a7",
+    "label": "5231 MAS DE CARBOU, Saint-Pons-de-Mauchiens",
+    "lat": 43.493165,
+    "lng": 3.536736,
+    "transactions": [
+      {
+        "date": "2021-10-01",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-01",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "900bb4331b99": {
+    "id": "900bb4331b99",
+    "label": "5231 SEPT FONTS, Saint-Pons-de-Mauchiens",
+    "lat": 43.493141,
+    "lng": 3.536245,
+    "transactions": [
+      {
+        "date": "2021-10-01",
+        "priceEur": 650000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-01",
+        "priceEur": 650000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 69,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-01",
+        "priceEur": 650000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-01",
+        "priceEur": 650000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-01",
+        "priceEur": 650000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "45a38978701e": {
+    "id": "45a38978701e",
+    "label": "5287F MAS DE LA VICTOIRE, Saint-Pons-de-Mauchiens",
+    "lat": 43.494064,
+    "lng": 3.53543,
+    "transactions": [
+      {
+        "date": "2022-12-21",
+        "priceEur": 650500,
+        "typeLocal": "Maison",
+        "surfaceM2": 192,
+        "isVefa": false
+      }
+    ]
+  },
+  "e34dc5880aed": {
+    "id": "e34dc5880aed",
+    "label": "5080 MAS DE CARBOU, Saint-Pons-de-Mauchiens",
+    "lat": 43.495122,
+    "lng": 3.537512,
+    "transactions": [
+      {
+        "date": "2024-07-10",
+        "priceEur": 609825,
+        "typeLocal": "Maison",
+        "surfaceM2": 173,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-10",
+        "priceEur": 609825,
+        "typeLocal": "Maison",
+        "surfaceM2": 173,
+        "isVefa": false
+      }
+    ]
+  }
+}

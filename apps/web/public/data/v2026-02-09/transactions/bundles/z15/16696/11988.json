@@ -1,0 +1,54 @@
+{
+  "38f478dd5ab3": {
+    "id": "38f478dd5ab3",
+    "label": "5677 DOM DE SAINT APOLIS, Florensac",
+    "lat": 43.414064,
+    "lng": 3.436586,
+    "transactions": [
+      {
+        "date": "2023-07-18",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-18",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ad57c9c9ced": {
+    "id": "3ad57c9c9ced",
+    "label": "5934 DOM DE SAINT APOLIS, Florensac",
+    "lat": 43.414241,
+    "lng": 3.436758,
+    "transactions": [
+      {
+        "date": "2023-07-18",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "d4a167ccbafb": {
+    "id": "d4a167ccbafb",
+    "label": "6449 DOM DE SAINT APOLIS, Florensac",
+    "lat": 43.413363,
+    "lng": 3.437527,
+    "transactions": [
+      {
+        "date": "2024-05-07",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

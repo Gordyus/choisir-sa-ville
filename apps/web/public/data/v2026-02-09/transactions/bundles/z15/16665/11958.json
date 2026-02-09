@@ -1,0 +1,204 @@
+{
+  "1f1858c3e2b8": {
+    "id": "1f1858c3e2b8",
+    "label": "4 RUE DES ECOLES, Saint-Étienne-Estréchoux",
+    "lat": 43.655322,
+    "lng": 3.089915,
+    "transactions": [
+      {
+        "date": "2021-02-26",
+        "priceEur": 23000,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b4e2213649a": {
+    "id": "7b4e2213649a",
+    "label": "7000F VERENOUX, Saint-Étienne-Estréchoux",
+    "lat": 43.656288,
+    "lng": 3.090366,
+    "transactions": [
+      {
+        "date": "2022-02-14",
+        "priceEur": 111000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-14",
+        "priceEur": 111000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee47444e2f68": {
+    "id": "ee47444e2f68",
+    "label": "9 PL DE LA CHAPELLE, Saint-Étienne-Estréchoux",
+    "lat": 43.65537,
+    "lng": 3.089581,
+    "transactions": [
+      {
+        "date": "2022-06-02",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e0afeb19bec": {
+    "id": "8e0afeb19bec",
+    "label": "5330 VERENOUX, Saint-Étienne-Estréchoux",
+    "lat": 43.655008,
+    "lng": 3.089633,
+    "transactions": [
+      {
+        "date": "2023-04-26",
+        "priceEur": 15000,
+        "typeLocal": "Maison",
+        "surfaceM2": 18,
+        "isVefa": false
+      }
+    ]
+  },
+  "71b84aced16f": {
+    "id": "71b84aced16f",
+    "label": "4 CHE DU MAYOL, Saint-Étienne-Estréchoux",
+    "lat": 43.655602,
+    "lng": 3.090142,
+    "transactions": [
+      {
+        "date": "2024-04-09",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "019e9ce56325": {
+    "id": "019e9ce56325",
+    "label": "5116F PL DE LA CHAPELLE, Saint-Étienne-Estréchoux",
+    "lat": 43.65545,
+    "lng": 3.089987,
+    "transactions": [
+      {
+        "date": "2024-05-16",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 29,
+        "isVefa": false
+      }
+    ]
+  },
+  "280850d46e38": {
+    "id": "280850d46e38",
+    "label": "3 PL DE LA CHAPELLE, Saint-Étienne-Estréchoux",
+    "lat": 43.655434,
+    "lng": 3.089922,
+    "transactions": [
+      {
+        "date": "2024-05-16",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "80c7682c4389": {
+    "id": "80c7682c4389",
+    "label": "5551F RUE DES ECOLES, Saint-Étienne-Estréchoux",
+    "lat": 43.6554,
+    "lng": 3.089907,
+    "transactions": [
+      {
+        "date": "2024-05-16",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 18,
+        "isVefa": false
+      }
+    ]
+  },
+  "daf60d4feb4e": {
+    "id": "daf60d4feb4e",
+    "label": "6 RUE DU FOUR A CHAUX, Saint-Étienne-Estréchoux",
+    "lat": 43.655843,
+    "lng": 3.08964,
+    "transactions": [
+      {
+        "date": "2024-06-14",
+        "priceEur": 55000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f3f3d6489d1": {
+    "id": "8f3f3d6489d1",
+    "label": "2 CHE DU MAYOL, Saint-Étienne-Estréchoux",
+    "lat": 43.65552,
+    "lng": 3.09006,
+    "transactions": [
+      {
+        "date": "2024-08-09",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "eb148f68b430": {
+    "id": "eb148f68b430",
+    "label": "3 RTE DU FOUR A CHAUX, Saint-Étienne-Estréchoux",
+    "lat": 43.6561,
+    "lng": 3.090131,
+    "transactions": [
+      {
+        "date": "2024-09-27",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6f4a83c2214": {
+    "id": "b6f4a83c2214",
+    "label": "3 RUE DU FOUR A PAIN, Saint-Étienne-Estréchoux",
+    "lat": 43.655175,
+    "lng": 3.089886,
+    "transactions": [
+      {
+        "date": "2024-10-03",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "63453d82e4ab": {
+    "id": "63453d82e4ab",
+    "label": "15 PL DE LA CHAPELLE, Saint-Étienne-Estréchoux",
+    "lat": 43.655378,
+    "lng": 3.089351,
+    "transactions": [
+      {
+        "date": "2024-12-19",
+        "priceEur": 28000,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  }
+}

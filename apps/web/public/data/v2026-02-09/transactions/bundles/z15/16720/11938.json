@@ -1,0 +1,76 @@
+{
+  "9de51326faf1": {
+    "id": "9de51326faf1",
+    "label": "5027F FROUZET, Saint-Martin-de-Londres",
+    "lat": 43.815309,
+    "lng": 3.694992,
+    "transactions": [
+      {
+        "date": "2020-10-09",
+        "priceEur": 437040,
+        "typeLocal": "Maison",
+        "surfaceM2": 185,
+        "isVefa": false
+      }
+    ]
+  },
+  "49b0baeeb1f1": {
+    "id": "49b0baeeb1f1",
+    "label": "5698 FROUZET, Saint-Martin-de-Londres",
+    "lat": 43.815719,
+    "lng": 3.692878,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 420750,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-28",
+        "priceEur": 420750,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "0a45ba505cd0": {
+    "id": "0a45ba505cd0",
+    "label": "214 CHE CHEMIN DE MONTLOUS, Saint-Martin-de-Londres",
+    "lat": 43.814716,
+    "lng": 3.693493,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 243300,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "4066ee118464": {
+    "id": "4066ee118464",
+    "label": "5301 RTE DU FROUZET, Saint-Martin-de-Londres",
+    "lat": 43.815715,
+    "lng": 3.694208,
+    "transactions": [
+      {
+        "date": "2023-08-04",
+        "priceEur": 562745,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-04",
+        "priceEur": 562745,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      }
+    ]
+  }
+}

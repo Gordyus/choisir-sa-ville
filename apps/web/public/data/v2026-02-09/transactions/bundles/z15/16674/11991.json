@@ -1,0 +1,69 @@
+{
+  "dd3bc6465096": {
+    "id": "dd3bc6465096",
+    "label": "12 RUE LOT LES CERISIERS, Corneilhan",
+    "lat": 43.39696,
+    "lng": 3.191249,
+    "transactions": [
+      {
+        "date": "2020-09-11",
+        "priceEur": 187910,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "17089de91ae8": {
+    "id": "17089de91ae8",
+    "label": "21B AV DE BEZIERS, Corneilhan",
+    "lat": 43.396419,
+    "lng": 3.194482,
+    "transactions": [
+      {
+        "date": "2021-11-12",
+        "priceEur": 272000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ec0a3c1cc63": {
+    "id": "9ec0a3c1cc63",
+    "label": "8 RUE LOT LES CERISIERS, Corneilhan",
+    "lat": 43.396914,
+    "lng": 3.190754,
+    "transactions": [
+      {
+        "date": "2022-02-04",
+        "priceEur": 220200,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "e4c60f33d89a": {
+    "id": "e4c60f33d89a",
+    "label": "3 RUE DE MAZASSY, Corneilhan",
+    "lat": 43.396118,
+    "lng": 3.191616,
+    "transactions": [
+      {
+        "date": "2025-02-24",
+        "priceEur": 425000,
+        "typeLocal": "Maison",
+        "surfaceM2": 157,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-24",
+        "priceEur": 425000,
+        "typeLocal": "Maison",
+        "surfaceM2": 157,
+        "isVefa": false
+      }
+    ]
+  }
+}

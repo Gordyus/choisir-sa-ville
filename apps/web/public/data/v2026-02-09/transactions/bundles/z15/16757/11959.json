@@ -1,0 +1,90 @@
+{
+  "3887416a07a0": {
+    "id": "3887416a07a0",
+    "label": "261 RUE DES CAMARGUES, Saint-Just",
+    "lat": 43.651541,
+    "lng": 4.108172,
+    "transactions": [
+      {
+        "date": "2020-10-29",
+        "priceEur": 311000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "c63024b0f931": {
+    "id": "c63024b0f931",
+    "label": "1125 RTE DE LANSARGUES, Saint-Just",
+    "lat": 43.650357,
+    "lng": 4.100984,
+    "transactions": [
+      {
+        "date": "2021-05-21",
+        "priceEur": 4692,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-21",
+        "priceEur": 4692,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4f7d5c38de7": {
+    "id": "c4f7d5c38de7",
+    "label": "159 RUE DES CAMARGUES, Saint-Just",
+    "lat": 43.651799,
+    "lng": 4.10874,
+    "transactions": [
+      {
+        "date": "2023-10-12",
+        "priceEur": 371410,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "fbb9483bfbea": {
+    "id": "fbb9483bfbea",
+    "label": "830 RTE DE LANSARGUES, Saint-Just",
+    "lat": 43.65027,
+    "lng": 4.103723,
+    "transactions": [
+      {
+        "date": "2025-05-12",
+        "priceEur": 642150,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      },
+      {
+        "date": "2025-05-12",
+        "priceEur": 642150,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2025-05-12",
+        "priceEur": 642150,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2025-05-12",
+        "priceEur": 642150,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  }
+}

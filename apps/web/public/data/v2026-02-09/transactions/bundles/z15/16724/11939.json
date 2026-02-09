@@ -1,0 +1,31 @@
+{
+  "dd3b03d2c86d": {
+    "id": "dd3b03d2c86d",
+    "label": "5070D HAM DE MASCLAC ET DE LA GA, Notre-Dame-de-Londres",
+    "lat": 43.808496,
+    "lng": 3.741035,
+    "transactions": [
+      {
+        "date": "2021-10-11",
+        "priceEur": 470000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-11",
+        "priceEur": 470000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-11",
+        "priceEur": 470000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

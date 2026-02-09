@@ -1,0 +1,61 @@
+{
+  "4ea87bdd3b03": {
+    "id": "4ea87bdd3b03",
+    "label": "9135 RAFFEGAN, Lattes",
+    "lat": 43.577631,
+    "lng": 3.886717,
+    "transactions": [
+      {
+        "date": "2022-03-28",
+        "priceEur": 486024,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "28a9ce840047": {
+    "id": "28a9ce840047",
+    "label": "779 RUE MONTELS EGLISE, Lattes",
+    "lat": 43.579522,
+    "lng": 3.879535,
+    "transactions": [
+      {
+        "date": "2023-07-07",
+        "priceEur": 640000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-07",
+        "priceEur": 4044000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": true
+      }
+    ]
+  },
+  "3134bf72eeac": {
+    "id": "3134bf72eeac",
+    "label": "260 ZA DU PUECH RADIER, Lattes",
+    "lat": 43.578018,
+    "lng": 3.87934,
+    "transactions": [
+      {
+        "date": "2024-06-05",
+        "priceEur": 220640,
+        "typeLocal": "Appartement",
+        "surfaceM2": 112,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-05",
+        "priceEur": 220640,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  }
+}

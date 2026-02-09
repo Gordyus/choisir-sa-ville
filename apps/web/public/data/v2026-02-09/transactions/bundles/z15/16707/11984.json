@@ -1,0 +1,39 @@
+{
+  "7c77ab78365a": {
+    "id": "7c77ab78365a",
+    "label": "26 CHE DE MONTMEZE LE HAUT, Mèze",
+    "lat": 43.4527,
+    "lng": 3.551072,
+    "transactions": [
+      {
+        "date": "2022-10-10",
+        "priceEur": 259100,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1b9785aaac3": {
+    "id": "f1b9785aaac3",
+    "label": "4421 RTE DE PEZENAS, Mèze",
+    "lat": 43.452632,
+    "lng": 3.550983,
+    "transactions": [
+      {
+        "date": "2023-12-01",
+        "priceEur": 185000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-01",
+        "priceEur": 185000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

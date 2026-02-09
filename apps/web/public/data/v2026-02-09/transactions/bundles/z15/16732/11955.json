@@ -1,0 +1,75 @@
+{
+  "c8e446ae947d": {
+    "id": "c8e446ae947d",
+    "label": "161 RUE FREDERIC MISTRAL, Saint-Gély-du-Fesc",
+    "lat": 43.676476,
+    "lng": 3.827432,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 1000000,
+        "typeLocal": "Maison",
+        "surfaceM2": 196,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-30",
+        "priceEur": 1000000,
+        "typeLocal": "Maison",
+        "surfaceM2": 196,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-30",
+        "priceEur": 1000000,
+        "typeLocal": "Maison",
+        "surfaceM2": 196,
+        "isVefa": false
+      }
+    ]
+  },
+  "db1c5a5e024f": {
+    "id": "db1c5a5e024f",
+    "label": "357 RUE PAUL VALERY, Saint-Gély-du-Fesc",
+    "lat": 43.676951,
+    "lng": 3.834114,
+    "transactions": [
+      {
+        "date": "2022-05-31",
+        "priceEur": 1302500,
+        "typeLocal": "Maison",
+        "surfaceM2": 262,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-31",
+        "priceEur": 1302500,
+        "typeLocal": "Maison",
+        "surfaceM2": 262,
+        "isVefa": false
+      }
+    ]
+  },
+  "122afcc9dc8c": {
+    "id": "122afcc9dc8c",
+    "label": "310 RUE PAUL VALERY, Saint-Gély-du-Fesc",
+    "lat": 43.676637,
+    "lng": 3.832718,
+    "transactions": [
+      {
+        "date": "2023-11-07",
+        "priceEur": 1386050,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-07",
+        "priceEur": 1386050,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  }
+}

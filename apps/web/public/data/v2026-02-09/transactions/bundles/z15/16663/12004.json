@@ -1,0 +1,32 @@
+{
+  "6e6283fc7f04": {
+    "id": "6e6283fc7f04",
+    "label": "1296F HAMEAU DU VIALA, Capestang",
+    "lat": 43.291472,
+    "lng": 3.070672,
+    "transactions": [
+      {
+        "date": "2021-09-09",
+        "priceEur": 89000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ea7dd515d62": {
+    "id": "0ea7dd515d62",
+    "label": "5201 LE VIALA, Capestang",
+    "lat": 43.291585,
+    "lng": 3.070829,
+    "transactions": [
+      {
+        "date": "2021-10-14",
+        "priceEur": 170950,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  }
+}

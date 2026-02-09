@@ -1,0 +1,90 @@
+{
+  "0901c800c99e": {
+    "id": "0901c800c99e",
+    "label": "5041F LES PRADASSES, Liausson",
+    "lat": 43.639377,
+    "lng": 3.364728,
+    "transactions": [
+      {
+        "date": "2020-09-21",
+        "priceEur": 533000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-21",
+        "priceEur": 533000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-21",
+        "priceEur": 533000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-21",
+        "priceEur": 533000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb1fa8ae688d": {
+    "id": "cb1fa8ae688d",
+    "label": "1A CHE DE VIGNE REDONDE, Liausson",
+    "lat": 43.63657,
+    "lng": 3.372674,
+    "transactions": [
+      {
+        "date": "2022-11-15",
+        "priceEur": 620000,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "dbbd3a9ac49c": {
+    "id": "dbbd3a9ac49c",
+    "label": "1 CHE DE VIGNE REDONDE, Liausson",
+    "lat": 43.63643,
+    "lng": 3.371832,
+    "transactions": [
+      {
+        "date": "2022-12-02",
+        "priceEur": 595000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-02",
+        "priceEur": 595000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9bb12d1f5f8": {
+    "id": "f9bb12d1f5f8",
+    "label": "136 CHE DE GALANT, Liausson",
+    "lat": 43.63706,
+    "lng": 3.36875,
+    "transactions": [
+      {
+        "date": "2025-03-24",
+        "priceEur": 72000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  }
+}

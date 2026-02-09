@@ -1,0 +1,75 @@
+{
+  "bbb6a632ead3": {
+    "id": "bbb6a632ead3",
+    "label": "465 HAMEAU DE CONDAX, La Salvetat-sur-Agout",
+    "lat": 43.615666,
+    "lng": 2.669794,
+    "transactions": [
+      {
+        "date": "2021-07-24",
+        "priceEur": 85650,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "b375ebec8241": {
+    "id": "b375ebec8241",
+    "label": "6205 LAS COUTELIERES, La Salvetat-sur-Agout",
+    "lat": 43.614338,
+    "lng": 2.672395,
+    "transactions": [
+      {
+        "date": "2022-04-06",
+        "priceEur": 157300,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-06",
+        "priceEur": 157300,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "6297f7ab24ed": {
+    "id": "6297f7ab24ed",
+    "label": "6578F HAMEAU DE CONDAX, La Salvetat-sur-Agout",
+    "lat": 43.616857,
+    "lng": 2.670697,
+    "transactions": [
+      {
+        "date": "2023-10-24",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-24",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-24",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-24",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  }
+}

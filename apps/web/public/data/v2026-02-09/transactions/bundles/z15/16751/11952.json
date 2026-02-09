@@ -1,0 +1,106 @@
+{
+  "cd8f950cbb46": {
+    "id": "cd8f950cbb46",
+    "label": "4 PLAN DE LA SERPETTE, Saint-Geniès-des-Mourgues",
+    "lat": 43.700899,
+    "lng": 4.03362,
+    "transactions": [
+      {
+        "date": "2021-05-05",
+        "priceEur": 239600,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "62a0f93532ce": {
+    "id": "62a0f93532ce",
+    "label": "44 PLAN DES VENDANGES, Saint-Geniès-des-Mourgues",
+    "lat": 43.700055,
+    "lng": 4.034097,
+    "transactions": [
+      {
+        "date": "2021-11-24",
+        "priceEur": 430700,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "033bc3f1d54d": {
+    "id": "033bc3f1d54d",
+    "label": "5773F AV ST CHRISTOL, Saint-Geniès-des-Mourgues",
+    "lat": 43.701484,
+    "lng": 4.041744,
+    "transactions": [
+      {
+        "date": "2022-03-31",
+        "priceEur": 51300,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-31",
+        "priceEur": 51300,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "3995be7892f1": {
+    "id": "3995be7892f1",
+    "label": "12 PLAN DES VENDANGES, Saint-Geniès-des-Mourgues",
+    "lat": 43.700444,
+    "lng": 4.034218,
+    "transactions": [
+      {
+        "date": "2023-07-03",
+        "priceEur": 349500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "eaff178166fa": {
+    "id": "eaff178166fa",
+    "label": "74 PLAN DE LA SERPETTE, Saint-Geniès-des-Mourgues",
+    "lat": 43.700399,
+    "lng": 4.032991,
+    "transactions": [
+      {
+        "date": "2023-08-01",
+        "priceEur": 552200,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b0aac5428a6": {
+    "id": "4b0aac5428a6",
+    "label": "60 RUE DU VENTOUX, Saint-Geniès-des-Mourgues",
+    "lat": 43.701622,
+    "lng": 4.034831,
+    "transactions": [
+      {
+        "date": "2024-10-14",
+        "priceEur": 803450,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-14",
+        "priceEur": 803450,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  }
+}

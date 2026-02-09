@@ -1,0 +1,39 @@
+{
+  "98349cd0c01b": {
+    "id": "98349cd0c01b",
+    "label": "171 CHE DES AIRES, Usclas-d'Hérault",
+    "lat": 43.518151,
+    "lng": 3.460676,
+    "transactions": [
+      {
+        "date": "2024-07-16",
+        "priceEur": 335400,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-16",
+        "priceEur": 335400,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "382c3c39d161": {
+    "id": "382c3c39d161",
+    "label": "18 RUE DES AIRES, Usclas-d'Hérault",
+    "lat": 43.518743,
+    "lng": 3.459346,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 213450,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  }
+}

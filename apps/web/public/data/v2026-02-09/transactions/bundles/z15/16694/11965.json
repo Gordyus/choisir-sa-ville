@@ -1,0 +1,32 @@
+{
+  "4aec1c82a9ab": {
+    "id": "4aec1c82a9ab",
+    "label": "9 CHE ST MARTIN MAS ROUJOU, Lieuran-Cabrières",
+    "lat": 43.603627,
+    "lng": 3.406289,
+    "transactions": [
+      {
+        "date": "2020-09-28",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "35e9fe01f7fd": {
+    "id": "35e9fe01f7fd",
+    "label": "11 PL LA FONTAINE MAS ROUJOU, Lieuran-Cabrières",
+    "lat": 43.604185,
+    "lng": 3.407149,
+    "transactions": [
+      {
+        "date": "2021-07-19",
+        "priceEur": 116000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

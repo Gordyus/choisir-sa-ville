@@ -1,0 +1,68 @@
+{
+  "128fc641fa6b": {
+    "id": "128fc641fa6b",
+    "label": "5464 LAGALOS, Olargues",
+    "lat": 43.560463,
+    "lng": 2.90927,
+    "transactions": [
+      {
+        "date": "2020-09-03",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-03",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac01ec21aa28": {
+    "id": "ac01ec21aa28",
+    "label": "5599 TOUR DES PONTS, Olargues",
+    "lat": 43.557551,
+    "lng": 2.910605,
+    "transactions": [
+      {
+        "date": "2022-10-28",
+        "priceEur": 420000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-28",
+        "priceEur": 420000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-28",
+        "priceEur": 420000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "161f405a3b40": {
+    "id": "161f405a3b40",
+    "label": "5613 SALAN DE SAINT MARTIN, Olargues",
+    "lat": 43.559047,
+    "lng": 2.903683,
+    "transactions": [
+      {
+        "date": "2024-10-03",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  }
+}

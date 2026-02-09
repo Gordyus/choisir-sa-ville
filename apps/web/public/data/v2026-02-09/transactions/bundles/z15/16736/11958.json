@@ -1,0 +1,158 @@
+{
+  "9fc3507e180d": {
+    "id": "9fc3507e180d",
+    "label": "23B RUE DU MILLEPERTUIS, Clapiers",
+    "lat": 43.655356,
+    "lng": 3.878119,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "aea87b1150de": {
+    "id": "aea87b1150de",
+    "label": "5 RUE DU COMPAGNON BLANC, Clapiers",
+    "lat": 43.65602,
+    "lng": 3.877717,
+    "transactions": [
+      {
+        "date": "2020-10-08",
+        "priceEur": 310000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "251574f47b57": {
+    "id": "251574f47b57",
+    "label": "355 CHE DES TEREBINTHES, Clapiers",
+    "lat": 43.656415,
+    "lng": 3.876997,
+    "transactions": [
+      {
+        "date": "2021-06-25",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "52913d1bc412": {
+    "id": "52913d1bc412",
+    "label": "28 RUE DE LA SOURCE, Clapiers",
+    "lat": 43.652822,
+    "lng": 3.875329,
+    "transactions": [
+      {
+        "date": "2022-01-24",
+        "priceEur": 817100,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-24",
+        "priceEur": 817100,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "a81f4fbd5ab3": {
+    "id": "a81f4fbd5ab3",
+    "label": "1 RUE DU COMPAGNON BLANC, Clapiers",
+    "lat": 43.656131,
+    "lng": 3.878122,
+    "transactions": [
+      {
+        "date": "2022-06-08",
+        "priceEur": 511242,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e7d39ab615e": {
+    "id": "9e7d39ab615e",
+    "label": "8 RUE DE L AMANDIER, Clapiers",
+    "lat": 43.655172,
+    "lng": 3.877188,
+    "transactions": [
+      {
+        "date": "2022-08-23",
+        "priceEur": 600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 230,
+        "isVefa": false
+      }
+    ]
+  },
+  "b8552e8d9453": {
+    "id": "b8552e8d9453",
+    "label": "8 RUE DU MILLEPERTUIS, Clapiers",
+    "lat": 43.657012,
+    "lng": 3.87789,
+    "transactions": [
+      {
+        "date": "2023-06-12",
+        "priceEur": 475000,
+        "typeLocal": "Maison",
+        "surfaceM2": 172,
+        "isVefa": false
+      }
+    ]
+  },
+  "6cc05486aa2f": {
+    "id": "6cc05486aa2f",
+    "label": "12T RUE DE LA SOURCE, Clapiers",
+    "lat": 43.653018,
+    "lng": 3.876953,
+    "transactions": [
+      {
+        "date": "2024-05-28",
+        "priceEur": 357463,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-28",
+        "priceEur": 357463,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "537a28334da3": {
+    "id": "537a28334da3",
+    "label": "34 RUE DE LA SOURCE, Clapiers",
+    "lat": 43.652398,
+    "lng": 3.874109,
+    "transactions": [
+      {
+        "date": "2024-12-17",
+        "priceEur": 547050,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      },
+      {
+        "date": "2024-12-17",
+        "priceEur": 547050,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  }
+}

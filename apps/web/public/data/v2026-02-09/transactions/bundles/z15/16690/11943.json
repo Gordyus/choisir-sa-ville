@@ -1,0 +1,60 @@
+{
+  "e0a7c2eee5bf": {
+    "id": "e0a7c2eee5bf",
+    "label": "643 CHE DE MOLENTY, Saint-Étienne-de-Gourgas",
+    "lat": 43.771782,
+    "lng": 3.372446,
+    "transactions": [
+      {
+        "date": "2021-09-17",
+        "priceEur": 173805,
+        "typeLocal": "Maison",
+        "surfaceM2": 10,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-17",
+        "priceEur": 173805,
+        "typeLocal": "Maison",
+        "surfaceM2": 10,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-17",
+        "priceEur": 173805,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-17",
+        "priceEur": 173805,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "910c1271714e": {
+    "id": "910c1271714e",
+    "label": "587 CHE DE MOLENTY, Saint-Étienne-de-Gourgas",
+    "lat": 43.772351,
+    "lng": 3.372269,
+    "transactions": [
+      {
+        "date": "2024-07-08",
+        "priceEur": 174000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-08",
+        "priceEur": 174000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

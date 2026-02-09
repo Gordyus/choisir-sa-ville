@@ -1,0 +1,69 @@
+{
+  "c2be6a99b1e1": {
+    "id": "c2be6a99b1e1",
+    "label": "8 IMP DU FRAGON, Beaulieu",
+    "lat": 43.731978,
+    "lng": 4.03019,
+    "transactions": [
+      {
+        "date": "2020-09-16",
+        "priceEur": 456025,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "2193341e9daf": {
+    "id": "2193341e9daf",
+    "label": "7 RUE DES FAUTERNES, Beaulieu",
+    "lat": 43.731567,
+    "lng": 4.027654,
+    "transactions": [
+      {
+        "date": "2024-12-13",
+        "priceEur": 394350,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "b490dbd5914b": {
+    "id": "b490dbd5914b",
+    "label": "17 IMP DU FRAGON, Beaulieu",
+    "lat": 43.731703,
+    "lng": 4.030737,
+    "transactions": [
+      {
+        "date": "2025-01-31",
+        "priceEur": 372308,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-31",
+        "priceEur": 372308,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "7552b5266269": {
+    "id": "7552b5266269",
+    "label": "11 RUE DES FAUTERNES, Beaulieu",
+    "lat": 43.731698,
+    "lng": 4.02732,
+    "transactions": [
+      {
+        "date": "2025-03-31",
+        "priceEur": 437550,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

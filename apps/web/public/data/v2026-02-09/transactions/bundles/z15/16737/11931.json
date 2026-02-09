@@ -1,0 +1,105 @@
+{
+  "5eaaae2e4943": {
+    "id": "5eaaae2e4943",
+    "label": "5181 LES EMBRUSCALLES, Claret",
+    "lat": 43.869641,
+    "lng": 3.885089,
+    "transactions": [
+      {
+        "date": "2020-11-17",
+        "priceEur": 279000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b971efb2b3c": {
+    "id": "4b971efb2b3c",
+    "label": "5308F LES EMBRUSCALLES, Claret",
+    "lat": 43.870906,
+    "lng": 3.883476,
+    "transactions": [
+      {
+        "date": "2021-02-02",
+        "priceEur": 539000,
+        "typeLocal": "Maison",
+        "surfaceM2": 208,
+        "isVefa": false
+      }
+    ]
+  },
+  "40c3467ad4a0": {
+    "id": "40c3467ad4a0",
+    "label": "5316F RTE DES EMBRUSCALLES, Claret",
+    "lat": 43.870305,
+    "lng": 3.88206,
+    "transactions": [
+      {
+        "date": "2021-05-27",
+        "priceEur": 485840,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-27",
+        "priceEur": 485840,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-27",
+        "priceEur": 485840,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d71c3c2d2e0": {
+    "id": "2d71c3c2d2e0",
+    "label": "5091F LES EMBRUSCALLES, Claret",
+    "lat": 43.868461,
+    "lng": 3.887518,
+    "transactions": [
+      {
+        "date": "2022-09-08",
+        "priceEur": 427650,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-08",
+        "priceEur": 427650,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "d4ce8b50872b": {
+    "id": "d4ce8b50872b",
+    "label": "269 AV DE ROMANISSIERE, Claret",
+    "lat": 43.868585,
+    "lng": 3.88503,
+    "transactions": [
+      {
+        "date": "2023-09-05",
+        "priceEur": 438265,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-05",
+        "priceEur": 438265,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  }
+}

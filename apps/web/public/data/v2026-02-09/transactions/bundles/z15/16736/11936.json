@@ -1,0 +1,53 @@
+{
+  "72d03889158a": {
+    "id": "72d03889158a",
+    "label": "5 RUE LA NOUVELLE, Lauret",
+    "lat": 43.833071,
+    "lng": 3.877634,
+    "transactions": [
+      {
+        "date": "2022-07-13",
+        "priceEur": 529700,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-13",
+        "priceEur": 529700,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-13",
+        "priceEur": 529700,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "cad3c551937f": {
+    "id": "cad3c551937f",
+    "label": "3 RUE LA NOUVELLE, Lauret",
+    "lat": 43.833587,
+    "lng": 3.878143,
+    "transactions": [
+      {
+        "date": "2023-06-05",
+        "priceEur": 546650,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-05",
+        "priceEur": 546650,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  }
+}

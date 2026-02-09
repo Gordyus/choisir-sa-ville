@@ -1,0 +1,38 @@
+{
+  "f3b02b47cf98": {
+    "id": "f3b02b47cf98",
+    "label": "5521 MAS D HONDRAT, Villeveyrac",
+    "lat": 43.468214,
+    "lng": 3.581112,
+    "transactions": [
+      {
+        "date": "2022-06-07",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-07",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-07",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-07",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

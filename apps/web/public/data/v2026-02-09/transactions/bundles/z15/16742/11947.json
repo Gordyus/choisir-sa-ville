@@ -1,0 +1,24 @@
+{
+  "f0807115349c": {
+    "id": "f0807115349c",
+    "label": "1180 CHE DE MONTAUD, Guzargues",
+    "lat": 43.740273,
+    "lng": 3.93386,
+    "transactions": [
+      {
+        "date": "2025-05-20",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2025-05-20",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

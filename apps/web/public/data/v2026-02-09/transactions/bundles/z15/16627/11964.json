@@ -1,0 +1,47 @@
+{
+  "3d71d86180ca": {
+    "id": "3d71d86180ca",
+    "label": "432 LES ESPINASSES NORD, La Salvetat-sur-Agout",
+    "lat": 43.606457,
+    "lng": 2.675148,
+    "transactions": [
+      {
+        "date": "2021-09-27",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "96abf70e1258": {
+    "id": "96abf70e1258",
+    "label": "428 LOUS CLOUTALS, La Salvetat-sur-Agout",
+    "lat": 43.609856,
+    "lng": 2.670776,
+    "transactions": [
+      {
+        "date": "2022-07-25",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 330,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b2087f4e285": {
+    "id": "0b2087f4e285",
+    "label": "431 LES ESPINASSES NORD, La Salvetat-sur-Agout",
+    "lat": 43.607247,
+    "lng": 2.675312,
+    "transactions": [
+      {
+        "date": "2023-09-15",
+        "priceEur": 206800,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "4bea45accd76": {
+    "id": "4bea45accd76",
+    "label": "5272 LE COTEAU, Montaud",
+    "lat": 43.742315,
+    "lng": 3.971039,
+    "transactions": [
+      {
+        "date": "2023-11-09",
+        "priceEur": 150,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "a467044a0739": {
+    "id": "a467044a0739",
+    "label": "5269 LE COTEAU, Montaud",
+    "lat": 43.743282,
+    "lng": 3.970445,
+    "transactions": [
+      {
+        "date": "2024-04-29",
+        "priceEur": 550000,
+        "typeLocal": "Maison",
+        "surfaceM2": 193,
+        "isVefa": false
+      }
+    ]
+  }
+}

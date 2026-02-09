@@ -1,0 +1,39 @@
+{
+  "6bf6cc94c3dc": {
+    "id": "6bf6cc94c3dc",
+    "label": "19 RUE DU LAUZAS, Mas-de-Londres",
+    "lat": 43.788401,
+    "lng": 3.760368,
+    "transactions": [
+      {
+        "date": "2024-10-21",
+        "priceEur": 378570,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-21",
+        "priceEur": 378570,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "c444af2feb28": {
+    "id": "c444af2feb28",
+    "label": "37 RUE DU VAL DE L'HORTUS, Mas-de-Londres",
+    "lat": 43.787074,
+    "lng": 3.76158,
+    "transactions": [
+      {
+        "date": "2024-12-13",
+        "priceEur": 460000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  }
+}

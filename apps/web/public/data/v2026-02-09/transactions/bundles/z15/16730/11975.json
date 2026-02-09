@@ -1,0 +1,54 @@
+{
+  "193a923aa812": {
+    "id": "193a923aa812",
+    "label": "16 RUE DE LA BAUSSAS, Mireval",
+    "lat": 43.519416,
+    "lng": 3.809814,
+    "transactions": [
+      {
+        "date": "2022-12-06",
+        "priceEur": 218000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 81,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-12",
+        "priceEur": 90000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd2db5d87520": {
+    "id": "dd2db5d87520",
+    "label": "18 LOT LA BAUSSAS, Mireval",
+    "lat": 43.518793,
+    "lng": 3.809454,
+    "transactions": [
+      {
+        "date": "2022-06-10",
+        "priceEur": 323500,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6a4a1f3e5dd": {
+    "id": "d6a4a1f3e5dd",
+    "label": "5 RUE DES BLANQUETTES, Mireval",
+    "lat": 43.517705,
+    "lng": 3.809048,
+    "transactions": [
+      {
+        "date": "2023-12-11",
+        "priceEur": 384770,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

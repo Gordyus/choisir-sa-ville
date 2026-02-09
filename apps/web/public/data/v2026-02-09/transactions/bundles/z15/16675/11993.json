@@ -1,0 +1,95 @@
+{
+  "6c1a77f46fbe": {
+    "id": "6c1a77f46fbe",
+    "label": "1898 RTE DE CORNEILHAN, Béziers",
+    "lat": 43.376347,
+    "lng": 3.20704,
+    "transactions": [
+      {
+        "date": "2022-07-07",
+        "priceEur": 700000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 26,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-07",
+        "priceEur": 700000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 133,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-07",
+        "priceEur": 700000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 133,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-07",
+        "priceEur": 700000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-07",
+        "priceEur": 700000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-07",
+        "priceEur": 700000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 26,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-07",
+        "priceEur": 700000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-07",
+        "priceEur": 700000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 26,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-07",
+        "priceEur": 700000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "401619aed66b": {
+    "id": "401619aed66b",
+    "label": "1975 RTE DE CORNEILHAN, Béziers",
+    "lat": 43.375533,
+    "lng": 3.204581,
+    "transactions": [
+      {
+        "date": "2023-10-06",
+        "priceEur": 22000,
+        "typeLocal": "Maison",
+        "surfaceM2": 24,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-06",
+        "priceEur": 22000,
+        "typeLocal": "Maison",
+        "surfaceM2": 24,
+        "isVefa": false
+      }
+    ]
+  }
+}

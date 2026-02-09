@@ -1,0 +1,121 @@
+{
+  "f44d7600d725": {
+    "id": "f44d7600d725",
+    "label": "12 CHE DU GRAND MAYOL, Pinet",
+    "lat": 43.405099,
+    "lng": 3.500375,
+    "transactions": [
+      {
+        "date": "2020-07-24",
+        "priceEur": 276100,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-24",
+        "priceEur": 276100,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "45a33f3f0fba": {
+    "id": "45a33f3f0fba",
+    "label": "5A IMP DES JARDINS DE THOMAS, Pinet",
+    "lat": 43.406227,
+    "lng": 3.501167,
+    "transactions": [
+      {
+        "date": "2023-06-27",
+        "priceEur": 313513,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-23",
+        "priceEur": 200700,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "12b54c91fa80": {
+    "id": "12b54c91fa80",
+    "label": "1B IMP DES JARDINS DE THOMAS, Pinet",
+    "lat": 43.406388,
+    "lng": 3.501698,
+    "transactions": [
+      {
+        "date": "2020-08-07",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c8999dcf0bd": {
+    "id": "0c8999dcf0bd",
+    "label": "12 CHE DES ROMIEUX, Pinet",
+    "lat": 43.406742,
+    "lng": 3.504516,
+    "transactions": [
+      {
+        "date": "2021-02-18",
+        "priceEur": 217500,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "45374e0bae98": {
+    "id": "45374e0bae98",
+    "label": "5B IMP DES JARDINS DE THOMAS, Pinet",
+    "lat": 43.406263,
+    "lng": 3.500988,
+    "transactions": [
+      {
+        "date": "2021-11-30",
+        "priceEur": 256500,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "37d80816080e": {
+    "id": "37d80816080e",
+    "label": "3B IMP DES JARDINS DE THOMAS, Pinet",
+    "lat": 43.406627,
+    "lng": 3.500918,
+    "transactions": [
+      {
+        "date": "2024-02-23",
+        "priceEur": 285500,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "0183b19fcd94": {
+    "id": "0183b19fcd94",
+    "label": "2 RUE LOU AGRAN, Pinet",
+    "lat": 43.40528,
+    "lng": 3.498776,
+    "transactions": [
+      {
+        "date": "2025-03-07",
+        "priceEur": 255500,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  }
+}

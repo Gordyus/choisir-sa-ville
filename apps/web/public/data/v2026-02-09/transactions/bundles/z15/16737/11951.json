@@ -1,0 +1,98 @@
+{
+  "8174a4b4900a": {
+    "id": "8174a4b4900a",
+    "label": "290 CHE DU POULAILLOU, Saint-Vincent-de-Barbeyrargues",
+    "lat": 43.708296,
+    "lng": 3.881908,
+    "transactions": [
+      {
+        "date": "2021-09-16",
+        "priceEur": 564000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "85eded4d58bc": {
+    "id": "85eded4d58bc",
+    "label": "5169F CHE DES CROUZETTES, Saint-Vincent-de-Barbeyrargues",
+    "lat": 43.708071,
+    "lng": 3.882832,
+    "transactions": [
+      {
+        "date": "2022-01-12",
+        "priceEur": 589300,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-12",
+        "priceEur": 589300,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "253da52817a1": {
+    "id": "253da52817a1",
+    "label": "186 CHE DES FESQUETS, Assas",
+    "lat": 43.710174,
+    "lng": 3.886761,
+    "transactions": [
+      {
+        "date": "2022-03-31",
+        "priceEur": 600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 182,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-31",
+        "priceEur": 600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 182,
+        "isVefa": false
+      }
+    ]
+  },
+  "eafa8399fd7c": {
+    "id": "eafa8399fd7c",
+    "label": "154 CHE DES CROUZETTES, Saint-Vincent-de-Barbeyrargues",
+    "lat": 43.709111,
+    "lng": 3.883165,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 629000,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "8ec7cf78202c": {
+    "id": "8ec7cf78202c",
+    "label": "170 CHE DE RAOULET, Assas",
+    "lat": 43.707829,
+    "lng": 3.888991,
+    "transactions": [
+      {
+        "date": "2025-03-28",
+        "priceEur": 1077295,
+        "typeLocal": "Maison",
+        "surfaceM2": 260,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-28",
+        "priceEur": 1077295,
+        "typeLocal": "Maison",
+        "surfaceM2": 260,
+        "isVefa": false
+      }
+    ]
+  }
+}

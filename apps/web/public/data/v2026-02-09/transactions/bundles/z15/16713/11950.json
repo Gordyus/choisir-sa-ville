@@ -1,0 +1,98 @@
+{
+  "e229868dbc69": {
+    "id": "e229868dbc69",
+    "label": "5616F CHE FARRAT, Puéchabon",
+    "lat": 43.717201,
+    "lng": 3.61819,
+    "transactions": [
+      {
+        "date": "2020-08-27",
+        "priceEur": 509600,
+        "typeLocal": "Maison",
+        "surfaceM2": 197,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-27",
+        "priceEur": 509600,
+        "typeLocal": "Maison",
+        "surfaceM2": 197,
+        "isVefa": false
+      }
+    ]
+  },
+  "59f4bb447b66": {
+    "id": "59f4bb447b66",
+    "label": "5647F CHEM DU MAS DE COURNON, Puéchabon",
+    "lat": 43.717817,
+    "lng": 3.61602,
+    "transactions": [
+      {
+        "date": "2021-10-14",
+        "priceEur": 253100,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-14",
+        "priceEur": 253100,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "496d5bcc12cb": {
+    "id": "496d5bcc12cb",
+    "label": "8 CHEMIN FARRAT, Puéchabon",
+    "lat": 43.717476,
+    "lng": 3.617303,
+    "transactions": [
+      {
+        "date": "2022-06-24",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-24",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "840b86d1d46d": {
+    "id": "840b86d1d46d",
+    "label": "5932 CHE DU BOLS, Puéchabon",
+    "lat": 43.715882,
+    "lng": 3.618509,
+    "transactions": [
+      {
+        "date": "2024-01-18",
+        "priceEur": 287012,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "e58345e6b3ad": {
+    "id": "e58345e6b3ad",
+    "label": "12 CHE DU BOIS, Puéchabon",
+    "lat": 43.717312,
+    "lng": 3.615769,
+    "transactions": [
+      {
+        "date": "2024-06-12",
+        "priceEur": 450500,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  }
+}

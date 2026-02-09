@@ -1,0 +1,54 @@
+{
+  "7bc54b7a728c": {
+    "id": "7bc54b7a728c",
+    "label": "4 RUE DE LA FONTAINE, Puilacher",
+    "lat": 43.563233,
+    "lng": 3.506462,
+    "transactions": [
+      {
+        "date": "2022-06-16",
+        "priceEur": 363705,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "d36894d1a529": {
+    "id": "d36894d1a529",
+    "label": "157 CHE FERRET, Puilacher",
+    "lat": 43.564025,
+    "lng": 3.510273,
+    "transactions": [
+      {
+        "date": "2022-07-12",
+        "priceEur": 665000,
+        "typeLocal": "Maison",
+        "surfaceM2": 242,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-12",
+        "priceEur": 665000,
+        "typeLocal": "Maison",
+        "surfaceM2": 242,
+        "isVefa": false
+      }
+    ]
+  },
+  "a7ba7c9a16e5": {
+    "id": "a7ba7c9a16e5",
+    "label": "19 RUE DES POMMETTES, Puilacher",
+    "lat": 43.563637,
+    "lng": 3.51186,
+    "transactions": [
+      {
+        "date": "2024-09-25",
+        "priceEur": 246120,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  }
+}

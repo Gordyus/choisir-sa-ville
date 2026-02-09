@@ -1,0 +1,110 @@
+{
+  "0030c25aa7eb": {
+    "id": "0030c25aa7eb",
+    "label": "687 ACH ANC CHEMIN DE VALFLAUNES, Saint-Mathieu-de-Tréviers",
+    "lat": 43.78421,
+    "lng": 3.865484,
+    "transactions": [
+      {
+        "date": "2021-05-25",
+        "priceEur": 668700,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-25",
+        "priceEur": 668700,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-25",
+        "priceEur": 668700,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "837b8f3e679b": {
+    "id": "837b8f3e679b",
+    "label": "5400F LES CROTASSES, Saint-Mathieu-de-Tréviers",
+    "lat": 43.78221,
+    "lng": 3.865398,
+    "transactions": [
+      {
+        "date": "2021-09-14",
+        "priceEur": 570184,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-14",
+        "priceEur": 570184,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-14",
+        "priceEur": 570184,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "4827f86a6e38": {
+    "id": "4827f86a6e38",
+    "label": "5399F LES CROTASSES, Saint-Mathieu-de-Tréviers",
+    "lat": 43.783153,
+    "lng": 3.865595,
+    "transactions": [
+      {
+        "date": "2022-10-25",
+        "priceEur": 650000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-25",
+        "priceEur": 650000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-25",
+        "priceEur": 650000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-25",
+        "priceEur": 650000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-25",
+        "priceEur": 650000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-25",
+        "priceEur": 650000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

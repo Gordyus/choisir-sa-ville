@@ -1,0 +1,62 @@
+{
+  "1aaafc0e35bc": {
+    "id": "1aaafc0e35bc",
+    "label": "5499 LAULO, Le Bosc",
+    "lat": 43.672782,
+    "lng": 3.405591,
+    "transactions": [
+      {
+        "date": "2021-01-14",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee465d7183eb": {
+    "id": "ee465d7183eb",
+    "label": "5141 LAULO, Le Bosc",
+    "lat": 43.673186,
+    "lng": 3.405486,
+    "transactions": [
+      {
+        "date": "2021-05-07",
+        "priceEur": 335206,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c6a83651cd8": {
+    "id": "9c6a83651cd8",
+    "label": "6008 LAULO, Le Bosc",
+    "lat": 43.673223,
+    "lng": 3.404926,
+    "transactions": [
+      {
+        "date": "2023-06-07",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "237645ca381c": {
+    "id": "237645ca381c",
+    "label": "5142 LAULO, Le Bosc",
+    "lat": 43.673111,
+    "lng": 3.404575,
+    "transactions": [
+      {
+        "date": "2024-04-29",
+        "priceEur": 247500,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "1d6db339077d": {
+    "id": "1d6db339077d",
+    "label": "468 RUE DE LA MADELEINE, Montpellier",
+    "lat": 43.579777,
+    "lng": 3.856099,
+    "transactions": [
+      {
+        "date": "2025-05-21",
+        "priceEur": 225200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-21",
+        "priceEur": 255000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-15",
+        "priceEur": 257500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-13",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 88,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-06",
+        "priceEur": 213000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-22",
+        "priceEur": 398799.1,
+        "typeLocal": "Appartement",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "742b35edb43f": {
+    "id": "742b35edb43f",
+    "label": "9545 RTE DE SETE, Saint-Jean-de-Védas",
+    "lat": 43.57978,
+    "lng": 3.8487,
+    "transactions": [
+      {
+        "date": "2021-09-27",
+        "priceEur": 700000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "d47708aa9e2d": {
+    "id": "d47708aa9e2d",
+    "label": "551 CHE DU GRAND PUITS, Montpellier",
+    "lat": 43.580019,
+    "lng": 3.852727,
+    "transactions": [
+      {
+        "date": "2021-10-27",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c7210caa15d": {
+    "id": "8c7210caa15d",
+    "label": "213 CHEM DE LA RENCONTRE, Saint-Jean-de-Védas",
+    "lat": 43.576862,
+    "lng": 3.851244,
+    "transactions": [
+      {
+        "date": "2024-08-06",
+        "priceEur": 248000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "69b7172c0570": {
+    "id": "69b7172c0570",
+    "label": "249 CHEM DE LA RENCONTRE, Saint-Jean-de-Védas",
+    "lat": 43.576862,
+    "lng": 3.851244,
+    "transactions": [
+      {
+        "date": "2024-09-09",
+        "priceEur": 148500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  },
+  "02ce2c8e7024": {
+    "id": "02ce2c8e7024",
+    "label": "249 CHE DE LA RENCONTRE, Saint-Jean-de-Védas",
+    "lat": 43.576862,
+    "lng": 3.851244,
+    "transactions": [
+      {
+        "date": "2025-06-10",
+        "priceEur": 123700,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  }
+}

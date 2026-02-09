@@ -3,7 +3,7 @@
   "license": "Licence Ouverte / Etalab",
   "geoLevel": "commune",
   "fallbackChain": [],
-  "unit": "faits pour 100 000 habitants",
+  "unit": "faits pour 1000 habitants",
   "yearsAvailable": [
     2016,
     2017,
@@ -15,8 +15,8 @@
     2023,
     2024
   ],
-  "generatedAtUtc": "2026-02-09T13:20:58.178Z",
-  "methodology": "Agrégation communale par catégorie, normalisée par population SSMSI (insee_pop, par année). Classification par taille de population avec double perspective (nationale et catégorie).",
+  "generatedAtUtc": "2026-02-09T16:43:43.242Z",
+  "methodology": "Agrégation communale par catégorie, normalisée par population SSMSI (insee_pop, par année).",
   "inputs": {
     "ssmsiParquetUrl": "https://www.data.gouv.fr/api/1/datasets/r/98fd2271-4d76-4015-a80c-bcec329f6ad0",
     "ssmsiResourceId": "98fd2271-4d76-4015-a80c-bcec329f6ad0",
@@ -65,31 +65,60 @@
       "55307"
     ]
   },
-  "populationCategories": {
-    "small": {
-      "min": 0,
-      "max": 9999,
-      "label": "Petites communes",
-      "count": 33874
+  "thresholds": {
+    "2016": {
+      "q1": 3.0384615384615383,
+      "q2": 5.709999999999999,
+      "q3": 10.651250000000001,
+      "method": "quartiles on scoreRaw > 0"
     },
-    "medium": {
-      "min": 10000,
-      "max": 99999,
-      "label": "Communes moyennes",
-      "count": 953
+    "2017": {
+      "q1": 3.0999999999999996,
+      "q2": 5.831666666666667,
+      "q3": 10.72625,
+      "method": "quartiles on scoreRaw > 0"
     },
-    "large": {
-      "min": 100000,
-      "max": null,
-      "label": "Grandes villes",
-      "count": 42
-    }
-  },
-  "indexGlobal": {
-    "method": "percentile_rank on all scoreRaw values, rescaled to [0..100]",
-    "perspectives": {
-      "national": "Percentile across all 34,875+ communes",
-      "category": "Percentile within population category (small/medium/large)"
+    "2018": {
+      "q1": 3.0384615384615383,
+      "q2": 5.6674999999999995,
+      "q3": 10.396249999999998,
+      "method": "quartiles on scoreRaw > 0"
+    },
+    "2019": {
+      "q1": 3.02,
+      "q2": 5.754999999999999,
+      "q3": 10.49625,
+      "method": "quartiles on scoreRaw > 0"
+    },
+    "2020": {
+      "q1": 2.8076923076923075,
+      "q2": 5.192307692307692,
+      "q3": 9.434999999999999,
+      "method": "quartiles on scoreRaw > 0"
+    },
+    "2021": {
+      "q1": 3.0225,
+      "q2": 5.633333333333334,
+      "q3": 9.9525,
+      "method": "quartiles on scoreRaw > 0"
+    },
+    "2022": {
+      "q1": 3.24125,
+      "q2": 5.9875,
+      "q3": 10.783750000000001,
+      "method": "quartiles on scoreRaw > 0"
+    },
+    "2023": {
+      "q1": 3.4066666666666663,
+      "q2": 6.2299999999999995,
+      "q3": 11.19125,
+      "method": "quartiles on scoreRaw > 0"
+    },
+    "2024": {
+      "q1": 3.5792307692307688,
+      "q2": 6.49,
+      "q3": 11.345,
+      "method": "quartiles on scoreRaw > 0"
     }
   },
   "levels": {
@@ -100,6 +129,6 @@
       "Élevé",
       "Plus élevé"
     ],
-    "method": "Percentile-based classification: level = floor(indexGlobal / 25)"
+    "method": "Quartile-based classification on non-zero scoreRaw distribution"
   }
 }

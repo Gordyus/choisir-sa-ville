@@ -1,0 +1,32 @@
+{
+  "17eca29c5bfc": {
+    "id": "17eca29c5bfc",
+    "label": "5140 ROUVINIO, Roquebrun",
+    "lat": 43.52682,
+    "lng": 3.034542,
+    "transactions": [
+      {
+        "date": "2022-05-30",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c823e9f5bd5": {
+    "id": "4c823e9f5bd5",
+    "label": "5500 ROUVINIO, Roquebrun",
+    "lat": 43.52673,
+    "lng": 3.034326,
+    "transactions": [
+      {
+        "date": "2024-08-19",
+        "priceEur": 104500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

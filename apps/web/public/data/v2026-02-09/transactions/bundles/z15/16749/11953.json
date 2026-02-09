@@ -1,0 +1,61 @@
+{
+  "4ca8f9305f6b": {
+    "id": "4ca8f9305f6b",
+    "label": "5153 LES MAZETS, Saint-Geniès-des-Mourgues",
+    "lat": 43.698535,
+    "lng": 4.018269,
+    "transactions": [
+      {
+        "date": "2021-02-11",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-11",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1d85556d3f1": {
+    "id": "f1d85556d3f1",
+    "label": "5515 CHE DE PIERREDON, Saint-Geniès-des-Mourgues",
+    "lat": 43.693997,
+    "lng": 4.020854,
+    "transactions": [
+      {
+        "date": "2023-01-30",
+        "priceEur": 135894,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-30",
+        "priceEur": 135894,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "690c4e6ba5fc": {
+    "id": "690c4e6ba5fc",
+    "label": "5509 LES MAZETS, Saint-Geniès-des-Mourgues",
+    "lat": 43.698983,
+    "lng": 4.020688,
+    "transactions": [
+      {
+        "date": "2024-11-27",
+        "priceEur": 273200,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

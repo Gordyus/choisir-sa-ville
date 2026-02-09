@@ -1,0 +1,32 @@
+{
+  "1f6bbd5b7f5b": {
+    "id": "1f6bbd5b7f5b",
+    "label": "5156 DOMAINE DE SAINT ADRIEN, Servian",
+    "lat": 43.40262,
+    "lng": 3.323327,
+    "transactions": [
+      {
+        "date": "2021-03-08",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 266,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e92dd92a480": {
+    "id": "0e92dd92a480",
+    "label": "6711F DOMAINE DE SAINT ADRIEN, Servian",
+    "lat": 43.40242,
+    "lng": 3.323265,
+    "transactions": [
+      {
+        "date": "2024-07-04",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  }
+}

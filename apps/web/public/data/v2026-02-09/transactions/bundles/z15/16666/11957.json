@@ -1,0 +1,336 @@
+{
+  "ad0792538a60": {
+    "id": "ad0792538a60",
+    "label": "5057 SAINT ETIENNE, Saint-Étienne-Estréchoux",
+    "lat": 43.663979,
+    "lng": 3.107007,
+    "transactions": [
+      {
+        "date": "2021-03-19",
+        "priceEur": 123000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "88b8189372f7": {
+    "id": "88b8189372f7",
+    "label": "5B GR GRANDE RUE, Saint-Étienne-Estréchoux",
+    "lat": 43.667691,
+    "lng": 3.104158,
+    "transactions": [
+      {
+        "date": "2021-03-31",
+        "priceEur": 6000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "f228ebc449f2": {
+    "id": "f228ebc449f2",
+    "label": "5 GR GRANDE RUE, Saint-Étienne-Estréchoux",
+    "lat": 43.667678,
+    "lng": 3.104289,
+    "transactions": [
+      {
+        "date": "2021-03-31",
+        "priceEur": 6000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8120160d37e": {
+    "id": "f8120160d37e",
+    "label": "9 RUE DES JARDINS, Saint-Étienne-Estréchoux",
+    "lat": 43.664771,
+    "lng": 3.108347,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 163000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-30",
+        "priceEur": 163000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "37ac92511e44": {
+    "id": "37ac92511e44",
+    "label": "3 GR GRANDE RUE, Saint-Étienne-Estréchoux",
+    "lat": 43.667335,
+    "lng": 3.104809,
+    "transactions": [
+      {
+        "date": "2021-10-21",
+        "priceEur": 76500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 94,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-21",
+        "priceEur": 58500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "a43cdc00f30c": {
+    "id": "a43cdc00f30c",
+    "label": "11 RUE DES JARDINS, Saint-Étienne-Estréchoux",
+    "lat": 43.664452,
+    "lng": 3.108612,
+    "transactions": [
+      {
+        "date": "2024-09-02",
+        "priceEur": 297800,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-22",
+        "priceEur": 242160,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  },
+  "0f92229d704b": {
+    "id": "0f92229d704b",
+    "label": "7 GR GRANDE RUE, Saint-Étienne-Estréchoux",
+    "lat": 43.667797,
+    "lng": 3.104109,
+    "transactions": [
+      {
+        "date": "2021-12-13",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "44ea8053e5b1": {
+    "id": "44ea8053e5b1",
+    "label": "6 CHE DU MOULIN, Saint-Étienne-Estréchoux",
+    "lat": 43.66366,
+    "lng": 3.107427,
+    "transactions": [
+      {
+        "date": "2022-02-24",
+        "priceEur": 75000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-24",
+        "priceEur": 75000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "391741160e7d": {
+    "id": "391741160e7d",
+    "label": "14 RUE DE L EGLISE, Saint-Étienne-Estréchoux",
+    "lat": 43.664332,
+    "lng": 3.107559,
+    "transactions": [
+      {
+        "date": "2022-03-15",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "1094fa450151": {
+    "id": "1094fa450151",
+    "label": "13 RUE FORT DE BASSINE, Saint-Étienne-Estréchoux",
+    "lat": 43.662755,
+    "lng": 3.104113,
+    "transactions": [
+      {
+        "date": "2022-07-11",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 192,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-11",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 192,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-11",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 192,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ac904738efd": {
+    "id": "4ac904738efd",
+    "label": "5361 RUE DU FOUR A CHAUX, Saint-Étienne-Estréchoux",
+    "lat": 43.664669,
+    "lng": 3.10762,
+    "transactions": [
+      {
+        "date": "2022-09-08",
+        "priceEur": 83150,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "3aa5b5b7d133": {
+    "id": "3aa5b5b7d133",
+    "label": "11B RUE DU FOUR A CHAUX, Saint-Étienne-Estréchoux",
+    "lat": 43.664305,
+    "lng": 3.107296,
+    "transactions": [
+      {
+        "date": "2022-10-17",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f80f8ad6da8": {
+    "id": "7f80f8ad6da8",
+    "label": "10 CHE DU MOULIN, Saint-Étienne-Estréchoux",
+    "lat": 43.663645,
+    "lng": 3.107158,
+    "transactions": [
+      {
+        "date": "2022-12-30",
+        "priceEur": 78000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b5d155f3b76": {
+    "id": "5b5d155f3b76",
+    "label": "7 RTE DE SAINT GERVAIS SUR MARE, Saint-Étienne-Estréchoux",
+    "lat": 43.66328,
+    "lng": 3.105485,
+    "transactions": [
+      {
+        "date": "2023-01-16",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-16",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "ccbab3819dd3": {
+    "id": "ccbab3819dd3",
+    "label": "2 RUE DU FOUR A CHAUX, Saint-Étienne-Estréchoux",
+    "lat": 43.6661,
+    "lng": 3.107205,
+    "transactions": [
+      {
+        "date": "2023-08-03",
+        "priceEur": 19000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "5eccc4ef6635": {
+    "id": "5eccc4ef6635",
+    "label": "14 RUE DU FOUR A CHAUX, Saint-Étienne-Estréchoux",
+    "lat": 43.664437,
+    "lng": 3.107044,
+    "transactions": [
+      {
+        "date": "2024-01-31",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "96352306daa8": {
+    "id": "96352306daa8",
+    "label": "3B CHE DES JARDINS, Saint-Étienne-Estréchoux",
+    "lat": 43.665645,
+    "lng": 3.108055,
+    "transactions": [
+      {
+        "date": "2024-04-24",
+        "priceEur": 193000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "53683a165495": {
+    "id": "53683a165495",
+    "label": "5300 RUE DU FOUR A CHAUX, Saint-Étienne-Estréchoux",
+    "lat": 43.664618,
+    "lng": 3.107323,
+    "transactions": [
+      {
+        "date": "2024-07-08",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "31a46d1a1f52": {
+    "id": "31a46d1a1f52",
+    "label": "6 RUE DE L EGLISE, Saint-Étienne-Estréchoux",
+    "lat": 43.664696,
+    "lng": 3.107754,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 60900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      }
+    ]
+  }
+}

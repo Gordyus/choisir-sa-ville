@@ -1,0 +1,47 @@
+{
+  "8edece48ada7": {
+    "id": "8edece48ada7",
+    "label": "20 FON CLARE, Capestang",
+    "lat": 43.334378,
+    "lng": 3.046806,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 297000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "5de31e62a142": {
+    "id": "5de31e62a142",
+    "label": "2 FON CLARE, Capestang",
+    "lat": 43.333272,
+    "lng": 3.046269,
+    "transactions": [
+      {
+        "date": "2021-12-08",
+        "priceEur": 333204,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9a18945cba9": {
+    "id": "c9a18945cba9",
+    "label": "12 RUE DE FONCLARE, Capestang",
+    "lat": 43.333818,
+    "lng": 3.047055,
+    "transactions": [
+      {
+        "date": "2023-01-18",
+        "priceEur": 453510,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  }
+}

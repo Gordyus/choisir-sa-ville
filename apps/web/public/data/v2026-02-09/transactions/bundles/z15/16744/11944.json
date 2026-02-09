@@ -1,0 +1,158 @@
+{
+  "7b0737009cb5": {
+    "id": "7b0737009cb5",
+    "label": "7 RUE DU FOUR, Saint-Bauzille-de-Montmel",
+    "lat": 43.769687,
+    "lng": 3.957009,
+    "transactions": [
+      {
+        "date": "2020-08-14",
+        "priceEur": 185680,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "44d5f227c716": {
+    "id": "44d5f227c716",
+    "label": "1 IMP DU MISTRAL, Saint-Bauzille-de-Montmel",
+    "lat": 43.769951,
+    "lng": 3.956132,
+    "transactions": [
+      {
+        "date": "2020-12-03",
+        "priceEur": 205000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "18938ff147c2": {
+    "id": "18938ff147c2",
+    "label": "4 IMP DE GABARELLE, Saint-Bauzille-de-Montmel",
+    "lat": 43.771036,
+    "lng": 3.957893,
+    "transactions": [
+      {
+        "date": "2020-12-07",
+        "priceEur": 545590,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed59be1bf29c": {
+    "id": "ed59be1bf29c",
+    "label": "2 CHE DES BRUSSES, Saint-Bauzille-de-Montmel",
+    "lat": 43.770497,
+    "lng": 3.9587,
+    "transactions": [
+      {
+        "date": "2022-07-25",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d0547985e6d": {
+    "id": "5d0547985e6d",
+    "label": "5019 IMP DE GABARELLE, Saint-Bauzille-de-Montmel",
+    "lat": 43.770832,
+    "lng": 3.957936,
+    "transactions": [
+      {
+        "date": "2022-12-29",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "708fac87264d": {
+    "id": "708fac87264d",
+    "label": "20 RUE DU LANGUEDOC, Saint-Bauzille-de-Montmel",
+    "lat": 43.7702,
+    "lng": 3.957858,
+    "transactions": [
+      {
+        "date": "2023-04-20",
+        "priceEur": 473950,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-20",
+        "priceEur": 473950,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-13",
+        "priceEur": 800000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-13",
+        "priceEur": 800000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc16e4cee91c": {
+    "id": "bc16e4cee91c",
+    "label": "2 RUE DU LANGUEDOC, Saint-Bauzille-de-Montmel",
+    "lat": 43.76954,
+    "lng": 3.956464,
+    "transactions": [
+      {
+        "date": "2024-07-24",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "94b546e27534": {
+    "id": "94b546e27534",
+    "label": "4 IMP DU MARIN, Saint-Bauzille-de-Montmel",
+    "lat": 43.769468,
+    "lng": 3.95633,
+    "transactions": [
+      {
+        "date": "2025-02-04",
+        "priceEur": 122000,
+        "typeLocal": "Maison",
+        "surfaceM2": 29,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea437e38007c": {
+    "id": "ea437e38007c",
+    "label": "10 RUE DU PLAN VINCENT, Saint-Bauzille-de-Montmel",
+    "lat": 43.769596,
+    "lng": 3.957657,
+    "transactions": [
+      {
+        "date": "2025-02-11",
+        "priceEur": 465000,
+        "typeLocal": "Maison",
+        "surfaceM2": 220,
+        "isVefa": false
+      }
+    ]
+  }
+}

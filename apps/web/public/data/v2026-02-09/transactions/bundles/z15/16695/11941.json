@@ -1,0 +1,69 @@
+{
+  "4727d8b50011": {
+    "id": "4727d8b50011",
+    "label": "2 RTE DU CAYLAR, Saint-Pierre-de-la-Fage",
+    "lat": 43.793927,
+    "lng": 3.426038,
+    "transactions": [
+      {
+        "date": "2021-05-21",
+        "priceEur": 79000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "ab9ba3d980fc": {
+    "id": "ab9ba3d980fc",
+    "label": "12 RTE DE LODEVE, Saint-Pierre-de-la-Fage",
+    "lat": 43.793153,
+    "lng": 3.425376,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 127350,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0ed692a5b88": {
+    "id": "a0ed692a5b88",
+    "label": "5270F CHE CHEMIN DE LA ROQUE, Saint-Pierre-de-la-Fage",
+    "lat": 43.792567,
+    "lng": 3.422338,
+    "transactions": [
+      {
+        "date": "2022-09-14",
+        "priceEur": 254400,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-14",
+        "priceEur": 254400,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c708d3faf0c": {
+    "id": "1c708d3faf0c",
+    "label": "5 CHE DU BARRY BAS, Saint-Pierre-de-la-Fage",
+    "lat": 43.792208,
+    "lng": 3.425635,
+    "transactions": [
+      {
+        "date": "2022-12-29",
+        "priceEur": 66500,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  }
+}

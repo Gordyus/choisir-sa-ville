@@ -1,0 +1,120 @@
+{
+  "70900e4b1863": {
+    "id": "70900e4b1863",
+    "label": "5106F LE VILLAGE, Saint-Geniès-de-Varensal",
+    "lat": 43.68104,
+    "lng": 3.002728,
+    "transactions": [
+      {
+        "date": "2021-10-18",
+        "priceEur": 38000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-18",
+        "priceEur": 38000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-18",
+        "priceEur": 38000,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "779d112ba109": {
+    "id": "779d112ba109",
+    "label": "5095 LE VILLAGE, Saint-Geniès-de-Varensal",
+    "lat": 43.680663,
+    "lng": 3.003844,
+    "transactions": [
+      {
+        "date": "2024-02-26",
+        "priceEur": 72000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-07",
+        "priceEur": 62000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2364dbd8bb9": {
+    "id": "e2364dbd8bb9",
+    "label": "5137 LE VILLAGE, Saint-Geniès-de-Varensal",
+    "lat": 43.68074,
+    "lng": 3.003223,
+    "transactions": [
+      {
+        "date": "2022-12-20",
+        "priceEur": 47500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-20",
+        "priceEur": 47500,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e555d3f2468": {
+    "id": "4e555d3f2468",
+    "label": "5091F LE VILLAGE, Saint-Geniès-de-Varensal",
+    "lat": 43.680728,
+    "lng": 3.003915,
+    "transactions": [
+      {
+        "date": "2024-02-26",
+        "priceEur": 72000,
+        "typeLocal": "Maison",
+        "surfaceM2": 31,
+        "isVefa": false
+      }
+    ]
+  },
+  "0523a20eb89f": {
+    "id": "0523a20eb89f",
+    "label": "5041 LE VILLAGE, Saint-Geniès-de-Varensal",
+    "lat": 43.680752,
+    "lng": 3.003775,
+    "transactions": [
+      {
+        "date": "2024-07-09",
+        "priceEur": 44000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0fb662d3384": {
+    "id": "e0fb662d3384",
+    "label": "5092 LE VILLAGE, Saint-Geniès-de-Varensal",
+    "lat": 43.680602,
+    "lng": 3.003735,
+    "transactions": [
+      {
+        "date": "2025-01-31",
+        "priceEur": 117780,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  }
+}

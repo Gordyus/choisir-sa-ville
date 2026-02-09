@@ -1,0 +1,53 @@
+{
+  "e276cb6338e2": {
+    "id": "e276cb6338e2",
+    "label": "1030 BD DU MOULIN, Gignac",
+    "lat": 43.65394,
+    "lng": 3.537001,
+    "transactions": [
+      {
+        "date": "2021-09-14",
+        "priceEur": 365000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-14",
+        "priceEur": 365000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-14",
+        "priceEur": 365000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-14",
+        "priceEur": 365000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "43726b3bb600": {
+    "id": "43726b3bb600",
+    "label": "85 RUE DU CANALET, Gignac",
+    "lat": 43.654446,
+    "lng": 3.537475,
+    "transactions": [
+      {
+        "date": "2023-09-25",
+        "priceEur": 445023,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  }
+}

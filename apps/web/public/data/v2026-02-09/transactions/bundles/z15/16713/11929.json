@@ -1,0 +1,113 @@
+{
+  "0cfa23a5e63f": {
+    "id": "0cfa23a5e63f",
+    "label": "5064 L ESCOUTET, Gorniès",
+    "lat": 43.888691,
+    "lng": 3.623874,
+    "transactions": [
+      {
+        "date": "2022-02-24",
+        "priceEur": 39000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "b2db687ec1b7": {
+    "id": "b2db687ec1b7",
+    "label": "5035 L ESCOUTET, Gorniès",
+    "lat": 43.889172,
+    "lng": 3.624466,
+    "transactions": [
+      {
+        "date": "2022-08-08",
+        "priceEur": 82000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "34d0cce32f44": {
+    "id": "34d0cce32f44",
+    "label": "2608 L ESCOUTET, Gorniès",
+    "lat": 43.88897,
+    "lng": 3.623617,
+    "transactions": [
+      {
+        "date": "2023-02-28",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "85534f8a853a": {
+    "id": "85534f8a853a",
+    "label": "5414 LAS TEMPES, Gorniès",
+    "lat": 43.888028,
+    "lng": 3.622828,
+    "transactions": [
+      {
+        "date": "2023-05-16",
+        "priceEur": 177500,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "3bfa0953ded8": {
+    "id": "3bfa0953ded8",
+    "label": "5052 L ESCOUTET, Gorniès",
+    "lat": 43.889342,
+    "lng": 3.62398,
+    "transactions": [
+      {
+        "date": "2025-02-12",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "62ac4581b3e3": {
+    "id": "62ac4581b3e3",
+    "label": "5034 LOUS CAMPS, Gorniès",
+    "lat": 43.88983,
+    "lng": 3.625325,
+    "transactions": [
+      {
+        "date": "2025-03-19",
+        "priceEur": 174580,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-19",
+        "priceEur": 174580,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-19",
+        "priceEur": 174580,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-19",
+        "priceEur": 174580,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  }
+}

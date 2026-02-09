@@ -1,0 +1,99 @@
+{
+  "391053ee1cc0": {
+    "id": "391053ee1cc0",
+    "label": "916 CHE DE LAGARDIE, Saint-Étienne-de-Gourgas",
+    "lat": 43.779253,
+    "lng": 3.383059,
+    "transactions": [
+      {
+        "date": "2020-10-06",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 159,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-06",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 159,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c0e66624358": {
+    "id": "7c0e66624358",
+    "label": "1 RUE DU COMBAL, Saint-Étienne-de-Gourgas",
+    "lat": 43.779297,
+    "lng": 3.378598,
+    "transactions": [
+      {
+        "date": "2022-04-14",
+        "priceEur": 216737.66,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "d7698a2d13a0": {
+    "id": "d7698a2d13a0",
+    "label": "1 RUE DES FONTAINES, Saint-Étienne-de-Gourgas",
+    "lat": 43.779483,
+    "lng": 3.379004,
+    "transactions": [
+      {
+        "date": "2023-04-13",
+        "priceEur": 65000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "71c35b5813ad": {
+    "id": "71c35b5813ad",
+    "label": "2 CHE DU SACRE COEUR, Saint-Étienne-de-Gourgas",
+    "lat": 43.779658,
+    "lng": 3.379017,
+    "transactions": [
+      {
+        "date": "2023-04-05",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "70d49156ff43": {
+    "id": "70d49156ff43",
+    "label": "8 RUE DES FONTAINES, Saint-Étienne-de-Gourgas",
+    "lat": 43.779209,
+    "lng": 3.378503,
+    "transactions": [
+      {
+        "date": "2024-12-30",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "94f6a19c22a4": {
+    "id": "94f6a19c22a4",
+    "label": "4 IMP DU PORCHE, Saint-Étienne-de-Gourgas",
+    "lat": 43.779496,
+    "lng": 3.378753,
+    "transactions": [
+      {
+        "date": "2024-12-17",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,545 @@
+{
+  "795f349a0344": {
+    "id": "795f349a0344",
+    "label": "82 RUE ANTOINE FIRBO, Castries",
+    "lat": 43.67482,
+    "lng": 3.989269,
+    "transactions": [
+      {
+        "date": "2021-02-10",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ac48e23204a": {
+    "id": "4ac48e23204a",
+    "label": "71 ALL PIERRE ET JEANNE TAGANT, Castries",
+    "lat": 43.67567,
+    "lng": 3.989306,
+    "transactions": [
+      {
+        "date": "2021-10-25",
+        "priceEur": 257650,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e896c5e2540": {
+    "id": "2e896c5e2540",
+    "label": "95 RUE ANTOINE REDIER, Castries",
+    "lat": 43.671064,
+    "lng": 3.989874,
+    "transactions": [
+      {
+        "date": "2021-11-02",
+        "priceEur": 195500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": true
+      }
+    ]
+  },
+  "85030a1145e5": {
+    "id": "85030a1145e5",
+    "label": "115 RUE DE LA BRIQUETERIE, Castries",
+    "lat": 43.673118,
+    "lng": 3.988641,
+    "transactions": [
+      {
+        "date": "2022-10-12",
+        "priceEur": 745000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-21",
+        "priceEur": 680000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "93c6238786ad": {
+    "id": "93c6238786ad",
+    "label": "95 RUE DE LA BRIQUETERIE, Castries",
+    "lat": 43.673143,
+    "lng": 3.988493,
+    "transactions": [
+      {
+        "date": "2022-10-12",
+        "priceEur": 745000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-21",
+        "priceEur": 680000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb7a9afaeee8": {
+    "id": "bb7a9afaeee8",
+    "label": "79 IMP DES PIONNIERS, Castries",
+    "lat": 43.675735,
+    "lng": 3.990806,
+    "transactions": [
+      {
+        "date": "2021-11-05",
+        "priceEur": 354890,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "42e5112bb9a0": {
+    "id": "42e5112bb9a0",
+    "label": "71 RUE ANTOINE FIRBO, Castries",
+    "lat": 43.67512,
+    "lng": 3.988883,
+    "transactions": [
+      {
+        "date": "2025-03-19",
+        "priceEur": 190450,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-19",
+        "priceEur": 185080,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-22",
+        "priceEur": 190000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-16",
+        "priceEur": 190000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-14",
+        "priceEur": 166750,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-18",
+        "priceEur": 243500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-17",
+        "priceEur": 159400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "87551af0b5dc": {
+    "id": "87551af0b5dc",
+    "label": "6 IMP DES AMANDIERS, Castries",
+    "lat": 43.672856,
+    "lng": 3.989838,
+    "transactions": [
+      {
+        "date": "2021-12-22",
+        "priceEur": 486270,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf3e794ddec2": {
+    "id": "cf3e794ddec2",
+    "label": "59 RUE DE LA BRIQUETERIE, Castries",
+    "lat": 43.673644,
+    "lng": 3.988427,
+    "transactions": [
+      {
+        "date": "2022-02-11",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "b8f41a2cd539": {
+    "id": "b8f41a2cd539",
+    "label": "1 RUE DE L'ENCLOS JOUVENEL, Castries",
+    "lat": 43.675071,
+    "lng": 3.988048,
+    "transactions": [
+      {
+        "date": "2022-02-14",
+        "priceEur": 453350,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "b504790054a4": {
+    "id": "b504790054a4",
+    "label": "62 RUE ANTOINE FIRBO, Castries",
+    "lat": 43.674776,
+    "lng": 3.989035,
+    "transactions": [
+      {
+        "date": "2022-03-11",
+        "priceEur": 262600,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "30b203a4eb8f": {
+    "id": "30b203a4eb8f",
+    "label": "275 RUE ANTOINE REDIER, Castries",
+    "lat": 43.670631,
+    "lng": 3.988345,
+    "transactions": [
+      {
+        "date": "2022-06-17",
+        "priceEur": 595900,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "f2bd8c724fc6": {
+    "id": "f2bd8c724fc6",
+    "label": "39 RUE DES AMANDIERS, Castries",
+    "lat": 43.672586,
+    "lng": 3.990512,
+    "transactions": [
+      {
+        "date": "2022-06-22",
+        "priceEur": 317000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "db7baa1f54d3": {
+    "id": "db7baa1f54d3",
+    "label": "230 RUE DE LA BRIQUETERIE, Castries",
+    "lat": 43.671908,
+    "lng": 3.988838,
+    "transactions": [
+      {
+        "date": "2022-08-19",
+        "priceEur": 470800,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "d886cbe87746": {
+    "id": "d886cbe87746",
+    "label": "112 RUE ANTOINE FIRBO, Castries",
+    "lat": 43.674897,
+    "lng": 3.989662,
+    "transactions": [
+      {
+        "date": "2022-08-19",
+        "priceEur": 309478,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "347c97ce5f31": {
+    "id": "347c97ce5f31",
+    "label": "68 RUE ANTOINE FIRBO, Castries",
+    "lat": 43.674788,
+    "lng": 3.989113,
+    "transactions": [
+      {
+        "date": "2022-08-08",
+        "priceEur": 298000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "a275b974de0e": {
+    "id": "a275b974de0e",
+    "label": "12 PL GABRIEL LARDAT, Castries",
+    "lat": 43.670408,
+    "lng": 3.989641,
+    "transactions": [
+      {
+        "date": "2022-09-16",
+        "priceEur": 455500,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "d54346256d6e": {
+    "id": "d54346256d6e",
+    "label": "47 RUE ANTOINE REDIER, Castries",
+    "lat": 43.670557,
+    "lng": 3.99112,
+    "transactions": [
+      {
+        "date": "2022-09-20",
+        "priceEur": 449000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "934b715d690d": {
+    "id": "934b715d690d",
+    "label": "45 AV DE LA GARE, Castries",
+    "lat": 43.675757,
+    "lng": 3.98977,
+    "transactions": [
+      {
+        "date": "2023-08-22",
+        "priceEur": 650000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-09",
+        "priceEur": 940000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "4619eed413f1": {
+    "id": "4619eed413f1",
+    "label": "391 RUE DES CANDINIERES, Castries",
+    "lat": 43.675676,
+    "lng": 3.992948,
+    "transactions": [
+      {
+        "date": "2023-03-10",
+        "priceEur": 620000,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "614d7000f598": {
+    "id": "614d7000f598",
+    "label": "44 AV DE LA GARE, Castries",
+    "lat": 43.674674,
+    "lng": 3.989766,
+    "transactions": [
+      {
+        "date": "2023-04-25",
+        "priceEur": 336300,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "8ec105b6aa1f": {
+    "id": "8ec105b6aa1f",
+    "label": "30 IMP LT JAMES ZIMMERMAN, Castries",
+    "lat": 43.670999,
+    "lng": 3.990956,
+    "transactions": [
+      {
+        "date": "2023-07-12",
+        "priceEur": 449000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "d8198d9c1156": {
+    "id": "d8198d9c1156",
+    "label": "50 RUE DES AMANDIERS, Castries",
+    "lat": 43.67228,
+    "lng": 3.989514,
+    "transactions": [
+      {
+        "date": "2023-08-24",
+        "priceEur": 350300,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "49e4785f9ea9": {
+    "id": "49e4785f9ea9",
+    "label": "32 PL JEAN TEISSIER, Castries",
+    "lat": 43.670043,
+    "lng": 3.988764,
+    "transactions": [
+      {
+        "date": "2023-12-08",
+        "priceEur": 632500,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "e4bde7be5cf8": {
+    "id": "e4bde7be5cf8",
+    "label": "102 RUE ANTOINE FIRBO, Castries",
+    "lat": 43.674868,
+    "lng": 3.989509,
+    "transactions": [
+      {
+        "date": "2024-01-31",
+        "priceEur": 318690,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "88629d06fd90": {
+    "id": "88629d06fd90",
+    "label": "1 RUE DE L'ENCLOS DU VILLAGE, Castries",
+    "lat": 43.675236,
+    "lng": 3.98841,
+    "transactions": [
+      {
+        "date": "2024-04-11",
+        "priceEur": 309950,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e6256ba622b": {
+    "id": "9e6256ba622b",
+    "label": "159 RUE DES FAISSES, Castries",
+    "lat": 43.674731,
+    "lng": 3.988309,
+    "transactions": [
+      {
+        "date": "2024-07-04",
+        "priceEur": 461500,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f8eb67760c4": {
+    "id": "9f8eb67760c4",
+    "label": "48 RUE DES AMANDIERS, Castries",
+    "lat": 43.672333,
+    "lng": 3.989531,
+    "transactions": [
+      {
+        "date": "2024-08-05",
+        "priceEur": 358800,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "3389728bdf7c": {
+    "id": "3389728bdf7c",
+    "label": "12 RUE DU SERGENT WILLIS HARLESS, Castries",
+    "lat": 43.670638,
+    "lng": 3.989041,
+    "transactions": [
+      {
+        "date": "2024-08-27",
+        "priceEur": 528750,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "d885e4f4eb27": {
+    "id": "d885e4f4eb27",
+    "label": "12 PL DES AMANDIERS, Castries",
+    "lat": 43.672756,
+    "lng": 3.989356,
+    "transactions": [
+      {
+        "date": "2024-12-30",
+        "priceEur": 403450,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "d44998e8fc8a": {
+    "id": "d44998e8fc8a",
+    "label": "52 RUE DES AMANDIERS, Castries",
+    "lat": 43.672198,
+    "lng": 3.98945,
+    "transactions": [
+      {
+        "date": "2025-01-10",
+        "priceEur": 378000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "43d85948a225": {
+    "id": "43d85948a225",
+    "label": "196 RUE ANTOINE REDIER, Castries",
+    "lat": 43.670335,
+    "lng": 3.989292,
+    "transactions": [
+      {
+        "date": "2025-03-28",
+        "priceEur": 504000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  }
+}

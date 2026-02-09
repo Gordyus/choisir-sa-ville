@@ -1,0 +1,664 @@
+{
+  "9d5369f938e4": {
+    "id": "9d5369f938e4",
+    "label": "7 ALL DES TERRES ROUGES, Saint-Georges-d'Orques",
+    "lat": 43.607217,
+    "lng": 3.776304,
+    "transactions": [
+      {
+        "date": "2020-07-17",
+        "priceEur": 455500,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa0ffa446350": {
+    "id": "fa0ffa446350",
+    "label": "11B RUE DE LA CADELLE, Saint-Georges-d'Orques",
+    "lat": 43.608878,
+    "lng": 3.773782,
+    "transactions": [
+      {
+        "date": "2020-09-03",
+        "priceEur": 440750,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "a366c49d06a5": {
+    "id": "a366c49d06a5",
+    "label": "350 RTE DE MURVIEL LES MONTPELLIER, Saint-Georges-d'Orques",
+    "lat": 43.610771,
+    "lng": 3.771745,
+    "transactions": [
+      {
+        "date": "2020-10-02",
+        "priceEur": 476500,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-02",
+        "priceEur": 476500,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ba22dd20910": {
+    "id": "6ba22dd20910",
+    "label": "13 RUE DU MICOCOULIER, Saint-Georges-d'Orques",
+    "lat": 43.606582,
+    "lng": 3.776702,
+    "transactions": [
+      {
+        "date": "2023-04-14",
+        "priceEur": 321850,
+        "typeLocal": "Appartement",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-07",
+        "priceEur": 282845,
+        "typeLocal": "Appartement",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "d64674742e44": {
+    "id": "d64674742e44",
+    "label": "7 RUE DE LA CADELLE, Saint-Georges-d'Orques",
+    "lat": 43.608572,
+    "lng": 3.774164,
+    "transactions": [
+      {
+        "date": "2020-11-09",
+        "priceEur": 338000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "43eabd8599d0": {
+    "id": "43eabd8599d0",
+    "label": "1 ALL DES CHENES VERTS, Saint-Georges-d'Orques",
+    "lat": 43.609474,
+    "lng": 3.773068,
+    "transactions": [
+      {
+        "date": "2020-12-08",
+        "priceEur": 861000,
+        "typeLocal": "Maison",
+        "surfaceM2": 171,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-08",
+        "priceEur": 861000,
+        "typeLocal": "Maison",
+        "surfaceM2": 171,
+        "isVefa": false
+      }
+    ]
+  },
+  "ba6a9c0e4257": {
+    "id": "ba6a9c0e4257",
+    "label": "9 RUE DU MICOCOULIER, Saint-Georges-d'Orques",
+    "lat": 43.606494,
+    "lng": 3.777235,
+    "transactions": [
+      {
+        "date": "2021-03-02",
+        "priceEur": 440000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "7699e559cf3f": {
+    "id": "7699e559cf3f",
+    "label": "9 IMP ST JEAN, Saint-Georges-d'Orques",
+    "lat": 43.60868,
+    "lng": 3.775641,
+    "transactions": [
+      {
+        "date": "2021-05-05",
+        "priceEur": 400970,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "f80c682eac10": {
+    "id": "f80c682eac10",
+    "label": "3 RUE DES CAGNES, Saint-Georges-d'Orques",
+    "lat": 43.606342,
+    "lng": 3.778488,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7aaf5bb1e3b": {
+    "id": "c7aaf5bb1e3b",
+    "label": "7 IMP DES ALBYZZIAS, Saint-Georges-d'Orques",
+    "lat": 43.604464,
+    "lng": 3.778038,
+    "transactions": [
+      {
+        "date": "2021-04-22",
+        "priceEur": 599000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "1053517f4e52": {
+    "id": "1053517f4e52",
+    "label": "3 RUE DE LA CADELLE, Saint-Georges-d'Orques",
+    "lat": 43.608261,
+    "lng": 3.774512,
+    "transactions": [
+      {
+        "date": "2021-04-22",
+        "priceEur": 206700,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "c57dac5a66a0": {
+    "id": "c57dac5a66a0",
+    "label": "384 RTE DE MURVIEL LES MONTPELLIER, Saint-Georges-d'Orques",
+    "lat": 43.610397,
+    "lng": 3.771433,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 557500,
+        "typeLocal": "Maison",
+        "surfaceM2": 226,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-28",
+        "priceEur": 557500,
+        "typeLocal": "Maison",
+        "surfaceM2": 226,
+        "isVefa": false
+      }
+    ]
+  },
+  "94fe2a04c28b": {
+    "id": "94fe2a04c28b",
+    "label": "5546 RUE DES ECOLES, Saint-Georges-d'Orques",
+    "lat": 43.609591,
+    "lng": 3.778926,
+    "transactions": [
+      {
+        "date": "2021-06-15",
+        "priceEur": 438400,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2d91b76734c": {
+    "id": "a2d91b76734c",
+    "label": "1 RUE DE L ARAMON, Saint-Georges-d'Orques",
+    "lat": 43.60663,
+    "lng": 3.779181,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 550000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-21",
+        "priceEur": 550000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "d4b9c3d63688": {
+    "id": "d4b9c3d63688",
+    "label": "2 RUE BEL HORIZON, Saint-Georges-d'Orques",
+    "lat": 43.611979,
+    "lng": 3.776236,
+    "transactions": [
+      {
+        "date": "2022-03-02",
+        "priceEur": 456250,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "00e52f8d4be8": {
+    "id": "00e52f8d4be8",
+    "label": "28 RUE DE LA CADELLE, Saint-Georges-d'Orques",
+    "lat": 43.612012,
+    "lng": 3.775219,
+    "transactions": [
+      {
+        "date": "2022-03-10",
+        "priceEur": 475750,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "aeadbbe25db2": {
+    "id": "aeadbbe25db2",
+    "label": "7 RUE DU VALLON, Saint-Georges-d'Orques",
+    "lat": 43.609248,
+    "lng": 3.776114,
+    "transactions": [
+      {
+        "date": "2022-05-03",
+        "priceEur": 504172,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "7982adcf96ea": {
+    "id": "7982adcf96ea",
+    "label": "4 RUE DES MURIERS, Saint-Georges-d'Orques",
+    "lat": 43.611565,
+    "lng": 3.778682,
+    "transactions": [
+      {
+        "date": "2022-07-12",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb78858c168c": {
+    "id": "fb78858c168c",
+    "label": "7 IMP DU MICOCOULIER, Saint-Georges-d'Orques",
+    "lat": 43.60633,
+    "lng": 3.77522,
+    "transactions": [
+      {
+        "date": "2022-07-08",
+        "priceEur": 766340,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-08",
+        "priceEur": 766340,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5937922a4ff": {
+    "id": "a5937922a4ff",
+    "label": "15 RUE DE TERRES ROUGES, Saint-Georges-d'Orques",
+    "lat": 43.607126,
+    "lng": 3.778097,
+    "transactions": [
+      {
+        "date": "2022-08-03",
+        "priceEur": 494025,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-03",
+        "priceEur": 494025,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "4691bef35ee4": {
+    "id": "4691bef35ee4",
+    "label": "18 RUE DE L AIRE, Saint-Georges-d'Orques",
+    "lat": 43.609883,
+    "lng": 3.776142,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 473080,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "405a914350d5": {
+    "id": "405a914350d5",
+    "label": "26 RUE DE LA CADELLE, Saint-Georges-d'Orques",
+    "lat": 43.611767,
+    "lng": 3.775125,
+    "transactions": [
+      {
+        "date": "2022-11-04",
+        "priceEur": 518839,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "9fa9ff78e5ab": {
+    "id": "9fa9ff78e5ab",
+    "label": "5 IMP DES ALBYZZIAS, Saint-Georges-d'Orques",
+    "lat": 43.604595,
+    "lng": 3.778289,
+    "transactions": [
+      {
+        "date": "2022-12-14",
+        "priceEur": 539740,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "6645af5dd316": {
+    "id": "6645af5dd316",
+    "label": "2 RUE DES PILETTES, Saint-Georges-d'Orques",
+    "lat": 43.609234,
+    "lng": 3.77772,
+    "transactions": [
+      {
+        "date": "2023-03-06",
+        "priceEur": 307700,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "934748a2b5e1": {
+    "id": "934748a2b5e1",
+    "label": "7B ALL DES CATALPAS, Saint-Georges-d'Orques",
+    "lat": 43.611086,
+    "lng": 3.777042,
+    "transactions": [
+      {
+        "date": "2023-03-21",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ac9f38193ff": {
+    "id": "9ac9f38193ff",
+    "label": "7 ALL DES CATALPAS, Saint-Georges-d'Orques",
+    "lat": 43.611172,
+    "lng": 3.777179,
+    "transactions": [
+      {
+        "date": "2023-03-21",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2ead73a5076": {
+    "id": "a2ead73a5076",
+    "label": "7 RUE DU MICOCOULIER, Saint-Georges-d'Orques",
+    "lat": 43.606602,
+    "lng": 3.77755,
+    "transactions": [
+      {
+        "date": "2023-04-18",
+        "priceEur": 495000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-18",
+        "priceEur": 495000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "a111c42e18df": {
+    "id": "a111c42e18df",
+    "label": "23 RUE DE LA CADELLE, Saint-Georges-d'Orques",
+    "lat": 43.611669,
+    "lng": 3.774646,
+    "transactions": [
+      {
+        "date": "2023-12-20",
+        "priceEur": 665000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-06",
+        "priceEur": 415000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1f548d001ed": {
+    "id": "f1f548d001ed",
+    "label": "3 ALL SAN JORDI, Saint-Georges-d'Orques",
+    "lat": 43.612126,
+    "lng": 3.773151,
+    "transactions": [
+      {
+        "date": "2023-11-08",
+        "priceEur": 334295,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "50ab777a32fe": {
+    "id": "50ab777a32fe",
+    "label": "3 RUE ST JEAN, Saint-Georges-d'Orques",
+    "lat": 43.609042,
+    "lng": 3.774815,
+    "transactions": [
+      {
+        "date": "2024-05-29",
+        "priceEur": 445550,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "4314c97e87f4": {
+    "id": "4314c97e87f4",
+    "label": "3 RUE DES PILETTES, Saint-Georges-d'Orques",
+    "lat": 43.608264,
+    "lng": 3.77556,
+    "transactions": [
+      {
+        "date": "2024-07-09",
+        "priceEur": 405000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-09",
+        "priceEur": 405000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a2e49611166": {
+    "id": "6a2e49611166",
+    "label": "8 RUE BEL HORIZON, Saint-Georges-d'Orques",
+    "lat": 43.611733,
+    "lng": 3.7755,
+    "transactions": [
+      {
+        "date": "2024-09-02",
+        "priceEur": 497700,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "923da941e2cd": {
+    "id": "923da941e2cd",
+    "label": "20 RUE DE TERRES ROUGES, Saint-Georges-d'Orques",
+    "lat": 43.608683,
+    "lng": 3.776691,
+    "transactions": [
+      {
+        "date": "2024-11-07",
+        "priceEur": 634955,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "407b25448521": {
+    "id": "407b25448521",
+    "label": "26 RUE DES MURIERS, Saint-Georges-d'Orques",
+    "lat": 43.611248,
+    "lng": 3.77915,
+    "transactions": [
+      {
+        "date": "2024-12-12",
+        "priceEur": 302000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b4290dbe5da": {
+    "id": "1b4290dbe5da",
+    "label": "7 RUE DES CAGNES, Saint-Georges-d'Orques",
+    "lat": 43.605861,
+    "lng": 3.777941,
+    "transactions": [
+      {
+        "date": "2024-12-20",
+        "priceEur": 606540,
+        "typeLocal": "Maison",
+        "surfaceM2": 256,
+        "isVefa": false
+      },
+      {
+        "date": "2024-12-20",
+        "priceEur": 606540,
+        "typeLocal": "Maison",
+        "surfaceM2": 256,
+        "isVefa": false
+      }
+    ]
+  },
+  "5362db9fffb6": {
+    "id": "5362db9fffb6",
+    "label": "6 RUE DE LA CADELLE, Saint-Georges-d'Orques",
+    "lat": 43.608633,
+    "lng": 3.774786,
+    "transactions": [
+      {
+        "date": "2025-01-17",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "9581f464a0c1": {
+    "id": "9581f464a0c1",
+    "label": "17 RUE DES CAGNES, Saint-Georges-d'Orques",
+    "lat": 43.604551,
+    "lng": 3.776408,
+    "transactions": [
+      {
+        "date": "2025-03-18",
+        "priceEur": 536714,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "43e4eada0504": {
+    "id": "43e4eada0504",
+    "label": "15 RUE DE LA CITE, Saint-Georges-d'Orques",
+    "lat": 43.610448,
+    "lng": 3.77849,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 331000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "295aea157a8b": {
+    "id": "295aea157a8b",
+    "label": "1 RUE ST JEAN, Saint-Georges-d'Orques",
+    "lat": 43.609005,
+    "lng": 3.775047,
+    "transactions": [
+      {
+        "date": "2025-05-15",
+        "priceEur": 455000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  }
+}

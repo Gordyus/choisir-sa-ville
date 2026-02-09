@@ -1,0 +1,1374 @@
+{
+  "c6a06dbd0cac": {
+    "id": "c6a06dbd0cac",
+    "label": "25 RUE DES CLOSES, Le Poujol-sur-Orb",
+    "lat": 43.579381,
+    "lng": 3.059378,
+    "transactions": [
+      {
+        "date": "2020-07-01",
+        "priceEur": 2000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae19c0b85e0a": {
+    "id": "ae19c0b85e0a",
+    "label": "11 GR GRAND RUE VIEILLE, Le Poujol-sur-Orb",
+    "lat": 43.578847,
+    "lng": 3.059464,
+    "transactions": [
+      {
+        "date": "2020-07-09",
+        "priceEur": 58000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "580c4926de6c": {
+    "id": "580c4926de6c",
+    "label": "6 RUE TRAVERSIERE, Le Poujol-sur-Orb",
+    "lat": 43.5792,
+    "lng": 3.059506,
+    "transactions": [
+      {
+        "date": "2020-08-06",
+        "priceEur": 103000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-06",
+        "priceEur": 103000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "80d1faa40388": {
+    "id": "80d1faa40388",
+    "label": "21 GR GRAND RUE, Le Poujol-sur-Orb",
+    "lat": 43.578791,
+    "lng": 3.059964,
+    "transactions": [
+      {
+        "date": "2020-08-06",
+        "priceEur": 104000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-06",
+        "priceEur": 104000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "05b0379b36fb": {
+    "id": "05b0379b36fb",
+    "label": "1 RUE DE L ESPINOUSE, Le Poujol-sur-Orb",
+    "lat": 43.579659,
+    "lng": 3.056466,
+    "transactions": [
+      {
+        "date": "2020-08-25",
+        "priceEur": 222950,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  },
+  "fcf192a70b4b": {
+    "id": "fcf192a70b4b",
+    "label": "2127F RUE DU PONT SUSPENDU, Le Poujol-sur-Orb",
+    "lat": 43.578779,
+    "lng": 3.062651,
+    "transactions": [
+      {
+        "date": "2020-09-04",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "295faebec25b": {
+    "id": "295faebec25b",
+    "label": "13 RUE DES DOCKS, Le Poujol-sur-Orb",
+    "lat": 43.5796,
+    "lng": 3.061086,
+    "transactions": [
+      {
+        "date": "2020-10-08",
+        "priceEur": 15000,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6b460521cd0": {
+    "id": "d6b460521cd0",
+    "label": "9 PL DE L EGLISE, Le Poujol-sur-Orb",
+    "lat": 43.579513,
+    "lng": 3.059556,
+    "transactions": [
+      {
+        "date": "2020-10-09",
+        "priceEur": 1,
+        "typeLocal": "Maison",
+        "surfaceM2": 255,
+        "isVefa": false
+      }
+    ]
+  },
+  "ab06c60118a6": {
+    "id": "ab06c60118a6",
+    "label": "14 GR GRAND RUE, Le Poujol-sur-Orb",
+    "lat": 43.57851,
+    "lng": 3.05856,
+    "transactions": [
+      {
+        "date": "2020-12-03",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "79ff23a8e550": {
+    "id": "79ff23a8e550",
+    "label": "3 RUE LE PETIT CALADOU, Le Poujol-sur-Orb",
+    "lat": 43.578919,
+    "lng": 3.059294,
+    "transactions": [
+      {
+        "date": "2020-12-01",
+        "priceEur": 87000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "ccd8c9c5a3cc": {
+    "id": "ccd8c9c5a3cc",
+    "label": "22 RUE DE L ALLEE, Le Poujol-sur-Orb",
+    "lat": 43.579499,
+    "lng": 3.064954,
+    "transactions": [
+      {
+        "date": "2020-12-21",
+        "priceEur": 187000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-21",
+        "priceEur": 187000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae0a2e8ef49d": {
+    "id": "ae0a2e8ef49d",
+    "label": "3 GR GRAND RUE VIEILLE, Le Poujol-sur-Orb",
+    "lat": 43.57878,
+    "lng": 3.059154,
+    "transactions": [
+      {
+        "date": "2020-12-16",
+        "priceEur": 5000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed1eff471528": {
+    "id": "ed1eff471528",
+    "label": "16 LE VIALA, Le Poujol-sur-Orb",
+    "lat": 43.578871,
+    "lng": 3.056546,
+    "transactions": [
+      {
+        "date": "2021-01-25",
+        "priceEur": 236670,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-25",
+        "priceEur": 236670,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "fafa66d21328": {
+    "id": "fafa66d21328",
+    "label": "5630F LE VIALA, Le Poujol-sur-Orb",
+    "lat": 43.578749,
+    "lng": 3.055111,
+    "transactions": [
+      {
+        "date": "2021-01-06",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-06",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6507f8af461": {
+    "id": "b6507f8af461",
+    "label": "3 LOT BELLEVUE, Le Poujol-sur-Orb",
+    "lat": 43.578841,
+    "lng": 3.055401,
+    "transactions": [
+      {
+        "date": "2021-02-15",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-15",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "50fb470627c2": {
+    "id": "50fb470627c2",
+    "label": "11 RUE DES CLOSES, Le Poujol-sur-Orb",
+    "lat": 43.579751,
+    "lng": 3.059475,
+    "transactions": [
+      {
+        "date": "2021-02-25",
+        "priceEur": 67000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "db5187cb7128": {
+    "id": "db5187cb7128",
+    "label": "20 RUE DE L ALLEE, Le Poujol-sur-Orb",
+    "lat": 43.57802,
+    "lng": 3.065013,
+    "transactions": [
+      {
+        "date": "2021-05-14",
+        "priceEur": 104600,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-14",
+        "priceEur": 104600,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-14",
+        "priceEur": 104600,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "458704155066": {
+    "id": "458704155066",
+    "label": "10 RUE DE L ALLEE, Le Poujol-sur-Orb",
+    "lat": 43.578809,
+    "lng": 3.063754,
+    "transactions": [
+      {
+        "date": "2021-05-25",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-25",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-25",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d096f82033c": {
+    "id": "0d096f82033c",
+    "label": "2 RUE DU VIEUX FOUR, Le Poujol-sur-Orb",
+    "lat": 43.580005,
+    "lng": 3.060267,
+    "transactions": [
+      {
+        "date": "2021-06-02",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d523629a3c6": {
+    "id": "2d523629a3c6",
+    "label": "11 GR GRAND RUE, Le Poujol-sur-Orb",
+    "lat": 43.578738,
+    "lng": 3.058897,
+    "transactions": [
+      {
+        "date": "2021-06-09",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "08f3bc0f1c52": {
+    "id": "08f3bc0f1c52",
+    "label": "5 RUE DES DOCKS, Le Poujol-sur-Orb",
+    "lat": 43.579406,
+    "lng": 3.061305,
+    "transactions": [
+      {
+        "date": "2021-06-11",
+        "priceEur": 145000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-11",
+        "priceEur": 145000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 23,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-11",
+        "priceEur": 145000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 33,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-11",
+        "priceEur": 145000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "30ba51ddaf22": {
+    "id": "30ba51ddaf22",
+    "label": "9 GR GRAND RUE, Le Poujol-sur-Orb",
+    "lat": 43.578726,
+    "lng": 3.058778,
+    "transactions": [
+      {
+        "date": "2021-07-20",
+        "priceEur": 58000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9e55857b4fd": {
+    "id": "b9e55857b4fd",
+    "label": "18 RUE DES CLOSES, Le Poujol-sur-Orb",
+    "lat": 43.579666,
+    "lng": 3.058813,
+    "transactions": [
+      {
+        "date": "2025-03-31",
+        "priceEur": 58000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-07",
+        "priceEur": 58000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd1c42f3b827": {
+    "id": "fd1c42f3b827",
+    "label": "20 RUE DES POUNTILS, Le Poujol-sur-Orb",
+    "lat": 43.580147,
+    "lng": 3.064965,
+    "transactions": [
+      {
+        "date": "2021-08-04",
+        "priceEur": 364678,
+        "typeLocal": "Appartement",
+        "surfaceM2": 23,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-04",
+        "priceEur": 364678,
+        "typeLocal": "Appartement",
+        "surfaceM2": 23,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-04",
+        "priceEur": 364678,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-04",
+        "priceEur": 364678,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ebbd30f917b": {
+    "id": "9ebbd30f917b",
+    "label": "1 RUE DU FOUR, Le Poujol-sur-Orb",
+    "lat": 43.579632,
+    "lng": 3.061025,
+    "transactions": [
+      {
+        "date": "2022-01-24",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-24",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-12",
+        "priceEur": 76000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-12",
+        "priceEur": 76000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "d8ad37f6a246": {
+    "id": "d8ad37f6a246",
+    "label": "8 LE VIALA, Le Poujol-sur-Orb",
+    "lat": 43.57862,
+    "lng": 3.054238,
+    "transactions": [
+      {
+        "date": "2021-10-28",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "3cf2baca7bf2": {
+    "id": "3cf2baca7bf2",
+    "label": "16 RUE DE L ALLEE, Le Poujol-sur-Orb",
+    "lat": 43.579336,
+    "lng": 3.064273,
+    "transactions": [
+      {
+        "date": "2021-11-26",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "c51d29634946": {
+    "id": "c51d29634946",
+    "label": "9 RUE DES POUNTILS, Le Poujol-sur-Orb",
+    "lat": 43.579597,
+    "lng": 3.063222,
+    "transactions": [
+      {
+        "date": "2021-11-26",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "07d90933a1b1": {
+    "id": "07d90933a1b1",
+    "label": "22 RUE DU RIOU, Le Poujol-sur-Orb",
+    "lat": 43.578725,
+    "lng": 3.057024,
+    "transactions": [
+      {
+        "date": "2021-12-22",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "ebdf4d212bd0": {
+    "id": "ebdf4d212bd0",
+    "label": "3 RUE DU FOUR, Le Poujol-sur-Orb",
+    "lat": 43.579575,
+    "lng": 3.061009,
+    "transactions": [
+      {
+        "date": "2021-12-16",
+        "priceEur": 10000,
+        "typeLocal": "Maison",
+        "surfaceM2": 27,
+        "isVefa": false
+      }
+    ]
+  },
+  "710094c2fb09": {
+    "id": "710094c2fb09",
+    "label": "1 RUE DU VIEUX FOUR, Le Poujol-sur-Orb",
+    "lat": 43.580157,
+    "lng": 3.060167,
+    "transactions": [
+      {
+        "date": "2022-01-28",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "8cf2043d6c68": {
+    "id": "8cf2043d6c68",
+    "label": "11 RUE DES DOCKS, Le Poujol-sur-Orb",
+    "lat": 43.579548,
+    "lng": 3.061103,
+    "transactions": [
+      {
+        "date": "2022-02-15",
+        "priceEur": 116000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae570797a71c": {
+    "id": "ae570797a71c",
+    "label": "5 RUE DU FOUR, Le Poujol-sur-Orb",
+    "lat": 43.579484,
+    "lng": 3.061118,
+    "transactions": [
+      {
+        "date": "2022-02-15",
+        "priceEur": 116000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "0bff26e7ba6d": {
+    "id": "0bff26e7ba6d",
+    "label": "2 RUE LE GRAND CALADOU, Le Poujol-sur-Orb",
+    "lat": 43.579492,
+    "lng": 3.059085,
+    "transactions": [
+      {
+        "date": "2022-02-24",
+        "priceEur": 228000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "537c48e17417": {
+    "id": "537c48e17417",
+    "label": "13 RUE DES POUNTILS, Le Poujol-sur-Orb",
+    "lat": 43.579771,
+    "lng": 3.063388,
+    "transactions": [
+      {
+        "date": "2022-03-30",
+        "priceEur": 148000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 91,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-30",
+        "priceEur": 148000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "09db8845e062": {
+    "id": "09db8845e062",
+    "label": "15 GR GRAND RUE, Le Poujol-sur-Orb",
+    "lat": 43.578731,
+    "lng": 3.059475,
+    "transactions": [
+      {
+        "date": "2022-07-16",
+        "priceEur": 76000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "46e14dfba5a9": {
+    "id": "46e14dfba5a9",
+    "label": "20 RUE DES DOCKS, Le Poujol-sur-Orb",
+    "lat": 43.579802,
+    "lng": 3.061056,
+    "transactions": [
+      {
+        "date": "2022-07-18",
+        "priceEur": 52000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e43b8b45210": {
+    "id": "1e43b8b45210",
+    "label": "4 RUE DU FOUR, Le Poujol-sur-Orb",
+    "lat": 43.57941,
+    "lng": 3.060851,
+    "transactions": [
+      {
+        "date": "2022-08-12",
+        "priceEur": 17000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "8429cc51b14c": {
+    "id": "8429cc51b14c",
+    "label": "5634F LE VIALA, Le Poujol-sur-Orb",
+    "lat": 43.57846,
+    "lng": 3.054587,
+    "transactions": [
+      {
+        "date": "2022-09-01",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "a75f213feb58": {
+    "id": "a75f213feb58",
+    "label": "2B RUE MONTEE DE LA PLACE, Le Poujol-sur-Orb",
+    "lat": 43.580121,
+    "lng": 3.061588,
+    "transactions": [
+      {
+        "date": "2022-09-08",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "d4d71154be19": {
+    "id": "d4d71154be19",
+    "label": "7 RUE DE LA CLASTRE, Le Poujol-sur-Orb",
+    "lat": 43.580311,
+    "lng": 3.059647,
+    "transactions": [
+      {
+        "date": "2022-08-30",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f7e6d28b66f": {
+    "id": "3f7e6d28b66f",
+    "label": "1 RUE DU PORCHE, Le Poujol-sur-Orb",
+    "lat": 43.579138,
+    "lng": 3.060262,
+    "transactions": [
+      {
+        "date": "2022-10-05",
+        "priceEur": 111150,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "0dbb80e04e3b": {
+    "id": "0dbb80e04e3b",
+    "label": "32 GR GRAND RUE, Le Poujol-sur-Orb",
+    "lat": 43.578648,
+    "lng": 3.060634,
+    "transactions": [
+      {
+        "date": "2022-10-21",
+        "priceEur": 141000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-21",
+        "priceEur": 141000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-21",
+        "priceEur": 141000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  },
+  "db8be1e1a2ef": {
+    "id": "db8be1e1a2ef",
+    "label": "42 GR GRAND RUE, Le Poujol-sur-Orb",
+    "lat": 43.578694,
+    "lng": 3.060999,
+    "transactions": [
+      {
+        "date": "2022-12-07",
+        "priceEur": 96900,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "24ffadbf1d29": {
+    "id": "24ffadbf1d29",
+    "label": "13 RUE DES CLOSES, Le Poujol-sur-Orb",
+    "lat": 43.579669,
+    "lng": 3.05949,
+    "transactions": [
+      {
+        "date": "2022-12-20",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "34148646eb6e": {
+    "id": "34148646eb6e",
+    "label": "6 RUE DU VIEUX FOUR, Le Poujol-sur-Orb",
+    "lat": 43.580108,
+    "lng": 3.060465,
+    "transactions": [
+      {
+        "date": "2023-02-13",
+        "priceEur": 103000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "a646db8c31a5": {
+    "id": "a646db8c31a5",
+    "label": "31 GR GRAND RUE VIEILLE, Le Poujol-sur-Orb",
+    "lat": 43.579113,
+    "lng": 3.060557,
+    "transactions": [
+      {
+        "date": "2023-02-24",
+        "priceEur": 39223,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "99a67e2a827b": {
+    "id": "99a67e2a827b",
+    "label": "5629F LE VIALA, Le Poujol-sur-Orb",
+    "lat": 43.578976,
+    "lng": 3.057304,
+    "transactions": [
+      {
+        "date": "2023-03-31",
+        "priceEur": 2720,
+        "typeLocal": "Maison",
+        "surfaceM2": 174,
+        "isVefa": false
+      }
+    ]
+  },
+  "0128ecdf1803": {
+    "id": "0128ecdf1803",
+    "label": "20B GR GRAND RUE, Le Poujol-sur-Orb",
+    "lat": 43.578478,
+    "lng": 3.059131,
+    "transactions": [
+      {
+        "date": "2023-05-17",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5820ebc7c41": {
+    "id": "d5820ebc7c41",
+    "label": "1 RUE DES CAMINIERES, Le Poujol-sur-Orb",
+    "lat": 43.577815,
+    "lng": 3.060607,
+    "transactions": [
+      {
+        "date": "2023-07-06",
+        "priceEur": 222000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c6bff4ee270": {
+    "id": "4c6bff4ee270",
+    "label": "4 RUE LE PETIT CALADOU, Le Poujol-sur-Orb",
+    "lat": 43.57892,
+    "lng": 3.059618,
+    "transactions": [
+      {
+        "date": "2023-07-24",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9acd368c206": {
+    "id": "b9acd368c206",
+    "label": "7 RUE LE GRAND CALADOU, Le Poujol-sur-Orb",
+    "lat": 43.579182,
+    "lng": 3.058912,
+    "transactions": [
+      {
+        "date": "2023-10-05",
+        "priceEur": 57150,
+        "typeLocal": "Maison",
+        "surfaceM2": 39,
+        "isVefa": false
+      }
+    ]
+  },
+  "9053d32f2031": {
+    "id": "9053d32f2031",
+    "label": "60 GR GRAND RUE, Le Poujol-sur-Orb",
+    "lat": 43.579036,
+    "lng": 3.062491,
+    "transactions": [
+      {
+        "date": "2023-10-12",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "483f03ad9b95": {
+    "id": "483f03ad9b95",
+    "label": "22 GR GRAND RUE, Le Poujol-sur-Orb",
+    "lat": 43.578487,
+    "lng": 3.059381,
+    "transactions": [
+      {
+        "date": "2023-11-06",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "3913ffeb528c": {
+    "id": "3913ffeb528c",
+    "label": "5232 RUE DE LA GARE, Le Poujol-sur-Orb",
+    "lat": 43.579404,
+    "lng": 3.062557,
+    "transactions": [
+      {
+        "date": "2023-11-21",
+        "priceEur": 54000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "f56906a31b73": {
+    "id": "f56906a31b73",
+    "label": "3 RUE DES REMPARTS, Le Poujol-sur-Orb",
+    "lat": 43.579427,
+    "lng": 3.060776,
+    "transactions": [
+      {
+        "date": "2023-12-19",
+        "priceEur": 62000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "ffb8fa439861": {
+    "id": "ffb8fa439861",
+    "label": "8 RUE DU PORCHE, Le Poujol-sur-Orb",
+    "lat": 43.579233,
+    "lng": 3.060089,
+    "transactions": [
+      {
+        "date": "2024-01-23",
+        "priceEur": 74550,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "55d1092af333": {
+    "id": "55d1092af333",
+    "label": "12B RUE DES DOCKS, Le Poujol-sur-Orb",
+    "lat": 43.579657,
+    "lng": 3.061261,
+    "transactions": [
+      {
+        "date": "2024-01-25",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "03be2824a7c8": {
+    "id": "03be2824a7c8",
+    "label": "12 RUE DES DOCKS, Le Poujol-sur-Orb",
+    "lat": 43.579642,
+    "lng": 3.061457,
+    "transactions": [
+      {
+        "date": "2024-01-25",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-25",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-25",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "7733d016fb9b": {
+    "id": "7733d016fb9b",
+    "label": "2 RUE DE LA PIALE, Le Poujol-sur-Orb",
+    "lat": 43.579871,
+    "lng": 3.061785,
+    "transactions": [
+      {
+        "date": "2024-01-31",
+        "priceEur": 141000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-31",
+        "priceEur": 141000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "8dd7ef9e9da7": {
+    "id": "8dd7ef9e9da7",
+    "label": "2 RUE DES LAVOIRS, Le Poujol-sur-Orb",
+    "lat": 43.578988,
+    "lng": 3.059823,
+    "transactions": [
+      {
+        "date": "2024-03-29",
+        "priceEur": 83500,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "99b4464ba822": {
+    "id": "99b4464ba822",
+    "label": "12 RUE DES LAVOIRS, Le Poujol-sur-Orb",
+    "lat": 43.579532,
+    "lng": 3.059815,
+    "transactions": [
+      {
+        "date": "2024-03-26",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "12296a5b1489": {
+    "id": "12296a5b1489",
+    "label": "9 RUE LE PETIT CALADOU, Le Poujol-sur-Orb",
+    "lat": 43.578846,
+    "lng": 3.059539,
+    "transactions": [
+      {
+        "date": "2025-02-12",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-24",
+        "priceEur": 32000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae51c9c862f9": {
+    "id": "ae51c9c862f9",
+    "label": "33 GR GRAND RUE, Le Poujol-sur-Orb",
+    "lat": 43.578949,
+    "lng": 3.0612,
+    "transactions": [
+      {
+        "date": "2024-04-23",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-23",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "d0ce442d6c4a": {
+    "id": "d0ce442d6c4a",
+    "label": "34 GR GRAND RUE, Le Poujol-sur-Orb",
+    "lat": 43.578679,
+    "lng": 3.060716,
+    "transactions": [
+      {
+        "date": "2024-05-29",
+        "priceEur": 49000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "e02ba5d70ed1": {
+    "id": "e02ba5d70ed1",
+    "label": "2B RUE DE L EGLISE, Le Poujol-sur-Orb",
+    "lat": 43.579955,
+    "lng": 3.061054,
+    "transactions": [
+      {
+        "date": "2024-09-17",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 22,
+        "isVefa": false
+      }
+    ]
+  },
+  "6c19a796297e": {
+    "id": "6c19a796297e",
+    "label": "1 RUE DU RIOU, Le Poujol-sur-Orb",
+    "lat": 43.578364,
+    "lng": 3.057974,
+    "transactions": [
+      {
+        "date": "2024-10-15",
+        "priceEur": 108420,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "322e92bef585": {
+    "id": "322e92bef585",
+    "label": "17 RUE DES POUNTILS, Le Poujol-sur-Orb",
+    "lat": 43.580243,
+    "lng": 3.06379,
+    "transactions": [
+      {
+        "date": "2024-11-20",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-20",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd7556fef3d5": {
+    "id": "fd7556fef3d5",
+    "label": "1 RUE DES REMPARTS, Le Poujol-sur-Orb",
+    "lat": 43.579478,
+    "lng": 3.060873,
+    "transactions": [
+      {
+        "date": "2024-12-04",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ac6fe326aee": {
+    "id": "6ac6fe326aee",
+    "label": "3 RUE DES CLOSES, Le Poujol-sur-Orb",
+    "lat": 43.57985,
+    "lng": 3.059805,
+    "transactions": [
+      {
+        "date": "2024-12-12",
+        "priceEur": 29250,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "f09f02079458": {
+    "id": "f09f02079458",
+    "label": "9 RUE DES DOCKS, Le Poujol-sur-Orb",
+    "lat": 43.579526,
+    "lng": 3.061188,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 82000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "ecddcdec9806": {
+    "id": "ecddcdec9806",
+    "label": "2 RUE DU CENTRE, Le Poujol-sur-Orb",
+    "lat": 43.579384,
+    "lng": 3.061198,
+    "transactions": [
+      {
+        "date": "2025-01-15",
+        "priceEur": 48000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "d9f769390cbf": {
+    "id": "d9f769390cbf",
+    "label": "2 RUE DU RIOU, Le Poujol-sur-Orb",
+    "lat": 43.578832,
+    "lng": 3.057884,
+    "transactions": [
+      {
+        "date": "2025-01-27",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a9e4849b16f": {
+    "id": "9a9e4849b16f",
+    "label": "4 RUE DU RIOU, Le Poujol-sur-Orb",
+    "lat": 43.57875,
+    "lng": 3.057901,
+    "transactions": [
+      {
+        "date": "2025-01-27",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 33,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-27",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 33,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-27",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  },
+  "2adbc68ea66a": {
+    "id": "2adbc68ea66a",
+    "label": "28 RUE DU RIOU, Le Poujol-sur-Orb",
+    "lat": 43.578752,
+    "lng": 3.056499,
+    "transactions": [
+      {
+        "date": "2025-02-06",
+        "priceEur": 8000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "7827648d0f1e": {
+    "id": "7827648d0f1e",
+    "label": "9 RUE DU FOUR, Le Poujol-sur-Orb",
+    "lat": 43.57937,
+    "lng": 3.061022,
+    "transactions": [
+      {
+        "date": "2025-03-18",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "ace54869fe9c": {
+    "id": "ace54869fe9c",
+    "label": "1T RUE DU VIEUX FOUR, Le Poujol-sur-Orb",
+    "lat": 43.580154,
+    "lng": 3.060004,
+    "transactions": [
+      {
+        "date": "2025-03-31",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "ecb396d2d7d5": {
+    "id": "ecb396d2d7d5",
+    "label": "5015 DOMAINE DE MONTMAU, Saint-Pons-de-Mauchiens",
+    "lat": 43.522322,
+    "lng": 3.493807,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 2143400,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-30",
+        "priceEur": 2143400,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-30",
+        "priceEur": 2143400,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  }
+}

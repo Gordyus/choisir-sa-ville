@@ -1,0 +1,24 @@
+{
+  "a5e6bfe03d0a": {
+    "id": "a5e6bfe03d0a",
+    "label": "5122 LA CANOURGUE, Saint-Étienne-de-Gourgas",
+    "lat": 43.809715,
+    "lng": 3.378103,
+    "transactions": [
+      {
+        "date": "2023-07-26",
+        "priceEur": 1600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 293,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-26",
+        "priceEur": 1600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

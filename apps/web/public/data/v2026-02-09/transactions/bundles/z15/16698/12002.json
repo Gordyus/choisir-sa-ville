@@ -1,0 +1,46 @@
+{
+  "61140c82b9a4": {
+    "id": "61140c82b9a4",
+    "label": "365 CHE NEUF, Agde",
+    "lat": 43.30224,
+    "lng": 3.452155,
+    "transactions": [
+      {
+        "date": "2020-12-16",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-16",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "19b59f1dd2fd": {
+    "id": "19b59f1dd2fd",
+    "label": "495 IMP DU GEAI, Agde",
+    "lat": 43.304538,
+    "lng": 3.457288,
+    "transactions": [
+      {
+        "date": "2024-08-19",
+        "priceEur": 2500,
+        "typeLocal": "Maison",
+        "surfaceM2": 15,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-19",
+        "priceEur": 2500,
+        "typeLocal": "Maison",
+        "surfaceM2": 15,
+        "isVefa": false
+      }
+    ]
+  }
+}

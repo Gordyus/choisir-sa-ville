@@ -1,0 +1,527 @@
+{
+  "ed90c17739e9": {
+    "id": "ed90c17739e9",
+    "label": "1 RUE DES VALS, Bédarieux",
+    "lat": 43.61192,
+    "lng": 3.150605,
+    "transactions": [
+      {
+        "date": "2020-10-28",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "31d3252fe23e": {
+    "id": "31d3252fe23e",
+    "label": "3 RUE DES VALS, Bédarieux",
+    "lat": 43.612032,
+    "lng": 3.150415,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 194000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "3566830fb8c4": {
+    "id": "3566830fb8c4",
+    "label": "53 CANTALAURES, Bédarieux",
+    "lat": 43.611906,
+    "lng": 3.146518,
+    "transactions": [
+      {
+        "date": "2020-12-17",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "17c600cd818e": {
+    "id": "17c600cd818e",
+    "label": "79 AV JEAN JAURES, Bédarieux",
+    "lat": 43.609989,
+    "lng": 3.150958,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "2fb48df4f9ef": {
+    "id": "2fb48df4f9ef",
+    "label": "6 TRA DE LA COMPAGNIE, Bédarieux",
+    "lat": 43.604453,
+    "lng": 3.145019,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 84000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "121c5b4b42ba": {
+    "id": "121c5b4b42ba",
+    "label": "77 AV JEAN JAURES, Bédarieux",
+    "lat": 43.610185,
+    "lng": 3.150763,
+    "transactions": [
+      {
+        "date": "2021-05-12",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 107,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-12",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "f02530c05a3c": {
+    "id": "f02530c05a3c",
+    "label": "9011 NISSERGUES, Bédarieux",
+    "lat": 43.604371,
+    "lng": 3.145187,
+    "transactions": [
+      {
+        "date": "2021-08-04",
+        "priceEur": 126000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "46af053cfd61": {
+    "id": "46af053cfd61",
+    "label": "9047 NISSERGUES, Bédarieux",
+    "lat": 43.605038,
+    "lng": 3.145483,
+    "transactions": [
+      {
+        "date": "2021-09-20",
+        "priceEur": 160850,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "5bb7b14b77ef": {
+    "id": "5bb7b14b77ef",
+    "label": "9004 CAUSSE DE NISSERGUES, Bédarieux",
+    "lat": 43.605574,
+    "lng": 3.143416,
+    "transactions": [
+      {
+        "date": "2021-09-21",
+        "priceEur": 114705,
+        "typeLocal": "Maison",
+        "surfaceM2": 34,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-21",
+        "priceEur": 114705,
+        "typeLocal": "Maison",
+        "surfaceM2": 34,
+        "isVefa": false
+      }
+    ]
+  },
+  "28f189967d6c": {
+    "id": "28f189967d6c",
+    "label": "269 CHE DE CANTALAURES, Bédarieux",
+    "lat": 43.610653,
+    "lng": 3.146973,
+    "transactions": [
+      {
+        "date": "2022-11-14",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-01",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "cbca1615f9eb": {
+    "id": "cbca1615f9eb",
+    "label": "9040 NISSERGUES, Bédarieux",
+    "lat": 43.604896,
+    "lng": 3.145288,
+    "transactions": [
+      {
+        "date": "2022-01-28",
+        "priceEur": 74000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "7dfccaf7e5bc": {
+    "id": "7dfccaf7e5bc",
+    "label": "9031 NISSERGUES, Bédarieux",
+    "lat": 43.604949,
+    "lng": 3.144461,
+    "transactions": [
+      {
+        "date": "2022-04-22",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-22",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-22",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "88ddbc5c1193": {
+    "id": "88ddbc5c1193",
+    "label": "14 RTE DE SAINT PONS, Bédarieux",
+    "lat": 43.607322,
+    "lng": 3.150101,
+    "transactions": [
+      {
+        "date": "2022-06-16",
+        "priceEur": 218500,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d75df340384": {
+    "id": "8d75df340384",
+    "label": "9204F RTE DE SAINT PONS, Bédarieux",
+    "lat": 43.607257,
+    "lng": 3.150963,
+    "transactions": [
+      {
+        "date": "2022-07-18",
+        "priceEur": 173600,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "208713446d35": {
+    "id": "208713446d35",
+    "label": "98 AV JEAN JAURES, Bédarieux",
+    "lat": 43.609335,
+    "lng": 3.151851,
+    "transactions": [
+      {
+        "date": "2022-07-20",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-20",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "2004e94318d5": {
+    "id": "2004e94318d5",
+    "label": "9013F CHE DE CANTALAURES, Bédarieux",
+    "lat": 43.611712,
+    "lng": 3.146095,
+    "transactions": [
+      {
+        "date": "2022-09-21",
+        "priceEur": 167850,
+        "typeLocal": "Maison",
+        "surfaceM2": 21,
+        "isVefa": false
+      }
+    ]
+  },
+  "05ba8d9f6d33": {
+    "id": "05ba8d9f6d33",
+    "label": "8 RTE DE SAINT PONS, Bédarieux",
+    "lat": 43.607743,
+    "lng": 3.150333,
+    "transactions": [
+      {
+        "date": "2023-03-02",
+        "priceEur": 183000,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f613eaf80e8": {
+    "id": "4f613eaf80e8",
+    "label": "28 RTE DE SAINT PONS, Bédarieux",
+    "lat": 43.605707,
+    "lng": 3.149105,
+    "transactions": [
+      {
+        "date": "2023-02-13",
+        "priceEur": 126000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "38c764d0b3e8": {
+    "id": "38c764d0b3e8",
+    "label": "72 AV JEAN JAURES, Bédarieux",
+    "lat": 43.611877,
+    "lng": 3.152061,
+    "transactions": [
+      {
+        "date": "2023-03-08",
+        "priceEur": 170000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-08",
+        "priceEur": 170000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-08",
+        "priceEur": 170000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-08",
+        "priceEur": 170000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-08",
+        "priceEur": 170000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 19,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b428b0848b0": {
+    "id": "5b428b0848b0",
+    "label": "9022 NISSERGUES, Bédarieux",
+    "lat": 43.604565,
+    "lng": 3.145048,
+    "transactions": [
+      {
+        "date": "2023-04-27",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "3beb84b7117e": {
+    "id": "3beb84b7117e",
+    "label": "9010F NISSERGUES, Bédarieux",
+    "lat": 43.604355,
+    "lng": 3.145033,
+    "transactions": [
+      {
+        "date": "2023-04-20",
+        "priceEur": 64300,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "aea140a0f1f6": {
+    "id": "aea140a0f1f6",
+    "label": "9012F CAUSSE DE NISSERGUES, Bédarieux",
+    "lat": 43.60794,
+    "lng": 3.145678,
+    "transactions": [
+      {
+        "date": "2024-07-26",
+        "priceEur": 249000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-26",
+        "priceEur": 249000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "a066baa80a90": {
+    "id": "a066baa80a90",
+    "label": "9046 NISSERGUES, Bédarieux",
+    "lat": 43.605157,
+    "lng": 3.145416,
+    "transactions": [
+      {
+        "date": "2024-09-16",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "739af8a2bcc5": {
+    "id": "739af8a2bcc5",
+    "label": "12 RTE DE SAINT PONS, Bédarieux",
+    "lat": 43.607383,
+    "lng": 3.15021,
+    "transactions": [
+      {
+        "date": "2024-09-24",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-24",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "763936e58582": {
+    "id": "763936e58582",
+    "label": "71 AV JEAN JAURES, Bédarieux",
+    "lat": 43.611538,
+    "lng": 3.15161,
+    "transactions": [
+      {
+        "date": "2024-10-03",
+        "priceEur": 85000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-03",
+        "priceEur": 85000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-03",
+        "priceEur": 85000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "61368a4a1cf1": {
+    "id": "61368a4a1cf1",
+    "label": "10 RTE DE SAINT PONS, Bédarieux",
+    "lat": 43.607506,
+    "lng": 3.150156,
+    "transactions": [
+      {
+        "date": "2024-10-08",
+        "priceEur": 34000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-08",
+        "priceEur": 34000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "85473816dd70": {
+    "id": "85473816dd70",
+    "label": "12 RUE GUSTAVE EIFFEL, Bédarieux",
+    "lat": 43.604881,
+    "lng": 3.14522,
+    "transactions": [
+      {
+        "date": "2024-10-22",
+        "priceEur": 117500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "cdb81399184c": {
+    "id": "cdb81399184c",
+    "label": "226 AV DE NISSERGUES, Bédarieux",
+    "lat": 43.610128,
+    "lng": 3.149561,
+    "transactions": [
+      {
+        "date": "2025-03-06",
+        "priceEur": 167500,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  }
+}

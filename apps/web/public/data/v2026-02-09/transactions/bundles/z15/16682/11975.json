@@ -1,0 +1,135 @@
+{
+  "0c4a840cb4b6": {
+    "id": "0c4a840cb4b6",
+    "label": "36 AV DE LA GARE, Gabian",
+    "lat": 43.518948,
+    "lng": 3.274575,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 230500,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "55e0c493b015": {
+    "id": "55e0c493b015",
+    "label": "5020 AV DE LA GARE, Gabian",
+    "lat": 43.519377,
+    "lng": 3.275105,
+    "transactions": [
+      {
+        "date": "2021-04-26",
+        "priceEur": 237000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d7cf2b97381": {
+    "id": "1d7cf2b97381",
+    "label": "4 RTE DE MONTESQUIEU, Gabian",
+    "lat": 43.518807,
+    "lng": 3.276135,
+    "transactions": [
+      {
+        "date": "2023-03-14",
+        "priceEur": 249900,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-07",
+        "priceEur": 490000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "7cfc3da57784": {
+    "id": "7cfc3da57784",
+    "label": "30 AV DE LA GARE, Gabian",
+    "lat": 43.51834,
+    "lng": 3.274433,
+    "transactions": [
+      {
+        "date": "2023-02-10",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad5b2dedea35": {
+    "id": "ad5b2dedea35",
+    "label": "1 CHE DES MAZES, Gabian",
+    "lat": 43.517888,
+    "lng": 3.274687,
+    "transactions": [
+      {
+        "date": "2023-07-07",
+        "priceEur": 250250,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-07",
+        "priceEur": 250250,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "59ec20cfa8b6": {
+    "id": "59ec20cfa8b6",
+    "label": "3 CHE DES MAZES, Gabian",
+    "lat": 43.517714,
+    "lng": 3.275041,
+    "transactions": [
+      {
+        "date": "2024-03-05",
+        "priceEur": 331570,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      },
+      {
+        "date": "2024-03-05",
+        "priceEur": 331570,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a5187a3005e": {
+    "id": "5a5187a3005e",
+    "label": "6 CHE DES MAZES, Gabian",
+    "lat": 43.518041,
+    "lng": 3.27514,
+    "transactions": [
+      {
+        "date": "2025-03-21",
+        "priceEur": 351500,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-21",
+        "priceEur": 351500,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  }
+}

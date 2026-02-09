@@ -1,0 +1,88 @@
+{
+  "67636143d327": {
+    "id": "67636143d327",
+    "label": "9010 CHE DE LA PLAUCHUDE, Mauguio",
+    "lat": 43.60998,
+    "lng": 3.940282,
+    "transactions": [
+      {
+        "date": "2023-12-01",
+        "priceEur": 150,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-01",
+        "priceEur": 150,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-01",
+        "priceEur": 150,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-01",
+        "priceEur": 150,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5397ef5e672": {
+    "id": "c5397ef5e672",
+    "label": "9023 GARRIGUES HAUTES, Mauguio",
+    "lat": 43.608018,
+    "lng": 3.942271,
+    "transactions": [
+      {
+        "date": "2024-04-29",
+        "priceEur": 960660,
+        "typeLocal": "Maison",
+        "surfaceM2": 211,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-29",
+        "priceEur": 960660,
+        "typeLocal": "Maison",
+        "surfaceM2": 211,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-29",
+        "priceEur": 960660,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-29",
+        "priceEur": 960660,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-29",
+        "priceEur": 960660,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-29",
+        "priceEur": 960660,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "3f5089cd1016": {
+    "id": "3f5089cd1016",
+    "label": "6123 CHEMIN DE BEZIERS, Nissan-lez-Enserune",
+    "lat": 43.296077,
+    "lng": 3.142252,
+    "transactions": [
+      {
+        "date": "2022-04-22",
+        "priceEur": 205000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-22",
+        "priceEur": 205000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

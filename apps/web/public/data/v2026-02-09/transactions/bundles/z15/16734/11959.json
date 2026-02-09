@@ -1,0 +1,90 @@
+{
+  "77085b037a41": {
+    "id": "77085b037a41",
+    "label": "1000 AV VINCENT AURIOL, Montpellier",
+    "lat": 43.647818,
+    "lng": 3.855108,
+    "transactions": [
+      {
+        "date": "2022-08-18",
+        "priceEur": 250000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-18",
+        "priceEur": 250000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-18",
+        "priceEur": 250000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 171,
+        "isVefa": false
+      }
+    ]
+  },
+  "2cf7689dce38": {
+    "id": "2cf7689dce38",
+    "label": "318E RUE DE THOMASSY, Montpellier",
+    "lat": 43.649289,
+    "lng": 3.853071,
+    "transactions": [
+      {
+        "date": "2023-01-18",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b81bce8c6ce": {
+    "id": "8b81bce8c6ce",
+    "label": "1290 AV DES ORCHIDEES, Saint-Clément-de-Rivière",
+    "lat": 43.651459,
+    "lng": 3.85287,
+    "transactions": [
+      {
+        "date": "2023-08-23",
+        "priceEur": 718150,
+        "typeLocal": "Maison",
+        "surfaceM2": 230,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-23",
+        "priceEur": 718150,
+        "typeLocal": "Maison",
+        "surfaceM2": 230,
+        "isVefa": false
+      }
+    ]
+  },
+  "77aba4f0a712": {
+    "id": "77aba4f0a712",
+    "label": "1020 AV DES ORCHIDEES, Saint-Clément-de-Rivière",
+    "lat": 43.651733,
+    "lng": 3.851351,
+    "transactions": [
+      {
+        "date": "2025-02-13",
+        "priceEur": 826500,
+        "typeLocal": "Maison",
+        "surfaceM2": 240,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-13",
+        "priceEur": 826500,
+        "typeLocal": "Maison",
+        "surfaceM2": 240,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "1e5e49778796": {
+    "id": "1e5e49778796",
+    "label": "5015 LAMALOU, Rouet",
+    "lat": 43.824364,
+    "lng": 3.794281,
+    "transactions": [
+      {
+        "date": "2023-09-18",
+        "priceEur": 252400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-02",
+        "priceEur": 299387,
+        "typeLocal": "Appartement",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "e91b691776cf": {
+    "id": "e91b691776cf",
+    "label": "416F LAMALOU, Rouet",
+    "lat": 43.824412,
+    "lng": 3.794457,
+    "transactions": [
+      {
+        "date": "2022-05-31",
+        "priceEur": 2320000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-31",
+        "priceEur": 2320000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-31",
+        "priceEur": 2320000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 81,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-31",
+        "priceEur": 2320000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 92,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-31",
+        "priceEur": 2320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 253,
+        "isVefa": false
+      }
+    ]
+  }
+}

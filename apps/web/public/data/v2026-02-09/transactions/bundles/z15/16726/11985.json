@@ -1,0 +1,167 @@
+{
+  "bdee150fe44c": {
+    "id": "bdee150fe44c",
+    "label": "8 RUE SEBASTIEN BOURDON, Frontignan",
+    "lat": 43.444863,
+    "lng": 3.758152,
+    "transactions": [
+      {
+        "date": "2021-10-22",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "d7283d8d10c8": {
+    "id": "d7283d8d10c8",
+    "label": "3 RUE DU PUITS PASCAL, Frontignan",
+    "lat": 43.44459,
+    "lng": 3.757438,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 246380,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9344eed0315": {
+    "id": "b9344eed0315",
+    "label": "9068 QUAI DU CANAL, Frontignan",
+    "lat": 43.44467,
+    "lng": 3.761483,
+    "transactions": [
+      {
+        "date": "2022-07-12",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "031d57f74ae8": {
+    "id": "031d57f74ae8",
+    "label": "24 BD DE LA REPUBLIQUE, Frontignan",
+    "lat": 43.444642,
+    "lng": 3.758165,
+    "transactions": [
+      {
+        "date": "2022-11-07",
+        "priceEur": 145981,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      }
+    ]
+  },
+  "863070748412": {
+    "id": "863070748412",
+    "label": "8 RUE DU PLAN D ENCARNEAU, Frontignan",
+    "lat": 43.444875,
+    "lng": 3.757417,
+    "transactions": [
+      {
+        "date": "2023-02-09",
+        "priceEur": 157000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "f452eca3b24d": {
+    "id": "f452eca3b24d",
+    "label": "9006 PLAN DU BASSIN, Frontignan",
+    "lat": 43.444892,
+    "lng": 3.759525,
+    "transactions": [
+      {
+        "date": "2023-01-31",
+        "priceEur": 239000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "770cc081a563": {
+    "id": "770cc081a563",
+    "label": "11 RUE DU PONT, Frontignan",
+    "lat": 43.444796,
+    "lng": 3.758103,
+    "transactions": [
+      {
+        "date": "2023-02-15",
+        "priceEur": 190400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ae9962f6261": {
+    "id": "7ae9962f6261",
+    "label": "29 QUAI DE CARAMUS, Frontignan",
+    "lat": 43.444643,
+    "lng": 3.763905,
+    "transactions": [
+      {
+        "date": "2024-04-04",
+        "priceEur": 85000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "03138c4f9a1d": {
+    "id": "03138c4f9a1d",
+    "label": "27 BD DE LA REPUBLIQUE, Frontignan",
+    "lat": 43.444697,
+    "lng": 3.758656,
+    "transactions": [
+      {
+        "date": "2024-05-27",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "65e2eb39e6c3": {
+    "id": "65e2eb39e6c3",
+    "label": "4 RUE DU CANAL, Frontignan",
+    "lat": 43.444365,
+    "lng": 3.757765,
+    "transactions": [
+      {
+        "date": "2024-09-23",
+        "priceEur": 109000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "f137edfb3b7e": {
+    "id": "f137edfb3b7e",
+    "label": "9 IMP JOSEPH DELTEIL, Frontignan",
+    "lat": 43.442923,
+    "lng": 3.75783,
+    "transactions": [
+      {
+        "date": "2025-03-04",
+        "priceEur": 183000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

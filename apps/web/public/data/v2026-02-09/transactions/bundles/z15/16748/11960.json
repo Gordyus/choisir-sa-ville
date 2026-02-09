@@ -1,0 +1,47 @@
+{
+  "c469933f6de3": {
+    "id": "c469933f6de3",
+    "label": "80 BD DE MASSANE, Baillargues",
+    "lat": 43.643564,
+    "lng": 4.007606,
+    "transactions": [
+      {
+        "date": "2023-11-24",
+        "priceEur": 765050,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c20528464e0": {
+    "id": "5c20528464e0",
+    "label": "9019 AV DE BAILLARGUES, Mauguio",
+    "lat": 43.640461,
+    "lng": 4.006342,
+    "transactions": [
+      {
+        "date": "2024-04-02",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "19e543d52344": {
+    "id": "19e543d52344",
+    "label": "1 LE PERAS, Mauguio",
+    "lat": 43.640491,
+    "lng": 4.006515,
+    "transactions": [
+      {
+        "date": "2024-04-02",
+        "priceEur": 250000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "02cda1a858b6": {
+    "id": "02cda1a858b6",
+    "label": "21 RUE LE DEVESOUS, Fontanès",
+    "lat": 43.792309,
+    "lng": 3.915398,
+    "transactions": [
+      {
+        "date": "2021-02-10",
+        "priceEur": 415000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "97e1bbd668c3": {
+    "id": "97e1bbd668c3",
+    "label": "7B IMP LE DEVESOUS, Fontanès",
+    "lat": 43.792662,
+    "lng": 3.914993,
+    "transactions": [
+      {
+        "date": "2021-03-05",
+        "priceEur": 347550,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "95f220b55999": {
+    "id": "95f220b55999",
+    "label": "17 RUE DE L'EGLISE, Fontanès",
+    "lat": 43.793672,
+    "lng": 3.914767,
+    "transactions": [
+      {
+        "date": "2022-01-14",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "f95dd0895bd3": {
+    "id": "f95dd0895bd3",
+    "label": "5024F LES TERRES DE L AIRE, Fontanès",
+    "lat": 43.793631,
+    "lng": 3.912268,
+    "transactions": [
+      {
+        "date": "2023-01-23",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "e22809fcfad6": {
+    "id": "e22809fcfad6",
+    "label": "4 RUE PAUL RICOME, Fontanès",
+    "lat": 43.793786,
+    "lng": 3.912139,
+    "transactions": [
+      {
+        "date": "2023-03-06",
+        "priceEur": 602500,
+        "typeLocal": "Maison",
+        "surfaceM2": 260,
+        "isVefa": false
+      }
+    ]
+  },
+  "6176005641cf": {
+    "id": "6176005641cf",
+    "label": "11 IMP LE DEVESOUS, Fontanès",
+    "lat": 43.793158,
+    "lng": 3.915268,
+    "transactions": [
+      {
+        "date": "2024-02-27",
+        "priceEur": 424585,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-27",
+        "priceEur": 424585,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "4abc4e5c66c9": {
+    "id": "4abc4e5c66c9",
+    "label": "10 IMP LE DEVESOUS, Fontanès",
+    "lat": 43.79308,
+    "lng": 3.914922,
+    "transactions": [
+      {
+        "date": "2024-06-26",
+        "priceEur": 515980,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-26",
+        "priceEur": 515980,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd1a3415d0c3": {
+    "id": "cd1a3415d0c3",
+    "label": "1 RUE PUITS DES MIRABAUD, Fontanès",
+    "lat": 43.794417,
+    "lng": 3.913425,
+    "transactions": [
+      {
+        "date": "2024-11-22",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "e3039d9d1ac5": {
+    "id": "e3039d9d1ac5",
+    "label": "11 RUE DE L'EGLISE, Fontanès",
+    "lat": 43.793759,
+    "lng": 3.913551,
+    "transactions": [
+      {
+        "date": "2024-12-06",
+        "priceEur": 131000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

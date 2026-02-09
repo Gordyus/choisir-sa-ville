@@ -1,0 +1,77 @@
+{
+  "80a99c7e26fa": {
+    "id": "80a99c7e26fa",
+    "label": "109 CHEM DU LAVOIR, Le Triadou",
+    "lat": 43.741342,
+    "lng": 3.852365,
+    "transactions": [
+      {
+        "date": "2020-08-21",
+        "priceEur": 488593,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "d4ed8e1c5106": {
+    "id": "d4ed8e1c5106",
+    "label": "15 RUE DU GRENACHE, Le Triadou",
+    "lat": 43.741501,
+    "lng": 3.853651,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 475000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "e662eefd7156": {
+    "id": "e662eefd7156",
+    "label": "5026 LA CONFRERIE, Le Triadou",
+    "lat": 43.740117,
+    "lng": 3.853348,
+    "transactions": [
+      {
+        "date": "2022-10-28",
+        "priceEur": 608870,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e3a7db97f3c": {
+    "id": "4e3a7db97f3c",
+    "label": "4 RUE DE LA SYRAH, Le Triadou",
+    "lat": 43.739514,
+    "lng": 3.854715,
+    "transactions": [
+      {
+        "date": "2023-08-07",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "e22b486a133d": {
+    "id": "e22b486a133d",
+    "label": "7 RUE DU CARIGNAN, Le Triadou",
+    "lat": 43.740891,
+    "lng": 3.854972,
+    "transactions": [
+      {
+        "date": "2024-06-17",
+        "priceEur": 384440,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  }
+}

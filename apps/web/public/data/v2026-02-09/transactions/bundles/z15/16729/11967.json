@@ -1,0 +1,646 @@
+{
+  "b8cc2a46d320": {
+    "id": "b8cc2a46d320",
+    "label": "19 RUE DES CORNEILLES, Lavérune",
+    "lat": 43.582157,
+    "lng": 3.800467,
+    "transactions": [
+      {
+        "date": "2020-07-23",
+        "priceEur": 296500,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "401e469a5d55": {
+    "id": "401e469a5d55",
+    "label": "8 RUE DU PRE ST MICHEL, Lavérune",
+    "lat": 43.587903,
+    "lng": 3.800576,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 356000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a199c75e0cf": {
+    "id": "5a199c75e0cf",
+    "label": "2 RUE DES ARBOUSIERS, Lavérune",
+    "lat": 43.586469,
+    "lng": 3.797808,
+    "transactions": [
+      {
+        "date": "2022-11-22",
+        "priceEur": 240000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-04",
+        "priceEur": 239000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-23",
+        "priceEur": 133950,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-15",
+        "priceEur": 131500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "f79361e0e398": {
+    "id": "f79361e0e398",
+    "label": "1 RUE DU POUGET, Lavérune",
+    "lat": 43.581759,
+    "lng": 3.80013,
+    "transactions": [
+      {
+        "date": "2022-09-12",
+        "priceEur": 464820,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-09",
+        "priceEur": 395660,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "f50dd086dd24": {
+    "id": "f50dd086dd24",
+    "label": "7 RUE DES ABIMES, Lavérune",
+    "lat": 43.58396,
+    "lng": 3.801047,
+    "transactions": [
+      {
+        "date": "2020-11-13",
+        "priceEur": 135000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "69c974cdbe99": {
+    "id": "69c974cdbe99",
+    "label": "5 RUE DES CORNEILLES, Lavérune",
+    "lat": 43.58273,
+    "lng": 3.800562,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 282000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "552cdea19a77": {
+    "id": "552cdea19a77",
+    "label": "10T RUE DU SALIDOU, Lavérune",
+    "lat": 43.587443,
+    "lng": 3.797757,
+    "transactions": [
+      {
+        "date": "2021-02-15",
+        "priceEur": 315400,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "1452791287d9": {
+    "id": "1452791287d9",
+    "label": "36 AV DU CHATEAU, Lavérune",
+    "lat": 43.587113,
+    "lng": 3.798263,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 386500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 167,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6f64d6d822e": {
+    "id": "d6f64d6d822e",
+    "label": "11 RUE DU SALIDOU, Lavérune",
+    "lat": 43.586621,
+    "lng": 3.797469,
+    "transactions": [
+      {
+        "date": "2021-05-04",
+        "priceEur": 269500,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "6afcad9b2bf1": {
+    "id": "6afcad9b2bf1",
+    "label": "14 RUE DU SALIDOU, Lavérune",
+    "lat": 43.58758,
+    "lng": 3.797527,
+    "transactions": [
+      {
+        "date": "2021-05-17",
+        "priceEur": 228000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "2dc8a2cf8e2b": {
+    "id": "2dc8a2cf8e2b",
+    "label": "5 RUE DU POUGET, Lavérune",
+    "lat": 43.581724,
+    "lng": 3.799793,
+    "transactions": [
+      {
+        "date": "2021-08-13",
+        "priceEur": 498750,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "81d0ea6c50d3": {
+    "id": "81d0ea6c50d3",
+    "label": "6 RUE DE LA CHARBONNIERE, Lavérune",
+    "lat": 43.583259,
+    "lng": 3.800575,
+    "transactions": [
+      {
+        "date": "2021-10-13",
+        "priceEur": 453700,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "35d5b912e184": {
+    "id": "35d5b912e184",
+    "label": "4 RUE DES CORNEILLES, Lavérune",
+    "lat": 43.582776,
+    "lng": 3.800034,
+    "transactions": [
+      {
+        "date": "2021-11-03",
+        "priceEur": 538500,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d1e1cf6bfdc": {
+    "id": "3d1e1cf6bfdc",
+    "label": "8B RUE DES ARBOUSIERS, Lavérune",
+    "lat": 43.587011,
+    "lng": 3.797962,
+    "transactions": [
+      {
+        "date": "2022-02-14",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "644b15e15741": {
+    "id": "644b15e15741",
+    "label": "13 RUE DES ABIMES, Lavérune",
+    "lat": 43.584166,
+    "lng": 3.800937,
+    "transactions": [
+      {
+        "date": "2022-03-16",
+        "priceEur": 202887,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf17ddfe62ae": {
+    "id": "cf17ddfe62ae",
+    "label": "8 RUE DES COQUELICOTS, Lavérune",
+    "lat": 43.587726,
+    "lng": 3.797805,
+    "transactions": [
+      {
+        "date": "2022-05-06",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "90a81e3f41f6": {
+    "id": "90a81e3f41f6",
+    "label": "6 PLAN DE L'ARAMON, Lavérune",
+    "lat": 43.587198,
+    "lng": 3.799716,
+    "transactions": [
+      {
+        "date": "2022-04-22",
+        "priceEur": 506800,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "9479efc54469": {
+    "id": "9479efc54469",
+    "label": "11 RUE DES CORNEILLES, Lavérune",
+    "lat": 43.582159,
+    "lng": 3.800696,
+    "transactions": [
+      {
+        "date": "2025-02-07",
+        "priceEur": 211900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-16",
+        "priceEur": 233000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2024-12-20",
+        "priceEur": 105000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-23",
+        "priceEur": 215000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-08",
+        "priceEur": 185000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-27",
+        "priceEur": 149000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-19",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 37,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-24",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-29",
+        "priceEur": 90400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-02",
+        "priceEur": 240320,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-10",
+        "priceEur": 255550,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-04",
+        "priceEur": 370350,
+        "typeLocal": "Appartement",
+        "surfaceM2": 93,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-01",
+        "priceEur": 304710,
+        "typeLocal": "Appartement",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-07",
+        "priceEur": 237500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "83b81131d1e4": {
+    "id": "83b81131d1e4",
+    "label": "13 RUE DU PRE ST MICHEL, Lavérune",
+    "lat": 43.588148,
+    "lng": 3.800054,
+    "transactions": [
+      {
+        "date": "2022-06-15",
+        "priceEur": 360130,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9cdae093ec0": {
+    "id": "a9cdae093ec0",
+    "label": "17 RUE DU MAS DE LEPOT, Lavérune",
+    "lat": 43.588308,
+    "lng": 3.79831,
+    "transactions": [
+      {
+        "date": "2022-08-10",
+        "priceEur": 447000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "dc26da7f1fc7": {
+    "id": "dc26da7f1fc7",
+    "label": "27 RUE DES CORNEILLES, Lavérune",
+    "lat": 43.581918,
+    "lng": 3.80043,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 328209,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c0959d2d037": {
+    "id": "8c0959d2d037",
+    "label": "11 RUE DE LA CHARBONNIERE, Lavérune",
+    "lat": 43.583758,
+    "lng": 3.800596,
+    "transactions": [
+      {
+        "date": "2022-08-30",
+        "priceEur": 380850,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "e58c03f277d2": {
+    "id": "e58c03f277d2",
+    "label": "9 RUE DU SALIDOU, Lavérune",
+    "lat": 43.586535,
+    "lng": 3.79744,
+    "transactions": [
+      {
+        "date": "2023-01-16",
+        "priceEur": 310970,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "21a5c5fad710": {
+    "id": "21a5c5fad710",
+    "label": "6 RUE DU SALIDOU, Lavérune",
+    "lat": 43.587009,
+    "lng": 3.797726,
+    "transactions": [
+      {
+        "date": "2023-03-31",
+        "priceEur": 340100,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "c319032f42c3": {
+    "id": "c319032f42c3",
+    "label": "18 RUE DU POUGET, Lavérune",
+    "lat": 43.582664,
+    "lng": 3.799707,
+    "transactions": [
+      {
+        "date": "2023-04-11",
+        "priceEur": 659972,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "d13ed837497c": {
+    "id": "d13ed837497c",
+    "label": "35 RUE DU SALIDOU, Lavérune",
+    "lat": 43.587667,
+    "lng": 3.797146,
+    "transactions": [
+      {
+        "date": "2023-09-26",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "55c15a37389e": {
+    "id": "55c15a37389e",
+    "label": "1 RUE DU SALIDOU, Lavérune",
+    "lat": 43.586151,
+    "lng": 3.797578,
+    "transactions": [
+      {
+        "date": "2023-12-04",
+        "priceEur": 285350,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "67685f7df4a2": {
+    "id": "67685f7df4a2",
+    "label": "7 RUE DU MAS DE LEPOT, Lavérune",
+    "lat": 43.587668,
+    "lng": 3.798396,
+    "transactions": [
+      {
+        "date": "2024-02-08",
+        "priceEur": 305104,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "f0ecfeeb2de9": {
+    "id": "f0ecfeeb2de9",
+    "label": "5 RUE DU BANASTOU, Lavérune",
+    "lat": 43.588128,
+    "lng": 3.800874,
+    "transactions": [
+      {
+        "date": "2024-03-27",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8c6d463e2f3": {
+    "id": "f8c6d463e2f3",
+    "label": "1 RUE DES CORNEILLES, Lavérune",
+    "lat": 43.582849,
+    "lng": 3.800583,
+    "transactions": [
+      {
+        "date": "2024-08-26",
+        "priceEur": 295500,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "70725c7a5586": {
+    "id": "70725c7a5586",
+    "label": "4 RUE DE LA CHARBONNIERE, Lavérune",
+    "lat": 43.583166,
+    "lng": 3.800452,
+    "transactions": [
+      {
+        "date": "2024-12-18",
+        "priceEur": 450600,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "639841d622bb": {
+    "id": "639841d622bb",
+    "label": "10 RUE DU SALIDOU, Lavérune",
+    "lat": 43.587262,
+    "lng": 3.797521,
+    "transactions": [
+      {
+        "date": "2025-01-29",
+        "priceEur": 346000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "7be278457b67": {
+    "id": "7be278457b67",
+    "label": "5 RUE DU POINTU, Lavérune",
+    "lat": 43.588183,
+    "lng": 3.79924,
+    "transactions": [
+      {
+        "date": "2025-02-06",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "8bcd30d8fd9c": {
+    "id": "8bcd30d8fd9c",
+    "label": "17 RUE DES CORNEILLES, Lavérune",
+    "lat": 43.582216,
+    "lng": 3.800476,
+    "transactions": [
+      {
+        "date": "2025-03-31",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "83da2ad9a3cb": {
+    "id": "83da2ad9a3cb",
+    "label": "6 PAS DE LA TOURTOULIERE, Lavérune",
+    "lat": 43.582324,
+    "lng": 3.798993,
+    "transactions": [
+      {
+        "date": "2025-06-02",
+        "priceEur": 450720,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

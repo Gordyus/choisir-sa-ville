@@ -1,0 +1,31 @@
+{
+  "ca6bda913aac": {
+    "id": "ca6bda913aac",
+    "label": "5172F GLAUGA, Poussan",
+    "lat": 43.508731,
+    "lng": 3.672177,
+    "transactions": [
+      {
+        "date": "2020-11-10",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-10",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-10",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  }
+}

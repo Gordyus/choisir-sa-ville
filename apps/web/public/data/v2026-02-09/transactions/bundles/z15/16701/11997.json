@@ -1,0 +1,31 @@
+{
+  "d6ee4f1844be": {
+    "id": "d6ee4f1844be",
+    "label": "1740 RTE DE FLORENSAC, Agde",
+    "lat": 43.343122,
+    "lng": 3.487307,
+    "transactions": [
+      {
+        "date": "2021-08-06",
+        "priceEur": 600000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-06",
+        "priceEur": 600000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-06",
+        "priceEur": 600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 240,
+        "isVefa": false
+      }
+    ]
+  }
+}

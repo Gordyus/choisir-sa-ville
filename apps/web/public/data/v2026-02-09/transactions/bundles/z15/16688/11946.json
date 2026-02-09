@@ -1,0 +1,53 @@
+{
+  "6d6cb2540402": {
+    "id": "6d6cb2540402",
+    "label": "1231 RTE DE LODEVE, Fozières",
+    "lat": 43.752272,
+    "lng": 3.344762,
+    "transactions": [
+      {
+        "date": "2022-09-14",
+        "priceEur": 470800,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff310118204a": {
+    "id": "ff310118204a",
+    "label": "5266 SERRE DE VINAS, Fozières",
+    "lat": 43.75315,
+    "lng": 3.346612,
+    "transactions": [
+      {
+        "date": "2023-11-10",
+        "priceEur": 28000,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-10",
+        "priceEur": 28000,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-02",
+        "priceEur": 10000,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-02",
+        "priceEur": 10000,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "ad6c55e9b207": {
+    "id": "ad6c55e9b207",
+    "label": "19 CLOS DES MYRTES, Murviel-lès-Montpellier",
+    "lat": 43.605767,
+    "lng": 3.746832,
+    "transactions": [
+      {
+        "date": "2023-03-14",
+        "priceEur": 532760,
+        "typeLocal": "Maison",
+        "surfaceM2": 188,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d66f74c9638": {
+    "id": "4d66f74c9638",
+    "label": "185 RUE LOUISE BOURGEOIS, Murviel-lès-Montpellier",
+    "lat": 43.605087,
+    "lng": 3.746704,
+    "transactions": [
+      {
+        "date": "2023-06-26",
+        "priceEur": 405000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1c73cdf76af": {
+    "id": "a1c73cdf76af",
+    "label": "120 RUE FLORENCE ARTHAUD, Murviel-lès-Montpellier",
+    "lat": 43.605282,
+    "lng": 3.746574,
+    "transactions": [
+      {
+        "date": "2023-11-30",
+        "priceEur": 450850,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

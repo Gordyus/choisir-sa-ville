@@ -1,0 +1,92 @@
+{
+  "95b8109d6bd1": {
+    "id": "95b8109d6bd1",
+    "label": "3 LOT LE MOULIN, Olonzac",
+    "lat": 43.283513,
+    "lng": 2.720867,
+    "transactions": [
+      {
+        "date": "2020-09-09",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 205,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d8495b0aca3": {
+    "id": "5d8495b0aca3",
+    "label": "1 LOT LE MOULIN, Olonzac",
+    "lat": 43.283584,
+    "lng": 2.72129,
+    "transactions": [
+      {
+        "date": "2020-11-16",
+        "priceEur": 66666.66,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b9389013a36": {
+    "id": "6b9389013a36",
+    "label": "8 RUE DES BERGERONNETTES, Olonzac",
+    "lat": 43.285196,
+    "lng": 2.721288,
+    "transactions": [
+      {
+        "date": "2021-03-19",
+        "priceEur": 200500,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "c153c8243797": {
+    "id": "c153c8243797",
+    "label": "24 LOT LA CONDAMINE, Olonzac",
+    "lat": 43.285181,
+    "lng": 2.721966,
+    "transactions": [
+      {
+        "date": "2024-02-26",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "ba9c1e77ff3c": {
+    "id": "ba9c1e77ff3c",
+    "label": "27 LOT LE MOULIN, Olonzac",
+    "lat": 43.283891,
+    "lng": 2.721098,
+    "transactions": [
+      {
+        "date": "2024-12-12",
+        "priceEur": 232000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "e76287348324": {
+    "id": "e76287348324",
+    "label": "364 RUE DES PINS, Olonzac",
+    "lat": 43.285002,
+    "lng": 2.724176,
+    "transactions": [
+      {
+        "date": "2024-12-10",
+        "priceEur": 177000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  }
+}

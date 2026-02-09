@@ -1,0 +1,39 @@
+{
+  "cd215e34be30": {
+    "id": "cd215e34be30",
+    "label": "5368F REVEIRALS, Loupian",
+    "lat": 43.441238,
+    "lng": 3.603587,
+    "transactions": [
+      {
+        "date": "2020-11-04",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 22,
+        "isVefa": false
+      }
+    ]
+  },
+  "ebfb7b6069bc": {
+    "id": "ebfb7b6069bc",
+    "label": "289 CHEMIN DE MEZE, Loupian",
+    "lat": 43.443936,
+    "lng": 3.611987,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 517480,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-30",
+        "priceEur": 517480,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  }
+}

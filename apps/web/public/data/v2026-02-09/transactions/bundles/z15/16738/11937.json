@@ -1,0 +1,46 @@
+{
+  "9c9c693cd19c": {
+    "id": "9c9c693cd19c",
+    "label": "5056 PUECH CAN, Sauteyrargues",
+    "lat": 43.823756,
+    "lng": 3.899583,
+    "transactions": [
+      {
+        "date": "2021-05-17",
+        "priceEur": 385350,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-17",
+        "priceEur": 385350,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-17",
+        "priceEur": 385350,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "0cf31d8a0467": {
+    "id": "0cf31d8a0467",
+    "label": "250 IMP PUECH CAMP, Lauret",
+    "lat": 43.822404,
+    "lng": 3.897282,
+    "transactions": [
+      {
+        "date": "2022-04-15",
+        "priceEur": 487000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  }
+}

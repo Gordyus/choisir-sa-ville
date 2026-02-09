@@ -1,0 +1,39 @@
+{
+  "9aba2bb6abb6": {
+    "id": "9aba2bb6abb6",
+    "label": "5107 LA PLAINE, Valflaunès",
+    "lat": 43.788414,
+    "lng": 3.843058,
+    "transactions": [
+      {
+        "date": "2022-04-01",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-01",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "6f1f78611330": {
+    "id": "6f1f78611330",
+    "label": "5565F LA PLAINE, Valflaunès",
+    "lat": 43.788414,
+    "lng": 3.843058,
+    "transactions": [
+      {
+        "date": "2022-04-01",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  }
+}

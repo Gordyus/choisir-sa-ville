@@ -1,0 +1,32 @@
+{
+  "4d2fbf502deb": {
+    "id": "4d2fbf502deb",
+    "label": "5358 LIGNON, Riols",
+    "lat": 43.532036,
+    "lng": 2.803512,
+    "transactions": [
+      {
+        "date": "2022-04-08",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "e369e24b621b": {
+    "id": "e369e24b621b",
+    "label": "5699F LIGNON, Riols",
+    "lat": 43.53221,
+    "lng": 2.80351,
+    "transactions": [
+      {
+        "date": "2023-03-30",
+        "priceEur": 36000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  }
+}

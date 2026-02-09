@@ -1,0 +1,92 @@
+{
+  "8957fea8123e": {
+    "id": "8957fea8123e",
+    "label": "3 SAINT ALEXANDRE, Bédarieux",
+    "lat": 43.62842,
+    "lng": 3.162433,
+    "transactions": [
+      {
+        "date": "2020-11-10",
+        "priceEur": 108750,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "a7e90b4d0651": {
+    "id": "a7e90b4d0651",
+    "label": "238 CHE DU FIGARET, Bédarieux",
+    "lat": 43.628549,
+    "lng": 3.160706,
+    "transactions": [
+      {
+        "date": "2021-07-29",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc948860380b": {
+    "id": "bc948860380b",
+    "label": "6011F AV DE LODEVE, Bédarieux",
+    "lat": 43.62877,
+    "lng": 3.162622,
+    "transactions": [
+      {
+        "date": "2022-02-23",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "23a9e2456516": {
+    "id": "23a9e2456516",
+    "label": "71 AV DE LODEVE, Bédarieux",
+    "lat": 43.631009,
+    "lng": 3.162972,
+    "transactions": [
+      {
+        "date": "2022-11-14",
+        "priceEur": 173000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "743e5769f98d": {
+    "id": "743e5769f98d",
+    "label": "94 AV DE LODEVE, Bédarieux",
+    "lat": 43.630664,
+    "lng": 3.163461,
+    "transactions": [
+      {
+        "date": "2023-03-06",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "80becbf19402": {
+    "id": "80becbf19402",
+    "label": "748 CHE DU FIGARET, Bédarieux",
+    "lat": 43.630805,
+    "lng": 3.155887,
+    "transactions": [
+      {
+        "date": "2023-09-27",
+        "priceEur": 303000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

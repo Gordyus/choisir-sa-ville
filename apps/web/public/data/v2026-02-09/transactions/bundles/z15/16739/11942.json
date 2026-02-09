@@ -1,0 +1,90 @@
+{
+  "2da1eba5184a": {
+    "id": "2da1eba5184a",
+    "label": "26 RUE DE LA BENOVIE, Fontanès",
+    "lat": 43.78485,
+    "lng": 3.907493,
+    "transactions": [
+      {
+        "date": "2020-07-29",
+        "priceEur": 373948,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-29",
+        "priceEur": 373948,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "34d2cb61329a": {
+    "id": "34d2cb61329a",
+    "label": "11 RUE DES TOURS DE SALLES, Fontanès",
+    "lat": 43.78639,
+    "lng": 3.905784,
+    "transactions": [
+      {
+        "date": "2021-05-27",
+        "priceEur": 557600,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-27",
+        "priceEur": 557600,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "88e9a6c20c2f": {
+    "id": "88e9a6c20c2f",
+    "label": "32 RUE DE MONTFERRAND, Fontanès",
+    "lat": 43.785994,
+    "lng": 3.906874,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 416300,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-30",
+        "priceEur": 416300,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea2d8d6356f0": {
+    "id": "ea2d8d6356f0",
+    "label": "34 RUE DE MONTFERRAND, Fontanès",
+    "lat": 43.78657,
+    "lng": 3.907138,
+    "transactions": [
+      {
+        "date": "2023-03-28",
+        "priceEur": 794470,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-28",
+        "priceEur": 794470,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  }
+}

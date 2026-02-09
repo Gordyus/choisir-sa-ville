@@ -1,0 +1,83 @@
+{
+  "72f7f60a5490": {
+    "id": "72f7f60a5490",
+    "label": "1325 RUE DE BIONNE, Montpellier",
+    "lat": 43.603643,
+    "lng": 3.820179,
+    "transactions": [
+      {
+        "date": "2020-08-06",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 194,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-06",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-06",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "570c1827534c": {
+    "id": "570c1827534c",
+    "label": "9999 LE MAS DE BIAR, Lavérune",
+    "lat": 43.596618,
+    "lng": 3.814836,
+    "transactions": [
+      {
+        "date": "2021-01-21",
+        "priceEur": 3750000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "0bc42631547a": {
+    "id": "0bc42631547a",
+    "label": "5215 LE MAS DE BIAR, Lavérune",
+    "lat": 43.597175,
+    "lng": 3.814454,
+    "transactions": [
+      {
+        "date": "2021-01-21",
+        "priceEur": 3750000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "ba33e1c18db6": {
+    "id": "ba33e1c18db6",
+    "label": "2139 RUE DE BIONNE, Montpellier",
+    "lat": 43.596418,
+    "lng": 3.820681,
+    "transactions": [
+      {
+        "date": "2025-05-23",
+        "priceEur": 542500,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2025-05-23",
+        "priceEur": 542500,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  }
+}

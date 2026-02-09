@@ -1,0 +1,24 @@
+{
+  "5e0fa9d1ea1f": {
+    "id": "5e0fa9d1ea1f",
+    "label": "5791F RTE MONTPELLIER, Saint-André-de-Sangonis",
+    "lat": 43.652472,
+    "lng": 3.516615,
+    "transactions": [
+      {
+        "date": "2024-04-26",
+        "priceEur": 205000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 109,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-07",
+        "priceEur": 136800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "34c3b160d17f": {
+    "id": "34c3b160d17f",
+    "label": "250 RUE MARIE CHRISTINE KEKENBOSCH, Montady",
+    "lat": 43.341347,
+    "lng": 3.128312,
+    "transactions": [
+      {
+        "date": "2020-12-11",
+        "priceEur": 223170,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "a121966c3909": {
+    "id": "a121966c3909",
+    "label": "5 AV DU BIENFAITEUR, Montady",
+    "lat": 43.341966,
+    "lng": 3.12903,
+    "transactions": [
+      {
+        "date": "2021-12-20",
+        "priceEur": 257800,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc797104c569": {
+    "id": "cc797104c569",
+    "label": "920 RTE DE COLOMBIERS, Maureilhan",
+    "lat": 43.347584,
+    "lng": 3.125698,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 696000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-21",
+        "priceEur": 696000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "48a4ddd3aa15": {
+    "id": "48a4ddd3aa15",
+    "label": "20 AV DU BIENFAITEUR, Montady",
+    "lat": 43.342296,
+    "lng": 3.129226,
+    "transactions": [
+      {
+        "date": "2022-12-07",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  }
+}

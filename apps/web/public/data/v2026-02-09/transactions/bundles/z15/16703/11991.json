@@ -1,0 +1,92 @@
+{
+  "8e7593ecf30a": {
+    "id": "8e7593ecf30a",
+    "label": "7 PL BELLEVUE, Pomérols",
+    "lat": 43.392673,
+    "lng": 3.504991,
+    "transactions": [
+      {
+        "date": "2020-08-17",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "51015af55667": {
+    "id": "51015af55667",
+    "label": "6 PL BELLEVUE, Pomérols",
+    "lat": 43.392673,
+    "lng": 3.504991,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "dbb42f7f1ef2": {
+    "id": "dbb42f7f1ef2",
+    "label": "11 RUE DES PLATANES, Pomérols",
+    "lat": 43.392673,
+    "lng": 3.504991,
+    "transactions": [
+      {
+        "date": "2021-10-26",
+        "priceEur": 221240,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "d93308a9c617": {
+    "id": "d93308a9c617",
+    "label": "4 PL BELLEVUE, Pomérols",
+    "lat": 43.392673,
+    "lng": 3.504991,
+    "transactions": [
+      {
+        "date": "2022-12-08",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9783ef5eaa9": {
+    "id": "a9783ef5eaa9",
+    "label": "31 RUE DU ROMARIN, Pomérols",
+    "lat": 43.391014,
+    "lng": 3.504642,
+    "transactions": [
+      {
+        "date": "2023-01-11",
+        "priceEur": 287100,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d69612614b9": {
+    "id": "9d69612614b9",
+    "label": "45 RUE DU ROMARIN, Pomérols",
+    "lat": 43.390543,
+    "lng": 3.50522,
+    "transactions": [
+      {
+        "date": "2024-12-18",
+        "priceEur": 229000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "01042b983ba3": {
+    "id": "01042b983ba3",
+    "label": "4 CHE DES TRAVERS, La Boissière",
+    "lat": 43.642773,
+    "lng": 3.653347,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 757500,
+        "typeLocal": "Maison",
+        "surfaceM2": 287,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-21",
+        "priceEur": 757500,
+        "typeLocal": "Maison",
+        "surfaceM2": 287,
+        "isVefa": false
+      }
+    ]
+  },
+  "10582fc7a759": {
+    "id": "10582fc7a759",
+    "label": "22 RTE DU MAS D'AGRES, La Boissière",
+    "lat": 43.642808,
+    "lng": 3.65464,
+    "transactions": [
+      {
+        "date": "2021-12-16",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-16",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "df1370609b73": {
+    "id": "df1370609b73",
+    "label": "5245F MAS D AGRES, La Boissière",
+    "lat": 43.643476,
+    "lng": 3.655365,
+    "transactions": [
+      {
+        "date": "2022-09-02",
+        "priceEur": 797050,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-02",
+        "priceEur": 797050,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      }
+    ]
+  },
+  "5cc054ad684b": {
+    "id": "5cc054ad684b",
+    "label": "6 RTE DU MAS D'AGRES, La Boissière",
+    "lat": 43.641561,
+    "lng": 3.653212,
+    "transactions": [
+      {
+        "date": "2023-03-23",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9271eb0aa8b": {
+    "id": "c9271eb0aa8b",
+    "label": "1 CHE DES TRAVERS, La Boissière",
+    "lat": 43.642467,
+    "lng": 3.652652,
+    "transactions": [
+      {
+        "date": "2024-09-04",
+        "priceEur": 290340,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-04",
+        "priceEur": 290340,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "4fcde3d2ef32": {
+    "id": "4fcde3d2ef32",
+    "label": "363 CHE DE LA JASSE DE MAURIN, Lattes",
+    "lat": 43.559153,
+    "lng": 3.861313,
+    "transactions": [
+      {
+        "date": "2022-03-31",
+        "priceEur": 500000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-31",
+        "priceEur": 500000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-31",
+        "priceEur": 500000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "17dc80e562db": {
+    "id": "17dc80e562db",
+    "label": "9057 LA JASSE DE MAURIN, Lattes",
+    "lat": 43.559511,
+    "lng": 3.860841,
+    "transactions": [
+      {
+        "date": "2022-11-04",
+        "priceEur": 387700,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "a7c89c93a505": {
+    "id": "a7c89c93a505",
+    "label": "9062 LA JASSE DE MAURIN, Lattes",
+    "lat": 43.559349,
+    "lng": 3.861235,
+    "transactions": [
+      {
+        "date": "2023-02-02",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d082dffb153": {
+    "id": "5d082dffb153",
+    "label": "5 IMP DE LA JASSE DE MAURIN, Lattes",
+    "lat": 43.559542,
+    "lng": 3.860899,
+    "transactions": [
+      {
+        "date": "2023-04-03",
+        "priceEur": 208800,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

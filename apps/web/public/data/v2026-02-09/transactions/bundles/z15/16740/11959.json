@@ -1,0 +1,99 @@
+{
+  "d59d1d2450d9": {
+    "id": "d59d1d2450d9",
+    "label": "22 RUE BRUTUS, Castelnau-le-Lez",
+    "lat": 43.644416,
+    "lng": 3.921989,
+    "transactions": [
+      {
+        "date": "2021-07-29",
+        "priceEur": 365936,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "a142106a7682": {
+    "id": "a142106a7682",
+    "label": "780 CHE DES MURIERS, Castelnau-le-Lez",
+    "lat": 43.644456,
+    "lng": 3.915314,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 800000,
+        "typeLocal": "Maison",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-22",
+        "priceEur": 800000,
+        "typeLocal": "Maison",
+        "surfaceM2": 31,
+        "isVefa": false
+      }
+    ]
+  },
+  "2229d04b3006": {
+    "id": "2229d04b3006",
+    "label": "771 CHE DES MURIERS, Castelnau-le-Lez",
+    "lat": 43.64409,
+    "lng": 3.91508,
+    "transactions": [
+      {
+        "date": "2023-03-08",
+        "priceEur": 759500,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a9373ef278b": {
+    "id": "2a9373ef278b",
+    "label": "17 RUE HENRI DUNANT, Castelnau-le-Lez",
+    "lat": 43.651135,
+    "lng": 3.912725,
+    "transactions": [
+      {
+        "date": "2023-04-27",
+        "priceEur": 776505,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "b04f97fba640": {
+    "id": "b04f97fba640",
+    "label": "18 RUE HENRI DUNANT, Castelnau-le-Lez",
+    "lat": 43.651145,
+    "lng": 3.912549,
+    "transactions": [
+      {
+        "date": "2023-10-03",
+        "priceEur": 800000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6c64f2d2e2a": {
+    "id": "e6c64f2d2e2a",
+    "label": "6 RUE MICHEL ROZIER, Castelnau-le-Lez",
+    "lat": 43.651713,
+    "lng": 3.911425,
+    "transactions": [
+      {
+        "date": "2025-01-07",
+        "priceEur": 868300,
+        "typeLocal": "Maison",
+        "surfaceM2": 164,
+        "isVefa": false
+      }
+    ]
+  }
+}

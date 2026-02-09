@@ -1,0 +1,39 @@
+{
+  "1144623d0c33": {
+    "id": "1144623d0c33",
+    "label": "9044 VAUGUIERES, Mauguio",
+    "lat": 43.592971,
+    "lng": 3.95672,
+    "transactions": [
+      {
+        "date": "2022-10-13",
+        "priceEur": 460000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-13",
+        "priceEur": 460000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "65a0814b61ee": {
+    "id": "65a0814b61ee",
+    "label": "9003 VAUGUIERES, Mauguio",
+    "lat": 43.59596,
+    "lng": 3.95847,
+    "transactions": [
+      {
+        "date": "2024-07-08",
+        "priceEur": 860000,
+        "typeLocal": "Maison",
+        "surfaceM2": 280,
+        "isVefa": false
+      }
+    ]
+  }
+}

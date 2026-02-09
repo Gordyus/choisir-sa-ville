@@ -1,0 +1,39 @@
+{
+  "3d251fd2f1d0": {
+    "id": "3d251fd2f1d0",
+    "label": "5163 RESCOL, Fraisse-sur-Agout",
+    "lat": 43.587732,
+    "lng": 2.746779,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "912337448b2b": {
+    "id": "912337448b2b",
+    "label": "5892F PRAT NAOU, Fraisse-sur-Agout",
+    "lat": 43.581779,
+    "lng": 2.754148,
+    "transactions": [
+      {
+        "date": "2023-03-10",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-10",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  }
+}

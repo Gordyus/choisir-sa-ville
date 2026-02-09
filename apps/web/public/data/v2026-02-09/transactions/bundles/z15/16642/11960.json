@@ -1,0 +1,46 @@
+{
+  "a831400cd29a": {
+    "id": "a831400cd29a",
+    "label": "5129 LA PLANESIE, Cambon-et-Salvergues",
+    "lat": 43.636738,
+    "lng": 2.84404,
+    "transactions": [
+      {
+        "date": "2021-06-02",
+        "priceEur": 75395,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-02",
+        "priceEur": 75395,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "ba1de78b2b30": {
+    "id": "ba1de78b2b30",
+    "label": "14 RTE DE MURAT, Cambon-et-Salvergues",
+    "lat": 43.636738,
+    "lng": 2.84404,
+    "transactions": [
+      {
+        "date": "2024-06-17",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-17",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  }
+}

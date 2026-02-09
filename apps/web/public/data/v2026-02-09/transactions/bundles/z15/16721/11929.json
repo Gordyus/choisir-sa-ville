@@ -1,0 +1,39 @@
+{
+  "d06041fde0ea": {
+    "id": "d06041fde0ea",
+    "label": "164 AV DES EUZIERES, Brissac",
+    "lat": 43.882436,
+    "lng": 3.703414,
+    "transactions": [
+      {
+        "date": "2020-12-14",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 178,
+        "isVefa": false
+      }
+    ]
+  },
+  "107dc84e9214": {
+    "id": "107dc84e9214",
+    "label": "430 CHEM VIEUX, Brissac",
+    "lat": 43.884737,
+    "lng": 3.703869,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 353000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-22",
+        "priceEur": 353000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  }
+}

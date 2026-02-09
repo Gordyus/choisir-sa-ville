@@ -1,0 +1,189 @@
+{
+  "c11bc29e0244": {
+    "id": "c11bc29e0244",
+    "label": "400 RUE DES MASELIERS, Cournonsec",
+    "lat": 43.526996,
+    "lng": 3.727171,
+    "transactions": [
+      {
+        "date": "2020-07-27",
+        "priceEur": 258000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf04aa48ff72": {
+    "id": "bf04aa48ff72",
+    "label": "5059 MAS DE BONNEL, Cournonsec",
+    "lat": 43.525985,
+    "lng": 3.725309,
+    "transactions": [
+      {
+        "date": "2020-11-03",
+        "priceEur": 5000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa31b4635ec2": {
+    "id": "fa31b4635ec2",
+    "label": "635 RUE DES MASELIERS, Cournonsec",
+    "lat": 43.525217,
+    "lng": 3.72645,
+    "transactions": [
+      {
+        "date": "2021-04-22",
+        "priceEur": 344600,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "133258a2f810": {
+    "id": "133258a2f810",
+    "label": "516 RUE DES MASELIERS, Cournonsec",
+    "lat": 43.527035,
+    "lng": 3.726738,
+    "transactions": [
+      {
+        "date": "2021-08-03",
+        "priceEur": 509850,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "2bd705fdb8e1": {
+    "id": "2bd705fdb8e1",
+    "label": "497 RUE DES MASELIERS, Cournonsec",
+    "lat": 43.52634,
+    "lng": 3.728013,
+    "transactions": [
+      {
+        "date": "2021-11-08",
+        "priceEur": 472000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7a7da2988ad": {
+    "id": "c7a7da2988ad",
+    "label": "5 RUE DU GRAND CHAMP, Cournonsec",
+    "lat": 43.525963,
+    "lng": 3.728148,
+    "transactions": [
+      {
+        "date": "2022-04-04",
+        "priceEur": 338300,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7b8bd9fe7fd": {
+    "id": "f7b8bd9fe7fd",
+    "label": "6021 MAS DE PLAGNOL, Cournonsec",
+    "lat": 43.525061,
+    "lng": 3.726215,
+    "transactions": [
+      {
+        "date": "2022-08-30",
+        "priceEur": 151200,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "81d567c2e230": {
+    "id": "81d567c2e230",
+    "label": "5 MAS DE PLAGNOL, Cournonsec",
+    "lat": 43.525364,
+    "lng": 3.726393,
+    "transactions": [
+      {
+        "date": "2023-02-22",
+        "priceEur": 437250,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "52e1fb79f23c": {
+    "id": "52e1fb79f23c",
+    "label": "472 RUE DES MASELIERS, Cournonsec",
+    "lat": 43.526465,
+    "lng": 3.72689,
+    "transactions": [
+      {
+        "date": "2024-05-15",
+        "priceEur": 298500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 135,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-02",
+        "priceEur": 334200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "dc9312ead5b7": {
+    "id": "dc9312ead5b7",
+    "label": "616 RUE DES MASELIERS, Cournonsec",
+    "lat": 43.526197,
+    "lng": 3.725427,
+    "transactions": [
+      {
+        "date": "2024-05-31",
+        "priceEur": 587000,
+        "typeLocal": "Maison",
+        "surfaceM2": 181,
+        "isVefa": false
+      }
+    ]
+  },
+  "a316bde80d2e": {
+    "id": "a316bde80d2e",
+    "label": "4 IMP DES ROSEAUX, Cournonsec",
+    "lat": 43.526761,
+    "lng": 3.729212,
+    "transactions": [
+      {
+        "date": "2024-10-30",
+        "priceEur": 535850,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f16894bf5de": {
+    "id": "1f16894bf5de",
+    "label": "390 RUE DES MASELIERS, Cournonsec",
+    "lat": 43.526671,
+    "lng": 3.727623,
+    "transactions": [
+      {
+        "date": "2025-05-15",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "b4bcc4c8d557": {
+    "id": "b4bcc4c8d557",
+    "label": "6540 CHE DE SENEGRA, Le Bousquet-d'Orb",
+    "lat": 43.684927,
+    "lng": 3.158177,
+    "transactions": [
+      {
+        "date": "2023-09-27",
+        "priceEur": 127070,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-12",
+        "priceEur": 28000,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  }
+}

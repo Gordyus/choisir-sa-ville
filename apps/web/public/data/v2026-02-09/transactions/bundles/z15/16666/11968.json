@@ -1,0 +1,32 @@
+{
+  "ba89360b36a4": {
+    "id": "ba89360b36a4",
+    "label": "6 CHE DE BERNAUDE, Les Aires",
+    "lat": 43.579997,
+    "lng": 3.101577,
+    "transactions": [
+      {
+        "date": "2020-09-25",
+        "priceEur": 75450,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9427739b1a9": {
+    "id": "b9427739b1a9",
+    "label": "100 IMP LE TARIO, Les Aires",
+    "lat": 43.579422,
+    "lng": 3.106796,
+    "transactions": [
+      {
+        "date": "2023-03-06",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

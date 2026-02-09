@@ -1,0 +1,32 @@
+{
+  "6f07be6054fe": {
+    "id": "6f07be6054fe",
+    "label": "5274F MADALET, Colombières-sur-Orb",
+    "lat": 43.584934,
+    "lng": 3.025478,
+    "transactions": [
+      {
+        "date": "2022-11-04",
+        "priceEur": 214000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9d5c89f80d4": {
+    "id": "f9d5c89f80d4",
+    "label": "5376F MADALET, Colombières-sur-Orb",
+    "lat": 43.584836,
+    "lng": 3.025551,
+    "transactions": [
+      {
+        "date": "2022-11-04",
+        "priceEur": 214000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  }
+}

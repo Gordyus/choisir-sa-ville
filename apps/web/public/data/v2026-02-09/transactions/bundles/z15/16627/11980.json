@@ -1,0 +1,32 @@
+{
+  "b319bb289be8": {
+    "id": "b319bb289be8",
+    "label": "5453 CABANES, Courniou",
+    "lat": 43.480969,
+    "lng": 2.680595,
+    "transactions": [
+      {
+        "date": "2021-02-02",
+        "priceEur": 625000,
+        "typeLocal": "Maison",
+        "surfaceM2": 173,
+        "isVefa": false
+      }
+    ]
+  },
+  "0443b3c0e78b": {
+    "id": "0443b3c0e78b",
+    "label": "5104 SABO, Courniou",
+    "lat": 43.484754,
+    "lng": 2.671571,
+    "transactions": [
+      {
+        "date": "2023-09-11",
+        "priceEur": 149415,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

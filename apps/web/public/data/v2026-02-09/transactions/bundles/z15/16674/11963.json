@@ -1,0 +1,24 @@
+{
+  "cb2006b608a6": {
+    "id": "cb2006b608a6",
+    "label": "9005 COURBEZOU, Bédarieux",
+    "lat": 43.615545,
+    "lng": 3.191127,
+    "transactions": [
+      {
+        "date": "2024-04-17",
+        "priceEur": 5000,
+        "typeLocal": "Maison",
+        "surfaceM2": 12,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-26",
+        "priceEur": 12500,
+        "typeLocal": "Maison",
+        "surfaceM2": 12,
+        "isVefa": false
+      }
+    ]
+  }
+}

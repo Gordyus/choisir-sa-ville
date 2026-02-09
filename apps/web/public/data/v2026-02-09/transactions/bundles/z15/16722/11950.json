@@ -1,0 +1,91 @@
+{
+  "25e323a4836c": {
+    "id": "25e323a4836c",
+    "label": "64 HAM DE LA MATHE, Argelliers",
+    "lat": 43.716084,
+    "lng": 3.718542,
+    "transactions": [
+      {
+        "date": "2021-03-02",
+        "priceEur": 897145,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-02",
+        "priceEur": 897145,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe8dab053531": {
+    "id": "fe8dab053531",
+    "label": "110B HAM DE LA MATHE, Argelliers",
+    "lat": 43.716084,
+    "lng": 3.718542,
+    "transactions": [
+      {
+        "date": "2021-03-02",
+        "priceEur": 897145,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "131ebfd41725": {
+    "id": "131ebfd41725",
+    "label": "154 RUE DES CIGALES, Argelliers",
+    "lat": 43.716318,
+    "lng": 3.719587,
+    "transactions": [
+      {
+        "date": "2021-07-13",
+        "priceEur": 457500,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-13",
+        "priceEur": 457500,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d6e9e1f5e89": {
+    "id": "9d6e9e1f5e89",
+    "label": "7 HAM DE LA MATHE, Argelliers",
+    "lat": 43.716084,
+    "lng": 3.718542,
+    "transactions": [
+      {
+        "date": "2022-07-11",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0bff9a76c69": {
+    "id": "b0bff9a76c69",
+    "label": "23 HAM DE LA MATHE, Argelliers",
+    "lat": 43.716084,
+    "lng": 3.718542,
+    "transactions": [
+      {
+        "date": "2023-05-16",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "de683faddabc": {
+    "id": "de683faddabc",
+    "label": "1612 RTE DE MARAUSSAN RD 14, Béziers",
+    "lat": 43.350235,
+    "lng": 3.187677,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-27",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-27",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-27",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-27",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-27",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "c872d18b6231": {
+    "id": "c872d18b6231",
+    "label": "330 CR 101 DU REBAUT HAUT, Béziers",
+    "lat": 43.351587,
+    "lng": 3.189411,
+    "transactions": [
+      {
+        "date": "2023-03-20",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-20",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-20",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-20",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-20",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c76c2f6f04a": {
+    "id": "8c76c2f6f04a",
+    "label": "2593 CR 100 DU REBAUT BAS, Béziers",
+    "lat": 43.353502,
+    "lng": 3.186437,
+    "transactions": [
+      {
+        "date": "2024-10-08",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-08",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a51883d8b6b": {
+    "id": "3a51883d8b6b",
+    "label": "9073 RTE DE MARAUSSAN RD 14, Béziers",
+    "lat": 43.350133,
+    "lng": 3.186152,
+    "transactions": [
+      {
+        "date": "2025-03-31",
+        "priceEur": 303000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-31",
+        "priceEur": 303000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "1ca1da425b34": {
+    "id": "1ca1da425b34",
+    "label": "2 IMP EDITH PIAF, Caux",
+    "lat": 43.508347,
+    "lng": 3.37399,
+    "transactions": [
+      {
+        "date": "2022-03-30",
+        "priceEur": 552300,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f130b1c6d91": {
+    "id": "4f130b1c6d91",
+    "label": "9 RUE DES CHAMPS SUSPENDUS, Caux",
+    "lat": 43.508103,
+    "lng": 3.375693,
+    "transactions": [
+      {
+        "date": "2022-06-24",
+        "priceEur": 350600,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-24",
+        "priceEur": 350600,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "7706e72a36d6": {
+    "id": "7706e72a36d6",
+    "label": "5 RUE DES CHAMPS SUSPENDUS, Caux",
+    "lat": 43.50803,
+    "lng": 3.37524,
+    "transactions": [
+      {
+        "date": "2023-06-19",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-19",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "43fa7a21b60d": {
+    "id": "43fa7a21b60d",
+    "label": "4 IMP DE LA CHENAIE, Caux",
+    "lat": 43.508637,
+    "lng": 3.375677,
+    "transactions": [
+      {
+        "date": "2025-03-03",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-03",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,821 @@
+{
+  "cdc85f1e8b96": {
+    "id": "cdc85f1e8b96",
+    "label": "15 PL DE LA MAIRIE, Vendémian",
+    "lat": 43.580928,
+    "lng": 3.561365,
+    "transactions": [
+      {
+        "date": "2020-08-21",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "d63e4532cb1a": {
+    "id": "d63e4532cb1a",
+    "label": "11 RUE DU CAPITOUL, Vendémian",
+    "lat": 43.581002,
+    "lng": 3.560634,
+    "transactions": [
+      {
+        "date": "2020-08-26",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "1641d0d904f4": {
+    "id": "1641d0d904f4",
+    "label": "4 RUE DE L EGLISE, Vendémian",
+    "lat": 43.580709,
+    "lng": 3.561287,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ba5d3faa645": {
+    "id": "2ba5d3faa645",
+    "label": "3 RUE DU CHEMIN DE RONDE, Vendémian",
+    "lat": 43.581586,
+    "lng": 3.561114,
+    "transactions": [
+      {
+        "date": "2020-09-16",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "edebbbaad19f": {
+    "id": "edebbbaad19f",
+    "label": "6 RUE RICHE, Vendémian",
+    "lat": 43.581447,
+    "lng": 3.561324,
+    "transactions": [
+      {
+        "date": "2020-09-23",
+        "priceEur": 42000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "67d031598776": {
+    "id": "67d031598776",
+    "label": "6 RUE DU PIOCH, Vendémian",
+    "lat": 43.581105,
+    "lng": 3.562129,
+    "transactions": [
+      {
+        "date": "2020-10-06",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "7fd996c54b2b": {
+    "id": "7fd996c54b2b",
+    "label": "1 AV DE LA CALADE, Vendémian",
+    "lat": 43.580713,
+    "lng": 3.562248,
+    "transactions": [
+      {
+        "date": "2020-10-23",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "c03993365b46": {
+    "id": "c03993365b46",
+    "label": "7 AV DE L ANCIENNE POSTE, Vendémian",
+    "lat": 43.58124,
+    "lng": 3.560376,
+    "transactions": [
+      {
+        "date": "2020-11-20",
+        "priceEur": 168500,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "eeaade0c0899": {
+    "id": "eeaade0c0899",
+    "label": "13 LOT LE PARC DES CHENES, Vendémian",
+    "lat": 43.584471,
+    "lng": 3.562847,
+    "transactions": [
+      {
+        "date": "2020-12-21",
+        "priceEur": 380000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-21",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "e56f2a488f3f": {
+    "id": "e56f2a488f3f",
+    "label": "2 RTE DE MONTPELLIER, Vendémian",
+    "lat": 43.582069,
+    "lng": 3.561361,
+    "transactions": [
+      {
+        "date": "2023-06-27",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-19",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "d468ae6954ce": {
+    "id": "d468ae6954ce",
+    "label": "6068F RUE DES PINS, Vendémian",
+    "lat": 43.581081,
+    "lng": 3.564445,
+    "transactions": [
+      {
+        "date": "2021-02-16",
+        "priceEur": 262000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-16",
+        "priceEur": 262000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa403cb1e936": {
+    "id": "aa403cb1e936",
+    "label": "17 AV DU QRT HAUT, Vendémian",
+    "lat": 43.58149,
+    "lng": 3.561794,
+    "transactions": [
+      {
+        "date": "2021-05-07",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "95267720ace5": {
+    "id": "95267720ace5",
+    "label": "6077F RUE DES PINS, Vendémian",
+    "lat": 43.58072,
+    "lng": 3.564253,
+    "transactions": [
+      {
+        "date": "2021-06-28",
+        "priceEur": 340400,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-28",
+        "priceEur": 340400,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "c50985f33b4b": {
+    "id": "c50985f33b4b",
+    "label": "9 PL DE LA MAIRIE, Vendémian",
+    "lat": 43.580896,
+    "lng": 3.561483,
+    "transactions": [
+      {
+        "date": "2021-07-07",
+        "priceEur": 95000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "a727a1ac1651": {
+    "id": "a727a1ac1651",
+    "label": "7 RUE DU PIOCH, Vendémian",
+    "lat": 43.581183,
+    "lng": 3.562002,
+    "transactions": [
+      {
+        "date": "2021-09-13",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "8cdbdb275edd": {
+    "id": "8cdbdb275edd",
+    "label": "14 RUE DU CAPITOUL, Vendémian",
+    "lat": 43.581171,
+    "lng": 3.560846,
+    "transactions": [
+      {
+        "date": "2021-11-02",
+        "priceEur": 164710,
+        "typeLocal": "Appartement",
+        "surfaceM2": 91,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-02",
+        "priceEur": 164710,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-02",
+        "priceEur": 164710,
+        "typeLocal": "Appartement",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "96c753de1c77": {
+    "id": "96c753de1c77",
+    "label": "12 RUE DES SOLEILLADES, Vendémian",
+    "lat": 43.582716,
+    "lng": 3.565104,
+    "transactions": [
+      {
+        "date": "2021-11-23",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-23",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "1aef1d60c4b7": {
+    "id": "1aef1d60c4b7",
+    "label": "10 RUE DU CAPITOUL, Vendémian",
+    "lat": 43.581105,
+    "lng": 3.560898,
+    "transactions": [
+      {
+        "date": "2022-02-10",
+        "priceEur": 93000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "e87214ffaa28": {
+    "id": "e87214ffaa28",
+    "label": "14 RUE DES SOLEILLADES, Vendémian",
+    "lat": 43.582979,
+    "lng": 3.565616,
+    "transactions": [
+      {
+        "date": "2022-01-28",
+        "priceEur": 366500,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "8178ed28a30c": {
+    "id": "8178ed28a30c",
+    "label": "1 IMP DES KERMES, Vendémian",
+    "lat": 43.583636,
+    "lng": 3.561451,
+    "transactions": [
+      {
+        "date": "2022-02-28",
+        "priceEur": 680390,
+        "typeLocal": "Maison",
+        "surfaceM2": 204,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-28",
+        "priceEur": 680390,
+        "typeLocal": "Maison",
+        "surfaceM2": 204,
+        "isVefa": false
+      }
+    ]
+  },
+  "8bbe83eed6b0": {
+    "id": "8bbe83eed6b0",
+    "label": "4 RUE DE MADAME, Vendémian",
+    "lat": 43.58128,
+    "lng": 3.560997,
+    "transactions": [
+      {
+        "date": "2022-03-24",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "495b14da5820": {
+    "id": "495b14da5820",
+    "label": "5 RUE DE MADAME, Vendémian",
+    "lat": 43.581254,
+    "lng": 3.560804,
+    "transactions": [
+      {
+        "date": "2022-04-06",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "abf3bda17c8d": {
+    "id": "abf3bda17c8d",
+    "label": "8 RUE DES MATTES, Vendémian",
+    "lat": 43.58469,
+    "lng": 3.561606,
+    "transactions": [
+      {
+        "date": "2022-05-19",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "be8ffbd41309": {
+    "id": "be8ffbd41309",
+    "label": "8 RUE DU CAPITOUL, Vendémian",
+    "lat": 43.581073,
+    "lng": 3.560952,
+    "transactions": [
+      {
+        "date": "2022-05-24",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "91cc0846f41d": {
+    "id": "91cc0846f41d",
+    "label": "4 RUE DES MATTES, Vendémian",
+    "lat": 43.584246,
+    "lng": 3.56105,
+    "transactions": [
+      {
+        "date": "2022-05-18",
+        "priceEur": 480000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "dbc3d905e0ea": {
+    "id": "dbc3d905e0ea",
+    "label": "12 RTE DE MONTPELLIER, Vendémian",
+    "lat": 43.582874,
+    "lng": 3.561467,
+    "transactions": [
+      {
+        "date": "2024-03-28",
+        "priceEur": 94010,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-24",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff8e3bc1c2eb": {
+    "id": "ff8e3bc1c2eb",
+    "label": "1 AV DU JEU DE BALLON, Vendémian",
+    "lat": 43.581034,
+    "lng": 3.561996,
+    "transactions": [
+      {
+        "date": "2022-05-25",
+        "priceEur": 65950,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "652188aeb909": {
+    "id": "652188aeb909",
+    "label": "5180 LES BARRIERES, Vendémian",
+    "lat": 43.582584,
+    "lng": 3.561686,
+    "transactions": [
+      {
+        "date": "2022-07-08",
+        "priceEur": 167455,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e0a742710c8": {
+    "id": "1e0a742710c8",
+    "label": "3 AV DU QRT HAUT, Vendémian",
+    "lat": 43.581258,
+    "lng": 3.562343,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 215500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 37,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-22",
+        "priceEur": 215500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "a35b0c311c1c": {
+    "id": "a35b0c311c1c",
+    "label": "3 RUE DE LA PLACE, Vendémian",
+    "lat": 43.58086,
+    "lng": 3.561232,
+    "transactions": [
+      {
+        "date": "2022-09-06",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "01f45bfe882b": {
+    "id": "01f45bfe882b",
+    "label": "1 IMP DU PIOCH, Vendémian",
+    "lat": 43.58122,
+    "lng": 3.561777,
+    "transactions": [
+      {
+        "date": "2022-11-23",
+        "priceEur": 62000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "38dcd4ca31ff": {
+    "id": "38dcd4ca31ff",
+    "label": "10 AV DU JEU DE BALLON, Vendémian",
+    "lat": 43.581095,
+    "lng": 3.562504,
+    "transactions": [
+      {
+        "date": "2023-01-26",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "f08db4783d40": {
+    "id": "f08db4783d40",
+    "label": "1 RUE DE MADAME, Vendémian",
+    "lat": 43.581114,
+    "lng": 3.561004,
+    "transactions": [
+      {
+        "date": "2023-02-22",
+        "priceEur": 136000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "fea0bf99fc0c": {
+    "id": "fea0bf99fc0c",
+    "label": "3 IMP DU PIOCH, Vendémian",
+    "lat": 43.581243,
+    "lng": 3.561733,
+    "transactions": [
+      {
+        "date": "2023-03-24",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "79f599d15ca7": {
+    "id": "79f599d15ca7",
+    "label": "5 RUE DE LA PLACE, Vendémian",
+    "lat": 43.580813,
+    "lng": 3.561235,
+    "transactions": [
+      {
+        "date": "2023-04-28",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "b81e9226f8a6": {
+    "id": "b81e9226f8a6",
+    "label": "3 RUE DE LAVAL, Vendémian",
+    "lat": 43.580852,
+    "lng": 3.562281,
+    "transactions": [
+      {
+        "date": "2023-04-21",
+        "priceEur": 83000,
+        "typeLocal": "Maison",
+        "surfaceM2": 24,
+        "isVefa": false
+      }
+    ]
+  },
+  "51e29b602f30": {
+    "id": "51e29b602f30",
+    "label": "8 RTE DE MONTPELLIER, Vendémian",
+    "lat": 43.582496,
+    "lng": 3.561456,
+    "transactions": [
+      {
+        "date": "2023-04-19",
+        "priceEur": 332920,
+        "typeLocal": "Appartement",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "7aaed68d794c": {
+    "id": "7aaed68d794c",
+    "label": "7 RUE DE LA CROIX DES BARRIERES, Vendémian",
+    "lat": 43.582196,
+    "lng": 3.561834,
+    "transactions": [
+      {
+        "date": "2023-09-01",
+        "priceEur": 441450,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "374d40311967": {
+    "id": "374d40311967",
+    "label": "6 AV DE LA CALADE, Vendémian",
+    "lat": 43.580606,
+    "lng": 3.561691,
+    "transactions": [
+      {
+        "date": "2023-10-02",
+        "priceEur": 63500,
+        "typeLocal": "Maison",
+        "surfaceM2": 31,
+        "isVefa": false
+      }
+    ]
+  },
+  "a06fef54c166": {
+    "id": "a06fef54c166",
+    "label": "1 RUE DES AIRES BASSES, Vendémian",
+    "lat": 43.581028,
+    "lng": 3.561057,
+    "transactions": [
+      {
+        "date": "2023-10-09",
+        "priceEur": 34000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac2e6322d095": {
+    "id": "ac2e6322d095",
+    "label": "6T CHE DU LAVOIR, Vendémian",
+    "lat": 43.585657,
+    "lng": 3.560455,
+    "transactions": [
+      {
+        "date": "2024-01-31",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "5931b12c9fc3": {
+    "id": "5931b12c9fc3",
+    "label": "4 RUE DE LAVAL, Vendémian",
+    "lat": 43.580398,
+    "lng": 3.562139,
+    "transactions": [
+      {
+        "date": "2024-02-01",
+        "priceEur": 11250,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "50f09363af5b": {
+    "id": "50f09363af5b",
+    "label": "14 AV DU QUARTIER BAS, Vendémian",
+    "lat": 43.58075,
+    "lng": 3.560615,
+    "transactions": [
+      {
+        "date": "2024-03-15",
+        "priceEur": 194500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "20319515fac2": {
+    "id": "20319515fac2",
+    "label": "2 AV DU QUARTIER BAS, Vendémian",
+    "lat": 43.580418,
+    "lng": 3.561472,
+    "transactions": [
+      {
+        "date": "2024-03-13",
+        "priceEur": 155280,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2024-03-13",
+        "priceEur": 155280,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "326bfc3e13b8": {
+    "id": "326bfc3e13b8",
+    "label": "13 RUE DES SOLEILLADES, Vendémian",
+    "lat": 43.582721,
+    "lng": 3.564082,
+    "transactions": [
+      {
+        "date": "2024-03-28",
+        "priceEur": 222500,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "b445be3df664": {
+    "id": "b445be3df664",
+    "label": "13B RUE DES SOLEILLADES, Vendémian",
+    "lat": 43.58297,
+    "lng": 3.564712,
+    "transactions": [
+      {
+        "date": "2024-08-01",
+        "priceEur": 306400,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "f085903ebb2e": {
+    "id": "f085903ebb2e",
+    "label": "2 AV DE LA CALADE, Vendémian",
+    "lat": 43.58074,
+    "lng": 3.561729,
+    "transactions": [
+      {
+        "date": "2024-09-09",
+        "priceEur": 63000,
+        "typeLocal": "Maison",
+        "surfaceM2": 178,
+        "isVefa": false
+      }
+    ]
+  },
+  "467b4dd313ac": {
+    "id": "467b4dd313ac",
+    "label": "8 IMP DU PIOCH, Vendémian",
+    "lat": 43.58137,
+    "lng": 3.561723,
+    "transactions": [
+      {
+        "date": "2025-01-30",
+        "priceEur": 98000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "315a3151dd98": {
+    "id": "315a3151dd98",
+    "label": "6 RUE DE LA GUIRALE, Vendémian",
+    "lat": 43.584096,
+    "lng": 3.56343,
+    "transactions": [
+      {
+        "date": "2025-03-11",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-11",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

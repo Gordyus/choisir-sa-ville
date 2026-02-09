@@ -1,0 +1,46 @@
+{
+  "4bfcb4e0f46c": {
+    "id": "4bfcb4e0f46c",
+    "label": "479 AV DES EUZIERES, Brissac",
+    "lat": 43.88519,
+    "lng": 3.702176,
+    "transactions": [
+      {
+        "date": "2020-08-20",
+        "priceEur": 283070,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-20",
+        "priceEur": 283070,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed863bbb5d7f": {
+    "id": "ed863bbb5d7f",
+    "label": "273 AV DES EUZIERES, Brissac",
+    "lat": 43.883661,
+    "lng": 3.70228,
+    "transactions": [
+      {
+        "date": "2022-07-13",
+        "priceEur": 795000,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-13",
+        "priceEur": 795000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  }
+}

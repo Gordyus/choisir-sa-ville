@@ -1,0 +1,32 @@
+{
+  "a692f16731a8": {
+    "id": "a692f16731a8",
+    "label": "55 LIXIRIE, La Salvetat-sur-Agout",
+    "lat": 43.592787,
+    "lng": 2.636427,
+    "transactions": [
+      {
+        "date": "2021-07-12",
+        "priceEur": 176450,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c10013a4390": {
+    "id": "2c10013a4390",
+    "label": "6433 LIXIRIE, La Salvetat-sur-Agout",
+    "lat": 43.592522,
+    "lng": 2.63639,
+    "transactions": [
+      {
+        "date": "2025-05-06",
+        "priceEur": 237700,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  }
+}

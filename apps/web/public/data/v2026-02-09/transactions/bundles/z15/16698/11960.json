@@ -1,0 +1,77 @@
+{
+  "55cc23218d5b": {
+    "id": "55cc23218d5b",
+    "label": "9002 LE DEVANT DE CEYRAS, Clermont-l'Hérault",
+    "lat": 43.637509,
+    "lng": 3.460201,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 158900,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "17766f862df7": {
+    "id": "17766f862df7",
+    "label": "16 RUE DE L ABREUVOIR, Ceyras",
+    "lat": 43.643881,
+    "lng": 3.456784,
+    "transactions": [
+      {
+        "date": "2025-01-07",
+        "priceEur": 86790,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "811d6cf3f912": {
+    "id": "811d6cf3f912",
+    "label": "1 RUE DE LA LERGUE, Ceyras",
+    "lat": 43.643324,
+    "lng": 3.458502,
+    "transactions": [
+      {
+        "date": "2025-01-13",
+        "priceEur": 85000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa627ab78eb8": {
+    "id": "fa627ab78eb8",
+    "label": "10 RUE DE L ABREUVOIR, Ceyras",
+    "lat": 43.643972,
+    "lng": 3.456994,
+    "transactions": [
+      {
+        "date": "2025-02-24",
+        "priceEur": 139550,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "e43547ebe038": {
+    "id": "e43547ebe038",
+    "label": "1 RUE DE LA CHICANE, Ceyras",
+    "lat": 43.643929,
+    "lng": 3.458786,
+    "transactions": [
+      {
+        "date": "2025-03-25",
+        "priceEur": 229000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

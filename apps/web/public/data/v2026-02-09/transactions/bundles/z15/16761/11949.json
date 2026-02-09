@@ -1,0 +1,74 @@
+{
+  "7bd70f16df61": {
+    "id": "7bd70f16df61",
+    "label": "5953 MOULIN DE LEQUIS, Villetelle",
+    "lat": 43.726593,
+    "lng": 4.14506,
+    "transactions": [
+      {
+        "date": "2022-06-03",
+        "priceEur": 43000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-03",
+        "priceEur": 43000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-03",
+        "priceEur": 43000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-28",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-28",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-28",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "635baa25e7db": {
+    "id": "635baa25e7db",
+    "label": "6013 CHE D AMBRUSSUM, Villetelle",
+    "lat": 43.730226,
+    "lng": 4.143292,
+    "transactions": [
+      {
+        "date": "2024-11-05",
+        "priceEur": 63000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-05",
+        "priceEur": 63000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

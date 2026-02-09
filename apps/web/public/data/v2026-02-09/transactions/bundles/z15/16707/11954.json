@@ -1,0 +1,32 @@
+{
+  "c96bfde0063b": {
+    "id": "c96bfde0063b",
+    "label": "5462 SAINT-GENIES, Saint-Jean-de-Fos",
+    "lat": 43.687455,
+    "lng": 3.55807,
+    "transactions": [
+      {
+        "date": "2023-06-15",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "e653b0af9395": {
+    "id": "e653b0af9395",
+    "label": "5461 SAINT-GENIES, Saint-Jean-de-Fos",
+    "lat": 43.687568,
+    "lng": 3.557999,
+    "transactions": [
+      {
+        "date": "2023-06-15",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  }
+}

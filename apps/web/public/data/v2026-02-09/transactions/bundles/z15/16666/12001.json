@@ -1,0 +1,38 @@
+{
+  "0a9c32b0f7af": {
+    "id": "0a9c32b0f7af",
+    "label": "5569 SOUSTRE, Montady",
+    "lat": 43.316446,
+    "lng": 3.102062,
+    "transactions": [
+      {
+        "date": "2024-01-08",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 230,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-08",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 231,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-08",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 98,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-08",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 213,
+        "isVefa": false
+      }
+    ]
+  }
+}

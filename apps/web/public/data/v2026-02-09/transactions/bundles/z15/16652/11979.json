@@ -1,0 +1,83 @@
+{
+  "44809fbf2e4d": {
+    "id": "44809fbf2e4d",
+    "label": "13 RUE DE PAILHOS, Berlou",
+    "lat": 43.489864,
+    "lng": 2.95302,
+    "transactions": [
+      {
+        "date": "2020-12-16",
+        "priceEur": 286080,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "b90d23f06e5e": {
+    "id": "b90d23f06e5e",
+    "label": "5001F RUE DE LABADIE, Berlou",
+    "lat": 43.490458,
+    "lng": 2.953438,
+    "transactions": [
+      {
+        "date": "2022-09-12",
+        "priceEur": 278000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-12",
+        "priceEur": 278000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-27",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-27",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "87961ed60455": {
+    "id": "87961ed60455",
+    "label": "9 RUE DES CLAUSES, Berlou",
+    "lat": 43.490216,
+    "lng": 2.954989,
+    "transactions": [
+      {
+        "date": "2024-03-28",
+        "priceEur": 129050,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "06b951f90087": {
+    "id": "06b951f90087",
+    "label": "7 RUE DES CLAUSES, Berlou",
+    "lat": 43.49019,
+    "lng": 2.955061,
+    "transactions": [
+      {
+        "date": "2024-12-18",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "6d13e1c9e269": {
+    "id": "6d13e1c9e269",
+    "label": "5264 CAZELLES, Aigues-Vives",
+    "lat": 43.359592,
+    "lng": 2.842126,
+    "transactions": [
+      {
+        "date": "2020-08-28",
+        "priceEur": 68400,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "68638f419e57": {
+    "id": "68638f419e57",
+    "label": "3 CHE DE SAINT HIPPOLYTE, Agel",
+    "lat": 43.360145,
+    "lng": 2.84386,
+    "transactions": [
+      {
+        "date": "2022-05-20",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-20",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-20",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "688ad08f2a8e": {
+    "id": "688ad08f2a8e",
+    "label": "1 CHE DU BOSQUET, Agel",
+    "lat": 43.359106,
+    "lng": 2.841792,
+    "transactions": [
+      {
+        "date": "2023-01-24",
+        "priceEur": 219500,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1ec9a7465b9": {
+    "id": "e1ec9a7465b9",
+    "label": "5033 LE VILLAGE, Aigues-Vives",
+    "lat": 43.359752,
+    "lng": 2.842492,
+    "transactions": [
+      {
+        "date": "2023-09-14",
+        "priceEur": 41000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "f11e1cfbd098": {
+    "id": "f11e1cfbd098",
+    "label": "7 RUE DU LEVANT, Aigues-Vives",
+    "lat": 43.360074,
+    "lng": 2.842465,
+    "transactions": [
+      {
+        "date": "2024-05-27",
+        "priceEur": 125550,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "357f16808e18": {
+    "id": "357f16808e18",
+    "label": "17 RUE DU COUCHANT, Aigues-Vives",
+    "lat": 43.359916,
+    "lng": 2.841968,
+    "transactions": [
+      {
+        "date": "2025-03-14",
+        "priceEur": 73500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

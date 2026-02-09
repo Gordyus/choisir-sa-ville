@@ -1,0 +1,47 @@
+{
+  "94c869f01023": {
+    "id": "94c869f01023",
+    "label": "5206F COULOUMA, Pardailhan",
+    "lat": 43.42691,
+    "lng": 2.843972,
+    "transactions": [
+      {
+        "date": "2020-10-02",
+        "priceEur": 122000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "c99b184cb1dc": {
+    "id": "c99b184cb1dc",
+    "label": "5060 COULOUMA, Pardailhan",
+    "lat": 43.426445,
+    "lng": 2.843695,
+    "transactions": [
+      {
+        "date": "2024-01-15",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa61e2e634e6": {
+    "id": "fa61e2e634e6",
+    "label": "5128 COULOUMA, Pardailhan",
+    "lat": 43.426335,
+    "lng": 2.843168,
+    "transactions": [
+      {
+        "date": "2024-01-31",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

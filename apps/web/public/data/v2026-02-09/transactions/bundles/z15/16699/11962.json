@@ -1,0 +1,532 @@
+{
+  "579c77302fe2": {
+    "id": "579c77302fe2",
+    "label": "1 LOT LES CATALOUNES, Brignac",
+    "lat": 43.62387,
+    "lng": 3.470673,
+    "transactions": [
+      {
+        "date": "2020-07-03",
+        "priceEur": 269750,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "4442af989a60": {
+    "id": "4442af989a60",
+    "label": "17 AV DES CHENES VERTS, Brignac",
+    "lat": 43.625781,
+    "lng": 3.468278,
+    "transactions": [
+      {
+        "date": "2020-07-24",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4ffab672961": {
+    "id": "c4ffab672961",
+    "label": "24 AV DES CHENES VERTS, Brignac",
+    "lat": 43.62576,
+    "lng": 3.467748,
+    "transactions": [
+      {
+        "date": "2020-11-09",
+        "priceEur": 177600,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "792c2a48002b": {
+    "id": "792c2a48002b",
+    "label": "9 LOT LES PUITS, Brignac",
+    "lat": 43.621217,
+    "lng": 3.471564,
+    "transactions": [
+      {
+        "date": "2021-02-10",
+        "priceEur": 390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-10",
+        "priceEur": 390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa748191bf26": {
+    "id": "aa748191bf26",
+    "label": "3 RUE DES MURIERS, Brignac",
+    "lat": 43.624081,
+    "lng": 3.469064,
+    "transactions": [
+      {
+        "date": "2021-04-27",
+        "priceEur": 244000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "e22bf4a75779": {
+    "id": "e22bf4a75779",
+    "label": "26 AV DES CHENES VERTS, Brignac",
+    "lat": 43.625839,
+    "lng": 3.467676,
+    "transactions": [
+      {
+        "date": "2021-06-07",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "d8a2e37f6cfe": {
+    "id": "d8a2e37f6cfe",
+    "label": "22 AV DES CHENES VERTS, Brignac",
+    "lat": 43.6257,
+    "lng": 3.467849,
+    "transactions": [
+      {
+        "date": "2021-06-04",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5c43958307e": {
+    "id": "b5c43958307e",
+    "label": "45 AV DES CHENES VERTS, Brignac",
+    "lat": 43.625585,
+    "lng": 3.467229,
+    "transactions": [
+      {
+        "date": "2023-02-21",
+        "priceEur": 246790,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-16",
+        "priceEur": 233400,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "7187cecd1288": {
+    "id": "7187cecd1288",
+    "label": "4 AV DES CHENES VERTS, Brignac",
+    "lat": 43.624679,
+    "lng": 3.468856,
+    "transactions": [
+      {
+        "date": "2021-08-02",
+        "priceEur": 295100,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d19e662d6fd": {
+    "id": "1d19e662d6fd",
+    "label": "13 CHE DE FOUSCAIS, Brignac",
+    "lat": 43.622974,
+    "lng": 3.471674,
+    "transactions": [
+      {
+        "date": "2021-09-15",
+        "priceEur": 434500,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-15",
+        "priceEur": 434500,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "baaa439ea639": {
+    "id": "baaa439ea639",
+    "label": "6 RUE DES OLIVIERS, Brignac",
+    "lat": 43.624295,
+    "lng": 3.467207,
+    "transactions": [
+      {
+        "date": "2021-10-21",
+        "priceEur": 290927,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c9b7afd6f3f": {
+    "id": "8c9b7afd6f3f",
+    "label": "2 RUE DES AMANDIERS, Brignac",
+    "lat": 43.623956,
+    "lng": 3.467605,
+    "transactions": [
+      {
+        "date": "2021-11-17",
+        "priceEur": 270261,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6b8d285f40e": {
+    "id": "b6b8d285f40e",
+    "label": "5 CHE DE FOUSCAIS, Brignac",
+    "lat": 43.621654,
+    "lng": 3.470997,
+    "transactions": [
+      {
+        "date": "2022-04-19",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-19",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2876331fe93": {
+    "id": "a2876331fe93",
+    "label": "10 RUE DES ARBOUSIERS, Brignac",
+    "lat": 43.622242,
+    "lng": 3.468569,
+    "transactions": [
+      {
+        "date": "2022-06-01",
+        "priceEur": 267400,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "9dd7b6300051": {
+    "id": "9dd7b6300051",
+    "label": "12 LOT LES PUITS, Brignac",
+    "lat": 43.620894,
+    "lng": 3.471313,
+    "transactions": [
+      {
+        "date": "2022-06-28",
+        "priceEur": 467160,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-28",
+        "priceEur": 467160,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c20b4cda7f8": {
+    "id": "2c20b4cda7f8",
+    "label": "2 RUE DES ARBOUSIERS, Brignac",
+    "lat": 43.621665,
+    "lng": 3.469155,
+    "transactions": [
+      {
+        "date": "2022-07-21",
+        "priceEur": 301850,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "54e4855ccca6": {
+    "id": "54e4855ccca6",
+    "label": "4 RUE DE LA PARO, Brignac",
+    "lat": 43.624184,
+    "lng": 3.467986,
+    "transactions": [
+      {
+        "date": "2022-08-11",
+        "priceEur": 291000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b99e4e9f8c2": {
+    "id": "9b99e4e9f8c2",
+    "label": "47 AV DES CHENES VERTS, Brignac",
+    "lat": 43.625486,
+    "lng": 3.467317,
+    "transactions": [
+      {
+        "date": "2022-09-02",
+        "priceEur": 271700,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6281e269604": {
+    "id": "b6281e269604",
+    "label": "5 RUE DES MURIERS, Brignac",
+    "lat": 43.624089,
+    "lng": 3.469279,
+    "transactions": [
+      {
+        "date": "2023-03-01",
+        "priceEur": 302000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "7cbc02f7fa62": {
+    "id": "7cbc02f7fa62",
+    "label": "3 LOT LES CATALOUNES, Brignac",
+    "lat": 43.623527,
+    "lng": 3.470925,
+    "transactions": [
+      {
+        "date": "2023-03-29",
+        "priceEur": 352400,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c2b597a753f": {
+    "id": "7c2b597a753f",
+    "label": "6 RUE DE LA PARO, Brignac",
+    "lat": 43.624321,
+    "lng": 3.467894,
+    "transactions": [
+      {
+        "date": "2023-04-03",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "3069dbd504e8": {
+    "id": "3069dbd504e8",
+    "label": "12B LOT LES PUITS, Brignac",
+    "lat": 43.620975,
+    "lng": 3.471405,
+    "transactions": [
+      {
+        "date": "2023-06-22",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e9b081e2e76": {
+    "id": "1e9b081e2e76",
+    "label": "6 RUE DES AMANDIERS, Brignac",
+    "lat": 43.62401,
+    "lng": 3.4672,
+    "transactions": [
+      {
+        "date": "2023-10-19",
+        "priceEur": 253050,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "26a523e41781": {
+    "id": "26a523e41781",
+    "label": "20 RUE DE LA PARO, Brignac",
+    "lat": 43.624729,
+    "lng": 3.467754,
+    "transactions": [
+      {
+        "date": "2023-11-10",
+        "priceEur": 237500,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e20cc555352": {
+    "id": "1e20cc555352",
+    "label": "19 CHE DE FOUSCAIS, Brignac",
+    "lat": 43.622565,
+    "lng": 3.47069,
+    "transactions": [
+      {
+        "date": "2024-05-17",
+        "priceEur": 319660,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "62b30d1a4ef4": {
+    "id": "62b30d1a4ef4",
+    "label": "8 LOT LES AMANDIERS, Brignac",
+    "lat": 43.623949,
+    "lng": 3.467066,
+    "transactions": [
+      {
+        "date": "2024-08-06",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "defa23c917fb": {
+    "id": "defa23c917fb",
+    "label": "17 RUE DES LAURIERS, Brignac",
+    "lat": 43.62352,
+    "lng": 3.469159,
+    "transactions": [
+      {
+        "date": "2024-10-10",
+        "priceEur": 258000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d8228512d28": {
+    "id": "3d8228512d28",
+    "label": "15 RUE DES LAURIERS, Brignac",
+    "lat": 43.623386,
+    "lng": 3.469015,
+    "transactions": [
+      {
+        "date": "2024-10-18",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4b53eb6b881": {
+    "id": "b4b53eb6b881",
+    "label": "3 RUE DES LAURIERS, Brignac",
+    "lat": 43.62362,
+    "lng": 3.468833,
+    "transactions": [
+      {
+        "date": "2024-12-03",
+        "priceEur": 265200,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4128023a530": {
+    "id": "c4128023a530",
+    "label": "17 RUE DES ARBOUSIERS, Brignac",
+    "lat": 43.622589,
+    "lng": 3.467515,
+    "transactions": [
+      {
+        "date": "2025-02-26",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "d18d9e2e20a8": {
+    "id": "d18d9e2e20a8",
+    "label": "6 RUE DES MURIERS, Brignac",
+    "lat": 43.62353,
+    "lng": 3.469463,
+    "transactions": [
+      {
+        "date": "2025-03-31",
+        "priceEur": 268000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "dfa085645106": {
+    "id": "dfa085645106",
+    "label": "18 RUE DES MURIERS, Brignac",
+    "lat": 43.623183,
+    "lng": 3.470329,
+    "transactions": [
+      {
+        "date": "2025-03-26",
+        "priceEur": 327450,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b20fbfd7065": {
+    "id": "9b20fbfd7065",
+    "label": "53 AV DES CHENES VERTS, Brignac",
+    "lat": 43.625196,
+    "lng": 3.467968,
+    "transactions": [
+      {
+        "date": "2025-06-10",
+        "priceEur": 281000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

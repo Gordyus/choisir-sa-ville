@@ -1,0 +1,39 @@
+{
+  "3c398d867c05": {
+    "id": "3c398d867c05",
+    "label": "5278 LES COMBES, Galargues",
+    "lat": 43.778306,
+    "lng": 4.013241,
+    "transactions": [
+      {
+        "date": "2020-07-29",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-29",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3a535addc02": {
+    "id": "c3a535addc02",
+    "label": "5775F RTE DE BUZIGNARGUES, Galargues",
+    "lat": 43.771126,
+    "lng": 4.013038,
+    "transactions": [
+      {
+        "date": "2023-09-29",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

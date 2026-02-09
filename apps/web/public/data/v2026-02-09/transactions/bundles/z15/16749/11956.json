@@ -1,0 +1,39 @@
+{
+  "292f635d335f": {
+    "id": "292f635d335f",
+    "label": "3 AV GEORGES BIZET, Baillargues",
+    "lat": 43.668805,
+    "lng": 4.016231,
+    "transactions": [
+      {
+        "date": "2022-11-29",
+        "priceEur": 379554,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": true
+      }
+    ]
+  },
+  "e6a4c944193c": {
+    "id": "e6a4c944193c",
+    "label": "5 AV LES SYMPHONIES DE BIZET, Baillargues",
+    "lat": 43.669028,
+    "lng": 4.01683,
+    "transactions": [
+      {
+        "date": "2024-08-26",
+        "priceEur": 390280,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-07",
+        "priceEur": 184200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  }
+}

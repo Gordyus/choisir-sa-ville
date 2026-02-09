@@ -1,0 +1,53 @@
+{
+  "8c8b4b68e188": {
+    "id": "8c8b4b68e188",
+    "label": "5135 MAS CANET, Mérifons",
+    "lat": 43.620958,
+    "lng": 3.284967,
+    "transactions": [
+      {
+        "date": "2020-07-15",
+        "priceEur": 236000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-15",
+        "priceEur": 236000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "550138878d20": {
+    "id": "550138878d20",
+    "label": "5243F MAS CANET, Mérifons",
+    "lat": 43.622588,
+    "lng": 3.287057,
+    "transactions": [
+      {
+        "date": "2021-10-01",
+        "priceEur": 355000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-01",
+        "priceEur": 355000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-01",
+        "priceEur": 355000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  }
+}

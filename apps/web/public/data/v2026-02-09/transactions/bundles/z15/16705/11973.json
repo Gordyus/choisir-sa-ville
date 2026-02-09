@@ -1,0 +1,90 @@
+{
+  "878b3a7f34e5": {
+    "id": "878b3a7f34e5",
+    "label": "10 IMP DU VAL D OR, Saint-Pargoire",
+    "lat": 43.53282,
+    "lng": 3.533162,
+    "transactions": [
+      {
+        "date": "2021-07-20",
+        "priceEur": 347578,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  },
+  "13a5af0046ee": {
+    "id": "13a5af0046ee",
+    "label": "548 AV DU VAL D OR, Saint-Pargoire",
+    "lat": 43.532985,
+    "lng": 3.532668,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-29",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "57a8d62c1975": {
+    "id": "57a8d62c1975",
+    "label": "6089F AV DU VAL D OR, Saint-Pargoire",
+    "lat": 43.533447,
+    "lng": 3.531859,
+    "transactions": [
+      {
+        "date": "2023-11-07",
+        "priceEur": 630000,
+        "typeLocal": "Maison",
+        "surfaceM2": 166,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-07",
+        "priceEur": 630000,
+        "typeLocal": "Maison",
+        "surfaceM2": 166,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-07",
+        "priceEur": 630000,
+        "typeLocal": "Maison",
+        "surfaceM2": 166,
+        "isVefa": false
+      }
+    ]
+  },
+  "79391c7f169a": {
+    "id": "79391c7f169a",
+    "label": "5103F AV DE PLAISSAN, Saint-Pargoire",
+    "lat": 43.533185,
+    "lng": 3.528255,
+    "transactions": [
+      {
+        "date": "2024-12-12",
+        "priceEur": 295000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2024-12-12",
+        "priceEur": 295000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "74ef7da253fb": {
+    "id": "74ef7da253fb",
+    "label": "26F LES 4 CANAUX, Palavas-les-Flots",
+    "lat": 43.533385,
+    "lng": 3.919199,
+    "transactions": [
+      {
+        "date": "2024-04-24",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 21,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-08",
+        "priceEur": 185300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 21,
+        "isVefa": false
+      }
+    ]
+  },
+  "5218cf62cf63": {
+    "id": "5218cf62cf63",
+    "label": "9 LES 4 CANAUX, Palavas-les-Flots",
+    "lat": 43.533095,
+    "lng": 3.916276,
+    "transactions": [
+      {
+        "date": "2022-09-05",
+        "priceEur": 478452,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "8ad8050ceded": {
+    "id": "8ad8050ceded",
+    "label": "11 LES 4 CANAUX, Palavas-les-Flots",
+    "lat": 43.533003,
+    "lng": 3.915978,
+    "transactions": [
+      {
+        "date": "2023-10-16",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "02f4e92c7acd": {
+    "id": "02f4e92c7acd",
+    "label": "10 LES 4 CANAUX, Palavas-les-Flots",
+    "lat": 43.53297,
+    "lng": 3.916205,
+    "transactions": [
+      {
+        "date": "2025-03-31",
+        "priceEur": 450000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

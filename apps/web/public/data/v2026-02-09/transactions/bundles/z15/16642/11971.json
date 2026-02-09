@@ -1,0 +1,62 @@
+{
+  "41aa0cfcb9a3": {
+    "id": "41aa0cfcb9a3",
+    "label": "5189 CAILHO, Saint-Étienne-d'Albagnan",
+    "lat": 43.549716,
+    "lng": 2.84493,
+    "transactions": [
+      {
+        "date": "2021-01-22",
+        "priceEur": 184170,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c4e8957f7d5": {
+    "id": "0c4e8957f7d5",
+    "label": "5188 CAILHO, Saint-Étienne-d'Albagnan",
+    "lat": 43.549756,
+    "lng": 2.844872,
+    "transactions": [
+      {
+        "date": "2021-01-22",
+        "priceEur": 184170,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd9f5d264de7": {
+    "id": "cd9f5d264de7",
+    "label": "5135 CAILHO LE HAUT, Saint-Étienne-d'Albagnan",
+    "lat": 43.549243,
+    "lng": 2.843545,
+    "transactions": [
+      {
+        "date": "2023-11-07",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "0123c6725f16": {
+    "id": "0123c6725f16",
+    "label": "5255 CAILHO, Saint-Étienne-d'Albagnan",
+    "lat": 43.549863,
+    "lng": 2.844985,
+    "transactions": [
+      {
+        "date": "2023-12-26",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  }
+}

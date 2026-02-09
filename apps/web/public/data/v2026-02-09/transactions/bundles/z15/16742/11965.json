@@ -1,0 +1,32 @@
+{
+  "da2f975392be": {
+    "id": "da2f975392be",
+    "label": "9003 MAS D OVILLIER, Mauguio",
+    "lat": 43.601518,
+    "lng": 3.943532,
+    "transactions": [
+      {
+        "date": "2023-07-10",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "61277afdcde4": {
+    "id": "61277afdcde4",
+    "label": "750 AV BACHAGA BOUALEM, Montpellier",
+    "lat": 43.597229,
+    "lng": 3.934144,
+    "transactions": [
+      {
+        "date": "2024-08-06",
+        "priceEur": 770000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "a802599ca53c": {
+    "id": "a802599ca53c",
+    "label": "200 CHE DES CANTARIDIES, Lunel",
+    "lat": 43.690519,
+    "lng": 4.163365,
+    "transactions": [
+      {
+        "date": "2021-04-15",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-15",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "11dc6b36b2fd": {
+    "id": "11dc6b36b2fd",
+    "label": "103C CHE DU PONT DE LUNEL, Lunel",
+    "lat": 43.687682,
+    "lng": 4.154383,
+    "transactions": [
+      {
+        "date": "2023-01-05",
+        "priceEur": 268000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  }
+}

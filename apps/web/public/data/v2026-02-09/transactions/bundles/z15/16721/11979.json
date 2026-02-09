@@ -1,0 +1,62 @@
+{
+  "07af3482a437": {
+    "id": "07af3482a437",
+    "label": "7 RUE DE COPERNIC, Gigean",
+    "lat": 43.492602,
+    "lng": 3.702678,
+    "transactions": [
+      {
+        "date": "2020-12-22",
+        "priceEur": 460000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e9d8159a652": {
+    "id": "9e9d8159a652",
+    "label": "3 RUE DE COPERNIC, Gigean",
+    "lat": 43.492439,
+    "lng": 3.70381,
+    "transactions": [
+      {
+        "date": "2021-07-15",
+        "priceEur": 307000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "cdec46e69178": {
+    "id": "cdec46e69178",
+    "label": "8 RUE DES ARTISANS, Gigean",
+    "lat": 43.492319,
+    "lng": 3.70773,
+    "transactions": [
+      {
+        "date": "2022-06-09",
+        "priceEur": 419400,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "6c9e5ac38264": {
+    "id": "6c9e5ac38264",
+    "label": "5813 RUE SADI CARNOT, Gigean",
+    "lat": 43.486986,
+    "lng": 3.703594,
+    "transactions": [
+      {
+        "date": "2022-12-15",
+        "priceEur": 1080000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

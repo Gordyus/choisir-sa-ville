@@ -1,0 +1,127 @@
+{
+  "1afee9e4f474": {
+    "id": "1afee9e4f474",
+    "label": "26 RUE CALQUIERES BASSES, Pézenas",
+    "lat": 43.458402,
+    "lng": 3.428044,
+    "transactions": [
+      {
+        "date": "2022-10-05",
+        "priceEur": 73500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-31",
+        "priceEur": 43750,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-23",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-29",
+        "priceEur": 307700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac1d87fbe147": {
+    "id": "ac1d87fbe147",
+    "label": "13T RUE CALQUIERES BASSES, Pézenas",
+    "lat": 43.45763,
+    "lng": 3.429897,
+    "transactions": [
+      {
+        "date": "2022-01-27",
+        "priceEur": 753000,
+        "typeLocal": "Maison",
+        "surfaceM2": 270,
+        "isVefa": false
+      }
+    ]
+  },
+  "c8a345f58d3b": {
+    "id": "c8a345f58d3b",
+    "label": "4 RUE MARECHAL IMBERT, Pézenas",
+    "lat": 43.457522,
+    "lng": 3.428248,
+    "transactions": [
+      {
+        "date": "2022-07-15",
+        "priceEur": 540000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-15",
+        "priceEur": 540000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "7cd483dc1e3e": {
+    "id": "7cd483dc1e3e",
+    "label": "1 RUE CALQUIERES BASSES, Pézenas",
+    "lat": 43.45854,
+    "lng": 3.428902,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 450020,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-29",
+        "priceEur": 450020,
+        "typeLocal": "Appartement",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "55775e94423f": {
+    "id": "55775e94423f",
+    "label": "9003 RUE CALQUIERES BASSES, Pézenas",
+    "lat": 43.455869,
+    "lng": 3.432856,
+    "transactions": [
+      {
+        "date": "2024-08-02",
+        "priceEur": 15000,
+        "typeLocal": "Maison",
+        "surfaceM2": 280,
+        "isVefa": false
+      }
+    ]
+  },
+  "47e6fb6adeca": {
+    "id": "47e6fb6adeca",
+    "label": "20 RUE CALQUIERES BASSES, Pézenas",
+    "lat": 43.458524,
+    "lng": 3.427918,
+    "transactions": [
+      {
+        "date": "2024-10-18",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "8bf41dffbd02": {
+    "id": "8bf41dffbd02",
+    "label": "5946 DOM DE LAVAL, Saint-Gély-du-Fesc",
+    "lat": 43.699212,
+    "lng": 3.78915,
+    "transactions": [
+      {
+        "date": "2024-09-06",
+        "priceEur": 340000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-06",
+        "priceEur": 340000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 16,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "8e6918fff62d": {
+    "id": "8e6918fff62d",
+    "label": "56 RUE DU MAS DE CAUSSE, Brissac",
+    "lat": 43.893705,
+    "lng": 3.691374,
+    "transactions": [
+      {
+        "date": "2021-04-09",
+        "priceEur": 310600,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-09",
+        "priceEur": 310600,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-29",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-29",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  }
+}

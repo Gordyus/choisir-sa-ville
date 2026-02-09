@@ -1,0 +1,77 @@
+{
+  "6aead1ab0582": {
+    "id": "6aead1ab0582",
+    "label": "39 RUE DU MAS GUILHOU, Saint-Maurice-Navacelles",
+    "lat": 43.894719,
+    "lng": 3.509778,
+    "transactions": [
+      {
+        "date": "2021-01-28",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b851a13b3d4": {
+    "id": "5b851a13b3d4",
+    "label": "11 CHEM DU CAILA, Saint-Maurice-Navacelles",
+    "lat": 43.893884,
+    "lng": 3.511649,
+    "transactions": [
+      {
+        "date": "2021-07-19",
+        "priceEur": 129990,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "c48464910ccf": {
+    "id": "c48464910ccf",
+    "label": "111 CHEM DES FAISSES, Saint-Maurice-Navacelles",
+    "lat": 43.893785,
+    "lng": 3.51179,
+    "transactions": [
+      {
+        "date": "2022-04-06",
+        "priceEur": 111600,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "fc8391682cc7": {
+    "id": "fc8391682cc7",
+    "label": "158 CHEM DU SERRE DE LA CLEDE, Saint-Maurice-Navacelles",
+    "lat": 43.895325,
+    "lng": 3.513029,
+    "transactions": [
+      {
+        "date": "2023-07-24",
+        "priceEur": 113670,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "e575a1fa202a": {
+    "id": "e575a1fa202a",
+    "label": "23 CHE DU CAP DEL MAS, Saint-Maurice-Navacelles",
+    "lat": 43.89457,
+    "lng": 3.508866,
+    "transactions": [
+      {
+        "date": "2024-11-13",
+        "priceEur": 227000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

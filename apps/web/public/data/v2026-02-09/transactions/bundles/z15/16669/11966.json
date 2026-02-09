@@ -1,0 +1,39 @@
+{
+  "e4513ac457c7": {
+    "id": "e4513ac457c7",
+    "label": "9004 PLAINE DE LA BASTIDE, Bédarieux",
+    "lat": 43.592889,
+    "lng": 3.134836,
+    "transactions": [
+      {
+        "date": "2022-07-20",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 206,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d9718e13802": {
+    "id": "9d9718e13802",
+    "label": "9001 PLAINE DE LA BASTIDE, Bédarieux",
+    "lat": 43.592657,
+    "lng": 3.134568,
+    "transactions": [
+      {
+        "date": "2023-11-28",
+        "priceEur": 378340,
+        "typeLocal": "Appartement",
+        "surfaceM2": 152,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-28",
+        "priceEur": 378340,
+        "typeLocal": "Appartement",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

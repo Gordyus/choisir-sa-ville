@@ -1,0 +1,142 @@
+{
+  "0d9222ce0740": {
+    "id": "0d9222ce0740",
+    "label": "5121F IMP DU RABINE, Lauroux",
+    "lat": 43.765603,
+    "lng": 3.30784,
+    "transactions": [
+      {
+        "date": "2020-09-09",
+        "priceEur": 156000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "80a6fa389f4a": {
+    "id": "80a6fa389f4a",
+    "label": "5127F RUE DE LA DRAILLE, Lauroux",
+    "lat": 43.765366,
+    "lng": 3.307818,
+    "transactions": [
+      {
+        "date": "2020-12-23",
+        "priceEur": 21000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "112322f6ffaa": {
+    "id": "112322f6ffaa",
+    "label": "5369F CHE DES OLIVETTES, Lauroux",
+    "lat": 43.769198,
+    "lng": 3.309621,
+    "transactions": [
+      {
+        "date": "2022-07-25",
+        "priceEur": 175570,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-25",
+        "priceEur": 175570,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "89246c26ba8d": {
+    "id": "89246c26ba8d",
+    "label": "5372F CHE DES OLIVETTES, Lauroux",
+    "lat": 43.769352,
+    "lng": 3.308951,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-29",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7c9fd98d3aa": {
+    "id": "f7c9fd98d3aa",
+    "label": "5312F IMP DES OLIVIERS, Lauroux",
+    "lat": 43.765063,
+    "lng": 3.307792,
+    "transactions": [
+      {
+        "date": "2023-01-06",
+        "priceEur": 94000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-06",
+        "priceEur": 94000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "0f78e356ed05": {
+    "id": "0f78e356ed05",
+    "label": "5240F RUE DE LA PASSERELLE, Lauroux",
+    "lat": 43.7666,
+    "lng": 3.308146,
+    "transactions": [
+      {
+        "date": "2023-11-15",
+        "priceEur": 345850,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-15",
+        "priceEur": 345850,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "f20d1b47861c": {
+    "id": "f20d1b47861c",
+    "label": "5296F CHE DES FAISSES, Lauroux",
+    "lat": 43.764908,
+    "lng": 3.308219,
+    "transactions": [
+      {
+        "date": "2024-11-14",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-14",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

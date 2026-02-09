@@ -1,0 +1,39 @@
+{
+  "1e8089ae75bb": {
+    "id": "1e8089ae75bb",
+    "label": "5479 COMBELIAUBERT, Saint-Pons-de-Thomières",
+    "lat": 43.454241,
+    "lng": 2.733631,
+    "transactions": [
+      {
+        "date": "2020-11-28",
+        "priceEur": 32000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "7544b0a3009c": {
+    "id": "7544b0a3009c",
+    "label": "690F COMBELIAUBERT, Saint-Pons-de-Thomières",
+    "lat": 43.454416,
+    "lng": 2.734413,
+    "transactions": [
+      {
+        "date": "2023-10-03",
+        "priceEur": 86200,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-16",
+        "priceEur": 86200,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  }
+}

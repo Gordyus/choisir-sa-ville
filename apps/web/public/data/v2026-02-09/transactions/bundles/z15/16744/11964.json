@@ -1,0 +1,32 @@
+{
+  "6bccd4b4ab50": {
+    "id": "6bccd4b4ab50",
+    "label": "9025 LA GARRIGUE BASSE, Mauguio",
+    "lat": 43.611297,
+    "lng": 3.960985,
+    "transactions": [
+      {
+        "date": "2022-06-01",
+        "priceEur": 294757.38,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "199269484040": {
+    "id": "199269484040",
+    "label": "9998 LA GARRIGUE, Mauguio",
+    "lat": 43.610206,
+    "lng": 3.962465,
+    "transactions": [
+      {
+        "date": "2022-07-20",
+        "priceEur": 445000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  }
+}

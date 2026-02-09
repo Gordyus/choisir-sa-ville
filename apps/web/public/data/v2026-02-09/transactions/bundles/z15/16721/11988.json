@@ -1,0 +1,32 @@
+{
+  "b9875fc12306": {
+    "id": "b9875fc12306",
+    "label": "5517F RUE DE ROME, Sète",
+    "lat": 43.419552,
+    "lng": 3.705518,
+    "transactions": [
+      {
+        "date": "2024-04-26",
+        "priceEur": 425000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "24b13a7d09df": {
+    "id": "24b13a7d09df",
+    "label": "9001 AV DES EAUX BLANCHES, Sète",
+    "lat": 43.41606,
+    "lng": 3.707025,
+    "transactions": [
+      {
+        "date": "2024-10-29",
+        "priceEur": 214000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

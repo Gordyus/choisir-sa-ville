@@ -1,0 +1,53 @@
+{
+  "5cf215b9cbb3": {
+    "id": "5cf215b9cbb3",
+    "label": "5672 MURATOU, La Tour-sur-Orb",
+    "lat": 43.676115,
+    "lng": 3.157238,
+    "transactions": [
+      {
+        "date": "2022-09-19",
+        "priceEur": 214000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-19",
+        "priceEur": 214000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e94abe34460": {
+    "id": "3e94abe34460",
+    "label": "5577 SAINT XIST, La Tour-sur-Orb",
+    "lat": 43.679442,
+    "lng": 3.162912,
+    "transactions": [
+      {
+        "date": "2022-12-13",
+        "priceEur": 297900,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-13",
+        "priceEur": 297900,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-13",
+        "priceEur": 297900,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

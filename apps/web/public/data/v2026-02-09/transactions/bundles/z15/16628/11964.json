@@ -1,0 +1,39 @@
+{
+  "4b414fbeaf93": {
+    "id": "4b414fbeaf93",
+    "label": "68F MARCOULS, La Salvetat-sur-Agout",
+    "lat": 43.607672,
+    "lng": 2.690241,
+    "transactions": [
+      {
+        "date": "2023-12-21",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-09",
+        "priceEur": 18000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "3fc55aebf0b7": {
+    "id": "3fc55aebf0b7",
+    "label": "6634F MARCOULS, La Salvetat-sur-Agout",
+    "lat": 43.60746,
+    "lng": 2.690406,
+    "transactions": [
+      {
+        "date": "2022-01-13",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  }
+}

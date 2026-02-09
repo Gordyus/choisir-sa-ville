@@ -1,0 +1,486 @@
+{
+  "77fac34200df": {
+    "id": "77fac34200df",
+    "label": "1 CHE DE LA SALAMANE, Brignac",
+    "lat": 43.622445,
+    "lng": 3.474083,
+    "transactions": [
+      {
+        "date": "2020-10-20",
+        "priceEur": 230300,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "03112b1835b3": {
+    "id": "03112b1835b3",
+    "label": "5 RTE DE CLERMONT, Brignac",
+    "lat": 43.623288,
+    "lng": 3.472928,
+    "transactions": [
+      {
+        "date": "2021-01-15",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "d27fe4eb0647": {
+    "id": "d27fe4eb0647",
+    "label": "7 IMP BONNEL, Brignac",
+    "lat": 43.623686,
+    "lng": 3.473822,
+    "transactions": [
+      {
+        "date": "2021-03-03",
+        "priceEur": 62600,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "68cd2ef8b815": {
+    "id": "68cd2ef8b815",
+    "label": "5 RUE DE LERGUE, Brignac",
+    "lat": 43.623344,
+    "lng": 3.474944,
+    "transactions": [
+      {
+        "date": "2023-06-21",
+        "priceEur": 132000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-28",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-07",
+        "priceEur": 68500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d50c5f40e1f": {
+    "id": "5d50c5f40e1f",
+    "label": "9 RUE COURBE, Brignac",
+    "lat": 43.6235,
+    "lng": 3.474987,
+    "transactions": [
+      {
+        "date": "2021-06-17",
+        "priceEur": 300920,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9c4c0be5e84": {
+    "id": "a9c4c0be5e84",
+    "label": "10 RUE DE LERGUE, Brignac",
+    "lat": 43.623283,
+    "lng": 3.475261,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "2db5bb69986a": {
+    "id": "2db5bb69986a",
+    "label": "2 LOT LE PEUPLIER, Brignac",
+    "lat": 43.622059,
+    "lng": 3.474125,
+    "transactions": [
+      {
+        "date": "2021-07-27",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac4c257450e1": {
+    "id": "ac4c257450e1",
+    "label": "1X IMP BONNEL, Brignac",
+    "lat": 43.623513,
+    "lng": 3.473862,
+    "transactions": [
+      {
+        "date": "2021-11-03",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "59a159e3c84a": {
+    "id": "59a159e3c84a",
+    "label": "1 IMP BONNEL, Brignac",
+    "lat": 43.623588,
+    "lng": 3.473901,
+    "transactions": [
+      {
+        "date": "2021-11-03",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "8bce287b12be": {
+    "id": "8bce287b12be",
+    "label": "1 CHE DES POUSTERLES, Brignac",
+    "lat": 43.623623,
+    "lng": 3.475205,
+    "transactions": [
+      {
+        "date": "2021-11-26",
+        "priceEur": 243500,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "19cf1a2834d0": {
+    "id": "19cf1a2834d0",
+    "label": "6 CHE DE LA SALAMANE, Brignac",
+    "lat": 43.622153,
+    "lng": 3.473129,
+    "transactions": [
+      {
+        "date": "2022-03-29",
+        "priceEur": 319000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed41a23b0d9a": {
+    "id": "ed41a23b0d9a",
+    "label": "2 IMP BONNEL, Brignac",
+    "lat": 43.623501,
+    "lng": 3.474023,
+    "transactions": [
+      {
+        "date": "2022-04-07",
+        "priceEur": 90300,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a42d458b4ee": {
+    "id": "2a42d458b4ee",
+    "label": "26 GR GRAND RUE, Brignac",
+    "lat": 43.624001,
+    "lng": 3.473058,
+    "transactions": [
+      {
+        "date": "2022-05-09",
+        "priceEur": 557500,
+        "typeLocal": "Maison",
+        "surfaceM2": 220,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-09",
+        "priceEur": 557500,
+        "typeLocal": "Maison",
+        "surfaceM2": 220,
+        "isVefa": false
+      }
+    ]
+  },
+  "cfb8e8000884": {
+    "id": "cfb8e8000884",
+    "label": "12 RUE DU FORT, Brignac",
+    "lat": 43.623745,
+    "lng": 3.47439,
+    "transactions": [
+      {
+        "date": "2022-05-24",
+        "priceEur": 119500,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b3113dddbd4": {
+    "id": "5b3113dddbd4",
+    "label": "4 RUE DE LA FONTAINE, Brignac",
+    "lat": 43.622944,
+    "lng": 3.474855,
+    "transactions": [
+      {
+        "date": "2022-10-13",
+        "priceEur": 399500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-13",
+        "priceEur": 399500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "41ddb8621c92": {
+    "id": "41ddb8621c92",
+    "label": "11 CHE DE FOUSCAIS, Brignac",
+    "lat": 43.623114,
+    "lng": 3.471947,
+    "transactions": [
+      {
+        "date": "2022-11-09",
+        "priceEur": 403750,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-09",
+        "priceEur": 403750,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "21fe7bbc0f74": {
+    "id": "21fe7bbc0f74",
+    "label": "1 RUE DU FORT, Brignac",
+    "lat": 43.623461,
+    "lng": 3.474468,
+    "transactions": [
+      {
+        "date": "2022-12-09",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "d813d25c7c9c": {
+    "id": "d813d25c7c9c",
+    "label": "12 GR GRAND RUE, Brignac",
+    "lat": 43.623589,
+    "lng": 3.473716,
+    "transactions": [
+      {
+        "date": "2022-12-16",
+        "priceEur": 208700,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf249684b94b": {
+    "id": "cf249684b94b",
+    "label": "2 CHE DE LA SALAMANE, Brignac",
+    "lat": 43.62251,
+    "lng": 3.473568,
+    "transactions": [
+      {
+        "date": "2023-01-20",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "f696dd00b0df": {
+    "id": "f696dd00b0df",
+    "label": "3 RUE DES POILUS, Brignac",
+    "lat": 43.623135,
+    "lng": 3.473965,
+    "transactions": [
+      {
+        "date": "2023-05-04",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2baf74ee038": {
+    "id": "e2baf74ee038",
+    "label": "5 PL DE L EGLISE, Brignac",
+    "lat": 43.623505,
+    "lng": 3.474432,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-02",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "1890acb90c82": {
+    "id": "1890acb90c82",
+    "label": "1 RTE DE SAINT ANDRE, Brignac",
+    "lat": 43.624019,
+    "lng": 3.472687,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "d2106454aff7": {
+    "id": "d2106454aff7",
+    "label": "10 RTE DE CLERMONT, Brignac",
+    "lat": 43.624105,
+    "lng": 3.471693,
+    "transactions": [
+      {
+        "date": "2023-11-30",
+        "priceEur": 365799,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-30",
+        "priceEur": 365799,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "0f9d89ff3122": {
+    "id": "0f9d89ff3122",
+    "label": "10 CHE DES THOS, Brignac",
+    "lat": 43.623319,
+    "lng": 3.47658,
+    "transactions": [
+      {
+        "date": "2024-03-08",
+        "priceEur": 293310,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc449edc5dfb": {
+    "id": "cc449edc5dfb",
+    "label": "16 RUE DU FORT, Brignac",
+    "lat": 43.623733,
+    "lng": 3.474505,
+    "transactions": [
+      {
+        "date": "2024-03-08",
+        "priceEur": 93000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed31444a8559": {
+    "id": "ed31444a8559",
+    "label": "7 PL DE L EGLISE, Brignac",
+    "lat": 43.623369,
+    "lng": 3.47431,
+    "transactions": [
+      {
+        "date": "2024-05-03",
+        "priceEur": 209300,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "c8012f0778de": {
+    "id": "c8012f0778de",
+    "label": "2 RUE DE LERGUE, Brignac",
+    "lat": 43.623233,
+    "lng": 3.475053,
+    "transactions": [
+      {
+        "date": "2024-12-26",
+        "priceEur": 9000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "19dc21bad0ca": {
+    "id": "19dc21bad0ca",
+    "label": "4B RUE DE LERGUE, Brignac",
+    "lat": 43.623177,
+    "lng": 3.475121,
+    "transactions": [
+      {
+        "date": "2024-12-26",
+        "priceEur": 102000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "13bd5234f90f": {
+    "id": "13bd5234f90f",
+    "label": "1B IMP BONNEL, Brignac",
+    "lat": 43.623513,
+    "lng": 3.473862,
+    "transactions": [
+      {
+        "date": "2025-05-22",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

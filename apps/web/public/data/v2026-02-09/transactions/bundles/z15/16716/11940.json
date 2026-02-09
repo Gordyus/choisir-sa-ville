@@ -1,0 +1,46 @@
+{
+  "cdfa717cfa08": {
+    "id": "cdfa717cfa08",
+    "label": "5 RUE DU PARET NOVA, Causse-de-la-Selle",
+    "lat": 43.80054,
+    "lng": 3.651194,
+    "transactions": [
+      {
+        "date": "2023-09-26",
+        "priceEur": 381200,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f6f9189c90f": {
+    "id": "4f6f9189c90f",
+    "label": "9 CHEM DE MAROU, Causse-de-la-Selle",
+    "lat": 43.799991,
+    "lng": 3.65024,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-28",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-28",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

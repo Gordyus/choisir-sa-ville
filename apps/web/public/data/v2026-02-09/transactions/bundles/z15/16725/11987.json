@@ -1,0 +1,195 @@
+{
+  "9e5e5f324b60": {
+    "id": "9e5e5f324b60",
+    "label": "57 RUE PAUL VALERY, Frontignan",
+    "lat": 43.427139,
+    "lng": 3.755893,
+    "transactions": [
+      {
+        "date": "2023-12-08",
+        "priceEur": 169500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-06",
+        "priceEur": 134350,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": false
+      }
+    ]
+  },
+  "692b6a35c24b": {
+    "id": "692b6a35c24b",
+    "label": "43 RUE PAUL VALERY, Frontignan",
+    "lat": 43.427589,
+    "lng": 3.756946,
+    "transactions": [
+      {
+        "date": "2020-12-22",
+        "priceEur": 715070,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "772fdee9cd9e": {
+    "id": "772fdee9cd9e",
+    "label": "69 RUE PAUL VALERY, Frontignan",
+    "lat": 43.426724,
+    "lng": 3.754529,
+    "transactions": [
+      {
+        "date": "2021-01-08",
+        "priceEur": 392500,
+        "typeLocal": "Maison",
+        "surfaceM2": 11,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-08",
+        "priceEur": 392500,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "b409c5cc3c8e": {
+    "id": "b409c5cc3c8e",
+    "label": "63 RUE PAUL VALERY, Frontignan",
+    "lat": 43.427085,
+    "lng": 3.755089,
+    "transactions": [
+      {
+        "date": "2021-05-19",
+        "priceEur": 302000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3cd385101d5": {
+    "id": "a3cd385101d5",
+    "label": "51 RUE PAUL VALERY, Frontignan",
+    "lat": 43.427392,
+    "lng": 3.756592,
+    "transactions": [
+      {
+        "date": "2021-05-11",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 24,
+        "isVefa": false
+      }
+    ]
+  },
+  "35a39de8f24d": {
+    "id": "35a39de8f24d",
+    "label": "75 RUE PAUL VALERY, Frontignan",
+    "lat": 43.426708,
+    "lng": 3.754288,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "1562d8fc35c1": {
+    "id": "1562d8fc35c1",
+    "label": "5445F RUE CHARCOT LA PLAGE, Frontignan",
+    "lat": 43.428263,
+    "lng": 3.754943,
+    "transactions": [
+      {
+        "date": "2025-02-18",
+        "priceEur": 186500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-23",
+        "priceEur": 208000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "923383533e2d": {
+    "id": "923383533e2d",
+    "label": "31 RUE DES HERONS, Frontignan",
+    "lat": 43.428644,
+    "lng": 3.756276,
+    "transactions": [
+      {
+        "date": "2022-07-25",
+        "priceEur": 385500,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "8932d20b4d17": {
+    "id": "8932d20b4d17",
+    "label": "24 RUE DES HERONS, Frontignan",
+    "lat": 43.428497,
+    "lng": 3.755519,
+    "transactions": [
+      {
+        "date": "2023-06-13",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3a61149226f": {
+    "id": "b3a61149226f",
+    "label": "73 RUE PAUL VALERY, Frontignan",
+    "lat": 43.426693,
+    "lng": 3.754405,
+    "transactions": [
+      {
+        "date": "2024-04-05",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "5dcfd047b181": {
+    "id": "5dcfd047b181",
+    "label": "53 RUE PAUL VALERY, Frontignan",
+    "lat": 43.427353,
+    "lng": 3.756231,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 430000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-30",
+        "priceEur": 430000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  }
+}

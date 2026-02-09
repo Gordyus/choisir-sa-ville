@@ -10,6 +10,8 @@ export {
     type EntityRef,
     type EntityVisualState,
     type InfraZoneData,
+    type TransactionAddressData,
+    type TransactionLine,
     type SelectionEvent,
     type SelectionListener,
     type SelectionState

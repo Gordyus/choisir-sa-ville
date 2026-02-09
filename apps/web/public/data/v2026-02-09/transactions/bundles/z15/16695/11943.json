@@ -1,0 +1,47 @@
+{
+  "c37075ff2a10": {
+    "id": "c37075ff2a10",
+    "label": "5219F RUE DU CALVAIRE, Saint-Pierre-de-la-Fage",
+    "lat": 43.778572,
+    "lng": 3.417477,
+    "transactions": [
+      {
+        "date": "2021-06-22",
+        "priceEur": 39216,
+        "typeLocal": "Maison",
+        "surfaceM2": 28,
+        "isVefa": false
+      }
+    ]
+  },
+  "9615a9d9277f": {
+    "id": "9615a9d9277f",
+    "label": "5294 RUE DE LA FONTAINE, Saint-Pierre-de-la-Fage",
+    "lat": 43.778556,
+    "lng": 3.417354,
+    "transactions": [
+      {
+        "date": "2023-11-06",
+        "priceEur": 52900,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b6195599d0a": {
+    "id": "2b6195599d0a",
+    "label": "5039 RUE DE LA FONTAINE, Saint-Pierre-de-la-Fage",
+    "lat": 43.778305,
+    "lng": 3.417369,
+    "transactions": [
+      {
+        "date": "2025-02-07",
+        "priceEur": 130200,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  }
+}

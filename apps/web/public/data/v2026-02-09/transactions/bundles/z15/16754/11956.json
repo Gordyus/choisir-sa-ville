@@ -1,0 +1,32 @@
+{
+  "3f9e2a0f6aaa": {
+    "id": "3f9e2a0f6aaa",
+    "label": "9 RUE DES TILLEULS, Valergues",
+    "lat": 43.669185,
+    "lng": 4.065104,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 370990,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b7736df4093": {
+    "id": "1b7736df4093",
+    "label": "228 RUE DU BERBIAN, Valergues",
+    "lat": 43.669504,
+    "lng": 4.065926,
+    "transactions": [
+      {
+        "date": "2023-05-15",
+        "priceEur": 519650,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  }
+}

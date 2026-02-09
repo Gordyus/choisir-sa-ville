@@ -1,0 +1,47 @@
+{
+  "219450eba404": {
+    "id": "219450eba404",
+    "label": "5317 LA CROISADE, Cruzy",
+    "lat": 43.315135,
+    "lng": 2.955266,
+    "transactions": [
+      {
+        "date": "2021-01-08",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "92e2c592cf0e": {
+    "id": "92e2c592cf0e",
+    "label": "5474 LA CROISADE, Cruzy",
+    "lat": 43.315684,
+    "lng": 2.954542,
+    "transactions": [
+      {
+        "date": "2021-01-23",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc9ee0659ddf": {
+    "id": "cc9ee0659ddf",
+    "label": "5391 LA CROISADE, Cruzy",
+    "lat": 43.316374,
+    "lng": 2.953782,
+    "transactions": [
+      {
+        "date": "2022-07-20",
+        "priceEur": 251805,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  }
+}

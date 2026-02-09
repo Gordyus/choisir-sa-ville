@@ -1,0 +1,61 @@
+{
+  "1e86240ceb5b": {
+    "id": "1e86240ceb5b",
+    "label": "5589 BRETTES, Riols",
+    "lat": 43.517504,
+    "lng": 2.803966,
+    "transactions": [
+      {
+        "date": "2023-11-13",
+        "priceEur": 140500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-19",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "d274c24975b8": {
+    "id": "d274c24975b8",
+    "label": "7010F BRETTES, Riols",
+    "lat": 43.517241,
+    "lng": 2.805913,
+    "transactions": [
+      {
+        "date": "2023-04-18",
+        "priceEur": 460900,
+        "typeLocal": "Maison",
+        "surfaceM2": 193,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-18",
+        "priceEur": 460900,
+        "typeLocal": "Maison",
+        "surfaceM2": 193,
+        "isVefa": false
+      }
+    ]
+  },
+  "93c3c5dc992c": {
+    "id": "93c3c5dc992c",
+    "label": "5534 BRETTES, Riols",
+    "lat": 43.517291,
+    "lng": 2.803213,
+    "transactions": [
+      {
+        "date": "2023-07-20",
+        "priceEur": 202770,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

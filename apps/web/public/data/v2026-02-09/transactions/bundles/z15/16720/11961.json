@@ -1,0 +1,39 @@
+{
+  "63c070a5e221": {
+    "id": "63c070a5e221",
+    "label": "6048 LA VABRE, Montarnaud",
+    "lat": 43.632872,
+    "lng": 3.698822,
+    "transactions": [
+      {
+        "date": "2023-02-06",
+        "priceEur": 510500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-06",
+        "priceEur": 510500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "d0773465a23b": {
+    "id": "d0773465a23b",
+    "label": "2257 RTE DE ST PAUL, Montarnaud",
+    "lat": 43.630503,
+    "lng": 3.695924,
+    "transactions": [
+      {
+        "date": "2023-02-23",
+        "priceEur": 223700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

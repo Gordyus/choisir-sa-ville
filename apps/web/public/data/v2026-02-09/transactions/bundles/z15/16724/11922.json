@@ -1,0 +1,46 @@
+{
+  "5644a49263f3": {
+    "id": "5644a49263f3",
+    "label": "5696F LOT LE TIVOLY, Moulès-et-Baucels",
+    "lat": 43.944759,
+    "lng": 3.735706,
+    "transactions": [
+      {
+        "date": "2022-12-05",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-05",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9c9033dc144": {
+    "id": "f9c9033dc144",
+    "label": "5361 LA PLANE, Moulès-et-Baucels",
+    "lat": 43.940292,
+    "lng": 3.738722,
+    "transactions": [
+      {
+        "date": "2025-02-07",
+        "priceEur": 15000,
+        "typeLocal": "Maison",
+        "surfaceM2": 19,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-07",
+        "priceEur": 15000,
+        "typeLocal": "Maison",
+        "surfaceM2": 19,
+        "isVefa": false
+      }
+    ]
+  }
+}

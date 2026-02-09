@@ -1,0 +1,39 @@
+{
+  "98767d872843": {
+    "id": "98767d872843",
+    "label": "5381F RTE DE VAILHAN, Roujan",
+    "lat": 43.520938,
+    "lng": 3.303318,
+    "transactions": [
+      {
+        "date": "2022-04-26",
+        "priceEur": 899600,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-26",
+        "priceEur": 899600,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "b654c5af0f01": {
+    "id": "b654c5af0f01",
+    "label": "5285 ROUNEL, Roujan",
+    "lat": 43.52115,
+    "lng": 3.303532,
+    "transactions": [
+      {
+        "date": "2022-04-26",
+        "priceEur": 899600,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

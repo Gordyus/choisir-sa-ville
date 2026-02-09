@@ -1,0 +1,32 @@
+{
+  "5a12177d1a51": {
+    "id": "5a12177d1a51",
+    "label": "1 LOT LES JARDINS DE ST GENIEIS, Canet",
+    "lat": 43.600523,
+    "lng": 3.481427,
+    "transactions": [
+      {
+        "date": "2020-07-15",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "99074d22debf": {
+    "id": "99074d22debf",
+    "label": "8 LOT LES JARDINS DE ST GENIEIS, Canet",
+    "lat": 43.601249,
+    "lng": 3.481956,
+    "transactions": [
+      {
+        "date": "2021-05-21",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

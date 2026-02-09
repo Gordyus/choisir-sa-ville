@@ -1,0 +1,47 @@
+{
+  "8fa5efafa9d2": {
+    "id": "8fa5efafa9d2",
+    "label": "6445 PESSEPLANE, La Salvetat-sur-Agout",
+    "lat": 43.622295,
+    "lng": 2.711883,
+    "transactions": [
+      {
+        "date": "2021-04-21",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "69d915596798": {
+    "id": "69d915596798",
+    "label": "551 PESSEPLANE, La Salvetat-sur-Agout",
+    "lat": 43.622247,
+    "lng": 2.71196,
+    "transactions": [
+      {
+        "date": "2021-04-21",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f7f6e0da204": {
+    "id": "4f7f6e0da204",
+    "label": "6202 HAMEAU DU RIEU, La Salvetat-sur-Agout",
+    "lat": 43.621744,
+    "lng": 2.709005,
+    "transactions": [
+      {
+        "date": "2021-05-19",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "95b1ec214e90": {
+    "id": "95b1ec214e90",
+    "label": "5138F RTE DES VERRIERS, Vacquières",
+    "lat": 43.840668,
+    "lng": 3.944326,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 293920,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a3326adc69a": {
+    "id": "3a3326adc69a",
+    "label": "9997 LES CAMMAOUS, Vacquières",
+    "lat": 43.839518,
+    "lng": 3.944286,
+    "transactions": [
+      {
+        "date": "2022-06-08",
+        "priceEur": 767950,
+        "typeLocal": "Maison",
+        "surfaceM2": 230,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-08",
+        "priceEur": 767950,
+        "typeLocal": "Maison",
+        "surfaceM2": 230,
+        "isVefa": false
+      }
+    ]
+  },
+  "eae62dae0157": {
+    "id": "eae62dae0157",
+    "label": "100 IMP DES PRADETS, Vacquières",
+    "lat": 43.839909,
+    "lng": 3.944713,
+    "transactions": [
+      {
+        "date": "2023-12-29",
+        "priceEur": 294090,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  }
+}

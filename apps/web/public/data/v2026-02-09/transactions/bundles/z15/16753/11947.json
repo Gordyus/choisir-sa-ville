@@ -1,0 +1,54 @@
+{
+  "2b13f578bcfe": {
+    "id": "2b13f578bcfe",
+    "label": "400 CHE DU DOM DE LANDAU, Boisseron",
+    "lat": 43.744796,
+    "lng": 4.060347,
+    "transactions": [
+      {
+        "date": "2023-04-11",
+        "priceEur": 466155,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-11",
+        "priceEur": 466155,
+        "typeLocal": "Appartement",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "49d31c96b935": {
+    "id": "49d31c96b935",
+    "label": "320 CHE DE LA PINEDA, Boisseron",
+    "lat": 43.747056,
+    "lng": 4.063236,
+    "transactions": [
+      {
+        "date": "2023-07-04",
+        "priceEur": 628850,
+        "typeLocal": "Maison",
+        "surfaceM2": 215,
+        "isVefa": false
+      }
+    ]
+  },
+  "87b2c286d825": {
+    "id": "87b2c286d825",
+    "label": "317 CHE DE LA PINEDA, Boisseron",
+    "lat": 43.746238,
+    "lng": 4.063707,
+    "transactions": [
+      {
+        "date": "2024-11-21",
+        "priceEur": 300570,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "f5967677e355": {
+    "id": "f5967677e355",
+    "label": "22 CHE DU BEAU RIVAGE, Marseillan",
+    "lat": 43.32984,
+    "lng": 3.547914,
+    "transactions": [
+      {
+        "date": "2021-02-10",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 13,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca246cc5ace1": {
+    "id": "ca246cc5ace1",
+    "label": "22 PLAN DE MALDORMIR, Marseillan",
+    "lat": 43.325952,
+    "lng": 3.5483,
+    "transactions": [
+      {
+        "date": "2023-02-27",
+        "priceEur": 225690,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-27",
+        "priceEur": 225690,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "d90b3640cb65": {
+    "id": "d90b3640cb65",
+    "label": "1024 AV DE MALDORMIR, Marseillan",
+    "lat": 43.32722,
+    "lng": 3.546584,
+    "transactions": [
+      {
+        "date": "2024-03-15",
+        "priceEur": 405000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-17",
+        "priceEur": 308495,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

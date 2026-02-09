@@ -1,0 +1,84 @@
+{
+  "112fadba19c7": {
+    "id": "112fadba19c7",
+    "label": "9442F AV DES CISTES, Villeneuve-lès-Béziers",
+    "lat": 43.329608,
+    "lng": 3.285309,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 550000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf1bfd42cba3": {
+    "id": "cf1bfd42cba3",
+    "label": "15 AV DES COLOMBES, Villeneuve-lès-Béziers",
+    "lat": 43.326165,
+    "lng": 3.285448,
+    "transactions": [
+      {
+        "date": "2021-08-04",
+        "priceEur": 332800,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "626e9fca4b6b": {
+    "id": "626e9fca4b6b",
+    "label": "13 AV DES COLOMBES, Villeneuve-lès-Béziers",
+    "lat": 43.326188,
+    "lng": 3.285772,
+    "transactions": [
+      {
+        "date": "2021-11-05",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "01c914e990e2": {
+    "id": "01c914e990e2",
+    "label": "29 CHE DE PARAZOLS, Villeneuve-lès-Béziers",
+    "lat": 43.32554,
+    "lng": 3.289612,
+    "transactions": [
+      {
+        "date": "2022-07-11",
+        "priceEur": 440350,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-11",
+        "priceEur": 440350,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "87b1fd662ee8": {
+    "id": "87b1fd662ee8",
+    "label": "5332 LES CLAUZELS, Villeneuve-lès-Béziers",
+    "lat": 43.32525,
+    "lng": 3.287033,
+    "transactions": [
+      {
+        "date": "2024-11-29",
+        "priceEur": 976500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

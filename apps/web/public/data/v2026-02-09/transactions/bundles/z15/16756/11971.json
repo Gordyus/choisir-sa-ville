@@ -1,0 +1,45 @@
+{
+  "7c9f215741d1": {
+    "id": "7c9f215741d1",
+    "label": "186 ALL DU LEVANT, La Grande-Motte",
+    "lat": 43.555699,
+    "lng": 4.09727,
+    "transactions": [
+      {
+        "date": "2025-02-03",
+        "priceEur": 295000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-09",
+        "priceEur": 433600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-14",
+        "priceEur": 219000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 29,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-22",
+        "priceEur": 270000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-31",
+        "priceEur": 182500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 29,
+        "isVefa": false
+      }
+    ]
+  }
+}

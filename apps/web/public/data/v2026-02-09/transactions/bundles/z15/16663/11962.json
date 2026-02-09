@@ -1,0 +1,61 @@
+{
+  "ffd94ab2d5f9": {
+    "id": "ffd94ab2d5f9",
+    "label": "5106 L'HORTE, Taussac-la-Billière",
+    "lat": 43.62073,
+    "lng": 3.071105,
+    "transactions": [
+      {
+        "date": "2022-03-16",
+        "priceEur": 182000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-16",
+        "priceEur": 182000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "5fb2f6652659": {
+    "id": "5fb2f6652659",
+    "label": "5275F L'HORTE, Taussac-la-Billière",
+    "lat": 43.621243,
+    "lng": 3.069504,
+    "transactions": [
+      {
+        "date": "2023-02-22",
+        "priceEur": 415000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-22",
+        "priceEur": 415000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "fdd74248aa43": {
+    "id": "fdd74248aa43",
+    "label": "5059 L'HORTE, Taussac-la-Billière",
+    "lat": 43.621581,
+    "lng": 3.070569,
+    "transactions": [
+      {
+        "date": "2023-04-07",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  }
+}

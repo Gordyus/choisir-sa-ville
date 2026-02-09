@@ -1,0 +1,75 @@
+{
+  "c4b7855690da": {
+    "id": "c4b7855690da",
+    "label": "9029 LA GARRIGUE BASSE, Mauguio",
+    "lat": 43.616003,
+    "lng": 3.954444,
+    "transactions": [
+      {
+        "date": "2020-07-09",
+        "priceEur": 360000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-09",
+        "priceEur": 360000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 110,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-09",
+        "priceEur": 360000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 110,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-09",
+        "priceEur": 360000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "aae4be6f9366": {
+    "id": "aae4be6f9366",
+    "label": "5146 LES GARRIGUES HAUTES, Saint-Aunès",
+    "lat": 43.617551,
+    "lng": 3.944761,
+    "transactions": [
+      {
+        "date": "2022-05-12",
+        "priceEur": 505170,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-12",
+        "priceEur": 505170,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc49da26e530": {
+    "id": "bc49da26e530",
+    "label": "9018 LA GARRIGUE BASSE, Mauguio",
+    "lat": 43.615711,
+    "lng": 3.954682,
+    "transactions": [
+      {
+        "date": "2023-05-17",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  }
+}

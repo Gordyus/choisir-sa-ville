@@ -1,0 +1,54 @@
+{
+  "60ea277e4cde": {
+    "id": "60ea277e4cde",
+    "label": "53 RUE DES CHENES VERTS, Boisseron",
+    "lat": 43.763328,
+    "lng": 4.081333,
+    "transactions": [
+      {
+        "date": "2020-10-27",
+        "priceEur": 317820,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b053ecca9e5": {
+    "id": "7b053ecca9e5",
+    "label": "44 RUE DES CHENES VERTS, Boisseron",
+    "lat": 43.763536,
+    "lng": 4.081894,
+    "transactions": [
+      {
+        "date": "2021-06-17",
+        "priceEur": 334850,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-17",
+        "priceEur": 334850,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "538a9db073e0": {
+    "id": "538a9db073e0",
+    "label": "188 RUE DE PIE BOUQUET, Boisseron",
+    "lat": 43.76322,
+    "lng": 4.079712,
+    "transactions": [
+      {
+        "date": "2023-04-25",
+        "priceEur": 451620,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  }
+}

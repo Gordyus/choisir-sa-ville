@@ -1,0 +1,47 @@
+{
+  "235d8d791d6f": {
+    "id": "235d8d791d6f",
+    "label": "4 PL DU MONUMENT, Saint-Saturnin-de-Lucian",
+    "lat": 43.694214,
+    "lng": 3.472555,
+    "transactions": [
+      {
+        "date": "2021-02-24",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "00d5a8bdbb9b": {
+    "id": "00d5a8bdbb9b",
+    "label": "9 PL DU MONUMENT, Saint-Saturnin-de-Lucian",
+    "lat": 43.694417,
+    "lng": 3.472276,
+    "transactions": [
+      {
+        "date": "2021-04-29",
+        "priceEur": 152600,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "f3f51b57a365": {
+    "id": "f3f51b57a365",
+    "label": "3 IMP DE LA SEYNE, Saint-Saturnin-de-Lucian",
+    "lat": 43.692309,
+    "lng": 3.471964,
+    "transactions": [
+      {
+        "date": "2025-03-31",
+        "priceEur": 221355,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

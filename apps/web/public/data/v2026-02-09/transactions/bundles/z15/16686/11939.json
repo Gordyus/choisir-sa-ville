@@ -1,0 +1,62 @@
+{
+  "de7a753edeee": {
+    "id": "de7a753edeee",
+    "label": "10 PL DE L AIRE NEUVE, Pégairolles-de-l'Escalette",
+    "lat": 43.803191,
+    "lng": 3.322956,
+    "transactions": [
+      {
+        "date": "2023-07-10",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "ab7995f8d876": {
+    "id": "ab7995f8d876",
+    "label": "5482 LE VILLAGE, Pégairolles-de-l'Escalette",
+    "lat": 43.803033,
+    "lng": 3.322877,
+    "transactions": [
+      {
+        "date": "2024-02-19",
+        "priceEur": 2500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 1,
+        "isVefa": false
+      }
+    ]
+  },
+  "76521d44ed6d": {
+    "id": "76521d44ed6d",
+    "label": "5107 LE VILLAGE, Pégairolles-de-l'Escalette",
+    "lat": 43.803697,
+    "lng": 3.322199,
+    "transactions": [
+      {
+        "date": "2024-06-18",
+        "priceEur": 46000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1e7a3336599": {
+    "id": "a1e7a3336599",
+    "label": "5057 RIVEFAGE, Pégairolles-de-l'Escalette",
+    "lat": 43.807836,
+    "lng": 3.324054,
+    "transactions": [
+      {
+        "date": "2025-03-13",
+        "priceEur": 218900,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

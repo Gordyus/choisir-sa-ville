@@ -1,0 +1,47 @@
+{
+  "33eebeab27c9": {
+    "id": "33eebeab27c9",
+    "label": "5534 MECLE, Saint-Gervais-sur-Mare",
+    "lat": 43.678184,
+    "lng": 3.033299,
+    "transactions": [
+      {
+        "date": "2022-04-19",
+        "priceEur": 41000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "5ab50f0e0803": {
+    "id": "5ab50f0e0803",
+    "label": "5572 MECLE, Saint-Gervais-sur-Mare",
+    "lat": 43.678467,
+    "lng": 3.033309,
+    "transactions": [
+      {
+        "date": "2022-09-26",
+        "priceEur": 162100,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb93c41f5cac": {
+    "id": "bb93c41f5cac",
+    "label": "5979F MECLE, Saint-Gervais-sur-Mare",
+    "lat": 43.678729,
+    "lng": 3.032952,
+    "transactions": [
+      {
+        "date": "2024-04-24",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  }
+}

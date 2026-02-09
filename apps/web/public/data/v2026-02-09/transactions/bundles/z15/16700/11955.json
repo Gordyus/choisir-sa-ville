@@ -1,0 +1,158 @@
+{
+  "c58290122c23": {
+    "id": "c58290122c23",
+    "label": "22 GR GRAND RUE, Jonquières",
+    "lat": 43.675932,
+    "lng": 3.475347,
+    "transactions": [
+      {
+        "date": "2024-05-03",
+        "priceEur": 99000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-03",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5a99a9a2a8b": {
+    "id": "a5a99a9a2a8b",
+    "label": "8 RUE DU PARC, Jonquières",
+    "lat": 43.676182,
+    "lng": 3.477095,
+    "transactions": [
+      {
+        "date": "2021-01-22",
+        "priceEur": 386000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "496763a390e8": {
+    "id": "496763a390e8",
+    "label": "9 GR GRAND RUE, Jonquières",
+    "lat": 43.676352,
+    "lng": 3.476001,
+    "transactions": [
+      {
+        "date": "2021-03-01",
+        "priceEur": 131100,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "dbf962412cf7": {
+    "id": "dbf962412cf7",
+    "label": "16 GR GRAND RUE, Jonquières",
+    "lat": 43.676096,
+    "lng": 3.475476,
+    "transactions": [
+      {
+        "date": "2021-06-08",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "e37cf9f89079": {
+    "id": "e37cf9f89079",
+    "label": "3 GR GRAND RUE, Jonquières",
+    "lat": 43.676562,
+    "lng": 3.476281,
+    "transactions": [
+      {
+        "date": "2024-09-13",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-20",
+        "priceEur": 73500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f1324ac949e": {
+    "id": "7f1324ac949e",
+    "label": "23 GR GRAND RUE, Jonquières",
+    "lat": 43.67592,
+    "lng": 3.475553,
+    "transactions": [
+      {
+        "date": "2022-09-02",
+        "priceEur": 153500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "be7e8188ec7e": {
+    "id": "be7e8188ec7e",
+    "label": "13 GR GRAND RUE, Jonquières",
+    "lat": 43.676185,
+    "lng": 3.475813,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 151620,
+        "typeLocal": "Appartement",
+        "surfaceM2": 69,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-28",
+        "priceEur": 151620,
+        "typeLocal": "Appartement",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "446a720981b6": {
+    "id": "446a720981b6",
+    "label": "1 GR GRAND RUE, Jonquières",
+    "lat": 43.676854,
+    "lng": 3.476765,
+    "transactions": [
+      {
+        "date": "2024-03-04",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "d8fbb7c930b9": {
+    "id": "d8fbb7c930b9",
+    "label": "1T GR GRAND RUE, Jonquières",
+    "lat": 43.676519,
+    "lng": 3.476335,
+    "transactions": [
+      {
+        "date": "2025-02-25",
+        "priceEur": 144300,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "2ec6016fdb22": {
+    "id": "2ec6016fdb22",
+    "label": "5183 LES PLANASSES, Babeau-Bouldoux",
+    "lat": 43.435786,
+    "lng": 2.913439,
+    "transactions": [
+      {
+        "date": "2021-03-31",
+        "priceEur": 249000,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "7398978e51d0": {
+    "id": "7398978e51d0",
+    "label": "5248F BABEAU, Babeau-Bouldoux",
+    "lat": 43.435708,
+    "lng": 2.911489,
+    "transactions": [
+      {
+        "date": "2021-07-19",
+        "priceEur": 294775,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed27753da0ca": {
+    "id": "ed27753da0ca",
+    "label": "5261F BABEAU, Babeau-Bouldoux",
+    "lat": 43.435429,
+    "lng": 2.912721,
+    "transactions": [
+      {
+        "date": "2023-12-26",
+        "priceEur": 123000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  }
+}

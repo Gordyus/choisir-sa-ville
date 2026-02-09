@@ -1,0 +1,181 @@
+{
+  "b0b8107477bc": {
+    "id": "b0b8107477bc",
+    "label": "2 RUE MARIE DURAND, Marsillargues",
+    "lat": 43.659018,
+    "lng": 4.17889,
+    "transactions": [
+      {
+        "date": "2022-04-29",
+        "priceEur": 205000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-06",
+        "priceEur": 153062,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": true
+      }
+    ]
+  },
+  "88dc96edb54e": {
+    "id": "88dc96edb54e",
+    "label": "110 RUE LUCIE AUBRAC, Marsillargues",
+    "lat": 43.658806,
+    "lng": 4.179979,
+    "transactions": [
+      {
+        "date": "2020-12-28",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e39d0071033": {
+    "id": "1e39d0071033",
+    "label": "46 RTE DE ST LAURENT D AIGOUZE, Marsillargues",
+    "lat": 43.659658,
+    "lng": 4.180186,
+    "transactions": [
+      {
+        "date": "2021-02-12",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "36dba80a13f3": {
+    "id": "36dba80a13f3",
+    "label": "192 RUE VICTORIA HUESCA, Marsillargues",
+    "lat": 43.659589,
+    "lng": 4.177876,
+    "transactions": [
+      {
+        "date": "2023-06-16",
+        "priceEur": 336641,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-19",
+        "priceEur": 271965,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "f75dfd53dac5": {
+    "id": "f75dfd53dac5",
+    "label": "133 RUE VICTORIA HUESCA, Marsillargues",
+    "lat": 43.659672,
+    "lng": 4.178469,
+    "transactions": [
+      {
+        "date": "2021-03-01",
+        "priceEur": 229000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": true
+      }
+    ]
+  },
+  "ab6fdc737b51": {
+    "id": "ab6fdc737b51",
+    "label": "184 RUE VICTORIA HUESCA, Marsillargues",
+    "lat": 43.659675,
+    "lng": 4.177841,
+    "transactions": [
+      {
+        "date": "2021-03-22",
+        "priceEur": 281700,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "8529802ce045": {
+    "id": "8529802ce045",
+    "label": "339 RUE VICTORIA HUESCA, Marsillargues",
+    "lat": 43.658282,
+    "lng": 4.178167,
+    "transactions": [
+      {
+        "date": "2022-07-12",
+        "priceEur": 184500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": true
+      }
+    ]
+  },
+  "5e5002886e97": {
+    "id": "5e5002886e97",
+    "label": "246 RUE VICTORIA HUESCA, Marsillargues",
+    "lat": 43.659187,
+    "lng": 4.178036,
+    "transactions": [
+      {
+        "date": "2024-11-19",
+        "priceEur": 230650,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "f2ccfbd001d9": {
+    "id": "f2ccfbd001d9",
+    "label": "34 BD VICTOR HUGO, Marsillargues",
+    "lat": 43.659885,
+    "lng": 4.178876,
+    "transactions": [
+      {
+        "date": "2024-12-09",
+        "priceEur": 347350,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "a53affe7adfc": {
+    "id": "a53affe7adfc",
+    "label": "145 RUE VICTORIA HUESCA, Marsillargues",
+    "lat": 43.659672,
+    "lng": 4.178469,
+    "transactions": [
+      {
+        "date": "2024-12-12",
+        "priceEur": 288000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b69a5d9b8a6": {
+    "id": "9b69a5d9b8a6",
+    "label": "131 RUE VICTORIA HUESCA, Marsillargues",
+    "lat": 43.659672,
+    "lng": 4.178469,
+    "transactions": [
+      {
+        "date": "2025-01-08",
+        "priceEur": 270500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

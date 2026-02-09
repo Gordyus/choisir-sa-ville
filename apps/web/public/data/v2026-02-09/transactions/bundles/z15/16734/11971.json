@@ -1,0 +1,69 @@
+{
+  "bca50831d192": {
+    "id": "bca50831d192",
+    "label": "20 RUE DU SERPOLET, Villeneuve-lès-Maguelone",
+    "lat": 43.551667,
+    "lng": 3.845714,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 310600,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "cdcafc9374b4": {
+    "id": "cdcafc9374b4",
+    "label": "34 RUE DU SERPOLET, Villeneuve-lès-Maguelone",
+    "lat": 43.552175,
+    "lng": 3.84566,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 344655,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa58084658df": {
+    "id": "fa58084658df",
+    "label": "28 RUE DU SERPOLET, Villeneuve-lès-Maguelone",
+    "lat": 43.551968,
+    "lng": 3.845707,
+    "transactions": [
+      {
+        "date": "2023-05-10",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-10",
+        "priceEur": 337000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a59eb6b9a38": {
+    "id": "1a59eb6b9a38",
+    "label": "26 RUE DU SERPOLET, Villeneuve-lès-Maguelone",
+    "lat": 43.551895,
+    "lng": 3.845749,
+    "transactions": [
+      {
+        "date": "2022-12-15",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

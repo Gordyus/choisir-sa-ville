@@ -1,0 +1,32 @@
+{
+  "8356fbf2f847": {
+    "id": "8356fbf2f847",
+    "label": "5160 COSSE D EMMIECH, Sérignan",
+    "lat": 43.272167,
+    "lng": 3.33019,
+    "transactions": [
+      {
+        "date": "2023-03-23",
+        "priceEur": 4676000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "51c7146257d3": {
+    "id": "51c7146257d3",
+    "label": "115 LA COSSETTE, Sérignan",
+    "lat": 43.272243,
+    "lng": 3.337297,
+    "transactions": [
+      {
+        "date": "2024-07-18",
+        "priceEur": 2500,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  }
+}

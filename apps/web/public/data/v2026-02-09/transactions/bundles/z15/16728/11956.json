@@ -1,0 +1,24 @@
+{
+  "c00f96bad93f": {
+    "id": "c00f96bad93f",
+    "label": "1465 RTE DE GRABELS, Combaillaux",
+    "lat": 43.669406,
+    "lng": 3.779475,
+    "transactions": [
+      {
+        "date": "2021-12-10",
+        "priceEur": 250000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-10",
+        "priceEur": 250000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "47f7482c543f": {
+    "id": "47f7482c543f",
+    "label": "2 RUE DES AMANDIERS, Lamalou-les-Bains",
+    "lat": 43.605522,
+    "lng": 3.087979,
+    "transactions": [
+      {
+        "date": "2022-11-14",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-14",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7457f16de6a": {
+    "id": "c7457f16de6a",
+    "label": "3 RUE DE L OLIVETTE, Lamalou-les-Bains",
+    "lat": 43.605565,
+    "lng": 3.089662,
+    "transactions": [
+      {
+        "date": "2023-02-02",
+        "priceEur": 54000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "4023f194e44e": {
+    "id": "4023f194e44e",
+    "label": "13 RUE DE LA FOND VIEILLE, Lamalou-les-Bains",
+    "lat": 43.605781,
+    "lng": 3.08945,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "43a3b33c1527": {
+    "id": "43a3b33c1527",
+    "label": "15 RUE DE LA FOND VIEILLE, Lamalou-les-Bains",
+    "lat": 43.605858,
+    "lng": 3.089635,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 290000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 104,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-22",
+        "priceEur": 290000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-22",
+        "priceEur": 290000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1eea523ad01": {
+    "id": "f1eea523ad01",
+    "label": "3 CHE DES FRAYSINETTES, Lamalou-les-Bains",
+    "lat": 43.604896,
+    "lng": 3.089976,
+    "transactions": [
+      {
+        "date": "2024-08-08",
+        "priceEur": 407400,
+        "typeLocal": "Maison",
+        "surfaceM2": 164,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-08",
+        "priceEur": 407400,
+        "typeLocal": "Maison",
+        "surfaceM2": 164,
+        "isVefa": false
+      }
+    ]
+  },
+  "380daa0b7cbf": {
+    "id": "380daa0b7cbf",
+    "label": "4 RUE DE L OLIVETTE, Lamalou-les-Bains",
+    "lat": 43.60476,
+    "lng": 3.090756,
+    "transactions": [
+      {
+        "date": "2024-10-31",
+        "priceEur": 128780,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "6bc4ca8457d1": {
+    "id": "6bc4ca8457d1",
+    "label": "5091 LE GARROUILLAS, Vieussan",
+    "lat": 43.538995,
+    "lng": 2.979838,
+    "transactions": [
+      {
+        "date": "2024-03-06",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      },
+      {
+        "date": "2024-03-06",
+        "priceEur": 180000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  }
+}

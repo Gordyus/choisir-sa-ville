@@ -1,0 +1,61 @@
+{
+  "652ce4940d0e": {
+    "id": "652ce4940d0e",
+    "label": "670 CHE DES CROZES, Balaruc-le-Vieux",
+    "lat": 43.463603,
+    "lng": 3.702423,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 358480,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "19eac5b67984": {
+    "id": "19eac5b67984",
+    "label": "6814 LA DEVEZE, Balaruc-le-Vieux",
+    "lat": 43.466492,
+    "lng": 3.70507,
+    "transactions": [
+      {
+        "date": "2022-11-07",
+        "priceEur": 347850,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-07",
+        "priceEur": 347850,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "f04bd4b80bf4": {
+    "id": "f04bd4b80bf4",
+    "label": "5329F CHE DES CROZES, Balaruc-le-Vieux",
+    "lat": 43.464546,
+    "lng": 3.702514,
+    "transactions": [
+      {
+        "date": "2024-05-02",
+        "priceEur": 219000,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-02",
+        "priceEur": 219000,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  }
+}

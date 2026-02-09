@@ -1,0 +1,61 @@
+{
+  "f8675b546359": {
+    "id": "f8675b546359",
+    "label": "12 CHE DE BONIAN, Pouzolles",
+    "lat": 43.484459,
+    "lng": 3.285146,
+    "transactions": [
+      {
+        "date": "2021-09-14",
+        "priceEur": 364000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-14",
+        "priceEur": 364000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "8292a60303f4": {
+    "id": "8292a60303f4",
+    "label": "6T CHE DES ROUYERES, Pouzolles",
+    "lat": 43.483388,
+    "lng": 3.286222,
+    "transactions": [
+      {
+        "date": "2022-11-07",
+        "priceEur": 242750,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "f21a1665d0aa": {
+    "id": "f21a1665d0aa",
+    "label": "12 CHE DE MARGON, Pouzolles",
+    "lat": 43.482376,
+    "lng": 3.285032,
+    "transactions": [
+      {
+        "date": "2022-12-22",
+        "priceEur": 323000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-22",
+        "priceEur": 323000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  }
+}

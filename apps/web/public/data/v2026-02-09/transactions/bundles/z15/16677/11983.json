@@ -1,0 +1,46 @@
+{
+  "24627b4f4f98": {
+    "id": "24627b4f4f98",
+    "label": "400 AV DE BEZIERS, Puissalicon",
+    "lat": 43.459184,
+    "lng": 3.229619,
+    "transactions": [
+      {
+        "date": "2022-02-10",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-10",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "47634ad6ff7b": {
+    "id": "47634ad6ff7b",
+    "label": "443 AV DE BEZIERS, Puissalicon",
+    "lat": 43.457947,
+    "lng": 3.229648,
+    "transactions": [
+      {
+        "date": "2023-02-17",
+        "priceEur": 446500,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-17",
+        "priceEur": 446500,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "d8b5f557b3bf": {
+    "id": "d8b5f557b3bf",
+    "label": "6 RUE DU FOUR A CHAUX, Saint-Georges-d'Orques",
+    "lat": 43.628543,
+    "lng": 3.768153,
+    "transactions": [
+      {
+        "date": "2023-07-27",
+        "priceEur": 365000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-27",
+        "priceEur": 365000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 32,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-27",
+        "priceEur": 365000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-27",
+        "priceEur": 365000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 26,
+        "isVefa": false
+      }
+    ]
+  },
+  "06efaf4e68a8": {
+    "id": "06efaf4e68a8",
+    "label": "5 RUE DES CADES, Saint-Georges-d'Orques",
+    "lat": 43.629315,
+    "lng": 3.766456,
+    "transactions": [
+      {
+        "date": "2024-09-03",
+        "priceEur": 560350,
+        "typeLocal": "Appartement",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "06939ef0ad58": {
+    "id": "06939ef0ad58",
+    "label": "4 RUE DES CADES, Saint-Georges-d'Orques",
+    "lat": 43.629172,
+    "lng": 3.767283,
+    "transactions": [
+      {
+        "date": "2025-03-26",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  }
+}

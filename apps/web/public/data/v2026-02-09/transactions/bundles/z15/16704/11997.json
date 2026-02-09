@@ -1,0 +1,32 @@
+{
+  "f3a02e10e089": {
+    "id": "f3a02e10e089",
+    "label": "169 RTE DE MARSEILLAN-PLAGE, Marseillan",
+    "lat": 43.347943,
+    "lng": 3.526594,
+    "transactions": [
+      {
+        "date": "2022-01-13",
+        "priceEur": 440000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b21bc3ff1c0": {
+    "id": "7b21bc3ff1c0",
+    "label": "29 CHE DE L INFIRMERIE, Marseillan",
+    "lat": 43.349102,
+    "lng": 3.526133,
+    "transactions": [
+      {
+        "date": "2022-04-19",
+        "priceEur": 457700,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  }
+}

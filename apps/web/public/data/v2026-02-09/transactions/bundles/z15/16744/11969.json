@@ -1,0 +1,159 @@
+{
+  "64a6a1d22da3": {
+    "id": "64a6a1d22da3",
+    "label": "7 RUE GEORGES BARNOYER, Pérols",
+    "lat": 43.565672,
+    "lng": 3.955864,
+    "transactions": [
+      {
+        "date": "2021-05-21",
+        "priceEur": 486000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-21",
+        "priceEur": 486000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "077521d79bd7": {
+    "id": "077521d79bd7",
+    "label": "19 RUE DE L ETANG, Pérols",
+    "lat": 43.566874,
+    "lng": 3.955821,
+    "transactions": [
+      {
+        "date": "2021-08-04",
+        "priceEur": 470000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1908e53f29c": {
+    "id": "b1908e53f29c",
+    "label": "5 RUE DU BOULIDOU, Pérols",
+    "lat": 43.565213,
+    "lng": 3.955177,
+    "transactions": [
+      {
+        "date": "2022-02-18",
+        "priceEur": 740000,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "9684187da6c7": {
+    "id": "9684187da6c7",
+    "label": "18 RUE DE L ETANG, Pérols",
+    "lat": 43.56664,
+    "lng": 3.955599,
+    "transactions": [
+      {
+        "date": "2022-02-22",
+        "priceEur": 540050,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "766c5cc8c3ca": {
+    "id": "766c5cc8c3ca",
+    "label": "1 RUE DU BOULIDOU, Pérols",
+    "lat": 43.565213,
+    "lng": 3.955177,
+    "transactions": [
+      {
+        "date": "2022-08-04",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac319fe3e39c": {
+    "id": "ac319fe3e39c",
+    "label": "16 RUE DE L ETANG, Pérols",
+    "lat": 43.566383,
+    "lng": 3.955375,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 336000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "da07da219981": {
+    "id": "da07da219981",
+    "label": "32 RUE GEORGES BARNOYER, Pérols",
+    "lat": 43.56512,
+    "lng": 3.956702,
+    "transactions": [
+      {
+        "date": "2022-10-27",
+        "priceEur": 437730,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "ccd67cbcca8b": {
+    "id": "ccd67cbcca8b",
+    "label": "11 IMP DU MARAIS, Pérols",
+    "lat": 43.565624,
+    "lng": 3.956467,
+    "transactions": [
+      {
+        "date": "2022-11-24",
+        "priceEur": 413850,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1f04e4f0b2c": {
+    "id": "a1f04e4f0b2c",
+    "label": "15 RUE DE L ETANG, Pérols",
+    "lat": 43.566914,
+    "lng": 3.955349,
+    "transactions": [
+      {
+        "date": "2024-06-21",
+        "priceEur": 451000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4f4a97b8daf": {
+    "id": "b4f4a97b8daf",
+    "label": "21 RUE DE LA GUETTE, Pérols",
+    "lat": 43.564636,
+    "lng": 3.956544,
+    "transactions": [
+      {
+        "date": "2024-09-18",
+        "priceEur": 600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  }
+}

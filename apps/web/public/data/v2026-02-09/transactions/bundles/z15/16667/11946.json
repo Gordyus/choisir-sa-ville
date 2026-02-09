@@ -1,0 +1,96 @@
+{
+  "5e40b31f9bfe": {
+    "id": "5e40b31f9bfe",
+    "label": "5607 BEAU DESERT, Avène",
+    "lat": 43.750866,
+    "lng": 3.111492,
+    "transactions": [
+      {
+        "date": "2021-02-19",
+        "priceEur": 350,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-19",
+        "priceEur": 350,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-19",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-19",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5d78f9a50f4": {
+    "id": "d5d78f9a50f4",
+    "label": "5832 BEAU DESERT, Avène",
+    "lat": 43.750854,
+    "lng": 3.111375,
+    "transactions": [
+      {
+        "date": "2021-12-08",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-08",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "ffdea6a574c4": {
+    "id": "ffdea6a574c4",
+    "label": "6096F BEAU DESERT, Avène",
+    "lat": 43.75072,
+    "lng": 3.11019,
+    "transactions": [
+      {
+        "date": "2021-12-08",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-08",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-08",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-08",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 39,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "515cb4eb2f23": {
+    "id": "515cb4eb2f23",
+    "label": "306 RUE DE LA CROIX DE LAVIT, Brissac",
+    "lat": 43.893488,
+    "lng": 3.696361,
+    "transactions": [
+      {
+        "date": "2020-07-03",
+        "priceEur": 323190,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b2c686277e4": {
+    "id": "9b2c686277e4",
+    "label": "245 RUE DE LA CONDAMINE, Brissac",
+    "lat": 43.897086,
+    "lng": 3.692945,
+    "transactions": [
+      {
+        "date": "2021-08-27",
+        "priceEur": 337450,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "041ed48b56a7": {
+    "id": "041ed48b56a7",
+    "label": "418 RUE DE LA CONDAMINE, Brissac",
+    "lat": 43.897112,
+    "lng": 3.695031,
+    "transactions": [
+      {
+        "date": "2021-10-20",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-20",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-20",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "4be1b6c43847": {
+    "id": "4be1b6c43847",
+    "label": "33 RUE DE LA COMBE, Brissac",
+    "lat": 43.897581,
+    "lng": 3.692099,
+    "transactions": [
+      {
+        "date": "2022-12-30",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "84d654f48e37": {
+    "id": "84d654f48e37",
+    "label": "61 RUE DU LIROU, Brissac",
+    "lat": 43.897731,
+    "lng": 3.694275,
+    "transactions": [
+      {
+        "date": "2024-09-12",
+        "priceEur": 295601,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

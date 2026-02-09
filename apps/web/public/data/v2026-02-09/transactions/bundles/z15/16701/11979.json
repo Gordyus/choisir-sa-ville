@@ -1,0 +1,62 @@
+{
+  "41a7b14d53ae": {
+    "id": "41a7b14d53ae",
+    "label": "5000 CARABOTES, Montagnac",
+    "lat": 43.491292,
+    "lng": 3.493007,
+    "transactions": [
+      {
+        "date": "2021-09-29",
+        "priceEur": 360700,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "86ef294ed6b8": {
+    "id": "86ef294ed6b8",
+    "label": "13 AV DU PERE D'ALZON, Montagnac",
+    "lat": 43.484923,
+    "lng": 3.483962,
+    "transactions": [
+      {
+        "date": "2023-10-19",
+        "priceEur": 243000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "58dec2acf5fe": {
+    "id": "58dec2acf5fe",
+    "label": "15 AV DU PERE D'ALZON, Montagnac",
+    "lat": 43.484975,
+    "lng": 3.483884,
+    "transactions": [
+      {
+        "date": "2024-06-13",
+        "priceEur": 242500,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "54ad765001fe": {
+    "id": "54ad765001fe",
+    "label": "22 AV DU PERE D'ALZON, Montagnac",
+    "lat": 43.485861,
+    "lng": 3.483168,
+    "transactions": [
+      {
+        "date": "2025-03-17",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

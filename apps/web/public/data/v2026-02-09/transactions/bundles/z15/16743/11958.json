@@ -1,0 +1,456 @@
+{
+  "a074ba122496": {
+    "id": "a074ba122496",
+    "label": "3 RUE LAMARTINE, Le Crès",
+    "lat": 43.654897,
+    "lng": 3.944667,
+    "transactions": [
+      {
+        "date": "2020-07-30",
+        "priceEur": 383800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-30",
+        "priceEur": 383800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-30",
+        "priceEur": 383800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-30",
+        "priceEur": 383800,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e6ba6f12fa8": {
+    "id": "9e6ba6f12fa8",
+    "label": "18 RUE ALFRED DE VIGNY, Le Crès",
+    "lat": 43.658403,
+    "lng": 3.94462,
+    "transactions": [
+      {
+        "date": "2020-12-08",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d611bf891c3": {
+    "id": "1d611bf891c3",
+    "label": "6 AV DU LANGUEDOC, Le Crès",
+    "lat": 43.654891,
+    "lng": 3.944343,
+    "transactions": [
+      {
+        "date": "2020-12-21",
+        "priceEur": 447650,
+        "typeLocal": "Appartement",
+        "surfaceM2": 87,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-21",
+        "priceEur": 447650,
+        "typeLocal": "Appartement",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "424d433bf5a8": {
+    "id": "424d433bf5a8",
+    "label": "360 RUE DE MASSACAN, Vendargues",
+    "lat": 43.654598,
+    "lng": 3.949657,
+    "transactions": [
+      {
+        "date": "2020-11-25",
+        "priceEur": 418800,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2b7540a333e": {
+    "id": "c2b7540a333e",
+    "label": "12 AV ANTOINE DE ST EXUPERY, Le Crès",
+    "lat": 43.657695,
+    "lng": 3.944672,
+    "transactions": [
+      {
+        "date": "2021-03-05",
+        "priceEur": 428000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "91c5cd12ae9a": {
+    "id": "91c5cd12ae9a",
+    "label": "21 AV ANTOINE DE ST EXUPERY, Le Crès",
+    "lat": 43.658299,
+    "lng": 3.944858,
+    "transactions": [
+      {
+        "date": "2021-04-23",
+        "priceEur": 273000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "e132bf0f169c": {
+    "id": "e132bf0f169c",
+    "label": "23 AV ANTOINE DE ST EXUPERY, Le Crès",
+    "lat": 43.658382,
+    "lng": 3.944885,
+    "transactions": [
+      {
+        "date": "2021-06-25",
+        "priceEur": 332640,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "940610a2ee6d": {
+    "id": "940610a2ee6d",
+    "label": "21 RUE RONSARD, Le Crès",
+    "lat": 43.659768,
+    "lng": 3.944534,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 367105,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "84876e9901dc": {
+    "id": "84876e9901dc",
+    "label": "38 AV ANTOINE DE ST EXUPERY, Le Crès",
+    "lat": 43.659429,
+    "lng": 3.945935,
+    "transactions": [
+      {
+        "date": "2021-11-10",
+        "priceEur": 375120,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6ad0b336c06": {
+    "id": "f6ad0b336c06",
+    "label": "920 AV DES BIGOS, Vendargues",
+    "lat": 43.655452,
+    "lng": 3.950168,
+    "transactions": [
+      {
+        "date": "2021-02-04",
+        "priceEur": 170000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "42cf144c7f12": {
+    "id": "42cf144c7f12",
+    "label": "8 IMP ALFRED DE MUSSET, Le Crès",
+    "lat": 43.657226,
+    "lng": 3.945232,
+    "transactions": [
+      {
+        "date": "2022-03-07",
+        "priceEur": 355000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "f99913839658": {
+    "id": "f99913839658",
+    "label": "1 IMP ALFRED DE MUSSET, Le Crès",
+    "lat": 43.657741,
+    "lng": 3.945039,
+    "transactions": [
+      {
+        "date": "2022-04-12",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "ffa6ab38af27": {
+    "id": "ffa6ab38af27",
+    "label": "15 IMP ALFRED DE MUSSET, Le Crès",
+    "lat": 43.658267,
+    "lng": 3.945663,
+    "transactions": [
+      {
+        "date": "2022-04-28",
+        "priceEur": 311549,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "81900c2be372": {
+    "id": "81900c2be372",
+    "label": "22 RUE LAMARTINE, Le Crès",
+    "lat": 43.656708,
+    "lng": 3.945384,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 523570,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-22",
+        "priceEur": 523570,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "89f263566a41": {
+    "id": "89f263566a41",
+    "label": "45 AV ANTOINE DE ST EXUPERY, Le Crès",
+    "lat": 43.659388,
+    "lng": 3.945456,
+    "transactions": [
+      {
+        "date": "2022-08-11",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "101716b2c69b": {
+    "id": "101716b2c69b",
+    "label": "385 RUE DE MASSACAN, Vendargues",
+    "lat": 43.653948,
+    "lng": 3.949394,
+    "transactions": [
+      {
+        "date": "2022-03-29",
+        "priceEur": 900000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "f972bf608e5d": {
+    "id": "f972bf608e5d",
+    "label": "2 RUE TERRE DE ROY, Vendargues",
+    "lat": 43.655316,
+    "lng": 3.952238,
+    "transactions": [
+      {
+        "date": "2022-05-17",
+        "priceEur": 292550,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5e80f80ff05": {
+    "id": "b5e80f80ff05",
+    "label": "16 IMP ALFRED DE MUSSET, Le Crès",
+    "lat": 43.657608,
+    "lng": 3.945738,
+    "transactions": [
+      {
+        "date": "2022-09-20",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa53d9d45ce9": {
+    "id": "fa53d9d45ce9",
+    "label": "955 AV DES BIGOS, Vendargues",
+    "lat": 43.655095,
+    "lng": 3.949376,
+    "transactions": [
+      {
+        "date": "2022-09-16",
+        "priceEur": 297900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd62ca75f6ef": {
+    "id": "bd62ca75f6ef",
+    "label": "33 RUE ALFRED DE VIGNY, Le Crès",
+    "lat": 43.658729,
+    "lng": 3.944284,
+    "transactions": [
+      {
+        "date": "2023-06-16",
+        "priceEur": 445880,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-27",
+        "priceEur": 290476,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "dfe90771b71f": {
+    "id": "dfe90771b71f",
+    "label": "5 IMP DU GUE, Le Crès",
+    "lat": 43.652367,
+    "lng": 3.945468,
+    "transactions": [
+      {
+        "date": "2022-10-07",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "62f4eff06252": {
+    "id": "62f4eff06252",
+    "label": "4 IMP DU GUE, Le Crès",
+    "lat": 43.652438,
+    "lng": 3.945714,
+    "transactions": [
+      {
+        "date": "2023-06-26",
+        "priceEur": 507880,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-26",
+        "priceEur": 507880,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "45136ff64274": {
+    "id": "45136ff64274",
+    "label": "20 RUE ALFRED DE VIGNY, Le Crès",
+    "lat": 43.658496,
+    "lng": 3.944645,
+    "transactions": [
+      {
+        "date": "2023-08-02",
+        "priceEur": 384350,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "03ec2e330b86": {
+    "id": "03ec2e330b86",
+    "label": "5 AV DES BALEARES, Le Crès",
+    "lat": 43.652096,
+    "lng": 3.944455,
+    "transactions": [
+      {
+        "date": "2024-06-07",
+        "priceEur": 478000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "94c8c4ac4550": {
+    "id": "94c8c4ac4550",
+    "label": "10 RUE ALFRED DE VIGNY, Le Crès",
+    "lat": 43.658077,
+    "lng": 3.944291,
+    "transactions": [
+      {
+        "date": "2024-07-24",
+        "priceEur": 344050,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e68618e1b9e": {
+    "id": "9e68618e1b9e",
+    "label": "16 AV DU LANGUEDOC, Le Crès",
+    "lat": 43.655704,
+    "lng": 3.944225,
+    "transactions": [
+      {
+        "date": "2024-08-21",
+        "priceEur": 436300,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "15ecc2a021a1": {
+    "id": "15ecc2a021a1",
+    "label": "9 IMP EMILE ZOLA, Le Crès",
+    "lat": 43.65684,
+    "lng": 3.94444,
+    "transactions": [
+      {
+        "date": "2024-12-20",
+        "priceEur": 365000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

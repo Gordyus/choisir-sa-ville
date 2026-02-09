@@ -1,0 +1,46 @@
+{
+  "9cb74ea70983": {
+    "id": "9cb74ea70983",
+    "label": "47 AV RAYMOND PITET, Agde",
+    "lat": 43.319631,
+    "lng": 3.466938,
+    "transactions": [
+      {
+        "date": "2022-11-08",
+        "priceEur": 136000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-08",
+        "priceEur": 136000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-08",
+        "priceEur": 62700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "3b4b39dd39a3": {
+    "id": "3b4b39dd39a3",
+    "label": "7 RUE DE LA MEDITERRANEENNE, Agde",
+    "lat": 43.317222,
+    "lng": 3.462933,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  }
+}

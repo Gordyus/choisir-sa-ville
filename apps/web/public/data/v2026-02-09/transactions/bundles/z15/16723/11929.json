@@ -1,0 +1,61 @@
+{
+  "751f82d0b292": {
+    "id": "751f82d0b292",
+    "label": "5440 VALRAC, Agonès",
+    "lat": 43.889292,
+    "lng": 3.728389,
+    "transactions": [
+      {
+        "date": "2020-12-30",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-30",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "a6afb2d502de": {
+    "id": "a6afb2d502de",
+    "label": "5430 GRAN BRANLE, Agonès",
+    "lat": 43.887892,
+    "lng": 3.728978,
+    "transactions": [
+      {
+        "date": "2024-01-23",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-23",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "0dc2ff72bdc2": {
+    "id": "0dc2ff72bdc2",
+    "label": "5034 VALRAC, Agonès",
+    "lat": 43.889057,
+    "lng": 3.729854,
+    "transactions": [
+      {
+        "date": "2025-03-21",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

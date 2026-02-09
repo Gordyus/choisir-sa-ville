@@ -1,0 +1,106 @@
+{
+  "6096b806766a": {
+    "id": "6096b806766a",
+    "label": "42 CHEM DES RIGAUDENS, Loupian",
+    "lat": 43.453294,
+    "lng": 3.610221,
+    "transactions": [
+      {
+        "date": "2021-09-16",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 212,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3a0f96a947e": {
+    "id": "b3a0f96a947e",
+    "label": "241 CHEM DES RIGAUDENS, Loupian",
+    "lat": 43.453546,
+    "lng": 3.609878,
+    "transactions": [
+      {
+        "date": "2022-12-20",
+        "priceEur": 581500,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-20",
+        "priceEur": 581500,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f472a0ecc83": {
+    "id": "2f472a0ecc83",
+    "label": "55 RUE FRANCOISE SAGAN, Loupian",
+    "lat": 43.453576,
+    "lng": 3.61352,
+    "transactions": [
+      {
+        "date": "2023-04-04",
+        "priceEur": 487500,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc3b10e0887a": {
+    "id": "bc3b10e0887a",
+    "label": "16 RUE FRANCOISE SAGAN, Loupian",
+    "lat": 43.453558,
+    "lng": 3.614386,
+    "transactions": [
+      {
+        "date": "2023-09-28",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "5250e78b6c2f": {
+    "id": "5250e78b6c2f",
+    "label": "5373 LA CROIX DE BENEZECH, Loupian",
+    "lat": 43.459932,
+    "lng": 3.608828,
+    "transactions": [
+      {
+        "date": "2024-06-04",
+        "priceEur": 20000,
+        "typeLocal": "Maison",
+        "surfaceM2": 10,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c7193294c35": {
+    "id": "9c7193294c35",
+    "label": "5968 RTE DE VILLEVEYRAC, Loupian",
+    "lat": 43.454681,
+    "lng": 3.612012,
+    "transactions": [
+      {
+        "date": "2024-07-09",
+        "priceEur": 519000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-09",
+        "priceEur": 519000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  }
+}

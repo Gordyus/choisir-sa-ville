@@ -1,0 +1,84 @@
+{
+  "47040400e047": {
+    "id": "47040400e047",
+    "label": "17 AV DU CHATEAU, La Tour-sur-Orb",
+    "lat": 43.653848,
+    "lng": 3.149567,
+    "transactions": [
+      {
+        "date": "2022-04-07",
+        "priceEur": 258270,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-07",
+        "priceEur": 258270,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd30aeba9181": {
+    "id": "fd30aeba9181",
+    "label": "5303 LA TOUR, La Tour-sur-Orb",
+    "lat": 43.652345,
+    "lng": 3.1501,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 448000,
+        "typeLocal": "Maison",
+        "surfaceM2": 255,
+        "isVefa": false
+      }
+    ]
+  },
+  "308d6882f212": {
+    "id": "308d6882f212",
+    "label": "5187 LA TOUR, La Tour-sur-Orb",
+    "lat": 43.652089,
+    "lng": 3.150326,
+    "transactions": [
+      {
+        "date": "2023-10-04",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 400,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f72b10a5685": {
+    "id": "3f72b10a5685",
+    "label": "5527 LA TOUR, La Tour-sur-Orb",
+    "lat": 43.652274,
+    "lng": 3.149146,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "658369b278d5": {
+    "id": "658369b278d5",
+    "label": "5041 LA TOUR, La Tour-sur-Orb",
+    "lat": 43.655306,
+    "lng": 3.150803,
+    "transactions": [
+      {
+        "date": "2025-05-06",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  }
+}

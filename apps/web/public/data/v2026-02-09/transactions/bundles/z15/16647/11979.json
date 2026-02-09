@@ -1,0 +1,114 @@
+{
+  "ef9a0f2b47d1": {
+    "id": "ef9a0f2b47d1",
+    "label": "5022 HAMEAU DE FERRIERES, Ferrières-Poussarou",
+    "lat": 43.485094,
+    "lng": 2.890856,
+    "transactions": [
+      {
+        "date": "2021-03-17",
+        "priceEur": 403950,
+        "typeLocal": "Maison",
+        "surfaceM2": 161,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7c3ab8a870a": {
+    "id": "f7c3ab8a870a",
+    "label": "5372F HAMEAU DE LA FRAISE, Ferrières-Poussarou",
+    "lat": 43.486917,
+    "lng": 2.895469,
+    "transactions": [
+      {
+        "date": "2021-06-17",
+        "priceEur": 156225,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-17",
+        "priceEur": 156225,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "df283230403f": {
+    "id": "df283230403f",
+    "label": "5071 HAMEAU DE LA FRAISE, Ferrières-Poussarou",
+    "lat": 43.484982,
+    "lng": 2.898809,
+    "transactions": [
+      {
+        "date": "2021-09-21",
+        "priceEur": 343230,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "77eb94fa1f17": {
+    "id": "77eb94fa1f17",
+    "label": "5065 HAMEAU DE FERRIERES, Ferrières-Poussarou",
+    "lat": 43.48495,
+    "lng": 2.892132,
+    "transactions": [
+      {
+        "date": "2022-09-26",
+        "priceEur": 222000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a0b77fc8205": {
+    "id": "4a0b77fc8205",
+    "label": "5042 HAMEAU DE FERRIERES, Ferrières-Poussarou",
+    "lat": 43.485105,
+    "lng": 2.89173,
+    "transactions": [
+      {
+        "date": "2022-11-08",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "1340effe7a10": {
+    "id": "1340effe7a10",
+    "label": "5042F HAMEAU DE FERRIERES, Ferrières-Poussarou",
+    "lat": 43.485126,
+    "lng": 2.89189,
+    "transactions": [
+      {
+        "date": "2022-11-08",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 20,
+        "isVefa": false
+      }
+    ]
+  },
+  "259cc88a1c5a": {
+    "id": "259cc88a1c5a",
+    "label": "5361 HAMEAU DE FERRIERES, Ferrières-Poussarou",
+    "lat": 43.4855,
+    "lng": 2.890995,
+    "transactions": [
+      {
+        "date": "2024-12-10",
+        "priceEur": 77975,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  }
+}

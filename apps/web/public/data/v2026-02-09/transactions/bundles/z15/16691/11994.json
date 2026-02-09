@@ -1,0 +1,38 @@
+{
+  "eff584aec84e": {
+    "id": "eff584aec84e",
+    "label": "5458 DOM DE LAVALMALE, Bessan",
+    "lat": 43.368312,
+    "lng": 3.379644,
+    "transactions": [
+      {
+        "date": "2021-06-18",
+        "priceEur": 525000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-18",
+        "priceEur": 525000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-18",
+        "priceEur": 525000,
+        "typeLocal": "Maison",
+        "surfaceM2": 240,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-18",
+        "priceEur": 525000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  }
+}

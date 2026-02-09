@@ -1,0 +1,47 @@
+{
+  "528535f1f37a": {
+    "id": "528535f1f37a",
+    "label": "87 RUE DE LA MARJOLAINE, Mauguio",
+    "lat": 43.612175,
+    "lng": 4.021319,
+    "transactions": [
+      {
+        "date": "2023-03-07",
+        "priceEur": 705000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "e24b8f2b37c6": {
+    "id": "e24b8f2b37c6",
+    "label": "178 IMP DE LA SAUGE, Mauguio",
+    "lat": 43.611547,
+    "lng": 4.022237,
+    "transactions": [
+      {
+        "date": "2023-12-18",
+        "priceEur": 673900,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c389ca909af": {
+    "id": "4c389ca909af",
+    "label": "118 RUE DE LA MARJOLAINE, Mauguio",
+    "lat": 43.612036,
+    "lng": 4.021756,
+    "transactions": [
+      {
+        "date": "2025-03-27",
+        "priceEur": 603460,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

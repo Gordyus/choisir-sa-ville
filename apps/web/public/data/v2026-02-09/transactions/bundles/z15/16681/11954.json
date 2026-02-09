@@ -1,0 +1,91 @@
+{
+  "ef848c8c2920": {
+    "id": "ef848c8c2920",
+    "label": "5011 VILLAGE, Lavalette",
+    "lat": 43.691479,
+    "lng": 3.272452,
+    "transactions": [
+      {
+        "date": "2020-08-25",
+        "priceEur": 917000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "930886d3de4f": {
+    "id": "930886d3de4f",
+    "label": "5002 VILLAGE, Lavalette",
+    "lat": 43.691296,
+    "lng": 3.272843,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-09",
+        "priceEur": 1,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "89b72a023970": {
+    "id": "89b72a023970",
+    "label": "5004 VILLAGE, Lavalette",
+    "lat": 43.691322,
+    "lng": 3.272967,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d7a7b516ba0": {
+    "id": "7d7a7b516ba0",
+    "label": "5059F VILLAGE, Lavalette",
+    "lat": 43.691303,
+    "lng": 3.272896,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 170000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-21",
+        "priceEur": 65000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2db323f08c0": {
+    "id": "c2db323f08c0",
+    "label": "5017F HAMEAU DU BOSC, Lavalette",
+    "lat": 43.688869,
+    "lng": 3.262956,
+    "transactions": [
+      {
+        "date": "2023-09-20",
+        "priceEur": 95000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  }
+}

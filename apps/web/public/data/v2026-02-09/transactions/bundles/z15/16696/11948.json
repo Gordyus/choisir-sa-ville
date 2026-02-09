@@ -1,0 +1,128 @@
+{
+  "1d53f761ac0e": {
+    "id": "1d53f761ac0e",
+    "label": "2 VC LA PLACETTE, Saint-Privat",
+    "lat": 43.736341,
+    "lng": 3.436629,
+    "transactions": [
+      {
+        "date": "2020-09-02",
+        "priceEur": 305000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "55a21f98fc12": {
+    "id": "55a21f98fc12",
+    "label": "7 VC GRAND CHEMIN, Saint-Privat",
+    "lat": 43.737035,
+    "lng": 3.437877,
+    "transactions": [
+      {
+        "date": "2020-12-03",
+        "priceEur": 71000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "e7c93aebaf62": {
+    "id": "e7c93aebaf62",
+    "label": "15 VC GRAND CHEMIN, Saint-Privat",
+    "lat": 43.736204,
+    "lng": 3.437309,
+    "transactions": [
+      {
+        "date": "2021-02-04",
+        "priceEur": 83000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e53811c1b3f": {
+    "id": "7e53811c1b3f",
+    "label": "2 RUE DES PORCHES, Saint-Privat",
+    "lat": 43.736148,
+    "lng": 3.436591,
+    "transactions": [
+      {
+        "date": "2022-04-11",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "8daa72845c6f": {
+    "id": "8daa72845c6f",
+    "label": "37 VC GRAND CHEMIN, Saint-Privat",
+    "lat": 43.735029,
+    "lng": 3.435408,
+    "transactions": [
+      {
+        "date": "2022-04-01",
+        "priceEur": 385090,
+        "typeLocal": "Maison",
+        "surfaceM2": 230,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-01",
+        "priceEur": 385090,
+        "typeLocal": "Maison",
+        "surfaceM2": 230,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-01",
+        "priceEur": 385090,
+        "typeLocal": "Maison",
+        "surfaceM2": 230,
+        "isVefa": false
+      }
+    ]
+  },
+  "91e5321a7090": {
+    "id": "91e5321a7090",
+    "label": "1 CHE DE LA BRUYERE, Saint-Privat",
+    "lat": 43.738111,
+    "lng": 3.438201,
+    "transactions": [
+      {
+        "date": "2024-05-14",
+        "priceEur": 16000,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-14",
+        "priceEur": 16000,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "b566a1590f61": {
+    "id": "b566a1590f61",
+    "label": "43 VC GRAND CHEMIN, Saint-Privat",
+    "lat": 43.734122,
+    "lng": 3.43402,
+    "transactions": [
+      {
+        "date": "2024-09-06",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "670c3e7cab3f": {
+    "id": "670c3e7cab3f",
+    "label": "9001 SAINT-ESPRIT, Saint-Aunès",
+    "lat": 43.619893,
+    "lng": 3.961101,
+    "transactions": [
+      {
+        "date": "2020-07-24",
+        "priceEur": 938480,
+        "typeLocal": "Maison",
+        "surfaceM2": 215,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-24",
+        "priceEur": 938480,
+        "typeLocal": "Maison",
+        "surfaceM2": 215,
+        "isVefa": false
+      }
+    ]
+  },
+  "c257e72eeb5f": {
+    "id": "c257e72eeb5f",
+    "label": "9012 RES LES GARRIGUES, Mauguio",
+    "lat": 43.61789,
+    "lng": 3.958096,
+    "transactions": [
+      {
+        "date": "2021-10-04",
+        "priceEur": 75000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "501e14bc9196": {
+    "id": "501e14bc9196",
+    "label": "12 RUE RENE SALVADOR, Saint-Aunès",
+    "lat": 43.619427,
+    "lng": 3.956451,
+    "transactions": [
+      {
+        "date": "2022-01-11",
+        "priceEur": 725000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "f16d18d3dc67": {
+    "id": "f16d18d3dc67",
+    "label": "9002 LA GARRIGUE BASSE, Mauguio",
+    "lat": 43.617894,
+    "lng": 3.959859,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-30",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "b69676719e97": {
+    "id": "b69676719e97",
+    "label": "9001 LES GARRIGUES, Saint-Aunès",
+    "lat": 43.619857,
+    "lng": 3.962939,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 37,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-22",
+        "priceEur": 250000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-22",
+        "priceEur": 250000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      }
+    ]
+  },
+  "c76b66d59595": {
+    "id": "c76b66d59595",
+    "label": "9011 RES LES GARRIGUES, Mauguio",
+    "lat": 43.61789,
+    "lng": 3.958096,
+    "transactions": [
+      {
+        "date": "2022-09-12",
+        "priceEur": 76251.77,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "360e0e1a5b76": {
+    "id": "360e0e1a5b76",
+    "label": "5125 LES GARRIGUES, Saint-Aunès",
+    "lat": 43.620042,
+    "lng": 3.962634,
+    "transactions": [
+      {
+        "date": "2024-01-22",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "934b68ce5dcb": {
+    "id": "934b68ce5dcb",
+    "label": "9041 LA GARRIGUE BASSE, Mauguio",
+    "lat": 43.617092,
+    "lng": 3.961333,
+    "transactions": [
+      {
+        "date": "2025-01-20",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  }
+}

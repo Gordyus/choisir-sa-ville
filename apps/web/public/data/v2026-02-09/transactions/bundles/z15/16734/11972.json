@@ -1,0 +1,39 @@
+{
+  "38e7aaf0e1d9": {
+    "id": "38e7aaf0e1d9",
+    "label": "5134F AV DE LA GARE, Villeneuve-lès-Maguelone",
+    "lat": 43.541123,
+    "lng": 3.852728,
+    "transactions": [
+      {
+        "date": "2022-10-10",
+        "priceEur": 337800,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "27eb09bc90c2": {
+    "id": "27eb09bc90c2",
+    "label": "376 RTE DE LA GARE, Villeneuve-lès-Maguelone",
+    "lat": 43.54266,
+    "lng": 3.854666,
+    "transactions": [
+      {
+        "date": "2024-10-25",
+        "priceEur": 470000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-25",
+        "priceEur": 470000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  }
+}

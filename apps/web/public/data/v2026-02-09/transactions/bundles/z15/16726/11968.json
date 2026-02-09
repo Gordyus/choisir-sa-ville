@@ -1,0 +1,92 @@
+{
+  "a13c4c747180": {
+    "id": "a13c4c747180",
+    "label": "9999 AV DE COURNONTERRAL, Pignan",
+    "lat": 43.578941,
+    "lng": 3.76259,
+    "transactions": [
+      {
+        "date": "2021-07-06",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a983e3e4fd4": {
+    "id": "6a983e3e4fd4",
+    "label": "4B RUE GUSTAVE  EIFFEL, Pignan",
+    "lat": 43.580004,
+    "lng": 3.766448,
+    "transactions": [
+      {
+        "date": "2021-08-10",
+        "priceEur": 454000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff946dd3b31c": {
+    "id": "ff946dd3b31c",
+    "label": "9 RUE LUCIEN VIDAL, Pignan",
+    "lat": 43.578557,
+    "lng": 3.762636,
+    "transactions": [
+      {
+        "date": "2022-09-12",
+        "priceEur": 368000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b1d89550cc1": {
+    "id": "7b1d89550cc1",
+    "label": "16 RUE DES TREILLES, Pignan",
+    "lat": 43.580299,
+    "lng": 3.764668,
+    "transactions": [
+      {
+        "date": "2022-10-19",
+        "priceEur": 329000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "eaed49fbaa41": {
+    "id": "eaed49fbaa41",
+    "label": "36 RUE LUCIEN VIDAL, Pignan",
+    "lat": 43.578772,
+    "lng": 3.763161,
+    "transactions": [
+      {
+        "date": "2023-05-15",
+        "priceEur": 401300,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0974efa335a": {
+    "id": "b0974efa335a",
+    "label": "25 RUE DES TREILLES, Pignan",
+    "lat": 43.580121,
+    "lng": 3.764382,
+    "transactions": [
+      {
+        "date": "2024-04-24",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "2863e22944fe": {
+    "id": "2863e22944fe",
+    "label": "5150 SAINT FRECHOUX, Le Bosc",
+    "lat": 43.677999,
+    "lng": 3.382862,
+    "transactions": [
+      {
+        "date": "2023-04-07",
+        "priceEur": 102950,
+        "typeLocal": "Maison",
+        "surfaceM2": 230,
+        "isVefa": false
+      }
+    ]
+  },
+  "e503eee842fc": {
+    "id": "e503eee842fc",
+    "label": "5148 SAINT FRECHOUX, Le Bosc",
+    "lat": 43.678135,
+    "lng": 3.382387,
+    "transactions": [
+      {
+        "date": "2024-05-23",
+        "priceEur": 13500,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  }
+}

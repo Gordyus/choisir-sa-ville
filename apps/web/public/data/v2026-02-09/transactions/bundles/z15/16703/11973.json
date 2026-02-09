@@ -1,0 +1,46 @@
+{
+  "5978b1bb64b6": {
+    "id": "5978b1bb64b6",
+    "label": "1B LOT LE CLOS DES AMANDIERS, Saint-Pargoire",
+    "lat": 43.532931,
+    "lng": 3.508498,
+    "transactions": [
+      {
+        "date": "2023-04-24",
+        "priceEur": 2000,
+        "typeLocal": "Maison",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-24",
+        "priceEur": 2000,
+        "typeLocal": "Maison",
+        "surfaceM2": 28,
+        "isVefa": false
+      }
+    ]
+  },
+  "34aa4b3156cf": {
+    "id": "34aa4b3156cf",
+    "label": "270 RUE DU MISTRAL, Campagnan",
+    "lat": 43.537176,
+    "lng": 3.504743,
+    "transactions": [
+      {
+        "date": "2024-04-30",
+        "priceEur": 550000,
+        "typeLocal": "Maison",
+        "surfaceM2": 199,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-30",
+        "priceEur": 550000,
+        "typeLocal": "Maison",
+        "surfaceM2": 199,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "90342e2943c4": {
+    "id": "90342e2943c4",
+    "label": "5265 LES JASSES, Ferrières-les-Verreries",
+    "lat": 43.86345,
+    "lng": 3.783199,
+    "transactions": [
+      {
+        "date": "2020-07-15",
+        "priceEur": 1000000,
+        "typeLocal": "Maison",
+        "surfaceM2": 206,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-15",
+        "priceEur": 1000000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  }
+}

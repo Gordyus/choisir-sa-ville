@@ -24,6 +24,8 @@ Fichiers consommés aujourd'hui :
 - `infraZones/indexLite.json` : index compressé
 - `communes/postalIndex.json` : mapping postal (usage futur/tech)
 - `communes/metrics/*` : métriques au niveau commune (JSON)
+- `transactions/addresses.geojson` : points de transactions DVF (GeoJSON, couche carte)
+- `transactions/bundles/z15/{x}/{y}.json` : historiques de transactions par tuile
 - `manifest.json` : méta + sources (dans chaque version)
 
 ### Fichiers par niveau géographique
@@ -61,21 +63,24 @@ Exemple pour l'agrégat insécurité au niveau commune :
 
 | Agrégat | Dossier | Status | Notes |
 |---|---|---|---|
-| **Insécurité (SSMSI)** | `communes/metrics/insecurity/` | **Actif** | Percentile simple [0..100], levels baked, viewport-only rendering |
-| Core (INSEE) | `communes/metrics/core.json` | Actif | |
-| Housing | `communes/metrics/housing.json` | Actif | |
+| **Insécurité (SSMSI)** | `communes/metrics/insecurity/` | **Actif** | Quartiles + level baked, viewport-only rendering |
+| Core (INSEE) | `communes/metrics/core.json` | Placeholder | Colonnes area/density (nulls) |
+| Housing | `communes/metrics/housing.json` | Placeholder | Colonnes rent (nulls) |
+
+### Transactions DVF
+
+Les données de transactions immobilières (DVF+) sont servies sous `transactions/` :
+- `addresses.geojson` : points géolocalisés des adresses avec transactions (couche MapLibre)
+- `bundles/z15/{x}/{y}.json` : historiques complets partitionnés par tuile WebMercator
+
+Spec de référence : `docs/feature/transactions-address-history/spec.md`
 
 **Insécurité (SSMSI)** :
-- Source: Bases SSMSI (ministère de l'intérieur)
-- Calcul: Score pondéré (40% violences, 35% biens, 25% tranquillité)
-- Classification par taille de population (3 catégories)
-- Double indexGlobal: [0..100] national + [0..100] catégorie
-- Niveaux [0..4] basés sur percentiles catégorie
-- Unité: Faits pour 100,000 habitants
+- **Population source** : `insee_pop` du Parquet SSMSI (pas de fallback ZIP INSEE)
+- **Niveaux** : 0–4 (Très faible → Plus élevé), quartiles calculés sur `scoreRaw > 0`, baked au build-time
 - **Rendu carto** : Feature-state viewport-only (moveend + zoomend), pas de match géant
 - **Performance** : Batching RAF (200 features/frame), adaptive opacity mobile
 - **Documentation** : Voir `docs/METRICS_INSECURITY.md`
-- **Configuration partagée** : `INSECURITY_CATEGORIES` et `INSECURITY_LEVELS` dupliqués dans `packages/importer/src/exports/shared/insecurityMetrics.ts` et `apps/web/lib/config/insecurityMetrics.ts` (acceptable car packages Node/React isolés; centraliser si 3e package dépend)
 
 ### 2) Config runtime (JSON)
 
@@ -106,27 +111,14 @@ Chargement du style :
 - `apps/web/lib/map/style/stylePipeline.ts`
   - charge le style de base (`styleUrl`)
   - supprime les couches dont le `source-layer` n’existe pas (TileJSON inspection)
-  - supprime les labels OSM `place_label*` (remplacs par nos labels custom)
   - applique un styling feature-state sur la couche de labels interactive
   - injecte les couches polygones (communes/arr_municipal) avant les labels
-  - injecte les labels custom communes (`commune_labels` depuis `commune-labels.mbtiles`)
-  - injecte les labels arrondissements (`arr_municipal_labels` depuis `arr_municipal.mbtiles`)
-
-Labels custom (tuiles vecteur) :
-- `apps/web/lib/map/layers/communeLabelsVector.ts`
-  - Source : `commune-labels.mbtiles` (34 870 communes, z0-z14)
-  - Densit progressive par population (megacities z0, villages z12+)
-  - Feature-state : `hasData`, `highlight`, `active`
-- `apps/web/lib/map/layers/arrMunicipalLabelsVector.ts`
-  - Source : `arr_municipal.mbtiles` (arrondissements Paris/Lyon/Marseille, z11+)
-  - Feature-state : `hasData`, `highlight`, `active`
 
 Interactions :
 - `apps/web/lib/map/mapInteractionService.ts`
-  - label-first : hit-test sur les couches `commune_labels` + `arr_municipal_labels`
-  - rsolution d’entit par code INSEE (sources propres) ou nom normalis (sources OSM)
-  - `moveend`/`zoomend` dclenchent l’valuation `hasData` sur les labels visibles
-  - labels issus de nos sources propres  `hasData` toujours `true` (pas de rsolution par nom)
+  - “label-first” : hit-test sur la couche `interactableLabelLayerId`
+  - résolution d’entité par nom normalisé + index lites
+  - `moveend`/`zoomend` déclenchent l’évaluation `hasData` sur les labels visibles
   - synchronisation `feature-state` ↔ `SelectionService` (flags `hasData`, `highlight`, `active`)
 
 ---

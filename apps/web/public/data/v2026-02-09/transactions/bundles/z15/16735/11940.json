@@ -1,0 +1,68 @@
+{
+  "c0c9f7b55632": {
+    "id": "c0c9f7b55632",
+    "label": "5229 PLAINE DE BOISSET, Valflaunès",
+    "lat": 43.797364,
+    "lng": 3.858183,
+    "transactions": [
+      {
+        "date": "2024-03-14",
+        "priceEur": 600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 172,
+        "isVefa": false
+      },
+      {
+        "date": "2024-03-14",
+        "priceEur": 600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 172,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf20089a0c63": {
+    "id": "cf20089a0c63",
+    "label": "5466 LE RANQUET, Valflaunès",
+    "lat": 43.797927,
+    "lng": 3.865201,
+    "transactions": [
+      {
+        "date": "2024-11-21",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-21",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-21",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "32dd7f5fe218": {
+    "id": "32dd7f5fe218",
+    "label": "5094 IMP DU FOUR RIMBAUD, Valflaunès",
+    "lat": 43.797748,
+    "lng": 3.866455,
+    "transactions": [
+      {
+        "date": "2025-02-28",
+        "priceEur": 168540,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  }
+}

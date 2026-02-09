@@ -1,0 +1,54 @@
+{
+  "d0226d3695d9": {
+    "id": "d0226d3695d9",
+    "label": "5183 RUE DES BOURALINES, Courniou",
+    "lat": 43.485187,
+    "lng": 2.67205,
+    "transactions": [
+      {
+        "date": "2020-11-14",
+        "priceEur": 61523,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "fda661dae6ac": {
+    "id": "fda661dae6ac",
+    "label": "5578F RUE DES CHAMPS, Courniou",
+    "lat": 43.485468,
+    "lng": 2.674986,
+    "transactions": [
+      {
+        "date": "2021-08-27",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9d25657b9fe": {
+    "id": "c9d25657b9fe",
+    "label": "5515 SABO, Courniou",
+    "lat": 43.485546,
+    "lng": 2.675041,
+    "transactions": [
+      {
+        "date": "2024-06-24",
+        "priceEur": 132170,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-17",
+        "priceEur": 81000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

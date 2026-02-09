@@ -1,0 +1,32 @@
+{
+  "11b048226f9a": {
+    "id": "11b048226f9a",
+    "label": "5393 LES CROZES, Le Pouget",
+    "lat": 43.58757,
+    "lng": 3.515943,
+    "transactions": [
+      {
+        "date": "2022-04-12",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5d454e90142": {
+    "id": "f5d454e90142",
+    "label": "10 LOT LES COSTETTES, Le Pouget",
+    "lat": 43.588016,
+    "lng": 3.526257,
+    "transactions": [
+      {
+        "date": "2024-07-29",
+        "priceEur": 390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "8dcdfb58b2a7": {
+    "id": "8dcdfb58b2a7",
+    "label": "1B RTE DU LAC, Salasc",
+    "lat": 43.623791,
+    "lng": 3.318291,
+    "transactions": [
+      {
+        "date": "2022-07-20",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "30f4781edbfd": {
+    "id": "30f4781edbfd",
+    "label": "3 CHE DE L AIGUE BONNE, Salasc",
+    "lat": 43.620288,
+    "lng": 3.318454,
+    "transactions": [
+      {
+        "date": "2023-03-17",
+        "priceEur": 299000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-17",
+        "priceEur": 299000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  }
+}

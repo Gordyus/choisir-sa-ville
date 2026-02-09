@@ -1,0 +1,47 @@
+{
+  "175698064d77": {
+    "id": "175698064d77",
+    "label": "13 RUE PAUL GAUGUIN, Sérignan",
+    "lat": 43.279081,
+    "lng": 3.285356,
+    "transactions": [
+      {
+        "date": "2023-10-04",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "3b877eb2cc5a": {
+    "id": "3b877eb2cc5a",
+    "label": "8 RUE PAUL GAUGUIN, Sérignan",
+    "lat": 43.279293,
+    "lng": 3.285107,
+    "transactions": [
+      {
+        "date": "2023-09-27",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "ce49e97e0874": {
+    "id": "ce49e97e0874",
+    "label": "124T AV DE LA PLAGE, Sérignan",
+    "lat": 43.27779,
+    "lng": 3.284962,
+    "transactions": [
+      {
+        "date": "2024-12-20",
+        "priceEur": 209000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

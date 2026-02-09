@@ -1,0 +1,62 @@
+{
+  "0c22047f49c2": {
+    "id": "0c22047f49c2",
+    "label": "5322 BESSIERE, Fraisse-sur-Agout",
+    "lat": 43.586333,
+    "lng": 2.737866,
+    "transactions": [
+      {
+        "date": "2021-09-11",
+        "priceEur": 136670,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "62ace46e1137": {
+    "id": "62ace46e1137",
+    "label": "5348 BESSIERE, Fraisse-sur-Agout",
+    "lat": 43.586426,
+    "lng": 2.737956,
+    "transactions": [
+      {
+        "date": "2021-09-11",
+        "priceEur": 136670,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "8015d475e5aa": {
+    "id": "8015d475e5aa",
+    "label": "5098 RESCOL, Fraisse-sur-Agout",
+    "lat": 43.587335,
+    "lng": 2.746523,
+    "transactions": [
+      {
+        "date": "2022-04-15",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "56cc24768674": {
+    "id": "56cc24768674",
+    "label": "5200 RESCOL, Fraisse-sur-Agout",
+    "lat": 43.586504,
+    "lng": 2.74586,
+    "transactions": [
+      {
+        "date": "2022-10-31",
+        "priceEur": 146515,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

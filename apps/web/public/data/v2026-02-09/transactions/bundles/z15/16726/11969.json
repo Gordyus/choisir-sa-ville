@@ -1,0 +1,47 @@
+{
+  "c5057a98c3d0": {
+    "id": "c5057a98c3d0",
+    "label": "11 RUE DE L'HORTUS, Saussan",
+    "lat": 43.570365,
+    "lng": 3.767997,
+    "transactions": [
+      {
+        "date": "2020-07-20",
+        "priceEur": 329350,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "66f9199d4477": {
+    "id": "66f9199d4477",
+    "label": "7 RUE DE L'HORTUS, Saussan",
+    "lat": 43.570247,
+    "lng": 3.768146,
+    "transactions": [
+      {
+        "date": "2020-09-03",
+        "priceEur": 344500,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b8f367f7ac3": {
+    "id": "7b8f367f7ac3",
+    "label": "17 RUE DE L'HORTUS, Saussan",
+    "lat": 43.570665,
+    "lng": 3.767858,
+    "transactions": [
+      {
+        "date": "2024-08-26",
+        "priceEur": 516320,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

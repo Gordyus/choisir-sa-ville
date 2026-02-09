@@ -1,0 +1,69 @@
+{
+  "7b12b8ca8e5e": {
+    "id": "7b12b8ca8e5e",
+    "label": "16 CHE DES VIGNALS, Cazedarnes",
+    "lat": 43.427187,
+    "lng": 3.03363,
+    "transactions": [
+      {
+        "date": "2021-05-03",
+        "priceEur": 226240,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "64ea1c6a9e92": {
+    "id": "64ea1c6a9e92",
+    "label": "2 RTE DE CESSENON, Cazedarnes",
+    "lat": 43.428435,
+    "lng": 3.032646,
+    "transactions": [
+      {
+        "date": "2021-11-05",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-05",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "097e122ed1de": {
+    "id": "097e122ed1de",
+    "label": "1 IMP DE LA CURE, Cazedarnes",
+    "lat": 43.427034,
+    "lng": 3.032235,
+    "transactions": [
+      {
+        "date": "2022-09-15",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6375b750594": {
+    "id": "f6375b750594",
+    "label": "43 CHE DES PRES, Cazedarnes",
+    "lat": 43.42403,
+    "lng": 3.033057,
+    "transactions": [
+      {
+        "date": "2023-08-11",
+        "priceEur": 368450,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

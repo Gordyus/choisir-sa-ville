@@ -1,0 +1,75 @@
+{
+  "d75b64eff6ec": {
+    "id": "d75b64eff6ec",
+    "label": "6085 LA PEYSSINE, Pignan",
+    "lat": 43.5908,
+    "lng": 3.72622,
+    "transactions": [
+      {
+        "date": "2021-02-02",
+        "priceEur": 395000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-02",
+        "priceEur": 395000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "9df343a9d37d": {
+    "id": "9df343a9d37d",
+    "label": "5715 LA PEYSSINE, Pignan",
+    "lat": 43.58879,
+    "lng": 3.724899,
+    "transactions": [
+      {
+        "date": "2021-07-28",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-28",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 28,
+        "isVefa": false
+      }
+    ]
+  },
+  "67dde2648d9b": {
+    "id": "67dde2648d9b",
+    "label": "6044 LA PEYSSINE, Pignan",
+    "lat": 43.593747,
+    "lng": 3.732359,
+    "transactions": [
+      {
+        "date": "2021-11-10",
+        "priceEur": 450000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-10",
+        "priceEur": 450000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-10",
+        "priceEur": 450000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  }
+}

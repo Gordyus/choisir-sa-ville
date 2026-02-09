@@ -1,0 +1,107 @@
+{
+  "5b8b759086ec": {
+    "id": "5b8b759086ec",
+    "label": "14 RUE DU CASTELLAS, Montpeyroux",
+    "lat": 43.703646,
+    "lng": 3.507916,
+    "transactions": [
+      {
+        "date": "2021-03-31",
+        "priceEur": 167800,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "c18e43c57c71": {
+    "id": "c18e43c57c71",
+    "label": "10 RUE DU BARRY, Montpeyroux",
+    "lat": 43.701582,
+    "lng": 3.507229,
+    "transactions": [
+      {
+        "date": "2021-05-12",
+        "priceEur": 275150,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "422825aef263": {
+    "id": "422825aef263",
+    "label": "1 RUE DU CASTELLAS, Montpeyroux",
+    "lat": 43.702813,
+    "lng": 3.507453,
+    "transactions": [
+      {
+        "date": "2022-10-04",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "72a33dd6c3a0": {
+    "id": "72a33dd6c3a0",
+    "label": "8 RUE DU CASTELLAS, Montpeyroux",
+    "lat": 43.703264,
+    "lng": 3.507936,
+    "transactions": [
+      {
+        "date": "2023-06-27",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 28,
+        "isVefa": false
+      }
+    ]
+  },
+  "37c9c3774ded": {
+    "id": "37c9c3774ded",
+    "label": "5933 LE BARRY, Montpeyroux",
+    "lat": 43.700932,
+    "lng": 3.506911,
+    "transactions": [
+      {
+        "date": "2023-07-10",
+        "priceEur": 359000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "712cc12c47e3": {
+    "id": "712cc12c47e3",
+    "label": "3 PL DU BARRY, Montpeyroux",
+    "lat": 43.702884,
+    "lng": 3.507213,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 202,
+        "isVefa": false
+      }
+    ]
+  },
+  "79d6fe26a3b3": {
+    "id": "79d6fe26a3b3",
+    "label": "15 RUE DU CASTELLAS, Montpeyroux",
+    "lat": 43.703937,
+    "lng": 3.507854,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  }
+}

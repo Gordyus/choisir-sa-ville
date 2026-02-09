@@ -1,0 +1,98 @@
+{
+  "c19912859e1f": {
+    "id": "c19912859e1f",
+    "label": "686 CHE DE TREBOULS, Pézenas",
+    "lat": 43.482345,
+    "lng": 3.438451,
+    "transactions": [
+      {
+        "date": "2022-09-15",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "9984fd7c4e9c": {
+    "id": "9984fd7c4e9c",
+    "label": "9003 ARNET, Pézenas",
+    "lat": 43.48061,
+    "lng": 3.435474,
+    "transactions": [
+      {
+        "date": "2023-03-13",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-13",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-13",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "41a8ab394a3a": {
+    "id": "41a8ab394a3a",
+    "label": "9209 ARNET, Pézenas",
+    "lat": 43.481907,
+    "lng": 3.430834,
+    "transactions": [
+      {
+        "date": "2025-01-28",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 207,
+        "isVefa": false
+      }
+    ]
+  },
+  "801fd7920a31": {
+    "id": "801fd7920a31",
+    "label": "9208 ARNET, Pézenas",
+    "lat": 43.481711,
+    "lng": 3.430851,
+    "transactions": [
+      {
+        "date": "2025-01-28",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd4498a4e38c": {
+    "id": "bd4498a4e38c",
+    "label": "9002 ARNET, Pézenas",
+    "lat": 43.480444,
+    "lng": 3.434723,
+    "transactions": [
+      {
+        "date": "2025-03-26",
+        "priceEur": 357950,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-26",
+        "priceEur": 357950,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  }
+}

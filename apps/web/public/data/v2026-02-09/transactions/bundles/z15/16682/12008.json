@@ -1,0 +1,69 @@
+{
+  "b9fd81a37466": {
+    "id": "b9fd81a37466",
+    "label": "28 RUE PIERRE DE RICULPHE, Valras-Plage",
+    "lat": 43.253738,
+    "lng": 3.284423,
+    "transactions": [
+      {
+        "date": "2021-09-17",
+        "priceEur": 241000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "e7e16104389e": {
+    "id": "e7e16104389e",
+    "label": "24 RUE PIERRE DE RICULPHE, Valras-Plage",
+    "lat": 43.253894,
+    "lng": 3.284783,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 318070,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac89baaf6398": {
+    "id": "ac89baaf6398",
+    "label": "26 RUE PIERRE DE RICULPHE, Valras-Plage",
+    "lat": 43.253798,
+    "lng": 3.284578,
+    "transactions": [
+      {
+        "date": "2023-03-22",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "433a3f0878ee": {
+    "id": "433a3f0878ee",
+    "label": "390 CHE DE LA GALINE, Sérignan",
+    "lat": 43.254219,
+    "lng": 3.281268,
+    "transactions": [
+      {
+        "date": "2023-06-14",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 24,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-14",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  }
+}

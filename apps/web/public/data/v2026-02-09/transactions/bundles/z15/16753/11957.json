@@ -1,0 +1,761 @@
+{
+  "f0485bad91f0": {
+    "id": "f0485bad91f0",
+    "label": "18 RUE GEORGES BRASSENS, Valergues",
+    "lat": 43.66634,
+    "lng": 4.056039,
+    "transactions": [
+      {
+        "date": "2020-07-27",
+        "priceEur": 97500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "a505e832830b": {
+    "id": "a505e832830b",
+    "label": "125 CHE DES LOGNES, Valergues",
+    "lat": 43.66676,
+    "lng": 4.056978,
+    "transactions": [
+      {
+        "date": "2020-07-23",
+        "priceEur": 481000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-23",
+        "priceEur": 481000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "48e4120bb5c5": {
+    "id": "48e4120bb5c5",
+    "label": "24 RUE DE LA MAIRIE, Valergues",
+    "lat": 43.66753,
+    "lng": 4.061707,
+    "transactions": [
+      {
+        "date": "2020-08-20",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "d07050715030": {
+    "id": "d07050715030",
+    "label": "125 CHE DE SAINTE AUBINE, Valergues",
+    "lat": 43.664517,
+    "lng": 4.057811,
+    "transactions": [
+      {
+        "date": "2020-09-17",
+        "priceEur": 356478,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "40c0b23dcddd": {
+    "id": "40c0b23dcddd",
+    "label": "20 IMP VIRGEN DE LA MACARENA, Valergues",
+    "lat": 43.667031,
+    "lng": 4.062,
+    "transactions": [
+      {
+        "date": "2020-11-24",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d55fbd2bcce": {
+    "id": "8d55fbd2bcce",
+    "label": "13 RUE GEORGES BRASSENS, Valergues",
+    "lat": 43.666172,
+    "lng": 4.055558,
+    "transactions": [
+      {
+        "date": "2020-11-12",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "586699e58f25": {
+    "id": "586699e58f25",
+    "label": "11 RUE JOSEPH DELTEIL, Valergues",
+    "lat": 43.666115,
+    "lng": 4.057212,
+    "transactions": [
+      {
+        "date": "2020-12-01",
+        "priceEur": 363740,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "496f7067aa03": {
+    "id": "496f7067aa03",
+    "label": "60 AV FREDERIC MISTRAL, Valergues",
+    "lat": 43.667752,
+    "lng": 4.062906,
+    "transactions": [
+      {
+        "date": "2023-01-13",
+        "priceEur": 795000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-22",
+        "priceEur": 482720,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "28635feb6437": {
+    "id": "28635feb6437",
+    "label": "280 RUE DES FRERES LUMIERE, Valergues",
+    "lat": 43.667724,
+    "lng": 4.056855,
+    "transactions": [
+      {
+        "date": "2021-01-22",
+        "priceEur": 336000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee9abcbd5fd9": {
+    "id": "ee9abcbd5fd9",
+    "label": "78 RUE DES ENCIERROS, Valergues",
+    "lat": 43.667782,
+    "lng": 4.060789,
+    "transactions": [
+      {
+        "date": "2021-02-18",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "24f828e2967f": {
+    "id": "24f828e2967f",
+    "label": "56 RUE DE LA MAIRIE, Valergues",
+    "lat": 43.667476,
+    "lng": 4.061269,
+    "transactions": [
+      {
+        "date": "2021-02-22",
+        "priceEur": 296500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "ebc6129756f2": {
+    "id": "ebc6129756f2",
+    "label": "80B CHE DES LOGNES, Valergues",
+    "lat": 43.666155,
+    "lng": 4.056725,
+    "transactions": [
+      {
+        "date": "2021-03-22",
+        "priceEur": 286800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "836b8885ea85": {
+    "id": "836b8885ea85",
+    "label": "73 RUE DE LA MAIRIE, Valergues",
+    "lat": 43.667256,
+    "lng": 4.061147,
+    "transactions": [
+      {
+        "date": "2021-06-01",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e557de87213": {
+    "id": "1e557de87213",
+    "label": "16 RUE DE LA MAIRIE, Valergues",
+    "lat": 43.667586,
+    "lng": 4.061776,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 152400,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "36afa17df621": {
+    "id": "36afa17df621",
+    "label": "17 IMP CANTONAT, Valergues",
+    "lat": 43.667788,
+    "lng": 4.061797,
+    "transactions": [
+      {
+        "date": "2021-07-19",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "564ce7256c82": {
+    "id": "564ce7256c82",
+    "label": "80A CHE DES LOGNES, Valergues",
+    "lat": 43.666155,
+    "lng": 4.056725,
+    "transactions": [
+      {
+        "date": "2021-08-25",
+        "priceEur": 245000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "de579c34fc48": {
+    "id": "de579c34fc48",
+    "label": "116 RUE DE LA CHAPELLE, Valergues",
+    "lat": 43.666032,
+    "lng": 4.063017,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 422700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "2fba2c0f398b": {
+    "id": "2fba2c0f398b",
+    "label": "124 RUE DE LA CHAPELLE, Valergues",
+    "lat": 43.665958,
+    "lng": 4.063048,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 422700,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "234f7c81d974": {
+    "id": "234f7c81d974",
+    "label": "75 AV FREDERIC MISTRAL, Valergues",
+    "lat": 43.667183,
+    "lng": 4.063422,
+    "transactions": [
+      {
+        "date": "2022-08-19",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-05",
+        "priceEur": 456000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "41b030d6546e": {
+    "id": "41b030d6546e",
+    "label": "14 RUE ALBERT CAMUS, Valergues",
+    "lat": 43.6666,
+    "lng": 4.058639,
+    "transactions": [
+      {
+        "date": "2021-11-15",
+        "priceEur": 477600,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-15",
+        "priceEur": 477600,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "5da4b661415d": {
+    "id": "5da4b661415d",
+    "label": "25 IMP DU LAVOIR, Valergues",
+    "lat": 43.665502,
+    "lng": 4.061248,
+    "transactions": [
+      {
+        "date": "2021-11-26",
+        "priceEur": 468550,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "a879b4277e45": {
+    "id": "a879b4277e45",
+    "label": "70 RUE SAINTE AGATHE, Valergues",
+    "lat": 43.666981,
+    "lng": 4.061635,
+    "transactions": [
+      {
+        "date": "2023-05-04",
+        "priceEur": 155490,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-10",
+        "priceEur": 143350,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "57aadc117444": {
+    "id": "57aadc117444",
+    "label": "5649F CHE DE BOUISSET, Valergues",
+    "lat": 43.661783,
+    "lng": 4.06483,
+    "transactions": [
+      {
+        "date": "2022-01-04",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-04",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "96a873556438": {
+    "id": "96a873556438",
+    "label": "7 GR GRAND RUE, Valergues",
+    "lat": 43.667625,
+    "lng": 4.061938,
+    "transactions": [
+      {
+        "date": "2022-02-10",
+        "priceEur": 225400,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "23ceab7ae6de": {
+    "id": "23ceab7ae6de",
+    "label": "100 CHE DU BOURGIDOU, Valergues",
+    "lat": 43.664629,
+    "lng": 4.060313,
+    "transactions": [
+      {
+        "date": "2022-03-01",
+        "priceEur": 593000,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-01",
+        "priceEur": 593000,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa1115de1f45": {
+    "id": "aa1115de1f45",
+    "label": "60B PL DE L HORLOGE, Valergues",
+    "lat": 43.667459,
+    "lng": 4.062419,
+    "transactions": [
+      {
+        "date": "2022-04-13",
+        "priceEur": 230000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "d1900e46d551": {
+    "id": "d1900e46d551",
+    "label": "30 RUE SAINTE AGATHE, Valergues",
+    "lat": 43.667001,
+    "lng": 4.061714,
+    "transactions": [
+      {
+        "date": "2022-05-19",
+        "priceEur": 295150,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f634c82ad79": {
+    "id": "2f634c82ad79",
+    "label": "140 CHE DE SAINTE AUBINE, Valergues",
+    "lat": 43.664119,
+    "lng": 4.058194,
+    "transactions": [
+      {
+        "date": "2022-09-15",
+        "priceEur": 409780,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6bba2f83270": {
+    "id": "f6bba2f83270",
+    "label": "17 RUE GEORGES BRASSENS, Valergues",
+    "lat": 43.666501,
+    "lng": 4.055951,
+    "transactions": [
+      {
+        "date": "2022-09-15",
+        "priceEur": 388000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "b79e15ef2e5f": {
+    "id": "b79e15ef2e5f",
+    "label": "200 CHE DU BOURGIDOU, Valergues",
+    "lat": 43.663125,
+    "lng": 4.060395,
+    "transactions": [
+      {
+        "date": "2022-11-17",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "b68d6b0258ec": {
+    "id": "b68d6b0258ec",
+    "label": "75 AV DU STADE, Valergues",
+    "lat": 43.665968,
+    "lng": 4.060688,
+    "transactions": [
+      {
+        "date": "2023-03-15",
+        "priceEur": 445000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "2434cb7673cd": {
+    "id": "2434cb7673cd",
+    "label": "92 RUE SAINTE AGATHE, Valergues",
+    "lat": 43.666771,
+    "lng": 4.061499,
+    "transactions": [
+      {
+        "date": "2023-06-08",
+        "priceEur": 260330,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d70bba4e9cf": {
+    "id": "5d70bba4e9cf",
+    "label": "167 AV FREDERIC MISTRAL, Valergues",
+    "lat": 43.666838,
+    "lng": 4.062138,
+    "transactions": [
+      {
+        "date": "2024-01-16",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-13",
+        "priceEur": 157800,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd7569834572": {
+    "id": "dd7569834572",
+    "label": "1 RUE ALBERT CAMUS, Valergues",
+    "lat": 43.666781,
+    "lng": 4.059134,
+    "transactions": [
+      {
+        "date": "2023-09-22",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-22",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "06053aaccd1b": {
+    "id": "06053aaccd1b",
+    "label": "335 RUE DU MILLENAIRE, Valergues",
+    "lat": 43.666956,
+    "lng": 4.064755,
+    "transactions": [
+      {
+        "date": "2023-09-27",
+        "priceEur": 375050,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "204779e06a0d": {
+    "id": "204779e06a0d",
+    "label": "45 RUE JOSEPH DELTEIL, Valergues",
+    "lat": 43.666364,
+    "lng": 4.057344,
+    "transactions": [
+      {
+        "date": "2023-12-28",
+        "priceEur": 54320,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "dc9e0ee56d01": {
+    "id": "dc9e0ee56d01",
+    "label": "280 LA GRAND TERRE, Valergues",
+    "lat": 43.665427,
+    "lng": 4.057383,
+    "transactions": [
+      {
+        "date": "2023-12-21",
+        "priceEur": 499000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ccc660a5406": {
+    "id": "0ccc660a5406",
+    "label": "3 RUE D OCCITANIE, Valergues",
+    "lat": 43.664063,
+    "lng": 4.06096,
+    "transactions": [
+      {
+        "date": "2024-01-30",
+        "priceEur": 494400,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "e251487c6d1c": {
+    "id": "e251487c6d1c",
+    "label": "3 GR GRAND RUE, Valergues",
+    "lat": 43.667675,
+    "lng": 4.062089,
+    "transactions": [
+      {
+        "date": "2024-05-29",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f3ae6b0cb10": {
+    "id": "7f3ae6b0cb10",
+    "label": "160 RUE LA GRANDE TERRE, Valergues",
+    "lat": 43.665736,
+    "lng": 4.058871,
+    "transactions": [
+      {
+        "date": "2024-06-21",
+        "priceEur": 658370,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "edd2adb2156b": {
+    "id": "edd2adb2156b",
+    "label": "308 CHE DE SAINTE AUBINE, Valergues",
+    "lat": 43.663414,
+    "lng": 4.059844,
+    "transactions": [
+      {
+        "date": "2024-08-07",
+        "priceEur": 460000,
+        "typeLocal": "Maison",
+        "surfaceM2": 164,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-07",
+        "priceEur": 460000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-07",
+        "priceEur": 460000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c43591c3937": {
+    "id": "2c43591c3937",
+    "label": "122 RUE DES CARRIERES, Valergues",
+    "lat": 43.667411,
+    "lng": 4.05964,
+    "transactions": [
+      {
+        "date": "2025-02-10",
+        "priceEur": 552250,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-10",
+        "priceEur": 552250,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "4fd22045b4a4": {
+    "id": "4fd22045b4a4",
+    "label": "35 RUE JOSEPH DELTEIL, Valergues",
+    "lat": 43.666648,
+    "lng": 4.057305,
+    "transactions": [
+      {
+        "date": "2025-03-19",
+        "priceEur": 434000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "bab5e92f33f1": {
+    "id": "bab5e92f33f1",
+    "label": "170 ALL CLAUDE MARAIS, Valergues",
+    "lat": 43.667334,
+    "lng": 4.062923,
+    "transactions": [
+      {
+        "date": "2025-05-21",
+        "priceEur": 390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b15f05d469c": {
+    "id": "9b15f05d469c",
+    "label": "105 RUE DE LA MAIRIE, Valergues",
+    "lat": 43.667408,
+    "lng": 4.060692,
+    "transactions": [
+      {
+        "date": "2025-06-03",
+        "priceEur": 285160,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

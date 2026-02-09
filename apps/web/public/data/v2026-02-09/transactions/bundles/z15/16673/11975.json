@@ -1,0 +1,32 @@
+{
+  "7abd05ff593c": {
+    "id": "7abd05ff593c",
+    "label": "1249F RTE DE LENTHERIC, Laurens",
+    "lat": 43.52111,
+    "lng": 3.185911,
+    "transactions": [
+      {
+        "date": "2022-08-08",
+        "priceEur": 218500,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b3b7d5447e3": {
+    "id": "5b3b7d5447e3",
+    "label": "1230F GOURNAUTUC, Laurens",
+    "lat": 43.52143,
+    "lng": 3.184593,
+    "transactions": [
+      {
+        "date": "2024-06-07",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

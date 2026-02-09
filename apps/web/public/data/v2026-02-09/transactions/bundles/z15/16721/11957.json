@@ -1,0 +1,135 @@
+{
+  "092d91e1b528": {
+    "id": "092d91e1b528",
+    "label": "90 IMP DE LA JONCASSE, Vailhauquès",
+    "lat": 43.664504,
+    "lng": 3.710173,
+    "transactions": [
+      {
+        "date": "2020-09-11",
+        "priceEur": 390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-11",
+        "priceEur": 390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "6f161ce60801": {
+    "id": "6f161ce60801",
+    "label": "11 PLAN DE LA COSTE, Vailhauquès",
+    "lat": 43.666291,
+    "lng": 3.711978,
+    "transactions": [
+      {
+        "date": "2021-07-23",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-23",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae7d83a0565c": {
+    "id": "ae7d83a0565c",
+    "label": "115 IMP DE LA JONCASSE, Vailhauquès",
+    "lat": 43.66415,
+    "lng": 3.710214,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f9eacfbb35b": {
+    "id": "7f9eacfbb35b",
+    "label": "9 PLAN DE LA COSTE, Vailhauquès",
+    "lat": 43.666313,
+    "lng": 3.711833,
+    "transactions": [
+      {
+        "date": "2021-11-12",
+        "priceEur": 187000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9247323e8e6": {
+    "id": "a9247323e8e6",
+    "label": "3 IMP DE LA SOURCE, Vailhauquès",
+    "lat": 43.665053,
+    "lng": 3.710861,
+    "transactions": [
+      {
+        "date": "2022-11-02",
+        "priceEur": 534620,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-02",
+        "priceEur": 534620,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "b8ad1b823929": {
+    "id": "b8ad1b823929",
+    "label": "15 PLAN DE LA COSTE, Vailhauquès",
+    "lat": 43.666178,
+    "lng": 3.712013,
+    "transactions": [
+      {
+        "date": "2023-10-31",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-31",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "121c3c4f9914": {
+    "id": "121c3c4f9914",
+    "label": "118 CHE DE LA FONTAINE, Vailhauquès",
+    "lat": 43.665613,
+    "lng": 3.711693,
+    "transactions": [
+      {
+        "date": "2025-02-20",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

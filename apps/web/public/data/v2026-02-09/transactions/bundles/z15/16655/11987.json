@@ -1,0 +1,120 @@
+{
+  "50f8db08c536": {
+    "id": "50f8db08c536",
+    "label": "5155 LA GARDE, Pierrerue",
+    "lat": 43.426679,
+    "lng": 2.979625,
+    "transactions": [
+      {
+        "date": "2020-08-19",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-19",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4d2aab64b62": {
+    "id": "f4d2aab64b62",
+    "label": "16 RUE DES FLEURS, Pierrerue",
+    "lat": 43.42719,
+    "lng": 2.97851,
+    "transactions": [
+      {
+        "date": "2022-08-24",
+        "priceEur": 100020,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "59cf3113d86f": {
+    "id": "59cf3113d86f",
+    "label": "5026F COMBE BOUSQUET, Pierrerue",
+    "lat": 43.42527,
+    "lng": 2.977934,
+    "transactions": [
+      {
+        "date": "2022-09-23",
+        "priceEur": 582500,
+        "typeLocal": "Maison",
+        "surfaceM2": 183,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-23",
+        "priceEur": 582500,
+        "typeLocal": "Maison",
+        "surfaceM2": 183,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-23",
+        "priceEur": 582500,
+        "typeLocal": "Maison",
+        "surfaceM2": 183,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-23",
+        "priceEur": 582500,
+        "typeLocal": "Maison",
+        "surfaceM2": 183,
+        "isVefa": false
+      }
+    ]
+  },
+  "00cb976efad1": {
+    "id": "00cb976efad1",
+    "label": "5179F RUE DE LA FONTAINE, Pierrerue",
+    "lat": 43.427721,
+    "lng": 2.977303,
+    "transactions": [
+      {
+        "date": "2022-10-06",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5eda768f68e": {
+    "id": "d5eda768f68e",
+    "label": "17 RUE DES FLEURS, Pierrerue",
+    "lat": 43.427185,
+    "lng": 2.97886,
+    "transactions": [
+      {
+        "date": "2023-08-03",
+        "priceEur": 196000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "0df8c635a963": {
+    "id": "0df8c635a963",
+    "label": "5194 LA GARDE, Pierrerue",
+    "lat": 43.42721,
+    "lng": 2.979185,
+    "transactions": [
+      {
+        "date": "2025-02-27",
+        "priceEur": 303150,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

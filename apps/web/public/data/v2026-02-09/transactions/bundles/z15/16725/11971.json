@@ -1,0 +1,53 @@
+{
+  "acc3ec306b0a": {
+    "id": "acc3ec306b0a",
+    "label": "5808 PISSE SAUMES, Cournonterral",
+    "lat": 43.554076,
+    "lng": 3.755356,
+    "transactions": [
+      {
+        "date": "2021-07-19",
+        "priceEur": 466955,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-19",
+        "priceEur": 466955,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-19",
+        "priceEur": 466955,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f6280cf50e5": {
+    "id": "3f6280cf50e5",
+    "label": "9999 LES MOUILLERES, Cournonterral",
+    "lat": 43.555431,
+    "lng": 3.74781,
+    "transactions": [
+      {
+        "date": "2022-04-30",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-30",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

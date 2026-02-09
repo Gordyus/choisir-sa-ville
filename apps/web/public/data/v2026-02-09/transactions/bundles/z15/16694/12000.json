@@ -1,0 +1,39 @@
+{
+  "952ae764b69c": {
+    "id": "952ae764b69c",
+    "label": "6746 DOM DU MOULIN A VENT, Vias",
+    "lat": 43.317725,
+    "lng": 3.413821,
+    "transactions": [
+      {
+        "date": "2021-09-03",
+        "priceEur": 585000,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-03",
+        "priceEur": 585000,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  },
+  "9387c54330f4": {
+    "id": "9387c54330f4",
+    "label": "250 RUE JOSEPHINE BAKER, Vias",
+    "lat": 43.318148,
+    "lng": 3.416593,
+    "transactions": [
+      {
+        "date": "2025-02-13",
+        "priceEur": 384000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

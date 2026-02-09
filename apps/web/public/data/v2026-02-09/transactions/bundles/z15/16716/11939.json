@@ -1,0 +1,106 @@
+{
+  "d8acee46e662": {
+    "id": "d8acee46e662",
+    "label": "5606F RTE DU BARRAGE, Causse-de-la-Selle",
+    "lat": 43.80293,
+    "lng": 3.653138,
+    "transactions": [
+      {
+        "date": "2021-03-16",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-16",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-16",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ab7c9d1ccfe": {
+    "id": "6ab7c9d1ccfe",
+    "label": "5012 LE VILLAGE, Causse-de-la-Selle",
+    "lat": 43.804298,
+    "lng": 3.649086,
+    "transactions": [
+      {
+        "date": "2021-09-24",
+        "priceEur": 207500,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "cbc7d71d9e7e": {
+    "id": "cbc7d71d9e7e",
+    "label": "5011 RUE GRANDRUE, Causse-de-la-Selle",
+    "lat": 43.804268,
+    "lng": 3.648938,
+    "transactions": [
+      {
+        "date": "2022-01-20",
+        "priceEur": 114000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "b56a628b56ec": {
+    "id": "b56a628b56ec",
+    "label": "4 RUE DES CLAPAREDES, Causse-de-la-Selle",
+    "lat": 43.803659,
+    "lng": 3.649738,
+    "transactions": [
+      {
+        "date": "2023-02-27",
+        "priceEur": 165210,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "52c0bc42801d": {
+    "id": "52c0bc42801d",
+    "label": "5034 LE VILLAGE, Causse-de-la-Selle",
+    "lat": 43.803798,
+    "lng": 3.649532,
+    "transactions": [
+      {
+        "date": "2023-03-13",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "030ab2176f7f": {
+    "id": "030ab2176f7f",
+    "label": "8 RUE DU MOULIN A HUILE, Causse-de-la-Selle",
+    "lat": 43.803659,
+    "lng": 3.649738,
+    "transactions": [
+      {
+        "date": "2024-11-12",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  }
+}

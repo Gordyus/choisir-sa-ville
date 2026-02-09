@@ -1,0 +1,98 @@
+{
+  "764514503af7": {
+    "id": "764514503af7",
+    "label": "6018 MAS DE QUATRE, Saint-André-de-Sangonis",
+    "lat": 43.649799,
+    "lng": 3.484816,
+    "transactions": [
+      {
+        "date": "2020-10-13",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-13",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "b2242d3f658f": {
+    "id": "b2242d3f658f",
+    "label": "10 RUE DES OLIVIERS, Saint-André-de-Sangonis",
+    "lat": 43.648622,
+    "lng": 3.493362,
+    "transactions": [
+      {
+        "date": "2022-08-04",
+        "priceEur": 294500,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "6c330577c4f6": {
+    "id": "6c330577c4f6",
+    "label": "14B RUE DES OLIVIERS, Saint-André-de-Sangonis",
+    "lat": 43.648383,
+    "lng": 3.493026,
+    "transactions": [
+      {
+        "date": "2022-08-11",
+        "priceEur": 314770,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "35f20612b938": {
+    "id": "35f20612b938",
+    "label": "6369F MAS DE QUATRE, Saint-André-de-Sangonis",
+    "lat": 43.648697,
+    "lng": 3.486333,
+    "transactions": [
+      {
+        "date": "2023-10-02",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-02",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "f11003b9c77e": {
+    "id": "f11003b9c77e",
+    "label": "5988 LE DAUSSO, Saint-André-de-Sangonis",
+    "lat": 43.646211,
+    "lng": 3.487349,
+    "transactions": [
+      {
+        "date": "2024-08-27",
+        "priceEur": 488000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-27",
+        "priceEur": 488000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  }
+}

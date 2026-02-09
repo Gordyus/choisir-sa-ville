@@ -1,0 +1,46 @@
+{
+  "6fe8aaa5fce2": {
+    "id": "6fe8aaa5fce2",
+    "label": "5258 LA BRUYERE, Fabrègues",
+    "lat": 43.529005,
+    "lng": 3.739051,
+    "transactions": [
+      {
+        "date": "2020-12-15",
+        "priceEur": 483940,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-15",
+        "priceEur": 483940,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ba0e01032d5": {
+    "id": "3ba0e01032d5",
+    "label": "924F LA BARTHE, Cournonterral",
+    "lat": 43.532418,
+    "lng": 3.737404,
+    "transactions": [
+      {
+        "date": "2022-10-10",
+        "priceEur": 568600,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-10",
+        "priceEur": 568600,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  }
+}

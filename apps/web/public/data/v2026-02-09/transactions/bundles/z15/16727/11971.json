@@ -1,0 +1,2567 @@
+{
+  "7804aca29c06": {
+    "id": "7804aca29c06",
+    "label": "2 RUE DES GARDIANS, Fabrègues",
+    "lat": 43.548957,
+    "lng": 3.774704,
+    "transactions": [
+      {
+        "date": "2020-07-09",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 167,
+        "isVefa": false
+      }
+    ]
+  },
+  "59f996348d58": {
+    "id": "59f996348d58",
+    "label": "37 RUE DU FABREGOU, Fabrègues",
+    "lat": 43.556395,
+    "lng": 3.778742,
+    "transactions": [
+      {
+        "date": "2020-08-06",
+        "priceEur": 416850,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "796d6d3ff42a": {
+    "id": "796d6d3ff42a",
+    "label": "1 RUE DES REMPARTS, Fabrègues",
+    "lat": 43.55085,
+    "lng": 3.776718,
+    "transactions": [
+      {
+        "date": "2023-02-17",
+        "priceEur": 140400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-14",
+        "priceEur": 129000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-03",
+        "priceEur": 77500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-21",
+        "priceEur": 124900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "e68c05ec5ac7": {
+    "id": "e68c05ec5ac7",
+    "label": "1440F RUE DES JARDINIERS, Fabrègues",
+    "lat": 43.555948,
+    "lng": 3.778601,
+    "transactions": [
+      {
+        "date": "2020-09-17",
+        "priceEur": 455000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "86f32203c394": {
+    "id": "86f32203c394",
+    "label": "19 RUE PAUL DOUMER, Fabrègues",
+    "lat": 43.549491,
+    "lng": 3.778332,
+    "transactions": [
+      {
+        "date": "2024-10-10",
+        "priceEur": 211460,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-21",
+        "priceEur": 174310,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "66a6243d8df1": {
+    "id": "66a6243d8df1",
+    "label": "46 RUE PAUL DOUMER, Fabrègues",
+    "lat": 43.550909,
+    "lng": 3.7767,
+    "transactions": [
+      {
+        "date": "2020-10-09",
+        "priceEur": 126000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "44b661e8d936": {
+    "id": "44b661e8d936",
+    "label": "8 RUE DES REMPARTS, Fabrègues",
+    "lat": 43.550988,
+    "lng": 3.777288,
+    "transactions": [
+      {
+        "date": "2020-10-29",
+        "priceEur": 227728,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "afd4e8b1683a": {
+    "id": "afd4e8b1683a",
+    "label": "2 CHE VIEUX, Fabrègues",
+    "lat": 43.552353,
+    "lng": 3.778879,
+    "transactions": [
+      {
+        "date": "2020-10-29",
+        "priceEur": 1370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 295,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-29",
+        "priceEur": 1370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 295,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8f7322fa98e": {
+    "id": "f8f7322fa98e",
+    "label": "14 LOT LES TERRES BLANCHES, Fabrègues",
+    "lat": 43.550148,
+    "lng": 3.768949,
+    "transactions": [
+      {
+        "date": "2020-10-23",
+        "priceEur": 332000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "57b727df4ed7": {
+    "id": "57b727df4ed7",
+    "label": "3 AV GEORGES CLEMENCEAU, Fabrègues",
+    "lat": 43.548781,
+    "lng": 3.778755,
+    "transactions": [
+      {
+        "date": "2020-11-02",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "d1ad7eaf4752": {
+    "id": "d1ad7eaf4752",
+    "label": "15 LOT LES TERRES BLANCHES, Fabrègues",
+    "lat": 43.550152,
+    "lng": 3.768448,
+    "transactions": [
+      {
+        "date": "2020-10-20",
+        "priceEur": 374000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "898f7ccdc5e6": {
+    "id": "898f7ccdc5e6",
+    "label": "5269 RUE PAUL BERT, Fabrègues",
+    "lat": 43.55131,
+    "lng": 3.776356,
+    "transactions": [
+      {
+        "date": "2020-11-20",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "a52e668a867c": {
+    "id": "a52e668a867c",
+    "label": "9 PL JEAN GAILLAC, Fabrègues",
+    "lat": 43.551488,
+    "lng": 3.776596,
+    "transactions": [
+      {
+        "date": "2023-03-27",
+        "priceEur": 222400,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-27",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "73bf414bb24a": {
+    "id": "73bf414bb24a",
+    "label": "77B RUE SAINT BAUDILE, Fabrègues",
+    "lat": 43.556019,
+    "lng": 3.772436,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 500192,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-10",
+        "priceEur": 372000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "d4a1bef006d5": {
+    "id": "d4a1bef006d5",
+    "label": "1A AV GEORGES CLEMENCEAU, Fabrègues",
+    "lat": 43.548639,
+    "lng": 3.778907,
+    "transactions": [
+      {
+        "date": "2020-12-15",
+        "priceEur": 457750,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "4587fe22b763": {
+    "id": "4587fe22b763",
+    "label": "10 RUE NEUVE DES HORTS, Fabrègues",
+    "lat": 43.551226,
+    "lng": 3.774701,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 386650,
+        "typeLocal": "Maison",
+        "surfaceM2": 226,
+        "isVefa": false
+      }
+    ]
+  },
+  "e180f2b281ee": {
+    "id": "e180f2b281ee",
+    "label": "5318 RUE BARTHOU, Fabrègues",
+    "lat": 43.55138,
+    "lng": 3.775143,
+    "transactions": [
+      {
+        "date": "2020-12-28",
+        "priceEur": 252000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-28",
+        "priceEur": 252000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "6f23d709e5fe": {
+    "id": "6f23d709e5fe",
+    "label": "5103 RUE GUYNEMER, Fabrègues",
+    "lat": 43.552219,
+    "lng": 3.77575,
+    "transactions": [
+      {
+        "date": "2021-01-06",
+        "priceEur": 191000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1d40a9f4e16": {
+    "id": "e1d40a9f4e16",
+    "label": "3T RUE SERANE, Fabrègues",
+    "lat": 43.552079,
+    "lng": 3.777489,
+    "transactions": [
+      {
+        "date": "2021-01-04",
+        "priceEur": 191370,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "9437f8503ef1": {
+    "id": "9437f8503ef1",
+    "label": "3 RUE PAUL BERT, Fabrègues",
+    "lat": 43.551261,
+    "lng": 3.776381,
+    "transactions": [
+      {
+        "date": "2021-01-08",
+        "priceEur": 154080,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c475d6ab84d": {
+    "id": "8c475d6ab84d",
+    "label": "18 RUE MARCELLIN ALBERT, Fabrègues",
+    "lat": 43.551474,
+    "lng": 3.777138,
+    "transactions": [
+      {
+        "date": "2021-01-07",
+        "priceEur": 57790,
+        "typeLocal": "Maison",
+        "surfaceM2": 16,
+        "isVefa": false
+      }
+    ]
+  },
+  "23c3c80258dc": {
+    "id": "23c3c80258dc",
+    "label": "408 RUE SAINT BAUDILE, Fabrègues",
+    "lat": 43.555051,
+    "lng": 3.771417,
+    "transactions": [
+      {
+        "date": "2021-02-08",
+        "priceEur": 338000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "b200ca4c8dfc": {
+    "id": "b200ca4c8dfc",
+    "label": "39 RUE DU BASTET, Fabrègues",
+    "lat": 43.553322,
+    "lng": 3.768767,
+    "transactions": [
+      {
+        "date": "2021-02-11",
+        "priceEur": 381000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "881c5ec7a996": {
+    "id": "881c5ec7a996",
+    "label": "3 AV DE LA GARE, Fabrègues",
+    "lat": 43.554707,
+    "lng": 3.776506,
+    "transactions": [
+      {
+        "date": "2021-02-15",
+        "priceEur": 671260,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-15",
+        "priceEur": 671260,
+        "typeLocal": "Maison",
+        "surfaceM2": 176,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-15",
+        "priceEur": 671260,
+        "typeLocal": "Appartement",
+        "surfaceM2": 23,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-15",
+        "priceEur": 671260,
+        "typeLocal": "Appartement",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-15",
+        "priceEur": 671260,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "f20e708d5411": {
+    "id": "f20e708d5411",
+    "label": "7 RUE DU  MOULIN, Fabrègues",
+    "lat": 43.54855,
+    "lng": 3.772701,
+    "transactions": [
+      {
+        "date": "2021-02-26",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "eaeebb8764e1": {
+    "id": "eaeebb8764e1",
+    "label": "7 IMP DES BERGES, Fabrègues",
+    "lat": 43.554053,
+    "lng": 3.779095,
+    "transactions": [
+      {
+        "date": "2021-03-01",
+        "priceEur": 366050,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d9ec741e0f8": {
+    "id": "4d9ec741e0f8",
+    "label": "42 RUE PAUL DOUMER, Fabrègues",
+    "lat": 43.550744,
+    "lng": 3.777059,
+    "transactions": [
+      {
+        "date": "2021-04-02",
+        "priceEur": 400000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 37,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-02",
+        "priceEur": 400000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-02",
+        "priceEur": 400000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "63c2c54d325e": {
+    "id": "63c2c54d325e",
+    "label": "5375 RUE PAUL DOUMER, Fabrègues",
+    "lat": 43.550646,
+    "lng": 3.777318,
+    "transactions": [
+      {
+        "date": "2021-04-01",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "793551b842c0": {
+    "id": "793551b842c0",
+    "label": "4 RUE CARNOT, Fabrègues",
+    "lat": 43.552187,
+    "lng": 3.774557,
+    "transactions": [
+      {
+        "date": "2021-04-19",
+        "priceEur": 261385,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "1265ee1c3c70": {
+    "id": "1265ee1c3c70",
+    "label": "53B RUE PAUL DOUMER, Fabrègues",
+    "lat": 43.550601,
+    "lng": 3.776092,
+    "transactions": [
+      {
+        "date": "2021-04-02",
+        "priceEur": 272000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "f248b09325bd": {
+    "id": "f248b09325bd",
+    "label": "25 RUE FOCH, Fabrègues",
+    "lat": 43.552063,
+    "lng": 3.775023,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 320390,
+        "typeLocal": "Appartement",
+        "surfaceM2": 123,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-30",
+        "priceEur": 320390,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  },
+  "f964488a936d": {
+    "id": "f964488a936d",
+    "label": "24 RUE PAUL DOUMER, Fabrègues",
+    "lat": 43.550348,
+    "lng": 3.777762,
+    "transactions": [
+      {
+        "date": "2023-02-06",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 197,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-30",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 197,
+        "isVefa": false
+      }
+    ]
+  },
+  "29dc29db266d": {
+    "id": "29dc29db266d",
+    "label": "22 RUE NEUVE DES HORTS, Fabrègues",
+    "lat": 43.551764,
+    "lng": 3.773829,
+    "transactions": [
+      {
+        "date": "2021-05-17",
+        "priceEur": 180000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 27,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-17",
+        "priceEur": 180000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-17",
+        "priceEur": 180000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  },
+  "24d584e6f917": {
+    "id": "24d584e6f917",
+    "label": "5040 RUE DU MUSEE, Fabrègues",
+    "lat": 43.552325,
+    "lng": 3.774903,
+    "transactions": [
+      {
+        "date": "2021-05-21",
+        "priceEur": 86500,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "521d628c30ea": {
+    "id": "521d628c30ea",
+    "label": "6 LOT LA CAPOULLIERE, Fabrègues",
+    "lat": 43.548972,
+    "lng": 3.773025,
+    "transactions": [
+      {
+        "date": "2021-05-25",
+        "priceEur": 317500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1b76eea749b": {
+    "id": "e1b76eea749b",
+    "label": "2 RUE PAUL BERT, Fabrègues",
+    "lat": 43.551265,
+    "lng": 3.776673,
+    "transactions": [
+      {
+        "date": "2021-04-26",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "76f6e9ff8ed0": {
+    "id": "76f6e9ff8ed0",
+    "label": "169 RUE DU BASTET, Fabrègues",
+    "lat": 43.552799,
+    "lng": 3.769636,
+    "transactions": [
+      {
+        "date": "2021-06-11",
+        "priceEur": 536014,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "49d4b3088868": {
+    "id": "49d4b3088868",
+    "label": "5042 CHEMIN DE COURNON, Fabrègues",
+    "lat": 43.551911,
+    "lng": 3.772994,
+    "transactions": [
+      {
+        "date": "2021-06-14",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "570e5ff5e5d9": {
+    "id": "570e5ff5e5d9",
+    "label": "5446 RUE DES JARDINIERS, Fabrègues",
+    "lat": 43.556037,
+    "lng": 3.778389,
+    "transactions": [
+      {
+        "date": "2021-06-28",
+        "priceEur": 374000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "8811e09b7f35": {
+    "id": "8811e09b7f35",
+    "label": "4 RUE FOCH, Fabrègues",
+    "lat": 43.552183,
+    "lng": 3.775607,
+    "transactions": [
+      {
+        "date": "2021-06-22",
+        "priceEur": 385000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-22",
+        "priceEur": 385000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-22",
+        "priceEur": 385000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 29,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-22",
+        "priceEur": 385000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 24,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-22",
+        "priceEur": 385000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 29,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-22",
+        "priceEur": 385000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e9c9d9954a8": {
+    "id": "2e9c9d9954a8",
+    "label": "5209 RUE MARCELLIN ALBERT, Fabrègues",
+    "lat": 43.551144,
+    "lng": 3.776759,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 184000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "5ab690daa948": {
+    "id": "5ab690daa948",
+    "label": "5046 RUE DU MUSEE, Fabrègues",
+    "lat": 43.552503,
+    "lng": 3.77506,
+    "transactions": [
+      {
+        "date": "2023-05-31",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-21",
+        "priceEur": 106000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "dfa31cd8f977": {
+    "id": "dfa31cd8f977",
+    "label": "75 RUE SAINT BAUDILE, Fabrègues",
+    "lat": 43.556258,
+    "lng": 3.772538,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 574500,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "afc6a8ec00e8": {
+    "id": "afc6a8ec00e8",
+    "label": "5558 AV DE LA GARE, Fabrègues",
+    "lat": 43.55398,
+    "lng": 3.776342,
+    "transactions": [
+      {
+        "date": "2021-06-25",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-25",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "02b75289ef29": {
+    "id": "02b75289ef29",
+    "label": "187 AV DE COURNONTERRAL, Fabrègues",
+    "lat": 43.552403,
+    "lng": 3.771778,
+    "transactions": [
+      {
+        "date": "2021-07-02",
+        "priceEur": 474830,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "e4422043619b": {
+    "id": "e4422043619b",
+    "label": "24 AV DE LA GARE, Fabrègues",
+    "lat": 43.556317,
+    "lng": 3.776529,
+    "transactions": [
+      {
+        "date": "2021-07-15",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "54b25bd6545c": {
+    "id": "54b25bd6545c",
+    "label": "5187 RUE DES CONTREFORTS, Fabrègues",
+    "lat": 43.551421,
+    "lng": 3.778164,
+    "transactions": [
+      {
+        "date": "2021-06-28",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5f0b81ede81": {
+    "id": "f5f0b81ede81",
+    "label": "9999 CHE DU STADE, Fabrègues",
+    "lat": 43.556479,
+    "lng": 3.773649,
+    "transactions": [
+      {
+        "date": "2021-08-02",
+        "priceEur": 349000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ef39ce7b4a1": {
+    "id": "6ef39ce7b4a1",
+    "label": "20 AV PASTEUR, Fabrègues",
+    "lat": 43.550788,
+    "lng": 3.778961,
+    "transactions": [
+      {
+        "date": "2021-08-03",
+        "priceEur": 589756,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ff25489ccab": {
+    "id": "0ff25489ccab",
+    "label": "8 RUE RABELAIS, Fabrègues",
+    "lat": 43.550167,
+    "lng": 3.770467,
+    "transactions": [
+      {
+        "date": "2021-08-03",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ce25432d9c0": {
+    "id": "1ce25432d9c0",
+    "label": "2 PL JEAN ROUVIER, Fabrègues",
+    "lat": 43.551079,
+    "lng": 3.776342,
+    "transactions": [
+      {
+        "date": "2021-08-06",
+        "priceEur": 236260,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "540a9db8a432": {
+    "id": "540a9db8a432",
+    "label": "16 RUE LOU ROUSSEGOU, Fabrègues",
+    "lat": 43.552241,
+    "lng": 3.77001,
+    "transactions": [
+      {
+        "date": "2021-08-26",
+        "priceEur": 170000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "8781b2a4c512": {
+    "id": "8781b2a4c512",
+    "label": "5004 AV DE LA FONTASSE, Fabrègues",
+    "lat": 43.551286,
+    "lng": 3.773461,
+    "transactions": [
+      {
+        "date": "2023-07-17",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-20",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "955164769277": {
+    "id": "955164769277",
+    "label": "506 RUE DU PROF GRASSET, Fabrègues",
+    "lat": 43.551426,
+    "lng": 3.775974,
+    "transactions": [
+      {
+        "date": "2021-09-03",
+        "priceEur": 195100,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "985e175eed5f": {
+    "id": "985e175eed5f",
+    "label": "11 RUE DES CONTREFORTS, Fabrègues",
+    "lat": 43.551791,
+    "lng": 3.777892,
+    "transactions": [
+      {
+        "date": "2021-09-09",
+        "priceEur": 250630,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "4144e2723f74": {
+    "id": "4144e2723f74",
+    "label": "6 RUE LAMARTINE, Fabrègues",
+    "lat": 43.55272,
+    "lng": 3.776136,
+    "transactions": [
+      {
+        "date": "2021-09-13",
+        "priceEur": 243480,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "1836a1539486": {
+    "id": "1836a1539486",
+    "label": "140 CHEM DES LETAGNES, Fabrègues",
+    "lat": 43.548565,
+    "lng": 3.771436,
+    "transactions": [
+      {
+        "date": "2021-09-10",
+        "priceEur": 520000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "20a81c07fe0d": {
+    "id": "20a81c07fe0d",
+    "label": "5222 RUE MARCELLIN ALBERT, Fabrègues",
+    "lat": 43.551429,
+    "lng": 3.777122,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5162cc9ecd8": {
+    "id": "a5162cc9ecd8",
+    "label": "5021 RUE CARNOT, Fabrègues",
+    "lat": 43.551875,
+    "lng": 3.774381,
+    "transactions": [
+      {
+        "date": "2021-10-11",
+        "priceEur": 240460,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6c549f39244": {
+    "id": "e6c549f39244",
+    "label": "9 RUE DES CONTREFORTS, Fabrègues",
+    "lat": 43.551731,
+    "lng": 3.777869,
+    "transactions": [
+      {
+        "date": "2021-10-21",
+        "priceEur": 112620,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "a4fc5f0b414e": {
+    "id": "a4fc5f0b414e",
+    "label": "4 IMP DES ASPHODELES, Fabrègues",
+    "lat": 43.54919,
+    "lng": 3.771926,
+    "transactions": [
+      {
+        "date": "2021-10-21",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "aee470a3da00": {
+    "id": "aee470a3da00",
+    "label": "4 RUE DES CONTREFORTS, Fabrègues",
+    "lat": 43.551539,
+    "lng": 3.778018,
+    "transactions": [
+      {
+        "date": "2021-11-05",
+        "priceEur": 197780,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "0299628bead6": {
+    "id": "0299628bead6",
+    "label": "17 PUECH LONG, Fabrègues",
+    "lat": 43.549399,
+    "lng": 3.769745,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 473150,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f21c74f4ebe": {
+    "id": "8f21c74f4ebe",
+    "label": "84F RUE DU PROF GRASSET, Fabrègues",
+    "lat": 43.551309,
+    "lng": 3.77592,
+    "transactions": [
+      {
+        "date": "2021-11-19",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "e240d96165b3": {
+    "id": "e240d96165b3",
+    "label": "8 RUE DU PROF GRASSET, Fabrègues",
+    "lat": 43.551528,
+    "lng": 3.776298,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 330400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "85e486e4f35c": {
+    "id": "85e486e4f35c",
+    "label": "5944F RUE DU CALVAIRE, Fabrègues",
+    "lat": 43.549767,
+    "lng": 3.777774,
+    "transactions": [
+      {
+        "date": "2021-12-07",
+        "priceEur": 256870,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "b68e9bb34679": {
+    "id": "b68e9bb34679",
+    "label": "25 RUE PAUL DOUMER, Fabrègues",
+    "lat": 43.549648,
+    "lng": 3.778119,
+    "transactions": [
+      {
+        "date": "2021-12-20",
+        "priceEur": 229000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-20",
+        "priceEur": 229000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-20",
+        "priceEur": 229000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "6bf585caf64b": {
+    "id": "6bf585caf64b",
+    "label": "7133 RUE DES HORTS, Fabrègues",
+    "lat": 43.550244,
+    "lng": 3.775835,
+    "transactions": [
+      {
+        "date": "2022-01-17",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9bdfd7973fb": {
+    "id": "b9bdfd7973fb",
+    "label": "18 RUE NEUVE DES HORTS, Fabrègues",
+    "lat": 43.551502,
+    "lng": 3.774268,
+    "transactions": [
+      {
+        "date": "2022-02-11",
+        "priceEur": 276000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "09916d45ea7f": {
+    "id": "09916d45ea7f",
+    "label": "66 RUE FREDERIC MISTRAL, Fabrègues",
+    "lat": 43.549254,
+    "lng": 3.775063,
+    "transactions": [
+      {
+        "date": "2022-02-07",
+        "priceEur": 369000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa18371a0776": {
+    "id": "fa18371a0776",
+    "label": "410B AV DE COURNONTERRAL, Fabrègues",
+    "lat": 43.55379,
+    "lng": 3.76979,
+    "transactions": [
+      {
+        "date": "2022-02-17",
+        "priceEur": 336500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "080db887ebeb": {
+    "id": "080db887ebeb",
+    "label": "5 AV DE LA PAIX, Fabrègues",
+    "lat": 43.555216,
+    "lng": 3.777794,
+    "transactions": [
+      {
+        "date": "2022-02-17",
+        "priceEur": 492500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "3407820c1bf8": {
+    "id": "3407820c1bf8",
+    "label": "53 RUE PAUL DOUMER, Fabrègues",
+    "lat": 43.550469,
+    "lng": 3.776116,
+    "transactions": [
+      {
+        "date": "2022-03-23",
+        "priceEur": 354900,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "e04575b4c40d": {
+    "id": "e04575b4c40d",
+    "label": "33 RUE DES CIGALES, Fabrègues",
+    "lat": 43.548685,
+    "lng": 3.77659,
+    "transactions": [
+      {
+        "date": "2022-05-03",
+        "priceEur": 492800,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "78ae840be6e4": {
+    "id": "78ae840be6e4",
+    "label": "1 IMP MARCELLIN ALBERT, Fabrègues",
+    "lat": 43.551428,
+    "lng": 3.777188,
+    "transactions": [
+      {
+        "date": "2022-04-29",
+        "priceEur": 268150,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c39332da9b3": {
+    "id": "9c39332da9b3",
+    "label": "3 IMP DU PRESBYTERE, Fabrègues",
+    "lat": 43.551824,
+    "lng": 3.775765,
+    "transactions": [
+      {
+        "date": "2022-05-31",
+        "priceEur": 202150,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "966bbc750420": {
+    "id": "966bbc750420",
+    "label": "5273 RUE PAUL BERT, Fabrègues",
+    "lat": 43.551252,
+    "lng": 3.776501,
+    "transactions": [
+      {
+        "date": "2022-05-24",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6217bad8a00": {
+    "id": "e6217bad8a00",
+    "label": "1 RUE DES GARDIANS, Fabrègues",
+    "lat": 43.548715,
+    "lng": 3.775003,
+    "transactions": [
+      {
+        "date": "2022-06-07",
+        "priceEur": 396140,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "e608ab55ca91": {
+    "id": "e608ab55ca91",
+    "label": "4 PL JEAN ROUVIER, Fabrègues",
+    "lat": 43.551123,
+    "lng": 3.776324,
+    "transactions": [
+      {
+        "date": "2022-05-31",
+        "priceEur": 90000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "2317f95c27c8": {
+    "id": "2317f95c27c8",
+    "label": "1 RUE JOFFRE, Fabrègues",
+    "lat": 43.552556,
+    "lng": 3.774919,
+    "transactions": [
+      {
+        "date": "2022-05-31",
+        "priceEur": 283700,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "90b0521771a5": {
+    "id": "90b0521771a5",
+    "label": "3 RUE DU JEU DE BALLON, Fabrègues",
+    "lat": 43.551773,
+    "lng": 3.776956,
+    "transactions": [
+      {
+        "date": "2022-06-10",
+        "priceEur": 336160,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-10",
+        "priceEur": 336160,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "e93aaa3627aa": {
+    "id": "e93aaa3627aa",
+    "label": "5272 RUE PAUL BERT, Fabrègues",
+    "lat": 43.551224,
+    "lng": 3.776463,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b6554948879": {
+    "id": "8b6554948879",
+    "label": "10 RUE DES GRANGES, Fabrègues",
+    "lat": 43.551475,
+    "lng": 3.77184,
+    "transactions": [
+      {
+        "date": "2022-08-11",
+        "priceEur": 560100,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f590be9c1f5": {
+    "id": "4f590be9c1f5",
+    "label": "10 RUE DU JEU DE BALLON, Fabrègues",
+    "lat": 43.552064,
+    "lng": 3.777057,
+    "transactions": [
+      {
+        "date": "2022-07-25",
+        "priceEur": 124000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "6419b2ab78ee": {
+    "id": "6419b2ab78ee",
+    "label": "22 RUE PAUL DOUMER, Fabrègues",
+    "lat": 43.550317,
+    "lng": 3.777885,
+    "transactions": [
+      {
+        "date": "2022-08-05",
+        "priceEur": 400000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "4224340bb206": {
+    "id": "4224340bb206",
+    "label": "16 RUE PAUL BERT, Fabrègues",
+    "lat": 43.551576,
+    "lng": 3.776468,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "6948ad2e35ee": {
+    "id": "6948ad2e35ee",
+    "label": "3 RUE DU VATICAN, Fabrègues",
+    "lat": 43.552592,
+    "lng": 3.77316,
+    "transactions": [
+      {
+        "date": "2022-08-26",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-26",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "18c385ac7813": {
+    "id": "18c385ac7813",
+    "label": "5370 PUECH LONG, Fabrègues",
+    "lat": 43.548775,
+    "lng": 3.77014,
+    "transactions": [
+      {
+        "date": "2022-08-08",
+        "priceEur": 351000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e5388646f54": {
+    "id": "6e5388646f54",
+    "label": "5984 RUE BARTHOU, Fabrègues",
+    "lat": 43.551016,
+    "lng": 3.77548,
+    "transactions": [
+      {
+        "date": "2022-09-01",
+        "priceEur": 229265,
+        "typeLocal": "Appartement",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "21d85badc7e0": {
+    "id": "21d85badc7e0",
+    "label": "5576 LA PLANTADE, Fabrègues",
+    "lat": 43.556465,
+    "lng": 3.773904,
+    "transactions": [
+      {
+        "date": "2024-10-30",
+        "priceEur": 337965,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-02",
+        "priceEur": 303425,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d3298e4ffa8": {
+    "id": "1d3298e4ffa8",
+    "label": "2 CHEM DE LA CAPOULIERE, Fabrègues",
+    "lat": 43.548952,
+    "lng": 3.77254,
+    "transactions": [
+      {
+        "date": "2022-09-08",
+        "priceEur": 294000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "f91262a611dd": {
+    "id": "f91262a611dd",
+    "label": "280F RUE DU LAVOIR, Fabrègues",
+    "lat": 43.555432,
+    "lng": 3.773828,
+    "transactions": [
+      {
+        "date": "2022-09-21",
+        "priceEur": 736250,
+        "typeLocal": "Maison",
+        "surfaceM2": 182,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-21",
+        "priceEur": 736250,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-21",
+        "priceEur": 736250,
+        "typeLocal": "Maison",
+        "surfaceM2": 182,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-21",
+        "priceEur": 736250,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "b86b59be77dc": {
+    "id": "b86b59be77dc",
+    "label": "4 TRA MARCELLIN ALBERT, Fabrègues",
+    "lat": 43.551727,
+    "lng": 3.776841,
+    "transactions": [
+      {
+        "date": "2022-10-20",
+        "priceEur": 180270,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "52a0bdd4771b": {
+    "id": "52a0bdd4771b",
+    "label": "7 AV DE COURNONTERRAL, Fabrègues",
+    "lat": 43.551856,
+    "lng": 3.77387,
+    "transactions": [
+      {
+        "date": "2022-10-27",
+        "priceEur": 240000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "ef43487d6e32": {
+    "id": "ef43487d6e32",
+    "label": "10 PL DES SANTONS, Fabrègues",
+    "lat": 43.549576,
+    "lng": 3.775651,
+    "transactions": [
+      {
+        "date": "2022-11-28",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "f25b0ddddeed": {
+    "id": "f25b0ddddeed",
+    "label": "1 RUE DE LA MARNE, Fabrègues",
+    "lat": 43.552515,
+    "lng": 3.776333,
+    "transactions": [
+      {
+        "date": "2022-12-05",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "ebbcec08a43d": {
+    "id": "ebbcec08a43d",
+    "label": "9 PL DU HUIT MAI 1945, Fabrègues",
+    "lat": 43.551645,
+    "lng": 3.777112,
+    "transactions": [
+      {
+        "date": "2022-12-29",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "a64b88d714ba": {
+    "id": "a64b88d714ba",
+    "label": "5058 RUE FOCH, Fabrègues",
+    "lat": 43.55219,
+    "lng": 3.775167,
+    "transactions": [
+      {
+        "date": "2022-12-15",
+        "priceEur": 198100,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "e02e575a0934": {
+    "id": "e02e575a0934",
+    "label": "4 RUE DES MARJORIES, Fabrègues",
+    "lat": 43.552194,
+    "lng": 3.774278,
+    "transactions": [
+      {
+        "date": "2022-12-15",
+        "priceEur": 321700,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "34f8bd230f4d": {
+    "id": "34f8bd230f4d",
+    "label": "17 RUE FREDERIC MISTRAL, Fabrègues",
+    "lat": 43.550107,
+    "lng": 3.772768,
+    "transactions": [
+      {
+        "date": "2023-01-20",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-20",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f3283ea46f1": {
+    "id": "7f3283ea46f1",
+    "label": "16 RUE LAMARTINE, Fabrègues",
+    "lat": 43.552762,
+    "lng": 3.77581,
+    "transactions": [
+      {
+        "date": "2023-01-12",
+        "priceEur": 361110,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "37ac44c55cf8": {
+    "id": "37ac44c55cf8",
+    "label": "6 PL DU HUIT MAI 1945, Fabrègues",
+    "lat": 43.551591,
+    "lng": 3.777529,
+    "transactions": [
+      {
+        "date": "2023-01-13",
+        "priceEur": 254700,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "bcebdb96a40b": {
+    "id": "bcebdb96a40b",
+    "label": "3114F RUE DES TROENES, Fabrègues",
+    "lat": 43.554347,
+    "lng": 3.777954,
+    "transactions": [
+      {
+        "date": "2023-01-19",
+        "priceEur": 583960,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  },
+  "027e6bec9587": {
+    "id": "027e6bec9587",
+    "label": "2 RUE DU JEU DE BALLON, Fabrègues",
+    "lat": 43.551898,
+    "lng": 3.777227,
+    "transactions": [
+      {
+        "date": "2023-01-19",
+        "priceEur": 97833.33,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "995d3bc9efcc": {
+    "id": "995d3bc9efcc",
+    "label": "6 RUE BARTHOU, Fabrègues",
+    "lat": 43.551214,
+    "lng": 3.77544,
+    "transactions": [
+      {
+        "date": "2023-01-30",
+        "priceEur": 93350,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1ad14b2cdab": {
+    "id": "b1ad14b2cdab",
+    "label": "45 RUE PAUL DOUMER, Fabrègues",
+    "lat": 43.550485,
+    "lng": 3.776517,
+    "transactions": [
+      {
+        "date": "2023-03-15",
+        "priceEur": 214000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff00f8686592": {
+    "id": "ff00f8686592",
+    "label": "5069 RUE FOCH, Fabrègues",
+    "lat": 43.551916,
+    "lng": 3.775536,
+    "transactions": [
+      {
+        "date": "2023-02-24",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e81a889837b": {
+    "id": "0e81a889837b",
+    "label": "5 RUE GUYNEMER, Fabrègues",
+    "lat": 43.552133,
+    "lng": 3.775932,
+    "transactions": [
+      {
+        "date": "2023-03-28",
+        "priceEur": 89000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "c702d95b49a7": {
+    "id": "c702d95b49a7",
+    "label": "330 AV DE COURNONTERRAL, Fabrègues",
+    "lat": 43.553291,
+    "lng": 3.770625,
+    "transactions": [
+      {
+        "date": "2023-04-04",
+        "priceEur": 520000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-04",
+        "priceEur": 520000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "88cc5656c497": {
+    "id": "88cc5656c497",
+    "label": "13 RUE DES REMPARTS, Fabrègues",
+    "lat": 43.55128,
+    "lng": 3.777259,
+    "transactions": [
+      {
+        "date": "2023-05-05",
+        "priceEur": 219528,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9de400dc8be": {
+    "id": "a9de400dc8be",
+    "label": "1 RUE DE VERDUN, Fabrègues",
+    "lat": 43.552313,
+    "lng": 3.775972,
+    "transactions": [
+      {
+        "date": "2025-03-28",
+        "priceEur": 325300,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-13",
+        "priceEur": 295950,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "007e41a375bf": {
+    "id": "007e41a375bf",
+    "label": "5 PL JEAN GAILLAC, Fabrègues",
+    "lat": 43.551402,
+    "lng": 3.776585,
+    "transactions": [
+      {
+        "date": "2023-06-14",
+        "priceEur": 112800,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "ab24f26fb167": {
+    "id": "ab24f26fb167",
+    "label": "5869 CHEMIN DE COURNON, Fabrègues",
+    "lat": 43.551431,
+    "lng": 3.770508,
+    "transactions": [
+      {
+        "date": "2023-06-16",
+        "priceEur": 365700,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "f046affa25b0": {
+    "id": "f046affa25b0",
+    "label": "16 PL DES SANTONS, Fabrègues",
+    "lat": 43.549509,
+    "lng": 3.775205,
+    "transactions": [
+      {
+        "date": "2023-07-12",
+        "priceEur": 331000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "931234f8a51d": {
+    "id": "931234f8a51d",
+    "label": "2 IMP DES BERGES, Fabrègues",
+    "lat": 43.554469,
+    "lng": 3.779064,
+    "transactions": [
+      {
+        "date": "2023-08-02",
+        "priceEur": 336050,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "2617e76b1bef": {
+    "id": "2617e76b1bef",
+    "label": "1 RUE PAUL BERT, Fabrègues",
+    "lat": 43.55115,
+    "lng": 3.776641,
+    "transactions": [
+      {
+        "date": "2023-08-08",
+        "priceEur": 148500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-08",
+        "priceEur": 148500,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "a4ff2e82f500": {
+    "id": "a4ff2e82f500",
+    "label": "8 IMP GINGIBRE, Fabrègues",
+    "lat": 43.551546,
+    "lng": 3.775631,
+    "transactions": [
+      {
+        "date": "2023-09-15",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "89cb7f8e5eba": {
+    "id": "89cb7f8e5eba",
+    "label": "5156 IMP VICTOR HUGO, Fabrègues",
+    "lat": 43.551875,
+    "lng": 3.777612,
+    "transactions": [
+      {
+        "date": "2023-10-09",
+        "priceEur": 213900,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "cecf7d360275": {
+    "id": "cecf7d360275",
+    "label": "10 PL JEAN GAILLAC, Fabrègues",
+    "lat": 43.551572,
+    "lng": 3.776683,
+    "transactions": [
+      {
+        "date": "2023-10-11",
+        "priceEur": 90900,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "556ccc8cb631": {
+    "id": "556ccc8cb631",
+    "label": "40 CHE DU STADE, Fabrègues",
+    "lat": 43.556494,
+    "lng": 3.775634,
+    "transactions": [
+      {
+        "date": "2023-10-12",
+        "priceEur": 379730,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "5aaf15ec1b08": {
+    "id": "5aaf15ec1b08",
+    "label": "2 TRA MARCELLIN ALBERT, Fabrègues",
+    "lat": 43.551699,
+    "lng": 3.776897,
+    "transactions": [
+      {
+        "date": "2023-11-13",
+        "priceEur": 87610,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "a7072db22ed4": {
+    "id": "a7072db22ed4",
+    "label": "18 AV DE LA GARE, Fabrègues",
+    "lat": 43.555979,
+    "lng": 3.776568,
+    "transactions": [
+      {
+        "date": "2023-12-11",
+        "priceEur": 237440,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "0685d50624d2": {
+    "id": "0685d50624d2",
+    "label": "11 AV PASTEUR, Fabrègues",
+    "lat": 43.550985,
+    "lng": 3.777916,
+    "transactions": [
+      {
+        "date": "2024-02-08",
+        "priceEur": 470000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "cfc2dc7ad751": {
+    "id": "cfc2dc7ad751",
+    "label": "2 RUE DE VERDUN, Fabrègues",
+    "lat": 43.552361,
+    "lng": 3.776406,
+    "transactions": [
+      {
+        "date": "2024-02-23",
+        "priceEur": 306500,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d371966e5d4": {
+    "id": "5d371966e5d4",
+    "label": "7 RUE DU PROF GRASSET, Fabrègues",
+    "lat": 43.551379,
+    "lng": 3.776,
+    "transactions": [
+      {
+        "date": "2024-02-20",
+        "priceEur": 91000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "549d6ef00ea3": {
+    "id": "549d6ef00ea3",
+    "label": "5224 RUE MARCELLIN ALBERT, Fabrègues",
+    "lat": 43.551507,
+    "lng": 3.777106,
+    "transactions": [
+      {
+        "date": "2024-02-28",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c9f7cf897f6": {
+    "id": "2c9f7cf897f6",
+    "label": "11 RUE DU PROF GRASSET, Fabrègues",
+    "lat": 43.551484,
+    "lng": 3.775893,
+    "transactions": [
+      {
+        "date": "2024-04-04",
+        "priceEur": 82600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5fef14d5812": {
+    "id": "d5fef14d5812",
+    "label": "5157 IMP VICTOR HUGO, Fabrègues",
+    "lat": 43.551863,
+    "lng": 3.777703,
+    "transactions": [
+      {
+        "date": "2024-05-03",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "b2c25fb5a7ec": {
+    "id": "b2c25fb5a7ec",
+    "label": "7 PL DU HUIT MAI 1945, Fabrègues",
+    "lat": 43.551606,
+    "lng": 3.777124,
+    "transactions": [
+      {
+        "date": "2024-05-21",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e9b60d39f62": {
+    "id": "3e9b60d39f62",
+    "label": "217 AV DE COURNONTERRAL, Fabrègues",
+    "lat": 43.552502,
+    "lng": 3.771565,
+    "transactions": [
+      {
+        "date": "2025-02-20",
+        "priceEur": 310447,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-31",
+        "priceEur": 368890,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "bba330115f09": {
+    "id": "bba330115f09",
+    "label": "16 RUE DU MUSEE, Fabrègues",
+    "lat": 43.552434,
+    "lng": 3.774789,
+    "transactions": [
+      {
+        "date": "2024-07-12",
+        "priceEur": 305200,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "e56387602b33": {
+    "id": "e56387602b33",
+    "label": "17 AV DE LA FONTASSE, Fabrègues",
+    "lat": 43.54992,
+    "lng": 3.771992,
+    "transactions": [
+      {
+        "date": "2024-07-01",
+        "priceEur": 628480,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0200d50f46d": {
+    "id": "e0200d50f46d",
+    "label": "2125F CHE DES COURECHES, Fabrègues",
+    "lat": 43.551232,
+    "lng": 3.769575,
+    "transactions": [
+      {
+        "date": "2024-07-09",
+        "priceEur": 566650,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-09",
+        "priceEur": 566650,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "803876dce126": {
+    "id": "803876dce126",
+    "label": "5593 AV DE LA GARE, Fabrègues",
+    "lat": 43.553896,
+    "lng": 3.777434,
+    "transactions": [
+      {
+        "date": "2024-07-24",
+        "priceEur": 460750,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-24",
+        "priceEur": 460750,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "06cd304c4178": {
+    "id": "06cd304c4178",
+    "label": "12 RUE DE VERDUN, Fabrègues",
+    "lat": 43.552485,
+    "lng": 3.775985,
+    "transactions": [
+      {
+        "date": "2024-09-23",
+        "priceEur": 305000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 88,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-23",
+        "priceEur": 305000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "54171772c12e": {
+    "id": "54171772c12e",
+    "label": "5 IMP DU PRESBYTERE, Fabrègues",
+    "lat": 43.551777,
+    "lng": 3.77577,
+    "transactions": [
+      {
+        "date": "2024-10-10",
+        "priceEur": 126250,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b86c7724a88": {
+    "id": "0b86c7724a88",
+    "label": "285 RUE DU LAVOIR, Fabrègues",
+    "lat": 43.555116,
+    "lng": 3.773554,
+    "transactions": [
+      {
+        "date": "2024-10-08",
+        "priceEur": 366000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "e306d2303b25": {
+    "id": "e306d2303b25",
+    "label": "5009 CHEMIN DE COURNON, Fabrègues",
+    "lat": 43.552189,
+    "lng": 3.773455,
+    "transactions": [
+      {
+        "date": "2024-11-20",
+        "priceEur": 209500,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "f938b4b3c426": {
+    "id": "f938b4b3c426",
+    "label": "72 CHE DU STADE, Fabrègues",
+    "lat": 43.556299,
+    "lng": 3.775189,
+    "transactions": [
+      {
+        "date": "2024-11-13",
+        "priceEur": 578520,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "96149a0485fd": {
+    "id": "96149a0485fd",
+    "label": "5347 RUE BARTHOU, Fabrègues",
+    "lat": 43.550994,
+    "lng": 3.775917,
+    "transactions": [
+      {
+        "date": "2024-12-16",
+        "priceEur": 855000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2024-12-16",
+        "priceEur": 855000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "91c07cd6442c": {
+    "id": "91c07cd6442c",
+    "label": "5348 RUE BARTHOU, Fabrègues",
+    "lat": 43.550725,
+    "lng": 3.775863,
+    "transactions": [
+      {
+        "date": "2024-12-16",
+        "priceEur": 855000,
+        "typeLocal": "Maison",
+        "surfaceM2": 222,
+        "isVefa": false
+      }
+    ]
+  },
+  "48d1451eafa5": {
+    "id": "48d1451eafa5",
+    "label": "2 RUE DU MUSEE, Fabrègues",
+    "lat": 43.552769,
+    "lng": 3.775444,
+    "transactions": [
+      {
+        "date": "2024-12-05",
+        "priceEur": 242000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "509be2b51eb2": {
+    "id": "509be2b51eb2",
+    "label": "5530 RUE FREDERIC MISTRAL, Fabrègues",
+    "lat": 43.550015,
+    "lng": 3.772842,
+    "transactions": [
+      {
+        "date": "2024-12-31",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ba8c17b1587": {
+    "id": "1ba8c17b1587",
+    "label": "13 RUE PAUL BERT, Fabrègues",
+    "lat": 43.551535,
+    "lng": 3.776447,
+    "transactions": [
+      {
+        "date": "2025-01-20",
+        "priceEur": 142950,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "1019ec848268": {
+    "id": "1019ec848268",
+    "label": "14 RUE DU MOULIN, Fabrègues",
+    "lat": 43.548782,
+    "lng": 3.773394,
+    "transactions": [
+      {
+        "date": "2025-01-14",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4646685dd2d": {
+    "id": "c4646685dd2d",
+    "label": "17B RUE FREDERIC MISTRAL, Fabrègues",
+    "lat": 43.550107,
+    "lng": 3.772768,
+    "transactions": [
+      {
+        "date": "2025-02-07",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e03ec630469": {
+    "id": "0e03ec630469",
+    "label": "1 IMP DU PRESBYTERE, Fabrègues",
+    "lat": 43.551899,
+    "lng": 3.775831,
+    "transactions": [
+      {
+        "date": "2025-02-17",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea92fd0e8772": {
+    "id": "ea92fd0e8772",
+    "label": "7 RUE DES CONTREFORTS, Fabrègues",
+    "lat": 43.551684,
+    "lng": 3.777838,
+    "transactions": [
+      {
+        "date": "2025-03-12",
+        "priceEur": 250600,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "dbbbb82d1d15": {
+    "id": "dbbbb82d1d15",
+    "label": "4 RUE DU PROF ROUX, Fabrègues",
+    "lat": 43.552345,
+    "lng": 3.775523,
+    "transactions": [
+      {
+        "date": "2025-03-31",
+        "priceEur": 319800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-31",
+        "priceEur": 319800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-31",
+        "priceEur": 319800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8b7b701a332": {
+    "id": "f8b7b701a332",
+    "label": "20 RUE DES GRANGES, Fabrègues",
+    "lat": 43.550625,
+    "lng": 3.771579,
+    "transactions": [
+      {
+        "date": "2025-04-23",
+        "priceEur": 306000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

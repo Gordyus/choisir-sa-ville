@@ -1,0 +1,99 @@
+{
+  "1af95c6d4b09": {
+    "id": "1af95c6d4b09",
+    "label": "180 AV DE L INDUSTRIE, Teyran",
+    "lat": 43.695388,
+    "lng": 3.92839,
+    "transactions": [
+      {
+        "date": "2021-11-05",
+        "priceEur": 700000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 222,
+        "isVefa": false
+      }
+    ]
+  },
+  "31179a9d0321": {
+    "id": "31179a9d0321",
+    "label": "300 AV DU PROGRES, Teyran",
+    "lat": 43.693932,
+    "lng": 3.926023,
+    "transactions": [
+      {
+        "date": "2022-01-27",
+        "priceEur": 494300,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-27",
+        "priceEur": 494300,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6fabe9ada82": {
+    "id": "b6fabe9ada82",
+    "label": "1 CHE DU PT BOIS, Teyran",
+    "lat": 43.69307,
+    "lng": 3.925819,
+    "transactions": [
+      {
+        "date": "2023-05-30",
+        "priceEur": 755000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "881bc36d6ad4": {
+    "id": "881bc36d6ad4",
+    "label": "10 PL DES CHENES VERTS, Teyran",
+    "lat": 43.692133,
+    "lng": 3.929828,
+    "transactions": [
+      {
+        "date": "2023-09-18",
+        "priceEur": 475430,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "f92d9127e074": {
+    "id": "f92d9127e074",
+    "label": "20 CHE DU PT BOIS, Teyran",
+    "lat": 43.693215,
+    "lng": 3.925759,
+    "transactions": [
+      {
+        "date": "2023-10-04",
+        "priceEur": 400749,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a801b396c61": {
+    "id": "9a801b396c61",
+    "label": "305 RUE DE LA FOUILLADE, Teyran",
+    "lat": 43.692262,
+    "lng": 3.923479,
+    "transactions": [
+      {
+        "date": "2024-08-28",
+        "priceEur": 635000,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  }
+}

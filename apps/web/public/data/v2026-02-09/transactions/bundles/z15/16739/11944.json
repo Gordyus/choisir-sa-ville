@@ -1,0 +1,173 @@
+{
+  "431ac68125c0": {
+    "id": "431ac68125c0",
+    "label": "39 RUE DE L'AUBEPINE, Sainte-Croix-de-Quintillargues",
+    "lat": 43.770616,
+    "lng": 3.904496,
+    "transactions": [
+      {
+        "date": "2020-08-25",
+        "priceEur": 349250,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "628ce4272d3f": {
+    "id": "628ce4272d3f",
+    "label": "478 RTE D ASSAS, Sainte-Croix-de-Quintillargues",
+    "lat": 43.769235,
+    "lng": 3.90811,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 387400,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-18",
+        "priceEur": 387400,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "a04437681622": {
+    "id": "a04437681622",
+    "label": "45 RUE DE L'AUBEPINE, Sainte-Croix-de-Quintillargues",
+    "lat": 43.770438,
+    "lng": 3.904926,
+    "transactions": [
+      {
+        "date": "2021-01-08",
+        "priceEur": 340350,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e7b3a8aee3c": {
+    "id": "0e7b3a8aee3c",
+    "label": "534 RTE DES AIRES, Sainte-Croix-de-Quintillargues",
+    "lat": 43.770509,
+    "lng": 3.905649,
+    "transactions": [
+      {
+        "date": "2021-01-18",
+        "priceEur": 398700,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-18",
+        "priceEur": 398700,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9810ac168ae": {
+    "id": "a9810ac168ae",
+    "label": "224 RUE DE L'AUBEPINE, Sainte-Croix-de-Quintillargues",
+    "lat": 43.769572,
+    "lng": 3.906371,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 603100,
+        "typeLocal": "Maison",
+        "surfaceM2": 189,
+        "isVefa": false
+      }
+    ]
+  },
+  "73508c78abaa": {
+    "id": "73508c78abaa",
+    "label": "325 RTE D ASSAS, Sainte-Croix-de-Quintillargues",
+    "lat": 43.770606,
+    "lng": 3.909115,
+    "transactions": [
+      {
+        "date": "2021-04-28",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "a95e095b0558": {
+    "id": "a95e095b0558",
+    "label": "333B RTE D ASSAS, Sainte-Croix-de-Quintillargues",
+    "lat": 43.770478,
+    "lng": 3.909958,
+    "transactions": [
+      {
+        "date": "2022-02-15",
+        "priceEur": 209210.6,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "056e25334d94": {
+    "id": "056e25334d94",
+    "label": "106 RUE DE L'OREE DU BOIS, Sainte-Croix-de-Quintillargues",
+    "lat": 43.7705,
+    "lng": 3.903035,
+    "transactions": [
+      {
+        "date": "2022-12-19",
+        "priceEur": 446600,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "c150df3d30b5": {
+    "id": "c150df3d30b5",
+    "label": "1 IMP DU PONTIL, Sainte-Croix-de-Quintillargues",
+    "lat": 43.768638,
+    "lng": 3.907422,
+    "transactions": [
+      {
+        "date": "2023-08-24",
+        "priceEur": 415000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "4375825780c7": {
+    "id": "4375825780c7",
+    "label": "3 LOT LES CHASSELAS, Sainte-Croix-de-Quintillargues",
+    "lat": 43.769936,
+    "lng": 3.9076,
+    "transactions": [
+      {
+        "date": "2024-11-06",
+        "priceEur": 419481,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-06",
+        "priceEur": 419481,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  }
+}

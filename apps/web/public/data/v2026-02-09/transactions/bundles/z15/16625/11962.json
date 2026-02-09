@@ -1,0 +1,106 @@
+{
+  "46de839fd395": {
+    "id": "46de839fd395",
+    "label": "6508F HAMEAU DE LA PAUTRU, La Salvetat-sur-Agout",
+    "lat": 43.626083,
+    "lng": 2.653156,
+    "transactions": [
+      {
+        "date": "2021-12-04",
+        "priceEur": 85320,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-24",
+        "priceEur": 88000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff96e7ea5463": {
+    "id": "ff96e7ea5463",
+    "label": "327 HAMEAU DE LA PAUTRU, La Salvetat-sur-Agout",
+    "lat": 43.625633,
+    "lng": 2.655,
+    "transactions": [
+      {
+        "date": "2021-11-24",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-24",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f5a4a2cfbfc": {
+    "id": "9f5a4a2cfbfc",
+    "label": "6487F HAMEAU DE LA PAUTRU, La Salvetat-sur-Agout",
+    "lat": 43.626088,
+    "lng": 2.653682,
+    "transactions": [
+      {
+        "date": "2021-11-18",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "2baa7c871a5b": {
+    "id": "2baa7c871a5b",
+    "label": "325 HAMEAU DE LA PAUTRU, La Salvetat-sur-Agout",
+    "lat": 43.626031,
+    "lng": 2.653384,
+    "transactions": [
+      {
+        "date": "2022-06-20",
+        "priceEur": 96080,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b28634db37d": {
+    "id": "0b28634db37d",
+    "label": "6334 HAMEAU DE LA PAUTRU, La Salvetat-sur-Agout",
+    "lat": 43.625927,
+    "lng": 2.65247,
+    "transactions": [
+      {
+        "date": "2023-03-14",
+        "priceEur": 222550,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "79df72388a1e": {
+    "id": "79df72388a1e",
+    "label": "323 HAMEAU DE LA PAUTRU, La Salvetat-sur-Agout",
+    "lat": 43.626055,
+    "lng": 2.653802,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "d14299d83793": {
+    "id": "d14299d83793",
+    "label": "171 IMP JEAN GRANDEL, Montpellier",
+    "lat": 43.651104,
+    "lng": 3.861265,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 585000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "da2312aa3d69": {
+    "id": "da2312aa3d69",
+    "label": "565 RUE DES QUATRE SEIGNEURS, Montpellier",
+    "lat": 43.64489,
+    "lng": 3.858454,
+    "transactions": [
+      {
+        "date": "2020-12-10",
+        "priceEur": 600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 236,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-10",
+        "priceEur": 600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 236,
+        "isVefa": false
+      }
+    ]
+  },
+  "ef0bbe21a0db": {
+    "id": "ef0bbe21a0db",
+    "label": "593 RUE DES QUATRE SEIGNEURS, Montpellier",
+    "lat": 43.645232,
+    "lng": 3.858444,
+    "transactions": [
+      {
+        "date": "2020-12-10",
+        "priceEur": 600000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-10",
+        "priceEur": 600000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "eace680053c1": {
+    "id": "eace680053c1",
+    "label": "745 RUE DES QUATRE SEIGNEURS, Montpellier",
+    "lat": 43.646169,
+    "lng": 3.858543,
+    "transactions": [
+      {
+        "date": "2021-07-21",
+        "priceEur": 740000,
+        "typeLocal": "Maison",
+        "surfaceM2": 290,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-21",
+        "priceEur": 740000,
+        "typeLocal": "Maison",
+        "surfaceM2": 290,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c17b7ead577": {
+    "id": "1c17b7ead577",
+    "label": "109 RUE DU PLAN D'ENCOMBES, Montpellier",
+    "lat": 43.647017,
+    "lng": 3.85951,
+    "transactions": [
+      {
+        "date": "2023-04-20",
+        "priceEur": 570000,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-20",
+        "priceEur": 570000,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "fc64bfad5621": {
+    "id": "fc64bfad5621",
+    "label": "604 RUE DES QUATRE SEIGNEURS, Montpellier",
+    "lat": 43.645626,
+    "lng": 3.859509,
+    "transactions": [
+      {
+        "date": "2024-08-27",
+        "priceEur": 872290,
+        "typeLocal": "Appartement",
+        "surfaceM2": 191,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-27",
+        "priceEur": 872290,
+        "typeLocal": "Appartement",
+        "surfaceM2": 191,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-27",
+        "priceEur": 872290,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-27",
+        "priceEur": 872290,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5a9768f71e4": {
+    "id": "b5a9768f71e4",
+    "label": "223 RUE DU PLAN D'ENCOMBES, Montpellier",
+    "lat": 43.647944,
+    "lng": 3.860245,
+    "transactions": [
+      {
+        "date": "2024-10-15",
+        "priceEur": 271600,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  }
+}

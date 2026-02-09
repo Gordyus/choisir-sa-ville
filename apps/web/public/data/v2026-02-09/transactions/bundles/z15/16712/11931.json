@@ -1,0 +1,47 @@
+{
+  "68e407c02c18": {
+    "id": "68e407c02c18",
+    "label": "5091 LES AUBERTS, Gorniès",
+    "lat": 43.873423,
+    "lng": 3.603638,
+    "transactions": [
+      {
+        "date": "2020-11-13",
+        "priceEur": 146289,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "e5ab76d262c7": {
+    "id": "e5ab76d262c7",
+    "label": "5136 LE CLAUX, Gorniès",
+    "lat": 43.871709,
+    "lng": 3.604233,
+    "transactions": [
+      {
+        "date": "2021-04-14",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e03bce62f73": {
+    "id": "3e03bce62f73",
+    "label": "5137 LE CLAUX, Gorniès",
+    "lat": 43.871744,
+    "lng": 3.604294,
+    "transactions": [
+      {
+        "date": "2022-09-08",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  }
+}

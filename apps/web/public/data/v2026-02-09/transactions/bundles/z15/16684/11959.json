@@ -1,0 +1,104 @@
+{
+  "3de10d91664c": {
+    "id": "3de10d91664c",
+    "label": "3 RUE DE LA MARETTE, Octon",
+    "lat": 43.6509,
+    "lng": 3.304813,
+    "transactions": [
+      {
+        "date": "2020-07-01",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-01",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "023e419585af": {
+    "id": "023e419585af",
+    "label": "14 RUE DES MIMOSAS, Octon",
+    "lat": 43.651743,
+    "lng": 3.30471,
+    "transactions": [
+      {
+        "date": "2022-01-04",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-04",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-04",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-04",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e3a7229e7d9": {
+    "id": "3e3a7229e7d9",
+    "label": "1 RUE DU JEU DE MAIL, Octon",
+    "lat": 43.651609,
+    "lng": 3.305841,
+    "transactions": [
+      {
+        "date": "2023-08-07",
+        "priceEur": 35000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 5,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-07",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "43386f0b57bd": {
+    "id": "43386f0b57bd",
+    "label": "9 RUE DES MIMOSAS, Octon",
+    "lat": 43.651703,
+    "lng": 3.303847,
+    "transactions": [
+      {
+        "date": "2025-03-17",
+        "priceEur": 204600,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-17",
+        "priceEur": 204600,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

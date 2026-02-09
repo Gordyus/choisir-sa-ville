@@ -1,0 +1,113 @@
+{
+  "cbae2d22b6f5": {
+    "id": "cbae2d22b6f5",
+    "label": "8B AV DU STADE, Siran",
+    "lat": 43.316937,
+    "lng": 2.658027,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "347b35b3ed3b": {
+    "id": "347b35b3ed3b",
+    "label": "21 RUE DU PETIT SOLEIL, Siran",
+    "lat": 43.313492,
+    "lng": 2.657898,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 286000,
+        "typeLocal": "Maison",
+        "surfaceM2": 175,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5ad9266e716": {
+    "id": "d5ad9266e716",
+    "label": "5560F CHE DES AIRES, Siran",
+    "lat": 43.31517,
+    "lng": 2.657805,
+    "transactions": [
+      {
+        "date": "2021-03-30",
+        "priceEur": 446000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-30",
+        "priceEur": 446000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-30",
+        "priceEur": 446000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-30",
+        "priceEur": 446000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "08bbc72d6f3f": {
+    "id": "08bbc72d6f3f",
+    "label": "5310 RUE DU PETIT SOLEIL, Siran",
+    "lat": 43.313426,
+    "lng": 2.65801,
+    "transactions": [
+      {
+        "date": "2022-06-13",
+        "priceEur": 132460,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "1122705f38bc": {
+    "id": "1122705f38bc",
+    "label": "5048 RUE DU PETIT SOLEIL, Siran",
+    "lat": 43.31333,
+    "lng": 2.658199,
+    "transactions": [
+      {
+        "date": "2023-03-09",
+        "priceEur": 275500,
+        "typeLocal": "Maison",
+        "surfaceM2": 175,
+        "isVefa": false
+      }
+    ]
+  },
+  "1db48f1ee4d0": {
+    "id": "1db48f1ee4d0",
+    "label": "7000F LA BORIETTE, Siran",
+    "lat": 43.31505,
+    "lng": 2.654443,
+    "transactions": [
+      {
+        "date": "2024-02-12",
+        "priceEur": 158700,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

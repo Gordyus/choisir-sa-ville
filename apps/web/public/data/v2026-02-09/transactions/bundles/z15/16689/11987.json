@@ -1,0 +1,150 @@
+{
+  "ee388f2453d6": {
+    "id": "ee388f2453d6",
+    "label": "405 AV DE LA MONTAGNE, Valros",
+    "lat": 43.423573,
+    "lng": 3.361006,
+    "transactions": [
+      {
+        "date": "2021-02-23",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7b2e54cfb30": {
+    "id": "c7b2e54cfb30",
+    "label": "67 SQ DE LA LIBERTE, Valros",
+    "lat": 43.423347,
+    "lng": 3.360007,
+    "transactions": [
+      {
+        "date": "2021-09-29",
+        "priceEur": 365370,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6625a572e24": {
+    "id": "d6625a572e24",
+    "label": "26 IMP DU BASSIN, Valros",
+    "lat": 43.4234,
+    "lng": 3.360743,
+    "transactions": [
+      {
+        "date": "2021-11-09",
+        "priceEur": 405000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f9a2ff2fbc2": {
+    "id": "4f9a2ff2fbc2",
+    "label": "109 IMP DU BASSIN, Valros",
+    "lat": 43.42253,
+    "lng": 3.360331,
+    "transactions": [
+      {
+        "date": "2022-09-02",
+        "priceEur": 141280,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "c85686733208": {
+    "id": "c85686733208",
+    "label": "869 AV DE LA MONTAGNE, Valros",
+    "lat": 43.425409,
+    "lng": 3.357345,
+    "transactions": [
+      {
+        "date": "2022-12-06",
+        "priceEur": 684600,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-06",
+        "priceEur": 684600,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  },
+  "69e692c490e7": {
+    "id": "69e692c490e7",
+    "label": "29 SQ DE LA LIBERTE, Valros",
+    "lat": 43.4237,
+    "lng": 3.360336,
+    "transactions": [
+      {
+        "date": "2024-05-07",
+        "priceEur": 223350,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9419ec9e457": {
+    "id": "a9419ec9e457",
+    "label": "109 AV DU PETIT TRAIN HAUT, Valros",
+    "lat": 43.424993,
+    "lng": 3.361118,
+    "transactions": [
+      {
+        "date": "2024-08-08",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-08",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "902157b80dcb": {
+    "id": "902157b80dcb",
+    "label": "5228 DOMAINE DE LA CONTOURNE, Valros",
+    "lat": 43.423592,
+    "lng": 3.351752,
+    "transactions": [
+      {
+        "date": "2024-12-10",
+        "priceEur": 190000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2024-12-10",
+        "priceEur": 190000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2024-12-10",
+        "priceEur": 190000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  }
+}

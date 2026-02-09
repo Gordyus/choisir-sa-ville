@@ -1,0 +1,39 @@
+{
+  "12c13f4800ad": {
+    "id": "12c13f4800ad",
+    "label": "1297F LOT ZAE L EMBOSQUE, Gigean",
+    "lat": 43.487719,
+    "lng": 3.700048,
+    "transactions": [
+      {
+        "date": "2023-01-30",
+        "priceEur": 430000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6e50621d21d": {
+    "id": "c6e50621d21d",
+    "label": "12 RUE DU TERRAL, Gigean",
+    "lat": 43.487396,
+    "lng": 3.701156,
+    "transactions": [
+      {
+        "date": "2023-04-17",
+        "priceEur": 680000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-17",
+        "priceEur": 680000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  }
+}

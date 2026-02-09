@@ -1,0 +1,98 @@
+{
+  "4c824977860e": {
+    "id": "4c824977860e",
+    "label": "5058F REC DE FAVIES, Riols",
+    "lat": 43.503559,
+    "lng": 2.783265,
+    "transactions": [
+      {
+        "date": "2020-11-09",
+        "priceEur": 20000,
+        "typeLocal": "Maison",
+        "surfaceM2": 21,
+        "isVefa": false
+      }
+    ]
+  },
+  "73c48197c54d": {
+    "id": "73c48197c54d",
+    "label": "25 CHE DES BRUYERES, Riols",
+    "lat": 43.506823,
+    "lng": 2.788367,
+    "transactions": [
+      {
+        "date": "2021-01-28",
+        "priceEur": 183450,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-28",
+        "priceEur": 183450,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "d9e91f4f42c2": {
+    "id": "d9e91f4f42c2",
+    "label": "23 CHE DES BRUYERES, Riols",
+    "lat": 43.506691,
+    "lng": 2.78863,
+    "transactions": [
+      {
+        "date": "2021-05-07",
+        "priceEur": 191300,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-07",
+        "priceEur": 191300,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "b640f0d0dcf0": {
+    "id": "b640f0d0dcf0",
+    "label": "5055F REC DE FAVIES, Riols",
+    "lat": 43.504228,
+    "lng": 2.781801,
+    "transactions": [
+      {
+        "date": "2022-11-07",
+        "priceEur": 58000,
+        "typeLocal": "Maison",
+        "surfaceM2": 26,
+        "isVefa": false
+      }
+    ]
+  },
+  "73841e844933": {
+    "id": "73841e844933",
+    "label": "5555 RUE DES DEPORTES DE 1852, Riols",
+    "lat": 43.501408,
+    "lng": 2.788634,
+    "transactions": [
+      {
+        "date": "2023-07-07",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-07",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

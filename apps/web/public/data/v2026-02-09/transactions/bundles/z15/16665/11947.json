@@ -1,0 +1,54 @@
+{
+  "46c75d6ef6fa": {
+    "id": "46c75d6ef6fa",
+    "label": "6043 LE COURAL, Avène",
+    "lat": 43.739585,
+    "lng": 3.094754,
+    "transactions": [
+      {
+        "date": "2024-12-05",
+        "priceEur": 91490,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-20",
+        "priceEur": 59500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c0f1818eaeb": {
+    "id": "4c0f1818eaeb",
+    "label": "5995 LE COURAL, Avène",
+    "lat": 43.739418,
+    "lng": 3.094988,
+    "transactions": [
+      {
+        "date": "2022-12-02",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a8db02ec2d5": {
+    "id": "8a8db02ec2d5",
+    "label": "5061 LE COURAL, Avène",
+    "lat": 43.739478,
+    "lng": 3.094595,
+    "transactions": [
+      {
+        "date": "2023-09-14",
+        "priceEur": 129000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

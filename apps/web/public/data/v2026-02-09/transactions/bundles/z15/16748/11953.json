@@ -1,0 +1,68 @@
+{
+  "4e514781bd97": {
+    "id": "4e514781bd97",
+    "label": "760 RTE DE FONTMARIE, Castries",
+    "lat": 43.694664,
+    "lng": 3.999123,
+    "transactions": [
+      {
+        "date": "2021-04-02",
+        "priceEur": 630000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-02",
+        "priceEur": 630000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "46a42f4a601c": {
+    "id": "46a42f4a601c",
+    "label": "295 IMP DES ECUREUILS, Castries",
+    "lat": 43.692375,
+    "lng": 4.001103,
+    "transactions": [
+      {
+        "date": "2023-05-26",
+        "priceEur": 840900,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-26",
+        "priceEur": 840900,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c108a15bb76": {
+    "id": "5c108a15bb76",
+    "label": "49 IMP DES CORNEILLES, Castries",
+    "lat": 43.692096,
+    "lng": 4.001624,
+    "transactions": [
+      {
+        "date": "2024-08-27",
+        "priceEur": 722000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-27",
+        "priceEur": 722000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  }
+}

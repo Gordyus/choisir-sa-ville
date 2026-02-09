@@ -1,0 +1,47 @@
+{
+  "5de4428c3f52": {
+    "id": "5de4428c3f52",
+    "label": "5191 RUE DE LA MARTELLE, Cesseras",
+    "lat": 43.323675,
+    "lng": 2.712296,
+    "transactions": [
+      {
+        "date": "2023-03-20",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0186682a05f": {
+    "id": "c0186682a05f",
+    "label": "5174 RUE DE LA MARTELLE, Cesseras",
+    "lat": 43.323829,
+    "lng": 2.713113,
+    "transactions": [
+      {
+        "date": "2023-10-10",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "45be5cff7198": {
+    "id": "45be5cff7198",
+    "label": "5248 HAUSSE PEYRES, Cesseras",
+    "lat": 43.321334,
+    "lng": 2.711032,
+    "transactions": [
+      {
+        "date": "2024-04-04",
+        "priceEur": 156000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

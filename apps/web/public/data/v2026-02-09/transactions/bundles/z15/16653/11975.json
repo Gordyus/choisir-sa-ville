@@ -1,0 +1,84 @@
+{
+  "de6e2c1dea53": {
+    "id": "de6e2c1dea53",
+    "label": "5231 MEZEILLES, Vieussan",
+    "lat": 43.52364,
+    "lng": 2.957999,
+    "transactions": [
+      {
+        "date": "2021-06-24",
+        "priceEur": 20000,
+        "typeLocal": "Maison",
+        "surfaceM2": 20,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf26f1d47013": {
+    "id": "bf26f1d47013",
+    "label": "5260 MEZEILLES, Vieussan",
+    "lat": 43.524195,
+    "lng": 2.958537,
+    "transactions": [
+      {
+        "date": "2023-12-15",
+        "priceEur": 56000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-15",
+        "priceEur": 56000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "6bca3b5d8eb8": {
+    "id": "6bca3b5d8eb8",
+    "label": "5155 MEZEILLES, Vieussan",
+    "lat": 43.523933,
+    "lng": 2.957899,
+    "transactions": [
+      {
+        "date": "2024-09-23",
+        "priceEur": 365465,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf7738eeba90": {
+    "id": "cf7738eeba90",
+    "label": "5178 MEZEILLES, Vieussan",
+    "lat": 43.523869,
+    "lng": 2.958027,
+    "transactions": [
+      {
+        "date": "2024-10-21",
+        "priceEur": 39000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc834da356f3": {
+    "id": "cc834da356f3",
+    "label": "1652F LE SAGNAS, Vieussan",
+    "lat": 43.522414,
+    "lng": 2.959659,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  }
+}

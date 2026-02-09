@@ -1,0 +1,83 @@
+{
+  "e7eb5aca0789": {
+    "id": "e7eb5aca0789",
+    "label": "5907 CHAMP DU PUITS, Saint-Martin-de-Londres",
+    "lat": 43.816258,
+    "lng": 3.691188,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 290410,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-29",
+        "priceEur": 290410,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "94f1d87e98c5": {
+    "id": "94f1d87e98c5",
+    "label": "5259 FROUZET, Saint-Martin-de-Londres",
+    "lat": 43.817317,
+    "lng": 3.690781,
+    "transactions": [
+      {
+        "date": "2021-12-03",
+        "priceEur": 356270,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff1ad40bac66": {
+    "id": "ff1ad40bac66",
+    "label": "20 PL DU FROUZET, Saint-Martin-de-Londres",
+    "lat": 43.817231,
+    "lng": 3.690707,
+    "transactions": [
+      {
+        "date": "2023-01-17",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "3216f46ed941": {
+    "id": "3216f46ed941",
+    "label": "5601 RTE DU FROUZET, Saint-Martin-de-Londres",
+    "lat": 43.815911,
+    "lng": 3.690238,
+    "transactions": [
+      {
+        "date": "2024-10-07",
+        "priceEur": 545000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-07",
+        "priceEur": 545000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-07",
+        "priceEur": 545000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

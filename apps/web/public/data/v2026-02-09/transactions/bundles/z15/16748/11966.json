@@ -1,0 +1,119 @@
+{
+  "c90eafc6a85d": {
+    "id": "c90eafc6a85d",
+    "label": "9000 LES FOURNIEUX, Mauguio",
+    "lat": 43.590125,
+    "lng": 4.006071,
+    "transactions": [
+      {
+        "date": "2021-01-13",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "af56ac74bac4": {
+    "id": "af56ac74bac4",
+    "label": "9244 LES FOURNIEUX, Mauguio",
+    "lat": 43.595838,
+    "lng": 4.006893,
+    "transactions": [
+      {
+        "date": "2021-02-17",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-17",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "10c7640c2239": {
+    "id": "10c7640c2239",
+    "label": "9197 LES FOURNIEUX, Mauguio",
+    "lat": 43.595607,
+    "lng": 4.009486,
+    "transactions": [
+      {
+        "date": "2021-04-06",
+        "priceEur": 538100,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-06",
+        "priceEur": 538100,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a3db2171af9": {
+    "id": "5a3db2171af9",
+    "label": "9005 BOSC-VIEL, Mauguio",
+    "lat": 43.594595,
+    "lng": 3.999515,
+    "transactions": [
+      {
+        "date": "2023-04-12",
+        "priceEur": 1032400,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-12",
+        "priceEur": 1032400,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-30",
+        "priceEur": 690000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-30",
+        "priceEur": 690000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d64bc7134f9": {
+    "id": "7d64bc7134f9",
+    "label": "1 BOSC-VIEL, Mauguio",
+    "lat": 43.590734,
+    "lng": 4.005584,
+    "transactions": [
+      {
+        "date": "2023-11-03",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-03",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  }
+}

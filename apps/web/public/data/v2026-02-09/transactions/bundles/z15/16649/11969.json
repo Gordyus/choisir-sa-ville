@@ -1,0 +1,32 @@
+{
+  "4e875f60af1e": {
+    "id": "4e875f60af1e",
+    "label": "5744F HAMEAU DU CROS, Saint-Julien",
+    "lat": 43.568028,
+    "lng": 2.917187,
+    "transactions": [
+      {
+        "date": "2023-04-17",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ee5688c2bbc": {
+    "id": "4ee5688c2bbc",
+    "label": "5092 HAMEAU DU CROS, Saint-Julien",
+    "lat": 43.566722,
+    "lng": 2.916274,
+    "transactions": [
+      {
+        "date": "2024-08-27",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  }
+}

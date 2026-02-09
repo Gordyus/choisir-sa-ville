@@ -1,0 +1,84 @@
+{
+  "1d1ed39ac077": {
+    "id": "1d1ed39ac077",
+    "label": "5038 LA BOURBOUILLE, Taussac-la-Billière",
+    "lat": 43.623291,
+    "lng": 3.080959,
+    "transactions": [
+      {
+        "date": "2020-09-10",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ee455462cb8": {
+    "id": "6ee455462cb8",
+    "label": "5101 LA BOURBOUILLE, Taussac-la-Billière",
+    "lat": 43.623411,
+    "lng": 3.080476,
+    "transactions": [
+      {
+        "date": "2021-09-01",
+        "priceEur": 77000,
+        "typeLocal": "Maison",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-01",
+        "priceEur": 77000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "2dbe26249ba5": {
+    "id": "2dbe26249ba5",
+    "label": "5277F LA BOURBOUILLE, Taussac-la-Billière",
+    "lat": 43.623003,
+    "lng": 3.080801,
+    "transactions": [
+      {
+        "date": "2021-10-19",
+        "priceEur": 165250,
+        "typeLocal": "Maison",
+        "surfaceM2": 182,
+        "isVefa": false
+      }
+    ]
+  },
+  "9cab8153857a": {
+    "id": "9cab8153857a",
+    "label": "5193 LA BOURBOUILLE, Taussac-la-Billière",
+    "lat": 43.623254,
+    "lng": 3.08087,
+    "transactions": [
+      {
+        "date": "2022-04-08",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "de2b5b5cc855": {
+    "id": "de2b5b5cc855",
+    "label": "5046 LA BOURBOUILLE, Taussac-la-Billière",
+    "lat": 43.623252,
+    "lng": 3.080514,
+    "transactions": [
+      {
+        "date": "2023-06-16",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "fe0c043ad8f8": {
+    "id": "fe0c043ad8f8",
+    "label": "10 RUE DE L'ANCIEN FOUR, Les Plans",
+    "lat": 43.75237,
+    "lng": 3.276201,
+    "transactions": [
+      {
+        "date": "2020-12-29",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-29",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "192d0e088361": {
+    "id": "192d0e088361",
+    "label": "30 RTE DE L'ESCANDORGUE, Les Plans",
+    "lat": 43.754488,
+    "lng": 3.276784,
+    "transactions": [
+      {
+        "date": "2021-05-21",
+        "priceEur": 81220,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "c18a8f019bc4": {
+    "id": "c18a8f019bc4",
+    "label": "85 RTE DES PLANS BAS, Les Plans",
+    "lat": 43.752598,
+    "lng": 3.277161,
+    "transactions": [
+      {
+        "date": "2022-09-12",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-12",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-12",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-12",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "74a6f33373b2": {
+    "id": "74a6f33373b2",
+    "label": "5 PL DE LA MAIRIE, Les Plans",
+    "lat": 43.753101,
+    "lng": 3.275488,
+    "transactions": [
+      {
+        "date": "2022-12-13",
+        "priceEur": 155700,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "0174d3c8d9fe": {
+    "id": "0174d3c8d9fe",
+    "label": "131 RTE DE L'ESCANDORGUE, Les Plans",
+    "lat": 43.755136,
+    "lng": 3.277458,
+    "transactions": [
+      {
+        "date": "2024-04-09",
+        "priceEur": 93090,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "5aa7d119991b": {
+    "id": "5aa7d119991b",
+    "label": "3 PL DE LA MAIRIE, Les Plans",
+    "lat": 43.753134,
+    "lng": 3.275617,
+    "transactions": [
+      {
+        "date": "2024-06-11",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-11",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "b27c3ca41aaa": {
+    "id": "b27c3ca41aaa",
+    "label": "136 RTE DES PLANS BAS, Les Plans",
+    "lat": 43.752517,
+    "lng": 3.276833,
+    "transactions": [
+      {
+        "date": "2025-03-28",
+        "priceEur": 363000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-28",
+        "priceEur": 363000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-28",
+        "priceEur": 363000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

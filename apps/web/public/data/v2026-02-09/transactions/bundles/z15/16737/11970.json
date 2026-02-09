@@ -1,0 +1,120 @@
+{
+  "a345f47bcd8c": {
+    "id": "a345f47bcd8c",
+    "label": "27 AV DE SEPTIMANIE, Lattes",
+    "lat": 43.564304,
+    "lng": 3.878951,
+    "transactions": [
+      {
+        "date": "2022-05-30",
+        "priceEur": 629650,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-17",
+        "priceEur": 376100,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "a7368863877b": {
+    "id": "a7368863877b",
+    "label": "9191 MAURIN, Lattes",
+    "lat": 43.559418,
+    "lng": 3.878802,
+    "transactions": [
+      {
+        "date": "2024-03-14",
+        "priceEur": 950000,
+        "typeLocal": "Maison",
+        "surfaceM2": 229,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-30",
+        "priceEur": 850000,
+        "typeLocal": "Maison",
+        "surfaceM2": 229,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb44b1195564": {
+    "id": "bb44b1195564",
+    "label": "128 MAURIN, Lattes",
+    "lat": 43.560607,
+    "lng": 3.878547,
+    "transactions": [
+      {
+        "date": "2024-03-06",
+        "priceEur": 3490000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-27",
+        "priceEur": 450000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "e54f301865e5": {
+    "id": "e54f301865e5",
+    "label": "617 AV DU MONTPELLIERET, Lattes",
+    "lat": 43.561071,
+    "lng": 3.878326,
+    "transactions": [
+      {
+        "date": "2022-04-05",
+        "priceEur": 249386,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ac339eebd19": {
+    "id": "0ac339eebd19",
+    "label": "129 RUE DU LANTISSARGUES, Lattes",
+    "lat": 43.560743,
+    "lng": 3.878612,
+    "transactions": [
+      {
+        "date": "2024-03-06",
+        "priceEur": 3490000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-21",
+        "priceEur": 600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "690589b6c3a3": {
+    "id": "690589b6c3a3",
+    "label": "127 RUE DU LANTISSARGUES, Lattes",
+    "lat": 43.560527,
+    "lng": 3.878183,
+    "transactions": [
+      {
+        "date": "2024-07-05",
+        "priceEur": 1000000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  }
+}

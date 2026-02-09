@@ -1,0 +1,53 @@
+{
+  "e387035b06ab": {
+    "id": "e387035b06ab",
+    "label": "25 AV DE LA FRIGOULE, Balaruc-les-Bains",
+    "lat": 43.453488,
+    "lng": 3.702532,
+    "transactions": [
+      {
+        "date": "2023-02-17",
+        "priceEur": 365500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-01",
+        "priceEur": 278500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "8606efa75ac8": {
+    "id": "8606efa75ac8",
+    "label": "27 AV DE LA FRIGOULE, Balaruc-les-Bains",
+    "lat": 43.453646,
+    "lng": 3.703505,
+    "transactions": [
+      {
+        "date": "2024-10-31",
+        "priceEur": 580000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-31",
+        "priceEur": 580000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-31",
+        "priceEur": 580000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

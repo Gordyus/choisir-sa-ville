@@ -1,0 +1,32 @@
+{
+  "8c1977742281": {
+    "id": "8c1977742281",
+    "label": "5252 SAINT JUST, Creissan",
+    "lat": 43.382172,
+    "lng": 2.981352,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "36246ef57315": {
+    "id": "36246ef57315",
+    "label": "5364 SAINT JUST, Creissan",
+    "lat": 43.382039,
+    "lng": 2.981174,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,953 @@
+{
+  "f9fdc7377e00": {
+    "id": "f9fdc7377e00",
+    "label": "1 RUE DES COTEAUX, Poussan",
+    "lat": 43.48533,
+    "lng": 3.668743,
+    "transactions": [
+      {
+        "date": "2020-07-29",
+        "priceEur": 311000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "20442ca44a17": {
+    "id": "20442ca44a17",
+    "label": "3 LOT LES PAMPRES, Poussan",
+    "lat": 43.490233,
+    "lng": 3.667868,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 283000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "e4b24e88fee1": {
+    "id": "e4b24e88fee1",
+    "label": "27 AV DE BEDARIEUX, Poussan",
+    "lat": 43.491377,
+    "lng": 3.669305,
+    "transactions": [
+      {
+        "date": "2020-11-03",
+        "priceEur": 250385,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-03",
+        "priceEur": 250385,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "eb7304734126": {
+    "id": "eb7304734126",
+    "label": "2 BD DU RIVERAIN, Poussan",
+    "lat": 43.488978,
+    "lng": 3.669307,
+    "transactions": [
+      {
+        "date": "2020-12-04",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "d76ce3cfc513": {
+    "id": "d76ce3cfc513",
+    "label": "1 RUE DES BAUX, Poussan",
+    "lat": 43.488403,
+    "lng": 3.668471,
+    "transactions": [
+      {
+        "date": "2020-12-04",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-04",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "6399ae255b78": {
+    "id": "6399ae255b78",
+    "label": "6233F AV GENERAL DE GAULLE, Poussan",
+    "lat": 43.487316,
+    "lng": 3.668262,
+    "transactions": [
+      {
+        "date": "2021-01-11",
+        "priceEur": 184680,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-14",
+        "priceEur": 195950,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "be36acbe7515": {
+    "id": "be36acbe7515",
+    "label": "3 RUE DE LA FRATERNITE, Poussan",
+    "lat": 43.488028,
+    "lng": 3.668208,
+    "transactions": [
+      {
+        "date": "2020-12-23",
+        "priceEur": 115050,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "458155e1c644": {
+    "id": "458155e1c644",
+    "label": "10 LOT LES PAMPRES, Poussan",
+    "lat": 43.489936,
+    "lng": 3.668271,
+    "transactions": [
+      {
+        "date": "2021-01-21",
+        "priceEur": 327721,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "f501f3727af0": {
+    "id": "f501f3727af0",
+    "label": "5 RUE EMILE ZOLA, Poussan",
+    "lat": 43.487965,
+    "lng": 3.66852,
+    "transactions": [
+      {
+        "date": "2021-02-01",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "6cac2bffb8f8": {
+    "id": "6cac2bffb8f8",
+    "label": "10 RUE MARCEL ICARD, Poussan",
+    "lat": 43.48775,
+    "lng": 3.668624,
+    "transactions": [
+      {
+        "date": "2021-02-11",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "888e289b0e70": {
+    "id": "888e289b0e70",
+    "label": "1 RUE DE LA POSTE, Poussan",
+    "lat": 43.489268,
+    "lng": 3.66914,
+    "transactions": [
+      {
+        "date": "2021-04-02",
+        "priceEur": 164226.45,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "29986ec01944": {
+    "id": "29986ec01944",
+    "label": "3 RUE DES BAUX, Poussan",
+    "lat": 43.488439,
+    "lng": 3.668412,
+    "transactions": [
+      {
+        "date": "2021-04-15",
+        "priceEur": 130000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-15",
+        "priceEur": 130000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2055527c6c3": {
+    "id": "c2055527c6c3",
+    "label": "2 RUE APPEL DU 18 JUIN 1940, Poussan",
+    "lat": 43.487316,
+    "lng": 3.668262,
+    "transactions": [
+      {
+        "date": "2024-12-24",
+        "priceEur": 115000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-23",
+        "priceEur": 175300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-03",
+        "priceEur": 209000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-24",
+        "priceEur": 151000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-29",
+        "priceEur": 152750,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-07",
+        "priceEur": 159450,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-16",
+        "priceEur": 136000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 37,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-10",
+        "priceEur": 187000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-01",
+        "priceEur": 153000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-30",
+        "priceEur": 104900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 33,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-28",
+        "priceEur": 203000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-15",
+        "priceEur": 142000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-08",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-11",
+        "priceEur": 201000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-29",
+        "priceEur": 126000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-12",
+        "priceEur": 193000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-10",
+        "priceEur": 201060,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "79f206daf03d": {
+    "id": "79f206daf03d",
+    "label": "3 RUE MARCEL ICARD, Poussan",
+    "lat": 43.48744,
+    "lng": 3.669022,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 157,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee289be3ea72": {
+    "id": "ee289be3ea72",
+    "label": "3 RUE EMILE LOUBET, Poussan",
+    "lat": 43.488124,
+    "lng": 3.668412,
+    "transactions": [
+      {
+        "date": "2021-06-25",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "d42f8eeae093": {
+    "id": "d42f8eeae093",
+    "label": "4 RUE DE L AMITIE, Poussan",
+    "lat": 43.491884,
+    "lng": 3.667132,
+    "transactions": [
+      {
+        "date": "2021-08-03",
+        "priceEur": 367500,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa77c84394e2": {
+    "id": "aa77c84394e2",
+    "label": "21 RUE DE LA SALLE, Poussan",
+    "lat": 43.488,
+    "lng": 3.667739,
+    "transactions": [
+      {
+        "date": "2021-08-26",
+        "priceEur": 157900,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e297223ec1a": {
+    "id": "3e297223ec1a",
+    "label": "3 RUE DES COTEAUX, Poussan",
+    "lat": 43.485225,
+    "lng": 3.66904,
+    "transactions": [
+      {
+        "date": "2021-08-13",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "f2c6359b0f2a": {
+    "id": "f2c6359b0f2a",
+    "label": "2 RUE DU FERRAGIL, Poussan",
+    "lat": 43.484837,
+    "lng": 3.66855,
+    "transactions": [
+      {
+        "date": "2021-09-24",
+        "priceEur": 237500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "b81d1f2adb62": {
+    "id": "b81d1f2adb62",
+    "label": "6 RUE PAUL VALERY, Poussan",
+    "lat": 43.48572,
+    "lng": 3.668388,
+    "transactions": [
+      {
+        "date": "2021-10-08",
+        "priceEur": 321000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "ffaeea7decc9": {
+    "id": "ffaeea7decc9",
+    "label": "8 RUE DU MISTRAL, Poussan",
+    "lat": 43.485998,
+    "lng": 3.666903,
+    "transactions": [
+      {
+        "date": "2022-05-05",
+        "priceEur": 283000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-26",
+        "priceEur": 620000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "616b4fd732c4": {
+    "id": "616b4fd732c4",
+    "label": "4 RUE APPEL DU 18 JUIN 1940, Poussan",
+    "lat": 43.487316,
+    "lng": 3.668262,
+    "transactions": [
+      {
+        "date": "2023-03-07",
+        "priceEur": 99100,
+        "typeLocal": "Appartement",
+        "surfaceM2": 33,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-06",
+        "priceEur": 185000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "b186a0bfabfb": {
+    "id": "b186a0bfabfb",
+    "label": "14 RUE DES CHAMPS, Poussan",
+    "lat": 43.48933,
+    "lng": 3.668367,
+    "transactions": [
+      {
+        "date": "2022-02-21",
+        "priceEur": 196000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea2fb4f458f4": {
+    "id": "ea2fb4f458f4",
+    "label": "6 RUE DES CHAMPS, Poussan",
+    "lat": 43.489097,
+    "lng": 3.668436,
+    "transactions": [
+      {
+        "date": "2022-03-01",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0ed5ec48f51": {
+    "id": "a0ed5ec48f51",
+    "label": "12 RUE PASTEUR, Poussan",
+    "lat": 43.489482,
+    "lng": 3.668344,
+    "transactions": [
+      {
+        "date": "2022-03-31",
+        "priceEur": 214000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "c55be464147d": {
+    "id": "c55be464147d",
+    "label": "4 RUE DE LA SALLE, Poussan",
+    "lat": 43.488349,
+    "lng": 3.66844,
+    "transactions": [
+      {
+        "date": "2022-10-19",
+        "priceEur": 161900,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "63293381060e": {
+    "id": "63293381060e",
+    "label": "8 RUE DE L AMITIE, Poussan",
+    "lat": 43.492089,
+    "lng": 3.66752,
+    "transactions": [
+      {
+        "date": "2022-11-18",
+        "priceEur": 333000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "3921f2536583": {
+    "id": "3921f2536583",
+    "label": "6 RUE PASTEUR, Poussan",
+    "lat": 43.489263,
+    "lng": 3.669021,
+    "transactions": [
+      {
+        "date": "2022-11-18",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "1413271ba254": {
+    "id": "1413271ba254",
+    "label": "29 AV DE BEDARIEUX, Poussan",
+    "lat": 43.491591,
+    "lng": 3.669055,
+    "transactions": [
+      {
+        "date": "2022-11-21",
+        "priceEur": 132200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "9cdb8969d0e2": {
+    "id": "9cdb8969d0e2",
+    "label": "1 RUE DU SERGENT BONNET, Poussan",
+    "lat": 43.487881,
+    "lng": 3.669279,
+    "transactions": [
+      {
+        "date": "2022-12-23",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-23",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e0a77c2244b": {
+    "id": "9e0a77c2244b",
+    "label": "1B RUE DU VIEUX PONT, Poussan",
+    "lat": 43.488945,
+    "lng": 3.668858,
+    "transactions": [
+      {
+        "date": "2022-12-16",
+        "priceEur": 212680,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9bac18dd2ea": {
+    "id": "b9bac18dd2ea",
+    "label": "14 RUE MARCEL PALAT, Poussan",
+    "lat": 43.487281,
+    "lng": 3.669323,
+    "transactions": [
+      {
+        "date": "2023-01-27",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "5fd479ec1e19": {
+    "id": "5fd479ec1e19",
+    "label": "9 CITE MALESCA, Poussan",
+    "lat": 43.491591,
+    "lng": 3.666974,
+    "transactions": [
+      {
+        "date": "2023-04-18",
+        "priceEur": 339500,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "2fbc8edeabcc": {
+    "id": "2fbc8edeabcc",
+    "label": "10 RUE DE LA FARIGOULE, Poussan",
+    "lat": 43.485385,
+    "lng": 3.667912,
+    "transactions": [
+      {
+        "date": "2023-04-26",
+        "priceEur": 421095,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "03d5faae66f3": {
+    "id": "03d5faae66f3",
+    "label": "2 AV GENERAL DE GAULLE, Poussan",
+    "lat": 43.487316,
+    "lng": 3.668262,
+    "transactions": [
+      {
+        "date": "2023-11-21",
+        "priceEur": 204000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-08",
+        "priceEur": 201600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "949c49006175": {
+    "id": "949c49006175",
+    "label": "8 RUE EMILE ZOLA, Poussan",
+    "lat": 43.487952,
+    "lng": 3.668244,
+    "transactions": [
+      {
+        "date": "2023-06-21",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5a436894b87": {
+    "id": "f5a436894b87",
+    "label": "6 RUE MARCEL PALAT, Poussan",
+    "lat": 43.487583,
+    "lng": 3.66915,
+    "transactions": [
+      {
+        "date": "2025-06-25",
+        "priceEur": 213000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 118,
+        "isVefa": false
+      },
+      {
+        "date": "2024-03-13",
+        "priceEur": 112000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-27",
+        "priceEur": 409800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-27",
+        "priceEur": 409800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1dd8e306c50": {
+    "id": "a1dd8e306c50",
+    "label": "12 CITE MALESCA, Poussan",
+    "lat": 43.491832,
+    "lng": 3.667659,
+    "transactions": [
+      {
+        "date": "2023-08-30",
+        "priceEur": 480425,
+        "typeLocal": "Maison",
+        "surfaceM2": 263,
+        "isVefa": false
+      }
+    ]
+  },
+  "2352be6b998e": {
+    "id": "2352be6b998e",
+    "label": "11A RUE PASTEUR, Poussan",
+    "lat": 43.489864,
+    "lng": 3.667291,
+    "transactions": [
+      {
+        "date": "2023-11-16",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f7d0334c594": {
+    "id": "3f7d0334c594",
+    "label": "2 RUE MARCEL PALAT, Poussan",
+    "lat": 43.487843,
+    "lng": 3.669354,
+    "transactions": [
+      {
+        "date": "2024-02-08",
+        "priceEur": 284850.38,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-08",
+        "priceEur": 284850.38,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-08",
+        "priceEur": 284850.38,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-08",
+        "priceEur": 284850.38,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-08",
+        "priceEur": 284850.38,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-08",
+        "priceEur": 284850.38,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed73205136cc": {
+    "id": "ed73205136cc",
+    "label": "23 AV DE BEDARIEUX, Poussan",
+    "lat": 43.491039,
+    "lng": 3.669276,
+    "transactions": [
+      {
+        "date": "2024-02-02",
+        "priceEur": 195000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-02",
+        "priceEur": 195000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "12ec45517c9a": {
+    "id": "12ec45517c9a",
+    "label": "4 RUE DU VIEUX PONT, Poussan",
+    "lat": 43.489019,
+    "lng": 3.668652,
+    "transactions": [
+      {
+        "date": "2024-04-19",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d50a5690861": {
+    "id": "0d50a5690861",
+    "label": "9 RUE PASTEUR, Poussan",
+    "lat": 43.489706,
+    "lng": 3.667432,
+    "transactions": [
+      {
+        "date": "2024-04-19",
+        "priceEur": 254000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "bab92bb62d49": {
+    "id": "bab92bb62d49",
+    "label": "6 CITE MALESCA, Poussan",
+    "lat": 43.491227,
+    "lng": 3.666811,
+    "transactions": [
+      {
+        "date": "2024-11-07",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "423bd94bbe2d": {
+    "id": "423bd94bbe2d",
+    "label": "6 RUE DE LA FRATERNITE, Poussan",
+    "lat": 43.488071,
+    "lng": 3.668087,
+    "transactions": [
+      {
+        "date": "2024-11-20",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "02d76ceeed46": {
+    "id": "02d76ceeed46",
+    "label": "3 RUE DU MISTRAL, Poussan",
+    "lat": 43.485685,
+    "lng": 3.666979,
+    "transactions": [
+      {
+        "date": "2024-12-30",
+        "priceEur": 305000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "01d3e07c564a": {
+    "id": "01d3e07c564a",
+    "label": "7 RUE DE LA FRATERNITE, Poussan",
+    "lat": 43.487895,
+    "lng": 3.668085,
+    "transactions": [
+      {
+        "date": "2025-01-17",
+        "priceEur": 117700,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "bdfe2d5e5974": {
+    "id": "bdfe2d5e5974",
+    "label": "7C RUE PIERRE SEGUY, Poussan",
+    "lat": 43.492084,
+    "lng": 3.66789,
+    "transactions": [
+      {
+        "date": "2025-06-24",
+        "priceEur": 372800,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

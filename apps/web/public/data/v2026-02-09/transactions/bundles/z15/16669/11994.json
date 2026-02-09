@@ -1,0 +1,53 @@
+{
+  "363e63246294": {
+    "id": "363e63246294",
+    "label": "5973 LE CAUQUILLAS ET MAZELLIER, Maraussan",
+    "lat": 43.369431,
+    "lng": 3.139447,
+    "transactions": [
+      {
+        "date": "2020-08-06",
+        "priceEur": 276950,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0df8c1adfc0": {
+    "id": "c0df8c1adfc0",
+    "label": "6151F LE CAUQUILLAS ET MAZELLIER, Maraussan",
+    "lat": 43.369435,
+    "lng": 3.138777,
+    "transactions": [
+      {
+        "date": "2024-06-20",
+        "priceEur": 321150,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-20",
+        "priceEur": 321150,
+        "typeLocal": "Maison",
+        "surfaceM2": 270,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-20",
+        "priceEur": 321150,
+        "typeLocal": "Maison",
+        "surfaceM2": 270,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-20",
+        "priceEur": 321150,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  }
+}

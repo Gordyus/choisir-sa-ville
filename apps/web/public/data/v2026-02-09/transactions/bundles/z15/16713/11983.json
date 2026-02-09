@@ -1,0 +1,47 @@
+{
+  "5efe626c500a": {
+    "id": "5efe626c500a",
+    "label": "189 RUE DU BELOUMBET, Loupian",
+    "lat": 43.453158,
+    "lng": 3.615333,
+    "transactions": [
+      {
+        "date": "2020-09-11",
+        "priceEur": 110400,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "1bd8eaed9e83": {
+    "id": "1bd8eaed9e83",
+    "label": "96 RUE DU BELOUMBET, Loupian",
+    "lat": 43.452919,
+    "lng": 3.616028,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 460730,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "0aa5e2725741": {
+    "id": "0aa5e2725741",
+    "label": "2 LOT LOU PIANUM, Loupian",
+    "lat": 43.453738,
+    "lng": 3.615417,
+    "transactions": [
+      {
+        "date": "2023-07-03",
+        "priceEur": 408450,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "8c196800a255": {
+    "id": "8c196800a255",
+    "label": "1 LOT LE MAS D'ARMAND II, Grabels",
+    "lat": 43.65222,
+    "lng": 3.80864,
+    "transactions": [
+      {
+        "date": "2023-11-30",
+        "priceEur": 403000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-15",
+        "priceEur": 64000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-28",
+        "priceEur": 314400,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "8ac24ee7ec54": {
+    "id": "8ac24ee7ec54",
+    "label": "12 RUE DE ROQUEBLANQUE, Grabels",
+    "lat": 43.652097,
+    "lng": 3.806558,
+    "transactions": [
+      {
+        "date": "2020-08-28",
+        "priceEur": 500000,
+        "typeLocal": "Maison",
+        "surfaceM2": 176,
+        "isVefa": false
+      }
+    ]
+  },
+  "ec23db293721": {
+    "id": "ec23db293721",
+    "label": "94 RUE DU PLATEAU, Grabels",
+    "lat": 43.652968,
+    "lng": 3.805853,
+    "transactions": [
+      {
+        "date": "2021-06-04",
+        "priceEur": 673000,
+        "typeLocal": "Maison",
+        "surfaceM2": 237,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd69b3ff7a0f": {
+    "id": "bd69b3ff7a0f",
+    "label": "317 RUE DE LA PLAINE, Grabels",
+    "lat": 43.65381,
+    "lng": 3.805504,
+    "transactions": [
+      {
+        "date": "2021-08-20",
+        "priceEur": 337000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f2ccf8ff4b0": {
+    "id": "3f2ccf8ff4b0",
+    "label": "9 RUE DES SERPOLETS, Grabels",
+    "lat": 43.652863,
+    "lng": 3.803127,
+    "transactions": [
+      {
+        "date": "2022-06-27",
+        "priceEur": 405000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-27",
+        "priceEur": 405000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "81df4a15820f": {
+    "id": "81df4a15820f",
+    "label": "2 LOT LES MOURGUETTES, Grabels",
+    "lat": 43.653337,
+    "lng": 3.805152,
+    "transactions": [
+      {
+        "date": "2022-09-14",
+        "priceEur": 506650,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e60ab3245bb": {
+    "id": "0e60ab3245bb",
+    "label": "21 RUE DE ROQUEBLANQUE, Grabels",
+    "lat": 43.652908,
+    "lng": 3.806718,
+    "transactions": [
+      {
+        "date": "2023-06-14",
+        "priceEur": 462500,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "a4fb8423c23c": {
+    "id": "a4fb8423c23c",
+    "label": "75 RUE DU PLATEAU, Grabels",
+    "lat": 43.652349,
+    "lng": 3.804912,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "7dde2906c1a8": {
+    "id": "7dde2906c1a8",
+    "label": "5 LOT LES MOURGUETTES, Grabels",
+    "lat": 43.652889,
+    "lng": 3.805148,
+    "transactions": [
+      {
+        "date": "2023-10-09",
+        "priceEur": 412400,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa1901e682ec": {
+    "id": "fa1901e682ec",
+    "label": "344 RUE DE LA PLAINE, Grabels",
+    "lat": 43.653786,
+    "lng": 3.805944,
+    "transactions": [
+      {
+        "date": "2024-03-08",
+        "priceEur": 337250,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "289f9cfd9ad6": {
+    "id": "289f9cfd9ad6",
+    "label": "298 RUE DE LA PLAINE, Grabels",
+    "lat": 43.654156,
+    "lng": 3.805543,
+    "transactions": [
+      {
+        "date": "2024-08-19",
+        "priceEur": 465000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

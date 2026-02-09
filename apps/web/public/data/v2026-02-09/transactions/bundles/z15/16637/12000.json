@@ -1,0 +1,32 @@
+{
+  "e355553c1544": {
+    "id": "e355553c1544",
+    "label": "5176 LES LAUSASSES, Aigne",
+    "lat": 43.320219,
+    "lng": 2.779681,
+    "transactions": [
+      {
+        "date": "2023-01-25",
+        "priceEur": 472600,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "1cb5a5ea70aa": {
+    "id": "1cb5a5ea70aa",
+    "label": "5074 AU VILLAGE, Aigne",
+    "lat": 43.320298,
+    "lng": 2.779551,
+    "transactions": [
+      {
+        "date": "2023-01-25",
+        "priceEur": 472600,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

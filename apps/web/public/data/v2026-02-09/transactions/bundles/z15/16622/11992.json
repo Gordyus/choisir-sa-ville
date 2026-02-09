@@ -1,0 +1,32 @@
+{
+  "7154a9bdcae2": {
+    "id": "7154a9bdcae2",
+    "label": "5043 LE VILLAGE, Cassagnoles",
+    "lat": 43.386033,
+    "lng": 2.619559,
+    "transactions": [
+      {
+        "date": "2023-04-20",
+        "priceEur": 20000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e8c9d1c9c68": {
+    "id": "0e8c9d1c9c68",
+    "label": "5055 LA CAUNE, Cassagnoles",
+    "lat": 43.389073,
+    "lng": 2.619136,
+    "transactions": [
+      {
+        "date": "2024-04-17",
+        "priceEur": 52000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

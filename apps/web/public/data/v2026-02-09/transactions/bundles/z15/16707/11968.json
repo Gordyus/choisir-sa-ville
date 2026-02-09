@@ -1,0 +1,39 @@
+{
+  "c5b709692ea7": {
+    "id": "c5b709692ea7",
+    "label": "3 IMP DU MERLOT, Vendémian",
+    "lat": 43.579839,
+    "lng": 3.556277,
+    "transactions": [
+      {
+        "date": "2020-10-27",
+        "priceEur": 288750,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-27",
+        "priceEur": 288750,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5554d5b7993": {
+    "id": "f5554d5b7993",
+    "label": "7 IMP DU CABERNET, Vendémian",
+    "lat": 43.579787,
+    "lng": 3.554422,
+    "transactions": [
+      {
+        "date": "2021-08-24",
+        "priceEur": 316270,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  }
+}

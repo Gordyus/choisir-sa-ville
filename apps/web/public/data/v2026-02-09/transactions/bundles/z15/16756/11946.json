@@ -1,0 +1,135 @@
+{
+  "be7291d5238f": {
+    "id": "be7291d5238f",
+    "label": "210 CHE DES FOURQUES, Boisseron",
+    "lat": 43.752862,
+    "lng": 4.087713,
+    "transactions": [
+      {
+        "date": "2020-10-21",
+        "priceEur": 234300,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ffbb480566d": {
+    "id": "3ffbb480566d",
+    "label": "815 AV FREDERIC MISTRAL, Boisseron",
+    "lat": 43.755095,
+    "lng": 4.087289,
+    "transactions": [
+      {
+        "date": "2021-01-15",
+        "priceEur": 366000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "34ca7328df3f": {
+    "id": "34ca7328df3f",
+    "label": "14 RUE DE RIEUTORD, Boisseron",
+    "lat": 43.752478,
+    "lng": 4.088101,
+    "transactions": [
+      {
+        "date": "2021-10-19",
+        "priceEur": 318000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "14dbdab093a9": {
+    "id": "14dbdab093a9",
+    "label": "165 RUE DE RIEUTORD, Boisseron",
+    "lat": 43.751242,
+    "lng": 4.086981,
+    "transactions": [
+      {
+        "date": "2022-02-15",
+        "priceEur": 478290,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-15",
+        "priceEur": 478290,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "79c7f548912a": {
+    "id": "79c7f548912a",
+    "label": "819 AV FREDERIC MISTRAL, Boisseron",
+    "lat": 43.754673,
+    "lng": 4.08716,
+    "transactions": [
+      {
+        "date": "2023-02-17",
+        "priceEur": 462000,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-17",
+        "priceEur": 462000,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "73d80ced8c29": {
+    "id": "73d80ced8c29",
+    "label": "825 AV FREDERIC MISTRAL, Boisseron",
+    "lat": 43.754316,
+    "lng": 4.087221,
+    "transactions": [
+      {
+        "date": "2023-05-26",
+        "priceEur": 357000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-26",
+        "priceEur": 357000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "aae2427b7cbb": {
+    "id": "aae2427b7cbb",
+    "label": "208B CHE DES FOURQUES, Boisseron",
+    "lat": 43.752614,
+    "lng": 4.087617,
+    "transactions": [
+      {
+        "date": "2024-04-18",
+        "priceEur": 621800,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-18",
+        "priceEur": 621800,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "291b591c39cc": {
+    "id": "291b591c39cc",
+    "label": "5656F CHE DE NABRIGAS, Valergues",
+    "lat": 43.678249,
+    "lng": 4.060201,
+    "transactions": [
+      {
+        "date": "2023-06-26",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "f520e1b92c4a": {
+    "id": "f520e1b92c4a",
+    "label": "5542 CHE DE NABRIGAS, Valergues",
+    "lat": 43.680043,
+    "lng": 4.061318,
+    "transactions": [
+      {
+        "date": "2024-09-20",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-20",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "fdf171b015a5": {
+    "id": "fdf171b015a5",
+    "label": "6008F GRAZILLA, Gigean",
+    "lat": 43.516708,
+    "lng": 3.725981,
+    "transactions": [
+      {
+        "date": "2022-04-19",
+        "priceEur": 522000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 101,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-19",
+        "priceEur": 522000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "d9fcef3dc494": {
+    "id": "d9fcef3dc494",
+    "label": "765 RUE DES MASELIERS, Cournonsec",
+    "lat": 43.524448,
+    "lng": 3.724897,
+    "transactions": [
+      {
+        "date": "2022-09-15",
+        "priceEur": 454108,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  }
+}

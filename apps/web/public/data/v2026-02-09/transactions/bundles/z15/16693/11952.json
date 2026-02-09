@@ -1,0 +1,127 @@
+{
+  "1fb5c45f3d29": {
+    "id": "1fb5c45f3d29",
+    "label": "11 RTE DE SAINT ALBAN, Le Bosc",
+    "lat": 43.704752,
+    "lng": 3.396211,
+    "transactions": [
+      {
+        "date": "2023-05-03",
+        "priceEur": 282072,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-03",
+        "priceEur": 282072,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-30",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-30",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "5809cd8572aa": {
+    "id": "5809cd8572aa",
+    "label": "3 RTE DE SAINT ALBAN, Le Bosc",
+    "lat": 43.706619,
+    "lng": 3.395367,
+    "transactions": [
+      {
+        "date": "2021-10-11",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "a424eb965f99": {
+    "id": "a424eb965f99",
+    "label": "6077 LOIRAS, Le Bosc",
+    "lat": 43.706226,
+    "lng": 3.397137,
+    "transactions": [
+      {
+        "date": "2021-11-16",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc23ec6206f1": {
+    "id": "cc23ec6206f1",
+    "label": "2 LOT LE PIERRE ALEXANDRE, Le Bosc",
+    "lat": 43.705535,
+    "lng": 3.397732,
+    "transactions": [
+      {
+        "date": "2022-04-27",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 225,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-27",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 225,
+        "isVefa": false
+      }
+    ]
+  },
+  "e87535c1f7ec": {
+    "id": "e87535c1f7ec",
+    "label": "2 RUE DE LA VIEILLE EGLISE, Le Bosc",
+    "lat": 43.706746,
+    "lng": 3.39555,
+    "transactions": [
+      {
+        "date": "2023-04-06",
+        "priceEur": 225650,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "392034a86af9": {
+    "id": "392034a86af9",
+    "label": "4 LOT LE PIERRE ALEXANDRE, Le Bosc",
+    "lat": 43.706124,
+    "lng": 3.397768,
+    "transactions": [
+      {
+        "date": "2024-02-19",
+        "priceEur": 713400,
+        "typeLocal": "Maison",
+        "surfaceM2": 288,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-19",
+        "priceEur": 713400,
+        "typeLocal": "Maison",
+        "surfaceM2": 288,
+        "isVefa": false
+      }
+    ]
+  }
+}

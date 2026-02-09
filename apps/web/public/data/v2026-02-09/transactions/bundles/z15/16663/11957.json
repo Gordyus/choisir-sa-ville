@@ -1,0 +1,69 @@
+{
+  "bbbc0df44646": {
+    "id": "bbbc0df44646",
+    "label": "5823 CASTANET-LE-BAS, Saint-Gervais-sur-Mare",
+    "lat": 43.663198,
+    "lng": 3.075145,
+    "transactions": [
+      {
+        "date": "2020-10-02",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "865a0082c687": {
+    "id": "865a0082c687",
+    "label": "5623 CASTANET-LE-BAS, Saint-Gervais-sur-Mare",
+    "lat": 43.662255,
+    "lng": 3.072583,
+    "transactions": [
+      {
+        "date": "2021-10-18",
+        "priceEur": 38000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-18",
+        "priceEur": 38000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "072404ab2abe": {
+    "id": "072404ab2abe",
+    "label": "5464 CASTANET-LE-BAS, Saint-Gervais-sur-Mare",
+    "lat": 43.662651,
+    "lng": 3.074236,
+    "transactions": [
+      {
+        "date": "2021-12-07",
+        "priceEur": 24000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "22078670b74d": {
+    "id": "22078670b74d",
+    "label": "5466 CASTANET-LE-BAS, Saint-Gervais-sur-Mare",
+    "lat": 43.662589,
+    "lng": 3.074106,
+    "transactions": [
+      {
+        "date": "2023-04-20",
+        "priceEur": 43000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  }
+}

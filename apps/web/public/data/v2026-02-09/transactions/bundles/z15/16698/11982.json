@@ -1,0 +1,32 @@
+{
+  "15bc258973b6": {
+    "id": "15bc258973b6",
+    "label": "7 CHE DE SAINT MARTIN, Aumes",
+    "lat": 43.464641,
+    "lng": 3.460314,
+    "transactions": [
+      {
+        "date": "2021-04-20",
+        "priceEur": 321650,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6737c30dc7e": {
+    "id": "e6737c30dc7e",
+    "label": "9 CHE DE SAINT MARTIN, Aumes",
+    "lat": 43.46457,
+    "lng": 3.46008,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  }
+}

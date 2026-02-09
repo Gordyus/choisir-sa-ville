@@ -1,0 +1,84 @@
+{
+  "03249fdaa317": {
+    "id": "03249fdaa317",
+    "label": "9 RUE DU CARIGNAN, Magalas",
+    "lat": 43.477154,
+    "lng": 3.219946,
+    "transactions": [
+      {
+        "date": "2022-08-10",
+        "priceEur": 335200,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "93556dc12dc6": {
+    "id": "93556dc12dc6",
+    "label": "3 RUE DU CARIGNAN, Magalas",
+    "lat": 43.477243,
+    "lng": 3.220542,
+    "transactions": [
+      {
+        "date": "2023-08-18",
+        "priceEur": 404900,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-15",
+        "priceEur": 366980,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "224208e94096": {
+    "id": "224208e94096",
+    "label": "9 RUE DU CARIGNAN BLANC, Magalas",
+    "lat": 43.477577,
+    "lng": 3.221293,
+    "transactions": [
+      {
+        "date": "2024-01-30",
+        "priceEur": 110250,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "77e3caf3fe9a": {
+    "id": "77e3caf3fe9a",
+    "label": "7 RUE DU MUSCAT, Magalas",
+    "lat": 43.476876,
+    "lng": 3.219003,
+    "transactions": [
+      {
+        "date": "2024-09-16",
+        "priceEur": 266200,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "1aa9de2b1ee5": {
+    "id": "1aa9de2b1ee5",
+    "label": "55 RUE DU CHARDONNAY, Magalas",
+    "lat": 43.477375,
+    "lng": 3.221181,
+    "transactions": [
+      {
+        "date": "2025-04-04",
+        "priceEur": 286090,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  }
+}

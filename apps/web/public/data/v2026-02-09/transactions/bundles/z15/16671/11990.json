@@ -1,0 +1,112 @@
+{
+  "b5f2d3d7a8a7": {
+    "id": "b5f2d3d7a8a7",
+    "label": "13B RUE JEAN JACQUES ROUSSEAU, Thézan-lès-Béziers",
+    "lat": 43.397198,
+    "lng": 3.161794,
+    "transactions": [
+      {
+        "date": "2021-09-01",
+        "priceEur": 525000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-01",
+        "priceEur": 525000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "f015ac729416": {
+    "id": "f015ac729416",
+    "label": "1 LA MALHAUTE, Thézan-lès-Béziers",
+    "lat": 43.401628,
+    "lng": 3.162666,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 504000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "232044e6677b": {
+    "id": "232044e6677b",
+    "label": "6070F CHEM DE LA BEDISSIERE, Thézan-lès-Béziers",
+    "lat": 43.399074,
+    "lng": 3.162452,
+    "transactions": [
+      {
+        "date": "2022-08-31",
+        "priceEur": 650000,
+        "typeLocal": "Maison",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-31",
+        "priceEur": 650000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-31",
+        "priceEur": 650000,
+        "typeLocal": "Maison",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-31",
+        "priceEur": 650000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f821bb050db": {
+    "id": "3f821bb050db",
+    "label": "5028 LES VIGNALS, Thézan-lès-Béziers",
+    "lat": 43.400279,
+    "lng": 3.16062,
+    "transactions": [
+      {
+        "date": "2023-01-10",
+        "priceEur": 875000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "909c462b1475": {
+    "id": "909c462b1475",
+    "label": "5394 LA FENASSE, Thézan-lès-Béziers",
+    "lat": 43.404512,
+    "lng": 3.156423,
+    "transactions": [
+      {
+        "date": "2024-04-18",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-18",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

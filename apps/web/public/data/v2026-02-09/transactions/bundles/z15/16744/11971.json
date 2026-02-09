@@ -1,0 +1,513 @@
+{
+  "c6b24e3daef3": {
+    "id": "c6b24e3daef3",
+    "label": "290 AV SAINT VINCENT, Pérols",
+    "lat": 43.555951,
+    "lng": 3.959851,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 270000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-29",
+        "priceEur": 230000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-12",
+        "priceEur": 860000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 196,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-07",
+        "priceEur": 600000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 94,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-04",
+        "priceEur": 254380,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-03",
+        "priceEur": 240921,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-09",
+        "priceEur": 595000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 124,
+        "isVefa": true
+      },
+      {
+        "date": "2020-07-02",
+        "priceEur": 205500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  },
+  "83fce3864d8c": {
+    "id": "83fce3864d8c",
+    "label": "5 IMP DES EPICEAS, Pérols",
+    "lat": 43.553826,
+    "lng": 3.964547,
+    "transactions": [
+      {
+        "date": "2020-07-10",
+        "priceEur": 725700,
+        "typeLocal": "Maison",
+        "surfaceM2": 183,
+        "isVefa": false
+      }
+    ]
+  },
+  "8ef5f936ff79": {
+    "id": "8ef5f936ff79",
+    "label": "188 RUE DU CHEVREFEUILLE, Pérols",
+    "lat": 43.556342,
+    "lng": 3.958861,
+    "transactions": [
+      {
+        "date": "2020-08-05",
+        "priceEur": 249000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d211b7ae896": {
+    "id": "2d211b7ae896",
+    "label": "4 IMP DE LA CADETTE, Pérols",
+    "lat": 43.554786,
+    "lng": 3.963758,
+    "transactions": [
+      {
+        "date": "2021-04-07",
+        "priceEur": 870000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-22",
+        "priceEur": 898001,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "64553cfbec24": {
+    "id": "64553cfbec24",
+    "label": "688 RUE BONADONA, Pérols",
+    "lat": 43.553801,
+    "lng": 3.963626,
+    "transactions": [
+      {
+        "date": "2020-11-02",
+        "priceEur": 522050,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "d7d84ccb1491": {
+    "id": "d7d84ccb1491",
+    "label": "306 RUE DU CHEVREFEUILLE, Pérols",
+    "lat": 43.555859,
+    "lng": 3.958885,
+    "transactions": [
+      {
+        "date": "2021-03-19",
+        "priceEur": 299000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "423798846ccd": {
+    "id": "423798846ccd",
+    "label": "35 RUE ARAMON, Pérols",
+    "lat": 43.5561,
+    "lng": 3.96039,
+    "transactions": [
+      {
+        "date": "2021-06-11",
+        "priceEur": 448000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "bcecb33201cc": {
+    "id": "bcecb33201cc",
+    "label": "315 AV SAINT VINCENT, Pérols",
+    "lat": 43.555201,
+    "lng": 3.961295,
+    "transactions": [
+      {
+        "date": "2021-06-25",
+        "priceEur": 687000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "93ec3d8f56c6": {
+    "id": "93ec3d8f56c6",
+    "label": "1 RUE DES FELIBRES, Pérols",
+    "lat": 43.555896,
+    "lng": 3.963505,
+    "transactions": [
+      {
+        "date": "2021-07-19",
+        "priceEur": 557100,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "099cecdc3157": {
+    "id": "099cecdc3157",
+    "label": "350 RUE BONADONA, Pérols",
+    "lat": 43.556487,
+    "lng": 3.961359,
+    "transactions": [
+      {
+        "date": "2021-08-18",
+        "priceEur": 735000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2546f4b5b2e": {
+    "id": "c2546f4b5b2e",
+    "label": "9001 AV SAINT VINCENT, Pérols",
+    "lat": 43.556429,
+    "lng": 3.964673,
+    "transactions": [
+      {
+        "date": "2021-10-14",
+        "priceEur": 545000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6b1a5b9e065": {
+    "id": "c6b1a5b9e065",
+    "label": "628 RUE BONADONA, Pérols",
+    "lat": 43.554033,
+    "lng": 3.962561,
+    "transactions": [
+      {
+        "date": "2021-12-08",
+        "priceEur": 583200,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3e997111e57": {
+    "id": "d3e997111e57",
+    "label": "5 IMP DES LILAS, Pérols",
+    "lat": 43.556235,
+    "lng": 3.962657,
+    "transactions": [
+      {
+        "date": "2025-03-31",
+        "priceEur": 1266000,
+        "typeLocal": "Maison",
+        "surfaceM2": 252,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-10",
+        "priceEur": 1136000,
+        "typeLocal": "Maison",
+        "surfaceM2": 205,
+        "isVefa": false
+      }
+    ]
+  },
+  "01f375614b2d": {
+    "id": "01f375614b2d",
+    "label": "8 RUE ALBERT CAMUS, Pérols",
+    "lat": 43.554265,
+    "lng": 3.964132,
+    "transactions": [
+      {
+        "date": "2022-01-19",
+        "priceEur": 454000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "df9ab348976c": {
+    "id": "df9ab348976c",
+    "label": "100 AV SAINT VINCENT, Pérols",
+    "lat": 43.55632,
+    "lng": 3.963323,
+    "transactions": [
+      {
+        "date": "2022-02-15",
+        "priceEur": 1240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 176,
+        "isVefa": false
+      }
+    ]
+  },
+  "e3aba68655f3": {
+    "id": "e3aba68655f3",
+    "label": "585B RUE BONADONA, Pérols",
+    "lat": 43.554023,
+    "lng": 3.962125,
+    "transactions": [
+      {
+        "date": "2022-02-24",
+        "priceEur": 1437300,
+        "typeLocal": "Maison",
+        "surfaceM2": 233,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-24",
+        "priceEur": 1437300,
+        "typeLocal": "Maison",
+        "surfaceM2": 233,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf716220e236": {
+    "id": "cf716220e236",
+    "label": "720 RUE BONADONA, Pérols",
+    "lat": 43.553345,
+    "lng": 3.96377,
+    "transactions": [
+      {
+        "date": "2022-09-19",
+        "priceEur": 516000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-19",
+        "priceEur": 516000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "418d9f84fd31": {
+    "id": "418d9f84fd31",
+    "label": "9 IMP RAYGI, Pérols",
+    "lat": 43.555569,
+    "lng": 3.964221,
+    "transactions": [
+      {
+        "date": "2022-10-03",
+        "priceEur": 577000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e538ce3eae0": {
+    "id": "4e538ce3eae0",
+    "label": "30 RUE DU TRIDENT D'OR, Pérols",
+    "lat": 43.555763,
+    "lng": 3.957918,
+    "transactions": [
+      {
+        "date": "2023-01-03",
+        "priceEur": 481000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "3515310252b5": {
+    "id": "3515310252b5",
+    "label": "40 RUE DES TILLEULS, Pérols",
+    "lat": 43.556207,
+    "lng": 3.957077,
+    "transactions": [
+      {
+        "date": "2023-04-12",
+        "priceEur": 900000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "2bb2c21b8e7f": {
+    "id": "2bb2c21b8e7f",
+    "label": "21 RUE DES FELIBRES, Pérols",
+    "lat": 43.555135,
+    "lng": 3.96294,
+    "transactions": [
+      {
+        "date": "2023-11-07",
+        "priceEur": 567300,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "8cae9c91b567": {
+    "id": "8cae9c91b567",
+    "label": "4 RUE DES FELIBRES, Pérols",
+    "lat": 43.555647,
+    "lng": 3.963219,
+    "transactions": [
+      {
+        "date": "2023-11-16",
+        "priceEur": 227643,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "8642a4b9360b": {
+    "id": "8642a4b9360b",
+    "label": "434 RUE BONADONA, Pérols",
+    "lat": 43.556122,
+    "lng": 3.962252,
+    "transactions": [
+      {
+        "date": "2024-01-24",
+        "priceEur": 1757000,
+        "typeLocal": "Maison",
+        "surfaceM2": 237,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-24",
+        "priceEur": 1757000,
+        "typeLocal": "Maison",
+        "surfaceM2": 237,
+        "isVefa": false
+      }
+    ]
+  },
+  "3efe6ec37c09": {
+    "id": "3efe6ec37c09",
+    "label": "11 RUE DES FELIBRES, Pérols",
+    "lat": 43.555227,
+    "lng": 3.96384,
+    "transactions": [
+      {
+        "date": "2024-02-21",
+        "priceEur": 255150,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-21",
+        "priceEur": 255150,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a5e33d83816": {
+    "id": "8a5e33d83816",
+    "label": "272 RUE DES CHEVREFEUILLES, Pérols",
+    "lat": 43.55599,
+    "lng": 3.958652,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 614900,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "bebd0f3654f2": {
+    "id": "bebd0f3654f2",
+    "label": "450 AV SAINT VINCENT, Pérols",
+    "lat": 43.555522,
+    "lng": 3.956946,
+    "transactions": [
+      {
+        "date": "2024-07-11",
+        "priceEur": 1003400,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "acf3a93ced7f": {
+    "id": "acf3a93ced7f",
+    "label": "2 RUE DES FELIBRES, Pérols",
+    "lat": 43.555731,
+    "lng": 3.963122,
+    "transactions": [
+      {
+        "date": "2024-09-30",
+        "priceEur": 73500,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "b71dabbb7f8e": {
+    "id": "b71dabbb7f8e",
+    "label": "6 RUE CARIGNAN, Pérols",
+    "lat": 43.555993,
+    "lng": 3.960575,
+    "transactions": [
+      {
+        "date": "2025-04-24",
+        "priceEur": 584500,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  }
+}

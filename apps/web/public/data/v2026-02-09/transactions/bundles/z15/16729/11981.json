@@ -1,0 +1,39 @@
+{
+  "ade99378afa2": {
+    "id": "ade99378afa2",
+    "label": "5201 LES CRESSES, Vic-la-Gardiole",
+    "lat": 43.474327,
+    "lng": 3.799748,
+    "transactions": [
+      {
+        "date": "2022-12-15",
+        "priceEur": 1310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "650c84dce776": {
+    "id": "650c84dce776",
+    "label": "5868 LES CRESSES, Vic-la-Gardiole",
+    "lat": 43.476536,
+    "lng": 3.796245,
+    "transactions": [
+      {
+        "date": "2024-10-10",
+        "priceEur": 243988.44,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-10",
+        "priceEur": 243988.44,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  }
+}

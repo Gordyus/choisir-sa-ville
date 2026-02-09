@@ -1,0 +1,24 @@
+{
+  "121082f1e05b": {
+    "id": "121082f1e05b",
+    "label": "6137 CARTELS, Le Bosc",
+    "lat": 43.683739,
+    "lng": 3.360274,
+    "transactions": [
+      {
+        "date": "2023-04-13",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-07",
+        "priceEur": 61750,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  }
+}

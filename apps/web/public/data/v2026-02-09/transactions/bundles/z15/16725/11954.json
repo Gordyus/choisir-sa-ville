@@ -1,0 +1,61 @@
+{
+  "0105c9c1ecb7": {
+    "id": "0105c9c1ecb7",
+    "label": "25 VOIE DES BARONS DE CARAVETTES, Murles",
+    "lat": 43.685158,
+    "lng": 3.747063,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-21",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "1413eef4351a": {
+    "id": "1413eef4351a",
+    "label": "23 VOIE DES BARONS DE CARAVETTES, Murles",
+    "lat": 43.685158,
+    "lng": 3.747063,
+    "transactions": [
+      {
+        "date": "2022-05-03",
+        "priceEur": 111000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-03",
+        "priceEur": 111000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a820f45ddf3": {
+    "id": "8a820f45ddf3",
+    "label": "6 LOT LES VIGNES VIEILLES, Murles",
+    "lat": 43.687129,
+    "lng": 3.746381,
+    "transactions": [
+      {
+        "date": "2024-08-26",
+        "priceEur": 666320,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  }
+}

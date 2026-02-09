@@ -1,0 +1,39 @@
+{
+  "b4b230ec40cb": {
+    "id": "b4b230ec40cb",
+    "label": "451C CHE DU CLAP, Bouzigues",
+    "lat": 43.453044,
+    "lng": 3.660309,
+    "transactions": [
+      {
+        "date": "2021-03-31",
+        "priceEur": 487400,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2c8e794e936": {
+    "id": "e2c8e794e936",
+    "label": "5730 LE BOSC, Bouzigues",
+    "lat": 43.457417,
+    "lng": 3.663878,
+    "transactions": [
+      {
+        "date": "2023-03-15",
+        "priceEur": 820000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-15",
+        "priceEur": 820000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

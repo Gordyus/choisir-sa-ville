@@ -1,0 +1,39 @@
+{
+  "9447a68d2083": {
+    "id": "9447a68d2083",
+    "label": "5610 LE BOSQUET, Fabrègues",
+    "lat": 43.549632,
+    "lng": 3.798598,
+    "transactions": [
+      {
+        "date": "2021-01-12",
+        "priceEur": 244700,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-12",
+        "priceEur": 244700,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "47279c19e2c1": {
+    "id": "47279c19e2c1",
+    "label": "9058F CHEMIN DE VILLENEUVE, Fabrègues",
+    "lat": 43.550644,
+    "lng": 3.791622,
+    "transactions": [
+      {
+        "date": "2024-05-14",
+        "priceEur": 79000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  }
+}

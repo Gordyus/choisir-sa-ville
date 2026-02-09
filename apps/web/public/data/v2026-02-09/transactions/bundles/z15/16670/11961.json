@@ -1,0 +1,39 @@
+{
+  "d1952f0a61f7": {
+    "id": "d1952f0a61f7",
+    "label": "9026 LE CAUSSE, Bédarieux",
+    "lat": 43.629774,
+    "lng": 3.153017,
+    "transactions": [
+      {
+        "date": "2021-01-07",
+        "priceEur": 19000,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-07",
+        "priceEur": 19000,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "884aff68eca5": {
+    "id": "884aff68eca5",
+    "label": "9003 LES CLAPAREDES, Bédarieux",
+    "lat": 43.63033,
+    "lng": 3.146908,
+    "transactions": [
+      {
+        "date": "2021-02-24",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  }
+}

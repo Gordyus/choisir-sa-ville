@@ -1,0 +1,24 @@
+{
+  "a698e368fa74": {
+    "id": "a698e368fa74",
+    "label": "5027 MOULIN DE PASCALE, Saint-Brès",
+    "lat": 43.65784,
+    "lng": 4.03515,
+    "transactions": [
+      {
+        "date": "2021-05-26",
+        "priceEur": 1050000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-26",
+        "priceEur": 1050000,
+        "typeLocal": "Maison",
+        "surfaceM2": 270,
+        "isVefa": false
+      }
+    ]
+  }
+}

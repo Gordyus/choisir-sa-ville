@@ -1,0 +1,46 @@
+{
+  "713c70c22c1f": {
+    "id": "713c70c22c1f",
+    "label": "6088 L OLIVET-SUD, Villeveyrac",
+    "lat": 43.514301,
+    "lng": 3.612839,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 225600,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-30",
+        "priceEur": 225600,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-30",
+        "priceEur": 225600,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "8dcc30baca2a": {
+    "id": "8dcc30baca2a",
+    "label": "9237 RUE DE LA GARE, Villeveyrac",
+    "lat": 43.51623,
+    "lng": 3.610805,
+    "transactions": [
+      {
+        "date": "2022-09-02",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

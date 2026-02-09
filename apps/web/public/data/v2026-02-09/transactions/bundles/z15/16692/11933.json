@@ -1,0 +1,69 @@
+{
+  "5c438ea5b4c4": {
+    "id": "5c438ea5b4c4",
+    "label": "3 CHE DU CHATEAU, Saint-Michel",
+    "lat": 43.856056,
+    "lng": 3.384775,
+    "transactions": [
+      {
+        "date": "2023-04-06",
+        "priceEur": 216954,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-28",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "b865d0ca4a7e": {
+    "id": "b865d0ca4a7e",
+    "label": "3 RUE PRINCIPALE, Saint-Michel",
+    "lat": 43.855748,
+    "lng": 3.385492,
+    "transactions": [
+      {
+        "date": "2021-09-17",
+        "priceEur": 84000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a6f62a468c9": {
+    "id": "3a6f62a468c9",
+    "label": "2 RTE DE SOULAGETS, Saint-Michel",
+    "lat": 43.855662,
+    "lng": 3.387348,
+    "transactions": [
+      {
+        "date": "2023-07-19",
+        "priceEur": 277700,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b5ea7b4a0a1": {
+    "id": "4b5ea7b4a0a1",
+    "label": "3 RTE DE SOULAGETS, Saint-Michel",
+    "lat": 43.855343,
+    "lng": 3.387483,
+    "transactions": [
+      {
+        "date": "2024-09-20",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  }
+}

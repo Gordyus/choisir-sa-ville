@@ -1,0 +1,39 @@
+{
+  "c004ccb965f8": {
+    "id": "c004ccb965f8",
+    "label": "45 IMP ROSALIND FRANKLIN, Mauguio",
+    "lat": 43.620793,
+    "lng": 4.021666,
+    "transactions": [
+      {
+        "date": "2024-06-01",
+        "priceEur": 273000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-31",
+        "priceEur": 394000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "51ad33ad4925": {
+    "id": "51ad33ad4925",
+    "label": "9031 CANNABECH, Mauguio",
+    "lat": 43.625344,
+    "lng": 4.026152,
+    "transactions": [
+      {
+        "date": "2024-10-21",
+        "priceEur": 683550,
+        "typeLocal": "Maison",
+        "surfaceM2": 172,
+        "isVefa": false
+      }
+    ]
+  }
+}

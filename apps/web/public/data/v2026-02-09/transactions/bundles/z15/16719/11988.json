@@ -1,0 +1,241 @@
+{
+  "3abea9be7a10": {
+    "id": "3abea9be7a10",
+    "label": "119 RUE TOUSSAINT MAZEL, Sète",
+    "lat": 43.413097,
+    "lng": 3.68235,
+    "transactions": [
+      {
+        "date": "2020-12-11",
+        "priceEur": 435000,
+        "typeLocal": "Maison",
+        "surfaceM2": 161,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5936b919087": {
+    "id": "c5936b919087",
+    "label": "2 RUE DE LA PALOURDE, Sète",
+    "lat": 43.413459,
+    "lng": 3.689346,
+    "transactions": [
+      {
+        "date": "2021-02-01",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a3399825327": {
+    "id": "3a3399825327",
+    "label": "32 RUE DES CHANTIERS, Sète",
+    "lat": 43.413139,
+    "lng": 3.687026,
+    "transactions": [
+      {
+        "date": "2021-07-09",
+        "priceEur": 290000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-09",
+        "priceEur": 290000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-09",
+        "priceEur": 290000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb49c5785829": {
+    "id": "cb49c5785829",
+    "label": "222 RUE TOUSSAINT MAZEL, Sète",
+    "lat": 43.413693,
+    "lng": 3.681278,
+    "transactions": [
+      {
+        "date": "2021-09-03",
+        "priceEur": 102000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "93f6e9d22cb0": {
+    "id": "93f6e9d22cb0",
+    "label": "111 RUE DU PRESIDENT CARNOT, Sète",
+    "lat": 43.414036,
+    "lng": 3.691052,
+    "transactions": [
+      {
+        "date": "2022-01-20",
+        "priceEur": 228000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "c8acf843bd7c": {
+    "id": "c8acf843bd7c",
+    "label": "310 RUE DE LA CLOVISSE, Sète",
+    "lat": 43.413259,
+    "lng": 3.689586,
+    "transactions": [
+      {
+        "date": "2022-08-25",
+        "priceEur": 170000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "ab410c1ab130": {
+    "id": "ab410c1ab130",
+    "label": "14 RUE DU SAR, Sète",
+    "lat": 43.413121,
+    "lng": 3.68967,
+    "transactions": [
+      {
+        "date": "2023-03-07",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6e244ff545b": {
+    "id": "d6e244ff545b",
+    "label": "18 RUE TOUSSAINT MAZEL, Sète",
+    "lat": 43.4134,
+    "lng": 3.682397,
+    "transactions": [
+      {
+        "date": "2023-06-23",
+        "priceEur": 49500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "e26017788b10": {
+    "id": "e26017788b10",
+    "label": "28 RUE TOUSSAINT MAZEL, Sète",
+    "lat": 43.413185,
+    "lng": 3.683277,
+    "transactions": [
+      {
+        "date": "2023-11-13",
+        "priceEur": 197950,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "b771481a28cd": {
+    "id": "b771481a28cd",
+    "label": "1 TRA DES BARREURS, Sète",
+    "lat": 43.414069,
+    "lng": 3.690701,
+    "transactions": [
+      {
+        "date": "2024-02-09",
+        "priceEur": 239690,
+        "typeLocal": "Maison",
+        "surfaceM2": 18,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e1112055539": {
+    "id": "7e1112055539",
+    "label": "128 RUE DU PRESIDENT CARNOT, Sète",
+    "lat": 43.413864,
+    "lng": 3.691223,
+    "transactions": [
+      {
+        "date": "2024-07-30",
+        "priceEur": 370450,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5fb47536a26": {
+    "id": "a5fb47536a26",
+    "label": "25 RUE DU SAR, Sète",
+    "lat": 43.413561,
+    "lng": 3.68905,
+    "transactions": [
+      {
+        "date": "2024-10-17",
+        "priceEur": 346700,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "afbcb4a5666a": {
+    "id": "afbcb4a5666a",
+    "label": "28 RUE DU LOUP, Sète",
+    "lat": 43.413119,
+    "lng": 3.689241,
+    "transactions": [
+      {
+        "date": "2024-12-20",
+        "priceEur": 366667,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "f37998221a4e": {
+    "id": "f37998221a4e",
+    "label": "100 RUE TOUSSAINT MAZEL, Sète",
+    "lat": 43.4133,
+    "lng": 3.682746,
+    "transactions": [
+      {
+        "date": "2025-02-18",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c2be2f69412": {
+    "id": "4c2be2f69412",
+    "label": "22 RUE DES SARDELLES, Sète",
+    "lat": 43.413498,
+    "lng": 3.689114,
+    "transactions": [
+      {
+        "date": "2025-05-31",
+        "priceEur": 357450,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

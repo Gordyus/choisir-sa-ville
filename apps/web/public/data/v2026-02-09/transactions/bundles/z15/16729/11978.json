@@ -1,0 +1,24 @@
+{
+  "09e7bc24944e": {
+    "id": "09e7bc24944e",
+    "label": "46 CHEM DE LA CONDAMINE, Vic-la-Gardiole",
+    "lat": 43.500386,
+    "lng": 3.794048,
+    "transactions": [
+      {
+        "date": "2021-07-02",
+        "priceEur": 671000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-02",
+        "priceEur": 671000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  }
+}

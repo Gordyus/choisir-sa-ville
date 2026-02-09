@@ -1,0 +1,32 @@
+{
+  "503356df1a39": {
+    "id": "503356df1a39",
+    "label": "3540F GASTEREILLES ET BELLANDES, Murviel-lès-Béziers",
+    "lat": 43.458124,
+    "lng": 3.118009,
+    "transactions": [
+      {
+        "date": "2021-03-30",
+        "priceEur": 13800,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "87f95fdb330d": {
+    "id": "87f95fdb330d",
+    "label": "3550F LE CAYLA, Murviel-lès-Béziers",
+    "lat": 43.457983,
+    "lng": 3.118086,
+    "transactions": [
+      {
+        "date": "2023-10-20",
+        "priceEur": 467200,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

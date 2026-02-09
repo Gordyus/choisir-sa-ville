@@ -1,0 +1,98 @@
+{
+  "da1b4389cc26": {
+    "id": "da1b4389cc26",
+    "label": "701 CHE DES HORTUS, Saint-Jean-de-Cuculles",
+    "lat": 43.746139,
+    "lng": 3.836074,
+    "transactions": [
+      {
+        "date": "2022-03-17",
+        "priceEur": 894814,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      }
+    ]
+  },
+  "c06310b6bd4d": {
+    "id": "c06310b6bd4d",
+    "label": "87 IMP DU ROUMEGAIRE, Saint-Jean-de-Cuculles",
+    "lat": 43.746255,
+    "lng": 3.837286,
+    "transactions": [
+      {
+        "date": "2023-01-27",
+        "priceEur": 817903,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-27",
+        "priceEur": 817903,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "a708dad014ed": {
+    "id": "a708dad014ed",
+    "label": "152 IMP DU ROUMEGAIRE, Saint-Jean-de-Cuculles",
+    "lat": 43.745823,
+    "lng": 3.838125,
+    "transactions": [
+      {
+        "date": "2023-06-08",
+        "priceEur": 905750,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-08",
+        "priceEur": 905750,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5b53d029921": {
+    "id": "f5b53d029921",
+    "label": "409 CHE DES CAZARELS, Saint-Jean-de-Cuculles",
+    "lat": 43.743762,
+    "lng": 3.838728,
+    "transactions": [
+      {
+        "date": "2024-08-30",
+        "priceEur": 677130,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      }
+    ]
+  },
+  "2573a35bdfe1": {
+    "id": "2573a35bdfe1",
+    "label": "413 CHE DES CAZARELS, Saint-Jean-de-Cuculles",
+    "lat": 43.743438,
+    "lng": 3.838745,
+    "transactions": [
+      {
+        "date": "2024-10-07",
+        "priceEur": 731530,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-07",
+        "priceEur": 731530,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  }
+}

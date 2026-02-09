@@ -7,6 +7,7 @@ import { exportMetricsHousing } from "./communes/exportMetricsHousing.js";
 import { exportPostalIndex } from "./communes/exportPostalIndex.js";
 import { exportMetricsInsecurity } from "./communes/metrics/insecurity/exportMetricsInsecurity.js";
 import { SOURCE_URLS, type SourceKey } from "./constants.js";
+import { exportTransactions } from "./transactions/exportTransactions.js";
 import { exportInfraZonesIndexLite } from "./infra-zones/exportIndexLite.js";
 import { downloadFile } from "./shared/downloadFile.js";
 import { ensureDir, writeJsonAtomic } from "./shared/fileSystem.js";
@@ -67,6 +68,19 @@ async function main(): Promise<void> {
         }))
     );
 
+    // DVF transactions (dept 34 MVP)
+    const communeNameByInsee = new Map<string, string>();
+    for (const c of communes) {
+        communeNameByInsee.set(c.insee, c.name);
+    }
+    files.push(
+        ...(await exportTransactions({
+            context,
+            dvfSource: sources.dvfGeolocalisees,
+            communeNameByInsee
+        }))
+    );
+
     await writeManifest({ datasetDir, datasetVersion, files, sources: Object.values(sources) });
     await writeCurrentManifest({ currentManifestPath, datasetVersion, files });
 
@@ -96,7 +110,10 @@ async function downloadSources(): Promise<Record<SourceKey, SourceMeta>> {
     const entries = Object.entries(SOURCE_URLS) as [SourceKey, string][];
     const pairs = await Promise.all(
         entries.map(async ([key, url]) => {
-            const cacheTtlMs = key === "ssmsi" ? 90 * 24 * 60 * 60 * 1000 : undefined;
+            const cacheTtlMs =
+                key === "ssmsi" ? 90 * 24 * 60 * 60 * 1000
+                : key === "dvfGeolocalisees" ? 180 * 24 * 60 * 60 * 1000
+                : undefined;
             if (typeof cacheTtlMs === "number") {
                 return [key, await downloadFile(url, { cacheTtlMs })] as const;
             }

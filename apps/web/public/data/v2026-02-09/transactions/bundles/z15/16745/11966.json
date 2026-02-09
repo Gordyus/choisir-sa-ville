@@ -1,0 +1,46 @@
+{
+  "5e12b0a63336": {
+    "id": "5e12b0a63336",
+    "label": "9059 VAUGUIERES, Mauguio",
+    "lat": 43.592913,
+    "lng": 3.97351,
+    "transactions": [
+      {
+        "date": "2022-12-27",
+        "priceEur": 589100,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-24",
+        "priceEur": 528240,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "312202402768": {
+    "id": "312202402768",
+    "label": "9005 LA COUARCHE, Mauguio",
+    "lat": 43.590899,
+    "lng": 3.971682,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 529000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-29",
+        "priceEur": 529000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "edf5240178c0": {
+    "id": "edf5240178c0",
+    "label": "8 RUE DE L'HERAULT, Vias",
+    "lat": 43.313353,
+    "lng": 3.381895,
+    "transactions": [
+      {
+        "date": "2020-10-28",
+        "priceEur": 550000,
+        "typeLocal": "Maison",
+        "surfaceM2": 213,
+        "isVefa": false
+      }
+    ]
+  },
+  "aff2315dd983": {
+    "id": "aff2315dd983",
+    "label": "13 CHE DE PREIGNES, Vias",
+    "lat": 43.31508,
+    "lng": 3.378665,
+    "transactions": [
+      {
+        "date": "2020-11-20",
+        "priceEur": 27131,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-20",
+        "priceEur": 27131,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "0bf5db7a1d18": {
+    "id": "0bf5db7a1d18",
+    "label": "5B RUE DE LA SOURCE, Vias",
+    "lat": 43.313001,
+    "lng": 3.378861,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 460000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-30",
+        "priceEur": 460000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "8965c0086222": {
+    "id": "8965c0086222",
+    "label": "8 RUE DE LA SOURCE, Vias",
+    "lat": 43.311869,
+    "lng": 3.381177,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "75ea0907108a": {
+    "id": "75ea0907108a",
+    "label": "9B RUE DU LIBRON, Vias",
+    "lat": 43.313844,
+    "lng": 3.381841,
+    "transactions": [
+      {
+        "date": "2022-02-03",
+        "priceEur": 180750,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "275dd6e192f5": {
+    "id": "275dd6e192f5",
+    "label": "3197 AV DE BEZIERS, Vias",
+    "lat": 43.315185,
+    "lng": 3.379888,
+    "transactions": [
+      {
+        "date": "2022-03-11",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc6f8d5ecbf7": {
+    "id": "cc6f8d5ecbf7",
+    "label": "60 CHE DE PREIGNES, Vias",
+    "lat": 43.315025,
+    "lng": 3.377078,
+    "transactions": [
+      {
+        "date": "2022-10-07",
+        "priceEur": 524000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-07",
+        "priceEur": 524000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "2eb69e54800e": {
+    "id": "2eb69e54800e",
+    "label": "11B RUE DE LA SOURCE, Vias",
+    "lat": 43.311401,
+    "lng": 3.381059,
+    "transactions": [
+      {
+        "date": "2023-01-05",
+        "priceEur": 279000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  }
+}

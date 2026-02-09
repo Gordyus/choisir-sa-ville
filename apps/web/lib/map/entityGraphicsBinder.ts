@@ -190,6 +190,15 @@ async function resolvePolygonTarget(entity: EntityRef | null): Promise<FeatureSt
         };
     }
 
+    if (entity.kind === "transactionAddress") {
+        // Transaction addresses use GeoJSON source (no sourceLayer)
+        // The feature id in GeoJSON source is the addressId string
+        return {
+            source: SOURCE_IDS.transactionAddresses,
+            id: entity.id
+        };
+    }
+
     return null;
 }
 

@@ -1,0 +1,32 @@
+{
+  "05edab832644": {
+    "id": "05edab832644",
+    "label": "525 ALL DU HAMEAU DU GOLF, La Grande-Motte",
+    "lat": 43.572565,
+    "lng": 4.095474,
+    "transactions": [
+      {
+        "date": "2021-10-08",
+        "priceEur": 955544.5,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "1315bac994a5": {
+    "id": "1315bac994a5",
+    "label": "536 ALL DU HAMEAU DU GOLF, La Grande-Motte",
+    "lat": 43.572626,
+    "lng": 4.095339,
+    "transactions": [
+      {
+        "date": "2022-02-02",
+        "priceEur": 1342000,
+        "typeLocal": "Maison",
+        "surfaceM2": 260,
+        "isVefa": false
+      }
+    ]
+  }
+}

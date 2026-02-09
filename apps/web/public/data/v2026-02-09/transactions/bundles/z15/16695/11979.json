@@ -1,0 +1,46 @@
+{
+  "b5d74beda48a": {
+    "id": "b5d74beda48a",
+    "label": "647 CHEM DE SAINT ANDRE, Pézenas",
+    "lat": 43.487069,
+    "lng": 3.418691,
+    "transactions": [
+      {
+        "date": "2021-04-13",
+        "priceEur": 183200,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-13",
+        "priceEur": 183200,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "b131e26ff41b": {
+    "id": "b131e26ff41b",
+    "label": "167 CHE TOUR DE POMAREDE, Pézenas",
+    "lat": 43.485685,
+    "lng": 3.420703,
+    "transactions": [
+      {
+        "date": "2022-12-23",
+        "priceEur": 1053140,
+        "typeLocal": "Maison",
+        "surfaceM2": 362,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-23",
+        "priceEur": 1053140,
+        "typeLocal": "Maison",
+        "surfaceM2": 362,
+        "isVefa": false
+      }
+    ]
+  }
+}

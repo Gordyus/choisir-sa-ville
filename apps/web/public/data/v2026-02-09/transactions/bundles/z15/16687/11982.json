@@ -1,0 +1,32 @@
+{
+  "e5e6150168f0": {
+    "id": "e5e6150168f0",
+    "label": "16 FRAISSE, Alignan-du-Vent",
+    "lat": 43.468745,
+    "lng": 3.339543,
+    "transactions": [
+      {
+        "date": "2020-10-20",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "bba75c8c122b": {
+    "id": "bba75c8c122b",
+    "label": "2 RUE SAINT GERMAIN, Alignan-du-Vent",
+    "lat": 43.468848,
+    "lng": 3.339233,
+    "transactions": [
+      {
+        "date": "2021-12-02",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

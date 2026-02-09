@@ -1,0 +1,114 @@
+{
+  "4918646884f1": {
+    "id": "4918646884f1",
+    "label": "28 AV PIERRE DE COUBERTIN, Jacou",
+    "lat": 43.65922,
+    "lng": 3.925527,
+    "transactions": [
+      {
+        "date": "2020-08-07",
+        "priceEur": 272050,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d4a0ee424c4": {
+    "id": "9d4a0ee424c4",
+    "label": "1 RUE SAINT EXUPERY, Jacou",
+    "lat": 43.65935,
+    "lng": 3.924532,
+    "transactions": [
+      {
+        "date": "2021-01-25",
+        "priceEur": 438150,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "70136fe12857": {
+    "id": "70136fe12857",
+    "label": "96 GR GRAND RUE, Jacou",
+    "lat": 43.659797,
+    "lng": 3.922323,
+    "transactions": [
+      {
+        "date": "2021-06-15",
+        "priceEur": 349000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "45be4674ada3": {
+    "id": "45be4674ada3",
+    "label": "22 CHE DES EGLANTIERS, Jacou",
+    "lat": 43.659883,
+    "lng": 3.923958,
+    "transactions": [
+      {
+        "date": "2024-07-31",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-07",
+        "priceEur": 119240,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "593667583efa": {
+    "id": "593667583efa",
+    "label": "19 RUE LOUISE MICHEL, Le Crès",
+    "lat": 43.652122,
+    "lng": 3.927821,
+    "transactions": [
+      {
+        "date": "2022-06-28",
+        "priceEur": 976000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "5affd7e588d5": {
+    "id": "5affd7e588d5",
+    "label": "34 RUE DE LA ROVERAIE, Jacou",
+    "lat": 43.658288,
+    "lng": 3.923551,
+    "transactions": [
+      {
+        "date": "2022-03-14",
+        "priceEur": 396000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "1706f8ef41d1": {
+    "id": "1706f8ef41d1",
+    "label": "24 RUE DE LA ROVERAIE, Jacou",
+    "lat": 43.657783,
+    "lng": 3.922998,
+    "transactions": [
+      {
+        "date": "2023-08-23",
+        "priceEur": 1,
+        "typeLocal": "Appartement",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

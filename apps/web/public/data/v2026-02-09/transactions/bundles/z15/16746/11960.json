@@ -1,0 +1,39 @@
+{
+  "5f586ec26f73": {
+    "id": "5f586ec26f73",
+    "label": "140 LES CROUZETTES, Saint-Aunès",
+    "lat": 43.637312,
+    "lng": 3.977491,
+    "transactions": [
+      {
+        "date": "2022-07-18",
+        "priceEur": 847850,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-18",
+        "priceEur": 847850,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "cec31f19bd1d": {
+    "id": "cec31f19bd1d",
+    "label": "233 RUE DE LA CROUZETTE, Saint-Aunès",
+    "lat": 43.636343,
+    "lng": 3.977493,
+    "transactions": [
+      {
+        "date": "2025-05-23",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  }
+}

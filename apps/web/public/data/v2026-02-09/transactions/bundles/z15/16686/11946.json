@@ -1,0 +1,98 @@
+{
+  "939e567f60c0": {
+    "id": "939e567f60c0",
+    "label": "331 CHEMIN DE POUJOLS, Lodève",
+    "lat": 43.750158,
+    "lng": 3.322986,
+    "transactions": [
+      {
+        "date": "2022-06-02",
+        "priceEur": 346450,
+        "typeLocal": "Maison",
+        "surfaceM2": 195,
+        "isVefa": false
+      }
+    ]
+  },
+  "326931870ebf": {
+    "id": "326931870ebf",
+    "label": "9593F LES GRASSERIES BASSES, Lodève",
+    "lat": 43.75415,
+    "lng": 3.319028,
+    "transactions": [
+      {
+        "date": "2022-07-08",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-08",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad460d4519d6": {
+    "id": "ad460d4519d6",
+    "label": "213 CHE DE POUJOLS, Lodève",
+    "lat": 43.749792,
+    "lng": 3.322603,
+    "transactions": [
+      {
+        "date": "2022-07-07",
+        "priceEur": 284500,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "28c4fc2523bd": {
+    "id": "28c4fc2523bd",
+    "label": "400 CHEMIN DE POUJOLS, Lodève",
+    "lat": 43.750635,
+    "lng": 3.323494,
+    "transactions": [
+      {
+        "date": "2023-10-26",
+        "priceEur": 237000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-26",
+        "priceEur": 237000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "28ba4826cd34": {
+    "id": "28ba4826cd34",
+    "label": "409 CHE DE POUJOLS, Lodève",
+    "lat": 43.751106,
+    "lng": 3.323313,
+    "transactions": [
+      {
+        "date": "2025-06-19",
+        "priceEur": 226650,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2025-06-19",
+        "priceEur": 226650,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

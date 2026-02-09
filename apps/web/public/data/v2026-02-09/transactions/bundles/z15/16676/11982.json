@@ -1,0 +1,68 @@
+{
+  "99276f397715": {
+    "id": "99276f397715",
+    "label": "18B RUE DE L AUDACIEUSE 1, Magalas",
+    "lat": 43.467842,
+    "lng": 3.208548,
+    "transactions": [
+      {
+        "date": "2025-04-14",
+        "priceEur": 290000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-14",
+        "priceEur": 290000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-14",
+        "priceEur": 290000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 91,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-30",
+        "priceEur": 152000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "d8c380a36ba7": {
+    "id": "d8c380a36ba7",
+    "label": "7025F MAS DE LAUX, Magalas",
+    "lat": 43.465456,
+    "lng": 3.210315,
+    "transactions": [
+      {
+        "date": "2022-05-18",
+        "priceEur": 756310,
+        "typeLocal": "Maison",
+        "surfaceM2": 320,
+        "isVefa": false
+      }
+    ]
+  },
+  "35ee86d30d6e": {
+    "id": "35ee86d30d6e",
+    "label": "9 RUE DE LA SAPONAIRE, Magalas",
+    "lat": 43.465208,
+    "lng": 3.218516,
+    "transactions": [
+      {
+        "date": "2025-03-31",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "b233f23df6ca": {
+    "id": "b233f23df6ca",
+    "label": "5040 HAMEAU DES HEMIES, Le Puech",
+    "lat": 43.691796,
+    "lng": 3.336067,
+    "transactions": [
+      {
+        "date": "2023-09-01",
+        "priceEur": 308000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "12a7c0d06457": {
+    "id": "12a7c0d06457",
+    "label": "15 CHE DES IVERNENQUES HEMIES, Le Puech",
+    "lat": 43.691857,
+    "lng": 3.336129,
+    "transactions": [
+      {
+        "date": "2023-09-01",
+        "priceEur": 308000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "26a637246a05": {
+    "id": "26a637246a05",
+    "label": "7 IMP DES HIRONDELLES, Montagnac",
+    "lat": 43.476523,
+    "lng": 3.479621,
+    "transactions": [
+      {
+        "date": "2022-02-18",
+        "priceEur": 363000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "8ed26961010d": {
+    "id": "8ed26961010d",
+    "label": "37 IMP DES TERRASSES DE BOUTONNET, Montagnac",
+    "lat": 43.476697,
+    "lng": 3.477598,
+    "transactions": [
+      {
+        "date": "2022-05-31",
+        "priceEur": 437000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  }
+}

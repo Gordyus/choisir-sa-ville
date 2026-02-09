@@ -1,0 +1,159 @@
+{
+  "0299da75b723": {
+    "id": "0299da75b723",
+    "label": "2 RUE DES AMANDIERS, Mèze",
+    "lat": 43.442411,
+    "lng": 3.580716,
+    "transactions": [
+      {
+        "date": "2020-09-28",
+        "priceEur": 250300,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "2190d82b74d5": {
+    "id": "2190d82b74d5",
+    "label": "10 RUE DE L INDUSTRIE, Mèze",
+    "lat": 43.44117,
+    "lng": 3.577546,
+    "transactions": [
+      {
+        "date": "2021-02-03",
+        "priceEur": 390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "dc0e44f94586": {
+    "id": "dc0e44f94586",
+    "label": "13 AV DU MAS DE GARRIC, Mèze",
+    "lat": 43.443744,
+    "lng": 3.577716,
+    "transactions": [
+      {
+        "date": "2021-09-09",
+        "priceEur": 450000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "88c75793bcd9": {
+    "id": "88c75793bcd9",
+    "label": "1 RUE DES AMANDIERS, Mèze",
+    "lat": 43.442593,
+    "lng": 3.581068,
+    "transactions": [
+      {
+        "date": "2021-11-04",
+        "priceEur": 226580,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "56615614efdf": {
+    "id": "56615614efdf",
+    "label": "4 AV DU MAS DE GARRIC, Mèze",
+    "lat": 43.441913,
+    "lng": 3.578431,
+    "transactions": [
+      {
+        "date": "2021-11-15",
+        "priceEur": 504540,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "d157503dc8da": {
+    "id": "d157503dc8da",
+    "label": "6 RUE DES AMANDIERS, Mèze",
+    "lat": 43.442322,
+    "lng": 3.580831,
+    "transactions": [
+      {
+        "date": "2022-08-11",
+        "priceEur": 329000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "de726e7009fb": {
+    "id": "de726e7009fb",
+    "label": "22 RUE DES AMANDIERS, Mèze",
+    "lat": 43.441666,
+    "lng": 3.580931,
+    "transactions": [
+      {
+        "date": "2022-10-25",
+        "priceEur": 360870,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf399fbc4402": {
+    "id": "bf399fbc4402",
+    "label": "10B RUE DE L INDUSTRIE, Mèze",
+    "lat": 43.44117,
+    "lng": 3.577546,
+    "transactions": [
+      {
+        "date": "2024-04-09",
+        "priceEur": 453000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "eec505d2d3ea": {
+    "id": "eec505d2d3ea",
+    "label": "38 MAS DE GARRIC, Mèze",
+    "lat": 43.442113,
+    "lng": 3.575387,
+    "transactions": [
+      {
+        "date": "2024-05-29",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-29",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1bc77c861c5": {
+    "id": "e1bc77c861c5",
+    "label": "28 RUE DES AMANDIERS, Mèze",
+    "lat": 43.441524,
+    "lng": 3.581331,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 357640,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  }
+}

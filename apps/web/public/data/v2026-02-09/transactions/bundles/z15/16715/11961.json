@@ -1,0 +1,104 @@
+{
+  "d8e212646161": {
+    "id": "d8e212646161",
+    "label": "5125F CHE DES HORTS, La Boissière",
+    "lat": 43.632502,
+    "lng": 3.646089,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 309040,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-31",
+        "priceEur": 309040,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5182387fcb4": {
+    "id": "a5182387fcb4",
+    "label": "5548 CHE DES HORTS, La Boissière",
+    "lat": 43.633144,
+    "lng": 3.645201,
+    "transactions": [
+      {
+        "date": "2024-01-29",
+        "priceEur": 581850,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-29",
+        "priceEur": 581850,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-14",
+        "priceEur": 425000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-14",
+        "priceEur": 425000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "22595815ecfe": {
+    "id": "22595815ecfe",
+    "label": "5149 MAS D ALHEN, La Boissière",
+    "lat": 43.631097,
+    "lng": 3.643938,
+    "transactions": [
+      {
+        "date": "2024-03-11",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      },
+      {
+        "date": "2024-03-11",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      },
+      {
+        "date": "2024-03-11",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "dbaa44c5c09f": {
+    "id": "dbaa44c5c09f",
+    "label": "1 CHE DE SAINT GENIES, La Boissière",
+    "lat": 43.630422,
+    "lng": 3.645747,
+    "transactions": [
+      {
+        "date": "2024-08-02",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

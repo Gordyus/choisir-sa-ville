@@ -1,0 +1,32 @@
+{
+  "33c6a3d0923c": {
+    "id": "33c6a3d0923c",
+    "label": "5630F CHE DE BEDARIEUX, Laurens",
+    "lat": 43.536524,
+    "lng": 3.18631,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 1040000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "9256406f5838": {
+    "id": "9256406f5838",
+    "label": "5681F P.R.L. L OLIVAIE, Laurens",
+    "lat": 43.537083,
+    "lng": 3.186061,
+    "transactions": [
+      {
+        "date": "2023-07-04",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  }
+}

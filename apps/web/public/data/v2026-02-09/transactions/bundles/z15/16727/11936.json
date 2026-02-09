@@ -1,0 +1,105 @@
+{
+  "4589e27d8e1f": {
+    "id": "4589e27d8e1f",
+    "label": "5028 LE VILLAGE, Notre-Dame-de-Londres",
+    "lat": 43.827006,
+    "lng": 3.776051,
+    "transactions": [
+      {
+        "date": "2022-05-24",
+        "priceEur": 216500,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c0f5718513b": {
+    "id": "0c0f5718513b",
+    "label": "2 LOT LA SALAMANDRE, Notre-Dame-de-Londres",
+    "lat": 43.828551,
+    "lng": 3.772488,
+    "transactions": [
+      {
+        "date": "2023-06-16",
+        "priceEur": 508635,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-16",
+        "priceEur": 508635,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd19f843e2e9": {
+    "id": "dd19f843e2e9",
+    "label": "423 RUE DE LA FONT DU ROC, Notre-Dame-de-Londres",
+    "lat": 43.829721,
+    "lng": 3.772976,
+    "transactions": [
+      {
+        "date": "2024-06-24",
+        "priceEur": 340250,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-24",
+        "priceEur": 340250,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf458f7a1a6a": {
+    "id": "cf458f7a1a6a",
+    "label": "69 RUE DE LA FONT DU ROC, Notre-Dame-de-Londres",
+    "lat": 43.827273,
+    "lng": 3.775673,
+    "transactions": [
+      {
+        "date": "2024-09-11",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 187,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-11",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 187,
+        "isVefa": false
+      }
+    ]
+  },
+  "fec50b154558": {
+    "id": "fec50b154558",
+    "label": "365 RUE DE LA FONT DU ROC, Notre-Dame-de-Londres",
+    "lat": 43.829296,
+    "lng": 3.773884,
+    "transactions": [
+      {
+        "date": "2024-09-27",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-27",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

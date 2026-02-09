@@ -1,0 +1,77 @@
+{
+  "bf8d4a330224": {
+    "id": "bf8d4a330224",
+    "label": "5131 LE VILLAGE, Brissac",
+    "lat": 43.874558,
+    "lng": 3.702272,
+    "transactions": [
+      {
+        "date": "2021-01-07",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c41e7c559c4": {
+    "id": "3c41e7c559c4",
+    "label": "7 RUE CARRIERA DEL FONTANEL, Brissac",
+    "lat": 43.875018,
+    "lng": 3.702376,
+    "transactions": [
+      {
+        "date": "2021-09-24",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "706b85fc0300": {
+    "id": "706b85fc0300",
+    "label": "14 RUE DU PONT VIEUX, Brissac",
+    "lat": 43.876957,
+    "lng": 3.701622,
+    "transactions": [
+      {
+        "date": "2024-04-15",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "c80b9fb0a1c8": {
+    "id": "c80b9fb0a1c8",
+    "label": "22 AV DU PARC, Brissac",
+    "lat": 43.878508,
+    "lng": 3.701945,
+    "transactions": [
+      {
+        "date": "2024-08-28",
+        "priceEur": 31000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "63d0f1d32749": {
+    "id": "63d0f1d32749",
+    "label": "2 PL DE L EGLISE, Brissac",
+    "lat": 43.877498,
+    "lng": 3.701439,
+    "transactions": [
+      {
+        "date": "2024-10-03",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  }
+}

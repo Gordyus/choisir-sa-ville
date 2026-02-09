@@ -1,0 +1,82 @@
+{
+  "6c0334c94d41": {
+    "id": "6c0334c94d41",
+    "label": "6375 L'ESPAGNAC, Vias",
+    "lat": 43.314775,
+    "lng": 3.371418,
+    "transactions": [
+      {
+        "date": "2021-03-17",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-17",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b5dd45a0821": {
+    "id": "5b5dd45a0821",
+    "label": "6540 DOM DE L'ESPAGNAC, Vias",
+    "lat": 43.31456,
+    "lng": 3.364975,
+    "transactions": [
+      {
+        "date": "2021-05-21",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-21",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-21",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-21",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "89b016d559bf": {
+    "id": "89b016d559bf",
+    "label": "7246 L'ESPAGNAC, Vias",
+    "lat": 43.311928,
+    "lng": 3.364643,
+    "transactions": [
+      {
+        "date": "2021-09-27",
+        "priceEur": 41998928,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-27",
+        "priceEur": 41998928,
+        "typeLocal": "Appartement",
+        "surfaceM2": 24,
+        "isVefa": false
+      }
+    ]
+  }
+}

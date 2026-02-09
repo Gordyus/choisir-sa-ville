@@ -1,0 +1,91 @@
+{
+  "aeec9b49fa28": {
+    "id": "aeec9b49fa28",
+    "label": "5075 CAMPREDON, Ferrals-les-Montagnes",
+    "lat": 43.414645,
+    "lng": 2.643145,
+    "transactions": [
+      {
+        "date": "2020-07-30",
+        "priceEur": 66500,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "662880226292": {
+    "id": "662880226292",
+    "label": "5129 CAMPREDON, Ferrals-les-Montagnes",
+    "lat": 43.41595,
+    "lng": 2.642761,
+    "transactions": [
+      {
+        "date": "2020-09-03",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5ff0ee8cef4": {
+    "id": "f5ff0ee8cef4",
+    "label": "5181F CAMPREDON, Ferrals-les-Montagnes",
+    "lat": 43.41459,
+    "lng": 2.643624,
+    "transactions": [
+      {
+        "date": "2020-12-22",
+        "priceEur": 41000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "61579cf3b3d5": {
+    "id": "61579cf3b3d5",
+    "label": "5 CHE DU SERRE, Ferrals-les-Montagnes",
+    "lat": 43.415722,
+    "lng": 2.643512,
+    "transactions": [
+      {
+        "date": "2023-11-10",
+        "priceEur": 403615,
+        "typeLocal": "Maison",
+        "surfaceM2": 182,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-10",
+        "priceEur": 403615,
+        "typeLocal": "Maison",
+        "surfaceM2": 182,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-10",
+        "priceEur": 403615,
+        "typeLocal": "Maison",
+        "surfaceM2": 182,
+        "isVefa": false
+      }
+    ]
+  },
+  "db19cbef1126": {
+    "id": "db19cbef1126",
+    "label": "3 RUE DES PALHERS, Ferrals-les-Montagnes",
+    "lat": 43.415044,
+    "lng": 2.643105,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  }
+}

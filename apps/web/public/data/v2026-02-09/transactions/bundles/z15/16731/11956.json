@@ -1,0 +1,112 @@
+{
+  "5fbc06a6002e": {
+    "id": "5fbc06a6002e",
+    "label": "83 RUE DU PUECH DE FEDEDIOU, Saint-Gély-du-Fesc",
+    "lat": 43.673764,
+    "lng": 3.813726,
+    "transactions": [
+      {
+        "date": "2020-08-25",
+        "priceEur": 570000,
+        "typeLocal": "Maison",
+        "surfaceM2": 175,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-25",
+        "priceEur": 570000,
+        "typeLocal": "Maison",
+        "surfaceM2": 175,
+        "isVefa": false
+      }
+    ]
+  },
+  "e11b898633fb": {
+    "id": "e11b898633fb",
+    "label": "405 RUE DU PUECH DE FEDEDIOU, Saint-Gély-du-Fesc",
+    "lat": 43.675769,
+    "lng": 3.814337,
+    "transactions": [
+      {
+        "date": "2021-02-12",
+        "priceEur": 781200,
+        "typeLocal": "Maison",
+        "surfaceM2": 209,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-12",
+        "priceEur": 781200,
+        "typeLocal": "Maison",
+        "surfaceM2": 209,
+        "isVefa": false
+      }
+    ]
+  },
+  "fdd069c91fa8": {
+    "id": "fdd069c91fa8",
+    "label": "173 RUE DU PUECH DE FEDEDIOU, Saint-Gély-du-Fesc",
+    "lat": 43.67405,
+    "lng": 3.812738,
+    "transactions": [
+      {
+        "date": "2021-04-16",
+        "priceEur": 719610,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-16",
+        "priceEur": 719610,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "0377950fb821": {
+    "id": "0377950fb821",
+    "label": "157 RUE DU PUECH DE FEDEDIOU, Saint-Gély-du-Fesc",
+    "lat": 43.673688,
+    "lng": 3.812884,
+    "transactions": [
+      {
+        "date": "2022-09-28",
+        "priceEur": 888000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-28",
+        "priceEur": 888000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d554b062124": {
+    "id": "4d554b062124",
+    "label": "202 RUE DU PUECH DE FEDEDIOU, Saint-Gély-du-Fesc",
+    "lat": 43.674586,
+    "lng": 3.813476,
+    "transactions": [
+      {
+        "date": "2023-05-09",
+        "priceEur": 739800,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-09",
+        "priceEur": 739800,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  }
+}

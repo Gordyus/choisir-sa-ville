@@ -1,0 +1,53 @@
+{
+  "a733b4f7b0ef": {
+    "id": "a733b4f7b0ef",
+    "label": "5403 LA PLAINE, Saint-Gély-du-Fesc",
+    "lat": 43.685318,
+    "lng": 3.788159,
+    "transactions": [
+      {
+        "date": "2022-11-09",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-09",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "17dd0026a23b": {
+    "id": "17dd0026a23b",
+    "label": "5399 LE VILLAGE, Saint-Gély-du-Fesc",
+    "lat": 43.684759,
+    "lng": 3.787216,
+    "transactions": [
+      {
+        "date": "2023-02-15",
+        "priceEur": 43500,
+        "typeLocal": "Maison",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-15",
+        "priceEur": 43500,
+        "typeLocal": "Maison",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-15",
+        "priceEur": 43500,
+        "typeLocal": "Maison",
+        "surfaceM2": 31,
+        "isVefa": false
+      }
+    ]
+  }
+}

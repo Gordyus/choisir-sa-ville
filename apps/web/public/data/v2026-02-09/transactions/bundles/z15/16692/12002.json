@@ -1,0 +1,32 @@
+{
+  "8f026d730162": {
+    "id": "8f026d730162",
+    "label": "1614 CHE MARION ET MEDEILHAN A VIAS, Vias",
+    "lat": 43.302898,
+    "lng": 3.388292,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 715000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "7fff868bfb14": {
+    "id": "7fff868bfb14",
+    "label": "669 CHE DE LA MARQUETTE, Vias",
+    "lat": 43.307597,
+    "lng": 3.386578,
+    "transactions": [
+      {
+        "date": "2022-03-18",
+        "priceEur": 190840,
+        "typeLocal": "Maison",
+        "surfaceM2": 29,
+        "isVefa": false
+      }
+    ]
+  }
+}

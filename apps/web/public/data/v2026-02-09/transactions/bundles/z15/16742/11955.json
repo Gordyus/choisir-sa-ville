@@ -1,0 +1,83 @@
+{
+  "45298ab39cb9": {
+    "id": "45298ab39cb9",
+    "label": "760 RUE DU STADE, Teyran",
+    "lat": 43.67871,
+    "lng": 3.934878,
+    "transactions": [
+      {
+        "date": "2023-06-29",
+        "priceEur": 285000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-24",
+        "priceEur": 336000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-29",
+        "priceEur": 280000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "91bedc2c47d1": {
+    "id": "91bedc2c47d1",
+    "label": "3 RUE DU STADE, Teyran",
+    "lat": 43.682991,
+    "lng": 3.933506,
+    "transactions": [
+      {
+        "date": "2022-05-03",
+        "priceEur": 510000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "d52b5280006a": {
+    "id": "d52b5280006a",
+    "label": "700 RUE DU STADE, Teyran",
+    "lat": 43.678719,
+    "lng": 3.935414,
+    "transactions": [
+      {
+        "date": "2022-06-10",
+        "priceEur": 556550,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-10",
+        "priceEur": 556550,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      }
+    ]
+  },
+  "84203771d06e": {
+    "id": "84203771d06e",
+    "label": "10 RUE DES LILAS, Teyran",
+    "lat": 43.679284,
+    "lng": 3.933227,
+    "transactions": [
+      {
+        "date": "2024-06-11",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  }
+}

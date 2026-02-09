@@ -26,6 +26,7 @@ import { normalizeName } from "@/lib/data/nameNormalization";
 import { entityRefKey, getEntityStateService, type EntityRef } from "@/lib/selection";
 
 import { extractLabelIdentity, type LabelIdentity } from "./interactiveLayers";
+import { LAYER_IDS } from "./registry/layerRegistry";
 
 // ============================================================================
 // Constants
@@ -160,7 +161,13 @@ export function attachMapInteractionService(
                 }
 
                 if (!hit) {
-                    entityStateService.setActive(null);
+                    // Fallback: check transaction address points
+                    const txRef = pickTransactionFeature(map, event.point);
+                    if (txRef) {
+                        entityStateService.setActive(txRef);
+                    } else {
+                        entityStateService.setActive(null);
+                    }
                     return;
                 }
 
@@ -508,6 +515,46 @@ function getFeatureLngLat(feature: MapGeoJSONFeature): { lng: number; lat: numbe
     }
 
     return null;
+}
+
+// ============================================================================
+// Transaction Feature Picking
+// ============================================================================
+
+function pickTransactionFeature(map: MapLibreMap, point: PointLike): EntityRef | null {
+    if (!map.isStyleLoaded()) {
+        return null;
+    }
+
+    if (!map.getLayer(LAYER_IDS.transactionAddresses)) {
+        return null;
+    }
+
+    const features = map.queryRenderedFeatures(point, { layers: [LAYER_IDS.transactionAddresses] });
+    if (!features.length) {
+        return null;
+    }
+
+    const feature = features[0];
+    if (!feature) {
+        return null;
+    }
+
+    const props = feature.properties as Record<string, unknown> | null;
+    if (!props) {
+        return null;
+    }
+
+    const id = props["id"];
+    const z = props["z"];
+    const x = props["x"];
+    const y = props["y"];
+
+    if (typeof id !== "string" || typeof z !== "number" || typeof x !== "number" || typeof y !== "number") {
+        return null;
+    }
+
+    return { kind: "transactionAddress", id, bundleZ: z, bundleX: x, bundleY: y };
 }
 
 // ============================================================================

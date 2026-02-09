@@ -1,0 +1,32 @@
+{
+  "e331eb0dd585": {
+    "id": "e331eb0dd585",
+    "label": "5571F SCIO, Courniou",
+    "lat": 43.471078,
+    "lng": 2.713756,
+    "transactions": [
+      {
+        "date": "2024-06-21",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "6081e1b7cf67": {
+    "id": "6081e1b7cf67",
+    "label": "5345 SCIO, Courniou",
+    "lat": 43.471057,
+    "lng": 2.713862,
+    "transactions": [
+      {
+        "date": "2024-08-06",
+        "priceEur": 160900,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  }
+}

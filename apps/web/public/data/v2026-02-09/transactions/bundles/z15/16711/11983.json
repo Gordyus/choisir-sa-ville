@@ -1,0 +1,32 @@
+{
+  "4db4ac3e64c4": {
+    "id": "4db4ac3e64c4",
+    "label": "5677F LA MOULINE DE FAUCONNE, Loupian",
+    "lat": 43.454834,
+    "lng": 3.598813,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 223200,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d2eca9c1ea3": {
+    "id": "9d2eca9c1ea3",
+    "label": "5378 LA MOULINE, Loupian",
+    "lat": 43.453134,
+    "lng": 3.599856,
+    "transactions": [
+      {
+        "date": "2024-06-17",
+        "priceEur": 67000,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  }
+}

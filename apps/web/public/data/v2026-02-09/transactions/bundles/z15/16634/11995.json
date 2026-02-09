@@ -1,0 +1,32 @@
+{
+  "65d2fd3c8a31": {
+    "id": "65d2fd3c8a31",
+    "label": "5092 MAYRANNE, Minerve",
+    "lat": 43.358869,
+    "lng": 2.757267,
+    "transactions": [
+      {
+        "date": "2020-08-27",
+        "priceEur": 531000,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "a37d92df8c2e": {
+    "id": "a37d92df8c2e",
+    "label": "5088 LAPADEN, Minerve",
+    "lat": 43.361569,
+    "lng": 2.755441,
+    "transactions": [
+      {
+        "date": "2024-02-28",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  }
+}

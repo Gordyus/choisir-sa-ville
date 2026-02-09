@@ -1,0 +1,77 @@
+{
+  "dedeeeeae6e1": {
+    "id": "dedeeeeae6e1",
+    "label": "29 CHE FRANCOIS FEDOU, Agde",
+    "lat": 43.310143,
+    "lng": 3.498503,
+    "transactions": [
+      {
+        "date": "2021-11-26",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b51842bc305": {
+    "id": "9b51842bc305",
+    "label": "2 RUE DES MOULINS A HUILE, Agde",
+    "lat": 43.309255,
+    "lng": 3.499036,
+    "transactions": [
+      {
+        "date": "2022-06-01",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4ed4c824d32": {
+    "id": "f4ed4c824d32",
+    "label": "16 CHE FRANCOIS FEDOU, Agde",
+    "lat": 43.311484,
+    "lng": 3.498425,
+    "transactions": [
+      {
+        "date": "2022-12-02",
+        "priceEur": 402000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "8cc9e325c912": {
+    "id": "8cc9e325c912",
+    "label": "10 RUE DES MOULINS A HUILE, Agde",
+    "lat": 43.30955,
+    "lng": 3.501408,
+    "transactions": [
+      {
+        "date": "2023-08-31",
+        "priceEur": 427000,
+        "typeLocal": "Maison",
+        "surfaceM2": 250,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6e766a353b2": {
+    "id": "c6e766a353b2",
+    "label": "11 RUE DU PERE J B SALLES, Agde",
+    "lat": 43.309284,
+    "lng": 3.496921,
+    "transactions": [
+      {
+        "date": "2023-09-11",
+        "priceEur": 36000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  }
+}

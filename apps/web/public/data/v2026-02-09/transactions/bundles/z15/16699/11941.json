@@ -1,0 +1,99 @@
+{
+  "ebb171dadfd5": {
+    "id": "ebb171dadfd5",
+    "label": "12 GR GRAND  RUE, La Vacquerie-et-Saint-Martin-de-Castries",
+    "lat": 43.788488,
+    "lng": 3.460823,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 72000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "f0fc3a2dd241": {
+    "id": "f0fc3a2dd241",
+    "label": "27 GR GRAND  RUE, La Vacquerie-et-Saint-Martin-de-Castries",
+    "lat": 43.78878,
+    "lng": 3.460752,
+    "transactions": [
+      {
+        "date": "2022-04-27",
+        "priceEur": 132905,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-15",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "b82d77574ab4": {
+    "id": "b82d77574ab4",
+    "label": "5036F LES BRESILLIERS, La Vacquerie-et-Saint-Martin-de-Castries",
+    "lat": 43.7891,
+    "lng": 3.461188,
+    "transactions": [
+      {
+        "date": "2022-08-25",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 167,
+        "isVefa": false
+      }
+    ]
+  },
+  "34f35af3aa44": {
+    "id": "34f35af3aa44",
+    "label": "10 GR GRAND RUE, La Vacquerie-et-Saint-Martin-de-Castries",
+    "lat": 43.788441,
+    "lng": 3.460901,
+    "transactions": [
+      {
+        "date": "2022-09-14",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "4659a188169b": {
+    "id": "4659a188169b",
+    "label": "23 GR GRAND RUE, La Vacquerie-et-Saint-Martin-de-Castries",
+    "lat": 43.788671,
+    "lng": 3.460902,
+    "transactions": [
+      {
+        "date": "2022-10-19",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c3ee76952b3": {
+    "id": "3c3ee76952b3",
+    "label": "2 RUE DU MARECHAL FERRANT, La Vacquerie-et-Saint-Martin-de-Castries",
+    "lat": 43.787801,
+    "lng": 3.461481,
+    "transactions": [
+      {
+        "date": "2024-02-01",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

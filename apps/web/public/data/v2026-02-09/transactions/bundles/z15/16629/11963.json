@@ -1,0 +1,47 @@
+{
+  "7a67d9114f4e": {
+    "id": "7a67d9114f4e",
+    "label": "488 PIQUESTELLE, La Salvetat-sur-Agout",
+    "lat": 43.612915,
+    "lng": 2.694452,
+    "transactions": [
+      {
+        "date": "2021-11-16",
+        "priceEur": 607000,
+        "typeLocal": "Maison",
+        "surfaceM2": 296,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c64587a48a7": {
+    "id": "1c64587a48a7",
+    "label": "488A PIQUESTELLE, La Salvetat-sur-Agout",
+    "lat": 43.613289,
+    "lng": 2.694611,
+    "transactions": [
+      {
+        "date": "2021-11-16",
+        "priceEur": 607000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee49faae41d2": {
+    "id": "ee49faae41d2",
+    "label": "223F GRUALGUES, La Salvetat-sur-Agout",
+    "lat": 43.615691,
+    "lng": 2.700839,
+    "transactions": [
+      {
+        "date": "2022-10-16",
+        "priceEur": 67860,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "4fc4d53c090c": {
+    "id": "4fc4d53c090c",
+    "label": "5055 LE VILLAGE, Carlencas-et-Levas",
+    "lat": 43.633018,
+    "lng": 3.22579,
+    "transactions": [
+      {
+        "date": "2020-10-26",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e14af62fe95": {
+    "id": "9e14af62fe95",
+    "label": "5079F LES CASTAGNES, Carlencas-et-Levas",
+    "lat": 43.633972,
+    "lng": 3.223358,
+    "transactions": [
+      {
+        "date": "2021-02-11",
+        "priceEur": 477000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-11",
+        "priceEur": 477000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "61de008aea20": {
+    "id": "61de008aea20",
+    "label": "5082F LES CASTAGNES, Carlencas-et-Levas",
+    "lat": 43.634454,
+    "lng": 3.223151,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-30",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "e119ea04facf": {
+    "id": "e119ea04facf",
+    "label": "5035F LE CHEMIN DE CLERMONT, Carlencas-et-Levas",
+    "lat": 43.631907,
+    "lng": 3.228397,
+    "transactions": [
+      {
+        "date": "2021-08-06",
+        "priceEur": 178500,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-06",
+        "priceEur": 178500,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "e99c65b845bc": {
+    "id": "e99c65b845bc",
+    "label": "5062F LE VILLAGE, Carlencas-et-Levas",
+    "lat": 43.632755,
+    "lng": 3.225107,
+    "transactions": [
+      {
+        "date": "2021-10-22",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "68a0e2b892b5": {
+    "id": "68a0e2b892b5",
+    "label": "3 IMP DU CIGALAS, Carlencas-et-Levas",
+    "lat": 43.632424,
+    "lng": 3.224381,
+    "transactions": [
+      {
+        "date": "2024-09-25",
+        "priceEur": 362430,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-25",
+        "priceEur": 362430,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  }
+}

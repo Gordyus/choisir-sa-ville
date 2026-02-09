@@ -1,0 +1,382 @@
+{
+  "26a6750ce5d5": {
+    "id": "26a6750ce5d5",
+    "label": "132 RUE DE SAINT BAUZILLE, Saint-Brès",
+    "lat": 43.664467,
+    "lng": 4.032212,
+    "transactions": [
+      {
+        "date": "2020-09-22",
+        "priceEur": 203400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6f22806dd40": {
+    "id": "c6f22806dd40",
+    "label": "22 PL LEVANT, Saint-Brès",
+    "lat": 43.66703,
+    "lng": 4.036146,
+    "transactions": [
+      {
+        "date": "2020-10-29",
+        "priceEur": 329500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff4e82314767": {
+    "id": "ff4e82314767",
+    "label": "10 PL DE SAINTE COLOMBE, Saint-Brès",
+    "lat": 43.666827,
+    "lng": 4.033218,
+    "transactions": [
+      {
+        "date": "2021-03-17",
+        "priceEur": 532000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "457ac973e52d": {
+    "id": "457ac973e52d",
+    "label": "75 RUE DES PRADELS, Saint-Brès",
+    "lat": 43.665884,
+    "lng": 4.037366,
+    "transactions": [
+      {
+        "date": "2021-07-06",
+        "priceEur": 480000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-06",
+        "priceEur": 480000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "b50598ce8f49": {
+    "id": "b50598ce8f49",
+    "label": "3 RUE DE LA PIERRE SAINT ROCH, Saint-Brès",
+    "lat": 43.667427,
+    "lng": 4.032095,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 646100,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  },
+  "53a41914f422": {
+    "id": "53a41914f422",
+    "label": "30 ALL DES CLEMATITES, Saint-Brès",
+    "lat": 43.667813,
+    "lng": 4.040743,
+    "transactions": [
+      {
+        "date": "2021-09-09",
+        "priceEur": 334000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "e091f7087eb7": {
+    "id": "e091f7087eb7",
+    "label": "499 AV DE NIMES, Saint-Brès",
+    "lat": 43.665571,
+    "lng": 4.037294,
+    "transactions": [
+      {
+        "date": "2021-09-08",
+        "priceEur": 620000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-08",
+        "priceEur": 620000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  },
+  "3789613dc1b6": {
+    "id": "3789613dc1b6",
+    "label": "489 RUE DE L OLIVETTE, Saint-Brès",
+    "lat": 43.665269,
+    "lng": 4.037159,
+    "transactions": [
+      {
+        "date": "2021-09-17",
+        "priceEur": 820000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-17",
+        "priceEur": 820000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5dfb5960f89": {
+    "id": "b5dfb5960f89",
+    "label": "146 RUE DE SAINT BAUZILLE, Saint-Brès",
+    "lat": 43.664467,
+    "lng": 4.032212,
+    "transactions": [
+      {
+        "date": "2023-11-22",
+        "priceEur": 239400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-06",
+        "priceEur": 262900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "524f13d95dd0": {
+    "id": "524f13d95dd0",
+    "label": "5 PL DE LA RAMADE, Saint-Brès",
+    "lat": 43.663279,
+    "lng": 4.032092,
+    "transactions": [
+      {
+        "date": "2022-04-25",
+        "priceEur": 266450,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7b2366cf5fe": {
+    "id": "c7b2366cf5fe",
+    "label": "8 RUE DU VERSANT, Saint-Brès",
+    "lat": 43.664802,
+    "lng": 4.036691,
+    "transactions": [
+      {
+        "date": "2022-04-25",
+        "priceEur": 825000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c1eb466f2ae": {
+    "id": "1c1eb466f2ae",
+    "label": "111 RUE DE L OLIVETTE, Saint-Brès",
+    "lat": 43.66572,
+    "lng": 4.032676,
+    "transactions": [
+      {
+        "date": "2023-01-09",
+        "priceEur": 750000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-09",
+        "priceEur": 750000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "beb659bd18d1": {
+    "id": "beb659bd18d1",
+    "label": "15 AV DE NIMES, Saint-Brès",
+    "lat": 43.66383,
+    "lng": 4.032479,
+    "transactions": [
+      {
+        "date": "2023-10-11",
+        "priceEur": 146500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "71811456eb8b": {
+    "id": "71811456eb8b",
+    "label": "331 RUE DES PRADELS, Saint-Brès",
+    "lat": 43.66713,
+    "lng": 4.038154,
+    "transactions": [
+      {
+        "date": "2024-05-24",
+        "priceEur": 950000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d88e0488e98": {
+    "id": "3d88e0488e98",
+    "label": "179 RUE DES COQUELICOTS, Saint-Brès",
+    "lat": 43.667769,
+    "lng": 4.041894,
+    "transactions": [
+      {
+        "date": "2024-06-19",
+        "priceEur": 385500,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "8dbd3eba40be": {
+    "id": "8dbd3eba40be",
+    "label": "254 ALL DES FRENES, Saint-Brès",
+    "lat": 43.667838,
+    "lng": 4.042617,
+    "transactions": [
+      {
+        "date": "2024-07-23",
+        "priceEur": 448450,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "48fce98be7ec": {
+    "id": "48fce98be7ec",
+    "label": "144 ALL DES FRENES, Saint-Brès",
+    "lat": 43.667535,
+    "lng": 4.041266,
+    "transactions": [
+      {
+        "date": "2024-08-14",
+        "priceEur": 480880,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "8186e5f955e0": {
+    "id": "8186e5f955e0",
+    "label": "12 RUE DU LEVANT, Saint-Brès",
+    "lat": 43.667499,
+    "lng": 4.035934,
+    "transactions": [
+      {
+        "date": "2024-08-30",
+        "priceEur": 427000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "718494361ded": {
+    "id": "718494361ded",
+    "label": "10 ALL DU LEVANT, Saint-Brès",
+    "lat": 43.66787,
+    "lng": 4.035555,
+    "transactions": [
+      {
+        "date": "2024-09-30",
+        "priceEur": 279000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f591373c6b2": {
+    "id": "8f591373c6b2",
+    "label": "42 ALL DES SANTOLINES, Saint-Brès",
+    "lat": 43.667441,
+    "lng": 4.040528,
+    "transactions": [
+      {
+        "date": "2024-12-06",
+        "priceEur": 450205,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "439869b7f1a5": {
+    "id": "439869b7f1a5",
+    "label": "1 PL DE LA RAMADE, Saint-Brès",
+    "lat": 43.663283,
+    "lng": 4.032342,
+    "transactions": [
+      {
+        "date": "2025-02-04",
+        "priceEur": 194950,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd92c62946a7": {
+    "id": "bd92c62946a7",
+    "label": "1B IMP DES NOUVELLES ECOLES, Saint-Brès",
+    "lat": 43.664836,
+    "lng": 4.033171,
+    "transactions": [
+      {
+        "date": "2025-02-19",
+        "priceEur": 292000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9057abdceff": {
+    "id": "c9057abdceff",
+    "label": "120 RUE DES COQUELICOTS, Saint-Brès",
+    "lat": 43.667468,
+    "lng": 4.041659,
+    "transactions": [
+      {
+        "date": "2025-03-06",
+        "priceEur": 364000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  }
+}

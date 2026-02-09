@@ -1,0 +1,83 @@
+{
+  "5d54a5a9494f": {
+    "id": "5d54a5a9494f",
+    "label": "919D LES ONGLOUS, Poussan",
+    "lat": 43.479992,
+    "lng": 3.655111,
+    "transactions": [
+      {
+        "date": "2020-08-21",
+        "priceEur": 262550,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ec9e94baf1d": {
+    "id": "3ec9e94baf1d",
+    "label": "5503F LES ONGLOUS, Poussan",
+    "lat": 43.480191,
+    "lng": 3.654863,
+    "transactions": [
+      {
+        "date": "2021-06-11",
+        "priceEur": 298600,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6e59a437595": {
+    "id": "c6e59a437595",
+    "label": "1285 CHE DE LOUPIAN, Poussan",
+    "lat": 43.478854,
+    "lng": 3.650416,
+    "transactions": [
+      {
+        "date": "2023-07-10",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-10",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca974058fe35": {
+    "id": "ca974058fe35",
+    "label": "1117B CHE DE LOUPIAN, Poussan",
+    "lat": 43.478967,
+    "lng": 3.652844,
+    "transactions": [
+      {
+        "date": "2023-11-15",
+        "priceEur": 554800,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-15",
+        "priceEur": 554800,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-15",
+        "priceEur": 554800,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  }
+}

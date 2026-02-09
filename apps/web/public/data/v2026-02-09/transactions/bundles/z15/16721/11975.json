@@ -1,0 +1,62 @@
+{
+  "e44c567c76f4": {
+    "id": "e44c567c76f4",
+    "label": "430 CAMI DES OLIVIERS, Montbazin",
+    "lat": 43.521512,
+    "lng": 3.702766,
+    "transactions": [
+      {
+        "date": "2022-02-18",
+        "priceEur": 333815,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "205dfbd4b324": {
+    "id": "205dfbd4b324",
+    "label": "505 CAMI MAS D ARNAUD, Montbazin",
+    "lat": 43.520838,
+    "lng": 3.702828,
+    "transactions": [
+      {
+        "date": "2022-06-01",
+        "priceEur": 458000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c74c1d06c2b": {
+    "id": "7c74c1d06c2b",
+    "label": "2 CAMI DES CRESSES, Montbazin",
+    "lat": 43.519412,
+    "lng": 3.702393,
+    "transactions": [
+      {
+        "date": "2023-08-31",
+        "priceEur": 368600,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "797194119404": {
+    "id": "797194119404",
+    "label": "5803 LES CRESSES-HAUTES, Montbazin",
+    "lat": 43.523926,
+    "lng": 3.705561,
+    "transactions": [
+      {
+        "date": "2024-06-14",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  }
+}

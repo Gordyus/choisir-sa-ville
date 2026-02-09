@@ -1,0 +1,106 @@
+{
+  "eeb872466a00": {
+    "id": "eeb872466a00",
+    "label": "13 RUE DE L'ETANG DE L'OR, Mudaison",
+    "lat": 43.643544,
+    "lng": 4.044017,
+    "transactions": [
+      {
+        "date": "2020-11-06",
+        "priceEur": 366950,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-06",
+        "priceEur": 366950,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "46af28644430": {
+    "id": "46af28644430",
+    "label": "19 AV DU 8 MAI 1945, Mudaison",
+    "lat": 43.643683,
+    "lng": 4.046629,
+    "transactions": [
+      {
+        "date": "2021-01-25",
+        "priceEur": 419200,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "e4273d7e2b16": {
+    "id": "e4273d7e2b16",
+    "label": "4 AV DU 8 MAI 1945, Mudaison",
+    "lat": 43.643401,
+    "lng": 4.045148,
+    "transactions": [
+      {
+        "date": "2022-12-01",
+        "priceEur": 520000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-29",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a5720c466ae": {
+    "id": "4a5720c466ae",
+    "label": "19 RUE DE L'ETANG DE L'OR, Mudaison",
+    "lat": 43.643313,
+    "lng": 4.044557,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 427040,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "39ab04579543": {
+    "id": "39ab04579543",
+    "label": "259 RTE DE CANDILLARGUES, Mudaison",
+    "lat": 43.643235,
+    "lng": 4.045623,
+    "transactions": [
+      {
+        "date": "2023-07-03",
+        "priceEur": 376300,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf2fc590b941": {
+    "id": "cf2fc590b941",
+    "label": "11 RUE DE L'ETANG DE L'OR, Mudaison",
+    "lat": 43.6436,
+    "lng": 4.043547,
+    "transactions": [
+      {
+        "date": "2024-05-22",
+        "priceEur": 570250,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

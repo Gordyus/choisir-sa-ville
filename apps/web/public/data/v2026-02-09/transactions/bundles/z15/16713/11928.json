@@ -1,0 +1,32 @@
+{
+  "d3f73450396c": {
+    "id": "d3f73450396c",
+    "label": "5420 BEAUQUINIES, Gorniès",
+    "lat": 43.894254,
+    "lng": 3.622478,
+    "transactions": [
+      {
+        "date": "2021-01-15",
+        "priceEur": 219620,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "35162236876b": {
+    "id": "35162236876b",
+    "label": "5029 BEAUQUINIES, Gorniès",
+    "lat": 43.894682,
+    "lng": 3.622838,
+    "transactions": [
+      {
+        "date": "2023-06-19",
+        "priceEur": 69000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  }
+}

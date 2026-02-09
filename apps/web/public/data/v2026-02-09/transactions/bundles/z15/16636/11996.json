@@ -1,0 +1,159 @@
+{
+  "534cac202fcd": {
+    "id": "534cac202fcd",
+    "label": "5038 LE VILLAGE, La Caunette",
+    "lat": 43.353742,
+    "lng": 2.777408,
+    "transactions": [
+      {
+        "date": "2021-08-30",
+        "priceEur": 126000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "21b04888da0c": {
+    "id": "21b04888da0c",
+    "label": "5127 LE VILLAGE, La Caunette",
+    "lat": 43.353604,
+    "lng": 2.77737,
+    "transactions": [
+      {
+        "date": "2021-11-18",
+        "priceEur": 42000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "c110a1d8b777": {
+    "id": "c110a1d8b777",
+    "label": "5018F LE VILLAGE, La Caunette",
+    "lat": 43.352725,
+    "lng": 2.779127,
+    "transactions": [
+      {
+        "date": "2021-12-22",
+        "priceEur": 147000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "332c5fe8db2a": {
+    "id": "332c5fe8db2a",
+    "label": "5258 LE VILLAGE, La Caunette",
+    "lat": 43.353599,
+    "lng": 2.777786,
+    "transactions": [
+      {
+        "date": "2022-10-06",
+        "priceEur": 32000,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "176694fec852": {
+    "id": "176694fec852",
+    "label": "5242F LE VILLAGE, La Caunette",
+    "lat": 43.353619,
+    "lng": 2.775959,
+    "transactions": [
+      {
+        "date": "2023-01-27",
+        "priceEur": 232600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 125,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-27",
+        "priceEur": 232600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "b44cbae44b7d": {
+    "id": "b44cbae44b7d",
+    "label": "5022 RUE DE LA RIVIERE, La Caunette",
+    "lat": 43.352684,
+    "lng": 2.778705,
+    "transactions": [
+      {
+        "date": "2023-08-28",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "4df566403458": {
+    "id": "4df566403458",
+    "label": "5073 LE VILLAGE, La Caunette",
+    "lat": 43.35279,
+    "lng": 2.778357,
+    "transactions": [
+      {
+        "date": "2023-11-16",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "df947be20653": {
+    "id": "df947be20653",
+    "label": "2 PL DU PORCHE, La Caunette",
+    "lat": 43.353604,
+    "lng": 2.77737,
+    "transactions": [
+      {
+        "date": "2024-08-05",
+        "priceEur": 81900,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "f63acafc723c": {
+    "id": "f63acafc723c",
+    "label": "5240 LE VILLAGE, La Caunette",
+    "lat": 43.352554,
+    "lng": 2.779375,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "890e53b42c99": {
+    "id": "890e53b42c99",
+    "label": "5042 LE VILLAGE, La Caunette",
+    "lat": 43.353637,
+    "lng": 2.777198,
+    "transactions": [
+      {
+        "date": "2025-02-27",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

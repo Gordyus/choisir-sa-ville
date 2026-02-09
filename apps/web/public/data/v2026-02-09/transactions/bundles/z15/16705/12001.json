@@ -1,0 +1,184 @@
+{
+  "4cae1152b6b3": {
+    "id": "4cae1152b6b3",
+    "label": "1091 CHE DU PAYROLLET, Marseillan",
+    "lat": 43.315212,
+    "lng": 3.536229,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 73850,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-12",
+        "priceEur": 175000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-10",
+        "priceEur": 89500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-22",
+        "priceEur": 73000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 24,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-21",
+        "priceEur": 88680,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-13",
+        "priceEur": 107990,
+        "typeLocal": "Appartement",
+        "surfaceM2": 37,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-05",
+        "priceEur": 109000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 37,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-07",
+        "priceEur": 103750,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-06",
+        "priceEur": 110000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-11",
+        "priceEur": 48500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "ded099762bf4": {
+    "id": "ded099762bf4",
+    "label": "9 IMP DU GRAU DU RIEU, Marseillan",
+    "lat": 43.316172,
+    "lng": 3.532115,
+    "transactions": [
+      {
+        "date": "2022-03-03",
+        "priceEur": 134000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "a04f25394ca8": {
+    "id": "a04f25394ca8",
+    "label": "34 IMP DU GRAU DU RIEU, Marseillan",
+    "lat": 43.315345,
+    "lng": 3.531939,
+    "transactions": [
+      {
+        "date": "2022-10-14",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0357dbcf36f": {
+    "id": "e0357dbcf36f",
+    "label": "9 AV DE LA GARE, Marseillan",
+    "lat": 43.316818,
+    "lng": 3.536037,
+    "transactions": [
+      {
+        "date": "2023-05-23",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 34,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-23",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 34,
+        "isVefa": false
+      }
+    ]
+  },
+  "7178df477ab9": {
+    "id": "7178df477ab9",
+    "label": "32 IMP DU GRAU DU RIEU, Marseillan",
+    "lat": 43.315511,
+    "lng": 3.532347,
+    "transactions": [
+      {
+        "date": "2023-07-25",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0c55e6c0624": {
+    "id": "b0c55e6c0624",
+    "label": "1 IMP DES VACANCIERS, Marseillan",
+    "lat": 43.315413,
+    "lng": 3.534792,
+    "transactions": [
+      {
+        "date": "2024-01-25",
+        "priceEur": 232040,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-25",
+        "priceEur": 232040,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a21781e75fb": {
+    "id": "8a21781e75fb",
+    "label": "11 AV DE LA GARE, Marseillan",
+    "lat": 43.316792,
+    "lng": 3.53544,
+    "transactions": [
+      {
+        "date": "2024-03-12",
+        "priceEur": 430000,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  }
+}

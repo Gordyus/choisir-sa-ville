@@ -1,0 +1,77 @@
+{
+  "f69ecff90a4d": {
+    "id": "f69ecff90a4d",
+    "label": "5197F RUE D'OLIVIER, Lauroux",
+    "lat": 43.777591,
+    "lng": 3.288098,
+    "transactions": [
+      {
+        "date": "2021-05-12",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "d27ec7934689": {
+    "id": "d27ec7934689",
+    "label": "5248F CHE DU CADILHOC, Lauroux",
+    "lat": 43.778262,
+    "lng": 3.288721,
+    "transactions": [
+      {
+        "date": "2021-12-22",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "01b864fbafe9": {
+    "id": "01b864fbafe9",
+    "label": "5211F RUE DE DEUX PONTS, Lauroux",
+    "lat": 43.777605,
+    "lng": 3.288684,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "f15a93d80cdf": {
+    "id": "f15a93d80cdf",
+    "label": "5216 LE VILLAGE, Lauroux",
+    "lat": 43.777451,
+    "lng": 3.288972,
+    "transactions": [
+      {
+        "date": "2023-06-05",
+        "priceEur": 147760,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "172dbfba8582": {
+    "id": "172dbfba8582",
+    "label": "5181F CHE DU CADILHOC, Lauroux",
+    "lat": 43.778033,
+    "lng": 3.288184,
+    "transactions": [
+      {
+        "date": "2024-02-23",
+        "priceEur": 20000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

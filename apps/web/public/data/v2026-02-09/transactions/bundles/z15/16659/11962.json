@@ -1,0 +1,32 @@
+{
+  "f1dfa33db74c": {
+    "id": "f1dfa33db74c",
+    "label": "5276 SENAS, Rosis",
+    "lat": 43.623552,
+    "lng": 3.030629,
+    "transactions": [
+      {
+        "date": "2021-05-25",
+        "priceEur": 28750,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "503aa24ad5ec": {
+    "id": "503aa24ad5ec",
+    "label": "5101 SENAS, Rosis",
+    "lat": 43.623415,
+    "lng": 3.030216,
+    "transactions": [
+      {
+        "date": "2023-10-03",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

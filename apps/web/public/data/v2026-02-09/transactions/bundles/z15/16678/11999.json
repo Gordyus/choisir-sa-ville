@@ -1,0 +1,128 @@
+{
+  "a193b1406a6d": {
+    "id": "a193b1406a6d",
+    "label": "4 IMP DES ACACIAS, Béziers",
+    "lat": 43.332089,
+    "lng": 3.240842,
+    "transactions": [
+      {
+        "date": "2020-08-18",
+        "priceEur": 219000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "390d29515828": {
+    "id": "390d29515828",
+    "label": "30 RUE DES TILLEULS, Béziers",
+    "lat": 43.331653,
+    "lng": 3.239534,
+    "transactions": [
+      {
+        "date": "2021-06-21",
+        "priceEur": 190000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 93,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-21",
+        "priceEur": 190000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "651902141aad": {
+    "id": "651902141aad",
+    "label": "7 RUE DES TILLEULS, Béziers",
+    "lat": 43.332376,
+    "lng": 3.238398,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 218000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "535b2908b960": {
+    "id": "535b2908b960",
+    "label": "9019 PLAINE SAINT PIERRE, Béziers",
+    "lat": 43.32666,
+    "lng": 3.23943,
+    "transactions": [
+      {
+        "date": "2023-12-21",
+        "priceEur": 215000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-21",
+        "priceEur": 215000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-21",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "64faf9737981": {
+    "id": "64faf9737981",
+    "label": "6 IMP DES ACACIAS, Béziers",
+    "lat": 43.331807,
+    "lng": 3.240725,
+    "transactions": [
+      {
+        "date": "2025-01-08",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "02f13bdd2823": {
+    "id": "02f13bdd2823",
+    "label": "12 IMP DES ACACIAS, Béziers",
+    "lat": 43.332019,
+    "lng": 3.240178,
+    "transactions": [
+      {
+        "date": "2025-03-31",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "6fb84475bd71": {
+    "id": "6fb84475bd71",
+    "label": "2 IMP DES ACACIAS, Béziers",
+    "lat": 43.33223,
+    "lng": 3.240938,
+    "transactions": [
+      {
+        "date": "2025-03-25",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  }
+}

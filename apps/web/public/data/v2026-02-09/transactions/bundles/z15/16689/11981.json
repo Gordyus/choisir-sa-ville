@@ -1,0 +1,105 @@
+{
+  "59948ec91649": {
+    "id": "59948ec91649",
+    "label": "5655 CAMP NEGRE, Alignan-du-Vent",
+    "lat": 43.472369,
+    "lng": 3.352957,
+    "transactions": [
+      {
+        "date": "2020-07-02",
+        "priceEur": 222740,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-02",
+        "priceEur": 222740,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa6ff7edd5ab": {
+    "id": "aa6ff7edd5ab",
+    "label": "5583F RUE D'INCABRETTE, Alignan-du-Vent",
+    "lat": 43.471279,
+    "lng": 3.354233,
+    "transactions": [
+      {
+        "date": "2020-12-21",
+        "priceEur": 199900,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-21",
+        "priceEur": 199900,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "12c21c12fc88": {
+    "id": "12c21c12fc88",
+    "label": "1 RUE DE LA ROUQUETTE, Alignan-du-Vent",
+    "lat": 43.469136,
+    "lng": 3.351091,
+    "transactions": [
+      {
+        "date": "2021-01-15",
+        "priceEur": 385481,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-15",
+        "priceEur": 385481,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "d4d2d610c973": {
+    "id": "d4d2d610c973",
+    "label": "27 RUE DE LAS BOUSIGUES, Alignan-du-Vent",
+    "lat": 43.469559,
+    "lng": 3.352216,
+    "transactions": [
+      {
+        "date": "2022-09-27",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe5434f57e7b": {
+    "id": "fe5434f57e7b",
+    "label": "5650 CAMP NEGRE, Alignan-du-Vent",
+    "lat": 43.472487,
+    "lng": 3.353372,
+    "transactions": [
+      {
+        "date": "2023-03-28",
+        "priceEur": 383695,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-28",
+        "priceEur": 383695,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  }
+}

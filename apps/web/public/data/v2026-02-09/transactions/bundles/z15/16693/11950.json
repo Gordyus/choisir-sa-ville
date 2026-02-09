@@ -1,0 +1,62 @@
+{
+  "f8bf1402f92b": {
+    "id": "f8bf1402f92b",
+    "label": "5 RUE DU PUITS, Usclas-du-Bosc",
+    "lat": 43.722972,
+    "lng": 3.402637,
+    "transactions": [
+      {
+        "date": "2020-10-16",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "0a648a2cdee4": {
+    "id": "0a648a2cdee4",
+    "label": "4 PL DE L EGLISE, Usclas-du-Bosc",
+    "lat": 43.72301,
+    "lng": 3.403308,
+    "transactions": [
+      {
+        "date": "2021-07-26",
+        "priceEur": 59110,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "cab2ff77d450": {
+    "id": "cab2ff77d450",
+    "label": "2 PL DE L EGLISE, Usclas-du-Bosc",
+    "lat": 43.72322,
+    "lng": 3.402986,
+    "transactions": [
+      {
+        "date": "2022-02-02",
+        "priceEur": 43750,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2c1fea92b83": {
+    "id": "c2c1fea92b83",
+    "label": "9 RUE DE LA LIBERTE, Usclas-du-Bosc",
+    "lat": 43.723458,
+    "lng": 3.402949,
+    "transactions": [
+      {
+        "date": "2025-03-28",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  }
+}

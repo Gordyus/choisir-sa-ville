@@ -1,0 +1,46 @@
+{
+  "1bbfec9034e1": {
+    "id": "1bbfec9034e1",
+    "label": "3028 RTE DE NARBONNE D 609, Béziers",
+    "lat": 43.317243,
+    "lng": 3.182795,
+    "transactions": [
+      {
+        "date": "2022-09-20",
+        "priceEur": 242490,
+        "typeLocal": "Maison",
+        "surfaceM2": 208,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-30",
+        "priceEur": 174000,
+        "typeLocal": "Maison",
+        "surfaceM2": 208,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6b0171270e1": {
+    "id": "f6b0171270e1",
+    "label": "3034 RTE DE NARBONNE D 609, Béziers",
+    "lat": 43.317898,
+    "lng": 3.182657,
+    "transactions": [
+      {
+        "date": "2023-05-26",
+        "priceEur": 620000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-26",
+        "priceEur": 620000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "0e537c49431d": {
+    "id": "0e537c49431d",
+    "label": "5 LOT PHILIPPE DE RODEZ, Montels",
+    "lat": 43.29331,
+    "lng": 3.03499,
+    "transactions": [
+      {
+        "date": "2020-09-28",
+        "priceEur": 260609,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b3297eb96cb": {
+    "id": "6b3297eb96cb",
+    "label": "2 RUE DE L'HORTE, Montels",
+    "lat": 43.294584,
+    "lng": 3.032345,
+    "transactions": [
+      {
+        "date": "2021-05-27",
+        "priceEur": 234300,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "b701cbcb6e6e": {
+    "id": "b701cbcb6e6e",
+    "label": "2 LOT DE L ETANG, Montels",
+    "lat": 43.293552,
+    "lng": 3.032495,
+    "transactions": [
+      {
+        "date": "2022-11-22",
+        "priceEur": 321650,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "48af45f7792a": {
+    "id": "48af45f7792a",
+    "label": "5 LOT DE L ETANG, Montels",
+    "lat": 43.293552,
+    "lng": 3.033335,
+    "transactions": [
+      {
+        "date": "2023-05-23",
+        "priceEur": 221450,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b5c6c573997": {
+    "id": "8b5c6c573997",
+    "label": "3 LOT PHILIPPE DE RODEZ, Montels",
+    "lat": 43.29341,
+    "lng": 3.03482,
+    "transactions": [
+      {
+        "date": "2023-10-04",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

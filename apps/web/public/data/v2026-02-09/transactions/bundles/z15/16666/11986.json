@@ -1,0 +1,170 @@
+{
+  "6df5e01e91c4": {
+    "id": "6df5e01e91c4",
+    "label": "4240 LOT ROUCANS, Murviel-lès-Béziers",
+    "lat": 43.434395,
+    "lng": 3.107093,
+    "transactions": [
+      {
+        "date": "2020-10-27",
+        "priceEur": 551800,
+        "typeLocal": "Maison",
+        "surfaceM2": 196,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-27",
+        "priceEur": 551800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "93df69b96105": {
+    "id": "93df69b96105",
+    "label": "6108 REALS, Cessenon-sur-Orb",
+    "lat": 43.434006,
+    "lng": 3.102455,
+    "transactions": [
+      {
+        "date": "2021-01-15",
+        "priceEur": 182000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-15",
+        "priceEur": 182000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "96ed8129fe12": {
+    "id": "96ed8129fe12",
+    "label": "19 LOT LE MOULIN DE REALS, Cessenon-sur-Orb",
+    "lat": 43.435894,
+    "lng": 3.099772,
+    "transactions": [
+      {
+        "date": "2021-07-01",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-01",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c0a9500066d": {
+    "id": "5c0a9500066d",
+    "label": "20 REALS, Cessenon-sur-Orb",
+    "lat": 43.435299,
+    "lng": 3.100576,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-29",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-29",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-29",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "107661b38f0d": {
+    "id": "107661b38f0d",
+    "label": "32 REALS, Cessenon-sur-Orb",
+    "lat": 43.434855,
+    "lng": 3.102105,
+    "transactions": [
+      {
+        "date": "2022-08-25",
+        "priceEur": 416620,
+        "typeLocal": "Appartement",
+        "surfaceM2": 87,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-25",
+        "priceEur": 416620,
+        "typeLocal": "Appartement",
+        "surfaceM2": 27,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ab53766e26f": {
+    "id": "7ab53766e26f",
+    "label": "13 LOT LE MOULIN DE REALS, Cessenon-sur-Orb",
+    "lat": 43.436515,
+    "lng": 3.099839,
+    "transactions": [
+      {
+        "date": "2023-12-19",
+        "priceEur": 608500,
+        "typeLocal": "Maison",
+        "surfaceM2": 227,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-19",
+        "priceEur": 608500,
+        "typeLocal": "Maison",
+        "surfaceM2": 227,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1fe33eb1960": {
+    "id": "f1fe33eb1960",
+    "label": "6274F REALS, Cessenon-sur-Orb",
+    "lat": 43.436518,
+    "lng": 3.100704,
+    "transactions": [
+      {
+        "date": "2025-03-25",
+        "priceEur": 487000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-25",
+        "priceEur": 487000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  }
+}

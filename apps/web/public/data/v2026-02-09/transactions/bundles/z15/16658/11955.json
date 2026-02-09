@@ -1,0 +1,39 @@
+{
+  "bc1ff62c4c85": {
+    "id": "bc1ff62c4c85",
+    "label": "5188 SALS, Saint-Geniès-de-Varensal",
+    "lat": 43.677128,
+    "lng": 3.019966,
+    "transactions": [
+      {
+        "date": "2022-07-27",
+        "priceEur": 186000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-27",
+        "priceEur": 186000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d1a103d4513": {
+    "id": "5d1a103d4513",
+    "label": "5203F SALS, Saint-Geniès-de-Varensal",
+    "lat": 43.677378,
+    "lng": 3.021191,
+    "transactions": [
+      {
+        "date": "2023-11-22",
+        "priceEur": 358000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

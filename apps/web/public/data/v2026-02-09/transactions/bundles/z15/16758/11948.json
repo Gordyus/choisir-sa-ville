@@ -1,0 +1,39 @@
+{
+  "9eed65fb8f83": {
+    "id": "9eed65fb8f83",
+    "label": "5072 LAROQUE, Saint-Sériès",
+    "lat": 43.735025,
+    "lng": 4.116162,
+    "transactions": [
+      {
+        "date": "2021-12-08",
+        "priceEur": 20000,
+        "typeLocal": "Maison",
+        "surfaceM2": 16,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-08",
+        "priceEur": 20000,
+        "typeLocal": "Maison",
+        "surfaceM2": 16,
+        "isVefa": false
+      }
+    ]
+  },
+  "cad1214c55ff": {
+    "id": "cad1214c55ff",
+    "label": "5075 LE GAREL, Saint-Sériès",
+    "lat": 43.736776,
+    "lng": 4.115351,
+    "transactions": [
+      {
+        "date": "2025-04-18",
+        "priceEur": 5000,
+        "typeLocal": "Maison",
+        "surfaceM2": 21,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "660fdbf6c847": {
+    "id": "660fdbf6c847",
+    "label": "5467F HAMEAU DE LA ROQUE, Saint-Étienne-de-Gourgas",
+    "lat": 43.78871,
+    "lng": 3.393604,
+    "transactions": [
+      {
+        "date": "2021-02-15",
+        "priceEur": 28300,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "7218de86805e": {
+    "id": "7218de86805e",
+    "label": "5408 HAMEAU DE LA ROQUE, Saint-Étienne-de-Gourgas",
+    "lat": 43.788589,
+    "lng": 3.394075,
+    "transactions": [
+      {
+        "date": "2021-08-18",
+        "priceEur": 37500,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

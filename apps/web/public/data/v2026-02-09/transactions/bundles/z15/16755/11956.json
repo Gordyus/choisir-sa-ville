@@ -1,0 +1,188 @@
+{
+  "bb7d6465b279": {
+    "id": "bb7d6465b279",
+    "label": "41 RUE DES CASTORS, Lunel-Viel",
+    "lat": 43.675532,
+    "lng": 4.085364,
+    "transactions": [
+      {
+        "date": "2022-05-30",
+        "priceEur": 275850,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-01",
+        "priceEur": 212100,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "0a9452b3a820": {
+    "id": "0a9452b3a820",
+    "label": "205 CHE NEUF, Lunel-Viel",
+    "lat": 43.674861,
+    "lng": 4.083117,
+    "transactions": [
+      {
+        "date": "2020-08-14",
+        "priceEur": 368000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "b87a88074598": {
+    "id": "b87a88074598",
+    "label": "13 RUE DES CASTORS, Lunel-Viel",
+    "lat": 43.675275,
+    "lng": 4.0854,
+    "transactions": [
+      {
+        "date": "2020-11-25",
+        "priceEur": 256800,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "372eda24670e": {
+    "id": "372eda24670e",
+    "label": "57 RUE DES CADES, Lunel-Viel",
+    "lat": 43.674348,
+    "lng": 4.085893,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 213550,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "84387562709d": {
+    "id": "84387562709d",
+    "label": "20 RUE DES CASTORS, Lunel-Viel",
+    "lat": 43.675363,
+    "lng": 4.085412,
+    "transactions": [
+      {
+        "date": "2022-03-21",
+        "priceEur": 279000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd06f70e9f77": {
+    "id": "dd06f70e9f77",
+    "label": "8 PL DES MURIERS, Lunel-Viel",
+    "lat": 43.675146,
+    "lng": 4.086553,
+    "transactions": [
+      {
+        "date": "2022-05-25",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "d0940376ff19": {
+    "id": "d0940376ff19",
+    "label": "501 RTE DE VALERGUES, Lunel-Viel",
+    "lat": 43.674033,
+    "lng": 4.086458,
+    "transactions": [
+      {
+        "date": "2022-08-08",
+        "priceEur": 392750,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb4a2074ba7a": {
+    "id": "fb4a2074ba7a",
+    "label": "12 RUE DES MESANGES, Lunel-Viel",
+    "lat": 43.67502,
+    "lng": 4.085809,
+    "transactions": [
+      {
+        "date": "2022-09-09",
+        "priceEur": 388000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b815fa863c0": {
+    "id": "6b815fa863c0",
+    "label": "28 PL DES MURIERS, Lunel-Viel",
+    "lat": 43.675647,
+    "lng": 4.086163,
+    "transactions": [
+      {
+        "date": "2024-07-12",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c560e2c4f17": {
+    "id": "0c560e2c4f17",
+    "label": "50 PL DES SOPHORAS, Lunel-Viel",
+    "lat": 43.674494,
+    "lng": 4.08609,
+    "transactions": [
+      {
+        "date": "2024-09-04",
+        "priceEur": 313200,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "d2d6efba813c": {
+    "id": "d2d6efba813c",
+    "label": "162 RUE DES COMPAGNONS, Lunel-Viel",
+    "lat": 43.675494,
+    "lng": 4.083288,
+    "transactions": [
+      {
+        "date": "2025-03-21",
+        "priceEur": 438500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 124,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-21",
+        "priceEur": 438500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-21",
+        "priceEur": 438500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  }
+}

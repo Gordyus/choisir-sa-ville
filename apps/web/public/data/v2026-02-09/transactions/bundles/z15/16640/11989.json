@@ -1,0 +1,32 @@
+{
+  "3f817a15210c": {
+    "id": "3f817a15210c",
+    "label": "5109 SARRAZO, Saint-Jean-de-Minervois",
+    "lat": 43.410287,
+    "lng": 2.819482,
+    "transactions": [
+      {
+        "date": "2024-11-20",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "036139039a7b": {
+    "id": "036139039a7b",
+    "label": "5110 SARRAZO, Saint-Jean-de-Minervois",
+    "lat": 43.410487,
+    "lng": 2.818974,
+    "transactions": [
+      {
+        "date": "2024-11-20",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "3cf22f551eeb": {
+    "id": "3cf22f551eeb",
+    "label": "5189 ROCOZELS, Ceilhes-et-Rocozels",
+    "lat": 43.814742,
+    "lng": 3.086813,
+    "transactions": [
+      {
+        "date": "2021-08-30",
+        "priceEur": 183590,
+        "typeLocal": "Maison",
+        "surfaceM2": 159,
+        "isVefa": false
+      }
+    ]
+  },
+  "e714708c7954": {
+    "id": "e714708c7954",
+    "label": "5664 ROCOZELS, Ceilhes-et-Rocozels",
+    "lat": 43.814448,
+    "lng": 3.086943,
+    "transactions": [
+      {
+        "date": "2021-10-14",
+        "priceEur": 28000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7c30fe340e8": {
+    "id": "c7c30fe340e8",
+    "label": "7003F ROCOZELS, Ceilhes-et-Rocozels",
+    "lat": 43.814597,
+    "lng": 3.086878,
+    "transactions": [
+      {
+        "date": "2022-07-01",
+        "priceEur": 184000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

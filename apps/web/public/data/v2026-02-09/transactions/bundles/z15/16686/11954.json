@@ -1,0 +1,39 @@
+{
+  "582d86bb8e6e": {
+    "id": "582d86bb8e6e",
+    "label": "89 RTE DE TRABESSOUS LE MAS DELON, Le Puech",
+    "lat": 43.689415,
+    "lng": 3.324943,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 356800,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-30",
+        "priceEur": 356800,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "97db5b133319": {
+    "id": "97db5b133319",
+    "label": "124 RTE DE TRABESSOUS LE MAS DELON, Le Puech",
+    "lat": 43.688505,
+    "lng": 3.325577,
+    "transactions": [
+      {
+        "date": "2024-10-11",
+        "priceEur": 292000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

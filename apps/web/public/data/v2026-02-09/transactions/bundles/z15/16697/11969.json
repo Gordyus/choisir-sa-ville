@@ -1,0 +1,769 @@
+{
+  "90a84859ff88": {
+    "id": "90a84859ff88",
+    "label": "6 RUE ST GEORGES, Aspiran",
+    "lat": 43.566969,
+    "lng": 3.447726,
+    "transactions": [
+      {
+        "date": "2020-10-09",
+        "priceEur": 108333.33,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "d9ea225f55be": {
+    "id": "d9ea225f55be",
+    "label": "6 AV DU COLONEL BRES, Aspiran",
+    "lat": 43.564899,
+    "lng": 3.448269,
+    "transactions": [
+      {
+        "date": "2020-12-21",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "4536e6c81b68": {
+    "id": "4536e6c81b68",
+    "label": "6 PAS DES JARDINS, Aspiran",
+    "lat": 43.564514,
+    "lng": 3.449631,
+    "transactions": [
+      {
+        "date": "2021-01-05",
+        "priceEur": 230400,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e55900372cd": {
+    "id": "4e55900372cd",
+    "label": "2 RUE DU FAUBOURG, Aspiran",
+    "lat": 43.565352,
+    "lng": 3.447827,
+    "transactions": [
+      {
+        "date": "2021-01-25",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a7efffb4197": {
+    "id": "3a7efffb4197",
+    "label": "20 RUE DU FAUBOURG, Aspiran",
+    "lat": 43.564651,
+    "lng": 3.448897,
+    "transactions": [
+      {
+        "date": "2021-02-15",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf7fe9e76cf9": {
+    "id": "bf7fe9e76cf9",
+    "label": "12 RUE DE LA COOPERATIVE, Aspiran",
+    "lat": 43.567093,
+    "lng": 3.448589,
+    "transactions": [
+      {
+        "date": "2021-02-23",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "b558aecc7322": {
+    "id": "b558aecc7322",
+    "label": "2 RUE PASTEUR, Aspiran",
+    "lat": 43.566883,
+    "lng": 3.448877,
+    "transactions": [
+      {
+        "date": "2021-03-12",
+        "priceEur": 47000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "09db9f2832a7": {
+    "id": "09db9f2832a7",
+    "label": "5 LOT CAMP DE L ORT, Aspiran",
+    "lat": 43.565661,
+    "lng": 3.445659,
+    "transactions": [
+      {
+        "date": "2021-05-19",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "096051a6c34b": {
+    "id": "096051a6c34b",
+    "label": "1 LOT CAMP DE L ORT, Aspiran",
+    "lat": 43.56515,
+    "lng": 3.446261,
+    "transactions": [
+      {
+        "date": "2021-07-05",
+        "priceEur": 237000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-05",
+        "priceEur": 237000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "677728761ce5": {
+    "id": "677728761ce5",
+    "label": "5 PL DU JEU DE BALLON, Aspiran",
+    "lat": 43.567129,
+    "lng": 3.449388,
+    "transactions": [
+      {
+        "date": "2021-08-10",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "7fdcd9b6a536": {
+    "id": "7fdcd9b6a536",
+    "label": "25 RUE DU FOUR, Aspiran",
+    "lat": 43.565692,
+    "lng": 3.449108,
+    "transactions": [
+      {
+        "date": "2021-09-06",
+        "priceEur": 180500,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "07d6bd665b2b": {
+    "id": "07d6bd665b2b",
+    "label": "4 RUE DU FAUBOURG, Aspiran",
+    "lat": 43.565352,
+    "lng": 3.447827,
+    "transactions": [
+      {
+        "date": "2021-09-15",
+        "priceEur": 161000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "3aa370f1bb23": {
+    "id": "3aa370f1bb23",
+    "label": "11 AV DU COLONEL BRES, Aspiran",
+    "lat": 43.564713,
+    "lng": 3.448544,
+    "transactions": [
+      {
+        "date": "2021-08-09",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e8e3fd51914": {
+    "id": "7e8e3fd51914",
+    "label": "2 RUE DU MERLE, Aspiran",
+    "lat": 43.56569,
+    "lng": 3.448427,
+    "transactions": [
+      {
+        "date": "2021-11-08",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "6cc2aa4c35c5": {
+    "id": "6cc2aa4c35c5",
+    "label": "13 RUE DU CALVAIRE, Aspiran",
+    "lat": 43.56589,
+    "lng": 3.448506,
+    "transactions": [
+      {
+        "date": "2022-02-16",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6d5a92679d0": {
+    "id": "b6d5a92679d0",
+    "label": "7 RUE DE LA TOUR, Aspiran",
+    "lat": 43.566192,
+    "lng": 3.449115,
+    "transactions": [
+      {
+        "date": "2022-04-15",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4c43cbac0d4": {
+    "id": "f4c43cbac0d4",
+    "label": "4B RUE DE LA CHAPELLE, Aspiran",
+    "lat": 43.565482,
+    "lng": 3.44929,
+    "transactions": [
+      {
+        "date": "2022-05-10",
+        "priceEur": 268000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "de5c9f5dfdf6": {
+    "id": "de5c9f5dfdf6",
+    "label": "2 CHE DES SELCES, Aspiran",
+    "lat": 43.56868,
+    "lng": 3.448278,
+    "transactions": [
+      {
+        "date": "2022-05-25",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a3187655ab8": {
+    "id": "5a3187655ab8",
+    "label": "2 IMP SOULAIROL, Aspiran",
+    "lat": 43.566598,
+    "lng": 3.449619,
+    "transactions": [
+      {
+        "date": "2022-06-14",
+        "priceEur": 44000,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  },
+  "0502bafe5e24": {
+    "id": "0502bafe5e24",
+    "label": "13 AV GEORGES CLEMENCEAU, Aspiran",
+    "lat": 43.568012,
+    "lng": 3.448177,
+    "transactions": [
+      {
+        "date": "2022-07-08",
+        "priceEur": 605746,
+        "typeLocal": "Maison",
+        "surfaceM2": 250,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-08",
+        "priceEur": 605746,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "023001a153f2": {
+    "id": "023001a153f2",
+    "label": "14 AV GEORGES CLEMENCEAU, Aspiran",
+    "lat": 43.568102,
+    "lng": 3.448786,
+    "transactions": [
+      {
+        "date": "2022-07-12",
+        "priceEur": 221500,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "98be70305e50": {
+    "id": "98be70305e50",
+    "label": "10 AV GEORGES CLEMENCEAU, Aspiran",
+    "lat": 43.567923,
+    "lng": 3.44886,
+    "transactions": [
+      {
+        "date": "2022-08-10",
+        "priceEur": 155000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5cb86d4a0ce": {
+    "id": "b5cb86d4a0ce",
+    "label": "8 SAOUTA LA PAILLE, Aspiran",
+    "lat": 43.56828,
+    "lng": 3.446871,
+    "transactions": [
+      {
+        "date": "2022-10-19",
+        "priceEur": 232000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "03a0199f91b4": {
+    "id": "03a0199f91b4",
+    "label": "3 PL DU PEYROU, Aspiran",
+    "lat": 43.565925,
+    "lng": 3.449392,
+    "transactions": [
+      {
+        "date": "2022-10-27",
+        "priceEur": 230000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-27",
+        "priceEur": 230000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-27",
+        "priceEur": 230000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "3daec518af64": {
+    "id": "3daec518af64",
+    "label": "1 AV DU COLONEL BRES, Aspiran",
+    "lat": 43.564956,
+    "lng": 3.448819,
+    "transactions": [
+      {
+        "date": "2022-12-19",
+        "priceEur": 178600,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "857b4af5e22a": {
+    "id": "857b4af5e22a",
+    "label": "2 RUE ST GEORGES, Aspiran",
+    "lat": 43.566785,
+    "lng": 3.448085,
+    "transactions": [
+      {
+        "date": "2022-10-27",
+        "priceEur": 265000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-27",
+        "priceEur": 265000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-27",
+        "priceEur": 265000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-27",
+        "priceEur": 265000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "30e1b8f79453": {
+    "id": "30e1b8f79453",
+    "label": "22 AV GEORGES CLEMENCEAU, Aspiran",
+    "lat": 43.568812,
+    "lng": 3.447515,
+    "transactions": [
+      {
+        "date": "2022-12-19",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "38a96f343e9b": {
+    "id": "38a96f343e9b",
+    "label": "9 LOT CAMP DE L ORT, Aspiran",
+    "lat": 43.56603,
+    "lng": 3.445299,
+    "transactions": [
+      {
+        "date": "2023-02-08",
+        "priceEur": 283000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "24babaa9918a": {
+    "id": "24babaa9918a",
+    "label": "12 RUE DU FOUR, Aspiran",
+    "lat": 43.56582,
+    "lng": 3.449246,
+    "transactions": [
+      {
+        "date": "2023-10-16",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-09",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "9eb1cdc7abb0": {
+    "id": "9eb1cdc7abb0",
+    "label": "24 RUE DU FAUBOURG, Aspiran",
+    "lat": 43.564557,
+    "lng": 3.448609,
+    "transactions": [
+      {
+        "date": "2023-05-30",
+        "priceEur": 305000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "37cd9dc860fb": {
+    "id": "37cd9dc860fb",
+    "label": "2 AV DU COLONEL BRES, Aspiran",
+    "lat": 43.564997,
+    "lng": 3.448683,
+    "transactions": [
+      {
+        "date": "2023-06-28",
+        "priceEur": 233610,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3785fad8074": {
+    "id": "c3785fad8074",
+    "label": "13 AV DU COLONEL BRES, Aspiran",
+    "lat": 43.564667,
+    "lng": 3.448442,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4bc6040856f": {
+    "id": "f4bc6040856f",
+    "label": "4 LOT CAMP DE L ORT, Aspiran",
+    "lat": 43.565547,
+    "lng": 3.446316,
+    "transactions": [
+      {
+        "date": "2023-10-12",
+        "priceEur": 193800,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b8f5d2e9608": {
+    "id": "1b8f5d2e9608",
+    "label": "6 LOT CAMP DE L ORT, Aspiran",
+    "lat": 43.565811,
+    "lng": 3.446165,
+    "transactions": [
+      {
+        "date": "2023-11-22",
+        "priceEur": 293000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "ec4587769941": {
+    "id": "ec4587769941",
+    "label": "4 IMP DU CHARRON, Aspiran",
+    "lat": 43.567664,
+    "lng": 3.449507,
+    "transactions": [
+      {
+        "date": "2023-12-19",
+        "priceEur": 144000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "5514017f2572": {
+    "id": "5514017f2572",
+    "label": "7 RUE DE LA COOPERATIVE, Aspiran",
+    "lat": 43.565651,
+    "lng": 3.447255,
+    "transactions": [
+      {
+        "date": "2024-02-15",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-15",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2eaf2c8d041": {
+    "id": "a2eaf2c8d041",
+    "label": "7 AV GEORGES CLEMENCEAU, Aspiran",
+    "lat": 43.567639,
+    "lng": 3.44884,
+    "transactions": [
+      {
+        "date": "2024-02-28",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b7c66435567": {
+    "id": "1b7c66435567",
+    "label": "4 IMP SOULAIROL, Aspiran",
+    "lat": 43.566621,
+    "lng": 3.449703,
+    "transactions": [
+      {
+        "date": "2024-04-09",
+        "priceEur": 94000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "039553a7d0a2": {
+    "id": "039553a7d0a2",
+    "label": "6 RUE DU CALVAIRE, Aspiran",
+    "lat": 43.566535,
+    "lng": 3.448795,
+    "transactions": [
+      {
+        "date": "2024-06-17",
+        "priceEur": 152450,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "79a24b7fd593": {
+    "id": "79a24b7fd593",
+    "label": "12 AV DU COLONEL BRES, Aspiran",
+    "lat": 43.564704,
+    "lng": 3.447619,
+    "transactions": [
+      {
+        "date": "2024-09-03",
+        "priceEur": 262000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "970846247b8d": {
+    "id": "970846247b8d",
+    "label": "4 RUE DU CALVAIRE, Aspiran",
+    "lat": 43.566613,
+    "lng": 3.448774,
+    "transactions": [
+      {
+        "date": "2024-09-24",
+        "priceEur": 227000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-24",
+        "priceEur": 227000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-24",
+        "priceEur": 227000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "af8af54df1fc": {
+    "id": "af8af54df1fc",
+    "label": "10 RUE DE LA COOPERATIVE, Aspiran",
+    "lat": 43.567275,
+    "lng": 3.44853,
+    "transactions": [
+      {
+        "date": "2024-11-25",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "b24ad925aa33": {
+    "id": "b24ad925aa33",
+    "label": "15 AV GEORGES CLEMENCEAU, Aspiran",
+    "lat": 43.568203,
+    "lng": 3.448146,
+    "transactions": [
+      {
+        "date": "2025-02-21",
+        "priceEur": 229000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "d61d167ee75b": {
+    "id": "d61d167ee75b",
+    "label": "12 RUE DE LA TOUR, Aspiran",
+    "lat": 43.565957,
+    "lng": 3.448779,
+    "transactions": [
+      {
+        "date": "2025-03-18",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 39,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b8107e4a254": {
+    "id": "9b8107e4a254",
+    "label": "2 RUE DES AIRES, Aspiran",
+    "lat": 43.567832,
+    "lng": 3.449258,
+    "transactions": [
+      {
+        "date": "2025-04-04",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "1681f796689d": {
+    "id": "1681f796689d",
+    "label": "13 RUE DU FOUR, Aspiran",
+    "lat": 43.565799,
+    "lng": 3.449696,
+    "transactions": [
+      {
+        "date": "2025-06-13",
+        "priceEur": 76000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  }
+}

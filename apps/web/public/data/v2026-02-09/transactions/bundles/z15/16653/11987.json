@@ -1,0 +1,114 @@
+{
+  "a1d48c1a23c9": {
+    "id": "a1d48c1a23c9",
+    "label": "5742F LES POUJOLS-BAS, Saint-Chinian",
+    "lat": 43.424252,
+    "lng": 2.957084,
+    "transactions": [
+      {
+        "date": "2020-08-18",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "c02062a8ae62": {
+    "id": "c02062a8ae62",
+    "label": "5743F LES POUJOLS-BAS, Saint-Chinian",
+    "lat": 43.424413,
+    "lng": 2.956925,
+    "transactions": [
+      {
+        "date": "2021-02-12",
+        "priceEur": 207900,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "f06ac6062c3c": {
+    "id": "f06ac6062c3c",
+    "label": "10 LOT LES POUJOLS BAS, Saint-Chinian",
+    "lat": 43.422821,
+    "lng": 2.956468,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 305000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "c1deea7cdfd5": {
+    "id": "c1deea7cdfd5",
+    "label": "31 RUE DE LA VOIE FERREE, Saint-Chinian",
+    "lat": 43.422063,
+    "lng": 2.956288,
+    "transactions": [
+      {
+        "date": "2023-01-17",
+        "priceEur": 204610,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-17",
+        "priceEur": 204610,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "524f7bd584e4": {
+    "id": "524f7bd584e4",
+    "label": "5B RUE DES MURIERS, Saint-Chinian",
+    "lat": 43.422482,
+    "lng": 2.955952,
+    "transactions": [
+      {
+        "date": "2024-05-29",
+        "priceEur": 180500,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a52339cadfe": {
+    "id": "4a52339cadfe",
+    "label": "5722 AV RAOUL BAYOU, Saint-Chinian",
+    "lat": 43.426221,
+    "lng": 2.957421,
+    "transactions": [
+      {
+        "date": "2024-11-12",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "0aea83b591d9": {
+    "id": "0aea83b591d9",
+    "label": "7 LOT LE CLOS DU MILLESIME, Saint-Chinian",
+    "lat": 43.423611,
+    "lng": 2.956615,
+    "transactions": [
+      {
+        "date": "2025-02-28",
+        "priceEur": 287000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  }
+}

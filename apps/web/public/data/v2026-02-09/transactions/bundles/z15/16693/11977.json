@@ -1,0 +1,68 @@
+{
+  "c83f0c16b675": {
+    "id": "c83f0c16b675",
+    "label": "775 CHE DE SALLELES, Caux",
+    "lat": 43.503723,
+    "lng": 3.395437,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-30",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed52b99d0d39": {
+    "id": "ed52b99d0d39",
+    "label": "767 DOMAINE DE SALLELES, Caux",
+    "lat": 43.504109,
+    "lng": 3.395057,
+    "transactions": [
+      {
+        "date": "2023-06-12",
+        "priceEur": 328860,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-12",
+        "priceEur": 328860,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "f709f9abb65d": {
+    "id": "f709f9abb65d",
+    "label": "865 SALLELES, Caux",
+    "lat": 43.504777,
+    "lng": 3.394861,
+    "transactions": [
+      {
+        "date": "2023-09-28",
+        "priceEur": 520000,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-28",
+        "priceEur": 520000,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      }
+    ]
+  }
+}

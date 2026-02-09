@@ -1,0 +1,84 @@
+{
+  "617b2fe4dc60": {
+    "id": "617b2fe4dc60",
+    "label": "4 RUE DE LA CALLADE, Mourèze",
+    "lat": 43.618651,
+    "lng": 3.356299,
+    "transactions": [
+      {
+        "date": "2022-07-13",
+        "priceEur": 225200,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "538fff7c194b": {
+    "id": "538fff7c194b",
+    "label": "36 RTE DE LA DOLOMIE, Mourèze",
+    "lat": 43.618615,
+    "lng": 3.356454,
+    "transactions": [
+      {
+        "date": "2022-07-13",
+        "priceEur": 225200,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b8b0fa8e32d": {
+    "id": "2b8b0fa8e32d",
+    "label": "61 RTE DE LA DOLOMIE, Mourèze",
+    "lat": 43.617566,
+    "lng": 3.351974,
+    "transactions": [
+      {
+        "date": "2022-10-21",
+        "priceEur": 362000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-21",
+        "priceEur": 362000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "f34d1bb8e389": {
+    "id": "f34d1bb8e389",
+    "label": "1 RUE DU CIRQUE, Mourèze",
+    "lat": 43.618778,
+    "lng": 3.356649,
+    "transactions": [
+      {
+        "date": "2022-11-02",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b98449a3ae3": {
+    "id": "1b98449a3ae3",
+    "label": "7 RUE DE LA BARTASSADE, Mourèze",
+    "lat": 43.618684,
+    "lng": 3.355834,
+    "transactions": [
+      {
+        "date": "2023-02-21",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

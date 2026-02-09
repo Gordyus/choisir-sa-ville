@@ -1,0 +1,32 @@
+{
+  "e5c61d76270a": {
+    "id": "e5c61d76270a",
+    "label": "5191F DOMAINE DU MAS AMILHON, Servian",
+    "lat": 43.42029,
+    "lng": 3.319179,
+    "transactions": [
+      {
+        "date": "2020-09-22",
+        "priceEur": 399000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "e4a879f7588a": {
+    "id": "e4a879f7588a",
+    "label": "1400F LA BASSE, Servian",
+    "lat": 43.417397,
+    "lng": 3.326737,
+    "transactions": [
+      {
+        "date": "2021-05-26",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

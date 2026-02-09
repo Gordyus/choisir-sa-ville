@@ -1,0 +1,76 @@
+{
+  "5e71a8c26e1c": {
+    "id": "5e71a8c26e1c",
+    "label": "11 AV DE SETE, Plaissan",
+    "lat": 43.556141,
+    "lng": 3.52727,
+    "transactions": [
+      {
+        "date": "2020-08-18",
+        "priceEur": 222020,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "8177d5b1ed42": {
+    "id": "8177d5b1ed42",
+    "label": "1 AV DES ACACIAS, Plaissan",
+    "lat": 43.555647,
+    "lng": 3.527936,
+    "transactions": [
+      {
+        "date": "2020-09-24",
+        "priceEur": 180700,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "abad21777ea0": {
+    "id": "abad21777ea0",
+    "label": "3 CHE DE LA FON DE GAYAC, Plaissan",
+    "lat": 43.556092,
+    "lng": 3.531753,
+    "transactions": [
+      {
+        "date": "2021-07-15",
+        "priceEur": 530000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-15",
+        "priceEur": 530000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-15",
+        "priceEur": 530000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "410931199fbc": {
+    "id": "410931199fbc",
+    "label": "11 AV DES ACACIAS, Plaissan",
+    "lat": 43.5565,
+    "lng": 3.528366,
+    "transactions": [
+      {
+        "date": "2024-11-21",
+        "priceEur": 232000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  }
+}

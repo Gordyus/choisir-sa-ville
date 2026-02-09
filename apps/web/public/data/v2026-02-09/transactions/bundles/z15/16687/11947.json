@@ -1,0 +1,38 @@
+{
+  "7d5f98ffc6ca": {
+    "id": "7d5f98ffc6ca",
+    "label": "5058 LES SAULIERES, Soumont",
+    "lat": 43.739653,
+    "lng": 3.335531,
+    "transactions": [
+      {
+        "date": "2021-09-29",
+        "priceEur": 238850,
+        "typeLocal": "Maison",
+        "surfaceM2": 290,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-29",
+        "priceEur": 238850,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-29",
+        "priceEur": 238850,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-29",
+        "priceEur": 238850,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "eb35fab372cf": {
+    "id": "eb35fab372cf",
+    "label": "9000 SAINT-ESPRIT, Saint-Aunès",
+    "lat": 43.622197,
+    "lng": 3.961846,
+    "transactions": [
+      {
+        "date": "2021-12-30",
+        "priceEur": 690000,
+        "typeLocal": "Maison",
+        "surfaceM2": 213,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-30",
+        "priceEur": 690000,
+        "typeLocal": "Maison",
+        "surfaceM2": 213,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c355904061d": {
+    "id": "7c355904061d",
+    "label": "1 RUE DES BLEUETS, Saint-Aunès",
+    "lat": 43.621271,
+    "lng": 3.963319,
+    "transactions": [
+      {
+        "date": "2022-10-06",
+        "priceEur": 968000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-06",
+        "priceEur": 968000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-06",
+        "priceEur": 968000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-06",
+        "priceEur": 968000,
+        "typeLocal": "Maison",
+        "surfaceM2": 179,
+        "isVefa": false
+      }
+    ]
+  }
+}

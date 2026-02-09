@@ -1,0 +1,47 @@
+{
+  "615ee4d8c1f9": {
+    "id": "615ee4d8c1f9",
+    "label": "5211 LE SAHUC, Saint-Étienne-d'Albagnan",
+    "lat": 43.511146,
+    "lng": 2.860713,
+    "transactions": [
+      {
+        "date": "2020-10-20",
+        "priceEur": 94000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "69426a337ae3": {
+    "id": "69426a337ae3",
+    "label": "5199 LE SAHUC, Saint-Étienne-d'Albagnan",
+    "lat": 43.511231,
+    "lng": 2.860897,
+    "transactions": [
+      {
+        "date": "2021-02-04",
+        "priceEur": 84230,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "4485493220ea": {
+    "id": "4485493220ea",
+    "label": "5154 LE SAHUC, Saint-Étienne-d'Albagnan",
+    "lat": 43.511103,
+    "lng": 2.860439,
+    "transactions": [
+      {
+        "date": "2024-06-15",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

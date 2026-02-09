@@ -1,0 +1,32 @@
+{
+  "a41fe584ebf7": {
+    "id": "a41fe584ebf7",
+    "label": "5033 SALETTES, Cassagnoles",
+    "lat": 43.421116,
+    "lng": 2.572249,
+    "transactions": [
+      {
+        "date": "2025-01-24",
+        "priceEur": 96500,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6a5e9c66218": {
+    "id": "e6a5e9c66218",
+    "label": "5101F SALETTES, Cassagnoles",
+    "lat": 43.42104,
+    "lng": 2.57264,
+    "transactions": [
+      {
+        "date": "2025-01-24",
+        "priceEur": 96500,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

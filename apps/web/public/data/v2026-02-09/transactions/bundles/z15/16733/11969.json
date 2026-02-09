@@ -1,0 +1,24 @@
+{
+  "0f5e0bbccecb": {
+    "id": "0f5e0bbccecb",
+    "label": "9001 ALL DES CYPRES, Saint-Jean-de-Védas",
+    "lat": 43.568337,
+    "lng": 3.843873,
+    "transactions": [
+      {
+        "date": "2024-12-30",
+        "priceEur": 9630000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-31",
+        "priceEur": 700000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  }
+}

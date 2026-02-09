@@ -1,0 +1,45 @@
+{
+  "ba63670d412f": {
+    "id": "ba63670d412f",
+    "label": "5097 GRES DE VALLONGUE, Saturargues",
+    "lat": 43.704322,
+    "lng": 4.113867,
+    "transactions": [
+      {
+        "date": "2022-07-28",
+        "priceEur": 1150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-28",
+        "priceEur": 1150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 224,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-28",
+        "priceEur": 1150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-28",
+        "priceEur": 1150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-28",
+        "priceEur": 1150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "61953488983c": {
+    "id": "61953488983c",
+    "label": "1073 CHEMIN DE MONTBLANC, Vias",
+    "lat": 43.326624,
+    "lng": 3.412582,
+    "transactions": [
+      {
+        "date": "2024-07-31",
+        "priceEur": 2347001,
+        "typeLocal": "Maison",
+        "surfaceM2": 34,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-31",
+        "priceEur": 2347001,
+        "typeLocal": "Maison",
+        "surfaceM2": 250,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-31",
+        "priceEur": 2347001,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-31",
+        "priceEur": 2347001,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

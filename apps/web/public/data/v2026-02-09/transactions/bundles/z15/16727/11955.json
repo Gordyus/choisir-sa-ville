@@ -1,0 +1,143 @@
+{
+  "e55fd3856add": {
+    "id": "e55fd3856add",
+    "label": "5468 LA ROQUE, Combaillaux",
+    "lat": 43.678768,
+    "lng": 3.768625,
+    "transactions": [
+      {
+        "date": "2021-02-04",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e0beb6f90f6": {
+    "id": "5e0beb6f90f6",
+    "label": "6 RUE DE LA ROQUE, Combaillaux",
+    "lat": 43.678041,
+    "lng": 3.770672,
+    "transactions": [
+      {
+        "date": "2021-03-05",
+        "priceEur": 248000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "ffb183f64fb3": {
+    "id": "ffb183f64fb3",
+    "label": "8 RUE DE LA ROQUE, Combaillaux",
+    "lat": 43.67788,
+    "lng": 3.770568,
+    "transactions": [
+      {
+        "date": "2021-03-08",
+        "priceEur": 122500,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "dc86ed1e5356": {
+    "id": "dc86ed1e5356",
+    "label": "100 CHE DU GOULET, Combaillaux",
+    "lat": 43.679759,
+    "lng": 3.772,
+    "transactions": [
+      {
+        "date": "2021-08-16",
+        "priceEur": 544700,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-16",
+        "priceEur": 544700,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "a6a46bb309c0": {
+    "id": "a6a46bb309c0",
+    "label": "3 RUE LA PETITE RUE, Combaillaux",
+    "lat": 43.677785,
+    "lng": 3.770679,
+    "transactions": [
+      {
+        "date": "2021-12-24",
+        "priceEur": 147450,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "b020ed6e7056": {
+    "id": "b020ed6e7056",
+    "label": "1 RUE LA PETITE RUE, Combaillaux",
+    "lat": 43.677701,
+    "lng": 3.770695,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 309500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d04b0f2f57b": {
+    "id": "2d04b0f2f57b",
+    "label": "15 RTE DES SAJOLLES, Combaillaux",
+    "lat": 43.678461,
+    "lng": 3.771694,
+    "transactions": [
+      {
+        "date": "2023-06-16",
+        "priceEur": 627625,
+        "typeLocal": "Maison",
+        "surfaceM2": 252,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-16",
+        "priceEur": 627625,
+        "typeLocal": "Maison",
+        "surfaceM2": 252,
+        "isVefa": false
+      }
+    ]
+  },
+  "1eda50db75f1": {
+    "id": "1eda50db75f1",
+    "label": "6 ALL DES BAUMES, Combaillaux",
+    "lat": 43.677766,
+    "lng": 3.772997,
+    "transactions": [
+      {
+        "date": "2023-06-22",
+        "priceEur": 541200,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-22",
+        "priceEur": 541200,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  }
+}

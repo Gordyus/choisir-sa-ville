@@ -1,0 +1,32 @@
+{
+  "dc0a54329cda": {
+    "id": "dc0a54329cda",
+    "label": "3 RUE DE LA BERGERIE, Cournonsec",
+    "lat": 43.548913,
+    "lng": 3.701903,
+    "transactions": [
+      {
+        "date": "2022-03-30",
+        "priceEur": 321040,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "94380947f678": {
+    "id": "94380947f678",
+    "label": "9084F RUE DES REMPARTS, Cournonsec",
+    "lat": 43.548699,
+    "lng": 3.702072,
+    "transactions": [
+      {
+        "date": "2024-07-08",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

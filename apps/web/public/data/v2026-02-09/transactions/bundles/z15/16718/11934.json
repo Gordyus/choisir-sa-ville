@@ -1,0 +1,32 @@
+{
+  "29456a7cc650": {
+    "id": "29456a7cc650",
+    "label": "5198 HAMEAU DE MASTARGUES, Brissac",
+    "lat": 43.84833,
+    "lng": 3.679474,
+    "transactions": [
+      {
+        "date": "2021-05-19",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "aba0c53c9b7b": {
+    "id": "aba0c53c9b7b",
+    "label": "5200 MASTARGUES, Brissac",
+    "lat": 43.848322,
+    "lng": 3.679819,
+    "transactions": [
+      {
+        "date": "2021-07-20",
+        "priceEur": 144000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  }
+}

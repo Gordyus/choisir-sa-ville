@@ -1,0 +1,38 @@
+{
+  "cd8378bc37f2": {
+    "id": "cd8378bc37f2",
+    "label": "1231 CHE DU MAS DE FAVET, Lunel",
+    "lat": 43.658963,
+    "lng": 4.149845,
+    "transactions": [
+      {
+        "date": "2022-10-28",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-28",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-28",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-28",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 20,
+        "isVefa": false
+      }
+    ]
+  }
+}

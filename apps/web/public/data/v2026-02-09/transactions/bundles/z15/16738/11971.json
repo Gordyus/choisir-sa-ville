@@ -1,0 +1,61 @@
+{
+  "35b0405e455f": {
+    "id": "35b0405e455f",
+    "label": "6 LOT LES SALADELLES, Lattes",
+    "lat": 43.554712,
+    "lng": 3.895175,
+    "transactions": [
+      {
+        "date": "2021-01-05",
+        "priceEur": 472100,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "c71f0b239994": {
+    "id": "c71f0b239994",
+    "label": "11 LOT LES SALADELLES, Lattes",
+    "lat": 43.554804,
+    "lng": 3.895987,
+    "transactions": [
+      {
+        "date": "2021-02-15",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "b32060489051": {
+    "id": "b32060489051",
+    "label": "5 RTE DE PALAVAS, Lattes",
+    "lat": 43.549689,
+    "lng": 3.895501,
+    "transactions": [
+      {
+        "date": "2021-03-26",
+        "priceEur": 746600,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-26",
+        "priceEur": 746600,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-26",
+        "priceEur": 746600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      }
+    ]
+  }
+}

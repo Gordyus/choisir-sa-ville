@@ -1,0 +1,99 @@
+{
+  "6c13a8458078": {
+    "id": "6c13a8458078",
+    "label": "17 RUE ROUTE DE COMBAILLAUX, Grabels",
+    "lat": 43.659733,
+    "lng": 3.792466,
+    "transactions": [
+      {
+        "date": "2021-08-12",
+        "priceEur": 373070,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "232414e3aee8": {
+    "id": "232414e3aee8",
+    "label": "22 RUE DU PRADAS, Grabels",
+    "lat": 43.658951,
+    "lng": 3.79199,
+    "transactions": [
+      {
+        "date": "2022-05-10",
+        "priceEur": 570000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "3615a67aa031": {
+    "id": "3615a67aa031",
+    "label": "14 RUE DES TERRASSES, Grabels",
+    "lat": 43.655481,
+    "lng": 3.791014,
+    "transactions": [
+      {
+        "date": "2022-10-03",
+        "priceEur": 154800,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "be46b3ae8541": {
+    "id": "be46b3ae8541",
+    "label": "16 RUE DU PRADAS, Grabels",
+    "lat": 43.659167,
+    "lng": 3.792081,
+    "transactions": [
+      {
+        "date": "2023-06-29",
+        "priceEur": 464500,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "72b1fcf52d39": {
+    "id": "72b1fcf52d39",
+    "label": "5379 PRADAS, Grabels",
+    "lat": 43.658216,
+    "lng": 3.790757,
+    "transactions": [
+      {
+        "date": "2024-02-28",
+        "priceEur": 65130,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-28",
+        "priceEur": 65130,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "92e3c47074a7": {
+    "id": "92e3c47074a7",
+    "label": "16 LOT LE PRADAS, Grabels",
+    "lat": 43.659654,
+    "lng": 3.792744,
+    "transactions": [
+      {
+        "date": "2024-05-16",
+        "priceEur": 353050,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

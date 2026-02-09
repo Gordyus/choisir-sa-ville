@@ -1,0 +1,32 @@
+{
+  "2cd5d21a9b9f": {
+    "id": "2cd5d21a9b9f",
+    "label": "289 RUE DE L'ESTORNEL, Maraussan",
+    "lat": 43.373435,
+    "lng": 3.152987,
+    "transactions": [
+      {
+        "date": "2021-03-25",
+        "priceEur": 151000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca72ec4cdfb6": {
+    "id": "ca72ec4cdfb6",
+    "label": "148 RUE DU PERDIGAL, Maraussan",
+    "lat": 43.373231,
+    "lng": 3.150632,
+    "transactions": [
+      {
+        "date": "2021-09-01",
+        "priceEur": 298560,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

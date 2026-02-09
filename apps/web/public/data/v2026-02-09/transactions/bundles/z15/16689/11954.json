@@ -1,0 +1,32 @@
+{
+  "a7204d8d95a6": {
+    "id": "a7204d8d95a6",
+    "label": "6025 CARTELS, Le Bosc",
+    "lat": 43.684,
+    "lng": 3.360501,
+    "transactions": [
+      {
+        "date": "2023-03-23",
+        "priceEur": 275800,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "52324a484c33": {
+    "id": "52324a484c33",
+    "label": "6205 CARTELS, Le Bosc",
+    "lat": 43.684301,
+    "lng": 3.361104,
+    "transactions": [
+      {
+        "date": "2023-07-21",
+        "priceEur": 301305,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  }
+}

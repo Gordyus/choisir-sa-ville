@@ -1,0 +1,39 @@
+{
+  "28facaa16d25": {
+    "id": "28facaa16d25",
+    "label": "8 CHE DE LA TAHUC, Saint-Pons-de-Mauchiens",
+    "lat": 43.510466,
+    "lng": 3.517052,
+    "transactions": [
+      {
+        "date": "2022-07-26",
+        "priceEur": 324200,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-26",
+        "priceEur": 324200,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "c8bdc42ff0d3": {
+    "id": "c8bdc42ff0d3",
+    "label": "5293F LA RONZE, Saint-Pons-de-Mauchiens",
+    "lat": 43.512205,
+    "lng": 3.515679,
+    "transactions": [
+      {
+        "date": "2024-08-01",
+        "priceEur": 367480,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  }
+}

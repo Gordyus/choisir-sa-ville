@@ -1,0 +1,39 @@
+{
+  "7139f0d304bd": {
+    "id": "7139f0d304bd",
+    "label": "5701 LE RIVIERAL, Campagnan",
+    "lat": 43.533087,
+    "lng": 3.490838,
+    "transactions": [
+      {
+        "date": "2024-02-16",
+        "priceEur": 399000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-16",
+        "priceEur": 399000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "87adf6a7a1ac": {
+    "id": "87adf6a7a1ac",
+    "label": "5031 LES CADES, Campagnan",
+    "lat": 43.537879,
+    "lng": 3.483935,
+    "transactions": [
+      {
+        "date": "2024-11-15",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

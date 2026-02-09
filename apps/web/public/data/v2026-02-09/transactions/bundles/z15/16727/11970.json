@@ -1,0 +1,99 @@
+{
+  "d93e37f52871": {
+    "id": "d93e37f52871",
+    "label": "850F LOUS CLAITS, Fabrègues",
+    "lat": 43.558866,
+    "lng": 3.777945,
+    "transactions": [
+      {
+        "date": "2020-10-01",
+        "priceEur": 258800,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "e195ac09c835": {
+    "id": "e195ac09c835",
+    "label": "93F VC ANCIENNE VOIE ROMAINE, Saussan",
+    "lat": 43.56338,
+    "lng": 3.773856,
+    "transactions": [
+      {
+        "date": "2021-04-06",
+        "priceEur": 505000,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-06",
+        "priceEur": 505000,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  },
+  "60cdac67c68f": {
+    "id": "60cdac67c68f",
+    "label": "5234 RUE DU FABREGOU, Fabrègues",
+    "lat": 43.55666,
+    "lng": 3.77874,
+    "transactions": [
+      {
+        "date": "2022-08-04",
+        "priceEur": 565000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "6cc6d3a02c4c": {
+    "id": "6cc6d3a02c4c",
+    "label": "196 RUE DES JARDINIERS, Fabrègues",
+    "lat": 43.556798,
+    "lng": 3.776924,
+    "transactions": [
+      {
+        "date": "2022-08-18",
+        "priceEur": 630000,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  },
+  "75b73244ce2b": {
+    "id": "75b73244ce2b",
+    "label": "128 CHE DU STADE, Fabrègues",
+    "lat": 43.556724,
+    "lng": 3.774946,
+    "transactions": [
+      {
+        "date": "2023-04-28",
+        "priceEur": 410000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "934bbc707f07": {
+    "id": "934bbc707f07",
+    "label": "132 RUE DU FABREGOU, Fabrègues",
+    "lat": 43.557357,
+    "lng": 3.77905,
+    "transactions": [
+      {
+        "date": "2023-06-14",
+        "priceEur": 357490,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  }
+}

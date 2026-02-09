@@ -1,0 +1,90 @@
+{
+  "a9df5ff88994": {
+    "id": "a9df5ff88994",
+    "label": "5829 LES CLAPAREDES, Viols-en-Laval",
+    "lat": 43.748658,
+    "lng": 3.719255,
+    "transactions": [
+      {
+        "date": "2021-10-18",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 186,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-18",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 186,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-18",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 186,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed639538cfe0": {
+    "id": "ed639538cfe0",
+    "label": "1 LOT OLIVIER, Viols-en-Laval",
+    "lat": 43.748609,
+    "lng": 3.72005,
+    "transactions": [
+      {
+        "date": "2022-09-29",
+        "priceEur": 475770,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-29",
+        "priceEur": 475770,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "4eefb7b6186f": {
+    "id": "4eefb7b6186f",
+    "label": "2 LE PARC, Viols-en-Laval",
+    "lat": 43.751827,
+    "lng": 3.722048,
+    "transactions": [
+      {
+        "date": "2023-06-16",
+        "priceEur": 332700,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "522c80a1d187": {
+    "id": "522c80a1d187",
+    "label": "5325F LES CLAPAREDES, Viols-en-Laval",
+    "lat": 43.747792,
+    "lng": 3.720284,
+    "transactions": [
+      {
+        "date": "2023-07-27",
+        "priceEur": 575000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-27",
+        "priceEur": 575000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  }
+}

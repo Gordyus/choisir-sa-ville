@@ -1,0 +1,39 @@
+{
+  "e964b3c6e267": {
+    "id": "e964b3c6e267",
+    "label": "5249 HAMEAU DE LA GARRIGUE, La Caunette",
+    "lat": 43.379509,
+    "lng": 2.775573,
+    "transactions": [
+      {
+        "date": "2021-09-14",
+        "priceEur": 230850,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "c29cfebe50d7": {
+    "id": "c29cfebe50d7",
+    "label": "5287F LES CAMPASSES, La Caunette",
+    "lat": 43.379133,
+    "lng": 2.777228,
+    "transactions": [
+      {
+        "date": "2022-06-15",
+        "priceEur": 284000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-15",
+        "priceEur": 284000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  }
+}
