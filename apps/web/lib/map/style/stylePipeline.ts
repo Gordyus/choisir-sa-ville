@@ -72,6 +72,10 @@ export async function loadMapStyle(
             tileJsonUrl: config.tileJsonSources.commune_labels,
             sourceLayer: "commune_labels"
         });
+        
+        if (process.env.NODE_ENV === "development") {
+            console.info("[loadMapStyle] Commune labels vector layer injected");
+        }
     }
 
     return outputStyle;

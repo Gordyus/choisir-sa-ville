@@ -132,11 +132,15 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
                 logStyleLayerCatalog(map);
             }
 
+            const communeLabelsLayerId = getCommuneLabelsVectorLayerId();
+            console.info(`[vector-map] Using label layer: ${communeLabelsLayerId}`);
+            console.info(`[vector-map] Layer exists:`, !!map.getLayer(communeLabelsLayerId));
+
             // Attach interaction service - handles user interactions and EntityStateService updates
             // Use our custom commune labels layer instead of OSM labels
             const interactionResult = attachMapInteractionService(map, {
                 debug,
-                labelLayerId: getCommuneLabelsVectorLayerId()
+                labelLayerId: communeLabelsLayerId
             });
             detachInteractionsRef.current = interactionResult.cleanup;
 
