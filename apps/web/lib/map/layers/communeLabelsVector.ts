@@ -5,7 +5,8 @@
  * These labels come from our own MBTiles (commune-labels.mbtiles) generated from indexLite.json.
  * 
  * Progressive label density mimics OSM behavior:
- * - z6-7: Major cities only (pop > 50k) with large text
+ * - z0-5: Megacities only (pop > 300k) - Paris, Lyon, Marseille, etc.
+ * - z6-7: Major cities (pop > 50k)
  * - z8-9: Medium cities (pop > 10k)
  * - z10-11: Towns (pop > 2k)
  * - z12+: All communes visible
@@ -31,37 +32,54 @@ export type CommuneLabelsVectorConfig = {
 // Features with text-size 0 are effectively hidden by MapLibre.
 const TEXT_SIZE_EXPRESSION: ExpressionSpecification = [
     "interpolate", ["linear"], ["zoom"],
+    // z0-5: Only megacities (> 300k) - very large and visible from far away
+    0, ["step", ["coalesce", ["get", "population"], 0],
+        0,        // pop < 300k: hidden at z0-5
+        300000, 16
+    ],
+    // z6-7: Major cities (> 50k)
     6, ["step", ["coalesce", ["get", "population"], 0],
-        0,       // pop < 50k: hidden at z6
-        50000, 14,
-        200000, 16
+        0,        // pop < 50k: hidden at z6-7
+        50000, 13,
+        100000, 15,
+        300000, 17
     ],
+    // z8-9: Medium cities (> 10k)
     8, ["step", ["coalesce", ["get", "population"], 0],
-        0,       // pop < 10k: hidden at z8
-        10000, 11,
-        50000, 14,
-        200000, 16
-    ],
-    10, ["step", ["coalesce", ["get", "population"], 0],
-        0,       // pop < 2k: hidden at z10
-        2000, 10,
+        0,        // pop < 10k: hidden at z8-9
         10000, 12,
         50000, 14,
-        200000, 16
+        100000, 16,
+        300000, 18
     ],
-    12, ["step", ["coalesce", ["get", "population"], 0],
-        10,      // all visible at z12+
-        5000, 11,
+    // z10-11: Towns (> 2k)
+    10, ["step", ["coalesce", ["get", "population"], 0],
+        0,        // pop < 2k: hidden at z10-11
+        2000, 11,
         10000, 13,
         50000, 15,
-        200000, 17
+        100000, 17,
+        300000, 19
     ],
-    16, ["step", ["coalesce", ["get", "population"], 0],
+    // z12-13: All communes visible, scaled by size
+    12, ["step", ["coalesce", ["get", "population"], 0],
+        11,       // villages: 11px
+        2000, 12,
+        5000, 13,
+        10000, 14,
+        50000, 16,
+        100000, 18,
+        300000, 20
+    ],
+    // z14+: Larger text for detail
+    14, ["step", ["coalesce", ["get", "population"], 0],
         12,
+        2000, 13,
         5000, 14,
         10000, 16,
         50000, 18,
-        200000, 20
+        100000, 20,
+        300000, 22
     ]
 ];
 
@@ -90,7 +108,7 @@ export function injectCommuneLabelsVector(
         type: "symbol",
         source: COMMUNE_LABELS_SOURCE_ID,
         "source-layer": sourceLayer,
-        minzoom: 6,
+        minzoom: 0,
         maxzoom: 18,
         layout: {
             "text-field": ["get", "name"],
