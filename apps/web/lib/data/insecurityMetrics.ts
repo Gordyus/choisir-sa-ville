@@ -13,7 +13,7 @@
 
 import { useEffect, useState } from "react";
 
-import type { PopulationCategory } from "@/lib/config/insecurityMetrics";
+import type { PopulationCategory } from "@choisir-sa-ville/shared/config/insecurity-metrics";
 
 // ============================================================================
 // Types

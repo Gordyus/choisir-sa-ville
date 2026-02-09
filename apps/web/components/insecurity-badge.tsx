@@ -24,7 +24,7 @@
 import type { HTMLAttributes } from "react";
 
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
-import { POPULATION_CATEGORIES } from "@/lib/config/insecurityMetrics";
+import { POPULATION_CATEGORIES } from "@choisir-sa-ville/shared/config/insecurity-metrics";
 import { INSECURITY_COLORS } from "@/lib/config/insecurityPalette";
 import { useInsecurityMetrics } from "@/lib/data/insecurityMetrics";
 import { cn } from "@/lib/utils";

@@ -14,6 +14,7 @@
         "typecheck": "tsc --noEmit"
     },
     "dependencies": {
+        "@choisir-sa-ville/shared": "workspace:*",
         "@radix-ui/react-collapsible": "^1.1.2",
         "@radix-ui/react-slot": "^1.1.0",
         "@radix-ui/react-tooltip": "^1.2.8",

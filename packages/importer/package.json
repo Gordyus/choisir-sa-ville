@@ -11,6 +11,7 @@
     "lint": "echo \"no lint yet\""
   },
   "dependencies": {
+    "@choisir-sa-ville/shared": "workspace:*",
     "csv-parse": "^5.5.6",
     "hyparquet": "^1.24.1",
     "hyparquet-compressors": "^1.1.1",

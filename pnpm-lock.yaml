@@ -26,6 +26,9 @@ importers:
 
   apps/web:
     dependencies:
+      '@choisir-sa-ville/shared':
+        specifier: workspace:*
+        version: link:../../packages/shared
       '@radix-ui/react-collapsible':
         specifier: ^1.1.2
         version: 1.1.12(@types/react-dom@18.3.7(@types/react@18.3.27))(@types/react@18.3.27)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -87,6 +90,9 @@ importers:
 
   packages/importer:
     dependencies:
+      '@choisir-sa-ville/shared':
+        specifier: workspace:*
+        version: link:../shared
       csv-parse:
         specifier: ^5.5.6
         version: 5.6.0
@@ -109,6 +115,12 @@ importers:
       tsx:
         specifier: ^4.19.2
         version: 4.21.0
+      typescript:
+        specifier: ^5.7.2
+        version: 5.9.3
+
+  packages/shared:
+    devDependencies:
       typescript:
         specifier: ^5.7.2
         version: 5.9.3

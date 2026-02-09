@@ -9,7 +9,7 @@
  */
 
 import type { InsecurityLevel } from "@/lib/data/insecurityMetrics";
-import { INSECURITY_CATEGORIES as INSECURITY_CATEGORIES_CONFIG } from "./insecurityMetrics";
+import { INSECURITY_CATEGORIES as INSECURITY_CATEGORIES_CONFIG } from "@choisir-sa-ville/shared/config/insecurity-metrics";
 
 // Re-export the type so consumers can import from this file or from insecurityMetrics
 export type { InsecurityLevel };

@@ -4,9 +4,10 @@ import path from "node:path";
 import { asyncBufferFromFile, parquetMetadataAsync, parquetReadObjects, parquetSchema } from "hyparquet";
 import { compressors } from "hyparquet-compressors";
 
+import { INSECURITY_CATEGORIES, POPULATION_CATEGORIES, getPopulationCategory, type PopulationCategory } from "@choisir-sa-ville/shared/config/insecurity-metrics";
+
 import { SOURCE_URLS } from "../../../constants.js";
 import { writeJsonAtomic } from "../../../shared/fileSystem.js";
-import { INSECURITY_CATEGORIES, POPULATION_CATEGORIES, getPopulationCategory, type PopulationCategory } from "../../../shared/insecurityMetrics.js";
 import type { ExportCommune, ExportContext, SourceMeta } from "../../../shared/types.js";
 
 const OUTPUT_COLUMNS = [

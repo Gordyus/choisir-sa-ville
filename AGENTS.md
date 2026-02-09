@@ -21,6 +21,8 @@ Le projet utilise une **architecture statique** :
 ```
 choisir-sa-ville/
 ├── packages/
+│   ├── shared/             # Configuration & constantes partagées (build-time + runtime)
+│   │   └── src/config/     # Configs métier (insecurityMetrics, etc.)
 │   └── importer/           # Pipeline de génération (batch, build-time)
 ├── apps/
 │   └── web/                # Next.js (frontend)
@@ -30,6 +32,8 @@ choisir-sa-ville/
 ├── docs/
 └── specs/
 ```
+
+**Règle**: Toute configuration métier partagée entre importer et web doit vivre dans `packages/shared/`. Aucune duplication autorisée.
 
 ### Séparation des responsabilités (apps/web)
 

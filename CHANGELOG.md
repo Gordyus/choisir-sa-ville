@@ -9,6 +9,25 @@ et ce projet adhère au [Semantic Versioning](https://semver.org/lang/fr/).
 
 ## [Unreleased]
 
+### Added
+
+#### Package `@choisir-sa-ville/shared`
+
+Création d'un package interne dédié aux **configurations et constantes métier** partagées entre `packages/importer` et `apps/web`.
+
+**Contenu**:
+- `src/config/insecurityMetrics.ts` — Configuration des catégories d'insécurité, niveaux de risque, et seuils de population
+
+**Bénéfices**:
+- ✅ Élimination de la duplication de configuration (Single Source of Truth)
+- ✅ Type-safety garantie entre importer et web
+- ✅ Maintenabilité améliorée (modification en un seul endroit)
+
+**Migration**:
+- `packages/importer/src/exports/shared/insecurityMetrics.ts` → déplacé vers `packages/shared/src/config/`
+- `apps/web/lib/config/insecurityMetrics.ts` → supprimé (duplication éliminée)
+- Imports mis à jour: `@choisir-sa-ville/shared/config/insecurity-metrics`
+
 ### BREAKING CHANGES
 
 #### Indice de Sécurité: Classification par Taille de Population
