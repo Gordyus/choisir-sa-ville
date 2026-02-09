@@ -92,4 +92,5 @@ packages/db/dist/**
 /.next/
 /out/
 /tile-server/sources
+*.zip
 *.mbtiles
