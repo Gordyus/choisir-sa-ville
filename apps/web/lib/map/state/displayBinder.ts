@@ -21,7 +21,7 @@
 import type { ExpressionSpecification, MapGeoJSONFeature, Map as MapLibreMap, MapMouseEvent } from "maplibre-gl";
 import maplibregl from "maplibre-gl";
 
-import { INSECURITY_CATEGORIES, INSECURITY_COLORS } from "@/lib/config/insecurityPalette";
+import { INSECURITY_COLORS } from "@/lib/config/insecurityPalette";
 import { getCommuneByInsee } from "@/lib/data/communesIndexLite";
 import { loadInsecurityMeta, loadInsecurityYear, type InsecurityMetricsRow } from "@/lib/data/insecurityMetrics";
 import { COMMUNE_COLORS } from "@/lib/map/layers/highlightState";
@@ -94,13 +94,34 @@ const POPUP_OFFSET_Y = 10;
 // ============================================================================
 
 /**
- * Format a rate value for display in popup.
+ * Get singular label for population category.
  */
-function formatRate(rate: number | null): string {
-    if (rate === null || !Number.isFinite(rate)) {
-        return "—";
+function getCategorySingularLabel(category: string): string {
+    switch (category) {
+        case "small": return "Petite commune";
+        case "medium": return "Commune moyenne";
+        case "large": return "Grande ville";
+        default: return "Commune";
     }
-    return rate.toFixed(1);
+}
+
+/**
+ * Convert rate per 100k to percentage for HTML display.
+ */
+function rateToPercentageHtml(ratePer100k: number | null): string {
+    if (ratePer100k === null) return "N/A";
+    return ((ratePer100k / 1000).toFixed(1)) + "%";
+}
+
+/**
+ * Calculate absolute number of incidents from rate and population for HTML display.
+ */
+function calculateAbsoluteIncidentsHtml(
+    ratePer100k: number | null,
+    population: number | null
+): string {
+    if (ratePer100k === null || population === null) return "N/A";
+    return Math.round((ratePer100k / 100000) * population).toString();
 }
 
 // ============================================================================
@@ -368,17 +389,17 @@ function removeViewportHandlers(state: DisplayBinderState): void {
  */
 function buildInsecurityPopupContent(row: InsecurityMetricsRow | undefined, year?: number): PopupContent {
     let html = '<div class="bg-white border rounded-md px-1 py-1.5 text-sm text-brand shadow-md space-y-1">';
-    html += '<div class="text-sm">Nombre d\'incidents pour 100 000 habitants</div>';
 
     if (row) {
-        html += `<div>${INSECURITY_CATEGORIES[0]} : ${formatRate(row.violencesPersonnesPer100k)}</div>`;
-        html += `<div>${INSECURITY_CATEGORIES[1]} : ${formatRate(row.securiteBiensPer100k)}</div>`;
-        html += `<div>${INSECURITY_CATEGORIES[2]} : ${formatRate(row.tranquillitePer100k)}</div>`;
+        html += `<div class="font-medium">${getCategorySingularLabel(row.populationCategory || "")}</div>`;
+        html += `<div>Violences physiques : ${rateToPercentageHtml(row.violencesPersonnesPer100k)} hbts touchés</div>`;
+        html += `<div>Atteintes aux biens : ${rateToPercentageHtml(row.securiteBiensPer100k)} hbts touchés</div>`;
+        html += `<div>${calculateAbsoluteIncidentsHtml(row.tranquillitePer100k, row.population)} incidents à l'ordre publique</div>`;
         if (year) {
-            html += `<div class="text-xs text-gray-600 mt-1">Indice ${year}</div>`;
+            html += `<div class="text-xs text-gray-600 mt-1">Année ${year}</div>`;
         }
     } else {
-        html += '<div class="text-gray-500 italic">Aucune donnée disponible</div>';
+        html += '<div>Aucune donnée disponible</div>';
     }
 
     html += '</div>';

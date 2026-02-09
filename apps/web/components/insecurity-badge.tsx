@@ -24,7 +24,6 @@
 import type { HTMLAttributes } from "react";
 
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
-import { POPULATION_CATEGORIES } from "@choisir-sa-ville/shared/config/insecurity-metrics";
 import { INSECURITY_COLORS } from "@/lib/config/insecurityPalette";
 import { useInsecurityMetrics } from "@/lib/data/insecurityMetrics";
 import { cn } from "@/lib/utils";
@@ -95,6 +94,38 @@ function getLevelColor(level: number | null): string {
     return INSECURITY_COLORS[index] ?? INSECURITY_COLORS[0];
 }
 
+/**
+ * Get singular label for population category.
+ */
+function getCategorySingularLabel(category: string | null): string {
+    if (!category) return "Commune";
+    switch (category) {
+        case "small": return "Petite commune";
+        case "medium": return "Commune moyenne";
+        case "large": return "Grande ville";
+        default: return "Commune";
+    }
+}
+
+/**
+ * Convert rate per 100k to percentage.
+ */
+function rateToPercentage(ratePer100k: number | null): string {
+    if (ratePer100k === null) return "N/A";
+    return ((ratePer100k / 1000).toFixed(1)) + "%";
+}
+
+/**
+ * Calculate absolute number of incidents from rate and population.
+ */
+function calculateAbsoluteIncidents(
+    ratePer100k: number | null,
+    population: number | null
+): string {
+    if (ratePer100k === null || population === null) return "N/A";
+    return Math.round((ratePer100k / 100000) * population).toString();
+}
+
 // ============================================================================
 // Component
 // ============================================================================
@@ -149,9 +180,6 @@ export function InsecurityBadge({
     const level = data.levelCategory;
     const bgColor = getLevelColor(level);
     const label = getLevelLabel(level);
-    const categoryLabel = data.populationCategory
-        ? POPULATION_CATEGORIES[data.populationCategory].label
-        : "Catégorie inconnue";
 
     return (
         <TooltipProvider>
@@ -171,17 +199,15 @@ export function InsecurityBadge({
                 <TooltipContent>
                     <div className="space-y-2">
                         <p className="font-medium">
-                            {categoryLabel}
+                            {getCategorySingularLabel(data.populationCategory)}
                         </p>
 
                         <div className="text-s space-y-1">
-                            <p>Violences physiques: {Math.round(data.violencesPersonnesPer100k ?? 0)}</p>
-                            <p>Atteintes aux biens: {Math.round(data.securiteBiensPer100k ?? 0)}</p>
-                            <p>Tranquillité publique: {Math.round(data.tranquillitePer100k ?? 0)}</p>
+                            <p>Violences physiques : {rateToPercentage(data.violencesPersonnesPer100k)} hbts touchés</p>
+                            <p>Atteintes aux biens : {rateToPercentage(data.securiteBiensPer100k)} hbts touchés</p>
+                            <p>{calculateAbsoluteIncidents(data.tranquillitePer100k, data.population)} incidents à l'ordre publique</p>
                         </div>
-                        <p className="text-muted-foreground text-xs">
-                            Pour 100 000 habitants
-                        </p>
+
                         {data.dataCompleteness < 1.0 && (
                             <p className="text-amber-600 text-xs">
                                 Données partielles ({Math.round(data.dataCompleteness * 100)}%)
