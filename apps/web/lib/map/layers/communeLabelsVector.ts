@@ -4,10 +4,11 @@
  * Injects a custom vector tile source and symbol layer for commune labels.
  * These labels come from our own MBTiles (commune-labels.mbtiles) generated from indexLite.json.
  * 
- * Advantages over OSM labels:
- * - 100% coverage (34,870 communes including communes nouvelles)
- * - Stable feature IDs (insee codes)
- * - Full control over styling and interaction
+ * Progressive label density mimics OSM behavior:
+ * - z6-7: Major cities only (pop > 50k) with large text
+ * - z8-9: Medium cities (pop > 10k)
+ * - z10-11: Towns (pop > 2k)
+ * - z12+: All communes visible
  * 
  * The layer supports feature-state for interactive highlighting:
  * - hasData: Commune has data available
@@ -15,7 +16,7 @@
  * - active: Selected/clicked
  */
 
-import type { LayerSpecification, StyleSpecification } from "maplibre-gl";
+import type { ExpressionSpecification, LayerSpecification, StyleSpecification } from "maplibre-gl";
 
 const COMMUNE_LABELS_SOURCE_ID = "commune-labels-vector";
 const COMMUNE_LABELS_LAYER_ID = "commune_labels";
@@ -24,6 +25,45 @@ export type CommuneLabelsVectorConfig = {
     tileJsonUrl: string;
     sourceLayer?: string;
 };
+
+// Population-based text size: varies by both zoom and population.
+// At each zoom step, larger cities get bigger text.
+// Features with text-size 0 are effectively hidden by MapLibre.
+const TEXT_SIZE_EXPRESSION: ExpressionSpecification = [
+    "interpolate", ["linear"], ["zoom"],
+    6, ["step", ["coalesce", ["get", "population"], 0],
+        0,       // pop < 50k: hidden at z6
+        50000, 14,
+        200000, 16
+    ],
+    8, ["step", ["coalesce", ["get", "population"], 0],
+        0,       // pop < 10k: hidden at z8
+        10000, 11,
+        50000, 14,
+        200000, 16
+    ],
+    10, ["step", ["coalesce", ["get", "population"], 0],
+        0,       // pop < 2k: hidden at z10
+        2000, 10,
+        10000, 12,
+        50000, 14,
+        200000, 16
+    ],
+    12, ["step", ["coalesce", ["get", "population"], 0],
+        10,      // all visible at z12+
+        5000, 11,
+        10000, 13,
+        50000, 15,
+        200000, 17
+    ],
+    16, ["step", ["coalesce", ["get", "population"], 0],
+        12,
+        5000, 14,
+        10000, 16,
+        50000, 18,
+        200000, 20
+    ]
+];
 
 /**
  * Inject commune labels vector source and symbol layer into the map style.
@@ -35,7 +75,6 @@ export function injectCommuneLabelsVector(
 ): void {
     const sourceLayer = config.sourceLayer ?? "commune_labels";
 
-    // Add vector tile source with promoteId to expose insee codes as feature IDs
     if (!style.sources) {
         style.sources = {};
     }
@@ -46,43 +85,34 @@ export function injectCommuneLabelsVector(
         promoteId: { [sourceLayer]: "insee" }
     };
 
-
-    // Create symbol layer for commune labels
     const labelLayer: LayerSpecification = {
         id: COMMUNE_LABELS_LAYER_ID,
         type: "symbol",
         source: COMMUNE_LABELS_SOURCE_ID,
         "source-layer": sourceLayer,
-        minzoom: 0,
+        minzoom: 6,
         maxzoom: 18,
         layout: {
             "text-field": ["get", "name"],
-            "text-font": ["Noto Sans Regular"], // Fallback fonts
-            "text-size": [
-                "interpolate",
-                ["linear"],
-                ["zoom"],
-                6, 11,
-                9, 13,
-                12, 15,
-                16, 18
-            ],
+            "text-font": ["Noto Sans Regular"],
+            "text-size": TEXT_SIZE_EXPRESSION,
             "text-anchor": "center",
             "text-offset": [0, 0],
             "text-allow-overlap": false,
             "text-optional": true,
-            "symbol-sort-key": ["-", ["coalesce", ["get", "population"], 0]] // Lower sort key = higher priority in MapLibre
+            "text-padding": 3,
+            "symbol-sort-key": ["-", ["coalesce", ["get", "population"], 0]]
         },
         paint: {
             "text-color": [
                 "case",
                 ["boolean", ["feature-state", "active"], false],
-                "#f59e0b", // Active: amber
+                "#f59e0b",
                 ["boolean", ["feature-state", "highlight"], false],
-                "#2563eb", // Highlight: blue
+                "#2563eb",
                 ["boolean", ["feature-state", "hasData"], false],
-                "#111827", // HasData: dark gray
-                "#6b7280" // Default: gray
+                "#111827",
+                "#6b7280"
             ],
             "text-halo-color": "#ffffff",
             "text-halo-width": [
@@ -97,19 +127,16 @@ export function injectCommuneLabelsVector(
         }
     };
 
-    // Insert after existing label layers (or at the end)
     if (!Array.isArray(style.layers)) {
         style.layers = [];
     }
 
-    // Find insert position: after all existing symbol layers
+    // Insert BEFORE place_label_other so arrondissement labels render on top
     let insertIdx = style.layers.length;
-    if (style.layers && style.layers.length > 0) {
-        for (let i = style.layers.length - 1; i >= 0; i--) {
-            if (style.layers[i]?.type === "symbol") {
-                insertIdx = i + 1;
-                break;
-            }
+    for (let i = 0; i < style.layers.length; i++) {
+        if (style.layers[i]?.id === "place_label_other") {
+            insertIdx = i;
+            break;
         }
     }
 
