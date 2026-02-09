@@ -54,14 +54,31 @@ function validateTileserverUrl(url: string | undefined): string | null {
     return trimmed;
 }
 
+function resolveTileserverBaseUrl(): string | null {
+    // Prefer explicit server-side var, then public var.
+    const explicit = validateTileserverUrl(process.env.TILESERVER_BASE_URL);
+    if (explicit) return explicit;
+
+    const publicUrl = validateTileserverUrl(process.env.NEXT_PUBLIC_TILESERVER_BASE_URL);
+    if (publicUrl) return publicUrl;
+
+    // Safe local default in development to avoid hard failure.
+    if (process.env.NODE_ENV !== "production") {
+        return "http://localhost:8080";
+    }
+
+    return null;
+}
+
 export async function GET(): Promise<NextResponse> {
-    const baseUrl = validateTileserverUrl(process.env.NEXT_PUBLIC_TILESERVER_BASE_URL);
+    const baseUrl = resolveTileserverBaseUrl();
 
     if (!baseUrl) {
         console.error(
-            "[api/config/map-tiles] NEXT_PUBLIC_TILESERVER_BASE_URL is missing or invalid. " +
+            "[api/config/map-tiles] TILESERVER_BASE_URL/NEXT_PUBLIC_TILESERVER_BASE_URL is missing or invalid. " +
             "Expected a valid URL starting with http:// or https://. " +
-            `Received: ${process.env.NEXT_PUBLIC_TILESERVER_BASE_URL ?? "^(undefined^)"}`
+            `Received TILESERVER_BASE_URL=${process.env.TILESERVER_BASE_URL ?? "^(undefined^)"} ` +
+            `NEXT_PUBLIC_TILESERVER_BASE_URL=${process.env.NEXT_PUBLIC_TILESERVER_BASE_URL ?? "^(undefined^)"}`
         );
         return NextResponse.json(
             { error: "Tileserver configuration is missing or invalid" },
