@@ -57,7 +57,7 @@ export function injectCommuneLabelsVector(
         maxzoom: 18,
         layout: {
             "text-field": ["get", "name"],
-            "text-font": ["Noto Sans Regular"],
+            "text-font": ["Open Sans Regular", "Arial Unicode MS Regular"], // Fallback fonts
             "text-size": [
                 "interpolate",
                 ["linear"],

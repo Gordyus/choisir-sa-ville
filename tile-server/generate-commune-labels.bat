@@ -23,7 +23,7 @@ if %ERRORLEVEL% NEQ 0 (
     echo Option 2: Docker ^(recommended for Windows^)
     echo   docker run --rm -v "%cd%:/data" ghcr.io/felt/tippecanoe:latest \
     echo     tippecanoe -o /data/data/commune-labels.mbtiles \
-    echo       -Z6 -z14 --force \
+    echo       -Z0 -z14 --force \
     echo       --drop-densest-as-needed \
     echo       --coalesce-densest-as-needed \
     echo       --no-tile-compression \
@@ -50,9 +50,8 @@ cd /d "%~dp0"
 
 tippecanoe ^
   -o data\commune-labels.mbtiles ^
-  -Z6 -z14 ^
+  -Z0 -z14 ^
   --force ^
-  --drop-densest-as-needed ^
   --coalesce-densest-as-needed ^
   --no-tile-compression ^
   --layer=commune_labels ^
