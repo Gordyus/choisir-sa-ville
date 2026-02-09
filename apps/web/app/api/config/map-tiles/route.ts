@@ -6,6 +6,7 @@ type TileJsonSources = {
     france: string;
     communes: string;
     arr_municipal: string;
+    commune_labels: string;
 };
 
 type PolygonSource = {
@@ -84,7 +85,8 @@ export async function GET(): Promise<NextResponse> {
     const tileJsonSources: TileJsonSources = {
         france: `${baseUrl}/data/france.json`,
         communes: polygonSources.communes.tileJsonUrl,
-        arr_municipal: polygonSources.arr_municipal.tileJsonUrl
+        arr_municipal: polygonSources.arr_municipal.tileJsonUrl,
+        commune_labels: `${baseUrl}/data/commune_labels.json`
     };
 
     const config: MapTilesConfigResponse = {

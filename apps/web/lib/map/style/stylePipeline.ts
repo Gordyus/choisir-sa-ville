@@ -17,6 +17,7 @@ import type { MapTilesConfig } from "@/lib/config/mapTilesConfig";
 
 import { injectAdminPolygons } from "../layers/adminPolygons";
 import { setPlaceClasses } from "../layers/baseLabels";
+import { injectCommuneLabelsVector } from "../layers/communeLabelsVector";
 import { applyInteractableLabelStyling } from "../layers/interactableLabelStyling";
 import { loadSourceAvailability, loadStyle, type VectorLayerAvailability } from "./styleLoader";
 import { sanitizeLayers } from "./styleSanitizer";
@@ -64,6 +65,14 @@ export async function loadMapStyle(
 
     // Step 6: Inject admin polygon sources and layers (before labels for proper z-order)
     injectAdminPolygons(outputStyle, config.polygonSources, availability);
+
+    // Step 7: Inject custom commune labels vector layer
+    if (config.tileJsonSources.commune_labels) {
+        injectCommuneLabelsVector(outputStyle, {
+            tileJsonUrl: config.tileJsonSources.commune_labels,
+            sourceLayer: "commune_labels"
+        });
+    }
 
     return outputStyle;
 }

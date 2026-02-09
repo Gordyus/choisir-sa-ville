@@ -22,6 +22,7 @@ import { MapDebugOverlay } from "@/components/map-debug-overlay";
 import { MapLayerMenu } from "@/components/map-layer-menu";
 import { loadAppConfig, type AppConfig } from "@/lib/config/appConfig";
 import { attachEntityGraphicsBinder } from "@/lib/map/entityGraphicsBinder";
+import { getCommuneLabelsVectorLayerId } from "@/lib/map/layers/communeLabelsVector";
 import { attachMapInteractionService } from "@/lib/map/mapInteractionService";
 import { attachDisplayBinder } from "@/lib/map/state/displayBinder";
 import { loadMapStyle } from "@/lib/map/style/stylePipeline";
@@ -132,9 +133,10 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
             }
 
             // Attach interaction service - handles user interactions and EntityStateService updates
+            // Use our custom commune labels layer instead of OSM labels
             const interactionResult = attachMapInteractionService(map, {
                 debug,
-                labelLayerId: appConfig.mapTiles.interactableLabelLayerId
+                labelLayerId: getCommuneLabelsVectorLayerId()
             });
             detachInteractionsRef.current = interactionResult.cleanup;
 

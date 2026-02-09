@@ -27,8 +27,10 @@ async function main(): Promise<void> {
     
     let datasetVersion: string;
     try {
-        const manifestContent = await import(currentManifestPath, { assert: { type: "json" } });
-        datasetVersion = manifestContent.default.datasetVersion;
+        const fs = await import("node:fs/promises");
+        const manifestContent = await fs.readFile(currentManifestPath, "utf-8");
+        const manifest = JSON.parse(manifestContent) as { datasetVersion?: string };
+        datasetVersion = manifest.datasetVersion ?? "v2026-02-08";
     } catch (error) {
         console.error("[export-labels-geojson] Failed to read current manifest, using default version");
         // Fallback to latest directory
