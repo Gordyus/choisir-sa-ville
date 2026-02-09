@@ -33,17 +33,19 @@ export function injectCommuneLabelsVector(
     style: StyleSpecification,
     config: CommuneLabelsVectorConfig
 ): void {
-    // Add vector tile source
+    const sourceLayer = config.sourceLayer ?? "commune_labels";
+
+    // Add vector tile source with promoteId to expose insee codes as feature IDs
     if (!style.sources) {
         style.sources = {};
     }
 
     style.sources[COMMUNE_LABELS_SOURCE_ID] = {
         type: "vector",
-        url: config.tileJsonUrl
+        url: config.tileJsonUrl,
+        promoteId: { [sourceLayer]: "insee" }
     };
 
-    const sourceLayer = config.sourceLayer ?? "commune_labels";
 
     // Create symbol layer for commune labels
     const labelLayer: LayerSpecification = {
