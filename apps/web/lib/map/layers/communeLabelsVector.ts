@@ -37,51 +37,42 @@ const TEXT_SIZE_EXPRESSION: ExpressionSpecification = [
     // z0-5: Only megacities (> 300k)
     ["step", ["coalesce", ["get", "population"], 0],
         0,        // pop < 300k: hidden
-        300000, 16
+        300000, 20
     ],
     // z6-7: Major cities (> 50k)
     6, ["step", ["coalesce", ["get", "population"], 0],
         0,        // pop < 50k: hidden
-        50000, 13,
-        100000, 15,
-        300000, 17
+        50000, 14,
+        100000, 16,
+        300000, 20
     ],
     // z8-9: Medium cities (> 10k)
     8, ["step", ["coalesce", ["get", "population"], 0],
         0,        // pop < 10k: hidden
-        10000, 12,
-        50000, 14,
+        10000, 14,
         100000, 16,
-        300000, 18
+        300000, 20
     ],
     // z10-11: Towns (> 2k)
     10, ["step", ["coalesce", ["get", "population"], 0],
         0,        // pop < 2k: hidden
-        2000, 11,
-        10000, 13,
-        50000, 15,
-        100000, 17,
-        300000, 19
+        2000, 14,
+        100000, 16,
+        300000, 20
     ],
     // z12-13: All communes visible, scaled by size
-    12, ["step", ["coalesce", ["get", "population"], 0],
-        11,       // villages: 11px
-        2000, 12,
-        5000, 13,
-        10000, 14,
-        50000, 16,
-        100000, 18,
+    11, ["step", ["coalesce", ["get", "population"], 0],
+        14,       // villages: 11px
+        5000, 14,
+        100000, 16,
         300000, 20
     ],
     // z14+: Larger text for detail
     14, ["step", ["coalesce", ["get", "population"], 0],
-        12,
-        2000, 13,
-        5000, 14,
+        16,
         10000, 16,
-        50000, 18,
-        100000, 20,
-        300000, 22
+        100000, 16,
+        300000, 20
     ]
 ];
 

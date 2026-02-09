@@ -106,14 +106,27 @@ Chargement du style :
 - `apps/web/lib/map/style/stylePipeline.ts`
   - charge le style de base (`styleUrl`)
   - supprime les couches dont le `source-layer` n’existe pas (TileJSON inspection)
+  - supprime les labels OSM `place_label*` (remplacs par nos labels custom)
   - applique un styling feature-state sur la couche de labels interactive
   - injecte les couches polygones (communes/arr_municipal) avant les labels
+  - injecte les labels custom communes (`commune_labels` depuis `commune-labels.mbtiles`)
+  - injecte les labels arrondissements (`arr_municipal_labels` depuis `arr_municipal.mbtiles`)
+
+Labels custom (tuiles vecteur) :
+- `apps/web/lib/map/layers/communeLabelsVector.ts`
+  - Source : `commune-labels.mbtiles` (34 870 communes, z0-z14)
+  - Densit progressive par population (megacities z0, villages z12+)
+  - Feature-state : `hasData`, `highlight`, `active`
+- `apps/web/lib/map/layers/arrMunicipalLabelsVector.ts`
+  - Source : `arr_municipal.mbtiles` (arrondissements Paris/Lyon/Marseille, z11+)
+  - Feature-state : `hasData`, `highlight`, `active`
 
 Interactions :
 - `apps/web/lib/map/mapInteractionService.ts`
-  - “label-first” : hit-test sur la couche `interactableLabelLayerId`
-  - résolution d’entité par nom normalisé + index lites
-  - `moveend`/`zoomend` déclenchent l’évaluation `hasData` sur les labels visibles
+  - label-first : hit-test sur les couches `commune_labels` + `arr_municipal_labels`
+  - rsolution d’entit par code INSEE (sources propres) ou nom normalis (sources OSM)
+  - `moveend`/`zoomend` dclenchent l’valuation `hasData` sur les labels visibles
+  - labels issus de nos sources propres  `hasData` toujours `true` (pas de rsolution par nom)
   - synchronisation `feature-state` ↔ `SelectionService` (flags `hasData`, `highlight`, `active`)
 
 ---

@@ -133,19 +133,59 @@ tippecanoe \
 
 ## 6. Label Handling (Critical Design Choice)
 
-- OSM `place` labels are kept **unchanged**
+### 6.1 OSM Labels (france.mbtiles)
+
+- OSM `place` labels are kept **unchanged** in `france.mbtiles`
 - Native `feature.id` is preserved
 - Properties kept:
   - `name`
   - `class`
   - `rank` (if present)
 
-Explicitly NOT done:
-- no INSEE join
-- no product metadata
-- no interaction flags
+**However**, OSM `place_label*` layers are removed at runtime by the style pipeline
+(Step 3.5 in `stylePipeline.ts`) because they are replaced by our custom labels.
 
-All interaction logic is **runtime-only**.
+### 6.2 Custom Commune Labels (commune-labels.mbtiles)
+
+Custom labels are generated from our own `indexLite.json` dataset to guarantee
+100% coverage of all 34,870 French communes.
+
+**Source**: `packages/importer` → `export:labels-geojson` → `commune-labels.geojson`
+
+**Generation**:
+```bash
+# Step 1: Export GeoJSON from indexLite
+pnpm --filter @choisir-sa-ville/importer export:labels-geojson
+
+# Step 2: Generate MBTiles with Tippecanoe (Docker)
+docker run --rm -v "tile-server:/data" klokantech/tippecanoe tippecanoe \
+  -o /data/data/commune-labels.mbtiles \
+  -Z0 -z14 -r1 --force \
+  --no-feature-limit --no-tile-size-limit \
+  --no-tile-compression \
+  --layer=commune_labels \
+  /data/tmp/commune-labels.geojson
+```
+
+**Properties per feature**:
+- `insee` — INSEE code (used as feature ID via `promoteId`)
+- `name` — commune name
+- `population` — for density-based display and `symbol-sort-key`
+
+**Key Tippecanoe flags**:
+- `-r1` — drop-rate=1, essential to prevent feature dropping at low zooms
+- `-Z0 -z14` — zoom range 0 to 14
+- `--no-feature-limit --no-tile-size-limit` — prevents tile caps from removing features
+- `--no-tile-compression` — required for tileserver-gl compatibility
+
+**Frontend integration** (`communeLabelsVector.ts`):
+- Progressive density: megacities at z0, all communes at z12+
+- Population-based text sizing via `step` expressions
+- Feature-state: `hasData` (always `true`), `highlight`, `active`
+
+**Runtime optimization**: Since these labels come from our own dataset, entity
+resolution uses the `insee` code directly (via `promoteId`) instead of the expensive
+name → normalize → index search → distance pipeline. `hasData` is always `true`.
 
 ---
 
@@ -203,11 +243,11 @@ No business logic lives in the style.
 
 ## 10. Architectural Invariants (Do Not Break)
 
-- Tiles must remain **product-agnostic**
-- Labels must remain **OSM-driven**
-- No joins or enrichment in tiles
-- No interaction baked into tiles
-- Runtime owns all product logic
+- `france.mbtiles` must remain **product-agnostic** (neutral OSM data)
+- Commune labels use **custom MBTiles** generated from `indexLite.json` (not OSM)
+- No data joins or enrichment baked into tiles
+- No interaction flags baked into tiles
+- Runtime owns all product logic (feature-state for `hasData`, `highlight`, `active`)
 
 ---
 

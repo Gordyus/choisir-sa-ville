@@ -23,6 +23,7 @@ import { MapLayerMenu } from "@/components/map-layer-menu";
 import { loadAppConfig, type AppConfig } from "@/lib/config/appConfig";
 import { attachEntityGraphicsBinder } from "@/lib/map/entityGraphicsBinder";
 import { getCommuneLabelsVectorLayerId } from "@/lib/map/layers/communeLabelsVector";
+import { getArrMunicipalLabelsVectorLayerId } from "@/lib/map/layers/arrMunicipalLabelsVector";
 import { attachMapInteractionService } from "@/lib/map/mapInteractionService";
 import { attachDisplayBinder } from "@/lib/map/state/displayBinder";
 import { loadMapStyle } from "@/lib/map/style/stylePipeline";
@@ -133,14 +134,13 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
             }
 
             const communeLabelsLayerId = getCommuneLabelsVectorLayerId();
-            console.info(`[vector-map] Using label layer: ${communeLabelsLayerId}`);
-            console.info(`[vector-map] Layer exists:`, !!map.getLayer(communeLabelsLayerId));
 
             // Attach interaction service - handles user interactions and EntityStateService updates
-            // Use our custom commune labels layer instead of OSM labels
+            // Use our custom commune labels layer + arrondissement labels for full interaction coverage
             const interactionResult = attachMapInteractionService(map, {
                 debug,
-                labelLayerId: communeLabelsLayerId
+                labelLayerId: communeLabelsLayerId,
+                additionalLabelLayerIds: [getArrMunicipalLabelsVectorLayerId()]
             });
             detachInteractionsRef.current = interactionResult.cleanup;
 

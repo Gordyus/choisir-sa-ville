@@ -21,14 +21,12 @@ if %ERRORLEVEL% NEQ 0 (
     echo   or build from source: https://github.com/felt/tippecanoe
     echo.
     echo Option 2: Docker ^(recommended for Windows^)
-    echo   docker run --rm -v "%cd%:/data" ghcr.io/felt/tippecanoe:latest \
-    echo     tippecanoe -o /data/data/commune-labels.mbtiles \
-    echo       -Z0 -z14 --force \
-    echo       --drop-densest-as-needed \
-    echo       --coalesce-densest-as-needed \
+    echo   docker run --rm -v "%cd%:/data" klokantech/tippecanoe tippecanoe \
+    echo     -o /data/data/commune-labels.mbtiles \
+    echo       -Z0 -z14 -r1 --force \
+    echo       --no-feature-limit --no-tile-size-limit \
     echo       --no-tile-compression \
     echo       --layer=commune_labels \
-    echo       --promote-id=insee \
     echo       /data/tmp/commune-labels.geojson
     echo.
     echo Option 3: Manual installation
@@ -50,12 +48,11 @@ cd /d "%~dp0"
 
 tippecanoe ^
   -o data\commune-labels.mbtiles ^
-  -Z0 -z14 ^
+  -Z0 -z14 -r1 ^
   --force ^
-  --coalesce-densest-as-needed ^
+  --no-feature-limit --no-tile-size-limit ^
   --no-tile-compression ^
   --layer=commune_labels ^
-  --promote-id=insee ^
   tmp\commune-labels.geojson
 
 if %ERRORLEVEL% EQU 0 (
