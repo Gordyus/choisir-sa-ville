@@ -1,7 +1,7 @@
 {
    "version": 8,
    "name": "Basic",
-   "glyphs": "http://localhost:8080/fonts/{fontstack}/{range}.pbf",
+   "glyphs": "https://fonts.openmaptiles.org/{fontstack}/{range}.pbf",
    "sources": {
       "france": {
          "type": "vector",

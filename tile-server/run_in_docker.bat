@@ -1,1 +1,1 @@
-docker run --rm -p 8080:8080 -v ".\data:/data" maptiler/tileserver-gl:latest --config /data/config.json
+docker run --rm -d -p 8080:8080 -v "D:\Projects\choisir-sa-ville\tile-server\data:/data" --name tileserver maptiler/tileserver-gl:latest --config /data/config.json
