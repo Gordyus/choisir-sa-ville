@@ -1,0 +1,144 @@
+{
+  "63fcf454fd0d": {
+    "id": "63fcf454fd0d",
+    "label": "18 RUE DE LA TOUR DES MOTTES, Anglesqueville-la-Bras-Long",
+    "lat": 49.778507,
+    "lng": 0.782055,
+    "transactions": [
+      {
+        "date": "2020-08-12",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "3816042d27f5": {
+    "id": "3816042d27f5",
+    "label": "14T RUE DE LA TOUR DES MOTTES, Anglesqueville-la-Bras-Long",
+    "lat": 49.777797,
+    "lng": 0.782473,
+    "transactions": [
+      {
+        "date": "2021-12-09",
+        "priceEur": 286000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-09",
+        "priceEur": 286000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "28f572019ae0": {
+    "id": "28f572019ae0",
+    "label": "6 RUE DE LA TOUR DES MOTTES, Anglesqueville-la-Bras-Long",
+    "lat": 49.777923,
+    "lng": 0.784434,
+    "transactions": [
+      {
+        "date": "2021-12-28",
+        "priceEur": 162500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "3735771b3293": {
+    "id": "3735771b3293",
+    "label": "4 RUE DE LA TOUR DES MOTTES, Anglesqueville-la-Bras-Long",
+    "lat": 49.778497,
+    "lng": 0.784758,
+    "transactions": [
+      {
+        "date": "2022-01-27",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "458d0bcf6d5f": {
+    "id": "458d0bcf6d5f",
+    "label": "14B RUE DE LA TOUR DES MOTTES, Anglesqueville-la-Bras-Long",
+    "lat": 49.777911,
+    "lng": 0.783178,
+    "transactions": [
+      {
+        "date": "2022-10-03",
+        "priceEur": 244000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "3b5642692273": {
+    "id": "3b5642692273",
+    "label": "15C RUE DE LA TOUR DES MOTTES, Anglesqueville-la-Bras-Long",
+    "lat": 49.777802,
+    "lng": 0.782681,
+    "transactions": [
+      {
+        "date": "2024-07-30",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3c30c7ab612": {
+    "id": "d3c30c7ab612",
+    "label": "101 RTE DE L EGLISE, Anglesqueville-la-Bras-Long",
+    "lat": 49.779687,
+    "lng": 0.788344,
+    "transactions": [
+      {
+        "date": "2024-12-23",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "f98a495a782d": {
+    "id": "f98a495a782d",
+    "label": "5 RTE DE L EGLISE, Anglesqueville-la-Bras-Long",
+    "lat": 49.779413,
+    "lng": 0.791012,
+    "transactions": [
+      {
+        "date": "2025-03-06",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "b893452019ca": {
+    "id": "b893452019ca",
+    "label": "7 RTE DE L EGLISE, Anglesqueville-la-Bras-Long",
+    "lat": 49.779498,
+    "lng": 0.790609,
+    "transactions": [
+      {
+        "date": "2025-03-28",
+        "priceEur": 107000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

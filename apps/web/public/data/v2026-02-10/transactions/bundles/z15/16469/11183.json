@@ -1,0 +1,114 @@
+{
+  "056333f90e9f": {
+    "id": "056333f90e9f",
+    "label": "195 RTE DE ROUEN, Saint-Pierre-de-Varengeville",
+    "lat": 49.501651,
+    "lng": 0.933887,
+    "transactions": [
+      {
+        "date": "2020-09-07",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "f36199c6388b": {
+    "id": "f36199c6388b",
+    "label": "311 RUE DES ECOLES, Saint-Pierre-de-Varengeville",
+    "lat": 49.498769,
+    "lng": 0.93409,
+    "transactions": [
+      {
+        "date": "2025-04-28",
+        "priceEur": 477000,
+        "typeLocal": "Maison",
+        "surfaceM2": 215,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-24",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 215,
+        "isVefa": false
+      }
+    ]
+  },
+  "edae0eb9a604": {
+    "id": "edae0eb9a604",
+    "label": "127 CHE DU HARIDON, Saint-Pierre-de-Varengeville",
+    "lat": 49.503679,
+    "lng": 0.940118,
+    "transactions": [
+      {
+        "date": "2021-02-11",
+        "priceEur": 181000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "e418c0619988": {
+    "id": "e418c0619988",
+    "label": "131 CHE DU HARIDON, Saint-Pierre-de-Varengeville",
+    "lat": 49.503033,
+    "lng": 0.940247,
+    "transactions": [
+      {
+        "date": "2024-02-28",
+        "priceEur": 482600,
+        "typeLocal": "Maison",
+        "surfaceM2": 179,
+        "isVefa": false
+      }
+    ]
+  },
+  "776bc532a42d": {
+    "id": "776bc532a42d",
+    "label": "205 CHE DU HARIDON, Saint-Pierre-de-Varengeville",
+    "lat": 49.503499,
+    "lng": 0.939065,
+    "transactions": [
+      {
+        "date": "2024-07-18",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "3b7979e5a490": {
+    "id": "3b7979e5a490",
+    "label": "383 RTE DE ROUEN, Saint-Pierre-de-Varengeville",
+    "lat": 49.500876,
+    "lng": 0.937758,
+    "transactions": [
+      {
+        "date": "2024-12-19",
+        "priceEur": 5000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a0b83197072": {
+    "id": "1a0b83197072",
+    "label": "109 ALL DES ACACIAS, Saint-Pierre-de-Varengeville",
+    "lat": 49.500206,
+    "lng": 0.934124,
+    "transactions": [
+      {
+        "date": "2025-03-18",
+        "priceEur": 164000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  }
+}

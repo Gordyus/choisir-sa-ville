@@ -1,0 +1,62 @@
+{
+  "c12bef363a6b": {
+    "id": "c12bef363a6b",
+    "label": "666 CHE DES MIMERIES, Hattenville",
+    "lat": 49.661861,
+    "lng": 0.540465,
+    "transactions": [
+      {
+        "date": "2021-06-14",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d98da64641c": {
+    "id": "4d98da64641c",
+    "label": "183 CHE DES DEUX CHAUMIERES, Hattenville",
+    "lat": 49.662112,
+    "lng": 0.547261,
+    "transactions": [
+      {
+        "date": "2021-07-13",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "58fb604cfe41": {
+    "id": "58fb604cfe41",
+    "label": "658 CHE DES MIMERIES, Hattenville",
+    "lat": 49.662787,
+    "lng": 0.540373,
+    "transactions": [
+      {
+        "date": "2023-08-30",
+        "priceEur": 167400,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "db8d05ac0dd5": {
+    "id": "db8d05ac0dd5",
+    "label": "626B CHE DES MIMERIES, Hattenville",
+    "lat": 49.662806,
+    "lng": 0.540645,
+    "transactions": [
+      {
+        "date": "2023-11-16",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

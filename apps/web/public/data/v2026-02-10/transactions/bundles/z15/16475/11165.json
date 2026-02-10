@@ -1,0 +1,69 @@
+{
+  "9fd204446ccc": {
+    "id": "9fd204446ccc",
+    "label": "5100 LE BREUIL, Saint-Ouen-du-Breuil",
+    "lat": 49.630659,
+    "lng": 1.006635,
+    "transactions": [
+      {
+        "date": "2021-10-20",
+        "priceEur": 324000,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-20",
+        "priceEur": 324000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "49bcc4dad7a7": {
+    "id": "49bcc4dad7a7",
+    "label": "270 ALL DES CHARMILLES, Saint-Ouen-du-Breuil",
+    "lat": 49.631062,
+    "lng": 1.005666,
+    "transactions": [
+      {
+        "date": "2022-03-07",
+        "priceEur": 341000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6e7c3af283a": {
+    "id": "b6e7c3af283a",
+    "label": "314 ALL DES NOISETIERS, Saint-Ouen-du-Breuil",
+    "lat": 49.630047,
+    "lng": 1.005472,
+    "transactions": [
+      {
+        "date": "2022-12-22",
+        "priceEur": 216900,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "ab822b13ff74": {
+    "id": "ab822b13ff74",
+    "label": "147 ALL DES NOISETIERS, Saint-Ouen-du-Breuil",
+    "lat": 49.630648,
+    "lng": 1.007672,
+    "transactions": [
+      {
+        "date": "2023-07-11",
+        "priceEur": 210500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

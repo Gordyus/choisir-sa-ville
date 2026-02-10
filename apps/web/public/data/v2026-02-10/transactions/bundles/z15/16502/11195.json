@@ -1,0 +1,77 @@
+{
+  "cfdc535cabf1": {
+    "id": "cfdc535cabf1",
+    "label": "730 RUE DU VAL RAMIER, Fresne-le-Plan",
+    "lat": 49.414808,
+    "lng": 1.305756,
+    "transactions": [
+      {
+        "date": "2020-10-19",
+        "priceEur": 253000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "635c70a7a06d": {
+    "id": "635c70a7a06d",
+    "label": "300 RUE DU VAL RAMIER, Fresne-le-Plan",
+    "lat": 49.414412,
+    "lng": 1.300008,
+    "transactions": [
+      {
+        "date": "2022-12-07",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d8fc4c95e9b": {
+    "id": "3d8fc4c95e9b",
+    "label": "768 RUE DU VAL RAMIER, Fresne-le-Plan",
+    "lat": 49.414808,
+    "lng": 1.306065,
+    "transactions": [
+      {
+        "date": "2023-10-03",
+        "priceEur": 304550,
+        "typeLocal": "Maison",
+        "surfaceM2": 159,
+        "isVefa": false
+      }
+    ]
+  },
+  "025ece7119bf": {
+    "id": "025ece7119bf",
+    "label": "332 RUE DU VAL RAMIER, Fresne-le-Plan",
+    "lat": 49.414411,
+    "lng": 1.300389,
+    "transactions": [
+      {
+        "date": "2024-01-25",
+        "priceEur": 276000,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "c95acb3c7f87": {
+    "id": "c95acb3c7f87",
+    "label": "800 RUE DU VAL RAMIER, Fresne-le-Plan",
+    "lat": 49.414727,
+    "lng": 1.306736,
+    "transactions": [
+      {
+        "date": "2024-10-02",
+        "priceEur": 360200,
+        "typeLocal": "Maison",
+        "surfaceM2": 179,
+        "isVefa": false
+      }
+    ]
+  }
+}

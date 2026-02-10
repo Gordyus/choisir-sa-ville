@@ -1,0 +1,84 @@
+{
+  "8904c7cdfd61": {
+    "id": "8904c7cdfd61",
+    "label": "5063 RUE DU VILLAGE, Heurteauville",
+    "lat": 49.439457,
+    "lng": 0.80616,
+    "transactions": [
+      {
+        "date": "2021-01-15",
+        "priceEur": 289000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "68fc6fffdc15": {
+    "id": "68fc6fffdc15",
+    "label": "167 RUE DE LA CHARRETIERE, Heurteauville",
+    "lat": 49.439011,
+    "lng": 0.802362,
+    "transactions": [
+      {
+        "date": "2023-08-22",
+        "priceEur": 122000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "518bfe90910b": {
+    "id": "518bfe90910b",
+    "label": "158 RUE DE LA CHARRETIERE, Heurteauville",
+    "lat": 49.439463,
+    "lng": 0.802416,
+    "transactions": [
+      {
+        "date": "2024-02-16",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-16",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "5fb710adbd55": {
+    "id": "5fb710adbd55",
+    "label": "214 RUE DU VILLAGE, Heurteauville",
+    "lat": 49.4391,
+    "lng": 0.805799,
+    "transactions": [
+      {
+        "date": "2024-10-23",
+        "priceEur": 196000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1f2a0c7f3a4": {
+    "id": "e1f2a0c7f3a4",
+    "label": "479 RUE DES CLOS, Jumièges",
+    "lat": 49.432851,
+    "lng": 0.805283,
+    "transactions": [
+      {
+        "date": "2025-02-27",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

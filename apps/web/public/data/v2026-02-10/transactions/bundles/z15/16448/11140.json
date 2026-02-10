@@ -1,0 +1,92 @@
+{
+  "d78ce45e1a21": {
+    "id": "d78ce45e1a21",
+    "label": "1Q RUE DE L EGLISE, Crasville-la-Mallet",
+    "lat": 49.804038,
+    "lng": 0.711878,
+    "transactions": [
+      {
+        "date": "2020-07-15",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "bdab3ac63cdc": {
+    "id": "bdab3ac63cdc",
+    "label": "6 RTE DE SAINT VALERY, Crasville-la-Mallet",
+    "lat": 49.804711,
+    "lng": 0.709248,
+    "transactions": [
+      {
+        "date": "2020-09-21",
+        "priceEur": 127500,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "c445477924e5": {
+    "id": "c445477924e5",
+    "label": "1T RUE DE L EGLISE, Crasville-la-Mallet",
+    "lat": 49.804107,
+    "lng": 0.711901,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 72000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "199c09754163": {
+    "id": "199c09754163",
+    "label": "8B RUE DES ECOLES, Crasville-la-Mallet",
+    "lat": 49.803857,
+    "lng": 0.711713,
+    "transactions": [
+      {
+        "date": "2021-04-16",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "11fcb49a1d48": {
+    "id": "11fcb49a1d48",
+    "label": "7 RUE DES ECOLES, Crasville-la-Mallet",
+    "lat": 49.802964,
+    "lng": 0.711578,
+    "transactions": [
+      {
+        "date": "2021-12-03",
+        "priceEur": 227500,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "dcbc7947fa3b": {
+    "id": "dcbc7947fa3b",
+    "label": "1 RUE DE LA MARE, Crasville-la-Mallet",
+    "lat": 49.802748,
+    "lng": 0.711939,
+    "transactions": [
+      {
+        "date": "2024-06-07",
+        "priceEur": 82500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

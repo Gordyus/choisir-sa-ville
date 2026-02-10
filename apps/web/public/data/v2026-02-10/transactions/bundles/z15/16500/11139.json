@@ -1,0 +1,77 @@
+{
+  "a8111dc2a11c": {
+    "id": "a8111dc2a11c",
+    "label": "15 RUE DU CHARME, Ricarville-du-Val",
+    "lat": 49.809984,
+    "lng": 1.275877,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 76960,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "031666a61062": {
+    "id": "031666a61062",
+    "label": "1300 RTE DE NEUFCHATEL, Saint-Vaast-d'Équiqueville",
+    "lat": 49.813125,
+    "lng": 1.282001,
+    "transactions": [
+      {
+        "date": "2021-06-11",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "0a2471842477": {
+    "id": "0a2471842477",
+    "label": "13 RUE DU CHARME, Ricarville-du-Val",
+    "lat": 49.810018,
+    "lng": 1.275779,
+    "transactions": [
+      {
+        "date": "2021-07-28",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "5576235f2fca": {
+    "id": "5576235f2fca",
+    "label": "5010 LE BOURG, Ricarville-du-Val",
+    "lat": 49.80977,
+    "lng": 1.274916,
+    "transactions": [
+      {
+        "date": "2021-08-05",
+        "priceEur": 112000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b9336542b9f": {
+    "id": "7b9336542b9f",
+    "label": "5022 LE BOURG, Ricarville-du-Val",
+    "lat": 49.809994,
+    "lng": 1.27687,
+    "transactions": [
+      {
+        "date": "2022-05-20",
+        "priceEur": 169500,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

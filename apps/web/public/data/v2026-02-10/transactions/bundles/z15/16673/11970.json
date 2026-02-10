@@ -1,0 +1,129 @@
+{
+  "dbe2a71aa75f": {
+    "id": "dbe2a71aa75f",
+    "label": "213 COSTE CAUDE, Faugères",
+    "lat": 43.561431,
+    "lng": 3.184805,
+    "transactions": [
+      {
+        "date": "2020-10-15",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "90daf403e02f": {
+    "id": "90daf403e02f",
+    "label": "5273 BEL AIR, Faugères",
+    "lat": 43.561475,
+    "lng": 3.182135,
+    "transactions": [
+      {
+        "date": "2020-11-26",
+        "priceEur": 180000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "002db830d443": {
+    "id": "002db830d443",
+    "label": "55 LA GARE, Faugères",
+    "lat": 43.557806,
+    "lng": 3.1805,
+    "transactions": [
+      {
+        "date": "2022-10-24",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "de391c62df7b": {
+    "id": "de391c62df7b",
+    "label": "657 MOULIN DE VERDIER, Faugères",
+    "lat": 43.563819,
+    "lng": 3.184472,
+    "transactions": [
+      {
+        "date": "2023-02-06",
+        "priceEur": 216000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "b928cd794fc9": {
+    "id": "b928cd794fc9",
+    "label": "785 IMP MOULIN DE VERDIER, Faugères",
+    "lat": 43.563145,
+    "lng": 3.184941,
+    "transactions": [
+      {
+        "date": "2023-02-20",
+        "priceEur": 425000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd778f962dba": {
+    "id": "cd778f962dba",
+    "label": "25 ART DE BEZIERS, Faugères",
+    "lat": 43.560766,
+    "lng": 3.182163,
+    "transactions": [
+      {
+        "date": "2023-07-04",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "d4f4877a2c40": {
+    "id": "d4f4877a2c40",
+    "label": "97 LA GARE, Faugères",
+    "lat": 43.557662,
+    "lng": 3.179918,
+    "transactions": [
+      {
+        "date": "2024-06-04",
+        "priceEur": 199580,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c33aeb94d1b": {
+    "id": "2c33aeb94d1b",
+    "label": "269 RTE DE PEZENAS, Faugères",
+    "lat": 43.56192,
+    "lng": 3.183849,
+    "transactions": [
+      {
+        "date": "2024-07-22",
+        "priceEur": 546490,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-22",
+        "priceEur": 546490,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  }
+}

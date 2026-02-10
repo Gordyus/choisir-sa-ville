@@ -1,0 +1,32 @@
+{
+  "450c6a0ef30d": {
+    "id": "450c6a0ef30d",
+    "label": "509 RUE DES COQUELICOTS, Saint Martin de l'If",
+    "lat": 49.5596,
+    "lng": 0.82662,
+    "transactions": [
+      {
+        "date": "2021-06-18",
+        "priceEur": 147000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "91bb9783677d": {
+    "id": "91bb9783677d",
+    "label": "7032 LE VILLAGE SUD, Carville-la-Folletière",
+    "lat": 49.555294,
+    "lng": 0.825104,
+    "transactions": [
+      {
+        "date": "2022-08-31",
+        "priceEur": 265600,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  }
+}

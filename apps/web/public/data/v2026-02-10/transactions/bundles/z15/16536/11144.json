@@ -1,0 +1,47 @@
+{
+  "eb1a09d1a5de": {
+    "id": "eb1a09d1a5de",
+    "label": "5066 HAMEAU DE RIBEAUVILLE, Marques",
+    "lat": 49.779336,
+    "lng": 1.673427,
+    "transactions": [
+      {
+        "date": "2022-08-30",
+        "priceEur": 112000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "e85298ce45bc": {
+    "id": "e85298ce45bc",
+    "label": "5063 HAMEAU DE RIBEAUVILLE, Marques",
+    "lat": 49.780636,
+    "lng": 1.675929,
+    "transactions": [
+      {
+        "date": "2023-01-05",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea38a6872534": {
+    "id": "ea38a6872534",
+    "label": "5065 HAMEAU DE RIBEAUVILLE, Marques",
+    "lat": 49.779559,
+    "lng": 1.673573,
+    "transactions": [
+      {
+        "date": "2024-06-12",
+        "priceEur": 79000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  }
+}

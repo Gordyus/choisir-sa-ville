@@ -1,0 +1,47 @@
+{
+  "7c8695b04551": {
+    "id": "7c8695b04551",
+    "label": "19 RUE DES JASMINS, La Remuée",
+    "lat": 49.519835,
+    "lng": 0.402893,
+    "transactions": [
+      {
+        "date": "2021-08-18",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  },
+  "348c9f4e6636": {
+    "id": "348c9f4e6636",
+    "label": "5B RUE DES JASMINS, La Remuée",
+    "lat": 49.522598,
+    "lng": 0.404639,
+    "transactions": [
+      {
+        "date": "2021-12-07",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "a6d05f5eef4f": {
+    "id": "a6d05f5eef4f",
+    "label": "5093 ALENCON HAMEAU, La Remuée",
+    "lat": 49.519596,
+    "lng": 0.401875,
+    "transactions": [
+      {
+        "date": "2024-12-02",
+        "priceEur": 436000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  }
+}

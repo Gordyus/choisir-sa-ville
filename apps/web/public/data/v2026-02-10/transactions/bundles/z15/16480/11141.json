@@ -1,0 +1,54 @@
+{
+  "f6ec28cbae2e": {
+    "id": "f6ec28cbae2e",
+    "label": "305 RTE DU RELAIS DE POSTE, Omonville",
+    "lat": 49.796294,
+    "lng": 1.054957,
+    "transactions": [
+      {
+        "date": "2021-02-10",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "e473368e8a9a": {
+    "id": "e473368e8a9a",
+    "label": "1 CHE DES JONQUILLES, Lintot-les-Bois",
+    "lat": 49.796871,
+    "lng": 1.055298,
+    "transactions": [
+      {
+        "date": "2022-10-10",
+        "priceEur": 177670,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "96b2ff0e4b78": {
+    "id": "96b2ff0e4b78",
+    "label": "1 RTE DE DIEPPE, Lintot-les-Bois",
+    "lat": 49.796947,
+    "lng": 1.055148,
+    "transactions": [
+      {
+        "date": "2024-10-16",
+        "priceEur": 237000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-16",
+        "priceEur": 237000,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  }
+}

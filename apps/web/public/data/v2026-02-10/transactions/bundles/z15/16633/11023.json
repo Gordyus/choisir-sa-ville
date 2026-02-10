@@ -1,0 +1,84 @@
+{
+  "93d32078c33c": {
+    "id": "93d32078c33c",
+    "label": "1474 RUE DU GRAND CHEMIN, La Gorgue",
+    "lat": 50.628984,
+    "lng": 2.740379,
+    "transactions": [
+      {
+        "date": "2020-11-16",
+        "priceEur": 222800,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "64fb5ed0ec3a": {
+    "id": "64fb5ed0ec3a",
+    "label": "1423 RUE DU GRAND CHEMIN, La Gorgue",
+    "lat": 50.629444,
+    "lng": 2.74063,
+    "transactions": [
+      {
+        "date": "2021-10-19",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-03",
+        "priceEur": 74000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b8878a6fab7": {
+    "id": "9b8878a6fab7",
+    "label": "3T RUE DRUMETZ, La Gorgue",
+    "lat": 50.629255,
+    "lng": 2.745642,
+    "transactions": [
+      {
+        "date": "2021-02-10",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "3bcb180359dd": {
+    "id": "3bcb180359dd",
+    "label": "1384 RUE DU GRAND CHEMIN, La Gorgue",
+    "lat": 50.6295,
+    "lng": 2.739576,
+    "transactions": [
+      {
+        "date": "2024-01-11",
+        "priceEur": 243000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "671adf1ad9fa": {
+    "id": "671adf1ad9fa",
+    "label": "1460 RUE DU GRAND CHEMIN, La Gorgue",
+    "lat": 50.6291,
+    "lng": 2.74018,
+    "transactions": [
+      {
+        "date": "2025-04-14",
+        "priceEur": 130200,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  }
+}

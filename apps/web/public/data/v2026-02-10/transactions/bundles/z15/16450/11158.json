@@ -1,0 +1,32 @@
+{
+  "096359a832f3": {
+    "id": "096359a832f3",
+    "label": "866 RTE DU GRAND TOT, Hautot-Saint-Sulpice",
+    "lat": 49.675007,
+    "lng": 0.730254,
+    "transactions": [
+      {
+        "date": "2023-11-29",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "636473b0e642": {
+    "id": "636473b0e642",
+    "label": "860 RTE DU GRAND TOT, Hautot-Saint-Sulpice",
+    "lat": 49.675298,
+    "lng": 0.730687,
+    "transactions": [
+      {
+        "date": "2023-11-28",
+        "priceEur": 238700,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "ecb138948f59": {
+    "id": "ecb138948f59",
+    "label": "549 PLAINE DU VAL BOIS, Épinay-sur-Duclair",
+    "lat": 49.515467,
+    "lng": 0.835583,
+    "transactions": [
+      {
+        "date": "2020-08-25",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "0642f85639cd": {
+    "id": "0642f85639cd",
+    "label": "117 RUE LA GENTILLERIE, Sainte-Marguerite-sur-Duclair",
+    "lat": 49.511349,
+    "lng": 0.837225,
+    "transactions": [
+      {
+        "date": "2024-12-03",
+        "priceEur": 91000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-01",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "53e7a9dfd05b": {
+    "id": "53e7a9dfd05b",
+    "label": "5285 LE BOURG, Sainte-Marguerite-sur-Duclair",
+    "lat": 49.511764,
+    "lng": 0.837393,
+    "transactions": [
+      {
+        "date": "2023-03-29",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b56a68b6025": {
+    "id": "4b56a68b6025",
+    "label": "5036A LE BOURG, Sainte-Marguerite-sur-Duclair",
+    "lat": 49.511611,
+    "lng": 0.835871,
+    "transactions": [
+      {
+        "date": "2024-06-10",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d3c04ab1b9d": {
+    "id": "8d3c04ab1b9d",
+    "label": "39 RUE LA GENTILLERIE, Sainte-Marguerite-sur-Duclair",
+    "lat": 49.511195,
+    "lng": 0.836541,
+    "transactions": [
+      {
+        "date": "2025-03-11",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  }
+}

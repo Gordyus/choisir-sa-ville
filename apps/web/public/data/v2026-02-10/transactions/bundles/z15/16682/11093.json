@@ -1,0 +1,32 @@
+{
+  "20eed962d3f1": {
+    "id": "20eed962d3f1",
+    "label": "7 RUE DU CHEM VERT, Séranvillers-Forenville",
+    "lat": 50.136308,
+    "lng": 3.281207,
+    "transactions": [
+      {
+        "date": "2023-08-30",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "b328c0fdd26c": {
+    "id": "b328c0fdd26c",
+    "label": "6 RUE DU CHEM VERT, Séranvillers-Forenville",
+    "lat": 50.135045,
+    "lng": 3.281035,
+    "transactions": [
+      {
+        "date": "2024-07-09",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "f371ce0cb517": {
+    "id": "f371ce0cb517",
+    "label": "1639 RTE DES ROCHES, Orival",
+    "lat": 49.322828,
+    "lng": 1.018256,
+    "transactions": [
+      {
+        "date": "2022-05-13",
+        "priceEur": 218000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "a202cf3d2989": {
+    "id": "a202cf3d2989",
+    "label": "1790 RTE DES ROCHES, Orival",
+    "lat": 49.323864,
+    "lng": 1.020101,
+    "transactions": [
+      {
+        "date": "2023-11-24",
+        "priceEur": 71100,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "f21233350001": {
+    "id": "f21233350001",
+    "label": "1611 RTE DES ROCHES, Orival",
+    "lat": 49.323316,
+    "lng": 1.017672,
+    "transactions": [
+      {
+        "date": "2025-02-26",
+        "priceEur": 10500,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

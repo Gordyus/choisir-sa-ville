@@ -1,0 +1,47 @@
+{
+  "e66eeaa9af80": {
+    "id": "e66eeaa9af80",
+    "label": "264 CHEM DE LA JUSTICE, Landas",
+    "lat": 50.48452,
+    "lng": 3.269261,
+    "transactions": [
+      {
+        "date": "2020-12-30",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "99786e070401": {
+    "id": "99786e070401",
+    "label": "120 CHEM DE LA JUSTICE, Landas",
+    "lat": 50.484164,
+    "lng": 3.27107,
+    "transactions": [
+      {
+        "date": "2021-10-21",
+        "priceEur": 361200,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3c5fc417ca4": {
+    "id": "d3c5fc417ca4",
+    "label": "2030 RUE DU QUESNE, Landas",
+    "lat": 50.482626,
+    "lng": 3.271489,
+    "transactions": [
+      {
+        "date": "2023-03-24",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

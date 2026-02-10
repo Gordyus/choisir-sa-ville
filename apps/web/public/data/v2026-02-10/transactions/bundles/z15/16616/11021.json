@@ -1,0 +1,47 @@
+{
+  "28d9e92a2a54": {
+    "id": "28d9e92a2a54",
+    "label": "401 RUE VERTE, Haverskerque",
+    "lat": 50.644692,
+    "lng": 2.552769,
+    "transactions": [
+      {
+        "date": "2021-03-09",
+        "priceEur": 232000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "d55f22d16dc7": {
+    "id": "d55f22d16dc7",
+    "label": "123 RUE DE LA MALADRERIE, Haverskerque",
+    "lat": 50.639976,
+    "lng": 2.550771,
+    "transactions": [
+      {
+        "date": "2022-05-20",
+        "priceEur": 123000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "584e738e79f0": {
+    "id": "584e738e79f0",
+    "label": "1883 RUE DE MERVILLE, Haverskerque",
+    "lat": 50.639875,
+    "lng": 2.558222,
+    "transactions": [
+      {
+        "date": "2024-02-06",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

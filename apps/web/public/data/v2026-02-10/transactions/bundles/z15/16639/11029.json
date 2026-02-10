@@ -1,0 +1,47 @@
+{
+  "f360841fbb73": {
+    "id": "f360841fbb73",
+    "label": "108 RUE DU BAS POMMEREAU, Aubers",
+    "lat": 50.586912,
+    "lng": 2.81061,
+    "transactions": [
+      {
+        "date": "2020-12-15",
+        "priceEur": 352000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "9cb7dd851ad4": {
+    "id": "9cb7dd851ad4",
+    "label": "114 RUE DU BAS POMMEREAU, Aubers",
+    "lat": 50.586592,
+    "lng": 2.809758,
+    "transactions": [
+      {
+        "date": "2021-04-09",
+        "priceEur": 914250,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  },
+  "927095952b18": {
+    "id": "927095952b18",
+    "label": "123 RUE DU BAS POMMEREAU, Aubers",
+    "lat": 50.58514,
+    "lng": 2.810137,
+    "transactions": [
+      {
+        "date": "2023-11-14",
+        "priceEur": 338050,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  }
+}

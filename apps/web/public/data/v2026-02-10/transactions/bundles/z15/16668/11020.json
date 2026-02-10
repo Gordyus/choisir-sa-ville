@@ -1,0 +1,316 @@
+{
+  "e17341d401c0": {
+    "id": "e17341d401c0",
+    "label": "11 RUE DE LA PARADE, Villeneuve-d'Ascq",
+    "lat": 50.646896,
+    "lng": 3.130622,
+    "transactions": [
+      {
+        "date": "2020-07-01",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac1c46f132cf": {
+    "id": "ac1c46f132cf",
+    "label": "58 RUE JEAN JAURES, Villeneuve-d'Ascq",
+    "lat": 50.650476,
+    "lng": 3.124792,
+    "transactions": [
+      {
+        "date": "2020-09-22",
+        "priceEur": 264600,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ebe36a583a4": {
+    "id": "7ebe36a583a4",
+    "label": "30 RUE JEAN JAURES, Villeneuve-d'Ascq",
+    "lat": 50.649657,
+    "lng": 3.121936,
+    "transactions": [
+      {
+        "date": "2020-09-16",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "d785cbb69f3a": {
+    "id": "d785cbb69f3a",
+    "label": "24 RUE JEAN JAURES, Villeneuve-d'Ascq",
+    "lat": 50.649551,
+    "lng": 3.12182,
+    "transactions": [
+      {
+        "date": "2020-10-06",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "25f36f9cd266": {
+    "id": "25f36f9cd266",
+    "label": "48 RUE JEAN JAURES, Villeneuve-d'Ascq",
+    "lat": 50.649918,
+    "lng": 3.122456,
+    "transactions": [
+      {
+        "date": "2020-10-19",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "66c09d042cbc": {
+    "id": "66c09d042cbc",
+    "label": "40 RUE JEAN JAURES, Villeneuve-d'Ascq",
+    "lat": 50.649786,
+    "lng": 3.122206,
+    "transactions": [
+      {
+        "date": "2021-01-07",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "47bbd78e3d17": {
+    "id": "47bbd78e3d17",
+    "label": "9 ALL DE LA PALOMBE, Villeneuve-d'Ascq",
+    "lat": 50.650076,
+    "lng": 3.130595,
+    "transactions": [
+      {
+        "date": "2021-05-03",
+        "priceEur": 356500,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "9fbe831120b9": {
+    "id": "9fbe831120b9",
+    "label": "24 RUE DE LA PREVOTE, Villeneuve-d'Ascq",
+    "lat": 50.647591,
+    "lng": 3.130929,
+    "transactions": [
+      {
+        "date": "2023-08-18",
+        "priceEur": 397470,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-16",
+        "priceEur": 273500,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-04",
+        "priceEur": 187000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0f598f6a2e5": {
+    "id": "c0f598f6a2e5",
+    "label": "8 RUE DU MOULIN DELMAR, Villeneuve-d'Ascq",
+    "lat": 50.650674,
+    "lng": 3.125423,
+    "transactions": [
+      {
+        "date": "2021-06-11",
+        "priceEur": 534000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "8ea372d8d815": {
+    "id": "8ea372d8d815",
+    "label": "18 RUE JEAN JAURES, Villeneuve-d'Ascq",
+    "lat": 50.649523,
+    "lng": 3.12163,
+    "transactions": [
+      {
+        "date": "2021-12-27",
+        "priceEur": 233000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "698c95c1c382": {
+    "id": "698c95c1c382",
+    "label": "36 RUE JEAN JAURES, Villeneuve-d'Ascq",
+    "lat": 50.649728,
+    "lng": 3.122096,
+    "transactions": [
+      {
+        "date": "2022-02-18",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "152a823ef006": {
+    "id": "152a823ef006",
+    "label": "21 RUE DE LA PREVOTE, Villeneuve-d'Ascq",
+    "lat": 50.647792,
+    "lng": 3.13039,
+    "transactions": [
+      {
+        "date": "2022-08-12",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee9d63ff0a86": {
+    "id": "ee9d63ff0a86",
+    "label": "14 RUE DE LA PREVOTE, Villeneuve-d'Ascq",
+    "lat": 50.647381,
+    "lng": 3.130574,
+    "transactions": [
+      {
+        "date": "2023-05-09",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0e774117f00": {
+    "id": "a0e774117f00",
+    "label": "13 RUE DE LA PARADE, Villeneuve-d'Ascq",
+    "lat": 50.646928,
+    "lng": 3.13071,
+    "transactions": [
+      {
+        "date": "2023-09-25",
+        "priceEur": 236300,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "264a1f7f2d08": {
+    "id": "264a1f7f2d08",
+    "label": "6 ALL DE LA PALOMBE, Villeneuve-d'Ascq",
+    "lat": 50.649693,
+    "lng": 3.130512,
+    "transactions": [
+      {
+        "date": "2023-11-23",
+        "priceEur": 322500,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "5da2df5eb852": {
+    "id": "5da2df5eb852",
+    "label": "50 RUE JEAN JAURES, Villeneuve-d'Ascq",
+    "lat": 50.649947,
+    "lng": 3.122527,
+    "transactions": [
+      {
+        "date": "2024-03-08",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3c4348000e3": {
+    "id": "a3c4348000e3",
+    "label": "7 ALL DE LA PALOMBE, Villeneuve-d'Ascq",
+    "lat": 50.649991,
+    "lng": 3.130442,
+    "transactions": [
+      {
+        "date": "2024-04-05",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "ecfa09f78dcb": {
+    "id": "ecfa09f78dcb",
+    "label": "66 RUE JEAN JAURES, Villeneuve-d'Ascq",
+    "lat": 50.650575,
+    "lng": 3.125074,
+    "transactions": [
+      {
+        "date": "2024-07-04",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "b65dd7a367fc": {
+    "id": "b65dd7a367fc",
+    "label": "10 ALL DE LA PALOMBE, Villeneuve-d'Ascq",
+    "lat": 50.649802,
+    "lng": 3.130777,
+    "transactions": [
+      {
+        "date": "2025-03-25",
+        "priceEur": 367000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "94e0be2f0817": {
+    "id": "94e0be2f0817",
+    "label": "3 ALL DE LA PALOMBE, Villeneuve-d'Ascq",
+    "lat": 50.649862,
+    "lng": 3.130135,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 390500,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

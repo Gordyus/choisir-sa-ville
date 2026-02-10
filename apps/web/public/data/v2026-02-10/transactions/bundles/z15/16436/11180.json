@@ -1,0 +1,129 @@
+{
+  "802f355b9e6c": {
+    "id": "802f355b9e6c",
+    "label": "15 RUE SAINT EXUPERY, La Frénaye",
+    "lat": 49.525035,
+    "lng": 0.575482,
+    "transactions": [
+      {
+        "date": "2021-08-16",
+        "priceEur": 248000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "9122bf5aca40": {
+    "id": "9122bf5aca40",
+    "label": "10 RUE DE CAUMONT, La Frénaye",
+    "lat": 49.522294,
+    "lng": 0.573377,
+    "transactions": [
+      {
+        "date": "2021-12-29",
+        "priceEur": 211200,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "e37f48cc46de": {
+    "id": "e37f48cc46de",
+    "label": "1 CHE DE LA SOURCE, La Frénaye",
+    "lat": 49.518951,
+    "lng": 0.58128,
+    "transactions": [
+      {
+        "date": "2023-02-10",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "00efbf6c6691": {
+    "id": "00efbf6c6691",
+    "label": "21 RUE DE CAUMONT, La Frénaye",
+    "lat": 49.521347,
+    "lng": 0.574564,
+    "transactions": [
+      {
+        "date": "2023-05-24",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "dbf9bb88798a": {
+    "id": "dbf9bb88798a",
+    "label": "13 RUE DE CAUMONT, La Frénaye",
+    "lat": 49.521925,
+    "lng": 0.574276,
+    "transactions": [
+      {
+        "date": "2023-12-19",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c5c844451bd": {
+    "id": "9c5c844451bd",
+    "label": "6 RUE DE CAUMONT, La Frénaye",
+    "lat": 49.522627,
+    "lng": 0.573198,
+    "transactions": [
+      {
+        "date": "2024-06-26",
+        "priceEur": 160279,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "ceceb0734587": {
+    "id": "ceceb0734587",
+    "label": "19 RUE DE CAUMONT, La Frénaye",
+    "lat": 49.521758,
+    "lng": 0.575085,
+    "transactions": [
+      {
+        "date": "2025-02-18",
+        "priceEur": 40000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-07",
+        "priceEur": 29000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "df24e093569c": {
+    "id": "df24e093569c",
+    "label": "12 RUE DE CAUMONT, La Frénaye",
+    "lat": 49.522132,
+    "lng": 0.573524,
+    "transactions": [
+      {
+        "date": "2025-02-07",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  }
+}

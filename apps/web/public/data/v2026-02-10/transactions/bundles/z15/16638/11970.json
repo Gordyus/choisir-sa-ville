@@ -1,0 +1,32 @@
+{
+  "0a661d1c17cb": {
+    "id": "0a661d1c17cb",
+    "label": "5275 BAISSESCURE, Fraisse-sur-Agout",
+    "lat": 43.562828,
+    "lng": 2.792059,
+    "transactions": [
+      {
+        "date": "2021-03-08",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 10,
+        "isVefa": false
+      }
+    ]
+  },
+  "40e0115cd007": {
+    "id": "40e0115cd007",
+    "label": "5276 BAISSESCURE, Fraisse-sur-Agout",
+    "lat": 43.562514,
+    "lng": 2.792141,
+    "transactions": [
+      {
+        "date": "2021-03-08",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

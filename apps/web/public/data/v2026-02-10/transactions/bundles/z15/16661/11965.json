@@ -1,0 +1,77 @@
+{
+  "576aaa14ccdd": {
+    "id": "576aaa14ccdd",
+    "label": "5042 LE VILLAGE, Combes",
+    "lat": 43.604073,
+    "lng": 3.04653,
+    "transactions": [
+      {
+        "date": "2020-12-11",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "006aac39f7e9": {
+    "id": "006aac39f7e9",
+    "label": "5134 LE VILLAGE, Combes",
+    "lat": 43.602775,
+    "lng": 3.045831,
+    "transactions": [
+      {
+        "date": "2021-07-09",
+        "priceEur": 22000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "db310e827639": {
+    "id": "db310e827639",
+    "label": "5019 LE VILLAGE, Combes",
+    "lat": 43.603252,
+    "lng": 3.046407,
+    "transactions": [
+      {
+        "date": "2022-02-28",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "08fa5df9976c": {
+    "id": "08fa5df9976c",
+    "label": "5124 LE VILLAGE, Combes",
+    "lat": 43.602606,
+    "lng": 3.046329,
+    "transactions": [
+      {
+        "date": "2024-11-12",
+        "priceEur": 75700,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "784909907276": {
+    "id": "784909907276",
+    "label": "5072 TORTEILLAN, Combes",
+    "lat": 43.598724,
+    "lng": 3.054051,
+    "transactions": [
+      {
+        "date": "2024-11-05",
+        "priceEur": 345130,
+        "typeLocal": "Maison",
+        "surfaceM2": 206,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "74e45ce20f6c": {
+    "id": "74e45ce20f6c",
+    "label": "725 RUE SAINT CLAIR, Catenay",
+    "lat": 49.513987,
+    "lng": 1.330087,
+    "transactions": [
+      {
+        "date": "2023-04-17",
+        "priceEur": 445000,
+        "typeLocal": "Maison",
+        "surfaceM2": 183,
+        "isVefa": false
+      }
+    ]
+  },
+  "2dc590b79642": {
+    "id": "2dc590b79642",
+    "label": "224 RUE DE LA BRIQUETERIE, Catenay",
+    "lat": 49.513034,
+    "lng": 1.333116,
+    "transactions": [
+      {
+        "date": "2023-08-07",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "4fa6db743e6b": {
+    "id": "4fa6db743e6b",
+    "label": "55 RTE DES CHAMPS, Catenay",
+    "lat": 49.512691,
+    "lng": 1.331595,
+    "transactions": [
+      {
+        "date": "2024-07-08",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  }
+}

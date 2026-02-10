@@ -1,0 +1,62 @@
+{
+  "b20c5c30a63d": {
+    "id": "b20c5c30a63d",
+    "label": "5014 HAMEAU DE TROUVILLE, Bois-d'Ennebourg",
+    "lat": 49.433584,
+    "lng": 1.26856,
+    "transactions": [
+      {
+        "date": "2020-09-25",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "7fd1240525cb": {
+    "id": "7fd1240525cb",
+    "label": "5004 CHAMP SAINT MARTIN, Bois-d'Ennebourg",
+    "lat": 49.438355,
+    "lng": 1.269624,
+    "transactions": [
+      {
+        "date": "2022-03-31",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "190ef0c8899c": {
+    "id": "190ef0c8899c",
+    "label": "1259 RUE DU MANOIR BOISSEL, Bois-d'Ennebourg",
+    "lat": 49.438155,
+    "lng": 1.265502,
+    "transactions": [
+      {
+        "date": "2023-01-18",
+        "priceEur": 538000,
+        "typeLocal": "Maison",
+        "surfaceM2": 310,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3de2d4fc92f": {
+    "id": "d3de2d4fc92f",
+    "label": "1150 RUE DU MANOIR BOISSEL, Bois-d'Ennebourg",
+    "lat": 49.437178,
+    "lng": 1.266413,
+    "transactions": [
+      {
+        "date": "2024-11-21",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  }
+}

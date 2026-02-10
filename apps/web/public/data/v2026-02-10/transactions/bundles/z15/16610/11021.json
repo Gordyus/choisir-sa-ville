@@ -1,0 +1,24 @@
+{
+  "28e6eaa0e2d6": {
+    "id": "28e6eaa0e2d6",
+    "label": "138 RUE DE TANNAY, Thiennes",
+    "lat": 50.640729,
+    "lng": 2.482992,
+    "transactions": [
+      {
+        "date": "2022-01-05",
+        "priceEur": 211300,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-05",
+        "priceEur": 211300,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

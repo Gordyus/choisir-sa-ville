@@ -1,0 +1,32 @@
+{
+  "f431a432ece6": {
+    "id": "f431a432ece6",
+    "label": "7030 HAMEAU DES HUNIERS, Sierville",
+    "lat": 49.606509,
+    "lng": 1.035209,
+    "transactions": [
+      {
+        "date": "2020-08-21",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "ab3dc716ac08": {
+    "id": "ab3dc716ac08",
+    "label": "2091 RTE DES HUNIERS, Sierville",
+    "lat": 49.606563,
+    "lng": 1.035451,
+    "transactions": [
+      {
+        "date": "2024-08-13",
+        "priceEur": 223270,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  }
+}

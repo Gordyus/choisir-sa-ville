@@ -1,0 +1,32 @@
+{
+  "cff9bdc4d368": {
+    "id": "cff9bdc4d368",
+    "label": "7 RUE DES CERISIERS, Étalleville",
+    "lat": 49.739345,
+    "lng": 0.82366,
+    "transactions": [
+      {
+        "date": "2020-08-21",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "b831402a3ff7": {
+    "id": "b831402a3ff7",
+    "label": "3 RUE DES CERISIERS, Étalleville",
+    "lat": 49.738915,
+    "lng": 0.82371,
+    "transactions": [
+      {
+        "date": "2022-02-22",
+        "priceEur": 156000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  }
+}

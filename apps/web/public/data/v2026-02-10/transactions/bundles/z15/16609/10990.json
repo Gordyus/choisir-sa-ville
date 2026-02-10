@@ -1,0 +1,77 @@
+{
+  "f9dce4251add": {
+    "id": "f9dce4251add",
+    "label": "2365 RUE DE CASSEL, Wormhout",
+    "lat": 50.859652,
+    "lng": 2.47302,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 308400,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee444446d390": {
+    "id": "ee444446d390",
+    "label": "2279 RTE DE CASSEL, Wormhout",
+    "lat": 50.86058,
+    "lng": 2.472556,
+    "transactions": [
+      {
+        "date": "2021-07-23",
+        "priceEur": 228500,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "d795f4d88373": {
+    "id": "d795f4d88373",
+    "label": "2300 CHV N10 DE ZERMEZEELE, Wormhout",
+    "lat": 50.86045,
+    "lng": 2.472918,
+    "transactions": [
+      {
+        "date": "2022-04-04",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 171,
+        "isVefa": false
+      }
+    ]
+  },
+  "4102209c2221": {
+    "id": "4102209c2221",
+    "label": "2344 RUE DE CASSEL, Wormhout",
+    "lat": 50.860053,
+    "lng": 2.472155,
+    "transactions": [
+      {
+        "date": "2022-08-31",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1a232879cc2": {
+    "id": "a1a232879cc2",
+    "label": "2418 RTE DE CASSEL, Wormhout",
+    "lat": 50.859372,
+    "lng": 2.472407,
+    "transactions": [
+      {
+        "date": "2024-05-15",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  }
+}

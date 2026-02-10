@@ -1,0 +1,32 @@
+{
+  "6e39dc026741": {
+    "id": "6e39dc026741",
+    "label": "1947 RTE DE FOUCART, Yébleron",
+    "lat": 49.624383,
+    "lng": 0.558608,
+    "transactions": [
+      {
+        "date": "2020-12-02",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "075e9a79c6a8": {
+    "id": "075e9a79c6a8",
+    "label": "1810 RTE DE FOUCART, Yébleron",
+    "lat": 49.624695,
+    "lng": 0.557431,
+    "transactions": [
+      {
+        "date": "2024-10-25",
+        "priceEur": 223000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  }
+}

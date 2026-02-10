@@ -1,0 +1,32 @@
+{
+  "996998e08a19": {
+    "id": "996998e08a19",
+    "label": "322 CHE DE MAEYES, Sainte-Marie-Cappel",
+    "lat": 50.780202,
+    "lng": 2.522119,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 282000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "8825d21b027f": {
+    "id": "8825d21b027f",
+    "label": "393 RTE DU CHATEAU D'EAU, Sainte-Marie-Cappel",
+    "lat": 50.785011,
+    "lng": 2.516655,
+    "transactions": [
+      {
+        "date": "2023-09-22",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  }
+}

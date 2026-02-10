@@ -1,0 +1,738 @@
+{
+  "53e665bab589": {
+    "id": "53e665bab589",
+    "label": "2 GPL GRAND PLACE, Cassel",
+    "lat": 50.800282,
+    "lng": 2.484306,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-30",
+        "priceEur": 270000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-30",
+        "priceEur": 270000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-30",
+        "priceEur": 270000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a8dc88135b7": {
+    "id": "1a8dc88135b7",
+    "label": "55 RUE NOTRE DAME, Cassel",
+    "lat": 50.799028,
+    "lng": 2.488232,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 103700,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "abfeb0f10aaa": {
+    "id": "abfeb0f10aaa",
+    "label": "37 RUE DE BERGUES, Cassel",
+    "lat": 50.802527,
+    "lng": 2.484025,
+    "transactions": [
+      {
+        "date": "2025-03-21",
+        "priceEur": 595000,
+        "typeLocal": "Maison",
+        "surfaceM2": 247,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-25",
+        "priceEur": 572925,
+        "typeLocal": "Maison",
+        "surfaceM2": 247,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-23",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  },
+  "093184b6f2a6": {
+    "id": "093184b6f2a6",
+    "label": "40 RUE CONSTANT MOENECLAEY, Cassel",
+    "lat": 50.80107,
+    "lng": 2.48298,
+    "transactions": [
+      {
+        "date": "2024-03-25",
+        "priceEur": 228000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-25",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "365d15b81847": {
+    "id": "365d15b81847",
+    "label": "23 RUE CONSTANT MOENECLAEY, Cassel",
+    "lat": 50.800363,
+    "lng": 2.483109,
+    "transactions": [
+      {
+        "date": "2022-10-21",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-25",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "0fb7d573873e": {
+    "id": "0fb7d573873e",
+    "label": "7 RUE D AIRE, Cassel",
+    "lat": 50.799446,
+    "lng": 2.48486,
+    "transactions": [
+      {
+        "date": "2020-08-24",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "33b07d6ba7be": {
+    "id": "33b07d6ba7be",
+    "label": "1 RUE DE BERGUES, Cassel",
+    "lat": 50.799815,
+    "lng": 2.487739,
+    "transactions": [
+      {
+        "date": "2021-03-29",
+        "priceEur": 126000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "21b1475f1b18": {
+    "id": "21b1475f1b18",
+    "label": "14 PAS DU CHATEAU, Cassel",
+    "lat": 50.801156,
+    "lng": 2.483578,
+    "transactions": [
+      {
+        "date": "2021-12-15",
+        "priceEur": 53000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-06",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "281ccde16fd9": {
+    "id": "281ccde16fd9",
+    "label": "63 RUE NOTRE DAME, Cassel",
+    "lat": 50.79921,
+    "lng": 2.487942,
+    "transactions": [
+      {
+        "date": "2021-05-05",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "e4313d135b66": {
+    "id": "e4313d135b66",
+    "label": "12 PAS DU CHATEAU, Cassel",
+    "lat": 50.801136,
+    "lng": 2.483664,
+    "transactions": [
+      {
+        "date": "2021-04-29",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "0012730d47da": {
+    "id": "0012730d47da",
+    "label": "6 RUE NOTRE DAME, Cassel",
+    "lat": 50.799173,
+    "lng": 2.489018,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-12",
+        "priceEur": 112000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "4674b813f5e4": {
+    "id": "4674b813f5e4",
+    "label": "5 RUE CONSTANT MOENECLAEY, Cassel",
+    "lat": 50.800337,
+    "lng": 2.484061,
+    "transactions": [
+      {
+        "date": "2024-01-04",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-01",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "1429f7b9720c": {
+    "id": "1429f7b9720c",
+    "label": "19 RUE CONSTANT MOENECLAEY, Cassel",
+    "lat": 50.800436,
+    "lng": 2.483325,
+    "transactions": [
+      {
+        "date": "2021-10-08",
+        "priceEur": 44000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "81475df45c0b": {
+    "id": "81475df45c0b",
+    "label": "30 GPL GRAND PLACE, Cassel",
+    "lat": 50.799483,
+    "lng": 2.486518,
+    "transactions": [
+      {
+        "date": "2021-10-12",
+        "priceEur": 390000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-12",
+        "priceEur": 390000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-12",
+        "priceEur": 390000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "595b558a9d61": {
+    "id": "595b558a9d61",
+    "label": "9 RUE DES REMPARTS, Cassel",
+    "lat": 50.799859,
+    "lng": 2.483147,
+    "transactions": [
+      {
+        "date": "2021-10-23",
+        "priceEur": 318000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e64cc44cccb": {
+    "id": "6e64cc44cccb",
+    "label": "5868 RUE DES REMPARTS, Cassel",
+    "lat": 50.799156,
+    "lng": 2.486154,
+    "transactions": [
+      {
+        "date": "2021-11-12",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "28c581145845": {
+    "id": "28c581145845",
+    "label": "71 RUE NOTRE DAME, Cassel",
+    "lat": 50.799465,
+    "lng": 2.487706,
+    "transactions": [
+      {
+        "date": "2022-02-07",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "42eebcdeb8ab": {
+    "id": "42eebcdeb8ab",
+    "label": "50 GPL GRAND PLACE, Cassel",
+    "lat": 50.799503,
+    "lng": 2.487656,
+    "transactions": [
+      {
+        "date": "2022-02-07",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf3f66c4f87d": {
+    "id": "cf3f66c4f87d",
+    "label": "17 RUE NOTRE DAME, Cassel",
+    "lat": 50.799529,
+    "lng": 2.489018,
+    "transactions": [
+      {
+        "date": "2022-02-22",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3fabc1111fd": {
+    "id": "d3fabc1111fd",
+    "label": "60 RUE DE BERGUES, Cassel",
+    "lat": 50.802408,
+    "lng": 2.48548,
+    "transactions": [
+      {
+        "date": "2022-03-01",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "fc817fe3e362": {
+    "id": "fc817fe3e362",
+    "label": "1 RUE NOTRE DAME, Cassel",
+    "lat": 50.799871,
+    "lng": 2.488137,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 249000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed7984a1b943": {
+    "id": "ed7984a1b943",
+    "label": "18 RUE CONSTANT MOENECLAEY, Cassel",
+    "lat": 50.80065,
+    "lng": 2.483787,
+    "transactions": [
+      {
+        "date": "2022-03-07",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "86f8eba03fa5": {
+    "id": "86f8eba03fa5",
+    "label": "31 RUE NOTRE DAME, Cassel",
+    "lat": 50.799003,
+    "lng": 2.489446,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 136350,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "184accc99574": {
+    "id": "184accc99574",
+    "label": "28 RUE DE BERGUES, Cassel",
+    "lat": 50.801235,
+    "lng": 2.487309,
+    "transactions": [
+      {
+        "date": "2022-04-28",
+        "priceEur": 445000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a1c0eac86b1": {
+    "id": "9a1c0eac86b1",
+    "label": "7 RUE DU CHATEAU, Cassel",
+    "lat": 50.80081,
+    "lng": 2.484517,
+    "transactions": [
+      {
+        "date": "2024-05-15",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-28",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "619d6f805e76": {
+    "id": "619d6f805e76",
+    "label": "3 RUE SAINT NICOLAS, Cassel",
+    "lat": 50.801473,
+    "lng": 2.48304,
+    "transactions": [
+      {
+        "date": "2022-09-16",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "50b2abffbf78": {
+    "id": "50b2abffbf78",
+    "label": "525 RTE DE DUNKERQUE, Cassel",
+    "lat": 50.802655,
+    "lng": 2.488059,
+    "transactions": [
+      {
+        "date": "2022-10-26",
+        "priceEur": 177000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "ec349b5575fb": {
+    "id": "ec349b5575fb",
+    "label": "5 RUE DU CHATEAU, Cassel",
+    "lat": 50.800802,
+    "lng": 2.484559,
+    "transactions": [
+      {
+        "date": "2022-11-08",
+        "priceEur": 62800,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "60a517134e1d": {
+    "id": "60a517134e1d",
+    "label": "61 RUE NOTRE DAME, Cassel",
+    "lat": 50.799186,
+    "lng": 2.487977,
+    "transactions": [
+      {
+        "date": "2022-11-22",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "43ce10a5853c": {
+    "id": "43ce10a5853c",
+    "label": "589 RTE DE DUNKERQUE, Cassel",
+    "lat": 50.803016,
+    "lng": 2.487417,
+    "transactions": [
+      {
+        "date": "2022-12-23",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e3465e8e28d": {
+    "id": "2e3465e8e28d",
+    "label": "40 RUE DE BERGUES, Cassel",
+    "lat": 50.801657,
+    "lng": 2.48702,
+    "transactions": [
+      {
+        "date": "2023-03-10",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "54cb0548cd7a": {
+    "id": "54cb0548cd7a",
+    "label": "6 PAS DU CHATEAU, Cassel",
+    "lat": 50.80108,
+    "lng": 2.483829,
+    "transactions": [
+      {
+        "date": "2023-04-25",
+        "priceEur": 74000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "6c9423a8d810": {
+    "id": "6c9423a8d810",
+    "label": "916 RTE DE DUNKERQUE, Cassel",
+    "lat": 50.80437,
+    "lng": 2.48407,
+    "transactions": [
+      {
+        "date": "2023-06-16",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a8b2bc82a56": {
+    "id": "8a8b2bc82a56",
+    "label": "385 RTE DE DUNKERQUE, Cassel",
+    "lat": 50.800518,
+    "lng": 2.489646,
+    "transactions": [
+      {
+        "date": "2023-06-09",
+        "priceEur": 272800,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6149ee02bc7": {
+    "id": "e6149ee02bc7",
+    "label": "12 RUE D AIRE, Cassel",
+    "lat": 50.799534,
+    "lng": 2.484594,
+    "transactions": [
+      {
+        "date": "2023-10-17",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "aad8dd7476de": {
+    "id": "aad8dd7476de",
+    "label": "26 RUE CONSTANT MOENECLAEY, Cassel",
+    "lat": 50.800699,
+    "lng": 2.483465,
+    "transactions": [
+      {
+        "date": "2023-12-13",
+        "priceEur": 94000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "63dab890b940": {
+    "id": "63dab890b940",
+    "label": "18 RUE D AIRE, Cassel",
+    "lat": 50.799316,
+    "lng": 2.484521,
+    "transactions": [
+      {
+        "date": "2023-12-13",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d2202254aad": {
+    "id": "8d2202254aad",
+    "label": "34 RUE CONSTANT MOENECLAEY, Cassel",
+    "lat": 50.800847,
+    "lng": 2.483169,
+    "transactions": [
+      {
+        "date": "2024-01-24",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "4631b78b4644": {
+    "id": "4631b78b4644",
+    "label": "4 RUE DES REMPARTS, Cassel",
+    "lat": 50.79909,
+    "lng": 2.484829,
+    "transactions": [
+      {
+        "date": "2025-01-08",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "24d93e82574b": {
+    "id": "24d93e82574b",
+    "label": "12 RUE CONSTANT MOENECLAEY, Cassel",
+    "lat": 50.800634,
+    "lng": 2.484005,
+    "transactions": [
+      {
+        "date": "2025-02-04",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb4d843657d7": {
+    "id": "cb4d843657d7",
+    "label": "3 PL QUEUX SAINT HILAIRE, Cassel",
+    "lat": 50.80058,
+    "lng": 2.484976,
+    "transactions": [
+      {
+        "date": "2025-03-21",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a87481075ab": {
+    "id": "8a87481075ab",
+    "label": "5 RUE DU MAL FOCH, Cassel",
+    "lat": 50.799158,
+    "lng": 2.487862,
+    "transactions": [
+      {
+        "date": "2025-04-28",
+        "priceEur": 475000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "233acf1e11c2": {
+    "id": "233acf1e11c2",
+    "label": "7 RUE NOTRE DAME, Cassel",
+    "lat": 50.799784,
+    "lng": 2.488566,
+    "transactions": [
+      {
+        "date": "2025-06-03",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  }
+}

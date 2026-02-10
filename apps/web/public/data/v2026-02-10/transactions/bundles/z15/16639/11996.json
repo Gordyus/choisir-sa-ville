@@ -1,0 +1,54 @@
+{
+  "5f88228076cc": {
+    "id": "5f88228076cc",
+    "label": "5097 HAMEAU DE BABIO, La Caunette",
+    "lat": 43.353091,
+    "lng": 2.803533,
+    "transactions": [
+      {
+        "date": "2021-06-28",
+        "priceEur": 38000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "e600e8a2e41f": {
+    "id": "e600e8a2e41f",
+    "label": "5078 HAMEAU DE BABIO, La Caunette",
+    "lat": 43.352854,
+    "lng": 2.803804,
+    "transactions": [
+      {
+        "date": "2024-12-23",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-13",
+        "priceEur": 258900,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "28357987a999": {
+    "id": "28357987a999",
+    "label": "5210 HAMEAU DE BABIO, La Caunette",
+    "lat": 43.352787,
+    "lng": 2.803879,
+    "transactions": [
+      {
+        "date": "2023-09-14",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  }
+}

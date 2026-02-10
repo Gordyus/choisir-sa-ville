@@ -1,0 +1,54 @@
+{
+  "026eb91815ee": {
+    "id": "026eb91815ee",
+    "label": "1247 RUE DE LA MORINERIE, La Cerlangue",
+    "lat": 49.51535,
+    "lng": 0.416123,
+    "transactions": [
+      {
+        "date": "2023-04-06",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-29",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d932bb4a4f0": {
+    "id": "6d932bb4a4f0",
+    "label": "1173 RUE DE LA MORINERIE, La Cerlangue",
+    "lat": 49.514967,
+    "lng": 0.415842,
+    "transactions": [
+      {
+        "date": "2022-05-20",
+        "priceEur": 421050,
+        "typeLocal": "Maison",
+        "surfaceM2": 171,
+        "isVefa": false
+      }
+    ]
+  },
+  "09671ef917f2": {
+    "id": "09671ef917f2",
+    "label": "1059 RUE DE LA MORINERIE, La Cerlangue",
+    "lat": 49.514868,
+    "lng": 0.414622,
+    "transactions": [
+      {
+        "date": "2023-07-13",
+        "priceEur": 265500,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  }
+}

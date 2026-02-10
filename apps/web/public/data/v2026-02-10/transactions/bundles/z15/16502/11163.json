@@ -1,0 +1,107 @@
+{
+  "02e6b89ec8d7": {
+    "id": "02e6b89ec8d7",
+    "label": "1000 CHE DE LA VARENNE, Saint-Martin-Osmonville",
+    "lat": 49.639538,
+    "lng": 1.301798,
+    "transactions": [
+      {
+        "date": "2020-12-10",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "65a3cb2efb2c": {
+    "id": "65a3cb2efb2c",
+    "label": "5051 LE BOURG, Saint-Martin-Osmonville",
+    "lat": 49.639562,
+    "lng": 1.30037,
+    "transactions": [
+      {
+        "date": "2021-12-30",
+        "priceEur": 550000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "0962d8d2c676": {
+    "id": "0962d8d2c676",
+    "label": "1 RTE DE ST SAENS, Saint-Martin-Osmonville",
+    "lat": 49.639239,
+    "lng": 1.298647,
+    "transactions": [
+      {
+        "date": "2021-01-08",
+        "priceEur": 186000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3a8a23bf313": {
+    "id": "c3a8a23bf313",
+    "label": "14 RTE DU VAL MESNIER, Saint-Martin-Osmonville",
+    "lat": 49.64005,
+    "lng": 1.296497,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 84000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "438f61df8996": {
+    "id": "438f61df8996",
+    "label": "6 RTE DU VAL MESNIER, Saint-Martin-Osmonville",
+    "lat": 49.63969,
+    "lng": 1.29811,
+    "transactions": [
+      {
+        "date": "2022-04-01",
+        "priceEur": 223100,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  },
+  "a896df431fb9": {
+    "id": "a896df431fb9",
+    "label": "5098 LA BOISSIERE, Saint-Martin-Osmonville",
+    "lat": 49.644155,
+    "lng": 1.30253,
+    "transactions": [
+      {
+        "date": "2022-08-23",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "1dd5394f3a76": {
+    "id": "1dd5394f3a76",
+    "label": "5002I LE VILLAGE, Saint-Martin-Osmonville",
+    "lat": 49.639893,
+    "lng": 1.29877,
+    "transactions": [
+      {
+        "date": "2022-10-27",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

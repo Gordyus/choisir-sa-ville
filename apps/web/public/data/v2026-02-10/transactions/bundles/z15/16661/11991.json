@@ -1,0 +1,39 @@
+{
+  "2f8e00a307f5": {
+    "id": "2f8e00a307f5",
+    "label": "5486F MILHAU, Puisserguier",
+    "lat": 43.39552,
+    "lng": 3.052451,
+    "transactions": [
+      {
+        "date": "2021-11-03",
+        "priceEur": 348000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "c681663309bd": {
+    "id": "c681663309bd",
+    "label": "5751 MILHAU-OUEST, Puisserguier",
+    "lat": 43.39602,
+    "lng": 3.05081,
+    "transactions": [
+      {
+        "date": "2025-02-05",
+        "priceEur": 31000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-05",
+        "priceEur": 31000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      }
+    ]
+  }
+}

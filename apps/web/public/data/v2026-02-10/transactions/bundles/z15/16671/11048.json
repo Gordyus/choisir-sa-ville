@@ -1,0 +1,99 @@
+{
+  "886f63c22001": {
+    "id": "886f63c22001",
+    "label": "500 RUE DE LA PICTERIE, Faumont",
+    "lat": 50.451366,
+    "lng": 3.159189,
+    "transactions": [
+      {
+        "date": "2020-10-15",
+        "priceEur": 277500,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "86dec468aa4f": {
+    "id": "86dec468aa4f",
+    "label": "504 RUE DU MOULIN, Faumont",
+    "lat": 50.457266,
+    "lng": 3.153579,
+    "transactions": [
+      {
+        "date": "2020-10-14",
+        "priceEur": 358000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "3929737f32e0": {
+    "id": "3929737f32e0",
+    "label": "809 RUE DE LA PICTERIE, Coutiches",
+    "lat": 50.452967,
+    "lng": 3.162297,
+    "transactions": [
+      {
+        "date": "2022-07-19",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-21",
+        "priceEur": 500000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "8ed11b7f441e": {
+    "id": "8ed11b7f441e",
+    "label": "1178 RUE DE LA PICTERIE, Faumont",
+    "lat": 50.45625,
+    "lng": 3.163622,
+    "transactions": [
+      {
+        "date": "2022-12-27",
+        "priceEur": 521492,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "ebf21d308150": {
+    "id": "ebf21d308150",
+    "label": "1022 RUE DE LA PICTERIE, Faumont",
+    "lat": 50.455196,
+    "lng": 3.162578,
+    "transactions": [
+      {
+        "date": "2023-08-30",
+        "priceEur": 545500,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "af99ce7454ae": {
+    "id": "af99ce7454ae",
+    "label": "682 RUE DE LA PICTERIE, Faumont",
+    "lat": 50.452545,
+    "lng": 3.160829,
+    "transactions": [
+      {
+        "date": "2024-05-22",
+        "priceEur": 390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

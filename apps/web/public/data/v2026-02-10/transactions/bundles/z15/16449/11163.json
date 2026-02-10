@@ -1,0 +1,32 @@
+{
+  "e64211a1b3a3": {
+    "id": "e64211a1b3a3",
+    "label": "976 RTE DES FERMES, Hautot-le-Vatois",
+    "lat": 49.644574,
+    "lng": 0.719298,
+    "transactions": [
+      {
+        "date": "2024-11-15",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "56b51c635b5c": {
+    "id": "56b51c635b5c",
+    "label": "908 RTE DES FERMES, Hautot-le-Vatois",
+    "lat": 49.644854,
+    "lng": 0.718849,
+    "transactions": [
+      {
+        "date": "2025-01-21",
+        "priceEur": 398000,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  }
+}

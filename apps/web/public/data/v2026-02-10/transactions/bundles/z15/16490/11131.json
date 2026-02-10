@@ -1,0 +1,129 @@
+{
+  "c289779d71fd": {
+    "id": "c289779d71fd",
+    "label": "858 RUE CLAUDE GROULARD, Saint-Aubin-le-Cauf",
+    "lat": 49.869922,
+    "lng": 1.175086,
+    "transactions": [
+      {
+        "date": "2020-10-01",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "55f6f66b9142": {
+    "id": "55f6f66b9142",
+    "label": "848 RUE CLAUDE GROULARD, Saint-Aubin-le-Cauf",
+    "lat": 49.869786,
+    "lng": 1.175341,
+    "transactions": [
+      {
+        "date": "2022-06-27",
+        "priceEur": 212500,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-16",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "3afab68fd26e": {
+    "id": "3afab68fd26e",
+    "label": "343 RUE MARIE SIMON, Saint-Aubin-le-Cauf",
+    "lat": 49.87068,
+    "lng": 1.174659,
+    "transactions": [
+      {
+        "date": "2021-09-15",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "8db157cff112": {
+    "id": "8db157cff112",
+    "label": "5027 RUE MARIE SIMON, Saint-Aubin-le-Cauf",
+    "lat": 49.870146,
+    "lng": 1.175368,
+    "transactions": [
+      {
+        "date": "2022-03-08",
+        "priceEur": 23000,
+        "typeLocal": "Maison",
+        "surfaceM2": 31,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca493633223a": {
+    "id": "ca493633223a",
+    "label": "1268 RUE CLAUDE GROULARD, Saint-Aubin-le-Cauf",
+    "lat": 49.871318,
+    "lng": 1.169846,
+    "transactions": [
+      {
+        "date": "2024-02-12",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f037b686f18": {
+    "id": "7f037b686f18",
+    "label": "440 RUE MARIE SIMON, Saint-Aubin-le-Cauf",
+    "lat": 49.871518,
+    "lng": 1.173601,
+    "transactions": [
+      {
+        "date": "2024-03-01",
+        "priceEur": 209600,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ba59e084d4c": {
+    "id": "2ba59e084d4c",
+    "label": "5010 SOUS FLORENCE, Saint-Aubin-le-Cauf",
+    "lat": 49.870978,
+    "lng": 1.170448,
+    "transactions": [
+      {
+        "date": "2025-01-29",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e0880e2b13a": {
+    "id": "1e0880e2b13a",
+    "label": "984 RUE CLAUDE GROULARD, Saint-Aubin-le-Cauf",
+    "lat": 49.8704,
+    "lng": 1.173264,
+    "transactions": [
+      {
+        "date": "2025-04-28",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  }
+}

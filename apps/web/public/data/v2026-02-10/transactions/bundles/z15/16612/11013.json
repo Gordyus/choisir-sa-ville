@@ -1,0 +1,84 @@
+{
+  "01f999e7b7d1": {
+    "id": "01f999e7b7d1",
+    "label": "6 RUE DU CRINCHON, Morbecque",
+    "lat": 50.696905,
+    "lng": 2.506587,
+    "transactions": [
+      {
+        "date": "2020-09-08",
+        "priceEur": 284050,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "0f35d7e518d0": {
+    "id": "0f35d7e518d0",
+    "label": "18 RUE DU CREEKELSBERG, Morbecque",
+    "lat": 50.696232,
+    "lng": 2.507236,
+    "transactions": [
+      {
+        "date": "2025-02-03",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-24",
+        "priceEur": 268500,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "d59015e233b1": {
+    "id": "d59015e233b1",
+    "label": "10 RUE DU CREEKELSBERG, Morbecque",
+    "lat": 50.69574,
+    "lng": 2.509415,
+    "transactions": [
+      {
+        "date": "2022-09-28",
+        "priceEur": 405300,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8375fc44174": {
+    "id": "e8375fc44174",
+    "label": "5967 RUE DU CREEKELSBERG, Morbecque",
+    "lat": 50.695369,
+    "lng": 2.510388,
+    "transactions": [
+      {
+        "date": "2024-03-15",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1d0c05778c9": {
+    "id": "a1d0c05778c9",
+    "label": "14 SOURCE DU MONT DES GRILLON, Morbecque",
+    "lat": 50.696067,
+    "lng": 2.508018,
+    "transactions": [
+      {
+        "date": "2024-08-01",
+        "priceEur": 236000,
+        "typeLocal": "Maison",
+        "surfaceM2": 185,
+        "isVefa": false
+      }
+    ]
+  }
+}

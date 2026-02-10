@@ -1,0 +1,32 @@
+{
+  "1c370f1bcfba": {
+    "id": "1c370f1bcfba",
+    "label": "16 RUE HENRI IV, Allouville-Bellefosse",
+    "lat": 49.589562,
+    "lng": 0.664489,
+    "transactions": [
+      {
+        "date": "2020-11-20",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "3aaaaf0f540b": {
+    "id": "3aaaaf0f540b",
+    "label": "3 IMP BOIELDIEU, Allouville-Bellefosse",
+    "lat": 49.590152,
+    "lng": 0.664014,
+    "transactions": [
+      {
+        "date": "2021-08-24",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

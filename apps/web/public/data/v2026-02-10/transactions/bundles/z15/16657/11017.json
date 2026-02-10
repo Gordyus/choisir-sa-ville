@@ -1,0 +1,54 @@
+{
+  "27ed88631621": {
+    "id": "27ed88631621",
+    "label": "3 CHE NOIR, Verlinghem",
+    "lat": 50.67168,
+    "lng": 3.005908,
+    "transactions": [
+      {
+        "date": "2021-11-12",
+        "priceEur": 520000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "ba8e318c0c1f": {
+    "id": "ba8e318c0c1f",
+    "label": "35A RUE DE LAMBERSART, Verlinghem",
+    "lat": 50.670372,
+    "lng": 3.005484,
+    "transactions": [
+      {
+        "date": "2023-09-27",
+        "priceEur": 91356.3,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-27",
+        "priceEur": 91356.3,
+        "typeLocal": "Appartement",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  },
+  "71f94db7f0a6": {
+    "id": "71f94db7f0a6",
+    "label": "45 RUE DE LAMBERSART, Verlinghem",
+    "lat": 50.666995,
+    "lng": 3.007111,
+    "transactions": [
+      {
+        "date": "2025-02-26",
+        "priceEur": 287500,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

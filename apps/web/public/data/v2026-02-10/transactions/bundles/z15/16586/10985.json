@@ -1,0 +1,47 @@
+{
+  "5ed21ce758db": {
+    "id": "5ed21ce758db",
+    "label": "2112 RTE DE PONT L ABBESSE, Cappelle-Brouck",
+    "lat": 50.890891,
+    "lng": 2.227455,
+    "transactions": [
+      {
+        "date": "2021-04-26",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f45233e2d0c": {
+    "id": "8f45233e2d0c",
+    "label": "1590 RTE DE PONT L ABBESSE, Cappelle-Brouck",
+    "lat": 50.893147,
+    "lng": 2.22902,
+    "transactions": [
+      {
+        "date": "2023-06-05",
+        "priceEur": 129000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "3907d1ba85fc": {
+    "id": "3907d1ba85fc",
+    "label": "1685 RTE DE PONT L ABBESSE, Cappelle-Brouck",
+    "lat": 50.89417,
+    "lng": 2.229067,
+    "transactions": [
+      {
+        "date": "2023-10-16",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

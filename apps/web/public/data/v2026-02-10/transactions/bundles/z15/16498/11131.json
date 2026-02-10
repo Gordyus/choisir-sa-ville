@@ -1,0 +1,69 @@
+{
+  "c5e73d38b4ba": {
+    "id": "c5e73d38b4ba",
+    "label": "184 RUE DE NEUFCHATEL, Saint-Nicolas-d'Aliermont",
+    "lat": 49.868804,
+    "lng": 1.259478,
+    "transactions": [
+      {
+        "date": "2024-09-20",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 181,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-07",
+        "priceEur": 279000,
+        "typeLocal": "Maison",
+        "surfaceM2": 181,
+        "isVefa": false
+      }
+    ]
+  },
+  "1155dabbf220": {
+    "id": "1155dabbf220",
+    "label": "1314 RUE VAILLANCOURT, Saint-Nicolas-d'Aliermont",
+    "lat": 49.87083,
+    "lng": 1.256164,
+    "transactions": [
+      {
+        "date": "2022-05-03",
+        "priceEur": 184000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f34cee8c8d8": {
+    "id": "3f34cee8c8d8",
+    "label": "168 RUE DE NEUFCHATEL, Saint-Nicolas-d'Aliermont",
+    "lat": 49.868905,
+    "lng": 1.259688,
+    "transactions": [
+      {
+        "date": "2023-04-06",
+        "priceEur": 123000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca03653fb35b": {
+    "id": "ca03653fb35b",
+    "label": "1191 RUE VAILLANCOURT, Saint-Nicolas-d'Aliermont",
+    "lat": 49.871681,
+    "lng": 1.255164,
+    "transactions": [
+      {
+        "date": "2024-05-29",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  }
+}

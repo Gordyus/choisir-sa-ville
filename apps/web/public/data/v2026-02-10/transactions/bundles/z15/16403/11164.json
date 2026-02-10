@@ -1,0 +1,54 @@
+{
+  "c5efb53796f6": {
+    "id": "c5efb53796f6",
+    "label": "10 RUE GASTON DELAHAIS, Gonneville-la-Mallet",
+    "lat": 49.638956,
+    "lng": 0.219185,
+    "transactions": [
+      {
+        "date": "2022-08-30",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "13f002231bde": {
+    "id": "13f002231bde",
+    "label": "5390 LA GONNEVILLAISE, Gonneville-la-Mallet",
+    "lat": 49.637061,
+    "lng": 0.21158,
+    "transactions": [
+      {
+        "date": "2023-01-13",
+        "priceEur": 391000,
+        "typeLocal": "Maison",
+        "surfaceM2": 213,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-13",
+        "priceEur": 391000,
+        "typeLocal": "Maison",
+        "surfaceM2": 16,
+        "isVefa": false
+      }
+    ]
+  },
+  "378f85148dd2": {
+    "id": "378f85148dd2",
+    "label": "5141 HAM DE L'ANCIENNE EGLISE, Gonneville-la-Mallet",
+    "lat": 49.635959,
+    "lng": 0.210448,
+    "transactions": [
+      {
+        "date": "2023-01-12",
+        "priceEur": 86000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "e1528d65800f": {
+    "id": "e1528d65800f",
+    "label": "5155 LE BOUT D AVAL, Meulers",
+    "lat": 49.84709,
+    "lng": 1.218991,
+    "transactions": [
+      {
+        "date": "2022-12-29",
+        "priceEur": 269050,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "799f8e915a99": {
+    "id": "799f8e915a99",
+    "label": "5080 LES MEUDRONS, Meulers",
+    "lat": 49.849776,
+    "lng": 1.214762,
+    "transactions": [
+      {
+        "date": "2023-01-14",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "02cc7c22701e": {
+    "id": "02cc7c22701e",
+    "label": "61 RTE DE DIEPPE, Meulers",
+    "lat": 49.847838,
+    "lng": 1.218058,
+    "transactions": [
+      {
+        "date": "2024-10-21",
+        "priceEur": 259000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  }
+}

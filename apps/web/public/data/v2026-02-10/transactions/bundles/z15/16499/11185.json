@@ -1,0 +1,77 @@
+{
+  "bddf81277a9b": {
+    "id": "bddf81277a9b",
+    "label": "540 RUE DE L'ANCIENNE ABBAYE, Servaville-Salmonville",
+    "lat": 49.487451,
+    "lng": 1.273561,
+    "transactions": [
+      {
+        "date": "2020-10-16",
+        "priceEur": 329500,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "833981218555": {
+    "id": "833981218555",
+    "label": "507 RTE DE BLAINVILLE, Servaville-Salmonville",
+    "lat": 49.486269,
+    "lng": 1.26977,
+    "transactions": [
+      {
+        "date": "2022-04-25",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "561e41f3ee68": {
+    "id": "561e41f3ee68",
+    "label": "429 RUE DE L'ANCIENNE ABBAYE, Servaville-Salmonville",
+    "lat": 49.486368,
+    "lng": 1.272656,
+    "transactions": [
+      {
+        "date": "2023-08-08",
+        "priceEur": 243000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb8965a45325": {
+    "id": "cb8965a45325",
+    "label": "267 RUE DE L'ANCIENNE ABBAYE, Servaville-Salmonville",
+    "lat": 49.486001,
+    "lng": 1.270217,
+    "transactions": [
+      {
+        "date": "2023-09-29",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "d97b1e88bc8d": {
+    "id": "d97b1e88bc8d",
+    "label": "554 RTE DE BLAINVILLE, Servaville-Salmonville",
+    "lat": 49.486115,
+    "lng": 1.269531,
+    "transactions": [
+      {
+        "date": "2025-04-10",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

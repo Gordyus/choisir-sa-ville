@@ -1,0 +1,77 @@
+{
+  "a0a23d1812b7": {
+    "id": "a0a23d1812b7",
+    "label": "1A RUE DE LOCHES, Auby",
+    "lat": 50.413135,
+    "lng": 3.036721,
+    "transactions": [
+      {
+        "date": "2020-08-25",
+        "priceEur": 171000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ebc12d29571": {
+    "id": "2ebc12d29571",
+    "label": "10 RUE DE BLERE, Auby",
+    "lat": 50.413401,
+    "lng": 3.041695,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 199500,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "ecb6ddb46804": {
+    "id": "ecb6ddb46804",
+    "label": "6 RUE D AZAY LE RIDEAU, Auby",
+    "lat": 50.413889,
+    "lng": 3.038694,
+    "transactions": [
+      {
+        "date": "2021-06-10",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3ae32ea665a": {
+    "id": "d3ae32ea665a",
+    "label": "29 RUE DE LIGUEIL, Auby",
+    "lat": 50.412487,
+    "lng": 3.037589,
+    "transactions": [
+      {
+        "date": "2023-03-24",
+        "priceEur": 93000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b2c84c10584": {
+    "id": "6b2c84c10584",
+    "label": "65 RUE FRANCISCO FERRER, Auby",
+    "lat": 50.414355,
+    "lng": 3.041766,
+    "transactions": [
+      {
+        "date": "2023-11-20",
+        "priceEur": 118655,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  }
+}

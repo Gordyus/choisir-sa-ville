@@ -1,0 +1,62 @@
+{
+  "983ebd76f344": {
+    "id": "983ebd76f344",
+    "label": "222 RTE DE FLAMANVILLE, Grainville-sur-Ry",
+    "lat": 49.472811,
+    "lng": 1.305042,
+    "transactions": [
+      {
+        "date": "2021-07-12",
+        "priceEur": 185750,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "c68d5c85ef00": {
+    "id": "c68d5c85ef00",
+    "label": "624 RUE DE L'EGLISE, Grainville-sur-Ry",
+    "lat": 49.474631,
+    "lng": 1.296679,
+    "transactions": [
+      {
+        "date": "2021-09-17",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2010bd50421": {
+    "id": "c2010bd50421",
+    "label": "470 RUE DU BOIS AUBRY, Grainville-sur-Ry",
+    "lat": 49.474774,
+    "lng": 1.303206,
+    "transactions": [
+      {
+        "date": "2022-09-23",
+        "priceEur": 318000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "9559018a75cd": {
+    "id": "9559018a75cd",
+    "label": "155 RTE DE FLAMANVILLE, Grainville-sur-Ry",
+    "lat": 49.473291,
+    "lng": 1.304508,
+    "transactions": [
+      {
+        "date": "2024-08-12",
+        "priceEur": 169500,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  }
+}

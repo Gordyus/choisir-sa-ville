@@ -1,0 +1,32 @@
+{
+  "f635c93d8f1d": {
+    "id": "f635c93d8f1d",
+    "label": "6 RTE DU BOUT L'ABBE, Bertreville-Saint-Ouen",
+    "lat": 49.815383,
+    "lng": 1.058403,
+    "transactions": [
+      {
+        "date": "2021-11-26",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "aaf485e92944": {
+    "id": "aaf485e92944",
+    "label": "10 RTE DU BOUT L'ABBE, Bertreville-Saint-Ouen",
+    "lat": 49.815668,
+    "lng": 1.056974,
+    "transactions": [
+      {
+        "date": "2024-02-12",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  }
+}

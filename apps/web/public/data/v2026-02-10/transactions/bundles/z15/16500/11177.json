@@ -1,0 +1,92 @@
+{
+  "435ccf3470f9": {
+    "id": "435ccf3470f9",
+    "label": "407 RUE DE L'EGLISE, Bierville",
+    "lat": 49.539617,
+    "lng": 1.274837,
+    "transactions": [
+      {
+        "date": "2020-11-13",
+        "priceEur": 206000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "575d896113a5": {
+    "id": "575d896113a5",
+    "label": "194 RUE DES HUIT ACRES, Bierville",
+    "lat": 49.545996,
+    "lng": 1.279075,
+    "transactions": [
+      {
+        "date": "2021-12-13",
+        "priceEur": 289000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "aab2683566fc": {
+    "id": "aab2683566fc",
+    "label": "81 RUE DU PETIT CLOS, Bierville",
+    "lat": 49.542614,
+    "lng": 1.274684,
+    "transactions": [
+      {
+        "date": "2021-12-16",
+        "priceEur": 420000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "13a89fba45a5": {
+    "id": "13a89fba45a5",
+    "label": "5073 LE VILLAGE, Bierville",
+    "lat": 49.541961,
+    "lng": 1.275044,
+    "transactions": [
+      {
+        "date": "2021-09-17",
+        "priceEur": 220400,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "952d65e49636": {
+    "id": "952d65e49636",
+    "label": "214 RUE DES HUIT ACRES, Bierville",
+    "lat": 49.545868,
+    "lng": 1.279235,
+    "transactions": [
+      {
+        "date": "2022-02-21",
+        "priceEur": 171350,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d8e6eccc3a7": {
+    "id": "4d8e6eccc3a7",
+    "label": "4 LE COUDRAY, Bierville",
+    "lat": 49.545543,
+    "lng": 1.276974,
+    "transactions": [
+      {
+        "date": "2022-04-20",
+        "priceEur": 216200,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

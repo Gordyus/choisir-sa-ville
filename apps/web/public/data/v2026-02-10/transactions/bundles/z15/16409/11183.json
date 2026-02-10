@@ -1,0 +1,32 @@
+{
+  "00fb7a59fcd6": {
+    "id": "00fb7a59fcd6",
+    "label": "260 CHE DE LA LISIERE, Oudalle",
+    "lat": 49.502916,
+    "lng": 0.283523,
+    "transactions": [
+      {
+        "date": "2021-07-27",
+        "priceEur": 258000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c69cca3bf37": {
+    "id": "8c69cca3bf37",
+    "label": "1526 RTE DE VIDEMARE, Oudalle",
+    "lat": 49.500729,
+    "lng": 0.283452,
+    "transactions": [
+      {
+        "date": "2021-09-24",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  }
+}

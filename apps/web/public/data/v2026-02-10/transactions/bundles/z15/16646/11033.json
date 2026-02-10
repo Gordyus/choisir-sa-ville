@@ -1,0 +1,107 @@
+{
+  "328c5f50c5ad": {
+    "id": "328c5f50c5ad",
+    "label": "661 RUE EDOUARD VAILLANT, Sainghin-en-Weppes",
+    "lat": 50.562123,
+    "lng": 2.88884,
+    "transactions": [
+      {
+        "date": "2021-05-20",
+        "priceEur": 296000,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8b88d047fb3": {
+    "id": "f8b88d047fb3",
+    "label": "15 RUE ANATOLE FRANCE, Sainghin-en-Weppes",
+    "lat": 50.560232,
+    "lng": 2.887541,
+    "transactions": [
+      {
+        "date": "2022-02-14",
+        "priceEur": 368000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "38514b6fa7d5": {
+    "id": "38514b6fa7d5",
+    "label": "57 RUE ANATOLE FRANCE, Sainghin-en-Weppes",
+    "lat": 50.556732,
+    "lng": 2.889242,
+    "transactions": [
+      {
+        "date": "2022-11-30",
+        "priceEur": 216500,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "a247ee936b13": {
+    "id": "a247ee936b13",
+    "label": "18 RUE ANATOLE FRANCE, Sainghin-en-Weppes",
+    "lat": 50.55963,
+    "lng": 2.888822,
+    "transactions": [
+      {
+        "date": "2023-02-09",
+        "priceEur": 668200,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  },
+  "feafafbd32d9": {
+    "id": "feafafbd32d9",
+    "label": "687 RUE EDOUARD VAILLANT, Sainghin-en-Weppes",
+    "lat": 50.561786,
+    "lng": 2.888656,
+    "transactions": [
+      {
+        "date": "2024-01-29",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe8ac9630d85": {
+    "id": "fe8ac9630d85",
+    "label": "51 RUE ANATOLE FRANCE, Sainghin-en-Weppes",
+    "lat": 50.556842,
+    "lng": 2.888765,
+    "transactions": [
+      {
+        "date": "2024-07-05",
+        "priceEur": 146000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ac1c6f51bc5": {
+    "id": "7ac1c6f51bc5",
+    "label": "65 RUE ANATOLE FRANCE, Sainghin-en-Weppes",
+    "lat": 50.556025,
+    "lng": 2.889331,
+    "transactions": [
+      {
+        "date": "2025-04-04",
+        "priceEur": 1010000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

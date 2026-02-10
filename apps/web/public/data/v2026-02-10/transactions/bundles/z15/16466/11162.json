@@ -1,0 +1,32 @@
+{
+  "322530d38b33": {
+    "id": "322530d38b33",
+    "label": "224 RUE JEAN BAPTISTE THOREL, Saint-Martin-aux-Arbres",
+    "lat": 49.64686,
+    "lng": 0.902192,
+    "transactions": [
+      {
+        "date": "2022-12-02",
+        "priceEur": 272000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c221d4a313b": {
+    "id": "0c221d4a313b",
+    "label": "2 RUE DES CHATAIGNIERS, Saint-Martin-aux-Arbres",
+    "lat": 49.652523,
+    "lng": 0.904285,
+    "transactions": [
+      {
+        "date": "2023-02-21",
+        "priceEur": 146000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  }
+}

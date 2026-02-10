@@ -1,0 +1,47 @@
+{
+  "ed45ef9a580a": {
+    "id": "ed45ef9a580a",
+    "label": "5011 LES HALLOTS, Croixdalle",
+    "lat": 49.80919,
+    "lng": 1.370702,
+    "transactions": [
+      {
+        "date": "2020-07-21",
+        "priceEur": 112000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "f84f727ab200": {
+    "id": "f84f727ab200",
+    "label": "6 RUE DES COURTINES, Croixdalle",
+    "lat": 49.808507,
+    "lng": 1.370927,
+    "transactions": [
+      {
+        "date": "2021-11-15",
+        "priceEur": 160500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "275332c48003": {
+    "id": "275332c48003",
+    "label": "5041 LES HALLOTS, Croixdalle",
+    "lat": 49.808224,
+    "lng": 1.370034,
+    "transactions": [
+      {
+        "date": "2021-08-26",
+        "priceEur": 87000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "1dbb3739a514": {
+    "id": "1dbb3739a514",
+    "label": "780 CHEM DU LONGCHAMP AU GAVRE, Comines",
+    "lat": 50.734365,
+    "lng": 3.037474,
+    "transactions": [
+      {
+        "date": "2023-03-31",
+        "priceEur": 452700,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-21",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  }
+}

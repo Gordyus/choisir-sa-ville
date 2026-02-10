@@ -1,0 +1,182 @@
+{
+  "b8e423ca1e94": {
+    "id": "b8e423ca1e94",
+    "label": "2 RUE DE CARCASSONNE, Sin-le-Noble",
+    "lat": 50.356514,
+    "lng": 3.097333,
+    "transactions": [
+      {
+        "date": "2020-12-23",
+        "priceEur": 83000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "66b755b6528a": {
+    "id": "66b755b6528a",
+    "label": "6 RUE DE BELCAIRE, Sin-le-Noble",
+    "lat": 50.355744,
+    "lng": 3.097678,
+    "transactions": [
+      {
+        "date": "2021-09-13",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "80867fb7430f": {
+    "id": "80867fb7430f",
+    "label": "7 RUE DE NARBONNE, Sin-le-Noble",
+    "lat": 50.356381,
+    "lng": 3.097087,
+    "transactions": [
+      {
+        "date": "2021-12-27",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "b58ee7c04497": {
+    "id": "b58ee7c04497",
+    "label": "4 RUE DE NARBONNE, Sin-le-Noble",
+    "lat": 50.35684,
+    "lng": 3.09695,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 78000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee61ef212cf4": {
+    "id": "ee61ef212cf4",
+    "label": "258 RUE ANTOINE JOSEPH MELLEZ, Douai",
+    "lat": 50.353732,
+    "lng": 3.088923,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 98000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c893ce4cf84": {
+    "id": "5c893ce4cf84",
+    "label": "420 RUE GEORGES SARAZIN, Douai",
+    "lat": 50.359087,
+    "lng": 3.087611,
+    "transactions": [
+      {
+        "date": "2021-03-26",
+        "priceEur": 163500,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "e94c1de2c777": {
+    "id": "e94c1de2c777",
+    "label": "150 RUE ANTOINE JOSEPH MELLEZ, Douai",
+    "lat": 50.354461,
+    "lng": 3.087856,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "d342868ed079": {
+    "id": "d342868ed079",
+    "label": "452 RUE GEORGES SARAZIN, Douai",
+    "lat": 50.359271,
+    "lng": 3.087243,
+    "transactions": [
+      {
+        "date": "2022-01-03",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "251914595d9c": {
+    "id": "251914595d9c",
+    "label": "3 RUE DE BELCAIRE, Sin-le-Noble",
+    "lat": 50.355139,
+    "lng": 3.097678,
+    "transactions": [
+      {
+        "date": "2022-03-11",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "7072803e2689": {
+    "id": "7072803e2689",
+    "label": "11 RUE D ALAIGNE, Sin-le-Noble",
+    "lat": 50.355755,
+    "lng": 3.09733,
+    "transactions": [
+      {
+        "date": "2022-03-18",
+        "priceEur": 78000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0a963abc702": {
+    "id": "a0a963abc702",
+    "label": "341 RUE LEO LAGRANGE, Douai",
+    "lat": 50.356238,
+    "lng": 3.087997,
+    "transactions": [
+      {
+        "date": "2022-05-30",
+        "priceEur": 169900,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "e01899018f0e": {
+    "id": "e01899018f0e",
+    "label": "365 RUE LEO LAGRANGE, Douai",
+    "lat": 50.356263,
+    "lng": 3.088224,
+    "transactions": [
+      {
+        "date": "2022-08-17",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "f79536d05b6a": {
+    "id": "f79536d05b6a",
+    "label": "1740 RTE NATIONALE, La Chapelle-d'Armentières",
+    "lat": 50.66094,
+    "lng": 2.924861,
+    "transactions": [
+      {
+        "date": "2021-07-07",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "def7a76bd4df": {
+    "id": "def7a76bd4df",
+    "label": "1765 RTE NATIONALE, La Chapelle-d'Armentières",
+    "lat": 50.661172,
+    "lng": 2.925636,
+    "transactions": [
+      {
+        "date": "2022-04-08",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f60ca810b6f": {
+    "id": "5f60ca810b6f",
+    "label": "1878 RTE NATIONALE, La Chapelle-d'Armentières",
+    "lat": 50.660116,
+    "lng": 2.926239,
+    "transactions": [
+      {
+        "date": "2022-09-05",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe3120080aac": {
+    "id": "fe3120080aac",
+    "label": "1955 RTE NATIONALE, La Chapelle-d'Armentières",
+    "lat": 50.660126,
+    "lng": 2.92762,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "99dc08fcefc2": {
+    "id": "99dc08fcefc2",
+    "label": "3 ALL DES RAMIERS, La Chapelle-d'Armentières",
+    "lat": 50.661258,
+    "lng": 2.926394,
+    "transactions": [
+      {
+        "date": "2025-03-14",
+        "priceEur": 465500,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-11",
+        "priceEur": 430450,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "1687d6743d6d": {
+    "id": "1687d6743d6d",
+    "label": "1888 RTE NATIONALE, La Chapelle-d'Armentières",
+    "lat": 50.66005,
+    "lng": 2.926361,
+    "transactions": [
+      {
+        "date": "2025-06-10",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "479d64aba2e1": {
+    "id": "479d64aba2e1",
+    "label": "19 CHE DES FORGES, Bolleville",
+    "lat": 49.60503,
+    "lng": 0.561728,
+    "transactions": [
+      {
+        "date": "2020-08-25",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "b8c98a0234dd": {
+    "id": "b8c98a0234dd",
+    "label": "374 RTE DES FORGES, Bolleville",
+    "lat": 49.607418,
+    "lng": 0.566507,
+    "transactions": [
+      {
+        "date": "2024-01-09",
+        "priceEur": 196360,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  }
+}

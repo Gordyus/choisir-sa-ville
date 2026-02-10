@@ -1,0 +1,107 @@
+{
+  "f595b6ae62df": {
+    "id": "f595b6ae62df",
+    "label": "34 RUE LEGOUT LESAGE, Ponts-et-Marais",
+    "lat": 50.043716,
+    "lng": 1.44614,
+    "transactions": [
+      {
+        "date": "2021-11-15",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "580a6b8acd80": {
+    "id": "580a6b8acd80",
+    "label": "22 RUE LEGOUT LESAGE, Ponts-et-Marais",
+    "lat": 50.043083,
+    "lng": 1.445798,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "d44a812daf25": {
+    "id": "d44a812daf25",
+    "label": "54 RUE LEGOUT LESAGE, Ponts-et-Marais",
+    "lat": 50.045271,
+    "lng": 1.447114,
+    "transactions": [
+      {
+        "date": "2022-07-28",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "2bb6e705ab2a": {
+    "id": "2bb6e705ab2a",
+    "label": "51 RUE LEGOUT LESAGE, Ponts-et-Marais",
+    "lat": 50.04329,
+    "lng": 1.444356,
+    "transactions": [
+      {
+        "date": "2022-08-08",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "aea7ef16cd4c": {
+    "id": "aea7ef16cd4c",
+    "label": "48 RUE LEGOUT LESAGE, Ponts-et-Marais",
+    "lat": 50.044687,
+    "lng": 1.446556,
+    "transactions": [
+      {
+        "date": "2023-09-22",
+        "priceEur": 87854,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "cfd97231f744": {
+    "id": "cfd97231f744",
+    "label": "10 RUE O. TANCRET ET R. TOILLIER, Ponts-et-Marais",
+    "lat": 50.045942,
+    "lng": 1.448518,
+    "transactions": [
+      {
+        "date": "2024-05-03",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1257633c4bb": {
+    "id": "a1257633c4bb",
+    "label": "26 RUE LEGOUT LESAGE, Ponts-et-Marais",
+    "lat": 50.043216,
+    "lng": 1.446019,
+    "transactions": [
+      {
+        "date": "2024-08-22",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  }
+}

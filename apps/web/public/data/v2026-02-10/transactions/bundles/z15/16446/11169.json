@@ -1,0 +1,47 @@
+{
+  "7654d2f7f76b": {
+    "id": "7654d2f7f76b",
+    "label": "7 IMP PAUL VATINE, Allouville-Bellefosse",
+    "lat": 49.599937,
+    "lng": 0.682417,
+    "transactions": [
+      {
+        "date": "2022-06-07",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "22a230056b0e": {
+    "id": "22a230056b0e",
+    "label": "4 RUE DAVID DOUILLET, Allouville-Bellefosse",
+    "lat": 49.599413,
+    "lng": 0.691165,
+    "transactions": [
+      {
+        "date": "2023-01-04",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "2765d7e51831": {
+    "id": "2765d7e51831",
+    "label": "32 RUE BOURVIL, Allouville-Bellefosse",
+    "lat": 49.600668,
+    "lng": 0.681553,
+    "transactions": [
+      {
+        "date": "2025-03-26",
+        "priceEur": 163500,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  }
+}

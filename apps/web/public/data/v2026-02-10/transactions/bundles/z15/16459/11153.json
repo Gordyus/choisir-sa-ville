@@ -1,0 +1,62 @@
+{
+  "9bc5d29f692e": {
+    "id": "9bc5d29f692e",
+    "label": "307 RUE DE LA FORGE, Berville-en-Caux",
+    "lat": 49.711369,
+    "lng": 0.8347,
+    "transactions": [
+      {
+        "date": "2021-06-23",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "b149ff2c1e4f": {
+    "id": "b149ff2c1e4f",
+    "label": "294 RTE DE DOUDEVILLE, Berville-en-Caux",
+    "lat": 49.71091,
+    "lng": 0.83004,
+    "transactions": [
+      {
+        "date": "2023-09-12",
+        "priceEur": 190850,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "d60a62f8ffa3": {
+    "id": "d60a62f8ffa3",
+    "label": "126 RUE DU BOIS, Berville-en-Caux",
+    "lat": 49.711068,
+    "lng": 0.834622,
+    "transactions": [
+      {
+        "date": "2024-10-11",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "91c92fd0d465": {
+    "id": "91c92fd0d465",
+    "label": "362 RTE DE DOUDEVILLE, Berville-en-Caux",
+    "lat": 49.711067,
+    "lng": 0.829774,
+    "transactions": [
+      {
+        "date": "2025-02-26",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      }
+    ]
+  }
+}

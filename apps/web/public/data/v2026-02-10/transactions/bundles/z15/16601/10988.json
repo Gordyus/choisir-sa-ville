@@ -1,0 +1,54 @@
+{
+  "5c4b3b2e6521": {
+    "id": "5c4b3b2e6521",
+    "label": "6 CHE DE LA CLOCHE, Zegerscappel",
+    "lat": 50.872954,
+    "lng": 2.38417,
+    "transactions": [
+      {
+        "date": "2022-04-14",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0028698b956": {
+    "id": "c0028698b956",
+    "label": "4 RUE DU SUD, Zegerscappel",
+    "lat": 50.869268,
+    "lng": 2.394545,
+    "transactions": [
+      {
+        "date": "2022-10-04",
+        "priceEur": 185200,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-04",
+        "priceEur": 800000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "4726252785c2": {
+    "id": "4726252785c2",
+    "label": "5 CHE DES TEMPLIERS, Zegerscappel",
+    "lat": 50.872363,
+    "lng": 2.389005,
+    "transactions": [
+      {
+        "date": "2023-07-06",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  }
+}

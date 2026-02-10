@@ -1,0 +1,62 @@
+{
+  "31f7e9d2ceba": {
+    "id": "31f7e9d2ceba",
+    "label": "1832 VC LOOWEGH STRAETE CD 110, Drincham",
+    "lat": 50.911587,
+    "lng": 2.33221,
+    "transactions": [
+      {
+        "date": "2021-04-09",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "e11d70758b11": {
+    "id": "e11d70758b11",
+    "label": "178 7 BROUCK STRAETE, Drincham",
+    "lat": 50.913393,
+    "lng": 2.331322,
+    "transactions": [
+      {
+        "date": "2021-05-07",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f98378e3c48": {
+    "id": "3f98378e3c48",
+    "label": "16 RTE DU SPREY CD 17, Pitgam",
+    "lat": 50.915809,
+    "lng": 2.337606,
+    "transactions": [
+      {
+        "date": "2024-01-25",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf7a77b6912f": {
+    "id": "cf7a77b6912f",
+    "label": "4 RTE DU NIEPPE CD 110, Pitgam",
+    "lat": 50.910976,
+    "lng": 2.338915,
+    "transactions": [
+      {
+        "date": "2024-06-07",
+        "priceEur": 314000,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  }
+}

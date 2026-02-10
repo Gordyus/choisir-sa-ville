@@ -1,0 +1,54 @@
+{
+  "f90a5fd4b581": {
+    "id": "f90a5fd4b581",
+    "label": "1774 RUE DE LA VILLE AUX GEAIS, Malaunay",
+    "lat": 49.526561,
+    "lng": 1.066631,
+    "transactions": [
+      {
+        "date": "2020-11-16",
+        "priceEur": 469000,
+        "typeLocal": "Maison",
+        "surfaceM2": 175,
+        "isVefa": false
+      }
+    ]
+  },
+  "787e03d71f62": {
+    "id": "787e03d71f62",
+    "label": "1772 RUE DE LA VILLE AUX GEAIS, Malaunay",
+    "lat": 49.526961,
+    "lng": 1.066819,
+    "transactions": [
+      {
+        "date": "2024-03-12",
+        "priceEur": 566000,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-04",
+        "priceEur": 610000,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad0d7a3b6372": {
+    "id": "ad0d7a3b6372",
+    "label": "1826 RUE DE LA VILLE AUX GEAIS, Malaunay",
+    "lat": 49.526681,
+    "lng": 1.068002,
+    "transactions": [
+      {
+        "date": "2025-05-28",
+        "priceEur": 291000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  }
+}

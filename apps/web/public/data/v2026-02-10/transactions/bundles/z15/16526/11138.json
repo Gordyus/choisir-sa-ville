@@ -1,0 +1,77 @@
+{
+  "fd8a692299fd": {
+    "id": "fd8a692299fd",
+    "label": "5041 LE BOURG, Aubermesnil-aux-Érables",
+    "lat": 49.819866,
+    "lng": 1.562787,
+    "transactions": [
+      {
+        "date": "2020-07-23",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "111b512f0ba1": {
+    "id": "111b512f0ba1",
+    "label": "48 RUE DE LA SOURCE DE L YERES, Aubermesnil-aux-Érables",
+    "lat": 49.82072,
+    "lng": 1.563943,
+    "transactions": [
+      {
+        "date": "2020-11-25",
+        "priceEur": 88000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "a88a0c179e98": {
+    "id": "a88a0c179e98",
+    "label": "9 RUE DES ERABLES, Aubermesnil-aux-Érables",
+    "lat": 49.822729,
+    "lng": 1.567041,
+    "transactions": [
+      {
+        "date": "2021-03-31",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "7adcd286e608": {
+    "id": "7adcd286e608",
+    "label": "5044 LE BOURG, Aubermesnil-aux-Érables",
+    "lat": 49.821091,
+    "lng": 1.562641,
+    "transactions": [
+      {
+        "date": "2022-04-16",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "eb2bf455f253": {
+    "id": "eb2bf455f253",
+    "label": "29 RUE DE LA SOURCE DE L YERES, Aubermesnil-aux-Érables",
+    "lat": 49.82297,
+    "lng": 1.565579,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

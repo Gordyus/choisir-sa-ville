@@ -1,0 +1,84 @@
+{
+  "20daa654bcfd": {
+    "id": "20daa654bcfd",
+    "label": "125 IMP DE LA MARE, Oherville",
+    "lat": 49.724607,
+    "lng": 0.685417,
+    "transactions": [
+      {
+        "date": "2021-03-25",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "85f82ab344be": {
+    "id": "85f82ab344be",
+    "label": "43 ALL DES EPINES, Oherville",
+    "lat": 49.727633,
+    "lng": 0.686648,
+    "transactions": [
+      {
+        "date": "2021-08-02",
+        "priceEur": 343400,
+        "typeLocal": "Maison",
+        "surfaceM2": 206,
+        "isVefa": false
+      }
+    ]
+  },
+  "797417ad8f52": {
+    "id": "797417ad8f52",
+    "label": "1190 RTE DU MANOIR, Oherville",
+    "lat": 49.726461,
+    "lng": 0.685233,
+    "transactions": [
+      {
+        "date": "2023-07-03",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-23",
+        "priceEur": 203650,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c5987c5136f": {
+    "id": "7c5987c5136f",
+    "label": "55 IMP DU CLOS, Oherville",
+    "lat": 49.726179,
+    "lng": 0.685941,
+    "transactions": [
+      {
+        "date": "2021-08-25",
+        "priceEur": 99500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "51fccf059944": {
+    "id": "51fccf059944",
+    "label": "943 RTE DU MANOIR, Oherville",
+    "lat": 49.724737,
+    "lng": 0.683093,
+    "transactions": [
+      {
+        "date": "2022-10-26",
+        "priceEur": 145700,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  }
+}

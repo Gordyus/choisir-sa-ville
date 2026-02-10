@@ -1,0 +1,39 @@
+{
+  "437cbfc0279b": {
+    "id": "437cbfc0279b",
+    "label": "9 CHE DES SEPT ORMES, Méteren",
+    "lat": 50.741973,
+    "lng": 2.664881,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c54c5d8d69b": {
+    "id": "0c54c5d8d69b",
+    "label": "672 SAINT OMAERS STRAETE, Méteren",
+    "lat": 50.741949,
+    "lng": 2.669215,
+    "transactions": [
+      {
+        "date": "2023-02-20",
+        "priceEur": 520000,
+        "typeLocal": "Maison",
+        "surfaceM2": 250,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-20",
+        "priceEur": 520000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  }
+}

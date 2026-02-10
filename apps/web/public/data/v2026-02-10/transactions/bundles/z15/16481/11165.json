@@ -1,0 +1,32 @@
+{
+  "44b989c6ced4": {
+    "id": "44b989c6ced4",
+    "label": "6028 LE PETIT VERDRET, La Houssaye-Béranger",
+    "lat": 49.630582,
+    "lng": 1.075254,
+    "transactions": [
+      {
+        "date": "2022-06-07",
+        "priceEur": 229000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "b06368d44e0f": {
+    "id": "b06368d44e0f",
+    "label": "5088 LE PETIT VERDRET, La Houssaye-Béranger",
+    "lat": 49.6296,
+    "lng": 1.069722,
+    "transactions": [
+      {
+        "date": "2023-01-06",
+        "priceEur": 273700,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

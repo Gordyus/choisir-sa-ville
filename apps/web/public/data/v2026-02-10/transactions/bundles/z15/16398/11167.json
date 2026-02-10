@@ -1,0 +1,62 @@
+{
+  "227835118eac": {
+    "id": "227835118eac",
+    "label": "449 RUE DE VERSAILLES, Heuqueville",
+    "lat": 49.616493,
+    "lng": 0.162998,
+    "transactions": [
+      {
+        "date": "2022-06-23",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "eef0e969fa7f": {
+    "id": "eef0e969fa7f",
+    "label": "325 RUE DE VERSAILLES, Heuqueville",
+    "lat": 49.617152,
+    "lng": 0.16185,
+    "transactions": [
+      {
+        "date": "2024-03-22",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "7cbc04814c9e": {
+    "id": "7cbc04814c9e",
+    "label": "120 RUE DE VERSAILLES, Heuqueville",
+    "lat": 49.615589,
+    "lng": 0.159171,
+    "transactions": [
+      {
+        "date": "2024-10-05",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6be458c41d5": {
+    "id": "c6be458c41d5",
+    "label": "589 RTE D'ETRETAT, Heuqueville",
+    "lat": 49.615268,
+    "lng": 0.15592,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 241500,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  }
+}

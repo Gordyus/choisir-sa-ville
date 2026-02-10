@@ -1,0 +1,47 @@
+{
+  "fd0cf634d953": {
+    "id": "fd0cf634d953",
+    "label": "25 RUE CHARLES GRIVILERS, Mastaing",
+    "lat": 50.305815,
+    "lng": 3.309933,
+    "transactions": [
+      {
+        "date": "2022-06-01",
+        "priceEur": 237000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "357a6b3d25a9": {
+    "id": "357a6b3d25a9",
+    "label": "23 RUE CHARLES GRIVILERS, Mastaing",
+    "lat": 50.306016,
+    "lng": 3.309721,
+    "transactions": [
+      {
+        "date": "2022-06-03",
+        "priceEur": 208000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "2737fd5eda74": {
+    "id": "2737fd5eda74",
+    "label": "21 RUE CHARLES GRIVILERS, Mastaing",
+    "lat": 50.306194,
+    "lng": 3.309605,
+    "transactions": [
+      {
+        "date": "2023-05-12",
+        "priceEur": 208500,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  }
+}

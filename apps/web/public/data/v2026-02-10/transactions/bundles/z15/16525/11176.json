@@ -1,0 +1,32 @@
+{
+  "cef9899d9257": {
+    "id": "cef9899d9257",
+    "label": "5065 MESANGUEVILLE, Mésangueville",
+    "lat": 49.546665,
+    "lng": 1.55904,
+    "transactions": [
+      {
+        "date": "2022-04-01",
+        "priceEur": 231000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "20b7cded9e93": {
+    "id": "20b7cded9e93",
+    "label": "487 RUE DU BOURG, Mésangueville",
+    "lat": 49.547143,
+    "lng": 1.558259,
+    "transactions": [
+      {
+        "date": "2025-03-18",
+        "priceEur": 168100,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  }
+}

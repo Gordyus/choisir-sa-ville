@@ -1,0 +1,47 @@
+{
+  "cf818e08a0c0": {
+    "id": "cf818e08a0c0",
+    "label": "102 LA MAISON BLANCHE, Hoymille",
+    "lat": 50.965476,
+    "lng": 2.473038,
+    "transactions": [
+      {
+        "date": "2023-04-12",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "50a305027f32": {
+    "id": "50a305027f32",
+    "label": "1919 RTE DE LA MAISON BLANCHE RD 4, Warhem",
+    "lat": 50.966027,
+    "lng": 2.473375,
+    "transactions": [
+      {
+        "date": "2023-09-07",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  },
+  "e5f18ee8ff08": {
+    "id": "e5f18ee8ff08",
+    "label": "1947 RTE DE LA MAISON BLANCHE RD 4, Warhem",
+    "lat": 50.965556,
+    "lng": 2.473621,
+    "transactions": [
+      {
+        "date": "2024-07-02",
+        "priceEur": 316500,
+        "typeLocal": "Maison",
+        "surfaceM2": 175,
+        "isVefa": false
+      }
+    ]
+  }
+}

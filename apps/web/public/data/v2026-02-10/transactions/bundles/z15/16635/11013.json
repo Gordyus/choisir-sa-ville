@@ -1,0 +1,77 @@
+{
+  "998cff585459": {
+    "id": "998cff585459",
+    "label": "7 VC LA GRANDE TRAVERSE, Steenwerck",
+    "lat": 50.699648,
+    "lng": 2.767823,
+    "transactions": [
+      {
+        "date": "2020-12-08",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "6712666a8197": {
+    "id": "6712666a8197",
+    "label": "4 RUE DU BEAUMART, Steenwerck",
+    "lat": 50.701092,
+    "lng": 2.764301,
+    "transactions": [
+      {
+        "date": "2020-08-11",
+        "priceEur": 327525,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "2bd625c81666": {
+    "id": "2bd625c81666",
+    "label": "68C RUE DU MUSEE, Steenwerck",
+    "lat": 50.698749,
+    "lng": 2.767637,
+    "transactions": [
+      {
+        "date": "2020-09-16",
+        "priceEur": 261815,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "efb977428e02": {
+    "id": "efb977428e02",
+    "label": "10 RUE DU TILLEUL DAUCHY, Steenwerck",
+    "lat": 50.697447,
+    "lng": 2.762341,
+    "transactions": [
+      {
+        "date": "2021-08-11",
+        "priceEur": 243800,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6ef85921f78": {
+    "id": "b6ef85921f78",
+    "label": "3 RUE DU BEAUMART, Steenwerck",
+    "lat": 50.698525,
+    "lng": 2.761023,
+    "transactions": [
+      {
+        "date": "2022-12-27",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  }
+}

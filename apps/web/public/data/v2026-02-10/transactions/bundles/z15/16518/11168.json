@@ -1,0 +1,47 @@
+{
+  "319ab97faa00": {
+    "id": "319ab97faa00",
+    "label": "450 RUE DU GRAND QUESNAY, Mauquenchy",
+    "lat": 49.603745,
+    "lng": 1.477077,
+    "transactions": [
+      {
+        "date": "2021-10-27",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d5f368f4be4": {
+    "id": "8d5f368f4be4",
+    "label": "204 RTE DE RONCHEROLLES, Mauquenchy",
+    "lat": 49.605541,
+    "lng": 1.482998,
+    "transactions": [
+      {
+        "date": "2021-06-04",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "d230b9f5b935": {
+    "id": "d230b9f5b935",
+    "label": "237 RUE DU GRAND QUESNAY, Mauquenchy",
+    "lat": 49.605551,
+    "lng": 1.474554,
+    "transactions": [
+      {
+        "date": "2021-09-18",
+        "priceEur": 567750,
+        "typeLocal": "Maison",
+        "surfaceM2": 223,
+        "isVefa": false
+      }
+    ]
+  }
+}

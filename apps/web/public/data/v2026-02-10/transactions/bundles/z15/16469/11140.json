@@ -1,0 +1,47 @@
+{
+  "1d87ab9cfb53": {
+    "id": "1d87ab9cfb53",
+    "label": "19 RTE DE LA VALLEE, Brachy",
+    "lat": 49.805744,
+    "lng": 0.94482,
+    "transactions": [
+      {
+        "date": "2021-07-02",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "95db9d97c188": {
+    "id": "95db9d97c188",
+    "label": "17 RTE DE LA CHAPELLE, Brachy",
+    "lat": 49.802553,
+    "lng": 0.944775,
+    "transactions": [
+      {
+        "date": "2021-07-26",
+        "priceEur": 123585,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "231bd58df826": {
+    "id": "231bd58df826",
+    "label": "21 RTE DE LA VALLEE, Brachy",
+    "lat": 49.804729,
+    "lng": 0.94395,
+    "transactions": [
+      {
+        "date": "2021-10-18",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  }
+}

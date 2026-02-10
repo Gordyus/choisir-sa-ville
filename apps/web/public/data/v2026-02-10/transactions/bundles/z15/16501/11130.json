@@ -1,0 +1,68 @@
+{
+  "dbd3c0ac96a6": {
+    "id": "dbd3c0ac96a6",
+    "label": "5074 PUCHEUX, Douvrend",
+    "lat": 49.880389,
+    "lng": 1.293262,
+    "transactions": [
+      {
+        "date": "2020-12-22",
+        "priceEur": 292800,
+        "typeLocal": "Maison",
+        "surfaceM2": 187,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d29c74b83e3": {
+    "id": "2d29c74b83e3",
+    "label": "224 RUE D'AGRANVILLE, Douvrend",
+    "lat": 49.877119,
+    "lng": 1.295892,
+    "transactions": [
+      {
+        "date": "2023-04-26",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-26",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-28",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-28",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "edef0d0c8edd": {
+    "id": "edef0d0c8edd",
+    "label": "5174 ANGREVILLE, Douvrend",
+    "lat": 49.879323,
+    "lng": 1.293682,
+    "transactions": [
+      {
+        "date": "2023-10-18",
+        "priceEur": 197500,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

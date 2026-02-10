@@ -1,0 +1,32 @@
+{
+  "a61f9fdbe71c": {
+    "id": "a61f9fdbe71c",
+    "label": "89 RUE DU TROU BAYARD, Estaires",
+    "lat": 50.653506,
+    "lng": 2.747215,
+    "transactions": [
+      {
+        "date": "2022-07-04",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b6f11b61a4f": {
+    "id": "0b6f11b61a4f",
+    "label": "113 RUE DU TROU BAYARD, Estaires",
+    "lat": 50.656264,
+    "lng": 2.75273,
+    "transactions": [
+      {
+        "date": "2024-09-20",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  }
+}

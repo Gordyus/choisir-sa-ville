@@ -1,0 +1,84 @@
+{
+  "c388acf7c60e": {
+    "id": "c388acf7c60e",
+    "label": "17 CARRIERE BONTE, Wattrelos",
+    "lat": 50.734631,
+    "lng": 3.197164,
+    "transactions": [
+      {
+        "date": "2020-08-11",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "6fd97ae4a7d4": {
+    "id": "6fd97ae4a7d4",
+    "label": "29 CARRIERE BONTE, Wattrelos",
+    "lat": 50.73426,
+    "lng": 3.198509,
+    "transactions": [
+      {
+        "date": "2020-09-22",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "f74a9fcc3d82": {
+    "id": "f74a9fcc3d82",
+    "label": "34 CARRIERE BONTE, Wattrelos",
+    "lat": 50.734112,
+    "lng": 3.198926,
+    "transactions": [
+      {
+        "date": "2020-12-09",
+        "priceEur": 240160,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "760cbdc63b6d": {
+    "id": "760cbdc63b6d",
+    "label": "16 CARRIERE BONTE, Wattrelos",
+    "lat": 50.73465,
+    "lng": 3.197103,
+    "transactions": [
+      {
+        "date": "2025-04-17",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-21",
+        "priceEur": 248470,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "a60197ebe38d": {
+    "id": "a60197ebe38d",
+    "label": "26 CARRIERE BONTE, Wattrelos",
+    "lat": 50.734355,
+    "lng": 3.198269,
+    "transactions": [
+      {
+        "date": "2023-12-15",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "34203be961d4": {
+    "id": "34203be961d4",
+    "label": "1049 RUE DES TROUBADOURS, Écretteville-lès-Baons",
+    "lat": 49.625105,
+    "lng": 0.666826,
+    "transactions": [
+      {
+        "date": "2023-08-14",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "5cab961fe3ce": {
+    "id": "5cab961fe3ce",
+    "label": "879 RUE DES TROUBADOURS, Écretteville-lès-Baons",
+    "lat": 49.625305,
+    "lng": 0.665279,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 265490,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  }
+}

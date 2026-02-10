@@ -1,0 +1,32 @@
+{
+  "ce96e450c4ff": {
+    "id": "ce96e450c4ff",
+    "label": "140 RTE DU BOURG HAUTOT, Louvetot",
+    "lat": 49.580686,
+    "lng": 0.734729,
+    "transactions": [
+      {
+        "date": "2020-07-24",
+        "priceEur": 10000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f3bc5987ce8": {
+    "id": "8f3bc5987ce8",
+    "label": "1906 RTE DU BOURG HAUTOT, Touffreville-la-Corbeline",
+    "lat": 49.581646,
+    "lng": 0.735986,
+    "transactions": [
+      {
+        "date": "2021-10-21",
+        "priceEur": 298000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

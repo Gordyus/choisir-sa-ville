@@ -1,0 +1,107 @@
+{
+  "92060c7f330a": {
+    "id": "92060c7f330a",
+    "label": "117 RUE DU DUCHE, La Chaussée",
+    "lat": 49.819871,
+    "lng": 1.119917,
+    "transactions": [
+      {
+        "date": "2021-12-13",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "3890703df12f": {
+    "id": "3890703df12f",
+    "label": "5103 RES LES MERISIERS, La Chaussée",
+    "lat": 49.820262,
+    "lng": 1.11921,
+    "transactions": [
+      {
+        "date": "2021-06-04",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "d937a24b82f0": {
+    "id": "d937a24b82f0",
+    "label": "70 RUE DU DUCHE, La Chaussée",
+    "lat": 49.82015,
+    "lng": 1.117687,
+    "transactions": [
+      {
+        "date": "2021-08-13",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "682b31ed4e33": {
+    "id": "682b31ed4e33",
+    "label": "3 LOT LES MERISIERS, La Chaussée",
+    "lat": 49.820043,
+    "lng": 1.118665,
+    "transactions": [
+      {
+        "date": "2025-01-14",
+        "priceEur": 80805.26,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee08b868379f": {
+    "id": "ee08b868379f",
+    "label": "4 LOT LES MERISIERS, La Chaussée",
+    "lat": 49.81992,
+    "lng": 1.118743,
+    "transactions": [
+      {
+        "date": "2025-01-14",
+        "priceEur": 80805.26,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "4cbb70f6cf41": {
+    "id": "4cbb70f6cf41",
+    "label": "5 LOT LES MERISIERS, La Chaussée",
+    "lat": 49.819982,
+    "lng": 1.119021,
+    "transactions": [
+      {
+        "date": "2025-01-14",
+        "priceEur": 80805.26,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "632f2ef7de3e": {
+    "id": "632f2ef7de3e",
+    "label": "9 LOT LES EPINETTES, La Chaussée",
+    "lat": 49.822675,
+    "lng": 1.11943,
+    "transactions": [
+      {
+        "date": "2025-06-27",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  }
+}

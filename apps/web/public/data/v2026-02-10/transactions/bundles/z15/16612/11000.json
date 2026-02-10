@@ -1,0 +1,68 @@
+{
+  "f74ef2aca594": {
+    "id": "f74ef2aca594",
+    "label": "46 RTE DE BORRE, Sainte-Marie-Cappel",
+    "lat": 50.788249,
+    "lng": 2.506111,
+    "transactions": [
+      {
+        "date": "2021-12-22",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-26",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5296b49a2f0": {
+    "id": "a5296b49a2f0",
+    "label": "579 RTE NATIONALE, Sainte-Marie-Cappel",
+    "lat": 50.790221,
+    "lng": 2.514096,
+    "transactions": [
+      {
+        "date": "2021-06-23",
+        "priceEur": 480000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-23",
+        "priceEur": 480000,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-23",
+        "priceEur": 480000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "b52d7704c47a": {
+    "id": "b52d7704c47a",
+    "label": "145 RTE DE CASSEL, Sainte-Marie-Cappel",
+    "lat": 50.785229,
+    "lng": 2.506896,
+    "transactions": [
+      {
+        "date": "2023-11-30",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  }
+}

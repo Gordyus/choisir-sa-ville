@@ -1,0 +1,32 @@
+{
+  "752080cd26f8": {
+    "id": "752080cd26f8",
+    "label": "211 RUE NOORD STRAETE, Zuytpeene",
+    "lat": 50.792271,
+    "lng": 2.412144,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "18715aac2e75": {
+    "id": "18715aac2e75",
+    "label": "900 RUE NOORD STRAETE, Zuytpeene",
+    "lat": 50.797083,
+    "lng": 2.409974,
+    "transactions": [
+      {
+        "date": "2022-12-29",
+        "priceEur": 10000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  }
+}

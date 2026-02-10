@@ -1,0 +1,32 @@
+{
+  "55a81e1e0e7d": {
+    "id": "55a81e1e0e7d",
+    "label": "5128 BEAUFRESNE, Haudricourt",
+    "lat": 49.71796,
+    "lng": 1.679604,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "4008173a4ee1": {
+    "id": "4008173a4ee1",
+    "label": "119 RUE DU SOURIRE, Haudricourt",
+    "lat": 49.717882,
+    "lng": 1.678201,
+    "transactions": [
+      {
+        "date": "2023-09-19",
+        "priceEur": 156000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

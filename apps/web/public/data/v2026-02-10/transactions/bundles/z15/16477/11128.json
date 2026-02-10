@@ -1,0 +1,69 @@
+{
+  "672207093c7a": {
+    "id": "672207093c7a",
+    "label": "5528 ENTRE LES DEUX ROUTES, Hautot-sur-Mer",
+    "lat": 49.892316,
+    "lng": 1.031572,
+    "transactions": [
+      {
+        "date": "2023-12-14",
+        "priceEur": 368000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-14",
+        "priceEur": 368000,
+        "typeLocal": "Maison",
+        "surfaceM2": 17,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ad4e805e92a": {
+    "id": "4ad4e805e92a",
+    "label": "339 ALL DE LA DAME BLANCHE, Hautot-sur-Mer",
+    "lat": 49.892484,
+    "lng": 1.029357,
+    "transactions": [
+      {
+        "date": "2024-06-03",
+        "priceEur": 321750,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "879c95c48703": {
+    "id": "879c95c48703",
+    "label": "547 RUE DU CABARET, Hautot-sur-Mer",
+    "lat": 49.8923,
+    "lng": 1.031377,
+    "transactions": [
+      {
+        "date": "2025-02-24",
+        "priceEur": 36000,
+        "typeLocal": "Maison",
+        "surfaceM2": 17,
+        "isVefa": false
+      }
+    ]
+  },
+  "746a29fd85d7": {
+    "id": "746a29fd85d7",
+    "label": "5 IMP DE LA DAME BLANCHE, Hautot-sur-Mer",
+    "lat": 49.891579,
+    "lng": 1.028916,
+    "transactions": [
+      {
+        "date": "2025-06-20",
+        "priceEur": 268640,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  }
+}

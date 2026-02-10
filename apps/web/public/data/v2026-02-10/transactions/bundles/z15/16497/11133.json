@@ -1,0 +1,32 @@
+{
+  "c4543f54c95d": {
+    "id": "c4543f54c95d",
+    "label": "114 RUE D'ORIVAL, Saint-Jacques-d'Aliermont",
+    "lat": 49.85255,
+    "lng": 1.246389,
+    "transactions": [
+      {
+        "date": "2022-05-21",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "4671b0784146": {
+    "id": "4671b0784146",
+    "label": "5109 LE BOUT D AVAL, Saint-Jacques-d'Aliermont",
+    "lat": 49.852832,
+    "lng": 1.245414,
+    "transactions": [
+      {
+        "date": "2022-06-17",
+        "priceEur": 143000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  }
+}

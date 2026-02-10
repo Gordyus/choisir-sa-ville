@@ -1,0 +1,77 @@
+{
+  "9830ae40e654": {
+    "id": "9830ae40e654",
+    "label": "900 LA LONGUE RUE, Mirville",
+    "lat": 49.598656,
+    "lng": 0.446922,
+    "transactions": [
+      {
+        "date": "2022-01-26",
+        "priceEur": 160300,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "00bc224623d4": {
+    "id": "00bc224623d4",
+    "label": "515 LE VASHOUIS, Mirville",
+    "lat": 49.596681,
+    "lng": 0.44952,
+    "transactions": [
+      {
+        "date": "2022-07-07",
+        "priceEur": 199500,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0b0be0890b4": {
+    "id": "b0b0be0890b4",
+    "label": "340 LE VASHOUIS, Mirville",
+    "lat": 49.597861,
+    "lng": 0.447494,
+    "transactions": [
+      {
+        "date": "2022-07-20",
+        "priceEur": 361950,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1ab8520a6fe": {
+    "id": "f1ab8520a6fe",
+    "label": "860 LA LONGUE RUE, Mirville",
+    "lat": 49.598989,
+    "lng": 0.446573,
+    "transactions": [
+      {
+        "date": "2023-10-20",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ed4d3a29c9d": {
+    "id": "3ed4d3a29c9d",
+    "label": "410 LE VASHOUIS, Mirville",
+    "lat": 49.596932,
+    "lng": 0.447034,
+    "transactions": [
+      {
+        "date": "2024-06-10",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "f73319dab86f": {
+    "id": "f73319dab86f",
+    "label": "44 RUE PERDUE, Heurteauville",
+    "lat": 49.465081,
+    "lng": 0.810742,
+    "transactions": [
+      {
+        "date": "2021-03-22",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "c1e152a189d9": {
+    "id": "c1e152a189d9",
+    "label": "1271 QUAI CHARLES GUERIN, Heurteauville",
+    "lat": 49.467369,
+    "lng": 0.809849,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "fac0a051209f": {
+    "id": "fac0a051209f",
+    "label": "5128 QUAI CHARLES GUERIN, Heurteauville",
+    "lat": 49.463563,
+    "lng": 0.811661,
+    "transactions": [
+      {
+        "date": "2021-09-28",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb455905c8f5": {
+    "id": "cb455905c8f5",
+    "label": "1295 RTE DE LA MAILLERAYE, Heurteauville",
+    "lat": 49.463834,
+    "lng": 0.802339,
+    "transactions": [
+      {
+        "date": "2023-11-27",
+        "priceEur": 99000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  }
+}

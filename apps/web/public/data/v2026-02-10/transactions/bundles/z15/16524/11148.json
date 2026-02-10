@@ -1,0 +1,46 @@
+{
+  "a7721e00e151": {
+    "id": "a7721e00e151",
+    "label": "10 CHE DE NOTRE DAME, Mortemer",
+    "lat": 49.751469,
+    "lng": 1.548515,
+    "transactions": [
+      {
+        "date": "2024-07-25",
+        "priceEur": 188455,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-04",
+        "priceEur": 122000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "d9202c43a91f": {
+    "id": "d9202c43a91f",
+    "label": "2 CHE DES SOURCES, Mortemer",
+    "lat": 49.749144,
+    "lng": 1.543178,
+    "transactions": [
+      {
+        "date": "2021-04-07",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 161,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-07",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

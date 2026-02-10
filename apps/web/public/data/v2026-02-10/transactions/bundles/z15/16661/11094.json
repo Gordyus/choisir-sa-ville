@@ -1,0 +1,84 @@
+{
+  "fd0b208a554f": {
+    "id": "fd0b208a554f",
+    "label": "39 DEMICOURT, Boursies",
+    "lat": 50.132693,
+    "lng": 3.044897,
+    "transactions": [
+      {
+        "date": "2021-08-12",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2514e1bfffb": {
+    "id": "e2514e1bfffb",
+    "label": "30 DEMICOURT, Boursies",
+    "lat": 50.131517,
+    "lng": 3.04495,
+    "transactions": [
+      {
+        "date": "2024-12-20",
+        "priceEur": 106000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-15",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2547baeac23": {
+    "id": "e2547baeac23",
+    "label": "35 DEMICOURT, Boursies",
+    "lat": 50.132399,
+    "lng": 3.044664,
+    "transactions": [
+      {
+        "date": "2023-09-25",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "511c7150f975": {
+    "id": "511c7150f975",
+    "label": "19 DEMICOURT, Boursies",
+    "lat": 50.130084,
+    "lng": 3.043544,
+    "transactions": [
+      {
+        "date": "2024-12-14",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "ba47cebcb39d": {
+    "id": "ba47cebcb39d",
+    "label": "16 DEMICOURT, Boursies",
+    "lat": 50.129749,
+    "lng": 3.044351,
+    "transactions": [
+      {
+        "date": "2025-05-26",
+        "priceEur": 81000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

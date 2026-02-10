@@ -1,0 +1,62 @@
+{
+  "11426fb54ac3": {
+    "id": "11426fb54ac3",
+    "label": "230 RTE DU FOND DES MARES, Anquetierville",
+    "lat": 49.537861,
+    "lng": 0.632764,
+    "transactions": [
+      {
+        "date": "2020-09-18",
+        "priceEur": 259500,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3f0b4ebec85": {
+    "id": "b3f0b4ebec85",
+    "label": "245 RTE DE LA CAVEE, Anquetierville",
+    "lat": 49.535274,
+    "lng": 0.634902,
+    "transactions": [
+      {
+        "date": "2021-05-21",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "2514931d876a": {
+    "id": "2514931d876a",
+    "label": "412 RTE DE GRANDCAMP, Anquetierville",
+    "lat": 49.53758,
+    "lng": 0.62716,
+    "transactions": [
+      {
+        "date": "2023-04-07",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b79bd4af506": {
+    "id": "2b79bd4af506",
+    "label": "39 RTE DU TENNIS, Anquetierville",
+    "lat": 49.533537,
+    "lng": 0.634456,
+    "transactions": [
+      {
+        "date": "2025-03-07",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

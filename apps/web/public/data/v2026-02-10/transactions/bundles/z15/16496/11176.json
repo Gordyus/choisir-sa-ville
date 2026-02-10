@@ -1,0 +1,32 @@
+{
+  "b9675a40128f": {
+    "id": "b9675a40128f",
+    "label": "5075A LA MALMAISON, Saint-André-sur-Cailly",
+    "lat": 49.550393,
+    "lng": 1.237954,
+    "transactions": [
+      {
+        "date": "2021-11-29",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "73a5ba61d732": {
+    "id": "73a5ba61d732",
+    "label": "1094 RTE DE SAINT JEAN, Saint-André-sur-Cailly",
+    "lat": 49.55349,
+    "lng": 1.234083,
+    "transactions": [
+      {
+        "date": "2022-01-28",
+        "priceEur": 543900,
+        "typeLocal": "Maison",
+        "surfaceM2": 255,
+        "isVefa": false
+      }
+    ]
+  }
+}

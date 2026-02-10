@@ -1,0 +1,32 @@
+{
+  "699cfdc2a043": {
+    "id": "699cfdc2a043",
+    "label": "16 RUE JOLIOT CURIE, Naves",
+    "lat": 50.205379,
+    "lng": 3.312747,
+    "transactions": [
+      {
+        "date": "2020-10-12",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "262d9b18f465": {
+    "id": "262d9b18f465",
+    "label": "4 RUE JOLIOT CURIE, Naves",
+    "lat": 50.205208,
+    "lng": 3.315288,
+    "transactions": [
+      {
+        "date": "2022-03-31",
+        "priceEur": 242000,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  }
+}

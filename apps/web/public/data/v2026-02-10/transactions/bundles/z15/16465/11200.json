@@ -1,0 +1,32 @@
+{
+  "ec3238df2521": {
+    "id": "ec3238df2521",
+    "label": "7002 VILLAGE DE MAUNY, Mauny",
+    "lat": 49.382132,
+    "lng": 0.892105,
+    "transactions": [
+      {
+        "date": "2022-02-11",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "88b4bd25ed2a": {
+    "id": "88b4bd25ed2a",
+    "label": "639 RUE DE LA PLAINE DES MARES, Mauny",
+    "lat": 49.382085,
+    "lng": 0.895862,
+    "transactions": [
+      {
+        "date": "2024-10-21",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  }
+}

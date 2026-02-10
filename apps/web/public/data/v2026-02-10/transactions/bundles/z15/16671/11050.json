@@ -1,0 +1,99 @@
+{
+  "a0a689bd03d2": {
+    "id": "a0a689bd03d2",
+    "label": "1015 RUE DES SARTS, Coutiches",
+    "lat": 50.439936,
+    "lng": 3.159348,
+    "transactions": [
+      {
+        "date": "2022-06-10",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-18",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "09e76881cd98": {
+    "id": "09e76881cd98",
+    "label": "502 RUE DES BOIS, Coutiches",
+    "lat": 50.442075,
+    "lng": 3.153445,
+    "transactions": [
+      {
+        "date": "2020-10-16",
+        "priceEur": 240500,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ad95abb04fa": {
+    "id": "6ad95abb04fa",
+    "label": "380 RUE DES BOIS, Coutiches",
+    "lat": 50.443161,
+    "lng": 3.153251,
+    "transactions": [
+      {
+        "date": "2021-11-02",
+        "priceEur": 270610,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "a72d41dae3be": {
+    "id": "a72d41dae3be",
+    "label": "1194 RUE DES SARTS, Coutiches",
+    "lat": 50.439096,
+    "lng": 3.157117,
+    "transactions": [
+      {
+        "date": "2022-09-21",
+        "priceEur": 324000,
+        "typeLocal": "Maison",
+        "surfaceM2": 215,
+        "isVefa": false
+      }
+    ]
+  },
+  "14ccd98913e1": {
+    "id": "14ccd98913e1",
+    "label": "410 RUE DES BOIS, Coutiches",
+    "lat": 50.442724,
+    "lng": 3.154147,
+    "transactions": [
+      {
+        "date": "2023-04-20",
+        "priceEur": 555000,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "c01ccc2dda98": {
+    "id": "c01ccc2dda98",
+    "label": "1184 RUE DES SARTS, Coutiches",
+    "lat": 50.439317,
+    "lng": 3.157045,
+    "transactions": [
+      {
+        "date": "2025-02-07",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  }
+}

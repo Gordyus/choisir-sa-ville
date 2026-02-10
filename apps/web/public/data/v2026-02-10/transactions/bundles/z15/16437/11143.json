@@ -1,0 +1,166 @@
+{
+  "0a2c95c19ce2": {
+    "id": "0a2c95c19ce2",
+    "label": "85 RUE SAINT MACLOU, Ouainville",
+    "lat": 49.785427,
+    "lng": 0.589783,
+    "transactions": [
+      {
+        "date": "2020-07-24",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad7434903aa8": {
+    "id": "ad7434903aa8",
+    "label": "139 RUE DES LOGIS, Ouainville",
+    "lat": 49.784737,
+    "lng": 0.592883,
+    "transactions": [
+      {
+        "date": "2023-08-08",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-24",
+        "priceEur": 153000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9701acc28d3": {
+    "id": "a9701acc28d3",
+    "label": "20 RUE SAINT MACLOU, Ouainville",
+    "lat": 49.785202,
+    "lng": 0.590859,
+    "transactions": [
+      {
+        "date": "2021-11-10",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9dc23f8a9d7": {
+    "id": "a9dc23f8a9d7",
+    "label": "269 RUE DE LA FORGE, Ouainville",
+    "lat": 49.783731,
+    "lng": 0.587563,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c0f7e482869": {
+    "id": "7c0f7e482869",
+    "label": "35 RUE SAINT MACLOU, Ouainville",
+    "lat": 49.785147,
+    "lng": 0.590348,
+    "transactions": [
+      {
+        "date": "2022-09-15",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-15",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "4448a9929f0e": {
+    "id": "4448a9929f0e",
+    "label": "10 RTE DES FONDS, Ouainville",
+    "lat": 49.785005,
+    "lng": 0.591443,
+    "transactions": [
+      {
+        "date": "2023-11-20",
+        "priceEur": 184000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "69fb76b95a50": {
+    "id": "69fb76b95a50",
+    "label": "223 RUE DE MALDESTOUR, Ouainville",
+    "lat": 49.784326,
+    "lng": 0.591599,
+    "transactions": [
+      {
+        "date": "2023-12-28",
+        "priceEur": 136400,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee840762de5e": {
+    "id": "ee840762de5e",
+    "label": "5 RES LES PEUPLIERS, Ouainville",
+    "lat": 49.782857,
+    "lng": 0.586465,
+    "transactions": [
+      {
+        "date": "2024-07-31",
+        "priceEur": 225040,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd5132d53202": {
+    "id": "bd5132d53202",
+    "label": "16 RES LES PEUPLIERS, Ouainville",
+    "lat": 49.7833,
+    "lng": 0.587809,
+    "transactions": [
+      {
+        "date": "2024-08-19",
+        "priceEur": 224310,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "cdd5ccefffc9": {
+    "id": "cdd5ccefffc9",
+    "label": "35 RES LES PEUPLIERS, Ouainville",
+    "lat": 49.782883,
+    "lng": 0.589038,
+    "transactions": [
+      {
+        "date": "2025-04-07",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  }
+}

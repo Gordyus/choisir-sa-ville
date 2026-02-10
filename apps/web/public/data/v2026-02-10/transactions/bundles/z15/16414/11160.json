@@ -1,0 +1,62 @@
+{
+  "e004a3bb6c3f": {
+    "id": "e004a3bb6c3f",
+    "label": "195 IMP DES FEVEROLES, Écrainville",
+    "lat": 49.664409,
+    "lng": 0.331751,
+    "transactions": [
+      {
+        "date": "2021-02-16",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 14,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c68579be73e": {
+    "id": "2c68579be73e",
+    "label": "98 IMP DES FEVEROLES, Écrainville",
+    "lat": 49.6639,
+    "lng": 0.330581,
+    "transactions": [
+      {
+        "date": "2023-01-11",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "d1a6c3dbf7ab": {
+    "id": "d1a6c3dbf7ab",
+    "label": "340 RTE DE LA FERME DE GONFRAY, Écrainville",
+    "lat": 49.66277,
+    "lng": 0.332125,
+    "transactions": [
+      {
+        "date": "2024-07-05",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "399f1e481202": {
+    "id": "399f1e481202",
+    "label": "503 RTE DE LA FERME DE GONFRAY, Écrainville",
+    "lat": 49.663443,
+    "lng": 0.329702,
+    "transactions": [
+      {
+        "date": "2025-03-03",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  }
+}

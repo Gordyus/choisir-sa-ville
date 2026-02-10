@@ -1,0 +1,32 @@
+{
+  "3a3560b63471": {
+    "id": "3a3560b63471",
+    "label": "5047 LE FOND DE SAINT SAIRE, Beaubec-la-Rosière",
+    "lat": 49.659289,
+    "lng": 1.473019,
+    "transactions": [
+      {
+        "date": "2022-09-01",
+        "priceEur": 368500,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5f5c706aaf2": {
+    "id": "b5f5c706aaf2",
+    "label": "5051 LE MOULIN DE LA ROSIERE, Beaubec-la-Rosière",
+    "lat": 49.653757,
+    "lng": 1.478775,
+    "transactions": [
+      {
+        "date": "2023-09-27",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "50c13b2617e2": {
+    "id": "50c13b2617e2",
+    "label": "5023 CROPUS, Cropus",
+    "lat": 49.732565,
+    "lng": 1.146962,
+    "transactions": [
+      {
+        "date": "2021-11-04",
+        "priceEur": 113000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "69fd2f23d64f": {
+    "id": "69fd2f23d64f",
+    "label": "410 RTE DE MONTREUIL, Cropus",
+    "lat": 49.73553,
+    "lng": 1.146486,
+    "transactions": [
+      {
+        "date": "2025-01-16",
+        "priceEur": 157500,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  }
+}

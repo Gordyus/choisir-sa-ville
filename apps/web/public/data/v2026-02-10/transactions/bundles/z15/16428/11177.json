@@ -1,0 +1,69 @@
+{
+  "fed90d67a28e": {
+    "id": "fed90d67a28e",
+    "label": "5051 RUE DE CORNEVILLE, Saint-Antoine-la-Forêt",
+    "lat": 49.542555,
+    "lng": 0.485325,
+    "transactions": [
+      {
+        "date": "2020-08-27",
+        "priceEur": 67500,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "c00aebea5e15": {
+    "id": "c00aebea5e15",
+    "label": "1110 CHE DE FECAMP, Saint-Antoine-la-Forêt",
+    "lat": 49.540851,
+    "lng": 0.483413,
+    "transactions": [
+      {
+        "date": "2025-04-22",
+        "priceEur": 239000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-23",
+        "priceEur": 229000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e7361935b78": {
+    "id": "9e7361935b78",
+    "label": "5001 LA BRIARDERIE, Gruchet-le-Valasse",
+    "lat": 49.541815,
+    "lng": 0.494239,
+    "transactions": [
+      {
+        "date": "2021-12-30",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "40625a54ee6d": {
+    "id": "40625a54ee6d",
+    "label": "5134 RUE DE CORNEVILLE, Saint-Antoine-la-Forêt",
+    "lat": 49.541929,
+    "lng": 0.490327,
+    "transactions": [
+      {
+        "date": "2022-09-29",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

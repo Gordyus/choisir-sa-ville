@@ -1,0 +1,32 @@
+{
+  "3e8fb3c2c630": {
+    "id": "3e8fb3c2c630",
+    "label": "9 RUE DE LA HERONDE, Bézancourt",
+    "lat": 49.433099,
+    "lng": 1.618538,
+    "transactions": [
+      {
+        "date": "2022-04-22",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "701c96defa79": {
+    "id": "701c96defa79",
+    "label": "7 RUE DU VAUDELEAU, Bézancourt",
+    "lat": 49.434796,
+    "lng": 1.618298,
+    "transactions": [
+      {
+        "date": "2024-11-07",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

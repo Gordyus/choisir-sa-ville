@@ -1,0 +1,166 @@
+{
+  "ba970a0dc34a": {
+    "id": "ba970a0dc34a",
+    "label": "3A RUE MALEPARGNE, Tôtes",
+    "lat": 49.681986,
+    "lng": 1.049555,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-26",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "3dd53ecff04d": {
+    "id": "3dd53ecff04d",
+    "label": "41 RUE DES FORRIERES, Tôtes",
+    "lat": 49.685149,
+    "lng": 1.044244,
+    "transactions": [
+      {
+        "date": "2021-09-03",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "22e3d30387f8": {
+    "id": "22e3d30387f8",
+    "label": "9006 MOSCOU, Tôtes",
+    "lat": 49.688627,
+    "lng": 1.046605,
+    "transactions": [
+      {
+        "date": "2021-09-14",
+        "priceEur": 186000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "0f777b4bfa2d": {
+    "id": "0f777b4bfa2d",
+    "label": "9002 MOSCOU, Tôtes",
+    "lat": 49.68833,
+    "lng": 1.046335,
+    "transactions": [
+      {
+        "date": "2022-01-10",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5eb03693df7": {
+    "id": "a5eb03693df7",
+    "label": "9 RES LE CLOS MASURE, Tôtes",
+    "lat": 49.68326,
+    "lng": 1.043804,
+    "transactions": [
+      {
+        "date": "2023-07-12",
+        "priceEur": 263800,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-01",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f2339b216e4": {
+    "id": "5f2339b216e4",
+    "label": "2B RUE DE LA PLAINE, Tôtes",
+    "lat": 49.684001,
+    "lng": 1.046669,
+    "transactions": [
+      {
+        "date": "2024-07-16",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "1489b456f965": {
+    "id": "1489b456f965",
+    "label": "1 IMP D ECREPIGNY, Tôtes",
+    "lat": 49.682813,
+    "lng": 1.048826,
+    "transactions": [
+      {
+        "date": "2024-09-13",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f22fc9035a3": {
+    "id": "5f22fc9035a3",
+    "label": "1 RUE MALEPARGNE, Tôtes",
+    "lat": 49.682476,
+    "lng": 1.048432,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 227000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "05068ae4f4cd": {
+    "id": "05068ae4f4cd",
+    "label": "61B RUE GUY DE MAUPASSANT, Tôtes",
+    "lat": 49.681918,
+    "lng": 1.046775,
+    "transactions": [
+      {
+        "date": "2025-06-16",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "d95525b4a6f3": {
+    "id": "d95525b4a6f3",
+    "label": "34F RUE DES FORRIERES, Tôtes",
+    "lat": 49.685239,
+    "lng": 1.045811,
+    "transactions": [
+      {
+        "date": "2025-06-19",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

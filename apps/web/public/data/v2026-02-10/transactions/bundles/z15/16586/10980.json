@@ -1,0 +1,39 @@
+{
+  "f753e830c0bb": {
+    "id": "f753e830c0bb",
+    "label": "9008 CHE DE L AVEN, Bourbourg",
+    "lat": 50.928005,
+    "lng": 2.229675,
+    "transactions": [
+      {
+        "date": "2022-12-26",
+        "priceEur": 332320,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-26",
+        "priceEur": 332320,
+        "typeLocal": "Maison",
+        "surfaceM2": 161,
+        "isVefa": false
+      }
+    ]
+  },
+  "838ae6fcd45f": {
+    "id": "838ae6fcd45f",
+    "label": "9006 CHE DE L AVEN, Bourbourg",
+    "lat": 50.928315,
+    "lng": 2.228684,
+    "transactions": [
+      {
+        "date": "2023-02-01",
+        "priceEur": 113000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  }
+}

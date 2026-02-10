@@ -1,0 +1,92 @@
+{
+  "3b414c374821": {
+    "id": "3b414c374821",
+    "label": "2 RUE DE BOUTAINES, Luneray",
+    "lat": 49.821424,
+    "lng": 0.922192,
+    "transactions": [
+      {
+        "date": "2020-10-27",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a9df28e9420": {
+    "id": "3a9df28e9420",
+    "label": "41 RUE DE BEAUVAIS, Luneray",
+    "lat": 49.821463,
+    "lng": 0.921666,
+    "transactions": [
+      {
+        "date": "2021-04-09",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "4037381cbc6a": {
+    "id": "4037381cbc6a",
+    "label": "18 RUE DU BEAU SOLEIL, Luneray",
+    "lat": 49.820015,
+    "lng": 0.919793,
+    "transactions": [
+      {
+        "date": "2022-05-23",
+        "priceEur": 38000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "093ba7140256": {
+    "id": "093ba7140256",
+    "label": "51 RUE DE LA GUILLOTINE, Luneray",
+    "lat": 49.820435,
+    "lng": 0.918943,
+    "transactions": [
+      {
+        "date": "2022-12-21",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2ef731ead28": {
+    "id": "c2ef731ead28",
+    "label": "16 RUE DES NAVETTES, Luneray",
+    "lat": 49.821963,
+    "lng": 0.919837,
+    "transactions": [
+      {
+        "date": "2023-06-07",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4d1c193145e": {
+    "id": "b4d1c193145e",
+    "label": "33 RUE DE BEAUVAIS, Luneray",
+    "lat": 49.822515,
+    "lng": 0.922539,
+    "transactions": [
+      {
+        "date": "2023-12-14",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  }
+}

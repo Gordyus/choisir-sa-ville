@@ -1,0 +1,62 @@
+{
+  "defd357af0c5": {
+    "id": "defd357af0c5",
+    "label": "6 RTE SAINT MARE, Buchy",
+    "lat": 49.589537,
+    "lng": 1.313629,
+    "transactions": [
+      {
+        "date": "2020-12-14",
+        "priceEur": 199600,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "fc0e32988b29": {
+    "id": "fc0e32988b29",
+    "label": "299 RTE DE L'EGLISE, Buchy",
+    "lat": 49.591249,
+    "lng": 1.317175,
+    "transactions": [
+      {
+        "date": "2021-04-19",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "4df10e058750": {
+    "id": "4df10e058750",
+    "label": "45 RES SAINT MARE, Buchy",
+    "lat": 49.590012,
+    "lng": 1.312803,
+    "transactions": [
+      {
+        "date": "2021-07-09",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "5082d172099c": {
+    "id": "5082d172099c",
+    "label": "5 RES SAINT MARE, Buchy",
+    "lat": 49.59048,
+    "lng": 1.311916,
+    "transactions": [
+      {
+        "date": "2024-09-21",
+        "priceEur": 266000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

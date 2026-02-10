@@ -1,0 +1,47 @@
+{
+  "6f5d23904488": {
+    "id": "6f5d23904488",
+    "label": "5249 LA COSTE, Mons",
+    "lat": 43.572954,
+    "lng": 2.975085,
+    "transactions": [
+      {
+        "date": "2020-09-25",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b0685099591": {
+    "id": "2b0685099591",
+    "label": "5128 LA COSTE, Mons",
+    "lat": 43.572922,
+    "lng": 2.973832,
+    "transactions": [
+      {
+        "date": "2022-01-20",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f516f47197c": {
+    "id": "8f516f47197c",
+    "label": "5428 LA COSTE, Mons",
+    "lat": 43.572897,
+    "lng": 2.973904,
+    "transactions": [
+      {
+        "date": "2022-01-20",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "025189c3fcf4": {
+    "id": "025189c3fcf4",
+    "label": "7 RUE LEON BLUM, Salomé",
+    "lat": 50.5349,
+    "lng": 2.847769,
+    "transactions": [
+      {
+        "date": "2021-03-10",
+        "priceEur": 217850,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "ce10a9b489ec": {
+    "id": "ce10a9b489ec",
+    "label": "31 RUE DE L EGALITE, Salomé",
+    "lat": 50.536833,
+    "lng": 2.84586,
+    "transactions": [
+      {
+        "date": "2021-04-14",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "68f8153070c9": {
+    "id": "68f8153070c9",
+    "label": "33 RUE DE L EGALITE, Salomé",
+    "lat": 50.536905,
+    "lng": 2.846006,
+    "transactions": [
+      {
+        "date": "2022-04-26",
+        "priceEur": 172980,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "feb210ca88dd": {
+    "id": "feb210ca88dd",
+    "label": "38 RUE DE L EGALITE, Salomé",
+    "lat": 50.5363,
+    "lng": 2.846152,
+    "transactions": [
+      {
+        "date": "2022-08-30",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "05958549655c": {
+    "id": "05958549655c",
+    "label": "32 RUE DE L EGALITE, Salomé",
+    "lat": 50.536266,
+    "lng": 2.845778,
+    "transactions": [
+      {
+        "date": "2024-03-29",
+        "priceEur": 159500,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "03a871e7fb7c": {
+    "id": "03a871e7fb7c",
+    "label": "1 RUE DU MILLENAIRE, Salomé",
+    "lat": 50.534611,
+    "lng": 2.845688,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 201800,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0682fcb5e98": {
+    "id": "e0682fcb5e98",
+    "label": "1 RUE LEON BLUM, Salomé",
+    "lat": 50.534707,
+    "lng": 2.847354,
+    "transactions": [
+      {
+        "date": "2025-01-09",
+        "priceEur": 250450,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  }
+}

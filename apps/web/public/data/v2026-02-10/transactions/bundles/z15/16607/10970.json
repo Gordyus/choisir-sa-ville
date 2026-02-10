@@ -1,0 +1,69 @@
+{
+  "bc08be1514cc": {
+    "id": "bc08be1514cc",
+    "label": "201B RTE DES NEIGES TETEGHEM, Téteghem-Coudekerque-Village",
+    "lat": 50.993914,
+    "lng": 2.452968,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-13",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b97b627f89d": {
+    "id": "2b97b627f89d",
+    "label": "201A RTE DES NEIGES TETEGHEM, Téteghem-Coudekerque-Village",
+    "lat": 50.993963,
+    "lng": 2.453023,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "014c273e9a0d": {
+    "id": "014c273e9a0d",
+    "label": "201 RTE DES NEIGES TETEGHEM, Téteghem-Coudekerque-Village",
+    "lat": 50.993779,
+    "lng": 2.452841,
+    "transactions": [
+      {
+        "date": "2023-05-17",
+        "priceEur": 111000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa470891e105": {
+    "id": "fa470891e105",
+    "label": "5473 RTE DES NEIGES TETEGHEM, Téteghem-Coudekerque-Village",
+    "lat": 50.994715,
+    "lng": 2.453764,
+    "transactions": [
+      {
+        "date": "2023-12-29",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  }
+}

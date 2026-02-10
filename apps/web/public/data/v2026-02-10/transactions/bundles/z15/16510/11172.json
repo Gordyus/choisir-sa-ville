@@ -1,0 +1,32 @@
+{
+  "5b8efd30fd0f": {
+    "id": "5b8efd30fd0f",
+    "label": "6032 LE BOURG BOSC ROGER S/BUCH, Buchy",
+    "lat": 49.581579,
+    "lng": 1.38948,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 212500,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "b52c76db08bc": {
+    "id": "b52c76db08bc",
+    "label": "4 RTE DES GRANDS BORDEAUX, Buchy",
+    "lat": 49.58113,
+    "lng": 1.385794,
+    "transactions": [
+      {
+        "date": "2024-01-29",
+        "priceEur": 173000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

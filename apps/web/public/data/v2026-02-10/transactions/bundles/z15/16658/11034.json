@@ -1,0 +1,114 @@
+{
+  "67f8a0565eea": {
+    "id": "67f8a0565eea",
+    "label": "7 RUE DES MARTYRS LES PTITS CHAL, Seclin",
+    "lat": 50.555236,
+    "lng": 3.019233,
+    "transactions": [
+      {
+        "date": "2020-09-21",
+        "priceEur": 262000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c5bce72dc6a": {
+    "id": "9c5bce72dc6a",
+    "label": "95 RUE DES MARTYRS, Seclin",
+    "lat": 50.55323,
+    "lng": 3.014043,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 1173760,
+        "typeLocal": "Maison",
+        "surfaceM2": 183,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-29",
+        "priceEur": 1173760,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "b005adc82785": {
+    "id": "b005adc82785",
+    "label": "57 RUE DES MARTYRS, Seclin",
+    "lat": 50.553418,
+    "lng": 3.020249,
+    "transactions": [
+      {
+        "date": "2022-10-21",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "b132262a4ee3": {
+    "id": "b132262a4ee3",
+    "label": "6 ALL DES PETITS CHALETS, Seclin",
+    "lat": 50.555144,
+    "lng": 3.019647,
+    "transactions": [
+      {
+        "date": "2023-03-22",
+        "priceEur": 248000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "27638e4db0dc": {
+    "id": "27638e4db0dc",
+    "label": "63 RUE DES MARTYRS, Seclin",
+    "lat": 50.553701,
+    "lng": 3.019833,
+    "transactions": [
+      {
+        "date": "2023-06-08",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2f4ade0bdc8": {
+    "id": "e2f4ade0bdc8",
+    "label": "130 RUE DES MARTYRS, Seclin",
+    "lat": 50.553861,
+    "lng": 3.021221,
+    "transactions": [
+      {
+        "date": "2024-09-24",
+        "priceEur": 247900,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d24d713529e": {
+    "id": "5d24d713529e",
+    "label": "132B RUE DES MARTYRS, Seclin",
+    "lat": 50.554062,
+    "lng": 3.021191,
+    "transactions": [
+      {
+        "date": "2025-01-20",
+        "priceEur": 314000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  }
+}

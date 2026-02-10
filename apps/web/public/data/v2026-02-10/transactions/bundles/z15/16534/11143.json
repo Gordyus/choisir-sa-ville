@@ -1,0 +1,54 @@
+{
+  "6a7756978f7d": {
+    "id": "6a7756978f7d",
+    "label": "5042 BERNOMPRE, Nullemont",
+    "lat": 49.784891,
+    "lng": 1.653594,
+    "transactions": [
+      {
+        "date": "2022-07-01",
+        "priceEur": 203930,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9a81aec8962": {
+    "id": "f9a81aec8962",
+    "label": "5041 BERNOMPRE, Nullemont",
+    "lat": 49.78357,
+    "lng": 1.65348,
+    "transactions": [
+      {
+        "date": "2022-09-08",
+        "priceEur": 15000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-29",
+        "priceEur": 192290,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "5da41b4771ef": {
+    "id": "5da41b4771ef",
+    "label": "5043 BERNOMPRE, Nullemont",
+    "lat": 49.784875,
+    "lng": 1.651313,
+    "transactions": [
+      {
+        "date": "2023-07-24",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

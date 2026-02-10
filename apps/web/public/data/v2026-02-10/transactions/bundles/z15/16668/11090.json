@@ -1,0 +1,32 @@
+{
+  "0c85412aba5a": {
+    "id": "0c85412aba5a",
+    "label": "4 RUE DE LA CHAPELLE, Anneux",
+    "lat": 50.156618,
+    "lng": 3.125799,
+    "transactions": [
+      {
+        "date": "2023-11-30",
+        "priceEur": 263000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "b436665e4017": {
+    "id": "b436665e4017",
+    "label": "2B RUE DE LA CHAPELLE, Anneux",
+    "lat": 50.156882,
+    "lng": 3.125497,
+    "transactions": [
+      {
+        "date": "2024-01-22",
+        "priceEur": 209600,
+        "typeLocal": "Maison",
+        "surfaceM2": 250,
+        "isVefa": false
+      }
+    ]
+  }
+}

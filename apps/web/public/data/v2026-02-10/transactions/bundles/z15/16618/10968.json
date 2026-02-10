@@ -1,0 +1,32 @@
+{
+  "11c6ae20ce84": {
+    "id": "11c6ae20ce84",
+    "label": "1 CHV N1 DIT DE L OCTOGONE, Ghyvelde",
+    "lat": 51.013146,
+    "lng": 2.571251,
+    "transactions": [
+      {
+        "date": "2022-04-06",
+        "priceEur": 397450,
+        "typeLocal": "Maison",
+        "surfaceM2": 164,
+        "isVefa": false
+      }
+    ]
+  },
+  "b24144fdafcc": {
+    "id": "b24144fdafcc",
+    "label": "2 CHE DU CAESTHEROF, Hondschoote",
+    "lat": 51.008314,
+    "lng": 2.571132,
+    "transactions": [
+      {
+        "date": "2022-05-17",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  }
+}

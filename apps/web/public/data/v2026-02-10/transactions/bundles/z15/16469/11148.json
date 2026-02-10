@@ -1,0 +1,54 @@
+{
+  "f7ee5ab47b00": {
+    "id": "f7ee5ab47b00",
+    "label": "2 RUE DE L'ANCIENNE LAITERIE, Auzouville-sur-Saâne",
+    "lat": 49.747006,
+    "lng": 0.936908,
+    "transactions": [
+      {
+        "date": "2020-09-08",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "0f2c85ee7430": {
+    "id": "0f2c85ee7430",
+    "label": "3 IMP DE LA GRIPPIERE, Auzouville-sur-Saâne",
+    "lat": 49.746143,
+    "lng": 0.935997,
+    "transactions": [
+      {
+        "date": "2021-08-30",
+        "priceEur": 142443,
+        "typeLocal": "Maison",
+        "surfaceM2": 24,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-30",
+        "priceEur": 142443,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "68e238e7ebd7": {
+    "id": "68e238e7ebd7",
+    "label": "1 RTE DE L'ANCIENNE LAITERIE, Auzouville-sur-Saâne",
+    "lat": 49.747533,
+    "lng": 0.935638,
+    "transactions": [
+      {
+        "date": "2023-11-25",
+        "priceEur": 103500,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  }
+}

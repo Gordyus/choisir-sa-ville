@@ -1,0 +1,121 @@
+{
+  "68d1849185a5": {
+    "id": "68d1849185a5",
+    "label": "2 RUE DES CHATAIGNIERS, Theuville-aux-Maillots",
+    "lat": 49.767606,
+    "lng": 0.541074,
+    "transactions": [
+      {
+        "date": "2021-04-08",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      }
+    ]
+  },
+  "409b1a4e1a7c": {
+    "id": "409b1a4e1a7c",
+    "label": "8 RUE DES HORTENSIAS, Theuville-aux-Maillots",
+    "lat": 49.769617,
+    "lng": 0.54134,
+    "transactions": [
+      {
+        "date": "2023-03-15",
+        "priceEur": 256000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-29",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "2efaba3c5566": {
+    "id": "2efaba3c5566",
+    "label": "3 RUE DES CHATAIGNIERS, Theuville-aux-Maillots",
+    "lat": 49.767439,
+    "lng": 0.539773,
+    "transactions": [
+      {
+        "date": "2022-01-31",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-31",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 24,
+        "isVefa": false
+      }
+    ]
+  },
+  "52e11ae3c326": {
+    "id": "52e11ae3c326",
+    "label": "2 LE HAMELET, Theuville-aux-Maillots",
+    "lat": 49.771979,
+    "lng": 0.548849,
+    "transactions": [
+      {
+        "date": "2022-09-27",
+        "priceEur": 478000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "95166809213a": {
+    "id": "95166809213a",
+    "label": "3 RUE DES HORTENSIAS, Theuville-aux-Maillots",
+    "lat": 49.768543,
+    "lng": 0.540763,
+    "transactions": [
+      {
+        "date": "2023-08-09",
+        "priceEur": 202000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "efbc3997036b": {
+    "id": "efbc3997036b",
+    "label": "10 RUE DES HORTENSIAS, Theuville-aux-Maillots",
+    "lat": 49.769107,
+    "lng": 0.541724,
+    "transactions": [
+      {
+        "date": "2025-02-07",
+        "priceEur": 176000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ad9ef482ee1": {
+    "id": "4ad9ef482ee1",
+    "label": "1 LE HAMELET, Theuville-aux-Maillots",
+    "lat": 49.77174,
+    "lng": 0.545419,
+    "transactions": [
+      {
+        "date": "2025-06-09",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  }
+}

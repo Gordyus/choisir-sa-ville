@@ -1,0 +1,47 @@
+{
+  "ef0de4c2bb96": {
+    "id": "ef0de4c2bb96",
+    "label": "912 RTE DU MAUNY, Valliquerville",
+    "lat": 49.611649,
+    "lng": 0.679376,
+    "transactions": [
+      {
+        "date": "2021-10-14",
+        "priceEur": 188557,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "54edf50d92c4": {
+    "id": "54edf50d92c4",
+    "label": "966 RTE DU MAUNY, Valliquerville",
+    "lat": 49.611792,
+    "lng": 0.679934,
+    "transactions": [
+      {
+        "date": "2022-09-13",
+        "priceEur": 164700,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "faeaa0e7547a": {
+    "id": "faeaa0e7547a",
+    "label": "970 RTE DU MAUNY, Valliquerville",
+    "lat": 49.611922,
+    "lng": 0.67914,
+    "transactions": [
+      {
+        "date": "2024-12-12",
+        "priceEur": 218000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  }
+}

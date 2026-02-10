@@ -1,0 +1,54 @@
+{
+  "daedfe4a4c75": {
+    "id": "daedfe4a4c75",
+    "label": "379 RUE DES JARDINS, Marchiennes",
+    "lat": 50.422493,
+    "lng": 3.258306,
+    "transactions": [
+      {
+        "date": "2021-08-25",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b080a04482a": {
+    "id": "6b080a04482a",
+    "label": "665 RUE DES JARDINS, Marchiennes",
+    "lat": 50.421865,
+    "lng": 3.255684,
+    "transactions": [
+      {
+        "date": "2022-08-10",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "c8457945ccde": {
+    "id": "c8457945ccde",
+    "label": "319 RUE DES JARDINS, Marchiennes",
+    "lat": 50.42247,
+    "lng": 3.258895,
+    "transactions": [
+      {
+        "date": "2024-01-25",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-18",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  }
+}

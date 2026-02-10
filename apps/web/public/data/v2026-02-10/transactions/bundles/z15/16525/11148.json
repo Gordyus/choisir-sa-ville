@@ -1,0 +1,84 @@
+{
+  "e2bf137db738": {
+    "id": "e2bf137db738",
+    "label": "5062 LE BOURG, Mortemer",
+    "lat": 49.752088,
+    "lng": 1.549657,
+    "transactions": [
+      {
+        "date": "2020-08-24",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "5de9977a9c36": {
+    "id": "5de9977a9c36",
+    "label": "5035 LE BOURG, Mortemer",
+    "lat": 49.752151,
+    "lng": 1.554294,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc9d29a277a2": {
+    "id": "cc9d29a277a2",
+    "label": "8 RTE DE L'EAULNE, Mortemer",
+    "lat": 49.746024,
+    "lng": 1.552092,
+    "transactions": [
+      {
+        "date": "2024-01-15",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-15",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "f2b8b59e2997": {
+    "id": "f2b8b59e2997",
+    "label": "15 RTE DU DONJON, Mortemer",
+    "lat": 49.749999,
+    "lng": 1.553464,
+    "transactions": [
+      {
+        "date": "2024-10-29",
+        "priceEur": 27903,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "6c3d79edac1d": {
+    "id": "6c3d79edac1d",
+    "label": "2 RTE DE L'EAULNE, Mortemer",
+    "lat": 49.749012,
+    "lng": 1.551544,
+    "transactions": [
+      {
+        "date": "2024-12-06",
+        "priceEur": 87000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "3612818dbc09": {
+    "id": "3612818dbc09",
+    "label": "10 RUE DU BOUT DE LA VILLE, Ectot-lès-Baons",
+    "lat": 49.638592,
+    "lng": 0.81472,
+    "transactions": [
+      {
+        "date": "2021-04-28",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3c0ada508af": {
+    "id": "a3c0ada508af",
+    "label": "24 RTE NATIONALE, Ectot-lès-Baons",
+    "lat": 49.636936,
+    "lng": 0.817497,
+    "transactions": [
+      {
+        "date": "2021-12-08",
+        "priceEur": 378000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

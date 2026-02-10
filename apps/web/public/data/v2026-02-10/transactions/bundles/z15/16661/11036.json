@@ -1,0 +1,92 @@
+{
+  "c7a0282ff3a0": {
+    "id": "c7a0282ff3a0",
+    "label": "19 RUE JEAN BAPTISTE MULIER, Seclin",
+    "lat": 50.535078,
+    "lng": 3.053914,
+    "transactions": [
+      {
+        "date": "2020-09-11",
+        "priceEur": 485000,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  },
+  "ba8e1969f6f7": {
+    "id": "ba8e1969f6f7",
+    "label": "9 CHE DES BOIS, Seclin",
+    "lat": 50.535376,
+    "lng": 3.053917,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 570400,
+        "typeLocal": "Maison",
+        "surfaceM2": 226,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c28d723521c": {
+    "id": "7c28d723521c",
+    "label": "5 RUE JEAN BAPTISTE MULIER, Seclin",
+    "lat": 50.536421,
+    "lng": 3.05261,
+    "transactions": [
+      {
+        "date": "2021-10-26",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "8751a7908b35": {
+    "id": "8751a7908b35",
+    "label": "22 RUE JEAN BAPTISTE MULIER, Seclin",
+    "lat": 50.534956,
+    "lng": 3.052875,
+    "transactions": [
+      {
+        "date": "2021-12-29",
+        "priceEur": 297500,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5cb55a49705": {
+    "id": "b5cb55a49705",
+    "label": "13B RUE JEAN BAPTISTE MULIER, Seclin",
+    "lat": 50.535775,
+    "lng": 3.05325,
+    "transactions": [
+      {
+        "date": "2022-06-22",
+        "priceEur": 336000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "2299162f01fb": {
+    "id": "2299162f01fb",
+    "label": "16 RUE JEAN BAPTISTE MULIER, Seclin",
+    "lat": 50.535165,
+    "lng": 3.052572,
+    "transactions": [
+      {
+        "date": "2022-12-12",
+        "priceEur": 305000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  }
+}

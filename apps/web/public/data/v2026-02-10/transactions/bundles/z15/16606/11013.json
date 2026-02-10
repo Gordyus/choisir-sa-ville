@@ -1,0 +1,32 @@
+{
+  "b86403766dfb": {
+    "id": "b86403766dfb",
+    "label": "1594 RUE TARTUS, Sercus",
+    "lat": 50.696531,
+    "lng": 2.443287,
+    "transactions": [
+      {
+        "date": "2021-04-27",
+        "priceEur": 159300,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  },
+  "004a7a0c6451": {
+    "id": "004a7a0c6451",
+    "label": "953 RUE DE LA BELLE HOTESSE, Blaringhem",
+    "lat": 50.695078,
+    "lng": 2.446177,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 297000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  }
+}

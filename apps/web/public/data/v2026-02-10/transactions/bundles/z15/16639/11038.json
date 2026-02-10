@@ -1,0 +1,32 @@
+{
+  "c1aae3d004e6": {
+    "id": "c1aae3d004e6",
+    "label": "13 RUE DU MARAIS, La Bassée",
+    "lat": 50.527332,
+    "lng": 2.805688,
+    "transactions": [
+      {
+        "date": "2021-12-14",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "0855e1b5b17b": {
+    "id": "0855e1b5b17b",
+    "label": "15 RUE DU MARAIS, La Bassée",
+    "lat": 50.527346,
+    "lng": 2.805781,
+    "transactions": [
+      {
+        "date": "2021-12-14",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

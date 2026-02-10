@@ -1,0 +1,114 @@
+{
+  "13cf01c6eb87": {
+    "id": "13cf01c6eb87",
+    "label": "320 RUE DU PETIT ANHIERS, Anhiers",
+    "lat": 50.398715,
+    "lng": 3.162017,
+    "transactions": [
+      {
+        "date": "2020-09-07",
+        "priceEur": 147000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d8c5e9d2e2a": {
+    "id": "7d8c5e9d2e2a",
+    "label": "514 RUE DU PETIT ANHIERS, Anhiers",
+    "lat": 50.396751,
+    "lng": 3.162885,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  },
+  "12268523bca3": {
+    "id": "12268523bca3",
+    "label": "502 RUE DU PETIT ANHIERS, Anhiers",
+    "lat": 50.396805,
+    "lng": 3.162883,
+    "transactions": [
+      {
+        "date": "2023-06-28",
+        "priceEur": 32000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-15",
+        "priceEur": 26000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ec69c85d647": {
+    "id": "0ec69c85d647",
+    "label": "185 RUE DU CHEVALET, Anhiers",
+    "lat": 50.40116,
+    "lng": 3.159747,
+    "transactions": [
+      {
+        "date": "2021-05-11",
+        "priceEur": 63000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "948e63ee4c7a": {
+    "id": "948e63ee4c7a",
+    "label": "620 RUE DU PETIT ANHIERS, Anhiers",
+    "lat": 50.395858,
+    "lng": 3.163783,
+    "transactions": [
+      {
+        "date": "2022-02-04",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 31,
+        "isVefa": false
+      }
+    ]
+  },
+  "12f59214f86f": {
+    "id": "12f59214f86f",
+    "label": "290 RUE DU PETIT ANHIERS, Anhiers",
+    "lat": 50.398826,
+    "lng": 3.16221,
+    "transactions": [
+      {
+        "date": "2023-09-27",
+        "priceEur": 319000,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "f33936bef994": {
+    "id": "f33936bef994",
+    "label": "527 RUE DU MOULIN, Anhiers",
+    "lat": 50.399495,
+    "lng": 3.159287,
+    "transactions": [
+      {
+        "date": "2023-12-27",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

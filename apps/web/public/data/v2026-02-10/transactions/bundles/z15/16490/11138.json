@@ -1,0 +1,92 @@
+{
+  "9b69602aee89": {
+    "id": "9b69602aee89",
+    "label": "5074 LES GRANDS PRES, Torcy-le-Petit",
+    "lat": 49.821015,
+    "lng": 1.17128,
+    "transactions": [
+      {
+        "date": "2021-04-23",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e2aeb4c6db9": {
+    "id": "0e2aeb4c6db9",
+    "label": "4 CHE DES PRES, Saint-Germain-d'Étables",
+    "lat": 49.822907,
+    "lng": 1.171905,
+    "transactions": [
+      {
+        "date": "2022-11-24",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b08287ec851": {
+    "id": "4b08287ec851",
+    "label": "98 RTE DE DIEPPE, Torcy-le-Petit",
+    "lat": 49.817126,
+    "lng": 1.172615,
+    "transactions": [
+      {
+        "date": "2022-12-16",
+        "priceEur": 355000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "08c99a39023e": {
+    "id": "08c99a39023e",
+    "label": "114 RTE DE DIEPPE, Torcy-le-Petit",
+    "lat": 49.820865,
+    "lng": 1.171535,
+    "transactions": [
+      {
+        "date": "2023-08-02",
+        "priceEur": 209000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "a65606963c76": {
+    "id": "a65606963c76",
+    "label": "124 RTE DE DIEPPE, Torcy-le-Petit",
+    "lat": 49.821787,
+    "lng": 1.171241,
+    "transactions": [
+      {
+        "date": "2024-06-27",
+        "priceEur": 138500,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "537307b310ac": {
+    "id": "537307b310ac",
+    "label": "112 RTE DE DIEPPE, Torcy-le-Petit",
+    "lat": 49.820688,
+    "lng": 1.171679,
+    "transactions": [
+      {
+        "date": "2024-08-16",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  }
+}

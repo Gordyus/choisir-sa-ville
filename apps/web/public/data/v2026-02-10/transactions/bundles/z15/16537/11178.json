@@ -1,0 +1,62 @@
+{
+  "044446bf83fb": {
+    "id": "044446bf83fb",
+    "label": "5201 BEUVREUIL, Dampierre-en-Bray",
+    "lat": 49.532617,
+    "lng": 1.68701,
+    "transactions": [
+      {
+        "date": "2020-07-04",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff94ac3734bc": {
+    "id": "ff94ac3734bc",
+    "label": "4 RTE DE DAMPIERRE, Gancourt-Saint-Étienne",
+    "lat": 49.536603,
+    "lng": 1.686515,
+    "transactions": [
+      {
+        "date": "2020-12-05",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ba0bdef011a": {
+    "id": "9ba0bdef011a",
+    "label": "5006 SAINT ETIENNE, Gancourt-Saint-Étienne",
+    "lat": 49.537111,
+    "lng": 1.690206,
+    "transactions": [
+      {
+        "date": "2021-08-23",
+        "priceEur": 635000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "92c9daf9f278": {
+    "id": "92c9daf9f278",
+    "label": "1577 RUE GANCOURT, Dampierre-en-Bray",
+    "lat": 49.536203,
+    "lng": 1.685607,
+    "transactions": [
+      {
+        "date": "2023-03-21",
+        "priceEur": 197000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

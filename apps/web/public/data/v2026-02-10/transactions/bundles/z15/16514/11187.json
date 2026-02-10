@@ -1,0 +1,32 @@
+{
+  "38137741c20b": {
+    "id": "38137741c20b",
+    "label": "5117 PONT LEON, Morville-le-Héron",
+    "lat": 49.475222,
+    "lng": 1.435679,
+    "transactions": [
+      {
+        "date": "2022-01-13",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 335,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4a990547289": {
+    "id": "f4a990547289",
+    "label": "515 CHE DES PUITS, Morville-le-Héron",
+    "lat": 49.474998,
+    "lng": 1.437366,
+    "transactions": [
+      {
+        "date": "2023-09-07",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  }
+}

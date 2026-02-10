@@ -1,0 +1,47 @@
+{
+  "1be59ef7fa98": {
+    "id": "1be59ef7fa98",
+    "label": "5030 MESNIL MAUGER VILLAGE, Mesnil-Mauger",
+    "lat": 49.670148,
+    "lng": 1.518518,
+    "transactions": [
+      {
+        "date": "2021-01-06",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b19cf339575": {
+    "id": "6b19cf339575",
+    "label": "5046 MESNIL MAUGER VILLAGE, Mesnil-Mauger",
+    "lat": 49.670657,
+    "lng": 1.516768,
+    "transactions": [
+      {
+        "date": "2022-05-25",
+        "priceEur": 84500,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "a7a39c44c333": {
+    "id": "a7a39c44c333",
+    "label": "1 IMP SAINT JOUARRE, Mesnil-Mauger",
+    "lat": 49.672016,
+    "lng": 1.52271,
+    "transactions": [
+      {
+        "date": "2023-06-21",
+        "priceEur": 231000,
+        "typeLocal": "Maison",
+        "surfaceM2": 192,
+        "isVefa": false
+      }
+    ]
+  }
+}

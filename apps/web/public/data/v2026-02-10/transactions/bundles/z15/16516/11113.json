@@ -1,0 +1,189 @@
+{
+  "9cd3f8d79130": {
+    "id": "9cd3f8d79130",
+    "label": "5021 LE VILLAGE, Monchy-sur-Eu",
+    "lat": 49.997402,
+    "lng": 1.456156,
+    "transactions": [
+      {
+        "date": "2021-10-25",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "3fc627e2a7ae": {
+    "id": "3fc627e2a7ae",
+    "label": "5020 LE VILLAGE, Monchy-sur-Eu",
+    "lat": 49.996323,
+    "lng": 1.455305,
+    "transactions": [
+      {
+        "date": "2021-11-24",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "3cb1a7bc1b23": {
+    "id": "3cb1a7bc1b23",
+    "label": "9003 RUE JACQUES ANQUETIL, Monchy-sur-Eu",
+    "lat": 49.993803,
+    "lng": 1.455118,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "531852e78341": {
+    "id": "531852e78341",
+    "label": "4 RUE JOSSE, Monchy-sur-Eu",
+    "lat": 49.995476,
+    "lng": 1.455456,
+    "transactions": [
+      {
+        "date": "2025-05-23",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-30",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "058eb12ec2fe": {
+    "id": "058eb12ec2fe",
+    "label": "5033 LE VILLAGE, Monchy-sur-Eu",
+    "lat": 49.994792,
+    "lng": 1.455398,
+    "transactions": [
+      {
+        "date": "2021-03-23",
+        "priceEur": 129350,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a9ba48107da": {
+    "id": "5a9ba48107da",
+    "label": "12 RUE PASTEUR, Monchy-sur-Eu",
+    "lat": 49.994915,
+    "lng": 1.457642,
+    "transactions": [
+      {
+        "date": "2021-05-12",
+        "priceEur": 98000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "c01f834234b0": {
+    "id": "c01f834234b0",
+    "label": "5079 LE VILLAGE, Monchy-sur-Eu",
+    "lat": 49.994506,
+    "lng": 1.455685,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 47000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c042485ffc1": {
+    "id": "9c042485ffc1",
+    "label": "1B RUE DES QUATRE VENTS, Monchy-sur-Eu",
+    "lat": 49.993853,
+    "lng": 1.455746,
+    "transactions": [
+      {
+        "date": "2022-03-01",
+        "priceEur": 275200,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c383fd11e6c": {
+    "id": "2c383fd11e6c",
+    "label": "5142 ST RIQUIER, Monchy-sur-Eu",
+    "lat": 49.995051,
+    "lng": 1.456897,
+    "transactions": [
+      {
+        "date": "2022-11-25",
+        "priceEur": 233000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b3b747eea55": {
+    "id": "4b3b747eea55",
+    "label": "39T RUE PASTEUR, Monchy-sur-Eu",
+    "lat": 49.994495,
+    "lng": 1.457967,
+    "transactions": [
+      {
+        "date": "2023-02-03",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "61c50597afcf": {
+    "id": "61c50597afcf",
+    "label": "2 RUE JOSSE, Monchy-sur-Eu",
+    "lat": 49.994969,
+    "lng": 1.454705,
+    "transactions": [
+      {
+        "date": "2023-04-27",
+        "priceEur": 323000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "afc466037ab9": {
+    "id": "afc466037ab9",
+    "label": "2E RUE GEORGES BRASSENS, Monchy-sur-Eu",
+    "lat": 49.997418,
+    "lng": 1.452462,
+    "transactions": [
+      {
+        "date": "2024-07-24",
+        "priceEur": 201000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

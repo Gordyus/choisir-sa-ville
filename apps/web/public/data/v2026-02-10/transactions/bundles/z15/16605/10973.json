@@ -1,0 +1,62 @@
+{
+  "3085afe7555c": {
+    "id": "3085afe7555c",
+    "label": "134 VC 6 DIT RUE DU PUYDT HOUCK, Téteghem-Coudekerque-Village",
+    "lat": 50.97583,
+    "lng": 2.436308,
+    "transactions": [
+      {
+        "date": "2022-11-14",
+        "priceEur": 206000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "18f56f36a73a": {
+    "id": "18f56f36a73a",
+    "label": "2507 RUE PRINCIPALE CD 72, Téteghem-Coudekerque-Village",
+    "lat": 50.975081,
+    "lng": 2.434281,
+    "transactions": [
+      {
+        "date": "2023-11-14",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "77ad01f91449": {
+    "id": "77ad01f91449",
+    "label": "1B RTE D HONDSCHOOTE, Hoymille",
+    "lat": 50.973244,
+    "lng": 2.43821,
+    "transactions": [
+      {
+        "date": "2024-04-02",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "04e8767b5afe": {
+    "id": "04e8767b5afe",
+    "label": "9001 LES JARDINS, Hoymille",
+    "lat": 50.974347,
+    "lng": 2.436738,
+    "transactions": [
+      {
+        "date": "2024-11-18",
+        "priceEur": 327000,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  }
+}

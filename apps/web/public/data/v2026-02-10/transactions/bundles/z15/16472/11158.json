@@ -1,0 +1,47 @@
+{
+  "492f0191fdc1": {
+    "id": "492f0191fdc1",
+    "label": "262 RUE DES POMMEROLLES, Val-de-Saâne",
+    "lat": 49.677521,
+    "lng": 0.972902,
+    "transactions": [
+      {
+        "date": "2022-07-06",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "72600a284e1b": {
+    "id": "72600a284e1b",
+    "label": "893 RUE SAINTE ANNE, Val-de-Saâne",
+    "lat": 49.677968,
+    "lng": 0.970009,
+    "transactions": [
+      {
+        "date": "2022-09-15",
+        "priceEur": 346000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e1f5adaf2a8": {
+    "id": "4e1f5adaf2a8",
+    "label": "1693 RTE DES SOURCES, Val-de-Saâne",
+    "lat": 49.676975,
+    "lng": 0.967081,
+    "transactions": [
+      {
+        "date": "2024-09-24",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  }
+}

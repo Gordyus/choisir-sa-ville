@@ -1,0 +1,32 @@
+{
+  "dde7e3ee6f76": {
+    "id": "dde7e3ee6f76",
+    "label": "228 RUE DE BAVINCHOVE, Hondeghem",
+    "lat": 50.754758,
+    "lng": 2.475039,
+    "transactions": [
+      {
+        "date": "2023-02-28",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "3540f28a8f33": {
+    "id": "3540f28a8f33",
+    "label": "3466 RUE DE STAPLE, Hondeghem",
+    "lat": 50.752938,
+    "lng": 2.474535,
+    "transactions": [
+      {
+        "date": "2024-09-13",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  }
+}

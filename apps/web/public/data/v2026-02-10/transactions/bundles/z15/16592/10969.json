@@ -1,0 +1,546 @@
+{
+  "299e529bdee5": {
+    "id": "299e529bdee5",
+    "label": "56 ALL FRANCISCO FERRER, Grande-Synthe",
+    "lat": 51.003158,
+    "lng": 2.294744,
+    "transactions": [
+      {
+        "date": "2022-02-03",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-25",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "765c515451ee": {
+    "id": "765c515451ee",
+    "label": "84 RUE ALEXANDER FLEMING, Grande-Synthe",
+    "lat": 51.003328,
+    "lng": 2.290227,
+    "transactions": [
+      {
+        "date": "2020-10-09",
+        "priceEur": 187400,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d7605274352": {
+    "id": "3d7605274352",
+    "label": "22 PAS DU GARNAESTRAETE, Grande-Synthe",
+    "lat": 51.000907,
+    "lng": 2.290681,
+    "transactions": [
+      {
+        "date": "2020-11-04",
+        "priceEur": 263000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a0ec0df57e1": {
+    "id": "9a0ec0df57e1",
+    "label": "52 ALL FRANCISCO FERRER, Grande-Synthe",
+    "lat": 51.003177,
+    "lng": 2.294478,
+    "transactions": [
+      {
+        "date": "2020-11-03",
+        "priceEur": 115240,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "beda225e9895": {
+    "id": "beda225e9895",
+    "label": "47 ALL FRANCISCO FERRER, Grande-Synthe",
+    "lat": 51.003156,
+    "lng": 2.293979,
+    "transactions": [
+      {
+        "date": "2021-03-08",
+        "priceEur": 126100,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "c751b2cefbe4": {
+    "id": "c751b2cefbe4",
+    "label": "51 RUE ALEXANDER FLEMING, Grande-Synthe",
+    "lat": 51.003868,
+    "lng": 2.290914,
+    "transactions": [
+      {
+        "date": "2022-01-14",
+        "priceEur": 138500,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-21",
+        "priceEur": 155590,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd5ee4cc10b2": {
+    "id": "cd5ee4cc10b2",
+    "label": "8 SQ JULES GUESDE, Grande-Synthe",
+    "lat": 51.002192,
+    "lng": 2.294377,
+    "transactions": [
+      {
+        "date": "2021-06-15",
+        "priceEur": 172900,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "dda0180c55c6": {
+    "id": "dda0180c55c6",
+    "label": "21 ALL F G LORCA, Grande-Synthe",
+    "lat": 51.006463,
+    "lng": 2.289222,
+    "transactions": [
+      {
+        "date": "2021-07-08",
+        "priceEur": 163900,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "90e94271e0c0": {
+    "id": "90e94271e0c0",
+    "label": "2 VOIE HENRI DUNANT, Grande-Synthe",
+    "lat": 51.005634,
+    "lng": 2.291064,
+    "transactions": [
+      {
+        "date": "2023-10-10",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-23",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d352180bf66": {
+    "id": "9d352180bf66",
+    "label": "4 VOIE HENRI DUNANT, Grande-Synthe",
+    "lat": 51.006023,
+    "lng": 2.291594,
+    "transactions": [
+      {
+        "date": "2021-08-12",
+        "priceEur": 156750,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "da10e13a6765": {
+    "id": "da10e13a6765",
+    "label": "57 RUE ALEXANDER FLEMING, Grande-Synthe",
+    "lat": 51.00289,
+    "lng": 2.291283,
+    "transactions": [
+      {
+        "date": "2021-09-10",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "d92792698c8a": {
+    "id": "d92792698c8a",
+    "label": "54 RUE ALEXANDER FLEMING, Grande-Synthe",
+    "lat": 51.006206,
+    "lng": 2.287622,
+    "transactions": [
+      {
+        "date": "2021-09-20",
+        "priceEur": 181000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ec3b68ed68e": {
+    "id": "0ec3b68ed68e",
+    "label": "9 RUE CHARLES TILLON, Grande-Synthe",
+    "lat": 51.006142,
+    "lng": 2.293376,
+    "transactions": [
+      {
+        "date": "2024-10-11",
+        "priceEur": 98000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 93,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-15",
+        "priceEur": 63000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "521c643c97a6": {
+    "id": "521c643c97a6",
+    "label": "10 RUE DU LAC, Grande-Synthe",
+    "lat": 51.004661,
+    "lng": 2.290582,
+    "transactions": [
+      {
+        "date": "2021-10-13",
+        "priceEur": 133500,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "115678fd6330": {
+    "id": "115678fd6330",
+    "label": "122 RUE ALEXANDER FLEMING, Grande-Synthe",
+    "lat": 51.003177,
+    "lng": 2.293493,
+    "transactions": [
+      {
+        "date": "2021-11-29",
+        "priceEur": 156990,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "16112f3c3c88": {
+    "id": "16112f3c3c88",
+    "label": "51 ALL FRANCISCO FERRER, Grande-Synthe",
+    "lat": 51.003234,
+    "lng": 2.294115,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c804de60a5e": {
+    "id": "3c804de60a5e",
+    "label": "75 RUE ALEXANDER FLEMING, Grande-Synthe",
+    "lat": 51.002358,
+    "lng": 2.292329,
+    "transactions": [
+      {
+        "date": "2021-12-29",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "df99c31f2a7d": {
+    "id": "df99c31f2a7d",
+    "label": "98 RUE ALEXANDER FLEMING, Grande-Synthe",
+    "lat": 51.002286,
+    "lng": 2.290993,
+    "transactions": [
+      {
+        "date": "2022-04-07",
+        "priceEur": 153000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed21c7003ed6": {
+    "id": "ed21c7003ed6",
+    "label": "87 RUE ALEXANDER FLEMING, Grande-Synthe",
+    "lat": 51.002509,
+    "lng": 2.293167,
+    "transactions": [
+      {
+        "date": "2022-04-21",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "d69c50574e9d": {
+    "id": "d69c50574e9d",
+    "label": "4 AV DE LA POLYCLINIQUE, Grande-Synthe",
+    "lat": 51.004528,
+    "lng": 2.290961,
+    "transactions": [
+      {
+        "date": "2022-07-27",
+        "priceEur": 189400,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "fdfd6e867b0e": {
+    "id": "fdfd6e867b0e",
+    "label": "2 ALL FRANCISCO FERRER, Grande-Synthe",
+    "lat": 51.004415,
+    "lng": 2.290679,
+    "transactions": [
+      {
+        "date": "2024-08-19",
+        "priceEur": 130000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 93,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-23",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-23",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "fc61c60f848b": {
+    "id": "fc61c60f848b",
+    "label": "9 ALL FRANCISCO FERRER, Grande-Synthe",
+    "lat": 51.003597,
+    "lng": 2.291693,
+    "transactions": [
+      {
+        "date": "2023-03-10",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "d7f29ff7e289": {
+    "id": "d7f29ff7e289",
+    "label": "95 RUE ALEXANDER FLEMING, Grande-Synthe",
+    "lat": 51.003079,
+    "lng": 2.292971,
+    "transactions": [
+      {
+        "date": "2023-07-11",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "06684ceebeed": {
+    "id": "06684ceebeed",
+    "label": "3 RUE EMILE ROMANET, Grande-Synthe",
+    "lat": 51.006175,
+    "lng": 2.288643,
+    "transactions": [
+      {
+        "date": "2023-07-18",
+        "priceEur": 175750,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "840cf4246207": {
+    "id": "840cf4246207",
+    "label": "7 RUE CHARLES TILLON, Grande-Synthe",
+    "lat": 51.006142,
+    "lng": 2.293376,
+    "transactions": [
+      {
+        "date": "2025-02-07",
+        "priceEur": 115000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 121,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-12",
+        "priceEur": 109250,
+        "typeLocal": "Appartement",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "64d374d847ba": {
+    "id": "64d374d847ba",
+    "label": "39 ALL FRANCISCO FERRER, Grande-Synthe",
+    "lat": 51.002975,
+    "lng": 2.293649,
+    "transactions": [
+      {
+        "date": "2023-09-27",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "ebfa7a902f1b": {
+    "id": "ebfa7a902f1b",
+    "label": "1 SQ JULES GUESDE, Grande-Synthe",
+    "lat": 51.002533,
+    "lng": 2.293477,
+    "transactions": [
+      {
+        "date": "2024-02-07",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "7101882ad600": {
+    "id": "7101882ad600",
+    "label": "45B RUE ALEXANDER FLEMING, Grande-Synthe",
+    "lat": 51.005982,
+    "lng": 2.288189,
+    "transactions": [
+      {
+        "date": "2024-05-17",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "b8c0010f6b5e": {
+    "id": "b8c0010f6b5e",
+    "label": "27 ALL FRANCISCO FERRER, Grande-Synthe",
+    "lat": 51.003081,
+    "lng": 2.292521,
+    "transactions": [
+      {
+        "date": "2024-06-21",
+        "priceEur": 180750,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f95de973ab1": {
+    "id": "3f95de973ab1",
+    "label": "7 PAS DU PONT MARTIN, Grande-Synthe",
+    "lat": 51.003721,
+    "lng": 2.290263,
+    "transactions": [
+      {
+        "date": "2024-07-12",
+        "priceEur": 182500,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ed3e286a3e1": {
+    "id": "9ed3e286a3e1",
+    "label": "10 RUE DU COURGHAIN, Grande-Synthe",
+    "lat": 51.005485,
+    "lng": 2.291722,
+    "transactions": [
+      {
+        "date": "2024-07-30",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c0f5159adc1": {
+    "id": "4c0f5159adc1",
+    "label": "86 RUE ALEXANDER FLEMING, Grande-Synthe",
+    "lat": 51.002834,
+    "lng": 2.290484,
+    "transactions": [
+      {
+        "date": "2025-02-07",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "1dc730df2feb": {
+    "id": "1dc730df2feb",
+    "label": "100 RUE ALEXANDER FLEMING, Grande-Synthe",
+    "lat": 51.002544,
+    "lng": 2.291305,
+    "transactions": [
+      {
+        "date": "2025-03-27",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

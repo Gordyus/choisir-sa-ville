@@ -1,0 +1,47 @@
+{
+  "795fa0a446f1": {
+    "id": "795fa0a446f1",
+    "label": "71 LA CHAUSSEE DU ROY, Sahurs",
+    "lat": 49.365908,
+    "lng": 0.929751,
+    "transactions": [
+      {
+        "date": "2021-04-12",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe2e2ca49164": {
+    "id": "fe2e2ca49164",
+    "label": "67 LA CHAUSSEE DU ROY, Sahurs",
+    "lat": 49.366223,
+    "lng": 0.931047,
+    "transactions": [
+      {
+        "date": "2022-04-29",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "61d98b139c5b": {
+    "id": "61d98b139c5b",
+    "label": "41 LA CHAUSSEE DU ROY, Sahurs",
+    "lat": 49.363922,
+    "lng": 0.93233,
+    "transactions": [
+      {
+        "date": "2022-07-04",
+        "priceEur": 221600,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

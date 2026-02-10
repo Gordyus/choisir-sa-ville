@@ -1,0 +1,92 @@
+{
+  "b53bf9f86ee4": {
+    "id": "b53bf9f86ee4",
+    "label": "3 RUE DU CHATEAU, Castanet-le-Haut",
+    "lat": 43.667694,
+    "lng": 2.971748,
+    "transactions": [
+      {
+        "date": "2021-02-12",
+        "priceEur": 37000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "85476bce0428": {
+    "id": "85476bce0428",
+    "label": "3 RTE DE PABO, Castanet-le-Haut",
+    "lat": 43.66785,
+    "lng": 2.974115,
+    "transactions": [
+      {
+        "date": "2021-11-23",
+        "priceEur": 28000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d38db41f47c": {
+    "id": "3d38db41f47c",
+    "label": "6 RUE DES BERGERIES, Castanet-le-Haut",
+    "lat": 43.667354,
+    "lng": 2.973806,
+    "transactions": [
+      {
+        "date": "2022-01-25",
+        "priceEur": 2000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "51a21cda2b8b": {
+    "id": "51a21cda2b8b",
+    "label": "1 IMP DE LA SOURCE, Castanet-le-Haut",
+    "lat": 43.667415,
+    "lng": 2.974361,
+    "transactions": [
+      {
+        "date": "2024-02-29",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 15,
+        "isVefa": false
+      }
+    ]
+  },
+  "b83022ed881b": {
+    "id": "b83022ed881b",
+    "label": "7 RUE DU PORCHE, Castanet-le-Haut",
+    "lat": 43.667711,
+    "lng": 2.972135,
+    "transactions": [
+      {
+        "date": "2024-10-15",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "f193f9557807": {
+    "id": "f193f9557807",
+    "label": "5 IMP DE LA SOURCE, Castanet-le-Haut",
+    "lat": 43.667313,
+    "lng": 2.97431,
+    "transactions": [
+      {
+        "date": "2025-03-04",
+        "priceEur": 2500,
+        "typeLocal": "Maison",
+        "surfaceM2": 24,
+        "isVefa": false
+      }
+    ]
+  }
+}

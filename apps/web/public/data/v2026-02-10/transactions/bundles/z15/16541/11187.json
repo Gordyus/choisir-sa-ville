@@ -1,0 +1,122 @@
+{
+  "3098462bb5f4": {
+    "id": "3098462bb5f4",
+    "label": "20 RUE COMMANDANT FELIX, Gournay-en-Bray",
+    "lat": 49.47448,
+    "lng": 1.726426,
+    "transactions": [
+      {
+        "date": "2021-12-16",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d64682fcd59": {
+    "id": "3d64682fcd59",
+    "label": "5 CHE RENARD, Gournay-en-Bray",
+    "lat": 49.47216,
+    "lng": 1.728225,
+    "transactions": [
+      {
+        "date": "2021-12-30",
+        "priceEur": 384000,
+        "typeLocal": "Maison",
+        "surfaceM2": 189,
+        "isVefa": false
+      }
+    ]
+  },
+  "e86b346b5d57": {
+    "id": "e86b346b5d57",
+    "label": "13 RUE COMMANDANT SCHLOESING, Gournay-en-Bray",
+    "lat": 49.474858,
+    "lng": 1.727295,
+    "transactions": [
+      {
+        "date": "2021-03-30",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ba3a62feb72": {
+    "id": "0ba3a62feb72",
+    "label": "60 AV DE LA 1ER ARMEE FRANCAISE, Gournay-en-Bray",
+    "lat": 49.475065,
+    "lng": 1.724943,
+    "transactions": [
+      {
+        "date": "2021-09-22",
+        "priceEur": 479300,
+        "typeLocal": "Maison",
+        "surfaceM2": 207,
+        "isVefa": false
+      }
+    ]
+  },
+  "c726cc8d033b": {
+    "id": "c726cc8d033b",
+    "label": "5 RUE COMMANDANT FELIX, Gournay-en-Bray",
+    "lat": 49.474187,
+    "lng": 1.725887,
+    "transactions": [
+      {
+        "date": "2022-03-15",
+        "priceEur": 156550,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ca94b36e278": {
+    "id": "4ca94b36e278",
+    "label": "20 RUE COMMANDANT SCHLOESING, Gournay-en-Bray",
+    "lat": 49.47422,
+    "lng": 1.727975,
+    "transactions": [
+      {
+        "date": "2022-06-16",
+        "priceEur": 153000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7ac8d0e2746": {
+    "id": "f7ac8d0e2746",
+    "label": "28 RUE COMMANDANT SCHLOESING, Gournay-en-Bray",
+    "lat": 49.475255,
+    "lng": 1.727727,
+    "transactions": [
+      {
+        "date": "2023-06-16",
+        "priceEur": 157500,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "a763f83402b0": {
+    "id": "a763f83402b0",
+    "label": "18 RUE COMMANDANT SCHLOESING, Gournay-en-Bray",
+    "lat": 49.474028,
+    "lng": 1.727965,
+    "transactions": [
+      {
+        "date": "2023-12-15",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "71a2ac77c315": {
+    "id": "71a2ac77c315",
+    "label": "5500 RTE DU PUITS DE L AIRE, Préaux",
+    "lat": 49.470817,
+    "lng": 1.237605,
+    "transactions": [
+      {
+        "date": "2020-08-14",
+        "priceEur": 495000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "160c005f95e9": {
+    "id": "160c005f95e9",
+    "label": "383 RTE DU PUITS DE L AIRE, Préaux",
+    "lat": 49.471087,
+    "lng": 1.238127,
+    "transactions": [
+      {
+        "date": "2020-08-14",
+        "priceEur": 495000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d685bb9209d": {
+    "id": "1d685bb9209d",
+    "label": "197A RTE DU PUITS DE L AIRE, Préaux",
+    "lat": 49.471903,
+    "lng": 1.240469,
+    "transactions": [
+      {
+        "date": "2023-03-30",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  }
+}

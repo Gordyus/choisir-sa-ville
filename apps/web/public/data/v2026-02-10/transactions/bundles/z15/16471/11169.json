@@ -1,0 +1,62 @@
+{
+  "0c9f67595695": {
+    "id": "0c9f67595695",
+    "label": "9030 BEAUCAMP, Pavilly",
+    "lat": 49.596666,
+    "lng": 0.95673,
+    "transactions": [
+      {
+        "date": "2020-07-15",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa1ea549bc28": {
+    "id": "fa1ea549bc28",
+    "label": "12B CHE DE BEAUCAMP, Pavilly",
+    "lat": 49.596751,
+    "lng": 0.95727,
+    "transactions": [
+      {
+        "date": "2023-06-19",
+        "priceEur": 267500,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "093c0904757c": {
+    "id": "093c0904757c",
+    "label": "57 RTE DES FLEURS, Sainte-Austreberthe",
+    "lat": 49.596652,
+    "lng": 0.960651,
+    "transactions": [
+      {
+        "date": "2024-07-01",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "d48d73c72133": {
+    "id": "d48d73c72133",
+    "label": "18 CHE DE BEAUCAMP, Pavilly",
+    "lat": 49.596558,
+    "lng": 0.959302,
+    "transactions": [
+      {
+        "date": "2025-01-29",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "365c449b592b": {
+    "id": "365c449b592b",
+    "label": "5016 HAMEAU ET PLAINE DE LIMERV, Angerville-la-Martel",
+    "lat": 49.777755,
+    "lng": 0.50696,
+    "transactions": [
+      {
+        "date": "2022-05-20",
+        "priceEur": 297600,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "5dea14fa95f7": {
+    "id": "5dea14fa95f7",
+    "label": "438 LIMERVILLE, Angerville-la-Martel",
+    "lat": 49.776879,
+    "lng": 0.506118,
+    "transactions": [
+      {
+        "date": "2023-06-14",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

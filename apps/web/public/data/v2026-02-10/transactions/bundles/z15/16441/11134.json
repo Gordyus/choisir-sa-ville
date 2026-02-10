@@ -1,0 +1,39 @@
+{
+  "027bcfc0b31f": {
+    "id": "027bcfc0b31f",
+    "label": "74 CHE DU FOUR, Paluel",
+    "lat": 49.846694,
+    "lng": 0.627177,
+    "transactions": [
+      {
+        "date": "2021-07-08",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b7810cb0b7f": {
+    "id": "9b7810cb0b7f",
+    "label": "2043 RTE DE SAINT VALERY, Paluel",
+    "lat": 49.850296,
+    "lng": 0.63107,
+    "transactions": [
+      {
+        "date": "2025-02-14",
+        "priceEur": 519500,
+        "typeLocal": "Maison",
+        "surfaceM2": 380,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-14",
+        "priceEur": 519500,
+        "typeLocal": "Maison",
+        "surfaceM2": 251,
+        "isVefa": false
+      }
+    ]
+  }
+}

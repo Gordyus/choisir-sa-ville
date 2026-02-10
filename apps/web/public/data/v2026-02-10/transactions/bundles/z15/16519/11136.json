@@ -1,0 +1,92 @@
+{
+  "0113fd05a2cf": {
+    "id": "0113fd05a2cf",
+    "label": "12 RTE D'HAMBURES, Smermesnil",
+    "lat": 49.834606,
+    "lng": 1.48586,
+    "transactions": [
+      {
+        "date": "2020-10-17",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "62807aa6a022": {
+    "id": "62807aa6a022",
+    "label": "5017 CREMONT, Smermesnil",
+    "lat": 49.835833,
+    "lng": 1.486838,
+    "transactions": [
+      {
+        "date": "2020-11-12",
+        "priceEur": 74000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "9306664a128b": {
+    "id": "9306664a128b",
+    "label": "5128 CREMONT, Smermesnil",
+    "lat": 49.837195,
+    "lng": 1.486422,
+    "transactions": [
+      {
+        "date": "2021-03-27",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "a7858f6fe0f8": {
+    "id": "a7858f6fe0f8",
+    "label": "5014 CREMONT, Smermesnil",
+    "lat": 49.836825,
+    "lng": 1.487026,
+    "transactions": [
+      {
+        "date": "2022-01-08",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "357482552993": {
+    "id": "357482552993",
+    "label": "3 IMP DE LA GARE, Smermesnil",
+    "lat": 49.834896,
+    "lng": 1.488818,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 123500,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c2c899791e1": {
+    "id": "0c2c899791e1",
+    "label": "15 RTE D'HAMBURES, Smermesnil",
+    "lat": 49.835467,
+    "lng": 1.486835,
+    "transactions": [
+      {
+        "date": "2024-09-20",
+        "priceEur": 67000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

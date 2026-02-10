@@ -1,0 +1,62 @@
+{
+  "e2dcf409dc1a": {
+    "id": "e2dcf409dc1a",
+    "label": "126 RUE DE LINSELLES, Bousbecque",
+    "lat": 50.752826,
+    "lng": 3.076154,
+    "transactions": [
+      {
+        "date": "2020-10-02",
+        "priceEur": 471000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6a88448e5ed": {
+    "id": "c6a88448e5ed",
+    "label": "30 CRUMESSE, Bousbecque",
+    "lat": 50.756645,
+    "lng": 3.067323,
+    "transactions": [
+      {
+        "date": "2024-04-26",
+        "priceEur": 99500,
+        "typeLocal": "Maison",
+        "surfaceM2": 37,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb6d362ae06e": {
+    "id": "cb6d362ae06e",
+    "label": "27 CRUMESSE, Bousbecque",
+    "lat": 50.753353,
+    "lng": 3.070382,
+    "transactions": [
+      {
+        "date": "2024-05-15",
+        "priceEur": 534700,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "ab46e527a44b": {
+    "id": "ab46e527a44b",
+    "label": "31 CRUMESSE, Bousbecque",
+    "lat": 50.753119,
+    "lng": 3.067296,
+    "transactions": [
+      {
+        "date": "2024-10-31",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 185,
+        "isVefa": false
+      }
+    ]
+  }
+}

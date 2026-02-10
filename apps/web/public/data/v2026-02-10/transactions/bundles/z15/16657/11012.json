@@ -1,0 +1,622 @@
+{
+  "cd97b09d4c82": {
+    "id": "cd97b09d4c82",
+    "label": "186 RUE DE LILLE, Quesnoy-sur-Deûle",
+    "lat": 50.706155,
+    "lng": 3.003645,
+    "transactions": [
+      {
+        "date": "2020-07-01",
+        "priceEur": 143400,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb28b45272ea": {
+    "id": "fb28b45272ea",
+    "label": "46 RUE FAIDHERBE, Quesnoy-sur-Deûle",
+    "lat": 50.70313,
+    "lng": 3.004962,
+    "transactions": [
+      {
+        "date": "2020-07-06",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "7de8071f40c3": {
+    "id": "7de8071f40c3",
+    "label": "24 RUE FAIDHERBE, Quesnoy-sur-Deûle",
+    "lat": 50.703359,
+    "lng": 3.005509,
+    "transactions": [
+      {
+        "date": "2022-06-10",
+        "priceEur": 234000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-03",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ca45f69e266": {
+    "id": "4ca45f69e266",
+    "label": "119 RUE DE LILLE, Quesnoy-sur-Deûle",
+    "lat": 50.707315,
+    "lng": 3.003381,
+    "transactions": [
+      {
+        "date": "2024-07-19",
+        "priceEur": 460000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-31",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "c19e4468bd56": {
+    "id": "c19e4468bd56",
+    "label": "130 RUE DU MARECHAL FOCH, Quesnoy-sur-Deûle",
+    "lat": 50.708117,
+    "lng": 3.010107,
+    "transactions": [
+      {
+        "date": "2020-09-04",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "2aed46690a67": {
+    "id": "2aed46690a67",
+    "label": "45 RUE FAIDHERBE, Quesnoy-sur-Deûle",
+    "lat": 50.702508,
+    "lng": 3.005473,
+    "transactions": [
+      {
+        "date": "2020-08-27",
+        "priceEur": 160500,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "4cbe8dd6d919": {
+    "id": "4cbe8dd6d919",
+    "label": "32 RUE FAIDHERBE, Quesnoy-sur-Deûle",
+    "lat": 50.703251,
+    "lng": 3.005334,
+    "transactions": [
+      {
+        "date": "2020-09-22",
+        "priceEur": 233000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "23cf15b62308": {
+    "id": "23cf15b62308",
+    "label": "2 ALL DU CHEVAL ROUGE, Quesnoy-sur-Deûle",
+    "lat": 50.708506,
+    "lng": 3.001801,
+    "transactions": [
+      {
+        "date": "2023-11-29",
+        "priceEur": 281000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-12",
+        "priceEur": 358700,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "f66baff575f0": {
+    "id": "f66baff575f0",
+    "label": "1 RUE DES DRYADES, Quesnoy-sur-Deûle",
+    "lat": 50.707328,
+    "lng": 3.002246,
+    "transactions": [
+      {
+        "date": "2021-02-09",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "64bc393e8059": {
+    "id": "64bc393e8059",
+    "label": "84 RUE DE LILLE, Quesnoy-sur-Deûle",
+    "lat": 50.708327,
+    "lng": 3.001275,
+    "transactions": [
+      {
+        "date": "2021-07-08",
+        "priceEur": 319000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c5da5d67c4f": {
+    "id": "1c5da5d67c4f",
+    "label": "36 RUE FAIDHERBE, Quesnoy-sur-Deûle",
+    "lat": 50.703244,
+    "lng": 3.0052,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 264800,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a2207d3dcf8": {
+    "id": "1a2207d3dcf8",
+    "label": "966 RUE DE LILLE, Quesnoy-sur-Deûle",
+    "lat": 50.703605,
+    "lng": 3.005425,
+    "transactions": [
+      {
+        "date": "2021-10-22",
+        "priceEur": 310150,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "b39a9dda7acc": {
+    "id": "b39a9dda7acc",
+    "label": "2 RUE FAIDHERBE, Quesnoy-sur-Deûle",
+    "lat": 50.703586,
+    "lng": 3.006104,
+    "transactions": [
+      {
+        "date": "2022-11-04",
+        "priceEur": 246000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-22",
+        "priceEur": 218800,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "041907bb297d": {
+    "id": "041907bb297d",
+    "label": "22 RUE FAIDHERBE, Quesnoy-sur-Deûle",
+    "lat": 50.703376,
+    "lng": 3.005568,
+    "transactions": [
+      {
+        "date": "2022-04-22",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "c1fc660a0156": {
+    "id": "c1fc660a0156",
+    "label": "11 RUE FAIDHERBE, Quesnoy-sur-Deûle",
+    "lat": 50.702887,
+    "lng": 3.006382,
+    "transactions": [
+      {
+        "date": "2022-05-11",
+        "priceEur": 244800,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "1527916c2fc1": {
+    "id": "1527916c2fc1",
+    "label": "208 CHE DU COEUR JOYEUX, Quesnoy-sur-Deûle",
+    "lat": 50.702364,
+    "lng": 3.001592,
+    "transactions": [
+      {
+        "date": "2022-08-09",
+        "priceEur": 258000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "a20bc4ee25d0": {
+    "id": "a20bc4ee25d0",
+    "label": "206 CHE DU COEUR JOYEUX, Quesnoy-sur-Deûle",
+    "lat": 50.702391,
+    "lng": 3.001684,
+    "transactions": [
+      {
+        "date": "2022-11-08",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-07",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "b76a3ed8d145": {
+    "id": "b76a3ed8d145",
+    "label": "110 RUE DE LILLE, Quesnoy-sur-Deûle",
+    "lat": 50.707696,
+    "lng": 3.001906,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 342200,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f26c7c39030": {
+    "id": "9f26c7c39030",
+    "label": "12 RUE FAIDHERBE, Quesnoy-sur-Deûle",
+    "lat": 50.703483,
+    "lng": 3.005819,
+    "transactions": [
+      {
+        "date": "2023-01-09",
+        "priceEur": 207320,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "26d270ff3928": {
+    "id": "26d270ff3928",
+    "label": "42 RUE FAIDHERBE, Quesnoy-sur-Deûle",
+    "lat": 50.703196,
+    "lng": 3.005031,
+    "transactions": [
+      {
+        "date": "2023-04-20",
+        "priceEur": 229200,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "6cbaf399f2c2": {
+    "id": "6cbaf399f2c2",
+    "label": "25 RUE DES DRYADES, Quesnoy-sur-Deûle",
+    "lat": 50.705798,
+    "lng": 3.000865,
+    "transactions": [
+      {
+        "date": "2023-06-08",
+        "priceEur": 356800,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "36745bb51c74": {
+    "id": "36745bb51c74",
+    "label": "98 RUE DE LILLE, Quesnoy-sur-Deûle",
+    "lat": 50.70797,
+    "lng": 3.001598,
+    "transactions": [
+      {
+        "date": "2023-07-13",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "c65f7415122b": {
+    "id": "c65f7415122b",
+    "label": "339 CHE DE LA BERGERIE, Quesnoy-sur-Deûle",
+    "lat": 50.705685,
+    "lng": 3.009704,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 500000,
+        "typeLocal": "Maison",
+        "surfaceM2": 166,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e2c92e4521d": {
+    "id": "2e2c92e4521d",
+    "label": "2 RUE DES DRYADES, Quesnoy-sur-Deûle",
+    "lat": 50.707537,
+    "lng": 3.002085,
+    "transactions": [
+      {
+        "date": "2023-09-07",
+        "priceEur": 335300,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "a740570434fb": {
+    "id": "a740570434fb",
+    "label": "48 RUE FAIDHERBE, Quesnoy-sur-Deûle",
+    "lat": 50.70308,
+    "lng": 3.004934,
+    "transactions": [
+      {
+        "date": "2023-09-27",
+        "priceEur": 210020,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b62bc2ab193": {
+    "id": "7b62bc2ab193",
+    "label": "24 RUE DE VERLINGHEM, Quesnoy-sur-Deûle",
+    "lat": 50.708509,
+    "lng": 2.999448,
+    "transactions": [
+      {
+        "date": "2023-10-03",
+        "priceEur": 374500,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "c816476fa26d": {
+    "id": "c816476fa26d",
+    "label": "10 RUE DE LA DEULE, Quesnoy-sur-Deûle",
+    "lat": 50.708387,
+    "lng": 3.002905,
+    "transactions": [
+      {
+        "date": "2023-10-27",
+        "priceEur": 412750,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "664944af5dc0": {
+    "id": "664944af5dc0",
+    "label": "27 RUE DES CELTES, Quesnoy-sur-Deûle",
+    "lat": 50.706451,
+    "lng": 3.001222,
+    "transactions": [
+      {
+        "date": "2023-10-27",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ce817a63509": {
+    "id": "3ce817a63509",
+    "label": "40 RUE DES DRYADES, Quesnoy-sur-Deûle",
+    "lat": 50.705767,
+    "lng": 2.999994,
+    "transactions": [
+      {
+        "date": "2023-11-03",
+        "priceEur": 369000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "1bcc612639e1": {
+    "id": "1bcc612639e1",
+    "label": "25 RUE FAIDHERBE, Quesnoy-sur-Deûle",
+    "lat": 50.702731,
+    "lng": 3.006004,
+    "transactions": [
+      {
+        "date": "2023-12-07",
+        "priceEur": 243000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "18d677f05c07": {
+    "id": "18d677f05c07",
+    "label": "20 RUE DES DRYADES, Quesnoy-sur-Deûle",
+    "lat": 50.70681,
+    "lng": 3.000942,
+    "transactions": [
+      {
+        "date": "2024-02-02",
+        "priceEur": 388000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "2575293f6784": {
+    "id": "2575293f6784",
+    "label": "182 CHE DU COEUR JOYEUX, Quesnoy-sur-Deûle",
+    "lat": 50.702369,
+    "lng": 3.002018,
+    "transactions": [
+      {
+        "date": "2024-07-05",
+        "priceEur": 67620,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "0abe76dbd0b7": {
+    "id": "0abe76dbd0b7",
+    "label": "132 RUE DU MARECHAL FOCH, Quesnoy-sur-Deûle",
+    "lat": 50.708078,
+    "lng": 3.010139,
+    "transactions": [
+      {
+        "date": "2024-07-19",
+        "priceEur": 275300,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "733bba7a53b8": {
+    "id": "733bba7a53b8",
+    "label": "10 RUE FAIDHERBE, Quesnoy-sur-Deûle",
+    "lat": 50.703457,
+    "lng": 3.005913,
+    "transactions": [
+      {
+        "date": "2024-07-19",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb7273f3a36b": {
+    "id": "bb7273f3a36b",
+    "label": "78 RUE DE LILLE, Quesnoy-sur-Deûle",
+    "lat": 50.708356,
+    "lng": 3.000845,
+    "transactions": [
+      {
+        "date": "2024-10-10",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "129bf778787d": {
+    "id": "129bf778787d",
+    "label": "101 RUE DE VERLINGHEM, Quesnoy-sur-Deûle",
+    "lat": 50.706679,
+    "lng": 2.999667,
+    "transactions": [
+      {
+        "date": "2024-11-18",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd02bd408188": {
+    "id": "cd02bd408188",
+    "label": "70 RUE DE LILLE, Quesnoy-sur-Deûle",
+    "lat": 50.708628,
+    "lng": 3.000593,
+    "transactions": [
+      {
+        "date": "2025-04-17",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "198d0643cdad": {
+    "id": "198d0643cdad",
+    "label": "190 RUE DE LILLE, Quesnoy-sur-Deûle",
+    "lat": 50.706046,
+    "lng": 3.00372,
+    "transactions": [
+      {
+        "date": "2025-05-26",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7f09c55b817": {
+    "id": "f7f09c55b817",
+    "label": "52 RUE FAIDHERBE, Quesnoy-sur-Deûle",
+    "lat": 50.703041,
+    "lng": 3.004815,
+    "transactions": [
+      {
+        "date": "2025-06-30",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  }
+}

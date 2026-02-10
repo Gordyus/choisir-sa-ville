@@ -1,0 +1,32 @@
+{
+  "21135295921d": {
+    "id": "21135295921d",
+    "label": "5134 L EGLISE, Réalcamp",
+    "lat": 49.849007,
+    "lng": 1.627536,
+    "transactions": [
+      {
+        "date": "2020-07-27",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8bb486291ac": {
+    "id": "e8bb486291ac",
+    "label": "5132 L EGLISE, Réalcamp",
+    "lat": 49.849068,
+    "lng": 1.626272,
+    "transactions": [
+      {
+        "date": "2023-07-29",
+        "priceEur": 49000,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "64dbed07ae47": {
+    "id": "64dbed07ae47",
+    "label": "5062 LES HAMEAUX, 76358",
+    "lat": 49.499055,
+    "lng": 1.415129,
+    "transactions": [
+      {
+        "date": "2020-07-28",
+        "priceEur": 62500,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "e5e896d0ed85": {
+    "id": "e5e896d0ed85",
+    "label": "5059 LES HAMEAUX, 76358",
+    "lat": 49.498708,
+    "lng": 1.41653,
+    "transactions": [
+      {
+        "date": "2020-09-18",
+        "priceEur": 101000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f33ce347b11": {
+    "id": "1f33ce347b11",
+    "label": "5063 LES HAMEAUX, 76358",
+    "lat": 49.498755,
+    "lng": 1.414868,
+    "transactions": [
+      {
+        "date": "2020-10-06",
+        "priceEur": 168700,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "63425ab2014f": {
+    "id": "63425ab2014f",
+    "label": "5099 LES HAMEAUX, 76358",
+    "lat": 49.499168,
+    "lng": 1.416006,
+    "transactions": [
+      {
+        "date": "2021-02-20",
+        "priceEur": 143950,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "67839eb44e2c": {
+    "id": "67839eb44e2c",
+    "label": "5050 LES HAMEAUX, 76358",
+    "lat": 49.500262,
+    "lng": 1.414946,
+    "transactions": [
+      {
+        "date": "2023-06-14",
+        "priceEur": 176000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "5fe5f3832992": {
+    "id": "5fe5f3832992",
+    "label": "110 RUE DE LA MARE, 76358",
+    "lat": 49.496896,
+    "lng": 1.410804,
+    "transactions": [
+      {
+        "date": "2024-02-16",
+        "priceEur": 151700,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

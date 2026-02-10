@@ -1,0 +1,47 @@
+{
+  "ee165acbc533": {
+    "id": "ee165acbc533",
+    "label": "37 CHE DU BIHAMEL, Wambrechies",
+    "lat": 50.704421,
+    "lng": 3.051667,
+    "transactions": [
+      {
+        "date": "2023-06-06",
+        "priceEur": 1430000,
+        "typeLocal": "Maison",
+        "surfaceM2": 250,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6e8f191aa66": {
+    "id": "c6e8f191aa66",
+    "label": "835 CHE DES TROIS TILLEULS, Wambrechies",
+    "lat": 50.7068,
+    "lng": 3.04557,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 136666.66,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "40c9fc652fb1": {
+    "id": "40c9fc652fb1",
+    "label": "80 CHE DES POUX VOLANTS, Wambrechies",
+    "lat": 50.70208,
+    "lng": 3.054055,
+    "transactions": [
+      {
+        "date": "2025-01-24",
+        "priceEur": 227000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

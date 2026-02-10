@@ -1,0 +1,62 @@
+{
+  "4155ec7db725": {
+    "id": "4155ec7db725",
+    "label": "7022 LA MOTTE NORD, Blacqueville",
+    "lat": 49.577942,
+    "lng": 0.851536,
+    "transactions": [
+      {
+        "date": "2022-04-08",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "dcf049478c22": {
+    "id": "dcf049478c22",
+    "label": "5076 LA MOTTE NORD, Blacqueville",
+    "lat": 49.580165,
+    "lng": 0.856888,
+    "transactions": [
+      {
+        "date": "2022-03-17",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 166,
+        "isVefa": false
+      }
+    ]
+  },
+  "621edb89d2e6": {
+    "id": "621edb89d2e6",
+    "label": "421 RTE DE LA HARDANNERIE, Blacqueville",
+    "lat": 49.581661,
+    "lng": 0.852972,
+    "transactions": [
+      {
+        "date": "2023-03-21",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 215,
+        "isVefa": false
+      }
+    ]
+  },
+  "0dfe603d518c": {
+    "id": "0dfe603d518c",
+    "label": "1669 RTE DE BRUNVILLE, Blacqueville",
+    "lat": 49.575795,
+    "lng": 0.851084,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  }
+}

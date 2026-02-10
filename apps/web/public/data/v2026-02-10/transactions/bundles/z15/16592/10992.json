@@ -1,0 +1,32 @@
+{
+  "02bb5cdda8bd": {
+    "id": "02bb5cdda8bd",
+    "label": "11 VC BRAEMVELT STRAETE, Volckerinckhove",
+    "lat": 50.842305,
+    "lng": 2.295008,
+    "transactions": [
+      {
+        "date": "2023-06-26",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "682a92e7120c": {
+    "id": "682a92e7120c",
+    "label": "35 CHE DE LA PISTE DE V 1, Volckerinckhove",
+    "lat": 50.841059,
+    "lng": 2.289529,
+    "transactions": [
+      {
+        "date": "2024-11-06",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 196,
+        "isVefa": false
+      }
+    ]
+  }
+}

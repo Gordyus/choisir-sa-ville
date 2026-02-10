@@ -1,0 +1,76 @@
+{
+  "470e30fa663b": {
+    "id": "470e30fa663b",
+    "label": "163 RUE DU SAULE, Saint-Denis-d'Aclon",
+    "lat": 49.867506,
+    "lng": 0.953631,
+    "transactions": [
+      {
+        "date": "2023-08-04",
+        "priceEur": 88440,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-30",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "f869aef00c0e": {
+    "id": "f869aef00c0e",
+    "label": "217 SUR LA CAVEE MONSCEAU, Saint-Denis-d'Aclon",
+    "lat": 49.870539,
+    "lng": 0.954764,
+    "transactions": [
+      {
+        "date": "2022-04-25",
+        "priceEur": 194250,
+        "typeLocal": "Maison",
+        "surfaceM2": 27,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-25",
+        "priceEur": 194250,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "0003cd08fbe8": {
+    "id": "0003cd08fbe8",
+    "label": "333 RUE DU SAULE, Saint-Denis-d'Aclon",
+    "lat": 49.868406,
+    "lng": 0.955029,
+    "transactions": [
+      {
+        "date": "2023-08-02",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "8dc502b93b76": {
+    "id": "8dc502b93b76",
+    "label": "134 RUE DU SAULE, Saint-Denis-d'Aclon",
+    "lat": 49.867061,
+    "lng": 0.953935,
+    "transactions": [
+      {
+        "date": "2024-12-06",
+        "priceEur": 131000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

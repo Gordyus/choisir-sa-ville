@@ -1,0 +1,47 @@
+{
+  "3b656153f0c6": {
+    "id": "3b656153f0c6",
+    "label": "5249 RUE DU CHANT DES OISEAUX, Blangy-sur-Bresle",
+    "lat": 49.929088,
+    "lng": 1.625296,
+    "transactions": [
+      {
+        "date": "2021-06-25",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 203,
+        "isVefa": false
+      }
+    ]
+  },
+  "d30cd80e8848": {
+    "id": "d30cd80e8848",
+    "label": "54 RTE DE NEUFCHATEL, Blangy-sur-Bresle",
+    "lat": 49.923186,
+    "lng": 1.623999,
+    "transactions": [
+      {
+        "date": "2023-08-07",
+        "priceEur": 286000,
+        "typeLocal": "Maison",
+        "surfaceM2": 178,
+        "isVefa": false
+      }
+    ]
+  },
+  "44105300cb6c": {
+    "id": "44105300cb6c",
+    "label": "18 RUE DU BEAU FOYER, Blangy-sur-Bresle",
+    "lat": 49.929684,
+    "lng": 1.625313,
+    "transactions": [
+      {
+        "date": "2024-04-18",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  }
+}

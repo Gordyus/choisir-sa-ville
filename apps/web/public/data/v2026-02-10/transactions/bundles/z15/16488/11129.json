@@ -1,0 +1,32 @@
+{
+  "4465616067b2": {
+    "id": "4465616067b2",
+    "label": "4 RUE DU CIMETIERE ANGLAIS, Arques-la-Bataille",
+    "lat": 49.883313,
+    "lng": 1.142667,
+    "transactions": [
+      {
+        "date": "2020-09-25",
+        "priceEur": 459250,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "efad882362c3": {
+    "id": "efad882362c3",
+    "label": "3 ALL SUZANNE VALADON, Arques-la-Bataille",
+    "lat": 49.882464,
+    "lng": 1.142583,
+    "transactions": [
+      {
+        "date": "2024-11-25",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  }
+}

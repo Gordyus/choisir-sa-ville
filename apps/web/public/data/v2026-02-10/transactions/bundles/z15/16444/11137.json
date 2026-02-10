@@ -1,0 +1,62 @@
+{
+  "2328cc529e58": {
+    "id": "2328cc529e58",
+    "label": "52 RTE DE SAINT VALERY, Saint-Riquier-ès-Plains",
+    "lat": 49.824394,
+    "lng": 0.669712,
+    "transactions": [
+      {
+        "date": "2022-07-04",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 179,
+        "isVefa": false
+      }
+    ]
+  },
+  "22214e24499a": {
+    "id": "22214e24499a",
+    "label": "156 RUE DE LA MARE DE LA CROIX, Saint-Riquier-ès-Plains",
+    "lat": 49.824968,
+    "lng": 0.667816,
+    "transactions": [
+      {
+        "date": "2022-12-22",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "2686c06202f7": {
+    "id": "2686c06202f7",
+    "label": "170 RTE DE SAINT VALERY, Saint-Riquier-ès-Plains",
+    "lat": 49.825054,
+    "lng": 0.669727,
+    "transactions": [
+      {
+        "date": "2023-06-27",
+        "priceEur": 151700,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f80c49fb6a8": {
+    "id": "4f80c49fb6a8",
+    "label": "71 RUE DE LA MARE DE LA CROIX, Saint-Riquier-ès-Plains",
+    "lat": 49.82453,
+    "lng": 0.667346,
+    "transactions": [
+      {
+        "date": "2024-04-03",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  }
+}

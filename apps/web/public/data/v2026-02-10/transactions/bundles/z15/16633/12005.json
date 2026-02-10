@@ -1,0 +1,32 @@
+{
+  "29ebad6cf8f7": {
+    "id": "29ebad6cf8f7",
+    "label": "7000F FONTAIGOUS, Olonzac",
+    "lat": 43.28328,
+    "lng": 2.741445,
+    "transactions": [
+      {
+        "date": "2023-04-04",
+        "priceEur": 218780,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d73bd1ee3ae": {
+    "id": "1d73bd1ee3ae",
+    "label": "5328F FONTAIGOUS, Olonzac",
+    "lat": 43.284616,
+    "lng": 2.738733,
+    "transactions": [
+      {
+        "date": "2025-02-05",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

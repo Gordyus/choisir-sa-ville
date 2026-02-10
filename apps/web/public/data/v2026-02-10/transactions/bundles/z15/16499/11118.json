@@ -1,0 +1,47 @@
+{
+  "804073fafbe7": {
+    "id": "804073fafbe7",
+    "label": "4 RUE DES EOLIENNES, Petit-Caux",
+    "lat": 49.963171,
+    "lng": 1.266393,
+    "transactions": [
+      {
+        "date": "2020-07-27",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "c8710eef58d4": {
+    "id": "c8710eef58d4",
+    "label": "3 RUE DU STADE, Petit-Caux",
+    "lat": 49.963898,
+    "lng": 1.265323,
+    "transactions": [
+      {
+        "date": "2022-10-21",
+        "priceEur": 154850,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "2eab69ed25c2": {
+    "id": "2eab69ed25c2",
+    "label": "8 RUE DES EOLIENNES, Petit-Caux",
+    "lat": 49.962656,
+    "lng": 1.266251,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 202000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  }
+}

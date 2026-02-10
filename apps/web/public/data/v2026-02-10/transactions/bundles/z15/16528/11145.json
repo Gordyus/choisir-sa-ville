@@ -1,0 +1,62 @@
+{
+  "62fc696e0b74": {
+    "id": "62fc696e0b74",
+    "label": "83 LE BOURG, Le Caule-Sainte-Beuve",
+    "lat": 49.769762,
+    "lng": 1.589739,
+    "transactions": [
+      {
+        "date": "2022-11-02",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "355a37b22aa7": {
+    "id": "355a37b22aa7",
+    "label": "5500 LE BOURG, Le Caule-Sainte-Beuve",
+    "lat": 49.770457,
+    "lng": 1.589809,
+    "transactions": [
+      {
+        "date": "2023-10-31",
+        "priceEur": 159500,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "0887cd7605f4": {
+    "id": "0887cd7605f4",
+    "label": "58 RTE DE LA FORET, Le Caule-Sainte-Beuve",
+    "lat": 49.771492,
+    "lng": 1.589554,
+    "transactions": [
+      {
+        "date": "2023-11-30",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa367e12d5fa": {
+    "id": "aa367e12d5fa",
+    "label": "53 RTE DE LA FORET, Le Caule-Sainte-Beuve",
+    "lat": 49.771703,
+    "lng": 1.588859,
+    "transactions": [
+      {
+        "date": "2024-11-27",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  }
+}

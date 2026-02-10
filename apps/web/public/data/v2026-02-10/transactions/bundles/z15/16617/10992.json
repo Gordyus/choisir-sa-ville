@@ -1,0 +1,32 @@
+{
+  "3d35c4b9f10f": {
+    "id": "3d35c4b9f10f",
+    "label": "1146 RTE DU DROGLAND, Winnezeele",
+    "lat": 50.847308,
+    "lng": 2.562758,
+    "transactions": [
+      {
+        "date": "2023-05-16",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b3864c126a9": {
+    "id": "1b3864c126a9",
+    "label": "1157 RTE DE WATOU, Winnezeele",
+    "lat": 50.847557,
+    "lng": 2.562719,
+    "transactions": [
+      {
+        "date": "2023-09-20",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  }
+}

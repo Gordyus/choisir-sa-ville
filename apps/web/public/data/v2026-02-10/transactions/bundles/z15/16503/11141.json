@@ -1,0 +1,77 @@
+{
+  "1b0d27d4fca2": {
+    "id": "1b0d27d4fca2",
+    "label": "67 LE HAMEL, Osmoy-Saint-Valery",
+    "lat": 49.80112,
+    "lng": 1.314203,
+    "transactions": [
+      {
+        "date": "2021-08-17",
+        "priceEur": 177000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f6f347fa30f": {
+    "id": "2f6f347fa30f",
+    "label": "64 RTE DE DIEPPE, Osmoy-Saint-Valery",
+    "lat": 49.798267,
+    "lng": 1.317581,
+    "transactions": [
+      {
+        "date": "2022-02-21",
+        "priceEur": 247000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "82362fe5076d": {
+    "id": "82362fe5076d",
+    "label": "66 LE HAMEL, Osmoy-Saint-Valery",
+    "lat": 49.800754,
+    "lng": 1.313813,
+    "transactions": [
+      {
+        "date": "2022-12-27",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac7cdb7f4abc": {
+    "id": "ac7cdb7f4abc",
+    "label": "69 LE HAMEL, Osmoy-Saint-Valery",
+    "lat": 49.801394,
+    "lng": 1.314531,
+    "transactions": [
+      {
+        "date": "2023-02-27",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "0bc43be7e7a9": {
+    "id": "0bc43be7e7a9",
+    "label": "73 LE HAMEL, Osmoy-Saint-Valery",
+    "lat": 49.801932,
+    "lng": 1.315186,
+    "transactions": [
+      {
+        "date": "2023-09-07",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  }
+}

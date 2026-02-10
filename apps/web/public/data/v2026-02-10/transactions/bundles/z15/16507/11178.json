@@ -1,0 +1,54 @@
+{
+  "59c7b5ffbdd0": {
+    "id": "59c7b5ffbdd0",
+    "label": "529 RUE DE LA MAIRIE, Ernemont-sur-Buchy",
+    "lat": 49.537309,
+    "lng": 1.360802,
+    "transactions": [
+      {
+        "date": "2022-05-23",
+        "priceEur": 402000,
+        "typeLocal": "Maison",
+        "surfaceM2": 198,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-25",
+        "priceEur": 330800,
+        "typeLocal": "Maison",
+        "surfaceM2": 198,
+        "isVefa": false
+      }
+    ]
+  },
+  "9963f1b1d282": {
+    "id": "9963f1b1d282",
+    "label": "510 RUE DE LA MAIRIE, Ernemont-sur-Buchy",
+    "lat": 49.537731,
+    "lng": 1.359512,
+    "transactions": [
+      {
+        "date": "2022-08-24",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "3711a8d401eb": {
+    "id": "3711a8d401eb",
+    "label": "572 RUE DE LA MAIRIE, Ernemont-sur-Buchy",
+    "lat": 49.53728,
+    "lng": 1.359291,
+    "transactions": [
+      {
+        "date": "2024-09-24",
+        "priceEur": 216000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "a8338c5fd29e": {
+    "id": "a8338c5fd29e",
+    "label": "106 CHE DU FOND DE BUCAILLE, Saint-Léonard",
+    "lat": 49.750072,
+    "lng": 0.362463,
+    "transactions": [
+      {
+        "date": "2021-01-15",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "8ef6721dd467": {
+    "id": "8ef6721dd467",
+    "label": "282 IMP DU VIEUX PUITS, Saint-Léonard",
+    "lat": 49.746326,
+    "lng": 0.361691,
+    "transactions": [
+      {
+        "date": "2021-05-11",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "70e6178005b7": {
+    "id": "70e6178005b7",
+    "label": "326 IMP DU VIEUX PUITS, Saint-Léonard",
+    "lat": 49.746373,
+    "lng": 0.360829,
+    "transactions": [
+      {
+        "date": "2021-08-03",
+        "priceEur": 243600,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e822b3e8f93": {
+    "id": "0e822b3e8f93",
+    "label": "5150 LE ROCTEL, Saint-Léonard",
+    "lat": 49.748707,
+    "lng": 0.355084,
+    "transactions": [
+      {
+        "date": "2022-05-11",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  }
+}

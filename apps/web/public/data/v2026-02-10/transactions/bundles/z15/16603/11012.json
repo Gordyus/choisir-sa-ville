@@ -1,0 +1,54 @@
+{
+  "48df58b200e5": {
+    "id": "48df58b200e5",
+    "label": "1247 RUE DU CROQUET, Blaringhem",
+    "lat": 50.701744,
+    "lng": 2.41322,
+    "transactions": [
+      {
+        "date": "2020-10-10",
+        "priceEur": 147000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "0190c30b75b5": {
+    "id": "0190c30b75b5",
+    "label": "1380 RTE DE SAINT OMER, Lynde",
+    "lat": 50.704572,
+    "lng": 2.409164,
+    "transactions": [
+      {
+        "date": "2024-05-06",
+        "priceEur": 248000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-24",
+        "priceEur": 232675,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "35321144db13": {
+    "id": "35321144db13",
+    "label": "884 RUE DE LA MITROUILLE, Blaringhem",
+    "lat": 50.702702,
+    "lng": 2.408316,
+    "transactions": [
+      {
+        "date": "2025-04-17",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  }
+}

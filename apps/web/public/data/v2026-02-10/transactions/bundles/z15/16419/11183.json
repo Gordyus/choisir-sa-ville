@@ -1,0 +1,152 @@
+{
+  "6d0652463a7c": {
+    "id": "6d0652463a7c",
+    "label": "444A RUE DE L'ABBAYE, La Cerlangue",
+    "lat": 49.501055,
+    "lng": 0.387974,
+    "transactions": [
+      {
+        "date": "2021-03-26",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "dbc488f5163b": {
+    "id": "dbc488f5163b",
+    "label": "56 CHE DE LA SENTE AUX EPERLANS, La Cerlangue",
+    "lat": 49.500768,
+    "lng": 0.390025,
+    "transactions": [
+      {
+        "date": "2021-08-30",
+        "priceEur": 226550,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0512bcad1a6": {
+    "id": "a0512bcad1a6",
+    "label": "5319 SAINT JEAN D ABBETOT, La Cerlangue",
+    "lat": 49.499655,
+    "lng": 0.385686,
+    "transactions": [
+      {
+        "date": "2022-05-09",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "95cf42c71db5": {
+    "id": "95cf42c71db5",
+    "label": "5158 SAINT JEAN D ABBETOT, La Cerlangue",
+    "lat": 49.497907,
+    "lng": 0.392898,
+    "transactions": [
+      {
+        "date": "2022-11-02",
+        "priceEur": 152500,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "dc1702e1354a": {
+    "id": "dc1702e1354a",
+    "label": "111 CHE DE L'ABBE COCHET, La Cerlangue",
+    "lat": 49.498583,
+    "lng": 0.386203,
+    "transactions": [
+      {
+        "date": "2022-12-09",
+        "priceEur": 224000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "99ed4b64052c": {
+    "id": "99ed4b64052c",
+    "label": "497 RUE DE L'ABBAYE, La Cerlangue",
+    "lat": 49.499824,
+    "lng": 0.387419,
+    "transactions": [
+      {
+        "date": "2023-03-27",
+        "priceEur": 218000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d92e7b89604": {
+    "id": "1d92e7b89604",
+    "label": "597 RUE DE L'ABBAYE, La Cerlangue",
+    "lat": 49.499385,
+    "lng": 0.386199,
+    "transactions": [
+      {
+        "date": "2023-04-21",
+        "priceEur": 298000,
+        "typeLocal": "Maison",
+        "surfaceM2": 220,
+        "isVefa": false
+      }
+    ]
+  },
+  "a70665c269c1": {
+    "id": "a70665c269c1",
+    "label": "43 CHE DE L'ABBE COCHET, La Cerlangue",
+    "lat": 49.498957,
+    "lng": 0.385729,
+    "transactions": [
+      {
+        "date": "2023-06-09",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a9a16f8537b": {
+    "id": "3a9a16f8537b",
+    "label": "40 CHE LEBAHY, La Cerlangue",
+    "lat": 49.498688,
+    "lng": 0.39077,
+    "transactions": [
+      {
+        "date": "2023-12-27",
+        "priceEur": 228000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "09a914546885": {
+    "id": "09a914546885",
+    "label": "99 RUE PAUL MASSON, La Cerlangue",
+    "lat": 49.499024,
+    "lng": 0.387127,
+    "transactions": [
+      {
+        "date": "2023-12-27",
+        "priceEur": 257000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

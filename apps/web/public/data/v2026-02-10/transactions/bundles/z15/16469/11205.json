@@ -1,0 +1,32 @@
+{
+  "65631f6e57dc": {
+    "id": "65631f6e57dc",
+    "label": "4 COTE DE LA MAISON BRULEE, La Bouille",
+    "lat": 49.346244,
+    "lng": 0.936755,
+    "transactions": [
+      {
+        "date": "2021-05-20",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "d4260cc5afe1": {
+    "id": "d4260cc5afe1",
+    "label": "2001 RUE LOUIS MOGUEN, Moulineaux",
+    "lat": 49.34638,
+    "lng": 0.940236,
+    "transactions": [
+      {
+        "date": "2021-08-10",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  }
+}

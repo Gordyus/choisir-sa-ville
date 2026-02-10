@@ -1,0 +1,62 @@
+{
+  "2f237698c082": {
+    "id": "2f237698c082",
+    "label": "11 RUE GRANDE RUE, Petit-Caux",
+    "lat": 49.931869,
+    "lng": 1.298809,
+    "transactions": [
+      {
+        "date": "2020-08-11",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "a93332717462": {
+    "id": "a93332717462",
+    "label": "13 RUE GRANDE RUE, Petit-Caux",
+    "lat": 49.93144,
+    "lng": 1.298161,
+    "transactions": [
+      {
+        "date": "2023-08-28",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "558a236a3931": {
+    "id": "558a236a3931",
+    "label": "8 RUE DES ROSIERS, Petit-Caux",
+    "lat": 49.931863,
+    "lng": 1.300425,
+    "transactions": [
+      {
+        "date": "2023-09-12",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "a8d4a3d7fbc5": {
+    "id": "a8d4a3d7fbc5",
+    "label": "10 RUE GRANDE RUE, Petit-Caux",
+    "lat": 49.930479,
+    "lng": 1.29914,
+    "transactions": [
+      {
+        "date": "2024-05-29",
+        "priceEur": 164400,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

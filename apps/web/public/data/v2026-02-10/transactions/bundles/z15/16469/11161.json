@@ -1,0 +1,47 @@
+{
+  "d9a1100d50eb": {
+    "id": "d9a1100d50eb",
+    "label": "88 RUE DES FEUILLANTS, Ectot-l'Auber",
+    "lat": 49.655483,
+    "lng": 0.938873,
+    "transactions": [
+      {
+        "date": "2022-06-01",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "d8acbcb9849c": {
+    "id": "d8acbcb9849c",
+    "label": "313 RUE DES TISSERANDS, Ectot-l'Auber",
+    "lat": 49.656386,
+    "lng": 0.940805,
+    "transactions": [
+      {
+        "date": "2022-10-05",
+        "priceEur": 352000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "be6536ac14d6": {
+    "id": "be6536ac14d6",
+    "label": "430 RUE DES TISSERANDS, Ectot-l'Auber",
+    "lat": 49.656681,
+    "lng": 0.939049,
+    "transactions": [
+      {
+        "date": "2023-09-20",
+        "priceEur": 209300,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

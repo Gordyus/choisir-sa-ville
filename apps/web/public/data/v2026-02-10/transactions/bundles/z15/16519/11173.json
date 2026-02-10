@@ -1,0 +1,62 @@
+{
+  "df7e7d8c10af": {
+    "id": "df7e7d8c10af",
+    "label": "272 RUE DE L EGLISE, Rouvray-Catillon",
+    "lat": 49.574782,
+    "lng": 1.483935,
+    "transactions": [
+      {
+        "date": "2021-12-16",
+        "priceEur": 190500,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "8bd2df243280": {
+    "id": "8bd2df243280",
+    "label": "249 RTE DE SIGY, Rouvray-Catillon",
+    "lat": 49.569943,
+    "lng": 1.484729,
+    "transactions": [
+      {
+        "date": "2021-10-06",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d55ed1afd27": {
+    "id": "3d55ed1afd27",
+    "label": "240 RUE DE L EGLISE, Rouvray-Catillon",
+    "lat": 49.57499,
+    "lng": 1.484725,
+    "transactions": [
+      {
+        "date": "2023-02-13",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "bceb18309890": {
+    "id": "bceb18309890",
+    "label": "264 RUE JEHAN DE ROUVRAY, Rouvray-Catillon",
+    "lat": 49.572386,
+    "lng": 1.483238,
+    "transactions": [
+      {
+        "date": "2023-04-07",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

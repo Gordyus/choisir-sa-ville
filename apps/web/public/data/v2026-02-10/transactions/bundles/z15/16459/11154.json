@@ -1,0 +1,189 @@
+{
+  "c3db337c33d7": {
+    "id": "c3db337c33d7",
+    "label": "220 RTE D YVETOT, Berville-en-Caux",
+    "lat": 49.707618,
+    "lng": 0.829792,
+    "transactions": [
+      {
+        "date": "2021-05-10",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "322352c8ab43": {
+    "id": "322352c8ab43",
+    "label": "261 RTE DE DOUDEVILLE, Berville-en-Caux",
+    "lat": 49.710098,
+    "lng": 0.82902,
+    "transactions": [
+      {
+        "date": "2021-09-04",
+        "priceEur": 109500,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "75d71f91d52e": {
+    "id": "75d71f91d52e",
+    "label": "232 RUE DE BOSC MARE, Berville-en-Caux",
+    "lat": 49.709332,
+    "lng": 0.827569,
+    "transactions": [
+      {
+        "date": "2022-05-04",
+        "priceEur": 222200,
+        "typeLocal": "Maison",
+        "surfaceM2": 37,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-04",
+        "priceEur": 222200,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "d216a927ab94": {
+    "id": "d216a927ab94",
+    "label": "397 RTE D YVETOT, Berville-en-Caux",
+    "lat": 49.706239,
+    "lng": 0.828378,
+    "transactions": [
+      {
+        "date": "2022-05-25",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "33b750c293c2": {
+    "id": "33b750c293c2",
+    "label": "260 RUE DE BOSC MARE, Berville-en-Caux",
+    "lat": 49.708862,
+    "lng": 0.827731,
+    "transactions": [
+      {
+        "date": "2022-06-07",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "3539f7874383": {
+    "id": "3539f7874383",
+    "label": "164 RUE DE BOSC MARE, Berville-en-Caux",
+    "lat": 49.709092,
+    "lng": 0.829295,
+    "transactions": [
+      {
+        "date": "2022-12-19",
+        "priceEur": 114000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "46fcf71bd2f4": {
+    "id": "46fcf71bd2f4",
+    "label": "108 RTE DE DOUDEVILLE, Berville-en-Caux",
+    "lat": 49.70932,
+    "lng": 0.832125,
+    "transactions": [
+      {
+        "date": "2023-08-10",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 179,
+        "isVefa": false
+      }
+    ]
+  },
+  "c02893b5f2fa": {
+    "id": "c02893b5f2fa",
+    "label": "2 RTE DE YERVILLE, Berville-en-Caux",
+    "lat": 49.707893,
+    "lng": 0.832332,
+    "transactions": [
+      {
+        "date": "2024-05-31",
+        "priceEur": 470000,
+        "typeLocal": "Maison",
+        "surfaceM2": 225,
+        "isVefa": false
+      }
+    ]
+  },
+  "158fb8ac03ff": {
+    "id": "158fb8ac03ff",
+    "label": "372 RTE D YVETOT, Berville-en-Caux",
+    "lat": 49.70672,
+    "lng": 0.828304,
+    "transactions": [
+      {
+        "date": "2024-09-04",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd32ddbf83c4": {
+    "id": "fd32ddbf83c4",
+    "label": "161 RUE DE BOSC MARE, Berville-en-Caux",
+    "lat": 49.708923,
+    "lng": 0.829252,
+    "transactions": [
+      {
+        "date": "2025-01-27",
+        "priceEur": 91000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "19d148142a97": {
+    "id": "19d148142a97",
+    "label": "10 RUE DES CALETES, Berville-en-Caux",
+    "lat": 49.70614,
+    "lng": 0.826772,
+    "transactions": [
+      {
+        "date": "2025-04-23",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "577e11c0f6f1": {
+    "id": "577e11c0f6f1",
+    "label": "85 RUE DE BOSC MARE, Berville-en-Caux",
+    "lat": 49.708838,
+    "lng": 0.830497,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

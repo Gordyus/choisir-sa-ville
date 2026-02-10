@@ -1,0 +1,39 @@
+{
+  "ff0d6e06d4a6": {
+    "id": "ff0d6e06d4a6",
+    "label": "5750 LA BOISSIERE, Joncels",
+    "lat": 43.755107,
+    "lng": 3.18954,
+    "transactions": [
+      {
+        "date": "2021-03-15",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b2a99f0c2b6": {
+    "id": "2b2a99f0c2b6",
+    "label": "5720 LA BOISSIERE, Joncels",
+    "lat": 43.754604,
+    "lng": 3.18955,
+    "transactions": [
+      {
+        "date": "2024-03-25",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 16,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-15",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 16,
+        "isVefa": false
+      }
+    ]
+  }
+}

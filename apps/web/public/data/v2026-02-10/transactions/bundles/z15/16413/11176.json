@@ -1,0 +1,47 @@
+{
+  "c2eed390c4fb": {
+    "id": "c2eed390c4fb",
+    "label": "1123 RTE DE LA BELLE AU VENT, Épretot",
+    "lat": 49.547344,
+    "lng": 0.324629,
+    "transactions": [
+      {
+        "date": "2022-06-10",
+        "priceEur": 302000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "e3763a03d2ec": {
+    "id": "e3763a03d2ec",
+    "label": "5025 HAMEAU DE BERVILLE, Épretot",
+    "lat": 49.547549,
+    "lng": 0.329029,
+    "transactions": [
+      {
+        "date": "2023-11-23",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "c828bf357de6": {
+    "id": "c828bf357de6",
+    "label": "490 RTE DU HAMEAU DE BERVILLE, Épretot",
+    "lat": 49.54957,
+    "lng": 0.326028,
+    "transactions": [
+      {
+        "date": "2024-06-17",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  }
+}

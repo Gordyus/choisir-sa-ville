@@ -1,0 +1,541 @@
+{
+  "9d6660f4595a": {
+    "id": "9d6660f4595a",
+    "label": "1 RUE DE MOSCOU, Saint-Étienne-du-Rouvray",
+    "lat": 49.396049,
+    "lng": 1.088956,
+    "transactions": [
+      {
+        "date": "2020-09-16",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e94643b0e2a": {
+    "id": "5e94643b0e2a",
+    "label": "72 RUE DE STOCKHOLM, Saint-Étienne-du-Rouvray",
+    "lat": 49.394603,
+    "lng": 1.088711,
+    "transactions": [
+      {
+        "date": "2020-09-24",
+        "priceEur": 221650,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "abc3e3e74ad0": {
+    "id": "abc3e3e74ad0",
+    "label": "2 RUE DE MOSCOU, Saint-Étienne-du-Rouvray",
+    "lat": 49.39645,
+    "lng": 1.08884,
+    "transactions": [
+      {
+        "date": "2020-10-05",
+        "priceEur": 184000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "472c1d26b895": {
+    "id": "472c1d26b895",
+    "label": "4 RUE DE MOSCOU, Saint-Étienne-du-Rouvray",
+    "lat": 49.396438,
+    "lng": 1.088733,
+    "transactions": [
+      {
+        "date": "2020-10-14",
+        "priceEur": 176000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6bb6165d9d1": {
+    "id": "f6bb6165d9d1",
+    "label": "2 RUE DES ANEMONES, Saint-Étienne-du-Rouvray",
+    "lat": 49.390516,
+    "lng": 1.095105,
+    "transactions": [
+      {
+        "date": "2020-11-06",
+        "priceEur": 83000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc7a8479720c": {
+    "id": "cc7a8479720c",
+    "label": "9 RUE DES GIROFLEES, Saint-Étienne-du-Rouvray",
+    "lat": 49.39308,
+    "lng": 1.088605,
+    "transactions": [
+      {
+        "date": "2020-12-22",
+        "priceEur": 209700,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c841d5ed699": {
+    "id": "7c841d5ed699",
+    "label": "50 RUE DE STOCKHOLM, Saint-Étienne-du-Rouvray",
+    "lat": 49.395608,
+    "lng": 1.088937,
+    "transactions": [
+      {
+        "date": "2021-04-12",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "7febaf573943": {
+    "id": "7febaf573943",
+    "label": "38 AV D AMSTERDAM, Saint-Étienne-du-Rouvray",
+    "lat": 49.396455,
+    "lng": 1.089088,
+    "transactions": [
+      {
+        "date": "2021-08-25",
+        "priceEur": 156000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7a9787628dc": {
+    "id": "f7a9787628dc",
+    "label": "6 RUE DES HORTENSIAS, Saint-Étienne-du-Rouvray",
+    "lat": 49.390142,
+    "lng": 1.090742,
+    "transactions": [
+      {
+        "date": "2021-08-27",
+        "priceEur": 530000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-27",
+        "priceEur": 530000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-27",
+        "priceEur": 530000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "d38fdc85de22": {
+    "id": "d38fdc85de22",
+    "label": "6 RUE DE MOSCOU, Saint-Étienne-du-Rouvray",
+    "lat": 49.396421,
+    "lng": 1.088571,
+    "transactions": [
+      {
+        "date": "2021-12-06",
+        "priceEur": 187000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "37a9623de17d": {
+    "id": "37a9623de17d",
+    "label": "11 RUE DES GIROFLEES, Saint-Étienne-du-Rouvray",
+    "lat": 49.392912,
+    "lng": 1.088689,
+    "transactions": [
+      {
+        "date": "2022-04-19",
+        "priceEur": 203500,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "f79594cb4087": {
+    "id": "f79594cb4087",
+    "label": "74 RUE DE STOCKHOLM, Saint-Étienne-du-Rouvray",
+    "lat": 49.39449,
+    "lng": 1.088696,
+    "transactions": [
+      {
+        "date": "2022-08-02",
+        "priceEur": 222800,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "d544759a13f5": {
+    "id": "d544759a13f5",
+    "label": "9 RUE DE MOSCOU, Saint-Étienne-du-Rouvray",
+    "lat": 49.395978,
+    "lng": 1.088432,
+    "transactions": [
+      {
+        "date": "2022-09-29",
+        "priceEur": 187000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "f928fb157777": {
+    "id": "f928fb157777",
+    "label": "17 RUE DE MOSCOU, Saint-Étienne-du-Rouvray",
+    "lat": 49.395923,
+    "lng": 1.087883,
+    "transactions": [
+      {
+        "date": "2023-03-30",
+        "priceEur": 203000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "0af53e3cb314": {
+    "id": "0af53e3cb314",
+    "label": "65 RUE DE STOCKHOLM, Saint-Étienne-du-Rouvray",
+    "lat": 49.394649,
+    "lng": 1.089191,
+    "transactions": [
+      {
+        "date": "2023-03-31",
+        "priceEur": 145450.23,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c67558ad44e": {
+    "id": "3c67558ad44e",
+    "label": "61 RUE DE STOCKHOLM, Saint-Étienne-du-Rouvray",
+    "lat": 49.39489,
+    "lng": 1.089244,
+    "transactions": [
+      {
+        "date": "2023-03-31",
+        "priceEur": 176220,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd375a4398ca": {
+    "id": "dd375a4398ca",
+    "label": "69 RUE DE STOCKHOLM, Saint-Étienne-du-Rouvray",
+    "lat": 49.394394,
+    "lng": 1.089181,
+    "transactions": [
+      {
+        "date": "2023-03-31",
+        "priceEur": 178065.9,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e35994043c2": {
+    "id": "5e35994043c2",
+    "label": "2B RUE DES ANEMONES, Saint-Étienne-du-Rouvray",
+    "lat": 49.390883,
+    "lng": 1.094566,
+    "transactions": [
+      {
+        "date": "2023-04-20",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "cbb95c96bace": {
+    "id": "cbb95c96bace",
+    "label": "73 RUE DE STOCKHOLM, Saint-Étienne-du-Rouvray",
+    "lat": 49.394152,
+    "lng": 1.089115,
+    "transactions": [
+      {
+        "date": "2023-04-28",
+        "priceEur": 153450,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a4b78e47b36": {
+    "id": "6a4b78e47b36",
+    "label": "67 RUE DE STOCKHOLM, Saint-Étienne-du-Rouvray",
+    "lat": 49.394572,
+    "lng": 1.089171,
+    "transactions": [
+      {
+        "date": "2023-04-28",
+        "priceEur": 153450,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "d05985138aa1": {
+    "id": "d05985138aa1",
+    "label": "63 RUE DE STOCKHOLM, Saint-Étienne-du-Rouvray",
+    "lat": 49.394829,
+    "lng": 1.089232,
+    "transactions": [
+      {
+        "date": "2023-04-28",
+        "priceEur": 176220,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "f92ea76100fa": {
+    "id": "f92ea76100fa",
+    "label": "2 RUE DES BEGONIAS, Saint-Étienne-du-Rouvray",
+    "lat": 49.391334,
+    "lng": 1.094204,
+    "transactions": [
+      {
+        "date": "2023-05-30",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f8c593c827f": {
+    "id": "7f8c593c827f",
+    "label": "12 AV DES PLATANES, Saint-Étienne-du-Rouvray",
+    "lat": 49.392979,
+    "lng": 1.096891,
+    "transactions": [
+      {
+        "date": "2023-07-05",
+        "priceEur": 281000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1f11882e1bf": {
+    "id": "f1f11882e1bf",
+    "label": "12 RUE DE MADRID, Saint-Étienne-du-Rouvray",
+    "lat": 49.394907,
+    "lng": 1.087927,
+    "transactions": [
+      {
+        "date": "2023-07-13",
+        "priceEur": 221080,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "92f4801651f1": {
+    "id": "92f4801651f1",
+    "label": "75 RUE DE STOCKHOLM, Saint-Étienne-du-Rouvray",
+    "lat": 49.394078,
+    "lng": 1.089066,
+    "transactions": [
+      {
+        "date": "2023-07-25",
+        "priceEur": 153450,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b7396a713e4": {
+    "id": "5b7396a713e4",
+    "label": "54 RUE DE STOCKHOLM, Saint-Étienne-du-Rouvray",
+    "lat": 49.395481,
+    "lng": 1.088909,
+    "transactions": [
+      {
+        "date": "2023-10-10",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "a8ea77cc353f": {
+    "id": "a8ea77cc353f",
+    "label": "11 RUE DES JONQUILLES, Saint-Étienne-du-Rouvray",
+    "lat": 49.39238,
+    "lng": 1.093508,
+    "transactions": [
+      {
+        "date": "2024-05-24",
+        "priceEur": 182000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1f857c475ca": {
+    "id": "a1f857c475ca",
+    "label": "36 AV D AMSTERDAM, Saint-Étienne-du-Rouvray",
+    "lat": 49.396569,
+    "lng": 1.089092,
+    "transactions": [
+      {
+        "date": "2024-06-27",
+        "priceEur": 136000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "422214bc75c3": {
+    "id": "422214bc75c3",
+    "label": "40 AV D AMSTERDAM, Saint-Étienne-du-Rouvray",
+    "lat": 49.396396,
+    "lng": 1.089092,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "357ad2d2647b": {
+    "id": "357ad2d2647b",
+    "label": "6 RUE PIERRE LUGAT, Saint-Étienne-du-Rouvray",
+    "lat": 49.395277,
+    "lng": 1.089347,
+    "transactions": [
+      {
+        "date": "2024-08-30",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "91a989c696bf": {
+    "id": "91a989c696bf",
+    "label": "33 RUE JEAN MOULIN, Saint-Étienne-du-Rouvray",
+    "lat": 49.3944,
+    "lng": 1.087834,
+    "transactions": [
+      {
+        "date": "2024-09-26",
+        "priceEur": 147000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "d450fea6016d": {
+    "id": "d450fea6016d",
+    "label": "10 RUE PIERRE LUGAT, Saint-Étienne-du-Rouvray",
+    "lat": 49.39504,
+    "lng": 1.089309,
+    "transactions": [
+      {
+        "date": "2024-12-17",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "79233acc935b": {
+    "id": "79233acc935b",
+    "label": "8 RUE MARCEL PAUL, Saint-Étienne-du-Rouvray",
+    "lat": 49.39357,
+    "lng": 1.088184,
+    "transactions": [
+      {
+        "date": "2025-02-07",
+        "priceEur": 218350,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e7cae96045f": {
+    "id": "8e7cae96045f",
+    "label": "16 RUE MARCEL PAUL, Saint-Étienne-du-Rouvray",
+    "lat": 49.393501,
+    "lng": 1.087748,
+    "transactions": [
+      {
+        "date": "2025-03-13",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6548de4b89b": {
+    "id": "b6548de4b89b",
+    "label": "71 RUE DE STOCKHOLM, Saint-Étienne-du-Rouvray",
+    "lat": 49.394332,
+    "lng": 1.089155,
+    "transactions": [
+      {
+        "date": "2025-03-28",
+        "priceEur": 176220,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

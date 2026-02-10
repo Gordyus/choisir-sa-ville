@@ -1,0 +1,84 @@
+{
+  "e26264fd9ef2": {
+    "id": "e26264fd9ef2",
+    "label": "9000 MARE DUPLESSIS, Bosc-Guérard-Saint-Adrien",
+    "lat": 49.53891,
+    "lng": 1.120933,
+    "transactions": [
+      {
+        "date": "2023-06-13",
+        "priceEur": 628000,
+        "typeLocal": "Maison",
+        "surfaceM2": 226,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-22",
+        "priceEur": 628000,
+        "typeLocal": "Maison",
+        "surfaceM2": 226,
+        "isVefa": false
+      }
+    ]
+  },
+  "469ee4867e1a": {
+    "id": "469ee4867e1a",
+    "label": "50 RTE DE LA MI-VOIE, Bosc-Guérard-Saint-Adrien",
+    "lat": 49.534,
+    "lng": 1.126599,
+    "transactions": [
+      {
+        "date": "2021-10-07",
+        "priceEur": 1,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9b51de816bf": {
+    "id": "b9b51de816bf",
+    "label": "987 RTE D'ISNEAUVILLE, Bosc-Guérard-Saint-Adrien",
+    "lat": 49.538222,
+    "lng": 1.123102,
+    "transactions": [
+      {
+        "date": "2023-01-13",
+        "priceEur": 357500,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "4026bdd4c31c": {
+    "id": "4026bdd4c31c",
+    "label": "937 RTE D'ISNEAUVILLE, Bosc-Guérard-Saint-Adrien",
+    "lat": 49.538026,
+    "lng": 1.123476,
+    "transactions": [
+      {
+        "date": "2023-12-29",
+        "priceEur": 294000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "1763bb6a24c7": {
+    "id": "1763bb6a24c7",
+    "label": "1047 RTE D'ISNEAUVILLE, Bosc-Guérard-Saint-Adrien",
+    "lat": 49.53853,
+    "lng": 1.122162,
+    "transactions": [
+      {
+        "date": "2025-01-15",
+        "priceEur": 369000,
+        "typeLocal": "Maison",
+        "surfaceM2": 159,
+        "isVefa": false
+      }
+    ]
+  }
+}

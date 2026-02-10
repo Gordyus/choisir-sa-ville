@@ -1,0 +1,39 @@
+{
+  "2a3d09d6a8fb": {
+    "id": "2a3d09d6a8fb",
+    "label": "536 RUE VERTE, Zuytpeene",
+    "lat": 50.780901,
+    "lng": 2.39245,
+    "transactions": [
+      {
+        "date": "2024-09-12",
+        "priceEur": 67500,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-13",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "767657ef4fa2": {
+    "id": "767657ef4fa2",
+    "label": "561 RUE VERTE, Zuytpeene",
+    "lat": 50.782763,
+    "lng": 2.393711,
+    "transactions": [
+      {
+        "date": "2025-04-18",
+        "priceEur": 218850,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  }
+}

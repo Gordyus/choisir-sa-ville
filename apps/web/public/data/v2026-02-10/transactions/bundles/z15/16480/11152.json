@@ -1,0 +1,114 @@
+{
+  "0af2321bf793": {
+    "id": "0af2321bf793",
+    "label": "678B RUE NAMSOS, Biville-la-Baignarde",
+    "lat": 49.719373,
+    "lng": 1.054714,
+    "transactions": [
+      {
+        "date": "2020-09-29",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "8dd6408c7f99": {
+    "id": "8dd6408c7f99",
+    "label": "811 RUE DES SOUPIRS, Biville-la-Baignarde",
+    "lat": 49.71903,
+    "lng": 1.055528,
+    "transactions": [
+      {
+        "date": "2024-07-03",
+        "priceEur": 198034,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-19",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e51bbacad79": {
+    "id": "5e51bbacad79",
+    "label": "26 VOIE HENRI IV, Biville-la-Baignarde",
+    "lat": 49.718585,
+    "lng": 1.055018,
+    "transactions": [
+      {
+        "date": "2021-10-08",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "c831b6ec4405": {
+    "id": "c831b6ec4405",
+    "label": "673 RUE NAMSOS, Biville-la-Baignarde",
+    "lat": 49.719165,
+    "lng": 1.057999,
+    "transactions": [
+      {
+        "date": "2022-04-22",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "63d6170399e1": {
+    "id": "63d6170399e1",
+    "label": "27 VOIE HENRI IV, Biville-la-Baignarde",
+    "lat": 49.717658,
+    "lng": 1.054813,
+    "transactions": [
+      {
+        "date": "2022-05-12",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "3666d7d5f52d": {
+    "id": "3666d7d5f52d",
+    "label": "678 RUE NAMSOS, Biville-la-Baignarde",
+    "lat": 49.717725,
+    "lng": 1.057914,
+    "transactions": [
+      {
+        "date": "2023-07-27",
+        "priceEur": 420160,
+        "typeLocal": "Maison",
+        "surfaceM2": 216,
+        "isVefa": false
+      }
+    ]
+  },
+  "061f0c89c1fe": {
+    "id": "061f0c89c1fe",
+    "label": "605 RUE NAMSOS, Biville-la-Baignarde",
+    "lat": 49.719258,
+    "lng": 1.057207,
+    "transactions": [
+      {
+        "date": "2025-02-26",
+        "priceEur": 97500,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

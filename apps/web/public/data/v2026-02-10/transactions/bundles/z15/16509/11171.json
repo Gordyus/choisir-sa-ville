@@ -1,0 +1,46 @@
+{
+  "68daeb593974": {
+    "id": "68daeb593974",
+    "label": "70 RTE DE FORGES BOSC ROGER S/BUC, Buchy",
+    "lat": 49.587434,
+    "lng": 1.376245,
+    "transactions": [
+      {
+        "date": "2024-07-09",
+        "priceEur": 645000,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-27",
+        "priceEur": 455000,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      }
+    ]
+  },
+  "9844f48e2bae": {
+    "id": "9844f48e2bae",
+    "label": "72 RTE DE FORGES BOSC ROGER S/BUC, Buchy",
+    "lat": 49.587836,
+    "lng": 1.377703,
+    "transactions": [
+      {
+        "date": "2024-07-09",
+        "priceEur": 645000,
+        "typeLocal": "Maison",
+        "surfaceM2": 34,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-27",
+        "priceEur": 455000,
+        "typeLocal": "Maison",
+        "surfaceM2": 34,
+        "isVefa": false
+      }
+    ]
+  }
+}

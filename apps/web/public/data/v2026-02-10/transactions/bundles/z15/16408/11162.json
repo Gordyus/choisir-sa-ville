@@ -1,0 +1,129 @@
+{
+  "6c4761911fa3": {
+    "id": "6c4761911fa3",
+    "label": "24 RUE D HAREAUVILLE, Criquetot-l'Esneval",
+    "lat": 49.647024,
+    "lng": 0.2703,
+    "transactions": [
+      {
+        "date": "2022-07-01",
+        "priceEur": 346000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-01",
+        "priceEur": 5196,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "9802d549d82a": {
+    "id": "9802d549d82a",
+    "label": "2 RES LES CAMPAGNOLS, Criquetot-l'Esneval",
+    "lat": 49.647995,
+    "lng": 0.269806,
+    "transactions": [
+      {
+        "date": "2022-07-01",
+        "priceEur": 254000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "71ecb2559af9": {
+    "id": "71ecb2559af9",
+    "label": "21 RUE DU MERLIN, Criquetot-l'Esneval",
+    "lat": 49.646565,
+    "lng": 0.270438,
+    "transactions": [
+      {
+        "date": "2022-08-04",
+        "priceEur": 263000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "4cc472820e26": {
+    "id": "4cc472820e26",
+    "label": "3 RES LES CAMPAGNOLS, Criquetot-l'Esneval",
+    "lat": 49.64791,
+    "lng": 0.269506,
+    "transactions": [
+      {
+        "date": "2023-04-27",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "e017375c8970": {
+    "id": "e017375c8970",
+    "label": "108 RUE DES CAMPAGNOLS, Criquetot-l'Esneval",
+    "lat": 49.648745,
+    "lng": 0.268222,
+    "transactions": [
+      {
+        "date": "2023-08-30",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0c53db3f248": {
+    "id": "a0c53db3f248",
+    "label": "5323 LE BEUZEBOC, Criquetot-l'Esneval",
+    "lat": 49.647562,
+    "lng": 0.267166,
+    "transactions": [
+      {
+        "date": "2023-11-10",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "2213c39f78b5": {
+    "id": "2213c39f78b5",
+    "label": "1 IMP DES HORTENSIAS, Criquetot-l'Esneval",
+    "lat": 49.646721,
+    "lng": 0.271578,
+    "transactions": [
+      {
+        "date": "2024-01-31",
+        "priceEur": 334000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e4191267f40": {
+    "id": "5e4191267f40",
+    "label": "17 RUE DU MERLIN, Criquetot-l'Esneval",
+    "lat": 49.646469,
+    "lng": 0.271234,
+    "transactions": [
+      {
+        "date": "2024-12-19",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

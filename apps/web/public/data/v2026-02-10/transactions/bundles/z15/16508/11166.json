@@ -1,0 +1,32 @@
+{
+  "894ac955cc51": {
+    "id": "894ac955cc51",
+    "label": "5082 LE BOURG, Mathonville",
+    "lat": 49.619798,
+    "lng": 1.372534,
+    "transactions": [
+      {
+        "date": "2023-04-11",
+        "priceEur": 182700,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "ef2e25726ba6": {
+    "id": "ef2e25726ba6",
+    "label": "441 RTE DE SAVEAUMARE, Mathonville",
+    "lat": 49.620246,
+    "lng": 1.37267,
+    "transactions": [
+      {
+        "date": "2024-09-03",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

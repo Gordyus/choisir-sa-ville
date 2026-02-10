@@ -1,0 +1,114 @@
+{
+  "35e3473db810": {
+    "id": "35e3473db810",
+    "label": "1171 RUE GRANDE, Warlaing",
+    "lat": 50.410545,
+    "lng": 3.315921,
+    "transactions": [
+      {
+        "date": "2020-08-03",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "119c6924a265": {
+    "id": "119c6924a265",
+    "label": "1380 RUE GRANDE, Warlaing",
+    "lat": 50.41076,
+    "lng": 3.313174,
+    "transactions": [
+      {
+        "date": "2025-06-17",
+        "priceEur": 240150,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-28",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "fadf63c83c7a": {
+    "id": "fadf63c83c7a",
+    "label": "1420 RUE GRANDE, Warlaing",
+    "lat": 50.41082,
+    "lng": 3.312535,
+    "transactions": [
+      {
+        "date": "2022-01-28",
+        "priceEur": 410000,
+        "typeLocal": "Maison",
+        "surfaceM2": 217,
+        "isVefa": false
+      }
+    ]
+  },
+  "40392485460d": {
+    "id": "40392485460d",
+    "label": "1139 RUE GRANDE, Warlaing",
+    "lat": 50.410564,
+    "lng": 3.316484,
+    "transactions": [
+      {
+        "date": "2022-07-04",
+        "priceEur": 360650,
+        "typeLocal": "Maison",
+        "surfaceM2": 197,
+        "isVefa": false
+      }
+    ]
+  },
+  "9367ac405310": {
+    "id": "9367ac405310",
+    "label": "288 RUE FIRMAINE, Warlaing",
+    "lat": 50.413194,
+    "lng": 3.315856,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 383500,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "b278b1f1b49b": {
+    "id": "b278b1f1b49b",
+    "label": "167 RUE FIRMAINE, Warlaing",
+    "lat": 50.412221,
+    "lng": 3.316504,
+    "transactions": [
+      {
+        "date": "2022-10-27",
+        "priceEur": 522000,
+        "typeLocal": "Maison",
+        "surfaceM2": 189,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7817db99a72": {
+    "id": "c7817db99a72",
+    "label": "1226 RUE GRANDE, Warlaing",
+    "lat": 50.410883,
+    "lng": 3.314927,
+    "transactions": [
+      {
+        "date": "2025-04-07",
+        "priceEur": 103000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

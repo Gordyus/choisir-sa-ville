@@ -1,0 +1,32 @@
+{
+  "8f5faae5eb30": {
+    "id": "8f5faae5eb30",
+    "label": "5014 RTE DES NEIGES COUD-VILLAGE, Téteghem-Coudekerque-Village",
+    "lat": 50.997576,
+    "lng": 2.435523,
+    "transactions": [
+      {
+        "date": "2021-01-12",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "b698370b493c": {
+    "id": "b698370b493c",
+    "label": "1126 RTE DES NEIGES COUD-VILLAGE, Téteghem-Coudekerque-Village",
+    "lat": 50.997375,
+    "lng": 2.436103,
+    "transactions": [
+      {
+        "date": "2021-07-29",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

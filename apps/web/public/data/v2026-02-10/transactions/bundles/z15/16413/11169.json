@@ -1,0 +1,47 @@
+{
+  "1bc520e1c51e": {
+    "id": "1bc520e1c51e",
+    "label": "3301 RTE DU PAYS DE CAUX, Angerville-l'Orcher",
+    "lat": 49.600132,
+    "lng": 0.326571,
+    "transactions": [
+      {
+        "date": "2022-04-14",
+        "priceEur": 334750,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "a27f3f1ec0df": {
+    "id": "a27f3f1ec0df",
+    "label": "163 RTE DES ORMES, Manneville-la-Goupil",
+    "lat": 49.603445,
+    "lng": 0.328955,
+    "transactions": [
+      {
+        "date": "2023-02-08",
+        "priceEur": 39000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "4bb335a89cee": {
+    "id": "4bb335a89cee",
+    "label": "3100 RTE DU PAYS DE CAUX, Angerville-l'Orcher",
+    "lat": 49.59891,
+    "lng": 0.324685,
+    "transactions": [
+      {
+        "date": "2025-04-01",
+        "priceEur": 206000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  }
+}

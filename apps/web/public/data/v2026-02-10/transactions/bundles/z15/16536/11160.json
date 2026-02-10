@@ -1,0 +1,47 @@
+{
+  "a137b63e833f": {
+    "id": "a137b63e833f",
+    "label": "5135 PIERREMENT, Criquiers",
+    "lat": 49.663498,
+    "lng": 1.674391,
+    "transactions": [
+      {
+        "date": "2021-05-31",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "cdf67ba39ff1": {
+    "id": "cdf67ba39ff1",
+    "label": "5134 PIERREMENT, Criquiers",
+    "lat": 49.663373,
+    "lng": 1.674707,
+    "transactions": [
+      {
+        "date": "2022-12-16",
+        "priceEur": 173000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "b52ec33e6b1e": {
+    "id": "b52ec33e6b1e",
+    "label": "6 RUE DE PIERREMENT, Criquiers",
+    "lat": 49.662202,
+    "lng": 1.675857,
+    "transactions": [
+      {
+        "date": "2023-03-29",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  }
+}

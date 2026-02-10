@@ -1,0 +1,32 @@
+{
+  "63e7adb84624": {
+    "id": "63e7adb84624",
+    "label": "533 RUE JULES GUEVILLE, Yerville",
+    "lat": 49.670159,
+    "lng": 0.889814,
+    "transactions": [
+      {
+        "date": "2021-06-03",
+        "priceEur": 370700,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "e638c108e1e2": {
+    "id": "e638c108e1e2",
+    "label": "5812 BOIS DE RIBEAUMART, Yerville",
+    "lat": 49.670964,
+    "lng": 0.888111,
+    "transactions": [
+      {
+        "date": "2021-11-09",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  }
+}

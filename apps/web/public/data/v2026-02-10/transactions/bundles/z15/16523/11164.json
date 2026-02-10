@@ -1,0 +1,77 @@
+{
+  "1c292892811e": {
+    "id": "1c292892811e",
+    "label": "456 RTE DU BASTRINGUE, Beaubec-la-Rosière",
+    "lat": 49.63454,
+    "lng": 1.530418,
+    "transactions": [
+      {
+        "date": "2022-12-16",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "4288b3964b54": {
+    "id": "4288b3964b54",
+    "label": "5212 LE MOULIN A VENT, Beaubec-la-Rosière",
+    "lat": 49.632709,
+    "lng": 1.533072,
+    "transactions": [
+      {
+        "date": "2023-11-21",
+        "priceEur": 229300,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "619ec3ff8b68": {
+    "id": "619ec3ff8b68",
+    "label": "462 RUE DE LA COTE DU BASTRINGUE, Beaubec-la-Rosière",
+    "lat": 49.635824,
+    "lng": 1.529027,
+    "transactions": [
+      {
+        "date": "2024-06-19",
+        "priceEur": 185400,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd7db356b03a": {
+    "id": "cd7db356b03a",
+    "label": "200 RUE DE LA COTE DU BASTRINGUE, Beaubec-la-Rosière",
+    "lat": 49.633805,
+    "lng": 1.53157,
+    "transactions": [
+      {
+        "date": "2025-02-12",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "70d6eac9ed0f": {
+    "id": "70d6eac9ed0f",
+    "label": "40 RUE DE LA COTE DU BASTRINGUE, Beaubec-la-Rosière",
+    "lat": 49.632522,
+    "lng": 1.533311,
+    "transactions": [
+      {
+        "date": "2025-04-23",
+        "priceEur": 174000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  }
+}

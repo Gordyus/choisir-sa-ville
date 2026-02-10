@@ -1,0 +1,5256 @@
+{
+  "d7aac2c1d2bd": {
+    "id": "d7aac2c1d2bd",
+    "label": "34 RUE PASTEUR, Saint-André-lez-Lille",
+    "lat": 50.657477,
+    "lng": 3.054465,
+    "transactions": [
+      {
+        "date": "2020-07-13",
+        "priceEur": 242990,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "c231726f7995": {
+    "id": "c231726f7995",
+    "label": "10 RUE DU CIMETIERE, La Madeleine",
+    "lat": 50.658209,
+    "lng": 3.064274,
+    "transactions": [
+      {
+        "date": "2023-11-24",
+        "priceEur": 326400,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-10",
+        "priceEur": 262000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a6e30dfd0e8": {
+    "id": "6a6e30dfd0e8",
+    "label": "12 RUE DU CIMETIERE, La Madeleine",
+    "lat": 50.658285,
+    "lng": 3.064293,
+    "transactions": [
+      {
+        "date": "2020-07-10",
+        "priceEur": 358000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "f80669583d52": {
+    "id": "f80669583d52",
+    "label": "36 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655521,
+    "lng": 3.062677,
+    "transactions": [
+      {
+        "date": "2020-07-09",
+        "priceEur": 261500,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "136e168b9b1f": {
+    "id": "136e168b9b1f",
+    "label": "3 PL JEAN MOULIN, La Madeleine",
+    "lat": 50.655865,
+    "lng": 3.05818,
+    "transactions": [
+      {
+        "date": "2024-01-30",
+        "priceEur": 162500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-29",
+        "priceEur": 250500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-25",
+        "priceEur": 175500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-12",
+        "priceEur": 271700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-12",
+        "priceEur": 235000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-28",
+        "priceEur": 156380,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b3dc521f660": {
+    "id": "5b3dc521f660",
+    "label": "70 RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.659345,
+    "lng": 3.057948,
+    "transactions": [
+      {
+        "date": "2023-08-10",
+        "priceEur": 288750,
+        "typeLocal": "Appartement",
+        "surfaceM2": 77,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-08",
+        "priceEur": 224000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 77,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-07",
+        "priceEur": 152900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-23",
+        "priceEur": 328400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 92,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-30",
+        "priceEur": 158000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-06",
+        "priceEur": 250500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-15",
+        "priceEur": 293000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 92,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-03",
+        "priceEur": 155000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-22",
+        "priceEur": 141000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-22",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 51,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-23",
+        "priceEur": 208000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 77,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-18",
+        "priceEur": 138000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-03",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-28",
+        "priceEur": 228150,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-21",
+        "priceEur": 288900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 92,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-17",
+        "priceEur": 134000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-27",
+        "priceEur": 165000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 51,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-30",
+        "priceEur": 189000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d15d3d24521": {
+    "id": "5d15d3d24521",
+    "label": "51 RUE PASTEUR, Saint-André-lez-Lille",
+    "lat": 50.659014,
+    "lng": 3.054664,
+    "transactions": [
+      {
+        "date": "2023-10-20",
+        "priceEur": 232850,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-15",
+        "priceEur": 208960,
+        "typeLocal": "Appartement",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-13",
+        "priceEur": 224200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-29",
+        "priceEur": 215000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-18",
+        "priceEur": 153860,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-10",
+        "priceEur": 182280,
+        "typeLocal": "Appartement",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-22",
+        "priceEur": 148000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "e63d6df36f93": {
+    "id": "e63d6df36f93",
+    "label": "46 RUE NEGRIER, La Madeleine",
+    "lat": 50.656591,
+    "lng": 3.062856,
+    "transactions": [
+      {
+        "date": "2020-07-28",
+        "priceEur": 173000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "28ff98dc56e8": {
+    "id": "28ff98dc56e8",
+    "label": "43 RUE DU CIMETIERE, La Madeleine",
+    "lat": 50.659205,
+    "lng": 3.064485,
+    "transactions": [
+      {
+        "date": "2023-09-15",
+        "priceEur": 273000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-25",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "116db9c3f5ea": {
+    "id": "116db9c3f5ea",
+    "label": "19 RUE DU PRE CATELAN, La Madeleine",
+    "lat": 50.653585,
+    "lng": 3.059788,
+    "transactions": [
+      {
+        "date": "2020-11-09",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-13",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "89cbc3a363d7": {
+    "id": "89cbc3a363d7",
+    "label": "255 RUE DU PDT GEORGES POMPIDOU, La Madeleine",
+    "lat": 50.659044,
+    "lng": 3.06236,
+    "transactions": [
+      {
+        "date": "2020-08-14",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "f133b0ab1f6d": {
+    "id": "f133b0ab1f6d",
+    "label": "57 RUE COURBET, La Madeleine",
+    "lat": 50.655759,
+    "lng": 3.061749,
+    "transactions": [
+      {
+        "date": "2020-09-03",
+        "priceEur": 273048,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c296196e03f": {
+    "id": "7c296196e03f",
+    "label": "4 RUE VICTOR HUGO, Saint-André-lez-Lille",
+    "lat": 50.654449,
+    "lng": 3.05499,
+    "transactions": [
+      {
+        "date": "2023-05-12",
+        "priceEur": 312000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-14",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc48aaea2fda": {
+    "id": "cc48aaea2fda",
+    "label": "32 RUE DU CIMETIERE, La Madeleine",
+    "lat": 50.658614,
+    "lng": 3.064567,
+    "transactions": [
+      {
+        "date": "2020-09-23",
+        "priceEur": 271600,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "fcd11ce28b23": {
+    "id": "fcd11ce28b23",
+    "label": "46 RUE PASTEUR, Saint-André-lez-Lille",
+    "lat": 50.657747,
+    "lng": 3.05461,
+    "transactions": [
+      {
+        "date": "2024-06-17",
+        "priceEur": 164400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-21",
+        "priceEur": 151780,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-19",
+        "priceEur": 118600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 29,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-25",
+        "priceEur": 182000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-24",
+        "priceEur": 82500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-02",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 29,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-17",
+        "priceEur": 158000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-11",
+        "priceEur": 274320,
+        "typeLocal": "Appartement",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-29",
+        "priceEur": 260000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 82,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-17",
+        "priceEur": 246500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c4786ef30d4": {
+    "id": "3c4786ef30d4",
+    "label": "33 RUE DE PERENCHIES, La Madeleine",
+    "lat": 50.658667,
+    "lng": 3.060207,
+    "transactions": [
+      {
+        "date": "2020-09-09",
+        "priceEur": 312000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "d30bbaa40448": {
+    "id": "d30bbaa40448",
+    "label": "26 RUE JOSEPHINE, La Madeleine",
+    "lat": 50.656604,
+    "lng": 3.06294,
+    "transactions": [
+      {
+        "date": "2021-01-27",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-08",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "e223d7d14d20": {
+    "id": "e223d7d14d20",
+    "label": "65 RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.658045,
+    "lng": 3.056694,
+    "transactions": [
+      {
+        "date": "2022-03-01",
+        "priceEur": 319300,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-18",
+        "priceEur": 269000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "2cac8c6a933f": {
+    "id": "2cac8c6a933f",
+    "label": "181 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.654809,
+    "lng": 3.058448,
+    "transactions": [
+      {
+        "date": "2020-09-28",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "80f6992791f4": {
+    "id": "80f6992791f4",
+    "label": "5 ALL DU RIEZ, La Madeleine",
+    "lat": 50.656054,
+    "lng": 3.064894,
+    "transactions": [
+      {
+        "date": "2024-04-24",
+        "priceEur": 240100,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-17",
+        "priceEur": 149000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-07",
+        "priceEur": 168890,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-29",
+        "priceEur": 240000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-14",
+        "priceEur": 214000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-14",
+        "priceEur": 115500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  },
+  "8fedbe38ef18": {
+    "id": "8fedbe38ef18",
+    "label": "45 RUE DU PRE CATELAN, La Madeleine",
+    "lat": 50.654848,
+    "lng": 3.059915,
+    "transactions": [
+      {
+        "date": "2020-09-28",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "c1c21a110386": {
+    "id": "c1c21a110386",
+    "label": "3 ALL DU RIEZ, La Madeleine",
+    "lat": 50.656054,
+    "lng": 3.064894,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 231500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-25",
+        "priceEur": 305380,
+        "typeLocal": "Appartement",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-13",
+        "priceEur": 252900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-14",
+        "priceEur": 243800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-13",
+        "priceEur": 306150,
+        "typeLocal": "Appartement",
+        "surfaceM2": 87,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-28",
+        "priceEur": 140830,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-27",
+        "priceEur": 175630,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-02",
+        "priceEur": 163350,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-23",
+        "priceEur": 209300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-29",
+        "priceEur": 175500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd0f246c1766": {
+    "id": "fd0f246c1766",
+    "label": "48 RUE PASTEUR, Saint-André-lez-Lille",
+    "lat": 50.657747,
+    "lng": 3.05461,
+    "transactions": [
+      {
+        "date": "2024-12-06",
+        "priceEur": 165000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-29",
+        "priceEur": 227000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-21",
+        "priceEur": 332000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-20",
+        "priceEur": 194350,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-19",
+        "priceEur": 336820,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-15",
+        "priceEur": 154755,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-15",
+        "priceEur": 283000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "4290da87633a": {
+    "id": "4290da87633a",
+    "label": "30 RUE DU CIMETIERE, La Madeleine",
+    "lat": 50.658568,
+    "lng": 3.064523,
+    "transactions": [
+      {
+        "date": "2023-07-12",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-14",
+        "priceEur": 262000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b57a68058e8": {
+    "id": "9b57a68058e8",
+    "label": "180 RUE DU PRE CATELAN, La Madeleine",
+    "lat": 50.65902,
+    "lng": 3.062002,
+    "transactions": [
+      {
+        "date": "2020-10-20",
+        "priceEur": 440400,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "f03762981bfb": {
+    "id": "f03762981bfb",
+    "label": "37 RUE D ORAN, La Madeleine",
+    "lat": 50.653977,
+    "lng": 3.058498,
+    "transactions": [
+      {
+        "date": "2020-10-27",
+        "priceEur": 81816,
+        "typeLocal": "Maison",
+        "surfaceM2": 23,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6d1675e817d": {
+    "id": "b6d1675e817d",
+    "label": "55 RUE PASTEUR, Saint-André-lez-Lille",
+    "lat": 50.659014,
+    "lng": 3.054664,
+    "transactions": [
+      {
+        "date": "2023-04-06",
+        "priceEur": 229000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-22",
+        "priceEur": 248000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-22",
+        "priceEur": 229755,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-30",
+        "priceEur": 137200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-06",
+        "priceEur": 156800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b9f88acd22e": {
+    "id": "1b9f88acd22e",
+    "label": "46B RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.656656,
+    "lng": 3.056426,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 273000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-23",
+        "priceEur": 208200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-15",
+        "priceEur": 240000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-03",
+        "priceEur": 266000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-29",
+        "priceEur": 190000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-21",
+        "priceEur": 250500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-01",
+        "priceEur": 395000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 108,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-30",
+        "priceEur": 417800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 105,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-28",
+        "priceEur": 227000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "acf73e775741": {
+    "id": "acf73e775741",
+    "label": "42 RUE NEGRIER, La Madeleine",
+    "lat": 50.656531,
+    "lng": 3.062936,
+    "transactions": [
+      {
+        "date": "2020-11-23",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "c1f1b7347f8b": {
+    "id": "c1f1b7347f8b",
+    "label": "31 RUE AGACHE, La Madeleine",
+    "lat": 50.657994,
+    "lng": 3.060161,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 317000,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  },
+  "caebe486076e": {
+    "id": "caebe486076e",
+    "label": "101 RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.659138,
+    "lng": 3.057033,
+    "transactions": [
+      {
+        "date": "2023-10-13",
+        "priceEur": 175000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-08",
+        "priceEur": 250000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-18",
+        "priceEur": 165000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-12",
+        "priceEur": 130000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-17",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-30",
+        "priceEur": 242000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-04",
+        "priceEur": 163000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-30",
+        "priceEur": 185000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-12",
+        "priceEur": 213000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "9eb90a50f70b": {
+    "id": "9eb90a50f70b",
+    "label": "60 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655511,
+    "lng": 3.061741,
+    "transactions": [
+      {
+        "date": "2020-11-18",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "202c5e66d2b0": {
+    "id": "202c5e66d2b0",
+    "label": "44 RUE PASTEUR, Saint-André-lez-Lille",
+    "lat": 50.657747,
+    "lng": 3.05461,
+    "transactions": [
+      {
+        "date": "2025-05-07",
+        "priceEur": 241000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-19",
+        "priceEur": 222500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-10",
+        "priceEur": 195000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-11",
+        "priceEur": 207000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-10",
+        "priceEur": 240000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-23",
+        "priceEur": 206000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-05",
+        "priceEur": 167600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-07",
+        "priceEur": 240000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-01",
+        "priceEur": 235050,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-07",
+        "priceEur": 198000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-03",
+        "priceEur": 186500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "ebf010f8abd5": {
+    "id": "ebf010f8abd5",
+    "label": "107 RUE DU PRE CATELAN, La Madeleine",
+    "lat": 50.659273,
+    "lng": 3.061308,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 216000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "4eb931f5c22a": {
+    "id": "4eb931f5c22a",
+    "label": "17 RUE AGACHE, La Madeleine",
+    "lat": 50.657985,
+    "lng": 3.060591,
+    "transactions": [
+      {
+        "date": "2022-09-20",
+        "priceEur": 438700,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-30",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "0adc2257b816": {
+    "id": "0adc2257b816",
+    "label": "41 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655064,
+    "lng": 3.063353,
+    "transactions": [
+      {
+        "date": "2020-11-20",
+        "priceEur": 279000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "284a105e3cb9": {
+    "id": "284a105e3cb9",
+    "label": "9 RUE AGACHE, La Madeleine",
+    "lat": 50.657981,
+    "lng": 3.060838,
+    "transactions": [
+      {
+        "date": "2020-12-14",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f41a5d18ae2": {
+    "id": "2f41a5d18ae2",
+    "label": "39 RUE COURBET, La Madeleine",
+    "lat": 50.65574,
+    "lng": 3.062385,
+    "transactions": [
+      {
+        "date": "2024-02-05",
+        "priceEur": 296500,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-22",
+        "priceEur": 279300,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "5550ba3e5cf4": {
+    "id": "5550ba3e5cf4",
+    "label": "47 RUE COURBET, La Madeleine",
+    "lat": 50.655744,
+    "lng": 3.062169,
+    "transactions": [
+      {
+        "date": "2020-12-31",
+        "priceEur": 277000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "97e5d0ad646d": {
+    "id": "97e5d0ad646d",
+    "label": "30E RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.655325,
+    "lng": 3.055188,
+    "transactions": [
+      {
+        "date": "2023-08-25",
+        "priceEur": 169800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-22",
+        "priceEur": 178500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "e7b958370ee1": {
+    "id": "e7b958370ee1",
+    "label": "46 RUE AGACHE, La Madeleine",
+    "lat": 50.658395,
+    "lng": 3.059782,
+    "transactions": [
+      {
+        "date": "2021-01-08",
+        "priceEur": 307500,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "372acb7572ec": {
+    "id": "372acb7572ec",
+    "label": "84 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655574,
+    "lng": 3.061021,
+    "transactions": [
+      {
+        "date": "2021-01-18",
+        "priceEur": 236000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b1361f54102": {
+    "id": "7b1361f54102",
+    "label": "100 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655521,
+    "lng": 3.060273,
+    "transactions": [
+      {
+        "date": "2021-07-21",
+        "priceEur": 180000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-19",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-13",
+        "priceEur": 122000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-18",
+        "priceEur": 360000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-18",
+        "priceEur": 360000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-18",
+        "priceEur": 360000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "6eaf02bbfbd4": {
+    "id": "6eaf02bbfbd4",
+    "label": "76 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655557,
+    "lng": 3.061222,
+    "transactions": [
+      {
+        "date": "2021-02-10",
+        "priceEur": 202550,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "d7465dad27d8": {
+    "id": "d7465dad27d8",
+    "label": "191 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.654564,
+    "lng": 3.057239,
+    "transactions": [
+      {
+        "date": "2021-02-04",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "96cce51c5283": {
+    "id": "96cce51c5283",
+    "label": "5 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655097,
+    "lng": 3.064508,
+    "transactions": [
+      {
+        "date": "2021-02-25",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7861ba9c5d9": {
+    "id": "b7861ba9c5d9",
+    "label": "178 RUE DU PDT GEORGES POMPIDOU, La Madeleine",
+    "lat": 50.657,
+    "lng": 3.06491,
+    "transactions": [
+      {
+        "date": "2021-05-19",
+        "priceEur": 419000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-19",
+        "priceEur": 419000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-25",
+        "priceEur": 470000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "46c4f9b00793": {
+    "id": "46c4f9b00793",
+    "label": "142 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655288,
+    "lng": 3.05892,
+    "transactions": [
+      {
+        "date": "2024-11-29",
+        "priceEur": 268715,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-26",
+        "priceEur": 268435,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "5ce9f19c3f8b": {
+    "id": "5ce9f19c3f8b",
+    "label": "4 RUE NEGRIER, La Madeleine",
+    "lat": 50.656343,
+    "lng": 3.064056,
+    "transactions": [
+      {
+        "date": "2021-03-19",
+        "priceEur": 199555,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "59c442127cca": {
+    "id": "59c442127cca",
+    "label": "44B RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.656656,
+    "lng": 3.056426,
+    "transactions": [
+      {
+        "date": "2024-11-28",
+        "priceEur": 433000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 105,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-20",
+        "priceEur": 281229.9,
+        "typeLocal": "Appartement",
+        "surfaceM2": 69,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-26",
+        "priceEur": 205000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 51,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-11",
+        "priceEur": 250000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-29",
+        "priceEur": 196000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "86a68c531f64": {
+    "id": "86a68c531f64",
+    "label": "55 RUE COURBET, La Madeleine",
+    "lat": 50.655757,
+    "lng": 3.061805,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 294000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-15",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "152d2d7f29c0": {
+    "id": "152d2d7f29c0",
+    "label": "63 RUE DE BERKEM, La Madeleine",
+    "lat": 50.657577,
+    "lng": 3.061664,
+    "transactions": [
+      {
+        "date": "2021-04-28",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "3665868d39a8": {
+    "id": "3665868d39a8",
+    "label": "9002 RUE SAINT JOSEPH, La Madeleine",
+    "lat": 50.656801,
+    "lng": 3.06486,
+    "transactions": [
+      {
+        "date": "2021-09-27",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-05",
+        "priceEur": 130000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-28",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a83ab2c02e0": {
+    "id": "8a83ab2c02e0",
+    "label": "31 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655007,
+    "lng": 3.063649,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 670000,
+        "typeLocal": "Maison",
+        "surfaceM2": 196,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe9e3aef320e": {
+    "id": "fe9e3aef320e",
+    "label": "30D RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.655325,
+    "lng": 3.055188,
+    "transactions": [
+      {
+        "date": "2023-09-29",
+        "priceEur": 194000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-05",
+        "priceEur": 240000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-30",
+        "priceEur": 242500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "f72ef6422611": {
+    "id": "f72ef6422611",
+    "label": "102 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655562,
+    "lng": 3.060155,
+    "transactions": [
+      {
+        "date": "2021-04-20",
+        "priceEur": 138000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "99b676efcad6": {
+    "id": "99b676efcad6",
+    "label": "18 RUE DU QUAI, La Madeleine",
+    "lat": 50.655445,
+    "lng": 3.057837,
+    "transactions": [
+      {
+        "date": "2021-05-10",
+        "priceEur": 322000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "5278b215e5aa": {
+    "id": "5278b215e5aa",
+    "label": "29 RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.656027,
+    "lng": 3.055111,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 364500,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "3758b71571b8": {
+    "id": "3758b71571b8",
+    "label": "218 RUE DU PDT GEORGES POMPIDOU, La Madeleine",
+    "lat": 50.658772,
+    "lng": 3.063451,
+    "transactions": [
+      {
+        "date": "2021-06-07",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c4f9f106f9e": {
+    "id": "8c4f9f106f9e",
+    "label": "39 RUE DU PRE CATELAN, La Madeleine",
+    "lat": 50.654464,
+    "lng": 3.059898,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "457bc55fa48c": {
+    "id": "457bc55fa48c",
+    "label": "6 RUE DU CIMETIERE, La Madeleine",
+    "lat": 50.658132,
+    "lng": 3.064186,
+    "transactions": [
+      {
+        "date": "2021-06-25",
+        "priceEur": 322000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "c40d232e362c": {
+    "id": "c40d232e362c",
+    "label": "50 RUE PASTEUR, Saint-André-lez-Lille",
+    "lat": 50.657747,
+    "lng": 3.05461,
+    "transactions": [
+      {
+        "date": "2021-11-18",
+        "priceEur": 210035,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-12",
+        "priceEur": 192056,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-24",
+        "priceEur": 153385,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "ce4f32346a4a": {
+    "id": "ce4f32346a4a",
+    "label": "14 RUE CONSTANTINE, La Madeleine",
+    "lat": 50.654547,
+    "lng": 3.059473,
+    "transactions": [
+      {
+        "date": "2021-07-06",
+        "priceEur": 222000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "182f51fec22f": {
+    "id": "182f51fec22f",
+    "label": "136 RUE FELIX FAURE, La Madeleine",
+    "lat": 50.659453,
+    "lng": 3.063217,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ee8e3bd468e": {
+    "id": "6ee8e3bd468e",
+    "label": "81 RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.658519,
+    "lng": 3.056896,
+    "transactions": [
+      {
+        "date": "2021-07-09",
+        "priceEur": 266000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "eef3e2c4a633": {
+    "id": "eef3e2c4a633",
+    "label": "114 RUE DU PRE CATELAN, La Madeleine",
+    "lat": 50.657366,
+    "lng": 3.061244,
+    "transactions": [
+      {
+        "date": "2021-07-12",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "191f7228266a": {
+    "id": "191f7228266a",
+    "label": "21 RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.655826,
+    "lng": 3.054946,
+    "transactions": [
+      {
+        "date": "2021-07-29",
+        "priceEur": 307000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "6039a724c31b": {
+    "id": "6039a724c31b",
+    "label": "106 RUE DU PDT GEORGES POMPIDOU, La Madeleine",
+    "lat": 50.656054,
+    "lng": 3.064894,
+    "transactions": [
+      {
+        "date": "2022-11-16",
+        "priceEur": 182000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-24",
+        "priceEur": 171500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-27",
+        "priceEur": 197500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "cbf5ec84a5b5": {
+    "id": "cbf5ec84a5b5",
+    "label": "10 RUE DES COLLETS, La Madeleine",
+    "lat": 50.654895,
+    "lng": 3.063744,
+    "transactions": [
+      {
+        "date": "2021-08-20",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "5aa3ed77f5c8": {
+    "id": "5aa3ed77f5c8",
+    "label": "16 RUE DU QUAI, La Madeleine",
+    "lat": 50.655409,
+    "lng": 3.057789,
+    "transactions": [
+      {
+        "date": "2021-08-19",
+        "priceEur": 341753,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "ba1ae3fb22bf": {
+    "id": "ba1ae3fb22bf",
+    "label": "130 RUE DU PDT GEORGES POMPIDOU, La Madeleine",
+    "lat": 50.656221,
+    "lng": 3.064593,
+    "transactions": [
+      {
+        "date": "2021-09-27",
+        "priceEur": 187500,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "bcfd25aff961": {
+    "id": "bcfd25aff961",
+    "label": "13 RUE DU CIMETIERE, La Madeleine",
+    "lat": 50.658611,
+    "lng": 3.063979,
+    "transactions": [
+      {
+        "date": "2021-09-24",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e08adecfc93": {
+    "id": "4e08adecfc93",
+    "label": "51 RUE COURBET, La Madeleine",
+    "lat": 50.655774,
+    "lng": 3.06191,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 263000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "a21e06984079": {
+    "id": "a21e06984079",
+    "label": "46A RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.656656,
+    "lng": 3.056426,
+    "transactions": [
+      {
+        "date": "2023-07-20",
+        "priceEur": 182000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-14",
+        "priceEur": 175000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-06",
+        "priceEur": 234500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-16",
+        "priceEur": 195000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-08",
+        "priceEur": 172600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-04",
+        "priceEur": 164700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-07",
+        "priceEur": 172000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-30",
+        "priceEur": 227000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "e9a44f748d37": {
+    "id": "e9a44f748d37",
+    "label": "32 AV JOFFRE, La Madeleine",
+    "lat": 50.654253,
+    "lng": 3.064835,
+    "transactions": [
+      {
+        "date": "2024-12-19",
+        "priceEur": 66789.45,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-30",
+        "priceEur": 167200,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "c60646ca9772": {
+    "id": "c60646ca9772",
+    "label": "8 PL DE LA BOUCHERIE, La Madeleine",
+    "lat": 50.65803,
+    "lng": 3.063364,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 420000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a2051bd1e1b": {
+    "id": "2a2051bd1e1b",
+    "label": "116 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655536,
+    "lng": 3.059621,
+    "transactions": [
+      {
+        "date": "2021-10-06",
+        "priceEur": 249600,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d485f82845c": {
+    "id": "1d485f82845c",
+    "label": "151 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.654985,
+    "lng": 3.059347,
+    "transactions": [
+      {
+        "date": "2021-11-03",
+        "priceEur": 460000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "6c67807ea540": {
+    "id": "6c67807ea540",
+    "label": "41 RUE DU PRE CATELAN, La Madeleine",
+    "lat": 50.654725,
+    "lng": 3.059866,
+    "transactions": [
+      {
+        "date": "2021-10-26",
+        "priceEur": 755000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 13,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-26",
+        "priceEur": 755000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-26",
+        "priceEur": 755000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 32,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-26",
+        "priceEur": 755000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-26",
+        "priceEur": 755000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 37,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-26",
+        "priceEur": 755000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "eabce510a2b2": {
+    "id": "eabce510a2b2",
+    "label": "184 RUE DU PDT GEORGES POMPIDOU, La Madeleine",
+    "lat": 50.657155,
+    "lng": 3.064846,
+    "transactions": [
+      {
+        "date": "2021-10-19",
+        "priceEur": 360550,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "0f5ca949bb90": {
+    "id": "0f5ca949bb90",
+    "label": "20 ALL DE WAUDRINGHEM, La Madeleine",
+    "lat": 50.654901,
+    "lng": 3.062541,
+    "transactions": [
+      {
+        "date": "2021-11-09",
+        "priceEur": 387000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "36931c5eda23": {
+    "id": "36931c5eda23",
+    "label": "20 RUE AMAND OSTANDE, La Madeleine",
+    "lat": 50.653612,
+    "lng": 3.058624,
+    "transactions": [
+      {
+        "date": "2021-11-04",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "7de46d6cb89a": {
+    "id": "7de46d6cb89a",
+    "label": "136 RUE DU PDT GEORGES POMPIDOU, La Madeleine",
+    "lat": 50.656359,
+    "lng": 3.064622,
+    "transactions": [
+      {
+        "date": "2021-10-26",
+        "priceEur": 105000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "a6909572438f": {
+    "id": "a6909572438f",
+    "label": "17 RUE DU PRE CATELAN, La Madeleine",
+    "lat": 50.65354,
+    "lng": 3.059768,
+    "transactions": [
+      {
+        "date": "2021-11-10",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "46464d4d8031": {
+    "id": "46464d4d8031",
+    "label": "3 RUE D ORAN, La Madeleine",
+    "lat": 50.654827,
+    "lng": 3.0582,
+    "transactions": [
+      {
+        "date": "2021-11-19",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0b39c569c58": {
+    "id": "c0b39c569c58",
+    "label": "3 RUE DU DOCTEUR CALMETTE, La Madeleine",
+    "lat": 50.653232,
+    "lng": 3.059088,
+    "transactions": [
+      {
+        "date": "2021-12-06",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "26ae04a7bc8a": {
+    "id": "26ae04a7bc8a",
+    "label": "73 RUE COURBET, La Madeleine",
+    "lat": 50.655781,
+    "lng": 3.061299,
+    "transactions": [
+      {
+        "date": "2021-12-06",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "59d6060c315c": {
+    "id": "59d6060c315c",
+    "label": "11 RUE DE PERENCHIES, La Madeleine",
+    "lat": 50.658626,
+    "lng": 3.060914,
+    "transactions": [
+      {
+        "date": "2021-12-16",
+        "priceEur": 303000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "ddd2bf1b04d9": {
+    "id": "ddd2bf1b04d9",
+    "label": "69 RUE SAINTE HELENE, La Madeleine",
+    "lat": 50.657517,
+    "lng": 3.059714,
+    "transactions": [
+      {
+        "date": "2024-09-11",
+        "priceEur": 352800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": true
+      },
+      {
+        "date": "2024-07-31",
+        "priceEur": 508500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 114,
+        "isVefa": true
+      },
+      {
+        "date": "2023-12-19",
+        "priceEur": 414710,
+        "typeLocal": "Appartement",
+        "surfaceM2": 97,
+        "isVefa": true
+      },
+      {
+        "date": "2023-11-23",
+        "priceEur": 275000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": true
+      },
+      {
+        "date": "2023-09-04",
+        "priceEur": 350000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 71,
+        "isVefa": true
+      },
+      {
+        "date": "2023-07-20",
+        "priceEur": 242192.66,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": true
+      },
+      {
+        "date": "2023-05-11",
+        "priceEur": 221000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": true
+      },
+      {
+        "date": "2023-03-22",
+        "priceEur": 299290.66,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": true
+      },
+      {
+        "date": "2022-12-22",
+        "priceEur": 321000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": true
+      },
+      {
+        "date": "2022-12-22",
+        "priceEur": 384000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 86,
+        "isVefa": true
+      },
+      {
+        "date": "2022-11-23",
+        "priceEur": 329000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": true
+      },
+      {
+        "date": "2022-11-16",
+        "priceEur": 292000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": true
+      },
+      {
+        "date": "2022-11-08",
+        "priceEur": 329000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": true
+      },
+      {
+        "date": "2022-11-03",
+        "priceEur": 241000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": true
+      },
+      {
+        "date": "2022-10-18",
+        "priceEur": 232000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": true
+      },
+      {
+        "date": "2022-10-06",
+        "priceEur": 333000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": true
+      },
+      {
+        "date": "2022-09-05",
+        "priceEur": 327000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": true
+      },
+      {
+        "date": "2022-08-25",
+        "priceEur": 318000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": true
+      },
+      {
+        "date": "2021-12-22",
+        "priceEur": 1100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "667d2cc46a19": {
+    "id": "667d2cc46a19",
+    "label": "53 RUE DE BERKEM, La Madeleine",
+    "lat": 50.657518,
+    "lng": 3.061921,
+    "transactions": [
+      {
+        "date": "2025-03-06",
+        "priceEur": 259300,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-05",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e1f5de6dea5": {
+    "id": "9e1f5de6dea5",
+    "label": "11 RUE DU DOCTEUR CALMETTE, La Madeleine",
+    "lat": 50.653047,
+    "lng": 3.059164,
+    "transactions": [
+      {
+        "date": "2022-01-12",
+        "priceEur": 242000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "3003c7350ce4": {
+    "id": "3003c7350ce4",
+    "label": "93 RUE FELIX FAURE, La Madeleine",
+    "lat": 50.65965,
+    "lng": 3.064217,
+    "transactions": [
+      {
+        "date": "2022-01-24",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "5fcef0673894": {
+    "id": "5fcef0673894",
+    "label": "7B RUE JOSEPHINE, La Madeleine",
+    "lat": 50.656648,
+    "lng": 3.06363,
+    "transactions": [
+      {
+        "date": "2022-01-28",
+        "priceEur": 913000,
+        "typeLocal": "Maison",
+        "surfaceM2": 220,
+        "isVefa": false
+      }
+    ]
+  },
+  "717cb3a326d2": {
+    "id": "717cb3a326d2",
+    "label": "40 RUE NEGRIER, La Madeleine",
+    "lat": 50.656519,
+    "lng": 3.062982,
+    "transactions": [
+      {
+        "date": "2022-02-08",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "67b12041165d": {
+    "id": "67b12041165d",
+    "label": "186 RUE DU PDT GEORGES POMPIDOU, La Madeleine",
+    "lat": 50.657288,
+    "lng": 3.064631,
+    "transactions": [
+      {
+        "date": "2022-02-15",
+        "priceEur": 823100,
+        "typeLocal": "Maison",
+        "surfaceM2": 188,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2ee8d63c712": {
+    "id": "e2ee8d63c712",
+    "label": "55 RUE DU PRE CATELAN, La Madeleine",
+    "lat": 50.655088,
+    "lng": 3.059975,
+    "transactions": [
+      {
+        "date": "2022-02-03",
+        "priceEur": 244500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "1812da7536ec": {
+    "id": "1812da7536ec",
+    "label": "207 RUE DU PDT GEORGES POMPIDOU, La Madeleine",
+    "lat": 50.657633,
+    "lng": 3.064041,
+    "transactions": [
+      {
+        "date": "2022-02-14",
+        "priceEur": 72000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 24,
+        "isVefa": false
+      }
+    ]
+  },
+  "f188988dd0aa": {
+    "id": "f188988dd0aa",
+    "label": "102 RUE FELIX FAURE, La Madeleine",
+    "lat": 50.659259,
+    "lng": 3.064477,
+    "transactions": [
+      {
+        "date": "2022-02-21",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "17c0f3e10c0f": {
+    "id": "17c0f3e10c0f",
+    "label": "86 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655579,
+    "lng": 3.060974,
+    "transactions": [
+      {
+        "date": "2022-03-14",
+        "priceEur": 266670,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc93ab4872ff": {
+    "id": "bc93ab4872ff",
+    "label": "51 RUE DE PERENCHIES, La Madeleine",
+    "lat": 50.658676,
+    "lng": 3.059639,
+    "transactions": [
+      {
+        "date": "2022-03-09",
+        "priceEur": 311200,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "1095c64039bc": {
+    "id": "1095c64039bc",
+    "label": "40 RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.655462,
+    "lng": 3.05571,
+    "transactions": [
+      {
+        "date": "2025-01-23",
+        "priceEur": 245150,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-20",
+        "priceEur": 152000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-02",
+        "priceEur": 190000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-11",
+        "priceEur": 289600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d90eb9c73eb": {
+    "id": "5d90eb9c73eb",
+    "label": "3 PL PARDOEN, La Madeleine",
+    "lat": 50.659782,
+    "lng": 3.06042,
+    "transactions": [
+      {
+        "date": "2024-03-08",
+        "priceEur": 191000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-11",
+        "priceEur": 354000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": true
+      },
+      {
+        "date": "2023-01-11",
+        "priceEur": 423000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 96,
+        "isVefa": true
+      },
+      {
+        "date": "2022-12-27",
+        "priceEur": 292500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 69,
+        "isVefa": true
+      },
+      {
+        "date": "2022-12-19",
+        "priceEur": 233662,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": true
+      },
+      {
+        "date": "2022-11-21",
+        "priceEur": 296000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": true
+      },
+      {
+        "date": "2022-10-20",
+        "priceEur": 366000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 81,
+        "isVefa": true
+      },
+      {
+        "date": "2022-10-11",
+        "priceEur": 363000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": true
+      },
+      {
+        "date": "2022-09-29",
+        "priceEur": 296000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": true
+      },
+      {
+        "date": "2022-09-26",
+        "priceEur": 429500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 105,
+        "isVefa": true
+      },
+      {
+        "date": "2022-07-26",
+        "priceEur": 217500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": true
+      },
+      {
+        "date": "2022-07-07",
+        "priceEur": 439500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 103,
+        "isVefa": true
+      },
+      {
+        "date": "2022-06-29",
+        "priceEur": 282500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": true
+      },
+      {
+        "date": "2022-06-23",
+        "priceEur": 323500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": true
+      },
+      {
+        "date": "2022-06-15",
+        "priceEur": 203500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": true
+      },
+      {
+        "date": "2022-06-03",
+        "priceEur": 302000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": true
+      },
+      {
+        "date": "2022-05-30",
+        "priceEur": 549500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 119,
+        "isVefa": true
+      },
+      {
+        "date": "2022-05-24",
+        "priceEur": 368000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 79,
+        "isVefa": true
+      },
+      {
+        "date": "2022-05-12",
+        "priceEur": 306464,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": true
+      },
+      {
+        "date": "2022-05-11",
+        "priceEur": 273500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": true
+      },
+      {
+        "date": "2022-05-06",
+        "priceEur": 237000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": true
+      },
+      {
+        "date": "2022-04-29",
+        "priceEur": 433000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 96,
+        "isVefa": true
+      },
+      {
+        "date": "2022-04-21",
+        "priceEur": 441500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 103,
+        "isVefa": true
+      },
+      {
+        "date": "2022-04-19",
+        "priceEur": 303000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": true
+      },
+      {
+        "date": "2022-04-15",
+        "priceEur": 276500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": true
+      },
+      {
+        "date": "2022-04-08",
+        "priceEur": 217500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": true
+      },
+      {
+        "date": "2022-03-16",
+        "priceEur": 203500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": true
+      },
+      {
+        "date": "2022-03-16",
+        "priceEur": 213500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": true
+      }
+    ]
+  },
+  "ff09be5ba7b8": {
+    "id": "ff09be5ba7b8",
+    "label": "44A RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.656656,
+    "lng": 3.056426,
+    "transactions": [
+      {
+        "date": "2024-12-23",
+        "priceEur": 178000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-15",
+        "priceEur": 212298,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-06",
+        "priceEur": 255000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-13",
+        "priceEur": 208000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-24",
+        "priceEur": 242600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-11",
+        "priceEur": 157800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-24",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "d4a0a53c8a5b": {
+    "id": "d4a0a53c8a5b",
+    "label": "45 RUE COURBET, La Madeleine",
+    "lat": 50.655739,
+    "lng": 3.062224,
+    "transactions": [
+      {
+        "date": "2022-03-28",
+        "priceEur": 228950,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-28",
+        "priceEur": 228950,
+        "typeLocal": "Appartement",
+        "surfaceM2": 14,
+        "isVefa": false
+      }
+    ]
+  },
+  "37a88f368964": {
+    "id": "37a88f368964",
+    "label": "30B RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.655325,
+    "lng": 3.055188,
+    "transactions": [
+      {
+        "date": "2022-03-29",
+        "priceEur": 265600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "f09b290cfc85": {
+    "id": "f09b290cfc85",
+    "label": "93 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655218,
+    "lng": 3.06168,
+    "transactions": [
+      {
+        "date": "2022-03-14",
+        "priceEur": 314400,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe404f99c8df": {
+    "id": "fe404f99c8df",
+    "label": "6 RUE AGACHE, La Madeleine",
+    "lat": 50.658369,
+    "lng": 3.061033,
+    "transactions": [
+      {
+        "date": "2022-04-08",
+        "priceEur": 315900,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "302734a1d6a1": {
+    "id": "302734a1d6a1",
+    "label": "135 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655204,
+    "lng": 3.059835,
+    "transactions": [
+      {
+        "date": "2022-04-13",
+        "priceEur": 276000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ded0c22daf9": {
+    "id": "6ded0c22daf9",
+    "label": "7 RUE DU TISSAGE, La Madeleine",
+    "lat": 50.655138,
+    "lng": 3.061634,
+    "transactions": [
+      {
+        "date": "2022-04-05",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "4fcff4eb9ac6": {
+    "id": "4fcff4eb9ac6",
+    "label": "61 RUE DE BERKEM, La Madeleine",
+    "lat": 50.657565,
+    "lng": 3.061723,
+    "transactions": [
+      {
+        "date": "2022-04-29",
+        "priceEur": 197650,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c928a1b267c": {
+    "id": "0c928a1b267c",
+    "label": "10 PL DE LA BOUCHERIE, La Madeleine",
+    "lat": 50.657993,
+    "lng": 3.063318,
+    "transactions": [
+      {
+        "date": "2022-04-15",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "a48d8fb8383b": {
+    "id": "a48d8fb8383b",
+    "label": "166 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655072,
+    "lng": 3.057914,
+    "transactions": [
+      {
+        "date": "2022-05-11",
+        "priceEur": 369000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3fec3196967": {
+    "id": "b3fec3196967",
+    "label": "3 RUE LOUIS PORION, Saint-André-lez-Lille",
+    "lat": 50.658745,
+    "lng": 3.056687,
+    "transactions": [
+      {
+        "date": "2022-05-20",
+        "priceEur": 188200,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d0585a30f0f": {
+    "id": "0d0585a30f0f",
+    "label": "8 RUE DE PERENCHIES, La Madeleine",
+    "lat": 50.659041,
+    "lng": 3.060748,
+    "transactions": [
+      {
+        "date": "2022-05-12",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "c909a9372331": {
+    "id": "c909a9372331",
+    "label": "267 RUE DU PDT GEORGES POMPIDOU, La Madeleine",
+    "lat": 50.659282,
+    "lng": 3.062338,
+    "transactions": [
+      {
+        "date": "2022-06-08",
+        "priceEur": 233000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "a86fd30b3262": {
+    "id": "a86fd30b3262",
+    "label": "157 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.654866,
+    "lng": 3.059133,
+    "transactions": [
+      {
+        "date": "2022-05-30",
+        "priceEur": 476806,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "f80cc5826eb7": {
+    "id": "f80cc5826eb7",
+    "label": "33 RUE D ORAN, La Madeleine",
+    "lat": 50.654054,
+    "lng": 3.058459,
+    "transactions": [
+      {
+        "date": "2022-06-07",
+        "priceEur": 466000,
+        "typeLocal": "Maison",
+        "surfaceM2": 214,
+        "isVefa": false
+      }
+    ]
+  },
+  "889ce3529fa4": {
+    "id": "889ce3529fa4",
+    "label": "116 RUE FELIX FAURE, La Madeleine",
+    "lat": 50.659326,
+    "lng": 3.063821,
+    "transactions": [
+      {
+        "date": "2022-07-01",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "baeebda98c94": {
+    "id": "baeebda98c94",
+    "label": "48B RUE DU CIMETIERE, La Madeleine",
+    "lat": 50.659421,
+    "lng": 3.065049,
+    "transactions": [
+      {
+        "date": "2022-07-13",
+        "priceEur": 571200,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a8d7ade0762": {
+    "id": "4a8d7ade0762",
+    "label": "77 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655086,
+    "lng": 3.062067,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 89550,
+        "typeLocal": "Appartement",
+        "surfaceM2": 24,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff3a5c882133": {
+    "id": "ff3a5c882133",
+    "label": "7 RUE DE BERKEM, La Madeleine",
+    "lat": 50.656828,
+    "lng": 3.063584,
+    "transactions": [
+      {
+        "date": "2022-07-21",
+        "priceEur": 578700,
+        "typeLocal": "Maison",
+        "surfaceM2": 157,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0cf2a4dfa26": {
+    "id": "e0cf2a4dfa26",
+    "label": "195 RUE DU PDT GEORGES POMPIDOU, La Madeleine",
+    "lat": 50.65731,
+    "lng": 3.064028,
+    "transactions": [
+      {
+        "date": "2022-07-26",
+        "priceEur": 294400,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "82e192afe982": {
+    "id": "82e192afe982",
+    "label": "257 RUE DU PDT GEORGES POMPIDOU, La Madeleine",
+    "lat": 50.659079,
+    "lng": 3.06235,
+    "transactions": [
+      {
+        "date": "2022-07-08",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "47d737d2153d": {
+    "id": "47d737d2153d",
+    "label": "59 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655114,
+    "lng": 3.062564,
+    "transactions": [
+      {
+        "date": "2022-08-02",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "1395e1e3f3d0": {
+    "id": "1395e1e3f3d0",
+    "label": "24 PL DE LA BOUCHERIE, La Madeleine",
+    "lat": 50.657711,
+    "lng": 3.063123,
+    "transactions": [
+      {
+        "date": "2022-07-13",
+        "priceEur": 415000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "8952ac7fd07f": {
+    "id": "8952ac7fd07f",
+    "label": "28 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655507,
+    "lng": 3.063107,
+    "transactions": [
+      {
+        "date": "2022-07-28",
+        "priceEur": 585220,
+        "typeLocal": "Maison",
+        "surfaceM2": 177,
+        "isVefa": false
+      }
+    ]
+  },
+  "c74c542fdf83": {
+    "id": "c74c542fdf83",
+    "label": "23 RUE DU TISSAGE, La Madeleine",
+    "lat": 50.654872,
+    "lng": 3.061685,
+    "transactions": [
+      {
+        "date": "2022-08-09",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "faeb831828ee": {
+    "id": "faeb831828ee",
+    "label": "7 RUE DE LA DELIVRANCE, Saint-André-lez-Lille",
+    "lat": 50.656999,
+    "lng": 3.055539,
+    "transactions": [
+      {
+        "date": "2022-07-27",
+        "priceEur": 390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "21e6a8cc8124": {
+    "id": "21e6a8cc8124",
+    "label": "142 RUE DU PDT GEORGES POMPIDOU, La Madeleine",
+    "lat": 50.656499,
+    "lng": 3.064586,
+    "transactions": [
+      {
+        "date": "2022-08-11",
+        "priceEur": 205435,
+        "typeLocal": "Appartement",
+        "surfaceM2": 51,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-11",
+        "priceEur": 205435,
+        "typeLocal": "Appartement",
+        "surfaceM2": 11,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-11",
+        "priceEur": 205435,
+        "typeLocal": "Appartement",
+        "surfaceM2": 10,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-11",
+        "priceEur": 205435,
+        "typeLocal": "Appartement",
+        "surfaceM2": 18,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-11",
+        "priceEur": 205435,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-11",
+        "priceEur": 205435,
+        "typeLocal": "Appartement",
+        "surfaceM2": 14,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3d2b27f29bc": {
+    "id": "d3d2b27f29bc",
+    "label": "27 RUE DE PERENCHIES, La Madeleine",
+    "lat": 50.658663,
+    "lng": 3.060404,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 271700,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5a0d0ebf68e": {
+    "id": "c5a0d0ebf68e",
+    "label": "99 RUE FELIX FAURE, La Madeleine",
+    "lat": 50.659642,
+    "lng": 3.063959,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 393700,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "651e79de3309": {
+    "id": "651e79de3309",
+    "label": "8 RUE MARCEAU, La Madeleine",
+    "lat": 50.655417,
+    "lng": 3.059033,
+    "transactions": [
+      {
+        "date": "2022-09-22",
+        "priceEur": 217300,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae1797aceaf8": {
+    "id": "ae1797aceaf8",
+    "label": "27 RUE DU TISSAGE, La Madeleine",
+    "lat": 50.65481,
+    "lng": 3.06175,
+    "transactions": [
+      {
+        "date": "2022-09-26",
+        "priceEur": 195880,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "88b53d296677": {
+    "id": "88b53d296677",
+    "label": "43 RUE VICTOR HUGO, Saint-André-lez-Lille",
+    "lat": 50.654587,
+    "lng": 3.054434,
+    "transactions": [
+      {
+        "date": "2022-09-23",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "641c18d80a70": {
+    "id": "641c18d80a70",
+    "label": "71 RUE COURBET, La Madeleine",
+    "lat": 50.655776,
+    "lng": 3.061365,
+    "transactions": [
+      {
+        "date": "2022-10-07",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "3138f0d0b9fb": {
+    "id": "3138f0d0b9fb",
+    "label": "89 RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.65865,
+    "lng": 3.056999,
+    "transactions": [
+      {
+        "date": "2022-10-10",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad47ce166442": {
+    "id": "ad47ce166442",
+    "label": "25 RUE LOUIS PORION, Saint-André-lez-Lille",
+    "lat": 50.658416,
+    "lng": 3.056371,
+    "transactions": [
+      {
+        "date": "2022-10-11",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "9feb2d24d908": {
+    "id": "9feb2d24d908",
+    "label": "82 RUE SAINT JOSEPH, La Madeleine",
+    "lat": 50.656801,
+    "lng": 3.06486,
+    "transactions": [
+      {
+        "date": "2024-03-15",
+        "priceEur": 182000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-04",
+        "priceEur": 124000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-06",
+        "priceEur": 186000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "565f41e697c9": {
+    "id": "565f41e697c9",
+    "label": "51 RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.657723,
+    "lng": 3.05641,
+    "transactions": [
+      {
+        "date": "2023-04-19",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-04",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "844afe558f1e": {
+    "id": "844afe558f1e",
+    "label": "205B RUE DU PDT GEORGES POMPIDOU, La Madeleine",
+    "lat": 50.657526,
+    "lng": 3.063971,
+    "transactions": [
+      {
+        "date": "2022-10-20",
+        "priceEur": 470000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b790730959e": {
+    "id": "8b790730959e",
+    "label": "44 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.65554,
+    "lng": 3.062446,
+    "transactions": [
+      {
+        "date": "2022-10-05",
+        "priceEur": 317000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "296cd0032e86": {
+    "id": "296cd0032e86",
+    "label": "22 RUE JOSEPHINE, La Madeleine",
+    "lat": 50.656688,
+    "lng": 3.062883,
+    "transactions": [
+      {
+        "date": "2022-10-24",
+        "priceEur": 224000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb3eaa4fbcda": {
+    "id": "bb3eaa4fbcda",
+    "label": "249 RUE DU PDT GEORGES POMPIDOU, La Madeleine",
+    "lat": 50.658932,
+    "lng": 3.062354,
+    "transactions": [
+      {
+        "date": "2022-11-02",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf00792fe900": {
+    "id": "cf00792fe900",
+    "label": "146 RUE DU PDT GEORGES POMPIDOU, La Madeleine",
+    "lat": 50.656553,
+    "lng": 3.064497,
+    "transactions": [
+      {
+        "date": "2022-11-03",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 24,
+        "isVefa": false
+      }
+    ]
+  },
+  "92ca59c11c34": {
+    "id": "92ca59c11c34",
+    "label": "12 RUE AMAND OSTANDE, La Madeleine",
+    "lat": 50.653727,
+    "lng": 3.059083,
+    "transactions": [
+      {
+        "date": "2022-11-08",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "dba1d47e1483": {
+    "id": "dba1d47e1483",
+    "label": "178 RUE DU PRE CATELAN, La Madeleine",
+    "lat": 50.658969,
+    "lng": 3.06198,
+    "transactions": [
+      {
+        "date": "2022-11-10",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "323f36e6a71d": {
+    "id": "323f36e6a71d",
+    "label": "51 RUE AGACHE, La Madeleine",
+    "lat": 50.657997,
+    "lng": 3.059538,
+    "transactions": [
+      {
+        "date": "2022-11-16",
+        "priceEur": 149857,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a140e984a46": {
+    "id": "6a140e984a46",
+    "label": "56 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655519,
+    "lng": 3.061853,
+    "transactions": [
+      {
+        "date": "2022-10-11",
+        "priceEur": 1240000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-11",
+        "priceEur": 1240000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-11",
+        "priceEur": 1240000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "e815d6db5b5c": {
+    "id": "e815d6db5b5c",
+    "label": "24 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655533,
+    "lng": 3.063293,
+    "transactions": [
+      {
+        "date": "2024-06-24",
+        "priceEur": 364000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-16",
+        "priceEur": 222000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-27",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "0fec30fc0359": {
+    "id": "0fec30fc0359",
+    "label": "48 RUE AGACHE, La Madeleine",
+    "lat": 50.658397,
+    "lng": 3.059719,
+    "transactions": [
+      {
+        "date": "2022-11-23",
+        "priceEur": 404970,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "4093ac4b6ab8": {
+    "id": "4093ac4b6ab8",
+    "label": "154 RUE DU PRE CATELAN, La Madeleine",
+    "lat": 50.658489,
+    "lng": 3.061764,
+    "transactions": [
+      {
+        "date": "2022-12-02",
+        "priceEur": 358000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "33039afadb21": {
+    "id": "33039afadb21",
+    "label": "1 PL JEAN MOULIN, La Madeleine",
+    "lat": 50.655865,
+    "lng": 3.05818,
+    "transactions": [
+      {
+        "date": "2025-02-03",
+        "priceEur": 328524,
+        "typeLocal": "Appartement",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-16",
+        "priceEur": 414610,
+        "typeLocal": "Appartement",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "1914beaabd28": {
+    "id": "1914beaabd28",
+    "label": "18 RUE DU CIMETIERE, La Madeleine",
+    "lat": 50.658328,
+    "lng": 3.064332,
+    "transactions": [
+      {
+        "date": "2022-12-12",
+        "priceEur": 395000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "93bf109d0248": {
+    "id": "93bf109d0248",
+    "label": "51 RUE DU PRE CATELAN, La Madeleine",
+    "lat": 50.654997,
+    "lng": 3.059902,
+    "transactions": [
+      {
+        "date": "2023-10-27",
+        "priceEur": 117827.4,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-16",
+        "priceEur": 115730,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-18",
+        "priceEur": 117150,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-14",
+        "priceEur": 122500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-28",
+        "priceEur": 128520,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-29",
+        "priceEur": 530000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-29",
+        "priceEur": 530000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-29",
+        "priceEur": 530000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-29",
+        "priceEur": 530000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad37a4e3dea8": {
+    "id": "ad37a4e3dea8",
+    "label": "53 RUE COURBET, La Madeleine",
+    "lat": 50.655757,
+    "lng": 3.061859,
+    "transactions": [
+      {
+        "date": "2022-12-14",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "bab59403ed9d": {
+    "id": "bab59403ed9d",
+    "label": "22 RUE D ALGER, La Madeleine",
+    "lat": 50.654524,
+    "lng": 3.063232,
+    "transactions": [
+      {
+        "date": "2022-12-16",
+        "priceEur": 319000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "2695943354e7": {
+    "id": "2695943354e7",
+    "label": "79 RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.658486,
+    "lng": 3.056878,
+    "transactions": [
+      {
+        "date": "2022-12-27",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "f91b6887b003": {
+    "id": "f91b6887b003",
+    "label": "110 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655569,
+    "lng": 3.059826,
+    "transactions": [
+      {
+        "date": "2022-12-29",
+        "priceEur": 405000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e1aa680f431": {
+    "id": "3e1aa680f431",
+    "label": "168 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655037,
+    "lng": 3.057835,
+    "transactions": [
+      {
+        "date": "2023-01-13",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "b00fb4aa5607": {
+    "id": "b00fb4aa5607",
+    "label": "29 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655187,
+    "lng": 3.063714,
+    "transactions": [
+      {
+        "date": "2023-01-11",
+        "priceEur": 297500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ec3d02fd068": {
+    "id": "0ec3d02fd068",
+    "label": "122 RUE FELIX FAURE, La Madeleine",
+    "lat": 50.659367,
+    "lng": 3.063667,
+    "transactions": [
+      {
+        "date": "2023-01-05",
+        "priceEur": 324000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "c71bfaf45a70": {
+    "id": "c71bfaf45a70",
+    "label": "29 RUE COURBET, La Madeleine",
+    "lat": 50.655705,
+    "lng": 3.062727,
+    "transactions": [
+      {
+        "date": "2023-01-04",
+        "priceEur": 197000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "aecd61af607d": {
+    "id": "aecd61af607d",
+    "label": "112 RUE FELIX FAURE, La Madeleine",
+    "lat": 50.65926,
+    "lng": 3.063944,
+    "transactions": [
+      {
+        "date": "2023-01-12",
+        "priceEur": 262000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b0a9a7f31db": {
+    "id": "4b0a9a7f31db",
+    "label": "91 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655217,
+    "lng": 3.061742,
+    "transactions": [
+      {
+        "date": "2023-01-27",
+        "priceEur": 284500,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "752b41db875f": {
+    "id": "752b41db875f",
+    "label": "44 RUE NEGRIER, La Madeleine",
+    "lat": 50.656552,
+    "lng": 3.062887,
+    "transactions": [
+      {
+        "date": "2023-02-01",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "dbde879182df": {
+    "id": "dbde879182df",
+    "label": "92 RUE SADI CARNOT, Saint-André-lez-Lille",
+    "lat": 50.659696,
+    "lng": 3.054219,
+    "transactions": [
+      {
+        "date": "2023-02-08",
+        "priceEur": 248000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "3b88856711b3": {
+    "id": "3b88856711b3",
+    "label": "2B RUE JOSEPHINE, La Madeleine",
+    "lat": 50.656993,
+    "lng": 3.063123,
+    "transactions": [
+      {
+        "date": "2023-02-22",
+        "priceEur": 184000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee385808a526": {
+    "id": "ee385808a526",
+    "label": "69 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655105,
+    "lng": 3.062309,
+    "transactions": [
+      {
+        "date": "2023-03-27",
+        "priceEur": 328000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "6bfdc6652741": {
+    "id": "6bfdc6652741",
+    "label": "150 RUE DU PRE CATELAN, La Madeleine",
+    "lat": 50.65842,
+    "lng": 3.061738,
+    "transactions": [
+      {
+        "date": "2023-03-07",
+        "priceEur": 368500,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6718e4052d8": {
+    "id": "d6718e4052d8",
+    "label": "9 RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.655527,
+    "lng": 3.054752,
+    "transactions": [
+      {
+        "date": "2023-04-28",
+        "priceEur": 219000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "377f4a5082b9": {
+    "id": "377f4a5082b9",
+    "label": "45 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655039,
+    "lng": 3.063252,
+    "transactions": [
+      {
+        "date": "2023-05-10",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "29c4ff42163b": {
+    "id": "29c4ff42163b",
+    "label": "117 RUE FELIX FAURE, La Madeleine",
+    "lat": 50.659827,
+    "lng": 3.063237,
+    "transactions": [
+      {
+        "date": "2023-05-15",
+        "priceEur": 456100,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "62c70e58e73f": {
+    "id": "62c70e58e73f",
+    "label": "149 RUE DU PDT GEORGES POMPIDOU, La Madeleine",
+    "lat": 50.655468,
+    "lng": 3.064361,
+    "transactions": [
+      {
+        "date": "2023-05-22",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "c78ee92a5de1": {
+    "id": "c78ee92a5de1",
+    "label": "8 RUE AMAND OSTANDE, La Madeleine",
+    "lat": 50.653763,
+    "lng": 3.059417,
+    "transactions": [
+      {
+        "date": "2023-06-07",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8d6f373b0ec": {
+    "id": "e8d6f373b0ec",
+    "label": "179 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.654809,
+    "lng": 3.058448,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a2b86e1a428": {
+    "id": "8a2b86e1a428",
+    "label": "85 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655119,
+    "lng": 3.061902,
+    "transactions": [
+      {
+        "date": "2023-07-20",
+        "priceEur": 269000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "024160efb1f9": {
+    "id": "024160efb1f9",
+    "label": "10 RUE DU QUAI, La Madeleine",
+    "lat": 50.655303,
+    "lng": 3.057664,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 386850,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9132071b666": {
+    "id": "a9132071b666",
+    "label": "19 PL DE LA BOUCHERIE, La Madeleine",
+    "lat": 50.657379,
+    "lng": 3.063692,
+    "transactions": [
+      {
+        "date": "2023-08-10",
+        "priceEur": 371000,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  },
+  "46738876456c": {
+    "id": "46738876456c",
+    "label": "3 RUE DE BAPAUME, La Madeleine",
+    "lat": 50.655583,
+    "lng": 3.061783,
+    "transactions": [
+      {
+        "date": "2023-08-04",
+        "priceEur": 371000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "eea769203b2f": {
+    "id": "eea769203b2f",
+    "label": "29 RUE AGACHE, La Madeleine",
+    "lat": 50.657992,
+    "lng": 3.060225,
+    "transactions": [
+      {
+        "date": "2023-12-04",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-08",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d36fb9a0526": {
+    "id": "7d36fb9a0526",
+    "label": "55 RUE DE BERKEM, La Madeleine",
+    "lat": 50.657526,
+    "lng": 3.061862,
+    "transactions": [
+      {
+        "date": "2023-08-11",
+        "priceEur": 314400,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1211b8441eb": {
+    "id": "f1211b8441eb",
+    "label": "97 RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.658785,
+    "lng": 3.057104,
+    "transactions": [
+      {
+        "date": "2023-08-30",
+        "priceEur": 271600,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "8234c24c3b86": {
+    "id": "8234c24c3b86",
+    "label": "13 RUE LOUIS PORION, Saint-André-lez-Lille",
+    "lat": 50.65861,
+    "lng": 3.056536,
+    "transactions": [
+      {
+        "date": "2023-09-22",
+        "priceEur": 226500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b5337ee4c30": {
+    "id": "1b5337ee4c30",
+    "label": "13 PL DE LA BOUCHERIE, La Madeleine",
+    "lat": 50.657524,
+    "lng": 3.063728,
+    "transactions": [
+      {
+        "date": "2024-08-23",
+        "priceEur": 340500,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-06",
+        "priceEur": 333700,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "a196257e0954": {
+    "id": "a196257e0954",
+    "label": "6 RUE PARDOEN, La Madeleine",
+    "lat": 50.659894,
+    "lng": 3.06222,
+    "transactions": [
+      {
+        "date": "2023-09-13",
+        "priceEur": 201750,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "317471adc3cf": {
+    "id": "317471adc3cf",
+    "label": "41 RUE DU CIMETIERE, La Madeleine",
+    "lat": 50.65918,
+    "lng": 3.064418,
+    "transactions": [
+      {
+        "date": "2023-09-29",
+        "priceEur": 227500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "c1a507b4e99d": {
+    "id": "c1a507b4e99d",
+    "label": "4 RUE JOSEPHINE, La Madeleine",
+    "lat": 50.656964,
+    "lng": 3.063101,
+    "transactions": [
+      {
+        "date": "2023-10-06",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "5238bf9694e1": {
+    "id": "5238bf9694e1",
+    "label": "116 RUE DU PRE CATELAN, La Madeleine",
+    "lat": 50.6574,
+    "lng": 3.061263,
+    "transactions": [
+      {
+        "date": "2023-10-13",
+        "priceEur": 249600,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e5378d128c8": {
+    "id": "6e5378d128c8",
+    "label": "13 RUE DU TISSAGE, La Madeleine",
+    "lat": 50.655055,
+    "lng": 3.061658,
+    "transactions": [
+      {
+        "date": "2023-11-07",
+        "priceEur": 191000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "75b85a4f99c1": {
+    "id": "75b85a4f99c1",
+    "label": "24 RUE JOSEPHINE, La Madeleine",
+    "lat": 50.656649,
+    "lng": 3.062894,
+    "transactions": [
+      {
+        "date": "2023-11-15",
+        "priceEur": 208500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf882e7c2ee1": {
+    "id": "cf882e7c2ee1",
+    "label": "57 RUE DE BERKEM, La Madeleine",
+    "lat": 50.657537,
+    "lng": 3.06181,
+    "transactions": [
+      {
+        "date": "2023-11-23",
+        "priceEur": 112000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f5efa71c944": {
+    "id": "8f5efa71c944",
+    "label": "12 RUE JOSEPHINE, La Madeleine",
+    "lat": 50.65684,
+    "lng": 3.063,
+    "transactions": [
+      {
+        "date": "2023-12-06",
+        "priceEur": 177000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "97d15abf8ec6": {
+    "id": "97d15abf8ec6",
+    "label": "12 PL DE LA BOUCHERIE, La Madeleine",
+    "lat": 50.657951,
+    "lng": 3.06329,
+    "transactions": [
+      {
+        "date": "2023-12-14",
+        "priceEur": 267900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-14",
+        "priceEur": 267900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 24,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-14",
+        "priceEur": 267900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      }
+    ]
+  },
+  "d274f5c588b1": {
+    "id": "d274f5c588b1",
+    "label": "30 RUE NEGRIER, La Madeleine",
+    "lat": 50.656484,
+    "lng": 3.0634,
+    "transactions": [
+      {
+        "date": "2023-12-01",
+        "priceEur": 203000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "67e3f8d93e6a": {
+    "id": "67e3f8d93e6a",
+    "label": "34 RUE DU PRE CATELAN, La Madeleine",
+    "lat": 50.655637,
+    "lng": 3.060774,
+    "transactions": [
+      {
+        "date": "2023-12-28",
+        "priceEur": 163500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e202045527e": {
+    "id": "9e202045527e",
+    "label": "95 RUE DU PRE CATELAN, La Madeleine",
+    "lat": 50.657976,
+    "lng": 3.061109,
+    "transactions": [
+      {
+        "date": "2023-12-21",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "b03274aa36df": {
+    "id": "b03274aa36df",
+    "label": "13 RUE D ORAN, La Madeleine",
+    "lat": 50.654506,
+    "lng": 3.058366,
+    "transactions": [
+      {
+        "date": "2023-12-08",
+        "priceEur": 625000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 27,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-08",
+        "priceEur": 625000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-08",
+        "priceEur": 625000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "141536bf32c0": {
+    "id": "141536bf32c0",
+    "label": "95 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655195,
+    "lng": 3.061623,
+    "transactions": [
+      {
+        "date": "2024-01-17",
+        "priceEur": 437520,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-17",
+        "priceEur": 437520,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f8ad2a27442": {
+    "id": "4f8ad2a27442",
+    "label": "41 RUE COURBET, La Madeleine",
+    "lat": 50.655732,
+    "lng": 3.06233,
+    "transactions": [
+      {
+        "date": "2024-03-18",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c6dfc15be14": {
+    "id": "4c6dfc15be14",
+    "label": "16 RUE D ALGER, La Madeleine",
+    "lat": 50.654588,
+    "lng": 3.063436,
+    "transactions": [
+      {
+        "date": "2024-04-09",
+        "priceEur": 323000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "c24ee3ba8249": {
+    "id": "c24ee3ba8249",
+    "label": "20 RUE DU QUAI, La Madeleine",
+    "lat": 50.655492,
+    "lng": 3.05786,
+    "transactions": [
+      {
+        "date": "2024-04-19",
+        "priceEur": 339000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "581cd85b33eb": {
+    "id": "581cd85b33eb",
+    "label": "51 RUE SAINT JOSEPH, La Madeleine",
+    "lat": 50.656225,
+    "lng": 3.065044,
+    "transactions": [
+      {
+        "date": "2024-05-02",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "44902ccf29b8": {
+    "id": "44902ccf29b8",
+    "label": "132 RUE FELIX FAURE, La Madeleine",
+    "lat": 50.659425,
+    "lng": 3.063356,
+    "transactions": [
+      {
+        "date": "2024-05-21",
+        "priceEur": 253334,
+        "typeLocal": "Maison",
+        "surfaceM2": 176,
+        "isVefa": false
+      }
+    ]
+  },
+  "b969dfcd2767": {
+    "id": "b969dfcd2767",
+    "label": "104 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655594,
+    "lng": 3.060063,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "898277f069e0": {
+    "id": "898277f069e0",
+    "label": "8 RUE JOSEPHINE, La Madeleine",
+    "lat": 50.656904,
+    "lng": 3.063067,
+    "transactions": [
+      {
+        "date": "2024-06-24",
+        "priceEur": 162600,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1b31f4325d4": {
+    "id": "b1b31f4325d4",
+    "label": "7 RUE COURBET, La Madeleine",
+    "lat": 50.655738,
+    "lng": 3.064029,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "c1b0b2e87507": {
+    "id": "c1b0b2e87507",
+    "label": "4 RUE AGACHE, La Madeleine",
+    "lat": 50.658382,
+    "lng": 3.061116,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 278000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3b1c92958fe": {
+    "id": "a3b1c92958fe",
+    "label": "69 RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.65825,
+    "lng": 3.05675,
+    "transactions": [
+      {
+        "date": "2024-07-24",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "7477813cdda4": {
+    "id": "7477813cdda4",
+    "label": "1 CRS LOUIS RUE PRE CATELAN, La Madeleine",
+    "lat": 50.655674,
+    "lng": 3.06094,
+    "transactions": [
+      {
+        "date": "2024-07-15",
+        "priceEur": 118095,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "103c960c980f": {
+    "id": "103c960c980f",
+    "label": "68 RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.659138,
+    "lng": 3.057945,
+    "transactions": [
+      {
+        "date": "2025-06-14",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-26",
+        "priceEur": 160500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-14",
+        "priceEur": 256500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "35e8a3ceb47a": {
+    "id": "35e8a3ceb47a",
+    "label": "3 CRS LOUIS RUE PRE CATELAN, La Madeleine",
+    "lat": 50.655719,
+    "lng": 3.060931,
+    "transactions": [
+      {
+        "date": "2024-07-30",
+        "priceEur": 242190,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "96b92687b0ba": {
+    "id": "96b92687b0ba",
+    "label": "2 CRS LOUIS RUE PRE CATELAN, La Madeleine",
+    "lat": 50.655669,
+    "lng": 3.060985,
+    "transactions": [
+      {
+        "date": "2024-07-30",
+        "priceEur": 242190,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "3077d05caa65": {
+    "id": "3077d05caa65",
+    "label": "8 CLOS SAINT VITAL, La Madeleine",
+    "lat": 50.65719,
+    "lng": 3.061663,
+    "transactions": [
+      {
+        "date": "2024-08-01",
+        "priceEur": 355000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "a84539b139da": {
+    "id": "a84539b139da",
+    "label": "49 RUE DE PERENCHIES, La Madeleine",
+    "lat": 50.658675,
+    "lng": 3.059701,
+    "transactions": [
+      {
+        "date": "2024-09-09",
+        "priceEur": 286500,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "724a5184c7ea": {
+    "id": "724a5184c7ea",
+    "label": "13 RUE DE PERENCHIES, La Madeleine",
+    "lat": 50.658627,
+    "lng": 3.060846,
+    "transactions": [
+      {
+        "date": "2024-09-06",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "d2e35cf5a84e": {
+    "id": "d2e35cf5a84e",
+    "label": "5 RUE DE BAPAUME, La Madeleine",
+    "lat": 50.655626,
+    "lng": 3.061818,
+    "transactions": [
+      {
+        "date": "2024-09-18",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "f88cf78aaed5": {
+    "id": "f88cf78aaed5",
+    "label": "35 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655079,
+    "lng": 3.063515,
+    "transactions": [
+      {
+        "date": "2024-09-12",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "4fa42e83c878": {
+    "id": "4fa42e83c878",
+    "label": "39 RUE AGACHE, La Madeleine",
+    "lat": 50.657998,
+    "lng": 3.05991,
+    "transactions": [
+      {
+        "date": "2024-09-10",
+        "priceEur": 384000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "6edecac55edb": {
+    "id": "6edecac55edb",
+    "label": "99 RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.658814,
+    "lng": 3.05714,
+    "transactions": [
+      {
+        "date": "2024-09-13",
+        "priceEur": 232000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "2fab3c476441": {
+    "id": "2fab3c476441",
+    "label": "39 RUE DE PERENCHIES, La Madeleine",
+    "lat": 50.65867,
+    "lng": 3.060016,
+    "transactions": [
+      {
+        "date": "2024-09-17",
+        "priceEur": 220600,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "d49916519f98": {
+    "id": "d49916519f98",
+    "label": "23 RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.655861,
+    "lng": 3.054973,
+    "transactions": [
+      {
+        "date": "2024-09-24",
+        "priceEur": 166000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "23eefd080a3c": {
+    "id": "23eefd080a3c",
+    "label": "40 RUE DU PRE CATELAN, La Madeleine",
+    "lat": 50.655752,
+    "lng": 3.060781,
+    "transactions": [
+      {
+        "date": "2024-09-23",
+        "priceEur": 194750,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  },
+  "faef3fc45b41": {
+    "id": "faef3fc45b41",
+    "label": "182 RUE DU PDT GEORGES POMPIDOU, La Madeleine",
+    "lat": 50.657087,
+    "lng": 3.064879,
+    "transactions": [
+      {
+        "date": "2024-10-16",
+        "priceEur": 321000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "60cbcb9d5648": {
+    "id": "60cbcb9d5648",
+    "label": "29 RUE DE PERENCHIES, La Madeleine",
+    "lat": 50.658665,
+    "lng": 3.060336,
+    "transactions": [
+      {
+        "date": "2024-10-31",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "e978b8f7fd99": {
+    "id": "e978b8f7fd99",
+    "label": "65 RUE DU PRE CATELAN, La Madeleine",
+    "lat": 50.655606,
+    "lng": 3.060237,
+    "transactions": [
+      {
+        "date": "2024-11-20",
+        "priceEur": 233250,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "9248dca12ed4": {
+    "id": "9248dca12ed4",
+    "label": "22 RUE MARCEAU, La Madeleine",
+    "lat": 50.655641,
+    "lng": 3.058933,
+    "transactions": [
+      {
+        "date": "2024-11-18",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "206cff90a900": {
+    "id": "206cff90a900",
+    "label": "77 RUE FELIX FAURE, La Madeleine",
+    "lat": 50.659324,
+    "lng": 3.064983,
+    "transactions": [
+      {
+        "date": "2024-10-08",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "8123129ae58a": {
+    "id": "8123129ae58a",
+    "label": "29 RUE DU TISSAGE, La Madeleine",
+    "lat": 50.654777,
+    "lng": 3.061768,
+    "transactions": [
+      {
+        "date": "2024-11-29",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "be6368b95970": {
+    "id": "be6368b95970",
+    "label": "11 RUE COURBET, La Madeleine",
+    "lat": 50.655752,
+    "lng": 3.063915,
+    "transactions": [
+      {
+        "date": "2024-11-29",
+        "priceEur": 233750,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "f2533014010f": {
+    "id": "f2533014010f",
+    "label": "45 RUE LOUIS PORION, Saint-André-lez-Lille",
+    "lat": 50.657876,
+    "lng": 3.055902,
+    "transactions": [
+      {
+        "date": "2024-12-05",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "32d1a0cc1b07": {
+    "id": "32d1a0cc1b07",
+    "label": "28 RUE DU CIMETIERE, La Madeleine",
+    "lat": 50.65854,
+    "lng": 3.064495,
+    "transactions": [
+      {
+        "date": "2024-12-20",
+        "priceEur": 336920,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a2fd47ed28d": {
+    "id": "6a2fd47ed28d",
+    "label": "5 AV JOFFRE, La Madeleine",
+    "lat": 50.654903,
+    "lng": 3.065183,
+    "transactions": [
+      {
+        "date": "2024-12-18",
+        "priceEur": 224360,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5b3e47f6aa1": {
+    "id": "d5b3e47f6aa1",
+    "label": "3 ALL DE WAUDRINGHEM, La Madeleine",
+    "lat": 50.65473,
+    "lng": 3.061978,
+    "transactions": [
+      {
+        "date": "2024-12-18",
+        "priceEur": 357620,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "09512426d42a": {
+    "id": "09512426d42a",
+    "label": "34 RUE DU CIMETIERE, La Madeleine",
+    "lat": 50.658644,
+    "lng": 3.064594,
+    "transactions": [
+      {
+        "date": "2024-12-23",
+        "priceEur": 339350,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c82f1545d7c": {
+    "id": "0c82f1545d7c",
+    "label": "12 RUE DE BERKEM, La Madeleine",
+    "lat": 50.657071,
+    "lng": 3.063994,
+    "transactions": [
+      {
+        "date": "2025-01-28",
+        "priceEur": 240400,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "1aaa341517a2": {
+    "id": "1aaa341517a2",
+    "label": "144 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655294,
+    "lng": 3.058864,
+    "transactions": [
+      {
+        "date": "2025-02-05",
+        "priceEur": 190476.19,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "31aeaba483ec": {
+    "id": "31aeaba483ec",
+    "label": "13 AV JOFFRE, La Madeleine",
+    "lat": 50.654741,
+    "lng": 3.065145,
+    "transactions": [
+      {
+        "date": "2025-01-24",
+        "priceEur": 214000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "33c4cff42120": {
+    "id": "33c4cff42120",
+    "label": "252 RUE DU PDT GEORGES POMPIDOU, La Madeleine",
+    "lat": 50.659622,
+    "lng": 3.062758,
+    "transactions": [
+      {
+        "date": "2025-02-12",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5f451a330db": {
+    "id": "d5f451a330db",
+    "label": "7 RUE SAINTE HELENE, Saint-André-lez-Lille",
+    "lat": 50.655473,
+    "lng": 3.054677,
+    "transactions": [
+      {
+        "date": "2025-02-18",
+        "priceEur": 255400,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "764d8f5a00c3": {
+    "id": "764d8f5a00c3",
+    "label": "7 RUE DU DOCTEUR CALMETTE, La Madeleine",
+    "lat": 50.653137,
+    "lng": 3.059112,
+    "transactions": [
+      {
+        "date": "2025-02-12",
+        "priceEur": 269350,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "e90614a6172a": {
+    "id": "e90614a6172a",
+    "label": "199 RUE DU PDT GEORGES POMPIDOU, La Madeleine",
+    "lat": 50.65738,
+    "lng": 3.064048,
+    "transactions": [
+      {
+        "date": "2025-03-17",
+        "priceEur": 226850,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "781d961fcf76": {
+    "id": "781d961fcf76",
+    "label": "55 RUE DE PERENCHIES, La Madeleine",
+    "lat": 50.658675,
+    "lng": 3.059514,
+    "transactions": [
+      {
+        "date": "2025-03-27",
+        "priceEur": 350400,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "c53e6392a276": {
+    "id": "c53e6392a276",
+    "label": "24 RUE DU QUAI, La Madeleine",
+    "lat": 50.655563,
+    "lng": 3.05793,
+    "transactions": [
+      {
+        "date": "2025-02-27",
+        "priceEur": 319159,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "56d60763de90": {
+    "id": "56d60763de90",
+    "label": "12 RUE CONSTANTINE, La Madeleine",
+    "lat": 50.654546,
+    "lng": 3.059524,
+    "transactions": [
+      {
+        "date": "2025-04-10",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "167f89c435a6": {
+    "id": "167f89c435a6",
+    "label": "3 RUE JOSEPHINE, La Madeleine",
+    "lat": 50.656809,
+    "lng": 3.063397,
+    "transactions": [
+      {
+        "date": "2025-04-28",
+        "priceEur": 273320,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c1c4fba9563": {
+    "id": "3c1c4fba9563",
+    "label": "18 RUE ROGER SALENGRO, La Madeleine",
+    "lat": 50.655497,
+    "lng": 3.063501,
+    "transactions": [
+      {
+        "date": "2025-04-18",
+        "priceEur": 129000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "af541299462e": {
+    "id": "af541299462e",
+    "label": "18 RUE AMAND OSTANDE, La Madeleine",
+    "lat": 50.653697,
+    "lng": 3.05876,
+    "transactions": [
+      {
+        "date": "2025-06-10",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "47decd2e738c": {
+    "id": "47decd2e738c",
+    "label": "1A AV JOFFRE, La Madeleine",
+    "lat": 50.655066,
+    "lng": 3.065036,
+    "transactions": [
+      {
+        "date": "2025-06-04",
+        "priceEur": 90000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "c42dc4314438": {
+    "id": "c42dc4314438",
+    "label": "44 RUE DU PRE CATELAN, La Madeleine",
+    "lat": 50.655865,
+    "lng": 3.060736,
+    "transactions": [
+      {
+        "date": "2025-06-30",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

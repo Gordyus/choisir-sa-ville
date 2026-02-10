@@ -1,0 +1,92 @@
+{
+  "4364ee773faa": {
+    "id": "4364ee773faa",
+    "label": "5097 RTE DE LA VALLEE, Sainte-Beuve-en-Rivière",
+    "lat": 49.764207,
+    "lng": 1.529645,
+    "transactions": [
+      {
+        "date": "2020-07-04",
+        "priceEur": 179280,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  },
+  "0aa7ea04a929": {
+    "id": "0aa7ea04a929",
+    "label": "5053 LE BOURG, Sainte-Beuve-en-Rivière",
+    "lat": 49.763111,
+    "lng": 1.527861,
+    "transactions": [
+      {
+        "date": "2021-12-29",
+        "priceEur": 126000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "6cf4917a68bd": {
+    "id": "6cf4917a68bd",
+    "label": "5085 L ARGILIERE, Sainte-Beuve-en-Rivière",
+    "lat": 49.763653,
+    "lng": 1.531205,
+    "transactions": [
+      {
+        "date": "2021-06-24",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5a8d22f8c4e": {
+    "id": "d5a8d22f8c4e",
+    "label": "5093 LE BOURG, Sainte-Beuve-en-Rivière",
+    "lat": 49.763606,
+    "lng": 1.529067,
+    "transactions": [
+      {
+        "date": "2021-06-24",
+        "priceEur": 87000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "1556cdb90af3": {
+    "id": "1556cdb90af3",
+    "label": "24 RTE DE LA VALLEE, Sainte-Beuve-en-Rivière",
+    "lat": 49.76408,
+    "lng": 1.530036,
+    "transactions": [
+      {
+        "date": "2024-05-14",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8422b31c6bf": {
+    "id": "e8422b31c6bf",
+    "label": "6 CHE DU MOULIN, Sainte-Beuve-en-Rivière",
+    "lat": 49.762354,
+    "lng": 1.528557,
+    "transactions": [
+      {
+        "date": "2024-11-16",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

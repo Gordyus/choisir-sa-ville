@@ -1,0 +1,77 @@
+{
+  "8d5a4eb14aa7": {
+    "id": "8d5a4eb14aa7",
+    "label": "265 RUE DU ROBINSON, Leffrinckoucke",
+    "lat": 51.048182,
+    "lng": 2.443737,
+    "transactions": [
+      {
+        "date": "2021-03-19",
+        "priceEur": 236000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1e5a682f7dd": {
+    "id": "a1e5a682f7dd",
+    "label": "295B RTE DU PONT, Leffrinckoucke",
+    "lat": 51.048248,
+    "lng": 2.442292,
+    "transactions": [
+      {
+        "date": "2021-06-21",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7c649e39d3d": {
+    "id": "b7c649e39d3d",
+    "label": "1430 RUE DE LEFFRINCKOUCKE, Dunkerque",
+    "lat": 51.047983,
+    "lng": 2.43913,
+    "transactions": [
+      {
+        "date": "2021-11-12",
+        "priceEur": 703000,
+        "typeLocal": "Maison",
+        "surfaceM2": 236,
+        "isVefa": false
+      }
+    ]
+  },
+  "087f316d6077": {
+    "id": "087f316d6077",
+    "label": "779 RTE DU PONT, Leffrinckoucke",
+    "lat": 51.044703,
+    "lng": 2.447495,
+    "transactions": [
+      {
+        "date": "2023-10-19",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "23211fe7c491": {
+    "id": "23211fe7c491",
+    "label": "381 RTE DU PONT, Leffrinckoucke",
+    "lat": 51.048187,
+    "lng": 2.449696,
+    "transactions": [
+      {
+        "date": "2024-05-06",
+        "priceEur": 580000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

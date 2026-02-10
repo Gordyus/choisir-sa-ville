@@ -1,0 +1,77 @@
+{
+  "69808d577a70": {
+    "id": "69808d577a70",
+    "label": "69 RUE DES LILAS, Eslettes",
+    "lat": 49.547839,
+    "lng": 1.053544,
+    "transactions": [
+      {
+        "date": "2020-09-09",
+        "priceEur": 230440,
+        "typeLocal": "Maison",
+        "surfaceM2": 274,
+        "isVefa": false
+      }
+    ]
+  },
+  "13d0a9461672": {
+    "id": "13d0a9461672",
+    "label": "71 RUE DES LILAS, Eslettes",
+    "lat": 49.547866,
+    "lng": 1.053854,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 296200,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d0e76c7f993": {
+    "id": "1d0e76c7f993",
+    "label": "5094Y LE VILLAGE, Eslettes",
+    "lat": 49.547265,
+    "lng": 1.053563,
+    "transactions": [
+      {
+        "date": "2021-10-12",
+        "priceEur": 212600,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f7ba031f8f9": {
+    "id": "2f7ba031f8f9",
+    "label": "63B RUE DES LILAS, Eslettes",
+    "lat": 49.547636,
+    "lng": 1.052313,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 212500,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "81da965577ce": {
+    "id": "81da965577ce",
+    "label": "63T RUE DES LILAS, Eslettes",
+    "lat": 49.547384,
+    "lng": 1.052109,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 420000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  }
+}

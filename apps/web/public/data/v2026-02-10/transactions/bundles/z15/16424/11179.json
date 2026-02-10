@@ -1,0 +1,47 @@
+{
+  "9ea61e11419f": {
+    "id": "9ea61e11419f",
+    "label": "204 CHE DU VALLON, Mélamare",
+    "lat": 49.53155,
+    "lng": 0.441592,
+    "transactions": [
+      {
+        "date": "2021-02-08",
+        "priceEur": 146300,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d997920e3a4": {
+    "id": "6d997920e3a4",
+    "label": "1797 RTE DU GRAND TRAIT, Saint-Nicolas-de-la-Taille",
+    "lat": 49.529662,
+    "lng": 0.448933,
+    "transactions": [
+      {
+        "date": "2023-06-09",
+        "priceEur": 429700,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  },
+  "150f0bf91ec6": {
+    "id": "150f0bf91ec6",
+    "label": "187 CHE DES ROMAINS, Mélamare",
+    "lat": 49.529913,
+    "lng": 0.440024,
+    "transactions": [
+      {
+        "date": "2024-11-08",
+        "priceEur": 232000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  }
+}

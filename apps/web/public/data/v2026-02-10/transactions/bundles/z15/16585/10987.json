@@ -1,0 +1,32 @@
+{
+  "0125fbcaf271": {
+    "id": "0125fbcaf271",
+    "label": "255 RUE WESTEEL STRAETE, Cappelle-Brouck",
+    "lat": 50.878503,
+    "lng": 2.211395,
+    "transactions": [
+      {
+        "date": "2020-11-16",
+        "priceEur": 79000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "14a661919d91": {
+    "id": "14a661919d91",
+    "label": "4 RUE WESTEEL STRAETE, Cappelle-Brouck",
+    "lat": 50.880474,
+    "lng": 2.20979,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 222100,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

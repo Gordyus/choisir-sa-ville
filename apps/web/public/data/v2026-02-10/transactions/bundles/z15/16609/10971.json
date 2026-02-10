@@ -1,0 +1,32 @@
+{
+  "777604b20516": {
+    "id": "777604b20516",
+    "label": "745 RUE SHAPBRUGGHE STRAETE CR 4, Warhem",
+    "lat": 50.986574,
+    "lng": 2.475711,
+    "transactions": [
+      {
+        "date": "2020-08-03",
+        "priceEur": 207200,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "4752006af4d5": {
+    "id": "4752006af4d5",
+    "label": "788 RUE SHAPBRUGGHE STRAETE CR 4, Warhem",
+    "lat": 50.986576,
+    "lng": 2.475075,
+    "transactions": [
+      {
+        "date": "2022-04-06",
+        "priceEur": 343000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  }
+}

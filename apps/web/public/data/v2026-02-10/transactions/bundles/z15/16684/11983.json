@@ -1,0 +1,62 @@
+{
+  "e0e161a09dfd": {
+    "id": "e0e161a09dfd",
+    "label": "19B RUE DENIS PAPIN, Abeilhan",
+    "lat": 43.453978,
+    "lng": 3.297368,
+    "transactions": [
+      {
+        "date": "2021-06-08",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c7a318b2d03": {
+    "id": "0c7a318b2d03",
+    "label": "28 AV MOLIERE, Abeilhan",
+    "lat": 43.455662,
+    "lng": 3.296388,
+    "transactions": [
+      {
+        "date": "2023-01-03",
+        "priceEur": 254200,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5747fa353c0": {
+    "id": "d5747fa353c0",
+    "label": "1 RUE CLEMENT ADER, Abeilhan",
+    "lat": 43.456388,
+    "lng": 3.296536,
+    "transactions": [
+      {
+        "date": "2023-03-15",
+        "priceEur": 808547,
+        "typeLocal": "Maison",
+        "surfaceM2": 216,
+        "isVefa": false
+      }
+    ]
+  },
+  "be006fcc3e77": {
+    "id": "be006fcc3e77",
+    "label": "7 RUE CLEMENT ADER, Abeilhan",
+    "lat": 43.456806,
+    "lng": 3.296262,
+    "transactions": [
+      {
+        "date": "2023-11-14",
+        "priceEur": 227500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

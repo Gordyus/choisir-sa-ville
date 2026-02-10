@@ -1,0 +1,62 @@
+{
+  "7ad882630612": {
+    "id": "7ad882630612",
+    "label": "8 RTE DE VITTEFLEUR, Canouville",
+    "lat": 49.805812,
+    "lng": 0.606026,
+    "transactions": [
+      {
+        "date": "2021-06-09",
+        "priceEur": 179400,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b7e92d1051c": {
+    "id": "4b7e92d1051c",
+    "label": "1 RTE DE CANY, Canouville",
+    "lat": 49.807072,
+    "lng": 0.604496,
+    "transactions": [
+      {
+        "date": "2023-11-24",
+        "priceEur": 227500,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb354e2fb2ea": {
+    "id": "cb354e2fb2ea",
+    "label": "6 RUE DE BAS, Canouville",
+    "lat": 49.807346,
+    "lng": 0.608328,
+    "transactions": [
+      {
+        "date": "2025-02-17",
+        "priceEur": 77000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "0821ff16b65b": {
+    "id": "0821ff16b65b",
+    "label": "13 RUE DE BAS, Canouville",
+    "lat": 49.808979,
+    "lng": 0.607105,
+    "transactions": [
+      {
+        "date": "2025-06-02",
+        "priceEur": 200050,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

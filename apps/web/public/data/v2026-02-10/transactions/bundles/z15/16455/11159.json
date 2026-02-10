@@ -1,0 +1,69 @@
+{
+  "3d77308dc3e6": {
+    "id": "3d77308dc3e6",
+    "label": "251 RUE DES PENSEES, Étoutteville",
+    "lat": 49.672252,
+    "lng": 0.788349,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 325500,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "493b26058c73": {
+    "id": "493b26058c73",
+    "label": "255 RUE DES PENSEES, Étoutteville",
+    "lat": 49.671822,
+    "lng": 0.78831,
+    "transactions": [
+      {
+        "date": "2022-07-12",
+        "priceEur": 305000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "42aa8e6471c0": {
+    "id": "42aa8e6471c0",
+    "label": "101 RUE DES PENSEES, Étoutteville",
+    "lat": 49.673642,
+    "lng": 0.786991,
+    "transactions": [
+      {
+        "date": "2023-05-17",
+        "priceEur": 172500,
+        "typeLocal": "Maison",
+        "surfaceM2": 220,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-17",
+        "priceEur": 172500,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "9331b1edd79f": {
+    "id": "9331b1edd79f",
+    "label": "97 RUE DES PENSEES, Étoutteville",
+    "lat": 49.673771,
+    "lng": 0.786585,
+    "transactions": [
+      {
+        "date": "2023-09-30",
+        "priceEur": 389000,
+        "typeLocal": "Maison",
+        "surfaceM2": 220,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "e2d54058ee46": {
+    "id": "e2d54058ee46",
+    "label": "435 RTE DE NEUFMESNIL, Offranville",
+    "lat": 49.866075,
+    "lng": 1.043146,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6db338a029d": {
+    "id": "b6db338a029d",
+    "label": "270 RUE PAUL CEZANNE, Offranville",
+    "lat": 49.865866,
+    "lng": 1.043543,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 245700,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  }
+}

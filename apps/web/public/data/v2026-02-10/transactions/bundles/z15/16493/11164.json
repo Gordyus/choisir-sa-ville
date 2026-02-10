@@ -1,0 +1,84 @@
+{
+  "1b1552847646": {
+    "id": "1b1552847646",
+    "label": "1217 RUE DU BEL EVENT, Bosc-le-Hard",
+    "lat": 49.635761,
+    "lng": 1.198431,
+    "transactions": [
+      {
+        "date": "2020-11-26",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "e4a5cc841b30": {
+    "id": "e4a5cc841b30",
+    "label": "1146 RUE DU BEL EVENT, Bosc-le-Hard",
+    "lat": 49.635634,
+    "lng": 1.199443,
+    "transactions": [
+      {
+        "date": "2021-09-24",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "81d9f985f928": {
+    "id": "81d9f985f928",
+    "label": "1210 RUE DU BEL EVENT, Bosc-le-Hard",
+    "lat": 49.636095,
+    "lng": 1.199212,
+    "transactions": [
+      {
+        "date": "2025-01-31",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-15",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "5217988c4729": {
+    "id": "5217988c4729",
+    "label": "1034 RUE DU BEL EVENT, Bosc-le-Hard",
+    "lat": 49.634987,
+    "lng": 1.200813,
+    "transactions": [
+      {
+        "date": "2024-02-22",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb49b99aee44": {
+    "id": "fb49b99aee44",
+    "label": "753 RUE DE LA CHAPELLE, Bosc-le-Hard",
+    "lat": 49.634535,
+    "lng": 1.199558,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 194150,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "6998e87b9f52": {
+    "id": "6998e87b9f52",
+    "label": "335 RUE DU BOIS - BENNETOT, Terres-de-Caux",
+    "lat": 49.673766,
+    "lng": 0.564856,
+    "transactions": [
+      {
+        "date": "2022-02-23",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "86a43c28320b": {
+    "id": "86a43c28320b",
+    "label": "485 RTE DU BOIS CARRE, Terres-de-Caux",
+    "lat": 49.672242,
+    "lng": 0.560881,
+    "transactions": [
+      {
+        "date": "2023-08-31",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "806744e67f32": {
+    "id": "806744e67f32",
+    "label": "304A RONCHEROLLES, Terres-de-Caux",
+    "lat": 49.669455,
+    "lng": 0.567672,
+    "transactions": [
+      {
+        "date": "2023-12-15",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "5ab00bccdb9b": {
+    "id": "5ab00bccdb9b",
+    "label": "471 RONCHEROLLES, Terres-de-Caux",
+    "lat": 49.667869,
+    "lng": 0.567619,
+    "transactions": [
+      {
+        "date": "2024-11-25",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  }
+}

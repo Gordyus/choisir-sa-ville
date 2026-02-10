@@ -1,0 +1,62 @@
+{
+  "e1d1b72c6d31": {
+    "id": "e1d1b72c6d31",
+    "label": "5400 LA BARONNE, Siran",
+    "lat": 43.307994,
+    "lng": 2.659014,
+    "transactions": [
+      {
+        "date": "2021-10-22",
+        "priceEur": 226500,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c6e581d40c2": {
+    "id": "0c6e581d40c2",
+    "label": "5 RUE DE LA BARONNE, Siran",
+    "lat": 43.30821,
+    "lng": 2.659137,
+    "transactions": [
+      {
+        "date": "2021-11-19",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "fde01460905e": {
+    "id": "fde01460905e",
+    "label": "13 AV DU POINT DU JOUR, Siran",
+    "lat": 43.309086,
+    "lng": 2.662958,
+    "transactions": [
+      {
+        "date": "2023-07-03",
+        "priceEur": 229000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5ac8d2dd042": {
+    "id": "c5ac8d2dd042",
+    "label": "5416 LA BARONNE, Siran",
+    "lat": 43.30887,
+    "lng": 2.659035,
+    "transactions": [
+      {
+        "date": "2024-09-23",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  }
+}

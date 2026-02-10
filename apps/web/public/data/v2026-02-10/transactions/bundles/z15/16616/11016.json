@@ -1,0 +1,32 @@
+{
+  "9a5b17a402bc": {
+    "id": "9a5b17a402bc",
+    "label": "10 RUE DU COIN MUET, Morbecque",
+    "lat": 50.676283,
+    "lng": 2.550198,
+    "transactions": [
+      {
+        "date": "2024-12-03",
+        "priceEur": 249500,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "a557edb79539": {
+    "id": "a557edb79539",
+    "label": "48 RUE DE LA PASSERELLE, Morbecque",
+    "lat": 50.674044,
+    "lng": 2.553702,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

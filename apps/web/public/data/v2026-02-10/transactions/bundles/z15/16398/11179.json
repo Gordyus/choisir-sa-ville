@@ -1,0 +1,31 @@
+{
+  "a5b72a41e7a3": {
+    "id": "a5b72a41e7a3",
+    "label": "1 CHE DE LA FERME LE GALLAIS, Le Havre",
+    "lat": 49.527076,
+    "lng": 0.160331,
+    "transactions": [
+      {
+        "date": "2022-06-15",
+        "priceEur": 325000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-15",
+        "priceEur": 325000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-15",
+        "priceEur": 325000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "4572a77cdfc1": {
+    "id": "4572a77cdfc1",
+    "label": "5123 IMP DE GOURNAY, Gancourt-Saint-Étienne",
+    "lat": 49.533535,
+    "lng": 1.706079,
+    "transactions": [
+      {
+        "date": "2021-04-22",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb97414609c8": {
+    "id": "fb97414609c8",
+    "label": "5 IMP DE GOURNAY, Gancourt-Saint-Étienne",
+    "lat": 49.534257,
+    "lng": 1.705062,
+    "transactions": [
+      {
+        "date": "2023-02-24",
+        "priceEur": 232500,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

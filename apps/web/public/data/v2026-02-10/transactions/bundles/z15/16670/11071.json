@@ -1,0 +1,196 @@
+{
+  "2830a252a0bb": {
+    "id": "2830a252a0bb",
+    "label": "4 RUE DES CHASSE MAREES, Bugnicourt",
+    "lat": 50.291727,
+    "lng": 3.152306,
+    "transactions": [
+      {
+        "date": "2020-07-06",
+        "priceEur": 253950,
+        "typeLocal": "Maison",
+        "surfaceM2": 203,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff16cc598057": {
+    "id": "ff16cc598057",
+    "label": "7 CHE DE GOEULZIN, Bugnicourt",
+    "lat": 50.292615,
+    "lng": 3.149814,
+    "transactions": [
+      {
+        "date": "2020-10-27",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d16cbcdb19f": {
+    "id": "7d16cbcdb19f",
+    "label": "4 RTE NATIONALE, Bugnicourt",
+    "lat": 50.289698,
+    "lng": 3.152378,
+    "transactions": [
+      {
+        "date": "2021-06-17",
+        "priceEur": 23000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "29b407f165a3": {
+    "id": "29b407f165a3",
+    "label": "3 CHE DE GOEULZIN, Bugnicourt",
+    "lat": 50.292633,
+    "lng": 3.150145,
+    "transactions": [
+      {
+        "date": "2021-06-08",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "f050d68d7c1e": {
+    "id": "f050d68d7c1e",
+    "label": "7 RTE NATIONALE, Bugnicourt",
+    "lat": 50.292327,
+    "lng": 3.149746,
+    "transactions": [
+      {
+        "date": "2021-08-16",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "79fd2c0c3475": {
+    "id": "79fd2c0c3475",
+    "label": "15T RTE NATIONALE, Bugnicourt",
+    "lat": 50.290552,
+    "lng": 3.151847,
+    "transactions": [
+      {
+        "date": "2021-02-15",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "f623c142912b": {
+    "id": "f623c142912b",
+    "label": "16 RUE NOUVELLE, Bugnicourt",
+    "lat": 50.292181,
+    "lng": 3.151446,
+    "transactions": [
+      {
+        "date": "2022-04-25",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b06bda7369c": {
+    "id": "7b06bda7369c",
+    "label": "9 RUE NOUVELLE, Bugnicourt",
+    "lat": 50.292148,
+    "lng": 3.15232,
+    "transactions": [
+      {
+        "date": "2022-10-11",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-11",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "53078587c784": {
+    "id": "53078587c784",
+    "label": "25 RTE NATIONALE, Bugnicourt",
+    "lat": 50.290024,
+    "lng": 3.152994,
+    "transactions": [
+      {
+        "date": "2023-11-09",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "d312e5bb5e1d": {
+    "id": "d312e5bb5e1d",
+    "label": "4 RUE DES ECOLES, Bugnicourt",
+    "lat": 50.291172,
+    "lng": 3.152457,
+    "transactions": [
+      {
+        "date": "2024-01-30",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "178d54f3a825": {
+    "id": "178d54f3a825",
+    "label": "15 RUE DU BOIS, Bugnicourt",
+    "lat": 50.293384,
+    "lng": 3.152628,
+    "transactions": [
+      {
+        "date": "2024-08-09",
+        "priceEur": 98000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6ad3bb59914": {
+    "id": "e6ad3bb59914",
+    "label": "1 CHE DE GOEULZIN, Bugnicourt",
+    "lat": 50.292335,
+    "lng": 3.151108,
+    "transactions": [
+      {
+        "date": "2025-02-19",
+        "priceEur": 49900,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-19",
+        "priceEur": 49900,
+        "typeLocal": "Maison",
+        "surfaceM2": 26,
+        "isVefa": false
+      }
+    ]
+  }
+}

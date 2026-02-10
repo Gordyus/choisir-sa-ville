@@ -1,0 +1,32 @@
+{
+  "439f65e85fd8": {
+    "id": "439f65e85fd8",
+    "label": "1A RTE DE LONGUEROY, Pierrecourt",
+    "lat": 49.886921,
+    "lng": 1.638274,
+    "transactions": [
+      {
+        "date": "2020-12-02",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "6001fd36474e": {
+    "id": "6001fd36474e",
+    "label": "4 RTE DE REALCAMP, Pierrecourt",
+    "lat": 49.886629,
+    "lng": 1.63745,
+    "transactions": [
+      {
+        "date": "2023-06-05",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

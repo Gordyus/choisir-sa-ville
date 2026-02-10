@@ -1,0 +1,47 @@
+{
+  "1dbdaf35bc41": {
+    "id": "1dbdaf35bc41",
+    "label": "7007 LA CARRIERE, Saint-Martin-de-Boscherville",
+    "lat": 49.447674,
+    "lng": 0.966552,
+    "transactions": [
+      {
+        "date": "2023-10-19",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "723388841a26": {
+    "id": "723388841a26",
+    "label": "96 RTE DE DUCLAIR, Saint-Martin-de-Boscherville",
+    "lat": 49.449489,
+    "lng": 0.966571,
+    "transactions": [
+      {
+        "date": "2024-10-31",
+        "priceEur": 253000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "490606d4533f": {
+    "id": "490606d4533f",
+    "label": "36 RTE DE L'ABBAYE, Saint-Martin-de-Boscherville",
+    "lat": 49.446955,
+    "lng": 0.965024,
+    "transactions": [
+      {
+        "date": "2024-12-13",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  }
+}

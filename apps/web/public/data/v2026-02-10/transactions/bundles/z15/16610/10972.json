@@ -1,0 +1,32 @@
+{
+  "10641eba53d7": {
+    "id": "10641eba53d7",
+    "label": "392 RUE DU CANAL, Warhem",
+    "lat": 50.980443,
+    "lng": 2.491658,
+    "transactions": [
+      {
+        "date": "2024-02-29",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "6be7556936a9": {
+    "id": "6be7556936a9",
+    "label": "412 RUE DU CANAL, Warhem",
+    "lat": 50.980594,
+    "lng": 2.490999,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 199600,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  }
+}

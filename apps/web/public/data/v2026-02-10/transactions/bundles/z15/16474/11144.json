@@ -1,0 +1,77 @@
+{
+  "69397fdd4bf7": {
+    "id": "69397fdd4bf7",
+    "label": "5040 LA COTE, Lamberville",
+    "lat": 49.781022,
+    "lng": 0.999749,
+    "transactions": [
+      {
+        "date": "2020-07-29",
+        "priceEur": 153000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "45f7da3346c7": {
+    "id": "45f7da3346c7",
+    "label": "20 RTE DE LA VIENNE, Lamberville",
+    "lat": 49.779659,
+    "lng": 0.997063,
+    "transactions": [
+      {
+        "date": "2020-12-07",
+        "priceEur": 433900,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "297b113951d8": {
+    "id": "297b113951d8",
+    "label": "17 RTE DE LA VIENNE, Lamberville",
+    "lat": 49.775972,
+    "lng": 0.997507,
+    "transactions": [
+      {
+        "date": "2021-09-10",
+        "priceEur": 311000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb81d9361fa4": {
+    "id": "cb81d9361fa4",
+    "label": "8 RTE DE L'ANCIEN PRESBYTERE, Lamberville",
+    "lat": 49.774236,
+    "lng": 0.997181,
+    "transactions": [
+      {
+        "date": "2023-05-12",
+        "priceEur": 582500,
+        "typeLocal": "Maison",
+        "surfaceM2": 240,
+        "isVefa": false
+      }
+    ]
+  },
+  "bfeae4df0e95": {
+    "id": "bfeae4df0e95",
+    "label": "19 RTE DE LA VIENNE, Lamberville",
+    "lat": 49.776518,
+    "lng": 0.997474,
+    "transactions": [
+      {
+        "date": "2025-01-10",
+        "priceEur": 293090,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  }
+}

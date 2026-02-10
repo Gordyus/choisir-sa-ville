@@ -1,0 +1,92 @@
+{
+  "85ee9e025c26": {
+    "id": "85ee9e025c26",
+    "label": "39 RTE DU TRAIT, Rives-en-Seine",
+    "lat": 49.520549,
+    "lng": 0.759418,
+    "transactions": [
+      {
+        "date": "2020-08-14",
+        "priceEur": 66000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "29ca5ad41fb6": {
+    "id": "29ca5ad41fb6",
+    "label": "32 RUE JEAN LATHAM, Rives-en-Seine",
+    "lat": 49.524302,
+    "lng": 0.758896,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 223650,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff63e6795154": {
+    "id": "ff63e6795154",
+    "label": "34 RUE JEAN LATHAM, Rives-en-Seine",
+    "lat": 49.524053,
+    "lng": 0.758873,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 223650,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "094dee724b19": {
+    "id": "094dee724b19",
+    "label": "29B RUE JEAN LATHAM, Rives-en-Seine",
+    "lat": 49.523712,
+    "lng": 0.759101,
+    "transactions": [
+      {
+        "date": "2021-01-15",
+        "priceEur": 134000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9727390b3ea": {
+    "id": "c9727390b3ea",
+    "label": "29 RTE DU TRAIT, Rives-en-Seine",
+    "lat": 49.520849,
+    "lng": 0.758991,
+    "transactions": [
+      {
+        "date": "2022-03-22",
+        "priceEur": 196000,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0994ac1022d": {
+    "id": "a0994ac1022d",
+    "label": "55 RUE DES CAILLETTES, Rives-en-Seine",
+    "lat": 49.52377,
+    "lng": 0.765829,
+    "transactions": [
+      {
+        "date": "2023-04-03",
+        "priceEur": 139100,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  }
+}

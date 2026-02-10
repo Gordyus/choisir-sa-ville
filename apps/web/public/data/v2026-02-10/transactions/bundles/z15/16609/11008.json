@@ -1,0 +1,99 @@
+{
+  "84b96a01e219": {
+    "id": "84b96a01e219",
+    "label": "16 CHE DU PRINCE, Wallon-Cappel",
+    "lat": 50.72972,
+    "lng": 2.481463,
+    "transactions": [
+      {
+        "date": "2021-07-10",
+        "priceEur": 154800,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b7c181b0cea": {
+    "id": "9b7c181b0cea",
+    "label": "287 RTE NATIONALE, Wallon-Cappel",
+    "lat": 50.730286,
+    "lng": 2.473924,
+    "transactions": [
+      {
+        "date": "2021-10-07",
+        "priceEur": 267000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "4503f4fe95ca": {
+    "id": "4503f4fe95ca",
+    "label": "461 RTE NATIONALE, Wallon-Cappel",
+    "lat": 50.729858,
+    "lng": 2.47637,
+    "transactions": [
+      {
+        "date": "2024-05-30",
+        "priceEur": 221490,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-13",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "fbc5ab2b4a35": {
+    "id": "fbc5ab2b4a35",
+    "label": "151 RTE NATIONALE, Wallon-Cappel",
+    "lat": 50.730178,
+    "lng": 2.472098,
+    "transactions": [
+      {
+        "date": "2022-10-10",
+        "priceEur": 329000,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      }
+    ]
+  },
+  "075cced63e0a": {
+    "id": "075cced63e0a",
+    "label": "514 RUE DE LA TETE D'OR, Wallon-Cappel",
+    "lat": 50.734105,
+    "lng": 2.48182,
+    "transactions": [
+      {
+        "date": "2022-10-03",
+        "priceEur": 422730,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a461f08bc22": {
+    "id": "1a461f08bc22",
+    "label": "178 RTE NATIONALE, Wallon-Cappel",
+    "lat": 50.729573,
+    "lng": 2.472506,
+    "transactions": [
+      {
+        "date": "2024-10-07",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  }
+}

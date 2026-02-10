@@ -1,0 +1,47 @@
+{
+  "dea1a6a01be5": {
+    "id": "dea1a6a01be5",
+    "label": "5 RUE DU MOULIN, Neuf-Berquin",
+    "lat": 50.66039,
+    "lng": 2.650296,
+    "transactions": [
+      {
+        "date": "2022-08-16",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "586864010ab9": {
+    "id": "586864010ab9",
+    "label": "3 RUE DU MOULIN, Neuf-Berquin",
+    "lat": 50.661877,
+    "lng": 2.654123,
+    "transactions": [
+      {
+        "date": "2023-10-30",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "8aef192fdeef": {
+    "id": "8aef192fdeef",
+    "label": "9 RUE DE LA VIERHOUCK, Neuf-Berquin",
+    "lat": 50.664529,
+    "lng": 2.654944,
+    "transactions": [
+      {
+        "date": "2024-01-09",
+        "priceEur": 265960,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  }
+}

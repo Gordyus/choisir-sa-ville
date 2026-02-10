@@ -1,0 +1,150 @@
+{
+  "20cecc02202e": {
+    "id": "20cecc02202e",
+    "label": "16H RTE DE SAINTE AUSTREBERTHE, Pavilly",
+    "lat": 49.576643,
+    "lng": 0.957463,
+    "transactions": [
+      {
+        "date": "2021-08-05",
+        "priceEur": 93000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "61ee45a1df7e": {
+    "id": "61ee45a1df7e",
+    "label": "14D CITE LANG RISSER, Pavilly",
+    "lat": 49.576785,
+    "lng": 0.956478,
+    "transactions": [
+      {
+        "date": "2021-07-29",
+        "priceEur": 111000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "cfc81feae9d3": {
+    "id": "cfc81feae9d3",
+    "label": "18A RTE DE SAINTE AUSTREBERTHE, Pavilly",
+    "lat": 49.57677,
+    "lng": 0.957576,
+    "transactions": [
+      {
+        "date": "2022-06-02",
+        "priceEur": 117500,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "a88261618620": {
+    "id": "a88261618620",
+    "label": "18D RTE DE SAINTE AUSTREBERTHE, Pavilly",
+    "lat": 49.576894,
+    "lng": 0.957647,
+    "transactions": [
+      {
+        "date": "2022-09-01",
+        "priceEur": 171750,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "48320997ed97": {
+    "id": "48320997ed97",
+    "label": "9023 ROUGEMONT, Pavilly",
+    "lat": 49.575253,
+    "lng": 0.963496,
+    "transactions": [
+      {
+        "date": "2022-10-14",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "468a93517397": {
+    "id": "468a93517397",
+    "label": "15 ALL DE LA FELICITE, Pavilly",
+    "lat": 49.575596,
+    "lng": 0.956744,
+    "transactions": [
+      {
+        "date": "2023-12-19",
+        "priceEur": 1500000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-19",
+        "priceEur": 1500000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-19",
+        "priceEur": 1500000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-19",
+        "priceEur": 1500000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-19",
+        "priceEur": 1500000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "56b6a9d0faa1": {
+    "id": "56b6a9d0faa1",
+    "label": "18C RTE DE SAINTE AUSTREBERTHE, Pavilly",
+    "lat": 49.576865,
+    "lng": 0.957592,
+    "transactions": [
+      {
+        "date": "2024-06-17",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "d9f2a2aa3481": {
+    "id": "d9f2a2aa3481",
+    "label": "16F RTE DE SAINTE AUSTREBERTHE, Pavilly",
+    "lat": 49.576582,
+    "lng": 0.957369,
+    "transactions": [
+      {
+        "date": "2025-01-31",
+        "priceEur": 114000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "389f7b8dabb2": {
+    "id": "389f7b8dabb2",
+    "label": "7034 LE HARIDON, Berville-sur-Seine",
+    "lat": 49.469264,
+    "lng": 0.886895,
+    "transactions": [
+      {
+        "date": "2021-07-12",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "991bc39fa637": {
+    "id": "991bc39fa637",
+    "label": "226 RTE D'ANNEVILLE, Berville-sur-Seine",
+    "lat": 49.46939,
+    "lng": 0.887003,
+    "transactions": [
+      {
+        "date": "2021-09-15",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b24b85aa415": {
+    "id": "8b24b85aa415",
+    "label": "1139 RTE DU BAC, Berville-sur-Seine",
+    "lat": 49.471871,
+    "lng": 0.888514,
+    "transactions": [
+      {
+        "date": "2022-07-13",
+        "priceEur": 183500,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d7e98a488ed": {
+    "id": "0d7e98a488ed",
+    "label": "1081 RTE DU BAC, Berville-sur-Seine",
+    "lat": 49.472945,
+    "lng": 0.887515,
+    "transactions": [
+      {
+        "date": "2023-09-01",
+        "priceEur": 177000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "2260e65fe813": {
+    "id": "2260e65fe813",
+    "label": "1051 RTE DU BAC, Berville-sur-Seine",
+    "lat": 49.472297,
+    "lng": 0.88786,
+    "transactions": [
+      {
+        "date": "2024-10-31",
+        "priceEur": 119000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-24",
+        "priceEur": 77000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "aeb480884414": {
+    "id": "aeb480884414",
+    "label": "1077 RTE DU BAC, Berville-sur-Seine",
+    "lat": 49.472755,
+    "lng": 0.88809,
+    "transactions": [
+      {
+        "date": "2024-11-28",
+        "priceEur": 320800,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "65c1cf4ae739": {
+    "id": "65c1cf4ae739",
+    "label": "231 RTE D'ANNEVILLE, Berville-sur-Seine",
+    "lat": 49.468906,
+    "lng": 0.887865,
+    "transactions": [
+      {
+        "date": "2025-03-05",
+        "priceEur": 199100,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "92d815365037": {
+    "id": "92d815365037",
+    "label": "3744 RUE DE LA HAIE, Bois-Guillaume",
+    "lat": 49.485113,
+    "lng": 1.131071,
+    "transactions": [
+      {
+        "date": "2020-08-20",
+        "priceEur": 801000,
+        "typeLocal": "Maison",
+        "surfaceM2": 300,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-20",
+        "priceEur": 801000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8ebb4ed0e1d": {
+    "id": "f8ebb4ed0e1d",
+    "label": "3730B RUE DE LA HAIE, Bois-Guillaume",
+    "lat": 49.486318,
+    "lng": 1.129153,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 1334700,
+        "typeLocal": "Maison",
+        "surfaceM2": 398,
+        "isVefa": false
+      }
+    ]
+  },
+  "29efaab154aa": {
+    "id": "29efaab154aa",
+    "label": "3795 RUE DE LA HAIE, Bois-Guillaume",
+    "lat": 49.48744,
+    "lng": 1.12855,
+    "transactions": [
+      {
+        "date": "2021-03-23",
+        "priceEur": 570000,
+        "typeLocal": "Maison",
+        "surfaceM2": 203,
+        "isVefa": false
+      }
+    ]
+  },
+  "2225a1de5601": {
+    "id": "2225a1de5601",
+    "label": "3317 RUE DE LA HAIE, Bois-Guillaume",
+    "lat": 49.483838,
+    "lng": 1.124616,
+    "transactions": [
+      {
+        "date": "2023-06-21",
+        "priceEur": 480000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-21",
+        "priceEur": 480000,
+        "typeLocal": "Maison",
+        "surfaceM2": 183,
+        "isVefa": false
+      }
+    ]
+  },
+  "c90f5ab80503": {
+    "id": "c90f5ab80503",
+    "label": "3317B RUE DE LA HAIE, Bois-Guillaume",
+    "lat": 49.484255,
+    "lng": 1.124882,
+    "transactions": [
+      {
+        "date": "2023-12-21",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  }
+}

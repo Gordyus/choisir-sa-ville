@@ -1,0 +1,47 @@
+{
+  "fd4497645cc9": {
+    "id": "fd4497645cc9",
+    "label": "1 CRON CHEMIN, Steenwerck",
+    "lat": 50.69107,
+    "lng": 2.72576,
+    "transactions": [
+      {
+        "date": "2022-10-12",
+        "priceEur": 458200,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b7c28a4ddb8": {
+    "id": "4b7c28a4ddb8",
+    "label": "2547B RUE DE LE DOULIEU, Steenwerck",
+    "lat": 50.690372,
+    "lng": 2.725626,
+    "transactions": [
+      {
+        "date": "2023-12-13",
+        "priceEur": 198500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c6748a6755c": {
+    "id": "1c6748a6755c",
+    "label": "3 RUE DU VERRIER, Steenwerck",
+    "lat": 50.690993,
+    "lng": 2.726485,
+    "transactions": [
+      {
+        "date": "2024-10-10",
+        "priceEur": 610600,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  }
+}

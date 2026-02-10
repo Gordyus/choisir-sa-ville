@@ -1,0 +1,47 @@
+{
+  "b29a7ca45983": {
+    "id": "b29a7ca45983",
+    "label": "108 CHE DU GAVRE, Linselles",
+    "lat": 50.725822,
+    "lng": 3.053924,
+    "transactions": [
+      {
+        "date": "2023-03-31",
+        "priceEur": 720000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f065051b2cc": {
+    "id": "9f065051b2cc",
+    "label": "106 CHE DU GAVRE, Linselles",
+    "lat": 50.725999,
+    "lng": 3.053851,
+    "transactions": [
+      {
+        "date": "2023-07-20",
+        "priceEur": 501600,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "442f406f612e": {
+    "id": "442f406f612e",
+    "label": "61 CHE DU GAVRE, Linselles",
+    "lat": 50.729153,
+    "lng": 3.051675,
+    "transactions": [
+      {
+        "date": "2024-11-20",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

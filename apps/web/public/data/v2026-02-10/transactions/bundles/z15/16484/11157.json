@@ -1,0 +1,32 @@
+{
+  "d7e85378d3f1": {
+    "id": "d7e85378d3f1",
+    "label": "5 RUE DU VAL DE SCIE, Saint-Maclou-de-Folleville",
+    "lat": 49.682179,
+    "lng": 1.105036,
+    "transactions": [
+      {
+        "date": "2025-02-28",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "d29b0da57a2c": {
+    "id": "d29b0da57a2c",
+    "label": "22 RUE DU VAL DE SCIE, Saint-Maclou-de-Folleville",
+    "lat": 49.681891,
+    "lng": 1.106362,
+    "transactions": [
+      {
+        "date": "2025-02-24",
+        "priceEur": 166450,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

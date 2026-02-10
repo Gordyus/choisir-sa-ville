@@ -1,0 +1,99 @@
+{
+  "394555bc1ac2": {
+    "id": "394555bc1ac2",
+    "label": "5014 LE BOURG, Sainte-Geneviève",
+    "lat": 49.654039,
+    "lng": 1.433675,
+    "transactions": [
+      {
+        "date": "2022-05-11",
+        "priceEur": 4500,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e20a96833ff": {
+    "id": "0e20a96833ff",
+    "label": "5012 LE BOURG, Sainte-Geneviève",
+    "lat": 49.654488,
+    "lng": 1.434901,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "d451791784b6": {
+    "id": "d451791784b6",
+    "label": "5143 LE BOURG, Sainte-Geneviève",
+    "lat": 49.653974,
+    "lng": 1.433775,
+    "transactions": [
+      {
+        "date": "2022-09-16",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "7bbfe97793a7": {
+    "id": "7bbfe97793a7",
+    "label": "286 RTE DE L'EGLISE, Sainte-Geneviève",
+    "lat": 49.654039,
+    "lng": 1.433675,
+    "transactions": [
+      {
+        "date": "2022-09-16",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9475a8d1c84": {
+    "id": "c9475a8d1c84",
+    "label": "5125 LE BOURG, Sainte-Geneviève",
+    "lat": 49.654504,
+    "lng": 1.436177,
+    "transactions": [
+      {
+        "date": "2023-04-07",
+        "priceEur": 126000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-07",
+        "priceEur": 126000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "4bcaadecff8d": {
+    "id": "4bcaadecff8d",
+    "label": "1004 RTE DU HOULBEC, Sainte-Geneviève",
+    "lat": 49.659558,
+    "lng": 1.438668,
+    "transactions": [
+      {
+        "date": "2025-06-17",
+        "priceEur": 47500,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "879a6fc8f0d4": {
+    "id": "879a6fc8f0d4",
+    "label": "64 IMP DE LA MAIRIE, Hautot-le-Vatois",
+    "lat": 49.64436,
+    "lng": 0.693946,
+    "transactions": [
+      {
+        "date": "2023-01-16",
+        "priceEur": 149800,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4e7b58c0a63": {
+    "id": "b4e7b58c0a63",
+    "label": "100 RTE DU VILLAGE FLEURI, Hautot-le-Vatois",
+    "lat": 49.646193,
+    "lng": 0.693064,
+    "transactions": [
+      {
+        "date": "2024-09-05",
+        "priceEur": 191000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  }
+}

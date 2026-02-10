@@ -1,0 +1,24 @@
+{
+  "eaa94e648c55": {
+    "id": "eaa94e648c55",
+    "label": "2 LES PETITES COURS, Ancourteville-sur-Héricourt",
+    "lat": 49.696177,
+    "lng": 0.656915,
+    "transactions": [
+      {
+        "date": "2020-12-10",
+        "priceEur": 222350,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-10",
+        "priceEur": 222350,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  }
+}

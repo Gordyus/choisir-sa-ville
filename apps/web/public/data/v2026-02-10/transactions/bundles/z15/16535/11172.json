@@ -1,0 +1,32 @@
+{
+  "39bdc6e1c11b": {
+    "id": "39bdc6e1c11b",
+    "label": "5064 LE MOULIN DE HAUSSEZ, Ménerval",
+    "lat": 49.579057,
+    "lng": 1.665899,
+    "transactions": [
+      {
+        "date": "2021-03-12",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "a858b14f9cb8": {
+    "id": "a858b14f9cb8",
+    "label": "12B RUE DE L EPTE, Haussez",
+    "lat": 49.580381,
+    "lng": 1.659661,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 177750,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  }
+}

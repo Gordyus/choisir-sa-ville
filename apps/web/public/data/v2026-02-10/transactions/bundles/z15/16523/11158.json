@@ -1,0 +1,47 @@
+{
+  "54d91252e44a": {
+    "id": "54d91252e44a",
+    "label": "5003 LES PARQUETS, Beaussault",
+    "lat": 49.680227,
+    "lng": 1.535185,
+    "transactions": [
+      {
+        "date": "2021-04-22",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e9fc69e0711": {
+    "id": "2e9fc69e0711",
+    "label": "1868 CHE DE SAINT JOUARRE, Beaussault",
+    "lat": 49.678348,
+    "lng": 1.52718,
+    "transactions": [
+      {
+        "date": "2023-02-24",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "57a5feeaf969": {
+    "id": "57a5feeaf969",
+    "label": "1068 LES PARQUETS, Beaussault",
+    "lat": 49.679597,
+    "lng": 1.536721,
+    "transactions": [
+      {
+        "date": "2023-11-30",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

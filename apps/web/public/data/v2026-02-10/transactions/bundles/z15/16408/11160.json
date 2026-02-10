@@ -1,0 +1,77 @@
+{
+  "6a4a8c4c4eed": {
+    "id": "6a4a8c4c4eed",
+    "label": "133 RUE ANDRE GIDE, Cuverville",
+    "lat": 49.664799,
+    "lng": 0.264091,
+    "transactions": [
+      {
+        "date": "2021-02-11",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "65ffe1e4a17a": {
+    "id": "65ffe1e4a17a",
+    "label": "677 CHE DE LA FERRANDERIE, Cuverville",
+    "lat": 49.666719,
+    "lng": 0.271463,
+    "transactions": [
+      {
+        "date": "2021-03-22",
+        "priceEur": 315500,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2a965b90088": {
+    "id": "a2a965b90088",
+    "label": "98 CHE DE LA PORTE ETROITE, Cuverville",
+    "lat": 49.663259,
+    "lng": 0.268909,
+    "transactions": [
+      {
+        "date": "2021-06-15",
+        "priceEur": 357000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7ddcd7d77e8": {
+    "id": "b7ddcd7d77e8",
+    "label": "261 RTE DU CHATEAU, Cuverville",
+    "lat": 49.663545,
+    "lng": 0.26601,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 294000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "be980a21dc87": {
+    "id": "be980a21dc87",
+    "label": "224 RTE DU CHATEAU, Cuverville",
+    "lat": 49.663099,
+    "lng": 0.264786,
+    "transactions": [
+      {
+        "date": "2021-06-07",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

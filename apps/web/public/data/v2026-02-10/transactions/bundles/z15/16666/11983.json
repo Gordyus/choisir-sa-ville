@@ -1,0 +1,107 @@
+{
+  "c81c1395b201": {
+    "id": "c81c1395b201",
+    "label": "5031 HAMEAU DE VEYRAN, Causses-et-Veyran",
+    "lat": 43.45808,
+    "lng": 3.102503,
+    "transactions": [
+      {
+        "date": "2023-06-29",
+        "priceEur": 390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "1df4ea8f7ab0": {
+    "id": "1df4ea8f7ab0",
+    "label": "5028 HAMEAU DE VEYRAN, Causses-et-Veyran",
+    "lat": 43.458306,
+    "lng": 3.102392,
+    "transactions": [
+      {
+        "date": "2023-06-29",
+        "priceEur": 390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e21e219dc4f": {
+    "id": "8e21e219dc4f",
+    "label": "5029 HAMEAU DE VEYRAN, Causses-et-Veyran",
+    "lat": 43.458382,
+    "lng": 3.102451,
+    "transactions": [
+      {
+        "date": "2023-06-29",
+        "priceEur": 390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "36809318e0ac": {
+    "id": "36809318e0ac",
+    "label": "5030 HAMEAU DE VEYRAN, Causses-et-Veyran",
+    "lat": 43.458075,
+    "lng": 3.102633,
+    "transactions": [
+      {
+        "date": "2023-06-29",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3463b9a962d": {
+    "id": "b3463b9a962d",
+    "label": "5 HAMEAU DE VEYRAN, Causses-et-Veyran",
+    "lat": 43.458182,
+    "lng": 3.102822,
+    "transactions": [
+      {
+        "date": "2023-07-17",
+        "priceEur": 318300,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "89c7fe5ca14e": {
+    "id": "89c7fe5ca14e",
+    "label": "1223 HAMEAU DE VEYRAN, Causses-et-Veyran",
+    "lat": 43.458298,
+    "lng": 3.102772,
+    "transactions": [
+      {
+        "date": "2023-07-17",
+        "priceEur": 318300,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6e688ca21d9": {
+    "id": "e6e688ca21d9",
+    "label": "5318 HAMEAU DE VEYRAN, Causses-et-Veyran",
+    "lat": 43.458252,
+    "lng": 3.102817,
+    "transactions": [
+      {
+        "date": "2023-07-17",
+        "priceEur": 318300,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  }
+}

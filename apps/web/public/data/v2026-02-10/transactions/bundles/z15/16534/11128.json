@@ -1,0 +1,76 @@
+{
+  "438302a10f8c": {
+    "id": "438302a10f8c",
+    "label": "5008 LE VILLAGE, Pierrecourt",
+    "lat": 49.891847,
+    "lng": 1.648807,
+    "transactions": [
+      {
+        "date": "2021-09-13",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "828220bd850a": {
+    "id": "828220bd850a",
+    "label": "5131 LE VILLAGE, Pierrecourt",
+    "lat": 49.894066,
+    "lng": 1.655047,
+    "transactions": [
+      {
+        "date": "2022-05-13",
+        "priceEur": 23000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-13",
+        "priceEur": 23000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "f2aa354fb6c9": {
+    "id": "f2aa354fb6c9",
+    "label": "5062 LE VILLAGE, Pierrecourt",
+    "lat": 49.893561,
+    "lng": 1.654665,
+    "transactions": [
+      {
+        "date": "2022-12-19",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "24eabf2b6fdf": {
+    "id": "24eabf2b6fdf",
+    "label": "26 RUE CENTRALE, Pierrecourt",
+    "lat": 49.894066,
+    "lng": 1.655047,
+    "transactions": [
+      {
+        "date": "2025-02-19",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-19",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "8b87f9e2f402": {
+    "id": "8b87f9e2f402",
+    "label": "5093 BURETTES, Bures-en-Bray",
+    "lat": 49.781938,
+    "lng": 1.346326,
+    "transactions": [
+      {
+        "date": "2023-07-26",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-28",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "26156e7a871d": {
+    "id": "26156e7a871d",
+    "label": "5183 BURETTES, Bures-en-Bray",
+    "lat": 49.782271,
+    "lng": 1.342616,
+    "transactions": [
+      {
+        "date": "2020-12-30",
+        "priceEur": 79030,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "c82b09bea0e0": {
+    "id": "c82b09bea0e0",
+    "label": "49 GR GRANDE RUE, Bures-en-Bray",
+    "lat": 49.781641,
+    "lng": 1.342842,
+    "transactions": [
+      {
+        "date": "2021-09-27",
+        "priceEur": 167800,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "59a75d931b87": {
+    "id": "59a75d931b87",
+    "label": "7 ALL DES TILLEULS, Bures-en-Bray",
+    "lat": 49.781973,
+    "lng": 1.345406,
+    "transactions": [
+      {
+        "date": "2022-02-21",
+        "priceEur": 156000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe2603ce70a5": {
+    "id": "fe2603ce70a5",
+    "label": "5086 BURETTES, Bures-en-Bray",
+    "lat": 49.782631,
+    "lng": 1.34441,
+    "transactions": [
+      {
+        "date": "2023-08-04",
+        "priceEur": 151500,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-18",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

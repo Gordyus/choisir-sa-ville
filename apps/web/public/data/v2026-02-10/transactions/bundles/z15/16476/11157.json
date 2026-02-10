@@ -1,0 +1,107 @@
+{
+  "3f25652fea77": {
+    "id": "3f25652fea77",
+    "label": "60B RUE DE L HORLOGER, Saint-Vaast-du-Val",
+    "lat": 49.688648,
+    "lng": 1.012558,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd11416adad6": {
+    "id": "bd11416adad6",
+    "label": "63 RUE DU PUITS, Saint-Vaast-du-Val",
+    "lat": 49.688007,
+    "lng": 1.011874,
+    "transactions": [
+      {
+        "date": "2021-11-18",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff910f739e80": {
+    "id": "ff910f739e80",
+    "label": "210 RUE FRANCOIS PREVEL, Saint-Vaast-du-Val",
+    "lat": 49.687793,
+    "lng": 1.012067,
+    "transactions": [
+      {
+        "date": "2021-05-12",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "726743a43d0c": {
+    "id": "726743a43d0c",
+    "label": "179 RUE DU PUITS, Saint-Vaast-du-Val",
+    "lat": 49.687165,
+    "lng": 1.013251,
+    "transactions": [
+      {
+        "date": "2021-07-02",
+        "priceEur": 157200,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "ded22a0096d9": {
+    "id": "ded22a0096d9",
+    "label": "391 RUE DES TISSERANDS, Saint-Vaast-du-Val",
+    "lat": 49.686585,
+    "lng": 1.021268,
+    "transactions": [
+      {
+        "date": "2021-09-03",
+        "priceEur": 242000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "519e52896dee": {
+    "id": "519e52896dee",
+    "label": "26 RUE DE LA FORGE, Saint-Vaast-du-Val",
+    "lat": 49.687963,
+    "lng": 1.010847,
+    "transactions": [
+      {
+        "date": "2022-08-02",
+        "priceEur": 129000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "755ba1e98f22": {
+    "id": "755ba1e98f22",
+    "label": "172 RUE DE L HORLOGER, Saint-Vaast-du-Val",
+    "lat": 49.688341,
+    "lng": 1.013862,
+    "transactions": [
+      {
+        "date": "2022-10-07",
+        "priceEur": 106000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  }
+}

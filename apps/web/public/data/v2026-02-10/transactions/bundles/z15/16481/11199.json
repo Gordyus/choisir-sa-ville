@@ -1,0 +1,32 @@
+{
+  "97486cf2e23a": {
+    "id": "97486cf2e23a",
+    "label": "38 RUE JEAN HENRI FABRE, Saint-Étienne-du-Rouvray",
+    "lat": 49.389109,
+    "lng": 1.069504,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 298000,
+        "typeLocal": "Maison",
+        "surfaceM2": 193,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d4002ae82d5": {
+    "id": "0d4002ae82d5",
+    "label": "39 RUE JEAN HENRI FABRE, Saint-Étienne-du-Rouvray",
+    "lat": 49.389437,
+    "lng": 1.068835,
+    "transactions": [
+      {
+        "date": "2022-07-27",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 216,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "e5ba48c64639": {
+    "id": "e5ba48c64639",
+    "label": "5157 DEVILLE, Grandcourt",
+    "lat": 49.923291,
+    "lng": 1.464703,
+    "transactions": [
+      {
+        "date": "2020-12-02",
+        "priceEur": 243400,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-02",
+        "priceEur": 243400,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "cbb053289006": {
+    "id": "cbb053289006",
+    "label": "5155 DEVILLE, Grandcourt",
+    "lat": 49.924902,
+    "lng": 1.466758,
+    "transactions": [
+      {
+        "date": "2024-04-15",
+        "priceEur": 42000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

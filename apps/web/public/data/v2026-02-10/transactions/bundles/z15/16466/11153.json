@@ -1,0 +1,159 @@
+{
+  "864513468d0a": {
+    "id": "864513468d0a",
+    "label": "110 RUE DES CHATAIGNIERS, Lindebeuf",
+    "lat": 49.711791,
+    "lng": 0.906584,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 166000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "a8ee55578d34": {
+    "id": "a8ee55578d34",
+    "label": "30 IMP DE LA FORGE, Lindebeuf",
+    "lat": 49.710513,
+    "lng": 0.908272,
+    "transactions": [
+      {
+        "date": "2021-06-07",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "fac4fcc8f738": {
+    "id": "fac4fcc8f738",
+    "label": "363 RUE DES TILLEULS, Lindebeuf",
+    "lat": 49.710915,
+    "lng": 0.907514,
+    "transactions": [
+      {
+        "date": "2021-06-18",
+        "priceEur": 209000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "c738209735cc": {
+    "id": "c738209735cc",
+    "label": "340 RUE DES TILLEULS, Lindebeuf",
+    "lat": 49.710527,
+    "lng": 0.907326,
+    "transactions": [
+      {
+        "date": "2021-02-24",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "d2f92ebe0bea": {
+    "id": "d2f92ebe0bea",
+    "label": "253 RUE DES TILLEULS, Lindebeuf",
+    "lat": 49.710561,
+    "lng": 0.906273,
+    "transactions": [
+      {
+        "date": "2022-03-18",
+        "priceEur": 144500,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "37b9f7e095e2": {
+    "id": "37b9f7e095e2",
+    "label": "47 RUE DE LA CHAUMIERE BRULEE, Lindebeuf",
+    "lat": 49.711539,
+    "lng": 0.907536,
+    "transactions": [
+      {
+        "date": "2022-04-20",
+        "priceEur": 269000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ad36744cee8": {
+    "id": "3ad36744cee8",
+    "label": "121 RUE DES CHATAIGNIERS, Lindebeuf",
+    "lat": 49.711455,
+    "lng": 0.906282,
+    "transactions": [
+      {
+        "date": "2022-09-27",
+        "priceEur": 209000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "1447df9e8d39": {
+    "id": "1447df9e8d39",
+    "label": "181 RUE DU CALVAIRE, Le Torp-Mesnil",
+    "lat": 49.71569,
+    "lng": 0.903246,
+    "transactions": [
+      {
+        "date": "2022-09-29",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "7cb3c9d79c72": {
+    "id": "7cb3c9d79c72",
+    "label": "24 IMP DE LA FORGE, Lindebeuf",
+    "lat": 49.710665,
+    "lng": 0.908064,
+    "transactions": [
+      {
+        "date": "2023-03-29",
+        "priceEur": 173000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "f3084d3cfd17": {
+    "id": "f3084d3cfd17",
+    "label": "182 RUE DU CALVAIRE, Le Torp-Mesnil",
+    "lat": 49.715315,
+    "lng": 0.903021,
+    "transactions": [
+      {
+        "date": "2025-02-11",
+        "priceEur": 309900,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-11",
+        "priceEur": 309900,
+        "typeLocal": "Maison",
+        "surfaceM2": 164,
+        "isVefa": false
+      }
+    ]
+  }
+}

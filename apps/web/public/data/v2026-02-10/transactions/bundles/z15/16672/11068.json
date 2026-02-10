@@ -1,0 +1,122 @@
+{
+  "c18e77df255f": {
+    "id": "c18e77df255f",
+    "label": "39 RUE DE LA GUERLICHE, Erchin",
+    "lat": 50.312823,
+    "lng": 3.168762,
+    "transactions": [
+      {
+        "date": "2020-11-23",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "0530672c64be": {
+    "id": "0530672c64be",
+    "label": "10 RUE DE LA MAIRIE, Erchin",
+    "lat": 50.317355,
+    "lng": 3.167257,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "94ce84323287": {
+    "id": "94ce84323287",
+    "label": "4 RUE DU FONTENOY, Erchin",
+    "lat": 50.316411,
+    "lng": 3.16442,
+    "transactions": [
+      {
+        "date": "2022-11-23",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "0594b0c50b20": {
+    "id": "0594b0c50b20",
+    "label": "12 RUE DE LA MAIRIE, Erchin",
+    "lat": 50.317376,
+    "lng": 3.167459,
+    "transactions": [
+      {
+        "date": "2023-09-25",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d4f8421f2cc": {
+    "id": "9d4f8421f2cc",
+    "label": "2 RUE DE VILLERS, Erchin",
+    "lat": 50.31681,
+    "lng": 3.166098,
+    "transactions": [
+      {
+        "date": "2023-11-17",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "c86b4b69c3fd": {
+    "id": "c86b4b69c3fd",
+    "label": "8 RUE DU FONTENOY, Erchin",
+    "lat": 50.316023,
+    "lng": 3.164469,
+    "transactions": [
+      {
+        "date": "2024-07-19",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "373511fd0f47": {
+    "id": "373511fd0f47",
+    "label": "12 RUE DE VILLERS, Erchin",
+    "lat": 50.315114,
+    "lng": 3.166412,
+    "transactions": [
+      {
+        "date": "2024-10-09",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "2915dddbf995": {
+    "id": "2915dddbf995",
+    "label": "8 RUE DE LA MAIRIE, Erchin",
+    "lat": 50.317086,
+    "lng": 3.167384,
+    "transactions": [
+      {
+        "date": "2025-03-25",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "667553b7e2fa": {
+    "id": "667553b7e2fa",
+    "label": "5100 LE VRACQ, La Bouille",
+    "lat": 49.350811,
+    "lng": 0.934057,
+    "transactions": [
+      {
+        "date": "2023-03-24",
+        "priceEur": 65471.93,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-12",
+        "priceEur": 131900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-30",
+        "priceEur": 93500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-01",
+        "priceEur": 115000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-03",
+        "priceEur": 63100,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "5499c8ef3346": {
+    "id": "5499c8ef3346",
+    "label": "22 CHEM DE HALAGE, Sahurs",
+    "lat": 49.352501,
+    "lng": 0.939935,
+    "transactions": [
+      {
+        "date": "2020-08-17",
+        "priceEur": 31000,
+        "typeLocal": "Maison",
+        "surfaceM2": 18,
+        "isVefa": false
+      }
+    ]
+  },
+  "53001443a60c": {
+    "id": "53001443a60c",
+    "label": "5 LE FER A CHEVAL, La Bouille",
+    "lat": 49.34729,
+    "lng": 0.933843,
+    "transactions": [
+      {
+        "date": "2020-11-24",
+        "priceEur": 204750,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1966f3936ea": {
+    "id": "e1966f3936ea",
+    "label": "2 COTE DE LA MAISON BRULEE, La Bouille",
+    "lat": 49.348342,
+    "lng": 0.933932,
+    "transactions": [
+      {
+        "date": "2021-11-22",
+        "priceEur": 280000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b650bfdad8d": {
+    "id": "0b650bfdad8d",
+    "label": "5219 LE FER A CHEVAL, La Bouille",
+    "lat": 49.34789,
+    "lng": 0.933926,
+    "transactions": [
+      {
+        "date": "2022-07-26",
+        "priceEur": 218000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "c23a40e421ea": {
+    "id": "c23a40e421ea",
+    "label": "152 ALL DES FRENES, La Bouille",
+    "lat": 49.350187,
+    "lng": 0.93592,
+    "transactions": [
+      {
+        "date": "2023-11-13",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf1e0b293775": {
+    "id": "bf1e0b293775",
+    "label": "1A ALL DES LAURIERS, La Bouille",
+    "lat": 49.350811,
+    "lng": 0.934057,
+    "transactions": [
+      {
+        "date": "2024-03-25",
+        "priceEur": 85000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "08e668807697": {
+    "id": "08e668807697",
+    "label": "174 ALL DES FRENES, La Bouille",
+    "lat": 49.350174,
+    "lng": 0.935195,
+    "transactions": [
+      {
+        "date": "2024-06-04",
+        "priceEur": 209500,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "078562a3c161": {
+    "id": "078562a3c161",
+    "label": "133 ALL DES FRENES, La Bouille",
+    "lat": 49.35063,
+    "lng": 0.935181,
+    "transactions": [
+      {
+        "date": "2024-05-25",
+        "priceEur": 215300,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

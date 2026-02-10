@@ -1,0 +1,77 @@
+{
+  "224f51af2ef7": {
+    "id": "224f51af2ef7",
+    "label": "943 CHE DES VERTUS, Saint-Aubin-sur-Scie",
+    "lat": 49.901139,
+    "lng": 1.075177,
+    "transactions": [
+      {
+        "date": "2022-11-21",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "95c7875f9bd4": {
+    "id": "95c7875f9bd4",
+    "label": "65 IMP DE LA CHAPELLE, Saint-Aubin-sur-Scie",
+    "lat": 49.895255,
+    "lng": 1.072376,
+    "transactions": [
+      {
+        "date": "2023-02-16",
+        "priceEur": 449900,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "4bd13b5353ad": {
+    "id": "4bd13b5353ad",
+    "label": "926 CHE DES VERTUS, Saint-Aubin-sur-Scie",
+    "lat": 49.901024,
+    "lng": 1.075191,
+    "transactions": [
+      {
+        "date": "2023-03-01",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a083fa41804": {
+    "id": "4a083fa41804",
+    "label": "5 RUE DE LA CROIX DE PIERRE, Saint-Aubin-sur-Scie",
+    "lat": 49.897449,
+    "lng": 1.075322,
+    "transactions": [
+      {
+        "date": "2023-04-11",
+        "priceEur": 6796875,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae9000f9b708": {
+    "id": "ae9000f9b708",
+    "label": "120 IMP LOUIS BASTIER, Saint-Aubin-sur-Scie",
+    "lat": 49.895164,
+    "lng": 1.069319,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 276750,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

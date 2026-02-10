@@ -1,0 +1,39 @@
+{
+  "cf9373bf73fc": {
+    "id": "cf9373bf73fc",
+    "label": "5066 LES PATIS, Cuy-Saint-Fiacre",
+    "lat": 49.502371,
+    "lng": 1.701432,
+    "transactions": [
+      {
+        "date": "2020-10-05",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "7cf0cf3db3af": {
+    "id": "7cf0cf3db3af",
+    "label": "43B RUE FALOURDEL, Elbeuf-en-Bray",
+    "lat": 49.497331,
+    "lng": 1.693504,
+    "transactions": [
+      {
+        "date": "2023-08-30",
+        "priceEur": 337632,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-30",
+        "priceEur": 337632,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  }
+}

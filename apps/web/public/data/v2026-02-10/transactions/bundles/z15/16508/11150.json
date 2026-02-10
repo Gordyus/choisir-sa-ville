@@ -1,0 +1,62 @@
+{
+  "587d30447d1c": {
+    "id": "587d30447d1c",
+    "label": "5197 LES GROUELLES, Bully",
+    "lat": 49.734683,
+    "lng": 1.363391,
+    "transactions": [
+      {
+        "date": "2020-09-24",
+        "priceEur": 58000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "4910fcd7c22d": {
+    "id": "4910fcd7c22d",
+    "label": "26A RTE DE FRESLES, Bully",
+    "lat": 49.734253,
+    "lng": 1.365659,
+    "transactions": [
+      {
+        "date": "2020-09-26",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "7620f84550f9": {
+    "id": "7620f84550f9",
+    "label": "5191 LES GROUELLES, Bully",
+    "lat": 49.732328,
+    "lng": 1.366705,
+    "transactions": [
+      {
+        "date": "2021-06-02",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "ebb2101b07a3": {
+    "id": "ebb2101b07a3",
+    "label": "26B RTE DE FRESLES, Bully",
+    "lat": 49.734435,
+    "lng": 1.365318,
+    "transactions": [
+      {
+        "date": "2022-02-15",
+        "priceEur": 167600,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  }
+}

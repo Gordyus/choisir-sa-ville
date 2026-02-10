@@ -1,0 +1,32 @@
+{
+  "a0c0f70255bf": {
+    "id": "a0c0f70255bf",
+    "label": "43 RUE DES JONQUILLES, Limésy",
+    "lat": 49.608728,
+    "lng": 0.902623,
+    "transactions": [
+      {
+        "date": "2021-02-24",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "61dc10520c75": {
+    "id": "61dc10520c75",
+    "label": "7004 NEUFMESNIL, Limésy",
+    "lat": 49.608611,
+    "lng": 0.90192,
+    "transactions": [
+      {
+        "date": "2021-09-27",
+        "priceEur": 218000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  }
+}

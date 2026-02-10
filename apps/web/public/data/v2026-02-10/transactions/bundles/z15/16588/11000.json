@@ -1,0 +1,99 @@
+{
+  "7e6c92a81617": {
+    "id": "7e6c92a81617",
+    "label": "22 RUE DE BERGUES, Saint-Momelin",
+    "lat": 50.790973,
+    "lng": 2.251766,
+    "transactions": [
+      {
+        "date": "2020-07-16",
+        "priceEur": 90000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-16",
+        "priceEur": 90000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "1085b1876148": {
+    "id": "1085b1876148",
+    "label": "2B RUE DE NIEURLET, Saint-Momelin",
+    "lat": 50.790205,
+    "lng": 2.251856,
+    "transactions": [
+      {
+        "date": "2020-11-26",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "780c4cecf207": {
+    "id": "780c4cecf207",
+    "label": "28B RUE DE BERGUES, Saint-Momelin",
+    "lat": 50.7902,
+    "lng": 2.250682,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff5cbfe4ad3a": {
+    "id": "ff5cbfe4ad3a",
+    "label": "31 RUE DE BERGUES, Saint-Momelin",
+    "lat": 50.79062,
+    "lng": 2.251927,
+    "transactions": [
+      {
+        "date": "2021-03-26",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac5fcf6f0764": {
+    "id": "ac5fcf6f0764",
+    "label": "28 RUE DE BERGUES, Saint-Momelin",
+    "lat": 50.790228,
+    "lng": 2.250867,
+    "transactions": [
+      {
+        "date": "2022-10-28",
+        "priceEur": 60000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "9571e4414d09": {
+    "id": "9571e4414d09",
+    "label": "3 RUE DE NIEURLET, Saint-Momelin",
+    "lat": 50.790468,
+    "lng": 2.252152,
+    "transactions": [
+      {
+        "date": "2025-03-05",
+        "priceEur": 113000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  }
+}

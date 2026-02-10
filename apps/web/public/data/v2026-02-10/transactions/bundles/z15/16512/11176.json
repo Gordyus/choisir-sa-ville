@@ -1,0 +1,24 @@
+{
+  "597c02fc36c5": {
+    "id": "597c02fc36c5",
+    "label": "543 RTE D'ARGUEIL, Bois-Guilbert",
+    "lat": 49.547384,
+    "lng": 1.41569,
+    "transactions": [
+      {
+        "date": "2022-12-19",
+        "priceEur": 209400,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-25",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  }
+}

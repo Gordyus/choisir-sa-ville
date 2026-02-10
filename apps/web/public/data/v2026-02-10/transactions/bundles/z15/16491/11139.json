@@ -1,0 +1,62 @@
+{
+  "d5f2f1b2195d": {
+    "id": "d5f2f1b2195d",
+    "label": "23 RUE DU POLLET, Torcy-le-Petit",
+    "lat": 49.815685,
+    "lng": 1.176865,
+    "transactions": [
+      {
+        "date": "2021-09-27",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6f1c66972c4": {
+    "id": "c6f1c66972c4",
+    "label": "19 RUE DU POLLET, Torcy-le-Petit",
+    "lat": 49.815994,
+    "lng": 1.176431,
+    "transactions": [
+      {
+        "date": "2022-02-15",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "3296d9834425": {
+    "id": "3296d9834425",
+    "label": "5134 LE MONT BLANC, Torcy-le-Petit",
+    "lat": 49.815683,
+    "lng": 1.177278,
+    "transactions": [
+      {
+        "date": "2022-05-13",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7b95f7f980d": {
+    "id": "f7b95f7f980d",
+    "label": "2 RTE D'ETABLES, Torcy-le-Petit",
+    "lat": 49.815879,
+    "lng": 1.177031,
+    "transactions": [
+      {
+        "date": "2022-06-27",
+        "priceEur": 87000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

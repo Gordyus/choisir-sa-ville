@@ -1,0 +1,32 @@
+{
+  "0ca9dc20bf41": {
+    "id": "0ca9dc20bf41",
+    "label": "583 RTE DE DIEPPE, Londinières",
+    "lat": 49.838149,
+    "lng": 1.390337,
+    "transactions": [
+      {
+        "date": "2021-04-06",
+        "priceEur": 144000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "15ec80c6498c": {
+    "id": "15ec80c6498c",
+    "label": "5333 LES BASCONS, Londinières",
+    "lat": 49.838328,
+    "lng": 1.389886,
+    "transactions": [
+      {
+        "date": "2023-04-11",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

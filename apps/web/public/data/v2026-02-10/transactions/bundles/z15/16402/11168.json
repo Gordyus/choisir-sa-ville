@@ -1,0 +1,62 @@
+{
+  "0447c7e9e053": {
+    "id": "0447c7e9e053",
+    "label": "9 RTE DE LA FERME SAMSON, Saint-Martin-du-Bec",
+    "lat": 49.607131,
+    "lng": 0.204014,
+    "transactions": [
+      {
+        "date": "2024-01-30",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9f694292d0e": {
+    "id": "f9f694292d0e",
+    "label": "4 RTE DE LA COTE VALLEE, Saint-Martin-du-Bec",
+    "lat": 49.604583,
+    "lng": 0.207662,
+    "transactions": [
+      {
+        "date": "2024-03-15",
+        "priceEur": 412170,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff31a2711484": {
+    "id": "ff31a2711484",
+    "label": "2 RTE DE LA PIGEONNIERE, Saint-Martin-du-Bec",
+    "lat": 49.608048,
+    "lng": 0.207339,
+    "transactions": [
+      {
+        "date": "2024-05-30",
+        "priceEur": 268000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "e19ede8e683f": {
+    "id": "e19ede8e683f",
+    "label": "6 RTE DE LA COTE VALLEE, Saint-Martin-du-Bec",
+    "lat": 49.605176,
+    "lng": 0.207623,
+    "transactions": [
+      {
+        "date": "2025-02-07",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

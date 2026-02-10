@@ -1,0 +1,62 @@
+{
+  "3091013ad239": {
+    "id": "3091013ad239",
+    "label": "18B RUE DE LA CAUNETTE, Aigne",
+    "lat": 43.334051,
+    "lng": 2.79846,
+    "transactions": [
+      {
+        "date": "2020-11-25",
+        "priceEur": 199500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "882b6c01c165": {
+    "id": "882b6c01c165",
+    "label": "39 RUE DU MINERVOIS, Aigne",
+    "lat": 43.333196,
+    "lng": 2.800605,
+    "transactions": [
+      {
+        "date": "2021-11-10",
+        "priceEur": 275750,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "a7d34f9c2cd8": {
+    "id": "a7d34f9c2cd8",
+    "label": "5218F LES ARGUSSELS ET LE PORTEL, Aigne",
+    "lat": 43.333556,
+    "lng": 2.795914,
+    "transactions": [
+      {
+        "date": "2022-06-16",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e6d6f4507af": {
+    "id": "3e6d6f4507af",
+    "label": "5170 SAINT MICHEL, Aigne",
+    "lat": 43.333524,
+    "lng": 2.800443,
+    "transactions": [
+      {
+        "date": "2024-08-23",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

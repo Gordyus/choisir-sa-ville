@@ -1,0 +1,92 @@
+{
+  "6d7a6f14aa47": {
+    "id": "6d7a6f14aa47",
+    "label": "5005 LE VILLAGE, Fesques",
+    "lat": 49.789863,
+    "lng": 1.477221,
+    "transactions": [
+      {
+        "date": "2021-07-23",
+        "priceEur": 74000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "70dade039fe3": {
+    "id": "70dade039fe3",
+    "label": "7 CHE DES OISEAUX, Fesques",
+    "lat": 49.789439,
+    "lng": 1.475518,
+    "transactions": [
+      {
+        "date": "2022-04-30",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "d8673656c03c": {
+    "id": "d8673656c03c",
+    "label": "13 CHE DE L ABREUVOIR, Fesques",
+    "lat": 49.79021,
+    "lng": 1.475207,
+    "transactions": [
+      {
+        "date": "2022-08-04",
+        "priceEur": 217300,
+        "typeLocal": "Maison",
+        "surfaceM2": 174,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c20a92b0c9b": {
+    "id": "2c20a92b0c9b",
+    "label": "5003 LE VILLAGE, Fesques",
+    "lat": 49.790504,
+    "lng": 1.47775,
+    "transactions": [
+      {
+        "date": "2023-01-06",
+        "priceEur": 83000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "e621c3b87d50": {
+    "id": "e621c3b87d50",
+    "label": "5 CHE DES OISEAUX, Fesques",
+    "lat": 49.789076,
+    "lng": 1.475526,
+    "transactions": [
+      {
+        "date": "2023-03-21",
+        "priceEur": 211300,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "86dbd7b73c07": {
+    "id": "86dbd7b73c07",
+    "label": "5046 LE VILLAGE, Fesques",
+    "lat": 49.789654,
+    "lng": 1.478933,
+    "transactions": [
+      {
+        "date": "2024-03-07",
+        "priceEur": 71000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  }
+}

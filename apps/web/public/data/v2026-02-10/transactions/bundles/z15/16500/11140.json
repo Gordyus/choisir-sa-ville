@@ -1,0 +1,39 @@
+{
+  "086fe88f46ff": {
+    "id": "086fe88f46ff",
+    "label": "5011 LE BOURG, Ricarville-du-Val",
+    "lat": 49.809324,
+    "lng": 1.276192,
+    "transactions": [
+      {
+        "date": "2022-05-06",
+        "priceEur": 249134.4,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "83cdae92101d": {
+    "id": "83cdae92101d",
+    "label": "5010B LE BOURG, Ricarville-du-Val",
+    "lat": 49.809495,
+    "lng": 1.275352,
+    "transactions": [
+      {
+        "date": "2023-07-13",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-13",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 15,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "1ae7ee30ee30": {
+    "id": "1ae7ee30ee30",
+    "label": "29 RTE DES FLEURS, Sainte-Austreberthe",
+    "lat": 49.596346,
+    "lng": 0.960459,
+    "transactions": [
+      {
+        "date": "2022-04-25",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "1db1ee3582e1": {
+    "id": "1db1ee3582e1",
+    "label": "10B RTE DE TRINQUEBOEUF, Pavilly",
+    "lat": 49.59365,
+    "lng": 0.961135,
+    "transactions": [
+      {
+        "date": "2023-01-13",
+        "priceEur": 324345.06,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "aab14e64419d": {
+    "id": "aab14e64419d",
+    "label": "2 IMP DU HAMEAU, Pavilly",
+    "lat": 49.596425,
+    "lng": 0.956477,
+    "transactions": [
+      {
+        "date": "2024-10-16",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  }
+}

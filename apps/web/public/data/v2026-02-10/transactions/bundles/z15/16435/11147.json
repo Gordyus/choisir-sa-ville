@@ -1,0 +1,92 @@
+{
+  "6cec81191638": {
+    "id": "6cec81191638",
+    "label": "16 RUE DE L EGLISE, Gerponville",
+    "lat": 49.75372,
+    "lng": 0.565113,
+    "transactions": [
+      {
+        "date": "2020-12-10",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7a56c8c6cb2": {
+    "id": "b7a56c8c6cb2",
+    "label": "22 RTE DE THEUVILLE, Gerponville",
+    "lat": 49.753599,
+    "lng": 0.562128,
+    "transactions": [
+      {
+        "date": "2021-07-01",
+        "priceEur": 178100,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "59b11f0bfd24": {
+    "id": "59b11f0bfd24",
+    "label": "18 RUE DU CHATEAU, Gerponville",
+    "lat": 49.753452,
+    "lng": 0.567842,
+    "transactions": [
+      {
+        "date": "2023-08-08",
+        "priceEur": 151000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d4fda11f580": {
+    "id": "3d4fda11f580",
+    "label": "13 RUE DU CALVAIRE, Gerponville",
+    "lat": 49.754159,
+    "lng": 0.562959,
+    "transactions": [
+      {
+        "date": "2024-09-20",
+        "priceEur": 145700,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4faa3d3c433": {
+    "id": "f4faa3d3c433",
+    "label": "7 RUE JULIETTE VARIN, Gerponville",
+    "lat": 49.753039,
+    "lng": 0.567809,
+    "transactions": [
+      {
+        "date": "2024-11-28",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "7386de2a07d7": {
+    "id": "7386de2a07d7",
+    "label": "3 RUE DU CHATEAU, Gerponville",
+    "lat": 49.754912,
+    "lng": 0.566599,
+    "transactions": [
+      {
+        "date": "2025-02-14",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

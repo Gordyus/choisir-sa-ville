@@ -1,0 +1,129 @@
+{
+  "a1e51191280d": {
+    "id": "a1e51191280d",
+    "label": "109B RUE DU DRONCKAERT, Neuville-en-Ferrain",
+    "lat": 50.769595,
+    "lng": 3.1632,
+    "transactions": [
+      {
+        "date": "2020-10-06",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "be1fce0727c3": {
+    "id": "be1fce0727c3",
+    "label": "109A RUE DU DRONCKAERT, Neuville-en-Ferrain",
+    "lat": 50.76962,
+    "lng": 3.163244,
+    "transactions": [
+      {
+        "date": "2021-04-29",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "332babb8a7d4": {
+    "id": "332babb8a7d4",
+    "label": "274 CHE DE TOURNAI, Halluin",
+    "lat": 50.765255,
+    "lng": 3.153875,
+    "transactions": [
+      {
+        "date": "2021-12-01",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc85a3f5ba63": {
+    "id": "bc85a3f5ba63",
+    "label": "83B RUE DU DRONCKAERT, Halluin",
+    "lat": 50.765263,
+    "lng": 3.15667,
+    "transactions": [
+      {
+        "date": "2022-06-01",
+        "priceEur": 222200,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "dbe33f955665": {
+    "id": "dbe33f955665",
+    "label": "109 RUE DU DRONCKAERT, Neuville-en-Ferrain",
+    "lat": 50.769686,
+    "lng": 3.163304,
+    "transactions": [
+      {
+        "date": "2022-08-30",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "300b41bdc1e4": {
+    "id": "300b41bdc1e4",
+    "label": "98 RUE DU DRONCKAERT, Neuville-en-Ferrain",
+    "lat": 50.767829,
+    "lng": 3.161686,
+    "transactions": [
+      {
+        "date": "2022-10-31",
+        "priceEur": 387000,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "9bba5604fafa": {
+    "id": "9bba5604fafa",
+    "label": "91 RUE DU DRONCKAERT, Neuville-en-Ferrain",
+    "lat": 50.768846,
+    "lng": 3.16234,
+    "transactions": [
+      {
+        "date": "2023-02-06",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-06",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "19502e6b44db": {
+    "id": "19502e6b44db",
+    "label": "1057 CHE DE LOISEL, Halluin",
+    "lat": 50.764672,
+    "lng": 3.156134,
+    "transactions": [
+      {
+        "date": "2023-02-03",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  }
+}

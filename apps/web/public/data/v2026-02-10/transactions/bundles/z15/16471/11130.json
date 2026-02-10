@@ -1,0 +1,83 @@
+{
+  "651065edb4ea": {
+    "id": "651065edb4ea",
+    "label": "5006 OUVILLE, Ouville-la-Rivière",
+    "lat": 49.873901,
+    "lng": 0.960329,
+    "transactions": [
+      {
+        "date": "2021-05-14",
+        "priceEur": 122000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb14140f1ff9": {
+    "id": "fb14140f1ff9",
+    "label": "168 RTE DE DIEPPE, Ouville-la-Rivière",
+    "lat": 49.874486,
+    "lng": 0.957976,
+    "transactions": [
+      {
+        "date": "2023-11-28",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-28",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "8781ca5c72ee": {
+    "id": "8781ca5c72ee",
+    "label": "5168 RTE DE DIEPPE, Ouville-la-Rivière",
+    "lat": 49.874098,
+    "lng": 0.96105,
+    "transactions": [
+      {
+        "date": "2024-02-13",
+        "priceEur": 153000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "ccc35ca63bfa": {
+    "id": "ccc35ca63bfa",
+    "label": "30 RUE DU GENERAL DE GAULLE, Ouville-la-Rivière",
+    "lat": 49.873739,
+    "lng": 0.959612,
+    "transactions": [
+      {
+        "date": "2025-01-31",
+        "priceEur": 1033997.5,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-31",
+        "priceEur": 1033997.5,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-31",
+        "priceEur": 1033997.5,
+        "typeLocal": "Appartement",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  }
+}

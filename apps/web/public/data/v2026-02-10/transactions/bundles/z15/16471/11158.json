@@ -1,0 +1,54 @@
+{
+  "bcf1eb625a8d": {
+    "id": "bcf1eb625a8d",
+    "label": "1407 RTE DE LA VALLEE, Bourdainville",
+    "lat": 49.681844,
+    "lng": 0.96032,
+    "transactions": [
+      {
+        "date": "2021-08-27",
+        "priceEur": 323000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-27",
+        "priceEur": 323000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "e193ed831309": {
+    "id": "e193ed831309",
+    "label": "5274 VARVANNES, Val-de-Saâne",
+    "lat": 49.679249,
+    "lng": 0.966627,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 109900,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "584d7d782889": {
+    "id": "584d7d782889",
+    "label": "1525 RTE DE LA VALLEE, Bourdainville",
+    "lat": 49.680375,
+    "lng": 0.961135,
+    "transactions": [
+      {
+        "date": "2023-05-12",
+        "priceEur": 667300,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  }
+}

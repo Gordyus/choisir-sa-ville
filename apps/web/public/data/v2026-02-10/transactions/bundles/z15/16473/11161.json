@@ -1,0 +1,84 @@
+{
+  "cb934762147f": {
+    "id": "cb934762147f",
+    "label": "67 IMP DE L EGLISE, Ancretiéville-Saint-Victor",
+    "lat": 49.65758,
+    "lng": 0.982759,
+    "transactions": [
+      {
+        "date": "2022-05-24",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "a655940f041d": {
+    "id": "a655940f041d",
+    "label": "914 RTE DE GUEUTTEVILLE, Ancretiéville-Saint-Victor",
+    "lat": 49.656241,
+    "lng": 0.981467,
+    "transactions": [
+      {
+        "date": "2022-06-17",
+        "priceEur": 90500,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "d800442b62cb": {
+    "id": "d800442b62cb",
+    "label": "850 RTE DE GUEUTTEVILLE, Ancretiéville-Saint-Victor",
+    "lat": 49.655237,
+    "lng": 0.981326,
+    "transactions": [
+      {
+        "date": "2023-06-14",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "bbfb4cac5c13": {
+    "id": "bbfb4cac5c13",
+    "label": "1444 RTE DE GUEUTTEVILLE, Ancretiéville-Saint-Victor",
+    "lat": 49.657421,
+    "lng": 0.984737,
+    "transactions": [
+      {
+        "date": "2024-11-29",
+        "priceEur": 211500,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-29",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "87200d6268b5": {
+    "id": "87200d6268b5",
+    "label": "1248 RTE DE GUEUTTEVILLE, Ancretiéville-Saint-Victor",
+    "lat": 49.657738,
+    "lng": 0.983944,
+    "transactions": [
+      {
+        "date": "2025-03-31",
+        "priceEur": 243900,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  }
+}

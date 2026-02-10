@@ -1,0 +1,24 @@
+{
+  "1cb8c43e6f40": {
+    "id": "1cb8c43e6f40",
+    "label": "46 RUE DU CHATEAU, Cantaing-sur-Escaut",
+    "lat": 50.149009,
+    "lng": 3.163467,
+    "transactions": [
+      {
+        "date": "2022-10-10",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 281,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-25",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 281,
+        "isVefa": false
+      }
+    ]
+  }
+}

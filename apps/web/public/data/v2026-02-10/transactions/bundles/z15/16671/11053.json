@@ -1,0 +1,39 @@
+{
+  "18e7a6e031bb": {
+    "id": "18e7a6e031bb",
+    "label": "2 RUE DU PAVE MADAME, Flines-lez-Raches",
+    "lat": 50.417088,
+    "lng": 3.1636,
+    "transactions": [
+      {
+        "date": "2023-05-24",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-10",
+        "priceEur": 79000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb8fd68d20cb": {
+    "id": "bb8fd68d20cb",
+    "label": "58 RUE DE L ABBAYE, Flines-lez-Raches",
+    "lat": 50.416878,
+    "lng": 3.161525,
+    "transactions": [
+      {
+        "date": "2025-04-28",
+        "priceEur": 126900,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

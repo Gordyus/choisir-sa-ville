@@ -1,0 +1,62 @@
+{
+  "b56d062951b2": {
+    "id": "b56d062951b2",
+    "label": "5025 PLAINE DE LA MARE DES MARE, Saint-Vigor-d'Ymonville",
+    "lat": 49.490844,
+    "lng": 0.348139,
+    "transactions": [
+      {
+        "date": "2021-08-25",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f12767f99b4": {
+    "id": "3f12767f99b4",
+    "label": "865 RTE DE BISRUE, Saint-Vigor-d'Ymonville",
+    "lat": 49.490903,
+    "lng": 0.350822,
+    "transactions": [
+      {
+        "date": "2021-12-13",
+        "priceEur": 460700,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "90ebe8da6164": {
+    "id": "90ebe8da6164",
+    "label": "80 CHE DE LA MARE DES MARES, Saint-Vigor-d'Ymonville",
+    "lat": 49.491243,
+    "lng": 0.34816,
+    "transactions": [
+      {
+        "date": "2022-07-27",
+        "priceEur": 310000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "579ed6683375": {
+    "id": "579ed6683375",
+    "label": "30 CHE DE DRUMARE PROLONGE, Saint-Vigor-d'Ymonville",
+    "lat": 49.489587,
+    "lng": 0.349119,
+    "transactions": [
+      {
+        "date": "2023-07-18",
+        "priceEur": 193000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

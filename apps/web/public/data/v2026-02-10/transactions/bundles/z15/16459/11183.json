@@ -1,0 +1,107 @@
+{
+  "0a9c688d3708": {
+    "id": "0a9c688d3708",
+    "label": "223 LA POISSONNERIE, Sainte-Marguerite-sur-Duclair",
+    "lat": 49.49851,
+    "lng": 0.831153,
+    "transactions": [
+      {
+        "date": "2021-05-12",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "38376ffeff57": {
+    "id": "38376ffeff57",
+    "label": "7032 LE VAL BARET, Sainte-Marguerite-sur-Duclair",
+    "lat": 49.499755,
+    "lng": 0.834295,
+    "transactions": [
+      {
+        "date": "2021-09-16",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "01b5bd5d35a1": {
+    "id": "01b5bd5d35a1",
+    "label": "5106 LA POISSONNERIE, Sainte-Marguerite-sur-Duclair",
+    "lat": 49.499039,
+    "lng": 0.83348,
+    "transactions": [
+      {
+        "date": "2022-02-01",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "a7fc6f0d565a": {
+    "id": "a7fc6f0d565a",
+    "label": "5106A LA POISSONNERIE, Sainte-Marguerite-sur-Duclair",
+    "lat": 49.49934,
+    "lng": 0.833497,
+    "transactions": [
+      {
+        "date": "2023-07-03",
+        "priceEur": 192500,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "88729fe47625": {
+    "id": "88729fe47625",
+    "label": "309 RTE DE LA POISSONNERIE, Sainte-Marguerite-sur-Duclair",
+    "lat": 49.499701,
+    "lng": 0.830705,
+    "transactions": [
+      {
+        "date": "2023-08-07",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d68cabc5d9c": {
+    "id": "1d68cabc5d9c",
+    "label": "221 LA POISSONNERIE, Sainte-Marguerite-sur-Duclair",
+    "lat": 49.498836,
+    "lng": 0.831363,
+    "transactions": [
+      {
+        "date": "2023-11-17",
+        "priceEur": 186000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a41778b6b37": {
+    "id": "5a41778b6b37",
+    "label": "6026A LA POISSONNERIE, Sainte-Marguerite-sur-Duclair",
+    "lat": 49.50199,
+    "lng": 0.830544,
+    "transactions": [
+      {
+        "date": "2024-09-11",
+        "priceEur": 146000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  }
+}

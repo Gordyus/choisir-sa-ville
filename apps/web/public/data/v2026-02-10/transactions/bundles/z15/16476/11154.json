@@ -1,0 +1,32 @@
+{
+  "483a96776514": {
+    "id": "483a96776514",
+    "label": "5023 LE VILLAGE, Calleville-les-Deux-Églises",
+    "lat": 49.705495,
+    "lng": 1.01718,
+    "transactions": [
+      {
+        "date": "2020-10-14",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "5cc7f63004db": {
+    "id": "5cc7f63004db",
+    "label": "119 RUE BOUVREUIL, Calleville-les-Deux-Églises",
+    "lat": 49.706935,
+    "lng": 1.021574,
+    "transactions": [
+      {
+        "date": "2024-06-14",
+        "priceEur": 93000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

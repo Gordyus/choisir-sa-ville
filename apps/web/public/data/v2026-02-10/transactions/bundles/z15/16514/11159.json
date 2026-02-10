@@ -1,0 +1,32 @@
+{
+  "275a4a876d01": {
+    "id": "275a4a876d01",
+    "label": "5061 CANCHY, Sainte-Geneviève",
+    "lat": 49.668571,
+    "lng": 1.438003,
+    "transactions": [
+      {
+        "date": "2023-02-23",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "e03460df42c3": {
+    "id": "e03460df42c3",
+    "label": "913 RTE DE CANCHY, Sainte-Geneviève",
+    "lat": 49.669156,
+    "lng": 1.438079,
+    "transactions": [
+      {
+        "date": "2024-10-05",
+        "priceEur": 157867,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

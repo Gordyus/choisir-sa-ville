@@ -1,0 +1,77 @@
+{
+  "13c2f012a8b4": {
+    "id": "13c2f012a8b4",
+    "label": "5025 LE BOURG, Douvrend",
+    "lat": 49.865771,
+    "lng": 1.323892,
+    "transactions": [
+      {
+        "date": "2021-01-21",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "511e7f5a393c": {
+    "id": "511e7f5a393c",
+    "label": "280 RUE DE BEAUVENT, Douvrend",
+    "lat": 49.865,
+    "lng": 1.326084,
+    "transactions": [
+      {
+        "date": "2023-07-10",
+        "priceEur": 204700,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "98f1a79a7195": {
+    "id": "98f1a79a7195",
+    "label": "290 RUE DE BEAUVENT, Douvrend",
+    "lat": 49.864584,
+    "lng": 1.326176,
+    "transactions": [
+      {
+        "date": "2023-10-05",
+        "priceEur": 172400,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "22e9d7a236d2": {
+    "id": "22e9d7a236d2",
+    "label": "160 RUE D'AGRANVILLE, Douvrend",
+    "lat": 49.861679,
+    "lng": 1.322375,
+    "transactions": [
+      {
+        "date": "2024-08-09",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c1a09ad3d75": {
+    "id": "4c1a09ad3d75",
+    "label": "3 CHE DE LA SOURCE, Douvrend",
+    "lat": 49.862414,
+    "lng": 1.322148,
+    "transactions": [
+      {
+        "date": "2024-10-02",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "ce28c403efcc": {
+    "id": "ce28c403efcc",
+    "label": "36 IMP DES FROCS, Saint-Michel-d'Halescourt",
+    "lat": 49.61833,
+    "lng": 1.650205,
+    "transactions": [
+      {
+        "date": "2021-12-15",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "50170ed77772": {
+    "id": "50170ed77772",
+    "label": "5039 HALESCOURT, Saint-Michel-d'Halescourt",
+    "lat": 49.61833,
+    "lng": 1.650205,
+    "transactions": [
+      {
+        "date": "2021-02-16",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  }
+}

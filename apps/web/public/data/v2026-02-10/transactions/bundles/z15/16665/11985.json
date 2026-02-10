@@ -1,0 +1,32 @@
+{
+  "9e13bd6ce631": {
+    "id": "9e13bd6ce631",
+    "label": "5331 VILLAGE, Causses-et-Veyran",
+    "lat": 43.438932,
+    "lng": 3.092803,
+    "transactions": [
+      {
+        "date": "2021-09-24",
+        "priceEur": 5000,
+        "typeLocal": "Maison",
+        "surfaceM2": 13,
+        "isVefa": false
+      }
+    ]
+  },
+  "23d5d7c59ea4": {
+    "id": "23d5d7c59ea4",
+    "label": "5567 GOURNIER, Cessenon-sur-Orb",
+    "lat": 43.437311,
+    "lng": 3.094978,
+    "transactions": [
+      {
+        "date": "2023-03-03",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,898 @@
+{
+  "84941ebe11f9": {
+    "id": "84941ebe11f9",
+    "label": "436 RUE DE LA VILLETTE, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.284643,
+    "lng": 1.043174,
+    "transactions": [
+      {
+        "date": "2020-07-03",
+        "priceEur": 352000,
+        "typeLocal": "Maison",
+        "surfaceM2": 350,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-03",
+        "priceEur": 352000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "d26c64557b09": {
+    "id": "d26c64557b09",
+    "label": "750 RUE DE LA VILLETTE, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.28373,
+    "lng": 1.039255,
+    "transactions": [
+      {
+        "date": "2020-08-17",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "4dec4944c216": {
+    "id": "4dec4944c216",
+    "label": "15 RUE DE LA PETITE PLACE, Caudebec-lès-Elbeuf",
+    "lat": 49.286058,
+    "lng": 1.032823,
+    "transactions": [
+      {
+        "date": "2020-09-02",
+        "priceEur": 143000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "63fd5abc4387": {
+    "id": "63fd5abc4387",
+    "label": "95 RUE JAROSLAV  HASEK, Caudebec-lès-Elbeuf",
+    "lat": 49.283909,
+    "lng": 1.036147,
+    "transactions": [
+      {
+        "date": "2023-07-31",
+        "priceEur": 82000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-01",
+        "priceEur": 90000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-03",
+        "priceEur": 94000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-01",
+        "priceEur": 62000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "d9c24c4a91da": {
+    "id": "d9c24c4a91da",
+    "label": "30 RES CASSIOPE, Caudebec-lès-Elbeuf",
+    "lat": 49.283385,
+    "lng": 1.037327,
+    "transactions": [
+      {
+        "date": "2020-09-15",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "1fa6e75ccca2": {
+    "id": "1fa6e75ccca2",
+    "label": "54 ALL DES OURDISSEUSES, Caudebec-lès-Elbeuf",
+    "lat": 49.287188,
+    "lng": 1.033748,
+    "transactions": [
+      {
+        "date": "2020-10-02",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "4bd769fa84cd": {
+    "id": "4bd769fa84cd",
+    "label": "23 RES CASSIOPE, Caudebec-lès-Elbeuf",
+    "lat": 49.284574,
+    "lng": 1.03706,
+    "transactions": [
+      {
+        "date": "2020-10-14",
+        "priceEur": 156200,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f622361a942": {
+    "id": "3f622361a942",
+    "label": "102 RUE BERTOLT BRECHT, Caudebec-lès-Elbeuf",
+    "lat": 49.285346,
+    "lng": 1.035701,
+    "transactions": [
+      {
+        "date": "2020-11-19",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "b069c689d12d": {
+    "id": "b069c689d12d",
+    "label": "19 RES CASSIOPE, Caudebec-lès-Elbeuf",
+    "lat": 49.285203,
+    "lng": 1.036461,
+    "transactions": [
+      {
+        "date": "2020-12-23",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "1409e2b3ceac": {
+    "id": "1409e2b3ceac",
+    "label": "52 RUE ABBEY ROAD, Caudebec-lès-Elbeuf",
+    "lat": 49.283909,
+    "lng": 1.036147,
+    "transactions": [
+      {
+        "date": "2025-03-28",
+        "priceEur": 86500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2024-12-28",
+        "priceEur": 105000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-04",
+        "priceEur": 75000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-28",
+        "priceEur": 91500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-02",
+        "priceEur": 65000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-24",
+        "priceEur": 99000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-09",
+        "priceEur": 75000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-02",
+        "priceEur": 67000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-16",
+        "priceEur": 94000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "845016e2aedc": {
+    "id": "845016e2aedc",
+    "label": "185 RUE BERTOLT BRECHT, Caudebec-lès-Elbeuf",
+    "lat": 49.285042,
+    "lng": 1.03479,
+    "transactions": [
+      {
+        "date": "2021-02-17",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "33f817b96a89": {
+    "id": "33f817b96a89",
+    "label": "67 RUE JAROSLAV  HASEK, Caudebec-lès-Elbeuf",
+    "lat": 49.283909,
+    "lng": 1.036147,
+    "transactions": [
+      {
+        "date": "2023-09-11",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-02",
+        "priceEur": 96000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-21",
+        "priceEur": 94500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-10",
+        "priceEur": 77000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "800e8bf7c72e": {
+    "id": "800e8bf7c72e",
+    "label": "32 RUE FEDERICO GARCIA LORCA, Caudebec-lès-Elbeuf",
+    "lat": 49.284546,
+    "lng": 1.035347,
+    "transactions": [
+      {
+        "date": "2021-07-01",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "84f1abf8e512": {
+    "id": "84f1abf8e512",
+    "label": "526A RUE DE LA VILLETTE, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.284303,
+    "lng": 1.042126,
+    "transactions": [
+      {
+        "date": "2021-07-01",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "25cd720b3bbe": {
+    "id": "25cd720b3bbe",
+    "label": "211 RUE JAROSLAV  HASEK, Caudebec-lès-Elbeuf",
+    "lat": 49.283909,
+    "lng": 1.036147,
+    "transactions": [
+      {
+        "date": "2023-02-03",
+        "priceEur": 67000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-30",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "687ebe3a942b": {
+    "id": "687ebe3a942b",
+    "label": "791 RUE DE LA VILLETTE, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.283395,
+    "lng": 1.038899,
+    "transactions": [
+      {
+        "date": "2021-08-20",
+        "priceEur": 124000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "9dae0a5ecb6f": {
+    "id": "9dae0a5ecb6f",
+    "label": "908 RUE DE LA VILLETTE, Caudebec-lès-Elbeuf",
+    "lat": 49.283313,
+    "lng": 1.036999,
+    "transactions": [
+      {
+        "date": "2021-09-10",
+        "priceEur": 217000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "bdfdf4940575": {
+    "id": "bdfdf4940575",
+    "label": "111 ALL DES EPINCETEUSES, Caudebec-lès-Elbeuf",
+    "lat": 49.286946,
+    "lng": 1.032882,
+    "transactions": [
+      {
+        "date": "2021-10-06",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7f9fd28cfe6": {
+    "id": "b7f9fd28cfe6",
+    "label": "22 RES CASSIOPE, Caudebec-lès-Elbeuf",
+    "lat": 49.284665,
+    "lng": 1.036857,
+    "transactions": [
+      {
+        "date": "2021-09-28",
+        "priceEur": 94900,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "166ce618ddb3": {
+    "id": "166ce618ddb3",
+    "label": "167 RUE JAROSLAV  HASEK, Caudebec-lès-Elbeuf",
+    "lat": 49.283909,
+    "lng": 1.036147,
+    "transactions": [
+      {
+        "date": "2025-02-04",
+        "priceEur": 73000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-24",
+        "priceEur": 69000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-04",
+        "priceEur": 82000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-13",
+        "priceEur": 72000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-13",
+        "priceEur": 94000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "d67c44166b15": {
+    "id": "d67c44166b15",
+    "label": "1127 RUE DE LA VILLETTE, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.2824,
+    "lng": 1.03442,
+    "transactions": [
+      {
+        "date": "2021-11-08",
+        "priceEur": 275350,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e54bb36035d": {
+    "id": "6e54bb36035d",
+    "label": "21 RES CASSIOPE, Caudebec-lès-Elbeuf",
+    "lat": 49.284697,
+    "lng": 1.036509,
+    "transactions": [
+      {
+        "date": "2021-11-05",
+        "priceEur": 157500,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "66beae1c5af9": {
+    "id": "66beae1c5af9",
+    "label": "68 RUE DU PRE DE LA LOCUSTELLE, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.284994,
+    "lng": 1.038555,
+    "transactions": [
+      {
+        "date": "2021-12-06",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "93db4fd27b1e": {
+    "id": "93db4fd27b1e",
+    "label": "124 RUE JAROSLAV  HASEK, Caudebec-lès-Elbeuf",
+    "lat": 49.284388,
+    "lng": 1.036625,
+    "transactions": [
+      {
+        "date": "2021-12-09",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 159,
+        "isVefa": false
+      }
+    ]
+  },
+  "b2d3626020fa": {
+    "id": "b2d3626020fa",
+    "label": "24 RUE BERTOLT BRECHT, Caudebec-lès-Elbeuf",
+    "lat": 49.28445,
+    "lng": 1.03619,
+    "transactions": [
+      {
+        "date": "2022-02-09",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "df65b016baa6": {
+    "id": "df65b016baa6",
+    "label": "129 RUE FEDERICO GARCIA LORCA, Caudebec-lès-Elbeuf",
+    "lat": 49.284718,
+    "lng": 1.033781,
+    "transactions": [
+      {
+        "date": "2022-03-10",
+        "priceEur": 189350,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "db201444bce0": {
+    "id": "db201444bce0",
+    "label": "11 IMP DE LA PETITE PLACE, Caudebec-lès-Elbeuf",
+    "lat": 49.286227,
+    "lng": 1.032812,
+    "transactions": [
+      {
+        "date": "2022-04-08",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "a7a87ab8f18c": {
+    "id": "a7a87ab8f18c",
+    "label": "22 RUE ABBEY ROAD, Caudebec-lès-Elbeuf",
+    "lat": 49.283909,
+    "lng": 1.036147,
+    "transactions": [
+      {
+        "date": "2024-03-26",
+        "priceEur": 50000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-22",
+        "priceEur": 90000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-01",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-07",
+        "priceEur": 90000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2ad6a14bf5c": {
+    "id": "c2ad6a14bf5c",
+    "label": "56 RUE JAROSLAV HASEK, Caudebec-lès-Elbeuf",
+    "lat": 49.283574,
+    "lng": 1.036832,
+    "transactions": [
+      {
+        "date": "2022-07-25",
+        "priceEur": 206500,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "f179c9fdc91f": {
+    "id": "f179c9fdc91f",
+    "label": "628 RUE DE LA VILLETTE, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.284147,
+    "lng": 1.040638,
+    "transactions": [
+      {
+        "date": "2022-10-03",
+        "priceEur": 177300,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "0dcd1bf7e0c7": {
+    "id": "0dcd1bf7e0c7",
+    "label": "210 RUE BERTOLT BRECHT, Caudebec-lès-Elbeuf",
+    "lat": 49.285231,
+    "lng": 1.034229,
+    "transactions": [
+      {
+        "date": "2022-09-29",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "48bc60c79d6a": {
+    "id": "48bc60c79d6a",
+    "label": "402D RUE DE LA VILLETTE, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.284885,
+    "lng": 1.043637,
+    "transactions": [
+      {
+        "date": "2022-10-18",
+        "priceEur": 221450,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "3b6b2f583a60": {
+    "id": "3b6b2f583a60",
+    "label": "792 RUE DE LA VILLETTE, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.283715,
+    "lng": 1.038597,
+    "transactions": [
+      {
+        "date": "2022-11-25",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d496aabd9e2": {
+    "id": "9d496aabd9e2",
+    "label": "52 RUE BERTOLT BRECHT, Caudebec-lès-Elbeuf",
+    "lat": 49.284679,
+    "lng": 1.0362,
+    "transactions": [
+      {
+        "date": "2022-11-24",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "bfadc74e9fca": {
+    "id": "bfadc74e9fca",
+    "label": "36 RUE FEDERICO GARCIA LORCA, Caudebec-lès-Elbeuf",
+    "lat": 49.284692,
+    "lng": 1.035073,
+    "transactions": [
+      {
+        "date": "2023-03-01",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e1fa34e97b3": {
+    "id": "8e1fa34e97b3",
+    "label": "676 RUE AUX SAULNIERS, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.282463,
+    "lng": 1.038842,
+    "transactions": [
+      {
+        "date": "2023-08-21",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "d4f60e340fb9": {
+    "id": "d4f60e340fb9",
+    "label": "56 RUE BERTOLT BRECHT, Caudebec-lès-Elbeuf",
+    "lat": 49.284777,
+    "lng": 1.036186,
+    "transactions": [
+      {
+        "date": "2023-11-16",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "8151512848d0": {
+    "id": "8151512848d0",
+    "label": "719 RUE DE LA VILLETTE, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.283579,
+    "lng": 1.039496,
+    "transactions": [
+      {
+        "date": "2023-12-28",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "132106498afe": {
+    "id": "132106498afe",
+    "label": "907 RUE DE LA VILLETTE, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.28296,
+    "lng": 1.036742,
+    "transactions": [
+      {
+        "date": "2024-03-01",
+        "priceEur": 224400,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "d24955190d61": {
+    "id": "d24955190d61",
+    "label": "1003 RUE DE LA VILLETTE, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.282562,
+    "lng": 1.036111,
+    "transactions": [
+      {
+        "date": "2024-05-10",
+        "priceEur": 181350,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "ef3f67a3761d": {
+    "id": "ef3f67a3761d",
+    "label": "72 SEN ABBAYES, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.284802,
+    "lng": 1.042551,
+    "transactions": [
+      {
+        "date": "2024-07-12",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "1563932e93cd": {
+    "id": "1563932e93cd",
+    "label": "421 RUE BERTOLT BRECHT, Caudebec-lès-Elbeuf",
+    "lat": 49.284005,
+    "lng": 1.034575,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 263100,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "a35d94669b60": {
+    "id": "a35d94669b60",
+    "label": "33 RES CASSIOPE, Caudebec-lès-Elbeuf",
+    "lat": 49.283985,
+    "lng": 1.037626,
+    "transactions": [
+      {
+        "date": "2024-09-06",
+        "priceEur": 186000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ef8e5238808": {
+    "id": "2ef8e5238808",
+    "label": "1011 RUE DE LA VILLETTE, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.282671,
+    "lng": 1.035769,
+    "transactions": [
+      {
+        "date": "2024-09-20",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "24d2c8c664c9": {
+    "id": "24d2c8c664c9",
+    "label": "349 RUE BERTOLT BRECHT, Caudebec-lès-Elbeuf",
+    "lat": 49.284444,
+    "lng": 1.033523,
+    "transactions": [
+      {
+        "date": "2024-10-09",
+        "priceEur": 315800,
+        "typeLocal": "Maison",
+        "surfaceM2": 176,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e5f96b14668": {
+    "id": "3e5f96b14668",
+    "label": "198 RUE BERTOLT BRECHT, Caudebec-lès-Elbeuf",
+    "lat": 49.28524,
+    "lng": 1.034393,
+    "transactions": [
+      {
+        "date": "2024-10-10",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "47c478f313d3": {
+    "id": "47c478f313d3",
+    "label": "122 RUE BERTOLT BRECHT, Caudebec-lès-Elbeuf",
+    "lat": 49.285315,
+    "lng": 1.035396,
+    "transactions": [
+      {
+        "date": "2024-10-18",
+        "priceEur": 173250,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "3dfefbc07157": {
+    "id": "3dfefbc07157",
+    "label": "261 RUE DES HERBIERS, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.282797,
+    "lng": 1.037668,
+    "transactions": [
+      {
+        "date": "2024-11-27",
+        "priceEur": 164000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f5f0ff9e172": {
+    "id": "1f5f0ff9e172",
+    "label": "652 RUE DE LA VILLETTE, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.284067,
+    "lng": 1.040449,
+    "transactions": [
+      {
+        "date": "2025-03-21",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  }
+}

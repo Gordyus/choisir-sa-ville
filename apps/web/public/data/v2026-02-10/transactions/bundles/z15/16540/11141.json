@@ -1,0 +1,47 @@
+{
+  "6748d2f109f0": {
+    "id": "6748d2f109f0",
+    "label": "5080 LA CRAPEAUDIERE, Ellecourt",
+    "lat": 49.802407,
+    "lng": 1.715735,
+    "transactions": [
+      {
+        "date": "2021-12-22",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "60d07707f4e9": {
+    "id": "60d07707f4e9",
+    "label": "5 RUE DU BOITEL, Ellecourt",
+    "lat": 49.797757,
+    "lng": 1.71561,
+    "transactions": [
+      {
+        "date": "2023-07-05",
+        "priceEur": 28000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "b24f9c7121e8": {
+    "id": "b24f9c7121e8",
+    "label": "2 RUE DE LA QUESNOYE, Ellecourt",
+    "lat": 49.799558,
+    "lng": 1.714165,
+    "transactions": [
+      {
+        "date": "2024-12-13",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  }
+}

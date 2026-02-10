@@ -1,0 +1,77 @@
+{
+  "b02d46a36718": {
+    "id": "b02d46a36718",
+    "label": "63B RTE DE LOFFRE, Dechy",
+    "lat": 50.361993,
+    "lng": 3.138678,
+    "transactions": [
+      {
+        "date": "2022-01-04",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "148a90d63b9a": {
+    "id": "148a90d63b9a",
+    "label": "58 RUE DE LA REPUBLIQUE, Dechy",
+    "lat": 50.360083,
+    "lng": 3.138451,
+    "transactions": [
+      {
+        "date": "2022-02-11",
+        "priceEur": 327000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "39db769ebdfe": {
+    "id": "39db769ebdfe",
+    "label": "10 RUE DU MARAIS, Dechy",
+    "lat": 50.362963,
+    "lng": 3.141014,
+    "transactions": [
+      {
+        "date": "2022-04-20",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "727be21f5478": {
+    "id": "727be21f5478",
+    "label": "35 RUE DE LA REPUBLIQUE, Dechy",
+    "lat": 50.359481,
+    "lng": 3.136886,
+    "transactions": [
+      {
+        "date": "2024-03-04",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "71d5bd72babd": {
+    "id": "71d5bd72babd",
+    "label": "8 RUE DU MARAIS, Dechy",
+    "lat": 50.362775,
+    "lng": 3.141007,
+    "transactions": [
+      {
+        "date": "2025-03-07",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  }
+}

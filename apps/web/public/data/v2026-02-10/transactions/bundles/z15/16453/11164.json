@@ -1,0 +1,32 @@
+{
+  "dad387c66b72": {
+    "id": "dad387c66b72",
+    "label": "164 CHE DE LA JONC MARINIERE, Baons-le-Comte",
+    "lat": 49.635119,
+    "lng": 0.75955,
+    "transactions": [
+      {
+        "date": "2024-02-21",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "41263d9b7dcd": {
+    "id": "41263d9b7dcd",
+    "label": "170 CHE DE LA JONC MARINIERE, Baons-le-Comte",
+    "lat": 49.63568,
+    "lng": 0.75961,
+    "transactions": [
+      {
+        "date": "2024-07-10",
+        "priceEur": 112000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

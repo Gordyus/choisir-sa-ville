@@ -1,0 +1,69 @@
+{
+  "e545997d6a09": {
+    "id": "e545997d6a09",
+    "label": "156 RUE DE LA PLAINE, Angiens",
+    "lat": 49.836493,
+    "lng": 0.819946,
+    "transactions": [
+      {
+        "date": "2020-12-29",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "33a309dfc338": {
+    "id": "33a309dfc338",
+    "label": "268 RUE DU CHATEAU, Angiens",
+    "lat": 49.832138,
+    "lng": 0.813822,
+    "transactions": [
+      {
+        "date": "2023-08-07",
+        "priceEur": 415000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-27",
+        "priceEur": 329650,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "8971cb825f33": {
+    "id": "8971cb825f33",
+    "label": "36 RUE RAVINE, Angiens",
+    "lat": 49.832181,
+    "lng": 0.816542,
+    "transactions": [
+      {
+        "date": "2022-11-03",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "636d006b2adb": {
+    "id": "636d006b2adb",
+    "label": "593 RUE RAVINE, Angiens",
+    "lat": 49.836822,
+    "lng": 0.81718,
+    "transactions": [
+      {
+        "date": "2023-04-03",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  }
+}

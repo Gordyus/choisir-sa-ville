@@ -1,0 +1,114 @@
+{
+  "57b14ffc1925": {
+    "id": "57b14ffc1925",
+    "label": "370 RUE DU FIEF, Bouvignies",
+    "lat": 50.436559,
+    "lng": 3.237158,
+    "transactions": [
+      {
+        "date": "2024-01-29",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-18",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "6c2bcaac8df4": {
+    "id": "6c2bcaac8df4",
+    "label": "312 RUE DU FAUX, Bouvignies",
+    "lat": 50.443151,
+    "lng": 3.238739,
+    "transactions": [
+      {
+        "date": "2021-06-15",
+        "priceEur": 152500,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "273772d585ea": {
+    "id": "273772d585ea",
+    "label": "670 RUE DE LA LOMBARDERIE, Bouvignies",
+    "lat": 50.441423,
+    "lng": 3.24057,
+    "transactions": [
+      {
+        "date": "2021-03-26",
+        "priceEur": 74000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ea440fb94f8": {
+    "id": "3ea440fb94f8",
+    "label": "363 RUE DE LA LOMBARDERIE, Bouvignies",
+    "lat": 50.439501,
+    "lng": 3.239485,
+    "transactions": [
+      {
+        "date": "2022-06-03",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "00f18657764f": {
+    "id": "00f18657764f",
+    "label": "315 RUE DU FAUX, Bouvignies",
+    "lat": 50.443279,
+    "lng": 3.238108,
+    "transactions": [
+      {
+        "date": "2022-07-11",
+        "priceEur": 151000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "d46a6993a1e9": {
+    "id": "d46a6993a1e9",
+    "label": "553 RUE DE LA LOMBARDERIE, Bouvignies",
+    "lat": 50.441118,
+    "lng": 3.239627,
+    "transactions": [
+      {
+        "date": "2023-11-08",
+        "priceEur": 69000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "6242376372c1": {
+    "id": "6242376372c1",
+    "label": "432 RUE DU FIEF, Bouvignies",
+    "lat": 50.436641,
+    "lng": 3.236351,
+    "transactions": [
+      {
+        "date": "2024-01-11",
+        "priceEur": 494500,
+        "typeLocal": "Maison",
+        "surfaceM2": 303,
+        "isVefa": false
+      }
+    ]
+  }
+}

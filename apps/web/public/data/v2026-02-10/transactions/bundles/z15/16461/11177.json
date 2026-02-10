@@ -1,0 +1,47 @@
+{
+  "c0c549163974": {
+    "id": "c0c549163974",
+    "label": "5021A LA QUEUE DU CHIEN, Blacqueville",
+    "lat": 49.539859,
+    "lng": 0.846364,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 203500,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "f0d30f01a50f": {
+    "id": "f0d30f01a50f",
+    "label": "5022 LA QUEUE DU CHIEN, Blacqueville",
+    "lat": 49.541096,
+    "lng": 0.846516,
+    "transactions": [
+      {
+        "date": "2022-03-18",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "031fc84ad9bf": {
+    "id": "031fc84ad9bf",
+    "label": "909 RTE DE L'ABBAYE, Blacqueville",
+    "lat": 49.54267,
+    "lng": 0.846233,
+    "transactions": [
+      {
+        "date": "2023-06-05",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  }
+}

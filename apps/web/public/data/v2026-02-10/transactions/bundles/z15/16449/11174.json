@@ -1,0 +1,47 @@
+{
+  "b22bbeb97bfb": {
+    "id": "b22bbeb97bfb",
+    "label": "540 RTE DES GARDINS, Maulévrier-Sainte-Gertrude",
+    "lat": 49.562766,
+    "lng": 0.715756,
+    "transactions": [
+      {
+        "date": "2022-06-24",
+        "priceEur": 208700,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1d1047e48b0": {
+    "id": "f1d1047e48b0",
+    "label": "977 RTE DU CHATEAU D EAU, Louvetot",
+    "lat": 49.563434,
+    "lng": 0.715239,
+    "transactions": [
+      {
+        "date": "2024-12-18",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9334e5329f7": {
+    "id": "a9334e5329f7",
+    "label": "75 IMP DES HAUTS CHAMPS, Maulévrier-Sainte-Gertrude",
+    "lat": 49.562422,
+    "lng": 0.716354,
+    "transactions": [
+      {
+        "date": "2024-12-19",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

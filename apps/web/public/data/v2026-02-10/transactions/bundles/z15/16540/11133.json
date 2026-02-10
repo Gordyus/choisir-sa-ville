@@ -1,0 +1,62 @@
+{
+  "7d0280044271": {
+    "id": "7d0280044271",
+    "label": "5164 MARAIS BOUAFLES VERS RESSE, Vieux-Rouen-sur-Bresle",
+    "lat": 49.852682,
+    "lng": 1.716087,
+    "transactions": [
+      {
+        "date": "2021-04-21",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a72329a0ac0": {
+    "id": "4a72329a0ac0",
+    "label": "5352 BOUAFLES, Vieux-Rouen-sur-Bresle",
+    "lat": 49.855394,
+    "lng": 1.71606,
+    "transactions": [
+      {
+        "date": "2021-08-11",
+        "priceEur": 90500,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "8df714dbd972": {
+    "id": "8df714dbd972",
+    "label": "5169 BOUAFLES, Vieux-Rouen-sur-Bresle",
+    "lat": 49.855259,
+    "lng": 1.717746,
+    "transactions": [
+      {
+        "date": "2022-08-24",
+        "priceEur": 720000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "5ae771219c11": {
+    "id": "5ae771219c11",
+    "label": "13B RTE D AUMALE, Hodeng-au-Bosc",
+    "lat": 49.858909,
+    "lng": 1.714358,
+    "transactions": [
+      {
+        "date": "2025-04-01",
+        "priceEur": 153500,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  }
+}

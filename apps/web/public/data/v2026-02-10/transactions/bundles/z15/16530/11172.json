@@ -1,0 +1,62 @@
+{
+  "cb2346c9e6d5": {
+    "id": "cb2346c9e6d5",
+    "label": "5041 HAMEAU DE LA POTERIE, Saumont-la-Poterie",
+    "lat": 49.581524,
+    "lng": 1.60847,
+    "transactions": [
+      {
+        "date": "2020-09-02",
+        "priceEur": 125400,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "eb6e53355a77": {
+    "id": "eb6e53355a77",
+    "label": "94 RUE DE LA POTERIE, Saumont-la-Poterie",
+    "lat": 49.582156,
+    "lng": 1.606012,
+    "transactions": [
+      {
+        "date": "2022-03-12",
+        "priceEur": 174000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "a722ee9a5a9c": {
+    "id": "a722ee9a5a9c",
+    "label": "88 RUE DE LA POTERIE, Saumont-la-Poterie",
+    "lat": 49.581902,
+    "lng": 1.606561,
+    "transactions": [
+      {
+        "date": "2022-04-26",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "3944fac12026": {
+    "id": "3944fac12026",
+    "label": "10 CHE DES COTES, Saumont-la-Poterie",
+    "lat": 49.582085,
+    "lng": 1.608822,
+    "transactions": [
+      {
+        "date": "2022-06-10",
+        "priceEur": 181000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  }
+}

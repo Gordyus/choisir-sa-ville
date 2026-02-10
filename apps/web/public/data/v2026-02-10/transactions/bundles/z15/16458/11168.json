@@ -1,0 +1,62 @@
+{
+  "4d29dd400560": {
+    "id": "4d29dd400560",
+    "label": "1153 RTE DE LA GRANDE RUE, Écalles-Alix",
+    "lat": 49.604522,
+    "lng": 0.815042,
+    "transactions": [
+      {
+        "date": "2021-03-09",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "bcd2dbb64eab": {
+    "id": "bcd2dbb64eab",
+    "label": "88 IMP DE LA GRANDE RUE, Écalles-Alix",
+    "lat": 49.604167,
+    "lng": 0.815312,
+    "transactions": [
+      {
+        "date": "2022-06-15",
+        "priceEur": 206000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "9dd0587031ba": {
+    "id": "9dd0587031ba",
+    "label": "150 LA GRANDE RUE, Croix-Mare",
+    "lat": 49.604498,
+    "lng": 0.818527,
+    "transactions": [
+      {
+        "date": "2023-03-01",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ef74e56fddf": {
+    "id": "3ef74e56fddf",
+    "label": "1016 RTE DE LA GRANDE RUE, Écalles-Alix",
+    "lat": 49.605567,
+    "lng": 0.816024,
+    "transactions": [
+      {
+        "date": "2023-12-01",
+        "priceEur": 242000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  }
+}

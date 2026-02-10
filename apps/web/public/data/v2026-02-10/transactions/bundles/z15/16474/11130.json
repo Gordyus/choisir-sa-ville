@@ -1,0 +1,32 @@
+{
+  "acfc9ef9f440": {
+    "id": "acfc9ef9f440",
+    "label": "120 CHEM DE LA BRIQUETERIE, Ouville-la-Rivière",
+    "lat": 49.878054,
+    "lng": 0.993025,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 217200,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "78f9c3e101e4": {
+    "id": "78f9c3e101e4",
+    "label": "628 RUE GRANDE RUE DES MOUSSEAUX, Ouville-la-Rivière",
+    "lat": 49.874145,
+    "lng": 0.989974,
+    "transactions": [
+      {
+        "date": "2022-12-23",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  }
+}

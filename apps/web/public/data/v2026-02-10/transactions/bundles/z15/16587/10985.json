@@ -1,0 +1,32 @@
+{
+  "76c3f6f8e14c": {
+    "id": "76c3f6f8e14c",
+    "label": "1257 RTE DE PONT L ABBESSE, Cappelle-Brouck",
+    "lat": 50.890627,
+    "lng": 2.231479,
+    "transactions": [
+      {
+        "date": "2022-05-13",
+        "priceEur": 197500,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "e19728c6b395": {
+    "id": "e19728c6b395",
+    "label": "1361 RTE DE PONT L ABBESSE, Cappelle-Brouck",
+    "lat": 50.891782,
+    "lng": 2.231103,
+    "transactions": [
+      {
+        "date": "2022-07-12",
+        "priceEur": 206800,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  }
+}

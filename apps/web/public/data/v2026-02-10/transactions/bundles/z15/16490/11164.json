@@ -1,0 +1,32 @@
+{
+  "454055975a7e": {
+    "id": "454055975a7e",
+    "label": "5101 RUE DE CAUX, Bosc-le-Hard",
+    "lat": 49.634263,
+    "lng": 1.167333,
+    "transactions": [
+      {
+        "date": "2020-07-29",
+        "priceEur": 98000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "d53ca0f59df1": {
+    "id": "d53ca0f59df1",
+    "label": "5100 RUE DE CAUX, Bosc-le-Hard",
+    "lat": 49.633522,
+    "lng": 1.168084,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 52000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

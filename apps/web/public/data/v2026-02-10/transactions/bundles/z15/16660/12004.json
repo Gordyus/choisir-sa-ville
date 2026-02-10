@@ -1,0 +1,47 @@
+{
+  "f748d3790d79": {
+    "id": "f748d3790d79",
+    "label": "6 LOT PHILIPPE DE RODEZ, Montels",
+    "lat": 43.293187,
+    "lng": 3.035192,
+    "transactions": [
+      {
+        "date": "2023-01-10",
+        "priceEur": 354900,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ea5fe2e3511": {
+    "id": "9ea5fe2e3511",
+    "label": "9 CHE LES ROLLIERS, Montels",
+    "lat": 43.291033,
+    "lng": 3.036684,
+    "transactions": [
+      {
+        "date": "2023-04-20",
+        "priceEur": 1349880,
+        "typeLocal": "Maison",
+        "surfaceM2": 347,
+        "isVefa": false
+      }
+    ]
+  },
+  "a63571c07794": {
+    "id": "a63571c07794",
+    "label": "3 CHE LES ROLLIERS, Montels",
+    "lat": 43.292952,
+    "lng": 3.033124,
+    "transactions": [
+      {
+        "date": "2023-08-04",
+        "priceEur": 171000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

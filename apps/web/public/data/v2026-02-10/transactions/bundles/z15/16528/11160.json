@@ -1,0 +1,62 @@
+{
+  "a5bc7854915d": {
+    "id": "a5bc7854915d",
+    "label": "5040 PLAINE DE SAINT MAURICE, Gaillefontaine",
+    "lat": 49.663561,
+    "lng": 1.583014,
+    "transactions": [
+      {
+        "date": "2022-06-14",
+        "priceEur": 13800,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d42f896d584": {
+    "id": "9d42f896d584",
+    "label": "5739 FERME DE L ANCIEN CHATEAU, Gaillefontaine",
+    "lat": 49.662947,
+    "lng": 1.588844,
+    "transactions": [
+      {
+        "date": "2022-07-21",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "b13a50d6eda0": {
+    "id": "b13a50d6eda0",
+    "label": "3 RTE DU RUISSEAU, Gaillefontaine",
+    "lat": 49.662764,
+    "lng": 1.589884,
+    "transactions": [
+      {
+        "date": "2023-04-26",
+        "priceEur": 116000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "95debb5b55f2": {
+    "id": "95debb5b55f2",
+    "label": "38 RTE DE NEUFCHATEL, Gaillefontaine",
+    "lat": 49.66512,
+    "lng": 1.589596,
+    "transactions": [
+      {
+        "date": "2023-08-03",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  }
+}

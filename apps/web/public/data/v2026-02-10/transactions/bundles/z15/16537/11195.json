@@ -1,0 +1,92 @@
+{
+  "edbf94c0716b": {
+    "id": "edbf94c0716b",
+    "label": "11 RUE DES DUPRES, Neuf-Marché",
+    "lat": 49.416752,
+    "lng": 1.683678,
+    "transactions": [
+      {
+        "date": "2021-01-26",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "b911b59e2cc2": {
+    "id": "b911b59e2cc2",
+    "label": "15 RUE DE LA ROUGE MARE, Neuf-Marché",
+    "lat": 49.412244,
+    "lng": 1.690126,
+    "transactions": [
+      {
+        "date": "2021-02-15",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8cdf56bbb65": {
+    "id": "e8cdf56bbb65",
+    "label": "3 RUE DE LA ROUGE MARE, Neuf-Marché",
+    "lat": 49.413802,
+    "lng": 1.69039,
+    "transactions": [
+      {
+        "date": "2022-11-14",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b27d066bed3": {
+    "id": "1b27d066bed3",
+    "label": "2 RUE PICHARD, Neuf-Marché",
+    "lat": 49.414916,
+    "lng": 1.689387,
+    "transactions": [
+      {
+        "date": "2023-01-06",
+        "priceEur": 221000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "d2b50e601140": {
+    "id": "d2b50e601140",
+    "label": "2 RUE DE LA RESISTANCE, Neuf-Marché",
+    "lat": 49.415297,
+    "lng": 1.691004,
+    "transactions": [
+      {
+        "date": "2024-06-24",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "383a4fa245dc": {
+    "id": "383a4fa245dc",
+    "label": "5199 LES DUPRES, Neuf-Marché",
+    "lat": 49.417212,
+    "lng": 1.684013,
+    "transactions": [
+      {
+        "date": "2024-12-12",
+        "priceEur": 16500,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  }
+}

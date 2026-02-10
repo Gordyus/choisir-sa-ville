@@ -1,0 +1,122 @@
+{
+  "3c60364a0959": {
+    "id": "3c60364a0959",
+    "label": "8 RUE CLEMENT ADER, Abeilhan",
+    "lat": 43.456608,
+    "lng": 3.29541,
+    "transactions": [
+      {
+        "date": "2021-01-22",
+        "priceEur": 200650,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "8636c51d3565": {
+    "id": "8636c51d3565",
+    "label": "2 RUE JEAN DE LA FONTAINE, Abeilhan",
+    "lat": 43.454542,
+    "lng": 3.295109,
+    "transactions": [
+      {
+        "date": "2022-04-14",
+        "priceEur": 232840,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "431f2e686e29": {
+    "id": "431f2e686e29",
+    "label": "13B AV MOLIERE, Abeilhan",
+    "lat": 43.453479,
+    "lng": 3.293179,
+    "transactions": [
+      {
+        "date": "2022-05-31",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "6cbb08f2722a": {
+    "id": "6cbb08f2722a",
+    "label": "4 RUE DES ROMARINS, Abeilhan",
+    "lat": 43.454789,
+    "lng": 3.294482,
+    "transactions": [
+      {
+        "date": "2022-09-27",
+        "priceEur": 289300,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "7222c42f76c2": {
+    "id": "7222c42f76c2",
+    "label": "13T AV MOLIERE, Abeilhan",
+    "lat": 43.453634,
+    "lng": 3.293421,
+    "transactions": [
+      {
+        "date": "2022-11-15",
+        "priceEur": 247920,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "dfadaca7ecea": {
+    "id": "dfadaca7ecea",
+    "label": "7 RUE JEAN DE LA FONTAINE, Abeilhan",
+    "lat": 43.453935,
+    "lng": 3.295115,
+    "transactions": [
+      {
+        "date": "2022-11-10",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "e09a46067c11": {
+    "id": "e09a46067c11",
+    "label": "9 AV JEAN JAURES, Abeilhan",
+    "lat": 43.455902,
+    "lng": 3.294379,
+    "transactions": [
+      {
+        "date": "2024-05-23",
+        "priceEur": 253700,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "bfa83c8d1cf1": {
+    "id": "bfa83c8d1cf1",
+    "label": "3 CHE DE SAINT PIERRE, Abeilhan",
+    "lat": 43.454039,
+    "lng": 3.2937,
+    "transactions": [
+      {
+        "date": "2025-03-27",
+        "priceEur": 612750,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "bbda9abfeaab": {
+    "id": "bbda9abfeaab",
+    "label": "27 RTE DE WATOU, Steenvoorde",
+    "lat": 50.81147,
+    "lng": 2.597678,
+    "transactions": [
+      {
+        "date": "2024-06-14",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-29",
+        "priceEur": 152550,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "a6031ba2116f": {
+    "id": "a6031ba2116f",
+    "label": "149 IMP ROUTE DE GODE, Steenvoorde",
+    "lat": 50.805942,
+    "lng": 2.595128,
+    "transactions": [
+      {
+        "date": "2024-07-31",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  }
+}

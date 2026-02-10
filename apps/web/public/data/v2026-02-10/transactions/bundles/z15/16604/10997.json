@@ -1,0 +1,39 @@
+{
+  "fdd4c39fbc40": {
+    "id": "fdd4c39fbc40",
+    "label": "1796 CHE DU TOM, Zuytpeene",
+    "lat": 50.807687,
+    "lng": 2.4247,
+    "transactions": [
+      {
+        "date": "2020-11-03",
+        "priceEur": 860000,
+        "typeLocal": "Maison",
+        "surfaceM2": 215,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-03",
+        "priceEur": 860000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "008fb42ee6e7": {
+    "id": "008fb42ee6e7",
+    "label": "1786 CHE DU TOM, Zuytpeene",
+    "lat": 50.807365,
+    "lng": 2.424221,
+    "transactions": [
+      {
+        "date": "2020-11-03",
+        "priceEur": 860000,
+        "typeLocal": "Maison",
+        "surfaceM2": 284,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "bb764af2826e": {
+    "id": "bb764af2826e",
+    "label": "488 RUE DU BOIS, Vieux-Berquin",
+    "lat": 50.695892,
+    "lng": 2.6366,
+    "transactions": [
+      {
+        "date": "2021-07-23",
+        "priceEur": 346300,
+        "typeLocal": "Maison",
+        "surfaceM2": 164,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee23924180c1": {
+    "id": "ee23924180c1",
+    "label": "553 RUE DU BOIS, Vieux-Berquin",
+    "lat": 50.695099,
+    "lng": 2.636053,
+    "transactions": [
+      {
+        "date": "2023-08-31",
+        "priceEur": 313933,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "d006931310e8": {
+    "id": "d006931310e8",
+    "label": "597 RUE DU BOIS, Vieux-Berquin",
+    "lat": 50.695064,
+    "lng": 2.635283,
+    "transactions": [
+      {
+        "date": "2025-06-13",
+        "priceEur": 360100,
+        "typeLocal": "Maison",
+        "surfaceM2": 250,
+        "isVefa": false
+      }
+    ]
+  }
+}

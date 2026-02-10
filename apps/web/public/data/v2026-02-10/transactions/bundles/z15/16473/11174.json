@@ -1,0 +1,32 @@
+{
+  "e4e08d598352": {
+    "id": "e4e08d598352",
+    "label": "1595 RTE DE PAVILLY, Fresquiennes",
+    "lat": 49.567818,
+    "lng": 0.987382,
+    "transactions": [
+      {
+        "date": "2020-08-18",
+        "priceEur": 226500,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "2bea5dc8dde4": {
+    "id": "2bea5dc8dde4",
+    "label": "7006 LE PUITS, Fresquiennes",
+    "lat": 49.567571,
+    "lng": 0.987926,
+    "transactions": [
+      {
+        "date": "2020-09-25",
+        "priceEur": 257500,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  }
+}

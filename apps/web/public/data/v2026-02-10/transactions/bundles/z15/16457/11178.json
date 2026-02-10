@@ -1,0 +1,77 @@
+{
+  "884591a8ebbb": {
+    "id": "884591a8ebbb",
+    "label": "5018 LE BOIS BANCE, Saint Martin de l'If",
+    "lat": 49.538023,
+    "lng": 0.805675,
+    "transactions": [
+      {
+        "date": "2020-07-02",
+        "priceEur": 129000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "92a367b35646": {
+    "id": "92a367b35646",
+    "label": "88 CHEM DE LA COTE BLANCHE, Saint Martin de l'If",
+    "lat": 49.538652,
+    "lng": 0.805741,
+    "transactions": [
+      {
+        "date": "2020-07-03",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "940a6f9c1fe7": {
+    "id": "940a6f9c1fe7",
+    "label": "5256 LA CRIQUE, Sainte-Marguerite-sur-Duclair",
+    "lat": 49.532813,
+    "lng": 0.808274,
+    "transactions": [
+      {
+        "date": "2023-02-13",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c12bd8e4b57": {
+    "id": "8c12bd8e4b57",
+    "label": "152 RTE DE LA CRIQUE, Rives-en-Seine",
+    "lat": 49.534078,
+    "lng": 0.804,
+    "transactions": [
+      {
+        "date": "2023-09-04",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "4348bcc66026": {
+    "id": "4348bcc66026",
+    "label": "5019 TOUS VENT, Blacqueville",
+    "lat": 49.534161,
+    "lng": 0.80952,
+    "transactions": [
+      {
+        "date": "2025-01-08",
+        "priceEur": 58000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  }
+}

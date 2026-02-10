@@ -1,0 +1,32 @@
+{
+  "270b53873d1e": {
+    "id": "270b53873d1e",
+    "label": "8 RUE DE LA VISTERIE, Nomain",
+    "lat": 50.497329,
+    "lng": 3.228517,
+    "transactions": [
+      {
+        "date": "2022-08-09",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "6510bf329e47": {
+    "id": "6510bf329e47",
+    "label": "34 RUE DE LA VISTERIE, Nomain",
+    "lat": 50.498565,
+    "lng": 3.223944,
+    "transactions": [
+      {
+        "date": "2024-09-27",
+        "priceEur": 410000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  }
+}

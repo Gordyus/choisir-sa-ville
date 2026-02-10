@@ -1,0 +1,32 @@
+{
+  "803e6e3f4427": {
+    "id": "803e6e3f4427",
+    "label": "405 RTE DE SECQUEVILLE, Saint-Vigor-d'Ymonville",
+    "lat": 49.502927,
+    "lng": 0.344547,
+    "transactions": [
+      {
+        "date": "2021-08-30",
+        "priceEur": 193100,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "5ea97150c114": {
+    "id": "5ea97150c114",
+    "label": "5094 SECQUEVILLE HAMEAU, Saint-Vigor-d'Ymonville",
+    "lat": 49.50308,
+    "lng": 0.344074,
+    "transactions": [
+      {
+        "date": "2021-11-26",
+        "priceEur": 321000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  }
+}

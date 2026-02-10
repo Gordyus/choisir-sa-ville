@@ -1,0 +1,122 @@
+{
+  "77862e438d96": {
+    "id": "77862e438d96",
+    "label": "318 GRANDE RUE, Bertheauville",
+    "lat": 49.755152,
+    "lng": 0.590173,
+    "transactions": [
+      {
+        "date": "2020-08-13",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "1965549a42e7": {
+    "id": "1965549a42e7",
+    "label": "6 HAMEAU DE BEAUCLAIR, Bertreville",
+    "lat": 49.758687,
+    "lng": 0.586985,
+    "transactions": [
+      {
+        "date": "2021-09-09",
+        "priceEur": 78000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "e32ac51b520c": {
+    "id": "e32ac51b520c",
+    "label": "14 HAMEAU DE BEAUCLAIR, Bertreville",
+    "lat": 49.759325,
+    "lng": 0.587479,
+    "transactions": [
+      {
+        "date": "2021-02-01",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "268d649be4bf": {
+    "id": "268d649be4bf",
+    "label": "458 BEAUCLAIR, Bertheauville",
+    "lat": 49.757972,
+    "lng": 0.585738,
+    "transactions": [
+      {
+        "date": "2021-01-15",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 175,
+        "isVefa": false
+      }
+    ]
+  },
+  "56ef5abeef6c": {
+    "id": "56ef5abeef6c",
+    "label": "24 HAMEAU DE BEAUCLAIR, Bertreville",
+    "lat": 49.759572,
+    "lng": 0.588951,
+    "transactions": [
+      {
+        "date": "2022-06-14",
+        "priceEur": 306650,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "52dcd3697ed1": {
+    "id": "52dcd3697ed1",
+    "label": "25 CHEMIN VERT, Bertreville",
+    "lat": 49.759846,
+    "lng": 0.586346,
+    "transactions": [
+      {
+        "date": "2022-10-24",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "80c91dc60cd5": {
+    "id": "80c91dc60cd5",
+    "label": "15 HAMEAU DE BEAUCLAIR, Bertreville",
+    "lat": 49.759293,
+    "lng": 0.586775,
+    "transactions": [
+      {
+        "date": "2022-12-24",
+        "priceEur": 222000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "f278eff46fba": {
+    "id": "f278eff46fba",
+    "label": "2 HAMEAU DE BEAUCLAIR, Bertreville",
+    "lat": 49.758238,
+    "lng": 0.586398,
+    "transactions": [
+      {
+        "date": "2024-06-27",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

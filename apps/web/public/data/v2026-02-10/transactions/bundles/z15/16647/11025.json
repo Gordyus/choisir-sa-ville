@@ -1,0 +1,99 @@
+{
+  "320418b52487": {
+    "id": "320418b52487",
+    "label": "1 ALL DE L'ARFANG, Radinghem-en-Weppes",
+    "lat": 50.617049,
+    "lng": 2.895408,
+    "transactions": [
+      {
+        "date": "2023-07-03",
+        "priceEur": 628350,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 617594,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "2396a3b7683c": {
+    "id": "2396a3b7683c",
+    "label": "4 ALL DE L'ARFANG, Radinghem-en-Weppes",
+    "lat": 50.616922,
+    "lng": 2.89585,
+    "transactions": [
+      {
+        "date": "2020-10-07",
+        "priceEur": 607566,
+        "typeLocal": "Maison",
+        "surfaceM2": 211,
+        "isVefa": false
+      }
+    ]
+  },
+  "e497bee83e65": {
+    "id": "e497bee83e65",
+    "label": "1 ALL DES ROUGES GORGES, Radinghem-en-Weppes",
+    "lat": 50.616864,
+    "lng": 2.894835,
+    "transactions": [
+      {
+        "date": "2021-06-04",
+        "priceEur": 644000,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  },
+  "a8b215665d38": {
+    "id": "a8b215665d38",
+    "label": "19 HAUTE RUE, Radinghem-en-Weppes",
+    "lat": 50.616465,
+    "lng": 2.895208,
+    "transactions": [
+      {
+        "date": "2021-09-24",
+        "priceEur": 590285.06,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  },
+  "57b5d63f8ac8": {
+    "id": "57b5d63f8ac8",
+    "label": "19B HAUTE RUE, Radinghem-en-Weppes",
+    "lat": 50.616493,
+    "lng": 2.894882,
+    "transactions": [
+      {
+        "date": "2021-11-30",
+        "priceEur": 523000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "25ee5e6a2835": {
+    "id": "25ee5e6a2835",
+    "label": "7 HAUTE RUE, Radinghem-en-Weppes",
+    "lat": 50.616992,
+    "lng": 2.897929,
+    "transactions": [
+      {
+        "date": "2025-04-23",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  }
+}

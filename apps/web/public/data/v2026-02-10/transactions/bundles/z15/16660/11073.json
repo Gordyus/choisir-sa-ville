@@ -1,0 +1,899 @@
+{
+  "dbd1f3aedcae": {
+    "id": "dbd1f3aedcae",
+    "label": "24B RUE DES LINIERS, Lécluse",
+    "lat": 50.278306,
+    "lng": 3.041628,
+    "transactions": [
+      {
+        "date": "2020-08-04",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8085f710f63": {
+    "id": "e8085f710f63",
+    "label": "18 RUE NOTRE DAME, Lécluse",
+    "lat": 50.277664,
+    "lng": 3.042683,
+    "transactions": [
+      {
+        "date": "2020-09-15",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "dff0c8ae817c": {
+    "id": "dff0c8ae817c",
+    "label": "45 RUE DE L ANCIENNE POSTE, Lécluse",
+    "lat": 50.275391,
+    "lng": 3.038659,
+    "transactions": [
+      {
+        "date": "2020-10-12",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5cba5218c21": {
+    "id": "a5cba5218c21",
+    "label": "19 RUE DE L ANCIENNE POSTE, Lécluse",
+    "lat": 50.276359,
+    "lng": 3.039751,
+    "transactions": [
+      {
+        "date": "2020-11-03",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "f348b81b3f2d": {
+    "id": "f348b81b3f2d",
+    "label": "15 RUE DE L ANCIENNE POSTE, Lécluse",
+    "lat": 50.276779,
+    "lng": 3.040037,
+    "transactions": [
+      {
+        "date": "2020-12-15",
+        "priceEur": 196500,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-15",
+        "priceEur": 196500,
+        "typeLocal": "Maison",
+        "surfaceM2": 29,
+        "isVefa": false
+      }
+    ]
+  },
+  "9cc16f229c00": {
+    "id": "9cc16f229c00",
+    "label": "2 RUE DE LA FONTAINE, Lécluse",
+    "lat": 50.276576,
+    "lng": 3.042028,
+    "transactions": [
+      {
+        "date": "2020-12-14",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "52b1ca139347": {
+    "id": "52b1ca139347",
+    "label": "33 RUE DES BOUCHERS, Lécluse",
+    "lat": 50.277297,
+    "lng": 3.040778,
+    "transactions": [
+      {
+        "date": "2022-05-31",
+        "priceEur": 169900,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-29",
+        "priceEur": 69000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "44476156cc52": {
+    "id": "44476156cc52",
+    "label": "38 RUE GRAND, Lécluse",
+    "lat": 50.275785,
+    "lng": 3.037818,
+    "transactions": [
+      {
+        "date": "2021-06-11",
+        "priceEur": 38500,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "03f4df898a5c": {
+    "id": "03f4df898a5c",
+    "label": "36 RUE GRAND, Lécluse",
+    "lat": 50.275766,
+    "lng": 3.037877,
+    "transactions": [
+      {
+        "date": "2021-06-11",
+        "priceEur": 38500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-11",
+        "priceEur": 38500,
+        "typeLocal": "Maison",
+        "surfaceM2": 15,
+        "isVefa": false
+      }
+    ]
+  },
+  "ecc8f1ec0b22": {
+    "id": "ecc8f1ec0b22",
+    "label": "59 RUE DU MOULIN, Lécluse",
+    "lat": 50.28041,
+    "lng": 3.040223,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 48000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "66bce6eb3c54": {
+    "id": "66bce6eb3c54",
+    "label": "43 RUE NOTRE DAME, Lécluse",
+    "lat": 50.277489,
+    "lng": 3.043107,
+    "transactions": [
+      {
+        "date": "2021-07-02",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-02",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 14,
+        "isVefa": false
+      }
+    ]
+  },
+  "22af09ab5bfa": {
+    "id": "22af09ab5bfa",
+    "label": "45 RUE GRAND, Lécluse",
+    "lat": 50.276041,
+    "lng": 3.038451,
+    "transactions": [
+      {
+        "date": "2021-09-06",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ee95fc26c6c": {
+    "id": "7ee95fc26c6c",
+    "label": "49 RUE DU MOULIN, Lécluse",
+    "lat": 50.280994,
+    "lng": 3.040277,
+    "transactions": [
+      {
+        "date": "2021-10-08",
+        "priceEur": 245780,
+        "typeLocal": "Maison",
+        "surfaceM2": 184,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c112e9f03b6": {
+    "id": "0c112e9f03b6",
+    "label": "42 RUE GRAND, Lécluse",
+    "lat": 50.275612,
+    "lng": 3.037633,
+    "transactions": [
+      {
+        "date": "2021-11-02",
+        "priceEur": 225150,
+        "typeLocal": "Maison",
+        "surfaceM2": 159,
+        "isVefa": false
+      }
+    ]
+  },
+  "692703a24f38": {
+    "id": "692703a24f38",
+    "label": "46 RUE DES LINIERS, Lécluse",
+    "lat": 50.278139,
+    "lng": 3.042458,
+    "transactions": [
+      {
+        "date": "2021-10-28",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "65a7abcb88c8": {
+    "id": "65a7abcb88c8",
+    "label": "22 RUE NOTRE DAME, Lécluse",
+    "lat": 50.27747,
+    "lng": 3.042561,
+    "transactions": [
+      {
+        "date": "2021-11-30",
+        "priceEur": 137300,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad7e5b2cd003": {
+    "id": "ad7e5b2cd003",
+    "label": "115 RUE DES LINIERS, Lécluse",
+    "lat": 50.278542,
+    "lng": 3.043105,
+    "transactions": [
+      {
+        "date": "2021-12-15",
+        "priceEur": 83000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "73a5a8395a0c": {
+    "id": "73a5a8395a0c",
+    "label": "75 RUE NOTRE DAME, Lécluse",
+    "lat": 50.276943,
+    "lng": 3.042665,
+    "transactions": [
+      {
+        "date": "2021-12-22",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ae7da95dbae": {
+    "id": "3ae7da95dbae",
+    "label": "23 RUE DE L ANCIENNE POSTE, Lécluse",
+    "lat": 50.276062,
+    "lng": 3.039946,
+    "transactions": [
+      {
+        "date": "2021-02-12",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d2aa6b05a96": {
+    "id": "3d2aa6b05a96",
+    "label": "18 RUE DES BOUCHERS, Lécluse",
+    "lat": 50.277135,
+    "lng": 3.041852,
+    "transactions": [
+      {
+        "date": "2021-03-18",
+        "priceEur": 36000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "b8bf0a35b153": {
+    "id": "b8bf0a35b153",
+    "label": "101 RUE DES LINIERS, Lécluse",
+    "lat": 50.278724,
+    "lng": 3.04306,
+    "transactions": [
+      {
+        "date": "2022-05-23",
+        "priceEur": 121000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-29",
+        "priceEur": 106000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a2e62f47af7": {
+    "id": "4a2e62f47af7",
+    "label": "13 RUE GRAND, Lécluse",
+    "lat": 50.278515,
+    "lng": 3.038946,
+    "transactions": [
+      {
+        "date": "2021-03-19",
+        "priceEur": 79500,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "5110f7acf065": {
+    "id": "5110f7acf065",
+    "label": "51 RUE DU MOULIN, Lécluse",
+    "lat": 50.280713,
+    "lng": 3.040031,
+    "transactions": [
+      {
+        "date": "2024-10-26",
+        "priceEur": 284262,
+        "typeLocal": "Maison",
+        "surfaceM2": 179,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-02",
+        "priceEur": 122000,
+        "typeLocal": "Maison",
+        "surfaceM2": 179,
+        "isVefa": false
+      }
+    ]
+  },
+  "da07f50fbd6d": {
+    "id": "da07f50fbd6d",
+    "label": "85 RUE DES LINIERS, Lécluse",
+    "lat": 50.278787,
+    "lng": 3.042777,
+    "transactions": [
+      {
+        "date": "2021-04-28",
+        "priceEur": 88000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "da1705df7337": {
+    "id": "da1705df7337",
+    "label": "53 RUE DES LINIERS, Lécluse",
+    "lat": 50.278668,
+    "lng": 3.042092,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c66f243373c": {
+    "id": "7c66f243373c",
+    "label": "22 RUE D ETAING, Lécluse",
+    "lat": 50.275497,
+    "lng": 3.03576,
+    "transactions": [
+      {
+        "date": "2022-03-24",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "d4664c0bfe57": {
+    "id": "d4664c0bfe57",
+    "label": "4 RUE DE LA FONTAINE, Lécluse",
+    "lat": 50.276468,
+    "lng": 3.041883,
+    "transactions": [
+      {
+        "date": "2022-03-31",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "60d48e38d94e": {
+    "id": "60d48e38d94e",
+    "label": "16 RUE DE L ANCIENNE POSTE, Lécluse",
+    "lat": 50.277123,
+    "lng": 3.039282,
+    "transactions": [
+      {
+        "date": "2022-03-29",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "7bc449c4e203": {
+    "id": "7bc449c4e203",
+    "label": "25 RUE GRAND, Lécluse",
+    "lat": 50.277626,
+    "lng": 3.038918,
+    "transactions": [
+      {
+        "date": "2022-03-30",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "20d7b71533e6": {
+    "id": "20d7b71533e6",
+    "label": "45 RUE DES LINIERS, Lécluse",
+    "lat": 50.278872,
+    "lng": 3.041782,
+    "transactions": [
+      {
+        "date": "2022-04-21",
+        "priceEur": 60200,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9adfeefc585": {
+    "id": "f9adfeefc585",
+    "label": "8 RUE DES LINIERS, Lécluse",
+    "lat": 50.278619,
+    "lng": 3.041072,
+    "transactions": [
+      {
+        "date": "2022-06-14",
+        "priceEur": 109000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "a4ea4d615512": {
+    "id": "a4ea4d615512",
+    "label": "9021 RUE GRAND, Lécluse",
+    "lat": 50.276244,
+    "lng": 3.037907,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 53000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2d4a7e0b554": {
+    "id": "c2d4a7e0b554",
+    "label": "14 RUE DES LINIERS, Lécluse",
+    "lat": 50.278336,
+    "lng": 3.041319,
+    "transactions": [
+      {
+        "date": "2022-07-13",
+        "priceEur": 158975,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "07df0b43e24f": {
+    "id": "07df0b43e24f",
+    "label": "35 RUE DES LINIERS, Lécluse",
+    "lat": 50.278893,
+    "lng": 3.041344,
+    "transactions": [
+      {
+        "date": "2022-08-09",
+        "priceEur": 104000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "bac4ec30fe2d": {
+    "id": "bac4ec30fe2d",
+    "label": "4 RUE DES BOUCHERS, Lécluse",
+    "lat": 50.276889,
+    "lng": 3.041967,
+    "transactions": [
+      {
+        "date": "2022-08-31",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "631af5b41c40": {
+    "id": "631af5b41c40",
+    "label": "55 RUE DES LINIERS, Lécluse",
+    "lat": 50.278791,
+    "lng": 3.042144,
+    "transactions": [
+      {
+        "date": "2022-12-09",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "42ccb3e77bf9": {
+    "id": "42ccb3e77bf9",
+    "label": "71 RUE DES LINIERS, Lécluse",
+    "lat": 50.278709,
+    "lng": 3.042347,
+    "transactions": [
+      {
+        "date": "2022-12-07",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe96d5eb47ed": {
+    "id": "fe96d5eb47ed",
+    "label": "26 RUE D ETAING, Lécluse",
+    "lat": 50.275352,
+    "lng": 3.035467,
+    "transactions": [
+      {
+        "date": "2022-12-30",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "43ab49e6b653": {
+    "id": "43ab49e6b653",
+    "label": "35 RUE NOTRE DAME, Lécluse",
+    "lat": 50.27765,
+    "lng": 3.042978,
+    "transactions": [
+      {
+        "date": "2023-03-24",
+        "priceEur": 34900,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "059be0b5f009": {
+    "id": "059be0b5f009",
+    "label": "31 RUE DU MOULIN, Lécluse",
+    "lat": 50.282058,
+    "lng": 3.040693,
+    "transactions": [
+      {
+        "date": "2023-03-27",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ad441f6c8e8": {
+    "id": "0ad441f6c8e8",
+    "label": "63 RUE NOTRE DAME, Lécluse",
+    "lat": 50.27724,
+    "lng": 3.042826,
+    "transactions": [
+      {
+        "date": "2023-03-30",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "029fb7c952f4": {
+    "id": "029fb7c952f4",
+    "label": "3 RUE GRAND, Lécluse",
+    "lat": 50.278932,
+    "lng": 3.039164,
+    "transactions": [
+      {
+        "date": "2023-06-08",
+        "priceEur": 94500,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "ab12731ce9f1": {
+    "id": "ab12731ce9f1",
+    "label": "24 RUE DE LA FONTAINE, Lécluse",
+    "lat": 50.275789,
+    "lng": 3.040851,
+    "transactions": [
+      {
+        "date": "2023-05-03",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "fbebfa00c823": {
+    "id": "fbebfa00c823",
+    "label": "5 RUE DU BOIS, Lécluse",
+    "lat": 50.275786,
+    "lng": 3.035986,
+    "transactions": [
+      {
+        "date": "2023-06-23",
+        "priceEur": 143000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5552a3972d1": {
+    "id": "d5552a3972d1",
+    "label": "65 RUE DES LINIERS, Lécluse",
+    "lat": 50.279,
+    "lng": 3.042314,
+    "transactions": [
+      {
+        "date": "2023-08-01",
+        "priceEur": 42500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "c38ae8bab21e": {
+    "id": "c38ae8bab21e",
+    "label": "97 RUE DES LINIERS, Lécluse",
+    "lat": 50.278492,
+    "lng": 3.042894,
+    "transactions": [
+      {
+        "date": "2023-10-09",
+        "priceEur": 79900,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "500adcaa24a5": {
+    "id": "500adcaa24a5",
+    "label": "61 RUE DU MOULIN, Lécluse",
+    "lat": 50.280377,
+    "lng": 3.039875,
+    "transactions": [
+      {
+        "date": "2023-11-06",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd13b74a91bc": {
+    "id": "cd13b74a91bc",
+    "label": "80 RUE DU MOULIN, Lécluse",
+    "lat": 50.279697,
+    "lng": 3.039082,
+    "transactions": [
+      {
+        "date": "2024-01-15",
+        "priceEur": 1,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "28b39124cadc": {
+    "id": "28b39124cadc",
+    "label": "89 RUE DES LINIERS, Lécluse",
+    "lat": 50.278889,
+    "lng": 3.042953,
+    "transactions": [
+      {
+        "date": "2024-02-23",
+        "priceEur": 33333.34,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "901981968c08": {
+    "id": "901981968c08",
+    "label": "19 RUE DES BOUCHERS, Lécluse",
+    "lat": 50.276682,
+    "lng": 3.041161,
+    "transactions": [
+      {
+        "date": "2024-06-03",
+        "priceEur": 14900,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "84f9bd8456ac": {
+    "id": "84f9bd8456ac",
+    "label": "79 RUE DES LINIERS, Lécluse",
+    "lat": 50.278677,
+    "lng": 3.042551,
+    "transactions": [
+      {
+        "date": "2024-08-26",
+        "priceEur": 126200,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "63dd445b69cb": {
+    "id": "63dd445b69cb",
+    "label": "36 RUE DES BOUCHERS, Lécluse",
+    "lat": 50.277579,
+    "lng": 3.041,
+    "transactions": [
+      {
+        "date": "2024-09-16",
+        "priceEur": 53000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1fe10d5a5a0": {
+    "id": "b1fe10d5a5a0",
+    "label": "29 RUE DES LINIERS, Lécluse",
+    "lat": 50.279028,
+    "lng": 3.041391,
+    "transactions": [
+      {
+        "date": "2024-09-12",
+        "priceEur": 27000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "12cb5cfd0b39": {
+    "id": "12cb5cfd0b39",
+    "label": "49 RUE DES LINIERS, Lécluse",
+    "lat": 50.278717,
+    "lng": 3.041985,
+    "transactions": [
+      {
+        "date": "2024-12-09",
+        "priceEur": 106000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "5bc0f579ff4c": {
+    "id": "5bc0f579ff4c",
+    "label": "99 RUE DES LINIERS, Lécluse",
+    "lat": 50.278586,
+    "lng": 3.042992,
+    "transactions": [
+      {
+        "date": "2025-02-10",
+        "priceEur": 31000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "6144511a81d5": {
+    "id": "6144511a81d5",
+    "label": "54 RUE DES LINIERS, Lécluse",
+    "lat": 50.277816,
+    "lng": 3.042635,
+    "transactions": [
+      {
+        "date": "2025-03-27",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "bad423135e87": {
+    "id": "bad423135e87",
+    "label": "55 RUE NOTRE DAME, Lécluse",
+    "lat": 50.27738,
+    "lng": 3.04295,
+    "transactions": [
+      {
+        "date": "2025-05-28",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  }
+}

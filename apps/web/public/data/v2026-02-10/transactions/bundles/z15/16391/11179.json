@@ -1,0 +1,32 @@
+{
+  "b4fcd33c9823": {
+    "id": "b4fcd33c9823",
+    "label": "170 RUE ROLAND GARROS, Le Havre",
+    "lat": 49.528732,
+    "lng": 0.084842,
+    "transactions": [
+      {
+        "date": "2020-09-15",
+        "priceEur": 333000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "52cd21f73f2c": {
+    "id": "52cd21f73f2c",
+    "label": "9001 CR 47 BLEVILLE, Le Havre",
+    "lat": 49.525806,
+    "lng": 0.081437,
+    "transactions": [
+      {
+        "date": "2023-03-06",
+        "priceEur": 54510,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  }
+}

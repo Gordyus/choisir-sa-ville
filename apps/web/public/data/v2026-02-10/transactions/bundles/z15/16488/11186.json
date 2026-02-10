@@ -1,0 +1,47 @@
+{
+  "199708c265f3": {
+    "id": "199708c265f3",
+    "label": "470 RUE DU MONT PERREUX, Saint-Martin-du-Vivier",
+    "lat": 49.478819,
+    "lng": 1.152761,
+    "transactions": [
+      {
+        "date": "2021-06-09",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "81048e80f3f1": {
+    "id": "81048e80f3f1",
+    "label": "236 IMP DU CAT ROUGE, Saint-Martin-du-Vivier",
+    "lat": 49.477978,
+    "lng": 1.151712,
+    "transactions": [
+      {
+        "date": "2025-01-22",
+        "priceEur": 496000,
+        "typeLocal": "Maison",
+        "surfaceM2": 178,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3c6c84375d1": {
+    "id": "d3c6c84375d1",
+    "label": "504 RUE DU MONT PERREUX, Saint-Martin-du-Vivier",
+    "lat": 49.478676,
+    "lng": 1.153219,
+    "transactions": [
+      {
+        "date": "2025-02-14",
+        "priceEur": 830000,
+        "typeLocal": "Maison",
+        "surfaceM2": 235,
+        "isVefa": false
+      }
+    ]
+  }
+}

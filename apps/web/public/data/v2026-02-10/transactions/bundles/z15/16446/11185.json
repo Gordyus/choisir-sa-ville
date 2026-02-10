@@ -1,0 +1,99 @@
+{
+  "13176a6c73d0": {
+    "id": "13176a6c73d0",
+    "label": "146 RTE D'AIZIER, Vatteville-la-Rue",
+    "lat": 49.488229,
+    "lng": 0.686492,
+    "transactions": [
+      {
+        "date": "2021-03-02",
+        "priceEur": 143000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9f17dcfdc26": {
+    "id": "c9f17dcfdc26",
+    "label": "1 RUE DES FROMONTS, Vatteville-la-Rue",
+    "lat": 49.488744,
+    "lng": 0.685014,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-26",
+        "priceEur": 233000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "b96c1b34ce15": {
+    "id": "b96c1b34ce15",
+    "label": "245 LA RUE, Vatteville-la-Rue",
+    "lat": 49.488223,
+    "lng": 0.684019,
+    "transactions": [
+      {
+        "date": "2023-10-20",
+        "priceEur": 153000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "4cd38e451201": {
+    "id": "4cd38e451201",
+    "label": "449 LA RUE, Vatteville-la-Rue",
+    "lat": 49.487617,
+    "lng": 0.681619,
+    "transactions": [
+      {
+        "date": "2023-12-20",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "35eff7e0dd17": {
+    "id": "35eff7e0dd17",
+    "label": "226 LA RUE, Vatteville-la-Rue",
+    "lat": 49.488435,
+    "lng": 0.684007,
+    "transactions": [
+      {
+        "date": "2024-03-27",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "2cb79e041bb4": {
+    "id": "2cb79e041bb4",
+    "label": "82 LA RUE, Vatteville-la-Rue",
+    "lat": 49.489331,
+    "lng": 0.684661,
+    "transactions": [
+      {
+        "date": "2024-06-18",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  }
+}

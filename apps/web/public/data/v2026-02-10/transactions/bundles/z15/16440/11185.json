@@ -1,0 +1,32 @@
+{
+  "9dd1384dd34a": {
+    "id": "9dd1384dd34a",
+    "label": "8 RTE DE LA COTE, Saint-Maurice-d'Ételan",
+    "lat": 49.488192,
+    "lng": 0.618409,
+    "transactions": [
+      {
+        "date": "2022-01-28",
+        "priceEur": 29436.8,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "4395847e3507": {
+    "id": "4395847e3507",
+    "label": "8 RTE DE LA COTE, Norville",
+    "lat": 49.488217,
+    "lng": 0.619412,
+    "transactions": [
+      {
+        "date": "2024-05-30",
+        "priceEur": 197000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

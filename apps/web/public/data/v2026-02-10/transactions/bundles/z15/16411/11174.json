@@ -1,0 +1,77 @@
+{
+  "d8981fc59af5": {
+    "id": "d8981fc59af5",
+    "label": "5056 LE MONUMENT, Étainhus",
+    "lat": 49.562111,
+    "lng": 0.303823,
+    "transactions": [
+      {
+        "date": "2021-03-05",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "c31a01601787": {
+    "id": "c31a01601787",
+    "label": "425 RTE DU MOIGNAN, Étainhus",
+    "lat": 49.567387,
+    "lng": 0.303291,
+    "transactions": [
+      {
+        "date": "2021-08-23",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "687b0c151043": {
+    "id": "687b0c151043",
+    "label": "1013 RTE D ETAINHUS, Sainneville",
+    "lat": 49.562021,
+    "lng": 0.300067,
+    "transactions": [
+      {
+        "date": "2021-08-26",
+        "priceEur": 217000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "78e28c176540": {
+    "id": "78e28c176540",
+    "label": "162 CHE DES MARAICHERS, Étainhus",
+    "lat": 49.566503,
+    "lng": 0.302932,
+    "transactions": [
+      {
+        "date": "2022-07-26",
+        "priceEur": 2349,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "0cf7c423d117": {
+    "id": "0cf7c423d117",
+    "label": "400 RTE DU MOIGNAN, Étainhus",
+    "lat": 49.567908,
+    "lng": 0.3034,
+    "transactions": [
+      {
+        "date": "2024-09-13",
+        "priceEur": 336000,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      }
+    ]
+  }
+}

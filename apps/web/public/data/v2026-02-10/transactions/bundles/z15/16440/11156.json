@@ -1,0 +1,99 @@
+{
+  "4cdb4305f682": {
+    "id": "4cdb4305f682",
+    "label": "299 RUE DE L EGLISE, Thiouville",
+    "lat": 49.691543,
+    "lng": 0.618596,
+    "transactions": [
+      {
+        "date": "2020-09-07",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc66e08d9ed3": {
+    "id": "cc66e08d9ed3",
+    "label": "453 RUE DE L ECOLE, Thiouville",
+    "lat": 49.691166,
+    "lng": 0.623197,
+    "transactions": [
+      {
+        "date": "2020-12-16",
+        "priceEur": 208000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "9931290297fb": {
+    "id": "9931290297fb",
+    "label": "91 RUE DE L ECOLE, Thiouville",
+    "lat": 49.693467,
+    "lng": 0.619557,
+    "transactions": [
+      {
+        "date": "2021-09-16",
+        "priceEur": 15000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "792da3796f51": {
+    "id": "792da3796f51",
+    "label": "365 RUE DU CALVAIRE, Thiouville",
+    "lat": 49.693786,
+    "lng": 0.622354,
+    "transactions": [
+      {
+        "date": "2023-08-21",
+        "priceEur": 259000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-23",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "9606ace1be53": {
+    "id": "9606ace1be53",
+    "label": "140 RUE DE L ECOLE, Thiouville",
+    "lat": 49.693323,
+    "lng": 0.620072,
+    "transactions": [
+      {
+        "date": "2023-05-31",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "467328fd0299": {
+    "id": "467328fd0299",
+    "label": "238 RUE DU CALVAIRE, Thiouville",
+    "lat": 49.693773,
+    "lng": 0.621018,
+    "transactions": [
+      {
+        "date": "2025-04-14",
+        "priceEur": 218698,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  }
+}

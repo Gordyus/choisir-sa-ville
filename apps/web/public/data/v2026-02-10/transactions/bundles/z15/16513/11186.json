@@ -1,0 +1,47 @@
+{
+  "eb39e3e35d69": {
+    "id": "eb39e3e35d69",
+    "label": "1266 RUE SAINT OUEN, Morville-le-Héron",
+    "lat": 49.477072,
+    "lng": 1.426506,
+    "transactions": [
+      {
+        "date": "2020-07-30",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "68463d53a55b": {
+    "id": "68463d53a55b",
+    "label": "5125 MORVILLE, Morville-le-Héron",
+    "lat": 49.476475,
+    "lng": 1.425935,
+    "transactions": [
+      {
+        "date": "2021-09-07",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "95954542645f": {
+    "id": "95954542645f",
+    "label": "5012 MORVILLE, Morville-le-Héron",
+    "lat": 49.47669,
+    "lng": 1.427975,
+    "transactions": [
+      {
+        "date": "2022-09-26",
+        "priceEur": 168500,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  }
+}

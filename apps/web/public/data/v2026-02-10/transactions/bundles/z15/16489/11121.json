@@ -1,0 +1,99 @@
+{
+  "e8c124f44e2e": {
+    "id": "e8c124f44e2e",
+    "label": "1 CHE DES FORRIERES NORD, Petit-Caux",
+    "lat": 49.941466,
+    "lng": 1.15482,
+    "transactions": [
+      {
+        "date": "2021-02-05",
+        "priceEur": 102500,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-11",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "78a8a6603c1a": {
+    "id": "78a8a6603c1a",
+    "label": "94 RUE JEANNE D'ARC, Petit-Caux",
+    "lat": 49.9385,
+    "lng": 1.158048,
+    "transactions": [
+      {
+        "date": "2022-05-19",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "f684598764b6": {
+    "id": "f684598764b6",
+    "label": "3 LOT CLOS FLEURI, Petit-Caux",
+    "lat": 49.93951,
+    "lng": 1.155929,
+    "transactions": [
+      {
+        "date": "2022-11-04",
+        "priceEur": 357500,
+        "typeLocal": "Maison",
+        "surfaceM2": 159,
+        "isVefa": false
+      }
+    ]
+  },
+  "1fe24b92112e": {
+    "id": "1fe24b92112e",
+    "label": "73 RUE JEANNE D'ARC, Petit-Caux",
+    "lat": 49.939041,
+    "lng": 1.156845,
+    "transactions": [
+      {
+        "date": "2023-09-18",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b3424364428": {
+    "id": "6b3424364428",
+    "label": "71 RUE JEANNE D'ARC, Petit-Caux",
+    "lat": 49.938984,
+    "lng": 1.156459,
+    "transactions": [
+      {
+        "date": "2023-08-25",
+        "priceEur": 162700,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "73285f4b1d28": {
+    "id": "73285f4b1d28",
+    "label": "3 CHE DES FORRIERES NORD, Petit-Caux",
+    "lat": 49.94093,
+    "lng": 1.154777,
+    "transactions": [
+      {
+        "date": "2024-11-15",
+        "priceEur": 253000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  }
+}

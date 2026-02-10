@@ -1,0 +1,32 @@
+{
+  "bfdb6c423335": {
+    "id": "bfdb6c423335",
+    "label": "8 RUE DES CHAMPS, Flamanville",
+    "lat": 49.631639,
+    "lng": 0.837353,
+    "transactions": [
+      {
+        "date": "2020-07-30",
+        "priceEur": 126200,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "6c022382ef2d": {
+    "id": "6c022382ef2d",
+    "label": "764 AV DES COMTES DE GERMINY, Motteville",
+    "lat": 49.631141,
+    "lng": 0.845132,
+    "transactions": [
+      {
+        "date": "2021-09-24",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

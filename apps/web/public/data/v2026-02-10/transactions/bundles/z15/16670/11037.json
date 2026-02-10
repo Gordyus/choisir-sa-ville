@@ -1,0 +1,92 @@
+{
+  "d6e831b68333": {
+    "id": "d6e831b68333",
+    "label": "70 RUE HAUTE RUE, Templeuve-en-Pévèle",
+    "lat": 50.529534,
+    "lng": 3.150948,
+    "transactions": [
+      {
+        "date": "2020-10-26",
+        "priceEur": 533000,
+        "typeLocal": "Maison",
+        "surfaceM2": 159,
+        "isVefa": false
+      }
+    ]
+  },
+  "54daaf08ca4e": {
+    "id": "54daaf08ca4e",
+    "label": "67B RUE HAUTE RUE, Templeuve-en-Pévèle",
+    "lat": 50.529649,
+    "lng": 3.147442,
+    "transactions": [
+      {
+        "date": "2020-12-29",
+        "priceEur": 405000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e6cd4effbcb": {
+    "id": "2e6cd4effbcb",
+    "label": "84 RUE HAUTE RUE, Templeuve-en-Pévèle",
+    "lat": 50.530709,
+    "lng": 3.147053,
+    "transactions": [
+      {
+        "date": "2021-04-20",
+        "priceEur": 620000,
+        "typeLocal": "Maison",
+        "surfaceM2": 184,
+        "isVefa": false
+      }
+    ]
+  },
+  "38887d0840dd": {
+    "id": "38887d0840dd",
+    "label": "59 RUE HAUTE RUE, Templeuve-en-Pévèle",
+    "lat": 50.529586,
+    "lng": 3.149437,
+    "transactions": [
+      {
+        "date": "2021-10-19",
+        "priceEur": 279250,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a6b7e0459a5": {
+    "id": "3a6b7e0459a5",
+    "label": "47 RUE D ENNEVELIN, Templeuve-en-Pévèle",
+    "lat": 50.527637,
+    "lng": 3.152209,
+    "transactions": [
+      {
+        "date": "2024-04-25",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "a4514d5ca16a": {
+    "id": "a4514d5ca16a",
+    "label": "44 RUE D ENNEVELIN, Templeuve-en-Pévèle",
+    "lat": 50.528061,
+    "lng": 3.151985,
+    "transactions": [
+      {
+        "date": "2025-01-14",
+        "priceEur": 312000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  }
+}

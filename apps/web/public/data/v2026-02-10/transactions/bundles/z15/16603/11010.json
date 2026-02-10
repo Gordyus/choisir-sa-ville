@@ -1,0 +1,24 @@
+{
+  "6b348ae7e55c": {
+    "id": "6b348ae7e55c",
+    "label": "222 RUE DE MORBECQUE, Ebblinghem",
+    "lat": 50.720836,
+    "lng": 2.406353,
+    "transactions": [
+      {
+        "date": "2023-09-26",
+        "priceEur": 284200,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-25",
+        "priceEur": 267900,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  }
+}

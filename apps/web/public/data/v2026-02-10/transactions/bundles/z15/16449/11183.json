@@ -1,0 +1,99 @@
+{
+  "a53cb702ae82": {
+    "id": "a53cb702ae82",
+    "label": "600 RTE DU FAYEL, Arelaune-en-Seine",
+    "lat": 49.503116,
+    "lng": 0.722866,
+    "transactions": [
+      {
+        "date": "2021-12-29",
+        "priceEur": 234000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "48b2cc21b6b3": {
+    "id": "48b2cc21b6b3",
+    "label": "1222 RUE DES FOSSES, Vatteville-la-Rue",
+    "lat": 49.500082,
+    "lng": 0.717626,
+    "transactions": [
+      {
+        "date": "2021-02-10",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "59bcf05dacb0": {
+    "id": "59bcf05dacb0",
+    "label": "987 RTE DU FAYEL, Arelaune-en-Seine",
+    "lat": 49.500229,
+    "lng": 0.722076,
+    "transactions": [
+      {
+        "date": "2022-05-05",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "c1818321c864": {
+    "id": "c1818321c864",
+    "label": "589 RTE DES MARAICHERS, Arelaune-en-Seine",
+    "lat": 49.502609,
+    "lng": 0.721672,
+    "transactions": [
+      {
+        "date": "2024-10-31",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-07",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6960c0de75b": {
+    "id": "d6960c0de75b",
+    "label": "989 RTE DU FAYEL, Arelaune-en-Seine",
+    "lat": 49.49996,
+    "lng": 0.72192,
+    "transactions": [
+      {
+        "date": "2024-04-11",
+        "priceEur": 267600,
+        "typeLocal": "Maison",
+        "surfaceM2": 214,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb664b18df98": {
+    "id": "cb664b18df98",
+    "label": "71 RTE DE LA FOSSE CORNUE, Arelaune-en-Seine",
+    "lat": 49.500118,
+    "lng": 0.72016,
+    "transactions": [
+      {
+        "date": "2024-11-28",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  }
+}

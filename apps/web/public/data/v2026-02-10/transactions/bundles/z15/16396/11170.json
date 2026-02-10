@@ -1,0 +1,107 @@
+{
+  "190d382b0c3e": {
+    "id": "190d382b0c3e",
+    "label": "5276 RIMBERTOT, Cauville-sur-Mer",
+    "lat": 49.593204,
+    "lng": 0.141621,
+    "transactions": [
+      {
+        "date": "2020-12-15",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "f526ceacb586": {
+    "id": "f526ceacb586",
+    "label": "18 RUE SAINT NICOLAS, Cauville-sur-Mer",
+    "lat": 49.594353,
+    "lng": 0.132352,
+    "transactions": [
+      {
+        "date": "2021-07-13",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "4aa5ee33286b": {
+    "id": "4aa5ee33286b",
+    "label": "5246 LOT LE COURLIS, Cauville-sur-Mer",
+    "lat": 49.593674,
+    "lng": 0.131867,
+    "transactions": [
+      {
+        "date": "2022-07-08",
+        "priceEur": 238000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "27fbecc7a66c": {
+    "id": "27fbecc7a66c",
+    "label": "28 RTE D ETRETAT, Cauville-sur-Mer",
+    "lat": 49.593643,
+    "lng": 0.132363,
+    "transactions": [
+      {
+        "date": "2024-06-10",
+        "priceEur": 261130,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "2cbb3b9ded37": {
+    "id": "2cbb3b9ded37",
+    "label": "12 RTE DE MONTIVILLIERS, Cauville-sur-Mer",
+    "lat": 49.593372,
+    "lng": 0.142378,
+    "transactions": [
+      {
+        "date": "2024-07-15",
+        "priceEur": 193000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6b3d9955ce7": {
+    "id": "c6b3d9955ce7",
+    "label": "2 IMP DE VERSAILLES, Cauville-sur-Mer",
+    "lat": 49.590287,
+    "lng": 0.132184,
+    "transactions": [
+      {
+        "date": "2024-08-28",
+        "priceEur": 341021,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "9716b8ef3f58": {
+    "id": "9716b8ef3f58",
+    "label": "5 IMP DU COTTAGE, Cauville-sur-Mer",
+    "lat": 49.595109,
+    "lng": 0.132603,
+    "transactions": [
+      {
+        "date": "2025-04-04",
+        "priceEur": 347200,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  }
+}

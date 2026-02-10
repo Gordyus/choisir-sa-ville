@@ -1,0 +1,466 @@
+{
+  "bb7b63e9eb20": {
+    "id": "bb7b63e9eb20",
+    "label": "2367 RTE DE NEUFCHATEL, Isneauville",
+    "lat": 49.503554,
+    "lng": 1.157769,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 176000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "6462b432c7e8": {
+    "id": "6462b432c7e8",
+    "label": "21 RTE DE DIEPPE, Isneauville",
+    "lat": 49.49994,
+    "lng": 1.153576,
+    "transactions": [
+      {
+        "date": "2020-09-23",
+        "priceEur": 283500,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "8abcf8b8d54d": {
+    "id": "8abcf8b8d54d",
+    "label": "1061 RUE DU MESNIL, Isneauville",
+    "lat": 49.496847,
+    "lng": 1.154398,
+    "transactions": [
+      {
+        "date": "2020-10-12",
+        "priceEur": 425000,
+        "typeLocal": "Maison",
+        "surfaceM2": 179,
+        "isVefa": false
+      }
+    ]
+  },
+  "84fa240cf7ad": {
+    "id": "84fa240cf7ad",
+    "label": "59 RUE DES PRES VERTS, Isneauville",
+    "lat": 49.50263,
+    "lng": 1.156054,
+    "transactions": [
+      {
+        "date": "2020-12-07",
+        "priceEur": 415320,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "a7f5e7240b0b": {
+    "id": "a7f5e7240b0b",
+    "label": "1768 RTE DE NEUFCHATEL, Isneauville",
+    "lat": 49.499407,
+    "lng": 1.154753,
+    "transactions": [
+      {
+        "date": "2021-02-22",
+        "priceEur": 715000,
+        "typeLocal": "Maison",
+        "surfaceM2": 197,
+        "isVefa": false
+      }
+    ]
+  },
+  "05cf745c0ba5": {
+    "id": "05cf745c0ba5",
+    "label": "271 RUE DES JARDINS DU GROS CHENE, Isneauville",
+    "lat": 49.500333,
+    "lng": 1.157463,
+    "transactions": [
+      {
+        "date": "2021-06-16",
+        "priceEur": 465000,
+        "typeLocal": "Maison",
+        "surfaceM2": 300,
+        "isVefa": false
+      }
+    ]
+  },
+  "a24f685a00ed": {
+    "id": "a24f685a00ed",
+    "label": "51 ALL DES AUBEPINES, Isneauville",
+    "lat": 49.498124,
+    "lng": 1.154115,
+    "transactions": [
+      {
+        "date": "2021-06-28",
+        "priceEur": 460000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "420705a2240c": {
+    "id": "420705a2240c",
+    "label": "107 ALL DES POIRIERS, Isneauville",
+    "lat": 49.497244,
+    "lng": 1.159651,
+    "transactions": [
+      {
+        "date": "2021-09-24",
+        "priceEur": 444000,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7b496eecf88": {
+    "id": "f7b496eecf88",
+    "label": "2470 RTE DE NEUFCHATEL, Isneauville",
+    "lat": 49.503732,
+    "lng": 1.158866,
+    "transactions": [
+      {
+        "date": "2022-07-01",
+        "priceEur": 376000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2a228bb028c": {
+    "id": "c2a228bb028c",
+    "label": "46 RUE DE L'EUROPE, Isneauville",
+    "lat": 49.50231,
+    "lng": 1.158701,
+    "transactions": [
+      {
+        "date": "2022-06-29",
+        "priceEur": 298550,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "6dfaf030114c": {
+    "id": "6dfaf030114c",
+    "label": "363 RUE DE L OREE DU BOIS, Isneauville",
+    "lat": 49.50229,
+    "lng": 1.162916,
+    "transactions": [
+      {
+        "date": "2022-08-26",
+        "priceEur": 422960,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "6cf4d388a599": {
+    "id": "6cf4d388a599",
+    "label": "96 RUE DE L'EUROPE, Isneauville",
+    "lat": 49.502176,
+    "lng": 1.157715,
+    "transactions": [
+      {
+        "date": "2025-06-06",
+        "priceEur": 303000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-14",
+        "priceEur": 334000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-14",
+        "priceEur": 334000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "ef47c623b0e8": {
+    "id": "ef47c623b0e8",
+    "label": "75 RUE DES EGLANTIERS, Isneauville",
+    "lat": 49.501463,
+    "lng": 1.156995,
+    "transactions": [
+      {
+        "date": "2022-10-28",
+        "priceEur": 430000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ea3018e80a9": {
+    "id": "9ea3018e80a9",
+    "label": "54 IMP DES EGLANTIERS, Isneauville",
+    "lat": 49.500814,
+    "lng": 1.157475,
+    "transactions": [
+      {
+        "date": "2023-01-31",
+        "priceEur": 445000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e356d700b1c": {
+    "id": "2e356d700b1c",
+    "label": "60 ALL DES AUBEPINES, Isneauville",
+    "lat": 49.497826,
+    "lng": 1.155317,
+    "transactions": [
+      {
+        "date": "2023-03-29",
+        "priceEur": 490000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "22cdd2acff7a": {
+    "id": "22cdd2acff7a",
+    "label": "72 RUE DES JARDINS DU GROS CHENE, Isneauville",
+    "lat": 49.50073,
+    "lng": 1.155504,
+    "transactions": [
+      {
+        "date": "2023-03-30",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "5bb45f5ae7b4": {
+    "id": "5bb45f5ae7b4",
+    "label": "80 RUE DES EGLANTIERS, Isneauville",
+    "lat": 49.501779,
+    "lng": 1.157318,
+    "transactions": [
+      {
+        "date": "2023-05-03",
+        "priceEur": 246250,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "26dea433c87b": {
+    "id": "26dea433c87b",
+    "label": "41 RUE DE L OREE DU BOIS, Isneauville",
+    "lat": 49.503585,
+    "lng": 1.158624,
+    "transactions": [
+      {
+        "date": "2023-05-17",
+        "priceEur": 421000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "88a514e55eb1": {
+    "id": "88a514e55eb1",
+    "label": "25 RUE DES HAUTS CHAMPS, Isneauville",
+    "lat": 49.503204,
+    "lng": 1.157268,
+    "transactions": [
+      {
+        "date": "2023-08-10",
+        "priceEur": 415000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "0640343a3c4b": {
+    "id": "0640343a3c4b",
+    "label": "293 RUE DES JARDINS DU GROS CHENE, Isneauville",
+    "lat": 49.500456,
+    "lng": 1.157653,
+    "transactions": [
+      {
+        "date": "2023-09-20",
+        "priceEur": 378500,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "828a94f66c7e": {
+    "id": "828a94f66c7e",
+    "label": "58 RUE DE LA PRAIRIE, Isneauville",
+    "lat": 49.496812,
+    "lng": 1.154687,
+    "transactions": [
+      {
+        "date": "2023-10-14",
+        "priceEur": 405000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "afd2b771e740": {
+    "id": "afd2b771e740",
+    "label": "70 ALL DU PATURAIN, Isneauville",
+    "lat": 49.503621,
+    "lng": 1.156517,
+    "transactions": [
+      {
+        "date": "2023-11-24",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9fc43feacf3": {
+    "id": "b9fc43feacf3",
+    "label": "320 RUE DES JARDINS DU GROS CHENE, Isneauville",
+    "lat": 49.500518,
+    "lng": 1.158345,
+    "transactions": [
+      {
+        "date": "2023-12-15",
+        "priceEur": 325300,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc0ffc41ef89": {
+    "id": "cc0ffc41ef89",
+    "label": "54 RUE DES EGLANTIERS, Isneauville",
+    "lat": 49.501917,
+    "lng": 1.156845,
+    "transactions": [
+      {
+        "date": "2024-02-16",
+        "priceEur": 420000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "b56fe3ffddba": {
+    "id": "b56fe3ffddba",
+    "label": "10 ALL DES AUBEPINES, Isneauville",
+    "lat": 49.49726,
+    "lng": 1.155057,
+    "transactions": [
+      {
+        "date": "2024-08-20",
+        "priceEur": 451000,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "93f1e3f1d2a7": {
+    "id": "93f1e3f1d2a7",
+    "label": "72 RUE DE L'EUROPE, Isneauville",
+    "lat": 49.502238,
+    "lng": 1.157908,
+    "transactions": [
+      {
+        "date": "2024-11-25",
+        "priceEur": 430000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d23b516cb12": {
+    "id": "5d23b516cb12",
+    "label": "366 RUE DES JARDINS DU GROS CHENE, Isneauville",
+    "lat": 49.500935,
+    "lng": 1.158532,
+    "transactions": [
+      {
+        "date": "2024-12-18",
+        "priceEur": 393869,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "59c7454a9942": {
+    "id": "59c7454a9942",
+    "label": "916 RUE DU MESNIL, Isneauville",
+    "lat": 49.497203,
+    "lng": 1.155513,
+    "transactions": [
+      {
+        "date": "2025-01-28",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "e510e15d9dac": {
+    "id": "e510e15d9dac",
+    "label": "37 IMP DES EGLANTIERS, Isneauville",
+    "lat": 49.501234,
+    "lng": 1.157078,
+    "transactions": [
+      {
+        "date": "2025-03-21",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "575c286891d6": {
+    "id": "575c286891d6",
+    "label": "2017 RTE DE NEUFCHATEL, Isneauville",
+    "lat": 49.501012,
+    "lng": 1.155049,
+    "transactions": [
+      {
+        "date": "2025-06-05",
+        "priceEur": 194000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

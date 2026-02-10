@@ -1,0 +1,47 @@
+{
+  "44904ffffabf": {
+    "id": "44904ffffabf",
+    "label": "5363 LE CONIHOUT, Jumièges",
+    "lat": 49.395885,
+    "lng": 0.832414,
+    "transactions": [
+      {
+        "date": "2022-01-10",
+        "priceEur": 151000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "ba4d8556333b": {
+    "id": "ba4d8556333b",
+    "label": "343 RTE DU CONIHOUT, Jumièges",
+    "lat": 49.396548,
+    "lng": 0.82961,
+    "transactions": [
+      {
+        "date": "2022-11-22",
+        "priceEur": 637656,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "9bb8645f927a": {
+    "id": "9bb8645f927a",
+    "label": "81 RTE DU CONIHOUT, Jumièges",
+    "lat": 49.395709,
+    "lng": 0.833059,
+    "transactions": [
+      {
+        "date": "2024-04-11",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  }
+}

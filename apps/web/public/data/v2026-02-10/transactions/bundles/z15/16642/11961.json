@@ -1,0 +1,76 @@
+{
+  "9724abfe6709": {
+    "id": "9724abfe6709",
+    "label": "2 CHE DU FAJAU, Cambon-et-Salvergues",
+    "lat": 43.628891,
+    "lng": 2.836891,
+    "transactions": [
+      {
+        "date": "2024-04-18",
+        "priceEur": 61000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff8694b9ae6b": {
+    "id": "ff8694b9ae6b",
+    "label": "6 CHE DU FAJAU, Cambon-et-Salvergues",
+    "lat": 43.628658,
+    "lng": 2.836618,
+    "transactions": [
+      {
+        "date": "2024-04-18",
+        "priceEur": 61000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "1fb5a34adc3a": {
+    "id": "1fb5a34adc3a",
+    "label": "16 CHE DU FAJAU, Cambon-et-Salvergues",
+    "lat": 43.628318,
+    "lng": 2.836228,
+    "transactions": [
+      {
+        "date": "2024-04-18",
+        "priceEur": 129000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "e33e1f5acc62": {
+    "id": "e33e1f5acc62",
+    "label": "12 CHE DU FAJAU, Cambon-et-Salvergues",
+    "lat": 43.628354,
+    "lng": 2.836216,
+    "transactions": [
+      {
+        "date": "2024-04-18",
+        "priceEur": 129000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-18",
+        "priceEur": 129000,
+        "typeLocal": "Maison",
+        "surfaceM2": 26,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-18",
+        "priceEur": 129000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  }
+}

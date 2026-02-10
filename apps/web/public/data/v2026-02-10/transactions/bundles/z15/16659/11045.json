@@ -1,0 +1,47 @@
+{
+  "2760cabf8b6d": {
+    "id": "2760cabf8b6d",
+    "label": "771 RUE DES FUSILLES, Wahagnies",
+    "lat": 50.476028,
+    "lng": 3.03184,
+    "transactions": [
+      {
+        "date": "2021-09-08",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "be2478fd750c": {
+    "id": "be2478fd750c",
+    "label": "1149 RUE DES FUSILLES, Wahagnies",
+    "lat": 50.475384,
+    "lng": 3.026695,
+    "transactions": [
+      {
+        "date": "2023-12-05",
+        "priceEur": 269350,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee3cec258d58": {
+    "id": "ee3cec258d58",
+    "label": "50 RUE DES FUSILLES, Wahagnies",
+    "lat": 50.475482,
+    "lng": 3.024346,
+    "transactions": [
+      {
+        "date": "2024-01-26",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

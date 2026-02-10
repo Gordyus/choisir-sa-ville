@@ -1,0 +1,62 @@
+{
+  "aed33ea59455": {
+    "id": "aed33ea59455",
+    "label": "454 CHE DE RICARMESNIL, Pierreval",
+    "lat": 49.532865,
+    "lng": 1.251782,
+    "transactions": [
+      {
+        "date": "2020-11-13",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b981f314568": {
+    "id": "8b981f314568",
+    "label": "5045 RICARMESNIL, Pierreval",
+    "lat": 49.533709,
+    "lng": 1.250657,
+    "transactions": [
+      {
+        "date": "2020-11-26",
+        "priceEur": 92500,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "bef7d8e6f4f2": {
+    "id": "bef7d8e6f4f2",
+    "label": "497 CHE DE RICARMESNIL, Pierreval",
+    "lat": 49.532939,
+    "lng": 1.252281,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 223200,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "af9a786d1101": {
+    "id": "af9a786d1101",
+    "label": "156 CHE DE RICARMESNIL, Pierreval",
+    "lat": 49.535165,
+    "lng": 1.249306,
+    "transactions": [
+      {
+        "date": "2021-02-08",
+        "priceEur": 221000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  }
+}

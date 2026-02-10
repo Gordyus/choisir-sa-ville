@@ -1,0 +1,62 @@
+{
+  "748ae7dfdda5": {
+    "id": "748ae7dfdda5",
+    "label": "1119 RTE DE SAINT ROMAIN, La Cerlangue",
+    "lat": 49.511545,
+    "lng": 0.397595,
+    "transactions": [
+      {
+        "date": "2020-11-25",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 192,
+        "isVefa": false
+      }
+    ]
+  },
+  "5353f62817ba": {
+    "id": "5353f62817ba",
+    "label": "1050 RTE DE SAINT ROMAIN, La Cerlangue",
+    "lat": 49.511598,
+    "lng": 0.398964,
+    "transactions": [
+      {
+        "date": "2024-02-22",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "ef79ee71f2b2": {
+    "id": "ef79ee71f2b2",
+    "label": "1033 RTE DE SAINT ROMAIN, La Cerlangue",
+    "lat": 49.510972,
+    "lng": 0.398945,
+    "transactions": [
+      {
+        "date": "2024-08-19",
+        "priceEur": 342000,
+        "typeLocal": "Maison",
+        "surfaceM2": 183,
+        "isVefa": false
+      }
+    ]
+  },
+  "215ab191eb0c": {
+    "id": "215ab191eb0c",
+    "label": "1177 RTE DE SAINT ROMAIN, La Cerlangue",
+    "lat": 49.511326,
+    "lng": 0.39727,
+    "transactions": [
+      {
+        "date": "2025-04-23",
+        "priceEur": 277000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  }
+}

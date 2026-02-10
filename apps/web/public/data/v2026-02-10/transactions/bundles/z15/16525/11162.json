@@ -1,0 +1,47 @@
+{
+  "c75b67f0dd5e": {
+    "id": "c75b67f0dd5e",
+    "label": "5039 BELLEFOITIERE, Compainville",
+    "lat": 49.651285,
+    "lng": 1.551686,
+    "transactions": [
+      {
+        "date": "2022-07-06",
+        "priceEur": 390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 189,
+        "isVefa": false
+      }
+    ]
+  },
+  "442fb92c5707": {
+    "id": "442fb92c5707",
+    "label": "5036 BELLEFOITIERE, Compainville",
+    "lat": 49.648228,
+    "lng": 1.550874,
+    "transactions": [
+      {
+        "date": "2022-09-19",
+        "priceEur": 153000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "c22c2f7491a3": {
+    "id": "c22c2f7491a3",
+    "label": "5 RTE DE SERQUEUX, Compainville",
+    "lat": 49.650739,
+    "lng": 1.55757,
+    "transactions": [
+      {
+        "date": "2024-02-20",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

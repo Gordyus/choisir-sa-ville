@@ -1,0 +1,47 @@
+{
+  "ab48ec9df478": {
+    "id": "ab48ec9df478",
+    "label": "1081 RTE DE MERCKEGHEM, Bollezeele",
+    "lat": 50.867415,
+    "lng": 2.314849,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  },
+  "a98efc94cd82": {
+    "id": "a98efc94cd82",
+    "label": "1020 RTE DE MERCKEGHEM, Bollezeele",
+    "lat": 50.867532,
+    "lng": 2.315685,
+    "transactions": [
+      {
+        "date": "2022-11-09",
+        "priceEur": 122150,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "543137a6d831": {
+    "id": "543137a6d831",
+    "label": "1392 RTE DE MERCKEGHEM, Bollezeele",
+    "lat": 50.866197,
+    "lng": 2.310952,
+    "transactions": [
+      {
+        "date": "2023-05-05",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "50958e9e2bca": {
+    "id": "50958e9e2bca",
+    "label": "950 RTE DE VIEUX MANOIR, Sainte-Croix-sur-Buchy",
+    "lat": 49.574967,
+    "lng": 1.328109,
+    "transactions": [
+      {
+        "date": "2021-03-01",
+        "priceEur": 361270,
+        "typeLocal": "Maison",
+        "surfaceM2": 192,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f3da27b8398": {
+    "id": "5f3da27b8398",
+    "label": "818 RTE DE VIEUX MANOIR, Sainte-Croix-sur-Buchy",
+    "lat": 49.574709,
+    "lng": 1.326837,
+    "transactions": [
+      {
+        "date": "2023-05-25",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e863094f84c": {
+    "id": "7e863094f84c",
+    "label": "760 RTE DE VIEUX MANOIR, Sainte-Croix-sur-Buchy",
+    "lat": 49.574146,
+    "lng": 1.326012,
+    "transactions": [
+      {
+        "date": "2024-06-26",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "7614f0fda568": {
+    "id": "7614f0fda568",
+    "label": "313 RTE DE VIEUX MANOIR, Sainte-Croix-sur-Buchy",
+    "lat": 49.572195,
+    "lng": 1.320511,
+    "transactions": [
+      {
+        "date": "2024-06-10",
+        "priceEur": 154100,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "bcd6cef0259f": {
+    "id": "bcd6cef0259f",
+    "label": "526 RTE DE VIEUX MANOIR, Sainte-Croix-sur-Buchy",
+    "lat": 49.573153,
+    "lng": 1.324113,
+    "transactions": [
+      {
+        "date": "2025-04-15",
+        "priceEur": 273150,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

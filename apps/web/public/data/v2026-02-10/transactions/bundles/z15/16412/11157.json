@@ -1,0 +1,129 @@
+{
+  "17fc63cff545": {
+    "id": "17fc63cff545",
+    "label": "5025 LE MONT ROTY, Fongueusemare",
+    "lat": 49.68683,
+    "lng": 0.313665,
+    "transactions": [
+      {
+        "date": "2021-04-20",
+        "priceEur": 160525,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "f41f5f2fb5f8": {
+    "id": "f41f5f2fb5f8",
+    "label": "1125 RTE DU MONT ROTI, Les Loges",
+    "lat": 49.688755,
+    "lng": 0.312945,
+    "transactions": [
+      {
+        "date": "2021-08-20",
+        "priceEur": 81000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "6492ddc7a0a2": {
+    "id": "6492ddc7a0a2",
+    "label": "1151 RTE DU MONT ROTI, Les Loges",
+    "lat": 49.688731,
+    "lng": 0.313146,
+    "transactions": [
+      {
+        "date": "2021-09-27",
+        "priceEur": 68000,
+        "typeLocal": "Maison",
+        "surfaceM2": 23,
+        "isVefa": false
+      }
+    ]
+  },
+  "480dcd3e5c45": {
+    "id": "480dcd3e5c45",
+    "label": "1498 RTE DU MONT ROTI, Les Loges",
+    "lat": 49.685968,
+    "lng": 0.314462,
+    "transactions": [
+      {
+        "date": "2022-05-16",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "6c7359ba2319": {
+    "id": "6c7359ba2319",
+    "label": "5482 HAYE DE GERVILLE, Les Loges",
+    "lat": 49.686743,
+    "lng": 0.317633,
+    "transactions": [
+      {
+        "date": "2022-07-01",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 34,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-01",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a233b834f40": {
+    "id": "7a233b834f40",
+    "label": "345 RTE DE L'USINE A BALAIS, Fongueusemare",
+    "lat": 49.687333,
+    "lng": 0.310398,
+    "transactions": [
+      {
+        "date": "2023-01-13",
+        "priceEur": 86000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "217b516cf78b": {
+    "id": "217b516cf78b",
+    "label": "1136 LE MONT ROTI, Les Loges",
+    "lat": 49.688365,
+    "lng": 0.312966,
+    "transactions": [
+      {
+        "date": "2023-08-22",
+        "priceEur": 113500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "d0b98a150e94": {
+    "id": "d0b98a150e94",
+    "label": "221 RTE DE L'USINE A BALAIS, Fongueusemare",
+    "lat": 49.686985,
+    "lng": 0.311316,
+    "transactions": [
+      {
+        "date": "2024-04-12",
+        "priceEur": 104000,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "bc7ea0cd9274": {
+    "id": "bc7ea0cd9274",
+    "label": "8 RES DU PARC, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.290837,
+    "lng": 1.05026,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8d324bc0429": {
+    "id": "e8d324bc0429",
+    "label": "2 RES DU PARC, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.291405,
+    "lng": 1.049955,
+    "transactions": [
+      {
+        "date": "2020-12-07",
+        "priceEur": 172500,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "8832aee57a30": {
+    "id": "8832aee57a30",
+    "label": "19 CHE DU HALAGE, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.295537,
+    "lng": 1.049375,
+    "transactions": [
+      {
+        "date": "2023-06-06",
+        "priceEur": 55000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 88,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-04",
+        "priceEur": 93000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c78519bfdea": {
+    "id": "8c78519bfdea",
+    "label": "1 RES DU PARC, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.291242,
+    "lng": 1.049468,
+    "transactions": [
+      {
+        "date": "2023-02-17",
+        "priceEur": 154800,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "a295c7ef37ff": {
+    "id": "a295c7ef37ff",
+    "label": "1120 RUE AUX THUILLIERS, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.289521,
+    "lng": 1.046962,
+    "transactions": [
+      {
+        "date": "2024-03-05",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5672ce26e27": {
+    "id": "a5672ce26e27",
+    "label": "9 RES DU PARC, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.290568,
+    "lng": 1.04993,
+    "transactions": [
+      {
+        "date": "2024-02-20",
+        "priceEur": 236000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "2bdb57bfa5be": {
+    "id": "2bdb57bfa5be",
+    "label": "10 RES DU PARC, Saint-Pierre-lès-Elbeuf",
+    "lat": 49.290652,
+    "lng": 1.05023,
+    "transactions": [
+      {
+        "date": "2024-11-21",
+        "priceEur": 271150,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  }
+}

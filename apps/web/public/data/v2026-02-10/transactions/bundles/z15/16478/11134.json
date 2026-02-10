@@ -1,0 +1,92 @@
+{
+  "0b2d6f16e8a4": {
+    "id": "0b2d6f16e8a4",
+    "label": "3 RUE FRANCOIS BONNAVENTURE, Colmesnil-Manneville",
+    "lat": 49.849644,
+    "lng": 1.032753,
+    "transactions": [
+      {
+        "date": "2020-09-18",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "e311088d7a8d": {
+    "id": "e311088d7a8d",
+    "label": "1 RUE SAINT GEORGES, Colmesnil-Manneville",
+    "lat": 49.850221,
+    "lng": 1.034172,
+    "transactions": [
+      {
+        "date": "2021-12-08",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 214,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e058d179edf": {
+    "id": "1e058d179edf",
+    "label": "22 RUE DE KOLI, Colmesnil-Manneville",
+    "lat": 49.846942,
+    "lng": 1.03469,
+    "transactions": [
+      {
+        "date": "2022-04-27",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a0db1ec8d32": {
+    "id": "1a0db1ec8d32",
+    "label": "3 RUE SAINT GEORGES, Colmesnil-Manneville",
+    "lat": 49.849982,
+    "lng": 1.033846,
+    "transactions": [
+      {
+        "date": "2023-06-22",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "38f343843faa": {
+    "id": "38f343843faa",
+    "label": "4 RUE DE KOLI, Colmesnil-Manneville",
+    "lat": 49.849731,
+    "lng": 1.034786,
+    "transactions": [
+      {
+        "date": "2023-12-28",
+        "priceEur": 242000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c2200fbbc19": {
+    "id": "8c2200fbbc19",
+    "label": "3 IMP DES TELLIERS, Colmesnil-Manneville",
+    "lat": 49.849824,
+    "lng": 1.036076,
+    "transactions": [
+      {
+        "date": "2024-07-24",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

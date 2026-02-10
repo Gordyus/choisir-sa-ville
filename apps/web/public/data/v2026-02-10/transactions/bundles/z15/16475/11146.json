@@ -1,0 +1,54 @@
+{
+  "875e292545e4": {
+    "id": "875e292545e4",
+    "label": "21 RTE DE LA VIENNE, Saint-Mards",
+    "lat": 49.760859,
+    "lng": 1.008983,
+    "transactions": [
+      {
+        "date": "2023-07-05",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-12",
+        "priceEur": 21500,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9df5abc0ec6": {
+    "id": "f9df5abc0ec6",
+    "label": "19 RTE DE LA VIENNE, Saint-Mards",
+    "lat": 49.760805,
+    "lng": 1.009204,
+    "transactions": [
+      {
+        "date": "2023-09-07",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "2deada282f92": {
+    "id": "2deada282f92",
+    "label": "6 IMP DU MOULIN, Saint-Mards",
+    "lat": 49.766615,
+    "lng": 1.008412,
+    "transactions": [
+      {
+        "date": "2024-12-26",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  }
+}

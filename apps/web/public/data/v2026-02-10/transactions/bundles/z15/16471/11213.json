@@ -1,0 +1,144 @@
+{
+  "211c2b4fb54e": {
+    "id": "211c2b4fb54e",
+    "label": "9011 LA SOUCHE, Elbeuf",
+    "lat": 49.288949,
+    "lng": 0.957845,
+    "transactions": [
+      {
+        "date": "2020-07-21",
+        "priceEur": 121000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-21",
+        "priceEur": 36727,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "c128bc80f0d8": {
+    "id": "c128bc80f0d8",
+    "label": "516 RTE DU MONT COQUET, Elbeuf",
+    "lat": 49.283749,
+    "lng": 0.958118,
+    "transactions": [
+      {
+        "date": "2020-12-08",
+        "priceEur": 156500,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "c406b802400e": {
+    "id": "c406b802400e",
+    "label": "37 LES ECAMEAUX, Elbeuf",
+    "lat": 49.284377,
+    "lng": 0.957089,
+    "transactions": [
+      {
+        "date": "2021-02-03",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "b398b0208736": {
+    "id": "b398b0208736",
+    "label": "1367 RTE DU MONT COQUET, Elbeuf",
+    "lat": 49.285796,
+    "lng": 0.966511,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 146500,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "47543a6a368f": {
+    "id": "47543a6a368f",
+    "label": "1013 AV DE LA CHOUQUE, Elbeuf",
+    "lat": 49.289239,
+    "lng": 0.966259,
+    "transactions": [
+      {
+        "date": "2022-06-08",
+        "priceEur": 204500,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "edc4c5f4ebab": {
+    "id": "edc4c5f4ebab",
+    "label": "9025 LES ECAMEAUX, Elbeuf",
+    "lat": 49.284624,
+    "lng": 0.957547,
+    "transactions": [
+      {
+        "date": "2022-10-12",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "0daa3701fb5f": {
+    "id": "0daa3701fb5f",
+    "label": "549 RTE DU MONT COQUET, Elbeuf",
+    "lat": 49.283387,
+    "lng": 0.959293,
+    "transactions": [
+      {
+        "date": "2024-02-09",
+        "priceEur": 277400,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "1df007c0ba91": {
+    "id": "1df007c0ba91",
+    "label": "526 RTE DU MONT COQUET, Elbeuf",
+    "lat": 49.283784,
+    "lng": 0.958201,
+    "transactions": [
+      {
+        "date": "2024-11-06",
+        "priceEur": 132000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "84558fc47c49": {
+    "id": "84558fc47c49",
+    "label": "546 RTE DU MONT COQUET, Elbeuf",
+    "lat": 49.283927,
+    "lng": 0.958194,
+    "transactions": [
+      {
+        "date": "2025-04-04",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

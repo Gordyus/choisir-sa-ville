@@ -1,0 +1,32 @@
+{
+  "bebdd6b8fc18": {
+    "id": "bebdd6b8fc18",
+    "label": "479 RUE DU MONT GRARD, Sigy-en-Bray",
+    "lat": 49.53779,
+    "lng": 1.460939,
+    "transactions": [
+      {
+        "date": "2020-09-02",
+        "priceEur": 121000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ac8dc8b9380": {
+    "id": "1ac8dc8b9380",
+    "label": "465 RUE DU MONT GRARD, Sigy-en-Bray",
+    "lat": 49.537408,
+    "lng": 1.460659,
+    "transactions": [
+      {
+        "date": "2022-07-12",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  }
+}

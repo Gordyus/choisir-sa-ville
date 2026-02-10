@@ -1,0 +1,61 @@
+{
+  "b970029af951": {
+    "id": "b970029af951",
+    "label": "3 RUE LEON PODEVIN, Hallennes-lez-Haubourdin",
+    "lat": 50.623396,
+    "lng": 2.952166,
+    "transactions": [
+      {
+        "date": "2024-09-05",
+        "priceEur": 1632000,
+        "typeLocal": "Maison",
+        "surfaceM2": 340,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-10",
+        "priceEur": 724800,
+        "typeLocal": "Maison",
+        "surfaceM2": 340,
+        "isVefa": false
+      }
+    ]
+  },
+  "872264a02c99": {
+    "id": "872264a02c99",
+    "label": "24 RTE DE FOURNES, Englos",
+    "lat": 50.623309,
+    "lng": 2.954618,
+    "transactions": [
+      {
+        "date": "2021-12-30",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-12",
+        "priceEur": 184000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "ce0b6a67599d": {
+    "id": "ce0b6a67599d",
+    "label": "5080 RUE LEON PODEVIN, Hallennes-lez-Haubourdin",
+    "lat": 50.621354,
+    "lng": 2.948513,
+    "transactions": [
+      {
+        "date": "2021-08-27",
+        "priceEur": 800000,
+        "typeLocal": "Maison",
+        "surfaceM2": 236,
+        "isVefa": false
+      }
+    ]
+  }
+}

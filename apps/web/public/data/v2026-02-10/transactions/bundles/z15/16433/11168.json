@@ -1,0 +1,53 @@
+{
+  "1741a14c4ffd": {
+    "id": "1741a14c4ffd",
+    "label": "340 RTE DU CLOS MASURE, Bolleville",
+    "lat": 49.610264,
+    "lng": 0.548589,
+    "transactions": [
+      {
+        "date": "2022-12-30",
+        "priceEur": 383000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-30",
+        "priceEur": 383000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-30",
+        "priceEur": 383000,
+        "typeLocal": "Maison",
+        "surfaceM2": 360,
+        "isVefa": false
+      }
+    ]
+  },
+  "16c5c246dd54": {
+    "id": "16c5c246dd54",
+    "label": "460 RTE DU CLOS MASURE, Bolleville",
+    "lat": 49.609752,
+    "lng": 0.546812,
+    "transactions": [
+      {
+        "date": "2024-04-11",
+        "priceEur": 318000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-11",
+        "priceEur": 318000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  }
+}

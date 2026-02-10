@@ -1,0 +1,32 @@
+{
+  "2c397274be92": {
+    "id": "2c397274be92",
+    "label": "9 LE HAMEL, Vittefleur",
+    "lat": 49.808991,
+    "lng": 0.635569,
+    "transactions": [
+      {
+        "date": "2020-09-02",
+        "priceEur": 430000,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "eaa0918e8679": {
+    "id": "eaa0918e8679",
+    "label": "1A RUE DU CLOS DE LA COUTURE, Vittefleur",
+    "lat": 49.809303,
+    "lng": 0.626607,
+    "transactions": [
+      {
+        "date": "2024-04-26",
+        "priceEur": 365800,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  }
+}

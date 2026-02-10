@@ -1,0 +1,92 @@
+{
+  "d4ae164812db": {
+    "id": "d4ae164812db",
+    "label": "5118 LA MALOUETTE, Mont-Cauvaire",
+    "lat": 49.563474,
+    "lng": 1.125893,
+    "transactions": [
+      {
+        "date": "2020-09-28",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b70586c4709": {
+    "id": "9b70586c4709",
+    "label": "48 RUE DES CRESSONNIERES, Fontaine-le-Bourg",
+    "lat": 49.561594,
+    "lng": 1.125955,
+    "transactions": [
+      {
+        "date": "2020-12-07",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 167,
+        "isVefa": false
+      }
+    ]
+  },
+  "1879a47ce8d4": {
+    "id": "1879a47ce8d4",
+    "label": "5318 LA COTE DES ESSARTS, Fontaine-le-Bourg",
+    "lat": 49.564088,
+    "lng": 1.126119,
+    "transactions": [
+      {
+        "date": "2021-02-19",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "05715653b0cc": {
+    "id": "05715653b0cc",
+    "label": "5114 LA MALOUETTE, Mont-Cauvaire",
+    "lat": 49.563752,
+    "lng": 1.125172,
+    "transactions": [
+      {
+        "date": "2021-04-23",
+        "priceEur": 112400,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "5fbb8ffaceb7": {
+    "id": "5fbb8ffaceb7",
+    "label": "5116 LA MALOUETTE, Mont-Cauvaire",
+    "lat": 49.563581,
+    "lng": 1.125404,
+    "transactions": [
+      {
+        "date": "2022-01-07",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "129a0c10a073": {
+    "id": "129a0c10a073",
+    "label": "5121 LA MALOUETTE, Mont-Cauvaire",
+    "lat": 49.564191,
+    "lng": 1.125558,
+    "transactions": [
+      {
+        "date": "2023-10-06",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  }
+}

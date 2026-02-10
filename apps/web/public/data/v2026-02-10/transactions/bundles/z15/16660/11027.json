@@ -1,0 +1,482 @@
+{
+  "503490a36b3b": {
+    "id": "503490a36b3b",
+    "label": "110 RUE PAUL DOUMER, Loos",
+    "lat": 50.603894,
+    "lng": 3.041484,
+    "transactions": [
+      {
+        "date": "2021-05-07",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "c80b0ddea88f": {
+    "id": "c80b0ddea88f",
+    "label": "77 CHE DES POSTES, Loos",
+    "lat": 50.603707,
+    "lng": 3.041761,
+    "transactions": [
+      {
+        "date": "2023-09-21",
+        "priceEur": 329500,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-03",
+        "priceEur": 291500,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "afba04eec280": {
+    "id": "afba04eec280",
+    "label": "107 RUE PAUL DOUMER, Loos",
+    "lat": 50.60352,
+    "lng": 3.040504,
+    "transactions": [
+      {
+        "date": "2021-09-17",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d4d6bd7c088": {
+    "id": "6d4d6bd7c088",
+    "label": "16 PL ALBERT TACQUET, Loos",
+    "lat": 50.602787,
+    "lng": 3.039941,
+    "transactions": [
+      {
+        "date": "2025-03-25",
+        "priceEur": 63000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-02",
+        "priceEur": 59000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-19",
+        "priceEur": 59000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-25",
+        "priceEur": 55000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-13",
+        "priceEur": 61000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-28",
+        "priceEur": 71000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 18,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-14",
+        "priceEur": 93000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 21,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-06",
+        "priceEur": 69590,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-30",
+        "priceEur": 81700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-29",
+        "priceEur": 73500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-12",
+        "priceEur": 78600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-19",
+        "priceEur": 71200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-30",
+        "priceEur": 97900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 21,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-22",
+        "priceEur": 85700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-09",
+        "priceEur": 75300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-29",
+        "priceEur": 88209.5,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-21",
+        "priceEur": 85050,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-22",
+        "priceEur": 89800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-08",
+        "priceEur": 94700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 24,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-23",
+        "priceEur": 88700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-31",
+        "priceEur": 89000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-27",
+        "priceEur": 84800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-30",
+        "priceEur": 58000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-21",
+        "priceEur": 79500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-30",
+        "priceEur": 81820,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-25",
+        "priceEur": 80520,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-19",
+        "priceEur": 97900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-29",
+        "priceEur": 84700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-30",
+        "priceEur": 86753,
+        "typeLocal": "Appartement",
+        "surfaceM2": 24,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6d7114664d4": {
+    "id": "f6d7114664d4",
+    "label": "32 RUE DU CAPITAINE MICHEL, Loos",
+    "lat": 50.601336,
+    "lng": 3.041,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 1250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "c794b4f794c9": {
+    "id": "c794b4f794c9",
+    "label": "36 RUE DU CAPITAINE MICHEL, Loos",
+    "lat": 50.60135,
+    "lng": 3.041241,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 750000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "50bd1412525a": {
+    "id": "50bd1412525a",
+    "label": "38 RUE DU CAPITAINE MICHEL, Loos",
+    "lat": 50.60129,
+    "lng": 3.041372,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 650000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "bcd197d4bd9f": {
+    "id": "bcd197d4bd9f",
+    "label": "26 RUE DU CAPITAINE MICHEL, Loos",
+    "lat": 50.601194,
+    "lng": 3.040889,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "230895db57c5": {
+    "id": "230895db57c5",
+    "label": "42 RUE DU CAPITAINE MICHEL, Loos",
+    "lat": 50.601293,
+    "lng": 3.041478,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "b29c90ea249e": {
+    "id": "b29c90ea249e",
+    "label": "24 RUE DU CAPITAINE MICHEL, Loos",
+    "lat": 50.601296,
+    "lng": 3.040756,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "23e693aa311e": {
+    "id": "23e693aa311e",
+    "label": "16 RUE DU CAPITAINE MICHEL, Loos",
+    "lat": 50.601299,
+    "lng": 3.040405,
+    "transactions": [
+      {
+        "date": "2021-11-09",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "92bd82f4fe19": {
+    "id": "92bd82f4fe19",
+    "label": "22 RUE DU CAPITAINE MICHEL, Loos",
+    "lat": 50.601322,
+    "lng": 3.040657,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-14",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "de7b6c6f2f60": {
+    "id": "de7b6c6f2f60",
+    "label": "44 RUE DU CAPITAINE MICHEL, Loos",
+    "lat": 50.601181,
+    "lng": 3.041574,
+    "transactions": [
+      {
+        "date": "2022-01-31",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "fc590b32bb19": {
+    "id": "fc590b32bb19",
+    "label": "65 CHE DES POSTES, Loos",
+    "lat": 50.603417,
+    "lng": 3.041776,
+    "transactions": [
+      {
+        "date": "2022-12-22",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "8eb491e04930": {
+    "id": "8eb491e04930",
+    "label": "94 RUE PAUL DOUMER, Loos",
+    "lat": 50.603399,
+    "lng": 3.041105,
+    "transactions": [
+      {
+        "date": "2023-06-08",
+        "priceEur": 520000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "49ced27024ee": {
+    "id": "49ced27024ee",
+    "label": "88 RUE PAUL DOUMER, Loos",
+    "lat": 50.603258,
+    "lng": 3.040965,
+    "transactions": [
+      {
+        "date": "2023-06-14",
+        "priceEur": 322000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "16a13534a438": {
+    "id": "16a13534a438",
+    "label": "61 CHE DES POSTES, Loos",
+    "lat": 50.603302,
+    "lng": 3.041699,
+    "transactions": [
+      {
+        "date": "2023-06-20",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea13ce160767": {
+    "id": "ea13ce160767",
+    "label": "44 CHE DES POSTES, Loos",
+    "lat": 50.602811,
+    "lng": 3.041843,
+    "transactions": [
+      {
+        "date": "2024-03-06",
+        "priceEur": 226400,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

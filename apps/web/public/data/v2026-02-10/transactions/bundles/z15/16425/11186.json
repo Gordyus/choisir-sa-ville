@@ -1,0 +1,69 @@
+{
+  "7b30378efb45": {
+    "id": "7b30378efb45",
+    "label": "5336 LE PORT, Tancarville",
+    "lat": 49.476352,
+    "lng": 0.455596,
+    "transactions": [
+      {
+        "date": "2022-07-12",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "d31da7319fed": {
+    "id": "d31da7319fed",
+    "label": "9 RUE DU NAIS, Tancarville",
+    "lat": 49.47643,
+    "lng": 0.459168,
+    "transactions": [
+      {
+        "date": "2023-01-24",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "80468d7539ee": {
+    "id": "80468d7539ee",
+    "label": "5 RTE DU HAVRE, Tancarville",
+    "lat": 49.475935,
+    "lng": 0.458303,
+    "transactions": [
+      {
+        "date": "2023-10-13",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c2718156435": {
+    "id": "0c2718156435",
+    "label": "4 CHE DES TORPILLEURS, Tancarville",
+    "lat": 49.475568,
+    "lng": 0.455683,
+    "transactions": [
+      {
+        "date": "2025-02-24",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 18,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-24",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  }
+}

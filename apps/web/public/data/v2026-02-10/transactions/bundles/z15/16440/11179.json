@@ -1,0 +1,32 @@
+{
+  "b7af7760fb9b": {
+    "id": "b7af7760fb9b",
+    "label": "144 RTE DE L ABBAYE, Port-Jérôme-sur-Seine",
+    "lat": 49.528737,
+    "lng": 0.620228,
+    "transactions": [
+      {
+        "date": "2021-06-21",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "0bfa1abba57e": {
+    "id": "0bfa1abba57e",
+    "label": "7 RUE SAINT AMATOR, Port-Jérôme-sur-Seine",
+    "lat": 49.530776,
+    "lng": 0.616575,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  }
+}

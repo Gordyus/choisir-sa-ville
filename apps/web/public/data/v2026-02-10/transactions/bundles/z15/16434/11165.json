@@ -1,0 +1,47 @@
+{
+  "49e88abfd3a9": {
+    "id": "49e88abfd3a9",
+    "label": "1347 RTE DE LA PLAINE, Yébleron",
+    "lat": 49.62895,
+    "lng": 0.558064,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2509ba55032": {
+    "id": "e2509ba55032",
+    "label": "111 IMP ELU, Yébleron",
+    "lat": 49.630342,
+    "lng": 0.557865,
+    "transactions": [
+      {
+        "date": "2024-05-24",
+        "priceEur": 244000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4f26f34b410": {
+    "id": "f4f26f34b410",
+    "label": "1355 RTE DE LA PLAINE, Yébleron",
+    "lat": 49.628199,
+    "lng": 0.558467,
+    "transactions": [
+      {
+        "date": "2024-09-25",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

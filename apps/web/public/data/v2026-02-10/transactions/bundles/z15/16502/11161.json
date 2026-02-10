@@ -1,0 +1,107 @@
+{
+  "92100a255b6d": {
+    "id": "92100a255b6d",
+    "label": "5144A BREQUIGNY, Saint-Martin-Osmonville",
+    "lat": 49.654318,
+    "lng": 1.306633,
+    "transactions": [
+      {
+        "date": "2020-07-24",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e90913f2f19": {
+    "id": "8e90913f2f19",
+    "label": "5280 BREQUIGNY, Saint-Martin-Osmonville",
+    "lat": 49.653636,
+    "lng": 1.303718,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 238000,
+        "typeLocal": "Maison",
+        "surfaceM2": 176,
+        "isVefa": false
+      }
+    ]
+  },
+  "43acb38f9f36": {
+    "id": "43acb38f9f36",
+    "label": "5149 BREQUIGNY, Saint-Martin-Osmonville",
+    "lat": 49.654335,
+    "lng": 1.303961,
+    "transactions": [
+      {
+        "date": "2021-02-08",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7c371152705": {
+    "id": "c7c371152705",
+    "label": "5289 BREQUIGNY, Saint-Martin-Osmonville",
+    "lat": 49.654149,
+    "lng": 1.306986,
+    "transactions": [
+      {
+        "date": "2021-02-19",
+        "priceEur": 146000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "81e8430346c6": {
+    "id": "81e8430346c6",
+    "label": "688 BREQUIGNY, Saint-Martin-Osmonville",
+    "lat": 49.654221,
+    "lng": 1.302559,
+    "transactions": [
+      {
+        "date": "2023-07-12",
+        "priceEur": 234500,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "1097c5eae7a9": {
+    "id": "1097c5eae7a9",
+    "label": "5148 BREQUIGNY, Saint-Martin-Osmonville",
+    "lat": 49.65369,
+    "lng": 1.303281,
+    "transactions": [
+      {
+        "date": "2024-07-11",
+        "priceEur": 118850,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "8fa8afe34eda": {
+    "id": "8fa8afe34eda",
+    "label": "434 RTE DU PONT DU THIL, Saint-Martin-Osmonville",
+    "lat": 49.65411,
+    "lng": 1.305987,
+    "transactions": [
+      {
+        "date": "2024-11-25",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  }
+}

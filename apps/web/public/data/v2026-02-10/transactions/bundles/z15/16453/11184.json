@@ -1,0 +1,92 @@
+{
+  "355796286948": {
+    "id": "355796286948",
+    "label": "42 RUE DU PETIT PONT, Notre-Dame-de-Bliquetuit",
+    "lat": 49.494516,
+    "lng": 0.763448,
+    "transactions": [
+      {
+        "date": "2021-03-18",
+        "priceEur": 123000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "83c668aa032d": {
+    "id": "83c668aa032d",
+    "label": "67 RUE DU PETIT VILLAGE, Notre-Dame-de-Bliquetuit",
+    "lat": 49.493917,
+    "lng": 0.765297,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 167300,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "07833f4f4316": {
+    "id": "07833f4f4316",
+    "label": "69 CHE DU CALVAIRE, Notre-Dame-de-Bliquetuit",
+    "lat": 49.492521,
+    "lng": 0.766013,
+    "transactions": [
+      {
+        "date": "2022-01-20",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae0dcd5b736f": {
+    "id": "ae0dcd5b736f",
+    "label": "18 RUE DU PETIT PONT, Notre-Dame-de-Bliquetuit",
+    "lat": 49.494437,
+    "lng": 0.763589,
+    "transactions": [
+      {
+        "date": "2023-10-10",
+        "priceEur": 167900,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c0797ec5041": {
+    "id": "0c0797ec5041",
+    "label": "290 RUE DU PETIT PONT, Notre-Dame-de-Bliquetuit",
+    "lat": 49.496357,
+    "lng": 0.760793,
+    "transactions": [
+      {
+        "date": "2024-06-20",
+        "priceEur": 208200,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0af83fe7d3b": {
+    "id": "a0af83fe7d3b",
+    "label": "58 SEN DE L EGLISE, Notre-Dame-de-Bliquetuit",
+    "lat": 49.493166,
+    "lng": 0.76287,
+    "transactions": [
+      {
+        "date": "2025-03-27",
+        "priceEur": 156655,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

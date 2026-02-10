@@ -1,0 +1,39 @@
+{
+  "047278dd008f": {
+    "id": "047278dd008f",
+    "label": "422 RTE DE CASSEL, Winnezeele",
+    "lat": 50.837421,
+    "lng": 2.547271,
+    "transactions": [
+      {
+        "date": "2023-08-08",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-24",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "463a65e8b00b": {
+    "id": "463a65e8b00b",
+    "label": "48 IMP DU TEMPLE HOUCK, Winnezeele",
+    "lat": 50.833704,
+    "lng": 2.539612,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 267100,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  }
+}

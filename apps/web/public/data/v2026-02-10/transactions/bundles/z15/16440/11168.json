@@ -1,0 +1,62 @@
+{
+  "15301f8f3a61": {
+    "id": "15301f8f3a61",
+    "label": "18 RUE DES AUBEPINES, Alvimare",
+    "lat": 49.606416,
+    "lng": 0.625027,
+    "transactions": [
+      {
+        "date": "2022-04-19",
+        "priceEur": 236600,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "61044de5fe74": {
+    "id": "61044de5fe74",
+    "label": "6 RUE DES AUBEPINES, Alvimare",
+    "lat": 49.606835,
+    "lng": 0.625817,
+    "transactions": [
+      {
+        "date": "2023-09-28",
+        "priceEur": 216500,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "de1b949cb192": {
+    "id": "de1b949cb192",
+    "label": "29 RUE DES CHARMES, Alvimare",
+    "lat": 49.606047,
+    "lng": 0.625754,
+    "transactions": [
+      {
+        "date": "2024-07-22",
+        "priceEur": 207200,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa412887469d": {
+    "id": "fa412887469d",
+    "label": "17 RUE DES AUBEPINES, Alvimare",
+    "lat": 49.606021,
+    "lng": 0.625183,
+    "transactions": [
+      {
+        "date": "2024-08-27",
+        "priceEur": 50102.19,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  }
+}

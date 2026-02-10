@@ -1,0 +1,32 @@
+{
+  "68e614aca473": {
+    "id": "68e614aca473",
+    "label": "81 RUE DES TAILLIS, Étoutteville",
+    "lat": 49.663148,
+    "lng": 0.788715,
+    "transactions": [
+      {
+        "date": "2024-07-26",
+        "priceEur": 197000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e7fe7cbb20e": {
+    "id": "6e7fe7cbb20e",
+    "label": "481 RTE D YVETOT, Étoutteville",
+    "lat": 49.663027,
+    "lng": 0.785544,
+    "transactions": [
+      {
+        "date": "2025-02-07",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  }
+}

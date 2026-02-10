@@ -1,0 +1,62 @@
+{
+  "b101be92b370": {
+    "id": "b101be92b370",
+    "label": "5013 LE BOURG, Vénestanville",
+    "lat": 49.795223,
+    "lng": 0.897615,
+    "transactions": [
+      {
+        "date": "2020-11-05",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "177a704f521a": {
+    "id": "177a704f521a",
+    "label": "12 RUE DU DUN, Vénestanville",
+    "lat": 49.794866,
+    "lng": 0.89711,
+    "transactions": [
+      {
+        "date": "2021-10-28",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d11dce2387d": {
+    "id": "9d11dce2387d",
+    "label": "17 RUE DU DUN, Vénestanville",
+    "lat": 49.794019,
+    "lng": 0.895633,
+    "transactions": [
+      {
+        "date": "2022-08-30",
+        "priceEur": 256600,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "4fa78b199661": {
+    "id": "4fa78b199661",
+    "label": "22 RUE DU DUN, Vénestanville",
+    "lat": 49.794697,
+    "lng": 0.893329,
+    "transactions": [
+      {
+        "date": "2023-05-22",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  }
+}

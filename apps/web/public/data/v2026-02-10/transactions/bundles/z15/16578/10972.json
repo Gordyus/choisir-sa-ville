@@ -1,0 +1,167 @@
+{
+  "9a9fadb42486": {
+    "id": "9a9fadb42486",
+    "label": "14 RUE DU PONT DE PIERRE, Gravelines",
+    "lat": 50.983321,
+    "lng": 2.136154,
+    "transactions": [
+      {
+        "date": "2020-10-26",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d57647f45fc": {
+    "id": "9d57647f45fc",
+    "label": "458 RUE DES ANC COMBATTANTS D'AFN, Gravelines",
+    "lat": 50.984183,
+    "lng": 2.14131,
+    "transactions": [
+      {
+        "date": "2021-05-03",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 157,
+        "isVefa": false
+      }
+    ]
+  },
+  "77e29fccb034": {
+    "id": "77e29fccb034",
+    "label": "3 SQ DE LORRAINE, Gravelines",
+    "lat": 50.984728,
+    "lng": 2.136495,
+    "transactions": [
+      {
+        "date": "2021-07-20",
+        "priceEur": 239655,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "d09cb5d21168": {
+    "id": "d09cb5d21168",
+    "label": "1 RUE D AQUITAINE, Gravelines",
+    "lat": 50.984074,
+    "lng": 2.136557,
+    "transactions": [
+      {
+        "date": "2021-08-18",
+        "priceEur": 265300,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c6360a9e84b": {
+    "id": "9c6360a9e84b",
+    "label": "51 RUE DU MOULIN HAUT, Gravelines",
+    "lat": 50.985381,
+    "lng": 2.140205,
+    "transactions": [
+      {
+        "date": "2021-09-15",
+        "priceEur": 211400,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "d182ba158a1e": {
+    "id": "d182ba158a1e",
+    "label": "11 RUE DES JARDINS, Gravelines",
+    "lat": 50.984094,
+    "lng": 2.133533,
+    "transactions": [
+      {
+        "date": "2022-02-10",
+        "priceEur": 274000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f6d38e4bc76": {
+    "id": "3f6d38e4bc76",
+    "label": "14B RUE DU PONT DE PIERRE, Gravelines",
+    "lat": 50.98322,
+    "lng": 2.13648,
+    "transactions": [
+      {
+        "date": "2022-02-21",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "73ff65f6128a": {
+    "id": "73ff65f6128a",
+    "label": "49 RUE DU MOULIN HAUT, Gravelines",
+    "lat": 50.985304,
+    "lng": 2.140146,
+    "transactions": [
+      {
+        "date": "2022-04-13",
+        "priceEur": 205700,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "7401b78a8bd6": {
+    "id": "7401b78a8bd6",
+    "label": "18 RUE DU PONT DE PIERRE, Gravelines",
+    "lat": 50.982586,
+    "lng": 2.140079,
+    "transactions": [
+      {
+        "date": "2022-11-07",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "30a5b91bb070": {
+    "id": "30a5b91bb070",
+    "label": "8 IMP DU CHATEAU D EAU, Gravelines",
+    "lat": 50.98189,
+    "lng": 2.136082,
+    "transactions": [
+      {
+        "date": "2024-05-15",
+        "priceEur": 495000,
+        "typeLocal": "Maison",
+        "surfaceM2": 185,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3bfa2b0b991": {
+    "id": "a3bfa2b0b991",
+    "label": "234 RUE DES ANC COMBATTANTS D'AFN, Gravelines",
+    "lat": 50.985801,
+    "lng": 2.141831,
+    "transactions": [
+      {
+        "date": "2025-02-12",
+        "priceEur": 323000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  }
+}

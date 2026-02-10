@@ -1,0 +1,77 @@
+{
+  "3a5276cf6be5": {
+    "id": "3a5276cf6be5",
+    "label": "590 RUE DES LONGS CHAMPS, Bailleul",
+    "lat": 50.691218,
+    "lng": 2.713046,
+    "transactions": [
+      {
+        "date": "2020-10-21",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "c69488fa9f3c": {
+    "id": "c69488fa9f3c",
+    "label": "909 RUE LOUF, Le Doulieu",
+    "lat": 50.689737,
+    "lng": 2.713069,
+    "transactions": [
+      {
+        "date": "2020-11-03",
+        "priceEur": 344800,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a84b1801011": {
+    "id": "2a84b1801011",
+    "label": "795 RUE DES LONGS CHAMPS, Le Doulieu",
+    "lat": 50.689874,
+    "lng": 2.710409,
+    "transactions": [
+      {
+        "date": "2021-05-10",
+        "priceEur": 450000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "1df806f170d1": {
+    "id": "1df806f170d1",
+    "label": "671 RUE DES LONGS CHAMPS, Le Doulieu",
+    "lat": 50.69045,
+    "lng": 2.7121,
+    "transactions": [
+      {
+        "date": "2023-12-12",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 291,
+        "isVefa": false
+      }
+    ]
+  },
+  "436be7159abd": {
+    "id": "436be7159abd",
+    "label": "1191 RUE DES LONGS CHAMPS, Le Doulieu",
+    "lat": 50.690179,
+    "lng": 2.704786,
+    "transactions": [
+      {
+        "date": "2025-05-14",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

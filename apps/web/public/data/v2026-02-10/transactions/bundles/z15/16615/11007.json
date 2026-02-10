@@ -1,0 +1,92 @@
+{
+  "eca1aa401746": {
+    "id": "eca1aa401746",
+    "label": "8 RUE DU 11 NOVEMBRE 1918, Hazebrouck",
+    "lat": 50.73657,
+    "lng": 2.542686,
+    "transactions": [
+      {
+        "date": "2020-12-09",
+        "priceEur": 371600,
+        "typeLocal": "Maison",
+        "surfaceM2": 206,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9d5b3f7001c": {
+    "id": "a9d5b3f7001c",
+    "label": "1 RUE DE LA LIBERATION, Hazebrouck",
+    "lat": 50.73777,
+    "lng": 2.544672,
+    "transactions": [
+      {
+        "date": "2021-09-27",
+        "priceEur": 355280,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ec6cf4d9427": {
+    "id": "6ec6cf4d9427",
+    "label": "19 RUE REINE FELICITEE SCHOONAERT, Hazebrouck",
+    "lat": 50.736508,
+    "lng": 2.547152,
+    "transactions": [
+      {
+        "date": "2022-09-28",
+        "priceEur": 395100,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "01c54ff34f19": {
+    "id": "01c54ff34f19",
+    "label": "17 RUE PICASSO, Hazebrouck",
+    "lat": 50.736462,
+    "lng": 2.540994,
+    "transactions": [
+      {
+        "date": "2023-07-21",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6188eeb0d11": {
+    "id": "c6188eeb0d11",
+    "label": "5 RUE DU 11 NOVEMBRE 1918, Hazebrouck",
+    "lat": 50.736723,
+    "lng": 2.542133,
+    "transactions": [
+      {
+        "date": "2024-04-26",
+        "priceEur": 52000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa0e4c8547a1": {
+    "id": "aa0e4c8547a1",
+    "label": "16 RUE DES MIMOSAS, Hazebrouck",
+    "lat": 50.738307,
+    "lng": 2.538217,
+    "transactions": [
+      {
+        "date": "2024-10-11",
+        "priceEur": 306700,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  }
+}

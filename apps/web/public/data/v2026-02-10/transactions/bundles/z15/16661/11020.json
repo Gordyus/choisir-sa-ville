@@ -1,0 +1,1916 @@
+{
+  "90d3930a5a83": {
+    "id": "90d3930a5a83",
+    "label": "27 RUE FAIDHERBE, Saint-André-lez-Lille",
+    "lat": 50.652684,
+    "lng": 3.05113,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 288000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-10",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "b16e19e2d394": {
+    "id": "b16e19e2d394",
+    "label": "59 RUE DE LA GARE, Saint-André-lez-Lille",
+    "lat": 50.6528,
+    "lng": 3.048818,
+    "transactions": [
+      {
+        "date": "2021-12-30",
+        "priceEur": 260000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-24",
+        "priceEur": 265000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": true
+      },
+      {
+        "date": "2020-08-25",
+        "priceEur": 258000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": true
+      },
+      {
+        "date": "2020-08-03",
+        "priceEur": 261000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": true
+      },
+      {
+        "date": "2020-07-24",
+        "priceEur": 253000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": true
+      },
+      {
+        "date": "2020-07-09",
+        "priceEur": 242000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": true
+      },
+      {
+        "date": "2020-07-02",
+        "priceEur": 235000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 69,
+        "isVefa": true
+      }
+    ]
+  },
+  "7eab28df60b9": {
+    "id": "7eab28df60b9",
+    "label": "44 RUE BENVIGNAT, Lille",
+    "lat": 50.646097,
+    "lng": 3.051838,
+    "transactions": [
+      {
+        "date": "2022-04-15",
+        "priceEur": 275000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-09",
+        "priceEur": 221500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-03",
+        "priceEur": 246500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-28",
+        "priceEur": 157750,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-16",
+        "priceEur": 231000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "9cd364fd247d": {
+    "id": "9cd364fd247d",
+    "label": "161 RUE SAINT ANDRE, Lille",
+    "lat": 50.646306,
+    "lng": 3.054019,
+    "transactions": [
+      {
+        "date": "2024-05-06",
+        "priceEur": 78000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-07",
+        "priceEur": 240000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-03",
+        "priceEur": 765000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-03",
+        "priceEur": 765000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-03",
+        "priceEur": 765000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-03",
+        "priceEur": 765000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-03",
+        "priceEur": 765000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "971054e2ad3b": {
+    "id": "971054e2ad3b",
+    "label": "159 RUE SAINT ANDRE, Lille",
+    "lat": 50.646306,
+    "lng": 3.054111,
+    "transactions": [
+      {
+        "date": "2020-07-03",
+        "priceEur": 765000,
+        "typeLocal": "Maison",
+        "surfaceM2": 16,
+        "isVefa": false
+      }
+    ]
+  },
+  "f04a5a62339c": {
+    "id": "f04a5a62339c",
+    "label": "133 RUE ROYALE, Lille",
+    "lat": 50.646106,
+    "lng": 3.053019,
+    "transactions": [
+      {
+        "date": "2025-05-12",
+        "priceEur": 310000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-14",
+        "priceEur": 460000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 122,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-19",
+        "priceEur": 234738,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-18",
+        "priceEur": 289900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-14",
+        "priceEur": 317000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-29",
+        "priceEur": 285000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-28",
+        "priceEur": 146000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 27,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-04",
+        "priceEur": 275000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-14",
+        "priceEur": 198000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-11",
+        "priceEur": 272000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-30",
+        "priceEur": 232000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-28",
+        "priceEur": 294750,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-08",
+        "priceEur": 540000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 147,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-08",
+        "priceEur": 216000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-03",
+        "priceEur": 138000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 27,
+        "isVefa": false
+      }
+    ]
+  },
+  "a49653f21d46": {
+    "id": "a49653f21d46",
+    "label": "39 RUE CHARLEMAGNE BROUTIN, Saint-André-lez-Lille",
+    "lat": 50.651479,
+    "lng": 3.047238,
+    "transactions": [
+      {
+        "date": "2020-09-25",
+        "priceEur": 395500,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "1990feeda0c8": {
+    "id": "1990feeda0c8",
+    "label": "18 RUE CHARLEMAGNE BROUTIN, Saint-André-lez-Lille",
+    "lat": 50.651752,
+    "lng": 3.04564,
+    "transactions": [
+      {
+        "date": "2020-10-03",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "610e085acc8d": {
+    "id": "610e085acc8d",
+    "label": "3 PL SAINT ANDRE, Lille",
+    "lat": 50.646075,
+    "lng": 3.052766,
+    "transactions": [
+      {
+        "date": "2023-01-23",
+        "priceEur": 302000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-15",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-02",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "796409024cad": {
+    "id": "796409024cad",
+    "label": "9 RUE FAIDHERBE, Saint-André-lez-Lille",
+    "lat": 50.652704,
+    "lng": 3.051984,
+    "transactions": [
+      {
+        "date": "2020-10-02",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "d97579fe4ca8": {
+    "id": "d97579fe4ca8",
+    "label": "35 RUE MARCEL ET JEAN CALOONE, Lambersart",
+    "lat": 50.650141,
+    "lng": 3.044103,
+    "transactions": [
+      {
+        "date": "2020-11-26",
+        "priceEur": 272200,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4da0864b48e": {
+    "id": "b4da0864b48e",
+    "label": "7 RUE DU DOCTEUR CORNILLEAU, Saint-André-lez-Lille",
+    "lat": 50.65246,
+    "lng": 3.046083,
+    "transactions": [
+      {
+        "date": "2020-11-26",
+        "priceEur": 247000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "8aa9673d88ef": {
+    "id": "8aa9673d88ef",
+    "label": "4 RUE JEAN MERMOZ, Saint-André-lez-Lille",
+    "lat": 50.651831,
+    "lng": 3.045022,
+    "transactions": [
+      {
+        "date": "2020-12-30",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b5969f4f1dc": {
+    "id": "5b5969f4f1dc",
+    "label": "8 IMP SAINT RUTH, Lille",
+    "lat": 50.646933,
+    "lng": 3.054068,
+    "transactions": [
+      {
+        "date": "2022-08-03",
+        "priceEur": 136500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-08",
+        "priceEur": 221000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-17",
+        "priceEur": 153500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-29",
+        "priceEur": 122000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 37,
+        "isVefa": false
+      }
+    ]
+  },
+  "923a4a26bbc7": {
+    "id": "923a4a26bbc7",
+    "label": "14 RUE CHARLEMAGNE BROUTIN, Saint-André-lez-Lille",
+    "lat": 50.651812,
+    "lng": 3.045499,
+    "transactions": [
+      {
+        "date": "2021-02-15",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c32017fd2a6": {
+    "id": "9c32017fd2a6",
+    "label": "34 RUE CHARLEMAGNE BROUTIN, Saint-André-lez-Lille",
+    "lat": 50.651461,
+    "lng": 3.046285,
+    "transactions": [
+      {
+        "date": "2021-03-11",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "011e1db3e333": {
+    "id": "011e1db3e333",
+    "label": "37 RUE CHARLEMAGNE BROUTIN, Saint-André-lez-Lille",
+    "lat": 50.651512,
+    "lng": 3.047161,
+    "transactions": [
+      {
+        "date": "2021-03-08",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "769a9c26da29": {
+    "id": "769a9c26da29",
+    "label": "3 RUE FAIDHERBE, Saint-André-lez-Lille",
+    "lat": 50.652685,
+    "lng": 3.052198,
+    "transactions": [
+      {
+        "date": "2021-03-04",
+        "priceEur": 363450,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "dfe8907da5af": {
+    "id": "dfe8907da5af",
+    "label": "66 RUE OSWALD CRESPI, Lambersart",
+    "lat": 50.652575,
+    "lng": 3.044037,
+    "transactions": [
+      {
+        "date": "2021-03-29",
+        "priceEur": 386250.03,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "992f12db234d": {
+    "id": "992f12db234d",
+    "label": "4 RUE DU DOCTEUR CORNILLEAU, Saint-André-lez-Lille",
+    "lat": 50.652159,
+    "lng": 3.046331,
+    "transactions": [
+      {
+        "date": "2021-04-23",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "d51d20e622ef": {
+    "id": "d51d20e622ef",
+    "label": "2 RUE CHARLEMAGNE BROUTIN, Saint-André-lez-Lille",
+    "lat": 50.651998,
+    "lng": 3.045059,
+    "transactions": [
+      {
+        "date": "2021-05-26",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "faae05d3b900": {
+    "id": "faae05d3b900",
+    "label": "72 RUE SAINT ALBAN, Lambersart",
+    "lat": 50.650196,
+    "lng": 3.044635,
+    "transactions": [
+      {
+        "date": "2021-06-02",
+        "priceEur": 425000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "8646857d1e95": {
+    "id": "8646857d1e95",
+    "label": "30 RUE CHARLEMAGNE BROUTIN, Saint-André-lez-Lille",
+    "lat": 50.651572,
+    "lng": 3.04606,
+    "transactions": [
+      {
+        "date": "2021-06-10",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "0a9e6e2597a4": {
+    "id": "0a9e6e2597a4",
+    "label": "21 RUE SAINT ALBAN, Lambersart",
+    "lat": 50.651554,
+    "lng": 3.043431,
+    "transactions": [
+      {
+        "date": "2021-06-11",
+        "priceEur": 278000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "97dbab7b0653": {
+    "id": "97dbab7b0653",
+    "label": "7 RUE DU CHATEAU D HOUCHIN, Lambersart",
+    "lat": 50.650633,
+    "lng": 3.04565,
+    "transactions": [
+      {
+        "date": "2021-06-02",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "d202e588dab0": {
+    "id": "d202e588dab0",
+    "label": "40 RUE BENVIGNAT, Lille",
+    "lat": 50.646196,
+    "lng": 3.051953,
+    "transactions": [
+      {
+        "date": "2024-10-25",
+        "priceEur": 173375.61,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-24",
+        "priceEur": 599300,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "e939f07fab78": {
+    "id": "e939f07fab78",
+    "label": "3 RUE JEAN MERMOZ, Saint-André-lez-Lille",
+    "lat": 50.652052,
+    "lng": 3.044515,
+    "transactions": [
+      {
+        "date": "2021-06-25",
+        "priceEur": 382000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "84e4765933a2": {
+    "id": "84e4765933a2",
+    "label": "5 AV ADOLPHE MAX, Lille",
+    "lat": 50.646679,
+    "lng": 3.052266,
+    "transactions": [
+      {
+        "date": "2024-09-03",
+        "priceEur": 228000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2024-03-14",
+        "priceEur": 315000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 69,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-26",
+        "priceEur": 218300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-13",
+        "priceEur": 235000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 69,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-28",
+        "priceEur": 354000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "56c05623dbd7": {
+    "id": "56c05623dbd7",
+    "label": "6 RUE DU CHATEAU D HOUCHIN, Lambersart",
+    "lat": 50.650145,
+    "lng": 3.045726,
+    "transactions": [
+      {
+        "date": "2021-06-25",
+        "priceEur": 374920,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd5e8f8e613b": {
+    "id": "bd5e8f8e613b",
+    "label": "1 AV ADOLPHE MAX, Lille",
+    "lat": 50.646507,
+    "lng": 3.052491,
+    "transactions": [
+      {
+        "date": "2023-12-29",
+        "priceEur": 449590,
+        "typeLocal": "Appartement",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-15",
+        "priceEur": 292090,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-08",
+        "priceEur": 142150,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c381b3c4699": {
+    "id": "3c381b3c4699",
+    "label": "9 RUE MARCEL ET JEAN CALOONE, Lambersart",
+    "lat": 50.65077,
+    "lng": 3.043491,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 525000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "124abaec09fb": {
+    "id": "124abaec09fb",
+    "label": "10 RUE CHARLES PEGUY, Lambersart",
+    "lat": 50.651928,
+    "lng": 3.043841,
+    "transactions": [
+      {
+        "date": "2021-07-13",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac9b8b1df90c": {
+    "id": "ac9b8b1df90c",
+    "label": "13 RUE JEAN MERMOZ, Saint-André-lez-Lille",
+    "lat": 50.652267,
+    "lng": 3.044769,
+    "transactions": [
+      {
+        "date": "2021-07-09",
+        "priceEur": 265500,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "026b919c1c0f": {
+    "id": "026b919c1c0f",
+    "label": "42 RUE GEORGES TORCQ, Saint-André-lez-Lille",
+    "lat": 50.650788,
+    "lng": 3.045948,
+    "transactions": [
+      {
+        "date": "2025-03-12",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-03",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e18d52651e3": {
+    "id": "9e18d52651e3",
+    "label": "33 RUE SAINT ALBAN, Lambersart",
+    "lat": 50.651174,
+    "lng": 3.043875,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-03",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "44fa4515b006": {
+    "id": "44fa4515b006",
+    "label": "5 RUE CHARLEMAGNE BROUTIN, Saint-André-lez-Lille",
+    "lat": 50.652222,
+    "lng": 3.045496,
+    "transactions": [
+      {
+        "date": "2021-10-08",
+        "priceEur": 355000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d305df21739": {
+    "id": "2d305df21739",
+    "label": "44 RUE CHARLEMAGNE BROUTIN, Saint-André-lez-Lille",
+    "lat": 50.651216,
+    "lng": 3.046921,
+    "transactions": [
+      {
+        "date": "2021-10-08",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "ef8b36645680": {
+    "id": "ef8b36645680",
+    "label": "74 RUE OSWALD CRESPI, Lambersart",
+    "lat": 50.652694,
+    "lng": 3.04434,
+    "transactions": [
+      {
+        "date": "2021-11-09",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "657b58e751f1": {
+    "id": "657b58e751f1",
+    "label": "15 RUE MARCEL ET JEAN CALOONE, Lambersart",
+    "lat": 50.650684,
+    "lng": 3.043643,
+    "transactions": [
+      {
+        "date": "2021-11-12",
+        "priceEur": 520000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "90df38ea235f": {
+    "id": "90df38ea235f",
+    "label": "2 PL SAINT ANDRE, Lille",
+    "lat": 50.646154,
+    "lng": 3.053673,
+    "transactions": [
+      {
+        "date": "2021-11-09",
+        "priceEur": 180000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-09",
+        "priceEur": 180000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "fbec23260ebd": {
+    "id": "fbec23260ebd",
+    "label": "19 RUE SAINT ALBAN, Lambersart",
+    "lat": 50.651607,
+    "lng": 3.043392,
+    "transactions": [
+      {
+        "date": "2021-12-06",
+        "priceEur": 361850,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "f0c21cbceec2": {
+    "id": "f0c21cbceec2",
+    "label": "14 PL SAINT ANDRE, Lille",
+    "lat": 50.646667,
+    "lng": 3.05348,
+    "transactions": [
+      {
+        "date": "2021-12-09",
+        "priceEur": 134650,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8ee063722b9": {
+    "id": "f8ee063722b9",
+    "label": "1 RUE JEAN MERMOZ, Saint-André-lez-Lille",
+    "lat": 50.651985,
+    "lng": 3.044496,
+    "transactions": [
+      {
+        "date": "2022-02-07",
+        "priceEur": 224800,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4bf3f212e6e": {
+    "id": "b4bf3f212e6e",
+    "label": "55 RUE MARCEL ET JEAN CALOONE, Lambersart",
+    "lat": 50.649669,
+    "lng": 3.04469,
+    "transactions": [
+      {
+        "date": "2022-02-22",
+        "priceEur": 420000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "91e4b0aa911d": {
+    "id": "91e4b0aa911d",
+    "label": "16 RUE CHARLEMAGNE BROUTIN, Saint-André-lez-Lille",
+    "lat": 50.651792,
+    "lng": 3.045579,
+    "transactions": [
+      {
+        "date": "2022-03-15",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "1cd67be27348": {
+    "id": "1cd67be27348",
+    "label": "27 RUE SAINT ALBAN, Lambersart",
+    "lat": 50.651417,
+    "lng": 3.043598,
+    "transactions": [
+      {
+        "date": "2022-04-01",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "b8fcf743be8b": {
+    "id": "b8fcf743be8b",
+    "label": "2 RUE CHARLES PEGUY, Lambersart",
+    "lat": 50.652104,
+    "lng": 3.043566,
+    "transactions": [
+      {
+        "date": "2022-03-28",
+        "priceEur": 342350,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "b57c2c65551e": {
+    "id": "b57c2c65551e",
+    "label": "28 RUE MARCEL ET JEAN CALOONE, Lambersart",
+    "lat": 50.650095,
+    "lng": 3.043454,
+    "transactions": [
+      {
+        "date": "2022-04-08",
+        "priceEur": 583000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a34b61ba0b4": {
+    "id": "9a34b61ba0b4",
+    "label": "70 RUE OSWALD CRESPI, Lambersart",
+    "lat": 50.652628,
+    "lng": 3.044176,
+    "transactions": [
+      {
+        "date": "2022-04-25",
+        "priceEur": 269000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e57dbeedfb8": {
+    "id": "2e57dbeedfb8",
+    "label": "5 RUE DU REMPART, Lille",
+    "lat": 50.646636,
+    "lng": 3.053908,
+    "transactions": [
+      {
+        "date": "2022-05-12",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 27,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-12",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-12",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-12",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-12",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "45a95c47d968": {
+    "id": "45a95c47d968",
+    "label": "4 RUE CHARLES PEGUY, Lambersart",
+    "lat": 50.65206,
+    "lng": 3.043654,
+    "transactions": [
+      {
+        "date": "2022-07-23",
+        "priceEur": 436900,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "31f785444c78": {
+    "id": "31f785444c78",
+    "label": "16 AV ADOLPHE MAX, Lille",
+    "lat": 50.647013,
+    "lng": 3.052935,
+    "transactions": [
+      {
+        "date": "2022-07-19",
+        "priceEur": 270000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "3cd9187806fb": {
+    "id": "3cd9187806fb",
+    "label": "27 RUE MARCEL ET JEAN CALOONE, Lambersart",
+    "lat": 50.650291,
+    "lng": 3.043851,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 614800,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "31620096cd27": {
+    "id": "31620096cd27",
+    "label": "9 PL SAINT ANDRE, Lille",
+    "lat": 50.646308,
+    "lng": 3.052868,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 400000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "44238ef6e5a0": {
+    "id": "44238ef6e5a0",
+    "label": "76 RUE SAINT ALBAN, Lambersart",
+    "lat": 50.650075,
+    "lng": 3.044799,
+    "transactions": [
+      {
+        "date": "2022-08-26",
+        "priceEur": 477000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a646b61adc8": {
+    "id": "7a646b61adc8",
+    "label": "9 RUE DU DOCTEUR EMILE ROUX, Saint-André-lez-Lille",
+    "lat": 50.652137,
+    "lng": 3.046758,
+    "transactions": [
+      {
+        "date": "2022-08-23",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "baf70767895e": {
+    "id": "baf70767895e",
+    "label": "7 RUE DE LA PORTE D YPRES, Lille",
+    "lat": 50.647077,
+    "lng": 3.052858,
+    "transactions": [
+      {
+        "date": "2022-09-13",
+        "priceEur": 181000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "1912ae63542a": {
+    "id": "1912ae63542a",
+    "label": "4 RUE DES PRES, Lambersart",
+    "lat": 50.650794,
+    "lng": 3.045078,
+    "transactions": [
+      {
+        "date": "2022-10-18",
+        "priceEur": 442800,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "01f37fc098ee": {
+    "id": "01f37fc098ee",
+    "label": "1 RUE DE LA PORTE D YPRES, Lille",
+    "lat": 50.647148,
+    "lng": 3.053111,
+    "transactions": [
+      {
+        "date": "2022-12-12",
+        "priceEur": 365500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "9eab17719f78": {
+    "id": "9eab17719f78",
+    "label": "57 RUE SAINT ALBAN, Lambersart",
+    "lat": 50.65056,
+    "lng": 3.044908,
+    "transactions": [
+      {
+        "date": "2022-11-23",
+        "priceEur": 475000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "ddcbfa5551d2": {
+    "id": "ddcbfa5551d2",
+    "label": "27 RUE JEAN MERMOZ, Saint-André-lez-Lille",
+    "lat": 50.652585,
+    "lng": 3.045098,
+    "transactions": [
+      {
+        "date": "2022-12-15",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "13a49599acea": {
+    "id": "13a49599acea",
+    "label": "146 RUE SAINT ANDRE, Lille",
+    "lat": 50.646559,
+    "lng": 3.053886,
+    "transactions": [
+      {
+        "date": "2023-01-19",
+        "priceEur": 591000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "29b388f83a3b": {
+    "id": "29b388f83a3b",
+    "label": "6 RUE CHARLEMAGNE BROUTIN, Saint-André-lez-Lille",
+    "lat": 50.65194,
+    "lng": 3.045227,
+    "transactions": [
+      {
+        "date": "2023-01-12",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "25ac001a72c6": {
+    "id": "25ac001a72c6",
+    "label": "53 RUE MARCEL ET JEAN CALOONE, Lambersart",
+    "lat": 50.649709,
+    "lng": 3.044635,
+    "transactions": [
+      {
+        "date": "2023-01-03",
+        "priceEur": 560000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "3545ffc8f7a2": {
+    "id": "3545ffc8f7a2",
+    "label": "2 RUE DES PRES, Lambersart",
+    "lat": 50.650731,
+    "lng": 3.044997,
+    "transactions": [
+      {
+        "date": "2023-01-25",
+        "priceEur": 374760,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "70e897713fc4": {
+    "id": "70e897713fc4",
+    "label": "23 RUE FAIDHERBE, Saint-André-lez-Lille",
+    "lat": 50.652685,
+    "lng": 3.051284,
+    "transactions": [
+      {
+        "date": "2023-01-30",
+        "priceEur": 272000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "f06a4c9dbdd2": {
+    "id": "f06a4c9dbdd2",
+    "label": "20 RUE CHARLEMAGNE BROUTIN, Saint-André-lez-Lille",
+    "lat": 50.651731,
+    "lng": 3.045721,
+    "transactions": [
+      {
+        "date": "2023-02-08",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "41cd9bb01fc3": {
+    "id": "41cd9bb01fc3",
+    "label": "44 RUE GEORGES TORCQ, Saint-André-lez-Lille",
+    "lat": 50.650741,
+    "lng": 3.046017,
+    "transactions": [
+      {
+        "date": "2023-03-28",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "98317d1188a1": {
+    "id": "98317d1188a1",
+    "label": "2 RUE DU DOCTEUR CORNILLEAU, Saint-André-lez-Lille",
+    "lat": 50.652082,
+    "lng": 3.046272,
+    "transactions": [
+      {
+        "date": "2023-05-03",
+        "priceEur": 440000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c55587410ad": {
+    "id": "4c55587410ad",
+    "label": "22 RUE MARCEL ET JEAN CALOONE, Lambersart",
+    "lat": 50.65023,
+    "lng": 3.043264,
+    "transactions": [
+      {
+        "date": "2023-06-06",
+        "priceEur": 355290,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2d7f2b881b1": {
+    "id": "c2d7f2b881b1",
+    "label": "11 RUE CHARLEMAGNE BROUTIN, Saint-André-lez-Lille",
+    "lat": 50.652118,
+    "lng": 3.045741,
+    "transactions": [
+      {
+        "date": "2024-08-02",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-22",
+        "priceEur": 328000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "ce3fc1c9e884": {
+    "id": "ce3fc1c9e884",
+    "label": "10 PL SAINT ANDRE, Lille",
+    "lat": 50.646643,
+    "lng": 3.053679,
+    "transactions": [
+      {
+        "date": "2023-07-11",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      }
+    ]
+  },
+  "f43f235754bf": {
+    "id": "f43f235754bf",
+    "label": "12 AV ADOLPHE MAX, Lille",
+    "lat": 50.646929,
+    "lng": 3.053105,
+    "transactions": [
+      {
+        "date": "2023-07-06",
+        "priceEur": 330000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b5adbee1109": {
+    "id": "7b5adbee1109",
+    "label": "47 RUE SAINT ALBAN, Lambersart",
+    "lat": 50.650885,
+    "lng": 3.044442,
+    "transactions": [
+      {
+        "date": "2023-07-11",
+        "priceEur": 510350,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "1fb3d3002387": {
+    "id": "1fb3d3002387",
+    "label": "42 RUE CHARLEMAGNE BROUTIN, Saint-André-lez-Lille",
+    "lat": 50.651249,
+    "lng": 3.046816,
+    "transactions": [
+      {
+        "date": "2023-07-13",
+        "priceEur": 460500,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "6dffdab33017": {
+    "id": "6dffdab33017",
+    "label": "6 AV ADOLPHE MAX, Lille",
+    "lat": 50.646929,
+    "lng": 3.053105,
+    "transactions": [
+      {
+        "date": "2024-02-09",
+        "priceEur": 317500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-26",
+        "priceEur": 370000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ef53e46544d": {
+    "id": "6ef53e46544d",
+    "label": "8 RUE DES PRES, Lambersart",
+    "lat": 50.650856,
+    "lng": 3.045233,
+    "transactions": [
+      {
+        "date": "2023-08-28",
+        "priceEur": 475000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "6969d50e2ba7": {
+    "id": "6969d50e2ba7",
+    "label": "25 RUE FAIDHERBE, Saint-André-lez-Lille",
+    "lat": 50.652684,
+    "lng": 3.051198,
+    "transactions": [
+      {
+        "date": "2023-09-13",
+        "priceEur": 296000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e55e47bf648": {
+    "id": "4e55e47bf648",
+    "label": "2 RUE GEORGES GUYNEMER, Saint-André-lez-Lille",
+    "lat": 50.650449,
+    "lng": 3.046187,
+    "transactions": [
+      {
+        "date": "2023-12-15",
+        "priceEur": 363500,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "9200cb6a2d0f": {
+    "id": "9200cb6a2d0f",
+    "label": "144 RUE SAINT ANDRE, Lille",
+    "lat": 50.646577,
+    "lng": 3.053934,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 290000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 21,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-22",
+        "priceEur": 290000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b8abefa8536": {
+    "id": "2b8abefa8536",
+    "label": "21 RUE FAIDHERBE, Saint-André-lez-Lille",
+    "lat": 50.652686,
+    "lng": 3.05137,
+    "transactions": [
+      {
+        "date": "2024-03-13",
+        "priceEur": 316000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae372f9d038e": {
+    "id": "ae372f9d038e",
+    "label": "11 RUE MARCEL ET JEAN CALOONE, Lambersart",
+    "lat": 50.650747,
+    "lng": 3.043524,
+    "transactions": [
+      {
+        "date": "2024-04-16",
+        "priceEur": 303650,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-16",
+        "priceEur": 303650,
+        "typeLocal": "Appartement",
+        "surfaceM2": 29,
+        "isVefa": false
+      }
+    ]
+  },
+  "98f15f608415": {
+    "id": "98f15f608415",
+    "label": "5 RUE DE LA PORTE D YPRES, Lille",
+    "lat": 50.647148,
+    "lng": 3.053111,
+    "transactions": [
+      {
+        "date": "2025-02-05",
+        "priceEur": 240000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-31",
+        "priceEur": 235000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-28",
+        "priceEur": 170000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "f3cee6c6839d": {
+    "id": "f3cee6c6839d",
+    "label": "5 PL SAINT ANDRE, Lille",
+    "lat": 50.646211,
+    "lng": 3.052913,
+    "transactions": [
+      {
+        "date": "2024-06-05",
+        "priceEur": 168000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "48ab5f9c9a7e": {
+    "id": "48ab5f9c9a7e",
+    "label": "18 RUE DU CHATEAU D HOUCHIN, Lambersart",
+    "lat": 50.650355,
+    "lng": 3.0461,
+    "transactions": [
+      {
+        "date": "2024-07-31",
+        "priceEur": 298000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "86971aaba64a": {
+    "id": "86971aaba64a",
+    "label": "16 RUE GEORGES TORCQ, Saint-André-lez-Lille",
+    "lat": 50.651316,
+    "lng": 3.045042,
+    "transactions": [
+      {
+        "date": "2024-08-23",
+        "priceEur": 370700,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "9bae562e3629": {
+    "id": "9bae562e3629",
+    "label": "45 RUE MARCEL ET JEAN CALOONE, Lambersart",
+    "lat": 50.649905,
+    "lng": 3.044323,
+    "transactions": [
+      {
+        "date": "2024-08-20",
+        "priceEur": 292000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "da5745ae4822": {
+    "id": "da5745ae4822",
+    "label": "11 RUE DE LA PORTE D YPRES, Lille",
+    "lat": 50.64662,
+    "lng": 3.05213,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 162000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-23",
+        "priceEur": 151900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "fdae95dc90d5": {
+    "id": "fdae95dc90d5",
+    "label": "45 RUE CHARLEMAGNE BROUTIN, Saint-André-lez-Lille",
+    "lat": 50.651235,
+    "lng": 3.047808,
+    "transactions": [
+      {
+        "date": "2024-08-28",
+        "priceEur": 420000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0e63f3e6f26": {
+    "id": "a0e63f3e6f26",
+    "label": "26 RUE MARCEL ET JEAN CALOONE, Lambersart",
+    "lat": 50.650158,
+    "lng": 3.043396,
+    "transactions": [
+      {
+        "date": "2024-08-30",
+        "priceEur": 333763,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "729bbf6102a7": {
+    "id": "729bbf6102a7",
+    "label": "3 RUE DU DOCTEUR CORNILLEAU, Saint-André-lez-Lille",
+    "lat": 50.652336,
+    "lng": 3.045881,
+    "transactions": [
+      {
+        "date": "2024-09-24",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "d141f43c85a6": {
+    "id": "d141f43c85a6",
+    "label": "9 RUE GEORGES TORCQ, Saint-André-lez-Lille",
+    "lat": 50.65143,
+    "lng": 3.045765,
+    "transactions": [
+      {
+        "date": "2024-12-13",
+        "priceEur": 466000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "6fdb4e21948e": {
+    "id": "6fdb4e21948e",
+    "label": "52 RUE SAINT ALBAN, Lambersart",
+    "lat": 50.650603,
+    "lng": 3.044017,
+    "transactions": [
+      {
+        "date": "2024-12-16",
+        "priceEur": 536000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "7493c65a7c63": {
+    "id": "7493c65a7c63",
+    "label": "5 RUE DU DOCTEUR EMILE ROUX, Saint-André-lez-Lille",
+    "lat": 50.652043,
+    "lng": 3.046675,
+    "transactions": [
+      {
+        "date": "2025-01-23",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd0f0741c44c": {
+    "id": "cd0f0741c44c",
+    "label": "8 RUE JEAN MERMOZ, Saint-André-lez-Lille",
+    "lat": 50.652515,
+    "lng": 3.04572,
+    "transactions": [
+      {
+        "date": "2025-01-20",
+        "priceEur": 511260,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "bbca06455363": {
+    "id": "bbca06455363",
+    "label": "67 RUE DE LA GARE, Saint-André-lez-Lille",
+    "lat": 50.6528,
+    "lng": 3.048818,
+    "transactions": [
+      {
+        "date": "2025-02-03",
+        "priceEur": 147200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "5281ad527f8f": {
+    "id": "5281ad527f8f",
+    "label": "53 RUE SAINT ALBAN, Lambersart",
+    "lat": 50.650651,
+    "lng": 3.044805,
+    "transactions": [
+      {
+        "date": "2025-02-05",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "61fe07bc969c": {
+    "id": "61fe07bc969c",
+    "label": "1 PL SAINT ANDRE, Lille",
+    "lat": 50.646106,
+    "lng": 3.053019,
+    "transactions": [
+      {
+        "date": "2025-03-04",
+        "priceEur": 594000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "82e09854bd0f": {
+    "id": "82e09854bd0f",
+    "label": "8 RUE CHARLES PEGUY, Lambersart",
+    "lat": 50.651972,
+    "lng": 3.04379,
+    "transactions": [
+      {
+        "date": "2025-03-13",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "16025008417b": {
+    "id": "16025008417b",
+    "label": "40 RUE CHARLEMAGNE BROUTIN, Saint-André-lez-Lille",
+    "lat": 50.651322,
+    "lng": 3.046646,
+    "transactions": [
+      {
+        "date": "2025-04-18",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "a83e17f49ef2": {
+    "id": "a83e17f49ef2",
+    "label": "16 RUE CHARLES PEGUY, Saint-André-lez-Lille",
+    "lat": 50.651712,
+    "lng": 3.044222,
+    "transactions": [
+      {
+        "date": "2025-06-10",
+        "priceEur": 480000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  }
+}

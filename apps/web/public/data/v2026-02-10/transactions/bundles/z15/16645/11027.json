@@ -1,0 +1,62 @@
+{
+  "794c24cd7a57": {
+    "id": "794c24cd7a57",
+    "label": "40 RUE DE LA JOIRIE, Fromelles",
+    "lat": 50.599681,
+    "lng": 2.869888,
+    "transactions": [
+      {
+        "date": "2020-07-27",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "0735b624d608": {
+    "id": "0735b624d608",
+    "label": "27 RUE DE LA JOIRIE, Fromelles",
+    "lat": 50.601046,
+    "lng": 2.869176,
+    "transactions": [
+      {
+        "date": "2020-12-28",
+        "priceEur": 592000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "81d052028515": {
+    "id": "81d052028515",
+    "label": "52 RUE DE LA JOIRIE, Fromelles",
+    "lat": 50.597923,
+    "lng": 2.871193,
+    "transactions": [
+      {
+        "date": "2021-01-05",
+        "priceEur": 493250,
+        "typeLocal": "Maison",
+        "surfaceM2": 203,
+        "isVefa": false
+      }
+    ]
+  },
+  "b2125f2a8810": {
+    "id": "b2125f2a8810",
+    "label": "17 RUE DE LA JOIRIE, Fromelles",
+    "lat": 50.602355,
+    "lng": 2.868469,
+    "transactions": [
+      {
+        "date": "2021-04-22",
+        "priceEur": 725000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  }
+}

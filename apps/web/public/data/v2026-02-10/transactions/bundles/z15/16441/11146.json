@@ -1,0 +1,61 @@
+{
+  "a515d5918168": {
+    "id": "a515d5918168",
+    "label": "5693 LE CHATEAU, Cany-Barville",
+    "lat": 49.765803,
+    "lng": 0.630456,
+    "transactions": [
+      {
+        "date": "2021-04-12",
+        "priceEur": 1023037,
+        "typeLocal": "Maison",
+        "surfaceM2": 191,
+        "isVefa": false
+      }
+    ]
+  },
+  "2870fd97f6fc": {
+    "id": "2870fd97f6fc",
+    "label": "5573 LE CHATEAU, Cany-Barville",
+    "lat": 49.766022,
+    "lng": 0.629362,
+    "transactions": [
+      {
+        "date": "2021-04-12",
+        "priceEur": 1023037,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-12",
+        "priceEur": 1023037,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "38cf6cbd9a2d": {
+    "id": "38cf6cbd9a2d",
+    "label": "5574 LE CHATEAU, Cany-Barville",
+    "lat": 49.766157,
+    "lng": 0.628568,
+    "transactions": [
+      {
+        "date": "2021-04-12",
+        "priceEur": 1023037,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-12",
+        "priceEur": 1023037,
+        "typeLocal": "Maison",
+        "surfaceM2": 185,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "434483389f84": {
+    "id": "434483389f84",
+    "label": "11 RUE DES ALOUETTES, Spycker",
+    "lat": 50.972492,
+    "lng": 2.325903,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 172,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e5f48cc46ce": {
+    "id": "6e5f48cc46ce",
+    "label": "31 AV DES MESANGES, Spycker",
+    "lat": 50.973234,
+    "lng": 2.324455,
+    "transactions": [
+      {
+        "date": "2023-04-24",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "0cfce655af44": {
+    "id": "0cfce655af44",
+    "label": "30 AV DES MESANGES, Spycker",
+    "lat": 50.972434,
+    "lng": 2.325459,
+    "transactions": [
+      {
+        "date": "2023-04-14",
+        "priceEur": 330050,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "b8ac6eaa76b4": {
+    "id": "b8ac6eaa76b4",
+    "label": "46 AV DES MESANGES, Spycker",
+    "lat": 50.973172,
+    "lng": 2.325115,
+    "transactions": [
+      {
+        "date": "2024-11-22",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  }
+}

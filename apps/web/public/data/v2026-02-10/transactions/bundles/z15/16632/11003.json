@@ -1,0 +1,129 @@
+{
+  "368b9a2b12f9": {
+    "id": "368b9a2b12f9",
+    "label": "315 CHE DE LA GLAISE, Saint-Jans-Cappel",
+    "lat": 50.766134,
+    "lng": 2.727817,
+    "transactions": [
+      {
+        "date": "2021-02-20",
+        "priceEur": 512610,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-20",
+        "priceEur": 512610,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5a583d57d67": {
+    "id": "d5a583d57d67",
+    "label": "1054 RUE DE LA BLANCHISSERIE, Saint-Jans-Cappel",
+    "lat": 50.770994,
+    "lng": 2.730899,
+    "transactions": [
+      {
+        "date": "2021-12-06",
+        "priceEur": 452000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb867ff03ee0": {
+    "id": "fb867ff03ee0",
+    "label": "997 RUE DE LA BLANCHISSERIE, Saint-Jans-Cappel",
+    "lat": 50.77103,
+    "lng": 2.73007,
+    "transactions": [
+      {
+        "date": "2022-03-28",
+        "priceEur": 475000,
+        "typeLocal": "Maison",
+        "surfaceM2": 164,
+        "isVefa": false
+      }
+    ]
+  },
+  "64fbc7a810d0": {
+    "id": "64fbc7a810d0",
+    "label": "64 CHE DE L'ERMITAGE, Saint-Jans-Cappel",
+    "lat": 50.771195,
+    "lng": 2.729281,
+    "transactions": [
+      {
+        "date": "2022-05-17",
+        "priceEur": 410000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "033bf7c70f64": {
+    "id": "033bf7c70f64",
+    "label": "63 CHE DE LA GLAISE, Saint-Jans-Cappel",
+    "lat": 50.765535,
+    "lng": 2.724861,
+    "transactions": [
+      {
+        "date": "2023-10-06",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd168827cfb8": {
+    "id": "dd168827cfb8",
+    "label": "919 RUE DE LA BLANCHISSERIE, Saint-Jans-Cappel",
+    "lat": 50.770668,
+    "lng": 2.729212,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "3125fc6e82f0": {
+    "id": "3125fc6e82f0",
+    "label": "479 RUE DE LA BLANCHISSERIE, Saint-Jans-Cappel",
+    "lat": 50.767779,
+    "lng": 2.725061,
+    "transactions": [
+      {
+        "date": "2024-07-03",
+        "priceEur": 301000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "07353793311f": {
+    "id": "07353793311f",
+    "label": "793 RUE DE LA BLANCHISSERIE, Saint-Jans-Cappel",
+    "lat": 50.770395,
+    "lng": 2.727694,
+    "transactions": [
+      {
+        "date": "2025-01-15",
+        "priceEur": 410000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  }
+}

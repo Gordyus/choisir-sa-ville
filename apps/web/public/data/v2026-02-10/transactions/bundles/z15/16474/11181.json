@@ -1,0 +1,107 @@
+{
+  "9e591d50e3b0": {
+    "id": "9e591d50e3b0",
+    "label": "5223 LE CADRAN, Saint-Jean-du-Cardonnay",
+    "lat": 49.512123,
+    "lng": 0.999519,
+    "transactions": [
+      {
+        "date": "2020-07-27",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "0bebe88972ad": {
+    "id": "0bebe88972ad",
+    "label": "10 RUE RESIDENCE DU CARDONNAY, Saint-Jean-du-Cardonnay",
+    "lat": 49.511435,
+    "lng": 0.997975,
+    "transactions": [
+      {
+        "date": "2022-07-12",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "64ed0c635fe9": {
+    "id": "64ed0c635fe9",
+    "label": "5217 LE CADRAN, Saint-Jean-du-Cardonnay",
+    "lat": 49.511489,
+    "lng": 0.998278,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 182000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6b6a19af94d": {
+    "id": "f6b6a19af94d",
+    "label": "42 RTE DU CADRAN, Saint-Jean-du-Cardonnay",
+    "lat": 49.51375,
+    "lng": 0.998861,
+    "transactions": [
+      {
+        "date": "2022-08-24",
+        "priceEur": 475000,
+        "typeLocal": "Maison",
+        "surfaceM2": 159,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1b53250e90b": {
+    "id": "a1b53250e90b",
+    "label": "3 RESIDENCE DU CARDONNAY, Saint-Jean-du-Cardonnay",
+    "lat": 49.511684,
+    "lng": 0.999634,
+    "transactions": [
+      {
+        "date": "2022-09-27",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "098c984258ec": {
+    "id": "098c984258ec",
+    "label": "44 RTE DU CADRAN, Saint-Jean-du-Cardonnay",
+    "lat": 49.514338,
+    "lng": 0.997934,
+    "transactions": [
+      {
+        "date": "2023-09-14",
+        "priceEur": 216000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "187b7abd7510": {
+    "id": "187b7abd7510",
+    "label": "5 RES ALBERT VALLET, Saint-Jean-du-Cardonnay",
+    "lat": 49.511003,
+    "lng": 0.999282,
+    "transactions": [
+      {
+        "date": "2024-07-15",
+        "priceEur": 386900,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  }
+}

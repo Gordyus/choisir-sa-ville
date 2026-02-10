@@ -1,0 +1,167 @@
+{
+  "ac9979255dc3": {
+    "id": "ac9979255dc3",
+    "label": "5049 RUE DU GYMNASE, Sandouville",
+    "lat": 49.497019,
+    "lng": 0.318249,
+    "transactions": [
+      {
+        "date": "2021-08-06",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "61dcd26a940c": {
+    "id": "61dcd26a940c",
+    "label": "19 LES GRANDS PRES, Sandouville",
+    "lat": 49.49802,
+    "lng": 0.318049,
+    "transactions": [
+      {
+        "date": "2021-08-18",
+        "priceEur": 218000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "78034a0d8241": {
+    "id": "78034a0d8241",
+    "label": "870 CHE DES FONTAINES, Oudalle",
+    "lat": 49.501804,
+    "lng": 0.308225,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 107000,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d8aa4d0fb5d": {
+    "id": "7d8aa4d0fb5d",
+    "label": "5176 RUE DES VAUX DU BEC, Sandouville",
+    "lat": 49.498578,
+    "lng": 0.314228,
+    "transactions": [
+      {
+        "date": "2022-01-04",
+        "priceEur": 173500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "851b83a326fb": {
+    "id": "851b83a326fb",
+    "label": "5190 RUE DE L'EGLISE, Sandouville",
+    "lat": 49.496945,
+    "lng": 0.318292,
+    "transactions": [
+      {
+        "date": "2022-03-22",
+        "priceEur": 210200,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "ecf402fd5f20": {
+    "id": "ecf402fd5f20",
+    "label": "5163 RTE DE LA PLAINE, Sandouville",
+    "lat": 49.496973,
+    "lng": 0.316831,
+    "transactions": [
+      {
+        "date": "2022-05-12",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "49b1f8a92b47": {
+    "id": "49b1f8a92b47",
+    "label": "8 LES GRANDS PRES, Sandouville",
+    "lat": 49.498262,
+    "lng": 0.316345,
+    "transactions": [
+      {
+        "date": "2022-05-09",
+        "priceEur": 320500,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f0ef9a1015e": {
+    "id": "5f0ef9a1015e",
+    "label": "102 RUE DE L'EGLISE, Sandouville",
+    "lat": 49.496788,
+    "lng": 0.318545,
+    "transactions": [
+      {
+        "date": "2022-06-01",
+        "priceEur": 164700,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "d0d408781d6b": {
+    "id": "d0d408781d6b",
+    "label": "5002 LES GRANDS PRES, Sandouville",
+    "lat": 49.498315,
+    "lng": 0.316664,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f6183c23aaa": {
+    "id": "9f6183c23aaa",
+    "label": "2525 CHE DES FONTAINES, Sandouville",
+    "lat": 49.502922,
+    "lng": 0.314742,
+    "transactions": [
+      {
+        "date": "2023-01-20",
+        "priceEur": 435000,
+        "typeLocal": "Maison",
+        "surfaceM2": 219,
+        "isVefa": false
+      }
+    ]
+  },
+  "796356bb1771": {
+    "id": "796356bb1771",
+    "label": "12 LES GRANDS PRES, Sandouville",
+    "lat": 49.497793,
+    "lng": 0.316788,
+    "transactions": [
+      {
+        "date": "2025-01-03",
+        "priceEur": 296500,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  }
+}

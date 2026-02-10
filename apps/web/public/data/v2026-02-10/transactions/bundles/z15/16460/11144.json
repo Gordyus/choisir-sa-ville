@@ -1,0 +1,77 @@
+{
+  "6760da538393": {
+    "id": "6760da538393",
+    "label": "12 RUE NOTRE DAME, Canville-les-Deux-Églises",
+    "lat": 49.777097,
+    "lng": 0.835487,
+    "transactions": [
+      {
+        "date": "2020-09-03",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d01501a7a08": {
+    "id": "0d01501a7a08",
+    "label": "28 RTE DU SUCRE, Canville-les-Deux-Églises",
+    "lat": 49.775468,
+    "lng": 0.840595,
+    "transactions": [
+      {
+        "date": "2021-01-15",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "59ce9aa38459": {
+    "id": "59ce9aa38459",
+    "label": "40 RTE DU SUCRE, Canville-les-Deux-Églises",
+    "lat": 49.776734,
+    "lng": 0.840618,
+    "transactions": [
+      {
+        "date": "2022-03-18",
+        "priceEur": 171000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "f736bf753166": {
+    "id": "f736bf753166",
+    "label": "7 RUE DE LA PERELLE, Canville-les-Deux-Églises",
+    "lat": 49.778641,
+    "lng": 0.841705,
+    "transactions": [
+      {
+        "date": "2022-07-05",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "78e1b062a0b4": {
+    "id": "78e1b062a0b4",
+    "label": "3 RTE D AUTIGNY, Canville-les-Deux-Églises",
+    "lat": 49.779216,
+    "lng": 0.842075,
+    "transactions": [
+      {
+        "date": "2024-11-08",
+        "priceEur": 201500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

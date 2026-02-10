@@ -1,0 +1,32 @@
+{
+  "2e1bd097872f": {
+    "id": "2e1bd097872f",
+    "label": "23 RTE DE LA MER, Auzouville-sur-Saâne",
+    "lat": 49.750091,
+    "lng": 0.929511,
+    "transactions": [
+      {
+        "date": "2020-08-03",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb71f338033c": {
+    "id": "fb71f338033c",
+    "label": "15 RTE DE LA MER, Auzouville-sur-Saâne",
+    "lat": 49.746374,
+    "lng": 0.931922,
+    "transactions": [
+      {
+        "date": "2023-10-23",
+        "priceEur": 136000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  }
+}

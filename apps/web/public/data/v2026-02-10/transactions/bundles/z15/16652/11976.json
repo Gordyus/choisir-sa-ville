@@ -1,0 +1,107 @@
+{
+  "a72e46c43f37": {
+    "id": "a72e46c43f37",
+    "label": "5194 LES ESCAGNES, Roquebrun",
+    "lat": 43.513219,
+    "lng": 2.954416,
+    "transactions": [
+      {
+        "date": "2021-01-22",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "522d581aae48": {
+    "id": "522d581aae48",
+    "label": "5031 LES ESCAGNES, Roquebrun",
+    "lat": 43.513354,
+    "lng": 2.954311,
+    "transactions": [
+      {
+        "date": "2021-03-31",
+        "priceEur": 57000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "063196146248": {
+    "id": "063196146248",
+    "label": "1057F HAMEAU DES ESCAGNES, Roquebrun",
+    "lat": 43.513319,
+    "lng": 2.954594,
+    "transactions": [
+      {
+        "date": "2021-08-24",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "fc1d3ba3ae35": {
+    "id": "fc1d3ba3ae35",
+    "label": "5266 LES ESCAGNES, Roquebrun",
+    "lat": 43.513017,
+    "lng": 2.954316,
+    "transactions": [
+      {
+        "date": "2022-09-13",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ab9e175ef76": {
+    "id": "0ab9e175ef76",
+    "label": "5434 LES ESCAGNES, Roquebrun",
+    "lat": 43.513958,
+    "lng": 2.954915,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 188300,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "70c67ab3fbfc": {
+    "id": "70c67ab3fbfc",
+    "label": "5099 LES ESCAGNES, Roquebrun",
+    "lat": 43.513903,
+    "lng": 2.954557,
+    "transactions": [
+      {
+        "date": "2023-07-06",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "53ecc6780d2c": {
+    "id": "53ecc6780d2c",
+    "label": "5437 LES ESCAGNES, Roquebrun",
+    "lat": 43.514115,
+    "lng": 2.954924,
+    "transactions": [
+      {
+        "date": "2024-12-11",
+        "priceEur": 166500,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  }
+}

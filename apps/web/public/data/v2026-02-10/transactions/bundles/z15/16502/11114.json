@@ -1,0 +1,32 @@
+{
+  "9a4beea14a3d": {
+    "id": "9a4beea14a3d",
+    "label": "5032 LE BOURG ASSIGNY, Petit-Caux",
+    "lat": 49.9911,
+    "lng": 1.297259,
+    "transactions": [
+      {
+        "date": "2021-10-07",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0d3603290eb": {
+    "id": "b0d3603290eb",
+    "label": "14 RUE DE LA LIBERATION, Petit-Caux",
+    "lat": 49.99057,
+    "lng": 1.297783,
+    "transactions": [
+      {
+        "date": "2022-02-24",
+        "priceEur": 175500,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  }
+}

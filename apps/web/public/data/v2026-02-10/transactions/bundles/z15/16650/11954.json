@@ -1,0 +1,47 @@
+{
+  "9031d7b3d92c": {
+    "id": "9031d7b3d92c",
+    "label": "12 RUE DU FOUR, Castanet-le-Haut",
+    "lat": 43.686927,
+    "lng": 2.923004,
+    "transactions": [
+      {
+        "date": "2020-12-05",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7154953c1c7": {
+    "id": "b7154953c1c7",
+    "label": "137 CHE DE FAGAIROLLES, Castanet-le-Haut",
+    "lat": 43.685888,
+    "lng": 2.924225,
+    "transactions": [
+      {
+        "date": "2022-11-08",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "6efab8c28180": {
+    "id": "6efab8c28180",
+    "label": "16 RUE DU FOUR, Castanet-le-Haut",
+    "lat": 43.687042,
+    "lng": 2.922651,
+    "transactions": [
+      {
+        "date": "2024-10-03",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

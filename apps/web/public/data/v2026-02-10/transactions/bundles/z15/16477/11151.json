@@ -1,0 +1,77 @@
+{
+  "5a9bf9570a79": {
+    "id": "5a9bf9570a79",
+    "label": "1828 RTE DES BETEAUX, Beauval-en-Caux",
+    "lat": 49.72552,
+    "lng": 1.028778,
+    "transactions": [
+      {
+        "date": "2021-10-27",
+        "priceEur": 244000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "f2843f61799d": {
+    "id": "f2843f61799d",
+    "label": "1728 RTE DES BETEAUX, Biville-la-Baignarde",
+    "lat": 49.726767,
+    "lng": 1.029067,
+    "transactions": [
+      {
+        "date": "2022-08-09",
+        "priceEur": 416000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea1966aaa10b": {
+    "id": "ea1966aaa10b",
+    "label": "45 IMP BETEAUX, Biville-la-Baignarde",
+    "lat": 49.729073,
+    "lng": 1.02853,
+    "transactions": [
+      {
+        "date": "2022-08-30",
+        "priceEur": 160550,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "9fff2bab39b0": {
+    "id": "9fff2bab39b0",
+    "label": "1384 RTE DES BETEAUX, Biville-la-Baignarde",
+    "lat": 49.729503,
+    "lng": 1.030343,
+    "transactions": [
+      {
+        "date": "2023-07-13",
+        "priceEur": 237000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff08e25b7d2b": {
+    "id": "ff08e25b7d2b",
+    "label": "1684 RTE DES BETEAUX, Biville-la-Baignarde",
+    "lat": 49.727287,
+    "lng": 1.028202,
+    "transactions": [
+      {
+        "date": "2025-04-28",
+        "priceEur": 296250,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

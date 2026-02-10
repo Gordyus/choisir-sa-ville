@@ -1,0 +1,32 @@
+{
+  "f80c70fa4fdc": {
+    "id": "f80c70fa4fdc",
+    "label": "155 IMP ST NICOLAS, Quincampoix",
+    "lat": 49.530854,
+    "lng": 1.215064,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 278200,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "f604d2cb6781": {
+    "id": "f604d2cb6781",
+    "label": "11 IMP ST NICOLAS, Quincampoix",
+    "lat": 49.53133,
+    "lng": 1.216837,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  }
+}

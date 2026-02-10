@@ -1,0 +1,32 @@
+{
+  "bc5cc7f3e0f2": {
+    "id": "bc5cc7f3e0f2",
+    "label": "5226 VC 17 DIT CHEM DU CANAL, Loon-Plage",
+    "lat": 50.96401,
+    "lng": 2.273224,
+    "transactions": [
+      {
+        "date": "2020-07-20",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "268745e74593": {
+    "id": "268745e74593",
+    "label": "5228 RUE GASTON DEREUDRE, Loon-Plage",
+    "lat": 50.963854,
+    "lng": 2.27106,
+    "transactions": [
+      {
+        "date": "2021-03-10",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  }
+}

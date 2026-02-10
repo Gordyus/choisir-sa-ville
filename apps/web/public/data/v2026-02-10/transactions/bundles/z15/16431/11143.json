@@ -1,0 +1,32 @@
+{
+  "9c08bdf923ad": {
+    "id": "9c08bdf923ad",
+    "label": "625 RUE DU CALVAIRE, Sassetot-le-Mauconduit",
+    "lat": 49.787927,
+    "lng": 0.521434,
+    "transactions": [
+      {
+        "date": "2021-12-20",
+        "priceEur": 186000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "12aecf2b36c1": {
+    "id": "12aecf2b36c1",
+    "label": "550 RUE DU CALVAIRE, Sassetot-le-Mauconduit",
+    "lat": 49.787711,
+    "lng": 0.521405,
+    "transactions": [
+      {
+        "date": "2021-02-12",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  }
+}

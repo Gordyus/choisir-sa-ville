@@ -1,0 +1,32 @@
+{
+  "122f3134169c": {
+    "id": "122f3134169c",
+    "label": "201 RUE DU BOURG, Mésangueville",
+    "lat": 49.546141,
+    "lng": 1.557708,
+    "transactions": [
+      {
+        "date": "2021-06-24",
+        "priceEur": 117500,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "353294d0a9aa": {
+    "id": "353294d0a9aa",
+    "label": "245 MANOIR D AUBERMESNIL, Mésangueville",
+    "lat": 49.546063,
+    "lng": 1.549096,
+    "transactions": [
+      {
+        "date": "2022-10-03",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

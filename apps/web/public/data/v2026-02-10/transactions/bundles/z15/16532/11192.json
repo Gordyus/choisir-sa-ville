@@ -1,0 +1,84 @@
+{
+  "1f3e03340125": {
+    "id": "1f3e03340125",
+    "label": "16 RUE DE LA SAINTE, Bézancourt",
+    "lat": 49.439513,
+    "lng": 1.626204,
+    "transactions": [
+      {
+        "date": "2024-12-13",
+        "priceEur": 206900,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-05",
+        "priceEur": 165400,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "654f642ca0ec": {
+    "id": "654f642ca0ec",
+    "label": "35 RUE DES QUATRE HETRES, Bézancourt",
+    "lat": 49.434311,
+    "lng": 1.633749,
+    "transactions": [
+      {
+        "date": "2022-09-14",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c5788e5bebd": {
+    "id": "1c5788e5bebd",
+    "label": "6 RUE DU CARNAVAL, Bézancourt",
+    "lat": 49.432506,
+    "lng": 1.632874,
+    "transactions": [
+      {
+        "date": "2023-05-31",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "ebeec2ccff7a": {
+    "id": "ebeec2ccff7a",
+    "label": "2B RUE DU CARNAVAL, Bézancourt",
+    "lat": 49.43265,
+    "lng": 1.633495,
+    "transactions": [
+      {
+        "date": "2023-11-29",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d3936e92554": {
+    "id": "9d3936e92554",
+    "label": "18 RUE DES QUATRE HETRES, Bézancourt",
+    "lat": 49.435497,
+    "lng": 1.631539,
+    "transactions": [
+      {
+        "date": "2025-01-10",
+        "priceEur": 232000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  }
+}

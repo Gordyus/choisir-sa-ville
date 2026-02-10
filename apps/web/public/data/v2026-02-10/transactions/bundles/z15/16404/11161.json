@@ -1,0 +1,47 @@
+{
+  "36dc38b87d10": {
+    "id": "36dc38b87d10",
+    "label": "4 CHE DE COQUEREAUVILLE, Beaurepaire",
+    "lat": 49.659182,
+    "lng": 0.22361,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 267000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd0fcf1ea241": {
+    "id": "bd0fcf1ea241",
+    "label": "3 GR GRANDE RUE, Beaurepaire",
+    "lat": 49.659463,
+    "lng": 0.221115,
+    "transactions": [
+      {
+        "date": "2021-08-30",
+        "priceEur": 328000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a9634201b0d": {
+    "id": "2a9634201b0d",
+    "label": "4D CHE DU FIEF D'OCTEVILLE, Beaurepaire",
+    "lat": 49.653429,
+    "lng": 0.219949,
+    "transactions": [
+      {
+        "date": "2023-01-27",
+        "priceEur": 228000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

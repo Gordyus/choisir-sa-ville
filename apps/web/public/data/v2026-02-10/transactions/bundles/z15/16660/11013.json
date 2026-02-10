@@ -1,0 +1,47 @@
+{
+  "4e3b9813a752": {
+    "id": "4e3b9813a752",
+    "label": "385 RTE DE COMINES, Wambrechies",
+    "lat": 50.696803,
+    "lng": 3.038283,
+    "transactions": [
+      {
+        "date": "2021-09-29",
+        "priceEur": 800900,
+        "typeLocal": "Maison",
+        "surfaceM2": 179,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e7b6ccca207": {
+    "id": "8e7b6ccca207",
+    "label": "605 CHE DU BIHAMEL, Wambrechies",
+    "lat": 50.698807,
+    "lng": 3.042566,
+    "transactions": [
+      {
+        "date": "2024-01-18",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "73a08d2dded6": {
+    "id": "73a08d2dded6",
+    "label": "991 RTE DE COMINES, Wambrechies",
+    "lat": 50.70154,
+    "lng": 3.035325,
+    "transactions": [
+      {
+        "date": "2024-10-31",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

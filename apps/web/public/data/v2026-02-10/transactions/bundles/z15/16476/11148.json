@@ -1,0 +1,32 @@
+{
+  "bc8f482b6ce1": {
+    "id": "bc8f482b6ce1",
+    "label": "5 IMP DES POMMIERS, Beauval-en-Caux",
+    "lat": 49.749389,
+    "lng": 1.012764,
+    "transactions": [
+      {
+        "date": "2022-08-10",
+        "priceEur": 306000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe6a1085f39d": {
+    "id": "fe6a1085f39d",
+    "label": "2100 RTE DU TORTILLARD, Beauval-en-Caux",
+    "lat": 49.749079,
+    "lng": 1.013533,
+    "transactions": [
+      {
+        "date": "2024-10-17",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

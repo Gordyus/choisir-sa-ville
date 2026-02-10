@@ -1,0 +1,62 @@
+{
+  "53f2d1340201": {
+    "id": "53f2d1340201",
+    "label": "2 ALL DES BRUYERES, Radinghem-en-Weppes",
+    "lat": 50.626031,
+    "lng": 2.902848,
+    "transactions": [
+      {
+        "date": "2022-05-03",
+        "priceEur": 587500,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "94f6c18aac07": {
+    "id": "94f6c18aac07",
+    "label": "8 RUE DES OBEAUX, Radinghem-en-Weppes",
+    "lat": 50.631344,
+    "lng": 2.904728,
+    "transactions": [
+      {
+        "date": "2022-05-17",
+        "priceEur": 562000,
+        "typeLocal": "Maison",
+        "surfaceM2": 184,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2e6c1640e9f": {
+    "id": "e2e6c1640e9f",
+    "label": "51B RUE DU BAS, Radinghem-en-Weppes",
+    "lat": 50.626274,
+    "lng": 2.904321,
+    "transactions": [
+      {
+        "date": "2022-08-23",
+        "priceEur": 480000,
+        "typeLocal": "Maison",
+        "surfaceM2": 167,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a8c7d7ab9c5": {
+    "id": "5a8c7d7ab9c5",
+    "label": "9 ALL DES BRUYERES, Radinghem-en-Weppes",
+    "lat": 50.625769,
+    "lng": 2.901394,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 755000,
+        "typeLocal": "Maison",
+        "surfaceM2": 166,
+        "isVefa": false
+      }
+    ]
+  }
+}

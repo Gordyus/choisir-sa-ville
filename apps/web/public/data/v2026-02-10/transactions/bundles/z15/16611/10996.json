@@ -1,0 +1,47 @@
+{
+  "704fea96636d": {
+    "id": "704fea96636d",
+    "label": "791 RTE NEW STRAETE, Hardifort",
+    "lat": 50.81905,
+    "lng": 2.498779,
+    "transactions": [
+      {
+        "date": "2023-04-22",
+        "priceEur": 204400,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      }
+    ]
+  },
+  "eb6cbe92e070": {
+    "id": "eb6cbe92e070",
+    "label": "4421 VC STANDAERT STRAETE, Cassel",
+    "lat": 50.815125,
+    "lng": 2.50297,
+    "transactions": [
+      {
+        "date": "2024-10-04",
+        "priceEur": 717000,
+        "typeLocal": "Maison",
+        "surfaceM2": 264,
+        "isVefa": false
+      }
+    ]
+  },
+  "51defdab11b9": {
+    "id": "51defdab11b9",
+    "label": "598 RTE DE CASSEL, Hardifort",
+    "lat": 50.814353,
+    "lng": 2.495559,
+    "transactions": [
+      {
+        "date": "2025-03-12",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  }
+}

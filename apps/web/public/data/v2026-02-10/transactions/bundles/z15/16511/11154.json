@@ -1,0 +1,47 @@
+{
+  "523d63c2964d": {
+    "id": "523d63c2964d",
+    "label": "4B RUE TREMBLANTE, Esclavelles",
+    "lat": 49.705889,
+    "lng": 1.401765,
+    "transactions": [
+      {
+        "date": "2024-01-05",
+        "priceEur": 196000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "b65152597173": {
+    "id": "b65152597173",
+    "label": "4 RUE TREMBLANTE, Esclavelles",
+    "lat": 49.70597,
+    "lng": 1.400837,
+    "transactions": [
+      {
+        "date": "2025-01-30",
+        "priceEur": 109000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "4cf3d4f81d8f": {
+    "id": "4cf3d4f81d8f",
+    "label": "3 RUE TREMBLANTE, Esclavelles",
+    "lat": 49.706231,
+    "lng": 1.400984,
+    "transactions": [
+      {
+        "date": "2025-03-27",
+        "priceEur": 102000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

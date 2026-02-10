@@ -1,0 +1,32 @@
+{
+  "70498ac053c1": {
+    "id": "70498ac053c1",
+    "label": "3844 RTE DE BOURBOURG, Noordpeene",
+    "lat": 50.788195,
+    "lng": 2.391604,
+    "transactions": [
+      {
+        "date": "2024-03-12",
+        "priceEur": 299300,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "9555b8b72b77": {
+    "id": "9555b8b72b77",
+    "label": "2531 RTE DE SAINT OMER, Noordpeene",
+    "lat": 50.789283,
+    "lng": 2.391005,
+    "transactions": [
+      {
+        "date": "2025-03-21",
+        "priceEur": 4000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  }
+}

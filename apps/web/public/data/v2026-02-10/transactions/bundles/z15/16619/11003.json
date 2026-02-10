@@ -1,0 +1,32 @@
+{
+  "e5c0f509a51f": {
+    "id": "e5c0f509a51f",
+    "label": "1695 RTE DE CASSEL, Caëstre",
+    "lat": 50.766455,
+    "lng": 2.583417,
+    "transactions": [
+      {
+        "date": "2020-08-18",
+        "priceEur": 116000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "4efec2d1a481": {
+    "id": "4efec2d1a481",
+    "label": "1667 RTE DE CASSEL, Caëstre",
+    "lat": 50.766342,
+    "lng": 2.583714,
+    "transactions": [
+      {
+        "date": "2020-10-16",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  }
+}

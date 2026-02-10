@@ -1,0 +1,46 @@
+{
+  "337c9b29017d": {
+    "id": "337c9b29017d",
+    "label": "593 BRETAGNE, Haudricourt",
+    "lat": 49.763541,
+    "lng": 1.717718,
+    "transactions": [
+      {
+        "date": "2022-10-26",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-12",
+        "priceEur": 147350,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "1fa0639ea919": {
+    "id": "1fa0639ea919",
+    "label": "533 CHE DE VILLERS BRETAGNE, Haudricourt",
+    "lat": 49.764722,
+    "lng": 1.718309,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      },
+      {
+        "date": "2024-12-27",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  }
+}

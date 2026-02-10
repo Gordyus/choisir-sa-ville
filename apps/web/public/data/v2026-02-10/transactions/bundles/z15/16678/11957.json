@@ -1,0 +1,92 @@
+{
+  "eb58aa4c9924": {
+    "id": "eb58aa4c9924",
+    "label": "5 PL DE LA MAIRIE, 34093",
+    "lat": 43.66723,
+    "lng": 3.233677,
+    "transactions": [
+      {
+        "date": "2020-07-17",
+        "priceEur": 71000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "df8723852183": {
+    "id": "df8723852183",
+    "label": "10 IMP DU SECADOU, 34093",
+    "lat": 43.667559,
+    "lng": 3.233955,
+    "transactions": [
+      {
+        "date": "2020-11-05",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "b56fe25f3672": {
+    "id": "b56fe25f3672",
+    "label": "7 CHE DU CLAUS, 34093",
+    "lat": 43.667707,
+    "lng": 3.234236,
+    "transactions": [
+      {
+        "date": "2021-11-19",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4ec04560b03": {
+    "id": "c4ec04560b03",
+    "label": "3 RUE DES COURANTS D'AIR, 34093",
+    "lat": 43.666973,
+    "lng": 3.234287,
+    "transactions": [
+      {
+        "date": "2022-05-30",
+        "priceEur": 165120,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "57e6126b5f52": {
+    "id": "57e6126b5f52",
+    "label": "8 AIRE DU CLAPAS, 34093",
+    "lat": 43.667543,
+    "lng": 3.23427,
+    "transactions": [
+      {
+        "date": "2022-07-26",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "813f92fc2275": {
+    "id": "813f92fc2275",
+    "label": "4 RUE DES BERGERIES, 34093",
+    "lat": 43.667214,
+    "lng": 3.233989,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 32000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

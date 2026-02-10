@@ -1,0 +1,54 @@
+{
+  "b10318c8ddc2": {
+    "id": "b10318c8ddc2",
+    "label": "122 RUE DU MOULIN, Volckerinckhove",
+    "lat": 50.824066,
+    "lng": 2.280345,
+    "transactions": [
+      {
+        "date": "2020-09-28",
+        "priceEur": 12000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "169fa53b01ed": {
+    "id": "169fa53b01ed",
+    "label": "22 RTE DE WATTEN, Volckerinckhove",
+    "lat": 50.821819,
+    "lng": 2.274653,
+    "transactions": [
+      {
+        "date": "2022-08-18",
+        "priceEur": 296750,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "40e8361015a2": {
+    "id": "40e8361015a2",
+    "label": "81 RUE DU MOULIN, Volckerinckhove",
+    "lat": 50.826752,
+    "lng": 2.28381,
+    "transactions": [
+      {
+        "date": "2024-11-27",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-26",
+        "priceEur": 164800,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

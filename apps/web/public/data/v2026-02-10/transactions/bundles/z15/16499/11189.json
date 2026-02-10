@@ -1,0 +1,47 @@
+{
+  "11971839b7f5": {
+    "id": "11971839b7f5",
+    "label": "25 RUE DU CHATEAU, Bois-l'Évêque",
+    "lat": 49.45901,
+    "lng": 1.268873,
+    "transactions": [
+      {
+        "date": "2021-06-21",
+        "priceEur": 590000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "43d0de52b47b": {
+    "id": "43d0de52b47b",
+    "label": "5 RUE DU CHATEAU, Bois-l'Évêque",
+    "lat": 49.459571,
+    "lng": 1.267661,
+    "transactions": [
+      {
+        "date": "2021-06-21",
+        "priceEur": 590000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "95e69a4d25ca": {
+    "id": "95e69a4d25ca",
+    "label": "7003 PLAINE DES CORNEILLES, Bois-l'Évêque",
+    "lat": 49.456336,
+    "lng": 1.266799,
+    "transactions": [
+      {
+        "date": "2022-05-09",
+        "priceEur": 299000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  }
+}

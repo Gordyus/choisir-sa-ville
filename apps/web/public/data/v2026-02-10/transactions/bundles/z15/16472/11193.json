@@ -1,0 +1,32 @@
+{
+  "b42f52ff4408": {
+    "id": "b42f52ff4408",
+    "label": "1 CHE DU COQ A L'ANE, Saint-Martin-de-Boscherville",
+    "lat": 49.429311,
+    "lng": 0.97144,
+    "transactions": [
+      {
+        "date": "2024-11-05",
+        "priceEur": 166500,
+        "typeLocal": "Maison",
+        "surfaceM2": 201,
+        "isVefa": false
+      }
+    ]
+  },
+  "887525e338a4": {
+    "id": "887525e338a4",
+    "label": "16 CHE DES SEPT ECHOS, Saint-Martin-de-Boscherville",
+    "lat": 49.431622,
+    "lng": 0.971286,
+    "transactions": [
+      {
+        "date": "2025-06-02",
+        "priceEur": 596490,
+        "typeLocal": "Maison",
+        "surfaceM2": 194,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "9e5b0ac39389": {
+    "id": "9e5b0ac39389",
+    "label": "6015 LE GRAND VERDRET HAMEAU, La Houssaye-Béranger",
+    "lat": 49.635785,
+    "lng": 1.062674,
+    "transactions": [
+      {
+        "date": "2021-09-23",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "73a85e11ec73": {
+    "id": "73a85e11ec73",
+    "label": "5073 LE GRAND VERDRET HAMEAU, La Houssaye-Béranger",
+    "lat": 49.638164,
+    "lng": 1.058663,
+    "transactions": [
+      {
+        "date": "2024-10-04",
+        "priceEur": 73000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  }
+}

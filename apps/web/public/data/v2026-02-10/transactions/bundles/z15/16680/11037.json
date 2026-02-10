@@ -1,0 +1,39 @@
+{
+  "4de13800f175": {
+    "id": "4de13800f175",
+    "label": "5 RUE DU FAY, Cobrieux",
+    "lat": 50.532114,
+    "lng": 3.253052,
+    "transactions": [
+      {
+        "date": "2022-05-17",
+        "priceEur": 62270,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "6488d9bcbe8d": {
+    "id": "6488d9bcbe8d",
+    "label": "12 RUE DU FAY, Cobrieux",
+    "lat": 50.533303,
+    "lng": 3.254911,
+    "transactions": [
+      {
+        "date": "2024-02-02",
+        "priceEur": 500000,
+        "typeLocal": "Maison",
+        "surfaceM2": 226,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-28",
+        "priceEur": 670000,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  }
+}

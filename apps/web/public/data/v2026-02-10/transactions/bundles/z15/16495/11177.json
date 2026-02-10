@@ -1,0 +1,107 @@
+{
+  "5c6b61b7676e": {
+    "id": "5c6b61b7676e",
+    "label": "159 RTE DU VERT GALANT, Saint-André-sur-Cailly",
+    "lat": 49.546224,
+    "lng": 1.220165,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a866add2150": {
+    "id": "9a866add2150",
+    "label": "117 RTE DE NEUFCHATEL, Saint-André-sur-Cailly",
+    "lat": 49.539634,
+    "lng": 1.221954,
+    "transactions": [
+      {
+        "date": "2022-02-04",
+        "priceEur": 166000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "f26538ad91d5": {
+    "id": "f26538ad91d5",
+    "label": "209 RTE DU VERT GALANT, Saint-André-sur-Cailly",
+    "lat": 49.545663,
+    "lng": 1.22018,
+    "transactions": [
+      {
+        "date": "2022-02-22",
+        "priceEur": 368000,
+        "typeLocal": "Maison",
+        "surfaceM2": 260,
+        "isVefa": false
+      }
+    ]
+  },
+  "872d25b5f454": {
+    "id": "872d25b5f454",
+    "label": "246 RTE DU VERT GALANT, Saint-André-sur-Cailly",
+    "lat": 49.545399,
+    "lng": 1.219485,
+    "transactions": [
+      {
+        "date": "2022-10-27",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "b64015475c67": {
+    "id": "b64015475c67",
+    "label": "701 RTE DU VERT GALANT, Saint-André-sur-Cailly",
+    "lat": 49.541822,
+    "lng": 1.222822,
+    "transactions": [
+      {
+        "date": "2024-09-30",
+        "priceEur": 243100,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9e250ef6efa": {
+    "id": "a9e250ef6efa",
+    "label": "103 RTE DE MORGNY, Saint-André-sur-Cailly",
+    "lat": 49.539975,
+    "lng": 1.22445,
+    "transactions": [
+      {
+        "date": "2025-03-19",
+        "priceEur": 244000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1b10ad9dd50": {
+    "id": "f1b10ad9dd50",
+    "label": "6 RTE DE PIERREVAL, Saint-André-sur-Cailly",
+    "lat": 49.54651,
+    "lng": 1.222534,
+    "transactions": [
+      {
+        "date": "2025-06-23",
+        "priceEur": 341500,
+        "typeLocal": "Maison",
+        "surfaceM2": 161,
+        "isVefa": false
+      }
+    ]
+  }
+}

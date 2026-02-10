@@ -1,0 +1,32 @@
+{
+  "5217a5dc46da": {
+    "id": "5217a5dc46da",
+    "label": "5188 LE BAS AULNAY, Saint-Paër",
+    "lat": 49.500211,
+    "lng": 0.896015,
+    "transactions": [
+      {
+        "date": "2021-02-17",
+        "priceEur": 136775,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "446bbe156bbf": {
+    "id": "446bbe156bbf",
+    "label": "6014 LE BAS AULNAY, Saint-Paër",
+    "lat": 49.499574,
+    "lng": 0.894958,
+    "transactions": [
+      {
+        "date": "2025-06-24",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  }
+}

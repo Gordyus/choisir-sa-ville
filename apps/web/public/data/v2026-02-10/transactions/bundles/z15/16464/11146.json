@@ -1,0 +1,32 @@
+{
+  "ba6b1d715a33": {
+    "id": "ba6b1d715a33",
+    "label": "5 RTE DES MARRONNIERS, Bretteville-Saint-Laurent",
+    "lat": 49.761906,
+    "lng": 0.879491,
+    "transactions": [
+      {
+        "date": "2022-06-09",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea26b43d808d": {
+    "id": "ea26b43d808d",
+    "label": "6 RUE SOMBRE, Bretteville-Saint-Laurent",
+    "lat": 49.760253,
+    "lng": 0.878962,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

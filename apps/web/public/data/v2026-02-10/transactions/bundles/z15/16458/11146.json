@@ -1,0 +1,62 @@
+{
+  "370e4cfb9504": {
+    "id": "370e4cfb9504",
+    "label": "143 RUE DE L EGLISE, Gonzeville",
+    "lat": 49.760752,
+    "lng": 0.813538,
+    "transactions": [
+      {
+        "date": "2020-09-15",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d4dfc492000": {
+    "id": "1d4dfc492000",
+    "label": "48 RTE DE SAINT LAURENT, Gonzeville",
+    "lat": 49.761912,
+    "lng": 0.816979,
+    "transactions": [
+      {
+        "date": "2021-07-06",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee8b20862f76": {
+    "id": "ee8b20862f76",
+    "label": "176 RUE DE L EGLISE, Gonzeville",
+    "lat": 49.761522,
+    "lng": 0.813396,
+    "transactions": [
+      {
+        "date": "2022-03-03",
+        "priceEur": 191000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ba397c2c9c1": {
+    "id": "0ba397c2c9c1",
+    "label": "105 RUE DE L EGLISE, Gonzeville",
+    "lat": 49.760699,
+    "lng": 0.813867,
+    "transactions": [
+      {
+        "date": "2023-04-28",
+        "priceEur": 302000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "5838b81452ac": {
+    "id": "5838b81452ac",
+    "label": "56 RUE EMILE ZOLA, Marquette-en-Ostrevant",
+    "lat": 50.290947,
+    "lng": 3.262064,
+    "transactions": [
+      {
+        "date": "2020-11-25",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "e4f056d28aa2": {
+    "id": "e4f056d28aa2",
+    "label": "60E RUE EMILE ZOLA, Marquette-en-Ostrevant",
+    "lat": 50.291942,
+    "lng": 3.26169,
+    "transactions": [
+      {
+        "date": "2022-02-07",
+        "priceEur": 445000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "82c3ee653239": {
+    "id": "82c3ee653239",
+    "label": "29 RUE LEON BLUM, Marquette-en-Ostrevant",
+    "lat": 50.28936,
+    "lng": 3.261502,
+    "transactions": [
+      {
+        "date": "2022-05-23",
+        "priceEur": 234900,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b6c0636d7c4": {
+    "id": "1b6c0636d7c4",
+    "label": "35 RUE LEON BLUM, Marquette-en-Ostrevant",
+    "lat": 50.289583,
+    "lng": 3.262449,
+    "transactions": [
+      {
+        "date": "2022-12-19",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd934b63f084": {
+    "id": "dd934b63f084",
+    "label": "7 DOMAINE DES BUCHONS, Marquette-en-Ostrevant",
+    "lat": 50.292005,
+    "lng": 3.262908,
+    "transactions": [
+      {
+        "date": "2023-07-31",
+        "priceEur": 360380,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

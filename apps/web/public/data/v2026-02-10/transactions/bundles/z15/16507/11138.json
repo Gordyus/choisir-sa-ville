@@ -1,0 +1,99 @@
+{
+  "1647fbb94c85": {
+    "id": "1647fbb94c85",
+    "label": "6 GR GRAND RUE DE NORMANDIE, Sainte-Agathe-d'Aliermont",
+    "lat": 49.819079,
+    "lng": 1.355818,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 1790000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-28",
+        "priceEur": 153000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "e361b32df2df": {
+    "id": "e361b32df2df",
+    "label": "1 GR GRAND RUE DE NORMANDIE, Sainte-Agathe-d'Aliermont",
+    "lat": 49.816826,
+    "lng": 1.357134,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "402657a363fa": {
+    "id": "402657a363fa",
+    "label": "34 RTE DE SAINT NICOLAS, Croixdalle",
+    "lat": 49.817857,
+    "lng": 1.356873,
+    "transactions": [
+      {
+        "date": "2021-10-26",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d393b6153a5": {
+    "id": "3d393b6153a5",
+    "label": "5062 LE BOURG, Croixdalle",
+    "lat": 49.817089,
+    "lng": 1.357832,
+    "transactions": [
+      {
+        "date": "2021-04-20",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd1022f2e7aa": {
+    "id": "dd1022f2e7aa",
+    "label": "3 GR GRAND RUE DE NORMANDIE, Sainte-Agathe-d'Aliermont",
+    "lat": 49.817031,
+    "lng": 1.35696,
+    "transactions": [
+      {
+        "date": "2022-07-26",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "465cb40a6ea7": {
+    "id": "465cb40a6ea7",
+    "label": "22 RTE DE SAINT NICOLAS, Croixdalle",
+    "lat": 49.816756,
+    "lng": 1.358312,
+    "transactions": [
+      {
+        "date": "2022-11-05",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  }
+}

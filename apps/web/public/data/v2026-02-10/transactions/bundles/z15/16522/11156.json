@@ -1,0 +1,32 @@
+{
+  "46947a0e8280": {
+    "id": "46947a0e8280",
+    "label": "5109 HODENG, Nesle-Hodeng",
+    "lat": 49.689644,
+    "lng": 1.518166,
+    "transactions": [
+      {
+        "date": "2020-09-04",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb23a54f7848": {
+    "id": "bb23a54f7848",
+    "label": "642 RTE DE HODENG, Nesle-Hodeng",
+    "lat": 49.690886,
+    "lng": 1.519114,
+    "transactions": [
+      {
+        "date": "2022-05-24",
+        "priceEur": 127500,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

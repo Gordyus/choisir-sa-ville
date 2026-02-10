@@ -1,0 +1,32 @@
+{
+  "4c4a7e4c6d2a": {
+    "id": "4c4a7e4c6d2a",
+    "label": "8 RUE COMBE ROUGE, Caussiniojouls",
+    "lat": 43.551749,
+    "lng": 3.155495,
+    "transactions": [
+      {
+        "date": "2020-12-21",
+        "priceEur": 60134,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ca55fa22601": {
+    "id": "2ca55fa22601",
+    "label": "2 RUE DE L ANCIEN PUITS, Caussiniojouls",
+    "lat": 43.550502,
+    "lng": 3.154693,
+    "transactions": [
+      {
+        "date": "2022-06-13",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

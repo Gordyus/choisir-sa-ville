@@ -1,0 +1,84 @@
+{
+  "9daa92896cc8": {
+    "id": "9daa92896cc8",
+    "label": "5093 LES GUILDINS, Heuqueville",
+    "lat": 49.62249,
+    "lng": 0.144354,
+    "transactions": [
+      {
+        "date": "2021-12-09",
+        "priceEur": 29000,
+        "typeLocal": "Maison",
+        "surfaceM2": 20,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1dfd550bc6f": {
+    "id": "e1dfd550bc6f",
+    "label": "384 RUE DE SAINT GILLES, Heuqueville",
+    "lat": 49.618921,
+    "lng": 0.15011,
+    "transactions": [
+      {
+        "date": "2024-06-07",
+        "priceEur": 257600,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-28",
+        "priceEur": 234000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "2dc63fa5afc3": {
+    "id": "2dc63fa5afc3",
+    "label": "430 RUE DE SAINT GILLES, Heuqueville",
+    "lat": 49.619319,
+    "lng": 0.150344,
+    "transactions": [
+      {
+        "date": "2022-05-18",
+        "priceEur": 248750,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "165b6983af3b": {
+    "id": "165b6983af3b",
+    "label": "183 IMP DE LA FALAISE, Heuqueville",
+    "lat": 49.617916,
+    "lng": 0.144333,
+    "transactions": [
+      {
+        "date": "2022-06-24",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ae9b49733c4": {
+    "id": "1ae9b49733c4",
+    "label": "601 IMP DE LA FALAISE, Heuqueville",
+    "lat": 49.621652,
+    "lng": 0.144623,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 184,
+        "isVefa": false
+      }
+    ]
+  }
+}

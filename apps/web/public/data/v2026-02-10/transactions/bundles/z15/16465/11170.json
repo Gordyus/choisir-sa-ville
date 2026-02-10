@@ -1,0 +1,107 @@
+{
+  "d6232c5289d4": {
+    "id": "d6232c5289d4",
+    "label": "5073 LE BOURG NORD, Mesnil-Panneville",
+    "lat": 49.59145,
+    "lng": 0.895107,
+    "transactions": [
+      {
+        "date": "2020-10-08",
+        "priceEur": 163770,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a5f6075657b": {
+    "id": "4a5f6075657b",
+    "label": "5070 LE BOURG SUD, Mesnil-Panneville",
+    "lat": 49.589933,
+    "lng": 0.891654,
+    "transactions": [
+      {
+        "date": "2021-11-24",
+        "priceEur": 228800,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "dfd3c38b0f79": {
+    "id": "dfd3c38b0f79",
+    "label": "13 RUE DU CLOS DU MESNIL, Mesnil-Panneville",
+    "lat": 49.590047,
+    "lng": 0.893804,
+    "transactions": [
+      {
+        "date": "2021-08-27",
+        "priceEur": 239500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "0bf649aae665": {
+    "id": "0bf649aae665",
+    "label": "5005 LE BOURG SUD, Mesnil-Panneville",
+    "lat": 49.59106,
+    "lng": 0.892051,
+    "transactions": [
+      {
+        "date": "2021-09-01",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  },
+  "24d058b47522": {
+    "id": "24d058b47522",
+    "label": "5008D LE BOURG NORD, Mesnil-Panneville",
+    "lat": 49.591176,
+    "lng": 0.892673,
+    "transactions": [
+      {
+        "date": "2022-07-18",
+        "priceEur": 261000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "184f8cc9dea3": {
+    "id": "184f8cc9dea3",
+    "label": "108 RTE DU BOURG SUD, Mesnil-Panneville",
+    "lat": 49.592562,
+    "lng": 0.890636,
+    "transactions": [
+      {
+        "date": "2022-07-19",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8e4f5d75382": {
+    "id": "e8e4f5d75382",
+    "label": "1266 RTE DU BOURG, Mesnil-Panneville",
+    "lat": 49.592617,
+    "lng": 0.896037,
+    "transactions": [
+      {
+        "date": "2024-12-06",
+        "priceEur": 15000,
+        "typeLocal": "Maison",
+        "surfaceM2": 28,
+        "isVefa": false
+      }
+    ]
+  }
+}

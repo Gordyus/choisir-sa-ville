@@ -1,0 +1,53 @@
+{
+  "032696cd14a9": {
+    "id": "032696cd14a9",
+    "label": "99 RUE DU FORT ROUGE, Renescure",
+    "lat": 50.735972,
+    "lng": 2.344944,
+    "transactions": [
+      {
+        "date": "2022-07-20",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-20",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-20",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-20",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e1d996b8baf": {
+    "id": "3e1d996b8baf",
+    "label": "89 RUE DU FORT ROUGE, Renescure",
+    "lat": 50.73637,
+    "lng": 2.346323,
+    "transactions": [
+      {
+        "date": "2025-01-31",
+        "priceEur": 163500,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  }
+}

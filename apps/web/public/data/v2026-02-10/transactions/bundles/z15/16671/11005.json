@@ -1,0 +1,868 @@
+{
+  "7c336fcc1a10": {
+    "id": "7c336fcc1a10",
+    "label": "4 RUE MAXENCE VANDERMEERSCH, Neuville-en-Ferrain",
+    "lat": 50.753747,
+    "lng": 3.157325,
+    "transactions": [
+      {
+        "date": "2020-08-28",
+        "priceEur": 262250,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "32a82e4143e9": {
+    "id": "32a82e4143e9",
+    "label": "22C RUE JULES VERNE, Neuville-en-Ferrain",
+    "lat": 50.750707,
+    "lng": 3.159417,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 238000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-11",
+        "priceEur": 207000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "43e7c0b2f712": {
+    "id": "43e7c0b2f712",
+    "label": "39 RUE JEAN DE LA FONTAINE, Neuville-en-Ferrain",
+    "lat": 50.75187,
+    "lng": 3.157538,
+    "transactions": [
+      {
+        "date": "2020-09-18",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "a4e971914fc1": {
+    "id": "a4e971914fc1",
+    "label": "32 RUE ALPHONSE DAUDET, Neuville-en-Ferrain",
+    "lat": 50.750928,
+    "lng": 3.157248,
+    "transactions": [
+      {
+        "date": "2020-09-23",
+        "priceEur": 246580,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "610e221c015b": {
+    "id": "610e221c015b",
+    "label": "11 RUE MOLIERE, Neuville-en-Ferrain",
+    "lat": 50.752391,
+    "lng": 3.155462,
+    "transactions": [
+      {
+        "date": "2020-10-14",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb142f0000c1": {
+    "id": "cb142f0000c1",
+    "label": "12 RUE HONORE DE BALZAC, Neuville-en-Ferrain",
+    "lat": 50.751421,
+    "lng": 3.1586,
+    "transactions": [
+      {
+        "date": "2020-11-12",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "b427c7bad430": {
+    "id": "b427c7bad430",
+    "label": "67 RUE MAXENCE VANDERMEERSCH, Neuville-en-Ferrain",
+    "lat": 50.75266,
+    "lng": 3.159586,
+    "transactions": [
+      {
+        "date": "2020-11-20",
+        "priceEur": 247000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "e195ada1650f": {
+    "id": "e195ada1650f",
+    "label": "71 RUE MAXENCE VANDERMEERSCH, Neuville-en-Ferrain",
+    "lat": 50.752506,
+    "lng": 3.159645,
+    "transactions": [
+      {
+        "date": "2020-12-03",
+        "priceEur": 253000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "8bf135d79fd2": {
+    "id": "8bf135d79fd2",
+    "label": "49 RUE JULES VERNE, Neuville-en-Ferrain",
+    "lat": 50.750395,
+    "lng": 3.160897,
+    "transactions": [
+      {
+        "date": "2021-01-13",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "4eca256fa10d": {
+    "id": "4eca256fa10d",
+    "label": "10 ALL ALFRED DE MUSSET, Neuville-en-Ferrain",
+    "lat": 50.752606,
+    "lng": 3.158233,
+    "transactions": [
+      {
+        "date": "2021-01-20",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "a29748d60d09": {
+    "id": "a29748d60d09",
+    "label": "31 RUE JULES VERNE, Neuville-en-Ferrain",
+    "lat": 50.750898,
+    "lng": 3.160277,
+    "transactions": [
+      {
+        "date": "2021-02-10",
+        "priceEur": 250500,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf6beb0f700d": {
+    "id": "cf6beb0f700d",
+    "label": "35 RUE VICTOR HUGO, Neuville-en-Ferrain",
+    "lat": 50.751793,
+    "lng": 3.156,
+    "transactions": [
+      {
+        "date": "2021-03-26",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "02f68c48b6cc": {
+    "id": "02f68c48b6cc",
+    "label": "14 RUE ALPHONSE DAUDET, Neuville-en-Ferrain",
+    "lat": 50.750609,
+    "lng": 3.156341,
+    "transactions": [
+      {
+        "date": "2021-04-16",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c519287a103": {
+    "id": "1c519287a103",
+    "label": "22D RUE JULES VERNE, Neuville-en-Ferrain",
+    "lat": 50.750707,
+    "lng": 3.159417,
+    "transactions": [
+      {
+        "date": "2025-03-12",
+        "priceEur": 206000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-28",
+        "priceEur": 156000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-26",
+        "priceEur": 217000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-18",
+        "priceEur": 239500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "2101eed8e829": {
+    "id": "2101eed8e829",
+    "label": "22 RUE DE RECKEM, Neuville-en-Ferrain",
+    "lat": 50.751941,
+    "lng": 3.153396,
+    "transactions": [
+      {
+        "date": "2021-05-12",
+        "priceEur": 377500,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "b2d1b7851143": {
+    "id": "b2d1b7851143",
+    "label": "69 RUE MAXENCE VANDERMEERSCH, Neuville-en-Ferrain",
+    "lat": 50.752584,
+    "lng": 3.159578,
+    "transactions": [
+      {
+        "date": "2021-06-11",
+        "priceEur": 261000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c05fbead1cf": {
+    "id": "1c05fbead1cf",
+    "label": "22B RUE JULES VERNE, Neuville-en-Ferrain",
+    "lat": 50.750707,
+    "lng": 3.159417,
+    "transactions": [
+      {
+        "date": "2021-05-21",
+        "priceEur": 293000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "cdfeeb747448": {
+    "id": "cdfeeb747448",
+    "label": "3 RUE MOLIERE, Neuville-en-Ferrain",
+    "lat": 50.752253,
+    "lng": 3.155049,
+    "transactions": [
+      {
+        "date": "2021-06-23",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "94e1a1b02dfb": {
+    "id": "94e1a1b02dfb",
+    "label": "23 RUE VICTOR HUGO, Neuville-en-Ferrain",
+    "lat": 50.751707,
+    "lng": 3.154535,
+    "transactions": [
+      {
+        "date": "2021-07-13",
+        "priceEur": 237000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "4104803921e7": {
+    "id": "4104803921e7",
+    "label": "10 RUE MAXENCE VANDERMEERSCH, Neuville-en-Ferrain",
+    "lat": 50.753533,
+    "lng": 3.157894,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 277000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "f38c2e767f8f": {
+    "id": "f38c2e767f8f",
+    "label": "42 RUE DE RECKEM, Neuville-en-Ferrain",
+    "lat": 50.752547,
+    "lng": 3.154064,
+    "transactions": [
+      {
+        "date": "2021-08-30",
+        "priceEur": 247000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "5243f0b15e99": {
+    "id": "5243f0b15e99",
+    "label": "40 RUE VICTOR HUGO, Neuville-en-Ferrain",
+    "lat": 50.751611,
+    "lng": 3.15687,
+    "transactions": [
+      {
+        "date": "2025-06-30",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-24",
+        "priceEur": 235300,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "6bb90abe37bf": {
+    "id": "6bb90abe37bf",
+    "label": "36 RUE JEAN DE LA FONTAINE, Neuville-en-Ferrain",
+    "lat": 50.750955,
+    "lng": 3.157778,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "875ab6db6f19": {
+    "id": "875ab6db6f19",
+    "label": "21 RUE ALPHONSE DAUDET, Neuville-en-Ferrain",
+    "lat": 50.750939,
+    "lng": 3.156143,
+    "transactions": [
+      {
+        "date": "2025-05-09",
+        "priceEur": 180338,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-28",
+        "priceEur": 321000,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f12476b45e5": {
+    "id": "7f12476b45e5",
+    "label": "7 RUE HONORE DE BALZAC, Neuville-en-Ferrain",
+    "lat": 50.751986,
+    "lng": 3.158817,
+    "transactions": [
+      {
+        "date": "2022-04-26",
+        "priceEur": 298000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c2c29d3fd40": {
+    "id": "1c2c29d3fd40",
+    "label": "7 RUE MOLIERE, Neuville-en-Ferrain",
+    "lat": 50.752313,
+    "lng": 3.15524,
+    "transactions": [
+      {
+        "date": "2022-06-13",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5aba9d8c393": {
+    "id": "f5aba9d8c393",
+    "label": "9 RUE HONORE DE BALZAC, Neuville-en-Ferrain",
+    "lat": 50.752103,
+    "lng": 3.159124,
+    "transactions": [
+      {
+        "date": "2022-08-05",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "2614c27a394d": {
+    "id": "2614c27a394d",
+    "label": "25 RUE MAXENCE VANDERMEERSCH, Neuville-en-Ferrain",
+    "lat": 50.753819,
+    "lng": 3.158234,
+    "transactions": [
+      {
+        "date": "2022-08-25",
+        "priceEur": 265865,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "ef6edf8d7b17": {
+    "id": "ef6edf8d7b17",
+    "label": "45 RUE JULES VERNE, Neuville-en-Ferrain",
+    "lat": 50.750486,
+    "lng": 3.160728,
+    "transactions": [
+      {
+        "date": "2022-09-26",
+        "priceEur": 317000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "db6b2646b9b6": {
+    "id": "db6b2646b9b6",
+    "label": "22A RUE JULES VERNE, Neuville-en-Ferrain",
+    "lat": 50.750707,
+    "lng": 3.159417,
+    "transactions": [
+      {
+        "date": "2023-05-05",
+        "priceEur": 219000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-04",
+        "priceEur": 252000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa015bdcb725": {
+    "id": "aa015bdcb725",
+    "label": "4 RUE MOLIERE, Neuville-en-Ferrain",
+    "lat": 50.751886,
+    "lng": 3.155363,
+    "transactions": [
+      {
+        "date": "2022-10-13",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "d34af4542886": {
+    "id": "d34af4542886",
+    "label": "37 RUE JULES VERNE, Neuville-en-Ferrain",
+    "lat": 50.750731,
+    "lng": 3.160404,
+    "transactions": [
+      {
+        "date": "2022-12-23",
+        "priceEur": 223000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "47b1b3127a24": {
+    "id": "47b1b3127a24",
+    "label": "45 RUE MAXENCE VANDERMEERSCH, Neuville-en-Ferrain",
+    "lat": 50.753345,
+    "lng": 3.159151,
+    "transactions": [
+      {
+        "date": "2022-12-12",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd5607a7aca3": {
+    "id": "cd5607a7aca3",
+    "label": "16 ALL ALFRED DE MUSSET, Neuville-en-Ferrain",
+    "lat": 50.753623,
+    "lng": 3.15696,
+    "transactions": [
+      {
+        "date": "2023-03-07",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "d0f2416e4507": {
+    "id": "d0f2416e4507",
+    "label": "20 RUE MAXENCE VANDERMEERSCH, Neuville-en-Ferrain",
+    "lat": 50.75292,
+    "lng": 3.158589,
+    "transactions": [
+      {
+        "date": "2023-11-16",
+        "priceEur": 333600,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-07",
+        "priceEur": 231000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "c38f4b511666": {
+    "id": "c38f4b511666",
+    "label": "47 RUE ALPHONSE DAUDET, Neuville-en-Ferrain",
+    "lat": 50.751419,
+    "lng": 3.157447,
+    "transactions": [
+      {
+        "date": "2023-03-31",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "24d6cd7fef4e": {
+    "id": "24d6cd7fef4e",
+    "label": "40 RUE JEAN DE LA FONTAINE, Neuville-en-Ferrain",
+    "lat": 50.750852,
+    "lng": 3.157939,
+    "transactions": [
+      {
+        "date": "2023-03-31",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a42ab06c8e2": {
+    "id": "9a42ab06c8e2",
+    "label": "32 RUE VICTOR HUGO, Neuville-en-Ferrain",
+    "lat": 50.751451,
+    "lng": 3.156486,
+    "transactions": [
+      {
+        "date": "2023-04-18",
+        "priceEur": 244550,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ddf0a8b0d20": {
+    "id": "7ddf0a8b0d20",
+    "label": "1 SQ DES ROSIERS, Neuville-en-Ferrain",
+    "lat": 50.752677,
+    "lng": 3.156747,
+    "transactions": [
+      {
+        "date": "2023-06-13",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ab266872da4": {
+    "id": "0ab266872da4",
+    "label": "11 RUE JULES VERNE, Neuville-en-Ferrain",
+    "lat": 50.75158,
+    "lng": 3.159853,
+    "transactions": [
+      {
+        "date": "2023-08-03",
+        "priceEur": 262000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac3b3ab98739": {
+    "id": "ac3b3ab98739",
+    "label": "6 RUE MAXENCE VANDERMEERSCH, Neuville-en-Ferrain",
+    "lat": 50.753644,
+    "lng": 3.15742,
+    "transactions": [
+      {
+        "date": "2023-08-30",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "9fad7fd7768e": {
+    "id": "9fad7fd7768e",
+    "label": "30 RUE ALPHONSE DAUDET, Neuville-en-Ferrain",
+    "lat": 50.750872,
+    "lng": 3.157177,
+    "transactions": [
+      {
+        "date": "2023-11-15",
+        "priceEur": 265700,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff33d263a02b": {
+    "id": "ff33d263a02b",
+    "label": "38 RUE VICTOR HUGO, Neuville-en-Ferrain",
+    "lat": 50.751585,
+    "lng": 3.156737,
+    "transactions": [
+      {
+        "date": "2024-01-31",
+        "priceEur": 282500,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "048a54a87457": {
+    "id": "048a54a87457",
+    "label": "50 RUE DE RECKEM, Neuville-en-Ferrain",
+    "lat": 50.752621,
+    "lng": 3.154427,
+    "transactions": [
+      {
+        "date": "2024-03-19",
+        "priceEur": 153000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "573b10ec072e": {
+    "id": "573b10ec072e",
+    "label": "47 RUE VICTOR HUGO, Neuville-en-Ferrain",
+    "lat": 50.752015,
+    "lng": 3.156655,
+    "transactions": [
+      {
+        "date": "2024-05-06",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "46551f2b130b": {
+    "id": "46551f2b130b",
+    "label": "8 RUE MAXENCE VANDERMEERSCH, Neuville-en-Ferrain",
+    "lat": 50.753578,
+    "lng": 3.157683,
+    "transactions": [
+      {
+        "date": "2024-05-28",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a6b9a8b72bf": {
+    "id": "3a6b9a8b72bf",
+    "label": "5 RUE JEAN DE LA FONTAINE, Neuville-en-Ferrain",
+    "lat": 50.753439,
+    "lng": 3.156337,
+    "transactions": [
+      {
+        "date": "2024-05-28",
+        "priceEur": 272590,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "20ddba0ffe86": {
+    "id": "20ddba0ffe86",
+    "label": "37 RUE DE TOURCOING, Neuville-en-Ferrain",
+    "lat": 50.750365,
+    "lng": 3.154253,
+    "transactions": [
+      {
+        "date": "2024-06-21",
+        "priceEur": 161000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "01aeebebdf08": {
+    "id": "01aeebebdf08",
+    "label": "1 RUE JEAN DE LA FONTAINE, Neuville-en-Ferrain",
+    "lat": 50.753563,
+    "lng": 3.156266,
+    "transactions": [
+      {
+        "date": "2024-07-02",
+        "priceEur": 227000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "53ecb22e7e9d": {
+    "id": "53ecb22e7e9d",
+    "label": "21 RUE JEAN DE LA FONTAINE, Neuville-en-Ferrain",
+    "lat": 50.752944,
+    "lng": 3.156692,
+    "transactions": [
+      {
+        "date": "2024-10-11",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "27bd4bcdcab1": {
+    "id": "27bd4bcdcab1",
+    "label": "10 RUE JEAN DE LA FONTAINE, Neuville-en-Ferrain",
+    "lat": 50.752604,
+    "lng": 3.156264,
+    "transactions": [
+      {
+        "date": "2025-02-13",
+        "priceEur": 231000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3854a2aa757": {
+    "id": "a3854a2aa757",
+    "label": "6 RUE JULES VERNE, Neuville-en-Ferrain",
+    "lat": 50.751593,
+    "lng": 3.159245,
+    "transactions": [
+      {
+        "date": "2025-02-28",
+        "priceEur": 279000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee1b749276ef": {
+    "id": "ee1b749276ef",
+    "label": "1 RUE JEAN RACINE, Neuville-en-Ferrain",
+    "lat": 50.752735,
+    "lng": 3.155671,
+    "transactions": [
+      {
+        "date": "2025-03-25",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d145902ae16": {
+    "id": "5d145902ae16",
+    "label": "14 RUE JEAN DE LA FONTAINE, Neuville-en-Ferrain",
+    "lat": 50.752404,
+    "lng": 3.156385,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  }
+}

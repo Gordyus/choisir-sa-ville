@@ -1,0 +1,32 @@
+{
+  "041b11726a34": {
+    "id": "041b11726a34",
+    "label": "7 RTE DES ESSARTS, Callengeville",
+    "lat": 49.818375,
+    "lng": 1.526089,
+    "transactions": [
+      {
+        "date": "2023-10-11",
+        "priceEur": 114000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "0fd053ad41a1": {
+    "id": "0fd053ad41a1",
+    "label": "62 RTE DES POLONAIS, Callengeville",
+    "lat": 49.816924,
+    "lng": 1.523856,
+    "transactions": [
+      {
+        "date": "2024-12-18",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "8361b68cd82d": {
+    "id": "8361b68cd82d",
+    "label": "5058 L OURAILLE, Hénouville",
+    "lat": 49.489553,
+    "lng": 0.972599,
+    "transactions": [
+      {
+        "date": "2022-08-31",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-31",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 194,
+        "isVefa": false
+      }
+    ]
+  },
+  "78b7cd392ce5": {
+    "id": "78b7cd392ce5",
+    "label": "649 LE HAUT DE L OURAILLE, La Vaupalière",
+    "lat": 49.489904,
+    "lng": 0.969681,
+    "transactions": [
+      {
+        "date": "2025-01-09",
+        "priceEur": 253000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  }
+}

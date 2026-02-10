@@ -1,0 +1,47 @@
+{
+  "53e591317d9c": {
+    "id": "53e591317d9c",
+    "label": "5194 FERME MOUCHY, Manéglise",
+    "lat": 49.584132,
+    "lng": 0.25206,
+    "transactions": [
+      {
+        "date": "2021-03-16",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d79a12050c3": {
+    "id": "2d79a12050c3",
+    "label": "5315 FERME MOUCHY, Manéglise",
+    "lat": 49.58381,
+    "lng": 0.252624,
+    "transactions": [
+      {
+        "date": "2021-10-18",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "b902b68a35e4": {
+    "id": "b902b68a35e4",
+    "label": "29 RTE DU MOUCHY, Manéglise",
+    "lat": 49.584519,
+    "lng": 0.252345,
+    "transactions": [
+      {
+        "date": "2024-06-27",
+        "priceEur": 156000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

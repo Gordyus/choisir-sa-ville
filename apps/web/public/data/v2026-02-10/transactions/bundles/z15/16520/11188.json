@@ -1,0 +1,99 @@
+{
+  "d56ffea14a98": {
+    "id": "d56ffea14a98",
+    "label": "11 RUE DU RICHEBOURG, La Feuillie",
+    "lat": 49.465328,
+    "lng": 1.502141,
+    "transactions": [
+      {
+        "date": "2021-07-19",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "7aee59cd830e": {
+    "id": "7aee59cd830e",
+    "label": "136 RTE DE MORVILLE, La Feuillie",
+    "lat": 49.466148,
+    "lng": 1.50024,
+    "transactions": [
+      {
+        "date": "2022-10-25",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-03",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc12e9c46f26": {
+    "id": "bc12e9c46f26",
+    "label": "115 RTE DE MORVILLE, La Feuillie",
+    "lat": 49.46646,
+    "lng": 1.50334,
+    "transactions": [
+      {
+        "date": "2023-04-18",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 157,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a5906418f99": {
+    "id": "3a5906418f99",
+    "label": "40 RUE DU RICHEBOURG, La Feuillie",
+    "lat": 49.463132,
+    "lng": 1.503688,
+    "transactions": [
+      {
+        "date": "2024-01-29",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "5330d5bcce75": {
+    "id": "5330d5bcce75",
+    "label": "131 RTE DE MORVILLE, La Feuillie",
+    "lat": 49.466085,
+    "lng": 1.501697,
+    "transactions": [
+      {
+        "date": "2025-03-18",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "042ac3ca6b3d": {
+    "id": "042ac3ca6b3d",
+    "label": "139 RTE DE MORVILLE, La Feuillie",
+    "lat": 49.465397,
+    "lng": 1.500704,
+    "transactions": [
+      {
+        "date": "2025-04-02",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

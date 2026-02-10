@@ -1,0 +1,107 @@
+{
+  "4ceca7717422": {
+    "id": "4ceca7717422",
+    "label": "9002 L ARBALETE, Saint-Maclou-de-Folleville",
+    "lat": 49.69266,
+    "lng": 1.095477,
+    "transactions": [
+      {
+        "date": "2020-11-10",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "305a46805be7": {
+    "id": "305a46805be7",
+    "label": "90 CHE DE LA SOURCE, Vassonville",
+    "lat": 49.695236,
+    "lng": 1.093624,
+    "transactions": [
+      {
+        "date": "2021-11-10",
+        "priceEur": 428000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "e7a85189bb95": {
+    "id": "e7a85189bb95",
+    "label": "35 RTE DE L'EGLISE, Vassonville",
+    "lat": 49.694728,
+    "lng": 1.091667,
+    "transactions": [
+      {
+        "date": "2021-06-25",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d38e2eac003": {
+    "id": "1d38e2eac003",
+    "label": "1670 RTE DE L'ARBALETE, Saint-Maclou-de-Folleville",
+    "lat": 49.693541,
+    "lng": 1.095216,
+    "transactions": [
+      {
+        "date": "2021-08-30",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "494c9c454827": {
+    "id": "494c9c454827",
+    "label": "200 IMP BELLEVUE, Vassonville",
+    "lat": 49.693553,
+    "lng": 1.089737,
+    "transactions": [
+      {
+        "date": "2022-01-25",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "abe072c54bfa": {
+    "id": "abe072c54bfa",
+    "label": "75 RTE DE LA SCIE, Vassonville",
+    "lat": 49.693631,
+    "lng": 1.093879,
+    "transactions": [
+      {
+        "date": "2024-07-17",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "4580c4848081": {
+    "id": "4580c4848081",
+    "label": "230 IMP BELLEVUE, Vassonville",
+    "lat": 49.693022,
+    "lng": 1.08999,
+    "transactions": [
+      {
+        "date": "2025-02-17",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

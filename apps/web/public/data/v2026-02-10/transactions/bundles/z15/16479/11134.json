@@ -1,0 +1,32 @@
+{
+  "1c8d89337244": {
+    "id": "1c8d89337244",
+    "label": "576 RTE DE LA MARE, Sauqueville",
+    "lat": 49.85215,
+    "lng": 1.04916,
+    "transactions": [
+      {
+        "date": "2020-08-25",
+        "priceEur": 174332,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "0f78eb3cfb56": {
+    "id": "0f78eb3cfb56",
+    "label": "393 RTE DE LA MARE, Sauqueville",
+    "lat": 49.85185,
+    "lng": 1.052116,
+    "transactions": [
+      {
+        "date": "2023-01-31",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  }
+}

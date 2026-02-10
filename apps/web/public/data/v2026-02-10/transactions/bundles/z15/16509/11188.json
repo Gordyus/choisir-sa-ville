@@ -1,0 +1,32 @@
+{
+  "e3673bf445bc": {
+    "id": "e3673bf445bc",
+    "label": "1493 RTE DES HOUIS, Saint-Denis-le-Thiboult",
+    "lat": 49.464463,
+    "lng": 1.377845,
+    "transactions": [
+      {
+        "date": "2021-09-08",
+        "priceEur": 89000,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "119a4beaec37": {
+    "id": "119a4beaec37",
+    "label": "1462 RTE DES HOUIS, Saint-Denis-le-Thiboult",
+    "lat": 49.464992,
+    "lng": 1.37782,
+    "transactions": [
+      {
+        "date": "2024-03-11",
+        "priceEur": 209000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

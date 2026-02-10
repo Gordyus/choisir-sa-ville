@@ -1,0 +1,32 @@
+{
+  "87751ebfbd51": {
+    "id": "87751ebfbd51",
+    "label": "5042 HODENG, Hodeng-Hodenger",
+    "lat": 49.532834,
+    "lng": 1.570734,
+    "transactions": [
+      {
+        "date": "2022-05-20",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "e9b88e21f2b9": {
+    "id": "e9b88e21f2b9",
+    "label": "43 RTE PRINCIPALE, Hodeng-Hodenger",
+    "lat": 49.532924,
+    "lng": 1.569636,
+    "transactions": [
+      {
+        "date": "2024-04-09",
+        "priceEur": 301300,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  }
+}

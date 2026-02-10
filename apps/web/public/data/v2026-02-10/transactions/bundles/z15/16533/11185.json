@@ -1,0 +1,47 @@
+{
+  "9182a3f26b4c": {
+    "id": "9182a3f26b4c",
+    "label": "5008 RUE TAILLEFER, Elbeuf-en-Bray",
+    "lat": 49.48711,
+    "lng": 1.643049,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 94000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "39eff173301f": {
+    "id": "39eff173301f",
+    "label": "93 RUE DE LA LIBERTE, Elbeuf-en-Bray",
+    "lat": 49.486344,
+    "lng": 1.641708,
+    "transactions": [
+      {
+        "date": "2020-08-27",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc6cffe84e5a": {
+    "id": "cc6cffe84e5a",
+    "label": "15 RUE DES BONS ENFANTS, Elbeuf-en-Bray",
+    "lat": 49.485524,
+    "lng": 1.643047,
+    "transactions": [
+      {
+        "date": "2022-06-07",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "0f43a964b614": {
+    "id": "0f43a964b614",
+    "label": "5351F ANDABRE, Rosis",
+    "lat": 43.667455,
+    "lng": 3.011312,
+    "transactions": [
+      {
+        "date": "2021-10-11",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6db282632ed": {
+    "id": "d6db282632ed",
+    "label": "5168 ANDABRE, Rosis",
+    "lat": 43.667865,
+    "lng": 3.012479,
+    "transactions": [
+      {
+        "date": "2023-09-25",
+        "priceEur": 203700,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  }
+}

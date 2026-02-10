@@ -1,0 +1,62 @@
+{
+  "910509a9c145": {
+    "id": "910509a9c145",
+    "label": "279 CHE DU TEMPS PERDU, Montigny",
+    "lat": 49.461494,
+    "lng": 0.990453,
+    "transactions": [
+      {
+        "date": "2023-09-11",
+        "priceEur": 318200,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "53333bc2e6a7": {
+    "id": "53333bc2e6a7",
+    "label": "3 RES LE FAIRWAY, Montigny",
+    "lat": 49.461417,
+    "lng": 0.999653,
+    "transactions": [
+      {
+        "date": "2024-06-26",
+        "priceEur": 348000,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "329da53c94f6": {
+    "id": "329da53c94f6",
+    "label": "116 CHE DE LA CHAUPIERE, Montigny",
+    "lat": 49.462109,
+    "lng": 0.999174,
+    "transactions": [
+      {
+        "date": "2025-01-22",
+        "priceEur": 610600,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "e4a086da8863": {
+    "id": "e4a086da8863",
+    "label": "133 RUE DE LA CHAUPIERE, Montigny",
+    "lat": 49.461375,
+    "lng": 0.998432,
+    "transactions": [
+      {
+        "date": "2025-04-23",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 263,
+        "isVefa": false
+      }
+    ]
+  }
+}

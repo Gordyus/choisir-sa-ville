@@ -1,0 +1,129 @@
+{
+  "3a527c520b7d": {
+    "id": "3a527c520b7d",
+    "label": "5480 LE HAUT DE SAINT LEGER, Foucarmont",
+    "lat": 49.845582,
+    "lng": 1.573521,
+    "transactions": [
+      {
+        "date": "2021-10-22",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ed961c7b271": {
+    "id": "9ed961c7b271",
+    "label": "24B RUE DOUCE, Foucarmont",
+    "lat": 49.846621,
+    "lng": 1.571265,
+    "transactions": [
+      {
+        "date": "2021-01-09",
+        "priceEur": 84000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "eeedebe4186d": {
+    "id": "eeedebe4186d",
+    "label": "5048 LE HAUT DE SAINT LEGER, Foucarmont",
+    "lat": 49.845782,
+    "lng": 1.572066,
+    "transactions": [
+      {
+        "date": "2021-04-13",
+        "priceEur": 65100,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "01766ef9a789": {
+    "id": "01766ef9a789",
+    "label": "5049 LE HAUT DE SAINT LEGER, Foucarmont",
+    "lat": 49.845495,
+    "lng": 1.571877,
+    "transactions": [
+      {
+        "date": "2021-05-11",
+        "priceEur": 73000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "6c30c9cf1476": {
+    "id": "6c30c9cf1476",
+    "label": "5030 BOURG DE FOUCARMONT, Foucarmont",
+    "lat": 49.846805,
+    "lng": 1.571833,
+    "transactions": [
+      {
+        "date": "2021-09-15",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "7200853288f6": {
+    "id": "7200853288f6",
+    "label": "5031 BOURG DE FOUCARMONT, Foucarmont",
+    "lat": 49.846843,
+    "lng": 1.572214,
+    "transactions": [
+      {
+        "date": "2022-03-26",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "44bad4e4c1ee": {
+    "id": "44bad4e4c1ee",
+    "label": "12 RUE CHARLES DESJONQUERES, Foucarmont",
+    "lat": 49.849192,
+    "lng": 1.572504,
+    "transactions": [
+      {
+        "date": "2024-05-15",
+        "priceEur": 151000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ad845d7d8bd": {
+    "id": "2ad845d7d8bd",
+    "label": "59 RUE DOUCE, Foucarmont",
+    "lat": 49.845785,
+    "lng": 1.574082,
+    "transactions": [
+      {
+        "date": "2024-07-31",
+        "priceEur": 96000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-31",
+        "priceEur": 96000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  }
+}

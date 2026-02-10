@@ -1,0 +1,47 @@
+{
+  "1b0fa8a286bc": {
+    "id": "1b0fa8a286bc",
+    "label": "25 RUE DU PETIT PRINCE, Houplines",
+    "lat": 50.694634,
+    "lng": 2.922824,
+    "transactions": [
+      {
+        "date": "2021-07-22",
+        "priceEur": 372150,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "2602d6e1d5bb": {
+    "id": "2602d6e1d5bb",
+    "label": "19 RUE DU PETIT PRINCE, Houplines",
+    "lat": 50.694132,
+    "lng": 2.922817,
+    "transactions": [
+      {
+        "date": "2025-01-30",
+        "priceEur": 305500,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "b456273d2c33": {
+    "id": "b456273d2c33",
+    "label": "114 RUE BRUNE, Houplines",
+    "lat": 50.688607,
+    "lng": 2.930743,
+    "transactions": [
+      {
+        "date": "2025-02-18",
+        "priceEur": 227000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

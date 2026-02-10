@@ -1,0 +1,105 @@
+{
+  "d7fcfd475a84": {
+    "id": "d7fcfd475a84",
+    "label": "138 RUE DE CASSEL, Neuf-Berquin",
+    "lat": 50.669984,
+    "lng": 2.659128,
+    "transactions": [
+      {
+        "date": "2021-09-03",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 185,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-03",
+        "priceEur": 250000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-03",
+        "priceEur": 250000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-03",
+        "priceEur": 250000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-03",
+        "priceEur": 250000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "1baf14324d94": {
+    "id": "1baf14324d94",
+    "label": "2B RUE DE L HAUT BLE, Neuf-Berquin",
+    "lat": 50.67266,
+    "lng": 2.664286,
+    "transactions": [
+      {
+        "date": "2021-09-08",
+        "priceEur": 182500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c258b936d82": {
+    "id": "4c258b936d82",
+    "label": "133 RUE DE CASSEL, Neuf-Berquin",
+    "lat": 50.66938,
+    "lng": 2.660298,
+    "transactions": [
+      {
+        "date": "2021-12-08",
+        "priceEur": 342000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "3cebf123090e": {
+    "id": "3cebf123090e",
+    "label": "130 RUE DE CASSEL, Neuf-Berquin",
+    "lat": 50.667202,
+    "lng": 2.660146,
+    "transactions": [
+      {
+        "date": "2023-11-28",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "24b787e64139": {
+    "id": "24b787e64139",
+    "label": "4 RUE DE L HAUT BLE, Neuf-Berquin",
+    "lat": 50.673461,
+    "lng": 2.66454,
+    "transactions": [
+      {
+        "date": "2024-11-04",
+        "priceEur": 48000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

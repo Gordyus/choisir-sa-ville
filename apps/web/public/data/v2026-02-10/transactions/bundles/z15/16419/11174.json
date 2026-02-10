@@ -1,0 +1,32 @@
+{
+  "b9dc6fe8e54c": {
+    "id": "b9dc6fe8e54c",
+    "label": "9001 BLEVILLOT HAMEAU, Saint-Gilles-de-la-Neuville",
+    "lat": 49.566366,
+    "lng": 0.389485,
+    "transactions": [
+      {
+        "date": "2020-08-07",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd8fd7bf0e3d": {
+    "id": "bd8fd7bf0e3d",
+    "label": "5148 LE BAS DE LA MARE AU LEU, Les Trois-Pierres",
+    "lat": 49.560931,
+    "lng": 0.391306,
+    "transactions": [
+      {
+        "date": "2021-04-16",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  }
+}

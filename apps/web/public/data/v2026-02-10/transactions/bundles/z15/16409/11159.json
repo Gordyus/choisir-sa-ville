@@ -1,0 +1,39 @@
+{
+  "6f4acd5aac72": {
+    "id": "6f4acd5aac72",
+    "label": "1560 RTE DU FOND DU BOIS, Cuverville",
+    "lat": 49.669207,
+    "lng": 0.276714,
+    "transactions": [
+      {
+        "date": "2020-11-18",
+        "priceEur": 268000,
+        "typeLocal": "Maison",
+        "surfaceM2": 34,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-18",
+        "priceEur": 268000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c24523f590d": {
+    "id": "4c24523f590d",
+    "label": "5012 LA FERRANDERIE, Cuverville",
+    "lat": 49.669349,
+    "lng": 0.277918,
+    "transactions": [
+      {
+        "date": "2021-03-11",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  }
+}

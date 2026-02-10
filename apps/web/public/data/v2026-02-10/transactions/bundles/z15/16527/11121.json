@@ -1,0 +1,54 @@
+{
+  "ed1abcb699fe": {
+    "id": "ed1abcb699fe",
+    "label": "5198 LE BOURG, Rieux",
+    "lat": 49.939094,
+    "lng": 1.582,
+    "transactions": [
+      {
+        "date": "2021-11-17",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "20cc2432b3f9": {
+    "id": "20cc2432b3f9",
+    "label": "5032 LE FOND DE MONCHAUX, Rieux",
+    "lat": 49.938528,
+    "lng": 1.581986,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "7831c7653edc": {
+    "id": "7831c7653edc",
+    "label": "5030 LE BOURG, Rieux",
+    "lat": 49.938273,
+    "lng": 1.58031,
+    "transactions": [
+      {
+        "date": "2021-02-26",
+        "priceEur": 295000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-26",
+        "priceEur": 295000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

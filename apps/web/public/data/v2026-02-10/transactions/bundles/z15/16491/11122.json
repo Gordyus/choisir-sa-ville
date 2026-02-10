@@ -1,0 +1,54 @@
+{
+  "31b3c38847c9": {
+    "id": "31b3c38847c9",
+    "label": "5 LA PETITE SOLE DERCHIGNY, Petit-Caux",
+    "lat": 49.935054,
+    "lng": 1.184927,
+    "transactions": [
+      {
+        "date": "2021-07-09",
+        "priceEur": 201800,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "afcf2ccfb32f": {
+    "id": "afcf2ccfb32f",
+    "label": "10 RUE DELVINCOURT, Petit-Caux",
+    "lat": 49.934597,
+    "lng": 1.186204,
+    "transactions": [
+      {
+        "date": "2024-12-13",
+        "priceEur": 262000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-07",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3a3eb0d141c": {
+    "id": "d3a3eb0d141c",
+    "label": "5053 VILLAGE DE GRAINCOURT, Petit-Caux",
+    "lat": 49.936917,
+    "lng": 1.185688,
+    "transactions": [
+      {
+        "date": "2023-02-10",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

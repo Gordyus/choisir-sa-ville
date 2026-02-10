@@ -1,0 +1,32 @@
+{
+  "d9268765f2d4": {
+    "id": "d9268765f2d4",
+    "label": "6 RTE DE GRUMESNIL, Gaillefontaine",
+    "lat": 49.635203,
+    "lng": 1.631116,
+    "transactions": [
+      {
+        "date": "2024-02-21",
+        "priceEur": 184400,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3babb35b7e4": {
+    "id": "b3babb35b7e4",
+    "label": "4A RTE DE GRUMESNIL, Gaillefontaine",
+    "lat": 49.63549,
+    "lng": 1.63062,
+    "transactions": [
+      {
+        "date": "2024-09-26",
+        "priceEur": 46000,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  }
+}

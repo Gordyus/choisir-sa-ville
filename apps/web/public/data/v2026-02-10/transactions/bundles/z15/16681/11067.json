@@ -1,0 +1,107 @@
+{
+  "ac1fb069c585": {
+    "id": "ac1fb069c585",
+    "label": "1 BD DE LA REPUBLIQUE, Émerchicourt",
+    "lat": 50.317644,
+    "lng": 3.263243,
+    "transactions": [
+      {
+        "date": "2021-05-25",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "784d1ad587e1": {
+    "id": "784d1ad587e1",
+    "label": "19 RUE CORON DES 38, Aniche",
+    "lat": 50.322686,
+    "lng": 3.266003,
+    "transactions": [
+      {
+        "date": "2022-03-28",
+        "priceEur": 23000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "5760e8294f7e": {
+    "id": "5760e8294f7e",
+    "label": "8 RUE CORON DES 13, Aniche",
+    "lat": 50.323485,
+    "lng": 3.265414,
+    "transactions": [
+      {
+        "date": "2022-05-24",
+        "priceEur": 103000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9255a524770": {
+    "id": "b9255a524770",
+    "label": "3 RUE D AZINCOURT, Émerchicourt",
+    "lat": 50.317763,
+    "lng": 3.271513,
+    "transactions": [
+      {
+        "date": "2022-08-05",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e9409b3608a": {
+    "id": "9e9409b3608a",
+    "label": "33 RUE CORON DES 38, Aniche",
+    "lat": 50.32259,
+    "lng": 3.265502,
+    "transactions": [
+      {
+        "date": "2023-04-28",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "da49ebc067a8": {
+    "id": "da49ebc067a8",
+    "label": "1 RUE CORON DES 38, Aniche",
+    "lat": 50.32284,
+    "lng": 3.266641,
+    "transactions": [
+      {
+        "date": "2023-12-28",
+        "priceEur": 134000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd7141f28a34": {
+    "id": "cd7141f28a34",
+    "label": "12 RUE CORON DES 13, Aniche",
+    "lat": 50.323309,
+    "lng": 3.265518,
+    "transactions": [
+      {
+        "date": "2025-03-11",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "a927d6970690": {
+    "id": "a927d6970690",
+    "label": "5027 NOUVEAU MONDE, Pierrecourt",
+    "lat": 49.880913,
+    "lng": 1.630117,
+    "transactions": [
+      {
+        "date": "2021-04-06",
+        "priceEur": 88000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "f45c8650001c": {
+    "id": "f45c8650001c",
+    "label": "22T RTE DE LONGUEROY, Pierrecourt",
+    "lat": 49.883496,
+    "lng": 1.629166,
+    "transactions": [
+      {
+        "date": "2021-04-19",
+        "priceEur": 185500,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "46f5c62a3562": {
+    "id": "46f5c62a3562",
+    "label": "5024 LONGUEROIS, Pierrecourt",
+    "lat": 49.885412,
+    "lng": 1.633889,
+    "transactions": [
+      {
+        "date": "2021-09-29",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ef315ef750f": {
+    "id": "1ef315ef750f",
+    "label": "19 RTE DE REALCAMP, Pierrecourt",
+    "lat": 49.883025,
+    "lng": 1.634954,
+    "transactions": [
+      {
+        "date": "2023-06-02",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

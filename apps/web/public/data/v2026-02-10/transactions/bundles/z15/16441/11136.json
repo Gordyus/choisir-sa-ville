@@ -1,0 +1,106 @@
+{
+  "4517929932ac": {
+    "id": "4517929932ac",
+    "label": "913 RTE DES COMMUNAUX, Paluel",
+    "lat": 49.833598,
+    "lng": 0.63021,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "b71761825f96": {
+    "id": "b71761825f96",
+    "label": "1 RES DE LA CHAPELLE, Paluel",
+    "lat": 49.834191,
+    "lng": 0.630569,
+    "transactions": [
+      {
+        "date": "2023-09-11",
+        "priceEur": 122880,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-11",
+        "priceEur": 122880,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-11",
+        "priceEur": 122880,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "4aca794081cf": {
+    "id": "4aca794081cf",
+    "label": "90 RTE DE VEULETTES, Paluel",
+    "lat": 49.83304,
+    "lng": 0.627891,
+    "transactions": [
+      {
+        "date": "2023-09-22",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf42808ab8ea": {
+    "id": "bf42808ab8ea",
+    "label": "14 IMP DES JARDINS, Paluel",
+    "lat": 49.832527,
+    "lng": 0.628127,
+    "transactions": [
+      {
+        "date": "2023-10-03",
+        "priceEur": 126000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "a124d0cb8156": {
+    "id": "a124d0cb8156",
+    "label": "957 RTE DES COMMUNAUX, Paluel",
+    "lat": 49.833455,
+    "lng": 0.631063,
+    "transactions": [
+      {
+        "date": "2023-12-15",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "fef3ef8982c9": {
+    "id": "fef3ef8982c9",
+    "label": "9 RTE DE GUERPY, Paluel",
+    "lat": 49.832328,
+    "lng": 0.628342,
+    "transactions": [
+      {
+        "date": "2024-08-30",
+        "priceEur": 226980,
+        "typeLocal": "Maison",
+        "surfaceM2": 206,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "8af886506e5e": {
+    "id": "8af886506e5e",
+    "label": "21 CHE DU TORCHY, Cuy-Saint-Fiacre",
+    "lat": 49.513714,
+    "lng": 1.669658,
+    "transactions": [
+      {
+        "date": "2021-11-04",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd51edbff7ab": {
+    "id": "fd51edbff7ab",
+    "label": "111 CHEM DE TORCHY, Dampierre-en-Bray",
+    "lat": 49.513669,
+    "lng": 1.660896,
+    "transactions": [
+      {
+        "date": "2021-10-14",
+        "priceEur": 116000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "9595293e9226": {
+    "id": "9595293e9226",
+    "label": "81 CHE DE TORCHY, Dampierre-en-Bray",
+    "lat": 49.513459,
+    "lng": 1.660581,
+    "transactions": [
+      {
+        "date": "2025-02-21",
+        "priceEur": 173000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  }
+}

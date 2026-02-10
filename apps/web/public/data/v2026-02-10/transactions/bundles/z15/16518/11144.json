@@ -1,0 +1,24 @@
+{
+  "7ebd7909dd6b": {
+    "id": "7ebd7909dd6b",
+    "label": "5037 ORIVAL, Fesques",
+    "lat": 49.774399,
+    "lng": 1.482087,
+    "transactions": [
+      {
+        "date": "2022-01-25",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-18",
+        "priceEur": 348160,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

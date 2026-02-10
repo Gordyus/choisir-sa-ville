@@ -1,0 +1,69 @@
+{
+  "2478952cc278": {
+    "id": "2478952cc278",
+    "label": "395 RTE DE WATTEN CD 46 B, Millam",
+    "lat": 50.852686,
+    "lng": 2.240904,
+    "transactions": [
+      {
+        "date": "2021-12-11",
+        "priceEur": 219000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "bdd50186b69c": {
+    "id": "bdd50186b69c",
+    "label": "412 RTE DE WATTEN CD 46 B, Millam",
+    "lat": 50.853173,
+    "lng": 2.241137,
+    "transactions": [
+      {
+        "date": "2023-05-02",
+        "priceEur": 246000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "22b52b43b720": {
+    "id": "22b52b43b720",
+    "label": "431 RTE DE WATTEN CD 46 B, Millam",
+    "lat": 50.852899,
+    "lng": 2.24057,
+    "transactions": [
+      {
+        "date": "2025-06-12",
+        "priceEur": 322000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-14",
+        "priceEur": 272000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ba301e463ec": {
+    "id": "3ba301e463ec",
+    "label": "1047 CHE ROYAL, Millam",
+    "lat": 50.85223,
+    "lng": 2.239736,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  }
+}

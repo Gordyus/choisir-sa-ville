@@ -1,0 +1,32 @@
+{
+  "3c363a67d46e": {
+    "id": "3c363a67d46e",
+    "label": "5115 LE HAMEAU DE LA TACHE, Deûlémont",
+    "lat": 50.725184,
+    "lng": 2.978894,
+    "transactions": [
+      {
+        "date": "2021-01-12",
+        "priceEur": 761040,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "97169e6b61cf": {
+    "id": "97169e6b61cf",
+    "label": "9000 RTE DE WARNETON, Deûlémont",
+    "lat": 50.725769,
+    "lng": 2.977884,
+    "transactions": [
+      {
+        "date": "2022-08-23",
+        "priceEur": 638700,
+        "typeLocal": "Maison",
+        "surfaceM2": 177,
+        "isVefa": false
+      }
+    ]
+  }
+}

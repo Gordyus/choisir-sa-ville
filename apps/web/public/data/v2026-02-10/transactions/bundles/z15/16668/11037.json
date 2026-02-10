@@ -1,0 +1,84 @@
+{
+  "fff33a9de74e": {
+    "id": "fff33a9de74e",
+    "label": "24 RUE DE LA PLANQUE, Ennevelin",
+    "lat": 50.528236,
+    "lng": 3.123494,
+    "transactions": [
+      {
+        "date": "2022-09-06",
+        "priceEur": 368200,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-19",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6ee1881d701": {
+    "id": "d6ee1881d701",
+    "label": "6D RUE DU HAMEAU DE LA PLANQUE, Ennevelin",
+    "lat": 50.529994,
+    "lng": 3.125386,
+    "transactions": [
+      {
+        "date": "2022-04-01",
+        "priceEur": 685000,
+        "typeLocal": "Maison",
+        "surfaceM2": 183,
+        "isVefa": false
+      }
+    ]
+  },
+  "8705b30ed912": {
+    "id": "8705b30ed912",
+    "label": "22 RUE DU HAMEAU DE LA PLANQUE, Ennevelin",
+    "lat": 50.528535,
+    "lng": 3.123614,
+    "transactions": [
+      {
+        "date": "2022-05-23",
+        "priceEur": 347000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b7382ba14d4": {
+    "id": "4b7382ba14d4",
+    "label": "8 RUE DU HAMEAU DE LA PLANQUE, Ennevelin",
+    "lat": 50.529801,
+    "lng": 3.125005,
+    "transactions": [
+      {
+        "date": "2023-05-15",
+        "priceEur": 437800,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "47979f2ac05b": {
+    "id": "47979f2ac05b",
+    "label": "10B RUE DU HAMEAU DE LA PLANQUE, Ennevelin",
+    "lat": 50.529141,
+    "lng": 3.12464,
+    "transactions": [
+      {
+        "date": "2025-04-23",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  }
+}

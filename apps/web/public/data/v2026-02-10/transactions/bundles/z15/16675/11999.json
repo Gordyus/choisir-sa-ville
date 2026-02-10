@@ -1,0 +1,129 @@
+{
+  "80e3259a87f7": {
+    "id": "80e3259a87f7",
+    "label": "31G CHE DES COSTES DE BAYSSAN, Béziers",
+    "lat": 43.328518,
+    "lng": 3.199689,
+    "transactions": [
+      {
+        "date": "2020-07-17",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "26ef83baa0bd": {
+    "id": "26ef83baa0bd",
+    "label": "433 CHE DES COSTES DE BAYSSAN, Béziers",
+    "lat": 43.328591,
+    "lng": 3.203174,
+    "transactions": [
+      {
+        "date": "2021-08-05",
+        "priceEur": 550000,
+        "typeLocal": "Maison",
+        "surfaceM2": 228,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-05",
+        "priceEur": 550000,
+        "typeLocal": "Maison",
+        "surfaceM2": 26,
+        "isVefa": false
+      }
+    ]
+  },
+  "6032675259e7": {
+    "id": "6032675259e7",
+    "label": "1 RUE FRANCOIS TRUFFAUT, Béziers",
+    "lat": 43.328906,
+    "lng": 3.205579,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 474990,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ebeeb92d06d": {
+    "id": "6ebeeb92d06d",
+    "label": "8 RUE FRANCOIS TRUFFAUT, Béziers",
+    "lat": 43.329739,
+    "lng": 3.204876,
+    "transactions": [
+      {
+        "date": "2021-12-15",
+        "priceEur": 384760,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a478afcf710": {
+    "id": "6a478afcf710",
+    "label": "862 CR N 156 DE BAYSSAN A BEZI, Béziers",
+    "lat": 43.328442,
+    "lng": 3.205835,
+    "transactions": [
+      {
+        "date": "2022-07-27",
+        "priceEur": 169400,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5a4c91e6778": {
+    "id": "f5a4c91e6778",
+    "label": "492 CR DES BREGINES CR 137, Béziers",
+    "lat": 43.329284,
+    "lng": 3.197779,
+    "transactions": [
+      {
+        "date": "2024-01-30",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6d4a18e7ebd": {
+    "id": "b6d4a18e7ebd",
+    "label": "20 RUE FRANCOIS TRUFFAUT, Béziers",
+    "lat": 43.329289,
+    "lng": 3.203198,
+    "transactions": [
+      {
+        "date": "2024-07-12",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "92cc94483d6d": {
+    "id": "92cc94483d6d",
+    "label": "72 RUE LINO VENTURA, Béziers",
+    "lat": 43.327019,
+    "lng": 3.20258,
+    "transactions": [
+      {
+        "date": "2024-12-13",
+        "priceEur": 627000,
+        "typeLocal": "Maison",
+        "surfaceM2": 193,
+        "isVefa": false
+      }
+    ]
+  }
+}

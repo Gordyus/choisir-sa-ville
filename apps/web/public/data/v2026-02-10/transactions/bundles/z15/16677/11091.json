@@ -1,0 +1,91 @@
+{
+  "5d7d44501854": {
+    "id": "5d7d44501854",
+    "label": "132B RTE DE PARIS, Proville",
+    "lat": 50.154816,
+    "lng": 3.22177,
+    "transactions": [
+      {
+        "date": "2021-08-11",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "489523884cff": {
+    "id": "489523884cff",
+    "label": "1797 AV DE PARIS, Cambrai",
+    "lat": 50.154952,
+    "lng": 3.223015,
+    "transactions": [
+      {
+        "date": "2022-06-23",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ec1a7a8271d": {
+    "id": "9ec1a7a8271d",
+    "label": "126 RTE DE PARIS, Proville",
+    "lat": 50.155284,
+    "lng": 3.220497,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 10000907,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-21",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ebd3647cc2a": {
+    "id": "1ebd3647cc2a",
+    "label": "130 RTE DE PARIS, Proville",
+    "lat": 50.155222,
+    "lng": 3.22191,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 460000,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-28",
+        "priceEur": 10000907,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  },
+  "0db108c829c1": {
+    "id": "0db108c829c1",
+    "label": "1727 AV DE PARIS, Cambrai",
+    "lat": 50.155573,
+    "lng": 3.222827,
+    "transactions": [
+      {
+        "date": "2025-06-25",
+        "priceEur": 264500,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

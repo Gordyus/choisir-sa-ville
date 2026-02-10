@@ -1,0 +1,32 @@
+{
+  "60d2d8eeacaa": {
+    "id": "60d2d8eeacaa",
+    "label": "333 CHE DES CHASSEURS, Nieppe",
+    "lat": 50.695544,
+    "lng": 2.820098,
+    "transactions": [
+      {
+        "date": "2020-08-20",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "af041eef1152": {
+    "id": "af041eef1152",
+    "label": "807 RUE DU BAS CHEMIN, Nieppe",
+    "lat": 50.700318,
+    "lng": 2.816985,
+    "transactions": [
+      {
+        "date": "2020-08-26",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 192,
+        "isVefa": false
+      }
+    ]
+  }
+}

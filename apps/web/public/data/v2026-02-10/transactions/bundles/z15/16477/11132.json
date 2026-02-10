@@ -1,0 +1,32 @@
+{
+  "9f1e962ad98a": {
+    "id": "9f1e962ad98a",
+    "label": "5380 NEUFMESNIL, Offranville",
+    "lat": 49.859558,
+    "lng": 1.022788,
+    "transactions": [
+      {
+        "date": "2021-08-27",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "c22a5b858e8b": {
+    "id": "c22a5b858e8b",
+    "label": "1340 RTE DE NEUFMESNIL, Offranville",
+    "lat": 49.863215,
+    "lng": 1.030502,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

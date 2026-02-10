@@ -1,0 +1,144 @@
+{
+  "abb602b7e850": {
+    "id": "abb602b7e850",
+    "label": "175 RUE DE LA LYS, Halluin",
+    "lat": 50.785287,
+    "lng": 3.118428,
+    "transactions": [
+      {
+        "date": "2020-09-18",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "79e7f7a37e1f": {
+    "id": "79e7f7a37e1f",
+    "label": "115 RUE DE LA LYS, Halluin",
+    "lat": 50.785609,
+    "lng": 3.11976,
+    "transactions": [
+      {
+        "date": "2021-03-31",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc09f58916ff": {
+    "id": "cc09f58916ff",
+    "label": "77 RUE MAURICE SIMONO, Halluin",
+    "lat": 50.785639,
+    "lng": 3.120009,
+    "transactions": [
+      {
+        "date": "2024-04-19",
+        "priceEur": 161750,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-30",
+        "priceEur": 179500,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "91f7d66dcafd": {
+    "id": "91f7d66dcafd",
+    "label": "81 RUE MAURICE SIMONO, Halluin",
+    "lat": 50.785806,
+    "lng": 3.120044,
+    "transactions": [
+      {
+        "date": "2021-09-02",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "59688f2aee31": {
+    "id": "59688f2aee31",
+    "label": "20 RUE DE LA LYS, Halluin",
+    "lat": 50.785792,
+    "lng": 3.118648,
+    "transactions": [
+      {
+        "date": "2021-12-03",
+        "priceEur": 296000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "ce58cac65f1f": {
+    "id": "ce58cac65f1f",
+    "label": "173 RUE DE LA LYS, Halluin",
+    "lat": 50.785325,
+    "lng": 3.118393,
+    "transactions": [
+      {
+        "date": "2022-01-12",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b76e4e42a7e": {
+    "id": "0b76e4e42a7e",
+    "label": "161 RUE DE LA LYS, Halluin",
+    "lat": 50.785466,
+    "lng": 3.118448,
+    "transactions": [
+      {
+        "date": "2022-02-14",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6dda461f68f": {
+    "id": "e6dda461f68f",
+    "label": "75 RUE MAURICE SIMONO, Halluin",
+    "lat": 50.78561,
+    "lng": 3.120031,
+    "transactions": [
+      {
+        "date": "2023-04-03",
+        "priceEur": 143500,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e4fa81d3fcd": {
+    "id": "2e4fa81d3fcd",
+    "label": "163 RUE DE LA LYS, Halluin",
+    "lat": 50.785453,
+    "lng": 3.118377,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 118500,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

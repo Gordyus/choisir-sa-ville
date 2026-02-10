@@ -1,0 +1,54 @@
+{
+  "ba95f84ea23b": {
+    "id": "ba95f84ea23b",
+    "label": "5061 PARTIE DE GONFREVILLE, Gonfreville-Caillot",
+    "lat": 49.654959,
+    "lng": 0.443807,
+    "transactions": [
+      {
+        "date": "2021-09-02",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7546d61929b": {
+    "id": "c7546d61929b",
+    "label": "2 LOT LE CLOS DES DEUX CAILLES, Gonfreville-Caillot",
+    "lat": 49.653632,
+    "lng": 0.442962,
+    "transactions": [
+      {
+        "date": "2024-09-05",
+        "priceEur": 366000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-29",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "69f270e3b96a": {
+    "id": "69f270e3b96a",
+    "label": "5002 FERME DU TOT, Gonfreville-Caillot",
+    "lat": 49.658496,
+    "lng": 0.450331,
+    "transactions": [
+      {
+        "date": "2024-07-24",
+        "priceEur": 410000,
+        "typeLocal": "Maison",
+        "surfaceM2": 208,
+        "isVefa": false
+      }
+    ]
+  }
+}

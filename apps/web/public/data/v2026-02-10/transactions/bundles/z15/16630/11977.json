@@ -1,0 +1,39 @@
+{
+  "4238aa6d53c8": {
+    "id": "4238aa6d53c8",
+    "label": "7000 MARTHOMIS, Courniou",
+    "lat": 43.502256,
+    "lng": 2.711651,
+    "transactions": [
+      {
+        "date": "2021-06-02",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-02",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "452d7c6603b3": {
+    "id": "452d7c6603b3",
+    "label": "5094 MARTHOMIS, Courniou",
+    "lat": 43.500855,
+    "lng": 2.713534,
+    "transactions": [
+      {
+        "date": "2024-02-06",
+        "priceEur": 210277,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  }
+}

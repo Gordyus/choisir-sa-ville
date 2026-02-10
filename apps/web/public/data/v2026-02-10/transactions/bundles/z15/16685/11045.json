@@ -1,0 +1,92 @@
+{
+  "ef324e08d4ee": {
+    "id": "ef324e08d4ee",
+    "label": "196 RUE MARCEL DELOMMEZ, Landas",
+    "lat": 50.474583,
+    "lng": 3.311062,
+    "transactions": [
+      {
+        "date": "2020-08-20",
+        "priceEur": 283300,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "99e3e107574f": {
+    "id": "99e3e107574f",
+    "label": "50 RUE MARCEL DELOMMEZ, Landas",
+    "lat": 50.47557,
+    "lng": 3.309145,
+    "transactions": [
+      {
+        "date": "2021-06-08",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "82a4a62e789f": {
+    "id": "82a4a62e789f",
+    "label": "142 RUE GUILLOCOURT, Landas",
+    "lat": 50.476155,
+    "lng": 3.308609,
+    "transactions": [
+      {
+        "date": "2021-10-08",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "3b1fe5ec7181": {
+    "id": "3b1fe5ec7181",
+    "label": "134 RUE GUILLOCOURT, Landas",
+    "lat": 50.476211,
+    "lng": 3.308485,
+    "transactions": [
+      {
+        "date": "2021-10-08",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "5994cf6bc95c": {
+    "id": "5994cf6bc95c",
+    "label": "100 RUE GUILLOCOURT, Landas",
+    "lat": 50.476181,
+    "lng": 3.308079,
+    "transactions": [
+      {
+        "date": "2022-02-26",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "8fef417c1f54": {
+    "id": "8fef417c1f54",
+    "label": "352 RUE MARCEL DELOMMEZ, Landas",
+    "lat": 50.474787,
+    "lng": 3.313062,
+    "transactions": [
+      {
+        "date": "2025-05-23",
+        "priceEur": 489000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  }
+}

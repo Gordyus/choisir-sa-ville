@@ -1,0 +1,136 @@
+{
+  "ef3cec5c37dd": {
+    "id": "ef3cec5c37dd",
+    "label": "1 RES DE LA FERME, Ingouville",
+    "lat": 49.841065,
+    "lng": 0.683727,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 251000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "94a7dacf08f7": {
+    "id": "94a7dacf08f7",
+    "label": "1 RUE DE L EGLISE, Ingouville",
+    "lat": 49.838214,
+    "lng": 0.686433,
+    "transactions": [
+      {
+        "date": "2024-07-15",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-26",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8ef90fe09be": {
+    "id": "e8ef90fe09be",
+    "label": "3 RTE DE SAINT VALERY, Ingouville",
+    "lat": 49.840333,
+    "lng": 0.688926,
+    "transactions": [
+      {
+        "date": "2023-01-16",
+        "priceEur": 443000,
+        "typeLocal": "Maison",
+        "surfaceM2": 24,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-16",
+        "priceEur": 443000,
+        "typeLocal": "Maison",
+        "surfaceM2": 198,
+        "isVefa": false
+      }
+    ]
+  },
+  "62ce0c8678a2": {
+    "id": "62ce0c8678a2",
+    "label": "2 RUE DES PRIMEVERES, Ingouville",
+    "lat": 49.83845,
+    "lng": 0.686337,
+    "transactions": [
+      {
+        "date": "2023-07-20",
+        "priceEur": 183000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "1098434e081e": {
+    "id": "1098434e081e",
+    "label": "24 GRANDE RUE, Ingouville",
+    "lat": 49.841913,
+    "lng": 0.685473,
+    "transactions": [
+      {
+        "date": "2023-08-30",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "6106aea034d3": {
+    "id": "6106aea034d3",
+    "label": "1B RUE DES HIRONDELLES, Ingouville",
+    "lat": 49.840355,
+    "lng": 0.68471,
+    "transactions": [
+      {
+        "date": "2023-10-03",
+        "priceEur": 202500,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "27609c2688ca": {
+    "id": "27609c2688ca",
+    "label": "32 GRANDE RUE, Ingouville",
+    "lat": 49.839984,
+    "lng": 0.68661,
+    "transactions": [
+      {
+        "date": "2024-07-29",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "6944679bb64c": {
+    "id": "6944679bb64c",
+    "label": "18 GRANDE RUE, Ingouville",
+    "lat": 49.843112,
+    "lng": 0.684721,
+    "transactions": [
+      {
+        "date": "2024-12-13",
+        "priceEur": 254500,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  }
+}

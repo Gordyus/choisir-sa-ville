@@ -1,0 +1,128 @@
+{
+  "8b300099fae1": {
+    "id": "8b300099fae1",
+    "label": "48 RTE DE DUCLAIR, Canteleu",
+    "lat": 49.443379,
+    "lng": 1.019934,
+    "transactions": [
+      {
+        "date": "2020-12-23",
+        "priceEur": 450000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3f2afe76617": {
+    "id": "b3f2afe76617",
+    "label": "40B RTE DE DUCLAIR, Canteleu",
+    "lat": 49.442954,
+    "lng": 1.020885,
+    "transactions": [
+      {
+        "date": "2022-06-14",
+        "priceEur": 229000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-08",
+        "priceEur": 465000,
+        "typeLocal": "Maison",
+        "surfaceM2": 212,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-08",
+        "priceEur": 465000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "cffeecbd91ee": {
+    "id": "cffeecbd91ee",
+    "label": "44D RTE DE DUCLAIR, Canteleu",
+    "lat": 49.443763,
+    "lng": 1.020843,
+    "transactions": [
+      {
+        "date": "2021-01-07",
+        "priceEur": 354000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "d4e63b6538e9": {
+    "id": "d4e63b6538e9",
+    "label": "44B RTE DE DUCLAIR, Canteleu",
+    "lat": 49.443528,
+    "lng": 1.020647,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "04f808350c68": {
+    "id": "04f808350c68",
+    "label": "61 RTE ANCIENNE ROUTE DE DUCLAIR, Canteleu",
+    "lat": 49.444991,
+    "lng": 1.013789,
+    "transactions": [
+      {
+        "date": "2022-11-21",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-09",
+        "priceEur": 37500,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a293ec2ef6e": {
+    "id": "2a293ec2ef6e",
+    "label": "51 RTE ANCIENNE ROUTE DE DUCLAIR, Canteleu",
+    "lat": 49.445008,
+    "lng": 1.014809,
+    "transactions": [
+      {
+        "date": "2023-03-20",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "228b858adfd3": {
+    "id": "228b858adfd3",
+    "label": "60 RTE DE DUCLAIR, Canteleu",
+    "lat": 49.443909,
+    "lng": 1.018635,
+    "transactions": [
+      {
+        "date": "2024-03-20",
+        "priceEur": 192328.77,
+        "typeLocal": "Maison",
+        "surfaceM2": 177,
+        "isVefa": false
+      }
+    ]
+  }
+}

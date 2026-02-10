@@ -1,0 +1,92 @@
+{
+  "9640138e5367": {
+    "id": "9640138e5367",
+    "label": "5199 LES BROUILLARDS, Beaubec-la-Rosière",
+    "lat": 49.637976,
+    "lng": 1.540788,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff8a6de3fd90": {
+    "id": "ff8a6de3fd90",
+    "label": "134 RUE DES PRESLES, Serqueux",
+    "lat": 49.636324,
+    "lng": 1.543822,
+    "transactions": [
+      {
+        "date": "2022-03-31",
+        "priceEur": 101000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "9bf5c6641867": {
+    "id": "9bf5c6641867",
+    "label": "1412 RTE DE COMPAINVILLE, Serqueux",
+    "lat": 49.636145,
+    "lng": 1.547022,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "786152ad930d": {
+    "id": "786152ad930d",
+    "label": "256 RTE DE NEUFCHATEL, Beaubec-la-Rosière",
+    "lat": 49.638716,
+    "lng": 1.54034,
+    "transactions": [
+      {
+        "date": "2022-12-06",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "21537a3c61ea": {
+    "id": "21537a3c61ea",
+    "label": "264 RTE DE NEUFCHATEL, Beaubec-la-Rosière",
+    "lat": 49.638965,
+    "lng": 1.540297,
+    "transactions": [
+      {
+        "date": "2022-12-30",
+        "priceEur": 230300,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  },
+  "e3c92103d519": {
+    "id": "e3c92103d519",
+    "label": "5195 LE BLANC VALET, Beaubec-la-Rosière",
+    "lat": 49.638011,
+    "lng": 1.539884,
+    "transactions": [
+      {
+        "date": "2023-08-07",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  }
+}

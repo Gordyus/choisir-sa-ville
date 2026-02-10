@@ -1,0 +1,92 @@
+{
+  "e59d15e1af3f": {
+    "id": "e59d15e1af3f",
+    "label": "1187 RTE DE LA HETRAIE, Étainhus",
+    "lat": 49.568855,
+    "lng": 0.3244,
+    "transactions": [
+      {
+        "date": "2021-04-01",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "12edeca18687": {
+    "id": "12edeca18687",
+    "label": "1065 RTE DE SAINT JACQUES, Étainhus",
+    "lat": 49.569783,
+    "lng": 0.323743,
+    "transactions": [
+      {
+        "date": "2021-05-31",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c3774bf79ab": {
+    "id": "9c3774bf79ab",
+    "label": "1241 RTE DE SAINT JACQUES, Étainhus",
+    "lat": 49.570682,
+    "lng": 0.321805,
+    "transactions": [
+      {
+        "date": "2022-03-02",
+        "priceEur": 124000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "8fd2ced0e3dd": {
+    "id": "8fd2ced0e3dd",
+    "label": "585 RTE D'ETAINHUS, Graimbouville",
+    "lat": 49.571377,
+    "lng": 0.329084,
+    "transactions": [
+      {
+        "date": "2023-06-28",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6eb254ccafb": {
+    "id": "b6eb254ccafb",
+    "label": "1021 RTE DE SAINT JACQUES, Étainhus",
+    "lat": 49.569756,
+    "lng": 0.323395,
+    "transactions": [
+      {
+        "date": "2023-09-01",
+        "priceEur": 283500,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6f3769eb71e": {
+    "id": "e6f3769eb71e",
+    "label": "122 L AUMONE, Graimbouville",
+    "lat": 49.573049,
+    "lng": 0.328425,
+    "transactions": [
+      {
+        "date": "2024-07-17",
+        "priceEur": 192900,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  }
+}

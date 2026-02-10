@@ -1,0 +1,735 @@
+{
+  "1db77efc8a02": {
+    "id": "1db77efc8a02",
+    "label": "87 RUE DU PILLY, Herlies",
+    "lat": 50.580482,
+    "lng": 2.862603,
+    "transactions": [
+      {
+        "date": "2023-01-31",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-05",
+        "priceEur": 266000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "9611f9250a68": {
+    "id": "9611f9250a68",
+    "label": "18 CLOS DES CHARMILLES, Herlies",
+    "lat": 50.58073,
+    "lng": 2.857749,
+    "transactions": [
+      {
+        "date": "2022-12-29",
+        "priceEur": 252800,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-10",
+        "priceEur": 227300,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "38d7fd51b9bd": {
+    "id": "38d7fd51b9bd",
+    "label": "32 RUE DES LILIUMS, Herlies",
+    "lat": 50.577104,
+    "lng": 2.856517,
+    "transactions": [
+      {
+        "date": "2020-09-08",
+        "priceEur": 289878,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ae4ac6d3491": {
+    "id": "6ae4ac6d3491",
+    "label": "22 RUE DES LILIUMS, Herlies",
+    "lat": 50.576889,
+    "lng": 2.857313,
+    "transactions": [
+      {
+        "date": "2020-10-26",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "b97e5060458d": {
+    "id": "b97e5060458d",
+    "label": "8 RUE DES NOISETIERS, Herlies",
+    "lat": 50.581248,
+    "lng": 2.858504,
+    "transactions": [
+      {
+        "date": "2020-10-29",
+        "priceEur": 221000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a1ff2de396c": {
+    "id": "8a1ff2de396c",
+    "label": "29 CLOS DES FOUGERES, Herlies",
+    "lat": 50.58132,
+    "lng": 2.861421,
+    "transactions": [
+      {
+        "date": "2020-12-04",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "f28d8c50f9d2": {
+    "id": "f28d8c50f9d2",
+    "label": "1 CLOS DES FOUGERES, Herlies",
+    "lat": 50.582163,
+    "lng": 2.859103,
+    "transactions": [
+      {
+        "date": "2021-01-22",
+        "priceEur": 305000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "28f8cf62cc4b": {
+    "id": "28f8cf62cc4b",
+    "label": "17 CLOS DES CHARMILLES, Herlies",
+    "lat": 50.580631,
+    "lng": 2.857232,
+    "transactions": [
+      {
+        "date": "2021-02-19",
+        "priceEur": 244400,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "0dd4de98ec70": {
+    "id": "0dd4de98ec70",
+    "label": "15 RUE DES SORBIERS, Herlies",
+    "lat": 50.577735,
+    "lng": 2.859572,
+    "transactions": [
+      {
+        "date": "2021-04-14",
+        "priceEur": 208655,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "39e6a2e802c7": {
+    "id": "39e6a2e802c7",
+    "label": "31 CLOS DES FOUGERES, Herlies",
+    "lat": 50.581234,
+    "lng": 2.861253,
+    "transactions": [
+      {
+        "date": "2021-04-15",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "868b2b5a8af4": {
+    "id": "868b2b5a8af4",
+    "label": "35B RUE DU PILLY, Herlies",
+    "lat": 50.578848,
+    "lng": 2.858078,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "77cb13787dc3": {
+    "id": "77cb13787dc3",
+    "label": "86 RUE DU PILLY, Herlies",
+    "lat": 50.58107,
+    "lng": 2.866972,
+    "transactions": [
+      {
+        "date": "2021-05-12",
+        "priceEur": 371000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d3e65c7d298": {
+    "id": "9d3e65c7d298",
+    "label": "7 RUE DU PRE MONSEU, Herlies",
+    "lat": 50.579442,
+    "lng": 2.85748,
+    "transactions": [
+      {
+        "date": "2021-05-31",
+        "priceEur": 435500,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9ced9985f0f": {
+    "id": "f9ced9985f0f",
+    "label": "16 RUE DES PRIMEVERES, Herlies",
+    "lat": 50.577805,
+    "lng": 2.858155,
+    "transactions": [
+      {
+        "date": "2021-06-21",
+        "priceEur": 277000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "c92f1aa0b40a": {
+    "id": "c92f1aa0b40a",
+    "label": "26 AV DE LA CHENAIE, Herlies",
+    "lat": 50.581728,
+    "lng": 2.859724,
+    "transactions": [
+      {
+        "date": "2021-06-22",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "f84d07784632": {
+    "id": "f84d07784632",
+    "label": "81 RUE DU PILLY, Herlies",
+    "lat": 50.580582,
+    "lng": 2.861923,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 283000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e05c9fca811": {
+    "id": "2e05c9fca811",
+    "label": "27 RUE DES LILIUMS, Herlies",
+    "lat": 50.57721,
+    "lng": 2.858087,
+    "transactions": [
+      {
+        "date": "2021-09-09",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f629269d511": {
+    "id": "4f629269d511",
+    "label": "38 RUE DU PILLY, Herlies",
+    "lat": 50.579358,
+    "lng": 2.859763,
+    "transactions": [
+      {
+        "date": "2021-10-05",
+        "priceEur": 329000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9187aefc509": {
+    "id": "c9187aefc509",
+    "label": "22 CLOS DES FOUGERES, Herlies",
+    "lat": 50.581253,
+    "lng": 2.860868,
+    "transactions": [
+      {
+        "date": "2021-12-20",
+        "priceEur": 231400,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad7b1fff85aa": {
+    "id": "ad7b1fff85aa",
+    "label": "16 CLOS DES FOUGERES, Herlies",
+    "lat": 50.581485,
+    "lng": 2.860505,
+    "transactions": [
+      {
+        "date": "2022-04-28",
+        "priceEur": 281000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "9dd88506cc4d": {
+    "id": "9dd88506cc4d",
+    "label": "27 AV DE LA CHENAIE, Herlies",
+    "lat": 50.581319,
+    "lng": 2.859438,
+    "transactions": [
+      {
+        "date": "2022-07-13",
+        "priceEur": 258000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "731934eabd60": {
+    "id": "731934eabd60",
+    "label": "2 RUE DES SORBIERS, Herlies",
+    "lat": 50.576983,
+    "lng": 2.858406,
+    "transactions": [
+      {
+        "date": "2022-07-08",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "313a4d54241c": {
+    "id": "313a4d54241c",
+    "label": "24 AV DE LA CHENAIE, Herlies",
+    "lat": 50.581646,
+    "lng": 2.859803,
+    "transactions": [
+      {
+        "date": "2023-04-05",
+        "priceEur": 264600,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-07",
+        "priceEur": 265600,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff0667c08cac": {
+    "id": "ff0667c08cac",
+    "label": "17 AV DE LA CHENAIE, Herlies",
+    "lat": 50.580914,
+    "lng": 2.859762,
+    "transactions": [
+      {
+        "date": "2022-08-26",
+        "priceEur": 258000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "4513219e9eea": {
+    "id": "4513219e9eea",
+    "label": "9 RUE DES SORBIERS, Herlies",
+    "lat": 50.577594,
+    "lng": 2.859264,
+    "transactions": [
+      {
+        "date": "2022-11-09",
+        "priceEur": 281000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "1cefd4905b8b": {
+    "id": "1cefd4905b8b",
+    "label": "7 RUE DES LILIUMS, Herlies",
+    "lat": 50.577963,
+    "lng": 2.857706,
+    "transactions": [
+      {
+        "date": "2022-11-23",
+        "priceEur": 232000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa7eef05cfa6": {
+    "id": "aa7eef05cfa6",
+    "label": "6 CLOS DES LAURIERS, Herlies",
+    "lat": 50.580068,
+    "lng": 2.85666,
+    "transactions": [
+      {
+        "date": "2022-12-28",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "f25dee564e9b": {
+    "id": "f25dee564e9b",
+    "label": "18 RUE DES LILIUMS, Herlies",
+    "lat": 50.577043,
+    "lng": 2.857748,
+    "transactions": [
+      {
+        "date": "2023-03-08",
+        "priceEur": 292000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b11804808b6": {
+    "id": "0b11804808b6",
+    "label": "25 RUE DES LILIUMS, Herlies",
+    "lat": 50.577281,
+    "lng": 2.858,
+    "transactions": [
+      {
+        "date": "2023-04-28",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5fcb4ddf17d": {
+    "id": "d5fcb4ddf17d",
+    "label": "12 IMP SORBIERS, Herlies",
+    "lat": 50.578114,
+    "lng": 2.862391,
+    "transactions": [
+      {
+        "date": "2023-05-26",
+        "priceEur": 455000,
+        "typeLocal": "Maison",
+        "surfaceM2": 191,
+        "isVefa": false
+      }
+    ]
+  },
+  "9cec994b0095": {
+    "id": "9cec994b0095",
+    "label": "1 RUE DES SORBIERS, Herlies",
+    "lat": 50.577282,
+    "lng": 2.85837,
+    "transactions": [
+      {
+        "date": "2023-05-26",
+        "priceEur": 291150,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "028f54f05c59": {
+    "id": "028f54f05c59",
+    "label": "5 RUE DES NOISETIERS, Herlies",
+    "lat": 50.580914,
+    "lng": 2.858223,
+    "transactions": [
+      {
+        "date": "2023-06-08",
+        "priceEur": 274300,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d05955d0ff2": {
+    "id": "9d05955d0ff2",
+    "label": "3 RUE DES LILIUMS, Herlies",
+    "lat": 50.577681,
+    "lng": 2.857276,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 328000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "6876599ad9e8": {
+    "id": "6876599ad9e8",
+    "label": "9 RUE DES PRES, Herlies",
+    "lat": 50.578946,
+    "lng": 2.860975,
+    "transactions": [
+      {
+        "date": "2024-08-09",
+        "priceEur": 303000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-06",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "29d079b797ef": {
+    "id": "29d079b797ef",
+    "label": "1B AV DE LA CHENAIE, Herlies",
+    "lat": 50.580061,
+    "lng": 2.860383,
+    "transactions": [
+      {
+        "date": "2023-08-17",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "ccd972e955e7": {
+    "id": "ccd972e955e7",
+    "label": "37 AV DE LA CHENAIE, Herlies",
+    "lat": 50.581531,
+    "lng": 2.858748,
+    "transactions": [
+      {
+        "date": "2023-09-13",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "91fbbe733a2b": {
+    "id": "91fbbe733a2b",
+    "label": "14 RUE DES PRIMEVERES, Herlies",
+    "lat": 50.577805,
+    "lng": 2.858155,
+    "transactions": [
+      {
+        "date": "2023-12-04",
+        "priceEur": 241700,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c376eb4818a": {
+    "id": "9c376eb4818a",
+    "label": "3 RUE DES NOISETIERS, Herlies",
+    "lat": 50.580689,
+    "lng": 2.85798,
+    "transactions": [
+      {
+        "date": "2023-12-13",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "495b3b11272a": {
+    "id": "495b3b11272a",
+    "label": "23 CLOS DES CHARMILLES, Herlies",
+    "lat": 50.580897,
+    "lng": 2.857086,
+    "transactions": [
+      {
+        "date": "2024-02-06",
+        "priceEur": 258010,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4994f2b896c": {
+    "id": "c4994f2b896c",
+    "label": "30 RUE DU PILLY, Herlies",
+    "lat": 50.578801,
+    "lng": 2.858993,
+    "transactions": [
+      {
+        "date": "2024-05-23",
+        "priceEur": 465000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff817d2b5569": {
+    "id": "ff817d2b5569",
+    "label": "12 RUE DES LILIUMS, Herlies",
+    "lat": 50.577311,
+    "lng": 2.857382,
+    "transactions": [
+      {
+        "date": "2024-07-04",
+        "priceEur": 229000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "3dfb5d4859e8": {
+    "id": "3dfb5d4859e8",
+    "label": "31 RUE DU PILLY, Herlies",
+    "lat": 50.578429,
+    "lng": 2.857516,
+    "transactions": [
+      {
+        "date": "2024-07-22",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac30a746d2d6": {
+    "id": "ac30a746d2d6",
+    "label": "1 CLOS DES CHARMILLES, Herlies",
+    "lat": 50.580246,
+    "lng": 2.857503,
+    "transactions": [
+      {
+        "date": "2024-10-31",
+        "priceEur": 321500,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a460ebf014f": {
+    "id": "1a460ebf014f",
+    "label": "8 RUE DES PRES, Herlies",
+    "lat": 50.579341,
+    "lng": 2.860779,
+    "transactions": [
+      {
+        "date": "2025-02-18",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "2037dc1fcedc": {
+    "id": "2037dc1fcedc",
+    "label": "3 RUE DES PRES, Herlies",
+    "lat": 50.579186,
+    "lng": 2.86144,
+    "transactions": [
+      {
+        "date": "2025-04-24",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "c50fbe8861cf": {
+    "id": "c50fbe8861cf",
+    "label": "27 RUE DU PILLY, Herlies",
+    "lat": 50.578376,
+    "lng": 2.857177,
+    "transactions": [
+      {
+        "date": "2025-06-16",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "d79b3d5bcda8": {
+    "id": "d79b3d5bcda8",
+    "label": "37 RUE DE LA LIBAUDE, Herlies",
+    "lat": 50.578431,
+    "lng": 2.861328,
+    "transactions": [
+      {
+        "date": "2025-06-16",
+        "priceEur": 256500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

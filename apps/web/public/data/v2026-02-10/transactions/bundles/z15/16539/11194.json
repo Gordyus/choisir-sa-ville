@@ -1,0 +1,32 @@
+{
+  "6283c628938d": {
+    "id": "6283c628938d",
+    "label": "24 RUE DE LA MADELEINE, Neuf-Marché",
+    "lat": 49.422957,
+    "lng": 1.713588,
+    "transactions": [
+      {
+        "date": "2020-11-06",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f72f548dce2": {
+    "id": "9f72f548dce2",
+    "label": "4 AV COLETTE, Neuf-Marché",
+    "lat": 49.422058,
+    "lng": 1.710434,
+    "transactions": [
+      {
+        "date": "2021-05-10",
+        "priceEur": 166800,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  }
+}

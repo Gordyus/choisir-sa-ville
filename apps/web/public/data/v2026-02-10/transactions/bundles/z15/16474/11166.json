@@ -1,0 +1,32 @@
+{
+  "b2c7c321171f": {
+    "id": "b2c7c321171f",
+    "label": "1020 RTE DE BUTOT, Hugleville-en-Caux",
+    "lat": 49.624334,
+    "lng": 0.999719,
+    "transactions": [
+      {
+        "date": "2022-01-20",
+        "priceEur": 202000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "bfffe87428ec": {
+    "id": "bfffe87428ec",
+    "label": "56 IMP DE GRETOT, Hugleville-en-Caux",
+    "lat": 49.623365,
+    "lng": 0.998092,
+    "transactions": [
+      {
+        "date": "2022-08-09",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

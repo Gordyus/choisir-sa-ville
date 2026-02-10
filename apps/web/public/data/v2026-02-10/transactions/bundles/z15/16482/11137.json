@@ -1,0 +1,47 @@
+{
+  "13769976b6e3": {
+    "id": "13769976b6e3",
+    "label": "19 RTE DE DIEPPE, Anneville-sur-Scie",
+    "lat": 49.828559,
+    "lng": 1.087487,
+    "transactions": [
+      {
+        "date": "2022-05-12",
+        "priceEur": 132000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb30c145e218": {
+    "id": "bb30c145e218",
+    "label": "5051A VILLAGE, Crosville-sur-Scie",
+    "lat": 49.829098,
+    "lng": 1.083459,
+    "transactions": [
+      {
+        "date": "2023-05-31",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 266,
+        "isVefa": false
+      }
+    ]
+  },
+  "c1579c9dc675": {
+    "id": "c1579c9dc675",
+    "label": "18 RTE DE DIEPPE, Anneville-sur-Scie",
+    "lat": 49.829802,
+    "lng": 1.086055,
+    "transactions": [
+      {
+        "date": "2024-06-10",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 185,
+        "isVefa": false
+      }
+    ]
+  }
+}

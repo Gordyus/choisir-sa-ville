@@ -1,0 +1,32 @@
+{
+  "376ccc10b630": {
+    "id": "376ccc10b630",
+    "label": "5110 LE BOURG, Saint-Germain-des-Essourts",
+    "lat": 49.539792,
+    "lng": 1.322679,
+    "transactions": [
+      {
+        "date": "2023-03-03",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "93cdf7e43b0c": {
+    "id": "93cdf7e43b0c",
+    "label": "36 RTE DE BOISSAY, Saint-Germain-des-Essourts",
+    "lat": 49.540167,
+    "lng": 1.322882,
+    "transactions": [
+      {
+        "date": "2023-06-08",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  }
+}

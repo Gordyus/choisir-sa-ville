@@ -1,0 +1,62 @@
+{
+  "9193625d1d99": {
+    "id": "9193625d1d99",
+    "label": "100 RUE DES SOURCES, Avesnes-en-Bray",
+    "lat": 49.46626,
+    "lng": 1.674057,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "d917f4f74669": {
+    "id": "d917f4f74669",
+    "label": "90 RUE DES SOURCES, Avesnes-en-Bray",
+    "lat": 49.467361,
+    "lng": 1.673311,
+    "transactions": [
+      {
+        "date": "2023-10-12",
+        "priceEur": 467000,
+        "typeLocal": "Maison",
+        "surfaceM2": 195,
+        "isVefa": false
+      }
+    ]
+  },
+  "291893b6ed29": {
+    "id": "291893b6ed29",
+    "label": "96 RUE DES SOURCES, Avesnes-en-Bray",
+    "lat": 49.467287,
+    "lng": 1.673894,
+    "transactions": [
+      {
+        "date": "2024-06-07",
+        "priceEur": 129350,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "56552d7a3e6c": {
+    "id": "56552d7a3e6c",
+    "label": "97 RUE DES SOURCES, Avesnes-en-Bray",
+    "lat": 49.466996,
+    "lng": 1.676525,
+    "transactions": [
+      {
+        "date": "2024-05-29",
+        "priceEur": 437400,
+        "typeLocal": "Maison",
+        "surfaceM2": 235,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "698d0a583694": {
+    "id": "698d0a583694",
+    "label": "830 GR GRANDE RUE, Buchy",
+    "lat": 49.581817,
+    "lng": 1.364527,
+    "transactions": [
+      {
+        "date": "2021-01-07",
+        "priceEur": 174000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "e82c00d25b62": {
+    "id": "e82c00d25b62",
+    "label": "8 RTE D'ARGUEIL BOSC ROGER S/BUC, Buchy",
+    "lat": 49.579609,
+    "lng": 1.365357,
+    "transactions": [
+      {
+        "date": "2022-06-13",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "3274b0d98b59": {
+    "id": "3274b0d98b59",
+    "label": "13 RTE D'ARGUEIL BOSC ROGER S BUC, Buchy",
+    "lat": 49.578777,
+    "lng": 1.366664,
+    "transactions": [
+      {
+        "date": "2022-07-11",
+        "priceEur": 119900,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "1980b3b93c67": {
+    "id": "1980b3b93c67",
+    "label": "790 RES DES HALLES, Buchy",
+    "lat": 49.581476,
+    "lng": 1.363957,
+    "transactions": [
+      {
+        "date": "2022-12-22",
+        "priceEur": 161500,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "8ad4ef6c3dc5": {
+    "id": "8ad4ef6c3dc5",
+    "label": "145 RTE DES GRANDS BORDEAUX, Buchy",
+    "lat": 49.578704,
+    "lng": 1.366979,
+    "transactions": [
+      {
+        "date": "2023-11-20",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  }
+}

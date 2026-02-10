@@ -1,0 +1,107 @@
+{
+  "2d60b53b38f8": {
+    "id": "2d60b53b38f8",
+    "label": "146 CHE COLOMBIER, Blacqueville",
+    "lat": 49.550733,
+    "lng": 0.850334,
+    "transactions": [
+      {
+        "date": "2021-06-03",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "858564a78fd4": {
+    "id": "858564a78fd4",
+    "label": "166 CHE COLOMBIER, Blacqueville",
+    "lat": 49.550626,
+    "lng": 0.850123,
+    "transactions": [
+      {
+        "date": "2022-12-20",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "8571daf4807a": {
+    "id": "8571daf4807a",
+    "label": "409 CHE DU COLOMBIER, Blacqueville",
+    "lat": 49.5484,
+    "lng": 0.848858,
+    "transactions": [
+      {
+        "date": "2023-09-28",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f81a449e7a3": {
+    "id": "2f81a449e7a3",
+    "label": "70 IMP DU COLOMBIER, Blacqueville",
+    "lat": 49.548846,
+    "lng": 0.849251,
+    "transactions": [
+      {
+        "date": "2024-01-31",
+        "priceEur": 285700,
+        "typeLocal": "Maison",
+        "surfaceM2": 181,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8c00b81fe8a": {
+    "id": "f8c00b81fe8a",
+    "label": "649 RTE DU MANOIR, Blacqueville",
+    "lat": 49.548409,
+    "lng": 0.854636,
+    "transactions": [
+      {
+        "date": "2024-02-09",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "411813fb5620": {
+    "id": "411813fb5620",
+    "label": "146 CHE DU COLOMBIER, Blacqueville",
+    "lat": 49.550733,
+    "lng": 0.850334,
+    "transactions": [
+      {
+        "date": "2024-12-23",
+        "priceEur": 186000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf56349ac85e": {
+    "id": "bf56349ac85e",
+    "label": "140 CHE DU COLOMBIER, Blacqueville",
+    "lat": 49.550843,
+    "lng": 0.850397,
+    "transactions": [
+      {
+        "date": "2024-12-20",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  }
+}

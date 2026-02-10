@@ -1,0 +1,69 @@
+{
+  "50799f6e54b9": {
+    "id": "50799f6e54b9",
+    "label": "935 VC LANGHEMAST STRAETE, Noordpeene",
+    "lat": 50.805451,
+    "lng": 2.369118,
+    "transactions": [
+      {
+        "date": "2020-11-05",
+        "priceEur": 194500,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "24f55f8ad3b2": {
+    "id": "24f55f8ad3b2",
+    "label": "1049 RTE DE BOURBOURG, Noordpeene",
+    "lat": 50.805374,
+    "lng": 2.363165,
+    "transactions": [
+      {
+        "date": "2023-04-11",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 173,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-25",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 173,
+        "isVefa": false
+      }
+    ]
+  },
+  "d9fee35b0c78": {
+    "id": "d9fee35b0c78",
+    "label": "2088 RTE DU SCHAECKEN, Noordpeene",
+    "lat": 50.801811,
+    "lng": 2.367551,
+    "transactions": [
+      {
+        "date": "2022-01-05",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "9fd79e620d2f": {
+    "id": "9fd79e620d2f",
+    "label": "2067 RTE DU SCHAECKEN, Noordpeene",
+    "lat": 50.801439,
+    "lng": 2.36798,
+    "transactions": [
+      {
+        "date": "2022-05-06",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  }
+}

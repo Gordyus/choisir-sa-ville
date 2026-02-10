@@ -1,0 +1,32 @@
+{
+  "f2f0a4478e5c": {
+    "id": "f2f0a4478e5c",
+    "label": "51 RUE DES TEURTRES, La Feuillie",
+    "lat": 49.466685,
+    "lng": 1.486187,
+    "transactions": [
+      {
+        "date": "2021-11-10",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6ecf71aa07b": {
+    "id": "b6ecf71aa07b",
+    "label": "41 RUE DES TEURTRES, La Feuillie",
+    "lat": 49.467032,
+    "lng": 1.487088,
+    "transactions": [
+      {
+        "date": "2021-12-02",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  }
+}

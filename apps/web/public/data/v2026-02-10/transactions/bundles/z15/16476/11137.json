@@ -1,0 +1,32 @@
+{
+  "e0060f927d9e": {
+    "id": "e0060f927d9e",
+    "label": "555 RUE SAINT PIERRE, Auppegard",
+    "lat": 49.828078,
+    "lng": 1.021273,
+    "transactions": [
+      {
+        "date": "2022-07-12",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "a32f9b54fe0c": {
+    "id": "a32f9b54fe0c",
+    "label": "625 RUE SAINT PIERRE, Auppegard",
+    "lat": 49.828303,
+    "lng": 1.020138,
+    "transactions": [
+      {
+        "date": "2024-09-18",
+        "priceEur": 116000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  }
+}

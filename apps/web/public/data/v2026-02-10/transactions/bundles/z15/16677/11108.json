@@ -1,0 +1,47 @@
+{
+  "8abb891f0c11": {
+    "id": "8abb891f0c11",
+    "label": "8 GR GRANDE RUE, Honnecourt-sur-Escaut",
+    "lat": 50.032761,
+    "lng": 3.228086,
+    "transactions": [
+      {
+        "date": "2021-05-27",
+        "priceEur": 27000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae6d42344148": {
+    "id": "ae6d42344148",
+    "label": "18 RUE DE RANCOURT, Honnecourt-sur-Escaut",
+    "lat": 50.034606,
+    "lng": 3.229777,
+    "transactions": [
+      {
+        "date": "2022-05-24",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f08301256c1": {
+    "id": "2f08301256c1",
+    "label": "10 GR GRANDE RUE, Honnecourt-sur-Escaut",
+    "lat": 50.032695,
+    "lng": 3.228283,
+    "transactions": [
+      {
+        "date": "2024-04-23",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  }
+}

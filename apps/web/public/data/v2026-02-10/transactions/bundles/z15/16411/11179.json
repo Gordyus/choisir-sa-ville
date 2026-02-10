@@ -1,0 +1,84 @@
+{
+  "25cbc5fcf3c6": {
+    "id": "25cbc5fcf3c6",
+    "label": "5001 PRES LE BOIS GAILLOT, Épretot",
+    "lat": 49.530341,
+    "lng": 0.307276,
+    "transactions": [
+      {
+        "date": "2020-08-07",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f9e7911f5dd": {
+    "id": "5f9e7911f5dd",
+    "label": "771 RTE DU HAVRE, Épretot",
+    "lat": 49.528396,
+    "lng": 0.306237,
+    "transactions": [
+      {
+        "date": "2022-07-11",
+        "priceEur": 177500,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "59779ee911ba": {
+    "id": "59779ee911ba",
+    "label": "1195 RTE DU BOIS GAILLOT, Épretot",
+    "lat": 49.531256,
+    "lng": 0.306526,
+    "transactions": [
+      {
+        "date": "2025-03-14",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-23",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "0fe44eff4cf7": {
+    "id": "0fe44eff4cf7",
+    "label": "785 RTE DU HAVRE, Épretot",
+    "lat": 49.52879,
+    "lng": 0.306049,
+    "transactions": [
+      {
+        "date": "2023-06-15",
+        "priceEur": 226000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "ef36f486899b": {
+    "id": "ef36f486899b",
+    "label": "1240 RTE DU BOIS GAILLOT, Épretot",
+    "lat": 49.529871,
+    "lng": 0.305608,
+    "transactions": [
+      {
+        "date": "2025-01-10",
+        "priceEur": 254000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

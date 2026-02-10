@@ -1,0 +1,3423 @@
+{
+  "c6b636b5952f": {
+    "id": "c6b636b5952f",
+    "label": "3 RUE DU COLLEGE, Roujan",
+    "lat": 43.504524,
+    "lng": 3.311433,
+    "transactions": [
+      {
+        "date": "2022-02-02",
+        "priceEur": 64500,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-06",
+        "priceEur": 63000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "03ffe21603e9": {
+    "id": "03ffe21603e9",
+    "label": "11 RUE BASTARD SENAUX, Roujan",
+    "lat": 43.50458,
+    "lng": 3.312264,
+    "transactions": [
+      {
+        "date": "2020-07-27",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "e67402009923": {
+    "id": "e67402009923",
+    "label": "1 CHE DE CAUX, Roujan",
+    "lat": 43.504596,
+    "lng": 3.312331,
+    "transactions": [
+      {
+        "date": "2020-07-30",
+        "priceEur": 33100,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "a4246bb5d7b4": {
+    "id": "a4246bb5d7b4",
+    "label": "2 IMP ROSA BONHEUR, Roujan",
+    "lat": 43.502656,
+    "lng": 3.308004,
+    "transactions": [
+      {
+        "date": "2020-07-17",
+        "priceEur": 221000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ca9ee590794": {
+    "id": "6ca9ee590794",
+    "label": "2 ALL DE L AMANDIER, Roujan",
+    "lat": 43.503219,
+    "lng": 3.317363,
+    "transactions": [
+      {
+        "date": "2020-07-24",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "7aab2723c0ef": {
+    "id": "7aab2723c0ef",
+    "label": "23 CHE D ALIGNAN, Roujan",
+    "lat": 43.501197,
+    "lng": 3.314786,
+    "transactions": [
+      {
+        "date": "2023-06-23",
+        "priceEur": 399000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-03",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "127d7231c308": {
+    "id": "127d7231c308",
+    "label": "6 AV DE MARGON, Roujan",
+    "lat": 43.504205,
+    "lng": 3.310005,
+    "transactions": [
+      {
+        "date": "2020-08-07",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "ab34b30dcfb0": {
+    "id": "ab34b30dcfb0",
+    "label": "2 RUE SAINT JEAN, Roujan",
+    "lat": 43.506131,
+    "lng": 3.310873,
+    "transactions": [
+      {
+        "date": "2020-08-17",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "98203b10dfe0": {
+    "id": "98203b10dfe0",
+    "label": "75 AV DE PEZENAS, Roujan",
+    "lat": 43.50279,
+    "lng": 3.314393,
+    "transactions": [
+      {
+        "date": "2024-01-26",
+        "priceEur": 286000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-01",
+        "priceEur": 71000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "bab53e1f70ee": {
+    "id": "bab53e1f70ee",
+    "label": "20B RUE DE L'HOPITAL, Roujan",
+    "lat": 43.506573,
+    "lng": 3.308418,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 118500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3428da8fc67": {
+    "id": "c3428da8fc67",
+    "label": "18 RUE BASSE, Roujan",
+    "lat": 43.505081,
+    "lng": 3.311074,
+    "transactions": [
+      {
+        "date": "2020-09-11",
+        "priceEur": 37200,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "f2675049f77f": {
+    "id": "f2675049f77f",
+    "label": "9 RUE DE LA CENTENAIRE, Roujan",
+    "lat": 43.505546,
+    "lng": 3.310428,
+    "transactions": [
+      {
+        "date": "2024-12-04",
+        "priceEur": 119650,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-07",
+        "priceEur": 84300,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "713cf6c59226": {
+    "id": "713cf6c59226",
+    "label": "8 RUE DU COLLEGE, Roujan",
+    "lat": 43.504698,
+    "lng": 3.311696,
+    "transactions": [
+      {
+        "date": "2021-09-01",
+        "priceEur": 83650,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-03",
+        "priceEur": 61000,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "8599ecab102f": {
+    "id": "8599ecab102f",
+    "label": "32 AV DE PEZENAS, Roujan",
+    "lat": 43.504275,
+    "lng": 3.311431,
+    "transactions": [
+      {
+        "date": "2020-09-11",
+        "priceEur": 237500,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "f49cd07a8536": {
+    "id": "f49cd07a8536",
+    "label": "2 RUE DE LA CENTENAIRE, Roujan",
+    "lat": 43.505438,
+    "lng": 3.309985,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 46000,
+        "typeLocal": "Maison",
+        "surfaceM2": 31,
+        "isVefa": false
+      }
+    ]
+  },
+  "863061f1fe29": {
+    "id": "863061f1fe29",
+    "label": "8 RUE MIREIO DORIAN, Roujan",
+    "lat": 43.503013,
+    "lng": 3.310696,
+    "transactions": [
+      {
+        "date": "2020-10-16",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f3b9620f5cb": {
+    "id": "2f3b9620f5cb",
+    "label": "7 RUE DU COLLEGE, Roujan",
+    "lat": 43.50452,
+    "lng": 3.31157,
+    "transactions": [
+      {
+        "date": "2020-10-19",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "50abda0af318": {
+    "id": "50abda0af318",
+    "label": "34B LE PIGEONNIER, Roujan",
+    "lat": 43.503202,
+    "lng": 3.316076,
+    "transactions": [
+      {
+        "date": "2020-10-16",
+        "priceEur": 266500,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f8d39c08395": {
+    "id": "8f8d39c08395",
+    "label": "6 RUE EDGAR DEGAS, Roujan",
+    "lat": 43.502265,
+    "lng": 3.307544,
+    "transactions": [
+      {
+        "date": "2020-10-23",
+        "priceEur": 245700,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "ce17231c3635": {
+    "id": "ce17231c3635",
+    "label": "3 RUE LOUIS ARAGON, Roujan",
+    "lat": 43.508597,
+    "lng": 3.314449,
+    "transactions": [
+      {
+        "date": "2020-10-27",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 174,
+        "isVefa": false
+      }
+    ]
+  },
+  "973273649e12": {
+    "id": "973273649e12",
+    "label": "21 AV DE PEZENAS, Roujan",
+    "lat": 43.504,
+    "lng": 3.311373,
+    "transactions": [
+      {
+        "date": "2025-03-20",
+        "priceEur": 109350,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-14",
+        "priceEur": 66000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3e244b5229c": {
+    "id": "c3e244b5229c",
+    "label": "17 CHE DES ABOURNIERES, Roujan",
+    "lat": 43.500784,
+    "lng": 3.313816,
+    "transactions": [
+      {
+        "date": "2020-11-04",
+        "priceEur": 359000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "300732f0b430": {
+    "id": "300732f0b430",
+    "label": "56 AV DE PEZENAS, Roujan",
+    "lat": 43.503484,
+    "lng": 3.313618,
+    "transactions": [
+      {
+        "date": "2022-01-24",
+        "priceEur": 65000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-12",
+        "priceEur": 68660,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-16",
+        "priceEur": 58000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "a547eb3d996d": {
+    "id": "a547eb3d996d",
+    "label": "23 RUE DE LA MONTAGNE, Roujan",
+    "lat": 43.503776,
+    "lng": 3.310645,
+    "transactions": [
+      {
+        "date": "2023-04-12",
+        "priceEur": 81600,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-09",
+        "priceEur": 68400,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "9aa0598a1ed2": {
+    "id": "9aa0598a1ed2",
+    "label": "4 RUE D'OCCITANIE, Roujan",
+    "lat": 43.50309,
+    "lng": 3.311265,
+    "transactions": [
+      {
+        "date": "2020-12-10",
+        "priceEur": 117500,
+        "typeLocal": "Maison",
+        "surfaceM2": 166,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e14349c7499": {
+    "id": "9e14349c7499",
+    "label": "7B RUE DU PIGEONNIER, Roujan",
+    "lat": 43.503267,
+    "lng": 3.316734,
+    "transactions": [
+      {
+        "date": "2020-11-20",
+        "priceEur": 266000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5c159691bf9": {
+    "id": "c5c159691bf9",
+    "label": "17 RUE DE LA MONTAGNE, Roujan",
+    "lat": 43.503644,
+    "lng": 3.311009,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 166000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5cf910b870a": {
+    "id": "f5cf910b870a",
+    "label": "22 RUE DE LA CENTENAIRE, Roujan",
+    "lat": 43.50602,
+    "lng": 3.31049,
+    "transactions": [
+      {
+        "date": "2020-12-21",
+        "priceEur": 90300,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "7454d41c314a": {
+    "id": "7454d41c314a",
+    "label": "10 AV DE MARGON, Roujan",
+    "lat": 43.503994,
+    "lng": 3.309917,
+    "transactions": [
+      {
+        "date": "2020-12-23",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "e008c3b2102d": {
+    "id": "e008c3b2102d",
+    "label": "1 RUE DU LANGUEDOC, Roujan",
+    "lat": 43.506298,
+    "lng": 3.311054,
+    "transactions": [
+      {
+        "date": "2020-12-09",
+        "priceEur": 71500,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "8dc8a05afa89": {
+    "id": "8dc8a05afa89",
+    "label": "4 RUE DE LA CENTENAIRE, Roujan",
+    "lat": 43.505474,
+    "lng": 3.310023,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 51500,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "da8f19df3dcb": {
+    "id": "da8f19df3dcb",
+    "label": "56B AV DE PEZENAS, Roujan",
+    "lat": 43.503484,
+    "lng": 3.313618,
+    "transactions": [
+      {
+        "date": "2020-12-28",
+        "priceEur": 153850,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e1a285cdccd": {
+    "id": "2e1a285cdccd",
+    "label": "5 RUE DE L'HOPITAL, Roujan",
+    "lat": 43.505549,
+    "lng": 3.310343,
+    "transactions": [
+      {
+        "date": "2020-12-23",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "83b3a304b14f": {
+    "id": "83b3a304b14f",
+    "label": "73 AV DE PEZENAS, Roujan",
+    "lat": 43.502806,
+    "lng": 3.314313,
+    "transactions": [
+      {
+        "date": "2023-11-02",
+        "priceEur": 254000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-13",
+        "priceEur": 101000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e460de99a37": {
+    "id": "8e460de99a37",
+    "label": "14 IMP ROSA BONHEUR, Roujan",
+    "lat": 43.501562,
+    "lng": 3.307936,
+    "transactions": [
+      {
+        "date": "2021-01-11",
+        "priceEur": 261800,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c310bf1a9f6": {
+    "id": "3c310bf1a9f6",
+    "label": "2 RUE DES PLANTADES, Roujan",
+    "lat": 43.50624,
+    "lng": 3.310541,
+    "transactions": [
+      {
+        "date": "2021-02-05",
+        "priceEur": 89850,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e9e51d1173c": {
+    "id": "1e9e51d1173c",
+    "label": "7 RUE PIEDMOUTON, Roujan",
+    "lat": 43.506135,
+    "lng": 3.310363,
+    "transactions": [
+      {
+        "date": "2024-09-19",
+        "priceEur": 87400,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-18",
+        "priceEur": 66000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "b811f9b03d9d": {
+    "id": "b811f9b03d9d",
+    "label": "39 AV DE PEZENAS, Roujan",
+    "lat": 43.503392,
+    "lng": 3.312764,
+    "transactions": [
+      {
+        "date": "2021-03-05",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "123067ebc2b2": {
+    "id": "123067ebc2b2",
+    "label": "4B AV DE MARGON, Roujan",
+    "lat": 43.504296,
+    "lng": 3.310155,
+    "transactions": [
+      {
+        "date": "2021-03-08",
+        "priceEur": 128550,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d820d4ecad3": {
+    "id": "5d820d4ecad3",
+    "label": "18 AV HENRI MAS, Roujan",
+    "lat": 43.507082,
+    "lng": 3.31086,
+    "transactions": [
+      {
+        "date": "2021-03-25",
+        "priceEur": 182500,
+        "typeLocal": "Maison",
+        "surfaceM2": 176,
+        "isVefa": false
+      }
+    ]
+  },
+  "220d9f8166b6": {
+    "id": "220d9f8166b6",
+    "label": "2T AV DE CAUX, Roujan",
+    "lat": 43.504495,
+    "lng": 3.31272,
+    "transactions": [
+      {
+        "date": "2021-04-01",
+        "priceEur": 410000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b90f36aabe8": {
+    "id": "1b90f36aabe8",
+    "label": "22 RUE DE LA MONTAGNE, Roujan",
+    "lat": 43.503668,
+    "lng": 3.31047,
+    "transactions": [
+      {
+        "date": "2021-04-09",
+        "priceEur": 22200,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "87a3d26e0454": {
+    "id": "87a3d26e0454",
+    "label": "21 RUE BASTARD SENAUX, Roujan",
+    "lat": 43.505393,
+    "lng": 3.312245,
+    "transactions": [
+      {
+        "date": "2025-03-10",
+        "priceEur": 161500,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-16",
+        "priceEur": 77000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e190991e30f": {
+    "id": "0e190991e30f",
+    "label": "10 RUE DE LA TOUR, Roujan",
+    "lat": 43.504911,
+    "lng": 3.311343,
+    "transactions": [
+      {
+        "date": "2021-04-22",
+        "priceEur": 78000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "88efcdb1f87b": {
+    "id": "88efcdb1f87b",
+    "label": "14 RUE DROITE, Roujan",
+    "lat": 43.504681,
+    "lng": 3.311118,
+    "transactions": [
+      {
+        "date": "2023-07-10",
+        "priceEur": 120200,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-23",
+        "priceEur": 94183,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "5fa6753cb29d": {
+    "id": "5fa6753cb29d",
+    "label": "4 RUE DES PLANTADES, Roujan",
+    "lat": 43.506272,
+    "lng": 3.310482,
+    "transactions": [
+      {
+        "date": "2021-04-23",
+        "priceEur": 85050,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5538db3a8cf": {
+    "id": "f5538db3a8cf",
+    "label": "5 RUE DU JEU DE BALLON, Roujan",
+    "lat": 43.505051,
+    "lng": 3.31049,
+    "transactions": [
+      {
+        "date": "2021-04-23",
+        "priceEur": 48000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "6104e2404ee5": {
+    "id": "6104e2404ee5",
+    "label": "10 CHE DE PEZENAS, Roujan",
+    "lat": 43.502868,
+    "lng": 3.316346,
+    "transactions": [
+      {
+        "date": "2021-04-21",
+        "priceEur": 306780,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "299131b787ba": {
+    "id": "299131b787ba",
+    "label": "20 RUE PAUL GAUGUIN, Roujan",
+    "lat": 43.504029,
+    "lng": 3.308215,
+    "transactions": [
+      {
+        "date": "2021-04-20",
+        "priceEur": 345900,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "a4cae509fc56": {
+    "id": "a4cae509fc56",
+    "label": "4 RUE DES PICHOLINES, Roujan",
+    "lat": 43.502715,
+    "lng": 3.309623,
+    "transactions": [
+      {
+        "date": "2021-05-17",
+        "priceEur": 396000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "8daeabfc87a3": {
+    "id": "8daeabfc87a3",
+    "label": "2 RUE AUDIBERT, Roujan",
+    "lat": 43.505709,
+    "lng": 3.309166,
+    "transactions": [
+      {
+        "date": "2023-10-18",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-11",
+        "priceEur": 236000,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      }
+    ]
+  },
+  "6caacb705a99": {
+    "id": "6caacb705a99",
+    "label": "14 RUE FREDERIC MISTRAL, Roujan",
+    "lat": 43.502188,
+    "lng": 3.31062,
+    "transactions": [
+      {
+        "date": "2021-06-07",
+        "priceEur": 232890,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "03ceecd18f2f": {
+    "id": "03ceecd18f2f",
+    "label": "15 RUE BASSE, Roujan",
+    "lat": 43.504961,
+    "lng": 3.311802,
+    "transactions": [
+      {
+        "date": "2021-06-04",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "37da8c000a82": {
+    "id": "37da8c000a82",
+    "label": "4 RUE DE LA TOUR, Roujan",
+    "lat": 43.504768,
+    "lng": 3.311334,
+    "transactions": [
+      {
+        "date": "2021-06-09",
+        "priceEur": 15000,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e12f8b6f18b": {
+    "id": "5e12f8b6f18b",
+    "label": "20B RUE DE LA SERRE, Roujan",
+    "lat": 43.500873,
+    "lng": 3.312729,
+    "transactions": [
+      {
+        "date": "2022-03-15",
+        "priceEur": 444850,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-02",
+        "priceEur": 405000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "bfe7343edac5": {
+    "id": "bfe7343edac5",
+    "label": "1 AV DE PEZENAS, Roujan",
+    "lat": 43.504812,
+    "lng": 3.310263,
+    "transactions": [
+      {
+        "date": "2021-06-15",
+        "priceEur": 61050,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "54b2a86479f5": {
+    "id": "54b2a86479f5",
+    "label": "12 RUE PAUL VALERY, Roujan",
+    "lat": 43.505089,
+    "lng": 3.315957,
+    "transactions": [
+      {
+        "date": "2021-07-02",
+        "priceEur": 308000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "c791f6b0bf24": {
+    "id": "c791f6b0bf24",
+    "label": "5090 AV DE L'EGLISE, Roujan",
+    "lat": 43.507254,
+    "lng": 3.310865,
+    "transactions": [
+      {
+        "date": "2024-04-16",
+        "priceEur": 61900,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-23",
+        "priceEur": 44500,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "46946d1b01e7": {
+    "id": "46946d1b01e7",
+    "label": "1 RUE DES PICHOLINES, Roujan",
+    "lat": 43.502699,
+    "lng": 3.309002,
+    "transactions": [
+      {
+        "date": "2021-07-02",
+        "priceEur": 306851,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6a98fc11f24": {
+    "id": "f6a98fc11f24",
+    "label": "6B PL DE LA MAIRIE, Roujan",
+    "lat": 43.504069,
+    "lng": 3.310738,
+    "transactions": [
+      {
+        "date": "2021-07-20",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-20",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-20",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "6384df81fd76": {
+    "id": "6384df81fd76",
+    "label": "47B RUE BASSE, Roujan",
+    "lat": 43.505293,
+    "lng": 3.311296,
+    "transactions": [
+      {
+        "date": "2024-12-05",
+        "priceEur": 110840,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-15",
+        "priceEur": 122850,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-02",
+        "priceEur": 33340,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa83383da3d1": {
+    "id": "fa83383da3d1",
+    "label": "14 RUE MIREIO DORIAN, Roujan",
+    "lat": 43.502829,
+    "lng": 3.310531,
+    "transactions": [
+      {
+        "date": "2021-08-06",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4ea70cd6381": {
+    "id": "b4ea70cd6381",
+    "label": "10 AV DE CAUX, Roujan",
+    "lat": 43.504807,
+    "lng": 3.313274,
+    "transactions": [
+      {
+        "date": "2021-08-16",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "6340de5ae6c8": {
+    "id": "6340de5ae6c8",
+    "label": "9 RUE DROITE, Roujan",
+    "lat": 43.504388,
+    "lng": 3.311502,
+    "transactions": [
+      {
+        "date": "2021-08-13",
+        "priceEur": 146440,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "3abe143ca51d": {
+    "id": "3abe143ca51d",
+    "label": "55 RUE BASSE, Roujan",
+    "lat": 43.50516,
+    "lng": 3.311036,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 70750,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "f29d79a1570c": {
+    "id": "f29d79a1570c",
+    "label": "32 RUE DROITE, Roujan",
+    "lat": 43.505079,
+    "lng": 3.310743,
+    "transactions": [
+      {
+        "date": "2024-11-12",
+        "priceEur": 71500,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-10",
+        "priceEur": 83090,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "f45ac7b19f18": {
+    "id": "f45ac7b19f18",
+    "label": "44 RUE DE LA MONTAGNE, Roujan",
+    "lat": 43.50454,
+    "lng": 3.308826,
+    "transactions": [
+      {
+        "date": "2022-02-28",
+        "priceEur": 293300,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-13",
+        "priceEur": 283100,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "14012d575cb0": {
+    "id": "14012d575cb0",
+    "label": "21 CHE D ALIGNAN, Roujan",
+    "lat": 43.501374,
+    "lng": 3.315035,
+    "transactions": [
+      {
+        "date": "2021-09-14",
+        "priceEur": 287700,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "b280bbde4f4d": {
+    "id": "b280bbde4f4d",
+    "label": "13 RUE PAUL VALERY, Roujan",
+    "lat": 43.505171,
+    "lng": 3.316133,
+    "transactions": [
+      {
+        "date": "2021-10-01",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "4df0a6175adc": {
+    "id": "4df0a6175adc",
+    "label": "35 RUE BASSE, Roujan",
+    "lat": 43.505235,
+    "lng": 3.31153,
+    "transactions": [
+      {
+        "date": "2021-10-13",
+        "priceEur": 46000,
+        "typeLocal": "Maison",
+        "surfaceM2": 20,
+        "isVefa": false
+      }
+    ]
+  },
+  "d54cb7c11228": {
+    "id": "d54cb7c11228",
+    "label": "10 RUE DE ROGANI, Roujan",
+    "lat": 43.507284,
+    "lng": 3.315193,
+    "transactions": [
+      {
+        "date": "2021-10-07",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "8565bb8949e9": {
+    "id": "8565bb8949e9",
+    "label": "19 RUE D'OCCITANIE, Roujan",
+    "lat": 43.502201,
+    "lng": 3.311536,
+    "transactions": [
+      {
+        "date": "2021-10-20",
+        "priceEur": 208300,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "65d347097490": {
+    "id": "65d347097490",
+    "label": "6 AV DE L'EGLISE, Roujan",
+    "lat": 43.507111,
+    "lng": 3.310336,
+    "transactions": [
+      {
+        "date": "2021-10-22",
+        "priceEur": 1240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "1007fa230e17": {
+    "id": "1007fa230e17",
+    "label": "11 AV DE L'EGLISE, Roujan",
+    "lat": 43.507344,
+    "lng": 3.310771,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 397000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "c115ef1e8d56": {
+    "id": "c115ef1e8d56",
+    "label": "6 AV DE PEZENAS, Roujan",
+    "lat": 43.504974,
+    "lng": 3.310711,
+    "transactions": [
+      {
+        "date": "2021-11-05",
+        "priceEur": 67876,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a33bc7cf44d": {
+    "id": "2a33bc7cf44d",
+    "label": "22 RUE DU PIGEONNIER, Roujan",
+    "lat": 43.503793,
+    "lng": 3.315578,
+    "transactions": [
+      {
+        "date": "2021-11-04",
+        "priceEur": 196220,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "096e07286831": {
+    "id": "096e07286831",
+    "label": "47 AV HENRI MAS, Roujan",
+    "lat": 43.508039,
+    "lng": 3.31203,
+    "transactions": [
+      {
+        "date": "2021-12-07",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5280792b22d": {
+    "id": "c5280792b22d",
+    "label": "31 RUE BASSE, Roujan",
+    "lat": 43.50513,
+    "lng": 3.311645,
+    "transactions": [
+      {
+        "date": "2022-07-30",
+        "priceEur": 94000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-02",
+        "priceEur": 78000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d1974b39533": {
+    "id": "9d1974b39533",
+    "label": "4 RUE DES ABOURNIERES, Roujan",
+    "lat": 43.501096,
+    "lng": 3.31429,
+    "transactions": [
+      {
+        "date": "2021-12-23",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "0aacce36c5f3": {
+    "id": "0aacce36c5f3",
+    "label": "4 RUE DU PRE DE BAN, Roujan",
+    "lat": 43.507202,
+    "lng": 3.312081,
+    "transactions": [
+      {
+        "date": "2021-07-20",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c9f05f54924": {
+    "id": "1c9f05f54924",
+    "label": "10 RUE BASSE, Roujan",
+    "lat": 43.505066,
+    "lng": 3.311488,
+    "transactions": [
+      {
+        "date": "2021-04-28",
+        "priceEur": 38100,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "a6d6ade22b0e": {
+    "id": "a6d6ade22b0e",
+    "label": "26 RUE SAINT JEAN, Roujan",
+    "lat": 43.506371,
+    "lng": 3.311439,
+    "transactions": [
+      {
+        "date": "2022-01-05",
+        "priceEur": 139840,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "96b97cfb8cdc": {
+    "id": "96b97cfb8cdc",
+    "label": "18 RUE CLAUDE MONET, Roujan",
+    "lat": 43.505258,
+    "lng": 3.307103,
+    "transactions": [
+      {
+        "date": "2022-01-13",
+        "priceEur": 211500,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "6f516948a41b": {
+    "id": "6f516948a41b",
+    "label": "25 RUE DE LA MONTAGNE, Roujan",
+    "lat": 43.503914,
+    "lng": 3.310535,
+    "transactions": [
+      {
+        "date": "2024-11-29",
+        "priceEur": 110000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-29",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-07",
+        "priceEur": 168400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 121,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-17",
+        "priceEur": 122528,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-17",
+        "priceEur": 122528,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "07de3c3158e9": {
+    "id": "07de3c3158e9",
+    "label": "17 AV DE PEZENAS, Roujan",
+    "lat": 43.504073,
+    "lng": 3.311188,
+    "transactions": [
+      {
+        "date": "2022-01-17",
+        "priceEur": 119208,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "56ca06ded2c1": {
+    "id": "56ca06ded2c1",
+    "label": "3 RUE DE LA CENTENAIRE, Roujan",
+    "lat": 43.5054,
+    "lng": 3.3101,
+    "transactions": [
+      {
+        "date": "2022-01-25",
+        "priceEur": 98300,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "410b14d4ba88": {
+    "id": "410b14d4ba88",
+    "label": "29 RUE DE LA MONTAGNE, Roujan",
+    "lat": 43.504122,
+    "lng": 3.310101,
+    "transactions": [
+      {
+        "date": "2022-02-09",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "e92d39f41526": {
+    "id": "e92d39f41526",
+    "label": "35 AV HENRI MAS, Roujan",
+    "lat": 43.507277,
+    "lng": 3.311447,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 171000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "d88a851b129f": {
+    "id": "d88a851b129f",
+    "label": "14 RUE DE LA SERRE, Roujan",
+    "lat": 43.502092,
+    "lng": 3.31239,
+    "transactions": [
+      {
+        "date": "2022-02-04",
+        "priceEur": 320970,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d366bff873d": {
+    "id": "1d366bff873d",
+    "label": "17 RUE DE L'HOPITAL, Roujan",
+    "lat": 43.505847,
+    "lng": 3.310241,
+    "transactions": [
+      {
+        "date": "2023-10-03",
+        "priceEur": 78400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-21",
+        "priceEur": 80500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-21",
+        "priceEur": 66420,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ce750c2865a": {
+    "id": "4ce750c2865a",
+    "label": "20 AV DE CASSAN, Roujan",
+    "lat": 43.505152,
+    "lng": 3.308795,
+    "transactions": [
+      {
+        "date": "2022-03-08",
+        "priceEur": 495000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-08",
+        "priceEur": 495000,
+        "typeLocal": "Maison",
+        "surfaceM2": 360,
+        "isVefa": false
+      }
+    ]
+  },
+  "0cbb4f9139c3": {
+    "id": "0cbb4f9139c3",
+    "label": "15 RUE PAUL VALERY, Roujan",
+    "lat": 43.504891,
+    "lng": 3.316105,
+    "transactions": [
+      {
+        "date": "2022-03-10",
+        "priceEur": 186000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "f03fa1db11bf": {
+    "id": "f03fa1db11bf",
+    "label": "22 AV DE CASSAN, Roujan",
+    "lat": 43.505284,
+    "lng": 3.308571,
+    "transactions": [
+      {
+        "date": "2022-03-21",
+        "priceEur": 843950,
+        "typeLocal": "Maison",
+        "surfaceM2": 300,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-21",
+        "priceEur": 843950,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "075ab12bbe14": {
+    "id": "075ab12bbe14",
+    "label": "12 RUE DU PIGEONNIER, Roujan",
+    "lat": 43.50438,
+    "lng": 3.315102,
+    "transactions": [
+      {
+        "date": "2022-03-11",
+        "priceEur": 213750,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "0a3da6551b63": {
+    "id": "0a3da6551b63",
+    "label": "1B AV DE MARGON, Roujan",
+    "lat": 43.50481,
+    "lng": 3.310038,
+    "transactions": [
+      {
+        "date": "2022-04-14",
+        "priceEur": 154700,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      }
+    ]
+  },
+  "75bc545878bb": {
+    "id": "75bc545878bb",
+    "label": "76 AV DE PEZENAS, Roujan",
+    "lat": 43.502813,
+    "lng": 3.315632,
+    "transactions": [
+      {
+        "date": "2022-04-12",
+        "priceEur": 206000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6efe9618ba7": {
+    "id": "c6efe9618ba7",
+    "label": "18 RUE DE LA SERRE, Roujan",
+    "lat": 43.501498,
+    "lng": 3.312542,
+    "transactions": [
+      {
+        "date": "2022-04-09",
+        "priceEur": 178266.67,
+        "typeLocal": "Maison",
+        "surfaceM2": 157,
+        "isVefa": false
+      }
+    ]
+  },
+  "114c9ecc3a66": {
+    "id": "114c9ecc3a66",
+    "label": "16 RUE DE LA SERRE, Roujan",
+    "lat": 43.501787,
+    "lng": 3.312237,
+    "transactions": [
+      {
+        "date": "2022-04-09",
+        "priceEur": 178266.67,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3dabc6af115": {
+    "id": "c3dabc6af115",
+    "label": "6 RUE DU COLLEGE, Roujan",
+    "lat": 43.504725,
+    "lng": 3.311577,
+    "transactions": [
+      {
+        "date": "2022-04-22",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "06fe8d86a8c7": {
+    "id": "06fe8d86a8c7",
+    "label": "5 RUE D'OCCITANIE, Roujan",
+    "lat": 43.502825,
+    "lng": 3.311111,
+    "transactions": [
+      {
+        "date": "2022-04-21",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b7c61a98d85": {
+    "id": "0b7c61a98d85",
+    "label": "3 AV DE PEZENAS, Roujan",
+    "lat": 43.504823,
+    "lng": 3.310319,
+    "transactions": [
+      {
+        "date": "2022-04-29",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-29",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-29",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 29,
+        "isVefa": false
+      }
+    ]
+  },
+  "a4d8fb029491": {
+    "id": "a4d8fb029491",
+    "label": "3 RUE DE L'HOPITAL, Roujan",
+    "lat": 43.505516,
+    "lng": 3.31037,
+    "transactions": [
+      {
+        "date": "2023-07-21",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-30",
+        "priceEur": 74000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "63b232acb54c": {
+    "id": "63b232acb54c",
+    "label": "1 RUE DU VIOGNIER, Roujan",
+    "lat": 43.501402,
+    "lng": 3.315488,
+    "transactions": [
+      {
+        "date": "2022-05-31",
+        "priceEur": 244200,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "df0927a457a1": {
+    "id": "df0927a457a1",
+    "label": "16 RUE DE LA CENTENAIRE, Roujan",
+    "lat": 43.505695,
+    "lng": 3.310484,
+    "transactions": [
+      {
+        "date": "2022-06-21",
+        "priceEur": 60400,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ca601189af4": {
+    "id": "9ca601189af4",
+    "label": "9 RUE ALPHONSE DAUDET, Roujan",
+    "lat": 43.50717,
+    "lng": 3.308696,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 261000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "907dc1879626": {
+    "id": "907dc1879626",
+    "label": "12 RUE DROITE, Roujan",
+    "lat": 43.504634,
+    "lng": 3.311096,
+    "transactions": [
+      {
+        "date": "2022-07-08",
+        "priceEur": 126300,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  },
+  "146ec63ccc54": {
+    "id": "146ec63ccc54",
+    "label": "10 AV DE CASSAN, Roujan",
+    "lat": 43.505103,
+    "lng": 3.309649,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 113000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "9629f4e18538": {
+    "id": "9629f4e18538",
+    "label": "26 AV DE PEZENAS, Roujan",
+    "lat": 43.504453,
+    "lng": 3.311081,
+    "transactions": [
+      {
+        "date": "2022-07-27",
+        "priceEur": 176000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "afa1c3754a51": {
+    "id": "afa1c3754a51",
+    "label": "4 CHE DE PEZENAS, Roujan",
+    "lat": 43.503138,
+    "lng": 3.315267,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 273772,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "65747127d9ba": {
+    "id": "65747127d9ba",
+    "label": "46 RUE DE LA MONTAGNE, Roujan",
+    "lat": 43.504733,
+    "lng": 3.308523,
+    "transactions": [
+      {
+        "date": "2022-08-02",
+        "priceEur": 294565,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b1d631c9ad2": {
+    "id": "7b1d631c9ad2",
+    "label": "52 AV DE CASSAN, Roujan",
+    "lat": 43.507149,
+    "lng": 3.306923,
+    "transactions": [
+      {
+        "date": "2022-08-22",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "043b1f881dcb": {
+    "id": "043b1f881dcb",
+    "label": "5 RUE DE LA TOUR, Roujan",
+    "lat": 43.504713,
+    "lng": 3.311403,
+    "transactions": [
+      {
+        "date": "2024-10-16",
+        "priceEur": 92500,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-25",
+        "priceEur": 58000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "883076fa6793": {
+    "id": "883076fa6793",
+    "label": "9 RUE DU COLLEGE, Roujan",
+    "lat": 43.504502,
+    "lng": 3.311664,
+    "transactions": [
+      {
+        "date": "2022-09-06",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "c38017cf1656": {
+    "id": "c38017cf1656",
+    "label": "10 IMP ROSA BONHEUR, Roujan",
+    "lat": 43.501828,
+    "lng": 3.308221,
+    "transactions": [
+      {
+        "date": "2022-09-05",
+        "priceEur": 347000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "44bb89c59157": {
+    "id": "44bb89c59157",
+    "label": "31B RUE DROITE, Roujan",
+    "lat": 43.505263,
+    "lng": 3.311013,
+    "transactions": [
+      {
+        "date": "2022-09-21",
+        "priceEur": 135150,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "7db8352ff55a": {
+    "id": "7db8352ff55a",
+    "label": "9A AV DE CAUX, Roujan",
+    "lat": 43.504173,
+    "lng": 3.313659,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 659685,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-30",
+        "priceEur": 659685,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-30",
+        "priceEur": 659685,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "4815e71ac508": {
+    "id": "4815e71ac508",
+    "label": "13 RUE DE LA TOUR, Roujan",
+    "lat": 43.504881,
+    "lng": 3.311608,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 84370,
+        "typeLocal": "Maison",
+        "surfaceM2": 26,
+        "isVefa": false
+      }
+    ]
+  },
+  "6553453f463b": {
+    "id": "6553453f463b",
+    "label": "17 RUE BASTARD SENAUX, Roujan",
+    "lat": 43.505024,
+    "lng": 3.312218,
+    "transactions": [
+      {
+        "date": "2022-10-17",
+        "priceEur": 62000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "4eb083fa9a40": {
+    "id": "4eb083fa9a40",
+    "label": "2 RUE PAUL VALERY, Roujan",
+    "lat": 43.504376,
+    "lng": 3.31604,
+    "transactions": [
+      {
+        "date": "2022-10-11",
+        "priceEur": 263150,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "74d4f0a7448d": {
+    "id": "74d4f0a7448d",
+    "label": "13 RUE MIREIO DORIAN, Roujan",
+    "lat": 43.502132,
+    "lng": 3.311228,
+    "transactions": [
+      {
+        "date": "2022-10-17",
+        "priceEur": 180940,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "e70f09f99bad": {
+    "id": "e70f09f99bad",
+    "label": "35 RUE DE LA MONTAGNE, Roujan",
+    "lat": 43.504831,
+    "lng": 3.309492,
+    "transactions": [
+      {
+        "date": "2022-10-27",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "0f3d12347f63": {
+    "id": "0f3d12347f63",
+    "label": "6 ALL DE L AMANDIER, Roujan",
+    "lat": 43.502873,
+    "lng": 3.317254,
+    "transactions": [
+      {
+        "date": "2022-11-17",
+        "priceEur": 174420,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd03b52ac65b": {
+    "id": "dd03b52ac65b",
+    "label": "43 RUE BASSE, Roujan",
+    "lat": 43.505255,
+    "lng": 3.311444,
+    "transactions": [
+      {
+        "date": "2022-11-28",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "dc574d5fad8f": {
+    "id": "dc574d5fad8f",
+    "label": "8 RUE FREDERIC MISTRAL, Roujan",
+    "lat": 43.502028,
+    "lng": 3.310886,
+    "transactions": [
+      {
+        "date": "2022-12-22",
+        "priceEur": 228070,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "f01209309983": {
+    "id": "f01209309983",
+    "label": "74T AV DE PEZENAS, Roujan",
+    "lat": 43.50279,
+    "lng": 3.315396,
+    "transactions": [
+      {
+        "date": "2022-12-20",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a5833365bff": {
+    "id": "4a5833365bff",
+    "label": "5 IMP SUZANNE VALADON, Roujan",
+    "lat": 43.502142,
+    "lng": 3.308576,
+    "transactions": [
+      {
+        "date": "2022-12-20",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "10e37e510da2": {
+    "id": "10e37e510da2",
+    "label": "3 RUE D'OCCITANIE, Roujan",
+    "lat": 43.502854,
+    "lng": 3.311034,
+    "transactions": [
+      {
+        "date": "2022-12-27",
+        "priceEur": 151800,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d9be580f378": {
+    "id": "7d9be580f378",
+    "label": "36 AV DE PEZENAS, Roujan",
+    "lat": 43.50408,
+    "lng": 3.312009,
+    "transactions": [
+      {
+        "date": "2023-01-23",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e971c58158b": {
+    "id": "4e971c58158b",
+    "label": "6 ACH ANCIEN CHEMIN D'ALIGNAN, Roujan",
+    "lat": 43.50233,
+    "lng": 3.313903,
+    "transactions": [
+      {
+        "date": "2023-01-30",
+        "priceEur": 343150,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f60265f6766": {
+    "id": "9f60265f6766",
+    "label": "8 RUE DE LA TOUR, Roujan",
+    "lat": 43.505075,
+    "lng": 3.311239,
+    "transactions": [
+      {
+        "date": "2023-03-03",
+        "priceEur": 248035,
+        "typeLocal": "Maison",
+        "surfaceM2": 20,
+        "isVefa": false
+      }
+    ]
+  },
+  "19987a165dac": {
+    "id": "19987a165dac",
+    "label": "8B RUE DE LA TOUR, Roujan",
+    "lat": 43.505005,
+    "lng": 3.311184,
+    "transactions": [
+      {
+        "date": "2023-03-03",
+        "priceEur": 248035,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b3ad3f01c2a": {
+    "id": "7b3ad3f01c2a",
+    "label": "11 RUE PAUL GAUGUIN, Roujan",
+    "lat": 43.503818,
+    "lng": 3.307746,
+    "transactions": [
+      {
+        "date": "2023-02-17",
+        "priceEur": 236290,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "8fbd79c8d60b": {
+    "id": "8fbd79c8d60b",
+    "label": "12 RUE DE LA CENTENAIRE, Roujan",
+    "lat": 43.50567,
+    "lng": 3.310384,
+    "transactions": [
+      {
+        "date": "2023-03-20",
+        "priceEur": 56000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "29aae259f3a4": {
+    "id": "29aae259f3a4",
+    "label": "7B AV DE MARGON, Roujan",
+    "lat": 43.5043,
+    "lng": 3.309736,
+    "transactions": [
+      {
+        "date": "2025-03-13",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-27",
+        "priceEur": 54000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "aac229c51089": {
+    "id": "aac229c51089",
+    "label": "6 RUE SAINT JEAN, Roujan",
+    "lat": 43.506219,
+    "lng": 3.311009,
+    "transactions": [
+      {
+        "date": "2023-04-06",
+        "priceEur": 138918,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "381a82494074": {
+    "id": "381a82494074",
+    "label": "28 AV HENRI MAS, Roujan",
+    "lat": 43.507816,
+    "lng": 3.31133,
+    "transactions": [
+      {
+        "date": "2023-04-13",
+        "priceEur": 351550,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5b22f3560ff": {
+    "id": "a5b22f3560ff",
+    "label": "51 AV HENRI MAS, Roujan",
+    "lat": 43.508317,
+    "lng": 3.312237,
+    "transactions": [
+      {
+        "date": "2023-03-16",
+        "priceEur": 628400,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a57cae5cd11": {
+    "id": "6a57cae5cd11",
+    "label": "10 RUE BASTARD SENAUX, Roujan",
+    "lat": 43.504806,
+    "lng": 3.312065,
+    "transactions": [
+      {
+        "date": "2025-01-06",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-24",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6b6b5a8d9ef": {
+    "id": "b6b6b5a8d9ef",
+    "label": "11 RUE DU COLLEGE, Roujan",
+    "lat": 43.504458,
+    "lng": 3.311684,
+    "transactions": [
+      {
+        "date": "2023-04-12",
+        "priceEur": 59000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "495c2cd8f187": {
+    "id": "495c2cd8f187",
+    "label": "4 RUE AUGUSTE RENOIR, Roujan",
+    "lat": 43.503118,
+    "lng": 3.307654,
+    "transactions": [
+      {
+        "date": "2023-04-24",
+        "priceEur": 298010,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "b96d1214e1f2": {
+    "id": "b96d1214e1f2",
+    "label": "3 RUE AUDIBERT, Roujan",
+    "lat": 43.505739,
+    "lng": 3.309522,
+    "transactions": [
+      {
+        "date": "2023-05-02",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "e9c41f301e08": {
+    "id": "e9c41f301e08",
+    "label": "24 RUE DROITE, Roujan",
+    "lat": 43.50488,
+    "lng": 3.310963,
+    "transactions": [
+      {
+        "date": "2023-05-12",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ae8716d4772": {
+    "id": "2ae8716d4772",
+    "label": "9 PECHERAUD, Roujan",
+    "lat": 43.502863,
+    "lng": 3.307113,
+    "transactions": [
+      {
+        "date": "2023-05-03",
+        "priceEur": 238000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "91361cb97240": {
+    "id": "91361cb97240",
+    "label": "35 RUE BASTARD SENAUX, Roujan",
+    "lat": 43.505553,
+    "lng": 3.311685,
+    "transactions": [
+      {
+        "date": "2023-05-26",
+        "priceEur": 67250,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9bebd452adb": {
+    "id": "a9bebd452adb",
+    "label": "3 RUE BASSE, Roujan",
+    "lat": 43.504712,
+    "lng": 3.311936,
+    "transactions": [
+      {
+        "date": "2023-06-06",
+        "priceEur": 287072,
+        "typeLocal": "Appartement",
+        "surfaceM2": 110,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-06",
+        "priceEur": 287072,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "92335ea00eef": {
+    "id": "92335ea00eef",
+    "label": "14 ACH ANCIEN CHEMIN D'ALIGNAN, Roujan",
+    "lat": 43.502324,
+    "lng": 3.314658,
+    "transactions": [
+      {
+        "date": "2023-06-13",
+        "priceEur": 229750,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-13",
+        "priceEur": 229750,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "4bc49600ad11": {
+    "id": "4bc49600ad11",
+    "label": "24 RUE DE LA CENTENAIRE, Roujan",
+    "lat": 43.505738,
+    "lng": 3.310695,
+    "transactions": [
+      {
+        "date": "2023-07-19",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-19",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 29,
+        "isVefa": false
+      }
+    ]
+  },
+  "0df5eded000a": {
+    "id": "0df5eded000a",
+    "label": "13 RUE DU JEU DE BALLON, Roujan",
+    "lat": 43.505206,
+    "lng": 3.31061,
+    "transactions": [
+      {
+        "date": "2023-07-20",
+        "priceEur": 116650,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "1efa21e8dc63": {
+    "id": "1efa21e8dc63",
+    "label": "35 AV DE CASSAN, Roujan",
+    "lat": 43.506055,
+    "lng": 3.308059,
+    "transactions": [
+      {
+        "date": "2023-07-21",
+        "priceEur": 133435,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "24b2008278af": {
+    "id": "24b2008278af",
+    "label": "33 AV DE CASSAN, Roujan",
+    "lat": 43.505948,
+    "lng": 3.308178,
+    "transactions": [
+      {
+        "date": "2023-07-21",
+        "priceEur": 133435,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "7fd721645eee": {
+    "id": "7fd721645eee",
+    "label": "25 AV HENRI MAS, Roujan",
+    "lat": 43.506734,
+    "lng": 3.310979,
+    "transactions": [
+      {
+        "date": "2023-08-21",
+        "priceEur": 171583,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "5dcf17d8c0c5": {
+    "id": "5dcf17d8c0c5",
+    "label": "1 RUE D'OCCITANIE, Roujan",
+    "lat": 43.502888,
+    "lng": 3.310939,
+    "transactions": [
+      {
+        "date": "2023-08-22",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b624c29afe7": {
+    "id": "5b624c29afe7",
+    "label": "9 AV HENRI MAS, Roujan",
+    "lat": 43.506134,
+    "lng": 3.310813,
+    "transactions": [
+      {
+        "date": "2023-08-30",
+        "priceEur": 126550,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "902de53d1f3f": {
+    "id": "902de53d1f3f",
+    "label": "14 AV DE CAUX, Roujan",
+    "lat": 43.505098,
+    "lng": 3.313617,
+    "transactions": [
+      {
+        "date": "2023-09-05",
+        "priceEur": 234400,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "92ded64db6fd": {
+    "id": "92ded64db6fd",
+    "label": "22 RUE MIREIO DORIAN, Roujan",
+    "lat": 43.502381,
+    "lng": 3.310358,
+    "transactions": [
+      {
+        "date": "2023-08-23",
+        "priceEur": 241260,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c6223a0236f": {
+    "id": "2c6223a0236f",
+    "label": "55 AV HENRI MAS, Roujan",
+    "lat": 43.50861,
+    "lng": 3.312577,
+    "transactions": [
+      {
+        "date": "2023-09-13",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "aec80f534dc7": {
+    "id": "aec80f534dc7",
+    "label": "4 RUE BASTARD SENAUX, Roujan",
+    "lat": 43.504287,
+    "lng": 3.311758,
+    "transactions": [
+      {
+        "date": "2023-09-21",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "5892c00deb3c": {
+    "id": "5892c00deb3c",
+    "label": "16 RUE DU JEU DE BALLON, Roujan",
+    "lat": 43.505548,
+    "lng": 3.310656,
+    "transactions": [
+      {
+        "date": "2023-09-20",
+        "priceEur": 59600,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "16922d55e492": {
+    "id": "16922d55e492",
+    "label": "1 RUE DE L'HOPITAL, Roujan",
+    "lat": 43.505459,
+    "lng": 3.310422,
+    "transactions": [
+      {
+        "date": "2023-10-19",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "36095a46ccb2": {
+    "id": "36095a46ccb2",
+    "label": "40 RUE DE LA MONTAGNE, Roujan",
+    "lat": 43.504221,
+    "lng": 3.309514,
+    "transactions": [
+      {
+        "date": "2023-10-16",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "459914ce1527": {
+    "id": "459914ce1527",
+    "label": "70 AV DE PEZENAS, Roujan",
+    "lat": 43.502929,
+    "lng": 3.315,
+    "transactions": [
+      {
+        "date": "2023-10-18",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "b2ec486836b2": {
+    "id": "b2ec486836b2",
+    "label": "20 RUE DU FORGERON, Roujan",
+    "lat": 43.503763,
+    "lng": 3.310824,
+    "transactions": [
+      {
+        "date": "2023-10-16",
+        "priceEur": 68000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "164481f2caea": {
+    "id": "164481f2caea",
+    "label": "19 AV DE CASSAN, Roujan",
+    "lat": 43.505572,
+    "lng": 3.30879,
+    "transactions": [
+      {
+        "date": "2023-10-23",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1e9e0ca5489": {
+    "id": "b1e9e0ca5489",
+    "label": "28 RUE DE LA MONTAGNE, Roujan",
+    "lat": 43.503719,
+    "lng": 3.310435,
+    "transactions": [
+      {
+        "date": "2023-11-28",
+        "priceEur": 102280,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "13c24e11a669": {
+    "id": "13c24e11a669",
+    "label": "10 RUE SAINT JEAN, Roujan",
+    "lat": 43.50621,
+    "lng": 3.311137,
+    "transactions": [
+      {
+        "date": "2023-12-14",
+        "priceEur": 65468,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ae9b999e600": {
+    "id": "1ae9b999e600",
+    "label": "5327F CHE DU PIGEONNIER, Roujan",
+    "lat": 43.503987,
+    "lng": 3.314409,
+    "transactions": [
+      {
+        "date": "2023-12-12",
+        "priceEur": 188270,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "e04cbfbfa72b": {
+    "id": "e04cbfbfa72b",
+    "label": "17 RUE BASSE, Roujan",
+    "lat": 43.504989,
+    "lng": 3.311885,
+    "transactions": [
+      {
+        "date": "2023-12-19",
+        "priceEur": 31000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "9351ab091948": {
+    "id": "9351ab091948",
+    "label": "8 RUE MARCEL PAGNOL, Roujan",
+    "lat": 43.507193,
+    "lng": 3.313768,
+    "transactions": [
+      {
+        "date": "2024-02-14",
+        "priceEur": 191000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "ceb7cbdfc639": {
+    "id": "ceb7cbdfc639",
+    "label": "2 RUE DE ROGANI, Roujan",
+    "lat": 43.507734,
+    "lng": 3.314939,
+    "transactions": [
+      {
+        "date": "2024-02-16",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "86be0a822579": {
+    "id": "86be0a822579",
+    "label": "9 RUE BASTARD SENAUX, Roujan",
+    "lat": 43.50452,
+    "lng": 3.31223,
+    "transactions": [
+      {
+        "date": "2024-03-01",
+        "priceEur": 53550,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff8f1ecffda8": {
+    "id": "ff8f1ecffda8",
+    "label": "16 RUE DU FORGERON, Roujan",
+    "lat": 43.503833,
+    "lng": 3.310902,
+    "transactions": [
+      {
+        "date": "2024-03-15",
+        "priceEur": 204000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "13a9dde61671": {
+    "id": "13a9dde61671",
+    "label": "2 RUE ALPHONSE DAUDET, Roujan",
+    "lat": 43.506629,
+    "lng": 3.309485,
+    "transactions": [
+      {
+        "date": "2024-04-02",
+        "priceEur": 226415,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "da4b201be9d1": {
+    "id": "da4b201be9d1",
+    "label": "24 RUE DE LA MONTAGNE, Roujan",
+    "lat": 43.503722,
+    "lng": 3.310524,
+    "transactions": [
+      {
+        "date": "2024-05-02",
+        "priceEur": 35555,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "e89df1827f57": {
+    "id": "e89df1827f57",
+    "label": "8B ACH ANCIEN CHEMIN D'ALIGNAN, Roujan",
+    "lat": 43.502315,
+    "lng": 3.314314,
+    "transactions": [
+      {
+        "date": "2024-05-13",
+        "priceEur": 235616,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "f42f085b8631": {
+    "id": "f42f085b8631",
+    "label": "5 PECHERAUD, Roujan",
+    "lat": 43.50292,
+    "lng": 3.307498,
+    "transactions": [
+      {
+        "date": "2024-05-16",
+        "priceEur": 258400,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "a871dd433bd1": {
+    "id": "a871dd433bd1",
+    "label": "27 CHE D ALIGNAN, Roujan",
+    "lat": 43.500902,
+    "lng": 3.314572,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 465025,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb83e51fc555": {
+    "id": "bb83e51fc555",
+    "label": "6 RUE DROITE, Roujan",
+    "lat": 43.504454,
+    "lng": 3.311301,
+    "transactions": [
+      {
+        "date": "2024-07-24",
+        "priceEur": 98126,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "acc272c8e483": {
+    "id": "acc272c8e483",
+    "label": "4 RUE DROITE, Roujan",
+    "lat": 43.504415,
+    "lng": 3.31132,
+    "transactions": [
+      {
+        "date": "2024-07-24",
+        "priceEur": 98126,
+        "typeLocal": "Maison",
+        "surfaceM2": 17,
+        "isVefa": false
+      }
+    ]
+  },
+  "9524f48ecc5b": {
+    "id": "9524f48ecc5b",
+    "label": "41 RUE BASSE, Roujan",
+    "lat": 43.505226,
+    "lng": 3.311386,
+    "transactions": [
+      {
+        "date": "2024-07-16",
+        "priceEur": 13262,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c62ab4d31b4": {
+    "id": "8c62ab4d31b4",
+    "label": "32 CHE DU PIGEONNIER, Roujan",
+    "lat": 43.503327,
+    "lng": 3.315907,
+    "transactions": [
+      {
+        "date": "2024-08-14",
+        "priceEur": 228200,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ffe5f966f1e": {
+    "id": "0ffe5f966f1e",
+    "label": "1 RUE PIEDMOUTON, Roujan",
+    "lat": 43.506166,
+    "lng": 3.310564,
+    "transactions": [
+      {
+        "date": "2024-09-05",
+        "priceEur": 87400,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "893b63d9eebb": {
+    "id": "893b63d9eebb",
+    "label": "57 AV DE PEZENAS, Roujan",
+    "lat": 43.503163,
+    "lng": 3.313437,
+    "transactions": [
+      {
+        "date": "2024-09-05",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1351d1dcd7f": {
+    "id": "a1351d1dcd7f",
+    "label": "11 RUE DE L'HOPITAL, Roujan",
+    "lat": 43.505733,
+    "lng": 3.310322,
+    "transactions": [
+      {
+        "date": "2024-09-18",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "5dd044802d31": {
+    "id": "5dd044802d31",
+    "label": "1 RUE BASSE, Roujan",
+    "lat": 43.50467,
+    "lng": 3.311849,
+    "transactions": [
+      {
+        "date": "2024-08-30",
+        "priceEur": 59500,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "11ff54a89faf": {
+    "id": "11ff54a89faf",
+    "label": "1 RUE JEAN CALAS, Roujan",
+    "lat": 43.50357,
+    "lng": 3.315984,
+    "transactions": [
+      {
+        "date": "2024-10-01",
+        "priceEur": 337000,
+        "typeLocal": "Maison",
+        "surfaceM2": 159,
+        "isVefa": false
+      }
+    ]
+  },
+  "23a23311a90b": {
+    "id": "23a23311a90b",
+    "label": "7 AV DE PEZENAS, Roujan",
+    "lat": 43.504322,
+    "lng": 3.310842,
+    "transactions": [
+      {
+        "date": "2024-08-27",
+        "priceEur": 118300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "589a360be87b": {
+    "id": "589a360be87b",
+    "label": "12B RUE BASTARD SENAUX, Roujan",
+    "lat": 43.505194,
+    "lng": 3.311886,
+    "transactions": [
+      {
+        "date": "2024-10-14",
+        "priceEur": 349550,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9a97db42e03": {
+    "id": "a9a97db42e03",
+    "label": "15 AV DE L'EGLISE, Roujan",
+    "lat": 43.507593,
+    "lng": 3.310801,
+    "transactions": [
+      {
+        "date": "2024-10-17",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "031651d31f13": {
+    "id": "031651d31f13",
+    "label": "23 RUE DE L'HOPITAL, Roujan",
+    "lat": 43.505919,
+    "lng": 3.310007,
+    "transactions": [
+      {
+        "date": "2024-10-30",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-30",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b4c9fe46152": {
+    "id": "2b4c9fe46152",
+    "label": "1 AV DE MARGON, Roujan",
+    "lat": 43.504753,
+    "lng": 3.309829,
+    "transactions": [
+      {
+        "date": "2024-10-30",
+        "priceEur": 760680,
+        "typeLocal": "Maison",
+        "surfaceM2": 254,
+        "isVefa": false
+      }
+    ]
+  },
+  "b689026aaa63": {
+    "id": "b689026aaa63",
+    "label": "38 AV DE CASSAN, Roujan",
+    "lat": 43.505791,
+    "lng": 3.307823,
+    "transactions": [
+      {
+        "date": "2024-11-28",
+        "priceEur": 242000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "087383416586": {
+    "id": "087383416586",
+    "label": "2B RUE AUDIBERT, Roujan",
+    "lat": 43.505652,
+    "lng": 3.309094,
+    "transactions": [
+      {
+        "date": "2024-12-05",
+        "priceEur": 269020,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "50c3823dc98d": {
+    "id": "50c3823dc98d",
+    "label": "2 AV DE MARGON, Roujan",
+    "lat": 43.504697,
+    "lng": 3.310238,
+    "transactions": [
+      {
+        "date": "2024-12-12",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "bec1c33e39dc": {
+    "id": "bec1c33e39dc",
+    "label": "6 AV DE CAUX, Roujan",
+    "lat": 43.50461,
+    "lng": 3.313043,
+    "transactions": [
+      {
+        "date": "2024-12-23",
+        "priceEur": 202000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "89040e99370d": {
+    "id": "89040e99370d",
+    "label": "22 RUE BASTARD SENAUX, Roujan",
+    "lat": 43.505467,
+    "lng": 3.311466,
+    "transactions": [
+      {
+        "date": "2025-01-14",
+        "priceEur": 43000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "da0c01036980": {
+    "id": "da0c01036980",
+    "label": "3 RUE DU FORGERON, Roujan",
+    "lat": 43.503832,
+    "lng": 3.310687,
+    "transactions": [
+      {
+        "date": "2025-01-28",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "96dd85a6dbdf": {
+    "id": "96dd85a6dbdf",
+    "label": "13 ACH ANCIEN CHEMIN D'ALIGNAN, Roujan",
+    "lat": 43.502051,
+    "lng": 3.313576,
+    "transactions": [
+      {
+        "date": "2025-02-01",
+        "priceEur": 432500,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a7b7723d987": {
+    "id": "4a7b7723d987",
+    "label": "4 AV DE CASSAN, Roujan",
+    "lat": 43.504989,
+    "lng": 3.309919,
+    "transactions": [
+      {
+        "date": "2025-02-25",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f9fdc5a5470": {
+    "id": "9f9fdc5a5470",
+    "label": "10 RUE DE LA SERRE, Roujan",
+    "lat": 43.502881,
+    "lng": 3.312323,
+    "transactions": [
+      {
+        "date": "2025-02-21",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "6c445625e5f5": {
+    "id": "6c445625e5f5",
+    "label": "14 RUE DE LA MONTAGNE, Roujan",
+    "lat": 43.503603,
+    "lng": 3.310553,
+    "transactions": [
+      {
+        "date": "2025-03-11",
+        "priceEur": 69000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e13d97a312b": {
+    "id": "5e13d97a312b",
+    "label": "91B AV DE PEZENAS, Roujan",
+    "lat": 43.502202,
+    "lng": 3.315912,
+    "transactions": [
+      {
+        "date": "2025-03-13",
+        "priceEur": 199650,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "0efee415020c": {
+    "id": "0efee415020c",
+    "label": "16 AV HENRI MAS, Roujan",
+    "lat": 43.506602,
+    "lng": 3.310442,
+    "transactions": [
+      {
+        "date": "2025-03-28",
+        "priceEur": 334480,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "85ed62e3bed9": {
+    "id": "85ed62e3bed9",
+    "label": "6 RUE AUGUSTE RENOIR, Roujan",
+    "lat": 43.503169,
+    "lng": 3.30749,
+    "transactions": [
+      {
+        "date": "2025-04-10",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "2bf3645359e9": {
+    "id": "2bf3645359e9",
+    "label": "5 RUE ALBERT FABRE, Roujan",
+    "lat": 43.506155,
+    "lng": 3.309406,
+    "transactions": [
+      {
+        "date": "2025-04-14",
+        "priceEur": 278000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b510d93ea4d": {
+    "id": "5b510d93ea4d",
+    "label": "3 AV DE L'EGLISE, Roujan",
+    "lat": 43.506989,
+    "lng": 3.310815,
+    "transactions": [
+      {
+        "date": "2025-05-12",
+        "priceEur": 242650,
+        "typeLocal": "Maison",
+        "surfaceM2": 173,
+        "isVefa": false
+      }
+    ]
+  },
+  "e19cac47c02b": {
+    "id": "e19cac47c02b",
+    "label": "63 AV DE PEZENAS, Roujan",
+    "lat": 43.502963,
+    "lng": 3.313901,
+    "transactions": [
+      {
+        "date": "2025-05-20",
+        "priceEur": 106400,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c9f1983758f": {
+    "id": "5c9f1983758f",
+    "label": "8 PL DE LA MAIRIE, Roujan",
+    "lat": 43.504182,
+    "lng": 3.31078,
+    "transactions": [
+      {
+        "date": "2025-06-23",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "773e05414373": {
+    "id": "773e05414373",
+    "label": "1 RUE DU FORGERON, Roujan",
+    "lat": 43.504113,
+    "lng": 3.310797,
+    "transactions": [
+      {
+        "date": "2025-06-23",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 16,
+        "isVefa": false
+      }
+    ]
+  }
+}

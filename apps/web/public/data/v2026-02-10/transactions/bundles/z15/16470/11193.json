@@ -1,0 +1,77 @@
+{
+  "ec86a94ef209": {
+    "id": "ec86a94ef209",
+    "label": "17B RTE DU HUIT MAI 1945, Quevillon",
+    "lat": 49.429316,
+    "lng": 0.95494,
+    "transactions": [
+      {
+        "date": "2020-09-23",
+        "priceEur": 3000,
+        "typeLocal": "Maison",
+        "surfaceM2": 187,
+        "isVefa": false
+      }
+    ]
+  },
+  "465a53784aec": {
+    "id": "465a53784aec",
+    "label": "35 RTE DU BELAITRE, Quevillon",
+    "lat": 49.425813,
+    "lng": 0.953897,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 367000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "49ee707ff4e8": {
+    "id": "49ee707ff4e8",
+    "label": "5067 BELAITRE, Quevillon",
+    "lat": 49.428606,
+    "lng": 0.954835,
+    "transactions": [
+      {
+        "date": "2021-05-31",
+        "priceEur": 500000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "bbae9af87d76": {
+    "id": "bbae9af87d76",
+    "label": "51 RTE DU BELAITRE, Quevillon",
+    "lat": 49.425654,
+    "lng": 0.954381,
+    "transactions": [
+      {
+        "date": "2021-08-03",
+        "priceEur": 333510,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "86a42e661700": {
+    "id": "86a42e661700",
+    "label": "11 RUE DU HUIT MAI 1945, Quevillon",
+    "lat": 49.428606,
+    "lng": 0.954835,
+    "transactions": [
+      {
+        "date": "2024-11-05",
+        "priceEur": 588000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  }
+}

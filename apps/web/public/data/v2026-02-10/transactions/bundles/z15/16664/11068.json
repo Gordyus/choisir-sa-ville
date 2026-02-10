@@ -1,0 +1,39 @@
+{
+  "2c60a31d3d53": {
+    "id": "2c60a31d3d53",
+    "label": "1 CHE DE HALAGE, Estrées",
+    "lat": 50.310935,
+    "lng": 3.084117,
+    "transactions": [
+      {
+        "date": "2021-06-24",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-24",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "93c93e2f28f7": {
+    "id": "93c93e2f28f7",
+    "label": "667 RUE DU MARAIS, Gœulzin",
+    "lat": 50.314387,
+    "lng": 3.086865,
+    "transactions": [
+      {
+        "date": "2021-03-10",
+        "priceEur": 119900,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  }
+}

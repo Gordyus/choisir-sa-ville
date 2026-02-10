@@ -1,0 +1,372 @@
+{
+  "9d02920824b5": {
+    "id": "9d02920824b5",
+    "label": "1 RUE DU BOURG, Neuf-Marché",
+    "lat": 49.422073,
+    "lng": 1.716757,
+    "transactions": [
+      {
+        "date": "2020-10-28",
+        "priceEur": 294800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-28",
+        "priceEur": 294800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 33,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-28",
+        "priceEur": 294800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-28",
+        "priceEur": 294800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-28",
+        "priceEur": 294800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c4bf1a94ab4": {
+    "id": "5c4bf1a94ab4",
+    "label": "1 RUE DE LA POTERNE, Neuf-Marché",
+    "lat": 49.421271,
+    "lng": 1.714475,
+    "transactions": [
+      {
+        "date": "2021-11-19",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ccdd32846ac": {
+    "id": "7ccdd32846ac",
+    "label": "9 AV ABBE BODIN, Neuf-Marché",
+    "lat": 49.42501,
+    "lng": 1.714864,
+    "transactions": [
+      {
+        "date": "2021-11-25",
+        "priceEur": 44000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "de90e761b83c": {
+    "id": "de90e761b83c",
+    "label": "14 RUE GRAND RUE, Neuf-Marché",
+    "lat": 49.422205,
+    "lng": 1.72035,
+    "transactions": [
+      {
+        "date": "2021-01-15",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ddeb0e2b86c": {
+    "id": "4ddeb0e2b86c",
+    "label": "1 PL DE CORVAL, Neuf-Marché",
+    "lat": 49.420546,
+    "lng": 1.714035,
+    "transactions": [
+      {
+        "date": "2021-03-10",
+        "priceEur": 69000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "a920f7124ae6": {
+    "id": "a920f7124ae6",
+    "label": "1 PL DE L EGLISE, Neuf-Marché",
+    "lat": 49.42349,
+    "lng": 1.71764,
+    "transactions": [
+      {
+        "date": "2021-04-20",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f07780930e9": {
+    "id": "8f07780930e9",
+    "label": "5 PL DU BOURG, Neuf-Marché",
+    "lat": 49.421726,
+    "lng": 1.71528,
+    "transactions": [
+      {
+        "date": "2021-05-21",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-21",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "3bb888548c82": {
+    "id": "3bb888548c82",
+    "label": "2 RUE DE LA MADELEINE, Neuf-Marché",
+    "lat": 49.422521,
+    "lng": 1.716624,
+    "transactions": [
+      {
+        "date": "2021-08-05",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0845b09d3ad": {
+    "id": "b0845b09d3ad",
+    "label": "1 GRANDE RUE, Neuf-Marché",
+    "lat": 49.42244,
+    "lng": 1.717554,
+    "transactions": [
+      {
+        "date": "2022-04-21",
+        "priceEur": 60000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ae59ed16fe5": {
+    "id": "4ae59ed16fe5",
+    "label": "1 RUE DE LA MADELEINE, Neuf-Marché",
+    "lat": 49.422233,
+    "lng": 1.716498,
+    "transactions": [
+      {
+        "date": "2022-05-23",
+        "priceEur": 500000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d6468dabd56": {
+    "id": "7d6468dabd56",
+    "label": "2 RUE GRAND RUE, Neuf-Marché",
+    "lat": 49.422257,
+    "lng": 1.717999,
+    "transactions": [
+      {
+        "date": "2022-06-13",
+        "priceEur": 399900,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-13",
+        "priceEur": 399900,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-13",
+        "priceEur": 399900,
+        "typeLocal": "Maison",
+        "surfaceM2": 167,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe96a9ed8360": {
+    "id": "fe96a9ed8360",
+    "label": "5 RUE GRAND RUE, Neuf-Marché",
+    "lat": 49.42262,
+    "lng": 1.718486,
+    "transactions": [
+      {
+        "date": "2023-02-01",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "28e261b5d2c6": {
+    "id": "28e261b5d2c6",
+    "label": "11 RUE SYLVAIN GREBAUT, Neuf-Marché",
+    "lat": 49.423616,
+    "lng": 1.714517,
+    "transactions": [
+      {
+        "date": "2023-02-22",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d5333778486": {
+    "id": "9d5333778486",
+    "label": "1 PL DU BOURG, Neuf-Marché",
+    "lat": 49.421359,
+    "lng": 1.715324,
+    "transactions": [
+      {
+        "date": "2023-04-04",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5014ec00d93": {
+    "id": "c5014ec00d93",
+    "label": "20 RUE DE LA MADELEINE, Neuf-Marché",
+    "lat": 49.422836,
+    "lng": 1.71394,
+    "transactions": [
+      {
+        "date": "2023-07-17",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "e7c1b1466bb2": {
+    "id": "e7c1b1466bb2",
+    "label": "5 AV GEORGES HEUILLARD, Neuf-Marché",
+    "lat": 49.423146,
+    "lng": 1.715335,
+    "transactions": [
+      {
+        "date": "2023-09-11",
+        "priceEur": 273000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "42a078614b41": {
+    "id": "42a078614b41",
+    "label": "12 RUE GRAND RUE, Neuf-Marché",
+    "lat": 49.422226,
+    "lng": 1.719899,
+    "transactions": [
+      {
+        "date": "2024-02-20",
+        "priceEur": 84500,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "093f38f5161f": {
+    "id": "093f38f5161f",
+    "label": "10 AV ABBE BODIN, Neuf-Marché",
+    "lat": 49.425115,
+    "lng": 1.715478,
+    "transactions": [
+      {
+        "date": "2024-05-31",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-31",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-31",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-31",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "1938133fecbe": {
+    "id": "1938133fecbe",
+    "label": "5 RUE SAINT YME, Neuf-Marché",
+    "lat": 49.41975,
+    "lng": 1.715236,
+    "transactions": [
+      {
+        "date": "2024-06-04",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "319b2ee60756": {
+    "id": "319b2ee60756",
+    "label": "7 RUE DE LA MADELEINE, Neuf-Marché",
+    "lat": 49.422259,
+    "lng": 1.715633,
+    "transactions": [
+      {
+        "date": "2024-09-25",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  }
+}

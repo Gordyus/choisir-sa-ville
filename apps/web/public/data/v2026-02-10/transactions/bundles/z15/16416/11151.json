@@ -1,0 +1,136 @@
+{
+  "891768ff3fff": {
+    "id": "891768ff3fff",
+    "label": "5346 LA CROIX BIGOT, Saint-Léonard",
+    "lat": 49.726221,
+    "lng": 0.358306,
+    "transactions": [
+      {
+        "date": "2020-07-10",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "b98b753cee71": {
+    "id": "b98b753cee71",
+    "label": "5250 LA CROIX BIGOT, Saint-Léonard",
+    "lat": 49.726605,
+    "lng": 0.359269,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 247000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "c63595c3c658": {
+    "id": "c63595c3c658",
+    "label": "919 RTE D'EPREVILLE, Saint-Léonard",
+    "lat": 49.730973,
+    "lng": 0.355524,
+    "transactions": [
+      {
+        "date": "2023-10-06",
+        "priceEur": 132000,
+        "typeLocal": "Maison",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-05",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 39,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1070e0d80d1": {
+    "id": "b1070e0d80d1",
+    "label": "971 RTE D'EPREVILLE, Saint-Léonard",
+    "lat": 49.73056,
+    "lng": 0.355619,
+    "transactions": [
+      {
+        "date": "2024-04-26",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-25",
+        "priceEur": 224000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "d69dc0157987": {
+    "id": "d69dc0157987",
+    "label": "63 IMP DU MONPERTUS, Saint-Léonard",
+    "lat": 49.728429,
+    "lng": 0.353486,
+    "transactions": [
+      {
+        "date": "2023-02-28",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "b901e8f7313a": {
+    "id": "b901e8f7313a",
+    "label": "1216 RTE D'EPREVILLE, Saint-Léonard",
+    "lat": 49.728574,
+    "lng": 0.354142,
+    "transactions": [
+      {
+        "date": "2023-04-12",
+        "priceEur": 52500,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  },
+  "c616095bc123": {
+    "id": "c616095bc123",
+    "label": "1354 RTE D'EPREVILLE, Saint-Léonard",
+    "lat": 49.727445,
+    "lng": 0.353459,
+    "transactions": [
+      {
+        "date": "2023-05-10",
+        "priceEur": 144000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "285b024e26c5": {
+    "id": "285b024e26c5",
+    "label": "95 RUE DU MONTPERTUIS, Froberville",
+    "lat": 49.728325,
+    "lng": 0.352759,
+    "transactions": [
+      {
+        "date": "2024-01-18",
+        "priceEur": 287000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

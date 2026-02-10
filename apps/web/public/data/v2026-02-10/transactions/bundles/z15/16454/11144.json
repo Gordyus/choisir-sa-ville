@@ -1,0 +1,39 @@
+{
+  "ea7d29d0a04e": {
+    "id": "ea7d29d0a04e",
+    "label": "23A RTE DE L EGLISE, Anglesqueville-la-Bras-Long",
+    "lat": 49.780219,
+    "lng": 0.777868,
+    "transactions": [
+      {
+        "date": "2025-01-13",
+        "priceEur": 184240,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-10",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "e4e84a2456aa": {
+    "id": "e4e84a2456aa",
+    "label": "23 RTE DE L EGLISE, Anglesqueville-la-Bras-Long",
+    "lat": 49.780341,
+    "lng": 0.778651,
+    "transactions": [
+      {
+        "date": "2023-04-17",
+        "priceEur": 435000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  }
+}

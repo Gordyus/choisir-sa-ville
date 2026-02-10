@@ -1,0 +1,32 @@
+{
+  "d798ea77a655": {
+    "id": "d798ea77a655",
+    "label": "2 RTE DU MANOIR, Allouville-Bellefosse",
+    "lat": 49.604355,
+    "lng": 0.651912,
+    "transactions": [
+      {
+        "date": "2020-10-01",
+        "priceEur": 276000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "85209ea03aae": {
+    "id": "85209ea03aae",
+    "label": "2 IMP DU FRENE CREUX, Allouville-Bellefosse",
+    "lat": 49.604217,
+    "lng": 0.652636,
+    "transactions": [
+      {
+        "date": "2022-04-20",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  }
+}

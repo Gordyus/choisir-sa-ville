@@ -1,0 +1,92 @@
+{
+  "e640af4b7dde": {
+    "id": "e640af4b7dde",
+    "label": "1 RTE DE CESSENON, Prades-sur-Vernazobre",
+    "lat": 43.447406,
+    "lng": 2.989842,
+    "transactions": [
+      {
+        "date": "2020-09-25",
+        "priceEur": 326800,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7fb86973e6f": {
+    "id": "c7fb86973e6f",
+    "label": "5168 CHEMIN DE LA GRANGETTE, Prades-sur-Vernazobre",
+    "lat": 43.449218,
+    "lng": 2.989134,
+    "transactions": [
+      {
+        "date": "2021-02-05",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "53e9ea589f8e": {
+    "id": "53e9ea589f8e",
+    "label": "5247F LOT LES ROUQUETS, Prades-sur-Vernazobre",
+    "lat": 43.445831,
+    "lng": 2.991565,
+    "transactions": [
+      {
+        "date": "2021-04-07",
+        "priceEur": 409340,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae8013970544": {
+    "id": "ae8013970544",
+    "label": "5245F LOT LES ROUQUETS, Prades-sur-Vernazobre",
+    "lat": 43.446004,
+    "lng": 2.991984,
+    "transactions": [
+      {
+        "date": "2021-05-30",
+        "priceEur": 437290,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "526dc02daa7d": {
+    "id": "526dc02daa7d",
+    "label": "6258F LOT LES ROUQUETS, Prades-sur-Vernazobre",
+    "lat": 43.446136,
+    "lng": 2.991501,
+    "transactions": [
+      {
+        "date": "2023-02-17",
+        "priceEur": 366520,
+        "typeLocal": "Maison",
+        "surfaceM2": 166,
+        "isVefa": false
+      }
+    ]
+  },
+  "f03fae8650ba": {
+    "id": "f03fae8650ba",
+    "label": "5244F LOT LES ROUQUETS, Prades-sur-Vernazobre",
+    "lat": 43.446419,
+    "lng": 2.992242,
+    "transactions": [
+      {
+        "date": "2023-10-18",
+        "priceEur": 238000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  }
+}

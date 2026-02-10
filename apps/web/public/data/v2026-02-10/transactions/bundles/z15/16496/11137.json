@@ -1,0 +1,114 @@
+{
+  "95326d8eb5f8": {
+    "id": "95326d8eb5f8",
+    "label": "200 RUE DES DEUX VALLEES, Freulleville",
+    "lat": 49.824592,
+    "lng": 1.239135,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 220800,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "d32266ed5a35": {
+    "id": "d32266ed5a35",
+    "label": "5094 LA BACHE, Freulleville",
+    "lat": 49.828539,
+    "lng": 1.23378,
+    "transactions": [
+      {
+        "date": "2022-11-14",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-11",
+        "priceEur": 170400,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d7a4c212512": {
+    "id": "5d7a4c212512",
+    "label": "5089 LE BOURG, Freulleville",
+    "lat": 49.826328,
+    "lng": 1.232604,
+    "transactions": [
+      {
+        "date": "2022-04-22",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a0d9033bf59": {
+    "id": "6a0d9033bf59",
+    "label": "209 RUE DE L'EOLIENNE, Freulleville",
+    "lat": 49.828289,
+    "lng": 1.234192,
+    "transactions": [
+      {
+        "date": "2022-10-10",
+        "priceEur": 252350,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c78ecd21a29": {
+    "id": "1c78ecd21a29",
+    "label": "265C RUE DES DEUX VALLEES, Freulleville",
+    "lat": 49.825409,
+    "lng": 1.239584,
+    "transactions": [
+      {
+        "date": "2023-08-25",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "2aea5d3e042a": {
+    "id": "2aea5d3e042a",
+    "label": "5019 LE BOURG, Freulleville",
+    "lat": 49.825193,
+    "lng": 1.238027,
+    "transactions": [
+      {
+        "date": "2023-08-18",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "51b92fb665eb": {
+    "id": "51b92fb665eb",
+    "label": "201 RUE DES DEUX VALLEES, Freulleville",
+    "lat": 49.82544,
+    "lng": 1.240197,
+    "transactions": [
+      {
+        "date": "2024-02-12",
+        "priceEur": 186000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

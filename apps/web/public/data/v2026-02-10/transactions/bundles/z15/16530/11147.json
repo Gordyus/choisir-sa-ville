@@ -1,0 +1,32 @@
+{
+  "dd8522024689": {
+    "id": "dd8522024689",
+    "label": "146 TERRES DES DAMES DE SAINT, Le Caule-Sainte-Beuve",
+    "lat": 49.754793,
+    "lng": 1.611241,
+    "transactions": [
+      {
+        "date": "2021-07-17",
+        "priceEur": 132704,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "d2b0f34201b6": {
+    "id": "d2b0f34201b6",
+    "label": "5166 PLAINE DU MESNIL DAVID, Illois",
+    "lat": 49.7534,
+    "lng": 1.614174,
+    "transactions": [
+      {
+        "date": "2022-08-10",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

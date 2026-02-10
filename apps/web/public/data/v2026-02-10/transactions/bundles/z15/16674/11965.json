@@ -1,0 +1,39 @@
+{
+  "a0c31954b0b8": {
+    "id": "a0c31954b0b8",
+    "label": "6034F L ARBOUSSAS, Bédarieux",
+    "lat": 43.603841,
+    "lng": 3.188499,
+    "transactions": [
+      {
+        "date": "2023-11-28",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "312ceb6a4805": {
+    "id": "312ceb6a4805",
+    "label": "9003 L ARBOUSSAS, Bédarieux",
+    "lat": 43.602398,
+    "lng": 3.190024,
+    "transactions": [
+      {
+        "date": "2025-01-23",
+        "priceEur": 15000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-12",
+        "priceEur": 10000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  }
+}

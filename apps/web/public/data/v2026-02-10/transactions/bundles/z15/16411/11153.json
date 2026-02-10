@@ -1,0 +1,32 @@
+{
+  "27f73bb15752": {
+    "id": "27f73bb15752",
+    "label": "5226 LA HAUTE FOLIE, Saint-Léonard",
+    "lat": 49.710348,
+    "lng": 0.305043,
+    "transactions": [
+      {
+        "date": "2020-09-11",
+        "priceEur": 174900,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c131cd5072e": {
+    "id": "8c131cd5072e",
+    "label": "474 RTE DE VATTETOT, Saint-Léonard",
+    "lat": 49.710348,
+    "lng": 0.305043,
+    "transactions": [
+      {
+        "date": "2024-01-22",
+        "priceEur": 193800,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

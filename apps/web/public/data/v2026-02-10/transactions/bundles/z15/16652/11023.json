@@ -1,0 +1,129 @@
+{
+  "1ba217393e09": {
+    "id": "1ba217393e09",
+    "label": "1 CHE DU PRESBYTERE, Englos",
+    "lat": 50.627642,
+    "lng": 2.955265,
+    "transactions": [
+      {
+        "date": "2022-03-29",
+        "priceEur": 490150,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "45a738ddfd3c": {
+    "id": "45a738ddfd3c",
+    "label": "11 CLOS DU PETIT VALLON, Englos",
+    "lat": 50.628694,
+    "lng": 2.954,
+    "transactions": [
+      {
+        "date": "2022-07-08",
+        "priceEur": 604000,
+        "typeLocal": "Maison",
+        "surfaceM2": 181,
+        "isVefa": false
+      }
+    ]
+  },
+  "43d2f1eab3fa": {
+    "id": "43d2f1eab3fa",
+    "label": "6 CLOS DU PETIT VALLON, Englos",
+    "lat": 50.629255,
+    "lng": 2.954081,
+    "transactions": [
+      {
+        "date": "2022-11-17",
+        "priceEur": 462500,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5b6b9d194b3": {
+    "id": "d5b6b9d194b3",
+    "label": "12 RES LES BRUYERES, Englos",
+    "lat": 50.627152,
+    "lng": 2.95525,
+    "transactions": [
+      {
+        "date": "2023-04-14",
+        "priceEur": 450000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "7813621a251b": {
+    "id": "7813621a251b",
+    "label": "36 RUE DU VINAGE, Englos",
+    "lat": 50.628225,
+    "lng": 2.950164,
+    "transactions": [
+      {
+        "date": "2023-05-04",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-04",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "a084e18289ef": {
+    "id": "a084e18289ef",
+    "label": "5 RES LES BRUYERES, Englos",
+    "lat": 50.626298,
+    "lng": 2.955242,
+    "transactions": [
+      {
+        "date": "2024-05-03",
+        "priceEur": 515000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "412108afe881": {
+    "id": "412108afe881",
+    "label": "22 RUE DU VINAGE, Englos",
+    "lat": 50.627941,
+    "lng": 2.953836,
+    "transactions": [
+      {
+        "date": "2024-08-28",
+        "priceEur": 202300,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ece91606114": {
+    "id": "3ece91606114",
+    "label": "3 HAMEAU DE LA MOTTE, Englos",
+    "lat": 50.627768,
+    "lng": 2.954585,
+    "transactions": [
+      {
+        "date": "2025-02-26",
+        "priceEur": 605500,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  }
+}

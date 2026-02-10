@@ -1,0 +1,1001 @@
+{
+  "271c45eb5d1a": {
+    "id": "271c45eb5d1a",
+    "label": "3B RUE DES MOUETTES, Mont-Saint-Aignan",
+    "lat": 49.469046,
+    "lng": 1.071632,
+    "transactions": [
+      {
+        "date": "2023-03-09",
+        "priceEur": 194500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-27",
+        "priceEur": 322000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 85,
+        "isVefa": true
+      }
+    ]
+  },
+  "ae430bea4398": {
+    "id": "ae430bea4398",
+    "label": "23 RTE DE MAROMME, Mont-Saint-Aignan",
+    "lat": 49.471451,
+    "lng": 1.074422,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 387000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "df887dd9b847": {
+    "id": "df887dd9b847",
+    "label": "12 RUE DES ENGOULEVENTS, Mont-Saint-Aignan",
+    "lat": 49.470692,
+    "lng": 1.071128,
+    "transactions": [
+      {
+        "date": "2020-10-02",
+        "priceEur": 336300,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "b25e1ba92d2d": {
+    "id": "b25e1ba92d2d",
+    "label": "18 RUE DES GOELANDS, Mont-Saint-Aignan",
+    "lat": 49.469144,
+    "lng": 1.068474,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 478850,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 367000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "ccd2ce0fb7ee": {
+    "id": "ccd2ce0fb7ee",
+    "label": "21 RTE DE MAROMME, Mont-Saint-Aignan",
+    "lat": 49.47152,
+    "lng": 1.073942,
+    "transactions": [
+      {
+        "date": "2022-05-10",
+        "priceEur": 455000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 106,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-28",
+        "priceEur": 395000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 94,
+        "isVefa": true
+      },
+      {
+        "date": "2020-10-12",
+        "priceEur": 369000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 106,
+        "isVefa": true
+      }
+    ]
+  },
+  "e974604cf01b": {
+    "id": "e974604cf01b",
+    "label": "7 ALL DES ACACIAS, Notre-Dame-de-Bondeville",
+    "lat": 49.472006,
+    "lng": 1.067506,
+    "transactions": [
+      {
+        "date": "2020-12-09",
+        "priceEur": 409333,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  },
+  "b60900b0c6a5": {
+    "id": "b60900b0c6a5",
+    "label": "29 RTE DE MAROMME, Mont-Saint-Aignan",
+    "lat": 49.471461,
+    "lng": 1.075239,
+    "transactions": [
+      {
+        "date": "2023-03-28",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-22",
+        "priceEur": 232000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "05ae02b062d4": {
+    "id": "05ae02b062d4",
+    "label": "9 RUE DES PETRELS, Mont-Saint-Aignan",
+    "lat": 49.470799,
+    "lng": 1.07225,
+    "transactions": [
+      {
+        "date": "2021-10-21",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5ab5193f49c": {
+    "id": "a5ab5193f49c",
+    "label": "2B RUE LE VERRIER, Mont-Saint-Aignan",
+    "lat": 49.468398,
+    "lng": 1.069704,
+    "transactions": [
+      {
+        "date": "2021-10-20",
+        "priceEur": 224730,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "a20ca013d0a4": {
+    "id": "a20ca013d0a4",
+    "label": "4H RUE LE VERRIER, Mont-Saint-Aignan",
+    "lat": 49.469113,
+    "lng": 1.071014,
+    "transactions": [
+      {
+        "date": "2021-10-18",
+        "priceEur": 230670,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1268d33e612": {
+    "id": "b1268d33e612",
+    "label": "3 RUE DES ENGOULEVENTS, Mont-Saint-Aignan",
+    "lat": 49.470742,
+    "lng": 1.071833,
+    "transactions": [
+      {
+        "date": "2021-10-26",
+        "priceEur": 323000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "d49b422a66ce": {
+    "id": "d49b422a66ce",
+    "label": "9183 ALL DES ACACIAS, Notre-Dame-de-Bondeville",
+    "lat": 49.472653,
+    "lng": 1.067838,
+    "transactions": [
+      {
+        "date": "2021-12-22",
+        "priceEur": 376000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "09ab042a203a": {
+    "id": "09ab042a203a",
+    "label": "3 RTE DE MAROMME, Mont-Saint-Aignan",
+    "lat": 49.472297,
+    "lng": 1.069352,
+    "transactions": [
+      {
+        "date": "2021-12-22",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-19",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "790ee0047f03": {
+    "id": "790ee0047f03",
+    "label": "4G RUE LE VERRIER, Mont-Saint-Aignan",
+    "lat": 49.469078,
+    "lng": 1.070924,
+    "transactions": [
+      {
+        "date": "2021-12-28",
+        "priceEur": 192060,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "8952170a46f4": {
+    "id": "8952170a46f4",
+    "label": "15 RUE DES COURLIS, Mont-Saint-Aignan",
+    "lat": 49.470056,
+    "lng": 1.066198,
+    "transactions": [
+      {
+        "date": "2021-01-13",
+        "priceEur": 344000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "0585c13f61a6": {
+    "id": "0585c13f61a6",
+    "label": "8 RUE LE VERRIER, Mont-Saint-Aignan",
+    "lat": 49.470196,
+    "lng": 1.073233,
+    "transactions": [
+      {
+        "date": "2023-08-24",
+        "priceEur": 203200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-13",
+        "priceEur": 217500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 81,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-30",
+        "priceEur": 127500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-17",
+        "priceEur": 192000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "337fb58ce3e4": {
+    "id": "337fb58ce3e4",
+    "label": "19 RUE DES ENGOULEVENTS, Mont-Saint-Aignan",
+    "lat": 49.47022,
+    "lng": 1.071306,
+    "transactions": [
+      {
+        "date": "2021-02-22",
+        "priceEur": 309100,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd505df5883f": {
+    "id": "fd505df5883f",
+    "label": "11 RUE DES MOUETTES, Mont-Saint-Aignan",
+    "lat": 49.470228,
+    "lng": 1.07002,
+    "transactions": [
+      {
+        "date": "2021-04-09",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "7693f590ba7e": {
+    "id": "7693f590ba7e",
+    "label": "2 RUE DES PELICANS, Mont-Saint-Aignan",
+    "lat": 49.47099,
+    "lng": 1.070687,
+    "transactions": [
+      {
+        "date": "2021-04-27",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ac8b2489855": {
+    "id": "9ac8b2489855",
+    "label": "9 RUE DES COURLIS, Mont-Saint-Aignan",
+    "lat": 49.469412,
+    "lng": 1.06647,
+    "transactions": [
+      {
+        "date": "2021-05-21",
+        "priceEur": 405000,
+        "typeLocal": "Maison",
+        "surfaceM2": 201,
+        "isVefa": false
+      }
+    ]
+  },
+  "65cb09b22cfb": {
+    "id": "65cb09b22cfb",
+    "label": "26 RUE LE VERRIER, Mont-Saint-Aignan",
+    "lat": 49.470773,
+    "lng": 1.074412,
+    "transactions": [
+      {
+        "date": "2021-05-21",
+        "priceEur": 390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "86fc245332d9": {
+    "id": "86fc245332d9",
+    "label": "5 RUE DU MANEGE, Mont-Saint-Aignan",
+    "lat": 49.471784,
+    "lng": 1.070175,
+    "transactions": [
+      {
+        "date": "2021-07-01",
+        "priceEur": 470000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "a53878122c1e": {
+    "id": "a53878122c1e",
+    "label": "2 RUE LE VERRIER, Mont-Saint-Aignan",
+    "lat": 49.468252,
+    "lng": 1.069526,
+    "transactions": [
+      {
+        "date": "2021-09-29",
+        "priceEur": 197010,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "74e2174c5b3f": {
+    "id": "74e2174c5b3f",
+    "label": "4E RUE LE VERRIER, Mont-Saint-Aignan",
+    "lat": 49.468958,
+    "lng": 1.070702,
+    "transactions": [
+      {
+        "date": "2021-10-04",
+        "priceEur": 194436,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "9de29493b53b": {
+    "id": "9de29493b53b",
+    "label": "2D RUE LE VERRIER, Mont-Saint-Aignan",
+    "lat": 49.468518,
+    "lng": 1.069905,
+    "transactions": [
+      {
+        "date": "2021-09-22",
+        "priceEur": 224730,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "67988cf5c3a9": {
+    "id": "67988cf5c3a9",
+    "label": "2C RUE LE VERRIER, Mont-Saint-Aignan",
+    "lat": 49.468462,
+    "lng": 1.069803,
+    "transactions": [
+      {
+        "date": "2021-10-11",
+        "priceEur": 194436,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "49505f6b7574": {
+    "id": "49505f6b7574",
+    "label": "4F RUE LE VERRIER, Mont-Saint-Aignan",
+    "lat": 49.469019,
+    "lng": 1.07084,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 224730,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb6c6607652c": {
+    "id": "cb6c6607652c",
+    "label": "4A RUE LE VERRIER, Mont-Saint-Aignan",
+    "lat": 49.468728,
+    "lng": 1.07028,
+    "transactions": [
+      {
+        "date": "2021-10-13",
+        "priceEur": 194436,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf9a485c94d3": {
+    "id": "bf9a485c94d3",
+    "label": "12 SQ DES GOELANDS, Mont-Saint-Aignan",
+    "lat": 49.468463,
+    "lng": 1.068469,
+    "transactions": [
+      {
+        "date": "2022-01-04",
+        "priceEur": 267100,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "c63c9ed223e1": {
+    "id": "c63c9ed223e1",
+    "label": "7 RUE MARCEL DUPRE, Mont-Saint-Aignan",
+    "lat": 49.471914,
+    "lng": 1.074634,
+    "transactions": [
+      {
+        "date": "2022-01-14",
+        "priceEur": 373500,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b6f9a499b8e": {
+    "id": "9b6f9a499b8e",
+    "label": "4B RUE LE VERRIER, Mont-Saint-Aignan",
+    "lat": 49.468776,
+    "lng": 1.070362,
+    "transactions": [
+      {
+        "date": "2022-02-07",
+        "priceEur": 194436,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "e40166cc5e3c": {
+    "id": "e40166cc5e3c",
+    "label": "2A RUE LE VERRIER, Mont-Saint-Aignan",
+    "lat": 49.468365,
+    "lng": 1.069622,
+    "transactions": [
+      {
+        "date": "2022-02-07",
+        "priceEur": 194436,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "991951fa35ba": {
+    "id": "991951fa35ba",
+    "label": "20 RUE DES PELICANS, Mont-Saint-Aignan",
+    "lat": 49.469937,
+    "lng": 1.067882,
+    "transactions": [
+      {
+        "date": "2022-02-16",
+        "priceEur": 344750,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7ec0ea432fa": {
+    "id": "f7ec0ea432fa",
+    "label": "6 RUE DES PETRELS, Mont-Saint-Aignan",
+    "lat": 49.470773,
+    "lng": 1.074412,
+    "transactions": [
+      {
+        "date": "2022-03-08",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0aa3a606509": {
+    "id": "a0aa3a606509",
+    "label": "2E RUE LE VERRIER, Mont-Saint-Aignan",
+    "lat": 49.468571,
+    "lng": 1.069987,
+    "transactions": [
+      {
+        "date": "2022-04-04",
+        "priceEur": 200970,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "c8273c827b5b": {
+    "id": "c8273c827b5b",
+    "label": "18 RUE DES MOUETTES, Mont-Saint-Aignan",
+    "lat": 49.469898,
+    "lng": 1.071252,
+    "transactions": [
+      {
+        "date": "2022-05-12",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "39a15996fa85": {
+    "id": "39a15996fa85",
+    "label": "43 RUE DES GOELANDS, Mont-Saint-Aignan",
+    "lat": 49.470775,
+    "lng": 1.067219,
+    "transactions": [
+      {
+        "date": "2022-06-17",
+        "priceEur": 413500,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d75d2c3d9a7": {
+    "id": "1d75d2c3d9a7",
+    "label": "4 RUE LE VERRIER, Mont-Saint-Aignan",
+    "lat": 49.468667,
+    "lng": 1.070128,
+    "transactions": [
+      {
+        "date": "2022-07-06",
+        "priceEur": 230670,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "f3bdd803b54d": {
+    "id": "f3bdd803b54d",
+    "label": "7 RUE DES PELICANS, Mont-Saint-Aignan",
+    "lat": 49.47071,
+    "lng": 1.070798,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 244400,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "6990820f819d": {
+    "id": "6990820f819d",
+    "label": "16 RUE DES PELICANS, Mont-Saint-Aignan",
+    "lat": 49.470063,
+    "lng": 1.068513,
+    "transactions": [
+      {
+        "date": "2023-07-26",
+        "priceEur": 353500,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-11",
+        "priceEur": 340580,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "83ec3317bbf5": {
+    "id": "83ec3317bbf5",
+    "label": "2 RUE DES PETRELS, Mont-Saint-Aignan",
+    "lat": 49.470773,
+    "lng": 1.074412,
+    "transactions": [
+      {
+        "date": "2022-07-18",
+        "priceEur": 415000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "060e73e696cc": {
+    "id": "060e73e696cc",
+    "label": "7 RUE DES ENGOULEVENTS, Mont-Saint-Aignan",
+    "lat": 49.470454,
+    "lng": 1.07146,
+    "transactions": [
+      {
+        "date": "2022-09-05",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "86379dac66f1": {
+    "id": "86379dac66f1",
+    "label": "4C RUE LE VERRIER, Mont-Saint-Aignan",
+    "lat": 49.46883,
+    "lng": 1.07044,
+    "transactions": [
+      {
+        "date": "2022-09-20",
+        "priceEur": 228340,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "451abffc4d3b": {
+    "id": "451abffc4d3b",
+    "label": "4D RUE LE VERRIER, Mont-Saint-Aignan",
+    "lat": 49.468917,
+    "lng": 1.070636,
+    "transactions": [
+      {
+        "date": "2022-09-23",
+        "priceEur": 198940,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "e697b2cb88f8": {
+    "id": "e697b2cb88f8",
+    "label": "21B RTE DE MAROMME, Mont-Saint-Aignan",
+    "lat": 49.4717,
+    "lng": 1.07417,
+    "transactions": [
+      {
+        "date": "2022-12-01",
+        "priceEur": 475000,
+        "typeLocal": "Maison",
+        "surfaceM2": 283,
+        "isVefa": false
+      }
+    ]
+  },
+  "967d118ff63c": {
+    "id": "967d118ff63c",
+    "label": "58 RTE DE MAROMME, Mont-Saint-Aignan",
+    "lat": 49.471036,
+    "lng": 1.075064,
+    "transactions": [
+      {
+        "date": "2022-12-21",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "8eb762f3225f": {
+    "id": "8eb762f3225f",
+    "label": "40 RUE DES GOELANDS, Mont-Saint-Aignan",
+    "lat": 49.471352,
+    "lng": 1.06668,
+    "transactions": [
+      {
+        "date": "2023-01-27",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "da9a84b6d0a5": {
+    "id": "da9a84b6d0a5",
+    "label": "24 RUE DES MOUETTES, Mont-Saint-Aignan",
+    "lat": 49.470579,
+    "lng": 1.070091,
+    "transactions": [
+      {
+        "date": "2023-01-31",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7b99f6bb1b7": {
+    "id": "b7b99f6bb1b7",
+    "label": "56 RTE DE MAROMME, Mont-Saint-Aignan",
+    "lat": 49.471045,
+    "lng": 1.074727,
+    "transactions": [
+      {
+        "date": "2023-06-08",
+        "priceEur": 393750,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4beca2daa11": {
+    "id": "c4beca2daa11",
+    "label": "7 RUE DES MOUETTES, Mont-Saint-Aignan",
+    "lat": 49.469797,
+    "lng": 1.070761,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "e626b980e8a9": {
+    "id": "e626b980e8a9",
+    "label": "31 RTE DE MAROMME, Mont-Saint-Aignan",
+    "lat": 49.471354,
+    "lng": 1.075591,
+    "transactions": [
+      {
+        "date": "2023-07-12",
+        "priceEur": 600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "784efbee92a7": {
+    "id": "784efbee92a7",
+    "label": "4B RUE MARCEL DUPRE, Mont-Saint-Aignan",
+    "lat": 49.472165,
+    "lng": 1.075178,
+    "transactions": [
+      {
+        "date": "2024-03-29",
+        "priceEur": 612000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "7cca55d2bf57": {
+    "id": "7cca55d2bf57",
+    "label": "11 RUE LE VERRIER, Mont-Saint-Aignan",
+    "lat": 49.468807,
+    "lng": 1.069908,
+    "transactions": [
+      {
+        "date": "2024-05-14",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "98243b5a67ab": {
+    "id": "98243b5a67ab",
+    "label": "2 RUE DU MANEGE, Mont-Saint-Aignan",
+    "lat": 49.471399,
+    "lng": 1.070675,
+    "transactions": [
+      {
+        "date": "2024-05-15",
+        "priceEur": 434000,
+        "typeLocal": "Maison",
+        "surfaceM2": 199,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8122b9b6817": {
+    "id": "f8122b9b6817",
+    "label": "72 AV DU MONT AUX MALADES, Mont-Saint-Aignan",
+    "lat": 49.468731,
+    "lng": 1.067321,
+    "transactions": [
+      {
+        "date": "2024-10-07",
+        "priceEur": 364600,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c2c1412c65f": {
+    "id": "9c2c1412c65f",
+    "label": "8 RUE DES PELICANS, Mont-Saint-Aignan",
+    "lat": 49.470453,
+    "lng": 1.069824,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 395000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "936b161b7cb8": {
+    "id": "936b161b7cb8",
+    "label": "2 RUE MARCEL DUPRE, Mont-Saint-Aignan",
+    "lat": 49.472094,
+    "lng": 1.075603,
+    "transactions": [
+      {
+        "date": "2025-02-14",
+        "priceEur": 415000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "09118895aa51": {
+    "id": "09118895aa51",
+    "label": "9 RUE MARCEL DUPRE, Mont-Saint-Aignan",
+    "lat": 49.472012,
+    "lng": 1.074257,
+    "transactions": [
+      {
+        "date": "2025-02-25",
+        "priceEur": 474200,
+        "typeLocal": "Maison",
+        "surfaceM2": 206,
+        "isVefa": false
+      }
+    ]
+  },
+  "782171c6f10a": {
+    "id": "782171c6f10a",
+    "label": "1 RUE DES ENGOULEVENTS, Mont-Saint-Aignan",
+    "lat": 49.47076,
+    "lng": 1.072027,
+    "transactions": [
+      {
+        "date": "2025-03-24",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe0a8b7523ed": {
+    "id": "fe0a8b7523ed",
+    "label": "1 RUE DU MANEGE, Mont-Saint-Aignan",
+    "lat": 49.471331,
+    "lng": 1.070255,
+    "transactions": [
+      {
+        "date": "2025-05-19",
+        "priceEur": 555800,
+        "typeLocal": "Maison",
+        "surfaceM2": 195,
+        "isVefa": false
+      }
+    ]
+  },
+  "b90daf3e9494": {
+    "id": "b90daf3e9494",
+    "label": "6 RUE DES MOUETTES, Mont-Saint-Aignan",
+    "lat": 49.469001,
+    "lng": 1.072646,
+    "transactions": [
+      {
+        "date": "2025-05-13",
+        "priceEur": 190080,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2025-05-12",
+        "priceEur": 179190,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  }
+}

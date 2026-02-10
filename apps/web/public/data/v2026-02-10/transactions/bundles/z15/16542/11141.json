@@ -1,0 +1,62 @@
+{
+  "65f2292b09ff": {
+    "id": "65f2292b09ff",
+    "label": "5002 LE VAL A LEU, Ellecourt",
+    "lat": 49.799355,
+    "lng": 1.74229,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 332000,
+        "typeLocal": "Maison",
+        "surfaceM2": 167,
+        "isVefa": false
+      }
+    ]
+  },
+  "59db397a423c": {
+    "id": "59db397a423c",
+    "label": "5078 LE VAL A LEU, Ellecourt",
+    "lat": 49.798251,
+    "lng": 1.738165,
+    "transactions": [
+      {
+        "date": "2021-12-11",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b988fb33039": {
+    "id": "9b988fb33039",
+    "label": "5 RUE DU VAL, Ellecourt",
+    "lat": 49.798072,
+    "lng": 1.737253,
+    "transactions": [
+      {
+        "date": "2022-12-09",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d72b2283523": {
+    "id": "8d72b2283523",
+    "label": "5 RUE DES ETANGS, Ellecourt",
+    "lat": 49.799355,
+    "lng": 1.74229,
+    "transactions": [
+      {
+        "date": "2024-05-15",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 167,
+        "isVefa": false
+      }
+    ]
+  }
+}

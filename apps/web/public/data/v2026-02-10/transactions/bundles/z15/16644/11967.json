@@ -1,0 +1,47 @@
+{
+  "b5b94b800f42": {
+    "id": "b5b94b800f42",
+    "label": "5155 COUSTORGUES, Fraisse-sur-Agout",
+    "lat": 43.585268,
+    "lng": 2.860906,
+    "transactions": [
+      {
+        "date": "2021-05-19",
+        "priceEur": 78330,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff452705d323": {
+    "id": "ff452705d323",
+    "label": "5850 COUSTORGUES, Fraisse-sur-Agout",
+    "lat": 43.584984,
+    "lng": 2.86077,
+    "transactions": [
+      {
+        "date": "2022-11-15",
+        "priceEur": 20000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "d27109ac6c86": {
+    "id": "d27109ac6c86",
+    "label": "5333 COUSTORGUES, Fraisse-sur-Agout",
+    "lat": 43.586599,
+    "lng": 2.859804,
+    "transactions": [
+      {
+        "date": "2023-11-09",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

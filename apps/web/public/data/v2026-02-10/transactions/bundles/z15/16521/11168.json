@@ -1,0 +1,47 @@
+{
+  "38934d910d51": {
+    "id": "38934d910d51",
+    "label": "617 RUE DU MONT DU GAT, Roncherolles-en-Bray",
+    "lat": 49.603704,
+    "lng": 1.506859,
+    "transactions": [
+      {
+        "date": "2021-11-15",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "a76958f9da04": {
+    "id": "a76958f9da04",
+    "label": "109 RTE DE ROUEN, Roncherolles-en-Bray",
+    "lat": 49.608247,
+    "lng": 1.513179,
+    "transactions": [
+      {
+        "date": "2021-04-23",
+        "priceEur": 144000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "f81252c47944": {
+    "id": "f81252c47944",
+    "label": "485 RTE DE ROUEN, Roncherolles-en-Bray",
+    "lat": 49.607996,
+    "lng": 1.508734,
+    "transactions": [
+      {
+        "date": "2022-06-28",
+        "priceEur": 53400,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

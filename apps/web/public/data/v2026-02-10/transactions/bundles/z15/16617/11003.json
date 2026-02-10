@@ -1,0 +1,39 @@
+{
+  "b214c36bda7c": {
+    "id": "b214c36bda7c",
+    "label": "9 CHE DES SAISONS, Saint-Sylvestre-Cappel",
+    "lat": 50.76703,
+    "lng": 2.563677,
+    "transactions": [
+      {
+        "date": "2023-03-23",
+        "priceEur": 218500,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-17",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c5d92d9b679": {
+    "id": "1c5d92d9b679",
+    "label": "17 CHE DE BORRE, Saint-Sylvestre-Cappel",
+    "lat": 50.767196,
+    "lng": 2.566618,
+    "transactions": [
+      {
+        "date": "2023-11-06",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

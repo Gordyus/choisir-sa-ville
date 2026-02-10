@@ -1,0 +1,84 @@
+{
+  "a11ba250c9c4": {
+    "id": "a11ba250c9c4",
+    "label": "5233 CHE DE LA HOUSSAIE, Nointot",
+    "lat": 49.601726,
+    "lng": 0.465489,
+    "transactions": [
+      {
+        "date": "2021-02-03",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "8606d31700c5": {
+    "id": "8606d31700c5",
+    "label": "447 RUE DE LA MARE AUX SAULES, Nointot",
+    "lat": 49.599984,
+    "lng": 0.467399,
+    "transactions": [
+      {
+        "date": "2022-06-13",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "f026de80e0ee": {
+    "id": "f026de80e0ee",
+    "label": "130 RUE DE LA MARE AUX SAULES, Nointot",
+    "lat": 49.597381,
+    "lng": 0.469519,
+    "transactions": [
+      {
+        "date": "2023-04-20",
+        "priceEur": 196500,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "a27f0f97847f": {
+    "id": "a27f0f97847f",
+    "label": "446 RUE DE L'ECOLE, Nointot",
+    "lat": 49.596545,
+    "lng": 0.470137,
+    "transactions": [
+      {
+        "date": "2024-08-12",
+        "priceEur": 221500,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-30",
+        "priceEur": 268000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "77abfb64e7c6": {
+    "id": "77abfb64e7c6",
+    "label": "53 IMP DU SACRE CHOEUR, Nointot",
+    "lat": 49.600659,
+    "lng": 0.467157,
+    "transactions": [
+      {
+        "date": "2024-01-04",
+        "priceEur": 136000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "6eb2a23c819f": {
+    "id": "6eb2a23c819f",
+    "label": "5 CHE MARIE CLOCHE, Quièvrecourt",
+    "lat": 49.728154,
+    "lng": 1.424833,
+    "transactions": [
+      {
+        "date": "2020-12-11",
+        "priceEur": 194200,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f5305d573a7": {
+    "id": "1f5305d573a7",
+    "label": "3 CHE MARIE CLOCHE, Quièvrecourt",
+    "lat": 49.728436,
+    "lng": 1.425316,
+    "transactions": [
+      {
+        "date": "2024-01-24",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "242eabb12fc3": {
+    "id": "242eabb12fc3",
+    "label": "5083 GUIMERVILLE, Hodeng-au-Bosc",
+    "lat": 49.886015,
+    "lng": 1.70233,
+    "transactions": [
+      {
+        "date": "2021-11-15",
+        "priceEur": 143300,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1cbbc856fcc": {
+    "id": "a1cbbc856fcc",
+    "label": "3 GUIMERVILLE, Hodeng-au-Bosc",
+    "lat": 49.885784,
+    "lng": 1.70025,
+    "transactions": [
+      {
+        "date": "2023-05-09",
+        "priceEur": 174300,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-17",
+        "priceEur": 107500,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "c280f61e45b2": {
+    "id": "c280f61e45b2",
+    "label": "5102 GUIMERVILLE, Hodeng-au-Bosc",
+    "lat": 49.884714,
+    "lng": 1.701861,
+    "transactions": [
+      {
+        "date": "2021-12-23",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "9acfa65b7f92": {
+    "id": "9acfa65b7f92",
+    "label": "5075 GUIMERVILLE, Hodeng-au-Bosc",
+    "lat": 49.88528,
+    "lng": 1.70043,
+    "transactions": [
+      {
+        "date": "2022-06-08",
+        "priceEur": 218000,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "051e41d279e0": {
+    "id": "051e41d279e0",
+    "label": "5077 GUIMERVILLE, Hodeng-au-Bosc",
+    "lat": 49.885618,
+    "lng": 1.699847,
+    "transactions": [
+      {
+        "date": "2023-08-02",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  }
+}

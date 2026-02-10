@@ -1,0 +1,32 @@
+{
+  "1adc31458ce0": {
+    "id": "1adc31458ce0",
+    "label": "5 RUE HANNETOT, Norville",
+    "lat": 49.488939,
+    "lng": 0.655631,
+    "transactions": [
+      {
+        "date": "2023-06-12",
+        "priceEur": 232000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "2830febfa0cf": {
+    "id": "2830febfa0cf",
+    "label": "1G RTE DU GRAND VAL, Norville",
+    "lat": 49.489092,
+    "lng": 0.651448,
+    "transactions": [
+      {
+        "date": "2023-07-06",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  }
+}

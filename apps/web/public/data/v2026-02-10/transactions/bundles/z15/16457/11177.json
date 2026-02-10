@@ -1,0 +1,47 @@
+{
+  "ab392a076274": {
+    "id": "ab392a076274",
+    "label": "5030 LE MESNIL, Saint Martin de l'If",
+    "lat": 49.545421,
+    "lng": 0.810116,
+    "transactions": [
+      {
+        "date": "2021-04-26",
+        "priceEur": 76000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "4fb33bf4925b": {
+    "id": "4fb33bf4925b",
+    "label": "5025 LE MESNIL, Saint Martin de l'If",
+    "lat": 49.544249,
+    "lng": 0.811688,
+    "transactions": [
+      {
+        "date": "2023-06-09",
+        "priceEur": 18000,
+        "typeLocal": "Maison",
+        "surfaceM2": 28,
+        "isVefa": false
+      }
+    ]
+  },
+  "f52c6084e594": {
+    "id": "f52c6084e594",
+    "label": "730 RTE DU MESNIL, Saint Martin de l'If",
+    "lat": 49.545046,
+    "lng": 0.809625,
+    "transactions": [
+      {
+        "date": "2024-03-07",
+        "priceEur": 73500,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  }
+}

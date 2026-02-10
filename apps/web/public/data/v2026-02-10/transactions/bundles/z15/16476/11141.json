@@ -1,0 +1,62 @@
+{
+  "ab4a7cf943ac": {
+    "id": "ab4a7cf943ac",
+    "label": "27 RUE DU TILLEUL, Bacqueville-en-Caux",
+    "lat": 49.799473,
+    "lng": 1.020966,
+    "transactions": [
+      {
+        "date": "2021-01-25",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "24e76a23454d": {
+    "id": "24e76a23454d",
+    "label": "25 RUE DU TILLEUL, Bacqueville-en-Caux",
+    "lat": 49.799125,
+    "lng": 1.021085,
+    "transactions": [
+      {
+        "date": "2022-03-31",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "63efabc936f9": {
+    "id": "63efabc936f9",
+    "label": "1 IMP DE LA FONTAINE, Bacqueville-en-Caux",
+    "lat": 49.801301,
+    "lng": 1.02153,
+    "transactions": [
+      {
+        "date": "2022-12-29",
+        "priceEur": 69000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "82940d806edb": {
+    "id": "82940d806edb",
+    "label": "21B RUE DU TILLEUL, Bacqueville-en-Caux",
+    "lat": 49.79787,
+    "lng": 1.020906,
+    "transactions": [
+      {
+        "date": "2023-11-06",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  }
+}

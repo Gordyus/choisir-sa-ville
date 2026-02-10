@@ -1,0 +1,32 @@
+{
+  "be5fb70b2a2d": {
+    "id": "be5fb70b2a2d",
+    "label": "6 RTE DE GUISE, Séranvillers-Forenville",
+    "lat": 50.127668,
+    "lng": 3.287498,
+    "transactions": [
+      {
+        "date": "2020-08-05",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "8592dd7e63fb": {
+    "id": "8592dd7e63fb",
+    "label": "4 RTE DE GUISE, Séranvillers-Forenville",
+    "lat": 50.127857,
+    "lng": 3.287328,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  }
+}

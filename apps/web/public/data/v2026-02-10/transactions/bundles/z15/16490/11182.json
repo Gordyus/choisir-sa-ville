@@ -1,0 +1,77 @@
+{
+  "976d6e312f0a": {
+    "id": "976d6e312f0a",
+    "label": "50 RUE DES HTS CHAMPS, Quincampoix",
+    "lat": 49.510688,
+    "lng": 1.165998,
+    "transactions": [
+      {
+        "date": "2021-03-05",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0dd27915fd1": {
+    "id": "c0dd27915fd1",
+    "label": "470 RTE DE NEUFCHATEL, Quincampoix",
+    "lat": 49.510448,
+    "lng": 1.167497,
+    "transactions": [
+      {
+        "date": "2022-06-23",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "b45efe00597f": {
+    "id": "b45efe00597f",
+    "label": "367 RTE DE NEUFCHATEL, Quincampoix",
+    "lat": 49.510288,
+    "lng": 1.165319,
+    "transactions": [
+      {
+        "date": "2022-10-21",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "2556f269e778": {
+    "id": "2556f269e778",
+    "label": "60 RUE DES HTS CHAMPS, Quincampoix",
+    "lat": 49.510893,
+    "lng": 1.166103,
+    "transactions": [
+      {
+        "date": "2024-03-08",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "f905fd4bfc27": {
+    "id": "f905fd4bfc27",
+    "label": "349 RTE DE NEUFCHATEL, Quincampoix",
+    "lat": 49.510305,
+    "lng": 1.164812,
+    "transactions": [
+      {
+        "date": "2025-05-23",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  }
+}

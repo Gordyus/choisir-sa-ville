@@ -1,0 +1,47 @@
+{
+  "f9de9cf93c9b": {
+    "id": "f9de9cf93c9b",
+    "label": "4 RUE DU BELVEDERE, Touffreville-sur-Eu",
+    "lat": 49.987473,
+    "lng": 1.32102,
+    "transactions": [
+      {
+        "date": "2022-04-23",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "77212c1ee422": {
+    "id": "77212c1ee422",
+    "label": "4B RUE DU BELVEDERE, Touffreville-sur-Eu",
+    "lat": 49.987549,
+    "lng": 1.320854,
+    "transactions": [
+      {
+        "date": "2022-04-23",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "82989e47d290": {
+    "id": "82989e47d290",
+    "label": "5 RUE DU BELVEDERE, Touffreville-sur-Eu",
+    "lat": 49.986985,
+    "lng": 1.321359,
+    "transactions": [
+      {
+        "date": "2023-06-29",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

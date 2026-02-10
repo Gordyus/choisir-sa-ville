@@ -1,0 +1,77 @@
+{
+  "13d2e6e99cbe": {
+    "id": "13d2e6e99cbe",
+    "label": "127 RUE DE LA POTERIE, Saumont-la-Poterie",
+    "lat": 49.583185,
+    "lng": 1.601111,
+    "transactions": [
+      {
+        "date": "2021-09-28",
+        "priceEur": 228000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "83680e50d1f8": {
+    "id": "83680e50d1f8",
+    "label": "12 LES PRES DE LA POTERIE, Saumont-la-Poterie",
+    "lat": 49.584264,
+    "lng": 1.602952,
+    "transactions": [
+      {
+        "date": "2024-03-11",
+        "priceEur": 206250,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "6bed98f80353": {
+    "id": "6bed98f80353",
+    "label": "142 RUE DE LA POTERIE, Saumont-la-Poterie",
+    "lat": 49.583406,
+    "lng": 1.59933,
+    "transactions": [
+      {
+        "date": "2024-04-10",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "72175d952563": {
+    "id": "72175d952563",
+    "label": "123 RUE DE LA POTERIE, Saumont-la-Poterie",
+    "lat": 49.583171,
+    "lng": 1.602039,
+    "transactions": [
+      {
+        "date": "2024-04-09",
+        "priceEur": 281000,
+        "typeLocal": "Maison",
+        "surfaceM2": 178,
+        "isVefa": false
+      }
+    ]
+  },
+  "75932ccdb25c": {
+    "id": "75932ccdb25c",
+    "label": "111 RUE DE LA POTERIE, Saumont-la-Poterie",
+    "lat": 49.582959,
+    "lng": 1.60283,
+    "transactions": [
+      {
+        "date": "2025-02-10",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  }
+}

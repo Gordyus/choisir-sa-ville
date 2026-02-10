@@ -1,0 +1,77 @@
+{
+  "50b6766d302d": {
+    "id": "50b6766d302d",
+    "label": "5760 ROVILLE, Saint-Saëns",
+    "lat": 49.681285,
+    "lng": 1.265754,
+    "transactions": [
+      {
+        "date": "2020-09-07",
+        "priceEur": 219000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "4542b78f139d": {
+    "id": "4542b78f139d",
+    "label": "322 ROVILLE, Saint-Saëns",
+    "lat": 49.679228,
+    "lng": 1.269826,
+    "transactions": [
+      {
+        "date": "2020-11-05",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "646f38ea84ef": {
+    "id": "646f38ea84ef",
+    "label": "5705 LA FONTAINE FOUGUEUSE, Saint-Saëns",
+    "lat": 49.680719,
+    "lng": 1.273494,
+    "transactions": [
+      {
+        "date": "2020-11-06",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "38ebc8e308b7": {
+    "id": "38ebc8e308b7",
+    "label": "5747 ROVILLE, Saint-Saëns",
+    "lat": 49.678121,
+    "lng": 1.270131,
+    "transactions": [
+      {
+        "date": "2025-04-28",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "af1d0aa7abb1": {
+    "id": "af1d0aa7abb1",
+    "label": "701 LA FONTAINE FOUGUEUSE, Saint-Saëns",
+    "lat": 49.680899,
+    "lng": 1.27336,
+    "transactions": [
+      {
+        "date": "2025-05-07",
+        "priceEur": 14368,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "550d4640e72c": {
+    "id": "550d4640e72c",
+    "label": "20 RTE DU BEC DE MORTAGNE, Thiergeville",
+    "lat": 49.726025,
+    "lng": 0.486354,
+    "transactions": [
+      {
+        "date": "2021-09-28",
+        "priceEur": 270400,
+        "typeLocal": "Maison",
+        "surfaceM2": 8,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-28",
+        "priceEur": 270400,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9424338e14e": {
+    "id": "c9424338e14e",
+    "label": "13B RUE DE LA POTERIE, Thiergeville",
+    "lat": 49.7266,
+    "lng": 0.488167,
+    "transactions": [
+      {
+        "date": "2022-04-22",
+        "priceEur": 237000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  }
+}

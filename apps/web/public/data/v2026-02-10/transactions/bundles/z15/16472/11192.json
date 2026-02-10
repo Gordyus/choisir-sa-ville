@@ -1,0 +1,84 @@
+{
+  "f353f6975d35": {
+    "id": "f353f6975d35",
+    "label": "8 CHE SAINT GORGON, Saint-Martin-de-Boscherville",
+    "lat": 49.434308,
+    "lng": 0.971166,
+    "transactions": [
+      {
+        "date": "2024-03-08",
+        "priceEur": 841000,
+        "typeLocal": "Maison",
+        "surfaceM2": 249,
+        "isVefa": false
+      }
+    ]
+  },
+  "e57179525bcf": {
+    "id": "e57179525bcf",
+    "label": "110 RTE DU MOULIN, Saint-Martin-de-Boscherville",
+    "lat": 49.433678,
+    "lng": 0.973512,
+    "transactions": [
+      {
+        "date": "2024-07-19",
+        "priceEur": 849650,
+        "typeLocal": "Maison",
+        "surfaceM2": 216,
+        "isVefa": false
+      }
+    ]
+  },
+  "b09d65da75cd": {
+    "id": "b09d65da75cd",
+    "label": "40 CHE DES VERTUGADINS, Saint-Martin-de-Boscherville",
+    "lat": 49.435923,
+    "lng": 0.970181,
+    "transactions": [
+      {
+        "date": "2024-10-29",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f56caf1885f": {
+    "id": "2f56caf1885f",
+    "label": "8B CHE SAINT GORGON, Saint-Martin-de-Boscherville",
+    "lat": 49.434314,
+    "lng": 0.971691,
+    "transactions": [
+      {
+        "date": "2025-02-28",
+        "priceEur": 1103500,
+        "typeLocal": "Maison",
+        "surfaceM2": 260,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2a70f04e1a1": {
+    "id": "a2a70f04e1a1",
+    "label": "98 RTE DU MOULIN, Saint-Martin-de-Boscherville",
+    "lat": 49.434702,
+    "lng": 0.97236,
+    "transactions": [
+      {
+        "date": "2025-05-28",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 27,
+        "isVefa": false
+      },
+      {
+        "date": "2025-05-28",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  }
+}

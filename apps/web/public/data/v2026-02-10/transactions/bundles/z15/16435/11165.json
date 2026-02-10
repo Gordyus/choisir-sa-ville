@@ -1,0 +1,32 @@
+{
+  "5fe5608ca5be": {
+    "id": "5fe5608ca5be",
+    "label": "5 IMP DES PRES - AUZOUVILLE AUBE, Terres-de-Caux",
+    "lat": 49.627623,
+    "lng": 0.571096,
+    "transactions": [
+      {
+        "date": "2021-08-30",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "deee42a7d505": {
+    "id": "deee42a7d505",
+    "label": "594 RUE DE LA MAIRIE - AUZOUVILLE, Terres-de-Caux",
+    "lat": 49.627201,
+    "lng": 0.570955,
+    "transactions": [
+      {
+        "date": "2022-11-21",
+        "priceEur": 980181.44,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  }
+}

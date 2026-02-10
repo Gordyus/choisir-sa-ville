@@ -1,0 +1,47 @@
+{
+  "2a17652cffad": {
+    "id": "2a17652cffad",
+    "label": "7004 LE MESNIL, 76358",
+    "lat": 49.488439,
+    "lng": 1.397935,
+    "transactions": [
+      {
+        "date": "2021-01-08",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5ee7d662597": {
+    "id": "f5ee7d662597",
+    "label": "64 COTE DU MESNIL, 76358",
+    "lat": 49.489212,
+    "lng": 1.39885,
+    "transactions": [
+      {
+        "date": "2021-02-04",
+        "priceEur": 172100,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ec8d8cd735b": {
+    "id": "0ec8d8cd735b",
+    "label": "1559 RTE DE BUCHY, 76358",
+    "lat": 49.488815,
+    "lng": 1.398114,
+    "transactions": [
+      {
+        "date": "2023-09-08",
+        "priceEur": 129420,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  }
+}

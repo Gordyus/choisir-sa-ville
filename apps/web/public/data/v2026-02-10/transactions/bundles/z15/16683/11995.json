@@ -1,0 +1,47 @@
+{
+  "f8011efd4cd7": {
+    "id": "f8011efd4cd7",
+    "label": "1637 CR LIBOURIAC ST JEAN LIBRON, Béziers",
+    "lat": 43.364095,
+    "lng": 3.290862,
+    "transactions": [
+      {
+        "date": "2020-07-13",
+        "priceEur": 216800,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b41a85b7b93": {
+    "id": "0b41a85b7b93",
+    "label": "2143 CR 61 DE BOUJAN A AGDE, Béziers",
+    "lat": 43.357349,
+    "lng": 3.285882,
+    "transactions": [
+      {
+        "date": "2021-03-29",
+        "priceEur": 318000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d80dd8f2973": {
+    "id": "9d80dd8f2973",
+    "label": "1647 CR LIBOURIAC ST JEAN LIBRON, Béziers",
+    "lat": 43.364144,
+    "lng": 3.290246,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 347094,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  }
+}

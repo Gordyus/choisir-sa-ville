@@ -1,0 +1,69 @@
+{
+  "1eac8bacdcb4": {
+    "id": "1eac8bacdcb4",
+    "label": "525 CHE DE LA FOLIE, Robertot",
+    "lat": 49.714264,
+    "lng": 0.68714,
+    "transactions": [
+      {
+        "date": "2021-12-10",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-27",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "8fb652f48710": {
+    "id": "8fb652f48710",
+    "label": "830 RTE DE LA VALLEE, Robertot",
+    "lat": 49.710594,
+    "lng": 0.689885,
+    "transactions": [
+      {
+        "date": "2022-03-08",
+        "priceEur": 268000,
+        "typeLocal": "Maison",
+        "surfaceM2": 166,
+        "isVefa": false
+      }
+    ]
+  },
+  "c78dae20e66b": {
+    "id": "c78dae20e66b",
+    "label": "333 RTE DES MOULINS, Robertot",
+    "lat": 49.710471,
+    "lng": 0.687946,
+    "transactions": [
+      {
+        "date": "2022-08-08",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "76d598151d2f": {
+    "id": "76d598151d2f",
+    "label": "429 RTE DES MOULINS, Robertot",
+    "lat": 49.710403,
+    "lng": 0.689813,
+    "transactions": [
+      {
+        "date": "2024-04-30",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  }
+}

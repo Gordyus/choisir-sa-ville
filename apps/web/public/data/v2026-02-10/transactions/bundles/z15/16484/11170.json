@@ -1,0 +1,77 @@
+{
+  "d0d8d8a5a299": {
+    "id": "d0d8d8a5a299",
+    "label": "287 RUE DES MARES, Clères",
+    "lat": 49.589933,
+    "lng": 1.109576,
+    "transactions": [
+      {
+        "date": "2021-11-15",
+        "priceEur": 104662,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "f248b1946633": {
+    "id": "f248b1946633",
+    "label": "259 RUE DES MARES, Clères",
+    "lat": 49.589449,
+    "lng": 1.109282,
+    "transactions": [
+      {
+        "date": "2021-11-18",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a5bc12f38d0": {
+    "id": "5a5bc12f38d0",
+    "label": "506 RUE DES MARES, Clères",
+    "lat": 49.591492,
+    "lng": 1.109548,
+    "transactions": [
+      {
+        "date": "2021-05-10",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "138a7225cdb7": {
+    "id": "138a7225cdb7",
+    "label": "439 AV DU PARC, Clères",
+    "lat": 49.594275,
+    "lng": 1.105563,
+    "transactions": [
+      {
+        "date": "2023-08-30",
+        "priceEur": 164750,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "d55bdec2d657": {
+    "id": "d55bdec2d657",
+    "label": "557 AV DU PARC, Clères",
+    "lat": 49.594813,
+    "lng": 1.105693,
+    "transactions": [
+      {
+        "date": "2024-10-28",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

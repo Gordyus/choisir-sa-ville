@@ -1,0 +1,47 @@
+{
+  "072e0e15ad31": {
+    "id": "072e0e15ad31",
+    "label": "27 RUE SAINTE MARGUERITE, Saint-Pierre-en-Val",
+    "lat": 50.011268,
+    "lng": 1.41818,
+    "transactions": [
+      {
+        "date": "2024-06-10",
+        "priceEur": 226250,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "176c058c4c85": {
+    "id": "176c058c4c85",
+    "label": "5343 RUE SAINTE MARGUERITE, Saint-Pierre-en-Val",
+    "lat": 50.010938,
+    "lng": 1.42037,
+    "transactions": [
+      {
+        "date": "2024-08-20",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "30ca1ba85b7a": {
+    "id": "30ca1ba85b7a",
+    "label": "36 RUE SAINTE MARGUERITE, Saint-Pierre-en-Val",
+    "lat": 50.012396,
+    "lng": 1.418178,
+    "transactions": [
+      {
+        "date": "2025-03-27",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

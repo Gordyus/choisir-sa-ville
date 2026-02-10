@@ -1,0 +1,32 @@
+{
+  "4fc81c7d721a": {
+    "id": "4fc81c7d721a",
+    "label": "755 RUE DU DEBOUT, Faumont",
+    "lat": 50.452503,
+    "lng": 3.124306,
+    "transactions": [
+      {
+        "date": "2021-10-13",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "8cccad203208": {
+    "id": "8cccad203208",
+    "label": "754 RUE DU DEBOUT, Faumont",
+    "lat": 50.452472,
+    "lng": 3.123631,
+    "transactions": [
+      {
+        "date": "2023-07-03",
+        "priceEur": 171000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  }
+}

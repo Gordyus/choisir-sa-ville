@@ -1,0 +1,47 @@
+{
+  "5e9a4e726e20": {
+    "id": "5e9a4e726e20",
+    "label": "23 RTE DU GENETAY, Rives-en-Seine",
+    "lat": 49.527126,
+    "lng": 0.790734,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "a09eb3c61342": {
+    "id": "a09eb3c61342",
+    "label": "100 RTE DE CAILLOUVILLE, Rives-en-Seine",
+    "lat": 49.531872,
+    "lng": 0.780476,
+    "transactions": [
+      {
+        "date": "2024-11-28",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "134c415081f0": {
+    "id": "134c415081f0",
+    "label": "18 IMP DE LA CAVEE, Rives-en-Seine",
+    "lat": 49.528054,
+    "lng": 0.789323,
+    "transactions": [
+      {
+        "date": "2025-06-27",
+        "priceEur": 20000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

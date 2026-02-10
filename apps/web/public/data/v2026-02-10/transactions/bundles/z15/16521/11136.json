@@ -1,0 +1,91 @@
+{
+  "c385312a3cbd": {
+    "id": "c385312a3cbd",
+    "label": "12 RTE DE BOSC GEFFROY, Callengeville",
+    "lat": 49.833015,
+    "lng": 1.513869,
+    "transactions": [
+      {
+        "date": "2021-07-21",
+        "priceEur": 56600,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "eebcae32d064": {
+    "id": "eebcae32d064",
+    "label": "5070 BOSC GEFFROY, Callengeville",
+    "lat": 49.832813,
+    "lng": 1.514588,
+    "transactions": [
+      {
+        "date": "2022-03-24",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 241,
+        "isVefa": false
+      }
+    ]
+  },
+  "02ead6dcb8f8": {
+    "id": "02ead6dcb8f8",
+    "label": "10 RTE DE BOSC GEFFROY, Callengeville",
+    "lat": 49.833357,
+    "lng": 1.51266,
+    "transactions": [
+      {
+        "date": "2022-07-21",
+        "priceEur": 203500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-21",
+        "priceEur": 203500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-21",
+        "priceEur": 203500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "a15a4c8486a9": {
+    "id": "a15a4c8486a9",
+    "label": "17 RTE DE BOSC GEFFROY, Callengeville",
+    "lat": 49.833179,
+    "lng": 1.515931,
+    "transactions": [
+      {
+        "date": "2023-12-01",
+        "priceEur": 123950,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "43d9be53aeab": {
+    "id": "43d9be53aeab",
+    "label": "1 RTE DE BOSC GEFFROY, Callengeville",
+    "lat": 49.834007,
+    "lng": 1.508465,
+    "transactions": [
+      {
+        "date": "2024-05-31",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  }
+}

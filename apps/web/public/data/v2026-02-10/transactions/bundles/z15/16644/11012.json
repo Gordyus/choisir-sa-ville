@@ -1,0 +1,99 @@
+{
+  "645504b8cd52": {
+    "id": "645504b8cd52",
+    "label": "1053 RUE DU PAVE FRUIT, Nieppe",
+    "lat": 50.705482,
+    "lng": 2.864893,
+    "transactions": [
+      {
+        "date": "2021-01-05",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "9bce14592e05": {
+    "id": "9bce14592e05",
+    "label": "1005 RUE DU PAVE FRUIT, Nieppe",
+    "lat": 50.705115,
+    "lng": 2.864485,
+    "transactions": [
+      {
+        "date": "2023-07-17",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-18",
+        "priceEur": 140600,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd3e1da17abf": {
+    "id": "bd3e1da17abf",
+    "label": "995 RUE DU PAVE FRUIT, Nieppe",
+    "lat": 50.705074,
+    "lng": 2.86438,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 183000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a30b14a2aac": {
+    "id": "8a30b14a2aac",
+    "label": "584 RUE DU PAVE FRUIT, Nieppe",
+    "lat": 50.702044,
+    "lng": 2.861029,
+    "transactions": [
+      {
+        "date": "2022-07-07",
+        "priceEur": 87500,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "b589d2433c5e": {
+    "id": "b589d2433c5e",
+    "label": "54 RUE DE LA CLEF D HOLLANDE, Nieppe",
+    "lat": 50.705694,
+    "lng": 2.867194,
+    "transactions": [
+      {
+        "date": "2024-01-25",
+        "priceEur": 92823,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "eaf2955c7ae9": {
+    "id": "eaf2955c7ae9",
+    "label": "1049 RUE DU PAVE FRUIT, Nieppe",
+    "lat": 50.705458,
+    "lng": 2.864856,
+    "transactions": [
+      {
+        "date": "2025-02-21",
+        "priceEur": 191000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

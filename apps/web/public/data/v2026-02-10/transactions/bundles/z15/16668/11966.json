@@ -1,0 +1,32 @@
+{
+  "41e751651cb6": {
+    "id": "41e751651cb6",
+    "label": "5209 CAMP ESPRIT, Villemagne-l'Argentière",
+    "lat": 43.59581,
+    "lng": 3.127589,
+    "transactions": [
+      {
+        "date": "2021-04-15",
+        "priceEur": 1200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4d937d69d3e": {
+    "id": "f4d937d69d3e",
+    "label": "9001F PLAINE DE LA BASTIDE, Bédarieux",
+    "lat": 43.594324,
+    "lng": 3.127167,
+    "transactions": [
+      {
+        "date": "2022-11-18",
+        "priceEur": 806283.6,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

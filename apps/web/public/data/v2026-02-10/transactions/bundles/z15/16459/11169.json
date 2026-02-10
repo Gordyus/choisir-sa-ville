@@ -1,0 +1,32 @@
+{
+  "e9177fbf498c": {
+    "id": "e9177fbf498c",
+    "label": "1680 RTE DU HAM YVELIN, Croix-Mare",
+    "lat": 49.600905,
+    "lng": 0.830541,
+    "transactions": [
+      {
+        "date": "2023-04-25",
+        "priceEur": 177650,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "d88df0d2c79c": {
+    "id": "d88df0d2c79c",
+    "label": "1028 RTE DU HAMEAU EN CAUX, Croix-Mare",
+    "lat": 49.599854,
+    "lng": 0.830652,
+    "transactions": [
+      {
+        "date": "2024-06-17",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

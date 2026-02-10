@@ -1,0 +1,32 @@
+{
+  "0acb77796078": {
+    "id": "0acb77796078",
+    "label": "1 IMP DES BOSQUETS, Petit-Caux",
+    "lat": 49.937077,
+    "lng": 1.318801,
+    "transactions": [
+      {
+        "date": "2021-07-02",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "621ccf9d4ec3": {
+    "id": "621ccf9d4ec3",
+    "label": "5024 LE VILLAGE ST QUENTIN, Petit-Caux",
+    "lat": 49.935917,
+    "lng": 1.318846,
+    "transactions": [
+      {
+        "date": "2025-04-04",
+        "priceEur": 156200,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  }
+}

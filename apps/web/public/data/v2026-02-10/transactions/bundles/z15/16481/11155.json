@@ -1,0 +1,32 @@
+{
+  "3129fd5f187d": {
+    "id": "3129fd5f187d",
+    "label": "305 IMP DU BOIS DU FIL, Vassonville",
+    "lat": 49.698081,
+    "lng": 1.075774,
+    "transactions": [
+      {
+        "date": "2021-01-22",
+        "priceEur": 141300,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "a4e3d20b9e4f": {
+    "id": "a4e3d20b9e4f",
+    "label": "67 IMP DU BOIS DU FIL, Vassonville",
+    "lat": 49.696502,
+    "lng": 1.075752,
+    "transactions": [
+      {
+        "date": "2023-10-19",
+        "priceEur": 314000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

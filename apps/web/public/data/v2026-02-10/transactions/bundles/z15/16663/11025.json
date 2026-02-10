@@ -1,0 +1,2708 @@
+{
+  "21c169600fd2": {
+    "id": "21c169600fd2",
+    "label": "19 RUE LOUIS SPRIET, Lille",
+    "lat": 50.611602,
+    "lng": 3.073305,
+    "transactions": [
+      {
+        "date": "2020-07-06",
+        "priceEur": 256500,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "e744127f0182": {
+    "id": "e744127f0182",
+    "label": "6 RUE DU CAPITAINE MICHEL, Lille",
+    "lat": 50.614277,
+    "lng": 3.072839,
+    "transactions": [
+      {
+        "date": "2020-07-15",
+        "priceEur": 560800,
+        "typeLocal": "Maison",
+        "surfaceM2": 218,
+        "isVefa": false
+      }
+    ]
+  },
+  "dad2227c0a52": {
+    "id": "dad2227c0a52",
+    "label": "62 RUE ABELARD, Lille",
+    "lat": 50.612929,
+    "lng": 3.06549,
+    "transactions": [
+      {
+        "date": "2022-06-02",
+        "priceEur": 245000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": true
+      },
+      {
+        "date": "2022-02-14",
+        "priceEur": 206520,
+        "typeLocal": "Appartement",
+        "surfaceM2": 79,
+        "isVefa": true
+      },
+      {
+        "date": "2021-12-22",
+        "priceEur": 229870,
+        "typeLocal": "Appartement",
+        "surfaceM2": 88,
+        "isVefa": true
+      },
+      {
+        "date": "2021-11-09",
+        "priceEur": 248000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": true
+      },
+      {
+        "date": "2021-06-29",
+        "priceEur": 248710,
+        "typeLocal": "Appartement",
+        "surfaceM2": 96,
+        "isVefa": true
+      },
+      {
+        "date": "2021-06-24",
+        "priceEur": 159129,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": true
+      },
+      {
+        "date": "2021-01-27",
+        "priceEur": 182700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": true
+      },
+      {
+        "date": "2020-12-29",
+        "priceEur": 210994,
+        "typeLocal": "Appartement",
+        "surfaceM2": 82,
+        "isVefa": true
+      },
+      {
+        "date": "2020-11-19",
+        "priceEur": 230000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": true
+      },
+      {
+        "date": "2020-10-27",
+        "priceEur": 240000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": true
+      },
+      {
+        "date": "2020-09-07",
+        "priceEur": 235000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": true
+      },
+      {
+        "date": "2020-07-28",
+        "priceEur": 258333.33,
+        "typeLocal": "Appartement",
+        "surfaceM2": 89,
+        "isVefa": true
+      },
+      {
+        "date": "2020-07-27",
+        "priceEur": 212350,
+        "typeLocal": "Appartement",
+        "surfaceM2": 81,
+        "isVefa": true
+      }
+    ]
+  },
+  "f74ef0baa1ef": {
+    "id": "f74ef0baa1ef",
+    "label": "61 RUE DU JARDIN DES PLANTES, Lille",
+    "lat": 50.613124,
+    "lng": 3.073739,
+    "transactions": [
+      {
+        "date": "2021-12-22",
+        "priceEur": 180000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-08",
+        "priceEur": 265000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 81,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-27",
+        "priceEur": 245000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-27",
+        "priceEur": 249500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-30",
+        "priceEur": 271250,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-08",
+        "priceEur": 247500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-18",
+        "priceEur": 243000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-13",
+        "priceEur": 214280,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": true
+      },
+      {
+        "date": "2020-08-26",
+        "priceEur": 220500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-24",
+        "priceEur": 218808.33,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "17be10e4a110": {
+    "id": "17be10e4a110",
+    "label": "23 BD D ALSACE, Lille",
+    "lat": 50.617999,
+    "lng": 3.065752,
+    "transactions": [
+      {
+        "date": "2022-09-12",
+        "priceEur": 169700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-31",
+        "priceEur": 180000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf3567c11c3b": {
+    "id": "cf3567c11c3b",
+    "label": "15 RUE LE FORT, Lille",
+    "lat": 50.612307,
+    "lng": 3.069728,
+    "transactions": [
+      {
+        "date": "2021-06-08",
+        "priceEur": 618000,
+        "typeLocal": "Maison",
+        "surfaceM2": 236,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-28",
+        "priceEur": 525000,
+        "typeLocal": "Maison",
+        "surfaceM2": 236,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d1986bfff4f": {
+    "id": "5d1986bfff4f",
+    "label": "12 RUE JEANNE GODART, Lille",
+    "lat": 50.611336,
+    "lng": 3.072111,
+    "transactions": [
+      {
+        "date": "2020-09-10",
+        "priceEur": 182500,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "297c413834fb": {
+    "id": "297c413834fb",
+    "label": "24 RUE DES HANNETONS, Lille",
+    "lat": 50.611542,
+    "lng": 3.0737,
+    "transactions": [
+      {
+        "date": "2020-10-01",
+        "priceEur": 392000,
+        "typeLocal": "Maison",
+        "surfaceM2": 181,
+        "isVefa": false
+      }
+    ]
+  },
+  "1642a7b7028f": {
+    "id": "1642a7b7028f",
+    "label": "85 RUE ABELARD, Lille",
+    "lat": 50.61263,
+    "lng": 3.072547,
+    "transactions": [
+      {
+        "date": "2020-09-21",
+        "priceEur": 165000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": true
+      },
+      {
+        "date": "2020-09-15",
+        "priceEur": 259200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "42357ebe4e70": {
+    "id": "42357ebe4e70",
+    "label": "18 RUE ARMAND CARREL, Lille",
+    "lat": 50.61684,
+    "lng": 3.073598,
+    "transactions": [
+      {
+        "date": "2022-10-04",
+        "priceEur": 3000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-19",
+        "priceEur": 207000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-11",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-04",
+        "priceEur": 158000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 158,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-01",
+        "priceEur": 158000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d93d326a208": {
+    "id": "9d93d326a208",
+    "label": "183 RUE DU JARDIN DES PLANTES, Lille",
+    "lat": 50.613734,
+    "lng": 3.072207,
+    "transactions": [
+      {
+        "date": "2020-10-12",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae11e77690a4": {
+    "id": "ae11e77690a4",
+    "label": "239B RUE DU JARDIN DES PLANTES, Lille",
+    "lat": 50.613824,
+    "lng": 3.070807,
+    "transactions": [
+      {
+        "date": "2025-05-26",
+        "priceEur": 158000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-14",
+        "priceEur": 131500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2024-12-20",
+        "priceEur": 130000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-03",
+        "priceEur": 154300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-27",
+        "priceEur": 137000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-07",
+        "priceEur": 152000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 51,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-05",
+        "priceEur": 213990,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-21",
+        "priceEur": 157350,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-01",
+        "priceEur": 118000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-22",
+        "priceEur": 150200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 51,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-20",
+        "priceEur": 164200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-29",
+        "priceEur": 143500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-01",
+        "priceEur": 117000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-30",
+        "priceEur": 87500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 26,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-05",
+        "priceEur": 171700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "789c5a1f5879": {
+    "id": "789c5a1f5879",
+    "label": "166 RUE ABELARD, Lille",
+    "lat": 50.612497,
+    "lng": 3.071091,
+    "transactions": [
+      {
+        "date": "2020-11-04",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "16305aa76096": {
+    "id": "16305aa76096",
+    "label": "132 RUE DU FBG DE DOUAI, Lille",
+    "lat": 50.612648,
+    "lng": 3.074529,
+    "transactions": [
+      {
+        "date": "2020-11-10",
+        "priceEur": 98000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "10e565df57e1": {
+    "id": "10e565df57e1",
+    "label": "15 RUE VICTOR RENARD, Lille",
+    "lat": 50.612574,
+    "lng": 3.066719,
+    "transactions": [
+      {
+        "date": "2020-11-06",
+        "priceEur": 277800,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "a42ca628f9cf": {
+    "id": "a42ca628f9cf",
+    "label": "210 RUE ABELARD, Lille",
+    "lat": 50.612331,
+    "lng": 3.071553,
+    "transactions": [
+      {
+        "date": "2020-11-06",
+        "priceEur": 187500,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "93f1ef60a625": {
+    "id": "93f1ef60a625",
+    "label": "31 RUE VICTOR RENARD, Lille",
+    "lat": 50.611984,
+    "lng": 3.066161,
+    "transactions": [
+      {
+        "date": "2020-11-12",
+        "priceEur": 311981,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "39a5243998da": {
+    "id": "39a5243998da",
+    "label": "2 RUE DE BUFFON, Lille",
+    "lat": 50.617903,
+    "lng": 3.067301,
+    "transactions": [
+      {
+        "date": "2022-08-05",
+        "priceEur": 107000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-18",
+        "priceEur": 97000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-23",
+        "priceEur": 103000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "71874889ad61": {
+    "id": "71874889ad61",
+    "label": "160 RUE ABELARD, Lille",
+    "lat": 50.612563,
+    "lng": 3.070392,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "3385c79cd365": {
+    "id": "3385c79cd365",
+    "label": "9 CITE BERTHOU 187 RUE DU JARDIN, Lille",
+    "lat": 50.61339,
+    "lng": 3.071823,
+    "transactions": [
+      {
+        "date": "2020-12-11",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "7318c8076ffb": {
+    "id": "7318c8076ffb",
+    "label": "89 BD D ALSACE, Lille",
+    "lat": 50.617925,
+    "lng": 3.067573,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-18",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 14,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-18",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 21,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9b117798e72": {
+    "id": "b9b117798e72",
+    "label": "105 RUE DU FBG DE DOUAI, Lille",
+    "lat": 50.61134,
+    "lng": 3.075687,
+    "transactions": [
+      {
+        "date": "2024-01-31",
+        "priceEur": 30000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 12,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-16",
+        "priceEur": 96000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-16",
+        "priceEur": 96000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 12,
+        "isVefa": false
+      }
+    ]
+  },
+  "5abf5ac8b83b": {
+    "id": "5abf5ac8b83b",
+    "label": "26 RUE MICHEL ANGE, Lille",
+    "lat": 50.612204,
+    "lng": 3.070153,
+    "transactions": [
+      {
+        "date": "2021-09-13",
+        "priceEur": 182000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-06",
+        "priceEur": 141000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6423f4377ac": {
+    "id": "c6423f4377ac",
+    "label": "3 COUR GYSELINCK 37 RUE HANNETONS, Lille",
+    "lat": 50.611185,
+    "lng": 3.074364,
+    "transactions": [
+      {
+        "date": "2021-02-11",
+        "priceEur": 129459,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-11",
+        "priceEur": 129459,
+        "typeLocal": "Appartement",
+        "surfaceM2": 14,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-11",
+        "priceEur": 129459,
+        "typeLocal": "Appartement",
+        "surfaceM2": 16,
+        "isVefa": false
+      }
+    ]
+  },
+  "671b8dbde773": {
+    "id": "671b8dbde773",
+    "label": "23 RUE CERVANTES, Lille",
+    "lat": 50.612817,
+    "lng": 3.074235,
+    "transactions": [
+      {
+        "date": "2021-10-25",
+        "priceEur": 120670,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-15",
+        "priceEur": 86500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": false
+      }
+    ]
+  },
+  "856bcdf7a6a3": {
+    "id": "856bcdf7a6a3",
+    "label": "97 BD D ALSACE, Lille",
+    "lat": 50.617941,
+    "lng": 3.067822,
+    "transactions": [
+      {
+        "date": "2023-06-06",
+        "priceEur": 316000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-17",
+        "priceEur": 158500,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "995de1281a99": {
+    "id": "995de1281a99",
+    "label": "30 RUE RENEE LAMBERT, Lille",
+    "lat": 50.611772,
+    "lng": 3.067294,
+    "transactions": [
+      {
+        "date": "2025-01-27",
+        "priceEur": 155200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-22",
+        "priceEur": 181237,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9698e38bb2c": {
+    "id": "a9698e38bb2c",
+    "label": "31 RUE ABELARD, Lille",
+    "lat": 50.61299,
+    "lng": 3.070022,
+    "transactions": [
+      {
+        "date": "2022-04-13",
+        "priceEur": 156000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-01",
+        "priceEur": 143000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-19",
+        "priceEur": 147000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "dfb5bdfcc972": {
+    "id": "dfb5bdfcc972",
+    "label": "10 CITE BERTHOU 187 RUE DU JARDIN, Lille",
+    "lat": 50.613348,
+    "lng": 3.071961,
+    "transactions": [
+      {
+        "date": "2021-10-19",
+        "priceEur": 119000,
+        "typeLocal": "Maison",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-19",
+        "priceEur": 72000,
+        "typeLocal": "Maison",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "9120124dab81": {
+    "id": "9120124dab81",
+    "label": "112 RUE DU JARDIN DES PLANTES, Lille",
+    "lat": 50.613956,
+    "lng": 3.07348,
+    "transactions": [
+      {
+        "date": "2021-04-07",
+        "priceEur": 258000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "97376734a9fb": {
+    "id": "97376734a9fb",
+    "label": "100 AV GASTON BERGER, Lille",
+    "lat": 50.613147,
+    "lng": 3.075532,
+    "transactions": [
+      {
+        "date": "2023-01-20",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-26",
+        "priceEur": 222000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-09",
+        "priceEur": 232190,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-08",
+        "priceEur": 266000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 89,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-30",
+        "priceEur": 145500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3699e73273b": {
+    "id": "a3699e73273b",
+    "label": "9 AV LOUISE MICHEL, Lille",
+    "lat": 50.617525,
+    "lng": 3.072766,
+    "transactions": [
+      {
+        "date": "2022-03-31",
+        "priceEur": 111500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-28",
+        "priceEur": 74500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-22",
+        "priceEur": 127000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 37,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ea27f6a7e45": {
+    "id": "6ea27f6a7e45",
+    "label": "5 BD DEFENSEURS DE LILLE, Lille",
+    "lat": 50.61667,
+    "lng": 3.073472,
+    "transactions": [
+      {
+        "date": "2025-03-28",
+        "priceEur": 131100,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-24",
+        "priceEur": 143000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-08",
+        "priceEur": 161500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-04",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-02",
+        "priceEur": 108000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-30",
+        "priceEur": 138000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-24",
+        "priceEur": 155000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-05",
+        "priceEur": 141000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 10,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-05",
+        "priceEur": 141000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 11,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-05",
+        "priceEur": 141000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 7,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-30",
+        "priceEur": 167000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "edb3420501fe": {
+    "id": "edb3420501fe",
+    "label": "13 RUE JEANNE GODART, Lille",
+    "lat": 50.611818,
+    "lng": 3.07154,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 183000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "8cc0c82ea0b1": {
+    "id": "8cc0c82ea0b1",
+    "label": "87 RUE JORDAENS, Lille",
+    "lat": 50.612114,
+    "lng": 3.065526,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 136000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-12",
+        "priceEur": 80000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "eee52053de14": {
+    "id": "eee52053de14",
+    "label": "123 BD D ALSACE, Lille",
+    "lat": 50.617997,
+    "lng": 3.068819,
+    "transactions": [
+      {
+        "date": "2024-03-21",
+        "priceEur": 87000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 29,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-27",
+        "priceEur": 126500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-31",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "8dab3df2575e": {
+    "id": "8dab3df2575e",
+    "label": "5 CITE BERTHOU 187 RUE DU JARDIN, Lille",
+    "lat": 50.613456,
+    "lng": 3.072052,
+    "transactions": [
+      {
+        "date": "2021-05-19",
+        "priceEur": 255000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-19",
+        "priceEur": 255000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-19",
+        "priceEur": 255000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 18,
+        "isVefa": false
+      }
+    ]
+  },
+  "895e724c42ad": {
+    "id": "895e724c42ad",
+    "label": "250 RUE ABELARD, Lille",
+    "lat": 50.612013,
+    "lng": 3.074333,
+    "transactions": [
+      {
+        "date": "2021-06-25",
+        "priceEur": 110000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-09",
+        "priceEur": 152100,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee99de7e6ae4": {
+    "id": "ee99de7e6ae4",
+    "label": "121 BD D ALSACE, Lille",
+    "lat": 50.618027,
+    "lng": 3.068579,
+    "transactions": [
+      {
+        "date": "2021-06-02",
+        "priceEur": 187500,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe5d00ffb5e7": {
+    "id": "fe5d00ffb5e7",
+    "label": "21 RUE PAUL ET ELISEE PAINDAVOINE, Lille",
+    "lat": 50.611772,
+    "lng": 3.067294,
+    "transactions": [
+      {
+        "date": "2021-06-04",
+        "priceEur": 189000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "0f69e97aba3b": {
+    "id": "0f69e97aba3b",
+    "label": "8 CITE BERTHOU 187 RUE DU JARDIN, Lille",
+    "lat": 50.613384,
+    "lng": 3.071992,
+    "transactions": [
+      {
+        "date": "2021-07-13",
+        "priceEur": 115000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 12,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-13",
+        "priceEur": 115000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 15,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d2572e6bac8": {
+    "id": "3d2572e6bac8",
+    "label": "29 RUE CAVENTOU, Lille",
+    "lat": 50.612177,
+    "lng": 3.068811,
+    "transactions": [
+      {
+        "date": "2021-07-20",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "080875089c60": {
+    "id": "080875089c60",
+    "label": "16 RUE MICHEL ANGE, Lille",
+    "lat": 50.612341,
+    "lng": 3.07032,
+    "transactions": [
+      {
+        "date": "2021-07-22",
+        "priceEur": 400000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-22",
+        "priceEur": 400000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-22",
+        "priceEur": 400000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-22",
+        "priceEur": 400000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 12,
+        "isVefa": false
+      }
+    ]
+  },
+  "2baa5b686ba9": {
+    "id": "2baa5b686ba9",
+    "label": "124 RUE DU FBG DE DOUAI, Lille",
+    "lat": 50.612844,
+    "lng": 3.074533,
+    "transactions": [
+      {
+        "date": "2021-08-05",
+        "priceEur": 279000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-05",
+        "priceEur": 279000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6452d56bd80": {
+    "id": "c6452d56bd80",
+    "label": "10 RUE ARMAND CARREL, Lille",
+    "lat": 50.617429,
+    "lng": 3.073531,
+    "transactions": [
+      {
+        "date": "2021-08-04",
+        "priceEur": 320000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      }
+    ]
+  },
+  "6c0d0021bb55": {
+    "id": "6c0d0021bb55",
+    "label": "1 CRS DESCAMPS 21 RUE HANNETONS, Lille",
+    "lat": 50.611498,
+    "lng": 3.074238,
+    "transactions": [
+      {
+        "date": "2021-08-09",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "f36d83ead802": {
+    "id": "f36d83ead802",
+    "label": "23 RUE CAVENTOU, Lille",
+    "lat": 50.612317,
+    "lng": 3.068927,
+    "transactions": [
+      {
+        "date": "2021-09-03",
+        "priceEur": 237300,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "7679d9ad79a6": {
+    "id": "7679d9ad79a6",
+    "label": "26 RUE CAVENTOU, Lille",
+    "lat": 50.612331,
+    "lng": 3.068367,
+    "transactions": [
+      {
+        "date": "2021-09-29",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "f19803895d90": {
+    "id": "f19803895d90",
+    "label": "4 RUE ARMAND CARREL, Lille",
+    "lat": 50.61774,
+    "lng": 3.073381,
+    "transactions": [
+      {
+        "date": "2021-11-30",
+        "priceEur": 145000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-18",
+        "priceEur": 118500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6e509ff025b": {
+    "id": "e6e509ff025b",
+    "label": "218 RUE ABELARD, Lille",
+    "lat": 50.612295,
+    "lng": 3.072225,
+    "transactions": [
+      {
+        "date": "2021-11-05",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0e06fbd0314": {
+    "id": "e0e06fbd0314",
+    "label": "42 RUE MICHEL ANGE, Lille",
+    "lat": 50.611805,
+    "lng": 3.070011,
+    "transactions": [
+      {
+        "date": "2021-12-29",
+        "priceEur": 228600,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f5d5b8f9992": {
+    "id": "3f5d5b8f9992",
+    "label": "113 BD D ALSACE, Lille",
+    "lat": 50.618019,
+    "lng": 3.068336,
+    "transactions": [
+      {
+        "date": "2022-01-19",
+        "priceEur": 159500,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ad731de6bc5": {
+    "id": "7ad731de6bc5",
+    "label": "70 RUE FENELON, Lille",
+    "lat": 50.618038,
+    "lng": 3.068878,
+    "transactions": [
+      {
+        "date": "2023-05-30",
+        "priceEur": 430000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-03",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-08",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d728a130c8e": {
+    "id": "0d728a130c8e",
+    "label": "252 RUE ABELARD, Lille",
+    "lat": 50.612018,
+    "lng": 3.074404,
+    "transactions": [
+      {
+        "date": "2022-02-28",
+        "priceEur": 350000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-28",
+        "priceEur": 350000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "16f7d6722fae": {
+    "id": "16f7d6722fae",
+    "label": "19 RUE MICHEL ANGE, Lille",
+    "lat": 50.612088,
+    "lng": 3.070823,
+    "transactions": [
+      {
+        "date": "2022-02-28",
+        "priceEur": 600000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "b33afcfd66de": {
+    "id": "b33afcfd66de",
+    "label": "20 RUE PAUL ET ELISEE PAINDAVOINE, Lille",
+    "lat": 50.611998,
+    "lng": 3.066503,
+    "transactions": [
+      {
+        "date": "2025-03-14",
+        "priceEur": 144000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-18",
+        "priceEur": 211800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 77,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-19",
+        "priceEur": 130000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-08",
+        "priceEur": 145000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-02",
+        "priceEur": 156000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-03",
+        "priceEur": 154915,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "9214af2a857b": {
+    "id": "9214af2a857b",
+    "label": "6 RUE MICHEL ANGE, Lille",
+    "lat": 50.612543,
+    "lng": 3.070544,
+    "transactions": [
+      {
+        "date": "2022-03-14",
+        "priceEur": 600000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 29,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-14",
+        "priceEur": 600000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-14",
+        "priceEur": 600000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "67ba8382bc08": {
+    "id": "67ba8382bc08",
+    "label": "158 RUE ABELARD, Lille",
+    "lat": 50.612531,
+    "lng": 3.070311,
+    "transactions": [
+      {
+        "date": "2022-01-04",
+        "priceEur": 321500,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6d290b7e56a": {
+    "id": "f6d290b7e56a",
+    "label": "7 BD DEFENSEURS DE LILLE, Lille",
+    "lat": 50.61667,
+    "lng": 3.073472,
+    "transactions": [
+      {
+        "date": "2024-03-19",
+        "priceEur": 138000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-07",
+        "priceEur": 121000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-25",
+        "priceEur": 165000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "d13aae551beb": {
+    "id": "d13aae551beb",
+    "label": "49 RUE VICTOR RENARD, Lille",
+    "lat": 50.611645,
+    "lng": 3.065797,
+    "transactions": [
+      {
+        "date": "2023-06-22",
+        "priceEur": 113000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-28",
+        "priceEur": 137164,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-21",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a3f4ab4522e": {
+    "id": "5a3f4ab4522e",
+    "label": "95 RUE DU FBG DE DOUAI, Lille",
+    "lat": 50.611691,
+    "lng": 3.075607,
+    "transactions": [
+      {
+        "date": "2022-04-20",
+        "priceEur": 440000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-20",
+        "priceEur": 440000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b299c731593": {
+    "id": "0b299c731593",
+    "label": "27T BD D ALSACE, Lille",
+    "lat": 50.617919,
+    "lng": 3.066094,
+    "transactions": [
+      {
+        "date": "2022-04-22",
+        "priceEur": 122000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "55c85d8f90a4": {
+    "id": "55c85d8f90a4",
+    "label": "22 RUE CAVENTOU, Lille",
+    "lat": 50.612416,
+    "lng": 3.068426,
+    "transactions": [
+      {
+        "date": "2022-04-19",
+        "priceEur": 197000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "05faa417e728": {
+    "id": "05faa417e728",
+    "label": "32 RUE JEANNE GODART, Lille",
+    "lat": 50.611936,
+    "lng": 3.07264,
+    "transactions": [
+      {
+        "date": "2022-04-29",
+        "priceEur": 214300,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "e813c64c2f74": {
+    "id": "e813c64c2f74",
+    "label": "68 AV GASTON BERGER, Lille",
+    "lat": 50.613147,
+    "lng": 3.075532,
+    "transactions": [
+      {
+        "date": "2024-09-30",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-17",
+        "priceEur": 256514,
+        "typeLocal": "Appartement",
+        "surfaceM2": 98,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-20",
+        "priceEur": 228000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 81,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-29",
+        "priceEur": 161200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-23",
+        "priceEur": 139000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-05",
+        "priceEur": 133800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "772e41928b96": {
+    "id": "772e41928b96",
+    "label": "16 CITE BERTHOU 187 RUE DU JARDIN, Lille",
+    "lat": 50.613243,
+    "lng": 3.07186,
+    "transactions": [
+      {
+        "date": "2022-06-09",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "dbdd17132a7b": {
+    "id": "dbdd17132a7b",
+    "label": "146 RUE ABELARD, Lille",
+    "lat": 50.612588,
+    "lng": 3.069887,
+    "transactions": [
+      {
+        "date": "2022-06-28",
+        "priceEur": 270000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-28",
+        "priceEur": 270000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb0536acc8ac": {
+    "id": "cb0536acc8ac",
+    "label": "141 RUE DU JARDIN DES PLANTES, Lille",
+    "lat": 50.613563,
+    "lng": 3.072658,
+    "transactions": [
+      {
+        "date": "2022-07-06",
+        "priceEur": 333000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "a454dc5be414": {
+    "id": "a454dc5be414",
+    "label": "12 RUE LE FORT, Lille",
+    "lat": 50.612606,
+    "lng": 3.069271,
+    "transactions": [
+      {
+        "date": "2022-07-18",
+        "priceEur": 272200,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3d9bcfc8c36": {
+    "id": "d3d9bcfc8c36",
+    "label": "34 RUE MICHEL ANGE, Lille",
+    "lat": 50.612009,
+    "lng": 3.070049,
+    "transactions": [
+      {
+        "date": "2022-07-25",
+        "priceEur": 293000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf86165ca343": {
+    "id": "bf86165ca343",
+    "label": "20 RUE LE FORT, Lille",
+    "lat": 50.612433,
+    "lng": 3.069163,
+    "transactions": [
+      {
+        "date": "2022-09-02",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "32d1260d330d": {
+    "id": "32d1260d330d",
+    "label": "161 RUE DU JARDIN DES PLANTES, Lille",
+    "lat": 50.613651,
+    "lng": 3.072494,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 460000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-30",
+        "priceEur": 460000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "26e9a61e4da1": {
+    "id": "26e9a61e4da1",
+    "label": "25 AV LOUISE MICHEL, Lille",
+    "lat": 50.617019,
+    "lng": 3.072942,
+    "transactions": [
+      {
+        "date": "2022-10-21",
+        "priceEur": 455000,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed72d28b3ad6": {
+    "id": "ed72d28b3ad6",
+    "label": "142 RUE DU FBG DE DOUAI, Lille",
+    "lat": 50.611962,
+    "lng": 3.074786,
+    "transactions": [
+      {
+        "date": "2022-11-02",
+        "priceEur": 210000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-02",
+        "priceEur": 210000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "c919d07f5ac5": {
+    "id": "c919d07f5ac5",
+    "label": "8 RUE DU CAPITAINE FERBER, Lille",
+    "lat": 50.612954,
+    "lng": 3.075595,
+    "transactions": [
+      {
+        "date": "2022-10-21",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 22,
+        "isVefa": false
+      }
+    ]
+  },
+  "b499b85fa135": {
+    "id": "b499b85fa135",
+    "label": "91 RUE DU JARDIN DES PLANTES, Lille",
+    "lat": 50.613309,
+    "lng": 3.073353,
+    "transactions": [
+      {
+        "date": "2025-02-21",
+        "priceEur": 321800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 125,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-08",
+        "priceEur": 425000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 21,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-08",
+        "priceEur": 425000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 24,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-08",
+        "priceEur": 425000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ab93528dac7": {
+    "id": "2ab93528dac7",
+    "label": "17 RUE CERVANTES, Lille",
+    "lat": 50.612959,
+    "lng": 3.074216,
+    "transactions": [
+      {
+        "date": "2022-11-22",
+        "priceEur": 55000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": false
+      }
+    ]
+  },
+  "b52c62bfe30b": {
+    "id": "b52c62bfe30b",
+    "label": "36 RUE JEANNE GODART, Lille",
+    "lat": 50.612068,
+    "lng": 3.072744,
+    "transactions": [
+      {
+        "date": "2022-12-13",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3daf32ae586": {
+    "id": "a3daf32ae586",
+    "label": "14 RUE DU CAPITAINE MICHEL, Lille",
+    "lat": 50.614353,
+    "lng": 3.073572,
+    "transactions": [
+      {
+        "date": "2023-03-01",
+        "priceEur": 87500,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "52fcc412bfb9": {
+    "id": "52fcc412bfb9",
+    "label": "135 RUE ABELARD, Lille",
+    "lat": 50.612383,
+    "lng": 3.073661,
+    "transactions": [
+      {
+        "date": "2023-02-21",
+        "priceEur": 107500,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "d70ef11b4640": {
+    "id": "d70ef11b4640",
+    "label": "216 RUE ABELARD, Lille",
+    "lat": 50.612308,
+    "lng": 3.072137,
+    "transactions": [
+      {
+        "date": "2023-03-04",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "212652460554": {
+    "id": "212652460554",
+    "label": "9 RUE VICTOR RENARD, Lille",
+    "lat": 50.612706,
+    "lng": 3.06678,
+    "transactions": [
+      {
+        "date": "2023-03-30",
+        "priceEur": 252200,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "77fce211a9eb": {
+    "id": "77fce211a9eb",
+    "label": "20 RUE DES HANNETONS, Lille",
+    "lat": 50.611638,
+    "lng": 3.07379,
+    "transactions": [
+      {
+        "date": "2023-05-15",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "d567c8af962e": {
+    "id": "d567c8af962e",
+    "label": "15 RUE LOUIS SPRIET, Lille",
+    "lat": 50.611691,
+    "lng": 3.073372,
+    "transactions": [
+      {
+        "date": "2023-06-09",
+        "priceEur": 175500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d7b97cb326a": {
+    "id": "3d7b97cb326a",
+    "label": "1 RUE JEANNE GODART, Lille",
+    "lat": 50.611427,
+    "lng": 3.0712,
+    "transactions": [
+      {
+        "date": "2023-06-09",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "817891527b52": {
+    "id": "817891527b52",
+    "label": "13 RUE LOUIS SPRIET, Lille",
+    "lat": 50.611722,
+    "lng": 3.07345,
+    "transactions": [
+      {
+        "date": "2023-07-03",
+        "priceEur": 255000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-03",
+        "priceEur": 255000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "dad17a7e6030": {
+    "id": "dad17a7e6030",
+    "label": "12T RUE ARMAND CARREL, Lille",
+    "lat": 50.617145,
+    "lng": 3.073471,
+    "transactions": [
+      {
+        "date": "2023-06-28",
+        "priceEur": 155000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "d78d8167592a": {
+    "id": "d78d8167592a",
+    "label": "12 RUE LOUIS SPRIET, Lille",
+    "lat": 50.611997,
+    "lng": 3.073111,
+    "transactions": [
+      {
+        "date": "2023-07-10",
+        "priceEur": 180000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "401f32f94802": {
+    "id": "401f32f94802",
+    "label": "16 RUE JEANNE GODART, Lille",
+    "lat": 50.611444,
+    "lng": 3.07221,
+    "transactions": [
+      {
+        "date": "2023-09-04",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3612ca2b573": {
+    "id": "a3612ca2b573",
+    "label": "16 RUE ARMAND CARREL, Lille",
+    "lat": 50.61697,
+    "lng": 3.073687,
+    "transactions": [
+      {
+        "date": "2024-11-12",
+        "priceEur": 180000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-23",
+        "priceEur": 180000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-04",
+        "priceEur": 168000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-19",
+        "priceEur": 130000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 170,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-07",
+        "priceEur": 711000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac7fcaf8ec1f": {
+    "id": "ac7fcaf8ec1f",
+    "label": "10 RUE MICHEL ANGE, Lille",
+    "lat": 50.612471,
+    "lng": 3.070512,
+    "transactions": [
+      {
+        "date": "2023-09-04",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "33baa32fa91b": {
+    "id": "33baa32fa91b",
+    "label": "1 COUR GYSELINCK 37 RUE HANNETONS, Lille",
+    "lat": 50.611214,
+    "lng": 3.074249,
+    "transactions": [
+      {
+        "date": "2023-09-14",
+        "priceEur": 128500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 16,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-14",
+        "priceEur": 128500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-14",
+        "priceEur": 128500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 14,
+        "isVefa": false
+      }
+    ]
+  },
+  "030b25c4dfa1": {
+    "id": "030b25c4dfa1",
+    "label": "91 RUE DU FBG DE DOUAI, Lille",
+    "lat": 50.611742,
+    "lng": 3.075444,
+    "transactions": [
+      {
+        "date": "2023-10-03",
+        "priceEur": 241000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-03",
+        "priceEur": 241000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-03",
+        "priceEur": 241000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2900fdf9162": {
+    "id": "e2900fdf9162",
+    "label": "140B RUE DU FBG DE DOUAI, Lille",
+    "lat": 50.61239,
+    "lng": 3.074772,
+    "transactions": [
+      {
+        "date": "2023-10-03",
+        "priceEur": 64000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "d1c930fe9e0f": {
+    "id": "d1c930fe9e0f",
+    "label": "93 BD D ALSACE, Lille",
+    "lat": 50.617944,
+    "lng": 3.067702,
+    "transactions": [
+      {
+        "date": "2023-11-22",
+        "priceEur": 109300,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "48aad3944317": {
+    "id": "48aad3944317",
+    "label": "51 BD DE BELFORT, Lille",
+    "lat": 50.617868,
+    "lng": 3.072981,
+    "transactions": [
+      {
+        "date": "2023-11-29",
+        "priceEur": 2850000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a87e52e98d8": {
+    "id": "2a87e52e98d8",
+    "label": "124 RUE ABELARD, Lille",
+    "lat": 50.612772,
+    "lng": 3.068668,
+    "transactions": [
+      {
+        "date": "2023-11-20",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "395d1bc76865": {
+    "id": "395d1bc76865",
+    "label": "11 RUE VICTOR RENARD, Lille",
+    "lat": 50.612656,
+    "lng": 3.066769,
+    "transactions": [
+      {
+        "date": "2023-12-11",
+        "priceEur": 207100,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe614c96286e": {
+    "id": "fe614c96286e",
+    "label": "43 RUE DES HANNETONS, Lille",
+    "lat": 50.611142,
+    "lng": 3.074015,
+    "transactions": [
+      {
+        "date": "2023-12-18",
+        "priceEur": 206600,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "99417a93803c": {
+    "id": "99417a93803c",
+    "label": "39 RUE DES HANNETONS, Lille",
+    "lat": 50.611208,
+    "lng": 3.074071,
+    "transactions": [
+      {
+        "date": "2024-02-13",
+        "priceEur": 167001,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9e24f1ac97e": {
+    "id": "a9e24f1ac97e",
+    "label": "230 RUE ABELARD, Lille",
+    "lat": 50.612185,
+    "lng": 3.073029,
+    "transactions": [
+      {
+        "date": "2024-02-16",
+        "priceEur": 176000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7a9bda41b7a": {
+    "id": "b7a9bda41b7a",
+    "label": "37 RUE MICHEL ANGE, Lille",
+    "lat": 50.611816,
+    "lng": 3.070536,
+    "transactions": [
+      {
+        "date": "2024-04-30",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "2fd9c1f2b616": {
+    "id": "2fd9c1f2b616",
+    "label": "220 RUE ABELARD, Lille",
+    "lat": 50.612282,
+    "lng": 3.072313,
+    "transactions": [
+      {
+        "date": "2024-04-11",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "b805d80ce7aa": {
+    "id": "b805d80ce7aa",
+    "label": "18 RUE LE FORT, Lille",
+    "lat": 50.612476,
+    "lng": 3.069213,
+    "transactions": [
+      {
+        "date": "2024-05-27",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d8a3448e696": {
+    "id": "9d8a3448e696",
+    "label": "5 AV LOUISE MICHEL, Lille",
+    "lat": 50.61763,
+    "lng": 3.072595,
+    "transactions": [
+      {
+        "date": "2024-05-23",
+        "priceEur": 900000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "ded338b11101": {
+    "id": "ded338b11101",
+    "label": "33 AV LOUISE MICHEL, Lille",
+    "lat": 50.616795,
+    "lng": 3.072954,
+    "transactions": [
+      {
+        "date": "2024-06-12",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "e9e2b31d456e": {
+    "id": "e9e2b31d456e",
+    "label": "98 RUE JORDAENS, Lille",
+    "lat": 50.611775,
+    "lng": 3.065393,
+    "transactions": [
+      {
+        "date": "2024-03-29",
+        "priceEur": 167900,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "605a6ce0a53d": {
+    "id": "605a6ce0a53d",
+    "label": "10 RUE DU CAPITAINE FERBER, Lille",
+    "lat": 50.612953,
+    "lng": 3.075655,
+    "transactions": [
+      {
+        "date": "2024-06-05",
+        "priceEur": 112500,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a2d1fb7fa11": {
+    "id": "8a2d1fb7fa11",
+    "label": "5 RUE DES HANNETONS, Lille",
+    "lat": 50.611828,
+    "lng": 3.074555,
+    "transactions": [
+      {
+        "date": "2024-07-16",
+        "priceEur": 101000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "e4476de6bb6c": {
+    "id": "e4476de6bb6c",
+    "label": "18 RUE VICTOR RENARD, Lille",
+    "lat": 50.612432,
+    "lng": 3.065585,
+    "transactions": [
+      {
+        "date": "2024-07-15",
+        "priceEur": 110190,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "80b2cc9bf822": {
+    "id": "80b2cc9bf822",
+    "label": "20 RUE VICTOR RENARD, Lille",
+    "lat": 50.612432,
+    "lng": 3.065585,
+    "transactions": [
+      {
+        "date": "2024-10-02",
+        "priceEur": 128000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "476aa8f09966": {
+    "id": "476aa8f09966",
+    "label": "8 RUE DE BUFFON, Lille",
+    "lat": 50.617952,
+    "lng": 3.06743,
+    "transactions": [
+      {
+        "date": "2024-09-16",
+        "priceEur": 3435641.5,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "1aeacd17d992": {
+    "id": "1aeacd17d992",
+    "label": "35 RUE LOUIS SPRIET, Lille",
+    "lat": 50.611227,
+    "lng": 3.072969,
+    "transactions": [
+      {
+        "date": "2025-01-27",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-25",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "84d29f17a3a1": {
+    "id": "84d29f17a3a1",
+    "label": "62B RUE ABELARD, Lille",
+    "lat": 50.612929,
+    "lng": 3.06549,
+    "transactions": [
+      {
+        "date": "2024-10-31",
+        "priceEur": 208700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "365725d0c0bd": {
+    "id": "365725d0c0bd",
+    "label": "24 RUE BERTHELOT, Lille",
+    "lat": 50.611212,
+    "lng": 3.071189,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 177505,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ac48f95e906": {
+    "id": "6ac48f95e906",
+    "label": "23 RUE MICHEL ANGE, Lille",
+    "lat": 50.611968,
+    "lng": 3.070702,
+    "transactions": [
+      {
+        "date": "2024-12-30",
+        "priceEur": 336000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "24302c6f1de1": {
+    "id": "24302c6f1de1",
+    "label": "11 AV LOUISE MICHEL, Lille",
+    "lat": 50.617467,
+    "lng": 3.072817,
+    "transactions": [
+      {
+        "date": "2025-01-27",
+        "priceEur": 382000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d66495006aa": {
+    "id": "4d66495006aa",
+    "label": "29 RUE ABELARD, Lille",
+    "lat": 50.613058,
+    "lng": 3.069744,
+    "transactions": [
+      {
+        "date": "2025-02-25",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "eb27e5bb2577": {
+    "id": "eb27e5bb2577",
+    "label": "140B RUE DU FAUBOURG DE DOUAI, Lille",
+    "lat": 50.61239,
+    "lng": 3.074772,
+    "transactions": [
+      {
+        "date": "2025-04-17",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "db1dfce9644a": {
+    "id": "db1dfce9644a",
+    "label": "91 RUE DU FAUBOURG DE DOUAI, Lille",
+    "lat": 50.611742,
+    "lng": 3.075444,
+    "transactions": [
+      {
+        "date": "2025-04-15",
+        "priceEur": 420000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 51,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-15",
+        "priceEur": 420000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-15",
+        "priceEur": 420000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc7fc79185a4": {
+    "id": "cc7fc79185a4",
+    "label": "16 RUE DE BUFFON, Lille",
+    "lat": 50.618003,
+    "lng": 3.067681,
+    "transactions": [
+      {
+        "date": "2025-05-15",
+        "priceEur": 142500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "2861808612dd": {
+    "id": "2861808612dd",
+    "label": "166 RUE DU JARDIN DES PLANTES, Lille",
+    "lat": 50.614081,
+    "lng": 3.072723,
+    "transactions": [
+      {
+        "date": "2025-06-16",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "ffdebff40c38": {
+    "id": "ffdebff40c38",
+    "label": "34 RUE DU JARDIN DES PLANTES, Lille",
+    "lat": 50.613537,
+    "lng": 3.074365,
+    "transactions": [
+      {
+        "date": "2025-06-23",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

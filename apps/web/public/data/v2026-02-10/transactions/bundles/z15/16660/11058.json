@@ -1,0 +1,129 @@
+{
+  "82298d026f2f": {
+    "id": "82298d026f2f",
+    "label": "177 RUE FRANCOIS ANICOT, Cuincy",
+    "lat": 50.381295,
+    "lng": 3.042317,
+    "transactions": [
+      {
+        "date": "2022-11-14",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-08",
+        "priceEur": 151500,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "72f34776c11c": {
+    "id": "72f34776c11c",
+    "label": "207 RUE FRANCOIS ANICOT, Cuincy",
+    "lat": 50.381099,
+    "lng": 3.041989,
+    "transactions": [
+      {
+        "date": "2020-11-13",
+        "priceEur": 190800,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "68a2db4f04f4": {
+    "id": "68a2db4f04f4",
+    "label": "287 RUE DU MARAIS, Cuincy",
+    "lat": 50.383375,
+    "lng": 3.043151,
+    "transactions": [
+      {
+        "date": "2021-01-08",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "ce3faf6828db": {
+    "id": "ce3faf6828db",
+    "label": "188 RUE JEAN MOULIN, Cuincy",
+    "lat": 50.382493,
+    "lng": 3.040272,
+    "transactions": [
+      {
+        "date": "2021-02-25",
+        "priceEur": 29601,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "e4588db3cdf1": {
+    "id": "e4588db3cdf1",
+    "label": "223 RUE FRANCOIS ANICOT, Cuincy",
+    "lat": 50.380989,
+    "lng": 3.041861,
+    "transactions": [
+      {
+        "date": "2022-07-13",
+        "priceEur": 144900,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "e3a446315b60": {
+    "id": "e3a446315b60",
+    "label": "77 RUE JEAN MOULIN, Cuincy",
+    "lat": 50.381711,
+    "lng": 3.040403,
+    "transactions": [
+      {
+        "date": "2022-11-30",
+        "priceEur": 143500,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1cbfc912bb5": {
+    "id": "f1cbfc912bb5",
+    "label": "27 RUE DE L ALOUETTE, Cuincy",
+    "lat": 50.380933,
+    "lng": 3.042589,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "a86a7a1d1b0f": {
+    "id": "a86a7a1d1b0f",
+    "label": "93 RUE FLORENT SAUDMONT, Cuincy",
+    "lat": 50.380578,
+    "lng": 3.035149,
+    "transactions": [
+      {
+        "date": "2024-06-08",
+        "priceEur": 223170,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

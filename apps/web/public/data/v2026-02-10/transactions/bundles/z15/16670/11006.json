@@ -1,0 +1,870 @@
+{
+  "a420a9e15541": {
+    "id": "a420a9e15541",
+    "label": "46B RUE JEAN FIEVET, Neuville-en-Ferrain",
+    "lat": 50.749672,
+    "lng": 3.15011,
+    "transactions": [
+      {
+        "date": "2024-05-15",
+        "priceEur": 218600,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-21",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "534288c3ca6a": {
+    "id": "534288c3ca6a",
+    "label": "22 RUE JEAN FIEVET, Neuville-en-Ferrain",
+    "lat": 50.750024,
+    "lng": 3.149927,
+    "transactions": [
+      {
+        "date": "2020-11-26",
+        "priceEur": 168000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-17",
+        "priceEur": 85000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "86353924e396": {
+    "id": "86353924e396",
+    "label": "60 RUE JEAN FIEVET, Neuville-en-Ferrain",
+    "lat": 50.749219,
+    "lng": 3.150432,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1d8c9ac07eb": {
+    "id": "e1d8c9ac07eb",
+    "label": "43 RUE JEAN FIEVET, Neuville-en-Ferrain",
+    "lat": 50.749565,
+    "lng": 3.15102,
+    "transactions": [
+      {
+        "date": "2020-12-02",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d5ad63c2585": {
+    "id": "2d5ad63c2585",
+    "label": "32 RUE JULES DEVOS, Neuville-en-Ferrain",
+    "lat": 50.750032,
+    "lng": 3.150932,
+    "transactions": [
+      {
+        "date": "2021-02-26",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "fad7383adb74": {
+    "id": "fad7383adb74",
+    "label": "5 RUE JEAN MONNET, Neuville-en-Ferrain",
+    "lat": 50.749053,
+    "lng": 3.147963,
+    "transactions": [
+      {
+        "date": "2021-02-26",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a9ce6d50dc0": {
+    "id": "6a9ce6d50dc0",
+    "label": "96 RUE DES FROMETS, Neuville-en-Ferrain",
+    "lat": 50.746239,
+    "lng": 3.150435,
+    "transactions": [
+      {
+        "date": "2021-03-13",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "38e59370fd9a": {
+    "id": "38e59370fd9a",
+    "label": "98 RUE DES FROMETS, Neuville-en-Ferrain",
+    "lat": 50.746285,
+    "lng": 3.150367,
+    "transactions": [
+      {
+        "date": "2021-03-13",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "962d355824d4": {
+    "id": "962d355824d4",
+    "label": "7 SQ DU MAL DELATTRE DE TASSIGN, Neuville-en-Ferrain",
+    "lat": 50.74588,
+    "lng": 3.152179,
+    "transactions": [
+      {
+        "date": "2021-03-09",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "03524c85e667": {
+    "id": "03524c85e667",
+    "label": "6 RUE DE STRASBOURG, Neuville-en-Ferrain",
+    "lat": 50.748608,
+    "lng": 3.15003,
+    "transactions": [
+      {
+        "date": "2021-03-01",
+        "priceEur": 228000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "a8dfcaa2cf65": {
+    "id": "a8dfcaa2cf65",
+    "label": "34 RUE DE STRASBOURG, Neuville-en-Ferrain",
+    "lat": 50.748737,
+    "lng": 3.148778,
+    "transactions": [
+      {
+        "date": "2021-04-01",
+        "priceEur": 299000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "737e08e43d28": {
+    "id": "737e08e43d28",
+    "label": "45 RUE ROBERT SCHUMAN, Neuville-en-Ferrain",
+    "lat": 50.74394,
+    "lng": 3.15243,
+    "transactions": [
+      {
+        "date": "2021-04-20",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "903c2171d11e": {
+    "id": "903c2171d11e",
+    "label": "13 RUE JULES WATTEEUW, Neuville-en-Ferrain",
+    "lat": 50.749646,
+    "lng": 3.149256,
+    "transactions": [
+      {
+        "date": "2022-09-08",
+        "priceEur": 201000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-26",
+        "priceEur": 160300,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b3f895bff7d": {
+    "id": "6b3f895bff7d",
+    "label": "70 RUE DES FROMETS, Neuville-en-Ferrain",
+    "lat": 50.747029,
+    "lng": 3.150087,
+    "transactions": [
+      {
+        "date": "2021-06-18",
+        "priceEur": 209000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0cbee902c44": {
+    "id": "b0cbee902c44",
+    "label": "58 RUE DES FROMETS, Neuville-en-Ferrain",
+    "lat": 50.746666,
+    "lng": 3.150584,
+    "transactions": [
+      {
+        "date": "2021-07-12",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "8cb5ff9de51e": {
+    "id": "8cb5ff9de51e",
+    "label": "21 RUE JEAN FIEVET, Neuville-en-Ferrain",
+    "lat": 50.75021,
+    "lng": 3.150528,
+    "transactions": [
+      {
+        "date": "2021-07-28",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "f03597152c92": {
+    "id": "f03597152c92",
+    "label": "62 RUE DES FROMETS, Neuville-en-Ferrain",
+    "lat": 50.746873,
+    "lng": 3.150558,
+    "transactions": [
+      {
+        "date": "2021-08-30",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3c1f23b1d90": {
+    "id": "b3c1f23b1d90",
+    "label": "40 RUE JEAN FIEVET, Neuville-en-Ferrain",
+    "lat": 50.749897,
+    "lng": 3.150061,
+    "transactions": [
+      {
+        "date": "2021-08-25",
+        "priceEur": 144620,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "dc69a8a1196c": {
+    "id": "dc69a8a1196c",
+    "label": "9 RUE DU DOCTEUR SCHWEITZER, Neuville-en-Ferrain",
+    "lat": 50.745968,
+    "lng": 3.151617,
+    "transactions": [
+      {
+        "date": "2021-08-30",
+        "priceEur": 253500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff0c3021db17": {
+    "id": "ff0c3021db17",
+    "label": "14 RUE EDOUARD BRANLY, Neuville-en-Ferrain",
+    "lat": 50.748846,
+    "lng": 3.152947,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "81c194f5da10": {
+    "id": "81c194f5da10",
+    "label": "38 RUE JEAN FIEVET, Neuville-en-Ferrain",
+    "lat": 50.749949,
+    "lng": 3.149996,
+    "transactions": [
+      {
+        "date": "2021-11-19",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f82acc03374": {
+    "id": "3f82acc03374",
+    "label": "13 SQ DU MAL DELATTRE DE TASSIGN, Neuville-en-Ferrain",
+    "lat": 50.746274,
+    "lng": 3.152722,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 240760,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c9c289acf9a": {
+    "id": "3c9c289acf9a",
+    "label": "35 RUE PASTEUR, Neuville-en-Ferrain",
+    "lat": 50.748397,
+    "lng": 3.152925,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 215325,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "08a31aee1494": {
+    "id": "08a31aee1494",
+    "label": "32 RUE JEAN MONNET, Neuville-en-Ferrain",
+    "lat": 50.748351,
+    "lng": 3.147164,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 278000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "24a21f17b578": {
+    "id": "24a21f17b578",
+    "label": "19 RUE DU DOCTEUR SCHWEITZER, Neuville-en-Ferrain",
+    "lat": 50.745612,
+    "lng": 3.152028,
+    "transactions": [
+      {
+        "date": "2022-02-12",
+        "priceEur": 245400,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "601422e5996a": {
+    "id": "601422e5996a",
+    "label": "112 RUE JEAN FIEVET, Neuville-en-Ferrain",
+    "lat": 50.748258,
+    "lng": 3.15155,
+    "transactions": [
+      {
+        "date": "2022-03-01",
+        "priceEur": 209000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "cedf62e6ff8a": {
+    "id": "cedf62e6ff8a",
+    "label": "23 RUE JULES DEVOS, Neuville-en-Ferrain",
+    "lat": 50.749772,
+    "lng": 3.151399,
+    "transactions": [
+      {
+        "date": "2022-03-21",
+        "priceEur": 274000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "ce12ef93a6d6": {
+    "id": "ce12ef93a6d6",
+    "label": "9004 RUE DU BAILLY, Neuville-en-Ferrain",
+    "lat": 50.747891,
+    "lng": 3.152161,
+    "transactions": [
+      {
+        "date": "2022-04-20",
+        "priceEur": 207510,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "01c128574620": {
+    "id": "01c128574620",
+    "label": "12 RUE DU BAILLY, Neuville-en-Ferrain",
+    "lat": 50.747223,
+    "lng": 3.152765,
+    "transactions": [
+      {
+        "date": "2022-05-17",
+        "priceEur": 102500,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "41b978740b44": {
+    "id": "41b978740b44",
+    "label": "3 RUE DU DOCTEUR SCHWEITZER, Neuville-en-Ferrain",
+    "lat": 50.746049,
+    "lng": 3.151446,
+    "transactions": [
+      {
+        "date": "2022-05-20",
+        "priceEur": 169450,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "90b6af17b17b": {
+    "id": "90b6af17b17b",
+    "label": "3 RUE EDOUARD BRANLY, Neuville-en-Ferrain",
+    "lat": 50.748289,
+    "lng": 3.152526,
+    "transactions": [
+      {
+        "date": "2023-10-24",
+        "priceEur": 103708.5,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-13",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b806a3913cc": {
+    "id": "9b806a3913cc",
+    "label": "8 RUE LOUISE WEISS, Neuville-en-Ferrain",
+    "lat": 50.748565,
+    "lng": 3.150235,
+    "transactions": [
+      {
+        "date": "2022-09-15",
+        "priceEur": 305000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "33ecdec07832": {
+    "id": "33ecdec07832",
+    "label": "28 RUE FERNAND LECROART, Neuville-en-Ferrain",
+    "lat": 50.749266,
+    "lng": 3.1519,
+    "transactions": [
+      {
+        "date": "2022-08-30",
+        "priceEur": 226125,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "27d31b0771cc": {
+    "id": "27d31b0771cc",
+    "label": "7 RUE DU BAILLY, Neuville-en-Ferrain",
+    "lat": 50.74797,
+    "lng": 3.152709,
+    "transactions": [
+      {
+        "date": "2022-10-14",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "49f497d15551": {
+    "id": "49f497d15551",
+    "label": "74B RUE DES FROMETS, Neuville-en-Ferrain",
+    "lat": 50.746993,
+    "lng": 3.149558,
+    "transactions": [
+      {
+        "date": "2022-10-28",
+        "priceEur": 485000,
+        "typeLocal": "Maison",
+        "surfaceM2": 177,
+        "isVefa": false
+      }
+    ]
+  },
+  "feaa60f8545c": {
+    "id": "feaa60f8545c",
+    "label": "8 RUE DU BAILLY, Neuville-en-Ferrain",
+    "lat": 50.747317,
+    "lng": 3.152633,
+    "transactions": [
+      {
+        "date": "2022-11-04",
+        "priceEur": 301450,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "05b518d3f853": {
+    "id": "05b518d3f853",
+    "label": "106 RUE JEAN FIEVET, Neuville-en-Ferrain",
+    "lat": 50.74839,
+    "lng": 3.151394,
+    "transactions": [
+      {
+        "date": "2022-11-07",
+        "priceEur": 206000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "134f033c005c": {
+    "id": "134f033c005c",
+    "label": "23 RUE DE STRASBOURG, Neuville-en-Ferrain",
+    "lat": 50.748832,
+    "lng": 3.148097,
+    "transactions": [
+      {
+        "date": "2022-12-13",
+        "priceEur": 266000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "478e730b8108": {
+    "id": "478e730b8108",
+    "label": "16 RUE EDOUARD BRANLY, Neuville-en-Ferrain",
+    "lat": 50.748829,
+    "lng": 3.152891,
+    "transactions": [
+      {
+        "date": "2022-12-09",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "2de2eefb9866": {
+    "id": "2de2eefb9866",
+    "label": "47 RUE JEAN FIEVET, Neuville-en-Ferrain",
+    "lat": 50.749286,
+    "lng": 3.151392,
+    "transactions": [
+      {
+        "date": "2023-04-28",
+        "priceEur": 324000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "1496b9b9fc2b": {
+    "id": "1496b9b9fc2b",
+    "label": "23 RUE JEAN MONNET, Neuville-en-Ferrain",
+    "lat": 50.748164,
+    "lng": 3.147553,
+    "transactions": [
+      {
+        "date": "2023-06-02",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc266594ea0d": {
+    "id": "cc266594ea0d",
+    "label": "102 RUE JEAN FIEVET, Neuville-en-Ferrain",
+    "lat": 50.748466,
+    "lng": 3.151273,
+    "transactions": [
+      {
+        "date": "2023-06-15",
+        "priceEur": 232295,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa9208f95c83": {
+    "id": "aa9208f95c83",
+    "label": "2 RUE LOUISE WEISS, Neuville-en-Ferrain",
+    "lat": 50.748672,
+    "lng": 3.150561,
+    "transactions": [
+      {
+        "date": "2023-08-21",
+        "priceEur": 291450,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "f0190558e80a": {
+    "id": "f0190558e80a",
+    "label": "22 RUE EDOUARD BRANLY, Neuville-en-Ferrain",
+    "lat": 50.748792,
+    "lng": 3.152721,
+    "transactions": [
+      {
+        "date": "2023-08-24",
+        "priceEur": 206400,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "941ab5f9e9da": {
+    "id": "941ab5f9e9da",
+    "label": "4 RUE LOUISE WEISS, Neuville-en-Ferrain",
+    "lat": 50.748643,
+    "lng": 3.150465,
+    "transactions": [
+      {
+        "date": "2023-09-01",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "f763ae060606": {
+    "id": "f763ae060606",
+    "label": "5 RUE EDOUARD BRANLY, Neuville-en-Ferrain",
+    "lat": 50.748251,
+    "lng": 3.152451,
+    "transactions": [
+      {
+        "date": "2023-09-11",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "503f1cf1fc52": {
+    "id": "503f1cf1fc52",
+    "label": "30 RUE FERNAND LECROART, Neuville-en-Ferrain",
+    "lat": 50.749244,
+    "lng": 3.151898,
+    "transactions": [
+      {
+        "date": "2023-10-02",
+        "priceEur": 226000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "77385b6ad828": {
+    "id": "77385b6ad828",
+    "label": "10 SQ DU MAL DELATTRE DE TASSIGN, Neuville-en-Ferrain",
+    "lat": 50.746067,
+    "lng": 3.152481,
+    "transactions": [
+      {
+        "date": "2023-11-23",
+        "priceEur": 263670,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b8a33194ee6": {
+    "id": "1b8a33194ee6",
+    "label": "20 RUE JEAN MONNET, Neuville-en-Ferrain",
+    "lat": 50.748729,
+    "lng": 3.147387,
+    "transactions": [
+      {
+        "date": "2024-02-02",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5238ac22620": {
+    "id": "f5238ac22620",
+    "label": "38 RUE DU DOCTEUR SCHWEITZER, Neuville-en-Ferrain",
+    "lat": 50.744219,
+    "lng": 3.152733,
+    "transactions": [
+      {
+        "date": "2024-01-31",
+        "priceEur": 204000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d2c53dce6fd": {
+    "id": "7d2c53dce6fd",
+    "label": "36 RUE DES FROMETS, Neuville-en-Ferrain",
+    "lat": 50.746924,
+    "lng": 3.151066,
+    "transactions": [
+      {
+        "date": "2024-05-14",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "71c660d2fb0f": {
+    "id": "71c660d2fb0f",
+    "label": "7 RUE OFFENBACH, Neuville-en-Ferrain",
+    "lat": 50.747846,
+    "lng": 3.150569,
+    "transactions": [
+      {
+        "date": "2024-05-21",
+        "priceEur": 320500,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "67f9531508bb": {
+    "id": "67f9531508bb",
+    "label": "14 SQ DE L EUROPE, Neuville-en-Ferrain",
+    "lat": 50.747892,
+    "lng": 3.147916,
+    "transactions": [
+      {
+        "date": "2024-06-26",
+        "priceEur": 239600,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "5cb458c90a26": {
+    "id": "5cb458c90a26",
+    "label": "3 SQ DE L EUROPE, Neuville-en-Ferrain",
+    "lat": 50.748227,
+    "lng": 3.148721,
+    "transactions": [
+      {
+        "date": "2024-09-30",
+        "priceEur": 243400,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c5167bf8e28": {
+    "id": "2c5167bf8e28",
+    "label": "4 SQ DE L EUROPE, Neuville-en-Ferrain",
+    "lat": 50.748292,
+    "lng": 3.14868,
+    "transactions": [
+      {
+        "date": "2024-11-07",
+        "priceEur": 243000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5bf4a9f74e2": {
+    "id": "f5bf4a9f74e2",
+    "label": "49 RUE JEAN FIEVET, Neuville-en-Ferrain",
+    "lat": 50.749212,
+    "lng": 3.151453,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  }
+}

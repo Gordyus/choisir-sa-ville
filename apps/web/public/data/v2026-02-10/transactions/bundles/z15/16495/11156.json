@@ -1,0 +1,69 @@
+{
+  "513b26d3bacc": {
+    "id": "513b26d3bacc",
+    "label": "1T CHE DE LA BOSSELETTE, Rosay",
+    "lat": 49.690398,
+    "lng": 1.226792,
+    "transactions": [
+      {
+        "date": "2023-03-28",
+        "priceEur": 313500,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-28",
+        "priceEur": 317400,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "f671be979c0b": {
+    "id": "f671be979c0b",
+    "label": "153 IMP DE LA CHAINE, La Crique",
+    "lat": 49.695262,
+    "lng": 1.223301,
+    "transactions": [
+      {
+        "date": "2021-09-27",
+        "priceEur": 162500,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "6f857089343c": {
+    "id": "6f857089343c",
+    "label": "5048 LES PETITS MESNILS, La Crique",
+    "lat": 49.69518,
+    "lng": 1.219895,
+    "transactions": [
+      {
+        "date": "2022-09-26",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "7be518922216": {
+    "id": "7be518922216",
+    "label": "30 IMP DE LA CHAINE, La Crique",
+    "lat": 49.694662,
+    "lng": 1.221787,
+    "transactions": [
+      {
+        "date": "2023-09-11",
+        "priceEur": 171000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "27f48ba6a743": {
+    "id": "27f48ba6a743",
+    "label": "21 ALL DU SOLEIL COUCHANT, Bondues",
+    "lat": 50.701512,
+    "lng": 3.086889,
+    "transactions": [
+      {
+        "date": "2022-01-07",
+        "priceEur": 594700,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9e9eb3ce959": {
+    "id": "a9e9eb3ce959",
+    "label": "41 RUE CESAR LORIDAN, Bondues",
+    "lat": 50.700374,
+    "lng": 3.080897,
+    "transactions": [
+      {
+        "date": "2023-12-06",
+        "priceEur": 530830,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  }
+}

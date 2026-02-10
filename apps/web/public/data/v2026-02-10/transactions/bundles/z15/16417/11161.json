@@ -1,0 +1,47 @@
+{
+  "612e940210cd": {
+    "id": "612e940210cd",
+    "label": "1333 RTE DE LA GRANDE CHAUSSEE, Bretteville-du-Grand-Caux",
+    "lat": 49.65933,
+    "lng": 0.367144,
+    "transactions": [
+      {
+        "date": "2021-12-08",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "749263dde6f0": {
+    "id": "749263dde6f0",
+    "label": "1778 RTE DE LA GRANDE CHAUSSEE, Bretteville-du-Grand-Caux",
+    "lat": 49.655274,
+    "lng": 0.368982,
+    "transactions": [
+      {
+        "date": "2021-12-14",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "fae2493f3350": {
+    "id": "fae2493f3350",
+    "label": "1408 RTE DE LA BRIQUETERIE, Bretteville-du-Grand-Caux",
+    "lat": 49.655285,
+    "lng": 0.371437,
+    "transactions": [
+      {
+        "date": "2022-11-08",
+        "priceEur": 292000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

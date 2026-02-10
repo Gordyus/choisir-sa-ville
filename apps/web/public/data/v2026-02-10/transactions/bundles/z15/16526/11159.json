@@ -1,0 +1,32 @@
+{
+  "c2244514e0fa": {
+    "id": "c2244514e0fa",
+    "label": "5231 MOULIN GLINE, Beaussault",
+    "lat": 49.674638,
+    "lng": 1.567491,
+    "transactions": [
+      {
+        "date": "2024-11-05",
+        "priceEur": 277000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "b304c8d6d98b": {
+    "id": "b304c8d6d98b",
+    "label": "303 IMP DU MOULIN DE GLINET, Beaussault",
+    "lat": 49.673976,
+    "lng": 1.569013,
+    "transactions": [
+      {
+        "date": "2024-11-05",
+        "priceEur": 277000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

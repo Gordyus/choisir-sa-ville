@@ -1,0 +1,92 @@
+{
+  "f260ff8331c9": {
+    "id": "f260ff8331c9",
+    "label": "2985 RTE DE LILLE, Bailleul",
+    "lat": 50.728368,
+    "lng": 2.767524,
+    "transactions": [
+      {
+        "date": "2021-12-13",
+        "priceEur": 355000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a34f9a6dcca": {
+    "id": "9a34f9a6dcca",
+    "label": "3057 RTE DE LILLE, Bailleul",
+    "lat": 50.72828,
+    "lng": 2.768525,
+    "transactions": [
+      {
+        "date": "2022-08-02",
+        "priceEur": 222250,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b6afadc8b2d": {
+    "id": "8b6afadc8b2d",
+    "label": "2955 RTE DE LILLE, Bailleul",
+    "lat": 50.728363,
+    "lng": 2.766751,
+    "transactions": [
+      {
+        "date": "2023-06-22",
+        "priceEur": 417910,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc166be877ac": {
+    "id": "bc166be877ac",
+    "label": "2387 RTE DE LILLE, Bailleul",
+    "lat": 50.72856,
+    "lng": 2.758564,
+    "transactions": [
+      {
+        "date": "2023-10-06",
+        "priceEur": 419415,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "ab30fd90c793": {
+    "id": "ab30fd90c793",
+    "label": "2319 RTE DE LILLE, Bailleul",
+    "lat": 50.727784,
+    "lng": 2.758123,
+    "transactions": [
+      {
+        "date": "2024-07-12",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "260f143e67b2": {
+    "id": "260f143e67b2",
+    "label": "2329 RTE DE LILLE, Bailleul",
+    "lat": 50.72787,
+    "lng": 2.758263,
+    "transactions": [
+      {
+        "date": "2024-07-25",
+        "priceEur": 182140,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

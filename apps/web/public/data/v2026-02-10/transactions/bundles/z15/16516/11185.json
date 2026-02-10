@@ -1,0 +1,32 @@
+{
+  "c2bfa6647d01": {
+    "id": "c2bfa6647d01",
+    "label": "445 RUE DU TILLEUL, Nolléval",
+    "lat": 49.485013,
+    "lng": 1.461042,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 205,
+        "isVefa": false
+      }
+    ]
+  },
+  "05235728b656": {
+    "id": "05235728b656",
+    "label": "698 RUE DU TILLEUL, Nolléval",
+    "lat": 49.487278,
+    "lng": 1.459598,
+    "transactions": [
+      {
+        "date": "2021-01-28",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  }
+}

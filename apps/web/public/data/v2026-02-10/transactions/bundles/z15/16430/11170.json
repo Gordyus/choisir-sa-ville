@@ -1,0 +1,69 @@
+{
+  "b79eb749af5d": {
+    "id": "b79eb749af5d",
+    "label": "5001 CHE DE LA PLAINE, Raffetot",
+    "lat": 49.596282,
+    "lng": 0.514721,
+    "transactions": [
+      {
+        "date": "2020-09-15",
+        "priceEur": 217000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb8ca60c5ce8": {
+    "id": "bb8ca60c5ce8",
+    "label": "5038 VILLAGE DE RAFFETOT, Raffetot",
+    "lat": 49.596177,
+    "lng": 0.508239,
+    "transactions": [
+      {
+        "date": "2021-11-09",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf3e5dbf3443": {
+    "id": "bf3e5dbf3443",
+    "label": "610 RTE DE BOLBEC, Raffetot",
+    "lat": 49.595719,
+    "lng": 0.508297,
+    "transactions": [
+      {
+        "date": "2024-01-16",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-13",
+        "priceEur": 209000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "64311ade2999": {
+    "id": "64311ade2999",
+    "label": "5013 VILLAGE DE RAFFETOT, Raffetot",
+    "lat": 49.596257,
+    "lng": 0.512483,
+    "transactions": [
+      {
+        "date": "2025-05-16",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  }
+}

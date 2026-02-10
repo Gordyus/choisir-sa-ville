@@ -1,0 +1,32 @@
+{
+  "c0c1f12f30a6": {
+    "id": "c0c1f12f30a6",
+    "label": "1222 VC MEULEN DREVE, Winnezeele",
+    "lat": 50.836685,
+    "lng": 2.566978,
+    "transactions": [
+      {
+        "date": "2021-04-14",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "739cc0abcf71": {
+    "id": "739cc0abcf71",
+    "label": "315 IMP MEULEN DREVE, Winnezeele",
+    "lat": 50.838967,
+    "lng": 2.568766,
+    "transactions": [
+      {
+        "date": "2025-03-12",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  }
+}

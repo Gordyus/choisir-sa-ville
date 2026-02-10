@@ -1,0 +1,39 @@
+{
+  "3164d57947ad": {
+    "id": "3164d57947ad",
+    "label": "3E HAMEAU D EDRUCHON, Saint-Martin-au-Bosc",
+    "lat": 49.83499,
+    "lng": 1.688977,
+    "transactions": [
+      {
+        "date": "2023-10-10",
+        "priceEur": 132000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "c07998e7cd99": {
+    "id": "c07998e7cd99",
+    "label": "10 RTE D EDRUCHON, Saint-Martin-au-Bosc",
+    "lat": 49.836943,
+    "lng": 1.689564,
+    "transactions": [
+      {
+        "date": "2025-02-27",
+        "priceEur": 27300,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-06",
+        "priceEur": 182000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  }
+}

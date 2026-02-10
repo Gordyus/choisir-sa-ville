@@ -1,0 +1,39 @@
+{
+  "3a602bd47c5e": {
+    "id": "3a602bd47c5e",
+    "label": "760 RTE DU MEULEN, Winnezeele",
+    "lat": 50.842393,
+    "lng": 2.5329,
+    "transactions": [
+      {
+        "date": "2021-09-20",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "f00c513af54c": {
+    "id": "f00c513af54c",
+    "label": "638 RTE DU MEULEN, Winnezeele",
+    "lat": 50.843457,
+    "lng": 2.53015,
+    "transactions": [
+      {
+        "date": "2024-05-03",
+        "priceEur": 178467.48,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-02",
+        "priceEur": 334000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  }
+}

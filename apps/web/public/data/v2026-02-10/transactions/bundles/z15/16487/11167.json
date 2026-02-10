@@ -1,0 +1,32 @@
+{
+  "97e80bf1d0ac": {
+    "id": "97e80bf1d0ac",
+    "label": "525 RTE DU VAL BOUVIER, Frichemesnil",
+    "lat": 49.616717,
+    "lng": 1.141527,
+    "transactions": [
+      {
+        "date": "2020-11-24",
+        "priceEur": 218500,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3d653668f03": {
+    "id": "d3d653668f03",
+    "label": "120 RTE DE CRESSIEUZEMARE, Frichemesnil",
+    "lat": 49.617679,
+    "lng": 1.14142,
+    "transactions": [
+      {
+        "date": "2024-05-07",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

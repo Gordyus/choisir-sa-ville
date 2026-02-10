@@ -1,0 +1,32 @@
+{
+  "3e8de67ae436": {
+    "id": "3e8de67ae436",
+    "label": "5121B LE VILLAGE, Campneuseville",
+    "lat": 49.862249,
+    "lng": 1.657465,
+    "transactions": [
+      {
+        "date": "2022-05-25",
+        "priceEur": 61000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "69967e442131": {
+    "id": "69967e442131",
+    "label": "39 RUE DU MOULIN, Campneuseville",
+    "lat": 49.859379,
+    "lng": 1.654268,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  }
+}

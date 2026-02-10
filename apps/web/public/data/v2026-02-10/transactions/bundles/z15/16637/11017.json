@@ -1,0 +1,84 @@
+{
+  "5543a71988f5": {
+    "id": "5543a71988f5",
+    "label": "1 RUE DE PYPE, Steenwerck",
+    "lat": 50.67249,
+    "lng": 2.78789,
+    "transactions": [
+      {
+        "date": "2021-05-07",
+        "priceEur": 133500,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "818950dd227d": {
+    "id": "818950dd227d",
+    "label": "26 RUE DE LA LYS, Steenwerck",
+    "lat": 50.672741,
+    "lng": 2.787879,
+    "transactions": [
+      {
+        "date": "2024-01-29",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-23",
+        "priceEur": 89500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "51a33e934314": {
+    "id": "51a33e934314",
+    "label": "36 RUE DE LA LYS, Steenwerck",
+    "lat": 50.669449,
+    "lng": 2.780098,
+    "transactions": [
+      {
+        "date": "2024-09-17",
+        "priceEur": 435000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "d0107e86338a": {
+    "id": "d0107e86338a",
+    "label": "25B RUE DE LA LYS, Steenwerck",
+    "lat": 50.673665,
+    "lng": 2.788232,
+    "transactions": [
+      {
+        "date": "2024-12-11",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "7bde31c5896b": {
+    "id": "7bde31c5896b",
+    "label": "4 RUE DE PYPE, Steenwerck",
+    "lat": 50.670214,
+    "lng": 2.789117,
+    "transactions": [
+      {
+        "date": "2025-01-16",
+        "priceEur": 309500,
+        "typeLocal": "Maison",
+        "surfaceM2": 204,
+        "isVefa": false
+      }
+    ]
+  }
+}

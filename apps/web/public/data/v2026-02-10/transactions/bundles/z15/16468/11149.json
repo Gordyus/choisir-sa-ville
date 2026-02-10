@@ -1,0 +1,32 @@
+{
+  "5df7431dd330": {
+    "id": "5df7431dd330",
+    "label": "7 RTE DE LA MER, Auzouville-sur-Saâne",
+    "lat": 49.745611,
+    "lng": 0.933597,
+    "transactions": [
+      {
+        "date": "2024-01-09",
+        "priceEur": 55120,
+        "typeLocal": "Maison",
+        "surfaceM2": 39,
+        "isVefa": false
+      }
+    ]
+  },
+  "aee641d21e76": {
+    "id": "aee641d21e76",
+    "label": "12 RUE ASSELINE, Auzouville-sur-Saâne",
+    "lat": 49.745062,
+    "lng": 0.931679,
+    "transactions": [
+      {
+        "date": "2025-04-11",
+        "priceEur": 209200,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  }
+}

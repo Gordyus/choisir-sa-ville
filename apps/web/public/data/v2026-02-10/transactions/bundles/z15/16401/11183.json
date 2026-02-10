@@ -1,0 +1,96 @@
+{
+  "d680b169636c": {
+    "id": "d680b169636c",
+    "label": "541 RUE DE VERDUN, Le Havre",
+    "lat": 49.502761,
+    "lng": 0.187382,
+    "transactions": [
+      {
+        "date": "2025-02-18",
+        "priceEur": 106500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-17",
+        "priceEur": 97850,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-02",
+        "priceEur": 87000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-25",
+        "priceEur": 65000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-24",
+        "priceEur": 59000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "82443345922a": {
+    "id": "82443345922a",
+    "label": "11 QUAI DES CANAQUES, Harfleur",
+    "lat": 49.503217,
+    "lng": 0.197289,
+    "transactions": [
+      {
+        "date": "2020-12-03",
+        "priceEur": 73000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "a8cb1e9ff86b": {
+    "id": "a8cb1e9ff86b",
+    "label": "543 RUE DE VERDUN, Le Havre",
+    "lat": 49.502761,
+    "lng": 0.187382,
+    "transactions": [
+      {
+        "date": "2024-03-14",
+        "priceEur": 112800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-07",
+        "priceEur": 106000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-14",
+        "priceEur": 95000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-10",
+        "priceEur": 102000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  }
+}

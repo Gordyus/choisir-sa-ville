@@ -1,0 +1,62 @@
+{
+  "9e025f1e468e": {
+    "id": "9e025f1e468e",
+    "label": "180 RTE DU PARC LANGUET, Saint-Aubin-Épinay",
+    "lat": 49.41848,
+    "lng": 1.188617,
+    "transactions": [
+      {
+        "date": "2021-06-16",
+        "priceEur": 388679,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "4476e9f8db33": {
+    "id": "4476e9f8db33",
+    "label": "144 RTE DU PARC LANGUET, Saint-Aubin-Épinay",
+    "lat": 49.418427,
+    "lng": 1.188331,
+    "transactions": [
+      {
+        "date": "2022-09-02",
+        "priceEur": 272000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "4aeac9fe5ab8": {
+    "id": "4aeac9fe5ab8",
+    "label": "3156 BRANVILLE, Saint-Aubin-Épinay",
+    "lat": 49.418546,
+    "lng": 1.187658,
+    "transactions": [
+      {
+        "date": "2022-11-18",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "3529ea183455": {
+    "id": "3529ea183455",
+    "label": "21 RTE DU PARC LANGUET, Saint-Aubin-Épinay",
+    "lat": 49.419175,
+    "lng": 1.187056,
+    "transactions": [
+      {
+        "date": "2023-06-12",
+        "priceEur": 268000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

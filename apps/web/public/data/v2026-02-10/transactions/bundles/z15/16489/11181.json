@@ -1,0 +1,107 @@
+{
+  "97633bff5d39": {
+    "id": "97633bff5d39",
+    "label": "420 RUE DES HTS CHAMPS, Quincampoix",
+    "lat": 49.512616,
+    "lng": 1.161789,
+    "transactions": [
+      {
+        "date": "2022-04-27",
+        "priceEur": 571400,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      }
+    ]
+  },
+  "14d86f2211f4": {
+    "id": "14d86f2211f4",
+    "label": "349 RUE DES HTS CHAMPS, Quincampoix",
+    "lat": 49.512018,
+    "lng": 1.161801,
+    "transactions": [
+      {
+        "date": "2023-05-16",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "528b45c38df9": {
+    "id": "528b45c38df9",
+    "label": "435 RUE DES HTS CHAMPS, Quincampoix",
+    "lat": 49.512515,
+    "lng": 1.161249,
+    "transactions": [
+      {
+        "date": "2024-05-29",
+        "priceEur": 422500,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "b2e8388a1827": {
+    "id": "b2e8388a1827",
+    "label": "163 RUE DES HAUTS CHAMPS, Isneauville",
+    "lat": 49.510965,
+    "lng": 1.161206,
+    "transactions": [
+      {
+        "date": "2024-07-15",
+        "priceEur": 531300,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b733e35c1fb": {
+    "id": "6b733e35c1fb",
+    "label": "30 IMP DES HTS CHAMPS, Quincampoix",
+    "lat": 49.512073,
+    "lng": 1.161314,
+    "transactions": [
+      {
+        "date": "2024-07-12",
+        "priceEur": 337800,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "2af1c5268dfd": {
+    "id": "2af1c5268dfd",
+    "label": "64 IMP DES HTS CHAMPS, Quincampoix",
+    "lat": 49.511821,
+    "lng": 1.161139,
+    "transactions": [
+      {
+        "date": "2024-09-26",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "0393496ad62f": {
+    "id": "0393496ad62f",
+    "label": "111 RUE DES HAUTS CHAMPS, Isneauville",
+    "lat": 49.511205,
+    "lng": 1.161471,
+    "transactions": [
+      {
+        "date": "2025-04-02",
+        "priceEur": 519500,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  }
+}

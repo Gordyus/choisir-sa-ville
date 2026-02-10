@@ -1,0 +1,32 @@
+{
+  "f5798009ac9a": {
+    "id": "f5798009ac9a",
+    "label": "3510 RTE DE SOMMERY, Saint-Saire",
+    "lat": 49.669003,
+    "lng": 1.475646,
+    "transactions": [
+      {
+        "date": "2022-02-22",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "976d12341424": {
+    "id": "976d12341424",
+    "label": "3040 RTE DE SOMMERY, Saint-Saire",
+    "lat": 49.672582,
+    "lng": 1.478063,
+    "transactions": [
+      {
+        "date": "2025-04-03",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

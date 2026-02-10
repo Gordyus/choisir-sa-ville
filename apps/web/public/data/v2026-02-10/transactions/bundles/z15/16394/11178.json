@@ -1,0 +1,47 @@
+{
+  "5ce690a17ec7": {
+    "id": "5ce690a17ec7",
+    "label": "39 CHE DU FOND DES VALLEES, Octeville-sur-Mer",
+    "lat": 49.539187,
+    "lng": 0.11392,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 475000,
+        "typeLocal": "Maison",
+        "surfaceM2": 208,
+        "isVefa": false
+      }
+    ]
+  },
+  "adcb67721df4": {
+    "id": "adcb67721df4",
+    "label": "7 ALL ALBERT FRIBOULET, Octeville-sur-Mer",
+    "lat": 49.538471,
+    "lng": 0.111969,
+    "transactions": [
+      {
+        "date": "2023-08-22",
+        "priceEur": 377000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "f67bfbaf1bd7": {
+    "id": "f67bfbaf1bd7",
+    "label": "27 CHE DU FOND DES VALLEES, Octeville-sur-Mer",
+    "lat": 49.538692,
+    "lng": 0.113707,
+    "transactions": [
+      {
+        "date": "2025-03-12",
+        "priceEur": 424000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  }
+}

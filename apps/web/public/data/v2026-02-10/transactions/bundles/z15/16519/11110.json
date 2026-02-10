@@ -1,0 +1,114 @@
+{
+  "42e7579b921c": {
+    "id": "42e7579b921c",
+    "label": "17 RUE GUTENBERG, Incheville",
+    "lat": 50.019442,
+    "lng": 1.487198,
+    "transactions": [
+      {
+        "date": "2023-11-29",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-20",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "19bfc0e7e841": {
+    "id": "19bfc0e7e841",
+    "label": "6 IMP DES FRERES LUMIERE, Incheville",
+    "lat": 50.015185,
+    "lng": 1.494134,
+    "transactions": [
+      {
+        "date": "2021-06-19",
+        "priceEur": 58000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "29cefe811cec": {
+    "id": "29cefe811cec",
+    "label": "25 RUE GUTENBERG, Incheville",
+    "lat": 50.019987,
+    "lng": 1.486471,
+    "transactions": [
+      {
+        "date": "2022-10-20",
+        "priceEur": 139100,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "986e59d739a6": {
+    "id": "986e59d739a6",
+    "label": "9 RUE GUTENBERG, Incheville",
+    "lat": 50.018961,
+    "lng": 1.487923,
+    "transactions": [
+      {
+        "date": "2023-01-27",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d38540de9b2": {
+    "id": "9d38540de9b2",
+    "label": "11 RUE GUTENBERG, Incheville",
+    "lat": 50.019089,
+    "lng": 1.487737,
+    "transactions": [
+      {
+        "date": "2024-07-16",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "33e60da8cf15": {
+    "id": "33e60da8cf15",
+    "label": "26 RUE VOLTAIRE, Incheville",
+    "lat": 50.017514,
+    "lng": 1.493961,
+    "transactions": [
+      {
+        "date": "2024-12-20",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e171dcd634c": {
+    "id": "3e171dcd634c",
+    "label": "19 RUE GUTENBERG, Incheville",
+    "lat": 50.019596,
+    "lng": 1.486994,
+    "transactions": [
+      {
+        "date": "2024-12-23",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

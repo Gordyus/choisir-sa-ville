@@ -1,0 +1,122 @@
+{
+  "33fc03e11f42": {
+    "id": "33fc03e11f42",
+    "label": "103 RTE DE DEULEMONT, Warneton",
+    "lat": 50.74756,
+    "lng": 2.951419,
+    "transactions": [
+      {
+        "date": "2020-08-06",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "8141d917257e": {
+    "id": "8141d917257e",
+    "label": "16 RTE DE DEULEMONT, Warneton",
+    "lat": 50.747155,
+    "lng": 2.950779,
+    "transactions": [
+      {
+        "date": "2021-02-02",
+        "priceEur": 227400,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "3526bbbb0da0": {
+    "id": "3526bbbb0da0",
+    "label": "5 PRAIRIES DE LA LYS, Warneton",
+    "lat": 50.747547,
+    "lng": 2.950183,
+    "transactions": [
+      {
+        "date": "2021-09-03",
+        "priceEur": 429000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "44f025b7746f": {
+    "id": "44f025b7746f",
+    "label": "20 RTE DE DEULEMONT, Warneton",
+    "lat": 50.747096,
+    "lng": 2.950547,
+    "transactions": [
+      {
+        "date": "2022-06-29",
+        "priceEur": 44046.8,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "35122ab7fc8c": {
+    "id": "35122ab7fc8c",
+    "label": "12 RTE DE QUESNOY, Warneton",
+    "lat": 50.74845,
+    "lng": 2.952066,
+    "transactions": [
+      {
+        "date": "2023-07-18",
+        "priceEur": 200410,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "af9013fac2de": {
+    "id": "af9013fac2de",
+    "label": "12 RTE DE DEULEMONT, Warneton",
+    "lat": 50.747519,
+    "lng": 2.951825,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 236000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "43b6d8341095": {
+    "id": "43b6d8341095",
+    "label": "18 RTE DE DEULEMONT, Warneton",
+    "lat": 50.747137,
+    "lng": 2.950649,
+    "transactions": [
+      {
+        "date": "2024-02-14",
+        "priceEur": 103000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "616d5cb48279": {
+    "id": "616d5cb48279",
+    "label": "8 RTE DE QUESNOY, Warneton",
+    "lat": 50.748585,
+    "lng": 2.952035,
+    "transactions": [
+      {
+        "date": "2025-03-04",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

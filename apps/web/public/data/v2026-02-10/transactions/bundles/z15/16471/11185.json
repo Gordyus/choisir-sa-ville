@@ -1,0 +1,32 @@
+{
+  "e0f97ea7d171": {
+    "id": "e0f97ea7d171",
+    "label": "527 GR LA GRANDE RUE, Hénouville",
+    "lat": 49.48261,
+    "lng": 0.962201,
+    "transactions": [
+      {
+        "date": "2021-06-16",
+        "priceEur": 244200,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7296849c75d": {
+    "id": "c7296849c75d",
+    "label": "585 GR LA GRANDE RUE, Hénouville",
+    "lat": 49.482763,
+    "lng": 0.9631,
+    "transactions": [
+      {
+        "date": "2024-03-12",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,878 @@
+{
+  "6f14639d9b1e": {
+    "id": "6f14639d9b1e",
+    "label": "18 RUE DES GAIS LOGIS, Cappelle-la-Grande",
+    "lat": 50.998995,
+    "lng": 2.355186,
+    "transactions": [
+      {
+        "date": "2020-07-06",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a2e70fdf093": {
+    "id": "6a2e70fdf093",
+    "label": "1 RUE GUYNEMER, Cappelle-la-Grande",
+    "lat": 50.995949,
+    "lng": 2.361758,
+    "transactions": [
+      {
+        "date": "2020-07-24",
+        "priceEur": 176000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ac77a4be053": {
+    "id": "9ac77a4be053",
+    "label": "11 AV DU GEN DE GAULLE, Cappelle-la-Grande",
+    "lat": 50.999375,
+    "lng": 2.357186,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c1e0d18adf7": {
+    "id": "1c1e0d18adf7",
+    "label": "3 RUE DENIS HENNEBERT, Cappelle-la-Grande",
+    "lat": 50.998515,
+    "lng": 2.353614,
+    "transactions": [
+      {
+        "date": "2020-09-15",
+        "priceEur": 181800,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4d2a676c38a": {
+    "id": "f4d2a676c38a",
+    "label": "1 RUE JUPITER, Cappelle-la-Grande",
+    "lat": 50.997107,
+    "lng": 2.358945,
+    "transactions": [
+      {
+        "date": "2021-09-24",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-23",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "3112d01c642f": {
+    "id": "3112d01c642f",
+    "label": "64 RUE DU KROEMENHOUCK, Cappelle-la-Grande",
+    "lat": 50.99953,
+    "lng": 2.355092,
+    "transactions": [
+      {
+        "date": "2021-01-08",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "0dec6884e1a3": {
+    "id": "0dec6884e1a3",
+    "label": "93 AV DU GEN DE GAULLE, Cappelle-la-Grande",
+    "lat": 50.998558,
+    "lng": 2.361666,
+    "transactions": [
+      {
+        "date": "2021-01-27",
+        "priceEur": 73000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ffd3033f478": {
+    "id": "0ffd3033f478",
+    "label": "17 RUE GUYNEMER, Cappelle-la-Grande",
+    "lat": 50.996004,
+    "lng": 2.359901,
+    "transactions": [
+      {
+        "date": "2021-06-11",
+        "priceEur": 174600,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "af72339cf2f5": {
+    "id": "af72339cf2f5",
+    "label": "4 RUE SALVADOR ALLENDE, Cappelle-la-Grande",
+    "lat": 50.99794,
+    "lng": 2.355105,
+    "transactions": [
+      {
+        "date": "2021-06-16",
+        "priceEur": 239000,
+        "typeLocal": "Maison",
+        "surfaceM2": 172,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5bf23a977de": {
+    "id": "a5bf23a977de",
+    "label": "4 RUE JUPITER, Cappelle-la-Grande",
+    "lat": 50.99705,
+    "lng": 2.358438,
+    "transactions": [
+      {
+        "date": "2021-06-25",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "78b8ba5fb36c": {
+    "id": "78b8ba5fb36c",
+    "label": "5 RUE VENUS, Cappelle-la-Grande",
+    "lat": 50.995687,
+    "lng": 2.35947,
+    "transactions": [
+      {
+        "date": "2021-07-13",
+        "priceEur": 146650,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "47e86c0ba498": {
+    "id": "47e86c0ba498",
+    "label": "1 RUE DE L ANCIEN CHATEAU, Cappelle-la-Grande",
+    "lat": 50.999122,
+    "lng": 2.355966,
+    "transactions": [
+      {
+        "date": "2021-08-03",
+        "priceEur": 197300,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "9097233607cb": {
+    "id": "9097233607cb",
+    "label": "35 RUE DE L ANCIEN CHATEAU, Cappelle-la-Grande",
+    "lat": 50.998231,
+    "lng": 2.353922,
+    "transactions": [
+      {
+        "date": "2022-05-23",
+        "priceEur": 200200,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-31",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b858f0e3125": {
+    "id": "4b858f0e3125",
+    "label": "66 RUE DU KROEMENHOUCK, Cappelle-la-Grande",
+    "lat": 50.999345,
+    "lng": 2.355852,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 92272.16,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf65e0ffb23c": {
+    "id": "bf65e0ffb23c",
+    "label": "85 RUE DU KROEMENHOUCK, Cappelle-la-Grande",
+    "lat": 50.99956,
+    "lng": 2.35637,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 228300,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "133a5b12c79c": {
+    "id": "133a5b12c79c",
+    "label": "87 RUE DU KROEMENHOUCK, Cappelle-la-Grande",
+    "lat": 50.999531,
+    "lng": 2.356448,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 228300,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b8705b3d120": {
+    "id": "4b8705b3d120",
+    "label": "33 AV DU GEN DE GAULLE, Cappelle-la-Grande",
+    "lat": 50.99915,
+    "lng": 2.35816,
+    "transactions": [
+      {
+        "date": "2021-11-26",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6d0b1ea93d7": {
+    "id": "c6d0b1ea93d7",
+    "label": "15 RUE DE L ANCIEN CHATEAU, Cappelle-la-Grande",
+    "lat": 50.998878,
+    "lng": 2.355405,
+    "transactions": [
+      {
+        "date": "2021-11-19",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ca23a284152": {
+    "id": "0ca23a284152",
+    "label": "19 RUE DE L ANCIEN CHATEAU, Cappelle-la-Grande",
+    "lat": 50.998805,
+    "lng": 2.355268,
+    "transactions": [
+      {
+        "date": "2021-12-23",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "c98a1f129e17": {
+    "id": "c98a1f129e17",
+    "label": "61 RUE PAUL FRANCKE, Cappelle-la-Grande",
+    "lat": 50.995299,
+    "lng": 2.360898,
+    "transactions": [
+      {
+        "date": "2021-12-08",
+        "priceEur": 231200,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7a060599f80": {
+    "id": "f7a060599f80",
+    "label": "42 RUE GUYNEMER, Cappelle-la-Grande",
+    "lat": 50.996173,
+    "lng": 2.356817,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 215500,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd5daa3b381b": {
+    "id": "bd5daa3b381b",
+    "label": "3 RUE MERCURE, Cappelle-la-Grande",
+    "lat": 50.996969,
+    "lng": 2.36021,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "04c30124039d": {
+    "id": "04c30124039d",
+    "label": "19 RUE DES GAIS LOGIS, Cappelle-la-Grande",
+    "lat": 50.99924,
+    "lng": 2.354822,
+    "transactions": [
+      {
+        "date": "2022-03-26",
+        "priceEur": 129050,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "6cc8941d4400": {
+    "id": "6cc8941d4400",
+    "label": "1 RUE PAUL FRANCKE, Cappelle-la-Grande",
+    "lat": 50.997358,
+    "lng": 2.36139,
+    "transactions": [
+      {
+        "date": "2022-07-15",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "6cf3c3efa382": {
+    "id": "6cf3c3efa382",
+    "label": "15 RUE DE L EGALITE, Cappelle-la-Grande",
+    "lat": 50.99771,
+    "lng": 2.362045,
+    "transactions": [
+      {
+        "date": "2022-07-20",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "c55dbdc03953": {
+    "id": "c55dbdc03953",
+    "label": "39 RUE GUYNEMER, Cappelle-la-Grande",
+    "lat": 50.995754,
+    "lng": 2.357375,
+    "transactions": [
+      {
+        "date": "2022-08-19",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "34d6e08cc9fe": {
+    "id": "34d6e08cc9fe",
+    "label": "3 RUE JUPITER, Cappelle-la-Grande",
+    "lat": 50.997003,
+    "lng": 2.358956,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "c587b2da05d0": {
+    "id": "c587b2da05d0",
+    "label": "79 RUE DU KROEMENHOUCK, Cappelle-la-Grande",
+    "lat": 50.999575,
+    "lng": 2.356263,
+    "transactions": [
+      {
+        "date": "2022-10-21",
+        "priceEur": 227000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "f231683701c7": {
+    "id": "f231683701c7",
+    "label": "13 RUE DES GAIS LOGIS, Cappelle-la-Grande",
+    "lat": 50.999339,
+    "lng": 2.355031,
+    "transactions": [
+      {
+        "date": "2022-12-01",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "04f559217c1b": {
+    "id": "04f559217c1b",
+    "label": "7 RUE SALVADOR ALLENDE, Cappelle-la-Grande",
+    "lat": 50.997551,
+    "lng": 2.354799,
+    "transactions": [
+      {
+        "date": "2022-12-01",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "9baff354d53f": {
+    "id": "9baff354d53f",
+    "label": "4 RUE DE LA FILATURE, Cappelle-la-Grande",
+    "lat": 50.999883,
+    "lng": 2.355585,
+    "transactions": [
+      {
+        "date": "2022-12-09",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "035db46f4c70": {
+    "id": "035db46f4c70",
+    "label": "39 RUE MERCURE, Cappelle-la-Grande",
+    "lat": 50.994484,
+    "lng": 2.361158,
+    "transactions": [
+      {
+        "date": "2023-02-02",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "228c12259f8a": {
+    "id": "228c12259f8a",
+    "label": "15 RUE DU COQ HARDI, Armbouts-Cappel",
+    "lat": 50.997823,
+    "lng": 2.351263,
+    "transactions": [
+      {
+        "date": "2023-03-08",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e7b568192af": {
+    "id": "6e7b568192af",
+    "label": "45 RUE GUYNEMER, Cappelle-la-Grande",
+    "lat": 50.995638,
+    "lng": 2.356875,
+    "transactions": [
+      {
+        "date": "2023-04-19",
+        "priceEur": 216334,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ef6a7267bf7": {
+    "id": "3ef6a7267bf7",
+    "label": "42 RUE PAUL FRANCKE, Cappelle-la-Grande",
+    "lat": 50.995638,
+    "lng": 2.361028,
+    "transactions": [
+      {
+        "date": "2023-07-03",
+        "priceEur": 219650,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "0dce4c64f8fe": {
+    "id": "0dce4c64f8fe",
+    "label": "11 RUE SALVADOR ALLENDE, Cappelle-la-Grande",
+    "lat": 50.997319,
+    "lng": 2.35518,
+    "transactions": [
+      {
+        "date": "2023-07-11",
+        "priceEur": 220010,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "c8b4b1b5cdb7": {
+    "id": "c8b4b1b5cdb7",
+    "label": "23 RUE GUYNEMER, Cappelle-la-Grande",
+    "lat": 50.996043,
+    "lng": 2.359204,
+    "transactions": [
+      {
+        "date": "2023-09-29",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "46812f9e8058": {
+    "id": "46812f9e8058",
+    "label": "15 RUE PABLO NERUDA, Cappelle-la-Grande",
+    "lat": 50.997951,
+    "lng": 2.356331,
+    "transactions": [
+      {
+        "date": "2023-12-19",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "f09dc19eba93": {
+    "id": "f09dc19eba93",
+    "label": "36 RUE PAUL FRANCKE, Cappelle-la-Grande",
+    "lat": 50.995637,
+    "lng": 2.361551,
+    "transactions": [
+      {
+        "date": "2023-12-14",
+        "priceEur": 215200,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f112777e9ed": {
+    "id": "7f112777e9ed",
+    "label": "6 RUE PABLO NERUDA, Cappelle-la-Grande",
+    "lat": 50.998305,
+    "lng": 2.356773,
+    "transactions": [
+      {
+        "date": "2024-01-15",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "57044d747426": {
+    "id": "57044d747426",
+    "label": "4 RUE GUYNEMER, Cappelle-la-Grande",
+    "lat": 50.99639,
+    "lng": 2.361531,
+    "transactions": [
+      {
+        "date": "2024-01-03",
+        "priceEur": 185500,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "84c33b96fa43": {
+    "id": "84c33b96fa43",
+    "label": "11 RUE URANUS, Cappelle-la-Grande",
+    "lat": 50.994707,
+    "lng": 2.35919,
+    "transactions": [
+      {
+        "date": "2024-02-27",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "290d630db263": {
+    "id": "290d630db263",
+    "label": "3 RUE DES GAIS LOGIS, Cappelle-la-Grande",
+    "lat": 50.999526,
+    "lng": 2.355441,
+    "transactions": [
+      {
+        "date": "2024-08-23",
+        "priceEur": 147000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "14220ede555d": {
+    "id": "14220ede555d",
+    "label": "5 RUE DE L ANCIEN CHATEAU, Cappelle-la-Grande",
+    "lat": 50.999055,
+    "lng": 2.355788,
+    "transactions": [
+      {
+        "date": "2024-08-16",
+        "priceEur": 140300,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5c4ea28d11e": {
+    "id": "b5c4ea28d11e",
+    "label": "8 RUE DENIS HENNEBERT, Cappelle-la-Grande",
+    "lat": 50.998786,
+    "lng": 2.354144,
+    "transactions": [
+      {
+        "date": "2024-08-28",
+        "priceEur": 196500,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "7597fb5836e3": {
+    "id": "7597fb5836e3",
+    "label": "4 RUE DE LA FONDERIE, Cappelle-la-Grande",
+    "lat": 50.998663,
+    "lng": 2.354679,
+    "transactions": [
+      {
+        "date": "2024-08-13",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "98756125b140": {
+    "id": "98756125b140",
+    "label": "62 RUE MERCURE, Cappelle-la-Grande",
+    "lat": 50.994137,
+    "lng": 2.361152,
+    "transactions": [
+      {
+        "date": "2024-08-23",
+        "priceEur": 164300,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "38d8f1754aa7": {
+    "id": "38d8f1754aa7",
+    "label": "52 RUE DU PAPE VELD, Cappelle-la-Grande",
+    "lat": 50.997026,
+    "lng": 2.355008,
+    "transactions": [
+      {
+        "date": "2024-09-18",
+        "priceEur": 275500,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "25f37f005f7b": {
+    "id": "25f37f005f7b",
+    "label": "10 RUE VENUS, Cappelle-la-Grande",
+    "lat": 50.995651,
+    "lng": 2.358958,
+    "transactions": [
+      {
+        "date": "2024-09-10",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "71a2c2c3251d": {
+    "id": "71a2c2c3251d",
+    "label": "23 RUE MERCURE, Cappelle-la-Grande",
+    "lat": 50.995011,
+    "lng": 2.360816,
+    "transactions": [
+      {
+        "date": "2024-10-31",
+        "priceEur": 206400,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "eed40f585676": {
+    "id": "eed40f585676",
+    "label": "13 RUE DE L ANCIEN CHATEAU, Cappelle-la-Grande",
+    "lat": 50.998909,
+    "lng": 2.355493,
+    "transactions": [
+      {
+        "date": "2024-11-09",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "bdcb707e224c": {
+    "id": "bdcb707e224c",
+    "label": "12 RUE VENUS, Cappelle-la-Grande",
+    "lat": 50.995568,
+    "lng": 2.358999,
+    "transactions": [
+      {
+        "date": "2024-12-12",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "0911d38b1b52": {
+    "id": "0911d38b1b52",
+    "label": "26 RUE GUYNEMER, Cappelle-la-Grande",
+    "lat": 50.996271,
+    "lng": 2.358219,
+    "transactions": [
+      {
+        "date": "2024-12-04",
+        "priceEur": 263500,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "115eb978aa07": {
+    "id": "115eb978aa07",
+    "label": "1 RUE SALVADOR ALLENDE, Cappelle-la-Grande",
+    "lat": 50.997831,
+    "lng": 2.354402,
+    "transactions": [
+      {
+        "date": "2024-12-30",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "1dde02b954e0": {
+    "id": "1dde02b954e0",
+    "label": "7 RUE PAUL FRANCKE, Cappelle-la-Grande",
+    "lat": 50.997387,
+    "lng": 2.361887,
+    "transactions": [
+      {
+        "date": "2025-02-26",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "8ee85a5d0433": {
+    "id": "8ee85a5d0433",
+    "label": "55 RUE PAUL FRANCKE, Cappelle-la-Grande",
+    "lat": 50.995212,
+    "lng": 2.361376,
+    "transactions": [
+      {
+        "date": "2025-02-28",
+        "priceEur": 186850,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f9e4e452d5d": {
+    "id": "9f9e4e452d5d",
+    "label": "54T RUE DU PAPE VELD, Cappelle-la-Grande",
+    "lat": 50.996804,
+    "lng": 2.355904,
+    "transactions": [
+      {
+        "date": "2025-03-04",
+        "priceEur": 1350000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 27,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-04",
+        "priceEur": 1350000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "18f5dcde48d0": {
+    "id": "18f5dcde48d0",
+    "label": "14 RTE DE CANY BARVILLE, Gerponville",
+    "lat": 49.750573,
+    "lng": 0.577174,
+    "transactions": [
+      {
+        "date": "2021-09-02",
+        "priceEur": 235400,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "df98f5404442": {
+    "id": "df98f5404442",
+    "label": "5 HAMEAU LE VAL, Gerponville",
+    "lat": 49.750576,
+    "lng": 0.573854,
+    "transactions": [
+      {
+        "date": "2023-04-11",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4269cb4bcf9": {
+    "id": "f4269cb4bcf9",
+    "label": "9 HAMEAU PIMONT, Gerponville",
+    "lat": 49.747863,
+    "lng": 0.573003,
+    "transactions": [
+      {
+        "date": "2024-07-01",
+        "priceEur": 497500,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a2f1f7539a5": {
+    "id": "8a2f1f7539a5",
+    "label": "12 RTE DE CANY BARVILLE, Gerponville",
+    "lat": 49.750833,
+    "lng": 0.576308,
+    "transactions": [
+      {
+        "date": "2024-10-22",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  }
+}

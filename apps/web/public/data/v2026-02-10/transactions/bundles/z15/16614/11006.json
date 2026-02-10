@@ -1,0 +1,24 @@
+{
+  "5dd5cce3375c": {
+    "id": "5dd5cce3375c",
+    "label": "122 CHE DE LA BECQUE, Hondeghem",
+    "lat": 50.746286,
+    "lng": 2.527382,
+    "transactions": [
+      {
+        "date": "2023-03-01",
+        "priceEur": 467300,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-04",
+        "priceEur": 420000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

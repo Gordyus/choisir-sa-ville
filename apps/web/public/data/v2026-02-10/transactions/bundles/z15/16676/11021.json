@@ -1,0 +1,107 @@
+{
+  "d40a8dd59c3e": {
+    "id": "d40a8dd59c3e",
+    "label": "5021 RUE DES TROIS FRERES LEFEBVRE, Sailly-lez-Lannoy",
+    "lat": 50.643725,
+    "lng": 3.214616,
+    "transactions": [
+      {
+        "date": "2020-08-26",
+        "priceEur": 424000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "55536e80a606": {
+    "id": "55536e80a606",
+    "label": "20 RUE DU MESNIL, Sailly-lez-Lannoy",
+    "lat": 50.640783,
+    "lng": 3.208453,
+    "transactions": [
+      {
+        "date": "2021-07-19",
+        "priceEur": 1145365,
+        "typeLocal": "Maison",
+        "surfaceM2": 225,
+        "isVefa": false
+      }
+    ]
+  },
+  "adb856452e35": {
+    "id": "adb856452e35",
+    "label": "14 RUE DES TROIS FRERES LEFEBVRE, Sailly-lez-Lannoy",
+    "lat": 50.645529,
+    "lng": 3.218548,
+    "transactions": [
+      {
+        "date": "2022-01-05",
+        "priceEur": 775000,
+        "typeLocal": "Maison",
+        "surfaceM2": 185,
+        "isVefa": false
+      }
+    ]
+  },
+  "f38ff87a554d": {
+    "id": "f38ff87a554d",
+    "label": "7 MESNIL, Sailly-lez-Lannoy",
+    "lat": 50.64202,
+    "lng": 3.218225,
+    "transactions": [
+      {
+        "date": "2023-02-14",
+        "priceEur": 590000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "bef89711d253": {
+    "id": "bef89711d253",
+    "label": "5022 MESNIL, Sailly-lez-Lannoy",
+    "lat": 50.640745,
+    "lng": 3.209301,
+    "transactions": [
+      {
+        "date": "2023-10-18",
+        "priceEur": 410000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "52bc91bd139e": {
+    "id": "52bc91bd139e",
+    "label": "3 ALL DES TILLEULS, Sailly-lez-Lannoy",
+    "lat": 50.644527,
+    "lng": 3.216161,
+    "transactions": [
+      {
+        "date": "2024-07-30",
+        "priceEur": 443000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "8ca7db899bef": {
+    "id": "8ca7db899bef",
+    "label": "19 RUE DU MESNIL, Sailly-lez-Lannoy",
+    "lat": 50.64116,
+    "lng": 3.210636,
+    "transactions": [
+      {
+        "date": "2025-01-08",
+        "priceEur": 485000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

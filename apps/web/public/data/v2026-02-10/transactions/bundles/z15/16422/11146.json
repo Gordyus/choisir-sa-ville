@@ -1,0 +1,166 @@
+{
+  "09d8e7b6bc63": {
+    "id": "09d8e7b6bc63",
+    "label": "230 RUE DE BONDEVILLE, Senneville-sur-Fécamp",
+    "lat": 49.76665,
+    "lng": 0.425994,
+    "transactions": [
+      {
+        "date": "2021-02-15",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "cfe08cc2a271": {
+    "id": "cfe08cc2a271",
+    "label": "95 RUE DU TORP, Senneville-sur-Fécamp",
+    "lat": 49.765358,
+    "lng": 0.424411,
+    "transactions": [
+      {
+        "date": "2021-07-09",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "35562fd8764d": {
+    "id": "35562fd8764d",
+    "label": "77 RTE DE COLLEVILLE, Senneville-sur-Fécamp",
+    "lat": 49.765108,
+    "lng": 0.423392,
+    "transactions": [
+      {
+        "date": "2022-12-19",
+        "priceEur": 426000,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-29",
+        "priceEur": 328000,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "7240b98bacf0": {
+    "id": "7240b98bacf0",
+    "label": "94 RUE DU TORP, Senneville-sur-Fécamp",
+    "lat": 49.765341,
+    "lng": 0.423963,
+    "transactions": [
+      {
+        "date": "2021-09-15",
+        "priceEur": 214000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "e32e92eb256e": {
+    "id": "e32e92eb256e",
+    "label": "9001 LES WATTS, Fécamp",
+    "lat": 49.760131,
+    "lng": 0.422144,
+    "transactions": [
+      {
+        "date": "2022-08-01",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "1bc788d456e9": {
+    "id": "1bc788d456e9",
+    "label": "95 RUE DE BONDEVILLE, Senneville-sur-Fécamp",
+    "lat": 49.766502,
+    "lng": 0.423374,
+    "transactions": [
+      {
+        "date": "2023-08-10",
+        "priceEur": 219900,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "44b59fcb216c": {
+    "id": "44b59fcb216c",
+    "label": "63 RUE DES PLANTIS, Senneville-sur-Fécamp",
+    "lat": 49.764878,
+    "lng": 0.421415,
+    "transactions": [
+      {
+        "date": "2024-09-12",
+        "priceEur": 238000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad59d3a24fc6": {
+    "id": "ad59d3a24fc6",
+    "label": "185 RUE DE BONDEVILLE, Senneville-sur-Fécamp",
+    "lat": 49.767023,
+    "lng": 0.424714,
+    "transactions": [
+      {
+        "date": "2024-10-21",
+        "priceEur": 236000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-21",
+        "priceEur": 236000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a5129680b2b": {
+    "id": "1a5129680b2b",
+    "label": "56 RUE DU TORP, Senneville-sur-Fécamp",
+    "lat": 49.765568,
+    "lng": 0.423242,
+    "transactions": [
+      {
+        "date": "2024-11-28",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "9dee585d6894": {
+    "id": "9dee585d6894",
+    "label": "231 RUE DU MARQUAIS, Senneville-sur-Fécamp",
+    "lat": 49.765834,
+    "lng": 0.42249,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

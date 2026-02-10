@@ -1,0 +1,32 @@
+{
+  "7fcfe7197089": {
+    "id": "7fcfe7197089",
+    "label": "80 IMP DU PONT DES PLANCHES, Winnezeele",
+    "lat": 50.858341,
+    "lng": 2.54824,
+    "transactions": [
+      {
+        "date": "2023-11-24",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "767a6f44d6d6": {
+    "id": "767a6f44d6d6",
+    "label": "250 CHE DU BRIEL, Winnezeele",
+    "lat": 50.857345,
+    "lng": 2.543738,
+    "transactions": [
+      {
+        "date": "2024-04-30",
+        "priceEur": 237370,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  }
+}

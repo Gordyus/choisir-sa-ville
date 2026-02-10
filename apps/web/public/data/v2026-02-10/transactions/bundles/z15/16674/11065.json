@@ -1,0 +1,99 @@
+{
+  "4eb22f23ffac": {
+    "id": "4eb22f23ffac",
+    "label": "5002 RUE DE BEAUVAIS, Masny",
+    "lat": 50.337979,
+    "lng": 3.187012,
+    "transactions": [
+      {
+        "date": "2020-07-27",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "e36e776d4a00": {
+    "id": "e36e776d4a00",
+    "label": "36 RUE DE BEAUVAIS, Masny",
+    "lat": 50.335541,
+    "lng": 3.187477,
+    "transactions": [
+      {
+        "date": "2021-11-10",
+        "priceEur": 69264,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "827e24e0b45e": {
+    "id": "827e24e0b45e",
+    "label": "19A RUE DE CREIL, Masny",
+    "lat": 50.333498,
+    "lng": 3.189217,
+    "transactions": [
+      {
+        "date": "2023-02-27",
+        "priceEur": 152400,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "ba0ecf8fa417": {
+    "id": "ba0ecf8fa417",
+    "label": "48 RUE DE BEAUVAIS, Masny",
+    "lat": 50.338142,
+    "lng": 3.187792,
+    "transactions": [
+      {
+        "date": "2024-02-02",
+        "priceEur": 41000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "e70aa5ec9586": {
+    "id": "e70aa5ec9586",
+    "label": "68 AV DU HUIT MAI 1945, Masny",
+    "lat": 50.338374,
+    "lng": 3.191139,
+    "transactions": [
+      {
+        "date": "2024-10-11",
+        "priceEur": 80000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-11",
+        "priceEur": 80000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "650cdc6f8936": {
+    "id": "650cdc6f8936",
+    "label": "9 RUE DE BRESLES, Masny",
+    "lat": 50.333459,
+    "lng": 3.19159,
+    "transactions": [
+      {
+        "date": "2024-11-14",
+        "priceEur": 55575,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  }
+}

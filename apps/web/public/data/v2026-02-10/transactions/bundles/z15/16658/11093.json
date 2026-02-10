@@ -1,0 +1,47 @@
+{
+  "a6da63a37437": {
+    "id": "a6da63a37437",
+    "label": "10 HAM DE LOUVERVAL, Doignies",
+    "lat": 50.139391,
+    "lng": 3.013463,
+    "transactions": [
+      {
+        "date": "2020-12-04",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "32ecb0632850": {
+    "id": "32ecb0632850",
+    "label": "3 HAM DE LOUVERVAL, Doignies",
+    "lat": 50.138691,
+    "lng": 3.013084,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "563c5425130d": {
+    "id": "563c5425130d",
+    "label": "8V HAM DE LOUVERVAL, Doignies",
+    "lat": 50.139203,
+    "lng": 3.013559,
+    "transactions": [
+      {
+        "date": "2024-02-19",
+        "priceEur": 109000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  }
+}

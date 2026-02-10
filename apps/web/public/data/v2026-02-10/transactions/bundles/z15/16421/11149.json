@@ -1,0 +1,32 @@
+{
+  "30a5249740d6": {
+    "id": "30a5249740d6",
+    "label": "2B RUE DE ROUEN, Toussaint",
+    "lat": 49.740277,
+    "lng": 0.415935,
+    "transactions": [
+      {
+        "date": "2024-06-21",
+        "priceEur": 410000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "7fd098cf1a3f": {
+    "id": "7fd098cf1a3f",
+    "label": "6 IMP DES CHENES, Toussaint",
+    "lat": 49.738872,
+    "lng": 0.415535,
+    "transactions": [
+      {
+        "date": "2025-03-07",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  }
+}

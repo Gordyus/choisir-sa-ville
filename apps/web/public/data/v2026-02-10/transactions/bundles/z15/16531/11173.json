@@ -1,0 +1,32 @@
+{
+  "679ef852316d": {
+    "id": "679ef852316d",
+    "label": "5114 LA RUE D AUVERGNE, Saumont-la-Poterie",
+    "lat": 49.571787,
+    "lng": 1.61941,
+    "transactions": [
+      {
+        "date": "2020-09-22",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 189,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a48105116a6": {
+    "id": "3a48105116a6",
+    "label": "5113 LA RUE D AUVERGNE, Saumont-la-Poterie",
+    "lat": 49.572237,
+    "lng": 1.619701,
+    "transactions": [
+      {
+        "date": "2023-03-01",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  }
+}

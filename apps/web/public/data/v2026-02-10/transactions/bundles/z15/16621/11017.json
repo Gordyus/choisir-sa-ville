@@ -1,0 +1,32 @@
+{
+  "cc0de13eab9c": {
+    "id": "cc0de13eab9c",
+    "label": "830 RUE DU CAPPELBOOM, Vieux-Berquin",
+    "lat": 50.671918,
+    "lng": 2.608262,
+    "transactions": [
+      {
+        "date": "2022-01-04",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "ba4cd5918a8d": {
+    "id": "ba4cd5918a8d",
+    "label": "93 RUE DE CAPPELBOOM, Merville",
+    "lat": 50.671336,
+    "lng": 2.607623,
+    "transactions": [
+      {
+        "date": "2024-10-04",
+        "priceEur": 255500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

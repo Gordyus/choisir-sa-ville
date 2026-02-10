@@ -1,0 +1,39 @@
+{
+  "3defc320fe37": {
+    "id": "3defc320fe37",
+    "label": "5037 LE VILLAGE, Vatierville",
+    "lat": 49.779074,
+    "lng": 1.495275,
+    "transactions": [
+      {
+        "date": "2020-11-02",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-02",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc63d6cbe37f": {
+    "id": "bc63d6cbe37f",
+    "label": "15 RUE DE L'EGLISE, Vatierville",
+    "lat": 49.776665,
+    "lng": 1.500852,
+    "transactions": [
+      {
+        "date": "2024-01-05",
+        "priceEur": 172200,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

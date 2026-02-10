@@ -1,0 +1,99 @@
+{
+  "85f4d9dc7f7e": {
+    "id": "85f4d9dc7f7e",
+    "label": "13 RUE DE L ANCIEN CHATEAU, Saint-Laurent-en-Caux",
+    "lat": 49.752933,
+    "lng": 0.879566,
+    "transactions": [
+      {
+        "date": "2021-08-27",
+        "priceEur": 53000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1ae5a176f2f": {
+    "id": "a1ae5a176f2f",
+    "label": "9 RUE DE L ANCIEN CHATEAU, Saint-Laurent-en-Caux",
+    "lat": 49.753068,
+    "lng": 0.880113,
+    "transactions": [
+      {
+        "date": "2021-01-08",
+        "priceEur": 77000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "e223485c91a0": {
+    "id": "e223485c91a0",
+    "label": "29 RUE DE L ANCIEN CHATEAU, Saint-Laurent-en-Caux",
+    "lat": 49.753275,
+    "lng": 0.880745,
+    "transactions": [
+      {
+        "date": "2022-05-20",
+        "priceEur": 143000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "9098e93c3db6": {
+    "id": "9098e93c3db6",
+    "label": "28 RUE DE L ANCIEN CHATEAU, Saint-Laurent-en-Caux",
+    "lat": 49.753316,
+    "lng": 0.880331,
+    "transactions": [
+      {
+        "date": "2024-10-04",
+        "priceEur": 87000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-10",
+        "priceEur": 87000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "47131d8f8183": {
+    "id": "47131d8f8183",
+    "label": "6 RUE DE L ANCIEN CHATEAU, Saint-Laurent-en-Caux",
+    "lat": 49.752886,
+    "lng": 0.880227,
+    "transactions": [
+      {
+        "date": "2023-12-07",
+        "priceEur": 101000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "b51f87b9bbcc": {
+    "id": "b51f87b9bbcc",
+    "label": "2 RUE DE L ANCIEN CHATEAU, Saint-Laurent-en-Caux",
+    "lat": 49.753093,
+    "lng": 0.880738,
+    "transactions": [
+      {
+        "date": "2025-04-08",
+        "priceEur": 147000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

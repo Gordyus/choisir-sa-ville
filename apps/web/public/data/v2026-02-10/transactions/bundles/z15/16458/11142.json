@@ -1,0 +1,46 @@
+{
+  "d920289f6960": {
+    "id": "d920289f6960",
+    "label": "2 RUE DE LA HETRAIE, Bourville",
+    "lat": 49.795129,
+    "lng": 0.819454,
+    "transactions": [
+      {
+        "date": "2023-05-11",
+        "priceEur": 212600,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-20",
+        "priceEur": 190450,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-14",
+        "priceEur": 179470,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "a8450d4a50e1": {
+    "id": "a8450d4a50e1",
+    "label": "3 RUE DU PERTHAN, Bourville",
+    "lat": 49.79435,
+    "lng": 0.817743,
+    "transactions": [
+      {
+        "date": "2023-11-24",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  }
+}

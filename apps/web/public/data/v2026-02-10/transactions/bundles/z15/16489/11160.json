@@ -1,0 +1,107 @@
+{
+  "c8a7ee44a733": {
+    "id": "c8a7ee44a733",
+    "label": "5000 RUE DU PUITS, Bracquetuit",
+    "lat": 49.663549,
+    "lng": 1.159028,
+    "transactions": [
+      {
+        "date": "2020-08-12",
+        "priceEur": 254700,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "273d56e15672": {
+    "id": "273d56e15672",
+    "label": "92 RUE DU LONDEL, Bracquetuit",
+    "lat": 49.663015,
+    "lng": 1.159487,
+    "transactions": [
+      {
+        "date": "2020-10-29",
+        "priceEur": 237800,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "b58ccf037827": {
+    "id": "b58ccf037827",
+    "label": "418 RUE DU PUITS, Bracquetuit",
+    "lat": 49.665199,
+    "lng": 1.16172,
+    "transactions": [
+      {
+        "date": "2021-02-26",
+        "priceEur": 153500,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "c14b411d6bdf": {
+    "id": "c14b411d6bdf",
+    "label": "82 RUE DE LA FOLIE, Bracquetuit",
+    "lat": 49.663528,
+    "lng": 1.156829,
+    "transactions": [
+      {
+        "date": "2021-04-01",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d87e580fa88": {
+    "id": "7d87e580fa88",
+    "label": "304 RUE DE LA FOLIE, Bracquetuit",
+    "lat": 49.661502,
+    "lng": 1.155554,
+    "transactions": [
+      {
+        "date": "2024-05-30",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c5899c1dc32": {
+    "id": "3c5899c1dc32",
+    "label": "61 RUE DE LA FOLIE, Bracquetuit",
+    "lat": 49.662916,
+    "lng": 1.15854,
+    "transactions": [
+      {
+        "date": "2025-01-31",
+        "priceEur": 220700,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e7e0fb354fc": {
+    "id": "4e7e0fb354fc",
+    "label": "278B RUE DE LA FOLIE, Bracquetuit",
+    "lat": 49.660987,
+    "lng": 1.157176,
+    "transactions": [
+      {
+        "date": "2025-04-11",
+        "priceEur": 318700,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  }
+}

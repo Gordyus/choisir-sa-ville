@@ -1,0 +1,84 @@
+{
+  "7edf3feb40d2": {
+    "id": "7edf3feb40d2",
+    "label": "6 RUE DU PINDO, Ennetières-en-Weppes",
+    "lat": 50.636582,
+    "lng": 2.930536,
+    "transactions": [
+      {
+        "date": "2021-06-07",
+        "priceEur": 329900,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "d0e3fbd26782": {
+    "id": "d0e3fbd26782",
+    "label": "12 RUE DE LA VALLEE, Ennetières-en-Weppes",
+    "lat": 50.637468,
+    "lng": 2.923721,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 468846,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "986c330fdf89": {
+    "id": "986c330fdf89",
+    "label": "6 RUE DE LA VALLEE, Ennetières-en-Weppes",
+    "lat": 50.635897,
+    "lng": 2.927331,
+    "transactions": [
+      {
+        "date": "2024-09-17",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-27",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "607e3f65645c": {
+    "id": "607e3f65645c",
+    "label": "7 RUE DU PINDO, Ennetières-en-Weppes",
+    "lat": 50.63722,
+    "lng": 2.930076,
+    "transactions": [
+      {
+        "date": "2024-10-28",
+        "priceEur": 411000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "556a7eb806b5": {
+    "id": "556a7eb806b5",
+    "label": "7 RUE DE LA VALLEE, Ennetières-en-Weppes",
+    "lat": 50.635295,
+    "lng": 2.927281,
+    "transactions": [
+      {
+        "date": "2024-10-30",
+        "priceEur": 346400,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  }
+}

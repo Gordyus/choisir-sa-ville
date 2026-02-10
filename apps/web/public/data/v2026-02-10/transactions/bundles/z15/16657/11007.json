@@ -1,0 +1,32 @@
+{
+  "35d31848f51c": {
+    "id": "35d31848f51c",
+    "label": "32 RUE DES FRERES BULKAEN, Comines",
+    "lat": 50.740301,
+    "lng": 3.009405,
+    "transactions": [
+      {
+        "date": "2023-01-17",
+        "priceEur": 185700,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "97e874a2f4df": {
+    "id": "97e874a2f4df",
+    "label": "401 CHE DU PETIT ENFER, Comines",
+    "lat": 50.743131,
+    "lng": 2.999839,
+    "transactions": [
+      {
+        "date": "2023-11-30",
+        "priceEur": 520000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  }
+}

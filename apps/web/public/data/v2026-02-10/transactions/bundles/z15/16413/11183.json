@@ -1,0 +1,92 @@
+{
+  "5d13e548b9be": {
+    "id": "5d13e548b9be",
+    "label": "5105 RTE DE LA PLAINE, Sandouville",
+    "lat": 49.499218,
+    "lng": 0.318861,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "9660a94f8a27": {
+    "id": "9660a94f8a27",
+    "label": "5002 RTE DU CAROUGE, Sandouville",
+    "lat": 49.502801,
+    "lng": 0.323872,
+    "transactions": [
+      {
+        "date": "2022-07-01",
+        "priceEur": 565000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ca7ca9a9e95": {
+    "id": "9ca7ca9a9e95",
+    "label": "5259 CHE DES GRANDS PRES, Sandouville",
+    "lat": 49.499647,
+    "lng": 0.319249,
+    "transactions": [
+      {
+        "date": "2022-09-05",
+        "priceEur": 278000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "59f83ef33670": {
+    "id": "59f83ef33670",
+    "label": "10 CHE DE LA FERME, Sandouville",
+    "lat": 49.498668,
+    "lng": 0.319336,
+    "transactions": [
+      {
+        "date": "2024-02-27",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "f902358ba16c": {
+    "id": "f902358ba16c",
+    "label": "43 CHE DES PRAIRIES, Sandouville",
+    "lat": 49.496734,
+    "lng": 0.319708,
+    "transactions": [
+      {
+        "date": "2024-12-23",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "6dd9214044b1": {
+    "id": "6dd9214044b1",
+    "label": "250 RTE DE LA PLAINE, Sandouville",
+    "lat": 49.497888,
+    "lng": 0.318747,
+    "transactions": [
+      {
+        "date": "2025-02-24",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  }
+}

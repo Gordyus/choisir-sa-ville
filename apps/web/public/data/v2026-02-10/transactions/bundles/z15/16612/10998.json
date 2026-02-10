@@ -1,0 +1,54 @@
+{
+  "24a37718f4d8": {
+    "id": "24a37718f4d8",
+    "label": "2603 CHE DU MONT DES RECOLLETS, Cassel",
+    "lat": 50.801768,
+    "lng": 2.511073,
+    "transactions": [
+      {
+        "date": "2023-01-20",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-16",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f54b71e0c7e": {
+    "id": "5f54b71e0c7e",
+    "label": "2693 RTE DE STEENVOORDE, Cassel",
+    "lat": 50.803496,
+    "lng": 2.514203,
+    "transactions": [
+      {
+        "date": "2022-08-05",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "727140d9511e": {
+    "id": "727140d9511e",
+    "label": "2781 VC STANDAERT STRAETE, Cassel",
+    "lat": 50.803775,
+    "lng": 2.51559,
+    "transactions": [
+      {
+        "date": "2025-06-02",
+        "priceEur": 304250,
+        "typeLocal": "Maison",
+        "surfaceM2": 205,
+        "isVefa": false
+      }
+    ]
+  }
+}

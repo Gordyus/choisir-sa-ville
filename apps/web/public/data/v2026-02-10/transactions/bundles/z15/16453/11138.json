@@ -1,0 +1,47 @@
+{
+  "105c9e594f09": {
+    "id": "105c9e594f09",
+    "label": "34 RUE DE LA CHARRETERIE, Pleine-Sève",
+    "lat": 49.819195,
+    "lng": 0.760477,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "a209a7408b2a": {
+    "id": "a209a7408b2a",
+    "label": "11 RUE DU SOLEIL LEVANT, Pleine-Sève",
+    "lat": 49.817844,
+    "lng": 0.759267,
+    "transactions": [
+      {
+        "date": "2021-10-06",
+        "priceEur": 364000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b62226fe34a": {
+    "id": "2b62226fe34a",
+    "label": "14 RUE DU SOLEIL LEVANT, Pleine-Sève",
+    "lat": 49.817339,
+    "lng": 0.759719,
+    "transactions": [
+      {
+        "date": "2023-07-25",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "12a818b45b5e": {
+    "id": "12a818b45b5e",
+    "label": "6 RUE CASIMIR PERRIER, Somain",
+    "lat": 50.34163,
+    "lng": 3.293436,
+    "transactions": [
+      {
+        "date": "2020-07-17",
+        "priceEur": 146000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "aaa01111a1be": {
+    "id": "aaa01111a1be",
+    "label": "6 RUE GERMINAL, Fenain",
+    "lat": 50.343157,
+    "lng": 3.293783,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "57030fa46498": {
+    "id": "57030fa46498",
+    "label": "20 RUE CASIMIR PERRIER, Somain",
+    "lat": 50.342438,
+    "lng": 3.29343,
+    "transactions": [
+      {
+        "date": "2021-09-17",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a60de7a8d5c": {
+    "id": "2a60de7a8d5c",
+    "label": "22 RUE DE L ATTAQUE DU NORD, Abscon",
+    "lat": 50.338458,
+    "lng": 3.291935,
+    "transactions": [
+      {
+        "date": "2021-07-20",
+        "priceEur": 90500,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "54b15bc49e94": {
+    "id": "54b15bc49e94",
+    "label": "48 RUE DE L ATTAQUE DU NORD, Abscon",
+    "lat": 50.340113,
+    "lng": 3.292974,
+    "transactions": [
+      {
+        "date": "2021-08-26",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "387c4475992a": {
+    "id": "387c4475992a",
+    "label": "8 RUE CASIMIR PERRIER, Somain",
+    "lat": 50.341738,
+    "lng": 3.293466,
+    "transactions": [
+      {
+        "date": "2022-04-15",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b5ad802615c": {
+    "id": "9b5ad802615c",
+    "label": "52 RUE DE L ATTAQUE DU NORD, Abscon",
+    "lat": 50.340249,
+    "lng": 3.293002,
+    "transactions": [
+      {
+        "date": "2022-01-07",
+        "priceEur": 56000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d4a76af0600": {
+    "id": "4d4a76af0600",
+    "label": "57 RUE DE L ATTAQUE DU NORD, Somain",
+    "lat": 50.339462,
+    "lng": 3.291722,
+    "transactions": [
+      {
+        "date": "2025-03-24",
+        "priceEur": 72000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  }
+}

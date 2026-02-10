@@ -1,0 +1,84 @@
+{
+  "acdb41799acc": {
+    "id": "acdb41799acc",
+    "label": "1243 RTE D ORDEMARE, Saint-Denis-sur-Scie",
+    "lat": 49.706317,
+    "lng": 1.106889,
+    "transactions": [
+      {
+        "date": "2020-12-21",
+        "priceEur": 203000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "23d5e1e49fe0": {
+    "id": "23d5e1e49fe0",
+    "label": "826 RUE DU BOCAGE, Saint-Denis-sur-Scie",
+    "lat": 49.706911,
+    "lng": 1.106942,
+    "transactions": [
+      {
+        "date": "2022-06-24",
+        "priceEur": 642560,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  },
+  "37178e8cfe22": {
+    "id": "37178e8cfe22",
+    "label": "1380 RTE D ORDEMARE, Saint-Denis-sur-Scie",
+    "lat": 49.705019,
+    "lng": 1.105647,
+    "transactions": [
+      {
+        "date": "2022-06-29",
+        "priceEur": 257000,
+        "typeLocal": "Maison",
+        "surfaceM2": 188,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e7c2840bd0d": {
+    "id": "7e7c2840bd0d",
+    "label": "1494 RTE D ORDEMARE, Saint-Denis-sur-Scie",
+    "lat": 49.704005,
+    "lng": 1.104859,
+    "transactions": [
+      {
+        "date": "2023-04-14",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 198,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-02",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 198,
+        "isVefa": false
+      }
+    ]
+  },
+  "f879446f4d33": {
+    "id": "f879446f4d33",
+    "label": "450 RUE DU BOCAGE, Saint-Denis-sur-Scie",
+    "lat": 49.707363,
+    "lng": 1.10129,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 420000,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  }
+}

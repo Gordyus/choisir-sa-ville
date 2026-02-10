@@ -1,0 +1,77 @@
+{
+  "2ef964b8a1b6": {
+    "id": "2ef964b8a1b6",
+    "label": "12 QUAI VICTOR HUGO, Rives-en-Seine",
+    "lat": 49.508998,
+    "lng": 0.671853,
+    "transactions": [
+      {
+        "date": "2020-10-21",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "2680261dfcdc": {
+    "id": "2680261dfcdc",
+    "label": "8 QUAI VICTOR HUGO, Rives-en-Seine",
+    "lat": 49.509387,
+    "lng": 0.67203,
+    "transactions": [
+      {
+        "date": "2021-01-08",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "624f948c1f53": {
+    "id": "624f948c1f53",
+    "label": "15B RUE NAGUET DE SAINT VULFRAN, Rives-en-Seine",
+    "lat": 49.50893,
+    "lng": 0.671708,
+    "transactions": [
+      {
+        "date": "2023-05-25",
+        "priceEur": 114000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee7cf5be0a06": {
+    "id": "ee7cf5be0a06",
+    "label": "44 RUE NAGUET DE SAINT VULFRAN, Rives-en-Seine",
+    "lat": 49.508743,
+    "lng": 0.671207,
+    "transactions": [
+      {
+        "date": "2023-06-08",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a0b752e22c3": {
+    "id": "3a0b752e22c3",
+    "label": "50 RUE ERNEST BINET, Rives-en-Seine",
+    "lat": 49.510679,
+    "lng": 0.672535,
+    "transactions": [
+      {
+        "date": "2023-09-01",
+        "priceEur": 74000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  }
+}

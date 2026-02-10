@@ -1,0 +1,84 @@
+{
+  "34d3c0c423b2": {
+    "id": "34d3c0c423b2",
+    "label": "41 RUE PAUL ALLEGOT, Aix-en-Pévèle",
+    "lat": 50.501607,
+    "lng": 3.306026,
+    "transactions": [
+      {
+        "date": "2021-02-16",
+        "priceEur": 303800,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-16",
+        "priceEur": 303800,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "2810d0a3fd34": {
+    "id": "2810d0a3fd34",
+    "label": "235 RUE PAUL ALLEGOT, Aix-en-Pévèle",
+    "lat": 50.500427,
+    "lng": 3.302458,
+    "transactions": [
+      {
+        "date": "2022-08-01",
+        "priceEur": 506000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b3d0508b0b8": {
+    "id": "6b3d0508b0b8",
+    "label": "113 RUE PAUL ALLEGOT, Aix-en-Pévèle",
+    "lat": 50.499617,
+    "lng": 3.301443,
+    "transactions": [
+      {
+        "date": "2023-11-24",
+        "priceEur": 202000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6589c73c89f": {
+    "id": "e6589c73c89f",
+    "label": "402 RUE PAUL ALLEGOT, Aix-en-Pévèle",
+    "lat": 50.500686,
+    "lng": 3.305403,
+    "transactions": [
+      {
+        "date": "2024-06-03",
+        "priceEur": 437650,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "66397b1c53ae": {
+    "id": "66397b1c53ae",
+    "label": "271 RUE PAUL ALLEGOT, Aix-en-Pévèle",
+    "lat": 50.500771,
+    "lng": 3.303127,
+    "transactions": [
+      {
+        "date": "2025-06-10",
+        "priceEur": 334500,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "b26090b97a4d": {
+    "id": "b26090b97a4d",
+    "label": "361 RUE DES JARDINS, Elbeuf",
+    "lat": 49.274738,
+    "lng": 1.00032,
+    "transactions": [
+      {
+        "date": "2020-09-03",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d71f3519ae4": {
+    "id": "5d71f3519ae4",
+    "label": "393 RUE DES JARDINS, Elbeuf",
+    "lat": 49.274469,
+    "lng": 1.000125,
+    "transactions": [
+      {
+        "date": "2021-06-11",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "c8aee7f150e6": {
+    "id": "c8aee7f150e6",
+    "label": "345 RUE DES JARDINS, Elbeuf",
+    "lat": 49.274845,
+    "lng": 1.00046,
+    "transactions": [
+      {
+        "date": "2021-11-16",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

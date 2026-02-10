@@ -1,0 +1,92 @@
+{
+  "e5dc07a8d597": {
+    "id": "e5dc07a8d597",
+    "label": "963 RUE PRINCIPALE, Haucourt",
+    "lat": 49.641567,
+    "lng": 1.660824,
+    "transactions": [
+      {
+        "date": "2022-03-30",
+        "priceEur": 109725,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "3878cdf2a533": {
+    "id": "3878cdf2a533",
+    "label": "825 RUE PRINCIPALE, Haucourt",
+    "lat": 49.640652,
+    "lng": 1.65956,
+    "transactions": [
+      {
+        "date": "2022-09-24",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 188,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2e10611d782": {
+    "id": "a2e10611d782",
+    "label": "901 RUE PRINCIPALE, Haucourt",
+    "lat": 49.641271,
+    "lng": 1.660585,
+    "transactions": [
+      {
+        "date": "2023-02-11",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "f59b22f9e1aa": {
+    "id": "f59b22f9e1aa",
+    "label": "47 RUE DES ECOLES, Haucourt",
+    "lat": 49.640021,
+    "lng": 1.659625,
+    "transactions": [
+      {
+        "date": "2023-10-12",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "63952e166285": {
+    "id": "63952e166285",
+    "label": "783 RUE PRINCIPALE, Haucourt",
+    "lat": 49.640575,
+    "lng": 1.65943,
+    "transactions": [
+      {
+        "date": "2024-01-23",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8c15a92c9e5": {
+    "id": "f8c15a92c9e5",
+    "label": "63 RUE DU BOCAGE, Haucourt",
+    "lat": 49.643005,
+    "lng": 1.663256,
+    "transactions": [
+      {
+        "date": "2025-03-26",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

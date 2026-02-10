@@ -1,0 +1,84 @@
+{
+  "86cf5b5fc908": {
+    "id": "86cf5b5fc908",
+    "label": "571 BLEU BOURDEAU, Wambrechies",
+    "lat": 50.684245,
+    "lng": 3.022382,
+    "transactions": [
+      {
+        "date": "2020-12-07",
+        "priceEur": 844000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "51144b278aa4": {
+    "id": "51144b278aa4",
+    "label": "510 CHE DU MOUTON BOULONNAIS, Wambrechies",
+    "lat": 50.683222,
+    "lng": 3.031242,
+    "transactions": [
+      {
+        "date": "2022-10-26",
+        "priceEur": 197000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9ded8aca0fe": {
+    "id": "c9ded8aca0fe",
+    "label": "500 CHE DU MOUTON BOULONNAIS, Wambrechies",
+    "lat": 50.683571,
+    "lng": 3.031448,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-26",
+        "priceEur": 93000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b4699eab971": {
+    "id": "4b4699eab971",
+    "label": "450 BLEU BOURDEAU, Wambrechies",
+    "lat": 50.685941,
+    "lng": 3.023975,
+    "transactions": [
+      {
+        "date": "2023-10-06",
+        "priceEur": 456350,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "90ada56ddc38": {
+    "id": "90ada56ddc38",
+    "label": "452 CHE DU BLEU BORDEAU, Wambrechies",
+    "lat": 50.68618,
+    "lng": 3.023977,
+    "transactions": [
+      {
+        "date": "2024-11-18",
+        "priceEur": 400600,
+        "typeLocal": "Maison",
+        "surfaceM2": 173,
+        "isVefa": false
+      }
+    ]
+  }
+}

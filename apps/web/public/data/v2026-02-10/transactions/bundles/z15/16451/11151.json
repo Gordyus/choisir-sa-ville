@@ -1,0 +1,159 @@
+{
+  "09a0a5093189": {
+    "id": "09a0a5093189",
+    "label": "434 RUE DE LA GAIETE, Routes",
+    "lat": 49.728805,
+    "lng": 0.739957,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "70af843e2fac": {
+    "id": "70af843e2fac",
+    "label": "373 RUE DE L ESPOIR, Routes",
+    "lat": 49.729209,
+    "lng": 0.742177,
+    "transactions": [
+      {
+        "date": "2020-10-16",
+        "priceEur": 84000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "4680bd688d74": {
+    "id": "4680bd688d74",
+    "label": "569 RUE DE L ESPOIR, Routes",
+    "lat": 49.729699,
+    "lng": 0.73901,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 298330,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "05f002e7a12d": {
+    "id": "05f002e7a12d",
+    "label": "1321 RUE DE LA VIE, Routes",
+    "lat": 49.731072,
+    "lng": 0.742102,
+    "transactions": [
+      {
+        "date": "2022-02-10",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "b969af698fee": {
+    "id": "b969af698fee",
+    "label": "1080 RUE DE LA VIE, Routes",
+    "lat": 49.73145,
+    "lng": 0.746738,
+    "transactions": [
+      {
+        "date": "2022-11-10",
+        "priceEur": 475000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-10",
+        "priceEur": 475000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "baa5ea65b83b": {
+    "id": "baa5ea65b83b",
+    "label": "415 RUE DE L ESPOIR, Routes",
+    "lat": 49.728954,
+    "lng": 0.741451,
+    "transactions": [
+      {
+        "date": "2022-11-28",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "d9feca98e480": {
+    "id": "d9feca98e480",
+    "label": "234 RUE DE LA GAIETE, Routes",
+    "lat": 49.728261,
+    "lng": 0.742636,
+    "transactions": [
+      {
+        "date": "2022-12-22",
+        "priceEur": 262300,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "68cc6530d0df": {
+    "id": "68cc6530d0df",
+    "label": "202 RUE DE L AMITIE, Routes",
+    "lat": 49.729734,
+    "lng": 0.743751,
+    "transactions": [
+      {
+        "date": "2023-08-29",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "1be55f1b0c86": {
+    "id": "1be55f1b0c86",
+    "label": "101 RUE DE L AMITIE, Routes",
+    "lat": 49.729093,
+    "lng": 0.74273,
+    "transactions": [
+      {
+        "date": "2024-06-13",
+        "priceEur": 204000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "5cd9ae2fcdb8": {
+    "id": "5cd9ae2fcdb8",
+    "label": "120 RUE DU SOURIRE, Routes",
+    "lat": 49.728705,
+    "lng": 0.738503,
+    "transactions": [
+      {
+        "date": "2024-06-14",
+        "priceEur": 204000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

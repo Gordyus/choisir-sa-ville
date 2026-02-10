@@ -1,0 +1,32 @@
+{
+  "832f2b7fc4a0": {
+    "id": "832f2b7fc4a0",
+    "label": "33C RUE DU VIEUX MARCHE, Canehan",
+    "lat": 49.983164,
+    "lng": 1.363481,
+    "transactions": [
+      {
+        "date": "2020-12-17",
+        "priceEur": 213200,
+        "typeLocal": "Maison",
+        "surfaceM2": 202,
+        "isVefa": false
+      }
+    ]
+  },
+  "c1497509e51a": {
+    "id": "c1497509e51a",
+    "label": "3 RUE DU PONT DE L YERES, Saint-Martin-le-Gaillard",
+    "lat": 49.979711,
+    "lng": 1.372903,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 249050,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  }
+}

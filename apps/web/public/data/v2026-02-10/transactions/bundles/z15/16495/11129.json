@@ -1,0 +1,32 @@
+{
+  "8e89524f1b53": {
+    "id": "8e89524f1b53",
+    "label": "28 RUE DE LA BRIQUETERIE, Saint-Nicolas-d'Aliermont",
+    "lat": 49.880868,
+    "lng": 1.221102,
+    "transactions": [
+      {
+        "date": "2020-11-26",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4ad3686ecab": {
+    "id": "c4ad3686ecab",
+    "label": "277 RUE DU STADE, Saint-Nicolas-d'Aliermont",
+    "lat": 49.881332,
+    "lng": 1.221841,
+    "transactions": [
+      {
+        "date": "2025-02-04",
+        "priceEur": 196900,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

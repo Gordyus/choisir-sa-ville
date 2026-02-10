@@ -1,0 +1,77 @@
+{
+  "4a36a0325ab8": {
+    "id": "4a36a0325ab8",
+    "label": "9B RUE MARTIN D AUBERMESNIL, Gaillefontaine",
+    "lat": 49.654477,
+    "lng": 1.614718,
+    "transactions": [
+      {
+        "date": "2021-11-15",
+        "priceEur": 313000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "5958ced2bb71": {
+    "id": "5958ced2bb71",
+    "label": "2 RUE DU MOULIN, Gaillefontaine",
+    "lat": 49.655294,
+    "lng": 1.614355,
+    "transactions": [
+      {
+        "date": "2022-01-04",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "542f82e68a6c": {
+    "id": "542f82e68a6c",
+    "label": "44 PL DE LA MAIRIE, Gaillefontaine",
+    "lat": 49.65387,
+    "lng": 1.614903,
+    "transactions": [
+      {
+        "date": "2023-01-13",
+        "priceEur": 32000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "120621cd0e11": {
+    "id": "120621cd0e11",
+    "label": "11 RTE DE NEUFCHATEL, Gaillefontaine",
+    "lat": 49.656473,
+    "lng": 1.612351,
+    "transactions": [
+      {
+        "date": "2023-03-31",
+        "priceEur": 48000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "e3f395432317": {
+    "id": "e3f395432317",
+    "label": "16 RUE MARTIN D AUBERMESNIL, Gaillefontaine",
+    "lat": 49.655125,
+    "lng": 1.614299,
+    "transactions": [
+      {
+        "date": "2024-12-02",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      }
+    ]
+  }
+}

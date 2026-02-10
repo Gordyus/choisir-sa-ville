@@ -1,0 +1,136 @@
+{
+  "57447dd9ec65": {
+    "id": "57447dd9ec65",
+    "label": "20 RUE DU ROUPION, Nomain",
+    "lat": 50.49843,
+    "lng": 3.239957,
+    "transactions": [
+      {
+        "date": "2021-09-22",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "9374d5b81a35": {
+    "id": "9374d5b81a35",
+    "label": "22 RUE PAUL DELATTRE, Nomain",
+    "lat": 50.493135,
+    "lng": 3.238323,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 410000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-19",
+        "priceEur": 344000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9492123ffa6": {
+    "id": "a9492123ffa6",
+    "label": "34 RUE DU ROUPION, Nomain",
+    "lat": 50.498162,
+    "lng": 3.23697,
+    "transactions": [
+      {
+        "date": "2023-08-18",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "40f6c6ab448b": {
+    "id": "40f6c6ab448b",
+    "label": "43 RUE DU ROUPION, Nomain",
+    "lat": 50.496936,
+    "lng": 3.235266,
+    "transactions": [
+      {
+        "date": "2023-11-03",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "0deefe8f1903": {
+    "id": "0deefe8f1903",
+    "label": "7 RUE PAUL DELATTRE, Nomain",
+    "lat": 50.493891,
+    "lng": 3.240677,
+    "transactions": [
+      {
+        "date": "2023-12-13",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "09884f9b2e94": {
+    "id": "09884f9b2e94",
+    "label": "5 RUE PAUL DELATTRE, Nomain",
+    "lat": 50.493938,
+    "lng": 3.240775,
+    "transactions": [
+      {
+        "date": "2023-12-13",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "48988429bc6a": {
+    "id": "48988429bc6a",
+    "label": "2 RUE DU BAS HAMEAU, Nomain",
+    "lat": 50.493362,
+    "lng": 3.236989,
+    "transactions": [
+      {
+        "date": "2024-09-19",
+        "priceEur": 287000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "25b6b8130a42": {
+    "id": "25b6b8130a42",
+    "label": "47 RUE DU ROUPION, Nomain",
+    "lat": 50.496735,
+    "lng": 3.234899,
+    "transactions": [
+      {
+        "date": "2025-02-14",
+        "priceEur": 357000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-14",
+        "priceEur": 357000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  }
+}

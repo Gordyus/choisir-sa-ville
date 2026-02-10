@@ -1,0 +1,32 @@
+{
+  "e737ebdfb242": {
+    "id": "e737ebdfb242",
+    "label": "1 RUE DES FONTAINES, Baillolet",
+    "lat": 49.7973,
+    "lng": 1.450672,
+    "transactions": [
+      {
+        "date": "2024-02-22",
+        "priceEur": 284000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "fc7a0f53f183": {
+    "id": "fc7a0f53f183",
+    "label": "5033 BEAU SOLEIL, Baillolet",
+    "lat": 49.797239,
+    "lng": 1.452716,
+    "transactions": [
+      {
+        "date": "2025-05-23",
+        "priceEur": 53600,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  }
+}

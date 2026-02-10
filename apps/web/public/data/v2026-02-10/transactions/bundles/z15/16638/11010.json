@@ -1,0 +1,32 @@
+{
+  "94ee5cd99723": {
+    "id": "94ee5cd99723",
+    "label": "738 RUE DE L EGLISE LA CRECHE, Bailleul",
+    "lat": 50.718456,
+    "lng": 2.793432,
+    "transactions": [
+      {
+        "date": "2021-07-12",
+        "priceEur": 710000,
+        "typeLocal": "Maison",
+        "surfaceM2": 230,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4959f88f4fd": {
+    "id": "c4959f88f4fd",
+    "label": "944 RUE DE L EGLISE LA CRECHE, Bailleul",
+    "lat": 50.718375,
+    "lng": 2.796761,
+    "transactions": [
+      {
+        "date": "2022-09-20",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

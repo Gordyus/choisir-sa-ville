@@ -1,0 +1,47 @@
+{
+  "dcb348538394": {
+    "id": "dcb348538394",
+    "label": "115 RUE APPOLINAIRE GASPART, Aniche",
+    "lat": 50.339343,
+    "lng": 3.244683,
+    "transactions": [
+      {
+        "date": "2022-08-30",
+        "priceEur": 274000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "93c45a52ab39": {
+    "id": "93c45a52ab39",
+    "label": "102 RUE APPOLINAIRE GASPART, Aniche",
+    "lat": 50.340732,
+    "lng": 3.24466,
+    "transactions": [
+      {
+        "date": "2023-04-28",
+        "priceEur": 291500,
+        "typeLocal": "Maison",
+        "surfaceM2": 164,
+        "isVefa": false
+      }
+    ]
+  },
+  "923f4a6abf6a": {
+    "id": "923f4a6abf6a",
+    "label": "88 RUE APPOLINAIRE GASPART, Aniche",
+    "lat": 50.339888,
+    "lng": 3.245205,
+    "transactions": [
+      {
+        "date": "2023-12-06",
+        "priceEur": 164000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "81b3beec91ba": {
+    "id": "81b3beec91ba",
+    "label": "424 RUE DES BRUYERES, Notre-Dame-de-Bliquetuit",
+    "lat": 49.493196,
+    "lng": 0.748105,
+    "transactions": [
+      {
+        "date": "2020-09-17",
+        "priceEur": 74500,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "e3e8b1b7d1c2": {
+    "id": "e3e8b1b7d1c2",
+    "label": "448 RUE DES BRUYERES, Notre-Dame-de-Bliquetuit",
+    "lat": 49.49324,
+    "lng": 0.74776,
+    "transactions": [
+      {
+        "date": "2020-11-25",
+        "priceEur": 84000,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  },
+  "008aca98cd1d": {
+    "id": "008aca98cd1d",
+    "label": "496 RUE DES BRUYERES, Notre-Dame-de-Bliquetuit",
+    "lat": 49.494003,
+    "lng": 0.747166,
+    "transactions": [
+      {
+        "date": "2023-07-12",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  }
+}

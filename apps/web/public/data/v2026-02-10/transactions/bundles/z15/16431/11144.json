@@ -1,0 +1,77 @@
+{
+  "30aeaac43159": {
+    "id": "30aeaac43159",
+    "label": "550 RTE DES ALOUETTES, Angerville-la-Martel",
+    "lat": 49.777341,
+    "lng": 0.52271,
+    "transactions": [
+      {
+        "date": "2021-06-18",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e9745305b21": {
+    "id": "0e9745305b21",
+    "label": "571 IMP DES CHEVREUILS, Angerville-la-Martel",
+    "lat": 49.777303,
+    "lng": 0.520676,
+    "transactions": [
+      {
+        "date": "2022-02-23",
+        "priceEur": 227000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "f0d58d8c55a1": {
+    "id": "f0d58d8c55a1",
+    "label": "509T DAUBEUF, Angerville-la-Martel",
+    "lat": 49.77688,
+    "lng": 0.519231,
+    "transactions": [
+      {
+        "date": "2022-03-11",
+        "priceEur": 283450,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "ef49bf065374": {
+    "id": "ef49bf065374",
+    "label": "553 RTE DES ALOUETTES, Angerville-la-Martel",
+    "lat": 49.776705,
+    "lng": 0.52035,
+    "transactions": [
+      {
+        "date": "2023-07-10",
+        "priceEur": 253500,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "14c795ab9e46": {
+    "id": "14c795ab9e46",
+    "label": "565 IMP DES FAISANS, Angerville-la-Martel",
+    "lat": 49.776456,
+    "lng": 0.521574,
+    "transactions": [
+      {
+        "date": "2023-12-07",
+        "priceEur": 238050,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  }
+}

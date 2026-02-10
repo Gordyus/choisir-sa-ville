@@ -1,0 +1,91 @@
+{
+  "f47184ccd1fa": {
+    "id": "f47184ccd1fa",
+    "label": "5054 LE VILLAGE, Gancourt-Saint-Étienne",
+    "lat": 49.54972,
+    "lng": 1.714338,
+    "transactions": [
+      {
+        "date": "2021-07-12",
+        "priceEur": 214000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0af5d8fd60c": {
+    "id": "c0af5d8fd60c",
+    "label": "3 RTE DE BAZANCOURT, Gancourt-Saint-Étienne",
+    "lat": 49.549715,
+    "lng": 1.71469,
+    "transactions": [
+      {
+        "date": "2023-09-05",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-05",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-05",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "803a1a668aa2": {
+    "id": "803a1a668aa2",
+    "label": "3T RTE DE BAZANCOURT, Gancourt-Saint-Étienne",
+    "lat": 49.549561,
+    "lng": 1.715086,
+    "transactions": [
+      {
+        "date": "2024-01-20",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2cfbd3897e0": {
+    "id": "e2cfbd3897e0",
+    "label": "9B RTE DE BAZANCOURT, Gancourt-Saint-Étienne",
+    "lat": 49.549752,
+    "lng": 1.716928,
+    "transactions": [
+      {
+        "date": "2024-04-30",
+        "priceEur": 179500,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "94b9c326b942": {
+    "id": "94b9c326b942",
+    "label": "3B RTE DE BAZANCOURT, Gancourt-Saint-Étienne",
+    "lat": 49.549756,
+    "lng": 1.715005,
+    "transactions": [
+      {
+        "date": "2024-05-29",
+        "priceEur": 84000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  }
+}

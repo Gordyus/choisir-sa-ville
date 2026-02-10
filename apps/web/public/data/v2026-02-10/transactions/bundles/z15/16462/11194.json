@@ -1,0 +1,47 @@
+{
+  "5a12522be4e7": {
+    "id": "5a12522be4e7",
+    "label": "5112A LES COTES, Le Mesnil-sous-Jumièges",
+    "lat": 49.421442,
+    "lng": 0.862484,
+    "transactions": [
+      {
+        "date": "2021-06-15",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "113167290d87": {
+    "id": "113167290d87",
+    "label": "1207 RUE DES COTES, Le Mesnil-sous-Jumièges",
+    "lat": 49.422504,
+    "lng": 0.859652,
+    "transactions": [
+      {
+        "date": "2023-03-31",
+        "priceEur": 233976,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c6dca6f04ec": {
+    "id": "3c6dca6f04ec",
+    "label": "569 PLAINE DE LA VALLURE, Le Mesnil-sous-Jumièges",
+    "lat": 49.418727,
+    "lng": 0.863544,
+    "transactions": [
+      {
+        "date": "2023-10-12",
+        "priceEur": 219000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

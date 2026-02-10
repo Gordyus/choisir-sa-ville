@@ -1,0 +1,84 @@
+{
+  "c078003b1791": {
+    "id": "c078003b1791",
+    "label": "14 HAMEAU DE LIGNY LE GRAND, Illies",
+    "lat": 50.573584,
+    "lng": 2.823425,
+    "transactions": [
+      {
+        "date": "2024-07-31",
+        "priceEur": 355000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-15",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "73a679126e6a": {
+    "id": "73a679126e6a",
+    "label": "20A HAMEAU DE LIGNY LE GRAND, Illies",
+    "lat": 50.574609,
+    "lng": 2.82343,
+    "transactions": [
+      {
+        "date": "2022-04-05",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f44b42048bf": {
+    "id": "2f44b42048bf",
+    "label": "11A HAMEAU DE LIGNY LE GRAND, Illies",
+    "lat": 50.572535,
+    "lng": 2.822633,
+    "transactions": [
+      {
+        "date": "2023-08-16",
+        "priceEur": 343700,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb8dd02f0c0e": {
+    "id": "fb8dd02f0c0e",
+    "label": "5 HAMEAU DE L HALPEGARBE, Illies",
+    "lat": 50.570026,
+    "lng": 2.813929,
+    "transactions": [
+      {
+        "date": "2023-10-03",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "0cf04b2a163d": {
+    "id": "0cf04b2a163d",
+    "label": "16 HAMEAU DE LIGNY LE GRAND, Illies",
+    "lat": 50.573753,
+    "lng": 2.823299,
+    "transactions": [
+      {
+        "date": "2023-11-20",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  }
+}

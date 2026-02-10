@@ -1,0 +1,76 @@
+{
+  "044497c47a07": {
+    "id": "044497c47a07",
+    "label": "151 RUE DE CASSEL, Neuf-Berquin",
+    "lat": 50.675963,
+    "lng": 2.656407,
+    "transactions": [
+      {
+        "date": "2021-04-09",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f531342e4da": {
+    "id": "2f531342e4da",
+    "label": "2101 RUE D ESTAIRES, Vieux-Berquin",
+    "lat": 50.677355,
+    "lng": 2.655717,
+    "transactions": [
+      {
+        "date": "2021-06-07",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "7cc09cdba89d": {
+    "id": "7cc09cdba89d",
+    "label": "1713 RUE D ESTAIRES, Vieux-Berquin",
+    "lat": 50.680737,
+    "lng": 2.653786,
+    "transactions": [
+      {
+        "date": "2023-11-10",
+        "priceEur": 470000,
+        "typeLocal": "Maison",
+        "surfaceM2": 240,
+        "isVefa": false
+      }
+    ]
+  },
+  "86014e328ce8": {
+    "id": "86014e328ce8",
+    "label": "1821 RUE D ESTAIRES, Vieux-Berquin",
+    "lat": 50.679735,
+    "lng": 2.654433,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-25",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-25",
+        "priceEur": 380000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "36717a19d875": {
+    "id": "36717a19d875",
+    "label": "30 RUE JACQUES ANQUETIL, Allouville-Bellefosse",
+    "lat": 49.596592,
+    "lng": 0.678244,
+    "transactions": [
+      {
+        "date": "2022-06-07",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6ff3011b105": {
+    "id": "f6ff3011b105",
+    "label": "21 RUE JACQUES ANQUETIL, Allouville-Bellefosse",
+    "lat": 49.597141,
+    "lng": 0.678524,
+    "transactions": [
+      {
+        "date": "2022-08-25",
+        "priceEur": 243000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "44c7e9a3496b": {
+    "id": "44c7e9a3496b",
+    "label": "36 RUE DOCTEUR PATENOTRE, Allouville-Bellefosse",
+    "lat": 49.598051,
+    "lng": 0.674196,
+    "transactions": [
+      {
+        "date": "2023-08-11",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "75645c37c6da": {
+    "id": "75645c37c6da",
+    "label": "12 RES DES CHENES, Allouville-Bellefosse",
+    "lat": 49.597032,
+    "lng": 0.67442,
+    "transactions": [
+      {
+        "date": "2023-11-23",
+        "priceEur": 132000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae2a88071046": {
+    "id": "ae2a88071046",
+    "label": "1 RES DES CHENES, Allouville-Bellefosse",
+    "lat": 49.597552,
+    "lng": 0.674298,
+    "transactions": [
+      {
+        "date": "2024-12-16",
+        "priceEur": 159500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "df5b79164668": {
+    "id": "df5b79164668",
+    "label": "6 RESIDENCE LES BOULEAUX, Allouville-Bellefosse",
+    "lat": 49.597303,
+    "lng": 0.672962,
+    "transactions": [
+      {
+        "date": "2025-04-22",
+        "priceEur": 314140,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  }
+}

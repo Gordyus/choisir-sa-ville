@@ -1,0 +1,77 @@
+{
+  "fb76458809d9": {
+    "id": "fb76458809d9",
+    "label": "5 RUE DU VIEUX BRIDOUX, Radinghem-en-Weppes",
+    "lat": 50.634154,
+    "lng": 2.88624,
+    "transactions": [
+      {
+        "date": "2021-05-31",
+        "priceEur": 293070,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "b77dbaafcb5c": {
+    "id": "b77dbaafcb5c",
+    "label": "1 CHE BACQUART, Radinghem-en-Weppes",
+    "lat": 50.633391,
+    "lng": 2.883702,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 510000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7cf9584cd12": {
+    "id": "b7cf9584cd12",
+    "label": "4 ALL DES AULNES, Radinghem-en-Weppes",
+    "lat": 50.63414,
+    "lng": 2.88715,
+    "transactions": [
+      {
+        "date": "2022-05-17",
+        "priceEur": 576650,
+        "typeLocal": "Maison",
+        "surfaceM2": 186,
+        "isVefa": false
+      }
+    ]
+  },
+  "09271e0658b0": {
+    "id": "09271e0658b0",
+    "label": "6 ALL DE LA PRAIRIE, Radinghem-en-Weppes",
+    "lat": 50.635147,
+    "lng": 2.885986,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 601400,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "d62e3921ab57": {
+    "id": "d62e3921ab57",
+    "label": "15 RUE DU VIEUX BRIDOUX, Radinghem-en-Weppes",
+    "lat": 50.635615,
+    "lng": 2.8845,
+    "transactions": [
+      {
+        "date": "2025-05-30",
+        "priceEur": 681574,
+        "typeLocal": "Maison",
+        "surfaceM2": 222,
+        "isVefa": false
+      }
+    ]
+  }
+}

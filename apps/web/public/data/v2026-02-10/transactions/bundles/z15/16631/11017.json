@@ -1,0 +1,47 @@
+{
+  "8c89c1bb7e5a": {
+    "id": "8c89c1bb7e5a",
+    "label": "416 VC MAUVAISE RUE, Le Doulieu",
+    "lat": 50.671344,
+    "lng": 2.722473,
+    "transactions": [
+      {
+        "date": "2024-06-13",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f6cd25c6a7a": {
+    "id": "1f6cd25c6a7a",
+    "label": "906 RUE DES CARLIERS, Le Doulieu",
+    "lat": 50.670006,
+    "lng": 2.714555,
+    "transactions": [
+      {
+        "date": "2024-09-04",
+        "priceEur": 473000,
+        "typeLocal": "Maison",
+        "surfaceM2": 199,
+        "isVefa": false
+      }
+    ]
+  },
+  "c58e6796e52c": {
+    "id": "c58e6796e52c",
+    "label": "1338 RUE DU HOUCK, Le Doulieu",
+    "lat": 50.668169,
+    "lng": 2.722475,
+    "transactions": [
+      {
+        "date": "2025-01-30",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "0b68ba796b85": {
+    "id": "0b68ba796b85",
+    "label": "228 CHE DES HAYES, Épinay-sur-Duclair",
+    "lat": 49.529712,
+    "lng": 0.849275,
+    "transactions": [
+      {
+        "date": "2021-03-05",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d49ed6a774a": {
+    "id": "4d49ed6a774a",
+    "label": "130 CHE DES HAYES, Épinay-sur-Duclair",
+    "lat": 49.528681,
+    "lng": 0.849457,
+    "transactions": [
+      {
+        "date": "2022-06-29",
+        "priceEur": 261500,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

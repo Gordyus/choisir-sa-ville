@@ -1,0 +1,47 @@
+{
+  "00c6c45268b7": {
+    "id": "00c6c45268b7",
+    "label": "401 RTE DE L'HAEGHEDOORN, Godewaersvelde",
+    "lat": 50.79281,
+    "lng": 2.632522,
+    "transactions": [
+      {
+        "date": "2021-05-31",
+        "priceEur": 529400,
+        "typeLocal": "Maison",
+        "surfaceM2": 205,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa4af075b29f": {
+    "id": "fa4af075b29f",
+    "label": "598 RTE DE STEENVOORDE, Godewaersvelde",
+    "lat": 50.795966,
+    "lng": 2.635245,
+    "transactions": [
+      {
+        "date": "2022-04-29",
+        "priceEur": 481680,
+        "typeLocal": "Maison",
+        "surfaceM2": 249,
+        "isVefa": false
+      }
+    ]
+  },
+  "80a1db81fdc0": {
+    "id": "80a1db81fdc0",
+    "label": "948 RTE DE STEENVOORDE, Godewaersvelde",
+    "lat": 50.798448,
+    "lng": 2.632832,
+    "transactions": [
+      {
+        "date": "2024-04-05",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

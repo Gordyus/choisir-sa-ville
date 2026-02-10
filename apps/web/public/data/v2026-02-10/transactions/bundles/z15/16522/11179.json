@@ -1,0 +1,32 @@
+{
+  "37b425c28ef3": {
+    "id": "37b425c28ef3",
+    "label": "5003 FRY, Fry",
+    "lat": 49.529897,
+    "lng": 1.526834,
+    "transactions": [
+      {
+        "date": "2021-11-22",
+        "priceEur": 44000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "958e8e03172f": {
+    "id": "958e8e03172f",
+    "label": "5053 FRY, Fry",
+    "lat": 49.527227,
+    "lng": 1.526146,
+    "transactions": [
+      {
+        "date": "2021-03-12",
+        "priceEur": 89900,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

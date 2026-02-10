@@ -1,0 +1,32 @@
+{
+  "eecafc7764bd": {
+    "id": "eecafc7764bd",
+    "label": "21 RUE DU BOIS, Morbecque",
+    "lat": 50.681876,
+    "lng": 2.545437,
+    "transactions": [
+      {
+        "date": "2023-02-25",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "9802ff34a0f8": {
+    "id": "9802ff34a0f8",
+    "label": "33 RUE DU BOIS, Morbecque",
+    "lat": 50.683547,
+    "lng": 2.548055,
+    "transactions": [
+      {
+        "date": "2025-02-25",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  }
+}

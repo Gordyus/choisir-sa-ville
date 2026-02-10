@@ -1,0 +1,32 @@
+{
+  "ad69d5ebb54e": {
+    "id": "ad69d5ebb54e",
+    "label": "488 RTE D ETALLEVILLE, Berville-en-Caux",
+    "lat": 49.703837,
+    "lng": 0.821093,
+    "transactions": [
+      {
+        "date": "2021-09-01",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ed521c98d88": {
+    "id": "1ed521c98d88",
+    "label": "490 RTE D ETALLEVILLE, Berville-en-Caux",
+    "lat": 49.704505,
+    "lng": 0.820213,
+    "transactions": [
+      {
+        "date": "2022-12-01",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

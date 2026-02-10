@@ -1,0 +1,62 @@
+{
+  "1f1842945b60": {
+    "id": "1f1842945b60",
+    "label": "5020 LE VILLAGE, Mannevillette",
+    "lat": 49.598917,
+    "lng": 0.176378,
+    "transactions": [
+      {
+        "date": "2021-08-10",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b8db5961f28": {
+    "id": "1b8db5961f28",
+    "label": "5045 LE VILLAGE, Mannevillette",
+    "lat": 49.597825,
+    "lng": 0.176475,
+    "transactions": [
+      {
+        "date": "2022-09-29",
+        "priceEur": 253770,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "21bdbd366249": {
+    "id": "21bdbd366249",
+    "label": "9 RUE DU CLAQUEDENT, Mannevillette",
+    "lat": 49.598435,
+    "lng": 0.177719,
+    "transactions": [
+      {
+        "date": "2022-11-10",
+        "priceEur": 279500,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0a06f26ced6": {
+    "id": "b0a06f26ced6",
+    "label": "21 RUE DE LA SAINT JEAN, Mannevillette",
+    "lat": 49.599084,
+    "lng": 0.177445,
+    "transactions": [
+      {
+        "date": "2024-06-19",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

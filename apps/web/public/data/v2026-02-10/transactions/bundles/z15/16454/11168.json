@@ -1,0 +1,69 @@
+{
+  "bbc0f7b03b06": {
+    "id": "bbc0f7b03b06",
+    "label": "43 RUE JOSEPH CODDEVILLE, Yvetot",
+    "lat": 49.61007,
+    "lng": 0.775464,
+    "transactions": [
+      {
+        "date": "2020-08-21",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-21",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "c25e74aab1ad": {
+    "id": "c25e74aab1ad",
+    "label": "2 RUE TRAVERSIERE, Yvetot",
+    "lat": 49.610643,
+    "lng": 0.775045,
+    "transactions": [
+      {
+        "date": "2021-01-30",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "e7ec24ca675f": {
+    "id": "e7ec24ca675f",
+    "label": "15 RUE DE LA MI VOIE, Saint-Clair-sur-les-Monts",
+    "lat": 49.607194,
+    "lng": 0.778327,
+    "transactions": [
+      {
+        "date": "2022-12-16",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "e4c59af4238c": {
+    "id": "e4c59af4238c",
+    "label": "2 RUE DE LA MI VOIE, Saint-Clair-sur-les-Monts",
+    "lat": 49.607158,
+    "lng": 0.777582,
+    "transactions": [
+      {
+        "date": "2023-12-09",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  }
+}

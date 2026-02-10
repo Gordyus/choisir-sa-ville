@@ -1,0 +1,92 @@
+{
+  "589b11d016b6": {
+    "id": "589b11d016b6",
+    "label": "10 RUE DE L EGLISE, Illois",
+    "lat": 49.749758,
+    "lng": 1.648682,
+    "transactions": [
+      {
+        "date": "2020-07-29",
+        "priceEur": 103000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "df090bffc078": {
+    "id": "df090bffc078",
+    "label": "5002 ILLOIS, Illois",
+    "lat": 49.748079,
+    "lng": 1.649697,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 72500,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "22e1d01e1051": {
+    "id": "22e1d01e1051",
+    "label": "5126 ILLOIS, Illois",
+    "lat": 49.746404,
+    "lng": 1.651839,
+    "transactions": [
+      {
+        "date": "2021-09-10",
+        "priceEur": 174000,
+        "typeLocal": "Maison",
+        "surfaceM2": 197,
+        "isVefa": false
+      }
+    ]
+  },
+  "012f895a5398": {
+    "id": "012f895a5398",
+    "label": "5170 ILLOIS, Illois",
+    "lat": 49.747928,
+    "lng": 1.653609,
+    "transactions": [
+      {
+        "date": "2023-02-25",
+        "priceEur": 104500,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a0856c362d6": {
+    "id": "4a0856c362d6",
+    "label": "4 RTE DE COUPIGNY, Illois",
+    "lat": 49.747187,
+    "lng": 1.653189,
+    "transactions": [
+      {
+        "date": "2024-02-02",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f683d465ec3": {
+    "id": "9f683d465ec3",
+    "label": "6 RUE DE SAINT AUBIN, Illois",
+    "lat": 49.7481,
+    "lng": 1.653811,
+    "transactions": [
+      {
+        "date": "2025-05-07",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 157,
+        "isVefa": false
+      }
+    ]
+  }
+}

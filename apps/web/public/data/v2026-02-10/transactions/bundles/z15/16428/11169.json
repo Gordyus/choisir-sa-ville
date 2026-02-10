@@ -1,0 +1,62 @@
+{
+  "7f174e2959bd": {
+    "id": "7f174e2959bd",
+    "label": "121 LES MAISONS ROUGES, Rouville",
+    "lat": 49.6021,
+    "lng": 0.491555,
+    "transactions": [
+      {
+        "date": "2023-04-14",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ca06ce5df37": {
+    "id": "2ca06ce5df37",
+    "label": "109 RTE DE RAFFETOT, Nointot",
+    "lat": 49.597901,
+    "lng": 0.491311,
+    "transactions": [
+      {
+        "date": "2023-07-05",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa48df979ec8": {
+    "id": "fa48df979ec8",
+    "label": "594 CHE DE ROUVILLE, Nointot",
+    "lat": 49.600037,
+    "lng": 0.484653,
+    "transactions": [
+      {
+        "date": "2024-03-29",
+        "priceEur": 312000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "69f738b10175": {
+    "id": "69f738b10175",
+    "label": "5053 VERS NOINTOT, Rouville",
+    "lat": 49.602208,
+    "lng": 0.492949,
+    "transactions": [
+      {
+        "date": "2024-11-04",
+        "priceEur": 203000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

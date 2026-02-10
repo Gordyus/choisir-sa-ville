@@ -1,0 +1,77 @@
+{
+  "b767cf636b23": {
+    "id": "b767cf636b23",
+    "label": "1339 RUE DU PLIX, Serqueux",
+    "lat": 49.622922,
+    "lng": 1.542567,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 173950,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "f0aad7fb5d68": {
+    "id": "f0aad7fb5d68",
+    "label": "259 CHE DE LA SABLIERE, Serqueux",
+    "lat": 49.622243,
+    "lng": 1.540071,
+    "transactions": [
+      {
+        "date": "2022-09-09",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "83707c214414": {
+    "id": "83707c214414",
+    "label": "244 CHE DE LA SABLIERE, Serqueux",
+    "lat": 49.622591,
+    "lng": 1.540184,
+    "transactions": [
+      {
+        "date": "2022-12-14",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc8b1148f06d": {
+    "id": "bc8b1148f06d",
+    "label": "5259F LE CHAMP VECQUEMONT, Forges-les-Eaux",
+    "lat": 49.619156,
+    "lng": 1.539759,
+    "transactions": [
+      {
+        "date": "2023-09-05",
+        "priceEur": 136800,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0e9987b1c9a": {
+    "id": "c0e9987b1c9a",
+    "label": "78 RUE DE NEUFCHATEL, Forges-les-Eaux",
+    "lat": 49.618859,
+    "lng": 1.538644,
+    "transactions": [
+      {
+        "date": "2024-12-12",
+        "priceEur": 112500,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "c86f1eb9e895": {
+    "id": "c86f1eb9e895",
+    "label": "878 RUE DU MARECHAL LECLERC, Montigny-en-Ostrevent",
+    "lat": 50.366099,
+    "lng": 3.197905,
+    "transactions": [
+      {
+        "date": "2020-10-08",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "223840826c73": {
+    "id": "223840826c73",
+    "label": "798 RUE DU MARECHAL LECLERC, Montigny-en-Ostrevent",
+    "lat": 50.36556,
+    "lng": 3.19713,
+    "transactions": [
+      {
+        "date": "2021-10-21",
+        "priceEur": 193800,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b06bcef3913": {
+    "id": "2b06bcef3913",
+    "label": "99 RUE DES PEUPLIERS, Montigny-en-Ostrevent",
+    "lat": 50.365479,
+    "lng": 3.197727,
+    "transactions": [
+      {
+        "date": "2021-10-21",
+        "priceEur": 179500,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "9512885b0737": {
+    "id": "9512885b0737",
+    "label": "131 RUE DES PEUPLIERS, Montigny-en-Ostrevent",
+    "lat": 50.365657,
+    "lng": 3.198027,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "af26380a7212": {
+    "id": "af26380a7212",
+    "label": "76 RUE DES PEUPLIERS, Montigny-en-Ostrevent",
+    "lat": 50.365055,
+    "lng": 3.198049,
+    "transactions": [
+      {
+        "date": "2024-07-12",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "88ee872e9e3e": {
+    "id": "88ee872e9e3e",
+    "label": "933 RUE DU MARECHAL LECLERC, Montigny-en-Ostrevent",
+    "lat": 50.366433,
+    "lng": 3.1984,
+    "transactions": [
+      {
+        "date": "2025-05-27",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

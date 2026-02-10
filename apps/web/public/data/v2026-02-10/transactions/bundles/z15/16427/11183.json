@@ -1,0 +1,32 @@
+{
+  "ca0b502bd55d": {
+    "id": "ca0b502bd55d",
+    "label": "385 RUE DE LA PIERRE GANT, Saint-Nicolas-de-la-Taille",
+    "lat": 49.500358,
+    "lng": 0.472498,
+    "transactions": [
+      {
+        "date": "2024-06-26",
+        "priceEur": 334300,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "14d1a5b93ff6": {
+    "id": "14d1a5b93ff6",
+    "label": "8 IMP DES SOURCES, Saint-Nicolas-de-la-Taille",
+    "lat": 49.50327,
+    "lng": 0.472561,
+    "transactions": [
+      {
+        "date": "2025-04-16",
+        "priceEur": 184000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  }
+}

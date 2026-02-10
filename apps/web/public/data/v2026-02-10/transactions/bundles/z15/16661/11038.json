@@ -1,0 +1,62 @@
+{
+  "eb6b7866d16a": {
+    "id": "eb6b7866d16a",
+    "label": "15 RUE DE LA GRANDE POTERIE, Attiches",
+    "lat": 50.522067,
+    "lng": 3.052534,
+    "transactions": [
+      {
+        "date": "2021-09-03",
+        "priceEur": 456800,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "739c9017beda": {
+    "id": "739c9017beda",
+    "label": "23 RUE DE LA GRANDE POTERIE, Attiches",
+    "lat": 50.52257,
+    "lng": 3.052236,
+    "transactions": [
+      {
+        "date": "2022-09-12",
+        "priceEur": 455000,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "a4edc402133d": {
+    "id": "a4edc402133d",
+    "label": "24 RUE DE LA FAISANDERIE, Attiches",
+    "lat": 50.52094,
+    "lng": 3.053478,
+    "transactions": [
+      {
+        "date": "2025-02-18",
+        "priceEur": 187200,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "ba7a954729e2": {
+    "id": "ba7a954729e2",
+    "label": "40 RUE DE LA GRANDE POTERIE, Attiches",
+    "lat": 50.523,
+    "lng": 3.052925,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 350232,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

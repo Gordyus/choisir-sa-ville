@@ -1,0 +1,62 @@
+{
+  "4f51e845da66": {
+    "id": "4f51e845da66",
+    "label": "68 RTE DE LA VATINE, Gonneville-sur-Scie",
+    "lat": 49.756122,
+    "lng": 1.071444,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 342000,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  },
+  "9af7c97d9986": {
+    "id": "9af7c97d9986",
+    "label": "158 RTE DU CIMETIERE, Gonneville-sur-Scie",
+    "lat": 49.755708,
+    "lng": 1.076652,
+    "transactions": [
+      {
+        "date": "2020-11-13",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "23507084028a": {
+    "id": "23507084028a",
+    "label": "325 RTE DE HEUGLEVILLE, Gonneville-sur-Scie",
+    "lat": 49.75425,
+    "lng": 1.07575,
+    "transactions": [
+      {
+        "date": "2022-09-14",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb379aaddfdb": {
+    "id": "fb379aaddfdb",
+    "label": "170 IMP DE LA FORGE, Gonneville-sur-Scie",
+    "lat": 49.752937,
+    "lng": 1.074317,
+    "transactions": [
+      {
+        "date": "2024-11-22",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "93ce867f7109": {
+    "id": "93ce867f7109",
+    "label": "5094 LA TREMBLAYE, Bully",
+    "lat": 49.721647,
+    "lng": 1.368145,
+    "transactions": [
+      {
+        "date": "2022-12-03",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-25",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "946063d4fce4": {
+    "id": "946063d4fce4",
+    "label": "5084 LA PLATRIERE, Bully",
+    "lat": 49.721799,
+    "lng": 1.369676,
+    "transactions": [
+      {
+        "date": "2021-03-26",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "63339ec77395": {
+    "id": "63339ec77395",
+    "label": "5083 LA PLATRIERE, Bully",
+    "lat": 49.721871,
+    "lng": 1.371682,
+    "transactions": [
+      {
+        "date": "2022-04-07",
+        "priceEur": 167675,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-07",
+        "priceEur": 167675,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "603653238e1d": {
+    "id": "603653238e1d",
+    "label": "316 RTE D'ESCLAVELLES, Bully",
+    "lat": 49.723942,
+    "lng": 1.369077,
+    "transactions": [
+      {
+        "date": "2023-09-29",
+        "priceEur": 199200,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "8567ae4b8753": {
+    "id": "8567ae4b8753",
+    "label": "5089 LA PLATRIERE, Bully",
+    "lat": 49.717377,
+    "lng": 1.372456,
+    "transactions": [
+      {
+        "date": "2024-06-19",
+        "priceEur": 96200,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  }
+}

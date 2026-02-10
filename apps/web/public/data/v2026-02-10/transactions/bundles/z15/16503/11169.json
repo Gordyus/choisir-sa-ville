@@ -1,0 +1,39 @@
+{
+  "a8f8e49867d9": {
+    "id": "a8f8e49867d9",
+    "label": "271 RUE DU GRAND PARC, Rocquemont",
+    "lat": 49.600209,
+    "lng": 1.315502,
+    "transactions": [
+      {
+        "date": "2023-04-22",
+        "priceEur": 204000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "65e65123e2b1": {
+    "id": "65e65123e2b1",
+    "label": "425 RUE DU GRAND PARC, Rocquemont",
+    "lat": 49.60165,
+    "lng": 1.316864,
+    "transactions": [
+      {
+        "date": "2024-02-22",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-22",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "c37a7ac6cf1c": {
+    "id": "c37a7ac6cf1c",
+    "label": "18 HAMEAU DE COPPENAXFORT, Brouckerque",
+    "lat": 50.956201,
+    "lng": 2.265953,
+    "transactions": [
+      {
+        "date": "2021-06-17",
+        "priceEur": 182500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-17",
+        "priceEur": 182500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "e93cd376fc86": {
+    "id": "e93cd376fc86",
+    "label": "2 CHE DU VLIET, Brouckerque",
+    "lat": 50.954867,
+    "lng": 2.265024,
+    "transactions": [
+      {
+        "date": "2023-02-17",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "ec249e5cfe83": {
+    "id": "ec249e5cfe83",
+    "label": "10 HAMEAU DE COPPENAXFORT, Brouckerque",
+    "lat": 50.956418,
+    "lng": 2.266513,
+    "transactions": [
+      {
+        "date": "2023-12-20",
+        "priceEur": 171950,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "7dc8443a5046": {
+    "id": "7dc8443a5046",
+    "label": "2476 RTE DE COPPENAXFORT CD 17, Craywick",
+    "lat": 50.955855,
+    "lng": 2.26341,
+    "transactions": [
+      {
+        "date": "2024-02-22",
+        "priceEur": 480000,
+        "typeLocal": "Maison",
+        "surfaceM2": 380,
+        "isVefa": false
+      }
+    ]
+  },
+  "42ef88a987e9": {
+    "id": "42ef88a987e9",
+    "label": "18T HAMEAU DE COPPENAXFORT, Brouckerque",
+    "lat": 50.956054,
+    "lng": 2.26585,
+    "transactions": [
+      {
+        "date": "2024-09-13",
+        "priceEur": 494300,
+        "typeLocal": "Maison",
+        "surfaceM2": 202,
+        "isVefa": false
+      }
+    ]
+  },
+  "219eedda2dff": {
+    "id": "219eedda2dff",
+    "label": "18B HAMEAU DE COPPENAXFORT, Brouckerque",
+    "lat": 50.9561,
+    "lng": 2.266109,
+    "transactions": [
+      {
+        "date": "2025-02-06",
+        "priceEur": 362000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-06",
+        "priceEur": 362000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  }
+}

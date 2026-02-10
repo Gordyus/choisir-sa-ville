@@ -1,0 +1,32 @@
+{
+  "f8e74c5cb0aa": {
+    "id": "f8e74c5cb0aa",
+    "label": "475 RUE DU MONT KOKEREL, Boeschepe",
+    "lat": 50.787107,
+    "lng": 2.701466,
+    "transactions": [
+      {
+        "date": "2022-10-18",
+        "priceEur": 843938,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "e866dd7b1b48": {
+    "id": "e866dd7b1b48",
+    "label": "567 RUE DE WESTOUTRE, Boeschepe",
+    "lat": 50.790776,
+    "lng": 2.702087,
+    "transactions": [
+      {
+        "date": "2023-09-05",
+        "priceEur": 172500,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  }
+}

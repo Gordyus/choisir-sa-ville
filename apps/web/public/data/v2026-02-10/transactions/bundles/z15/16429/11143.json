@@ -1,0 +1,47 @@
+{
+  "8544c4993873": {
+    "id": "8544c4993873",
+    "label": "47 RTE DE SASSETOT, Ancretteville-sur-Mer",
+    "lat": 49.787109,
+    "lng": 0.498358,
+    "transactions": [
+      {
+        "date": "2020-09-22",
+        "priceEur": 207900,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e05908b5441": {
+    "id": "6e05908b5441",
+    "label": "65 RUE D ESCOMBARDEVILLE, Ancretteville-sur-Mer",
+    "lat": 49.786482,
+    "lng": 0.497231,
+    "transactions": [
+      {
+        "date": "2022-08-19",
+        "priceEur": 311050,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "d926b0c3d23c": {
+    "id": "d926b0c3d23c",
+    "label": "69 RTE DE SASSETOT, Ancretteville-sur-Mer",
+    "lat": 49.78695,
+    "lng": 0.499286,
+    "transactions": [
+      {
+        "date": "2024-01-11",
+        "priceEur": 325070,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

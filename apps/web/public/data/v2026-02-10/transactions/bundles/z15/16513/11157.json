@@ -1,0 +1,47 @@
+{
+  "a5075590c56c": {
+    "id": "a5075590c56c",
+    "label": "5021 LES TROIS OREILLES, Fontaine-en-Bray",
+    "lat": 49.684451,
+    "lng": 1.428193,
+    "transactions": [
+      {
+        "date": "2020-08-07",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "0df6c9df2a5d": {
+    "id": "0df6c9df2a5d",
+    "label": "5081 LES TROIS OREILLES, Fontaine-en-Bray",
+    "lat": 49.684354,
+    "lng": 1.427776,
+    "transactions": [
+      {
+        "date": "2021-08-11",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "a69151067d96": {
+    "id": "a69151067d96",
+    "label": "14 LINTENTOT, Massy",
+    "lat": 49.688611,
+    "lng": 1.42159,
+    "transactions": [
+      {
+        "date": "2022-02-17",
+        "priceEur": 61250,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  }
+}

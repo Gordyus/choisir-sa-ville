@@ -1,0 +1,47 @@
+{
+  "ab5a7deaf49f": {
+    "id": "ab5a7deaf49f",
+    "label": "5695 LE RENDEZ-VOUS, Gaillefontaine",
+    "lat": 49.645924,
+    "lng": 1.619293,
+    "transactions": [
+      {
+        "date": "2021-03-31",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "233e66686d4b": {
+    "id": "233e66686d4b",
+    "label": "5202 LES CROISETTES, Gaillefontaine",
+    "lat": 49.640143,
+    "lng": 1.61788,
+    "transactions": [
+      {
+        "date": "2021-10-12",
+        "priceEur": 241386,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "2be5527727b5": {
+    "id": "2be5527727b5",
+    "label": "1 RTE DE GOURNAY, Gaillefontaine",
+    "lat": 49.641325,
+    "lng": 1.619746,
+    "transactions": [
+      {
+        "date": "2025-02-18",
+        "priceEur": 48000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

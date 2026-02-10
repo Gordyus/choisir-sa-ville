@@ -1,0 +1,92 @@
+{
+  "a8d3f1ca13b6": {
+    "id": "a8d3f1ca13b6",
+    "label": "345 RUE DE LA LIBERATION, Bachy",
+    "lat": 50.546157,
+    "lng": 3.27086,
+    "transactions": [
+      {
+        "date": "2021-03-31",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "c697a23cdc50": {
+    "id": "c697a23cdc50",
+    "label": "31 RUE LEO LAGRANGE, Bachy",
+    "lat": 50.546325,
+    "lng": 3.263501,
+    "transactions": [
+      {
+        "date": "2021-04-16",
+        "priceEur": 394000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf5ca889ed3c": {
+    "id": "bf5ca889ed3c",
+    "label": "82 RUE DE LA LIBERATION, Bachy",
+    "lat": 50.545255,
+    "lng": 3.267328,
+    "transactions": [
+      {
+        "date": "2021-06-08",
+        "priceEur": 419210,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "22bc0e04aa79": {
+    "id": "22bc0e04aa79",
+    "label": "436 RUE ROGER SALENGRO, Bachy",
+    "lat": 50.546427,
+    "lng": 3.263929,
+    "transactions": [
+      {
+        "date": "2021-06-16",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "471958469e40": {
+    "id": "471958469e40",
+    "label": "404 RUE DE LA LIBERATION, Bachy",
+    "lat": 50.546138,
+    "lng": 3.272488,
+    "transactions": [
+      {
+        "date": "2023-11-09",
+        "priceEur": 174750,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "bdf2f61d3f0b": {
+    "id": "bdf2f61d3f0b",
+    "label": "523 RUE ROGER SALENGRO, Bachy",
+    "lat": 50.546086,
+    "lng": 3.265326,
+    "transactions": [
+      {
+        "date": "2025-03-21",
+        "priceEur": 240810,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "c4c08ee078c1": {
+    "id": "c4c08ee078c1",
+    "label": "356 IMP DE LA RACADAILLE, Beuzevillette",
+    "lat": 49.578687,
+    "lng": 0.536521,
+    "transactions": [
+      {
+        "date": "2021-11-18",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "337782e15896": {
+    "id": "337782e15896",
+    "label": "1174 RUE DU FOND DES COTES, Beuzevillette",
+    "lat": 49.575359,
+    "lng": 0.537136,
+    "transactions": [
+      {
+        "date": "2025-01-29",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-15",
+        "priceEur": 120500,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  }
+}

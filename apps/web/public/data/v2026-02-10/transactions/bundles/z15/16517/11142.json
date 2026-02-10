@@ -1,0 +1,47 @@
+{
+  "8fe89622236e": {
+    "id": "8fe89622236e",
+    "label": "5006 LE MOULIN, Lucy",
+    "lat": 49.791089,
+    "lng": 1.461254,
+    "transactions": [
+      {
+        "date": "2020-11-16",
+        "priceEur": 142500,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "921dddbf489a": {
+    "id": "921dddbf489a",
+    "label": "5005 LE MOULIN, Lucy",
+    "lat": 49.791247,
+    "lng": 1.461613,
+    "transactions": [
+      {
+        "date": "2022-03-12",
+        "priceEur": 88000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "8289ab4249a5": {
+    "id": "8289ab4249a5",
+    "label": "18 RUE DU MOULIN, Lucy",
+    "lat": 49.790197,
+    "lng": 1.463848,
+    "transactions": [
+      {
+        "date": "2023-06-07",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  }
+}

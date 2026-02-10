@@ -1,0 +1,32 @@
+{
+  "bae834061cea": {
+    "id": "bae834061cea",
+    "label": "407 RTE EPINETTE, Pommeréval",
+    "lat": 49.731196,
+    "lng": 1.310207,
+    "transactions": [
+      {
+        "date": "2023-05-04",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "62665f4741a9": {
+    "id": "62665f4741a9",
+    "label": "535A RTE EPINETTE, Pommeréval",
+    "lat": 49.730034,
+    "lng": 1.309718,
+    "transactions": [
+      {
+        "date": "2025-02-06",
+        "priceEur": 66500,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

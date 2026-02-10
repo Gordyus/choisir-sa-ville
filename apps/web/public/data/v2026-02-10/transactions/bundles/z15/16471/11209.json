@@ -1,0 +1,32 @@
+{
+  "a538ad7ce1e4": {
+    "id": "a538ad7ce1e4",
+    "label": "217 RUE DES BRUYERES, La Londe",
+    "lat": 49.311786,
+    "lng": 0.956751,
+    "transactions": [
+      {
+        "date": "2022-10-14",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "7609a49b8db9": {
+    "id": "7609a49b8db9",
+    "label": "209 RUE DE LA MARE D ECRISSE, La Londe",
+    "lat": 49.311662,
+    "lng": 0.957537,
+    "transactions": [
+      {
+        "date": "2022-12-27",
+        "priceEur": 224600,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  }
+}

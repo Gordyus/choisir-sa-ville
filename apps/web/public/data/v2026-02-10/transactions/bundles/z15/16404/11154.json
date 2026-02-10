@@ -1,0 +1,166 @@
+{
+  "fa1591d9a556": {
+    "id": "fa1591d9a556",
+    "label": "1 IMP DE LA CHAPELLE, Bordeaux-Saint-Clair",
+    "lat": 49.703783,
+    "lng": 0.228029,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "d29561a07f80": {
+    "id": "d29561a07f80",
+    "label": "18 RTE DU PETIT VAL, Bordeaux-Saint-Clair",
+    "lat": 49.708944,
+    "lng": 0.219889,
+    "transactions": [
+      {
+        "date": "2020-09-14",
+        "priceEur": 72000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "26961a2668e7": {
+    "id": "26961a2668e7",
+    "label": "21 RTE DE SAINT CLAIR, Bordeaux-Saint-Clair",
+    "lat": 49.703436,
+    "lng": 0.225129,
+    "transactions": [
+      {
+        "date": "2021-05-12",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5548ff55d94": {
+    "id": "f5548ff55d94",
+    "label": "19 RTE DE SAINT CLAIR, Bordeaux-Saint-Clair",
+    "lat": 49.703342,
+    "lng": 0.225359,
+    "transactions": [
+      {
+        "date": "2021-07-09",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-09",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "730ada4a1b7d": {
+    "id": "730ada4a1b7d",
+    "label": "22 RTE DU PETIT VAL, Bordeaux-Saint-Clair",
+    "lat": 49.709784,
+    "lng": 0.221933,
+    "transactions": [
+      {
+        "date": "2021-12-02",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "460d3e8ae1f7": {
+    "id": "460d3e8ae1f7",
+    "label": "24 RTE DU PETIT VAL, Bordeaux-Saint-Clair",
+    "lat": 49.710039,
+    "lng": 0.222658,
+    "transactions": [
+      {
+        "date": "2023-09-15",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "20982363a1d5": {
+    "id": "20982363a1d5",
+    "label": "21B RTE DE SAINT CLAIR, Bordeaux-Saint-Clair",
+    "lat": 49.704341,
+    "lng": 0.221439,
+    "transactions": [
+      {
+        "date": "2023-12-28",
+        "priceEur": 981000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-28",
+        "priceEur": 981000,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  },
+  "145ad83838bd": {
+    "id": "145ad83838bd",
+    "label": "23 RTE DE SAINT CLAIR, Bordeaux-Saint-Clair",
+    "lat": 49.703237,
+    "lng": 0.22068,
+    "transactions": [
+      {
+        "date": "2023-12-28",
+        "priceEur": 981000,
+        "typeLocal": "Maison",
+        "surfaceM2": 250,
+        "isVefa": false
+      }
+    ]
+  },
+  "3cee15b3dea8": {
+    "id": "3cee15b3dea8",
+    "label": "14 RTE DU PETIT VAL, Bordeaux-Saint-Clair",
+    "lat": 49.709095,
+    "lng": 0.22119,
+    "transactions": [
+      {
+        "date": "2024-05-29",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 16,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7f324357956": {
+    "id": "b7f324357956",
+    "label": "26B RTE DE SAINT CLAIR, Bordeaux-Saint-Clair",
+    "lat": 49.704458,
+    "lng": 0.226538,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 307650,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  }
+}

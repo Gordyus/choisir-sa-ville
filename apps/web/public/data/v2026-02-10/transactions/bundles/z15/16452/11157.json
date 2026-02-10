@@ -1,0 +1,47 @@
+{
+  "8e9f41bef2da": {
+    "id": "8e9f41bef2da",
+    "label": "254 RUE DE L OREE DU BOIS, Hautot-Saint-Sulpice",
+    "lat": 49.682647,
+    "lng": 0.749458,
+    "transactions": [
+      {
+        "date": "2020-08-13",
+        "priceEur": 183000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "73a550a531f3": {
+    "id": "73a550a531f3",
+    "label": "328 RUE DE L OREE DU BOIS, Hautot-Saint-Sulpice",
+    "lat": 49.682506,
+    "lng": 0.749766,
+    "transactions": [
+      {
+        "date": "2024-06-07",
+        "priceEur": 139300,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea34bae3dbc5": {
+    "id": "ea34bae3dbc5",
+    "label": "301 RUE DE L OREE DU BOIS, Hautot-Saint-Sulpice",
+    "lat": 49.683057,
+    "lng": 0.749736,
+    "transactions": [
+      {
+        "date": "2024-07-25",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "0be8ad5626d3": {
+    "id": "0be8ad5626d3",
+    "label": "16 RUE DES TISSERANDS, Riville",
+    "lat": 49.727556,
+    "lng": 0.561699,
+    "transactions": [
+      {
+        "date": "2020-07-30",
+        "priceEur": 327000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "de80939c83f0": {
+    "id": "de80939c83f0",
+    "label": "7 RUE VERTE, Riville",
+    "lat": 49.724896,
+    "lng": 0.568175,
+    "transactions": [
+      {
+        "date": "2020-09-18",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d3db5fca226": {
+    "id": "8d3db5fca226",
+    "label": "6 IMP MARGUERITE, Riville",
+    "lat": 49.726573,
+    "lng": 0.564634,
+    "transactions": [
+      {
+        "date": "2021-03-05",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "09689228fee7": {
+    "id": "09689228fee7",
+    "label": "9 RUE VERTE, Riville",
+    "lat": 49.724862,
+    "lng": 0.567781,
+    "transactions": [
+      {
+        "date": "2024-01-31",
+        "priceEur": 69500,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "1fe2e0a9c5c2": {
+    "id": "1fe2e0a9c5c2",
+    "label": "3 RUE RAMONT, Riville",
+    "lat": 49.726781,
+    "lng": 0.56114,
+    "transactions": [
+      {
+        "date": "2024-07-19",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "799680f5aaa5": {
+    "id": "799680f5aaa5",
+    "label": "8 RUE DES TISSERANDS, Riville",
+    "lat": 49.726868,
+    "lng": 0.561864,
+    "transactions": [
+      {
+        "date": "2024-07-22",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

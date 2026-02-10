@@ -1,0 +1,107 @@
+{
+  "844dbdbe011c": {
+    "id": "844dbdbe011c",
+    "label": "5079 LE VILLAGE GUILMECOURT, Petit-Caux",
+    "lat": 49.965301,
+    "lng": 1.298615,
+    "transactions": [
+      {
+        "date": "2020-12-23",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "c79aaa11a7e4": {
+    "id": "c79aaa11a7e4",
+    "label": "53 RUE SAINT PIERRE, Petit-Caux",
+    "lat": 49.961048,
+    "lng": 1.304448,
+    "transactions": [
+      {
+        "date": "2020-12-29",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "e485fbb58973": {
+    "id": "e485fbb58973",
+    "label": "43 RUE SAINT PIERRE, Petit-Caux",
+    "lat": 49.962404,
+    "lng": 1.303893,
+    "transactions": [
+      {
+        "date": "2022-01-08",
+        "priceEur": 211500,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7b87e1b712e": {
+    "id": "b7b87e1b712e",
+    "label": "16 LOT LE CLOS DES GRANGES, Petit-Caux",
+    "lat": 49.962721,
+    "lng": 1.296829,
+    "transactions": [
+      {
+        "date": "2022-01-18",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "87ea498e9a9c": {
+    "id": "87ea498e9a9c",
+    "label": "10 RUE DE LA CAMPAGNETTE, Petit-Caux",
+    "lat": 49.96311,
+    "lng": 1.29649,
+    "transactions": [
+      {
+        "date": "2023-07-18",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "eee72829879c": {
+    "id": "eee72829879c",
+    "label": "5082 LE VILLAGE GUILMECOURT, Petit-Caux",
+    "lat": 49.9644,
+    "lng": 1.296807,
+    "transactions": [
+      {
+        "date": "2025-02-19",
+        "priceEur": 127800,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "898557a91301": {
+    "id": "898557a91301",
+    "label": "3 RUE NEUVE, Petit-Caux",
+    "lat": 49.964536,
+    "lng": 1.305449,
+    "transactions": [
+      {
+        "date": "2025-06-30",
+        "priceEur": 233000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "ee982bbbd785": {
+    "id": "ee982bbbd785",
+    "label": "139 RTE DE BORRE, Hazebrouck",
+    "lat": 50.73107,
+    "lng": 2.560166,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "866993479151": {
+    "id": "866993479151",
+    "label": "222 RTE DE BORRE, Hazebrouck",
+    "lat": 50.730622,
+    "lng": 2.563091,
+    "transactions": [
+      {
+        "date": "2022-01-14",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "37b7e54219f8": {
+    "id": "37b7e54219f8",
+    "label": "208 RTE DE BORRE, Hazebrouck",
+    "lat": 50.73035,
+    "lng": 2.560807,
+    "transactions": [
+      {
+        "date": "2022-03-18",
+        "priceEur": 225600,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "216dacb880a2": {
+    "id": "216dacb880a2",
+    "label": "113 RTE NATIONALE, Borre",
+    "lat": 50.732421,
+    "lng": 2.566911,
+    "transactions": [
+      {
+        "date": "2022-10-21",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

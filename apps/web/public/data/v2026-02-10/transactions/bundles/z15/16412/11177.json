@@ -1,0 +1,107 @@
+{
+  "b270ac2c768e": {
+    "id": "b270ac2c768e",
+    "label": "5077 FERME MAURICE, Épretot",
+    "lat": 49.541009,
+    "lng": 0.312854,
+    "transactions": [
+      {
+        "date": "2020-09-18",
+        "priceEur": 161000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e5079bd13c3": {
+    "id": "7e5079bd13c3",
+    "label": "150 RTE DE SAINNEVILLE, Épretot",
+    "lat": 49.541372,
+    "lng": 0.312584,
+    "transactions": [
+      {
+        "date": "2021-09-06",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "a7c83f9c7dd5": {
+    "id": "a7c83f9c7dd5",
+    "label": "5 RES GODEFROY, Épretot",
+    "lat": 49.542307,
+    "lng": 0.313106,
+    "transactions": [
+      {
+        "date": "2021-08-25",
+        "priceEur": 288000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "2675249df6af": {
+    "id": "2675249df6af",
+    "label": "5045 FERME MAURICE, Épretot",
+    "lat": 49.54118,
+    "lng": 0.312816,
+    "transactions": [
+      {
+        "date": "2021-12-16",
+        "priceEur": 271000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c83a9cf8e51": {
+    "id": "5c83a9cf8e51",
+    "label": "154 RTE DE SAINNEVILLE, Épretot",
+    "lat": 49.541549,
+    "lng": 0.312468,
+    "transactions": [
+      {
+        "date": "2022-03-15",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "ddd72cf8ca54": {
+    "id": "ddd72cf8ca54",
+    "label": "95 LE VILLAGE, Épretot",
+    "lat": 49.539617,
+    "lng": 0.314906,
+    "transactions": [
+      {
+        "date": "2024-08-23",
+        "priceEur": 421000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a7c622111cc": {
+    "id": "9a7c622111cc",
+    "label": "3 RES GODEFROY, Épretot",
+    "lat": 49.542304,
+    "lng": 0.312351,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 365000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

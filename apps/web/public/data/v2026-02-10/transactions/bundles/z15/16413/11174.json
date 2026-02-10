@@ -1,0 +1,84 @@
+{
+  "924e3723feb2": {
+    "id": "924e3723feb2",
+    "label": "5 LES HETRES DU PRETOT, Étainhus",
+    "lat": 49.561902,
+    "lng": 0.327141,
+    "transactions": [
+      {
+        "date": "2020-07-02",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "c482cead8d3c": {
+    "id": "c482cead8d3c",
+    "label": "150 CHE DE LA CHAPELLE, Étainhus",
+    "lat": 49.565351,
+    "lng": 0.326991,
+    "transactions": [
+      {
+        "date": "2020-08-24",
+        "priceEur": 256900,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "d66a6b55f526": {
+    "id": "d66a6b55f526",
+    "label": "57 CHE SAINT PIERRE, Étainhus",
+    "lat": 49.56552,
+    "lng": 0.325881,
+    "transactions": [
+      {
+        "date": "2021-06-17",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "26aed1908dcb": {
+    "id": "26aed1908dcb",
+    "label": "484 RTE DE LA HETRAIE, Étainhus",
+    "lat": 49.563955,
+    "lng": 0.326045,
+    "transactions": [
+      {
+        "date": "2021-12-30",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "b04c51d6e1f9": {
+    "id": "b04c51d6e1f9",
+    "label": "483 RTE DE LA HETRAIE, Étainhus",
+    "lat": 49.562439,
+    "lng": 0.324752,
+    "transactions": [
+      {
+        "date": "2024-03-28",
+        "priceEur": 460000,
+        "typeLocal": "Maison",
+        "surfaceM2": 157,
+        "isVefa": false
+      },
+      {
+        "date": "2024-03-28",
+        "priceEur": 460000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  }
+}

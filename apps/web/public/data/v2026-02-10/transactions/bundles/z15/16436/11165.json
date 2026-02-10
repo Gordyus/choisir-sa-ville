@@ -1,0 +1,107 @@
+{
+  "9391fbee68b3": {
+    "id": "9391fbee68b3",
+    "label": "290 RUE DE LA MAIRIE - AUZOUVILLE, Terres-de-Caux",
+    "lat": 49.62944,
+    "lng": 0.573865,
+    "transactions": [
+      {
+        "date": "2021-03-23",
+        "priceEur": 204000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "0acbc853415c": {
+    "id": "0acbc853415c",
+    "label": "80 RTE DE BOLBEC - AUZOUVILLE, Terres-de-Caux",
+    "lat": 49.630243,
+    "lng": 0.57624,
+    "transactions": [
+      {
+        "date": "2021-10-05",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d003e0d2a62": {
+    "id": "5d003e0d2a62",
+    "label": "32 CHE DU MONT JOYEUX, Terres-de-Caux",
+    "lat": 49.629999,
+    "lng": 0.574554,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 264500,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "55218ed2756b": {
+    "id": "55218ed2756b",
+    "label": "8 IMP DES PRES - AUZOUVILLE AUBE, Terres-de-Caux",
+    "lat": 49.62808,
+    "lng": 0.57165,
+    "transactions": [
+      {
+        "date": "2021-01-15",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d6e8fa36970": {
+    "id": "2d6e8fa36970",
+    "label": "1 RTE DE BOLBEC - AUZOUVILLE, Terres-de-Caux",
+    "lat": 49.63058,
+    "lng": 0.577382,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "dabfa1eab4da": {
+    "id": "dabfa1eab4da",
+    "label": "311 RUE DE LA MAIRIE - AUZOUVILLE, Terres-de-Caux",
+    "lat": 49.628939,
+    "lng": 0.574266,
+    "transactions": [
+      {
+        "date": "2022-11-03",
+        "priceEur": 204000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "d42cc71cb2a1": {
+    "id": "d42cc71cb2a1",
+    "label": "7 IMP DES PRES - AUZOUVILLE AUBE, Terres-de-Caux",
+    "lat": 49.627888,
+    "lng": 0.57139,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "2098b173642e": {
+    "id": "2098b173642e",
+    "label": "5377 HAUT DE BLANCMESNIL, Sainte-Marguerite-sur-Mer",
+    "lat": 49.908434,
+    "lng": 0.970812,
+    "transactions": [
+      {
+        "date": "2020-08-14",
+        "priceEur": 248000,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "362c24efda65": {
+    "id": "362c24efda65",
+    "label": "5 CHE DES PERELLES, Varengeville-sur-Mer",
+    "lat": 49.906905,
+    "lng": 0.977547,
+    "transactions": [
+      {
+        "date": "2021-11-15",
+        "priceEur": 390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "1029c31510ea": {
+    "id": "1029c31510ea",
+    "label": "1 LA SOURCE, Varengeville-sur-Mer",
+    "lat": 49.906163,
+    "lng": 0.974194,
+    "transactions": [
+      {
+        "date": "2021-02-01",
+        "priceEur": 749000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "b615f52a654c": {
+    "id": "b615f52a654c",
+    "label": "5081 BLANCMESNIL, Varengeville-sur-Mer",
+    "lat": 49.907655,
+    "lng": 0.975375,
+    "transactions": [
+      {
+        "date": "2021-03-06",
+        "priceEur": 428406,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "845fd40bcf3f": {
+    "id": "845fd40bcf3f",
+    "label": "5028 HAUT DE BLANCMESNIL, Sainte-Marguerite-sur-Mer",
+    "lat": 49.908162,
+    "lng": 0.970636,
+    "transactions": [
+      {
+        "date": "2021-03-18",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "e27091acd45b": {
+    "id": "e27091acd45b",
+    "label": "11 RTE DE VASTERIVAL, Varengeville-sur-Mer",
+    "lat": 49.908304,
+    "lng": 0.971923,
+    "transactions": [
+      {
+        "date": "2025-02-26",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  }
+}

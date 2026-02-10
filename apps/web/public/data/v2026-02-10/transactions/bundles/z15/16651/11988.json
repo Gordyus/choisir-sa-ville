@@ -1,0 +1,84 @@
+{
+  "8e2c4ab65b28": {
+    "id": "8e2c4ab65b28",
+    "label": "1 LE MARTINET, Saint-Chinian",
+    "lat": 43.4175,
+    "lng": 2.940723,
+    "transactions": [
+      {
+        "date": "2020-07-27",
+        "priceEur": 171900,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "929fdd891013": {
+    "id": "929fdd891013",
+    "label": "70 CHE DE LA ROUQUETTE, Saint-Chinian",
+    "lat": 43.418545,
+    "lng": 2.943863,
+    "transactions": [
+      {
+        "date": "2022-09-14",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "188f26f23224": {
+    "id": "188f26f23224",
+    "label": "26 RUE DU CANAL DE L ABBE, Saint-Chinian",
+    "lat": 43.420663,
+    "lng": 2.943949,
+    "transactions": [
+      {
+        "date": "2022-10-25",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "eade3b551ecd": {
+    "id": "eade3b551ecd",
+    "label": "10 RUE DE LA FONTAINE VALENTIN, Saint-Chinian",
+    "lat": 43.42009,
+    "lng": 2.944252,
+    "transactions": [
+      {
+        "date": "2022-11-07",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 260,
+        "isVefa": false
+      }
+    ]
+  },
+  "ffb89ee430b2": {
+    "id": "ffb89ee430b2",
+    "label": "12 LE MARTINET, Saint-Chinian",
+    "lat": 43.416985,
+    "lng": 2.939631,
+    "transactions": [
+      {
+        "date": "2023-10-11",
+        "priceEur": 475000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-11",
+        "priceEur": 475000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  }
+}

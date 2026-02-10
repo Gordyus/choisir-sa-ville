@@ -1,0 +1,32 @@
+{
+  "ef95b8306d41": {
+    "id": "ef95b8306d41",
+    "label": "140 RUE EDMOND LAUDEAU, Aniche",
+    "lat": 50.325808,
+    "lng": 3.263343,
+    "transactions": [
+      {
+        "date": "2022-07-07",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3c08ece3747": {
+    "id": "b3c08ece3747",
+    "label": "137 RUE EDMOND LAUDEAU, Aniche",
+    "lat": 50.326435,
+    "lng": 3.263428,
+    "transactions": [
+      {
+        "date": "2022-08-02",
+        "priceEur": 88500,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "f6d12b94ff3d": {
+    "id": "f6d12b94ff3d",
+    "label": "5483 RUE DU ONZE NOVEMBRE, Aumale",
+    "lat": 49.766768,
+    "lng": 1.762811,
+    "transactions": [
+      {
+        "date": "2024-07-12",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a7535508b8f": {
+    "id": "2a7535508b8f",
+    "label": "24 RUE DU ONZE NOVEMBRE, Aumale",
+    "lat": 49.766331,
+    "lng": 1.761899,
+    "transactions": [
+      {
+        "date": "2024-09-25",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "20fb3318e8ec": {
+    "id": "20fb3318e8ec",
+    "label": "8 RTE DE PICARDIE, Aumale",
+    "lat": 49.766874,
+    "lng": 1.763476,
+    "transactions": [
+      {
+        "date": "2024-09-25",
+        "priceEur": 68000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "58997d79f234": {
+    "id": "58997d79f234",
+    "label": "2B RUE DU ONZE NOVEMBRE, Aumale",
+    "lat": 49.766387,
+    "lng": 1.760465,
+    "transactions": [
+      {
+        "date": "2024-09-14",
+        "priceEur": 163650,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "40395f05ec34": {
+    "id": "40395f05ec34",
+    "label": "11 RUE DU ONZE NOVEMBRE, Aumale",
+    "lat": 49.767001,
+    "lng": 1.761287,
+    "transactions": [
+      {
+        "date": "2024-10-11",
+        "priceEur": 126500,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "df8978aa6f58": {
+    "id": "df8978aa6f58",
+    "label": "49 RUE DU ONZE NOVEMBRE, Aumale",
+    "lat": 49.766334,
+    "lng": 1.76631,
+    "transactions": [
+      {
+        "date": "2024-11-14",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "e52257276e19": {
+    "id": "e52257276e19",
+    "label": "4 RUE DU ONZE NOVEMBRE, Aumale",
+    "lat": 49.766672,
+    "lng": 1.760413,
+    "transactions": [
+      {
+        "date": "2024-12-17",
+        "priceEur": 79000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  }
+}

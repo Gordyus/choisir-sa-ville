@@ -1,0 +1,77 @@
+{
+  "9fa84a3d1227": {
+    "id": "9fa84a3d1227",
+    "label": "1200 CHE DE L'HAENEDRIES, Bailleul",
+    "lat": 50.749775,
+    "lng": 2.767599,
+    "transactions": [
+      {
+        "date": "2021-01-11",
+        "priceEur": 82000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "72c913007159": {
+    "id": "72c913007159",
+    "label": "1241 WEZELDREFF, Bailleul",
+    "lat": 50.744272,
+    "lng": 2.76797,
+    "transactions": [
+      {
+        "date": "2021-10-13",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff343f218d73": {
+    "id": "ff343f218d73",
+    "label": "640 CHE DE L'HAENEDRIES, Bailleul",
+    "lat": 50.747746,
+    "lng": 2.761989,
+    "transactions": [
+      {
+        "date": "2022-06-24",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a32fb62d7f0": {
+    "id": "9a32fb62d7f0",
+    "label": "580 CHE DE L'HAENEDRIES, Bailleul",
+    "lat": 50.748059,
+    "lng": 2.75906,
+    "transactions": [
+      {
+        "date": "2022-08-08",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "b140360d5913": {
+    "id": "b140360d5913",
+    "label": "551 WEZELDREFF, Bailleul",
+    "lat": 50.744065,
+    "lng": 2.758878,
+    "transactions": [
+      {
+        "date": "2022-10-06",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  }
+}

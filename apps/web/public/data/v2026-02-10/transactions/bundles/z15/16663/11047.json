@@ -1,0 +1,24 @@
+{
+  "ca99ca6407b2": {
+    "id": "ca99ca6407b2",
+    "label": "302 RUE DE THUMERIES, Moncheaux",
+    "lat": 50.458879,
+    "lng": 3.075787,
+    "transactions": [
+      {
+        "date": "2020-12-29",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-29",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  }
+}

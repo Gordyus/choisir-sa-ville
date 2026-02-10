@@ -1,0 +1,38 @@
+{
+  "2ce156710fa9": {
+    "id": "2ce156710fa9",
+    "label": "215 RUE DE PIETRE, Aubers",
+    "lat": 50.581712,
+    "lng": 2.792917,
+    "transactions": [
+      {
+        "date": "2021-04-21",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 229,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-21",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-21",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-21",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  }
+}

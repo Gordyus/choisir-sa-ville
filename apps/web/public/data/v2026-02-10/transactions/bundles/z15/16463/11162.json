@@ -1,0 +1,32 @@
+{
+  "46010f2ddc9b": {
+    "id": "46010f2ddc9b",
+    "label": "349 RTE DES PROMENOLES, Saint-Martin-aux-Arbres",
+    "lat": 49.647418,
+    "lng": 0.876647,
+    "transactions": [
+      {
+        "date": "2023-02-08",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee00bf6a9e9f": {
+    "id": "ee00bf6a9e9f",
+    "label": "154 RUE DU TORTILLARD, Saint-Martin-aux-Arbres",
+    "lat": 49.649182,
+    "lng": 0.875973,
+    "transactions": [
+      {
+        "date": "2024-04-06",
+        "priceEur": 183500,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  }
+}

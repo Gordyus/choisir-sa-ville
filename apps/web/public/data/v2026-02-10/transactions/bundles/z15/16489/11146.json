@@ -1,0 +1,39 @@
+{
+  "38cb0028f776": {
+    "id": "38cb0028f776",
+    "label": "1216 RTE DE LA CHAPELLE, Le Catelier",
+    "lat": 49.762839,
+    "lng": 1.162771,
+    "transactions": [
+      {
+        "date": "2021-12-14",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-12",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff040f0550fc": {
+    "id": "ff040f0550fc",
+    "label": "1053 RTE DE LA CHAPELLE, Le Catelier",
+    "lat": 49.762321,
+    "lng": 1.161131,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

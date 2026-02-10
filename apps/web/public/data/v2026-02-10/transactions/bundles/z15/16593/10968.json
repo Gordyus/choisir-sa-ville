@@ -1,0 +1,946 @@
+{
+  "f614a60b23aa": {
+    "id": "f614a60b23aa",
+    "label": "9002 RUE D ATHENES, Grande-Synthe",
+    "lat": 51.00944,
+    "lng": 2.305623,
+    "transactions": [
+      {
+        "date": "2020-08-11",
+        "priceEur": 164500,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "d0658199d491": {
+    "id": "d0658199d491",
+    "label": "68 RUE MICHELET, Grande-Synthe",
+    "lat": 51.012975,
+    "lng": 2.299221,
+    "transactions": [
+      {
+        "date": "2020-09-17",
+        "priceEur": 128950,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ffb6c048061": {
+    "id": "0ffb6c048061",
+    "label": "27 AV RENE CAREME, Grande-Synthe",
+    "lat": 51.012567,
+    "lng": 2.302196,
+    "transactions": [
+      {
+        "date": "2025-02-07",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 82,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-19",
+        "priceEur": 113100,
+        "typeLocal": "Appartement",
+        "surfaceM2": 81,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-11",
+        "priceEur": 148000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "64f89419cbb3": {
+    "id": "64f89419cbb3",
+    "label": "15 PL FRANCOIS MITTERRAND, Grande-Synthe",
+    "lat": 51.013032,
+    "lng": 2.303647,
+    "transactions": [
+      {
+        "date": "2021-12-30",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 60000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 60000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "6165a8fadab1": {
+    "id": "6165a8fadab1",
+    "label": "34 RUE VICTOR HUGO, Grande-Synthe",
+    "lat": 51.013265,
+    "lng": 2.298434,
+    "transactions": [
+      {
+        "date": "2020-09-17",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "2aee54057928": {
+    "id": "2aee54057928",
+    "label": "11 RUE EUGENE POTIER, Grande-Synthe",
+    "lat": 51.009803,
+    "lng": 2.29927,
+    "transactions": [
+      {
+        "date": "2020-09-25",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "9fe7e6fbee63": {
+    "id": "9fe7e6fbee63",
+    "label": "28 RUE JULES VALLES, Grande-Synthe",
+    "lat": 51.008114,
+    "lng": 2.298522,
+    "transactions": [
+      {
+        "date": "2020-12-23",
+        "priceEur": 157500,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "bae5a9032bcc": {
+    "id": "bae5a9032bcc",
+    "label": "5 RUE DE LONDRES, Grande-Synthe",
+    "lat": 51.0109,
+    "lng": 2.30253,
+    "transactions": [
+      {
+        "date": "2020-12-29",
+        "priceEur": 111720,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "26b92e34d340": {
+    "id": "26b92e34d340",
+    "label": "6 RUE JULES VALLES, Grande-Synthe",
+    "lat": 51.00874,
+    "lng": 2.296835,
+    "transactions": [
+      {
+        "date": "2021-02-08",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "97941717aa41": {
+    "id": "97941717aa41",
+    "label": "49 AV RENE CAREME, Grande-Synthe",
+    "lat": 51.011465,
+    "lng": 2.297376,
+    "transactions": [
+      {
+        "date": "2021-02-12",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 161,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c1887b5e913": {
+    "id": "5c1887b5e913",
+    "label": "18 AV DE SUWALKI, Grande-Synthe",
+    "lat": 51.012193,
+    "lng": 2.300644,
+    "transactions": [
+      {
+        "date": "2021-03-15",
+        "priceEur": 217900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "05e30acb1cdb": {
+    "id": "05e30acb1cdb",
+    "label": "11 RUE DU COMTE DE FLANDRE, Grande-Synthe",
+    "lat": 51.011372,
+    "lng": 2.305874,
+    "transactions": [
+      {
+        "date": "2021-03-26",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "833fb9c8f9d5": {
+    "id": "833fb9c8f9d5",
+    "label": "7 RUE D ATHENES, Grande-Synthe",
+    "lat": 51.008974,
+    "lng": 2.304852,
+    "transactions": [
+      {
+        "date": "2021-03-31",
+        "priceEur": 114373,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "314335126e55": {
+    "id": "314335126e55",
+    "label": "54 RUE JULES VALLES, Grande-Synthe",
+    "lat": 51.007832,
+    "lng": 2.300624,
+    "transactions": [
+      {
+        "date": "2024-08-23",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-25",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-09",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "cefa88b684f4": {
+    "id": "cefa88b684f4",
+    "label": "8 ALL BONVOISIN, Grande-Synthe",
+    "lat": 51.013267,
+    "lng": 2.304046,
+    "transactions": [
+      {
+        "date": "2021-05-21",
+        "priceEur": 68000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "60be1156e78f": {
+    "id": "60be1156e78f",
+    "label": "91 RUE MICHELET, Grande-Synthe",
+    "lat": 51.01304,
+    "lng": 2.298547,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 133570,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "86b48f2793f6": {
+    "id": "86b48f2793f6",
+    "label": "9 RUE D ATHENES, Grande-Synthe",
+    "lat": 51.009044,
+    "lng": 2.30494,
+    "transactions": [
+      {
+        "date": "2021-09-13",
+        "priceEur": 114687,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "f07faeb4252e": {
+    "id": "f07faeb4252e",
+    "label": "10 RUE JULES VALLES, Grande-Synthe",
+    "lat": 51.008517,
+    "lng": 2.297684,
+    "transactions": [
+      {
+        "date": "2021-09-28",
+        "priceEur": 102000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "750340ae925a": {
+    "id": "750340ae925a",
+    "label": "4 ALL D OLYMPIE, Grande-Synthe",
+    "lat": 51.009396,
+    "lng": 2.306865,
+    "transactions": [
+      {
+        "date": "2021-11-03",
+        "priceEur": 91000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a1d6f743f15": {
+    "id": "2a1d6f743f15",
+    "label": "42 RUE VICTOR HUGO, Grande-Synthe",
+    "lat": 51.013532,
+    "lng": 2.298906,
+    "transactions": [
+      {
+        "date": "2021-11-26",
+        "priceEur": 114000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b982ede5df6": {
+    "id": "8b982ede5df6",
+    "label": "3 PL FRANCOIS MITTERRAND, Grande-Synthe",
+    "lat": 51.013531,
+    "lng": 2.303618,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 74204,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-17",
+        "priceEur": 74204,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "274b52de8ab1": {
+    "id": "274b52de8ab1",
+    "label": "4 RUE DE LA COMMUNE DE PARIS, Grande-Synthe",
+    "lat": 51.013032,
+    "lng": 2.303647,
+    "transactions": [
+      {
+        "date": "2021-12-30",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d44aa64fb4e": {
+    "id": "3d44aa64fb4e",
+    "label": "10 ALL BONVOISIN, Grande-Synthe",
+    "lat": 51.013287,
+    "lng": 2.304131,
+    "transactions": [
+      {
+        "date": "2021-12-22",
+        "priceEur": 88000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "af4a2698dc9b": {
+    "id": "af4a2698dc9b",
+    "label": "37 RUE JULES VALLES, Grande-Synthe",
+    "lat": 51.008222,
+    "lng": 2.30068,
+    "transactions": [
+      {
+        "date": "2022-01-12",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e6468d02fe3": {
+    "id": "4e6468d02fe3",
+    "label": "9001 RUE D ATHENES, Grande-Synthe",
+    "lat": 51.009414,
+    "lng": 2.305546,
+    "transactions": [
+      {
+        "date": "2022-02-08",
+        "priceEur": 106000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d4a9a77b170": {
+    "id": "6d4a9a77b170",
+    "label": "15 RUE DE LA COMMUNE DE PARIS, Grande-Synthe",
+    "lat": 51.013038,
+    "lng": 2.30411,
+    "transactions": [
+      {
+        "date": "2022-03-31",
+        "priceEur": 75000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "630f50ec9868": {
+    "id": "630f50ec9868",
+    "label": "1 RUE EUGENE POTIER, Grande-Synthe",
+    "lat": 51.01082,
+    "lng": 2.297635,
+    "transactions": [
+      {
+        "date": "2022-04-21",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "b253d7f510dc": {
+    "id": "b253d7f510dc",
+    "label": "5 RUE DU QUAI AUX FLEURS, Grande-Synthe",
+    "lat": 51.012546,
+    "lng": 2.304987,
+    "transactions": [
+      {
+        "date": "2022-04-15",
+        "priceEur": 171000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "dba15d130d2f": {
+    "id": "dba15d130d2f",
+    "label": "21B RUE JULES VALLES, Grande-Synthe",
+    "lat": 51.008407,
+    "lng": 2.299014,
+    "transactions": [
+      {
+        "date": "2022-05-31",
+        "priceEur": 184000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "e3c441f4e8f0": {
+    "id": "e3c441f4e8f0",
+    "label": "4 SQ EDOUARD MARIE VAILLANT, Grande-Synthe",
+    "lat": 51.008221,
+    "lng": 2.2979,
+    "transactions": [
+      {
+        "date": "2022-06-10",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "409b62d44d2b": {
+    "id": "409b62d44d2b",
+    "label": "10 RUE DE LA HAYE, Grande-Synthe",
+    "lat": 51.009356,
+    "lng": 2.307042,
+    "transactions": [
+      {
+        "date": "2022-06-03",
+        "priceEur": 94000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "4cbd25121765": {
+    "id": "4cbd25121765",
+    "label": "9003 RUE D ATHENES, Grande-Synthe",
+    "lat": 51.009435,
+    "lng": 2.305696,
+    "transactions": [
+      {
+        "date": "2022-06-08",
+        "priceEur": 109000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "d05ee11ea2f2": {
+    "id": "d05ee11ea2f2",
+    "label": "74 RUE DU STADE, Grande-Synthe",
+    "lat": 51.009401,
+    "lng": 2.304984,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "54d2e478f617": {
+    "id": "54d2e478f617",
+    "label": "72 RUE JULES VALLES, Grande-Synthe",
+    "lat": 51.008478,
+    "lng": 2.302723,
+    "transactions": [
+      {
+        "date": "2024-02-27",
+        "priceEur": 174000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-18",
+        "priceEur": 110500,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c1f6d3b4a72": {
+    "id": "4c1f6d3b4a72",
+    "label": "9 RUE DU COMTE DE FLANDRE, Grande-Synthe",
+    "lat": 51.011258,
+    "lng": 2.305967,
+    "transactions": [
+      {
+        "date": "2022-10-31",
+        "priceEur": 194400,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "c527b0922227": {
+    "id": "c527b0922227",
+    "label": "3 RUE DE LA COMMUNE DE PARIS, Grande-Synthe",
+    "lat": 51.013038,
+    "lng": 2.30411,
+    "transactions": [
+      {
+        "date": "2022-12-08",
+        "priceEur": 76000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-08",
+        "priceEur": 76000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1818910fba0": {
+    "id": "a1818910fba0",
+    "label": "68 RUE JULES VALLES, Grande-Synthe",
+    "lat": 51.00838,
+    "lng": 2.302567,
+    "transactions": [
+      {
+        "date": "2022-12-26",
+        "priceEur": 140900,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "457f4cf1ff88": {
+    "id": "457f4cf1ff88",
+    "label": "9000 RUE D ATHENES, Grande-Synthe",
+    "lat": 51.009434,
+    "lng": 2.305464,
+    "transactions": [
+      {
+        "date": "2022-12-29",
+        "priceEur": 143450,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "1393f165429f": {
+    "id": "1393f165429f",
+    "label": "28 RUE VICTOR HUGO, Grande-Synthe",
+    "lat": 51.013054,
+    "lng": 2.298176,
+    "transactions": [
+      {
+        "date": "2022-12-29",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "72a871bd52a1": {
+    "id": "72a871bd52a1",
+    "label": "7 RUE MARGUERITE DURAS, Grande-Synthe",
+    "lat": 51.008359,
+    "lng": 2.296172,
+    "transactions": [
+      {
+        "date": "2023-01-09",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "702241a12263": {
+    "id": "702241a12263",
+    "label": "8 PL FRANCOIS MITTERRAND, Grande-Synthe",
+    "lat": 51.013032,
+    "lng": 2.303647,
+    "transactions": [
+      {
+        "date": "2023-08-21",
+        "priceEur": 110000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "afe862fb7c5b": {
+    "id": "afe862fb7c5b",
+    "label": "7 RUE JEAN JAURES, Grande-Synthe",
+    "lat": 51.010851,
+    "lng": 2.296264,
+    "transactions": [
+      {
+        "date": "2023-10-03",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "841a97f35ca7": {
+    "id": "841a97f35ca7",
+    "label": "55 AV DE SUWALKI, Grande-Synthe",
+    "lat": 51.009252,
+    "lng": 2.304439,
+    "transactions": [
+      {
+        "date": "2023-12-15",
+        "priceEur": 1218789,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-15",
+        "priceEur": 1218789,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-15",
+        "priceEur": 1218789,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-15",
+        "priceEur": 1218789,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f65886c4ded": {
+    "id": "3f65886c4ded",
+    "label": "37 AV RENE CAREME, Grande-Synthe",
+    "lat": 51.012191,
+    "lng": 2.30007,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 196900,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "b83a92873ee4": {
+    "id": "b83a92873ee4",
+    "label": "5 RUE JULES VALLES, Grande-Synthe",
+    "lat": 51.009047,
+    "lng": 2.297121,
+    "transactions": [
+      {
+        "date": "2024-01-05",
+        "priceEur": 255150,
+        "typeLocal": "Maison",
+        "surfaceM2": 157,
+        "isVefa": false
+      }
+    ]
+  },
+  "ddcacaee9402": {
+    "id": "ddcacaee9402",
+    "label": "25 PL FRANCOIS MITTERRAND, Grande-Synthe",
+    "lat": 51.013234,
+    "lng": 2.302413,
+    "transactions": [
+      {
+        "date": "2024-01-31",
+        "priceEur": 250000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "020591baef7d": {
+    "id": "020591baef7d",
+    "label": "6 ALL D OLYMPIE, Grande-Synthe",
+    "lat": 51.009367,
+    "lng": 2.306776,
+    "transactions": [
+      {
+        "date": "2024-07-01",
+        "priceEur": 72000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c9987240b5c": {
+    "id": "9c9987240b5c",
+    "label": "74 RUE MICHELET, Grande-Synthe",
+    "lat": 51.013127,
+    "lng": 2.299244,
+    "transactions": [
+      {
+        "date": "2024-07-31",
+        "priceEur": 93000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "dcfc79b95b1d": {
+    "id": "dcfc79b95b1d",
+    "label": "27 RUE DU QUAI AUX FLEURS, Grande-Synthe",
+    "lat": 51.011474,
+    "lng": 2.305597,
+    "transactions": [
+      {
+        "date": "2024-10-03",
+        "priceEur": 154990,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a16ef922607": {
+    "id": "7a16ef922607",
+    "label": "72 AV DE SUWALKI, Grande-Synthe",
+    "lat": 51.008587,
+    "lng": 2.304288,
+    "transactions": [
+      {
+        "date": "2024-11-29",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "d43f2c67e238": {
+    "id": "d43f2c67e238",
+    "label": "54 AV DE SUWALKI, Grande-Synthe",
+    "lat": 51.008944,
+    "lng": 2.303797,
+    "transactions": [
+      {
+        "date": "2024-12-11",
+        "priceEur": 122600,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "6feeb033fc3b": {
+    "id": "6feeb033fc3b",
+    "label": "9004 RUE D ATHENES, Grande-Synthe",
+    "lat": 51.009425,
+    "lng": 2.305753,
+    "transactions": [
+      {
+        "date": "2024-11-27",
+        "priceEur": 109000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7c84347cef0": {
+    "id": "f7c84347cef0",
+    "label": "5 RUE JEAN JAURES, Grande-Synthe",
+    "lat": 51.011002,
+    "lng": 2.296416,
+    "transactions": [
+      {
+        "date": "2025-01-13",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6562f923db9": {
+    "id": "d6562f923db9",
+    "label": "1 RUE D ANTWERPEN, Grande-Synthe",
+    "lat": 51.012713,
+    "lng": 2.306015,
+    "transactions": [
+      {
+        "date": "2025-03-21",
+        "priceEur": 93941.82,
+        "typeLocal": "Appartement",
+        "surfaceM2": 51,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-13",
+        "priceEur": 131914,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-07",
+        "priceEur": 136869,
+        "typeLocal": "Appartement",
+        "surfaceM2": 69,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-13",
+        "priceEur": 97505.1,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-06",
+        "priceEur": 127202,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-23",
+        "priceEur": 132151.05,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "51439be6a8ca": {
+    "id": "51439be6a8ca",
+    "label": "19 RUE JULES VALLES, Grande-Synthe",
+    "lat": 51.008405,
+    "lng": 2.298671,
+    "transactions": [
+      {
+        "date": "2025-01-23",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

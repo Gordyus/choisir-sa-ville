@@ -1,0 +1,47 @@
+{
+  "4b3e0f828e11": {
+    "id": "4b3e0f828e11",
+    "label": "6012 LE BOUT DE LA CROIX, La Houssaye-Béranger",
+    "lat": 49.622401,
+    "lng": 1.086385,
+    "transactions": [
+      {
+        "date": "2022-01-25",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "109e0803cded": {
+    "id": "109e0803cded",
+    "label": "5027 LE VILLAGE, La Houssaye-Béranger",
+    "lat": 49.623808,
+    "lng": 1.087315,
+    "transactions": [
+      {
+        "date": "2023-06-16",
+        "priceEur": 254900,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "1bccc7859280": {
+    "id": "1bccc7859280",
+    "label": "5095 LA HOUSSAYE, La Houssaye-Béranger",
+    "lat": 49.623348,
+    "lng": 1.086697,
+    "transactions": [
+      {
+        "date": "2025-04-07",
+        "priceEur": 219000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

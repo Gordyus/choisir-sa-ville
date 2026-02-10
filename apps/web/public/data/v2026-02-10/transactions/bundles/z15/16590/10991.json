@@ -1,0 +1,47 @@
+{
+  "ba4562ae5652": {
+    "id": "ba4562ae5652",
+    "label": "1614 RUE DE MERCKEGHEM VC 10, Millam",
+    "lat": 50.850405,
+    "lng": 2.268344,
+    "transactions": [
+      {
+        "date": "2022-06-08",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "d98f82a44831": {
+    "id": "d98f82a44831",
+    "label": "2313 RTE DE WATTEN, Merckeghem",
+    "lat": 50.850649,
+    "lng": 2.273762,
+    "transactions": [
+      {
+        "date": "2022-12-10",
+        "priceEur": 35500,
+        "typeLocal": "Maison",
+        "surfaceM2": 28,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9e00afc2b1f": {
+    "id": "f9e00afc2b1f",
+    "label": "2313A RTE DE WATTEN, Merckeghem",
+    "lat": 50.850897,
+    "lng": 2.27294,
+    "transactions": [
+      {
+        "date": "2022-12-10",
+        "priceEur": 35500,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  }
+}

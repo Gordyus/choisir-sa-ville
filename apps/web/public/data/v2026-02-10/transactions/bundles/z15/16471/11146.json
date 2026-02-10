@@ -1,0 +1,92 @@
+{
+  "f972f6d4f751": {
+    "id": "f972f6d4f751",
+    "label": "5043 LE BOURG, Saint-Ouen-le-Mauger",
+    "lat": 49.762979,
+    "lng": 0.963637,
+    "transactions": [
+      {
+        "date": "2021-01-25",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e93e05bc702": {
+    "id": "6e93e05bc702",
+    "label": "5060 LES CRIQUETS, Saint-Ouen-le-Mauger",
+    "lat": 49.761004,
+    "lng": 0.965106,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "52f55b391c31": {
+    "id": "52f55b391c31",
+    "label": "5046 LE BOURG, Saint-Ouen-le-Mauger",
+    "lat": 49.761777,
+    "lng": 0.963949,
+    "transactions": [
+      {
+        "date": "2021-09-07",
+        "priceEur": 56000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b9d5e094c88": {
+    "id": "9b9d5e094c88",
+    "label": "235 RTE DU BOIS SEIGNEUR, Saint-Ouen-le-Mauger",
+    "lat": 49.761025,
+    "lng": 0.963474,
+    "transactions": [
+      {
+        "date": "2022-02-17",
+        "priceEur": 222600,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "1857492779a7": {
+    "id": "1857492779a7",
+    "label": "5057 LE BOURG, Saint-Ouen-le-Mauger",
+    "lat": 49.761047,
+    "lng": 0.965662,
+    "transactions": [
+      {
+        "date": "2022-06-08",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "1064de8e9f05": {
+    "id": "1064de8e9f05",
+    "label": "335 CHE DU BOIS DODEMARE, Saint-Ouen-le-Mauger",
+    "lat": 49.761992,
+    "lng": 0.958806,
+    "transactions": [
+      {
+        "date": "2023-12-04",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  }
+}

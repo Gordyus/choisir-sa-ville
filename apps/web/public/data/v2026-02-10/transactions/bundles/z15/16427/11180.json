@@ -1,0 +1,47 @@
+{
+  "08789c611177": {
+    "id": "08789c611177",
+    "label": "1363 GR GRANDE RUE, Saint-Nicolas-de-la-Taille",
+    "lat": 49.518307,
+    "lng": 0.473229,
+    "transactions": [
+      {
+        "date": "2021-09-28",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ec9f176aecb": {
+    "id": "3ec9f176aecb",
+    "label": "1287 GR GRANDE RUE, Saint-Nicolas-de-la-Taille",
+    "lat": 49.518812,
+    "lng": 0.473529,
+    "transactions": [
+      {
+        "date": "2022-07-26",
+        "priceEur": 254751,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "46450377924b": {
+    "id": "46450377924b",
+    "label": "873 GR GRANDE RUE, Saint-Nicolas-de-la-Taille",
+    "lat": 49.522551,
+    "lng": 0.475096,
+    "transactions": [
+      {
+        "date": "2024-10-22",
+        "priceEur": 237000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

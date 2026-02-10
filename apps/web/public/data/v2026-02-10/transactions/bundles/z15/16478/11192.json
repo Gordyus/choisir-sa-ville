@@ -1,0 +1,247 @@
+{
+  "46c1386ebf0f": {
+    "id": "46c1386ebf0f",
+    "label": "10 RUE DE SEINE, Canteleu",
+    "lat": 49.439378,
+    "lng": 1.03618,
+    "transactions": [
+      {
+        "date": "2024-07-23",
+        "priceEur": 123000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-28",
+        "priceEur": 142000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-17",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "471b338ad41e": {
+    "id": "471b338ad41e",
+    "label": "11 RUE ROGER MONTIER, Canteleu",
+    "lat": 49.43875,
+    "lng": 1.036144,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 76750,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "beabc33ee09b": {
+    "id": "beabc33ee09b",
+    "label": "2 PL DE CROISSET, Canteleu",
+    "lat": 49.43806,
+    "lng": 1.035326,
+    "transactions": [
+      {
+        "date": "2021-02-05",
+        "priceEur": 153000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "d4c6bb41507b": {
+    "id": "d4c6bb41507b",
+    "label": "7 RUE ROGER MONTIER, Canteleu",
+    "lat": 49.438681,
+    "lng": 1.03635,
+    "transactions": [
+      {
+        "date": "2021-06-25",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-02",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "dba76636e0ed": {
+    "id": "dba76636e0ed",
+    "label": "13 RUE ROGER MONTIER, Canteleu",
+    "lat": 49.438811,
+    "lng": 1.036186,
+    "transactions": [
+      {
+        "date": "2021-05-03",
+        "priceEur": 78000,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d3eb258936e": {
+    "id": "4d3eb258936e",
+    "label": "8 RUE DE SEINE, Canteleu",
+    "lat": 49.439256,
+    "lng": 1.036218,
+    "transactions": [
+      {
+        "date": "2022-07-11",
+        "priceEur": 227000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "bffa38831e16": {
+    "id": "bffa38831e16",
+    "label": "30 RUE ROGER MONTIER, Canteleu",
+    "lat": 49.439477,
+    "lng": 1.035161,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 194500,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "00bd8bff631f": {
+    "id": "00bd8bff631f",
+    "label": "29A RUE ROGER MONTIER, Canteleu",
+    "lat": 49.439489,
+    "lng": 1.034654,
+    "transactions": [
+      {
+        "date": "2022-07-25",
+        "priceEur": 144000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "32344ae6cfc5": {
+    "id": "32344ae6cfc5",
+    "label": "26 RUE ROGER MONTIER, Canteleu",
+    "lat": 49.439351,
+    "lng": 1.03537,
+    "transactions": [
+      {
+        "date": "2022-08-30",
+        "priceEur": 180500,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "c38609f03f77": {
+    "id": "c38609f03f77",
+    "label": "74 CHE DE CROISSET, Canteleu",
+    "lat": 49.438807,
+    "lng": 1.036681,
+    "transactions": [
+      {
+        "date": "2022-10-07",
+        "priceEur": 52500,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6279fa622e5": {
+    "id": "d6279fa622e5",
+    "label": "12 PL DE CROISSET, Canteleu",
+    "lat": 49.437776,
+    "lng": 1.034948,
+    "transactions": [
+      {
+        "date": "2023-10-27",
+        "priceEur": 201800,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-31",
+        "priceEur": 131200,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-15",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d68fffd6954": {
+    "id": "3d68fffd6954",
+    "label": "6 RUE ROGER MONTIER, Canteleu",
+    "lat": 49.438913,
+    "lng": 1.036435,
+    "transactions": [
+      {
+        "date": "2023-10-17",
+        "priceEur": 146300,
+        "typeLocal": "Maison",
+        "surfaceM2": 39,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7a9f74c650b": {
+    "id": "f7a9f74c650b",
+    "label": "3 RUE DU VIEUX CHATEAU, Canteleu",
+    "lat": 49.439543,
+    "lng": 1.036593,
+    "transactions": [
+      {
+        "date": "2024-01-03",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 225,
+        "isVefa": false
+      }
+    ]
+  },
+  "767896f465cc": {
+    "id": "767896f465cc",
+    "label": "9 PL DU GENERAL DE GAULLE, Canteleu",
+    "lat": 49.437851,
+    "lng": 1.035174,
+    "transactions": [
+      {
+        "date": "2024-04-10",
+        "priceEur": 102000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  }
+}

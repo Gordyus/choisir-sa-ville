@@ -1,0 +1,92 @@
+{
+  "3a69a65163f8": {
+    "id": "3a69a65163f8",
+    "label": "12 RUE DE LA FONTAINE, Boëseghem",
+    "lat": 50.659952,
+    "lng": 2.441651,
+    "transactions": [
+      {
+        "date": "2021-10-18",
+        "priceEur": 51000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "8201787fe1c0": {
+    "id": "8201787fe1c0",
+    "label": "9 RUE DE L EGLISE, Boëseghem",
+    "lat": 50.660737,
+    "lng": 2.44433,
+    "transactions": [
+      {
+        "date": "2022-05-20",
+        "priceEur": 258500,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d417279b7ec": {
+    "id": "6d417279b7ec",
+    "label": "33 RUE DE L EGLISE, Boëseghem",
+    "lat": 50.661139,
+    "lng": 2.439838,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "414a5ca71ae1": {
+    "id": "414a5ca71ae1",
+    "label": "6B RUE DE L EGLISE, Boëseghem",
+    "lat": 50.660797,
+    "lng": 2.449914,
+    "transactions": [
+      {
+        "date": "2022-08-26",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "beb20e652ce9": {
+    "id": "beb20e652ce9",
+    "label": "34 RUE DE L EGLISE, Boëseghem",
+    "lat": 50.661689,
+    "lng": 2.441208,
+    "transactions": [
+      {
+        "date": "2023-09-26",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 187,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0adafd8fcdc": {
+    "id": "e0adafd8fcdc",
+    "label": "3 VC LA PLACE, Boëseghem",
+    "lat": 50.66133,
+    "lng": 2.439365,
+    "transactions": [
+      {
+        "date": "2024-02-02",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  }
+}

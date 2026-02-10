@@ -1,0 +1,99 @@
+{
+  "d64e5ea0ea67": {
+    "id": "d64e5ea0ea67",
+    "label": "216 VC RESIDENCE DES MARGUERITES, Le Doulieu",
+    "lat": 50.680692,
+    "lng": 2.723256,
+    "transactions": [
+      {
+        "date": "2020-11-12",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "49ef811f0a1e": {
+    "id": "49ef811f0a1e",
+    "label": "320 VC RESIDENCE DES MARGUERITES, Le Doulieu",
+    "lat": 50.68037,
+    "lng": 2.724035,
+    "transactions": [
+      {
+        "date": "2021-01-26",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 183,
+        "isVefa": false
+      }
+    ]
+  },
+  "0bdc38862042": {
+    "id": "0bdc38862042",
+    "label": "318 RUE DES ECOLES, Le Doulieu",
+    "lat": 50.67994,
+    "lng": 2.721503,
+    "transactions": [
+      {
+        "date": "2023-08-07",
+        "priceEur": 425000,
+        "typeLocal": "Maison",
+        "surfaceM2": 188,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-31",
+        "priceEur": 418350,
+        "typeLocal": "Maison",
+        "surfaceM2": 188,
+        "isVefa": false
+      }
+    ]
+  },
+  "c31cf90a52f8": {
+    "id": "c31cf90a52f8",
+    "label": "246 VC RESIDENCE DES MARGUERITES, Le Doulieu",
+    "lat": 50.68051,
+    "lng": 2.723712,
+    "transactions": [
+      {
+        "date": "2021-11-19",
+        "priceEur": 387910,
+        "typeLocal": "Maison",
+        "surfaceM2": 159,
+        "isVefa": false
+      }
+    ]
+  },
+  "011ff06e6601": {
+    "id": "011ff06e6601",
+    "label": "290 RUE DES ECOLES, Le Doulieu",
+    "lat": 50.680081,
+    "lng": 2.721154,
+    "transactions": [
+      {
+        "date": "2023-10-27",
+        "priceEur": 317000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "53df77a913d3": {
+    "id": "53df77a913d3",
+    "label": "347 VC RESIDENCE DES MARGUERITES, Le Doulieu",
+    "lat": 50.680115,
+    "lng": 2.72375,
+    "transactions": [
+      {
+        "date": "2024-08-03",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  }
+}

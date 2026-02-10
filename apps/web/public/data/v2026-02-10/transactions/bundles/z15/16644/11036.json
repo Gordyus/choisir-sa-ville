@@ -1,0 +1,32 @@
+{
+  "dfada8833765": {
+    "id": "dfada8833765",
+    "label": "12 RUE JOSEPH GOMBERT, Hantay",
+    "lat": 50.534385,
+    "lng": 2.862591,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 409010,
+        "typeLocal": "Maison",
+        "surfaceM2": 164,
+        "isVefa": false
+      }
+    ]
+  },
+  "621a45d7bae9": {
+    "id": "621a45d7bae9",
+    "label": "31 RUE VICTOR HUGO, Hantay",
+    "lat": 50.53444,
+    "lng": 2.86379,
+    "transactions": [
+      {
+        "date": "2024-10-29",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

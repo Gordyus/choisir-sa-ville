@@ -1,0 +1,32 @@
+{
+  "573e995df995": {
+    "id": "573e995df995",
+    "label": "2148 RTE D EECKE, Godewaersvelde",
+    "lat": 50.778299,
+    "lng": 2.625843,
+    "transactions": [
+      {
+        "date": "2021-05-31",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 181,
+        "isVefa": false
+      }
+    ]
+  },
+  "84fe54877534": {
+    "id": "84fe54877534",
+    "label": "1764 RTE DE L'HAEGHEDOORN, Godewaersvelde",
+    "lat": 50.781633,
+    "lng": 2.628165,
+    "transactions": [
+      {
+        "date": "2023-07-21",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  }
+}

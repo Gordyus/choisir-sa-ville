@@ -1,0 +1,47 @@
+{
+  "319da1099dd6": {
+    "id": "319da1099dd6",
+    "label": "84 RUE HULIN, Yville-sur-Seine",
+    "lat": 49.4143,
+    "lng": 0.891011,
+    "transactions": [
+      {
+        "date": "2022-06-02",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "99f1b51d8432": {
+    "id": "99f1b51d8432",
+    "label": "5078 FERME DU TILLEUL, Yville-sur-Seine",
+    "lat": 49.413925,
+    "lng": 0.891586,
+    "transactions": [
+      {
+        "date": "2022-12-29",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "fff3d76cc00e": {
+    "id": "fff3d76cc00e",
+    "label": "1572 RTE DES SABLONS, Yville-sur-Seine",
+    "lat": 49.415334,
+    "lng": 0.89309,
+    "transactions": [
+      {
+        "date": "2024-10-11",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  }
+}

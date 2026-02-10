@@ -1,0 +1,47 @@
+{
+  "151414017bf3": {
+    "id": "151414017bf3",
+    "label": "5036 BELLEVILLE, Brémontier-Merval",
+    "lat": 49.50012,
+    "lng": 1.627494,
+    "transactions": [
+      {
+        "date": "2020-09-04",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 188,
+        "isVefa": false
+      }
+    ]
+  },
+  "2fd43e3925b7": {
+    "id": "2fd43e3925b7",
+    "label": "5034 BELLEVILLE, Brémontier-Merval",
+    "lat": 49.4976,
+    "lng": 1.628745,
+    "transactions": [
+      {
+        "date": "2021-02-11",
+        "priceEur": 182000,
+        "typeLocal": "Maison",
+        "surfaceM2": 186,
+        "isVefa": false
+      }
+    ]
+  },
+  "4cccf2eab5d3": {
+    "id": "4cccf2eab5d3",
+    "label": "47 RTE DE BELLEVILLE, Brémontier-Merval",
+    "lat": 49.4976,
+    "lng": 1.628745,
+    "transactions": [
+      {
+        "date": "2024-10-21",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 186,
+        "isVefa": false
+      }
+    ]
+  }
+}

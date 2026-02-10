@@ -1,0 +1,32 @@
+{
+  "fdaa682f206d": {
+    "id": "fdaa682f206d",
+    "label": "5115 LE BOURG, Rosay",
+    "lat": 49.696897,
+    "lng": 1.24667,
+    "transactions": [
+      {
+        "date": "2020-09-18",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5657c8eccee": {
+    "id": "d5657c8eccee",
+    "label": "5073 LE BOURG, Rosay",
+    "lat": 49.696662,
+    "lng": 1.24613,
+    "transactions": [
+      {
+        "date": "2022-10-28",
+        "priceEur": 210100,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

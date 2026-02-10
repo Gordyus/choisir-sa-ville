@@ -1,0 +1,32 @@
+{
+  "345ab89b3d64": {
+    "id": "345ab89b3d64",
+    "label": "60 RUE DE BOURGTHEROULDE, Saint-Valery-en-Caux",
+    "lat": 49.85191,
+    "lng": 0.713266,
+    "transactions": [
+      {
+        "date": "2022-02-03",
+        "priceEur": 272000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "02d9ee220f4c": {
+    "id": "02d9ee220f4c",
+    "label": "56 RUE DE BOURGTHEROULDE, Saint-Valery-en-Caux",
+    "lat": 49.852066,
+    "lng": 0.713148,
+    "transactions": [
+      {
+        "date": "2023-03-30",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "d54725abbacb": {
+    "id": "d54725abbacb",
+    "label": "1607 RTE DEPARTEMENTALE 933, Bavinchove",
+    "lat": 50.775657,
+    "lng": 2.442989,
+    "transactions": [
+      {
+        "date": "2020-09-07",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "358e3fe148f1": {
+    "id": "358e3fe148f1",
+    "label": "58 RUE DU MOULIN, Bavinchove",
+    "lat": 50.776737,
+    "lng": 2.445058,
+    "transactions": [
+      {
+        "date": "2021-01-23",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa011abadd91": {
+    "id": "aa011abadd91",
+    "label": "35 RUE DES TROIS ROIS, Bavinchove",
+    "lat": 50.774914,
+    "lng": 2.440065,
+    "transactions": [
+      {
+        "date": "2021-03-26",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "f48f4cd88166": {
+    "id": "f48f4cd88166",
+    "label": "1680 RTE DEPARTEMENTALE 933, Bavinchove",
+    "lat": 50.775461,
+    "lng": 2.441583,
+    "transactions": [
+      {
+        "date": "2021-04-16",
+        "priceEur": 109700,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "a36a2c3683e8": {
+    "id": "a36a2c3683e8",
+    "label": "1596 RTE DEPARTEMENTALE 933, Bavinchove",
+    "lat": 50.776092,
+    "lng": 2.442463,
+    "transactions": [
+      {
+        "date": "2021-06-02",
+        "priceEur": 202000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "0dd08614692b": {
+    "id": "0dd08614692b",
+    "label": "1663 RTE DEPARTEMENTALE 933, Bavinchove",
+    "lat": 50.775409,
+    "lng": 2.442147,
+    "transactions": [
+      {
+        "date": "2024-03-21",
+        "priceEur": 209300,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  }
+}

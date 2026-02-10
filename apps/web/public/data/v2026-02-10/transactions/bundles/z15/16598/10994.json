@@ -1,0 +1,32 @@
+{
+  "279520d2804d": {
+    "id": "279520d2804d",
+    "label": "289 RUE GROENE STRAETE, Rubrouck",
+    "lat": 50.830316,
+    "lng": 2.357646,
+    "transactions": [
+      {
+        "date": "2021-03-03",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "db1435641209": {
+    "id": "db1435641209",
+    "label": "123 RTE DU CASTIERS HOUCK, Rubrouck",
+    "lat": 50.833672,
+    "lng": 2.357677,
+    "transactions": [
+      {
+        "date": "2021-12-02",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  }
+}

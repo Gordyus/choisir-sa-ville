@@ -1,0 +1,99 @@
+{
+  "808e4d7a6051": {
+    "id": "808e4d7a6051",
+    "label": "5263F LES BESSANES, Taussac-la-Billière",
+    "lat": 43.649742,
+    "lng": 3.080824,
+    "transactions": [
+      {
+        "date": "2020-09-24",
+        "priceEur": 183300,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "ceb5148f27cb": {
+    "id": "ceb5148f27cb",
+    "label": "5108 MAURIAN, Taussac-la-Billière",
+    "lat": 43.650112,
+    "lng": 3.081449,
+    "transactions": [
+      {
+        "date": "2025-01-08",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-25",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f4469df4eea": {
+    "id": "2f4469df4eea",
+    "label": "7010F MAURIAN, Taussac-la-Billière",
+    "lat": 43.649998,
+    "lng": 3.081633,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e146a9d4c0c": {
+    "id": "9e146a9d4c0c",
+    "label": "5037 MAURIAN, Taussac-la-Billière",
+    "lat": 43.651138,
+    "lng": 3.080989,
+    "transactions": [
+      {
+        "date": "2023-01-05",
+        "priceEur": 224020,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "e466aef61fed": {
+    "id": "e466aef61fed",
+    "label": "7012F MAURIAN, Taussac-la-Billière",
+    "lat": 43.65024,
+    "lng": 3.081538,
+    "transactions": [
+      {
+        "date": "2023-05-04",
+        "priceEur": 237000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "104eda418b7a": {
+    "id": "104eda418b7a",
+    "label": "5104 MAURIAN, Taussac-la-Billière",
+    "lat": 43.650026,
+    "lng": 3.081724,
+    "transactions": [
+      {
+        "date": "2024-02-29",
+        "priceEur": 20000,
+        "typeLocal": "Maison",
+        "surfaceM2": 18,
+        "isVefa": false
+      }
+    ]
+  }
+}

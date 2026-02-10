@@ -1,0 +1,69 @@
+{
+  "d335ced72bdc": {
+    "id": "d335ced72bdc",
+    "label": "5344 LE HAMEAU DU BOSC, Le Mesnil-sous-Jumièges",
+    "lat": 49.409093,
+    "lng": 0.850231,
+    "transactions": [
+      {
+        "date": "2021-06-15",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1d618150ba9": {
+    "id": "a1d618150ba9",
+    "label": "554 RTE DU MANOIR, Le Mesnil-sous-Jumièges",
+    "lat": 49.409208,
+    "lng": 0.852857,
+    "transactions": [
+      {
+        "date": "2021-07-19",
+        "priceEur": 241000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "e25915326c98": {
+    "id": "e25915326c98",
+    "label": "5087B LE BOURG, Le Mesnil-sous-Jumièges",
+    "lat": 49.409898,
+    "lng": 0.854921,
+    "transactions": [
+      {
+        "date": "2022-06-01",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "43f1c2273a6c": {
+    "id": "43f1c2273a6c",
+    "label": "29 RUE DU BOSC, Le Mesnil-sous-Jumièges",
+    "lat": 49.408504,
+    "lng": 0.850677,
+    "transactions": [
+      {
+        "date": "2022-06-09",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-09",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  }
+}

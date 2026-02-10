@@ -1,0 +1,32 @@
+{
+  "f160e91c5353": {
+    "id": "f160e91c5353",
+    "label": "1787 RTE DE SAINT GERMAIN, Sainte-Croix-sur-Buchy",
+    "lat": 49.554978,
+    "lng": 1.323083,
+    "transactions": [
+      {
+        "date": "2022-09-23",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "636d2901cc18": {
+    "id": "636d2901cc18",
+    "label": "2239 RTE DES AUTHIEUX, Sainte-Croix-sur-Buchy",
+    "lat": 49.559508,
+    "lng": 1.328682,
+    "transactions": [
+      {
+        "date": "2024-08-19",
+        "priceEur": 140001,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  }
+}

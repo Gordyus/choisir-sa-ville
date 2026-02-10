@@ -1,0 +1,32 @@
+{
+  "b2f69b846329": {
+    "id": "b2f69b846329",
+    "label": "40 RUE ROGER SALENGRO, Hantay",
+    "lat": 50.536469,
+    "lng": 2.87907,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "af9b602e2c14": {
+    "id": "af9b602e2c14",
+    "label": "36 RUE ROGER SALENGRO, Hantay",
+    "lat": 50.537123,
+    "lng": 2.879245,
+    "transactions": [
+      {
+        "date": "2022-05-03",
+        "priceEur": 317000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  }
+}

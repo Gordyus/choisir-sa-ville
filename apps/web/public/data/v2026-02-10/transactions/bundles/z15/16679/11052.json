@@ -1,0 +1,92 @@
+{
+  "26c001a18c76": {
+    "id": "26c001a18c76",
+    "label": "785 RUE DES PRONELLES, Bouvignies",
+    "lat": 50.427204,
+    "lng": 3.248458,
+    "transactions": [
+      {
+        "date": "2021-08-05",
+        "priceEur": 257000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "f0f1082fe749": {
+    "id": "f0f1082fe749",
+    "label": "155 RUE DU TROU BONAT, Bouvignies",
+    "lat": 50.425398,
+    "lng": 3.246207,
+    "transactions": [
+      {
+        "date": "2021-11-30",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "e20fbd7d82b9": {
+    "id": "e20fbd7d82b9",
+    "label": "254 RUE DU TROU BONAT, Bouvignies",
+    "lat": 50.425143,
+    "lng": 3.24464,
+    "transactions": [
+      {
+        "date": "2022-11-02",
+        "priceEur": 273900,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "a43a873754eb": {
+    "id": "a43a873754eb",
+    "label": "693 RUE DES CHAMPS DU MOULIN, Bouvignies",
+    "lat": 50.425674,
+    "lng": 3.244372,
+    "transactions": [
+      {
+        "date": "2023-01-30",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 171,
+        "isVefa": false
+      }
+    ]
+  },
+  "c095264381b3": {
+    "id": "c095264381b3",
+    "label": "872 RUE DES PRONELLES, Bouvignies",
+    "lat": 50.426911,
+    "lng": 3.246645,
+    "transactions": [
+      {
+        "date": "2024-07-09",
+        "priceEur": 289320,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "98273b37fbb6": {
+    "id": "98273b37fbb6",
+    "label": "60 RUE DU PETIT SEC MARAIS, Bouvignies",
+    "lat": 50.427966,
+    "lng": 3.249972,
+    "transactions": [
+      {
+        "date": "2024-11-22",
+        "priceEur": 371000,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  }
+}

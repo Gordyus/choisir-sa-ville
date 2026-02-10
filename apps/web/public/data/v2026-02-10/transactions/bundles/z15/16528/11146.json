@@ -1,0 +1,107 @@
+{
+  "bac5c0bbf7c0": {
+    "id": "bac5c0bbf7c0",
+    "label": "2 LE BOURG, Le Caule-Sainte-Beuve",
+    "lat": 49.76514,
+    "lng": 1.591351,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "a4a68aa096d3": {
+    "id": "a4a68aa096d3",
+    "label": "10 LE BOURG, Le Caule-Sainte-Beuve",
+    "lat": 49.766325,
+    "lng": 1.589485,
+    "transactions": [
+      {
+        "date": "2021-05-29",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 185,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5c8d6df4d43": {
+    "id": "c5c8d6df4d43",
+    "label": "5156 LE BOURG, Le Caule-Sainte-Beuve",
+    "lat": 49.763816,
+    "lng": 1.590589,
+    "transactions": [
+      {
+        "date": "2022-02-24",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ac124aca7ab": {
+    "id": "9ac124aca7ab",
+    "label": "25 RTE DE LA FORET, Le Caule-Sainte-Beuve",
+    "lat": 49.766592,
+    "lng": 1.589169,
+    "transactions": [
+      {
+        "date": "2022-03-19",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd9d011a4074": {
+    "id": "dd9d011a4074",
+    "label": "155 LE BOURG, Le Caule-Sainte-Beuve",
+    "lat": 49.763934,
+    "lng": 1.591141,
+    "transactions": [
+      {
+        "date": "2022-10-25",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6cd9ee7897f": {
+    "id": "d6cd9ee7897f",
+    "label": "151 LE BOURG, Le Caule-Sainte-Beuve",
+    "lat": 49.764064,
+    "lng": 1.592012,
+    "transactions": [
+      {
+        "date": "2024-02-09",
+        "priceEur": 164000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "caf9c42ab674": {
+    "id": "caf9c42ab674",
+    "label": "162A LE BOURG, Le Caule-Sainte-Beuve",
+    "lat": 49.764105,
+    "lng": 1.590223,
+    "transactions": [
+      {
+        "date": "2024-04-06",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  }
+}

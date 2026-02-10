@@ -1,0 +1,47 @@
+{
+  "c72fc31bac5c": {
+    "id": "c72fc31bac5c",
+    "label": "74 CHE DU MONTPINCON, Heugleville-sur-Scie",
+    "lat": 49.733106,
+    "lng": 1.097869,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 345950,
+        "typeLocal": "Maison",
+        "surfaceM2": 181,
+        "isVefa": false
+      }
+    ]
+  },
+  "8ed72647e218": {
+    "id": "8ed72647e218",
+    "label": "378 RUE D'ENFER, Heugleville-sur-Scie",
+    "lat": 49.731762,
+    "lng": 1.093525,
+    "transactions": [
+      {
+        "date": "2022-11-10",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe9b0ffc0298": {
+    "id": "fe9b0ffc0298",
+    "label": "74 CHE DU MONT PINCON, Heugleville-sur-Scie",
+    "lat": 49.733106,
+    "lng": 1.097869,
+    "transactions": [
+      {
+        "date": "2024-07-04",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 181,
+        "isVefa": false
+      }
+    ]
+  }
+}

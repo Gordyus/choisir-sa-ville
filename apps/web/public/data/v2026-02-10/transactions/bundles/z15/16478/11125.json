@@ -1,0 +1,54 @@
+{
+  "23271fa5d569": {
+    "id": "23271fa5d569",
+    "label": "390 CHE DU BOIS D HAUTOT, Hautot-sur-Mer",
+    "lat": 49.910024,
+    "lng": 1.034082,
+    "transactions": [
+      {
+        "date": "2024-10-01",
+        "priceEur": 1090830,
+        "typeLocal": "Maison",
+        "surfaceM2": 195,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-09",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "3bed0618c195": {
+    "id": "3bed0618c195",
+    "label": "1709 RUE DE LA MER, Hautot-sur-Mer",
+    "lat": 49.911768,
+    "lng": 1.035258,
+    "transactions": [
+      {
+        "date": "2021-11-30",
+        "priceEur": 245300,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "638f78ca8578": {
+    "id": "638f78ca8578",
+    "label": "16 CHE DU BOIS D HAUTOT, Hautot-sur-Mer",
+    "lat": 49.912951,
+    "lng": 1.033756,
+    "transactions": [
+      {
+        "date": "2021-08-27",
+        "priceEur": 602000,
+        "typeLocal": "Maison",
+        "surfaceM2": 227,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "96250cb59cfe": {
+    "id": "96250cb59cfe",
+    "label": "809 RUE CHARLES HENRY D AMBRAY, Saint-Honoré",
+    "lat": 49.779694,
+    "lng": 1.15792,
+    "transactions": [
+      {
+        "date": "2020-09-08",
+        "priceEur": 174000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac5ab956a8e6": {
+    "id": "ac5ab956a8e6",
+    "label": "4 RES CLAIR SOLEIL, Saint-Honoré",
+    "lat": 49.776872,
+    "lng": 1.15938,
+    "transactions": [
+      {
+        "date": "2020-11-21",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "d58b1735054b": {
+    "id": "d58b1735054b",
+    "label": "8 RES LES PEUPLIERS, Saint-Honoré",
+    "lat": 49.778387,
+    "lng": 1.158613,
+    "transactions": [
+      {
+        "date": "2021-02-03",
+        "priceEur": 103000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c657579e9c2": {
+    "id": "5c657579e9c2",
+    "label": "1 RES LES PEUPLIERS, Saint-Honoré",
+    "lat": 49.778172,
+    "lng": 1.159577,
+    "transactions": [
+      {
+        "date": "2021-03-31",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa36525b49da": {
+    "id": "fa36525b49da",
+    "label": "11 RES CLAIR SOLEIL, Saint-Honoré",
+    "lat": 49.777826,
+    "lng": 1.159752,
+    "transactions": [
+      {
+        "date": "2023-03-29",
+        "priceEur": 183300,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-08",
+        "priceEur": 183000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  }
+}

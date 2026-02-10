@@ -1,0 +1,32 @@
+{
+  "a368a3f25c5c": {
+    "id": "a368a3f25c5c",
+    "label": "24 VC SANDERSTAES WEG, Volckerinckhove",
+    "lat": 50.84418,
+    "lng": 2.313436,
+    "transactions": [
+      {
+        "date": "2024-02-21",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "161eb21787ed": {
+    "id": "161eb21787ed",
+    "label": "115 VC CAPPELLE STRAETE, Volckerinckhove",
+    "lat": 50.84513,
+    "lng": 2.317116,
+    "transactions": [
+      {
+        "date": "2024-05-29",
+        "priceEur": 201888,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

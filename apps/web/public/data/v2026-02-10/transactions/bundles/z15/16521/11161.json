@@ -1,0 +1,47 @@
+{
+  "de65170a0787": {
+    "id": "de65170a0787",
+    "label": "5119 LE FOND PLACARDOUX, Mesnil-Mauger",
+    "lat": 49.659652,
+    "lng": 1.512045,
+    "transactions": [
+      {
+        "date": "2021-03-19",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e41f1d905a0": {
+    "id": "5e41f1d905a0",
+    "label": "5272 LE FOND PLACARDOUX, Mesnil-Mauger",
+    "lat": 49.660179,
+    "lng": 1.511512,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d0f7a8e148e": {
+    "id": "1d0f7a8e148e",
+    "label": "1 IMP DE L ABBAYE, Mesnil-Mauger",
+    "lat": 49.660158,
+    "lng": 1.513058,
+    "transactions": [
+      {
+        "date": "2023-10-30",
+        "priceEur": 187500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

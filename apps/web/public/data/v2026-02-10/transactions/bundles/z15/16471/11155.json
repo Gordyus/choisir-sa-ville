@@ -1,0 +1,92 @@
+{
+  "4a0e35c4b596": {
+    "id": "4a0e35c4b596",
+    "label": "146 RUE DU VIEUX MOULIN, Val-de-Saâne",
+    "lat": 49.699815,
+    "lng": 0.964096,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 112000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf33af31d0e7": {
+    "id": "cf33af31d0e7",
+    "label": "261 RUE DU VIEUX MOULIN, Val-de-Saâne",
+    "lat": 49.699018,
+    "lng": 0.963855,
+    "transactions": [
+      {
+        "date": "2022-04-29",
+        "priceEur": 138900,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f56851f44be": {
+    "id": "3f56851f44be",
+    "label": "197 RUE DES AMIS DE LA NATURE, Val-de-Saâne",
+    "lat": 49.700391,
+    "lng": 0.963658,
+    "transactions": [
+      {
+        "date": "2022-08-03",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f7ff44ba634": {
+    "id": "3f7ff44ba634",
+    "label": "303 RUE DU VIEUX MOULIN, Val-de-Saâne",
+    "lat": 49.698827,
+    "lng": 0.963043,
+    "transactions": [
+      {
+        "date": "2024-05-16",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "662d89faabb2": {
+    "id": "662d89faabb2",
+    "label": "147 RTE DE VARVANNES, Val-de-Saâne",
+    "lat": 49.703129,
+    "lng": 0.964314,
+    "transactions": [
+      {
+        "date": "2024-09-12",
+        "priceEur": 64800,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "a6f019bc2e4f": {
+    "id": "a6f019bc2e4f",
+    "label": "36 IMP DU VIEUX MOULIN, Val-de-Saâne",
+    "lat": 49.699056,
+    "lng": 0.964365,
+    "transactions": [
+      {
+        "date": "2025-01-20",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

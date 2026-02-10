@@ -1,0 +1,129 @@
+{
+  "cefee39be7cf": {
+    "id": "cefee39be7cf",
+    "label": "1066 RTE DE LA MER, Biville-la-Baignarde",
+    "lat": 49.726797,
+    "lng": 1.048501,
+    "transactions": [
+      {
+        "date": "2020-10-29",
+        "priceEur": 176000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "e846742d8e75": {
+    "id": "e846742d8e75",
+    "label": "80 RUE LA RUETTE, Biville-la-Baignarde",
+    "lat": 49.724539,
+    "lng": 1.046977,
+    "transactions": [
+      {
+        "date": "2021-01-20",
+        "priceEur": 231350,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb3efd949708": {
+    "id": "bb3efd949708",
+    "label": "1036 RTE DE LA MER, Biville-la-Baignarde",
+    "lat": 49.726438,
+    "lng": 1.048546,
+    "transactions": [
+      {
+        "date": "2021-06-08",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "ebcd24b7b528": {
+    "id": "ebcd24b7b528",
+    "label": "139 RUE FERNAND BELLEVILLE, Biville-la-Baignarde",
+    "lat": 49.728678,
+    "lng": 1.048867,
+    "transactions": [
+      {
+        "date": "2021-08-30",
+        "priceEur": 185500,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "55e8661b299f": {
+    "id": "55e8661b299f",
+    "label": "1430 RTE DE LA MER, Biville-la-Baignarde",
+    "lat": 49.729939,
+    "lng": 1.048507,
+    "transactions": [
+      {
+        "date": "2022-02-02",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d340c7f6733": {
+    "id": "2d340c7f6733",
+    "label": "220 RUE DU BOIS MEGLE, Biville-la-Baignarde",
+    "lat": 49.725589,
+    "lng": 1.045565,
+    "transactions": [
+      {
+        "date": "2022-04-09",
+        "priceEur": 402000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-09",
+        "priceEur": 402000,
+        "typeLocal": "Maison",
+        "surfaceM2": 183,
+        "isVefa": false
+      }
+    ]
+  },
+  "67b12709a0fc": {
+    "id": "67b12709a0fc",
+    "label": "191 RUE FERNAND BELLEVILLE, Biville-la-Baignarde",
+    "lat": 49.729418,
+    "lng": 1.049198,
+    "transactions": [
+      {
+        "date": "2023-03-16",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "83f01970082f": {
+    "id": "83f01970082f",
+    "label": "32 RUE FERNAND BELLEVILLE, Biville-la-Baignarde",
+    "lat": 49.72776,
+    "lng": 1.048826,
+    "transactions": [
+      {
+        "date": "2023-09-18",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  }
+}

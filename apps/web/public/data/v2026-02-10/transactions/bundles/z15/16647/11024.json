@@ -1,0 +1,47 @@
+{
+  "64a17703e9ba": {
+    "id": "64a17703e9ba",
+    "label": "31 RUE DE LA FETERIE, Radinghem-en-Weppes",
+    "lat": 50.621096,
+    "lng": 2.899063,
+    "transactions": [
+      {
+        "date": "2020-12-11",
+        "priceEur": 560000,
+        "typeLocal": "Maison",
+        "surfaceM2": 275,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0e66248272d": {
+    "id": "c0e66248272d",
+    "label": "47 RUE DE LA FETERIE, Radinghem-en-Weppes",
+    "lat": 50.621398,
+    "lng": 2.89628,
+    "transactions": [
+      {
+        "date": "2022-03-15",
+        "priceEur": 466000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c3bcf252f2f": {
+    "id": "1c3bcf252f2f",
+    "label": "6 RUE DE LA FETERIE, Radinghem-en-Weppes",
+    "lat": 50.618793,
+    "lng": 2.889517,
+    "transactions": [
+      {
+        "date": "2023-02-06",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

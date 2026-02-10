@@ -1,0 +1,32 @@
+{
+  "fd844db56f3e": {
+    "id": "fd844db56f3e",
+    "label": "220 IMP DE BEAUMONT, Vattetot-sous-Beaumont",
+    "lat": 49.632782,
+    "lng": 0.429908,
+    "transactions": [
+      {
+        "date": "2022-06-28",
+        "priceEur": 231410,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff4aa450efe0": {
+    "id": "ff4aa450efe0",
+    "label": "120 IMP DE BEAUMONT, Vattetot-sous-Beaumont",
+    "lat": 49.632872,
+    "lng": 0.430634,
+    "transactions": [
+      {
+        "date": "2024-10-28",
+        "priceEur": 362000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

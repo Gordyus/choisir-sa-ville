@@ -1,0 +1,32 @@
+{
+  "f0ec9da1fb03": {
+    "id": "f0ec9da1fb03",
+    "label": "5348F LIZARNE, Riols",
+    "lat": 43.512038,
+    "lng": 2.763934,
+    "transactions": [
+      {
+        "date": "2020-11-13",
+        "priceEur": 83000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "6565596cf888": {
+    "id": "6565596cf888",
+    "label": "5262 LIZARNE, Riols",
+    "lat": 43.512112,
+    "lng": 2.7644,
+    "transactions": [
+      {
+        "date": "2023-01-20",
+        "priceEur": 245550,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  }
+}

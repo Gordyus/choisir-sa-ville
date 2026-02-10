@@ -1,0 +1,129 @@
+{
+  "9a55f3895553": {
+    "id": "9a55f3895553",
+    "label": "1990 GR GRANDE RUE, Saint-Gilles-de-la-Neuville",
+    "lat": 49.571397,
+    "lng": 0.349613,
+    "transactions": [
+      {
+        "date": "2024-02-22",
+        "priceEur": 98000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-13",
+        "priceEur": 194000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "dcd4cde12f36": {
+    "id": "dcd4cde12f36",
+    "label": "1895 GR GRANDE RUE, Saint-Gilles-de-la-Neuville",
+    "lat": 49.571318,
+    "lng": 0.351152,
+    "transactions": [
+      {
+        "date": "2020-08-28",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "574374f5a236": {
+    "id": "574374f5a236",
+    "label": "5141 LA BRIERE, Graimbouville",
+    "lat": 49.570828,
+    "lng": 0.346647,
+    "transactions": [
+      {
+        "date": "2020-09-10",
+        "priceEur": 125500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "8fdd97253252": {
+    "id": "8fdd97253252",
+    "label": "1885 GR GRANDE RUE, Saint-Gilles-de-la-Neuville",
+    "lat": 49.571332,
+    "lng": 0.351474,
+    "transactions": [
+      {
+        "date": "2020-09-15",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "07b683957e6d": {
+    "id": "07b683957e6d",
+    "label": "2150 GR GRANDE RUE, Saint-Gilles-de-la-Neuville",
+    "lat": 49.571076,
+    "lng": 0.346904,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f1ec1e65c11": {
+    "id": "8f1ec1e65c11",
+    "label": "400 LA BRIERE, Graimbouville",
+    "lat": 49.572309,
+    "lng": 0.341512,
+    "transactions": [
+      {
+        "date": "2023-03-16",
+        "priceEur": 96900,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "701122dfa6c9": {
+    "id": "701122dfa6c9",
+    "label": "200 RTE DE SAINT GILLES, Graimbouville",
+    "lat": 49.570226,
+    "lng": 0.346824,
+    "transactions": [
+      {
+        "date": "2024-08-13",
+        "priceEur": 266000,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  },
+  "d0690b3d35e8": {
+    "id": "d0690b3d35e8",
+    "label": "1917 GR GRANDE RUE, Saint-Gilles-de-la-Neuville",
+    "lat": 49.571297,
+    "lng": 0.350428,
+    "transactions": [
+      {
+        "date": "2025-01-17",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

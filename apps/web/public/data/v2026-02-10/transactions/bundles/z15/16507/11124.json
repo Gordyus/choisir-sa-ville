@@ -1,0 +1,91 @@
+{
+  "4646218c8cf0": {
+    "id": "4646218c8cf0",
+    "label": "5007 TAILLEMESNIL, Bailly-en-Rivière",
+    "lat": 49.919684,
+    "lng": 1.354197,
+    "transactions": [
+      {
+        "date": "2022-05-23",
+        "priceEur": 29000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea3b0823517a": {
+    "id": "ea3b0823517a",
+    "label": "5216 TAILLEMESNIL, Bailly-en-Rivière",
+    "lat": 49.919338,
+    "lng": 1.356015,
+    "transactions": [
+      {
+        "date": "2022-05-23",
+        "priceEur": 52000,
+        "typeLocal": "Maison",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "0995ce764c31": {
+    "id": "0995ce764c31",
+    "label": "1 TAILLEMESNIL, Bailly-en-Rivière",
+    "lat": 49.917911,
+    "lng": 1.355532,
+    "transactions": [
+      {
+        "date": "2023-12-19",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea28d997cb03": {
+    "id": "ea28d997cb03",
+    "label": "5012 TAILLEMESNIL, Bailly-en-Rivière",
+    "lat": 49.917153,
+    "lng": 1.357609,
+    "transactions": [
+      {
+        "date": "2024-01-03",
+        "priceEur": 338000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-03",
+        "priceEur": 338000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-03",
+        "priceEur": 338000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b08d835a992": {
+    "id": "5b08d835a992",
+    "label": "5010 TAILLEMESNIL, Bailly-en-Rivière",
+    "lat": 49.919035,
+    "lng": 1.35605,
+    "transactions": [
+      {
+        "date": "2024-03-15",
+        "priceEur": 119000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  }
+}

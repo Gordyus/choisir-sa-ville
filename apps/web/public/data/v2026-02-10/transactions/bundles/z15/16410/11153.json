@@ -1,0 +1,69 @@
+{
+  "16bb6c906add": {
+    "id": "16bb6c906add",
+    "label": "25 CHE DES FLINQUETS, Vattetot-sur-Mer",
+    "lat": 49.716674,
+    "lng": 0.286163,
+    "transactions": [
+      {
+        "date": "2020-09-15",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "10acfb01b8bc": {
+    "id": "10acfb01b8bc",
+    "label": "333 RTE DU BOUT DE VATTETOT, Vattetot-sur-Mer",
+    "lat": 49.716035,
+    "lng": 0.287685,
+    "transactions": [
+      {
+        "date": "2021-09-20",
+        "priceEur": 254000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "dcd258c992ac": {
+    "id": "dcd258c992ac",
+    "label": "315 RTE DU BOUT DE VATTETOT, Vattetot-sur-Mer",
+    "lat": 49.715886,
+    "lng": 0.288017,
+    "transactions": [
+      {
+        "date": "2022-01-12",
+        "priceEur": 572500,
+        "typeLocal": "Maison",
+        "surfaceM2": 226,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-12",
+        "priceEur": 572500,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d832f64f6e1": {
+    "id": "7d832f64f6e1",
+    "label": "30 CHE DES PETITS CHAMPS, Vattetot-sur-Mer",
+    "lat": 49.715615,
+    "lng": 0.289974,
+    "transactions": [
+      {
+        "date": "2024-08-06",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "335a443955e0": {
+    "id": "335a443955e0",
+    "label": "7 RUE DU CHEMIN DES BOIS, Crasville-la-Rocquefort",
+    "lat": 49.802939,
+    "lng": 0.86553,
+    "transactions": [
+      {
+        "date": "2020-12-12",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9d028c5c68c": {
+    "id": "c9d028c5c68c",
+    "label": "13 RUE DU BAS DE CRASVILLE, Crasville-la-Rocquefort",
+    "lat": 49.809392,
+    "lng": 0.858171,
+    "transactions": [
+      {
+        "date": "2023-08-04",
+        "priceEur": 151700,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "fee5a09d77fd": {
+    "id": "fee5a09d77fd",
+    "label": "14 RUE DE LA MOTTE FEODALE, Crasville-la-Rocquefort",
+    "lat": 49.803415,
+    "lng": 0.86715,
+    "transactions": [
+      {
+        "date": "2024-01-30",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  }
+}

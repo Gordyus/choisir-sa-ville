@@ -1,0 +1,92 @@
+{
+  "54544dcc5910": {
+    "id": "54544dcc5910",
+    "label": "9093 RTE DE CATTEVILLE, Ocqueville",
+    "lat": 49.797824,
+    "lng": 0.693772,
+    "transactions": [
+      {
+        "date": "2020-11-13",
+        "priceEur": 480000,
+        "typeLocal": "Maison",
+        "surfaceM2": 198,
+        "isVefa": false
+      }
+    ]
+  },
+  "a037ab7fbed6": {
+    "id": "a037ab7fbed6",
+    "label": "7 RTE DU MERDON, Ocqueville",
+    "lat": 49.801229,
+    "lng": 0.697055,
+    "transactions": [
+      {
+        "date": "2021-08-09",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "2068778fdd01": {
+    "id": "2068778fdd01",
+    "label": "7 CHE DE FROBERVILLE, Ocqueville",
+    "lat": 49.798763,
+    "lng": 0.693357,
+    "transactions": [
+      {
+        "date": "2021-12-28",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "d7d4c39ab10c": {
+    "id": "d7d4c39ab10c",
+    "label": "9 CHE DE FROBERVILLE, Ocqueville",
+    "lat": 49.798622,
+    "lng": 0.693834,
+    "transactions": [
+      {
+        "date": "2022-04-19",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9443295c136": {
+    "id": "f9443295c136",
+    "label": "3 RTE DU MERDON, Ocqueville",
+    "lat": 49.798676,
+    "lng": 0.698428,
+    "transactions": [
+      {
+        "date": "2024-01-16",
+        "priceEur": 600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 380,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d0c3cd01df6": {
+    "id": "6d0c3cd01df6",
+    "label": "1 RTE DU MERDON, Ocqueville",
+    "lat": 49.799551,
+    "lng": 0.699285,
+    "transactions": [
+      {
+        "date": "2024-01-16",
+        "priceEur": 600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  }
+}

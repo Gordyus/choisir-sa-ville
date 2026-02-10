@@ -1,0 +1,32 @@
+{
+  "0ed9e12d99c8": {
+    "id": "0ed9e12d99c8",
+    "label": "130 RUE DES BUISSONS, La Hallotière",
+    "lat": 49.516065,
+    "lng": 1.472912,
+    "transactions": [
+      {
+        "date": "2022-12-07",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "e86585002891": {
+    "id": "e86585002891",
+    "label": "200 RUE EUGENE BISSON, La Hallotière",
+    "lat": 49.517122,
+    "lng": 1.478165,
+    "transactions": [
+      {
+        "date": "2025-02-19",
+        "priceEur": 156000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  }
+}

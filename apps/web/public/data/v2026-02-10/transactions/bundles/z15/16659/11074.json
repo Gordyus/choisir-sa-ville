@@ -1,0 +1,122 @@
+{
+  "5ed9e47456a7": {
+    "id": "5ed9e47456a7",
+    "label": "63 RUE D ETAING, Lécluse",
+    "lat": 50.273451,
+    "lng": 3.030987,
+    "transactions": [
+      {
+        "date": "2020-07-15",
+        "priceEur": 170500,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea70bd8096fc": {
+    "id": "ea70bd8096fc",
+    "label": "65 RUE D ETAING, Lécluse",
+    "lat": 50.273186,
+    "lng": 3.030907,
+    "transactions": [
+      {
+        "date": "2020-09-15",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "ef7fc79ab1cb": {
+    "id": "ef7fc79ab1cb",
+    "label": "16 ALL DES AZALEES, Lécluse",
+    "lat": 50.274273,
+    "lng": 3.030717,
+    "transactions": [
+      {
+        "date": "2020-09-21",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "d57956210349": {
+    "id": "d57956210349",
+    "label": "67 RUE D ETAING, Lécluse",
+    "lat": 50.273135,
+    "lng": 3.03066,
+    "transactions": [
+      {
+        "date": "2021-03-19",
+        "priceEur": 78750,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "de41b0d105fb": {
+    "id": "de41b0d105fb",
+    "label": "3 ALL DES JONQUILLES, Lécluse",
+    "lat": 50.274939,
+    "lng": 3.030933,
+    "transactions": [
+      {
+        "date": "2021-04-09",
+        "priceEur": 143000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "e61b90dac809": {
+    "id": "e61b90dac809",
+    "label": "16 RUE DES ORCHIDEES, Lécluse",
+    "lat": 50.275156,
+    "lng": 3.030507,
+    "transactions": [
+      {
+        "date": "2021-05-10",
+        "priceEur": 211600,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "075a07cc8c20": {
+    "id": "075a07cc8c20",
+    "label": "10 ALL DES AZALEES, Lécluse",
+    "lat": 50.274418,
+    "lng": 3.031008,
+    "transactions": [
+      {
+        "date": "2023-11-23",
+        "priceEur": 161900,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "85e7f2d51e00": {
+    "id": "85e7f2d51e00",
+    "label": "7 ALL DES AZALEES, Lécluse",
+    "lat": 50.27404,
+    "lng": 3.031293,
+    "transactions": [
+      {
+        "date": "2024-09-27",
+        "priceEur": 174900,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

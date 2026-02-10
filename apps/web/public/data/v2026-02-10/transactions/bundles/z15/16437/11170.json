@@ -1,0 +1,47 @@
+{
+  "6dfd98b65536": {
+    "id": "6dfd98b65536",
+    "label": "819 RTE DU BOCAGE, Bolleville",
+    "lat": 49.592051,
+    "lng": 0.584006,
+    "transactions": [
+      {
+        "date": "2023-12-29",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "6181e7b5a559": {
+    "id": "6181e7b5a559",
+    "label": "896 RTE DU BOCAGE, Trouville",
+    "lat": 49.592863,
+    "lng": 0.584902,
+    "transactions": [
+      {
+        "date": "2024-05-15",
+        "priceEur": 229800,
+        "typeLocal": "Maison",
+        "surfaceM2": 204,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad83bc08958c": {
+    "id": "ad83bc08958c",
+    "label": "758 RTE DU BOCAGE, Trouville",
+    "lat": 49.591767,
+    "lng": 0.584377,
+    "transactions": [
+      {
+        "date": "2024-03-28",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  }
+}

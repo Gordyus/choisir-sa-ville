@@ -1,0 +1,32 @@
+{
+  "ded55bdbebf1": {
+    "id": "ded55bdbebf1",
+    "label": "2730 RTE DE BOSC REGNIER, Bois-Guilbert",
+    "lat": 49.538814,
+    "lng": 1.430538,
+    "transactions": [
+      {
+        "date": "2022-04-27",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "6aada3acf9bd": {
+    "id": "6aada3acf9bd",
+    "label": "2624 RTE DE BOSC REGNIER, Bois-Guilbert",
+    "lat": 49.538657,
+    "lng": 1.429377,
+    "transactions": [
+      {
+        "date": "2022-08-23",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "1fb0eec6117f": {
+    "id": "1fb0eec6117f",
+    "label": "9B HAM LE RAMBOC, Épreville",
+    "lat": 49.701846,
+    "lng": 0.361801,
+    "transactions": [
+      {
+        "date": "2021-11-15",
+        "priceEur": 232690,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd4a4bfda157": {
+    "id": "bd4a4bfda157",
+    "label": "5 HAM LE RAMBOC, Épreville",
+    "lat": 49.70234,
+    "lng": 0.362518,
+    "transactions": [
+      {
+        "date": "2022-02-28",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "4fcc2e8566f9": {
+    "id": "4fcc2e8566f9",
+    "label": "19 HAM LE RAMBOC, Épreville",
+    "lat": 49.700621,
+    "lng": 0.360556,
+    "transactions": [
+      {
+        "date": "2024-12-02",
+        "priceEur": 276000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  }
+}

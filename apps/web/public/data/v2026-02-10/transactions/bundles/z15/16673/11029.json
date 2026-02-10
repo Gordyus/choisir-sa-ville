@@ -1,0 +1,84 @@
+{
+  "d18114000be0": {
+    "id": "d18114000be0",
+    "label": "735 RUE PASTEUR, Sainghin-en-Mélantois",
+    "lat": 50.590131,
+    "lng": 3.178741,
+    "transactions": [
+      {
+        "date": "2020-12-15",
+        "priceEur": 466000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-15",
+        "priceEur": 466000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "cbbe6c4a51d3": {
+    "id": "cbbe6c4a51d3",
+    "label": "588 RUE PASTEUR, Sainghin-en-Mélantois",
+    "lat": 50.589705,
+    "lng": 3.176724,
+    "transactions": [
+      {
+        "date": "2020-12-30",
+        "priceEur": 610000,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "6dfc466544ff": {
+    "id": "6dfc466544ff",
+    "label": "8 RUE JARDINS DE LA NOYELLE, Sainghin-en-Mélantois",
+    "lat": 50.589819,
+    "lng": 3.175197,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 673470,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "6da0534ad647": {
+    "id": "6da0534ad647",
+    "label": "6 RUE JARDINS DE LA NOYELLE, Sainghin-en-Mélantois",
+    "lat": 50.58956,
+    "lng": 3.17517,
+    "transactions": [
+      {
+        "date": "2023-08-31",
+        "priceEur": 670000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "3835f422ff7e": {
+    "id": "3835f422ff7e",
+    "label": "330 RUE DE LA MARQUE, Sainghin-en-Mélantois",
+    "lat": 50.583857,
+    "lng": 3.178251,
+    "transactions": [
+      {
+        "date": "2025-04-24",
+        "priceEur": 900000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "c52921a00474": {
+    "id": "c52921a00474",
+    "label": "12 RUE DU BOUT DE LA VILLE, Bosc-Hyons",
+    "lat": 49.44447,
+    "lng": 1.656659,
+    "transactions": [
+      {
+        "date": "2021-04-27",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-27",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "d63b23097f73": {
+    "id": "d63b23097f73",
+    "label": "22 RUE DU BOUT DE LA VILLE, Bosc-Hyons",
+    "lat": 49.442752,
+    "lng": 1.65546,
+    "transactions": [
+      {
+        "date": "2021-05-04",
+        "priceEur": 159500,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b0b7ca1f99b": {
+    "id": "1b0b7ca1f99b",
+    "label": "6 RUE DU BOUT DE LA VILLE, Bosc-Hyons",
+    "lat": 49.445785,
+    "lng": 1.657542,
+    "transactions": [
+      {
+        "date": "2022-02-17",
+        "priceEur": 452450,
+        "typeLocal": "Maison",
+        "surfaceM2": 377,
+        "isVefa": false
+      }
+    ]
+  },
+  "7cf3c1458eeb": {
+    "id": "7cf3c1458eeb",
+    "label": "10 RUE DU BOUT DE LA VILLE, Bosc-Hyons",
+    "lat": 49.444843,
+    "lng": 1.656389,
+    "transactions": [
+      {
+        "date": "2023-07-05",
+        "priceEur": 440000,
+        "typeLocal": "Maison",
+        "surfaceM2": 238,
+        "isVefa": false
+      }
+    ]
+  }
+}

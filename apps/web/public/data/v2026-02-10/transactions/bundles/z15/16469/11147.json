@@ -1,0 +1,47 @@
+{
+  "573283008350": {
+    "id": "573283008350",
+    "label": "5017 LE BOIS LAMBERT, Saint-Ouen-le-Mauger",
+    "lat": 49.757527,
+    "lng": 0.944584,
+    "transactions": [
+      {
+        "date": "2020-07-22",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b8eb13f4802": {
+    "id": "0b8eb13f4802",
+    "label": "2 CHE DU SENATEUR, Saint-Ouen-le-Mauger",
+    "lat": 49.755837,
+    "lng": 0.940174,
+    "transactions": [
+      {
+        "date": "2020-11-04",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "24229d291981": {
+    "id": "24229d291981",
+    "label": "390 RTE DU CAREL, Saint-Ouen-le-Mauger",
+    "lat": 49.756928,
+    "lng": 0.944357,
+    "transactions": [
+      {
+        "date": "2023-09-18",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  }
+}

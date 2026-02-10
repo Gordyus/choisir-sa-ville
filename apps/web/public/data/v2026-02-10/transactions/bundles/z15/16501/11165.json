@@ -1,0 +1,24 @@
+{
+  "1d06f9b51233": {
+    "id": "1d06f9b51233",
+    "label": "5283 LA PREE, Saint-Martin-Osmonville",
+    "lat": 49.626292,
+    "lng": 1.28612,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-09",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

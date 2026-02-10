@@ -1,0 +1,99 @@
+{
+  "b329350778f3": {
+    "id": "b329350778f3",
+    "label": "792 RTE DU BOIS HEBERT, Clères",
+    "lat": 49.58726,
+    "lng": 1.08009,
+    "transactions": [
+      {
+        "date": "2021-01-13",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "903ab3eb8028": {
+    "id": "903ab3eb8028",
+    "label": "229 RTE DES MARETTES, Clères",
+    "lat": 49.58704,
+    "lng": 1.080879,
+    "transactions": [
+      {
+        "date": "2021-03-30",
+        "priceEur": 490000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb68d9e065e8": {
+    "id": "cb68d9e065e8",
+    "label": "24 CHE DES CHASSES MAREES, Clères",
+    "lat": 49.587564,
+    "lng": 1.083707,
+    "transactions": [
+      {
+        "date": "2022-06-02",
+        "priceEur": 339570,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "230ff73938ae": {
+    "id": "230ff73938ae",
+    "label": "1 RTE DES MARETTES, Clères",
+    "lat": 49.585819,
+    "lng": 1.080188,
+    "transactions": [
+      {
+        "date": "2022-06-29",
+        "priceEur": 490000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "46a7e7b14f6f": {
+    "id": "46a7e7b14f6f",
+    "label": "241 RTE DES MARETTES, Clères",
+    "lat": 49.586842,
+    "lng": 1.082326,
+    "transactions": [
+      {
+        "date": "2024-04-02",
+        "priceEur": 216350,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf4b9f0a7c8d": {
+    "id": "bf4b9f0a7c8d",
+    "label": "781 RTE DU BOIS HEBERT, Clères",
+    "lat": 49.587204,
+    "lng": 1.078946,
+    "transactions": [
+      {
+        "date": "2025-04-04",
+        "priceEur": 212600,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-04",
+        "priceEur": 212600,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  }
+}

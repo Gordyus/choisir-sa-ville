@@ -1,0 +1,62 @@
+{
+  "9ae802e50871": {
+    "id": "9ae802e50871",
+    "label": "1405 VC LES CINQ RUES, Hazebrouck",
+    "lat": 50.740023,
+    "lng": 2.503539,
+    "transactions": [
+      {
+        "date": "2022-01-07",
+        "priceEur": 141000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "35aa8ce08994": {
+    "id": "35aa8ce08994",
+    "label": "810 VC BENOOT STRAETE, Hazebrouck",
+    "lat": 50.739213,
+    "lng": 2.501737,
+    "transactions": [
+      {
+        "date": "2022-05-20",
+        "priceEur": 270314,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "2aacc6de9981": {
+    "id": "2aacc6de9981",
+    "label": "1342 VC BENOOT STRAETE, Hazebrouck",
+    "lat": 50.737374,
+    "lng": 2.494903,
+    "transactions": [
+      {
+        "date": "2024-06-08",
+        "priceEur": 119500,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "647bd9efbce6": {
+    "id": "647bd9efbce6",
+    "label": "996 VC BENOOT STRAETE, Hazebrouck",
+    "lat": 50.738368,
+    "lng": 2.499692,
+    "transactions": [
+      {
+        "date": "2024-06-27",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

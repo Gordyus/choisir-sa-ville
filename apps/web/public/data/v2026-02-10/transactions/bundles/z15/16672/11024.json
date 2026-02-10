@@ -1,0 +1,921 @@
+{
+  "4f1bc3a96394": {
+    "id": "4f1bc3a96394",
+    "label": "56 RUE KLEBER, Villeneuve-d'Ascq",
+    "lat": 50.619701,
+    "lng": 3.169544,
+    "transactions": [
+      {
+        "date": "2020-08-10",
+        "priceEur": 249000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b3d853a97d9": {
+    "id": "9b3d853a97d9",
+    "label": "26B RUE KLEBER, Villeneuve-d'Ascq",
+    "lat": 50.620734,
+    "lng": 3.168404,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 404800,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "49150c07e422": {
+    "id": "49150c07e422",
+    "label": "67 RUE KLEBER, Villeneuve-d'Ascq",
+    "lat": 50.61989,
+    "lng": 3.170776,
+    "transactions": [
+      {
+        "date": "2020-10-26",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7ce5d488e77": {
+    "id": "f7ce5d488e77",
+    "label": "24 RUE MANGIN, Villeneuve-d'Ascq",
+    "lat": 50.619471,
+    "lng": 3.165611,
+    "transactions": [
+      {
+        "date": "2020-11-05",
+        "priceEur": 411000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "33e98c535e4a": {
+    "id": "33e98c535e4a",
+    "label": "72 RUE KLEBER, Villeneuve-d'Ascq",
+    "lat": 50.619295,
+    "lng": 3.170446,
+    "transactions": [
+      {
+        "date": "2020-12-10",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "54cd80b4ca6a": {
+    "id": "54cd80b4ca6a",
+    "label": "22 RUE MANGIN, Villeneuve-d'Ascq",
+    "lat": 50.619412,
+    "lng": 3.165579,
+    "transactions": [
+      {
+        "date": "2024-09-12",
+        "priceEur": 445000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-14",
+        "priceEur": 258000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-26",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "35a87205a4b0": {
+    "id": "35a87205a4b0",
+    "label": "77 RUE MANGIN, Villeneuve-d'Ascq",
+    "lat": 50.621064,
+    "lng": 3.167055,
+    "transactions": [
+      {
+        "date": "2021-03-18",
+        "priceEur": 211200,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "d8d28193b0da": {
+    "id": "d8d28193b0da",
+    "label": "62 RUE MASSENA, Villeneuve-d'Ascq",
+    "lat": 50.624336,
+    "lng": 3.169596,
+    "transactions": [
+      {
+        "date": "2021-04-06",
+        "priceEur": 573000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "db04f774f7a8": {
+    "id": "db04f774f7a8",
+    "label": "71 RUE KLEBER, Villeneuve-d'Ascq",
+    "lat": 50.619706,
+    "lng": 3.170763,
+    "transactions": [
+      {
+        "date": "2021-05-10",
+        "priceEur": 279500,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "d52e6db8968e": {
+    "id": "d52e6db8968e",
+    "label": "46 RUE MANGIN, Villeneuve-d'Ascq",
+    "lat": 50.620087,
+    "lng": 3.166838,
+    "transactions": [
+      {
+        "date": "2021-07-08",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ffcb9332011": {
+    "id": "7ffcb9332011",
+    "label": "55 RUE KLEBER, Villeneuve-d'Ascq",
+    "lat": 50.620147,
+    "lng": 3.170203,
+    "transactions": [
+      {
+        "date": "2021-08-09",
+        "priceEur": 455000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "d4fc7fe18a42": {
+    "id": "d4fc7fe18a42",
+    "label": "16 RUE MASSENA, Villeneuve-d'Ascq",
+    "lat": 50.622938,
+    "lng": 3.166808,
+    "transactions": [
+      {
+        "date": "2021-09-17",
+        "priceEur": 545000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "5771bae99278": {
+    "id": "5771bae99278",
+    "label": "57 RUE MASSENA, Villeneuve-d'Ascq",
+    "lat": 50.623522,
+    "lng": 3.167199,
+    "transactions": [
+      {
+        "date": "2021-09-10",
+        "priceEur": 358000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "c38b3d9a2be1": {
+    "id": "c38b3d9a2be1",
+    "label": "10 RUE ARISTIDE, Villeneuve-d'Ascq",
+    "lat": 50.618184,
+    "lng": 3.165326,
+    "transactions": [
+      {
+        "date": "2021-10-01",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "b42e520906a3": {
+    "id": "b42e520906a3",
+    "label": "2C RUE KLEBER, Villeneuve-d'Ascq",
+    "lat": 50.622475,
+    "lng": 3.166075,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 611450,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "e52796756042": {
+    "id": "e52796756042",
+    "label": "60 RUE MASSENA, Villeneuve-d'Ascq",
+    "lat": 50.624378,
+    "lng": 3.169336,
+    "transactions": [
+      {
+        "date": "2021-11-26",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e9f39ec487f": {
+    "id": "5e9f39ec487f",
+    "label": "36 AV DU QUENNELET, Villeneuve-d'Ascq",
+    "lat": 50.624127,
+    "lng": 3.165188,
+    "transactions": [
+      {
+        "date": "2021-11-30",
+        "priceEur": 626110,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "70dc015917df": {
+    "id": "70dc015917df",
+    "label": "12 RUE KLEBER, Villeneuve-d'Ascq",
+    "lat": 50.621904,
+    "lng": 3.166777,
+    "transactions": [
+      {
+        "date": "2021-12-07",
+        "priceEur": 450000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e9d3e72bbc0": {
+    "id": "1e9d3e72bbc0",
+    "label": "69 RUE KLEBER, Villeneuve-d'Ascq",
+    "lat": 50.619742,
+    "lng": 3.170696,
+    "transactions": [
+      {
+        "date": "2021-12-13",
+        "priceEur": 346600,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "56507687e7d7": {
+    "id": "56507687e7d7",
+    "label": "75 RUE KLEBER, Villeneuve-d'Ascq",
+    "lat": 50.619666,
+    "lng": 3.17096,
+    "transactions": [
+      {
+        "date": "2022-03-10",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d50876d83ff": {
+    "id": "1d50876d83ff",
+    "label": "17 RUE MANGIN, Villeneuve-d'Ascq",
+    "lat": 50.619186,
+    "lng": 3.164077,
+    "transactions": [
+      {
+        "date": "2022-03-18",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "8742459adf75": {
+    "id": "8742459adf75",
+    "label": "29 RUE MASSENA, Villeneuve-d'Ascq",
+    "lat": 50.623015,
+    "lng": 3.165143,
+    "transactions": [
+      {
+        "date": "2024-06-18",
+        "priceEur": 311000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-29",
+        "priceEur": 218000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "49d37ff5c3de": {
+    "id": "49d37ff5c3de",
+    "label": "63 RUE MANGIN, Villeneuve-d'Ascq",
+    "lat": 50.620731,
+    "lng": 3.16613,
+    "transactions": [
+      {
+        "date": "2022-04-28",
+        "priceEur": 550050,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "80ded1417838": {
+    "id": "80ded1417838",
+    "label": "29 RUE DE L'ABBE LEMIRE, Villeneuve-d'Ascq",
+    "lat": 50.619148,
+    "lng": 3.168891,
+    "transactions": [
+      {
+        "date": "2022-05-12",
+        "priceEur": 205500,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f41299a80cc": {
+    "id": "7f41299a80cc",
+    "label": "20 RUE KLEBER, Villeneuve-d'Ascq",
+    "lat": 50.621684,
+    "lng": 3.167491,
+    "transactions": [
+      {
+        "date": "2022-04-28",
+        "priceEur": 362000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "76b739832cd7": {
+    "id": "76b739832cd7",
+    "label": "14 CHE DU DISPENSAIRE, Villeneuve-d'Ascq",
+    "lat": 50.621246,
+    "lng": 3.164293,
+    "transactions": [
+      {
+        "date": "2022-07-25",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "f3a69acd1dcf": {
+    "id": "f3a69acd1dcf",
+    "label": "37 RUE KLEBER, Villeneuve-d'Ascq",
+    "lat": 50.620599,
+    "lng": 3.169508,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "c31d5ebf1838": {
+    "id": "c31d5ebf1838",
+    "label": "27 RUE MASSENA, Villeneuve-d'Ascq",
+    "lat": 50.623023,
+    "lng": 3.165039,
+    "transactions": [
+      {
+        "date": "2022-09-01",
+        "priceEur": 410500,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "262bcc3e348a": {
+    "id": "262bcc3e348a",
+    "label": "24E RUE KLEBER, Villeneuve-d'Ascq",
+    "lat": 50.620139,
+    "lng": 3.167064,
+    "transactions": [
+      {
+        "date": "2022-08-30",
+        "priceEur": 764130,
+        "typeLocal": "Maison",
+        "surfaceM2": 179,
+        "isVefa": false
+      }
+    ]
+  },
+  "b60fb31059af": {
+    "id": "b60fb31059af",
+    "label": "48 RUE MANGIN, Villeneuve-d'Ascq",
+    "lat": 50.620319,
+    "lng": 3.166748,
+    "transactions": [
+      {
+        "date": "2022-09-20",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "9892d57b7e18": {
+    "id": "9892d57b7e18",
+    "label": "9B RUE KLEBER, Villeneuve-d'Ascq",
+    "lat": 50.622474,
+    "lng": 3.168103,
+    "transactions": [
+      {
+        "date": "2022-11-04",
+        "priceEur": 440000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "000e3d3e6ed1": {
+    "id": "000e3d3e6ed1",
+    "label": "44 RUE MASSENA, Villeneuve-d'Ascq",
+    "lat": 50.623781,
+    "lng": 3.168801,
+    "transactions": [
+      {
+        "date": "2022-11-30",
+        "priceEur": 630000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "d7e62596d448": {
+    "id": "d7e62596d448",
+    "label": "31 RUE DE L'ABBE LEMIRE, Villeneuve-d'Ascq",
+    "lat": 50.619152,
+    "lng": 3.168997,
+    "transactions": [
+      {
+        "date": "2023-02-20",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "93e419cf1683": {
+    "id": "93e419cf1683",
+    "label": "27 RUE MANGIN, Villeneuve-d'Ascq",
+    "lat": 50.619817,
+    "lng": 3.164748,
+    "transactions": [
+      {
+        "date": "2023-03-24",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "e54ab721cd6b": {
+    "id": "e54ab721cd6b",
+    "label": "33 RUE DE L'ABBE LEMIRE, Villeneuve-d'Ascq",
+    "lat": 50.619155,
+    "lng": 3.169172,
+    "transactions": [
+      {
+        "date": "2023-03-31",
+        "priceEur": 190000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-31",
+        "priceEur": 190000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-31",
+        "priceEur": 190000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-31",
+        "priceEur": 190000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "43e56b4b2ee3": {
+    "id": "43e56b4b2ee3",
+    "label": "61 RUE MANGIN, Villeneuve-d'Ascq",
+    "lat": 50.620715,
+    "lng": 3.166003,
+    "transactions": [
+      {
+        "date": "2023-04-13",
+        "priceEur": 365000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-13",
+        "priceEur": 365000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3c3c50b2e1f": {
+    "id": "d3c3c50b2e1f",
+    "label": "73 RUE KLEBER, Villeneuve-d'Ascq",
+    "lat": 50.61966,
+    "lng": 3.170836,
+    "transactions": [
+      {
+        "date": "2023-05-02",
+        "priceEur": 312850,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "cabb6f09b737": {
+    "id": "cabb6f09b737",
+    "label": "212 RUE GASTON BARATTE, Villeneuve-d'Ascq",
+    "lat": 50.62193,
+    "lng": 3.164233,
+    "transactions": [
+      {
+        "date": "2023-07-27",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b74fdc7d2a0": {
+    "id": "4b74fdc7d2a0",
+    "label": "16 AV DE BRIGODE, Villeneuve-d'Ascq",
+    "lat": 50.624657,
+    "lng": 3.164154,
+    "transactions": [
+      {
+        "date": "2023-08-21",
+        "priceEur": 1406050,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "887a4377d60c": {
+    "id": "887a4377d60c",
+    "label": "26 RUE KLEBER, Villeneuve-d'Ascq",
+    "lat": 50.620808,
+    "lng": 3.168411,
+    "transactions": [
+      {
+        "date": "2023-08-24",
+        "priceEur": 329000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c16c6498b28": {
+    "id": "2c16c6498b28",
+    "label": "73 RUE MANGIN, Villeneuve-d'Ascq",
+    "lat": 50.62081,
+    "lng": 3.166767,
+    "transactions": [
+      {
+        "date": "2023-09-13",
+        "priceEur": 365700,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1e3e3785d0f": {
+    "id": "b1e3e3785d0f",
+    "label": "206 RUE GASTON BARATTE, Villeneuve-d'Ascq",
+    "lat": 50.621807,
+    "lng": 3.164353,
+    "transactions": [
+      {
+        "date": "2023-09-14",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "716355951c1f": {
+    "id": "716355951c1f",
+    "label": "39T RUE KLEBER, Villeneuve-d'Ascq",
+    "lat": 50.620984,
+    "lng": 3.17071,
+    "transactions": [
+      {
+        "date": "2023-10-27",
+        "priceEur": 430000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "d79eaafbded9": {
+    "id": "d79eaafbded9",
+    "label": "28 AV DU QUENNELET, Villeneuve-d'Ascq",
+    "lat": 50.623604,
+    "lng": 3.164795,
+    "transactions": [
+      {
+        "date": "2023-12-29",
+        "priceEur": 485000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "0190f895e6d2": {
+    "id": "0190f895e6d2",
+    "label": "27 RUE KLEBER, Villeneuve-d'Ascq",
+    "lat": 50.620998,
+    "lng": 3.169189,
+    "transactions": [
+      {
+        "date": "2024-02-02",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "273e3f607580": {
+    "id": "273e3f607580",
+    "label": "63 RUE MASSENA, Villeneuve-d'Ascq",
+    "lat": 50.623604,
+    "lng": 3.167417,
+    "transactions": [
+      {
+        "date": "2024-02-22",
+        "priceEur": 124000,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d3777d19ed5": {
+    "id": "9d3777d19ed5",
+    "label": "38 AV DU QUENNELET, Villeneuve-d'Ascq",
+    "lat": 50.624187,
+    "lng": 3.165335,
+    "transactions": [
+      {
+        "date": "2024-02-15",
+        "priceEur": 460000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "dddb3a0ac0be": {
+    "id": "dddb3a0ac0be",
+    "label": "32 RUE KLEBER, Villeneuve-d'Ascq",
+    "lat": 50.620341,
+    "lng": 3.168813,
+    "transactions": [
+      {
+        "date": "2024-05-17",
+        "priceEur": 257350,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "14843a23449b": {
+    "id": "14843a23449b",
+    "label": "17 RUE KLEBER, Villeneuve-d'Ascq",
+    "lat": 50.621561,
+    "lng": 3.168125,
+    "transactions": [
+      {
+        "date": "2024-07-16",
+        "priceEur": 313000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7a8ea6518b1": {
+    "id": "b7a8ea6518b1",
+    "label": "66 RUE KLEBER, Villeneuve-d'Ascq",
+    "lat": 50.619473,
+    "lng": 3.169877,
+    "transactions": [
+      {
+        "date": "2024-08-23",
+        "priceEur": 349850,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f7754f3a9fd": {
+    "id": "2f7754f3a9fd",
+    "label": "35 RUE DE L'ABBE LEMIRE, Villeneuve-d'Ascq",
+    "lat": 50.619167,
+    "lng": 3.169552,
+    "transactions": [
+      {
+        "date": "2024-09-04",
+        "priceEur": 275500,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "5821fde7d79d": {
+    "id": "5821fde7d79d",
+    "label": "45 RUE DE L'ABBE LEMIRE, Villeneuve-d'Ascq",
+    "lat": 50.619148,
+    "lng": 3.17037,
+    "transactions": [
+      {
+        "date": "2024-10-09",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "aeb447a9688a": {
+    "id": "aeb447a9688a",
+    "label": "4 RUE ARISTIDE, Villeneuve-d'Ascq",
+    "lat": 50.618511,
+    "lng": 3.165369,
+    "transactions": [
+      {
+        "date": "2024-11-18",
+        "priceEur": 296000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "02714eaa366d": {
+    "id": "02714eaa366d",
+    "label": "65 RUE MASSENA, Villeneuve-d'Ascq",
+    "lat": 50.623552,
+    "lng": 3.167467,
+    "transactions": [
+      {
+        "date": "2024-12-10",
+        "priceEur": 164000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ec50e995864": {
+    "id": "0ec50e995864",
+    "label": "54 RUE MANGIN, Villeneuve-d'Ascq",
+    "lat": 50.620683,
+    "lng": 3.167465,
+    "transactions": [
+      {
+        "date": "2025-02-07",
+        "priceEur": 468600,
+        "typeLocal": "Maison",
+        "surfaceM2": 187,
+        "isVefa": false
+      }
+    ]
+  },
+  "b76caf285573": {
+    "id": "b76caf285573",
+    "label": "45 RUE KLEBER, Villeneuve-d'Ascq",
+    "lat": 50.620369,
+    "lng": 3.1699,
+    "transactions": [
+      {
+        "date": "2025-04-04",
+        "priceEur": 228000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "89baf01b2fc7": {
+    "id": "89baf01b2fc7",
+    "label": "41 RUE MANGIN, Villeneuve-d'Ascq",
+    "lat": 50.620171,
+    "lng": 3.165635,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 374000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "a269c8a10ff0": {
+    "id": "a269c8a10ff0",
+    "label": "22 AV DU QUENNELET, Villeneuve-d'Ascq",
+    "lat": 50.623564,
+    "lng": 3.164194,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 440000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "25e8f64166cd": {
+    "id": "25e8f64166cd",
+    "label": "28 RTE D HOUPLIN, Gondecourt",
+    "lat": 50.550049,
+    "lng": 2.989585,
+    "transactions": [
+      {
+        "date": "2024-03-18",
+        "priceEur": 214140,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-10",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "87d17c8acd35": {
+    "id": "87d17c8acd35",
+    "label": "12 RTE D HOUPLIN, Gondecourt",
+    "lat": 50.549623,
+    "lng": 2.989127,
+    "transactions": [
+      {
+        "date": "2024-10-01",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-09",
+        "priceEur": 84000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b11de6da49b": {
+    "id": "0b11de6da49b",
+    "label": "24 RTE D HOUPLIN, Gondecourt",
+    "lat": 50.549965,
+    "lng": 2.989455,
+    "transactions": [
+      {
+        "date": "2020-10-29",
+        "priceEur": 192500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "e083bc93e732": {
+    "id": "e083bc93e732",
+    "label": "8 RTE D HOUPLIN, Gondecourt",
+    "lat": 50.549573,
+    "lng": 2.988909,
+    "transactions": [
+      {
+        "date": "2022-05-04",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "20f1fa34f122": {
+    "id": "20f1fa34f122",
+    "label": "19 RTE D HOUPLIN, Gondecourt",
+    "lat": 50.550479,
+    "lng": 2.989305,
+    "transactions": [
+      {
+        "date": "2023-04-06",
+        "priceEur": 355160,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5db50479ea6": {
+    "id": "b5db50479ea6",
+    "label": "25 RUE ARISTIDE BRIAND, Gondecourt",
+    "lat": 50.548782,
+    "lng": 2.988342,
+    "transactions": [
+      {
+        "date": "2023-10-13",
+        "priceEur": 389900,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4b8957a3731": {
+    "id": "c4b8957a3731",
+    "label": "11 RTE D HOUPLIN, Gondecourt",
+    "lat": 50.549786,
+    "lng": 2.988478,
+    "transactions": [
+      {
+        "date": "2024-07-02",
+        "priceEur": 259500,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

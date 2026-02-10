@@ -1,0 +1,122 @@
+{
+  "f18483d5f9aa": {
+    "id": "f18483d5f9aa",
+    "label": "4 CHEMIN DE DAIS, Carnin",
+    "lat": 50.520059,
+    "lng": 2.952271,
+    "transactions": [
+      {
+        "date": "2021-02-10",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "d17a39fea2ac": {
+    "id": "d17a39fea2ac",
+    "label": "7 CHEMIN DE DAIS, Carnin",
+    "lat": 50.5198,
+    "lng": 2.952882,
+    "transactions": [
+      {
+        "date": "2021-05-26",
+        "priceEur": 318565,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "55f053acc50a": {
+    "id": "55f053acc50a",
+    "label": "44 RUE DU LIEUTENANT BAILLET, Carnin",
+    "lat": 50.519666,
+    "lng": 2.955108,
+    "transactions": [
+      {
+        "date": "2022-05-06",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "dc22aa3753ed": {
+    "id": "dc22aa3753ed",
+    "label": "4 RUE LUCIEN DAL, Carnin",
+    "lat": 50.519962,
+    "lng": 2.955006,
+    "transactions": [
+      {
+        "date": "2023-04-07",
+        "priceEur": 231300,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e61ca593837": {
+    "id": "4e61ca593837",
+    "label": "20 CHEMIN DE DAIS, Carnin",
+    "lat": 50.520051,
+    "lng": 2.953279,
+    "transactions": [
+      {
+        "date": "2024-06-25",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "21bee421f67d": {
+    "id": "21bee421f67d",
+    "label": "6 CHEMIN DE DAIS, Carnin",
+    "lat": 50.519907,
+    "lng": 2.952716,
+    "transactions": [
+      {
+        "date": "2024-08-02",
+        "priceEur": 324300,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "19f7392ef2db": {
+    "id": "19f7392ef2db",
+    "label": "16 CHEMIN DE DAIS, Carnin",
+    "lat": 50.520284,
+    "lng": 2.9517,
+    "transactions": [
+      {
+        "date": "2024-08-05",
+        "priceEur": 376830,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "5635ec45c2f3": {
+    "id": "5635ec45c2f3",
+    "label": "16 RUE DE CARNIN, Annœullin",
+    "lat": 50.520396,
+    "lng": 2.945188,
+    "transactions": [
+      {
+        "date": "2025-02-26",
+        "priceEur": 148500,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  }
+}

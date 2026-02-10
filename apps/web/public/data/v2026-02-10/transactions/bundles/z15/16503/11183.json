@@ -1,0 +1,99 @@
+{
+  "4a675828f154": {
+    "id": "4a675828f154",
+    "label": "1449 RTE DE RY, Blainville-Crevon",
+    "lat": 49.497637,
+    "lng": 1.314685,
+    "transactions": [
+      {
+        "date": "2021-03-18",
+        "priceEur": 564200,
+        "typeLocal": "Maison",
+        "surfaceM2": 184,
+        "isVefa": false
+      }
+    ]
+  },
+  "d948cf089e4b": {
+    "id": "d948cf089e4b",
+    "label": "90 RUE DU CREVON, Catenay",
+    "lat": 49.496931,
+    "lng": 1.316024,
+    "transactions": [
+      {
+        "date": "2021-04-21",
+        "priceEur": 243000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "9cdff7283911": {
+    "id": "9cdff7283911",
+    "label": "71 IMP DES PRES, Catenay",
+    "lat": 49.497595,
+    "lng": 1.315166,
+    "transactions": [
+      {
+        "date": "2022-12-27",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "d1e2f189e370": {
+    "id": "d1e2f189e370",
+    "label": "133 IMP DES PRES, Catenay",
+    "lat": 49.498497,
+    "lng": 1.31479,
+    "transactions": [
+      {
+        "date": "2023-05-17",
+        "priceEur": 236550,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b06f260d405": {
+    "id": "2b06f260d405",
+    "label": "828 RTE DE RY, Blainville-Crevon",
+    "lat": 49.501369,
+    "lng": 1.308423,
+    "transactions": [
+      {
+        "date": "2023-10-09",
+        "priceEur": 525000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-09",
+        "priceEur": 525000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e3cb1c0d58e": {
+    "id": "6e3cb1c0d58e",
+    "label": "319 RUE DU CREVON, Catenay",
+    "lat": 49.498501,
+    "lng": 1.316271,
+    "transactions": [
+      {
+        "date": "2024-08-13",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  }
+}

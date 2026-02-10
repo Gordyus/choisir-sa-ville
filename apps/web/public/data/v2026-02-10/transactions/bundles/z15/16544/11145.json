@@ -1,0 +1,54 @@
+{
+  "f992ed4e0400": {
+    "id": "f992ed4e0400",
+    "label": "1 RUE DES LONGUIGNOLLES, Aumale",
+    "lat": 49.768765,
+    "lng": 1.759347,
+    "transactions": [
+      {
+        "date": "2025-04-16",
+        "priceEur": 87000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-17",
+        "priceEur": 52500,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "f43fc206c4c2": {
+    "id": "f43fc206c4c2",
+    "label": "1 RUE DU ONZE NOVEMBRE, Aumale",
+    "lat": 49.767078,
+    "lng": 1.760441,
+    "transactions": [
+      {
+        "date": "2022-08-25",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "8bad74a21e6c": {
+    "id": "8bad74a21e6c",
+    "label": "1B RUE DU ONZE NOVEMBRE, Aumale",
+    "lat": 49.767224,
+    "lng": 1.759985,
+    "transactions": [
+      {
+        "date": "2023-11-02",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

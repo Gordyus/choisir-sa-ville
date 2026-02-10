@@ -1,0 +1,47 @@
+{
+  "85f456ccdcef": {
+    "id": "85f456ccdcef",
+    "label": "49 RES DU BLANC MESNIL, Frelinghien",
+    "lat": 50.716288,
+    "lng": 2.933196,
+    "transactions": [
+      {
+        "date": "2021-07-29",
+        "priceEur": 400900,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "644b535071ae": {
+    "id": "644b535071ae",
+    "label": "34 RES DU BLANC MESNIL, Frelinghien",
+    "lat": 50.717349,
+    "lng": 2.932128,
+    "transactions": [
+      {
+        "date": "2022-11-02",
+        "priceEur": 430000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "117cc431e028": {
+    "id": "117cc431e028",
+    "label": "47 RES DU BLANC MESNIL, Frelinghien",
+    "lat": 50.716352,
+    "lng": 2.932722,
+    "transactions": [
+      {
+        "date": "2024-07-26",
+        "priceEur": 237500,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "671f9e9d335a": {
+    "id": "671f9e9d335a",
+    "label": "5039 PELVERT, Bailly-en-Rivière",
+    "lat": 49.899519,
+    "lng": 1.380239,
+    "transactions": [
+      {
+        "date": "2020-11-25",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "b56872399c75": {
+    "id": "b56872399c75",
+    "label": "5185 PELVERT, Bailly-en-Rivière",
+    "lat": 49.89959,
+    "lng": 1.380054,
+    "transactions": [
+      {
+        "date": "2021-03-29",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  }
+}

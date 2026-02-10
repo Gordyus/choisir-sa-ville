@@ -1,0 +1,32 @@
+{
+  "cb9e48d417ad": {
+    "id": "cb9e48d417ad",
+    "label": "7 RUE DE OOST HOUCK, Bambecque",
+    "lat": 50.913305,
+    "lng": 2.602744,
+    "transactions": [
+      {
+        "date": "2021-03-29",
+        "priceEur": 87000,
+        "typeLocal": "Maison",
+        "surfaceM2": 222,
+        "isVefa": false
+      }
+    ]
+  },
+  "33c5c87bab12": {
+    "id": "33c5c87bab12",
+    "label": "14 RUE DE OOST HOUCK, Bambecque",
+    "lat": 50.91149,
+    "lng": 2.600065,
+    "transactions": [
+      {
+        "date": "2021-06-14",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "6672a3b17aad": {
+    "id": "6672a3b17aad",
+    "label": "546 VC VLAEMINCK STRAETE, Berthen",
+    "lat": 50.770397,
+    "lng": 2.686791,
+    "transactions": [
+      {
+        "date": "2022-06-09",
+        "priceEur": 131000,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  },
+  "673c998ec96d": {
+    "id": "673c998ec96d",
+    "label": "860 VC VLAEMINCK STRAETE, Berthen",
+    "lat": 50.767886,
+    "lng": 2.689752,
+    "transactions": [
+      {
+        "date": "2022-09-14",
+        "priceEur": 312500,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

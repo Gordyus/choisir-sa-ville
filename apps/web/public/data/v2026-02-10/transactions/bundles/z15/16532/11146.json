@@ -1,0 +1,32 @@
+{
+  "6ae5c8d65a06": {
+    "id": "6ae5c8d65a06",
+    "label": "9 RTE DE L EGLISE, Nullemont",
+    "lat": 49.766463,
+    "lng": 1.636065,
+    "transactions": [
+      {
+        "date": "2021-05-21",
+        "priceEur": 177000,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      }
+    ]
+  },
+  "cfcecd2f641c": {
+    "id": "cfcecd2f641c",
+    "label": "8 RTE DE L EGLISE, Nullemont",
+    "lat": 49.765832,
+    "lng": 1.636212,
+    "transactions": [
+      {
+        "date": "2022-03-24",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  }
+}

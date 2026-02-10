@@ -1,0 +1,84 @@
+{
+  "7652861956f4": {
+    "id": "7652861956f4",
+    "label": "1660 RTE DU DROGLAND, Winnezeele",
+    "lat": 50.848854,
+    "lng": 2.569263,
+    "transactions": [
+      {
+        "date": "2020-07-27",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e74af224f87": {
+    "id": "6e74af224f87",
+    "label": "1906 RTE DE BRAY DUNES, Winnezeele",
+    "lat": 50.851493,
+    "lng": 2.569695,
+    "transactions": [
+      {
+        "date": "2021-08-16",
+        "priceEur": 181500,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "374f2eaa85e3": {
+    "id": "374f2eaa85e3",
+    "label": "1400 RTE DU DROGLAND, Winnezeele",
+    "lat": 50.848314,
+    "lng": 2.565742,
+    "transactions": [
+      {
+        "date": "2022-07-06",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "28eee8e5b713": {
+    "id": "28eee8e5b713",
+    "label": "1638 RTE DU DROGLAND, Winnezeele",
+    "lat": 50.848757,
+    "lng": 2.568807,
+    "transactions": [
+      {
+        "date": "2022-10-19",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 196,
+        "isVefa": false
+      }
+    ]
+  },
+  "4428da0ca61a": {
+    "id": "4428da0ca61a",
+    "label": "1340 RTE DU DROGLAND, Winnezeele",
+    "lat": 50.84815,
+    "lng": 2.564821,
+    "transactions": [
+      {
+        "date": "2024-10-09",
+        "priceEur": 139900,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-19",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  }
+}

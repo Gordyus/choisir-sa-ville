@@ -1,0 +1,32 @@
+{
+  "5b25dd4f7670": {
+    "id": "5b25dd4f7670",
+    "label": "1174 RTE DE FLAMARE, Louvetot",
+    "lat": 49.580108,
+    "lng": 0.721968,
+    "transactions": [
+      {
+        "date": "2021-05-17",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "cadb3e73e528": {
+    "id": "cadb3e73e528",
+    "label": "1162 RTE DE FLAMARE, Louvetot",
+    "lat": 49.579792,
+    "lng": 0.721645,
+    "transactions": [
+      {
+        "date": "2021-12-27",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

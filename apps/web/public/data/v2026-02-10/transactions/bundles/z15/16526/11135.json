@@ -1,0 +1,165 @@
+{
+  "e2994f2d3f00": {
+    "id": "e2994f2d3f00",
+    "label": "5034 LE BOURG NORD, Villers-sous-Foucarmont",
+    "lat": 49.839498,
+    "lng": 1.564351,
+    "transactions": [
+      {
+        "date": "2022-10-21",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "fc800a9502ba": {
+    "id": "fc800a9502ba",
+    "label": "14 CHE DES HETRES, Villers-sous-Foucarmont",
+    "lat": 49.840062,
+    "lng": 1.565234,
+    "transactions": [
+      {
+        "date": "2024-06-19",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-16",
+        "priceEur": 107000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "c34378596ebf": {
+    "id": "c34378596ebf",
+    "label": "5 IMP DU CHATEAU, Villers-sous-Foucarmont",
+    "lat": 49.838604,
+    "lng": 1.562512,
+    "transactions": [
+      {
+        "date": "2023-02-09",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "a017e0f0b282": {
+    "id": "a017e0f0b282",
+    "label": "32 RUE DU CAUD SOLEIL, Villers-sous-Foucarmont",
+    "lat": 49.841763,
+    "lng": 1.568411,
+    "transactions": [
+      {
+        "date": "2024-05-30",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb7217a4cfff": {
+    "id": "bb7217a4cfff",
+    "label": "14 RUE DU CAUD SOLEIL, Villers-sous-Foucarmont",
+    "lat": 49.843885,
+    "lng": 1.568568,
+    "transactions": [
+      {
+        "date": "2024-09-03",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0342c8991b3": {
+    "id": "a0342c8991b3",
+    "label": "1 RES BEAUPRE, Foucarmont",
+    "lat": 49.844039,
+    "lng": 1.57026,
+    "transactions": [
+      {
+        "date": "2024-10-02",
+        "priceEur": 326388.16,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "6f25231f5323": {
+    "id": "6f25231f5323",
+    "label": "16 IMP DU CHATEAU, Villers-sous-Foucarmont",
+    "lat": 49.838145,
+    "lng": 1.561178,
+    "transactions": [
+      {
+        "date": "2024-12-30",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2024-12-30",
+        "priceEur": 35000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 15,
+        "isVefa": false
+      }
+    ]
+  },
+  "a6fef0d7d311": {
+    "id": "a6fef0d7d311",
+    "label": "7 RES LES HETRES, Villers-sous-Foucarmont",
+    "lat": 49.840148,
+    "lng": 1.564551,
+    "transactions": [
+      {
+        "date": "2025-02-11",
+        "priceEur": 163096.95,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-11",
+        "priceEur": 163096.95,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-11",
+        "priceEur": 163096.95,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "446eeb46df33": {
+    "id": "446eeb46df33",
+    "label": "1 RES LES HETRES, Villers-sous-Foucarmont",
+    "lat": 49.839771,
+    "lng": 1.564481,
+    "transactions": [
+      {
+        "date": "2025-02-11",
+        "priceEur": 163096.95,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "0dcea7ff6fd5": {
+    "id": "0dcea7ff6fd5",
+    "label": "20 RUE DE RIOLS, Graissessac",
+    "lat": 43.683821,
+    "lng": 3.091673,
+    "transactions": [
+      {
+        "date": "2023-08-29",
+        "priceEur": 124000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "abf4aee4f12a": {
+    "id": "abf4aee4f12a",
+    "label": "24 RUE DE RIOLS, Graissessac",
+    "lat": 43.683764,
+    "lng": 3.091618,
+    "transactions": [
+      {
+        "date": "2025-01-20",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  }
+}

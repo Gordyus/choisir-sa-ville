@@ -1,0 +1,47 @@
+{
+  "f9059bb73f07": {
+    "id": "f9059bb73f07",
+    "label": "389 RUE DES HAUTS FOSSES, Gueutteville",
+    "lat": 49.651719,
+    "lng": 1.005078,
+    "transactions": [
+      {
+        "date": "2020-11-25",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4c8993b87dc": {
+    "id": "f4c8993b87dc",
+    "label": "5015 VILLAGE, Gueutteville",
+    "lat": 49.650653,
+    "lng": 1.00446,
+    "transactions": [
+      {
+        "date": "2021-07-15",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "346d442f2a41": {
+    "id": "346d442f2a41",
+    "label": "5018 VILLAGE, Gueutteville",
+    "lat": 49.650303,
+    "lng": 1.002903,
+    "transactions": [
+      {
+        "date": "2022-05-31",
+        "priceEur": 86900,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

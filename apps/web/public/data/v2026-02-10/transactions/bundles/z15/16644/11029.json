@@ -1,0 +1,47 @@
+{
+  "36871aad2274": {
+    "id": "36871aad2274",
+    "label": "53 RUE DES RIEZ, Herlies",
+    "lat": 50.58727,
+    "lng": 2.858669,
+    "transactions": [
+      {
+        "date": "2022-03-14",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "1869d0633ad9": {
+    "id": "1869d0633ad9",
+    "label": "42B RUE DES RIEZ, Herlies",
+    "lat": 50.590149,
+    "lng": 2.857746,
+    "transactions": [
+      {
+        "date": "2023-07-06",
+        "priceEur": 610000,
+        "typeLocal": "Maison",
+        "surfaceM2": 250,
+        "isVefa": false
+      }
+    ]
+  },
+  "97077af1f65d": {
+    "id": "97077af1f65d",
+    "label": "48 RUE DES RIEZ, Herlies",
+    "lat": 50.588975,
+    "lng": 2.859297,
+    "transactions": [
+      {
+        "date": "2024-12-30",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  }
+}

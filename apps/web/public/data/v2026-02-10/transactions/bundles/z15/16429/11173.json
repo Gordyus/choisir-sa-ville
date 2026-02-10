@@ -1,0 +1,32 @@
+{
+  "bce2b9130114": {
+    "id": "bce2b9130114",
+    "label": "537C LE MONT PELLIER, Bolbec",
+    "lat": 49.568197,
+    "lng": 0.497209,
+    "transactions": [
+      {
+        "date": "2022-02-11",
+        "priceEur": 122750,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2ab844305cb": {
+    "id": "e2ab844305cb",
+    "label": "537E LE MONT PELLIER, Bolbec",
+    "lat": 49.568257,
+    "lng": 0.497341,
+    "transactions": [
+      {
+        "date": "2023-09-28",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "1e18fa7e1218": {
+    "id": "1e18fa7e1218",
+    "label": "27 RTE DE L EUROPE, Valmont",
+    "lat": 49.739856,
+    "lng": 0.524895,
+    "transactions": [
+      {
+        "date": "2020-09-23",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "687419382f59": {
+    "id": "687419382f59",
+    "label": "33B RTE DE L EUROPE, Valmont",
+    "lat": 49.741302,
+    "lng": 0.521056,
+    "transactions": [
+      {
+        "date": "2021-01-20",
+        "priceEur": 171000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "7caf770ce659": {
+    "id": "7caf770ce659",
+    "label": "40 RTE DE L EUROPE, Valmont",
+    "lat": 49.739628,
+    "lng": 0.527166,
+    "transactions": [
+      {
+        "date": "2021-03-05",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "2306194e4e70": {
+    "id": "2306194e4e70",
+    "label": "3 RES LES SABLIERES, Valmont",
+    "lat": 49.74277,
+    "lng": 0.521855,
+    "transactions": [
+      {
+        "date": "2022-06-28",
+        "priceEur": 166000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "32f914556065": {
+    "id": "32f914556065",
+    "label": "16 RES LES SABLIERES, Valmont",
+    "lat": 49.742894,
+    "lng": 0.522752,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 193000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "b8141ef25f3c": {
+    "id": "b8141ef25f3c",
+    "label": "13 RES LES SABLIERES, Valmont",
+    "lat": 49.743059,
+    "lng": 0.522215,
+    "transactions": [
+      {
+        "date": "2022-10-18",
+        "priceEur": 166000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "59128c75e117": {
+    "id": "59128c75e117",
+    "label": "7 RES LES SABLIERES, Valmont",
+    "lat": 49.742523,
+    "lng": 0.522872,
+    "transactions": [
+      {
+        "date": "2022-12-22",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "c377c7be20d5": {
+    "id": "c377c7be20d5",
+    "label": "2 RUE DU VERSANGLE, Valmont",
+    "lat": 49.742649,
+    "lng": 0.517213,
+    "transactions": [
+      {
+        "date": "2024-08-22",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

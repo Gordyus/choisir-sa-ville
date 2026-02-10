@@ -1,0 +1,47 @@
+{
+  "af266e8561c4": {
+    "id": "af266e8561c4",
+    "label": "2 RUE DE LA SYRAH, Vendres",
+    "lat": 43.270137,
+    "lng": 3.240383,
+    "transactions": [
+      {
+        "date": "2021-08-12",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "ba45d0c23c67": {
+    "id": "ba45d0c23c67",
+    "label": "6 RUE DE LA SYRAH, Vendres",
+    "lat": 43.269604,
+    "lng": 3.240341,
+    "transactions": [
+      {
+        "date": "2022-05-30",
+        "priceEur": 253750,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "31f2d5f8cc4d": {
+    "id": "31f2d5f8cc4d",
+    "label": "3 IMP DES SYLPHIDES, Vendres",
+    "lat": 43.270333,
+    "lng": 3.229998,
+    "transactions": [
+      {
+        "date": "2024-12-05",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  }
+}

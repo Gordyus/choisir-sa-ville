@@ -1,0 +1,32 @@
+{
+  "a348f1babe1e": {
+    "id": "a348f1babe1e",
+    "label": "50 ALL DES SIAMOISIERS, Roncherolles-sur-le-Vivier",
+    "lat": 49.467889,
+    "lng": 1.188376,
+    "transactions": [
+      {
+        "date": "2024-07-31",
+        "priceEur": 275500,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e6e181248bd": {
+    "id": "6e6e181248bd",
+    "label": "216 RTE DES CANADIENS, Roncherolles-sur-le-Vivier",
+    "lat": 49.465103,
+    "lng": 1.186537,
+    "transactions": [
+      {
+        "date": "2024-10-11",
+        "priceEur": 268000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

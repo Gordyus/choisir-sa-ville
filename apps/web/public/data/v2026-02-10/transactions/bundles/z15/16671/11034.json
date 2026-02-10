@@ -1,0 +1,39 @@
+{
+  "def681f97eb2": {
+    "id": "def681f97eb2",
+    "label": "42 RUE VERTE, Ennevelin",
+    "lat": 50.549327,
+    "lng": 3.154036,
+    "transactions": [
+      {
+        "date": "2023-05-03",
+        "priceEur": 475000,
+        "typeLocal": "Maison",
+        "surfaceM2": 157,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-26",
+        "priceEur": 388000,
+        "typeLocal": "Maison",
+        "surfaceM2": 157,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f9b63b82836": {
+    "id": "1f9b63b82836",
+    "label": "8 CHE DU FOURNEAU, Ennevelin",
+    "lat": 50.548759,
+    "lng": 3.153957,
+    "transactions": [
+      {
+        "date": "2023-08-11",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

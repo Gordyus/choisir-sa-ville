@@ -1,0 +1,92 @@
+{
+  "19d20f986c99": {
+    "id": "19d20f986c99",
+    "label": "7B RUE DE SABOUTOT, Prétot-Vicquemare",
+    "lat": 49.743367,
+    "lng": 0.853982,
+    "transactions": [
+      {
+        "date": "2021-07-07",
+        "priceEur": 165950,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "dc563fddcefc": {
+    "id": "dc563fddcefc",
+    "label": "9 RTE DE DOUDEVILLE, Prétot-Vicquemare",
+    "lat": 49.74371,
+    "lng": 0.849941,
+    "transactions": [
+      {
+        "date": "2021-09-24",
+        "priceEur": 262850,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8a7314a8f32": {
+    "id": "e8a7314a8f32",
+    "label": "2B RUE DE SABOUTOT, Prétot-Vicquemare",
+    "lat": 49.742374,
+    "lng": 0.85071,
+    "transactions": [
+      {
+        "date": "2021-10-13",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "0122a4434c8e": {
+    "id": "0122a4434c8e",
+    "label": "7 RUE DE SABOUTOT, Prétot-Vicquemare",
+    "lat": 49.743646,
+    "lng": 0.854376,
+    "transactions": [
+      {
+        "date": "2022-09-26",
+        "priceEur": 391100,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "e274d5f4bfae": {
+    "id": "e274d5f4bfae",
+    "label": "5T RUE DE SABOUTOT, Prétot-Vicquemare",
+    "lat": 49.743433,
+    "lng": 0.8532,
+    "transactions": [
+      {
+        "date": "2023-10-23",
+        "priceEur": 415000,
+        "typeLocal": "Maison",
+        "surfaceM2": 193,
+        "isVefa": false
+      }
+    ]
+  },
+  "18beedff1b89": {
+    "id": "18beedff1b89",
+    "label": "6 RUE DES JONQUILLES, Reuville",
+    "lat": 49.745175,
+    "lng": 0.853886,
+    "transactions": [
+      {
+        "date": "2023-12-15",
+        "priceEur": 161000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

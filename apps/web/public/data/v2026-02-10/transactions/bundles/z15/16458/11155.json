@@ -1,0 +1,129 @@
+{
+  "e190011459b0": {
+    "id": "e190011459b0",
+    "label": "219 LA RUETTE, Amfreville-les-Champs",
+    "lat": 49.698225,
+    "lng": 0.820263,
+    "transactions": [
+      {
+        "date": "2020-08-08",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "18fb208ba5f3": {
+    "id": "18fb208ba5f3",
+    "label": "535 RTE DE LA FOSSE AUX LOUPS, Amfreville-les-Champs",
+    "lat": 49.698942,
+    "lng": 0.820898,
+    "transactions": [
+      {
+        "date": "2023-01-25",
+        "priceEur": 238000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-29",
+        "priceEur": 204500,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "c1e4f24fe396": {
+    "id": "c1e4f24fe396",
+    "label": "199 LA RUETTE, Amfreville-les-Champs",
+    "lat": 49.697985,
+    "lng": 0.819802,
+    "transactions": [
+      {
+        "date": "2021-07-19",
+        "priceEur": 278400,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "f3e626f1a2f4": {
+    "id": "f3e626f1a2f4",
+    "label": "99 RTE DE BERVILLE, Amfreville-les-Champs",
+    "lat": 49.698119,
+    "lng": 0.817698,
+    "transactions": [
+      {
+        "date": "2022-03-30",
+        "priceEur": 239100,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f5b5ae36762": {
+    "id": "2f5b5ae36762",
+    "label": "144 LA RUETTE, Amfreville-les-Champs",
+    "lat": 49.697496,
+    "lng": 0.819651,
+    "transactions": [
+      {
+        "date": "2023-11-24",
+        "priceEur": 36000,
+        "typeLocal": "Maison",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "0108acd9d11f": {
+    "id": "0108acd9d11f",
+    "label": "564 RTE DE LA FOSSE AUX LOUPS, Amfreville-les-Champs",
+    "lat": 49.699562,
+    "lng": 0.821366,
+    "transactions": [
+      {
+        "date": "2024-05-24",
+        "priceEur": 214000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "933dc35d31ba": {
+    "id": "933dc35d31ba",
+    "label": "545 RTE DE LA FOSSE AUX LOUPS, Amfreville-les-Champs",
+    "lat": 49.699298,
+    "lng": 0.820764,
+    "transactions": [
+      {
+        "date": "2025-05-26",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "b476e4a6af06": {
+    "id": "b476e4a6af06",
+    "label": "53 IMP DES PONEYS, Amfreville-les-Champs",
+    "lat": 49.696446,
+    "lng": 0.819861,
+    "transactions": [
+      {
+        "date": "2025-06-03",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 182,
+        "isVefa": false
+      }
+    ]
+  }
+}

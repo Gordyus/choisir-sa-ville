@@ -1,0 +1,69 @@
+{
+  "bddd89557b11": {
+    "id": "bddd89557b11",
+    "label": "1935 RUE DE LA COLME, Cappelle-Brouck",
+    "lat": 50.872353,
+    "lng": 2.228527,
+    "transactions": [
+      {
+        "date": "2021-05-07",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1a8e8465bc5": {
+    "id": "e1a8e8465bc5",
+    "label": "2042 RUE DE LA COLME, Cappelle-Brouck",
+    "lat": 50.87327,
+    "lng": 2.229876,
+    "transactions": [
+      {
+        "date": "2021-12-08",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "80190675b051": {
+    "id": "80190675b051",
+    "label": "1315 RTE DE BOURBOURG, Millam",
+    "lat": 50.869494,
+    "lng": 2.229986,
+    "transactions": [
+      {
+        "date": "2023-09-01",
+        "priceEur": 398501,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-10",
+        "priceEur": 297600,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "38d5a27d959f": {
+    "id": "38d5a27d959f",
+    "label": "1212 RTE DE BOURBOURG, Millam",
+    "lat": 50.868852,
+    "lng": 2.228617,
+    "transactions": [
+      {
+        "date": "2022-03-02",
+        "priceEur": 98000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  }
+}

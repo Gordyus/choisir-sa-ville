@@ -1,0 +1,62 @@
+{
+  "a903a1db540a": {
+    "id": "a903a1db540a",
+    "label": "336 RTE DE WORMHOUT, Steenvoorde",
+    "lat": 50.817849,
+    "lng": 2.566975,
+    "transactions": [
+      {
+        "date": "2022-08-16",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "3daf8b34a401": {
+    "id": "3daf8b34a401",
+    "label": "883 PETIT CHEMIN D HAZEBROUCK, Steenvoorde",
+    "lat": 50.816207,
+    "lng": 2.564931,
+    "transactions": [
+      {
+        "date": "2023-07-27",
+        "priceEur": 134000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "589daf948bd3": {
+    "id": "589daf948bd3",
+    "label": "527 PETIT CHEMIN D HAZEBROUCK, Steenvoorde",
+    "lat": 50.81331,
+    "lng": 2.564114,
+    "transactions": [
+      {
+        "date": "2024-05-17",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "94a3678535e8": {
+    "id": "94a3678535e8",
+    "label": "343 RTE DE WORMHOUT, Steenvoorde",
+    "lat": 50.817312,
+    "lng": 2.566755,
+    "transactions": [
+      {
+        "date": "2024-11-22",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

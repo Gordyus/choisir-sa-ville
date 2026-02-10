@@ -1,0 +1,24 @@
+{
+  "054201c71ba6": {
+    "id": "054201c71ba6",
+    "label": "5291 CHE DU GRAND PARADIS, Noordpeene",
+    "lat": 50.787218,
+    "lng": 2.321212,
+    "transactions": [
+      {
+        "date": "2022-12-22",
+        "priceEur": 35087,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-05",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  }
+}

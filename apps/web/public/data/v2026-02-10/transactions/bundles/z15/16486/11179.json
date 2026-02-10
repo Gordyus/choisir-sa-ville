@@ -1,0 +1,32 @@
+{
+  "ef30e61a3ff1": {
+    "id": "ef30e61a3ff1",
+    "label": "1421 RTE DE CREVECOEUR, Quincampoix",
+    "lat": 49.528333,
+    "lng": 1.131337,
+    "transactions": [
+      {
+        "date": "2024-12-13",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a2c155de416": {
+    "id": "9a2c155de416",
+    "label": "1423 RTE DE CREVECOEUR, Quincampoix",
+    "lat": 49.528465,
+    "lng": 1.131287,
+    "transactions": [
+      {
+        "date": "2025-02-14",
+        "priceEur": 222400,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  }
+}

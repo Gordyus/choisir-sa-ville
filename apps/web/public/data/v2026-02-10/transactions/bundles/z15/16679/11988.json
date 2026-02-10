@@ -1,0 +1,69 @@
+{
+  "759da94fd610": {
+    "id": "759da94fd610",
+    "label": "7 COMBE LIBRO, Lieuran-lès-Béziers",
+    "lat": 43.41564,
+    "lng": 3.242087,
+    "transactions": [
+      {
+        "date": "2020-11-16",
+        "priceEur": 365000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "c8fb1e3c04ba": {
+    "id": "c8fb1e3c04ba",
+    "label": "22 RUE DES GENETS, Lieuran-lès-Béziers",
+    "lat": 43.417383,
+    "lng": 3.243039,
+    "transactions": [
+      {
+        "date": "2024-09-04",
+        "priceEur": 268600,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "86d5a35b9baa": {
+    "id": "86d5a35b9baa",
+    "label": "15 RUE DES BASSINS, Lieuran-lès-Béziers",
+    "lat": 43.414586,
+    "lng": 3.242413,
+    "transactions": [
+      {
+        "date": "2024-10-25",
+        "priceEur": 249000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3a3f9699d01": {
+    "id": "b3a3f9699d01",
+    "label": "6 RUE DES BASSINS, Lieuran-lès-Béziers",
+    "lat": 43.415437,
+    "lng": 3.241464,
+    "transactions": [
+      {
+        "date": "2025-05-13",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 12,
+        "isVefa": false
+      },
+      {
+        "date": "2025-05-13",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  }
+}

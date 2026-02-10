@@ -1,0 +1,47 @@
+{
+  "3afdad183d3c": {
+    "id": "3afdad183d3c",
+    "label": "1250 RUE DU MOISNIL, Marquillies",
+    "lat": 50.549564,
+    "lng": 2.849279,
+    "transactions": [
+      {
+        "date": "2021-02-01",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "446e2726dfc1": {
+    "id": "446e2726dfc1",
+    "label": "745 RUE DU MOISNIL, Marquillies",
+    "lat": 50.551083,
+    "lng": 2.855908,
+    "transactions": [
+      {
+        "date": "2023-10-04",
+        "priceEur": 179250,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "e4048ba1a3a9": {
+    "id": "e4048ba1a3a9",
+    "label": "1412 RUE DU MOISNIL, Marquillies",
+    "lat": 50.5486,
+    "lng": 2.847678,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 124000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

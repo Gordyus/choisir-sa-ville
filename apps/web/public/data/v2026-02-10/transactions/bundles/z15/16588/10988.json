@@ -1,0 +1,32 @@
+{
+  "d2245f19a3fd": {
+    "id": "d2245f19a3fd",
+    "label": "1515 RUE DE MIDDELBROUCK CR 13, Millam",
+    "lat": 50.868505,
+    "lng": 2.251896,
+    "transactions": [
+      {
+        "date": "2022-06-02",
+        "priceEur": 208500,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "271eda92474d": {
+    "id": "271eda92474d",
+    "label": "1010 RUE DE MIDDELBROUCK CR 13, Millam",
+    "lat": 50.871403,
+    "lng": 2.246545,
+    "transactions": [
+      {
+        "date": "2023-01-12",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

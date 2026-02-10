@@ -1,0 +1,77 @@
+{
+  "6a2af07d8d77": {
+    "id": "6a2af07d8d77",
+    "label": "5000 IMP DU PUCHEUIL, Bosc-Bérenger",
+    "lat": 49.63614,
+    "lng": 1.253026,
+    "transactions": [
+      {
+        "date": "2021-12-23",
+        "priceEur": 164000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5f8be1b1e2f": {
+    "id": "f5f8be1b1e2f",
+    "label": "60 IMP DU BOUILLEUX, Bosc-Bérenger",
+    "lat": 49.633879,
+    "lng": 1.25542,
+    "transactions": [
+      {
+        "date": "2021-06-02",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "79976b0aef7e": {
+    "id": "79976b0aef7e",
+    "label": "505 RUE DE BRAY, Bosc-Bérenger",
+    "lat": 49.637913,
+    "lng": 1.261094,
+    "transactions": [
+      {
+        "date": "2023-02-08",
+        "priceEur": 294750,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "6f169558fa57": {
+    "id": "6f169558fa57",
+    "label": "303 RUE DE BRAY, Bosc-Bérenger",
+    "lat": 49.637254,
+    "lng": 1.259896,
+    "transactions": [
+      {
+        "date": "2024-10-14",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf130dcd4c4b": {
+    "id": "bf130dcd4c4b",
+    "label": "533 RUE DE BRAY, Bosc-Bérenger",
+    "lat": 49.63786,
+    "lng": 1.261698,
+    "transactions": [
+      {
+        "date": "2025-03-27",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

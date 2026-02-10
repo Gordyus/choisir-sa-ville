@@ -1,0 +1,69 @@
+{
+  "7ed4cbfe74f6": {
+    "id": "7ed4cbfe74f6",
+    "label": "69 RUE JULES FERRY, Salomé",
+    "lat": 50.541487,
+    "lng": 2.838191,
+    "transactions": [
+      {
+        "date": "2021-12-08",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "01225efc41ce": {
+    "id": "01225efc41ce",
+    "label": "73 RUE JULES FERRY, Salomé",
+    "lat": 50.541956,
+    "lng": 2.837959,
+    "transactions": [
+      {
+        "date": "2022-08-01",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "378edd0e98be": {
+    "id": "378edd0e98be",
+    "label": "71 RUE JULES FERRY, Salomé",
+    "lat": 50.541675,
+    "lng": 2.838027,
+    "transactions": [
+      {
+        "date": "2022-08-11",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "28e50837e59a": {
+    "id": "28e50837e59a",
+    "label": "32 RUE DE MARQUILLIES, Salomé",
+    "lat": 50.5414,
+    "lng": 2.837949,
+    "transactions": [
+      {
+        "date": "2024-02-02",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-17",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  }
+}

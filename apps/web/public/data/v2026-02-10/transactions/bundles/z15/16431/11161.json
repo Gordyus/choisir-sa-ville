@@ -1,0 +1,32 @@
+{
+  "4ef31d7e725e": {
+    "id": "4ef31d7e725e",
+    "label": "140 RUE DE TOULIFAUX, Trémauville",
+    "lat": 49.655821,
+    "lng": 0.52452,
+    "transactions": [
+      {
+        "date": "2021-10-21",
+        "priceEur": 231000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3c83a9a93fb": {
+    "id": "a3c83a9a93fb",
+    "label": "170 RTE DES GRES, Trémauville",
+    "lat": 49.657203,
+    "lng": 0.525161,
+    "transactions": [
+      {
+        "date": "2023-03-31",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  }
+}

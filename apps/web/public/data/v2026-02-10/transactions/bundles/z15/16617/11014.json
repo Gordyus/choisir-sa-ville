@@ -1,0 +1,32 @@
+{
+  "2edd3cd4e576": {
+    "id": "2edd3cd4e576",
+    "label": "2259 RTE DE MERVILLE, Hazebrouck",
+    "lat": 50.693294,
+    "lng": 2.565282,
+    "transactions": [
+      {
+        "date": "2020-12-10",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "f20b77619406": {
+    "id": "f20b77619406",
+    "label": "2401 RTE DE MERVILLE, Hazebrouck",
+    "lat": 50.692987,
+    "lng": 2.565507,
+    "transactions": [
+      {
+        "date": "2024-07-13",
+        "priceEur": 238000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

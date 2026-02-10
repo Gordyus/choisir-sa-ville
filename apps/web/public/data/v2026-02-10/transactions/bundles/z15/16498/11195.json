@@ -1,0 +1,32 @@
+{
+  "9e2067479c55": {
+    "id": "9e2067479c55",
+    "label": "2011 RTE DE LYONS, Montmain",
+    "lat": 49.411029,
+    "lng": 1.253059,
+    "transactions": [
+      {
+        "date": "2022-09-19",
+        "priceEur": 324400,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "20c03f221596": {
+    "id": "20c03f221596",
+    "label": "1981 RTE DE LYONS, Montmain",
+    "lat": 49.411,
+    "lng": 1.252595,
+    "transactions": [
+      {
+        "date": "2025-04-08",
+        "priceEur": 230350,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

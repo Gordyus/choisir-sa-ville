@@ -1,0 +1,62 @@
+{
+  "aaf9333659b3": {
+    "id": "aaf9333659b3",
+    "label": "263 RTE DU COEUR DE CAUX, Hattenville",
+    "lat": 49.660918,
+    "lng": 0.549502,
+    "transactions": [
+      {
+        "date": "2022-05-11",
+        "priceEur": 171000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "1953d653a7ae": {
+    "id": "1953d653a7ae",
+    "label": "273 RTE DU COEUR DE CAUX, Hattenville",
+    "lat": 49.661034,
+    "lng": 0.550303,
+    "transactions": [
+      {
+        "date": "2024-05-06",
+        "priceEur": 220890,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "e5cdf80088a7": {
+    "id": "e5cdf80088a7",
+    "label": "277 RTE DU COEUR DE CAUX, Hattenville",
+    "lat": 49.660737,
+    "lng": 0.550479,
+    "transactions": [
+      {
+        "date": "2024-07-23",
+        "priceEur": 161000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "43adb1695321": {
+    "id": "43adb1695321",
+    "label": "255 RTE DU COEUR DE CAUX, Hattenville",
+    "lat": 49.660641,
+    "lng": 0.549443,
+    "transactions": [
+      {
+        "date": "2024-08-13",
+        "priceEur": 44000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  }
+}

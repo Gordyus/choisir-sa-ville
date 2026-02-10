@@ -1,0 +1,122 @@
+{
+  "84073904a988": {
+    "id": "84073904a988",
+    "label": "287 RUE NEUVE, Harcanville",
+    "lat": 49.714176,
+    "lng": 0.7594,
+    "transactions": [
+      {
+        "date": "2021-06-17",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "58b2f84d48d8": {
+    "id": "58b2f84d48d8",
+    "label": "247 RUE NEUVE, Harcanville",
+    "lat": 49.714314,
+    "lng": 0.758954,
+    "transactions": [
+      {
+        "date": "2021-03-13",
+        "priceEur": 137600,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "297c647ebc7c": {
+    "id": "297c647ebc7c",
+    "label": "440 RUE NEUVE, Harcanville",
+    "lat": 49.712946,
+    "lng": 0.760447,
+    "transactions": [
+      {
+        "date": "2022-05-03",
+        "priceEur": 119000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "35d08eb5e8e1": {
+    "id": "35d08eb5e8e1",
+    "label": "400 RUE DES FAUBOURGS, Harcanville",
+    "lat": 49.715094,
+    "lng": 0.761418,
+    "transactions": [
+      {
+        "date": "2022-07-09",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c9ecf2227c9": {
+    "id": "8c9ecf2227c9",
+    "label": "303 RUE NEUVE, Harcanville",
+    "lat": 49.714003,
+    "lng": 0.759628,
+    "transactions": [
+      {
+        "date": "2022-12-27",
+        "priceEur": 15000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "27583c9c291e": {
+    "id": "27583c9c291e",
+    "label": "479 RUE DES FAUBOURGS, Harcanville",
+    "lat": 49.715527,
+    "lng": 0.762465,
+    "transactions": [
+      {
+        "date": "2023-01-19",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e3dfdf87e41": {
+    "id": "6e3dfdf87e41",
+    "label": "263 RUE DES FAUBOURGS, Harcanville",
+    "lat": 49.716037,
+    "lng": 0.75969,
+    "transactions": [
+      {
+        "date": "2024-01-26",
+        "priceEur": 249900,
+        "typeLocal": "Maison",
+        "surfaceM2": 177,
+        "isVefa": false
+      }
+    ]
+  },
+  "a515600eb079": {
+    "id": "a515600eb079",
+    "label": "45 CHE VERT, Harcanville",
+    "lat": 49.715724,
+    "lng": 0.762769,
+    "transactions": [
+      {
+        "date": "2025-03-21",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  }
+}

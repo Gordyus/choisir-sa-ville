@@ -1,0 +1,32 @@
+{
+  "f37d75171cc8": {
+    "id": "f37d75171cc8",
+    "label": "399 RUE DU GEN DE GAULLE, Péronne-en-Mélantois",
+    "lat": 50.569629,
+    "lng": 3.16801,
+    "transactions": [
+      {
+        "date": "2023-01-18",
+        "priceEur": 750150,
+        "typeLocal": "Maison",
+        "surfaceM2": 176,
+        "isVefa": false
+      }
+    ]
+  },
+  "25a5b16cfa90": {
+    "id": "25a5b16cfa90",
+    "label": "434 RUE DU GEN DE GAULLE, Péronne-en-Mélantois",
+    "lat": 50.569423,
+    "lng": 3.169107,
+    "transactions": [
+      {
+        "date": "2024-02-19",
+        "priceEur": 510000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

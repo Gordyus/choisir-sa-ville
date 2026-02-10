@@ -1,0 +1,668 @@
+{
+  "e5fb665b0df7": {
+    "id": "e5fb665b0df7",
+    "label": "1918 RUE DES ANDELYS, La Neuville-Chant-d'Oisel",
+    "lat": 49.369198,
+    "lng": 1.240452,
+    "transactions": [
+      {
+        "date": "2020-08-25",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "82986ebed709": {
+    "id": "82986ebed709",
+    "label": "110 ALL DU GARDE BATAILLE, La Neuville-Chant-d'Oisel",
+    "lat": 49.370175,
+    "lng": 1.233054,
+    "transactions": [
+      {
+        "date": "2022-06-15",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-05",
+        "priceEur": 259150,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "6131a24c193c": {
+    "id": "6131a24c193c",
+    "label": "328 RUE DES CANADIENS, La Neuville-Chant-d'Oisel",
+    "lat": 49.369918,
+    "lng": 1.237038,
+    "transactions": [
+      {
+        "date": "2020-10-07",
+        "priceEur": 206000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "b672e8a821b5": {
+    "id": "b672e8a821b5",
+    "label": "366 RUE DES CANADIENS, La Neuville-Chant-d'Oisel",
+    "lat": 49.369997,
+    "lng": 1.236494,
+    "transactions": [
+      {
+        "date": "2020-10-09",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "960e112d773f": {
+    "id": "960e112d773f",
+    "label": "1830 RUE DES ANDELYS, La Neuville-Chant-d'Oisel",
+    "lat": 49.369392,
+    "lng": 1.239642,
+    "transactions": [
+      {
+        "date": "2020-11-05",
+        "priceEur": 362800,
+        "typeLocal": "Maison",
+        "surfaceM2": 240,
+        "isVefa": false
+      }
+    ]
+  },
+  "3b4030ac9724": {
+    "id": "3b4030ac9724",
+    "label": "1522 RUE DES ANDELYS, La Neuville-Chant-d'Oisel",
+    "lat": 49.371069,
+    "lng": 1.236492,
+    "transactions": [
+      {
+        "date": "2020-12-04",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9a10186124b": {
+    "id": "f9a10186124b",
+    "label": "94 CHEM DE LA MARE AU CORPS SAIN, La Neuville-Chant-d'Oisel",
+    "lat": 49.373941,
+    "lng": 1.237185,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 518500,
+        "typeLocal": "Maison",
+        "surfaceM2": 223,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1a5b7f21045": {
+    "id": "a1a5b7f21045",
+    "label": "179 RUE DES  ROITELETS, La Neuville-Chant-d'Oisel",
+    "lat": 49.369526,
+    "lng": 1.231597,
+    "transactions": [
+      {
+        "date": "2021-01-20",
+        "priceEur": 177750,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "f69ccfd5320b": {
+    "id": "f69ccfd5320b",
+    "label": "418 RUE DES CANADIENS, La Neuville-Chant-d'Oisel",
+    "lat": 49.370279,
+    "lng": 1.235848,
+    "transactions": [
+      {
+        "date": "2021-03-23",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9d4006bab8b": {
+    "id": "f9d4006bab8b",
+    "label": "440 RUE DES CANADIENS, La Neuville-Chant-d'Oisel",
+    "lat": 49.370455,
+    "lng": 1.235352,
+    "transactions": [
+      {
+        "date": "2021-03-25",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "840692a05bd3": {
+    "id": "840692a05bd3",
+    "label": "1606 RUE DES ANDELYS, La Neuville-Chant-d'Oisel",
+    "lat": 49.370718,
+    "lng": 1.237254,
+    "transactions": [
+      {
+        "date": "2021-06-18",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "88beec129269": {
+    "id": "88beec129269",
+    "label": "162 ALL DU GARDE BATAILLE, La Neuville-Chant-d'Oisel",
+    "lat": 49.369666,
+    "lng": 1.232234,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 361500,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "b31f86280b2e": {
+    "id": "b31f86280b2e",
+    "label": "1558 RUE DES ANDELYS, La Neuville-Chant-d'Oisel",
+    "lat": 49.371032,
+    "lng": 1.236641,
+    "transactions": [
+      {
+        "date": "2021-09-22",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b7e58febc27": {
+    "id": "5b7e58febc27",
+    "label": "2 IMP DES HERONS, La Neuville-Chant-d'Oisel",
+    "lat": 49.370618,
+    "lng": 1.241258,
+    "transactions": [
+      {
+        "date": "2021-12-03",
+        "priceEur": 177210,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "484644f4ca17": {
+    "id": "484644f4ca17",
+    "label": "4 IMP DES HERONS, La Neuville-Chant-d'Oisel",
+    "lat": 49.37089,
+    "lng": 1.240933,
+    "transactions": [
+      {
+        "date": "2024-04-26",
+        "priceEur": 177210,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-08",
+        "priceEur": 177210,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "227d35cc6146": {
+    "id": "227d35cc6146",
+    "label": "1 IMP DES HERONS, La Neuville-Chant-d'Oisel",
+    "lat": 49.37071,
+    "lng": 1.241321,
+    "transactions": [
+      {
+        "date": "2021-12-22",
+        "priceEur": 177210,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "2bc75d34c4c8": {
+    "id": "2bc75d34c4c8",
+    "label": "9 IMP DES HERONS, La Neuville-Chant-d'Oisel",
+    "lat": 49.371001,
+    "lng": 1.240619,
+    "transactions": [
+      {
+        "date": "2021-12-23",
+        "priceEur": 177210,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "2aa909ecc356": {
+    "id": "2aa909ecc356",
+    "label": "8 IMP DES HERONS, La Neuville-Chant-d'Oisel",
+    "lat": 49.370894,
+    "lng": 1.240459,
+    "transactions": [
+      {
+        "date": "2022-01-25",
+        "priceEur": 177210,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7f661539a9d": {
+    "id": "c7f661539a9d",
+    "label": "1159 RUE DES ANDELYS, La Neuville-Chant-d'Oisel",
+    "lat": 49.373525,
+    "lng": 1.232711,
+    "transactions": [
+      {
+        "date": "2022-01-12",
+        "priceEur": 510000,
+        "typeLocal": "Maison",
+        "surfaceM2": 290,
+        "isVefa": false
+      }
+    ]
+  },
+  "4dad976e5537": {
+    "id": "4dad976e5537",
+    "label": "6 IMP DES HERONS, La Neuville-Chant-d'Oisel",
+    "lat": 49.370753,
+    "lng": 1.240705,
+    "transactions": [
+      {
+        "date": "2022-02-10",
+        "priceEur": 177210,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e95c6e0cbb2": {
+    "id": "7e95c6e0cbb2",
+    "label": "1599 RUE DES ANDELYS, La Neuville-Chant-d'Oisel",
+    "lat": 49.371391,
+    "lng": 1.237988,
+    "transactions": [
+      {
+        "date": "2022-02-04",
+        "priceEur": 559000,
+        "typeLocal": "Maison",
+        "surfaceM2": 207,
+        "isVefa": false
+      }
+    ]
+  },
+  "c12f363e610f": {
+    "id": "c12f363e610f",
+    "label": "3 IMP DES HERONS, La Neuville-Chant-d'Oisel",
+    "lat": 49.370517,
+    "lng": 1.24113,
+    "transactions": [
+      {
+        "date": "2022-02-11",
+        "priceEur": 177210,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "c092bd4e66b5": {
+    "id": "c092bd4e66b5",
+    "label": "5 IMP DES HERONS, La Neuville-Chant-d'Oisel",
+    "lat": 49.370701,
+    "lng": 1.240801,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 177210,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "1cc3eeab3d3b": {
+    "id": "1cc3eeab3d3b",
+    "label": "25 RUE DE L EGLISE, La Neuville-Chant-d'Oisel",
+    "lat": 49.372642,
+    "lng": 1.232938,
+    "transactions": [
+      {
+        "date": "2022-03-11",
+        "priceEur": 294650,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      }
+    ]
+  },
+  "a7b388e2ab7d": {
+    "id": "a7b388e2ab7d",
+    "label": "46 RUE DE L EGLISE, La Neuville-Chant-d'Oisel",
+    "lat": 49.372925,
+    "lng": 1.232422,
+    "transactions": [
+      {
+        "date": "2022-03-16",
+        "priceEur": 292000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9d862c4041d": {
+    "id": "a9d862c4041d",
+    "label": "372 ALL DU GARDE BATAILLE, La Neuville-Chant-d'Oisel",
+    "lat": 49.368619,
+    "lng": 1.233663,
+    "transactions": [
+      {
+        "date": "2022-04-05",
+        "priceEur": 217000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c201d571a15": {
+    "id": "3c201d571a15",
+    "label": "206 RUE DE L EGLISE, La Neuville-Chant-d'Oisel",
+    "lat": 49.372253,
+    "lng": 1.230619,
+    "transactions": [
+      {
+        "date": "2022-05-02",
+        "priceEur": 182000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb4c5332bcaa": {
+    "id": "fb4c5332bcaa",
+    "label": "11 IMP DES HERONS, La Neuville-Chant-d'Oisel",
+    "lat": 49.370961,
+    "lng": 1.241041,
+    "transactions": [
+      {
+        "date": "2022-05-23",
+        "priceEur": 177210,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-09",
+        "priceEur": 177210,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "6fcb83f70393": {
+    "id": "6fcb83f70393",
+    "label": "10 IMP DES HERONS, La Neuville-Chant-d'Oisel",
+    "lat": 49.371118,
+    "lng": 1.240725,
+    "transactions": [
+      {
+        "date": "2022-05-23",
+        "priceEur": 177210,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "81a1f1556fac": {
+    "id": "81a1f1556fac",
+    "label": "71 RUE DE L EGLISE, La Neuville-Chant-d'Oisel",
+    "lat": 49.372545,
+    "lng": 1.232723,
+    "transactions": [
+      {
+        "date": "2022-05-27",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "145176ed5f48": {
+    "id": "145176ed5f48",
+    "label": "1749 RUE DES ANDELYS, La Neuville-Chant-d'Oisel",
+    "lat": 49.370507,
+    "lng": 1.239704,
+    "transactions": [
+      {
+        "date": "2022-08-16",
+        "priceEur": 294500,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "988a653f0977": {
+    "id": "988a653f0977",
+    "label": "7 IMP DES HERONS, La Neuville-Chant-d'Oisel",
+    "lat": 49.370815,
+    "lng": 1.240591,
+    "transactions": [
+      {
+        "date": "2023-03-01",
+        "priceEur": 177210,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "a54f021142ba": {
+    "id": "a54f021142ba",
+    "label": "95 RUE DE LA LANDE, La Neuville-Chant-d'Oisel",
+    "lat": 49.373459,
+    "lng": 1.234505,
+    "transactions": [
+      {
+        "date": "2023-06-15",
+        "priceEur": 300500,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "d50706655766": {
+    "id": "d50706655766",
+    "label": "368 ALL DU GARDE BATAILLE, La Neuville-Chant-d'Oisel",
+    "lat": 49.368608,
+    "lng": 1.233318,
+    "transactions": [
+      {
+        "date": "2023-08-22",
+        "priceEur": 492700,
+        "typeLocal": "Maison",
+        "surfaceM2": 220,
+        "isVefa": false
+      }
+    ]
+  },
+  "08d2281217ca": {
+    "id": "08d2281217ca",
+    "label": "333 RUE DU BOC, La Neuville-Chant-d'Oisel",
+    "lat": 49.374988,
+    "lng": 1.230802,
+    "transactions": [
+      {
+        "date": "2024-03-11",
+        "priceEur": 334000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "269bc6919804": {
+    "id": "269bc6919804",
+    "label": "160 RUE DES CANADIENS, La Neuville-Chant-d'Oisel",
+    "lat": 49.369197,
+    "lng": 1.238923,
+    "transactions": [
+      {
+        "date": "2024-06-18",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae59f33f2ea3": {
+    "id": "ae59f33f2ea3",
+    "label": "564 ALL DU GARDE BATAILLE, La Neuville-Chant-d'Oisel",
+    "lat": 49.37016,
+    "lng": 1.233814,
+    "transactions": [
+      {
+        "date": "2024-08-30",
+        "priceEur": 390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "7365a5066eaf": {
+    "id": "7365a5066eaf",
+    "label": "1556 RUE DES ANDELYS, La Neuville-Chant-d'Oisel",
+    "lat": 49.370933,
+    "lng": 1.236679,
+    "transactions": [
+      {
+        "date": "2024-08-26",
+        "priceEur": 302500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "667706af1570": {
+    "id": "667706af1570",
+    "label": "970 RUE DES ANDELYS, La Neuville-Chant-d'Oisel",
+    "lat": 49.373957,
+    "lng": 1.230493,
+    "transactions": [
+      {
+        "date": "2024-09-05",
+        "priceEur": 286500,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "8aa23bc2fd48": {
+    "id": "8aa23bc2fd48",
+    "label": "781 RUE DES CANADIENS, La Neuville-Chant-d'Oisel",
+    "lat": 49.371211,
+    "lng": 1.231131,
+    "transactions": [
+      {
+        "date": "2024-12-19",
+        "priceEur": 253700,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "56e8a600aeec": {
+    "id": "56e8a600aeec",
+    "label": "72 IMP DES MARTINETS, La Neuville-Chant-d'Oisel",
+    "lat": 49.373183,
+    "lng": 1.236134,
+    "transactions": [
+      {
+        "date": "2025-02-24",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d88d6071813": {
+    "id": "8d88d6071813",
+    "label": "1435 RUE DES ANDELYS, La Neuville-Chant-d'Oisel",
+    "lat": 49.372405,
+    "lng": 1.236133,
+    "transactions": [
+      {
+        "date": "2025-02-28",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "f31aab38a239": {
+    "id": "f31aab38a239",
+    "label": "120 IMP DE LA MARE AUX FRANCS, La Neuville-Chant-d'Oisel",
+    "lat": 49.369389,
+    "lng": 1.241365,
+    "transactions": [
+      {
+        "date": "2025-04-04",
+        "priceEur": 79500,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

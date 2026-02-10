@@ -1,0 +1,47 @@
+{
+  "0ee50005cdd7": {
+    "id": "0ee50005cdd7",
+    "label": "1420 COTE DE RADICATEL, Saint-Jean-de-Folleville",
+    "lat": 49.51387,
+    "lng": 0.500143,
+    "transactions": [
+      {
+        "date": "2021-01-27",
+        "priceEur": 264000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc49c5721e52": {
+    "id": "cc49c5721e52",
+    "label": "1367 COTE DE RADICATEL, Saint-Jean-de-Folleville",
+    "lat": 49.514595,
+    "lng": 0.500973,
+    "transactions": [
+      {
+        "date": "2021-12-06",
+        "priceEur": 246350,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "694c70ce3710": {
+    "id": "694c70ce3710",
+    "label": "1 RUE BERNARD SAINT AUBIN, Saint-Jean-de-Folleville",
+    "lat": 49.514539,
+    "lng": 0.499106,
+    "transactions": [
+      {
+        "date": "2025-06-20",
+        "priceEur": 279266,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "b08f4771b61f": {
+    "id": "b08f4771b61f",
+    "label": "5048 LE VILLAGE, Bertrimont",
+    "lat": 49.667886,
+    "lng": 0.997097,
+    "transactions": [
+      {
+        "date": "2020-10-01",
+        "priceEur": 187500,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "90a66ea991c5": {
+    "id": "90a66ea991c5",
+    "label": "5043 LE VILLAGE OUEST, Bertrimont",
+    "lat": 49.668428,
+    "lng": 0.998934,
+    "transactions": [
+      {
+        "date": "2021-09-06",
+        "priceEur": 165900,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "4aa8327d2a99": {
+    "id": "4aa8327d2a99",
+    "label": "601 IMP BELLEVUE, Bertrimont",
+    "lat": 49.67347,
+    "lng": 0.997864,
+    "transactions": [
+      {
+        "date": "2022-12-13",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

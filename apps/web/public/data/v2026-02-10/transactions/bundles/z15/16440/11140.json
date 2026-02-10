@@ -1,0 +1,107 @@
+{
+  "29b792029f8f": {
+    "id": "29b792029f8f",
+    "label": "7 RUE DU CLOS DE LA COUTURE, Vittefleur",
+    "lat": 49.808985,
+    "lng": 0.623599,
+    "transactions": [
+      {
+        "date": "2020-11-26",
+        "priceEur": 192100,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "49bf1107e135": {
+    "id": "49bf1107e135",
+    "label": "5B RUE DU CLOS DE LA COUTURE, Vittefleur",
+    "lat": 49.808941,
+    "lng": 0.623922,
+    "transactions": [
+      {
+        "date": "2021-03-26",
+        "priceEur": 226100,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c46380ea7f1": {
+    "id": "4c46380ea7f1",
+    "label": "6 RUE DU CLOS DE LA COUTURE, Vittefleur",
+    "lat": 49.808781,
+    "lng": 0.621806,
+    "transactions": [
+      {
+        "date": "2021-10-19",
+        "priceEur": 159800,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "7dd1fad65311": {
+    "id": "7dd1fad65311",
+    "label": "2A RUE DES CARPENTIERS, Vittefleur",
+    "lat": 49.808496,
+    "lng": 0.622958,
+    "transactions": [
+      {
+        "date": "2021-01-08",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 204,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e74ab516515": {
+    "id": "7e74ab516515",
+    "label": "10 RUE DU CLOS DE LA COUTURE, Vittefleur",
+    "lat": 49.808799,
+    "lng": 0.620963,
+    "transactions": [
+      {
+        "date": "2022-04-08",
+        "priceEur": 132000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a6d375d31b1": {
+    "id": "9a6d375d31b1",
+    "label": "6 RUE DES CARPENTIERS, Vittefleur",
+    "lat": 49.806767,
+    "lng": 0.622361,
+    "transactions": [
+      {
+        "date": "2022-06-16",
+        "priceEur": 487550,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e30b73fcae0": {
+    "id": "1e30b73fcae0",
+    "label": "12 RUE DU CLOS DE LA COUTURE, Vittefleur",
+    "lat": 49.808793,
+    "lng": 0.620605,
+    "transactions": [
+      {
+        "date": "2024-03-07",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

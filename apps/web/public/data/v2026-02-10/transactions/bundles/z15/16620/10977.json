@@ -1,0 +1,47 @@
+{
+  "75d3a74115a8": {
+    "id": "75d3a74115a8",
+    "label": "611 RTE D OOST CAPPEL, Hondschoote",
+    "lat": 50.947037,
+    "lng": 2.595393,
+    "transactions": [
+      {
+        "date": "2021-06-14",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "212bdbda9600": {
+    "id": "212bdbda9600",
+    "label": "621 RTE D OOST CAPPEL, Hondschoote",
+    "lat": 50.947106,
+    "lng": 2.595485,
+    "transactions": [
+      {
+        "date": "2022-07-06",
+        "priceEur": 59200,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "183147a7034e": {
+    "id": "183147a7034e",
+    "label": "601 RTE D OOST CAPPEL, Hondschoote",
+    "lat": 50.947408,
+    "lng": 2.595245,
+    "transactions": [
+      {
+        "date": "2022-12-21",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

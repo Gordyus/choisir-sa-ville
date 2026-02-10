@@ -1,0 +1,143 @@
+{
+  "fbda05efbb54": {
+    "id": "fbda05efbb54",
+    "label": "72 RUE JEAN BAPTISTE LEBAS, Phalempin",
+    "lat": 50.522842,
+    "lng": 3.02226,
+    "transactions": [
+      {
+        "date": "2022-10-05",
+        "priceEur": 190700,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-11",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "83cc8d6c2e32": {
+    "id": "83cc8d6c2e32",
+    "label": "4 RUE DU PLOUICK, Phalempin",
+    "lat": 50.520666,
+    "lng": 3.02313,
+    "transactions": [
+      {
+        "date": "2020-08-14",
+        "priceEur": 365000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "d1d98f9bcb68": {
+    "id": "d1d98f9bcb68",
+    "label": "14 RUE DU PLOUICK, Phalempin",
+    "lat": 50.521761,
+    "lng": 3.023506,
+    "transactions": [
+      {
+        "date": "2021-09-20",
+        "priceEur": 152900,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-11",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-11",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7ffc9785a10": {
+    "id": "c7ffc9785a10",
+    "label": "69 RUE JEAN BAPTISTE LEBAS, Phalempin",
+    "lat": 50.521892,
+    "lng": 3.021328,
+    "transactions": [
+      {
+        "date": "2020-10-26",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "50c6e26bd562": {
+    "id": "50c6e26bd562",
+    "label": "9 RUE DU PLOUICK, Phalempin",
+    "lat": 50.522544,
+    "lng": 3.023739,
+    "transactions": [
+      {
+        "date": "2021-02-25",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "16d2f41c8f98": {
+    "id": "16d2f41c8f98",
+    "label": "71 RUE JEAN BAPTISTE LEBAS, Phalempin",
+    "lat": 50.521954,
+    "lng": 3.021369,
+    "transactions": [
+      {
+        "date": "2023-07-24",
+        "priceEur": 181000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "25e2dcf1e123": {
+    "id": "25e2dcf1e123",
+    "label": "74 RUE JEAN BAPTISTE LEBAS, Phalempin",
+    "lat": 50.522904,
+    "lng": 3.0223,
+    "transactions": [
+      {
+        "date": "2024-01-25",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "feaa8c0c630a": {
+    "id": "feaa8c0c630a",
+    "label": "58 RUE JEAN BAPTISTE LEBAS, Phalempin",
+    "lat": 50.521846,
+    "lng": 3.021851,
+    "transactions": [
+      {
+        "date": "2024-05-30",
+        "priceEur": 565000,
+        "typeLocal": "Maison",
+        "surfaceM2": 183,
+        "isVefa": false
+      }
+    ]
+  }
+}

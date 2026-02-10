@@ -1,0 +1,32 @@
+{
+  "f6e9b2725890": {
+    "id": "f6e9b2725890",
+    "label": "9001 RUE DU BOUILLON, Montivilliers",
+    "lat": 49.555524,
+    "lng": 0.157903,
+    "transactions": [
+      {
+        "date": "2023-08-23",
+        "priceEur": 390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "09302d065326": {
+    "id": "09302d065326",
+    "label": "20 RUE DU MANOIR, Montivilliers",
+    "lat": 49.554756,
+    "lng": 0.157799,
+    "transactions": [
+      {
+        "date": "2024-10-07",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

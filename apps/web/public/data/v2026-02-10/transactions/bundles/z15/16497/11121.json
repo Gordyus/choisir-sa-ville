@@ -1,0 +1,92 @@
+{
+  "0ff484fb0b82": {
+    "id": "0ff484fb0b82",
+    "label": "102 RUE DE LA VIERGE, Petit-Caux",
+    "lat": 49.93878,
+    "lng": 1.24411,
+    "transactions": [
+      {
+        "date": "2021-01-14",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "51466e992dc6": {
+    "id": "51466e992dc6",
+    "label": "9001 RUE DE L'ANCIENNE ABBAYE, Petit-Caux",
+    "lat": 49.93748,
+    "lng": 1.242767,
+    "transactions": [
+      {
+        "date": "2021-06-21",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "6628b2dcd9e2": {
+    "id": "6628b2dcd9e2",
+    "label": "86 RUE DE LA VIERGE, Petit-Caux",
+    "lat": 49.939818,
+    "lng": 1.246391,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 193500,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "9646edbb4405": {
+    "id": "9646edbb4405",
+    "label": "5061 TOURVILLE, Petit-Caux",
+    "lat": 49.9408,
+    "lng": 1.25019,
+    "transactions": [
+      {
+        "date": "2024-05-03",
+        "priceEur": 169500,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "acfdf21bfbe6": {
+    "id": "acfdf21bfbe6",
+    "label": "96 RUE DE LA VIERGE, Petit-Caux",
+    "lat": 49.93919,
+    "lng": 1.245284,
+    "transactions": [
+      {
+        "date": "2024-05-03",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7a3545e9356": {
+    "id": "f7a3545e9356",
+    "label": "94 RUE DE LA VIERGE, Petit-Caux",
+    "lat": 49.939083,
+    "lng": 1.24549,
+    "transactions": [
+      {
+        "date": "2025-03-21",
+        "priceEur": 176500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "b012adc64b8e": {
+    "id": "b012adc64b8e",
+    "label": "9023 CHE DE LA BABILLE, Bourbourg",
+    "lat": 50.928112,
+    "lng": 2.177469,
+    "transactions": [
+      {
+        "date": "2022-09-28",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-04",
+        "priceEur": 237000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "2842593cc099": {
+    "id": "2842593cc099",
+    "label": "9022 CHE DE LA BABILLE, Bourbourg",
+    "lat": 50.927704,
+    "lng": 2.176239,
+    "transactions": [
+      {
+        "date": "2022-12-20",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "3114056f4eb2": {
+    "id": "3114056f4eb2",
+    "label": "9 RTE DE SAINT NICOLAS, Bourbourg",
+    "lat": 50.924116,
+    "lng": 2.180803,
+    "transactions": [
+      {
+        "date": "2023-07-18",
+        "priceEur": 270400,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "2fbf164e7770": {
+    "id": "2fbf164e7770",
+    "label": "7 RTE DE SAINT NICOLAS, Bourbourg",
+    "lat": 50.924395,
+    "lng": 2.181671,
+    "transactions": [
+      {
+        "date": "2023-09-01",
+        "priceEur": 206400,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  }
+}

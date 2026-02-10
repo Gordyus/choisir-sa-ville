@@ -1,0 +1,77 @@
+{
+  "88fa8e843774": {
+    "id": "88fa8e843774",
+    "label": "235 LES CARRIERES, Malleville-les-Grès",
+    "lat": 49.840093,
+    "lng": 0.60015,
+    "transactions": [
+      {
+        "date": "2020-07-29",
+        "priceEur": 113000,
+        "typeLocal": "Maison",
+        "surfaceM2": 34,
+        "isVefa": false
+      }
+    ]
+  },
+  "0993f1822242": {
+    "id": "0993f1822242",
+    "label": "36 RTE DE MALLEVILLE, Veulettes-sur-Mer",
+    "lat": 49.844411,
+    "lng": 0.597179,
+    "transactions": [
+      {
+        "date": "2020-10-20",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "b8112b549c67": {
+    "id": "b8112b549c67",
+    "label": "9 SEN DES FORRIERES, Veulettes-sur-Mer",
+    "lat": 49.843636,
+    "lng": 0.594237,
+    "transactions": [
+      {
+        "date": "2022-01-20",
+        "priceEur": 58600,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "98309c8affa0": {
+    "id": "98309c8affa0",
+    "label": "60 RUE DE GREENOCK, Veulettes-sur-Mer",
+    "lat": 49.84504,
+    "lng": 0.594569,
+    "transactions": [
+      {
+        "date": "2023-02-06",
+        "priceEur": 161000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "b141d4b22d76": {
+    "id": "b141d4b22d76",
+    "label": "79 RUE DE GREENOCK, Veulettes-sur-Mer",
+    "lat": 49.84477,
+    "lng": 0.594286,
+    "transactions": [
+      {
+        "date": "2023-06-23",
+        "priceEur": 224500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

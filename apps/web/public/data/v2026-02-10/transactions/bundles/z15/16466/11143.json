@@ -1,0 +1,47 @@
+{
+  "4e111f667de3": {
+    "id": "4e111f667de3",
+    "label": "94 IMP DE LA RUELLE, Tocqueville-en-Caux",
+    "lat": 49.781978,
+    "lng": 0.911079,
+    "transactions": [
+      {
+        "date": "2021-11-04",
+        "priceEur": 35750,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "e571300a2c2e": {
+    "id": "e571300a2c2e",
+    "label": "373 RUE GRANDE RUE, Tocqueville-en-Caux",
+    "lat": 49.781557,
+    "lng": 0.909426,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 305000,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d9990d8ef90": {
+    "id": "8d9990d8ef90",
+    "label": "192 RUE GRANDE RUE, Tocqueville-en-Caux",
+    "lat": 49.782144,
+    "lng": 0.907937,
+    "transactions": [
+      {
+        "date": "2024-12-20",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

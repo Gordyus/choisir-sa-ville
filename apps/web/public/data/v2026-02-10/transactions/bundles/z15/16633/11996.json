@@ -1,0 +1,77 @@
+{
+  "225a4065a81c": {
+    "id": "225a4065a81c",
+    "label": "5036 RUE DES CABARETS, Minerve",
+    "lat": 43.354351,
+    "lng": 2.745583,
+    "transactions": [
+      {
+        "date": "2020-12-14",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "22f4700b9229": {
+    "id": "22f4700b9229",
+    "label": "5099 L AIRE, Minerve",
+    "lat": 43.35311,
+    "lng": 2.744154,
+    "transactions": [
+      {
+        "date": "2021-01-14",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "844c4b6f92f0": {
+    "id": "844c4b6f92f0",
+    "label": "5077 RUE DES GLYCINES, Minerve",
+    "lat": 43.353912,
+    "lng": 2.746188,
+    "transactions": [
+      {
+        "date": "2021-06-15",
+        "priceEur": 81600,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "6938e3a30d16": {
+    "id": "6938e3a30d16",
+    "label": "4B RUE DES MARTYRS, Minerve",
+    "lat": 43.353938,
+    "lng": 2.746524,
+    "transactions": [
+      {
+        "date": "2022-04-07",
+        "priceEur": 148650,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "84fbf8acd6e7": {
+    "id": "84fbf8acd6e7",
+    "label": "1 RUE DE LA POTERNE, Minerve",
+    "lat": 43.353346,
+    "lng": 2.745804,
+    "transactions": [
+      {
+        "date": "2022-06-29",
+        "priceEur": 209800,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  }
+}

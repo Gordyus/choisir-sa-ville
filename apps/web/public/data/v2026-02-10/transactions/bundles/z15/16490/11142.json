@@ -1,0 +1,47 @@
+{
+  "29b07d563a65": {
+    "id": "29b07d563a65",
+    "label": "679 RTE DE LA VALLEE, Torcy-le-Grand",
+    "lat": 49.794291,
+    "lng": 1.17355,
+    "transactions": [
+      {
+        "date": "2022-11-14",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "76276c53da9d": {
+    "id": "76276c53da9d",
+    "label": "81 CHE DU MALASSIS, Torcy-le-Grand",
+    "lat": 49.79467,
+    "lng": 1.171641,
+    "transactions": [
+      {
+        "date": "2024-04-17",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "421b428e8a56": {
+    "id": "421b428e8a56",
+    "label": "80 CHE DU MALASSIS, Torcy-le-Grand",
+    "lat": 49.794945,
+    "lng": 1.172251,
+    "transactions": [
+      {
+        "date": "2024-12-30",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

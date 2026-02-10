@@ -1,0 +1,122 @@
+{
+  "2d8fc377112a": {
+    "id": "2d8fc377112a",
+    "label": "32A RUE GEORGES MORTELECQUE, Annœullin",
+    "lat": 50.532183,
+    "lng": 2.921599,
+    "transactions": [
+      {
+        "date": "2020-10-16",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd3010c045d1": {
+    "id": "dd3010c045d1",
+    "label": "3 RUE DE LA HALTE, Annœullin",
+    "lat": 50.530393,
+    "lng": 2.921903,
+    "transactions": [
+      {
+        "date": "2021-04-02",
+        "priceEur": 81000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "89304652a30f": {
+    "id": "89304652a30f",
+    "label": "7A RUE DE LA HALTE, Annœullin",
+    "lat": 50.529638,
+    "lng": 2.920421,
+    "transactions": [
+      {
+        "date": "2022-04-27",
+        "priceEur": 620600,
+        "typeLocal": "Maison",
+        "surfaceM2": 213,
+        "isVefa": false
+      }
+    ]
+  },
+  "70670b4945ac": {
+    "id": "70670b4945ac",
+    "label": "11 RUE DE LA HALTE, Annœullin",
+    "lat": 50.528478,
+    "lng": 2.913181,
+    "transactions": [
+      {
+        "date": "2023-01-24",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "622d6aa05020": {
+    "id": "622d6aa05020",
+    "label": "2E RUE DE LA HALTE, Annœullin",
+    "lat": 50.53076,
+    "lng": 2.919077,
+    "transactions": [
+      {
+        "date": "2023-03-09",
+        "priceEur": 368840,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "374e021910ca": {
+    "id": "374e021910ca",
+    "label": "24B RUE GEORGES MORTELECQUE, Annœullin",
+    "lat": 50.531614,
+    "lng": 2.9221,
+    "transactions": [
+      {
+        "date": "2023-06-01",
+        "priceEur": 401910,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "24369b28ce1c": {
+    "id": "24369b28ce1c",
+    "label": "107 RUE DE LA HALTE, Annœullin",
+    "lat": 50.529896,
+    "lng": 2.921368,
+    "transactions": [
+      {
+        "date": "2024-06-03",
+        "priceEur": 475000,
+        "typeLocal": "Maison",
+        "surfaceM2": 182,
+        "isVefa": false
+      }
+    ]
+  },
+  "37913fbfc1fb": {
+    "id": "37913fbfc1fb",
+    "label": "16 RUE GEORGES MORTELECQUE, Annœullin",
+    "lat": 50.531158,
+    "lng": 2.92234,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 116000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  }
+}

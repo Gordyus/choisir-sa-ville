@@ -1,0 +1,32 @@
+{
+  "d1358e8e7707": {
+    "id": "d1358e8e7707",
+    "label": "20 RUE DES PEUPLIERS, Étalleville",
+    "lat": 49.738071,
+    "lng": 0.812636,
+    "transactions": [
+      {
+        "date": "2022-02-18",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "cfa8b06a3ed9": {
+    "id": "cfa8b06a3ed9",
+    "label": "12 RUE DES PEUPLIERS, Étalleville",
+    "lat": 49.738635,
+    "lng": 0.812453,
+    "transactions": [
+      {
+        "date": "2025-04-07",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  }
+}

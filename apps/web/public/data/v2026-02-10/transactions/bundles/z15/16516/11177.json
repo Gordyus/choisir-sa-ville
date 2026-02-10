@@ -1,0 +1,32 @@
+{
+  "2597eb120e63": {
+    "id": "2597eb120e63",
+    "label": "3457 RTE DE BUCHY, Sigy-en-Bray",
+    "lat": 49.545463,
+    "lng": 1.450612,
+    "transactions": [
+      {
+        "date": "2021-10-07",
+        "priceEur": 154651,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "dfc3d3786c8d": {
+    "id": "dfc3d3786c8d",
+    "label": "3168 RTE DE BUCHY, Sigy-en-Bray",
+    "lat": 49.543058,
+    "lng": 1.451537,
+    "transactions": [
+      {
+        "date": "2022-03-18",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

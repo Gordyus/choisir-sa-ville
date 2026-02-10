@@ -1,0 +1,32 @@
+{
+  "1e31c35beaef": {
+    "id": "1e31c35beaef",
+    "label": "663 RTE DE SOMMERY, Mauquenchy",
+    "lat": 49.606712,
+    "lng": 1.464128,
+    "transactions": [
+      {
+        "date": "2021-02-10",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "34b2bfcf2b1c": {
+    "id": "34b2bfcf2b1c",
+    "label": "110 RUE DU HETRE, Mauquenchy",
+    "lat": 49.603667,
+    "lng": 1.467806,
+    "transactions": [
+      {
+        "date": "2022-03-24",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  }
+}

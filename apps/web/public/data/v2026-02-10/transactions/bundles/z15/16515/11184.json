@@ -1,0 +1,92 @@
+{
+  "7384dfeb3ea6": {
+    "id": "7384dfeb3ea6",
+    "label": "1085 RUE DU PETIT MONT ALIX, Saint-Lucien",
+    "lat": 49.493125,
+    "lng": 1.443822,
+    "transactions": [
+      {
+        "date": "2020-09-17",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "2222da2919af": {
+    "id": "2222da2919af",
+    "label": "312 RUE DU GRAND MONT ALIX, Saint-Lucien",
+    "lat": 49.493042,
+    "lng": 1.449226,
+    "transactions": [
+      {
+        "date": "2021-01-05",
+        "priceEur": 305000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "43a37e535c61": {
+    "id": "43a37e535c61",
+    "label": "312B RUE DU GRAND MONT ALIX, Saint-Lucien",
+    "lat": 49.492924,
+    "lng": 1.44898,
+    "transactions": [
+      {
+        "date": "2021-01-05",
+        "priceEur": 305000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "dedb814b03fe": {
+    "id": "dedb814b03fe",
+    "label": "1271 RUE DU PETIT MONT ALIX, Saint-Lucien",
+    "lat": 49.491945,
+    "lng": 1.442508,
+    "transactions": [
+      {
+        "date": "2021-09-15",
+        "priceEur": 164311,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "3b6fc2b0f206": {
+    "id": "3b6fc2b0f206",
+    "label": "311 RUE DU GRAND MONT ALIX, Saint-Lucien",
+    "lat": 49.492938,
+    "lng": 1.449692,
+    "transactions": [
+      {
+        "date": "2023-09-20",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "a86a9c09bd92": {
+    "id": "a86a9c09bd92",
+    "label": "283 RUE DU GRAND MONT ALIX, Saint-Lucien",
+    "lat": 49.493295,
+    "lng": 1.449935,
+    "transactions": [
+      {
+        "date": "2025-02-26",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "f73e734727a0": {
+    "id": "f73e734727a0",
+    "label": "5261F PL DE LA PAIX, Babeau-Bouldoux",
+    "lat": 43.440265,
+    "lng": 2.912539,
+    "transactions": [
+      {
+        "date": "2021-02-12",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "7bc122add9a4": {
+    "id": "7bc122add9a4",
+    "label": "5041 BOULDOUX, Babeau-Bouldoux",
+    "lat": 43.440701,
+    "lng": 2.912406,
+    "transactions": [
+      {
+        "date": "2024-11-20",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-29",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a8571672c9f": {
+    "id": "6a8571672c9f",
+    "label": "5091 BOULDOUX, Babeau-Bouldoux",
+    "lat": 43.440532,
+    "lng": 2.913437,
+    "transactions": [
+      {
+        "date": "2022-02-21",
+        "priceEur": 38000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "9802fc01cc2f": {
+    "id": "9802fc01cc2f",
+    "label": "5187 RUE DES JARDINS, Babeau-Bouldoux",
+    "lat": 43.440989,
+    "lng": 2.913228,
+    "transactions": [
+      {
+        "date": "2022-12-07",
+        "priceEur": 20000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ae163f2ce57": {
+    "id": "0ae163f2ce57",
+    "label": "5246F RUE DES PLANASSES HAUTES, Babeau-Bouldoux",
+    "lat": 43.437677,
+    "lng": 2.911409,
+    "transactions": [
+      {
+        "date": "2024-08-26",
+        "priceEur": 299000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "29f731d4821a": {
+    "id": "29f731d4821a",
+    "label": "5098 BOULDOUX, Babeau-Bouldoux",
+    "lat": 43.440697,
+    "lng": 2.913212,
+    "transactions": [
+      {
+        "date": "2024-10-07",
+        "priceEur": 36500,
+        "typeLocal": "Maison",
+        "surfaceM2": 31,
+        "isVefa": false
+      }
+    ]
+  }
+}

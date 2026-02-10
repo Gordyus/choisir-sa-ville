@@ -1,0 +1,92 @@
+{
+  "b8e6038a99b9": {
+    "id": "b8e6038a99b9",
+    "label": "10 IMP DE L ECOLE, Steene",
+    "lat": 50.951379,
+    "lng": 2.369307,
+    "transactions": [
+      {
+        "date": "2021-09-28",
+        "priceEur": 77500,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "921e5cc813f2": {
+    "id": "921e5cc813f2",
+    "label": "4 RUE DES REMPARTS, Steene",
+    "lat": 50.950223,
+    "lng": 2.373033,
+    "transactions": [
+      {
+        "date": "2022-02-11",
+        "priceEur": 266920,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "36ece1a1509b": {
+    "id": "36ece1a1509b",
+    "label": "1 CHE DE CHAMPS, Steene",
+    "lat": 50.949008,
+    "lng": 2.370564,
+    "transactions": [
+      {
+        "date": "2022-07-08",
+        "priceEur": 126000,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "93b1389689e8": {
+    "id": "93b1389689e8",
+    "label": "32 RUE DE LA MAIRIE, Steene",
+    "lat": 50.95115,
+    "lng": 2.372174,
+    "transactions": [
+      {
+        "date": "2023-10-31",
+        "priceEur": 206000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "65544fc1afeb": {
+    "id": "65544fc1afeb",
+    "label": "30 RUE DE LA MAIRIE, Steene",
+    "lat": 50.951426,
+    "lng": 2.371922,
+    "transactions": [
+      {
+        "date": "2024-10-25",
+        "priceEur": 192500,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "f504a0598e81": {
+    "id": "f504a0598e81",
+    "label": "4 CTR DES SALINES, Steene",
+    "lat": 50.951126,
+    "lng": 2.372814,
+    "transactions": [
+      {
+        "date": "2024-12-23",
+        "priceEur": 256000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  }
+}

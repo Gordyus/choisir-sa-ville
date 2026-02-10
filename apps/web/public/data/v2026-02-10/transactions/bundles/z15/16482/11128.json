@@ -1,0 +1,84 @@
+{
+  "13a773b0514b": {
+    "id": "13a773b0514b",
+    "label": "95 IMP DES BOSQUETS, Saint-Aubin-sur-Scie",
+    "lat": 49.890552,
+    "lng": 1.08464,
+    "transactions": [
+      {
+        "date": "2024-09-03",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-19",
+        "priceEur": 415000,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "d9bb1b45d9e1": {
+    "id": "d9bb1b45d9e1",
+    "label": "469 RUE DE L ETOILE, Saint-Aubin-sur-Scie",
+    "lat": 49.891448,
+    "lng": 1.085995,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "b19c53822177": {
+    "id": "b19c53822177",
+    "label": "306 RUE DE L ETOILE, Saint-Aubin-sur-Scie",
+    "lat": 49.892077,
+    "lng": 1.084618,
+    "transactions": [
+      {
+        "date": "2023-04-18",
+        "priceEur": 490000,
+        "typeLocal": "Maison",
+        "surfaceM2": 250,
+        "isVefa": false
+      }
+    ]
+  },
+  "6685ed88fda9": {
+    "id": "6685ed88fda9",
+    "label": "175 RUE DU BEL AIR, Saint-Aubin-sur-Scie",
+    "lat": 49.889613,
+    "lng": 1.086231,
+    "transactions": [
+      {
+        "date": "2024-02-23",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e94c632b31d": {
+    "id": "0e94c632b31d",
+    "label": "166 IMP DES BOSQUETS, Saint-Aubin-sur-Scie",
+    "lat": 49.890598,
+    "lng": 1.084461,
+    "transactions": [
+      {
+        "date": "2024-09-03",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  }
+}

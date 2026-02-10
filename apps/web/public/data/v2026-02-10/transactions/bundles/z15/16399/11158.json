@@ -1,0 +1,62 @@
+{
+  "8948be02f535": {
+    "id": "8948be02f535",
+    "label": "5093 LE PHARE, La Poterie-Cap-d'Antifer",
+    "lat": 49.67815,
+    "lng": 0.173549,
+    "transactions": [
+      {
+        "date": "2020-09-23",
+        "priceEur": 164000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "03d83379f78b": {
+    "id": "03d83379f78b",
+    "label": "15 IMP DU MANOIR, La Poterie-Cap-d'Antifer",
+    "lat": 49.6756,
+    "lng": 0.169085,
+    "transactions": [
+      {
+        "date": "2022-05-20",
+        "priceEur": 305000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "20a96d955cf8": {
+    "id": "20a96d955cf8",
+    "label": "42B RTE DU PHARE, La Poterie-Cap-d'Antifer",
+    "lat": 49.677978,
+    "lng": 0.175276,
+    "transactions": [
+      {
+        "date": "2023-09-29",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "e7bbed7b4a6a": {
+    "id": "e7bbed7b4a6a",
+    "label": "50 RTE DU PHARE, La Poterie-Cap-d'Antifer",
+    "lat": 49.678224,
+    "lng": 0.173869,
+    "transactions": [
+      {
+        "date": "2025-02-25",
+        "priceEur": 284000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

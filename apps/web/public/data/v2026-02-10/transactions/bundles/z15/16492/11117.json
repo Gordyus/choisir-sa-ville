@@ -1,0 +1,107 @@
+{
+  "51660658e4d8": {
+    "id": "51660658e4d8",
+    "label": "92 AV DU CAPTAIN PORTHEOUS, Petit-Caux",
+    "lat": 49.965557,
+    "lng": 1.194617,
+    "transactions": [
+      {
+        "date": "2022-04-29",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "69016408b09d": {
+    "id": "69016408b09d",
+    "label": "17 RUE MARIE ALEXIS BERNEVAL, Petit-Caux",
+    "lat": 49.965424,
+    "lng": 1.195671,
+    "transactions": [
+      {
+        "date": "2022-06-03",
+        "priceEur": 122000,
+        "typeLocal": "Maison",
+        "surfaceM2": 37,
+        "isVefa": false
+      }
+    ]
+  },
+  "e3b60afe601a": {
+    "id": "e3b60afe601a",
+    "label": "5200 HAM DU PETIT BERNEVAL ST M, Petit-Caux",
+    "lat": 49.966942,
+    "lng": 1.19594,
+    "transactions": [
+      {
+        "date": "2023-04-20",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "58edd0d99eda": {
+    "id": "58edd0d99eda",
+    "label": "5189 RUE MARIE ALEXIS ST MARTIN, Petit-Caux",
+    "lat": 49.966026,
+    "lng": 1.196122,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "61521ebe83cf": {
+    "id": "61521ebe83cf",
+    "label": "5197 RUE ROUVIER, Petit-Caux",
+    "lat": 49.966602,
+    "lng": 1.195234,
+    "transactions": [
+      {
+        "date": "2023-09-26",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "95426c68bc30": {
+    "id": "95426c68bc30",
+    "label": "25 AV RAUSS, Petit-Caux",
+    "lat": 49.965719,
+    "lng": 1.192943,
+    "transactions": [
+      {
+        "date": "2024-08-30",
+        "priceEur": 127500,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "9899ca2aaf9a": {
+    "id": "9899ca2aaf9a",
+    "label": "20 AV RAUSS, Petit-Caux",
+    "lat": 49.96595,
+    "lng": 1.193813,
+    "transactions": [
+      {
+        "date": "2024-09-26",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  }
+}

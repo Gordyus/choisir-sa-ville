@@ -1,0 +1,32 @@
+{
+  "39b4a1d8bb3d": {
+    "id": "39b4a1d8bb3d",
+    "label": "324 RTE DE VERGETOT, Turretot",
+    "lat": 49.606954,
+    "lng": 0.257855,
+    "transactions": [
+      {
+        "date": "2020-07-10",
+        "priceEur": 52000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "feb9cbc53ae1": {
+    "id": "feb9cbc53ae1",
+    "label": "5071 L HIRONDELLE, Turretot",
+    "lat": 49.607415,
+    "lng": 0.258255,
+    "transactions": [
+      {
+        "date": "2022-03-15",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  }
+}

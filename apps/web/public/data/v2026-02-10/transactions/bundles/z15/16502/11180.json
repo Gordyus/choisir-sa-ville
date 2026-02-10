@@ -1,0 +1,32 @@
+{
+  "b4b321a7b94c": {
+    "id": "b4b321a7b94c",
+    "label": "1 CHE DES JONQUERETTES, Saint-Germain-des-Essourts",
+    "lat": 49.521427,
+    "lng": 1.302672,
+    "transactions": [
+      {
+        "date": "2021-12-13",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "d106aba6aea3": {
+    "id": "d106aba6aea3",
+    "label": "14 RTE DE BLAINVILLE, Saint-Germain-des-Essourts",
+    "lat": 49.522849,
+    "lng": 1.302306,
+    "transactions": [
+      {
+        "date": "2024-09-18",
+        "priceEur": 209000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

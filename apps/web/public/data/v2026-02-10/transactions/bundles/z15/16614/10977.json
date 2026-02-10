@@ -1,0 +1,92 @@
+{
+  "b85fa4ea16b3": {
+    "id": "b85fa4ea16b3",
+    "label": "17 RTE DE BERGUES, Rexpoëde",
+    "lat": 50.946184,
+    "lng": 2.531448,
+    "transactions": [
+      {
+        "date": "2020-08-25",
+        "priceEur": 137675,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "97674edead28": {
+    "id": "97674edead28",
+    "label": "24 RTE DE BERGUES, Rexpoëde",
+    "lat": 50.946069,
+    "lng": 2.533283,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "3cd061469492": {
+    "id": "3cd061469492",
+    "label": "14 RTE DE BERGUES, Rexpoëde",
+    "lat": 50.944912,
+    "lng": 2.533481,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 39,
+        "isVefa": false
+      }
+    ]
+  },
+  "85b283196cc1": {
+    "id": "85b283196cc1",
+    "label": "9 RTE DE BERGUES, Rexpoëde",
+    "lat": 50.944824,
+    "lng": 2.532935,
+    "transactions": [
+      {
+        "date": "2024-06-17",
+        "priceEur": 160600,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "b353c5652e63": {
+    "id": "b353c5652e63",
+    "label": "33 RUE DES MOERES, Rexpoëde",
+    "lat": 50.950551,
+    "lng": 2.537442,
+    "transactions": [
+      {
+        "date": "2024-09-04",
+        "priceEur": 216000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "0fe037088ebc": {
+    "id": "0fe037088ebc",
+    "label": "29 RUE DES MOERES, Rexpoëde",
+    "lat": 50.948047,
+    "lng": 2.537008,
+    "transactions": [
+      {
+        "date": "2024-10-24",
+        "priceEur": 300370,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

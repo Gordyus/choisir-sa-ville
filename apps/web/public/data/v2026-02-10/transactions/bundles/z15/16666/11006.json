@@ -1,0 +1,62 @@
+{
+  "2ec30fafda5b": {
+    "id": "2ec30fafda5b",
+    "label": "2 AV PONTHIEUX, Roncq",
+    "lat": 50.746505,
+    "lng": 3.104627,
+    "transactions": [
+      {
+        "date": "2020-09-15",
+        "priceEur": 495000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b638ed60d1e": {
+    "id": "1b638ed60d1e",
+    "label": "114B RUE PASTEUR, Roncq",
+    "lat": 50.748129,
+    "lng": 3.101424,
+    "transactions": [
+      {
+        "date": "2022-07-27",
+        "priceEur": 233000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "a11c511c36b4": {
+    "id": "a11c511c36b4",
+    "label": "780Z RUE PASTEUR, Roncq",
+    "lat": 50.748085,
+    "lng": 3.101663,
+    "transactions": [
+      {
+        "date": "2022-10-03",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf64b830c8b7": {
+    "id": "cf64b830c8b7",
+    "label": "5 AV PONTHIEUX, Roncq",
+    "lat": 50.74595,
+    "lng": 3.105035,
+    "transactions": [
+      {
+        "date": "2023-10-04",
+        "priceEur": 580000,
+        "typeLocal": "Maison",
+        "surfaceM2": 188,
+        "isVefa": false
+      }
+    ]
+  }
+}

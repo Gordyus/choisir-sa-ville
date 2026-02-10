@@ -1,0 +1,54 @@
+{
+  "9fe71bd7b2eb": {
+    "id": "9fe71bd7b2eb",
+    "label": "42 RTE DU PUITS, Trouville",
+    "lat": 49.590925,
+    "lng": 0.597,
+    "transactions": [
+      {
+        "date": "2022-03-11",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "d83c1873a7ec": {
+    "id": "d83c1873a7ec",
+    "label": "2199 RTE DE LA VOIE ROMAINE, Trouville",
+    "lat": 49.592434,
+    "lng": 0.595613,
+    "transactions": [
+      {
+        "date": "2024-12-11",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-28",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "183dfeb4f3ad": {
+    "id": "183dfeb4f3ad",
+    "label": "1840 RTE DE LA VOIE ROMAINE, Trouville",
+    "lat": 49.589435,
+    "lng": 0.596779,
+    "transactions": [
+      {
+        "date": "2024-05-02",
+        "priceEur": 94000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

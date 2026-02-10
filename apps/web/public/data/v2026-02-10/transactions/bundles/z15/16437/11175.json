@@ -1,0 +1,47 @@
+{
+  "bad953343b01": {
+    "id": "bad953343b01",
+    "label": "5110 LA VOIE ROMAINE, Grand-Camp",
+    "lat": 49.557032,
+    "lng": 0.58823,
+    "transactions": [
+      {
+        "date": "2020-09-01",
+        "priceEur": 268000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "c323dfc7039a": {
+    "id": "c323dfc7039a",
+    "label": "330 RUE DE LA CROIX DE FER, Grand-Camp",
+    "lat": 49.557315,
+    "lng": 0.587181,
+    "transactions": [
+      {
+        "date": "2023-07-11",
+        "priceEur": 226000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "1482d0d1f97f": {
+    "id": "1482d0d1f97f",
+    "label": "595 RUE DE LA CROIX DE FER, Grand-Camp",
+    "lat": 49.554723,
+    "lng": 0.588925,
+    "transactions": [
+      {
+        "date": "2024-02-05",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

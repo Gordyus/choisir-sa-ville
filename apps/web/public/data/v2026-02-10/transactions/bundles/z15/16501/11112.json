@@ -1,0 +1,69 @@
+{
+  "1a0f1a958d79": {
+    "id": "1a0f1a958d79",
+    "label": "11 RUE DU FOUR A CHAUX, Petit-Caux",
+    "lat": 50.002061,
+    "lng": 1.286085,
+    "transactions": [
+      {
+        "date": "2022-09-10",
+        "priceEur": 129930,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-03",
+        "priceEur": 114580,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a12aa9d57ce": {
+    "id": "7a12aa9d57ce",
+    "label": "6 RUE DU FOUR A CHAUX, Petit-Caux",
+    "lat": 50.000847,
+    "lng": 1.285768,
+    "transactions": [
+      {
+        "date": "2021-05-06",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "7eeed75ad141": {
+    "id": "7eeed75ad141",
+    "label": "5033A LE VILLAGE TOCQUEVILLE, Petit-Caux",
+    "lat": 50.003027,
+    "lng": 1.286718,
+    "transactions": [
+      {
+        "date": "2021-06-01",
+        "priceEur": 82500,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b864f6e0a6c": {
+    "id": "1b864f6e0a6c",
+    "label": "24 RUE DU FOUR A CHAUX, Petit-Caux",
+    "lat": 50.001432,
+    "lng": 1.288252,
+    "transactions": [
+      {
+        "date": "2024-09-19",
+        "priceEur": 271000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  }
+}

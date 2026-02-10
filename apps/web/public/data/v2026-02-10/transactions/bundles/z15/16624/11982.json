@@ -1,0 +1,92 @@
+{
+  "1c789093a325": {
+    "id": "1c789093a325",
+    "label": "5168F LA FEUILLADE, Verreries-de-Moussans",
+    "lat": 43.468742,
+    "lng": 2.645713,
+    "transactions": [
+      {
+        "date": "2021-02-10",
+        "priceEur": 22000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "66b69fddec2d": {
+    "id": "66b69fddec2d",
+    "label": "5025 LA COMBETTE, Verreries-de-Moussans",
+    "lat": 43.467208,
+    "lng": 2.644071,
+    "transactions": [
+      {
+        "date": "2021-05-04",
+        "priceEur": 283400,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "62566865dd5f": {
+    "id": "62566865dd5f",
+    "label": "19 RTE DU GABACH, Verreries-de-Moussans",
+    "lat": 43.468362,
+    "lng": 2.64517,
+    "transactions": [
+      {
+        "date": "2022-05-17",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "a30a41718d98": {
+    "id": "a30a41718d98",
+    "label": "8 RTE DU GABACH, Verreries-de-Moussans",
+    "lat": 43.468311,
+    "lng": 2.645892,
+    "transactions": [
+      {
+        "date": "2022-08-10",
+        "priceEur": 147100,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "4024f9a731fd": {
+    "id": "4024f9a731fd",
+    "label": "9 IMP DES RAMES, Verreries-de-Moussans",
+    "lat": 43.468617,
+    "lng": 2.645682,
+    "transactions": [
+      {
+        "date": "2022-10-22",
+        "priceEur": 5500,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a2f03d03134": {
+    "id": "2a2f03d03134",
+    "label": "5 IMP DES RAMES, Verreries-de-Moussans",
+    "lat": 43.468841,
+    "lng": 2.645845,
+    "transactions": [
+      {
+        "date": "2024-01-17",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

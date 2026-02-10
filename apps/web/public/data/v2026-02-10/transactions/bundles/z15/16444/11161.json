@@ -1,0 +1,106 @@
+{
+  "9f9fa4a6edae": {
+    "id": "9f9fa4a6edae",
+    "label": "410 RUE BELLEMARE, Envronville",
+    "lat": 49.659636,
+    "lng": 0.664249,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 198500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-04",
+        "priceEur": 164600,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "213697af1778": {
+    "id": "213697af1778",
+    "label": "702 RUE BELLEMARE, Envronville",
+    "lat": 49.65835,
+    "lng": 0.66057,
+    "transactions": [
+      {
+        "date": "2021-03-27",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "27bf00f51724": {
+    "id": "27bf00f51724",
+    "label": "772 RUE BELLEMARE, Envronville",
+    "lat": 49.658419,
+    "lng": 0.659782,
+    "transactions": [
+      {
+        "date": "2021-04-29",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "a37df719ef23": {
+    "id": "a37df719ef23",
+    "label": "143 RUE BELLEMARE, Envronville",
+    "lat": 49.659813,
+    "lng": 0.668118,
+    "transactions": [
+      {
+        "date": "2021-08-23",
+        "priceEur": 805000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-23",
+        "priceEur": 805000,
+        "typeLocal": "Maison",
+        "surfaceM2": 372,
+        "isVefa": false
+      }
+    ]
+  },
+  "7121250ce999": {
+    "id": "7121250ce999",
+    "label": "561 RUE BELLEMARE, Envronville",
+    "lat": 49.658041,
+    "lng": 0.661863,
+    "transactions": [
+      {
+        "date": "2024-07-16",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f820961f6a4": {
+    "id": "3f820961f6a4",
+    "label": "310 RUE BELLEMARE, Envronville",
+    "lat": 49.66001,
+    "lng": 0.66519,
+    "transactions": [
+      {
+        "date": "2024-12-30",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

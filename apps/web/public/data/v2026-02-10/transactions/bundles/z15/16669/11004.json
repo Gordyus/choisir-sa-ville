@@ -1,0 +1,107 @@
+{
+  "2307ffb9812d": {
+    "id": "2307ffb9812d",
+    "label": "14 RUE DU DOCTEUR SCHWEITZER, Roncq",
+    "lat": 50.758422,
+    "lng": 3.132822,
+    "transactions": [
+      {
+        "date": "2021-03-12",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea1213482043": {
+    "id": "ea1213482043",
+    "label": "8 RUE DU DOCTEUR SCHWEITZER, Roncq",
+    "lat": 50.758089,
+    "lng": 3.131673,
+    "transactions": [
+      {
+        "date": "2021-04-02",
+        "priceEur": 452000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf543749181b": {
+    "id": "cf543749181b",
+    "label": "94A CHE DU BILLEMONT, Halluin",
+    "lat": 50.763592,
+    "lng": 3.138748,
+    "transactions": [
+      {
+        "date": "2021-05-18",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "bce5a03cd7b2": {
+    "id": "bce5a03cd7b2",
+    "label": "94 CHE DU BILLEMONT, Halluin",
+    "lat": 50.763425,
+    "lng": 3.139055,
+    "transactions": [
+      {
+        "date": "2021-05-18",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "b05c768dba72": {
+    "id": "b05c768dba72",
+    "label": "163 RUE DU BILLEMONT, Roncq",
+    "lat": 50.760181,
+    "lng": 3.134412,
+    "transactions": [
+      {
+        "date": "2021-10-08",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c89eade2169": {
+    "id": "3c89eade2169",
+    "label": "10 RUE DU DOCTEUR SCHWEITZER, Roncq",
+    "lat": 50.758216,
+    "lng": 3.132178,
+    "transactions": [
+      {
+        "date": "2022-03-10",
+        "priceEur": 480000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "8bc9f2bd0799": {
+    "id": "8bc9f2bd0799",
+    "label": "138 RUE DU BILLEMONT, Roncq",
+    "lat": 50.759075,
+    "lng": 3.132997,
+    "transactions": [
+      {
+        "date": "2022-04-06",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

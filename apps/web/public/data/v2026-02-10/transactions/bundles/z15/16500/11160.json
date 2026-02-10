@@ -1,0 +1,62 @@
+{
+  "90f0df7ad5c2": {
+    "id": "90f0df7ad5c2",
+    "label": "5200 LA ROULIERE, Saint-Saëns",
+    "lat": 49.667002,
+    "lng": 1.283565,
+    "transactions": [
+      {
+        "date": "2021-02-05",
+        "priceEur": 67000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b7b544647c7": {
+    "id": "6b7b544647c7",
+    "label": "698 LA ROULIERE, Saint-Saëns",
+    "lat": 49.662585,
+    "lng": 1.284192,
+    "transactions": [
+      {
+        "date": "2021-09-13",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "e35a6fd8f47f": {
+    "id": "e35a6fd8f47f",
+    "label": "5215 LE PONT DU THIL, Saint-Saëns",
+    "lat": 49.660537,
+    "lng": 1.285239,
+    "transactions": [
+      {
+        "date": "2023-11-09",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "7db3e40b67c8": {
+    "id": "7db3e40b67c8",
+    "label": "224 RUE DE LA ROULIERE, Saint-Saëns",
+    "lat": 49.666885,
+    "lng": 1.283297,
+    "transactions": [
+      {
+        "date": "2024-10-24",
+        "priceEur": 180000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "397523b64ee8": {
+    "id": "397523b64ee8",
+    "label": "56 RUE DE CASSEL, Neuf-Berquin",
+    "lat": 50.66142,
+    "lng": 2.666969,
+    "transactions": [
+      {
+        "date": "2020-10-14",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-14",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "7474ad1a1d4b": {
+    "id": "7474ad1a1d4b",
+    "label": "43 RUE PRUVOST, Neuf-Berquin",
+    "lat": 50.66489,
+    "lng": 2.668185,
+    "transactions": [
+      {
+        "date": "2021-01-22",
+        "priceEur": 206800,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d3a32c40eee": {
+    "id": "9d3a32c40eee",
+    "label": "9 RUE PRUVOST, Neuf-Berquin",
+    "lat": 50.663625,
+    "lng": 2.665767,
+    "transactions": [
+      {
+        "date": "2021-09-29",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "f24a1a8afb89": {
+    "id": "f24a1a8afb89",
+    "label": "1 RUE LOTISSEMENT LE VILLAGE, Neuf-Berquin",
+    "lat": 50.661208,
+    "lng": 2.66939,
+    "transactions": [
+      {
+        "date": "2022-04-29",
+        "priceEur": 231000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "3230c765eb81": {
+    "id": "3230c765eb81",
+    "label": "91 RUE DE CASSEL, Neuf-Berquin",
+    "lat": 50.664174,
+    "lng": 2.664456,
+    "transactions": [
+      {
+        "date": "2022-10-21",
+        "priceEur": 273000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4fbc36b3907": {
+    "id": "f4fbc36b3907",
+    "label": "107B RUE DE CASSEL, Neuf-Berquin",
+    "lat": 50.665578,
+    "lng": 2.663006,
+    "transactions": [
+      {
+        "date": "2022-12-15",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 233,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e76aa25ba46": {
+    "id": "0e76aa25ba46",
+    "label": "53 RUE DE CASSEL, Neuf-Berquin",
+    "lat": 50.661989,
+    "lng": 2.6675,
+    "transactions": [
+      {
+        "date": "2023-02-24",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "865a453b6408": {
+    "id": "865a453b6408",
+    "label": "19 RUE PRUVOST, Neuf-Berquin",
+    "lat": 50.663979,
+    "lng": 2.666531,
+    "transactions": [
+      {
+        "date": "2023-02-22",
+        "priceEur": 216000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c36f6719193": {
+    "id": "0c36f6719193",
+    "label": "14 RUE PRUVOST, Neuf-Berquin",
+    "lat": 50.664023,
+    "lng": 2.665138,
+    "transactions": [
+      {
+        "date": "2023-05-24",
+        "priceEur": 324800,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "a521ac4c2bdb": {
+    "id": "a521ac4c2bdb",
+    "label": "16B RUE FERDINAND CAPELLE, Neuf-Berquin",
+    "lat": 50.660571,
+    "lng": 2.667994,
+    "transactions": [
+      {
+        "date": "2023-06-15",
+        "priceEur": 506000,
+        "typeLocal": "Maison",
+        "surfaceM2": 229,
+        "isVefa": false
+      }
+    ]
+  },
+  "8ead6c36a6a4": {
+    "id": "8ead6c36a6a4",
+    "label": "18 RUE PRUVOST, Neuf-Berquin",
+    "lat": 50.664233,
+    "lng": 2.665729,
+    "transactions": [
+      {
+        "date": "2025-04-22",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "bed2f8c34766": {
+    "id": "bed2f8c34766",
+    "label": "3 CITE DU BOCAGE, Les Hauts-de-Caux",
+    "lat": 49.654001,
+    "lng": 0.727825,
+    "transactions": [
+      {
+        "date": "2021-03-30",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a201b6bd1e3": {
+    "id": "3a201b6bd1e3",
+    "label": "5 CITE DU BOCAGE, Les Hauts-de-Caux",
+    "lat": 49.653898,
+    "lng": 0.728331,
+    "transactions": [
+      {
+        "date": "2021-06-09",
+        "priceEur": 156500,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "08c435015bf1": {
+    "id": "08c435015bf1",
+    "label": "8 IMP DES ECUREUILS, Les Hauts-de-Caux",
+    "lat": 49.655137,
+    "lng": 0.726101,
+    "transactions": [
+      {
+        "date": "2021-09-08",
+        "priceEur": 213390,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad0eff09ffd4": {
+    "id": "ad0eff09ffd4",
+    "label": "11 CITE DU BOCAGE, Les Hauts-de-Caux",
+    "lat": 49.653468,
+    "lng": 0.727706,
+    "transactions": [
+      {
+        "date": "2022-01-12",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb5261632a09": {
+    "id": "cb5261632a09",
+    "label": "3 IMP DES ECUREUILS, Les Hauts-de-Caux",
+    "lat": 49.655656,
+    "lng": 0.72614,
+    "transactions": [
+      {
+        "date": "2023-07-18",
+        "priceEur": 265175,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "48b0aec239b6": {
+    "id": "48b0aec239b6",
+    "label": "1 CITE DU BOCAGE, Les Hauts-de-Caux",
+    "lat": 49.653995,
+    "lng": 0.727463,
+    "transactions": [
+      {
+        "date": "2024-11-19",
+        "priceEur": 102000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "84164f0091ba": {
+    "id": "84164f0091ba",
+    "label": "13 CITE DU BOCAGE, Les Hauts-de-Caux",
+    "lat": 49.653647,
+    "lng": 0.727719,
+    "transactions": [
+      {
+        "date": "2025-06-27",
+        "priceEur": 156500,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  }
+}

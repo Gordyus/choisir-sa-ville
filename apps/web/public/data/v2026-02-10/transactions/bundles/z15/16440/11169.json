@@ -1,0 +1,77 @@
+{
+  "699079bc7122": {
+    "id": "699079bc7122",
+    "label": "25 RTE DE BOIS HIMONT, Alvimare",
+    "lat": 49.597721,
+    "lng": 0.626185,
+    "transactions": [
+      {
+        "date": "2021-06-21",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5b63ff7a1d6": {
+    "id": "a5b63ff7a1d6",
+    "label": "10 RTE DE BOIS HIMONT, Alvimare",
+    "lat": 49.599723,
+    "lng": 0.624915,
+    "transactions": [
+      {
+        "date": "2021-07-20",
+        "priceEur": 154400,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c5b4ea16708": {
+    "id": "9c5b4ea16708",
+    "label": "1B IMP DES ROSIERS, Alvimare",
+    "lat": 49.602907,
+    "lng": 0.6257,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb77a9e66def": {
+    "id": "fb77a9e66def",
+    "label": "11 RTE DE FOUCART, Alvimare",
+    "lat": 49.602071,
+    "lng": 0.618599,
+    "transactions": [
+      {
+        "date": "2022-05-13",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "09fe312dde80": {
+    "id": "09fe312dde80",
+    "label": "9 IMP DES ROSIERS, Alvimare",
+    "lat": 49.60309,
+    "lng": 0.624743,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 183000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

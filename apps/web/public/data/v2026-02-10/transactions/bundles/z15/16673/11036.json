@@ -1,0 +1,77 @@
+{
+  "7f2d5422dff5": {
+    "id": "7f2d5422dff5",
+    "label": "24 RUE DE WACHEMY, Templeuve-en-Pévèle",
+    "lat": 50.541035,
+    "lng": 3.181319,
+    "transactions": [
+      {
+        "date": "2022-11-17",
+        "priceEur": 574600,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f743b48d02d": {
+    "id": "4f743b48d02d",
+    "label": "14 PLAINE DE VERTAIN, Templeuve-en-Pévèle",
+    "lat": 50.535963,
+    "lng": 3.176821,
+    "transactions": [
+      {
+        "date": "2023-02-15",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed4df8cf11fc": {
+    "id": "ed4df8cf11fc",
+    "label": "48 RUE DE PERONNE, Templeuve-en-Pévèle",
+    "lat": 50.539823,
+    "lng": 3.1763,
+    "transactions": [
+      {
+        "date": "2023-02-28",
+        "priceEur": 452000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "686b2a5d5a2a": {
+    "id": "686b2a5d5a2a",
+    "label": "47 RUE DE LA FOURMISIERE, Templeuve-en-Pévèle",
+    "lat": 50.535238,
+    "lng": 3.184103,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 1050000,
+        "typeLocal": "Maison",
+        "surfaceM2": 394,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4c54b7d6ee9": {
+    "id": "b4c54b7d6ee9",
+    "label": "16 PLAINE DE VERTAIN, Templeuve-en-Pévèle",
+    "lat": 50.536018,
+    "lng": 3.177018,
+    "transactions": [
+      {
+        "date": "2024-01-05",
+        "priceEur": 495000,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  }
+}

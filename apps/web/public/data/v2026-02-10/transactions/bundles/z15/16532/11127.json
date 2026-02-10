@@ -1,0 +1,62 @@
+{
+  "bdc6dcf14b00": {
+    "id": "bdc6dcf14b00",
+    "label": "5265 VERRERIE DE ROMESNIL, Nesle-Normandeuse",
+    "lat": 49.900395,
+    "lng": 1.6335,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 7500,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "5cade6ee8d05": {
+    "id": "5cade6ee8d05",
+    "label": "5261 VERRERIE DE ROMESNIL, Nesle-Normandeuse",
+    "lat": 49.90024,
+    "lng": 1.633824,
+    "transactions": [
+      {
+        "date": "2022-02-05",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ba5f373c419": {
+    "id": "9ba5f373c419",
+    "label": "3 VERRERIE DE ROMESNIL, Nesle-Normandeuse",
+    "lat": 49.90039,
+    "lng": 1.633211,
+    "transactions": [
+      {
+        "date": "2022-04-29",
+        "priceEur": 84666,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "96bcef6aa847": {
+    "id": "96bcef6aa847",
+    "label": "5271 VERRERIE DE ROMESNIL, Nesle-Normandeuse",
+    "lat": 49.900408,
+    "lng": 1.6334,
+    "transactions": [
+      {
+        "date": "2022-04-29",
+        "priceEur": 42334,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  }
+}

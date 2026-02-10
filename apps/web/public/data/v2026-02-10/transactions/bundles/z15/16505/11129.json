@@ -1,0 +1,47 @@
+{
+  "21890c3fd006": {
+    "id": "21890c3fd006",
+    "label": "527 RTE DE RENOUVAL, Douvrend",
+    "lat": 49.885235,
+    "lng": 1.336125,
+    "transactions": [
+      {
+        "date": "2020-11-06",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "d397524d5de4": {
+    "id": "d397524d5de4",
+    "label": "463 RTE DE RENOUVAL, Douvrend",
+    "lat": 49.885191,
+    "lng": 1.33546,
+    "transactions": [
+      {
+        "date": "2023-07-27",
+        "priceEur": 265850,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e57fa3a2c81": {
+    "id": "0e57fa3a2c81",
+    "label": "5184 RENOUVAL, Douvrend",
+    "lat": 49.886107,
+    "lng": 1.332379,
+    "transactions": [
+      {
+        "date": "2023-11-15",
+        "priceEur": 221600,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  }
+}

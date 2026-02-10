@@ -1,0 +1,32 @@
+{
+  "5bccc1e93c08": {
+    "id": "5bccc1e93c08",
+    "label": "9001 RTE DU CABARET, Criel-sur-Mer",
+    "lat": 50.006459,
+    "lng": 1.324048,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ff7ee5a9ac8": {
+    "id": "3ff7ee5a9ac8",
+    "label": "5 RUE DE LA VALLEE, Touffreville-sur-Eu",
+    "lat": 50.003306,
+    "lng": 1.327137,
+    "transactions": [
+      {
+        "date": "2023-12-15",
+        "priceEur": 273060,
+        "typeLocal": "Maison",
+        "surfaceM2": 300,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "82c49c0991df": {
+    "id": "82c49c0991df",
+    "label": "8 RTE D HUGLEVILLE, Butot",
+    "lat": 49.618084,
+    "lng": 1.017748,
+    "transactions": [
+      {
+        "date": "2020-11-13",
+        "priceEur": 109000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "e3b7e3578489": {
+    "id": "e3b7e3578489",
+    "label": "10 RTE D HUGLEVILLE, Butot",
+    "lat": 49.618003,
+    "lng": 1.017642,
+    "transactions": [
+      {
+        "date": "2023-06-01",
+        "priceEur": 230500,
+        "typeLocal": "Maison",
+        "surfaceM2": 189,
+        "isVefa": false
+      }
+    ]
+  }
+}

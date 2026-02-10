@@ -1,0 +1,39 @@
+{
+  "a232e1ac1059": {
+    "id": "a232e1ac1059",
+    "label": "5194 MARAIS DE LA BUTTORIE, Wasnes-au-Bac",
+    "lat": 50.267221,
+    "lng": 3.265258,
+    "transactions": [
+      {
+        "date": "2022-11-18",
+        "priceEur": 69000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-21",
+        "priceEur": 52900,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "bea03e75a915": {
+    "id": "bea03e75a915",
+    "label": "5193 MARAIS DE LA BUTTORIE, Wasnes-au-Bac",
+    "lat": 50.266648,
+    "lng": 3.264531,
+    "transactions": [
+      {
+        "date": "2023-08-08",
+        "priceEur": 39000,
+        "typeLocal": "Maison",
+        "surfaceM2": 13,
+        "isVefa": false
+      }
+    ]
+  }
+}

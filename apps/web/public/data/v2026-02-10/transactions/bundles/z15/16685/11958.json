@@ -1,0 +1,32 @@
+{
+  "64303a806d0b": {
+    "id": "64303a806d0b",
+    "label": "5 CHE DU FORAGE, Octon",
+    "lat": 43.656764,
+    "lng": 3.313395,
+    "transactions": [
+      {
+        "date": "2022-07-08",
+        "priceEur": 85500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "3bca4bf8a124": {
+    "id": "3bca4bf8a124",
+    "label": "4 RUE DU RUFFAS BAS, Octon",
+    "lat": 43.656135,
+    "lng": 3.307717,
+    "transactions": [
+      {
+        "date": "2023-06-08",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  }
+}

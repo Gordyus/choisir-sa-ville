@@ -1,0 +1,54 @@
+{
+  "166cbba2e9eb": {
+    "id": "166cbba2e9eb",
+    "label": "5054 VARENNE, Saint-Aubin-le-Cauf",
+    "lat": 49.860367,
+    "lng": 1.169108,
+    "transactions": [
+      {
+        "date": "2021-12-10",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "e44cef0c0089": {
+    "id": "e44cef0c0089",
+    "label": "92 RUE DES JONQUETS, Saint-Aubin-le-Cauf",
+    "lat": 49.860029,
+    "lng": 1.167969,
+    "transactions": [
+      {
+        "date": "2022-03-22",
+        "priceEur": 73000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b86623e3808": {
+    "id": "7b86623e3808",
+    "label": "541 RUE DU PONT DE PIERRE, Saint-Aubin-le-Cauf",
+    "lat": 49.85953,
+    "lng": 1.16477,
+    "transactions": [
+      {
+        "date": "2023-08-29",
+        "priceEur": 570000,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-29",
+        "priceEur": 570000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

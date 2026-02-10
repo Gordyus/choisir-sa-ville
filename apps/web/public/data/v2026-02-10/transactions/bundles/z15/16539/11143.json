@@ -1,0 +1,106 @@
+{
+  "776fe2d9a922": {
+    "id": "776fe2d9a922",
+    "label": "5012 LE BOURG, Morienne",
+    "lat": 49.782255,
+    "lng": 1.711889,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae52687078e9": {
+    "id": "ae52687078e9",
+    "label": "5058 LE BOURG, Morienne",
+    "lat": 49.781608,
+    "lng": 1.708303,
+    "transactions": [
+      {
+        "date": "2022-06-08",
+        "priceEur": 134000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "c1e068e16ecb": {
+    "id": "c1e068e16ecb",
+    "label": "5037 VALLEE BECQUET, Morienne",
+    "lat": 49.784658,
+    "lng": 1.710136,
+    "transactions": [
+      {
+        "date": "2024-01-12",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "ecf0843d15da": {
+    "id": "ecf0843d15da",
+    "label": "5033 VALLEE BECQUET, Morienne",
+    "lat": 49.783965,
+    "lng": 1.704581,
+    "transactions": [
+      {
+        "date": "2024-04-26",
+        "priceEur": 79030,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "a629de79ea3b": {
+    "id": "a629de79ea3b",
+    "label": "5016 LE BOURG, Morienne",
+    "lat": 49.781542,
+    "lng": 1.711174,
+    "transactions": [
+      {
+        "date": "2024-09-05",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "8769c418b363": {
+    "id": "8769c418b363",
+    "label": "5023 LE BOURG, Morienne",
+    "lat": 49.781808,
+    "lng": 1.708939,
+    "transactions": [
+      {
+        "date": "2024-10-11",
+        "priceEur": 147000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 92,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-11",
+        "priceEur": 147000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-11",
+        "priceEur": 147000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  }
+}

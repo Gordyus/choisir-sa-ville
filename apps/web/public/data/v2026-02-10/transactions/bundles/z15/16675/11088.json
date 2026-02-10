@@ -1,0 +1,47 @@
+{
+  "7ea761b0502b": {
+    "id": "7ea761b0502b",
+    "label": "15 CHE BOULANGER, Cambrai",
+    "lat": 50.175282,
+    "lng": 3.207802,
+    "transactions": [
+      {
+        "date": "2021-06-08",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "a8a92f9f7474": {
+    "id": "a8a92f9f7474",
+    "label": "15B CHE BOULANGER, Cambrai",
+    "lat": 50.175216,
+    "lng": 3.207471,
+    "transactions": [
+      {
+        "date": "2021-06-08",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "1783296a5f27": {
+    "id": "1783296a5f27",
+    "label": "5002F RUE DU CHAMP DE TIR, Fontaine-Notre-Dame",
+    "lat": 50.172601,
+    "lng": 3.207017,
+    "transactions": [
+      {
+        "date": "2023-03-23",
+        "priceEur": 500000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "9007fcd71a7c": {
+    "id": "9007fcd71a7c",
+    "label": "114 CLOS DES POMMIERS, La Rue-Saint-Pierre",
+    "lat": 49.568093,
+    "lng": 1.241542,
+    "transactions": [
+      {
+        "date": "2024-07-15",
+        "priceEur": 265250,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-07",
+        "priceEur": 215200,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a4e73f88c58": {
+    "id": "2a4e73f88c58",
+    "label": "7 CLOS DES POMMIERS, La Rue-Saint-Pierre",
+    "lat": 49.568423,
+    "lng": 1.241903,
+    "transactions": [
+      {
+        "date": "2024-05-29",
+        "priceEur": 418300,
+        "typeLocal": "Maison",
+        "surfaceM2": 198,
+        "isVefa": false
+      }
+    ]
+  },
+  "65fe47615c96": {
+    "id": "65fe47615c96",
+    "label": "269 IMP DES FORRIERES, La Rue-Saint-Pierre",
+    "lat": 49.568032,
+    "lng": 1.243589,
+    "transactions": [
+      {
+        "date": "2024-12-12",
+        "priceEur": 309000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c84e6fb0005": {
+    "id": "9c84e6fb0005",
+    "label": "271 RTE DE BUCHY, La Rue-Saint-Pierre",
+    "lat": 49.574107,
+    "lng": 1.241883,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 137500,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  }
+}

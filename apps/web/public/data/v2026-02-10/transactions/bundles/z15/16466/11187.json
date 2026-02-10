@@ -1,0 +1,32 @@
+{
+  "766cba82d97e": {
+    "id": "766cba82d97e",
+    "label": "941 RUE DU VILLAGE, Berville-sur-Seine",
+    "lat": 49.473464,
+    "lng": 0.902,
+    "transactions": [
+      {
+        "date": "2021-02-26",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d4f23a6bed2": {
+    "id": "9d4f23a6bed2",
+    "label": "14 RUE LA PORTE DES CHAMPS, Berville-sur-Seine",
+    "lat": 49.47237,
+    "lng": 0.901385,
+    "transactions": [
+      {
+        "date": "2023-10-31",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "1f49b4edffff": {
+    "id": "1f49b4edffff",
+    "label": "1 RUE DE L AUDACIEUSE 1, Magalas",
+    "lat": 43.467979,
+    "lng": 3.207949,
+    "transactions": [
+      {
+        "date": "2022-05-31",
+        "priceEur": 500000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "0fd0ad2a9cf1": {
+    "id": "0fd0ad2a9cf1",
+    "label": "12 RUE DE L AUDACIEUSE 1, Magalas",
+    "lat": 43.467523,
+    "lng": 3.206952,
+    "transactions": [
+      {
+        "date": "2022-06-22",
+        "priceEur": 382400,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  }
+}

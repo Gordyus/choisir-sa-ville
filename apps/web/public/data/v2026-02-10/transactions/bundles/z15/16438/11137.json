@@ -1,0 +1,32 @@
+{
+  "fdca56cfbd3f": {
+    "id": "fdca56cfbd3f",
+    "label": "5 RUE DU MARRONNIER, Auberville-la-Manuel",
+    "lat": 49.826426,
+    "lng": 0.593529,
+    "transactions": [
+      {
+        "date": "2020-12-12",
+        "priceEur": 129000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "3af2bfc258b8": {
+    "id": "3af2bfc258b8",
+    "label": "7 RUE DU MARRONNIER, Auberville-la-Manuel",
+    "lat": 49.826247,
+    "lng": 0.593869,
+    "transactions": [
+      {
+        "date": "2023-03-24",
+        "priceEur": 259500,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  }
+}

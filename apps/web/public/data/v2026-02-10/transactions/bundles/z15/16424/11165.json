@@ -1,0 +1,84 @@
+{
+  "751938a2d726": {
+    "id": "751938a2d726",
+    "label": "640 RTE DE GRAINVILLE, Vattetot-sous-Beaumont",
+    "lat": 49.629873,
+    "lng": 0.439873,
+    "transactions": [
+      {
+        "date": "2023-06-15",
+        "priceEur": 425000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-28",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a2fa03cf819": {
+    "id": "6a2fa03cf819",
+    "label": "89 RTE DE SAINT MACLOU, Vattetot-sous-Beaumont",
+    "lat": 49.625832,
+    "lng": 0.445613,
+    "transactions": [
+      {
+        "date": "2021-03-17",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "27b6599d61ac": {
+    "id": "27b6599d61ac",
+    "label": "5167 VATTETOT, Vattetot-sous-Beaumont",
+    "lat": 49.625105,
+    "lng": 0.447421,
+    "transactions": [
+      {
+        "date": "2021-11-15",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b1ffb206cda": {
+    "id": "0b1ffb206cda",
+    "label": "124 RTE DE SAINT MACLOU, Vattetot-sous-Beaumont",
+    "lat": 49.625688,
+    "lng": 0.446582,
+    "transactions": [
+      {
+        "date": "2023-09-15",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "6aef14cc1804": {
+    "id": "6aef14cc1804",
+    "label": "3 ALL DE LA PLAINE, Vattetot-sous-Beaumont",
+    "lat": 49.625288,
+    "lng": 0.442641,
+    "transactions": [
+      {
+        "date": "2025-05-28",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  }
+}

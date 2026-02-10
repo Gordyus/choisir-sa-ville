@@ -1,0 +1,47 @@
+{
+  "08bc381a09bf": {
+    "id": "08bc381a09bf",
+    "label": "5033 PEZ, Pardailhan",
+    "lat": 43.447133,
+    "lng": 2.827014,
+    "transactions": [
+      {
+        "date": "2021-05-04",
+        "priceEur": 1500,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "50ecf9746d14": {
+    "id": "50ecf9746d14",
+    "label": "5146 PEZ, Pardailhan",
+    "lat": 43.446481,
+    "lng": 2.8281,
+    "transactions": [
+      {
+        "date": "2022-09-14",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "b75842fe9ee9": {
+    "id": "b75842fe9ee9",
+    "label": "5214F PEZ, Pardailhan",
+    "lat": 43.446719,
+    "lng": 2.826192,
+    "transactions": [
+      {
+        "date": "2024-07-19",
+        "priceEur": 350431,
+        "typeLocal": "Maison",
+        "surfaceM2": 177,
+        "isVefa": false
+      }
+    ]
+  }
+}

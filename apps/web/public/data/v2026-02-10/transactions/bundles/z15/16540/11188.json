@@ -1,0 +1,47 @@
+{
+  "652dcdcf1528": {
+    "id": "652dcdcf1528",
+    "label": "9041 AV DE LA GARENNE, Gournay-en-Bray",
+    "lat": 49.466782,
+    "lng": 1.714072,
+    "transactions": [
+      {
+        "date": "2020-09-10",
+        "priceEur": 208000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c75458b61c7": {
+    "id": "7c75458b61c7",
+    "label": "29 LES BASSES COMMUNES, Ernemont-la-Villette",
+    "lat": 49.463027,
+    "lng": 1.720603,
+    "transactions": [
+      {
+        "date": "2023-01-03",
+        "priceEur": 326500,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "69db8d0e342c": {
+    "id": "69db8d0e342c",
+    "label": "51 IMP DES BASSES COMMUNES, Ernemont-la-Villette",
+    "lat": 49.463821,
+    "lng": 1.717098,
+    "transactions": [
+      {
+        "date": "2024-12-05",
+        "priceEur": 415000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  }
+}

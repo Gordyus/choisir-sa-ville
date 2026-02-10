@@ -1,0 +1,47 @@
+{
+  "70148f54ee48": {
+    "id": "70148f54ee48",
+    "label": "8 CHE DE LA SOURCE, Cesseras",
+    "lat": 43.340768,
+    "lng": 2.710468,
+    "transactions": [
+      {
+        "date": "2022-07-01",
+        "priceEur": 323910,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "25e866730d33": {
+    "id": "25e866730d33",
+    "label": "5246F BERGERIE DE LIGNIERES, Cesseras",
+    "lat": 43.339476,
+    "lng": 2.708636,
+    "transactions": [
+      {
+        "date": "2023-02-20",
+        "priceEur": 388200,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "4264ab4b9a62": {
+    "id": "4264ab4b9a62",
+    "label": "5274 METAIRIE DE LESCURE, Cesseras",
+    "lat": 43.336483,
+    "lng": 2.711995,
+    "transactions": [
+      {
+        "date": "2023-06-15",
+        "priceEur": 327150,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  }
+}

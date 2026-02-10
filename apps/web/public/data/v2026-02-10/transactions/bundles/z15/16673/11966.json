@@ -1,0 +1,47 @@
+{
+  "17c18171bf93": {
+    "id": "17c18171bf93",
+    "label": "717 RTE DU TUNEL, Faugères",
+    "lat": 43.588697,
+    "lng": 3.17847,
+    "transactions": [
+      {
+        "date": "2020-11-13",
+        "priceEur": 430000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "e35d7c271a77": {
+    "id": "e35d7c271a77",
+    "label": "7020F SOUMARTRE, Faugères",
+    "lat": 43.588445,
+    "lng": 3.181886,
+    "transactions": [
+      {
+        "date": "2021-09-09",
+        "priceEur": 297800,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "6c530dd62959": {
+    "id": "6c530dd62959",
+    "label": "152 RUE DES ANCIENNES CAVES, Faugères",
+    "lat": 43.588756,
+    "lng": 3.181848,
+    "transactions": [
+      {
+        "date": "2022-09-13",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

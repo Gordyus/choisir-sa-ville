@@ -1,0 +1,32 @@
+{
+  "aea5983eccfc": {
+    "id": "aea5983eccfc",
+    "label": "18 AV DES ANGLAIS, Dieppe",
+    "lat": 49.924244,
+    "lng": 1.064643,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 540000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "040be11b66d2": {
+    "id": "040be11b66d2",
+    "label": "60 RTE DE POURVILLE, Dieppe",
+    "lat": 49.923341,
+    "lng": 1.056957,
+    "transactions": [
+      {
+        "date": "2024-07-24",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 220,
+        "isVefa": false
+      }
+    ]
+  }
+}

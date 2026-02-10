@@ -1,0 +1,32 @@
+{
+  "f66b170bd80c": {
+    "id": "f66b170bd80c",
+    "label": "401 RTE DE LA CRIQUE, Bretteville-du-Grand-Caux",
+    "lat": 49.667698,
+    "lng": 0.390341,
+    "transactions": [
+      {
+        "date": "2023-07-05",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "f43a94f589c4": {
+    "id": "f43a94f589c4",
+    "label": "274 RTE DE LA CRIQUE, Bretteville-du-Grand-Caux",
+    "lat": 49.668307,
+    "lng": 0.389382,
+    "transactions": [
+      {
+        "date": "2025-02-28",
+        "priceEur": 118750,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "e3be3da63d0a": {
+    "id": "e3be3da63d0a",
+    "label": "5036 LE BAS MAUNY, Mauny",
+    "lat": 49.396496,
+    "lng": 0.919334,
+    "transactions": [
+      {
+        "date": "2021-02-01",
+        "priceEur": 304500,
+        "typeLocal": "Maison",
+        "surfaceM2": 198,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b80adfc55bb": {
+    "id": "5b80adfc55bb",
+    "label": "960 RTE DES MEANDRES, Mauny",
+    "lat": 49.394015,
+    "lng": 0.918684,
+    "transactions": [
+      {
+        "date": "2023-08-03",
+        "priceEur": 213800,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  }
+}

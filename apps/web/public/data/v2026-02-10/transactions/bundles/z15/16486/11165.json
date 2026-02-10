@@ -1,0 +1,32 @@
+{
+  "33b27c6104a2": {
+    "id": "33b27c6104a2",
+    "label": "315 IMP DE L'ANCIEN PRESBYTERE, Frichemesnil",
+    "lat": 49.62589,
+    "lng": 1.12138,
+    "transactions": [
+      {
+        "date": "2024-04-19",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "7721c4800ec8": {
+    "id": "7721c4800ec8",
+    "label": "615 RTE D'ORMESNIL, Frichemesnil",
+    "lat": 49.629277,
+    "lng": 1.120871,
+    "transactions": [
+      {
+        "date": "2025-04-08",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  }
+}

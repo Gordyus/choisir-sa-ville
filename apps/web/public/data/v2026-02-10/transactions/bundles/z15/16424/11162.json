@@ -1,0 +1,62 @@
+{
+  "b91860f8d121": {
+    "id": "b91860f8d121",
+    "label": "5068 GONFREVILLE, Gonfreville-Caillot",
+    "lat": 49.652191,
+    "lng": 0.441484,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 177000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "e86dc7a86187": {
+    "id": "e86dc7a86187",
+    "label": "231 RTE DE SAINT MACLOU, Gonfreville-Caillot",
+    "lat": 49.652619,
+    "lng": 0.439497,
+    "transactions": [
+      {
+        "date": "2020-09-28",
+        "priceEur": 237000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "08b6ed72cd6b": {
+    "id": "08b6ed72cd6b",
+    "label": "304 RTE DE SAINT MACLOU, Gonfreville-Caillot",
+    "lat": 49.652227,
+    "lng": 0.440923,
+    "transactions": [
+      {
+        "date": "2024-01-29",
+        "priceEur": 148500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "69f9430841b4": {
+    "id": "69f9430841b4",
+    "label": "430 RTE DE SAINT MACLOU, Gonfreville-Caillot",
+    "lat": 49.65239,
+    "lng": 0.443706,
+    "transactions": [
+      {
+        "date": "2025-02-17",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "3e86c1bcd766": {
+    "id": "3e86c1bcd766",
+    "label": "996 RUE DE L'ECOUFFE, Mauquenchy",
+    "lat": 49.611779,
+    "lng": 1.436588,
+    "transactions": [
+      {
+        "date": "2020-10-13",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ddf26150966": {
+    "id": "6ddf26150966",
+    "label": "27 IMP DE LA PLAINE, Mauquenchy",
+    "lat": 49.61181,
+    "lng": 1.436836,
+    "transactions": [
+      {
+        "date": "2021-01-08",
+        "priceEur": 92600,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "09fd22e4c490": {
+    "id": "09fd22e4c490",
+    "label": "60 IMP DE LA PLAINE, Mauquenchy",
+    "lat": 49.611419,
+    "lng": 1.43649,
+    "transactions": [
+      {
+        "date": "2022-02-04",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "62bd51489192": {
+    "id": "62bd51489192",
+    "label": "849 RUE DE L'ECOUFFE, Mauquenchy",
+    "lat": 49.611965,
+    "lng": 1.434308,
+    "transactions": [
+      {
+        "date": "2023-10-18",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  }
+}

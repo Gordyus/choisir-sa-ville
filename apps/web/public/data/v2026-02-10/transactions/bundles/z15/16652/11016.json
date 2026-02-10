@@ -1,0 +1,32 @@
+{
+  "fb118b6f9ca2": {
+    "id": "fb118b6f9ca2",
+    "label": "303 RUE BRUNE, Houplines",
+    "lat": 50.678656,
+    "lng": 2.9509,
+    "transactions": [
+      {
+        "date": "2020-11-16",
+        "priceEur": 436000,
+        "typeLocal": "Maison",
+        "surfaceM2": 225,
+        "isVefa": false
+      }
+    ]
+  },
+  "298d92b9239f": {
+    "id": "298d92b9239f",
+    "label": "35 RUE DU FRESNEL, Pérenchies",
+    "lat": 50.676157,
+    "lng": 2.954552,
+    "transactions": [
+      {
+        "date": "2021-12-13",
+        "priceEur": 824900,
+        "typeLocal": "Maison",
+        "surfaceM2": 264,
+        "isVefa": false
+      }
+    ]
+  }
+}

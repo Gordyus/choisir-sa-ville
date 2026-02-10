@@ -1,0 +1,32 @@
+{
+  "2bb3e036850f": {
+    "id": "2bb3e036850f",
+    "label": "3654 RUE DE CASSEL, Wormhout",
+    "lat": 50.848295,
+    "lng": 2.47453,
+    "transactions": [
+      {
+        "date": "2021-06-18",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "53bbfc0782b9": {
+    "id": "53bbfc0782b9",
+    "label": "3612 RUE DE CASSEL, Wormhout",
+    "lat": 50.848674,
+    "lng": 2.474369,
+    "transactions": [
+      {
+        "date": "2023-07-01",
+        "priceEur": 199400,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  }
+}

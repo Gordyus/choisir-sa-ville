@@ -1,0 +1,47 @@
+{
+  "30351a6f72b1": {
+    "id": "30351a6f72b1",
+    "label": "132 RUE DE LA CHAPELLE, Estaires",
+    "lat": 50.654754,
+    "lng": 2.695688,
+    "transactions": [
+      {
+        "date": "2021-03-18",
+        "priceEur": 545000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "d283cd385b62": {
+    "id": "d283cd385b62",
+    "label": "26 RUE DE LA CHAPELLE, Estaires",
+    "lat": 50.653394,
+    "lng": 2.695456,
+    "transactions": [
+      {
+        "date": "2022-04-28",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "fda66e7ad5f0": {
+    "id": "fda66e7ad5f0",
+    "label": "210 RUE KENNEDY, Estaires",
+    "lat": 50.653267,
+    "lng": 2.6956,
+    "transactions": [
+      {
+        "date": "2025-02-17",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

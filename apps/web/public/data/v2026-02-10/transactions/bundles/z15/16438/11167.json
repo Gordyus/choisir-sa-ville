@@ -1,0 +1,92 @@
+{
+  "9393cf8e9341": {
+    "id": "9393cf8e9341",
+    "label": "547 RTE DES BOSQUETS, Foucart",
+    "lat": 49.614363,
+    "lng": 0.59917,
+    "transactions": [
+      {
+        "date": "2021-03-16",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "b08abedc9072": {
+    "id": "b08abedc9072",
+    "label": "321 RTE SAINT MARTIN, Foucart",
+    "lat": 49.613374,
+    "lng": 0.596842,
+    "transactions": [
+      {
+        "date": "2022-01-24",
+        "priceEur": 154500,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "29260a57ce6e": {
+    "id": "29260a57ce6e",
+    "label": "345 RTE DE LA LICORNE, Foucart",
+    "lat": 49.611988,
+    "lng": 0.599221,
+    "transactions": [
+      {
+        "date": "2022-06-21",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad35824392a7": {
+    "id": "ad35824392a7",
+    "label": "130 RTE SAINT MARTIN, Foucart",
+    "lat": 49.613971,
+    "lng": 0.594153,
+    "transactions": [
+      {
+        "date": "2023-05-09",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "63d61e8dac59": {
+    "id": "63d61e8dac59",
+    "label": "60 IMP DU PRESBYTERE, Foucart",
+    "lat": 49.613744,
+    "lng": 0.597803,
+    "transactions": [
+      {
+        "date": "2024-07-05",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "2dcecfc25173": {
+    "id": "2dcecfc25173",
+    "label": "960 RTE DES BASSINS, Cléville",
+    "lat": 49.617205,
+    "lng": 0.602871,
+    "transactions": [
+      {
+        "date": "2024-12-16",
+        "priceEur": 193000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

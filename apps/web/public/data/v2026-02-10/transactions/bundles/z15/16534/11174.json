@@ -1,0 +1,62 @@
+{
+  "32fd09e77655": {
+    "id": "32fd09e77655",
+    "label": "9 CHE DU LAVOIR, Ménerval",
+    "lat": 49.564127,
+    "lng": 1.658381,
+    "transactions": [
+      {
+        "date": "2020-08-14",
+        "priceEur": 94000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "a763f39fc0f2": {
+    "id": "a763f39fc0f2",
+    "label": "5108 MENERVAL VILLAGE, Ménerval",
+    "lat": 49.565509,
+    "lng": 1.657168,
+    "transactions": [
+      {
+        "date": "2021-07-13",
+        "priceEur": 93000,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "43d137d112d8": {
+    "id": "43d137d112d8",
+    "label": "1 RTE DE HAUSSEZ, Ménerval",
+    "lat": 49.56522,
+    "lng": 1.656975,
+    "transactions": [
+      {
+        "date": "2022-06-22",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "25c0ab0d28bd": {
+    "id": "25c0ab0d28bd",
+    "label": "9 RTE DE GOURNAY, Ménerval",
+    "lat": 49.563401,
+    "lng": 1.657121,
+    "transactions": [
+      {
+        "date": "2022-10-26",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  }
+}

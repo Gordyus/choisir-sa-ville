@@ -1,0 +1,128 @@
+{
+  "73c1ae225e2b": {
+    "id": "73c1ae225e2b",
+    "label": "716 RUE DE CAUDESCURE, Vieux-Berquin",
+    "lat": 50.674707,
+    "lng": 2.619059,
+    "transactions": [
+      {
+        "date": "2023-05-31",
+        "priceEur": 436500,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-15",
+        "priceEur": 361500,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  },
+  "e266be261e10": {
+    "id": "e266be261e10",
+    "label": "284 RUE DE CAUDESCURE, Vieux-Berquin",
+    "lat": 50.678353,
+    "lng": 2.619057,
+    "transactions": [
+      {
+        "date": "2022-06-24",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "17973f1f8bb9": {
+    "id": "17973f1f8bb9",
+    "label": "470 RUE DE CAUDESCURE, Vieux-Berquin",
+    "lat": 50.6767,
+    "lng": 2.619345,
+    "transactions": [
+      {
+        "date": "2022-09-26",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ae606b1e25f": {
+    "id": "9ae606b1e25f",
+    "label": "708 RUE DE CAUDESCURE, Vieux-Berquin",
+    "lat": 50.675037,
+    "lng": 2.61904,
+    "transactions": [
+      {
+        "date": "2022-11-10",
+        "priceEur": 409130,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-10",
+        "priceEur": 409130,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-10",
+        "priceEur": 409130,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d1d4864ebd7": {
+    "id": "0d1d4864ebd7",
+    "label": "736 RUE DE CAUDESCURE, Vieux-Berquin",
+    "lat": 50.674401,
+    "lng": 2.618893,
+    "transactions": [
+      {
+        "date": "2022-12-26",
+        "priceEur": 292950,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f5b82657760": {
+    "id": "9f5b82657760",
+    "label": "624 RUE DE CAUDESCURE, Vieux-Berquin",
+    "lat": 50.675443,
+    "lng": 2.619294,
+    "transactions": [
+      {
+        "date": "2023-05-25",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "2849a77ab766": {
+    "id": "2849a77ab766",
+    "label": "626 RUE DE CAUDESCURE, Vieux-Berquin",
+    "lat": 50.675368,
+    "lng": 2.619204,
+    "transactions": [
+      {
+        "date": "2024-01-30",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

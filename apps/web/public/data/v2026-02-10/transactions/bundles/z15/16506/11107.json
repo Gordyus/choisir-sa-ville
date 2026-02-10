@@ -1,0 +1,77 @@
+{
+  "8be14c3008f3": {
+    "id": "8be14c3008f3",
+    "label": "81B RUE DE LA MER MESNIL VAL, Criel-sur-Mer",
+    "lat": 50.038406,
+    "lng": 1.342133,
+    "transactions": [
+      {
+        "date": "2021-10-28",
+        "priceEur": 234000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8112a062887": {
+    "id": "e8112a062887",
+    "label": "110 RUE DE LA MER MESNIL VAL, Criel-sur-Mer",
+    "lat": 50.039335,
+    "lng": 1.341048,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 207515,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "abdf42981707": {
+    "id": "abdf42981707",
+    "label": "112 RUE DE LA MER MESNIL VAL, Criel-sur-Mer",
+    "lat": 50.039282,
+    "lng": 1.34152,
+    "transactions": [
+      {
+        "date": "2022-07-08",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0fd68ab9c29": {
+    "id": "e0fd68ab9c29",
+    "label": "81 RUE DE LA MER MESNIL VAL, Criel-sur-Mer",
+    "lat": 50.03868,
+    "lng": 1.341514,
+    "transactions": [
+      {
+        "date": "2023-06-09",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "6401f48b4a42": {
+    "id": "6401f48b4a42",
+    "label": "6 RUE DU PUITS, Criel-sur-Mer",
+    "lat": 50.038014,
+    "lng": 1.340931,
+    "transactions": [
+      {
+        "date": "2024-08-21",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

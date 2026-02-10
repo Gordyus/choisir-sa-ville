@@ -1,0 +1,47 @@
+{
+  "19d2aa108125": {
+    "id": "19d2aa108125",
+    "label": "170 RUE MANOIR DES MARES, Mésangueville",
+    "lat": 49.548196,
+    "lng": 1.572296,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 121500,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "dcfe373693e7": {
+    "id": "dcfe373693e7",
+    "label": "16 IMP DE LA SABLIERE, Mésangueville",
+    "lat": 49.547872,
+    "lng": 1.571891,
+    "transactions": [
+      {
+        "date": "2022-05-03",
+        "priceEur": 183000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0a62f211859": {
+    "id": "c0a62f211859",
+    "label": "50 IMP DE LA SABLIERE, Mésangueville",
+    "lat": 49.547955,
+    "lng": 1.571453,
+    "transactions": [
+      {
+        "date": "2022-07-20",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  }
+}

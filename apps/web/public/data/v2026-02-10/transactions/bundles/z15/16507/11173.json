@@ -1,0 +1,32 @@
+{
+  "3f76fbae8ae2": {
+    "id": "3f76fbae8ae2",
+    "label": "510 RTE DE BUCHY, Sainte-Croix-sur-Buchy",
+    "lat": 49.570837,
+    "lng": 1.351469,
+    "transactions": [
+      {
+        "date": "2022-11-25",
+        "priceEur": 233000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "76be38df4d79": {
+    "id": "76be38df4d79",
+    "label": "603 RUE GIFFARD, Sainte-Croix-sur-Buchy",
+    "lat": 49.569147,
+    "lng": 1.356555,
+    "transactions": [
+      {
+        "date": "2025-04-10",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "93aa8c730440": {
+    "id": "93aa8c730440",
+    "label": "381 RUE DU VIEUX SAINTE MARIE, Baons-le-Comte",
+    "lat": 49.637262,
+    "lng": 0.747591,
+    "transactions": [
+      {
+        "date": "2020-07-08",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e17aa47f481": {
+    "id": "6e17aa47f481",
+    "label": "73 RUE DU VIEUX STE MARIE, Yvetot",
+    "lat": 49.632411,
+    "lng": 0.752079,
+    "transactions": [
+      {
+        "date": "2020-11-26",
+        "priceEur": 91680,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "02df178fc120": {
+    "id": "02df178fc120",
+    "label": "91 RUE DU VIEUX STE MARIE, Yvetot",
+    "lat": 49.634173,
+    "lng": 0.747273,
+    "transactions": [
+      {
+        "date": "2021-07-01",
+        "priceEur": 411000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-01",
+        "priceEur": 411000,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d3dd3a13d7d": {
+    "id": "2d3dd3a13d7d",
+    "label": "61 CHE DU FAY AUX BAONS, Baons-le-Comte",
+    "lat": 49.635605,
+    "lng": 0.748656,
+    "transactions": [
+      {
+        "date": "2021-07-09",
+        "priceEur": 293700,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f1b2cb3f1c1": {
+    "id": "3f1b2cb3f1c1",
+    "label": "69C RUE DU VIEUX STE MARIE, Yvetot",
+    "lat": 49.63221,
+    "lng": 0.751659,
+    "transactions": [
+      {
+        "date": "2022-01-06",
+        "priceEur": 254500,
+        "typeLocal": "Maison",
+        "surfaceM2": 173,
+        "isVefa": false
+      }
+    ]
+  },
+  "7010e4bdf5cb": {
+    "id": "7010e4bdf5cb",
+    "label": "69B RUE DU VIEUX STE MARIE, Yvetot",
+    "lat": 49.632322,
+    "lng": 0.751877,
+    "transactions": [
+      {
+        "date": "2022-04-08",
+        "priceEur": 79000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "b28f164a3b8b": {
+    "id": "b28f164a3b8b",
+    "label": "138 CHE DU FAY AUX BAONS, Baons-le-Comte",
+    "lat": 49.636499,
+    "lng": 0.748839,
+    "transactions": [
+      {
+        "date": "2022-05-12",
+        "priceEur": 222000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7fe39a63529": {
+    "id": "b7fe39a63529",
+    "label": "97 CHE DU FAY AUX BAONS, Baons-le-Comte",
+    "lat": 49.635915,
+    "lng": 0.749588,
+    "transactions": [
+      {
+        "date": "2025-06-02",
+        "priceEur": 244100,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "eb2fd7e079ed": {
+    "id": "eb2fd7e079ed",
+    "label": "62A RUE DES CORNETS, La Feuillie",
+    "lat": 49.451959,
+    "lng": 1.549028,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "05279cce0d60": {
+    "id": "05279cce0d60",
+    "label": "117 RUE DES VENTES, La Feuillie",
+    "lat": 49.450342,
+    "lng": 1.539666,
+    "transactions": [
+      {
+        "date": "2021-07-19",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

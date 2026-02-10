@@ -1,0 +1,593 @@
+{
+  "f02df15dd23c": {
+    "id": "f02df15dd23c",
+    "label": "167 RUE DE REIMS, Gouzeaucourt",
+    "lat": 50.051683,
+    "lng": 3.123949,
+    "transactions": [
+      {
+        "date": "2020-07-06",
+        "priceEur": 102000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb75c9d9f6ec": {
+    "id": "cb75c9d9f6ec",
+    "label": "201 RUE JEAN JACQUES DROMAS, Gouzeaucourt",
+    "lat": 50.053706,
+    "lng": 3.129477,
+    "transactions": [
+      {
+        "date": "2020-07-23",
+        "priceEur": 164450,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2770ae8ff69": {
+    "id": "e2770ae8ff69",
+    "label": "150 RUE JEAN JACQUES DROMAS, Gouzeaucourt",
+    "lat": 50.05311,
+    "lng": 3.129759,
+    "transactions": [
+      {
+        "date": "2020-07-30",
+        "priceEur": 157700,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "7427c31d0edd": {
+    "id": "7427c31d0edd",
+    "label": "92 RUE DE VILLERS PLOUICH, Gouzeaucourt",
+    "lat": 50.056554,
+    "lng": 3.124714,
+    "transactions": [
+      {
+        "date": "2022-05-24",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-07",
+        "priceEur": 101700,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "088852dae082": {
+    "id": "088852dae082",
+    "label": "178 RUE DE FRANCE, Gouzeaucourt",
+    "lat": 50.054249,
+    "lng": 3.120573,
+    "transactions": [
+      {
+        "date": "2020-10-29",
+        "priceEur": 147000,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  },
+  "b52fbe5401df": {
+    "id": "b52fbe5401df",
+    "label": "11 RUE DU PARC, Gouzeaucourt",
+    "lat": 50.054349,
+    "lng": 3.129296,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 153427,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "bee2ec545e10": {
+    "id": "bee2ec545e10",
+    "label": "62 RUE DE VILLERS PLOUICH, Gouzeaucourt",
+    "lat": 50.056264,
+    "lng": 3.124689,
+    "transactions": [
+      {
+        "date": "2020-12-04",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "83a9f23af2b7": {
+    "id": "83a9f23af2b7",
+    "label": "218 RUE DE FRANCE, Gouzeaucourt",
+    "lat": 50.053971,
+    "lng": 3.120271,
+    "transactions": [
+      {
+        "date": "2020-12-29",
+        "priceEur": 144400,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "80554f67f840": {
+    "id": "80554f67f840",
+    "label": "421 RUE JEAN JACQUES DROMAS, Gouzeaucourt",
+    "lat": 50.054967,
+    "lng": 3.129938,
+    "transactions": [
+      {
+        "date": "2024-11-04",
+        "priceEur": 241000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-27",
+        "priceEur": 206000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae253cc21ff3": {
+    "id": "ae253cc21ff3",
+    "label": "1158 AV DU GENERAL DE GAULLE, Gouzeaucourt",
+    "lat": 50.052093,
+    "lng": 3.120405,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 158700,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b1df30812fe": {
+    "id": "8b1df30812fe",
+    "label": "231 RUE DE L EST, Gouzeaucourt",
+    "lat": 50.053447,
+    "lng": 3.124936,
+    "transactions": [
+      {
+        "date": "2021-03-25",
+        "priceEur": 156380,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f8fb565021b": {
+    "id": "2f8fb565021b",
+    "label": "108 RUE BLANCHE, Gouzeaucourt",
+    "lat": 50.056868,
+    "lng": 3.122754,
+    "transactions": [
+      {
+        "date": "2021-09-10",
+        "priceEur": 73000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-10",
+        "priceEur": 73000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "645ff766b358": {
+    "id": "645ff766b358",
+    "label": "879 AV DU GENERAL DE GAULLE, Gouzeaucourt",
+    "lat": 50.053699,
+    "lng": 3.123239,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "a8df3205f682": {
+    "id": "a8df3205f682",
+    "label": "401 RUE JEAN JACQUES DROMAS, Gouzeaucourt",
+    "lat": 50.054799,
+    "lng": 3.129819,
+    "transactions": [
+      {
+        "date": "2021-11-05",
+        "priceEur": 184144,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "b24b568b2764": {
+    "id": "b24b568b2764",
+    "label": "813 AV DU GENERAL DE GAULLE, Gouzeaucourt",
+    "lat": 50.054221,
+    "lng": 3.123622,
+    "transactions": [
+      {
+        "date": "2021-11-19",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "29234b46cfe8": {
+    "id": "29234b46cfe8",
+    "label": "110 RUE JEAN JACQUES DROMAS, Gouzeaucourt",
+    "lat": 50.052798,
+    "lng": 3.129629,
+    "transactions": [
+      {
+        "date": "2021-12-30",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "d37fba89896d": {
+    "id": "d37fba89896d",
+    "label": "110 RUE DU STADE, Gouzeaucourt",
+    "lat": 50.056779,
+    "lng": 3.126227,
+    "transactions": [
+      {
+        "date": "2022-02-23",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "f94fb5347cf7": {
+    "id": "f94fb5347cf7",
+    "label": "140 RUE DE VILLERS GUISLAIN, Gouzeaucourt",
+    "lat": 50.052748,
+    "lng": 3.124643,
+    "transactions": [
+      {
+        "date": "2022-03-22",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "f03410481f78": {
+    "id": "f03410481f78",
+    "label": "135 RUE DU PARC, Gouzeaucourt",
+    "lat": 50.055395,
+    "lng": 3.128784,
+    "transactions": [
+      {
+        "date": "2022-04-22",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0c25cfc0529": {
+    "id": "a0c25cfc0529",
+    "label": "621 AV DU GENERAL DE GAULLE, Gouzeaucourt",
+    "lat": 50.05547,
+    "lng": 3.124513,
+    "transactions": [
+      {
+        "date": "2022-06-08",
+        "priceEur": 106000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "3db3bf89aa18": {
+    "id": "3db3bf89aa18",
+    "label": "340 RUE DU QUARTIER NEUF, Gouzeaucourt",
+    "lat": 50.051429,
+    "lng": 3.126949,
+    "transactions": [
+      {
+        "date": "2022-08-16",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "4148f7b2bb3a": {
+    "id": "4148f7b2bb3a",
+    "label": "134 RUE DE REIMS, Gouzeaucourt",
+    "lat": 50.052021,
+    "lng": 3.123728,
+    "transactions": [
+      {
+        "date": "2022-08-18",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "ce4d0ed0c636": {
+    "id": "ce4d0ed0c636",
+    "label": "181 RUE JEAN JACQUES DROMAS, Gouzeaucourt",
+    "lat": 50.053531,
+    "lng": 3.129365,
+    "transactions": [
+      {
+        "date": "2022-09-01",
+        "priceEur": 143000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d1260a590ac": {
+    "id": "8d1260a590ac",
+    "label": "143 RUE DE VILLERS GUISLAIN, Gouzeaucourt",
+    "lat": 50.053248,
+    "lng": 3.124946,
+    "transactions": [
+      {
+        "date": "2022-11-03",
+        "priceEur": 77500,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "15ff14695e54": {
+    "id": "15ff14695e54",
+    "label": "51 RUE LOUIS PASTEUR, Gouzeaucourt",
+    "lat": 50.055492,
+    "lng": 3.123013,
+    "transactions": [
+      {
+        "date": "2022-11-14",
+        "priceEur": 318900,
+        "typeLocal": "Maison",
+        "surfaceM2": 248,
+        "isVefa": false
+      }
+    ]
+  },
+  "67d0fb156610": {
+    "id": "67d0fb156610",
+    "label": "1132 AV DU GENERAL DE GAULLE, Gouzeaucourt",
+    "lat": 50.052258,
+    "lng": 3.120651,
+    "transactions": [
+      {
+        "date": "2023-04-07",
+        "priceEur": 86000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "39bf4278d0bf": {
+    "id": "39bf4278d0bf",
+    "label": "92 RUE LOUIS PASTEUR, Gouzeaucourt",
+    "lat": 50.056096,
+    "lng": 3.122704,
+    "transactions": [
+      {
+        "date": "2023-04-27",
+        "priceEur": 243000,
+        "typeLocal": "Maison",
+        "surfaceM2": 157,
+        "isVefa": false
+      }
+    ]
+  },
+  "76201651a7d4": {
+    "id": "76201651a7d4",
+    "label": "219 RUE DU QUARTIER NEUF, Gouzeaucourt",
+    "lat": 50.052029,
+    "lng": 3.125032,
+    "transactions": [
+      {
+        "date": "2023-09-07",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "7391754fed1c": {
+    "id": "7391754fed1c",
+    "label": "113 RUE DE VILLERS GUISLAIN, Gouzeaucourt",
+    "lat": 50.053379,
+    "lng": 3.124508,
+    "transactions": [
+      {
+        "date": "2023-10-06",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "d88a87baf0d3": {
+    "id": "d88a87baf0d3",
+    "label": "282 RUE DU QUARTIER NEUF, Gouzeaucourt",
+    "lat": 50.051419,
+    "lng": 3.125519,
+    "transactions": [
+      {
+        "date": "2023-10-25",
+        "priceEur": 257500,
+        "typeLocal": "Maison",
+        "surfaceM2": 215,
+        "isVefa": false
+      }
+    ]
+  },
+  "fc1b45743fde": {
+    "id": "fc1b45743fde",
+    "label": "31 RUE DU PARC, Gouzeaucourt",
+    "lat": 50.054381,
+    "lng": 3.129,
+    "transactions": [
+      {
+        "date": "2024-04-25",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb84d4c7be62": {
+    "id": "cb84d4c7be62",
+    "label": "173 RUE BLANCHE, Gouzeaucourt",
+    "lat": 50.056925,
+    "lng": 3.1219,
+    "transactions": [
+      {
+        "date": "2024-06-12",
+        "priceEur": 20000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "fc3df227720a": {
+    "id": "fc3df227720a",
+    "label": "185 RUE BLANCHE, Gouzeaucourt",
+    "lat": 50.056929,
+    "lng": 3.121648,
+    "transactions": [
+      {
+        "date": "2024-07-19",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd8477a32a6e": {
+    "id": "dd8477a32a6e",
+    "label": "21 RUE NEUVE, Gouzeaucourt",
+    "lat": 50.056999,
+    "lng": 3.122845,
+    "transactions": [
+      {
+        "date": "2024-09-05",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "c902ddb6e10b": {
+    "id": "c902ddb6e10b",
+    "label": "65 RUE DE VILLERS GUISLAIN, Gouzeaucourt",
+    "lat": 50.053534,
+    "lng": 3.123872,
+    "transactions": [
+      {
+        "date": "2024-11-28",
+        "priceEur": 59000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "24950ec2e818": {
+    "id": "24950ec2e818",
+    "label": "2 RUE LOUIS PASTEUR, Gouzeaucourt",
+    "lat": 50.055963,
+    "lng": 3.123794,
+    "transactions": [
+      {
+        "date": "2024-12-16",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 240,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a43b1f6b2e5": {
+    "id": "7a43b1f6b2e5",
+    "label": "77 RUE DE REIMS, Gouzeaucourt",
+    "lat": 50.052477,
+    "lng": 3.124247,
+    "transactions": [
+      {
+        "date": "2025-01-13",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a36e3708382": {
+    "id": "3a36e3708382",
+    "label": "781 AV DU GENERAL DE GAULLE, Gouzeaucourt",
+    "lat": 50.054543,
+    "lng": 3.123636,
+    "transactions": [
+      {
+        "date": "2025-01-31",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "4fc8230dae28": {
+    "id": "4fc8230dae28",
+    "label": "46 RUE DU PONT RINGO, Lallaing",
+    "lat": 50.376952,
+    "lng": 3.174394,
+    "transactions": [
+      {
+        "date": "2024-07-23",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-05",
+        "priceEur": 183500,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e7201b654ee": {
+    "id": "8e7201b654ee",
+    "label": "9 RUE DE DONGES, Lallaing",
+    "lat": 50.380242,
+    "lng": 3.171254,
+    "transactions": [
+      {
+        "date": "2022-01-31",
+        "priceEur": 93100,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c23d2b19aa4": {
+    "id": "9c23d2b19aa4",
+    "label": "67 RTE DE LALLAING, Montigny-en-Ostrevent",
+    "lat": 50.376673,
+    "lng": 3.170983,
+    "transactions": [
+      {
+        "date": "2022-08-12",
+        "priceEur": 102100,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "f568844f929b": {
+    "id": "f568844f929b",
+    "label": "20 RUE LUCIE ET RAYMOND AUBRAC, Lallaing",
+    "lat": 50.375866,
+    "lng": 3.1728,
+    "transactions": [
+      {
+        "date": "2022-09-26",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "eee601469618": {
+    "id": "eee601469618",
+    "label": "18 RUE DE PAIMBOEUF, Lallaing",
+    "lat": 50.379442,
+    "lng": 3.173738,
+    "transactions": [
+      {
+        "date": "2023-03-10",
+        "priceEur": 93000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "6488d9d3e62e": {
+    "id": "6488d9d3e62e",
+    "label": "949 RUE DE MONTIGNY, Lallaing",
+    "lat": 50.379322,
+    "lng": 3.1704,
+    "transactions": [
+      {
+        "date": "2024-03-01",
+        "priceEur": 240000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "97544d11432e": {
+    "id": "97544d11432e",
+    "label": "156 RTE DE LALLAING, Montigny-en-Ostrevent",
+    "lat": 50.375947,
+    "lng": 3.169856,
+    "transactions": [
+      {
+        "date": "2025-05-05",
+        "priceEur": 221200,
+        "typeLocal": "Maison",
+        "surfaceM2": 164,
+        "isVefa": false
+      }
+    ]
+  }
+}

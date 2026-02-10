@@ -1,0 +1,32 @@
+{
+  "bc258226625e": {
+    "id": "bc258226625e",
+    "label": "15B RUE DU BOIS DE MERLET, Grumesnil",
+    "lat": 49.62515,
+    "lng": 1.712262,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 195325,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6ebcd0a2371": {
+    "id": "d6ebcd0a2371",
+    "label": "11 RUE DU BOIS DE MERLET, Grumesnil",
+    "lat": 49.627606,
+    "lng": 1.711904,
+    "transactions": [
+      {
+        "date": "2021-05-22",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

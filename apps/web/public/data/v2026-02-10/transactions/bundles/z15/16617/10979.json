@@ -1,0 +1,69 @@
+{
+  "7b82bf06ce52": {
+    "id": "7b82bf06ce52",
+    "label": "11 RTE D YPRES, Rexpoëde",
+    "lat": 50.933113,
+    "lng": 2.564938,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f35a6b02b28": {
+    "id": "7f35a6b02b28",
+    "label": "9 RTE D YPRES, Rexpoëde",
+    "lat": 50.933891,
+    "lng": 2.56385,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 650000,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-16",
+        "priceEur": 650000,
+        "typeLocal": "Maison",
+        "surfaceM2": 196,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a72c0e5e1ae": {
+    "id": "6a72c0e5e1ae",
+    "label": "15 RTE D YPRES, Rexpoëde",
+    "lat": 50.932625,
+    "lng": 2.565949,
+    "transactions": [
+      {
+        "date": "2021-08-25",
+        "priceEur": 267385,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "903549ec2416": {
+    "id": "903549ec2416",
+    "label": "19 RTE D YPRES, Rexpoëde",
+    "lat": 50.931181,
+    "lng": 2.570445,
+    "transactions": [
+      {
+        "date": "2025-01-17",
+        "priceEur": 76000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  }
+}

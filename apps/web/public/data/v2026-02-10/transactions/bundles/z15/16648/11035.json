@@ -1,0 +1,39 @@
+{
+  "89e361d2dc82": {
+    "id": "89e361d2dc82",
+    "label": "5010 CHE DU HALAGE, Don",
+    "lat": 50.547996,
+    "lng": 2.910476,
+    "transactions": [
+      {
+        "date": "2021-12-23",
+        "priceEur": 2150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 130,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-23",
+        "priceEur": 2150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "55246ba68201": {
+    "id": "55246ba68201",
+    "label": "5021 CHE DU HALAGE, Don",
+    "lat": 50.542896,
+    "lng": 2.907098,
+    "transactions": [
+      {
+        "date": "2022-09-08",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

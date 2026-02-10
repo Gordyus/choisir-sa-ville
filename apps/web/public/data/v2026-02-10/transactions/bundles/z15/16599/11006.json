@@ -1,0 +1,62 @@
+{
+  "a5a1d8ed0510": {
+    "id": "a5a1d8ed0510",
+    "label": "16 RUE DE BAILLEUL, Renescure",
+    "lat": 50.74499,
+    "lng": 2.363389,
+    "transactions": [
+      {
+        "date": "2021-11-15",
+        "priceEur": 193000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "83ae18ae44fc": {
+    "id": "83ae18ae44fc",
+    "label": "2 RUE DE BAILLEUL, Renescure",
+    "lat": 50.744078,
+    "lng": 2.364947,
+    "transactions": [
+      {
+        "date": "2022-03-08",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "4463e90af0f2": {
+    "id": "4463e90af0f2",
+    "label": "22 RUE DE BAILLEUL, Renescure",
+    "lat": 50.743458,
+    "lng": 2.36355,
+    "transactions": [
+      {
+        "date": "2022-05-03",
+        "priceEur": 177650,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "714b200c0872": {
+    "id": "714b200c0872",
+    "label": "24 RUE DE BAILLEUL, Renescure",
+    "lat": 50.743458,
+    "lng": 2.363405,
+    "transactions": [
+      {
+        "date": "2024-05-03",
+        "priceEur": 201600,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  }
+}

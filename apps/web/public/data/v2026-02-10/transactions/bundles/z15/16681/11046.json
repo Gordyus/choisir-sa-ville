@@ -1,0 +1,61 @@
+{
+  "fed639ccadfa": {
+    "id": "fed639ccadfa",
+    "label": "1313 RUE DU HENNOY, Landas",
+    "lat": 50.466434,
+    "lng": 3.271938,
+    "transactions": [
+      {
+        "date": "2020-07-04",
+        "priceEur": 411549,
+        "typeLocal": "Maison",
+        "surfaceM2": 167,
+        "isVefa": false
+      }
+    ]
+  },
+  "9372b836a70a": {
+    "id": "9372b836a70a",
+    "label": "1367 RUE DU HENNOY, Landas",
+    "lat": 50.465284,
+    "lng": 3.268258,
+    "transactions": [
+      {
+        "date": "2022-06-20",
+        "priceEur": 294000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-20",
+        "priceEur": 294000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-20",
+        "priceEur": 294000,
+        "typeLocal": "Maison",
+        "surfaceM2": 215,
+        "isVefa": false
+      }
+    ]
+  },
+  "e3385f8b04d1": {
+    "id": "e3385f8b04d1",
+    "label": "39 RUE CHARLES FLON, Orchies",
+    "lat": 50.464582,
+    "lng": 3.266601,
+    "transactions": [
+      {
+        "date": "2022-06-20",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

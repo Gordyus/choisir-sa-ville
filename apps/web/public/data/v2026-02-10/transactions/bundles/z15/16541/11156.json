@@ -1,0 +1,62 @@
+{
+  "dea15db7e8e2": {
+    "id": "dea15db7e8e2",
+    "label": "5257 FRETTENCOURT, Criquiers",
+    "lat": 49.69447,
+    "lng": 1.726774,
+    "transactions": [
+      {
+        "date": "2021-12-06",
+        "priceEur": 91000,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ee69ca1690e": {
+    "id": "9ee69ca1690e",
+    "label": "5297 HULEUX, Criquiers",
+    "lat": 49.69159,
+    "lng": 1.727329,
+    "transactions": [
+      {
+        "date": "2021-01-15",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "8ecc44e26b89": {
+    "id": "8ecc44e26b89",
+    "label": "5306 HULEUX, Criquiers",
+    "lat": 49.692243,
+    "lng": 1.726768,
+    "transactions": [
+      {
+        "date": "2021-07-31",
+        "priceEur": 10000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "e7b40fc211f0": {
+    "id": "e7b40fc211f0",
+    "label": "5036 FRETTENCOURT, Criquiers",
+    "lat": 49.694991,
+    "lng": 1.727088,
+    "transactions": [
+      {
+        "date": "2021-09-02",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  }
+}

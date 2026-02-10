@@ -1,0 +1,32 @@
+{
+  "66ec28bdb015": {
+    "id": "66ec28bdb015",
+    "label": "15 RTE DU NIEPPE CD 110, Pitgam",
+    "lat": 50.926931,
+    "lng": 2.359784,
+    "transactions": [
+      {
+        "date": "2021-01-21",
+        "priceEur": 146250,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d6078c8fd15": {
+    "id": "6d6078c8fd15",
+    "label": "13 RTE DU NIEPPE CD 110, Pitgam",
+    "lat": 50.926357,
+    "lng": 2.358903,
+    "transactions": [
+      {
+        "date": "2022-05-30",
+        "priceEur": 180500,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  }
+}

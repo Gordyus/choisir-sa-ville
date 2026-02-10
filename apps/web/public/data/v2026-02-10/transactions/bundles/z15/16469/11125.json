@@ -1,0 +1,76 @@
+{
+  "2fdf5a7b4cc5": {
+    "id": "2fdf5a7b4cc5",
+    "label": "3122 CHE DE LA MER, Sainte-Marguerite-sur-Mer",
+    "lat": 49.909022,
+    "lng": 0.939062,
+    "transactions": [
+      {
+        "date": "2023-01-18",
+        "priceEur": 1,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-18",
+        "priceEur": 1,
+        "typeLocal": "Maison",
+        "surfaceM2": 24,
+        "isVefa": false
+      }
+    ]
+  },
+  "26cfcaf55350": {
+    "id": "26cfcaf55350",
+    "label": "2685 RTE DE LA MER, Sainte-Marguerite-sur-Mer",
+    "lat": 49.909177,
+    "lng": 0.944126,
+    "transactions": [
+      {
+        "date": "2023-12-09",
+        "priceEur": 425000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "10370e1157e7": {
+    "id": "10370e1157e7",
+    "label": "7 RES BEL AIR, Sainte-Marguerite-sur-Mer",
+    "lat": 49.910091,
+    "lng": 0.943353,
+    "transactions": [
+      {
+        "date": "2023-12-28",
+        "priceEur": 447000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "d04215edd47a": {
+    "id": "d04215edd47a",
+    "label": "2644 RTE DE LA MER, Sainte-Marguerite-sur-Mer",
+    "lat": 49.909774,
+    "lng": 0.944393,
+    "transactions": [
+      {
+        "date": "2024-02-21",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-21",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 21,
+        "isVefa": false
+      }
+    ]
+  }
+}

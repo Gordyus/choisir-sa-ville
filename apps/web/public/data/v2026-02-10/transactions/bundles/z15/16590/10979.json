@@ -1,0 +1,32 @@
+{
+  "08ea6bb1662a": {
+    "id": "08ea6bb1662a",
+    "label": "1708 RUE DE COPPENAXFORT, Looberghe",
+    "lat": 50.931619,
+    "lng": 2.263817,
+    "transactions": [
+      {
+        "date": "2021-06-26",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "397a304cff12": {
+    "id": "397a304cff12",
+    "label": "1789 RUE DE BROUCKERQUE, Looberghe",
+    "lat": 50.932002,
+    "lng": 2.271622,
+    "transactions": [
+      {
+        "date": "2021-12-28",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  }
+}

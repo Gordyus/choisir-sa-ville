@@ -1,0 +1,32 @@
+{
+  "06640900c0ab": {
+    "id": "06640900c0ab",
+    "label": "233 RUE DES CROIX, Brenas",
+    "lat": 43.653409,
+    "lng": 3.258064,
+    "transactions": [
+      {
+        "date": "2023-09-18",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9254e760c16": {
+    "id": "f9254e760c16",
+    "label": "8 ACH ANC CHEM DE VERNAZOUBRES, Brenas",
+    "lat": 43.653238,
+    "lng": 3.256523,
+    "transactions": [
+      {
+        "date": "2024-12-31",
+        "priceEur": 210950,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  }
+}

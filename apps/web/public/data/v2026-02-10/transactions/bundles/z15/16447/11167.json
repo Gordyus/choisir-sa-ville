@@ -1,0 +1,62 @@
+{
+  "cc32f7be4dd2": {
+    "id": "cc32f7be4dd2",
+    "label": "18 RES LES TERRES DU CHATEAU, Valliquerville",
+    "lat": 49.613682,
+    "lng": 0.69245,
+    "transactions": [
+      {
+        "date": "2022-02-18",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "87b892c29054": {
+    "id": "87b892c29054",
+    "label": "211 LA VIEILLE ROUTE, Valliquerville",
+    "lat": 49.614414,
+    "lng": 0.693235,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 220694.72,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "7df83ca536f6": {
+    "id": "7df83ca536f6",
+    "label": "4 IMP DE L'ENCLUMETTE, Valliquerville",
+    "lat": 49.612557,
+    "lng": 0.693188,
+    "transactions": [
+      {
+        "date": "2023-08-18",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "2dd3fc9c8d3f": {
+    "id": "2dd3fc9c8d3f",
+    "label": "21 RUE DES MOISSONNEURS, Valliquerville",
+    "lat": 49.612851,
+    "lng": 0.69274,
+    "transactions": [
+      {
+        "date": "2025-04-08",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  }
+}

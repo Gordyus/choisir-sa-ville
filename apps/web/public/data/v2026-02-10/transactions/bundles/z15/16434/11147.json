@@ -1,0 +1,47 @@
+{
+  "1714a4e797c3": {
+    "id": "1714a4e797c3",
+    "label": "7 RUE DES SAULES, Theuville-aux-Maillots",
+    "lat": 49.759247,
+    "lng": 0.552741,
+    "transactions": [
+      {
+        "date": "2020-10-23",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "d7e82d12bc76": {
+    "id": "d7e82d12bc76",
+    "label": "1 RUE DU CALVAIRE, Gerponville",
+    "lat": 49.75514,
+    "lng": 0.559667,
+    "transactions": [
+      {
+        "date": "2022-10-18",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "2fc4563f9a4e": {
+    "id": "2fc4563f9a4e",
+    "label": "1B RUE DU CALVAIRE, Gerponville",
+    "lat": 49.755342,
+    "lng": 0.560142,
+    "transactions": [
+      {
+        "date": "2024-05-21",
+        "priceEur": 167730,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

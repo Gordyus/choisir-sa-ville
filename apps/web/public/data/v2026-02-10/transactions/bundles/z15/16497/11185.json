@@ -1,0 +1,136 @@
+{
+  "fbe1d3c38909": {
+    "id": "fbe1d3c38909",
+    "label": "1416 RUE DE LA HETRAIE, La Vieux-Rue",
+    "lat": 49.486643,
+    "lng": 1.248632,
+    "transactions": [
+      {
+        "date": "2022-08-30",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-20",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "96ae575aef4b": {
+    "id": "96ae575aef4b",
+    "label": "1177 RUE DE LA HETRAIE, La Vieux-Rue",
+    "lat": 49.488573,
+    "lng": 1.24936,
+    "transactions": [
+      {
+        "date": "2022-03-29",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "3acfd88e36ec": {
+    "id": "3acfd88e36ec",
+    "label": "1428 RUE DE LA HETRAIE, La Vieux-Rue",
+    "lat": 49.486369,
+    "lng": 1.248551,
+    "transactions": [
+      {
+        "date": "2022-04-07",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "d852581accc8": {
+    "id": "d852581accc8",
+    "label": "1349 RUE DE LA HETRAIE, La Vieux-Rue",
+    "lat": 49.487283,
+    "lng": 1.249308,
+    "transactions": [
+      {
+        "date": "2022-04-20",
+        "priceEur": 107920,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-20",
+        "priceEur": 107920,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd5941aa7b41": {
+    "id": "bd5941aa7b41",
+    "label": "1111 RUE DE LA HETRAIE, La Vieux-Rue",
+    "lat": 49.489487,
+    "lng": 1.249424,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "d737b1685da6": {
+    "id": "d737b1685da6",
+    "label": "1501 RUE DE LA HETRAIE, La Vieux-Rue",
+    "lat": 49.485968,
+    "lng": 1.249224,
+    "transactions": [
+      {
+        "date": "2022-11-29",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "c81818482720": {
+    "id": "c81818482720",
+    "label": "1107 RUE DE LA HETRAIE, La Vieux-Rue",
+    "lat": 49.489144,
+    "lng": 1.249219,
+    "transactions": [
+      {
+        "date": "2023-07-31",
+        "priceEur": 381500,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "fba477cfcae8": {
+    "id": "fba477cfcae8",
+    "label": "62 RUE DU 8 MAI 1945, La Vieux-Rue",
+    "lat": 49.484045,
+    "lng": 1.246801,
+    "transactions": [
+      {
+        "date": "2025-01-29",
+        "priceEur": 430250,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  }
+}

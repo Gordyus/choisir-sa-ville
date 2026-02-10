@@ -1,0 +1,92 @@
+{
+  "be1e14531ab4": {
+    "id": "be1e14531ab4",
+    "label": "8 RTE DE L EUROPE, Valmont",
+    "lat": 49.737045,
+    "lng": 0.53563,
+    "transactions": [
+      {
+        "date": "2020-08-20",
+        "priceEur": 22000,
+        "typeLocal": "Maison",
+        "surfaceM2": 282,
+        "isVefa": false
+      }
+    ]
+  },
+  "f830926df281": {
+    "id": "f830926df281",
+    "label": "7 CHE DU VIVIER, Valmont",
+    "lat": 49.738206,
+    "lng": 0.529146,
+    "transactions": [
+      {
+        "date": "2020-12-28",
+        "priceEur": 313910,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "3fa35a2f588c": {
+    "id": "3fa35a2f588c",
+    "label": "12 RTE DE BOISMARE, Thiétreville",
+    "lat": 49.731856,
+    "lng": 0.532537,
+    "transactions": [
+      {
+        "date": "2023-01-26",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "b2528880d846": {
+    "id": "b2528880d846",
+    "label": "10 RTE DE L EUROPE, Valmont",
+    "lat": 49.737335,
+    "lng": 0.534803,
+    "transactions": [
+      {
+        "date": "2023-05-09",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 24,
+        "isVefa": false
+      }
+    ]
+  },
+  "de85c3eae33d": {
+    "id": "de85c3eae33d",
+    "label": "6 RTE DE L EUROPE, Valmont",
+    "lat": 49.736595,
+    "lng": 0.536761,
+    "transactions": [
+      {
+        "date": "2024-01-29",
+        "priceEur": 469200,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "deaa9b5584a1": {
+    "id": "deaa9b5584a1",
+    "label": "9 CHE DU VIVIER, Valmont",
+    "lat": 49.738061,
+    "lng": 0.528184,
+    "transactions": [
+      {
+        "date": "2025-01-09",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  }
+}

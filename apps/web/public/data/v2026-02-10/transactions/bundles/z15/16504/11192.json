@@ -1,0 +1,92 @@
+{
+  "95236fa56904": {
+    "id": "95236fa56904",
+    "label": "472 RUE DES FONDEURS, Auzouville-sur-Ry",
+    "lat": 49.435389,
+    "lng": 1.325476,
+    "transactions": [
+      {
+        "date": "2020-10-23",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "d813720641fa": {
+    "id": "d813720641fa",
+    "label": "311 RUE DES FONDEURS, Auzouville-sur-Ry",
+    "lat": 49.436476,
+    "lng": 1.323622,
+    "transactions": [
+      {
+        "date": "2020-12-04",
+        "priceEur": 171000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "800f042d4071": {
+    "id": "800f042d4071",
+    "label": "68 RUE DES FONDEURS, Auzouville-sur-Ry",
+    "lat": 49.43684,
+    "lng": 1.32048,
+    "transactions": [
+      {
+        "date": "2022-10-21",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "711fc01b5ba7": {
+    "id": "711fc01b5ba7",
+    "label": "5520 HAMEAU DU THIL, Auzouville-sur-Ry",
+    "lat": 49.435813,
+    "lng": 1.325559,
+    "transactions": [
+      {
+        "date": "2022-10-27",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb384a0dacbd": {
+    "id": "cb384a0dacbd",
+    "label": "277 RUE DU TEMPS PERDU, Auzouville-sur-Ry",
+    "lat": 49.435368,
+    "lng": 1.321005,
+    "transactions": [
+      {
+        "date": "2023-12-13",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f2a9fddf719": {
+    "id": "7f2a9fddf719",
+    "label": "7031 HAMEAU DU THIL, Auzouville-sur-Ry",
+    "lat": 49.437352,
+    "lng": 1.319688,
+    "transactions": [
+      {
+        "date": "2024-09-02",
+        "priceEur": 259400,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  }
+}

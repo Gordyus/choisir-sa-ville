@@ -1,0 +1,47 @@
+{
+  "abaf69b9823b": {
+    "id": "abaf69b9823b",
+    "label": "1 IMP AUX CHIENS, Ypreville-Biville",
+    "lat": 49.712347,
+    "lng": 0.540755,
+    "transactions": [
+      {
+        "date": "2021-03-10",
+        "priceEur": 83525.96,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "00084f44ed9c": {
+    "id": "00084f44ed9c",
+    "label": "13 RTE DE LA VALLEE DE VALMONT, Sorquainville",
+    "lat": 49.711137,
+    "lng": 0.546084,
+    "transactions": [
+      {
+        "date": "2021-09-29",
+        "priceEur": 349000,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "142d6bd131a4": {
+    "id": "142d6bd131a4",
+    "label": "3 IMP AUX CHIENS, Ypreville-Biville",
+    "lat": 49.713121,
+    "lng": 0.540983,
+    "transactions": [
+      {
+        "date": "2023-07-17",
+        "priceEur": 305000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  }
+}

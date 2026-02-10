@@ -1,0 +1,68 @@
+{
+  "292adfe8f06e": {
+    "id": "292adfe8f06e",
+    "label": "5073 RUE DU MANOIR, Villainville",
+    "lat": 49.655254,
+    "lng": 0.238526,
+    "transactions": [
+      {
+        "date": "2021-05-20",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "498b124d0e29": {
+    "id": "498b124d0e29",
+    "label": "5111 LE CENTRE, Villainville",
+    "lat": 49.655648,
+    "lng": 0.241693,
+    "transactions": [
+      {
+        "date": "2022-11-18",
+        "priceEur": 292001,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "4056447b1ddf": {
+    "id": "4056447b1ddf",
+    "label": "270 RTE DE GONNEVILLE, Villainville",
+    "lat": 49.656085,
+    "lng": 0.240888,
+    "transactions": [
+      {
+        "date": "2024-01-04",
+        "priceEur": 620670,
+        "typeLocal": "Maison",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-04",
+        "priceEur": 620670,
+        "typeLocal": "Maison",
+        "surfaceM2": 24,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-04",
+        "priceEur": 620670,
+        "typeLocal": "Maison",
+        "surfaceM2": 26,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-04",
+        "priceEur": 620670,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  }
+}

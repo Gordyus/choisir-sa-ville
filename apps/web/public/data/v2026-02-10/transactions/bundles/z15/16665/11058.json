@@ -1,0 +1,144 @@
+{
+  "c2f112d7c755": {
+    "id": "c2f112d7c755",
+    "label": "67 RUE DE BELFORT, Waziers",
+    "lat": 50.381386,
+    "lng": 3.096368,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4e4442b42db": {
+    "id": "b4e4442b42db",
+    "label": "798 RUE DES TRANNOIS, Douai",
+    "lat": 50.386439,
+    "lng": 3.089144,
+    "transactions": [
+      {
+        "date": "2020-09-25",
+        "priceEur": 86000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "b919d01e9ac8": {
+    "id": "b919d01e9ac8",
+    "label": "9 RUE DE BELFORT, Waziers",
+    "lat": 50.381611,
+    "lng": 3.096441,
+    "transactions": [
+      {
+        "date": "2021-07-21",
+        "priceEur": 63612,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a948e6093f8": {
+    "id": "4a948e6093f8",
+    "label": "36 RUE DE BELFORT, Waziers",
+    "lat": 50.382755,
+    "lng": 3.096982,
+    "transactions": [
+      {
+        "date": "2021-02-24",
+        "priceEur": 132560,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e1945a328d1": {
+    "id": "5e1945a328d1",
+    "label": "754 RUE DES TRANNOIS, Douai",
+    "lat": 50.386761,
+    "lng": 3.088794,
+    "transactions": [
+      {
+        "date": "2022-03-04",
+        "priceEur": 59900,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c578ef7a844": {
+    "id": "2c578ef7a844",
+    "label": "151 RUE EMILE BASLY, Douai",
+    "lat": 50.386782,
+    "lng": 3.090378,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 167020,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb7a5587fa91": {
+    "id": "fb7a5587fa91",
+    "label": "201 RUE EMILE BASLY, Douai",
+    "lat": 50.387406,
+    "lng": 3.090036,
+    "transactions": [
+      {
+        "date": "2022-10-25",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-25",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "8bcbcd2150aa": {
+    "id": "8bcbcd2150aa",
+    "label": "792 RUE DES TRANNOIS, Douai",
+    "lat": 50.386527,
+    "lng": 3.088946,
+    "transactions": [
+      {
+        "date": "2023-09-19",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "672af2951109": {
+    "id": "672af2951109",
+    "label": "135 RUE EMILE BASLY, Douai",
+    "lat": 50.386683,
+    "lng": 3.090302,
+    "transactions": [
+      {
+        "date": "2024-12-18",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  }
+}

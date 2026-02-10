@@ -1,0 +1,32 @@
+{
+  "1c59a535b628": {
+    "id": "1c59a535b628",
+    "label": "439 CHE DU BOURG JOLI, Fresquiennes",
+    "lat": 49.564882,
+    "lng": 1.02022,
+    "transactions": [
+      {
+        "date": "2022-01-25",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "072edbdb3e2d": {
+    "id": "072edbdb3e2d",
+    "label": "5236 LE HAMEAU MASSE, Fresquiennes",
+    "lat": 49.56371,
+    "lng": 1.019347,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 300400,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "4e3342a7a917": {
+    "id": "4e3342a7a917",
+    "label": "721 RUE AU SEL, Bosc-Guérard-Saint-Adrien",
+    "lat": 49.534672,
+    "lng": 1.108147,
+    "transactions": [
+      {
+        "date": "2021-02-05",
+        "priceEur": 222000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "3832620486a7": {
+    "id": "3832620486a7",
+    "label": "843 RUE AU SEL, Bosc-Guérard-Saint-Adrien",
+    "lat": 49.535707,
+    "lng": 1.108507,
+    "transactions": [
+      {
+        "date": "2022-02-08",
+        "priceEur": 365000,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-08",
+        "priceEur": 365000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-08",
+        "priceEur": 365000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d8c598b0eb7": {
+    "id": "3d8c598b0eb7",
+    "label": "1098 RUE AU SEL, Bosc-Guérard-Saint-Adrien",
+    "lat": 49.538154,
+    "lng": 1.108744,
+    "transactions": [
+      {
+        "date": "2022-07-15",
+        "priceEur": 289000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b6d6e905e7b": {
+    "id": "2b6d6e905e7b",
+    "label": "5077C BOSC AUX MOINES, Bosc-Guérard-Saint-Adrien",
+    "lat": 49.532718,
+    "lng": 1.101054,
+    "transactions": [
+      {
+        "date": "2022-12-16",
+        "priceEur": 307000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "a346032a8c80": {
+    "id": "a346032a8c80",
+    "label": "1345 RUE AU SEL, Bosc-Guérard-Saint-Adrien",
+    "lat": 49.538902,
+    "lng": 1.108825,
+    "transactions": [
+      {
+        "date": "2023-08-23",
+        "priceEur": 442350,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "60da6dbdbde3": {
+    "id": "60da6dbdbde3",
+    "label": "751 RUE AU SEL, Bosc-Guérard-Saint-Adrien",
+    "lat": 49.53497,
+    "lng": 1.107703,
+    "transactions": [
+      {
+        "date": "2024-10-09",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  }
+}

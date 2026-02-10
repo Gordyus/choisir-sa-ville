@@ -1,0 +1,92 @@
+{
+  "f41e0295c6ca": {
+    "id": "f41e0295c6ca",
+    "label": "9052 HAM DU BRIQUET, Eu",
+    "lat": 50.033566,
+    "lng": 1.398882,
+    "transactions": [
+      {
+        "date": "2020-08-19",
+        "priceEur": 226300,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "97a24641de05": {
+    "id": "97a24641de05",
+    "label": "5098 PLAINE DU CHEM ST MARTIN, Étalondes",
+    "lat": 50.02974,
+    "lng": 1.39698,
+    "transactions": [
+      {
+        "date": "2020-10-07",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "65b8f527510b": {
+    "id": "65b8f527510b",
+    "label": "5159 LE VILLAGE, Étalondes",
+    "lat": 50.030672,
+    "lng": 1.396677,
+    "transactions": [
+      {
+        "date": "2021-11-02",
+        "priceEur": 254000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "861e56956bbb": {
+    "id": "861e56956bbb",
+    "label": "6 RUE DU BRIQUET, Étalondes",
+    "lat": 50.033797,
+    "lng": 1.397481,
+    "transactions": [
+      {
+        "date": "2021-03-19",
+        "priceEur": 326500,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "977f8a4de370": {
+    "id": "977f8a4de370",
+    "label": "8 RUE DU BRIQUET, Étalondes",
+    "lat": 50.034044,
+    "lng": 1.39727,
+    "transactions": [
+      {
+        "date": "2021-03-19",
+        "priceEur": 326500,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b1b223608e1": {
+    "id": "6b1b223608e1",
+    "label": "66 RUE DE LA VIERGE, Étalondes",
+    "lat": 50.03379,
+    "lng": 1.396917,
+    "transactions": [
+      {
+        "date": "2024-06-10",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "fdcc195c28c9": {
+    "id": "fdcc195c28c9",
+    "label": "36 RUE DES BRUYERES, Cuy-Saint-Fiacre",
+    "lat": 49.5081,
+    "lng": 1.671449,
+    "transactions": [
+      {
+        "date": "2021-10-21",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  },
+  "6825c22ff6e4": {
+    "id": "6825c22ff6e4",
+    "label": "34 RUE DES BRUYERES, Cuy-Saint-Fiacre",
+    "lat": 49.508675,
+    "lng": 1.673331,
+    "transactions": [
+      {
+        "date": "2024-01-04",
+        "priceEur": 243500,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  }
+}

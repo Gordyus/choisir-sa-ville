@@ -1,0 +1,733 @@
+{
+  "fde82be7ca22": {
+    "id": "fde82be7ca22",
+    "label": "9 RUE DU MOULIN, Camphin-en-Pévèle",
+    "lat": 50.596186,
+    "lng": 3.261402,
+    "transactions": [
+      {
+        "date": "2020-08-20",
+        "priceEur": 480000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "c61513f1d1c3": {
+    "id": "c61513f1d1c3",
+    "label": "9 RES PRES DU QUENNELET, Camphin-en-Pévèle",
+    "lat": 50.59383,
+    "lng": 3.259362,
+    "transactions": [
+      {
+        "date": "2020-09-04",
+        "priceEur": 418200,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  },
+  "7493e523c5c4": {
+    "id": "7493e523c5c4",
+    "label": "42 RUE GRANDE RUE, Camphin-en-Pévèle",
+    "lat": 50.593501,
+    "lng": 3.262047,
+    "transactions": [
+      {
+        "date": "2022-06-28",
+        "priceEur": 283500,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 480000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "8abddaaa926b": {
+    "id": "8abddaaa926b",
+    "label": "6 RES ERNEST MASUREL, Camphin-en-Pévèle",
+    "lat": 50.594971,
+    "lng": 3.254351,
+    "transactions": [
+      {
+        "date": "2025-03-07",
+        "priceEur": 281500,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-20",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "df7f6197bc48": {
+    "id": "df7f6197bc48",
+    "label": "33 RUE GRANDE RUE, Camphin-en-Pévèle",
+    "lat": 50.595837,
+    "lng": 3.258439,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d2c05ad5990": {
+    "id": "7d2c05ad5990",
+    "label": "17B RUE GRANDE RUE, Camphin-en-Pévèle",
+    "lat": 50.596672,
+    "lng": 3.256697,
+    "transactions": [
+      {
+        "date": "2021-01-22",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3e6ee65d720": {
+    "id": "a3e6ee65d720",
+    "label": "15 RES LE VILLAGE, Camphin-en-Pévèle",
+    "lat": 50.59358,
+    "lng": 3.258222,
+    "transactions": [
+      {
+        "date": "2021-03-16",
+        "priceEur": 608000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "e38d9cc269e6": {
+    "id": "e38d9cc269e6",
+    "label": "15 RUE DE LA BASSE COUTURE, Camphin-en-Pévèle",
+    "lat": 50.591565,
+    "lng": 3.262327,
+    "transactions": [
+      {
+        "date": "2021-04-15",
+        "priceEur": 557000,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "95da66792bc8": {
+    "id": "95da66792bc8",
+    "label": "14 RUE GRANDE RUE, Camphin-en-Pévèle",
+    "lat": 50.595195,
+    "lng": 3.258804,
+    "transactions": [
+      {
+        "date": "2024-08-30",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-31",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "2661d062d6b8": {
+    "id": "2661d062d6b8",
+    "label": "46 RUE GRANDE RUE, Camphin-en-Pévèle",
+    "lat": 50.593302,
+    "lng": 3.262394,
+    "transactions": [
+      {
+        "date": "2024-10-31",
+        "priceEur": 191000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-18",
+        "priceEur": 233000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-03",
+        "priceEur": 159500,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-23",
+        "priceEur": 123000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "9fff2656ec0f": {
+    "id": "9fff2656ec0f",
+    "label": "30 RUE DE LA BASSE COUTURE, Camphin-en-Pévèle",
+    "lat": 50.591976,
+    "lng": 3.262178,
+    "transactions": [
+      {
+        "date": "2021-06-16",
+        "priceEur": 480000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a258c9eb28e": {
+    "id": "7a258c9eb28e",
+    "label": "43 RUE NOTRE DAME, Camphin-en-Pévèle",
+    "lat": 50.596925,
+    "lng": 3.259813,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 610000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "b97ef2aa0a6e": {
+    "id": "b97ef2aa0a6e",
+    "label": "35 RUE GRANDE RUE, Camphin-en-Pévèle",
+    "lat": 50.595685,
+    "lng": 3.258522,
+    "transactions": [
+      {
+        "date": "2021-08-02",
+        "priceEur": 470000,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "16b8efc505fa": {
+    "id": "16b8efc505fa",
+    "label": "1 RES PASTEUR, Camphin-en-Pévèle",
+    "lat": 50.594085,
+    "lng": 3.256154,
+    "transactions": [
+      {
+        "date": "2021-08-10",
+        "priceEur": 569350,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e4ea2f54297": {
+    "id": "3e4ea2f54297",
+    "label": "4 RES LE VILLAGE, Camphin-en-Pévèle",
+    "lat": 50.593522,
+    "lng": 3.257393,
+    "transactions": [
+      {
+        "date": "2021-08-27",
+        "priceEur": 570000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "8442e97843fd": {
+    "id": "8442e97843fd",
+    "label": "33 RUE DE LA BASSE COUTURE, Camphin-en-Pévèle",
+    "lat": 50.592373,
+    "lng": 3.26142,
+    "transactions": [
+      {
+        "date": "2021-09-17",
+        "priceEur": 505000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "0910213c6ea3": {
+    "id": "0910213c6ea3",
+    "label": "1 RUE DU QUENNELET, Camphin-en-Pévèle",
+    "lat": 50.593391,
+    "lng": 3.255063,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 397000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "67ad090ff5db": {
+    "id": "67ad090ff5db",
+    "label": "1B RUE DU QUENNELET, Camphin-en-Pévèle",
+    "lat": 50.593463,
+    "lng": 3.25499,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 397000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "3caae68744b5": {
+    "id": "3caae68744b5",
+    "label": "771 RUE LOUIS CARETTE, Camphin-en-Pévèle",
+    "lat": 50.594479,
+    "lng": 3.255863,
+    "transactions": [
+      {
+        "date": "2021-11-02",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "d041e6098149": {
+    "id": "d041e6098149",
+    "label": "43 RUE GRANDE RUE, Camphin-en-Pévèle",
+    "lat": 50.595529,
+    "lng": 3.259246,
+    "transactions": [
+      {
+        "date": "2021-12-22",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa235e3b36da": {
+    "id": "aa235e3b36da",
+    "label": "31 RUE GRANDE RUE, Camphin-en-Pévèle",
+    "lat": 50.595849,
+    "lng": 3.258367,
+    "transactions": [
+      {
+        "date": "2022-01-20",
+        "priceEur": 390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "5ed98081b9c2": {
+    "id": "5ed98081b9c2",
+    "label": "639 RUE LOUIS CARETTE, Camphin-en-Pévèle",
+    "lat": 50.593942,
+    "lng": 3.254206,
+    "transactions": [
+      {
+        "date": "2022-02-10",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "86c3b527168c": {
+    "id": "86c3b527168c",
+    "label": "3 RUE DU MOULIN, Camphin-en-Pévèle",
+    "lat": 50.595931,
+    "lng": 3.26114,
+    "transactions": [
+      {
+        "date": "2022-03-17",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "3bbcb765b1f8": {
+    "id": "3bbcb765b1f8",
+    "label": "7 RUE NOTRE DAME, Camphin-en-Pévèle",
+    "lat": 50.596969,
+    "lng": 3.26022,
+    "transactions": [
+      {
+        "date": "2022-04-15",
+        "priceEur": 397000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5da277cc571": {
+    "id": "c5da277cc571",
+    "label": "42T RUE GRANDE RUE, Camphin-en-Pévèle",
+    "lat": 50.593564,
+    "lng": 3.261913,
+    "transactions": [
+      {
+        "date": "2022-04-06",
+        "priceEur": 365000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "7dc423f032b8": {
+    "id": "7dc423f032b8",
+    "label": "35 RUE DE LA BASSE COUTURE, Camphin-en-Pévèle",
+    "lat": 50.592571,
+    "lng": 3.260861,
+    "transactions": [
+      {
+        "date": "2022-04-29",
+        "priceEur": 525000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc70357abaf7": {
+    "id": "cc70357abaf7",
+    "label": "233 RUE LOUIS CARETTE, Camphin-en-Pévèle",
+    "lat": 50.59606,
+    "lng": 3.252937,
+    "transactions": [
+      {
+        "date": "2023-08-30",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-28",
+        "priceEur": 584000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ee15f29c47e": {
+    "id": "9ee15f29c47e",
+    "label": "681 RUE LOUIS CARETTE, Camphin-en-Pévèle",
+    "lat": 50.594039,
+    "lng": 3.254686,
+    "transactions": [
+      {
+        "date": "2022-09-20",
+        "priceEur": 376000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "62f378048cd3": {
+    "id": "62f378048cd3",
+    "label": "17 RUE GRANDE RUE, Camphin-en-Pévèle",
+    "lat": 50.597121,
+    "lng": 3.256204,
+    "transactions": [
+      {
+        "date": "2022-09-09",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "7418148b163f": {
+    "id": "7418148b163f",
+    "label": "93 RUE GRANDE RUE, Camphin-en-Pévèle",
+    "lat": 50.593738,
+    "lng": 3.262574,
+    "transactions": [
+      {
+        "date": "2022-12-02",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2060b094af4": {
+    "id": "e2060b094af4",
+    "label": "9 RES LA POMMERAIE, Camphin-en-Pévèle",
+    "lat": 50.59633,
+    "lng": 3.259684,
+    "transactions": [
+      {
+        "date": "2023-01-17",
+        "priceEur": 367000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "d9674066e2ad": {
+    "id": "d9674066e2ad",
+    "label": "886 RUE LOUIS CARETTE, Camphin-en-Pévèle",
+    "lat": 50.594307,
+    "lng": 3.257732,
+    "transactions": [
+      {
+        "date": "2023-01-13",
+        "priceEur": 307000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "c44ca7897bef": {
+    "id": "c44ca7897bef",
+    "label": "47 RUE GRANDE RUE, Camphin-en-Pévèle",
+    "lat": 50.595565,
+    "lng": 3.259772,
+    "transactions": [
+      {
+        "date": "2023-03-10",
+        "priceEur": 355000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f0eb41cfde6": {
+    "id": "8f0eb41cfde6",
+    "label": "69 RUE GRANDE RUE, Camphin-en-Pévèle",
+    "lat": 50.594156,
+    "lng": 3.261239,
+    "transactions": [
+      {
+        "date": "2023-05-15",
+        "priceEur": 505000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4fa6451c40c": {
+    "id": "c4fa6451c40c",
+    "label": "23 RUE DU MOULIN, Camphin-en-Pévèle",
+    "lat": 50.596366,
+    "lng": 3.262091,
+    "transactions": [
+      {
+        "date": "2023-05-25",
+        "priceEur": 515000,
+        "typeLocal": "Maison",
+        "surfaceM2": 179,
+        "isVefa": false
+      }
+    ]
+  },
+  "444b81314639": {
+    "id": "444b81314639",
+    "label": "22 RUE DU QUENNELET, Camphin-en-Pévèle",
+    "lat": 50.591656,
+    "lng": 3.255632,
+    "transactions": [
+      {
+        "date": "2023-09-19",
+        "priceEur": 525000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ff91997902d": {
+    "id": "3ff91997902d",
+    "label": "4 RES HAMEAU DU VIEUX SAULE, Camphin-en-Pévèle",
+    "lat": 50.595182,
+    "lng": 3.261661,
+    "transactions": [
+      {
+        "date": "2023-10-18",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "9936d24974f9": {
+    "id": "9936d24974f9",
+    "label": "49 RUE GRANDE RUE, Camphin-en-Pévèle",
+    "lat": 50.595613,
+    "lng": 3.259982,
+    "transactions": [
+      {
+        "date": "2023-12-11",
+        "priceEur": 377000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "9107ccf5e611": {
+    "id": "9107ccf5e611",
+    "label": "2 RES PASTEUR, Camphin-en-Pévèle",
+    "lat": 50.593887,
+    "lng": 3.256234,
+    "transactions": [
+      {
+        "date": "2024-03-22",
+        "priceEur": 509919,
+        "typeLocal": "Maison",
+        "surfaceM2": 173,
+        "isVefa": false
+      }
+    ]
+  },
+  "a26829e34411": {
+    "id": "a26829e34411",
+    "label": "27 RUE DU MOULIN, Camphin-en-Pévèle",
+    "lat": 50.596188,
+    "lng": 3.262351,
+    "transactions": [
+      {
+        "date": "2024-08-14",
+        "priceEur": 365000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "92d1c9978c51": {
+    "id": "92d1c9978c51",
+    "label": "4 RUE GRANDE RUE, Camphin-en-Pévèle",
+    "lat": 50.597159,
+    "lng": 3.255656,
+    "transactions": [
+      {
+        "date": "2024-09-04",
+        "priceEur": 185500,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d174dd0f03a": {
+    "id": "0d174dd0f03a",
+    "label": "63 RUE GRANDE RUE, Camphin-en-Pévèle",
+    "lat": 50.594852,
+    "lng": 3.260971,
+    "transactions": [
+      {
+        "date": "2024-11-29",
+        "priceEur": 750000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-29",
+        "priceEur": 750000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa9d70d9d989": {
+    "id": "aa9d70d9d989",
+    "label": "65 RUE GRANDE RUE, Camphin-en-Pévèle",
+    "lat": 50.594746,
+    "lng": 3.260883,
+    "transactions": [
+      {
+        "date": "2024-11-29",
+        "priceEur": 750000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "0493c81cbc99": {
+    "id": "0493c81cbc99",
+    "label": "40 RUE DE LA BASSE COUTURE, Camphin-en-Pévèle",
+    "lat": 50.593098,
+    "lng": 3.259944,
+    "transactions": [
+      {
+        "date": "2025-06-05",
+        "priceEur": 441000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "1dbb4aa9a777": {
+    "id": "1dbb4aa9a777",
+    "label": "19 GRANDE RUE, Camphin-en-Pévèle",
+    "lat": 50.596459,
+    "lng": 3.257087,
+    "transactions": [
+      {
+        "date": "2025-05-26",
+        "priceEur": 415000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

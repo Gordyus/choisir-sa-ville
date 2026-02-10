@@ -1,0 +1,32 @@
+{
+  "ad031a8d8b47": {
+    "id": "ad031a8d8b47",
+    "label": "211 CHE DE LA HOUPPELIERE, Fontaine-en-Bray",
+    "lat": 49.687523,
+    "lng": 1.432756,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "873dde8595be": {
+    "id": "873dde8595be",
+    "label": "5080 LES TROIS OREILLES, Fontaine-en-Bray",
+    "lat": 49.688533,
+    "lng": 1.430901,
+    "transactions": [
+      {
+        "date": "2022-07-20",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  }
+}

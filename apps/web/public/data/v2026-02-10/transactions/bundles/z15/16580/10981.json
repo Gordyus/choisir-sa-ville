@@ -1,0 +1,32 @@
+{
+  "d1729e33cdb5": {
+    "id": "d1729e33cdb5",
+    "label": "19 CHE DE L AA, Bourbourg",
+    "lat": 50.917903,
+    "lng": 2.162677,
+    "transactions": [
+      {
+        "date": "2023-11-27",
+        "priceEur": 123000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "15bf46ec456e": {
+    "id": "15bf46ec456e",
+    "label": "18 CHE DE L AA, Bourbourg",
+    "lat": 50.918201,
+    "lng": 2.163158,
+    "transactions": [
+      {
+        "date": "2024-06-25",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

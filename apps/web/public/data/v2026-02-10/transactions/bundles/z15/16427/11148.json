@@ -1,0 +1,61 @@
+{
+  "cc11dc10cc87": {
+    "id": "cc11dc10cc87",
+    "label": "506 RUE DE LA PERRUQUE, Colleville",
+    "lat": 49.750853,
+    "lng": 0.474024,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 208000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e89fc718a4f": {
+    "id": "9e89fc718a4f",
+    "label": "194 RUE DU VASOUY, Colleville",
+    "lat": 49.752711,
+    "lng": 0.481087,
+    "transactions": [
+      {
+        "date": "2021-01-04",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-04",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-04",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d77c3eeed8a": {
+    "id": "6d77c3eeed8a",
+    "label": "1001 RTE DE VALMONT, Colleville",
+    "lat": 49.746687,
+    "lng": 0.4727,
+    "transactions": [
+      {
+        "date": "2022-12-02",
+        "priceEur": 244970,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

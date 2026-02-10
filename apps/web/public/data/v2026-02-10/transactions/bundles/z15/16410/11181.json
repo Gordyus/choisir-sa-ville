@@ -1,0 +1,47 @@
+{
+  "9c465f1ff2d7": {
+    "id": "9c465f1ff2d7",
+    "label": "5312 ROUTOT, Saint-Aubin-Routot",
+    "lat": 49.516942,
+    "lng": 0.292822,
+    "transactions": [
+      {
+        "date": "2021-07-01",
+        "priceEur": 293000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "e537e5df9be5": {
+    "id": "e537e5df9be5",
+    "label": "1601 RTE DE ROGERVILLE, Saint-Aubin-Routot",
+    "lat": 49.516337,
+    "lng": 0.292899,
+    "transactions": [
+      {
+        "date": "2022-09-06",
+        "priceEur": 358000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f0a94aa8247": {
+    "id": "7f0a94aa8247",
+    "label": "1540 RTE DE ROGERVILLE, Saint-Aubin-Routot",
+    "lat": 49.516997,
+    "lng": 0.293102,
+    "transactions": [
+      {
+        "date": "2025-06-03",
+        "priceEur": 240400,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

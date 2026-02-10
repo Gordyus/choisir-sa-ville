@@ -1,0 +1,92 @@
+{
+  "03fb981ffd2f": {
+    "id": "03fb981ffd2f",
+    "label": "1 RUE DES CHAMPS, Nieurlet",
+    "lat": 50.791145,
+    "lng": 2.285453,
+    "transactions": [
+      {
+        "date": "2020-07-02",
+        "priceEur": 218000,
+        "typeLocal": "Maison",
+        "surfaceM2": 179,
+        "isVefa": false
+      }
+    ]
+  },
+  "315c35978175": {
+    "id": "315c35978175",
+    "label": "2A CHE DES CULOTTES, Nieurlet",
+    "lat": 50.788012,
+    "lng": 2.292051,
+    "transactions": [
+      {
+        "date": "2021-07-15",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ca95c0f2951": {
+    "id": "4ca95c0f2951",
+    "label": "23C RTE DE BOONEGHEM, Nieurlet",
+    "lat": 50.788137,
+    "lng": 2.289513,
+    "transactions": [
+      {
+        "date": "2021-07-02",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ceccee6dde9": {
+    "id": "0ceccee6dde9",
+    "label": "23A RTE DE BOONEGHEM, Nieurlet",
+    "lat": 50.788089,
+    "lng": 2.289009,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 164600,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf99faa393a6": {
+    "id": "cf99faa393a6",
+    "label": "22 RTE DE BOONEGHEM, Nieurlet",
+    "lat": 50.786886,
+    "lng": 2.285572,
+    "transactions": [
+      {
+        "date": "2022-04-08",
+        "priceEur": 141100,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "72d34a8364fb": {
+    "id": "72d34a8364fb",
+    "label": "39A RTE DE BOONEGHEM, Nieurlet",
+    "lat": 50.78835,
+    "lng": 2.294436,
+    "transactions": [
+      {
+        "date": "2025-04-16",
+        "priceEur": 246000,
+        "typeLocal": "Maison",
+        "surfaceM2": 166,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "d1bb4a85c5bd": {
+    "id": "d1bb4a85c5bd",
+    "label": "5002 MARCHE AUX RAIES, Maniquerville",
+    "lat": 49.692731,
+    "lng": 0.345568,
+    "transactions": [
+      {
+        "date": "2020-10-09",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed9ed6179988": {
+    "id": "ed9ed6179988",
+    "label": "475 RUE DE L'ANCIENNE MAIRIE ECOLE, Maniquerville",
+    "lat": 49.689933,
+    "lng": 0.340959,
+    "transactions": [
+      {
+        "date": "2020-10-15",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "db2c4bbb5862": {
+    "id": "db2c4bbb5862",
+    "label": "112 RUE MENETIVILLA, Maniquerville",
+    "lat": 49.694318,
+    "lng": 0.343626,
+    "transactions": [
+      {
+        "date": "2021-03-12",
+        "priceEur": 216000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "54fcd6448d26": {
+    "id": "54fcd6448d26",
+    "label": "71 RUE MENETIVILLA, Maniquerville",
+    "lat": 49.694708,
+    "lng": 0.342578,
+    "transactions": [
+      {
+        "date": "2021-04-15",
+        "priceEur": 258000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ee3a0aa9d0c": {
+    "id": "7ee3a0aa9d0c",
+    "label": "30 ALL DES GLANEURS, Maniquerville",
+    "lat": 49.694398,
+    "lng": 0.341774,
+    "transactions": [
+      {
+        "date": "2021-04-15",
+        "priceEur": 232500,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd5e7142df38": {
+    "id": "cd5e7142df38",
+    "label": "167 ALL DE L'ARBRE POTENCE, Maniquerville",
+    "lat": 49.689589,
+    "lng": 0.341816,
+    "transactions": [
+      {
+        "date": "2023-02-02",
+        "priceEur": 246000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "39c5dd983acd": {
+    "id": "39c5dd983acd",
+    "label": "2 RUE VENTOSE, Maniquerville",
+    "lat": 49.692731,
+    "lng": 0.345568,
+    "transactions": [
+      {
+        "date": "2025-04-03",
+        "priceEur": 168150,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  }
+}

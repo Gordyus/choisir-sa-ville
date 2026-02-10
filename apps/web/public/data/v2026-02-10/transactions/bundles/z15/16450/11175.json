@@ -1,0 +1,92 @@
+{
+  "495358abeaf9": {
+    "id": "495358abeaf9",
+    "label": "795 RTE DE CAUDEBEC, Maulévrier-Sainte-Gertrude",
+    "lat": 49.555839,
+    "lng": 0.727685,
+    "transactions": [
+      {
+        "date": "2020-11-16",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 285,
+        "isVefa": false
+      }
+    ]
+  },
+  "458a3d24e56a": {
+    "id": "458a3d24e56a",
+    "label": "885 RTE DE CAUDEBEC, Maulévrier-Sainte-Gertrude",
+    "lat": 49.554942,
+    "lng": 0.727277,
+    "transactions": [
+      {
+        "date": "2021-04-29",
+        "priceEur": 126700,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "541527fb6bed": {
+    "id": "541527fb6bed",
+    "label": "300 RTE DU PANAGE, Maulévrier-Sainte-Gertrude",
+    "lat": 49.553756,
+    "lng": 0.730168,
+    "transactions": [
+      {
+        "date": "2021-06-01",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b2ac426b796": {
+    "id": "5b2ac426b796",
+    "label": "25 RTE DU PANAGE, Maulévrier-Sainte-Gertrude",
+    "lat": 49.555248,
+    "lng": 0.727371,
+    "transactions": [
+      {
+        "date": "2022-01-19",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "3cce1950f98f": {
+    "id": "3cce1950f98f",
+    "label": "270 RTE DU PANAGE, Maulévrier-Sainte-Gertrude",
+    "lat": 49.553917,
+    "lng": 0.729891,
+    "transactions": [
+      {
+        "date": "2024-03-20",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b34296c7123": {
+    "id": "8b34296c7123",
+    "label": "262 RTE DU PANAGE, Maulévrier-Sainte-Gertrude",
+    "lat": 49.553964,
+    "lng": 0.729842,
+    "transactions": [
+      {
+        "date": "2024-03-20",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 10,
+        "isVefa": false
+      }
+    ]
+  }
+}

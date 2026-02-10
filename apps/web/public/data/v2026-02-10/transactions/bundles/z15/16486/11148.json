@@ -1,0 +1,47 @@
+{
+  "3b861dc77d02": {
+    "id": "3b861dc77d02",
+    "label": "9003 CHE DE NEUF MOULIN, Notre-Dame-du-Parc",
+    "lat": 49.750409,
+    "lng": 1.126953,
+    "transactions": [
+      {
+        "date": "2021-10-06",
+        "priceEur": 170500,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "48c9e9d7aa4e": {
+    "id": "48c9e9d7aa4e",
+    "label": "9 CHE DE NEUF MOULIN, Notre-Dame-du-Parc",
+    "lat": 49.749717,
+    "lng": 1.127678,
+    "transactions": [
+      {
+        "date": "2022-09-23",
+        "priceEur": 166500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "82fe8f7a0fd1": {
+    "id": "82fe8f7a0fd1",
+    "label": "53 RTE DU PARC, Notre-Dame-du-Parc",
+    "lat": 49.746524,
+    "lng": 1.125603,
+    "transactions": [
+      {
+        "date": "2024-02-07",
+        "priceEur": 124900,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

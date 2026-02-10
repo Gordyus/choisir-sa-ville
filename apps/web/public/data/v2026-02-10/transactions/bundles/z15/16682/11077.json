@@ -1,0 +1,189 @@
+{
+  "9b60f4a4f947": {
+    "id": "9b60f4a4f947",
+    "label": "29 RUE D ESTRUN, Paillencourt",
+    "lat": 50.247208,
+    "lng": 3.278523,
+    "transactions": [
+      {
+        "date": "2021-02-04",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b3276140f9c": {
+    "id": "7b3276140f9c",
+    "label": "5 RUE DU HUIT MAI 45, Paillencourt",
+    "lat": 50.247432,
+    "lng": 3.27747,
+    "transactions": [
+      {
+        "date": "2021-02-04",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac630ccbf05e": {
+    "id": "ac630ccbf05e",
+    "label": "3C VC DU CANAL, Paillencourt",
+    "lat": 50.249651,
+    "lng": 3.283917,
+    "transactions": [
+      {
+        "date": "2021-02-18",
+        "priceEur": 218550,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "cef92446e19c": {
+    "id": "cef92446e19c",
+    "label": "32 RUE D ESTRUN, Paillencourt",
+    "lat": 50.247603,
+    "lng": 3.27993,
+    "transactions": [
+      {
+        "date": "2021-03-13",
+        "priceEur": 242500,
+        "typeLocal": "Maison",
+        "surfaceM2": 206,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e90ccf29b6e": {
+    "id": "4e90ccf29b6e",
+    "label": "2B RUE DES POISSONNIERS, Estrun",
+    "lat": 50.247262,
+    "lng": 3.28238,
+    "transactions": [
+      {
+        "date": "2021-04-19",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "796e42929627": {
+    "id": "796e42929627",
+    "label": "38 RUE D ESTRUN, Paillencourt",
+    "lat": 50.247727,
+    "lng": 3.281285,
+    "transactions": [
+      {
+        "date": "2021-06-10",
+        "priceEur": 142950,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "625f87f3fa67": {
+    "id": "625f87f3fa67",
+    "label": "5024 RUE DE PAILLENCOURT, Wavrechain-sous-Faulx",
+    "lat": 50.252118,
+    "lng": 3.281895,
+    "transactions": [
+      {
+        "date": "2021-02-01",
+        "priceEur": 4500,
+        "typeLocal": "Maison",
+        "surfaceM2": 26,
+        "isVefa": false
+      }
+    ]
+  },
+  "af0854307bd3": {
+    "id": "af0854307bd3",
+    "label": "5023 RUE DE PAILLENCOURT, Wavrechain-sous-Faulx",
+    "lat": 50.253064,
+    "lng": 3.281836,
+    "transactions": [
+      {
+        "date": "2021-08-25",
+        "priceEur": 33000,
+        "typeLocal": "Maison",
+        "surfaceM2": 24,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-25",
+        "priceEur": 33000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "980f3cbfb172": {
+    "id": "980f3cbfb172",
+    "label": "63 RUE D ESTRUN, Paillencourt",
+    "lat": 50.247918,
+    "lng": 3.284785,
+    "transactions": [
+      {
+        "date": "2023-01-23",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "b30edf503f0f": {
+    "id": "b30edf503f0f",
+    "label": "31 RUE D ESTRUN, Paillencourt",
+    "lat": 50.247274,
+    "lng": 3.27854,
+    "transactions": [
+      {
+        "date": "2024-07-05",
+        "priceEur": 134000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "212bb425c040": {
+    "id": "212bb425c040",
+    "label": "2T RUE DU HUIT MAI 45, Paillencourt",
+    "lat": 50.247856,
+    "lng": 3.278359,
+    "transactions": [
+      {
+        "date": "2024-08-02",
+        "priceEur": 120400,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "851e689ff99e": {
+    "id": "851e689ff99e",
+    "label": "5 RUE DE LANNOY, Paillencourt",
+    "lat": 50.248157,
+    "lng": 3.274411,
+    "transactions": [
+      {
+        "date": "2024-11-29",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  }
+}

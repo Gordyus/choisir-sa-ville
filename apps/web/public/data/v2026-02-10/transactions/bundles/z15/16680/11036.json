@@ -1,0 +1,32 @@
+{
+  "00fec152d7a4": {
+    "id": "00fec152d7a4",
+    "label": "6 RUE GEORGES CLEMENCEAU, Bachy",
+    "lat": 50.537336,
+    "lng": 3.260833,
+    "transactions": [
+      {
+        "date": "2021-04-02",
+        "priceEur": 630000,
+        "typeLocal": "Maison",
+        "surfaceM2": 230,
+        "isVefa": false
+      }
+    ]
+  },
+  "b49c16d0d350": {
+    "id": "b49c16d0d350",
+    "label": "2B RUE GEORGES CLEMENCEAU, Bachy",
+    "lat": 50.537585,
+    "lng": 3.261328,
+    "transactions": [
+      {
+        "date": "2022-03-29",
+        "priceEur": 665000,
+        "typeLocal": "Maison",
+        "surfaceM2": 157,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "3eb287390ea1": {
+    "id": "3eb287390ea1",
+    "label": "5271 HAMEAU DE GOURNAY, Épreville",
+    "lat": 49.722637,
+    "lng": 0.369228,
+    "transactions": [
+      {
+        "date": "2020-08-18",
+        "priceEur": 87000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "5568ec020c9a": {
+    "id": "5568ec020c9a",
+    "label": "5272 HAMEAU DE GOURNAY, Épreville",
+    "lat": 49.722637,
+    "lng": 0.369228,
+    "transactions": [
+      {
+        "date": "2020-12-17",
+        "priceEur": 30000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  }
+}

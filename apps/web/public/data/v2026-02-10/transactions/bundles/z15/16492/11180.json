@@ -1,0 +1,62 @@
+{
+  "1d2aba71f4f9": {
+    "id": "1d2aba71f4f9",
+    "label": "2554 RTE DE NEUFCHATEL, Quincampoix",
+    "lat": 49.522903,
+    "lng": 1.188368,
+    "transactions": [
+      {
+        "date": "2021-08-13",
+        "priceEur": 191000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "7da3defb88ce": {
+    "id": "7da3defb88ce",
+    "label": "13 RES DU TILLEUL, Quincampoix",
+    "lat": 49.523892,
+    "lng": 1.188462,
+    "transactions": [
+      {
+        "date": "2023-10-02",
+        "priceEur": 463250,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "9debd043b106": {
+    "id": "9debd043b106",
+    "label": "69 RTE DE PREAUX, Quincampoix",
+    "lat": 49.522289,
+    "lng": 1.187727,
+    "transactions": [
+      {
+        "date": "2023-09-26",
+        "priceEur": 420000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "1de604ba83f6": {
+    "id": "1de604ba83f6",
+    "label": "3 RES DU TILLEUL, Quincampoix",
+    "lat": 49.524163,
+    "lng": 1.189149,
+    "transactions": [
+      {
+        "date": "2024-10-16",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  }
+}

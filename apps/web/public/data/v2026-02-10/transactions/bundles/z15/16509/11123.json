@@ -1,0 +1,76 @@
+{
+  "2496e0937977": {
+    "id": "2496e0937977",
+    "label": "5082A REGNETUIT, Avesnes-en-Val",
+    "lat": 49.9245,
+    "lng": 1.379914,
+    "transactions": [
+      {
+        "date": "2023-10-31",
+        "priceEur": 165900,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-25",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-09",
+        "priceEur": 121000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "66a53300ec75": {
+    "id": "66a53300ec75",
+    "label": "5075 REGNETUIT, Avesnes-en-Val",
+    "lat": 49.92407,
+    "lng": 1.378546,
+    "transactions": [
+      {
+        "date": "2021-12-27",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d25f3c04803": {
+    "id": "0d25f3c04803",
+    "label": "5081 REGNETUIT, Avesnes-en-Val",
+    "lat": 49.92468,
+    "lng": 1.379176,
+    "transactions": [
+      {
+        "date": "2022-12-07",
+        "priceEur": 13000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "5ff3e52328c8": {
+    "id": "5ff3e52328c8",
+    "label": "5 RUE DE REGNETUIT, Avesnes-en-Val",
+    "lat": 49.923311,
+    "lng": 1.382577,
+    "transactions": [
+      {
+        "date": "2024-11-13",
+        "priceEur": 293000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

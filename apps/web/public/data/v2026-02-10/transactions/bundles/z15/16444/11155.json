@@ -1,0 +1,32 @@
+{
+  "57b0b8e7f037": {
+    "id": "57b0b8e7f037",
+    "label": "93 RUE DU VILLAGE, Ancourteville-sur-Héricourt",
+    "lat": 49.696084,
+    "lng": 0.666676,
+    "transactions": [
+      {
+        "date": "2021-07-12",
+        "priceEur": 183000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "7001fe4f2a09": {
+    "id": "7001fe4f2a09",
+    "label": "129 RUE DU FRANC BOSC, Ancourteville-sur-Héricourt",
+    "lat": 49.696093,
+    "lng": 0.667124,
+    "transactions": [
+      {
+        "date": "2023-10-20",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  }
+}

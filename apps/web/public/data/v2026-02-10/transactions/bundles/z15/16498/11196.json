@@ -1,0 +1,47 @@
+{
+  "06afdfa0c3c5": {
+    "id": "06afdfa0c3c5",
+    "label": "20 IMP LES VERGERS DU MANOIR, Montmain",
+    "lat": 49.410466,
+    "lng": 1.263251,
+    "transactions": [
+      {
+        "date": "2020-09-03",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "311388c3fb7b": {
+    "id": "311388c3fb7b",
+    "label": "200 IMP LES VERGERS DU MANOIR, Montmain",
+    "lat": 49.409633,
+    "lng": 1.263339,
+    "transactions": [
+      {
+        "date": "2021-07-09",
+        "priceEur": 219750,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "8cdced77ec0c": {
+    "id": "8cdced77ec0c",
+    "label": "2660 RTE DE LYONS, Montmain",
+    "lat": 49.410242,
+    "lng": 1.261822,
+    "transactions": [
+      {
+        "date": "2025-04-18",
+        "priceEur": 391800,
+        "typeLocal": "Maison",
+        "surfaceM2": 220,
+        "isVefa": false
+      }
+    ]
+  }
+}

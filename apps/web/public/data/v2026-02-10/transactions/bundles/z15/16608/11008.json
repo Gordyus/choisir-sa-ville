@@ -1,0 +1,114 @@
+{
+  "7c84e6110b5a": {
+    "id": "7c84e6110b5a",
+    "label": "2025B RTE NATIONALE, Lynde",
+    "lat": 50.730647,
+    "lng": 2.468932,
+    "transactions": [
+      {
+        "date": "2021-08-11",
+        "priceEur": 243940,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0c7c10a335e": {
+    "id": "b0c7c10a335e",
+    "label": "53 RUE DE CASSEL, Lynde",
+    "lat": 50.7304,
+    "lng": 2.469646,
+    "transactions": [
+      {
+        "date": "2025-03-20",
+        "priceEur": 207800,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-27",
+        "priceEur": 191500,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d72b38a0ef8": {
+    "id": "5d72b38a0ef8",
+    "label": "212 RUE DE CASSEL, Wallon-Cappel",
+    "lat": 50.731787,
+    "lng": 2.470708,
+    "transactions": [
+      {
+        "date": "2022-08-26",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "57089b85e178": {
+    "id": "57089b85e178",
+    "label": "587 RUE DU BOURBOURG, Lynde",
+    "lat": 50.730696,
+    "lng": 2.463937,
+    "transactions": [
+      {
+        "date": "2023-08-28",
+        "priceEur": 219600,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f37280ddfa9": {
+    "id": "4f37280ddfa9",
+    "label": "107 LA RUE DU PAVE FLEURI, Lynde",
+    "lat": 50.730315,
+    "lng": 2.466427,
+    "transactions": [
+      {
+        "date": "2023-09-11",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "d55b383bb543": {
+    "id": "d55b383bb543",
+    "label": "2025A RTE NATIONALE, Lynde",
+    "lat": 50.730393,
+    "lng": 2.468984,
+    "transactions": [
+      {
+        "date": "2023-09-09",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5d47683a199": {
+    "id": "c5d47683a199",
+    "label": "2039 RTE NATIONALE, Lynde",
+    "lat": 50.729635,
+    "lng": 2.469235,
+    "transactions": [
+      {
+        "date": "2024-08-08",
+        "priceEur": 214800,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  }
+}

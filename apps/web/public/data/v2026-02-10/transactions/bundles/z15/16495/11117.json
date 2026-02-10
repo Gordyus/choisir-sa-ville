@@ -1,0 +1,62 @@
+{
+  "abbe619efdad": {
+    "id": "abbe619efdad",
+    "label": "5445 VASSONVILLE HAMEAU, Petit-Caux",
+    "lat": 49.965845,
+    "lng": 1.221582,
+    "transactions": [
+      {
+        "date": "2020-10-09",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f17509300b6": {
+    "id": "2f17509300b6",
+    "label": "11 RUE DES PECHEURS, Petit-Caux",
+    "lat": 49.965363,
+    "lng": 1.22114,
+    "transactions": [
+      {
+        "date": "2023-05-25",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 176,
+        "isVefa": false
+      }
+    ]
+  },
+  "4246a5fb321f": {
+    "id": "4246a5fb321f",
+    "label": "2 RUE DES PECHEURS, Petit-Caux",
+    "lat": 49.965709,
+    "lng": 1.221752,
+    "transactions": [
+      {
+        "date": "2023-06-23",
+        "priceEur": 235325,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "ecaf3f619e1d": {
+    "id": "ecaf3f619e1d",
+    "label": "5372 VASSONVILLE NORD, Petit-Caux",
+    "lat": 49.966225,
+    "lng": 1.221308,
+    "transactions": [
+      {
+        "date": "2024-01-06",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  }
+}

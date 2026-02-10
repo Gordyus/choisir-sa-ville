@@ -1,0 +1,77 @@
+{
+  "689907437183": {
+    "id": "689907437183",
+    "label": "5222 LA PETITE PRAIRIE, Le Mesnil-sous-Jumièges",
+    "lat": 49.39618,
+    "lng": 0.840683,
+    "transactions": [
+      {
+        "date": "2021-04-28",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "72987d9fbf6b": {
+    "id": "72987d9fbf6b",
+    "label": "5342 LE CONIHOUT, Le Mesnil-sous-Jumièges",
+    "lat": 49.395547,
+    "lng": 0.836963,
+    "transactions": [
+      {
+        "date": "2022-04-08",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "5ea1bc7ec1b3": {
+    "id": "5ea1bc7ec1b3",
+    "label": "5221 LA PETITE PRAIRIE, Le Mesnil-sous-Jumièges",
+    "lat": 49.396098,
+    "lng": 0.839999,
+    "transactions": [
+      {
+        "date": "2022-04-21",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "69596700f0a7": {
+    "id": "69596700f0a7",
+    "label": "7015 LE CONIHOUT, Le Mesnil-sous-Jumièges",
+    "lat": 49.394773,
+    "lng": 0.845151,
+    "transactions": [
+      {
+        "date": "2022-09-12",
+        "priceEur": 244000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd334bd3c5c2": {
+    "id": "dd334bd3c5c2",
+    "label": "7007 LE CONIHOUT, Le Mesnil-sous-Jumièges",
+    "lat": 49.394878,
+    "lng": 0.839106,
+    "transactions": [
+      {
+        "date": "2024-01-30",
+        "priceEur": 288000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

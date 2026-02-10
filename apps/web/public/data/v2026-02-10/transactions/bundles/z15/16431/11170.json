@@ -1,0 +1,32 @@
+{
+  "e8289067534d": {
+    "id": "e8289067534d",
+    "label": "535 RTE DE LA NATIONALE, Raffetot",
+    "lat": 49.595392,
+    "lng": 0.520411,
+    "transactions": [
+      {
+        "date": "2021-06-22",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee9b8dafe88d": {
+    "id": "ee9b8dafe88d",
+    "label": "680 RTE DE LA NATIONALE, Raffetot",
+    "lat": 49.59412,
+    "lng": 0.520274,
+    "transactions": [
+      {
+        "date": "2024-03-13",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  }
+}

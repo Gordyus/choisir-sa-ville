@@ -1,0 +1,32 @@
+{
+  "a6c7b25dd111": {
+    "id": "a6c7b25dd111",
+    "label": "350 CHE DES FRAUDEURS, Hondschoote",
+    "lat": 50.953821,
+    "lng": 2.620367,
+    "transactions": [
+      {
+        "date": "2023-01-16",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "266e0e95ce4d": {
+    "id": "266e0e95ce4d",
+    "label": "3250 CHEM MITOYEN, Hondschoote",
+    "lat": 50.952985,
+    "lng": 2.625228,
+    "transactions": [
+      {
+        "date": "2023-12-14",
+        "priceEur": 412500,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

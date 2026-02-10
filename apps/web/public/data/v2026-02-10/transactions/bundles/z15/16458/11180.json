@@ -1,0 +1,107 @@
+{
+  "ec9eea6c6974": {
+    "id": "ec9eea6c6974",
+    "label": "47 RTE DU GLATIGNY, Sainte-Marguerite-sur-Duclair",
+    "lat": 49.520061,
+    "lng": 0.816904,
+    "transactions": [
+      {
+        "date": "2020-10-22",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "239154f7b72a": {
+    "id": "239154f7b72a",
+    "label": "5241 CALIBOURS, Sainte-Marguerite-sur-Duclair",
+    "lat": 49.518254,
+    "lng": 0.821222,
+    "transactions": [
+      {
+        "date": "2021-10-25",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ebdfc22507d": {
+    "id": "3ebdfc22507d",
+    "label": "5244 GLATIGNY, Sainte-Marguerite-sur-Duclair",
+    "lat": 49.520279,
+    "lng": 0.818526,
+    "transactions": [
+      {
+        "date": "2022-10-11",
+        "priceEur": 356000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "31200cc2c44c": {
+    "id": "31200cc2c44c",
+    "label": "7052 GLATIGNY, Sainte-Marguerite-sur-Duclair",
+    "lat": 49.520074,
+    "lng": 0.817887,
+    "transactions": [
+      {
+        "date": "2024-10-11",
+        "priceEur": 475100,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "24af10987392": {
+    "id": "24af10987392",
+    "label": "44 RTE DU GLATIGNY, Sainte-Marguerite-sur-Duclair",
+    "lat": 49.519837,
+    "lng": 0.817984,
+    "transactions": [
+      {
+        "date": "2024-12-16",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb2863b54ac5": {
+    "id": "bb2863b54ac5",
+    "label": "92 RTE DU GLATIGNY, Sainte-Marguerite-sur-Duclair",
+    "lat": 49.519821,
+    "lng": 0.813285,
+    "transactions": [
+      {
+        "date": "2025-03-05",
+        "priceEur": 262000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1e76b6056ca": {
+    "id": "e1e76b6056ca",
+    "label": "46 RTE DE GLATIGNY, Épinay-sur-Duclair",
+    "lat": 49.518501,
+    "lng": 0.821628,
+    "transactions": [
+      {
+        "date": "2025-06-27",
+        "priceEur": 254000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  }
+}

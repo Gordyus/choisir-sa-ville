@@ -1,0 +1,32 @@
+{
+  "0b171da71e34": {
+    "id": "0b171da71e34",
+    "label": "9001 RUE DU HAUT MANOIR, La Feuillie",
+    "lat": 49.467594,
+    "lng": 1.534765,
+    "transactions": [
+      {
+        "date": "2020-12-28",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "6307125ded30": {
+    "id": "6307125ded30",
+    "label": "42C LE HAUT MANOIR, La Feuillie",
+    "lat": 49.46805,
+    "lng": 1.531937,
+    "transactions": [
+      {
+        "date": "2022-04-07",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

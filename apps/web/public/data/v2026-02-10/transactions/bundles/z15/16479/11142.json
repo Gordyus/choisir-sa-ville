@@ -1,0 +1,77 @@
+{
+  "2cbc79fa8541": {
+    "id": "2cbc79fa8541",
+    "label": "9001 RTE DU RELAIS DE POSTE, Omonville",
+    "lat": 49.794486,
+    "lng": 1.052921,
+    "transactions": [
+      {
+        "date": "2020-11-10",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "19bc709d1324": {
+    "id": "19bc709d1324",
+    "label": "239 RUE SAINT CHRISTOPHE, Omonville",
+    "lat": 49.79405,
+    "lng": 1.046771,
+    "transactions": [
+      {
+        "date": "2021-09-03",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "3638e3b43f2d": {
+    "id": "3638e3b43f2d",
+    "label": "121 RUE BERNARD LE BATAILLER, Omonville",
+    "lat": 49.794482,
+    "lng": 1.043826,
+    "transactions": [
+      {
+        "date": "2023-01-12",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b5723ee872e": {
+    "id": "5b5723ee872e",
+    "label": "100 RUE DES ECUREUILS, Omonville",
+    "lat": 49.795329,
+    "lng": 1.045751,
+    "transactions": [
+      {
+        "date": "2023-03-30",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "65729a7ad322": {
+    "id": "65729a7ad322",
+    "label": "259 RUE DES ECUREUILS, Omonville",
+    "lat": 49.794276,
+    "lng": 1.046531,
+    "transactions": [
+      {
+        "date": "2024-06-24",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  }
+}

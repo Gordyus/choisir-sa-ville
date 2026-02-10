@@ -1,0 +1,77 @@
+{
+  "3a6230ab0c07": {
+    "id": "3a6230ab0c07",
+    "label": "5145 LE BOURG, Maucomble",
+    "lat": 49.683292,
+    "lng": 1.339878,
+    "transactions": [
+      {
+        "date": "2021-10-19",
+        "priceEur": 34500,
+        "typeLocal": "Maison",
+        "surfaceM2": 37,
+        "isVefa": false
+      }
+    ]
+  },
+  "75b112d2978f": {
+    "id": "75b112d2978f",
+    "label": "40 RUE D EAWY, Maucomble",
+    "lat": 49.684405,
+    "lng": 1.333505,
+    "transactions": [
+      {
+        "date": "2022-09-13",
+        "priceEur": 258600,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  },
+  "dfa2f3104187": {
+    "id": "dfa2f3104187",
+    "label": "42 RUE D EAWY, Maucomble",
+    "lat": 49.684411,
+    "lng": 1.3339,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 221600,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "433499dd45a6": {
+    "id": "433499dd45a6",
+    "label": "11 RUE DE L EGLISE, Maucomble",
+    "lat": 49.68195,
+    "lng": 1.330792,
+    "transactions": [
+      {
+        "date": "2023-11-30",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 157,
+        "isVefa": false
+      }
+    ]
+  },
+  "4992d195c8ff": {
+    "id": "4992d195c8ff",
+    "label": "108 RUE DE LA LIBERATION, Maucomble",
+    "lat": 49.682818,
+    "lng": 1.337909,
+    "transactions": [
+      {
+        "date": "2024-12-18",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  }
+}

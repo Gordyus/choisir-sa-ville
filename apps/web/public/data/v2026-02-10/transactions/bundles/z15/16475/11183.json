@@ -1,0 +1,77 @@
+{
+  "4811f0dee963": {
+    "id": "4811f0dee963",
+    "label": "17 RUE DE LA MAIRIE, Saint-Jean-du-Cardonnay",
+    "lat": 49.503188,
+    "lng": 1.006959,
+    "transactions": [
+      {
+        "date": "2021-10-04",
+        "priceEur": 281500,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "7476505723b4": {
+    "id": "7476505723b4",
+    "label": "1461 RUE DE LA MAIRIE, Saint-Jean-du-Cardonnay",
+    "lat": 49.503535,
+    "lng": 1.00807,
+    "transactions": [
+      {
+        "date": "2022-03-09",
+        "priceEur": 323000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "07d69e8498fc": {
+    "id": "07d69e8498fc",
+    "label": "3 RES JACQUES NICOLAS GOULE, Saint-Jean-du-Cardonnay",
+    "lat": 49.503302,
+    "lng": 1.010702,
+    "transactions": [
+      {
+        "date": "2023-04-18",
+        "priceEur": 292500,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "48ab0a249df2": {
+    "id": "48ab0a249df2",
+    "label": "12A RES LE COEUR DE SAINT JEAN, Saint-Jean-du-Cardonnay",
+    "lat": 49.503564,
+    "lng": 1.009782,
+    "transactions": [
+      {
+        "date": "2024-06-25",
+        "priceEur": 59225,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "7cbb3e9e1945": {
+    "id": "7cbb3e9e1945",
+    "label": "3 RES LE COEUR DE SAINT JEAN, Saint-Jean-du-Cardonnay",
+    "lat": 49.5038,
+    "lng": 1.008949,
+    "transactions": [
+      {
+        "date": "2024-07-12",
+        "priceEur": 296800,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  }
+}

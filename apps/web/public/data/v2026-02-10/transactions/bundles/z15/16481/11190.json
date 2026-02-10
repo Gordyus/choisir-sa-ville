@@ -1,0 +1,4598 @@
+{
+  "7d6487026f70": {
+    "id": "7d6487026f70",
+    "label": "24 RUE MARTIN FRERES, Rouen",
+    "lat": 49.448797,
+    "lng": 1.075988,
+    "transactions": [
+      {
+        "date": "2022-10-25",
+        "priceEur": 156000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-07",
+        "priceEur": 156500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 33,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-15",
+        "priceEur": 183000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-22",
+        "priceEur": 99000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 32,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-01",
+        "priceEur": 145000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  },
+  "00ae2347fd6f": {
+    "id": "00ae2347fd6f",
+    "label": "45 RUE MUSTEL, Rouen",
+    "lat": 49.450274,
+    "lng": 1.069916,
+    "transactions": [
+      {
+        "date": "2024-08-02",
+        "priceEur": 99000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-24",
+        "priceEur": 380000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 79,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-29",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": true
+      },
+      {
+        "date": "2020-07-07",
+        "priceEur": 195420,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": true
+      }
+    ]
+  },
+  "f22f886967f9": {
+    "id": "f22f886967f9",
+    "label": "149 RUE CHASSELIEVRE, Rouen",
+    "lat": 49.452077,
+    "lng": 1.070026,
+    "transactions": [
+      {
+        "date": "2023-02-06",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 87,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-03",
+        "priceEur": 175000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 88,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-28",
+        "priceEur": 155000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "65554a234657": {
+    "id": "65554a234657",
+    "label": "98 RUE DE CONSTANTINE, Rouen",
+    "lat": 49.447495,
+    "lng": 1.07421,
+    "transactions": [
+      {
+        "date": "2023-09-22",
+        "priceEur": 240000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-24",
+        "priceEur": 359000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 86,
+        "isVefa": true
+      },
+      {
+        "date": "2020-11-17",
+        "priceEur": 179000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": true
+      },
+      {
+        "date": "2020-07-17",
+        "priceEur": 1206223,
+        "typeLocal": "Appartement",
+        "surfaceM2": 23,
+        "isVefa": true
+      },
+      {
+        "date": "2020-07-17",
+        "priceEur": 1206223,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": true
+      },
+      {
+        "date": "2020-07-17",
+        "priceEur": 1206223,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": true
+      },
+      {
+        "date": "2020-07-17",
+        "priceEur": 1206223,
+        "typeLocal": "Appartement",
+        "surfaceM2": 24,
+        "isVefa": true
+      },
+      {
+        "date": "2020-07-17",
+        "priceEur": 1206223,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": true
+      },
+      {
+        "date": "2020-07-17",
+        "priceEur": 1206223,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": true
+      },
+      {
+        "date": "2020-07-17",
+        "priceEur": 1206223,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": true
+      },
+      {
+        "date": "2020-07-17",
+        "priceEur": 1206223,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": true
+      },
+      {
+        "date": "2020-07-17",
+        "priceEur": 1206223,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": true
+      },
+      {
+        "date": "2020-07-17",
+        "priceEur": 1206223,
+        "typeLocal": "Appartement",
+        "surfaceM2": 71,
+        "isVefa": true
+      }
+    ]
+  },
+  "fb98db62809c": {
+    "id": "fb98db62809c",
+    "label": "18 RUE MANCHON FRERES, Rouen",
+    "lat": 49.449702,
+    "lng": 1.069918,
+    "transactions": [
+      {
+        "date": "2022-02-18",
+        "priceEur": 131000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-30",
+        "priceEur": 225000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "6c959e17a19d": {
+    "id": "6c959e17a19d",
+    "label": "116 RUE STANISLAS GIRARDIN, Rouen",
+    "lat": 49.449478,
+    "lng": 1.075756,
+    "transactions": [
+      {
+        "date": "2023-12-04",
+        "priceEur": 192770,
+        "typeLocal": "Appartement",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-06",
+        "priceEur": 188000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 92,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-06",
+        "priceEur": 175000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-31",
+        "priceEur": 115000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 97,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-22",
+        "priceEur": 163500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 88,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-29",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "6285b7f62910": {
+    "id": "6285b7f62910",
+    "label": "144B RUE DU RENARD, Rouen",
+    "lat": 49.452783,
+    "lng": 1.069074,
+    "transactions": [
+      {
+        "date": "2024-11-22",
+        "priceEur": 144500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-12",
+        "priceEur": 145000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 69,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-05",
+        "priceEur": 129400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-12",
+        "priceEur": 131000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-17",
+        "priceEur": 141000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-21",
+        "priceEur": 144000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 69,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-11",
+        "priceEur": 149000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 69,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-10",
+        "priceEur": 85000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "f139c79a9c28": {
+    "id": "f139c79a9c28",
+    "label": "81 AV DU MONT RIBOUDET, Rouen",
+    "lat": 49.447516,
+    "lng": 1.067434,
+    "transactions": [
+      {
+        "date": "2021-03-17",
+        "priceEur": 90614.98,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-23",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "70436a518665": {
+    "id": "70436a518665",
+    "label": "109 RUE CHASSELIEVRE, Rouen",
+    "lat": 49.451244,
+    "lng": 1.074266,
+    "transactions": [
+      {
+        "date": "2025-06-02",
+        "priceEur": 78000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 23,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-20",
+        "priceEur": 110000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-01",
+        "priceEur": 69640,
+        "typeLocal": "Appartement",
+        "surfaceM2": 23,
+        "isVefa": false
+      }
+    ]
+  },
+  "326dcf07280a": {
+    "id": "326dcf07280a",
+    "label": "54 RUE DE CONSTANTINE, Rouen",
+    "lat": 49.446939,
+    "lng": 1.076414,
+    "transactions": [
+      {
+        "date": "2025-02-18",
+        "priceEur": 162650,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-20",
+        "priceEur": 165000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2024-03-19",
+        "priceEur": 119000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-09",
+        "priceEur": 285000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 111,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-29",
+        "priceEur": 151000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-15",
+        "priceEur": 139000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-16",
+        "priceEur": 144000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-25",
+        "priceEur": 130000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-08",
+        "priceEur": 168000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-16",
+        "priceEur": 148000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-03",
+        "priceEur": 121000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-31",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-08",
+        "priceEur": 149000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-25",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-20",
+        "priceEur": 128400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "794ee5ead14d": {
+    "id": "794ee5ead14d",
+    "label": "24 RUE MUSTEL, Rouen",
+    "lat": 49.449851,
+    "lng": 1.073262,
+    "transactions": [
+      {
+        "date": "2025-04-28",
+        "priceEur": 134000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-13",
+        "priceEur": 98800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-03",
+        "priceEur": 86000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-27",
+        "priceEur": 123250,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "c965f721879a": {
+    "id": "c965f721879a",
+    "label": "3 RUE DU FRAMBOISIER, Rouen",
+    "lat": 49.449851,
+    "lng": 1.073262,
+    "transactions": [
+      {
+        "date": "2025-06-11",
+        "priceEur": 80000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-29",
+        "priceEur": 58000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-30",
+        "priceEur": 80000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-06",
+        "priceEur": 124500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-16",
+        "priceEur": 80000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-18",
+        "priceEur": 78000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-31",
+        "priceEur": 114000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-01",
+        "priceEur": 85000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-18",
+        "priceEur": 57850,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b755ad60b0d": {
+    "id": "9b755ad60b0d",
+    "label": "134 RUE DU RENARD, Rouen",
+    "lat": 49.450359,
+    "lng": 1.076591,
+    "transactions": [
+      {
+        "date": "2025-06-30",
+        "priceEur": 153000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-22",
+        "priceEur": 144800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-10",
+        "priceEur": 136000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-04",
+        "priceEur": 130080,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-10",
+        "priceEur": 199350,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-09",
+        "priceEur": 107500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-01",
+        "priceEur": 160900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-10",
+        "priceEur": 180000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-22",
+        "priceEur": 130000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-21",
+        "priceEur": 130000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-30",
+        "priceEur": 106000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-09",
+        "priceEur": 128000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-16",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-30",
+        "priceEur": 176000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-24",
+        "priceEur": 200500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-23",
+        "priceEur": 103000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-09",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-30",
+        "priceEur": 131000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-06",
+        "priceEur": 177600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-31",
+        "priceEur": 162000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-16",
+        "priceEur": 180000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-15",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-25",
+        "priceEur": 165000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-13",
+        "priceEur": 183000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-04",
+        "priceEur": 165000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-22",
+        "priceEur": 130000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-27",
+        "priceEur": 159000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-04",
+        "priceEur": 173500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "d8297954aebf": {
+    "id": "d8297954aebf",
+    "label": "10 RUE MOGADOR, Rouen",
+    "lat": 49.449042,
+    "lng": 1.06822,
+    "transactions": [
+      {
+        "date": "2020-09-18",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0cdb3b75a69": {
+    "id": "a0cdb3b75a69",
+    "label": "12 RUE MOGADOR, Rouen",
+    "lat": 49.449118,
+    "lng": 1.068269,
+    "transactions": [
+      {
+        "date": "2020-09-18",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b8a881cfa06": {
+    "id": "9b8a881cfa06",
+    "label": "148 RUE DE CONSTANTINE, Rouen",
+    "lat": 49.448695,
+    "lng": 1.069381,
+    "transactions": [
+      {
+        "date": "2021-02-18",
+        "priceEur": 235000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": true
+      },
+      {
+        "date": "2021-02-17",
+        "priceEur": 251400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": true
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 3078931,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 3078931,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 3078931,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 3078931,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 3078931,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 3078931,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 3078931,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 3078931,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 3078931,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 3078931,
+        "typeLocal": "Appartement",
+        "surfaceM2": 77,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 3078931,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "87318adceb56": {
+    "id": "87318adceb56",
+    "label": "104 RUE THOMAS DUBOSC, Rouen",
+    "lat": 49.453059,
+    "lng": 1.075877,
+    "transactions": [
+      {
+        "date": "2020-10-16",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "30f66f79525b": {
+    "id": "30f66f79525b",
+    "label": "187B RUE DU RENARD, Rouen",
+    "lat": 49.450631,
+    "lng": 1.073171,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 368000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 368000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "19c30761b889": {
+    "id": "19c30761b889",
+    "label": "2T RUE DES VOUTES, Rouen",
+    "lat": 49.45252,
+    "lng": 1.071418,
+    "transactions": [
+      {
+        "date": "2020-10-08",
+        "priceEur": 435000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed9671ba35df": {
+    "id": "ed9671ba35df",
+    "label": "89 RUE STANISLAS GIRARDIN, Rouen",
+    "lat": 49.449142,
+    "lng": 1.075247,
+    "transactions": [
+      {
+        "date": "2024-11-06",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-18",
+        "priceEur": 228000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-05",
+        "priceEur": 357700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 97,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-29",
+        "priceEur": 167000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-16",
+        "priceEur": 236200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-26",
+        "priceEur": 178000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd940f35c972": {
+    "id": "fd940f35c972",
+    "label": "2 RUE DE TUNIS, Rouen",
+    "lat": 49.4496,
+    "lng": 1.069156,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 179500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": true
+      },
+      {
+        "date": "2021-09-22",
+        "priceEur": 255000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": true
+      },
+      {
+        "date": "2021-07-05",
+        "priceEur": 164900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": true
+      },
+      {
+        "date": "2021-03-12",
+        "priceEur": 1945764,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-12",
+        "priceEur": 1945764,
+        "typeLocal": "Appartement",
+        "surfaceM2": 69,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-12",
+        "priceEur": 1945764,
+        "typeLocal": "Appartement",
+        "surfaceM2": 93,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-12",
+        "priceEur": 1945764,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-12",
+        "priceEur": 1945764,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-02",
+        "priceEur": 299500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 94,
+        "isVefa": true
+      },
+      {
+        "date": "2021-01-08",
+        "priceEur": 160730,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": true
+      },
+      {
+        "date": "2020-12-17",
+        "priceEur": 319050,
+        "typeLocal": "Appartement",
+        "surfaceM2": 99,
+        "isVefa": true
+      },
+      {
+        "date": "2020-12-11",
+        "priceEur": 218400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": true
+      },
+      {
+        "date": "2020-12-08",
+        "priceEur": 159730,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": true
+      },
+      {
+        "date": "2020-12-03",
+        "priceEur": 221350,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": true
+      },
+      {
+        "date": "2020-11-09",
+        "priceEur": 156950,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": true
+      },
+      {
+        "date": "2020-11-03",
+        "priceEur": 154950,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": true
+      },
+      {
+        "date": "2020-10-28",
+        "priceEur": 142200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": true
+      },
+      {
+        "date": "2020-10-27",
+        "priceEur": 231700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": true
+      },
+      {
+        "date": "2020-10-20",
+        "priceEur": 159250,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": true
+      }
+    ]
+  },
+  "ea4926ed6202": {
+    "id": "ea4926ed6202",
+    "label": "193 RUE DU RENARD, Rouen",
+    "lat": 49.450761,
+    "lng": 1.071505,
+    "transactions": [
+      {
+        "date": "2024-10-31",
+        "priceEur": 131500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-05",
+        "priceEur": 165000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-31",
+        "priceEur": 127778,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-25",
+        "priceEur": 157500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-16",
+        "priceEur": 75028.3,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-15",
+        "priceEur": 140100,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-21",
+        "priceEur": 137000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-04",
+        "priceEur": 121000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-15",
+        "priceEur": 161000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-24",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-14",
+        "priceEur": 136550,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-13",
+        "priceEur": 131400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-11",
+        "priceEur": 166500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-26",
+        "priceEur": 100700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-13",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-29",
+        "priceEur": 178000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-06",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-01",
+        "priceEur": 210000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-14",
+        "priceEur": 150750,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-22",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-21",
+        "priceEur": 147500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-02",
+        "priceEur": 134000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-30",
+        "priceEur": 145000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-01",
+        "priceEur": 172100,
+        "typeLocal": "Appartement",
+        "surfaceM2": 77,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-23",
+        "priceEur": 157000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-27",
+        "priceEur": 195000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "809fb8020619": {
+    "id": "809fb8020619",
+    "label": "9 RUE AUGUSTE RIDEL, Rouen",
+    "lat": 49.452124,
+    "lng": 1.074124,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 435000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "83dd008e95b3": {
+    "id": "83dd008e95b3",
+    "label": "164 AV DU MONT RIBOUDET, Rouen",
+    "lat": 49.448102,
+    "lng": 1.068602,
+    "transactions": [
+      {
+        "date": "2021-07-21",
+        "priceEur": 285000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": true
+      },
+      {
+        "date": "2021-06-09",
+        "priceEur": 240000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": true
+      },
+      {
+        "date": "2020-12-18",
+        "priceEur": 305000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": true
+      },
+      {
+        "date": "2020-11-23",
+        "priceEur": 235000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": true
+      },
+      {
+        "date": "2020-11-04",
+        "priceEur": 236000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": true
+      },
+      {
+        "date": "2020-11-03",
+        "priceEur": 199000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 51,
+        "isVefa": true
+      }
+    ]
+  },
+  "0c383062d675": {
+    "id": "0c383062d675",
+    "label": "26B RUE MUSTEL, Rouen",
+    "lat": 49.449977,
+    "lng": 1.072595,
+    "transactions": [
+      {
+        "date": "2024-08-08",
+        "priceEur": 136967,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-06",
+        "priceEur": 135869,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-13",
+        "priceEur": 124608,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-15",
+        "priceEur": 130220,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-07",
+        "priceEur": 80464,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-18",
+        "priceEur": 68464,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-15",
+        "priceEur": 68464,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-16",
+        "priceEur": 153024,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "404aa283911f": {
+    "id": "404aa283911f",
+    "label": "43 RUE MARTIN FRERES, Rouen",
+    "lat": 49.448908,
+    "lng": 1.073759,
+    "transactions": [
+      {
+        "date": "2025-01-16",
+        "priceEur": 430000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-27",
+        "priceEur": 334780,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd9536db98ee": {
+    "id": "dd9536db98ee",
+    "label": "27 RUE DU BEL AIR, Rouen",
+    "lat": 49.453344,
+    "lng": 1.075839,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 355000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "a94e299e6861": {
+    "id": "a94e299e6861",
+    "label": "133 RUE CHASSELIEVRE, Rouen",
+    "lat": 49.451636,
+    "lng": 1.072432,
+    "transactions": [
+      {
+        "date": "2020-11-25",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "b57cc2c4ab3d": {
+    "id": "b57cc2c4ab3d",
+    "label": "146 RUE DE CONSTANTINE, Rouen",
+    "lat": 49.448695,
+    "lng": 1.069381,
+    "transactions": [
+      {
+        "date": "2022-11-23",
+        "priceEur": 208000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-09",
+        "priceEur": 171500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": true
+      },
+      {
+        "date": "2021-08-11",
+        "priceEur": 217000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 74,
+        "isVefa": true
+      },
+      {
+        "date": "2021-07-13",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-07",
+        "priceEur": 194000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": true
+      },
+      {
+        "date": "2021-06-08",
+        "priceEur": 200640,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": true
+      },
+      {
+        "date": "2021-05-20",
+        "priceEur": 247900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 79,
+        "isVefa": true
+      },
+      {
+        "date": "2021-04-23",
+        "priceEur": 232000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": true
+      },
+      {
+        "date": "2021-03-16",
+        "priceEur": 158000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": true
+      },
+      {
+        "date": "2021-03-08",
+        "priceEur": 233500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": true
+      },
+      {
+        "date": "2021-01-25",
+        "priceEur": 236000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": true
+      },
+      {
+        "date": "2020-12-08",
+        "priceEur": 198400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": true
+      },
+      {
+        "date": "2020-12-02",
+        "priceEur": 207500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": true
+      }
+    ]
+  },
+  "635ea750f857": {
+    "id": "635ea750f857",
+    "label": "53B RUE GUILLAUME D ESTOUTEVILLE, Rouen",
+    "lat": 49.452938,
+    "lng": 1.067742,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 93000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-08",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 97,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-15",
+        "priceEur": 255500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 96,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-23",
+        "priceEur": 207800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 97,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-20",
+        "priceEur": 188000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-29",
+        "priceEur": 148000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-31",
+        "priceEur": 195000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-14",
+        "priceEur": 40000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-01",
+        "priceEur": 208450,
+        "typeLocal": "Appartement",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-16",
+        "priceEur": 144500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-02",
+        "priceEur": 174000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-26",
+        "priceEur": 180000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 82,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-26",
+        "priceEur": 185700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-18",
+        "priceEur": 232000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 79,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-29",
+        "priceEur": 176360,
+        "typeLocal": "Appartement",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-01",
+        "priceEur": 252000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 96,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-20",
+        "priceEur": 240300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 96,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-01",
+        "priceEur": 250000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 110,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-11",
+        "priceEur": 182800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-30",
+        "priceEur": 190000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "e41dbc407a84": {
+    "id": "e41dbc407a84",
+    "label": "34 RUE MUSTEL, Rouen",
+    "lat": 49.450269,
+    "lng": 1.071145,
+    "transactions": [
+      {
+        "date": "2020-12-31",
+        "priceEur": 780000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-31",
+        "priceEur": 780000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-31",
+        "priceEur": 780000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-31",
+        "priceEur": 780000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-31",
+        "priceEur": 780000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-31",
+        "priceEur": 780000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-31",
+        "priceEur": 780000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 24,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-31",
+        "priceEur": 780000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae4a1b293e27": {
+    "id": "ae4a1b293e27",
+    "label": "11 RUE AUGUSTE RIDEL, Rouen",
+    "lat": 49.452228,
+    "lng": 1.074026,
+    "transactions": [
+      {
+        "date": "2022-10-03",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-30",
+        "priceEur": 297300,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e3d3b09d16b": {
+    "id": "1e3d3b09d16b",
+    "label": "28 RUE GUILLAUME D'ESTOUTEVILLE, Mont-Saint-Aignan",
+    "lat": 49.452779,
+    "lng": 1.071199,
+    "transactions": [
+      {
+        "date": "2020-10-13",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "af1775fa57ba": {
+    "id": "af1775fa57ba",
+    "label": "27 RUE D ALGER, Rouen",
+    "lat": 49.447785,
+    "lng": 1.076497,
+    "transactions": [
+      {
+        "date": "2024-03-12",
+        "priceEur": 100020,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-19",
+        "priceEur": 86000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-08",
+        "priceEur": 107000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-29",
+        "priceEur": 78000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 14,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-18",
+        "priceEur": 74000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-20",
+        "priceEur": 82000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-18",
+        "priceEur": 81000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-08",
+        "priceEur": 74500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "e00bdb422bba": {
+    "id": "e00bdb422bba",
+    "label": "24 RUE FRANCOIS LAMY, Rouen",
+    "lat": 49.448495,
+    "lng": 1.074305,
+    "transactions": [
+      {
+        "date": "2021-01-08",
+        "priceEur": 259500,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "9270f5ee27ef": {
+    "id": "9270f5ee27ef",
+    "label": "136B RUE DU RENARD, Rouen",
+    "lat": 49.450526,
+    "lng": 1.074986,
+    "transactions": [
+      {
+        "date": "2025-05-16",
+        "priceEur": 72583,
+        "typeLocal": "Appartement",
+        "surfaceM2": 23,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-10",
+        "priceEur": 68500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 24,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-10",
+        "priceEur": 85500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 23,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-20",
+        "priceEur": 71500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-14",
+        "priceEur": 70500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 23,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-28",
+        "priceEur": 59000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 24,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-27",
+        "priceEur": 75000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 23,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a75ba9ba44a": {
+    "id": "2a75ba9ba44a",
+    "label": "10 RUE COLETTE YVER, Rouen",
+    "lat": 49.451221,
+    "lng": 1.069055,
+    "transactions": [
+      {
+        "date": "2021-02-05",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "d86786160a48": {
+    "id": "d86786160a48",
+    "label": "149 RUE DU RENARD, Rouen",
+    "lat": 49.449585,
+    "lng": 1.076397,
+    "transactions": [
+      {
+        "date": "2025-03-25",
+        "priceEur": 124000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-25",
+        "priceEur": 171000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-05",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2024-03-29",
+        "priceEur": 201300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-18",
+        "priceEur": 211900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-21",
+        "priceEur": 135524,
+        "typeLocal": "Appartement",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-22",
+        "priceEur": 142000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-21",
+        "priceEur": 278524,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-21",
+        "priceEur": 278524,
+        "typeLocal": "Appartement",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-10",
+        "priceEur": 145000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-30",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-25",
+        "priceEur": 175800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 79,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-10",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "cfa705d56c47": {
+    "id": "cfa705d56c47",
+    "label": "17 RUE HENRI VERMONT, Rouen",
+    "lat": 49.451937,
+    "lng": 1.07633,
+    "transactions": [
+      {
+        "date": "2024-06-25",
+        "priceEur": 167100,
+        "typeLocal": "Appartement",
+        "surfaceM2": 82,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-13",
+        "priceEur": 215000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 82,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-01",
+        "priceEur": 58500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 19,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-17",
+        "priceEur": 92500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "5490bda26172": {
+    "id": "5490bda26172",
+    "label": "8B RUE FRANCOIS LAMY, Rouen",
+    "lat": 49.447927,
+    "lng": 1.075207,
+    "transactions": [
+      {
+        "date": "2021-02-24",
+        "priceEur": 296000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "0bcd90543365": {
+    "id": "0bcd90543365",
+    "label": "147 RUE CHASSELIEVRE, Rouen",
+    "lat": 49.451939,
+    "lng": 1.070668,
+    "transactions": [
+      {
+        "date": "2023-04-24",
+        "priceEur": 72000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 24,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-05",
+        "priceEur": 118000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "74310c01357f": {
+    "id": "74310c01357f",
+    "label": "171 RUE DU RENARD, Rouen",
+    "lat": 49.450386,
+    "lng": 1.073854,
+    "transactions": [
+      {
+        "date": "2021-10-13",
+        "priceEur": 285000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-05",
+        "priceEur": 249585,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-18",
+        "priceEur": 117000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "0db8ce2f6a7b": {
+    "id": "0db8ce2f6a7b",
+    "label": "9001 RUE DU COLOMBIER, Rouen",
+    "lat": 49.450834,
+    "lng": 1.070169,
+    "transactions": [
+      {
+        "date": "2024-04-23",
+        "priceEur": 55000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-26",
+        "priceEur": 72000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-15",
+        "priceEur": 72000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-08",
+        "priceEur": 69000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-27",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-21",
+        "priceEur": 72000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-05",
+        "priceEur": 72500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 27,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-21",
+        "priceEur": 68000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-16",
+        "priceEur": 66500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 15,
+        "isVefa": false
+      }
+    ]
+  },
+  "e9f2aafe6f0b": {
+    "id": "e9f2aafe6f0b",
+    "label": "4 RUE DU FRAMBOISIER, Rouen",
+    "lat": 49.44966,
+    "lng": 1.073625,
+    "transactions": [
+      {
+        "date": "2021-03-16",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "25d9647f90ea": {
+    "id": "25d9647f90ea",
+    "label": "81 RUE STANISLAS GIRARDIN, Rouen",
+    "lat": 49.448797,
+    "lng": 1.075988,
+    "transactions": [
+      {
+        "date": "2023-08-22",
+        "priceEur": 90000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-20",
+        "priceEur": 148170,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-13",
+        "priceEur": 74000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e4e5423755c": {
+    "id": "9e4e5423755c",
+    "label": "103 RUE STANISLAS GIRARDIN, Rouen",
+    "lat": 49.44933,
+    "lng": 1.074882,
+    "transactions": [
+      {
+        "date": "2024-02-20",
+        "priceEur": 80000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-17",
+        "priceEur": 117000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-20",
+        "priceEur": 97000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-06",
+        "priceEur": 53000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-08",
+        "priceEur": 93690,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-12",
+        "priceEur": 55000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      }
+    ]
+  },
+  "193a97357353": {
+    "id": "193a97357353",
+    "label": "168 AV DU MONT RIBOUDET, Rouen",
+    "lat": 49.448102,
+    "lng": 1.068602,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 325000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 87,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-13",
+        "priceEur": 287000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": true
+      },
+      {
+        "date": "2022-01-07",
+        "priceEur": 297000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": true
+      },
+      {
+        "date": "2021-12-17",
+        "priceEur": 292000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": true
+      },
+      {
+        "date": "2021-06-08",
+        "priceEur": 247000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": true
+      },
+      {
+        "date": "2021-05-19",
+        "priceEur": 280000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": true
+      },
+      {
+        "date": "2021-04-20",
+        "priceEur": 3995472.2,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": true
+      },
+      {
+        "date": "2021-04-20",
+        "priceEur": 3995472.2,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": true
+      },
+      {
+        "date": "2021-04-20",
+        "priceEur": 3995472.2,
+        "typeLocal": "Appartement",
+        "surfaceM2": 92,
+        "isVefa": true
+      },
+      {
+        "date": "2021-04-20",
+        "priceEur": 3995472.2,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": true
+      },
+      {
+        "date": "2021-04-20",
+        "priceEur": 3995472.2,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": true
+      },
+      {
+        "date": "2021-04-20",
+        "priceEur": 3995472.2,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": true
+      },
+      {
+        "date": "2021-04-20",
+        "priceEur": 3995472.2,
+        "typeLocal": "Appartement",
+        "surfaceM2": 79,
+        "isVefa": true
+      },
+      {
+        "date": "2021-04-20",
+        "priceEur": 3995472.2,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": true
+      },
+      {
+        "date": "2021-04-20",
+        "priceEur": 3995472.2,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": true
+      }
+    ]
+  },
+  "9045ca317025": {
+    "id": "9045ca317025",
+    "label": "25 RUE SAINT-FILLEUL, Rouen",
+    "lat": 49.448936,
+    "lng": 1.070866,
+    "transactions": [
+      {
+        "date": "2024-01-17",
+        "priceEur": 282800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-16",
+        "priceEur": 96500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-29",
+        "priceEur": 200000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-16",
+        "priceEur": 89500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 16,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f5b24ff8801": {
+    "id": "8f5b24ff8801",
+    "label": "26 RUE MUSTEL, Rouen",
+    "lat": 49.449977,
+    "lng": 1.072595,
+    "transactions": [
+      {
+        "date": "2023-07-10",
+        "priceEur": 138298,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-29",
+        "priceEur": 126816,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "76e9c3469d5a": {
+    "id": "76e9c3469d5a",
+    "label": "101 RUE STANISLAS GIRARDIN, Rouen",
+    "lat": 49.44933,
+    "lng": 1.074882,
+    "transactions": [
+      {
+        "date": "2024-04-04",
+        "priceEur": 65000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-15",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-21",
+        "priceEur": 79000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-22",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d34f2b98909": {
+    "id": "6d34f2b98909",
+    "label": "199B RUE DU RENARD, Rouen",
+    "lat": 49.451101,
+    "lng": 1.069919,
+    "transactions": [
+      {
+        "date": "2024-11-19",
+        "priceEur": 118200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-25",
+        "priceEur": 142500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "02e0c88223b4": {
+    "id": "02e0c88223b4",
+    "label": "35 RUE HENRI VERMONT, Rouen",
+    "lat": 49.4525,
+    "lng": 1.074961,
+    "transactions": [
+      {
+        "date": "2021-07-12",
+        "priceEur": 296000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e39562fd95d": {
+    "id": "3e39562fd95d",
+    "label": "45 RUE SAINT-FILLEUL, Rouen",
+    "lat": 49.45029,
+    "lng": 1.072163,
+    "transactions": [
+      {
+        "date": "2021-07-13",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c549bed0fb4": {
+    "id": "8c549bed0fb4",
+    "label": "159 RUE DU RENARD, Rouen",
+    "lat": 49.449786,
+    "lng": 1.075672,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 134900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-30",
+        "priceEur": 130000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 94,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-04",
+        "priceEur": 197000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-16",
+        "priceEur": 177800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-29",
+        "priceEur": 245000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 97,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-23",
+        "priceEur": 158500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-30",
+        "priceEur": 216000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "4cc39e4c915d": {
+    "id": "4cc39e4c915d",
+    "label": "3 RUE AUGUSTE RIDEL, Rouen",
+    "lat": 49.451892,
+    "lng": 1.074292,
+    "transactions": [
+      {
+        "date": "2021-08-20",
+        "priceEur": 415000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "a4e8419fa4d5": {
+    "id": "a4e8419fa4d5",
+    "label": "118 RUE STANISLAS GIRARDIN, Rouen",
+    "lat": 49.449478,
+    "lng": 1.075756,
+    "transactions": [
+      {
+        "date": "2021-09-28",
+        "priceEur": 188000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0d2996a770a": {
+    "id": "e0d2996a770a",
+    "label": "2 RUE GUILLAUME LE TALLEUR, Rouen",
+    "lat": 49.451613,
+    "lng": 1.076215,
+    "transactions": [
+      {
+        "date": "2024-03-26",
+        "priceEur": 125700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-28",
+        "priceEur": 111000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-20",
+        "priceEur": 76000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 21,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-04",
+        "priceEur": 64000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 21,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-25",
+        "priceEur": 60000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-01",
+        "priceEur": 74100,
+        "typeLocal": "Appartement",
+        "surfaceM2": 21,
+        "isVefa": false
+      }
+    ]
+  },
+  "e5498d9778af": {
+    "id": "e5498d9778af",
+    "label": "131 RUE CHASSELIEVRE, Rouen",
+    "lat": 49.451535,
+    "lng": 1.072686,
+    "transactions": [
+      {
+        "date": "2021-10-08",
+        "priceEur": 338000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9429d97dc4c": {
+    "id": "a9429d97dc4c",
+    "label": "39 RUE MUSTEL, Rouen",
+    "lat": 49.450077,
+    "lng": 1.070515,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-15",
+        "priceEur": 420000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-15",
+        "priceEur": 420000,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  },
+  "86e88cc439b4": {
+    "id": "86e88cc439b4",
+    "label": "6 RUE ALEXANDRA DAVID-NEEL, Rouen",
+    "lat": 49.449573,
+    "lng": 1.07058,
+    "transactions": [
+      {
+        "date": "2023-11-24",
+        "priceEur": 116000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-06",
+        "priceEur": 192710,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-04",
+        "priceEur": 225250,
+        "typeLocal": "Appartement",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-25",
+        "priceEur": 119700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a16e825aeb2": {
+    "id": "8a16e825aeb2",
+    "label": "41 RUE MUSTEL, Rouen",
+    "lat": 49.450201,
+    "lng": 1.070334,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 470000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca2e7cca437d": {
+    "id": "ca2e7cca437d",
+    "label": "46 RUE MUSTEL, Rouen",
+    "lat": 49.450784,
+    "lng": 1.069485,
+    "transactions": [
+      {
+        "date": "2021-10-19",
+        "priceEur": 287100,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "b88c70ec4a27": {
+    "id": "b88c70ec4a27",
+    "label": "32 RUE FRANCOIS LAMY, Rouen",
+    "lat": 49.448122,
+    "lng": 1.074125,
+    "transactions": [
+      {
+        "date": "2021-12-08",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "7394a21356e6": {
+    "id": "7394a21356e6",
+    "label": "7 RUE D ALGER, Rouen",
+    "lat": 49.447294,
+    "lng": 1.076061,
+    "transactions": [
+      {
+        "date": "2021-12-06",
+        "priceEur": 307000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "909e04df1d05": {
+    "id": "909e04df1d05",
+    "label": "14 RUE MOGADOR, Rouen",
+    "lat": 49.449239,
+    "lng": 1.068332,
+    "transactions": [
+      {
+        "date": "2024-12-24",
+        "priceEur": 410000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-30",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "9afcb320a97d": {
+    "id": "9afcb320a97d",
+    "label": "9 RUE MARTIN FRERES, Rouen",
+    "lat": 49.44831,
+    "lng": 1.075921,
+    "transactions": [
+      {
+        "date": "2021-12-28",
+        "priceEur": 168000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3b50c349da0": {
+    "id": "a3b50c349da0",
+    "label": "7 RUE MARTIN FRERES, Rouen",
+    "lat": 49.44831,
+    "lng": 1.075921,
+    "transactions": [
+      {
+        "date": "2022-04-21",
+        "priceEur": 155000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-28",
+        "priceEur": 168000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "05c486fbd4c6": {
+    "id": "05c486fbd4c6",
+    "label": "6 ALL DU FOND DU VAL, Mont-Saint-Aignan",
+    "lat": 49.453295,
+    "lng": 1.071764,
+    "transactions": [
+      {
+        "date": "2025-04-23",
+        "priceEur": 600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-23",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-16",
+        "priceEur": 104000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "c48074f3545a": {
+    "id": "c48074f3545a",
+    "label": "21 RUE DES VOUTES, Mont-Saint-Aignan",
+    "lat": 49.453797,
+    "lng": 1.073435,
+    "transactions": [
+      {
+        "date": "2021-07-23",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "ce17ef2b8a4c": {
+    "id": "ce17ef2b8a4c",
+    "label": "145 RUE DE CONSTANTINE, Rouen",
+    "lat": 49.448601,
+    "lng": 1.068383,
+    "transactions": [
+      {
+        "date": "2022-01-05",
+        "priceEur": 277000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae6ae5b74d34": {
+    "id": "ae6ae5b74d34",
+    "label": "102 RUE STANISLAS GIRARDIN, Rouen",
+    "lat": 49.449274,
+    "lng": 1.076584,
+    "transactions": [
+      {
+        "date": "2022-01-07",
+        "priceEur": 424400,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "892119c46332": {
+    "id": "892119c46332",
+    "label": "71 RUE DES VOUTES, Mont-Saint-Aignan",
+    "lat": 49.452963,
+    "lng": 1.071985,
+    "transactions": [
+      {
+        "date": "2022-02-02",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "d51c3b658a8b": {
+    "id": "d51c3b658a8b",
+    "label": "31 RUE MUSTEL, Rouen",
+    "lat": 49.44988,
+    "lng": 1.071532,
+    "transactions": [
+      {
+        "date": "2022-03-09",
+        "priceEur": 361000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-09",
+        "priceEur": 361000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-09",
+        "priceEur": 361000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-09",
+        "priceEur": 361000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-09",
+        "priceEur": 361000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 24,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e82aa35ebc4": {
+    "id": "5e82aa35ebc4",
+    "label": "25 RUE D ALGER, Rouen",
+    "lat": 49.447924,
+    "lng": 1.076249,
+    "transactions": [
+      {
+        "date": "2022-02-24",
+        "priceEur": 121000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "4be0b0e983b4": {
+    "id": "4be0b0e983b4",
+    "label": "145B RUE CHASSELIEVRE, Rouen",
+    "lat": 49.451939,
+    "lng": 1.070944,
+    "transactions": [
+      {
+        "date": "2022-05-09",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 19,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-09",
+        "priceEur": 610000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 19,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-27",
+        "priceEur": 79500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 19,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-28",
+        "priceEur": 78000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 19,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-24",
+        "priceEur": 83000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 19,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-17",
+        "priceEur": 78000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 19,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-15",
+        "priceEur": 76000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 19,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-10",
+        "priceEur": 155000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 19,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-10",
+        "priceEur": 85000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 19,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ef27de5c949": {
+    "id": "1ef27de5c949",
+    "label": "165 RUE DU RENARD, Rouen",
+    "lat": 49.450025,
+    "lng": 1.075054,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 662030,
+        "typeLocal": "Appartement",
+        "surfaceM2": 151,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-29",
+        "priceEur": 485000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe84625deec2": {
+    "id": "fe84625deec2",
+    "label": "27 RUE MARTIN FRERES, Rouen",
+    "lat": 49.448746,
+    "lng": 1.07478,
+    "transactions": [
+      {
+        "date": "2022-04-29",
+        "priceEur": 388500,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "85270afa3d6a": {
+    "id": "85270afa3d6a",
+    "label": "20 RUE FRANCOIS LAMY, Rouen",
+    "lat": 49.448449,
+    "lng": 1.074933,
+    "transactions": [
+      {
+        "date": "2022-07-12",
+        "priceEur": 110000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-09",
+        "priceEur": 25000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-09",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-09",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 32,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-06",
+        "priceEur": 430000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-06",
+        "priceEur": 430000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-06",
+        "priceEur": 430000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 32,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-06",
+        "priceEur": 430000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "3286e7b675eb": {
+    "id": "3286e7b675eb",
+    "label": "13 RUE FRANCOIS LAMY, Rouen",
+    "lat": 49.447655,
+    "lng": 1.075054,
+    "transactions": [
+      {
+        "date": "2022-05-31",
+        "priceEur": 334000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "873c5648819d": {
+    "id": "873c5648819d",
+    "label": "36 RUE MARTIN FRERES, Rouen",
+    "lat": 49.448951,
+    "lng": 1.074955,
+    "transactions": [
+      {
+        "date": "2022-05-31",
+        "priceEur": 370500,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8e8e054bb6f": {
+    "id": "e8e8e054bb6f",
+    "label": "27 RUE MUSTEL, Rouen",
+    "lat": 49.449685,
+    "lng": 1.071253,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-29",
+        "priceEur": 178500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-15",
+        "priceEur": 218500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-25",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-13",
+        "priceEur": 185000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-18",
+        "priceEur": 270000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "0826018b82eb": {
+    "id": "0826018b82eb",
+    "label": "18B RUE DE LA CROIX D YONVILLE, Rouen",
+    "lat": 49.451115,
+    "lng": 1.066989,
+    "transactions": [
+      {
+        "date": "2022-06-13",
+        "priceEur": 310200,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "0be811944aae": {
+    "id": "0be811944aae",
+    "label": "116 RUE THOMAS DUBOSC, Rouen",
+    "lat": 49.453504,
+    "lng": 1.0745,
+    "transactions": [
+      {
+        "date": "2022-06-27",
+        "priceEur": 540000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee97bb3e9b25": {
+    "id": "ee97bb3e9b25",
+    "label": "42 RUE MUSTEL, Rouen",
+    "lat": 49.450672,
+    "lng": 1.069763,
+    "transactions": [
+      {
+        "date": "2022-07-05",
+        "priceEur": 290400,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb4e18e50510": {
+    "id": "fb4e18e50510",
+    "label": "1 RUE DES VOUTES, Rouen",
+    "lat": 49.452261,
+    "lng": 1.071262,
+    "transactions": [
+      {
+        "date": "2022-07-04",
+        "priceEur": 208840,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "45866d9f1c0b": {
+    "id": "45866d9f1c0b",
+    "label": "51 RUE SAINT-FILLEUL, Rouen",
+    "lat": 49.45055,
+    "lng": 1.072441,
+    "transactions": [
+      {
+        "date": "2022-07-04",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "8609a4967c64": {
+    "id": "8609a4967c64",
+    "label": "143 RUE DE CONSTANTINE, Rouen",
+    "lat": 49.448576,
+    "lng": 1.068717,
+    "transactions": [
+      {
+        "date": "2022-07-25",
+        "priceEur": 353240,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-25",
+        "priceEur": 353240,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "87c031971747": {
+    "id": "87c031971747",
+    "label": "95 RUE AMEDEE DORMOY, Rouen",
+    "lat": 49.450883,
+    "lng": 1.067028,
+    "transactions": [
+      {
+        "date": "2022-08-04",
+        "priceEur": 302500,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "9894844911c1": {
+    "id": "9894844911c1",
+    "label": "22 RUE MARTIN FRERES, Rouen",
+    "lat": 49.448586,
+    "lng": 1.076164,
+    "transactions": [
+      {
+        "date": "2022-07-25",
+        "priceEur": 155000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "60d1012b01c8": {
+    "id": "60d1012b01c8",
+    "label": "2 RUE D ALGER, Rouen",
+    "lat": 49.44694,
+    "lng": 1.076166,
+    "transactions": [
+      {
+        "date": "2022-08-24",
+        "priceEur": 327000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 29,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-24",
+        "priceEur": 327000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "051b6ac6f843": {
+    "id": "051b6ac6f843",
+    "label": "77 RUE JEAN ANGO, Rouen",
+    "lat": 49.4487,
+    "lng": 1.072597,
+    "transactions": [
+      {
+        "date": "2022-09-06",
+        "priceEur": 157000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "dda9da61da9e": {
+    "id": "dda9da61da9e",
+    "label": "85 RUE AMEDEE DORMOY, Rouen",
+    "lat": 49.450459,
+    "lng": 1.066926,
+    "transactions": [
+      {
+        "date": "2022-08-31",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "63211a5af535": {
+    "id": "63211a5af535",
+    "label": "154B RUE DU RENARD, Rouen",
+    "lat": 49.451716,
+    "lng": 1.065837,
+    "transactions": [
+      {
+        "date": "2022-09-05",
+        "priceEur": 184000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "d91743c05da7": {
+    "id": "d91743c05da7",
+    "label": "33B RUE DES VOUTES, Mont-Saint-Aignan",
+    "lat": 49.453782,
+    "lng": 1.074239,
+    "transactions": [
+      {
+        "date": "2022-09-15",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc4c80fe0eee": {
+    "id": "cc4c80fe0eee",
+    "label": "30 RUE MUSTEL, Rouen",
+    "lat": 49.450203,
+    "lng": 1.071698,
+    "transactions": [
+      {
+        "date": "2024-09-24",
+        "priceEur": 224000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-23",
+        "priceEur": 75200,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "c89510af5aca": {
+    "id": "c89510af5aca",
+    "label": "181 RUE DU RENARD, Rouen",
+    "lat": 49.450585,
+    "lng": 1.073457,
+    "transactions": [
+      {
+        "date": "2022-12-05",
+        "priceEur": 245000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-05",
+        "priceEur": 245000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-05",
+        "priceEur": 245000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-29",
+        "priceEur": 415000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-29",
+        "priceEur": 415000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-29",
+        "priceEur": 415000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-29",
+        "priceEur": 415000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-29",
+        "priceEur": 415000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d404753514a": {
+    "id": "8d404753514a",
+    "label": "77 RUE STANISLAS GIRARDIN, Rouen",
+    "lat": 49.448807,
+    "lng": 1.076381,
+    "transactions": [
+      {
+        "date": "2022-11-07",
+        "priceEur": 160900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "577327ab93e8": {
+    "id": "577327ab93e8",
+    "label": "94 RUE THOMAS DUBOSC, Rouen",
+    "lat": 49.452683,
+    "lng": 1.076621,
+    "transactions": [
+      {
+        "date": "2022-10-25",
+        "priceEur": 392000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "10b988b230ea": {
+    "id": "10b988b230ea",
+    "label": "18 RUE FRANCOIS LAMY, Rouen",
+    "lat": 49.448311,
+    "lng": 1.074879,
+    "transactions": [
+      {
+        "date": "2022-10-27",
+        "priceEur": 173000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "9232d4beea1b": {
+    "id": "9232d4beea1b",
+    "label": "18B RUE FRANCOIS LAMY, Rouen",
+    "lat": 49.448368,
+    "lng": 1.074824,
+    "transactions": [
+      {
+        "date": "2022-10-27",
+        "priceEur": 187000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd361c255759": {
+    "id": "dd361c255759",
+    "label": "35 RUE MUSTEL, Rouen",
+    "lat": 49.449685,
+    "lng": 1.071253,
+    "transactions": [
+      {
+        "date": "2024-01-19",
+        "priceEur": 320000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-09",
+        "priceEur": 336300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-28",
+        "priceEur": 238000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "5ca3084d5f9f": {
+    "id": "5ca3084d5f9f",
+    "label": "118 RUE CHASSELIEVRE, Rouen",
+    "lat": 49.452266,
+    "lng": 1.072234,
+    "transactions": [
+      {
+        "date": "2022-12-07",
+        "priceEur": 414000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "f68aaf41a68c": {
+    "id": "f68aaf41a68c",
+    "label": "213 RUE DU RENARD, Rouen",
+    "lat": 49.451493,
+    "lng": 1.066024,
+    "transactions": [
+      {
+        "date": "2025-01-02",
+        "priceEur": 92000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-13",
+        "priceEur": 53100,
+        "typeLocal": "Appartement",
+        "surfaceM2": 15,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c5a793f2786": {
+    "id": "7c5a793f2786",
+    "label": "32B RUE MUSTEL, Rouen",
+    "lat": 49.450305,
+    "lng": 1.071347,
+    "transactions": [
+      {
+        "date": "2023-02-08",
+        "priceEur": 377500,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "50aecb0058b6": {
+    "id": "50aecb0058b6",
+    "label": "52B RUE MUSTEL, Rouen",
+    "lat": 49.450896,
+    "lng": 1.068989,
+    "transactions": [
+      {
+        "date": "2023-04-04",
+        "priceEur": 105000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d13fdcb4207": {
+    "id": "5d13fdcb4207",
+    "label": "123 RUE THOMAS DUBOSC, Rouen",
+    "lat": 49.453298,
+    "lng": 1.074212,
+    "transactions": [
+      {
+        "date": "2023-04-14",
+        "priceEur": 242092,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "9cdab7c65e46": {
+    "id": "9cdab7c65e46",
+    "label": "104 RUE CHASSELIEVRE, Rouen",
+    "lat": 49.452015,
+    "lng": 1.073231,
+    "transactions": [
+      {
+        "date": "2023-04-28",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d49a4941870": {
+    "id": "4d49a4941870",
+    "label": "103B RUE THOMAS DUBOSC, Rouen",
+    "lat": 49.452591,
+    "lng": 1.07586,
+    "transactions": [
+      {
+        "date": "2023-06-06",
+        "priceEur": 343000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "54c359430f2a": {
+    "id": "54c359430f2a",
+    "label": "34 RUE FRANCOIS LAMY, Rouen",
+    "lat": 49.448027,
+    "lng": 1.074047,
+    "transactions": [
+      {
+        "date": "2023-07-19",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3f0e4a320a4": {
+    "id": "d3f0e4a320a4",
+    "label": "3 RUE DU COLOMBIER, Rouen",
+    "lat": 49.450834,
+    "lng": 1.070169,
+    "transactions": [
+      {
+        "date": "2024-08-02",
+        "priceEur": 73000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 26,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-19",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-20",
+        "priceEur": 55000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-04",
+        "priceEur": 74000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-12",
+        "priceEur": 71000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 26,
+        "isVefa": false
+      }
+    ]
+  },
+  "187fd9078127": {
+    "id": "187fd9078127",
+    "label": "96 RUE CHASSELIEVRE, Rouen",
+    "lat": 49.451827,
+    "lng": 1.073945,
+    "transactions": [
+      {
+        "date": "2023-07-20",
+        "priceEur": 302000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "22b17e179071": {
+    "id": "22b17e179071",
+    "label": "4B RUE DU COLOMBIER, Rouen",
+    "lat": 49.450974,
+    "lng": 1.070759,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 312900,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "09bed4d8bd78": {
+    "id": "09bed4d8bd78",
+    "label": "17 RUE D ALGER, Rouen",
+    "lat": 49.448083,
+    "lng": 1.07599,
+    "transactions": [
+      {
+        "date": "2023-09-11",
+        "priceEur": 145500,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "ec8e3fc65343": {
+    "id": "ec8e3fc65343",
+    "label": "197 RUE DU RENARD, Rouen",
+    "lat": 49.451155,
+    "lng": 1.07069,
+    "transactions": [
+      {
+        "date": "2023-10-02",
+        "priceEur": 200000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-02",
+        "priceEur": 200000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 21,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0e7c20ae818": {
+    "id": "b0e7c20ae818",
+    "label": "105 RUE THOMAS DUBOSC, Rouen",
+    "lat": 49.452747,
+    "lng": 1.075648,
+    "transactions": [
+      {
+        "date": "2023-09-08",
+        "priceEur": 610000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0b59238037c": {
+    "id": "e0b59238037c",
+    "label": "125 RUE CHASSELIEVRE, Rouen",
+    "lat": 49.45149,
+    "lng": 1.073094,
+    "transactions": [
+      {
+        "date": "2023-11-07",
+        "priceEur": 399000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "56660951054f": {
+    "id": "56660951054f",
+    "label": "82 RUE CHASSELIEVRE, Rouen",
+    "lat": 49.451518,
+    "lng": 1.075349,
+    "transactions": [
+      {
+        "date": "2023-12-13",
+        "priceEur": 80320,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1a0a2245bcf": {
+    "id": "b1a0a2245bcf",
+    "label": "59 RUE GUILLAUME D ESTOUTEVILLE, Rouen",
+    "lat": 49.453113,
+    "lng": 1.065853,
+    "transactions": [
+      {
+        "date": "2023-12-14",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "967ba5814a47": {
+    "id": "967ba5814a47",
+    "label": "19 RUE DU BEL AIR, Rouen",
+    "lat": 49.453078,
+    "lng": 1.076362,
+    "transactions": [
+      {
+        "date": "2024-01-08",
+        "priceEur": 381700,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "c72ea4f59c3a": {
+    "id": "c72ea4f59c3a",
+    "label": "47 RUE SAINT-FILLEUL, Rouen",
+    "lat": 49.450338,
+    "lng": 1.072325,
+    "transactions": [
+      {
+        "date": "2024-03-11",
+        "priceEur": 343000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "a608605000cb": {
+    "id": "a608605000cb",
+    "label": "23 RUE GUILLAUME LE TALLEUR, Rouen",
+    "lat": 49.452242,
+    "lng": 1.074436,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      },
+      {
+        "date": "2024-03-25",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "48545433e7b7": {
+    "id": "48545433e7b7",
+    "label": "13 RUE ALEXANDRA DAVID-NEEL, Rouen",
+    "lat": 49.448695,
+    "lng": 1.069381,
+    "transactions": [
+      {
+        "date": "2024-04-16",
+        "priceEur": 248000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "510135b75d0d": {
+    "id": "510135b75d0d",
+    "label": "117 RUE CHASSELIEVRE, Rouen",
+    "lat": 49.451437,
+    "lng": 1.073708,
+    "transactions": [
+      {
+        "date": "2024-06-05",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf6f3f0fd244": {
+    "id": "cf6f3f0fd244",
+    "label": "1 ALL DU FOND DU VAL, Mont-Saint-Aignan",
+    "lat": 49.453397,
+    "lng": 1.071207,
+    "transactions": [
+      {
+        "date": "2024-06-27",
+        "priceEur": 146500,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0ad84239526": {
+    "id": "e0ad84239526",
+    "label": "46 RUE MARTIN FRERES, Rouen",
+    "lat": 49.44913,
+    "lng": 1.074164,
+    "transactions": [
+      {
+        "date": "2024-06-21",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "f90a18314137": {
+    "id": "f90a18314137",
+    "label": "19 RUE MARTIN FRERES, Rouen",
+    "lat": 49.448567,
+    "lng": 1.075422,
+    "transactions": [
+      {
+        "date": "2025-05-20",
+        "priceEur": 101000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-02",
+        "priceEur": 162750,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-24",
+        "priceEur": 75600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b69e5b3e034": {
+    "id": "1b69e5b3e034",
+    "label": "41 RUE SAINT-FILLEUL, Rouen",
+    "lat": 49.450139,
+    "lng": 1.07203,
+    "transactions": [
+      {
+        "date": "2024-07-29",
+        "priceEur": 363000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "06cceadf6311": {
+    "id": "06cceadf6311",
+    "label": "103 RUE THOMAS DUBOSC, Rouen",
+    "lat": 49.452561,
+    "lng": 1.076114,
+    "transactions": [
+      {
+        "date": "2024-07-15",
+        "priceEur": 505000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "6679c3673042": {
+    "id": "6679c3673042",
+    "label": "148B RUE DU RENARD, Rouen",
+    "lat": 49.45231,
+    "lng": 1.067849,
+    "transactions": [
+      {
+        "date": "2024-08-12",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d49fe8e4417": {
+    "id": "0d49fe8e4417",
+    "label": "169 RUE DU RENARD, Rouen",
+    "lat": 49.450299,
+    "lng": 1.074301,
+    "transactions": [
+      {
+        "date": "2024-08-30",
+        "priceEur": 324000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "6aa8b722c603": {
+    "id": "6aa8b722c603",
+    "label": "28 RUE HENRI VERMONT, Rouen",
+    "lat": 49.452601,
+    "lng": 1.075484,
+    "transactions": [
+      {
+        "date": "2024-09-25",
+        "priceEur": 428805,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a7c21f1f12e": {
+    "id": "2a7c21f1f12e",
+    "label": "22 RUE GUILLAUME LE TALLEUR, Rouen",
+    "lat": 49.452514,
+    "lng": 1.074438,
+    "transactions": [
+      {
+        "date": "2024-10-03",
+        "priceEur": 284000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e95f7bca41e": {
+    "id": "5e95f7bca41e",
+    "label": "42 RUE HENRI VERMONT, Rouen",
+    "lat": 49.453026,
+    "lng": 1.074296,
+    "transactions": [
+      {
+        "date": "2024-10-03",
+        "priceEur": 346000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "8de529255f8c": {
+    "id": "8de529255f8c",
+    "label": "137 RUE CHASSELIEVRE, Rouen",
+    "lat": 49.451664,
+    "lng": 1.072152,
+    "transactions": [
+      {
+        "date": "2024-10-14",
+        "priceEur": 317000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "c981fdaa085b": {
+    "id": "c981fdaa085b",
+    "label": "11 RUE DE LA CROIX D YONVILLE, Rouen",
+    "lat": 49.450755,
+    "lng": 1.066695,
+    "transactions": [
+      {
+        "date": "2024-10-29",
+        "priceEur": 239500,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d886f9709a4": {
+    "id": "7d886f9709a4",
+    "label": "99 RUE CHASSELIEVRE, Rouen",
+    "lat": 49.451105,
+    "lng": 1.075433,
+    "transactions": [
+      {
+        "date": "2024-12-23",
+        "priceEur": 272000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c749afbda9c": {
+    "id": "3c749afbda9c",
+    "label": "146 RUE DU RENARD, Rouen",
+    "lat": 49.452419,
+    "lng": 1.068673,
+    "transactions": [
+      {
+        "date": "2024-12-19",
+        "priceEur": 136800,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "70b5c7d90f6c": {
+    "id": "70b5c7d90f6c",
+    "label": "154 RUE DU RENARD, Rouen",
+    "lat": 49.452433,
+    "lng": 1.067289,
+    "transactions": [
+      {
+        "date": "2025-01-03",
+        "priceEur": 285650,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2a2b41e6bff": {
+    "id": "a2a2b41e6bff",
+    "label": "11 RUE GUILLAUME LE TALLEUR, Rouen",
+    "lat": 49.451935,
+    "lng": 1.07506,
+    "transactions": [
+      {
+        "date": "2025-01-22",
+        "priceEur": 415000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "278e53f16c75": {
+    "id": "278e53f16c75",
+    "label": "29 RUE FRANCOIS LAMY, Rouen",
+    "lat": 49.447495,
+    "lng": 1.07421,
+    "transactions": [
+      {
+        "date": "2025-06-24",
+        "priceEur": 61944,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-17",
+        "priceEur": 74725,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-28",
+        "priceEur": 507380,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-28",
+        "priceEur": 507380,
+        "typeLocal": "Appartement",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-28",
+        "priceEur": 507380,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-14",
+        "priceEur": 142013,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-14",
+        "priceEur": 142013,
+        "typeLocal": "Appartement",
+        "surfaceM2": 24,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-14",
+        "priceEur": 73796,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-12",
+        "priceEur": 187163,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-12",
+        "priceEur": 187163,
+        "typeLocal": "Appartement",
+        "surfaceM2": 23,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-12",
+        "priceEur": 167332,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-04",
+        "priceEur": 74971,
+        "typeLocal": "Appartement",
+        "surfaceM2": 24,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e72c4cd98ac": {
+    "id": "6e72c4cd98ac",
+    "label": "159 RUE DE CONSTANTINE, Rouen",
+    "lat": 49.448762,
+    "lng": 1.067295,
+    "transactions": [
+      {
+        "date": "2025-03-17",
+        "priceEur": 240000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-17",
+        "priceEur": 240000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f00efc97ccd": {
+    "id": "5f00efc97ccd",
+    "label": "78 RUE DE CONSTANTINE, Rouen",
+    "lat": 49.447212,
+    "lng": 1.075473,
+    "transactions": [
+      {
+        "date": "2025-03-19",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6fe783aa0fe": {
+    "id": "f6fe783aa0fe",
+    "label": "6 RUE MANCHON FRERES, Rouen",
+    "lat": 49.448695,
+    "lng": 1.069381,
+    "transactions": [
+      {
+        "date": "2025-03-24",
+        "priceEur": 226000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "e079e429e24b": {
+    "id": "e079e429e24b",
+    "label": "213B RUE DU RENARD, Rouen",
+    "lat": 49.45151,
+    "lng": 1.065998,
+    "transactions": [
+      {
+        "date": "2025-06-24",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

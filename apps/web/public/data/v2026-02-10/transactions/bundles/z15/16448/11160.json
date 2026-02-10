@@ -1,0 +1,62 @@
+{
+  "d6358e6dc319": {
+    "id": "d6358e6dc319",
+    "label": "436 RTE D AUTRETOT, Rocquefort",
+    "lat": 49.662468,
+    "lng": 0.707701,
+    "transactions": [
+      {
+        "date": "2021-05-14",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "83a3a0bd9ddf": {
+    "id": "83a3a0bd9ddf",
+    "label": "278 RUE DU CALVAIRE, Rocquefort",
+    "lat": 49.665214,
+    "lng": 0.703394,
+    "transactions": [
+      {
+        "date": "2023-09-11",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "7525b3c0bf28": {
+    "id": "7525b3c0bf28",
+    "label": "730 RTE D AUTRETOT, Rocquefort",
+    "lat": 49.66118,
+    "lng": 0.710704,
+    "transactions": [
+      {
+        "date": "2024-02-29",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "651fb0a14169": {
+    "id": "651fb0a14169",
+    "label": "361 RTE D AUTRETOT, Rocquefort",
+    "lat": 49.662514,
+    "lng": 0.706069,
+    "transactions": [
+      {
+        "date": "2024-11-12",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  }
+}

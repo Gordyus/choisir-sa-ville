@@ -1,0 +1,62 @@
+{
+  "6a6a6e1f106b": {
+    "id": "6a6a6e1f106b",
+    "label": "3748 LA FONTAINE, Hénouville",
+    "lat": 49.483633,
+    "lng": 0.926728,
+    "transactions": [
+      {
+        "date": "2021-04-23",
+        "priceEur": 142500,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "00e1dffa360c": {
+    "id": "00e1dffa360c",
+    "label": "5091 LA FONTAINE, Hénouville",
+    "lat": 49.484466,
+    "lng": 0.924597,
+    "transactions": [
+      {
+        "date": "2022-05-24",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9bfcf7adaa3": {
+    "id": "a9bfcf7adaa3",
+    "label": "5101 LA FONTAINE, Hénouville",
+    "lat": 49.483365,
+    "lng": 0.924461,
+    "transactions": [
+      {
+        "date": "2022-05-17",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd08a3ccab00": {
+    "id": "cd08a3ccab00",
+    "label": "3936 LA FONTAINE, Hénouville",
+    "lat": 49.484434,
+    "lng": 0.924597,
+    "transactions": [
+      {
+        "date": "2022-09-14",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "da5fa9bc6693": {
+    "id": "da5fa9bc6693",
+    "label": "753 RUE RENE CABY, Vred",
+    "lat": 50.395273,
+    "lng": 3.220725,
+    "transactions": [
+      {
+        "date": "2020-09-24",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "49e8f593a3d4": {
+    "id": "49e8f593a3d4",
+    "label": "181 RUE DU MOULIN, Vred",
+    "lat": 50.398092,
+    "lng": 3.229966,
+    "transactions": [
+      {
+        "date": "2020-12-11",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "548c63f3743f": {
+    "id": "548c63f3743f",
+    "label": "789 RUE SUZANNE LANOY, Vred",
+    "lat": 50.395998,
+    "lng": 3.229913,
+    "transactions": [
+      {
+        "date": "2021-06-21",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "3255f7bb07a8": {
+    "id": "3255f7bb07a8",
+    "label": "167 RUE DU MOULIN, Vred",
+    "lat": 50.397497,
+    "lng": 3.229979,
+    "transactions": [
+      {
+        "date": "2021-08-30",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "b527870a74b2": {
+    "id": "b527870a74b2",
+    "label": "476 RUE RENE CABY, Vred",
+    "lat": 50.394854,
+    "lng": 3.224888,
+    "transactions": [
+      {
+        "date": "2022-04-30",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "d795645d3baf": {
+    "id": "d795645d3baf",
+    "label": "698 RUE RENE CABY, Vred",
+    "lat": 50.395702,
+    "lng": 3.221847,
+    "transactions": [
+      {
+        "date": "2022-08-08",
+        "priceEur": 242490,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "47c28b89c941": {
+    "id": "47c28b89c941",
+    "label": "768 RUE RENE CABY, Vred",
+    "lat": 50.396192,
+    "lng": 3.221049,
+    "transactions": [
+      {
+        "date": "2022-08-24",
+        "priceEur": 272000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "fcc72c9d53d3": {
+    "id": "fcc72c9d53d3",
+    "label": "99 RUE DU MOULIN, Vred",
+    "lat": 50.396826,
+    "lng": 3.229711,
+    "transactions": [
+      {
+        "date": "2024-12-11",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

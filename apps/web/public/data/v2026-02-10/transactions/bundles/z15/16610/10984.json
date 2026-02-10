@@ -1,0 +1,47 @@
+{
+  "355f6965cfd7": {
+    "id": "355f6965cfd7",
+    "label": "2060 RTE DE WYLDER, Wormhout",
+    "lat": 50.89685,
+    "lng": 2.487429,
+    "transactions": [
+      {
+        "date": "2021-09-11",
+        "priceEur": 270525,
+        "typeLocal": "Maison",
+        "surfaceM2": 171,
+        "isVefa": false
+      }
+    ]
+  },
+  "94dffffea721": {
+    "id": "94dffffea721",
+    "label": "900 RTE DE WORMHOUT CD 55, Wylder",
+    "lat": 50.90287,
+    "lng": 2.487052,
+    "transactions": [
+      {
+        "date": "2022-11-04",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "726ee66a73b1": {
+    "id": "726ee66a73b1",
+    "label": "160 VC KRUYS STRAETE, Wylder",
+    "lat": 50.900933,
+    "lng": 2.493378,
+    "transactions": [
+      {
+        "date": "2025-06-05",
+        "priceEur": 343500,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  }
+}

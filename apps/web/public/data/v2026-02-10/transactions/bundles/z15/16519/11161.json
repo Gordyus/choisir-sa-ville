@@ -1,0 +1,32 @@
+{
+  "96a68dd1ebfb": {
+    "id": "96a68dd1ebfb",
+    "label": "5190 LE MOULIN DE LA ROSIERE, Beaubec-la-Rosière",
+    "lat": 49.655369,
+    "lng": 1.483946,
+    "transactions": [
+      {
+        "date": "2021-12-01",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd4cc5a046ca": {
+    "id": "cd4cc5a046ca",
+    "label": "5037 LE MONT GRIPON, Beaubec-la-Rosière",
+    "lat": 49.657449,
+    "lng": 1.491801,
+    "transactions": [
+      {
+        "date": "2021-01-20",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

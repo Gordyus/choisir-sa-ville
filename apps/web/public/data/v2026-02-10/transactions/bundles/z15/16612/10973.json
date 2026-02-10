@@ -1,0 +1,62 @@
+{
+  "974916008ed0": {
+    "id": "974916008ed0",
+    "label": "2251 RUE HAEGHE MEULEN STRAETE, Warhem",
+    "lat": 50.975689,
+    "lng": 2.512948,
+    "transactions": [
+      {
+        "date": "2024-04-22",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "5df31ffd4530": {
+    "id": "5df31ffd4530",
+    "label": "798 RUE MILLE BRUGGHE STRAETE VC 5, Warhem",
+    "lat": 50.978648,
+    "lng": 2.505559,
+    "transactions": [
+      {
+        "date": "2024-05-22",
+        "priceEur": 188194.56,
+        "typeLocal": "Maison",
+        "surfaceM2": 187,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a0e4f7d34b4": {
+    "id": "4a0e4f7d34b4",
+    "label": "1665 RUE MILLE BRUGGHE STRAETE VC 5, Warhem",
+    "lat": 50.972963,
+    "lng": 2.514088,
+    "transactions": [
+      {
+        "date": "2024-09-11",
+        "priceEur": 200100,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e598e4f0e52": {
+    "id": "6e598e4f0e52",
+    "label": "384 VC STEEN WEG VC 3, Warhem",
+    "lat": 50.978459,
+    "lng": 2.513907,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 209150,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

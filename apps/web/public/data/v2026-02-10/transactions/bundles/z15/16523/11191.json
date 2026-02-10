@@ -1,0 +1,62 @@
+{
+  "5ca0ec021d63": {
+    "id": "5ca0ec021d63",
+    "label": "64 RUE DE LA POTERIE, La Feuillie",
+    "lat": 49.443522,
+    "lng": 1.527878,
+    "transactions": [
+      {
+        "date": "2021-03-12",
+        "priceEur": 130000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "e3a0145fa6f3": {
+    "id": "e3a0145fa6f3",
+    "label": "33 IMP DE LA POTERIE, La Feuillie",
+    "lat": 49.442659,
+    "lng": 1.534977,
+    "transactions": [
+      {
+        "date": "2021-04-12",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "dc95edff2644": {
+    "id": "dc95edff2644",
+    "label": "1 IMP DE LA POTERIE, La Feuillie",
+    "lat": 49.441166,
+    "lng": 1.531043,
+    "transactions": [
+      {
+        "date": "2022-10-11",
+        "priceEur": 211000,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "94677d8f0ab4": {
+    "id": "94677d8f0ab4",
+    "label": "79 RUE DE LA POTERIE, La Feuillie",
+    "lat": 49.442676,
+    "lng": 1.530022,
+    "transactions": [
+      {
+        "date": "2023-06-29",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  }
+}

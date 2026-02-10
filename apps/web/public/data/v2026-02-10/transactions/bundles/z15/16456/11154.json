@@ -1,0 +1,92 @@
+{
+  "bc9702be1c22": {
+    "id": "bc9702be1c22",
+    "label": "529 RUE DE LA FOLIE, Doudeville",
+    "lat": 49.707781,
+    "lng": 0.797601,
+    "transactions": [
+      {
+        "date": "2020-07-20",
+        "priceEur": 297000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae603b848532": {
+    "id": "ae603b848532",
+    "label": "184 RUE VEYE GOUTTE, Doudeville",
+    "lat": 49.70932,
+    "lng": 0.791536,
+    "transactions": [
+      {
+        "date": "2022-09-08",
+        "priceEur": 332500,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "d2856f64119e": {
+    "id": "d2856f64119e",
+    "label": "248 RUE DU BOIS MARIE, Doudeville",
+    "lat": 49.709259,
+    "lng": 0.796403,
+    "transactions": [
+      {
+        "date": "2023-01-23",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3fc9e0dcf68": {
+    "id": "c3fc9e0dcf68",
+    "label": "188 RUE DU BOIS MARIE, Doudeville",
+    "lat": 49.709459,
+    "lng": 0.797324,
+    "transactions": [
+      {
+        "date": "2024-02-26",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "2cef94ed8ed7": {
+    "id": "2cef94ed8ed7",
+    "label": "1011 RUE DU VAL AUX CAILLES, Yvecrique",
+    "lat": 49.705651,
+    "lng": 0.79401,
+    "transactions": [
+      {
+        "date": "2024-10-07",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "e952a71cd64e": {
+    "id": "e952a71cd64e",
+    "label": "584 RUE DU BOIS MARIE, Doudeville",
+    "lat": 49.708316,
+    "lng": 0.792025,
+    "transactions": [
+      {
+        "date": "2024-11-08",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

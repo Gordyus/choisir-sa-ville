@@ -1,0 +1,77 @@
+{
+  "526ac0461c89": {
+    "id": "526ac0461c89",
+    "label": "5055 LE BOURG, Maucomble",
+    "lat": 49.680388,
+    "lng": 1.328891,
+    "transactions": [
+      {
+        "date": "2022-04-25",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "92852b69dd01": {
+    "id": "92852b69dd01",
+    "label": "5142 LE BOURG, Maucomble",
+    "lat": 49.680244,
+    "lng": 1.328445,
+    "transactions": [
+      {
+        "date": "2024-01-26",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b715722a636": {
+    "id": "1b715722a636",
+    "label": "5137 PLAINE DE MAUCOMBLE, Maucomble",
+    "lat": 49.679359,
+    "lng": 1.324732,
+    "transactions": [
+      {
+        "date": "2024-03-01",
+        "priceEur": 180400,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "41ac55c0e794": {
+    "id": "41ac55c0e794",
+    "label": "45 RUE DE LA LIBERATION, Maucomble",
+    "lat": 49.680551,
+    "lng": 1.329316,
+    "transactions": [
+      {
+        "date": "2024-05-21",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "badd1e2630c9": {
+    "id": "badd1e2630c9",
+    "label": "24 RUE DU BUIS, Maucomble",
+    "lat": 49.680106,
+    "lng": 1.327327,
+    "transactions": [
+      {
+        "date": "2024-07-18",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

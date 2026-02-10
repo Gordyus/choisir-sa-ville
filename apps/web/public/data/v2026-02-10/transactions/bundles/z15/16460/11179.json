@@ -1,0 +1,32 @@
+{
+  "a7e80b12e99c": {
+    "id": "a7e80b12e99c",
+    "label": "1 ALL DES HETRES, Épinay-sur-Duclair",
+    "lat": 49.526239,
+    "lng": 0.836112,
+    "transactions": [
+      {
+        "date": "2023-06-06",
+        "priceEur": 207050,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "a6e33fce7434": {
+    "id": "a6e33fce7434",
+    "label": "8 ALL DES HETRES, Épinay-sur-Duclair",
+    "lat": 49.525565,
+    "lng": 0.836225,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 194000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

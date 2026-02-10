@@ -1,0 +1,47 @@
+{
+  "fec892cc8cd1": {
+    "id": "fec892cc8cd1",
+    "label": "103 CHE DU FYS, Cideville",
+    "lat": 49.609709,
+    "lng": 0.878949,
+    "transactions": [
+      {
+        "date": "2021-03-26",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "a246d51b2784": {
+    "id": "a246d51b2784",
+    "label": "165 RUE DU FYS, Cideville",
+    "lat": 49.610141,
+    "lng": 0.87993,
+    "transactions": [
+      {
+        "date": "2022-05-23",
+        "priceEur": 275800,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa6e8d838979": {
+    "id": "fa6e8d838979",
+    "label": "1180 RTE DE CROIXMARE, Cideville",
+    "lat": 49.609347,
+    "lng": 0.882324,
+    "transactions": [
+      {
+        "date": "2024-02-07",
+        "priceEur": 68500,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  }
+}

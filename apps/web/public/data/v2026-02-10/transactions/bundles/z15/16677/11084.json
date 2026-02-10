@@ -1,0 +1,47 @@
+{
+  "89b98d556efe": {
+    "id": "89b98d556efe",
+    "label": "5 RUE DE BOURGOGNE, Tilloy-lez-Cambrai",
+    "lat": 50.198487,
+    "lng": 3.220983,
+    "transactions": [
+      {
+        "date": "2021-08-24",
+        "priceEur": 197000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a6e61ea803a": {
+    "id": "4a6e61ea803a",
+    "label": "1 RUE DE BOURGOGNE, Tilloy-lez-Cambrai",
+    "lat": 50.198896,
+    "lng": 3.221385,
+    "transactions": [
+      {
+        "date": "2022-04-21",
+        "priceEur": 234500,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "115c7ccc081b": {
+    "id": "115c7ccc081b",
+    "label": "51 RUE DE MARQUETTE, Tilloy-lez-Cambrai",
+    "lat": 50.198019,
+    "lng": 3.221835,
+    "transactions": [
+      {
+        "date": "2023-06-21",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 172,
+        "isVefa": false
+      }
+    ]
+  }
+}

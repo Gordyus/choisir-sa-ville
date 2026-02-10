@@ -1,0 +1,84 @@
+{
+  "d0583dbb1959": {
+    "id": "d0583dbb1959",
+    "label": "6 RUE DES CAMPANULES, Téteghem-Coudekerque-Village",
+    "lat": 50.992549,
+    "lng": 2.418956,
+    "transactions": [
+      {
+        "date": "2021-08-30",
+        "priceEur": 355000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "028345e2adbb": {
+    "id": "028345e2adbb",
+    "label": "101 RUE PRINCIPALE CD 72, Téteghem-Coudekerque-Village",
+    "lat": 50.991664,
+    "lng": 2.417385,
+    "transactions": [
+      {
+        "date": "2024-08-16",
+        "priceEur": 280250,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-08",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f8555a34405": {
+    "id": "3f8555a34405",
+    "label": "372 RTE DES MOERES VC 2, Téteghem-Coudekerque-Village",
+    "lat": 50.990263,
+    "lng": 2.423505,
+    "transactions": [
+      {
+        "date": "2021-12-01",
+        "priceEur": 323000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "e68613dec46b": {
+    "id": "e68613dec46b",
+    "label": "9 RUE DES MOUETTES, Téteghem-Coudekerque-Village",
+    "lat": 50.992534,
+    "lng": 2.417001,
+    "transactions": [
+      {
+        "date": "2022-11-29",
+        "priceEur": 312950,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "b560f25c35a9": {
+    "id": "b560f25c35a9",
+    "label": "14 RUE DES MAGNOLIAS, Téteghem-Coudekerque-Village",
+    "lat": 50.991541,
+    "lng": 2.420626,
+    "transactions": [
+      {
+        "date": "2023-03-28",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "fba7f6fc32de": {
+    "id": "fba7f6fc32de",
+    "label": "5056 LES TRONQUETS, Fontaine-en-Bray",
+    "lat": 49.673976,
+    "lng": 1.428145,
+    "transactions": [
+      {
+        "date": "2020-10-21",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "01d460853079": {
+    "id": "01d460853079",
+    "label": "5008 LES FONTAINES, Fontaine-en-Bray",
+    "lat": 49.674038,
+    "lng": 1.419788,
+    "transactions": [
+      {
+        "date": "2022-03-26",
+        "priceEur": 115500,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

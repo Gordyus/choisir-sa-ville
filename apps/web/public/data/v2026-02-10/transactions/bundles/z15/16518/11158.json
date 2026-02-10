@@ -1,0 +1,47 @@
+{
+  "6bea59314a25": {
+    "id": "6bea59314a25",
+    "label": "2590 RTE DE SOMMERY, Saint-Saire",
+    "lat": 49.675551,
+    "lng": 1.481997,
+    "transactions": [
+      {
+        "date": "2020-07-01",
+        "priceEur": 222000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "765aae55170e": {
+    "id": "765aae55170e",
+    "label": "1038 CHE DE LA VALLEE, Saint-Saire",
+    "lat": 49.681383,
+    "lng": 1.474599,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "d12a0834df62": {
+    "id": "d12a0834df62",
+    "label": "2580 RTE DE SOMMERY, Saint-Saire",
+    "lat": 49.675558,
+    "lng": 1.482378,
+    "transactions": [
+      {
+        "date": "2020-11-23",
+        "priceEur": 136000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  }
+}

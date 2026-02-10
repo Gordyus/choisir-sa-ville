@@ -1,0 +1,129 @@
+{
+  "e331511c06ce": {
+    "id": "e331511c06ce",
+    "label": "5220 LA HERISSONNERIE, Saint-Eustache-la-Forêt",
+    "lat": 49.548637,
+    "lng": 0.451428,
+    "transactions": [
+      {
+        "date": "2024-05-06",
+        "priceEur": 227740,
+        "typeLocal": "Maison",
+        "surfaceM2": 161,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-17",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 161,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c0370253d12": {
+    "id": "2c0370253d12",
+    "label": "252 GR GRANDE RUE, Saint-Eustache-la-Forêt",
+    "lat": 49.552135,
+    "lng": 0.451077,
+    "transactions": [
+      {
+        "date": "2020-11-24",
+        "priceEur": 142200,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "89070fa33229": {
+    "id": "89070fa33229",
+    "label": "689 GR GRANDE RUE, Saint-Eustache-la-Forêt",
+    "lat": 49.548145,
+    "lng": 0.450912,
+    "transactions": [
+      {
+        "date": "2021-08-25",
+        "priceEur": 231300,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "d447a0fd0d7f": {
+    "id": "d447a0fd0d7f",
+    "label": "50 RUE ANDRE CAPLET, Saint-Eustache-la-Forêt",
+    "lat": 49.553612,
+    "lng": 0.453181,
+    "transactions": [
+      {
+        "date": "2022-12-01",
+        "priceEur": 257500,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b43116fc094": {
+    "id": "1b43116fc094",
+    "label": "215 RUE DU STADE, Saint-Eustache-la-Forêt",
+    "lat": 49.552256,
+    "lng": 0.454418,
+    "transactions": [
+      {
+        "date": "2023-07-21",
+        "priceEur": 273000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c7baf528f7d": {
+    "id": "4c7baf528f7d",
+    "label": "5176 LA CHAINAIE HAUTOT, Saint-Eustache-la-Forêt",
+    "lat": 49.553246,
+    "lng": 0.450833,
+    "transactions": [
+      {
+        "date": "2024-01-23",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "6eb7b7052784": {
+    "id": "6eb7b7052784",
+    "label": "174 RUE ANDRE CAPLET, Saint-Eustache-la-Forêt",
+    "lat": 49.552708,
+    "lng": 0.453565,
+    "transactions": [
+      {
+        "date": "2024-01-26",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d25ff6fe37a": {
+    "id": "8d25ff6fe37a",
+    "label": "5378 LE BOURG, Saint-Eustache-la-Forêt",
+    "lat": 49.552402,
+    "lng": 0.451152,
+    "transactions": [
+      {
+        "date": "2025-03-25",
+        "priceEur": 36000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "37d189f7e35b": {
+    "id": "37d189f7e35b",
+    "label": "307B RTE DE LA FERME CHEVALLIER, Saint-Sauveur-d'Émalleville",
+    "lat": 49.616066,
+    "lng": 0.310943,
+    "transactions": [
+      {
+        "date": "2024-01-12",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-12",
+        "priceEur": 236000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a5858161d44": {
+    "id": "4a5858161d44",
+    "label": "312 RUE DE LA FERME CHALOT, Saint-Sauveur-d'Émalleville",
+    "lat": 49.610831,
+    "lng": 0.317881,
+    "transactions": [
+      {
+        "date": "2024-12-18",
+        "priceEur": 224000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "9d8680bbf3df": {
+    "id": "9d8680bbf3df",
+    "label": "639 RTE DE PARIS, Le Bois-Robert",
+    "lat": 49.834862,
+    "lng": 1.13973,
+    "transactions": [
+      {
+        "date": "2021-07-13",
+        "priceEur": 182500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d5975eb479a": {
+    "id": "9d5975eb479a",
+    "label": "111 RUE DE LA VARENNE, Le Bois-Robert",
+    "lat": 49.834262,
+    "lng": 1.141078,
+    "transactions": [
+      {
+        "date": "2024-05-17",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

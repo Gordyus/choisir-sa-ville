@@ -1,0 +1,776 @@
+{
+  "a2bf3180ee1f": {
+    "id": "a2bf3180ee1f",
+    "label": "6 RUE NOUVELLE, Cappelle-la-Grande",
+    "lat": 50.99933,
+    "lng": 2.366321,
+    "transactions": [
+      {
+        "date": "2020-08-06",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "553503c5703c": {
+    "id": "553503c5703c",
+    "label": "2 RUE DU HUIT MAI 1945, Cappelle-la-Grande",
+    "lat": 50.997243,
+    "lng": 2.367091,
+    "transactions": [
+      {
+        "date": "2020-09-01",
+        "priceEur": 164000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "1521bb751aed": {
+    "id": "1521bb751aed",
+    "label": "218 AV DU GEN DE GAULLE, Cappelle-la-Grande",
+    "lat": 50.998633,
+    "lng": 2.369072,
+    "transactions": [
+      {
+        "date": "2020-09-01",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "58f85640dc03": {
+    "id": "58f85640dc03",
+    "label": "2 RUE DES ANCIENS AFN, Cappelle-la-Grande",
+    "lat": 50.997568,
+    "lng": 2.367647,
+    "transactions": [
+      {
+        "date": "2021-08-26",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "f33327d3a0a5": {
+    "id": "f33327d3a0a5",
+    "label": "51 RUE DU CRAYHOF, Cappelle-la-Grande",
+    "lat": 50.996002,
+    "lng": 2.370275,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "62f0ab929527": {
+    "id": "62f0ab929527",
+    "label": "22 RUE DU LANGHE GRACHT, Cappelle-la-Grande",
+    "lat": 50.995094,
+    "lng": 2.368903,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "002e1348ee2a": {
+    "id": "002e1348ee2a",
+    "label": "14 RUE DU LANGHE GRACHT, Cappelle-la-Grande",
+    "lat": 50.995331,
+    "lng": 2.369175,
+    "transactions": [
+      {
+        "date": "2021-11-15",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea00ed5666ee": {
+    "id": "ea00ed5666ee",
+    "label": "31 RUE DU CRAYHOF, Cappelle-la-Grande",
+    "lat": 50.995689,
+    "lng": 2.369697,
+    "transactions": [
+      {
+        "date": "2021-11-18",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb153f01f137": {
+    "id": "bb153f01f137",
+    "label": "188 AV DU GEN DE GAULLE, Cappelle-la-Grande",
+    "lat": 50.998513,
+    "lng": 2.366526,
+    "transactions": [
+      {
+        "date": "2021-11-26",
+        "priceEur": 214169,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "46bd1e58fed6": {
+    "id": "46bd1e58fed6",
+    "label": "53 RUE DU CRAYHOF, Cappelle-la-Grande",
+    "lat": 50.997048,
+    "lng": 2.372596,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 155500,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "f52472ea3f30": {
+    "id": "f52472ea3f30",
+    "label": "200 AV DU GEN DE GAULLE, Cappelle-la-Grande",
+    "lat": 50.998813,
+    "lng": 2.367714,
+    "transactions": [
+      {
+        "date": "2022-01-10",
+        "priceEur": 220800,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "1335e9fc1382": {
+    "id": "1335e9fc1382",
+    "label": "21 RUE DU CRAYHOF, Cappelle-la-Grande",
+    "lat": 50.995878,
+    "lng": 2.369376,
+    "transactions": [
+      {
+        "date": "2022-02-03",
+        "priceEur": 141000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "78f2528eb58e": {
+    "id": "78f2528eb58e",
+    "label": "29 RUE PAUL FRANCKE, Cappelle-la-Grande",
+    "lat": 50.996041,
+    "lng": 2.362621,
+    "transactions": [
+      {
+        "date": "2022-03-24",
+        "priceEur": 156600,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "d15889d1e910": {
+    "id": "d15889d1e910",
+    "label": "9 RUE XAVIER DEGANS, Cappelle-la-Grande",
+    "lat": 50.997821,
+    "lng": 2.364053,
+    "transactions": [
+      {
+        "date": "2022-04-21",
+        "priceEur": 142720,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "d7da32418076": {
+    "id": "d7da32418076",
+    "label": "28 RUE DES ANCIENS AFN, Cappelle-la-Grande",
+    "lat": 50.99644,
+    "lng": 2.368681,
+    "transactions": [
+      {
+        "date": "2022-04-13",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac66832ca768": {
+    "id": "ac66832ca768",
+    "label": "2 RUE DU LANGHE GRACHT, Cappelle-la-Grande",
+    "lat": 50.995721,
+    "lng": 2.369348,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "8341be183c8c": {
+    "id": "8341be183c8c",
+    "label": "10 PL BERNARD GOUVART, Cappelle-la-Grande",
+    "lat": 50.996467,
+    "lng": 2.365682,
+    "transactions": [
+      {
+        "date": "2022-09-20",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "9923e018c89f": {
+    "id": "9923e018c89f",
+    "label": "26 RUE DES ANCIENS AFN, Cappelle-la-Grande",
+    "lat": 50.996494,
+    "lng": 2.368661,
+    "transactions": [
+      {
+        "date": "2022-10-05",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5407c6013ad": {
+    "id": "f5407c6013ad",
+    "label": "3 RUE DU DIX NEUF MARS 1962, Cappelle-la-Grande",
+    "lat": 50.997727,
+    "lng": 2.366811,
+    "transactions": [
+      {
+        "date": "2022-10-10",
+        "priceEur": 162200,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "a62a24073e07": {
+    "id": "a62a24073e07",
+    "label": "166 AV DU GEN DE GAULLE, Cappelle-la-Grande",
+    "lat": 50.998184,
+    "lng": 2.364027,
+    "transactions": [
+      {
+        "date": "2022-12-22",
+        "priceEur": 2315070,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb3120a98bfb": {
+    "id": "fb3120a98bfb",
+    "label": "164 AV DU GEN DE GAULLE, Cappelle-la-Grande",
+    "lat": 50.998198,
+    "lng": 2.363921,
+    "transactions": [
+      {
+        "date": "2022-12-22",
+        "priceEur": 2315070,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "dbd430054ce3": {
+    "id": "dbd430054ce3",
+    "label": "174 AV DU GEN DE GAULLE, Cappelle-la-Grande",
+    "lat": 50.997876,
+    "lng": 2.364753,
+    "transactions": [
+      {
+        "date": "2022-12-22",
+        "priceEur": 2315070,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-22",
+        "priceEur": 2315070,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-22",
+        "priceEur": 2315070,
+        "typeLocal": "Appartement",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-22",
+        "priceEur": 2315070,
+        "typeLocal": "Appartement",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3aed8a60519": {
+    "id": "b3aed8a60519",
+    "label": "168 AV DU GEN DE GAULLE, Cappelle-la-Grande",
+    "lat": 50.998155,
+    "lng": 2.364561,
+    "transactions": [
+      {
+        "date": "2022-12-22",
+        "priceEur": 2315070,
+        "typeLocal": "Appartement",
+        "surfaceM2": 81,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-22",
+        "priceEur": 2315070,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-22",
+        "priceEur": 2315070,
+        "typeLocal": "Appartement",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-22",
+        "priceEur": 2315070,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-22",
+        "priceEur": 2315070,
+        "typeLocal": "Appartement",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-22",
+        "priceEur": 2315070,
+        "typeLocal": "Appartement",
+        "surfaceM2": 89,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-22",
+        "priceEur": 2315070,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "733c4ab89b5e": {
+    "id": "733c4ab89b5e",
+    "label": "204 AV DU GEN DE GAULLE, Cappelle-la-Grande",
+    "lat": 50.998849,
+    "lng": 2.367998,
+    "transactions": [
+      {
+        "date": "2022-12-19",
+        "priceEur": 204600,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "59d5b6d3886f": {
+    "id": "59d5b6d3886f",
+    "label": "7 RUE DES ANCIENS AFN, Cappelle-la-Grande",
+    "lat": 50.996982,
+    "lng": 2.367527,
+    "transactions": [
+      {
+        "date": "2023-04-17",
+        "priceEur": 146000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "33ba9440f060": {
+    "id": "33ba9440f060",
+    "label": "11 RUE DES ANCIENS AFN, Cappelle-la-Grande",
+    "lat": 50.996827,
+    "lng": 2.367328,
+    "transactions": [
+      {
+        "date": "2023-09-05",
+        "priceEur": 193000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd482615b51c": {
+    "id": "cd482615b51c",
+    "label": "73 RUE GUILLEMINOT, Cappelle-la-Grande",
+    "lat": 50.99749,
+    "lng": 2.370078,
+    "transactions": [
+      {
+        "date": "2023-10-03",
+        "priceEur": 153000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c00c3cb4d04": {
+    "id": "7c00c3cb4d04",
+    "label": "23 RUE DE L EGALITE, Cappelle-la-Grande",
+    "lat": 50.997371,
+    "lng": 2.362406,
+    "transactions": [
+      {
+        "date": "2023-11-10",
+        "priceEur": 171120,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "985927c2bcb6": {
+    "id": "985927c2bcb6",
+    "label": "28 RUE GUILLEMINOT, Cappelle-la-Grande",
+    "lat": 50.997502,
+    "lng": 2.369152,
+    "transactions": [
+      {
+        "date": "2023-10-31",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "3abfe0925959": {
+    "id": "3abfe0925959",
+    "label": "28 RUE DU LANGHE GRACHT, Cappelle-la-Grande",
+    "lat": 50.994871,
+    "lng": 2.368682,
+    "transactions": [
+      {
+        "date": "2023-12-18",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "5eea6e3299d2": {
+    "id": "5eea6e3299d2",
+    "label": "24 RUE DES ANCIENS AFN, Cappelle-la-Grande",
+    "lat": 50.996569,
+    "lng": 2.368617,
+    "transactions": [
+      {
+        "date": "2024-02-05",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a64bbd0b283": {
+    "id": "9a64bbd0b283",
+    "label": "59 RUE GUILLEMINOT, Cappelle-la-Grande",
+    "lat": 50.997105,
+    "lng": 2.368976,
+    "transactions": [
+      {
+        "date": "2024-04-08",
+        "priceEur": 24269.89,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f57cde3f3fa": {
+    "id": "2f57cde3f3fa",
+    "label": "1 RUE DU LANGHE GRACHT, Cappelle-la-Grande",
+    "lat": 50.995291,
+    "lng": 2.368688,
+    "transactions": [
+      {
+        "date": "2024-10-30",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-23",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1f75b12372d": {
+    "id": "f1f75b12372d",
+    "label": "226 AV DU GEN DE GAULLE, Cappelle-la-Grande",
+    "lat": 50.998494,
+    "lng": 2.369598,
+    "transactions": [
+      {
+        "date": "2024-06-20",
+        "priceEur": 175800,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ac38143dc55": {
+    "id": "4ac38143dc55",
+    "label": "1 RUE DU CRAYHOF, Cappelle-la-Grande",
+    "lat": 50.995597,
+    "lng": 2.367766,
+    "transactions": [
+      {
+        "date": "2024-07-29",
+        "priceEur": 99500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-15",
+        "priceEur": 105000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-06",
+        "priceEur": 92500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "71e9b2f723d6": {
+    "id": "71e9b2f723d6",
+    "label": "25 RUE PAUL FRANCKE, Cappelle-la-Grande",
+    "lat": 50.996407,
+    "lng": 2.362521,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 177650,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "f0991ad6194a": {
+    "id": "f0991ad6194a",
+    "label": "161 AV DU GEN DE GAULLE, Cappelle-la-Grande",
+    "lat": 50.998565,
+    "lng": 2.364285,
+    "transactions": [
+      {
+        "date": "2024-08-16",
+        "priceEur": 147500,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd1a99a7e320": {
+    "id": "cd1a99a7e320",
+    "label": "7 RUE DU DIX NEUF MARS 1962, Cappelle-la-Grande",
+    "lat": 50.997684,
+    "lng": 2.367389,
+    "transactions": [
+      {
+        "date": "2024-09-03",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "ddbdeca55392": {
+    "id": "ddbdeca55392",
+    "label": "21 RUE DU LANGHE GRACHT, Cappelle-la-Grande",
+    "lat": 50.995254,
+    "lng": 2.368002,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc9bf27c859e": {
+    "id": "bc9bf27c859e",
+    "label": "51 RUE DE L EGALITE, Cappelle-la-Grande",
+    "lat": 50.995969,
+    "lng": 2.363046,
+    "transactions": [
+      {
+        "date": "2024-10-02",
+        "priceEur": 161460,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "04c89d54f0d9": {
+    "id": "04c89d54f0d9",
+    "label": "20 RUE DU LANGHE GRACHT, Cappelle-la-Grande",
+    "lat": 50.995131,
+    "lng": 2.368993,
+    "transactions": [
+      {
+        "date": "2024-09-30",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "d48fd683b477": {
+    "id": "d48fd683b477",
+    "label": "33 RUE DU CRAYHOF, Cappelle-la-Grande",
+    "lat": 50.99563,
+    "lng": 2.369773,
+    "transactions": [
+      {
+        "date": "2024-10-17",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "807427afe863": {
+    "id": "807427afe863",
+    "label": "15 RUE DU LANGHE GRACHT, Cappelle-la-Grande",
+    "lat": 50.995537,
+    "lng": 2.368094,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "839b6dff9639": {
+    "id": "839b6dff9639",
+    "label": "194 AV DU GEN DE GAULLE, Cappelle-la-Grande",
+    "lat": 50.998718,
+    "lng": 2.367293,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b2c9201b7c7": {
+    "id": "5b2c9201b7c7",
+    "label": "9 RUE DU CRAYHOF, Cappelle-la-Grande",
+    "lat": 50.995699,
+    "lng": 2.368296,
+    "transactions": [
+      {
+        "date": "2025-01-13",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5a658e94001": {
+    "id": "b5a658e94001",
+    "label": "12 RUE GUILLEMINOT, Cappelle-la-Grande",
+    "lat": 50.997915,
+    "lng": 2.368645,
+    "transactions": [
+      {
+        "date": "2025-04-03",
+        "priceEur": 161500,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  }
+}

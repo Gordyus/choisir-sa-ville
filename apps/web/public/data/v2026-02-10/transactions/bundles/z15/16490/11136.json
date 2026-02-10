@@ -1,0 +1,47 @@
+{
+  "2c34f2d3aeb4": {
+    "id": "2c34f2d3aeb4",
+    "label": "54 RTE DE DIEPPE, Saint-Germain-d'Étables",
+    "lat": 49.835076,
+    "lng": 1.16858,
+    "transactions": [
+      {
+        "date": "2021-11-29",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "7678e19c733e": {
+    "id": "7678e19c733e",
+    "label": "5089 SOUS LES COTES DU BOIS ROB, Saint-Germain-d'Étables",
+    "lat": 49.834463,
+    "lng": 1.167803,
+    "transactions": [
+      {
+        "date": "2021-08-06",
+        "priceEur": 189800,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea026c0add99": {
+    "id": "ea026c0add99",
+    "label": "2 ALL DU GROS TILLEUL, Saint-Germain-d'Étables",
+    "lat": 49.834996,
+    "lng": 1.167389,
+    "transactions": [
+      {
+        "date": "2024-09-12",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  }
+}

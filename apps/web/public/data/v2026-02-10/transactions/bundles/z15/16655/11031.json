@@ -1,0 +1,886 @@
+{
+  "339cda0993c7": {
+    "id": "339cda0993c7",
+    "label": "107 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.57404,
+    "lng": 2.987576,
+    "transactions": [
+      {
+        "date": "2020-07-16",
+        "priceEur": 338000,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c26f56a34ee": {
+    "id": "5c26f56a34ee",
+    "label": "11 PLE AUGUSTE DESIRE SERRURIER, Houplin-Ancoisne",
+    "lat": 50.571898,
+    "lng": 2.983779,
+    "transactions": [
+      {
+        "date": "2020-08-21",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "64c5895ee887": {
+    "id": "64c5895ee887",
+    "label": "76 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.573682,
+    "lng": 2.985812,
+    "transactions": [
+      {
+        "date": "2020-10-02",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "8dfa33c798bb": {
+    "id": "8dfa33c798bb",
+    "label": "41 RUE GABRIEL PERI, Houplin-Ancoisne",
+    "lat": 50.576076,
+    "lng": 2.98813,
+    "transactions": [
+      {
+        "date": "2020-10-02",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "908424853fc7": {
+    "id": "908424853fc7",
+    "label": "96 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.573315,
+    "lng": 2.985196,
+    "transactions": [
+      {
+        "date": "2020-11-24",
+        "priceEur": 54800,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3af1640103f": {
+    "id": "c3af1640103f",
+    "label": "5 RUE DES ROSES, Houplin-Ancoisne",
+    "lat": 50.57075,
+    "lng": 2.983911,
+    "transactions": [
+      {
+        "date": "2020-12-15",
+        "priceEur": 329000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8594ae52465": {
+    "id": "f8594ae52465",
+    "label": "139 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.573444,
+    "lng": 2.986402,
+    "transactions": [
+      {
+        "date": "2021-01-08",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "ccc97c9a2348": {
+    "id": "ccc97c9a2348",
+    "label": "153 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.57284,
+    "lng": 2.985663,
+    "transactions": [
+      {
+        "date": "2021-02-18",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "353be53e4f3b": {
+    "id": "353be53e4f3b",
+    "label": "144 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.572433,
+    "lng": 2.98284,
+    "transactions": [
+      {
+        "date": "2021-02-22",
+        "priceEur": 193950,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  },
+  "359171228885": {
+    "id": "359171228885",
+    "label": "23 PLE AUGUSTE DESIRE SERRURIER, Houplin-Ancoisne",
+    "lat": 50.572366,
+    "lng": 2.983429,
+    "transactions": [
+      {
+        "date": "2021-03-12",
+        "priceEur": 510000,
+        "typeLocal": "Maison",
+        "surfaceM2": 157,
+        "isVefa": false
+      }
+    ]
+  },
+  "0271e3514dbf": {
+    "id": "0271e3514dbf",
+    "label": "32 RUE DE L'EUROPE, Houplin-Ancoisne",
+    "lat": 50.571297,
+    "lng": 2.983921,
+    "transactions": [
+      {
+        "date": "2021-03-30",
+        "priceEur": 351816,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "bfb5ad90e6f2": {
+    "id": "bfb5ad90e6f2",
+    "label": "193 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.571867,
+    "lng": 2.982581,
+    "transactions": [
+      {
+        "date": "2021-04-09",
+        "priceEur": 187000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d55af6fd3cb": {
+    "id": "1d55af6fd3cb",
+    "label": "13 PLE AUGUSTE DESIRE SERRURIER, Houplin-Ancoisne",
+    "lat": 50.572238,
+    "lng": 2.983487,
+    "transactions": [
+      {
+        "date": "2021-05-03",
+        "priceEur": 119000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "e58313158efc": {
+    "id": "e58313158efc",
+    "label": "159 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.572987,
+    "lng": 2.985361,
+    "transactions": [
+      {
+        "date": "2021-05-10",
+        "priceEur": 243100,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee412ce2610f": {
+    "id": "ee412ce2610f",
+    "label": "138 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.572758,
+    "lng": 2.983352,
+    "transactions": [
+      {
+        "date": "2021-06-11",
+        "priceEur": 132700,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "05ed849dfd4b": {
+    "id": "05ed849dfd4b",
+    "label": "145C RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.572683,
+    "lng": 2.9869,
+    "transactions": [
+      {
+        "date": "2021-07-21",
+        "priceEur": 395000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "20c07ab6e790": {
+    "id": "20c07ab6e790",
+    "label": "128 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.572784,
+    "lng": 2.983906,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 144250,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "178dd1268225": {
+    "id": "178dd1268225",
+    "label": "50 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.574542,
+    "lng": 2.986899,
+    "transactions": [
+      {
+        "date": "2025-01-13",
+        "priceEur": 191000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-08",
+        "priceEur": 70100,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "27c7ccdef6f0": {
+    "id": "27c7ccdef6f0",
+    "label": "223 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.570938,
+    "lng": 2.980893,
+    "transactions": [
+      {
+        "date": "2021-12-15",
+        "priceEur": 487500,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b0cb16cf3f7": {
+    "id": "2b0cb16cf3f7",
+    "label": "110 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.572882,
+    "lng": 2.984687,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 188135,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "deef9ffd0edc": {
+    "id": "deef9ffd0edc",
+    "label": "58 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.574281,
+    "lng": 2.986607,
+    "transactions": [
+      {
+        "date": "2022-02-15",
+        "priceEur": 258000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "5372d6d18d46": {
+    "id": "5372d6d18d46",
+    "label": "34 RUE DES ROSES, Houplin-Ancoisne",
+    "lat": 50.570408,
+    "lng": 2.983979,
+    "transactions": [
+      {
+        "date": "2022-05-30",
+        "priceEur": 300860,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "7705c27a7c9c": {
+    "id": "7705c27a7c9c",
+    "label": "8 RUE GABRIEL PERI, Houplin-Ancoisne",
+    "lat": 50.575175,
+    "lng": 2.988071,
+    "transactions": [
+      {
+        "date": "2022-01-05",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "d8de11f9dbba": {
+    "id": "d8de11f9dbba",
+    "label": "121 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.574031,
+    "lng": 2.987064,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a6bb1c2f82d": {
+    "id": "7a6bb1c2f82d",
+    "label": "243 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.570227,
+    "lng": 2.979787,
+    "transactions": [
+      {
+        "date": "2022-07-25",
+        "priceEur": 332230,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "070fc3369468": {
+    "id": "070fc3369468",
+    "label": "4 RUE DES ROSES, Houplin-Ancoisne",
+    "lat": 50.570208,
+    "lng": 2.982228,
+    "transactions": [
+      {
+        "date": "2022-07-25",
+        "priceEur": 397450,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f27b3884c42": {
+    "id": "8f27b3884c42",
+    "label": "2 RUE GABRIEL PERI, Houplin-Ancoisne",
+    "lat": 50.574782,
+    "lng": 2.987738,
+    "transactions": [
+      {
+        "date": "2022-08-01",
+        "priceEur": 177500,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "b11ad9876338": {
+    "id": "b11ad9876338",
+    "label": "145B RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.573088,
+    "lng": 2.985963,
+    "transactions": [
+      {
+        "date": "2022-10-03",
+        "priceEur": 302000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f727dbd2f9b": {
+    "id": "4f727dbd2f9b",
+    "label": "12 PL LEON BLUM, Houplin-Ancoisne",
+    "lat": 50.574635,
+    "lng": 2.988172,
+    "transactions": [
+      {
+        "date": "2022-10-07",
+        "priceEur": 62360,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "3863cbc6ac14": {
+    "id": "3863cbc6ac14",
+    "label": "44 RUE DES ROSES, Houplin-Ancoisne",
+    "lat": 50.570621,
+    "lng": 2.985262,
+    "transactions": [
+      {
+        "date": "2022-11-25",
+        "priceEur": 434100,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "35dbb3cd79d6": {
+    "id": "35dbb3cd79d6",
+    "label": "133 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.573851,
+    "lng": 2.986712,
+    "transactions": [
+      {
+        "date": "2022-12-16",
+        "priceEur": 202000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "4585bc56d2de": {
+    "id": "4585bc56d2de",
+    "label": "74 RUE DES ROSES, Houplin-Ancoisne",
+    "lat": 50.570719,
+    "lng": 2.986664,
+    "transactions": [
+      {
+        "date": "2022-12-22",
+        "priceEur": 407150,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2c088184c87": {
+    "id": "a2c088184c87",
+    "label": "14 RUE DES PRIMEVERES, Houplin-Ancoisne",
+    "lat": 50.572797,
+    "lng": 2.98788,
+    "transactions": [
+      {
+        "date": "2023-02-24",
+        "priceEur": 269800,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "09bc387b79a1": {
+    "id": "09bc387b79a1",
+    "label": "18 RUE DES PRIMEVERES, Houplin-Ancoisne",
+    "lat": 50.573281,
+    "lng": 2.987701,
+    "transactions": [
+      {
+        "date": "2023-03-28",
+        "priceEur": 132500,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "835695f44828": {
+    "id": "835695f44828",
+    "label": "45 RUE DES ROSES, Houplin-Ancoisne",
+    "lat": 50.570725,
+    "lng": 2.987182,
+    "transactions": [
+      {
+        "date": "2023-05-17",
+        "priceEur": 427000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "7814e38ee3a5": {
+    "id": "7814e38ee3a5",
+    "label": "197 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.571842,
+    "lng": 2.982152,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 273000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3265c17e5b6": {
+    "id": "c3265c17e5b6",
+    "label": "9 RUE DE L'EUROPE, Houplin-Ancoisne",
+    "lat": 50.570608,
+    "lng": 2.981241,
+    "transactions": [
+      {
+        "date": "2023-08-01",
+        "priceEur": 296000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "efd99a5e486a": {
+    "id": "efd99a5e486a",
+    "label": "4 RUE DU QUATORZE JUILLET 1789, Houplin-Ancoisne",
+    "lat": 50.571643,
+    "lng": 2.985323,
+    "transactions": [
+      {
+        "date": "2023-09-21",
+        "priceEur": 162200,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf07b0b21df6": {
+    "id": "cf07b0b21df6",
+    "label": "3 RUE DU QUATORZE JUILLET 1789, Houplin-Ancoisne",
+    "lat": 50.571331,
+    "lng": 2.985157,
+    "transactions": [
+      {
+        "date": "2023-09-29",
+        "priceEur": 116000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "4abb7e85b44f": {
+    "id": "4abb7e85b44f",
+    "label": "189 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.572084,
+    "lng": 2.982537,
+    "transactions": [
+      {
+        "date": "2023-11-24",
+        "priceEur": 189350,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "616d476d3a2a": {
+    "id": "616d476d3a2a",
+    "label": "117 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.573956,
+    "lng": 2.98722,
+    "transactions": [
+      {
+        "date": "2023-11-03",
+        "priceEur": 203900,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "955d496b3da4": {
+    "id": "955d496b3da4",
+    "label": "178 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.570946,
+    "lng": 2.979964,
+    "transactions": [
+      {
+        "date": "2023-12-07",
+        "priceEur": 415000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c96e18f5f23": {
+    "id": "3c96e18f5f23",
+    "label": "211 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.571473,
+    "lng": 2.98157,
+    "transactions": [
+      {
+        "date": "2023-12-07",
+        "priceEur": 327000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f3d1472e998": {
+    "id": "5f3d1472e998",
+    "label": "195 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.571973,
+    "lng": 2.982382,
+    "transactions": [
+      {
+        "date": "2024-05-03",
+        "priceEur": 364000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "b94e46a5cabf": {
+    "id": "b94e46a5cabf",
+    "label": "28 RUE DE L'EUROPE, Houplin-Ancoisne",
+    "lat": 50.571178,
+    "lng": 2.983684,
+    "transactions": [
+      {
+        "date": "2024-05-02",
+        "priceEur": 304520,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "99867a99501b": {
+    "id": "99867a99501b",
+    "label": "84 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.573455,
+    "lng": 2.985655,
+    "transactions": [
+      {
+        "date": "2024-05-27",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "49fa52e258f6": {
+    "id": "49fa52e258f6",
+    "label": "15 PLE AUGUSTE DESIRE SERRURIER, Houplin-Ancoisne",
+    "lat": 50.572205,
+    "lng": 2.983389,
+    "transactions": [
+      {
+        "date": "2024-08-13",
+        "priceEur": 97200,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "04d6f4b99710": {
+    "id": "04d6f4b99710",
+    "label": "39 RUE GABRIEL PERI, Houplin-Ancoisne",
+    "lat": 50.575921,
+    "lng": 2.988005,
+    "transactions": [
+      {
+        "date": "2024-08-02",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 23,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-02",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "fca33d3a1c59": {
+    "id": "fca33d3a1c59",
+    "label": "22 PL LEON BLUM, Houplin-Ancoisne",
+    "lat": 50.57451,
+    "lng": 2.987867,
+    "transactions": [
+      {
+        "date": "2024-10-21",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "06c1ed30500f": {
+    "id": "06c1ed30500f",
+    "label": "24 RUE GABRIEL PERI, Houplin-Ancoisne",
+    "lat": 50.575595,
+    "lng": 2.988237,
+    "transactions": [
+      {
+        "date": "2024-10-16",
+        "priceEur": 242450,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f66c15459e9": {
+    "id": "4f66c15459e9",
+    "label": "64 RUE DES ROSES, Houplin-Ancoisne",
+    "lat": 50.571243,
+    "lng": 2.985951,
+    "transactions": [
+      {
+        "date": "2024-11-08",
+        "priceEur": 302000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "f37ceca20c2f": {
+    "id": "f37ceca20c2f",
+    "label": "8 RUE DU QUATORZE JUILLET 1789, Houplin-Ancoisne",
+    "lat": 50.571553,
+    "lng": 2.985488,
+    "transactions": [
+      {
+        "date": "2024-11-29",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "74a564f5dcb8": {
+    "id": "74a564f5dcb8",
+    "label": "44 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.574341,
+    "lng": 2.986977,
+    "transactions": [
+      {
+        "date": "2024-11-28",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "1035b4a6aec1": {
+    "id": "1035b4a6aec1",
+    "label": "58 RUE DES ROSES, Houplin-Ancoisne",
+    "lat": 50.570933,
+    "lng": 2.985729,
+    "transactions": [
+      {
+        "date": "2025-01-10",
+        "priceEur": 277000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "26892f82566d": {
+    "id": "26892f82566d",
+    "label": "16 PL LEON BLUM, Houplin-Ancoisne",
+    "lat": 50.574757,
+    "lng": 2.988267,
+    "transactions": [
+      {
+        "date": "2025-02-12",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "fcab638d3b7d": {
+    "id": "fcab638d3b7d",
+    "label": "101 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.574188,
+    "lng": 2.987766,
+    "transactions": [
+      {
+        "date": "2025-02-28",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c3fc97ff235": {
+    "id": "5c3fc97ff235",
+    "label": "126 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.572706,
+    "lng": 2.983918,
+    "transactions": [
+      {
+        "date": "2025-02-28",
+        "priceEur": 261475,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2c2269cd492": {
+    "id": "a2c2269cd492",
+    "label": "80 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.573678,
+    "lng": 2.985622,
+    "transactions": [
+      {
+        "date": "2025-06-02",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  }
+}

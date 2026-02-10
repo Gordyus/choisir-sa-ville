@@ -1,0 +1,32 @@
+{
+  "c1a5c8e15522": {
+    "id": "c1a5c8e15522",
+    "label": "700 CHE DU MONT EDARD, Ourville-en-Caux",
+    "lat": 49.739198,
+    "lng": 0.614572,
+    "transactions": [
+      {
+        "date": "2022-11-08",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "81d9220799b3": {
+    "id": "81d9220799b3",
+    "label": "800 CHE DU MONT EDARD, Ourville-en-Caux",
+    "lat": 49.739954,
+    "lng": 0.614841,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

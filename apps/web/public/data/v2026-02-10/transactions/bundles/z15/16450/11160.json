@@ -1,0 +1,32 @@
+{
+  "7e223b438f76": {
+    "id": "7e223b438f76",
+    "label": "756 RTE DU PETIT TOT, Hautot-Saint-Sulpice",
+    "lat": 49.667052,
+    "lng": 0.732921,
+    "transactions": [
+      {
+        "date": "2021-11-19",
+        "priceEur": 183000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "13d4ac68dcd0": {
+    "id": "13d4ac68dcd0",
+    "label": "1677 RTE D YVETOT, Hautot-Saint-Sulpice",
+    "lat": 49.666467,
+    "lng": 0.731916,
+    "transactions": [
+      {
+        "date": "2022-04-08",
+        "priceEur": 516500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

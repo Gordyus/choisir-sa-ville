@@ -1,0 +1,32 @@
+{
+  "8e67d34d39b3": {
+    "id": "8e67d34d39b3",
+    "label": "110 RTE DU VILLAGE, Terres-de-Caux",
+    "lat": 49.657007,
+    "lng": 0.620716,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 367500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4a74c3ecee4": {
+    "id": "f4a74c3ecee4",
+    "label": "174 RUE SAINT PIERRE - ST PIERRE L, Terres-de-Caux",
+    "lat": 49.658197,
+    "lng": 0.625122,
+    "transactions": [
+      {
+        "date": "2023-09-27",
+        "priceEur": 218200,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

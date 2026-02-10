@@ -1,0 +1,92 @@
+{
+  "8c0d6b978cf0": {
+    "id": "8c0d6b978cf0",
+    "label": "5031 LE BOURG, Nullemont",
+    "lat": 49.767364,
+    "lng": 1.638374,
+    "transactions": [
+      {
+        "date": "2020-07-27",
+        "priceEur": 33000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "72730bc38790": {
+    "id": "72730bc38790",
+    "label": "5002 LE BOURG, Nullemont",
+    "lat": 49.768167,
+    "lng": 1.641624,
+    "transactions": [
+      {
+        "date": "2020-11-19",
+        "priceEur": 82000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "3160f09df4d9": {
+    "id": "3160f09df4d9",
+    "label": "5036 LE BOURG, Nullemont",
+    "lat": 49.768455,
+    "lng": 1.640479,
+    "transactions": [
+      {
+        "date": "2021-06-18",
+        "priceEur": 38200,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "6140e7c960af": {
+    "id": "6140e7c960af",
+    "label": "5003 LE BOURG, Nullemont",
+    "lat": 49.768277,
+    "lng": 1.643016,
+    "transactions": [
+      {
+        "date": "2023-02-15",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "141f9c8fc83d": {
+    "id": "141f9c8fc83d",
+    "label": "5030 LE BOURG, Nullemont",
+    "lat": 49.767635,
+    "lng": 1.637428,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "29c9188bf0c1": {
+    "id": "29c9188bf0c1",
+    "label": "24 RTE DE L EGLISE, Nullemont",
+    "lat": 49.768277,
+    "lng": 1.643016,
+    "transactions": [
+      {
+        "date": "2024-08-07",
+        "priceEur": 255500,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  }
+}

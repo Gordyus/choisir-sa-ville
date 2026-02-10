@@ -1,0 +1,32 @@
+{
+  "9f504a84ebfd": {
+    "id": "9f504a84ebfd",
+    "label": "232 CHE DU ROSSIGNOL, Berthen",
+    "lat": 50.773783,
+    "lng": 2.70181,
+    "transactions": [
+      {
+        "date": "2023-11-17",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3897386f5b3": {
+    "id": "a3897386f5b3",
+    "label": "357 CHE DU ROSSIGNOL, Berthen",
+    "lat": 50.772925,
+    "lng": 2.698628,
+    "transactions": [
+      {
+        "date": "2024-10-18",
+        "priceEur": 473600,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,852 @@
+{
+  "cf97d024e3d2": {
+    "id": "cf97d024e3d2",
+    "label": "24 RUE DE SAINT OMER, Watten",
+    "lat": 50.82864,
+    "lng": 2.209674,
+    "transactions": [
+      {
+        "date": "2020-08-04",
+        "priceEur": 46000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "289b661099bc": {
+    "id": "289b661099bc",
+    "label": "22 RUE DE L AA, Watten",
+    "lat": 50.833418,
+    "lng": 2.210383,
+    "transactions": [
+      {
+        "date": "2022-09-23",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-31",
+        "priceEur": 106500,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "aec2279261b8": {
+    "id": "aec2279261b8",
+    "label": "2 PL DU RIVAGE, Watten",
+    "lat": 50.832316,
+    "lng": 2.210127,
+    "transactions": [
+      {
+        "date": "2020-09-21",
+        "priceEur": 79000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "d874b8481d24": {
+    "id": "d874b8481d24",
+    "label": "10 RUE DE L AA, Watten",
+    "lat": 50.832724,
+    "lng": 2.210237,
+    "transactions": [
+      {
+        "date": "2020-10-26",
+        "priceEur": 60600,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "09ab60e1e047": {
+    "id": "09ab60e1e047",
+    "label": "43 CITE ST MICHEL, Watten",
+    "lat": 50.833514,
+    "lng": 2.209322,
+    "transactions": [
+      {
+        "date": "2020-11-24",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "b8ac7d88a09a": {
+    "id": "b8ac7d88a09a",
+    "label": "13 CITE ST MICHEL, Watten",
+    "lat": 50.832693,
+    "lng": 2.209232,
+    "transactions": [
+      {
+        "date": "2020-12-28",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "76aefde8e8d4": {
+    "id": "76aefde8e8d4",
+    "label": "4 RUE DE LA MONTAGNE, Watten",
+    "lat": 50.832106,
+    "lng": 2.213821,
+    "transactions": [
+      {
+        "date": "2021-02-16",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f75e1e989c3": {
+    "id": "9f75e1e989c3",
+    "label": "23 RUE DES ALLIES, Watten",
+    "lat": 50.832852,
+    "lng": 2.212122,
+    "transactions": [
+      {
+        "date": "2021-04-06",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "aaef11019f60": {
+    "id": "aaef11019f60",
+    "label": "6 RUE DE L AA, Watten",
+    "lat": 50.832609,
+    "lng": 2.21011,
+    "transactions": [
+      {
+        "date": "2021-08-25",
+        "priceEur": 41500,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "d290ff6ce7ea": {
+    "id": "d290ff6ce7ea",
+    "label": "42 RUE DU GENERAL DE GAULLE, Watten",
+    "lat": 50.830828,
+    "lng": 2.210395,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "49239981de0a": {
+    "id": "49239981de0a",
+    "label": "7 RUE DE MILLAM, Watten",
+    "lat": 50.833544,
+    "lng": 2.213289,
+    "transactions": [
+      {
+        "date": "2021-11-05",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6a44da91336": {
+    "id": "f6a44da91336",
+    "label": "12 RUE DE MILLAM, Watten",
+    "lat": 50.833629,
+    "lng": 2.213992,
+    "transactions": [
+      {
+        "date": "2021-11-05",
+        "priceEur": 87500,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "a583e3053219": {
+    "id": "a583e3053219",
+    "label": "7B RUE DE L'ERMITAGE, Watten",
+    "lat": 50.831678,
+    "lng": 2.211767,
+    "transactions": [
+      {
+        "date": "2022-04-14",
+        "priceEur": 88000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "469b3f3231de": {
+    "id": "469b3f3231de",
+    "label": "9 RUE DE L'ERMITAGE, Watten",
+    "lat": 50.831636,
+    "lng": 2.212105,
+    "transactions": [
+      {
+        "date": "2022-06-16",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "45c37a486712": {
+    "id": "45c37a486712",
+    "label": "1 ALL DES TULIPES, Watten",
+    "lat": 50.829104,
+    "lng": 2.209081,
+    "transactions": [
+      {
+        "date": "2022-06-24",
+        "priceEur": 200940,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "796b772d329e": {
+    "id": "796b772d329e",
+    "label": "27 RUE DU BAILLY, Watten",
+    "lat": 50.833374,
+    "lng": 2.210702,
+    "transactions": [
+      {
+        "date": "2022-07-15",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "bff60457513f": {
+    "id": "bff60457513f",
+    "label": "30 RUE DE L'ERMITAGE, Watten",
+    "lat": 50.829647,
+    "lng": 2.211199,
+    "transactions": [
+      {
+        "date": "2022-07-08",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "829076568c1a": {
+    "id": "829076568c1a",
+    "label": "39 CITE ST MICHEL, Watten",
+    "lat": 50.833412,
+    "lng": 2.20929,
+    "transactions": [
+      {
+        "date": "2022-08-22",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "5468c923239b": {
+    "id": "5468c923239b",
+    "label": "14 GRAND PLACE, Watten",
+    "lat": 50.832306,
+    "lng": 2.211473,
+    "transactions": [
+      {
+        "date": "2022-08-12",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "28da1396bf2c": {
+    "id": "28da1396bf2c",
+    "label": "25 RUE DU BAILLY, Watten",
+    "lat": 50.833236,
+    "lng": 2.210587,
+    "transactions": [
+      {
+        "date": "2022-08-31",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ad447e0b224": {
+    "id": "0ad447e0b224",
+    "label": "2 RUE DE SAINT OMER, Watten",
+    "lat": 50.829484,
+    "lng": 2.208616,
+    "transactions": [
+      {
+        "date": "2022-09-12",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "e80c1482e040": {
+    "id": "e80c1482e040",
+    "label": "37 CITE ST MICHEL, Watten",
+    "lat": 50.83336,
+    "lng": 2.209234,
+    "transactions": [
+      {
+        "date": "2022-09-28",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5dc422f1bb2": {
+    "id": "c5dc422f1bb2",
+    "label": "9 RUE DE MILLAM, Watten",
+    "lat": 50.833621,
+    "lng": 2.213333,
+    "transactions": [
+      {
+        "date": "2022-11-02",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "508b44c7c206": {
+    "id": "508b44c7c206",
+    "label": "41 RUE DE L'ERMITAGE, Watten",
+    "lat": 50.829452,
+    "lng": 2.21177,
+    "transactions": [
+      {
+        "date": "2022-11-10",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b86285924a6": {
+    "id": "4b86285924a6",
+    "label": "41 RUE DE DUNKERQUE, Watten",
+    "lat": 50.833536,
+    "lng": 2.211186,
+    "transactions": [
+      {
+        "date": "2022-11-28",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e65be697572": {
+    "id": "6e65be697572",
+    "label": "25 CITE ST MICHEL, Watten",
+    "lat": 50.833024,
+    "lng": 2.209197,
+    "transactions": [
+      {
+        "date": "2023-01-02",
+        "priceEur": 74000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "145845f337ba": {
+    "id": "145845f337ba",
+    "label": "1 RUE PAUL MORTIER, Watten",
+    "lat": 50.830674,
+    "lng": 2.20852,
+    "transactions": [
+      {
+        "date": "2023-05-25",
+        "priceEur": 363000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-25",
+        "priceEur": 363000,
+        "typeLocal": "Maison",
+        "surfaceM2": 174,
+        "isVefa": false
+      }
+    ]
+  },
+  "b26210fa03bb": {
+    "id": "b26210fa03bb",
+    "label": "20 RUE DE L'ERMITAGE, Watten",
+    "lat": 50.829966,
+    "lng": 2.211235,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f2291703ce1": {
+    "id": "4f2291703ce1",
+    "label": "6 RUE DU GENERAL DE GAULLE, Watten",
+    "lat": 50.831865,
+    "lng": 2.210543,
+    "transactions": [
+      {
+        "date": "2023-08-31",
+        "priceEur": 371100,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  },
+  "034a341d89f6": {
+    "id": "034a341d89f6",
+    "label": "2 GRAND PLACE, Watten",
+    "lat": 50.831871,
+    "lng": 2.211553,
+    "transactions": [
+      {
+        "date": "2023-09-07",
+        "priceEur": 194500,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "3aee3b93403d": {
+    "id": "3aee3b93403d",
+    "label": "4 RUE DE L AA, Watten",
+    "lat": 50.832526,
+    "lng": 2.210146,
+    "transactions": [
+      {
+        "date": "2023-09-20",
+        "priceEur": 142200,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "7556ed51c2fb": {
+    "id": "7556ed51c2fb",
+    "label": "17 RUE DU BAILLY, Watten",
+    "lat": 50.833002,
+    "lng": 2.210414,
+    "transactions": [
+      {
+        "date": "2023-09-29",
+        "priceEur": 49000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a40d149f1f2": {
+    "id": "8a40d149f1f2",
+    "label": "16 RUE DE SAINT OMER, Watten",
+    "lat": 50.828876,
+    "lng": 2.209708,
+    "transactions": [
+      {
+        "date": "2023-10-31",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d77504c1c57": {
+    "id": "8d77504c1c57",
+    "label": "10 GRAND PLACE, Watten",
+    "lat": 50.832309,
+    "lng": 2.211615,
+    "transactions": [
+      {
+        "date": "2023-11-28",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c85430617f4": {
+    "id": "0c85430617f4",
+    "label": "9 RUE DE DUNKERQUE, Watten",
+    "lat": 50.832627,
+    "lng": 2.210849,
+    "transactions": [
+      {
+        "date": "2023-11-20",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "41c47415dc4b": {
+    "id": "41c47415dc4b",
+    "label": "8 RUE DES ALLIES, Watten",
+    "lat": 50.832397,
+    "lng": 2.212281,
+    "transactions": [
+      {
+        "date": "2023-12-14",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "bfd9fef32d85": {
+    "id": "bfd9fef32d85",
+    "label": "43 RUE DE L'ERMITAGE, Watten",
+    "lat": 50.829407,
+    "lng": 2.21178,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "6aa7f73b90f0": {
+    "id": "6aa7f73b90f0",
+    "label": "20 RUE DE SAINT OMER, Watten",
+    "lat": 50.828771,
+    "lng": 2.209721,
+    "transactions": [
+      {
+        "date": "2025-01-03",
+        "priceEur": 129670,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-21",
+        "priceEur": 28000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "480cfcff9f5a": {
+    "id": "480cfcff9f5a",
+    "label": "67 RUE DE L'ERMITAGE, Watten",
+    "lat": 50.827642,
+    "lng": 2.211494,
+    "transactions": [
+      {
+        "date": "2023-12-27",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0626536bc7c": {
+    "id": "c0626536bc7c",
+    "label": "24 RUE DU GENERAL DE GAULLE, Watten",
+    "lat": 50.831393,
+    "lng": 2.210571,
+    "transactions": [
+      {
+        "date": "2024-03-18",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "614dfd984286": {
+    "id": "614dfd984286",
+    "label": "1 RUE DU BAILLY, Watten",
+    "lat": 50.832452,
+    "lng": 2.210178,
+    "transactions": [
+      {
+        "date": "2024-04-05",
+        "priceEur": 77500,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "5eb8426a1242": {
+    "id": "5eb8426a1242",
+    "label": "65 RUE DE L'ERMITAGE, Watten",
+    "lat": 50.827675,
+    "lng": 2.21179,
+    "transactions": [
+      {
+        "date": "2024-04-26",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "3dab298974e4": {
+    "id": "3dab298974e4",
+    "label": "2 RUE SAINT ANTOINE, Watten",
+    "lat": 50.832879,
+    "lng": 2.213063,
+    "transactions": [
+      {
+        "date": "2024-06-03",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "fec4d186813d": {
+    "id": "fec4d186813d",
+    "label": "3 RUE DE LA MONTAGNE, Watten",
+    "lat": 50.832652,
+    "lng": 2.213724,
+    "transactions": [
+      {
+        "date": "2024-08-13",
+        "priceEur": 171000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "54ee7f1a053b": {
+    "id": "54ee7f1a053b",
+    "label": "7 CITE ST MICHEL, Watten",
+    "lat": 50.832535,
+    "lng": 2.209201,
+    "transactions": [
+      {
+        "date": "2024-08-30",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "089c38a81929": {
+    "id": "089c38a81929",
+    "label": "11 RUE DE L'ERMITAGE, Watten",
+    "lat": 50.83151,
+    "lng": 2.211956,
+    "transactions": [
+      {
+        "date": "2024-10-16",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8bf6fea362b": {
+    "id": "f8bf6fea362b",
+    "label": "9000 RUE DE L AA, Watten",
+    "lat": 50.832333,
+    "lng": 2.209989,
+    "transactions": [
+      {
+        "date": "2024-11-29",
+        "priceEur": 175000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-29",
+        "priceEur": 175000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-29",
+        "priceEur": 175000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-29",
+        "priceEur": 175000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f58b80937e2": {
+    "id": "1f58b80937e2",
+    "label": "14 ALL DES TULIPES, Watten",
+    "lat": 50.8294,
+    "lng": 2.208257,
+    "transactions": [
+      {
+        "date": "2024-12-18",
+        "priceEur": 74000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "48e09f36ec31": {
+    "id": "48e09f36ec31",
+    "label": "50F RUE DE L'ERMITAGE, Watten",
+    "lat": 50.828548,
+    "lng": 2.211415,
+    "transactions": [
+      {
+        "date": "2025-01-15",
+        "priceEur": 302000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-15",
+        "priceEur": 302000,
+        "typeLocal": "Maison",
+        "surfaceM2": 37,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-15",
+        "priceEur": 302000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-15",
+        "priceEur": 302000,
+        "typeLocal": "Maison",
+        "surfaceM2": 39,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f5acaf29bfd": {
+    "id": "1f5acaf29bfd",
+    "label": "50A RUE DE L'ERMITAGE, Watten",
+    "lat": 50.828501,
+    "lng": 2.211214,
+    "transactions": [
+      {
+        "date": "2025-01-15",
+        "priceEur": 302000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-15",
+        "priceEur": 302000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "6970f3038cb5": {
+    "id": "6970f3038cb5",
+    "label": "23 CITE ST MICHEL, Watten",
+    "lat": 50.832971,
+    "lng": 2.209243,
+    "transactions": [
+      {
+        "date": "2025-02-21",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "6901b1a74648": {
+    "id": "6901b1a74648",
+    "label": "51 RUE DE L'ERMITAGE, Watten",
+    "lat": 50.828925,
+    "lng": 2.21198,
+    "transactions": [
+      {
+        "date": "2025-06-17",
+        "priceEur": 156200,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

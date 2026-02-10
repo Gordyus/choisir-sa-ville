@@ -1,0 +1,107 @@
+{
+  "cc1f1d5240d2": {
+    "id": "cc1f1d5240d2",
+    "label": "132 RUE DE BERGUES, Bourbourg",
+    "lat": 50.94851,
+    "lng": 2.210106,
+    "transactions": [
+      {
+        "date": "2022-03-24",
+        "priceEur": 229000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "3455956832e5": {
+    "id": "3455956832e5",
+    "label": "134 RUE DE BERGUES, Bourbourg",
+    "lat": 50.948535,
+    "lng": 2.210191,
+    "transactions": [
+      {
+        "date": "2022-05-09",
+        "priceEur": 165700,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "00d3dc4e5ccc": {
+    "id": "00d3dc4e5ccc",
+    "label": "164B RUE DE BERGUES, Bourbourg",
+    "lat": 50.948711,
+    "lng": 2.212131,
+    "transactions": [
+      {
+        "date": "2022-05-30",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "290c0f2bb48e": {
+    "id": "290c0f2bb48e",
+    "label": "140 RUE DE BERGUES, Bourbourg",
+    "lat": 50.948565,
+    "lng": 2.210515,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "3382d2572964": {
+    "id": "3382d2572964",
+    "label": "13 CHE DU GUS WEGH VC 8, Bourbourg",
+    "lat": 50.947308,
+    "lng": 2.214227,
+    "transactions": [
+      {
+        "date": "2022-07-01",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6b7d1843558": {
+    "id": "d6b7d1843558",
+    "label": "168 RUE DE BERGUES, Bourbourg",
+    "lat": 50.948878,
+    "lng": 2.212319,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "82d997a92818": {
+    "id": "82d997a92818",
+    "label": "9007 RTE DE LOON PLAGE RD 1, Bourbourg",
+    "lat": 50.949492,
+    "lng": 2.212808,
+    "transactions": [
+      {
+        "date": "2024-12-30",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 237,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "5f7c85c5d000": {
+    "id": "5f7c85c5d000",
+    "label": "5042 ECAQUELON, Rainfreville",
+    "lat": 49.795008,
+    "lng": 0.918561,
+    "transactions": [
+      {
+        "date": "2021-05-20",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1617d28d3ec": {
+    "id": "e1617d28d3ec",
+    "label": "5046 ECAQUELON, Rainfreville",
+    "lat": 49.792953,
+    "lng": 0.914481,
+    "transactions": [
+      {
+        "date": "2021-07-06",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  }
+}

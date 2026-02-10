@@ -1,0 +1,67 @@
+{
+  "1150b09b4efe": {
+    "id": "1150b09b4efe",
+    "label": "275 RUE D YPRES, Verlinghem",
+    "lat": 50.697851,
+    "lng": 3.012776,
+    "transactions": [
+      {
+        "date": "2021-04-26",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-26",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-26",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-26",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 171,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-26",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 179,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-26",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 22,
+        "isVefa": false
+      }
+    ]
+  },
+  "f52abffc6214": {
+    "id": "f52abffc6214",
+    "label": "271 RUE D YPRES, Verlinghem",
+    "lat": 50.697538,
+    "lng": 3.016902,
+    "transactions": [
+      {
+        "date": "2023-01-26",
+        "priceEur": 852200,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  }
+}

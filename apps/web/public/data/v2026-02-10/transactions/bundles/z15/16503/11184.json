@@ -1,0 +1,47 @@
+{
+  "39479ef5d2dd": {
+    "id": "39479ef5d2dd",
+    "label": "43 RUE DE L ABREUVOIR, Catenay",
+    "lat": 49.495453,
+    "lng": 1.317345,
+    "transactions": [
+      {
+        "date": "2020-08-12",
+        "priceEur": 211000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b09954c81c9": {
+    "id": "2b09954c81c9",
+    "label": "75 RUE DE L ABREUVOIR, Catenay",
+    "lat": 49.495904,
+    "lng": 1.317336,
+    "transactions": [
+      {
+        "date": "2021-05-19",
+        "priceEur": 322000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "31e53a4dda83": {
+    "id": "31e53a4dda83",
+    "label": "1601 RTE DE RY, Blainville-Crevon",
+    "lat": 49.496401,
+    "lng": 1.315851,
+    "transactions": [
+      {
+        "date": "2021-06-14",
+        "priceEur": 239000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

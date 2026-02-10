@@ -1,0 +1,712 @@
+{
+  "e902f9ce5993": {
+    "id": "e902f9ce5993",
+    "label": "68 RUE DES ECOLES, Baisieux",
+    "lat": 50.616035,
+    "lng": 3.228199,
+    "transactions": [
+      {
+        "date": "2020-07-24",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "d72377eced73": {
+    "id": "d72377eced73",
+    "label": "5 RUE DU MAL DELATTRE TASSIGNY, Baisieux",
+    "lat": 50.611506,
+    "lng": 3.228748,
+    "transactions": [
+      {
+        "date": "2020-08-20",
+        "priceEur": 328000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ac723baf800": {
+    "id": "6ac723baf800",
+    "label": "2 ALL DE LA CHAPELLE, Baisieux",
+    "lat": 50.613608,
+    "lng": 3.227827,
+    "transactions": [
+      {
+        "date": "2025-05-28",
+        "priceEur": 498770,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-02",
+        "priceEur": 444500,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0c5b0ae7959": {
+    "id": "c0c5b0ae7959",
+    "label": "27 RUE CLAUDE DEBUSSY, Baisieux",
+    "lat": 50.615364,
+    "lng": 3.226809,
+    "transactions": [
+      {
+        "date": "2020-10-01",
+        "priceEur": 216000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "68bdd4773dfb": {
+    "id": "68bdd4773dfb",
+    "label": "48 RUE DES ECOLES, Baisieux",
+    "lat": 50.617161,
+    "lng": 3.228388,
+    "transactions": [
+      {
+        "date": "2024-11-25",
+        "priceEur": 242750,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-09",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "b88384f12265": {
+    "id": "b88384f12265",
+    "label": "7 RUE GOUNOD, Baisieux",
+    "lat": 50.616539,
+    "lng": 3.227427,
+    "transactions": [
+      {
+        "date": "2020-11-16",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6298ec24054": {
+    "id": "f6298ec24054",
+    "label": "38 RUE DES ECOLES, Baisieux",
+    "lat": 50.617474,
+    "lng": 3.228463,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "93881085cd5a": {
+    "id": "93881085cd5a",
+    "label": "16 RUE DU MAL DELATTRE TASSIGNY, Baisieux",
+    "lat": 50.613304,
+    "lng": 3.228201,
+    "transactions": [
+      {
+        "date": "2020-12-22",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0137483bca3": {
+    "id": "b0137483bca3",
+    "label": "22 RUE FREDERIC CHOPIN, Baisieux",
+    "lat": 50.617172,
+    "lng": 3.226939,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 268000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "6414d9972486": {
+    "id": "6414d9972486",
+    "label": "31 RUE LOUIS DEFFONTAINES, Baisieux",
+    "lat": 50.61139,
+    "lng": 3.229468,
+    "transactions": [
+      {
+        "date": "2021-03-26",
+        "priceEur": 201150,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "5bdf81d113ac": {
+    "id": "5bdf81d113ac",
+    "label": "12 RUE DU MAL DELATTRE TASSIGNY, Baisieux",
+    "lat": 50.613137,
+    "lng": 3.228185,
+    "transactions": [
+      {
+        "date": "2021-04-16",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "db01a0e5106b": {
+    "id": "db01a0e5106b",
+    "label": "27 RUE LOUIS DEFFONTAINES, Baisieux",
+    "lat": 50.611296,
+    "lng": 3.229437,
+    "transactions": [
+      {
+        "date": "2021-04-12",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "2384f0eaa4cd": {
+    "id": "2384f0eaa4cd",
+    "label": "38 RUE DU MAL DELATTRE TASSIGNY, Baisieux",
+    "lat": 50.614436,
+    "lng": 3.228494,
+    "transactions": [
+      {
+        "date": "2021-07-05",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "744e1f2a11bc": {
+    "id": "744e1f2a11bc",
+    "label": "13 RUE DE VERDUN, Baisieux",
+    "lat": 50.614684,
+    "lng": 3.228512,
+    "transactions": [
+      {
+        "date": "2021-07-12",
+        "priceEur": 309000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "c8e4fc78281c": {
+    "id": "c8e4fc78281c",
+    "label": "7 RUE DU MAL DELATTRE TASSIGNY, Baisieux",
+    "lat": 50.611688,
+    "lng": 3.228899,
+    "transactions": [
+      {
+        "date": "2024-06-13",
+        "priceEur": 422000,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-20",
+        "priceEur": 365000,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3c90f1b2896": {
+    "id": "c3c90f1b2896",
+    "label": "1 SEN CASTEL, Chéreng",
+    "lat": 50.615073,
+    "lng": 3.219818,
+    "transactions": [
+      {
+        "date": "2021-10-08",
+        "priceEur": 668250,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d17cd78d286": {
+    "id": "2d17cd78d286",
+    "label": "39A RUE DES ECOLES, Baisieux",
+    "lat": 50.61704,
+    "lng": 3.228959,
+    "transactions": [
+      {
+        "date": "2021-10-26",
+        "priceEur": 241500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": true
+      }
+    ]
+  },
+  "f8bd31471a7f": {
+    "id": "f8bd31471a7f",
+    "label": "40 RUE DU MAL DELATTRE TASSIGNY, Baisieux",
+    "lat": 50.61446,
+    "lng": 3.228425,
+    "transactions": [
+      {
+        "date": "2021-10-25",
+        "priceEur": 294500,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "d44583de0c51": {
+    "id": "d44583de0c51",
+    "label": "1 RUE DE VERDUN, Baisieux",
+    "lat": 50.615231,
+    "lng": 3.229341,
+    "transactions": [
+      {
+        "date": "2021-11-10",
+        "priceEur": 503000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "705e2de800c6": {
+    "id": "705e2de800c6",
+    "label": "76 RUE DES ECOLES, Baisieux",
+    "lat": 50.614817,
+    "lng": 3.229953,
+    "transactions": [
+      {
+        "date": "2022-01-18",
+        "priceEur": 395000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "4fbe4e76e04d": {
+    "id": "4fbe4e76e04d",
+    "label": "25 RUE CLAUDE DEBUSSY, Baisieux",
+    "lat": 50.615417,
+    "lng": 3.226949,
+    "transactions": [
+      {
+        "date": "2022-01-17",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "6136271b3656": {
+    "id": "6136271b3656",
+    "label": "25 RUE LOUIS DEFFONTAINES, Baisieux",
+    "lat": 50.611237,
+    "lng": 3.229472,
+    "transactions": [
+      {
+        "date": "2022-02-11",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca257387db79": {
+    "id": "ca257387db79",
+    "label": "8 SEN CASTEL, Chéreng",
+    "lat": 50.614418,
+    "lng": 3.221423,
+    "transactions": [
+      {
+        "date": "2022-03-11",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "93424fddbc1a": {
+    "id": "93424fddbc1a",
+    "label": "39D RUE DES ECOLES, Baisieux",
+    "lat": 50.61704,
+    "lng": 3.228959,
+    "transactions": [
+      {
+        "date": "2022-06-17",
+        "priceEur": 152000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b5e9ee0aeda": {
+    "id": "7b5e9ee0aeda",
+    "label": "28 RUE DU MAL DELATTRE TASSIGNY, Baisieux",
+    "lat": 50.613623,
+    "lng": 3.228473,
+    "transactions": [
+      {
+        "date": "2022-07-11",
+        "priceEur": 236950,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "c76c196caadc": {
+    "id": "c76c196caadc",
+    "label": "14 RUE DES LABOUREURS, Baisieux",
+    "lat": 50.615815,
+    "lng": 3.229494,
+    "transactions": [
+      {
+        "date": "2022-06-21",
+        "priceEur": 361000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "afabffd93e16": {
+    "id": "afabffd93e16",
+    "label": "34 RUE DU MAL DELATTRE TASSIGNY, Baisieux",
+    "lat": 50.613753,
+    "lng": 3.228556,
+    "transactions": [
+      {
+        "date": "2022-12-14",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "320e984713a6": {
+    "id": "320e984713a6",
+    "label": "20 RUE DES MOISSONNEURS, Baisieux",
+    "lat": 50.616402,
+    "lng": 3.229515,
+    "transactions": [
+      {
+        "date": "2022-12-29",
+        "priceEur": 286770,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "ce0cd1db1658": {
+    "id": "ce0cd1db1658",
+    "label": "93 RUE DU MAL DELATTRE TASSIGNY, Baisieux",
+    "lat": 50.614968,
+    "lng": 3.223965,
+    "transactions": [
+      {
+        "date": "2023-01-31",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "06d841ae5f24": {
+    "id": "06d841ae5f24",
+    "label": "26 RUE DU MAL DELATTRE TASSIGNY, Baisieux",
+    "lat": 50.613587,
+    "lng": 3.228545,
+    "transactions": [
+      {
+        "date": "2023-02-15",
+        "priceEur": 193000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1361a4ddc81": {
+    "id": "a1361a4ddc81",
+    "label": "27 RUE DU MAL DELATTRE TASSIGNY, Baisieux",
+    "lat": 50.612516,
+    "lng": 3.227883,
+    "transactions": [
+      {
+        "date": "2024-10-23",
+        "priceEur": 96940,
+        "typeLocal": "Maison",
+        "surfaceM2": 250,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-13",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "179fe2c15cc5": {
+    "id": "179fe2c15cc5",
+    "label": "15 RUE GOUNOD, Baisieux",
+    "lat": 50.616872,
+    "lng": 3.226692,
+    "transactions": [
+      {
+        "date": "2023-07-05",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b10473d3c8c": {
+    "id": "6b10473d3c8c",
+    "label": "2B RUE DU MAL DELATTRE TASSIGNY, Baisieux",
+    "lat": 50.612244,
+    "lng": 3.228668,
+    "transactions": [
+      {
+        "date": "2023-09-19",
+        "priceEur": 583716,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd516de66044": {
+    "id": "bd516de66044",
+    "label": "58 RUE DU MAL DELATTRE TASSIGNY, Baisieux",
+    "lat": 50.614806,
+    "lng": 3.227269,
+    "transactions": [
+      {
+        "date": "2024-01-31",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "3fe7eb4d4f7f": {
+    "id": "3fe7eb4d4f7f",
+    "label": "64 RUE DES ECOLES, Baisieux",
+    "lat": 50.616418,
+    "lng": 3.228023,
+    "transactions": [
+      {
+        "date": "2024-01-29",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "b8a8da522141": {
+    "id": "b8a8da522141",
+    "label": "49 RUE DU MAL DELATTRE TASSIGNY, Baisieux",
+    "lat": 50.614201,
+    "lng": 3.227655,
+    "transactions": [
+      {
+        "date": "2024-03-29",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 34,
+        "isVefa": false
+      }
+    ]
+  },
+  "4cca0e2ec708": {
+    "id": "4cca0e2ec708",
+    "label": "10 ALL MAURICE RAVEL, Baisieux",
+    "lat": 50.612226,
+    "lng": 3.227387,
+    "transactions": [
+      {
+        "date": "2024-06-26",
+        "priceEur": 458000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "57e1aa349eda": {
+    "id": "57e1aa349eda",
+    "label": "46 RUE DU MAL DELATTRE TASSIGNY, Baisieux",
+    "lat": 50.614583,
+    "lng": 3.228182,
+    "transactions": [
+      {
+        "date": "2024-07-05",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "9226fd4f713c": {
+    "id": "9226fd4f713c",
+    "label": "45 RUE DES ECOLES, Baisieux",
+    "lat": 50.61613,
+    "lng": 3.228814,
+    "transactions": [
+      {
+        "date": "2024-08-19",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b3daf85e474": {
+    "id": "1b3daf85e474",
+    "label": "32 RUE DES ECOLES, Baisieux",
+    "lat": 50.617692,
+    "lng": 3.228691,
+    "transactions": [
+      {
+        "date": "2024-08-06",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e34fee011b2": {
+    "id": "6e34fee011b2",
+    "label": "24B RUE DE VERDUN, Baisieux",
+    "lat": 50.614271,
+    "lng": 3.229185,
+    "transactions": [
+      {
+        "date": "2024-09-09",
+        "priceEur": 730000,
+        "typeLocal": "Maison",
+        "surfaceM2": 216,
+        "isVefa": false
+      }
+    ]
+  },
+  "3bdcbf09112d": {
+    "id": "3bdcbf09112d",
+    "label": "55 RUE DES ECOLES, Baisieux",
+    "lat": 50.615596,
+    "lng": 3.229455,
+    "transactions": [
+      {
+        "date": "2024-09-09",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0e76e3ec96f": {
+    "id": "c0e76e3ec96f",
+    "label": "55 RUE DU MAL DELATTRE TASSIGNY, Baisieux",
+    "lat": 50.614249,
+    "lng": 3.227268,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 336000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "8472418843b5": {
+    "id": "8472418843b5",
+    "label": "36 RUE FREDERIC CHOPIN, Baisieux",
+    "lat": 50.617301,
+    "lng": 3.226982,
+    "transactions": [
+      {
+        "date": "2025-01-31",
+        "priceEur": 392300,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "06b438dd7a94": {
+    "id": "06b438dd7a94",
+    "label": "54 RUE DES ECOLES, Baisieux",
+    "lat": 50.616934,
+    "lng": 3.228126,
+    "transactions": [
+      {
+        "date": "2025-03-06",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-06",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 24,
+        "isVefa": false
+      }
+    ]
+  }
+}

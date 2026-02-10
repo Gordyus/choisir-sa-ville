@@ -1,0 +1,69 @@
+{
+  "f60aa63bc096": {
+    "id": "f60aa63bc096",
+    "label": "5043 HAMEAU DE PADERS, Montesquieu",
+    "lat": 43.567814,
+    "lng": 3.276651,
+    "transactions": [
+      {
+        "date": "2022-04-14",
+        "priceEur": 10000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "137ccaa76561": {
+    "id": "137ccaa76561",
+    "label": "5013 HAMEAU DE PADERS, Montesquieu",
+    "lat": 43.567676,
+    "lng": 3.276273,
+    "transactions": [
+      {
+        "date": "2022-08-03",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "1393eaac0803": {
+    "id": "1393eaac0803",
+    "label": "5034 HAMEAU DE PADERS, Montesquieu",
+    "lat": 43.567798,
+    "lng": 3.27643,
+    "transactions": [
+      {
+        "date": "2024-12-16",
+        "priceEur": 188500,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-03",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "e452e5bf5eaa": {
+    "id": "e452e5bf5eaa",
+    "label": "5014 HAMEAU DE PADERS, Montesquieu",
+    "lat": 43.567825,
+    "lng": 3.27684,
+    "transactions": [
+      {
+        "date": "2023-08-30",
+        "priceEur": 47000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

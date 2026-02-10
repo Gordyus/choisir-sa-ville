@@ -1,0 +1,92 @@
+{
+  "0fa44e716ce0": {
+    "id": "0fa44e716ce0",
+    "label": "205 GR GRANDE RUE, Notre-Dame-d'Aliermont",
+    "lat": 49.840335,
+    "lng": 1.304051,
+    "transactions": [
+      {
+        "date": "2020-11-24",
+        "priceEur": 143000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "3729cb045758": {
+    "id": "3729cb045758",
+    "label": "205B GR GRANDE RUE, Notre-Dame-d'Aliermont",
+    "lat": 49.840227,
+    "lng": 1.304273,
+    "transactions": [
+      {
+        "date": "2021-07-12",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "d4c57c9cf48d": {
+    "id": "d4c57c9cf48d",
+    "label": "196 RUE DU MONT RAMBOURG, Notre-Dame-d'Aliermont",
+    "lat": 49.841277,
+    "lng": 1.301148,
+    "transactions": [
+      {
+        "date": "2022-12-22",
+        "priceEur": 193000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "9730f2d60259": {
+    "id": "9730f2d60259",
+    "label": "5055 BOUT D AMONT, Notre-Dame-d'Aliermont",
+    "lat": 49.838489,
+    "lng": 1.305341,
+    "transactions": [
+      {
+        "date": "2023-03-03",
+        "priceEur": 321500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "e5a294320fc7": {
+    "id": "e5a294320fc7",
+    "label": "234 GR GRANDE RUE, Notre-Dame-d'Aliermont",
+    "lat": 49.838172,
+    "lng": 1.306862,
+    "transactions": [
+      {
+        "date": "2023-06-05",
+        "priceEur": 185072,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd43f97b6954": {
+    "id": "fd43f97b6954",
+    "label": "204 GR GRANDE RUE, Notre-Dame-d'Aliermont",
+    "lat": 49.840775,
+    "lng": 1.302113,
+    "transactions": [
+      {
+        "date": "2024-05-07",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

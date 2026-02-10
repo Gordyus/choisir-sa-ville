@@ -1,0 +1,107 @@
+{
+  "c76f3252311b": {
+    "id": "c76f3252311b",
+    "label": "14 RUE D OUESSANT, Pleine-Sève",
+    "lat": 49.817978,
+    "lng": 0.755443,
+    "transactions": [
+      {
+        "date": "2020-09-28",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "aca0862a82fd": {
+    "id": "aca0862a82fd",
+    "label": "26 RUE D OUESSANT, Pleine-Sève",
+    "lat": 49.817647,
+    "lng": 0.753556,
+    "transactions": [
+      {
+        "date": "2021-08-20",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7029c7e780d": {
+    "id": "b7029c7e780d",
+    "label": "3 RUE DE LA CHARRETERIE, Pleine-Sève",
+    "lat": 49.817625,
+    "lng": 0.757522,
+    "transactions": [
+      {
+        "date": "2021-09-22",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e0f681b7942": {
+    "id": "2e0f681b7942",
+    "label": "11 IMP MAGLOIRE, Pleine-Sève",
+    "lat": 49.817715,
+    "lng": 0.757697,
+    "transactions": [
+      {
+        "date": "2022-05-13",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "88919fc43e9b": {
+    "id": "88919fc43e9b",
+    "label": "8 RTE DU MORET, Pleine-Sève",
+    "lat": 49.816924,
+    "lng": 0.757401,
+    "transactions": [
+      {
+        "date": "2022-06-29",
+        "priceEur": 242000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "d238810cad91": {
+    "id": "d238810cad91",
+    "label": "11T IMP MAGLOIRE, Pleine-Sève",
+    "lat": 49.818036,
+    "lng": 0.757559,
+    "transactions": [
+      {
+        "date": "2024-01-12",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "e95a46776d47": {
+    "id": "e95a46776d47",
+    "label": "12 RUE D OUESSANT, Pleine-Sève",
+    "lat": 49.817834,
+    "lng": 0.756136,
+    "transactions": [
+      {
+        "date": "2024-02-29",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

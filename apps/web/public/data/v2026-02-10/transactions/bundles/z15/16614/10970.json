@@ -1,0 +1,32 @@
+{
+  "92e7a07e41a7": {
+    "id": "92e7a07e41a7",
+    "label": "6030 RTE D UXEM CD 79, Warhem",
+    "lat": 50.99379,
+    "lng": 2.527851,
+    "transactions": [
+      {
+        "date": "2023-11-15",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f0c4a1b5dd9": {
+    "id": "7f0c4a1b5dd9",
+    "label": "1815 RTE D UXEM CD 79, Warhem",
+    "lat": 50.994683,
+    "lng": 2.528092,
+    "transactions": [
+      {
+        "date": "2024-06-04",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  }
+}

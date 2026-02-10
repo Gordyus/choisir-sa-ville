@@ -1,0 +1,690 @@
+{
+  "55d36b5dc87f": {
+    "id": "55d36b5dc87f",
+    "label": "13 RUE DES PAVILLONS, Pavilly",
+    "lat": 49.56707,
+    "lng": 0.943986,
+    "transactions": [
+      {
+        "date": "2020-07-28",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd21129831a6": {
+    "id": "dd21129831a6",
+    "label": "24 RUE DIDEROT, Pavilly",
+    "lat": 49.565417,
+    "lng": 0.939353,
+    "transactions": [
+      {
+        "date": "2020-09-11",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "049defe1d4ad": {
+    "id": "049defe1d4ad",
+    "label": "146H AV GEORGES GRATIGNY, Barentin",
+    "lat": 49.561527,
+    "lng": 0.943668,
+    "transactions": [
+      {
+        "date": "2020-10-06",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "605dde230c19": {
+    "id": "605dde230c19",
+    "label": "12 RUE EUGENE BOUDIN, Pavilly",
+    "lat": 49.567929,
+    "lng": 0.942575,
+    "transactions": [
+      {
+        "date": "2023-07-13",
+        "priceEur": 174000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-16",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "9775ce7f3310": {
+    "id": "9775ce7f3310",
+    "label": "16 RUE EUGENE BOUDIN, Pavilly",
+    "lat": 49.567958,
+    "lng": 0.942843,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "58c25e90109e": {
+    "id": "58c25e90109e",
+    "label": "35 RUE MARGUERITE YOURCENAR, Pavilly",
+    "lat": 49.563389,
+    "lng": 0.943898,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 51600,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-14",
+        "priceEur": 269000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-13",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d4e5157c7a4": {
+    "id": "6d4e5157c7a4",
+    "label": "29F RUE FRECKENHORST, Pavilly",
+    "lat": 49.564883,
+    "lng": 0.934637,
+    "transactions": [
+      {
+        "date": "2021-10-21",
+        "priceEur": 320800,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  },
+  "2608a4074502": {
+    "id": "2608a4074502",
+    "label": "19 ALL DES ALOUETTES, Pavilly",
+    "lat": 49.565512,
+    "lng": 0.940017,
+    "transactions": [
+      {
+        "date": "2021-11-03",
+        "priceEur": 181000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "7cd1d10ff713": {
+    "id": "7cd1d10ff713",
+    "label": "9 RUE DE LA VIERGE, Pavilly",
+    "lat": 49.565781,
+    "lng": 0.944387,
+    "transactions": [
+      {
+        "date": "2021-12-20",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7e89d75e722": {
+    "id": "b7e89d75e722",
+    "label": "33 RUE DIDEROT, Pavilly",
+    "lat": 49.56498,
+    "lng": 0.939074,
+    "transactions": [
+      {
+        "date": "2021-04-01",
+        "priceEur": 263850,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "14b8429beb13": {
+    "id": "14b8429beb13",
+    "label": "16 RUE JEAN DOMINIQUE INGRES, Pavilly",
+    "lat": 49.56787,
+    "lng": 0.936605,
+    "transactions": [
+      {
+        "date": "2021-05-26",
+        "priceEur": 202730,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "22df67e66c75": {
+    "id": "22df67e66c75",
+    "label": "6 ALL DES MESANGES, Pavilly",
+    "lat": 49.566789,
+    "lng": 0.939318,
+    "transactions": [
+      {
+        "date": "2021-06-08",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2e9376a2667": {
+    "id": "a2e9376a2667",
+    "label": "31 RUE MARGUERITE YOURCENAR, Pavilly",
+    "lat": 49.563554,
+    "lng": 0.944361,
+    "transactions": [
+      {
+        "date": "2021-07-06",
+        "priceEur": 246500,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4ab329d9bd1": {
+    "id": "c4ab329d9bd1",
+    "label": "3 RUE JEAN-JACQUES ROUSSEAU, Pavilly",
+    "lat": 49.564374,
+    "lng": 0.943065,
+    "transactions": [
+      {
+        "date": "2021-07-12",
+        "priceEur": 253000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "d82d91d56e69": {
+    "id": "d82d91d56e69",
+    "label": "1 RUE CLAUDE MONET, Pavilly",
+    "lat": 49.566212,
+    "lng": 0.941942,
+    "transactions": [
+      {
+        "date": "2021-08-17",
+        "priceEur": 229000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3c1535426ca": {
+    "id": "d3c1535426ca",
+    "label": "1 RUE LEONARD BORDES, Pavilly",
+    "lat": 49.566829,
+    "lng": 0.942524,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 118500,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6193dec3e6c": {
+    "id": "f6193dec3e6c",
+    "label": "29E RUE FRECKENHORST, Pavilly",
+    "lat": 49.565376,
+    "lng": 0.935055,
+    "transactions": [
+      {
+        "date": "2022-03-26",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "07bc4bebc6cb": {
+    "id": "07bc4bebc6cb",
+    "label": "6 ALL DES ROSSIGNOLS, Pavilly",
+    "lat": 49.566724,
+    "lng": 0.938181,
+    "transactions": [
+      {
+        "date": "2022-03-09",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "193b67dfca78": {
+    "id": "193b67dfca78",
+    "label": "13 RUE EUGENE BOUDIN, Pavilly",
+    "lat": 49.56752,
+    "lng": 0.941974,
+    "transactions": [
+      {
+        "date": "2022-04-12",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "c8b8ce81d0d1": {
+    "id": "c8b8ce81d0d1",
+    "label": "2 RUE FONTENELLE, Pavilly",
+    "lat": 49.564129,
+    "lng": 0.9428,
+    "transactions": [
+      {
+        "date": "2022-07-19",
+        "priceEur": 253900,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "38bcaad4bc2b": {
+    "id": "38bcaad4bc2b",
+    "label": "26 RUE DIDEROT, Pavilly",
+    "lat": 49.565592,
+    "lng": 0.939124,
+    "transactions": [
+      {
+        "date": "2022-07-26",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7b9b3cf9ff5": {
+    "id": "f7b9b3cf9ff5",
+    "label": "20 RUE FONTENELLE, Pavilly",
+    "lat": 49.563429,
+    "lng": 0.9405,
+    "transactions": [
+      {
+        "date": "2022-07-06",
+        "priceEur": 290400,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8c7f2b788bc": {
+    "id": "e8c7f2b788bc",
+    "label": "6 RUE RAOUL DUFY, Pavilly",
+    "lat": 49.567922,
+    "lng": 0.938246,
+    "transactions": [
+      {
+        "date": "2022-08-02",
+        "priceEur": 248200,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "1704162a90b1": {
+    "id": "1704162a90b1",
+    "label": "2 RUE DANIEL ROUSSIGNE, Pavilly",
+    "lat": 49.562925,
+    "lng": 0.94343,
+    "transactions": [
+      {
+        "date": "2022-08-04",
+        "priceEur": 339000,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0a889cf9aa8": {
+    "id": "e0a889cf9aa8",
+    "label": "4 ALL DES MESANGES, Pavilly",
+    "lat": 49.566859,
+    "lng": 0.939076,
+    "transactions": [
+      {
+        "date": "2022-10-04",
+        "priceEur": 216000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "edb9aa2a72e1": {
+    "id": "edb9aa2a72e1",
+    "label": "3 RUE VOLTAIRE, Pavilly",
+    "lat": 49.564628,
+    "lng": 0.940162,
+    "transactions": [
+      {
+        "date": "2024-04-23",
+        "priceEur": 224900,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-04",
+        "priceEur": 242000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a2a976e7cac": {
+    "id": "2a2a976e7cac",
+    "label": "12 ALL DES MESANGES, Pavilly",
+    "lat": 49.566678,
+    "lng": 0.939661,
+    "transactions": [
+      {
+        "date": "2022-10-26",
+        "priceEur": 184000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "022a7a00c9e8": {
+    "id": "022a7a00c9e8",
+    "label": "15 RUE PAUL GAUGUIN, Pavilly",
+    "lat": 49.567791,
+    "lng": 0.939496,
+    "transactions": [
+      {
+        "date": "2022-10-27",
+        "priceEur": 212500,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "65eefff91fc8": {
+    "id": "65eefff91fc8",
+    "label": "6 RUE CLAUDE MONET, Pavilly",
+    "lat": 49.56634,
+    "lng": 0.942379,
+    "transactions": [
+      {
+        "date": "2022-11-28",
+        "priceEur": 151850,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf7a05486909": {
+    "id": "bf7a05486909",
+    "label": "10 RUE DES CHAMPS, Pavilly",
+    "lat": 49.566776,
+    "lng": 0.944308,
+    "transactions": [
+      {
+        "date": "2022-12-23",
+        "priceEur": 82500,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "3297e855575b": {
+    "id": "3297e855575b",
+    "label": "29 RUE FRECKENHORST, Pavilly",
+    "lat": 49.56541,
+    "lng": 0.934606,
+    "transactions": [
+      {
+        "date": "2023-03-03",
+        "priceEur": 301000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac52d0a111b3": {
+    "id": "ac52d0a111b3",
+    "label": "2 RUE CLAUDE MONET, Pavilly",
+    "lat": 49.566247,
+    "lng": 0.942767,
+    "transactions": [
+      {
+        "date": "2023-04-27",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff270669ad3f": {
+    "id": "ff270669ad3f",
+    "label": "2 ALL DES FAUVETTES, Pavilly",
+    "lat": 49.56584,
+    "lng": 0.938921,
+    "transactions": [
+      {
+        "date": "2023-05-26",
+        "priceEur": 207700,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "e54c05e22042": {
+    "id": "e54c05e22042",
+    "label": "6 ALL DES CHARDONNERETS, Pavilly",
+    "lat": 49.566493,
+    "lng": 0.938543,
+    "transactions": [
+      {
+        "date": "2023-05-12",
+        "priceEur": 209100,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "7771d85728bd": {
+    "id": "7771d85728bd",
+    "label": "5 RUE DES PINSONS, Pavilly",
+    "lat": 49.566251,
+    "lng": 0.940249,
+    "transactions": [
+      {
+        "date": "2023-09-26",
+        "priceEur": 204000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0e63f69d1e7": {
+    "id": "c0e63f69d1e7",
+    "label": "11 RUE CLAUDE MONET, Pavilly",
+    "lat": 49.566795,
+    "lng": 0.940605,
+    "transactions": [
+      {
+        "date": "2023-11-29",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "39f59dbcdeff": {
+    "id": "39f59dbcdeff",
+    "label": "3 RUE DES CHAMPS, Pavilly",
+    "lat": 49.566146,
+    "lng": 0.944764,
+    "transactions": [
+      {
+        "date": "2023-12-13",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "828380552cfe": {
+    "id": "828380552cfe",
+    "label": "2 ALL DES GRIVES, Pavilly",
+    "lat": 49.566604,
+    "lng": 0.93703,
+    "transactions": [
+      {
+        "date": "2024-02-27",
+        "priceEur": 209000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b37e1279540": {
+    "id": "7b37e1279540",
+    "label": "14 RUE DE LA VIERGE, Pavilly",
+    "lat": 49.566148,
+    "lng": 0.944006,
+    "transactions": [
+      {
+        "date": "2024-05-24",
+        "priceEur": 100500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e7ca8d64c7a": {
+    "id": "7e7ca8d64c7a",
+    "label": "11 RUE FONTENELLE, Pavilly",
+    "lat": 49.563376,
+    "lng": 0.941556,
+    "transactions": [
+      {
+        "date": "2024-06-12",
+        "priceEur": 254900,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "75fddab52e1e": {
+    "id": "75fddab52e1e",
+    "label": "4 RUE DIDEROT, Pavilly",
+    "lat": 49.564625,
+    "lng": 0.941819,
+    "transactions": [
+      {
+        "date": "2024-07-22",
+        "priceEur": 247430,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "fcfd860f29ba": {
+    "id": "fcfd860f29ba",
+    "label": "706 RTE DEPARTEMENTALE 6015, Barentin",
+    "lat": 49.5619,
+    "lng": 0.937397,
+    "transactions": [
+      {
+        "date": "2024-08-02",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6a115820183": {
+    "id": "b6a115820183",
+    "label": "19 RUE DE LA VIERGE, Pavilly",
+    "lat": 49.565981,
+    "lng": 0.942385,
+    "transactions": [
+      {
+        "date": "2024-09-20",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1e7fa381472": {
+    "id": "e1e7fa381472",
+    "label": "4 RUE DES ROUGES GORGES, Pavilly",
+    "lat": 49.566165,
+    "lng": 0.937491,
+    "transactions": [
+      {
+        "date": "2025-02-28",
+        "priceEur": 232000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "6146b7db78b5": {
+    "id": "6146b7db78b5",
+    "label": "1692 RUE DES DEUX VALLEES, Freulleville",
+    "lat": 49.823293,
+    "lng": 1.222028,
+    "transactions": [
+      {
+        "date": "2022-05-16",
+        "priceEur": 164455,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc10f4fde8af": {
+    "id": "cc10f4fde8af",
+    "label": "1964 RUE DES DEUX VALLEES, Freulleville",
+    "lat": 49.82129,
+    "lng": 1.219659,
+    "transactions": [
+      {
+        "date": "2025-02-21",
+        "priceEur": 137450,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  }
+}

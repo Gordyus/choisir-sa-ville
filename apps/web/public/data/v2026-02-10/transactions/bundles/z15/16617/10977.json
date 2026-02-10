@@ -1,0 +1,32 @@
+{
+  "b1f221f97c68": {
+    "id": "b1f221f97c68",
+    "label": "16 CHE DU PRECK HOUCK, Killem",
+    "lat": 50.947889,
+    "lng": 2.56704,
+    "transactions": [
+      {
+        "date": "2024-06-07",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ce07a35b6b5": {
+    "id": "6ce07a35b6b5",
+    "label": "9 CHE DU PRECK HOUCK, Killem",
+    "lat": 50.9487,
+    "lng": 2.568977,
+    "transactions": [
+      {
+        "date": "2024-08-16",
+        "priceEur": 177000,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  }
+}

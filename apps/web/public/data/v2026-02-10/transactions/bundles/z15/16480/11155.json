@@ -1,0 +1,47 @@
+{
+  "74d995ab24cd": {
+    "id": "74d995ab24cd",
+    "label": "131 RUE DU RELAIS, Saint-Denis-sur-Scie",
+    "lat": 49.703105,
+    "lng": 1.055035,
+    "transactions": [
+      {
+        "date": "2022-06-14",
+        "priceEur": 212600,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "efbd5506f70d": {
+    "id": "efbd5506f70d",
+    "label": "512 RUE GRANDE RUE, Saint-Denis-sur-Scie",
+    "lat": 49.699325,
+    "lng": 1.062782,
+    "transactions": [
+      {
+        "date": "2023-02-14",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d487f04da35": {
+    "id": "7d487f04da35",
+    "label": "284 RUE GRANDE RUE, Saint-Denis-sur-Scie",
+    "lat": 49.699193,
+    "lng": 1.064604,
+    "transactions": [
+      {
+        "date": "2024-11-15",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  }
+}

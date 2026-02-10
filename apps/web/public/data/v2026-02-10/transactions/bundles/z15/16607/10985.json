@@ -1,0 +1,32 @@
+{
+  "c10417acfadd": {
+    "id": "c10417acfadd",
+    "label": "62 RUE ADRIEN MORE, Wormhout",
+    "lat": 50.895019,
+    "lng": 2.460041,
+    "transactions": [
+      {
+        "date": "2020-12-03",
+        "priceEur": 195800,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "91ee5e3efdd2": {
+    "id": "91ee5e3efdd2",
+    "label": "8 RUE CLAUDE VANDEWALLE, Wormhout",
+    "lat": 50.894692,
+    "lng": 2.460182,
+    "transactions": [
+      {
+        "date": "2023-05-03",
+        "priceEur": 276700,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  }
+}

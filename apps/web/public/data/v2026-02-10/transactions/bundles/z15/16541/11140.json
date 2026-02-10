@@ -1,0 +1,32 @@
+{
+  "3bec3d06ef3b": {
+    "id": "3bec3d06ef3b",
+    "label": "5037 LES COMMUNES OUEST, Ellecourt",
+    "lat": 49.803511,
+    "lng": 1.727512,
+    "transactions": [
+      {
+        "date": "2020-09-05",
+        "priceEur": 44000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "1029b34eec12": {
+    "id": "1029b34eec12",
+    "label": "5045 LE CAQUEVELLE, Ellecourt",
+    "lat": 49.808588,
+    "lng": 1.735694,
+    "transactions": [
+      {
+        "date": "2021-07-08",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "755eae82de31": {
+    "id": "755eae82de31",
+    "label": "3T RUE HAGHEDOORN STRAETE, Esquelbecq",
+    "lat": 50.908312,
+    "lng": 2.441101,
+    "transactions": [
+      {
+        "date": "2021-06-16",
+        "priceEur": 592834,
+        "typeLocal": "Maison",
+        "surfaceM2": 206,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-16",
+        "priceEur": 592834,
+        "typeLocal": "Maison",
+        "surfaceM2": 26,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-16",
+        "priceEur": 592834,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "929525c29490": {
+    "id": "929525c29490",
+    "label": "1 RUE HAGHEDOORN STRAETE, Esquelbecq",
+    "lat": 50.904597,
+    "lng": 2.445151,
+    "transactions": [
+      {
+        "date": "2025-06-16",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

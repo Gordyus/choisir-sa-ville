@@ -1,0 +1,47 @@
+{
+  "7bc9494c3513": {
+    "id": "7bc9494c3513",
+    "label": "6053 LA ROCHELLE NORD, Bouville",
+    "lat": 49.557186,
+    "lng": 0.889172,
+    "transactions": [
+      {
+        "date": "2020-11-23",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "012c67eb8cdf": {
+    "id": "012c67eb8cdf",
+    "label": "5 CLOS DES DEMOISELLES, Bouville",
+    "lat": 49.560213,
+    "lng": 0.889734,
+    "transactions": [
+      {
+        "date": "2022-11-09",
+        "priceEur": 271150,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ec62fdfe9a9": {
+    "id": "6ec62fdfe9a9",
+    "label": "1312 RTE DES IFS, Bouville",
+    "lat": 49.554056,
+    "lng": 0.87927,
+    "transactions": [
+      {
+        "date": "2024-05-24",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  }
+}

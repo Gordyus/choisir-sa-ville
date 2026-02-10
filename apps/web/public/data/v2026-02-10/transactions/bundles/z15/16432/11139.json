@@ -1,0 +1,32 @@
+{
+  "37ebe64dc2f5": {
+    "id": "37ebe64dc2f5",
+    "label": "1 RTE DU VAL FLEURI, Sassetot-le-Mauconduit",
+    "lat": 49.815097,
+    "lng": 0.530121,
+    "transactions": [
+      {
+        "date": "2020-07-08",
+        "priceEur": 214000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ac9fb245bb0": {
+    "id": "6ac9fb245bb0",
+    "label": "7 CHE DU BOIS, Sassetot-le-Mauconduit",
+    "lat": 49.810213,
+    "lng": 0.527407,
+    "transactions": [
+      {
+        "date": "2020-09-01",
+        "priceEur": 381200,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

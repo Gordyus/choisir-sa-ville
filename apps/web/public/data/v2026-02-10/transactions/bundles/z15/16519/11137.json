@@ -1,0 +1,32 @@
+{
+  "cd85bc786c5f": {
+    "id": "cd85bc786c5f",
+    "label": "5094 HAMBURES, Clais",
+    "lat": 49.828947,
+    "lng": 1.489788,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 39,
+        "isVefa": false
+      }
+    ]
+  },
+  "0bea61d649bb": {
+    "id": "0bea61d649bb",
+    "label": "2A IMP DU BOIS DE COUDRE, Clais",
+    "lat": 49.829469,
+    "lng": 1.486895,
+    "transactions": [
+      {
+        "date": "2022-11-19",
+        "priceEur": 149800,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  }
+}

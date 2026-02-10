@@ -1,0 +1,69 @@
+{
+  "3adccbce889c": {
+    "id": "3adccbce889c",
+    "label": "6 RTE DE LA VALLEE, Sainte-Beuve-en-Rivière",
+    "lat": 49.755745,
+    "lng": 1.542609,
+    "transactions": [
+      {
+        "date": "2020-08-01",
+        "priceEur": 172500,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "311f44a6d519": {
+    "id": "311f44a6d519",
+    "label": "2 IMP MICHEL PINGLIER, Sainte-Beuve-en-Rivière",
+    "lat": 49.754536,
+    "lng": 1.539691,
+    "transactions": [
+      {
+        "date": "2021-03-16",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "0432c5c9e3d3": {
+    "id": "0432c5c9e3d3",
+    "label": "5019 LE BOURG, Mortemer",
+    "lat": 49.753536,
+    "lng": 1.546544,
+    "transactions": [
+      {
+        "date": "2021-04-16",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 300,
+        "isVefa": false
+      }
+    ]
+  },
+  "4fe9c1893535": {
+    "id": "4fe9c1893535",
+    "label": "7 IMP MICHEL PINGLIER, Sainte-Beuve-en-Rivière",
+    "lat": 49.753586,
+    "lng": 1.539368,
+    "transactions": [
+      {
+        "date": "2022-12-09",
+        "priceEur": 227360,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-09",
+        "priceEur": 227360,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  }
+}

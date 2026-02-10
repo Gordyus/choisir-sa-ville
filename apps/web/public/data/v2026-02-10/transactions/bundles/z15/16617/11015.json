@@ -1,0 +1,62 @@
+{
+  "d340fb2bda21": {
+    "id": "d340fb2bda21",
+    "label": "4 CHE DU SOUVERAIN, Morbecque",
+    "lat": 50.68513,
+    "lng": 2.570165,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 173000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "a149a901f526": {
+    "id": "a149a901f526",
+    "label": "38 CHE DU SOUVERAIN, Morbecque",
+    "lat": 50.685544,
+    "lng": 2.569728,
+    "transactions": [
+      {
+        "date": "2020-09-09",
+        "priceEur": 228100,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "7369ebc22ec6": {
+    "id": "7369ebc22ec6",
+    "label": "31 RTE D HAZEBROUCK, Morbecque",
+    "lat": 50.684554,
+    "lng": 2.570107,
+    "transactions": [
+      {
+        "date": "2021-03-11",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "97f4ffda0ce2": {
+    "id": "97f4ffda0ce2",
+    "label": "27 RTE D HAZEBROUCK, Morbecque",
+    "lat": 50.684384,
+    "lng": 2.570283,
+    "transactions": [
+      {
+        "date": "2024-01-12",
+        "priceEur": 219000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  }
+}

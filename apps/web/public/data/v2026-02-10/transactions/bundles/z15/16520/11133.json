@@ -1,0 +1,32 @@
+{
+  "98ce7313333c": {
+    "id": "98ce7313333c",
+    "label": "5104 LA LEUQUEUE, Smermesnil",
+    "lat": 49.857847,
+    "lng": 1.496787,
+    "transactions": [
+      {
+        "date": "2022-03-30",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5b22652b3d6": {
+    "id": "c5b22652b3d6",
+    "label": "7 RUE DU PUITS, Smermesnil",
+    "lat": 49.858637,
+    "lng": 1.496292,
+    "transactions": [
+      {
+        "date": "2024-05-24",
+        "priceEur": 52500,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

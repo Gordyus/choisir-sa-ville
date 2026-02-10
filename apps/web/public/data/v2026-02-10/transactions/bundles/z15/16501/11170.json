@@ -1,0 +1,99 @@
+{
+  "5d99b5e0fcdb": {
+    "id": "5d99b5e0fcdb",
+    "label": "200 RUE D ECALLES, Rocquemont",
+    "lat": 49.595971,
+    "lng": 1.292052,
+    "transactions": [
+      {
+        "date": "2022-08-26",
+        "priceEur": 248000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-09",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa3f4660ee56": {
+    "id": "fa3f4660ee56",
+    "label": "365 RUE D ECALLES, Rocquemont",
+    "lat": 49.595195,
+    "lng": 1.293707,
+    "transactions": [
+      {
+        "date": "2021-05-03",
+        "priceEur": 248500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "38f52474f9e4": {
+    "id": "38f52474f9e4",
+    "label": "5184 LE TREMBLAY, Rocquemont",
+    "lat": 49.596393,
+    "lng": 1.290269,
+    "transactions": [
+      {
+        "date": "2021-05-27",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "923d5bac7f73": {
+    "id": "923d5bac7f73",
+    "label": "115 RUE D ECALLES, Rocquemont",
+    "lat": 49.595897,
+    "lng": 1.290083,
+    "transactions": [
+      {
+        "date": "2021-08-30",
+        "priceEur": 330530,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca6e16c6f97e": {
+    "id": "ca6e16c6f97e",
+    "label": "5046 LE TREMBLAY, Rocquemont",
+    "lat": 49.596033,
+    "lng": 1.294634,
+    "transactions": [
+      {
+        "date": "2022-01-18",
+        "priceEur": 132000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "15f363465525": {
+    "id": "15f363465525",
+    "label": "294 RUE D ECALLES, Rocquemont",
+    "lat": 49.595253,
+    "lng": 1.292412,
+    "transactions": [
+      {
+        "date": "2024-03-22",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

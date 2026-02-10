@@ -1,0 +1,32 @@
+{
+  "bdeaf174ef41": {
+    "id": "bdeaf174ef41",
+    "label": "9006 HAMEAU DE VAUCELLES, Les Rues-des-Vignes",
+    "lat": 50.075167,
+    "lng": 3.220268,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 365000,
+        "typeLocal": "Maison",
+        "surfaceM2": 249,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e00a094454b": {
+    "id": "8e00a094454b",
+    "label": "6 HAMEAU DE VAUCELLES, Les Rues-des-Vignes",
+    "lat": 50.075255,
+    "lng": 3.221197,
+    "transactions": [
+      {
+        "date": "2024-07-24",
+        "priceEur": 14000,
+        "typeLocal": "Maison",
+        "surfaceM2": 26,
+        "isVefa": false
+      }
+    ]
+  }
+}

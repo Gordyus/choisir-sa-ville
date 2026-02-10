@@ -1,0 +1,32 @@
+{
+  "87ff154e9849": {
+    "id": "87ff154e9849",
+    "label": "3B CHE DU BOIS CAULOT, Octeville-sur-Mer",
+    "lat": 49.569282,
+    "lng": 0.147353,
+    "transactions": [
+      {
+        "date": "2020-10-23",
+        "priceEur": 227000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "75a2a47e61fb": {
+    "id": "75a2a47e61fb",
+    "label": "6816 RTE DE SAINT BARTHELEMY, Octeville-sur-Mer",
+    "lat": 49.568805,
+    "lng": 0.147574,
+    "transactions": [
+      {
+        "date": "2021-12-09",
+        "priceEur": 352500,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  }
+}

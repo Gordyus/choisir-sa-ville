@@ -1,0 +1,32 @@
+{
+  "2e051f55e006": {
+    "id": "2e051f55e006",
+    "label": "861 RTE DE LA MUETTE, Isneauville",
+    "lat": 49.505019,
+    "lng": 1.137676,
+    "transactions": [
+      {
+        "date": "2022-02-08",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "f980ba681392": {
+    "id": "f980ba681392",
+    "label": "871 RTE DE LA MUETTE, Isneauville",
+    "lat": 49.505427,
+    "lng": 1.137321,
+    "transactions": [
+      {
+        "date": "2023-12-15",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "48d0e6681b4a": {
+    "id": "48d0e6681b4a",
+    "label": "3 CHE DE FONTANILLES, Cabrerolles",
+    "lat": 43.516322,
+    "lng": 3.141665,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-30",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 15,
+        "isVefa": false
+      }
+    ]
+  }
+}

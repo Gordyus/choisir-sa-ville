@@ -1,0 +1,32 @@
+{
+  "68ca5c8d3b51": {
+    "id": "68ca5c8d3b51",
+    "label": "46 AV DU ONZE NOVEMBRE, Forges-les-Eaux",
+    "lat": 49.603311,
+    "lng": 1.54626,
+    "transactions": [
+      {
+        "date": "2023-09-20",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "35ebf8ef0402": {
+    "id": "35ebf8ef0402",
+    "label": "1 RUE DES FAUVETTES, Forges-les-Eaux",
+    "lat": 49.603578,
+    "lng": 1.546671,
+    "transactions": [
+      {
+        "date": "2024-10-30",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

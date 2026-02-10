@@ -1,0 +1,32 @@
+{
+  "20ca023c4375": {
+    "id": "20ca023c4375",
+    "label": "1508 RUE DU PUYTHOUCK VC 101, Warhem",
+    "lat": 50.978577,
+    "lng": 2.53273,
+    "transactions": [
+      {
+        "date": "2022-02-28",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 244,
+        "isVefa": false
+      }
+    ]
+  },
+  "c79c25d40775": {
+    "id": "c79c25d40775",
+    "label": "22 RTE D UXEM CD 79, Killem",
+    "lat": 50.974194,
+    "lng": 2.53436,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "42d2bdbf023c": {
+    "id": "42d2bdbf023c",
+    "label": "3 RUE CHARLES MARTEL, Bacqueville-en-Caux",
+    "lat": 49.792227,
+    "lng": 1.033009,
+    "transactions": [
+      {
+        "date": "2020-08-28",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "47d12dc186b5": {
+    "id": "47d12dc186b5",
+    "label": "5 RUE CHARLES MARTEL, Bacqueville-en-Caux",
+    "lat": 49.792078,
+    "lng": 1.033445,
+    "transactions": [
+      {
+        "date": "2020-12-16",
+        "priceEur": 158500,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe9a7c2dbabd": {
+    "id": "fe9a7c2dbabd",
+    "label": "8 RUE CHARLES MARTEL, Bacqueville-en-Caux",
+    "lat": 49.791602,
+    "lng": 1.032837,
+    "transactions": [
+      {
+        "date": "2022-05-23",
+        "priceEur": 233500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-23",
+        "priceEur": 233500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "10851fab4a26": {
+    "id": "10851fab4a26",
+    "label": "10B RUE DE VARENVILLE, Bacqueville-en-Caux",
+    "lat": 49.788461,
+    "lng": 1.034618,
+    "transactions": [
+      {
+        "date": "2023-10-31",
+        "priceEur": 244000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  }
+}

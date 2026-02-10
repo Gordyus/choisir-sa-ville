@@ -1,0 +1,32 @@
+{
+  "9346090cd001": {
+    "id": "9346090cd001",
+    "label": "5059 FLAMENIL SUD, Goupillières",
+    "lat": 49.580962,
+    "lng": 0.989662,
+    "transactions": [
+      {
+        "date": "2023-07-07",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "b44c66d7b1fb": {
+    "id": "b44c66d7b1fb",
+    "label": "662 RTE DE LA CHAPELLE, Goupillières",
+    "lat": 49.58133,
+    "lng": 0.988869,
+    "transactions": [
+      {
+        "date": "2025-01-31",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

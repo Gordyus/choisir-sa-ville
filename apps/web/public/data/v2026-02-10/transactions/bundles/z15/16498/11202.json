@@ -1,0 +1,144 @@
+{
+  "50976f1e87c5": {
+    "id": "50976f1e87c5",
+    "label": "3161 RUE DES ANDELYS, La Neuville-Chant-d'Oisel",
+    "lat": 49.361403,
+    "lng": 1.252646,
+    "transactions": [
+      {
+        "date": "2020-09-28",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "80d67350083b": {
+    "id": "80d67350083b",
+    "label": "347 RUE DE SAINT AUTIN, La Neuville-Chant-d'Oisel",
+    "lat": 49.365156,
+    "lng": 1.256159,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "956fc314fdf7": {
+    "id": "956fc314fdf7",
+    "label": "796 RUE DE LA COTE A L ANE, La Neuville-Chant-d'Oisel",
+    "lat": 49.361711,
+    "lng": 1.262149,
+    "transactions": [
+      {
+        "date": "2021-02-17",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-17",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "17008e531823": {
+    "id": "17008e531823",
+    "label": "475 RUE DE LA CHAUSSEE DU ROI, La Neuville-Chant-d'Oisel",
+    "lat": 49.362499,
+    "lng": 1.255509,
+    "transactions": [
+      {
+        "date": "2021-03-08",
+        "priceEur": 199500,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff66cb984c49": {
+    "id": "ff66cb984c49",
+    "label": "90 ALL DES MASURES LAVALLE, La Neuville-Chant-d'Oisel",
+    "lat": 49.362209,
+    "lng": 1.253104,
+    "transactions": [
+      {
+        "date": "2021-06-22",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "18ac6a68d7eb": {
+    "id": "18ac6a68d7eb",
+    "label": "368 RUE DE LA CHAUSSEE DU ROI, La Neuville-Chant-d'Oisel",
+    "lat": 49.362795,
+    "lng": 1.253126,
+    "transactions": [
+      {
+        "date": "2021-08-05",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc77a5198f78": {
+    "id": "bc77a5198f78",
+    "label": "93 RUE DE SAINT AUTIN, La Neuville-Chant-d'Oisel",
+    "lat": 49.364057,
+    "lng": 1.253298,
+    "transactions": [
+      {
+        "date": "2023-12-27",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "4dd5cdbadb53": {
+    "id": "4dd5cdbadb53",
+    "label": "491 RUE DE LA CHAUSSEE DU ROI, La Neuville-Chant-d'Oisel",
+    "lat": 49.362896,
+    "lng": 1.256179,
+    "transactions": [
+      {
+        "date": "2024-04-30",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7ddb4e41de5": {
+    "id": "c7ddb4e41de5",
+    "label": "61 RUE DE SAINT AUTIN, La Neuville-Chant-d'Oisel",
+    "lat": 49.363941,
+    "lng": 1.253086,
+    "transactions": [
+      {
+        "date": "2024-09-30",
+        "priceEur": 211000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

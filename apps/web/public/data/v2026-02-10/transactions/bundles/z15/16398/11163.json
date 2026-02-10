@@ -1,0 +1,92 @@
+{
+  "d8da4a7fed0e": {
+    "id": "d8da4a7fed0e",
+    "label": "5437 SOURDEVAL, Saint-Jouin-Bruneval",
+    "lat": 49.644022,
+    "lng": 0.161291,
+    "transactions": [
+      {
+        "date": "2024-01-15",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b466399ad08": {
+    "id": "0b466399ad08",
+    "label": "19 RUE DU GENERAL DE GAULLE, Saint-Jouin-Bruneval",
+    "lat": 49.642957,
+    "lng": 0.162593,
+    "transactions": [
+      {
+        "date": "2024-09-30",
+        "priceEur": 108500,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c742a84f9de": {
+    "id": "7c742a84f9de",
+    "label": "11 RUE DU 8 MAI 1945, Saint-Jouin-Bruneval",
+    "lat": 49.64382,
+    "lng": 0.163144,
+    "transactions": [
+      {
+        "date": "2024-12-26",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "243e3791e564": {
+    "id": "243e3791e564",
+    "label": "7 RUE DU 8 MAI 1945, Saint-Jouin-Bruneval",
+    "lat": 49.643814,
+    "lng": 0.162939,
+    "transactions": [
+      {
+        "date": "2025-01-17",
+        "priceEur": 194300,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "eab01fae6f6c": {
+    "id": "eab01fae6f6c",
+    "label": "15 RUE DU GENERAL DE GAULLE, Saint-Jouin-Bruneval",
+    "lat": 49.642355,
+    "lng": 0.163001,
+    "transactions": [
+      {
+        "date": "2025-02-26",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "db9275b38aaf": {
+    "id": "db9275b38aaf",
+    "label": "45 CHE LA VALLEUSE BOUCHEROT, Saint-Jouin-Bruneval",
+    "lat": 49.642517,
+    "lng": 0.154158,
+    "transactions": [
+      {
+        "date": "2025-04-02",
+        "priceEur": 258000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

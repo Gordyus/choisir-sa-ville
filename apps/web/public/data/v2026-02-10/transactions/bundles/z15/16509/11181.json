@@ -1,0 +1,47 @@
+{
+  "faba665a3de0": {
+    "id": "faba665a3de0",
+    "label": "1857 RUE DE LA CROIX DU THIL, Boissay",
+    "lat": 49.51383,
+    "lng": 1.379095,
+    "transactions": [
+      {
+        "date": "2020-10-10",
+        "priceEur": 134500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "f0f6886cd69c": {
+    "id": "f0f6886cd69c",
+    "label": "1887 RUE DE LA CROIX DU THIL, Boissay",
+    "lat": 49.513119,
+    "lng": 1.379205,
+    "transactions": [
+      {
+        "date": "2021-04-23",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 164,
+        "isVefa": false
+      }
+    ]
+  },
+  "23f18300d9b3": {
+    "id": "23f18300d9b3",
+    "label": "1903 RUE DE LA CROIX DU THIL, Boissay",
+    "lat": 49.513619,
+    "lng": 1.379367,
+    "transactions": [
+      {
+        "date": "2022-08-08",
+        "priceEur": 202000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

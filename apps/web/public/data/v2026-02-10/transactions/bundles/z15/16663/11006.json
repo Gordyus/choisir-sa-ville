@@ -1,0 +1,47 @@
+{
+  "c3a4fb3069c4": {
+    "id": "c3a4fb3069c4",
+    "label": "24 PAVE DE STEMBERG, Linselles",
+    "lat": 50.747191,
+    "lng": 3.075223,
+    "transactions": [
+      {
+        "date": "2024-04-15",
+        "priceEur": 463000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "05b154f3bde3": {
+    "id": "05b154f3bde3",
+    "label": "30 RLE DU CLERC, Linselles",
+    "lat": 50.748911,
+    "lng": 3.072003,
+    "transactions": [
+      {
+        "date": "2024-11-27",
+        "priceEur": 665000,
+        "typeLocal": "Maison",
+        "surfaceM2": 172,
+        "isVefa": false
+      }
+    ]
+  },
+  "18145d1d93cd": {
+    "id": "18145d1d93cd",
+    "label": "30 PAVE DE STEMBERG, Linselles",
+    "lat": 50.746687,
+    "lng": 3.073096,
+    "transactions": [
+      {
+        "date": "2025-03-11",
+        "priceEur": 500000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

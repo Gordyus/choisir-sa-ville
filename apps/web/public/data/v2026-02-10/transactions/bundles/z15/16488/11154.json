@@ -1,0 +1,24 @@
+{
+  "22f2bdc4f193": {
+    "id": "22f2bdc4f193",
+    "label": "5500 LA PETITE GARENNE, Val-de-Scie",
+    "lat": 49.703949,
+    "lng": 1.148178,
+    "transactions": [
+      {
+        "date": "2020-09-03",
+        "priceEur": 166900,
+        "typeLocal": "Maison",
+        "surfaceM2": 172,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-03",
+        "priceEur": 175100,
+        "typeLocal": "Maison",
+        "surfaceM2": 177,
+        "isVefa": false
+      }
+    ]
+  }
+}

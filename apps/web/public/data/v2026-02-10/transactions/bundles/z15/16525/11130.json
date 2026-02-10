@@ -1,0 +1,32 @@
+{
+  "7a744e693009": {
+    "id": "7a744e693009",
+    "label": "9 RTE D AULNOY, Saint-Riquier-en-Rivière",
+    "lat": 49.876903,
+    "lng": 1.557927,
+    "transactions": [
+      {
+        "date": "2021-02-22",
+        "priceEur": 114500,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "07707769384d": {
+    "id": "07707769384d",
+    "label": "6 RTE D AULNOY, Saint-Riquier-en-Rivière",
+    "lat": 49.876212,
+    "lng": 1.559546,
+    "transactions": [
+      {
+        "date": "2024-09-27",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  }
+}

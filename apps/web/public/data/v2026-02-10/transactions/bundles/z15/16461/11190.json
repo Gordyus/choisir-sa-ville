@@ -1,0 +1,32 @@
+{
+  "44f99cbac3f5": {
+    "id": "44f99cbac3f5",
+    "label": "5206 LES COTES, Le Mesnil-sous-Jumièges",
+    "lat": 49.44915,
+    "lng": 0.854539,
+    "transactions": [
+      {
+        "date": "2022-03-10",
+        "priceEur": 268500,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "83158182c213": {
+    "id": "83158182c213",
+    "label": "4187 CHE DU HALAGE, Le Mesnil-sous-Jumièges",
+    "lat": 49.450525,
+    "lng": 0.85437,
+    "transactions": [
+      {
+        "date": "2022-09-29",
+        "priceEur": 292000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

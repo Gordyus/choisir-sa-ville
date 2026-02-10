@@ -1,0 +1,54 @@
+{
+  "61f5c2e90eb5": {
+    "id": "61f5c2e90eb5",
+    "label": "966 RUE DE LA VACQUERIE, Moncheaux",
+    "lat": 50.46479,
+    "lng": 3.099428,
+    "transactions": [
+      {
+        "date": "2021-03-26",
+        "priceEur": 401000,
+        "typeLocal": "Maison",
+        "surfaceM2": 164,
+        "isVefa": false
+      }
+    ]
+  },
+  "73063f8a0a8f": {
+    "id": "73063f8a0a8f",
+    "label": "928 RUE DE LA VACQUERIE, Moncheaux",
+    "lat": 50.464609,
+    "lng": 3.098838,
+    "transactions": [
+      {
+        "date": "2023-07-11",
+        "priceEur": 517600,
+        "typeLocal": "Maison",
+        "surfaceM2": 159,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-30",
+        "priceEur": 527600,
+        "typeLocal": "Maison",
+        "surfaceM2": 159,
+        "isVefa": false
+      }
+    ]
+  },
+  "10d6d6e1774b": {
+    "id": "10d6d6e1774b",
+    "label": "1320 RUE DE LA VACQUERIE, Mons-en-Pévèle",
+    "lat": 50.467878,
+    "lng": 3.100672,
+    "transactions": [
+      {
+        "date": "2023-06-09",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

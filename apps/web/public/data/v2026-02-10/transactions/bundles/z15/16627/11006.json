@@ -1,0 +1,32 @@
+{
+  "7688bdced18c": {
+    "id": "7688bdced18c",
+    "label": "2430 RUE NATIONALE, Méteren",
+    "lat": 50.74474,
+    "lng": 2.675483,
+    "transactions": [
+      {
+        "date": "2021-07-07",
+        "priceEur": 65000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "d582b867b9f5": {
+    "id": "d582b867b9f5",
+    "label": "669 RUE DE LA BESACE, Méteren",
+    "lat": 50.749723,
+    "lng": 2.672537,
+    "transactions": [
+      {
+        "date": "2021-09-03",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  }
+}

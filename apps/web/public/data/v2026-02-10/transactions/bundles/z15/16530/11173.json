@@ -1,0 +1,47 @@
+{
+  "10d44e142517": {
+    "id": "10d44e142517",
+    "label": "336 RTE DE PARIS, Saumont-la-Poterie",
+    "lat": 49.57222,
+    "lng": 1.607173,
+    "transactions": [
+      {
+        "date": "2021-02-04",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e8134e1f333": {
+    "id": "7e8134e1f333",
+    "label": "325 RTE DE PARIS, Saumont-la-Poterie",
+    "lat": 49.57292,
+    "lng": 1.606993,
+    "transactions": [
+      {
+        "date": "2022-07-11",
+        "priceEur": 150500,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "607a67273fa9": {
+    "id": "607a67273fa9",
+    "label": "394 RTE DE PARIS, Saumont-la-Poterie",
+    "lat": 49.568237,
+    "lng": 1.613305,
+    "transactions": [
+      {
+        "date": "2024-09-04",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "4ca74dbe8080": {
+    "id": "4ca74dbe8080",
+    "label": "7 IMP DES EPIS, Saussay",
+    "lat": 49.639235,
+    "lng": 0.922738,
+    "transactions": [
+      {
+        "date": "2023-06-22",
+        "priceEur": 224000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-05",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "16a0ee6d046e": {
+    "id": "16a0ee6d046e",
+    "label": "1204 RTE DES BEAUX FEUILLAGES, Saussay",
+    "lat": 49.640494,
+    "lng": 0.919113,
+    "transactions": [
+      {
+        "date": "2022-07-01",
+        "priceEur": 308000,
+        "typeLocal": "Maison",
+        "surfaceM2": 179,
+        "isVefa": false
+      }
+    ]
+  },
+  "0f39a668b8aa": {
+    "id": "0f39a668b8aa",
+    "label": "994 RTE DES BEAUX FEUILLAGES, Saussay",
+    "lat": 49.639733,
+    "lng": 0.921616,
+    "transactions": [
+      {
+        "date": "2022-07-26",
+        "priceEur": 403000,
+        "typeLocal": "Maison",
+        "surfaceM2": 161,
+        "isVefa": false
+      }
+    ]
+  },
+  "e35ecfc6090e": {
+    "id": "e35ecfc6090e",
+    "label": "1104 RTE DES BEAUX FEUILLAGES, Saussay",
+    "lat": 49.640149,
+    "lng": 0.920389,
+    "transactions": [
+      {
+        "date": "2024-09-11",
+        "priceEur": 308425,
+        "typeLocal": "Maison",
+        "surfaceM2": 221,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "77796c9c57ea": {
+    "id": "77796c9c57ea",
+    "label": "5070 LE BEAU SOLEIL, Saint Martin de l'If",
+    "lat": 49.550005,
+    "lng": 0.778906,
+    "transactions": [
+      {
+        "date": "2021-11-24",
+        "priceEur": 234000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e1794ca99d1": {
+    "id": "2e1794ca99d1",
+    "label": "1227 RTE DE RANCON, Saint Martin de l'If",
+    "lat": 49.550004,
+    "lng": 0.778714,
+    "transactions": [
+      {
+        "date": "2021-11-24",
+        "priceEur": 234000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c2169d3b896": {
+    "id": "1c2169d3b896",
+    "label": "1460 RTE DE RANCON, Saint Martin de l'If",
+    "lat": 49.550396,
+    "lng": 0.776151,
+    "transactions": [
+      {
+        "date": "2023-04-26",
+        "priceEur": 132000,
+        "typeLocal": "Maison",
+        "surfaceM2": 214,
+        "isVefa": false
+      }
+    ]
+  }
+}

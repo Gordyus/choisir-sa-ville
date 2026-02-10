@@ -1,0 +1,24 @@
+{
+  "7e38588fd809": {
+    "id": "7e38588fd809",
+    "label": "27 RTE DE GRUMESNIL, Gaillefontaine",
+    "lat": 49.627954,
+    "lng": 1.646881,
+    "transactions": [
+      {
+        "date": "2024-01-17",
+        "priceEur": 134600,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-08",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "dbed810125f9": {
+    "id": "dbed810125f9",
+    "label": "5113 LES CATELLIERS, Saint-Léger-aux-Bois",
+    "lat": 49.823095,
+    "lng": 1.617114,
+    "transactions": [
+      {
+        "date": "2021-06-18",
+        "priceEur": 112000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "4afd101dd715": {
+    "id": "4afd101dd715",
+    "label": "5116 LES CATELLIERS, Saint-Léger-aux-Bois",
+    "lat": 49.819121,
+    "lng": 1.619524,
+    "transactions": [
+      {
+        "date": "2024-08-05",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  }
+}

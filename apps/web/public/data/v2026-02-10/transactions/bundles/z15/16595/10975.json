@@ -1,0 +1,47 @@
+{
+  "4b53b9357f13": {
+    "id": "4b53b9357f13",
+    "label": "2 CD 131A, Spycker",
+    "lat": 50.964734,
+    "lng": 2.320369,
+    "transactions": [
+      {
+        "date": "2022-02-22",
+        "priceEur": 338400,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "d0c406437a90": {
+    "id": "d0c406437a90",
+    "label": "10 RUE VLAEMYNCK STRAETE VC 7, Pitgam",
+    "lat": 50.958916,
+    "lng": 2.328959,
+    "transactions": [
+      {
+        "date": "2022-09-05",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "d571144b5d63": {
+    "id": "d571144b5d63",
+    "label": "20 RTE DE WATTEN CD 3, Spycker",
+    "lat": 50.959938,
+    "lng": 2.327281,
+    "transactions": [
+      {
+        "date": "2022-10-27",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "6424e20499f2": {
+    "id": "6424e20499f2",
+    "label": "7 RUE PASTEUR, Escaudœuvres",
+    "lat": 50.181867,
+    "lng": 3.278818,
+    "transactions": [
+      {
+        "date": "2022-05-09",
+        "priceEur": 269900,
+        "typeLocal": "Maison",
+        "surfaceM2": 167,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a8447208dde": {
+    "id": "6a8447208dde",
+    "label": "8 RUE PABLO PICASSO, Escaudœuvres",
+    "lat": 50.183195,
+    "lng": 3.275548,
+    "transactions": [
+      {
+        "date": "2022-08-01",
+        "priceEur": 401850,
+        "typeLocal": "Maison",
+        "surfaceM2": 186,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf59d32cdd86": {
+    "id": "bf59d32cdd86",
+    "label": "11 RUE PASTEUR, Escaudœuvres",
+    "lat": 50.182465,
+    "lng": 3.27751,
+    "transactions": [
+      {
+        "date": "2024-01-11",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  }
+}

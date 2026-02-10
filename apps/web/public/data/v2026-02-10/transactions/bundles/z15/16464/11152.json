@@ -1,0 +1,99 @@
+{
+  "2955d1d60908": {
+    "id": "2955d1d60908",
+    "label": "47 RTE DE DOUDEVILLE, Boudeville",
+    "lat": 49.722564,
+    "lng": 0.880025,
+    "transactions": [
+      {
+        "date": "2022-07-12",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-15",
+        "priceEur": 119000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d6e153116b5": {
+    "id": "3d6e153116b5",
+    "label": "32 RUE DE LA MAIRIE, Boudeville",
+    "lat": 49.724453,
+    "lng": 0.879135,
+    "transactions": [
+      {
+        "date": "2022-07-07",
+        "priceEur": 306770,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9aacf2aea8f": {
+    "id": "c9aacf2aea8f",
+    "label": "49 RTE DE DOUDEVILLE, Boudeville",
+    "lat": 49.722454,
+    "lng": 0.879721,
+    "transactions": [
+      {
+        "date": "2023-09-29",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "f589516077fd": {
+    "id": "f589516077fd",
+    "label": "10 RUE JUST FONTAINE, Boudeville",
+    "lat": 49.722669,
+    "lng": 0.87943,
+    "transactions": [
+      {
+        "date": "2023-11-03",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d648bc37108": {
+    "id": "8d648bc37108",
+    "label": "45 RUE DE L ECOLE, Boudeville",
+    "lat": 49.724258,
+    "lng": 0.87967,
+    "transactions": [
+      {
+        "date": "2024-11-28",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "df00c373a7d3": {
+    "id": "df00c373a7d3",
+    "label": "51 RTE DE DOUDEVILLE, Boudeville",
+    "lat": 49.722252,
+    "lng": 0.879419,
+    "transactions": [
+      {
+        "date": "2025-02-08",
+        "priceEur": 109000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  }
+}

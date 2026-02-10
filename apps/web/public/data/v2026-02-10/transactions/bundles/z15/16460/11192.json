@@ -1,0 +1,92 @@
+{
+  "a8afa2cf16fa": {
+    "id": "a8afa2cf16fa",
+    "label": "387 RTE DE LA FORET, Jumièges",
+    "lat": 49.434817,
+    "lng": 0.83532,
+    "transactions": [
+      {
+        "date": "2020-09-25",
+        "priceEur": 181000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "05e790d58418": {
+    "id": "05e790d58418",
+    "label": "5434 LA PETITE FOSSE, Jumièges",
+    "lat": 49.434803,
+    "lng": 0.838828,
+    "transactions": [
+      {
+        "date": "2021-04-29",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "27602afdbc85": {
+    "id": "27602afdbc85",
+    "label": "6013 RTE DE LA FORET, Jumièges",
+    "lat": 49.433266,
+    "lng": 0.841873,
+    "transactions": [
+      {
+        "date": "2022-07-19",
+        "priceEur": 213500,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "c84f723f9abd": {
+    "id": "c84f723f9abd",
+    "label": "45 IMP DE LA FORET, Jumièges",
+    "lat": 49.433577,
+    "lng": 0.83736,
+    "transactions": [
+      {
+        "date": "2023-10-26",
+        "priceEur": 157200,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a353b0372e2": {
+    "id": "3a353b0372e2",
+    "label": "36 IMP DE LA FORET, Jumièges",
+    "lat": 49.433472,
+    "lng": 0.837862,
+    "transactions": [
+      {
+        "date": "2024-09-25",
+        "priceEur": 160900,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "23f8ad2d9149": {
+    "id": "23f8ad2d9149",
+    "label": "547 RTE DE LA FORET, Jumièges",
+    "lat": 49.434778,
+    "lng": 0.837009,
+    "transactions": [
+      {
+        "date": "2024-12-16",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

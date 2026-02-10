@@ -1,0 +1,84 @@
+{
+  "e1eabbe272bf": {
+    "id": "e1eabbe272bf",
+    "label": "5136 MIROMESNIL, Tourville-sur-Arques",
+    "lat": 49.861595,
+    "lng": 1.070936,
+    "transactions": [
+      {
+        "date": "2021-02-03",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-03",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "77253e67a5d2": {
+    "id": "77253e67a5d2",
+    "label": "1 CHE DE LA RECLUSE, Tourville-sur-Arques",
+    "lat": 49.864807,
+    "lng": 1.069128,
+    "transactions": [
+      {
+        "date": "2022-04-08",
+        "priceEur": 190500,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "5336d0377f11": {
+    "id": "5336d0377f11",
+    "label": "280 CHE DE LA RECLUSE, Saint-Aubin-sur-Scie",
+    "lat": 49.865954,
+    "lng": 1.06877,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 253000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "68c407c641b6": {
+    "id": "68c407c641b6",
+    "label": "5212 AU DESSUS DE SAUQUEVILLE, Offranville",
+    "lat": 49.86486,
+    "lng": 1.068537,
+    "transactions": [
+      {
+        "date": "2022-07-20",
+        "priceEur": 195500,
+        "typeLocal": "Maison",
+        "surfaceM2": 166,
+        "isVefa": false
+      }
+    ]
+  },
+  "34fbf58dc20a": {
+    "id": "34fbf58dc20a",
+    "label": "5213 AU DESSUS DE SAUQUEVILLE, Offranville",
+    "lat": 49.864213,
+    "lng": 1.068455,
+    "transactions": [
+      {
+        "date": "2024-10-25",
+        "priceEur": 550000,
+        "typeLocal": "Maison",
+        "surfaceM2": 220,
+        "isVefa": false
+      }
+    ]
+  }
+}

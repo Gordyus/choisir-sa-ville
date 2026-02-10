@@ -1,0 +1,107 @@
+{
+  "b14144c2fb61": {
+    "id": "b14144c2fb61",
+    "label": "1311 RTE DU BRISE CAILLOUX, Vassonville",
+    "lat": 49.695637,
+    "lng": 1.072698,
+    "transactions": [
+      {
+        "date": "2020-12-31",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "99e499f282e9": {
+    "id": "99e499f282e9",
+    "label": "2020 RTE D'ECREPIGNY, Vassonville",
+    "lat": 49.689171,
+    "lng": 1.070657,
+    "transactions": [
+      {
+        "date": "2021-12-22",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "ce651588609d": {
+    "id": "ce651588609d",
+    "label": "1262 RTE DU BRISE CAILLOUX, Vassonville",
+    "lat": 49.695633,
+    "lng": 1.074096,
+    "transactions": [
+      {
+        "date": "2021-03-24",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "310f6c90949f": {
+    "id": "310f6c90949f",
+    "label": "1205 RTE DU BRISE CAILLOUX, Vassonville",
+    "lat": 49.695834,
+    "lng": 1.074416,
+    "transactions": [
+      {
+        "date": "2021-10-01",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "61ffbde6f2fc": {
+    "id": "61ffbde6f2fc",
+    "label": "91 RTE DU COLOMBIER, Vassonville",
+    "lat": 49.689912,
+    "lng": 1.066083,
+    "transactions": [
+      {
+        "date": "2023-02-20",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "2666b977ef0b": {
+    "id": "2666b977ef0b",
+    "label": "1296 RTE DU BRISE CAILLOUX, Vassonville",
+    "lat": 49.696051,
+    "lng": 1.073605,
+    "transactions": [
+      {
+        "date": "2023-02-24",
+        "priceEur": 17500,
+        "typeLocal": "Maison",
+        "surfaceM2": 18,
+        "isVefa": false
+      }
+    ]
+  },
+  "42ed69888b09": {
+    "id": "42ed69888b09",
+    "label": "150 RTE DU COLOMBIER, Vassonville",
+    "lat": 49.6911,
+    "lng": 1.065991,
+    "transactions": [
+      {
+        "date": "2023-05-22",
+        "priceEur": 231600,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

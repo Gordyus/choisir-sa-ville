@@ -1,0 +1,32 @@
+{
+  "1363a0be99b9": {
+    "id": "1363a0be99b9",
+    "label": "96 AV DES ACACIAS, Hamel",
+    "lat": 50.277808,
+    "lng": 3.05544,
+    "transactions": [
+      {
+        "date": "2024-03-30",
+        "priceEur": 25440,
+        "typeLocal": "Maison",
+        "surfaceM2": 28,
+        "isVefa": false
+      }
+    ]
+  },
+  "dfca89be6306": {
+    "id": "dfca89be6306",
+    "label": "99 AV DES ACACIAS, Hamel",
+    "lat": 50.277788,
+    "lng": 3.056749,
+    "transactions": [
+      {
+        "date": "2024-10-02",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "d72cc2d8df9b": {
+    "id": "d72cc2d8df9b",
+    "label": "1072 RUE DES CHAMPS DE ST NICOLAS, Conteville",
+    "lat": 49.698892,
+    "lng": 1.649734,
+    "transactions": [
+      {
+        "date": "2020-08-04",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3fe1cdd1d78": {
+    "id": "c3fe1cdd1d78",
+    "label": "127 RUE DES DEFENDS, Conteville",
+    "lat": 49.701348,
+    "lng": 1.651226,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "af56e6abcfcd": {
+    "id": "af56e6abcfcd",
+    "label": "1574 RTE D AUMALE, Conteville",
+    "lat": 49.701767,
+    "lng": 1.651035,
+    "transactions": [
+      {
+        "date": "2024-11-20",
+        "priceEur": 145900,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

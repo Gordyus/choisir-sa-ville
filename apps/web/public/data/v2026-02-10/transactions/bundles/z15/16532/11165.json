@@ -1,0 +1,32 @@
+{
+  "5336fc1b02cb": {
+    "id": "5336fc1b02cb",
+    "label": "11B RTE DE GOURNAY, Gaillefontaine",
+    "lat": 49.628678,
+    "lng": 1.626676,
+    "transactions": [
+      {
+        "date": "2020-09-05",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b8af03d5c9f": {
+    "id": "6b8af03d5c9f",
+    "label": "338 RTE DE GAILLEFONTAINE, Pommereux",
+    "lat": 49.626258,
+    "lng": 1.629339,
+    "transactions": [
+      {
+        "date": "2024-10-29",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 208,
+        "isVefa": false
+      }
+    ]
+  }
+}

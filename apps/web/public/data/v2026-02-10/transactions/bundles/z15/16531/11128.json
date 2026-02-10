@@ -1,0 +1,32 @@
+{
+  "cc48082b8150": {
+    "id": "cc48082b8150",
+    "label": "5150 MIENVAL, Pierrecourt",
+    "lat": 49.891785,
+    "lng": 1.623205,
+    "transactions": [
+      {
+        "date": "2022-01-14",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ad43f4fefa3": {
+    "id": "2ad43f4fefa3",
+    "label": "5159 MIENVAL, Pierrecourt",
+    "lat": 49.891869,
+    "lng": 1.625621,
+    "transactions": [
+      {
+        "date": "2022-03-30",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

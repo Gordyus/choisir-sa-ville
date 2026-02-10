@@ -1,0 +1,32 @@
+{
+  "a8827743878b": {
+    "id": "a8827743878b",
+    "label": "2668 RUE FERNAND ROMBEAU, Rieulay",
+    "lat": 50.40045,
+    "lng": 3.276806,
+    "transactions": [
+      {
+        "date": "2022-07-25",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "f03f25a7401a": {
+    "id": "f03f25a7401a",
+    "label": "86 RTE DE SOMAIN, Marchiennes",
+    "lat": 50.400654,
+    "lng": 3.279896,
+    "transactions": [
+      {
+        "date": "2024-11-29",
+        "priceEur": 352000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,832 @@
+{
+  "b0cb8f005139": {
+    "id": "b0cb8f005139",
+    "label": "4 IMP DU SAUVIGNON, Sérignan",
+    "lat": 43.280141,
+    "lng": 3.271724,
+    "transactions": [
+      {
+        "date": "2020-08-28",
+        "priceEur": 288000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "c33638f9427d": {
+    "id": "c33638f9427d",
+    "label": "8 RUE JOSEPH SEGARA, Sérignan",
+    "lat": 43.281263,
+    "lng": 3.27,
+    "transactions": [
+      {
+        "date": "2020-09-11",
+        "priceEur": 237000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "24c594fa31b1": {
+    "id": "24c594fa31b1",
+    "label": "5 RUE MONTAIGNE, Sérignan",
+    "lat": 43.278651,
+    "lng": 3.269788,
+    "transactions": [
+      {
+        "date": "2025-04-15",
+        "priceEur": 287640,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-25",
+        "priceEur": 209000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "b848dec479bc": {
+    "id": "b848dec479bc",
+    "label": "25 CHE DES LAYRES, Sérignan",
+    "lat": 43.283097,
+    "lng": 3.273179,
+    "transactions": [
+      {
+        "date": "2020-10-23",
+        "priceEur": 361000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "5736dfb92271": {
+    "id": "5736dfb92271",
+    "label": "43 RUE MONTAIGNE, Sérignan",
+    "lat": 43.282129,
+    "lng": 3.270301,
+    "transactions": [
+      {
+        "date": "2020-11-02",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "706aca04f531": {
+    "id": "706aca04f531",
+    "label": "12 RUE JOSEPH SEGARA, Sérignan",
+    "lat": 43.281116,
+    "lng": 3.270573,
+    "transactions": [
+      {
+        "date": "2022-02-02",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-10",
+        "priceEur": 263350,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "a92346f32c23": {
+    "id": "a92346f32c23",
+    "label": "24 RUE MONTAIGNE, Sérignan",
+    "lat": 43.280059,
+    "lng": 3.268703,
+    "transactions": [
+      {
+        "date": "2023-02-28",
+        "priceEur": 467500,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-15",
+        "priceEur": 353500,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a7543c89fcf": {
+    "id": "5a7543c89fcf",
+    "label": "7 RUE HENRI MEGNINT, Sérignan",
+    "lat": 43.283092,
+    "lng": 3.270623,
+    "transactions": [
+      {
+        "date": "2021-02-04",
+        "priceEur": 351450,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "9be398016eb1": {
+    "id": "9be398016eb1",
+    "label": "6 RUE DU PETIT BOIS, Sérignan",
+    "lat": 43.279892,
+    "lng": 3.271975,
+    "transactions": [
+      {
+        "date": "2021-02-04",
+        "priceEur": 336500,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "2fa371aec35a": {
+    "id": "2fa371aec35a",
+    "label": "23 RUE DU PRESSOIR, Sérignan",
+    "lat": 43.279894,
+    "lng": 3.270331,
+    "transactions": [
+      {
+        "date": "2021-02-11",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "db83701f6c54": {
+    "id": "db83701f6c54",
+    "label": "8 RUE HENRI MEGNINT, Sérignan",
+    "lat": 43.283199,
+    "lng": 3.269855,
+    "transactions": [
+      {
+        "date": "2021-05-20",
+        "priceEur": 488000,
+        "typeLocal": "Maison",
+        "surfaceM2": 166,
+        "isVefa": false
+      }
+    ]
+  },
+  "92950d706b70": {
+    "id": "92950d706b70",
+    "label": "4 IMP DES ARAMONS, Sérignan",
+    "lat": 43.278546,
+    "lng": 3.273332,
+    "transactions": [
+      {
+        "date": "2021-06-07",
+        "priceEur": 263300,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "e31d2459492e": {
+    "id": "e31d2459492e",
+    "label": "10 RUE JACQUES BERTRAND, Sérignan",
+    "lat": 43.281784,
+    "lng": 3.270418,
+    "transactions": [
+      {
+        "date": "2021-06-22",
+        "priceEur": 384280,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "d20b26df00fa": {
+    "id": "d20b26df00fa",
+    "label": "38 RUE MONTAIGNE, Sérignan",
+    "lat": 43.281951,
+    "lng": 3.269047,
+    "transactions": [
+      {
+        "date": "2021-07-02",
+        "priceEur": 395000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e9cc15a0dda": {
+    "id": "1e9cc15a0dda",
+    "label": "40 RUE MONTAIGNE, Sérignan",
+    "lat": 43.282029,
+    "lng": 3.268873,
+    "transactions": [
+      {
+        "date": "2021-07-23",
+        "priceEur": 542900,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "f67dc1043bc6": {
+    "id": "f67dc1043bc6",
+    "label": "2 IMP CHARLES BAUDELAIRE, Sérignan",
+    "lat": 43.284504,
+    "lng": 3.273794,
+    "transactions": [
+      {
+        "date": "2021-08-05",
+        "priceEur": 473000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "b591a37c1751": {
+    "id": "b591a37c1751",
+    "label": "14 IMP DU SAUVIGNON, Sérignan",
+    "lat": 43.28027,
+    "lng": 3.272537,
+    "transactions": [
+      {
+        "date": "2021-08-25",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "d36354c029ce": {
+    "id": "d36354c029ce",
+    "label": "2 RUE DES 4 OLIVIERS, Sérignan",
+    "lat": 43.277558,
+    "lng": 3.27356,
+    "transactions": [
+      {
+        "date": "2021-08-30",
+        "priceEur": 482000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "2580495417ba": {
+    "id": "2580495417ba",
+    "label": "7 RUE MONTESQUIEU, Sérignan",
+    "lat": 43.278932,
+    "lng": 3.269627,
+    "transactions": [
+      {
+        "date": "2021-09-01",
+        "priceEur": 227000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "865360d8d763": {
+    "id": "865360d8d763",
+    "label": "3 RUE DU PRESSOIR, Sérignan",
+    "lat": 43.28052,
+    "lng": 3.271016,
+    "transactions": [
+      {
+        "date": "2022-02-03",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "5afc170ccc90": {
+    "id": "5afc170ccc90",
+    "label": "12 RUE DU PRESSOIR, Sérignan",
+    "lat": 43.28012,
+    "lng": 3.270724,
+    "transactions": [
+      {
+        "date": "2022-02-01",
+        "priceEur": 219000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "8915e4e4f7ed": {
+    "id": "8915e4e4f7ed",
+    "label": "25 RUE JOSEPH SEGARA, Sérignan",
+    "lat": 43.281877,
+    "lng": 3.271131,
+    "transactions": [
+      {
+        "date": "2022-03-08",
+        "priceEur": 335700,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "885679db8443": {
+    "id": "885679db8443",
+    "label": "2 RTE DE VENDRES, Sérignan",
+    "lat": 43.278365,
+    "lng": 3.272523,
+    "transactions": [
+      {
+        "date": "2023-09-22",
+        "priceEur": 291233,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-15",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "26bfce9ab19e": {
+    "id": "26bfce9ab19e",
+    "label": "3 IMP CONDORCET, Sérignan",
+    "lat": 43.285074,
+    "lng": 3.272682,
+    "transactions": [
+      {
+        "date": "2022-03-14",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb9485fab721": {
+    "id": "bb9485fab721",
+    "label": "8 IMP DES LAYRES, Sérignan",
+    "lat": 43.283242,
+    "lng": 3.271936,
+    "transactions": [
+      {
+        "date": "2022-03-21",
+        "priceEur": 569400,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c7e63850f3d": {
+    "id": "2c7e63850f3d",
+    "label": "16 IMP LOUIS ARAGON, Sérignan",
+    "lat": 43.279313,
+    "lng": 3.272235,
+    "transactions": [
+      {
+        "date": "2022-06-13",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd2530c5f69b": {
+    "id": "cd2530c5f69b",
+    "label": "9 RUE LEO LAGRANGE, Sérignan",
+    "lat": 43.278732,
+    "lng": 3.270221,
+    "transactions": [
+      {
+        "date": "2022-08-23",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "249b174de7d7": {
+    "id": "249b174de7d7",
+    "label": "4 RUE JOSEPH SEGARA, Sérignan",
+    "lat": 43.281344,
+    "lng": 3.269522,
+    "transactions": [
+      {
+        "date": "2022-09-13",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "4419285a9180": {
+    "id": "4419285a9180",
+    "label": "5 IMP LOUIS ARAGON, Sérignan",
+    "lat": 43.279131,
+    "lng": 3.271032,
+    "transactions": [
+      {
+        "date": "2022-09-19",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa32fe22f058": {
+    "id": "fa32fe22f058",
+    "label": "7 IMP MONTAIGNE, Sérignan",
+    "lat": 43.282954,
+    "lng": 3.269528,
+    "transactions": [
+      {
+        "date": "2022-11-17",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "e264cbf34900": {
+    "id": "e264cbf34900",
+    "label": "1 IMP ST EXUPERY, Sérignan",
+    "lat": 43.283628,
+    "lng": 3.272427,
+    "transactions": [
+      {
+        "date": "2022-11-10",
+        "priceEur": 365000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "764fde3caea7": {
+    "id": "764fde3caea7",
+    "label": "2 IMP LOUIS ARAGON, Sérignan",
+    "lat": 43.279457,
+    "lng": 3.270903,
+    "transactions": [
+      {
+        "date": "2022-12-16",
+        "priceEur": 293000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "decc21f3e052": {
+    "id": "decc21f3e052",
+    "label": "8 RUE DES 4 OLIVIERS, Sérignan",
+    "lat": 43.277423,
+    "lng": 3.273826,
+    "transactions": [
+      {
+        "date": "2023-02-16",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "e002cc3df731": {
+    "id": "e002cc3df731",
+    "label": "49 RUE MONTAIGNE, Sérignan",
+    "lat": 43.281994,
+    "lng": 3.271396,
+    "transactions": [
+      {
+        "date": "2023-03-15",
+        "priceEur": 456000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "e5cefbea706e": {
+    "id": "e5cefbea706e",
+    "label": "3 RUE HENRI MEGNINT, Sérignan",
+    "lat": 43.282652,
+    "lng": 3.2705,
+    "transactions": [
+      {
+        "date": "2023-03-29",
+        "priceEur": 313500,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d1ba93ff229": {
+    "id": "0d1ba93ff229",
+    "label": "5090F RUE DU PETIT BOIS, Sérignan",
+    "lat": 43.279857,
+    "lng": 3.272557,
+    "transactions": [
+      {
+        "date": "2023-04-26",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "01510268b388": {
+    "id": "01510268b388",
+    "label": "18 CHE DES LAYRES, Sérignan",
+    "lat": 43.282443,
+    "lng": 3.272662,
+    "transactions": [
+      {
+        "date": "2023-05-25",
+        "priceEur": 878750,
+        "typeLocal": "Maison",
+        "surfaceM2": 270,
+        "isVefa": false
+      }
+    ]
+  },
+  "44a65cd4735d": {
+    "id": "44a65cd4735d",
+    "label": "18 RUE JOSEPH SEGARA, Sérignan",
+    "lat": 43.282102,
+    "lng": 3.270863,
+    "transactions": [
+      {
+        "date": "2023-06-23",
+        "priceEur": 376000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "2017f096f06f": {
+    "id": "2017f096f06f",
+    "label": "30T CHE DES LAYRES, Sérignan",
+    "lat": 43.280822,
+    "lng": 3.272216,
+    "transactions": [
+      {
+        "date": "2023-10-31",
+        "priceEur": 480200,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "e4f2920e2222": {
+    "id": "e4f2920e2222",
+    "label": "1 IMP DU TERRET, Sérignan",
+    "lat": 43.27737,
+    "lng": 3.27068,
+    "transactions": [
+      {
+        "date": "2024-12-30",
+        "priceEur": 420300,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-10",
+        "priceEur": 379250,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "da61753623e2": {
+    "id": "da61753623e2",
+    "label": "15 RUE LEO LAGRANGE, Sérignan",
+    "lat": 43.278186,
+    "lng": 3.269299,
+    "transactions": [
+      {
+        "date": "2024-01-08",
+        "priceEur": 407100,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c06551c57b1": {
+    "id": "0c06551c57b1",
+    "label": "12 IMP ANDRE BRESSOUX, Sérignan",
+    "lat": 43.285177,
+    "lng": 3.269913,
+    "transactions": [
+      {
+        "date": "2024-03-29",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5ddacd7890b": {
+    "id": "d5ddacd7890b",
+    "label": "7 RUE DU PRESSOIR, Sérignan",
+    "lat": 43.280576,
+    "lng": 3.270677,
+    "transactions": [
+      {
+        "date": "2024-05-28",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "83f7b18c2d98": {
+    "id": "83f7b18c2d98",
+    "label": "2 RUE DU PETIT BOIS, Sérignan",
+    "lat": 43.279729,
+    "lng": 3.272481,
+    "transactions": [
+      {
+        "date": "2024-06-10",
+        "priceEur": 608000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ff041947c28": {
+    "id": "0ff041947c28",
+    "label": "22B CHE DES LAYRES, Sérignan",
+    "lat": 43.281858,
+    "lng": 3.271983,
+    "transactions": [
+      {
+        "date": "2024-07-04",
+        "priceEur": 570300,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      }
+    ]
+  },
+  "b758cfb32ac3": {
+    "id": "b758cfb32ac3",
+    "label": "8B RUE MONTAIGNE, Sérignan",
+    "lat": 43.278601,
+    "lng": 3.269305,
+    "transactions": [
+      {
+        "date": "2024-07-26",
+        "priceEur": 217410,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "cbb9785f18b2": {
+    "id": "cbb9785f18b2",
+    "label": "7 LOT LE CHARDONNAY, Sérignan",
+    "lat": 43.280288,
+    "lng": 3.269096,
+    "transactions": [
+      {
+        "date": "2024-09-09",
+        "priceEur": 324000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ee788d2f098": {
+    "id": "1ee788d2f098",
+    "label": "23 RUE JOSEPH SEGARA, Sérignan",
+    "lat": 43.281695,
+    "lng": 3.271083,
+    "transactions": [
+      {
+        "date": "2024-09-18",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "35d9f1000b4b": {
+    "id": "35d9f1000b4b",
+    "label": "11 RUE HENRI STUMBO, Sérignan",
+    "lat": 43.283214,
+    "lng": 3.271279,
+    "transactions": [
+      {
+        "date": "2024-10-01",
+        "priceEur": 423950,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a11370d72eb": {
+    "id": "5a11370d72eb",
+    "label": "8 IMP DES BOUTEILLOUS, Sérignan",
+    "lat": 43.27798,
+    "lng": 3.273692,
+    "transactions": [
+      {
+        "date": "2024-10-11",
+        "priceEur": 176100,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f96b239d011": {
+    "id": "3f96b239d011",
+    "label": "14 RUE HENRI MEGNINT, Sérignan",
+    "lat": 43.283519,
+    "lng": 3.270193,
+    "transactions": [
+      {
+        "date": "2025-01-15",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ae7f771b496": {
+    "id": "3ae7f771b496",
+    "label": "12 RUE HENRI MEGNINT, Sérignan",
+    "lat": 43.283328,
+    "lng": 3.270224,
+    "transactions": [
+      {
+        "date": "2025-02-05",
+        "priceEur": 402424,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "cecf2d1ed5eb": {
+    "id": "cecf2d1ed5eb",
+    "label": "9 RTE DE VENDRES, Sérignan",
+    "lat": 43.278008,
+    "lng": 3.271551,
+    "transactions": [
+      {
+        "date": "2025-03-27",
+        "priceEur": 402900,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  }
+}

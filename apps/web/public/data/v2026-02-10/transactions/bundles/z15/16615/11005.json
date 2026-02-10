@@ -1,0 +1,39 @@
+{
+  "f2315ea8c6e7": {
+    "id": "f2315ea8c6e7",
+    "label": "153 KUYPERSTRAET, Hondeghem",
+    "lat": 50.751172,
+    "lng": 2.539673,
+    "transactions": [
+      {
+        "date": "2021-06-14",
+        "priceEur": 562000,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      }
+    ]
+  },
+  "54414f10a077": {
+    "id": "54414f10a077",
+    "label": "1082 RUE DE CAESTRE, Hondeghem",
+    "lat": 50.752443,
+    "lng": 2.538548,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 450000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-30",
+        "priceEur": 450000,
+        "typeLocal": "Maison",
+        "surfaceM2": 253,
+        "isVefa": false
+      }
+    ]
+  }
+}

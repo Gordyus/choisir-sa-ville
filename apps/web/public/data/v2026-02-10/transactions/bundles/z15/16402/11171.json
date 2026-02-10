@@ -1,0 +1,137 @@
+{
+  "5aa7460888ca": {
+    "id": "5aa7460888ca",
+    "label": "5392 LE LORIOT, Rolleville",
+    "lat": 49.585815,
+    "lng": 0.207535,
+    "transactions": [
+      {
+        "date": "2020-07-22",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd6379036cdb": {
+    "id": "cd6379036cdb",
+    "label": "25 FERME BOIVIN, Notre-Dame-du-Bec",
+    "lat": 49.589302,
+    "lng": 0.203156,
+    "transactions": [
+      {
+        "date": "2021-06-23",
+        "priceEur": 238850,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "97ffb295b145": {
+    "id": "97ffb295b145",
+    "label": "11 RUE BENITE, Rolleville",
+    "lat": 49.584471,
+    "lng": 0.206795,
+    "transactions": [
+      {
+        "date": "2022-01-11",
+        "priceEur": 378000,
+        "typeLocal": "Maison",
+        "surfaceM2": 185,
+        "isVefa": false
+      }
+    ]
+  },
+  "0306a738f6a2": {
+    "id": "0306a738f6a2",
+    "label": "18 RUE BENITE, Rolleville",
+    "lat": 49.584321,
+    "lng": 0.208295,
+    "transactions": [
+      {
+        "date": "2022-09-08",
+        "priceEur": 218350,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7dc7abbf92d": {
+    "id": "f7dc7abbf92d",
+    "label": "8 CITE COUSSIN, Rolleville",
+    "lat": 49.583849,
+    "lng": 0.207893,
+    "transactions": [
+      {
+        "date": "2023-04-07",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "5678d0c34e84": {
+    "id": "5678d0c34e84",
+    "label": "33 COTE DE LA FERME BOIVIN, Notre-Dame-du-Bec",
+    "lat": 49.589135,
+    "lng": 0.203636,
+    "transactions": [
+      {
+        "date": "2023-09-20",
+        "priceEur": 301730,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4bb6d2cc104": {
+    "id": "f4bb6d2cc104",
+    "label": "32 RUE DU BOSQUET, Rolleville",
+    "lat": 49.585722,
+    "lng": 0.207511,
+    "transactions": [
+      {
+        "date": "2024-01-15",
+        "priceEur": 227150,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0007ac45cf2": {
+    "id": "c0007ac45cf2",
+    "label": "12 CITE COUSSIN, Rolleville",
+    "lat": 49.583698,
+    "lng": 0.207628,
+    "transactions": [
+      {
+        "date": "2024-06-14",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf54febfdceb": {
+    "id": "cf54febfdceb",
+    "label": "14 CITE COUSSIN, Rolleville",
+    "lat": 49.583689,
+    "lng": 0.20751,
+    "transactions": [
+      {
+        "date": "2024-06-14",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  }
+}

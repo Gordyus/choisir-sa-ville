@@ -1,0 +1,683 @@
+{
+  "3f775007490a": {
+    "id": "3f775007490a",
+    "label": "33 RUE BREQUIGNY, Dieppe",
+    "lat": 49.921352,
+    "lng": 1.101448,
+    "transactions": [
+      {
+        "date": "2020-10-01",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "5cc0f23c60ea": {
+    "id": "5cc0f23c60ea",
+    "label": "37 RUE BREQUIGNY, Dieppe",
+    "lat": 49.921647,
+    "lng": 1.10099,
+    "transactions": [
+      {
+        "date": "2020-10-10",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "17d2ae1e7d34": {
+    "id": "17d2ae1e7d34",
+    "label": "7B CHE DES CLOS, Dieppe",
+    "lat": 49.921094,
+    "lng": 1.105431,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 343350,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-27",
+        "priceEur": 343350,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "be6c5f2c87dd": {
+    "id": "be6c5f2c87dd",
+    "label": "39 RUE PAUL BAZIN, Dieppe",
+    "lat": 49.922421,
+    "lng": 1.103328,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 174500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "78c806d5d094": {
+    "id": "78c806d5d094",
+    "label": "9001 RUE DE L HIRONDELLE, Dieppe",
+    "lat": 49.922476,
+    "lng": 1.104116,
+    "transactions": [
+      {
+        "date": "2020-12-07",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "21d5bcd6a2ea": {
+    "id": "21d5bcd6a2ea",
+    "label": "1 RUE DE L ALOUETTE, Dieppe",
+    "lat": 49.921833,
+    "lng": 1.106826,
+    "transactions": [
+      {
+        "date": "2021-01-20",
+        "priceEur": 196000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "ce9faa8597ff": {
+    "id": "ce9faa8597ff",
+    "label": "3 RUE DES ROSIERS, Dieppe",
+    "lat": 49.920425,
+    "lng": 1.101651,
+    "transactions": [
+      {
+        "date": "2021-01-28",
+        "priceEur": 149250,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "208e9c6ea86e": {
+    "id": "208e9c6ea86e",
+    "label": "23 RUE DU GAL DE GAULLE, Dieppe",
+    "lat": 49.92121,
+    "lng": 1.103258,
+    "transactions": [
+      {
+        "date": "2021-02-15",
+        "priceEur": 58000,
+        "typeLocal": "Maison",
+        "surfaceM2": 20,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed5a0ac6e258": {
+    "id": "ed5a0ac6e258",
+    "label": "7 RUE BREQUIGNY, Dieppe",
+    "lat": 49.920673,
+    "lng": 1.102585,
+    "transactions": [
+      {
+        "date": "2021-03-10",
+        "priceEur": 84000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "207b25b25abe": {
+    "id": "207b25b25abe",
+    "label": "74 RUE ALBERT REVILLE, Dieppe",
+    "lat": 49.921227,
+    "lng": 1.098785,
+    "transactions": [
+      {
+        "date": "2021-04-29",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b050557d742": {
+    "id": "9b050557d742",
+    "label": "43C RUE DU GAL DE GAULLE, Dieppe",
+    "lat": 49.919637,
+    "lng": 1.105387,
+    "transactions": [
+      {
+        "date": "2021-05-10",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "68519547c874": {
+    "id": "68519547c874",
+    "label": "20 RUE DU CHEMIN VERT, Dieppe",
+    "lat": 49.922647,
+    "lng": 1.108176,
+    "transactions": [
+      {
+        "date": "2021-05-07",
+        "priceEur": 167500,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "5eedba1e4ea6": {
+    "id": "5eedba1e4ea6",
+    "label": "9 RUE PIERRE CURIE, Dieppe",
+    "lat": 49.921274,
+    "lng": 1.100177,
+    "transactions": [
+      {
+        "date": "2021-06-18",
+        "priceEur": 203000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "ceb0d273999e": {
+    "id": "ceb0d273999e",
+    "label": "32 RUE DU GAL DE GAULLE, Dieppe",
+    "lat": 49.920135,
+    "lng": 1.103987,
+    "transactions": [
+      {
+        "date": "2021-09-03",
+        "priceEur": 570000,
+        "typeLocal": "Maison",
+        "surfaceM2": 300,
+        "isVefa": false
+      }
+    ]
+  },
+  "44221f13fa06": {
+    "id": "44221f13fa06",
+    "label": "43 RUE DES MESANGES, Dieppe",
+    "lat": 49.920705,
+    "lng": 1.107625,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "df0632786478": {
+    "id": "df0632786478",
+    "label": "14 RUE DES MESANGES, Dieppe",
+    "lat": 49.922548,
+    "lng": 1.109043,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 173000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "9697f5cd05f4": {
+    "id": "9697f5cd05f4",
+    "label": "17 RUE DE L HIRONDELLE, Dieppe",
+    "lat": 49.922177,
+    "lng": 1.104402,
+    "transactions": [
+      {
+        "date": "2022-03-24",
+        "priceEur": 174000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a2c8a1c28e2": {
+    "id": "2a2c8a1c28e2",
+    "label": "1 RUE DES BUISSONS, Dieppe",
+    "lat": 49.920673,
+    "lng": 1.102585,
+    "transactions": [
+      {
+        "date": "2022-05-06",
+        "priceEur": 174000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "7990b515c9a7": {
+    "id": "7990b515c9a7",
+    "label": "27B RUE DU GAL DE GAULLE, Dieppe",
+    "lat": 49.920936,
+    "lng": 1.10403,
+    "transactions": [
+      {
+        "date": "2022-05-25",
+        "priceEur": 161000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "a6bf48b29893": {
+    "id": "a6bf48b29893",
+    "label": "24A RUE DU GAL DE GAULLE, Dieppe",
+    "lat": 49.920909,
+    "lng": 1.103243,
+    "transactions": [
+      {
+        "date": "2022-06-15",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "c763c71783b5": {
+    "id": "c763c71783b5",
+    "label": "34 RUE PAUL BAZIN, Dieppe",
+    "lat": 49.92176,
+    "lng": 1.103738,
+    "transactions": [
+      {
+        "date": "2022-06-13",
+        "priceEur": 173295,
+        "typeLocal": "Maison",
+        "surfaceM2": 37,
+        "isVefa": false
+      }
+    ]
+  },
+  "626ae1aeff86": {
+    "id": "626ae1aeff86",
+    "label": "11 IMP DES MESANGES, Dieppe",
+    "lat": 49.921187,
+    "lng": 1.106997,
+    "transactions": [
+      {
+        "date": "2022-06-15",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "dddfe2ef0188": {
+    "id": "dddfe2ef0188",
+    "label": "9 IMP DES MESANGES, Dieppe",
+    "lat": 49.921026,
+    "lng": 1.106686,
+    "transactions": [
+      {
+        "date": "2024-11-19",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-21",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5f87004cef9": {
+    "id": "c5f87004cef9",
+    "label": "22 ALL DES LILAS, Dieppe",
+    "lat": 49.920673,
+    "lng": 1.102585,
+    "transactions": [
+      {
+        "date": "2022-09-20",
+        "priceEur": 230400,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "e7ebd7ce141a": {
+    "id": "e7ebd7ce141a",
+    "label": "5 IMP ALBERT REVILLE, Dieppe",
+    "lat": 49.921769,
+    "lng": 1.099579,
+    "transactions": [
+      {
+        "date": "2025-03-11",
+        "priceEur": 194000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-25",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "ec484a289c99": {
+    "id": "ec484a289c99",
+    "label": "34 RUE DES MESANGES, Dieppe",
+    "lat": 49.920405,
+    "lng": 1.106496,
+    "transactions": [
+      {
+        "date": "2022-10-14",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b0cc610f1d5": {
+    "id": "6b0cc610f1d5",
+    "label": "9001 CHE DES COTEAUX, Dieppe",
+    "lat": 49.920424,
+    "lng": 1.099124,
+    "transactions": [
+      {
+        "date": "2022-12-16",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e99bcd892c8": {
+    "id": "8e99bcd892c8",
+    "label": "30 ALL DES LILAS, Dieppe",
+    "lat": 49.920673,
+    "lng": 1.102585,
+    "transactions": [
+      {
+        "date": "2023-01-06",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "a603f12b386b": {
+    "id": "a603f12b386b",
+    "label": "35 RUE BREQUIGNY, Dieppe",
+    "lat": 49.921436,
+    "lng": 1.101291,
+    "transactions": [
+      {
+        "date": "2023-01-23",
+        "priceEur": 65689,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "d9e918d2a58e": {
+    "id": "d9e918d2a58e",
+    "label": "14 RUE DE L HIRONDELLE, Dieppe",
+    "lat": 49.921917,
+    "lng": 1.104102,
+    "transactions": [
+      {
+        "date": "2023-03-14",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "f25b042184ea": {
+    "id": "f25b042184ea",
+    "label": "11 RUE JACQUES PREVERT, Dieppe",
+    "lat": 49.920673,
+    "lng": 1.102585,
+    "transactions": [
+      {
+        "date": "2023-08-03",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "49b26ab38cee": {
+    "id": "49b26ab38cee",
+    "label": "8 RUE DU GAL DE GAULLE, Dieppe",
+    "lat": 49.92195,
+    "lng": 1.101854,
+    "transactions": [
+      {
+        "date": "2023-09-26",
+        "priceEur": 400000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "50037af8b4f1": {
+    "id": "50037af8b4f1",
+    "label": "34 ALL DES LILAS, Dieppe",
+    "lat": 49.920673,
+    "lng": 1.102585,
+    "transactions": [
+      {
+        "date": "2023-11-02",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "12662f32d281": {
+    "id": "12662f32d281",
+    "label": "16 ALL DES LILAS, Dieppe",
+    "lat": 49.920673,
+    "lng": 1.102585,
+    "transactions": [
+      {
+        "date": "2023-10-20",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "827f914b60ea": {
+    "id": "827f914b60ea",
+    "label": "7 RUE DE L ALOUETTE, Dieppe",
+    "lat": 49.922263,
+    "lng": 1.107724,
+    "transactions": [
+      {
+        "date": "2023-12-08",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "356ed006d8c8": {
+    "id": "356ed006d8c8",
+    "label": "32 ALL DES LILAS, Dieppe",
+    "lat": 49.920673,
+    "lng": 1.102585,
+    "transactions": [
+      {
+        "date": "2024-01-10",
+        "priceEur": 166100,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f776b53b199": {
+    "id": "9f776b53b199",
+    "label": "12 RUE JACQUES PREVERT, Dieppe",
+    "lat": 49.919676,
+    "lng": 1.100486,
+    "transactions": [
+      {
+        "date": "2024-02-01",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "17eb8ff19b20": {
+    "id": "17eb8ff19b20",
+    "label": "3 RUE DE L ECUREUIL, Dieppe",
+    "lat": 49.921847,
+    "lng": 1.106244,
+    "transactions": [
+      {
+        "date": "2024-03-06",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "e05ec89a677a": {
+    "id": "e05ec89a677a",
+    "label": "34B RUE DU GAL DE GAULLE, Dieppe",
+    "lat": 49.919536,
+    "lng": 1.104796,
+    "transactions": [
+      {
+        "date": "2024-05-02",
+        "priceEur": 441360,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "57c68f13967d": {
+    "id": "57c68f13967d",
+    "label": "12 ALL DES LILAS, Dieppe",
+    "lat": 49.920673,
+    "lng": 1.102585,
+    "transactions": [
+      {
+        "date": "2024-07-30",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "951f2e2badde": {
+    "id": "951f2e2badde",
+    "label": "20B RUE DU CHEMIN VERT, Dieppe",
+    "lat": 49.922602,
+    "lng": 1.10804,
+    "transactions": [
+      {
+        "date": "2024-07-11",
+        "priceEur": 183000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "741c32e6f348": {
+    "id": "741c32e6f348",
+    "label": "10 RUE DE L HIRONDELLE, Dieppe",
+    "lat": 49.922476,
+    "lng": 1.104116,
+    "transactions": [
+      {
+        "date": "2024-09-20",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9667ce1e6e0": {
+    "id": "a9667ce1e6e0",
+    "label": "51 RUE DES MESANGES, Dieppe",
+    "lat": 49.920318,
+    "lng": 1.1072,
+    "transactions": [
+      {
+        "date": "2025-01-31",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "aeb9192324f6": {
+    "id": "aeb9192324f6",
+    "label": "3 ALL DES LILAS, Dieppe",
+    "lat": 49.920673,
+    "lng": 1.102585,
+    "transactions": [
+      {
+        "date": "2025-02-05",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

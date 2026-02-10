@@ -1,0 +1,32 @@
+{
+  "3148cea2b08d": {
+    "id": "3148cea2b08d",
+    "label": "5009 BREMONT, Vatierville",
+    "lat": 49.795834,
+    "lng": 1.520272,
+    "transactions": [
+      {
+        "date": "2023-12-20",
+        "priceEur": 86000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "92683c99b940": {
+    "id": "92683c99b940",
+    "label": "5010 BREMONT, Vatierville",
+    "lat": 49.795946,
+    "lng": 1.521121,
+    "transactions": [
+      {
+        "date": "2024-04-27",
+        "priceEur": 87000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "b39385317d36": {
+    "id": "b39385317d36",
+    "label": "7035 LA RTE SUD, Bouville",
+    "lat": 49.568981,
+    "lng": 0.913299,
+    "transactions": [
+      {
+        "date": "2021-06-11",
+        "priceEur": 123000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc4c374a0d3b": {
+    "id": "bc4c374a0d3b",
+    "label": "9001 LE HAMEAU DE LA ROUTE, Pavilly",
+    "lat": 49.573701,
+    "lng": 0.912647,
+    "transactions": [
+      {
+        "date": "2022-10-20",
+        "priceEur": 800000,
+        "typeLocal": "Maison",
+        "surfaceM2": 178,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-20",
+        "priceEur": 800000,
+        "typeLocal": "Maison",
+        "surfaceM2": 218,
+        "isVefa": false
+      }
+    ]
+  },
+  "e9883e26ce9b": {
+    "id": "e9883e26ce9b",
+    "label": "124 RUE DE LA POMMERAYE, Bouville",
+    "lat": 49.569357,
+    "lng": 0.915732,
+    "transactions": [
+      {
+        "date": "2024-12-17",
+        "priceEur": 218500,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

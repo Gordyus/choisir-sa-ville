@@ -1,0 +1,47 @@
+{
+  "f10790d78f6a": {
+    "id": "f10790d78f6a",
+    "label": "5039 ESTAUSSAN, Vieussan",
+    "lat": 43.549814,
+    "lng": 3.015833,
+    "transactions": [
+      {
+        "date": "2021-02-12",
+        "priceEur": 8000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed7ce0af02d7": {
+    "id": "ed7ce0af02d7",
+    "label": "5214 ESTAUSSAN, Vieussan",
+    "lat": 43.54996,
+    "lng": 3.015797,
+    "transactions": [
+      {
+        "date": "2023-03-03",
+        "priceEur": 37500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "d314d55788d7": {
+    "id": "d314d55788d7",
+    "label": "5015 ESTAUSSAN, Vieussan",
+    "lat": 43.549813,
+    "lng": 3.015175,
+    "transactions": [
+      {
+        "date": "2023-11-29",
+        "priceEur": 111000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  }
+}

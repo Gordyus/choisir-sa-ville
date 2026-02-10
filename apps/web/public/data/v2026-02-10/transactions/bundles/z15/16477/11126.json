@@ -1,0 +1,32 @@
+{
+  "2f140c52e92f": {
+    "id": "2f140c52e92f",
+    "label": "1322 RUE DES VERTS BOIS, Hautot-sur-Mer",
+    "lat": 49.908322,
+    "lng": 1.023652,
+    "transactions": [
+      {
+        "date": "2021-11-09",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "0a2b2337df16": {
+    "id": "0a2b2337df16",
+    "label": "1047 RUE CAVEE DES PATIS DOUX, Hautot-sur-Mer",
+    "lat": 49.907744,
+    "lng": 1.022306,
+    "transactions": [
+      {
+        "date": "2025-04-18",
+        "priceEur": 430400,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "a3ed9083772a": {
+    "id": "a3ed9083772a",
+    "label": "7 CHE DES MORUES, Elbeuf-en-Bray",
+    "lat": 49.496143,
+    "lng": 1.684402,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 106500,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "689f57a14e5c": {
+    "id": "689f57a14e5c",
+    "label": "2100 CHE DES MORUES, Gournay-en-Bray",
+    "lat": 49.495156,
+    "lng": 1.690584,
+    "transactions": [
+      {
+        "date": "2024-07-16",
+        "priceEur": 193000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

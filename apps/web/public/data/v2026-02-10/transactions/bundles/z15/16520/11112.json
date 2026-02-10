@@ -1,0 +1,32 @@
+{
+  "f42ef2bbc1b0": {
+    "id": "f42ef2bbc1b0",
+    "label": "9 RUE BLAISE PASCAL, Incheville",
+    "lat": 50.001664,
+    "lng": 1.503794,
+    "transactions": [
+      {
+        "date": "2024-10-17",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "31fcc073601e": {
+    "id": "31fcc073601e",
+    "label": "8 RUE BLAISE PASCAL, Incheville",
+    "lat": 50.001299,
+    "lng": 1.502542,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 215,
+        "isVefa": false
+      }
+    ]
+  }
+}

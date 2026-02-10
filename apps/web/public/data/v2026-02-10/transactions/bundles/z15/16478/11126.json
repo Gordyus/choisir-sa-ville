@@ -1,0 +1,32 @@
+{
+  "c42c57bd315a": {
+    "id": "c42c57bd315a",
+    "label": "774 RUE DE BERNOUVILLE, Hautot-sur-Mer",
+    "lat": 49.902271,
+    "lng": 1.037352,
+    "transactions": [
+      {
+        "date": "2020-07-27",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "c67a634114a3": {
+    "id": "c67a634114a3",
+    "label": "788 RUE DE BERNOUVILLE, Hautot-sur-Mer",
+    "lat": 49.90255,
+    "lng": 1.037872,
+    "transactions": [
+      {
+        "date": "2021-07-08",
+        "priceEur": 705000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  }
+}

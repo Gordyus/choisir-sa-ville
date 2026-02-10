@@ -1,0 +1,47 @@
+{
+  "50a020e13309": {
+    "id": "50a020e13309",
+    "label": "1 CHE FERME DES VIEUX BLES, Varengeville-sur-Mer",
+    "lat": 49.900139,
+    "lng": 0.990937,
+    "transactions": [
+      {
+        "date": "2023-05-30",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a8933d28f13": {
+    "id": "2a8933d28f13",
+    "label": "5 RUE DU CLOS AUX VACHES, Varengeville-sur-Mer",
+    "lat": 49.900989,
+    "lng": 0.989699,
+    "transactions": [
+      {
+        "date": "2024-12-18",
+        "priceEur": 630000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5754e82e131": {
+    "id": "a5754e82e131",
+    "label": "5 CHE FERME DES VIEUX BLES, Varengeville-sur-Mer",
+    "lat": 49.899385,
+    "lng": 0.989601,
+    "transactions": [
+      {
+        "date": "2025-01-30",
+        "priceEur": 850000,
+        "typeLocal": "Maison",
+        "surfaceM2": 230,
+        "isVefa": false
+      }
+    ]
+  }
+}

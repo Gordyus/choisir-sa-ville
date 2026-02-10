@@ -1,0 +1,62 @@
+{
+  "2cab52ea1bec": {
+    "id": "2cab52ea1bec",
+    "label": "86 RTE DE DAMPIERRE, Cuy-Saint-Fiacre",
+    "lat": 49.511677,
+    "lng": 1.686992,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc1ad4504a66": {
+    "id": "bc1ad4504a66",
+    "label": "36 RUE ROGER CRESSENT, Cuy-Saint-Fiacre",
+    "lat": 49.511118,
+    "lng": 1.691727,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 312500,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf697e4df96c": {
+    "id": "bf697e4df96c",
+    "label": "104B RTE DE DAMPIERRE, Cuy-Saint-Fiacre",
+    "lat": 49.51316,
+    "lng": 1.68379,
+    "transactions": [
+      {
+        "date": "2022-02-12",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5be5da63ebe": {
+    "id": "a5be5da63ebe",
+    "label": "116 RTE DE DAMPIERRE, Cuy-Saint-Fiacre",
+    "lat": 49.514672,
+    "lng": 1.681452,
+    "transactions": [
+      {
+        "date": "2022-10-07",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  }
+}

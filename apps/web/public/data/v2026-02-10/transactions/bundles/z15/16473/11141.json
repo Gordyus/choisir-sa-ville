@@ -1,0 +1,47 @@
+{
+  "8c112c0c2fc7": {
+    "id": "8c112c0c2fc7",
+    "label": "2 RUE DE LA STELE, Lammerville",
+    "lat": 49.796923,
+    "lng": 0.983019,
+    "transactions": [
+      {
+        "date": "2020-12-23",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e9da21a91a4": {
+    "id": "1e9da21a91a4",
+    "label": "5011 LE BOURG, Lammerville",
+    "lat": 49.795891,
+    "lng": 0.983344,
+    "transactions": [
+      {
+        "date": "2021-03-08",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "be5958e6c986": {
+    "id": "be5958e6c986",
+    "label": "10 RUE DU CHARRON, Lammerville",
+    "lat": 49.796619,
+    "lng": 0.982503,
+    "transactions": [
+      {
+        "date": "2022-09-27",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

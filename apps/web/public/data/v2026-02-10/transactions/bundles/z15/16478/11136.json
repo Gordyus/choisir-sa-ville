@@ -1,0 +1,92 @@
+{
+  "7535ebd1d88f": {
+    "id": "7535ebd1d88f",
+    "label": "275 RUE DU COLOMBIER, Auppegard",
+    "lat": 49.83172,
+    "lng": 1.042697,
+    "transactions": [
+      {
+        "date": "2021-11-04",
+        "priceEur": 155400,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "e737c97e58ff": {
+    "id": "e737c97e58ff",
+    "label": "33 RUE DU COLOMBIER, Auppegard",
+    "lat": 49.831939,
+    "lng": 1.039062,
+    "transactions": [
+      {
+        "date": "2021-10-01",
+        "priceEur": 177000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "deefab2f7ec8": {
+    "id": "deefab2f7ec8",
+    "label": "170 IMP DES MOTTES, Auppegard",
+    "lat": 49.832772,
+    "lng": 1.040913,
+    "transactions": [
+      {
+        "date": "2022-08-17",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1cfc1e23e62": {
+    "id": "f1cfc1e23e62",
+    "label": "158 IMP DES MOTTES, Auppegard",
+    "lat": 49.832677,
+    "lng": 1.040678,
+    "transactions": [
+      {
+        "date": "2023-04-06",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c4125a65863": {
+    "id": "3c4125a65863",
+    "label": "169 RUE DU COLOMBIER, Auppegard",
+    "lat": 49.832007,
+    "lng": 1.041283,
+    "transactions": [
+      {
+        "date": "2023-11-27",
+        "priceEur": 206520,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "687b00c7e0b6": {
+    "id": "687b00c7e0b6",
+    "label": "638 RUE ALBERT JEAN, Auppegard",
+    "lat": 49.830999,
+    "lng": 1.037161,
+    "transactions": [
+      {
+        "date": "2024-04-25",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "841d3afa1b65": {
+    "id": "841d3afa1b65",
+    "label": "22 RUE DE VAUCELLES, Lesdain",
+    "lat": 50.097411,
+    "lng": 3.262926,
+    "transactions": [
+      {
+        "date": "2023-10-13",
+        "priceEur": 75600,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "16aa43d7ac4a": {
+    "id": "16aa43d7ac4a",
+    "label": "9002 LA FONTAINE GLORIEUSE, Crèvecœur-sur-l'Escaut",
+    "lat": 50.097015,
+    "lng": 3.257576,
+    "transactions": [
+      {
+        "date": "2024-12-11",
+        "priceEur": 85500,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "c71461f1d1b7": {
+    "id": "c71461f1d1b7",
+    "label": "9001 RUE DE LA FONTAINE GLORIEUSE, Lesdain",
+    "lat": 50.099201,
+    "lng": 3.262857,
+    "transactions": [
+      {
+        "date": "2025-03-24",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb99ea3f2382": {
+    "id": "bb99ea3f2382",
+    "label": "9001 LA FONTAINE GLORIEUSE, Crèvecœur-sur-l'Escaut",
+    "lat": 50.097713,
+    "lng": 3.257807,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e6f5ffbe0ca": {
+    "id": "3e6f5ffbe0ca",
+    "label": "26 RUE DE VAUCELLES, Lesdain",
+    "lat": 50.097422,
+    "lng": 3.262072,
+    "transactions": [
+      {
+        "date": "2025-05-28",
+        "priceEur": 189900,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  }
+}

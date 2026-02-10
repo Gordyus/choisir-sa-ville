@@ -1,0 +1,47 @@
+{
+  "1dc21c97a913": {
+    "id": "1dc21c97a913",
+    "label": "150 RUE ROGER SALENGRO, Somain",
+    "lat": 50.374516,
+    "lng": 3.281768,
+    "transactions": [
+      {
+        "date": "2021-05-11",
+        "priceEur": 218000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "b173fded567b": {
+    "id": "b173fded567b",
+    "label": "32 RUE JEAN BAPTISTE FIEVET, Somain",
+    "lat": 50.379223,
+    "lng": 3.279501,
+    "transactions": [
+      {
+        "date": "2022-09-09",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "b8e6f82dc760": {
+    "id": "b8e6f82dc760",
+    "label": "34 RUE JEAN BAPTISTE FIEVET, Somain",
+    "lat": 50.379219,
+    "lng": 3.279035,
+    "transactions": [
+      {
+        "date": "2023-03-13",
+        "priceEur": 223000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

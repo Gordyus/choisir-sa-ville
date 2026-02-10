@@ -1,0 +1,77 @@
+{
+  "415d682a959c": {
+    "id": "415d682a959c",
+    "label": "125 RUE DE LA PASSEE, Saint-Sylvain",
+    "lat": 49.846964,
+    "lng": 0.657873,
+    "transactions": [
+      {
+        "date": "2021-06-22",
+        "priceEur": 229380,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "920f7f8ea92f": {
+    "id": "920f7f8ea92f",
+    "label": "337 RUE DU BOIS, Saint-Sylvain",
+    "lat": 49.847218,
+    "lng": 0.659106,
+    "transactions": [
+      {
+        "date": "2024-03-29",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5e56f6ff1e8": {
+    "id": "a5e56f6ff1e8",
+    "label": "80 RUE DE LA PASSEE, Saint-Sylvain",
+    "lat": 49.847277,
+    "lng": 0.658867,
+    "transactions": [
+      {
+        "date": "2024-03-29",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "07d7f56b4611": {
+    "id": "07d7f56b4611",
+    "label": "101 CHE DU TOT, Paluel",
+    "lat": 49.847887,
+    "lng": 0.648583,
+    "transactions": [
+      {
+        "date": "2024-11-29",
+        "priceEur": 277500,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "35de5119717f": {
+    "id": "35de5119717f",
+    "label": "247 RUE DU BOIS, Saint-Sylvain",
+    "lat": 49.84648,
+    "lng": 0.659171,
+    "transactions": [
+      {
+        "date": "2024-12-23",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  }
+}

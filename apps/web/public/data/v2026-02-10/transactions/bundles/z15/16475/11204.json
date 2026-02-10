@@ -1,0 +1,825 @@
+{
+  "69bbfc9d42f2": {
+    "id": "69bbfc9d42f2",
+    "label": "16 RUE GEORGES BRAQUE, Grand-Couronne",
+    "lat": 49.351297,
+    "lng": 1.0032,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "0937271e4a89": {
+    "id": "0937271e4a89",
+    "label": "3 RUE AMPERE, Grand-Couronne",
+    "lat": 49.35298,
+    "lng": 1.001959,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a3a93148a3a": {
+    "id": "6a3a93148a3a",
+    "label": "36 AV FOCH, Grand-Couronne",
+    "lat": 49.351825,
+    "lng": 1.004589,
+    "transactions": [
+      {
+        "date": "2024-04-02",
+        "priceEur": 324000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-27",
+        "priceEur": 307000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "01e023dff2a1": {
+    "id": "01e023dff2a1",
+    "label": "9507 RUE DE LA LONDE, Grand-Couronne",
+    "lat": 49.347857,
+    "lng": 1.000824,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 154500,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "4eeb71d7c6b2": {
+    "id": "4eeb71d7c6b2",
+    "label": "26 RUE PICOT, Grand-Couronne",
+    "lat": 49.351591,
+    "lng": 1.008533,
+    "transactions": [
+      {
+        "date": "2020-12-14",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "11d58e3ba28c": {
+    "id": "11d58e3ba28c",
+    "label": "39 RUE DE LA LONDE, Grand-Couronne",
+    "lat": 49.348498,
+    "lng": 1.002028,
+    "transactions": [
+      {
+        "date": "2024-06-25",
+        "priceEur": 214000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-18",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "05e4addf5515": {
+    "id": "05e4addf5515",
+    "label": "1 RUE PICOT, Grand-Couronne",
+    "lat": 49.352761,
+    "lng": 1.009659,
+    "transactions": [
+      {
+        "date": "2021-02-19",
+        "priceEur": 183000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e3bd7fc417d": {
+    "id": "3e3bd7fc417d",
+    "label": "23 RUE PICOT, Grand-Couronne",
+    "lat": 49.352284,
+    "lng": 1.009024,
+    "transactions": [
+      {
+        "date": "2021-02-22",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "1cbd409143dd": {
+    "id": "1cbd409143dd",
+    "label": "18 RUE THEOPHILE LAMBERT, Grand-Couronne",
+    "lat": 49.353045,
+    "lng": 1.003008,
+    "transactions": [
+      {
+        "date": "2021-04-09",
+        "priceEur": 310500,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "73b0bae0555f": {
+    "id": "73b0bae0555f",
+    "label": "12 RUE GEORGES BRAQUE, Grand-Couronne",
+    "lat": 49.351538,
+    "lng": 1.003503,
+    "transactions": [
+      {
+        "date": "2022-10-12",
+        "priceEur": 97500,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-12",
+        "priceEur": 191000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "0f12352aa523": {
+    "id": "0f12352aa523",
+    "label": "4 RUE GAMBETTA, Grand-Couronne",
+    "lat": 49.352299,
+    "lng": 1.009876,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 129000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "d7c51a770b56": {
+    "id": "d7c51a770b56",
+    "label": "27 AV FOCH, Grand-Couronne",
+    "lat": 49.353405,
+    "lng": 1.006342,
+    "transactions": [
+      {
+        "date": "2021-08-05",
+        "priceEur": 283000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "3755d77342b4": {
+    "id": "3755d77342b4",
+    "label": "1 RUE AMPERE, Grand-Couronne",
+    "lat": 49.353037,
+    "lng": 1.001748,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb2e6a2905aa": {
+    "id": "cb2e6a2905aa",
+    "label": "33 RUE GAMBETTA, Grand-Couronne",
+    "lat": 49.351366,
+    "lng": 1.00966,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 124000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "e398ecb2bd1f": {
+    "id": "e398ecb2bd1f",
+    "label": "3 ALL GABRIEL FAURE, Grand-Couronne",
+    "lat": 49.351001,
+    "lng": 1.000568,
+    "transactions": [
+      {
+        "date": "2021-09-01",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d047e3a0326": {
+    "id": "6d047e3a0326",
+    "label": "8 ALL GABRIEL FAURE, Grand-Couronne",
+    "lat": 49.350758,
+    "lng": 1.000674,
+    "transactions": [
+      {
+        "date": "2021-09-24",
+        "priceEur": 176000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "62cedd3208e1": {
+    "id": "62cedd3208e1",
+    "label": "21 RUE GEORGES BRAQUE, Grand-Couronne",
+    "lat": 49.350729,
+    "lng": 1.003757,
+    "transactions": [
+      {
+        "date": "2022-01-17",
+        "priceEur": 175300,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "15c52d9e32df": {
+    "id": "15c52d9e32df",
+    "label": "31 RUE DE LA LONDE, Grand-Couronne",
+    "lat": 49.348858,
+    "lng": 1.002661,
+    "transactions": [
+      {
+        "date": "2022-02-23",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "04728c365daf": {
+    "id": "04728c365daf",
+    "label": "38B AV FOCH, Grand-Couronne",
+    "lat": 49.351201,
+    "lng": 1.004454,
+    "transactions": [
+      {
+        "date": "2022-03-03",
+        "priceEur": 217000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "189d454001d7": {
+    "id": "189d454001d7",
+    "label": "10 RUE THEOPHILE LAMBERT, Grand-Couronne",
+    "lat": 49.353422,
+    "lng": 1.00345,
+    "transactions": [
+      {
+        "date": "2022-03-11",
+        "priceEur": 145500,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "27651f344e0c": {
+    "id": "27651f344e0c",
+    "label": "28 RUE THEOPHILE LAMBERT, Grand-Couronne",
+    "lat": 49.352195,
+    "lng": 1.002242,
+    "transactions": [
+      {
+        "date": "2022-03-31",
+        "priceEur": 99000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "930f0c2ae2e6": {
+    "id": "930f0c2ae2e6",
+    "label": "24 RUE THEOPHILE LAMBERT, Grand-Couronne",
+    "lat": 49.352378,
+    "lng": 1.002458,
+    "transactions": [
+      {
+        "date": "2022-04-22",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "fdc55990c574": {
+    "id": "fdc55990c574",
+    "label": "20 RUE DE SEELZE, Grand-Couronne",
+    "lat": 49.353447,
+    "lng": 1.004082,
+    "transactions": [
+      {
+        "date": "2022-05-16",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "0380f7d63d01": {
+    "id": "0380f7d63d01",
+    "label": "63 RUE DE SEELZE, Grand-Couronne",
+    "lat": 49.351134,
+    "lng": 1.00156,
+    "transactions": [
+      {
+        "date": "2022-05-16",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "1999b7a7931e": {
+    "id": "1999b7a7931e",
+    "label": "32 RUE PICOT, Grand-Couronne",
+    "lat": 49.352123,
+    "lng": 1.009246,
+    "transactions": [
+      {
+        "date": "2022-07-08",
+        "priceEur": 187000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "c07094f071ad": {
+    "id": "c07094f071ad",
+    "label": "19 RUE THEOPHILE LAMBERT, Grand-Couronne",
+    "lat": 49.352339,
+    "lng": 1.003062,
+    "transactions": [
+      {
+        "date": "2022-07-11",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "219e007d9bdf": {
+    "id": "219e007d9bdf",
+    "label": "7 RUE PICOT, Grand-Couronne",
+    "lat": 49.352468,
+    "lng": 1.00899,
+    "transactions": [
+      {
+        "date": "2022-07-20",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "900b5c7b73e1": {
+    "id": "900b5c7b73e1",
+    "label": "12 RUE DES BOUTTIERES, Grand-Couronne",
+    "lat": 49.351221,
+    "lng": 1.000746,
+    "transactions": [
+      {
+        "date": "2022-10-14",
+        "priceEur": 170300,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "c27c14baf98c": {
+    "id": "c27c14baf98c",
+    "label": "28 RUE PICOT, Grand-Couronne",
+    "lat": 49.351629,
+    "lng": 1.008801,
+    "transactions": [
+      {
+        "date": "2022-10-25",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "678499387eb3": {
+    "id": "678499387eb3",
+    "label": "15 RUE DE LA LIBERATION, Grand-Couronne",
+    "lat": 49.35188,
+    "lng": 1.001102,
+    "transactions": [
+      {
+        "date": "2022-10-20",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "5056b16af594": {
+    "id": "5056b16af594",
+    "label": "27 RUE DE SEELZE, Grand-Couronne",
+    "lat": 49.352712,
+    "lng": 1.004679,
+    "transactions": [
+      {
+        "date": "2022-12-26",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0658c068a16": {
+    "id": "c0658c068a16",
+    "label": "3 RUE PICOT, Grand-Couronne",
+    "lat": 49.35264,
+    "lng": 1.009421,
+    "transactions": [
+      {
+        "date": "2024-03-28",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-30",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9bcc729e27c": {
+    "id": "a9bcc729e27c",
+    "label": "11 RUE PICOT, Grand-Couronne",
+    "lat": 49.352246,
+    "lng": 1.008506,
+    "transactions": [
+      {
+        "date": "2023-03-23",
+        "priceEur": 143000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "a865e0932939": {
+    "id": "a865e0932939",
+    "label": "31 AV JEAN JAURES, Grand-Couronne",
+    "lat": 49.353744,
+    "lng": 1.003121,
+    "transactions": [
+      {
+        "date": "2023-04-18",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "fc5874db7724": {
+    "id": "fc5874db7724",
+    "label": "3 RUE JEAN DE LA FONTAINE, Grand-Couronne",
+    "lat": 49.351335,
+    "lng": 1.002574,
+    "transactions": [
+      {
+        "date": "2023-06-01",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "af9aa3cb6dd7": {
+    "id": "af9aa3cb6dd7",
+    "label": "27 RUE LOUIS CANTON, Grand-Couronne",
+    "lat": 49.352979,
+    "lng": 1.010701,
+    "transactions": [
+      {
+        "date": "2023-07-06",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "d1dbeb38bc2f": {
+    "id": "d1dbeb38bc2f",
+    "label": "21 RUE LOUIS CANTON, Grand-Couronne",
+    "lat": 49.353216,
+    "lng": 1.010408,
+    "transactions": [
+      {
+        "date": "2023-08-02",
+        "priceEur": 134300,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d5cda026063": {
+    "id": "9d5cda026063",
+    "label": "11 RUE THEOPHILE LAMBERT, Grand-Couronne",
+    "lat": 49.352973,
+    "lng": 1.003769,
+    "transactions": [
+      {
+        "date": "2023-08-09",
+        "priceEur": 142700,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "67e5cf4fa659": {
+    "id": "67e5cf4fa659",
+    "label": "14 RUE DE LA VIGIE, Grand-Couronne",
+    "lat": 49.350958,
+    "lng": 1.005064,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "5acb467ae525": {
+    "id": "5acb467ae525",
+    "label": "9002 BD DU ROUVRAY, Grand-Couronne",
+    "lat": 49.353317,
+    "lng": 1.004857,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "6501cb3e6583": {
+    "id": "6501cb3e6583",
+    "label": "55 RUE DE SEELZE, Grand-Couronne",
+    "lat": 49.351573,
+    "lng": 1.002167,
+    "transactions": [
+      {
+        "date": "2023-12-21",
+        "priceEur": 85500,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "dcd1afc12dfa": {
+    "id": "dcd1afc12dfa",
+    "label": "17 RUE DE SEELZE, Grand-Couronne",
+    "lat": 49.353625,
+    "lng": 1.004964,
+    "transactions": [
+      {
+        "date": "2024-03-05",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "33748dd05453": {
+    "id": "33748dd05453",
+    "label": "22 RUE PICOT, Grand-Couronne",
+    "lat": 49.351516,
+    "lng": 1.008062,
+    "transactions": [
+      {
+        "date": "2024-04-30",
+        "priceEur": 197000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "58a4b8d2d1c0": {
+    "id": "58a4b8d2d1c0",
+    "label": "23 RUE GEORGES BRAQUE, Grand-Couronne",
+    "lat": 49.350592,
+    "lng": 1.003567,
+    "transactions": [
+      {
+        "date": "2024-06-12",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a37f057427a": {
+    "id": "7a37f057427a",
+    "label": "19 RUE GEORGES BRAQUE, Grand-Couronne",
+    "lat": 49.35087,
+    "lng": 1.003531,
+    "transactions": [
+      {
+        "date": "2024-06-26",
+        "priceEur": 168450,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "ecdf36ef3a6c": {
+    "id": "ecdf36ef3a6c",
+    "label": "15 RUE PICOT, Grand-Couronne",
+    "lat": 49.3519,
+    "lng": 1.008012,
+    "transactions": [
+      {
+        "date": "2024-08-09",
+        "priceEur": 267100,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "058ea03fcc8b": {
+    "id": "058ea03fcc8b",
+    "label": "41 RUE DE LA LONDE, Grand-Couronne",
+    "lat": 49.348181,
+    "lng": 1.001385,
+    "transactions": [
+      {
+        "date": "2024-08-13",
+        "priceEur": 136000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "4112f730b8e3": {
+    "id": "4112f730b8e3",
+    "label": "47 RUE DE LA LONDE, Grand-Couronne",
+    "lat": 49.348403,
+    "lng": 1.001432,
+    "transactions": [
+      {
+        "date": "2024-11-13",
+        "priceEur": 117500,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  },
+  "eeef48d1d270": {
+    "id": "eeef48d1d270",
+    "label": "21C RUE DE LA LONDE, Grand-Couronne",
+    "lat": 49.349345,
+    "lng": 1.002998,
+    "transactions": [
+      {
+        "date": "2025-01-27",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "893c5c4819cc": {
+    "id": "893c5c4819cc",
+    "label": "4 RUE PICOT, Grand-Couronne",
+    "lat": 49.352859,
+    "lng": 1.009053,
+    "transactions": [
+      {
+        "date": "2025-02-17",
+        "priceEur": 197000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "5868db7896f8": {
+    "id": "5868db7896f8",
+    "label": "21 RUE PICOT, Grand-Couronne",
+    "lat": 49.352144,
+    "lng": 1.008803,
+    "transactions": [
+      {
+        "date": "2025-04-02",
+        "priceEur": 141000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "7967b6975938": {
+    "id": "7967b6975938",
+    "label": "2 RUE PICOT, Grand-Couronne",
+    "lat": 49.352925,
+    "lng": 1.00937,
+    "transactions": [
+      {
+        "date": "2025-04-28",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "226db62aa139": {
+    "id": "226db62aa139",
+    "label": "50 AV JEAN JAURES, Grand-Couronne",
+    "lat": 49.353258,
+    "lng": 1.00107,
+    "transactions": [
+      {
+        "date": "2025-05-26",
+        "priceEur": 131000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  }
+}

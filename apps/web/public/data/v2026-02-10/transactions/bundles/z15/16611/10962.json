@@ -1,0 +1,77 @@
+{
+  "9bfd63ab2319": {
+    "id": "9bfd63ab2319",
+    "label": "111 RUE DU MEULHOUCK, Ghyvelde",
+    "lat": 51.049327,
+    "lng": 2.50034,
+    "transactions": [
+      {
+        "date": "2022-01-27",
+        "priceEur": 153000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "27f99430fbc3": {
+    "id": "27f99430fbc3",
+    "label": "104 RTE DE ZUYDCOOTE RD 302, Ghyvelde",
+    "lat": 51.050466,
+    "lng": 2.496465,
+    "transactions": [
+      {
+        "date": "2022-05-20",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b649652081a": {
+    "id": "2b649652081a",
+    "label": "86 RTE DE ZUYDCOOTE RD 302, Ghyvelde",
+    "lat": 51.05139,
+    "lng": 2.496292,
+    "transactions": [
+      {
+        "date": "2022-07-25",
+        "priceEur": 219000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "14e9cfabb991": {
+    "id": "14e9cfabb991",
+    "label": "101 RUE DU MEULHOUCK, Ghyvelde",
+    "lat": 51.049586,
+    "lng": 2.501577,
+    "transactions": [
+      {
+        "date": "2022-07-20",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "06ef39e86194": {
+    "id": "06ef39e86194",
+    "label": "171 CHE BRUN, Ghyvelde",
+    "lat": 51.054464,
+    "lng": 2.502668,
+    "transactions": [
+      {
+        "date": "2022-10-10",
+        "priceEur": 257000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  }
+}

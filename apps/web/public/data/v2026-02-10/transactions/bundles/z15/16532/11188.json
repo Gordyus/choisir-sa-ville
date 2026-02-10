@@ -1,0 +1,32 @@
+{
+  "865c575120a8": {
+    "id": "865c575120a8",
+    "label": "1 RTE PRINCIPALE, Bosc-Hyons",
+    "lat": 49.466625,
+    "lng": 1.636189,
+    "transactions": [
+      {
+        "date": "2021-09-22",
+        "priceEur": 160295,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e1f495b6ca7": {
+    "id": "6e1f495b6ca7",
+    "label": "4 RTE PRINCIPALE DE BOSC-HYONS, Beauvoir-en-Lyons",
+    "lat": 49.466703,
+    "lng": 1.635264,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 148900,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

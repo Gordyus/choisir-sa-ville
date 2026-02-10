@@ -1,0 +1,159 @@
+{
+  "91a1c306341d": {
+    "id": "91a1c306341d",
+    "label": "15 RUE ROGER CAMAIN, Biville-la-Baignarde",
+    "lat": 49.72039,
+    "lng": 1.049356,
+    "transactions": [
+      {
+        "date": "2020-07-16",
+        "priceEur": 101000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe496511d160": {
+    "id": "fe496511d160",
+    "label": "284 RTE DE LA MER, Biville-la-Baignarde",
+    "lat": 49.719575,
+    "lng": 1.048838,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  },
+  "d35e9ad68903": {
+    "id": "d35e9ad68903",
+    "label": "400 RTE DE LA MER, Biville-la-Baignarde",
+    "lat": 49.720333,
+    "lng": 1.04894,
+    "transactions": [
+      {
+        "date": "2021-06-01",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-01",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "8bf5a9944f45": {
+    "id": "8bf5a9944f45",
+    "label": "377 RUE ANDRE MALLET, Biville-la-Baignarde",
+    "lat": 49.719694,
+    "lng": 1.043732,
+    "transactions": [
+      {
+        "date": "2021-07-29",
+        "priceEur": 117600,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "309d0287d337": {
+    "id": "309d0287d337",
+    "label": "636 RUE DES SOUPIRS, Biville-la-Baignarde",
+    "lat": 49.720778,
+    "lng": 1.054468,
+    "transactions": [
+      {
+        "date": "2023-05-02",
+        "priceEur": 300120,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "defb4b168a1f": {
+    "id": "defb4b168a1f",
+    "label": "65 IMP DU CHALET, Biville-la-Baignarde",
+    "lat": 49.718005,
+    "lng": 1.053904,
+    "transactions": [
+      {
+        "date": "2023-07-17",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "c92d4ca966e8": {
+    "id": "c92d4ca966e8",
+    "label": "344 RUE DU MAROIN, Biville-la-Baignarde",
+    "lat": 49.717797,
+    "lng": 1.043992,
+    "transactions": [
+      {
+        "date": "2023-11-03",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 172,
+        "isVefa": false
+      }
+    ]
+  },
+  "6f7093eb2efa": {
+    "id": "6f7093eb2efa",
+    "label": "55 RUE DES SOUPIRS, Biville-la-Baignarde",
+    "lat": 49.723159,
+    "lng": 1.049028,
+    "transactions": [
+      {
+        "date": "2023-11-16",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "101250057f92": {
+    "id": "101250057f92",
+    "label": "33 RUE NAMSOS, Biville-la-Baignarde",
+    "lat": 49.719527,
+    "lng": 1.04913,
+    "transactions": [
+      {
+        "date": "2024-02-14",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a68ec2febaf": {
+    "id": "1a68ec2febaf",
+    "label": "112 RUE ANDRE MALLET, Biville-la-Baignarde",
+    "lat": 49.720833,
+    "lng": 1.047171,
+    "transactions": [
+      {
+        "date": "2024-04-11",
+        "priceEur": 146000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

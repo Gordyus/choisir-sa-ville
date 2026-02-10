@@ -1,0 +1,54 @@
+{
+  "af795a207a42": {
+    "id": "af795a207a42",
+    "label": "22 RUE ALFRED CORTOT, Grande-Synthe",
+    "lat": 51.013929,
+    "lng": 2.285051,
+    "transactions": [
+      {
+        "date": "2020-12-22",
+        "priceEur": 153100,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "516971947598": {
+    "id": "516971947598",
+    "label": "57 RUE ALFRED CORTOT, Grande-Synthe",
+    "lat": 51.014299,
+    "lng": 2.284741,
+    "transactions": [
+      {
+        "date": "2021-11-15",
+        "priceEur": 132500,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "79e973b6f966": {
+    "id": "79e973b6f966",
+    "label": "51 RUE ALFRED CORTOT, Grande-Synthe",
+    "lat": 51.014059,
+    "lng": 2.284572,
+    "transactions": [
+      {
+        "date": "2025-03-10",
+        "priceEur": 206100,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-06",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

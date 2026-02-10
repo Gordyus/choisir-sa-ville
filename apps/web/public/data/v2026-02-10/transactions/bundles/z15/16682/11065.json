@@ -1,0 +1,167 @@
+{
+  "3415768344e2": {
+    "id": "3415768344e2",
+    "label": "12 RUE LEON DELFOSSE, Somain",
+    "lat": 50.335981,
+    "lng": 3.28317,
+    "transactions": [
+      {
+        "date": "2020-09-22",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "dc0f70eca23a": {
+    "id": "dc0f70eca23a",
+    "label": "5 RUE LEON DELFOSSE, Somain",
+    "lat": 50.336334,
+    "lng": 3.283704,
+    "transactions": [
+      {
+        "date": "2020-12-22",
+        "priceEur": 67392,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "02a276b67d37": {
+    "id": "02a276b67d37",
+    "label": "15 RTE DE BOUCHAIN, Somain",
+    "lat": 50.335964,
+    "lng": 3.281439,
+    "transactions": [
+      {
+        "date": "2021-09-01",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad8e46b1c289": {
+    "id": "ad8e46b1c289",
+    "label": "16 RUE LEON DELFOSSE, Somain",
+    "lat": 50.335763,
+    "lng": 3.283204,
+    "transactions": [
+      {
+        "date": "2021-12-29",
+        "priceEur": 75920,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "8aad1ea7e5a1": {
+    "id": "8aad1ea7e5a1",
+    "label": "3 RTE DE DOUAI, Somain",
+    "lat": 50.337325,
+    "lng": 3.281356,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "dfad378ac9db": {
+    "id": "dfad378ac9db",
+    "label": "27 RUE LEON DELFOSSE, Somain",
+    "lat": 50.335123,
+    "lng": 3.28391,
+    "transactions": [
+      {
+        "date": "2022-01-20",
+        "priceEur": 67392,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "475eaadfc492": {
+    "id": "475eaadfc492",
+    "label": "101 RUE VICTOR HUGO, Abscon",
+    "lat": 50.333614,
+    "lng": 3.282971,
+    "transactions": [
+      {
+        "date": "2022-11-10",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "b080d11600bf": {
+    "id": "b080d11600bf",
+    "label": "18 RUE AMBROISE CROIZAT, Somain",
+    "lat": 50.335596,
+    "lng": 3.282178,
+    "transactions": [
+      {
+        "date": "2023-03-30",
+        "priceEur": 93000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "e71390dd3b69": {
+    "id": "e71390dd3b69",
+    "label": "107 RUE VICTOR HUGO, Abscon",
+    "lat": 50.333597,
+    "lng": 3.282499,
+    "transactions": [
+      {
+        "date": "2023-01-27",
+        "priceEur": 303000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "b85b9dc4ed2c": {
+    "id": "b85b9dc4ed2c",
+    "label": "11 RUE LEON DELFOSSE, Somain",
+    "lat": 50.336025,
+    "lng": 3.28377,
+    "transactions": [
+      {
+        "date": "2024-03-18",
+        "priceEur": 74880,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4a04d044f0b": {
+    "id": "c4a04d044f0b",
+    "label": "85 RUE VICTOR HUGO, Abscon",
+    "lat": 50.333766,
+    "lng": 3.284278,
+    "transactions": [
+      {
+        "date": "2025-04-02",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

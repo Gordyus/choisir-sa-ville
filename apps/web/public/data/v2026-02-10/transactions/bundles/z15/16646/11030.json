@@ -1,0 +1,84 @@
+{
+  "0519d041fe4d": {
+    "id": "0519d041fe4d",
+    "label": "135 RUE DU QUATRE SEPTEMBRE, Fournes-en-Weppes",
+    "lat": 50.58277,
+    "lng": 2.889183,
+    "transactions": [
+      {
+        "date": "2020-12-29",
+        "priceEur": 127304,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "23278da4eb81": {
+    "id": "23278da4eb81",
+    "label": "9001 LE CHATEAU RN 41, Fournes-en-Weppes",
+    "lat": 50.580385,
+    "lng": 2.886031,
+    "transactions": [
+      {
+        "date": "2021-07-22",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "d78678c5a30a": {
+    "id": "d78678c5a30a",
+    "label": "750 RUE FAIDHERBE, Fournes-en-Weppes",
+    "lat": 50.582686,
+    "lng": 2.883947,
+    "transactions": [
+      {
+        "date": "2022-09-15",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "e7d532321f44": {
+    "id": "e7d532321f44",
+    "label": "123 CITE GOMBERT, Fournes-en-Weppes",
+    "lat": 50.581534,
+    "lng": 2.888495,
+    "transactions": [
+      {
+        "date": "2023-12-28",
+        "priceEur": 181950,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-03",
+        "priceEur": 176500,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "0be677a983e5": {
+    "id": "0be677a983e5",
+    "label": "115 CITE GOMBERT, Fournes-en-Weppes",
+    "lat": 50.581556,
+    "lng": 2.888461,
+    "transactions": [
+      {
+        "date": "2025-02-18",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  }
+}

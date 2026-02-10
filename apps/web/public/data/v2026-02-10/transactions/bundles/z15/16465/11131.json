@@ -1,0 +1,54 @@
+{
+  "c606682c8fd1": {
+    "id": "c606682c8fd1",
+    "label": "5144 LA MARNIERE, Le Bourg-Dun",
+    "lat": 49.869811,
+    "lng": 0.891191,
+    "transactions": [
+      {
+        "date": "2022-08-26",
+        "priceEur": 184000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-23",
+        "priceEur": 109000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "be7d603022e6": {
+    "id": "be7d603022e6",
+    "label": "8 RTE DE SAINT AUBIN SUR MER, Le Bourg-Dun",
+    "lat": 49.869749,
+    "lng": 0.89131,
+    "transactions": [
+      {
+        "date": "2022-06-08",
+        "priceEur": 258000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "383a4d0d48d0": {
+    "id": "383a4d0d48d0",
+    "label": "14 RTE DE SAINT AUBIN SUR MER, Le Bourg-Dun",
+    "lat": 49.870019,
+    "lng": 0.891513,
+    "transactions": [
+      {
+        "date": "2023-03-06",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

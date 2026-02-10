@@ -1,0 +1,68 @@
+{
+  "254bb2c06ced": {
+    "id": "254bb2c06ced",
+    "label": "545 CHE DE VERLINGHEM, Quesnoy-sur-Deûle",
+    "lat": 50.701025,
+    "lng": 2.998124,
+    "transactions": [
+      {
+        "date": "2023-08-01",
+        "priceEur": 600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 37,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-01",
+        "priceEur": 600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-01",
+        "priceEur": 600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "28f1203be06b": {
+    "id": "28f1203be06b",
+    "label": "518 CHE DU COEUR JOYEUX, Quesnoy-sur-Deûle",
+    "lat": 50.700876,
+    "lng": 2.998195,
+    "transactions": [
+      {
+        "date": "2023-08-01",
+        "priceEur": 600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-01",
+        "priceEur": 600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  },
+  "63c2fb7fc393": {
+    "id": "63c2fb7fc393",
+    "label": "874 CHE DU COEUR JOYEUX, Quesnoy-sur-Deûle",
+    "lat": 50.698471,
+    "lng": 2.994862,
+    "transactions": [
+      {
+        "date": "2023-09-25",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  }
+}

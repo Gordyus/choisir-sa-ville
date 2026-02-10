@@ -1,0 +1,32 @@
+{
+  "f77a090c70e4": {
+    "id": "f77a090c70e4",
+    "label": "1T SEN DU GITE, Butot-Vénesville",
+    "lat": 49.81272,
+    "lng": 0.574026,
+    "transactions": [
+      {
+        "date": "2021-06-28",
+        "priceEur": 379750,
+        "typeLocal": "Maison",
+        "surfaceM2": 220,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1e4192af659": {
+    "id": "b1e4192af659",
+    "label": "9 RTE DE VAUDREVILLE, Butot-Vénesville",
+    "lat": 49.813455,
+    "lng": 0.580338,
+    "transactions": [
+      {
+        "date": "2025-02-20",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  }
+}

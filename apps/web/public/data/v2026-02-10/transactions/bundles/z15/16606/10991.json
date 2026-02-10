@@ -1,0 +1,84 @@
+{
+  "3df5544697bf": {
+    "id": "3df5544697bf",
+    "label": "4 RUE HENRI WALLAERT, Ledringhem",
+    "lat": 50.853655,
+    "lng": 2.439049,
+    "transactions": [
+      {
+        "date": "2020-10-01",
+        "priceEur": 187950,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3277e5bf00f": {
+    "id": "a3277e5bf00f",
+    "label": "9 CHE DES PRAIRIES, Ledringhem",
+    "lat": 50.8542,
+    "lng": 2.441843,
+    "transactions": [
+      {
+        "date": "2020-12-10",
+        "priceEur": 225200,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "c8e91c96c0f9": {
+    "id": "c8e91c96c0f9",
+    "label": "9 RTE D ARNEKE, Ledringhem",
+    "lat": 50.850808,
+    "lng": 2.439602,
+    "transactions": [
+      {
+        "date": "2022-08-31",
+        "priceEur": 344750,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "ef8e0904d82a": {
+    "id": "ef8e0904d82a",
+    "label": "6 CHE DES PRAIRIES, Ledringhem",
+    "lat": 50.852484,
+    "lng": 2.442,
+    "transactions": [
+      {
+        "date": "2023-12-07",
+        "priceEur": 132000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-05",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "73826f0888d7": {
+    "id": "73826f0888d7",
+    "label": "8 CHE DES PRAIRIES, Ledringhem",
+    "lat": 50.848853,
+    "lng": 2.447412,
+    "transactions": [
+      {
+        "date": "2024-12-19",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

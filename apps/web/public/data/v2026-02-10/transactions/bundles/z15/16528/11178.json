@@ -1,0 +1,69 @@
+{
+  "d553aad640b0": {
+    "id": "d553aad640b0",
+    "label": "17 RTE DE BREMONTIER, Hodeng-Hodenger",
+    "lat": 49.539004,
+    "lng": 1.58965,
+    "transactions": [
+      {
+        "date": "2023-02-28",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-09",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "63185e756468": {
+    "id": "63185e756468",
+    "label": "5121 HODENGER HAMEAU, Hodeng-Hodenger",
+    "lat": 49.539141,
+    "lng": 1.586237,
+    "transactions": [
+      {
+        "date": "2022-05-13",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "9fa420e7027d": {
+    "id": "9fa420e7027d",
+    "label": "5128 HODENGER HAMEAU, Hodeng-Hodenger",
+    "lat": 49.536201,
+    "lng": 1.592659,
+    "transactions": [
+      {
+        "date": "2022-08-10",
+        "priceEur": 210130,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "4bfd8fba810c": {
+    "id": "4bfd8fba810c",
+    "label": "13 RTE DE BREMONTIER, Hodeng-Hodenger",
+    "lat": 49.53926,
+    "lng": 1.588787,
+    "transactions": [
+      {
+        "date": "2022-12-19",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

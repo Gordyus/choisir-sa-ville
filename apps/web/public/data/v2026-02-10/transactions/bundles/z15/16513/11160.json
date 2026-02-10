@@ -1,0 +1,62 @@
+{
+  "0f64c0b338ce": {
+    "id": "0f64c0b338ce",
+    "label": "134 CHEM DE LA PLAINE, Sainte-Geneviève",
+    "lat": 49.663523,
+    "lng": 1.425697,
+    "transactions": [
+      {
+        "date": "2021-11-05",
+        "priceEur": 28000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8a763963f94": {
+    "id": "e8a763963f94",
+    "label": "5017 LA MOHUE, Sainte-Geneviève",
+    "lat": 49.662954,
+    "lng": 1.427008,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "16a3fcef5d5c": {
+    "id": "16a3fcef5d5c",
+    "label": "1039 RTE DE NEUFCHATEL, Sainte-Geneviève",
+    "lat": 49.660775,
+    "lng": 1.425847,
+    "transactions": [
+      {
+        "date": "2021-01-27",
+        "priceEur": 210400,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "52efad9564be": {
+    "id": "52efad9564be",
+    "label": "5019 LA MOHUE, Sainte-Geneviève",
+    "lat": 49.660581,
+    "lng": 1.424347,
+    "transactions": [
+      {
+        "date": "2022-12-12",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

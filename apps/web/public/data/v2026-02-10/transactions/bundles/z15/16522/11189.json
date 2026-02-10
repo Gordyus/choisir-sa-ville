@@ -1,0 +1,39 @@
+{
+  "a5484a006f59": {
+    "id": "a5484a006f59",
+    "label": "21 RUE DU VAL LAURENT, La Feuillie",
+    "lat": 49.460829,
+    "lng": 1.519164,
+    "transactions": [
+      {
+        "date": "2021-01-23",
+        "priceEur": 135850,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "20a457a96118": {
+    "id": "20a457a96118",
+    "label": "3 RUE DU BRAY, La Feuillie",
+    "lat": 49.459702,
+    "lng": 1.51718,
+    "transactions": [
+      {
+        "date": "2021-08-24",
+        "priceEur": 84000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-24",
+        "priceEur": 84000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  }
+}

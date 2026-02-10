@@ -1,0 +1,62 @@
+{
+  "8d114dd25804": {
+    "id": "8d114dd25804",
+    "label": "24 RUE DE LA ROSERIE, La Frénaye",
+    "lat": 49.509601,
+    "lng": 0.569703,
+    "transactions": [
+      {
+        "date": "2021-01-06",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 207,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0bfe3893492": {
+    "id": "b0bfe3893492",
+    "label": "16 RUE DE LA ROSERIE, La Frénaye",
+    "lat": 49.508803,
+    "lng": 0.570824,
+    "transactions": [
+      {
+        "date": "2021-09-08",
+        "priceEur": 232000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "d57e5bf951ad": {
+    "id": "d57e5bf951ad",
+    "label": "13B RUE PIERRE FILLEUL D'ARMERTOT, La Frénaye",
+    "lat": 49.506208,
+    "lng": 0.563314,
+    "transactions": [
+      {
+        "date": "2022-08-08",
+        "priceEur": 236150,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "29a92ebaec2e": {
+    "id": "29a92ebaec2e",
+    "label": "7 LA ROSERIE, La Frénaye",
+    "lat": 49.508722,
+    "lng": 0.5694,
+    "transactions": [
+      {
+        "date": "2022-08-19",
+        "priceEur": 258000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

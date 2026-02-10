@@ -1,0 +1,77 @@
+{
+  "7409ebaee907": {
+    "id": "7409ebaee907",
+    "label": "100 CHE CAVEE GRISERUE, Longueil",
+    "lat": 49.889173,
+    "lng": 0.939406,
+    "transactions": [
+      {
+        "date": "2021-10-27",
+        "priceEur": 350430,
+        "typeLocal": "Maison",
+        "surfaceM2": 39,
+        "isVefa": false
+      }
+    ]
+  },
+  "9803bd749aac": {
+    "id": "9803bd749aac",
+    "label": "1209 RUE DE LA MER, Longueil",
+    "lat": 49.889554,
+    "lng": 0.941544,
+    "transactions": [
+      {
+        "date": "2021-07-05",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f4b8be90cfe": {
+    "id": "5f4b8be90cfe",
+    "label": "959 RUE DE LA MER, Longueil",
+    "lat": 49.88785,
+    "lng": 0.9436,
+    "transactions": [
+      {
+        "date": "2021-09-03",
+        "priceEur": 152250,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "97f4d1ff0619": {
+    "id": "97f4d1ff0619",
+    "label": "1230 RUE DE LA MER, Longueil",
+    "lat": 49.889663,
+    "lng": 0.94109,
+    "transactions": [
+      {
+        "date": "2022-04-05",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "69e822395f57": {
+    "id": "69e822395f57",
+    "label": "901 RUE DE LA MER, Longueil",
+    "lat": 49.887722,
+    "lng": 0.944459,
+    "transactions": [
+      {
+        "date": "2023-03-17",
+        "priceEur": 238945,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  }
+}

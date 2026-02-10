@@ -1,0 +1,62 @@
+{
+  "b2c9a7cb4092": {
+    "id": "b2c9a7cb4092",
+    "label": "5187 BOUAFLES, Vieux-Rouen-sur-Bresle",
+    "lat": 49.853885,
+    "lng": 1.7126,
+    "transactions": [
+      {
+        "date": "2023-02-02",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "92e2ee218bda": {
+    "id": "92e2ee218bda",
+    "label": "5188 BOUAFLES, Vieux-Rouen-sur-Bresle",
+    "lat": 49.853742,
+    "lng": 1.712666,
+    "transactions": [
+      {
+        "date": "2023-02-02",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 17,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c3fe38f09fc": {
+    "id": "2c3fe38f09fc",
+    "label": "20 RUE DE L ECOLE, Vieux-Rouen-sur-Bresle",
+    "lat": 49.853482,
+    "lng": 1.712349,
+    "transactions": [
+      {
+        "date": "2024-07-13",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c3c473724ec": {
+    "id": "5c3c473724ec",
+    "label": "7 RTE DE TREPORT, Vieux-Rouen-sur-Bresle",
+    "lat": 49.85676,
+    "lng": 1.713371,
+    "transactions": [
+      {
+        "date": "2024-11-30",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  }
+}

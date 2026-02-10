@@ -1,0 +1,39 @@
+{
+  "dfcd377146ca": {
+    "id": "dfcd377146ca",
+    "label": "400 RTE DE RANCON, Rives-en-Seine",
+    "lat": 49.556786,
+    "lng": 0.754158,
+    "transactions": [
+      {
+        "date": "2021-12-08",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "8948938901d1": {
+    "id": "8948938901d1",
+    "label": "405 LE PERROY, Rives-en-Seine",
+    "lat": 49.557388,
+    "lng": 0.753335,
+    "transactions": [
+      {
+        "date": "2023-05-12",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-12",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 29,
+        "isVefa": false
+      }
+    ]
+  }
+}

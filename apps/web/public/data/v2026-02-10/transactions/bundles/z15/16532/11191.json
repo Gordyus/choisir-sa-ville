@@ -1,0 +1,47 @@
+{
+  "454eade587b5": {
+    "id": "454eade587b5",
+    "label": "10 RUE DE LA SAINTE, Bézancourt",
+    "lat": 49.441888,
+    "lng": 1.626016,
+    "transactions": [
+      {
+        "date": "2020-08-05",
+        "priceEur": 143000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b0a7947268a": {
+    "id": "1b0a7947268a",
+    "label": "4 RTE DU LONG FOND, Bézancourt",
+    "lat": 49.443053,
+    "lng": 1.62637,
+    "transactions": [
+      {
+        "date": "2022-05-30",
+        "priceEur": 208000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "baaea112b17d": {
+    "id": "baaea112b17d",
+    "label": "12 RUE DE LA SAINTE, Bézancourt",
+    "lat": 49.441554,
+    "lng": 1.626187,
+    "transactions": [
+      {
+        "date": "2025-03-26",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

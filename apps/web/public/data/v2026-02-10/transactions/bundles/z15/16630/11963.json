@@ -1,0 +1,54 @@
+{
+  "d0855b74e075": {
+    "id": "d0855b74e075",
+    "label": "556 PRADE DU RIEU, La Salvetat-sur-Agout",
+    "lat": 43.617557,
+    "lng": 2.710713,
+    "transactions": [
+      {
+        "date": "2020-07-15",
+        "priceEur": 135360,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-15",
+        "priceEur": 135360,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "564c5aed80bd": {
+    "id": "564c5aed80bd",
+    "label": "514 LES PLANCHERS, La Salvetat-sur-Agout",
+    "lat": 43.615504,
+    "lng": 2.705912,
+    "transactions": [
+      {
+        "date": "2020-12-28",
+        "priceEur": 122000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "9eed093440a2": {
+    "id": "9eed093440a2",
+    "label": "558 PESSEPLANE, La Salvetat-sur-Agout",
+    "lat": 43.617874,
+    "lng": 2.711876,
+    "transactions": [
+      {
+        "date": "2023-12-21",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

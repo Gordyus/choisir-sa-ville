@@ -1,0 +1,939 @@
+{
+  "1e91cba95bf1": {
+    "id": "1e91cba95bf1",
+    "label": "110 RUE DU MAL JOFFRE, Merville",
+    "lat": 50.641155,
+    "lng": 2.628365,
+    "transactions": [
+      {
+        "date": "2020-10-26",
+        "priceEur": 172500,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "ddfb864572c5": {
+    "id": "ddfb864572c5",
+    "label": "98 RUE DU MAL JOFFRE, Merville",
+    "lat": 50.640838,
+    "lng": 2.628982,
+    "transactions": [
+      {
+        "date": "2020-10-21",
+        "priceEur": 151800,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "525033005111": {
+    "id": "525033005111",
+    "label": "105 RUE DES PRETRES, Merville",
+    "lat": 50.645945,
+    "lng": 2.635441,
+    "transactions": [
+      {
+        "date": "2022-06-02",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-25",
+        "priceEur": 170000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-25",
+        "priceEur": 170000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 82,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 76900,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c1d6fe226ec": {
+    "id": "4c1d6fe226ec",
+    "label": "8 RUE DU MAL JOFFRE, Merville",
+    "lat": 50.640609,
+    "lng": 2.635542,
+    "transactions": [
+      {
+        "date": "2020-11-02",
+        "priceEur": 94000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "5622cd0657c3": {
+    "id": "5622cd0657c3",
+    "label": "13 RUE MARCEL LEFEBVRE, Merville",
+    "lat": 50.642311,
+    "lng": 2.636341,
+    "transactions": [
+      {
+        "date": "2020-12-10",
+        "priceEur": 137900,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1a43e72421e": {
+    "id": "f1a43e72421e",
+    "label": "4 RUE D AIRE, Merville",
+    "lat": 50.641518,
+    "lng": 2.626365,
+    "transactions": [
+      {
+        "date": "2020-12-16",
+        "priceEur": 279000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-16",
+        "priceEur": 279000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "64b9ed89841d": {
+    "id": "64b9ed89841d",
+    "label": "9 RUE DUHAMEL LIARD, Merville",
+    "lat": 50.639631,
+    "lng": 2.635878,
+    "transactions": [
+      {
+        "date": "2020-12-17",
+        "priceEur": 432000,
+        "typeLocal": "Maison",
+        "surfaceM2": 319,
+        "isVefa": false
+      }
+    ]
+  },
+  "305ed4e32ec5": {
+    "id": "305ed4e32ec5",
+    "label": "125 RUE DU MAL JOFFRE, Merville",
+    "lat": 50.640932,
+    "lng": 2.627311,
+    "transactions": [
+      {
+        "date": "2020-12-28",
+        "priceEur": 111000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "7427dc7f5650": {
+    "id": "7427dc7f5650",
+    "label": "62 RUE DES PRETRES, Merville",
+    "lat": 50.645816,
+    "lng": 2.636603,
+    "transactions": [
+      {
+        "date": "2020-08-17",
+        "priceEur": 181000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "cbe9bfb8d813": {
+    "id": "cbe9bfb8d813",
+    "label": "123 RUE DU MAL JOFFRE, Merville",
+    "lat": 50.640744,
+    "lng": 2.628089,
+    "transactions": [
+      {
+        "date": "2020-09-10",
+        "priceEur": 243500,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "af6d23d24c90": {
+    "id": "af6d23d24c90",
+    "label": "15 BD FOCH, Merville",
+    "lat": 50.641765,
+    "lng": 2.636391,
+    "transactions": [
+      {
+        "date": "2023-10-27",
+        "priceEur": 142000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-08",
+        "priceEur": 114000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-09",
+        "priceEur": 103000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-07",
+        "priceEur": 145000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 69,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-12",
+        "priceEur": 92000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-13",
+        "priceEur": 90000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-29",
+        "priceEur": 89800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-13",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-14",
+        "priceEur": 90000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-04",
+        "priceEur": 105000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "33af85237d75": {
+    "id": "33af85237d75",
+    "label": "11 RUE ORPHEE VARISCOTTE, Merville",
+    "lat": 50.640865,
+    "lng": 2.63451,
+    "transactions": [
+      {
+        "date": "2020-09-10",
+        "priceEur": 123000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "36d7a47d1e16": {
+    "id": "36d7a47d1e16",
+    "label": "115 RUE DU MAL JOFFRE, Merville",
+    "lat": 50.640005,
+    "lng": 2.629431,
+    "transactions": [
+      {
+        "date": "2020-10-14",
+        "priceEur": 301700,
+        "typeLocal": "Maison",
+        "surfaceM2": 171,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa3cd009f995": {
+    "id": "aa3cd009f995",
+    "label": "37 RUE DU PONT DE PIERRE, Merville",
+    "lat": 50.640477,
+    "lng": 2.636472,
+    "transactions": [
+      {
+        "date": "2021-02-03",
+        "priceEur": 142500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c183a6a66b2": {
+    "id": "0c183a6a66b2",
+    "label": "83 RUE DES PRETRES, Merville",
+    "lat": 50.644795,
+    "lng": 2.636429,
+    "transactions": [
+      {
+        "date": "2021-05-20",
+        "priceEur": 126250,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "39b4074bfd26": {
+    "id": "39b4074bfd26",
+    "label": "16 RUE DES CRECHETS, Merville",
+    "lat": 50.641623,
+    "lng": 2.628476,
+    "transactions": [
+      {
+        "date": "2021-06-14",
+        "priceEur": 109000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "46dabf7d5e71": {
+    "id": "46dabf7d5e71",
+    "label": "18 RUE DUHAMEL LIARD, Merville",
+    "lat": 50.639572,
+    "lng": 2.634888,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 117500,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c09f4db0f30": {
+    "id": "7c09f4db0f30",
+    "label": "16 RUE DUHAMEL LIARD, Merville",
+    "lat": 50.639584,
+    "lng": 2.63495,
+    "transactions": [
+      {
+        "date": "2021-07-08",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae86efb545df": {
+    "id": "ae86efb545df",
+    "label": "101 RUE DU MAL JOFFRE, Merville",
+    "lat": 50.640007,
+    "lng": 2.631008,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "d31cb1fde92b": {
+    "id": "d31cb1fde92b",
+    "label": "126 RUE DU MAL JOFFRE, Merville",
+    "lat": 50.641471,
+    "lng": 2.627593,
+    "transactions": [
+      {
+        "date": "2021-10-09",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5118a74c2db": {
+    "id": "d5118a74c2db",
+    "label": "16 RUE MARCEL LEFEBVRE, Merville",
+    "lat": 50.642798,
+    "lng": 2.635806,
+    "transactions": [
+      {
+        "date": "2021-12-10",
+        "priceEur": 144500,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "f3315331f8c7": {
+    "id": "f3315331f8c7",
+    "label": "113 RUE DU MAL JOFFRE, Merville",
+    "lat": 50.639986,
+    "lng": 2.630056,
+    "transactions": [
+      {
+        "date": "2021-12-16",
+        "priceEur": 466200,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "054e86d01fa6": {
+    "id": "054e86d01fa6",
+    "label": "9 RUE DU MAL JOFFRE, Merville",
+    "lat": 50.640339,
+    "lng": 2.6355,
+    "transactions": [
+      {
+        "date": "2021-12-24",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "97e93d7254c0": {
+    "id": "97e93d7254c0",
+    "label": "16 RUE DE LA PRAIRIE, Merville",
+    "lat": 50.643832,
+    "lng": 2.636578,
+    "transactions": [
+      {
+        "date": "2022-04-15",
+        "priceEur": 129500,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "10e653617785": {
+    "id": "10e653617785",
+    "label": "5 RUE DE LA PRAIRIE, Merville",
+    "lat": 50.642798,
+    "lng": 2.636196,
+    "transactions": [
+      {
+        "date": "2022-05-03",
+        "priceEur": 172671,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "15b85bb52286": {
+    "id": "15b85bb52286",
+    "label": "6 RUE DU MAL JOFFRE, Merville",
+    "lat": 50.640609,
+    "lng": 2.635606,
+    "transactions": [
+      {
+        "date": "2022-05-12",
+        "priceEur": 156950,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "650b178d8ab4": {
+    "id": "650b178d8ab4",
+    "label": "7 RUE CHARLES GOUNOD, Merville",
+    "lat": 50.639344,
+    "lng": 2.631007,
+    "transactions": [
+      {
+        "date": "2022-06-22",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4d0c19819cf": {
+    "id": "c4d0c19819cf",
+    "label": "22 RUE DU MAL JOFFRE, Merville",
+    "lat": 50.640646,
+    "lng": 2.63438,
+    "transactions": [
+      {
+        "date": "2022-07-08",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "799c035fed1e": {
+    "id": "799c035fed1e",
+    "label": "3 RUE DE LA PRAIRIE, Merville",
+    "lat": 50.642733,
+    "lng": 2.636204,
+    "transactions": [
+      {
+        "date": "2022-07-12",
+        "priceEur": 144400,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "1279017b9c53": {
+    "id": "1279017b9c53",
+    "label": "9 RUE ORPHEE VARISCOTTE, Merville",
+    "lat": 50.640854,
+    "lng": 2.634736,
+    "transactions": [
+      {
+        "date": "2022-08-26",
+        "priceEur": 122500,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "c35a09af9e73": {
+    "id": "c35a09af9e73",
+    "label": "109 RUE DES PRETRES, Merville",
+    "lat": 50.645841,
+    "lng": 2.635952,
+    "transactions": [
+      {
+        "date": "2022-08-26",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "c95fa82e3f76": {
+    "id": "c95fa82e3f76",
+    "label": "88 RUE DU MAL JOFFRE, Merville",
+    "lat": 50.640409,
+    "lng": 2.630533,
+    "transactions": [
+      {
+        "date": "2022-09-23",
+        "priceEur": 185640,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "526391529ce6": {
+    "id": "526391529ce6",
+    "label": "7 RUE DES CRECHETS, Merville",
+    "lat": 50.64218,
+    "lng": 2.628505,
+    "transactions": [
+      {
+        "date": "2022-10-24",
+        "priceEur": 219500,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "4eabd9663512": {
+    "id": "4eabd9663512",
+    "label": "12 RUE DE LA PRAIRIE, Merville",
+    "lat": 50.643686,
+    "lng": 2.636604,
+    "transactions": [
+      {
+        "date": "2022-12-13",
+        "priceEur": 229000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "1337e790a280": {
+    "id": "1337e790a280",
+    "label": "29 RUE DU MAL JOFFRE, Merville",
+    "lat": 50.640139,
+    "lng": 2.634742,
+    "transactions": [
+      {
+        "date": "2023-02-15",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "01086210aab4": {
+    "id": "01086210aab4",
+    "label": "79 RUE DU MAL JOFFRE, Merville",
+    "lat": 50.640018,
+    "lng": 2.632582,
+    "transactions": [
+      {
+        "date": "2023-03-14",
+        "priceEur": 114000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b60b0ce9dff": {
+    "id": "5b60b0ce9dff",
+    "label": "39B RUE ORPHEE VARISCOTTE, Merville",
+    "lat": 50.64204,
+    "lng": 2.632959,
+    "transactions": [
+      {
+        "date": "2023-06-02",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "84afa4717608": {
+    "id": "84afa4717608",
+    "label": "39 RUE ORPHEE VARISCOTTE, Merville",
+    "lat": 50.642123,
+    "lng": 2.633236,
+    "transactions": [
+      {
+        "date": "2023-06-02",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "235d3863b159": {
+    "id": "235d3863b159",
+    "label": "81 RUE DES PRETRES, Merville",
+    "lat": 50.644754,
+    "lng": 2.636448,
+    "transactions": [
+      {
+        "date": "2023-05-23",
+        "priceEur": 90900,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "08910cdc77c1": {
+    "id": "08910cdc77c1",
+    "label": "14 RUE MARCEL LEFEBVRE, Merville",
+    "lat": 50.64274,
+    "lng": 2.635873,
+    "transactions": [
+      {
+        "date": "2023-06-23",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2619d90426e": {
+    "id": "c2619d90426e",
+    "label": "71 RUE DES PRETRES, Merville",
+    "lat": 50.644561,
+    "lng": 2.636532,
+    "transactions": [
+      {
+        "date": "2023-07-03",
+        "priceEur": 375000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-03",
+        "priceEur": 375000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-03",
+        "priceEur": 375000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 29,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-03",
+        "priceEur": 375000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "c98f5b27a168": {
+    "id": "c98f5b27a168",
+    "label": "26 RUE DE LA PRAIRIE, Merville",
+    "lat": 50.64435,
+    "lng": 2.636397,
+    "transactions": [
+      {
+        "date": "2023-06-27",
+        "priceEur": 147500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "bff5865d7619": {
+    "id": "bff5865d7619",
+    "label": "124 RUE DU MAL JOFFRE, Merville",
+    "lat": 50.641407,
+    "lng": 2.627615,
+    "transactions": [
+      {
+        "date": "2023-07-10",
+        "priceEur": 104500,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "e5f709ab8a29": {
+    "id": "e5f709ab8a29",
+    "label": "89 RUE DU MAL JOFFRE, Merville",
+    "lat": 50.640062,
+    "lng": 2.632035,
+    "transactions": [
+      {
+        "date": "2023-07-27",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3fec65bca5d": {
+    "id": "a3fec65bca5d",
+    "label": "21 RUE MARCEL LEFEBVRE, Merville",
+    "lat": 50.642092,
+    "lng": 2.636182,
+    "transactions": [
+      {
+        "date": "2023-09-21",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "af91309551bb": {
+    "id": "af91309551bb",
+    "label": "16 RUE EDOUARD BOUREL, Merville",
+    "lat": 50.640979,
+    "lng": 2.63164,
+    "transactions": [
+      {
+        "date": "2023-09-15",
+        "priceEur": 203000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "bbfaaf403874": {
+    "id": "bbfaaf403874",
+    "label": "9 BD FOCH, Merville",
+    "lat": 50.642947,
+    "lng": 2.635489,
+    "transactions": [
+      {
+        "date": "2023-10-20",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d36bb1a4f32": {
+    "id": "6d36bb1a4f32",
+    "label": "6 IMP DES MARRONNIERS, Merville",
+    "lat": 50.639518,
+    "lng": 2.634007,
+    "transactions": [
+      {
+        "date": "2023-12-15",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "a7f2437c1fc9": {
+    "id": "a7f2437c1fc9",
+    "label": "42 RUE DU PONT DE PIERRE, Merville",
+    "lat": 50.640834,
+    "lng": 2.636455,
+    "transactions": [
+      {
+        "date": "2024-01-30",
+        "priceEur": 66000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "a57a412b93fb": {
+    "id": "a57a412b93fb",
+    "label": "14 RUE DES CRECHETS, Merville",
+    "lat": 50.64167,
+    "lng": 2.628334,
+    "transactions": [
+      {
+        "date": "2024-04-02",
+        "priceEur": 167800,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a69578dd4ca": {
+    "id": "2a69578dd4ca",
+    "label": "46 RUE DU MAL JOFFRE, Merville",
+    "lat": 50.640534,
+    "lng": 2.633362,
+    "transactions": [
+      {
+        "date": "2024-08-27",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "2524c1cf9e33": {
+    "id": "2524c1cf9e33",
+    "label": "58 RUE DES PRETRES, Merville",
+    "lat": 50.645607,
+    "lng": 2.636588,
+    "transactions": [
+      {
+        "date": "2025-03-07",
+        "priceEur": 166000,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ec53d62867b": {
+    "id": "7ec53d62867b",
+    "label": "14 RUE EDOUARD BOUREL, Merville",
+    "lat": 50.640829,
+    "lng": 2.631659,
+    "transactions": [
+      {
+        "date": "2025-04-22",
+        "priceEur": 194000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a828e17c618": {
+    "id": "5a828e17c618",
+    "label": "2 IMP DES MARRONNIERS, Merville",
+    "lat": 50.639854,
+    "lng": 2.633988,
+    "transactions": [
+      {
+        "date": "2025-04-09",
+        "priceEur": 129000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "62085c2c6232": {
+    "id": "62085c2c6232",
+    "label": "13 RUE DU MAL JOFFRE, Merville",
+    "lat": 50.64034,
+    "lng": 2.635373,
+    "transactions": [
+      {
+        "date": "2025-06-10",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  }
+}

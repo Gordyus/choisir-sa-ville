@@ -1,0 +1,32 @@
+{
+  "00873129c0ce": {
+    "id": "00873129c0ce",
+    "label": "403 RUE JEAN MOULIN, Caudebec-lès-Elbeuf",
+    "lat": 49.274372,
+    "lng": 1.030686,
+    "transactions": [
+      {
+        "date": "2023-12-01",
+        "priceEur": 172600,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "1adbb3335b94": {
+    "id": "1adbb3335b94",
+    "label": "10 RES DES CHAMPS, Caudebec-lès-Elbeuf",
+    "lat": 49.274727,
+    "lng": 1.02186,
+    "transactions": [
+      {
+        "date": "2025-01-30",
+        "priceEur": 79650,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

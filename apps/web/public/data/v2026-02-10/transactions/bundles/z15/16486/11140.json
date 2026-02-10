@@ -1,0 +1,62 @@
+{
+  "9c9a6d6a159e": {
+    "id": "9c9a6d6a159e",
+    "label": "74 RUE J P LEMERCIER, La Chaussée",
+    "lat": 49.809495,
+    "lng": 1.12818,
+    "transactions": [
+      {
+        "date": "2021-12-28",
+        "priceEur": 224000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "8fa05f2c3f65": {
+    "id": "8fa05f2c3f65",
+    "label": "285 RUE SAINT ADRIEN, La Chaussée",
+    "lat": 49.809457,
+    "lng": 1.122804,
+    "transactions": [
+      {
+        "date": "2022-04-21",
+        "priceEur": 161000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d77d1fbc6b3": {
+    "id": "8d77d1fbc6b3",
+    "label": "36 RUE J P LEMERCIER, La Chaussée",
+    "lat": 49.809231,
+    "lng": 1.127533,
+    "transactions": [
+      {
+        "date": "2024-05-03",
+        "priceEur": 169500,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "e85d4aecb26e": {
+    "id": "e85d4aecb26e",
+    "label": "58 RUE J P LEMERCIER, La Chaussée",
+    "lat": 49.809332,
+    "lng": 1.127868,
+    "transactions": [
+      {
+        "date": "2024-12-19",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "3d5a96ff82ae": {
+    "id": "3d5a96ff82ae",
+    "label": "347 RUE DES CHATAIGNIERS, Catenay",
+    "lat": 49.510472,
+    "lng": 1.320408,
+    "transactions": [
+      {
+        "date": "2021-06-09",
+        "priceEur": 104400,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "61ee8f4d545f": {
+    "id": "61ee8f4d545f",
+    "label": "639 RUE DES CHATAIGNIERS, Catenay",
+    "lat": 49.510814,
+    "lng": 1.324427,
+    "transactions": [
+      {
+        "date": "2024-02-12",
+        "priceEur": 165500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "5ec2c459f5d6": {
+    "id": "5ec2c459f5d6",
+    "label": "227 RUE DES CHATAIGNIERS, Catenay",
+    "lat": 49.510207,
+    "lng": 1.319039,
+    "transactions": [
+      {
+        "date": "2025-03-10",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  }
+}

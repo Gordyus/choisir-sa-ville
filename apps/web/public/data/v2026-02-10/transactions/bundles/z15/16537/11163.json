@@ -1,0 +1,69 @@
+{
+  "01c048491f0d": {
+    "id": "01c048491f0d",
+    "label": "933 RUE DE LA COMMANDERIE, Haucourt",
+    "lat": 49.641984,
+    "lng": 1.687357,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c52bd2e0ff7": {
+    "id": "0c52bd2e0ff7",
+    "label": "22 PLAINE DE FREVENT, Haucourt",
+    "lat": 49.642193,
+    "lng": 1.68668,
+    "transactions": [
+      {
+        "date": "2023-07-17",
+        "priceEur": 263500,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-21",
+        "priceEur": 209500,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "a48b4fff1319": {
+    "id": "a48b4fff1319",
+    "label": "72 IMP DE LA GUIGNIE, Haucourt",
+    "lat": 49.642308,
+    "lng": 1.687911,
+    "transactions": [
+      {
+        "date": "2024-01-16",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a6df54b1dd7": {
+    "id": "3a6df54b1dd7",
+    "label": "1265 RUE DE LA COMMANDERIE, Haucourt",
+    "lat": 49.641386,
+    "lng": 1.691874,
+    "transactions": [
+      {
+        "date": "2024-10-31",
+        "priceEur": 48000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  }
+}

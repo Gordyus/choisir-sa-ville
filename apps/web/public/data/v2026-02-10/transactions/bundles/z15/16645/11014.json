@@ -1,0 +1,5608 @@
+{
+  "80d42c666489": {
+    "id": "80d42c666489",
+    "label": "80 RUE MASSENET, Armentières",
+    "lat": 50.689679,
+    "lng": 2.872704,
+    "transactions": [
+      {
+        "date": "2020-07-10",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c71e4dcc5a4": {
+    "id": "0c71e4dcc5a4",
+    "label": "75 RUE NATIONALE AVE MITTERRAND, Armentières",
+    "lat": 50.688486,
+    "lng": 2.877274,
+    "transactions": [
+      {
+        "date": "2020-07-09",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 298,
+        "isVefa": false
+      }
+    ]
+  },
+  "9179940d73bd": {
+    "id": "9179940d73bd",
+    "label": "92 RUE MARCEAU, Armentières",
+    "lat": 50.692537,
+    "lng": 2.874861,
+    "transactions": [
+      {
+        "date": "2023-02-15",
+        "priceEur": 125200,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-16",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "70116792ec13": {
+    "id": "70116792ec13",
+    "label": "9005 RUE NATIONALE AVE MITTERRAND, Armentières",
+    "lat": 50.689058,
+    "lng": 2.877072,
+    "transactions": [
+      {
+        "date": "2022-05-25",
+        "priceEur": 159000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": true
+      },
+      {
+        "date": "2022-05-03",
+        "priceEur": 186500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": true
+      },
+      {
+        "date": "2022-04-21",
+        "priceEur": 120500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": true
+      },
+      {
+        "date": "2022-04-04",
+        "priceEur": 122000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": true
+      },
+      {
+        "date": "2022-03-23",
+        "priceEur": 161500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": true
+      },
+      {
+        "date": "2022-03-23",
+        "priceEur": 162500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": true
+      },
+      {
+        "date": "2021-10-20",
+        "priceEur": 265000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 99,
+        "isVefa": true
+      },
+      {
+        "date": "2021-09-16",
+        "priceEur": 198000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": true
+      },
+      {
+        "date": "2021-07-07",
+        "priceEur": 173499,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": true
+      },
+      {
+        "date": "2021-05-31",
+        "priceEur": 147500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": true
+      },
+      {
+        "date": "2021-04-29",
+        "priceEur": 122500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": true
+      },
+      {
+        "date": "2021-04-22",
+        "priceEur": 153500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": true
+      },
+      {
+        "date": "2021-03-31",
+        "priceEur": 168500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": true
+      },
+      {
+        "date": "2021-03-26",
+        "priceEur": 156500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": true
+      },
+      {
+        "date": "2021-03-24",
+        "priceEur": 169500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": true
+      },
+      {
+        "date": "2021-03-12",
+        "priceEur": 154500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": true
+      },
+      {
+        "date": "2021-02-23",
+        "priceEur": 159500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": true
+      },
+      {
+        "date": "2021-02-04",
+        "priceEur": 149500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": true
+      },
+      {
+        "date": "2021-02-03",
+        "priceEur": 195500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": true
+      },
+      {
+        "date": "2021-02-02",
+        "priceEur": 186500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": true
+      },
+      {
+        "date": "2021-01-29",
+        "priceEur": 136200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": true
+      },
+      {
+        "date": "2020-12-30",
+        "priceEur": 172800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": true
+      },
+      {
+        "date": "2020-12-30",
+        "priceEur": 230500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": true
+      },
+      {
+        "date": "2020-12-29",
+        "priceEur": 193500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": true
+      },
+      {
+        "date": "2020-12-28",
+        "priceEur": 213500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": true
+      },
+      {
+        "date": "2020-12-17",
+        "priceEur": 163525,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": true
+      },
+      {
+        "date": "2020-12-11",
+        "priceEur": 130800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": true
+      },
+      {
+        "date": "2020-11-12",
+        "priceEur": 128400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": true
+      },
+      {
+        "date": "2020-11-03",
+        "priceEur": 137000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": true
+      },
+      {
+        "date": "2020-10-27",
+        "priceEur": 165600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": true
+      },
+      {
+        "date": "2020-10-01",
+        "priceEur": 184200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": true
+      },
+      {
+        "date": "2020-09-18",
+        "priceEur": 124490,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": true
+      },
+      {
+        "date": "2020-07-30",
+        "priceEur": 174000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": true
+      },
+      {
+        "date": "2020-07-17",
+        "priceEur": 124800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": true
+      }
+    ]
+  },
+  "294d5971aa78": {
+    "id": "294d5971aa78",
+    "label": "67 RUE NATIONALE AVE MITTERRAND, Armentières",
+    "lat": 50.688174,
+    "lng": 2.877244,
+    "transactions": [
+      {
+        "date": "2022-09-26",
+        "priceEur": 167320,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-15",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-26",
+        "priceEur": 151000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-19",
+        "priceEur": 171500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "e89f7600780c": {
+    "id": "e89f7600780c",
+    "label": "22 RUE BERANGER, Armentières",
+    "lat": 50.692031,
+    "lng": 2.876814,
+    "transactions": [
+      {
+        "date": "2020-08-24",
+        "priceEur": 135900,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "3422f9b8a88a": {
+    "id": "3422f9b8a88a",
+    "label": "39 RUE DE L INDUSTRIE, Armentières",
+    "lat": 50.690938,
+    "lng": 2.876812,
+    "transactions": [
+      {
+        "date": "2020-08-17",
+        "priceEur": 71000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "89be2d045c7c": {
+    "id": "89be2d045c7c",
+    "label": "84 RUE MASSENET, Armentières",
+    "lat": 50.689624,
+    "lng": 2.872776,
+    "transactions": [
+      {
+        "date": "2020-08-04",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "709f0f8ce9ac": {
+    "id": "709f0f8ce9ac",
+    "label": "4 RUE BERANGER, Armentières",
+    "lat": 50.692098,
+    "lng": 2.877335,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "28ab1c6f4fe4": {
+    "id": "28ab1c6f4fe4",
+    "label": "113 RUE DE DUNKERQUE, Armentières",
+    "lat": 50.689728,
+    "lng": 2.878407,
+    "transactions": [
+      {
+        "date": "2020-08-25",
+        "priceEur": 57000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "cfcb3f9050db": {
+    "id": "cfcb3f9050db",
+    "label": "87 RUE DU NORD, Armentières",
+    "lat": 50.692575,
+    "lng": 2.877353,
+    "transactions": [
+      {
+        "date": "2022-10-20",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-04",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "82d0ac1dbcdd": {
+    "id": "82d0ac1dbcdd",
+    "label": "42 RUE BERANGER, Armentières",
+    "lat": 50.6919,
+    "lng": 2.876076,
+    "transactions": [
+      {
+        "date": "2020-09-02",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "3737d79faf96": {
+    "id": "3737d79faf96",
+    "label": "64 RUE BERANGER, Armentières",
+    "lat": 50.691788,
+    "lng": 2.875481,
+    "transactions": [
+      {
+        "date": "2020-09-09",
+        "priceEur": 49000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "49d86872fa7e": {
+    "id": "49d86872fa7e",
+    "label": "51 RUE DE MESSINES, Armentières",
+    "lat": 50.692015,
+    "lng": 2.876024,
+    "transactions": [
+      {
+        "date": "2021-08-06",
+        "priceEur": 119800,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-10",
+        "priceEur": 107000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "21ad521c1db1": {
+    "id": "21ad521c1db1",
+    "label": "146 RUE MASSENET, Armentières",
+    "lat": 50.688752,
+    "lng": 2.873892,
+    "transactions": [
+      {
+        "date": "2020-09-17",
+        "priceEur": 132350.9,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "58417df3ebec": {
+    "id": "58417df3ebec",
+    "label": "85 RUE DES PATINEURS, Armentières",
+    "lat": 50.693013,
+    "lng": 2.875007,
+    "transactions": [
+      {
+        "date": "2020-09-16",
+        "priceEur": 62000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "e9f00a5dafdd": {
+    "id": "e9f00a5dafdd",
+    "label": "27 RUE JULES LEBLEU, Armentières",
+    "lat": 50.689451,
+    "lng": 2.87653,
+    "transactions": [
+      {
+        "date": "2020-09-16",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "d7e1e04dc3f9": {
+    "id": "d7e1e04dc3f9",
+    "label": "2 RUE JULES LEBLEU, Armentières",
+    "lat": 50.689932,
+    "lng": 2.877624,
+    "transactions": [
+      {
+        "date": "2024-06-27",
+        "priceEur": 124500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-21",
+        "priceEur": 88000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "dbe51bbe68c0": {
+    "id": "dbe51bbe68c0",
+    "label": "28 RUE DE VALMY, Armentières",
+    "lat": 50.693171,
+    "lng": 2.876364,
+    "transactions": [
+      {
+        "date": "2020-09-24",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c1d2db655a9": {
+    "id": "5c1d2db655a9",
+    "label": "39 RUE MASSENET, Armentières",
+    "lat": 50.689932,
+    "lng": 2.87352,
+    "transactions": [
+      {
+        "date": "2020-09-10",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "894c96781cbb": {
+    "id": "894c96781cbb",
+    "label": "43 RUE DES PATINEURS, Armentières",
+    "lat": 50.693211,
+    "lng": 2.876122,
+    "transactions": [
+      {
+        "date": "2020-09-24",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "4559aee443f5": {
+    "id": "4559aee443f5",
+    "label": "97 RUE NATIONALE AVE MITTERRAND, Armentières",
+    "lat": 50.689743,
+    "lng": 2.877643,
+    "transactions": [
+      {
+        "date": "2025-04-09",
+        "priceEur": 40000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-11",
+        "priceEur": 40600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-31",
+        "priceEur": 42000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      }
+    ]
+  },
+  "a20b945c93fa": {
+    "id": "a20b945c93fa",
+    "label": "33 RUE CLEMENCEAU, Armentières",
+    "lat": 50.692609,
+    "lng": 2.872237,
+    "transactions": [
+      {
+        "date": "2020-09-24",
+        "priceEur": 156000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "26549f9fbb30": {
+    "id": "26549f9fbb30",
+    "label": "20 RUE SAINT LOUIS, Armentières",
+    "lat": 50.690002,
+    "lng": 2.875952,
+    "transactions": [
+      {
+        "date": "2020-10-05",
+        "priceEur": 93000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "59f4c05cb206": {
+    "id": "59f4c05cb206",
+    "label": "14 RUE DU PROGRES, Armentières",
+    "lat": 50.691565,
+    "lng": 2.877375,
+    "transactions": [
+      {
+        "date": "2020-11-06",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5da0acb6e9b": {
+    "id": "d5da0acb6e9b",
+    "label": "1 RUE JULES LEBLEU, Armentières",
+    "lat": 50.689701,
+    "lng": 2.87751,
+    "transactions": [
+      {
+        "date": "2022-10-11",
+        "priceEur": 78000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-07",
+        "priceEur": 61040,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ef263a1772e": {
+    "id": "9ef263a1772e",
+    "label": "39 RUE DU PROGRES, Armentières",
+    "lat": 50.690972,
+    "lng": 2.875939,
+    "transactions": [
+      {
+        "date": "2023-06-16",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-27",
+        "priceEur": 103000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "482d4a43397f": {
+    "id": "482d4a43397f",
+    "label": "11 PL THIERS, Armentières",
+    "lat": 50.687959,
+    "lng": 2.877548,
+    "transactions": [
+      {
+        "date": "2020-10-21",
+        "priceEur": 92100,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "13bfe7c96cc7": {
+    "id": "13bfe7c96cc7",
+    "label": "61 RUE DES PATINEURS, Armentières",
+    "lat": 50.693129,
+    "lng": 2.875617,
+    "transactions": [
+      {
+        "date": "2020-11-04",
+        "priceEur": 77000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "f213e904e1d6": {
+    "id": "f213e904e1d6",
+    "label": "87 RUE NATIONALE AVE MITTERRAND, Armentières",
+    "lat": 50.689481,
+    "lng": 2.8775,
+    "transactions": [
+      {
+        "date": "2020-10-29",
+        "priceEur": 280000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-29",
+        "priceEur": 280000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-29",
+        "priceEur": 280000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "065fbb4ea7ca": {
+    "id": "065fbb4ea7ca",
+    "label": "57 RUE DU PROGRES, Armentières",
+    "lat": 50.69086,
+    "lng": 2.875128,
+    "transactions": [
+      {
+        "date": "2020-11-06",
+        "priceEur": 71000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "b36e9e7d4949": {
+    "id": "b36e9e7d4949",
+    "label": "113 RUE MASSENET, Armentières",
+    "lat": 50.689026,
+    "lng": 2.874268,
+    "transactions": [
+      {
+        "date": "2020-11-19",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "4192521ec81e": {
+    "id": "4192521ec81e",
+    "label": "36 RUE DE L INDUSTRIE, Armentières",
+    "lat": 50.690993,
+    "lng": 2.877212,
+    "transactions": [
+      {
+        "date": "2020-12-11",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1317a23f7ec": {
+    "id": "e1317a23f7ec",
+    "label": "4 RUE DES RESISTANTS, Armentières",
+    "lat": 50.690239,
+    "lng": 2.877462,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 215000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-30",
+        "priceEur": 215000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "56beac8dd425": {
+    "id": "56beac8dd425",
+    "label": "18 RUE DES RESISTANTS, Armentières",
+    "lat": 50.690374,
+    "lng": 2.876203,
+    "transactions": [
+      {
+        "date": "2023-05-05",
+        "priceEur": 74000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-17",
+        "priceEur": 75000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "587f5b383a3c": {
+    "id": "587f5b383a3c",
+    "label": "24 RUE DE VALMY, Armentières",
+    "lat": 50.693192,
+    "lng": 2.876484,
+    "transactions": [
+      {
+        "date": "2020-12-22",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3224850b89e": {
+    "id": "b3224850b89e",
+    "label": "23 RUE DES ARTS, Armentières",
+    "lat": 50.690689,
+    "lng": 2.876302,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 116000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "89914af9feb9": {
+    "id": "89914af9feb9",
+    "label": "27 RUE DU KEMMEL, Armentières",
+    "lat": 50.691568,
+    "lng": 2.874792,
+    "transactions": [
+      {
+        "date": "2021-01-15",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3c8e15589b2": {
+    "id": "d3c8e15589b2",
+    "label": "41 RUE DU KEMMEL, Armentières",
+    "lat": 50.692068,
+    "lng": 2.874338,
+    "transactions": [
+      {
+        "date": "2023-09-22",
+        "priceEur": 174000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-18",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "002b1303da65": {
+    "id": "002b1303da65",
+    "label": "73 RUE DU NORD, Armentières",
+    "lat": 50.691936,
+    "lng": 2.877494,
+    "transactions": [
+      {
+        "date": "2021-01-25",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5076a7a5732": {
+    "id": "a5076a7a5732",
+    "label": "60 RUE DU NORD, Armentières",
+    "lat": 50.692416,
+    "lng": 2.877808,
+    "transactions": [
+      {
+        "date": "2021-01-20",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "1cc993290277": {
+    "id": "1cc993290277",
+    "label": "17 RUE SAINT CHARLES, Armentières",
+    "lat": 50.688565,
+    "lng": 2.878344,
+    "transactions": [
+      {
+        "date": "2021-01-14",
+        "priceEur": 198000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-14",
+        "priceEur": 198000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-14",
+        "priceEur": 198000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "5db0ad356622": {
+    "id": "5db0ad356622",
+    "label": "23 RUE DES RESISTANTS, Armentières",
+    "lat": 50.689984,
+    "lng": 2.876389,
+    "transactions": [
+      {
+        "date": "2024-03-22",
+        "priceEur": 110100,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-18",
+        "priceEur": 199999,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-18",
+        "priceEur": 199999,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-18",
+        "priceEur": 199999,
+        "typeLocal": "Appartement",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "e432a91bdfe3": {
+    "id": "e432a91bdfe3",
+    "label": "21 RUE JULES LEBLEU, Armentières",
+    "lat": 50.689362,
+    "lng": 2.876841,
+    "transactions": [
+      {
+        "date": "2024-03-22",
+        "priceEur": 95000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 79,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-03",
+        "priceEur": 131400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 77,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-17",
+        "priceEur": 105000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 79,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-12",
+        "priceEur": 105500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 79,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-31",
+        "priceEur": 105000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 79,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-26",
+        "priceEur": 112000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 79,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-14",
+        "priceEur": 120450,
+        "typeLocal": "Appartement",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "fc7dda878ecb": {
+    "id": "fc7dda878ecb",
+    "label": "65 RUE DES PATINEURS, Armentières",
+    "lat": 50.693112,
+    "lng": 2.875521,
+    "transactions": [
+      {
+        "date": "2022-02-08",
+        "priceEur": 140400,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-29",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "d166a4c3bce2": {
+    "id": "d166a4c3bce2",
+    "label": "41 RUE DU PROGRES, Armentières",
+    "lat": 50.690964,
+    "lng": 2.875877,
+    "transactions": [
+      {
+        "date": "2021-01-28",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "981cec8f9edb": {
+    "id": "981cec8f9edb",
+    "label": "76 RUE DES RESISTANTS, Armentières",
+    "lat": 50.691326,
+    "lng": 2.873857,
+    "transactions": [
+      {
+        "date": "2021-02-17",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "bbbfc5513f86": {
+    "id": "bbbfc5513f86",
+    "label": "68 RUE DES RESISTANTS, Armentières",
+    "lat": 50.691249,
+    "lng": 2.874121,
+    "transactions": [
+      {
+        "date": "2021-02-26",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 15,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-26",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-26",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-26",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 18,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-26",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 21,
+        "isVefa": false
+      }
+    ]
+  },
+  "77a8611223f4": {
+    "id": "77a8611223f4",
+    "label": "24 RUE PAUL HAZARD, Armentières",
+    "lat": 50.688453,
+    "lng": 2.876627,
+    "transactions": [
+      {
+        "date": "2021-02-18",
+        "priceEur": 154200,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c0802352206": {
+    "id": "5c0802352206",
+    "label": "52 RUE DU KEMMEL, Armentières",
+    "lat": 50.692842,
+    "lng": 2.874138,
+    "transactions": [
+      {
+        "date": "2021-02-19",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "c8dc86411fcb": {
+    "id": "c8dc86411fcb",
+    "label": "42 RUE MASSENET, Armentières",
+    "lat": 50.690283,
+    "lng": 2.873102,
+    "transactions": [
+      {
+        "date": "2021-02-18",
+        "priceEur": 148900,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "770dd98c31e4": {
+    "id": "770dd98c31e4",
+    "label": "38 RUE SAINT JEAN, Armentières",
+    "lat": 50.690174,
+    "lng": 2.87522,
+    "transactions": [
+      {
+        "date": "2022-07-28",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-12",
+        "priceEur": 62000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "42875d15976f": {
+    "id": "42875d15976f",
+    "label": "99 RUE DES PATINEURS, Armentières",
+    "lat": 50.692951,
+    "lng": 2.874603,
+    "transactions": [
+      {
+        "date": "2021-03-04",
+        "priceEur": 115500,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "e15be0e4cbc6": {
+    "id": "e15be0e4cbc6",
+    "label": "39 RUE DE MESSINES, Armentières",
+    "lat": 50.69216,
+    "lng": 2.876537,
+    "transactions": [
+      {
+        "date": "2021-03-29",
+        "priceEur": 116200,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b8d4777b6c5": {
+    "id": "1b8d4777b6c5",
+    "label": "38 RUE DU PROGRES, Armentières",
+    "lat": 50.691068,
+    "lng": 2.874813,
+    "transactions": [
+      {
+        "date": "2021-04-02",
+        "priceEur": 153500,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed1f65324dfd": {
+    "id": "ed1f65324dfd",
+    "label": "29 RUE CLEMENCEAU, Armentières",
+    "lat": 50.692647,
+    "lng": 2.872346,
+    "transactions": [
+      {
+        "date": "2021-04-01",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b4ba9a51599": {
+    "id": "9b4ba9a51599",
+    "label": "32 RUE DE VALMY, Armentières",
+    "lat": 50.69315,
+    "lng": 2.87625,
+    "transactions": [
+      {
+        "date": "2021-04-15",
+        "priceEur": 121000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6829cd77b7d": {
+    "id": "f6829cd77b7d",
+    "label": "26 RUE JULES LEBLEU, Armentières",
+    "lat": 50.689739,
+    "lng": 2.876423,
+    "transactions": [
+      {
+        "date": "2021-03-25",
+        "priceEur": 105000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "214bbf74655f": {
+    "id": "214bbf74655f",
+    "label": "93 RUE DU NORD, Armentières",
+    "lat": 50.692684,
+    "lng": 2.87737,
+    "transactions": [
+      {
+        "date": "2021-04-07",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "13ff6a467b72": {
+    "id": "13ff6a467b72",
+    "label": "38 RUE MARECHAL DE LATTRE, Armentières",
+    "lat": 50.688077,
+    "lng": 2.878262,
+    "transactions": [
+      {
+        "date": "2021-07-02",
+        "priceEur": 160500,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-08",
+        "priceEur": 146000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5c4e19594b3": {
+    "id": "f5c4e19594b3",
+    "label": "23 RUE MASSENET, Armentières",
+    "lat": 50.690169,
+    "lng": 2.874031,
+    "transactions": [
+      {
+        "date": "2021-05-04",
+        "priceEur": 168250,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "708203666108": {
+    "id": "708203666108",
+    "label": "21 RUE MASSENET, Armentières",
+    "lat": 50.69023,
+    "lng": 2.874045,
+    "transactions": [
+      {
+        "date": "2021-11-22",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-03",
+        "priceEur": 87000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b94f18b21d1": {
+    "id": "5b94f18b21d1",
+    "label": "89 RUE DE MESSINES, Armentières",
+    "lat": 50.691693,
+    "lng": 2.874619,
+    "transactions": [
+      {
+        "date": "2021-05-24",
+        "priceEur": 164000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "9cc4dcebf17e": {
+    "id": "9cc4dcebf17e",
+    "label": "88 RUE MARCEAU, Armentières",
+    "lat": 50.692534,
+    "lng": 2.874983,
+    "transactions": [
+      {
+        "date": "2021-05-25",
+        "priceEur": 105500,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "962b9d73a72d": {
+    "id": "962b9d73a72d",
+    "label": "95 RUE DES RESISTANTS, Armentières",
+    "lat": 50.691858,
+    "lng": 2.871305,
+    "transactions": [
+      {
+        "date": "2021-06-23",
+        "priceEur": 5551457.5,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-18",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "adc4e58d4deb": {
+    "id": "adc4e58d4deb",
+    "label": "13 RUE SAINT JEAN, Armentières",
+    "lat": 50.689587,
+    "lng": 2.875091,
+    "transactions": [
+      {
+        "date": "2021-06-21",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7bd1d4a71cd": {
+    "id": "b7bd1d4a71cd",
+    "label": "91 RUE DE MESSINES, Armentières",
+    "lat": 50.691672,
+    "lng": 2.874576,
+    "transactions": [
+      {
+        "date": "2021-06-23",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "685a7f16a233": {
+    "id": "685a7f16a233",
+    "label": "63 RUE NATIONALE AVE MITTERRAND, Armentières",
+    "lat": 50.688029,
+    "lng": 2.877593,
+    "transactions": [
+      {
+        "date": "2024-05-31",
+        "priceEur": 299990,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-02",
+        "priceEur": 271200,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e6cd340d86f": {
+    "id": "1e6cd340d86f",
+    "label": "83 RUE DU KEMMEL, Armentières",
+    "lat": 50.693081,
+    "lng": 2.873487,
+    "transactions": [
+      {
+        "date": "2021-07-01",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "82db63e92d8c": {
+    "id": "82db63e92d8c",
+    "label": "27 RUE MARECHAL DE LATTRE, Armentières",
+    "lat": 50.687853,
+    "lng": 2.878387,
+    "transactions": [
+      {
+        "date": "2022-08-11",
+        "priceEur": 104500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-15",
+        "priceEur": 67500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-22",
+        "priceEur": 75000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf58ca4b0df5": {
+    "id": "bf58ca4b0df5",
+    "label": "10 RUE BRACKE DESROUSSEAUX, Armentières",
+    "lat": 50.694377,
+    "lng": 2.874078,
+    "transactions": [
+      {
+        "date": "2021-07-02",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "b722caf5b31b": {
+    "id": "b722caf5b31b",
+    "label": "93 RUE DES PATINEURS, Armentières",
+    "lat": 50.692979,
+    "lng": 2.874776,
+    "transactions": [
+      {
+        "date": "2025-02-06",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-12",
+        "priceEur": 87000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "428bde9bef99": {
+    "id": "428bde9bef99",
+    "label": "41 RUE DES ARTS, Armentières",
+    "lat": 50.691019,
+    "lng": 2.876231,
+    "transactions": [
+      {
+        "date": "2021-06-21",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "b410453b412e": {
+    "id": "b410453b412e",
+    "label": "43 RUE DE L INDUSTRIE, Armentières",
+    "lat": 50.690999,
+    "lng": 2.876797,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0e521db40f9": {
+    "id": "a0e521db40f9",
+    "label": "63 RUE SAINT JEAN, Armentières",
+    "lat": 50.690504,
+    "lng": 2.8746,
+    "transactions": [
+      {
+        "date": "2023-07-04",
+        "priceEur": 72500,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-12",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "bdd8fed8c5fc": {
+    "id": "bdd8fed8c5fc",
+    "label": "16E RUE DU PROGRES, Armentières",
+    "lat": 50.691353,
+    "lng": 2.87633,
+    "transactions": [
+      {
+        "date": "2021-07-20",
+        "priceEur": 242000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "43295b4edf44": {
+    "id": "43295b4edf44",
+    "label": "15 RUE BRACKE DESROUSSEAUX, Armentières",
+    "lat": 50.694235,
+    "lng": 2.875182,
+    "transactions": [
+      {
+        "date": "2025-06-26",
+        "priceEur": 228000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-26",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae7fbe6c7284": {
+    "id": "ae7fbe6c7284",
+    "label": "63 RUE DE MESSINES, Armentières",
+    "lat": 50.691948,
+    "lng": 2.8757,
+    "transactions": [
+      {
+        "date": "2021-07-28",
+        "priceEur": 128500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "a7882a88d895": {
+    "id": "a7882a88d895",
+    "label": "5 RUE DU NORD, Armentières",
+    "lat": 50.690252,
+    "lng": 2.877588,
+    "transactions": [
+      {
+        "date": "2024-06-13",
+        "priceEur": 45600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-17",
+        "priceEur": 78500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-30",
+        "priceEur": 49000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e43ba39e7a4": {
+    "id": "1e43ba39e7a4",
+    "label": "102 RUE MASSENET, Armentières",
+    "lat": 50.689368,
+    "lng": 2.873106,
+    "transactions": [
+      {
+        "date": "2021-07-23",
+        "priceEur": 124200,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1f7a9639004": {
+    "id": "b1f7a9639004",
+    "label": "30 RUE DE LA VICTOIRE, Armentières",
+    "lat": 50.693674,
+    "lng": 2.871688,
+    "transactions": [
+      {
+        "date": "2021-07-08",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea6889c3e479": {
+    "id": "ea6889c3e479",
+    "label": "138 RUE MASSENET, Armentières",
+    "lat": 50.688862,
+    "lng": 2.873738,
+    "transactions": [
+      {
+        "date": "2025-03-10",
+        "priceEur": 76000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-15",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f4aa2cb7fd5": {
+    "id": "8f4aa2cb7fd5",
+    "label": "82 RUE DES RESISTANTS, Armentières",
+    "lat": 50.6914,
+    "lng": 2.873621,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "6071b8ab4d89": {
+    "id": "6071b8ab4d89",
+    "label": "10 RUE SAINT JEAN, Armentières",
+    "lat": 50.689673,
+    "lng": 2.87554,
+    "transactions": [
+      {
+        "date": "2021-07-28",
+        "priceEur": 89000,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  },
+  "934abf34afd1": {
+    "id": "934abf34afd1",
+    "label": "50 RUE DES RESISTANTS, Armentières",
+    "lat": 50.690836,
+    "lng": 2.874972,
+    "transactions": [
+      {
+        "date": "2021-07-28",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "d956c78e62e6": {
+    "id": "d956c78e62e6",
+    "label": "63 RUE DES PATINEURS, Armentières",
+    "lat": 50.693121,
+    "lng": 2.875574,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc5ccd062396": {
+    "id": "cc5ccd062396",
+    "label": "19 RUE MASSENET, Armentières",
+    "lat": 50.690264,
+    "lng": 2.874066,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "50bd67d7910f": {
+    "id": "50bd67d7910f",
+    "label": "38 RUE MASSENET, Armentières",
+    "lat": 50.690339,
+    "lng": 2.87318,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "57d972d542ee": {
+    "id": "57d972d542ee",
+    "label": "108 RUE MASSENET, Armentières",
+    "lat": 50.68929,
+    "lng": 2.873206,
+    "transactions": [
+      {
+        "date": "2021-07-23",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "c06b98e5e77f": {
+    "id": "c06b98e5e77f",
+    "label": "59 RUE MASSENET, Armentières",
+    "lat": 50.689775,
+    "lng": 2.873293,
+    "transactions": [
+      {
+        "date": "2024-02-12",
+        "priceEur": 168720,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-28",
+        "priceEur": 82000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "c68cc0efab00": {
+    "id": "c68cc0efab00",
+    "label": "18 RUE PAUL HAZARD, Armentières",
+    "lat": 50.688304,
+    "lng": 2.876825,
+    "transactions": [
+      {
+        "date": "2021-07-29",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "c50c6b51595d": {
+    "id": "c50c6b51595d",
+    "label": "56 RUE MASSENET, Armentières",
+    "lat": 50.69008,
+    "lng": 2.872789,
+    "transactions": [
+      {
+        "date": "2021-07-29",
+        "priceEur": 177000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "3b584b8e68ee": {
+    "id": "3b584b8e68ee",
+    "label": "56 RUE DE MESSINES, Armentières",
+    "lat": 50.692294,
+    "lng": 2.875594,
+    "transactions": [
+      {
+        "date": "2021-08-27",
+        "priceEur": 109000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b40d6262ab4": {
+    "id": "1b40d6262ab4",
+    "label": "44 RUE DE MESSINES, Armentières",
+    "lat": 50.692303,
+    "lng": 2.875974,
+    "transactions": [
+      {
+        "date": "2021-08-06",
+        "priceEur": 102000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "8398e9da5e2a": {
+    "id": "8398e9da5e2a",
+    "label": "5 RUE KLEBER, Armentières",
+    "lat": 50.692297,
+    "lng": 2.876056,
+    "transactions": [
+      {
+        "date": "2022-12-07",
+        "priceEur": 119000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-06",
+        "priceEur": 104500,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7ba3d412675": {
+    "id": "f7ba3d412675",
+    "label": "45 RUE DES PATINEURS, Armentières",
+    "lat": 50.693199,
+    "lng": 2.876046,
+    "transactions": [
+      {
+        "date": "2021-08-30",
+        "priceEur": 135300,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "3bfce928c6d9": {
+    "id": "3bfce928c6d9",
+    "label": "136 RUE MASSENET, Armentières",
+    "lat": 50.688891,
+    "lng": 2.87372,
+    "transactions": [
+      {
+        "date": "2021-08-12",
+        "priceEur": 145403,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "88466a44af43": {
+    "id": "88466a44af43",
+    "label": "100 RUE DES RESISTANTS, Armentières",
+    "lat": 50.691836,
+    "lng": 2.872468,
+    "transactions": [
+      {
+        "date": "2021-09-01",
+        "priceEur": 173000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "c1e246faaa8f": {
+    "id": "c1e246faaa8f",
+    "label": "13 RUE DU NORD, Armentières",
+    "lat": 50.690444,
+    "lng": 2.877578,
+    "transactions": [
+      {
+        "date": "2021-09-22",
+        "priceEur": 126100,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe2103469305": {
+    "id": "fe2103469305",
+    "label": "102 RUE DES RESISTANTS, Armentières",
+    "lat": 50.691871,
+    "lng": 2.872415,
+    "transactions": [
+      {
+        "date": "2021-09-22",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "823083e2e41d": {
+    "id": "823083e2e41d",
+    "label": "71 RUE DES PATINEURS, Armentières",
+    "lat": 50.693073,
+    "lng": 2.875372,
+    "transactions": [
+      {
+        "date": "2022-12-14",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-29",
+        "priceEur": 85385,
+        "typeLocal": "Maison",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf5893898926": {
+    "id": "cf5893898926",
+    "label": "26 RUE MASSENET, Armentières",
+    "lat": 50.690472,
+    "lng": 2.873471,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "d45c082b4d6a": {
+    "id": "d45c082b4d6a",
+    "label": "27 RUE BERANGER, Armentières",
+    "lat": 50.691751,
+    "lng": 2.876799,
+    "transactions": [
+      {
+        "date": "2021-09-29",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad880bf7428e": {
+    "id": "ad880bf7428e",
+    "label": "9 RUE DU NORD, Armentières",
+    "lat": 50.690339,
+    "lng": 2.877586,
+    "transactions": [
+      {
+        "date": "2021-09-23",
+        "priceEur": 180000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-23",
+        "priceEur": 180000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc93315c3592": {
+    "id": "cc93315c3592",
+    "label": "26 RUE DE VERDUN, Armentières",
+    "lat": 50.693418,
+    "lng": 2.871976,
+    "transactions": [
+      {
+        "date": "2021-10-11",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "0dc3552e8786": {
+    "id": "0dc3552e8786",
+    "label": "10 RUE DU NORD, Armentières",
+    "lat": 50.690356,
+    "lng": 2.878028,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 127590,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "df4801cfeecd": {
+    "id": "df4801cfeecd",
+    "label": "41 RUE BRACKE DESROUSSEAUX, Armentières",
+    "lat": 50.694211,
+    "lng": 2.876123,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 213400,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "239526c927c4": {
+    "id": "239526c927c4",
+    "label": "25 RUE SAINT CHARLES, Armentières",
+    "lat": 50.688754,
+    "lng": 2.878279,
+    "transactions": [
+      {
+        "date": "2021-09-21",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "0778351053d7": {
+    "id": "0778351053d7",
+    "label": "9 RUE DU PROGRES, Armentières",
+    "lat": 50.691344,
+    "lng": 2.877354,
+    "transactions": [
+      {
+        "date": "2021-10-14",
+        "priceEur": 107000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd7b0e1bc049": {
+    "id": "dd7b0e1bc049",
+    "label": "24 RUE SAINT LOUIS, Armentières",
+    "lat": 50.690074,
+    "lng": 2.875932,
+    "transactions": [
+      {
+        "date": "2021-10-14",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "49c1f8f117b8": {
+    "id": "49c1f8f117b8",
+    "label": "54 RUE DU KEMMEL, Armentières",
+    "lat": 50.6929,
+    "lng": 2.874082,
+    "transactions": [
+      {
+        "date": "2021-10-20",
+        "priceEur": 87000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "e116f1c7c76c": {
+    "id": "e116f1c7c76c",
+    "label": "13 RUE KLEBER, Armentières",
+    "lat": 50.692449,
+    "lng": 2.875986,
+    "transactions": [
+      {
+        "date": "2021-10-21",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c92136538ff": {
+    "id": "4c92136538ff",
+    "label": "67 RUE DES PATINEURS, Armentières",
+    "lat": 50.693102,
+    "lng": 2.875467,
+    "transactions": [
+      {
+        "date": "2021-10-22",
+        "priceEur": 128500,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d9c65003179": {
+    "id": "6d9c65003179",
+    "label": "40 RUE SAINT JEAN, Armentières",
+    "lat": 50.690201,
+    "lng": 2.875202,
+    "transactions": [
+      {
+        "date": "2024-05-30",
+        "priceEur": 110100,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-05",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc18f2aa267a": {
+    "id": "cc18f2aa267a",
+    "label": "20 RUE DES RESISTANTS, Armentières",
+    "lat": 50.690461,
+    "lng": 2.876018,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 224530,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-15",
+        "priceEur": 224530,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-15",
+        "priceEur": 224530,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      }
+    ]
+  },
+  "f67d0f61d807": {
+    "id": "f67d0f61d807",
+    "label": "61 RUE DES RESISTANTS, Armentières",
+    "lat": 50.690734,
+    "lng": 2.874266,
+    "transactions": [
+      {
+        "date": "2021-11-09",
+        "priceEur": 155000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-09",
+        "priceEur": 155000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 9,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-09",
+        "priceEur": 155000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 16,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-09",
+        "priceEur": 155000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 11,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-09",
+        "priceEur": 155000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 10,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-09",
+        "priceEur": 155000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": false
+      }
+    ]
+  },
+  "f95c3e1049c9": {
+    "id": "f95c3e1049c9",
+    "label": "53 RUE JULES LEBLEU, Armentières",
+    "lat": 50.689144,
+    "lng": 2.875743,
+    "transactions": [
+      {
+        "date": "2021-11-09",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-09",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c3fbc1cfd16": {
+    "id": "4c3fbc1cfd16",
+    "label": "26 RUE BERANGER, Armentières",
+    "lat": 50.692017,
+    "lng": 2.876711,
+    "transactions": [
+      {
+        "date": "2021-11-19",
+        "priceEur": 139680,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "9bd48174f713": {
+    "id": "9bd48174f713",
+    "label": "6 RUE DE LA MARNE, Armentières",
+    "lat": 50.692775,
+    "lng": 2.871541,
+    "transactions": [
+      {
+        "date": "2021-12-01",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff4a824992b8": {
+    "id": "ff4a824992b8",
+    "label": "53 RUE DU PROGRES, Armentières",
+    "lat": 50.690844,
+    "lng": 2.875263,
+    "transactions": [
+      {
+        "date": "2021-11-23",
+        "priceEur": 147750,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "262eebb13abc": {
+    "id": "262eebb13abc",
+    "label": "87 RUE MASSENET, Armentières",
+    "lat": 50.689386,
+    "lng": 2.873799,
+    "transactions": [
+      {
+        "date": "2021-11-08",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "067f6fcf1032": {
+    "id": "067f6fcf1032",
+    "label": "27 RUE MARCEAU, Armentières",
+    "lat": 50.692506,
+    "lng": 2.875975,
+    "transactions": [
+      {
+        "date": "2021-12-08",
+        "priceEur": 118300,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "ecf1918825a2": {
+    "id": "ecf1918825a2",
+    "label": "37 RUE MASSENET, Armentières",
+    "lat": 50.689999,
+    "lng": 2.873706,
+    "transactions": [
+      {
+        "date": "2021-12-03",
+        "priceEur": 427500,
+        "typeLocal": "Maison",
+        "surfaceM2": 300,
+        "isVefa": false
+      }
+    ]
+  },
+  "67811cfe443f": {
+    "id": "67811cfe443f",
+    "label": "53 RUE DU KEMMEL, Armentières",
+    "lat": 50.692256,
+    "lng": 2.874157,
+    "transactions": [
+      {
+        "date": "2021-12-03",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "050798dae18d": {
+    "id": "050798dae18d",
+    "label": "109 RUE DU KEMMEL, Armentières",
+    "lat": 50.693697,
+    "lng": 2.873034,
+    "transactions": [
+      {
+        "date": "2021-12-18",
+        "priceEur": 171000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1dbd2388c35": {
+    "id": "b1dbd2388c35",
+    "label": "23 RUE DU NORD, Armentières",
+    "lat": 50.690673,
+    "lng": 2.877541,
+    "transactions": [
+      {
+        "date": "2021-12-16",
+        "priceEur": 56000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd96aeeee3bc": {
+    "id": "fd96aeeee3bc",
+    "label": "50 RUE PAUL HAZARD, Armentières",
+    "lat": 50.688875,
+    "lng": 2.876119,
+    "transactions": [
+      {
+        "date": "2021-12-15",
+        "priceEur": 349880,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "86f8073fd901": {
+    "id": "86f8073fd901",
+    "label": "4 RUE DE VERDUN, Armentières",
+    "lat": 50.693018,
+    "lng": 2.87232,
+    "transactions": [
+      {
+        "date": "2021-12-23",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "730cc5db73db": {
+    "id": "730cc5db73db",
+    "label": "71 RUE DE MESSINES, Armentières",
+    "lat": 50.691914,
+    "lng": 2.875479,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 126400,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "4275db3da4ed": {
+    "id": "4275db3da4ed",
+    "label": "16 RUE SAINT JEAN, Armentières",
+    "lat": 50.689816,
+    "lng": 2.875546,
+    "transactions": [
+      {
+        "date": "2021-12-27",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-27",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 27,
+        "isVefa": false
+      }
+    ]
+  },
+  "65afc7608904": {
+    "id": "65afc7608904",
+    "label": "78 RUE MASSENET, Armentières",
+    "lat": 50.689704,
+    "lng": 2.872672,
+    "transactions": [
+      {
+        "date": "2021-12-23",
+        "priceEur": 157140,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c0f41bf92a8": {
+    "id": "5c0f41bf92a8",
+    "label": "57 RUE DE MESSINES, Armentières",
+    "lat": 50.691972,
+    "lng": 2.875868,
+    "transactions": [
+      {
+        "date": "2021-12-27",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "7dc1181c5e85": {
+    "id": "7dc1181c5e85",
+    "label": "89 RUE DES PATINEURS, Armentières",
+    "lat": 50.692943,
+    "lng": 2.874929,
+    "transactions": [
+      {
+        "date": "2022-01-06",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c8a6767990a": {
+    "id": "7c8a6767990a",
+    "label": "26 RUE DE VALMY, Armentières",
+    "lat": 50.693182,
+    "lng": 2.876427,
+    "transactions": [
+      {
+        "date": "2022-01-10",
+        "priceEur": 84000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "0efaa411ae8b": {
+    "id": "0efaa411ae8b",
+    "label": "109 RUE MASSENET, Armentières",
+    "lat": 50.68908,
+    "lng": 2.874198,
+    "transactions": [
+      {
+        "date": "2022-01-11",
+        "priceEur": 118609,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "d84f42b9e4a5": {
+    "id": "d84f42b9e4a5",
+    "label": "27 RUE SAINT LOUIS, Armentières",
+    "lat": 50.690068,
+    "lng": 2.875602,
+    "transactions": [
+      {
+        "date": "2023-01-12",
+        "priceEur": 166000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-18",
+        "priceEur": 161000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "5934a57c98a1": {
+    "id": "5934a57c98a1",
+    "label": "61 RUE MASSENET, Armentières",
+    "lat": 50.68973,
+    "lng": 2.873305,
+    "transactions": [
+      {
+        "date": "2022-01-31",
+        "priceEur": 180500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "0baf54f40dd8": {
+    "id": "0baf54f40dd8",
+    "label": "15 RUE MASSENET, Armentières",
+    "lat": 50.690314,
+    "lng": 2.8742,
+    "transactions": [
+      {
+        "date": "2023-10-06",
+        "priceEur": 181900,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-14",
+        "priceEur": 142500,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d18535f7c4e": {
+    "id": "2d18535f7c4e",
+    "label": "5 RUE MASSENET, Armentières",
+    "lat": 50.690491,
+    "lng": 2.87436,
+    "transactions": [
+      {
+        "date": "2022-02-16",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4676d98da4d": {
+    "id": "b4676d98da4d",
+    "label": "19 RUE DES PATINEURS, Armentières",
+    "lat": 50.69333,
+    "lng": 2.876728,
+    "transactions": [
+      {
+        "date": "2022-02-11",
+        "priceEur": 102000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "da54148b1550": {
+    "id": "da54148b1550",
+    "label": "54 RUE MASSENET, Armentières",
+    "lat": 50.690104,
+    "lng": 2.872844,
+    "transactions": [
+      {
+        "date": "2022-02-03",
+        "priceEur": 171000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "236ffa49d55f": {
+    "id": "236ffa49d55f",
+    "label": "20 RUE DU KEMMEL, Armentières",
+    "lat": 50.691509,
+    "lng": 2.875469,
+    "transactions": [
+      {
+        "date": "2022-03-09",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "479677986efd": {
+    "id": "479677986efd",
+    "label": "52 RUE DE MESSINES, Armentières",
+    "lat": 50.692363,
+    "lng": 2.875759,
+    "transactions": [
+      {
+        "date": "2022-03-07",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "9be27e67d5db": {
+    "id": "9be27e67d5db",
+    "label": "35 RUE DU KEMMEL, Armentières",
+    "lat": 50.691736,
+    "lng": 2.874802,
+    "transactions": [
+      {
+        "date": "2022-03-02",
+        "priceEur": 109000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e0bb292b2e7": {
+    "id": "9e0bb292b2e7",
+    "label": "31B RUE DES PRES, Armentières",
+    "lat": 50.691528,
+    "lng": 2.878211,
+    "transactions": [
+      {
+        "date": "2025-01-15",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-14",
+        "priceEur": 145800,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "674903daecb1": {
+    "id": "674903daecb1",
+    "label": "51 RUE DU NORD, Armentières",
+    "lat": 50.691296,
+    "lng": 2.877457,
+    "transactions": [
+      {
+        "date": "2022-04-06",
+        "priceEur": 227700,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "65d20583b663": {
+    "id": "65d20583b663",
+    "label": "53 RUE DE VALMY, Armentières",
+    "lat": 50.692758,
+    "lng": 2.875668,
+    "transactions": [
+      {
+        "date": "2022-03-31",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "d0adb25c30a4": {
+    "id": "d0adb25c30a4",
+    "label": "101 RUE DE MESSINES, Armentières",
+    "lat": 50.691494,
+    "lng": 2.874487,
+    "transactions": [
+      {
+        "date": "2022-04-20",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "425bbe2d546a": {
+    "id": "425bbe2d546a",
+    "label": "40 RUE BERANGER, Armentières",
+    "lat": 50.691909,
+    "lng": 2.876131,
+    "transactions": [
+      {
+        "date": "2022-03-31",
+        "priceEur": 90500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "3baf993cf11f": {
+    "id": "3baf993cf11f",
+    "label": "34 RUE DU PROGRES, Armentières",
+    "lat": 50.691107,
+    "lng": 2.874925,
+    "transactions": [
+      {
+        "date": "2022-04-13",
+        "priceEur": 48333.33,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "d88c5aba8f5c": {
+    "id": "d88c5aba8f5c",
+    "label": "45 RUE DU PROGRES, Armentières",
+    "lat": 50.690931,
+    "lng": 2.875781,
+    "transactions": [
+      {
+        "date": "2022-04-20",
+        "priceEur": 169050,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6119c741c6e": {
+    "id": "c6119c741c6e",
+    "label": "51 RUE JULES LEBLEU, Armentières",
+    "lat": 50.689161,
+    "lng": 2.87578,
+    "transactions": [
+      {
+        "date": "2022-04-28",
+        "priceEur": 86000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "33c1af0ce0c6": {
+    "id": "33c1af0ce0c6",
+    "label": "34 RUE MASSENET, Armentières",
+    "lat": 50.690382,
+    "lng": 2.873268,
+    "transactions": [
+      {
+        "date": "2022-04-22",
+        "priceEur": 144500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0890f968385": {
+    "id": "e0890f968385",
+    "label": "62 RUE DU NORD, Armentières",
+    "lat": 50.692449,
+    "lng": 2.877811,
+    "transactions": [
+      {
+        "date": "2022-05-12",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b63a324737e": {
+    "id": "8b63a324737e",
+    "label": "81 RUE DES PATINEURS, Armentières",
+    "lat": 50.693031,
+    "lng": 2.875112,
+    "transactions": [
+      {
+        "date": "2022-05-04",
+        "priceEur": 78000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b2a614c923b": {
+    "id": "6b2a614c923b",
+    "label": "91 RUE DU NORD, Armentières",
+    "lat": 50.692643,
+    "lng": 2.877321,
+    "transactions": [
+      {
+        "date": "2022-05-30",
+        "priceEur": 105500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "adeba375a306": {
+    "id": "adeba375a306",
+    "label": "22 RUE DE MESSINES, Armentières",
+    "lat": 50.692334,
+    "lng": 2.877457,
+    "transactions": [
+      {
+        "date": "2022-05-20",
+        "priceEur": 41400,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "30a709845546": {
+    "id": "30a709845546",
+    "label": "79 RUE DU NORD, Armentières",
+    "lat": 50.692387,
+    "lng": 2.877426,
+    "transactions": [
+      {
+        "date": "2022-05-20",
+        "priceEur": 75900,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "dc2545da9e74": {
+    "id": "dc2545da9e74",
+    "label": "21 RUE DES PRES, Armentières",
+    "lat": 50.690523,
+    "lng": 2.878172,
+    "transactions": [
+      {
+        "date": "2022-06-08",
+        "priceEur": 88100,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "ba42266d9f31": {
+    "id": "ba42266d9f31",
+    "label": "11 RUE BERANGER, Armentières",
+    "lat": 50.691829,
+    "lng": 2.877147,
+    "transactions": [
+      {
+        "date": "2022-06-02",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "37fb6626110f": {
+    "id": "37fb6626110f",
+    "label": "44 RUE DU NORD, Armentières",
+    "lat": 50.691854,
+    "lng": 2.877821,
+    "transactions": [
+      {
+        "date": "2022-05-27",
+        "priceEur": 110000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "11c6e3c0e1a8": {
+    "id": "11c6e3c0e1a8",
+    "label": "104 RUE MARCEAU, Armentières",
+    "lat": 50.692466,
+    "lng": 2.874552,
+    "transactions": [
+      {
+        "date": "2022-06-01",
+        "priceEur": 131050,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "45b86165f915": {
+    "id": "45b86165f915",
+    "label": "31 RUE DES ARTS, Armentières",
+    "lat": 50.690847,
+    "lng": 2.876304,
+    "transactions": [
+      {
+        "date": "2022-05-30",
+        "priceEur": 143000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "542f89d2c8bb": {
+    "id": "542f89d2c8bb",
+    "label": "5 RUE DU PROGRES, Armentières",
+    "lat": 50.691377,
+    "lng": 2.877436,
+    "transactions": [
+      {
+        "date": "2022-06-16",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "417263900b81": {
+    "id": "417263900b81",
+    "label": "32 RUE DU KEMMEL, Armentières",
+    "lat": 50.691894,
+    "lng": 2.875069,
+    "transactions": [
+      {
+        "date": "2022-06-21",
+        "priceEur": 111500,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "b8e8e1836bb7": {
+    "id": "b8e8e1836bb7",
+    "label": "98 RUE MASSENET, Armentières",
+    "lat": 50.689423,
+    "lng": 2.873035,
+    "transactions": [
+      {
+        "date": "2022-06-24",
+        "priceEur": 157800,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "08185a2f03ac": {
+    "id": "08185a2f03ac",
+    "label": "7 RUE DES PATINEURS, Armentières",
+    "lat": 50.693401,
+    "lng": 2.877136,
+    "transactions": [
+      {
+        "date": "2022-06-09",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "5889f32b521d": {
+    "id": "5889f32b521d",
+    "label": "99 RUE DU NORD, Armentières",
+    "lat": 50.693001,
+    "lng": 2.877301,
+    "transactions": [
+      {
+        "date": "2024-08-07",
+        "priceEur": 38000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-14",
+        "priceEur": 48000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "e28375f8943a": {
+    "id": "e28375f8943a",
+    "label": "91 RUE DU KEMMEL, Armentières",
+    "lat": 50.693383,
+    "lng": 2.87329,
+    "transactions": [
+      {
+        "date": "2022-07-19",
+        "priceEur": 162500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "13614ecf1ad0": {
+    "id": "13614ecf1ad0",
+    "label": "81 RUE NATIONALE AVE MITTERRAND, Armentières",
+    "lat": 50.689058,
+    "lng": 2.877072,
+    "transactions": [
+      {
+        "date": "2022-07-04",
+        "priceEur": 143100,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc89445740a0": {
+    "id": "bc89445740a0",
+    "label": "45A RUE DU PROGRES, Armentières",
+    "lat": 50.690669,
+    "lng": 2.876049,
+    "transactions": [
+      {
+        "date": "2022-07-05",
+        "priceEur": 542000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "80dbbae1fcc4": {
+    "id": "80dbbae1fcc4",
+    "label": "47 RUE JULES LEBLEU, Armentières",
+    "lat": 50.68921,
+    "lng": 2.875886,
+    "transactions": [
+      {
+        "date": "2022-07-01",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "3520822fe070": {
+    "id": "3520822fe070",
+    "label": "3 RUE DES RESISTANTS, Armentières",
+    "lat": 50.689908,
+    "lng": 2.877235,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 265000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 33,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-30",
+        "priceEur": 265000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-30",
+        "priceEur": 265000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad9391f61ce5": {
+    "id": "ad9391f61ce5",
+    "label": "101 RUE DU NORD, Armentières",
+    "lat": 50.693048,
+    "lng": 2.87731,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 159600,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c98244c2437": {
+    "id": "0c98244c2437",
+    "label": "5 RUE SAINT LOUIS, Armentières",
+    "lat": 50.689658,
+    "lng": 2.875867,
+    "transactions": [
+      {
+        "date": "2022-07-26",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 26,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6d588b67ac4": {
+    "id": "f6d588b67ac4",
+    "label": "32 RUE DE L INDUSTRIE, Armentières",
+    "lat": 50.690892,
+    "lng": 2.877223,
+    "transactions": [
+      {
+        "date": "2022-07-27",
+        "priceEur": 106000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "e227b989c181": {
+    "id": "e227b989c181",
+    "label": "114 RUE NATIONALE AVE MITTERRAND, Armentières",
+    "lat": 50.688106,
+    "lng": 2.878147,
+    "transactions": [
+      {
+        "date": "2022-07-18",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "e09f5d31c69d": {
+    "id": "e09f5d31c69d",
+    "label": "12 RUE DE VALMY, Armentières",
+    "lat": 50.693253,
+    "lng": 2.876841,
+    "transactions": [
+      {
+        "date": "2022-07-27",
+        "priceEur": 160435,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd5d14e3a48f": {
+    "id": "fd5d14e3a48f",
+    "label": "64 RUE DE LA VICTOIRE, Armentières",
+    "lat": 50.693141,
+    "lng": 2.87083,
+    "transactions": [
+      {
+        "date": "2022-08-01",
+        "priceEur": 174200,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "13872a66055e": {
+    "id": "13872a66055e",
+    "label": "104 RUE MASSENET, Armentières",
+    "lat": 50.689346,
+    "lng": 2.873134,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 159500,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "f2d8ab0c6a00": {
+    "id": "f2d8ab0c6a00",
+    "label": "13 RUE BERANGER, Armentières",
+    "lat": 50.691815,
+    "lng": 2.877106,
+    "transactions": [
+      {
+        "date": "2022-07-28",
+        "priceEur": 111000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "b93f999cb53f": {
+    "id": "b93f999cb53f",
+    "label": "74 RUE DU KEMMEL, Armentières",
+    "lat": 50.694505,
+    "lng": 2.872904,
+    "transactions": [
+      {
+        "date": "2022-07-26",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "bac37124291b": {
+    "id": "bac37124291b",
+    "label": "45 RUE DU NORD, Armentières",
+    "lat": 50.691162,
+    "lng": 2.877523,
+    "transactions": [
+      {
+        "date": "2022-09-01",
+        "priceEur": 83000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d68f35f0a8f": {
+    "id": "1d68f35f0a8f",
+    "label": "19 RUE DE VALMY, Armentières",
+    "lat": 50.692942,
+    "lng": 2.876675,
+    "transactions": [
+      {
+        "date": "2022-08-30",
+        "priceEur": 109600,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e8a758d9c7e": {
+    "id": "2e8a758d9c7e",
+    "label": "39 RUE DES ARTS, Armentières",
+    "lat": 50.690991,
+    "lng": 2.876242,
+    "transactions": [
+      {
+        "date": "2022-09-06",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "4639e9f205f1": {
+    "id": "4639e9f205f1",
+    "label": "76E RUE DE VALMY, Armentières",
+    "lat": 50.692855,
+    "lng": 2.874645,
+    "transactions": [
+      {
+        "date": "2022-09-20",
+        "priceEur": 135650,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ebd66df9fb3": {
+    "id": "7ebd66df9fb3",
+    "label": "27 RUE DES RESISTANTS, Armentières",
+    "lat": 50.689987,
+    "lng": 2.876186,
+    "transactions": [
+      {
+        "date": "2022-09-26",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "d37d3acd2538": {
+    "id": "d37d3acd2538",
+    "label": "13 RUE DE VERDUN, Armentières",
+    "lat": 50.692994,
+    "lng": 2.871628,
+    "transactions": [
+      {
+        "date": "2022-09-27",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "f2e1b1c9378d": {
+    "id": "f2e1b1c9378d",
+    "label": "16F RUE DU PROGRES, Armentières",
+    "lat": 50.691328,
+    "lng": 2.876271,
+    "transactions": [
+      {
+        "date": "2022-09-27",
+        "priceEur": 40500,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "71dba953e3af": {
+    "id": "71dba953e3af",
+    "label": "40 RUE DES RESISTANTS, Armentières",
+    "lat": 50.690753,
+    "lng": 2.875289,
+    "transactions": [
+      {
+        "date": "2025-02-12",
+        "priceEur": 154990,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-02",
+        "priceEur": 141500,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-26",
+        "priceEur": 62200,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa5b99ec200b": {
+    "id": "aa5b99ec200b",
+    "label": "46 RUE PAUL HAZARD, Armentières",
+    "lat": 50.688771,
+    "lng": 2.876263,
+    "transactions": [
+      {
+        "date": "2022-09-15",
+        "priceEur": 124800,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e9d60e8fbd1": {
+    "id": "0e9d60e8fbd1",
+    "label": "30 RUE DES RESISTANTS, Armentières",
+    "lat": 50.690697,
+    "lng": 2.875554,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 143200,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "6c4161bbc371": {
+    "id": "6c4161bbc371",
+    "label": "2 RUE DES ARTS, Armentières",
+    "lat": 50.690321,
+    "lng": 2.876807,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "ccf233ce4717": {
+    "id": "ccf233ce4717",
+    "label": "26 RUE BRACKE DESROUSSEAUX, Armentières",
+    "lat": 50.694,
+    "lng": 2.874783,
+    "transactions": [
+      {
+        "date": "2022-10-05",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff034ae308b1": {
+    "id": "ff034ae308b1",
+    "label": "6 RUE SAINT JEAN, Armentières",
+    "lat": 50.689598,
+    "lng": 2.875587,
+    "transactions": [
+      {
+        "date": "2022-10-11",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e738dcc0c5c": {
+    "id": "4e738dcc0c5c",
+    "label": "29 RUE DES ARTS, Armentières",
+    "lat": 50.690809,
+    "lng": 2.876309,
+    "transactions": [
+      {
+        "date": "2022-10-10",
+        "priceEur": 134000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "a30bb6fee9b1": {
+    "id": "a30bb6fee9b1",
+    "label": "45B RUE DU PROGRES, Armentières",
+    "lat": 50.690923,
+    "lng": 2.875551,
+    "transactions": [
+      {
+        "date": "2025-05-26",
+        "priceEur": 202400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 129,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-20",
+        "priceEur": 130000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "dbeea858911b": {
+    "id": "dbeea858911b",
+    "label": "24 RUE DES RESISTANTS, Armentières",
+    "lat": 50.690625,
+    "lng": 2.875676,
+    "transactions": [
+      {
+        "date": "2022-10-28",
+        "priceEur": 43000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "be46eb62a00d": {
+    "id": "be46eb62a00d",
+    "label": "17 RUE DE L INDUSTRIE, Armentières",
+    "lat": 50.690545,
+    "lng": 2.87691,
+    "transactions": [
+      {
+        "date": "2022-10-28",
+        "priceEur": 144100,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "681c5e39f781": {
+    "id": "681c5e39f781",
+    "label": "9 RUE DE LA MARNE, Armentières",
+    "lat": 50.692678,
+    "lng": 2.871012,
+    "transactions": [
+      {
+        "date": "2022-11-08",
+        "priceEur": 178500,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8caa76f86aa": {
+    "id": "f8caa76f86aa",
+    "label": "42 RUE SAINT JEAN, Armentières",
+    "lat": 50.690248,
+    "lng": 2.875171,
+    "transactions": [
+      {
+        "date": "2022-11-18",
+        "priceEur": 89800,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a8514f820bf": {
+    "id": "5a8514f820bf",
+    "label": "69 RUE DE VALMY, Armentières",
+    "lat": 50.692678,
+    "lng": 2.875202,
+    "transactions": [
+      {
+        "date": "2022-11-07",
+        "priceEur": 106000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb351a055116": {
+    "id": "bb351a055116",
+    "label": "17 RUE DES RESISTANTS, Armentières",
+    "lat": 50.689971,
+    "lng": 2.876689,
+    "transactions": [
+      {
+        "date": "2022-11-29",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "19c2a995c374": {
+    "id": "19c2a995c374",
+    "label": "16A RUE DU PROGRES, Armentières",
+    "lat": 50.691467,
+    "lng": 2.876615,
+    "transactions": [
+      {
+        "date": "2022-12-08",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 210,
+        "isVefa": false
+      }
+    ]
+  },
+  "5ab39cebc226": {
+    "id": "5ab39cebc226",
+    "label": "56B RUE MARCEAU, Armentières",
+    "lat": 50.692695,
+    "lng": 2.875795,
+    "transactions": [
+      {
+        "date": "2022-12-13",
+        "priceEur": 118500,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "054dab74bf62": {
+    "id": "054dab74bf62",
+    "label": "35 RUE JULES LEBLEU, Armentières",
+    "lat": 50.689202,
+    "lng": 2.876427,
+    "transactions": [
+      {
+        "date": "2022-12-01",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 195,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d760910883c": {
+    "id": "6d760910883c",
+    "label": "13 RUE INDUSTRIE CR DELMOTTE, Armentières",
+    "lat": 50.691042,
+    "lng": 2.877326,
+    "transactions": [
+      {
+        "date": "2022-12-15",
+        "priceEur": 26500,
+        "typeLocal": "Maison",
+        "surfaceM2": 28,
+        "isVefa": false
+      }
+    ]
+  },
+  "7866973e0f7f": {
+    "id": "7866973e0f7f",
+    "label": "85 RUE MASSENET, Armentières",
+    "lat": 50.689409,
+    "lng": 2.873768,
+    "transactions": [
+      {
+        "date": "2022-12-30",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "7848b601d731": {
+    "id": "7848b601d731",
+    "label": "48 RUE DE VALMY, Armentières",
+    "lat": 50.693061,
+    "lng": 2.875781,
+    "transactions": [
+      {
+        "date": "2022-12-28",
+        "priceEur": 120500,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "1219fa200282": {
+    "id": "1219fa200282",
+    "label": "123 RUE MASSENET, Armentières",
+    "lat": 50.688843,
+    "lng": 2.874376,
+    "transactions": [
+      {
+        "date": "2023-01-13",
+        "priceEur": 63000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7a381100645": {
+    "id": "c7a381100645",
+    "label": "46 RUE SAINT JEAN, Armentières",
+    "lat": 50.690336,
+    "lng": 2.875133,
+    "transactions": [
+      {
+        "date": "2023-01-23",
+        "priceEur": 92150,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "95b90c2fabd5": {
+    "id": "95b90c2fabd5",
+    "label": "31 RUE DE VALMY, Armentières",
+    "lat": 50.692883,
+    "lng": 2.876326,
+    "transactions": [
+      {
+        "date": "2023-02-03",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "e15b6dac3f70": {
+    "id": "e15b6dac3f70",
+    "label": "39 RUE DU KEMMEL, Armentières",
+    "lat": 50.692065,
+    "lng": 2.874425,
+    "transactions": [
+      {
+        "date": "2023-02-09",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b3e3d7d806f": {
+    "id": "1b3e3d7d806f",
+    "label": "32 RUE DES RESISTANTS, Armentières",
+    "lat": 50.690719,
+    "lng": 2.875505,
+    "transactions": [
+      {
+        "date": "2023-02-09",
+        "priceEur": 164000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "5878369624ad": {
+    "id": "5878369624ad",
+    "label": "3B RUE KLEBER, Armentières",
+    "lat": 50.692106,
+    "lng": 2.876189,
+    "transactions": [
+      {
+        "date": "2023-03-06",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "8366f767f10c": {
+    "id": "8366f767f10c",
+    "label": "31 RUE MARCEAU, Armentières",
+    "lat": 50.692426,
+    "lng": 2.875857,
+    "transactions": [
+      {
+        "date": "2023-03-30",
+        "priceEur": 149200,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf74a73b3bec": {
+    "id": "cf74a73b3bec",
+    "label": "9 RUE CLEMENCEAU, Armentières",
+    "lat": 50.692904,
+    "lng": 2.872996,
+    "transactions": [
+      {
+        "date": "2023-03-31",
+        "priceEur": 119000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "d07c12d20d92": {
+    "id": "d07c12d20d92",
+    "label": "144 RUE MASSENET, Armentières",
+    "lat": 50.688769,
+    "lng": 2.873834,
+    "transactions": [
+      {
+        "date": "2023-04-17",
+        "priceEur": 138750,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca617d829257": {
+    "id": "ca617d829257",
+    "label": "4 RUE SAINT LOUIS, Armentières",
+    "lat": 50.689741,
+    "lng": 2.876121,
+    "transactions": [
+      {
+        "date": "2023-04-06",
+        "priceEur": 61000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ec026d5f2da": {
+    "id": "9ec026d5f2da",
+    "label": "111 RUE MASSENET, Armentières",
+    "lat": 50.689053,
+    "lng": 2.874234,
+    "transactions": [
+      {
+        "date": "2023-05-15",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "5cd615400123": {
+    "id": "5cd615400123",
+    "label": "5 RUE DES PATINEURS, Armentières",
+    "lat": 50.693408,
+    "lng": 2.87719,
+    "transactions": [
+      {
+        "date": "2023-05-30",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "90bfb6f434e1": {
+    "id": "90bfb6f434e1",
+    "label": "57 RUE DU KEMMEL, Armentières",
+    "lat": 50.692337,
+    "lng": 2.874156,
+    "transactions": [
+      {
+        "date": "2023-05-24",
+        "priceEur": 140450,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "cdd2acee5e54": {
+    "id": "cdd2acee5e54",
+    "label": "40 RUE DU NORD, Armentières",
+    "lat": 50.691674,
+    "lng": 2.87786,
+    "transactions": [
+      {
+        "date": "2023-05-22",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 37,
+        "isVefa": false
+      }
+    ]
+  },
+  "24c7dbc3cf59": {
+    "id": "24c7dbc3cf59",
+    "label": "64 RUE DE MESSINES, Armentières",
+    "lat": 50.692284,
+    "lng": 2.875322,
+    "transactions": [
+      {
+        "date": "2023-05-16",
+        "priceEur": 132600,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "1dc6ecb6c425": {
+    "id": "1dc6ecb6c425",
+    "label": "59 RUE DU PROGRES, Armentières",
+    "lat": 50.690851,
+    "lng": 2.875085,
+    "transactions": [
+      {
+        "date": "2023-05-26",
+        "priceEur": 57000,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "050a2831ddd4": {
+    "id": "050a2831ddd4",
+    "label": "81 RUE DE VALMY, Armentières",
+    "lat": 50.692612,
+    "lng": 2.874841,
+    "transactions": [
+      {
+        "date": "2023-06-07",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e41acb2b239": {
+    "id": "7e41acb2b239",
+    "label": "65 RUE MASSENET, Armentières",
+    "lat": 50.689695,
+    "lng": 2.873418,
+    "transactions": [
+      {
+        "date": "2023-06-09",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "567d33236561": {
+    "id": "567d33236561",
+    "label": "50 RUE DU NORD, Armentières",
+    "lat": 50.691854,
+    "lng": 2.877821,
+    "transactions": [
+      {
+        "date": "2023-06-09",
+        "priceEur": 205000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "741dbb7335aa": {
+    "id": "741dbb7335aa",
+    "label": "5 RUE DU KEMMEL, Armentières",
+    "lat": 50.691205,
+    "lng": 2.875352,
+    "transactions": [
+      {
+        "date": "2023-06-09",
+        "priceEur": 107000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5bc7859820c": {
+    "id": "c5bc7859820c",
+    "label": "142 RUE MASSENET, Armentières",
+    "lat": 50.688808,
+    "lng": 2.873807,
+    "transactions": [
+      {
+        "date": "2023-06-14",
+        "priceEur": 159800,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "7fbf0eb08fbd": {
+    "id": "7fbf0eb08fbd",
+    "label": "71 RUE NATIONALE AVE MITTERRAND, Armentières",
+    "lat": 50.688402,
+    "lng": 2.877406,
+    "transactions": [
+      {
+        "date": "2023-06-19",
+        "priceEur": 371500,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad0acee33e46": {
+    "id": "ad0acee33e46",
+    "label": "4 RUE DU NORD, Armentières",
+    "lat": 50.690239,
+    "lng": 2.878054,
+    "transactions": [
+      {
+        "date": "2023-06-01",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "421db79b6bdc": {
+    "id": "421db79b6bdc",
+    "label": "87 RUE DE MESSINES, Armentières",
+    "lat": 50.691713,
+    "lng": 2.874673,
+    "transactions": [
+      {
+        "date": "2023-06-23",
+        "priceEur": 94000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "86a27f081909": {
+    "id": "86a27f081909",
+    "label": "19 RUE BRACKE DESROUSSEAUX, Armentières",
+    "lat": 50.694048,
+    "lng": 2.875399,
+    "transactions": [
+      {
+        "date": "2023-07-03",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a9fb1842616": {
+    "id": "7a9fb1842616",
+    "label": "1 ALL DU BEAU RIVAGE, Armentières",
+    "lat": 50.693347,
+    "lng": 2.877871,
+    "transactions": [
+      {
+        "date": "2023-06-20",
+        "priceEur": 236000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "46afdd7f0e52": {
+    "id": "46afdd7f0e52",
+    "label": "22 RUE MASSENET, Armentières",
+    "lat": 50.690516,
+    "lng": 2.873579,
+    "transactions": [
+      {
+        "date": "2023-07-13",
+        "priceEur": 174900,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "a389bd802383": {
+    "id": "a389bd802383",
+    "label": "8 RUE DE LA MARNE, Armentières",
+    "lat": 50.692819,
+    "lng": 2.87153,
+    "transactions": [
+      {
+        "date": "2023-06-23",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "c002d2942e38": {
+    "id": "c002d2942e38",
+    "label": "22 RUE SAINT LOUIS, Armentières",
+    "lat": 50.690036,
+    "lng": 2.875933,
+    "transactions": [
+      {
+        "date": "2023-06-29",
+        "priceEur": 126100,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "ffdd069ba922": {
+    "id": "ffdd069ba922",
+    "label": "16C RUE DU PROGRES, Armentières",
+    "lat": 50.691467,
+    "lng": 2.876615,
+    "transactions": [
+      {
+        "date": "2023-07-13",
+        "priceEur": 312000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 220,
+        "isVefa": false
+      }
+    ]
+  },
+  "220065354684": {
+    "id": "220065354684",
+    "label": "32 RUE BRACKE DESROUSSEAUX, Armentières",
+    "lat": 50.693562,
+    "lng": 2.87554,
+    "transactions": [
+      {
+        "date": "2023-08-07",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "0772b4f38760": {
+    "id": "0772b4f38760",
+    "label": "53 RUE DU NORD, Armentières",
+    "lat": 50.691335,
+    "lng": 2.877549,
+    "transactions": [
+      {
+        "date": "2023-08-10",
+        "priceEur": 58000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "70a81b1fc00b": {
+    "id": "70a81b1fc00b",
+    "label": "8 RUE SAINT LOUIS, Armentières",
+    "lat": 50.689808,
+    "lng": 2.87608,
+    "transactions": [
+      {
+        "date": "2023-08-28",
+        "priceEur": 106000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "01360654271f": {
+    "id": "01360654271f",
+    "label": "74 RUE BRACKE DESROUSSEAUX, Armentières",
+    "lat": 50.6946,
+    "lng": 2.875775,
+    "transactions": [
+      {
+        "date": "2023-09-05",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "296c723bee11": {
+    "id": "296c723bee11",
+    "label": "27 RUE DES ARTS, Armentières",
+    "lat": 50.69076,
+    "lng": 2.876231,
+    "transactions": [
+      {
+        "date": "2023-08-17",
+        "priceEur": 149990,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "deaf9402e453": {
+    "id": "deaf9402e453",
+    "label": "11 RUE BRACKE DESROUSSEAUX, Armentières",
+    "lat": 50.694438,
+    "lng": 2.875127,
+    "transactions": [
+      {
+        "date": "2023-09-11",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "ecb3c2750e1d": {
+    "id": "ecb3c2750e1d",
+    "label": "115 RUE DE MESSINES, Armentières",
+    "lat": 50.691476,
+    "lng": 2.873847,
+    "transactions": [
+      {
+        "date": "2023-09-15",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f26353fd5c6": {
+    "id": "4f26353fd5c6",
+    "label": "50 RUE DE LA VICTOIRE, Armentières",
+    "lat": 50.693334,
+    "lng": 2.871141,
+    "transactions": [
+      {
+        "date": "2023-09-20",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "ec04ce0a268b": {
+    "id": "ec04ce0a268b",
+    "label": "45 RUE CLEMENCEAU, Armentières",
+    "lat": 50.69243,
+    "lng": 2.871803,
+    "transactions": [
+      {
+        "date": "2023-09-22",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa7402aca3e3": {
+    "id": "aa7402aca3e3",
+    "label": "56 RUE BRACKE DESROUSSEAUX, Armentières",
+    "lat": 50.694363,
+    "lng": 2.876994,
+    "transactions": [
+      {
+        "date": "2023-10-02",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "7bf02f896aea": {
+    "id": "7bf02f896aea",
+    "label": "31 RUE MASSENET, Armentières",
+    "lat": 50.690097,
+    "lng": 2.873804,
+    "transactions": [
+      {
+        "date": "2023-10-10",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "6587ea6f4546": {
+    "id": "6587ea6f4546",
+    "label": "1 RUE DE MESSINES, Armentières",
+    "lat": 50.692104,
+    "lng": 2.878147,
+    "transactions": [
+      {
+        "date": "2023-10-31",
+        "priceEur": 420000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-31",
+        "priceEur": 420000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-31",
+        "priceEur": 420000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-31",
+        "priceEur": 420000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-31",
+        "priceEur": 420000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-31",
+        "priceEur": 420000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-31",
+        "priceEur": 420000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9027b13b425": {
+    "id": "f9027b13b425",
+    "label": "21 RUE DES RESISTANTS, Armentières",
+    "lat": 50.690017,
+    "lng": 2.876516,
+    "transactions": [
+      {
+        "date": "2023-10-23",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b56ddfb0397": {
+    "id": "5b56ddfb0397",
+    "label": "44 RUE DE L INDUSTRIE, Armentières",
+    "lat": 50.691146,
+    "lng": 2.877177,
+    "transactions": [
+      {
+        "date": "2023-10-26",
+        "priceEur": 99000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "616062992b19": {
+    "id": "616062992b19",
+    "label": "38 RUE DES RESISTANTS, Armentières",
+    "lat": 50.690745,
+    "lng": 2.875333,
+    "transactions": [
+      {
+        "date": "2023-10-31",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1bd124b2cd7": {
+    "id": "b1bd124b2cd7",
+    "label": "62 RUE DE VALMY, Armentières",
+    "lat": 50.692987,
+    "lng": 2.875365,
+    "transactions": [
+      {
+        "date": "2025-03-07",
+        "priceEur": 135800,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-05",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "bda3538159ab": {
+    "id": "bda3538159ab",
+    "label": "21 RUE DES ARTS, Armentières",
+    "lat": 50.690654,
+    "lng": 2.8763,
+    "transactions": [
+      {
+        "date": "2023-12-11",
+        "priceEur": 136300,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b46d5bbe07a": {
+    "id": "2b46d5bbe07a",
+    "label": "14 RUE DU NORD, Armentières",
+    "lat": 50.69043,
+    "lng": 2.878044,
+    "transactions": [
+      {
+        "date": "2023-12-13",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "63eb856c3017": {
+    "id": "63eb856c3017",
+    "label": "128 RUE DE MESSINES, Armentières",
+    "lat": 50.691599,
+    "lng": 2.87312,
+    "transactions": [
+      {
+        "date": "2023-11-28",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e11c20c868c": {
+    "id": "8e11c20c868c",
+    "label": "16 RUE JULES LEBLEU, Armentières",
+    "lat": 50.68986,
+    "lng": 2.876695,
+    "transactions": [
+      {
+        "date": "2023-11-30",
+        "priceEur": 165500,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "f94ec83ebdcb": {
+    "id": "f94ec83ebdcb",
+    "label": "44 RUE DU KEMMEL, Armentières",
+    "lat": 50.692484,
+    "lng": 2.874448,
+    "transactions": [
+      {
+        "date": "2023-12-18",
+        "priceEur": 123500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2136cc99cb4": {
+    "id": "e2136cc99cb4",
+    "label": "4 RUE MASSENET, Armentières",
+    "lat": 50.690713,
+    "lng": 2.873996,
+    "transactions": [
+      {
+        "date": "2023-12-27",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "4daaf31a1945": {
+    "id": "4daaf31a1945",
+    "label": "7 RUE CLEMENCEAU, Armentières",
+    "lat": 50.69293,
+    "lng": 2.873045,
+    "transactions": [
+      {
+        "date": "2023-12-26",
+        "priceEur": 114500,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7e63c5bc660": {
+    "id": "f7e63c5bc660",
+    "label": "50 RUE SAINT JEAN, Armentières",
+    "lat": 50.690412,
+    "lng": 2.875099,
+    "transactions": [
+      {
+        "date": "2023-12-29",
+        "priceEur": 59000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "307f37ef228b": {
+    "id": "307f37ef228b",
+    "label": "18 RUE DE L INDUSTRIE, Armentières",
+    "lat": 50.690664,
+    "lng": 2.877323,
+    "transactions": [
+      {
+        "date": "2023-12-13",
+        "priceEur": 140900,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7c8b0c30ac5": {
+    "id": "b7c8b0c30ac5",
+    "label": "14 RUE DE VALMY, Armentières",
+    "lat": 50.693243,
+    "lng": 2.876785,
+    "transactions": [
+      {
+        "date": "2024-01-17",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "d2a8400ff875": {
+    "id": "d2a8400ff875",
+    "label": "21 RUE DES PATINEURS, Armentières",
+    "lat": 50.69331,
+    "lng": 2.876693,
+    "transactions": [
+      {
+        "date": "2024-01-03",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "60837cacc72e": {
+    "id": "60837cacc72e",
+    "label": "78 RUE DES RESISTANTS, Armentières",
+    "lat": 50.691367,
+    "lng": 2.873811,
+    "transactions": [
+      {
+        "date": "2024-02-26",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6e432ad819b": {
+    "id": "b6e432ad819b",
+    "label": "69 RUE DU KEMMEL, Armentières",
+    "lat": 50.69271,
+    "lng": 2.873824,
+    "transactions": [
+      {
+        "date": "2024-02-26",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "187590ce71a4": {
+    "id": "187590ce71a4",
+    "label": "35 RUE DES PATINEURS, Armentières",
+    "lat": 50.693252,
+    "lng": 2.87633,
+    "transactions": [
+      {
+        "date": "2024-03-01",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "603e416bff44": {
+    "id": "603e416bff44",
+    "label": "17 RUE DU KEMMEL, Armentières",
+    "lat": 50.69139,
+    "lng": 2.874962,
+    "transactions": [
+      {
+        "date": "2024-02-29",
+        "priceEur": 203340,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4b0e80f69fc": {
+    "id": "c4b0e80f69fc",
+    "label": "77 RUE NATIONALE AVE MITTERRAND, Armentières",
+    "lat": 50.688587,
+    "lng": 2.877686,
+    "transactions": [
+      {
+        "date": "2024-03-21",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "079731287c65": {
+    "id": "079731287c65",
+    "label": "38 RUE DE LA VICTOIRE, Armentières",
+    "lat": 50.693565,
+    "lng": 2.871513,
+    "transactions": [
+      {
+        "date": "2024-03-01",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "76251f3ab09d": {
+    "id": "76251f3ab09d",
+    "label": "7 RUE DES ARTS, Armentières",
+    "lat": 50.690421,
+    "lng": 2.876417,
+    "transactions": [
+      {
+        "date": "2024-03-01",
+        "priceEur": 118200,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "c59e6058f723": {
+    "id": "c59e6058f723",
+    "label": "88 RUE DE MESSINES, Armentières",
+    "lat": 50.692075,
+    "lng": 2.874176,
+    "transactions": [
+      {
+        "date": "2024-04-09",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "a872841c662f": {
+    "id": "a872841c662f",
+    "label": "55 RUE DE MESSINES, Armentières",
+    "lat": 50.691984,
+    "lng": 2.875922,
+    "transactions": [
+      {
+        "date": "2024-03-20",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea562437a2c2": {
+    "id": "ea562437a2c2",
+    "label": "44 RUE BERANGER, Armentières",
+    "lat": 50.691891,
+    "lng": 2.876017,
+    "transactions": [
+      {
+        "date": "2024-04-19",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae90d32e40d5": {
+    "id": "ae90d32e40d5",
+    "label": "1 RUE DU ONZE NOVEMBRE, Armentières",
+    "lat": 50.692739,
+    "lng": 2.8737,
+    "transactions": [
+      {
+        "date": "2024-03-20",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "827857660d25": {
+    "id": "827857660d25",
+    "label": "85 RUE DES RESISTANTS, Armentières",
+    "lat": 50.69148,
+    "lng": 2.871712,
+    "transactions": [
+      {
+        "date": "2024-05-13",
+        "priceEur": 279200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-13",
+        "priceEur": 279200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 24,
+        "isVefa": false
+      }
+    ]
+  },
+  "1bc81f5261fe": {
+    "id": "1bc81f5261fe",
+    "label": "50 RUE MASSENET, Armentières",
+    "lat": 50.690167,
+    "lng": 2.87293,
+    "transactions": [
+      {
+        "date": "2024-05-03",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "f746edfc18e8": {
+    "id": "f746edfc18e8",
+    "label": "35A RUE BERANGER, Armentières",
+    "lat": 50.691618,
+    "lng": 2.876055,
+    "transactions": [
+      {
+        "date": "2024-05-16",
+        "priceEur": 335000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "21599792895d": {
+    "id": "21599792895d",
+    "label": "154 RUE NATIONALE AVE MITTERRAND, Armentières",
+    "lat": 50.689553,
+    "lng": 2.87809,
+    "transactions": [
+      {
+        "date": "2024-05-07",
+        "priceEur": 88000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-07",
+        "priceEur": 88000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a207fd1638b": {
+    "id": "8a207fd1638b",
+    "label": "17 RUE DE VALMY, Armentières",
+    "lat": 50.692954,
+    "lng": 2.876733,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "09ff2a205509": {
+    "id": "09ff2a205509",
+    "label": "31 RUE DE MESSINES, Armentières",
+    "lat": 50.692124,
+    "lng": 2.876757,
+    "transactions": [
+      {
+        "date": "2024-06-27",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "25cdf29485d0": {
+    "id": "25cdf29485d0",
+    "label": "103 RUE DU KEMMEL, Armentières",
+    "lat": 50.693593,
+    "lng": 2.873114,
+    "transactions": [
+      {
+        "date": "2024-07-12",
+        "priceEur": 167200,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "c148e5f41666": {
+    "id": "c148e5f41666",
+    "label": "94 RUE DE MESSINES, Armentières",
+    "lat": 50.691976,
+    "lng": 2.873995,
+    "transactions": [
+      {
+        "date": "2024-07-08",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "1468313bee45": {
+    "id": "1468313bee45",
+    "label": "10 ALL DU BEAU RIVAGE, Armentières",
+    "lat": 50.693638,
+    "lng": 2.878149,
+    "transactions": [
+      {
+        "date": "2024-08-07",
+        "priceEur": 223480,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "bfa530497d8c": {
+    "id": "bfa530497d8c",
+    "label": "66 RUE DES RESISTANTS, Armentières",
+    "lat": 50.691333,
+    "lng": 2.874267,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 208450,
+        "typeLocal": "Maison",
+        "surfaceM2": 157,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f0d0b2bf2d5": {
+    "id": "3f0d0b2bf2d5",
+    "label": "4 RUE DE VALMY, Armentières",
+    "lat": 50.693318,
+    "lng": 2.877213,
+    "transactions": [
+      {
+        "date": "2024-07-31",
+        "priceEur": 138800,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd3d9317a73d": {
+    "id": "dd3d9317a73d",
+    "label": "7 RUE SAINT JEAN, Armentières",
+    "lat": 50.689505,
+    "lng": 2.875239,
+    "transactions": [
+      {
+        "date": "2024-08-08",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "306798fb4348": {
+    "id": "306798fb4348",
+    "label": "95 RUE DU KEMMEL, Armentières",
+    "lat": 50.693459,
+    "lng": 2.873245,
+    "transactions": [
+      {
+        "date": "2024-08-02",
+        "priceEur": 164000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "a43a873414e7": {
+    "id": "a43a873414e7",
+    "label": "108 RUE DE MESSINES, Armentières",
+    "lat": 50.691845,
+    "lng": 2.873603,
+    "transactions": [
+      {
+        "date": "2024-08-02",
+        "priceEur": 44000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "c1308548ab62": {
+    "id": "c1308548ab62",
+    "label": "6 RUE DE VALMY, Armentières",
+    "lat": 50.69329,
+    "lng": 2.877009,
+    "transactions": [
+      {
+        "date": "2024-08-20",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "cbe3ce53f568": {
+    "id": "cbe3ce53f568",
+    "label": "5 RUE DES ARTS, Armentières",
+    "lat": 50.690384,
+    "lng": 2.876426,
+    "transactions": [
+      {
+        "date": "2024-09-06",
+        "priceEur": 84500,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "1cb527a02cbe": {
+    "id": "1cb527a02cbe",
+    "label": "113 RUE DES PATINEURS, Armentières",
+    "lat": 50.692879,
+    "lng": 2.874188,
+    "transactions": [
+      {
+        "date": "2024-09-06",
+        "priceEur": 83000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "31e33e70e086": {
+    "id": "31e33e70e086",
+    "label": "18 RUE DE L HARMONIE, Armentières",
+    "lat": 50.693549,
+    "lng": 2.872898,
+    "transactions": [
+      {
+        "date": "2024-09-20",
+        "priceEur": 152590,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "f39c8a1befab": {
+    "id": "f39c8a1befab",
+    "label": "79 RUE MASSENET, Armentières",
+    "lat": 50.689523,
+    "lng": 2.873705,
+    "transactions": [
+      {
+        "date": "2024-10-02",
+        "priceEur": 150601,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "e11d13b3855f": {
+    "id": "e11d13b3855f",
+    "label": "75 RUE DE MESSINES, Armentières",
+    "lat": 50.691893,
+    "lng": 2.875371,
+    "transactions": [
+      {
+        "date": "2024-10-10",
+        "priceEur": 77800,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "4592b70c53aa": {
+    "id": "4592b70c53aa",
+    "label": "16 RUE DU ONZE NOVEMBRE, Armentières",
+    "lat": 50.692815,
+    "lng": 2.873125,
+    "transactions": [
+      {
+        "date": "2024-10-18",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "04c7f4109f18": {
+    "id": "04c7f4109f18",
+    "label": "105 RUE DU KEMMEL, Armentières",
+    "lat": 50.693631,
+    "lng": 2.873089,
+    "transactions": [
+      {
+        "date": "2024-10-31",
+        "priceEur": 107550,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "29e5fa52b91c": {
+    "id": "29e5fa52b91c",
+    "label": "78 RUE MARCEAU, Armentières",
+    "lat": 50.692602,
+    "lng": 2.875225,
+    "transactions": [
+      {
+        "date": "2024-11-12",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d08fda5b960": {
+    "id": "8d08fda5b960",
+    "label": "49 RUE DU PROGRES, Armentières",
+    "lat": 50.690848,
+    "lng": 2.875381,
+    "transactions": [
+      {
+        "date": "2024-11-22",
+        "priceEur": 83700,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "b05820a850ff": {
+    "id": "b05820a850ff",
+    "label": "150 RUE MASSENET, Armentières",
+    "lat": 50.688689,
+    "lng": 2.873974,
+    "transactions": [
+      {
+        "date": "2024-11-19",
+        "priceEur": 166840,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c4b5e4465db": {
+    "id": "8c4b5e4465db",
+    "label": "79 RUE NATIONALE AVE MITTERRAND, Armentières",
+    "lat": 50.68872,
+    "lng": 2.877589,
+    "transactions": [
+      {
+        "date": "2024-11-29",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e7ec643ee0e": {
+    "id": "8e7ec643ee0e",
+    "label": "10 RUE SAINT LOUIS, Armentières",
+    "lat": 50.689844,
+    "lng": 2.876071,
+    "transactions": [
+      {
+        "date": "2024-12-17",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e36adcb146d": {
+    "id": "0e36adcb146d",
+    "label": "11 RUE DES ARTS, Armentières",
+    "lat": 50.690493,
+    "lng": 2.876382,
+    "transactions": [
+      {
+        "date": "2025-01-13",
+        "priceEur": 120900,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "88500cbd86b9": {
+    "id": "88500cbd86b9",
+    "label": "42 RUE DES ARTS, Armentières",
+    "lat": 50.69114,
+    "lng": 2.876601,
+    "transactions": [
+      {
+        "date": "2025-01-14",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "e691c3ef8043": {
+    "id": "e691c3ef8043",
+    "label": "13 RUE DES PRES, Armentières",
+    "lat": 50.69036,
+    "lng": 2.878176,
+    "transactions": [
+      {
+        "date": "2025-01-22",
+        "priceEur": 98500,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa5ff6bcf803": {
+    "id": "aa5ff6bcf803",
+    "label": "126 RUE DE MESSINES, Armentières",
+    "lat": 50.691613,
+    "lng": 2.873179,
+    "transactions": [
+      {
+        "date": "2025-01-29",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5842195ef50": {
+    "id": "a5842195ef50",
+    "label": "15 RUE DE LA MARNE, Armentières",
+    "lat": 50.692773,
+    "lng": 2.87092,
+    "transactions": [
+      {
+        "date": "2025-02-21",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ab038fd02fd": {
+    "id": "7ab038fd02fd",
+    "label": "26 RUE DU PROGRES, Armentières",
+    "lat": 50.691131,
+    "lng": 2.875192,
+    "transactions": [
+      {
+        "date": "2025-02-26",
+        "priceEur": 88000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-26",
+        "priceEur": 88000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "c316e3ea1e5c": {
+    "id": "c316e3ea1e5c",
+    "label": "56 RUE DE VALMY, Armentières",
+    "lat": 50.693018,
+    "lng": 2.875539,
+    "transactions": [
+      {
+        "date": "2025-03-06",
+        "priceEur": 123000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d3a4171344d": {
+    "id": "8d3a4171344d",
+    "label": "38 RUE DES ARTS, Armentières",
+    "lat": 50.691059,
+    "lng": 2.876615,
+    "transactions": [
+      {
+        "date": "2025-03-26",
+        "priceEur": 102100,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "6c324ec6b3bd": {
+    "id": "6c324ec6b3bd",
+    "label": "121B RUE DE DUNKERQUE, Armentières",
+    "lat": 50.689774,
+    "lng": 2.878126,
+    "transactions": [
+      {
+        "date": "2025-04-23",
+        "priceEur": 350000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 16,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-23",
+        "priceEur": 350000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 14,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-23",
+        "priceEur": 350000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "9de717526ce6": {
+    "id": "9de717526ce6",
+    "label": "75 RUE MASSENET, Armentières",
+    "lat": 50.689557,
+    "lng": 2.873582,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "225d1e6b4ad6": {
+    "id": "225d1e6b4ad6",
+    "label": "26 RUE DE L INDUSTRIE, Armentières",
+    "lat": 50.690787,
+    "lng": 2.877257,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 86300,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "60a5dbf14e26": {
+    "id": "60a5dbf14e26",
+    "label": "58 RUE BERANGER, Armentières",
+    "lat": 50.691823,
+    "lng": 2.875635,
+    "transactions": [
+      {
+        "date": "2025-05-23",
+        "priceEur": 77500,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b160f0340ad": {
+    "id": "0b160f0340ad",
+    "label": "18 RUE DU KEMMEL, Armentières",
+    "lat": 50.691484,
+    "lng": 2.875498,
+    "transactions": [
+      {
+        "date": "2025-05-28",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea12b74be774": {
+    "id": "ea12b74be774",
+    "label": "83B RUE NATIONALE AVE MITTERRAND, Armentières",
+    "lat": 50.689058,
+    "lng": 2.877072,
+    "transactions": [
+      {
+        "date": "2025-06-11",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae26fd9f998c": {
+    "id": "ae26fd9f998c",
+    "label": "33B RUE BERANGER, Armentières",
+    "lat": 50.691612,
+    "lng": 2.87651,
+    "transactions": [
+      {
+        "date": "2025-05-28",
+        "priceEur": 294500,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e9fc0998aa1": {
+    "id": "4e9fc0998aa1",
+    "label": "22 RUE DE L HARMONIE, Armentières",
+    "lat": 50.693615,
+    "lng": 2.872828,
+    "transactions": [
+      {
+        "date": "2025-06-10",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "41d44bfbe081": {
+    "id": "41d44bfbe081",
+    "label": "18 RUE DE MESSINES, Armentières",
+    "lat": 50.69237,
+    "lng": 2.877948,
+    "transactions": [
+      {
+        "date": "2025-06-20",
+        "priceEur": 114000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  }
+}

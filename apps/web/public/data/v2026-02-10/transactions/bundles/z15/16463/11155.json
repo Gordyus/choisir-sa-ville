@@ -1,0 +1,69 @@
+{
+  "e6958bcb2be0": {
+    "id": "e6958bcb2be0",
+    "label": "170 RTE DE LINDEBEUF, Ouville-l'Abbaye",
+    "lat": 49.700887,
+    "lng": 0.869081,
+    "transactions": [
+      {
+        "date": "2020-09-16",
+        "priceEur": 132500,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "d52130d567c7": {
+    "id": "d52130d567c7",
+    "label": "166 RTE DE LINDEBEUF, Ouville-l'Abbaye",
+    "lat": 49.700702,
+    "lng": 0.8698,
+    "transactions": [
+      {
+        "date": "2023-04-21",
+        "priceEur": 190800,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-30",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9015c5dfbb6": {
+    "id": "f9015c5dfbb6",
+    "label": "325 RUE DU MONT DE BOURG, Ouville-l'Abbaye",
+    "lat": 49.698525,
+    "lng": 0.876729,
+    "transactions": [
+      {
+        "date": "2021-03-08",
+        "priceEur": 232000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "129ca69edb1c": {
+    "id": "129ca69edb1c",
+    "label": "326 RTE DE LINDEBEUF, Ouville-l'Abbaye",
+    "lat": 49.700493,
+    "lng": 0.871737,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 20000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  }
+}

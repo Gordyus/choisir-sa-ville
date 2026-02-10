@@ -1,0 +1,47 @@
+{
+  "2fb5b4dd7d6d": {
+    "id": "2fb5b4dd7d6d",
+    "label": "8 RUE JEAN DE BETHENCOURT, Saint-Martin-le-Gaillard",
+    "lat": 49.978229,
+    "lng": 1.37083,
+    "transactions": [
+      {
+        "date": "2021-02-19",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "5cc4260501c1": {
+    "id": "5cc4260501c1",
+    "label": "25 RUE L'HERMINA, Saint-Martin-le-Gaillard",
+    "lat": 49.978679,
+    "lng": 1.371284,
+    "transactions": [
+      {
+        "date": "2023-10-31",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "586b3932aa65": {
+    "id": "586b3932aa65",
+    "label": "4 PL BETHENCOURT, Saint-Martin-le-Gaillard",
+    "lat": 49.977838,
+    "lng": 1.369623,
+    "transactions": [
+      {
+        "date": "2025-05-30",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "491c6c86c0b1": {
+    "id": "491c6c86c0b1",
+    "label": "205 RUE JEANNE D'ARC, La Chaussée",
+    "lat": 49.826732,
+    "lng": 1.11658,
+    "transactions": [
+      {
+        "date": "2020-09-25",
+        "priceEur": 378000,
+        "typeLocal": "Maison",
+        "surfaceM2": 215,
+        "isVefa": false
+      }
+    ]
+  },
+  "5bc7a8e64e89": {
+    "id": "5bc7a8e64e89",
+    "label": "5066 TRIAGE DU CHATEAU, La Chaussée",
+    "lat": 49.826578,
+    "lng": 1.117125,
+    "transactions": [
+      {
+        "date": "2020-12-07",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "be7cc6cf496d": {
+    "id": "be7cc6cf496d",
+    "label": "5009 TRIAGE DU CHATEAU, La Chaussée",
+    "lat": 49.82617,
+    "lng": 1.11768,
+    "transactions": [
+      {
+        "date": "2021-04-16",
+        "priceEur": 132500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "2990a32426ff": {
+    "id": "2990a32426ff",
+    "label": "44 CHE DE RADVAL, La Chaussée",
+    "lat": 49.824382,
+    "lng": 1.116788,
+    "transactions": [
+      {
+        "date": "2022-05-10",
+        "priceEur": 197000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "832399ed0960": {
+    "id": "832399ed0960",
+    "label": "25 RUE DE ROTOMAGUS, La Chaussée",
+    "lat": 49.825087,
+    "lng": 1.11869,
+    "transactions": [
+      {
+        "date": "2024-02-12",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-12",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-12",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac872119ebb8": {
+    "id": "ac872119ebb8",
+    "label": "110 RUE SAINT JEAN BAPTISTE, La Chaussée",
+    "lat": 49.825231,
+    "lng": 1.119776,
+    "transactions": [
+      {
+        "date": "2024-03-27",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  }
+}

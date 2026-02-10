@@ -1,0 +1,62 @@
+{
+  "c14f9e2cb47b": {
+    "id": "c14f9e2cb47b",
+    "label": "36 RUE DU 11 NOVEMBRE 1918, Arques-la-Bataille",
+    "lat": 49.887698,
+    "lng": 1.121584,
+    "transactions": [
+      {
+        "date": "2021-06-03",
+        "priceEur": 114000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "34545a566c38": {
+    "id": "34545a566c38",
+    "label": "42 RUE DU 11 NOVEMBRE 1918, Arques-la-Bataille",
+    "lat": 49.888021,
+    "lng": 1.121235,
+    "transactions": [
+      {
+        "date": "2022-12-01",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "425846ad2baa": {
+    "id": "425846ad2baa",
+    "label": "46B RUE DU 11 NOVEMBRE 1918, Arques-la-Bataille",
+    "lat": 49.888313,
+    "lng": 1.121095,
+    "transactions": [
+      {
+        "date": "2023-03-27",
+        "priceEur": 200900,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc3fbdcfa166": {
+    "id": "bc3fbdcfa166",
+    "label": "65 RUE DU 11 NOVEMBRE 1918, Arques-la-Bataille",
+    "lat": 49.887759,
+    "lng": 1.120657,
+    "transactions": [
+      {
+        "date": "2025-03-12",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

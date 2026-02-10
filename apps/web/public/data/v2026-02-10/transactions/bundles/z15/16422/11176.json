@@ -1,0 +1,77 @@
+{
+  "4a4c79f6c786": {
+    "id": "4a4c79f6c786",
+    "label": "5111 LES TROIS PIERRES, Les Trois-Pierres",
+    "lat": 49.546942,
+    "lng": 0.419842,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c7418ebae1d": {
+    "id": "3c7418ebae1d",
+    "label": "960 RUE DU CARREAU, Mélamare",
+    "lat": 49.550661,
+    "lng": 0.425418,
+    "transactions": [
+      {
+        "date": "2022-07-27",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "1123a89f3cfa": {
+    "id": "1123a89f3cfa",
+    "label": "94 CHE DES FRENES, Mélamare",
+    "lat": 49.546738,
+    "lng": 0.420884,
+    "transactions": [
+      {
+        "date": "2022-08-19",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "8fdcca60fe58": {
+    "id": "8fdcca60fe58",
+    "label": "920 RUE DU CARREAU, Mélamare",
+    "lat": 49.550207,
+    "lng": 0.426266,
+    "transactions": [
+      {
+        "date": "2024-06-04",
+        "priceEur": 241470,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "021ea7653a86": {
+    "id": "021ea7653a86",
+    "label": "102 CHE DES FRENES, Mélamare",
+    "lat": 49.547191,
+    "lng": 0.421108,
+    "transactions": [
+      {
+        "date": "2025-03-13",
+        "priceEur": 232000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

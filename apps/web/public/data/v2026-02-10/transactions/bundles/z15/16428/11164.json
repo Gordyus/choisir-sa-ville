@@ -1,0 +1,46 @@
+{
+  "bd5b8f30019c": {
+    "id": "bd5b8f30019c",
+    "label": "5001 FERME A DUFRESNE, Bernières",
+    "lat": 49.634101,
+    "lng": 0.487296,
+    "transactions": [
+      {
+        "date": "2021-11-26",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "769b3c8f9252": {
+    "id": "769b3c8f9252",
+    "label": "1161 RUE DE LA FERME DUFRESNE, Bernières",
+    "lat": 49.635583,
+    "lng": 0.485652,
+    "transactions": [
+      {
+        "date": "2022-07-07",
+        "priceEur": 650000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-07",
+        "priceEur": 650000,
+        "typeLocal": "Maison",
+        "surfaceM2": 440,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-07",
+        "priceEur": 650000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

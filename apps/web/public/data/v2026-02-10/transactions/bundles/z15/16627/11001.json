@@ -1,0 +1,92 @@
+{
+  "b6fc9a77bb8e": {
+    "id": "b6fc9a77bb8e",
+    "label": "2372 CHE DU ROSSIGNOL, Berthen",
+    "lat": 50.780395,
+    "lng": 2.679218,
+    "transactions": [
+      {
+        "date": "2020-07-23",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b22a1f898ee": {
+    "id": "1b22a1f898ee",
+    "label": "516 CHE DE BOESCHEPE, Méteren",
+    "lat": 50.781766,
+    "lng": 2.669688,
+    "transactions": [
+      {
+        "date": "2021-06-09",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d6242a636f3": {
+    "id": "1d6242a636f3",
+    "label": "2466 CHE DU ROSSIGNOL, Berthen",
+    "lat": 50.781141,
+    "lng": 2.678838,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 342650,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d8456c43c5a": {
+    "id": "5d8456c43c5a",
+    "label": "2685 CHE DU ROSSIGNOL, Berthen",
+    "lat": 50.781418,
+    "lng": 2.675963,
+    "transactions": [
+      {
+        "date": "2022-10-01",
+        "priceEur": 850000,
+        "typeLocal": "Maison",
+        "surfaceM2": 184,
+        "isVefa": false
+      }
+    ]
+  },
+  "91f07e99ac1e": {
+    "id": "91f07e99ac1e",
+    "label": "2416 CHE DU ROSSIGNOL, Berthen",
+    "lat": 50.780655,
+    "lng": 2.679032,
+    "transactions": [
+      {
+        "date": "2023-08-29",
+        "priceEur": 156500,
+        "typeLocal": "Maison",
+        "surfaceM2": 37,
+        "isVefa": false
+      }
+    ]
+  },
+  "7af699131eaf": {
+    "id": "7af699131eaf",
+    "label": "2456 CHE DU ROSSIGNOL, Berthen",
+    "lat": 50.780859,
+    "lng": 2.678859,
+    "transactions": [
+      {
+        "date": "2025-04-17",
+        "priceEur": 243000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "dcc50e5eabdc": {
+    "id": "dcc50e5eabdc",
+    "label": "320 RUE DU BOIS, Fressain",
+    "lat": 50.286458,
+    "lng": 3.199412,
+    "transactions": [
+      {
+        "date": "2020-07-17",
+        "priceEur": 86000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e11b61a6747": {
+    "id": "2e11b61a6747",
+    "label": "180 RUE DU BOIS, Fressain",
+    "lat": 50.286702,
+    "lng": 3.198007,
+    "transactions": [
+      {
+        "date": "2021-05-27",
+        "priceEur": 129900,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1a35c1d088d": {
+    "id": "f1a35c1d088d",
+    "label": "447 RUE DU BOIS, Fressain",
+    "lat": 50.286144,
+    "lng": 3.20116,
+    "transactions": [
+      {
+        "date": "2021-08-25",
+        "priceEur": 110060,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc80d2f97140": {
+    "id": "bc80d2f97140",
+    "label": "155 RUE DU GRAND COIN, Fressain",
+    "lat": 50.288173,
+    "lng": 3.197055,
+    "transactions": [
+      {
+        "date": "2021-01-18",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "319e21469d97": {
+    "id": "319e21469d97",
+    "label": "201 RUE DU BOIS, Fressain",
+    "lat": 50.286106,
+    "lng": 3.198298,
+    "transactions": [
+      {
+        "date": "2021-04-13",
+        "priceEur": 173000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "310804ffd6a2": {
+    "id": "310804ffd6a2",
+    "label": "174 RUE DU BOIS, Fressain",
+    "lat": 50.286779,
+    "lng": 3.197742,
+    "transactions": [
+      {
+        "date": "2021-04-28",
+        "priceEur": 182000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "5aa976371e42": {
+    "id": "5aa976371e42",
+    "label": "147 RUE DU BOIS, Fressain",
+    "lat": 50.286051,
+    "lng": 3.197486,
+    "transactions": [
+      {
+        "date": "2022-05-06",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6fa6fef0255": {
+    "id": "d6fa6fef0255",
+    "label": "73 RUE DU GRAND COIN, Fressain",
+    "lat": 50.287345,
+    "lng": 3.197159,
+    "transactions": [
+      {
+        "date": "2022-09-19",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  }
+}

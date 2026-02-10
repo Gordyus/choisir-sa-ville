@@ -1,0 +1,62 @@
+{
+  "6d19949ecdea": {
+    "id": "6d19949ecdea",
+    "label": "1496B LES MARES, Sainte-Croix-sur-Buchy",
+    "lat": 49.551681,
+    "lng": 1.349843,
+    "transactions": [
+      {
+        "date": "2021-05-25",
+        "priceEur": 175500,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "dfa08f2a17c2": {
+    "id": "dfa08f2a17c2",
+    "label": "35 RUE DU BUS, Sainte-Croix-sur-Buchy",
+    "lat": 49.551524,
+    "lng": 1.351158,
+    "transactions": [
+      {
+        "date": "2022-05-09",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "ded3e5a72124": {
+    "id": "ded3e5a72124",
+    "label": "2121 RTE DE BLAINVILLE CREVON, Sainte-Croix-sur-Buchy",
+    "lat": 49.546786,
+    "lng": 1.346432,
+    "transactions": [
+      {
+        "date": "2023-02-28",
+        "priceEur": 233500,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "47fbf37baa9a": {
+    "id": "47fbf37baa9a",
+    "label": "1374 RTE DE BLAINVILLE CREVON, Sainte-Croix-sur-Buchy",
+    "lat": 49.552849,
+    "lng": 1.350679,
+    "transactions": [
+      {
+        "date": "2024-09-14",
+        "priceEur": 248000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

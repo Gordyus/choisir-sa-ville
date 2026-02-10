@@ -1,0 +1,24 @@
+{
+  "9fa13bd1a1bc": {
+    "id": "9fa13bd1a1bc",
+    "label": "66 RUE SCHEWREY STRAETE, Cappelle-Brouck",
+    "lat": 50.896866,
+    "lng": 2.214931,
+    "transactions": [
+      {
+        "date": "2024-09-24",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-13",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

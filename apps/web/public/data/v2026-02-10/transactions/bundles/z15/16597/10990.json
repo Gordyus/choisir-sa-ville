@@ -1,0 +1,84 @@
+{
+  "a2161ece4510": {
+    "id": "a2161ece4510",
+    "label": "38 RTE DE ST OMER, Bollezeele",
+    "lat": 50.859489,
+    "lng": 2.342763,
+    "transactions": [
+      {
+        "date": "2020-11-03",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca49bd764dc6": {
+    "id": "ca49bd764dc6",
+    "label": "36 RTE DE ST OMER, Bollezeele",
+    "lat": 50.859523,
+    "lng": 2.3429,
+    "transactions": [
+      {
+        "date": "2022-06-20",
+        "priceEur": 193600,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-18",
+        "priceEur": 186000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "72277a766bca": {
+    "id": "72277a766bca",
+    "label": "34 RTE DE ST OMER, Bollezeele",
+    "lat": 50.861194,
+    "lng": 2.343681,
+    "transactions": [
+      {
+        "date": "2021-12-15",
+        "priceEur": 236500,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "a716e5829914": {
+    "id": "a716e5829914",
+    "label": "11 RTE DE ST OMER, Bollezeele",
+    "lat": 50.859719,
+    "lng": 2.34364,
+    "transactions": [
+      {
+        "date": "2022-06-29",
+        "priceEur": 99000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "dc6b00b5f2b6": {
+    "id": "dc6b00b5f2b6",
+    "label": "1 CHE DES CLOUS, Bollezeele",
+    "lat": 50.859373,
+    "lng": 2.343463,
+    "transactions": [
+      {
+        "date": "2024-08-22",
+        "priceEur": 209000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

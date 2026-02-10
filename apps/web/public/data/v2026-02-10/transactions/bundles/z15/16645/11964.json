@@ -1,0 +1,32 @@
+{
+  "51d8f5fb63fd": {
+    "id": "51d8f5fb63fd",
+    "label": "5136 CROUZAC ET TRAVERS DEL FAN, Cambon-et-Salvergues",
+    "lat": 43.608951,
+    "lng": 2.871713,
+    "transactions": [
+      {
+        "date": "2020-07-20",
+        "priceEur": 42000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b033f3ceb1c": {
+    "id": "7b033f3ceb1c",
+    "label": "5150 CROUZAC ET TRAVERS DEL FAN, Cambon-et-Salvergues",
+    "lat": 43.608928,
+    "lng": 2.872107,
+    "transactions": [
+      {
+        "date": "2020-07-20",
+        "priceEur": 42000,
+        "typeLocal": "Maison",
+        "surfaceM2": 20,
+        "isVefa": false
+      }
+    ]
+  }
+}

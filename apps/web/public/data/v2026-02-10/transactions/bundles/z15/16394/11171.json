@@ -1,0 +1,62 @@
+{
+  "0a0f3e09b86f": {
+    "id": "0a0f3e09b86f",
+    "label": "5966 FERME DE VILLEQUIER, Octeville-sur-Mer",
+    "lat": 49.5839,
+    "lng": 0.117314,
+    "transactions": [
+      {
+        "date": "2020-10-16",
+        "priceEur": 378000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "1489bb180fcd": {
+    "id": "1489bb180fcd",
+    "label": "5910 FERME DE VILLEQUIER, Octeville-sur-Mer",
+    "lat": 49.584485,
+    "lng": 0.117033,
+    "transactions": [
+      {
+        "date": "2021-04-23",
+        "priceEur": 319500,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "0445cd600b51": {
+    "id": "0445cd600b51",
+    "label": "1B IMP DES COQUELICOTS, Octeville-sur-Mer",
+    "lat": 49.582345,
+    "lng": 0.118619,
+    "transactions": [
+      {
+        "date": "2021-07-21",
+        "priceEur": 447500,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "98c62d8668de": {
+    "id": "98c62d8668de",
+    "label": "120 RUE D'ECQUEVILLE, Octeville-sur-Mer",
+    "lat": 49.586177,
+    "lng": 0.120562,
+    "transactions": [
+      {
+        "date": "2021-11-26",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  }
+}

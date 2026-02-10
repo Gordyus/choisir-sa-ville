@@ -1,0 +1,47 @@
+{
+  "f60383370731": {
+    "id": "f60383370731",
+    "label": "38 RUE DU PLOUICH, Seclin",
+    "lat": 50.532337,
+    "lng": 3.031471,
+    "transactions": [
+      {
+        "date": "2022-03-11",
+        "priceEur": 228500,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "abd167be8c44": {
+    "id": "abd167be8c44",
+    "label": "50 RUE DU PLOUICH, Seclin",
+    "lat": 50.530877,
+    "lng": 3.031576,
+    "transactions": [
+      {
+        "date": "2022-04-20",
+        "priceEur": 478580,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "37d852548c6b": {
+    "id": "37d852548c6b",
+    "label": "52 RUE DU PLOUICH, Seclin",
+    "lat": 50.530649,
+    "lng": 3.031547,
+    "transactions": [
+      {
+        "date": "2022-11-28",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

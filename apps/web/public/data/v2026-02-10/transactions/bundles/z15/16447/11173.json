@@ -1,0 +1,32 @@
+{
+  "c5286fb5af8c": {
+    "id": "c5286fb5af8c",
+    "label": "165 RTE DE LA BRASSERIE, Louvetot",
+    "lat": 49.567997,
+    "lng": 0.700825,
+    "transactions": [
+      {
+        "date": "2022-03-15",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "8eb5fe2550af": {
+    "id": "8eb5fe2550af",
+    "label": "1050 RTE D ALLOUVILLE, Bois-Himont",
+    "lat": 49.573342,
+    "lng": 0.69546,
+    "transactions": [
+      {
+        "date": "2023-12-28",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "fd42c3936621": {
+    "id": "fd42c3936621",
+    "label": "166 RUE DU CHATEAU, Froberville",
+    "lat": 49.724526,
+    "lng": 0.332865,
+    "transactions": [
+      {
+        "date": "2023-04-13",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "8475fc1867b6": {
+    "id": "8475fc1867b6",
+    "label": "241 RUE DU CHATEAU, Froberville",
+    "lat": 49.725058,
+    "lng": 0.332545,
+    "transactions": [
+      {
+        "date": "2025-04-23",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "05e9a5e0462d": {
+    "id": "05e9a5e0462d",
+    "label": "17 RUE DE LA GRANDE VALLEE, Guerville",
+    "lat": 49.954058,
+    "lng": 1.517494,
+    "transactions": [
+      {
+        "date": "2020-07-08",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6d412acc1c9": {
+    "id": "b6d412acc1c9",
+    "label": "26 RUE DE LA GRANDE VALLEE, Guerville",
+    "lat": 49.955327,
+    "lng": 1.516675,
+    "transactions": [
+      {
+        "date": "2021-11-27",
+        "priceEur": 10000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "558a151806e2": {
+    "id": "558a151806e2",
+    "label": "6 LOT LES PRIMEVERES, Guerville",
+    "lat": 49.955626,
+    "lng": 1.517282,
+    "transactions": [
+      {
+        "date": "2021-11-30",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d319d19c00c": {
+    "id": "9d319d19c00c",
+    "label": "12 RUE DE LA GRANDE VALLEE, Guerville",
+    "lat": 49.956395,
+    "lng": 1.516498,
+    "transactions": [
+      {
+        "date": "2024-01-22",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "2cf355190084": {
+    "id": "2cf355190084",
+    "label": "38 RUE DES ALLIES, Guerville",
+    "lat": 49.958267,
+    "lng": 1.517841,
+    "transactions": [
+      {
+        "date": "2024-03-15",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "c091a57a10f2": {
+    "id": "c091a57a10f2",
+    "label": "22 RUE AUX JUIFS, Guerville",
+    "lat": 49.957205,
+    "lng": 1.517604,
+    "transactions": [
+      {
+        "date": "2024-04-29",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-29",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "57231da8bd8c": {
+    "id": "57231da8bd8c",
+    "label": "20 RUE AUX JUIFS, Guerville",
+    "lat": 49.957162,
+    "lng": 1.517293,
+    "transactions": [
+      {
+        "date": "2024-04-29",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "675aea8bcde3": {
+    "id": "675aea8bcde3",
+    "label": "4B RUE DE LA GRANDE VALLEE, Guerville",
+    "lat": 49.956708,
+    "lng": 1.517364,
+    "transactions": [
+      {
+        "date": "2024-05-07",
+        "priceEur": 223950,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  }
+}

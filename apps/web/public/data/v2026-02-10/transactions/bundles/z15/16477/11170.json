@@ -1,0 +1,62 @@
+{
+  "a55f81d37b84": {
+    "id": "a55f81d37b84",
+    "label": "2 RES LES PRES, Sierville",
+    "lat": 49.589632,
+    "lng": 1.031574,
+    "transactions": [
+      {
+        "date": "2021-04-19",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "da86ca37e8b9": {
+    "id": "da86ca37e8b9",
+    "label": "311 RTE DE PAVILLY, Sierville",
+    "lat": 49.590614,
+    "lng": 1.031324,
+    "transactions": [
+      {
+        "date": "2023-09-21",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "f3ed8f1b2ca0": {
+    "id": "f3ed8f1b2ca0",
+    "label": "245 RTE DE PAVILLY, Sierville",
+    "lat": 49.590507,
+    "lng": 1.032132,
+    "transactions": [
+      {
+        "date": "2024-04-03",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "e19417287fdd": {
+    "id": "e19417287fdd",
+    "label": "9 RES LES PRES, Sierville",
+    "lat": 49.590399,
+    "lng": 1.030375,
+    "transactions": [
+      {
+        "date": "2024-05-31",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  }
+}

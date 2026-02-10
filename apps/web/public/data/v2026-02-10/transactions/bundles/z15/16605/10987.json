@@ -1,0 +1,54 @@
+{
+  "e40c079642aa": {
+    "id": "e40c079642aa",
+    "label": "1132 RUE DU VERT VALLON, Esquelbecq",
+    "lat": 50.875858,
+    "lng": 2.43828,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 31298.01,
+        "typeLocal": "Maison",
+        "surfaceM2": 26,
+        "isVefa": false
+      }
+    ]
+  },
+  "63c9a379d150": {
+    "id": "63c9a379d150",
+    "label": "434 RUE DES DUNKIRKS    VETERANS, Esquelbecq",
+    "lat": 50.881928,
+    "lng": 2.436206,
+    "transactions": [
+      {
+        "date": "2024-07-01",
+        "priceEur": 422000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-29",
+        "priceEur": 222000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "a29164bc2664": {
+    "id": "a29164bc2664",
+    "label": "450 RUE DU VERT VALLON, Esquelbecq",
+    "lat": 50.880893,
+    "lng": 2.433831,
+    "transactions": [
+      {
+        "date": "2023-05-05",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "5db978129182": {
+    "id": "5db978129182",
+    "label": "2 IMP DU CHATEAU, Contremoulins",
+    "lat": 49.719496,
+    "lng": 0.431179,
+    "transactions": [
+      {
+        "date": "2021-09-01",
+        "priceEur": 2000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "73634670bfef": {
+    "id": "73634670bfef",
+    "label": "7 CHE DES ALOUETTES, Contremoulins",
+    "lat": 49.718561,
+    "lng": 0.434708,
+    "transactions": [
+      {
+        "date": "2022-03-08",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0c015dc3fab": {
+    "id": "a0c015dc3fab",
+    "label": "1 IMP DU CHATEAU, Contremoulins",
+    "lat": 49.720508,
+    "lng": 0.431892,
+    "transactions": [
+      {
+        "date": "2024-02-19",
+        "priceEur": 1100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 315,
+        "isVefa": false
+      }
+    ]
+  }
+}

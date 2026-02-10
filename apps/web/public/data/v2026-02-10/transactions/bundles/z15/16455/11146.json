@@ -1,0 +1,62 @@
+{
+  "f4f4cf5826dd": {
+    "id": "f4f4cf5826dd",
+    "label": "4 RTE DE L HOSPICE, Fultot",
+    "lat": 49.760894,
+    "lng": 0.783009,
+    "transactions": [
+      {
+        "date": "2022-02-21",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "69d4706cc63f": {
+    "id": "69d4706cc63f",
+    "label": "4A RTE DE L HOSPICE, Fultot",
+    "lat": 49.760843,
+    "lng": 0.784036,
+    "transactions": [
+      {
+        "date": "2022-02-21",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "84180ecc7238": {
+    "id": "84180ecc7238",
+    "label": "4 IMP TOIT DES HETRES, Fultot",
+    "lat": 49.760097,
+    "lng": 0.78425,
+    "transactions": [
+      {
+        "date": "2022-05-18",
+        "priceEur": 262000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "2df320c6ce86": {
+    "id": "2df320c6ce86",
+    "label": "8 IMP TOIT DES HETRES, Fultot",
+    "lat": 49.760624,
+    "lng": 0.78467,
+    "transactions": [
+      {
+        "date": "2024-03-26",
+        "priceEur": 239500,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

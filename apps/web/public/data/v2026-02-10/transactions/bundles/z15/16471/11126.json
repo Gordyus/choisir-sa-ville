@@ -1,0 +1,77 @@
+{
+  "22bc5e22247e": {
+    "id": "22bc5e22247e",
+    "label": "5304 SOUS LES BRUYERES, Sainte-Marguerite-sur-Mer",
+    "lat": 49.908393,
+    "lng": 0.958651,
+    "transactions": [
+      {
+        "date": "2020-12-10",
+        "priceEur": 275500,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "40393cbc715a": {
+    "id": "40393cbc715a",
+    "label": "3 RES LES BELLES ETENTES, Sainte-Marguerite-sur-Mer",
+    "lat": 49.907795,
+    "lng": 0.959452,
+    "transactions": [
+      {
+        "date": "2021-09-16",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "d22d55bd54d9": {
+    "id": "d22d55bd54d9",
+    "label": "38 RES LES BELLES ETENTES, Sainte-Marguerite-sur-Mer",
+    "lat": 49.907693,
+    "lng": 0.957919,
+    "transactions": [
+      {
+        "date": "2022-09-23",
+        "priceEur": 246000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ee77d94c947": {
+    "id": "2ee77d94c947",
+    "label": "491 RTE DE SAINT MARTIN, Sainte-Marguerite-sur-Mer",
+    "lat": 49.903289,
+    "lng": 0.960586,
+    "transactions": [
+      {
+        "date": "2022-12-23",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "504e332cc678": {
+    "id": "504e332cc678",
+    "label": "12 RES LES BELLES ETENTES, Sainte-Marguerite-sur-Mer",
+    "lat": 49.907579,
+    "lng": 0.956429,
+    "transactions": [
+      {
+        "date": "2024-07-18",
+        "priceEur": 290750,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

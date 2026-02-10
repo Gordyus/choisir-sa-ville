@@ -1,0 +1,83 @@
+{
+  "a33200f186df": {
+    "id": "a33200f186df",
+    "label": "905 CHE DE MONTMAL, Bédarieux",
+    "lat": 43.623311,
+    "lng": 3.141663,
+    "transactions": [
+      {
+        "date": "2021-05-04",
+        "priceEur": 346500,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-04",
+        "priceEur": 346500,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b20ae324b51": {
+    "id": "2b20ae324b51",
+    "label": "9016 MONTMAL, Bédarieux",
+    "lat": 43.624945,
+    "lng": 3.141081,
+    "transactions": [
+      {
+        "date": "2023-06-07",
+        "priceEur": 99000,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-16",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a07f50590da": {
+    "id": "8a07f50590da",
+    "label": "1176 CHE DE MONTMAL, Bédarieux",
+    "lat": 43.624928,
+    "lng": 3.14186,
+    "transactions": [
+      {
+        "date": "2023-06-07",
+        "priceEur": 99000,
+        "typeLocal": "Maison",
+        "surfaceM2": 26,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-07",
+        "priceEur": 99000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "712956743a24": {
+    "id": "712956743a24",
+    "label": "5294F LE CAUSSE, Villemagne-l'Argentière",
+    "lat": 43.625171,
+    "lng": 3.135087,
+    "transactions": [
+      {
+        "date": "2024-07-18",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  }
+}

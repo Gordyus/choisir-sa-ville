@@ -1,0 +1,77 @@
+{
+  "590270ff200b": {
+    "id": "590270ff200b",
+    "label": "106 RTE DE PARIS, Belbeuf",
+    "lat": 49.362815,
+    "lng": 1.129636,
+    "transactions": [
+      {
+        "date": "2021-07-21",
+        "priceEur": 394800,
+        "typeLocal": "Maison",
+        "surfaceM2": 202,
+        "isVefa": false
+      }
+    ]
+  },
+  "be5432d3f421": {
+    "id": "be5432d3f421",
+    "label": "98A RTE DE PARIS, Belbeuf",
+    "lat": 49.364569,
+    "lng": 1.129345,
+    "transactions": [
+      {
+        "date": "2023-03-31",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "55ae9d1ec5bd": {
+    "id": "55ae9d1ec5bd",
+    "label": "88 RTE DE PARIS, Belbeuf",
+    "lat": 49.366028,
+    "lng": 1.129257,
+    "transactions": [
+      {
+        "date": "2023-08-28",
+        "priceEur": 227000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f168b31ba0a": {
+    "id": "1f168b31ba0a",
+    "label": "110 RTE DE PARIS, Belbeuf",
+    "lat": 49.361625,
+    "lng": 1.129579,
+    "transactions": [
+      {
+        "date": "2023-12-14",
+        "priceEur": 335700,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "a33b5d9d112c": {
+    "id": "a33b5d9d112c",
+    "label": "84 RTE DE PARIS, Belbeuf",
+    "lat": 49.36636,
+    "lng": 1.129277,
+    "transactions": [
+      {
+        "date": "2024-05-10",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "43e1981e4f81": {
+    "id": "43e1981e4f81",
+    "label": "3 PASS DES JARDINS, Fontaine-la-Mallet",
+    "lat": 49.532664,
+    "lng": 0.129,
+    "transactions": [
+      {
+        "date": "2021-02-15",
+        "priceEur": 349800,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "44869fa66167": {
+    "id": "44869fa66167",
+    "label": "5155 LES MONTS TROTTINS, Fontaine-la-Mallet",
+    "lat": 49.53296,
+    "lng": 0.128945,
+    "transactions": [
+      {
+        "date": "2021-06-25",
+        "priceEur": 435000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3cc92abbe44": {
+    "id": "c3cc92abbe44",
+    "label": "4 LES MONTS TROTTINS, Fontaine-la-Mallet",
+    "lat": 49.533259,
+    "lng": 0.129304,
+    "transactions": [
+      {
+        "date": "2022-04-19",
+        "priceEur": 272000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "a63132112971": {
+    "id": "a63132112971",
+    "label": "1 IMP DE LA FERME HAMEL, Octeville-sur-Mer",
+    "lat": 49.539246,
+    "lng": 0.123687,
+    "transactions": [
+      {
+        "date": "2023-03-24",
+        "priceEur": 448000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  }
+}

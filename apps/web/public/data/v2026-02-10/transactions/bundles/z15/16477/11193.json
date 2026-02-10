@@ -1,0 +1,99 @@
+{
+  "c6d19c9ec7d9": {
+    "id": "c6d19c9ec7d9",
+    "label": "31B QUAI GUSTAVE FLAUBERT, Canteleu",
+    "lat": 49.431103,
+    "lng": 1.026159,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 121000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed2dbed45fe9": {
+    "id": "ed2dbed45fe9",
+    "label": "27 QUAI GUSTAVE FLAUBERT, Canteleu",
+    "lat": 49.431767,
+    "lng": 1.026345,
+    "transactions": [
+      {
+        "date": "2023-07-26",
+        "priceEur": 107600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-23",
+        "priceEur": 119000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8d472aceed5": {
+    "id": "e8d472aceed5",
+    "label": "67 QUAI GUSTAVE FLAUBERT, Canteleu",
+    "lat": 49.427049,
+    "lng": 1.021986,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ce03f7bfaeb": {
+    "id": "9ce03f7bfaeb",
+    "label": "40 QUAI GUSTAVE FLAUBERT, Canteleu",
+    "lat": 49.429958,
+    "lng": 1.024772,
+    "transactions": [
+      {
+        "date": "2021-09-09",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2571172db40": {
+    "id": "e2571172db40",
+    "label": "50 QUAI GUSTAVE FLAUBERT, Canteleu",
+    "lat": 49.429202,
+    "lng": 1.024326,
+    "transactions": [
+      {
+        "date": "2021-10-07",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf6fe1de6b24": {
+    "id": "cf6fe1de6b24",
+    "label": "63 QUAI GUSTAVE FLAUBERT, Canteleu",
+    "lat": 49.427245,
+    "lng": 1.022221,
+    "transactions": [
+      {
+        "date": "2023-02-27",
+        "priceEur": 243000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

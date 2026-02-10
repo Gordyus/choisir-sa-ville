@@ -1,0 +1,62 @@
+{
+  "6bfc15dbaa13": {
+    "id": "6bfc15dbaa13",
+    "label": "109 RTE PRINCIPALE, Bosc-Hyons",
+    "lat": 49.444891,
+    "lng": 1.661487,
+    "transactions": [
+      {
+        "date": "2020-10-09",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e310cfde52c": {
+    "id": "5e310cfde52c",
+    "label": "4B RTE DES ANDELYS, Bosc-Hyons",
+    "lat": 49.445324,
+    "lng": 1.6612,
+    "transactions": [
+      {
+        "date": "2020-10-24",
+        "priceEur": 196000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "35cbacfb11f5": {
+    "id": "35cbacfb11f5",
+    "label": "25 CHE DE LA RAVINE, Montroty",
+    "lat": 49.439756,
+    "lng": 1.666721,
+    "transactions": [
+      {
+        "date": "2022-09-01",
+        "priceEur": 108925,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "b21271a22dd9": {
+    "id": "b21271a22dd9",
+    "label": "344 RUE DES ENCLOS, Montroty",
+    "lat": 49.440121,
+    "lng": 1.666399,
+    "transactions": [
+      {
+        "date": "2024-11-23",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

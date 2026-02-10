@@ -1,0 +1,62 @@
+{
+  "1c6fba7c752d": {
+    "id": "1c6fba7c752d",
+    "label": "14 RTE DE SAINT NICOLAS, Bourbourg",
+    "lat": 50.935878,
+    "lng": 2.193169,
+    "transactions": [
+      {
+        "date": "2021-07-09",
+        "priceEur": 111000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "e7a9ec080261": {
+    "id": "e7a9ec080261",
+    "label": "4 RTE DE SAINT NICOLAS, Bourbourg",
+    "lat": 50.937507,
+    "lng": 2.193644,
+    "transactions": [
+      {
+        "date": "2024-02-08",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9948951f815": {
+    "id": "b9948951f815",
+    "label": "9003 CHE DE L IZEL VC112, Bourbourg",
+    "lat": 50.932871,
+    "lng": 2.187548,
+    "transactions": [
+      {
+        "date": "2025-05-15",
+        "priceEur": 302500,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "46792fb3d1f4": {
+    "id": "46792fb3d1f4",
+    "label": "4804 CHE DE L IZEL VC112, Bourbourg",
+    "lat": 50.936891,
+    "lng": 2.188111,
+    "transactions": [
+      {
+        "date": "2025-06-11",
+        "priceEur": 258000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  }
+}

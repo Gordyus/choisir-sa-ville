@@ -1,0 +1,77 @@
+{
+  "15f1593e3e22": {
+    "id": "15f1593e3e22",
+    "label": "31 RUE DU MOULINEL, Cantin",
+    "lat": 50.311142,
+    "lng": 3.11684,
+    "transactions": [
+      {
+        "date": "2021-07-26",
+        "priceEur": 254800,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "23bf3aedbed2": {
+    "id": "23bf3aedbed2",
+    "label": "27 RUE DU MOULINEL, Cantin",
+    "lat": 50.311036,
+    "lng": 3.118062,
+    "transactions": [
+      {
+        "date": "2022-02-01",
+        "priceEur": 415000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "beb56f0c94e4": {
+    "id": "beb56f0c94e4",
+    "label": "22 RUE DU MOULINEL, Cantin",
+    "lat": 50.313201,
+    "lng": 3.118256,
+    "transactions": [
+      {
+        "date": "2023-10-19",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "471ce8eb4915": {
+    "id": "471ce8eb4915",
+    "label": "4 RUE GEORGE SAND, Cantin",
+    "lat": 50.311811,
+    "lng": 3.118552,
+    "transactions": [
+      {
+        "date": "2023-12-12",
+        "priceEur": 205290,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "24db86e86b87": {
+    "id": "24db86e86b87",
+    "label": "35 RUE DE DOUAI, Cantin",
+    "lat": 50.316815,
+    "lng": 3.119918,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 256000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  }
+}

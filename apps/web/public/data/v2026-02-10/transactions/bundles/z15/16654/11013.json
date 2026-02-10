@@ -1,0 +1,32 @@
+{
+  "6d25ea234c01": {
+    "id": "6d25ea234c01",
+    "label": "3329 RUE DE MESSINES, Frelinghien",
+    "lat": 50.698629,
+    "lng": 2.971911,
+    "transactions": [
+      {
+        "date": "2024-04-19",
+        "priceEur": 590000,
+        "typeLocal": "Maison",
+        "surfaceM2": 214,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d7539747220": {
+    "id": "7d7539747220",
+    "label": "3754 RUE DE MESSINES, Frelinghien",
+    "lat": 50.696953,
+    "lng": 2.9762,
+    "transactions": [
+      {
+        "date": "2024-04-23",
+        "priceEur": 146500,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

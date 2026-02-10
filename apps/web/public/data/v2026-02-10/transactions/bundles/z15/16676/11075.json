@@ -1,0 +1,717 @@
+{
+  "f686c30c3d9c": {
+    "id": "f686c30c3d9c",
+    "label": "15 RUE ALFRED MERLIOT, Féchain",
+    "lat": 50.266375,
+    "lng": 3.215945,
+    "transactions": [
+      {
+        "date": "2020-07-10",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "3abdc8fa06ae": {
+    "id": "3abdc8fa06ae",
+    "label": "40 RUE LOUIS CHANTREAU, Féchain",
+    "lat": 50.265652,
+    "lng": 3.214142,
+    "transactions": [
+      {
+        "date": "2020-07-27",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "682fbab050c9": {
+    "id": "682fbab050c9",
+    "label": "5480 RUE DU MARAIS, Féchain",
+    "lat": 50.262418,
+    "lng": 3.217079,
+    "transactions": [
+      {
+        "date": "2020-08-07",
+        "priceEur": 5100,
+        "typeLocal": "Maison",
+        "surfaceM2": 15,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f46c993d0cd": {
+    "id": "4f46c993d0cd",
+    "label": "22 RUE DES FRERES MARTEL, Féchain",
+    "lat": 50.264398,
+    "lng": 3.215048,
+    "transactions": [
+      {
+        "date": "2020-11-16",
+        "priceEur": 140800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 94,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-16",
+        "priceEur": 140800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "2dba98e1e77d": {
+    "id": "2dba98e1e77d",
+    "label": "180 RLE DES PROCESSIONS, Féchain",
+    "lat": 50.266614,
+    "lng": 3.212726,
+    "transactions": [
+      {
+        "date": "2021-06-14",
+        "priceEur": 85550,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "4dbe91c4371e": {
+    "id": "4dbe91c4371e",
+    "label": "5021 5 RAZIERES DU BOIS DU SEIG, Féchain",
+    "lat": 50.262878,
+    "lng": 3.210503,
+    "transactions": [
+      {
+        "date": "2021-07-06",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d1675591589": {
+    "id": "0d1675591589",
+    "label": "2 RUE ALFRED MERLIOT, Féchain",
+    "lat": 50.265797,
+    "lng": 3.215084,
+    "transactions": [
+      {
+        "date": "2021-07-22",
+        "priceEur": 124000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-22",
+        "priceEur": 124000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "021b18c11926": {
+    "id": "021b18c11926",
+    "label": "5478 RUE DU MARAIS, Féchain",
+    "lat": 50.262688,
+    "lng": 3.216533,
+    "transactions": [
+      {
+        "date": "2021-07-26",
+        "priceEur": 29000,
+        "typeLocal": "Maison",
+        "surfaceM2": 21,
+        "isVefa": false
+      }
+    ]
+  },
+  "decdf1ecf023": {
+    "id": "decdf1ecf023",
+    "label": "9 RUE PIERRE BOCHU, Féchain",
+    "lat": 50.266133,
+    "lng": 3.210073,
+    "transactions": [
+      {
+        "date": "2021-08-26",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "f2c375fdd333": {
+    "id": "f2c375fdd333",
+    "label": "5442 RUE DU MARAIS, Féchain",
+    "lat": 50.262299,
+    "lng": 3.210189,
+    "transactions": [
+      {
+        "date": "2021-09-29",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 11,
+        "isVefa": false
+      }
+    ]
+  },
+  "37ed91738a47": {
+    "id": "37ed91738a47",
+    "label": "5453 RUE DU MARAIS, Féchain",
+    "lat": 50.26235,
+    "lng": 3.210686,
+    "transactions": [
+      {
+        "date": "2021-03-08",
+        "priceEur": 31000,
+        "typeLocal": "Maison",
+        "surfaceM2": 16,
+        "isVefa": false
+      }
+    ]
+  },
+  "75294d284b1f": {
+    "id": "75294d284b1f",
+    "label": "6 RUE PAUL CHANTREAU, Féchain",
+    "lat": 50.265992,
+    "lng": 3.218989,
+    "transactions": [
+      {
+        "date": "2021-04-26",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "abdf0c335701": {
+    "id": "abdf0c335701",
+    "label": "15 RUE JEAN BAPTISTE HOSSELET, Féchain",
+    "lat": 50.264397,
+    "lng": 3.209324,
+    "transactions": [
+      {
+        "date": "2021-04-29",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "79e811c4b677": {
+    "id": "79e811c4b677",
+    "label": "42 RUE LOUIS CHANTREAU, Féchain",
+    "lat": 50.265568,
+    "lng": 3.214394,
+    "transactions": [
+      {
+        "date": "2021-05-11",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "c56e94786dfc": {
+    "id": "c56e94786dfc",
+    "label": "28 RUE ALFRED MERLIOT, Féchain",
+    "lat": 50.266348,
+    "lng": 3.217258,
+    "transactions": [
+      {
+        "date": "2022-03-18",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "a4ef3cb0617b": {
+    "id": "a4ef3cb0617b",
+    "label": "6 RUE DES FRERES MARTEL, Féchain",
+    "lat": 50.264955,
+    "lng": 3.214844,
+    "transactions": [
+      {
+        "date": "2022-03-30",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad2add914f8b": {
+    "id": "ad2add914f8b",
+    "label": "3 RUE HUBERT RAOUT, Féchain",
+    "lat": 50.266983,
+    "lng": 3.214591,
+    "transactions": [
+      {
+        "date": "2022-06-23",
+        "priceEur": 210900,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a421345d880": {
+    "id": "3a421345d880",
+    "label": "31 RUE LOUIS CHANTREAU, Féchain",
+    "lat": 50.265943,
+    "lng": 3.213114,
+    "transactions": [
+      {
+        "date": "2022-06-24",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "f35ab0ce6a9f": {
+    "id": "f35ab0ce6a9f",
+    "label": "30 RUE PIERRE BOCHU, Féchain",
+    "lat": 50.26795,
+    "lng": 3.210268,
+    "transactions": [
+      {
+        "date": "2022-08-03",
+        "priceEur": 78400,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a0b9ee4a0fd": {
+    "id": "3a0b9ee4a0fd",
+    "label": "18 RUE JEAN BAPTISTE HOSSELET, Féchain",
+    "lat": 50.264326,
+    "lng": 3.208437,
+    "transactions": [
+      {
+        "date": "2022-10-24",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f3f9a502f21": {
+    "id": "9f3f9a502f21",
+    "label": "9 RUE VOLCKCRICK, Féchain",
+    "lat": 50.264026,
+    "lng": 3.211291,
+    "transactions": [
+      {
+        "date": "2023-02-10",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0c3746bc75d": {
+    "id": "a0c3746bc75d",
+    "label": "464 RUE PAUL CHANTREAU, Féchain",
+    "lat": 50.264546,
+    "lng": 3.218926,
+    "transactions": [
+      {
+        "date": "2023-03-13",
+        "priceEur": 43000,
+        "typeLocal": "Maison",
+        "surfaceM2": 37,
+        "isVefa": false
+      }
+    ]
+  },
+  "f854a2c35674": {
+    "id": "f854a2c35674",
+    "label": "54B RUE DES FRERES MARTEL, Féchain",
+    "lat": 50.265041,
+    "lng": 3.217992,
+    "transactions": [
+      {
+        "date": "2023-03-15",
+        "priceEur": 41000,
+        "typeLocal": "Maison",
+        "surfaceM2": 37,
+        "isVefa": false
+      }
+    ]
+  },
+  "3696338de1f0": {
+    "id": "3696338de1f0",
+    "label": "4 RUE PAUL CHANTREAU, Féchain",
+    "lat": 50.266143,
+    "lng": 3.218862,
+    "transactions": [
+      {
+        "date": "2023-04-11",
+        "priceEur": 216000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "b845b1562503": {
+    "id": "b845b1562503",
+    "label": "5 5 RAZIERES DU BOIS DU SEIG, Féchain",
+    "lat": 50.262643,
+    "lng": 3.210158,
+    "transactions": [
+      {
+        "date": "2023-04-13",
+        "priceEur": 7500,
+        "typeLocal": "Maison",
+        "surfaceM2": 14,
+        "isVefa": false
+      }
+    ]
+  },
+  "429a7f8776b9": {
+    "id": "429a7f8776b9",
+    "label": "5 RUE ALFRED MERLIOT, Féchain",
+    "lat": 50.266431,
+    "lng": 3.215392,
+    "transactions": [
+      {
+        "date": "2023-04-18",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "5688e360508f": {
+    "id": "5688e360508f",
+    "label": "36 RUE DE L'EGALITE, Féchain",
+    "lat": 50.266741,
+    "lng": 3.216866,
+    "transactions": [
+      {
+        "date": "2023-08-31",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "bdfbd7ddf8fa": {
+    "id": "bdfbd7ddf8fa",
+    "label": "22 RUE JEAN BAPTISTE HOSSELET, Féchain",
+    "lat": 50.264254,
+    "lng": 3.208319,
+    "transactions": [
+      {
+        "date": "2023-10-21",
+        "priceEur": 39500,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "70faea2cd03e": {
+    "id": "70faea2cd03e",
+    "label": "11 RUE PIERRE BOCHU, Féchain",
+    "lat": 50.266172,
+    "lng": 3.210064,
+    "transactions": [
+      {
+        "date": "2023-10-27",
+        "priceEur": 106500,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "86714ea42763": {
+    "id": "86714ea42763",
+    "label": "60 RUE DES FRERES MARTEL, Féchain",
+    "lat": 50.265483,
+    "lng": 3.218099,
+    "transactions": [
+      {
+        "date": "2023-12-05",
+        "priceEur": 109000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c46ec0c3b2b": {
+    "id": "3c46ec0c3b2b",
+    "label": "4 RUE VOLCKCRICK, Féchain",
+    "lat": 50.264686,
+    "lng": 3.210358,
+    "transactions": [
+      {
+        "date": "2023-12-04",
+        "priceEur": 109000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd75b2ae83ac": {
+    "id": "cd75b2ae83ac",
+    "label": "10 RUE DU MARAIS, Féchain",
+    "lat": 50.262834,
+    "lng": 3.213504,
+    "transactions": [
+      {
+        "date": "2024-02-09",
+        "priceEur": 6500,
+        "typeLocal": "Maison",
+        "surfaceM2": 15,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b72e6bee196": {
+    "id": "7b72e6bee196",
+    "label": "14 RUE ALFRED MERLIOT, Féchain",
+    "lat": 50.266106,
+    "lng": 3.215987,
+    "transactions": [
+      {
+        "date": "2024-02-22",
+        "priceEur": 43500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7bd088bc55b": {
+    "id": "f7bd088bc55b",
+    "label": "5421 RUE DU MARAIS, Féchain",
+    "lat": 50.261543,
+    "lng": 3.209009,
+    "transactions": [
+      {
+        "date": "2024-06-06",
+        "priceEur": 17676.52,
+        "typeLocal": "Maison",
+        "surfaceM2": 18,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-06",
+        "priceEur": 17676.52,
+        "typeLocal": "Maison",
+        "surfaceM2": 13,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-06",
+        "priceEur": 17676.52,
+        "typeLocal": "Maison",
+        "surfaceM2": 14,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-06",
+        "priceEur": 17676.52,
+        "typeLocal": "Maison",
+        "surfaceM2": 7,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-06",
+        "priceEur": 17676.52,
+        "typeLocal": "Maison",
+        "surfaceM2": 29,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-06",
+        "priceEur": 17676.52,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-06",
+        "priceEur": 17676.52,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "e7267e7bfe92": {
+    "id": "e7267e7bfe92",
+    "label": "5683 RUE DU MARAIS, Féchain",
+    "lat": 50.261526,
+    "lng": 3.209214,
+    "transactions": [
+      {
+        "date": "2024-06-06",
+        "priceEur": 3073.48,
+        "typeLocal": "Maison",
+        "surfaceM2": 9,
+        "isVefa": false
+      }
+    ]
+  },
+  "de1c858ae459": {
+    "id": "de1c858ae459",
+    "label": "16 RUE JEAN BAPTISTE HOSSELET, Féchain",
+    "lat": 50.264366,
+    "lng": 3.20857,
+    "transactions": [
+      {
+        "date": "2024-07-11",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3c53af2bfaf": {
+    "id": "a3c53af2bfaf",
+    "label": "5443 RUE DU MARAIS, Féchain",
+    "lat": 50.262175,
+    "lng": 3.210221,
+    "transactions": [
+      {
+        "date": "2024-07-31",
+        "priceEur": 34000,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3b710d5d862": {
+    "id": "a3b710d5d862",
+    "label": "54 RUE DES FRERES MARTEL, Féchain",
+    "lat": 50.265089,
+    "lng": 3.217771,
+    "transactions": [
+      {
+        "date": "2024-09-10",
+        "priceEur": 184000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "65096dbef793": {
+    "id": "65096dbef793",
+    "label": "24 RUE VOLCKCRICK, Féchain",
+    "lat": 50.262733,
+    "lng": 3.210699,
+    "transactions": [
+      {
+        "date": "2025-01-17",
+        "priceEur": 1500,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-17",
+        "priceEur": 1500,
+        "typeLocal": "Maison",
+        "surfaceM2": 31,
+        "isVefa": false
+      }
+    ]
+  },
+  "fdcda65ba8b7": {
+    "id": "fdcda65ba8b7",
+    "label": "52 RUE DES FRERES MARTEL, Féchain",
+    "lat": 50.26481,
+    "lng": 3.217865,
+    "transactions": [
+      {
+        "date": "2025-01-29",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c77c55ac63d": {
+    "id": "7c77c55ac63d",
+    "label": "9 RUE HUBERT RAOUT, Féchain",
+    "lat": 50.26772,
+    "lng": 3.214236,
+    "transactions": [
+      {
+        "date": "2025-02-20",
+        "priceEur": 196000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "009fbeee4425": {
+    "id": "009fbeee4425",
+    "label": "38C RUE DES FRERES MARTEL, Féchain",
+    "lat": 50.263579,
+    "lng": 3.216517,
+    "transactions": [
+      {
+        "date": "2025-04-08",
+        "priceEur": 231000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-08",
+        "priceEur": 231000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "0f33af4f26ac": {
+    "id": "0f33af4f26ac",
+    "label": "19 RUE HUBERT RAOUT, Féchain",
+    "lat": 50.268037,
+    "lng": 3.214103,
+    "transactions": [
+      {
+        "date": "2025-06-20",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "d69320dbeb68": {
+    "id": "d69320dbeb68",
+    "label": "15 RUE DE WILLEMS, Chéreng",
+    "lat": 50.618309,
+    "lng": 3.212077,
+    "transactions": [
+      {
+        "date": "2024-03-18",
+        "priceEur": 355470,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "47a90999baa7": {
+    "id": "47a90999baa7",
+    "label": "13 RUE DE WILLEMS, Chéreng",
+    "lat": 50.618263,
+    "lng": 3.211916,
+    "transactions": [
+      {
+        "date": "2025-03-12",
+        "priceEur": 233500,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  }
+}

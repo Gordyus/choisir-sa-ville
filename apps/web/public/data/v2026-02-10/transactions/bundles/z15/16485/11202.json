@@ -1,0 +1,47 @@
+{
+  "3d91ac33fe85": {
+    "id": "3d91ac33fe85",
+    "label": "9040 RUE DESIRE GRANET, Saint-Étienne-du-Rouvray",
+    "lat": 49.36629,
+    "lng": 1.110577,
+    "transactions": [
+      {
+        "date": "2020-07-27",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 175,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac3ed501c887": {
+    "id": "ac3ed501c887",
+    "label": "9010 RUE DESIRE GRANET, Saint-Étienne-du-Rouvray",
+    "lat": 49.367127,
+    "lng": 1.11048,
+    "transactions": [
+      {
+        "date": "2022-08-26",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c774cdb9d94": {
+    "id": "0c774cdb9d94",
+    "label": "9050 RUE DESIRE GRANET, Saint-Étienne-du-Rouvray",
+    "lat": 49.365829,
+    "lng": 1.110362,
+    "transactions": [
+      {
+        "date": "2023-04-21",
+        "priceEur": 305000,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "d6db70bcb88c": {
+    "id": "d6db70bcb88c",
+    "label": "9006 RUE SAINT AUBIN, Cailleville",
+    "lat": 49.82937,
+    "lng": 0.732312,
+    "transactions": [
+      {
+        "date": "2021-04-27",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e92ac1a6f3e": {
+    "id": "1e92ac1a6f3e",
+    "label": "464 RUE SAINT AUBIN, Cailleville",
+    "lat": 49.826712,
+    "lng": 0.734699,
+    "transactions": [
+      {
+        "date": "2024-10-11",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-05",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "74b4d0bb2ed7": {
+    "id": "74b4d0bb2ed7",
+    "label": "250 RUE SAINT AUBIN, Cailleville",
+    "lat": 49.828274,
+    "lng": 0.732964,
+    "transactions": [
+      {
+        "date": "2023-12-06",
+        "priceEur": 480000,
+        "typeLocal": "Maison",
+        "surfaceM2": 236,
+        "isVefa": false
+      }
+    ]
+  },
+  "ecc6b23ec120": {
+    "id": "ecc6b23ec120",
+    "label": "15 CHE DES FORRIERES, Cailleville",
+    "lat": 49.825594,
+    "lng": 0.734634,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 278000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  }
+}

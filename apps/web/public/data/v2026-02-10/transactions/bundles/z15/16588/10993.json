@@ -1,0 +1,47 @@
+{
+  "0342a318775b": {
+    "id": "0342a318775b",
+    "label": "68 RUE DE LA MONTAGNE, Watten",
+    "lat": 50.837481,
+    "lng": 2.244127,
+    "transactions": [
+      {
+        "date": "2021-01-18",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "51b117f337e5": {
+    "id": "51b117f337e5",
+    "label": "70 RUE DE LA MONTAGNE, Watten",
+    "lat": 50.837817,
+    "lng": 2.244538,
+    "transactions": [
+      {
+        "date": "2023-04-18",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 172,
+        "isVefa": false
+      }
+    ]
+  },
+  "480647404aa8": {
+    "id": "480647404aa8",
+    "label": "258 RTE DES VIVIERS, Wulverdinghe",
+    "lat": 50.833953,
+    "lng": 2.250079,
+    "transactions": [
+      {
+        "date": "2024-03-25",
+        "priceEur": 199900,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  }
+}

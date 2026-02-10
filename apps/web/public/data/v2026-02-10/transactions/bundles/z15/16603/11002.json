@@ -1,0 +1,47 @@
+{
+  "562e22be1195": {
+    "id": "562e22be1195",
+    "label": "1641 RUE DE BOURBOURG, Bavinchove",
+    "lat": 50.774427,
+    "lng": 2.409154,
+    "transactions": [
+      {
+        "date": "2020-07-17",
+        "priceEur": 76700,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f5c21fef393": {
+    "id": "5f5c21fef393",
+    "label": "1190 RUE DE L'ABESSE, Bavinchove",
+    "lat": 50.772545,
+    "lng": 2.416246,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 420000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f16275a4530": {
+    "id": "1f16275a4530",
+    "label": "1106 RUE DE BOURBOURG, Bavinchove",
+    "lat": 50.771813,
+    "lng": 2.414782,
+    "transactions": [
+      {
+        "date": "2023-01-06",
+        "priceEur": 219500,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "e32b98fe0ba8": {
+    "id": "e32b98fe0ba8",
+    "label": "2113 D 39, Pierrefiques",
+    "lat": 49.688138,
+    "lng": 0.221636,
+    "transactions": [
+      {
+        "date": "2022-08-22",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "f593b36a34b2": {
+    "id": "f593b36a34b2",
+    "label": "2170 RUE DU VILLAGE, Pierrefiques",
+    "lat": 49.683649,
+    "lng": 0.227403,
+    "transactions": [
+      {
+        "date": "2025-02-19",
+        "priceEur": 260800,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  }
+}

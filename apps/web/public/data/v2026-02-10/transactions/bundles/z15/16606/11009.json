@@ -1,0 +1,47 @@
+{
+  "42485a6fa95f": {
+    "id": "42485a6fa95f",
+    "label": "1027 RUE DES JOUEURS, Lynde",
+    "lat": 50.726924,
+    "lng": 2.442367,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 210850,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a49ddf79e54": {
+    "id": "9a49ddf79e54",
+    "label": "313 CHE DES CLOUS, Lynde",
+    "lat": 50.727097,
+    "lng": 2.447758,
+    "transactions": [
+      {
+        "date": "2021-11-29",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "ec5b417b6d16": {
+    "id": "ec5b417b6d16",
+    "label": "884 RUE DES JOUEURS, Lynde",
+    "lat": 50.726261,
+    "lng": 2.444314,
+    "transactions": [
+      {
+        "date": "2025-02-17",
+        "priceEur": 44900,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

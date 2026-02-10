@@ -1,0 +1,62 @@
+{
+  "747c9019485d": {
+    "id": "747c9019485d",
+    "label": "11 CHE DE TORCY, Cuy-Saint-Fiacre",
+    "lat": 49.514308,
+    "lng": 1.675681,
+    "transactions": [
+      {
+        "date": "2020-08-07",
+        "priceEur": 176500,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ebc079f1865": {
+    "id": "1ebc079f1865",
+    "label": "5119 LES BRUYERES, Cuy-Saint-Fiacre",
+    "lat": 49.514445,
+    "lng": 1.680892,
+    "transactions": [
+      {
+        "date": "2021-09-01",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "a39b4c0b7887": {
+    "id": "a39b4c0b7887",
+    "label": "3 CHE DE TORCHY, Cuy-Saint-Fiacre",
+    "lat": 49.514743,
+    "lng": 1.67753,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "22367072fc3a": {
+    "id": "22367072fc3a",
+    "label": "124 RTE DE DAMPIERRE, Cuy-Saint-Fiacre",
+    "lat": 49.515158,
+    "lng": 1.679388,
+    "transactions": [
+      {
+        "date": "2024-10-25",
+        "priceEur": 209000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  }
+}

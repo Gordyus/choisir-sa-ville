@@ -1,0 +1,32 @@
+{
+  "1e933e6b3a2e": {
+    "id": "1e933e6b3a2e",
+    "label": "530 RUE VERTE, Nolléval",
+    "lat": 49.481603,
+    "lng": 1.47712,
+    "transactions": [
+      {
+        "date": "2024-08-19",
+        "priceEur": 64000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae2918792156": {
+    "id": "ae2918792156",
+    "label": "667 RUE VERTE, Nolléval",
+    "lat": 49.480024,
+    "lng": 1.477298,
+    "transactions": [
+      {
+        "date": "2024-08-12",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "0c93989f44e7": {
+    "id": "0c93989f44e7",
+    "label": "514 RTE DU CAROUGE, Sandouville",
+    "lat": 49.504052,
+    "lng": 0.324893,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 346500,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "66f93931297e": {
+    "id": "66f93931297e",
+    "label": "95 CHE DES CHARRETTES, Sandouville",
+    "lat": 49.504272,
+    "lng": 0.322848,
+    "transactions": [
+      {
+        "date": "2022-01-28",
+        "priceEur": 254350,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "df9769b42ee6": {
+    "id": "df9769b42ee6",
+    "label": "835 RTE DU CAROUGE, Sandouville",
+    "lat": 49.504079,
+    "lng": 0.32948,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 447550,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  }
+}

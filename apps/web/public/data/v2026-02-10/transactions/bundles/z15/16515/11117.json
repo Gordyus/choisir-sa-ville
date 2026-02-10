@@ -1,0 +1,136 @@
+{
+  "93f64426d4f0": {
+    "id": "93f64426d4f0",
+    "label": "5045 VILLAGE, Le Mesnil-Réaume",
+    "lat": 49.970444,
+    "lng": 1.44691,
+    "transactions": [
+      {
+        "date": "2021-12-16",
+        "priceEur": 310000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-16",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-16",
+        "priceEur": 310000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "a35f054e44f5": {
+    "id": "a35f054e44f5",
+    "label": "14 RUE DES CHASSE-MAREE, Le Mesnil-Réaume",
+    "lat": 49.971512,
+    "lng": 1.443348,
+    "transactions": [
+      {
+        "date": "2021-04-09",
+        "priceEur": 145800,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e096df8f645": {
+    "id": "2e096df8f645",
+    "label": "5045B VILLAGE, Le Mesnil-Réaume",
+    "lat": 49.970117,
+    "lng": 1.447821,
+    "transactions": [
+      {
+        "date": "2021-05-21",
+        "priceEur": 162300,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1cef12579cf": {
+    "id": "b1cef12579cf",
+    "label": "9002 RUE GOMARD, Le Mesnil-Réaume",
+    "lat": 49.968214,
+    "lng": 1.446057,
+    "transactions": [
+      {
+        "date": "2021-08-18",
+        "priceEur": 206800,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "dc1a3dc131be": {
+    "id": "dc1a3dc131be",
+    "label": "5045C VILLAGE, Le Mesnil-Réaume",
+    "lat": 49.970042,
+    "lng": 1.448126,
+    "transactions": [
+      {
+        "date": "2022-11-30",
+        "priceEur": 227000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "4df4ef37d755": {
+    "id": "4df4ef37d755",
+    "label": "5B RUE DES CHASSE-MAREE, Le Mesnil-Réaume",
+    "lat": 49.971977,
+    "lng": 1.443582,
+    "transactions": [
+      {
+        "date": "2023-10-09",
+        "priceEur": 199175,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "f544110696e9": {
+    "id": "f544110696e9",
+    "label": "11 RUE REAUME, Le Mesnil-Réaume",
+    "lat": 49.969817,
+    "lng": 1.4492,
+    "transactions": [
+      {
+        "date": "2024-02-20",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "9fcfe3d45047": {
+    "id": "9fcfe3d45047",
+    "label": "3K RUE GOMARD, Le Mesnil-Réaume",
+    "lat": 49.967992,
+    "lng": 1.446076,
+    "transactions": [
+      {
+        "date": "2025-01-10",
+        "priceEur": 228900,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  }
+}

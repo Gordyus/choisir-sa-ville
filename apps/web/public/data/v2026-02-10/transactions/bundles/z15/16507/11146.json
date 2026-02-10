@@ -1,0 +1,24 @@
+{
+  "c0125ed9fd85": {
+    "id": "c0125ed9fd85",
+    "label": "30 RTE DU PONTIER BLOND, Mesnières-en-Bray",
+    "lat": 49.760845,
+    "lng": 1.358889,
+    "transactions": [
+      {
+        "date": "2021-09-23",
+        "priceEur": 263937,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-23",
+        "priceEur": 263937,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  }
+}

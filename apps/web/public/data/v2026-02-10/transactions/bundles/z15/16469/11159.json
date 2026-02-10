@@ -1,0 +1,92 @@
+{
+  "5f2edd9f9a15": {
+    "id": "5f2edd9f9a15",
+    "label": "9095 VC LA RUETTE, Bourdainville",
+    "lat": 49.673781,
+    "lng": 0.944463,
+    "transactions": [
+      {
+        "date": "2021-05-12",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "57a2aed3289c": {
+    "id": "57a2aed3289c",
+    "label": "9066 LA GRAND RUE, Bourdainville",
+    "lat": 49.674452,
+    "lng": 0.944156,
+    "transactions": [
+      {
+        "date": "2021-10-25",
+        "priceEur": 123000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "e3003091929c": {
+    "id": "e3003091929c",
+    "label": "9068 LA GRAND RUE, Bourdainville",
+    "lat": 49.674262,
+    "lng": 0.944212,
+    "transactions": [
+      {
+        "date": "2022-06-03",
+        "priceEur": 131400,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e8a86b0c8a8": {
+    "id": "9e8a86b0c8a8",
+    "label": "32 VC LA RUETTE, Bourdainville",
+    "lat": 49.673665,
+    "lng": 0.944177,
+    "transactions": [
+      {
+        "date": "2023-01-27",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "8caa9ff570d2": {
+    "id": "8caa9ff570d2",
+    "label": "7 RESIDENCE LES CHARMILLES, Bourdainville",
+    "lat": 49.674353,
+    "lng": 0.942886,
+    "transactions": [
+      {
+        "date": "2024-08-30",
+        "priceEur": 109000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b3318eb0d4d": {
+    "id": "1b3318eb0d4d",
+    "label": "321 RUE HENRI DUCLOS, Bourdainville",
+    "lat": 49.674601,
+    "lng": 0.943137,
+    "transactions": [
+      {
+        "date": "2024-11-19",
+        "priceEur": 266000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "4580964da992": {
+    "id": "4580964da992",
+    "label": "195 RTE DES FONDS, Oherville",
+    "lat": 49.718392,
+    "lng": 0.68353,
+    "transactions": [
+      {
+        "date": "2020-10-23",
+        "priceEur": 124600,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "a7e134b4d9e8": {
+    "id": "a7e134b4d9e8",
+    "label": "885 RTE DU MANOIR, Oherville",
+    "lat": 49.724466,
+    "lng": 0.68271,
+    "transactions": [
+      {
+        "date": "2021-05-18",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "85d304fc6a33": {
+    "id": "85d304fc6a33",
+    "label": "105 ALL DES TOUPINETTES, Oherville",
+    "lat": 49.723302,
+    "lng": 0.681822,
+    "transactions": [
+      {
+        "date": "2022-12-30",
+        "priceEur": 236000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f65fc93a6fa": {
+    "id": "3f65fc93a6fa",
+    "label": "872 RTE DU MANOIR, Oherville",
+    "lat": 49.724008,
+    "lng": 0.683277,
+    "transactions": [
+      {
+        "date": "2023-03-31",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

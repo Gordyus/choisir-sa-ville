@@ -1,0 +1,92 @@
+{
+  "7bd1ca0acc0a": {
+    "id": "7bd1ca0acc0a",
+    "label": "5130 LE VILLAGE, Richemont",
+    "lat": 49.803588,
+    "lng": 1.650664,
+    "transactions": [
+      {
+        "date": "2020-10-16",
+        "priceEur": 77000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "3fddf8156cd3": {
+    "id": "3fddf8156cd3",
+    "label": "5142 LE VILLAGE, Richemont",
+    "lat": 49.802606,
+    "lng": 1.653269,
+    "transactions": [
+      {
+        "date": "2020-11-09",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6807f0410d6": {
+    "id": "b6807f0410d6",
+    "label": "5239 LE VILLAGE, Richemont",
+    "lat": 49.802898,
+    "lng": 1.650016,
+    "transactions": [
+      {
+        "date": "2022-06-29",
+        "priceEur": 111000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "28d29ebf7e99": {
+    "id": "28d29ebf7e99",
+    "label": "5131 PLAI DE LA SENTE D AUBEGUI, Richemont",
+    "lat": 49.803591,
+    "lng": 1.651105,
+    "transactions": [
+      {
+        "date": "2023-03-10",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ed2909b73e3": {
+    "id": "0ed2909b73e3",
+    "label": "5149 LE VILLAGE, Richemont",
+    "lat": 49.802851,
+    "lng": 1.649595,
+    "transactions": [
+      {
+        "date": "2023-04-26",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a18f946d713": {
+    "id": "2a18f946d713",
+    "label": "5124 LE VILLAGE, Richemont",
+    "lat": 49.804553,
+    "lng": 1.649328,
+    "transactions": [
+      {
+        "date": "2023-12-09",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

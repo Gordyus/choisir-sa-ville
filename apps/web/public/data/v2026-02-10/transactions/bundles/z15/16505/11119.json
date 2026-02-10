@@ -1,0 +1,47 @@
+{
+  "f352fed72921": {
+    "id": "f352fed72921",
+    "label": "70 RUE DU BOIS RICARD, Petit-Caux",
+    "lat": 49.952923,
+    "lng": 1.331787,
+    "transactions": [
+      {
+        "date": "2021-11-29",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "4bd9cd1b5ae4": {
+    "id": "4bd9cd1b5ae4",
+    "label": "29 RUE DE LA BROSSE, Petit-Caux",
+    "lat": 49.95638,
+    "lng": 1.335578,
+    "transactions": [
+      {
+        "date": "2023-05-09",
+        "priceEur": 36500,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "1479c57bbbb1": {
+    "id": "1479c57bbbb1",
+    "label": "20 RUE DE LA BROSSE, Petit-Caux",
+    "lat": 49.957961,
+    "lng": 1.335846,
+    "transactions": [
+      {
+        "date": "2023-11-04",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  }
+}

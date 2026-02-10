@@ -1,0 +1,5259 @@
+{
+  "cfaa1425c95d": {
+    "id": "cfaa1425c95d",
+    "label": "10 RUE BERTHELOT, Lille",
+    "lat": 50.610973,
+    "lng": 3.072051,
+    "transactions": [
+      {
+        "date": "2020-07-15",
+        "priceEur": 131000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "a33f9d4cee3e": {
+    "id": "a33f9d4cee3e",
+    "label": "18 RUE PAUL LAFARGUE, Faches-Thumesnil",
+    "lat": 50.609721,
+    "lng": 3.066171,
+    "transactions": [
+      {
+        "date": "2020-07-15",
+        "priceEur": 364000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-15",
+        "priceEur": 364000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  },
+  "538d9c703d45": {
+    "id": "538d9c703d45",
+    "label": "69 RUE HENRI DILLIES, Ronchin",
+    "lat": 50.606412,
+    "lng": 3.073953,
+    "transactions": [
+      {
+        "date": "2020-07-08",
+        "priceEur": 116000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b993fdd786e": {
+    "id": "8b993fdd786e",
+    "label": "139 AV JEAN JAURES, Ronchin",
+    "lat": 50.606894,
+    "lng": 3.075603,
+    "transactions": [
+      {
+        "date": "2025-04-28",
+        "priceEur": 99808.69,
+        "typeLocal": "Appartement",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-15",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-15",
+        "priceEur": 110000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2024-12-30",
+        "priceEur": 78500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 26,
+        "isVefa": false
+      },
+      {
+        "date": "2024-12-12",
+        "priceEur": 72000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-18",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-13",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-13",
+        "priceEur": 96700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-28",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-30",
+        "priceEur": 142000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-21",
+        "priceEur": 115000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-08",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-18",
+        "priceEur": 78000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-13",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-22",
+        "priceEur": 85000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 27,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-03",
+        "priceEur": 165000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-01",
+        "priceEur": 80000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 26,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-28",
+        "priceEur": 115600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-28",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-31",
+        "priceEur": 139000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-09",
+        "priceEur": 84500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-30",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 99,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-04",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-13",
+        "priceEur": 78000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 26,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-03",
+        "priceEur": 138000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "b04bc53f8cf5": {
+    "id": "b04bc53f8cf5",
+    "label": "1 RES LA CROISEE DU SUD, Faches-Thumesnil",
+    "lat": 50.605074,
+    "lng": 3.072371,
+    "transactions": [
+      {
+        "date": "2024-01-22",
+        "priceEur": 171570,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-31",
+        "priceEur": 92000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-29",
+        "priceEur": 115000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-30",
+        "priceEur": 115000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-08",
+        "priceEur": 137000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-06",
+        "priceEur": 195190,
+        "typeLocal": "Appartement",
+        "surfaceM2": 88,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-10",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-28",
+        "priceEur": 90300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-31",
+        "priceEur": 80000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-19",
+        "priceEur": 73540,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-08",
+        "priceEur": 105000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-27",
+        "priceEur": 165000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 88,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-29",
+        "priceEur": 250000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-23",
+        "priceEur": 103000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-26",
+        "priceEur": 57000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-27",
+        "priceEur": 59000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      }
+    ]
+  },
+  "904bcaf3ecd8": {
+    "id": "904bcaf3ecd8",
+    "label": "165B AV JEAN JAURES, Ronchin",
+    "lat": 50.608652,
+    "lng": 3.07489,
+    "transactions": [
+      {
+        "date": "2024-10-22",
+        "priceEur": 82000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-13",
+        "priceEur": 205000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 81,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-17",
+        "priceEur": 195000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 77,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-24",
+        "priceEur": 117000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-25",
+        "priceEur": 267000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 96,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 185000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-15",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      }
+    ]
+  },
+  "91b778f8330b": {
+    "id": "91b778f8330b",
+    "label": "6 RUE LONGUEIL, Lille",
+    "lat": 50.609617,
+    "lng": 3.074205,
+    "transactions": [
+      {
+        "date": "2020-07-16",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "f51fdd366769": {
+    "id": "f51fdd366769",
+    "label": "27 RUE LESAGE SENAULT, Lille",
+    "lat": 50.610001,
+    "lng": 3.073918,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 311000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "2816c01ac75f": {
+    "id": "2816c01ac75f",
+    "label": "3 CHE DES MARGUERITOIS, Lille",
+    "lat": 50.610816,
+    "lng": 3.065396,
+    "transactions": [
+      {
+        "date": "2024-11-08",
+        "priceEur": 259000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 81,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-01",
+        "priceEur": 203670,
+        "typeLocal": "Appartement",
+        "surfaceM2": 81,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-27",
+        "priceEur": 148000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-09",
+        "priceEur": 262500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 81,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-26",
+        "priceEur": 221040,
+        "typeLocal": "Appartement",
+        "surfaceM2": 81,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-29",
+        "priceEur": 184199,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "dbd1d965e94c": {
+    "id": "dbd1d965e94c",
+    "label": "14 RUE JULES GUESDE, Ronchin",
+    "lat": 50.606244,
+    "lng": 3.075976,
+    "transactions": [
+      {
+        "date": "2020-08-07",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f09089c116f": {
+    "id": "3f09089c116f",
+    "label": "90 RUE DU BAS LIEVIN, Lille",
+    "lat": 50.607798,
+    "lng": 3.072128,
+    "transactions": [
+      {
+        "date": "2020-08-27",
+        "priceEur": 262000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "4085fed1bcc4": {
+    "id": "4085fed1bcc4",
+    "label": "51 RUE ANATOLE FRANCE, Faches-Thumesnil",
+    "lat": 50.605273,
+    "lng": 3.065803,
+    "transactions": [
+      {
+        "date": "2025-05-27",
+        "priceEur": 169500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-05",
+        "priceEur": 161750,
+        "typeLocal": "Appartement",
+        "surfaceM2": 51,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-15",
+        "priceEur": 168000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-31",
+        "priceEur": 157200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-24",
+        "priceEur": 150750,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c3554390334": {
+    "id": "2c3554390334",
+    "label": "73 RUE DES HANNETONS, Lille",
+    "lat": 50.610576,
+    "lng": 3.073439,
+    "transactions": [
+      {
+        "date": "2020-08-28",
+        "priceEur": 266000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac4169f56a94": {
+    "id": "ac4169f56a94",
+    "label": "9 RUE FERRER, Faches-Thumesnil",
+    "lat": 50.608703,
+    "lng": 3.065357,
+    "transactions": [
+      {
+        "date": "2020-09-07",
+        "priceEur": 254000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 29,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-07",
+        "priceEur": 254000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-07",
+        "priceEur": 254000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": false
+      }
+    ]
+  },
+  "391bcbe14f36": {
+    "id": "391bcbe14f36",
+    "label": "31 RUE DU BAS LIEVIN, Ronchin",
+    "lat": 50.608827,
+    "lng": 3.073763,
+    "transactions": [
+      {
+        "date": "2020-09-11",
+        "priceEur": 218000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "881e7cbd1689": {
+    "id": "881e7cbd1689",
+    "label": "28 RUE DU BAS LIEVIN, Lille",
+    "lat": 50.609294,
+    "lng": 3.073786,
+    "transactions": [
+      {
+        "date": "2020-09-02",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9ebc6b90a19": {
+    "id": "c9ebc6b90a19",
+    "label": "14 RUE CARNOT, Faches-Thumesnil",
+    "lat": 50.607575,
+    "lng": 3.065443,
+    "transactions": [
+      {
+        "date": "2023-08-29",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 196500,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "7dd9d5fd397c": {
+    "id": "7dd9d5fd397c",
+    "label": "202 RUE JEAN JAURES, Faches-Thumesnil",
+    "lat": 50.604337,
+    "lng": 3.073292,
+    "transactions": [
+      {
+        "date": "2021-01-08",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 104000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "8fbc0cd3e92b": {
+    "id": "8fbc0cd3e92b",
+    "label": "33 RUE LESAGE SENAULT, Lille",
+    "lat": 50.610075,
+    "lng": 3.073742,
+    "transactions": [
+      {
+        "date": "2020-09-09",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c7e4d36cfc9": {
+    "id": "9c7e4d36cfc9",
+    "label": "30 RUE LAVOISIER, Ronchin",
+    "lat": 50.605007,
+    "lng": 3.075706,
+    "transactions": [
+      {
+        "date": "2025-05-22",
+        "priceEur": 88500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2025-05-06",
+        "priceEur": 82000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-28",
+        "priceEur": 103500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-04",
+        "priceEur": 95000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2024-12-18",
+        "priceEur": 126000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-10",
+        "priceEur": 165000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-23",
+        "priceEur": 115000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-10",
+        "priceEur": 113000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-29",
+        "priceEur": 84500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-21",
+        "priceEur": 138000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-21",
+        "priceEur": 130000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-21",
+        "priceEur": 71000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 32,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-05",
+        "priceEur": 85000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-18",
+        "priceEur": 61500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-24",
+        "priceEur": 120500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-29",
+        "priceEur": 250000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-29",
+        "priceEur": 250000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 32,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-04",
+        "priceEur": 60000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 32,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-27",
+        "priceEur": 126700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-19",
+        "priceEur": 91110,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-15",
+        "priceEur": 40000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6bd5cce9d7e": {
+    "id": "f6bd5cce9d7e",
+    "label": "776 AV JEAN JAURES, Ronchin",
+    "lat": 50.609428,
+    "lng": 3.075715,
+    "transactions": [
+      {
+        "date": "2020-09-21",
+        "priceEur": 242000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5dd91cf70f2": {
+    "id": "b5dd91cf70f2",
+    "label": "79 RUE DU BAS LIEVIN, Ronchin",
+    "lat": 50.607538,
+    "lng": 3.073124,
+    "transactions": [
+      {
+        "date": "2020-09-25",
+        "priceEur": 231400,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "f11feb4a8827": {
+    "id": "f11feb4a8827",
+    "label": "23 RUE VOLTAIRE, Ronchin",
+    "lat": 50.606829,
+    "lng": 3.072606,
+    "transactions": [
+      {
+        "date": "2020-09-14",
+        "priceEur": 210200,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8c9de1a6e1d": {
+    "id": "f8c9de1a6e1d",
+    "label": "65 RUE CARNOT, Faches-Thumesnil",
+    "lat": 50.605917,
+    "lng": 3.066721,
+    "transactions": [
+      {
+        "date": "2020-09-11",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "0320a7634e4c": {
+    "id": "0320a7634e4c",
+    "label": "42 AV CHARLES SAINT VENANT, Faches-Thumesnil",
+    "lat": 50.605095,
+    "lng": 3.069901,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 214700,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad029e73242d": {
+    "id": "ad029e73242d",
+    "label": "29 CHE DES MARGUERITOIS, Ronchin",
+    "lat": 50.60579,
+    "lng": 3.073545,
+    "transactions": [
+      {
+        "date": "2024-12-19",
+        "priceEur": 114250,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-28",
+        "priceEur": 105000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "04312143acc4": {
+    "id": "04312143acc4",
+    "label": "45 RUE DES HANNETONS, Lille",
+    "lat": 50.611119,
+    "lng": 3.073993,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 197000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "3acb9e1fd9a2": {
+    "id": "3acb9e1fd9a2",
+    "label": "169 AV JEAN JAURES, Ronchin",
+    "lat": 50.609064,
+    "lng": 3.075184,
+    "transactions": [
+      {
+        "date": "2021-06-24",
+        "priceEur": 184000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-05",
+        "priceEur": 162000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "ba1c3a86fec2": {
+    "id": "ba1c3a86fec2",
+    "label": "106 RUE DU BAS LIEVIN, Lille",
+    "lat": 50.607274,
+    "lng": 3.071589,
+    "transactions": [
+      {
+        "date": "2020-10-08",
+        "priceEur": 190500,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "e84d06a02c3b": {
+    "id": "e84d06a02c3b",
+    "label": "51 RUE DU BAS LIEVIN, Ronchin",
+    "lat": 50.608367,
+    "lng": 3.073315,
+    "transactions": [
+      {
+        "date": "2020-10-12",
+        "priceEur": 143000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b094e530307": {
+    "id": "1b094e530307",
+    "label": "2 RES LA CROISEE DU SUD, Faches-Thumesnil",
+    "lat": 50.605074,
+    "lng": 3.072371,
+    "transactions": [
+      {
+        "date": "2025-06-02",
+        "priceEur": 115000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-29",
+        "priceEur": 178000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 93,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-31",
+        "priceEur": 148000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-02",
+        "priceEur": 112000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-13",
+        "priceEur": 165000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 93,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-03",
+        "priceEur": 172680,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-21",
+        "priceEur": 128500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-04",
+        "priceEur": 87000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-09",
+        "priceEur": 79000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-25",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-25",
+        "priceEur": 47500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-28",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-25",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 93,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-30",
+        "priceEur": 162500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 93,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-20",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-24",
+        "priceEur": 130000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-15",
+        "priceEur": 158000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-13",
+        "priceEur": 65000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "b96dc608b5c8": {
+    "id": "b96dc608b5c8",
+    "label": "9 RUE MARIN LA MESLEE, Lille",
+    "lat": 50.60823,
+    "lng": 3.071514,
+    "transactions": [
+      {
+        "date": "2020-10-14",
+        "priceEur": 204000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "f66de7e668f6": {
+    "id": "f66de7e668f6",
+    "label": "163 AV JEAN JAURES, Ronchin",
+    "lat": 50.608794,
+    "lng": 3.075386,
+    "transactions": [
+      {
+        "date": "2020-10-16",
+        "priceEur": 240000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 15,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-16",
+        "priceEur": 240000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-16",
+        "priceEur": 240000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 16,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f2638af2b3c": {
+    "id": "8f2638af2b3c",
+    "label": "71 RUE DU BAS LIEVIN, Ronchin",
+    "lat": 50.607921,
+    "lng": 3.072884,
+    "transactions": [
+      {
+        "date": "2022-06-16",
+        "priceEur": 195000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-26",
+        "priceEur": 90000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "2baf6100d390": {
+    "id": "2baf6100d390",
+    "label": "2 RUE CHARLES PRANARD, Lille",
+    "lat": 50.608385,
+    "lng": 3.069827,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 227000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "952b4e5ecbe3": {
+    "id": "952b4e5ecbe3",
+    "label": "11 CHE DES MARGUERITOIS, Lille",
+    "lat": 50.610221,
+    "lng": 3.066933,
+    "transactions": [
+      {
+        "date": "2025-04-03",
+        "priceEur": 213435,
+        "typeLocal": "Appartement",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-22",
+        "priceEur": 229605,
+        "typeLocal": "Appartement",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-29",
+        "priceEur": 203700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-26",
+        "priceEur": 136150,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7e3d1cb1a69": {
+    "id": "c7e3d1cb1a69",
+    "label": "80 RUE CARNOT, Faches-Thumesnil",
+    "lat": 50.605014,
+    "lng": 3.066955,
+    "transactions": [
+      {
+        "date": "2024-04-04",
+        "priceEur": 752307.94,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-03",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f25912880fd": {
+    "id": "3f25912880fd",
+    "label": "3 RUE BERTHELOT, Lille",
+    "lat": 50.611005,
+    "lng": 3.070079,
+    "transactions": [
+      {
+        "date": "2021-06-07",
+        "priceEur": 118500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-18",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-11",
+        "priceEur": 114000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-22",
+        "priceEur": 145000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "09e7563db527": {
+    "id": "09e7563db527",
+    "label": "28 RUE LAVOISIER, Ronchin",
+    "lat": 50.605007,
+    "lng": 3.075706,
+    "transactions": [
+      {
+        "date": "2025-06-19",
+        "priceEur": 75000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2025-05-28",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-29",
+        "priceEur": 170000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-19",
+        "priceEur": 121200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-30",
+        "priceEur": 68000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2024-03-20",
+        "priceEur": 185000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-22",
+        "priceEur": 156300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-28",
+        "priceEur": 145000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-31",
+        "priceEur": 155000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-15",
+        "priceEur": 72260,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-28",
+        "priceEur": 117400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-16",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-08",
+        "priceEur": 83500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-11",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-09",
+        "priceEur": 105000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-24",
+        "priceEur": 164000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-20",
+        "priceEur": 62200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-09",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-27",
+        "priceEur": 108000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3f515ff5750": {
+    "id": "a3f515ff5750",
+    "label": "3 RUE PAUL LAFARGUE, Ronchin",
+    "lat": 50.605639,
+    "lng": 3.075022,
+    "transactions": [
+      {
+        "date": "2020-11-12",
+        "priceEur": 171000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "b23acc3cb332": {
+    "id": "b23acc3cb332",
+    "label": "13 RUE PAUL CEZANNE, Faches-Thumesnil",
+    "lat": 50.606697,
+    "lng": 3.067925,
+    "transactions": [
+      {
+        "date": "2020-11-05",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "569ca697d2f3": {
+    "id": "569ca697d2f3",
+    "label": "69 RUE CARNOT, Faches-Thumesnil",
+    "lat": 50.605957,
+    "lng": 3.067032,
+    "transactions": [
+      {
+        "date": "2020-11-24",
+        "priceEur": 342000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "a56610e0cdfe": {
+    "id": "a56610e0cdfe",
+    "label": "3 VC MAISON BLANCHE RUE FERRER, Faches-Thumesnil",
+    "lat": 50.608743,
+    "lng": 3.066012,
+    "transactions": [
+      {
+        "date": "2020-11-25",
+        "priceEur": 50500,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "a23a3b653ef3": {
+    "id": "a23a3b653ef3",
+    "label": "13 RUE BAJEUX, Faches-Thumesnil",
+    "lat": 50.609459,
+    "lng": 3.065963,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 343500,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c6f9122cbf2": {
+    "id": "9c6f9122cbf2",
+    "label": "7 CHE DES MARGUERITOIS, Ronchin",
+    "lat": 50.605387,
+    "lng": 3.073986,
+    "transactions": [
+      {
+        "date": "2020-12-03",
+        "priceEur": 143500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "ecb08f09cc1b": {
+    "id": "ecb08f09cc1b",
+    "label": "8 RUE LESAGE SENAULT, Lille",
+    "lat": 50.610065,
+    "lng": 3.074734,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "8339ed1473e7": {
+    "id": "8339ed1473e7",
+    "label": "6 RUE PAUL CEZANNE, Faches-Thumesnil",
+    "lat": 50.606328,
+    "lng": 3.067679,
+    "transactions": [
+      {
+        "date": "2021-08-07",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-17",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "75363c5b60c4": {
+    "id": "75363c5b60c4",
+    "label": "28 AV CHARLES SAINT VENANT, Faches-Thumesnil",
+    "lat": 50.604739,
+    "lng": 3.069446,
+    "transactions": [
+      {
+        "date": "2020-12-10",
+        "priceEur": 149245,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "6070c6128c35": {
+    "id": "6070c6128c35",
+    "label": "31 RUE VOLTAIRE, Ronchin",
+    "lat": 50.607012,
+    "lng": 3.072502,
+    "transactions": [
+      {
+        "date": "2020-12-11",
+        "priceEur": 215830,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d61c97e2a71": {
+    "id": "8d61c97e2a71",
+    "label": "13 RUE DU BAS LIEVIN, Ronchin",
+    "lat": 50.608838,
+    "lng": 3.074105,
+    "transactions": [
+      {
+        "date": "2022-07-01",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-20",
+        "priceEur": 188561,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-30",
+        "priceEur": 159500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-15",
+        "priceEur": 247000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-10",
+        "priceEur": 204017,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-04",
+        "priceEur": 248900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-25",
+        "priceEur": 185900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-25",
+        "priceEur": 164000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": true
+      },
+      {
+        "date": "2021-10-21",
+        "priceEur": 196280,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": true
+      },
+      {
+        "date": "2021-10-07",
+        "priceEur": 166000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-06",
+        "priceEur": 178800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-01",
+        "priceEur": 184600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-29",
+        "priceEur": 166286,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-17",
+        "priceEur": 161205,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": true
+      },
+      {
+        "date": "2021-09-13",
+        "priceEur": 253000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-08",
+        "priceEur": 198900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": true
+      },
+      {
+        "date": "2021-08-24",
+        "priceEur": 158100,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": true
+      },
+      {
+        "date": "2021-08-12",
+        "priceEur": 244500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-28",
+        "priceEur": 169900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-26",
+        "priceEur": 163159,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-26",
+        "priceEur": 195302.3,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-01",
+        "priceEur": 160700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-02",
+        "priceEur": 1912542,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-02",
+        "priceEur": 1912542,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-02",
+        "priceEur": 1912542,
+        "typeLocal": "Appartement",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-02",
+        "priceEur": 1912542,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-02",
+        "priceEur": 1912542,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-02",
+        "priceEur": 1912542,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-02",
+        "priceEur": 1912542,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-02",
+        "priceEur": 1912542,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-14",
+        "priceEur": 160700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-13",
+        "priceEur": 159251,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": true
+      },
+      {
+        "date": "2021-03-31",
+        "priceEur": 167400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-17",
+        "priceEur": 166900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-05",
+        "priceEur": 212500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-04",
+        "priceEur": 231450,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-26",
+        "priceEur": 223244,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-21",
+        "priceEur": 370650,
+        "typeLocal": "Appartement",
+        "surfaceM2": 96,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-21",
+        "priceEur": 235000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-15",
+        "priceEur": 176000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-30",
+        "priceEur": 225492,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-30",
+        "priceEur": 250000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-29",
+        "priceEur": 232037,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-29",
+        "priceEur": 162084,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-28",
+        "priceEur": 171900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-24",
+        "priceEur": 223500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-24",
+        "priceEur": 162800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-23",
+        "priceEur": 159800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-23",
+        "priceEur": 237800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-21",
+        "priceEur": 167947,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca7e923e30a7": {
+    "id": "ca7e923e30a7",
+    "label": "8 RUE GAMBETTA, Faches-Thumesnil",
+    "lat": 50.6087,
+    "lng": 3.065217,
+    "transactions": [
+      {
+        "date": "2020-12-30",
+        "priceEur": 119000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "89f386028eb6": {
+    "id": "89f386028eb6",
+    "label": "202 RUE DU FBG DE DOUAI, Lille",
+    "lat": 50.610264,
+    "lng": 3.074868,
+    "transactions": [
+      {
+        "date": "2020-12-30",
+        "priceEur": 610000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 37,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-30",
+        "priceEur": 610000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-30",
+        "priceEur": 610000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-30",
+        "priceEur": 610000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-30",
+        "priceEur": 610000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f059599a055": {
+    "id": "4f059599a055",
+    "label": "11 RUE LESAGE SENAULT, Lille",
+    "lat": 50.609827,
+    "lng": 3.074347,
+    "transactions": [
+      {
+        "date": "2020-12-29",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "3aefcc9d7e84": {
+    "id": "3aefcc9d7e84",
+    "label": "40 RUE FERRER, Faches-Thumesnil",
+    "lat": 50.609818,
+    "lng": 3.065455,
+    "transactions": [
+      {
+        "date": "2020-12-04",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "62a0fcde883c": {
+    "id": "62a0fcde883c",
+    "label": "174 RUE DU FBG DE DOUAI, Lille",
+    "lat": 50.611118,
+    "lng": 3.074867,
+    "transactions": [
+      {
+        "date": "2021-01-22",
+        "priceEur": 330010,
+        "typeLocal": "Maison",
+        "surfaceM2": 186,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9147b9ac532": {
+    "id": "a9147b9ac532",
+    "label": "5 VC MAISON BLANCHE RUE FERRER, Faches-Thumesnil",
+    "lat": 50.608837,
+    "lng": 3.065918,
+    "transactions": [
+      {
+        "date": "2021-02-12",
+        "priceEur": 145500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "51f0bb59192a": {
+    "id": "51f0bb59192a",
+    "label": "192 RUE DU FBG DE DOUAI, Lille",
+    "lat": 50.610561,
+    "lng": 3.074874,
+    "transactions": [
+      {
+        "date": "2021-03-18",
+        "priceEur": 272730,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "e37e36091ed6": {
+    "id": "e37e36091ed6",
+    "label": "81 RUE DU BAS LIEVIN, Ronchin",
+    "lat": 50.607682,
+    "lng": 3.07269,
+    "transactions": [
+      {
+        "date": "2021-04-01",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a5e20819db9": {
+    "id": "4a5e20819db9",
+    "label": "16 RUE PAUL CEZANNE, Faches-Thumesnil",
+    "lat": 50.605968,
+    "lng": 3.067864,
+    "transactions": [
+      {
+        "date": "2021-03-31",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "66512c61c0a8": {
+    "id": "66512c61c0a8",
+    "label": "97 RUE JEAN JAURES, Faches-Thumesnil",
+    "lat": 50.604518,
+    "lng": 3.072194,
+    "transactions": [
+      {
+        "date": "2021-04-16",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e288175c3c1": {
+    "id": "2e288175c3c1",
+    "label": "58 RUE HENRI DILLIES, Ronchin",
+    "lat": 50.607095,
+    "lng": 3.074147,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 221300,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "eaa80253c6f3": {
+    "id": "eaa80253c6f3",
+    "label": "3B RUE DU COLOMBIER, Faches-Thumesnil",
+    "lat": 50.604855,
+    "lng": 3.070104,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 110000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-22",
+        "priceEur": 130000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-12",
+        "priceEur": 107120,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-28",
+        "priceEur": 124961,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-04",
+        "priceEur": 107500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-14",
+        "priceEur": 158000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-15",
+        "priceEur": 147500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-13",
+        "priceEur": 85000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-22",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-02",
+        "priceEur": 130500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-15",
+        "priceEur": 122000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-25",
+        "priceEur": 102000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-23",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f7709f64bfe": {
+    "id": "9f7709f64bfe",
+    "label": "31 RUE EDGAR DEGAS, Faches-Thumesnil",
+    "lat": 50.606064,
+    "lng": 3.069375,
+    "transactions": [
+      {
+        "date": "2021-04-06",
+        "priceEur": 186200,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "3b1cd3f4ca41": {
+    "id": "3b1cd3f4ca41",
+    "label": "62 RUE HENRI DILLIES, Ronchin",
+    "lat": 50.607015,
+    "lng": 3.074081,
+    "transactions": [
+      {
+        "date": "2021-04-23",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "807bb80e8a39": {
+    "id": "807bb80e8a39",
+    "label": "72 CHE ROUGE, Faches-Thumesnil",
+    "lat": 50.60851,
+    "lng": 3.068614,
+    "transactions": [
+      {
+        "date": "2021-04-27",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "034bb030571c": {
+    "id": "034bb030571c",
+    "label": "14 RUE MARIN LA MESLEE, Lille",
+    "lat": 50.608077,
+    "lng": 3.07195,
+    "transactions": [
+      {
+        "date": "2021-05-05",
+        "priceEur": 208000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1e69ebe80f3": {
+    "id": "b1e69ebe80f3",
+    "label": "33 RUE LONGUEIL, Lille",
+    "lat": 50.609699,
+    "lng": 3.072801,
+    "transactions": [
+      {
+        "date": "2021-05-19",
+        "priceEur": 201325,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "4eec1a064c34": {
+    "id": "4eec1a064c34",
+    "label": "17 RUE DEBUSSY, Ronchin",
+    "lat": 50.608314,
+    "lng": 3.075171,
+    "transactions": [
+      {
+        "date": "2022-12-29",
+        "priceEur": 254752,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": true
+      },
+      {
+        "date": "2022-12-15",
+        "priceEur": 233000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": true
+      },
+      {
+        "date": "2022-10-04",
+        "priceEur": 249752,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": true
+      },
+      {
+        "date": "2021-05-03",
+        "priceEur": 465750,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d8f4b2b201f": {
+    "id": "3d8f4b2b201f",
+    "label": "159 AV JEAN JAURES, Ronchin",
+    "lat": 50.60864,
+    "lng": 3.075477,
+    "transactions": [
+      {
+        "date": "2021-05-03",
+        "priceEur": 465750,
+        "typeLocal": "Maison",
+        "surfaceM2": 235,
+        "isVefa": false
+      }
+    ]
+  },
+  "60abcb9c5256": {
+    "id": "60abcb9c5256",
+    "label": "5 AV CHARLES SAINT VENANT, Faches-Thumesnil",
+    "lat": 50.604374,
+    "lng": 3.067802,
+    "transactions": [
+      {
+        "date": "2024-06-21",
+        "priceEur": 177000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 94,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-19",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e6d24cef06a": {
+    "id": "2e6d24cef06a",
+    "label": "16 RUE VOLTAIRE, Ronchin",
+    "lat": 50.60716,
+    "lng": 3.073312,
+    "transactions": [
+      {
+        "date": "2021-06-15",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "cefde6586fdc": {
+    "id": "cefde6586fdc",
+    "label": "1 RUE LESAGE SENAULT, Lille",
+    "lat": 50.609814,
+    "lng": 3.074707,
+    "transactions": [
+      {
+        "date": "2021-06-14",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "949cc6ee26fb": {
+    "id": "949cc6ee26fb",
+    "label": "790 AV JEAN JAURES, Ronchin",
+    "lat": 50.610235,
+    "lng": 3.075918,
+    "transactions": [
+      {
+        "date": "2025-01-15",
+        "priceEur": 167000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-21",
+        "priceEur": 130200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-28",
+        "priceEur": 109000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-25",
+        "priceEur": 89800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-21",
+        "priceEur": 129000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-24",
+        "priceEur": 138000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2fcac6168a7": {
+    "id": "c2fcac6168a7",
+    "label": "9 RUE VOLTAIRE, Ronchin",
+    "lat": 50.60668,
+    "lng": 3.072922,
+    "transactions": [
+      {
+        "date": "2021-07-08",
+        "priceEur": 170500,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "5755153bcc28": {
+    "id": "5755153bcc28",
+    "label": "45 RUE JULES GUESDE, Ronchin",
+    "lat": 50.605433,
+    "lng": 3.075721,
+    "transactions": [
+      {
+        "date": "2021-07-06",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5f45964c23f": {
+    "id": "b5f45964c23f",
+    "label": "13 RUE FERRER, Faches-Thumesnil",
+    "lat": 50.608756,
+    "lng": 3.06534,
+    "transactions": [
+      {
+        "date": "2021-07-05",
+        "priceEur": 142500,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "f10298f7ced0": {
+    "id": "f10298f7ced0",
+    "label": "196 RUE JEAN JAURES, Faches-Thumesnil",
+    "lat": 50.604255,
+    "lng": 3.073056,
+    "transactions": [
+      {
+        "date": "2021-07-09",
+        "priceEur": 210000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-09",
+        "priceEur": 210000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 29,
+        "isVefa": false
+      }
+    ]
+  },
+  "7138a59eb324": {
+    "id": "7138a59eb324",
+    "label": "9 RUE LOUIS LOUCHEUR, Lille",
+    "lat": 50.608475,
+    "lng": 3.070802,
+    "transactions": [
+      {
+        "date": "2021-07-08",
+        "priceEur": 308455,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "17031809bfe9": {
+    "id": "17031809bfe9",
+    "label": "7 RUE FERRER, Faches-Thumesnil",
+    "lat": 50.608657,
+    "lng": 3.065387,
+    "transactions": [
+      {
+        "date": "2021-07-13",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd88c5e4f8df": {
+    "id": "dd88c5e4f8df",
+    "label": "21 RUE EDGAR DEGAS, Faches-Thumesnil",
+    "lat": 50.606296,
+    "lng": 3.069809,
+    "transactions": [
+      {
+        "date": "2021-07-15",
+        "priceEur": 211000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6685000b581": {
+    "id": "d6685000b581",
+    "label": "171 RUE FILBERTVILLE, Lille",
+    "lat": 50.610991,
+    "lng": 3.068473,
+    "transactions": [
+      {
+        "date": "2021-07-10",
+        "priceEur": 249750,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "d15ddac74c64": {
+    "id": "d15ddac74c64",
+    "label": "11 RUE DU GENERAL HOCHE, Faches-Thumesnil",
+    "lat": 50.606013,
+    "lng": 3.065345,
+    "transactions": [
+      {
+        "date": "2021-07-22",
+        "priceEur": 207500,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "80b293181e42": {
+    "id": "80b293181e42",
+    "label": "59 RUE CARNOT, Faches-Thumesnil",
+    "lat": 50.606143,
+    "lng": 3.066598,
+    "transactions": [
+      {
+        "date": "2021-07-12",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "19b64404a94e": {
+    "id": "19b64404a94e",
+    "label": "4 RUE PAUL LAFARGUE, Faches-Thumesnil",
+    "lat": 50.609575,
+    "lng": 3.065612,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 87980,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "403d0bdc55cd": {
+    "id": "403d0bdc55cd",
+    "label": "84 RUE HENRI DILLIES, Ronchin",
+    "lat": 50.606562,
+    "lng": 3.073492,
+    "transactions": [
+      {
+        "date": "2021-07-28",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff4689f8a7f2": {
+    "id": "ff4689f8a7f2",
+    "label": "32 RUE JULES GUESDE, Ronchin",
+    "lat": 50.605707,
+    "lng": 3.075509,
+    "transactions": [
+      {
+        "date": "2021-07-29",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb36b0c21d49": {
+    "id": "cb36b0c21d49",
+    "label": "10 RUE EDGAR DEGAS, Faches-Thumesnil",
+    "lat": 50.606702,
+    "lng": 3.069785,
+    "transactions": [
+      {
+        "date": "2021-07-21",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "34667cf6e8b6": {
+    "id": "34667cf6e8b6",
+    "label": "50 RUE LOUIS SPRIET, Lille",
+    "lat": 50.611111,
+    "lng": 3.072164,
+    "transactions": [
+      {
+        "date": "2022-04-04",
+        "priceEur": 233500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-06",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c10278577aa": {
+    "id": "2c10278577aa",
+    "label": "61 RUE DES HANNETONS, Lille",
+    "lat": 50.610636,
+    "lng": 3.073746,
+    "transactions": [
+      {
+        "date": "2021-08-09",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "d9d161977169": {
+    "id": "d9d161977169",
+    "label": "6 RUE FILBERTVILLE, Lille",
+    "lat": 50.610822,
+    "lng": 3.068314,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 304500,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "e24bcadff3a7": {
+    "id": "e24bcadff3a7",
+    "label": "72 RUE HENRI DILLIES, Ronchin",
+    "lat": 50.606869,
+    "lng": 3.073845,
+    "transactions": [
+      {
+        "date": "2021-09-07",
+        "priceEur": 188300,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "f889ac17d990": {
+    "id": "f889ac17d990",
+    "label": "8 RUE ERNEST COUTEAUX, Lille",
+    "lat": 50.608376,
+    "lng": 3.072213,
+    "transactions": [
+      {
+        "date": "2021-09-02",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "95d0ddeec58a": {
+    "id": "95d0ddeec58a",
+    "label": "27 RUE HENRI DILLIES, Ronchin",
+    "lat": 50.607176,
+    "lng": 3.075026,
+    "transactions": [
+      {
+        "date": "2021-09-15",
+        "priceEur": 302000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "c8e9224ebf36": {
+    "id": "c8e9224ebf36",
+    "label": "43 RUE CARNOT, Faches-Thumesnil",
+    "lat": 50.607283,
+    "lng": 3.066649,
+    "transactions": [
+      {
+        "date": "2021-09-13",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "e04445037d0e": {
+    "id": "e04445037d0e",
+    "label": "29 RUE EDGAR DEGAS, Faches-Thumesnil",
+    "lat": 50.606107,
+    "lng": 3.069448,
+    "transactions": [
+      {
+        "date": "2021-09-28",
+        "priceEur": 248975,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a4da3cde894": {
+    "id": "1a4da3cde894",
+    "label": "6 RUE DE RONCHIN, Faches-Thumesnil",
+    "lat": 50.605416,
+    "lng": 3.067614,
+    "transactions": [
+      {
+        "date": "2021-09-29",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "a21ec75be7dc": {
+    "id": "a21ec75be7dc",
+    "label": "13 RUE VOLTAIRE, Ronchin",
+    "lat": 50.606743,
+    "lng": 3.072858,
+    "transactions": [
+      {
+        "date": "2021-09-29",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "0316fb33a19d": {
+    "id": "0316fb33a19d",
+    "label": "17 RUE ROGER SALENGRO, Faches-Thumesnil",
+    "lat": 50.605089,
+    "lng": 3.068619,
+    "transactions": [
+      {
+        "date": "2021-10-01",
+        "priceEur": 206000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a3fe93f37e2": {
+    "id": "5a3fe93f37e2",
+    "label": "43 RUE EMILE ZOLA, Faches-Thumesnil",
+    "lat": 50.60922,
+    "lng": 3.067098,
+    "transactions": [
+      {
+        "date": "2021-10-01",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "22fabe6c4779": {
+    "id": "22fabe6c4779",
+    "label": "780 AV JEAN JAURES, Ronchin",
+    "lat": 50.609523,
+    "lng": 3.075749,
+    "transactions": [
+      {
+        "date": "2021-09-29",
+        "priceEur": 293000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "83bff51a2130": {
+    "id": "83bff51a2130",
+    "label": "12 RUE HENRI DILLIES, Ronchin",
+    "lat": 50.608014,
+    "lng": 3.075156,
+    "transactions": [
+      {
+        "date": "2021-10-25",
+        "priceEur": 276000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "566ce6dad678": {
+    "id": "566ce6dad678",
+    "label": "92 RUE CARNOT, Faches-Thumesnil",
+    "lat": 50.604668,
+    "lng": 3.067038,
+    "transactions": [
+      {
+        "date": "2021-10-22",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 175,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b2add008210": {
+    "id": "4b2add008210",
+    "label": "1 RUE MAURICE SCHUMANN, Faches-Thumesnil",
+    "lat": 50.605273,
+    "lng": 3.065803,
+    "transactions": [
+      {
+        "date": "2023-03-09",
+        "priceEur": 156000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-23",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-14",
+        "priceEur": 210000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 89,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-08",
+        "priceEur": 206270,
+        "typeLocal": "Appartement",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "168672e8ff25": {
+    "id": "168672e8ff25",
+    "label": "33 RUE DU BAS LIEVIN, Ronchin",
+    "lat": 50.608592,
+    "lng": 3.07421,
+    "transactions": [
+      {
+        "date": "2022-04-01",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-27",
+        "priceEur": 99000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-20",
+        "priceEur": 165000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 26,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-20",
+        "priceEur": 165000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-20",
+        "priceEur": 165000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-24",
+        "priceEur": 98000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-13",
+        "priceEur": 390000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 37,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-13",
+        "priceEur": 390000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 26,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-13",
+        "priceEur": 390000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-13",
+        "priceEur": 390000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-13",
+        "priceEur": 390000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "f0d32a62008f": {
+    "id": "f0d32a62008f",
+    "label": "87 RUE HENRI DILLIES, Ronchin",
+    "lat": 50.606104,
+    "lng": 3.073628,
+    "transactions": [
+      {
+        "date": "2024-12-04",
+        "priceEur": 217000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-25",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "f86c70624607": {
+    "id": "f86c70624607",
+    "label": "8 RUE PAUL LAFARGUE, Ronchin",
+    "lat": 50.605917,
+    "lng": 3.075387,
+    "transactions": [
+      {
+        "date": "2021-10-21",
+        "priceEur": 171000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "05510f8e9e39": {
+    "id": "05510f8e9e39",
+    "label": "13 RUE EUGENE DELACROIX, Faches-Thumesnil",
+    "lat": 50.607664,
+    "lng": 3.068497,
+    "transactions": [
+      {
+        "date": "2021-10-22",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "0047211b931d": {
+    "id": "0047211b931d",
+    "label": "7 RUE DU GENERAL HOCHE, Faches-Thumesnil",
+    "lat": 50.606068,
+    "lng": 3.065457,
+    "transactions": [
+      {
+        "date": "2021-11-09",
+        "priceEur": 168500,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "44853013f732": {
+    "id": "44853013f732",
+    "label": "7 RUE PAUL LAFARGUE, Faches-Thumesnil",
+    "lat": 50.610073,
+    "lng": 3.065714,
+    "transactions": [
+      {
+        "date": "2021-12-03",
+        "priceEur": 248000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "66606f7bdff1": {
+    "id": "66606f7bdff1",
+    "label": "89 RUE JEAN JAURES, Faches-Thumesnil",
+    "lat": 50.604199,
+    "lng": 3.07222,
+    "transactions": [
+      {
+        "date": "2021-12-31",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "524685721586": {
+    "id": "524685721586",
+    "label": "81 CHE DES MARGUERITOIS, Lille",
+    "lat": 50.607337,
+    "lng": 3.070873,
+    "transactions": [
+      {
+        "date": "2022-01-05",
+        "priceEur": 305000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "ec48a00d8be9": {
+    "id": "ec48a00d8be9",
+    "label": "4 RUE HENRI MATISSE, Faches-Thumesnil",
+    "lat": 50.6073,
+    "lng": 3.069567,
+    "transactions": [
+      {
+        "date": "2022-01-11",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "3cf21cb7d333": {
+    "id": "3cf21cb7d333",
+    "label": "141 AV JEAN JAURES, Ronchin",
+    "lat": 50.607453,
+    "lng": 3.075922,
+    "transactions": [
+      {
+        "date": "2022-01-05",
+        "priceEur": 431500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-05",
+        "priceEur": 431500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-05",
+        "priceEur": 431500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd0facbb0f0c": {
+    "id": "dd0facbb0f0c",
+    "label": "123 RUE FILBERTVILLE, Lille",
+    "lat": 50.610641,
+    "lng": 3.068157,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 284800,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "41fb3c697b9e": {
+    "id": "41fb3c697b9e",
+    "label": "11 RUE DU COLOMBIER, Faches-Thumesnil",
+    "lat": 50.604188,
+    "lng": 3.070021,
+    "transactions": [
+      {
+        "date": "2022-01-27",
+        "priceEur": 227000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b5b331329c9": {
+    "id": "9b5b331329c9",
+    "label": "84 RUE DU BAS LIEVIN, Lille",
+    "lat": 50.60794,
+    "lng": 3.07226,
+    "transactions": [
+      {
+        "date": "2022-01-14",
+        "priceEur": 355000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "dbc4e9fc06fb": {
+    "id": "dbc4e9fc06fb",
+    "label": "11 RUE VOLTAIRE, Ronchin",
+    "lat": 50.606728,
+    "lng": 3.072915,
+    "transactions": [
+      {
+        "date": "2022-03-07",
+        "priceEur": 193000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "863dd6a52450": {
+    "id": "863dd6a52450",
+    "label": "25 RUE DU BAS LIEVIN, Ronchin",
+    "lat": 50.60892,
+    "lng": 3.073919,
+    "transactions": [
+      {
+        "date": "2022-03-16",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "3b14da042963": {
+    "id": "3b14da042963",
+    "label": "13 RUE LESAGE SENAULT, Lille",
+    "lat": 50.609849,
+    "lng": 3.074283,
+    "transactions": [
+      {
+        "date": "2022-05-11",
+        "priceEur": 61000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-28",
+        "priceEur": 127945,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-09",
+        "priceEur": 58000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 18,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d0f5531623e": {
+    "id": "3d0f5531623e",
+    "label": "129 RUE FILBERTVILLE, Lille",
+    "lat": 50.610685,
+    "lng": 3.068196,
+    "transactions": [
+      {
+        "date": "2022-03-18",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "c73262ec220d": {
+    "id": "c73262ec220d",
+    "label": "15 RUE ALEXANDRE RIBOT, Lille",
+    "lat": 50.60837,
+    "lng": 3.070234,
+    "transactions": [
+      {
+        "date": "2022-03-29",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "f3dd9f8ad0a3": {
+    "id": "f3dd9f8ad0a3",
+    "label": "4 VC MAISON BLANCHE RUE FERRER, Faches-Thumesnil",
+    "lat": 50.608788,
+    "lng": 3.066016,
+    "transactions": [
+      {
+        "date": "2022-04-06",
+        "priceEur": 93000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "f06d140d495d": {
+    "id": "f06d140d495d",
+    "label": "12 RUE EDOUARD MANET, Faches-Thumesnil",
+    "lat": 50.606582,
+    "lng": 3.068805,
+    "transactions": [
+      {
+        "date": "2022-04-11",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d6598f14021": {
+    "id": "4d6598f14021",
+    "label": "162 CHE ROUGE, Faches-Thumesnil",
+    "lat": 50.606185,
+    "lng": 3.071823,
+    "transactions": [
+      {
+        "date": "2022-03-23",
+        "priceEur": 363000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "13e6af57481d": {
+    "id": "13e6af57481d",
+    "label": "191 AV JEAN JAURES, Ronchin",
+    "lat": 50.60977,
+    "lng": 3.075062,
+    "transactions": [
+      {
+        "date": "2022-04-12",
+        "priceEur": 500000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-12",
+        "priceEur": 500000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca995b466a69": {
+    "id": "ca995b466a69",
+    "label": "1 RUE PAUL LAFARGUE, Ronchin",
+    "lat": 50.605589,
+    "lng": 3.075104,
+    "transactions": [
+      {
+        "date": "2022-04-26",
+        "priceEur": 107000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0f024133d61": {
+    "id": "c0f024133d61",
+    "label": "182 RUE DU FBG DE DOUAI, Lille",
+    "lat": 50.61094,
+    "lng": 3.074796,
+    "transactions": [
+      {
+        "date": "2022-04-13",
+        "priceEur": 400000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-13",
+        "priceEur": 400000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 106,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-13",
+        "priceEur": 400000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-13",
+        "priceEur": 400000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "4bf85d6739b7": {
+    "id": "4bf85d6739b7",
+    "label": "210 RUE DU FBG DE DOUAI, Lille",
+    "lat": 50.610077,
+    "lng": 3.07496,
+    "transactions": [
+      {
+        "date": "2022-05-02",
+        "priceEur": 219300,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "e10d6cf850ad": {
+    "id": "e10d6cf850ad",
+    "label": "160 CHE ROUGE, Faches-Thumesnil",
+    "lat": 50.606243,
+    "lng": 3.071667,
+    "transactions": [
+      {
+        "date": "2022-05-11",
+        "priceEur": 353000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "62ae962fbc1f": {
+    "id": "62ae962fbc1f",
+    "label": "5 RUE ALEXANDRE RIBOT, Lille",
+    "lat": 50.607518,
+    "lng": 3.071026,
+    "transactions": [
+      {
+        "date": "2022-05-11",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "e487f045f4f4": {
+    "id": "e487f045f4f4",
+    "label": "170 CHE ROUGE, Faches-Thumesnil",
+    "lat": 50.605914,
+    "lng": 3.072507,
+    "transactions": [
+      {
+        "date": "2022-05-23",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "64813fd09b02": {
+    "id": "64813fd09b02",
+    "label": "30 RUE DU BAS LIEVIN, Lille",
+    "lat": 50.609261,
+    "lng": 3.073758,
+    "transactions": [
+      {
+        "date": "2022-05-19",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "79dcc0283e1c": {
+    "id": "79dcc0283e1c",
+    "label": "27 AV CHARLES SAINT VENANT, Faches-Thumesnil",
+    "lat": 50.604945,
+    "lng": 3.068951,
+    "transactions": [
+      {
+        "date": "2023-07-27",
+        "priceEur": 92250,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-01",
+        "priceEur": 178500,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff9e07f0f3f4": {
+    "id": "ff9e07f0f3f4",
+    "label": "3T RUE BELLEVUE, Faches-Thumesnil",
+    "lat": 50.60782,
+    "lng": 3.066232,
+    "transactions": [
+      {
+        "date": "2022-06-09",
+        "priceEur": 274250,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "01d3f27e7a81": {
+    "id": "01d3f27e7a81",
+    "label": "9 RUE HENRI DILLIES, Ronchin",
+    "lat": 50.607766,
+    "lng": 3.075527,
+    "transactions": [
+      {
+        "date": "2022-06-09",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "64df95fd3b97": {
+    "id": "64df95fd3b97",
+    "label": "5 RUE DU GENERAL HOCHE, Faches-Thumesnil",
+    "lat": 50.606081,
+    "lng": 3.065524,
+    "transactions": [
+      {
+        "date": "2022-06-22",
+        "priceEur": 185916,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "3266f9ac66b1": {
+    "id": "3266f9ac66b1",
+    "label": "2 RUE LESAGE SENAULT, Lille",
+    "lat": 50.609998,
+    "lng": 3.074885,
+    "transactions": [
+      {
+        "date": "2022-06-23",
+        "priceEur": 126000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "4bf228b71f68": {
+    "id": "4bf228b71f68",
+    "label": "9 RUE EDGAR DEGAS, Faches-Thumesnil",
+    "lat": 50.606574,
+    "lng": 3.070284,
+    "transactions": [
+      {
+        "date": "2022-06-28",
+        "priceEur": 233500,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e2b568331eb": {
+    "id": "1e2b568331eb",
+    "label": "16 RUE ANDRE DILIGENT, Faches-Thumesnil",
+    "lat": 50.605273,
+    "lng": 3.065803,
+    "transactions": [
+      {
+        "date": "2022-07-06",
+        "priceEur": 141700,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f0cfde283bf": {
+    "id": "9f0cfde283bf",
+    "label": "38 RUE LESAGE SENAULT, Lille",
+    "lat": 50.610431,
+    "lng": 3.07382,
+    "transactions": [
+      {
+        "date": "2022-06-22",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "b20b7d62c756": {
+    "id": "b20b7d62c756",
+    "label": "26 RUE BAJEUX, Faches-Thumesnil",
+    "lat": 50.6093,
+    "lng": 3.066538,
+    "transactions": [
+      {
+        "date": "2022-07-18",
+        "priceEur": 224800,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa4050a372bd": {
+    "id": "fa4050a372bd",
+    "label": "5 RUE MARIN LA MESLEE, Lille",
+    "lat": 50.608141,
+    "lng": 3.071371,
+    "transactions": [
+      {
+        "date": "2022-08-17",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "56ed6c2e3259": {
+    "id": "56ed6c2e3259",
+    "label": "35 AV CHARLES SAINT VENANT, Faches-Thumesnil",
+    "lat": 50.605107,
+    "lng": 3.069104,
+    "transactions": [
+      {
+        "date": "2022-08-16",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "ef83c25c9e38": {
+    "id": "ef83c25c9e38",
+    "label": "38 RUE BELLEVUE, Faches-Thumesnil",
+    "lat": 50.608346,
+    "lng": 3.067938,
+    "transactions": [
+      {
+        "date": "2022-09-07",
+        "priceEur": 251000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "d40e5ae1328d": {
+    "id": "d40e5ae1328d",
+    "label": "48 RUE FERRER, Faches-Thumesnil",
+    "lat": 50.60999,
+    "lng": 3.065404,
+    "transactions": [
+      {
+        "date": "2022-09-05",
+        "priceEur": 182000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "8fe4f35dc44a": {
+    "id": "8fe4f35dc44a",
+    "label": "214 RUE JEAN JAURES, Faches-Thumesnil",
+    "lat": 50.604492,
+    "lng": 3.073648,
+    "transactions": [
+      {
+        "date": "2022-08-31",
+        "priceEur": 231500,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "705cb64d659c": {
+    "id": "705cb64d659c",
+    "label": "37 RUE ANATOLE FRANCE, Faches-Thumesnil",
+    "lat": 50.605688,
+    "lng": 3.065321,
+    "transactions": [
+      {
+        "date": "2022-09-06",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "58c67a1d8d64": {
+    "id": "58c67a1d8d64",
+    "label": "29 RUE LONGUEIL, Lille",
+    "lat": 50.609685,
+    "lng": 3.072956,
+    "transactions": [
+      {
+        "date": "2022-09-16",
+        "priceEur": 260755,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "814b1241d5f0": {
+    "id": "814b1241d5f0",
+    "label": "41 RUE DU BAS LIEVIN, Ronchin",
+    "lat": 50.608272,
+    "lng": 3.074316,
+    "transactions": [
+      {
+        "date": "2022-09-27",
+        "priceEur": 350000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-27",
+        "priceEur": 350000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-27",
+        "priceEur": 350000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 32,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-27",
+        "priceEur": 350000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ce28bd5f672": {
+    "id": "9ce28bd5f672",
+    "label": "45 RUE HENRI DILLIES, Ronchin",
+    "lat": 50.6068,
+    "lng": 3.074414,
+    "transactions": [
+      {
+        "date": "2022-10-07",
+        "priceEur": 215750,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb70bc84f23a": {
+    "id": "fb70bc84f23a",
+    "label": "22 RUE VOLTAIRE, Ronchin",
+    "lat": 50.607196,
+    "lng": 3.073134,
+    "transactions": [
+      {
+        "date": "2022-10-12",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "58d803e66ca4": {
+    "id": "58d803e66ca4",
+    "label": "196 RUE DU FBG DE DOUAI, Lille",
+    "lat": 50.610448,
+    "lng": 3.074938,
+    "transactions": [
+      {
+        "date": "2022-10-18",
+        "priceEur": 380000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-18",
+        "priceEur": 380000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      }
+    ]
+  },
+  "3330382b959e": {
+    "id": "3330382b959e",
+    "label": "1 RUE DU COLOMBIER, Faches-Thumesnil",
+    "lat": 50.60467,
+    "lng": 3.069332,
+    "transactions": [
+      {
+        "date": "2022-10-24",
+        "priceEur": 191000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "80248fe13170": {
+    "id": "80248fe13170",
+    "label": "9 RUE PAUL LAFARGUE, Faches-Thumesnil",
+    "lat": 50.610106,
+    "lng": 3.065825,
+    "transactions": [
+      {
+        "date": "2022-11-07",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e4dd4a19c77": {
+    "id": "7e4dd4a19c77",
+    "label": "41 RUE EMILE ZOLA, Faches-Thumesnil",
+    "lat": 50.609206,
+    "lng": 3.066996,
+    "transactions": [
+      {
+        "date": "2022-11-29",
+        "priceEur": 310061.72,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-24",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "34d732228cd0": {
+    "id": "34d732228cd0",
+    "label": "11 RUE PAUL GAUGUIN, Faches-Thumesnil",
+    "lat": 50.606888,
+    "lng": 3.069587,
+    "transactions": [
+      {
+        "date": "2022-12-05",
+        "priceEur": 240790,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4ca3a25fc9f": {
+    "id": "f4ca3a25fc9f",
+    "label": "10 RUE LESAGE SENAULT, Lille",
+    "lat": 50.610096,
+    "lng": 3.074681,
+    "transactions": [
+      {
+        "date": "2022-12-15",
+        "priceEur": 182000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a7cc1a9e4d7": {
+    "id": "6a7cc1a9e4d7",
+    "label": "38 RUE BAJEUX, Faches-Thumesnil",
+    "lat": 50.609504,
+    "lng": 3.066926,
+    "transactions": [
+      {
+        "date": "2022-11-25",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "c711404ac9c6": {
+    "id": "c711404ac9c6",
+    "label": "6 RUE FERRER, Faches-Thumesnil",
+    "lat": 50.608627,
+    "lng": 3.065809,
+    "transactions": [
+      {
+        "date": "2022-12-28",
+        "priceEur": 310000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "63d93146978c": {
+    "id": "63d93146978c",
+    "label": "109 RUE CARNOT, Faches-Thumesnil",
+    "lat": 50.604168,
+    "lng": 3.067393,
+    "transactions": [
+      {
+        "date": "2023-07-13",
+        "priceEur": 145000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-30",
+        "priceEur": 157500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ccefb51ab20": {
+    "id": "9ccefb51ab20",
+    "label": "22 RUE ERNEST COUTEAUX, Lille",
+    "lat": 50.608657,
+    "lng": 3.071663,
+    "transactions": [
+      {
+        "date": "2023-01-03",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b29641f6994": {
+    "id": "5b29641f6994",
+    "label": "7 RUE AUGUSTE RENOIR, Faches-Thumesnil",
+    "lat": 50.60674,
+    "lng": 3.069053,
+    "transactions": [
+      {
+        "date": "2023-01-23",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "b94f6f17be64": {
+    "id": "b94f6f17be64",
+    "label": "49 AV CHARLES SAINT VENANT, Faches-Thumesnil",
+    "lat": 50.605482,
+    "lng": 3.069409,
+    "transactions": [
+      {
+        "date": "2023-01-27",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "763b5a473edf": {
+    "id": "763b5a473edf",
+    "label": "13 RUE MARIN LA MESLEE, Lille",
+    "lat": 50.608311,
+    "lng": 3.071622,
+    "transactions": [
+      {
+        "date": "2023-02-10",
+        "priceEur": 260200,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "05e494539eb6": {
+    "id": "05e494539eb6",
+    "label": "112 RUE DU BAS LIEVIN, Lille",
+    "lat": 50.607146,
+    "lng": 3.071314,
+    "transactions": [
+      {
+        "date": "2023-03-06",
+        "priceEur": 202450,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "7feda4aca6d4": {
+    "id": "7feda4aca6d4",
+    "label": "104 RUE DU BAS LIEVIN, Lille",
+    "lat": 50.607497,
+    "lng": 3.071758,
+    "transactions": [
+      {
+        "date": "2024-05-22",
+        "priceEur": 408753,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-15",
+        "priceEur": 218000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b2fa203e9bc": {
+    "id": "2b2fa203e9bc",
+    "label": "10 RUE DU BAS LIEVIN, Lille",
+    "lat": 50.609726,
+    "lng": 3.074396,
+    "transactions": [
+      {
+        "date": "2023-03-22",
+        "priceEur": 93485,
+        "typeLocal": "Appartement",
+        "surfaceM2": 33,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-22",
+        "priceEur": 93485,
+        "typeLocal": "Appartement",
+        "surfaceM2": 24,
+        "isVefa": false
+      }
+    ]
+  },
+  "fc53ba636102": {
+    "id": "fc53ba636102",
+    "label": "53 AV CHARLES SAINT VENANT, Faches-Thumesnil",
+    "lat": 50.60559,
+    "lng": 3.069463,
+    "transactions": [
+      {
+        "date": "2023-04-13",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd3731a489e9": {
+    "id": "cd3731a489e9",
+    "label": "16 RUE EDGAR DEGAS, Faches-Thumesnil",
+    "lat": 50.606548,
+    "lng": 3.069493,
+    "transactions": [
+      {
+        "date": "2023-04-14",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "40c970122027": {
+    "id": "40c970122027",
+    "label": "12 RUE ERNEST COUTEAUX, Lille",
+    "lat": 50.60847,
+    "lng": 3.072003,
+    "transactions": [
+      {
+        "date": "2023-05-03",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b3505499ddb": {
+    "id": "1b3505499ddb",
+    "label": "2 RUE HENRI MATISSE, Faches-Thumesnil",
+    "lat": 50.607188,
+    "lng": 3.069576,
+    "transactions": [
+      {
+        "date": "2023-05-04",
+        "priceEur": 271950,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "e794f16d2ec1": {
+    "id": "e794f16d2ec1",
+    "label": "34B RUE BAJEUX, Faches-Thumesnil",
+    "lat": 50.609451,
+    "lng": 3.066816,
+    "transactions": [
+      {
+        "date": "2023-05-16",
+        "priceEur": 290495,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "3757f27e3ea7": {
+    "id": "3757f27e3ea7",
+    "label": "34 RUE ALEXANDRE RIBOT, Lille",
+    "lat": 50.608795,
+    "lng": 3.070754,
+    "transactions": [
+      {
+        "date": "2023-05-17",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "f47003289b47": {
+    "id": "f47003289b47",
+    "label": "36 RUE FERRER, Faches-Thumesnil",
+    "lat": 50.609704,
+    "lng": 3.065393,
+    "transactions": [
+      {
+        "date": "2023-05-31",
+        "priceEur": 400000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "2939c92f6f17": {
+    "id": "2939c92f6f17",
+    "label": "32 RUE FERRER, Faches-Thumesnil",
+    "lat": 50.609498,
+    "lng": 3.065491,
+    "transactions": [
+      {
+        "date": "2023-05-31",
+        "priceEur": 400000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  },
+  "dcff86a974e7": {
+    "id": "dcff86a974e7",
+    "label": "17 RUE ALEXANDRE RIBOT, Lille",
+    "lat": 50.60832,
+    "lng": 3.070151,
+    "transactions": [
+      {
+        "date": "2024-01-26",
+        "priceEur": 193000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-17",
+        "priceEur": 143000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "b282777eed60": {
+    "id": "b282777eed60",
+    "label": "18 RUE MARIN LA MESLEE, Lille",
+    "lat": 50.608171,
+    "lng": 3.0721,
+    "transactions": [
+      {
+        "date": "2023-06-07",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea9d9e4e0f85": {
+    "id": "ea9d9e4e0f85",
+    "label": "37 RUE LONGUEIL, Lille",
+    "lat": 50.609773,
+    "lng": 3.072702,
+    "transactions": [
+      {
+        "date": "2023-07-13",
+        "priceEur": 161000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "026b7dc62fe6": {
+    "id": "026b7dc62fe6",
+    "label": "23 RUE EMILE ZOLA, Faches-Thumesnil",
+    "lat": 50.608913,
+    "lng": 3.066391,
+    "transactions": [
+      {
+        "date": "2023-08-02",
+        "priceEur": 257050,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "98262e6f426d": {
+    "id": "98262e6f426d",
+    "label": "18 RUE VOLTAIRE, Ronchin",
+    "lat": 50.607165,
+    "lng": 3.073228,
+    "transactions": [
+      {
+        "date": "2023-09-04",
+        "priceEur": 175800,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "98a998f147a9": {
+    "id": "98a998f147a9",
+    "label": "14 RUE PAUL CEZANNE, Faches-Thumesnil",
+    "lat": 50.606019,
+    "lng": 3.067822,
+    "transactions": [
+      {
+        "date": "2023-09-05",
+        "priceEur": 191000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae4cec84a04f": {
+    "id": "ae4cec84a04f",
+    "label": "10 RUE ANTOINE WATTEAU, Faches-Thumesnil",
+    "lat": 50.607166,
+    "lng": 3.068792,
+    "transactions": [
+      {
+        "date": "2023-10-03",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ccf17ae7c16": {
+    "id": "2ccf17ae7c16",
+    "label": "38 RUE DU BAS LIEVIN, Lille",
+    "lat": 50.609184,
+    "lng": 3.073235,
+    "transactions": [
+      {
+        "date": "2023-09-29",
+        "priceEur": 413665.7,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "b27dc074d03f": {
+    "id": "b27dc074d03f",
+    "label": "57 RUE EMILE ZOLA, Faches-Thumesnil",
+    "lat": 50.609426,
+    "lng": 3.067508,
+    "transactions": [
+      {
+        "date": "2023-10-11",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "eb2586952381": {
+    "id": "eb2586952381",
+    "label": "44 RUE HENRI DILLIES, Ronchin",
+    "lat": 50.607357,
+    "lng": 3.074411,
+    "transactions": [
+      {
+        "date": "2023-11-30",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "18a3ee0b69a9": {
+    "id": "18a3ee0b69a9",
+    "label": "29 RUE VOLTAIRE, Ronchin",
+    "lat": 50.606963,
+    "lng": 3.07256,
+    "transactions": [
+      {
+        "date": "2023-12-08",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "a22977f0018f": {
+    "id": "a22977f0018f",
+    "label": "44 RUE BAJEUX, Faches-Thumesnil",
+    "lat": 50.609602,
+    "lng": 3.067035,
+    "transactions": [
+      {
+        "date": "2023-12-27",
+        "priceEur": 297150,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ffc6fccea26": {
+    "id": "2ffc6fccea26",
+    "label": "6 RUE ANTOINE WATTEAU, Faches-Thumesnil",
+    "lat": 50.607244,
+    "lng": 3.068893,
+    "transactions": [
+      {
+        "date": "2023-12-28",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "bdd641fa0ea4": {
+    "id": "bdd641fa0ea4",
+    "label": "77 RUE DU BAS LIEVIN, Ronchin",
+    "lat": 50.607687,
+    "lng": 3.07295,
+    "transactions": [
+      {
+        "date": "2023-12-28",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "e586ea91bc4f": {
+    "id": "e586ea91bc4f",
+    "label": "5 RUE PAUL CEZANNE, Faches-Thumesnil",
+    "lat": 50.6069,
+    "lng": 3.067772,
+    "transactions": [
+      {
+        "date": "2024-01-19",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "e036c4ea5e8b": {
+    "id": "e036c4ea5e8b",
+    "label": "21 RUE ALEXANDRE RIBOT, Lille",
+    "lat": 50.608243,
+    "lng": 3.070036,
+    "transactions": [
+      {
+        "date": "2024-07-16",
+        "priceEur": 334000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-04",
+        "priceEur": 150100,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d69bb0d8099": {
+    "id": "7d69bb0d8099",
+    "label": "35 RUE VOLTAIRE, Ronchin",
+    "lat": 50.607048,
+    "lng": 3.072387,
+    "transactions": [
+      {
+        "date": "2024-01-29",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "7aacf05950ba": {
+    "id": "7aacf05950ba",
+    "label": "9 RUE DU COLOMBIER, Faches-Thumesnil",
+    "lat": 50.604275,
+    "lng": 3.069879,
+    "transactions": [
+      {
+        "date": "2024-02-01",
+        "priceEur": 235900,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "099c9e191a18": {
+    "id": "099c9e191a18",
+    "label": "43B AV CHARLES SAINT VENANT, Faches-Thumesnil",
+    "lat": 50.60537,
+    "lng": 3.068973,
+    "transactions": [
+      {
+        "date": "2024-01-26",
+        "priceEur": 228500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "34610a88512d": {
+    "id": "34610a88512d",
+    "label": "3 RUE MARIN LA MESLEE, Lille",
+    "lat": 50.608039,
+    "lng": 3.071304,
+    "transactions": [
+      {
+        "date": "2024-02-12",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd619392acf2": {
+    "id": "fd619392acf2",
+    "label": "222 RUE JEAN JAURES, Faches-Thumesnil",
+    "lat": 50.604613,
+    "lng": 3.073868,
+    "transactions": [
+      {
+        "date": "2024-03-12",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "a50c74ebc583": {
+    "id": "a50c74ebc583",
+    "label": "33 RUE ANATOLE FRANCE, Faches-Thumesnil",
+    "lat": 50.605766,
+    "lng": 3.065281,
+    "transactions": [
+      {
+        "date": "2024-03-19",
+        "priceEur": 190100,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "7916a5914096": {
+    "id": "7916a5914096",
+    "label": "105 AV CHARLES SAINT VENANT, Faches-Thumesnil",
+    "lat": 50.606596,
+    "lng": 3.07075,
+    "transactions": [
+      {
+        "date": "2024-03-15",
+        "priceEur": 215900,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1338a2bea00": {
+    "id": "a1338a2bea00",
+    "label": "6 RUE ESQUERMOISE, Faches-Thumesnil",
+    "lat": 50.604707,
+    "lng": 3.066488,
+    "transactions": [
+      {
+        "date": "2024-04-04",
+        "priceEur": 752307.94,
+        "typeLocal": "Maison",
+        "surfaceM2": 172,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c4977817314": {
+    "id": "7c4977817314",
+    "label": "4 RUE ESQUERMOISE, Faches-Thumesnil",
+    "lat": 50.60482,
+    "lng": 3.066572,
+    "transactions": [
+      {
+        "date": "2024-04-04",
+        "priceEur": 752307.94,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e683737ec4a": {
+    "id": "3e683737ec4a",
+    "label": "3 RUE ESQUERMOISE, Faches-Thumesnil",
+    "lat": 50.604864,
+    "lng": 3.066679,
+    "transactions": [
+      {
+        "date": "2024-04-04",
+        "priceEur": 752307.94,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "6fa3cbbcafe5": {
+    "id": "6fa3cbbcafe5",
+    "label": "1 RUE ESQUERMOISE, Faches-Thumesnil",
+    "lat": 50.604939,
+    "lng": 3.066779,
+    "transactions": [
+      {
+        "date": "2024-04-04",
+        "priceEur": 752307.94,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a450565fe49": {
+    "id": "2a450565fe49",
+    "label": "3 VC L UNION RUE CARNOT, Faches-Thumesnil",
+    "lat": 50.604961,
+    "lng": 3.066818,
+    "transactions": [
+      {
+        "date": "2024-04-04",
+        "priceEur": 752307.94,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "065bfe0e3eff": {
+    "id": "065bfe0e3eff",
+    "label": "2 VC L UNION RUE CARNOT, Faches-Thumesnil",
+    "lat": 50.604962,
+    "lng": 3.066873,
+    "transactions": [
+      {
+        "date": "2024-04-04",
+        "priceEur": 752307.94,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6b76b28fd5b": {
+    "id": "b6b76b28fd5b",
+    "label": "4 VC L UNION RUE CARNOT, Faches-Thumesnil",
+    "lat": 50.604901,
+    "lng": 3.066796,
+    "transactions": [
+      {
+        "date": "2024-04-04",
+        "priceEur": 752307.94,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3e313e5fecc": {
+    "id": "d3e313e5fecc",
+    "label": "34 RUE BELLEVUE, Faches-Thumesnil",
+    "lat": 50.60828,
+    "lng": 3.067807,
+    "transactions": [
+      {
+        "date": "2024-06-26",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b23cbdef6fa": {
+    "id": "6b23cbdef6fa",
+    "label": "98 RUE DU BAS LIEVIN, Lille",
+    "lat": 50.607648,
+    "lng": 3.07188,
+    "transactions": [
+      {
+        "date": "2024-07-08",
+        "priceEur": 234660,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a4b42d0b196": {
+    "id": "1a4b42d0b196",
+    "label": "744 AV JEAN JAURES, Ronchin",
+    "lat": 50.608647,
+    "lng": 3.076027,
+    "transactions": [
+      {
+        "date": "2024-08-02",
+        "priceEur": 469990,
+        "typeLocal": "Appartement",
+        "surfaceM2": 51,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-02",
+        "priceEur": 469990,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-02",
+        "priceEur": 469990,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f1beb2c5ceb": {
+    "id": "2f1beb2c5ceb",
+    "label": "10 RUE MARIN LA MESLEE, Lille",
+    "lat": 50.607998,
+    "lng": 3.071836,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d3b929af507": {
+    "id": "2d3b929af507",
+    "label": "6 RUE EMILE ZOLA, Faches-Thumesnil",
+    "lat": 50.608286,
+    "lng": 3.066042,
+    "transactions": [
+      {
+        "date": "2024-08-02",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "9bc59b0e9f30": {
+    "id": "9bc59b0e9f30",
+    "label": "78 RUE HENRI DILLIES, Ronchin",
+    "lat": 50.606801,
+    "lng": 3.073645,
+    "transactions": [
+      {
+        "date": "2024-08-23",
+        "priceEur": 290000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "c36ecc15ffcb": {
+    "id": "c36ecc15ffcb",
+    "label": "33 RUE EDGAR DEGAS, Faches-Thumesnil",
+    "lat": 50.606017,
+    "lng": 3.069331,
+    "transactions": [
+      {
+        "date": "2024-08-05",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "611c42212e23": {
+    "id": "611c42212e23",
+    "label": "59 RUE DU BAS LIEVIN, Ronchin",
+    "lat": 50.608186,
+    "lng": 3.073342,
+    "transactions": [
+      {
+        "date": "2024-08-26",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "888669bf0f8f": {
+    "id": "888669bf0f8f",
+    "label": "19 RUE EMILE ZOLA, Faches-Thumesnil",
+    "lat": 50.608878,
+    "lng": 3.066242,
+    "transactions": [
+      {
+        "date": "2024-09-04",
+        "priceEur": 233000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6e9f812dc13": {
+    "id": "b6e9f812dc13",
+    "label": "110 AV CHARLES SAINT VENANT, Faches-Thumesnil",
+    "lat": 50.606629,
+    "lng": 3.071332,
+    "transactions": [
+      {
+        "date": "2024-09-10",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd08afe0a2e5": {
+    "id": "dd08afe0a2e5",
+    "label": "37 RUE JULES GUESDE, Ronchin",
+    "lat": 50.605482,
+    "lng": 3.076092,
+    "transactions": [
+      {
+        "date": "2024-09-12",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "11445b251dd8": {
+    "id": "11445b251dd8",
+    "label": "49 RUE CARNOT, Faches-Thumesnil",
+    "lat": 50.606595,
+    "lng": 3.066371,
+    "transactions": [
+      {
+        "date": "2024-10-14",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "d9ecb93f4c81": {
+    "id": "d9ecb93f4c81",
+    "label": "179 AV JEAN JAURES, Ronchin",
+    "lat": 50.609427,
+    "lng": 3.074977,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 345000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-01",
+        "priceEur": 200000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b53a0da6ae1": {
+    "id": "1b53a0da6ae1",
+    "label": "187 AV JEAN JAURES, Ronchin",
+    "lat": 50.609667,
+    "lng": 3.075024,
+    "transactions": [
+      {
+        "date": "2024-09-24",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "c996ba36344d": {
+    "id": "c996ba36344d",
+    "label": "12 RUE EUGENE DELACROIX, Faches-Thumesnil",
+    "lat": 50.607856,
+    "lng": 3.06808,
+    "transactions": [
+      {
+        "date": "2024-09-30",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b9324677a54": {
+    "id": "8b9324677a54",
+    "label": "22 RUE DU BAS LIEVIN, Lille",
+    "lat": 50.60941,
+    "lng": 3.073927,
+    "transactions": [
+      {
+        "date": "2024-09-26",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "5edcf645bc09": {
+    "id": "5edcf645bc09",
+    "label": "2B RUE DU BAS LIEVIN, Lille",
+    "lat": 50.609997,
+    "lng": 3.074915,
+    "transactions": [
+      {
+        "date": "2024-10-16",
+        "priceEur": 175000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 16,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-16",
+        "priceEur": 175000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6d12443fd71": {
+    "id": "d6d12443fd71",
+    "label": "99 AV CHARLES SAINT VENANT, Faches-Thumesnil",
+    "lat": 50.606434,
+    "lng": 3.07065,
+    "transactions": [
+      {
+        "date": "2024-11-19",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "0892bfe75a21": {
+    "id": "0892bfe75a21",
+    "label": "13 RUE EDGAR DEGAS, Faches-Thumesnil",
+    "lat": 50.606492,
+    "lng": 3.070148,
+    "transactions": [
+      {
+        "date": "2024-11-13",
+        "priceEur": 240700,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e5d8519febd": {
+    "id": "1e5d8519febd",
+    "label": "89 RUE CARNOT, Faches-Thumesnil",
+    "lat": 50.605333,
+    "lng": 3.067072,
+    "transactions": [
+      {
+        "date": "2024-12-24",
+        "priceEur": 151000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "0f0011cd8ffc": {
+    "id": "0f0011cd8ffc",
+    "label": "113 AV CHARLES SAINT VENANT, Faches-Thumesnil",
+    "lat": 50.606786,
+    "lng": 3.070998,
+    "transactions": [
+      {
+        "date": "2024-12-23",
+        "priceEur": 111500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "0dc7d5c2a5fe": {
+    "id": "0dc7d5c2a5fe",
+    "label": "81 RUE DES HANNETONS, Lille",
+    "lat": 50.610149,
+    "lng": 3.07298,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "45f77e09545f": {
+    "id": "45f77e09545f",
+    "label": "188 RUE DU FBG DE DOUAI, Lille",
+    "lat": 50.610738,
+    "lng": 3.074912,
+    "transactions": [
+      {
+        "date": "2024-12-20",
+        "priceEur": 328000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f0be68dc2a7": {
+    "id": "8f0be68dc2a7",
+    "label": "26 RUE EMILE ZOLA, Faches-Thumesnil",
+    "lat": 50.608522,
+    "lng": 3.066726,
+    "transactions": [
+      {
+        "date": "2025-01-28",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "291e03fbbeaf": {
+    "id": "291e03fbbeaf",
+    "label": "3B RUE BELLEVUE, Faches-Thumesnil",
+    "lat": 50.607714,
+    "lng": 3.065995,
+    "transactions": [
+      {
+        "date": "2025-02-13",
+        "priceEur": 278560,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd8ee5ba52e8": {
+    "id": "fd8ee5ba52e8",
+    "label": "15 RUE EDOUARD MANET, Faches-Thumesnil",
+    "lat": 50.606432,
+    "lng": 3.068407,
+    "transactions": [
+      {
+        "date": "2025-04-14",
+        "priceEur": 226000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "67e4bc9dd6ee": {
+    "id": "67e4bc9dd6ee",
+    "label": "115 RUE DU BAS LIEVIN, Ronchin",
+    "lat": 50.606866,
+    "lng": 3.07202,
+    "transactions": [
+      {
+        "date": "2025-04-24",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad891ada0742": {
+    "id": "ad891ada0742",
+    "label": "31 RUE ANATOLE FRANCE, Faches-Thumesnil",
+    "lat": 50.60581,
+    "lng": 3.065264,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 198708,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "791786e4c639": {
+    "id": "791786e4c639",
+    "label": "16 RUE LOUIS LOUCHEUR, Lille",
+    "lat": 50.608343,
+    "lng": 3.071151,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "db2eee4e2c09": {
+    "id": "db2eee4e2c09",
+    "label": "16 RUE ESQUERMOISE, Faches-Thumesnil",
+    "lat": 50.604691,
+    "lng": 3.06584,
+    "transactions": [
+      {
+        "date": "2025-04-14",
+        "priceEur": 58000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "ceb33e192744": {
+    "id": "ceb33e192744",
+    "label": "55 RUE LOUIS SPRIET, Lille",
+    "lat": 50.610785,
+    "lng": 3.072454,
+    "transactions": [
+      {
+        "date": "2025-04-28",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "833a16cc22f6": {
+    "id": "833a16cc22f6",
+    "label": "18 RUE FERRER, Faches-Thumesnil",
+    "lat": 50.609175,
+    "lng": 3.06569,
+    "transactions": [
+      {
+        "date": "2025-06-04",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2025-06-04",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d1713bdc5be": {
+    "id": "3d1713bdc5be",
+    "label": "168 CHE ROUGE, Faches-Thumesnil",
+    "lat": 50.605982,
+    "lng": 3.072238,
+    "transactions": [
+      {
+        "date": "2025-06-20",
+        "priceEur": 248000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

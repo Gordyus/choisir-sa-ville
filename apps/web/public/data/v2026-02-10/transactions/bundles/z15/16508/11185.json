@@ -1,0 +1,39 @@
+{
+  "85459d7403eb": {
+    "id": "85459d7403eb",
+    "label": "2 HAMEAU DE OUENVILLE, Elbeuf-sur-Andelle",
+    "lat": 49.486321,
+    "lng": 1.372083,
+    "transactions": [
+      {
+        "date": "2023-11-15",
+        "priceEur": 800000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-15",
+        "priceEur": 800000,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d49fdbe4f10": {
+    "id": "2d49fdbe4f10",
+    "label": "17 HAMEAU DE OUENVILLE, Elbeuf-sur-Andelle",
+    "lat": 49.488571,
+    "lng": 1.37004,
+    "transactions": [
+      {
+        "date": "2024-12-24",
+        "priceEur": 176000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  }
+}

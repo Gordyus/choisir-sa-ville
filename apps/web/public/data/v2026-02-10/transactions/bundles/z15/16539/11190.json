@@ -1,0 +1,32 @@
+{
+  "5d449977ebc1": {
+    "id": "5d449977ebc1",
+    "label": "119 RUE DE LA CAREL, Ernemont-la-Villette",
+    "lat": 49.450504,
+    "lng": 1.713187,
+    "transactions": [
+      {
+        "date": "2022-06-28",
+        "priceEur": 177450,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9b02e6a2528": {
+    "id": "b9b02e6a2528",
+    "label": "115 RUE DE LA CAREL, Ernemont-la-Villette",
+    "lat": 49.450663,
+    "lng": 1.712782,
+    "transactions": [
+      {
+        "date": "2025-01-24",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

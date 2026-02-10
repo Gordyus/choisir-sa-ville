@@ -1,0 +1,99 @@
+{
+  "ff6ccecea93f": {
+    "id": "ff6ccecea93f",
+    "label": "314 RUE DE LA PASTOURELLE, Écretteville-lès-Baons",
+    "lat": 49.62303,
+    "lng": 0.654992,
+    "transactions": [
+      {
+        "date": "2020-10-01",
+        "priceEur": 209000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4ff3b223fd2": {
+    "id": "c4ff3b223fd2",
+    "label": "170 RUE DE LA PASTOURELLE, Écretteville-lès-Baons",
+    "lat": 49.622418,
+    "lng": 0.656128,
+    "transactions": [
+      {
+        "date": "2020-10-06",
+        "priceEur": 307000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e925b1ab083": {
+    "id": "4e925b1ab083",
+    "label": "250 RUE DE LA PASTOURELLE, Écretteville-lès-Baons",
+    "lat": 49.62252,
+    "lng": 0.655623,
+    "transactions": [
+      {
+        "date": "2021-03-05",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "728fad85ca59": {
+    "id": "728fad85ca59",
+    "label": "671 RUE DU FERRONNIER, Écretteville-lès-Baons",
+    "lat": 49.624008,
+    "lng": 0.653344,
+    "transactions": [
+      {
+        "date": "2022-10-24",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f8ff92759bc": {
+    "id": "1f8ff92759bc",
+    "label": "306 RUE DE LA PASTOURELLE, Écretteville-lès-Baons",
+    "lat": 49.622926,
+    "lng": 0.655551,
+    "transactions": [
+      {
+        "date": "2025-05-23",
+        "priceEur": 320750,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-27",
+        "priceEur": 300250,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "4beffd45c133": {
+    "id": "4beffd45c133",
+    "label": "42 RUE DE LA PASTOURELLE, Écretteville-lès-Baons",
+    "lat": 49.622398,
+    "lng": 0.65719,
+    "transactions": [
+      {
+        "date": "2024-10-22",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

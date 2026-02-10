@@ -1,0 +1,47 @@
+{
+  "989dbe79894c": {
+    "id": "989dbe79894c",
+    "label": "1253 RTE DE BOURBOURG, Looberghe",
+    "lat": 50.922659,
+    "lng": 2.246731,
+    "transactions": [
+      {
+        "date": "2021-03-26",
+        "priceEur": 208100,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8c45bf5eba0": {
+    "id": "e8c45bf5eba0",
+    "label": "985 RTE DE BOURBOURG, Looberghe",
+    "lat": 50.920272,
+    "lng": 2.251415,
+    "transactions": [
+      {
+        "date": "2021-05-27",
+        "priceEur": 204600,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "d04cec665b4f": {
+    "id": "d04cec665b4f",
+    "label": "1370 RTE DE BOURBOURG, Looberghe",
+    "lat": 50.921255,
+    "lng": 2.251141,
+    "transactions": [
+      {
+        "date": "2021-08-05",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "f308e9343a4c": {
+    "id": "f308e9343a4c",
+    "label": "3 CHE DES FUCHSIAS, Saint-Maclou-la-Brière",
+    "lat": 49.650532,
+    "lng": 0.460083,
+    "transactions": [
+      {
+        "date": "2021-07-01",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "336ce99a54a7": {
+    "id": "336ce99a54a7",
+    "label": "19 RTE DU MOULIN A VENT, Gonfreville-Caillot",
+    "lat": 49.64985,
+    "lng": 0.457246,
+    "transactions": [
+      {
+        "date": "2023-09-26",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "d9beb4fbe497": {
+    "id": "d9beb4fbe497",
+    "label": "622 RTE DE BOLBEC, Saint-Maclou-la-Brière",
+    "lat": 49.650989,
+    "lng": 0.460879,
+    "transactions": [
+      {
+        "date": "2023-11-28",
+        "priceEur": 45500,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  }
+}

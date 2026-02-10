@@ -1,0 +1,107 @@
+{
+  "eb5edc5794fb": {
+    "id": "eb5edc5794fb",
+    "label": "6 RUE DU MANEGE, Angerville-l'Orcher",
+    "lat": 49.589502,
+    "lng": 0.277858,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 293000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a700b59eb99": {
+    "id": "6a700b59eb99",
+    "label": "34 RUE DES HAUTES FALAISES, Angerville-l'Orcher",
+    "lat": 49.591785,
+    "lng": 0.28217,
+    "transactions": [
+      {
+        "date": "2021-08-24",
+        "priceEur": 197000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "49466bfbaf98": {
+    "id": "49466bfbaf98",
+    "label": "16T RUE DES HAUTES FALAISES, Angerville-l'Orcher",
+    "lat": 49.58951,
+    "lng": 0.282533,
+    "transactions": [
+      {
+        "date": "2022-04-07",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "f34d83ab385d": {
+    "id": "f34d83ab385d",
+    "label": "24 RUE DU CAP, Angerville-l'Orcher",
+    "lat": 49.59046,
+    "lng": 0.277492,
+    "transactions": [
+      {
+        "date": "2022-09-07",
+        "priceEur": 247480,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9d5604c1267": {
+    "id": "f9d5604c1267",
+    "label": "6T RTE DU BLESIMARE, Vergetot",
+    "lat": 49.595428,
+    "lng": 0.283167,
+    "transactions": [
+      {
+        "date": "2023-02-17",
+        "priceEur": 500000,
+        "typeLocal": "Maison",
+        "surfaceM2": 240,
+        "isVefa": false
+      }
+    ]
+  },
+  "7536adddd569": {
+    "id": "7536adddd569",
+    "label": "22 RUE DU CAP, Angerville-l'Orcher",
+    "lat": 49.590369,
+    "lng": 0.277736,
+    "transactions": [
+      {
+        "date": "2023-09-01",
+        "priceEur": 243050,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "a06a5f8ac85c": {
+    "id": "a06a5f8ac85c",
+    "label": "26 RUE DU CAP, Angerville-l'Orcher",
+    "lat": 49.590463,
+    "lng": 0.277074,
+    "transactions": [
+      {
+        "date": "2024-05-29",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  }
+}

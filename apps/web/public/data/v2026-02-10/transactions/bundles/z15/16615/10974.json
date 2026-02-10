@@ -1,0 +1,24 @@
+{
+  "c50f780fd29e": {
+    "id": "c50f780fd29e",
+    "label": "5009 LES MOERES, Killem",
+    "lat": 50.96918,
+    "lng": 2.540564,
+    "transactions": [
+      {
+        "date": "2024-12-06",
+        "priceEur": 263000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-25",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  }
+}

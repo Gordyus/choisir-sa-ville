@@ -1,0 +1,47 @@
+{
+  "c2178cf844e5": {
+    "id": "c2178cf844e5",
+    "label": "161 IMP DES HETRES, Notre-Dame-d'Aliermont",
+    "lat": 49.847261,
+    "lng": 1.297595,
+    "transactions": [
+      {
+        "date": "2021-12-10",
+        "priceEur": 62000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e252a394405": {
+    "id": "9e252a394405",
+    "label": "159 IMP DES HETRES, Notre-Dame-d'Aliermont",
+    "lat": 49.847536,
+    "lng": 1.297974,
+    "transactions": [
+      {
+        "date": "2023-04-14",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "15d358260e7d": {
+    "id": "15d358260e7d",
+    "label": "162 GR GRANDE RUE, Notre-Dame-d'Aliermont",
+    "lat": 49.846314,
+    "lng": 1.298124,
+    "transactions": [
+      {
+        "date": "2023-10-20",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  }
+}

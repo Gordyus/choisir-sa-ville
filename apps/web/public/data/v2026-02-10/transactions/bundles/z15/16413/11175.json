@@ -1,0 +1,47 @@
+{
+  "3bc176773b15": {
+    "id": "3bc176773b15",
+    "label": "290 RTE DE LA GARE, Étainhus",
+    "lat": 49.558709,
+    "lng": 0.329229,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "c665b4204514": {
+    "id": "c665b4204514",
+    "label": "799 RTE DE MONTIVILLIERS, Étainhus",
+    "lat": 49.554732,
+    "lng": 0.319125,
+    "transactions": [
+      {
+        "date": "2023-09-05",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "43159151e55c": {
+    "id": "43159151e55c",
+    "label": "606A RTE DE MONTIVILLIERS, Étainhus",
+    "lat": 49.555866,
+    "lng": 0.322446,
+    "transactions": [
+      {
+        "date": "2024-09-19",
+        "priceEur": 261000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  }
+}

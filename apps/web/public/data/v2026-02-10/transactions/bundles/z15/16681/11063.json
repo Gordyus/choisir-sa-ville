@@ -1,0 +1,62 @@
+{
+  "dcf6d7ac0823": {
+    "id": "dcf6d7ac0823",
+    "label": "115 RUE ANDRE DENIMAL, Somain",
+    "lat": 50.348822,
+    "lng": 3.273443,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 98000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "d61e33ce23eb": {
+    "id": "d61e33ce23eb",
+    "label": "133 RUE ANDRE DENIMAL, Somain",
+    "lat": 50.348437,
+    "lng": 3.272839,
+    "transactions": [
+      {
+        "date": "2021-12-10",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "5fb5a356ee11": {
+    "id": "5fb5a356ee11",
+    "label": "127 RUE ANDRE DENIMAL, Somain",
+    "lat": 50.348594,
+    "lng": 3.273086,
+    "transactions": [
+      {
+        "date": "2021-12-20",
+        "priceEur": 137820,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6f0b73b7613": {
+    "id": "d6f0b73b7613",
+    "label": "129 RUE ANDRE DENIMAL, Somain",
+    "lat": 50.348533,
+    "lng": 3.272954,
+    "transactions": [
+      {
+        "date": "2022-05-06",
+        "priceEur": 144000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

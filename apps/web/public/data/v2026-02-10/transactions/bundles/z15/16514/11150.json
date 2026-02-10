@@ -1,0 +1,974 @@
+{
+  "5ffedbbb165d": {
+    "id": "5ffedbbb165d",
+    "label": "17 RUE DU MAL FOCH, Neufchâtel-en-Bray",
+    "lat": 49.732838,
+    "lng": 1.437786,
+    "transactions": [
+      {
+        "date": "2020-07-24",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "3fbae873876a": {
+    "id": "3fbae873876a",
+    "label": "28 RUE DE SAINT VINCENT, Neufchâtel-en-Bray",
+    "lat": 49.736992,
+    "lng": 1.436226,
+    "transactions": [
+      {
+        "date": "2020-09-17",
+        "priceEur": 123000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "64a601dbbe58": {
+    "id": "64a601dbbe58",
+    "label": "12 BD DE GOVILLE, Neufchâtel-en-Bray",
+    "lat": 49.732309,
+    "lng": 1.438822,
+    "transactions": [
+      {
+        "date": "2020-12-11",
+        "priceEur": 126000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "8387b2242ef0": {
+    "id": "8387b2242ef0",
+    "label": "6 RUE JACQUES PREVERT, Neufchâtel-en-Bray",
+    "lat": 49.737922,
+    "lng": 1.433745,
+    "transactions": [
+      {
+        "date": "2020-12-30",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "b87042f8e0af": {
+    "id": "b87042f8e0af",
+    "label": "22 RUE DE FLANDRE, Neufchâtel-en-Bray",
+    "lat": 49.735342,
+    "lng": 1.435198,
+    "transactions": [
+      {
+        "date": "2025-06-03",
+        "priceEur": 206000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-13",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "d8be6da33647": {
+    "id": "d8be6da33647",
+    "label": "22 RUE DE DRINCOURT, Neufchâtel-en-Bray",
+    "lat": 49.735419,
+    "lng": 1.437266,
+    "transactions": [
+      {
+        "date": "2021-02-26",
+        "priceEur": 143000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a819c4df127": {
+    "id": "8a819c4df127",
+    "label": "6 RUE VICTOR BOUCHER, Neufchâtel-en-Bray",
+    "lat": 49.737644,
+    "lng": 1.435587,
+    "transactions": [
+      {
+        "date": "2021-03-26",
+        "priceEur": 123000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "f85aea40a581": {
+    "id": "f85aea40a581",
+    "label": "19 RUE VICTOR BOUCHER, Neufchâtel-en-Bray",
+    "lat": 49.738449,
+    "lng": 1.43625,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 244000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-15",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "724c7c627521": {
+    "id": "724c7c627521",
+    "label": "25 RUE DE FLANDRE, Neufchâtel-en-Bray",
+    "lat": 49.734805,
+    "lng": 1.435152,
+    "transactions": [
+      {
+        "date": "2021-06-16",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd254fe48fe2": {
+    "id": "dd254fe48fe2",
+    "label": "13 RUE DE SAINT VINCENT, Neufchâtel-en-Bray",
+    "lat": 49.734768,
+    "lng": 1.43829,
+    "transactions": [
+      {
+        "date": "2021-06-19",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "f264979c7b92": {
+    "id": "f264979c7b92",
+    "label": "7 BD ALBERT CHARVET, Neufchâtel-en-Bray",
+    "lat": 49.733914,
+    "lng": 1.438324,
+    "transactions": [
+      {
+        "date": "2021-07-27",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "17f607a3ec4b": {
+    "id": "17f607a3ec4b",
+    "label": "7 RUE GEORGES BIZET, Neufchâtel-en-Bray",
+    "lat": 49.737581,
+    "lng": 1.435936,
+    "transactions": [
+      {
+        "date": "2021-09-09",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2ad4236f4fb": {
+    "id": "e2ad4236f4fb",
+    "label": "35 RTE DE LONDINIERES, Neufchâtel-en-Bray",
+    "lat": 49.738293,
+    "lng": 1.438124,
+    "transactions": [
+      {
+        "date": "2022-02-03",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "e7c303956060": {
+    "id": "e7c303956060",
+    "label": "6 RUE DE SAINT VINCENT, Neufchâtel-en-Bray",
+    "lat": 49.734956,
+    "lng": 1.438899,
+    "transactions": [
+      {
+        "date": "2022-02-21",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "b8d25e93a857": {
+    "id": "b8d25e93a857",
+    "label": "41 RUE DE FLANDRE, Neufchâtel-en-Bray",
+    "lat": 49.735792,
+    "lng": 1.433691,
+    "transactions": [
+      {
+        "date": "2022-03-10",
+        "priceEur": 111500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "744be71ef81d": {
+    "id": "744be71ef81d",
+    "label": "29 RTE DE LONDINIERES, Neufchâtel-en-Bray",
+    "lat": 49.736108,
+    "lng": 1.438927,
+    "transactions": [
+      {
+        "date": "2022-03-26",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "86a1216e2ffc": {
+    "id": "86a1216e2ffc",
+    "label": "7 RUE DE FLANDRE, Neufchâtel-en-Bray",
+    "lat": 49.733569,
+    "lng": 1.4375,
+    "transactions": [
+      {
+        "date": "2022-04-19",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "81422e4079a1": {
+    "id": "81422e4079a1",
+    "label": "1 RUE DES PENSEES, Neufchâtel-en-Bray",
+    "lat": 49.738058,
+    "lng": 1.436188,
+    "transactions": [
+      {
+        "date": "2022-06-01",
+        "priceEur": 159500,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "3fc4fcbee5cf": {
+    "id": "3fc4fcbee5cf",
+    "label": "10 RUE DE SAINT VINCENT, Neufchâtel-en-Bray",
+    "lat": 49.735053,
+    "lng": 1.438608,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "ec101b2edc40": {
+    "id": "ec101b2edc40",
+    "label": "10 RUE DU MAL FOCH, Neufchâtel-en-Bray",
+    "lat": 49.733409,
+    "lng": 1.437391,
+    "transactions": [
+      {
+        "date": "2022-10-14",
+        "priceEur": 333000,
+        "typeLocal": "Maison",
+        "surfaceM2": 20,
+        "isVefa": false
+      }
+    ]
+  },
+  "437fe84c8828": {
+    "id": "437fe84c8828",
+    "label": "9505 CITE DUMONT, Neufchâtel-en-Bray",
+    "lat": 49.734359,
+    "lng": 1.437801,
+    "transactions": [
+      {
+        "date": "2022-11-25",
+        "priceEur": 170291,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "34c862f99d0f": {
+    "id": "34c862f99d0f",
+    "label": "4 BD DE GOVILLE, Neufchâtel-en-Bray",
+    "lat": 49.732061,
+    "lng": 1.438433,
+    "transactions": [
+      {
+        "date": "2022-11-24",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-24",
+        "priceEur": 205000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-24",
+        "priceEur": 205000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  },
+  "36c81245374d": {
+    "id": "36c81245374d",
+    "label": "4 RUE VICTOR BOUCHER, Neufchâtel-en-Bray",
+    "lat": 49.737601,
+    "lng": 1.435518,
+    "transactions": [
+      {
+        "date": "2023-01-20",
+        "priceEur": 91000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "81e1dc1813c3": {
+    "id": "81e1dc1813c3",
+    "label": "4 RES LA ROCADE, Neufchâtel-en-Bray",
+    "lat": 49.737142,
+    "lng": 1.437113,
+    "transactions": [
+      {
+        "date": "2023-02-13",
+        "priceEur": 208000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "019e6d265552": {
+    "id": "019e6d265552",
+    "label": "19 RUE DE LA GARE, Neufchâtel-en-Bray",
+    "lat": 49.732962,
+    "lng": 1.436703,
+    "transactions": [
+      {
+        "date": "2023-02-23",
+        "priceEur": 156500,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "09be3d2be004": {
+    "id": "09be3d2be004",
+    "label": "19 BD ALBERT CHARVET, Neufchâtel-en-Bray",
+    "lat": 49.734221,
+    "lng": 1.439113,
+    "transactions": [
+      {
+        "date": "2023-03-03",
+        "priceEur": 132000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-03",
+        "priceEur": 132000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "83c9926590ee": {
+    "id": "83c9926590ee",
+    "label": "2 RUE VICTOR BOUCHER, Neufchâtel-en-Bray",
+    "lat": 49.737529,
+    "lng": 1.435392,
+    "transactions": [
+      {
+        "date": "2023-03-06",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "d96cf88782f1": {
+    "id": "d96cf88782f1",
+    "label": "9 RTE DE ROCADE, Neufchâtel-en-Bray",
+    "lat": 49.737063,
+    "lng": 1.437478,
+    "transactions": [
+      {
+        "date": "2023-05-02",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "87f8b5ffdc6d": {
+    "id": "87f8b5ffdc6d",
+    "label": "7 RES LA ROCADE, Neufchâtel-en-Bray",
+    "lat": 49.737302,
+    "lng": 1.43671,
+    "transactions": [
+      {
+        "date": "2023-05-13",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "c64b467bf2dd": {
+    "id": "c64b467bf2dd",
+    "label": "2 RES CHANT DES OISEAUX COLIBRI, Neufchâtel-en-Bray",
+    "lat": 49.731594,
+    "lng": 1.428938,
+    "transactions": [
+      {
+        "date": "2023-05-13",
+        "priceEur": 102400,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff8bbe58e2a1": {
+    "id": "ff8bbe58e2a1",
+    "label": "11 BD ALBERT CHARVET, Neufchâtel-en-Bray",
+    "lat": 49.734074,
+    "lng": 1.4386,
+    "transactions": [
+      {
+        "date": "2023-06-07",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a9f8c7aaf92": {
+    "id": "1a9f8c7aaf92",
+    "label": "37 RUE DE SAINT VINCENT, Neufchâtel-en-Bray",
+    "lat": 49.7357,
+    "lng": 1.436559,
+    "transactions": [
+      {
+        "date": "2023-06-26",
+        "priceEur": 264000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "43ac0a433419": {
+    "id": "43ac0a433419",
+    "label": "14 RES DU CHANT DES OISEAUX, Neufchâtel-en-Bray",
+    "lat": 49.732082,
+    "lng": 1.429599,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f4962781b81": {
+    "id": "9f4962781b81",
+    "label": "9 BD ALBERT CHARVET, Neufchâtel-en-Bray",
+    "lat": 49.733978,
+    "lng": 1.438477,
+    "transactions": [
+      {
+        "date": "2023-07-03",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "be41d5118af2": {
+    "id": "be41d5118af2",
+    "label": "21 RTE DE LONDINIERES, Neufchâtel-en-Bray",
+    "lat": 49.735297,
+    "lng": 1.439075,
+    "transactions": [
+      {
+        "date": "2023-07-06",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-06",
+        "priceEur": 149000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d906c123c59": {
+    "id": "7d906c123c59",
+    "label": "23 RUE DE LA GARE, Neufchâtel-en-Bray",
+    "lat": 49.733088,
+    "lng": 1.436604,
+    "transactions": [
+      {
+        "date": "2023-08-05",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "54f5cb1bf92a": {
+    "id": "54f5cb1bf92a",
+    "label": "3 RUE VICTOR BOUCHER, Neufchâtel-en-Bray",
+    "lat": 49.737768,
+    "lng": 1.434971,
+    "transactions": [
+      {
+        "date": "2023-09-13",
+        "priceEur": 129000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "60a861bda30f": {
+    "id": "60a861bda30f",
+    "label": "9 RUE DE DRINCOURT, Neufchâtel-en-Bray",
+    "lat": 49.732849,
+    "lng": 1.436897,
+    "transactions": [
+      {
+        "date": "2023-09-26",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "a4dcd0330b0e": {
+    "id": "a4dcd0330b0e",
+    "label": "27 RUE DE FLANDRE, Neufchâtel-en-Bray",
+    "lat": 49.734996,
+    "lng": 1.434934,
+    "transactions": [
+      {
+        "date": "2024-02-06",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b69b1d6e9e9": {
+    "id": "7b69b1d6e9e9",
+    "label": "10 RUE VICTOR BOUCHER, Neufchâtel-en-Bray",
+    "lat": 49.737821,
+    "lng": 1.435735,
+    "transactions": [
+      {
+        "date": "2024-02-15",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "9cb0f67f5b91": {
+    "id": "9cb0f67f5b91",
+    "label": "1B RUE FREDERIC CHOPIN, Neufchâtel-en-Bray",
+    "lat": 49.738455,
+    "lng": 1.432771,
+    "transactions": [
+      {
+        "date": "2024-02-15",
+        "priceEur": 218000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "5740dadfe419": {
+    "id": "5740dadfe419",
+    "label": "8 BD DE GOVILLE, Neufchâtel-en-Bray",
+    "lat": 49.732198,
+    "lng": 1.438686,
+    "transactions": [
+      {
+        "date": "2024-03-09",
+        "priceEur": 54000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "5185c6ab9f38": {
+    "id": "5185c6ab9f38",
+    "label": "15 RES DU CHANT DES OISEAUX, Neufchâtel-en-Bray",
+    "lat": 49.732258,
+    "lng": 1.429263,
+    "transactions": [
+      {
+        "date": "2024-03-29",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "00d80549211f": {
+    "id": "00d80549211f",
+    "label": "2 RUE DES PENSEES, Neufchâtel-en-Bray",
+    "lat": 49.737768,
+    "lng": 1.43637,
+    "transactions": [
+      {
+        "date": "2024-04-03",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "1be6939b7300": {
+    "id": "1be6939b7300",
+    "label": "12 CITE DUMONT, Neufchâtel-en-Bray",
+    "lat": 49.734359,
+    "lng": 1.437801,
+    "transactions": [
+      {
+        "date": "2024-04-17",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f09e77bacf7": {
+    "id": "2f09e77bacf7",
+    "label": "7 RUE DE DRINCOURT, Neufchâtel-en-Bray",
+    "lat": 49.732771,
+    "lng": 1.43692,
+    "transactions": [
+      {
+        "date": "2024-04-24",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "bdcce35feab8": {
+    "id": "bdcce35feab8",
+    "label": "5 IMP DES LILAS, Neufchâtel-en-Bray",
+    "lat": 49.738203,
+    "lng": 1.437359,
+    "transactions": [
+      {
+        "date": "2024-04-30",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "3104a7d143eb": {
+    "id": "3104a7d143eb",
+    "label": "67 RUE DE SAINT VINCENT, Neufchâtel-en-Bray",
+    "lat": 49.738266,
+    "lng": 1.428646,
+    "transactions": [
+      {
+        "date": "2024-07-10",
+        "priceEur": 575000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "d573a9c4174d": {
+    "id": "d573a9c4174d",
+    "label": "11 RTE DE ROCADE, Neufchâtel-en-Bray",
+    "lat": 49.737203,
+    "lng": 1.437558,
+    "transactions": [
+      {
+        "date": "2024-07-05",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9906ef5d9c3": {
+    "id": "b9906ef5d9c3",
+    "label": "57 RUE DE FLANDRE, Neufchâtel-en-Bray",
+    "lat": 49.737272,
+    "lng": 1.430953,
+    "transactions": [
+      {
+        "date": "2024-07-31",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "51637efa5d0a": {
+    "id": "51637efa5d0a",
+    "label": "37 RUE DE FLANDRE, Neufchâtel-en-Bray",
+    "lat": 49.735598,
+    "lng": 1.434002,
+    "transactions": [
+      {
+        "date": "2024-07-13",
+        "priceEur": 121000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "2446baa0d249": {
+    "id": "2446baa0d249",
+    "label": "16 RUE DE LA GARE, Neufchâtel-en-Bray",
+    "lat": 49.732759,
+    "lng": 1.437554,
+    "transactions": [
+      {
+        "date": "2024-09-12",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ef8a905deec": {
+    "id": "9ef8a905deec",
+    "label": "29 RUE DE FLANDRE, Neufchâtel-en-Bray",
+    "lat": 49.735114,
+    "lng": 1.43485,
+    "transactions": [
+      {
+        "date": "2024-09-10",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "a64f29e8fc70": {
+    "id": "a64f29e8fc70",
+    "label": "1 CITE DUMONT, Neufchâtel-en-Bray",
+    "lat": 49.73397,
+    "lng": 1.437783,
+    "transactions": [
+      {
+        "date": "2024-09-19",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d789d14d124": {
+    "id": "5d789d14d124",
+    "label": "6 RTE DE ROCADE, Neufchâtel-en-Bray",
+    "lat": 49.736636,
+    "lng": 1.437851,
+    "transactions": [
+      {
+        "date": "2024-10-29",
+        "priceEur": 112000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "73c0a9c759a7": {
+    "id": "73c0a9c759a7",
+    "label": "10 RUE JACQUES PREVERT, Neufchâtel-en-Bray",
+    "lat": 49.737941,
+    "lng": 1.434357,
+    "transactions": [
+      {
+        "date": "2024-12-16",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "e97e6bbb50c0": {
+    "id": "e97e6bbb50c0",
+    "label": "6 RUE DE FLANDRE, Neufchâtel-en-Bray",
+    "lat": 49.733876,
+    "lng": 1.437734,
+    "transactions": [
+      {
+        "date": "2025-01-11",
+        "priceEur": 176000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "554dd36333ea": {
+    "id": "554dd36333ea",
+    "label": "56 RUE DE SAINT VINCENT, Neufchâtel-en-Bray",
+    "lat": 49.738475,
+    "lng": 1.428658,
+    "transactions": [
+      {
+        "date": "2025-01-18",
+        "priceEur": 97500,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e862574dfef": {
+    "id": "1e862574dfef",
+    "label": "4 RUE DES JARDINS, Neufchâtel-en-Bray",
+    "lat": 49.73798,
+    "lng": 1.434888,
+    "transactions": [
+      {
+        "date": "2025-01-29",
+        "priceEur": 67500,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7a18c20ff37": {
+    "id": "c7a18c20ff37",
+    "label": "17 RUE VICTOR BOUCHER, Neufchâtel-en-Bray",
+    "lat": 49.738347,
+    "lng": 1.435995,
+    "transactions": [
+      {
+        "date": "2025-03-24",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "198b5bb95461": {
+    "id": "198b5bb95461",
+    "label": "3 RUE DE FLANDRE, Neufchâtel-en-Bray",
+    "lat": 49.733455,
+    "lng": 1.437738,
+    "transactions": [
+      {
+        "date": "2025-05-27",
+        "priceEur": 218500,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "0db7e3108f23": {
+    "id": "0db7e3108f23",
+    "label": "14 PL PASTEUR, Neufchâtel-en-Bray",
+    "lat": 49.73167,
+    "lng": 1.438935,
+    "transactions": [
+      {
+        "date": "2025-05-28",
+        "priceEur": 197500,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  }
+}

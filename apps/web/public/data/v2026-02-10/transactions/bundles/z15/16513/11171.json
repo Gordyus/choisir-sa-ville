@@ -1,0 +1,47 @@
+{
+  "94afcec0fdd6": {
+    "id": "94afcec0fdd6",
+    "label": "27 CHE DES CHAMPS, Bosc-Édeline",
+    "lat": 49.583535,
+    "lng": 1.424449,
+    "transactions": [
+      {
+        "date": "2021-08-26",
+        "priceEur": 183350,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "a061e5333c39": {
+    "id": "a061e5333c39",
+    "label": "58 RTE DE BOSC BORDEL, Bois-Héroult",
+    "lat": 49.58518,
+    "lng": 1.424363,
+    "transactions": [
+      {
+        "date": "2021-09-28",
+        "priceEur": 179680,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "4097a725500e": {
+    "id": "4097a725500e",
+    "label": "1 CHE DU MONT ROUVEL, Bois-Héroult",
+    "lat": 49.584593,
+    "lng": 1.424829,
+    "transactions": [
+      {
+        "date": "2022-10-17",
+        "priceEur": 109000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

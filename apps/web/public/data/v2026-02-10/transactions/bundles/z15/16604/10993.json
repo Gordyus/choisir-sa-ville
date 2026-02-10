@@ -1,0 +1,77 @@
+{
+  "b190beaac17b": {
+    "id": "b190beaac17b",
+    "label": "3 RUE DES AUBEPINES, Arnèke",
+    "lat": 50.835029,
+    "lng": 2.418634,
+    "transactions": [
+      {
+        "date": "2020-11-06",
+        "priceEur": 184600,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ca38b9b6281": {
+    "id": "1ca38b9b6281",
+    "label": "14 RUE DU COMTE D ARTOIS, Arnèke",
+    "lat": 50.835399,
+    "lng": 2.417046,
+    "transactions": [
+      {
+        "date": "2022-03-23",
+        "priceEur": 146450,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "f36263d1dabe": {
+    "id": "f36263d1dabe",
+    "label": "46 RUE DE WORMHOUT, Arnèke",
+    "lat": 50.83438,
+    "lng": 2.418755,
+    "transactions": [
+      {
+        "date": "2022-04-08",
+        "priceEur": 310200,
+        "typeLocal": "Maison",
+        "surfaceM2": 176,
+        "isVefa": false
+      }
+    ]
+  },
+  "2192028b9ad0": {
+    "id": "2192028b9ad0",
+    "label": "8 RUE DU COMTE D ARTOIS, Arnèke",
+    "lat": 50.835219,
+    "lng": 2.417528,
+    "transactions": [
+      {
+        "date": "2023-06-26",
+        "priceEur": 242000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ef11d1a41a0": {
+    "id": "3ef11d1a41a0",
+    "label": "3 RUE DU COMTE D ARTOIS, Arnèke",
+    "lat": 50.834681,
+    "lng": 2.417736,
+    "transactions": [
+      {
+        "date": "2024-03-08",
+        "priceEur": 174000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

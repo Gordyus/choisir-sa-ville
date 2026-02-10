@@ -1,0 +1,47 @@
+{
+  "43618073f02b": {
+    "id": "43618073f02b",
+    "label": "32B CHE DES FORRIERES, Bois-l'Évêque",
+    "lat": 49.448098,
+    "lng": 1.261695,
+    "transactions": [
+      {
+        "date": "2021-04-13",
+        "priceEur": 205500,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed8886aafa35": {
+    "id": "ed8886aafa35",
+    "label": "46 RUE PRINCIPALE, Bois-l'Évêque",
+    "lat": 49.449558,
+    "lng": 1.263404,
+    "transactions": [
+      {
+        "date": "2023-09-11",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "868b97a8dcb9": {
+    "id": "868b97a8dcb9",
+    "label": "34 CHE DES FORRIERES, Bois-l'Évêque",
+    "lat": 49.448098,
+    "lng": 1.261695,
+    "transactions": [
+      {
+        "date": "2024-04-04",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

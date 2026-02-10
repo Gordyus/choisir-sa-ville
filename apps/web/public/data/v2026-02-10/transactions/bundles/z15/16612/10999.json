@@ -1,0 +1,61 @@
+{
+  "baec8b555a8d": {
+    "id": "baec8b555a8d",
+    "label": "2842 CHE DU GROOTEN VROUWE, Cassel",
+    "lat": 50.797061,
+    "lng": 2.507619,
+    "transactions": [
+      {
+        "date": "2024-02-14",
+        "priceEur": 262000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-25",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "d43f92cfe60e": {
+    "id": "d43f92cfe60e",
+    "label": "2790 CHE DU GROOTEN VROUWE, Cassel",
+    "lat": 50.796649,
+    "lng": 2.507791,
+    "transactions": [
+      {
+        "date": "2023-03-16",
+        "priceEur": 355000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-15",
+        "priceEur": 126000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "14cc0351f36c": {
+    "id": "14cc0351f36c",
+    "label": "85 RTE NATIONALE, Sainte-Marie-Cappel",
+    "lat": 50.7932,
+    "lng": 2.508911,
+    "transactions": [
+      {
+        "date": "2023-03-27",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  }
+}

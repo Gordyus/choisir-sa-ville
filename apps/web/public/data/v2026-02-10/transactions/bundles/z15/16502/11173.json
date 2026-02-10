@@ -1,0 +1,47 @@
+{
+  "d29481617d52": {
+    "id": "d29481617d52",
+    "label": "107 RUE DE LA MARE, Vieux-Manoir",
+    "lat": 49.568763,
+    "lng": 1.297556,
+    "transactions": [
+      {
+        "date": "2021-02-05",
+        "priceEur": 176000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "86f50264fc13": {
+    "id": "86f50264fc13",
+    "label": "105 RUE DE LA MARE, Vieux-Manoir",
+    "lat": 49.568757,
+    "lng": 1.297669,
+    "transactions": [
+      {
+        "date": "2021-02-05",
+        "priceEur": 176000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "4443b80c7e37": {
+    "id": "4443b80c7e37",
+    "label": "31 RUE DE LA MARE, Vieux-Manoir",
+    "lat": 49.569247,
+    "lng": 1.296993,
+    "transactions": [
+      {
+        "date": "2024-06-26",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  }
+}

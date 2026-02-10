@@ -1,0 +1,92 @@
+{
+  "4bbaf86b8e33": {
+    "id": "4bbaf86b8e33",
+    "label": "9004 RTE DE PARIS A DIEPPE, Aubermesnil-Beaumais",
+    "lat": 49.85507,
+    "lng": 1.117978,
+    "transactions": [
+      {
+        "date": "2020-10-01",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d7aaf5867be": {
+    "id": "1d7aaf5867be",
+    "label": "111 RUE SAINT LAURENT, Aubermesnil-Beaumais",
+    "lat": 49.854834,
+    "lng": 1.119361,
+    "transactions": [
+      {
+        "date": "2020-10-15",
+        "priceEur": 253850,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "6f9addc0a605": {
+    "id": "6f9addc0a605",
+    "label": "301 RTE DE PARIS, Aubermesnil-Beaumais",
+    "lat": 49.85417,
+    "lng": 1.118722,
+    "transactions": [
+      {
+        "date": "2021-08-04",
+        "priceEur": 236930,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "00387a891a67": {
+    "id": "00387a891a67",
+    "label": "13 CHE DES BALADINS, Tourville-sur-Arques",
+    "lat": 49.858742,
+    "lng": 1.109621,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "e580331cf811": {
+    "id": "e580331cf811",
+    "label": "80 RUE SAINT LAURENT, Aubermesnil-Beaumais",
+    "lat": 49.85528,
+    "lng": 1.119726,
+    "transactions": [
+      {
+        "date": "2024-08-27",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "35c099ca0fb1": {
+    "id": "35c099ca0fb1",
+    "label": "53 CHE DE LA POMMERAIE, Aubermesnil-Beaumais",
+    "lat": 49.855571,
+    "lng": 1.119365,
+    "transactions": [
+      {
+        "date": "2025-05-27",
+        "priceEur": 34624,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  }
+}

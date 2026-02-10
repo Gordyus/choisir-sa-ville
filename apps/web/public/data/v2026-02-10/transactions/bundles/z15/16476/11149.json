@@ -1,0 +1,32 @@
+{
+  "4da4b95d337a": {
+    "id": "4da4b95d337a",
+    "label": "5004 BEAUNAY, Beauval-en-Caux",
+    "lat": 49.745038,
+    "lng": 1.018248,
+    "transactions": [
+      {
+        "date": "2021-02-26",
+        "priceEur": 470900,
+        "typeLocal": "Maison",
+        "surfaceM2": 181,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b247a4676bb": {
+    "id": "6b247a4676bb",
+    "label": "5006 BEAUNAY, Beauval-en-Caux",
+    "lat": 49.743875,
+    "lng": 1.020112,
+    "transactions": [
+      {
+        "date": "2021-05-29",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  }
+}

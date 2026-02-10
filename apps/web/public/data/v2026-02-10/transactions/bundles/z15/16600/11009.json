@@ -1,0 +1,54 @@
+{
+  "d5af6d8d1435": {
+    "id": "d5af6d8d1435",
+    "label": "9 RUE DE MORBECQUE, Renescure",
+    "lat": 50.728439,
+    "lng": 2.376781,
+    "transactions": [
+      {
+        "date": "2022-01-22",
+        "priceEur": 176450,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-22",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "fae8eacc604c": {
+    "id": "fae8eacc604c",
+    "label": "16 LE CHAMP DE LA ROSE, Renescure",
+    "lat": 50.72888,
+    "lng": 2.378307,
+    "transactions": [
+      {
+        "date": "2021-12-09",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "047b987aa3c9": {
+    "id": "047b987aa3c9",
+    "label": "11 RUE DE MORBECQUE, Renescure",
+    "lat": 50.728268,
+    "lng": 2.377097,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 150500,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

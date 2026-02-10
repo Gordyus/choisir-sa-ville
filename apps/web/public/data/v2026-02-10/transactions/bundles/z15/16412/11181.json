@@ -1,0 +1,32 @@
+{
+  "d2b23224365e": {
+    "id": "d2b23224365e",
+    "label": "12 CHE DE LA CURE, Saint-Aubin-Routot",
+    "lat": 49.517362,
+    "lng": 0.317233,
+    "transactions": [
+      {
+        "date": "2022-12-01",
+        "priceEur": 328000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "1451e88e0885": {
+    "id": "1451e88e0885",
+    "label": "1495 RTE D OUDALLE, Saint-Aubin-Routot",
+    "lat": 49.511906,
+    "lng": 0.317347,
+    "transactions": [
+      {
+        "date": "2022-12-27",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

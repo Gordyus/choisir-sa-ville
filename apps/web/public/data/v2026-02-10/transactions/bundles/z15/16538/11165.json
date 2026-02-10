@@ -1,0 +1,84 @@
+{
+  "6fa68708b068": {
+    "id": "6fa68708b068",
+    "label": "10 RUE DE VILLEDIEU, Grumesnil",
+    "lat": 49.626167,
+    "lng": 1.695414,
+    "transactions": [
+      {
+        "date": "2020-10-07",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "3cbad27a9c82": {
+    "id": "3cbad27a9c82",
+    "label": "4 RUE DE VILLEDIEU, Grumesnil",
+    "lat": 49.625394,
+    "lng": 1.695827,
+    "transactions": [
+      {
+        "date": "2020-11-05",
+        "priceEur": 137500,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "a08a06282acc": {
+    "id": "a08a06282acc",
+    "label": "1 LES COMMUNES, Grumesnil",
+    "lat": 49.625116,
+    "lng": 1.69653,
+    "transactions": [
+      {
+        "date": "2020-11-28",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "f89300614bf1": {
+    "id": "f89300614bf1",
+    "label": "2 RUE DE VILLEDIEU, Grumesnil",
+    "lat": 49.625137,
+    "lng": 1.695955,
+    "transactions": [
+      {
+        "date": "2023-02-24",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb295d37968c": {
+    "id": "bb295d37968c",
+    "label": "23 RUE DE VILLEDIEU, Grumesnil",
+    "lat": 49.628292,
+    "lng": 1.692508,
+    "transactions": [
+      {
+        "date": "2023-06-29",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-29",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  }
+}

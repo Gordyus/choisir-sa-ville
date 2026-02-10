@@ -1,0 +1,47 @@
+{
+  "99f3525a740b": {
+    "id": "99f3525a740b",
+    "label": "3 RTE DE SAINTE AUSTREBERTHE, Pavilly",
+    "lat": 49.584457,
+    "lng": 0.96019,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "66ca2e993b22": {
+    "id": "66ca2e993b22",
+    "label": "13T RTE DE SAINTE AUSTREBERTHE, Pavilly",
+    "lat": 49.588953,
+    "lng": 0.966729,
+    "transactions": [
+      {
+        "date": "2023-04-14",
+        "priceEur": 76000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c319c3d5443": {
+    "id": "7c319c3d5443",
+    "label": "9 RTE DE SAINTE AUSTREBERTHE, Pavilly",
+    "lat": 49.586482,
+    "lng": 0.961626,
+    "transactions": [
+      {
+        "date": "2024-11-13",
+        "priceEur": 160200,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "95190fca5292": {
+    "id": "95190fca5292",
+    "label": "61 RTE DES ESSARTS, Callengeville",
+    "lat": 49.822887,
+    "lng": 1.536928,
+    "transactions": [
+      {
+        "date": "2020-08-04",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "64084909bd00": {
+    "id": "64084909bd00",
+    "label": "43 RTE DES ESSARTS, Callengeville",
+    "lat": 49.821404,
+    "lng": 1.533631,
+    "transactions": [
+      {
+        "date": "2024-03-22",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 167,
+        "isVefa": false
+      }
+    ]
+  },
+  "71c5764e076f": {
+    "id": "71c5764e076f",
+    "label": "56 RTE DES POLONAIS, Callengeville",
+    "lat": 49.821518,
+    "lng": 1.535077,
+    "transactions": [
+      {
+        "date": "2024-08-09",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "142bec4ed02d": {
+    "id": "142bec4ed02d",
+    "label": "24 RTE DES ESSARTS, Callengeville",
+    "lat": 49.818929,
+    "lng": 1.529121,
+    "transactions": [
+      {
+        "date": "2025-03-11",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  }
+}

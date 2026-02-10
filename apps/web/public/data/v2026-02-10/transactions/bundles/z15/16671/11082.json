@@ -1,0 +1,47 @@
+{
+  "b25c83747f00": {
+    "id": "b25c83747f00",
+    "label": "143 RUE DE LA CROIX, Haynecourt",
+    "lat": 50.213081,
+    "lng": 3.162489,
+    "transactions": [
+      {
+        "date": "2021-10-08",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "491982195d8d": {
+    "id": "491982195d8d",
+    "label": "47 RUE DE LA CROIX, Haynecourt",
+    "lat": 50.212327,
+    "lng": 3.161639,
+    "transactions": [
+      {
+        "date": "2021-11-17",
+        "priceEur": 112800,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "fceb051797c1": {
+    "id": "fceb051797c1",
+    "label": "177 RUE DE LA CROIX, Haynecourt",
+    "lat": 50.21349,
+    "lng": 3.16304,
+    "transactions": [
+      {
+        "date": "2022-04-13",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  }
+}

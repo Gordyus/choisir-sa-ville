@@ -1,0 +1,496 @@
+{
+  "58fbdbad3ed6": {
+    "id": "58fbdbad3ed6",
+    "label": "21 RUE BOURNOVILLE, Merville",
+    "lat": 50.638092,
+    "lng": 2.631452,
+    "transactions": [
+      {
+        "date": "2020-11-17",
+        "priceEur": 103010,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e069405dd85": {
+    "id": "8e069405dd85",
+    "label": "105 RUE BOURNOVILLE, Merville",
+    "lat": 50.637634,
+    "lng": 2.628761,
+    "transactions": [
+      {
+        "date": "2020-08-21",
+        "priceEur": 136000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc4b67024f6c": {
+    "id": "bc4b67024f6c",
+    "label": "119 RUE REGNIER LECLERCQ, Merville",
+    "lat": 50.633684,
+    "lng": 2.630214,
+    "transactions": [
+      {
+        "date": "2020-09-21",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "6371579471eb": {
+    "id": "6371579471eb",
+    "label": "11 RUE BOURNOVILLE, Merville",
+    "lat": 50.638378,
+    "lng": 2.632376,
+    "transactions": [
+      {
+        "date": "2020-09-11",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6420392f83a": {
+    "id": "f6420392f83a",
+    "label": "93 RUE REGNIER LECLERCQ, Merville",
+    "lat": 50.633848,
+    "lng": 2.63212,
+    "transactions": [
+      {
+        "date": "2021-01-22",
+        "priceEur": 274000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb96b179ff85": {
+    "id": "bb96b179ff85",
+    "label": "74 RUE BOURNOVILLE, Merville",
+    "lat": 50.638098,
+    "lng": 2.628416,
+    "transactions": [
+      {
+        "date": "2021-05-21",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "1769f962500b": {
+    "id": "1769f962500b",
+    "label": "101 RUE BOURNOVILLE, Merville",
+    "lat": 50.637852,
+    "lng": 2.628975,
+    "transactions": [
+      {
+        "date": "2021-06-07",
+        "priceEur": 39402,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "76279d8bb06a": {
+    "id": "76279d8bb06a",
+    "label": "135 RUE BOURNOVILLE, Merville",
+    "lat": 50.637318,
+    "lng": 2.626457,
+    "transactions": [
+      {
+        "date": "2024-09-24",
+        "priceEur": 149150,
+        "typeLocal": "Appartement",
+        "surfaceM2": 105,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-02",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b6770387021": {
+    "id": "1b6770387021",
+    "label": "145 RUE REGNIER LECLERCQ, Merville",
+    "lat": 50.632827,
+    "lng": 2.628919,
+    "transactions": [
+      {
+        "date": "2021-07-13",
+        "priceEur": 327000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f1059d7b3d9": {
+    "id": "7f1059d7b3d9",
+    "label": "57 DIG D ARTOIS, Merville",
+    "lat": 50.638477,
+    "lng": 2.635738,
+    "transactions": [
+      {
+        "date": "2021-09-16",
+        "priceEur": 143600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c4ffbf573f8": {
+    "id": "4c4ffbf573f8",
+    "label": "44 RUE BOURNOVILLE, Merville",
+    "lat": 50.638177,
+    "lng": 2.630182,
+    "transactions": [
+      {
+        "date": "2021-10-11",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6f4ab12ddf6": {
+    "id": "d6f4ab12ddf6",
+    "label": "113 DIG D ARTOIS, Merville",
+    "lat": 50.636848,
+    "lng": 2.629972,
+    "transactions": [
+      {
+        "date": "2021-10-23",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e13f66e264f": {
+    "id": "5e13f66e264f",
+    "label": "119 DIG D ARTOIS, Merville",
+    "lat": 50.636523,
+    "lng": 2.629215,
+    "transactions": [
+      {
+        "date": "2021-12-14",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "804f28e1db44": {
+    "id": "804f28e1db44",
+    "label": "91 RUE REGNIER LECLERCQ, Merville",
+    "lat": 50.634042,
+    "lng": 2.632284,
+    "transactions": [
+      {
+        "date": "2022-02-15",
+        "priceEur": 320900,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "425fb7dd51e0": {
+    "id": "425fb7dd51e0",
+    "label": "127 DIG D ARTOIS, Merville",
+    "lat": 50.636289,
+    "lng": 2.628164,
+    "transactions": [
+      {
+        "date": "2022-03-01",
+        "priceEur": 187500,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c19adf33388": {
+    "id": "5c19adf33388",
+    "label": "9017 DIG D ARTOIS, Merville",
+    "lat": 50.636581,
+    "lng": 2.628886,
+    "transactions": [
+      {
+        "date": "2022-02-21",
+        "priceEur": 242395,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "0df1417ff1e6": {
+    "id": "0df1417ff1e6",
+    "label": "94 RUE BOURNOVILLE, Merville",
+    "lat": 50.637904,
+    "lng": 2.627173,
+    "transactions": [
+      {
+        "date": "2023-12-11",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-10",
+        "priceEur": 219800,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  },
+  "38e150341d3d": {
+    "id": "38e150341d3d",
+    "label": "63 DIG D ARTOIS, Merville",
+    "lat": 50.638006,
+    "lng": 2.635527,
+    "transactions": [
+      {
+        "date": "2022-07-26",
+        "priceEur": 326000,
+        "typeLocal": "Maison",
+        "surfaceM2": 208,
+        "isVefa": false
+      }
+    ]
+  },
+  "595191a636e5": {
+    "id": "595191a636e5",
+    "label": "110 RUE REGNIER LECLERCQ, Merville",
+    "lat": 50.635508,
+    "lng": 2.632481,
+    "transactions": [
+      {
+        "date": "2022-10-17",
+        "priceEur": 177000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "55df89c28ccb": {
+    "id": "55df89c28ccb",
+    "label": "93 DIG D ARTOIS, Merville",
+    "lat": 50.637179,
+    "lng": 2.632012,
+    "transactions": [
+      {
+        "date": "2022-11-04",
+        "priceEur": 252200,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "204100f5d9f7": {
+    "id": "204100f5d9f7",
+    "label": "55 RUE BOURNOVILLE, Merville",
+    "lat": 50.63768,
+    "lng": 2.630412,
+    "transactions": [
+      {
+        "date": "2022-11-18",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "58dc21564f3c": {
+    "id": "58dc21564f3c",
+    "label": "73 RUE REGNIER LECLERCQ, Merville",
+    "lat": 50.634858,
+    "lng": 2.633678,
+    "transactions": [
+      {
+        "date": "2022-11-30",
+        "priceEur": 285500,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "59a236e67f3c": {
+    "id": "59a236e67f3c",
+    "label": "66 RUE BOURNOVILLE, Merville",
+    "lat": 50.638131,
+    "lng": 2.62886,
+    "transactions": [
+      {
+        "date": "2023-04-28",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "60a2ee16b796": {
+    "id": "60a2ee16b796",
+    "label": "116 RUE REGNIER LECLERCQ, Merville",
+    "lat": 50.635079,
+    "lng": 2.632112,
+    "transactions": [
+      {
+        "date": "2023-06-27",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "01707c5d3b2d": {
+    "id": "01707c5d3b2d",
+    "label": "158 RUE REGNIER LECLERCQ, Merville",
+    "lat": 50.633474,
+    "lng": 2.627237,
+    "transactions": [
+      {
+        "date": "2024-04-26",
+        "priceEur": 335500,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "b24de452ecd0": {
+    "id": "b24de452ecd0",
+    "label": "155 RUE REGNIER LECLERCQ, Merville",
+    "lat": 50.632418,
+    "lng": 2.627115,
+    "transactions": [
+      {
+        "date": "2024-08-27",
+        "priceEur": 296500,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3fc963a1749": {
+    "id": "c3fc963a1749",
+    "label": "67 RUE BOURNOVILLE, Merville",
+    "lat": 50.637612,
+    "lng": 2.629842,
+    "transactions": [
+      {
+        "date": "2024-10-01",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "03c0daa9002d": {
+    "id": "03c0daa9002d",
+    "label": "39 RUE BOURNOVILLE, Merville",
+    "lat": 50.63792,
+    "lng": 2.63068,
+    "transactions": [
+      {
+        "date": "2025-04-01",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d48ab250317": {
+    "id": "3d48ab250317",
+    "label": "150 RUE REGNIER LECLERCQ, Merville",
+    "lat": 50.634254,
+    "lng": 2.628256,
+    "transactions": [
+      {
+        "date": "2025-03-31",
+        "priceEur": 270116,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "eeec91d9905d": {
+    "id": "eeec91d9905d",
+    "label": "76 RUE BOURNOVILLE, Merville",
+    "lat": 50.638126,
+    "lng": 2.628265,
+    "transactions": [
+      {
+        "date": "2025-04-09",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "f57f432ac22c": {
+    "id": "f57f432ac22c",
+    "label": "132 RUE REGNIER LECLERCQ, Merville",
+    "lat": 50.634486,
+    "lng": 2.629785,
+    "transactions": [
+      {
+        "date": "2025-05-26",
+        "priceEur": 249900,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "28217d2d96f2": {
+    "id": "28217d2d96f2",
+    "label": "71 RUE BOURNOVILLE, Merville",
+    "lat": 50.637771,
+    "lng": 2.629833,
+    "transactions": [
+      {
+        "date": "2025-06-03",
+        "priceEur": 109000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

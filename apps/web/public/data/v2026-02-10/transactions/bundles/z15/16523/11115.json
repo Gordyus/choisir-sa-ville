@@ -1,0 +1,47 @@
+{
+  "1df9ea48bc2a": {
+    "id": "1df9ea48bc2a",
+    "label": "20 RTE DE LA FORET, Longroy",
+    "lat": 49.98033,
+    "lng": 1.5318,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa145b9d4519": {
+    "id": "aa145b9d4519",
+    "label": "1 RTE DE MILLEBOSC, Longroy",
+    "lat": 49.980109,
+    "lng": 1.528394,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 357000,
+        "typeLocal": "Maison",
+        "surfaceM2": 172,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b98124028a6": {
+    "id": "8b98124028a6",
+    "label": "5 RUE DU CALVAIRE, Longroy",
+    "lat": 49.981036,
+    "lng": 1.530219,
+    "transactions": [
+      {
+        "date": "2024-05-24",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

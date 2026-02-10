@@ -1,0 +1,91 @@
+{
+  "d2224928fb63": {
+    "id": "d2224928fb63",
+    "label": "593 RTE DE BLAINVILLE CREVON, Sainte-Croix-sur-Buchy",
+    "lat": 49.559187,
+    "lng": 1.352118,
+    "transactions": [
+      {
+        "date": "2020-09-23",
+        "priceEur": 172200,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b626f6bd9b1": {
+    "id": "9b626f6bd9b1",
+    "label": "1211 RTE DE BLAINVILLE CREVON, Sainte-Croix-sur-Buchy",
+    "lat": 49.553984,
+    "lng": 1.351928,
+    "transactions": [
+      {
+        "date": "2022-12-01",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-04",
+        "priceEur": 102000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "e587cddcbbea": {
+    "id": "e587cddcbbea",
+    "label": "1089 RTE DE BLAINVILLE CREVON, Sainte-Croix-sur-Buchy",
+    "lat": 49.555654,
+    "lng": 1.352876,
+    "transactions": [
+      {
+        "date": "2021-01-07",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "1680bd28d85a": {
+    "id": "1680bd28d85a",
+    "label": "553 RTE DE BLAINVILLE CREVON, Sainte-Croix-sur-Buchy",
+    "lat": 49.559687,
+    "lng": 1.352167,
+    "transactions": [
+      {
+        "date": "2022-08-26",
+        "priceEur": 114000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-26",
+        "priceEur": 114000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "7186f41cae91": {
+    "id": "7186f41cae91",
+    "label": "719 RTE DE BLAINVILLE CREVON, Sainte-Croix-sur-Buchy",
+    "lat": 49.55786,
+    "lng": 1.35222,
+    "transactions": [
+      {
+        "date": "2024-08-30",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

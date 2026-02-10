@@ -1,0 +1,47 @@
+{
+  "01fce4312284": {
+    "id": "01fce4312284",
+    "label": "465 RTE DU CHATELET, Saint Martin de l'If",
+    "lat": 49.591355,
+    "lng": 0.818498,
+    "transactions": [
+      {
+        "date": "2020-12-30",
+        "priceEur": 221500,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "d1f5b56fc851": {
+    "id": "d1f5b56fc851",
+    "label": "814 RTE DE L'EGLISE - MONT DE L IF, Saint Martin de l'If",
+    "lat": 49.589916,
+    "lng": 0.814897,
+    "transactions": [
+      {
+        "date": "2024-02-16",
+        "priceEur": 232000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "561b07bc7730": {
+    "id": "561b07bc7730",
+    "label": "49 RTE DE LA CURERIE, Saint Martin de l'If",
+    "lat": 49.59203,
+    "lng": 0.819479,
+    "transactions": [
+      {
+        "date": "2024-02-23",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "8805bc422bc9": {
+    "id": "8805bc422bc9",
+    "label": "1542 RUE DU PRESBYTERE, Écrainville",
+    "lat": 49.634979,
+    "lng": 0.298437,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 156060,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "a107d81e9b85": {
+    "id": "a107d81e9b85",
+    "label": "1673 RUE DU PRESBYTERE, Écrainville",
+    "lat": 49.63433,
+    "lng": 0.297094,
+    "transactions": [
+      {
+        "date": "2021-12-02",
+        "priceEur": 505000,
+        "typeLocal": "Maison",
+        "surfaceM2": 189,
+        "isVefa": false
+      }
+    ]
+  },
+  "11281908b71a": {
+    "id": "11281908b71a",
+    "label": "223 RTE DE VERGETOT, Écrainville",
+    "lat": 49.634851,
+    "lng": 0.298054,
+    "transactions": [
+      {
+        "date": "2024-08-12",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  }
+}

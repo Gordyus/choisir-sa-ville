@@ -1,0 +1,69 @@
+{
+  "036679b00433": {
+    "id": "036679b00433",
+    "label": "606 RTE DES BEAUX FEUILLAGES, Saussay",
+    "lat": 49.638784,
+    "lng": 0.926526,
+    "transactions": [
+      {
+        "date": "2020-10-09",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "81e6922703e4": {
+    "id": "81e6922703e4",
+    "label": "271 RTE DES BEAUX FEUILLAGES, Saussay",
+    "lat": 49.637097,
+    "lng": 0.931546,
+    "transactions": [
+      {
+        "date": "2024-10-25",
+        "priceEur": 372000,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-12",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad8c45a78977": {
+    "id": "ad8c45a78977",
+    "label": "55 IMP DES TILLEULS, Saussay",
+    "lat": 49.63797,
+    "lng": 0.929395,
+    "transactions": [
+      {
+        "date": "2022-07-21",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "9de69b4988af": {
+    "id": "9de69b4988af",
+    "label": "95 RUE DE L ANCIENNE FORGE, Saussay",
+    "lat": 49.635651,
+    "lng": 0.9334,
+    "transactions": [
+      {
+        "date": "2025-03-10",
+        "priceEur": 167500,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  }
+}

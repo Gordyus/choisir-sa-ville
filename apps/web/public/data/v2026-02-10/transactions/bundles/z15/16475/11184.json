@@ -1,0 +1,69 @@
+{
+  "536d9924ca10": {
+    "id": "536d9924ca10",
+    "label": "3 RTE DES MELEZES, Saint-Jean-du-Cardonnay",
+    "lat": 49.495182,
+    "lng": 1.001522,
+    "transactions": [
+      {
+        "date": "2022-01-19",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 278,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-19",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 278,
+        "isVefa": false
+      }
+    ]
+  },
+  "7bd01088df45": {
+    "id": "7bd01088df45",
+    "label": "5 RTE DES MELEZES, Saint-Jean-du-Cardonnay",
+    "lat": 49.491007,
+    "lng": 1.001479,
+    "transactions": [
+      {
+        "date": "2024-12-11",
+        "priceEur": 242000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "48d70eb4b62d": {
+    "id": "48d70eb4b62d",
+    "label": "5183 LE CENTRE, La Vaupalière",
+    "lat": 49.489951,
+    "lng": 1.000624,
+    "transactions": [
+      {
+        "date": "2024-11-30",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "24262eee83cd": {
+    "id": "24262eee83cd",
+    "label": "6 RTE DES MELEZES, Saint-Jean-du-Cardonnay",
+    "lat": 49.491248,
+    "lng": 1.000907,
+    "transactions": [
+      {
+        "date": "2025-04-07",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

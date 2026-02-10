@@ -1,0 +1,32 @@
+{
+  "aa99b734656d": {
+    "id": "aa99b734656d",
+    "label": "66 RUE DES HALLOTS, Écaillon",
+    "lat": 50.342876,
+    "lng": 3.208547,
+    "transactions": [
+      {
+        "date": "2021-07-09",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff8765438bce": {
+    "id": "ff8765438bce",
+    "label": "44 RUE DU BOSQUET, Écaillon",
+    "lat": 50.34312,
+    "lng": 3.208611,
+    "transactions": [
+      {
+        "date": "2022-05-25",
+        "priceEur": 207620,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "b7551054eb71": {
+    "id": "b7551054eb71",
+    "label": "820 RUE PRINCIPALE, Wulverdinghe",
+    "lat": 50.831676,
+    "lng": 2.250558,
+    "transactions": [
+      {
+        "date": "2021-02-26",
+        "priceEur": 103500,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "09aa4474a1f3": {
+    "id": "09aa4474a1f3",
+    "label": "530 RUE PRINCIPALE, Wulverdinghe",
+    "lat": 50.830584,
+    "lng": 2.24738,
+    "transactions": [
+      {
+        "date": "2021-04-01",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "8485a219f124": {
+    "id": "8485a219f124",
+    "label": "444 RUE PRINCIPALE, Wulverdinghe",
+    "lat": 50.82942,
+    "lng": 2.247267,
+    "transactions": [
+      {
+        "date": "2021-09-16",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "46980810a039": {
+    "id": "46980810a039",
+    "label": "111 RTE DES VIVIERS, Wulverdinghe",
+    "lat": 50.832762,
+    "lng": 2.250135,
+    "transactions": [
+      {
+        "date": "2021-10-08",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  }
+}

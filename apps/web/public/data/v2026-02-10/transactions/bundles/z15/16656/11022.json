@@ -1,0 +1,176 @@
+{
+  "e8b8b0f657ae": {
+    "id": "e8b8b0f657ae",
+    "label": "1 RUE GIRAUD, Lille",
+    "lat": 50.634564,
+    "lng": 2.990245,
+    "transactions": [
+      {
+        "date": "2024-10-30",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-12",
+        "priceEur": 133000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-29",
+        "priceEur": 226300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-11",
+        "priceEur": 226000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-15",
+        "priceEur": 138000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-15",
+        "priceEur": 138000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-18",
+        "priceEur": 135000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-18",
+        "priceEur": 135000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-10",
+        "priceEur": 155000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-15",
+        "priceEur": 130000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-15",
+        "priceEur": 211714,
+        "typeLocal": "Appartement",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-02",
+        "priceEur": 205000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "54fd7f5d472f": {
+    "id": "54fd7f5d472f",
+    "label": "126 RUE ALBERT THOMAS LOMME, Lille",
+    "lat": 50.636244,
+    "lng": 2.992173,
+    "transactions": [
+      {
+        "date": "2020-12-11",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "baab5362dce0": {
+    "id": "baab5362dce0",
+    "label": "5 AV ROGER SALENGRO LOMME, Lille",
+    "lat": 50.636492,
+    "lng": 2.991099,
+    "transactions": [
+      {
+        "date": "2024-02-12",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "590d7ee4b10a": {
+    "id": "590d7ee4b10a",
+    "label": "28 RUE VICTOR ALLARD, Lille",
+    "lat": 50.637652,
+    "lng": 2.989535,
+    "transactions": [
+      {
+        "date": "2024-04-26",
+        "priceEur": 256500,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "4fd9d8d39b09": {
+    "id": "4fd9d8d39b09",
+    "label": "138 RUE ALBERT THOMAS LOMME, Lille",
+    "lat": 50.633733,
+    "lng": 2.990648,
+    "transactions": [
+      {
+        "date": "2025-05-15",
+        "priceEur": 146359,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-16",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "d960f919a4b9": {
+    "id": "d960f919a4b9",
+    "label": "9 RUE VICTOR ALLARD, Lille",
+    "lat": 50.636884,
+    "lng": 2.989728,
+    "transactions": [
+      {
+        "date": "2025-02-13",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  }
+}

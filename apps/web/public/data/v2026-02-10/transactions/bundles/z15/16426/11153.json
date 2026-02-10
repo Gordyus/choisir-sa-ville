@@ -1,0 +1,92 @@
+{
+  "8e5b8ec56e2a": {
+    "id": "8e5b8ec56e2a",
+    "label": "6 RUE DE PARIS, Bec-de-Mortagne",
+    "lat": 49.712617,
+    "lng": 0.462083,
+    "transactions": [
+      {
+        "date": "2020-07-28",
+        "priceEur": 134000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "48f739211b75": {
+    "id": "48f739211b75",
+    "label": "13 RUE DE PARIS, Bec-de-Mortagne",
+    "lat": 49.712246,
+    "lng": 0.461707,
+    "transactions": [
+      {
+        "date": "2021-05-05",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "da925046b501": {
+    "id": "da925046b501",
+    "label": "2 RUE DE PARIS, Bec-de-Mortagne",
+    "lat": 49.712337,
+    "lng": 0.462761,
+    "transactions": [
+      {
+        "date": "2021-10-06",
+        "priceEur": 147000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "d497ded3d1fa": {
+    "id": "d497ded3d1fa",
+    "label": "16 RTE DE VALMONT, Bec-de-Mortagne",
+    "lat": 49.712556,
+    "lng": 0.46431,
+    "transactions": [
+      {
+        "date": "2021-10-13",
+        "priceEur": 194000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "0913f3f00cfc": {
+    "id": "0913f3f00cfc",
+    "label": "1 RUE DE PARIS, Bec-de-Mortagne",
+    "lat": 49.711755,
+    "lng": 0.46303,
+    "transactions": [
+      {
+        "date": "2022-12-06",
+        "priceEur": 99000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "e220e67875d2": {
+    "id": "e220e67875d2",
+    "label": "14A RTE DE VALMONT, Bec-de-Mortagne",
+    "lat": 49.712091,
+    "lng": 0.463915,
+    "transactions": [
+      {
+        "date": "2024-12-30",
+        "priceEur": 226000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  }
+}

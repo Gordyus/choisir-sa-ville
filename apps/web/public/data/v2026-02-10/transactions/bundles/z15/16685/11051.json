@@ -1,0 +1,84 @@
+{
+  "e52aa52686ec": {
+    "id": "e52aa52686ec",
+    "label": "5001 RUE DU GHIEN, Beuvry-la-Forêt",
+    "lat": 50.434152,
+    "lng": 3.311818,
+    "transactions": [
+      {
+        "date": "2024-06-21",
+        "priceEur": 530000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-12",
+        "priceEur": 165440,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a41fa86d492": {
+    "id": "4a41fa86d492",
+    "label": "227 RUE COURTECUISSE, Tilloy-lez-Marchiennes",
+    "lat": 50.430918,
+    "lng": 3.317859,
+    "transactions": [
+      {
+        "date": "2023-06-01",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "6499460f463c": {
+    "id": "6499460f463c",
+    "label": "75 RUE EMILE LEDOUX, Tilloy-lez-Marchiennes",
+    "lat": 50.429643,
+    "lng": 3.313633,
+    "transactions": [
+      {
+        "date": "2023-09-29",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "605203454d2a": {
+    "id": "605203454d2a",
+    "label": "123 RUE HENRI DEBRABANT, Tilloy-lez-Marchiennes",
+    "lat": 50.430603,
+    "lng": 3.316512,
+    "transactions": [
+      {
+        "date": "2023-12-20",
+        "priceEur": 350100,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c8f7339f713": {
+    "id": "5c8f7339f713",
+    "label": "232 RUE HENRI DEBRABANT, Tilloy-lez-Marchiennes",
+    "lat": 50.430819,
+    "lng": 3.314636,
+    "transactions": [
+      {
+        "date": "2025-04-28",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

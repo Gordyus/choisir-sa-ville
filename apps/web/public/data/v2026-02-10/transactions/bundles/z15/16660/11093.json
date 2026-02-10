@@ -1,0 +1,114 @@
+{
+  "de21eb307370": {
+    "id": "de21eb307370",
+    "label": "14 RUE D HOSTEIN, Boursies",
+    "lat": 50.140823,
+    "lng": 3.038859,
+    "transactions": [
+      {
+        "date": "2021-02-22",
+        "priceEur": 51700,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a3392be906c": {
+    "id": "3a3392be906c",
+    "label": "11 RUE D HOSTEIN, Boursies",
+    "lat": 50.139705,
+    "lng": 3.037917,
+    "transactions": [
+      {
+        "date": "2021-07-23",
+        "priceEur": 241300,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  },
+  "fc0f0025dc1e": {
+    "id": "fc0f0025dc1e",
+    "label": "2 RUE D HOSTEIN, Boursies",
+    "lat": 50.141179,
+    "lng": 3.038855,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 67100,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "0f8934553790": {
+    "id": "0f8934553790",
+    "label": "21 RUE D HOSTEIN, Boursies",
+    "lat": 50.138629,
+    "lng": 3.037402,
+    "transactions": [
+      {
+        "date": "2021-09-22",
+        "priceEur": 169900,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf12c7b47ee6": {
+    "id": "cf12c7b47ee6",
+    "label": "24 RUE D HOSTEIN, Boursies",
+    "lat": 50.140565,
+    "lng": 3.03886,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "23bc7f9a6ee2": {
+    "id": "23bc7f9a6ee2",
+    "label": "4 RUE D HOSTEIN, Boursies",
+    "lat": 50.141126,
+    "lng": 3.038881,
+    "transactions": [
+      {
+        "date": "2023-10-26",
+        "priceEur": 108800,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-16",
+        "priceEur": 82000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "caeb931df7ec": {
+    "id": "caeb931df7ec",
+    "label": "4 RTE NATIONALE, Boursies",
+    "lat": 50.140893,
+    "lng": 3.03754,
+    "transactions": [
+      {
+        "date": "2024-10-25",
+        "priceEur": 195175,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  }
+}

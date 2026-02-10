@@ -1,0 +1,107 @@
+{
+  "2912c6ca23c6": {
+    "id": "2912c6ca23c6",
+    "label": "238 RTE DU MANOIR, Yébleron",
+    "lat": 49.627878,
+    "lng": 0.532006,
+    "transactions": [
+      {
+        "date": "2021-08-24",
+        "priceEur": 132000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d5b81b1c6d1": {
+    "id": "3d5b81b1c6d1",
+    "label": "664 RTE DU MANOIR, Yébleron",
+    "lat": 49.626563,
+    "lng": 0.53764,
+    "transactions": [
+      {
+        "date": "2021-09-03",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "860d147936bc": {
+    "id": "860d147936bc",
+    "label": "371 RUE DE LA VALETTE, Yébleron",
+    "lat": 49.628161,
+    "lng": 0.536172,
+    "transactions": [
+      {
+        "date": "2021-02-12",
+        "priceEur": 176800,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "509c07356250": {
+    "id": "509c07356250",
+    "label": "96 IMP DES CHAMPS, Yébleron",
+    "lat": 49.631427,
+    "lng": 0.535753,
+    "transactions": [
+      {
+        "date": "2022-06-03",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "f66688b72888": {
+    "id": "f66688b72888",
+    "label": "80 IMP DES CHAMPS, Yébleron",
+    "lat": 49.631648,
+    "lng": 0.536031,
+    "transactions": [
+      {
+        "date": "2024-07-31",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd33e129708f": {
+    "id": "cd33e129708f",
+    "label": "12 RES LES TILLEULS, Yébleron",
+    "lat": 49.630863,
+    "lng": 0.535002,
+    "transactions": [
+      {
+        "date": "2024-12-30",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0748b21c453": {
+    "id": "c0748b21c453",
+    "label": "20 RES LES TILLEULS, Yébleron",
+    "lat": 49.631414,
+    "lng": 0.533749,
+    "transactions": [
+      {
+        "date": "2025-03-28",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  }
+}

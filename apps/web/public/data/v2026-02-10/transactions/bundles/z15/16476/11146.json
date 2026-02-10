@@ -1,0 +1,47 @@
+{
+  "31e9c6bbcc37": {
+    "id": "31e9c6bbcc37",
+    "label": "9 RUE SAINT MEDARD, Saint-Mards",
+    "lat": 49.760935,
+    "lng": 1.015267,
+    "transactions": [
+      {
+        "date": "2020-12-05",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "5208128227bb": {
+    "id": "5208128227bb",
+    "label": "17 RTE DE LA VIENNE, Saint-Mards",
+    "lat": 49.760137,
+    "lng": 1.012103,
+    "transactions": [
+      {
+        "date": "2022-04-06",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  },
+  "0aabc6045b07": {
+    "id": "0aabc6045b07",
+    "label": "8 RTE DE SAINT MEDARD, Saint-Mards",
+    "lat": 49.760259,
+    "lng": 1.014165,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 170050,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  }
+}

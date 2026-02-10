@@ -1,0 +1,99 @@
+{
+  "14a6cd7c3a96": {
+    "id": "14a6cd7c3a96",
+    "label": "6 RTE DU BEAUFOURNIER, Le Bourg-Dun",
+    "lat": 49.85609,
+    "lng": 0.916064,
+    "transactions": [
+      {
+        "date": "2021-08-10",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-10",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "555ba87dad9e": {
+    "id": "555ba87dad9e",
+    "label": "128 CHE DES FORIERES, Avremesnil",
+    "lat": 49.857198,
+    "lng": 0.917973,
+    "transactions": [
+      {
+        "date": "2021-08-06",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "e31388ad85bc": {
+    "id": "e31388ad85bc",
+    "label": "15 CHE DES FORIERES, Avremesnil",
+    "lat": 49.856348,
+    "lng": 0.917412,
+    "transactions": [
+      {
+        "date": "2022-03-24",
+        "priceEur": 56000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "39646f3eb8a0": {
+    "id": "39646f3eb8a0",
+    "label": "5170 LE BEAUFOURNIER, Le Bourg-Dun",
+    "lat": 49.857218,
+    "lng": 0.91724,
+    "transactions": [
+      {
+        "date": "2022-12-31",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "3944ce822f8f": {
+    "id": "3944ce822f8f",
+    "label": "965 RTE DU BEAUFOURNIER, Avremesnil",
+    "lat": 49.855778,
+    "lng": 0.917796,
+    "transactions": [
+      {
+        "date": "2023-02-03",
+        "priceEur": 216600,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "033ef6ea2bc4": {
+    "id": "033ef6ea2bc4",
+    "label": "1 RTE DU BEAUFOURNIER, Le Bourg-Dun",
+    "lat": 49.85709,
+    "lng": 0.915902,
+    "transactions": [
+      {
+        "date": "2023-09-15",
+        "priceEur": 272280,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

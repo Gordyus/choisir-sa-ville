@@ -1,0 +1,106 @@
+{
+  "c81adfe741e9": {
+    "id": "c81adfe741e9",
+    "label": "71 LA COTE CABLE, Saint-Gilles-de-Crétot",
+    "lat": 49.555465,
+    "lng": 0.642021,
+    "transactions": [
+      {
+        "date": "2020-07-23",
+        "priceEur": 243875,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "a8dbef7daf6e": {
+    "id": "a8dbef7daf6e",
+    "label": "381 RUE DE SAINT GILLES, Saint-Gilles-de-Crétot",
+    "lat": 49.55868,
+    "lng": 0.641868,
+    "transactions": [
+      {
+        "date": "2020-08-18",
+        "priceEur": 166100,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "d128a4d2d8d4": {
+    "id": "d128a4d2d8d4",
+    "label": "34 LA COTE CABLE, Saint-Gilles-de-Crétot",
+    "lat": 49.556265,
+    "lng": 0.64181,
+    "transactions": [
+      {
+        "date": "2021-07-12",
+        "priceEur": 233000,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "c519c0e4d57a": {
+    "id": "c519c0e4d57a",
+    "label": "88 RES LA BOUTEILLERIE, Saint-Gilles-de-Crétot",
+    "lat": 49.558342,
+    "lng": 0.645057,
+    "transactions": [
+      {
+        "date": "2022-02-01",
+        "priceEur": 72000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-01",
+        "priceEur": 72000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-01",
+        "priceEur": 72000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "ccc8fa35471f": {
+    "id": "ccc8fa35471f",
+    "label": "155 RUE DE SAINT GILLES, Saint-Gilles-de-Crétot",
+    "lat": 49.557297,
+    "lng": 0.643381,
+    "transactions": [
+      {
+        "date": "2022-11-05",
+        "priceEur": 227500,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "09952c1ec699": {
+    "id": "09952c1ec699",
+    "label": "84 LA COTE CABLE, Saint-Gilles-de-Crétot",
+    "lat": 49.555567,
+    "lng": 0.641229,
+    "transactions": [
+      {
+        "date": "2024-02-12",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  }
+}

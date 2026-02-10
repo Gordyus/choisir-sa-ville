@@ -1,0 +1,32 @@
+{
+  "0ff812fc7d12": {
+    "id": "0ff812fc7d12",
+    "label": "514 RUE DU MOULIN, Servaville-Salmonville",
+    "lat": 49.467659,
+    "lng": 1.27965,
+    "transactions": [
+      {
+        "date": "2022-12-06",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 265,
+        "isVefa": false
+      }
+    ]
+  },
+  "853d6633cc06": {
+    "id": "853d6633cc06",
+    "label": "1036 RTE DU CHATEAU, Martainville-Épreville",
+    "lat": 49.461166,
+    "lng": 1.285241,
+    "transactions": [
+      {
+        "date": "2025-04-24",
+        "priceEur": 177500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

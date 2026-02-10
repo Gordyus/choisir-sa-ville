@@ -1,0 +1,84 @@
+{
+  "2e4d2364e80f": {
+    "id": "2e4d2364e80f",
+    "label": "5117N LES PRES DU CALVAIRE, Limésy",
+    "lat": 49.610372,
+    "lng": 0.924319,
+    "transactions": [
+      {
+        "date": "2021-01-15",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c766d064ee1": {
+    "id": "8c766d064ee1",
+    "label": "5117E LES PRES DU CALVAIRE, Limésy",
+    "lat": 49.610547,
+    "lng": 0.923709,
+    "transactions": [
+      {
+        "date": "2023-06-15",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 191,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-02",
+        "priceEur": 227000,
+        "typeLocal": "Maison",
+        "surfaceM2": 191,
+        "isVefa": false
+      }
+    ]
+  },
+  "c77e743ca993": {
+    "id": "c77e743ca993",
+    "label": "5117K LES PRES DU CALVAIRE, Limésy",
+    "lat": 49.609743,
+    "lng": 0.924349,
+    "transactions": [
+      {
+        "date": "2022-07-18",
+        "priceEur": 236000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "32db63009e24": {
+    "id": "32db63009e24",
+    "label": "17 RUE LES PRES DU CALVAIRE, Limésy",
+    "lat": 49.610427,
+    "lng": 0.924674,
+    "transactions": [
+      {
+        "date": "2023-09-26",
+        "priceEur": 151200,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "d0fbe4491ac6": {
+    "id": "d0fbe4491ac6",
+    "label": "293 RUE DU CALVAIRE, Limésy",
+    "lat": 49.610542,
+    "lng": 0.923353,
+    "transactions": [
+      {
+        "date": "2024-03-01",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  }
+}

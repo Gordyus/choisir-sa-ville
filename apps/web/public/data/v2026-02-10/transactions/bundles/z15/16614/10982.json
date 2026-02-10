@@ -1,0 +1,47 @@
+{
+  "7d0d6a6efc3a": {
+    "id": "7d0d6a6efc3a",
+    "label": "51 RTE DE WEST CAPPEL, Bambecque",
+    "lat": 50.910558,
+    "lng": 2.534266,
+    "transactions": [
+      {
+        "date": "2021-10-14",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff6507dac84a": {
+    "id": "ff6507dac84a",
+    "label": "1 RTE DE WYLDER, Bambecque",
+    "lat": 50.91128,
+    "lng": 2.529498,
+    "transactions": [
+      {
+        "date": "2021-12-20",
+        "priceEur": 410750,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a7c5c45323d": {
+    "id": "5a7c5c45323d",
+    "label": "49 RTE DE WEST CAPPEL, Bambecque",
+    "lat": 50.910377,
+    "lng": 2.534462,
+    "transactions": [
+      {
+        "date": "2022-10-24",
+        "priceEur": 16500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

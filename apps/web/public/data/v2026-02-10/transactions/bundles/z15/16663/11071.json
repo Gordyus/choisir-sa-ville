@@ -1,0 +1,47 @@
+{
+  "bbc9f2dfcbe8": {
+    "id": "bbc9f2dfcbe8",
+    "label": "2 RUE LUCIE AUBRAC, Estrées",
+    "lat": 50.29534,
+    "lng": 3.074444,
+    "transactions": [
+      {
+        "date": "2020-07-04",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 204,
+        "isVefa": false
+      }
+    ]
+  },
+  "057240e3e5d1": {
+    "id": "057240e3e5d1",
+    "label": "8 RUE JEAN MOULIN, Estrées",
+    "lat": 50.296358,
+    "lng": 3.074529,
+    "transactions": [
+      {
+        "date": "2021-12-08",
+        "priceEur": 81395.34,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c1895261d42": {
+    "id": "5c1895261d42",
+    "label": "15T RUE D ARLEUX, Estrées",
+    "lat": 50.296074,
+    "lng": 3.072702,
+    "transactions": [
+      {
+        "date": "2021-03-19",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

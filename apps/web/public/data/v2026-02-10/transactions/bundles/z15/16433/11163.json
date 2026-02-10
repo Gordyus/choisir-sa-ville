@@ -1,0 +1,32 @@
+{
+  "08bdc8028180": {
+    "id": "08bdc8028180",
+    "label": "194 IMP DES DEUX PORTES, Yébleron",
+    "lat": 49.639978,
+    "lng": 0.542066,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 228150,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e47a2f4c6d3": {
+    "id": "7e47a2f4c6d3",
+    "label": "1438 RTE DES CHOUQUETS, Hattenville",
+    "lat": 49.64537,
+    "lng": 0.538427,
+    "transactions": [
+      {
+        "date": "2022-07-18",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  }
+}

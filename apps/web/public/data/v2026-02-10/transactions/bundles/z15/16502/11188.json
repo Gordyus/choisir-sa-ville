@@ -1,0 +1,92 @@
+{
+  "07b7a8c66b85": {
+    "id": "07b7a8c66b85",
+    "label": "4 LA BUTTE DE MARTAINVILLE, Grainville-sur-Ry",
+    "lat": 49.462166,
+    "lng": 1.297688,
+    "transactions": [
+      {
+        "date": "2020-10-28",
+        "priceEur": 224500,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "2cc545a11411": {
+    "id": "2cc545a11411",
+    "label": "5124 LE BOUT DE MARTAINVILLE, Martainville-Épreville",
+    "lat": 49.462797,
+    "lng": 1.296865,
+    "transactions": [
+      {
+        "date": "2021-12-15",
+        "priceEur": 216000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "96267a3da401": {
+    "id": "96267a3da401",
+    "label": "3 RES DE LA BUTTE, Grainville-sur-Ry",
+    "lat": 49.461926,
+    "lng": 1.297811,
+    "transactions": [
+      {
+        "date": "2022-06-21",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "ba870f83d64e": {
+    "id": "ba870f83d64e",
+    "label": "1 RES DE LA BUTTE, Grainville-sur-Ry",
+    "lat": 49.461479,
+    "lng": 1.297731,
+    "transactions": [
+      {
+        "date": "2022-06-28",
+        "priceEur": 228000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "e731e5649f80": {
+    "id": "e731e5649f80",
+    "label": "5077A ORGEBRAY HAMEAU, Martainville-Épreville",
+    "lat": 49.462828,
+    "lng": 1.297251,
+    "transactions": [
+      {
+        "date": "2022-09-27",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b7c745c93a8": {
+    "id": "6b7c745c93a8",
+    "label": "5141 ORGEBRAY HAMEAU, Martainville-Épreville",
+    "lat": 49.46353,
+    "lng": 1.296809,
+    "transactions": [
+      {
+        "date": "2024-07-31",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "29beca8fbe4d": {
+    "id": "29beca8fbe4d",
+    "label": "63 RUE JEAN MOULIN, Wasnes-au-Bac",
+    "lat": 50.272331,
+    "lng": 3.263283,
+    "transactions": [
+      {
+        "date": "2021-05-21",
+        "priceEur": 68000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "5eecc9a812e9": {
+    "id": "5eecc9a812e9",
+    "label": "67 RUE JEAN MOULIN, Wasnes-au-Bac",
+    "lat": 50.271045,
+    "lng": 3.264257,
+    "transactions": [
+      {
+        "date": "2024-03-28",
+        "priceEur": 151000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "58859a3ecc7c": {
+    "id": "58859a3ecc7c",
+    "label": "46 RUE DU DOCTEUR CALMETTE, Wasnes-au-Bac",
+    "lat": 50.270513,
+    "lng": 3.263623,
+    "transactions": [
+      {
+        "date": "2024-05-23",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  }
+}

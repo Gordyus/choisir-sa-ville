@@ -1,0 +1,54 @@
+{
+  "ac911afafba2": {
+    "id": "ac911afafba2",
+    "label": "15 RTE DU PRIEURE, Vergetot",
+    "lat": 49.606926,
+    "lng": 0.281549,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 323000,
+        "typeLocal": "Maison",
+        "surfaceM2": 185,
+        "isVefa": false
+      }
+    ]
+  },
+  "85ce1cd8ceb5": {
+    "id": "85ce1cd8ceb5",
+    "label": "12 RTE DU PRIEURE, Vergetot",
+    "lat": 49.606475,
+    "lng": 0.278783,
+    "transactions": [
+      {
+        "date": "2024-08-30",
+        "priceEur": 182500,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-06",
+        "priceEur": 164000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "6809d241bac8": {
+    "id": "6809d241bac8",
+    "label": "6 IMP DU HORSAIN, Vergetot",
+    "lat": 49.607687,
+    "lng": 0.277798,
+    "transactions": [
+      {
+        "date": "2025-03-28",
+        "priceEur": 174550,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  }
+}

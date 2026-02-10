@@ -1,0 +1,32 @@
+{
+  "cfa7e6721e4b": {
+    "id": "cfa7e6721e4b",
+    "label": "4080 CHE VERT, Winnezeele",
+    "lat": 50.865293,
+    "lng": 2.556413,
+    "transactions": [
+      {
+        "date": "2023-03-21",
+        "priceEur": 202000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc8682b620a1": {
+    "id": "bc8682b620a1",
+    "label": "3939 CHE VERT, Winnezeele",
+    "lat": 50.868039,
+    "lng": 2.550888,
+    "transactions": [
+      {
+        "date": "2023-12-06",
+        "priceEur": 480000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

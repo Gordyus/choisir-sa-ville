@@ -1,0 +1,32 @@
+{
+  "92bf88a665ad": {
+    "id": "92bf88a665ad",
+    "label": "5778 L EPINAY, Saint-Saëns",
+    "lat": 49.667266,
+    "lng": 1.261961,
+    "transactions": [
+      {
+        "date": "2020-09-24",
+        "priceEur": 181000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "123caa99e0fd": {
+    "id": "123caa99e0fd",
+    "label": "689 RUE DE L EPINAY, Saint-Saëns",
+    "lat": 49.666069,
+    "lng": 1.262256,
+    "transactions": [
+      {
+        "date": "2024-08-23",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  }
+}

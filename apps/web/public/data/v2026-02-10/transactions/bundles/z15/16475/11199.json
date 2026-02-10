@@ -1,0 +1,32 @@
+{
+  "debc3d1157b1": {
+    "id": "debc3d1157b1",
+    "label": "2 CAVEE DU ROSSIGNOL, Val-de-la-Haye",
+    "lat": 49.382412,
+    "lng": 1.003106,
+    "transactions": [
+      {
+        "date": "2022-12-15",
+        "priceEur": 122000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a36ae753768": {
+    "id": "2a36ae753768",
+    "label": "4 CAVEE DU ROSSIGNOL, Val-de-la-Haye",
+    "lat": 49.383171,
+    "lng": 1.002981,
+    "transactions": [
+      {
+        "date": "2024-12-02",
+        "priceEur": 249000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

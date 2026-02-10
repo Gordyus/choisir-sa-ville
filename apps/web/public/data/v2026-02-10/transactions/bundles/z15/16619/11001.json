@@ -1,0 +1,47 @@
+{
+  "223044aef641": {
+    "id": "223044aef641",
+    "label": "260 RUE DE L HAZEWINDE, Eecke",
+    "lat": 50.780775,
+    "lng": 2.590858,
+    "transactions": [
+      {
+        "date": "2021-10-08",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "8bbc8d55f60e": {
+    "id": "8bbc8d55f60e",
+    "label": "840 RUE DE L HAZEWINDE, Eecke",
+    "lat": 50.778911,
+    "lng": 2.583154,
+    "transactions": [
+      {
+        "date": "2022-09-09",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "f162ee9b581d": {
+    "id": "f162ee9b581d",
+    "label": "55 RUE DU BOIS BLANC, Eecke",
+    "lat": 50.781037,
+    "lng": 2.590548,
+    "transactions": [
+      {
+        "date": "2023-07-07",
+        "priceEur": 214500,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  }
+}

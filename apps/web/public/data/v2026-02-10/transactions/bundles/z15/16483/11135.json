@@ -1,0 +1,32 @@
+{
+  "a57d52681ca2": {
+    "id": "a57d52681ca2",
+    "label": "4 RUE D'ECORCHEBOEUF, Anneville-sur-Scie",
+    "lat": 49.843409,
+    "lng": 1.090234,
+    "transactions": [
+      {
+        "date": "2021-05-07",
+        "priceEur": 254170,
+        "typeLocal": "Maison",
+        "surfaceM2": 246,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd5a2e6e14c8": {
+    "id": "fd5a2e6e14c8",
+    "label": "7 RUE D'ECORCHEBOEUF, Anneville-sur-Scie",
+    "lat": 49.84324,
+    "lng": 1.091401,
+    "transactions": [
+      {
+        "date": "2023-03-10",
+        "priceEur": 318000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  }
+}

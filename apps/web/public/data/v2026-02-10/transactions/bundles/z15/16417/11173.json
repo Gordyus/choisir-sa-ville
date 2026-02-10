@@ -1,0 +1,84 @@
+{
+  "513ede17b819": {
+    "id": "513ede17b819",
+    "label": "1361 RUE DE LA CHOUETTE, Saint-Gilles-de-la-Neuville",
+    "lat": 49.568257,
+    "lng": 0.368336,
+    "transactions": [
+      {
+        "date": "2024-12-10",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-05",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "a911c55240c3": {
+    "id": "a911c55240c3",
+    "label": "930 GR GRANDE RUE, Saint-Gilles-de-la-Neuville",
+    "lat": 49.573636,
+    "lng": 0.363018,
+    "transactions": [
+      {
+        "date": "2023-03-17",
+        "priceEur": 479900,
+        "typeLocal": "Maison",
+        "surfaceM2": 488,
+        "isVefa": false
+      }
+    ]
+  },
+  "121fbc9f588a": {
+    "id": "121fbc9f588a",
+    "label": "111 GR GRANDE RUE, Saint-Gilles-de-la-Neuville",
+    "lat": 49.574037,
+    "lng": 0.373396,
+    "transactions": [
+      {
+        "date": "2023-09-08",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "827b4e2e5279": {
+    "id": "827b4e2e5279",
+    "label": "1359 ALL DES TILLEULS, Saint-Gilles-de-la-Neuville",
+    "lat": 49.568333,
+    "lng": 0.368112,
+    "transactions": [
+      {
+        "date": "2024-06-20",
+        "priceEur": 173300,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "fce48c45b9a1": {
+    "id": "fce48c45b9a1",
+    "label": "1363 ALL DES TILLEULS, Saint-Gilles-de-la-Neuville",
+    "lat": 49.56804,
+    "lng": 0.368229,
+    "transactions": [
+      {
+        "date": "2025-02-14",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  }
+}

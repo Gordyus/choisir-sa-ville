@@ -1,0 +1,77 @@
+{
+  "5880981f17d5": {
+    "id": "5880981f17d5",
+    "label": "1335 RTE DU NEUFBOURG, Bretteville-du-Grand-Caux",
+    "lat": 49.675996,
+    "lng": 0.391755,
+    "transactions": [
+      {
+        "date": "2021-03-19",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "e821bdcb8d0c": {
+    "id": "e821bdcb8d0c",
+    "label": "1084 RTE DE LA CRIQUE, Bretteville-du-Grand-Caux",
+    "lat": 49.675347,
+    "lng": 0.387333,
+    "transactions": [
+      {
+        "date": "2021-10-22",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "eba078f2c878": {
+    "id": "eba078f2c878",
+    "label": "1383 RTE DU NEUFBOURG, Bretteville-du-Grand-Caux",
+    "lat": 49.676294,
+    "lng": 0.392164,
+    "transactions": [
+      {
+        "date": "2022-05-20",
+        "priceEur": 118800,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "e004e14a6347": {
+    "id": "e004e14a6347",
+    "label": "1096 RTE DE LA CRIQUE, Bretteville-du-Grand-Caux",
+    "lat": 49.676043,
+    "lng": 0.389469,
+    "transactions": [
+      {
+        "date": "2023-11-08",
+        "priceEur": 249500,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8f1969d0a9b": {
+    "id": "e8f1969d0a9b",
+    "label": "1080 RTE DE LA CRIQUE, Bretteville-du-Grand-Caux",
+    "lat": 49.675652,
+    "lng": 0.387089,
+    "transactions": [
+      {
+        "date": "2024-08-05",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  }
+}

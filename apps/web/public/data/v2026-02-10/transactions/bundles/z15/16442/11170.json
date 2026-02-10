@@ -1,0 +1,32 @@
+{
+  "1f324ba72a4f": {
+    "id": "1f324ba72a4f",
+    "label": "5 RUE VERTE, Allouville-Bellefosse",
+    "lat": 49.591256,
+    "lng": 0.64243,
+    "transactions": [
+      {
+        "date": "2020-10-29",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c9140149897": {
+    "id": "4c9140149897",
+    "label": "6 RUE VERTE, Allouville-Bellefosse",
+    "lat": 49.592245,
+    "lng": 0.642451,
+    "transactions": [
+      {
+        "date": "2024-12-13",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

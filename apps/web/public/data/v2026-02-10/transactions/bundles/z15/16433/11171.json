@@ -1,0 +1,32 @@
+{
+  "f7cf4efb9d3e": {
+    "id": "f7cf4efb9d3e",
+    "label": "410 RTE DE LA HARICOTIERE, Lanquetot",
+    "lat": 49.584782,
+    "lng": 0.538407,
+    "transactions": [
+      {
+        "date": "2022-12-19",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ca078e7351f": {
+    "id": "6ca078e7351f",
+    "label": "1512 D 6015, Lanquetot",
+    "lat": 49.588926,
+    "lng": 0.549259,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 212100,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

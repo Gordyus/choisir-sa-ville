@@ -1,0 +1,2569 @@
+{
+  "1202f95431c9": {
+    "id": "1202f95431c9",
+    "label": "127 RTE DE DIEPPE, Maromme",
+    "lat": 49.480087,
+    "lng": 1.047185,
+    "transactions": [
+      {
+        "date": "2020-07-09",
+        "priceEur": 33000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f47b5286dcf": {
+    "id": "7f47b5286dcf",
+    "label": "516 RTE DE DIEPPE, Déville-lès-Rouen",
+    "lat": 49.475626,
+    "lng": 1.048479,
+    "transactions": [
+      {
+        "date": "2024-05-30",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-05",
+        "priceEur": 109000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "96ef85eda5ca": {
+    "id": "96ef85eda5ca",
+    "label": "38 RUE GUSTAVE GAILLARD, Déville-lès-Rouen",
+    "lat": 49.475638,
+    "lng": 1.050396,
+    "transactions": [
+      {
+        "date": "2020-08-25",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea735d994b17": {
+    "id": "ea735d994b17",
+    "label": "14 RUE CHARLES DE GAULLE, Notre-Dame-de-Bondeville",
+    "lat": 49.480298,
+    "lng": 1.049942,
+    "transactions": [
+      {
+        "date": "2020-08-27",
+        "priceEur": 246350,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "088e5cbf3db4": {
+    "id": "088e5cbf3db4",
+    "label": "132 RUE MARTYRS RESISTANCE, Maromme",
+    "lat": 49.481521,
+    "lng": 1.047044,
+    "transactions": [
+      {
+        "date": "2022-10-12",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-31",
+        "priceEur": 233000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ba2acef48cb": {
+    "id": "7ba2acef48cb",
+    "label": "558B RTE DE DIEPPE, Déville-lès-Rouen",
+    "lat": 49.477179,
+    "lng": 1.049246,
+    "transactions": [
+      {
+        "date": "2024-01-12",
+        "priceEur": 45000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 15,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-11",
+        "priceEur": 50000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-09",
+        "priceEur": 54000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-05",
+        "priceEur": 55000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-10",
+        "priceEur": 75000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-25",
+        "priceEur": 50000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 23,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-25",
+        "priceEur": 60000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 26,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-28",
+        "priceEur": 67000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-07",
+        "priceEur": 55000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-25",
+        "priceEur": 65000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-10",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-15",
+        "priceEur": 45500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 26,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-10",
+        "priceEur": 46000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ad35a51d460": {
+    "id": "9ad35a51d460",
+    "label": "8 IMP DE LA STATION, Notre-Dame-de-Bondeville",
+    "lat": 49.48131,
+    "lng": 1.050325,
+    "transactions": [
+      {
+        "date": "2020-09-17",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f0f65946a74": {
+    "id": "8f0f65946a74",
+    "label": "66 RUE RAYMOND DUFLO, Maromme",
+    "lat": 49.476943,
+    "lng": 1.0472,
+    "transactions": [
+      {
+        "date": "2020-09-17",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd5dde61590d": {
+    "id": "fd5dde61590d",
+    "label": "14 RUE DU ONZE NOVEMBRE, Déville-lès-Rouen",
+    "lat": 49.477177,
+    "lng": 1.05439,
+    "transactions": [
+      {
+        "date": "2024-01-26",
+        "priceEur": 98000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 77,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-30",
+        "priceEur": 101500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff6d122c3912": {
+    "id": "ff6d122c3912",
+    "label": "15 RUE DU REVEREND PERE DELATTRE, Déville-lès-Rouen",
+    "lat": 49.477793,
+    "lng": 1.048837,
+    "transactions": [
+      {
+        "date": "2025-04-10",
+        "priceEur": 77000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-04",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-07",
+        "priceEur": 58720,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-01",
+        "priceEur": 72000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 24,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-15",
+        "priceEur": 61000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 27,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-26",
+        "priceEur": 53000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 18,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-28",
+        "priceEur": 48500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 18,
+        "isVefa": false
+      }
+    ]
+  },
+  "254e354e38fb": {
+    "id": "254e354e38fb",
+    "label": "16 CHE DE LA CHESNAYE, Notre-Dame-de-Bondeville",
+    "lat": 49.479012,
+    "lng": 1.054441,
+    "transactions": [
+      {
+        "date": "2020-10-09",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c9ba365c538": {
+    "id": "4c9ba365c538",
+    "label": "1 RUE DE FONTENELLE, Déville-lès-Rouen",
+    "lat": 49.477499,
+    "lng": 1.053246,
+    "transactions": [
+      {
+        "date": "2025-01-08",
+        "priceEur": 126000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-28",
+        "priceEur": 80000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-11",
+        "priceEur": 113800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-17",
+        "priceEur": 132500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-11",
+        "priceEur": 110000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-14",
+        "priceEur": 113400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-29",
+        "priceEur": 131500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ecda7561e11": {
+    "id": "7ecda7561e11",
+    "label": "129B RUE MARTYRS RESISTANCE, Maromme",
+    "lat": 49.482241,
+    "lng": 1.043948,
+    "transactions": [
+      {
+        "date": "2020-10-07",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "adde3c46b33c": {
+    "id": "adde3c46b33c",
+    "label": "138 RUE MARTYRS RESISTANCE, Maromme",
+    "lat": 49.481096,
+    "lng": 1.047287,
+    "transactions": [
+      {
+        "date": "2020-10-05",
+        "priceEur": 195000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-05",
+        "priceEur": 195000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "c67522890eef": {
+    "id": "c67522890eef",
+    "label": "12 RUE CHARLES DE GAULLE, Notre-Dame-de-Bondeville",
+    "lat": 49.480279,
+    "lng": 1.049826,
+    "transactions": [
+      {
+        "date": "2020-10-29",
+        "priceEur": 216450,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "d2f439a1ae4b": {
+    "id": "d2f439a1ae4b",
+    "label": "99 RUE RENE COTY, Déville-lès-Rouen",
+    "lat": 49.4756,
+    "lng": 1.051659,
+    "transactions": [
+      {
+        "date": "2020-11-18",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "07dcbf95216c": {
+    "id": "07dcbf95216c",
+    "label": "76 RUE RAYMOND DUFLO, Maromme",
+    "lat": 49.476299,
+    "lng": 1.047576,
+    "transactions": [
+      {
+        "date": "2023-08-03",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 22,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-03",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-20",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 22,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-20",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "ccf63d97f76a": {
+    "id": "ccf63d97f76a",
+    "label": "6B RUE DU REVEREND PERE DELATTRE, Déville-lès-Rouen",
+    "lat": 49.476703,
+    "lng": 1.049398,
+    "transactions": [
+      {
+        "date": "2020-12-15",
+        "priceEur": 313950,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "0916e87d73a6": {
+    "id": "0916e87d73a6",
+    "label": "157 RTE DE DIEPPE, Maromme",
+    "lat": 49.481672,
+    "lng": 1.048056,
+    "transactions": [
+      {
+        "date": "2020-12-22",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "5fa0d6b98d35": {
+    "id": "5fa0d6b98d35",
+    "label": "207 RUE MARTYRS RESISTANCE, Maromme",
+    "lat": 49.480733,
+    "lng": 1.047219,
+    "transactions": [
+      {
+        "date": "2020-12-22",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "36c8601d6532": {
+    "id": "36c8601d6532",
+    "label": "3 IMP DU CHEMIN DE FER, Notre-Dame-de-Bondeville",
+    "lat": 49.482219,
+    "lng": 1.049811,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac55b1f42e78": {
+    "id": "ac55b1f42e78",
+    "label": "116 RUE JOSEPH HUE, Déville-lès-Rouen",
+    "lat": 49.475676,
+    "lng": 1.049697,
+    "transactions": [
+      {
+        "date": "2021-11-05",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "9fbb22203c16": {
+    "id": "9fbb22203c16",
+    "label": "2 RUE GUSTAVE GAILLARD, Déville-lès-Rouen",
+    "lat": 49.476022,
+    "lng": 1.048451,
+    "transactions": [
+      {
+        "date": "2021-12-22",
+        "priceEur": 320000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 107,
+        "isVefa": true
+      },
+      {
+        "date": "2021-12-20",
+        "priceEur": 146914,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": true
+      },
+      {
+        "date": "2021-11-17",
+        "priceEur": 149000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": true
+      },
+      {
+        "date": "2021-10-07",
+        "priceEur": 318000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 105,
+        "isVefa": true
+      },
+      {
+        "date": "2021-09-17",
+        "priceEur": 149000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": true
+      },
+      {
+        "date": "2021-09-15",
+        "priceEur": 149000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": true
+      },
+      {
+        "date": "2021-05-19",
+        "priceEur": 149000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": true
+      }
+    ]
+  },
+  "8cad13431cbc": {
+    "id": "8cad13431cbc",
+    "label": "8 RUE DE FONTENELLE, Déville-lès-Rouen",
+    "lat": 49.47643,
+    "lng": 1.052332,
+    "transactions": [
+      {
+        "date": "2025-05-16",
+        "priceEur": 67000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2024-03-22",
+        "priceEur": 75000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-13",
+        "priceEur": 82000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-12",
+        "priceEur": 118000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-07",
+        "priceEur": 59800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-04",
+        "priceEur": 108500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-15",
+        "priceEur": 65000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-30",
+        "priceEur": 62500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-18",
+        "priceEur": 55000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "6cd5afa85ded": {
+    "id": "6cd5afa85ded",
+    "label": "644 RTE DE DIEPPE, Déville-lès-Rouen",
+    "lat": 49.480302,
+    "lng": 1.047976,
+    "transactions": [
+      {
+        "date": "2021-12-10",
+        "priceEur": 591200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-10",
+        "priceEur": 591200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-10",
+        "priceEur": 591200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-10",
+        "priceEur": 591200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 24,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-10",
+        "priceEur": 591200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 23,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-10",
+        "priceEur": 591200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-10",
+        "priceEur": 591200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-10",
+        "priceEur": 591200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 27,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-10",
+        "priceEur": 591200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-10",
+        "priceEur": 591200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "66beb3e1d70b": {
+    "id": "66beb3e1d70b",
+    "label": "91 RTE DE DIEPPE, Maromme",
+    "lat": 49.478567,
+    "lng": 1.046902,
+    "transactions": [
+      {
+        "date": "2021-01-14",
+        "priceEur": 181000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "820e5acc922a": {
+    "id": "820e5acc922a",
+    "label": "42 RUE RAYMOND DUFLO, Maromme",
+    "lat": 49.47657,
+    "lng": 1.0469,
+    "transactions": [
+      {
+        "date": "2021-01-21",
+        "priceEur": 159700,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "091c057238c4": {
+    "id": "091c057238c4",
+    "label": "37 RTE DE DIEPPE, Maromme",
+    "lat": 49.475301,
+    "lng": 1.047994,
+    "transactions": [
+      {
+        "date": "2021-02-11",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0d52934e45b": {
+    "id": "e0d52934e45b",
+    "label": "17 ALL GUY DE MAUPASSANT, Déville-lès-Rouen",
+    "lat": 49.477648,
+    "lng": 1.049622,
+    "transactions": [
+      {
+        "date": "2021-02-08",
+        "priceEur": 234100,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c9bee70332d": {
+    "id": "1c9bee70332d",
+    "label": "73 RTE DE DIEPPE, Maromme",
+    "lat": 49.477507,
+    "lng": 1.047262,
+    "transactions": [
+      {
+        "date": "2022-12-15",
+        "priceEur": 210700,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-11",
+        "priceEur": 199400,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "6341b75ed7cd": {
+    "id": "6341b75ed7cd",
+    "label": "1 RUE CHARLES DE GAULLE, Notre-Dame-de-Bondeville",
+    "lat": 49.480804,
+    "lng": 1.048682,
+    "transactions": [
+      {
+        "date": "2021-03-25",
+        "priceEur": 205000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": true
+      }
+    ]
+  },
+  "16d141d84f34": {
+    "id": "16d141d84f34",
+    "label": "1 RUE LEOPOLD DUPARC, Notre-Dame-de-Bondeville",
+    "lat": 49.481126,
+    "lng": 1.051198,
+    "transactions": [
+      {
+        "date": "2021-04-06",
+        "priceEur": 207170,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "af08d3573772": {
+    "id": "af08d3573772",
+    "label": "175 RUE MARTYRS RESISTANCE, Maromme",
+    "lat": 49.481013,
+    "lng": 1.046648,
+    "transactions": [
+      {
+        "date": "2021-03-31",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-31",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-31",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ac2bdf8a754": {
+    "id": "2ac2bdf8a754",
+    "label": "201 RUE MARTYRS RESISTANCE, Maromme",
+    "lat": 49.480792,
+    "lng": 1.047158,
+    "transactions": [
+      {
+        "date": "2021-04-14",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "a81fae69c305": {
+    "id": "a81fae69c305",
+    "label": "554 RTE DE DIEPPE, Déville-lès-Rouen",
+    "lat": 49.477065,
+    "lng": 1.048081,
+    "transactions": [
+      {
+        "date": "2021-04-02",
+        "priceEur": 105000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-02",
+        "priceEur": 105000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "029711e341ae": {
+    "id": "029711e341ae",
+    "label": "3 RUE DE FONTENELLE, Déville-lès-Rouen",
+    "lat": 49.477499,
+    "lng": 1.053246,
+    "transactions": [
+      {
+        "date": "2025-01-17",
+        "priceEur": 108000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2024-12-30",
+        "priceEur": 142300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-06",
+        "priceEur": 95000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-16",
+        "priceEur": 144000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-16",
+        "priceEur": 111500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-29",
+        "priceEur": 103000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-30",
+        "priceEur": 90000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-26",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c4f012705f4": {
+    "id": "2c4f012705f4",
+    "label": "1 RUE DU REVEREND PERE DELATTRE, Déville-lès-Rouen",
+    "lat": 49.477117,
+    "lng": 1.048694,
+    "transactions": [
+      {
+        "date": "2021-05-17",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "692c8f333089": {
+    "id": "692c8f333089",
+    "label": "596 RTE DE DIEPPE, Déville-lès-Rouen",
+    "lat": 49.479134,
+    "lng": 1.04736,
+    "transactions": [
+      {
+        "date": "2024-02-15",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-09",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "89f0b132cd23": {
+    "id": "89f0b132cd23",
+    "label": "7 RUE DE FONTENELLE, Déville-lès-Rouen",
+    "lat": 49.477499,
+    "lng": 1.053246,
+    "transactions": [
+      {
+        "date": "2025-03-25",
+        "priceEur": 104500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-14",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-11",
+        "priceEur": 87000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-07",
+        "priceEur": 138500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-10",
+        "priceEur": 110000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-20",
+        "priceEur": 95200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-11",
+        "priceEur": 80500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "5ac97f57102e": {
+    "id": "5ac97f57102e",
+    "label": "42 RUE GUSTAVE GAILLARD, Déville-lès-Rouen",
+    "lat": 49.476181,
+    "lng": 1.050654,
+    "transactions": [
+      {
+        "date": "2021-06-17",
+        "priceEur": 182000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac82db150d3c": {
+    "id": "ac82db150d3c",
+    "label": "9003 IMP DU VERT BUISSON, Notre-Dame-de-Bondeville",
+    "lat": 49.482258,
+    "lng": 1.052316,
+    "transactions": [
+      {
+        "date": "2021-06-28",
+        "priceEur": 98000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "ec9956aa56cc": {
+    "id": "ec9956aa56cc",
+    "label": "548 RTE DE DIEPPE, Déville-lès-Rouen",
+    "lat": 49.476536,
+    "lng": 1.048185,
+    "transactions": [
+      {
+        "date": "2023-08-31",
+        "priceEur": 450000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-31",
+        "priceEur": 450000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-30",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-30",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e2788b72ceb": {
+    "id": "0e2788b72ceb",
+    "label": "187 RUE MARTYRS RESISTANCE, Maromme",
+    "lat": 49.480855,
+    "lng": 1.04686,
+    "transactions": [
+      {
+        "date": "2021-09-03",
+        "priceEur": 69900,
+        "typeLocal": "Maison",
+        "surfaceM2": 27,
+        "isVefa": false
+      }
+    ]
+  },
+  "b634005a3605": {
+    "id": "b634005a3605",
+    "label": "64 RUE RAYMOND DUFLO, Maromme",
+    "lat": 49.477078,
+    "lng": 1.047197,
+    "transactions": [
+      {
+        "date": "2025-02-07",
+        "priceEur": 308832,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-22",
+        "priceEur": 251000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "df9f20b00053": {
+    "id": "df9f20b00053",
+    "label": "514 RTE DE DIEPPE, Déville-lès-Rouen",
+    "lat": 49.475555,
+    "lng": 1.048534,
+    "transactions": [
+      {
+        "date": "2024-04-25",
+        "priceEur": 89000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-08",
+        "priceEur": 133000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-08",
+        "priceEur": 133000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-16",
+        "priceEur": 149000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 133,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-06",
+        "priceEur": 108300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 81,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-28",
+        "priceEur": 380000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-28",
+        "priceEur": 380000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-28",
+        "priceEur": 380000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "949947f47453": {
+    "id": "949947f47453",
+    "label": "3 CHE DE LA CHESNAYE, Notre-Dame-de-Bondeville",
+    "lat": 49.479401,
+    "lng": 1.053068,
+    "transactions": [
+      {
+        "date": "2021-10-05",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc436d17b0b6": {
+    "id": "cc436d17b0b6",
+    "label": "5 RUE DE FONTENELLE, Déville-lès-Rouen",
+    "lat": 49.477499,
+    "lng": 1.053246,
+    "transactions": [
+      {
+        "date": "2022-12-19",
+        "priceEur": 138000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 92,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-25",
+        "priceEur": 98700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-15",
+        "priceEur": 142000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "92112c5b2527": {
+    "id": "92112c5b2527",
+    "label": "8 RUE LEOPOLD DUPARC, Notre-Dame-de-Bondeville",
+    "lat": 49.481648,
+    "lng": 1.052264,
+    "transactions": [
+      {
+        "date": "2021-10-13",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "878ebff79a53": {
+    "id": "878ebff79a53",
+    "label": "5 RUE CHARLES DE GAULLE, Notre-Dame-de-Bondeville",
+    "lat": 49.480756,
+    "lng": 1.049661,
+    "transactions": [
+      {
+        "date": "2022-01-20",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b5d058cba6e": {
+    "id": "6b5d058cba6e",
+    "label": "5 CHE DE LA CHESNAYE, Notre-Dame-de-Bondeville",
+    "lat": 49.479486,
+    "lng": 1.053267,
+    "transactions": [
+      {
+        "date": "2022-01-07",
+        "priceEur": 159500,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "f234c706af52": {
+    "id": "f234c706af52",
+    "label": "165 RTE DE DIEPPE, Maromme",
+    "lat": 49.482004,
+    "lng": 1.048053,
+    "transactions": [
+      {
+        "date": "2024-12-31",
+        "priceEur": 213800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": true
+      },
+      {
+        "date": "2024-12-27",
+        "priceEur": 152000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": true
+      },
+      {
+        "date": "2024-10-17",
+        "priceEur": 207100,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": true
+      },
+      {
+        "date": "2024-09-12",
+        "priceEur": 139000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 33,
+        "isVefa": true
+      },
+      {
+        "date": "2022-01-27",
+        "priceEur": 670000,
+        "typeLocal": "Maison",
+        "surfaceM2": 227,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-27",
+        "priceEur": 670000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "b22970b3c24c": {
+    "id": "b22970b3c24c",
+    "label": "560 RTE DE DIEPPE, Déville-lès-Rouen",
+    "lat": 49.477233,
+    "lng": 1.047963,
+    "transactions": [
+      {
+        "date": "2022-02-21",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "934a1e40ceae": {
+    "id": "934a1e40ceae",
+    "label": "85 RTE DE DIEPPE, Maromme",
+    "lat": 49.478045,
+    "lng": 1.047027,
+    "transactions": [
+      {
+        "date": "2022-03-14",
+        "priceEur": 376525,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "c47ffe369c73": {
+    "id": "c47ffe369c73",
+    "label": "5 RUE DE LA GARE, Déville-lès-Rouen",
+    "lat": 49.480103,
+    "lng": 1.048046,
+    "transactions": [
+      {
+        "date": "2022-03-15",
+        "priceEur": 165600,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5c99c5ae82d": {
+    "id": "f5c99c5ae82d",
+    "label": "14 RUE GUSTAVE GAILLARD, Déville-lès-Rouen",
+    "lat": 49.475977,
+    "lng": 1.04975,
+    "transactions": [
+      {
+        "date": "2022-05-02",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6c673cef9e9": {
+    "id": "e6c673cef9e9",
+    "label": "17 RUE DE LA GARE, Déville-lès-Rouen",
+    "lat": 49.479985,
+    "lng": 1.048504,
+    "transactions": [
+      {
+        "date": "2022-05-30",
+        "priceEur": 365250,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "0cb56b38216c": {
+    "id": "0cb56b38216c",
+    "label": "35B RUE DE LA GARE, Notre-Dame-de-Bondeville",
+    "lat": 49.47995,
+    "lng": 1.050328,
+    "transactions": [
+      {
+        "date": "2023-07-25",
+        "priceEur": 111000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 10,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-28",
+        "priceEur": 75000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-31",
+        "priceEur": 66000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-24",
+        "priceEur": 31000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 12,
+        "isVefa": false
+      }
+    ]
+  },
+  "ef7c679e17d5": {
+    "id": "ef7c679e17d5",
+    "label": "3B RUE GUSTAVE GAILLARD, Déville-lès-Rouen",
+    "lat": 49.476411,
+    "lng": 1.049024,
+    "transactions": [
+      {
+        "date": "2022-08-11",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a3446860baf": {
+    "id": "4a3446860baf",
+    "label": "6 RUE LEOPOLD DUPARC, Notre-Dame-de-Bondeville",
+    "lat": 49.481568,
+    "lng": 1.052697,
+    "transactions": [
+      {
+        "date": "2022-08-18",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "f470ed88e420": {
+    "id": "f470ed88e420",
+    "label": "30 RUE DE LA SOURCE ENRAGEE, Notre-Dame-de-Bondeville",
+    "lat": 49.481979,
+    "lng": 1.05328,
+    "transactions": [
+      {
+        "date": "2022-09-14",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf24f101c77f": {
+    "id": "cf24f101c77f",
+    "label": "35 RUE DE LA GARE, Notre-Dame-de-Bondeville",
+    "lat": 49.47995,
+    "lng": 1.050328,
+    "transactions": [
+      {
+        "date": "2022-09-27",
+        "priceEur": 152000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-15",
+        "priceEur": 35000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 23,
+        "isVefa": false
+      }
+    ]
+  },
+  "7178f8258715": {
+    "id": "7178f8258715",
+    "label": "10 CHE DE LA CHESNAYE, Notre-Dame-de-Bondeville",
+    "lat": 49.478876,
+    "lng": 1.053725,
+    "transactions": [
+      {
+        "date": "2022-09-19",
+        "priceEur": 214500,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "27a04e9ccda4": {
+    "id": "27a04e9ccda4",
+    "label": "560C RTE DE DIEPPE, Déville-lès-Rouen",
+    "lat": 49.477359,
+    "lng": 1.04795,
+    "transactions": [
+      {
+        "date": "2022-12-29",
+        "priceEur": 230500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": true
+      },
+      {
+        "date": "2022-12-22",
+        "priceEur": 165000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": true
+      },
+      {
+        "date": "2022-10-07",
+        "priceEur": 165000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": true
+      }
+    ]
+  },
+  "6dd7b48ec2a2": {
+    "id": "6dd7b48ec2a2",
+    "label": "3 IMP GUSTAVE GUEVILLE, Notre-Dame-de-Bondeville",
+    "lat": 49.480957,
+    "lng": 1.05329,
+    "transactions": [
+      {
+        "date": "2022-10-12",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca7b93127d53": {
+    "id": "ca7b93127d53",
+    "label": "622 RTE DE DIEPPE, Déville-lès-Rouen",
+    "lat": 49.479585,
+    "lng": 1.047546,
+    "transactions": [
+      {
+        "date": "2022-11-15",
+        "priceEur": 151000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "720d95e38721": {
+    "id": "720d95e38721",
+    "label": "17 RUE DES FUSILLES, Notre-Dame-de-Bondeville",
+    "lat": 49.481044,
+    "lng": 1.050041,
+    "transactions": [
+      {
+        "date": "2022-11-25",
+        "priceEur": 62000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a265317f410": {
+    "id": "6a265317f410",
+    "label": "173 RUE MARTYRS RESISTANCE, Maromme",
+    "lat": 49.481113,
+    "lng": 1.046616,
+    "transactions": [
+      {
+        "date": "2022-12-23",
+        "priceEur": 183090,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "461ab4575b3b": {
+    "id": "461ab4575b3b",
+    "label": "3 RUE DE LA GARE, Déville-lès-Rouen",
+    "lat": 49.48013,
+    "lng": 1.047941,
+    "transactions": [
+      {
+        "date": "2022-12-29",
+        "priceEur": 156100,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "34262d962e53": {
+    "id": "34262d962e53",
+    "label": "612 RTE DE DIEPPE, Déville-lès-Rouen",
+    "lat": 49.47942,
+    "lng": 1.047546,
+    "transactions": [
+      {
+        "date": "2023-01-19",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9e60e446326": {
+    "id": "b9e60e446326",
+    "label": "7 RUE DE L ANCIENNE BRIQUETERIE, Notre-Dame-de-Bondeville",
+    "lat": 49.480211,
+    "lng": 1.054374,
+    "transactions": [
+      {
+        "date": "2023-01-20",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "f885968a0f79": {
+    "id": "f885968a0f79",
+    "label": "7 ALL GUY DE MAUPASSANT, Déville-lès-Rouen",
+    "lat": 49.47719,
+    "lng": 1.04981,
+    "transactions": [
+      {
+        "date": "2023-03-21",
+        "priceEur": 221000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "c280545de162": {
+    "id": "c280545de162",
+    "label": "560A RTE DE DIEPPE, Déville-lès-Rouen",
+    "lat": 49.477359,
+    "lng": 1.04795,
+    "transactions": [
+      {
+        "date": "2024-11-22",
+        "priceEur": 209280,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": true
+      },
+      {
+        "date": "2024-09-13",
+        "priceEur": 214080,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": true
+      },
+      {
+        "date": "2024-08-30",
+        "priceEur": 198500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": true
+      },
+      {
+        "date": "2024-04-17",
+        "priceEur": 234000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 81,
+        "isVefa": true
+      },
+      {
+        "date": "2023-12-21",
+        "priceEur": 214000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": true
+      },
+      {
+        "date": "2023-10-18",
+        "priceEur": 253000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 78,
+        "isVefa": true
+      },
+      {
+        "date": "2023-10-13",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": true
+      },
+      {
+        "date": "2023-07-13",
+        "priceEur": 222000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": true
+      },
+      {
+        "date": "2023-05-31",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": true
+      },
+      {
+        "date": "2023-04-26",
+        "priceEur": 215000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": true
+      },
+      {
+        "date": "2023-04-21",
+        "priceEur": 151000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": true
+      }
+    ]
+  },
+  "401606509673": {
+    "id": "401606509673",
+    "label": "107 RUE RENE COTY, Déville-lès-Rouen",
+    "lat": 49.476384,
+    "lng": 1.051407,
+    "transactions": [
+      {
+        "date": "2023-04-20",
+        "priceEur": 198020,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "615f8683368c": {
+    "id": "615f8683368c",
+    "label": "10 RUE CHARLES DE GAULLE, Notre-Dame-de-Bondeville",
+    "lat": 49.480193,
+    "lng": 1.049429,
+    "transactions": [
+      {
+        "date": "2023-05-19",
+        "priceEur": 164000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": true
+      },
+      {
+        "date": "2023-05-09",
+        "priceEur": 240000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 69,
+        "isVefa": true
+      }
+    ]
+  },
+  "962e1a3306b3": {
+    "id": "962e1a3306b3",
+    "label": "167 RTE DE DIEPPE, Maromme",
+    "lat": 49.482259,
+    "lng": 1.048184,
+    "transactions": [
+      {
+        "date": "2023-05-15",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "30a651d3fda0": {
+    "id": "30a651d3fda0",
+    "label": "43 RTE DE DIEPPE, Maromme",
+    "lat": 49.475417,
+    "lng": 1.047913,
+    "transactions": [
+      {
+        "date": "2023-06-15",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6e0e4e226f7": {
+    "id": "e6e0e4e226f7",
+    "label": "3 RUE CHARLES DE GAULLE, Notre-Dame-de-Bondeville",
+    "lat": 49.480786,
+    "lng": 1.049359,
+    "transactions": [
+      {
+        "date": "2023-06-15",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a2397729d9a": {
+    "id": "9a2397729d9a",
+    "label": "27 RUE DE LA GARE, Déville-lès-Rouen",
+    "lat": 49.480101,
+    "lng": 1.049028,
+    "transactions": [
+      {
+        "date": "2023-07-20",
+        "priceEur": 800000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a5beeb42564": {
+    "id": "7a5beeb42564",
+    "label": "181 RUE MARTYRS RESISTANCE, Maromme",
+    "lat": 49.480951,
+    "lng": 1.046945,
+    "transactions": [
+      {
+        "date": "2023-07-24",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "490e6e0de122": {
+    "id": "490e6e0de122",
+    "label": "22 RUE LEOPOLD DUPARC, Notre-Dame-de-Bondeville",
+    "lat": 49.482375,
+    "lng": 1.052183,
+    "transactions": [
+      {
+        "date": "2023-08-03",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "7470a6cba902": {
+    "id": "7470a6cba902",
+    "label": "120 RUE JOSEPH HUE, Déville-lès-Rouen",
+    "lat": 49.475878,
+    "lng": 1.049504,
+    "transactions": [
+      {
+        "date": "2023-07-26",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b85b9b0d886": {
+    "id": "4b85b9b0d886",
+    "label": "1 RUE DE L ANCIENNE BRIQUETERIE, Notre-Dame-de-Bondeville",
+    "lat": 49.480164,
+    "lng": 1.053671,
+    "transactions": [
+      {
+        "date": "2023-08-30",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8cc8830a1de": {
+    "id": "f8cc8830a1de",
+    "label": "2 IMP DU CHEMIN DE FER, Notre-Dame-de-Bondeville",
+    "lat": 49.481899,
+    "lng": 1.049567,
+    "transactions": [
+      {
+        "date": "2023-09-06",
+        "priceEur": 205050,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e69501dea57": {
+    "id": "8e69501dea57",
+    "label": "1 RUE DES FUSILLES, Notre-Dame-de-Bondeville",
+    "lat": 49.481464,
+    "lng": 1.049518,
+    "transactions": [
+      {
+        "date": "2023-09-22",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3f48e2deda8": {
+    "id": "d3f48e2deda8",
+    "label": "139B RUE MARTYRS RESISTANCE, Maromme",
+    "lat": 49.48212,
+    "lng": 1.044403,
+    "transactions": [
+      {
+        "date": "2023-10-11",
+        "priceEur": 570000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 118,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-11",
+        "priceEur": 570000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "b27f697be41e": {
+    "id": "b27f697be41e",
+    "label": "604 RTE DE DIEPPE, Déville-lès-Rouen",
+    "lat": 49.479303,
+    "lng": 1.047412,
+    "transactions": [
+      {
+        "date": "2023-10-16",
+        "priceEur": 93000,
+        "typeLocal": "Maison",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "ddf11794c884": {
+    "id": "ddf11794c884",
+    "label": "1 RUE EDOUARD FORT, Maromme",
+    "lat": 49.48091,
+    "lng": 1.046377,
+    "transactions": [
+      {
+        "date": "2023-10-20",
+        "priceEur": 136500,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "4cf823de9512": {
+    "id": "4cf823de9512",
+    "label": "19B RUE DE LA GARE, Déville-lès-Rouen",
+    "lat": 49.479783,
+    "lng": 1.048867,
+    "transactions": [
+      {
+        "date": "2023-10-30",
+        "priceEur": 184215,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "43bc883905ec": {
+    "id": "43bc883905ec",
+    "label": "137 RTE DE DIEPPE, Maromme",
+    "lat": 49.480435,
+    "lng": 1.047481,
+    "transactions": [
+      {
+        "date": "2023-11-30",
+        "priceEur": 322567,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "91dd0b439494": {
+    "id": "91dd0b439494",
+    "label": "135 RTE DE DIEPPE, Maromme",
+    "lat": 49.480319,
+    "lng": 1.047198,
+    "transactions": [
+      {
+        "date": "2023-11-30",
+        "priceEur": 322567,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "38e6d4b6bdcd": {
+    "id": "38e6d4b6bdcd",
+    "label": "23 RUE BERRUBE, Maromme",
+    "lat": 49.480475,
+    "lng": 1.044124,
+    "transactions": [
+      {
+        "date": "2023-12-06",
+        "priceEur": 125100,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "68df01bc5b5e": {
+    "id": "68df01bc5b5e",
+    "label": "31D RUE DU GAL LECLERC, Notre-Dame-de-Bondeville",
+    "lat": 49.478346,
+    "lng": 1.054275,
+    "transactions": [
+      {
+        "date": "2023-12-12",
+        "priceEur": 162650,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b296fc4b9fb": {
+    "id": "2b296fc4b9fb",
+    "label": "20 IMP DU CHEMIN DE FER, Notre-Dame-de-Bondeville",
+    "lat": 49.482007,
+    "lng": 1.050134,
+    "transactions": [
+      {
+        "date": "2024-01-08",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "279d1a42924f": {
+    "id": "279d1a42924f",
+    "label": "3 RUE DU ONZE NOVEMBRE, Déville-lès-Rouen",
+    "lat": 49.478437,
+    "lng": 1.052279,
+    "transactions": [
+      {
+        "date": "2024-01-03",
+        "priceEur": 110000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "1240f587cc08": {
+    "id": "1240f587cc08",
+    "label": "205 RUE MARTYRS RESISTANCE, Maromme",
+    "lat": 49.480669,
+    "lng": 1.047212,
+    "transactions": [
+      {
+        "date": "2024-01-18",
+        "priceEur": 86000,
+        "typeLocal": "Maison",
+        "surfaceM2": 34,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3bae30b9f12": {
+    "id": "b3bae30b9f12",
+    "label": "8 RUE DES FUSILLES, Notre-Dame-de-Bondeville",
+    "lat": 49.481066,
+    "lng": 1.049584,
+    "transactions": [
+      {
+        "date": "2024-10-31",
+        "priceEur": 75000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-17",
+        "priceEur": 74000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-11",
+        "priceEur": 75000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 37,
+        "isVefa": false
+      }
+    ]
+  },
+  "73cb8e381c90": {
+    "id": "73cb8e381c90",
+    "label": "23 RUE DE LA GARE, Déville-lès-Rouen",
+    "lat": 49.479963,
+    "lng": 1.048946,
+    "transactions": [
+      {
+        "date": "2024-02-16",
+        "priceEur": 161100,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "d44b9ef57934": {
+    "id": "d44b9ef57934",
+    "label": "69 RTE DE DIEPPE, Maromme",
+    "lat": 49.476971,
+    "lng": 1.04754,
+    "transactions": [
+      {
+        "date": "2024-02-09",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "0cb49699972c": {
+    "id": "0cb49699972c",
+    "label": "33 RUE DE LA GARE, Déville-lès-Rouen",
+    "lat": 49.479443,
+    "lng": 1.050046,
+    "transactions": [
+      {
+        "date": "2024-02-21",
+        "priceEur": 288000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-21",
+        "priceEur": 288000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-21",
+        "priceEur": 288000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-21",
+        "priceEur": 288000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b83ecbda26d": {
+    "id": "5b83ecbda26d",
+    "label": "68 RUE RAYMOND DUFLO, Maromme",
+    "lat": 49.476845,
+    "lng": 1.047267,
+    "transactions": [
+      {
+        "date": "2024-02-27",
+        "priceEur": 245500,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9e8b1a0f05f": {
+    "id": "c9e8b1a0f05f",
+    "label": "540 RTE DE DIEPPE, Déville-lès-Rouen",
+    "lat": 49.476257,
+    "lng": 1.048265,
+    "transactions": [
+      {
+        "date": "2024-02-28",
+        "priceEur": 107500,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "cbfb2c638373": {
+    "id": "cbfb2c638373",
+    "label": "7 RUE DE LA GARE, Déville-lès-Rouen",
+    "lat": 49.480091,
+    "lng": 1.048174,
+    "transactions": [
+      {
+        "date": "2024-04-17",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "47d8e87684a0": {
+    "id": "47d8e87684a0",
+    "label": "8 ALL GUY DE MAUPASSANT, Déville-lès-Rouen",
+    "lat": 49.477221,
+    "lng": 1.050328,
+    "transactions": [
+      {
+        "date": "2024-04-22",
+        "priceEur": 177500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "5579803fbd00": {
+    "id": "5579803fbd00",
+    "label": "16 RUE DU GAL LECLERC, Notre-Dame-de-Bondeville",
+    "lat": 49.477553,
+    "lng": 1.054452,
+    "transactions": [
+      {
+        "date": "2024-04-23",
+        "priceEur": 133334,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "820f43c612e3": {
+    "id": "820f43c612e3",
+    "label": "124 RUE JOSEPH HUE, Déville-lès-Rouen",
+    "lat": 49.476116,
+    "lng": 1.049473,
+    "transactions": [
+      {
+        "date": "2024-07-17",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "4121240f02ae": {
+    "id": "4121240f02ae",
+    "label": "49A RTE DE DIEPPE, Maromme",
+    "lat": 49.475583,
+    "lng": 1.048051,
+    "transactions": [
+      {
+        "date": "2024-08-14",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "8416c8954e3e": {
+    "id": "8416c8954e3e",
+    "label": "60B RUE RAYMOND DUFLO, Maromme",
+    "lat": 49.477418,
+    "lng": 1.046936,
+    "transactions": [
+      {
+        "date": "2024-09-20",
+        "priceEur": 197000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e6bc3b551c1": {
+    "id": "5e6bc3b551c1",
+    "label": "642 RTE DE DIEPPE, Déville-lès-Rouen",
+    "lat": 49.480259,
+    "lng": 1.047901,
+    "transactions": [
+      {
+        "date": "2024-12-02",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "5577689ac4df": {
+    "id": "5577689ac4df",
+    "label": "18 IMP DU CHEMIN DE FER, Notre-Dame-de-Bondeville",
+    "lat": 49.482167,
+    "lng": 1.050101,
+    "transactions": [
+      {
+        "date": "2024-12-17",
+        "priceEur": 180643,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "103c3c98daa4": {
+    "id": "103c3c98daa4",
+    "label": "31B RUE DU GAL LECLERC, Notre-Dame-de-Bondeville",
+    "lat": 49.478836,
+    "lng": 1.053401,
+    "transactions": [
+      {
+        "date": "2024-12-20",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "b57e10718c9e": {
+    "id": "b57e10718c9e",
+    "label": "23 RUE LEOPOLD DUPARC, Notre-Dame-de-Bondeville",
+    "lat": 49.482159,
+    "lng": 1.051544,
+    "transactions": [
+      {
+        "date": "2024-12-19",
+        "priceEur": 94000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "258c7b8d4023": {
+    "id": "258c7b8d4023",
+    "label": "594 RTE DE DIEPPE, Déville-lès-Rouen",
+    "lat": 49.479083,
+    "lng": 1.047324,
+    "transactions": [
+      {
+        "date": "2025-01-06",
+        "priceEur": 84000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f5f5e11961b": {
+    "id": "7f5f5e11961b",
+    "label": "562 RTE DE DIEPPE, Déville-lès-Rouen",
+    "lat": 49.477986,
+    "lng": 1.047578,
+    "transactions": [
+      {
+        "date": "2025-01-23",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 16,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-23",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-23",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 27,
+        "isVefa": false
+      }
+    ]
+  },
+  "82c7760b765d": {
+    "id": "82c7760b765d",
+    "label": "618 RTE DE DIEPPE, Déville-lès-Rouen",
+    "lat": 49.479552,
+    "lng": 1.047402,
+    "transactions": [
+      {
+        "date": "2025-02-28",
+        "priceEur": 52000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "958f94d97dce": {
+    "id": "958f94d97dce",
+    "label": "147 PL ARISTIDE BRIAND, Maromme",
+    "lat": 49.480721,
+    "lng": 1.047406,
+    "transactions": [
+      {
+        "date": "2025-04-08",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "dcdb801f8674": {
+    "id": "dcdb801f8674",
+    "label": "2 RUE DE L ANCIENNE BRIQUETERIE, Notre-Dame-de-Bondeville",
+    "lat": 49.479601,
+    "lng": 1.052194,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "45a395402f1b": {
+    "id": "45a395402f1b",
+    "label": "1B RUE DE LA GARE, Déville-lès-Rouen",
+    "lat": 49.479994,
+    "lng": 1.04783,
+    "transactions": [
+      {
+        "date": "2025-06-06",
+        "priceEur": 108650,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  }
+}

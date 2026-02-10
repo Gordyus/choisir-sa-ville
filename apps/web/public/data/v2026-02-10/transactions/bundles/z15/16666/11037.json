@@ -1,0 +1,77 @@
+{
+  "e27594281144": {
+    "id": "e27594281144",
+    "label": "12 PONT THIBAUT, Ennevelin",
+    "lat": 50.533838,
+    "lng": 3.107949,
+    "transactions": [
+      {
+        "date": "2021-02-05",
+        "priceEur": 416000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "5aee26d3f5f6": {
+    "id": "5aee26d3f5f6",
+    "label": "45 RTE NATIONALE, Ennevelin",
+    "lat": 50.534264,
+    "lng": 3.10615,
+    "transactions": [
+      {
+        "date": "2022-12-12",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5c351f96e88": {
+    "id": "b5c351f96e88",
+    "label": "13 RTE NATIONALE, Ennevelin",
+    "lat": 50.534376,
+    "lng": 3.108104,
+    "transactions": [
+      {
+        "date": "2023-01-31",
+        "priceEur": 333000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "0088da20430d": {
+    "id": "0088da20430d",
+    "label": "15 RUE DU PONT THIBAUT, Ennevelin",
+    "lat": 50.534258,
+    "lng": 3.108351,
+    "transactions": [
+      {
+        "date": "2024-03-25",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "63cc4b94bb02": {
+    "id": "63cc4b94bb02",
+    "label": "48 RTE NATIONALE, Ennevelin",
+    "lat": 50.532862,
+    "lng": 3.105576,
+    "transactions": [
+      {
+        "date": "2024-12-26",
+        "priceEur": 181000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "711c6cc05ee0": {
+    "id": "711c6cc05ee0",
+    "label": "7 SEN DES CLEMENTINS, Barentin",
+    "lat": 49.544705,
+    "lng": 0.957581,
+    "transactions": [
+      {
+        "date": "2020-09-14",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c5950fae4bb": {
+    "id": "9c5950fae4bb",
+    "label": "79 AV ARISTIDE BRIAND, Barentin",
+    "lat": 49.540539,
+    "lng": 0.956376,
+    "transactions": [
+      {
+        "date": "2022-09-05",
+        "priceEur": 209400,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-16",
+        "priceEur": 184000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d8804c000d7": {
+    "id": "9d8804c000d7",
+    "label": "4 RUE EDOUARD BRANLY, Barentin",
+    "lat": 49.540689,
+    "lng": 0.955969,
+    "transactions": [
+      {
+        "date": "2021-12-30",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "dc6d6d7424dd": {
+    "id": "dc6d6d7424dd",
+    "label": "16 AV ARISTIDE BRIAND, Barentin",
+    "lat": 49.543486,
+    "lng": 0.955925,
+    "transactions": [
+      {
+        "date": "2021-06-24",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "964fbc8e17bb": {
+    "id": "964fbc8e17bb",
+    "label": "57 AV ARISTIDE BRIAND, Barentin",
+    "lat": 49.541998,
+    "lng": 0.956404,
+    "transactions": [
+      {
+        "date": "2021-07-27",
+        "priceEur": 156000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "1845b38308b8": {
+    "id": "1845b38308b8",
+    "label": "75 AV ARISTIDE BRIAND, Barentin",
+    "lat": 49.5414,
+    "lng": 0.956395,
+    "transactions": [
+      {
+        "date": "2023-11-06",
+        "priceEur": 72550,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "940ee8ccf488": {
+    "id": "940ee8ccf488",
+    "label": "1 RUE EDOUARD BRANLY, Barentin",
+    "lat": 49.541197,
+    "lng": 0.956387,
+    "transactions": [
+      {
+        "date": "2024-03-21",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "5023bef611ae": {
+    "id": "5023bef611ae",
+    "label": "36 AV ARISTIDE BRIAND, Barentin",
+    "lat": 49.54293,
+    "lng": 0.956641,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 164000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

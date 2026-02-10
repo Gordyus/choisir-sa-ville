@@ -1,0 +1,32 @@
+{
+  "da24d6a46535": {
+    "id": "da24d6a46535",
+    "label": "1630 RUE DE VERDUN, Val-de-Scie",
+    "lat": 49.71818,
+    "lng": 1.080465,
+    "transactions": [
+      {
+        "date": "2021-04-29",
+        "priceEur": 208000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ff9b7841984": {
+    "id": "7ff9b7841984",
+    "label": "1800 RUE DE VERDUN, Val-de-Scie",
+    "lat": 49.718124,
+    "lng": 1.078088,
+    "transactions": [
+      {
+        "date": "2024-11-18",
+        "priceEur": 177150,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  }
+}

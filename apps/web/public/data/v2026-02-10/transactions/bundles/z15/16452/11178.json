@@ -1,0 +1,62 @@
+{
+  "0da640368046": {
+    "id": "0da640368046",
+    "label": "150B RTE DE RANCON, Rives-en-Seine",
+    "lat": 49.535746,
+    "lng": 0.75531,
+    "transactions": [
+      {
+        "date": "2022-05-09",
+        "priceEur": 456000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc011d7ab1b0": {
+    "id": "bc011d7ab1b0",
+    "label": "150 RTE DE RANCON, Rives-en-Seine",
+    "lat": 49.535459,
+    "lng": 0.755168,
+    "transactions": [
+      {
+        "date": "2022-05-09",
+        "priceEur": 456000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "111bf187ba22": {
+    "id": "111bf187ba22",
+    "label": "151 RTE DE RANCON, Rives-en-Seine",
+    "lat": 49.536642,
+    "lng": 0.754808,
+    "transactions": [
+      {
+        "date": "2024-07-26",
+        "priceEur": 124000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d2d358d44d3": {
+    "id": "2d2d358d44d3",
+    "label": "117 CHS DES MOULINS, Rives-en-Seine",
+    "lat": 49.53707,
+    "lng": 0.756701,
+    "transactions": [
+      {
+        "date": "2024-11-08",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  }
+}

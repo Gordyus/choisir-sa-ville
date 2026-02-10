@@ -1,0 +1,84 @@
+{
+  "91449873e3bd": {
+    "id": "91449873e3bd",
+    "label": "1858 RTE DU PARC, Saint-Jans-Cappel",
+    "lat": 50.778771,
+    "lng": 2.723818,
+    "transactions": [
+      {
+        "date": "2020-07-15",
+        "priceEur": 640000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "2919f88db24e": {
+    "id": "2919f88db24e",
+    "label": "31 CHE DU BOWLAND, Saint-Jans-Cappel",
+    "lat": 50.780762,
+    "lng": 2.722878,
+    "transactions": [
+      {
+        "date": "2020-09-14",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d65b27cd528": {
+    "id": "8d65b27cd528",
+    "label": "1775 RTE DU PARC, Saint-Jans-Cappel",
+    "lat": 50.780148,
+    "lng": 2.721257,
+    "transactions": [
+      {
+        "date": "2024-09-27",
+        "priceEur": 394000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-19",
+        "priceEur": 334000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb1e19f851c3": {
+    "id": "fb1e19f851c3",
+    "label": "152 IMP DU BOWLAND, Boeschepe",
+    "lat": 50.781238,
+    "lng": 2.724533,
+    "transactions": [
+      {
+        "date": "2024-09-09",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "49b6088a1525": {
+    "id": "49b6088a1525",
+    "label": "162 RUE DU PURGATOIRE, Boeschepe",
+    "lat": 50.78392,
+    "lng": 2.719493,
+    "transactions": [
+      {
+        "date": "2025-02-01",
+        "priceEur": 803400,
+        "typeLocal": "Maison",
+        "surfaceM2": 247,
+        "isVefa": false
+      }
+    ]
+  }
+}

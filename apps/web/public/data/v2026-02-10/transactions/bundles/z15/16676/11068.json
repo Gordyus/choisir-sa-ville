@@ -1,0 +1,32 @@
+{
+  "06eee5c4e58b": {
+    "id": "06eee5c4e58b",
+    "label": "18 RUE DE MASNY, Monchecourt",
+    "lat": 50.313264,
+    "lng": 3.208277,
+    "transactions": [
+      {
+        "date": "2020-08-03",
+        "priceEur": 261500,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "0393b26b4eb9": {
+    "id": "0393b26b4eb9",
+    "label": "12 RUE JEAN BAPTISTE LEBAS, Monchecourt",
+    "lat": 50.310417,
+    "lng": 3.20944,
+    "transactions": [
+      {
+        "date": "2024-09-26",
+        "priceEur": 322600,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  }
+}

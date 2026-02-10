@@ -1,0 +1,32 @@
+{
+  "f5e2110b1a6a": {
+    "id": "f5e2110b1a6a",
+    "label": "2 AV DU 8 MAI 1945, Bréauté",
+    "lat": 49.629,
+    "lng": 0.394898,
+    "transactions": [
+      {
+        "date": "2024-08-02",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "2cd937b28768": {
+    "id": "2cd937b28768",
+    "label": "221 RTE DE LA FLACQUAIRE, Bréauté",
+    "lat": 49.625236,
+    "lng": 0.395402,
+    "transactions": [
+      {
+        "date": "2025-04-02",
+        "priceEur": 440000,
+        "typeLocal": "Maison",
+        "surfaceM2": 243,
+        "isVefa": false
+      }
+    ]
+  }
+}

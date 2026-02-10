@@ -1,0 +1,99 @@
+{
+  "296d8294b7a3": {
+    "id": "296d8294b7a3",
+    "label": "13 RES LES AUBEPINES, Hattenville",
+    "lat": 49.654858,
+    "lng": 0.5387,
+    "transactions": [
+      {
+        "date": "2020-08-19",
+        "priceEur": 147000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "51ab8bc30e31": {
+    "id": "51ab8bc30e31",
+    "label": "1 RES LES AUBEPINES, Hattenville",
+    "lat": 49.654256,
+    "lng": 0.538645,
+    "transactions": [
+      {
+        "date": "2020-11-20",
+        "priceEur": 133750,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5186f64619a": {
+    "id": "d5186f64619a",
+    "label": "324 RTE DE LA VALLEE, Hattenville",
+    "lat": 49.659597,
+    "lng": 0.541351,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 125400,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b76adc69631": {
+    "id": "6b76adc69631",
+    "label": "8 LE CLOS DE LA HETRAIE, Hattenville",
+    "lat": 49.655927,
+    "lng": 0.539127,
+    "transactions": [
+      {
+        "date": "2021-03-09",
+        "priceEur": 62429.82,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "dcc363467498": {
+    "id": "dcc363467498",
+    "label": "7 RES LES AUBEPINES, Hattenville",
+    "lat": 49.654912,
+    "lng": 0.539429,
+    "transactions": [
+      {
+        "date": "2025-06-10",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-27",
+        "priceEur": 174000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f3618290488": {
+    "id": "4f3618290488",
+    "label": "7 LE CLOS DE LA HETRAIE, Hattenville",
+    "lat": 49.655839,
+    "lng": 0.538704,
+    "transactions": [
+      {
+        "date": "2025-01-27",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

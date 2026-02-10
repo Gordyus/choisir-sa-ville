@@ -1,0 +1,32 @@
+{
+  "bff0738a1462": {
+    "id": "bff0738a1462",
+    "label": "5004 L EGLISE, Hautot-sur-Seine",
+    "lat": 49.359271,
+    "lng": 0.973625,
+    "transactions": [
+      {
+        "date": "2021-02-15",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd24fbd8f2c8": {
+    "id": "fd24fbd8f2c8",
+    "label": "25 RUE SAINT ANTONIN, Hautot-sur-Seine",
+    "lat": 49.360545,
+    "lng": 0.975963,
+    "transactions": [
+      {
+        "date": "2021-05-26",
+        "priceEur": 107000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

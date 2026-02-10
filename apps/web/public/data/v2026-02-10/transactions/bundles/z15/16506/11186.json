@@ -1,0 +1,32 @@
+{
+  "8fe45c8a6703": {
+    "id": "8fe45c8a6703",
+    "label": "318 SEN DU BEL EVENT, Ry",
+    "lat": 49.475916,
+    "lng": 1.350092,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 306400,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "036a1479a14b": {
+    "id": "036a1479a14b",
+    "label": "3 SEN DU BEL EVENT, Ry",
+    "lat": 49.475648,
+    "lng": 1.347659,
+    "transactions": [
+      {
+        "date": "2023-07-29",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  }
+}

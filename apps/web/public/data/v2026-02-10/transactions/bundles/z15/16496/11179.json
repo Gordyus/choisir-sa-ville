@@ -1,0 +1,62 @@
+{
+  "a558a89a9561": {
+    "id": "a558a89a9561",
+    "label": "838 RUE DE LA POMMERAYE, Morgny-la-Pommeraye",
+    "lat": 49.525292,
+    "lng": 1.234967,
+    "transactions": [
+      {
+        "date": "2021-02-08",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "23ebb401d84d": {
+    "id": "23ebb401d84d",
+    "label": "5065 LA POMMERAYE, Morgny-la-Pommeraye",
+    "lat": 49.525475,
+    "lng": 1.236291,
+    "transactions": [
+      {
+        "date": "2022-04-01",
+        "priceEur": 176300,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a53ecbfe21c": {
+    "id": "2a53ecbfe21c",
+    "label": "979 RUE DE LA POMMERAYE, Morgny-la-Pommeraye",
+    "lat": 49.525947,
+    "lng": 1.232477,
+    "transactions": [
+      {
+        "date": "2022-11-03",
+        "priceEur": 366750,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0e377223a20": {
+    "id": "b0e377223a20",
+    "label": "172 SEN DE PIBEUF, Saint-André-sur-Cailly",
+    "lat": 49.53128,
+    "lng": 1.231973,
+    "transactions": [
+      {
+        "date": "2023-10-13",
+        "priceEur": 237230,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

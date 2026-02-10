@@ -1,0 +1,121 @@
+{
+  "008230cf4e49": {
+    "id": "008230cf4e49",
+    "label": "7 RTE DE FONTANCHE, Quarante",
+    "lat": 43.349635,
+    "lng": 2.962688,
+    "transactions": [
+      {
+        "date": "2020-09-17",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "26c9793eb375": {
+    "id": "26c9793eb375",
+    "label": "4 RUE DE LA CALADE, Quarante",
+    "lat": 43.349279,
+    "lng": 2.960761,
+    "transactions": [
+      {
+        "date": "2020-10-12",
+        "priceEur": 200000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "50330610851b": {
+    "id": "50330610851b",
+    "label": "9 RTE DE FONTANCHE, Quarante",
+    "lat": 43.349698,
+    "lng": 2.96274,
+    "transactions": [
+      {
+        "date": "2021-04-27",
+        "priceEur": 145000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 94,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-27",
+        "priceEur": 145000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "838c2ff4382d": {
+    "id": "838c2ff4382d",
+    "label": "25 AV DE LA GARE, Quarante",
+    "lat": 43.349959,
+    "lng": 2.961305,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 427900,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-31",
+        "priceEur": 427900,
+        "typeLocal": "Maison",
+        "surfaceM2": 195,
+        "isVefa": false
+      }
+    ]
+  },
+  "574c81e696f4": {
+    "id": "574c81e696f4",
+    "label": "5019 RUE VENDEMIAIRE, Quarante",
+    "lat": 43.350844,
+    "lng": 2.962706,
+    "transactions": [
+      {
+        "date": "2021-10-27",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "94bbb7f9f347": {
+    "id": "94bbb7f9f347",
+    "label": "3 RTE DE FONTANCHE, Quarante",
+    "lat": 43.3495,
+    "lng": 2.962542,
+    "transactions": [
+      {
+        "date": "2023-08-04",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "8773afe70767": {
+    "id": "8773afe70767",
+    "label": "48 AV DE LA GARE, Quarante",
+    "lat": 43.349712,
+    "lng": 2.962155,
+    "transactions": [
+      {
+        "date": "2024-04-15",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  }
+}

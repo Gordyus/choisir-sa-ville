@@ -1,0 +1,32 @@
+{
+  "351f97c88557": {
+    "id": "351f97c88557",
+    "label": "14 RUE DE CASSEL, Steenbecque",
+    "lat": 50.685741,
+    "lng": 2.461888,
+    "transactions": [
+      {
+        "date": "2021-05-05",
+        "priceEur": 500000,
+        "typeLocal": "Maison",
+        "surfaceM2": 218,
+        "isVefa": false
+      }
+    ]
+  },
+  "483c2e6580de": {
+    "id": "483c2e6580de",
+    "label": "12 RUE DE CASSEL, Steenbecque",
+    "lat": 50.684666,
+    "lng": 2.461613,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 365000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  }
+}

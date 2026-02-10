@@ -1,0 +1,47 @@
+{
+  "e2fd2174b034": {
+    "id": "e2fd2174b034",
+    "label": "42 CHE DU WEST BROUCK, Nieurlet",
+    "lat": 50.788583,
+    "lng": 2.309898,
+    "transactions": [
+      {
+        "date": "2021-04-21",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b3e56c9a2fb": {
+    "id": "5b3e56c9a2fb",
+    "label": "40 CHE DU WEST BROUCK, Nieurlet",
+    "lat": 50.787872,
+    "lng": 2.30926,
+    "transactions": [
+      {
+        "date": "2021-09-02",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea27f09cd8f5": {
+    "id": "ea27f09cd8f5",
+    "label": "26 CHE DES ABBESSES, Nieurlet",
+    "lat": 50.787078,
+    "lng": 2.307618,
+    "transactions": [
+      {
+        "date": "2022-08-17",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "da642329f495": {
+    "id": "da642329f495",
+    "label": "699 LE VOGOSSE, Terres-de-Caux",
+    "lat": 49.673555,
+    "lng": 0.614945,
+    "transactions": [
+      {
+        "date": "2020-12-09",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "215595f0177c": {
+    "id": "215595f0177c",
+    "label": "15 RTE DES ENFANTS, Terres-de-Caux",
+    "lat": 49.674286,
+    "lng": 0.606733,
+    "transactions": [
+      {
+        "date": "2021-03-29",
+        "priceEur": 102000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "3db1dea98b83": {
+    "id": "3db1dea98b83",
+    "label": "173 RTE DES ENFANTS, Terres-de-Caux",
+    "lat": 49.673303,
+    "lng": 0.605346,
+    "transactions": [
+      {
+        "date": "2022-11-21",
+        "priceEur": 1227429.5,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "a919cb66c83f": {
+    "id": "a919cb66c83f",
+    "label": "151 RTE DES ENFANTS, Terres-de-Caux",
+    "lat": 49.673516,
+    "lng": 0.605414,
+    "transactions": [
+      {
+        "date": "2025-02-13",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  }
+}

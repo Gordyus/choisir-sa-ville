@@ -1,0 +1,107 @@
+{
+  "8da96ed20506": {
+    "id": "8da96ed20506",
+    "label": "80 RUE ALBERT POIDEVIN, Uxem",
+    "lat": 51.01374,
+    "lng": 2.516623,
+    "transactions": [
+      {
+        "date": "2020-11-02",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a8a0500010c": {
+    "id": "6a8a0500010c",
+    "label": "88 RUE ALBERT POIDEVIN, Uxem",
+    "lat": 51.012132,
+    "lng": 2.517133,
+    "transactions": [
+      {
+        "date": "2021-04-15",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 220,
+        "isVefa": false
+      }
+    ]
+  },
+  "22b4778b2533": {
+    "id": "22b4778b2533",
+    "label": "59 RUE ALBERT POIDEVIN, Uxem",
+    "lat": 51.011659,
+    "lng": 2.5186,
+    "transactions": [
+      {
+        "date": "2022-01-17",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "cbbc622de84e": {
+    "id": "cbbc622de84e",
+    "label": "55 RUE ALBERT POIDEVIN, Uxem",
+    "lat": 51.01209,
+    "lng": 2.518227,
+    "transactions": [
+      {
+        "date": "2022-02-03",
+        "priceEur": 173000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a9d64ad8a2a": {
+    "id": "2a9d64ad8a2a",
+    "label": "63 RUE ALBERT POIDEVIN, Uxem",
+    "lat": 51.009662,
+    "lng": 2.520891,
+    "transactions": [
+      {
+        "date": "2022-06-13",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "87252fc05df5": {
+    "id": "87252fc05df5",
+    "label": "48 RUE DES MOERES VC 201, Warhem",
+    "lat": 51.008025,
+    "lng": 2.523068,
+    "transactions": [
+      {
+        "date": "2023-08-02",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b8976032781": {
+    "id": "0b8976032781",
+    "label": "229 RTE D UXEM CD 79, Warhem",
+    "lat": 51.007865,
+    "lng": 2.522595,
+    "transactions": [
+      {
+        "date": "2024-09-05",
+        "priceEur": 253000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

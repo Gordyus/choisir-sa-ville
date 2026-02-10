@@ -1,0 +1,77 @@
+{
+  "80984d2c216f": {
+    "id": "80984d2c216f",
+    "label": "2 RTE DE LA CENTRALE, Wavrin",
+    "lat": 50.551212,
+    "lng": 2.930056,
+    "transactions": [
+      {
+        "date": "2021-02-01",
+        "priceEur": 256850,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "246dce7cfd12": {
+    "id": "246dce7cfd12",
+    "label": "5 RUE DE LA CENTRALE, Don",
+    "lat": 50.552523,
+    "lng": 2.927439,
+    "transactions": [
+      {
+        "date": "2022-05-13",
+        "priceEur": 542040,
+        "typeLocal": "Maison",
+        "surfaceM2": 185,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b5694ffa077": {
+    "id": "8b5694ffa077",
+    "label": "52 RUE FRANCOIS LIENART, Don",
+    "lat": 50.550417,
+    "lng": 2.924552,
+    "transactions": [
+      {
+        "date": "2023-05-05",
+        "priceEur": 520277,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "fc91b4cfb0d6": {
+    "id": "fc91b4cfb0d6",
+    "label": "36 RUE FRANCOIS LIENART, Don",
+    "lat": 50.549342,
+    "lng": 2.922703,
+    "transactions": [
+      {
+        "date": "2023-05-30",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f4d7ffd7b3d": {
+    "id": "2f4d7ffd7b3d",
+    "label": "3 RUE MARCEL SEMBAT, Don",
+    "lat": 50.55079,
+    "lng": 2.923877,
+    "transactions": [
+      {
+        "date": "2024-09-23",
+        "priceEur": 179400,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

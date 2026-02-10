@@ -1,0 +1,151 @@
+{
+  "6c1e334ff0cb": {
+    "id": "6c1e334ff0cb",
+    "label": "7 RTE DE LA NOUVELLE TERRE, Merckeghem",
+    "lat": 50.893971,
+    "lng": 2.252165,
+    "transactions": [
+      {
+        "date": "2020-09-04",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c838c7beca7": {
+    "id": "5c838c7beca7",
+    "label": "472 HAMEAU DE LYNCK, Cappelle-Brouck",
+    "lat": 50.894013,
+    "lng": 2.250853,
+    "transactions": [
+      {
+        "date": "2020-11-03",
+        "priceEur": 130550,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "aadfc4d71dc6": {
+    "id": "aadfc4d71dc6",
+    "label": "490 HAMEAU DE LYNCK, Cappelle-Brouck",
+    "lat": 50.894062,
+    "lng": 2.250914,
+    "transactions": [
+      {
+        "date": "2021-07-01",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "66ab02838358": {
+    "id": "66ab02838358",
+    "label": "515 HAMEAU DE LYNCK, Cappelle-Brouck",
+    "lat": 50.89428,
+    "lng": 2.250921,
+    "transactions": [
+      {
+        "date": "2022-03-15",
+        "priceEur": 162107,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-15",
+        "priceEur": 162107,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b15ba45517d": {
+    "id": "1b15ba45517d",
+    "label": "31 HAM DE LYNCK, Looberghe",
+    "lat": 50.895001,
+    "lng": 2.251771,
+    "transactions": [
+      {
+        "date": "2022-07-13",
+        "priceEur": 225372,
+        "typeLocal": "Maison",
+        "surfaceM2": 10,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-13",
+        "priceEur": 225372,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "72142375ce1b": {
+    "id": "72142375ce1b",
+    "label": "14 RTE DE LA NOUVELLE TERRE, Merckeghem",
+    "lat": 50.893874,
+    "lng": 2.251616,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "0efbdff8618f": {
+    "id": "0efbdff8618f",
+    "label": "53 HAM DE LYNCK, Looberghe",
+    "lat": 50.895139,
+    "lng": 2.251831,
+    "transactions": [
+      {
+        "date": "2022-11-02",
+        "priceEur": 157500,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "b81fb6ee0e04": {
+    "id": "b81fb6ee0e04",
+    "label": "343 HAMEAU DE LYNCK, Cappelle-Brouck",
+    "lat": 50.893068,
+    "lng": 2.249756,
+    "transactions": [
+      {
+        "date": "2023-12-21",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "be48c8539a9d": {
+    "id": "be48c8539a9d",
+    "label": "45 RTE DE LA NOUVELLE TERRE, Merckeghem",
+    "lat": 50.893663,
+    "lng": 2.25191,
+    "transactions": [
+      {
+        "date": "2024-02-27",
+        "priceEur": 49900,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "422da1c07f49": {
+    "id": "422da1c07f49",
+    "label": "75 RTE DES ESSARTS, Callengeville",
+    "lat": 49.824051,
+    "lng": 1.539626,
+    "transactions": [
+      {
+        "date": "2023-03-20",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-20",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  }
+}

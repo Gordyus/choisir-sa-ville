@@ -1,0 +1,77 @@
+{
+  "31ed7ece385b": {
+    "id": "31ed7ece385b",
+    "label": "219 RUE OMER OLLIVIER, La Chapelle-d'Armentières",
+    "lat": 50.662214,
+    "lng": 2.884398,
+    "transactions": [
+      {
+        "date": "2020-09-22",
+        "priceEur": 238000,
+        "typeLocal": "Maison",
+        "surfaceM2": 167,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca5bdd678d16": {
+    "id": "ca5bdd678d16",
+    "label": "217 RUE OMER OLLIVIER, La Chapelle-d'Armentières",
+    "lat": 50.662162,
+    "lng": 2.884673,
+    "transactions": [
+      {
+        "date": "2022-06-15",
+        "priceEur": 315500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "98cc664e1e47": {
+    "id": "98cc664e1e47",
+    "label": "223 RUE OMER OLLIVIER, La Chapelle-d'Armentières",
+    "lat": 50.662184,
+    "lng": 2.884308,
+    "transactions": [
+      {
+        "date": "2022-12-28",
+        "priceEur": 219000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "80196f20fa78": {
+    "id": "80196f20fa78",
+    "label": "199 RUE OMER OLLIVIER, La Chapelle-d'Armentières",
+    "lat": 50.666151,
+    "lng": 2.885556,
+    "transactions": [
+      {
+        "date": "2023-09-05",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9f301f1c6ca": {
+    "id": "a9f301f1c6ca",
+    "label": "168 RUE OMER OLLIVIER, La Chapelle-d'Armentières",
+    "lat": 50.666497,
+    "lng": 2.884512,
+    "transactions": [
+      {
+        "date": "2024-08-28",
+        "priceEur": 480000,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  }
+}

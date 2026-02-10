@@ -1,0 +1,419 @@
+{
+  "f7a8950b80fc": {
+    "id": "f7a8950b80fc",
+    "label": "1 RUE DE VALENSOLE, Somain",
+    "lat": 50.373447,
+    "lng": 3.270407,
+    "transactions": [
+      {
+        "date": "2020-12-15",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "f071f70c208d": {
+    "id": "f071f70c208d",
+    "label": "148 RUE ACHILLE ANDRIS, Somain",
+    "lat": 50.371601,
+    "lng": 3.268193,
+    "transactions": [
+      {
+        "date": "2023-12-06",
+        "priceEur": 171450,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-18",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "c10a63aeb73e": {
+    "id": "c10a63aeb73e",
+    "label": "48 RUE MARC DEMILLY, Somain",
+    "lat": 50.367781,
+    "lng": 3.271782,
+    "transactions": [
+      {
+        "date": "2021-09-08",
+        "priceEur": 249500,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "87dd8a761653": {
+    "id": "87dd8a761653",
+    "label": "7 RUE DE LA NAPOULE, Somain",
+    "lat": 50.372235,
+    "lng": 3.268827,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "708d8b1cb216": {
+    "id": "708d8b1cb216",
+    "label": "2A RUE D EVENOS, Somain",
+    "lat": 50.3725,
+    "lng": 3.268249,
+    "transactions": [
+      {
+        "date": "2021-02-12",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a9c3a054dca": {
+    "id": "7a9c3a054dca",
+    "label": "10 RUE MARC DEMILLY, Somain",
+    "lat": 50.369011,
+    "lng": 3.273202,
+    "transactions": [
+      {
+        "date": "2021-02-18",
+        "priceEur": 258000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2215a742cd0": {
+    "id": "c2215a742cd0",
+    "label": "126 RUE ACHILLE ANDRIS, Somain",
+    "lat": 50.371884,
+    "lng": 3.269193,
+    "transactions": [
+      {
+        "date": "2021-04-14",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "a6250c811a1e": {
+    "id": "a6250c811a1e",
+    "label": "125 RUE ANTOINE MERCIER, Somain",
+    "lat": 50.367597,
+    "lng": 3.263112,
+    "transactions": [
+      {
+        "date": "2021-06-01",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 241,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b21e1e79c98": {
+    "id": "4b21e1e79c98",
+    "label": "21 RUE DE SALERNES, Somain",
+    "lat": 50.369776,
+    "lng": 3.270309,
+    "transactions": [
+      {
+        "date": "2022-01-20",
+        "priceEur": 86000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "479ddb3f61a5": {
+    "id": "479ddb3f61a5",
+    "label": "146 RUE ACHILLE ANDRIS, Somain",
+    "lat": 50.371762,
+    "lng": 3.268274,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "f2c0db94fafe": {
+    "id": "f2c0db94fafe",
+    "label": "1 RUE DE SALERNES, Somain",
+    "lat": 50.370583,
+    "lng": 3.271473,
+    "transactions": [
+      {
+        "date": "2022-03-22",
+        "priceEur": 107000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "696b24dbcc0a": {
+    "id": "696b24dbcc0a",
+    "label": "88 RUE ACHILLE ANDRIS, Somain",
+    "lat": 50.370675,
+    "lng": 3.273854,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 73000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-22",
+        "priceEur": 62900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-11",
+        "priceEur": 74500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-10",
+        "priceEur": 72500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-04",
+        "priceEur": 65900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f819f30f2d7": {
+    "id": "3f819f30f2d7",
+    "label": "106 RUE ACHILLE ANDRIS, Somain",
+    "lat": 50.370797,
+    "lng": 3.27273,
+    "transactions": [
+      {
+        "date": "2022-09-29",
+        "priceEur": 174000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f1d5a2d40dd": {
+    "id": "5f1d5a2d40dd",
+    "label": "117 RUE ANTOINE MERCIER, Somain",
+    "lat": 50.366921,
+    "lng": 3.263707,
+    "transactions": [
+      {
+        "date": "2022-11-07",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a9e37d0493a": {
+    "id": "9a9e37d0493a",
+    "label": "2 RUE MARC DEMILLY, Somain",
+    "lat": 50.368944,
+    "lng": 3.273693,
+    "transactions": [
+      {
+        "date": "2022-10-26",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "b914b118a1a3": {
+    "id": "b914b118a1a3",
+    "label": "183 RUE ACHILLE ANDRIS, Somain",
+    "lat": 50.370832,
+    "lng": 3.27139,
+    "transactions": [
+      {
+        "date": "2022-10-26",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 102,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-26",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "6f48022440cf": {
+    "id": "6f48022440cf",
+    "label": "100 RUE ACHILLE ANDRIS, Somain",
+    "lat": 50.370313,
+    "lng": 3.273605,
+    "transactions": [
+      {
+        "date": "2022-11-28",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd0e69defe62": {
+    "id": "cd0e69defe62",
+    "label": "142B RUE ANTOINE MERCIER, Somain",
+    "lat": 50.367656,
+    "lng": 3.263597,
+    "transactions": [
+      {
+        "date": "2022-11-15",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "32038aef1988": {
+    "id": "32038aef1988",
+    "label": "4 CHE VERT, Somain",
+    "lat": 50.367685,
+    "lng": 3.263951,
+    "transactions": [
+      {
+        "date": "2022-11-15",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "2dca9d2af300": {
+    "id": "2dca9d2af300",
+    "label": "146 RUE ANTOINE MERCIER, Somain",
+    "lat": 50.367887,
+    "lng": 3.263469,
+    "transactions": [
+      {
+        "date": "2022-12-30",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "011ca8e6fa3f": {
+    "id": "011ca8e6fa3f",
+    "label": "46 RUE MARC DEMILLY, Somain",
+    "lat": 50.36796,
+    "lng": 3.271641,
+    "transactions": [
+      {
+        "date": "2024-02-09",
+        "priceEur": 275152,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3570090a983": {
+    "id": "b3570090a983",
+    "label": "40 RUE PHILIPPE DEVEMY, Somain",
+    "lat": 50.367659,
+    "lng": 3.273815,
+    "transactions": [
+      {
+        "date": "2024-04-18",
+        "priceEur": 81500,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6f854826fdc": {
+    "id": "d6f854826fdc",
+    "label": "17 RUE MARC DEMILLY, Somain",
+    "lat": 50.368264,
+    "lng": 3.273603,
+    "transactions": [
+      {
+        "date": "2024-09-06",
+        "priceEur": 172850,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "7af6950e98a1": {
+    "id": "7af6950e98a1",
+    "label": "9 RUE DE SALERNES, Somain",
+    "lat": 50.370353,
+    "lng": 3.270972,
+    "transactions": [
+      {
+        "date": "2024-09-17",
+        "priceEur": 151900,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "a746272a66e2": {
+    "id": "a746272a66e2",
+    "label": "2B RUE DE SALERNES, Somain",
+    "lat": 50.37048,
+    "lng": 3.270691,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

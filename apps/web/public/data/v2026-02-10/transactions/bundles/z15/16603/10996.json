@@ -1,0 +1,32 @@
+{
+  "82944e72ab88": {
+    "id": "82944e72ab88",
+    "label": "738 RUE DU HAUT MIDI, Ochtezeele",
+    "lat": 50.817408,
+    "lng": 2.412996,
+    "transactions": [
+      {
+        "date": "2023-03-06",
+        "priceEur": 272460,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "5baaa90d0793": {
+    "id": "5baaa90d0793",
+    "label": "222 RUE IMPASSE DU HAUT MIDI, Ochtezeele",
+    "lat": 50.819422,
+    "lng": 2.407799,
+    "transactions": [
+      {
+        "date": "2024-09-16",
+        "priceEur": 287300,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

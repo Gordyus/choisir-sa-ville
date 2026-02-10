@@ -1,0 +1,77 @@
+{
+  "90564afd8bd1": {
+    "id": "90564afd8bd1",
+    "label": "6013 LES CHIENS, Bouville",
+    "lat": 49.5649,
+    "lng": 0.883355,
+    "transactions": [
+      {
+        "date": "2022-02-17",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e2b25bd38e8": {
+    "id": "8e2b25bd38e8",
+    "label": "2935 RTE DU BOSC RICARD, Bouville",
+    "lat": 49.560995,
+    "lng": 0.888061,
+    "transactions": [
+      {
+        "date": "2022-07-28",
+        "priceEur": 238900,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "afa7b0bbff36": {
+    "id": "afa7b0bbff36",
+    "label": "6 CLOS DE L ORANGERIE, Bouville",
+    "lat": 49.561835,
+    "lng": 0.888919,
+    "transactions": [
+      {
+        "date": "2023-01-31",
+        "priceEur": 291000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "34fb63187d0e": {
+    "id": "34fb63187d0e",
+    "label": "13 CLOS DES DEMOISELLES, Bouville",
+    "lat": 49.560885,
+    "lng": 0.889427,
+    "transactions": [
+      {
+        "date": "2023-08-04",
+        "priceEur": 271000,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  },
+  "7cd436d33ec3": {
+    "id": "7cd436d33ec3",
+    "label": "5 CLOS DE L ORANGERIE, Bouville",
+    "lat": 49.56176,
+    "lng": 0.888578,
+    "transactions": [
+      {
+        "date": "2024-09-04",
+        "priceEur": 405000,
+        "typeLocal": "Maison",
+        "surfaceM2": 159,
+        "isVefa": false
+      }
+    ]
+  }
+}

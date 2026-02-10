@@ -1,0 +1,77 @@
+{
+  "1c0aa096d911": {
+    "id": "1c0aa096d911",
+    "label": "7 RUE FELIX FAURE, La Frénaye",
+    "lat": 49.526533,
+    "lng": 0.559458,
+    "transactions": [
+      {
+        "date": "2020-09-10",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "56b4357bb4ee": {
+    "id": "56b4357bb4ee",
+    "label": "8 RUE CLAUDE DEBUSSY, La Frénaye",
+    "lat": 49.52593,
+    "lng": 0.554312,
+    "transactions": [
+      {
+        "date": "2020-11-06",
+        "priceEur": 274000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e529e32c0e4": {
+    "id": "8e529e32c0e4",
+    "label": "7 RUE CLAUDE DEBUSSY, La Frénaye",
+    "lat": 49.526035,
+    "lng": 0.554778,
+    "transactions": [
+      {
+        "date": "2022-05-05",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "0a6c6b82da70": {
+    "id": "0a6c6b82da70",
+    "label": "1 RUE CLAUDE DEBUSSY, La Frénaye",
+    "lat": 49.527024,
+    "lng": 0.554869,
+    "transactions": [
+      {
+        "date": "2022-04-27",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0f4aa5196cc": {
+    "id": "b0f4aa5196cc",
+    "label": "5460 LA CROSSE, La Frénaye",
+    "lat": 49.52645,
+    "lng": 0.554031,
+    "transactions": [
+      {
+        "date": "2022-07-26",
+        "priceEur": 318800,
+        "typeLocal": "Maison",
+        "surfaceM2": 171,
+        "isVefa": false
+      }
+    ]
+  }
+}

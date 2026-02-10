@@ -1,0 +1,62 @@
+{
+  "928a753bec98": {
+    "id": "928a753bec98",
+    "label": "42 RUE DE CATTEVILLE, Petit-Caux",
+    "lat": 49.947615,
+    "lng": 1.269992,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 169565,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "b676ab576e54": {
+    "id": "b676ab576e54",
+    "label": "14 RUE JEANNINE BRIANCON, Petit-Caux",
+    "lat": 49.944849,
+    "lng": 1.264304,
+    "transactions": [
+      {
+        "date": "2021-08-18",
+        "priceEur": 241557,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "43af20060f0a": {
+    "id": "43af20060f0a",
+    "label": "5093 CATTEVILLE, Petit-Caux",
+    "lat": 49.950613,
+    "lng": 1.268591,
+    "transactions": [
+      {
+        "date": "2021-08-06",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0e9357a0e7e": {
+    "id": "b0e9357a0e7e",
+    "label": "5133 CATTEVILLE, Petit-Caux",
+    "lat": 49.949524,
+    "lng": 1.270085,
+    "transactions": [
+      {
+        "date": "2023-10-05",
+        "priceEur": 206800,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

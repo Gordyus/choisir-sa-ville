@@ -1,0 +1,32 @@
+{
+  "3522201d4d45": {
+    "id": "3522201d4d45",
+    "label": "45 RTE DE LA VALLEE, Saint-Victor-l'Abbaye",
+    "lat": 49.662823,
+    "lng": 1.118736,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 153700,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "ab2bc1f5e036": {
+    "id": "ab2bc1f5e036",
+    "label": "39 RTE DE LA VALLEE, Saint-Victor-l'Abbaye",
+    "lat": 49.663643,
+    "lng": 1.119506,
+    "transactions": [
+      {
+        "date": "2024-04-19",
+        "priceEur": 172200,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  }
+}

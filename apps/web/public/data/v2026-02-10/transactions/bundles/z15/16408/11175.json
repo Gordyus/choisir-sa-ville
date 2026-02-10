@@ -1,0 +1,92 @@
+{
+  "2e687a1dd42c": {
+    "id": "2e687a1dd42c",
+    "label": "8 HAMEAU BRANMAZE, Manéglise",
+    "lat": 49.558465,
+    "lng": 0.264371,
+    "transactions": [
+      {
+        "date": "2020-07-01",
+        "priceEur": 203000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "77e92c817016": {
+    "id": "77e92c817016",
+    "label": "5 ALL DES MONIALES, Manéglise",
+    "lat": 49.555581,
+    "lng": 0.2708,
+    "transactions": [
+      {
+        "date": "2020-09-22",
+        "priceEur": 257000,
+        "typeLocal": "Maison",
+        "surfaceM2": 340,
+        "isVefa": false
+      }
+    ]
+  },
+  "1180b5e77cbf": {
+    "id": "1180b5e77cbf",
+    "label": "9 ALL DES MONIALES, Manéglise",
+    "lat": 49.554626,
+    "lng": 0.266333,
+    "transactions": [
+      {
+        "date": "2021-01-05",
+        "priceEur": 228000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "665e7288480b": {
+    "id": "665e7288480b",
+    "label": "7 ALL DES MONIALES, Manéglise",
+    "lat": 49.554863,
+    "lng": 0.266275,
+    "transactions": [
+      {
+        "date": "2021-03-15",
+        "priceEur": 313000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d407c411829": {
+    "id": "3d407c411829",
+    "label": "36 HAMEAU BRANMAZE, Manéglise",
+    "lat": 49.55983,
+    "lng": 0.266815,
+    "transactions": [
+      {
+        "date": "2023-05-17",
+        "priceEur": 427720,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "34920222476c": {
+    "id": "34920222476c",
+    "label": "27 HAMEAU BRANMAZE, Manéglise",
+    "lat": 49.559269,
+    "lng": 0.268198,
+    "transactions": [
+      {
+        "date": "2023-10-12",
+        "priceEur": 361000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  }
+}

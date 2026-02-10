@@ -1,0 +1,39 @@
+{
+  "75ec8434b4bc": {
+    "id": "75ec8434b4bc",
+    "label": "5732 LE VAUDICHON, Saint-Saëns",
+    "lat": 49.688129,
+    "lng": 1.262376,
+    "transactions": [
+      {
+        "date": "2022-11-25",
+        "priceEur": 151500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-10",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c646f967856": {
+    "id": "4c646f967856",
+    "label": "5731 LE VAUDICHON, Saint-Saëns",
+    "lat": 49.687868,
+    "lng": 1.262593,
+    "transactions": [
+      {
+        "date": "2024-04-25",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  }
+}

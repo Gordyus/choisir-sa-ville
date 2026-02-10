@@ -1,0 +1,32 @@
+{
+  "6a36e1753919": {
+    "id": "6a36e1753919",
+    "label": "200 IMP DE L'EPINE, Saint-Léonard",
+    "lat": 49.720463,
+    "lng": 0.358071,
+    "transactions": [
+      {
+        "date": "2024-02-23",
+        "priceEur": 186000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f665a07eb30": {
+    "id": "4f665a07eb30",
+    "label": "150 IMP DE L'EPINE, Saint-Léonard",
+    "lat": 49.720952,
+    "lng": 0.357869,
+    "transactions": [
+      {
+        "date": "2024-08-02",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

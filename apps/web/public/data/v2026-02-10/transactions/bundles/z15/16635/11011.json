@@ -1,0 +1,32 @@
+{
+  "e524e5f8865d": {
+    "id": "e524e5f8865d",
+    "label": "7 RUE DU PONT DE PIERRE, Steenwerck",
+    "lat": 50.711818,
+    "lng": 2.767652,
+    "transactions": [
+      {
+        "date": "2021-07-15",
+        "priceEur": 272000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "dc98f8c5d107": {
+    "id": "dc98f8c5d107",
+    "label": "2 RUE MOUTON, Steenwerck",
+    "lat": 50.70898,
+    "lng": 2.760616,
+    "transactions": [
+      {
+        "date": "2022-10-06",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  }
+}

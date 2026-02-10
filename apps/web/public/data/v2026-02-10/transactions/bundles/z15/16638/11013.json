@@ -1,0 +1,32 @@
+{
+  "f5b6bc0b5523": {
+    "id": "f5b6bc0b5523",
+    "label": "2 RUE DE L HALLOBEAU, Steenwerck",
+    "lat": 50.696269,
+    "lng": 2.798785,
+    "transactions": [
+      {
+        "date": "2024-02-01",
+        "priceEur": 132000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "43bfa7fb01a3": {
+    "id": "43bfa7fb01a3",
+    "label": "2 RUE DE LA MENEGATTE, Steenwerck",
+    "lat": 50.696605,
+    "lng": 2.797247,
+    "transactions": [
+      {
+        "date": "2025-02-17",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  }
+}

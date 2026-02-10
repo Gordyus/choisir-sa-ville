@@ -1,0 +1,32 @@
+{
+  "9be30f1838a7": {
+    "id": "9be30f1838a7",
+    "label": "5 RUE DE LA CHAPELLE, Criquiers",
+    "lat": 49.657803,
+    "lng": 1.702532,
+    "transactions": [
+      {
+        "date": "2021-01-06",
+        "priceEur": 259000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d78ba8b2bec": {
+    "id": "0d78ba8b2bec",
+    "label": "248 LES ANTHIEUX, Criquiers",
+    "lat": 49.656786,
+    "lng": 1.702126,
+    "transactions": [
+      {
+        "date": "2022-12-15",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

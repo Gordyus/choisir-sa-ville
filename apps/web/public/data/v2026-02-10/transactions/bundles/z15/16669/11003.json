@@ -1,0 +1,127 @@
+{
+  "d152d1f48c0c": {
+    "id": "d152d1f48c0c",
+    "label": "35 CHE DE PERUWELTZ, Halluin",
+    "lat": 50.765026,
+    "lng": 3.136959,
+    "transactions": [
+      {
+        "date": "2021-06-02",
+        "priceEur": 368000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-15",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa4bc8e60c38": {
+    "id": "fa4bc8e60c38",
+    "label": "230 RTE DE NEUVILLE, Halluin",
+    "lat": 50.768278,
+    "lng": 3.141324,
+    "transactions": [
+      {
+        "date": "2021-04-02",
+        "priceEur": 430000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "5da529e9672c": {
+    "id": "5da529e9672c",
+    "label": "157 RTE DE NEUVILLE, Halluin",
+    "lat": 50.770715,
+    "lng": 3.140893,
+    "transactions": [
+      {
+        "date": "2025-01-27",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-26",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-23",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "585f3a4bebe9": {
+    "id": "585f3a4bebe9",
+    "label": "155 RTE DE NEUVILLE, Halluin",
+    "lat": 50.770772,
+    "lng": 3.140796,
+    "transactions": [
+      {
+        "date": "2025-01-27",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-26",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-23",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 28,
+        "isVefa": false
+      }
+    ]
+  },
+  "933841d2fcd5": {
+    "id": "933841d2fcd5",
+    "label": "173 RTE DE NEUVILLE, Halluin",
+    "lat": 50.769933,
+    "lng": 3.141651,
+    "transactions": [
+      {
+        "date": "2023-12-18",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "d8a9d80a4f93": {
+    "id": "d8a9d80a4f93",
+    "label": "1693 RTE DE NEUVILLE, Halluin",
+    "lat": 50.770148,
+    "lng": 3.141505,
+    "transactions": [
+      {
+        "date": "2024-09-06",
+        "priceEur": 224000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

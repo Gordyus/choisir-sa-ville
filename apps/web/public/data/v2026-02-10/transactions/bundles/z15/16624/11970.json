@@ -1,0 +1,54 @@
+{
+  "f52ee2313881": {
+    "id": "f52ee2313881",
+    "label": "375F SEPT FAUX, Le Soulié",
+    "lat": 43.556554,
+    "lng": 2.640847,
+    "transactions": [
+      {
+        "date": "2020-10-24",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e4bedfeb8f7": {
+    "id": "4e4bedfeb8f7",
+    "label": "5156 SEPT FAUX, Le Soulié",
+    "lat": 43.556682,
+    "lng": 2.640389,
+    "transactions": [
+      {
+        "date": "2023-01-04",
+        "priceEur": 64000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-28",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "d075ef5505f4": {
+    "id": "d075ef5505f4",
+    "label": "2 RUE DU LAVOIR, Le Soulié",
+    "lat": 43.556746,
+    "lng": 2.640882,
+    "transactions": [
+      {
+        "date": "2025-05-19",
+        "priceEur": 128170,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

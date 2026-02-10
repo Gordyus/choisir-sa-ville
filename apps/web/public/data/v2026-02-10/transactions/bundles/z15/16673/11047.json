@@ -1,0 +1,32 @@
+{
+  "e6ffd1a0a8da": {
+    "id": "e6ffd1a0a8da",
+    "label": "238 RUE DE VERNECUEILLE, Coutiches",
+    "lat": 50.460708,
+    "lng": 3.181371,
+    "transactions": [
+      {
+        "date": "2020-11-16",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "b878f9af7856": {
+    "id": "b878f9af7856",
+    "label": "223 RUE DE VERNECUEILLE, Coutiches",
+    "lat": 50.461163,
+    "lng": 3.181476,
+    "transactions": [
+      {
+        "date": "2024-11-29",
+        "priceEur": 204700,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  }
+}

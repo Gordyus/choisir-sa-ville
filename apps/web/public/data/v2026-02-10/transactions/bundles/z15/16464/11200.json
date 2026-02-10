@@ -1,0 +1,32 @@
+{
+  "5778f4b0296d": {
+    "id": "5778f4b0296d",
+    "label": "226 RUE DE LA FERME DES CLOS, Mauny",
+    "lat": 49.376374,
+    "lng": 0.883319,
+    "transactions": [
+      {
+        "date": "2021-07-06",
+        "priceEur": 27500,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c0ba475b6f2": {
+    "id": "9c0ba475b6f2",
+    "label": "277 RUE DE LA FERME DES CLOS, Mauny",
+    "lat": 49.37682,
+    "lng": 0.884256,
+    "transactions": [
+      {
+        "date": "2023-12-04",
+        "priceEur": 310478,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

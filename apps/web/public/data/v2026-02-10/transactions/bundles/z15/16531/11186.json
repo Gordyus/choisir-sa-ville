@@ -1,0 +1,77 @@
+{
+  "fdb5a7630b7e": {
+    "id": "fdb5a7630b7e",
+    "label": "3 CHE DES BUISSONS, Beauvoir-en-Lyons",
+    "lat": 49.479905,
+    "lng": 1.615236,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "659e04870e6a": {
+    "id": "659e04870e6a",
+    "label": "5133 CAMP CAILLOT, Beauvoir-en-Lyons",
+    "lat": 49.480876,
+    "lng": 1.620483,
+    "transactions": [
+      {
+        "date": "2021-06-18",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "82d1975a525a": {
+    "id": "82d1975a525a",
+    "label": "7A RUE DE LA LANDE, Beauvoir-en-Lyons",
+    "lat": 49.479076,
+    "lng": 1.619061,
+    "transactions": [
+      {
+        "date": "2022-08-19",
+        "priceEur": 267000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "c269b92619ed": {
+    "id": "c269b92619ed",
+    "label": "5334 LA LANDE, Beauvoir-en-Lyons",
+    "lat": 49.477511,
+    "lng": 1.617066,
+    "transactions": [
+      {
+        "date": "2022-10-20",
+        "priceEur": 160500,
+        "typeLocal": "Maison",
+        "surfaceM2": 174,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1b954c81b0f": {
+    "id": "a1b954c81b0f",
+    "label": "5331 LA LANDE, Beauvoir-en-Lyons",
+    "lat": 49.478505,
+    "lng": 1.617953,
+    "transactions": [
+      {
+        "date": "2022-12-07",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  }
+}

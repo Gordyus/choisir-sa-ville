@@ -1,0 +1,114 @@
+{
+  "85277bad6965": {
+    "id": "85277bad6965",
+    "label": "206 RUE DU MOULIN JADOT, Saint-Martin-du-Vivier",
+    "lat": 49.474321,
+    "lng": 1.165513,
+    "transactions": [
+      {
+        "date": "2020-08-12",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "7fa8cda5577c": {
+    "id": "7fa8cda5577c",
+    "label": "6362 SAINT MARTIN DU VIVIER, Saint-Martin-du-Vivier",
+    "lat": 49.468311,
+    "lng": 1.166254,
+    "transactions": [
+      {
+        "date": "2020-12-22",
+        "priceEur": 229000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "effac2faeadc": {
+    "id": "effac2faeadc",
+    "label": "128 PL DE LA COUR SOUVERAINE, Saint-Martin-du-Vivier",
+    "lat": 49.469019,
+    "lng": 1.166653,
+    "transactions": [
+      {
+        "date": "2021-02-26",
+        "priceEur": 153000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "333b0f35ea6c": {
+    "id": "333b0f35ea6c",
+    "label": "186 ALL DU MOULIN JADOT, Saint-Martin-du-Vivier",
+    "lat": 49.474157,
+    "lng": 1.165509,
+    "transactions": [
+      {
+        "date": "2021-02-23",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "1def8d7dc7b4": {
+    "id": "1def8d7dc7b4",
+    "label": "129 ALL DE LA POUPONNIERE, Saint-Martin-du-Vivier",
+    "lat": 49.473251,
+    "lng": 1.165026,
+    "transactions": [
+      {
+        "date": "2021-09-15",
+        "priceEur": 232260,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f5c735f2e31": {
+    "id": "3f5c735f2e31",
+    "label": "6361 SAINT MARTIN DU VIVIER, Saint-Martin-du-Vivier",
+    "lat": 49.468143,
+    "lng": 1.165863,
+    "transactions": [
+      {
+        "date": "2024-07-25",
+        "priceEur": 289000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-30",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "803b093e592c": {
+    "id": "803b093e592c",
+    "label": "140 PL DE LA COUR SOUVERAINE, Saint-Martin-du-Vivier",
+    "lat": 49.469019,
+    "lng": 1.166653,
+    "transactions": [
+      {
+        "date": "2024-12-30",
+        "priceEur": 228400,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  }
+}

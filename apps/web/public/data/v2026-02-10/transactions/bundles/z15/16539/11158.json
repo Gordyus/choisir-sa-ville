@@ -1,0 +1,129 @@
+{
+  "3fb8a8b283f8": {
+    "id": "3fb8a8b283f8",
+    "label": "5077 LE BOURG, Criquiers",
+    "lat": 49.67618,
+    "lng": 1.711969,
+    "transactions": [
+      {
+        "date": "2021-05-04",
+        "priceEur": 78000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-04",
+        "priceEur": 78000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "be7e58336a0a": {
+    "id": "be7e58336a0a",
+    "label": "5007 LE BOURG, Criquiers",
+    "lat": 49.676394,
+    "lng": 1.707935,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "a47563ca0000": {
+    "id": "a47563ca0000",
+    "label": "5087 LE BOURG, Criquiers",
+    "lat": 49.674932,
+    "lng": 1.70901,
+    "transactions": [
+      {
+        "date": "2022-03-19",
+        "priceEur": 82500,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "944b5d4b7849": {
+    "id": "944b5d4b7849",
+    "label": "38 RUE PRINCIPALE, Criquiers",
+    "lat": 49.676777,
+    "lng": 1.712208,
+    "transactions": [
+      {
+        "date": "2022-08-23",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 204,
+        "isVefa": false
+      }
+    ]
+  },
+  "8cfdae02b05a": {
+    "id": "8cfdae02b05a",
+    "label": "5075 LE BOURG, Criquiers",
+    "lat": 49.675318,
+    "lng": 1.712034,
+    "transactions": [
+      {
+        "date": "2022-10-01",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "e9a41974024e": {
+    "id": "e9a41974024e",
+    "label": "66 RUE PRINCIPALE, Criquiers",
+    "lat": 49.674933,
+    "lng": 1.706699,
+    "transactions": [
+      {
+        "date": "2022-10-19",
+        "priceEur": 20000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "74cbb791d789": {
+    "id": "74cbb791d789",
+    "label": "34 RUE PRINCIPALE, Criquiers",
+    "lat": 49.677325,
+    "lng": 1.713373,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "f99a5adf0b5f": {
+    "id": "f99a5adf0b5f",
+    "label": "68 RUE PRINCIPALE, Criquiers",
+    "lat": 49.674738,
+    "lng": 1.706269,
+    "transactions": [
+      {
+        "date": "2024-06-11",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

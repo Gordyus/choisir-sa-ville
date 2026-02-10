@@ -1,0 +1,32 @@
+{
+  "ff15b0e7f4ad": {
+    "id": "ff15b0e7f4ad",
+    "label": "5023 VERT BOIS, Landes-Vieilles-et-Neuves",
+    "lat": 49.780615,
+    "lng": 1.633417,
+    "transactions": [
+      {
+        "date": "2021-05-06",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "3386a2acdc6f": {
+    "id": "3386a2acdc6f",
+    "label": "5021 VERT BOIS, Landes-Vieilles-et-Neuves",
+    "lat": 49.781222,
+    "lng": 1.635624,
+    "transactions": [
+      {
+        "date": "2022-06-18",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  }
+}

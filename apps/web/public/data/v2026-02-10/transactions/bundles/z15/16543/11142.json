@@ -1,0 +1,32 @@
+{
+  "9870ea140aac": {
+    "id": "9870ea140aac",
+    "label": "123 RUE DE MAINNECOURT, Aumale",
+    "lat": 49.790068,
+    "lng": 1.749785,
+    "transactions": [
+      {
+        "date": "2021-02-12",
+        "priceEur": 87000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "b713bc1ab75b": {
+    "id": "b713bc1ab75b",
+    "label": "1052 RUE DE RIVERY, Aumale",
+    "lat": 49.789601,
+    "lng": 1.748854,
+    "transactions": [
+      {
+        "date": "2024-10-22",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

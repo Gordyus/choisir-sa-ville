@@ -1,0 +1,129 @@
+{
+  "f10a548ae73d": {
+    "id": "f10a548ae73d",
+    "label": "4 RUE BERALDI, Valmont",
+    "lat": 49.747254,
+    "lng": 0.512433,
+    "transactions": [
+      {
+        "date": "2021-06-10",
+        "priceEur": 204510,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5d980a4dcc7": {
+    "id": "c5d980a4dcc7",
+    "label": "22 RUE ALBERT BELLAVOINE, Valmont",
+    "lat": 49.74597,
+    "lng": 0.512787,
+    "transactions": [
+      {
+        "date": "2022-12-01",
+        "priceEur": 87000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-17",
+        "priceEur": 76000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff4258799992": {
+    "id": "ff4258799992",
+    "label": "2 RUE DES VIEUX MOULINS, Valmont",
+    "lat": 49.746511,
+    "lng": 0.509241,
+    "transactions": [
+      {
+        "date": "2023-03-16",
+        "priceEur": 423000,
+        "typeLocal": "Maison",
+        "surfaceM2": 260,
+        "isVefa": false
+      }
+    ]
+  },
+  "d2311424f8ee": {
+    "id": "d2311424f8ee",
+    "label": "18 RUE ALBERT BELLAVOINE, Valmont",
+    "lat": 49.745852,
+    "lng": 0.512938,
+    "transactions": [
+      {
+        "date": "2023-09-22",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "53e6b5b32fe1": {
+    "id": "53e6b5b32fe1",
+    "label": "8 RUE DES VIEUX MOULINS, Valmont",
+    "lat": 49.746963,
+    "lng": 0.508453,
+    "transactions": [
+      {
+        "date": "2023-12-07",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d4dbecf7019": {
+    "id": "0d4dbecf7019",
+    "label": "2 RUE BERALDI, Valmont",
+    "lat": 49.747119,
+    "lng": 0.51274,
+    "transactions": [
+      {
+        "date": "2024-09-30",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "19a4d5e4e522": {
+    "id": "19a4d5e4e522",
+    "label": "115 LA RUE, Angerville-la-Martel",
+    "lat": 49.752281,
+    "lng": 0.506783,
+    "transactions": [
+      {
+        "date": "2024-10-28",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 161,
+        "isVefa": false
+      }
+    ]
+  },
+  "199e109e5562": {
+    "id": "199e109e5562",
+    "label": "18 RUE D ALLANCHE, Valmont",
+    "lat": 49.747323,
+    "lng": 0.509421,
+    "transactions": [
+      {
+        "date": "2025-03-11",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  }
+}

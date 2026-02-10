@@ -1,0 +1,84 @@
+{
+  "b909bffa58a0": {
+    "id": "b909bffa58a0",
+    "label": "1522 RTE DU HAMEL, Fontaine-le-Bourg",
+    "lat": 49.583337,
+    "lng": 1.144719,
+    "transactions": [
+      {
+        "date": "2022-02-07",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-24",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "5743d8e66408": {
+    "id": "5743d8e66408",
+    "label": "1653 RTE DU HAMEL, Fontaine-le-Bourg",
+    "lat": 49.584374,
+    "lng": 1.143376,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6b156d37c13": {
+    "id": "b6b156d37c13",
+    "label": "196 CHEM DES AUBEPINES, Fontaine-le-Bourg",
+    "lat": 49.584089,
+    "lng": 1.15107,
+    "transactions": [
+      {
+        "date": "2022-07-13",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a1f19eed2e2": {
+    "id": "5a1f19eed2e2",
+    "label": "204 CHEM DES AUBEPINES, Fontaine-le-Bourg",
+    "lat": 49.583869,
+    "lng": 1.151402,
+    "transactions": [
+      {
+        "date": "2023-06-26",
+        "priceEur": 66500,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1b162fcc2a5": {
+    "id": "a1b162fcc2a5",
+    "label": "1522 RUE DU HAMEL, Fontaine-le-Bourg",
+    "lat": 49.583337,
+    "lng": 1.144719,
+    "transactions": [
+      {
+        "date": "2024-08-13",
+        "priceEur": 220850,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  }
+}

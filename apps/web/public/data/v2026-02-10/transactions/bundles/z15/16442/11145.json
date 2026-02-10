@@ -1,0 +1,62 @@
+{
+  "e3ef8724e7b1": {
+    "id": "e3ef8724e7b1",
+    "label": "5006 BARVILLE, Cany-Barville",
+    "lat": 49.771959,
+    "lng": 0.640207,
+    "transactions": [
+      {
+        "date": "2021-04-12",
+        "priceEur": 1023037,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "a502d125abc5": {
+    "id": "a502d125abc5",
+    "label": "5008 BARVILLE, Cany-Barville",
+    "lat": 49.771859,
+    "lng": 0.638952,
+    "transactions": [
+      {
+        "date": "2021-04-12",
+        "priceEur": 1023037,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "dc8ea60796b8": {
+    "id": "dc8ea60796b8",
+    "label": "12 BARVILLE, Cany-Barville",
+    "lat": 49.769892,
+    "lng": 0.641289,
+    "transactions": [
+      {
+        "date": "2024-12-16",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "af1b5961fe79": {
+    "id": "af1b5961fe79",
+    "label": "16 LE BAS DE BARVILLE, Cany-Barville",
+    "lat": 49.770801,
+    "lng": 0.64291,
+    "transactions": [
+      {
+        "date": "2025-04-16",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

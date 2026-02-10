@@ -1,0 +1,24 @@
+{
+  "0a3c495109aa": {
+    "id": "0a3c495109aa",
+    "label": "5144 DOMAINE DE LA MASSOLETTE, Servian",
+    "lat": 43.396599,
+    "lng": 3.273652,
+    "transactions": [
+      {
+        "date": "2021-11-12",
+        "priceEur": 430000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-12",
+        "priceEur": 430000,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  }
+}

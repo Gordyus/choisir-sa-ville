@@ -1,0 +1,181 @@
+{
+  "fd0c4a6d18ac": {
+    "id": "fd0c4a6d18ac",
+    "label": "3 RUE DES FLANDRES, Zegerscappel",
+    "lat": 50.892143,
+    "lng": 2.384029,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 312000,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      }
+    ]
+  },
+  "83ae2fd39e33": {
+    "id": "83ae2fd39e33",
+    "label": "30 RUE DOMINIQUE DONCRE, Zegerscappel",
+    "lat": 50.889669,
+    "lng": 2.383263,
+    "transactions": [
+      {
+        "date": "2021-03-30",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "19049eaff78f": {
+    "id": "19049eaff78f",
+    "label": "26 RUE DOMINIQUE DONCRE, Zegerscappel",
+    "lat": 50.889989,
+    "lng": 2.383051,
+    "transactions": [
+      {
+        "date": "2021-07-01",
+        "priceEur": 225800,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "e4af83a2430c": {
+    "id": "e4af83a2430c",
+    "label": "19 RUE DES ANCIENNES MOTTES, Zegerscappel",
+    "lat": 50.892005,
+    "lng": 2.382583,
+    "transactions": [
+      {
+        "date": "2021-09-06",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "f10e3a158ce8": {
+    "id": "f10e3a158ce8",
+    "label": "36 RUE DOMINIQUE DONCRE, Zegerscappel",
+    "lat": 50.889536,
+    "lng": 2.384006,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 238700,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "6bb0dc1574f1": {
+    "id": "6bb0dc1574f1",
+    "label": "16 RUE DES ANCIENNES MOTTES, Zegerscappel",
+    "lat": 50.892105,
+    "lng": 2.383467,
+    "transactions": [
+      {
+        "date": "2022-03-12",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "17a121469cd1": {
+    "id": "17a121469cd1",
+    "label": "7 RUE DU MARECHAL LECLERC, Zegerscappel",
+    "lat": 50.889219,
+    "lng": 2.383708,
+    "transactions": [
+      {
+        "date": "2023-03-09",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-09",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-09",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f5e4165370f": {
+    "id": "4f5e4165370f",
+    "label": "6 RUE DES ANCIENNES MOTTES, Zegerscappel",
+    "lat": 50.891685,
+    "lng": 2.383703,
+    "transactions": [
+      {
+        "date": "2024-01-04",
+        "priceEur": 183350,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "96f7b6002830": {
+    "id": "96f7b6002830",
+    "label": "4 RUE DES ANCIENNES MOTTES, Zegerscappel",
+    "lat": 50.89161,
+    "lng": 2.383816,
+    "transactions": [
+      {
+        "date": "2024-03-08",
+        "priceEur": 132200,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f46b820a743": {
+    "id": "5f46b820a743",
+    "label": "20 RUE DES ANCIENNES MOTTES, Zegerscappel",
+    "lat": 50.89228,
+    "lng": 2.383377,
+    "transactions": [
+      {
+        "date": "2024-09-04",
+        "priceEur": 177700,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0ee77329baa": {
+    "id": "a0ee77329baa",
+    "label": "22 RUE DES ANCIENNES MOTTES, Zegerscappel",
+    "lat": 50.892356,
+    "lng": 2.383298,
+    "transactions": [
+      {
+        "date": "2025-02-24",
+        "priceEur": 184000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

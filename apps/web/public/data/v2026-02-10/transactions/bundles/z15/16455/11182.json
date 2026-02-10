@@ -1,0 +1,32 @@
+{
+  "74a0a81b4207": {
+    "id": "74a0a81b4207",
+    "label": "262 RUE SAINT AMAND, Rives-en-Seine",
+    "lat": 49.504219,
+    "lng": 0.784077,
+    "transactions": [
+      {
+        "date": "2022-05-13",
+        "priceEur": 189950,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ea7b40604be": {
+    "id": "0ea7b40604be",
+    "label": "257 RUE SAINT AMAND, Rives-en-Seine",
+    "lat": 49.504789,
+    "lng": 0.784533,
+    "transactions": [
+      {
+        "date": "2023-11-22",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

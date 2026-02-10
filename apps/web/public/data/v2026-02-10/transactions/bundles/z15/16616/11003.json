@@ -1,0 +1,32 @@
+{
+  "6da2834c6796": {
+    "id": "6da2834c6796",
+    "label": "1 VC MIDDEL WEG, Saint-Sylvestre-Cappel",
+    "lat": 50.769588,
+    "lng": 2.552009,
+    "transactions": [
+      {
+        "date": "2021-04-01",
+        "priceEur": 395000,
+        "typeLocal": "Maison",
+        "surfaceM2": 252,
+        "isVefa": false
+      }
+    ]
+  },
+  "bccdbaf055a9": {
+    "id": "bccdbaf055a9",
+    "label": "3 VC MIDDEL WEG, Saint-Sylvestre-Cappel",
+    "lat": 50.76569,
+    "lng": 2.554337,
+    "transactions": [
+      {
+        "date": "2024-01-22",
+        "priceEur": 492000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  }
+}

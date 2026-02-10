@@ -1,0 +1,32 @@
+{
+  "7f2d6797cd29": {
+    "id": "7f2d6797cd29",
+    "label": "98 RUE DE LA FORTERIE, Escobecques",
+    "lat": 50.626155,
+    "lng": 2.931575,
+    "transactions": [
+      {
+        "date": "2022-03-15",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 270,
+        "isVefa": false
+      }
+    ]
+  },
+  "3afa7ca5392c": {
+    "id": "3afa7ca5392c",
+    "label": "16 RUE DE LA CAZERIE, Ennetières-en-Weppes",
+    "lat": 50.631582,
+    "lng": 2.926786,
+    "transactions": [
+      {
+        "date": "2023-06-07",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

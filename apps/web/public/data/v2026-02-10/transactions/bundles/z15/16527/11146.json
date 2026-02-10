@@ -1,0 +1,39 @@
+{
+  "84283b6ef469": {
+    "id": "84283b6ef469",
+    "label": "5014 LE BOURG, Auvilliers",
+    "lat": 49.760611,
+    "lng": 1.577614,
+    "transactions": [
+      {
+        "date": "2023-09-29",
+        "priceEur": 99000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-26",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "a83fbab036e7": {
+    "id": "a83fbab036e7",
+    "label": "5010 LE BOURG, Auvilliers",
+    "lat": 49.760682,
+    "lng": 1.578308,
+    "transactions": [
+      {
+        "date": "2023-03-17",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  }
+}

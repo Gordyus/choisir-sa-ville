@@ -1,0 +1,47 @@
+{
+  "a9f1f7bb0a05": {
+    "id": "a9f1f7bb0a05",
+    "label": "5057 LE HAUT DE SAINT LEGER, Foucarmont",
+    "lat": 49.845067,
+    "lng": 1.572028,
+    "transactions": [
+      {
+        "date": "2022-06-07",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea38befbaa30": {
+    "id": "ea38befbaa30",
+    "label": "5497 LE HAUT DE SAINT LEGER, Foucarmont",
+    "lat": 49.844318,
+    "lng": 1.573316,
+    "transactions": [
+      {
+        "date": "2023-03-31",
+        "priceEur": 144000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "16d33a37c34f": {
+    "id": "16d33a37c34f",
+    "label": "5490 LE HAUT DE SAINT LEGER, Foucarmont",
+    "lat": 49.844343,
+    "lng": 1.574047,
+    "transactions": [
+      {
+        "date": "2024-06-21",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

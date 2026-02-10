@@ -1,0 +1,47 @@
+{
+  "5d583b6a94d1": {
+    "id": "5d583b6a94d1",
+    "label": "1011 RTE DU PETIT MELMONT, Roumare",
+    "lat": 49.517024,
+    "lng": 0.987852,
+    "transactions": [
+      {
+        "date": "2023-12-13",
+        "priceEur": 126000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "180d68bdca31": {
+    "id": "180d68bdca31",
+    "label": "46 CHE DES HETRES, Roumare",
+    "lat": 49.517864,
+    "lng": 0.988741,
+    "transactions": [
+      {
+        "date": "2025-04-07",
+        "priceEur": 279500,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "96dc8a042937": {
+    "id": "96dc8a042937",
+    "label": "242 RTE DU PETIT MELMONT, Roumare",
+    "lat": 49.516643,
+    "lng": 0.988729,
+    "transactions": [
+      {
+        "date": "2025-04-23",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  }
+}

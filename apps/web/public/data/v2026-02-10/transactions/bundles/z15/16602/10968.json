@@ -1,0 +1,32 @@
+{
+  "9b63323ae22a": {
+    "id": "9b63323ae22a",
+    "label": "32 PONT DE STEENDAM, Coudekerque-Branche",
+    "lat": 51.013447,
+    "lng": 2.401585,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 311000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb47724b3b31": {
+    "id": "fb47724b3b31",
+    "label": "200 RTE DE STEENDAM, Coudekerque-Branche",
+    "lat": 51.008695,
+    "lng": 2.401176,
+    "transactions": [
+      {
+        "date": "2022-04-04",
+        "priceEur": 580000,
+        "typeLocal": "Maison",
+        "surfaceM2": 205,
+        "isVefa": false
+      }
+    ]
+  }
+}

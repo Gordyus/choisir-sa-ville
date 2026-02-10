@@ -1,0 +1,84 @@
+{
+  "c79784ee86d8": {
+    "id": "c79784ee86d8",
+    "label": "1735 RTE DE BERIN, Olmet-et-Villecun",
+    "lat": 43.709407,
+    "lng": 3.306956,
+    "transactions": [
+      {
+        "date": "2021-05-04",
+        "priceEur": 448900,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-04",
+        "priceEur": 448900,
+        "typeLocal": "Maison",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "507fa1b9861d": {
+    "id": "507fa1b9861d",
+    "label": "3000 RTE D'OLMET, Olmet-et-Villecun",
+    "lat": 43.71125,
+    "lng": 3.307574,
+    "transactions": [
+      {
+        "date": "2023-02-16",
+        "priceEur": 245700,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5d119eb875e": {
+    "id": "d5d119eb875e",
+    "label": "9102F PUECH DE LA GARDIE, Lodève",
+    "lat": 43.708995,
+    "lng": 3.316243,
+    "transactions": [
+      {
+        "date": "2023-03-08",
+        "priceEur": 88000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac222606435e": {
+    "id": "ac222606435e",
+    "label": "605 CHE DES GARDIES, Lodève",
+    "lat": 43.70922,
+    "lng": 3.317241,
+    "transactions": [
+      {
+        "date": "2023-12-13",
+        "priceEur": 279200,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f5910bd5017": {
+    "id": "4f5910bd5017",
+    "label": "2800 RTE DU PUECH, Olmet-et-Villecun",
+    "lat": 43.707807,
+    "lng": 3.309812,
+    "transactions": [
+      {
+        "date": "2024-06-04",
+        "priceEur": 234964,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  }
+}

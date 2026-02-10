@@ -1,0 +1,47 @@
+{
+  "62cf355d7fd5": {
+    "id": "62cf355d7fd5",
+    "label": "21 RUE DE LA GARE, Ennetières-en-Weppes",
+    "lat": 50.649318,
+    "lng": 2.914567,
+    "transactions": [
+      {
+        "date": "2020-12-30",
+        "priceEur": 249000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "7907c603de8e": {
+    "id": "7907c603de8e",
+    "label": "23A RUE DE LA GARE, Ennetières-en-Weppes",
+    "lat": 50.64853,
+    "lng": 2.91287,
+    "transactions": [
+      {
+        "date": "2022-02-21",
+        "priceEur": 513000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "4169cdeefeda": {
+    "id": "4169cdeefeda",
+    "label": "27 RUE DE LA GARE, Ennetières-en-Weppes",
+    "lat": 50.648158,
+    "lng": 2.9118,
+    "transactions": [
+      {
+        "date": "2022-10-12",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  }
+}

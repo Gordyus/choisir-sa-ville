@@ -1,0 +1,77 @@
+{
+  "3e2127ea7969": {
+    "id": "3e2127ea7969",
+    "label": "20 RTE DE LA FORET, Millebosc",
+    "lat": 49.975524,
+    "lng": 1.488513,
+    "transactions": [
+      {
+        "date": "2021-06-16",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "a7a5e200e865": {
+    "id": "a7a5e200e865",
+    "label": "5 RUE DES CANADIENS, Millebosc",
+    "lat": 49.973234,
+    "lng": 1.491802,
+    "transactions": [
+      {
+        "date": "2022-04-11",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "0536a3252fb8": {
+    "id": "0536a3252fb8",
+    "label": "5076 LANGLE, Millebosc",
+    "lat": 49.976845,
+    "lng": 1.488161,
+    "transactions": [
+      {
+        "date": "2022-07-05",
+        "priceEur": 159750,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "30008dd55b3d": {
+    "id": "30008dd55b3d",
+    "label": "3B RTE DE LA FORET, Millebosc",
+    "lat": 49.976861,
+    "lng": 1.487538,
+    "transactions": [
+      {
+        "date": "2023-09-29",
+        "priceEur": 184400,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "220c722d790b": {
+    "id": "220c722d790b",
+    "label": "2 IMP LANGLE, Millebosc",
+    "lat": 49.977745,
+    "lng": 1.485468,
+    "transactions": [
+      {
+        "date": "2025-01-17",
+        "priceEur": 131430,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

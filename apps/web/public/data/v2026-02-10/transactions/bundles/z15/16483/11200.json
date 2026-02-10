@@ -1,0 +1,92 @@
+{
+  "4136ab10701b": {
+    "id": "4136ab10701b",
+    "label": "9100 RUE FELIX FAURE PROLONGEE, Saint-Étienne-du-Rouvray",
+    "lat": 49.377333,
+    "lng": 1.096864,
+    "transactions": [
+      {
+        "date": "2021-05-25",
+        "priceEur": 130500,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "972764fc096d": {
+    "id": "972764fc096d",
+    "label": "71 RUE FELIX FAURE, Saint-Étienne-du-Rouvray",
+    "lat": 49.377485,
+    "lng": 1.098428,
+    "transactions": [
+      {
+        "date": "2021-07-19",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "18b4d810f43c": {
+    "id": "18b4d810f43c",
+    "label": "9001 RUE FELIX FAURE PROLONGEE, Saint-Étienne-du-Rouvray",
+    "lat": 49.376835,
+    "lng": 1.0961,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 46000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "b65eeec963d9": {
+    "id": "b65eeec963d9",
+    "label": "107 RUE FELIX FAURE, Saint-Étienne-du-Rouvray",
+    "lat": 49.377245,
+    "lng": 1.096368,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 46000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "416eccc2739b": {
+    "id": "416eccc2739b",
+    "label": "111 RUE FELIX FAURE PROLONGEE, Saint-Étienne-du-Rouvray",
+    "lat": 49.377258,
+    "lng": 1.095992,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 46000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "73023a3e1827": {
+    "id": "73023a3e1827",
+    "label": "33 RUE DE LA HAIE GUILBOT, Saint-Étienne-du-Rouvray",
+    "lat": 49.37597,
+    "lng": 1.098313,
+    "transactions": [
+      {
+        "date": "2024-05-16",
+        "priceEur": 320500,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  }
+}

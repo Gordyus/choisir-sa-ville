@@ -1,0 +1,107 @@
+{
+  "9c95988925aa": {
+    "id": "9c95988925aa",
+    "label": "5128 LES BRUYERES, Cuy-Saint-Fiacre",
+    "lat": 49.510818,
+    "lng": 1.687402,
+    "transactions": [
+      {
+        "date": "2020-11-14",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "21500f8c14e3": {
+    "id": "21500f8c14e3",
+    "label": "5074 CUY LE VILLAGE, Cuy-Saint-Fiacre",
+    "lat": 49.510301,
+    "lng": 1.691595,
+    "transactions": [
+      {
+        "date": "2021-12-29",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "79b6313f7eb9": {
+    "id": "79b6313f7eb9",
+    "label": "12 RUE DES BRUYERES, Cuy-Saint-Fiacre",
+    "lat": 49.510322,
+    "lng": 1.6854,
+    "transactions": [
+      {
+        "date": "2022-07-20",
+        "priceEur": 290850,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf5e670c7593": {
+    "id": "cf5e670c7593",
+    "label": "85C RTE DE DAMPIERRE, Cuy-Saint-Fiacre",
+    "lat": 49.510891,
+    "lng": 1.686268,
+    "transactions": [
+      {
+        "date": "2023-01-05",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "18e0a2bd1624": {
+    "id": "18e0a2bd1624",
+    "label": "5240 LES BRUYERES, Cuy-Saint-Fiacre",
+    "lat": 49.510041,
+    "lng": 1.68836,
+    "transactions": [
+      {
+        "date": "2023-03-29",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "e859d7e8b5a6": {
+    "id": "e859d7e8b5a6",
+    "label": "23 RUE DES BRUYERES, Cuy-Saint-Fiacre",
+    "lat": 49.509264,
+    "lng": 1.681754,
+    "transactions": [
+      {
+        "date": "2023-09-15",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c05490b6962": {
+    "id": "8c05490b6962",
+    "label": "44 RUE ROGER CRESSENT, Cuy-Saint-Fiacre",
+    "lat": 49.510341,
+    "lng": 1.690155,
+    "transactions": [
+      {
+        "date": "2023-12-19",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  }
+}

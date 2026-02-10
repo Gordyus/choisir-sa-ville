@@ -1,0 +1,47 @@
+{
+  "1fb7400e94f4": {
+    "id": "1fb7400e94f4",
+    "label": "936 RTE DE ROUEN, Roncherolles-en-Bray",
+    "lat": 49.608586,
+    "lng": 1.501634,
+    "transactions": [
+      {
+        "date": "2020-12-04",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "8309c57afb7c": {
+    "id": "8309c57afb7c",
+    "label": "5084A RES RENE HOLLEVILLE, Roncherolles-en-Bray",
+    "lat": 49.60841,
+    "lng": 1.497749,
+    "transactions": [
+      {
+        "date": "2021-11-18",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "d7084f9b9c34": {
+    "id": "d7084f9b9c34",
+    "label": "5086 RES RENE HOLLEVILLE, Roncherolles-en-Bray",
+    "lat": 49.608923,
+    "lng": 1.497551,
+    "transactions": [
+      {
+        "date": "2021-10-01",
+        "priceEur": 22000,
+        "typeLocal": "Maison",
+        "surfaceM2": 28,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "143bcd085ca2": {
+    "id": "143bcd085ca2",
+    "label": "600 RUE D'ARELAUNE, Vatteville-la-Rue",
+    "lat": 49.494841,
+    "lng": 0.712504,
+    "transactions": [
+      {
+        "date": "2024-10-04",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd1f95195888": {
+    "id": "dd1f95195888",
+    "label": "518 RUE D'ARELAUNE, Vatteville-la-Rue",
+    "lat": 49.495585,
+    "lng": 0.712002,
+    "transactions": [
+      {
+        "date": "2025-03-11",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  }
+}

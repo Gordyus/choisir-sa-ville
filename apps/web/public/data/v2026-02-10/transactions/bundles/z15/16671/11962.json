@@ -1,0 +1,800 @@
+{
+  "56e7c9863ab4": {
+    "id": "56e7c9863ab4",
+    "label": "62 SEN DE BOUSSAGUES, Bédarieux",
+    "lat": 43.623125,
+    "lng": 3.155393,
+    "transactions": [
+      {
+        "date": "2023-04-18",
+        "priceEur": 258400,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-18",
+        "priceEur": 230150,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "32bda210cb41": {
+    "id": "32bda210cb41",
+    "label": "12 RUE DU VIADUC, Bédarieux",
+    "lat": 43.624811,
+    "lng": 3.1637,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 232750,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "97e5149ad521": {
+    "id": "97e5149ad521",
+    "label": "378 IMP ROUANELS, Bédarieux",
+    "lat": 43.621032,
+    "lng": 3.154423,
+    "transactions": [
+      {
+        "date": "2020-11-02",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "0fdbccddf87d": {
+    "id": "0fdbccddf87d",
+    "label": "2B RUE DES AIRES, Bédarieux",
+    "lat": 43.62028,
+    "lng": 3.16284,
+    "transactions": [
+      {
+        "date": "2025-01-22",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-09",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "2fd2b0a5af9e": {
+    "id": "2fd2b0a5af9e",
+    "label": "8 IMP DES TROENES, Bédarieux",
+    "lat": 43.623254,
+    "lng": 3.161487,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "b38e10988379": {
+    "id": "b38e10988379",
+    "label": "19B AV DE LODEVE, Bédarieux",
+    "lat": 43.621309,
+    "lng": 3.15786,
+    "transactions": [
+      {
+        "date": "2021-05-21",
+        "priceEur": 79000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-20",
+        "priceEur": 123000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ddd5bd36ec0": {
+    "id": "1ddd5bd36ec0",
+    "label": "9004 LA TRAUQUIERE, Bédarieux",
+    "lat": 43.625672,
+    "lng": 3.155364,
+    "transactions": [
+      {
+        "date": "2021-03-22",
+        "priceEur": 233850,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "26adea7ba9b6": {
+    "id": "26adea7ba9b6",
+    "label": "20 RUE RENE CASSIN, Bédarieux",
+    "lat": 43.626932,
+    "lng": 3.163958,
+    "transactions": [
+      {
+        "date": "2021-03-22",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "0592967d3784": {
+    "id": "0592967d3784",
+    "label": "16 RUE RENE CASSIN, Bédarieux",
+    "lat": 43.626338,
+    "lng": 3.16382,
+    "transactions": [
+      {
+        "date": "2021-04-01",
+        "priceEur": 850000,
+        "typeLocal": "Maison",
+        "surfaceM2": 270,
+        "isVefa": false
+      }
+    ]
+  },
+  "2896e949547a": {
+    "id": "2896e949547a",
+    "label": "9034F CHE DU LOUDERO, Bédarieux",
+    "lat": 43.624115,
+    "lng": 3.16345,
+    "transactions": [
+      {
+        "date": "2021-04-26",
+        "priceEur": 281460,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "0bd2a2557690": {
+    "id": "0bd2a2557690",
+    "label": "16 CITE LES CASTORS, Bédarieux",
+    "lat": 43.621763,
+    "lng": 3.159408,
+    "transactions": [
+      {
+        "date": "2021-05-05",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "cdda45a5948c": {
+    "id": "cdda45a5948c",
+    "label": "9016 LA TRAUQUIERE, Bédarieux",
+    "lat": 43.623895,
+    "lng": 3.158343,
+    "transactions": [
+      {
+        "date": "2021-04-27",
+        "priceEur": 69000,
+        "typeLocal": "Maison",
+        "surfaceM2": 26,
+        "isVefa": false
+      }
+    ]
+  },
+  "4542e308234b": {
+    "id": "4542e308234b",
+    "label": "127 IMP BAGATELLE, Bédarieux",
+    "lat": 43.62073,
+    "lng": 3.155142,
+    "transactions": [
+      {
+        "date": "2021-05-11",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f35fe784dbf": {
+    "id": "9f35fe784dbf",
+    "label": "44 RUE RENE CASSIN, Bédarieux",
+    "lat": 43.624714,
+    "lng": 3.16386,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 222000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "89825a31f5bc": {
+    "id": "89825a31f5bc",
+    "label": "13 RUE DU VIADUC, Bédarieux",
+    "lat": 43.624408,
+    "lng": 3.163141,
+    "transactions": [
+      {
+        "date": "2021-08-09",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed5cf5971af0": {
+    "id": "ed5cf5971af0",
+    "label": "47 AV DE LODEVE, Bédarieux",
+    "lat": 43.625518,
+    "lng": 3.161139,
+    "transactions": [
+      {
+        "date": "2021-07-19",
+        "priceEur": 238000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e6aa16b8e5a": {
+    "id": "9e6aa16b8e5a",
+    "label": "282 CHE DE BOUSSAGUES, Bédarieux",
+    "lat": 43.621587,
+    "lng": 3.156714,
+    "transactions": [
+      {
+        "date": "2021-09-15",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "30a14060b1b9": {
+    "id": "30a14060b1b9",
+    "label": "37 AV DE LODEVE, Bédarieux",
+    "lat": 43.623664,
+    "lng": 3.159581,
+    "transactions": [
+      {
+        "date": "2023-09-27",
+        "priceEur": 65000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-31",
+        "priceEur": 45000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-02",
+        "priceEur": 38000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-16",
+        "priceEur": 50000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-24",
+        "priceEur": 40000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-27",
+        "priceEur": 35500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "64e5321020ef": {
+    "id": "64e5321020ef",
+    "label": "115 CHE DU FIGARET, Bédarieux",
+    "lat": 43.627426,
+    "lng": 3.161665,
+    "transactions": [
+      {
+        "date": "2021-10-06",
+        "priceEur": 86000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd367e7763be": {
+    "id": "bd367e7763be",
+    "label": "34 AV DE LODEVE, Bédarieux",
+    "lat": 43.621973,
+    "lng": 3.159184,
+    "transactions": [
+      {
+        "date": "2021-10-08",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "5185548c5b48": {
+    "id": "5185548c5b48",
+    "label": "34B AV DE LODEVE, Bédarieux",
+    "lat": 43.622136,
+    "lng": 3.159179,
+    "transactions": [
+      {
+        "date": "2021-10-08",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "3dd0fb8e3462": {
+    "id": "3dd0fb8e3462",
+    "label": "14 CITE LES CASTORS, Bédarieux",
+    "lat": 43.62166,
+    "lng": 3.1596,
+    "transactions": [
+      {
+        "date": "2022-01-19",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3302bed706f": {
+    "id": "d3302bed706f",
+    "label": "7 RUE DES ARCHES, Bédarieux",
+    "lat": 43.625469,
+    "lng": 3.163567,
+    "transactions": [
+      {
+        "date": "2022-03-23",
+        "priceEur": 187000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "34fed6647ece": {
+    "id": "34fed6647ece",
+    "label": "19 RUE DU VIADUC, Bédarieux",
+    "lat": 43.624184,
+    "lng": 3.164028,
+    "transactions": [
+      {
+        "date": "2022-06-01",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6acc6922c08": {
+    "id": "d6acc6922c08",
+    "label": "21 LOT LES JARDINS DU VIADUC, Bédarieux",
+    "lat": 43.625295,
+    "lng": 3.163268,
+    "transactions": [
+      {
+        "date": "2022-07-08",
+        "priceEur": 202000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "c117dcc66740": {
+    "id": "c117dcc66740",
+    "label": "51 AV DE LODEVE, Bédarieux",
+    "lat": 43.62635,
+    "lng": 3.161528,
+    "transactions": [
+      {
+        "date": "2022-07-28",
+        "priceEur": 342000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3b9116a7eb2": {
+    "id": "a3b9116a7eb2",
+    "label": "53 SEN DE BOUSSAGUES, Bédarieux",
+    "lat": 43.622899,
+    "lng": 3.157034,
+    "transactions": [
+      {
+        "date": "2022-08-16",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "c94d1d4a6fa0": {
+    "id": "c94d1d4a6fa0",
+    "label": "8 LOT LES SABLOUS, Bédarieux",
+    "lat": 43.62318,
+    "lng": 3.164053,
+    "transactions": [
+      {
+        "date": "2022-09-16",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "d4cefcdd4a58": {
+    "id": "d4cefcdd4a58",
+    "label": "9001F LOT LES BERGES DE L ORB, Bédarieux",
+    "lat": 43.621458,
+    "lng": 3.160478,
+    "transactions": [
+      {
+        "date": "2022-09-21",
+        "priceEur": 264000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a1c3b335814": {
+    "id": "1a1c3b335814",
+    "label": "265 CHE DE BOUSSAGUES, Bédarieux",
+    "lat": 43.62109,
+    "lng": 3.155968,
+    "transactions": [
+      {
+        "date": "2022-10-19",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "3552c638715c": {
+    "id": "3552c638715c",
+    "label": "4 RUE DES ARCHES, Bédarieux",
+    "lat": 43.625579,
+    "lng": 3.162307,
+    "transactions": [
+      {
+        "date": "2022-10-19",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1589d7a4b2a": {
+    "id": "a1589d7a4b2a",
+    "label": "9005 LE CAUSSE DE BOUSSAGUES, Bédarieux",
+    "lat": 43.621808,
+    "lng": 3.155096,
+    "transactions": [
+      {
+        "date": "2022-11-09",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f365fd0216f": {
+    "id": "7f365fd0216f",
+    "label": "9004F LOT LES BERGES DE L ORB, Bédarieux",
+    "lat": 43.621667,
+    "lng": 3.160054,
+    "transactions": [
+      {
+        "date": "2022-12-05",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d323b450693": {
+    "id": "0d323b450693",
+    "label": "22 CITE LES CASTORS, Bédarieux",
+    "lat": 43.62193,
+    "lng": 3.159044,
+    "transactions": [
+      {
+        "date": "2023-01-13",
+        "priceEur": 161000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "807ed144e056": {
+    "id": "807ed144e056",
+    "label": "2 AV DU ROC DE BOUDENE, Bédarieux",
+    "lat": 43.62538,
+    "lng": 3.162755,
+    "transactions": [
+      {
+        "date": "2023-03-24",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "2799b8cfc4fd": {
+    "id": "2799b8cfc4fd",
+    "label": "1 RUE DE LA LAVANDE, Bédarieux",
+    "lat": 43.621516,
+    "lng": 3.158589,
+    "transactions": [
+      {
+        "date": "2023-05-12",
+        "priceEur": 98000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f99656e341c": {
+    "id": "9f99656e341c",
+    "label": "5 RUE DE LA LAVANDE, Bédarieux",
+    "lat": 43.621268,
+    "lng": 3.159002,
+    "transactions": [
+      {
+        "date": "2023-05-30",
+        "priceEur": 175000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-30",
+        "priceEur": 175000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e228d0529b0": {
+    "id": "7e228d0529b0",
+    "label": "3 RUE DES ARCHES, Bédarieux",
+    "lat": 43.625552,
+    "lng": 3.163105,
+    "transactions": [
+      {
+        "date": "2023-06-13",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "97f63210a6c3": {
+    "id": "97f63210a6c3",
+    "label": "11 RUE DE LA LAVANDE, Bédarieux",
+    "lat": 43.621036,
+    "lng": 3.15854,
+    "transactions": [
+      {
+        "date": "2023-07-10",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a246a482271": {
+    "id": "3a246a482271",
+    "label": "20 RUE DU VIADUC, Bédarieux",
+    "lat": 43.627299,
+    "lng": 3.163907,
+    "transactions": [
+      {
+        "date": "2023-10-05",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "0135f625ed15": {
+    "id": "0135f625ed15",
+    "label": "9 RUE RENE CASSIN, Bédarieux",
+    "lat": 43.620485,
+    "lng": 3.158395,
+    "transactions": [
+      {
+        "date": "2023-12-14",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a7faf1b719b": {
+    "id": "6a7faf1b719b",
+    "label": "43 AV DE LODEVE, Bédarieux",
+    "lat": 43.624695,
+    "lng": 3.16036,
+    "transactions": [
+      {
+        "date": "2024-01-16",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "47e74dd0ed31": {
+    "id": "47e74dd0ed31",
+    "label": "1 IMP DES TROENES, Bédarieux",
+    "lat": 43.622454,
+    "lng": 3.162035,
+    "transactions": [
+      {
+        "date": "2024-02-13",
+        "priceEur": 109500,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "a10b4e40cd5d": {
+    "id": "a10b4e40cd5d",
+    "label": "8 CITE LES CASTORS, Bédarieux",
+    "lat": 43.621347,
+    "lng": 3.159266,
+    "transactions": [
+      {
+        "date": "2024-03-18",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "3eed9017f814": {
+    "id": "3eed9017f814",
+    "label": "4 CHE DE DIO ET VALQUIERES, Bédarieux",
+    "lat": 43.620605,
+    "lng": 3.162942,
+    "transactions": [
+      {
+        "date": "2024-11-13",
+        "priceEur": 9000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "362901ea252c": {
+    "id": "362901ea252c",
+    "label": "7 CHE DU LOUDERO, Bédarieux",
+    "lat": 43.623599,
+    "lng": 3.162767,
+    "transactions": [
+      {
+        "date": "2025-01-20",
+        "priceEur": 185900,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "911f84040011": {
+    "id": "911f84040011",
+    "label": "24 AV DE LODEVE, Bédarieux",
+    "lat": 43.621131,
+    "lng": 3.15826,
+    "transactions": [
+      {
+        "date": "2025-02-11",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "c72f4e401036": {
+    "id": "c72f4e401036",
+    "label": "13 LOT LES SABLOUS, Bédarieux",
+    "lat": 43.623649,
+    "lng": 3.16323,
+    "transactions": [
+      {
+        "date": "2025-03-21",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "9aa14a295ab4": {
+    "id": "9aa14a295ab4",
+    "label": "29 RUE RENE CASSIN, Bédarieux",
+    "lat": 43.623735,
+    "lng": 3.160855,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 183000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

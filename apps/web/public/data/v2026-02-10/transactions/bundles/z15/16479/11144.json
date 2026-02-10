@@ -1,0 +1,47 @@
+{
+  "a769e6d5d341": {
+    "id": "a769e6d5d341",
+    "label": "22 RUE VERTE, Belmesnil",
+    "lat": 49.775972,
+    "lng": 1.051818,
+    "transactions": [
+      {
+        "date": "2020-07-21",
+        "priceEur": 88500,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "97bf7f24aabe": {
+    "id": "97bf7f24aabe",
+    "label": "11 RUE DU VIDE-BOUTEILLES, Belmesnil",
+    "lat": 49.776579,
+    "lng": 1.052981,
+    "transactions": [
+      {
+        "date": "2021-02-18",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "91c7695294f3": {
+    "id": "91c7695294f3",
+    "label": "61 RTE DE LA MER, Belmesnil",
+    "lat": 49.775035,
+    "lng": 1.046391,
+    "transactions": [
+      {
+        "date": "2022-07-25",
+        "priceEur": 416000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  }
+}

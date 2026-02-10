@@ -1,0 +1,187 @@
+{
+  "020f2fd39c56": {
+    "id": "020f2fd39c56",
+    "label": "24 AV DE LA GARE, Lamalou-les-Bains",
+    "lat": 43.588211,
+    "lng": 3.082124,
+    "transactions": [
+      {
+        "date": "2025-01-29",
+        "priceEur": 207875,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-19",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "86369cba9b6b": {
+    "id": "86369cba9b6b",
+    "label": "282 RTE DE LA VERNIERE, Les Aires",
+    "lat": 43.584141,
+    "lng": 3.085673,
+    "transactions": [
+      {
+        "date": "2021-07-02",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d53bfe3397e": {
+    "id": "0d53bfe3397e",
+    "label": "2 IMP DE SAINT PIERRE DE RHEDES, Lamalou-les-Bains",
+    "lat": 43.587434,
+    "lng": 3.080352,
+    "transactions": [
+      {
+        "date": "2022-06-02",
+        "priceEur": 87000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-14",
+        "priceEur": 81000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "24e319e7128a": {
+    "id": "24e319e7128a",
+    "label": "8 RUE DE LA CITERNE, Les Aires",
+    "lat": 43.581011,
+    "lng": 3.07662,
+    "transactions": [
+      {
+        "date": "2022-03-16",
+        "priceEur": 5800,
+        "typeLocal": "Maison",
+        "surfaceM2": 24,
+        "isVefa": false
+      }
+    ]
+  },
+  "b623afe87baf": {
+    "id": "b623afe87baf",
+    "label": "1 IMP DE SAINT PIERRE DE RHEDES, Lamalou-les-Bains",
+    "lat": 43.58721,
+    "lng": 3.082482,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 105300,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "07ce9b3330eb": {
+    "id": "07ce9b3330eb",
+    "label": "3 AV D ALSACE, Lamalou-les-Bains",
+    "lat": 43.587995,
+    "lng": 3.08309,
+    "transactions": [
+      {
+        "date": "2022-03-16",
+        "priceEur": 450000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-16",
+        "priceEur": 450000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "dba86f912732": {
+    "id": "dba86f912732",
+    "label": "227 RTE DE VIOLES, Les Aires",
+    "lat": 43.583104,
+    "lng": 3.08215,
+    "transactions": [
+      {
+        "date": "2023-01-16",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f0feda619db": {
+    "id": "7f0feda619db",
+    "label": "11 AV DE LA GARE, Lamalou-les-Bains",
+    "lat": 43.587911,
+    "lng": 3.080869,
+    "transactions": [
+      {
+        "date": "2023-12-18",
+        "priceEur": 350000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 18,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-18",
+        "priceEur": 350000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-18",
+        "priceEur": 350000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "b8f13c1b8fcd": {
+    "id": "b8f13c1b8fcd",
+    "label": "22 LOT LES BOIS DE COUBILLOU, Lamalou-les-Bains",
+    "lat": 43.588141,
+    "lng": 3.085298,
+    "transactions": [
+      {
+        "date": "2024-03-05",
+        "priceEur": 337850,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4e331ca0f80": {
+    "id": "b4e331ca0f80",
+    "label": "2 RUE DES BUCHERONS, Les Aires",
+    "lat": 43.580806,
+    "lng": 3.077112,
+    "transactions": [
+      {
+        "date": "2024-11-12",
+        "priceEur": 170895,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  }
+}

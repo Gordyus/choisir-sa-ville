@@ -1,0 +1,77 @@
+{
+  "d3ab58a13112": {
+    "id": "d3ab58a13112",
+    "label": "5016 VILLAGE, Les Ifs",
+    "lat": 49.886839,
+    "lng": 1.396682,
+    "transactions": [
+      {
+        "date": "2020-09-05",
+        "priceEur": 123345,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "fcb20ebe5ad1": {
+    "id": "fcb20ebe5ad1",
+    "label": "1B VILLAGE, Les Ifs",
+    "lat": 49.885552,
+    "lng": 1.396436,
+    "transactions": [
+      {
+        "date": "2021-03-17",
+        "priceEur": 164350,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "ce1b99ce8cf6": {
+    "id": "ce1b99ce8cf6",
+    "label": "5015 VILLAGE, Les Ifs",
+    "lat": 49.886508,
+    "lng": 1.396121,
+    "transactions": [
+      {
+        "date": "2021-05-05",
+        "priceEur": 176640,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "b06508f56329": {
+    "id": "b06508f56329",
+    "label": "22 LES VIEUX IFS, Wanchy-Capval",
+    "lat": 49.881216,
+    "lng": 1.405512,
+    "transactions": [
+      {
+        "date": "2024-06-21",
+        "priceEur": 56000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "206c740b2f08": {
+    "id": "206c740b2f08",
+    "label": "20B LES VIEUX IFS, Wanchy-Capval",
+    "lat": 49.881007,
+    "lng": 1.406182,
+    "transactions": [
+      {
+        "date": "2024-10-11",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  }
+}

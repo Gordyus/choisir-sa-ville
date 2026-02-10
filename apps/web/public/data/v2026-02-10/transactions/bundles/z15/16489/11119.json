@@ -1,0 +1,32 @@
+{
+  "d2b2e7121e7d": {
+    "id": "d2b2e7121e7d",
+    "label": "9 ALL JEANNE D ARC, Petit-Caux",
+    "lat": 49.951473,
+    "lng": 1.161285,
+    "transactions": [
+      {
+        "date": "2021-05-04",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "4683d25065c4": {
+    "id": "4683d25065c4",
+    "label": "5014 LES FORIERES DU NORD, Petit-Caux",
+    "lat": 49.951353,
+    "lng": 1.162497,
+    "transactions": [
+      {
+        "date": "2022-06-07",
+        "priceEur": 169500,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

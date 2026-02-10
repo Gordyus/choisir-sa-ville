@@ -1,0 +1,32 @@
+{
+  "6d40df6d6309": {
+    "id": "6d40df6d6309",
+    "label": "5030 HAMEAU DE LA ROSIERE, Daubeuf-Serville",
+    "lat": 49.709676,
+    "lng": 0.492079,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "58613a1ff6d7": {
+    "id": "58613a1ff6d7",
+    "label": "4 HAMEAU DE LA ROSIERE, Daubeuf-Serville",
+    "lat": 49.709676,
+    "lng": 0.492079,
+    "transactions": [
+      {
+        "date": "2024-06-06",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

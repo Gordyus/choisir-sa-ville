@@ -1,0 +1,32 @@
+{
+  "91598b810222": {
+    "id": "91598b810222",
+    "label": "3B RUE DE LA BROYE, Ennevelin",
+    "lat": 50.544455,
+    "lng": 3.110703,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "41d6b14640db": {
+    "id": "41d6b14640db",
+    "label": "10 RUE DE LA BROYE, Ennevelin",
+    "lat": 50.544794,
+    "lng": 3.111133,
+    "transactions": [
+      {
+        "date": "2024-10-28",
+        "priceEur": 570000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  }
+}

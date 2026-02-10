@@ -1,0 +1,32 @@
+{
+  "a056e3772bba": {
+    "id": "a056e3772bba",
+    "label": "5074 LE BAS DE L OURAILLE, La Vaupalière",
+    "lat": 49.482124,
+    "lng": 0.981261,
+    "transactions": [
+      {
+        "date": "2022-05-18",
+        "priceEur": 251300,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "31346902049e": {
+    "id": "31346902049e",
+    "label": "9001 RUE AUGUSTE PONTY, La Vaupalière",
+    "lat": 49.482172,
+    "lng": 0.982023,
+    "transactions": [
+      {
+        "date": "2023-01-06",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  }
+}

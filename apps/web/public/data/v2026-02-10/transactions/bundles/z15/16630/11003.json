@@ -1,0 +1,107 @@
+{
+  "6656865c203b": {
+    "id": "6656865c203b",
+    "label": "3 LE SCHAEXHEN, Saint-Jans-Cappel",
+    "lat": 50.766727,
+    "lng": 2.708662,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 161000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "be7fc47708c4": {
+    "id": "be7fc47708c4",
+    "label": "184 RTE DU PARC, Saint-Jans-Cappel",
+    "lat": 50.768618,
+    "lng": 2.711016,
+    "transactions": [
+      {
+        "date": "2020-09-28",
+        "priceEur": 196000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "6536d68ca71b": {
+    "id": "6536d68ca71b",
+    "label": "45 RUE AU BEURRE, Saint-Jans-Cappel",
+    "lat": 50.766393,
+    "lng": 2.708679,
+    "transactions": [
+      {
+        "date": "2020-10-14",
+        "priceEur": 334000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5bed1278076": {
+    "id": "c5bed1278076",
+    "label": "835 RUE DE BERTHEN, Saint-Jans-Cappel",
+    "lat": 50.766301,
+    "lng": 2.710902,
+    "transactions": [
+      {
+        "date": "2023-02-03",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "2be8da868900": {
+    "id": "2be8da868900",
+    "label": "4 LE SCHAEXHEN, Saint-Jans-Cappel",
+    "lat": 50.767081,
+    "lng": 2.708602,
+    "transactions": [
+      {
+        "date": "2023-05-30",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe4d95f45225": {
+    "id": "fe4d95f45225",
+    "label": "739 RUE DE BERTHEN, Saint-Jans-Cappel",
+    "lat": 50.766129,
+    "lng": 2.712057,
+    "transactions": [
+      {
+        "date": "2023-10-26",
+        "priceEur": 399900,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e166e452d1c": {
+    "id": "7e166e452d1c",
+    "label": "8 LE SCHAEXHEN, Saint-Jans-Cappel",
+    "lat": 50.767044,
+    "lng": 2.708478,
+    "transactions": [
+      {
+        "date": "2024-08-08",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  }
+}

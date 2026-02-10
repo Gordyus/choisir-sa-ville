@@ -1,0 +1,54 @@
+{
+  "8c3005cf227f": {
+    "id": "8c3005cf227f",
+    "label": "9 RUE DU GUE, Saint-Pierre-le-Vieux",
+    "lat": 49.855536,
+    "lng": 0.874907,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 354500,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6923b790ebb": {
+    "id": "c6923b790ebb",
+    "label": "17 RTE DE LA VALLEE DU DUN, Saint-Pierre-le-Vieux",
+    "lat": 49.852461,
+    "lng": 0.873645,
+    "transactions": [
+      {
+        "date": "2024-01-29",
+        "priceEur": 441300,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-18",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "46fe9a8d544a": {
+    "id": "46fe9a8d544a",
+    "label": "20 RTE DE LA VALLEE DU DUN, Saint-Pierre-le-Vieux",
+    "lat": 49.855317,
+    "lng": 0.877975,
+    "transactions": [
+      {
+        "date": "2021-11-29",
+        "priceEur": 118215,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  }
+}

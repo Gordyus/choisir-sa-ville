@@ -1,0 +1,90 @@
+{
+  "12eb1e4e64db": {
+    "id": "12eb1e4e64db",
+    "label": "11 RUE DE THE LEE, Fromelles",
+    "lat": 50.603978,
+    "lng": 2.857235,
+    "transactions": [
+      {
+        "date": "2023-10-18",
+        "priceEur": 195030,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "adde00d435c4": {
+    "id": "adde00d435c4",
+    "label": "9 RUE DE THE LEE, Fromelles",
+    "lat": 50.603937,
+    "lng": 2.857386,
+    "transactions": [
+      {
+        "date": "2025-02-05",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-19",
+        "priceEur": 195030,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "d41f2f5e4724": {
+    "id": "d41f2f5e4724",
+    "label": "16 RUE DE LA JOIRIE, Fromelles",
+    "lat": 50.603499,
+    "lng": 2.864601,
+    "transactions": [
+      {
+        "date": "2024-01-30",
+        "priceEur": 359000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "e543c3587b34": {
+    "id": "e543c3587b34",
+    "label": "14 RUE DE LA JOIRIE, Fromelles",
+    "lat": 50.604024,
+    "lng": 2.864246,
+    "transactions": [
+      {
+        "date": "2025-02-21",
+        "priceEur": 561000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-21",
+        "priceEur": 561000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-21",
+        "priceEur": 561000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-21",
+        "priceEur": 561000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  }
+}

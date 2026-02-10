@@ -1,0 +1,69 @@
+{
+  "b2a6ac70ca72": {
+    "id": "b2a6ac70ca72",
+    "label": "4 LE FLOQUET, Cailly",
+    "lat": 49.59271,
+    "lng": 1.239219,
+    "transactions": [
+      {
+        "date": "2021-11-02",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "3df290d35b7d": {
+    "id": "3df290d35b7d",
+    "label": "23 LE FLOQUET, Cailly",
+    "lat": 49.591824,
+    "lng": 1.238605,
+    "transactions": [
+      {
+        "date": "2021-02-26",
+        "priceEur": 114000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "1712dca10735": {
+    "id": "1712dca10735",
+    "label": "19 LE FLOQUET, Cailly",
+    "lat": 49.591379,
+    "lng": 1.238369,
+    "transactions": [
+      {
+        "date": "2024-07-12",
+        "priceEur": 151619.44,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-28",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "65ba73a84e82": {
+    "id": "65ba73a84e82",
+    "label": "3 LE FLOQUET, Cailly",
+    "lat": 49.589996,
+    "lng": 1.237451,
+    "transactions": [
+      {
+        "date": "2024-06-26",
+        "priceEur": 208000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

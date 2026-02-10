@@ -1,0 +1,54 @@
+{
+  "919f4cab9727": {
+    "id": "919f4cab9727",
+    "label": "611 RTE DE SAINT OMER, Bissezeele",
+    "lat": 50.911926,
+    "lng": 2.404666,
+    "transactions": [
+      {
+        "date": "2020-11-12",
+        "priceEur": 187000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "0405e41c2cbc": {
+    "id": "0405e41c2cbc",
+    "label": "28 RUE DES FLEURS, Bissezeele",
+    "lat": 50.911861,
+    "lng": 2.404232,
+    "transactions": [
+      {
+        "date": "2024-01-22",
+        "priceEur": 443250,
+        "typeLocal": "Maison",
+        "surfaceM2": 201,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-25",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "715cf9d3bd6b": {
+    "id": "715cf9d3bd6b",
+    "label": "66 RUE DES FLEURS, Bissezeele",
+    "lat": 50.912075,
+    "lng": 2.403726,
+    "transactions": [
+      {
+        "date": "2024-08-12",
+        "priceEur": 237500,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  }
+}

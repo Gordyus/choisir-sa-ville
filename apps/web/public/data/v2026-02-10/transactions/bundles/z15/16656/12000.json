@@ -1,0 +1,31 @@
+{
+  "3d6617b6ed5c": {
+    "id": "3d6617b6ed5c",
+    "label": "6574 DOMAINE PAIN DE SUCRE, Capestang",
+    "lat": 43.321017,
+    "lng": 2.995722,
+    "transactions": [
+      {
+        "date": "2022-11-28",
+        "priceEur": 1030000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-28",
+        "priceEur": 1030000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-28",
+        "priceEur": 1030000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

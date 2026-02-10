@@ -1,0 +1,99 @@
+{
+  "dda154722663": {
+    "id": "dda154722663",
+    "label": "5070 FOSSE A HOUSSAILLE, Rieux",
+    "lat": 49.926737,
+    "lng": 1.583072,
+    "transactions": [
+      {
+        "date": "2020-09-10",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "9738e7124f08": {
+    "id": "9738e7124f08",
+    "label": "5069 FOSSE A HOUSSAILLE, Rieux",
+    "lat": 49.929542,
+    "lng": 1.58324,
+    "transactions": [
+      {
+        "date": "2020-09-04",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "11db0204e0a5": {
+    "id": "11db0204e0a5",
+    "label": "41 RUE DU POTEAU MAITRE JEAN, Rieux",
+    "lat": 49.928577,
+    "lng": 1.58335,
+    "transactions": [
+      {
+        "date": "2024-04-12",
+        "priceEur": 220200,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-25",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "8700412370c2": {
+    "id": "8700412370c2",
+    "label": "5070 HAMEAU DU CORNET, Rieux",
+    "lat": 49.92928,
+    "lng": 1.582559,
+    "transactions": [
+      {
+        "date": "2022-09-23",
+        "priceEur": 74000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "a592a933757d": {
+    "id": "a592a933757d",
+    "label": "14B RUE DU POTEAU MAITRE JEAN, Rieux",
+    "lat": 49.928441,
+    "lng": 1.582248,
+    "transactions": [
+      {
+        "date": "2022-12-12",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "da90fe2c2981": {
+    "id": "da90fe2c2981",
+    "label": "47 RUE DU POTEAU MAITRE JEAN, Rieux",
+    "lat": 49.927501,
+    "lng": 1.583144,
+    "transactions": [
+      {
+        "date": "2023-11-15",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  }
+}

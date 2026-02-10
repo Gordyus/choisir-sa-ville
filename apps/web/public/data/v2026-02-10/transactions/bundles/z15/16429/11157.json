@@ -1,0 +1,32 @@
+{
+  "26390721a5cd": {
+    "id": "26390721a5cd",
+    "label": "131 CHE DE LA CATHERINE, Limpiville",
+    "lat": 49.688396,
+    "lng": 0.496878,
+    "transactions": [
+      {
+        "date": "2021-01-19",
+        "priceEur": 297050,
+        "typeLocal": "Maison",
+        "surfaceM2": 174,
+        "isVefa": false
+      }
+    ]
+  },
+  "53ecfd94c7a9": {
+    "id": "53ecfd94c7a9",
+    "label": "713 RUE FAUCON, Limpiville",
+    "lat": 49.687264,
+    "lng": 0.50096,
+    "transactions": [
+      {
+        "date": "2022-01-13",
+        "priceEur": 206100,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  }
+}

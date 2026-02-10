@@ -1,0 +1,32 @@
+{
+  "701fdc42deee": {
+    "id": "701fdc42deee",
+    "label": "160 RTE DE VEULES, Autigny",
+    "lat": 49.809505,
+    "lng": 0.856112,
+    "transactions": [
+      {
+        "date": "2023-12-18",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "17a3f22c72b3": {
+    "id": "17a3f22c72b3",
+    "label": "87 RUE DES CYTISES, Autigny",
+    "lat": 49.809185,
+    "lng": 0.854999,
+    "transactions": [
+      {
+        "date": "2024-09-30",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

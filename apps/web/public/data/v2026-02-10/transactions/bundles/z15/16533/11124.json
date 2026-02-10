@@ -1,0 +1,24 @@
+{
+  "ff4ff1e373dc": {
+    "id": "ff4ff1e373dc",
+    "label": "5894 HAMEAU DE GREMONTMESNIL, Blangy-sur-Bresle",
+    "lat": 49.922229,
+    "lng": 1.644294,
+    "transactions": [
+      {
+        "date": "2022-06-20",
+        "priceEur": 238000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-02",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  }
+}

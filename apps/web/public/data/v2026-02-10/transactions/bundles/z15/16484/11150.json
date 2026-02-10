@@ -1,0 +1,32 @@
+{
+  "f3d630ac55f3": {
+    "id": "f3d630ac55f3",
+    "label": "5102 QUEUE DE LONGTUIT, Heugleville-sur-Scie",
+    "lat": 49.732594,
+    "lng": 1.102197,
+    "transactions": [
+      {
+        "date": "2021-09-07",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "019d3e811746": {
+    "id": "019d3e811746",
+    "label": "1289 RTE DE LA VALLEE, Heugleville-sur-Scie",
+    "lat": 49.732347,
+    "lng": 1.102153,
+    "transactions": [
+      {
+        "date": "2022-04-14",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  }
+}

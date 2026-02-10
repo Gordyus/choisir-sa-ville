@@ -1,0 +1,54 @@
+{
+  "898c31c10c3a": {
+    "id": "898c31c10c3a",
+    "label": "91 RUE CLAUDE DEBUSSY, Saint-Eustache-la-Forêt",
+    "lat": 49.553748,
+    "lng": 0.454794,
+    "transactions": [
+      {
+        "date": "2024-10-18",
+        "priceEur": 207400,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-09",
+        "priceEur": 191000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd8b3fcae372": {
+    "id": "bd8b3fcae372",
+    "label": "5372 FERME DE LA BARRE, Saint-Eustache-la-Forêt",
+    "lat": 49.558159,
+    "lng": 0.460967,
+    "transactions": [
+      {
+        "date": "2024-05-31",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "572b4bb1bca3": {
+    "id": "572b4bb1bca3",
+    "label": "24 RUE ANDRE CAPLET, Saint-Eustache-la-Forêt",
+    "lat": 49.553852,
+    "lng": 0.452463,
+    "transactions": [
+      {
+        "date": "2025-02-14",
+        "priceEur": 241800,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "b9a1d655262c": {
+    "id": "b9a1d655262c",
+    "label": "282 MIQUETOT, Angerville-la-Martel",
+    "lat": 49.762413,
+    "lng": 0.481615,
+    "transactions": [
+      {
+        "date": "2021-05-25",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "36f27c60d86a": {
+    "id": "36f27c60d86a",
+    "label": "263 IMP DES CHARMES, Angerville-la-Martel",
+    "lat": 49.760522,
+    "lng": 0.481772,
+    "transactions": [
+      {
+        "date": "2021-02-02",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "6c996169220f": {
+    "id": "6c996169220f",
+    "label": "283 RTE D ALVENTOT, Angerville-la-Martel",
+    "lat": 49.762016,
+    "lng": 0.481239,
+    "transactions": [
+      {
+        "date": "2022-05-06",
+        "priceEur": 305000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "7dfdbabf2eda": {
+    "id": "7dfdbabf2eda",
+    "label": "268 MIQUETOT, Angerville-la-Martel",
+    "lat": 49.760672,
+    "lng": 0.483058,
+    "transactions": [
+      {
+        "date": "2023-06-28",
+        "priceEur": 337000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  }
+}

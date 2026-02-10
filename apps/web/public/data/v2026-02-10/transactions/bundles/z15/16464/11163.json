@@ -1,0 +1,114 @@
+{
+  "d7498f364d6a": {
+    "id": "d7498f364d6a",
+    "label": "630 RUE DU MARECHAL BIRON, Saint-Martin-aux-Arbres",
+    "lat": 49.645832,
+    "lng": 0.886033,
+    "transactions": [
+      {
+        "date": "2022-12-23",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-05",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "aff1da2c8d40": {
+    "id": "aff1da2c8d40",
+    "label": "25 RUE DES CAMBRETTES, Auzouville-l'Esneval",
+    "lat": 49.63971,
+    "lng": 0.885065,
+    "transactions": [
+      {
+        "date": "2021-03-20",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d092d84fd38": {
+    "id": "7d092d84fd38",
+    "label": "3 RUE DES CAMBRETTES, Auzouville-l'Esneval",
+    "lat": 49.642727,
+    "lng": 0.88596,
+    "transactions": [
+      {
+        "date": "2022-08-17",
+        "priceEur": 267500,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "8611a6c23cc9": {
+    "id": "8611a6c23cc9",
+    "label": "7 RUE DES CAMBRETTES, Auzouville-l'Esneval",
+    "lat": 49.64176,
+    "lng": 0.885808,
+    "transactions": [
+      {
+        "date": "2022-10-21",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "6fab81f9d32b": {
+    "id": "6fab81f9d32b",
+    "label": "16 RUE DES CAMBRETTES, Auzouville-l'Esneval",
+    "lat": 49.641633,
+    "lng": 0.886143,
+    "transactions": [
+      {
+        "date": "2023-03-31",
+        "priceEur": 177000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "2032e2a877db": {
+    "id": "2032e2a877db",
+    "label": "2 RTE DE MOTTEVILLE, Auzouville-l'Esneval",
+    "lat": 49.639434,
+    "lng": 0.884858,
+    "transactions": [
+      {
+        "date": "2024-07-08",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd641803ba18": {
+    "id": "dd641803ba18",
+    "label": "9B RUE DES CAMBRETTES, Auzouville-l'Esneval",
+    "lat": 49.641545,
+    "lng": 0.885585,
+    "transactions": [
+      {
+        "date": "2024-08-02",
+        "priceEur": 189500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

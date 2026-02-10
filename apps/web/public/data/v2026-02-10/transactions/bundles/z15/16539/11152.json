@@ -1,0 +1,77 @@
+{
+  "37adc82e3942": {
+    "id": "37adc82e3942",
+    "label": "5073 HAUDRICOURT AU BOIS, Haudricourt",
+    "lat": 49.719603,
+    "lng": 1.704285,
+    "transactions": [
+      {
+        "date": "2020-10-28",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "d1406666739d": {
+    "id": "d1406666739d",
+    "label": "5071 HAUDRICOURT AU BOIS, Haudricourt",
+    "lat": 49.721181,
+    "lng": 1.703723,
+    "transactions": [
+      {
+        "date": "2021-09-28",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "6762c8739cea": {
+    "id": "6762c8739cea",
+    "label": "5070 HAUDRICOURT AU BOIS, Haudricourt",
+    "lat": 49.721294,
+    "lng": 1.70411,
+    "transactions": [
+      {
+        "date": "2022-06-16",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "db06add79377": {
+    "id": "db06add79377",
+    "label": "5072 HAUDRICOURT AU BOIS, Haudricourt",
+    "lat": 49.72076,
+    "lng": 1.704569,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 22000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "868212d43e9d": {
+    "id": "868212d43e9d",
+    "label": "1300 RTE D HAUDRICOURT AUX BOIS, Haudricourt",
+    "lat": 49.722618,
+    "lng": 1.705284,
+    "transactions": [
+      {
+        "date": "2024-01-05",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

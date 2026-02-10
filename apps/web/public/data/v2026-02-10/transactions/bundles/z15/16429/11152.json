@@ -1,0 +1,32 @@
+{
+  "9bf2818a3e53": {
+    "id": "9bf2818a3e53",
+    "label": "12 RUE AUGUSTE MALLET, Thiergeville",
+    "lat": 49.719631,
+    "lng": 0.49587,
+    "transactions": [
+      {
+        "date": "2023-11-29",
+        "priceEur": 172500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "0967b3344793": {
+    "id": "0967b3344793",
+    "label": "20 RUE AUGUSTE MALLET, Thiergeville",
+    "lat": 49.720714,
+    "lng": 0.494935,
+    "transactions": [
+      {
+        "date": "2025-01-23",
+        "priceEur": 208700,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  }
+}

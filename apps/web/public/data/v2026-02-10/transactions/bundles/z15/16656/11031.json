@@ -1,0 +1,601 @@
+{
+  "d49957eab82c": {
+    "id": "d49957eab82c",
+    "label": "9 RUE DU GENERAL DE GAULLE, Houplin-Ancoisne",
+    "lat": 50.575398,
+    "lng": 2.99117,
+    "transactions": [
+      {
+        "date": "2023-08-09",
+        "priceEur": 298250,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-01",
+        "priceEur": 342770,
+        "typeLocal": "Maison",
+        "surfaceM2": 175,
+        "isVefa": false
+      }
+    ]
+  },
+  "c8a246503673": {
+    "id": "c8a246503673",
+    "label": "9 RUE DE NOYELLES, Houplin-Ancoisne",
+    "lat": 50.574063,
+    "lng": 2.996548,
+    "transactions": [
+      {
+        "date": "2020-09-17",
+        "priceEur": 162500,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "861765333ea6": {
+    "id": "861765333ea6",
+    "label": "13 RUE LEO LAGRANGE, Houplin-Ancoisne",
+    "lat": 50.573858,
+    "lng": 2.997665,
+    "transactions": [
+      {
+        "date": "2020-11-26",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6b99c5b7aac": {
+    "id": "d6b99c5b7aac",
+    "label": "33 RUE DES PETUNIAS, Houplin-Ancoisne",
+    "lat": 50.574171,
+    "lng": 2.998561,
+    "transactions": [
+      {
+        "date": "2021-01-15",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "e3adaeeff150": {
+    "id": "e3adaeeff150",
+    "label": "15 RUE LEO LAGRANGE, Houplin-Ancoisne",
+    "lat": 50.573803,
+    "lng": 2.997745,
+    "transactions": [
+      {
+        "date": "2021-03-01",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "41b29f8d7380": {
+    "id": "41b29f8d7380",
+    "label": "1 RUE JEAN MOULIN, Houplin-Ancoisne",
+    "lat": 50.573539,
+    "lng": 2.994915,
+    "transactions": [
+      {
+        "date": "2021-06-01",
+        "priceEur": 292120,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "530b2e49439f": {
+    "id": "530b2e49439f",
+    "label": "14 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.574751,
+    "lng": 2.993057,
+    "transactions": [
+      {
+        "date": "2021-08-02",
+        "priceEur": 355000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "a4c39592766f": {
+    "id": "a4c39592766f",
+    "label": "16 RUE DES PETUNIAS, Houplin-Ancoisne",
+    "lat": 50.574419,
+    "lng": 2.998689,
+    "transactions": [
+      {
+        "date": "2021-09-22",
+        "priceEur": 260250,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4f82aafd007": {
+    "id": "c4f82aafd007",
+    "label": "7 RUE JEAN MOULIN, Houplin-Ancoisne",
+    "lat": 50.573049,
+    "lng": 2.993217,
+    "transactions": [
+      {
+        "date": "2021-09-29",
+        "priceEur": 265500,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "afc9399352f1": {
+    "id": "afc9399352f1",
+    "label": "5 RUE DU MARAIS, Houplin-Ancoisne",
+    "lat": 50.575894,
+    "lng": 2.98896,
+    "transactions": [
+      {
+        "date": "2021-10-20",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "5fd42c676c13": {
+    "id": "5fd42c676c13",
+    "label": "23 RUE DE NOYELLES, Houplin-Ancoisne",
+    "lat": 50.574614,
+    "lng": 2.997175,
+    "transactions": [
+      {
+        "date": "2021-11-22",
+        "priceEur": 233000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "48ffd8e69d1f": {
+    "id": "48ffd8e69d1f",
+    "label": "22 RUE DU GENERAL DE GAULLE, Houplin-Ancoisne",
+    "lat": 50.57604,
+    "lng": 2.991248,
+    "transactions": [
+      {
+        "date": "2021-11-30",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "a84bd62d7411": {
+    "id": "a84bd62d7411",
+    "label": "5 RES DU VERGER, Houplin-Ancoisne",
+    "lat": 50.575129,
+    "lng": 2.991302,
+    "transactions": [
+      {
+        "date": "2021-12-03",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "7dcdb8624580": {
+    "id": "7dcdb8624580",
+    "label": "5 RUE LEO LAGRANGE, Houplin-Ancoisne",
+    "lat": 50.573934,
+    "lng": 2.99721,
+    "transactions": [
+      {
+        "date": "2022-01-17",
+        "priceEur": 237500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d73f6c51a3d": {
+    "id": "5d73f6c51a3d",
+    "label": "9 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.573064,
+    "lng": 2.996169,
+    "transactions": [
+      {
+        "date": "2022-03-29",
+        "priceEur": 176000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "48f40e311373": {
+    "id": "48f40e311373",
+    "label": "29 RUE DU MARAIS, Houplin-Ancoisne",
+    "lat": 50.575412,
+    "lng": 2.988774,
+    "transactions": [
+      {
+        "date": "2022-03-30",
+        "priceEur": 217200,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf9f67c9f12b": {
+    "id": "bf9f67c9f12b",
+    "label": "25 RUE DE NOYELLES, Houplin-Ancoisne",
+    "lat": 50.574674,
+    "lng": 2.997261,
+    "transactions": [
+      {
+        "date": "2022-04-20",
+        "priceEur": 273000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "084da11a549a": {
+    "id": "084da11a549a",
+    "label": "9B RUE DU GENERAL DE GAULLE, Houplin-Ancoisne",
+    "lat": 50.575809,
+    "lng": 2.990223,
+    "transactions": [
+      {
+        "date": "2022-04-11",
+        "priceEur": 511781.2,
+        "typeLocal": "Maison",
+        "surfaceM2": 177,
+        "isVefa": false
+      }
+    ]
+  },
+  "a240a6f854e4": {
+    "id": "a240a6f854e4",
+    "label": "7 RES DU VERGER, Houplin-Ancoisne",
+    "lat": 50.575161,
+    "lng": 2.991154,
+    "transactions": [
+      {
+        "date": "2022-07-13",
+        "priceEur": 425000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ffe266d3cc5": {
+    "id": "2ffe266d3cc5",
+    "label": "18 PL LEON BLUM, Houplin-Ancoisne",
+    "lat": 50.574835,
+    "lng": 2.988324,
+    "transactions": [
+      {
+        "date": "2022-08-01",
+        "priceEur": 129000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3b430c8e146": {
+    "id": "c3b430c8e146",
+    "label": "27 RUE DU MARAIS, Houplin-Ancoisne",
+    "lat": 50.575256,
+    "lng": 2.988432,
+    "transactions": [
+      {
+        "date": "2022-09-07",
+        "priceEur": 259200,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0150c2c8abd": {
+    "id": "c0150c2c8abd",
+    "label": "15 RUE DE NOYELLES, Houplin-Ancoisne",
+    "lat": 50.574299,
+    "lng": 2.996796,
+    "transactions": [
+      {
+        "date": "2022-10-04",
+        "priceEur": 60383,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "2af646ef998e": {
+    "id": "2af646ef998e",
+    "label": "12 RUE JEAN MOULIN, Houplin-Ancoisne",
+    "lat": 50.573108,
+    "lng": 2.993607,
+    "transactions": [
+      {
+        "date": "2023-01-09",
+        "priceEur": 266400,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "48b15243f266": {
+    "id": "48b15243f266",
+    "label": "6 RUE JEAN MOULIN, Houplin-Ancoisne",
+    "lat": 50.57329,
+    "lng": 2.99384,
+    "transactions": [
+      {
+        "date": "2025-04-28",
+        "priceEur": 321200,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-09",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "dff60febc3b7": {
+    "id": "dff60febc3b7",
+    "label": "29 RUE DES PETUNIAS, Houplin-Ancoisne",
+    "lat": 50.574078,
+    "lng": 2.998402,
+    "transactions": [
+      {
+        "date": "2023-06-28",
+        "priceEur": 245550,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff8b2312a645": {
+    "id": "ff8b2312a645",
+    "label": "2 RUE DE NOYELLES, Houplin-Ancoisne",
+    "lat": 50.573393,
+    "lng": 2.996556,
+    "transactions": [
+      {
+        "date": "2023-08-01",
+        "priceEur": 589000,
+        "typeLocal": "Maison",
+        "surfaceM2": 245,
+        "isVefa": false
+      }
+    ]
+  },
+  "7de1c7193b3b": {
+    "id": "7de1c7193b3b",
+    "label": "18 RUE JEAN MOULIN, Houplin-Ancoisne",
+    "lat": 50.573302,
+    "lng": 2.993416,
+    "transactions": [
+      {
+        "date": "2023-09-19",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "6baf4ba7eb2f": {
+    "id": "6baf4ba7eb2f",
+    "label": "2 RUE DU HEM, Houplin-Ancoisne",
+    "lat": 50.576209,
+    "lng": 2.990752,
+    "transactions": [
+      {
+        "date": "2023-10-11",
+        "priceEur": 242000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "86bda2264557": {
+    "id": "86bda2264557",
+    "label": "1 RES DU VERGER, Houplin-Ancoisne",
+    "lat": 50.574979,
+    "lng": 2.99147,
+    "transactions": [
+      {
+        "date": "2023-09-22",
+        "priceEur": 338050,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee89ee1eeff4": {
+    "id": "ee89ee1eeff4",
+    "label": "18 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.574496,
+    "lng": 2.991943,
+    "transactions": [
+      {
+        "date": "2023-11-24",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d8817cab55e": {
+    "id": "7d8817cab55e",
+    "label": "17 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.573266,
+    "lng": 2.995604,
+    "transactions": [
+      {
+        "date": "2024-02-09",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "6668a5ed77d9": {
+    "id": "6668a5ed77d9",
+    "label": "24 RUE DE NOYELLES, Houplin-Ancoisne",
+    "lat": 50.574923,
+    "lng": 2.998199,
+    "transactions": [
+      {
+        "date": "2024-05-23",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "a50080b6e80f": {
+    "id": "a50080b6e80f",
+    "label": "7 RUE DU GENERAL DE GAULLE, Houplin-Ancoisne",
+    "lat": 50.575565,
+    "lng": 2.991661,
+    "transactions": [
+      {
+        "date": "2024-06-05",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a26174f5279": {
+    "id": "7a26174f5279",
+    "label": "45 RUE JEAN JAURES, Houplin-Ancoisne",
+    "lat": 50.574427,
+    "lng": 2.992504,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "37efd7aa9a1d": {
+    "id": "37efd7aa9a1d",
+    "label": "22 RUE JEAN MOULIN, Houplin-Ancoisne",
+    "lat": 50.57373,
+    "lng": 2.993291,
+    "transactions": [
+      {
+        "date": "2024-07-22",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e851437c9fd": {
+    "id": "7e851437c9fd",
+    "label": "11 RUE DU GENERAL DE GAULLE, Houplin-Ancoisne",
+    "lat": 50.576103,
+    "lng": 2.990061,
+    "transactions": [
+      {
+        "date": "2024-08-20",
+        "priceEur": 314400,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "f83d45833446": {
+    "id": "f83d45833446",
+    "label": "3 RUE JEAN MOULIN, Houplin-Ancoisne",
+    "lat": 50.57332,
+    "lng": 2.994685,
+    "transactions": [
+      {
+        "date": "2024-12-23",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "d9265cfe09e7": {
+    "id": "d9265cfe09e7",
+    "label": "13 RUE DU GENERAL DE GAULLE, Houplin-Ancoisne",
+    "lat": 50.576179,
+    "lng": 2.989924,
+    "transactions": [
+      {
+        "date": "2024-12-31",
+        "priceEur": 248060,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c894378a0b9": {
+    "id": "5c894378a0b9",
+    "label": "13C RUE DU MARAIS, Houplin-Ancoisne",
+    "lat": 50.575528,
+    "lng": 2.990308,
+    "transactions": [
+      {
+        "date": "2025-06-16",
+        "priceEur": 493900,
+        "typeLocal": "Maison",
+        "surfaceM2": 164,
+        "isVefa": false
+      }
+    ]
+  }
+}

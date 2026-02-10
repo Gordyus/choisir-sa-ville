@@ -1,0 +1,62 @@
+{
+  "237d0041ba0e": {
+    "id": "237d0041ba0e",
+    "label": "17 RTE DE LA HOUSSAYE BERANGER, Lucy",
+    "lat": 49.780843,
+    "lng": 1.452405,
+    "transactions": [
+      {
+        "date": "2020-10-23",
+        "priceEur": 190800,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "c55de68e05ad": {
+    "id": "c55de68e05ad",
+    "label": "5053 LE BOURG, Lucy",
+    "lat": 49.778323,
+    "lng": 1.450544,
+    "transactions": [
+      {
+        "date": "2021-06-02",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "59726bd7c137": {
+    "id": "59726bd7c137",
+    "label": "5020 LA HTE RUE, Lucy",
+    "lat": 49.780826,
+    "lng": 1.460786,
+    "transactions": [
+      {
+        "date": "2022-07-09",
+        "priceEur": 82500,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "ebbe0ee6c40c": {
+    "id": "ebbe0ee6c40c",
+    "label": "5054 LE BOURG, Lucy",
+    "lat": 49.778196,
+    "lng": 1.450774,
+    "transactions": [
+      {
+        "date": "2024-11-09",
+        "priceEur": 66000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  }
+}

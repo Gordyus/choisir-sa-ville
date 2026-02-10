@@ -1,0 +1,47 @@
+{
+  "b9b61812f5bb": {
+    "id": "b9b61812f5bb",
+    "label": "43 RUE DE FRANQUEVILLE, Honnecourt-sur-Escaut",
+    "lat": 50.033464,
+    "lng": 3.201782,
+    "transactions": [
+      {
+        "date": "2020-12-22",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "bda1332d738a": {
+    "id": "bda1332d738a",
+    "label": "31 RUE DE FRANQUEVILLE, Honnecourt-sur-Escaut",
+    "lat": 50.034978,
+    "lng": 3.203561,
+    "transactions": [
+      {
+        "date": "2023-10-20",
+        "priceEur": 42000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "01c7ad73ae83": {
+    "id": "01c7ad73ae83",
+    "label": "55 RUE DE FRANQUEVILLE, Honnecourt-sur-Escaut",
+    "lat": 50.033158,
+    "lng": 3.198919,
+    "transactions": [
+      {
+        "date": "2024-07-12",
+        "priceEur": 148500,
+        "typeLocal": "Maison",
+        "surfaceM2": 240,
+        "isVefa": false
+      }
+    ]
+  }
+}

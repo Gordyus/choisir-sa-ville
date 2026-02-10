@@ -1,0 +1,47 @@
+{
+  "bae8c96c29ff": {
+    "id": "bae8c96c29ff",
+    "label": "5093A BOSC LA MER, Le Bocasse",
+    "lat": 49.594359,
+    "lng": 1.078642,
+    "transactions": [
+      {
+        "date": "2021-08-20",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 39,
+        "isVefa": false
+      }
+    ]
+  },
+  "f18b045f7627": {
+    "id": "f18b045f7627",
+    "label": "6033 BOSC LA MER, Le Bocasse",
+    "lat": 49.594521,
+    "lng": 1.076887,
+    "transactions": [
+      {
+        "date": "2021-09-09",
+        "priceEur": 173500,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd11da375235": {
+    "id": "fd11da375235",
+    "label": "1046 RTE DE LA MARE, Le Bocasse",
+    "lat": 49.593718,
+    "lng": 1.078206,
+    "transactions": [
+      {
+        "date": "2023-06-09",
+        "priceEur": 251000,
+        "typeLocal": "Maison",
+        "surfaceM2": 164,
+        "isVefa": false
+      }
+    ]
+  }
+}

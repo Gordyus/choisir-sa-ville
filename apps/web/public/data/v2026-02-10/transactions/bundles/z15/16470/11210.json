@@ -1,0 +1,465 @@
+{
+  "2601304a78ad": {
+    "id": "2601304a78ad",
+    "label": "87A RUE THEOPHILE GILLES, La Londe",
+    "lat": 49.306548,
+    "lng": 0.949441,
+    "transactions": [
+      {
+        "date": "2020-07-09",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "7bc0c9d99d26": {
+    "id": "7bc0c9d99d26",
+    "label": "87 RUE ISIDORE CAVELIER, La Londe",
+    "lat": 49.308917,
+    "lng": 0.946938,
+    "transactions": [
+      {
+        "date": "2020-10-17",
+        "priceEur": 269000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d49690afb66": {
+    "id": "9d49690afb66",
+    "label": "43 RUE DES BRUYERES, La Londe",
+    "lat": 49.310344,
+    "lng": 0.955663,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 185800,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "50780312fda3": {
+    "id": "50780312fda3",
+    "label": "55 RUE DU VAL, La Londe",
+    "lat": 49.307298,
+    "lng": 0.947626,
+    "transactions": [
+      {
+        "date": "2025-02-20",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-16",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "7089a45be973": {
+    "id": "7089a45be973",
+    "label": "45 RUE DE LA MARE PEROT, La Londe",
+    "lat": 49.309125,
+    "lng": 0.950261,
+    "transactions": [
+      {
+        "date": "2021-01-06",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 197,
+        "isVefa": false
+      }
+    ]
+  },
+  "27aa257b5bd6": {
+    "id": "27aa257b5bd6",
+    "label": "183 RUE DU VAL, La Londe",
+    "lat": 49.306279,
+    "lng": 0.947581,
+    "transactions": [
+      {
+        "date": "2024-08-02",
+        "priceEur": 250400,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-29",
+        "priceEur": 257000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "9893cb5ae511": {
+    "id": "9893cb5ae511",
+    "label": "62 RUE DE LA FORET, La Londe",
+    "lat": 49.310258,
+    "lng": 0.953357,
+    "transactions": [
+      {
+        "date": "2021-07-01",
+        "priceEur": 287000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "75505e9bbb29": {
+    "id": "75505e9bbb29",
+    "label": "35 RUE SERGENT, La Londe",
+    "lat": 49.305043,
+    "lng": 0.955072,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 326000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "cbd3f76a59a6": {
+    "id": "cbd3f76a59a6",
+    "label": "308 RUE THEOPHILE GILLES, La Londe",
+    "lat": 49.308403,
+    "lng": 0.947878,
+    "transactions": [
+      {
+        "date": "2021-07-02",
+        "priceEur": 305000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "45d1a8b4318d": {
+    "id": "45d1a8b4318d",
+    "label": "27 RUE DU GRAND CHENE, La Londe",
+    "lat": 49.309877,
+    "lng": 0.952112,
+    "transactions": [
+      {
+        "date": "2021-08-23",
+        "priceEur": 240650,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb840380466a": {
+    "id": "cb840380466a",
+    "label": "108E RUE THEOPHILE GILLES, La Londe",
+    "lat": 49.307608,
+    "lng": 0.950732,
+    "transactions": [
+      {
+        "date": "2021-10-11",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "a88f4b265ab0": {
+    "id": "a88f4b265ab0",
+    "label": "241 RUE MASSELIN, La Londe",
+    "lat": 49.309824,
+    "lng": 0.955025,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 171300,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c6c4f97d228": {
+    "id": "7c6c4f97d228",
+    "label": "259C RUE SAMSON LEPESQUEUR, La Londe",
+    "lat": 49.308364,
+    "lng": 0.955179,
+    "transactions": [
+      {
+        "date": "2022-02-18",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-24",
+        "priceEur": 57000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "cbf85187cece": {
+    "id": "cbf85187cece",
+    "label": "187 RUE MASSELIN, La Londe",
+    "lat": 49.309396,
+    "lng": 0.955728,
+    "transactions": [
+      {
+        "date": "2022-03-14",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "30caab49e553": {
+    "id": "30caab49e553",
+    "label": "165 RUE DE LA MARE PEROT, La Londe",
+    "lat": 49.308908,
+    "lng": 0.948516,
+    "transactions": [
+      {
+        "date": "2022-06-16",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "a78965111b5f": {
+    "id": "a78965111b5f",
+    "label": "209 RUE ADOLPHE MARIE, La Londe",
+    "lat": 49.305074,
+    "lng": 0.95267,
+    "transactions": [
+      {
+        "date": "2022-06-17",
+        "priceEur": 278000,
+        "typeLocal": "Maison",
+        "surfaceM2": 175,
+        "isVefa": false
+      }
+    ]
+  },
+  "35c6735e125d": {
+    "id": "35c6735e125d",
+    "label": "303A RUE MASSELIN, La Londe",
+    "lat": 49.309009,
+    "lng": 0.954487,
+    "transactions": [
+      {
+        "date": "2022-07-13",
+        "priceEur": 264900,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "be8fd34d5b4f": {
+    "id": "be8fd34d5b4f",
+    "label": "222 RUE THEOPHILE GILLES, La Londe",
+    "lat": 49.308168,
+    "lng": 0.949108,
+    "transactions": [
+      {
+        "date": "2022-10-24",
+        "priceEur": 267500,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "d85bb726cb61": {
+    "id": "d85bb726cb61",
+    "label": "121 RUE DE LA MARE PEROT, La Londe",
+    "lat": 49.309103,
+    "lng": 0.949264,
+    "transactions": [
+      {
+        "date": "2023-02-03",
+        "priceEur": 221000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "934d3ddccc72": {
+    "id": "934d3ddccc72",
+    "label": "215 RUE DE LA MARE PEROT, La Londe",
+    "lat": 49.309259,
+    "lng": 0.94797,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "0cda7c95f36c": {
+    "id": "0cda7c95f36c",
+    "label": "31 RUE SERGENT, La Londe",
+    "lat": 49.305011,
+    "lng": 0.955779,
+    "transactions": [
+      {
+        "date": "2023-08-24",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f05b193c816": {
+    "id": "9f05b193c816",
+    "label": "87D RUE THEOPHILE GILLES, La Londe",
+    "lat": 49.305523,
+    "lng": 0.949323,
+    "transactions": [
+      {
+        "date": "2023-08-22",
+        "priceEur": 575400,
+        "typeLocal": "Maison",
+        "surfaceM2": 192,
+        "isVefa": false
+      }
+    ]
+  },
+  "064a1086fd48": {
+    "id": "064a1086fd48",
+    "label": "281 RUE SAMSON LEPESQUEUR, La Londe",
+    "lat": 49.307252,
+    "lng": 0.955561,
+    "transactions": [
+      {
+        "date": "2024-03-22",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-29",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad2a5f576b72": {
+    "id": "ad2a5f576b72",
+    "label": "291 RUE SAMSON LEPESQUEUR, La Londe",
+    "lat": 49.307121,
+    "lng": 0.955668,
+    "transactions": [
+      {
+        "date": "2024-02-23",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "7060aeade57d": {
+    "id": "7060aeade57d",
+    "label": "99 RUE HAZET, La Londe",
+    "lat": 49.304611,
+    "lng": 0.955338,
+    "transactions": [
+      {
+        "date": "2024-07-26",
+        "priceEur": 158900,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "fbe853ad3fdf": {
+    "id": "fbe853ad3fdf",
+    "label": "290 RUE ALFRED BERRIER, La Londe",
+    "lat": 49.306301,
+    "lng": 0.955737,
+    "transactions": [
+      {
+        "date": "2024-11-18",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "f82810c732aa": {
+    "id": "f82810c732aa",
+    "label": "112 IMP MARE PEROT, La Londe",
+    "lat": 49.309675,
+    "lng": 0.945651,
+    "transactions": [
+      {
+        "date": "2024-12-05",
+        "priceEur": 116000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e0d9c9eb857": {
+    "id": "3e0d9c9eb857",
+    "label": "117 RUE SERGENT, La Londe",
+    "lat": 49.305546,
+    "lng": 0.954624,
+    "transactions": [
+      {
+        "date": "2025-01-06",
+        "priceEur": 291000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e9e19e12d0c": {
+    "id": "6e9e19e12d0c",
+    "label": "183A RUE SAMSON LEPESQUEUR, La Londe",
+    "lat": 49.30723,
+    "lng": 0.954198,
+    "transactions": [
+      {
+        "date": "2025-02-28",
+        "priceEur": 157500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

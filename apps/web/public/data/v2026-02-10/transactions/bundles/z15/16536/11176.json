@@ -1,0 +1,32 @@
+{
+  "195bccaf8e49": {
+    "id": "195bccaf8e49",
+    "label": "2448 CHEM DU HYAUMET, Dampierre-en-Bray",
+    "lat": 49.548266,
+    "lng": 1.680263,
+    "transactions": [
+      {
+        "date": "2023-05-11",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 229,
+        "isVefa": false
+      }
+    ]
+  },
+  "02ed3b3e64de": {
+    "id": "02ed3b3e64de",
+    "label": "2443 CHEM DU HYAUMET, Dampierre-en-Bray",
+    "lat": 49.549736,
+    "lng": 1.679827,
+    "transactions": [
+      {
+        "date": "2024-04-05",
+        "priceEur": 277500,
+        "typeLocal": "Maison",
+        "surfaceM2": 177,
+        "isVefa": false
+      }
+    ]
+  }
+}

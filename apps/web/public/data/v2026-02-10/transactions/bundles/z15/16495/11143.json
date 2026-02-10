@@ -1,0 +1,584 @@
+{
+  "c8ea27146e6f": {
+    "id": "c8ea27146e6f",
+    "label": "376 RTE DE DIEPPE, Les Grandes-Ventes",
+    "lat": 49.787725,
+    "lng": 1.224687,
+    "transactions": [
+      {
+        "date": "2020-09-16",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "af38b802aefc": {
+    "id": "af38b802aefc",
+    "label": "70 RTE DE DIEPPE, Les Grandes-Ventes",
+    "lat": 49.78597,
+    "lng": 1.227831,
+    "transactions": [
+      {
+        "date": "2020-12-16",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "961f3a28bf87": {
+    "id": "961f3a28bf87",
+    "label": "61 RUE D AUFFAY, Les Grandes-Ventes",
+    "lat": 49.784733,
+    "lng": 1.227707,
+    "transactions": [
+      {
+        "date": "2021-10-26",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "b11e884c55b5": {
+    "id": "b11e884c55b5",
+    "label": "1 RES DU PRE, Les Grandes-Ventes",
+    "lat": 49.788316,
+    "lng": 1.228476,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "15905de5879b": {
+    "id": "15905de5879b",
+    "label": "36 RTE DE PARIS, Les Grandes-Ventes",
+    "lat": 49.784922,
+    "lng": 1.228657,
+    "transactions": [
+      {
+        "date": "2021-04-15",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4ea15ac5232": {
+    "id": "b4ea15ac5232",
+    "label": "173 RUE DU MOULIN A VENT, Les Grandes-Ventes",
+    "lat": 49.787132,
+    "lng": 1.224097,
+    "transactions": [
+      {
+        "date": "2021-05-31",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "babb79f5bf36": {
+    "id": "babb79f5bf36",
+    "label": "175 RTE DE DIEPPE, Les Grandes-Ventes",
+    "lat": 49.786372,
+    "lng": 1.226426,
+    "transactions": [
+      {
+        "date": "2024-12-13",
+        "priceEur": 167250,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-07",
+        "priceEur": 152250,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "356dd4b2471b": {
+    "id": "356dd4b2471b",
+    "label": "216 RTE DE DIEPPE, Les Grandes-Ventes",
+    "lat": 49.78678,
+    "lng": 1.226303,
+    "transactions": [
+      {
+        "date": "2021-07-29",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-29",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ae87424e820": {
+    "id": "9ae87424e820",
+    "label": "66 RUE D AUFFAY, Les Grandes-Ventes",
+    "lat": 49.784892,
+    "lng": 1.227514,
+    "transactions": [
+      {
+        "date": "2021-09-03",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "51f34e7806f0": {
+    "id": "51f34e7806f0",
+    "label": "221 RTE DE DIEPPE, Les Grandes-Ventes",
+    "lat": 49.786688,
+    "lng": 1.225992,
+    "transactions": [
+      {
+        "date": "2022-02-03",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-03",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 39,
+        "isVefa": false
+      }
+    ]
+  },
+  "87d05fbcf8c5": {
+    "id": "87d05fbcf8c5",
+    "label": "225 RTE DE DIEPPE, Les Grandes-Ventes",
+    "lat": 49.786641,
+    "lng": 1.226163,
+    "transactions": [
+      {
+        "date": "2022-02-03",
+        "priceEur": 165000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-03",
+        "priceEur": 165000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d08055232ab": {
+    "id": "0d08055232ab",
+    "label": "281 RUE D AUFFAY, Les Grandes-Ventes",
+    "lat": 49.783087,
+    "lng": 1.228098,
+    "transactions": [
+      {
+        "date": "2022-02-04",
+        "priceEur": 187000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c3d07058a35": {
+    "id": "1c3d07058a35",
+    "label": "450 RUE D AUFFAY, Les Grandes-Ventes",
+    "lat": 49.782205,
+    "lng": 1.226165,
+    "transactions": [
+      {
+        "date": "2022-03-15",
+        "priceEur": 169200,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "67a2ab9d62f5": {
+    "id": "67a2ab9d62f5",
+    "label": "2 RUE DES HOTELETS, Les Grandes-Ventes",
+    "lat": 49.787201,
+    "lng": 1.226668,
+    "transactions": [
+      {
+        "date": "2022-05-24",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "90a252660f7d": {
+    "id": "90a252660f7d",
+    "label": "144 RUE DES HOTELETS, Les Grandes-Ventes",
+    "lat": 49.787991,
+    "lng": 1.225321,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 268000,
+        "typeLocal": "Maison",
+        "surfaceM2": 260,
+        "isVefa": false
+      }
+    ]
+  },
+  "e23bd7fa814e": {
+    "id": "e23bd7fa814e",
+    "label": "468 RTE DE DIEPPE, Les Grandes-Ventes",
+    "lat": 49.788175,
+    "lng": 1.223688,
+    "transactions": [
+      {
+        "date": "2022-11-17",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e57ff52c48b": {
+    "id": "3e57ff52c48b",
+    "label": "61 RUE DE ST VAAST, Les Grandes-Ventes",
+    "lat": 49.786054,
+    "lng": 1.229112,
+    "transactions": [
+      {
+        "date": "2022-11-24",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b02650c6bb3": {
+    "id": "0b02650c6bb3",
+    "label": "384 RTE DE DIEPPE, Les Grandes-Ventes",
+    "lat": 49.787781,
+    "lng": 1.224625,
+    "transactions": [
+      {
+        "date": "2023-03-13",
+        "priceEur": 157950,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd431f0c6fae": {
+    "id": "dd431f0c6fae",
+    "label": "215 RUE DU COLONEL G DELOEIL, Les Grandes-Ventes",
+    "lat": 49.787614,
+    "lng": 1.228551,
+    "transactions": [
+      {
+        "date": "2023-07-31",
+        "priceEur": 239000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "2857b1941401": {
+    "id": "2857b1941401",
+    "label": "75 RTE DE PARIS, Les Grandes-Ventes",
+    "lat": 49.784883,
+    "lng": 1.229324,
+    "transactions": [
+      {
+        "date": "2023-08-29",
+        "priceEur": 115500,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0dab26259f5": {
+    "id": "a0dab26259f5",
+    "label": "65 RTE DE PARIS, Les Grandes-Ventes",
+    "lat": 49.784819,
+    "lng": 1.229424,
+    "transactions": [
+      {
+        "date": "2023-08-29",
+        "priceEur": 115500,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "445137673303": {
+    "id": "445137673303",
+    "label": "174 RUE DU CIMETIERE, Les Grandes-Ventes",
+    "lat": 49.785461,
+    "lng": 1.225909,
+    "transactions": [
+      {
+        "date": "2023-10-13",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-13",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 220,
+        "isVefa": false
+      }
+    ]
+  },
+  "df5bd9b27ca8": {
+    "id": "df5bd9b27ca8",
+    "label": "1 PL DE L EGLISE, Les Grandes-Ventes",
+    "lat": 49.785913,
+    "lng": 1.228091,
+    "transactions": [
+      {
+        "date": "2023-11-17",
+        "priceEur": 110000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d893491cc59": {
+    "id": "7d893491cc59",
+    "label": "7 PL DE L HOTEL DE VILLE, Les Grandes-Ventes",
+    "lat": 49.78497,
+    "lng": 1.229481,
+    "transactions": [
+      {
+        "date": "2024-02-16",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "a13cc05b4873": {
+    "id": "a13cc05b4873",
+    "label": "81 RTE DE PARIS, Les Grandes-Ventes",
+    "lat": 49.784779,
+    "lng": 1.229524,
+    "transactions": [
+      {
+        "date": "2024-06-05",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "8878decaabda": {
+    "id": "8878decaabda",
+    "label": "5 PL DE L HOTEL DE VILLE, Les Grandes-Ventes",
+    "lat": 49.785032,
+    "lng": 1.229511,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 262100,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a83bcd53efa": {
+    "id": "5a83bcd53efa",
+    "label": "52 RES HENRI BRUNEL, Les Grandes-Ventes",
+    "lat": 49.783419,
+    "lng": 1.228235,
+    "transactions": [
+      {
+        "date": "2024-09-17",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "d2e7b54412c1": {
+    "id": "d2e7b54412c1",
+    "label": "106 RUE DE ST VAAST, Les Grandes-Ventes",
+    "lat": 49.78559,
+    "lng": 1.23011,
+    "transactions": [
+      {
+        "date": "2024-09-09",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d5583bec4ab": {
+    "id": "0d5583bec4ab",
+    "label": "2 RES LES SORBIERS, Les Grandes-Ventes",
+    "lat": 49.788042,
+    "lng": 1.227792,
+    "transactions": [
+      {
+        "date": "2024-08-31",
+        "priceEur": 106950,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd334fc4caa2": {
+    "id": "bd334fc4caa2",
+    "label": "16 RES LES SORBIERS, Les Grandes-Ventes",
+    "lat": 49.787694,
+    "lng": 1.227302,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 100750,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "74f8a28543fb": {
+    "id": "74f8a28543fb",
+    "label": "334 RTE DE DIEPPE, Les Grandes-Ventes",
+    "lat": 49.787505,
+    "lng": 1.225114,
+    "transactions": [
+      {
+        "date": "2024-11-22",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "24ae961ebdb5": {
+    "id": "24ae961ebdb5",
+    "label": "530 RUE D AUFFAY, Les Grandes-Ventes",
+    "lat": 49.781608,
+    "lng": 1.22497,
+    "transactions": [
+      {
+        "date": "2024-11-25",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "9956c4b82554": {
+    "id": "9956c4b82554",
+    "label": "36B RTE DE PARIS, Les Grandes-Ventes",
+    "lat": 49.784774,
+    "lng": 1.228478,
+    "transactions": [
+      {
+        "date": "2025-02-07",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ce408b29fb6": {
+    "id": "0ce408b29fb6",
+    "label": "88 RTE DE DIEPPE, Les Grandes-Ventes",
+    "lat": 49.786068,
+    "lng": 1.22766,
+    "transactions": [
+      {
+        "date": "2025-02-14",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "966cc0d603ac": {
+    "id": "966cc0d603ac",
+    "label": "204 RUE DES HOTELETS, Les Grandes-Ventes",
+    "lat": 49.788208,
+    "lng": 1.225045,
+    "transactions": [
+      {
+        "date": "2025-05-27",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6ab18e6fb9c": {
+    "id": "b6ab18e6fb9c",
+    "label": "141 RTE DE DIEPPE, Les Grandes-Ventes",
+    "lat": 49.786148,
+    "lng": 1.226719,
+    "transactions": [
+      {
+        "date": "2025-05-26",
+        "priceEur": 185000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2025-05-26",
+        "priceEur": 185000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  }
+}

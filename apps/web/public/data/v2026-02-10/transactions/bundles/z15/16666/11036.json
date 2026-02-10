@@ -1,0 +1,47 @@
+{
+  "87d973a676e6": {
+    "id": "87d973a676e6",
+    "label": "5 RUE DES CIGOGNES, Ennevelin",
+    "lat": 50.535815,
+    "lng": 3.104013,
+    "transactions": [
+      {
+        "date": "2021-04-20",
+        "priceEur": 629470,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "da6cfd38def9": {
+    "id": "da6cfd38def9",
+    "label": "35 RTE NATIONALE, Ennevelin",
+    "lat": 50.535877,
+    "lng": 3.105611,
+    "transactions": [
+      {
+        "date": "2022-06-27",
+        "priceEur": 790000,
+        "typeLocal": "Maison",
+        "surfaceM2": 317,
+        "isVefa": false
+      }
+    ]
+  },
+  "631cb34c2284": {
+    "id": "631cb34c2284",
+    "label": "6 RUE D ANTROEUILLES, Ennevelin",
+    "lat": 50.535192,
+    "lng": 3.103372,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 528600,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  }
+}

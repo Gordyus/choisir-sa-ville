@@ -1,0 +1,32 @@
+{
+  "76be231b4f6f": {
+    "id": "76be231b4f6f",
+    "label": "9004 RTE DE SAINT PIERREBROUCK, Bourbourg",
+    "lat": 50.920785,
+    "lng": 2.179081,
+    "transactions": [
+      {
+        "date": "2020-09-22",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "691caca6b20a": {
+    "id": "691caca6b20a",
+    "label": "13 RTE DE SAINT NICOLAS, Bourbourg",
+    "lat": 50.923718,
+    "lng": 2.179032,
+    "transactions": [
+      {
+        "date": "2021-09-08",
+        "priceEur": 223600,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  }
+}

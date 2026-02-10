@@ -1,0 +1,62 @@
+{
+  "6c0b032bcef7": {
+    "id": "6c0b032bcef7",
+    "label": "130 RUE DE SAINT OMER, Renescure",
+    "lat": 50.731796,
+    "lng": 2.354691,
+    "transactions": [
+      {
+        "date": "2020-08-04",
+        "priceEur": 60830,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "4016adc4aae3": {
+    "id": "4016adc4aae3",
+    "label": "64 RUE SAINTE ANNE, Renescure",
+    "lat": 50.730572,
+    "lng": 2.356133,
+    "transactions": [
+      {
+        "date": "2021-12-02",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "21459adc6f01": {
+    "id": "21459adc6f01",
+    "label": "83 RUE DE SAINT OMER, Renescure",
+    "lat": 50.731206,
+    "lng": 2.355882,
+    "transactions": [
+      {
+        "date": "2021-12-08",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd2b06c3e6bb": {
+    "id": "dd2b06c3e6bb",
+    "label": "70 RUE SAINTE ANNE, Renescure",
+    "lat": 50.730308,
+    "lng": 2.356163,
+    "transactions": [
+      {
+        "date": "2022-10-28",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 231,
+        "isVefa": false
+      }
+    ]
+  }
+}

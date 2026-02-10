@@ -1,0 +1,32 @@
+{
+  "1409832fb393": {
+    "id": "1409832fb393",
+    "label": "622 RTE DE L'ECOLE, Trouville",
+    "lat": 49.585048,
+    "lng": 0.591309,
+    "transactions": [
+      {
+        "date": "2022-12-21",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "bff272d4f441": {
+    "id": "bff272d4f441",
+    "label": "706 RTE DE L'ECOLE, Trouville",
+    "lat": 49.585523,
+    "lng": 0.590841,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  }
+}

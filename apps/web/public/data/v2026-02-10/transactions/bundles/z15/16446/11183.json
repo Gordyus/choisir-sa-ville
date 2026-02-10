@@ -1,0 +1,32 @@
+{
+  "2222da28afa7": {
+    "id": "2222da28afa7",
+    "label": "120 RUE DU PLESSIS, Vatteville-la-Rue",
+    "lat": 49.497621,
+    "lng": 0.689334,
+    "transactions": [
+      {
+        "date": "2021-05-04",
+        "priceEur": 165100,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "c363936a3e9b": {
+    "id": "c363936a3e9b",
+    "label": "459 CHE DE VILLEQUIER, Vatteville-la-Rue",
+    "lat": 49.501404,
+    "lng": 0.691385,
+    "transactions": [
+      {
+        "date": "2021-11-02",
+        "priceEur": 38000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "c6ff625551df": {
+    "id": "c6ff625551df",
+    "label": "6304F PUECH DU ROU, Cessenon-sur-Orb",
+    "lat": 43.459368,
+    "lng": 3.057964,
+    "transactions": [
+      {
+        "date": "2022-03-30",
+        "priceEur": 799700,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-30",
+        "priceEur": 799700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-30",
+        "priceEur": 799700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "42fd32397d2c": {
+    "id": "42fd32397d2c",
+    "label": "5181F CHE DE VIRANEL, Cessenon-sur-Orb",
+    "lat": 43.45828,
+    "lng": 3.058615,
+    "transactions": [
+      {
+        "date": "2022-03-30",
+        "priceEur": 799700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-30",
+        "priceEur": 799700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-30",
+        "priceEur": 799700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  }
+}

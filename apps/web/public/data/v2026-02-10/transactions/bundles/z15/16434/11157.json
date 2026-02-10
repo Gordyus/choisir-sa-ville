@@ -1,0 +1,32 @@
+{
+  "52746c84f778": {
+    "id": "52746c84f778",
+    "label": "530 RTE DE BOOS, Terres-de-Caux",
+    "lat": 49.685795,
+    "lng": 0.558946,
+    "transactions": [
+      {
+        "date": "2022-09-05",
+        "priceEur": 198300,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "6fa48ebca8d6": {
+    "id": "6fa48ebca8d6",
+    "label": "162 RTE DE BOOS, Terres-de-Caux",
+    "lat": 49.684835,
+    "lng": 0.554433,
+    "transactions": [
+      {
+        "date": "2025-03-03",
+        "priceEur": 99000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  }
+}

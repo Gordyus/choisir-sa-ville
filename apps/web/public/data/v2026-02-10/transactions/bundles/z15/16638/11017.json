@@ -1,0 +1,32 @@
+{
+  "90a87f6d80ff": {
+    "id": "90a87f6d80ff",
+    "label": "30 RUE DU BAC ST MAUR, Steenwerck",
+    "lat": 50.672593,
+    "lng": 2.793911,
+    "transactions": [
+      {
+        "date": "2021-10-18",
+        "priceEur": 248000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "94d5602ee3a1": {
+    "id": "94d5602ee3a1",
+    "label": "31 RUE DU BAC ST MAUR, Steenwerck",
+    "lat": 50.672197,
+    "lng": 2.793082,
+    "transactions": [
+      {
+        "date": "2025-01-29",
+        "priceEur": 555000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

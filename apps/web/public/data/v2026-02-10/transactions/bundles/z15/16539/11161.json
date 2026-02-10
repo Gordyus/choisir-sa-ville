@@ -1,0 +1,32 @@
+{
+  "f6645cf4162e": {
+    "id": "f6645cf4162e",
+    "label": "269 RUE SAINT LAMBERT, Criquiers",
+    "lat": 49.656042,
+    "lng": 1.703444,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad777020d3dc": {
+    "id": "ad777020d3dc",
+    "label": "5107 LES ANTHIEUX, Criquiers",
+    "lat": 49.657094,
+    "lng": 1.703945,
+    "transactions": [
+      {
+        "date": "2022-12-21",
+        "priceEur": 194200,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  }
+}

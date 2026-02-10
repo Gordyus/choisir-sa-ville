@@ -1,0 +1,129 @@
+{
+  "5d65eb35b245": {
+    "id": "5d65eb35b245",
+    "label": "5022 CREPPEVILLE HAMEAU, Criquetot-sur-Longueville",
+    "lat": 49.792799,
+    "lng": 1.079367,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0b8bbc83645": {
+    "id": "e0b8bbc83645",
+    "label": "5041 CREPPEVILLE HAMEAU, Criquetot-sur-Longueville",
+    "lat": 49.789664,
+    "lng": 1.079555,
+    "transactions": [
+      {
+        "date": "2020-10-29",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "efaac616922e": {
+    "id": "efaac616922e",
+    "label": "6 IMP DES BOIS, Criquetot-sur-Longueville",
+    "lat": 49.791921,
+    "lng": 1.080332,
+    "transactions": [
+      {
+        "date": "2023-03-03",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-05",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "40bb3bcbb855": {
+    "id": "40bb3bcbb855",
+    "label": "26 RUE FLEURIE, Criquetot-sur-Longueville",
+    "lat": 49.791342,
+    "lng": 1.082077,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 52000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "138a8a78802d": {
+    "id": "138a8a78802d",
+    "label": "2B RUE FLEURIE, Criquetot-sur-Longueville",
+    "lat": 49.789062,
+    "lng": 1.07816,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 194,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ac1f1fc557b": {
+    "id": "4ac1f1fc557b",
+    "label": "10 RUE FLEURIE, Criquetot-sur-Longueville",
+    "lat": 49.789631,
+    "lng": 1.079852,
+    "transactions": [
+      {
+        "date": "2023-09-01",
+        "priceEur": 266300,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "18b53dcead2a": {
+    "id": "18b53dcead2a",
+    "label": "2 RUE DE LA CAVEE, Criquetot-sur-Longueville",
+    "lat": 49.792405,
+    "lng": 1.084931,
+    "transactions": [
+      {
+        "date": "2024-04-19",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "87c314c6924a": {
+    "id": "87c314c6924a",
+    "label": "22 RUE FLEURIE, Criquetot-sur-Longueville",
+    "lat": 49.790249,
+    "lng": 1.08202,
+    "transactions": [
+      {
+        "date": "2025-02-28",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  }
+}

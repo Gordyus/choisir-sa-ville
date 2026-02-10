@@ -1,0 +1,46 @@
+{
+  "92b1da27caa4": {
+    "id": "92b1da27caa4",
+    "label": "320 RTE DU LEVANT, Winnezeele",
+    "lat": 50.862081,
+    "lng": 2.595892,
+    "transactions": [
+      {
+        "date": "2021-09-27",
+        "priceEur": 297000,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-27",
+        "priceEur": 297000,
+        "typeLocal": "Maison",
+        "surfaceM2": 439,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-27",
+        "priceEur": 297000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "a92923b990ad": {
+    "id": "a92923b990ad",
+    "label": "2671 RTE DE WATOU, Winnezeele",
+    "lat": 50.861571,
+    "lng": 2.60165,
+    "transactions": [
+      {
+        "date": "2024-07-08",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "cf0d689163c4": {
+    "id": "cf0d689163c4",
+    "label": "9999F ALL DU CIMETIERE, Saint-Germain-des-Essourts",
+    "lat": 49.533516,
+    "lng": 1.313117,
+    "transactions": [
+      {
+        "date": "2021-05-17",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "d159cfb18be2": {
+    "id": "d159cfb18be2",
+    "label": "1 RTE DU PIGEONNIER, Saint-Germain-des-Essourts",
+    "lat": 49.537782,
+    "lng": 1.317386,
+    "transactions": [
+      {
+        "date": "2021-08-03",
+        "priceEur": 249000,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "210f8680de9c": {
+    "id": "210f8680de9c",
+    "label": "5065 SAINT GERMAIN, Saint-Germain-des-Essourts",
+    "lat": 49.53357,
+    "lng": 1.312704,
+    "transactions": [
+      {
+        "date": "2021-07-22",
+        "priceEur": 207400,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "a74cfce51761": {
+    "id": "a74cfce51761",
+    "label": "5067 SAINT GERMAIN, Saint-Germain-des-Essourts",
+    "lat": 49.532636,
+    "lng": 1.313075,
+    "transactions": [
+      {
+        "date": "2022-10-17",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a7848c842cf": {
+    "id": "7a7848c842cf",
+    "label": "2B RTE DU PIGEONNIER, Saint-Germain-des-Essourts",
+    "lat": 49.535743,
+    "lng": 1.314022,
+    "transactions": [
+      {
+        "date": "2025-01-22",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  }
+}

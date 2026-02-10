@@ -1,0 +1,92 @@
+{
+  "f65c2177fefc": {
+    "id": "f65c2177fefc",
+    "label": "18 LOT LE TILLEUL, Saint-Germain-sur-Eaulne",
+    "lat": 49.770911,
+    "lng": 1.51345,
+    "transactions": [
+      {
+        "date": "2021-05-27",
+        "priceEur": 153900,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "20083a65b88b": {
+    "id": "20083a65b88b",
+    "label": "16 LOT LE TILLEUL, Saint-Germain-sur-Eaulne",
+    "lat": 49.770297,
+    "lng": 1.513028,
+    "transactions": [
+      {
+        "date": "2021-06-18",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "617b75b771ae": {
+    "id": "617b75b771ae",
+    "label": "5058 LE MONT PICARD, Saint-Germain-sur-Eaulne",
+    "lat": 49.772057,
+    "lng": 1.512457,
+    "transactions": [
+      {
+        "date": "2021-07-13",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd7250e0b2fc": {
+    "id": "fd7250e0b2fc",
+    "label": "4 LOT LE TILLEUL, Saint-Germain-sur-Eaulne",
+    "lat": 49.771195,
+    "lng": 1.513202,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 141000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "207104207d6c": {
+    "id": "207104207d6c",
+    "label": "5054 LE MONT PICARD, Saint-Germain-sur-Eaulne",
+    "lat": 49.771515,
+    "lng": 1.512064,
+    "transactions": [
+      {
+        "date": "2022-10-28",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "33f4ad820d87": {
+    "id": "33f4ad820d87",
+    "label": "14 LOT LE TILLEUL, Saint-Germain-sur-Eaulne",
+    "lat": 49.770099,
+    "lng": 1.513639,
+    "transactions": [
+      {
+        "date": "2023-01-09",
+        "priceEur": 166000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

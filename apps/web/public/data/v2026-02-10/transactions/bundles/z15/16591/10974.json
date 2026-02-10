@@ -1,0 +1,47 @@
+{
+  "0859587fa58d": {
+    "id": "0859587fa58d",
+    "label": "5 RTE DE DUNKERQUE, Brouckerque",
+    "lat": 50.966923,
+    "lng": 2.277673,
+    "transactions": [
+      {
+        "date": "2021-09-27",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "277ed8d5f2cf": {
+    "id": "277ed8d5f2cf",
+    "label": "17 RTE DE DUNKERQUE, Brouckerque",
+    "lat": 50.970343,
+    "lng": 2.281315,
+    "transactions": [
+      {
+        "date": "2021-10-13",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e16a48a6a19": {
+    "id": "6e16a48a6a19",
+    "label": "1000 VC 17 DIT CHEM DU CANAL, Loon-Plage",
+    "lat": 50.969601,
+    "lng": 2.274173,
+    "transactions": [
+      {
+        "date": "2022-07-06",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 244,
+        "isVefa": false
+      }
+    ]
+  }
+}

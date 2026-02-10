@@ -1,0 +1,121 @@
+{
+  "96180cb6fe7f": {
+    "id": "96180cb6fe7f",
+    "label": "725 RUE DES DEUX COMMUNES, Mélamare",
+    "lat": 49.54622,
+    "lng": 0.418856,
+    "transactions": [
+      {
+        "date": "2020-08-28",
+        "priceEur": 251500,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d7147133273": {
+    "id": "2d7147133273",
+    "label": "5181 LES MARETTES, Mélamare",
+    "lat": 49.540441,
+    "lng": 0.423722,
+    "transactions": [
+      {
+        "date": "2021-05-07",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "fca27c218b0c": {
+    "id": "fca27c218b0c",
+    "label": "5023 LA BROCHE A ROTIR, Mélamare",
+    "lat": 49.546477,
+    "lng": 0.421981,
+    "transactions": [
+      {
+        "date": "2022-11-29",
+        "priceEur": 320750,
+        "typeLocal": "Maison",
+        "surfaceM2": 193,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-09",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 193,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f085e4ed8e9": {
+    "id": "9f085e4ed8e9",
+    "label": "429 RUE DES DEUX COMMUNES, Mélamare",
+    "lat": 49.544985,
+    "lng": 0.42063,
+    "transactions": [
+      {
+        "date": "2024-07-26",
+        "priceEur": 289000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-22",
+        "priceEur": 287000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa3162604e86": {
+    "id": "fa3162604e86",
+    "label": "431 RUE DES DEUX COMMUNES, Mélamare",
+    "lat": 49.545527,
+    "lng": 0.42064,
+    "transactions": [
+      {
+        "date": "2024-09-06",
+        "priceEur": 227000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b69356d0e61": {
+    "id": "5b69356d0e61",
+    "label": "307 RUE DU TONNELIER, Mélamare",
+    "lat": 49.541171,
+    "lng": 0.423976,
+    "transactions": [
+      {
+        "date": "2025-01-17",
+        "priceEur": 366000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c8da33a9bf6": {
+    "id": "4c8da33a9bf6",
+    "label": "279 RUE DU TONNELIER, Mélamare",
+    "lat": 49.541154,
+    "lng": 0.424487,
+    "transactions": [
+      {
+        "date": "2025-01-17",
+        "priceEur": 366000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  }
+}

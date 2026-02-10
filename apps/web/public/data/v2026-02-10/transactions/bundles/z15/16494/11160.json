@@ -1,0 +1,32 @@
+{
+  "b5306b4a8179": {
+    "id": "b5306b4a8179",
+    "label": "180 RTE DU HAVRE, Beaumont-le-Hareng",
+    "lat": 49.661347,
+    "lng": 1.214,
+    "transactions": [
+      {
+        "date": "2021-10-28",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "da21a7ca5c2d": {
+    "id": "da21a7ca5c2d",
+    "label": "40 RUE DES PRES DU BUC, Beaumont-le-Hareng",
+    "lat": 49.661813,
+    "lng": 1.212449,
+    "transactions": [
+      {
+        "date": "2023-03-21",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

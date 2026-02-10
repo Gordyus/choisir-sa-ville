@@ -1,0 +1,99 @@
+{
+  "3607eb03f1ac": {
+    "id": "3607eb03f1ac",
+    "label": "901 RTE DE GOURNAY, Préaux",
+    "lat": 49.484799,
+    "lng": 1.228354,
+    "transactions": [
+      {
+        "date": "2021-07-07",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "a169a647394c": {
+    "id": "a169a647394c",
+    "label": "1120 RTE DE GOURNAY, Préaux",
+    "lat": 49.4833,
+    "lng": 1.22901,
+    "transactions": [
+      {
+        "date": "2024-12-12",
+        "priceEur": 259000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-10",
+        "priceEur": 246000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6e042169d21": {
+    "id": "e6e042169d21",
+    "label": "1002 RTE DE GOURNAY, Préaux",
+    "lat": 49.484091,
+    "lng": 1.228418,
+    "transactions": [
+      {
+        "date": "2022-07-26",
+        "priceEur": 283000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "13aa199fcdf1": {
+    "id": "13aa199fcdf1",
+    "label": "150 ALL DES TILLEULS, Préaux",
+    "lat": 49.489097,
+    "lng": 1.224309,
+    "transactions": [
+      {
+        "date": "2022-08-30",
+        "priceEur": 241500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "be390ec5f794": {
+    "id": "be390ec5f794",
+    "label": "330 RTE DE GOURNAY, Préaux",
+    "lat": 49.488173,
+    "lng": 1.224101,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 442500,
+        "typeLocal": "Maison",
+        "surfaceM2": 187,
+        "isVefa": false
+      }
+    ]
+  },
+  "68012b11df52": {
+    "id": "68012b11df52",
+    "label": "360 RTE DE GOURNAY, Préaux",
+    "lat": 49.488393,
+    "lng": 1.224469,
+    "transactions": [
+      {
+        "date": "2024-06-27",
+        "priceEur": 249000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  }
+}

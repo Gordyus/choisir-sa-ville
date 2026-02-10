@@ -1,0 +1,32 @@
+{
+  "b61137dd3c04": {
+    "id": "b61137dd3c04",
+    "label": "9 RTE DU PUITS, Saint-Maurice-d'Ételan",
+    "lat": 49.480663,
+    "lng": 0.605711,
+    "transactions": [
+      {
+        "date": "2020-11-19",
+        "priceEur": 306000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "5303c31a1c5e": {
+    "id": "5303c31a1c5e",
+    "label": "7 RTE DE TRIQUERVILLE, Saint-Maurice-d'Ételan",
+    "lat": 49.480426,
+    "lng": 0.60739,
+    "transactions": [
+      {
+        "date": "2025-03-13",
+        "priceEur": 288000,
+        "typeLocal": "Maison",
+        "surfaceM2": 258,
+        "isVefa": false
+      }
+    ]
+  }
+}

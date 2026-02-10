@@ -1,0 +1,47 @@
+{
+  "e4f2fa8c2b33": {
+    "id": "e4f2fa8c2b33",
+    "label": "671 RUE FERNAND BELLEVILLE, Biville-la-Baignarde",
+    "lat": 49.733099,
+    "lng": 1.051661,
+    "transactions": [
+      {
+        "date": "2021-12-10",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "87698a2e5d0d": {
+    "id": "87698a2e5d0d",
+    "label": "611 RUE FERNAND BELLEVILLE, Biville-la-Baignarde",
+    "lat": 49.732547,
+    "lng": 1.051727,
+    "transactions": [
+      {
+        "date": "2021-03-01",
+        "priceEur": 194000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "a702055a358d": {
+    "id": "a702055a358d",
+    "label": "711 RUE FERNAND BELLEVILLE, Biville-la-Baignarde",
+    "lat": 49.733661,
+    "lng": 1.052498,
+    "transactions": [
+      {
+        "date": "2024-06-19",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  }
+}

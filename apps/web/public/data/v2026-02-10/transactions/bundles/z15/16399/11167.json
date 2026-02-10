@@ -1,0 +1,92 @@
+{
+  "8796466225d5": {
+    "id": "8796466225d5",
+    "label": "210 IMP DE LA JONC MARINIERE, Heuqueville",
+    "lat": 49.61665,
+    "lng": 0.1715,
+    "transactions": [
+      {
+        "date": "2020-12-14",
+        "priceEur": 640000,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a8ec21bef35": {
+    "id": "8a8ec21bef35",
+    "label": "5180 PLAINE DE SAINT JOUIN, Cauville-sur-Mer",
+    "lat": 49.612489,
+    "lng": 0.168118,
+    "transactions": [
+      {
+        "date": "2021-03-19",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ea9f87610b9": {
+    "id": "1ea9f87610b9",
+    "label": "544 RTE DE MANNEVILLETTE, Heuqueville",
+    "lat": 49.615384,
+    "lng": 0.164799,
+    "transactions": [
+      {
+        "date": "2021-09-21",
+        "priceEur": 243000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "2025720ac437": {
+    "id": "2025720ac437",
+    "label": "5203 PLAINE DE SAINT JOUIN, Cauville-sur-Mer",
+    "lat": 49.611214,
+    "lng": 0.166221,
+    "transactions": [
+      {
+        "date": "2021-12-13",
+        "priceEur": 312000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d513acd3fca": {
+    "id": "8d513acd3fca",
+    "label": "144 RUE D'EPAVILLE, Heuqueville",
+    "lat": 49.616694,
+    "lng": 0.166994,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 291800,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "f2d6b38e4fbb": {
+    "id": "f2d6b38e4fbb",
+    "label": "550 RTE DE MANNEVILLETTE, Heuqueville",
+    "lat": 49.614933,
+    "lng": 0.165003,
+    "transactions": [
+      {
+        "date": "2023-12-15",
+        "priceEur": 278500,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

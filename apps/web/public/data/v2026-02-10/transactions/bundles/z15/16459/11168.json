@@ -1,0 +1,32 @@
+{
+  "a05e45322bb0": {
+    "id": "a05e45322bb0",
+    "label": "1255 RTE DU HAM YVELIN, Croix-Mare",
+    "lat": 49.605584,
+    "lng": 0.831691,
+    "transactions": [
+      {
+        "date": "2021-01-26",
+        "priceEur": 123000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e96a2010992": {
+    "id": "8e96a2010992",
+    "label": "294 IMP DU HAMEAU YVELIN, Croix-Mare",
+    "lat": 49.607492,
+    "lng": 0.834791,
+    "transactions": [
+      {
+        "date": "2025-04-17",
+        "priceEur": 201300,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

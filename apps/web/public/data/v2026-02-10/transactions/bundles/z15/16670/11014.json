@@ -1,0 +1,6704 @@
+{
+  "ae3ce425c97d": {
+    "id": "ae3ce425c97d",
+    "label": "11 CITE ST LOUIS RUE MACKELLERIE, Roubaix",
+    "lat": 50.689375,
+    "lng": 3.152334,
+    "transactions": [
+      {
+        "date": "2020-07-03",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "a338fd9327a1": {
+    "id": "a338fd9327a1",
+    "label": "81 RUE CARPEAUX, Wasquehal",
+    "lat": 50.692194,
+    "lng": 3.145858,
+    "transactions": [
+      {
+        "date": "2021-07-09",
+        "priceEur": 210340,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-07",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "1bb3c854e641": {
+    "id": "1bb3c854e641",
+    "label": "16 RUE EUGENE GUILLAUME, Wasquehal",
+    "lat": 50.692495,
+    "lng": 3.147177,
+    "transactions": [
+      {
+        "date": "2020-07-21",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "920c61739882": {
+    "id": "920c61739882",
+    "label": "43 RUE CARPEAUX, Wasquehal",
+    "lat": 50.691343,
+    "lng": 3.144967,
+    "transactions": [
+      {
+        "date": "2020-11-04",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-24",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "09bf917356d3": {
+    "id": "09bf917356d3",
+    "label": "205 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.692997,
+    "lng": 3.1482,
+    "transactions": [
+      {
+        "date": "2020-07-03",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a29f8af6ed7": {
+    "id": "2a29f8af6ed7",
+    "label": "213 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.693147,
+    "lng": 3.148277,
+    "transactions": [
+      {
+        "date": "2020-07-28",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "99351d130d84": {
+    "id": "99351d130d84",
+    "label": "199 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.692811,
+    "lng": 3.148094,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 13666.67,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f6c20f74879": {
+    "id": "5f6c20f74879",
+    "label": "50 RUE LUCIEN VISEUR, Wasquehal",
+    "lat": 50.688755,
+    "lng": 3.147494,
+    "transactions": [
+      {
+        "date": "2020-07-20",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "891b73af84fa": {
+    "id": "891b73af84fa",
+    "label": "31 RUE LUCIEN VISEUR, Wasquehal",
+    "lat": 50.688553,
+    "lng": 3.146352,
+    "transactions": [
+      {
+        "date": "2020-08-07",
+        "priceEur": 305500,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "622647b8a585": {
+    "id": "622647b8a585",
+    "label": "2 RUE DE COLMAR, Wasquehal",
+    "lat": 50.6884,
+    "lng": 3.148469,
+    "transactions": [
+      {
+        "date": "2022-04-28",
+        "priceEur": 152750,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-30",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd9d485ba55c": {
+    "id": "cd9d485ba55c",
+    "label": "30 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.689064,
+    "lng": 3.144914,
+    "transactions": [
+      {
+        "date": "2020-08-07",
+        "priceEur": 264000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2f86db358d8": {
+    "id": "a2f86db358d8",
+    "label": "9 RUE WATTEAU, Wasquehal",
+    "lat": 50.691772,
+    "lng": 3.146059,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 144000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "52f109d43617": {
+    "id": "52f109d43617",
+    "label": "8 RUE DU FAVREUIL, Roubaix",
+    "lat": 50.691548,
+    "lng": 3.152724,
+    "transactions": [
+      {
+        "date": "2020-07-29",
+        "priceEur": 58000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "31a8eac5f70c": {
+    "id": "31a8eac5f70c",
+    "label": "102 RUE CARPEAUX, Wasquehal",
+    "lat": 50.692988,
+    "lng": 3.14716,
+    "transactions": [
+      {
+        "date": "2024-03-20",
+        "priceEur": 252300,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-26",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "12ee23cf9c6c": {
+    "id": "12ee23cf9c6c",
+    "label": "52 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.689944,
+    "lng": 3.145806,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "d622f3ea4259": {
+    "id": "d622f3ea4259",
+    "label": "225 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.693323,
+    "lng": 3.148469,
+    "transactions": [
+      {
+        "date": "2020-09-04",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0189dc9437e": {
+    "id": "b0189dc9437e",
+    "label": "241 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.693604,
+    "lng": 3.148737,
+    "transactions": [
+      {
+        "date": "2020-09-23",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f066c22bbf1": {
+    "id": "2f066c22bbf1",
+    "label": "26 RUE CARPEAUX, Wasquehal",
+    "lat": 50.690932,
+    "lng": 3.145131,
+    "transactions": [
+      {
+        "date": "2020-09-15",
+        "priceEur": 216980,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "171237d8cff0": {
+    "id": "171237d8cff0",
+    "label": "19 RUE DE MULHOUSE, Wasquehal",
+    "lat": 50.687813,
+    "lng": 3.148595,
+    "transactions": [
+      {
+        "date": "2020-10-02",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a0bc00d07a9": {
+    "id": "9a0bc00d07a9",
+    "label": "53 RUE CARPEAUX, Wasquehal",
+    "lat": 50.691466,
+    "lng": 3.145239,
+    "transactions": [
+      {
+        "date": "2020-10-01",
+        "priceEur": 119000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "fddbd1967365": {
+    "id": "fddbd1967365",
+    "label": "241 RUE LOUIS SEIGNEUR, Croix",
+    "lat": 50.692484,
+    "lng": 3.152628,
+    "transactions": [
+      {
+        "date": "2024-12-16",
+        "priceEur": 205050,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-14",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "dfeeaa9947e1": {
+    "id": "dfeeaa9947e1",
+    "label": "13 RUE HOCHE, Croix",
+    "lat": 50.688552,
+    "lng": 3.150867,
+    "transactions": [
+      {
+        "date": "2020-10-09",
+        "priceEur": 72000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c6496faa59a": {
+    "id": "3c6496faa59a",
+    "label": "2 RUE ACHILLE TESTELIN, Wasquehal",
+    "lat": 50.691197,
+    "lng": 3.146441,
+    "transactions": [
+      {
+        "date": "2023-06-12",
+        "priceEur": 194500,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-14",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5ba7916d73e": {
+    "id": "d5ba7916d73e",
+    "label": "195 RUE DE LA MACKELLERIE, Roubaix",
+    "lat": 50.689377,
+    "lng": 3.151956,
+    "transactions": [
+      {
+        "date": "2020-09-29",
+        "priceEur": 317000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-29",
+        "priceEur": 317000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8385f296242": {
+    "id": "e8385f296242",
+    "label": "16 IMP JEAN DE MARKRIES, Roubaix",
+    "lat": 50.688291,
+    "lng": 3.152069,
+    "transactions": [
+      {
+        "date": "2020-10-26",
+        "priceEur": 121000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "4bc6c864c6cf": {
+    "id": "4bc6c864c6cf",
+    "label": "5 QUAI DES ALLIES, Wasquehal",
+    "lat": 50.69184,
+    "lng": 3.142451,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 348500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-26",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-16",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "70a692e0b836": {
+    "id": "70a692e0b836",
+    "label": "33 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.688753,
+    "lng": 3.14388,
+    "transactions": [
+      {
+        "date": "2020-10-07",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "967b9a703673": {
+    "id": "967b9a703673",
+    "label": "105 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.690694,
+    "lng": 3.145898,
+    "transactions": [
+      {
+        "date": "2020-11-09",
+        "priceEur": 217000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "0da3094e0836": {
+    "id": "0da3094e0836",
+    "label": "45 RUE DU RIEZ, Croix",
+    "lat": 50.692973,
+    "lng": 3.151199,
+    "transactions": [
+      {
+        "date": "2020-11-10",
+        "priceEur": 121000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a437b242245": {
+    "id": "3a437b242245",
+    "label": "6 RUE HOCHE, Croix",
+    "lat": 50.688708,
+    "lng": 3.151263,
+    "transactions": [
+      {
+        "date": "2020-10-29",
+        "priceEur": 129000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "337bb2f66a84": {
+    "id": "337bb2f66a84",
+    "label": "5 RUE BAUDIN, Croix",
+    "lat": 50.688152,
+    "lng": 3.15087,
+    "transactions": [
+      {
+        "date": "2020-10-26",
+        "priceEur": 148650,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "5cf3d3ece584": {
+    "id": "5cf3d3ece584",
+    "label": "119 RUE LOUIS SEIGNEUR, Croix",
+    "lat": 50.689558,
+    "lng": 3.151387,
+    "transactions": [
+      {
+        "date": "2020-11-13",
+        "priceEur": 157250,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "87cd76695a7e": {
+    "id": "87cd76695a7e",
+    "label": "56 RUE CARPEAUX, Wasquehal",
+    "lat": 50.691819,
+    "lng": 3.14597,
+    "transactions": [
+      {
+        "date": "2020-11-04",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "2275a1b99f78": {
+    "id": "2275a1b99f78",
+    "label": "39 RUE RASPAIL, Croix",
+    "lat": 50.689864,
+    "lng": 3.15009,
+    "transactions": [
+      {
+        "date": "2020-10-28",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "ef560defde8a": {
+    "id": "ef560defde8a",
+    "label": "99 RUE DE LA MACKELLERIE, Roubaix",
+    "lat": 50.691879,
+    "lng": 3.152746,
+    "transactions": [
+      {
+        "date": "2020-11-18",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "8fc585ba8fd5": {
+    "id": "8fc585ba8fd5",
+    "label": "49 RUE PAUL BERT, Croix",
+    "lat": 50.689217,
+    "lng": 3.150623,
+    "transactions": [
+      {
+        "date": "2020-12-01",
+        "priceEur": 123200,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "80834eea3838": {
+    "id": "80834eea3838",
+    "label": "146 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.692213,
+    "lng": 3.148083,
+    "transactions": [
+      {
+        "date": "2020-12-03",
+        "priceEur": 199900,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "b18d04b5ae70": {
+    "id": "b18d04b5ae70",
+    "label": "107 RUE JEAN WASTYN, Wasquehal",
+    "lat": 50.688644,
+    "lng": 3.147841,
+    "transactions": [
+      {
+        "date": "2020-11-14",
+        "priceEur": 255423,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea93012df43c": {
+    "id": "ea93012df43c",
+    "label": "6 RUE ROSA BONHEUR, Wasquehal",
+    "lat": 50.692797,
+    "lng": 3.145366,
+    "transactions": [
+      {
+        "date": "2020-12-10",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "0579ea191192": {
+    "id": "0579ea191192",
+    "label": "42 RUE PAUL BERT, Croix",
+    "lat": 50.689046,
+    "lng": 3.15097,
+    "transactions": [
+      {
+        "date": "2020-12-10",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd09fbdf6ff6": {
+    "id": "cd09fbdf6ff6",
+    "label": "20 RUE EUGENE GUILLAUME, Wasquehal",
+    "lat": 50.692624,
+    "lng": 3.146961,
+    "transactions": [
+      {
+        "date": "2020-12-16",
+        "priceEur": 152650,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "c74f24ed3caf": {
+    "id": "c74f24ed3caf",
+    "label": "34 RUE PAUL BERT, Croix",
+    "lat": 50.688926,
+    "lng": 3.150754,
+    "transactions": [
+      {
+        "date": "2022-05-20",
+        "priceEur": 274000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-18",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "f2d65d30f73a": {
+    "id": "f2d65d30f73a",
+    "label": "91 RUE LOUIS SEIGNEUR, Croix",
+    "lat": 50.688805,
+    "lng": 3.151449,
+    "transactions": [
+      {
+        "date": "2020-12-16",
+        "priceEur": 170000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-16",
+        "priceEur": 170000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "2482e03ac283": {
+    "id": "2482e03ac283",
+    "label": "208 RUE LAMARTINE, Wasquehal",
+    "lat": 50.69222,
+    "lng": 3.142215,
+    "transactions": [
+      {
+        "date": "2020-12-04",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "25a03348fc4e": {
+    "id": "25a03348fc4e",
+    "label": "10 RUE DE LA BRIQUETERIE, Croix",
+    "lat": 50.69114,
+    "lng": 3.150973,
+    "transactions": [
+      {
+        "date": "2020-12-21",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "61c8f70f7d42": {
+    "id": "61c8f70f7d42",
+    "label": "102 RUE JEAN WASTYN, Wasquehal",
+    "lat": 50.688821,
+    "lng": 3.148904,
+    "transactions": [
+      {
+        "date": "2020-12-21",
+        "priceEur": 251700,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ea3c7b7d394": {
+    "id": "3ea3c7b7d394",
+    "label": "16 RUE DU RIEZ, Tourcoing",
+    "lat": 50.693339,
+    "lng": 3.150958,
+    "transactions": [
+      {
+        "date": "2020-07-10",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "07021d4b9b46": {
+    "id": "07021d4b9b46",
+    "label": "2 RUE DEREGNAUCOURT, Tourcoing",
+    "lat": 50.69373,
+    "lng": 3.150577,
+    "transactions": [
+      {
+        "date": "2022-11-29",
+        "priceEur": 147000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-22",
+        "priceEur": 106000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "94496da2efa1": {
+    "id": "94496da2efa1",
+    "label": "19 AV FREDERIC SAUVAGE, Tourcoing",
+    "lat": 50.694391,
+    "lng": 3.143507,
+    "transactions": [
+      {
+        "date": "2020-07-24",
+        "priceEur": 392000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "34da9264a385": {
+    "id": "34da9264a385",
+    "label": "2 AV SANTOS DUMONT, Tourcoing",
+    "lat": 50.69402,
+    "lng": 3.142958,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 118998.18,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b5dfe6d782e": {
+    "id": "8b5dfe6d782e",
+    "label": "62 RUE DE WASQUEHAL, Mouvaux",
+    "lat": 50.693569,
+    "lng": 3.1425,
+    "transactions": [
+      {
+        "date": "2020-09-04",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "47b6d4062956": {
+    "id": "47b6d4062956",
+    "label": "3 RUE CONSTANTINE CR BRUGGEMAN, Tourcoing",
+    "lat": 50.693709,
+    "lng": 3.152689,
+    "transactions": [
+      {
+        "date": "2020-09-04",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d2ee76a62d0": {
+    "id": "6d2ee76a62d0",
+    "label": "45 AV DESIRE SIX, Tourcoing",
+    "lat": 50.694207,
+    "lng": 3.144753,
+    "transactions": [
+      {
+        "date": "2020-09-28",
+        "priceEur": 381000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "7080d85850e5": {
+    "id": "7080d85850e5",
+    "label": "44 RUE DE CROIX, Tourcoing",
+    "lat": 50.6937,
+    "lng": 3.151939,
+    "transactions": [
+      {
+        "date": "2020-10-01",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0b9b5c149fa": {
+    "id": "e0b9b5c149fa",
+    "label": "6 RUE BERANGER, Tourcoing",
+    "lat": 50.694614,
+    "lng": 3.151705,
+    "transactions": [
+      {
+        "date": "2020-10-08",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6536009b066": {
+    "id": "d6536009b066",
+    "label": "25 AV DU PEINTRE GRAU, Tourcoing",
+    "lat": 50.693695,
+    "lng": 3.143577,
+    "transactions": [
+      {
+        "date": "2023-11-20",
+        "priceEur": 116000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-16",
+        "priceEur": 115650,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "f64aaf421ede": {
+    "id": "f64aaf421ede",
+    "label": "10 AV SANTOS DUMONT, Tourcoing",
+    "lat": 50.693884,
+    "lng": 3.142802,
+    "transactions": [
+      {
+        "date": "2020-10-24",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "da322c1aa285": {
+    "id": "da322c1aa285",
+    "label": "16 AV FREDERIC SAUVAGE, Tourcoing",
+    "lat": 50.694636,
+    "lng": 3.143959,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 298000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "71a689a46326": {
+    "id": "71a689a46326",
+    "label": "32 RUE DU RIEZ, Tourcoing",
+    "lat": 50.693467,
+    "lng": 3.150312,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 119000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "c893c3ec56b4": {
+    "id": "c893c3ec56b4",
+    "label": "18 AV SANTOS DUMONT, Tourcoing",
+    "lat": 50.693755,
+    "lng": 3.142606,
+    "transactions": [
+      {
+        "date": "2023-01-17",
+        "priceEur": 99500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-17",
+        "priceEur": 99500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 27,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-16",
+        "priceEur": 45500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 27,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-20",
+        "priceEur": 80000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-20",
+        "priceEur": 80000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-16",
+        "priceEur": 74000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "8de852b82aa0": {
+    "id": "8de852b82aa0",
+    "label": "26 RUE DE WASQUEHAL, Tourcoing",
+    "lat": 50.694309,
+    "lng": 3.149531,
+    "transactions": [
+      {
+        "date": "2020-12-17",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9ff5798e93a": {
+    "id": "b9ff5798e93a",
+    "label": "2 IMP FLORIN RUE DE WASQUEHAL, Mouvaux",
+    "lat": 50.693664,
+    "lng": 3.142216,
+    "transactions": [
+      {
+        "date": "2020-12-17",
+        "priceEur": 819000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "dba95ec60f25": {
+    "id": "dba95ec60f25",
+    "label": "4 IMP FLORIN RUE DE WASQUEHAL, Mouvaux",
+    "lat": 50.693626,
+    "lng": 3.14219,
+    "transactions": [
+      {
+        "date": "2020-12-17",
+        "priceEur": 819000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8eafe051ec3": {
+    "id": "f8eafe051ec3",
+    "label": "8 IMP FLORIN RUE DE WASQUEHAL, Mouvaux",
+    "lat": 50.693568,
+    "lng": 3.142132,
+    "transactions": [
+      {
+        "date": "2020-12-17",
+        "priceEur": 819000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "928d343dcaca": {
+    "id": "928d343dcaca",
+    "label": "10 IMP FLORIN RUE DE WASQUEHAL, Mouvaux",
+    "lat": 50.693541,
+    "lng": 3.142098,
+    "transactions": [
+      {
+        "date": "2020-12-17",
+        "priceEur": 819000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc85118329c0": {
+    "id": "bc85118329c0",
+    "label": "9 IMP FLORIN RUE DE WASQUEHAL, Mouvaux",
+    "lat": 50.693433,
+    "lng": 3.142169,
+    "transactions": [
+      {
+        "date": "2020-12-17",
+        "priceEur": 819000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "28dee4200c30": {
+    "id": "28dee4200c30",
+    "label": "7 IMP FLORIN RUE DE WASQUEHAL, Mouvaux",
+    "lat": 50.693464,
+    "lng": 3.142207,
+    "transactions": [
+      {
+        "date": "2020-12-17",
+        "priceEur": 819000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "534026f49102": {
+    "id": "534026f49102",
+    "label": "5 IMP FLORIN RUE DE WASQUEHAL, Mouvaux",
+    "lat": 50.693494,
+    "lng": 3.142239,
+    "transactions": [
+      {
+        "date": "2020-12-17",
+        "priceEur": 819000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "a4a163858ac9": {
+    "id": "a4a163858ac9",
+    "label": "3 IMP FLORIN RUE DE WASQUEHAL, Mouvaux",
+    "lat": 50.693523,
+    "lng": 3.142279,
+    "transactions": [
+      {
+        "date": "2020-12-17",
+        "priceEur": 819000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "29a65c308d14": {
+    "id": "29a65c308d14",
+    "label": "74 RUE DE WASQUEHAL, Mouvaux",
+    "lat": 50.693365,
+    "lng": 3.142355,
+    "transactions": [
+      {
+        "date": "2020-12-17",
+        "priceEur": 819000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "3770d2d890b3": {
+    "id": "3770d2d890b3",
+    "label": "38 RUE LA FONTAINE, Wasquehal",
+    "lat": 50.693726,
+    "lng": 3.148633,
+    "transactions": [
+      {
+        "date": "2021-01-15",
+        "priceEur": 137500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "dbd31aad9e14": {
+    "id": "dbd31aad9e14",
+    "label": "96 RUE JEAN WASTYN, Wasquehal",
+    "lat": 50.688728,
+    "lng": 3.148717,
+    "transactions": [
+      {
+        "date": "2021-01-06",
+        "priceEur": 145000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "7401098a1dd7": {
+    "id": "7401098a1dd7",
+    "label": "22 RUE FLORIMOND DESBARBIEUX, Croix",
+    "lat": 50.69016,
+    "lng": 3.149311,
+    "transactions": [
+      {
+        "date": "2021-01-26",
+        "priceEur": 167400,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7bb070d12e8": {
+    "id": "b7bb070d12e8",
+    "label": "136 RUE CARPEAUX, Wasquehal",
+    "lat": 50.693591,
+    "lng": 3.147943,
+    "transactions": [
+      {
+        "date": "2021-01-27",
+        "priceEur": 102000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad1233bc1876": {
+    "id": "ad1233bc1876",
+    "label": "9 RUE DE LA BRIQUETERIE, Croix",
+    "lat": 50.690866,
+    "lng": 3.150576,
+    "transactions": [
+      {
+        "date": "2021-01-27",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d76e8f5c3d3": {
+    "id": "9d76e8f5c3d3",
+    "label": "85 RUE JEAN WASTYN, Wasquehal",
+    "lat": 50.688315,
+    "lng": 3.147311,
+    "transactions": [
+      {
+        "date": "2021-02-15",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "c24e78d9b5ab": {
+    "id": "c24e78d9b5ab",
+    "label": "15 RUE ACHILLE TESTELIN, Wasquehal",
+    "lat": 50.691229,
+    "lng": 3.145565,
+    "transactions": [
+      {
+        "date": "2024-06-11",
+        "priceEur": 204500,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-17",
+        "priceEur": 143050,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc6d217df639": {
+    "id": "bc6d217df639",
+    "label": "123B RUE LOUIS SEIGNEUR, Croix",
+    "lat": 50.689915,
+    "lng": 3.151378,
+    "transactions": [
+      {
+        "date": "2021-02-15",
+        "priceEur": 62000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "495fdef87855": {
+    "id": "495fdef87855",
+    "label": "48 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.689838,
+    "lng": 3.145692,
+    "transactions": [
+      {
+        "date": "2021-03-08",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "5cfec5058906": {
+    "id": "5cfec5058906",
+    "label": "18 RUE EUGENE GUILLAUME, Wasquehal",
+    "lat": 50.692534,
+    "lng": 3.146947,
+    "transactions": [
+      {
+        "date": "2021-02-17",
+        "priceEur": 105150,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "34b4f8626a7d": {
+    "id": "34b4f8626a7d",
+    "label": "13 RUE CARPEAUX, Wasquehal",
+    "lat": 50.690869,
+    "lng": 3.144407,
+    "transactions": [
+      {
+        "date": "2021-02-23",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6b033d84ebd": {
+    "id": "d6b033d84ebd",
+    "label": "10 RUE HOCHE, Croix",
+    "lat": 50.688738,
+    "lng": 3.151155,
+    "transactions": [
+      {
+        "date": "2021-03-09",
+        "priceEur": 123200,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "4846a9cd85ce": {
+    "id": "4846a9cd85ce",
+    "label": "5 CITE ST LOUIS RUE MACKELLERIE, Roubaix",
+    "lat": 50.689213,
+    "lng": 3.152601,
+    "transactions": [
+      {
+        "date": "2021-03-02",
+        "priceEur": 131000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f9c8417dcfc": {
+    "id": "9f9c8417dcfc",
+    "label": "38 RUE DES TROIS VILLES, Croix",
+    "lat": 50.693526,
+    "lng": 3.152577,
+    "transactions": [
+      {
+        "date": "2021-03-03",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3efa2b18dfa": {
+    "id": "c3efa2b18dfa",
+    "label": "1 RUE PAUL BERT, Croix",
+    "lat": 50.688322,
+    "lng": 3.149709,
+    "transactions": [
+      {
+        "date": "2021-03-31",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "c8b99e987e3b": {
+    "id": "c8b99e987e3b",
+    "label": "39 RUE CARPEAUX, Wasquehal",
+    "lat": 50.691283,
+    "lng": 3.144883,
+    "transactions": [
+      {
+        "date": "2021-03-16",
+        "priceEur": 113500,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "e266d9cbb249": {
+    "id": "e266d9cbb249",
+    "label": "61 RUE LOUIS SEIGNEUR, Croix",
+    "lat": 50.687971,
+    "lng": 3.151056,
+    "transactions": [
+      {
+        "date": "2021-03-26",
+        "priceEur": 146000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "e005969d3d20": {
+    "id": "e005969d3d20",
+    "label": "173 RUE DE LA MACKELLERIE, Roubaix",
+    "lat": 50.689557,
+    "lng": 3.151707,
+    "transactions": [
+      {
+        "date": "2022-12-08",
+        "priceEur": 92510,
+        "typeLocal": "Maison",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-06",
+        "priceEur": 80500,
+        "typeLocal": "Maison",
+        "surfaceM2": 39,
+        "isVefa": false
+      }
+    ]
+  },
+  "96bbd1e3a0f2": {
+    "id": "96bbd1e3a0f2",
+    "label": "19 RUE RASPAIL, Croix",
+    "lat": 50.689562,
+    "lng": 3.149389,
+    "transactions": [
+      {
+        "date": "2021-03-26",
+        "priceEur": 257800,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0dcdf6ffdd6": {
+    "id": "b0dcdf6ffdd6",
+    "label": "12 SEN DU CANAL, Wasquehal",
+    "lat": 50.690759,
+    "lng": 3.144144,
+    "transactions": [
+      {
+        "date": "2021-04-14",
+        "priceEur": 146050,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "06772a39a3dc": {
+    "id": "06772a39a3dc",
+    "label": "53 RUE PAUL BERT, Croix",
+    "lat": 50.689258,
+    "lng": 3.150718,
+    "transactions": [
+      {
+        "date": "2021-04-06",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d1b27752434": {
+    "id": "4d1b27752434",
+    "label": "11 IMP JEAN DE MARKRIES, Roubaix",
+    "lat": 50.688626,
+    "lng": 3.152102,
+    "transactions": [
+      {
+        "date": "2021-03-10",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "5067a4946693": {
+    "id": "5067a4946693",
+    "label": "51 RUE DU RIEZ, Croix",
+    "lat": 50.692883,
+    "lng": 3.150994,
+    "transactions": [
+      {
+        "date": "2021-04-23",
+        "priceEur": 210100,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e7f451b0ac0": {
+    "id": "0e7f451b0ac0",
+    "label": "34 RUE LUCIEN VISEUR, Wasquehal",
+    "lat": 50.688468,
+    "lng": 3.147129,
+    "transactions": [
+      {
+        "date": "2021-03-29",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "23eba4158b2a": {
+    "id": "23eba4158b2a",
+    "label": "163 RUE CARPEAUX, Wasquehal",
+    "lat": 50.694064,
+    "lng": 3.147963,
+    "transactions": [
+      {
+        "date": "2021-04-28",
+        "priceEur": 181000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9728e924e79": {
+    "id": "c9728e924e79",
+    "label": "25B RUE FAVREUIL, Croix",
+    "lat": 50.692117,
+    "lng": 3.15127,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 144000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-16",
+        "priceEur": 137000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "044a4b12d65c": {
+    "id": "044a4b12d65c",
+    "label": "121 RUE CARPEAUX, Wasquehal",
+    "lat": 50.69334,
+    "lng": 3.14695,
+    "transactions": [
+      {
+        "date": "2021-04-01",
+        "priceEur": 153350,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "21886ebb6ddc": {
+    "id": "21886ebb6ddc",
+    "label": "14 RUE LA FONTAINE, Wasquehal",
+    "lat": 50.6933,
+    "lng": 3.148191,
+    "transactions": [
+      {
+        "date": "2021-04-19",
+        "priceEur": 141000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "cded05069e39": {
+    "id": "cded05069e39",
+    "label": "67 RUE PAUL BERT, Croix",
+    "lat": 50.689435,
+    "lng": 3.151053,
+    "transactions": [
+      {
+        "date": "2021-04-08",
+        "priceEur": 161000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1140d364614": {
+    "id": "e1140d364614",
+    "label": "102 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.691435,
+    "lng": 3.147493,
+    "transactions": [
+      {
+        "date": "2021-04-29",
+        "priceEur": 283000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "f58775fbbd93": {
+    "id": "f58775fbbd93",
+    "label": "235 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.693501,
+    "lng": 3.148658,
+    "transactions": [
+      {
+        "date": "2021-04-28",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "03c181093f4c": {
+    "id": "03c181093f4c",
+    "label": "41 RUE FLORIMOND DESBARBIEUX, Croix",
+    "lat": 50.691039,
+    "lng": 3.149472,
+    "transactions": [
+      {
+        "date": "2021-05-11",
+        "priceEur": 234000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "8545ac2033ac": {
+    "id": "8545ac2033ac",
+    "label": "3 RUE CLAUDE BERNARD, Croix",
+    "lat": 50.692631,
+    "lng": 3.150918,
+    "transactions": [
+      {
+        "date": "2021-05-17",
+        "priceEur": 147000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "477ce97d7f75": {
+    "id": "477ce97d7f75",
+    "label": "63 RUE PAUL BERT, Croix",
+    "lat": 50.68939,
+    "lng": 3.150956,
+    "transactions": [
+      {
+        "date": "2025-05-07",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-10",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "748602375918": {
+    "id": "748602375918",
+    "label": "69 RUE JEAN WASTYN, Wasquehal",
+    "lat": 50.687925,
+    "lng": 3.147024,
+    "transactions": [
+      {
+        "date": "2021-05-12",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "41b1e8e19578": {
+    "id": "41b1e8e19578",
+    "label": "13 RUE SAINT QUENTIN, Tourcoing",
+    "lat": 50.694551,
+    "lng": 3.148289,
+    "transactions": [
+      {
+        "date": "2021-02-01",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "bdec80fddbb9": {
+    "id": "bdec80fddbb9",
+    "label": "44 RUE BERANGER, Tourcoing",
+    "lat": 50.693898,
+    "lng": 3.151238,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 149500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-17",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "39bc6384c8a6": {
+    "id": "39bc6384c8a6",
+    "label": "8 RUE SAINT QUENTIN, Tourcoing",
+    "lat": 50.694676,
+    "lng": 3.147805,
+    "transactions": [
+      {
+        "date": "2021-02-22",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9bfe1b7e5a0": {
+    "id": "f9bfe1b7e5a0",
+    "label": "18 AV FREDERIC SAUVAGE, Tourcoing",
+    "lat": 50.694657,
+    "lng": 3.143888,
+    "transactions": [
+      {
+        "date": "2021-03-12",
+        "priceEur": 245350,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "c56b0fa22aeb": {
+    "id": "c56b0fa22aeb",
+    "label": "46 RUE BERANGER, Tourcoing",
+    "lat": 50.693861,
+    "lng": 3.151185,
+    "transactions": [
+      {
+        "date": "2021-03-19",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "48852a113a9f": {
+    "id": "48852a113a9f",
+    "label": "12 RUE DE MEZIERES, Tourcoing",
+    "lat": 50.694533,
+    "lng": 3.148508,
+    "transactions": [
+      {
+        "date": "2021-04-23",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "a78bc15a042e": {
+    "id": "a78bc15a042e",
+    "label": "80 RUE DE CROIX, Tourcoing",
+    "lat": 50.693336,
+    "lng": 3.151637,
+    "transactions": [
+      {
+        "date": "2021-04-07",
+        "priceEur": 76000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "ab32f84a5bf6": {
+    "id": "ab32f84a5bf6",
+    "label": "50 AV DESIRE SIX, Tourcoing",
+    "lat": 50.694092,
+    "lng": 3.143932,
+    "transactions": [
+      {
+        "date": "2021-04-15",
+        "priceEur": 326400,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6336f71f05b": {
+    "id": "d6336f71f05b",
+    "label": "27 AV DESIRE SIX, Tourcoing",
+    "lat": 50.694575,
+    "lng": 3.145331,
+    "transactions": [
+      {
+        "date": "2021-05-20",
+        "priceEur": 352000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "a6cfb6fb52d6": {
+    "id": "a6cfb6fb52d6",
+    "label": "6 RUE DE WASQUEHAL, Tourcoing",
+    "lat": 50.694708,
+    "lng": 3.149947,
+    "transactions": [
+      {
+        "date": "2021-05-27",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9098ebbd3e1": {
+    "id": "f9098ebbd3e1",
+    "label": "250 RUE LAMARTINE, Wasquehal",
+    "lat": 50.693048,
+    "lng": 3.142736,
+    "transactions": [
+      {
+        "date": "2021-05-17",
+        "priceEur": 195230,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "e3bd5f3ff56f": {
+    "id": "e3bd5f3ff56f",
+    "label": "21 RUE DE CROIX, Tourcoing",
+    "lat": 50.693744,
+    "lng": 3.152569,
+    "transactions": [
+      {
+        "date": "2021-06-04",
+        "priceEur": 143200,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "b09d92d89d28": {
+    "id": "b09d92d89d28",
+    "label": "20 RUE DE LA MACKELLERIE 197, Roubaix",
+    "lat": 50.688687,
+    "lng": 3.152295,
+    "transactions": [
+      {
+        "date": "2021-06-15",
+        "priceEur": 126170,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "fbb760129793": {
+    "id": "fbb760129793",
+    "label": "15 RUE FLORIMOND DESBARBIEUX, Croix",
+    "lat": 50.690194,
+    "lng": 3.148314,
+    "transactions": [
+      {
+        "date": "2022-12-09",
+        "priceEur": 294400,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-11",
+        "priceEur": 287450,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "dfce58f6bea1": {
+    "id": "dfce58f6bea1",
+    "label": "32 RUE DE WASQUEHAL, Tourcoing",
+    "lat": 50.694218,
+    "lng": 3.149226,
+    "transactions": [
+      {
+        "date": "2021-06-18",
+        "priceEur": 298200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-18",
+        "priceEur": 298200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-18",
+        "priceEur": 298200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "a48eb982fdc0": {
+    "id": "a48eb982fdc0",
+    "label": "33 RUE LUCIEN VISEUR, Wasquehal",
+    "lat": 50.688604,
+    "lng": 3.146352,
+    "transactions": [
+      {
+        "date": "2021-06-28",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "7bf806375999": {
+    "id": "7bf806375999",
+    "label": "194 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.693267,
+    "lng": 3.149224,
+    "transactions": [
+      {
+        "date": "2021-06-15",
+        "priceEur": 237000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "e329e911c830": {
+    "id": "e329e911c830",
+    "label": "54 RUE FAVREUIL, Croix",
+    "lat": 50.692606,
+    "lng": 3.150841,
+    "transactions": [
+      {
+        "date": "2021-06-28",
+        "priceEur": 136790,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "2bd986f8ed22": {
+    "id": "2bd986f8ed22",
+    "label": "7 QUAI DES ALLIES, Wasquehal",
+    "lat": 50.692918,
+    "lng": 3.143584,
+    "transactions": [
+      {
+        "date": "2021-06-21",
+        "priceEur": 445000,
+        "typeLocal": "Maison",
+        "surfaceM2": 182,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf94a8ae6f65": {
+    "id": "bf94a8ae6f65",
+    "label": "5 RUE CLAUDE BERNARD, Croix",
+    "lat": 50.692704,
+    "lng": 3.150964,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "c1d860650910": {
+    "id": "c1d860650910",
+    "label": "5 RUE CONSTANTINE CR BRUGGEMAN, Tourcoing",
+    "lat": 50.693664,
+    "lng": 3.152638,
+    "transactions": [
+      {
+        "date": "2024-05-21",
+        "priceEur": 93500,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-05",
+        "priceEur": 90500,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  },
+  "63a69cf90e9c": {
+    "id": "63a69cf90e9c",
+    "label": "71 RUE DU RIEZ, Tourcoing",
+    "lat": 50.694183,
+    "lng": 3.147649,
+    "transactions": [
+      {
+        "date": "2022-10-03",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-25",
+        "priceEur": 113600,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-29",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "281bfce10a51": {
+    "id": "281bfce10a51",
+    "label": "13 RUE RASPAIL, Croix",
+    "lat": 50.689491,
+    "lng": 3.149153,
+    "transactions": [
+      {
+        "date": "2021-07-12",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "242fcadf1922": {
+    "id": "242fcadf1922",
+    "label": "21 RUE FAIDHERBE, Croix",
+    "lat": 50.687937,
+    "lng": 3.150125,
+    "transactions": [
+      {
+        "date": "2021-06-18",
+        "priceEur": 101000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "3eb5e9d6f170": {
+    "id": "3eb5e9d6f170",
+    "label": "9 QUAI DU BLANC SEAU, Tourcoing",
+    "lat": 50.694696,
+    "lng": 3.145913,
+    "transactions": [
+      {
+        "date": "2021-07-09",
+        "priceEur": 363900,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b44d0bb5484": {
+    "id": "2b44d0bb5484",
+    "label": "25 RUE LUCIEN VISEUR, Wasquehal",
+    "lat": 50.688471,
+    "lng": 3.14616,
+    "transactions": [
+      {
+        "date": "2021-07-07",
+        "priceEur": 371500,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "04f2f86ab0f2": {
+    "id": "04f2f86ab0f2",
+    "label": "157 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.692021,
+    "lng": 3.147009,
+    "transactions": [
+      {
+        "date": "2021-07-28",
+        "priceEur": 228600,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "a74b5a882ef3": {
+    "id": "a74b5a882ef3",
+    "label": "5 RUE TOURCOING CITE RENAISSANCE, Wasquehal",
+    "lat": 50.689582,
+    "lng": 3.144515,
+    "transactions": [
+      {
+        "date": "2021-07-28",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "06100f2ea333": {
+    "id": "06100f2ea333",
+    "label": "11 RUE RASPAIL, Croix",
+    "lat": 50.689403,
+    "lng": 3.149033,
+    "transactions": [
+      {
+        "date": "2021-07-22",
+        "priceEur": 270300,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "2aaa255d1ae0": {
+    "id": "2aaa255d1ae0",
+    "label": "15 RUE CHARLES DELESCLUSE, Wasquehal",
+    "lat": 50.690645,
+    "lng": 3.147102,
+    "transactions": [
+      {
+        "date": "2021-07-20",
+        "priceEur": 141000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "737e88c10f44": {
+    "id": "737e88c10f44",
+    "label": "29 RUE DE WASQUEHAL, Tourcoing",
+    "lat": 50.694034,
+    "lng": 3.149632,
+    "transactions": [
+      {
+        "date": "2021-07-27",
+        "priceEur": 89500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-27",
+        "priceEur": 89500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      }
+    ]
+  },
+  "3646ed1acf0e": {
+    "id": "3646ed1acf0e",
+    "label": "7 RUE CONSTANTINE CR BRUGGEMAN, Tourcoing",
+    "lat": 50.693612,
+    "lng": 3.152572,
+    "transactions": [
+      {
+        "date": "2021-07-28",
+        "priceEur": 76000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "b39ecedb82e3": {
+    "id": "b39ecedb82e3",
+    "label": "5 RUE CARPEAUX, Wasquehal",
+    "lat": 50.69075,
+    "lng": 3.14427,
+    "transactions": [
+      {
+        "date": "2023-05-17",
+        "priceEur": 214100,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-10",
+        "priceEur": 197000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "fae09f4662eb": {
+    "id": "fae09f4662eb",
+    "label": "27 AV DU PEINTRE GRAU, Tourcoing",
+    "lat": 50.693672,
+    "lng": 3.143447,
+    "transactions": [
+      {
+        "date": "2023-11-07",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-05",
+        "priceEur": 334100,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c2f80a97c68": {
+    "id": "3c2f80a97c68",
+    "label": "50 RUE PAUL BERT, Croix",
+    "lat": 50.689136,
+    "lng": 3.151148,
+    "transactions": [
+      {
+        "date": "2021-08-20",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "8ef6b057be8a": {
+    "id": "8ef6b057be8a",
+    "label": "12 RUE HOCHE, Croix",
+    "lat": 50.688768,
+    "lng": 3.151125,
+    "transactions": [
+      {
+        "date": "2021-08-25",
+        "priceEur": 106500,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "1597e4e8cfa2": {
+    "id": "1597e4e8cfa2",
+    "label": "3 RUE CARPEAUX, Wasquehal",
+    "lat": 50.690683,
+    "lng": 3.144319,
+    "transactions": [
+      {
+        "date": "2021-09-10",
+        "priceEur": 144000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "2946e314195f": {
+    "id": "2946e314195f",
+    "label": "149 RUE CARPEAUX, Wasquehal",
+    "lat": 50.69386,
+    "lng": 3.147666,
+    "transactions": [
+      {
+        "date": "2021-09-01",
+        "priceEur": 140250,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf950e8e5e28": {
+    "id": "bf950e8e5e28",
+    "label": "12 RUE DU FAVREUIL, Roubaix",
+    "lat": 50.6915,
+    "lng": 3.15279,
+    "transactions": [
+      {
+        "date": "2021-08-25",
+        "priceEur": 124500,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "c8e8f9444301": {
+    "id": "c8e8f9444301",
+    "label": "165 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.692077,
+    "lng": 3.147319,
+    "transactions": [
+      {
+        "date": "2021-09-14",
+        "priceEur": 68000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "e9078cd57a31": {
+    "id": "e9078cd57a31",
+    "label": "63 RUE LOUIS SEIGNEUR, Croix",
+    "lat": 50.68806,
+    "lng": 3.150952,
+    "transactions": [
+      {
+        "date": "2021-08-25",
+        "priceEur": 242000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "1720f725aa15": {
+    "id": "1720f725aa15",
+    "label": "43 RUE DU RIEZ, Croix",
+    "lat": 50.692957,
+    "lng": 3.151246,
+    "transactions": [
+      {
+        "date": "2021-09-10",
+        "priceEur": 156400,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "b58b56de4fa2": {
+    "id": "b58b56de4fa2",
+    "label": "16 CITE ST LOUIS RUE MACKELLERIE, Roubaix",
+    "lat": 50.689504,
+    "lng": 3.152116,
+    "transactions": [
+      {
+        "date": "2022-08-22",
+        "priceEur": 176000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-13",
+        "priceEur": 71000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "e93a3f80a7a3": {
+    "id": "e93a3f80a7a3",
+    "label": "16 RUE WATTEAU, Wasquehal",
+    "lat": 50.691998,
+    "lng": 3.146489,
+    "transactions": [
+      {
+        "date": "2021-09-17",
+        "priceEur": 113000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b83809dc635": {
+    "id": "4b83809dc635",
+    "label": "71 RUE PAUL BERT, Croix",
+    "lat": 50.689492,
+    "lng": 3.151142,
+    "transactions": [
+      {
+        "date": "2021-09-14",
+        "priceEur": 134550,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad0124ea1d9f": {
+    "id": "ad0124ea1d9f",
+    "label": "8 RUE DU DOCTEUR DUPONT, Tourcoing",
+    "lat": 50.694621,
+    "lng": 3.150625,
+    "transactions": [
+      {
+        "date": "2021-09-17",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "bdc7efb95b2d": {
+    "id": "bdc7efb95b2d",
+    "label": "21 RUE LA FONTAINE, Wasquehal",
+    "lat": 50.692978,
+    "lng": 3.147302,
+    "transactions": [
+      {
+        "date": "2024-07-24",
+        "priceEur": 477500,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-30",
+        "priceEur": 475550,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1e2c138da0f": {
+    "id": "b1e2c138da0f",
+    "label": "61 RUE PAUL BERT, Croix",
+    "lat": 50.689359,
+    "lng": 3.150911,
+    "transactions": [
+      {
+        "date": "2021-09-15",
+        "priceEur": 158800,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "cce974e66c69": {
+    "id": "cce974e66c69",
+    "label": "61 RUE RASPAIL, Croix",
+    "lat": 50.690721,
+    "lng": 3.151131,
+    "transactions": [
+      {
+        "date": "2021-09-16",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c4753284ccf": {
+    "id": "5c4753284ccf",
+    "label": "14 RUE CARPEAUX, Wasquehal",
+    "lat": 50.690733,
+    "lng": 3.144942,
+    "transactions": [
+      {
+        "date": "2021-09-02",
+        "priceEur": 182000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "4cd4376ed959": {
+    "id": "4cd4376ed959",
+    "label": "9 RUE LEON BLUM, Wasquehal",
+    "lat": 50.689003,
+    "lng": 3.145503,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 323300,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "e70201881b87": {
+    "id": "e70201881b87",
+    "label": "29 RUE HOCHE, Croix",
+    "lat": 50.68867,
+    "lng": 3.15044,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "c551af410e4d": {
+    "id": "c551af410e4d",
+    "label": "9 RUE DU PRESBYTERE, Croix",
+    "lat": 50.693218,
+    "lng": 3.149827,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 173000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d65fe10bdba": {
+    "id": "7d65fe10bdba",
+    "label": "24 RUE FLORIMOND DESBARBIEUX, Croix",
+    "lat": 50.690224,
+    "lng": 3.149371,
+    "transactions": [
+      {
+        "date": "2021-10-22",
+        "priceEur": 18986,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "20a3594745cf": {
+    "id": "20a3594745cf",
+    "label": "8 RUE ACHILLE TESTELIN, Wasquehal",
+    "lat": 50.691296,
+    "lng": 3.146289,
+    "transactions": [
+      {
+        "date": "2021-10-20",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "1152c01a5a39": {
+    "id": "1152c01a5a39",
+    "label": "66 RUE LUCIEN VISEUR, Wasquehal",
+    "lat": 50.689047,
+    "lng": 3.147862,
+    "transactions": [
+      {
+        "date": "2021-10-08",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "f59dc16c819b": {
+    "id": "f59dc16c819b",
+    "label": "20 RUE HOCHE, Croix",
+    "lat": 50.688824,
+    "lng": 3.150909,
+    "transactions": [
+      {
+        "date": "2021-10-07",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "61662f98299d": {
+    "id": "61662f98299d",
+    "label": "36 RUE PAUL BERT, Croix",
+    "lat": 50.688977,
+    "lng": 3.150854,
+    "transactions": [
+      {
+        "date": "2021-10-11",
+        "priceEur": 161860,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a7972047ba4": {
+    "id": "2a7972047ba4",
+    "label": "117 RUE LOUIS SEIGNEUR, Croix",
+    "lat": 50.689358,
+    "lng": 3.151426,
+    "transactions": [
+      {
+        "date": "2021-10-20",
+        "priceEur": 179100,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "e894b8ad54f0": {
+    "id": "e894b8ad54f0",
+    "label": "4 RUE ACHILLE TESTELIN, Wasquehal",
+    "lat": 50.691253,
+    "lng": 3.146381,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 115100,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f295ae5d220": {
+    "id": "9f295ae5d220",
+    "label": "23 RUE LA FONTAINE, Wasquehal",
+    "lat": 50.693039,
+    "lng": 3.147439,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "c31678c55190": {
+    "id": "c31678c55190",
+    "label": "2 RUE CONSTANTINE CR BRUGGEMAN, Tourcoing",
+    "lat": 50.693765,
+    "lng": 3.152735,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 65500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "472002f943dc": {
+    "id": "472002f943dc",
+    "label": "8 CITE ST LOUIS RUE MACKELLERIE, Roubaix",
+    "lat": 50.689302,
+    "lng": 3.15248,
+    "transactions": [
+      {
+        "date": "2021-11-09",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "d31757edbf47": {
+    "id": "d31757edbf47",
+    "label": "36 RUE BAUDIN, Croix",
+    "lat": 50.688828,
+    "lng": 3.149781,
+    "transactions": [
+      {
+        "date": "2021-10-19",
+        "priceEur": 72000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-19",
+        "priceEur": 72000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "31fa4682b03a": {
+    "id": "31fa4682b03a",
+    "label": "3B RUE CHARLES DELESCLUSE, Wasquehal",
+    "lat": 50.6908,
+    "lng": 3.147049,
+    "transactions": [
+      {
+        "date": "2022-12-27",
+        "priceEur": 112010,
+        "typeLocal": "Appartement",
+        "surfaceM2": 33,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-27",
+        "priceEur": 99000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4fa42916688": {
+    "id": "c4fa42916688",
+    "label": "23 AV FREDERIC SAUVAGE, Tourcoing",
+    "lat": 50.694464,
+    "lng": 3.143386,
+    "transactions": [
+      {
+        "date": "2021-11-04",
+        "priceEur": 450000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "da43f91a083f": {
+    "id": "da43f91a083f",
+    "label": "21 AV FREDERIC SAUVAGE, Tourcoing",
+    "lat": 50.694436,
+    "lng": 3.143443,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 430000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-16",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "6f335741bc22": {
+    "id": "6f335741bc22",
+    "label": "1 RUE JACQUART, Wasquehal",
+    "lat": 50.690494,
+    "lng": 3.146384,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "87edb9baf3b7": {
+    "id": "87edb9baf3b7",
+    "label": "37 RUE BAUDIN, Croix",
+    "lat": 50.688514,
+    "lng": 3.149636,
+    "transactions": [
+      {
+        "date": "2021-10-22",
+        "priceEur": 133730,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "945ba120efd3": {
+    "id": "945ba120efd3",
+    "label": "23 AV DU PEINTRE GRAU, Tourcoing",
+    "lat": 50.693609,
+    "lng": 3.143582,
+    "transactions": [
+      {
+        "date": "2021-11-12",
+        "priceEur": 42560,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "dfc7e33d71fb": {
+    "id": "dfc7e33d71fb",
+    "label": "253 RUE LOUIS SEIGNEUR, Croix",
+    "lat": 50.692643,
+    "lng": 3.152931,
+    "transactions": [
+      {
+        "date": "2021-11-30",
+        "priceEur": 141650,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "5dc685967f4e": {
+    "id": "5dc685967f4e",
+    "label": "26 RUE FAIDHERBE, Croix",
+    "lat": 50.688214,
+    "lng": 3.150311,
+    "transactions": [
+      {
+        "date": "2021-11-08",
+        "priceEur": 209500,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "1cd1a1ea6db1": {
+    "id": "1cd1a1ea6db1",
+    "label": "5 AV FREDERIC SAUVAGE, Tourcoing",
+    "lat": 50.694243,
+    "lng": 3.143973,
+    "transactions": [
+      {
+        "date": "2021-11-17",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1f4383200cc": {
+    "id": "f1f4383200cc",
+    "label": "198 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.693446,
+    "lng": 3.149064,
+    "transactions": [
+      {
+        "date": "2021-11-25",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4451f431b82": {
+    "id": "c4451f431b82",
+    "label": "163 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.692066,
+    "lng": 3.147251,
+    "transactions": [
+      {
+        "date": "2021-11-15",
+        "priceEur": 124765,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "554279622501": {
+    "id": "554279622501",
+    "label": "127 RUE LOUIS SEIGNEUR, Croix",
+    "lat": 50.690068,
+    "lng": 3.151226,
+    "transactions": [
+      {
+        "date": "2021-11-23",
+        "priceEur": 143000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "31d0f929e371": {
+    "id": "31d0f929e371",
+    "label": "55 RUE PAUL BERT, Croix",
+    "lat": 50.689276,
+    "lng": 3.150761,
+    "transactions": [
+      {
+        "date": "2021-11-22",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "01e87113aa8c": {
+    "id": "01e87113aa8c",
+    "label": "13 RUE DE LA BRIQUETERIE, Croix",
+    "lat": 50.69091,
+    "lng": 3.15041,
+    "transactions": [
+      {
+        "date": "2021-12-15",
+        "priceEur": 202260,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "82b4a47c001e": {
+    "id": "82b4a47c001e",
+    "label": "31 RUE HOCHE, Croix",
+    "lat": 50.688689,
+    "lng": 3.150388,
+    "transactions": [
+      {
+        "date": "2021-11-25",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "f439c259e302": {
+    "id": "f439c259e302",
+    "label": "113 RUE LOUIS SEIGNEUR, Croix",
+    "lat": 50.689258,
+    "lng": 3.151412,
+    "transactions": [
+      {
+        "date": "2024-03-08",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-29",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f907f73bd47": {
+    "id": "2f907f73bd47",
+    "label": "35 AV DU PEINTRE GRAU, Tourcoing",
+    "lat": 50.694057,
+    "lng": 3.143029,
+    "transactions": [
+      {
+        "date": "2021-12-22",
+        "priceEur": 108000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ecbd47587a2": {
+    "id": "1ecbd47587a2",
+    "label": "19 RUE JACQUART, Wasquehal",
+    "lat": 50.690308,
+    "lng": 3.146816,
+    "transactions": [
+      {
+        "date": "2021-12-31",
+        "priceEur": 52000,
+        "typeLocal": "Maison",
+        "surfaceM2": 27,
+        "isVefa": false
+      }
+    ]
+  },
+  "6f911f82525f": {
+    "id": "6f911f82525f",
+    "label": "62 RUE PAUL BERT, Croix",
+    "lat": 50.68932,
+    "lng": 3.151373,
+    "transactions": [
+      {
+        "date": "2021-12-29",
+        "priceEur": 82000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f0b2a4a5bb6": {
+    "id": "7f0b2a4a5bb6",
+    "label": "39 AV DU PEINTRE GRAU, Tourcoing",
+    "lat": 50.694079,
+    "lng": 3.142803,
+    "transactions": [
+      {
+        "date": "2022-01-06",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d5f0d87ac1d": {
+    "id": "7d5f0d87ac1d",
+    "label": "18 RUE DE LA MACKELLERIE 197, Roubaix",
+    "lat": 50.688708,
+    "lng": 3.152245,
+    "transactions": [
+      {
+        "date": "2022-01-11",
+        "priceEur": 145900,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4a926c4946e": {
+    "id": "f4a926c4946e",
+    "label": "4 RUE CHARLES DELESCLUSE, Wasquehal",
+    "lat": 50.690558,
+    "lng": 3.146509,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "258ca6bac7bd": {
+    "id": "258ca6bac7bd",
+    "label": "4 RUE DEREGNAUCOURT, Tourcoing",
+    "lat": 50.693681,
+    "lng": 3.150633,
+    "transactions": [
+      {
+        "date": "2022-01-05",
+        "priceEur": 88500,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "11a82921e59f": {
+    "id": "11a82921e59f",
+    "label": "80 RUE JEAN WASTYN, Wasquehal",
+    "lat": 50.688118,
+    "lng": 3.148156,
+    "transactions": [
+      {
+        "date": "2022-01-06",
+        "priceEur": 291000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7636d27fa39": {
+    "id": "b7636d27fa39",
+    "label": "68 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.69057,
+    "lng": 3.146343,
+    "transactions": [
+      {
+        "date": "2022-01-24",
+        "priceEur": 214800,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6354dc65464": {
+    "id": "e6354dc65464",
+    "label": "13 RUE DE CROIX, Tourcoing",
+    "lat": 50.693902,
+    "lng": 3.152586,
+    "transactions": [
+      {
+        "date": "2022-02-09",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9bba5cc9687": {
+    "id": "a9bba5cc9687",
+    "label": "43 RUE BAUDIN, Croix",
+    "lat": 50.688571,
+    "lng": 3.149483,
+    "transactions": [
+      {
+        "date": "2022-01-14",
+        "priceEur": 117400,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "8067c537f041": {
+    "id": "8067c537f041",
+    "label": "11 RUE DES TROIS VILLES, Croix",
+    "lat": 50.693202,
+    "lng": 3.152595,
+    "transactions": [
+      {
+        "date": "2022-01-28",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "c98a9c7ea1fa": {
+    "id": "c98a9c7ea1fa",
+    "label": "3B RUE CLAUDE BERNARD, Croix",
+    "lat": 50.692663,
+    "lng": 3.150945,
+    "transactions": [
+      {
+        "date": "2022-01-25",
+        "priceEur": 161000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "c154ed50dc5d": {
+    "id": "c154ed50dc5d",
+    "label": "1 IMP JEAN DE MARKRIES, Roubaix",
+    "lat": 50.688738,
+    "lng": 3.151852,
+    "transactions": [
+      {
+        "date": "2022-01-20",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f6ee2ed259e": {
+    "id": "3f6ee2ed259e",
+    "label": "31 RUE FAIDHERBE, Croix",
+    "lat": 50.688018,
+    "lng": 3.14988,
+    "transactions": [
+      {
+        "date": "2022-02-10",
+        "priceEur": 147000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "235486dca27d": {
+    "id": "235486dca27d",
+    "label": "24 RUE DU RIEZ, Tourcoing",
+    "lat": 50.693424,
+    "lng": 3.150643,
+    "transactions": [
+      {
+        "date": "2022-02-04",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c2fa0808f39": {
+    "id": "1c2fa0808f39",
+    "label": "1 RUE BAUDIN, Croix",
+    "lat": 50.688135,
+    "lng": 3.151005,
+    "transactions": [
+      {
+        "date": "2023-12-07",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-03",
+        "priceEur": 125600,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3ca6e215983": {
+    "id": "a3ca6e215983",
+    "label": "2B RUE DE MEZIERES, Tourcoing",
+    "lat": 50.694705,
+    "lng": 3.148731,
+    "transactions": [
+      {
+        "date": "2022-02-08",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "377d51134cd7": {
+    "id": "377d51134cd7",
+    "label": "9 IMP JEAN DE MARKRIES, Roubaix",
+    "lat": 50.688638,
+    "lng": 3.152048,
+    "transactions": [
+      {
+        "date": "2022-02-11",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "acac80dd3edc": {
+    "id": "acac80dd3edc",
+    "label": "16 RUE DE WASQUEHAL, Tourcoing",
+    "lat": 50.694444,
+    "lng": 3.149747,
+    "transactions": [
+      {
+        "date": "2022-03-11",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "f24d2f9284e4": {
+    "id": "f24d2f9284e4",
+    "label": "35 RUE FLORIMOND DESBARBIEUX, Croix",
+    "lat": 50.690798,
+    "lng": 3.149193,
+    "transactions": [
+      {
+        "date": "2022-03-15",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "47e46dca100c": {
+    "id": "47e46dca100c",
+    "label": "3B RUE ACHILLE TESTELIN, Wasquehal",
+    "lat": 50.691125,
+    "lng": 3.146088,
+    "transactions": [
+      {
+        "date": "2022-02-24",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-24",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a6c0d0ba45c": {
+    "id": "6a6c0d0ba45c",
+    "label": "48 AV DU PEINTRE GRAU, Tourcoing",
+    "lat": 50.694327,
+    "lng": 3.143178,
+    "transactions": [
+      {
+        "date": "2022-03-31",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "32084a383076": {
+    "id": "32084a383076",
+    "label": "130 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.691952,
+    "lng": 3.147847,
+    "transactions": [
+      {
+        "date": "2022-04-04",
+        "priceEur": 173000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "98276cfac943": {
+    "id": "98276cfac943",
+    "label": "10 AV FREDERIC SAUVAGE, Tourcoing",
+    "lat": 50.694543,
+    "lng": 3.144159,
+    "transactions": [
+      {
+        "date": "2022-04-01",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "74aba4d5e36f": {
+    "id": "74aba4d5e36f",
+    "label": "94 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.691296,
+    "lng": 3.147097,
+    "transactions": [
+      {
+        "date": "2022-03-18",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "b2e3f701a606": {
+    "id": "b2e3f701a606",
+    "label": "19 RUE EUGENE GUILLAUME, Wasquehal",
+    "lat": 50.692321,
+    "lng": 3.146693,
+    "transactions": [
+      {
+        "date": "2024-02-27",
+        "priceEur": 228090,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-06",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "956312d09775": {
+    "id": "956312d09775",
+    "label": "25 RUE CARPEAUX, Wasquehal",
+    "lat": 50.691071,
+    "lng": 3.144596,
+    "transactions": [
+      {
+        "date": "2022-04-01",
+        "priceEur": 215634,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9e43c842ce6": {
+    "id": "a9e43c842ce6",
+    "label": "21 RUE EUGENE GUILLAUME, Wasquehal",
+    "lat": 50.692327,
+    "lng": 3.14662,
+    "transactions": [
+      {
+        "date": "2022-04-08",
+        "priceEur": 159800,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "e285749d2f34": {
+    "id": "e285749d2f34",
+    "label": "18 RUE CARPEAUX, Wasquehal",
+    "lat": 50.69079,
+    "lng": 3.145,
+    "transactions": [
+      {
+        "date": "2022-04-14",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "7804d68d2506": {
+    "id": "7804d68d2506",
+    "label": "4 RUE CONSTANTINE CR BRUGGEMAN, Tourcoing",
+    "lat": 50.693655,
+    "lng": 3.152806,
+    "transactions": [
+      {
+        "date": "2022-05-09",
+        "priceEur": 52000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a4e1fcfcea4": {
+    "id": "7a4e1fcfcea4",
+    "label": "142 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.692153,
+    "lng": 3.148004,
+    "transactions": [
+      {
+        "date": "2022-04-28",
+        "priceEur": 186000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0c11b4858c6": {
+    "id": "b0c11b4858c6",
+    "label": "5 AV DU PEINTRE GRAU, Tourcoing",
+    "lat": 50.693334,
+    "lng": 3.144148,
+    "transactions": [
+      {
+        "date": "2022-04-15",
+        "priceEur": 219000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "a6d749f2549d": {
+    "id": "a6d749f2549d",
+    "label": "42 RUE BERANGER, Tourcoing",
+    "lat": 50.693929,
+    "lng": 3.151241,
+    "transactions": [
+      {
+        "date": "2022-04-29",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "639332ae344d": {
+    "id": "639332ae344d",
+    "label": "11 AV FREDERIC SAUVAGE, Tourcoing",
+    "lat": 50.694319,
+    "lng": 3.143784,
+    "transactions": [
+      {
+        "date": "2022-05-19",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ae67432e3bd": {
+    "id": "1ae67432e3bd",
+    "label": "192 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.693328,
+    "lng": 3.148888,
+    "transactions": [
+      {
+        "date": "2022-04-27",
+        "priceEur": 219000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "fae4f852efd1": {
+    "id": "fae4f852efd1",
+    "label": "138 RUE CARPEAUX, Wasquehal",
+    "lat": 50.693641,
+    "lng": 3.147951,
+    "transactions": [
+      {
+        "date": "2022-05-23",
+        "priceEur": 146000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b09c403a1be": {
+    "id": "6b09c403a1be",
+    "label": "8 RUE DE CROIX, Tourcoing",
+    "lat": 50.694501,
+    "lng": 3.152617,
+    "transactions": [
+      {
+        "date": "2025-04-24",
+        "priceEur": 157890,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-03",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "5612898a3956": {
+    "id": "5612898a3956",
+    "label": "153 RUE CARPEAUX, Wasquehal",
+    "lat": 50.693916,
+    "lng": 3.147754,
+    "transactions": [
+      {
+        "date": "2022-05-24",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "785d15a38f88": {
+    "id": "785d15a38f88",
+    "label": "89 RUE JEAN WASTYN, Wasquehal",
+    "lat": 50.688281,
+    "lng": 3.147496,
+    "transactions": [
+      {
+        "date": "2022-05-12",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "b465f920e592": {
+    "id": "b465f920e592",
+    "label": "20 RUE DE WASQUEHAL, Tourcoing",
+    "lat": 50.694384,
+    "lng": 3.149635,
+    "transactions": [
+      {
+        "date": "2022-06-07",
+        "priceEur": 146630,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "421392d8b69e": {
+    "id": "421392d8b69e",
+    "label": "66 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.690517,
+    "lng": 3.146253,
+    "transactions": [
+      {
+        "date": "2022-05-23",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "b09a7d1a2dba": {
+    "id": "b09a7d1a2dba",
+    "label": "17 IMP JEAN DE MARKRIES, Roubaix",
+    "lat": 50.688566,
+    "lng": 3.152255,
+    "transactions": [
+      {
+        "date": "2022-05-20",
+        "priceEur": 109000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "5530d37a7e81": {
+    "id": "5530d37a7e81",
+    "label": "126 RUE CARPEAUX, Wasquehal",
+    "lat": 50.693431,
+    "lng": 3.147711,
+    "transactions": [
+      {
+        "date": "2024-05-16",
+        "priceEur": 185850,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-14",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e836933e3e7": {
+    "id": "1e836933e3e7",
+    "label": "98 RUE DE MOUVAUX, Tourcoing",
+    "lat": 50.694663,
+    "lng": 3.151576,
+    "transactions": [
+      {
+        "date": "2022-06-03",
+        "priceEur": 129000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "243511a4d968": {
+    "id": "243511a4d968",
+    "label": "17 RUE ACHILLE TESTELIN, Wasquehal",
+    "lat": 50.691262,
+    "lng": 3.145501,
+    "transactions": [
+      {
+        "date": "2022-06-02",
+        "priceEur": 257000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "cca6881f2134": {
+    "id": "cca6881f2134",
+    "label": "29 RUE DEREGNAUCOURT, Tourcoing",
+    "lat": 50.693663,
+    "lng": 3.151662,
+    "transactions": [
+      {
+        "date": "2022-06-17",
+        "priceEur": 62000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "201f9cbed39e": {
+    "id": "201f9cbed39e",
+    "label": "33 AV DU PEINTRE GRAU, Tourcoing",
+    "lat": 50.693867,
+    "lng": 3.143343,
+    "transactions": [
+      {
+        "date": "2022-06-22",
+        "priceEur": 145000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f81c2669675": {
+    "id": "4f81c2669675",
+    "label": "127 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.69116,
+    "lng": 3.146513,
+    "transactions": [
+      {
+        "date": "2022-06-16",
+        "priceEur": 188100,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "e53868b542f7": {
+    "id": "e53868b542f7",
+    "label": "5 RUE CLEMENTINE DURIEUX, Wasquehal",
+    "lat": 50.688069,
+    "lng": 3.145582,
+    "transactions": [
+      {
+        "date": "2022-06-22",
+        "priceEur": 161000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "85568b4ca1d4": {
+    "id": "85568b4ca1d4",
+    "label": "135 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.691429,
+    "lng": 3.146446,
+    "transactions": [
+      {
+        "date": "2022-06-28",
+        "priceEur": 312600,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "673049f9b8ac": {
+    "id": "673049f9b8ac",
+    "label": "93 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.690379,
+    "lng": 3.145588,
+    "transactions": [
+      {
+        "date": "2022-06-28",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd5fd912895b": {
+    "id": "cd5fd912895b",
+    "label": "26 RUE DES TROIS VILLES, Croix",
+    "lat": 50.693483,
+    "lng": 3.152916,
+    "transactions": [
+      {
+        "date": "2022-06-10",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a0c023abb63": {
+    "id": "8a0c023abb63",
+    "label": "3 RUE FLORIMOND DESBARBIEUX, Croix",
+    "lat": 50.689745,
+    "lng": 3.147887,
+    "transactions": [
+      {
+        "date": "2022-06-17",
+        "priceEur": 217000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "74f1bac38dba": {
+    "id": "74f1bac38dba",
+    "label": "3 RUE FAIDHERBE, Croix",
+    "lat": 50.687797,
+    "lng": 3.150554,
+    "transactions": [
+      {
+        "date": "2022-06-20",
+        "priceEur": 118900,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "655272fa8445": {
+    "id": "655272fa8445",
+    "label": "19 RUE BAUDIN, Croix",
+    "lat": 50.688257,
+    "lng": 3.150513,
+    "transactions": [
+      {
+        "date": "2023-03-14",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-15",
+        "priceEur": 136000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "29312a4082ec": {
+    "id": "29312a4082ec",
+    "label": "8 RUE BERANGER, Tourcoing",
+    "lat": 50.694601,
+    "lng": 3.151662,
+    "transactions": [
+      {
+        "date": "2022-06-27",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "463751b01f5b": {
+    "id": "463751b01f5b",
+    "label": "8 RUE FLORIMOND DESBARBIEUX, Croix",
+    "lat": 50.689637,
+    "lng": 3.148831,
+    "transactions": [
+      {
+        "date": "2022-07-13",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "87f3659e04df": {
+    "id": "87f3659e04df",
+    "label": "196 RUE LAMARTINE, Wasquehal",
+    "lat": 50.69177,
+    "lng": 3.142148,
+    "transactions": [
+      {
+        "date": "2022-07-08",
+        "priceEur": 318000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "7beee778ffab": {
+    "id": "7beee778ffab",
+    "label": "5 AV SANTOS DUMONT, Tourcoing",
+    "lat": 50.693763,
+    "lng": 3.143194,
+    "transactions": [
+      {
+        "date": "2022-07-01",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a7623cfa371": {
+    "id": "9a7623cfa371",
+    "label": "230 RUE LAMARTINE, Wasquehal",
+    "lat": 50.692737,
+    "lng": 3.142228,
+    "transactions": [
+      {
+        "date": "2022-06-29",
+        "priceEur": 756200,
+        "typeLocal": "Maison",
+        "surfaceM2": 178,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9aff6d7906f": {
+    "id": "b9aff6d7906f",
+    "label": "45 RUE PAUL BERT, Croix",
+    "lat": 50.689127,
+    "lng": 3.150528,
+    "transactions": [
+      {
+        "date": "2022-06-27",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "856b9c9f0564": {
+    "id": "856b9c9f0564",
+    "label": "92 RUE CARPEAUX, Wasquehal",
+    "lat": 50.692803,
+    "lng": 3.146964,
+    "transactions": [
+      {
+        "date": "2022-07-18",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a94aa1f0ebb": {
+    "id": "1a94aa1f0ebb",
+    "label": "9 RUE FLORIMOND DESBARBIEUX, Croix",
+    "lat": 50.689941,
+    "lng": 3.148085,
+    "transactions": [
+      {
+        "date": "2022-07-13",
+        "priceEur": 269475,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "eaffe31de75d": {
+    "id": "eaffe31de75d",
+    "label": "211 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.693114,
+    "lng": 3.148272,
+    "transactions": [
+      {
+        "date": "2022-07-21",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad93060ff534": {
+    "id": "ad93060ff534",
+    "label": "209 RUE LOUIS SEIGNEUR, Croix",
+    "lat": 50.691795,
+    "lng": 3.152142,
+    "transactions": [
+      {
+        "date": "2022-12-12",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-21",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "63dabbf4fc9a": {
+    "id": "63dabbf4fc9a",
+    "label": "12 RUE COCHETEUX, Wasquehal",
+    "lat": 50.693096,
+    "lng": 3.147822,
+    "transactions": [
+      {
+        "date": "2022-07-21",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "d7ad05a34fdb": {
+    "id": "d7ad05a34fdb",
+    "label": "19 RUE HOCHE, Croix",
+    "lat": 50.68859,
+    "lng": 3.150703,
+    "transactions": [
+      {
+        "date": "2022-08-05",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad282e50f999": {
+    "id": "ad282e50f999",
+    "label": "151 RUE CARPEAUX, Wasquehal",
+    "lat": 50.693891,
+    "lng": 3.147703,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 169260,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7e092a5ef34": {
+    "id": "b7e092a5ef34",
+    "label": "13 IMP JEAN DE MARKRIES, Roubaix",
+    "lat": 50.688607,
+    "lng": 3.152152,
+    "transactions": [
+      {
+        "date": "2022-08-04",
+        "priceEur": 161000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "261e02491b53": {
+    "id": "261e02491b53",
+    "label": "27 CHE DE LA PLANCHE AU RIEZ, Wasquehal",
+    "lat": 50.68811,
+    "lng": 3.143273,
+    "transactions": [
+      {
+        "date": "2022-08-24",
+        "priceEur": 152900,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "896fc290aa9f": {
+    "id": "896fc290aa9f",
+    "label": "54 AV DU PEINTRE GRAU, Tourcoing",
+    "lat": 50.69444,
+    "lng": 3.14298,
+    "transactions": [
+      {
+        "date": "2022-09-12",
+        "priceEur": 268400,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "10bf854f3b7b": {
+    "id": "10bf854f3b7b",
+    "label": "77 RUE DU RIEZ, Croix",
+    "lat": 50.693307,
+    "lng": 3.149854,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "d512a7a27062": {
+    "id": "d512a7a27062",
+    "label": "23 RUE CARPEAUX, Wasquehal",
+    "lat": 50.69103,
+    "lng": 3.14459,
+    "transactions": [
+      {
+        "date": "2022-08-26",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "d48c534eb863": {
+    "id": "d48c534eb863",
+    "label": "61 RUE DU RIEZ, Croix",
+    "lat": 50.69301,
+    "lng": 3.150705,
+    "transactions": [
+      {
+        "date": "2022-09-28",
+        "priceEur": 189100,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f2647fe7937": {
+    "id": "8f2647fe7937",
+    "label": "45 RUE BERANGER, Tourcoing",
+    "lat": 50.693705,
+    "lng": 3.151553,
+    "transactions": [
+      {
+        "date": "2022-10-03",
+        "priceEur": 100500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "72b6fa9a2ea0": {
+    "id": "72b6fa9a2ea0",
+    "label": "237 RUE LOUIS SEIGNEUR, Croix",
+    "lat": 50.692424,
+    "lng": 3.152558,
+    "transactions": [
+      {
+        "date": "2022-09-19",
+        "priceEur": 247000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "98071e2d556d": {
+    "id": "98071e2d556d",
+    "label": "4 RUE HOCHE, Croix",
+    "lat": 50.688698,
+    "lng": 3.151319,
+    "transactions": [
+      {
+        "date": "2022-08-31",
+        "priceEur": 102800,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "b2020cc2ced9": {
+    "id": "b2020cc2ced9",
+    "label": "22 RUE DU RIEZ, Tourcoing",
+    "lat": 50.693407,
+    "lng": 3.150724,
+    "transactions": [
+      {
+        "date": "2022-09-21",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "f3a1c83568b4": {
+    "id": "f3a1c83568b4",
+    "label": "33 RUE DU RIEZ, Croix",
+    "lat": 50.692832,
+    "lng": 3.15182,
+    "transactions": [
+      {
+        "date": "2022-10-04",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "f2722d7e905a": {
+    "id": "f2722d7e905a",
+    "label": "206 RUE LAMARTINE, Wasquehal",
+    "lat": 50.69218,
+    "lng": 3.142234,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 171000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e4e195e5ea3": {
+    "id": "2e4e195e5ea3",
+    "label": "121 RUE JEAN WASTYN, Wasquehal",
+    "lat": 50.688882,
+    "lng": 3.1483,
+    "transactions": [
+      {
+        "date": "2022-10-05",
+        "priceEur": 323000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-05",
+        "priceEur": 323000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "e833387d0396": {
+    "id": "e833387d0396",
+    "label": "41 RUE BAUDIN, Croix",
+    "lat": 50.688547,
+    "lng": 3.149534,
+    "transactions": [
+      {
+        "date": "2022-10-14",
+        "priceEur": 84500,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "4437078b2149": {
+    "id": "4437078b2149",
+    "label": "16 RUE DE COLMAR, Wasquehal",
+    "lat": 50.688291,
+    "lng": 3.148911,
+    "transactions": [
+      {
+        "date": "2022-10-25",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff4e9f76c977": {
+    "id": "ff4e9f76c977",
+    "label": "207 RUE LOUIS SEIGNEUR, Croix",
+    "lat": 50.691758,
+    "lng": 3.152126,
+    "transactions": [
+      {
+        "date": "2022-11-04",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "d63e39f36bf3": {
+    "id": "d63e39f36bf3",
+    "label": "20 RUE DU RIEZ, Tourcoing",
+    "lat": 50.693391,
+    "lng": 3.150802,
+    "transactions": [
+      {
+        "date": "2022-10-28",
+        "priceEur": 183600,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1da58071648": {
+    "id": "a1da58071648",
+    "label": "7 RUE JACQUART, Wasquehal",
+    "lat": 50.69044,
+    "lng": 3.146523,
+    "transactions": [
+      {
+        "date": "2022-10-26",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "4fed02e1e10d": {
+    "id": "4fed02e1e10d",
+    "label": "23 RUE DES TROIS VILLES, Croix",
+    "lat": 50.69324,
+    "lng": 3.152262,
+    "transactions": [
+      {
+        "date": "2022-10-31",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d151c74eeb9": {
+    "id": "6d151c74eeb9",
+    "label": "35 RUE BAUDIN, Croix",
+    "lat": 50.688496,
+    "lng": 3.149674,
+    "transactions": [
+      {
+        "date": "2022-11-08",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d67e6f77374": {
+    "id": "9d67e6f77374",
+    "label": "20 RUE LA FONTAINE, Wasquehal",
+    "lat": 50.693374,
+    "lng": 3.148322,
+    "transactions": [
+      {
+        "date": "2022-11-30",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5a201c26185": {
+    "id": "f5a201c26185",
+    "label": "103 RUE DE LA MACKELLERIE, Roubaix",
+    "lat": 50.691685,
+    "lng": 3.152593,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 64000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-16",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b0ba03ec11f": {
+    "id": "9b0ba03ec11f",
+    "label": "28 RUE DE CROIX, Tourcoing",
+    "lat": 50.693996,
+    "lng": 3.152208,
+    "transactions": [
+      {
+        "date": "2022-11-30",
+        "priceEur": 149500,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "6132bf27d2f6": {
+    "id": "6132bf27d2f6",
+    "label": "5 RUE DU PRESBYTERE, Croix",
+    "lat": 50.693162,
+    "lng": 3.14978,
+    "transactions": [
+      {
+        "date": "2022-12-20",
+        "priceEur": 177500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "42f5a78eccfd": {
+    "id": "42f5a78eccfd",
+    "label": "20 RUE DE CONSTANTINE, Tourcoing",
+    "lat": 50.694009,
+    "lng": 3.152651,
+    "transactions": [
+      {
+        "date": "2022-12-30",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "a40db69c0368": {
+    "id": "a40db69c0368",
+    "label": "69 RUE LOUIS SEIGNEUR, Croix",
+    "lat": 50.688134,
+    "lng": 3.151153,
+    "transactions": [
+      {
+        "date": "2022-12-29",
+        "priceEur": 197400,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c4c225c95d9": {
+    "id": "5c4c225c95d9",
+    "label": "38 RUE CARPEAUX, Wasquehal",
+    "lat": 50.691211,
+    "lng": 3.145491,
+    "transactions": [
+      {
+        "date": "2022-12-27",
+        "priceEur": 286000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc7ce0f4df11": {
+    "id": "cc7ce0f4df11",
+    "label": "144 RUE CARPEAUX, Wasquehal",
+    "lat": 50.693733,
+    "lng": 3.148069,
+    "transactions": [
+      {
+        "date": "2022-12-20",
+        "priceEur": 84000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "1baa825c2072": {
+    "id": "1baa825c2072",
+    "label": "11 RUE CHARLES DELESCLUSE, Wasquehal",
+    "lat": 50.690691,
+    "lng": 3.147015,
+    "transactions": [
+      {
+        "date": "2023-01-31",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "aaeb6d12ba45": {
+    "id": "aaeb6d12ba45",
+    "label": "108 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.691617,
+    "lng": 3.147572,
+    "transactions": [
+      {
+        "date": "2023-02-02",
+        "priceEur": 415040,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "31c7744542d9": {
+    "id": "31c7744542d9",
+    "label": "89 RUE LOUIS SEIGNEUR, Croix",
+    "lat": 50.688756,
+    "lng": 3.151307,
+    "transactions": [
+      {
+        "date": "2024-10-08",
+        "priceEur": 302000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-08",
+        "priceEur": 302000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-08",
+        "priceEur": 302000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-16",
+        "priceEur": 210000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-16",
+        "priceEur": 210000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-16",
+        "priceEur": 210000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8fa06f06a24": {
+    "id": "e8fa06f06a24",
+    "label": "62 RUE CARPEAUX, Wasquehal",
+    "lat": 50.692036,
+    "lng": 3.146368,
+    "transactions": [
+      {
+        "date": "2023-02-10",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "8eba2e75174f": {
+    "id": "8eba2e75174f",
+    "label": "96 RUE CARPEAUX, Wasquehal",
+    "lat": 50.692856,
+    "lng": 3.147054,
+    "transactions": [
+      {
+        "date": "2023-02-21",
+        "priceEur": 161000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "f951676773ae": {
+    "id": "f951676773ae",
+    "label": "227 RUE DE LA MACKELLERIE, Roubaix",
+    "lat": 50.687799,
+    "lng": 3.151484,
+    "transactions": [
+      {
+        "date": "2023-02-16",
+        "priceEur": 341000,
+        "typeLocal": "Maison",
+        "surfaceM2": 178,
+        "isVefa": false
+      }
+    ]
+  },
+  "a81bb7a61472": {
+    "id": "a81bb7a61472",
+    "label": "10 RUE DU PRESBYTERE, Croix",
+    "lat": 50.693035,
+    "lng": 3.150315,
+    "transactions": [
+      {
+        "date": "2023-02-27",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "29efd5e1dfa1": {
+    "id": "29efd5e1dfa1",
+    "label": "12 RUE DU DOCTEUR DUPONT, Tourcoing",
+    "lat": 50.694575,
+    "lng": 3.150564,
+    "transactions": [
+      {
+        "date": "2023-03-09",
+        "priceEur": 84000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b0a3d4319a0": {
+    "id": "8b0a3d4319a0",
+    "label": "33 RUE DE WASQUEHAL, Tourcoing",
+    "lat": 50.693888,
+    "lng": 3.149553,
+    "transactions": [
+      {
+        "date": "2023-03-20",
+        "priceEur": 90600,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0347e796885": {
+    "id": "a0347e796885",
+    "label": "140 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.69212,
+    "lng": 3.147963,
+    "transactions": [
+      {
+        "date": "2023-03-15",
+        "priceEur": 206500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "354e1e9ceec3": {
+    "id": "354e1e9ceec3",
+    "label": "30 RUE BERANGER, Tourcoing",
+    "lat": 50.694193,
+    "lng": 3.151443,
+    "transactions": [
+      {
+        "date": "2023-03-17",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e1738cf5df0": {
+    "id": "3e1738cf5df0",
+    "label": "100 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.691391,
+    "lng": 3.147394,
+    "transactions": [
+      {
+        "date": "2023-03-08",
+        "priceEur": 450000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "41976c5aa41a": {
+    "id": "41976c5aa41a",
+    "label": "1 RUE TOURCOING COUR LEPERS, Wasquehal",
+    "lat": 50.690861,
+    "lng": 3.147249,
+    "transactions": [
+      {
+        "date": "2023-03-28",
+        "priceEur": 151500,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "027d200c39dd": {
+    "id": "027d200c39dd",
+    "label": "26 RUE DU RIEZ, Tourcoing",
+    "lat": 50.693429,
+    "lng": 3.150555,
+    "transactions": [
+      {
+        "date": "2023-04-28",
+        "priceEur": 154500,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d55d8c643d8": {
+    "id": "2d55d8c643d8",
+    "label": "26 RUE DE CROIX, Tourcoing",
+    "lat": 50.694018,
+    "lng": 3.152271,
+    "transactions": [
+      {
+        "date": "2023-04-06",
+        "priceEur": 120600,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4eb2187322f": {
+    "id": "f4eb2187322f",
+    "label": "152 RUE CARPEAUX, Wasquehal",
+    "lat": 50.693861,
+    "lng": 3.148212,
+    "transactions": [
+      {
+        "date": "2023-04-25",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "518516d17805": {
+    "id": "518516d17805",
+    "label": "8 RUE DE MEZIERES, Tourcoing",
+    "lat": 50.694611,
+    "lng": 3.148561,
+    "transactions": [
+      {
+        "date": "2023-05-02",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed92066b074a": {
+    "id": "ed92066b074a",
+    "label": "9 AV SANTOS DUMONT, Tourcoing",
+    "lat": 50.693703,
+    "lng": 3.143085,
+    "transactions": [
+      {
+        "date": "2023-05-17",
+        "priceEur": 241000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "abd81b86f16d": {
+    "id": "abd81b86f16d",
+    "label": "129 RUE JEAN WASTYN, Wasquehal",
+    "lat": 50.689011,
+    "lng": 3.148615,
+    "transactions": [
+      {
+        "date": "2024-11-07",
+        "priceEur": 229500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-07",
+        "priceEur": 229500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-07",
+        "priceEur": 229500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-07",
+        "priceEur": 229500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-27",
+        "priceEur": 170000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-27",
+        "priceEur": 170000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-27",
+        "priceEur": 170000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-27",
+        "priceEur": 170000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "5cc0b27ec4b5": {
+    "id": "5cc0b27ec4b5",
+    "label": "6 RUE DEREGNAUCOURT, Tourcoing",
+    "lat": 50.693668,
+    "lng": 3.150666,
+    "transactions": [
+      {
+        "date": "2023-05-17",
+        "priceEur": 89000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8ca4f805261": {
+    "id": "e8ca4f805261",
+    "label": "12 AV FREDERIC SAUVAGE, Tourcoing",
+    "lat": 50.694572,
+    "lng": 3.144092,
+    "transactions": [
+      {
+        "date": "2023-05-10",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "25726dbef32b": {
+    "id": "25726dbef32b",
+    "label": "12 RUE DU RIEZ, Tourcoing",
+    "lat": 50.693297,
+    "lng": 3.151125,
+    "transactions": [
+      {
+        "date": "2023-05-15",
+        "priceEur": 166000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "931077be0bd6": {
+    "id": "931077be0bd6",
+    "label": "27B RUE FAVREUIL, Croix",
+    "lat": 50.692134,
+    "lng": 3.151087,
+    "transactions": [
+      {
+        "date": "2023-11-29",
+        "priceEur": 137500,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-25",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a66effbfc6f": {
+    "id": "1a66effbfc6f",
+    "label": "34 RUE LA FONTAINE, Wasquehal",
+    "lat": 50.69367,
+    "lng": 3.148564,
+    "transactions": [
+      {
+        "date": "2023-06-05",
+        "priceEur": 213750,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0578e8a01c5": {
+    "id": "e0578e8a01c5",
+    "label": "86 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.691123,
+    "lng": 3.14695,
+    "transactions": [
+      {
+        "date": "2024-09-11",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-19",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "64d80d8f5523": {
+    "id": "64d80d8f5523",
+    "label": "72 RUE JEAN WASTYN, Wasquehal",
+    "lat": 50.687906,
+    "lng": 3.148148,
+    "transactions": [
+      {
+        "date": "2023-06-23",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6f939ec861c": {
+    "id": "f6f939ec861c",
+    "label": "32 RUE BERANGER, Tourcoing",
+    "lat": 50.694151,
+    "lng": 3.151428,
+    "transactions": [
+      {
+        "date": "2023-06-23",
+        "priceEur": 113000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "9523b8546286": {
+    "id": "9523b8546286",
+    "label": "179 RUE DE LA MACKELLERIE, Roubaix",
+    "lat": 50.689412,
+    "lng": 3.151845,
+    "transactions": [
+      {
+        "date": "2023-07-04",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9b86be69dd2": {
+    "id": "f9b86be69dd2",
+    "label": "25 RUE FLORIMOND DESBARBIEUX, Croix",
+    "lat": 50.690448,
+    "lng": 3.148946,
+    "transactions": [
+      {
+        "date": "2023-07-07",
+        "priceEur": 222500,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "db58578f3078": {
+    "id": "db58578f3078",
+    "label": "27 AV FREDERIC SAUVAGE, Tourcoing",
+    "lat": 50.694537,
+    "lng": 3.143285,
+    "transactions": [
+      {
+        "date": "2023-07-25",
+        "priceEur": 426600,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f72dd7904c0": {
+    "id": "1f72dd7904c0",
+    "label": "38 RUE LUCIEN VISEUR, Wasquehal",
+    "lat": 50.688532,
+    "lng": 3.147223,
+    "transactions": [
+      {
+        "date": "2023-07-27",
+        "priceEur": 214000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "106521d57423": {
+    "id": "106521d57423",
+    "label": "46 RUE CARPEAUX, Wasquehal",
+    "lat": 50.691564,
+    "lng": 3.145894,
+    "transactions": [
+      {
+        "date": "2023-07-26",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "d36209dfed64": {
+    "id": "d36209dfed64",
+    "label": "31 RUE CARPEAUX, Wasquehal",
+    "lat": 50.69113,
+    "lng": 3.144811,
+    "transactions": [
+      {
+        "date": "2023-07-12",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "865ac0cbe48b": {
+    "id": "865ac0cbe48b",
+    "label": "31 RUE DEREGNAUCOURT, Tourcoing",
+    "lat": 50.693665,
+    "lng": 3.151704,
+    "transactions": [
+      {
+        "date": "2023-08-17",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4d43bb490bb": {
+    "id": "c4d43bb490bb",
+    "label": "55 RUE LUCIEN VISEUR, Wasquehal",
+    "lat": 50.688983,
+    "lng": 3.146959,
+    "transactions": [
+      {
+        "date": "2023-08-22",
+        "priceEur": 313000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "7717105ad78d": {
+    "id": "7717105ad78d",
+    "label": "18 RUE WATTEAU, Wasquehal",
+    "lat": 50.691956,
+    "lng": 3.146307,
+    "transactions": [
+      {
+        "date": "2023-08-24",
+        "priceEur": 255800,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1dd9965b41f": {
+    "id": "f1dd9965b41f",
+    "label": "4 RUE WATTEAU, Wasquehal",
+    "lat": 50.691811,
+    "lng": 3.14674,
+    "transactions": [
+      {
+        "date": "2023-07-31",
+        "priceEur": 166200,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "73aa5b69d2e7": {
+    "id": "73aa5b69d2e7",
+    "label": "8 RUE PHILIPPE LEBON, Wasquehal",
+    "lat": 50.693454,
+    "lng": 3.149638,
+    "transactions": [
+      {
+        "date": "2023-08-09",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "071b798ab555": {
+    "id": "071b798ab555",
+    "label": "28 RUE DE WASQUEHAL, Tourcoing",
+    "lat": 50.694261,
+    "lng": 3.14952,
+    "transactions": [
+      {
+        "date": "2023-08-11",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "473fa170cd28": {
+    "id": "473fa170cd28",
+    "label": "38 RUE CLAUDE BERNARD, Croix",
+    "lat": 50.693072,
+    "lng": 3.151948,
+    "transactions": [
+      {
+        "date": "2023-08-24",
+        "priceEur": 187000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "b92f8eb0b8e6": {
+    "id": "b92f8eb0b8e6",
+    "label": "6 RUE EUGENE GUILLAUME, Wasquehal",
+    "lat": 50.692403,
+    "lng": 3.147455,
+    "transactions": [
+      {
+        "date": "2023-09-12",
+        "priceEur": 126000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "04cf4441a2db": {
+    "id": "04cf4441a2db",
+    "label": "1 RUE COCHETEUX, Wasquehal",
+    "lat": 50.692838,
+    "lng": 3.148024,
+    "transactions": [
+      {
+        "date": "2023-09-11",
+        "priceEur": 66000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "febc20f6511d": {
+    "id": "febc20f6511d",
+    "label": "209 RUE DE LA MACKELLERIE, Roubaix",
+    "lat": 50.688711,
+    "lng": 3.151737,
+    "transactions": [
+      {
+        "date": "2023-09-08",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "7413a153bc69": {
+    "id": "7413a153bc69",
+    "label": "92 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.691244,
+    "lng": 3.147084,
+    "transactions": [
+      {
+        "date": "2023-09-26",
+        "priceEur": 118400,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5c7e4357190": {
+    "id": "d5c7e4357190",
+    "label": "74 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.690828,
+    "lng": 3.146573,
+    "transactions": [
+      {
+        "date": "2023-09-27",
+        "priceEur": 203100,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "04457ba8664f": {
+    "id": "04457ba8664f",
+    "label": "3 RUE DU DANEMARK, Roubaix",
+    "lat": 50.689897,
+    "lng": 3.152946,
+    "transactions": [
+      {
+        "date": "2023-10-20",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "a98886481148": {
+    "id": "a98886481148",
+    "label": "10 RUE CARPEAUX, Wasquehal",
+    "lat": 50.690615,
+    "lng": 3.144865,
+    "transactions": [
+      {
+        "date": "2023-10-12",
+        "priceEur": 111000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "bee7086f4ea5": {
+    "id": "bee7086f4ea5",
+    "label": "60 RUE DU RIEZ, Tourcoing",
+    "lat": 50.694039,
+    "lng": 3.148931,
+    "transactions": [
+      {
+        "date": "2023-10-25",
+        "priceEur": 132000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "1179a7dbd0a0": {
+    "id": "1179a7dbd0a0",
+    "label": "10 RUE DU PRESBYTERE, Tourcoing",
+    "lat": 50.693619,
+    "lng": 3.150224,
+    "transactions": [
+      {
+        "date": "2023-10-18",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "c731c7c87454": {
+    "id": "c731c7c87454",
+    "label": "8 RUE COCHETEUX, Wasquehal",
+    "lat": 50.693079,
+    "lng": 3.147936,
+    "transactions": [
+      {
+        "date": "2024-09-09",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-13",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f462a516c14": {
+    "id": "4f462a516c14",
+    "label": "29 RUE DE COLMAR, Wasquehal",
+    "lat": 50.688396,
+    "lng": 3.149628,
+    "transactions": [
+      {
+        "date": "2023-11-02",
+        "priceEur": 274000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "17fc54df102f": {
+    "id": "17fc54df102f",
+    "label": "144 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.692169,
+    "lng": 3.148054,
+    "transactions": [
+      {
+        "date": "2023-11-17",
+        "priceEur": 186500,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8db39f9278f": {
+    "id": "e8db39f9278f",
+    "label": "9 RUE DES TROIS VILLES, Croix",
+    "lat": 50.693195,
+    "lng": 3.152657,
+    "transactions": [
+      {
+        "date": "2023-11-07",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "c005e8365403": {
+    "id": "c005e8365403",
+    "label": "38 RUE RASPAIL, Croix",
+    "lat": 50.68951,
+    "lng": 3.150488,
+    "transactions": [
+      {
+        "date": "2023-11-27",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "0eb4b8059cc9": {
+    "id": "0eb4b8059cc9",
+    "label": "31 RUE DU DOCTEUR DUPONT, Tourcoing",
+    "lat": 50.693908,
+    "lng": 3.15058,
+    "transactions": [
+      {
+        "date": "2023-12-07",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "57f0ddc193d0": {
+    "id": "57f0ddc193d0",
+    "label": "73 RUE PAUL BERT, Croix",
+    "lat": 50.689512,
+    "lng": 3.151196,
+    "transactions": [
+      {
+        "date": "2023-12-19",
+        "priceEur": 119000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "458abe91e6ff": {
+    "id": "458abe91e6ff",
+    "label": "133 RUE LOUIS SEIGNEUR, Croix",
+    "lat": 50.690181,
+    "lng": 3.151226,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "6988d0331084": {
+    "id": "6988d0331084",
+    "label": "21 RUE ARISTIDE BRIAND, Wasquehal",
+    "lat": 50.689267,
+    "lng": 3.147527,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 99000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "9cae48ac0d4a": {
+    "id": "9cae48ac0d4a",
+    "label": "69 RUE PAUL BERT, Croix",
+    "lat": 50.689465,
+    "lng": 3.151094,
+    "transactions": [
+      {
+        "date": "2024-01-05",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd6a4de05144": {
+    "id": "dd6a4de05144",
+    "label": "23 RUE DE MEZIERES, Tourcoing",
+    "lat": 50.694353,
+    "lng": 3.148836,
+    "transactions": [
+      {
+        "date": "2024-01-25",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "26c87846b8be": {
+    "id": "26c87846b8be",
+    "label": "52 RUE PAUL BERT, Croix",
+    "lat": 50.689158,
+    "lng": 3.151192,
+    "transactions": [
+      {
+        "date": "2024-02-02",
+        "priceEur": 20000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c1ac6c7cf96": {
+    "id": "2c1ac6c7cf96",
+    "label": "1 AV EDISON, Tourcoing",
+    "lat": 50.694633,
+    "lng": 3.144533,
+    "transactions": [
+      {
+        "date": "2025-06-25",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-20",
+        "priceEur": 110000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "6426a70d2338": {
+    "id": "6426a70d2338",
+    "label": "15 AV FREDERIC SAUVAGE, Tourcoing",
+    "lat": 50.694286,
+    "lng": 3.143552,
+    "transactions": [
+      {
+        "date": "2024-03-01",
+        "priceEur": 386000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "32f8c8868630": {
+    "id": "32f8c8868630",
+    "label": "6 RUE DE LA BRIQUETERIE, Croix",
+    "lat": 50.691072,
+    "lng": 3.151098,
+    "transactions": [
+      {
+        "date": "2024-04-03",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b0e1cd8580c": {
+    "id": "8b0e1cd8580c",
+    "label": "14 RUE DU FAVREUIL, Roubaix",
+    "lat": 50.691471,
+    "lng": 3.152848,
+    "transactions": [
+      {
+        "date": "2024-04-12",
+        "priceEur": 117388,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "0254b030e8a5": {
+    "id": "0254b030e8a5",
+    "label": "10 RUE WATTEAU, Wasquehal",
+    "lat": 50.691872,
+    "lng": 3.146594,
+    "transactions": [
+      {
+        "date": "2024-03-26",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "a38e1145cc8a": {
+    "id": "a38e1145cc8a",
+    "label": "507 RUE DU CONGO, Tourcoing",
+    "lat": 50.693915,
+    "lng": 3.142579,
+    "transactions": [
+      {
+        "date": "2024-04-05",
+        "priceEur": 298000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "17d62553c6ae": {
+    "id": "17d62553c6ae",
+    "label": "19 RUE DE CROIX, Tourcoing",
+    "lat": 50.693774,
+    "lng": 3.152593,
+    "transactions": [
+      {
+        "date": "2024-04-08",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "f03154d8c7c7": {
+    "id": "f03154d8c7c7",
+    "label": "15 RUE PHILIPPE LEBON, Wasquehal",
+    "lat": 50.693954,
+    "lng": 3.148438,
+    "transactions": [
+      {
+        "date": "2024-04-09",
+        "priceEur": 80560,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "d83dd175d0f9": {
+    "id": "d83dd175d0f9",
+    "label": "27 RUE DE COLMAR, Wasquehal",
+    "lat": 50.688413,
+    "lng": 3.149558,
+    "transactions": [
+      {
+        "date": "2024-04-11",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "6800a579c629": {
+    "id": "6800a579c629",
+    "label": "28 RUE DEREGNAUCOURT, Tourcoing",
+    "lat": 50.693429,
+    "lng": 3.151232,
+    "transactions": [
+      {
+        "date": "2024-04-24",
+        "priceEur": 138500,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "6194a3020eb1": {
+    "id": "6194a3020eb1",
+    "label": "20 RUE CHARLES DELESCLUSE, Wasquehal",
+    "lat": 50.690402,
+    "lng": 3.146928,
+    "transactions": [
+      {
+        "date": "2024-05-07",
+        "priceEur": 216200,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "4bf26c019a78": {
+    "id": "4bf26c019a78",
+    "label": "463 RUE DU CONGO, Tourcoing",
+    "lat": 50.694699,
+    "lng": 3.14283,
+    "transactions": [
+      {
+        "date": "2024-05-23",
+        "priceEur": 267350,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2d809a19568": {
+    "id": "a2d809a19568",
+    "label": "16 RUE LA FONTAINE, Wasquehal",
+    "lat": 50.69333,
+    "lng": 3.148235,
+    "transactions": [
+      {
+        "date": "2024-05-17",
+        "priceEur": 86000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2a04daddac1": {
+    "id": "c2a04daddac1",
+    "label": "5 RUE DU DOCTEUR DUPONT, Tourcoing",
+    "lat": 50.694512,
+    "lng": 3.151199,
+    "transactions": [
+      {
+        "date": "2024-05-27",
+        "priceEur": 214500,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8b05ff2edc5": {
+    "id": "f8b05ff2edc5",
+    "label": "1 RUE LEON BLUM, Wasquehal",
+    "lat": 50.688755,
+    "lng": 3.14523,
+    "transactions": [
+      {
+        "date": "2024-05-23",
+        "priceEur": 273000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "28711520548d": {
+    "id": "28711520548d",
+    "label": "30 AV DESIRE SIX, Tourcoing",
+    "lat": 50.694601,
+    "lng": 3.144479,
+    "transactions": [
+      {
+        "date": "2024-06-17",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "d9bacd108404": {
+    "id": "d9bacd108404",
+    "label": "31 RUE PAUL BERT, Croix",
+    "lat": 50.688921,
+    "lng": 3.150116,
+    "transactions": [
+      {
+        "date": "2024-06-11",
+        "priceEur": 204000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "507ab7e0db56": {
+    "id": "507ab7e0db56",
+    "label": "16 RUE DE LA MACKELLERIE 197, Roubaix",
+    "lat": 50.688734,
+    "lng": 3.152204,
+    "transactions": [
+      {
+        "date": "2024-06-19",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb6a488c488b": {
+    "id": "bb6a488c488b",
+    "label": "164 RUE DU LUXEMBOURG, Roubaix",
+    "lat": 50.689218,
+    "lng": 3.153072,
+    "transactions": [
+      {
+        "date": "2024-07-02",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "f04f53bcd8ee": {
+    "id": "f04f53bcd8ee",
+    "label": "35 AV DESIRE SIX, Tourcoing",
+    "lat": 50.694345,
+    "lng": 3.145062,
+    "transactions": [
+      {
+        "date": "2024-07-01",
+        "priceEur": 332000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "b744133360a9": {
+    "id": "b744133360a9",
+    "label": "204 RUE LAMARTINE, Wasquehal",
+    "lat": 50.692138,
+    "lng": 3.142241,
+    "transactions": [
+      {
+        "date": "2024-07-08",
+        "priceEur": 215450,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "38ee9f4d660e": {
+    "id": "38ee9f4d660e",
+    "label": "43 RUE FLORIMOND DESBARBIEUX, Croix",
+    "lat": 50.691127,
+    "lng": 3.149496,
+    "transactions": [
+      {
+        "date": "2024-07-11",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "9294efea067c": {
+    "id": "9294efea067c",
+    "label": "15 RUE DE COLMAR, Wasquehal",
+    "lat": 50.688613,
+    "lng": 3.149166,
+    "transactions": [
+      {
+        "date": "2024-07-24",
+        "priceEur": 217500,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "0fe7924ba128": {
+    "id": "0fe7924ba128",
+    "label": "82 RUE DE CROIX, Tourcoing",
+    "lat": 50.693289,
+    "lng": 3.151584,
+    "transactions": [
+      {
+        "date": "2024-07-30",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "74258f5dc30f": {
+    "id": "74258f5dc30f",
+    "label": "41 RUE LUCIEN VISEUR, Wasquehal",
+    "lat": 50.688715,
+    "lng": 3.146607,
+    "transactions": [
+      {
+        "date": "2024-07-31",
+        "priceEur": 241000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "d192e6b9efb6": {
+    "id": "d192e6b9efb6",
+    "label": "13 RUE CLAUDE BERNARD, Croix",
+    "lat": 50.692828,
+    "lng": 3.151085,
+    "transactions": [
+      {
+        "date": "2024-07-29",
+        "priceEur": 98000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "7985a959beb9": {
+    "id": "7985a959beb9",
+    "label": "168 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.692619,
+    "lng": 3.148469,
+    "transactions": [
+      {
+        "date": "2024-08-08",
+        "priceEur": 99000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "e122bdfbe667": {
+    "id": "e122bdfbe667",
+    "label": "187 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.692555,
+    "lng": 3.147709,
+    "transactions": [
+      {
+        "date": "2024-11-28",
+        "priceEur": 27500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-11",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "1dcb247878e4": {
+    "id": "1dcb247878e4",
+    "label": "42 RUE DU DOCTEUR DUPONT, Tourcoing",
+    "lat": 50.693907,
+    "lng": 3.149814,
+    "transactions": [
+      {
+        "date": "2024-08-01",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "547343e31c4d": {
+    "id": "547343e31c4d",
+    "label": "36 RUE DE CROIX, Tourcoing",
+    "lat": 50.693848,
+    "lng": 3.152127,
+    "transactions": [
+      {
+        "date": "2024-08-13",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "02100e7f6fc3": {
+    "id": "02100e7f6fc3",
+    "label": "2 CITE ST LOUIS RUE MACKELLERIE, Roubaix",
+    "lat": 50.689115,
+    "lng": 3.152714,
+    "transactions": [
+      {
+        "date": "2024-08-26",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa4aa86a44f2": {
+    "id": "aa4aa86a44f2",
+    "label": "6 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.68837,
+    "lng": 3.144141,
+    "transactions": [
+      {
+        "date": "2024-08-26",
+        "priceEur": 175300,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "c24c18fcf1fd": {
+    "id": "c24c18fcf1fd",
+    "label": "41 RUE PAUL BERT, Croix",
+    "lat": 50.689129,
+    "lng": 3.15034,
+    "transactions": [
+      {
+        "date": "2024-08-28",
+        "priceEur": 393700,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "169ea14850a5": {
+    "id": "169ea14850a5",
+    "label": "9 RUE SAINT QUENTIN, Tourcoing",
+    "lat": 50.694623,
+    "lng": 3.148351,
+    "transactions": [
+      {
+        "date": "2024-09-05",
+        "priceEur": 175550,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "28f9b4d788dc": {
+    "id": "28f9b4d788dc",
+    "label": "42 AV DU PEINTRE GRAU, Tourcoing",
+    "lat": 50.694224,
+    "lng": 3.143366,
+    "transactions": [
+      {
+        "date": "2024-08-21",
+        "priceEur": 214000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "2729d388f186": {
+    "id": "2729d388f186",
+    "label": "101 RUE JEAN WASTYN, Wasquehal",
+    "lat": 50.68855,
+    "lng": 3.147696,
+    "transactions": [
+      {
+        "date": "2024-08-20",
+        "priceEur": 140176,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "0936c04bf376": {
+    "id": "0936c04bf376",
+    "label": "4 RUE DE MEZIERES, Tourcoing",
+    "lat": 50.694678,
+    "lng": 3.14866,
+    "transactions": [
+      {
+        "date": "2024-09-10",
+        "priceEur": 206950,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "961628c9b05d": {
+    "id": "961628c9b05d",
+    "label": "222 RUE LAMARTINE, Wasquehal",
+    "lat": 50.692497,
+    "lng": 3.14215,
+    "transactions": [
+      {
+        "date": "2024-09-23",
+        "priceEur": 228600,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "e822b519c2e4": {
+    "id": "e822b519c2e4",
+    "label": "36 RUE RASPAIL, Croix",
+    "lat": 50.689454,
+    "lng": 3.150435,
+    "transactions": [
+      {
+        "date": "2024-09-02",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ca11380249f": {
+    "id": "4ca11380249f",
+    "label": "3 ALL ARTHUR RIMBAUD, Wasquehal",
+    "lat": 50.692309,
+    "lng": 3.142595,
+    "transactions": [
+      {
+        "date": "2024-09-19",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ad2dd4c06f7": {
+    "id": "6ad2dd4c06f7",
+    "label": "114 RUE DE MOUVAUX, Tourcoing",
+    "lat": 50.694587,
+    "lng": 3.152396,
+    "transactions": [
+      {
+        "date": "2024-09-05",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "5bf716537c24": {
+    "id": "5bf716537c24",
+    "label": "59 RUE CARPEAUX, Wasquehal",
+    "lat": 50.691723,
+    "lng": 3.145419,
+    "transactions": [
+      {
+        "date": "2024-09-24",
+        "priceEur": 295600,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "12e72ef50542": {
+    "id": "12e72ef50542",
+    "label": "7 RUE DU PRESBYTERE, Croix",
+    "lat": 50.693185,
+    "lng": 3.149812,
+    "transactions": [
+      {
+        "date": "2024-09-20",
+        "priceEur": 98000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "a4a84c01a431": {
+    "id": "a4a84c01a431",
+    "label": "56 RUE LUCIEN VISEUR, Wasquehal",
+    "lat": 50.688865,
+    "lng": 3.147595,
+    "transactions": [
+      {
+        "date": "2024-10-11",
+        "priceEur": 244500,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "eeaf4a02d488": {
+    "id": "eeaf4a02d488",
+    "label": "73 RUE DU RIEZ, Croix",
+    "lat": 50.69334,
+    "lng": 3.150021,
+    "transactions": [
+      {
+        "date": "2024-09-16",
+        "priceEur": 3435641.5,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "7268933d5a74": {
+    "id": "7268933d5a74",
+    "label": "154 RUE CARPEAUX, Wasquehal",
+    "lat": 50.693881,
+    "lng": 3.148247,
+    "transactions": [
+      {
+        "date": "2024-09-16",
+        "priceEur": 3435641.5,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9b11c0c6e0d": {
+    "id": "b9b11c0c6e0d",
+    "label": "12 RUE WATTEAU, Wasquehal",
+    "lat": 50.691893,
+    "lng": 3.146553,
+    "transactions": [
+      {
+        "date": "2024-09-16",
+        "priceEur": 3435641.5,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed082a887194": {
+    "id": "ed082a887194",
+    "label": "112 RUE DE MOUVAUX, Tourcoing",
+    "lat": 50.694679,
+    "lng": 3.152265,
+    "transactions": [
+      {
+        "date": "2024-10-29",
+        "priceEur": 58000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "a04f1198cb74": {
+    "id": "a04f1198cb74",
+    "label": "21 RUE HOCHE, Croix",
+    "lat": 50.688613,
+    "lng": 3.150647,
+    "transactions": [
+      {
+        "date": "2024-11-12",
+        "priceEur": 188245,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "17bf8c474d81": {
+    "id": "17bf8c474d81",
+    "label": "24 RUE DU DOCTEUR DUPONT, Tourcoing",
+    "lat": 50.694383,
+    "lng": 3.150113,
+    "transactions": [
+      {
+        "date": "2024-10-16",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "83eca14be516": {
+    "id": "83eca14be516",
+    "label": "23 RUE LUCIEN VISEUR, Wasquehal",
+    "lat": 50.68842,
+    "lng": 3.146152,
+    "transactions": [
+      {
+        "date": "2024-11-13",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "e146819f1811": {
+    "id": "e146819f1811",
+    "label": "105 RUE JEAN WASTYN, Wasquehal",
+    "lat": 50.688592,
+    "lng": 3.14783,
+    "transactions": [
+      {
+        "date": "2024-12-13",
+        "priceEur": 294500,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "50132e74858d": {
+    "id": "50132e74858d",
+    "label": "8 RUE FAIDHERBE, Croix",
+    "lat": 50.688027,
+    "lng": 3.150818,
+    "transactions": [
+      {
+        "date": "2024-11-29",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "12689aa78573": {
+    "id": "12689aa78573",
+    "label": "12 IMP JEAN DE MARKRIES, Roubaix",
+    "lat": 50.688346,
+    "lng": 3.151971,
+    "transactions": [
+      {
+        "date": "2024-12-19",
+        "priceEur": 103000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "9df7da6cfb43": {
+    "id": "9df7da6cfb43",
+    "label": "26 RUE EUGENE GUILLAUME, Wasquehal",
+    "lat": 50.692669,
+    "lng": 3.146795,
+    "transactions": [
+      {
+        "date": "2024-12-18",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "02aa29ff641d": {
+    "id": "02aa29ff641d",
+    "label": "34 RUE DE WASQUEHAL, Tourcoing",
+    "lat": 50.694182,
+    "lng": 3.149436,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 117500,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "564a90d393e1": {
+    "id": "564a90d393e1",
+    "label": "24 RUE VAUBAN, Wasquehal",
+    "lat": 50.687935,
+    "lng": 3.142584,
+    "transactions": [
+      {
+        "date": "2025-01-10",
+        "priceEur": 370900,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "207c4e2cf6cf": {
+    "id": "207c4e2cf6cf",
+    "label": "82 RUE JEAN WASTYN, Wasquehal",
+    "lat": 50.688206,
+    "lng": 3.148122,
+    "transactions": [
+      {
+        "date": "2025-01-15",
+        "priceEur": 262780,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ffddbb16d69": {
+    "id": "1ffddbb16d69",
+    "label": "35 RUE ARISTIDE BRIAND, Wasquehal",
+    "lat": 50.689429,
+    "lng": 3.146894,
+    "transactions": [
+      {
+        "date": "2025-01-31",
+        "priceEur": 384130,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "230990239fe5": {
+    "id": "230990239fe5",
+    "label": "51 RUE LUCIEN VISEUR, Wasquehal",
+    "lat": 50.688856,
+    "lng": 3.146954,
+    "transactions": [
+      {
+        "date": "2025-02-10",
+        "priceEur": 250100,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "803cc7dd2eeb": {
+    "id": "803cc7dd2eeb",
+    "label": "21 RUE CLAUDE BERNARD, Croix",
+    "lat": 50.693024,
+    "lng": 3.151429,
+    "transactions": [
+      {
+        "date": "2025-01-21",
+        "priceEur": 159800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-21",
+        "priceEur": 159800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-21",
+        "priceEur": 159800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "493e789223a7": {
+    "id": "493e789223a7",
+    "label": "7 RUE CARPEAUX, Wasquehal",
+    "lat": 50.690788,
+    "lng": 3.144312,
+    "transactions": [
+      {
+        "date": "2025-02-07",
+        "priceEur": 199500,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "c17a3e90e092": {
+    "id": "c17a3e90e092",
+    "label": "205 RUE LOUIS SEIGNEUR, Croix",
+    "lat": 50.691714,
+    "lng": 3.152076,
+    "transactions": [
+      {
+        "date": "2025-02-19",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "eb2443bd3471": {
+    "id": "eb2443bd3471",
+    "label": "123 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.691009,
+    "lng": 3.146296,
+    "transactions": [
+      {
+        "date": "2025-03-03",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "bfd293e587a4": {
+    "id": "bfd293e587a4",
+    "label": "72 RUE CARPEAUX, Wasquehal",
+    "lat": 50.692232,
+    "lng": 3.146481,
+    "transactions": [
+      {
+        "date": "2025-02-27",
+        "priceEur": 172050,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "0dc5e0607ae7": {
+    "id": "0dc5e0607ae7",
+    "label": "17 AV SANTOS DUMONT, Tourcoing",
+    "lat": 50.693575,
+    "lng": 3.14293,
+    "transactions": [
+      {
+        "date": "2025-02-25",
+        "priceEur": 198200,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "526e14dc445c": {
+    "id": "526e14dc445c",
+    "label": "25 RUE DU DOCTEUR DUPONT, Tourcoing",
+    "lat": 50.693994,
+    "lng": 3.150922,
+    "transactions": [
+      {
+        "date": "2025-02-24",
+        "priceEur": 72505,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "c29f334317a9": {
+    "id": "c29f334317a9",
+    "label": "207 RUE DE LA MACKELLERIE, Roubaix",
+    "lat": 50.688765,
+    "lng": 3.151807,
+    "transactions": [
+      {
+        "date": "2025-02-27",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "de4e310a2c4a": {
+    "id": "de4e310a2c4a",
+    "label": "15 CHE DE LA PLANCHE AU RIEZ, Wasquehal",
+    "lat": 50.687959,
+    "lng": 3.14304,
+    "transactions": [
+      {
+        "date": "2025-04-04",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "ec45a3740bfd": {
+    "id": "ec45a3740bfd",
+    "label": "30 RUE CARPEAUX, Wasquehal",
+    "lat": 50.690985,
+    "lng": 3.145235,
+    "transactions": [
+      {
+        "date": "2025-03-31",
+        "priceEur": 168740,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b6d9a4ffb8e": {
+    "id": "9b6d9a4ffb8e",
+    "label": "81 RUE DU RIEZ, Croix",
+    "lat": 50.693281,
+    "lng": 3.149669,
+    "transactions": [
+      {
+        "date": "2025-04-28",
+        "priceEur": 180675,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "15906767fb17": {
+    "id": "15906767fb17",
+    "label": "11 RUE DU DANEMARK, Roubaix",
+    "lat": 50.690074,
+    "lng": 3.152662,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 214000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "fdcdd21ca8b2": {
+    "id": "fdcdd21ca8b2",
+    "label": "125 RUE DE TOURCOING, Wasquehal",
+    "lat": 50.691024,
+    "lng": 3.146352,
+    "transactions": [
+      {
+        "date": "2025-06-05",
+        "priceEur": 93000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  }
+}

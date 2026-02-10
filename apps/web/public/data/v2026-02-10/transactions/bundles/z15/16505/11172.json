@@ -1,0 +1,32 @@
+{
+  "5f9754634107": {
+    "id": "5f9754634107",
+    "label": "240 RTE DE LA CHAPELLE, Buchy",
+    "lat": 49.580126,
+    "lng": 1.340194,
+    "transactions": [
+      {
+        "date": "2021-07-08",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a5742c8c797": {
+    "id": "3a5742c8c797",
+    "label": "77 RTE DE LA CHAPELLE, Buchy",
+    "lat": 49.581962,
+    "lng": 1.339984,
+    "transactions": [
+      {
+        "date": "2023-03-27",
+        "priceEur": 161900,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

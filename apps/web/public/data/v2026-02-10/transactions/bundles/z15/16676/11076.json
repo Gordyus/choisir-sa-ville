@@ -1,0 +1,39 @@
+{
+  "e558871b2311": {
+    "id": "e558871b2311",
+    "label": "5001 LES HOLLANDES, Féchain",
+    "lat": 50.260118,
+    "lng": 3.210646,
+    "transactions": [
+      {
+        "date": "2021-01-25",
+        "priceEur": 1000,
+        "typeLocal": "Maison",
+        "surfaceM2": 15,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a48e20a614f": {
+    "id": "2a48e20a614f",
+    "label": "5684 RUE DU MARAIS, Féchain",
+    "lat": 50.25977,
+    "lng": 3.210598,
+    "transactions": [
+      {
+        "date": "2023-11-15",
+        "priceEur": 10000,
+        "typeLocal": "Maison",
+        "surfaceM2": 10,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-30",
+        "priceEur": 7000,
+        "typeLocal": "Maison",
+        "surfaceM2": 10,
+        "isVefa": false
+      }
+    ]
+  }
+}

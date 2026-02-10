@@ -1,0 +1,62 @@
+{
+  "e3e69a25b508": {
+    "id": "e3e69a25b508",
+    "label": "221 VC YPER STRAETE VC 303, Eringhem",
+    "lat": 50.897244,
+    "lng": 2.331287,
+    "transactions": [
+      {
+        "date": "2020-11-20",
+        "priceEur": 26000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "62f289ae9fee": {
+    "id": "62f289ae9fee",
+    "label": "660 RUE DES TILLEULS CD310, Eringhem",
+    "lat": 50.89615,
+    "lng": 2.337743,
+    "transactions": [
+      {
+        "date": "2021-04-08",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "72a85eccfdf8": {
+    "id": "72a85eccfdf8",
+    "label": "598 RUE DES FRENES, Eringhem",
+    "lat": 50.896534,
+    "lng": 2.338451,
+    "transactions": [
+      {
+        "date": "2023-01-19",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb9648d05227": {
+    "id": "fb9648d05227",
+    "label": "840 RUE DES TILLEULS CD310, Eringhem",
+    "lat": 50.896728,
+    "lng": 2.335575,
+    "transactions": [
+      {
+        "date": "2024-04-15",
+        "priceEur": 346500,
+        "typeLocal": "Maison",
+        "surfaceM2": 174,
+        "isVefa": false
+      }
+    ]
+  }
+}

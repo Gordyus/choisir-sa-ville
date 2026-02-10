@@ -1,0 +1,32 @@
+{
+  "2ad8ffd69418": {
+    "id": "2ad8ffd69418",
+    "label": "2 MAS DE PARUFET, Faugères",
+    "lat": 43.545087,
+    "lng": 3.178077,
+    "transactions": [
+      {
+        "date": "2020-07-16",
+        "priceEur": 478800,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "63178e5c56e4": {
+    "id": "63178e5c56e4",
+    "label": "5403F MAS DE PARUFET, Faugères",
+    "lat": 43.545089,
+    "lng": 3.178908,
+    "transactions": [
+      {
+        "date": "2020-07-16",
+        "priceEur": 478800,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  }
+}

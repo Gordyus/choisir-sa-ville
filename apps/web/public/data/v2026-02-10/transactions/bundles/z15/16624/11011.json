@@ -1,0 +1,32 @@
+{
+  "ed95792c49b2": {
+    "id": "ed95792c49b2",
+    "label": "530 CHE DU HALAGE, Merris",
+    "lat": 50.711779,
+    "lng": 2.646283,
+    "transactions": [
+      {
+        "date": "2023-03-07",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "18c001fd52b1": {
+    "id": "18c001fd52b1",
+    "label": "1301 RUE DU PARADIS, Merris",
+    "lat": 50.708712,
+    "lng": 2.643605,
+    "transactions": [
+      {
+        "date": "2023-06-27",
+        "priceEur": 475000,
+        "typeLocal": "Maison",
+        "surfaceM2": 194,
+        "isVefa": false
+      }
+    ]
+  }
+}

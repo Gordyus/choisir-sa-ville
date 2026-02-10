@@ -1,0 +1,196 @@
+{
+  "4bb482ee3e84": {
+    "id": "4bb482ee3e84",
+    "label": "599 RTE DE DIEPPE, Hautot-sur-Mer",
+    "lat": 49.905672,
+    "lng": 1.056151,
+    "transactions": [
+      {
+        "date": "2020-08-06",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e190ae5018d": {
+    "id": "8e190ae5018d",
+    "label": "9001 RUE DES HETRES, Hautot-sur-Mer",
+    "lat": 49.906132,
+    "lng": 1.055722,
+    "transactions": [
+      {
+        "date": "2020-09-15",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "acc21fa333bc": {
+    "id": "acc21fa333bc",
+    "label": "314 RTE DE DIEPPE, Hautot-sur-Mer",
+    "lat": 49.90337,
+    "lng": 1.055159,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7f5456d0382": {
+    "id": "c7f5456d0382",
+    "label": "25 RES LES HETRES, Hautot-sur-Mer",
+    "lat": 49.907368,
+    "lng": 1.055481,
+    "transactions": [
+      {
+        "date": "2020-12-23",
+        "priceEur": 101700,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "e5f84980ee62": {
+    "id": "e5f84980ee62",
+    "label": "312 RTE DE DIEPPE, Hautot-sur-Mer",
+    "lat": 49.902989,
+    "lng": 1.054849,
+    "transactions": [
+      {
+        "date": "2021-04-07",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "0907446a30a2": {
+    "id": "0907446a30a2",
+    "label": "123 RUE DES FONTAINES, Hautot-sur-Mer",
+    "lat": 49.9058,
+    "lng": 1.054754,
+    "transactions": [
+      {
+        "date": "2021-05-31",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "eda211e17ab2": {
+    "id": "eda211e17ab2",
+    "label": "5766 CHE DU TUNNEL, Hautot-sur-Mer",
+    "lat": 49.904939,
+    "lng": 1.058923,
+    "transactions": [
+      {
+        "date": "2021-10-02",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "63082c6a9fb5": {
+    "id": "63082c6a9fb5",
+    "label": "11 CITE SUEDOISE, Dieppe",
+    "lat": 49.90854,
+    "lng": 1.063671,
+    "transactions": [
+      {
+        "date": "2022-02-01",
+        "priceEur": 155759,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7ea58f157ee": {
+    "id": "b7ea58f157ee",
+    "label": "457 RTE DE DIEPPE, Hautot-sur-Mer",
+    "lat": 49.904619,
+    "lng": 1.055732,
+    "transactions": [
+      {
+        "date": "2022-06-07",
+        "priceEur": 87100,
+        "typeLocal": "Maison",
+        "surfaceM2": 29,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-07",
+        "priceEur": 87100,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c154fe52248": {
+    "id": "3c154fe52248",
+    "label": "35 CHE DES POUQUETTES, Hautot-sur-Mer",
+    "lat": 49.90441,
+    "lng": 1.056367,
+    "transactions": [
+      {
+        "date": "2023-01-23",
+        "priceEur": 178500,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "546bcefe77b1": {
+    "id": "546bcefe77b1",
+    "label": "534 RTE DE DIEPPE, Hautot-sur-Mer",
+    "lat": 49.904992,
+    "lng": 1.056756,
+    "transactions": [
+      {
+        "date": "2023-05-15",
+        "priceEur": 235000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-15",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "77342b7f2e1d": {
+    "id": "77342b7f2e1d",
+    "label": "326 IMP DU VALLON, Hautot-sur-Mer",
+    "lat": 49.90406,
+    "lng": 1.061742,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  }
+}

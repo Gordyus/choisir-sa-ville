@@ -1,0 +1,77 @@
+{
+  "c08296c3fa9b": {
+    "id": "c08296c3fa9b",
+    "label": "3 RUE PAUL DHELEMME, Nomain",
+    "lat": 50.501319,
+    "lng": 3.253621,
+    "transactions": [
+      {
+        "date": "2020-12-12",
+        "priceEur": 300900,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "059d92003313": {
+    "id": "059d92003313",
+    "label": "20 RUE PAUL DHELEMME, Nomain",
+    "lat": 50.501992,
+    "lng": 3.257827,
+    "transactions": [
+      {
+        "date": "2021-10-06",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "eaa6a4293cbd": {
+    "id": "eaa6a4293cbd",
+    "label": "13 RUE PAUL DHELEMME, Nomain",
+    "lat": 50.501915,
+    "lng": 3.255471,
+    "transactions": [
+      {
+        "date": "2022-04-21",
+        "priceEur": 269350,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a190894fc9c": {
+    "id": "6a190894fc9c",
+    "label": "8 RUE PAUL DHELEMME, Nomain",
+    "lat": 50.501178,
+    "lng": 3.255434,
+    "transactions": [
+      {
+        "date": "2024-01-25",
+        "priceEur": 323000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "8741ac153f65": {
+    "id": "8741ac153f65",
+    "label": "1A RUE DU COQUELET, Nomain",
+    "lat": 50.49995,
+    "lng": 3.253489,
+    "transactions": [
+      {
+        "date": "2024-10-23",
+        "priceEur": 375650,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  }
+}

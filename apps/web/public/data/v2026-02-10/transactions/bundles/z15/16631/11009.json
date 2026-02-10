@@ -1,0 +1,32 @@
+{
+  "7c4fcea0587c": {
+    "id": "7c4fcea0587c",
+    "label": "233 CR HOEPELSTRAETE, Bailleul",
+    "lat": 50.725552,
+    "lng": 2.71525,
+    "transactions": [
+      {
+        "date": "2022-02-17",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "f055193cf288": {
+    "id": "f055193cf288",
+    "label": "10 RUE ARNOULD DE GRAMINES, Bailleul",
+    "lat": 50.729013,
+    "lng": 2.724436,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

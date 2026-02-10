@@ -1,0 +1,47 @@
+{
+  "ec85e2f0d6ee": {
+    "id": "ec85e2f0d6ee",
+    "label": "5192 SENEGRA, La Tour-sur-Orb",
+    "lat": 43.679955,
+    "lng": 3.147651,
+    "transactions": [
+      {
+        "date": "2021-11-03",
+        "priceEur": 129145,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "ddb8c88b460e": {
+    "id": "ddb8c88b460e",
+    "label": "5405F SENEGRA, La Tour-sur-Orb",
+    "lat": 43.680047,
+    "lng": 3.147874,
+    "transactions": [
+      {
+        "date": "2022-02-17",
+        "priceEur": 112500,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "aaa5f4ce2ed4": {
+    "id": "aaa5f4ce2ed4",
+    "label": "5032 SENEGRA, La Tour-sur-Orb",
+    "lat": 43.679431,
+    "lng": 3.148032,
+    "transactions": [
+      {
+        "date": "2022-09-09",
+        "priceEur": 165120,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  }
+}

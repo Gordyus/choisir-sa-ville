@@ -1,0 +1,54 @@
+{
+  "e4d20a61e003": {
+    "id": "e4d20a61e003",
+    "label": "14 RTE DU CHATEAU, Sorquainville",
+    "lat": 49.702597,
+    "lng": 0.555919,
+    "transactions": [
+      {
+        "date": "2020-09-25",
+        "priceEur": 219000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "81e6346de1bc": {
+    "id": "81e6346de1bc",
+    "label": "20T RTE DU CHATEAU, Sorquainville",
+    "lat": 49.702165,
+    "lng": 0.559165,
+    "transactions": [
+      {
+        "date": "2024-06-21",
+        "priceEur": 550000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-21",
+        "priceEur": 550000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7e2d00fadc3": {
+    "id": "c7e2d00fadc3",
+    "label": "20 RTE DU CHATEAU, Sorquainville",
+    "lat": 49.701389,
+    "lng": 0.558542,
+    "transactions": [
+      {
+        "date": "2024-06-21",
+        "priceEur": 550000,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  }
+}

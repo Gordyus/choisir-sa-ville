@@ -1,0 +1,467 @@
+{
+  "878f33be3502": {
+    "id": "878f33be3502",
+    "label": "1 IMP ANDRE CAPLET, Port-Jérôme-sur-Seine",
+    "lat": 49.487875,
+    "lng": 0.584391,
+    "transactions": [
+      {
+        "date": "2020-08-03",
+        "priceEur": 184000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "cabe4355cc0f": {
+    "id": "cabe4355cc0f",
+    "label": "10 RUE DE LONDRES, Port-Jérôme-sur-Seine",
+    "lat": 49.487689,
+    "lng": 0.589601,
+    "transactions": [
+      {
+        "date": "2020-08-17",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1de01ab4352": {
+    "id": "e1de01ab4352",
+    "label": "3 ALL DE BRUXELLES, Port-Jérôme-sur-Seine",
+    "lat": 49.488176,
+    "lng": 0.585028,
+    "transactions": [
+      {
+        "date": "2020-10-27",
+        "priceEur": 229600,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd2b2a8f9739": {
+    "id": "bd2b2a8f9739",
+    "label": "17 RUE EUGENE BOUDIN, Port-Jérôme-sur-Seine",
+    "lat": 49.489302,
+    "lng": 0.582929,
+    "transactions": [
+      {
+        "date": "2020-12-15",
+        "priceEur": 141280,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "0a1ff71838c8": {
+    "id": "0a1ff71838c8",
+    "label": "1 ALL DE LUXEMBOURG, Port-Jérôme-sur-Seine",
+    "lat": 49.489272,
+    "lng": 0.591259,
+    "transactions": [
+      {
+        "date": "2021-01-06",
+        "priceEur": 202000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "cbd95ff96086": {
+    "id": "cbd95ff96086",
+    "label": "4 ALL D'AMSTERDAM, Port-Jérôme-sur-Seine",
+    "lat": 49.489092,
+    "lng": 0.591004,
+    "transactions": [
+      {
+        "date": "2021-01-27",
+        "priceEur": 187500,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "fc1db8e868fc": {
+    "id": "fc1db8e868fc",
+    "label": "1 RUE DE COPENHAGUE, Port-Jérôme-sur-Seine",
+    "lat": 49.486721,
+    "lng": 0.58718,
+    "transactions": [
+      {
+        "date": "2021-03-05",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "d0bed2a8f0f9": {
+    "id": "d0bed2a8f0f9",
+    "label": "4 ALL DE BRATISLAVA, Port-Jérôme-sur-Seine",
+    "lat": 49.488442,
+    "lng": 0.59013,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 180400,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "22fbc447d349": {
+    "id": "22fbc447d349",
+    "label": "5 RUE DE COPENHAGUE, Port-Jérôme-sur-Seine",
+    "lat": 49.486707,
+    "lng": 0.587783,
+    "transactions": [
+      {
+        "date": "2021-06-11",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "238076358859": {
+    "id": "238076358859",
+    "label": "10 ALL D'AMSTERDAM, Port-Jérôme-sur-Seine",
+    "lat": 49.488732,
+    "lng": 0.5913,
+    "transactions": [
+      {
+        "date": "2021-08-26",
+        "priceEur": 203000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "5ec765167386": {
+    "id": "5ec765167386",
+    "label": "28 RUE DE MILAN, Port-Jérôme-sur-Seine",
+    "lat": 49.487778,
+    "lng": 0.590352,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 216000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": true
+      }
+    ]
+  },
+  "c59e2b8a4be4": {
+    "id": "c59e2b8a4be4",
+    "label": "32 RUE DE MILAN, Port-Jérôme-sur-Seine",
+    "lat": 49.487599,
+    "lng": 0.590087,
+    "transactions": [
+      {
+        "date": "2021-11-30",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": true
+      }
+    ]
+  },
+  "cd2003307cb1": {
+    "id": "cd2003307cb1",
+    "label": "31 RUE RAOUL DUFY, Port-Jérôme-sur-Seine",
+    "lat": 49.486479,
+    "lng": 0.586424,
+    "transactions": [
+      {
+        "date": "2022-03-30",
+        "priceEur": 257000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b80cc76edea": {
+    "id": "5b80cc76edea",
+    "label": "5 RUE WOLFGANG AMADEUS MOZART, Port-Jérôme-sur-Seine",
+    "lat": 49.488788,
+    "lng": 0.583985,
+    "transactions": [
+      {
+        "date": "2022-07-18",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "0317a4d2732b": {
+    "id": "0317a4d2732b",
+    "label": "43 RUE RAOUL DUFY, Port-Jérôme-sur-Seine",
+    "lat": 49.4864,
+    "lng": 0.588373,
+    "transactions": [
+      {
+        "date": "2022-08-26",
+        "priceEur": 218700,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c79bf0119ae": {
+    "id": "2c79bf0119ae",
+    "label": "1 RUE D'ATHENES, Port-Jérôme-sur-Seine",
+    "lat": 49.488967,
+    "lng": 0.587865,
+    "transactions": [
+      {
+        "date": "2023-02-10",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  },
+  "e9d7bcbf659f": {
+    "id": "e9d7bcbf659f",
+    "label": "8 RUE DE DUBLIN, Port-Jérôme-sur-Seine",
+    "lat": 49.487881,
+    "lng": 0.587615,
+    "transactions": [
+      {
+        "date": "2023-06-02",
+        "priceEur": 249000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "d08dc1f7949e": {
+    "id": "d08dc1f7949e",
+    "label": "8 ALL DE BRATISLAVA, Port-Jérôme-sur-Seine",
+    "lat": 49.48827,
+    "lng": 0.590463,
+    "transactions": [
+      {
+        "date": "2023-07-04",
+        "priceEur": 209000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "9dce73242ce9": {
+    "id": "9dce73242ce9",
+    "label": "17 RUE MANUEL DE FALLA, Port-Jérôme-sur-Seine",
+    "lat": 49.489342,
+    "lng": 0.585903,
+    "transactions": [
+      {
+        "date": "2023-07-03",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c501a9cd3c9": {
+    "id": "9c501a9cd3c9",
+    "label": "33 RUE RAOUL DUFY, Port-Jérôme-sur-Seine",
+    "lat": 49.486449,
+    "lng": 0.586757,
+    "transactions": [
+      {
+        "date": "2023-07-13",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "43412de3365b": {
+    "id": "43412de3365b",
+    "label": "9 ALL D'AMSTERDAM, Port-Jérôme-sur-Seine",
+    "lat": 49.488469,
+    "lng": 0.590911,
+    "transactions": [
+      {
+        "date": "2023-09-15",
+        "priceEur": 209000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "a537e5974895": {
+    "id": "a537e5974895",
+    "label": "1 RUE DE PRAGUE, Port-Jérôme-sur-Seine",
+    "lat": 49.488971,
+    "lng": 0.58881,
+    "transactions": [
+      {
+        "date": "2023-09-25",
+        "priceEur": 283000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc6c62fb7318": {
+    "id": "bc6c62fb7318",
+    "label": "4 RUE D'HELSINKI, Port-Jérôme-sur-Seine",
+    "lat": 49.487436,
+    "lng": 0.588178,
+    "transactions": [
+      {
+        "date": "2024-05-30",
+        "priceEur": 193000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc2a6e69319d": {
+    "id": "cc2a6e69319d",
+    "label": "8 RUE EUGENE BOUDIN, Port-Jérôme-sur-Seine",
+    "lat": 49.489461,
+    "lng": 0.582628,
+    "transactions": [
+      {
+        "date": "2024-06-19",
+        "priceEur": 155800,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "f89aa513ba21": {
+    "id": "f89aa513ba21",
+    "label": "2 RUE FREDERIC CHOPIN, Port-Jérôme-sur-Seine",
+    "lat": 49.48681,
+    "lng": 0.583023,
+    "transactions": [
+      {
+        "date": "2024-07-01",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0d9f3f7a420": {
+    "id": "e0d9f3f7a420",
+    "label": "3 ALL DE LUXEMBOURG, Port-Jérôme-sur-Seine",
+    "lat": 49.489304,
+    "lng": 0.591532,
+    "transactions": [
+      {
+        "date": "2024-09-26",
+        "priceEur": 187500,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae4f9428b2b3": {
+    "id": "ae4f9428b2b3",
+    "label": "10 RUE DE DUBLIN, Port-Jérôme-sur-Seine",
+    "lat": 49.487977,
+    "lng": 0.587786,
+    "transactions": [
+      {
+        "date": "2024-10-23",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "366bef8d4cc6": {
+    "id": "366bef8d4cc6",
+    "label": "9 RUE DE COPENHAGUE, Port-Jérôme-sur-Seine",
+    "lat": 49.486667,
+    "lng": 0.588393,
+    "transactions": [
+      {
+        "date": "2024-10-31",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a5b918ef5f5": {
+    "id": "5a5b918ef5f5",
+    "label": "2 RUE D'HELSINKI, Port-Jérôme-sur-Seine",
+    "lat": 49.487463,
+    "lng": 0.587887,
+    "transactions": [
+      {
+        "date": "2025-01-17",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd8e3f2532fc": {
+    "id": "fd8e3f2532fc",
+    "label": "5 RUE D'HELSINKI, Port-Jérôme-sur-Seine",
+    "lat": 49.48721,
+    "lng": 0.588171,
+    "transactions": [
+      {
+        "date": "2025-02-26",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "0a2ec67413fa": {
+    "id": "0a2ec67413fa",
+    "label": "30 RUE DE FRIBOURG, Port-Jérôme-sur-Seine",
+    "lat": 49.487318,
+    "lng": 0.590511,
+    "transactions": [
+      {
+        "date": "2025-04-17",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": true
+      }
+    ]
+  }
+}

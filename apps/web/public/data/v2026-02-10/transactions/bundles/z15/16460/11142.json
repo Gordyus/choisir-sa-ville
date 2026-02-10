@@ -1,0 +1,69 @@
+{
+  "497a4adc39fe": {
+    "id": "497a4adc39fe",
+    "label": "2 RUE ALFRED LABARBE, Bourville",
+    "lat": 49.794361,
+    "lng": 0.838262,
+    "transactions": [
+      {
+        "date": "2022-10-14",
+        "priceEur": 190900,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-21",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa5b2c8e508a": {
+    "id": "aa5b2c8e508a",
+    "label": "5 RUE DES TOUT VENT, Bourville",
+    "lat": 49.794868,
+    "lng": 0.835803,
+    "transactions": [
+      {
+        "date": "2023-06-06",
+        "priceEur": 153500,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6d95beb08ee": {
+    "id": "e6d95beb08ee",
+    "label": "6 RUE DES TOUT VENT, Bourville",
+    "lat": 49.794719,
+    "lng": 0.83607,
+    "transactions": [
+      {
+        "date": "2023-06-16",
+        "priceEur": 166929,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "7388bd3d5c83": {
+    "id": "7388bd3d5c83",
+    "label": "3 RUE ALFRED LABARBE, Bourville",
+    "lat": 49.794285,
+    "lng": 0.839038,
+    "transactions": [
+      {
+        "date": "2023-08-11",
+        "priceEur": 33000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

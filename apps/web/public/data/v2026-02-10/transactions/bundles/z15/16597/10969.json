@@ -1,0 +1,32 @@
+{
+  "3d7aa7ebf3a4": {
+    "id": "3d7aa7ebf3a4",
+    "label": "1 RTE DE CAPPELLE, Armbouts-Cappel",
+    "lat": 51.000476,
+    "lng": 2.35026,
+    "transactions": [
+      {
+        "date": "2021-01-25",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b303c2ccc83": {
+    "id": "8b303c2ccc83",
+    "label": "8 RTE DE CAPPELLE, Armbouts-Cappel",
+    "lat": 51.000492,
+    "lng": 2.349158,
+    "transactions": [
+      {
+        "date": "2025-05-15",
+        "priceEur": 145350,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  }
+}

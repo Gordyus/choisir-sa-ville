@@ -1,0 +1,62 @@
+{
+  "b1dddeefad59": {
+    "id": "b1dddeefad59",
+    "label": "3 RUE EUGENE FRIOT, Le Havre",
+    "lat": 49.479851,
+    "lng": 0.165949,
+    "transactions": [
+      {
+        "date": "2021-01-25",
+        "priceEur": 144490,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "d321e4532a3e": {
+    "id": "d321e4532a3e",
+    "label": "27 RUE EUGENE FRIOT, Le Havre",
+    "lat": 49.480528,
+    "lng": 0.165267,
+    "transactions": [
+      {
+        "date": "2021-12-28",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "ebc9666b5be5": {
+    "id": "ebc9666b5be5",
+    "label": "17 RUE HENRI ET SERGE FERCOCQ, Le Havre",
+    "lat": 49.479745,
+    "lng": 0.165523,
+    "transactions": [
+      {
+        "date": "2022-07-20",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "148b4ca6692d": {
+    "id": "148b4ca6692d",
+    "label": "15 RUE HENRI ET SERGE FERCOCQ, Le Havre",
+    "lat": 49.479694,
+    "lng": 0.165358,
+    "transactions": [
+      {
+        "date": "2023-03-28",
+        "priceEur": 106000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  }
+}

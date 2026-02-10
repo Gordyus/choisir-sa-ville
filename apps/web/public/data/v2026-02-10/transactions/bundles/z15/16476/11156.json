@@ -1,0 +1,62 @@
+{
+  "c11850d54ec7": {
+    "id": "c11850d54ec7",
+    "label": "25 RUE DU MOULIN A VENT, Saint-Vaast-du-Val",
+    "lat": 49.689536,
+    "lng": 1.010856,
+    "transactions": [
+      {
+        "date": "2020-10-08",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "23a972d89b72": {
+    "id": "23a972d89b72",
+    "label": "121 RUE DU MOULIN A VENT, Saint-Vaast-du-Val",
+    "lat": 49.690206,
+    "lng": 1.011625,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 191150,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "379cbcce57cb": {
+    "id": "379cbcce57cb",
+    "label": "186 RUE DU MOULIN A VENT, Saint-Vaast-du-Val",
+    "lat": 49.690667,
+    "lng": 1.011678,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 440000,
+        "typeLocal": "Maison",
+        "surfaceM2": 230,
+        "isVefa": false
+      }
+    ]
+  },
+  "5fa825a3e0d2": {
+    "id": "5fa825a3e0d2",
+    "label": "177 RUE DU MOULIN A VENT, Saint-Vaast-du-Val",
+    "lat": 49.690315,
+    "lng": 1.012441,
+    "transactions": [
+      {
+        "date": "2021-08-30",
+        "priceEur": 233000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  }
+}

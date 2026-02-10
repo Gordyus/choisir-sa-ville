@@ -1,0 +1,47 @@
+{
+  "a5cbcfe7fb09": {
+    "id": "a5cbcfe7fb09",
+    "label": "200 RUE DES MOINES, Loffre",
+    "lat": 50.3591,
+    "lng": 3.161032,
+    "transactions": [
+      {
+        "date": "2021-02-13",
+        "priceEur": 73000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe9815d3b284": {
+    "id": "fe9815d3b284",
+    "label": "788 RUE MARC LANVIN, Guesnain",
+    "lat": 50.357532,
+    "lng": 3.155478,
+    "transactions": [
+      {
+        "date": "2022-02-01",
+        "priceEur": 121600,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "db391230b304": {
+    "id": "db391230b304",
+    "label": "274 RUE DES MOINES, Loffre",
+    "lat": 50.35863,
+    "lng": 3.161799,
+    "transactions": [
+      {
+        "date": "2022-02-23",
+        "priceEur": 208000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "d1ab4e52dca2": {
+    "id": "d1ab4e52dca2",
+    "label": "10 RUE DE LA FORGE, Annouville-Vilmesnil",
+    "lat": 49.675578,
+    "lng": 0.42452,
+    "transactions": [
+      {
+        "date": "2020-10-23",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "2db037a01a3d": {
+    "id": "2db037a01a3d",
+    "label": "4 LOT ANANI, Annouville-Vilmesnil",
+    "lat": 49.67524,
+    "lng": 0.425547,
+    "transactions": [
+      {
+        "date": "2021-11-15",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "494c60f29b2f": {
+    "id": "494c60f29b2f",
+    "label": "4 CHE DE LA FERME, Annouville-Vilmesnil",
+    "lat": 49.674773,
+    "lng": 0.421228,
+    "transactions": [
+      {
+        "date": "2022-06-07",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3ac70be460a": {
+    "id": "a3ac70be460a",
+    "label": "1 LOT ANANI, Annouville-Vilmesnil",
+    "lat": 49.675704,
+    "lng": 0.426395,
+    "transactions": [
+      {
+        "date": "2023-07-03",
+        "priceEur": 218050,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a330e121192": {
+    "id": "7a330e121192",
+    "label": "52 RTE DE BRETTEVILLE, Annouville-Vilmesnil",
+    "lat": 49.675742,
+    "lng": 0.427058,
+    "transactions": [
+      {
+        "date": "2025-03-07",
+        "priceEur": 277000,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  }
+}

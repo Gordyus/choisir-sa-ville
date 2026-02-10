@@ -1,0 +1,84 @@
+{
+  "b372ed510311": {
+    "id": "b372ed510311",
+    "label": "5217 GODELMESNIL HAMEAU, Saint-Rémy-Boscrocourt",
+    "lat": 50.006455,
+    "lng": 1.414406,
+    "transactions": [
+      {
+        "date": "2021-12-10",
+        "priceEur": 187620,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "97d1106245ba": {
+    "id": "97d1106245ba",
+    "label": "4 RUE DE LA CROIX DE BOIS, Saint-Rémy-Boscrocourt",
+    "lat": 50.006971,
+    "lng": 1.409704,
+    "transactions": [
+      {
+        "date": "2021-07-27",
+        "priceEur": 89500,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "fcbefffd2ec0": {
+    "id": "fcbefffd2ec0",
+    "label": "12B RUE DE LA CROIX DE BOIS, Saint-Rémy-Boscrocourt",
+    "lat": 50.006132,
+    "lng": 1.411669,
+    "transactions": [
+      {
+        "date": "2021-08-09",
+        "priceEur": 190150,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "822c62e49815": {
+    "id": "822c62e49815",
+    "label": "2B RUE DE LA CROIX DE BOIS, Saint-Rémy-Boscrocourt",
+    "lat": 50.00712,
+    "lng": 1.408965,
+    "transactions": [
+      {
+        "date": "2021-10-20",
+        "priceEur": 259890,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-20",
+        "priceEur": 259890,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f454a1f1302": {
+    "id": "4f454a1f1302",
+    "label": "7 RUE DE LA CROIX DE BOIS, Saint-Rémy-Boscrocourt",
+    "lat": 50.005492,
+    "lng": 1.412554,
+    "transactions": [
+      {
+        "date": "2024-05-28",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "b9ad082dabec": {
+    "id": "b9ad082dabec",
+    "label": "25 RUE GRANDE RUE, Petit-Caux",
+    "lat": 49.931823,
+    "lng": 1.296193,
+    "transactions": [
+      {
+        "date": "2020-10-07",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 312,
+        "isVefa": false
+      }
+    ]
+  },
+  "82370456f3fa": {
+    "id": "82370456f3fa",
+    "label": "31 RUE GRANDE RUE, Petit-Caux",
+    "lat": 49.931564,
+    "lng": 1.293977,
+    "transactions": [
+      {
+        "date": "2021-11-10",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b3a239efc60": {
+    "id": "1b3a239efc60",
+    "label": "26 RUE GRANDE RUE, Petit-Caux",
+    "lat": 49.931121,
+    "lng": 1.295843,
+    "transactions": [
+      {
+        "date": "2021-12-07",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e2d1046459d": {
+    "id": "5e2d1046459d",
+    "label": "36 RUE GRANDE RUE, Petit-Caux",
+    "lat": 49.930452,
+    "lng": 1.293125,
+    "transactions": [
+      {
+        "date": "2021-06-22",
+        "priceEur": 297000,
+        "typeLocal": "Maison",
+        "surfaceM2": 203,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d993179769e": {
+    "id": "6d993179769e",
+    "label": "5079 PLAINE DE GRENY INTRAVILLE, Petit-Caux",
+    "lat": 49.931788,
+    "lng": 1.2919,
+    "transactions": [
+      {
+        "date": "2022-12-20",
+        "priceEur": 206450,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "71143f4004db": {
+    "id": "71143f4004db",
+    "label": "22 RUE GRANDE RUE, Petit-Caux",
+    "lat": 49.93085,
+    "lng": 1.296034,
+    "transactions": [
+      {
+        "date": "2023-07-06",
+        "priceEur": 89000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "19bceb56a934": {
+    "id": "19bceb56a934",
+    "label": "5051 PLAINE DE GOUCHAUPRE, Petit-Caux",
+    "lat": 49.931215,
+    "lng": 1.293112,
+    "transactions": [
+      {
+        "date": "2023-09-12",
+        "priceEur": 208000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c53f46452e3": {
+    "id": "8c53f46452e3",
+    "label": "32 RUE GRANDE RUE, Petit-Caux",
+    "lat": 49.931122,
+    "lng": 1.293897,
+    "transactions": [
+      {
+        "date": "2024-01-11",
+        "priceEur": 337499,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-11",
+        "priceEur": 337499,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "31f0fb0db569": {
+    "id": "31f0fb0db569",
+    "label": "5011 INTRAVILLE, Petit-Caux",
+    "lat": 49.931335,
+    "lng": 1.291643,
+    "transactions": [
+      {
+        "date": "2025-05-16",
+        "priceEur": 228810,
+        "typeLocal": "Appartement",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

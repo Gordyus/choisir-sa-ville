@@ -1,0 +1,47 @@
+{
+  "6805cd452d66": {
+    "id": "6805cd452d66",
+    "label": "19 RUE DU MOULIN, Monchy-sur-Eu",
+    "lat": 49.993653,
+    "lng": 1.444754,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 172500,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "70737a6636cc": {
+    "id": "70737a6636cc",
+    "label": "1 RUE VASCO DE GAMA, Monchy-sur-Eu",
+    "lat": 49.994964,
+    "lng": 1.447561,
+    "transactions": [
+      {
+        "date": "2021-07-26",
+        "priceEur": 243411,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa0f09d714e5": {
+    "id": "aa0f09d714e5",
+    "label": "7 RUE VASCO DE GAMA, Monchy-sur-Eu",
+    "lat": 49.995559,
+    "lng": 1.447824,
+    "transactions": [
+      {
+        "date": "2024-10-21",
+        "priceEur": 251130,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  }
+}

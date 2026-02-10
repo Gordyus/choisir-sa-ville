@@ -1,0 +1,47 @@
+{
+  "d96be5ecba81": {
+    "id": "d96be5ecba81",
+    "label": "4 RUE DE LA COSTE, Pézènes-les-Mines",
+    "lat": 43.60849,
+    "lng": 3.257028,
+    "transactions": [
+      {
+        "date": "2021-08-05",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "a6b38e7d6743": {
+    "id": "a6b38e7d6743",
+    "label": "199 CHE DE TAUSSAC, Pézènes-les-Mines",
+    "lat": 43.60904,
+    "lng": 3.256546,
+    "transactions": [
+      {
+        "date": "2022-06-01",
+        "priceEur": 333600,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e6553fb4fee": {
+    "id": "0e6553fb4fee",
+    "label": "3 RUE DE LA COSTE, Pézènes-les-Mines",
+    "lat": 43.608373,
+    "lng": 3.257175,
+    "transactions": [
+      {
+        "date": "2024-06-27",
+        "priceEur": 5000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  }
+}

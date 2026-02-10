@@ -1,0 +1,32 @@
+{
+  "1651fe9b79ba": {
+    "id": "1651fe9b79ba",
+    "label": "27 RUE DU PARADIS, Merville",
+    "lat": 50.64441,
+    "lng": 2.677669,
+    "transactions": [
+      {
+        "date": "2021-01-14",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d802c1c1807": {
+    "id": "8d802c1c1807",
+    "label": "4 RUE DUVETTE, Merville",
+    "lat": 50.643001,
+    "lng": 2.678135,
+    "transactions": [
+      {
+        "date": "2022-04-21",
+        "priceEur": 136900,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "cbdaaccfe247": {
+    "id": "cbdaaccfe247",
+    "label": "5605 HAMEAU DE VAUTUIT, Doudeville",
+    "lat": 49.745869,
+    "lng": 0.765597,
+    "transactions": [
+      {
+        "date": "2020-07-28",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "d135bee6294f": {
+    "id": "d135bee6294f",
+    "label": "5712 HAMEAU DE VAUTUIT, Doudeville",
+    "lat": 49.746324,
+    "lng": 0.76455,
+    "transactions": [
+      {
+        "date": "2022-09-28",
+        "priceEur": 410000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

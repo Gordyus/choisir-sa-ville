@@ -1,0 +1,32 @@
+{
+  "80542a5eea66": {
+    "id": "80542a5eea66",
+    "label": "2 RTE DU BOSC AUBIN, La Ferté-Saint-Samson",
+    "lat": 49.586439,
+    "lng": 1.537951,
+    "transactions": [
+      {
+        "date": "2023-02-24",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6e160d86096": {
+    "id": "d6e160d86096",
+    "label": "4 RTE DU BOSC AUBIN, La Ferté-Saint-Samson",
+    "lat": 49.585808,
+    "lng": 1.536209,
+    "transactions": [
+      {
+        "date": "2024-11-08",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  }
+}

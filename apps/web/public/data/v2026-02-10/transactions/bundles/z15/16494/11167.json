@@ -1,0 +1,62 @@
+{
+  "f14c5ba09f50": {
+    "id": "f14c5ba09f50",
+    "label": "5052 VILLAGE DE TOUFFREVILLE, Esteville",
+    "lat": 49.612379,
+    "lng": 1.214539,
+    "transactions": [
+      {
+        "date": "2020-08-28",
+        "priceEur": 119570,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "790b6b97da88": {
+    "id": "790b6b97da88",
+    "label": "5072 TOUFFREVILLE, Esteville",
+    "lat": 49.61348,
+    "lng": 1.214588,
+    "transactions": [
+      {
+        "date": "2021-09-14",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f8de47fadc7": {
+    "id": "7f8de47fadc7",
+    "label": "10 RUE DE LA CHAPELLE, Esteville",
+    "lat": 49.612549,
+    "lng": 1.215294,
+    "transactions": [
+      {
+        "date": "2022-03-07",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed0e6afe2117": {
+    "id": "ed0e6afe2117",
+    "label": "295 RUE SAINT SULPICE, Esteville",
+    "lat": 49.6147,
+    "lng": 1.213668,
+    "transactions": [
+      {
+        "date": "2023-09-20",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "89f445214ae1": {
+    "id": "89f445214ae1",
+    "label": "5219 LE MESNIL, Montérolier",
+    "lat": 49.624806,
+    "lng": 1.345882,
+    "transactions": [
+      {
+        "date": "2020-10-20",
+        "priceEur": 196150,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "535c22a66fc1": {
+    "id": "535c22a66fc1",
+    "label": "119 RUE DU MESNIL, Montérolier",
+    "lat": 49.622564,
+    "lng": 1.343732,
+    "transactions": [
+      {
+        "date": "2021-05-11",
+        "priceEur": 244000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "a99042b6794b": {
+    "id": "a99042b6794b",
+    "label": "5205 LE BOURG, Montérolier",
+    "lat": 49.622743,
+    "lng": 1.345828,
+    "transactions": [
+      {
+        "date": "2021-10-13",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "74824ad8edec": {
+    "id": "74824ad8edec",
+    "label": "5236 LE MESNIL, Montérolier",
+    "lat": 49.622157,
+    "lng": 1.342017,
+    "transactions": [
+      {
+        "date": "2022-07-12",
+        "priceEur": 221500,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "e935263a6e5e": {
+    "id": "e935263a6e5e",
+    "label": "5174 LE BOURG, Montérolier",
+    "lat": 49.622464,
+    "lng": 1.345497,
+    "transactions": [
+      {
+        "date": "2023-02-02",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 29,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e97252c18f0": {
+    "id": "1e97252c18f0",
+    "label": "40 RTE DU MESNIL, Montérolier",
+    "lat": 49.621183,
+    "lng": 1.343647,
+    "transactions": [
+      {
+        "date": "2024-05-17",
+        "priceEur": 176000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "84f68068f941": {
+    "id": "84f68068f941",
+    "label": "30 RTE DU MESNIL, Montérolier",
+    "lat": 49.623206,
+    "lng": 1.343944,
+    "transactions": [
+      {
+        "date": "2025-04-15",
+        "priceEur": 104000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  }
+}

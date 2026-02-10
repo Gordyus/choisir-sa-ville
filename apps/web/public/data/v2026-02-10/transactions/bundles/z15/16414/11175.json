@@ -1,0 +1,32 @@
+{
+  "b0173b5af8f0": {
+    "id": "b0173b5af8f0",
+    "label": "306 RTE DU MIRLIBUT, Étainhus",
+    "lat": 49.559045,
+    "lng": 0.334113,
+    "transactions": [
+      {
+        "date": "2022-06-17",
+        "priceEur": 550000,
+        "typeLocal": "Maison",
+        "surfaceM2": 332,
+        "isVefa": false
+      }
+    ]
+  },
+  "f03e18abcf06": {
+    "id": "f03e18abcf06",
+    "label": "511 RTE DE LA GARE, Étainhus",
+    "lat": 49.560534,
+    "lng": 0.330502,
+    "transactions": [
+      {
+        "date": "2024-08-23",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "26c735029123": {
+    "id": "26c735029123",
+    "label": "74 RUE DES PELERINS, Val-de-Scie",
+    "lat": 49.71444,
+    "lng": 1.17566,
+    "transactions": [
+      {
+        "date": "2020-07-03",
+        "priceEur": 209000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b1aebeefe03": {
+    "id": "0b1aebeefe03",
+    "label": "1197 RUE DU BOSC, Val-de-Scie",
+    "lat": 49.716332,
+    "lng": 1.175735,
+    "transactions": [
+      {
+        "date": "2022-03-12",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5b842e7e157": {
+    "id": "f5b842e7e157",
+    "label": "1204 RUE DU BOSC, Val-de-Scie",
+    "lat": 49.715599,
+    "lng": 1.176624,
+    "transactions": [
+      {
+        "date": "2024-05-21",
+        "priceEur": 141000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  }
+}

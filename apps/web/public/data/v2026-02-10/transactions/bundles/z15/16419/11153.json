@@ -1,0 +1,114 @@
+{
+  "402675ce0ae7": {
+    "id": "402675ce0ae7",
+    "label": "298 RUE AUX CHARS, Tourville-les-Ifs",
+    "lat": 49.715544,
+    "lng": 0.394255,
+    "transactions": [
+      {
+        "date": "2020-09-28",
+        "priceEur": 200500,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "57ff1b8dca12": {
+    "id": "57ff1b8dca12",
+    "label": "2 PTE DE PIERRE CIMETIERE BAS, Tourville-les-Ifs",
+    "lat": 49.71636,
+    "lng": 0.393647,
+    "transactions": [
+      {
+        "date": "2021-06-09",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "c967e3208d1d": {
+    "id": "c967e3208d1d",
+    "label": "259 RTE D'YGNEAUVILLE, Tourville-les-Ifs",
+    "lat": 49.71421,
+    "lng": 0.394593,
+    "transactions": [
+      {
+        "date": "2022-12-15",
+        "priceEur": 450000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c1e730a5c66": {
+    "id": "1c1e730a5c66",
+    "label": "674 RUE AUX CHARS, Tourville-les-Ifs",
+    "lat": 49.714667,
+    "lng": 0.390505,
+    "transactions": [
+      {
+        "date": "2022-12-29",
+        "priceEur": 562115,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-29",
+        "priceEur": 562115,
+        "typeLocal": "Maison",
+        "surfaceM2": 22,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1a9f8085547": {
+    "id": "b1a9f8085547",
+    "label": "11 PTE DE PIERRE CIMETIERE BAS, Tourville-les-Ifs",
+    "lat": 49.714045,
+    "lng": 0.394863,
+    "transactions": [
+      {
+        "date": "2023-02-13",
+        "priceEur": 272800,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e000d5338b3": {
+    "id": "0e000d5338b3",
+    "label": "298 RTE D'YGNEAUVILLE, Tourville-les-Ifs",
+    "lat": 49.713451,
+    "lng": 0.394251,
+    "transactions": [
+      {
+        "date": "2024-04-12",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "967c0ac21397": {
+    "id": "967c0ac21397",
+    "label": "12 PTE DE PIERRE CIMETIERE BAS, Tourville-les-Ifs",
+    "lat": 49.71385,
+    "lng": 0.395297,
+    "transactions": [
+      {
+        "date": "2024-07-31",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  }
+}

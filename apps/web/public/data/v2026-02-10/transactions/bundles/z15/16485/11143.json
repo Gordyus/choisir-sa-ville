@@ -1,0 +1,92 @@
+{
+  "a2ae9f5d797c": {
+    "id": "a2ae9f5d797c",
+    "label": "5017 LE CHATEAU, Longueville-sur-Scie",
+    "lat": 49.788082,
+    "lng": 1.115327,
+    "transactions": [
+      {
+        "date": "2021-03-27",
+        "priceEur": 910000,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      }
+    ]
+  },
+  "f35f0aa2aff7": {
+    "id": "f35f0aa2aff7",
+    "label": "5021 LE CHATEAU, Longueville-sur-Scie",
+    "lat": 49.788044,
+    "lng": 1.116681,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 122500,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "fc82dfc49ad6": {
+    "id": "fc82dfc49ad6",
+    "label": "5058 VILLAGE DE SAINT CRESPIN, Saint-Crespin",
+    "lat": 49.785882,
+    "lng": 1.110383,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c3a69177281": {
+    "id": "9c3a69177281",
+    "label": "5060 VILLAGE DE SAINT CRESPIN, Saint-Crespin",
+    "lat": 49.786364,
+    "lng": 1.110406,
+    "transactions": [
+      {
+        "date": "2021-09-27",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe3636b45c07": {
+    "id": "fe3636b45c07",
+    "label": "29 RUE GAUTHIER GIFFARD, Longueville-sur-Scie",
+    "lat": 49.787818,
+    "lng": 1.116741,
+    "transactions": [
+      {
+        "date": "2021-09-28",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "8072f5342542": {
+    "id": "8072f5342542",
+    "label": "17 RTE DE LA SCIE, Saint-Crespin",
+    "lat": 49.784851,
+    "lng": 1.111873,
+    "transactions": [
+      {
+        "date": "2024-10-14",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "d1d1839e7e61": {
+    "id": "d1d1839e7e61",
+    "label": "355 RTE D'ARGUEIL, Bois-Guilbert",
+    "lat": 49.546416,
+    "lng": 1.413676,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e3d2323dcab": {
+    "id": "7e3d2323dcab",
+    "label": "195 RTE D'HERONCHELLES, Bois-Guilbert",
+    "lat": 49.543863,
+    "lng": 1.411892,
+    "transactions": [
+      {
+        "date": "2022-03-24",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c01b3eaac89": {
+    "id": "1c01b3eaac89",
+    "label": "28 RTE D'HERONCHELLES, Bois-Guilbert",
+    "lat": 49.545021,
+    "lng": 1.411024,
+    "transactions": [
+      {
+        "date": "2024-10-22",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  }
+}

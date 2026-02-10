@@ -1,0 +1,32 @@
+{
+  "33035d72513d": {
+    "id": "33035d72513d",
+    "label": "160 IMP DU BOUT ROUGE, Tocqueville-en-Caux",
+    "lat": 49.784227,
+    "lng": 0.912013,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "8772ad15b21d": {
+    "id": "8772ad15b21d",
+    "label": "301 RTE DE LA FERME DES CHAMPS, Tocqueville-en-Caux",
+    "lat": 49.783389,
+    "lng": 0.914891,
+    "transactions": [
+      {
+        "date": "2025-02-17",
+        "priceEur": 181450,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

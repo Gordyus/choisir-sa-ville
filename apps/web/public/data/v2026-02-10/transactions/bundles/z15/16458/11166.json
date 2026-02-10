@@ -1,0 +1,32 @@
+{
+  "02aa3b1d62cc": {
+    "id": "02aa3b1d62cc",
+    "label": "457 RTE DE BEAUVOIR, Écalles-Alix",
+    "lat": 49.619817,
+    "lng": 0.813234,
+    "transactions": [
+      {
+        "date": "2020-09-17",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "1972a6361782": {
+    "id": "1972a6361782",
+    "label": "60 RTE DE L ECOLE, Écalles-Alix",
+    "lat": 49.617855,
+    "lng": 0.823102,
+    "transactions": [
+      {
+        "date": "2024-06-27",
+        "priceEur": 224000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

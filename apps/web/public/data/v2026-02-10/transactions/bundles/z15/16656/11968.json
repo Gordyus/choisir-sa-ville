@@ -1,0 +1,32 @@
+{
+  "23cf770fd375": {
+    "id": "23cf770fd375",
+    "label": "5028 HAMEAU DE LA POMAREDE, Saint-Martin-de-l'Arçon",
+    "lat": 43.574902,
+    "lng": 2.996852,
+    "transactions": [
+      {
+        "date": "2022-06-28",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "c41564ebaf15": {
+    "id": "c41564ebaf15",
+    "label": "5051 HAMEAU DE LA POMAREDE, Saint-Martin-de-l'Arçon",
+    "lat": 43.575988,
+    "lng": 2.994508,
+    "transactions": [
+      {
+        "date": "2024-11-06",
+        "priceEur": 106870,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  }
+}

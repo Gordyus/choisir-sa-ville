@@ -1,0 +1,122 @@
+{
+  "3deaa0203ad3": {
+    "id": "3deaa0203ad3",
+    "label": "11 RUE DU STADE, Saint-Aubin-de-Crétot",
+    "lat": 49.567761,
+    "lng": 0.636806,
+    "transactions": [
+      {
+        "date": "2021-06-01",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "d75899a70da6": {
+    "id": "d75899a70da6",
+    "label": "18 IMP DE LA CAHENNERIE, Saint-Aubin-de-Crétot",
+    "lat": 49.564562,
+    "lng": 0.635275,
+    "transactions": [
+      {
+        "date": "2021-10-08",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "dbd4ee01a309": {
+    "id": "dbd4ee01a309",
+    "label": "3 RUE DU STADE, Saint-Aubin-de-Crétot",
+    "lat": 49.567765,
+    "lng": 0.637105,
+    "transactions": [
+      {
+        "date": "2022-01-27",
+        "priceEur": 139500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "181006b7006c": {
+    "id": "181006b7006c",
+    "label": "26 RUE DE LA MAIRIE, Saint-Aubin-de-Crétot",
+    "lat": 49.566567,
+    "lng": 0.637147,
+    "transactions": [
+      {
+        "date": "2022-12-07",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "d81c8494ee1b": {
+    "id": "d81c8494ee1b",
+    "label": "710 RUE DE L EGLISE, Saint-Aubin-de-Crétot",
+    "lat": 49.567327,
+    "lng": 0.636245,
+    "transactions": [
+      {
+        "date": "2023-07-18",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "a48fc99a2c9e": {
+    "id": "a48fc99a2c9e",
+    "label": "71 RUE DU STADE, Saint-Aubin-de-Crétot",
+    "lat": 49.567671,
+    "lng": 0.636254,
+    "transactions": [
+      {
+        "date": "2024-03-08",
+        "priceEur": 153000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b242fff23d0": {
+    "id": "4b242fff23d0",
+    "label": "2 IMP DE LA CAHENNERIE, Saint-Aubin-de-Crétot",
+    "lat": 49.565151,
+    "lng": 0.635929,
+    "transactions": [
+      {
+        "date": "2025-01-29",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "6f305204712c": {
+    "id": "6f305204712c",
+    "label": "395 RUE DU BOIS ROND, Saint-Nicolas-de-la-Haie",
+    "lat": 49.561168,
+    "lng": 0.62887,
+    "transactions": [
+      {
+        "date": "2025-06-10",
+        "priceEur": 388000,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "9007fbb553a9": {
+    "id": "9007fbb553a9",
+    "label": "44 RUE DE NEUFCHATEL, Saint-Germain-sur-Eaulne",
+    "lat": 49.76359,
+    "lng": 1.505112,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 203,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a1fe95133f6": {
+    "id": "1a1fe95133f6",
+    "label": "5085 LE FOND DE SAINT GERMAIN, Saint-Germain-sur-Eaulne",
+    "lat": 49.760939,
+    "lng": 1.503341,
+    "transactions": [
+      {
+        "date": "2023-03-24",
+        "priceEur": 22000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  }
+}

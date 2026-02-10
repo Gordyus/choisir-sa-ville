@@ -1,0 +1,47 @@
+{
+  "63cb23331814": {
+    "id": "63cb23331814",
+    "label": "6669F RTE DE LACAUNE, La Salvetat-sur-Agout",
+    "lat": 43.63914,
+    "lng": 2.654746,
+    "transactions": [
+      {
+        "date": "2020-10-02",
+        "priceEur": 225900,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "83693119949c": {
+    "id": "83693119949c",
+    "label": "5403F LE GAZEL, La Salvetat-sur-Agout",
+    "lat": 43.639058,
+    "lng": 2.654166,
+    "transactions": [
+      {
+        "date": "2020-12-28",
+        "priceEur": 87400,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "2910cc25287a": {
+    "id": "2910cc25287a",
+    "label": "301 LE GAZEL, La Salvetat-sur-Agout",
+    "lat": 43.641801,
+    "lng": 2.650645,
+    "transactions": [
+      {
+        "date": "2024-09-30",
+        "priceEur": 25000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  }
+}

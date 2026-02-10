@@ -1,0 +1,92 @@
+{
+  "7217d3bb08fd": {
+    "id": "7217d3bb08fd",
+    "label": "18 PL DE L'EGLISE, Bracquetuit",
+    "lat": 49.666582,
+    "lng": 1.168623,
+    "transactions": [
+      {
+        "date": "2021-06-18",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "6535b740b816": {
+    "id": "6535b740b816",
+    "label": "81 RUE GODARD DE BELBEUF, Bracquetuit",
+    "lat": 49.666557,
+    "lng": 1.170457,
+    "transactions": [
+      {
+        "date": "2021-07-15",
+        "priceEur": 262000,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "a283ff78010d": {
+    "id": "a283ff78010d",
+    "label": "80 RUE GODARD DE BELBEUF, Bracquetuit",
+    "lat": 49.666002,
+    "lng": 1.171327,
+    "transactions": [
+      {
+        "date": "2022-09-12",
+        "priceEur": 446466,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "7acb8e256d1a": {
+    "id": "7acb8e256d1a",
+    "label": "36 RUE DU FREMONTEL, Bracquetuit",
+    "lat": 49.664897,
+    "lng": 1.167827,
+    "transactions": [
+      {
+        "date": "2023-04-13",
+        "priceEur": 249000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ec946ee5109": {
+    "id": "3ec946ee5109",
+    "label": "97 RUE DU PUITS, Bracquetuit",
+    "lat": 49.665223,
+    "lng": 1.166627,
+    "transactions": [
+      {
+        "date": "2024-01-03",
+        "priceEur": 294500,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "771c4ed93e3a": {
+    "id": "771c4ed93e3a",
+    "label": "97B RUE DU PUITS, Bracquetuit",
+    "lat": 49.66516,
+    "lng": 1.167125,
+    "transactions": [
+      {
+        "date": "2025-02-27",
+        "priceEur": 193000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

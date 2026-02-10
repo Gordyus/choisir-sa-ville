@@ -1,0 +1,32 @@
+{
+  "3b57e27334db": {
+    "id": "3b57e27334db",
+    "label": "5028 LE VILLAGE, Richemont",
+    "lat": 49.816526,
+    "lng": 1.636302,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 57000,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f553a18d2fa": {
+    "id": "8f553a18d2fa",
+    "label": "99B RUE CENTRALE, Richemont",
+    "lat": 49.816485,
+    "lng": 1.635048,
+    "transactions": [
+      {
+        "date": "2023-05-30",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

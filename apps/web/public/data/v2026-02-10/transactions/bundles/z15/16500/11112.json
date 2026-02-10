@@ -1,0 +1,47 @@
+{
+  "a89b1704c6e3": {
+    "id": "a89b1704c6e3",
+    "label": "5036 LE VILLAGE TOCQUEVILLE, Petit-Caux",
+    "lat": 50.002508,
+    "lng": 1.284843,
+    "transactions": [
+      {
+        "date": "2020-10-02",
+        "priceEur": 147900,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "bcc16655e838": {
+    "id": "bcc16655e838",
+    "label": "3B RUE DE PARFONVAL, Petit-Caux",
+    "lat": 50.002723,
+    "lng": 1.282924,
+    "transactions": [
+      {
+        "date": "2021-07-01",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "04831ad0e896": {
+    "id": "04831ad0e896",
+    "label": "6 PL SAINT SAUVEUR, Petit-Caux",
+    "lat": 50.00167,
+    "lng": 1.283265,
+    "transactions": [
+      {
+        "date": "2023-10-20",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  }
+}

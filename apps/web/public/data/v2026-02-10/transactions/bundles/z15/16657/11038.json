@@ -1,0 +1,47 @@
+{
+  "bf027fcb72d8": {
+    "id": "bf027fcb72d8",
+    "label": "20 RUE DU MOULIN, Phalempin",
+    "lat": 50.520743,
+    "lng": 3.009036,
+    "transactions": [
+      {
+        "date": "2022-05-05",
+        "priceEur": 254000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "c10284593a0a": {
+    "id": "c10284593a0a",
+    "label": "3 RUE DES AUBEPINES, Phalempin",
+    "lat": 50.521855,
+    "lng": 3.010222,
+    "transactions": [
+      {
+        "date": "2023-02-15",
+        "priceEur": 276000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "ddc0d0d02816": {
+    "id": "ddc0d0d02816",
+    "label": "9 RUE DU MOULIN, Phalempin",
+    "lat": 50.521306,
+    "lng": 3.009857,
+    "transactions": [
+      {
+        "date": "2024-03-19",
+        "priceEur": 211700,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "5684d32ede68": {
+    "id": "5684d32ede68",
+    "label": "33 LA BEUVAINE, Dancourt",
+    "lat": 49.89111,
+    "lng": 1.546829,
+    "transactions": [
+      {
+        "date": "2024-04-02",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-11",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad49ec5b201a": {
+    "id": "ad49ec5b201a",
+    "label": "8 RUE DE L EGLISE, Dancourt",
+    "lat": 49.892015,
+    "lng": 1.544673,
+    "transactions": [
+      {
+        "date": "2020-10-21",
+        "priceEur": 281000,
+        "typeLocal": "Maison",
+        "surfaceM2": 191,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad2edb83852e": {
+    "id": "ad2edb83852e",
+    "label": "34A LE BOURG, Dancourt",
+    "lat": 49.89245,
+    "lng": 1.547145,
+    "transactions": [
+      {
+        "date": "2021-09-14",
+        "priceEur": 76000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "73c82f5e5b2d": {
+    "id": "73c82f5e5b2d",
+    "label": "3 RUE DE L EGLISE, Dancourt",
+    "lat": 49.892728,
+    "lng": 1.546239,
+    "transactions": [
+      {
+        "date": "2022-02-18",
+        "priceEur": 124000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "e9e40f3fe98e": {
+    "id": "e9e40f3fe98e",
+    "label": "9 LE BOURG, Dancourt",
+    "lat": 49.892953,
+    "lng": 1.545846,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac0b395d83c0": {
+    "id": "ac0b395d83c0",
+    "label": "34C LE BOURG, Dancourt",
+    "lat": 49.891818,
+    "lng": 1.547738,
+    "transactions": [
+      {
+        "date": "2023-05-27",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb4ad2ca28ea": {
+    "id": "cb4ad2ca28ea",
+    "label": "9A LE BOURG, Dancourt",
+    "lat": 49.893162,
+    "lng": 1.545726,
+    "transactions": [
+      {
+        "date": "2024-02-09",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "217a5ed1a7d8": {
+    "id": "217a5ed1a7d8",
+    "label": "16A LE BOURG, Dancourt",
+    "lat": 49.893727,
+    "lng": 1.54555,
+    "transactions": [
+      {
+        "date": "2024-12-14",
+        "priceEur": 89200,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

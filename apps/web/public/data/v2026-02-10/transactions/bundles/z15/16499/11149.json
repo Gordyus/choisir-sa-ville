@@ -1,0 +1,107 @@
+{
+  "6ced2ad27ae1": {
+    "id": "6ced2ad27ae1",
+    "label": "3 RUE DES LILAS, Ardouval",
+    "lat": 49.742144,
+    "lng": 1.268077,
+    "transactions": [
+      {
+        "date": "2021-11-29",
+        "priceEur": 127300,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "fab25c9b4901": {
+    "id": "fab25c9b4901",
+    "label": "16 RUE DES PINS, Ardouval",
+    "lat": 49.740533,
+    "lng": 1.263745,
+    "transactions": [
+      {
+        "date": "2021-03-17",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "f05a9ea67f13": {
+    "id": "f05a9ea67f13",
+    "label": "12 RUE DES CEDRES, Ardouval",
+    "lat": 49.739147,
+    "lng": 1.266336,
+    "transactions": [
+      {
+        "date": "2021-09-11",
+        "priceEur": 226500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "c650e33c01cd": {
+    "id": "c650e33c01cd",
+    "label": "5 RUE DES CEDRES, Ardouval",
+    "lat": 49.739435,
+    "lng": 1.268238,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 95950,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb9f7a7b7d93": {
+    "id": "fb9f7a7b7d93",
+    "label": "8 RTE DE BELLENCOMBRE, Ardouval",
+    "lat": 49.740971,
+    "lng": 1.269843,
+    "transactions": [
+      {
+        "date": "2022-10-15",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1008e70d6c1": {
+    "id": "a1008e70d6c1",
+    "label": "1 RUE DES PINS, Ardouval",
+    "lat": 49.742094,
+    "lng": 1.269142,
+    "transactions": [
+      {
+        "date": "2023-01-23",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb92b4056d54": {
+    "id": "bb92b4056d54",
+    "label": "6 RUE DES PINS, Ardouval",
+    "lat": 49.741737,
+    "lng": 1.267361,
+    "transactions": [
+      {
+        "date": "2023-09-15",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "dd318564bd88": {
+    "id": "dd318564bd88",
+    "label": "1295 RTE DE LA QUEUE DU CHIEN, Épinay-sur-Duclair",
+    "lat": 49.537452,
+    "lng": 0.841302,
+    "transactions": [
+      {
+        "date": "2022-07-26",
+        "priceEur": 152105,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "765bc59bc83c": {
+    "id": "765bc59bc83c",
+    "label": "1015 RTE DE LA QUEUE DU CHIEN, Épinay-sur-Duclair",
+    "lat": 49.53597,
+    "lng": 0.838279,
+    "transactions": [
+      {
+        "date": "2025-03-11",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-14",
+        "priceEur": 15000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "1be7811cb53a": {
+    "id": "1be7811cb53a",
+    "label": "721 RTE DE LA QUEUE DU CHIEN, Épinay-sur-Duclair",
+    "lat": 49.534329,
+    "lng": 0.835855,
+    "transactions": [
+      {
+        "date": "2024-08-09",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f14dc650659": {
+    "id": "7f14dc650659",
+    "label": "1265 RTE DE LA QUEUE DU CHIEN, Épinay-sur-Duclair",
+    "lat": 49.537638,
+    "lng": 0.840871,
+    "transactions": [
+      {
+        "date": "2025-02-25",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  }
+}

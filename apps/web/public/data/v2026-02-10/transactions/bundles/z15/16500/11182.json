@@ -1,0 +1,62 @@
+{
+  "88b85d22f10b": {
+    "id": "88b85d22f10b",
+    "label": "708 RTE D'HOULMESNIL, Blainville-Crevon",
+    "lat": 49.508349,
+    "lng": 1.278111,
+    "transactions": [
+      {
+        "date": "2020-10-28",
+        "priceEur": 236500,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "982257b70add": {
+    "id": "982257b70add",
+    "label": "188 IMP DU CLOS VIEVRE, Blainville-Crevon",
+    "lat": 49.505718,
+    "lng": 1.28305,
+    "transactions": [
+      {
+        "date": "2024-01-26",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf145a39e55b": {
+    "id": "bf145a39e55b",
+    "label": "207 RTE D'HOULMESNIL, Blainville-Crevon",
+    "lat": 49.504421,
+    "lng": 1.279552,
+    "transactions": [
+      {
+        "date": "2024-06-26",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "d8e3464821d0": {
+    "id": "d8e3464821d0",
+    "label": "209 IMP DU CLOS VIEVRE, Blainville-Crevon",
+    "lat": 49.506076,
+    "lng": 1.282533,
+    "transactions": [
+      {
+        "date": "2025-03-07",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "8c8f0c823f5d": {
+    "id": "8c8f0c823f5d",
+    "label": "6073 RTE DE NEUFCHATEL, Blangy-sur-Bresle",
+    "lat": 49.919769,
+    "lng": 1.622892,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "c79474074457": {
+    "id": "c79474074457",
+    "label": "34B RTE DE NEUFCHATEL, Blangy-sur-Bresle",
+    "lat": 49.921392,
+    "lng": 1.623972,
+    "transactions": [
+      {
+        "date": "2022-09-28",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "95ee28dfb0bb": {
+    "id": "95ee28dfb0bb",
+    "label": "59 RTE DE NEUFCHATEL, Blangy-sur-Bresle",
+    "lat": 49.921141,
+    "lng": 1.62411,
+    "transactions": [
+      {
+        "date": "2022-09-28",
+        "priceEur": 50000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-28",
+        "priceEur": 50000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  }
+}

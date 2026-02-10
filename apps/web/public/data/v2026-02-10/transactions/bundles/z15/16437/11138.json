@@ -1,0 +1,54 @@
+{
+  "675612b3e877": {
+    "id": "675612b3e877",
+    "label": "13 RTE DE LA SAINTE VILLE, Butot-Vénesville",
+    "lat": 49.818053,
+    "lng": 0.587353,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d3a1bf6c264": {
+    "id": "1d3a1bf6c264",
+    "label": "12 RTE DE LA SAINTE VILLE, Butot-Vénesville",
+    "lat": 49.817998,
+    "lng": 0.586821,
+    "transactions": [
+      {
+        "date": "2021-12-09",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "ead56925d332": {
+    "id": "ead56925d332",
+    "label": "12 RUE DU TONNERRE, Butot-Vénesville",
+    "lat": 49.818814,
+    "lng": 0.589678,
+    "transactions": [
+      {
+        "date": "2022-11-18",
+        "priceEur": 296400,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-04",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

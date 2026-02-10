@@ -1,0 +1,32 @@
+{
+  "9eb465d10fd7": {
+    "id": "9eb465d10fd7",
+    "label": "5092 LES BRULINS, Elbeuf-en-Bray",
+    "lat": 49.485682,
+    "lng": 1.657142,
+    "transactions": [
+      {
+        "date": "2021-12-02",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "acf157cebf3d": {
+    "id": "acf157cebf3d",
+    "label": "5105 SENTIER D AVESNES, Elbeuf-en-Bray",
+    "lat": 49.483646,
+    "lng": 1.658758,
+    "transactions": [
+      {
+        "date": "2021-12-08",
+        "priceEur": 241150,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

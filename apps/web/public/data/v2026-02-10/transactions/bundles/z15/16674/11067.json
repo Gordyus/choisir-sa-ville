@@ -1,0 +1,32 @@
+{
+  "8c841224b41b": {
+    "id": "8c841224b41b",
+    "label": "9396 HAM DE SEBASTOPOL, Masny",
+    "lat": 50.323449,
+    "lng": 3.192957,
+    "transactions": [
+      {
+        "date": "2023-12-26",
+        "priceEur": 208200,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "8497e578aebb": {
+    "id": "8497e578aebb",
+    "label": "1 HAM DE SEBASTOPOL, Erchin",
+    "lat": 50.318694,
+    "lng": 3.189995,
+    "transactions": [
+      {
+        "date": "2024-06-19",
+        "priceEur": 166081.4,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  }
+}

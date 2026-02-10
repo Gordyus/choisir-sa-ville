@@ -1,0 +1,114 @@
+{
+  "81b71eb8a1d1": {
+    "id": "81b71eb8a1d1",
+    "label": "5006 LE BOURG - SEVIS, Val-de-Scie",
+    "lat": 49.705329,
+    "lng": 1.160164,
+    "transactions": [
+      {
+        "date": "2020-10-20",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "02685f515df3": {
+    "id": "02685f515df3",
+    "label": "5002A LE BOURG - SEVIS, Val-de-Scie",
+    "lat": 49.705082,
+    "lng": 1.160595,
+    "transactions": [
+      {
+        "date": "2021-09-27",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff121dfe4b3c": {
+    "id": "ff121dfe4b3c",
+    "label": "238 RTE D'AUFFAY - SEVIS, Val-de-Scie",
+    "lat": 49.705184,
+    "lng": 1.159586,
+    "transactions": [
+      {
+        "date": "2023-12-06",
+        "priceEur": 263000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-20",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e36fe97cdb3": {
+    "id": "6e36fe97cdb3",
+    "label": "5105 LE BOURG - SEVIS, Val-de-Scie",
+    "lat": 49.705135,
+    "lng": 1.158627,
+    "transactions": [
+      {
+        "date": "2021-07-29",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "8ff822da2e3d": {
+    "id": "8ff822da2e3d",
+    "label": "360 RTE D'AUFFAY - SEVIS, Val-de-Scie",
+    "lat": 49.705122,
+    "lng": 1.158014,
+    "transactions": [
+      {
+        "date": "2021-07-29",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "28b888fd5ad8": {
+    "id": "28b888fd5ad8",
+    "label": "5018 LE BOURG - SEVIS, Val-de-Scie",
+    "lat": 49.708604,
+    "lng": 1.163447,
+    "transactions": [
+      {
+        "date": "2021-09-27",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed00194da7bc": {
+    "id": "ed00194da7bc",
+    "label": "178 RUE SADI CARNOT, Val-de-Scie",
+    "lat": 49.706092,
+    "lng": 1.163847,
+    "transactions": [
+      {
+        "date": "2022-09-28",
+        "priceEur": 580000,
+        "typeLocal": "Maison",
+        "surfaceM2": 410,
+        "isVefa": false
+      }
+    ]
+  }
+}

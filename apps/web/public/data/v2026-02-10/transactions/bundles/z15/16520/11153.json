@@ -1,0 +1,84 @@
+{
+  "6208c5c137b4": {
+    "id": "6208c5c137b4",
+    "label": "5052B LE BOURG, Bouelles",
+    "lat": 49.71382,
+    "lng": 1.498971,
+    "transactions": [
+      {
+        "date": "2020-09-11",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "07881bb4f68b": {
+    "id": "07881bb4f68b",
+    "label": "5003 LE BOURG, Bouelles",
+    "lat": 49.714228,
+    "lng": 1.496411,
+    "transactions": [
+      {
+        "date": "2021-04-29",
+        "priceEur": 502600,
+        "typeLocal": "Maison",
+        "surfaceM2": 300,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ce5ec490878": {
+    "id": "4ce5ec490878",
+    "label": "5052A LE BOURG, Bouelles",
+    "lat": 49.714041,
+    "lng": 1.498573,
+    "transactions": [
+      {
+        "date": "2021-10-21",
+        "priceEur": 227500,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "2647611be0c0": {
+    "id": "2647611be0c0",
+    "label": "5044 LE BOURG, Bouelles",
+    "lat": 49.713518,
+    "lng": 1.495191,
+    "transactions": [
+      {
+        "date": "2023-09-04",
+        "priceEur": 113000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-20",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "ce02cc3ad882": {
+    "id": "ce02cc3ad882",
+    "label": "900 RTE DU BOURG, Bouelles",
+    "lat": 49.715149,
+    "lng": 1.496322,
+    "transactions": [
+      {
+        "date": "2025-02-12",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "3f8aa734d202": {
+    "id": "3f8aa734d202",
+    "label": "611 RUE DU BOCQUETAL, La Cerlangue",
+    "lat": 49.494974,
+    "lng": 0.421018,
+    "transactions": [
+      {
+        "date": "2023-01-27",
+        "priceEur": 181000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "433908adaae7": {
+    "id": "433908adaae7",
+    "label": "571 RUE DU BOCQUETAL, La Cerlangue",
+    "lat": 49.494753,
+    "lng": 0.421061,
+    "transactions": [
+      {
+        "date": "2023-05-04",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 22,
+        "isVefa": false
+      }
+    ]
+  },
+  "abe4dcd3039f": {
+    "id": "abe4dcd3039f",
+    "label": "863 RUE DU BOCQUETAL, La Cerlangue",
+    "lat": 49.495226,
+    "lng": 0.417903,
+    "transactions": [
+      {
+        "date": "2023-07-13",
+        "priceEur": 410000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c937045f52a": {
+    "id": "8c937045f52a",
+    "label": "300 RUE DU BOCQUETAL, La Cerlangue",
+    "lat": 49.496635,
+    "lng": 0.421827,
+    "transactions": [
+      {
+        "date": "2024-10-15",
+        "priceEur": 218000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e1ab6d7765e": {
+    "id": "8e1ab6d7765e",
+    "label": "816 RUE DU BOCQUETAL, La Cerlangue",
+    "lat": 49.495568,
+    "lng": 0.418103,
+    "transactions": [
+      {
+        "date": "2024-12-16",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "8070c334acef": {
+    "id": "8070c334acef",
+    "label": "776 RUE DU BOCQUETAL, La Cerlangue",
+    "lat": 49.495718,
+    "lng": 0.417912,
+    "transactions": [
+      {
+        "date": "2024-12-16",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

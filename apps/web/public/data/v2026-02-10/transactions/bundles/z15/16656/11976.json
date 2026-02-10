@@ -1,0 +1,107 @@
+{
+  "64ee7f7f06ad": {
+    "id": "64ee7f7f06ad",
+    "label": "5191 CEPS, Roquebrun",
+    "lat": 43.513531,
+    "lng": 2.989622,
+    "transactions": [
+      {
+        "date": "2021-07-12",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "37e155034451": {
+    "id": "37e155034451",
+    "label": "5059 CEPS, Roquebrun",
+    "lat": 43.513182,
+    "lng": 2.988625,
+    "transactions": [
+      {
+        "date": "2022-01-06",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a097f9fed71": {
+    "id": "7a097f9fed71",
+    "label": "5599F CEPS, Roquebrun",
+    "lat": 43.513524,
+    "lng": 2.989278,
+    "transactions": [
+      {
+        "date": "2023-04-14",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "103d61696724": {
+    "id": "103d61696724",
+    "label": "5151 CEPS, Roquebrun",
+    "lat": 43.513576,
+    "lng": 2.989224,
+    "transactions": [
+      {
+        "date": "2023-06-07",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3b0eec1f1c7": {
+    "id": "b3b0eec1f1c7",
+    "label": "5218 CEPS, Roquebrun",
+    "lat": 43.5132,
+    "lng": 2.988711,
+    "transactions": [
+      {
+        "date": "2024-04-05",
+        "priceEur": 63200,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff1b05241711": {
+    "id": "ff1b05241711",
+    "label": "5160 CEPS, Roquebrun",
+    "lat": 43.513375,
+    "lng": 2.989028,
+    "transactions": [
+      {
+        "date": "2024-06-18",
+        "priceEur": 174370,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "fc86b5a6ee8f": {
+    "id": "fc86b5a6ee8f",
+    "label": "5697F CEPS, Roquebrun",
+    "lat": 43.51355,
+    "lng": 2.989371,
+    "transactions": [
+      {
+        "date": "2025-02-11",
+        "priceEur": 17500,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "68478a157f29": {
+    "id": "68478a157f29",
+    "label": "46 RTE DES QUATRE SAISONS, Foucart",
+    "lat": 49.628698,
+    "lng": 0.593131,
+    "transactions": [
+      {
+        "date": "2021-11-29",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "bcfc24635597": {
+    "id": "bcfc24635597",
+    "label": "45 RTE DES QUATRE SAISONS, Foucart",
+    "lat": 49.628586,
+    "lng": 0.592433,
+    "transactions": [
+      {
+        "date": "2023-04-24",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "966e45534732": {
+    "id": "966e45534732",
+    "label": "276 RTE DES QUATRE SAISONS, Foucart",
+    "lat": 49.630752,
+    "lng": 0.591556,
+    "transactions": [
+      {
+        "date": "2024-12-24",
+        "priceEur": 102000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

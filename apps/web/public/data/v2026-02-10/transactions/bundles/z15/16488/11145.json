@@ -1,0 +1,32 @@
+{
+  "ccb8f73bc223": {
+    "id": "ccb8f73bc223",
+    "label": "200 RUE DU VAL BLAISE, Les Cent-Acres",
+    "lat": 49.767855,
+    "lng": 1.142921,
+    "transactions": [
+      {
+        "date": "2022-01-24",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb694f6a0797": {
+    "id": "fb694f6a0797",
+    "label": "80B RTE DE LA FORGE, Les Cent-Acres",
+    "lat": 49.771049,
+    "lng": 1.147708,
+    "transactions": [
+      {
+        "date": "2023-06-13",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

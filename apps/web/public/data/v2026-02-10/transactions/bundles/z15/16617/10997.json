@@ -1,0 +1,92 @@
+{
+  "9dbc565213ec": {
+    "id": "9dbc565213ec",
+    "label": "65 CHE DU CHRIST, Terdeghem",
+    "lat": 50.807614,
+    "lng": 2.566247,
+    "transactions": [
+      {
+        "date": "2021-04-07",
+        "priceEur": 342250,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "86d90d37be2b": {
+    "id": "86d90d37be2b",
+    "label": "287 RTE DE CASSEL A STEENVOORDE, Terdeghem",
+    "lat": 50.807918,
+    "lng": 2.569191,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "780acf0120c2": {
+    "id": "780acf0120c2",
+    "label": "62 RTE DE CASSEL, Steenvoorde",
+    "lat": 50.809712,
+    "lng": 2.570364,
+    "transactions": [
+      {
+        "date": "2021-10-06",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "5abb44ff41f8": {
+    "id": "5abb44ff41f8",
+    "label": "70 RTE DE CASSEL, Steenvoorde",
+    "lat": 50.808604,
+    "lng": 2.568899,
+    "transactions": [
+      {
+        "date": "2022-07-04",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ee7feb70d42": {
+    "id": "6ee7feb70d42",
+    "label": "221 RTE DE CASSEL A STEENVOORDE, Terdeghem",
+    "lat": 50.808108,
+    "lng": 2.570032,
+    "transactions": [
+      {
+        "date": "2023-03-14",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ceaba7fc19b": {
+    "id": "4ceaba7fc19b",
+    "label": "68 RTE DE CASSEL, Steenvoorde",
+    "lat": 50.808993,
+    "lng": 2.569398,
+    "transactions": [
+      {
+        "date": "2024-05-30",
+        "priceEur": 543000,
+        "typeLocal": "Maison",
+        "surfaceM2": 177,
+        "isVefa": false
+      }
+    ]
+  }
+}

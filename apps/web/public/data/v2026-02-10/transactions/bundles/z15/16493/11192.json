@@ -1,0 +1,92 @@
+{
+  "fc794f0c0db2": {
+    "id": "fc794f0c0db2",
+    "label": "2 RUE DES LAURIERS, Saint-Jacques-sur-Darnétal",
+    "lat": 49.438986,
+    "lng": 1.203241,
+    "transactions": [
+      {
+        "date": "2021-12-15",
+        "priceEur": 415000,
+        "typeLocal": "Maison",
+        "surfaceM2": 181,
+        "isVefa": false
+      }
+    ]
+  },
+  "098cab02b2bb": {
+    "id": "098cab02b2bb",
+    "label": "7 RUE DES VERGERS, Saint-Jacques-sur-Darnétal",
+    "lat": 49.438335,
+    "lng": 1.202325,
+    "transactions": [
+      {
+        "date": "2022-03-23",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c6b01951799": {
+    "id": "4c6b01951799",
+    "label": "67 RUE DES POMMERAIES, Saint-Jacques-sur-Darnétal",
+    "lat": 49.436935,
+    "lng": 1.20329,
+    "transactions": [
+      {
+        "date": "2022-09-16",
+        "priceEur": 309600,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "e35ac2f6db87": {
+    "id": "e35ac2f6db87",
+    "label": "39 RUE DES VERGERS, Saint-Jacques-sur-Darnétal",
+    "lat": 49.438335,
+    "lng": 1.202325,
+    "transactions": [
+      {
+        "date": "2023-06-26",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "a431b7d63d0d": {
+    "id": "a431b7d63d0d",
+    "label": "6 RUE DU VIEUX PRESSOIR, Saint-Jacques-sur-Darnétal",
+    "lat": 49.439077,
+    "lng": 1.207471,
+    "transactions": [
+      {
+        "date": "2023-12-01",
+        "priceEur": 327000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "30b9464d1e9d": {
+    "id": "30b9464d1e9d",
+    "label": "35 RUE DES VERGERS, Saint-Jacques-sur-Darnétal",
+    "lat": 49.438335,
+    "lng": 1.202325,
+    "transactions": [
+      {
+        "date": "2025-01-31",
+        "priceEur": 231550,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

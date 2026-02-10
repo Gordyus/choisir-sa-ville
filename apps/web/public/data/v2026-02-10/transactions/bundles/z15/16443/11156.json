@@ -1,0 +1,47 @@
+{
+  "5964794ff07f": {
+    "id": "5964794ff07f",
+    "label": "413 RUE DU CATELET, Ancourteville-sur-Héricourt",
+    "lat": 49.691793,
+    "lng": 0.655342,
+    "transactions": [
+      {
+        "date": "2020-10-23",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "d25542cd1019": {
+    "id": "d25542cd1019",
+    "label": "649 RUE DU CATELET, Ancourteville-sur-Héricourt",
+    "lat": 49.690744,
+    "lng": 0.653611,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 255500,
+        "typeLocal": "Maison",
+        "surfaceM2": 178,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ced66188de9": {
+    "id": "9ced66188de9",
+    "label": "295 RUE DU CATELET, Ancourteville-sur-Héricourt",
+    "lat": 49.692448,
+    "lng": 0.657349,
+    "transactions": [
+      {
+        "date": "2024-12-20",
+        "priceEur": 214600,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

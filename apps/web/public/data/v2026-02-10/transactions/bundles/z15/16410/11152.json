@@ -1,0 +1,32 @@
+{
+  "234079f5c334": {
+    "id": "234079f5c334",
+    "label": "48 CHE DE LA COTE FAFINE, Vattetot-sur-Mer",
+    "lat": 49.71775,
+    "lng": 0.287449,
+    "transactions": [
+      {
+        "date": "2021-01-27",
+        "priceEur": 237000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c504ec5c50e": {
+    "id": "1c504ec5c50e",
+    "label": "146 CHE DU BOIS, Vattetot-sur-Mer",
+    "lat": 49.719102,
+    "lng": 0.286818,
+    "transactions": [
+      {
+        "date": "2021-07-23",
+        "priceEur": 258600,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "760d47be57cd": {
+    "id": "760d47be57cd",
+    "label": "5019 LE BOURG, Ernemont-sur-Buchy",
+    "lat": 49.539721,
+    "lng": 1.359885,
+    "transactions": [
+      {
+        "date": "2022-03-08",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d7a5251ae4a": {
+    "id": "3d7a5251ae4a",
+    "label": "5026 LE BOURG, Ernemont-sur-Buchy",
+    "lat": 49.54176,
+    "lng": 1.360415,
+    "transactions": [
+      {
+        "date": "2023-02-20",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "ab3549b8e712": {
+    "id": "ab3549b8e712",
+    "label": "5059 LE BOURG, Ernemont-sur-Buchy",
+    "lat": 49.540838,
+    "lng": 1.360615,
+    "transactions": [
+      {
+        "date": "2023-06-21",
+        "priceEur": 176500,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "b858a7cba142": {
+    "id": "b858a7cba142",
+    "label": "144 RUE DE LA MAIRIE, Ernemont-sur-Buchy",
+    "lat": 49.540725,
+    "lng": 1.358181,
+    "transactions": [
+      {
+        "date": "2023-12-06",
+        "priceEur": 230700,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

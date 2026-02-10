@@ -1,0 +1,62 @@
+{
+  "bf71c4bd6727": {
+    "id": "bf71c4bd6727",
+    "label": "5017 HAMEAU DU PRE, Blacqueville",
+    "lat": 49.541901,
+    "lng": 0.837931,
+    "transactions": [
+      {
+        "date": "2021-03-05",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7df318e3ab8": {
+    "id": "c7df318e3ab8",
+    "label": "7002 LA PIERRE SUD, Blacqueville",
+    "lat": 49.546543,
+    "lng": 0.845518,
+    "transactions": [
+      {
+        "date": "2022-08-04",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "7820703a749d": {
+    "id": "7820703a749d",
+    "label": "1420 CHE DU COLOMBIER, Blacqueville",
+    "lat": 49.542728,
+    "lng": 0.838279,
+    "transactions": [
+      {
+        "date": "2024-07-05",
+        "priceEur": 308750,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "7349f5a5c7bc": {
+    "id": "7349f5a5c7bc",
+    "label": "1399 RTE DE BELLEGARDE, Blacqueville",
+    "lat": 49.542368,
+    "lng": 0.839077,
+    "transactions": [
+      {
+        "date": "2025-04-18",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

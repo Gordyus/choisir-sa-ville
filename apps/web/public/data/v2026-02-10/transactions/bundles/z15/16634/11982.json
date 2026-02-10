@@ -1,0 +1,47 @@
+{
+  "c5fd7274db96": {
+    "id": "c5fd7274db96",
+    "label": "5268 CAVENAC, Saint-Pons-de-Thomières",
+    "lat": 43.461326,
+    "lng": 2.751144,
+    "transactions": [
+      {
+        "date": "2022-08-05",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f0cfc55add5": {
+    "id": "9f0cfc55add5",
+    "label": "5272 CAVENAC, Saint-Pons-de-Thomières",
+    "lat": 43.461577,
+    "lng": 2.750111,
+    "transactions": [
+      {
+        "date": "2023-03-24",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "81512a2fa4b1": {
+    "id": "81512a2fa4b1",
+    "label": "5408 CAVENAC, Saint-Pons-de-Thomières",
+    "lat": 43.461336,
+    "lng": 2.750478,
+    "transactions": [
+      {
+        "date": "2023-07-07",
+        "priceEur": 60750,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  }
+}

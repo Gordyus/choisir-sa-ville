@@ -1,0 +1,32 @@
+{
+  "f1d34cfb9e94": {
+    "id": "f1d34cfb9e94",
+    "label": "5083 LE PETIT PARC, Rocquemont",
+    "lat": 49.61025,
+    "lng": 1.324964,
+    "transactions": [
+      {
+        "date": "2020-10-06",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ef93cde46af": {
+    "id": "1ef93cde46af",
+    "label": "252A CHE DU PETIT PARC, Rocquemont",
+    "lat": 49.609592,
+    "lng": 1.324138,
+    "transactions": [
+      {
+        "date": "2022-08-12",
+        "priceEur": 302400,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "ca53d20ca2c2": {
+    "id": "ca53d20ca2c2",
+    "label": "5123 LE BOURG, Dancourt",
+    "lat": 49.895128,
+    "lng": 1.553208,
+    "transactions": [
+      {
+        "date": "2023-01-12",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "3676ab8cba24": {
+    "id": "3676ab8cba24",
+    "label": "25A LE BOURG, Dancourt",
+    "lat": 49.895227,
+    "lng": 1.552485,
+    "transactions": [
+      {
+        "date": "2023-10-18",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  }
+}

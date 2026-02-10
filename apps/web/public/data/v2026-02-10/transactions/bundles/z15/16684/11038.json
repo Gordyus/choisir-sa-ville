@@ -1,0 +1,81 @@
+{
+  "db256247b0aa": {
+    "id": "db256247b0aa",
+    "label": "65 RUE DES FRERES FRANQUET, Mouchin",
+    "lat": 50.521458,
+    "lng": 3.300389,
+    "transactions": [
+      {
+        "date": "2022-03-10",
+        "priceEur": 425000,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-10",
+        "priceEur": 425000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-10",
+        "priceEur": 425000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-10",
+        "priceEur": 425000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-15",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-15",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-15",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-15",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "de6cbe39a011": {
+    "id": "de6cbe39a011",
+    "label": "63 RUE DES FRERES FRANQUET, Mouchin",
+    "lat": 50.521703,
+    "lng": 3.300202,
+    "transactions": [
+      {
+        "date": "2022-05-30",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

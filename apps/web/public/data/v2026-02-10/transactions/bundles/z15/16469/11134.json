@@ -1,0 +1,137 @@
+{
+  "ab129a10a48c": {
+    "id": "ab129a10a48c",
+    "label": "962B RUE DES TISSERANDS, Avremesnil",
+    "lat": 49.850792,
+    "lng": 0.942366,
+    "transactions": [
+      {
+        "date": "2021-03-19",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e7773ac31e5": {
+    "id": "9e7773ac31e5",
+    "label": "270 RUE DU CHATEAU D EAU, Avremesnil",
+    "lat": 49.848048,
+    "lng": 0.936423,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "b70654c61dae": {
+    "id": "b70654c61dae",
+    "label": "472 RUE DU BOUT BUQUET, Avremesnil",
+    "lat": 49.847491,
+    "lng": 0.938736,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "f495d785f19c": {
+    "id": "f495d785f19c",
+    "label": "471 RUE DU CHATEAU D EAU, Avremesnil",
+    "lat": 49.848634,
+    "lng": 0.939111,
+    "transactions": [
+      {
+        "date": "2021-08-17",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "d1eccaa552b0": {
+    "id": "d1eccaa552b0",
+    "label": "66 IMP DU TISSAGE, Avremesnil",
+    "lat": 49.847556,
+    "lng": 0.934614,
+    "transactions": [
+      {
+        "date": "2022-06-29",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c2f15af49f8": {
+    "id": "5c2f15af49f8",
+    "label": "443 RUE DU CHATEAU D EAU, Avremesnil",
+    "lat": 49.84858,
+    "lng": 0.938821,
+    "transactions": [
+      {
+        "date": "2022-07-25",
+        "priceEur": 170900,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a9d47909507": {
+    "id": "4a9d47909507",
+    "label": "465 RUE DU BOUT BUQUET, Avremesnil",
+    "lat": 49.846703,
+    "lng": 0.938891,
+    "transactions": [
+      {
+        "date": "2023-06-20",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": true
+      }
+    ]
+  },
+  "7594b5614e3d": {
+    "id": "7594b5614e3d",
+    "label": "553 RUE DU CHATEAU D EAU, Avremesnil",
+    "lat": 49.848511,
+    "lng": 0.940543,
+    "transactions": [
+      {
+        "date": "2024-02-12",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3651fb43ad9": {
+    "id": "b3651fb43ad9",
+    "label": "245 RUE DU CHATEAU D EAU, Avremesnil",
+    "lat": 49.848555,
+    "lng": 0.936086,
+    "transactions": [
+      {
+        "date": "2024-09-10",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  }
+}

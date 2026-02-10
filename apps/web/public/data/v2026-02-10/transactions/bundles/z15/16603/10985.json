@@ -1,0 +1,47 @@
+{
+  "81b532389b4c": {
+    "id": "81b532389b4c",
+    "label": "12 RUE ANDRE AMMEUX, Esquelbecq",
+    "lat": 50.890654,
+    "lng": 2.412983,
+    "transactions": [
+      {
+        "date": "2021-01-21",
+        "priceEur": 216250,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "afa3536fa7f5": {
+    "id": "afa3536fa7f5",
+    "label": "10 RUE ANDRE AMMEUX, Esquelbecq",
+    "lat": 50.890199,
+    "lng": 2.413146,
+    "transactions": [
+      {
+        "date": "2021-10-22",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "f92ef9514c14": {
+    "id": "f92ef9514c14",
+    "label": "2 RUE ANDRE AMMEUX, Esquelbecq",
+    "lat": 50.889202,
+    "lng": 2.41376,
+    "transactions": [
+      {
+        "date": "2024-10-17",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

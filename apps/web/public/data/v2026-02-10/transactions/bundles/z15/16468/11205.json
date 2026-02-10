@@ -1,0 +1,32 @@
+{
+  "e7957dcde55d": {
+    "id": "e7957dcde55d",
+    "label": "5015 MAISON BRULEE, La Londe",
+    "lat": 49.343689,
+    "lng": 0.93353,
+    "transactions": [
+      {
+        "date": "2020-10-20",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9207b5c4431": {
+    "id": "c9207b5c4431",
+    "label": "5174 LA MAISON BRULEE, Moulineaux",
+    "lat": 49.344848,
+    "lng": 0.933254,
+    "transactions": [
+      {
+        "date": "2022-11-09",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  }
+}

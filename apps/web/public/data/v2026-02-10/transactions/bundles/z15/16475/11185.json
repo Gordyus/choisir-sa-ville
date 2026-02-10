@@ -1,0 +1,107 @@
+{
+  "09c6becf754a": {
+    "id": "09c6becf754a",
+    "label": "1076 RTE DE DUCLAIR, Saint-Jean-du-Cardonnay",
+    "lat": 49.488356,
+    "lng": 1.006257,
+    "transactions": [
+      {
+        "date": "2021-09-29",
+        "priceEur": 221000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "119ff0eccd69": {
+    "id": "119ff0eccd69",
+    "label": "5171 LA CENTRALE, La Vaupalière",
+    "lat": 49.486003,
+    "lng": 1.009827,
+    "transactions": [
+      {
+        "date": "2022-01-28",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "05400c23012f": {
+    "id": "05400c23012f",
+    "label": "44 RTE DE DUCLAIR, Saint-Jean-du-Cardonnay",
+    "lat": 49.488663,
+    "lng": 1.005406,
+    "transactions": [
+      {
+        "date": "2022-05-05",
+        "priceEur": 355000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "013018456b72": {
+    "id": "013018456b72",
+    "label": "716 RTE DE DUCLAIR, Saint-Jean-du-Cardonnay",
+    "lat": 49.486262,
+    "lng": 1.01012,
+    "transactions": [
+      {
+        "date": "2023-05-02",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "c69fe90202c2": {
+    "id": "c69fe90202c2",
+    "label": "3 RTE DE LA PETITE VALETTE, Saint-Jean-du-Cardonnay",
+    "lat": 49.487319,
+    "lng": 1.010223,
+    "transactions": [
+      {
+        "date": "2023-05-04",
+        "priceEur": 249700,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a2bee1b7a69": {
+    "id": "7a2bee1b7a69",
+    "label": "627 RTE DE DUCLAIR, La Vaupalière",
+    "lat": 49.485615,
+    "lng": 1.010583,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 193000,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "56d56fc03fd8": {
+    "id": "56d56fc03fd8",
+    "label": "6 RES DES PRES, La Vaupalière",
+    "lat": 49.486275,
+    "lng": 0.999802,
+    "transactions": [
+      {
+        "date": "2024-11-12",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

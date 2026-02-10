@@ -1,0 +1,62 @@
+{
+  "990938c2d01b": {
+    "id": "990938c2d01b",
+    "label": "82B RUE DE CREVECOEUR, Cambrai",
+    "lat": 50.15543,
+    "lng": 3.241613,
+    "transactions": [
+      {
+        "date": "2020-08-24",
+        "priceEur": 72000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "29f7efda1c07": {
+    "id": "29f7efda1c07",
+    "label": "143 RUE DE NIERGNIES, Cambrai",
+    "lat": 50.154285,
+    "lng": 3.24791,
+    "transactions": [
+      {
+        "date": "2022-07-08",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "76a467b286f6": {
+    "id": "76a467b286f6",
+    "label": "83 RUE DE CREVECOEUR, Cambrai",
+    "lat": 50.154964,
+    "lng": 3.242718,
+    "transactions": [
+      {
+        "date": "2024-10-15",
+        "priceEur": 228740,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "cea01d04a898": {
+    "id": "cea01d04a898",
+    "label": "147 RUE DE NIERGNIES, Cambrai",
+    "lat": 50.154293,
+    "lng": 3.248598,
+    "transactions": [
+      {
+        "date": "2025-01-17",
+        "priceEur": 106000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  }
+}

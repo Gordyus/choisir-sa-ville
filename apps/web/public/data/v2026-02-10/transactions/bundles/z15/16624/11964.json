@@ -1,0 +1,47 @@
+{
+  "1b1e32fda444": {
+    "id": "1b1e32fda444",
+    "label": "404 LA CLEDELLE, La Salvetat-sur-Agout",
+    "lat": 43.60545,
+    "lng": 2.637121,
+    "transactions": [
+      {
+        "date": "2022-03-08",
+        "priceEur": 181000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "7bf45316d672": {
+    "id": "7bf45316d672",
+    "label": "256F LA CLEDELLE, La Salvetat-sur-Agout",
+    "lat": 43.606783,
+    "lng": 2.639927,
+    "transactions": [
+      {
+        "date": "2023-12-13",
+        "priceEur": 305040,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa0bb1f7f1c0": {
+    "id": "aa0bb1f7f1c0",
+    "label": "6346 LA CLEDELLE, La Salvetat-sur-Agout",
+    "lat": 43.606515,
+    "lng": 2.639058,
+    "transactions": [
+      {
+        "date": "2024-10-28",
+        "priceEur": 219800,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

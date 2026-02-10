@@ -1,0 +1,54 @@
+{
+  "12a91826dab0": {
+    "id": "12a91826dab0",
+    "label": "4 RTE D ARNEKE, Bollezeele",
+    "lat": 50.860419,
+    "lng": 2.354484,
+    "transactions": [
+      {
+        "date": "2023-02-16",
+        "priceEur": 349000,
+        "typeLocal": "Maison",
+        "surfaceM2": 199,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-04",
+        "priceEur": 382500,
+        "typeLocal": "Maison",
+        "surfaceM2": 199,
+        "isVefa": false
+      }
+    ]
+  },
+  "77fae182e598": {
+    "id": "77fae182e598",
+    "label": "13 RTE D ARNEKE, Bollezeele",
+    "lat": 50.859178,
+    "lng": 2.362003,
+    "transactions": [
+      {
+        "date": "2023-08-18",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "338cff210b70": {
+    "id": "338cff210b70",
+    "label": "10 RTE D ARNEKE, Bollezeele",
+    "lat": 50.858893,
+    "lng": 2.360997,
+    "transactions": [
+      {
+        "date": "2024-10-30",
+        "priceEur": 173000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

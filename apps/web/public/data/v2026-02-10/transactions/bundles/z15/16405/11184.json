@@ -1,0 +1,31 @@
+{
+  "27bf76f97c57": {
+    "id": "27bf76f97c57",
+    "label": "79 AV MARCEL LE MIGNOT, Gonfreville-l'Orcher",
+    "lat": 49.496289,
+    "lng": 0.240082,
+    "transactions": [
+      {
+        "date": "2023-11-09",
+        "priceEur": 6630,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-28",
+        "priceEur": 5000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-10",
+        "priceEur": 1200,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  }
+}

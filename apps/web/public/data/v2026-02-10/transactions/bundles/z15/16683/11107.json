@@ -1,0 +1,121 @@
+{
+  "3b8f34b408c1": {
+    "id": "3b8f34b408c1",
+    "label": "40 RES ST LIEVAIN, Villers-Outréaux",
+    "lat": 50.039193,
+    "lng": 3.292378,
+    "transactions": [
+      {
+        "date": "2021-01-25",
+        "priceEur": 82716,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e244ebea7c6": {
+    "id": "7e244ebea7c6",
+    "label": "21 RES ST LIEVAIN, Villers-Outréaux",
+    "lat": 50.039805,
+    "lng": 3.292173,
+    "transactions": [
+      {
+        "date": "2021-01-05",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7aed31361f0": {
+    "id": "b7aed31361f0",
+    "label": "16 RES ST LIEVAIN, Villers-Outréaux",
+    "lat": 50.039707,
+    "lng": 3.293157,
+    "transactions": [
+      {
+        "date": "2021-01-26",
+        "priceEur": 128150,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b74fcc204e8": {
+    "id": "8b74fcc204e8",
+    "label": "41 RES ST LIEVAIN, Villers-Outréaux",
+    "lat": 50.039133,
+    "lng": 3.292661,
+    "transactions": [
+      {
+        "date": "2022-03-16",
+        "priceEur": 82717,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-16",
+        "priceEur": 82717,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c73670488c6": {
+    "id": "8c73670488c6",
+    "label": "59 RUE DE LA REPUBLIQUE, Villers-Outréaux",
+    "lat": 50.037669,
+    "lng": 3.295791,
+    "transactions": [
+      {
+        "date": "2024-10-04",
+        "priceEur": 96000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-21",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1d4970bf1f8": {
+    "id": "e1d4970bf1f8",
+    "label": "30 RES ST LIEVAIN, Villers-Outréaux",
+    "lat": 50.039964,
+    "lng": 3.290505,
+    "transactions": [
+      {
+        "date": "2024-09-12",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "17ce8b1300e5": {
+    "id": "17ce8b1300e5",
+    "label": "31 RES SAINT LIEVAIN, Villers-Outréaux",
+    "lat": 50.039942,
+    "lng": 3.290189,
+    "transactions": [
+      {
+        "date": "2025-05-15",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  }
+}

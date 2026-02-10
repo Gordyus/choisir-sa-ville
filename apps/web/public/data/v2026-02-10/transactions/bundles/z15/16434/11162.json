@@ -1,0 +1,32 @@
+{
+  "4bbc58750eb3": {
+    "id": "4bbc58750eb3",
+    "label": "1403 CHE DES BUTTES, Hattenville",
+    "lat": 49.652678,
+    "lng": 0.555172,
+    "transactions": [
+      {
+        "date": "2021-04-15",
+        "priceEur": 31000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "16809dca2136": {
+    "id": "16809dca2136",
+    "label": "1363 CHE DES BUTTES, Hattenville",
+    "lat": 49.652475,
+    "lng": 0.55488,
+    "transactions": [
+      {
+        "date": "2022-08-23",
+        "priceEur": 227000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

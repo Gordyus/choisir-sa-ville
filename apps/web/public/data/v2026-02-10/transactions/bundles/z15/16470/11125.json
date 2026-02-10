@@ -1,0 +1,83 @@
+{
+  "5c3a971ac8f0": {
+    "id": "5c3a971ac8f0",
+    "label": "2384 RTE DE LA MER, Sainte-Marguerite-sur-Mer",
+    "lat": 49.908855,
+    "lng": 0.947055,
+    "transactions": [
+      {
+        "date": "2023-10-02",
+        "priceEur": 117500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-23",
+        "priceEur": 123744,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-20",
+        "priceEur": 75250,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e1642fb05b1": {
+    "id": "4e1642fb05b1",
+    "label": "160 RUE AUX JUIFS, Sainte-Marguerite-sur-Mer",
+    "lat": 49.910754,
+    "lng": 0.94686,
+    "transactions": [
+      {
+        "date": "2023-02-17",
+        "priceEur": 301670,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "3cd613974f0a": {
+    "id": "3cd613974f0a",
+    "label": "2566 RTE DE LA MER, Sainte-Marguerite-sur-Mer",
+    "lat": 49.910083,
+    "lng": 0.945211,
+    "transactions": [
+      {
+        "date": "2023-09-01",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0a735c614ff": {
+    "id": "c0a735c614ff",
+    "label": "455A RTE DU SEMAPHORE, Sainte-Marguerite-sur-Mer",
+    "lat": 49.914551,
+    "lng": 0.952991,
+    "transactions": [
+      {
+        "date": "2025-02-21",
+        "priceEur": 560000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-21",
+        "priceEur": 560000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  }
+}

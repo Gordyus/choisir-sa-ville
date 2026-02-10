@@ -1,0 +1,32 @@
+{
+  "cd0fc0eafd4e": {
+    "id": "cd0fc0eafd4e",
+    "label": "1623 RTE DE BOURBOURG, Rubrouck",
+    "lat": 50.849344,
+    "lng": 2.352863,
+    "transactions": [
+      {
+        "date": "2021-05-11",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e61f99295a8": {
+    "id": "1e61f99295a8",
+    "label": "22 RTE DE RUBROUCK, Bollezeele",
+    "lat": 50.850723,
+    "lng": 2.352116,
+    "transactions": [
+      {
+        "date": "2022-02-10",
+        "priceEur": 357750,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  }
+}

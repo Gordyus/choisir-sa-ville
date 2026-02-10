@@ -1,0 +1,32 @@
+{
+  "de639ef3ce31": {
+    "id": "de639ef3ce31",
+    "label": "5054B LE VILLAGE, Anceaumeville",
+    "lat": 49.578005,
+    "lng": 1.066233,
+    "transactions": [
+      {
+        "date": "2021-01-27",
+        "priceEur": 231000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "ec2363e11524": {
+    "id": "ec2363e11524",
+    "label": "3 CLOS DE LA FERME NORMANDE, Anceaumeville",
+    "lat": 49.577763,
+    "lng": 1.066493,
+    "transactions": [
+      {
+        "date": "2023-04-03",
+        "priceEur": 184800,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "9b3be66b0aa3": {
+    "id": "9b3be66b0aa3",
+    "label": "46 RUE DE L'ANCIENNE SUCRERIE, Saint-Denis-sur-Scie",
+    "lat": 49.715412,
+    "lng": 1.096698,
+    "transactions": [
+      {
+        "date": "2020-08-19",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "53ba7c190e9e": {
+    "id": "53ba7c190e9e",
+    "label": "12 RUE FRANCOIS CAVELIER, Val-de-Scie",
+    "lat": 49.716596,
+    "lng": 1.096523,
+    "transactions": [
+      {
+        "date": "2020-08-06",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f4bb242e510": {
+    "id": "5f4bb242e510",
+    "label": "26 RUE GEORGES CLEMENCEAU, Val-de-Scie",
+    "lat": 49.71729,
+    "lng": 1.094393,
+    "transactions": [
+      {
+        "date": "2020-12-28",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "68f37cb6d76e": {
+    "id": "68f37cb6d76e",
+    "label": "8 RUE FRANCOIS CAVELIER, Saint-Denis-sur-Scie",
+    "lat": 49.715601,
+    "lng": 1.096593,
+    "transactions": [
+      {
+        "date": "2021-06-01",
+        "priceEur": 287000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "039ffeaeaf7e": {
+    "id": "039ffeaeaf7e",
+    "label": "202 RUE DE L'ANCIENNE SUCRERIE, Saint-Denis-sur-Scie",
+    "lat": 49.714412,
+    "lng": 1.096479,
+    "transactions": [
+      {
+        "date": "2023-04-18",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4b28283d2d4": {
+    "id": "c4b28283d2d4",
+    "label": "10 RUE DE LA LIBERATION, Val-de-Scie",
+    "lat": 49.715709,
+    "lng": 1.097726,
+    "transactions": [
+      {
+        "date": "2024-07-30",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  }
+}

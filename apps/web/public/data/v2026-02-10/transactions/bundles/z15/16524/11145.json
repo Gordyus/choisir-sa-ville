@@ -1,0 +1,32 @@
+{
+  "db1a09d7129f": {
+    "id": "db1a09d7129f",
+    "label": "4 LE GROS HETRE, Sainte-Beuve-en-Rivière",
+    "lat": 49.772462,
+    "lng": 1.548077,
+    "transactions": [
+      {
+        "date": "2021-06-04",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "9646baf033dd": {
+    "id": "9646baf033dd",
+    "label": "6 LE GROS HETRE, Sainte-Beuve-en-Rivière",
+    "lat": 49.772734,
+    "lng": 1.54742,
+    "transactions": [
+      {
+        "date": "2022-12-09",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  }
+}

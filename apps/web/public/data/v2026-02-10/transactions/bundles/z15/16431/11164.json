@@ -1,0 +1,62 @@
+{
+  "046f3bfdf85c": {
+    "id": "046f3bfdf85c",
+    "label": "1045 RTE DE SAINT MACLOU, Yébleron",
+    "lat": 49.638481,
+    "lng": 0.524699,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "7dd0d00d99bc": {
+    "id": "7dd0d00d99bc",
+    "label": "392 IMP DES ROUELLES, Yébleron",
+    "lat": 49.636678,
+    "lng": 0.519644,
+    "transactions": [
+      {
+        "date": "2022-07-07",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "d9fdad38dd38": {
+    "id": "d9fdad38dd38",
+    "label": "1245 RTE DE SAINT MACLOU, Yébleron",
+    "lat": 49.639152,
+    "lng": 0.523062,
+    "transactions": [
+      {
+        "date": "2023-07-18",
+        "priceEur": 221000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "47083bfec90d": {
+    "id": "47083bfec90d",
+    "label": "114 IMP DES ROUELLES, Yébleron",
+    "lat": 49.638425,
+    "lng": 0.52317,
+    "transactions": [
+      {
+        "date": "2024-09-27",
+        "priceEur": 219000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

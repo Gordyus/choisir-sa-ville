@@ -1,0 +1,32 @@
+{
+  "5ab076d2aad0": {
+    "id": "5ab076d2aad0",
+    "label": "384 RTE DE TENDOS, Fontaine-le-Bourg",
+    "lat": 49.561521,
+    "lng": 1.150696,
+    "transactions": [
+      {
+        "date": "2022-01-20",
+        "priceEur": 612000,
+        "typeLocal": "Maison",
+        "surfaceM2": 306,
+        "isVefa": false
+      }
+    ]
+  },
+  "728a347ba11e": {
+    "id": "728a347ba11e",
+    "label": "5223 LES TOURELLES, Fontaine-le-Bourg",
+    "lat": 49.561386,
+    "lng": 1.150123,
+    "transactions": [
+      {
+        "date": "2023-01-26",
+        "priceEur": 625000,
+        "typeLocal": "Maison",
+        "surfaceM2": 239,
+        "isVefa": false
+      }
+    ]
+  }
+}

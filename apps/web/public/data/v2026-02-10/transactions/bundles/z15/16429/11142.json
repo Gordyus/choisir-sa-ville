@@ -1,0 +1,54 @@
+{
+  "5bcfda316fac": {
+    "id": "5bcfda316fac",
+    "label": "36 RUE DU CALVAIRE, Ancretteville-sur-Mer",
+    "lat": 49.788814,
+    "lng": 0.4991,
+    "transactions": [
+      {
+        "date": "2023-02-03",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-09",
+        "priceEur": 174000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "0205e17fb242": {
+    "id": "0205e17fb242",
+    "label": "427 RUE D ESCOMBARDEVILLE, Ancretteville-sur-Mer",
+    "lat": 49.789636,
+    "lng": 0.498125,
+    "transactions": [
+      {
+        "date": "2020-10-29",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ea4b5011897": {
+    "id": "7ea4b5011897",
+    "label": "473 RUE D ESCOMBARDEVILLE, Ancretteville-sur-Mer",
+    "lat": 49.790115,
+    "lng": 0.498346,
+    "transactions": [
+      {
+        "date": "2021-04-14",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

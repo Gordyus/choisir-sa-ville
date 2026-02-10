@@ -1,0 +1,32 @@
+{
+  "4f6628083dbb": {
+    "id": "4f6628083dbb",
+    "label": "951 RTE DE LA VOIE ROMAINE, Bréauté",
+    "lat": 49.63364,
+    "lng": 0.389775,
+    "transactions": [
+      {
+        "date": "2023-07-21",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 195,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e7df7f9d020": {
+    "id": "4e7df7f9d020",
+    "label": "901 RTE DE LA VOIE ROMAINE, Bréauté",
+    "lat": 49.633895,
+    "lng": 0.390149,
+    "transactions": [
+      {
+        "date": "2024-12-02",
+        "priceEur": 355000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  }
+}

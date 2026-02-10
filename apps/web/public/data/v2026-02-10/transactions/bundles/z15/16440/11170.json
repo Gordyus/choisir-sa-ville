@@ -1,0 +1,32 @@
+{
+  "2fbe12f24687": {
+    "id": "2fbe12f24687",
+    "label": "5073 LE MESNIL AU COFFRE HAMEAU, Trouville",
+    "lat": 49.591001,
+    "lng": 0.619854,
+    "transactions": [
+      {
+        "date": "2022-11-14",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b5d29bc551f": {
+    "id": "7b5d29bc551f",
+    "label": "2069 RTE DU MESNIL AU COFFE, Trouville",
+    "lat": 49.59248,
+    "lng": 0.622472,
+    "transactions": [
+      {
+        "date": "2024-05-17",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  }
+}

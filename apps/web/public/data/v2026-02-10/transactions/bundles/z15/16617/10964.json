@@ -1,0 +1,61 @@
+{
+  "8034d9a10b04": {
+    "id": "8034d9a10b04",
+    "label": "8 CHV N5 DIT DU NORD, Ghyvelde",
+    "lat": 51.034871,
+    "lng": 2.567077,
+    "transactions": [
+      {
+        "date": "2024-03-01",
+        "priceEur": 183570,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-31",
+        "priceEur": 176310,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "b2fa276545aa": {
+    "id": "b2fa276545aa",
+    "label": "11B CHV N5 DIT DU NORD, Ghyvelde",
+    "lat": 51.035108,
+    "lng": 2.567928,
+    "transactions": [
+      {
+        "date": "2021-08-18",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "4777daa0c8d8": {
+    "id": "4777daa0c8d8",
+    "label": "5 CHV N5 DIT DU NORD, Ghyvelde",
+    "lat": 51.034799,
+    "lng": 2.566557,
+    "transactions": [
+      {
+        "date": "2024-04-26",
+        "priceEur": 222000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-20",
+        "priceEur": 193000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  }
+}

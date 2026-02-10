@@ -1,0 +1,32 @@
+{
+  "f3963b24adae": {
+    "id": "f3963b24adae",
+    "label": "900 RUE DU BEAUCHENE, Normanville",
+    "lat": 49.681481,
+    "lng": 0.573453,
+    "transactions": [
+      {
+        "date": "2022-06-14",
+        "priceEur": 271000,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  },
+  "a8ec6214543c": {
+    "id": "a8ec6214543c",
+    "label": "886 IMP DU BEAUCHENE, Normanville",
+    "lat": 49.681751,
+    "lng": 0.573546,
+    "transactions": [
+      {
+        "date": "2022-09-23",
+        "priceEur": 184000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  }
+}

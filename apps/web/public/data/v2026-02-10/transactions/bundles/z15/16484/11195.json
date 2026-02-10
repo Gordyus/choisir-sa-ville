@@ -1,0 +1,137 @@
+{
+  "8381fbc350df": {
+    "id": "8381fbc350df",
+    "label": "4 RUE LEON GAMBETTA, Sotteville-lès-Rouen",
+    "lat": 49.412525,
+    "lng": 1.099694,
+    "transactions": [
+      {
+        "date": "2020-08-25",
+        "priceEur": 161000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "48bddeba15a5": {
+    "id": "48bddeba15a5",
+    "label": "227 RUE PIERRE CORNEILLE, Sotteville-lès-Rouen",
+    "lat": 49.416133,
+    "lng": 1.098693,
+    "transactions": [
+      {
+        "date": "2020-09-10",
+        "priceEur": 86000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "44dafa99f1cd": {
+    "id": "44dafa99f1cd",
+    "label": "437 RUE DE PARIS, Sotteville-lès-Rouen",
+    "lat": 49.413068,
+    "lng": 1.09888,
+    "transactions": [
+      {
+        "date": "2020-11-26",
+        "priceEur": 113000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "caa205ee6c06": {
+    "id": "caa205ee6c06",
+    "label": "470B RUE DE PARIS, Sotteville-lès-Rouen",
+    "lat": 49.411767,
+    "lng": 1.098922,
+    "transactions": [
+      {
+        "date": "2021-07-19",
+        "priceEur": 192500,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "3bc59a11907b": {
+    "id": "3bc59a11907b",
+    "label": "80 RUE DENIS PAPIN, Sotteville-lès-Rouen",
+    "lat": 49.416059,
+    "lng": 1.098938,
+    "transactions": [
+      {
+        "date": "2022-01-28",
+        "priceEur": 264000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d8bd3805b39": {
+    "id": "3d8bd3805b39",
+    "label": "476 RUE DE PARIS, Sotteville-lès-Rouen",
+    "lat": 49.411481,
+    "lng": 1.09928,
+    "transactions": [
+      {
+        "date": "2022-03-01",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd24bfa5dd04": {
+    "id": "fd24bfa5dd04",
+    "label": "1 RUE JEAN, Sotteville-lès-Rouen",
+    "lat": 49.41196,
+    "lng": 1.098906,
+    "transactions": [
+      {
+        "date": "2023-09-29",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "de79fa593344": {
+    "id": "de79fa593344",
+    "label": "473 RUE DE PARIS, Sotteville-lès-Rouen",
+    "lat": 49.411372,
+    "lng": 1.099792,
+    "transactions": [
+      {
+        "date": "2024-01-18",
+        "priceEur": 410000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "84796cb1efb0": {
+    "id": "84796cb1efb0",
+    "label": "475 RUE DE PARIS, Sotteville-lès-Rouen",
+    "lat": 49.411065,
+    "lng": 1.099981,
+    "transactions": [
+      {
+        "date": "2024-04-17",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  }
+}

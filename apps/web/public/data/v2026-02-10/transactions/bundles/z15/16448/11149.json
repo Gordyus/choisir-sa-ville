@@ -1,0 +1,92 @@
+{
+  "28cdaa64a952": {
+    "id": "28cdaa64a952",
+    "label": "2 IMP DES FOUGERES, Veauville-lès-Quelles",
+    "lat": 49.742329,
+    "lng": 0.713069,
+    "transactions": [
+      {
+        "date": "2022-05-10",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "24df9c3f3130": {
+    "id": "24df9c3f3130",
+    "label": "161 RTE DES TISSERANDS, Veauville-lès-Quelles",
+    "lat": 49.73871,
+    "lng": 0.708284,
+    "transactions": [
+      {
+        "date": "2022-07-18",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "d4cf1c7815d4": {
+    "id": "d4cf1c7815d4",
+    "label": "82 RTE DE MATHONVILLE, Veauville-lès-Quelles",
+    "lat": 49.740511,
+    "lng": 0.705656,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "d626e79337e7": {
+    "id": "d626e79337e7",
+    "label": "37 RTE DE LA PLAINE, Veauville-lès-Quelles",
+    "lat": 49.739655,
+    "lng": 0.704375,
+    "transactions": [
+      {
+        "date": "2022-09-01",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f67153ac4d0": {
+    "id": "8f67153ac4d0",
+    "label": "64 IMP DES FOUGERES, Veauville-lès-Quelles",
+    "lat": 49.741951,
+    "lng": 0.712418,
+    "transactions": [
+      {
+        "date": "2023-02-20",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c115b1aa277": {
+    "id": "4c115b1aa277",
+    "label": "125 RTE DE MATHONVILLE, Veauville-lès-Quelles",
+    "lat": 49.741327,
+    "lng": 0.705345,
+    "transactions": [
+      {
+        "date": "2024-10-01",
+        "priceEur": 253000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  }
+}

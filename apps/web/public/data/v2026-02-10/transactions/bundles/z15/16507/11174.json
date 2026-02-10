@@ -1,0 +1,47 @@
+{
+  "e224aa52c299": {
+    "id": "e224aa52c299",
+    "label": "283 RUE GIFFARD, Sainte-Croix-sur-Buchy",
+    "lat": 49.567036,
+    "lng": 1.359792,
+    "transactions": [
+      {
+        "date": "2022-07-06",
+        "priceEur": 256000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "6357c19d8e71": {
+    "id": "6357c19d8e71",
+    "label": "397 RUE GIFFARD, Sainte-Croix-sur-Buchy",
+    "lat": 49.567614,
+    "lng": 1.358865,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e57c36d5fe6": {
+    "id": "1e57c36d5fe6",
+    "label": "200 RTE DE BUCHY, Sainte-Croix-sur-Buchy",
+    "lat": 49.567632,
+    "lng": 1.352209,
+    "transactions": [
+      {
+        "date": "2023-03-31",
+        "priceEur": 191200,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  }
+}

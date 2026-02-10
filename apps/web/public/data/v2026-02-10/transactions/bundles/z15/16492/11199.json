@@ -1,0 +1,62 @@
+{
+  "4235dab59be4": {
+    "id": "4235dab59be4",
+    "label": "285 RUE SAINT EXUPERY, Boos",
+    "lat": 49.38293,
+    "lng": 1.192185,
+    "transactions": [
+      {
+        "date": "2022-09-15",
+        "priceEur": 306000,
+        "typeLocal": "Maison",
+        "surfaceM2": 176,
+        "isVefa": false
+      }
+    ]
+  },
+  "55496e491992": {
+    "id": "55496e491992",
+    "label": "133 IMP DES FORRIERES, Boos",
+    "lat": 49.387824,
+    "lng": 1.19732,
+    "transactions": [
+      {
+        "date": "2023-04-28",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "f26c412abb2e": {
+    "id": "f26c412abb2e",
+    "label": "515 RUE DE LA PORTE DES CHAMPS, Boos",
+    "lat": 49.382381,
+    "lng": 1.196446,
+    "transactions": [
+      {
+        "date": "2023-05-31",
+        "priceEur": 197000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "ec0200e731d0": {
+    "id": "ec0200e731d0",
+    "label": "196 RUE CARNOT, Boos",
+    "lat": 49.383862,
+    "lng": 1.193902,
+    "transactions": [
+      {
+        "date": "2024-07-12",
+        "priceEur": 308200,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  }
+}

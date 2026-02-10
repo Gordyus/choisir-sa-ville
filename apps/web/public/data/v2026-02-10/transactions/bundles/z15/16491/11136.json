@@ -1,0 +1,47 @@
+{
+  "a9849bdf3945": {
+    "id": "a9849bdf3945",
+    "label": "1 ALL DES EPINES, Saint-Germain-d'Étables",
+    "lat": 49.831761,
+    "lng": 1.180844,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "d30580d3d6b5": {
+    "id": "d30580d3d6b5",
+    "label": "3 ALL DES PLATANES, Saint-Germain-d'Étables",
+    "lat": 49.832556,
+    "lng": 1.181768,
+    "transactions": [
+      {
+        "date": "2023-08-29",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "ab16330204f5": {
+    "id": "ab16330204f5",
+    "label": "18 RUE MARCEL BONHOMME, Saint-Germain-d'Étables",
+    "lat": 49.834564,
+    "lng": 1.182848,
+    "transactions": [
+      {
+        "date": "2025-03-04",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

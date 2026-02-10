@@ -1,0 +1,77 @@
+{
+  "58df2e5772e2": {
+    "id": "58df2e5772e2",
+    "label": "1153 RUE DU QUESNE, Landas",
+    "lat": 50.483736,
+    "lng": 3.281953,
+    "transactions": [
+      {
+        "date": "2020-11-13",
+        "priceEur": 338000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b7c44f38cb1": {
+    "id": "1b7c44f38cb1",
+    "label": "1589 RUE DU QUESNE, Landas",
+    "lat": 50.482985,
+    "lng": 3.276441,
+    "transactions": [
+      {
+        "date": "2021-05-31",
+        "priceEur": 425000,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      }
+    ]
+  },
+  "00e9fd50dc89": {
+    "id": "00e9fd50dc89",
+    "label": "1445 RUE DU QUESNE, Landas",
+    "lat": 50.483166,
+    "lng": 3.278711,
+    "transactions": [
+      {
+        "date": "2022-02-11",
+        "priceEur": 271000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "beeee513f839": {
+    "id": "beeee513f839",
+    "label": "1668 RUE DU QUESNE, Landas",
+    "lat": 50.483935,
+    "lng": 3.27582,
+    "transactions": [
+      {
+        "date": "2022-07-08",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "954dc44c05f5": {
+    "id": "954dc44c05f5",
+    "label": "1133 RUE DU QUESNE, Landas",
+    "lat": 50.483799,
+    "lng": 3.282149,
+    "transactions": [
+      {
+        "date": "2024-04-12",
+        "priceEur": 317903,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  }
+}

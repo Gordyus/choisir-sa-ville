@@ -1,0 +1,32 @@
+{
+  "4fe44734fc5d": {
+    "id": "4fe44734fc5d",
+    "label": "5121 LE CHENE FOIREUX, Nesle-Hodeng",
+    "lat": 49.694289,
+    "lng": 1.497037,
+    "transactions": [
+      {
+        "date": "2023-06-20",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f371888c2ec": {
+    "id": "4f371888c2ec",
+    "label": "1573 RTE DE FORGES, Nesle-Hodeng",
+    "lat": 49.692934,
+    "lng": 1.49825,
+    "transactions": [
+      {
+        "date": "2024-07-05",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  }
+}

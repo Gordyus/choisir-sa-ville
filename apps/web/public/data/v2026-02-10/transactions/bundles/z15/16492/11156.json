@@ -1,0 +1,62 @@
+{
+  "068f0d3cad4b": {
+    "id": "068f0d3cad4b",
+    "label": "98 AV DU CHATEAU, La Crique",
+    "lat": 49.690756,
+    "lng": 1.194516,
+    "transactions": [
+      {
+        "date": "2021-07-20",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "cface5d12314": {
+    "id": "cface5d12314",
+    "label": "104 AV DU CHATEAU, La Crique",
+    "lat": 49.690009,
+    "lng": 1.194481,
+    "transactions": [
+      {
+        "date": "2024-09-05",
+        "priceEur": 875000,
+        "typeLocal": "Maison",
+        "surfaceM2": 453,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b319c375fd8": {
+    "id": "8b319c375fd8",
+    "label": "124 AV DU CHATEAU, La Crique",
+    "lat": 49.689498,
+    "lng": 1.194675,
+    "transactions": [
+      {
+        "date": "2024-09-05",
+        "priceEur": 875000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "c534ede42954": {
+    "id": "c534ede42954",
+    "label": "154 AV DU CHATEAU, La Crique",
+    "lat": 49.689683,
+    "lng": 1.195644,
+    "transactions": [
+      {
+        "date": "2024-09-05",
+        "priceEur": 875000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

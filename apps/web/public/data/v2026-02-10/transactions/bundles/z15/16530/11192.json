@@ -1,0 +1,77 @@
+{
+  "2953ad4a90f5": {
+    "id": "2953ad4a90f5",
+    "label": "4 RUE DU LONG DU BOSC, Bézancourt",
+    "lat": 49.437796,
+    "lng": 1.608376,
+    "transactions": [
+      {
+        "date": "2020-10-21",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "c68628f633e4": {
+    "id": "c68628f633e4",
+    "label": "33 RUE DU LONG DU BOSC, Bézancourt",
+    "lat": 49.435313,
+    "lng": 1.613358,
+    "transactions": [
+      {
+        "date": "2021-09-09",
+        "priceEur": 227000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "d10517e5240e": {
+    "id": "d10517e5240e",
+    "label": "18 RTE DE FLEURY LA FORET, Bézancourt",
+    "lat": 49.438647,
+    "lng": 1.607772,
+    "transactions": [
+      {
+        "date": "2022-02-23",
+        "priceEur": 136500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "dba683557809": {
+    "id": "dba683557809",
+    "label": "16 RTE DE FLEURY LA FORET, Bézancourt",
+    "lat": 49.438833,
+    "lng": 1.608951,
+    "transactions": [
+      {
+        "date": "2023-07-10",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  },
+  "857864ce4452": {
+    "id": "857864ce4452",
+    "label": "3 RUE DU LONG DU BOSC, Bézancourt",
+    "lat": 49.438463,
+    "lng": 1.609029,
+    "transactions": [
+      {
+        "date": "2025-02-21",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  }
+}

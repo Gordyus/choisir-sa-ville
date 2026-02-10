@@ -1,0 +1,62 @@
+{
+  "74d4e1efba28": {
+    "id": "74d4e1efba28",
+    "label": "4 AIGUMONT, Avesnes-en-Val",
+    "lat": 49.918774,
+    "lng": 1.408329,
+    "transactions": [
+      {
+        "date": "2020-09-26",
+        "priceEur": 142500,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5c0c4f247cd": {
+    "id": "a5c0c4f247cd",
+    "label": "5004A AIGUMONT, Avesnes-en-Val",
+    "lat": 49.919698,
+    "lng": 1.407686,
+    "transactions": [
+      {
+        "date": "2020-12-05",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "21135b7bfe53": {
+    "id": "21135b7bfe53",
+    "label": "5005 AIGUMONT, Avesnes-en-Val",
+    "lat": 49.919898,
+    "lng": 1.406318,
+    "transactions": [
+      {
+        "date": "2023-08-21",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7f1a39c2d18": {
+    "id": "c7f1a39c2d18",
+    "label": "5015 AIGUMONT, Avesnes-en-Val",
+    "lat": 49.918861,
+    "lng": 1.408584,
+    "transactions": [
+      {
+        "date": "2024-03-08",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  }
+}

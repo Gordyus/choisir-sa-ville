@@ -1,0 +1,47 @@
+{
+  "37aa9669fdc7": {
+    "id": "37aa9669fdc7",
+    "label": "27B LA GRAND RUE, La Frénaye",
+    "lat": 49.515921,
+    "lng": 0.579355,
+    "transactions": [
+      {
+        "date": "2021-08-30",
+        "priceEur": 256570.52,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2278ba041ab": {
+    "id": "a2278ba041ab",
+    "label": "10B LA GRAND RUE, La Frénaye",
+    "lat": 49.514942,
+    "lng": 0.578205,
+    "transactions": [
+      {
+        "date": "2022-05-05",
+        "priceEur": 143000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "7bb1773be16e": {
+    "id": "7bb1773be16e",
+    "label": "7 RUE DE FRENEUSE, La Frénaye",
+    "lat": 49.51767,
+    "lng": 0.573445,
+    "transactions": [
+      {
+        "date": "2022-09-19",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 208,
+        "isVefa": false
+      }
+    ]
+  }
+}

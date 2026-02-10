@@ -1,0 +1,47 @@
+{
+  "888ddbf19231": {
+    "id": "888ddbf19231",
+    "label": "53 RTE D ANICHE, Marquette-en-Ostrevant",
+    "lat": 50.307491,
+    "lng": 3.261311,
+    "transactions": [
+      {
+        "date": "2020-07-27",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "50094823c1be": {
+    "id": "50094823c1be",
+    "label": "49 RTE D ANICHE, Marquette-en-Ostrevant",
+    "lat": 50.307866,
+    "lng": 3.259853,
+    "transactions": [
+      {
+        "date": "2021-03-11",
+        "priceEur": 114800,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd3d042986cd": {
+    "id": "dd3d042986cd",
+    "label": "51 RTE D ANICHE, Marquette-en-Ostrevant",
+    "lat": 50.307955,
+    "lng": 3.259833,
+    "transactions": [
+      {
+        "date": "2021-09-07",
+        "priceEur": 179400,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

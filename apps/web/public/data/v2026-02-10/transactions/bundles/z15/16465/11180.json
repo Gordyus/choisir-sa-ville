@@ -1,0 +1,62 @@
+{
+  "10c41f5598bc": {
+    "id": "10c41f5598bc",
+    "label": "5118 LE QUESNAY, Saint-Paër",
+    "lat": 49.520744,
+    "lng": 0.897906,
+    "transactions": [
+      {
+        "date": "2020-12-04",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "31072c765f77": {
+    "id": "31072c765f77",
+    "label": "7003 LE BAS MOUCHEL, Saint-Paër",
+    "lat": 49.518625,
+    "lng": 0.894667,
+    "transactions": [
+      {
+        "date": "2021-04-09",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b9e3a6fe001": {
+    "id": "1b9e3a6fe001",
+    "label": "6015 LE BAS MOUCHEL, Saint-Paër",
+    "lat": 49.5185,
+    "lng": 0.896183,
+    "transactions": [
+      {
+        "date": "2022-05-13",
+        "priceEur": 208000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "7644c5b201c1": {
+    "id": "7644c5b201c1",
+    "label": "1301 LE BAS MOUCHEL, Saint-Paër",
+    "lat": 49.518559,
+    "lng": 0.897236,
+    "transactions": [
+      {
+        "date": "2024-01-26",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  }
+}

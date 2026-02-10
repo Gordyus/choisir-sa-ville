@@ -1,0 +1,32 @@
+{
+  "06d985c4d8db": {
+    "id": "06d985c4d8db",
+    "label": "335 CHE DES HAUTS PRES, Neuville-Ferrières",
+    "lat": 49.714777,
+    "lng": 1.461811,
+    "transactions": [
+      {
+        "date": "2023-06-28",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "00eee1a5a415": {
+    "id": "00eee1a5a415",
+    "label": "615 CHE DES HAUTS PRES, Neuville-Ferrières",
+    "lat": 49.713687,
+    "lng": 1.464894,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "9039a7d027a4": {
+    "id": "9039a7d027a4",
+    "label": "2184 RTE DE LA PETITE CHAUSSEE, Bretteville-du-Grand-Caux",
+    "lat": 49.67345,
+    "lng": 0.367156,
+    "transactions": [
+      {
+        "date": "2021-12-30",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "d47ae95c03c0": {
+    "id": "d47ae95c03c0",
+    "label": "1584 RTE DE LA PETITE CHAUSSEE, Bretteville-du-Grand-Caux",
+    "lat": 49.667833,
+    "lng": 0.371868,
+    "transactions": [
+      {
+        "date": "2023-04-12",
+        "priceEur": 267050,
+        "typeLocal": "Maison",
+        "surfaceM2": 238,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c5bbfed6ec7": {
+    "id": "7c5bbfed6ec7",
+    "label": "430 RUE DE LA CROIX VALET, Auberville-la-Renault",
+    "lat": 49.674503,
+    "lng": 0.368629,
+    "transactions": [
+      {
+        "date": "2024-05-14",
+        "priceEur": 259000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "d45fd109bd37": {
+    "id": "d45fd109bd37",
+    "label": "487 RUE DE LA CROIX VALET, Auberville-la-Renault",
+    "lat": 49.674493,
+    "lng": 0.36797,
+    "transactions": [
+      {
+        "date": "2024-05-22",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

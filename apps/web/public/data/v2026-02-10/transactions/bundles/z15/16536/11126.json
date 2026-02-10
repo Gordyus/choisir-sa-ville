@@ -1,0 +1,32 @@
+{
+  "d80b3fb170a8": {
+    "id": "d80b3fb170a8",
+    "label": "5351 CHE DES CHARBONNIERS, Nesle-Normandeuse",
+    "lat": 49.905939,
+    "lng": 1.672508,
+    "transactions": [
+      {
+        "date": "2023-07-26",
+        "priceEur": 308000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5b3b6105623": {
+    "id": "b5b3b6105623",
+    "label": "5176 LE BOURG, Nesle-Normandeuse",
+    "lat": 49.906975,
+    "lng": 1.670283,
+    "transactions": [
+      {
+        "date": "2023-12-29",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  }
+}

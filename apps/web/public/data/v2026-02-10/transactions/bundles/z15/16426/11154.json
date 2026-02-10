@@ -1,0 +1,62 @@
+{
+  "b7ca34a2d248": {
+    "id": "b7ca34a2d248",
+    "label": "3 RUE DE GONNEVILLE, Bec-de-Mortagne",
+    "lat": 49.707918,
+    "lng": 0.464447,
+    "transactions": [
+      {
+        "date": "2020-09-17",
+        "priceEur": 91000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "e9621a43e908": {
+    "id": "e9621a43e908",
+    "label": "3T RUE DE GONNEVILLE, Bec-de-Mortagne",
+    "lat": 49.707242,
+    "lng": 0.466049,
+    "transactions": [
+      {
+        "date": "2021-11-30",
+        "priceEur": 251090,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "abc90ca05d20": {
+    "id": "abc90ca05d20",
+    "label": "5 RUE DE GONNEVILLE, Bec-de-Mortagne",
+    "lat": 49.707013,
+    "lng": 0.466506,
+    "transactions": [
+      {
+        "date": "2022-07-28",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc4a861d39b1": {
+    "id": "bc4a861d39b1",
+    "label": "11 RTE DE VALMONT, Bec-de-Mortagne",
+    "lat": 49.709831,
+    "lng": 0.461784,
+    "transactions": [
+      {
+        "date": "2024-02-06",
+        "priceEur": 131250,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

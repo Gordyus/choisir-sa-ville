@@ -1,0 +1,32 @@
+{
+  "ee5dacfd9d58": {
+    "id": "ee5dacfd9d58",
+    "label": "829 RUE VERONE STRAETE, Zermezeele",
+    "lat": 50.828608,
+    "lng": 2.456767,
+    "transactions": [
+      {
+        "date": "2023-08-21",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "72b3d687e6dc": {
+    "id": "72b3d687e6dc",
+    "label": "1 RUE KERKE WEG, Zermezeele",
+    "lat": 50.833237,
+    "lng": 2.455566,
+    "transactions": [
+      {
+        "date": "2025-01-30",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

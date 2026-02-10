@@ -1,0 +1,92 @@
+{
+  "8ce4fba900e7": {
+    "id": "8ce4fba900e7",
+    "label": "5052 LE BOURG - CRESSY, Val-de-Scie",
+    "lat": 49.720182,
+    "lng": 1.168601,
+    "transactions": [
+      {
+        "date": "2020-10-19",
+        "priceEur": 131625,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "a92aaf76188d": {
+    "id": "a92aaf76188d",
+    "label": "5078 LE BOURG - CRESSY, Val-de-Scie",
+    "lat": 49.72024,
+    "lng": 1.164674,
+    "transactions": [
+      {
+        "date": "2021-12-22",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca9c44b0ca9b": {
+    "id": "ca9c44b0ca9b",
+    "label": "286 RUE CHASSE MAREE, Val-de-Scie",
+    "lat": 49.722161,
+    "lng": 1.166976,
+    "transactions": [
+      {
+        "date": "2021-03-30",
+        "priceEur": 62500,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "05da8a18388e": {
+    "id": "05da8a18388e",
+    "label": "200 RUE DE BAZOMESNIL - CRESSY, Val-de-Scie",
+    "lat": 49.721988,
+    "lng": 1.165704,
+    "transactions": [
+      {
+        "date": "2021-06-16",
+        "priceEur": 208238,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "119c3cf29561": {
+    "id": "119c3cf29561",
+    "label": "365 RUE CHASSE MAREE, Val-de-Scie",
+    "lat": 49.721384,
+    "lng": 1.167651,
+    "transactions": [
+      {
+        "date": "2022-08-12",
+        "priceEur": 197000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3f88f34c764": {
+    "id": "b3f88f34c764",
+    "label": "96 RTE DE SAINT HELLIER - CRESSY, Val-de-Scie",
+    "lat": 49.723998,
+    "lng": 1.166571,
+    "transactions": [
+      {
+        "date": "2024-12-02",
+        "priceEur": 221350,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

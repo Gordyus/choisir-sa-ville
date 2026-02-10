@@ -1,0 +1,144 @@
+{
+  "567f58800478": {
+    "id": "567f58800478",
+    "label": "444 RUE DE LA SAANE, Quiberville-sur-Mer",
+    "lat": 49.901324,
+    "lng": 0.928912,
+    "transactions": [
+      {
+        "date": "2023-10-20",
+        "priceEur": 400600,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-26",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "ec76d2fbd5d8": {
+    "id": "ec76d2fbd5d8",
+    "label": "5361 RUE DE LA SAANE, Quiberville-sur-Mer",
+    "lat": 49.900621,
+    "lng": 0.929909,
+    "transactions": [
+      {
+        "date": "2021-02-13",
+        "priceEur": 192900,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ef68b16b018": {
+    "id": "3ef68b16b018",
+    "label": "2 HAMEAU LEVASSOR, Quiberville-sur-Mer",
+    "lat": 49.900887,
+    "lng": 0.926684,
+    "transactions": [
+      {
+        "date": "2021-02-12",
+        "priceEur": 212150,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "631fe401937a": {
+    "id": "631fe401937a",
+    "label": "876 RTE DE LA VALLEE, Quiberville-sur-Mer",
+    "lat": 49.896988,
+    "lng": 0.92948,
+    "transactions": [
+      {
+        "date": "2021-05-31",
+        "priceEur": 72000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "f0b755f50499": {
+    "id": "f0b755f50499",
+    "label": "666 RUE DE LA MER, Quiberville-sur-Mer",
+    "lat": 49.899943,
+    "lng": 0.924961,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "b159ee08ee3d": {
+    "id": "b159ee08ee3d",
+    "label": "81 HAMEAU LEVASSOR, Quiberville-sur-Mer",
+    "lat": 49.899278,
+    "lng": 0.925137,
+    "transactions": [
+      {
+        "date": "2024-04-19",
+        "priceEur": 420000,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  },
+  "522d2cbbcfd0": {
+    "id": "522d2cbbcfd0",
+    "label": "121 RUE DU LEVANT, Quiberville-sur-Mer",
+    "lat": 49.900252,
+    "lng": 0.927165,
+    "transactions": [
+      {
+        "date": "2024-05-30",
+        "priceEur": 267990,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b49bae0b349": {
+    "id": "0b49bae0b349",
+    "label": "836 RTE DE LA VALLEE, Quiberville-sur-Mer",
+    "lat": 49.897615,
+    "lng": 0.929433,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 74500,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "28a315d94a3d": {
+    "id": "28a315d94a3d",
+    "label": "2091 RUE DE LA MER, Longueil",
+    "lat": 49.89526,
+    "lng": 0.933759,
+    "transactions": [
+      {
+        "date": "2024-11-28",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

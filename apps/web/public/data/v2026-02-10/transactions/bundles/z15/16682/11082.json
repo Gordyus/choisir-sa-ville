@@ -1,0 +1,114 @@
+{
+  "7947c975d7c1": {
+    "id": "7947c975d7c1",
+    "label": "282 RUE VERTE, Thun-l'Évêque",
+    "lat": 50.215805,
+    "lng": 3.278468,
+    "transactions": [
+      {
+        "date": "2020-10-29",
+        "priceEur": 322000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f53766696b9": {
+    "id": "8f53766696b9",
+    "label": "312 RUE FRANCOIS, Thun-l'Évêque",
+    "lat": 50.217663,
+    "lng": 3.282959,
+    "transactions": [
+      {
+        "date": "2022-02-23",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "10ac6a58ce5e": {
+    "id": "10ac6a58ce5e",
+    "label": "9 RUE DE L'ANCIEN PONT, Eswars",
+    "lat": 50.216818,
+    "lng": 3.274681,
+    "transactions": [
+      {
+        "date": "2022-03-31",
+        "priceEur": 223000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a67bdf2dd47": {
+    "id": "1a67bdf2dd47",
+    "label": "326 RUE VERTE, Thun-l'Évêque",
+    "lat": 50.215403,
+    "lng": 3.277863,
+    "transactions": [
+      {
+        "date": "2022-09-20",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2a22642410b": {
+    "id": "e2a22642410b",
+    "label": "1 RUE VERTE, Eswars",
+    "lat": 50.21354,
+    "lng": 3.27683,
+    "transactions": [
+      {
+        "date": "2022-11-10",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e886b59548c": {
+    "id": "6e886b59548c",
+    "label": "507 RUE FRANCOIS, Thun-l'Évêque",
+    "lat": 50.217725,
+    "lng": 3.280191,
+    "transactions": [
+      {
+        "date": "2023-10-18",
+        "priceEur": 383000,
+        "typeLocal": "Maison",
+        "surfaceM2": 187,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-18",
+        "priceEur": 383000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d8aa6547451": {
+    "id": "0d8aa6547451",
+    "label": "497 RUE FRANCOIS, Thun-l'Évêque",
+    "lat": 50.218015,
+    "lng": 3.280559,
+    "transactions": [
+      {
+        "date": "2025-01-28",
+        "priceEur": 395000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "47698efeeada": {
+    "id": "47698efeeada",
+    "label": "5026 EPINAY, Saint-Maclou-de-Folleville",
+    "lat": 49.666242,
+    "lng": 1.089437,
+    "transactions": [
+      {
+        "date": "2020-07-06",
+        "priceEur": 69960,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "73d4334fdd86": {
+    "id": "73d4334fdd86",
+    "label": "5024 EPINAY, Saint-Maclou-de-Folleville",
+    "lat": 49.666858,
+    "lng": 1.091381,
+    "transactions": [
+      {
+        "date": "2020-09-23",
+        "priceEur": 218000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb0d3d2e4586": {
+    "id": "bb0d3d2e4586",
+    "label": "117 EPINAY, Saint-Maclou-de-Folleville",
+    "lat": 49.665631,
+    "lng": 1.091377,
+    "transactions": [
+      {
+        "date": "2021-07-20",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "976e6c136c1c": {
+    "id": "976e6c136c1c",
+    "label": "5073 EPINAY, Saint-Maclou-de-Folleville",
+    "lat": 49.667517,
+    "lng": 1.090138,
+    "transactions": [
+      {
+        "date": "2023-02-17",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "25588cbab716": {
+    "id": "25588cbab716",
+    "label": "119 EPINAY, Saint-Maclou-de-Folleville",
+    "lat": 49.665819,
+    "lng": 1.091607,
+    "transactions": [
+      {
+        "date": "2024-09-13",
+        "priceEur": 187000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  }
+}

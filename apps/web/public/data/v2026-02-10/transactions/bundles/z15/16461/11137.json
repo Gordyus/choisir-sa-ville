@@ -1,0 +1,144 @@
+{
+  "081b056a1152": {
+    "id": "081b056a1152",
+    "label": "185 RUE DE LA MAGDELEINE, Saint-Pierre-le-Viger",
+    "lat": 49.825974,
+    "lng": 0.851806,
+    "transactions": [
+      {
+        "date": "2020-09-25",
+        "priceEur": 84000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf3b1f7477c1": {
+    "id": "bf3b1f7477c1",
+    "label": "95 RUE DE LA CROIX DANS, Saint-Pierre-le-Viger",
+    "lat": 49.829479,
+    "lng": 0.850475,
+    "transactions": [
+      {
+        "date": "2020-12-14",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "f522c0227650": {
+    "id": "f522c0227650",
+    "label": "503 RTE DE LA VALLEE, Saint-Pierre-le-Viger",
+    "lat": 49.827983,
+    "lng": 0.850608,
+    "transactions": [
+      {
+        "date": "2022-09-09",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-06",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5763269a9d1": {
+    "id": "d5763269a9d1",
+    "label": "372 RTE DE LA VALLEE, Saint-Pierre-le-Viger",
+    "lat": 49.826727,
+    "lng": 0.849966,
+    "transactions": [
+      {
+        "date": "2022-07-12",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e1a4d7c0cea": {
+    "id": "4e1a4d7c0cea",
+    "label": "125 RTE DE VEULES, Saint-Pierre-le-Viger",
+    "lat": 49.824064,
+    "lng": 0.845995,
+    "transactions": [
+      {
+        "date": "2022-08-08",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "ffe54a49fdc2": {
+    "id": "ffe54a49fdc2",
+    "label": "684 RTE DE LA CHAPELLE, Saint-Pierre-le-Viger",
+    "lat": 49.829744,
+    "lng": 0.849179,
+    "transactions": [
+      {
+        "date": "2022-09-26",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "486f073f61eb": {
+    "id": "486f073f61eb",
+    "label": "181 RUE DE LA CROIX DANS, Saint-Pierre-le-Viger",
+    "lat": 49.830208,
+    "lng": 0.850976,
+    "transactions": [
+      {
+        "date": "2023-11-28",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "20102300018d": {
+    "id": "20102300018d",
+    "label": "99 RUE DE LA CROIX DANS, Saint-Pierre-le-Viger",
+    "lat": 49.829244,
+    "lng": 0.850061,
+    "transactions": [
+      {
+        "date": "2024-04-03",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "3139ac63dd7f": {
+    "id": "3139ac63dd7f",
+    "label": "453 RTE DE LA VALLEE, Saint-Pierre-le-Viger",
+    "lat": 49.827782,
+    "lng": 0.849701,
+    "transactions": [
+      {
+        "date": "2025-02-12",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

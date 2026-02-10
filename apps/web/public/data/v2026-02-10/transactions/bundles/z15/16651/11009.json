@@ -1,0 +1,92 @@
+{
+  "83d52c785fdb": {
+    "id": "83d52c785fdb",
+    "label": "15 HAMEAU DES WILLEMOTS, Frelinghien",
+    "lat": 50.724411,
+    "lng": 2.942098,
+    "transactions": [
+      {
+        "date": "2020-08-17",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "dbd20baf3c21": {
+    "id": "dbd20baf3c21",
+    "label": "44 RUE D YPRES, Deûlémont",
+    "lat": 50.728413,
+    "lng": 2.940502,
+    "transactions": [
+      {
+        "date": "2020-10-12",
+        "priceEur": 103000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d2e7b9bfd59": {
+    "id": "8d2e7b9bfd59",
+    "label": "30 RUE D YPRES, Deûlémont",
+    "lat": 50.728237,
+    "lng": 2.940786,
+    "transactions": [
+      {
+        "date": "2021-02-01",
+        "priceEur": 167800,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "16197b6fa32a": {
+    "id": "16197b6fa32a",
+    "label": "24 HAMEAU DES WILLEMOTS, Frelinghien",
+    "lat": 50.724277,
+    "lng": 2.942766,
+    "transactions": [
+      {
+        "date": "2022-07-07",
+        "priceEur": 324500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "4eed89aa6092": {
+    "id": "4eed89aa6092",
+    "label": "1450 RUE DU PONT ROUGE, Frelinghien",
+    "lat": 50.724018,
+    "lng": 2.940212,
+    "transactions": [
+      {
+        "date": "2022-10-25",
+        "priceEur": 290600,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "900629ea38da": {
+    "id": "900629ea38da",
+    "label": "13 HAMEAU DES WILLEMOTS, Frelinghien",
+    "lat": 50.724213,
+    "lng": 2.942,
+    "transactions": [
+      {
+        "date": "2024-10-24",
+        "priceEur": 263000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  }
+}

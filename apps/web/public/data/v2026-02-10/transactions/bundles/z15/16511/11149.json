@@ -1,0 +1,129 @@
+{
+  "ac84fd3ca49d": {
+    "id": "ac84fd3ca49d",
+    "label": "5003 LE VILLAGE, Saint-Martin-l'Hortier",
+    "lat": 49.744785,
+    "lng": 1.405343,
+    "transactions": [
+      {
+        "date": "2020-12-04",
+        "priceEur": 72000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "b89116d32bcf": {
+    "id": "b89116d32bcf",
+    "label": "5090 LE MONT BUISSON, Saint-Martin-l'Hortier",
+    "lat": 49.741356,
+    "lng": 1.405661,
+    "transactions": [
+      {
+        "date": "2021-04-06",
+        "priceEur": 218000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f38ce5c9977": {
+    "id": "2f38ce5c9977",
+    "label": "5079 LE VILLAGE, Saint-Martin-l'Hortier",
+    "lat": 49.744643,
+    "lng": 1.402888,
+    "transactions": [
+      {
+        "date": "2021-07-09",
+        "priceEur": 189500,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "594b30cf129e": {
+    "id": "594b30cf129e",
+    "label": "19 RUE DE LA BETHUNE, Saint-Martin-l'Hortier",
+    "lat": 49.744541,
+    "lng": 1.40311,
+    "transactions": [
+      {
+        "date": "2021-10-28",
+        "priceEur": 305000,
+        "typeLocal": "Maison",
+        "surfaceM2": 183,
+        "isVefa": false
+      }
+    ]
+  },
+  "d02dfb46ac6d": {
+    "id": "d02dfb46ac6d",
+    "label": "13 RUE DE LA BETHUNE, Saint-Martin-l'Hortier",
+    "lat": 49.743823,
+    "lng": 1.403662,
+    "transactions": [
+      {
+        "date": "2024-08-27",
+        "priceEur": 245570,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-28",
+        "priceEur": 282210,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "37eade0e08a4": {
+    "id": "37eade0e08a4",
+    "label": "5033 LE VILLAGE, Saint-Martin-l'Hortier",
+    "lat": 49.745473,
+    "lng": 1.396806,
+    "transactions": [
+      {
+        "date": "2023-08-12",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 166,
+        "isVefa": false
+      }
+    ]
+  },
+  "2677fecef0b1": {
+    "id": "2677fecef0b1",
+    "label": "5098 LE VILLAGE, Saint-Martin-l'Hortier",
+    "lat": 49.741255,
+    "lng": 1.405356,
+    "transactions": [
+      {
+        "date": "2023-11-14",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "a6ee96e05909": {
+    "id": "a6ee96e05909",
+    "label": "29 RUE DES TUILERIES, Saint-Martin-l'Hortier",
+    "lat": 49.739833,
+    "lng": 1.402944,
+    "transactions": [
+      {
+        "date": "2025-03-15",
+        "priceEur": 183350,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

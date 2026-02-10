@@ -1,0 +1,77 @@
+{
+  "11cfaffed0e2": {
+    "id": "11cfaffed0e2",
+    "label": "4 HAM D ANTROEUILLES, Avelin",
+    "lat": 50.536729,
+    "lng": 3.098059,
+    "transactions": [
+      {
+        "date": "2021-07-02",
+        "priceEur": 647500,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "221ee14ca649": {
+    "id": "221ee14ca649",
+    "label": "24 RES DE LA MAGE CUVELLE, Avelin",
+    "lat": 50.536264,
+    "lng": 3.088039,
+    "transactions": [
+      {
+        "date": "2023-05-17",
+        "priceEur": 765000,
+        "typeLocal": "Maison",
+        "surfaceM2": 198,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ebdb528c3ba": {
+    "id": "6ebdb528c3ba",
+    "label": "14 RUE JEAN DUVIVIER, Avelin",
+    "lat": 50.538196,
+    "lng": 3.087783,
+    "transactions": [
+      {
+        "date": "2023-12-01",
+        "priceEur": 357000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c5ee0a070ef": {
+    "id": "4c5ee0a070ef",
+    "label": "5 RES DE LA MAGE CUVELLE, Avelin",
+    "lat": 50.536786,
+    "lng": 3.087767,
+    "transactions": [
+      {
+        "date": "2024-05-06",
+        "priceEur": 550000,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "409520197f31": {
+    "id": "409520197f31",
+    "label": "30 RES DE LA MAGE CUVELLE, Avelin",
+    "lat": 50.536187,
+    "lng": 3.088999,
+    "transactions": [
+      {
+        "date": "2024-07-01",
+        "priceEur": 555000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  }
+}

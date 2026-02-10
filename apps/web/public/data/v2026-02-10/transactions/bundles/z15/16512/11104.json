@@ -1,0 +1,62 @@
+{
+  "2254155dcd08": {
+    "id": "2254155dcd08",
+    "label": "48 RTE DE MERS, Eu",
+    "lat": 50.058945,
+    "lng": 1.416967,
+    "transactions": [
+      {
+        "date": "2020-09-11",
+        "priceEur": 137800,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "545e660d4f9b": {
+    "id": "545e660d4f9b",
+    "label": "66 RTE DE MERS, Eu",
+    "lat": 50.059425,
+    "lng": 1.415503,
+    "transactions": [
+      {
+        "date": "2022-11-19",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 14,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc7d52cf4348": {
+    "id": "cc7d52cf4348",
+    "label": "74 RTE DE MERS, Eu",
+    "lat": 50.05971,
+    "lng": 1.414521,
+    "transactions": [
+      {
+        "date": "2025-03-26",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "f24c51e85e03": {
+    "id": "f24c51e85e03",
+    "label": "90 RTE DE MERS, Eu",
+    "lat": 50.060138,
+    "lng": 1.412898,
+    "transactions": [
+      {
+        "date": "2025-05-16",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  }
+}

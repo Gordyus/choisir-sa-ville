@@ -1,0 +1,39 @@
+{
+  "ee83af4ebcdc": {
+    "id": "ee83af4ebcdc",
+    "label": "5977 TOURNEIGE, Maraussan",
+    "lat": 43.352398,
+    "lng": 3.160855,
+    "transactions": [
+      {
+        "date": "2023-06-29",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-14",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "2275d403087f": {
+    "id": "2275d403087f",
+    "label": "6109 LA BARTASSE, Maraussan",
+    "lat": 43.351341,
+    "lng": 3.159134,
+    "transactions": [
+      {
+        "date": "2022-05-02",
+        "priceEur": 372200,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  }
+}

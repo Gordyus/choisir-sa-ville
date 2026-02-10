@@ -1,0 +1,39 @@
+{
+  "5da9255c4f8e": {
+    "id": "5da9255c4f8e",
+    "label": "4944 RTE DE NEUFCHATEL, Bois-Guillaume",
+    "lat": 49.482299,
+    "lng": 1.133291,
+    "transactions": [
+      {
+        "date": "2023-11-28",
+        "priceEur": 440683.28,
+        "typeLocal": "Maison",
+        "surfaceM2": 223,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-29",
+        "priceEur": 302500,
+        "typeLocal": "Maison",
+        "surfaceM2": 223,
+        "isVefa": false
+      }
+    ]
+  },
+  "4df29ab3b5d7": {
+    "id": "4df29ab3b5d7",
+    "label": "4892 RTE DE NEUFCHATEL, Bois-Guillaume",
+    "lat": 49.481904,
+    "lng": 1.132846,
+    "transactions": [
+      {
+        "date": "2024-09-30",
+        "priceEur": 517000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  }
+}

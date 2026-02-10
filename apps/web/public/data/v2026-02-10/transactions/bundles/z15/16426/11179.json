@@ -1,0 +1,181 @@
+{
+  "c216b49f04ba": {
+    "id": "c216b49f04ba",
+    "label": "873 LE GRAND TRAIT, Saint-Nicolas-de-la-Taille",
+    "lat": 49.529613,
+    "lng": 0.461854,
+    "transactions": [
+      {
+        "date": "2021-01-27",
+        "priceEur": 199410,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-27",
+        "priceEur": 199410,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-27",
+        "priceEur": 199410,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "3db993bb0d97": {
+    "id": "3db993bb0d97",
+    "label": "5018 LE GRAND TRAIT, Saint-Nicolas-de-la-Taille",
+    "lat": 49.529665,
+    "lng": 0.47207,
+    "transactions": [
+      {
+        "date": "2022-01-25",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "84e6c2144bd8": {
+    "id": "84e6c2144bd8",
+    "label": "234 RTE DU GRAND TRAIT, Saint-Antoine-la-Forêt",
+    "lat": 49.530938,
+    "lng": 0.4705,
+    "transactions": [
+      {
+        "date": "2022-02-14",
+        "priceEur": 338500,
+        "typeLocal": "Maison",
+        "surfaceM2": 166,
+        "isVefa": false
+      }
+    ]
+  },
+  "f16d78481d7f": {
+    "id": "f16d78481d7f",
+    "label": "5172 LE NOUVEAU MONDE, Saint-Antoine-la-Forêt",
+    "lat": 49.530908,
+    "lng": 0.470905,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f69bbff7448": {
+    "id": "3f69bbff7448",
+    "label": "5310 LE NOUVEAU MONDE, Saint-Antoine-la-Forêt",
+    "lat": 49.530648,
+    "lng": 0.462423,
+    "transactions": [
+      {
+        "date": "2022-10-27",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "312649a1df82": {
+    "id": "312649a1df82",
+    "label": "710 RTE DU GRAND TRAIT, Saint-Antoine-la-Forêt",
+    "lat": 49.530538,
+    "lng": 0.463668,
+    "transactions": [
+      {
+        "date": "2023-04-28",
+        "priceEur": 167500,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "93622d2a3d09": {
+    "id": "93622d2a3d09",
+    "label": "5333 LE NOUVEAU MONDE, Saint-Antoine-la-Forêt",
+    "lat": 49.530856,
+    "lng": 0.471796,
+    "transactions": [
+      {
+        "date": "2023-09-04",
+        "priceEur": 227000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "06fad2ee06ee": {
+    "id": "06fad2ee06ee",
+    "label": "123 RTE DU GRAND TRAIT, Saint-Nicolas-de-la-Taille",
+    "lat": 49.529665,
+    "lng": 0.47207,
+    "transactions": [
+      {
+        "date": "2023-11-22",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0aa6a7e1240": {
+    "id": "e0aa6a7e1240",
+    "label": "814 RTE DU GRAND TRAIT, Saint-Antoine-la-Forêt",
+    "lat": 49.530601,
+    "lng": 0.461982,
+    "transactions": [
+      {
+        "date": "2024-07-11",
+        "priceEur": 237500,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "d222e8407a2d": {
+    "id": "d222e8407a2d",
+    "label": "756 RTE DU GRAND TRAIT, Saint-Antoine-la-Forêt",
+    "lat": 49.530899,
+    "lng": 0.463582,
+    "transactions": [
+      {
+        "date": "2024-10-29",
+        "priceEur": 228000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f711aa8e7b9": {
+    "id": "5f711aa8e7b9",
+    "label": "742 RTE DU GRAND TRAIT, Saint-Antoine-la-Forêt",
+    "lat": 49.53057,
+    "lng": 0.463389,
+    "transactions": [
+      {
+        "date": "2025-04-02",
+        "priceEur": 211200,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  }
+}

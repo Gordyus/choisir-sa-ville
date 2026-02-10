@@ -1,0 +1,69 @@
+{
+  "c37c23eb0bb7": {
+    "id": "c37c23eb0bb7",
+    "label": "33A DRAGUEVILLE, Saint-Martin-le-Gaillard",
+    "lat": 49.973233,
+    "lng": 1.381545,
+    "transactions": [
+      {
+        "date": "2020-08-24",
+        "priceEur": 683500,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-24",
+        "priceEur": 683500,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "48b25d25c95a": {
+    "id": "48b25d25c95a",
+    "label": "14 RUE DE LA VALLEE, Saint-Martin-le-Gaillard",
+    "lat": 49.974186,
+    "lng": 1.379498,
+    "transactions": [
+      {
+        "date": "2020-10-10",
+        "priceEur": 203000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "ebc54ae00749": {
+    "id": "ebc54ae00749",
+    "label": "16B DRAGUEVILLE, Saint-Martin-le-Gaillard",
+    "lat": 49.972605,
+    "lng": 1.378587,
+    "transactions": [
+      {
+        "date": "2021-04-07",
+        "priceEur": 528000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "952f3d093b15": {
+    "id": "952f3d093b15",
+    "label": "4 RUE DU PONT DE L YERES, Saint-Martin-le-Gaillard",
+    "lat": 49.977935,
+    "lng": 1.373635,
+    "transactions": [
+      {
+        "date": "2023-09-22",
+        "priceEur": 415000,
+        "typeLocal": "Maison",
+        "surfaceM2": 222,
+        "isVefa": false
+      }
+    ]
+  }
+}

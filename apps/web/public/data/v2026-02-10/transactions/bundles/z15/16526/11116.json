@@ -1,0 +1,84 @@
+{
+  "e1e5b6e57c2b": {
+    "id": "e1e5b6e57c2b",
+    "label": "2 RUE DE L ETANG, Monchaux-Soreng",
+    "lat": 49.975672,
+    "lng": 1.567234,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 43000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d284832f59a": {
+    "id": "8d284832f59a",
+    "label": "18 RTE DE GAMACHES, Monchaux-Soreng",
+    "lat": 49.974293,
+    "lng": 1.56942,
+    "transactions": [
+      {
+        "date": "2023-01-17",
+        "priceEur": 175700,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-09",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca93d19bdcb9": {
+    "id": "ca93d19bdcb9",
+    "label": "17 RTE DE GAMACHES, Monchaux-Soreng",
+    "lat": 49.972803,
+    "lng": 1.570224,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "e451a75dd474": {
+    "id": "e451a75dd474",
+    "label": "45 RTE DE GAMACHES, Monchaux-Soreng",
+    "lat": 49.975296,
+    "lng": 1.567373,
+    "transactions": [
+      {
+        "date": "2025-05-30",
+        "priceEur": 33000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "eab2856751d0": {
+    "id": "eab2856751d0",
+    "label": "1 RUE DE L ETANG, Monchaux-Soreng",
+    "lat": 49.975463,
+    "lng": 1.566373,
+    "transactions": [
+      {
+        "date": "2025-05-30",
+        "priceEur": 33000,
+        "typeLocal": "Maison",
+        "surfaceM2": 6,
+        "isVefa": false
+      }
+    ]
+  }
+}

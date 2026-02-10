@@ -1,0 +1,77 @@
+{
+  "26738dca7b01": {
+    "id": "26738dca7b01",
+    "label": "5231 HAMEAU DU PETIT TENDOS, Fontaine-le-Bourg",
+    "lat": 49.559332,
+    "lng": 1.140445,
+    "transactions": [
+      {
+        "date": "2020-09-18",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  },
+  "cdb80b496dd1": {
+    "id": "cdb80b496dd1",
+    "label": "7302 LE PETIT TENDOS, Fontaine-le-Bourg",
+    "lat": 49.559945,
+    "lng": 1.138904,
+    "transactions": [
+      {
+        "date": "2020-11-23",
+        "priceEur": 197850,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b8a996ce633": {
+    "id": "9b8a996ce633",
+    "label": "16 RUE RESIDENCE PT TENDOS, Fontaine-le-Bourg",
+    "lat": 49.560253,
+    "lng": 1.137765,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "c14deeec20f0": {
+    "id": "c14deeec20f0",
+    "label": "110 RUE GUSTAVE PAPILLON, Fontaine-le-Bourg",
+    "lat": 49.560425,
+    "lng": 1.137836,
+    "transactions": [
+      {
+        "date": "2023-03-15",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "83e74213cf5e": {
+    "id": "83e74213cf5e",
+    "label": "1455 RTE DE TENDOS, Fontaine-le-Bourg",
+    "lat": 49.559167,
+    "lng": 1.136557,
+    "transactions": [
+      {
+        "date": "2023-10-04",
+        "priceEur": 324000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  }
+}

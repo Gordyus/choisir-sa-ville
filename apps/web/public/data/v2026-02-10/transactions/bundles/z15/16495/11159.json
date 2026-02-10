@@ -1,0 +1,77 @@
+{
+  "19f45ffc0407": {
+    "id": "19f45ffc0407",
+    "label": "965 RTE D'EAWY, Beaumont-le-Hareng",
+    "lat": 49.668989,
+    "lng": 1.221611,
+    "transactions": [
+      {
+        "date": "2021-02-11",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "e4b9340b25c7": {
+    "id": "e4b9340b25c7",
+    "label": "1595 RTE D'EAWY, Beaumont-le-Hareng",
+    "lat": 49.673076,
+    "lng": 1.220849,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ceb1276454b": {
+    "id": "0ceb1276454b",
+    "label": "1345 RTE D'EAWY, Beaumont-le-Hareng",
+    "lat": 49.672113,
+    "lng": 1.222905,
+    "transactions": [
+      {
+        "date": "2024-10-30",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "8dad39270138": {
+    "id": "8dad39270138",
+    "label": "1245 RTE D'EAWY, Beaumont-le-Hareng",
+    "lat": 49.671453,
+    "lng": 1.222569,
+    "transactions": [
+      {
+        "date": "2024-12-06",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d076d48484e": {
+    "id": "7d076d48484e",
+    "label": "1120 RTE D'EAWY, Beaumont-le-Hareng",
+    "lat": 49.670782,
+    "lng": 1.22143,
+    "transactions": [
+      {
+        "date": "2025-04-14",
+        "priceEur": 202000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

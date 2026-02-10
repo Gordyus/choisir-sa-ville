@@ -1,0 +1,47 @@
+{
+  "679830f63756": {
+    "id": "679830f63756",
+    "label": "679 RUE DU HAMELET, Saint-Aubin-sur-Scie",
+    "lat": 49.880686,
+    "lng": 1.066561,
+    "transactions": [
+      {
+        "date": "2022-02-19",
+        "priceEur": 181000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "823b930ee92f": {
+    "id": "823b930ee92f",
+    "label": "880 RUE DU HAMELET, Saint-Aubin-sur-Scie",
+    "lat": 49.882439,
+    "lng": 1.06584,
+    "transactions": [
+      {
+        "date": "2022-11-24",
+        "priceEur": 291850,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "b812c49ea2d2": {
+    "id": "b812c49ea2d2",
+    "label": "782 RUE DU HAMELET, Saint-Aubin-sur-Scie",
+    "lat": 49.881632,
+    "lng": 1.06623,
+    "transactions": [
+      {
+        "date": "2024-08-23",
+        "priceEur": 182450,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  }
+}

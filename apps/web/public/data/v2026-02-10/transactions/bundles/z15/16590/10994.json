@@ -1,0 +1,61 @@
+{
+  "065456464386": {
+    "id": "065456464386",
+    "label": "1923 RUE PRINCIPALE, Wulverdinghe",
+    "lat": 50.831927,
+    "lng": 2.266242,
+    "transactions": [
+      {
+        "date": "2020-07-02",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-02",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-02",
+        "priceEur": 32666,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "0a5a7c0c9813": {
+    "id": "0a5a7c0c9813",
+    "label": "1895 RUE PRINCIPALE, Wulverdinghe",
+    "lat": 50.83169,
+    "lng": 2.265385,
+    "transactions": [
+      {
+        "date": "2021-03-29",
+        "priceEur": 248100,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  },
+  "3df87cba24b2": {
+    "id": "3df87cba24b2",
+    "label": "398 CD LA BARRIERE FRANCAISE, Millam",
+    "lat": 50.833433,
+    "lng": 2.27342,
+    "transactions": [
+      {
+        "date": "2021-07-13",
+        "priceEur": 89250,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

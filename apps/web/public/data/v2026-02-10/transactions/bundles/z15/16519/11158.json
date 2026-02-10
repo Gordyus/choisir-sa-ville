@@ -1,0 +1,32 @@
+{
+  "8c9d00e1afd8": {
+    "id": "8c9d00e1afd8",
+    "label": "5133 LA TURBIE, Saint-Saire",
+    "lat": 49.68098,
+    "lng": 1.488134,
+    "transactions": [
+      {
+        "date": "2020-09-24",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c3b7b2b1c09": {
+    "id": "9c3b7b2b1c09",
+    "label": "267 RTE DE LA ROSIERE, Saint-Saire",
+    "lat": 49.678869,
+    "lng": 1.491682,
+    "transactions": [
+      {
+        "date": "2023-03-13",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 27,
+        "isVefa": false
+      }
+    ]
+  }
+}

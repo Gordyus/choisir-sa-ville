@@ -1,0 +1,99 @@
+{
+  "ffc53eb37fc8": {
+    "id": "ffc53eb37fc8",
+    "label": "868 RUE DE REBOMARD, Gommerville",
+    "lat": 49.546093,
+    "lng": 0.344925,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "39765ccccbc8": {
+    "id": "39765ccccbc8",
+    "label": "509 RUE DE REBOMARD, Gommerville",
+    "lat": 49.543986,
+    "lng": 0.348106,
+    "transactions": [
+      {
+        "date": "2024-01-10",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-04",
+        "priceEur": 281000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed2b9146505d": {
+    "id": "ed2b9146505d",
+    "label": "865 RUE DE REBOMARD, Gommerville",
+    "lat": 49.545979,
+    "lng": 0.343977,
+    "transactions": [
+      {
+        "date": "2023-01-30",
+        "priceEur": 372000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "a6930205bd6c": {
+    "id": "a6930205bd6c",
+    "label": "451 RUE DE REBOMARD, Gommerville",
+    "lat": 49.543637,
+    "lng": 0.349084,
+    "transactions": [
+      {
+        "date": "2024-01-12",
+        "priceEur": 352000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "62abb72c7776": {
+    "id": "62abb72c7776",
+    "label": "258 RUE DE REBOMARD, Gommerville",
+    "lat": 49.544902,
+    "lng": 0.35113,
+    "transactions": [
+      {
+        "date": "2024-06-03",
+        "priceEur": 432000,
+        "typeLocal": "Maison",
+        "surfaceM2": 250,
+        "isVefa": false
+      }
+    ]
+  },
+  "61aadceae0bb": {
+    "id": "61aadceae0bb",
+    "label": "110 IMP DES SAULES, Gommerville",
+    "lat": 49.542071,
+    "lng": 0.351249,
+    "transactions": [
+      {
+        "date": "2024-08-06",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

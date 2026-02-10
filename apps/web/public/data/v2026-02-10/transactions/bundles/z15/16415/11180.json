@@ -1,0 +1,47 @@
+{
+  "5e2d06cfc5fc": {
+    "id": "5e2d06cfc5fc",
+    "label": "124 CHE DE LA PORTE ROUGE, Saint-Romain-de-Colbosc",
+    "lat": 49.523144,
+    "lng": 0.348604,
+    "transactions": [
+      {
+        "date": "2021-04-06",
+        "priceEur": 377000,
+        "typeLocal": "Maison",
+        "surfaceM2": 198,
+        "isVefa": false
+      }
+    ]
+  },
+  "98730a73cb9b": {
+    "id": "98730a73cb9b",
+    "label": "755 RTE D'OUDALLE, Saint-Romain-de-Colbosc",
+    "lat": 49.5231,
+    "lng": 0.351314,
+    "transactions": [
+      {
+        "date": "2024-04-05",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "8cd19a50094d": {
+    "id": "8cd19a50094d",
+    "label": "321 CHE DE LA PORTE ROUGE, Saint-Romain-de-Colbosc",
+    "lat": 49.522402,
+    "lng": 0.346237,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 400650,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "105d60c1f9da": {
+    "id": "105d60c1f9da",
+    "label": "9014 MONTECOUVEZ, Crèvecœur-sur-l'Escaut",
+    "lat": 50.051993,
+    "lng": 3.2665,
+    "transactions": [
+      {
+        "date": "2021-06-09",
+        "priceEur": 545000,
+        "typeLocal": "Maison",
+        "surfaceM2": 202,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd06612eb69a": {
+    "id": "bd06612eb69a",
+    "label": "9013 MONTECOUVEZ, Crèvecœur-sur-l'Escaut",
+    "lat": 50.052216,
+    "lng": 3.266879,
+    "transactions": [
+      {
+        "date": "2021-12-16",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 184,
+        "isVefa": false
+      }
+    ]
+  }
+}

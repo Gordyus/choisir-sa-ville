@@ -1,0 +1,84 @@
+{
+  "455ffa6f493b": {
+    "id": "455ffa6f493b",
+    "label": "10 ALL DES CHAMPS, Bois-Grenier",
+    "lat": 50.64565,
+    "lng": 2.872762,
+    "transactions": [
+      {
+        "date": "2021-07-28",
+        "priceEur": 560000,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  },
+  "11813d94f919": {
+    "id": "11813d94f919",
+    "label": "604 RUE DE POURTALES, Bois-Grenier",
+    "lat": 50.644738,
+    "lng": 2.877949,
+    "transactions": [
+      {
+        "date": "2021-07-22",
+        "priceEur": 283000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d35f7d6fcb4": {
+    "id": "1d35f7d6fcb4",
+    "label": "15 ALL DU PETIT PRINCE, Bois-Grenier",
+    "lat": 50.645821,
+    "lng": 2.874748,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "55ad66b0631c": {
+    "id": "55ad66b0631c",
+    "label": "556 RUE DE POURTALES, Bois-Grenier",
+    "lat": 50.645101,
+    "lng": 2.877522,
+    "transactions": [
+      {
+        "date": "2024-06-24",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-11",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "1739b7254e9f": {
+    "id": "1739b7254e9f",
+    "label": "8 CLOS DES CAPUCINS, Bois-Grenier",
+    "lat": 50.643994,
+    "lng": 2.876845,
+    "transactions": [
+      {
+        "date": "2023-01-28",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

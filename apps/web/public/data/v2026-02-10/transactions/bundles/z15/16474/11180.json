@@ -1,0 +1,32 @@
+{
+  "09623b49c1ee": {
+    "id": "09623b49c1ee",
+    "label": "75 LE PETIT MELMONT, Roumare",
+    "lat": 49.518385,
+    "lng": 0.989017,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 376900,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  },
+  "a49c1d9c4d30": {
+    "id": "a49c1d9c4d30",
+    "label": "5012B LE PETIT MELMONT, Roumare",
+    "lat": 49.518271,
+    "lng": 0.988774,
+    "transactions": [
+      {
+        "date": "2021-10-11",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  }
+}

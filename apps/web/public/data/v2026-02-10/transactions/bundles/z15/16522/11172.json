@@ -1,0 +1,107 @@
+{
+  "565e9276864c": {
+    "id": "565e9276864c",
+    "label": "11 RTE DU ROUVRAY, La Ferté-Saint-Samson",
+    "lat": 49.577481,
+    "lng": 1.525521,
+    "transactions": [
+      {
+        "date": "2020-09-25",
+        "priceEur": 46000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "c8d851f3f11a": {
+    "id": "c8d851f3f11a",
+    "label": "6 RTE DE L'EGLISE, La Ferté-Saint-Samson",
+    "lat": 49.578858,
+    "lng": 1.526525,
+    "transactions": [
+      {
+        "date": "2020-12-22",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f09085c79b3": {
+    "id": "7f09085c79b3",
+    "label": "8 RTE DE L'EGLISE, La Ferté-Saint-Samson",
+    "lat": 49.579822,
+    "lng": 1.525036,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 463000,
+        "typeLocal": "Maison",
+        "surfaceM2": 238,
+        "isVefa": false
+      }
+    ]
+  },
+  "af83bc8db615": {
+    "id": "af83bc8db615",
+    "label": "5127 LE VILLAGE, La Ferté-Saint-Samson",
+    "lat": 49.57814,
+    "lng": 1.523946,
+    "transactions": [
+      {
+        "date": "2021-10-07",
+        "priceEur": 51000,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  },
+  "1adbf2664df1": {
+    "id": "1adbf2664df1",
+    "label": "5126 LE VILLAGE, La Ferté-Saint-Samson",
+    "lat": 49.578124,
+    "lng": 1.52379,
+    "transactions": [
+      {
+        "date": "2021-10-13",
+        "priceEur": 47000,
+        "typeLocal": "Maison",
+        "surfaceM2": 37,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4214efa6576": {
+    "id": "c4214efa6576",
+    "label": "19 PL DE LA MAIRIE, La Ferté-Saint-Samson",
+    "lat": 49.578507,
+    "lng": 1.523837,
+    "transactions": [
+      {
+        "date": "2024-06-18",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "c04286f2da1b": {
+    "id": "c04286f2da1b",
+    "label": "17 PL DE LA MAIRIE, La Ferté-Saint-Samson",
+    "lat": 49.578352,
+    "lng": 1.523882,
+    "transactions": [
+      {
+        "date": "2024-06-21",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  }
+}

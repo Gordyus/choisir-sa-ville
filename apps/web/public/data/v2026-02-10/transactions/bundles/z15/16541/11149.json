@@ -1,0 +1,62 @@
+{
+  "efe467f1758c": {
+    "id": "efe467f1758c",
+    "label": "5011 VILLERS, Haudricourt",
+    "lat": 49.743373,
+    "lng": 1.729243,
+    "transactions": [
+      {
+        "date": "2020-10-17",
+        "priceEur": 72000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c7fb10b88ae": {
+    "id": "0c7fb10b88ae",
+    "label": "575 RTE D AUMALE, Haudricourt",
+    "lat": 49.744301,
+    "lng": 1.727429,
+    "transactions": [
+      {
+        "date": "2021-04-17",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "ce34c87979de": {
+    "id": "ce34c87979de",
+    "label": "5233 VILLERS, Haudricourt",
+    "lat": 49.745203,
+    "lng": 1.729238,
+    "transactions": [
+      {
+        "date": "2021-09-04",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "41128860ac53": {
+    "id": "41128860ac53",
+    "label": "39 RUE DE L EGLISE DE VILLERS, Haudricourt",
+    "lat": 49.744282,
+    "lng": 1.727863,
+    "transactions": [
+      {
+        "date": "2022-03-23",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  }
+}

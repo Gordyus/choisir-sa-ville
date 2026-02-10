@@ -1,0 +1,47 @@
+{
+  "abce7a4e734c": {
+    "id": "abce7a4e734c",
+    "label": "8 RUE DES 30 MOULINS FLAMANDS, Killem",
+    "lat": 50.959319,
+    "lng": 2.557071,
+    "transactions": [
+      {
+        "date": "2020-09-08",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "3bebeca5d7c8": {
+    "id": "3bebeca5d7c8",
+    "label": "22 RTE DE ST OMER, Killem",
+    "lat": 50.958496,
+    "lng": 2.559734,
+    "transactions": [
+      {
+        "date": "2021-08-20",
+        "priceEur": 94000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a6c075ba26a": {
+    "id": "5a6c075ba26a",
+    "label": "6 RUE DES 30 MOULINS FLAMANDS, Killem",
+    "lat": 50.959184,
+    "lng": 2.557148,
+    "transactions": [
+      {
+        "date": "2024-10-15",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  }
+}

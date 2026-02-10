@@ -1,0 +1,92 @@
+{
+  "fc954d76b94e": {
+    "id": "fc954d76b94e",
+    "label": "300 RTE DE PARIS, Torcy-le-Grand",
+    "lat": 49.807662,
+    "lng": 1.178445,
+    "transactions": [
+      {
+        "date": "2020-11-20",
+        "priceEur": 67000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "c53e8d4155e8": {
+    "id": "c53e8d4155e8",
+    "label": "110 RUE DU VIEUX CHATEAU, Torcy-le-Grand",
+    "lat": 49.803085,
+    "lng": 1.177007,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "a7986502934a": {
+    "id": "a7986502934a",
+    "label": "2 RES LE VAL PRE, Torcy-le-Grand",
+    "lat": 49.804729,
+    "lng": 1.176818,
+    "transactions": [
+      {
+        "date": "2024-01-19",
+        "priceEur": 95850,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "767d2e02f083": {
+    "id": "767d2e02f083",
+    "label": "13 RES LE VAL PRE, Torcy-le-Grand",
+    "lat": 49.804151,
+    "lng": 1.176237,
+    "transactions": [
+      {
+        "date": "2024-12-16",
+        "priceEur": 88000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "49bf82833533": {
+    "id": "49bf82833533",
+    "label": "6 RES LE VAL PRE, Torcy-le-Grand",
+    "lat": 49.804381,
+    "lng": 1.17709,
+    "transactions": [
+      {
+        "date": "2025-03-08",
+        "priceEur": 89438,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "d7a5e9e8ac73": {
+    "id": "d7a5e9e8ac73",
+    "label": "4 RES LE VAL PRE, Torcy-le-Grand",
+    "lat": 49.804558,
+    "lng": 1.177106,
+    "transactions": [
+      {
+        "date": "2025-04-15",
+        "priceEur": 71550,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  }
+}

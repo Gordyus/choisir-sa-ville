@@ -1,0 +1,32 @@
+{
+  "260e62294e08": {
+    "id": "260e62294e08",
+    "label": "20 RTE D ARMENTIERES, Warneton",
+    "lat": 50.746394,
+    "lng": 2.976751,
+    "transactions": [
+      {
+        "date": "2021-05-31",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "33d6d683a34a": {
+    "id": "33d6d683a34a",
+    "label": "15 RTE D ARMENTIERES, Warneton",
+    "lat": 50.745221,
+    "lng": 2.971714,
+    "transactions": [
+      {
+        "date": "2024-10-16",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  }
+}

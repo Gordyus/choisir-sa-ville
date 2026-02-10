@@ -1,0 +1,32 @@
+{
+  "c5fc3f653085": {
+    "id": "c5fc3f653085",
+    "label": "20 RTE DE PITGAM, Steene",
+    "lat": 50.934363,
+    "lng": 2.368819,
+    "transactions": [
+      {
+        "date": "2022-07-07",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a7f6feb01d3": {
+    "id": "3a7f6feb01d3",
+    "label": "1 RUE VOIE ROMAINE, Crochte",
+    "lat": 50.931993,
+    "lng": 2.370738,
+    "transactions": [
+      {
+        "date": "2024-02-20",
+        "priceEur": 163150,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  }
+}

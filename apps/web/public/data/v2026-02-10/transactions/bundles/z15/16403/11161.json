@@ -1,0 +1,77 @@
+{
+  "ef4da8a5f6f1": {
+    "id": "ef4da8a5f6f1",
+    "label": "4 RUE DE LA FORGE, Beaurepaire",
+    "lat": 49.657134,
+    "lng": 0.209496,
+    "transactions": [
+      {
+        "date": "2021-07-27",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "cde4ff4cc89b": {
+    "id": "cde4ff4cc89b",
+    "label": "15 RUE DE LA MARE DE LA CROIX, Beaurepaire",
+    "lat": 49.659236,
+    "lng": 0.212152,
+    "transactions": [
+      {
+        "date": "2021-11-29",
+        "priceEur": 238000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b4438d36610": {
+    "id": "8b4438d36610",
+    "label": "13 RUE DE LA MARE DE LA CROIX, Beaurepaire",
+    "lat": 49.659456,
+    "lng": 0.212222,
+    "transactions": [
+      {
+        "date": "2022-10-18",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "60409d9b7b4e": {
+    "id": "60409d9b7b4e",
+    "label": "11 RTE DE GONNEVILLE, Beaurepaire",
+    "lat": 49.656987,
+    "lng": 0.20985,
+    "transactions": [
+      {
+        "date": "2024-02-23",
+        "priceEur": 174600,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "da91324ae492": {
+    "id": "da91324ae492",
+    "label": "7 RUE DE LA FORGE, Beaurepaire",
+    "lat": 49.65742,
+    "lng": 0.208938,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 286500,
+        "typeLocal": "Maison",
+        "surfaceM2": 174,
+        "isVefa": false
+      }
+    ]
+  }
+}

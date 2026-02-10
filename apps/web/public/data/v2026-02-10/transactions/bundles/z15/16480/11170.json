@@ -1,0 +1,24 @@
+{
+  "1fac0857b5ab": {
+    "id": "1fac0857b5ab",
+    "label": "840 HAMEAU DE COTE COTE, Sierville",
+    "lat": 49.594643,
+    "lng": 1.060614,
+    "transactions": [
+      {
+        "date": "2020-10-08",
+        "priceEur": 19500,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-08",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  }
+}

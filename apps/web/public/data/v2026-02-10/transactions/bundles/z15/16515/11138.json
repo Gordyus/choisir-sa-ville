@@ -1,0 +1,32 @@
+{
+  "7a7ebcc11798": {
+    "id": "7a7ebcc11798",
+    "label": "5051 LE PROYE, Bailleul-Neuville",
+    "lat": 49.823524,
+    "lng": 1.442278,
+    "transactions": [
+      {
+        "date": "2020-12-15",
+        "priceEur": 103000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "3bf7a264dce9": {
+    "id": "3bf7a264dce9",
+    "label": "9 RUE DU CLOS ROSE, Bailleul-Neuville",
+    "lat": 49.822592,
+    "lng": 1.442867,
+    "transactions": [
+      {
+        "date": "2023-04-27",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  }
+}

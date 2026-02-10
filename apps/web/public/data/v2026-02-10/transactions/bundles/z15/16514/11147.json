@@ -1,0 +1,32 @@
+{
+  "b6973f4fd789": {
+    "id": "b6973f4fd789",
+    "label": "2 RUE DU BIHOREL, Neufchâtel-en-Bray",
+    "lat": 49.758396,
+    "lng": 1.433504,
+    "transactions": [
+      {
+        "date": "2021-11-05",
+        "priceEur": 283000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "f691bdca1ded": {
+    "id": "f691bdca1ded",
+    "label": "4 LE MONT D AULAGE, Saint-Martin-l'Hortier",
+    "lat": 49.755286,
+    "lng": 1.429788,
+    "transactions": [
+      {
+        "date": "2022-12-16",
+        "priceEur": 343000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  }
+}

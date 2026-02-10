@@ -1,0 +1,77 @@
+{
+  "9dea19f829c6": {
+    "id": "9dea19f829c6",
+    "label": "5463 LA MAIRIE, Gonneville-la-Mallet",
+    "lat": 49.642819,
+    "lng": 0.216501,
+    "transactions": [
+      {
+        "date": "2022-09-16",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd930605f0ee": {
+    "id": "cd930605f0ee",
+    "label": "30 RUE PIERRE DOUTRELEAU, Gonneville-la-Mallet",
+    "lat": 49.641512,
+    "lng": 0.21914,
+    "transactions": [
+      {
+        "date": "2023-05-11",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "2592798a85ea": {
+    "id": "2592798a85ea",
+    "label": "5417 LE VILLAGE, Gonneville-la-Mallet",
+    "lat": 49.63956,
+    "lng": 0.219178,
+    "transactions": [
+      {
+        "date": "2023-06-06",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1d001a9ea7f": {
+    "id": "b1d001a9ea7f",
+    "label": "5045 LE VILLAGE, Gonneville-la-Mallet",
+    "lat": 49.640696,
+    "lng": 0.21952,
+    "transactions": [
+      {
+        "date": "2023-06-28",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "01844d09e03f": {
+    "id": "01844d09e03f",
+    "label": "3 CHE DU CIMETIERE, Gonneville-la-Mallet",
+    "lat": 49.63919,
+    "lng": 0.218695,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 319000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  }
+}

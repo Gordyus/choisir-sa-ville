@@ -1,0 +1,32 @@
+{
+  "181ba38786a7": {
+    "id": "181ba38786a7",
+    "label": "227 RUE DOM DE LA PLAINE DES HAIES, Fontaine-le-Bourg",
+    "lat": 49.572033,
+    "lng": 1.164754,
+    "transactions": [
+      {
+        "date": "2023-03-27",
+        "priceEur": 277400,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c11905f17bb": {
+    "id": "3c11905f17bb",
+    "label": "5059 TALVANNE, Fontaine-le-Bourg",
+    "lat": 49.573418,
+    "lng": 1.17105,
+    "transactions": [
+      {
+        "date": "2024-04-18",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  }
+}

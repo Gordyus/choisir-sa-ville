@@ -1,0 +1,62 @@
+{
+  "52c1e0059a13": {
+    "id": "52c1e0059a13",
+    "label": "2306 RTE DE DUNKERQUE, Hardifort",
+    "lat": 50.824419,
+    "lng": 2.48036,
+    "transactions": [
+      {
+        "date": "2022-11-14",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "91ca0bde43cb": {
+    "id": "91ca0bde43cb",
+    "label": "2558 RTE DE DUNKERQUE, Hardifort",
+    "lat": 50.826693,
+    "lng": 2.479822,
+    "transactions": [
+      {
+        "date": "2023-05-24",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "282c29c2af81": {
+    "id": "282c29c2af81",
+    "label": "1829B RTE DE WEMAERS CAPPEL, Hardifort",
+    "lat": 50.822997,
+    "lng": 2.477464,
+    "transactions": [
+      {
+        "date": "2024-04-15",
+        "priceEur": 314500,
+        "typeLocal": "Maison",
+        "surfaceM2": 164,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e1525fa20ab": {
+    "id": "5e1525fa20ab",
+    "label": "1829 RTE DE WEMAERS CAPPEL, Hardifort",
+    "lat": 50.822937,
+    "lng": 2.477278,
+    "transactions": [
+      {
+        "date": "2024-04-15",
+        "priceEur": 314500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

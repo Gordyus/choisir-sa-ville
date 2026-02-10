@@ -1,0 +1,53 @@
+{
+  "0891248aea5d": {
+    "id": "0891248aea5d",
+    "label": "38 RUE DU MOULIN, Volckerinckhove",
+    "lat": 50.830634,
+    "lng": 2.285984,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 177000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "d04248c03223": {
+    "id": "d04248c03223",
+    "label": "48 RUE DU MOULIN, Volckerinckhove",
+    "lat": 50.829919,
+    "lng": 2.285326,
+    "transactions": [
+      {
+        "date": "2023-06-28",
+        "priceEur": 459010,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-28",
+        "priceEur": 459010,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-28",
+        "priceEur": 459010,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-28",
+        "priceEur": 459010,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  }
+}

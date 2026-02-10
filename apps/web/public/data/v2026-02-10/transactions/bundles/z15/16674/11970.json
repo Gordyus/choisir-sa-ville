@@ -1,0 +1,106 @@
+{
+  "ba1d6a5067cd": {
+    "id": "ba1d6a5067cd",
+    "label": "1 RPE DU TEMPLE, Faugères",
+    "lat": 43.564394,
+    "lng": 3.18901,
+    "transactions": [
+      {
+        "date": "2025-02-21",
+        "priceEur": 91000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-22",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "27a3d0a56d12": {
+    "id": "27a3d0a56d12",
+    "label": "1207 RTE DE PEZENAS, Faugères",
+    "lat": 43.563104,
+    "lng": 3.192392,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 614100,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "5307ce989dde": {
+    "id": "5307ce989dde",
+    "label": "2 CHE DU PUITS, Faugères",
+    "lat": 43.564285,
+    "lng": 3.189734,
+    "transactions": [
+      {
+        "date": "2021-06-17",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "704b0a10a617": {
+    "id": "704b0a10a617",
+    "label": "27 RUE DU GRAND VERGER, Faugères",
+    "lat": 43.563923,
+    "lng": 3.187241,
+    "transactions": [
+      {
+        "date": "2022-05-31",
+        "priceEur": 505000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-31",
+        "priceEur": 505000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "bbf88ed615d4": {
+    "id": "bbf88ed615d4",
+    "label": "1098 RTE DE PEZENAS, Faugères",
+    "lat": 43.563985,
+    "lng": 3.191451,
+    "transactions": [
+      {
+        "date": "2024-05-02",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "fc8d3cb8dc6a": {
+    "id": "fc8d3cb8dc6a",
+    "label": "24 RUE DU GRAND VERGER, Faugères",
+    "lat": 43.564351,
+    "lng": 3.188022,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 185000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

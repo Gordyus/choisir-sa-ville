@@ -1,0 +1,32 @@
+{
+  "7d83e3caf0cc": {
+    "id": "7d83e3caf0cc",
+    "label": "5077 BOIS DU CHATEAU DES ETANGS, Beauval-en-Caux",
+    "lat": 49.728064,
+    "lng": 1.011911,
+    "transactions": [
+      {
+        "date": "2022-01-07",
+        "priceEur": 132905,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "26f0ae039eff": {
+    "id": "26f0ae039eff",
+    "label": "689 ALL DU NORMAN, Beauval-en-Caux",
+    "lat": 49.728594,
+    "lng": 1.011845,
+    "transactions": [
+      {
+        "date": "2023-08-28",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  }
+}

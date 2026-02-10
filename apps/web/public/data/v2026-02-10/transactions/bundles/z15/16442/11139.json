@@ -1,0 +1,69 @@
+{
+  "49fdce7c1d44": {
+    "id": "49fdce7c1d44",
+    "label": "8 RUE DE LA COTE CHOUETTE, Vittefleur",
+    "lat": 49.816106,
+    "lng": 0.638539,
+    "transactions": [
+      {
+        "date": "2024-06-27",
+        "priceEur": 66000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-07",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c85942d3262": {
+    "id": "1c85942d3262",
+    "label": "19 LE HAMEL, Vittefleur",
+    "lat": 49.812566,
+    "lng": 0.637573,
+    "transactions": [
+      {
+        "date": "2023-03-03",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "aab579cb70eb": {
+    "id": "aab579cb70eb",
+    "label": "15 RUE DE LA COTE CHOUETTE, Vittefleur",
+    "lat": 49.814481,
+    "lng": 0.639419,
+    "transactions": [
+      {
+        "date": "2023-08-29",
+        "priceEur": 224750,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "d78c936e8655": {
+    "id": "d78c936e8655",
+    "label": "1 RUE DE LA FOLIE, Vittefleur",
+    "lat": 49.813836,
+    "lng": 0.637735,
+    "transactions": [
+      {
+        "date": "2024-09-20",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

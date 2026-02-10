@@ -1,0 +1,62 @@
+{
+  "75ec710326de": {
+    "id": "75ec710326de",
+    "label": "5325 CHE DE ST SUPPLIX, Octeville-sur-Mer",
+    "lat": 49.568606,
+    "lng": 0.12864,
+    "transactions": [
+      {
+        "date": "2022-04-07",
+        "priceEur": 257900,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f7b48a45261": {
+    "id": "3f7b48a45261",
+    "label": "11 CHE DE ST SUPPLIX, Octeville-sur-Mer",
+    "lat": 49.568939,
+    "lng": 0.128882,
+    "transactions": [
+      {
+        "date": "2022-04-07",
+        "priceEur": 369600,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "f96a63504527": {
+    "id": "f96a63504527",
+    "label": "26 CHE DE ST SUPPLIX, Octeville-sur-Mer",
+    "lat": 49.570212,
+    "lng": 0.130848,
+    "transactions": [
+      {
+        "date": "2023-11-14",
+        "priceEur": 600000,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      }
+    ]
+  },
+  "da51cdc9c613": {
+    "id": "da51cdc9c613",
+    "label": "5324 CHE DES GREENS, Octeville-sur-Mer",
+    "lat": 49.568641,
+    "lng": 0.130858,
+    "transactions": [
+      {
+        "date": "2024-02-07",
+        "priceEur": 376000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

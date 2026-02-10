@@ -1,0 +1,47 @@
+{
+  "91075443a1cb": {
+    "id": "91075443a1cb",
+    "label": "15 RES VERTE RUE, Faumont",
+    "lat": 50.465072,
+    "lng": 3.120852,
+    "transactions": [
+      {
+        "date": "2020-11-06",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "21ce9b1754ea": {
+    "id": "21ce9b1754ea",
+    "label": "717 RUE COLETTE, Faumont",
+    "lat": 50.465142,
+    "lng": 3.128138,
+    "transactions": [
+      {
+        "date": "2023-09-01",
+        "priceEur": 305850,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd96315221e9": {
+    "id": "cd96315221e9",
+    "label": "13 RES VERTE RUE, Faumont",
+    "lat": 50.465143,
+    "lng": 3.121124,
+    "transactions": [
+      {
+        "date": "2025-06-12",
+        "priceEur": 138500,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

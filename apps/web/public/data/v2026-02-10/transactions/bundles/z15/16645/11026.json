@@ -1,0 +1,62 @@
+{
+  "fa03d7ba625b": {
+    "id": "fa03d7ba625b",
+    "label": "5 RUE DE LA JOIRIE, Fromelles",
+    "lat": 50.606108,
+    "lng": 2.86789,
+    "transactions": [
+      {
+        "date": "2021-01-26",
+        "priceEur": 594560,
+        "typeLocal": "Maison",
+        "surfaceM2": 189,
+        "isVefa": false
+      }
+    ]
+  },
+  "981764e9e850": {
+    "id": "981764e9e850",
+    "label": "5 RUE DU PONT DE PIERRES, Fromelles",
+    "lat": 50.60784,
+    "lng": 2.867571,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 238000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "01743948c3a0": {
+    "id": "01743948c3a0",
+    "label": "57 RUE DU HAUT QUESNOY, Le Maisnil",
+    "lat": 50.609465,
+    "lng": 2.87545,
+    "transactions": [
+      {
+        "date": "2021-12-16",
+        "priceEur": 195456,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6ba4386a318": {
+    "id": "c6ba4386a318",
+    "label": "29 RUE DU PONT DE PIERRES, Fromelles",
+    "lat": 50.608667,
+    "lng": 2.872402,
+    "transactions": [
+      {
+        "date": "2022-02-21",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

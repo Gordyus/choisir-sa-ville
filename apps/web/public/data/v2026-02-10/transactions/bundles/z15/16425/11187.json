@@ -1,0 +1,47 @@
+{
+  "6aaf96e9102d": {
+    "id": "6aaf96e9102d",
+    "label": "14 RUE DE L ECLUSE, Tancarville",
+    "lat": 49.47416,
+    "lng": 0.456785,
+    "transactions": [
+      {
+        "date": "2024-06-26",
+        "priceEur": 87142,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "539419de2113": {
+    "id": "539419de2113",
+    "label": "16 RUE DE L ECLUSE, Tancarville",
+    "lat": 49.473884,
+    "lng": 0.456471,
+    "transactions": [
+      {
+        "date": "2024-08-06",
+        "priceEur": 121740,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "85c41b62cdae": {
+    "id": "85c41b62cdae",
+    "label": "15 RUE DE L ECLUSE, Tancarville",
+    "lat": 49.473991,
+    "lng": 0.456733,
+    "transactions": [
+      {
+        "date": "2024-09-10",
+        "priceEur": 110800,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  }
+}

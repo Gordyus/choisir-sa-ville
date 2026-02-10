@@ -1,0 +1,47 @@
+{
+  "a0d582fcb569": {
+    "id": "a0d582fcb569",
+    "label": "1 RUE DU RYSSELBERGH, Zegerscappel",
+    "lat": 50.889397,
+    "lng": 2.363978,
+    "transactions": [
+      {
+        "date": "2021-08-16",
+        "priceEur": 348000,
+        "typeLocal": "Maison",
+        "surfaceM2": 167,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c3b9166b29b": {
+    "id": "5c3b9166b29b",
+    "label": "13 RTE DE PITGAM, Zegerscappel",
+    "lat": 50.890093,
+    "lng": 2.370129,
+    "transactions": [
+      {
+        "date": "2021-09-10",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e33a057e7a3": {
+    "id": "3e33a057e7a3",
+    "label": "12 L ISAAC, Zegerscappel",
+    "lat": 50.89603,
+    "lng": 2.368601,
+    "transactions": [
+      {
+        "date": "2022-07-05",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

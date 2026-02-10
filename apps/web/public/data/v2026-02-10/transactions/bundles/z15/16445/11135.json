@@ -1,0 +1,32 @@
+{
+  "692617cac89d": {
+    "id": "692617cac89d",
+    "label": "28 RES DU CALVAIRE, Saint-Sylvain",
+    "lat": 49.844965,
+    "lng": 0.671014,
+    "transactions": [
+      {
+        "date": "2020-10-29",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "72a48afdb56c": {
+    "id": "72a48afdb56c",
+    "label": "26 RES DU CALVAIRE, Saint-Sylvain",
+    "lat": 49.844809,
+    "lng": 0.670389,
+    "transactions": [
+      {
+        "date": "2020-12-15",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

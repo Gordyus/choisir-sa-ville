@@ -1,0 +1,45 @@
+{
+  "1fd4450ee903": {
+    "id": "1fd4450ee903",
+    "label": "480 RUE DE LA GUENNERIE, Bois-Grenier",
+    "lat": 50.639589,
+    "lng": 2.86552,
+    "transactions": [
+      {
+        "date": "2023-01-30",
+        "priceEur": 1200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-30",
+        "priceEur": 1200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-30",
+        "priceEur": 1200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 21,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-30",
+        "priceEur": 1200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-30",
+        "priceEur": 1200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 250,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "4431de624ac8": {
+    "id": "4431de624ac8",
+    "label": "5024A LE BOURG, Rocquemont",
+    "lat": 49.60462,
+    "lng": 1.282401,
+    "transactions": [
+      {
+        "date": "2021-12-10",
+        "priceEur": 220500,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "0560eb7d206e": {
+    "id": "0560eb7d206e",
+    "label": "5024B LE BOURG, Rocquemont",
+    "lat": 49.605094,
+    "lng": 1.282405,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 164000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e3565688615": {
+    "id": "7e3565688615",
+    "label": "5241 LE BOURG, Rocquemont",
+    "lat": 49.604713,
+    "lng": 1.284822,
+    "transactions": [
+      {
+        "date": "2021-07-09",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 189,
+        "isVefa": false
+      }
+    ]
+  },
+  "603020353a53": {
+    "id": "603020353a53",
+    "label": "5005 LE BOURG, Rocquemont",
+    "lat": 49.605357,
+    "lng": 1.281283,
+    "transactions": [
+      {
+        "date": "2022-03-15",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  }
+}

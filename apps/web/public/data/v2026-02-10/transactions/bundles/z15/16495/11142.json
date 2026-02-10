@@ -1,0 +1,47 @@
+{
+  "3926078670e5": {
+    "id": "3926078670e5",
+    "label": "7 LOT LES LILAS, Les Grandes-Ventes",
+    "lat": 49.789778,
+    "lng": 1.229006,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 59000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "47aa16944e50": {
+    "id": "47aa16944e50",
+    "label": "310 RUE DES HOTELETS, Les Grandes-Ventes",
+    "lat": 49.789173,
+    "lng": 1.224929,
+    "transactions": [
+      {
+        "date": "2021-05-27",
+        "priceEur": 62000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "e4e8001b3cf6": {
+    "id": "e4e8001b3cf6",
+    "label": "90 RUE D ORIVAL, Les Grandes-Ventes",
+    "lat": 49.788916,
+    "lng": 1.223998,
+    "transactions": [
+      {
+        "date": "2024-09-30",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

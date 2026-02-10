@@ -1,0 +1,32 @@
+{
+  "723a12d3623a": {
+    "id": "723a12d3623a",
+    "label": "4240 VC STANDAERT STRAETE, Cassel",
+    "lat": 50.814459,
+    "lng": 2.504989,
+    "transactions": [
+      {
+        "date": "2020-09-01",
+        "priceEur": 417600,
+        "typeLocal": "Maison",
+        "surfaceM2": 202,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1cddddaa285": {
+    "id": "a1cddddaa285",
+    "label": "4212 VC STANDAERT STRAETE, Cassel",
+    "lat": 50.814148,
+    "lng": 2.50541,
+    "transactions": [
+      {
+        "date": "2022-07-05",
+        "priceEur": 548000,
+        "typeLocal": "Maison",
+        "surfaceM2": 226,
+        "isVefa": false
+      }
+    ]
+  }
+}

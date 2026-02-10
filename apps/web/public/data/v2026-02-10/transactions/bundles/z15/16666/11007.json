@@ -1,0 +1,47 @@
+{
+  "578a8f554516": {
+    "id": "578a8f554516",
+    "label": "80 RUE DE LA VISCOURT, Linselles",
+    "lat": 50.739469,
+    "lng": 3.100047,
+    "transactions": [
+      {
+        "date": "2020-11-19",
+        "priceEur": 346000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea8ea438f171": {
+    "id": "ea8ea438f171",
+    "label": "94 RUE DE LA VISCOURT, Linselles",
+    "lat": 50.738189,
+    "lng": 3.101987,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 456000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "8829a9ca38f3": {
+    "id": "8829a9ca38f3",
+    "label": "82 RUE DE LA VISCOURT, Linselles",
+    "lat": 50.739071,
+    "lng": 3.100107,
+    "transactions": [
+      {
+        "date": "2024-09-10",
+        "priceEur": 427000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

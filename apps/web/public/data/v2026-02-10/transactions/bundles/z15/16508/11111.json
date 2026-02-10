@@ -1,0 +1,54 @@
+{
+  "f455fab33e86": {
+    "id": "f455fab33e86",
+    "label": "5096 HEUDELIMONT HAMEAU, Saint-Rémy-Boscrocourt",
+    "lat": 50.011411,
+    "lng": 1.372415,
+    "transactions": [
+      {
+        "date": "2020-09-22",
+        "priceEur": 327000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "03a2073472aa": {
+    "id": "03a2073472aa",
+    "label": "2 RUE DE SANROY, Saint-Rémy-Boscrocourt",
+    "lat": 50.007879,
+    "lng": 1.372565,
+    "transactions": [
+      {
+        "date": "2022-05-09",
+        "priceEur": 196950,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "819c28c81401": {
+    "id": "819c28c81401",
+    "label": "17 RUE DU CALVAIRE, Saint-Rémy-Boscrocourt",
+    "lat": 50.012065,
+    "lng": 1.371697,
+    "transactions": [
+      {
+        "date": "2023-08-16",
+        "priceEur": 199500,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-16",
+        "priceEur": 199500,
+        "typeLocal": "Maison",
+        "surfaceM2": 188,
+        "isVefa": false
+      }
+    ]
+  }
+}

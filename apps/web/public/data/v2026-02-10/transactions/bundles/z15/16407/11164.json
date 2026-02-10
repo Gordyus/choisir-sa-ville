@@ -1,0 +1,32 @@
+{
+  "c002f9563df0": {
+    "id": "c002f9563df0",
+    "label": "52 RUE DE MONDEVILLE, Criquetot-l'Esneval",
+    "lat": 49.634519,
+    "lng": 0.258578,
+    "transactions": [
+      {
+        "date": "2022-06-09",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "cad2ec2cf55b": {
+    "id": "cad2ec2cf55b",
+    "label": "42 RTE DE TURRETOT, Criquetot-l'Esneval",
+    "lat": 49.63489,
+    "lng": 0.259873,
+    "transactions": [
+      {
+        "date": "2025-04-15",
+        "priceEur": 380500,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

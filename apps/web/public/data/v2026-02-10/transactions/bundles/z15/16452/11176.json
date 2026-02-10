@@ -1,0 +1,32 @@
+{
+  "4330084a6caf": {
+    "id": "4330084a6caf",
+    "label": "18 RUE A L EAU, Rives-en-Seine",
+    "lat": 49.548038,
+    "lng": 0.757472,
+    "transactions": [
+      {
+        "date": "2021-04-16",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "645dc72b2299": {
+    "id": "645dc72b2299",
+    "label": "334 RTE DE RANCON, Rives-en-Seine",
+    "lat": 49.551685,
+    "lng": 0.756366,
+    "transactions": [
+      {
+        "date": "2024-01-24",
+        "priceEur": 225800,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  }
+}

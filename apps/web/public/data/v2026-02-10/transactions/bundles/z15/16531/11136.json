@@ -1,0 +1,92 @@
+{
+  "12ba9cba7340": {
+    "id": "12ba9cba7340",
+    "label": "5088 BOUT DU ROUAGE, Saint-Léger-aux-Bois",
+    "lat": 49.831797,
+    "lng": 1.619872,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3fc29d33b6c": {
+    "id": "d3fc29d33b6c",
+    "label": "39 RUE DU ROUAGE, Saint-Léger-aux-Bois",
+    "lat": 49.832278,
+    "lng": 1.621289,
+    "transactions": [
+      {
+        "date": "2023-03-20",
+        "priceEur": 146000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "5cb0b33f0718": {
+    "id": "5cb0b33f0718",
+    "label": "8 RUE DU ROUAGE, Saint-Léger-aux-Bois",
+    "lat": 49.831328,
+    "lng": 1.618605,
+    "transactions": [
+      {
+        "date": "2024-01-31",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c24f634492d": {
+    "id": "5c24f634492d",
+    "label": "45C RUE DU ROUAGE, Saint-Léger-aux-Bois",
+    "lat": 49.831939,
+    "lng": 1.625155,
+    "transactions": [
+      {
+        "date": "2024-09-06",
+        "priceEur": 162500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1297cae944d": {
+    "id": "f1297cae944d",
+    "label": "4Q RUE DU ROUAGE, Saint-Léger-aux-Bois",
+    "lat": 49.831246,
+    "lng": 1.616946,
+    "transactions": [
+      {
+        "date": "2025-03-27",
+        "priceEur": 137900,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "926d16a17f92": {
+    "id": "926d16a17f92",
+    "label": "43 RUE DU ROUAGE, Saint-Léger-aux-Bois",
+    "lat": 49.832058,
+    "lng": 1.623455,
+    "transactions": [
+      {
+        "date": "2025-06-05",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  }
+}

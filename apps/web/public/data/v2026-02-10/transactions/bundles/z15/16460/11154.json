@@ -1,0 +1,32 @@
+{
+  "d8594791fa97": {
+    "id": "d8594791fa97",
+    "label": "35 RUE DES MAISONNETTES, Berville-en-Caux",
+    "lat": 49.710105,
+    "lng": 0.841811,
+    "transactions": [
+      {
+        "date": "2021-08-30",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd775a3acb1b": {
+    "id": "cd775a3acb1b",
+    "label": "297 RTE DE SAINT LAURENT, Berville-en-Caux",
+    "lat": 49.709756,
+    "lng": 0.836859,
+    "transactions": [
+      {
+        "date": "2024-02-05",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

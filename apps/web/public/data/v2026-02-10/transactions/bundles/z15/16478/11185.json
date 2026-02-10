@@ -1,0 +1,658 @@
+{
+  "a2be0be5360f": {
+    "id": "a2be0be5360f",
+    "label": "25 RUE FERDINAND CARTIER, Notre-Dame-de-Bondeville",
+    "lat": 49.485962,
+    "lng": 1.042842,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-07",
+        "priceEur": 171000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-07",
+        "priceEur": 139500,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d47ed22f2df": {
+    "id": "0d47ed22f2df",
+    "label": "44 RUE PAUL PAINLEVE, Maromme",
+    "lat": 49.485532,
+    "lng": 1.042,
+    "transactions": [
+      {
+        "date": "2023-12-28",
+        "priceEur": 79000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-03",
+        "priceEur": 80000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-03",
+        "priceEur": 82650,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "8cc1de409ef3": {
+    "id": "8cc1de409ef3",
+    "label": "18 RUE FERDINAND CARTIER, Maromme",
+    "lat": 49.485544,
+    "lng": 1.042802,
+    "transactions": [
+      {
+        "date": "2020-10-07",
+        "priceEur": 167300,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "89dc2c715ffa": {
+    "id": "89dc2c715ffa",
+    "label": "15 IMP GODEMENT, Maromme",
+    "lat": 49.4848,
+    "lng": 1.041053,
+    "transactions": [
+      {
+        "date": "2020-10-16",
+        "priceEur": 103000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2ec9a4dd41b": {
+    "id": "e2ec9a4dd41b",
+    "label": "24 RUE D ALSACE, Maromme",
+    "lat": 49.485202,
+    "lng": 1.040248,
+    "transactions": [
+      {
+        "date": "2020-10-21",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "21cbd0a4f3d7": {
+    "id": "21cbd0a4f3d7",
+    "label": "17 RUE FERDINAND CARTIER, Notre-Dame-de-Bondeville",
+    "lat": 49.48603,
+    "lng": 1.042531,
+    "transactions": [
+      {
+        "date": "2020-12-30",
+        "priceEur": 79000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "00caa09af848": {
+    "id": "00caa09af848",
+    "label": "27 RUE DE L YSER, Maromme",
+    "lat": 49.484628,
+    "lng": 1.038558,
+    "transactions": [
+      {
+        "date": "2021-12-15",
+        "priceEur": 121000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a7ea8225feb": {
+    "id": "9a7ea8225feb",
+    "label": "46 RUE PAUL PAINLEVE, Maromme",
+    "lat": 49.485532,
+    "lng": 1.042,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 60000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f2866d3e554": {
+    "id": "8f2866d3e554",
+    "label": "17 IMP GODEMENT, Maromme",
+    "lat": 49.484809,
+    "lng": 1.040942,
+    "transactions": [
+      {
+        "date": "2021-01-11",
+        "priceEur": 64500,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "a011e70a7d87": {
+    "id": "a011e70a7d87",
+    "label": "19 RUE DE LA MARNE, Maromme",
+    "lat": 49.483996,
+    "lng": 1.038995,
+    "transactions": [
+      {
+        "date": "2021-01-11",
+        "priceEur": 123670,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "7476582558b1": {
+    "id": "7476582558b1",
+    "label": "90 RUE MARTYRS RESISTANCE, Maromme",
+    "lat": 49.483042,
+    "lng": 1.043466,
+    "transactions": [
+      {
+        "date": "2021-02-01",
+        "priceEur": 85000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "4fcec218e369": {
+    "id": "4fcec218e369",
+    "label": "4 RUE D ALSACE, Maromme",
+    "lat": 49.485869,
+    "lng": 1.041204,
+    "transactions": [
+      {
+        "date": "2021-02-02",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "70ab454b5cc6": {
+    "id": "70ab454b5cc6",
+    "label": "22 RUE DE LA MARNE, Maromme",
+    "lat": 49.484355,
+    "lng": 1.038853,
+    "transactions": [
+      {
+        "date": "2021-02-18",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c417ebbd6bd": {
+    "id": "3c417ebbd6bd",
+    "label": "48 RUE PAUL PAINLEVE, Maromme",
+    "lat": 49.485532,
+    "lng": 1.042,
+    "transactions": [
+      {
+        "date": "2022-03-29",
+        "priceEur": 105000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-20",
+        "priceEur": 87350,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-01",
+        "priceEur": 38000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4fd50925200": {
+    "id": "c4fd50925200",
+    "label": "21 RUE FERDINAND CARTIER, Notre-Dame-de-Bondeville",
+    "lat": 49.486004,
+    "lng": 1.042636,
+    "transactions": [
+      {
+        "date": "2021-06-17",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa73c908a309": {
+    "id": "fa73c908a309",
+    "label": "6 RUE DE LA MARNE, Maromme",
+    "lat": 49.484198,
+    "lng": 1.03995,
+    "transactions": [
+      {
+        "date": "2021-06-18",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "bae0b978b448": {
+    "id": "bae0b978b448",
+    "label": "21 RUE DE LA MARNE, Maromme",
+    "lat": 49.48399,
+    "lng": 1.03888,
+    "transactions": [
+      {
+        "date": "2021-07-29",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "89750542e7bd": {
+    "id": "89750542e7bd",
+    "label": "13 RUE DE LA MARNE, Maromme",
+    "lat": 49.483925,
+    "lng": 1.039447,
+    "transactions": [
+      {
+        "date": "2022-01-10",
+        "priceEur": 182600,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "4922c9c9a979": {
+    "id": "4922c9c9a979",
+    "label": "15 RUE DUMONT D URVILLE, Maromme",
+    "lat": 49.484895,
+    "lng": 1.04258,
+    "transactions": [
+      {
+        "date": "2022-01-28",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "5fdfe1117ffe": {
+    "id": "5fdfe1117ffe",
+    "label": "92 RUE MARTYRS RESISTANCE, Maromme",
+    "lat": 49.483042,
+    "lng": 1.043466,
+    "transactions": [
+      {
+        "date": "2022-01-24",
+        "priceEur": 114000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "ded64cd4db03": {
+    "id": "ded64cd4db03",
+    "label": "55 RUE PAUL PAINLEVE, Maromme",
+    "lat": 49.484563,
+    "lng": 1.041655,
+    "transactions": [
+      {
+        "date": "2022-04-12",
+        "priceEur": 132000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "90f7be096ee4": {
+    "id": "90f7be096ee4",
+    "label": "28 RUE DE LA MARNE, Maromme",
+    "lat": 49.484421,
+    "lng": 1.038486,
+    "transactions": [
+      {
+        "date": "2022-04-04",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "02334bb954dd": {
+    "id": "02334bb954dd",
+    "label": "2 RUE PAUL PAINLEVE, Maromme",
+    "lat": 49.483042,
+    "lng": 1.043466,
+    "transactions": [
+      {
+        "date": "2023-06-08",
+        "priceEur": 113000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-04",
+        "priceEur": 126000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 91,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-20",
+        "priceEur": 109250,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "d61b15b50369": {
+    "id": "d61b15b50369",
+    "label": "31 RUE DE L ARTOIS, Maromme",
+    "lat": 49.485313,
+    "lng": 1.03891,
+    "transactions": [
+      {
+        "date": "2022-06-29",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "954261f94fbb": {
+    "id": "954261f94fbb",
+    "label": "17 RUE DE L ABBAYE, Notre-Dame-de-Bondeville",
+    "lat": 49.487105,
+    "lng": 1.04098,
+    "transactions": [
+      {
+        "date": "2022-08-26",
+        "priceEur": 212950,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "f3dd40a81b46": {
+    "id": "f3dd40a81b46",
+    "label": "19 RUE FERDINAND CARTIER, Notre-Dame-de-Bondeville",
+    "lat": 49.486021,
+    "lng": 1.042588,
+    "transactions": [
+      {
+        "date": "2022-10-31",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "95a7f0f9e5eb": {
+    "id": "95a7f0f9e5eb",
+    "label": "31 RUE FERDINAND CARTIER, Notre-Dame-de-Bondeville",
+    "lat": 49.485927,
+    "lng": 1.043008,
+    "transactions": [
+      {
+        "date": "2022-12-02",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "ab1bf3cc241d": {
+    "id": "ab1bf3cc241d",
+    "label": "11 RUE FERDINAND CARTIER, Notre-Dame-de-Bondeville",
+    "lat": 49.486047,
+    "lng": 1.042266,
+    "transactions": [
+      {
+        "date": "2022-11-30",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "e94ef46c5eae": {
+    "id": "e94ef46c5eae",
+    "label": "11 RUE DE L YSER, Maromme",
+    "lat": 49.484477,
+    "lng": 1.039615,
+    "transactions": [
+      {
+        "date": "2023-02-03",
+        "priceEur": 152500,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "26aef67ef24f": {
+    "id": "26aef67ef24f",
+    "label": "27 RUE DUMONT D URVILLE, Maromme",
+    "lat": 49.484785,
+    "lng": 1.04331,
+    "transactions": [
+      {
+        "date": "2023-03-29",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "59d92061a088": {
+    "id": "59d92061a088",
+    "label": "3 RUE FERDINAND CARTIER, Notre-Dame-de-Bondeville",
+    "lat": 49.486072,
+    "lng": 1.042036,
+    "transactions": [
+      {
+        "date": "2023-06-13",
+        "priceEur": 132500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "755550846cf2": {
+    "id": "755550846cf2",
+    "label": "23 RUE DUMONT D URVILLE, Maromme",
+    "lat": 49.485104,
+    "lng": 1.043457,
+    "transactions": [
+      {
+        "date": "2024-03-08",
+        "priceEur": 150100,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "6fc8e6f7eb53": {
+    "id": "6fc8e6f7eb53",
+    "label": "17 RUE DE L ARTOIS, Maromme",
+    "lat": 49.484785,
+    "lng": 1.038216,
+    "transactions": [
+      {
+        "date": "2024-03-18",
+        "priceEur": 119500,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "6897d5ee0a3d": {
+    "id": "6897d5ee0a3d",
+    "label": "26 RUE FERDINAND CARTIER, Maromme",
+    "lat": 49.485487,
+    "lng": 1.043354,
+    "transactions": [
+      {
+        "date": "2024-05-24",
+        "priceEur": 175850,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "09b48c4f015f": {
+    "id": "09b48c4f015f",
+    "label": "65 RUE PAUL PAINLEVE, Maromme",
+    "lat": 49.48526,
+    "lng": 1.041414,
+    "transactions": [
+      {
+        "date": "2024-06-12",
+        "priceEur": 197000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9719ba1c4e8": {
+    "id": "b9719ba1c4e8",
+    "label": "29 RUE DE L ARTOIS, Maromme",
+    "lat": 49.485214,
+    "lng": 1.038772,
+    "transactions": [
+      {
+        "date": "2024-06-07",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "4348d4e107fb": {
+    "id": "4348d4e107fb",
+    "label": "12 RUE DE L ABBAYE, Notre-Dame-de-Bondeville",
+    "lat": 49.487437,
+    "lng": 1.041984,
+    "transactions": [
+      {
+        "date": "2024-07-09",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "72914c69f297": {
+    "id": "72914c69f297",
+    "label": "19 RUE DE L ARTOIS, Maromme",
+    "lat": 49.484857,
+    "lng": 1.038391,
+    "transactions": [
+      {
+        "date": "2024-07-29",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "5471156adfd3": {
+    "id": "5471156adfd3",
+    "label": "4 RUE DE LA MARNE, Maromme",
+    "lat": 49.484167,
+    "lng": 1.040077,
+    "transactions": [
+      {
+        "date": "2024-09-02",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "7cac8cfb13e3": {
+    "id": "7cac8cfb13e3",
+    "label": "3 RUE DE L ARTOIS, Maromme",
+    "lat": 49.484155,
+    "lng": 1.037988,
+    "transactions": [
+      {
+        "date": "2024-11-25",
+        "priceEur": 96150,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

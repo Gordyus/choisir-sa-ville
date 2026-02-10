@@ -1,0 +1,182 @@
+{
+  "bce57bcf9962": {
+    "id": "bce57bcf9962",
+    "label": "54 IMP DU SOLEIL LEVANT, Émanville",
+    "lat": 49.624227,
+    "lng": 0.958833,
+    "transactions": [
+      {
+        "date": "2020-10-01",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "fda1ba9d0d27": {
+    "id": "fda1ba9d0d27",
+    "label": "5059 VILLAGE D EMANVILLE SUD, Émanville",
+    "lat": 49.621148,
+    "lng": 0.959939,
+    "transactions": [
+      {
+        "date": "2020-11-04",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b6677ee7407": {
+    "id": "1b6677ee7407",
+    "label": "24 RTE DE LANGRUME, Émanville",
+    "lat": 49.6222,
+    "lng": 0.956103,
+    "transactions": [
+      {
+        "date": "2020-10-28",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "61ed11df157b": {
+    "id": "61ed11df157b",
+    "label": "117 RUE DE LA CROIX DE BUIS, Émanville",
+    "lat": 49.621559,
+    "lng": 0.961454,
+    "transactions": [
+      {
+        "date": "2021-01-12",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "013a181d3ee8": {
+    "id": "013a181d3ee8",
+    "label": "7021 LE PLAIN CHAMPS, Émanville",
+    "lat": 49.617892,
+    "lng": 0.965811,
+    "transactions": [
+      {
+        "date": "2021-01-20",
+        "priceEur": 254000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb7c6e907d7d": {
+    "id": "bb7c6e907d7d",
+    "label": "5020 VILLAGE D EMANVILLE NORD, Émanville",
+    "lat": 49.62468,
+    "lng": 0.958895,
+    "transactions": [
+      {
+        "date": "2021-04-26",
+        "priceEur": 154100,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "356cd55161e9": {
+    "id": "356cd55161e9",
+    "label": "51 IMP DES FRESNES, Émanville",
+    "lat": 49.621509,
+    "lng": 0.962887,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 216650,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "016213d001aa": {
+    "id": "016213d001aa",
+    "label": "113 IMP DES ROSEAUX, Émanville",
+    "lat": 49.619413,
+    "lng": 0.962805,
+    "transactions": [
+      {
+        "date": "2022-09-02",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "c243ab3f442c": {
+    "id": "c243ab3f442c",
+    "label": "207 RUE DU CAPET, Émanville",
+    "lat": 49.623551,
+    "lng": 0.959969,
+    "transactions": [
+      {
+        "date": "2022-10-11",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "9163dd7da598": {
+    "id": "9163dd7da598",
+    "label": "130 RUE DU CAPET, Émanville",
+    "lat": 49.622868,
+    "lng": 0.960536,
+    "transactions": [
+      {
+        "date": "2023-10-23",
+        "priceEur": 146600,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "494a14abd50a": {
+    "id": "494a14abd50a",
+    "label": "184 RUE DU CAPET, Émanville",
+    "lat": 49.623822,
+    "lng": 0.960727,
+    "transactions": [
+      {
+        "date": "2024-05-03",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "43840d1f42ab": {
+    "id": "43840d1f42ab",
+    "label": "72 IMP DU PRESSOIR, Émanville",
+    "lat": 49.62123,
+    "lng": 0.958557,
+    "transactions": [
+      {
+        "date": "2025-03-20",
+        "priceEur": 230200,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  }
+}

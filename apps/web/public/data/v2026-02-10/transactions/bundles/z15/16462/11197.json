@@ -1,0 +1,113 @@
+{
+  "a14556b18d8b": {
+    "id": "a14556b18d8b",
+    "label": "1357 RTE DE CONIHOUT, Le Mesnil-sous-Jumièges",
+    "lat": 49.3996,
+    "lng": 0.862671,
+    "transactions": [
+      {
+        "date": "2025-03-03",
+        "priceEur": 177750,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-25",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "3cd463b0ee15": {
+    "id": "3cd463b0ee15",
+    "label": "1393 RTE DE CONIHOUT, Le Mesnil-sous-Jumièges",
+    "lat": 49.398863,
+    "lng": 0.863115,
+    "transactions": [
+      {
+        "date": "2020-11-05",
+        "priceEur": 102500,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-05",
+        "priceEur": 102500,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c38062c2eb6": {
+    "id": "9c38062c2eb6",
+    "label": "5020 DIGUE BERVILLE, Le Mesnil-sous-Jumièges",
+    "lat": 49.39719,
+    "lng": 0.85896,
+    "transactions": [
+      {
+        "date": "2021-01-18",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "e39976102f95": {
+    "id": "e39976102f95",
+    "label": "5015 DIGUE BERVILLE, Le Mesnil-sous-Jumièges",
+    "lat": 49.399821,
+    "lng": 0.863515,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 223500,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "81913a3f6944": {
+    "id": "81913a3f6944",
+    "label": "5019 DIGUE BERVILLE, Le Mesnil-sous-Jumièges",
+    "lat": 49.399154,
+    "lng": 0.861767,
+    "transactions": [
+      {
+        "date": "2023-09-06",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-30",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "492a4efde441": {
+    "id": "492a4efde441",
+    "label": "948 LE CONIHOUT, Le Mesnil-sous-Jumièges",
+    "lat": 49.403682,
+    "lng": 0.862929,
+    "transactions": [
+      {
+        "date": "2024-09-25",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 28,
+        "isVefa": false
+      }
+    ]
+  }
+}

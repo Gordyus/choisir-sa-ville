@@ -1,0 +1,92 @@
+{
+  "903c25533bd7": {
+    "id": "903c25533bd7",
+    "label": "24B RUE PRINCIPALE, Vatierville",
+    "lat": 49.793822,
+    "lng": 1.520482,
+    "transactions": [
+      {
+        "date": "2021-08-26",
+        "priceEur": 221000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "c86a4f99c301": {
+    "id": "c86a4f99c301",
+    "label": "5003 BREMONT, Vatierville",
+    "lat": 49.790977,
+    "lng": 1.523502,
+    "transactions": [
+      {
+        "date": "2021-10-19",
+        "priceEur": 141500,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7dce68ef2fb": {
+    "id": "b7dce68ef2fb",
+    "label": "5061 BREMONT, Vatierville",
+    "lat": 49.793056,
+    "lng": 1.522612,
+    "transactions": [
+      {
+        "date": "2022-06-01",
+        "priceEur": 177000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "04bdb6a6e6c5": {
+    "id": "04bdb6a6e6c5",
+    "label": "5057 LE BOUT DU BREMONT, Vatierville",
+    "lat": 49.791545,
+    "lng": 1.523514,
+    "transactions": [
+      {
+        "date": "2023-05-31",
+        "priceEur": 109000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "c967b91fa699": {
+    "id": "c967b91fa699",
+    "label": "71 RUE PRINCIPALE, Vatierville",
+    "lat": 49.789244,
+    "lng": 1.526064,
+    "transactions": [
+      {
+        "date": "2023-08-28",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b32fe225d35": {
+    "id": "7b32fe225d35",
+    "label": "41 RUE PRINCIPALE, Vatierville",
+    "lat": 49.7924,
+    "lng": 1.523141,
+    "transactions": [
+      {
+        "date": "2025-01-30",
+        "priceEur": 34000,
+        "typeLocal": "Maison",
+        "surfaceM2": 13,
+        "isVefa": false
+      }
+    ]
+  }
+}

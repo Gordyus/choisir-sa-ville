@@ -1,0 +1,32 @@
+{
+  "8bcc9c180d30": {
+    "id": "8bcc9c180d30",
+    "label": "1757 RTE DES ROCHES, Oissel",
+    "lat": 49.327941,
+    "lng": 1.049166,
+    "transactions": [
+      {
+        "date": "2020-12-22",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "e99b95132383": {
+    "id": "e99b95132383",
+    "label": "2075 RTE DES ROCHES, Oissel",
+    "lat": 49.328768,
+    "lng": 1.053313,
+    "transactions": [
+      {
+        "date": "2023-11-03",
+        "priceEur": 81700,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "b620d883c9cc": {
+    "id": "b620d883c9cc",
+    "label": "5052 LA QUEUE DU HELLET, Baillolet",
+    "lat": 49.786093,
+    "lng": 1.415636,
+    "transactions": [
+      {
+        "date": "2020-09-04",
+        "priceEur": 94170,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "312d76e00a22": {
+    "id": "312d76e00a22",
+    "label": "12 LA QUEUE DU HELLET, Baillolet",
+    "lat": 49.785685,
+    "lng": 1.415489,
+    "transactions": [
+      {
+        "date": "2021-07-26",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

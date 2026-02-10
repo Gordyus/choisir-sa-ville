@@ -1,0 +1,47 @@
+{
+  "2cb081a98b8e": {
+    "id": "2cb081a98b8e",
+    "label": "5071 HAMEAU DU BOSC NET, Sierville",
+    "lat": 49.58526,
+    "lng": 1.016236,
+    "transactions": [
+      {
+        "date": "2021-02-09",
+        "priceEur": 218000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "e26373e00299": {
+    "id": "e26373e00299",
+    "label": "790 RTE DU BOSC NET, Sierville",
+    "lat": 49.586312,
+    "lng": 1.016017,
+    "transactions": [
+      {
+        "date": "2024-01-23",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "f70ddadcb9c7": {
+    "id": "f70ddadcb9c7",
+    "label": "26 IMP DU BOSC NET, Sierville",
+    "lat": 49.586004,
+    "lng": 1.016029,
+    "transactions": [
+      {
+        "date": "2024-11-05",
+        "priceEur": 403950,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  }
+}

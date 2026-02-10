@@ -1,0 +1,39 @@
+{
+  "0fdef20898a3": {
+    "id": "0fdef20898a3",
+    "label": "1952 RUE AUDIERE, Malaunay",
+    "lat": 49.522406,
+    "lng": 1.053681,
+    "transactions": [
+      {
+        "date": "2022-10-14",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-16",
+        "priceEur": 337150,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "138705135460": {
+    "id": "138705135460",
+    "label": "2590 RUE AUDIERE, Malaunay",
+    "lat": 49.523934,
+    "lng": 1.046517,
+    "transactions": [
+      {
+        "date": "2024-01-10",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

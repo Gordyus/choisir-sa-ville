@@ -1,0 +1,32 @@
+{
+  "5d02f39f6663": {
+    "id": "5d02f39f6663",
+    "label": "1241 RTE DE BAVINCHOVE, Zuytpeene",
+    "lat": 50.791373,
+    "lng": 2.448047,
+    "transactions": [
+      {
+        "date": "2020-08-06",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "ab32f9139044": {
+    "id": "ab32f9139044",
+    "label": "1235 RTE DE BAVINCHOVE, Zuytpeene",
+    "lat": 50.791524,
+    "lng": 2.447659,
+    "transactions": [
+      {
+        "date": "2021-12-13",
+        "priceEur": 77000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  }
+}

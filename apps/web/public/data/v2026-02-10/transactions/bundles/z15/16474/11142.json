@@ -1,0 +1,152 @@
+{
+  "804798ec45c6": {
+    "id": "804798ec45c6",
+    "label": "90 RTE DE DIEPPE, Bacqueville-en-Caux",
+    "lat": 49.790104,
+    "lng": 0.998087,
+    "transactions": [
+      {
+        "date": "2020-08-01",
+        "priceEur": 172550,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "ef639aa42bc3": {
+    "id": "ef639aa42bc3",
+    "label": "8 RUE DE L'HIPPODROME, Bacqueville-en-Caux",
+    "lat": 49.789151,
+    "lng": 0.99942,
+    "transactions": [
+      {
+        "date": "2021-12-10",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "a31d71717ca2": {
+    "id": "a31d71717ca2",
+    "label": "20B RTE D'ABLEMONT, Bacqueville-en-Caux",
+    "lat": 49.789808,
+    "lng": 0.995716,
+    "transactions": [
+      {
+        "date": "2021-01-13",
+        "priceEur": 219700,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "53ac4aa035df": {
+    "id": "53ac4aa035df",
+    "label": "8 RES LA CROIX MANGEA LA, Bacqueville-en-Caux",
+    "lat": 49.791162,
+    "lng": 0.996475,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 199900,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "7fe46a40280d": {
+    "id": "7fe46a40280d",
+    "label": "26 RTE DE DIEPPE, Bacqueville-en-Caux",
+    "lat": 49.790632,
+    "lng": 0.999371,
+    "transactions": [
+      {
+        "date": "2022-08-09",
+        "priceEur": 53000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac2a4b859f5b": {
+    "id": "ac2a4b859f5b",
+    "label": "2 RUE DE L'HIPPODROME, Bacqueville-en-Caux",
+    "lat": 49.789821,
+    "lng": 0.998694,
+    "transactions": [
+      {
+        "date": "2023-02-16",
+        "priceEur": 262400,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d2475daa293": {
+    "id": "5d2475daa293",
+    "label": "6 RES LA CROIX MANGEA LA, Bacqueville-en-Caux",
+    "lat": 49.791288,
+    "lng": 0.996901,
+    "transactions": [
+      {
+        "date": "2023-04-05",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "183c88388c88": {
+    "id": "183c88388c88",
+    "label": "19 RTE DE DIEPPE, Bacqueville-en-Caux",
+    "lat": 49.791943,
+    "lng": 0.999323,
+    "transactions": [
+      {
+        "date": "2024-07-19",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a1347617513": {
+    "id": "4a1347617513",
+    "label": "26 RES LA CROIX MANGEA LA, Bacqueville-en-Caux",
+    "lat": 49.790369,
+    "lng": 0.997278,
+    "transactions": [
+      {
+        "date": "2024-10-08",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e9c14a7d320": {
+    "id": "3e9c14a7d320",
+    "label": "9T RTE DE DIEPPE, Bacqueville-en-Caux",
+    "lat": 49.790082,
+    "lng": 0.998309,
+    "transactions": [
+      {
+        "date": "2024-12-16",
+        "priceEur": 204000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

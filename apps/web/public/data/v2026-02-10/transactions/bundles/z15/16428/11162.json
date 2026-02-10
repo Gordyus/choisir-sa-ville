@@ -1,0 +1,121 @@
+{
+  "9ecc6e2fd93c": {
+    "id": "9ecc6e2fd93c",
+    "label": "5119 FERME CHICOT, Rouville",
+    "lat": 49.651093,
+    "lng": 0.487793,
+    "transactions": [
+      {
+        "date": "2022-11-21",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-02",
+        "priceEur": 5000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "5aa0f3733bed": {
+    "id": "5aa0f3733bed",
+    "label": "5015 FERME CHICOT, Rouville",
+    "lat": 49.650998,
+    "lng": 0.487013,
+    "transactions": [
+      {
+        "date": "2021-08-02",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "a68f2a54e91e": {
+    "id": "a68f2a54e91e",
+    "label": "3723 RTE DE BIELLEVILLE, Rouville",
+    "lat": 49.649384,
+    "lng": 0.485143,
+    "transactions": [
+      {
+        "date": "2022-09-09",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "d7623bec711a": {
+    "id": "d7623bec711a",
+    "label": "1929 RTE DE LA CHAPELLE, Rouville",
+    "lat": 49.650844,
+    "lng": 0.485261,
+    "transactions": [
+      {
+        "date": "2023-01-26",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa010ce938dc": {
+    "id": "aa010ce938dc",
+    "label": "1597 RTE DE YEBLERON, Saint-Maclou-la-Brière",
+    "lat": 49.652097,
+    "lng": 0.485029,
+    "transactions": [
+      {
+        "date": "2024-09-12",
+        "priceEur": 316000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "668c431a1ffc": {
+    "id": "668c431a1ffc",
+    "label": "3624 RTE DE BIELLEVILLE, Rouville",
+    "lat": 49.648762,
+    "lng": 0.486578,
+    "transactions": [
+      {
+        "date": "2025-04-09",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "be3772cbfe24": {
+    "id": "be3772cbfe24",
+    "label": "158 CHE DU BOSQUET, Rouville",
+    "lat": 49.64906,
+    "lng": 0.484526,
+    "transactions": [
+      {
+        "date": "2025-06-17",
+        "priceEur": 288000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2025-06-17",
+        "priceEur": 288000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "78dc9b51600b": {
+    "id": "78dc9b51600b",
+    "label": "11 RUE DU CHARRON, Sainte-Hélène-Bondeville",
+    "lat": 49.77494,
+    "lng": 0.480524,
+    "transactions": [
+      {
+        "date": "2021-11-08",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "1bcb9d5a49fd": {
+    "id": "1bcb9d5a49fd",
+    "label": "3 RUE DU CHARRON, Sainte-Hélène-Bondeville",
+    "lat": 49.774289,
+    "lng": 0.475589,
+    "transactions": [
+      {
+        "date": "2022-04-06",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5a5630b036e": {
+    "id": "d5a5630b036e",
+    "label": "1 RUE LA CAMPAGNE, Sainte-Hélène-Bondeville",
+    "lat": 49.775733,
+    "lng": 0.472932,
+    "transactions": [
+      {
+        "date": "2024-02-13",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

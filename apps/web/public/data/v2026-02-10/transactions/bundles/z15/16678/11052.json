@@ -1,0 +1,92 @@
+{
+  "950da5a31279": {
+    "id": "950da5a31279",
+    "label": "279 RUE DU GRAND HEM, Bouvignies",
+    "lat": 50.429082,
+    "lng": 3.237302,
+    "transactions": [
+      {
+        "date": "2020-11-04",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "f3620ae4e6d4": {
+    "id": "f3620ae4e6d4",
+    "label": "247 RUE DU GRAND HEM, Bouvignies",
+    "lat": 50.429302,
+    "lng": 3.237442,
+    "transactions": [
+      {
+        "date": "2020-10-21",
+        "priceEur": 296500,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      }
+    ]
+  },
+  "77e70b2c7285": {
+    "id": "77e70b2c7285",
+    "label": "301 RUE COPERCE, Bouvignies",
+    "lat": 50.425787,
+    "lng": 3.240515,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "515a7bbcd843": {
+    "id": "515a7bbcd843",
+    "label": "889 RUE DU GRAND HEM, Bouvignies",
+    "lat": 50.424574,
+    "lng": 3.232521,
+    "transactions": [
+      {
+        "date": "2023-03-13",
+        "priceEur": 721000,
+        "typeLocal": "Maison",
+        "surfaceM2": 199,
+        "isVefa": false
+      }
+    ]
+  },
+  "6c9598cdbf84": {
+    "id": "6c9598cdbf84",
+    "label": "329 RUE DU GRAND HEM, Bouvignies",
+    "lat": 50.428845,
+    "lng": 3.236799,
+    "transactions": [
+      {
+        "date": "2024-12-26",
+        "priceEur": 316500,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "d855ce319818": {
+    "id": "d855ce319818",
+    "label": "313 RUE DU GRAND HEM, Bouvignies",
+    "lat": 50.428935,
+    "lng": 3.237057,
+    "transactions": [
+      {
+        "date": "2025-03-28",
+        "priceEur": 291000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  }
+}

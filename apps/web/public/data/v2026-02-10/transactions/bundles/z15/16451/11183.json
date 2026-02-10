@@ -1,0 +1,77 @@
+{
+  "0fcb93305b4f": {
+    "id": "0fcb93305b4f",
+    "label": "1692 RUE DU PETIT PONT, Notre-Dame-de-Bliquetuit",
+    "lat": 49.50355,
+    "lng": 0.745597,
+    "transactions": [
+      {
+        "date": "2020-10-14",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b996cacfb09": {
+    "id": "0b996cacfb09",
+    "label": "137 RUE DES TROIS CORNETS, Notre-Dame-de-Bliquetuit",
+    "lat": 49.503654,
+    "lng": 0.746321,
+    "transactions": [
+      {
+        "date": "2021-07-23",
+        "priceEur": 155200,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "d4f9394dd58b": {
+    "id": "d4f9394dd58b",
+    "label": "139 RUE D ECTOT, Notre-Dame-de-Bliquetuit",
+    "lat": 49.503705,
+    "lng": 0.741245,
+    "transactions": [
+      {
+        "date": "2021-12-29",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ff2e7e190bc": {
+    "id": "4ff2e7e190bc",
+    "label": "329 RUE D ECTOT, Notre-Dame-de-Bliquetuit",
+    "lat": 49.502604,
+    "lng": 0.739009,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "77c1e54fdf31": {
+    "id": "77c1e54fdf31",
+    "label": "299 RUE D ECTOT, Notre-Dame-de-Bliquetuit",
+    "lat": 49.502832,
+    "lng": 0.739252,
+    "transactions": [
+      {
+        "date": "2023-02-16",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  }
+}

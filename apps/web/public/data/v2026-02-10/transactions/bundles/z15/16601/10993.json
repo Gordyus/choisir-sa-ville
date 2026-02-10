@@ -1,0 +1,32 @@
+{
+  "1becb98d3066": {
+    "id": "1becb98d3066",
+    "label": "29 VC DUYVELINNE MEULEN, Arnèke",
+    "lat": 50.837488,
+    "lng": 2.39298,
+    "transactions": [
+      {
+        "date": "2020-10-12",
+        "priceEur": 237700,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1684f8ea405": {
+    "id": "a1684f8ea405",
+    "label": "2308 RTE D ARNEKE, Rubrouck",
+    "lat": 50.839507,
+    "lng": 2.385586,
+    "transactions": [
+      {
+        "date": "2022-02-14",
+        "priceEur": 291450,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  }
+}

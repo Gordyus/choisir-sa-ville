@@ -1,0 +1,62 @@
+{
+  "20055811f4a0": {
+    "id": "20055811f4a0",
+    "label": "5038 AUZOUVILLE, Auzouville-sur-Ry",
+    "lat": 49.44344,
+    "lng": 1.321343,
+    "transactions": [
+      {
+        "date": "2022-11-26",
+        "priceEur": 125900,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "0f3e50abad85": {
+    "id": "0f3e50abad85",
+    "label": "5037 AUZOUVILLE, Auzouville-sur-Ry",
+    "lat": 49.443243,
+    "lng": 1.32129,
+    "transactions": [
+      {
+        "date": "2023-02-20",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "cfb9fb3ed600": {
+    "id": "cfb9fb3ed600",
+    "label": "196 RUE DE LA DISTILLERIE, Auzouville-sur-Ry",
+    "lat": 49.443686,
+    "lng": 1.321273,
+    "transactions": [
+      {
+        "date": "2024-08-26",
+        "priceEur": 271000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "50b62b17c0c4": {
+    "id": "50b62b17c0c4",
+    "label": "177 RUE DES LESQUES, Auzouville-sur-Ry",
+    "lat": 49.443109,
+    "lng": 1.32085,
+    "transactions": [
+      {
+        "date": "2025-03-29",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  }
+}

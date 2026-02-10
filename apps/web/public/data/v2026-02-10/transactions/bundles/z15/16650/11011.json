@@ -1,0 +1,360 @@
+{
+  "5567d60d233b": {
+    "id": "5567d60d233b",
+    "label": "3 RUE DE L HOTEL DE VILLE, Frelinghien",
+    "lat": 50.711442,
+    "lng": 2.931727,
+    "transactions": [
+      {
+        "date": "2023-03-03",
+        "priceEur": 275600,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-16",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c7a3cdc3683": {
+    "id": "5c7a3cdc3683",
+    "label": "4 ALL DES CERISIERS, Frelinghien",
+    "lat": 50.710861,
+    "lng": 2.931186,
+    "transactions": [
+      {
+        "date": "2022-10-06",
+        "priceEur": 270000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-02",
+        "priceEur": 229850,
+        "typeLocal": "Appartement",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-22",
+        "priceEur": 147500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "850674245e83": {
+    "id": "850674245e83",
+    "label": "36 PL DES COMBATTANTS, Frelinghien",
+    "lat": 50.712894,
+    "lng": 2.931926,
+    "transactions": [
+      {
+        "date": "2020-12-08",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d317394dcaf": {
+    "id": "5d317394dcaf",
+    "label": "98 RUE D ARMENTIERES, Frelinghien",
+    "lat": 50.709213,
+    "lng": 2.931588,
+    "transactions": [
+      {
+        "date": "2021-01-07",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "25b16489ab85": {
+    "id": "25b16489ab85",
+    "label": "2 ALL DES CERISIERS, Frelinghien",
+    "lat": 50.710861,
+    "lng": 2.931186,
+    "transactions": [
+      {
+        "date": "2022-09-15",
+        "priceEur": 145900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-09",
+        "priceEur": 126500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "367a1a790b64": {
+    "id": "367a1a790b64",
+    "label": "4 RUE DU PONT, Frelinghien",
+    "lat": 50.712871,
+    "lng": 2.931688,
+    "transactions": [
+      {
+        "date": "2021-03-25",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "66197aea5865": {
+    "id": "66197aea5865",
+    "label": "11 ALL DES CERISIERS, Frelinghien",
+    "lat": 50.710299,
+    "lng": 2.931469,
+    "transactions": [
+      {
+        "date": "2021-04-02",
+        "priceEur": 384100,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "546d10665b0e": {
+    "id": "546d10665b0e",
+    "label": "10 RUE DE COUVRE TOITS, Frelinghien",
+    "lat": 50.709635,
+    "lng": 2.932839,
+    "transactions": [
+      {
+        "date": "2021-07-19",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "75cf25a982a7": {
+    "id": "75cf25a982a7",
+    "label": "60 RUE D ARMENTIERES, Frelinghien",
+    "lat": 50.710135,
+    "lng": 2.93251,
+    "transactions": [
+      {
+        "date": "2021-07-09",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee70a7a6d4ed": {
+    "id": "ee70a7a6d4ed",
+    "label": "3 ALL DES CERISIERS, Frelinghien",
+    "lat": 50.710696,
+    "lng": 2.931783,
+    "transactions": [
+      {
+        "date": "2021-09-02",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "325d0d7ba90e": {
+    "id": "325d0d7ba90e",
+    "label": "3 RUE DE COUVRE TOITS, Frelinghien",
+    "lat": 50.70999,
+    "lng": 2.932728,
+    "transactions": [
+      {
+        "date": "2022-01-14",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "a63c7b5c89ff": {
+    "id": "a63c7b5c89ff",
+    "label": "34 PL DES COMBATTANTS, Frelinghien",
+    "lat": 50.712851,
+    "lng": 2.931894,
+    "transactions": [
+      {
+        "date": "2022-01-25",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f470baec61b": {
+    "id": "2f470baec61b",
+    "label": "4 RUE AU VENT, Frelinghien",
+    "lat": 50.712717,
+    "lng": 2.932759,
+    "transactions": [
+      {
+        "date": "2022-03-23",
+        "priceEur": 359500,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "0fc395f015af": {
+    "id": "0fc395f015af",
+    "label": "68 RUE D ARMENTIERES, Frelinghien",
+    "lat": 50.70991,
+    "lng": 2.932227,
+    "transactions": [
+      {
+        "date": "2023-01-10",
+        "priceEur": 243800,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "a7a8e42f823b": {
+    "id": "a7a8e42f823b",
+    "label": "9 RUE DE COUVRE TOITS, Frelinghien",
+    "lat": 50.709905,
+    "lng": 2.932948,
+    "transactions": [
+      {
+        "date": "2023-01-04",
+        "priceEur": 246100,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2a3c97875b6": {
+    "id": "c2a3c97875b6",
+    "label": "1 RUE DU PONT, Frelinghien",
+    "lat": 50.712566,
+    "lng": 2.931439,
+    "transactions": [
+      {
+        "date": "2023-04-18",
+        "priceEur": 305100,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "4218b57ac35d": {
+    "id": "4218b57ac35d",
+    "label": "10 RUE D ARMENTIERES, Frelinghien",
+    "lat": 50.711662,
+    "lng": 2.932782,
+    "transactions": [
+      {
+        "date": "2023-04-19",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "66c523bb2163": {
+    "id": "66c523bb2163",
+    "label": "12 RUE DU PONT, Frelinghien",
+    "lat": 50.712912,
+    "lng": 2.931432,
+    "transactions": [
+      {
+        "date": "2024-02-23",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3bea31b95a9": {
+    "id": "a3bea31b95a9",
+    "label": "66 RUE D ARMENTIERES, Frelinghien",
+    "lat": 50.71003,
+    "lng": 2.932294,
+    "transactions": [
+      {
+        "date": "2024-03-26",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5b6dac15fcd": {
+    "id": "a5b6dac15fcd",
+    "label": "6 RUE D ARMENTIERES, Frelinghien",
+    "lat": 50.71175,
+    "lng": 2.932729,
+    "transactions": [
+      {
+        "date": "2024-06-12",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "080707042498": {
+    "id": "080707042498",
+    "label": "9 RUE DU PONT, Frelinghien",
+    "lat": 50.712259,
+    "lng": 2.930994,
+    "transactions": [
+      {
+        "date": "2024-06-27",
+        "priceEur": 530000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6f165e56f5b": {
+    "id": "c6f165e56f5b",
+    "label": "36 RUE D ARMENTIERES, Frelinghien",
+    "lat": 50.710669,
+    "lng": 2.93296,
+    "transactions": [
+      {
+        "date": "2025-02-20",
+        "priceEur": 317000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  }
+}

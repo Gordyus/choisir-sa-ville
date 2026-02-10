@@ -1,0 +1,39 @@
+{
+  "88560d7a43c9": {
+    "id": "88560d7a43c9",
+    "label": "1401 CD WARMOESTRAETE, Hondschoote",
+    "lat": 50.977265,
+    "lng": 2.60655,
+    "transactions": [
+      {
+        "date": "2020-11-20",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "c45bc9ec1727": {
+    "id": "c45bc9ec1727",
+    "label": "1703 CD WARMOESTRAETE, Hondschoote",
+    "lat": 50.978075,
+    "lng": 2.608521,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 1368000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-27",
+        "priceEur": 1368000,
+        "typeLocal": "Maison",
+        "surfaceM2": 185,
+        "isVefa": false
+      }
+    ]
+  }
+}

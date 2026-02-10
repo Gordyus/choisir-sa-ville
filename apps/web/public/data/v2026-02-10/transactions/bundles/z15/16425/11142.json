@@ -1,0 +1,92 @@
+{
+  "f97c59cfb3fe": {
+    "id": "f97c59cfb3fe",
+    "label": "110 RUE DE SAINT PIERRE, Életot",
+    "lat": 49.788402,
+    "lng": 0.455163,
+    "transactions": [
+      {
+        "date": "2020-09-03",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "1983f0e627af": {
+    "id": "1983f0e627af",
+    "label": "45 RUE DE LA PRAIRIE, Életot",
+    "lat": 49.788418,
+    "lng": 0.455905,
+    "transactions": [
+      {
+        "date": "2022-05-17",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "b053e8bb1289": {
+    "id": "b053e8bb1289",
+    "label": "414 RUE DES WAGANDS, Életot",
+    "lat": 49.790629,
+    "lng": 0.458118,
+    "transactions": [
+      {
+        "date": "2022-09-15",
+        "priceEur": 116000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee1d3a55d2fa": {
+    "id": "ee1d3a55d2fa",
+    "label": "130 RUE DE SAINT PIERRE, Életot",
+    "lat": 49.788497,
+    "lng": 0.455349,
+    "transactions": [
+      {
+        "date": "2022-12-29",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "268d2d4c040e": {
+    "id": "268d2d4c040e",
+    "label": "10 RUE DE LA PRAIRIE, Életot",
+    "lat": 49.788584,
+    "lng": 0.455614,
+    "transactions": [
+      {
+        "date": "2023-08-30",
+        "priceEur": 153000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "a6c88c3336cb": {
+    "id": "a6c88c3336cb",
+    "label": "57 RUE DE LA VIERGE, Életot",
+    "lat": 49.789649,
+    "lng": 0.4565,
+    "transactions": [
+      {
+        "date": "2024-09-18",
+        "priceEur": 88000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

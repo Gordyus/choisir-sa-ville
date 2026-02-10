@@ -1,0 +1,92 @@
+{
+  "8dcfd5f4eb59": {
+    "id": "8dcfd5f4eb59",
+    "label": "44 RTE DU CHATEAU, Cuverville",
+    "lat": 49.663903,
+    "lng": 0.262995,
+    "transactions": [
+      {
+        "date": "2021-03-03",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5e2c5fb8652": {
+    "id": "b5e2c5fb8652",
+    "label": "1 PL GEORGES RONDEAUX, Cuverville",
+    "lat": 49.664067,
+    "lng": 0.262265,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 181600,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "606128bbb1a5": {
+    "id": "606128bbb1a5",
+    "label": "5118 LE DOGUET, Cuverville",
+    "lat": 49.666192,
+    "lng": 0.254449,
+    "transactions": [
+      {
+        "date": "2022-01-28",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "64fbc8565caf": {
+    "id": "64fbc8565caf",
+    "label": "17 RUE ANDRE GIDE, Cuverville",
+    "lat": 49.664963,
+    "lng": 0.262559,
+    "transactions": [
+      {
+        "date": "2023-08-29",
+        "priceEur": 195600,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6f94dbbb107": {
+    "id": "b6f94dbbb107",
+    "label": "3 RTE DU CHATEAU, Cuverville",
+    "lat": 49.66459,
+    "lng": 0.262447,
+    "transactions": [
+      {
+        "date": "2023-10-03",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "025e08debd69": {
+    "id": "025e08debd69",
+    "label": "96 RUE DE LA LIVRE DE BEURRE, Cuverville",
+    "lat": 49.665255,
+    "lng": 0.262664,
+    "transactions": [
+      {
+        "date": "2024-10-08",
+        "priceEur": 140500,
+        "typeLocal": "Maison",
+        "surfaceM2": 39,
+        "isVefa": false
+      }
+    ]
+  }
+}

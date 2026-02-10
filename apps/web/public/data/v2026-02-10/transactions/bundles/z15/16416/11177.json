@@ -1,0 +1,32 @@
+{
+  "800757071671": {
+    "id": "800757071671",
+    "label": "5001 REBOMARD, Gommerville",
+    "lat": 49.545356,
+    "lng": 0.351832,
+    "transactions": [
+      {
+        "date": "2022-03-08",
+        "priceEur": 411000,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f74f6d2370c": {
+    "id": "4f74f6d2370c",
+    "label": "6195 FERME DU HOMARD, Saint-Romain-de-Colbosc",
+    "lat": 49.541012,
+    "lng": 0.352433,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 387800,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  }
+}

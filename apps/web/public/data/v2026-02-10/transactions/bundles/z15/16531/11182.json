@@ -1,0 +1,32 @@
+{
+  "62400d44e7d9": {
+    "id": "62400d44e7d9",
+    "label": "33 CHE DU HAUT DURAND, Brémontier-Merval",
+    "lat": 49.507565,
+    "lng": 1.62028,
+    "transactions": [
+      {
+        "date": "2021-04-27",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "fff3b28660a5": {
+    "id": "fff3b28660a5",
+    "label": "30 CHE DU HAUT DURAND, Brémontier-Merval",
+    "lat": 49.508797,
+    "lng": 1.62078,
+    "transactions": [
+      {
+        "date": "2025-03-11",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  }
+}

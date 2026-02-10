@@ -1,0 +1,31 @@
+{
+  "f18b3ec05d0e": {
+    "id": "f18b3ec05d0e",
+    "label": "12 RUE DU CHATEAU - AUBERVILLE, Port-Jérôme-sur-Seine",
+    "lat": 49.535734,
+    "lng": 0.581234,
+    "transactions": [
+      {
+        "date": "2024-09-11",
+        "priceEur": 242000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-19",
+        "priceEur": 107410.8,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-16",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  }
+}

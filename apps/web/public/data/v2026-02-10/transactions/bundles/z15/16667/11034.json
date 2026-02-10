@@ -1,0 +1,47 @@
+{
+  "1a5a4a6f09b9": {
+    "id": "1a5a4a6f09b9",
+    "label": "9 RUE DU MARESQUEL, Ennevelin",
+    "lat": 50.548589,
+    "lng": 3.111456,
+    "transactions": [
+      {
+        "date": "2020-08-20",
+        "priceEur": 1020000,
+        "typeLocal": "Maison",
+        "surfaceM2": 230,
+        "isVefa": false
+      }
+    ]
+  },
+  "a6a13a9f0f4a": {
+    "id": "a6a13a9f0f4a",
+    "label": "11 RUE DU MARESQUEL, Ennevelin",
+    "lat": 50.548942,
+    "lng": 3.114835,
+    "transactions": [
+      {
+        "date": "2020-10-29",
+        "priceEur": 405700,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "0aa2199ebbfa": {
+    "id": "0aa2199ebbfa",
+    "label": "19 RUE DU MARESQUEL, Ennevelin",
+    "lat": 50.549154,
+    "lng": 3.115967,
+    "transactions": [
+      {
+        "date": "2024-11-05",
+        "priceEur": 305600,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  }
+}

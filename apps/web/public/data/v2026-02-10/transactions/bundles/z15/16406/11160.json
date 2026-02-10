@@ -1,0 +1,107 @@
+{
+  "f850f373c7a0": {
+    "id": "f850f373c7a0",
+    "label": "1 RUE CLOVIS, Villainville",
+    "lat": 49.660697,
+    "lng": 0.244677,
+    "transactions": [
+      {
+        "date": "2020-12-23",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 172,
+        "isVefa": false
+      }
+    ]
+  },
+  "ba8466c9b42c": {
+    "id": "ba8466c9b42c",
+    "label": "5057 RUE DE LA FERME DE VILLAINVILL, Villainville",
+    "lat": 49.661278,
+    "lng": 0.242649,
+    "transactions": [
+      {
+        "date": "2022-03-31",
+        "priceEur": 203000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "abc5167ee876": {
+    "id": "abc5167ee876",
+    "label": "875 RTE DU MOULIN, Cuverville",
+    "lat": 49.662252,
+    "lng": 0.251902,
+    "transactions": [
+      {
+        "date": "2022-04-06",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "37fb07078fdc": {
+    "id": "37fb07078fdc",
+    "label": "5034 RUE DE LA FERME DE VILLAINVILL, Villainville",
+    "lat": 49.661471,
+    "lng": 0.242199,
+    "transactions": [
+      {
+        "date": "2022-11-14",
+        "priceEur": 246073.02,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "c47425bd8290": {
+    "id": "c47425bd8290",
+    "label": "2 SEN LA SENTE A FONTAINE, Villainville",
+    "lat": 49.660695,
+    "lng": 0.241795,
+    "transactions": [
+      {
+        "date": "2024-06-05",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "187a36189a94": {
+    "id": "187a36189a94",
+    "label": "3 RUE DE LA FORGE, Villainville",
+    "lat": 49.660622,
+    "lng": 0.243948,
+    "transactions": [
+      {
+        "date": "2024-06-10",
+        "priceEur": 313750,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  },
+  "45b12726a9b1": {
+    "id": "45b12726a9b1",
+    "label": "668 RUE DE LA FERME DE VILLAINVILL, Villainville",
+    "lat": 49.666567,
+    "lng": 0.241797,
+    "transactions": [
+      {
+        "date": "2024-11-13",
+        "priceEur": 319000,
+        "typeLocal": "Maison",
+        "surfaceM2": 243,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "05c1a9831367": {
+    "id": "05c1a9831367",
+    "label": "11 RUE DE LA CHANTEREINE, Ennevelin",
+    "lat": 50.54025,
+    "lng": 3.149516,
+    "transactions": [
+      {
+        "date": "2025-04-28",
+        "priceEur": 1247600,
+        "typeLocal": "Maison",
+        "surfaceM2": 318,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-07",
+        "priceEur": 244000,
+        "typeLocal": "Maison",
+        "surfaceM2": 318,
+        "isVefa": false
+      }
+    ]
+  }
+}

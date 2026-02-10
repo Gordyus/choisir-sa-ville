@@ -1,0 +1,47 @@
+{
+  "18c8fb2871f3": {
+    "id": "18c8fb2871f3",
+    "label": "82 IMP SAINT LEU, Les Hauts-de-Caux",
+    "lat": 49.651771,
+    "lng": 0.749686,
+    "transactions": [
+      {
+        "date": "2020-07-11",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "732d631e465b": {
+    "id": "732d631e465b",
+    "label": "187 RUE DE LA CHAPELLE ST GILLES, Les Hauts-de-Caux",
+    "lat": 49.651894,
+    "lng": 0.757693,
+    "transactions": [
+      {
+        "date": "2021-05-17",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "b359a9e77b73": {
+    "id": "b359a9e77b73",
+    "label": "770 RUE DE LA CHAPELLE ST GILLES, Les Hauts-de-Caux",
+    "lat": 49.652749,
+    "lng": 0.75012,
+    "transactions": [
+      {
+        "date": "2021-08-16",
+        "priceEur": 243000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

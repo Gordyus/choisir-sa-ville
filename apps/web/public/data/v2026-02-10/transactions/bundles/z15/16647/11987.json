@@ -1,0 +1,84 @@
+{
+  "ede4255b4dbe": {
+    "id": "ede4255b4dbe",
+    "label": "5049 DONNADIEU, Babeau-Bouldoux",
+    "lat": 43.424823,
+    "lng": 2.890112,
+    "transactions": [
+      {
+        "date": "2023-02-07",
+        "priceEur": 176000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-20",
+        "priceEur": 131200,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "7dbac7914eac": {
+    "id": "7dbac7914eac",
+    "label": "5037 DONNADIEU, Babeau-Bouldoux",
+    "lat": 43.42458,
+    "lng": 2.890482,
+    "transactions": [
+      {
+        "date": "2022-05-11",
+        "priceEur": 22500,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "a7a6d14d1b6f": {
+    "id": "a7a6d14d1b6f",
+    "label": "5114 DONNADIEU, Babeau-Bouldoux",
+    "lat": 43.424737,
+    "lng": 2.890349,
+    "transactions": [
+      {
+        "date": "2023-10-27",
+        "priceEur": 20000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "52e1547cb333": {
+    "id": "52e1547cb333",
+    "label": "5356F DONNADIEU, Babeau-Bouldoux",
+    "lat": 43.425028,
+    "lng": 2.891237,
+    "transactions": [
+      {
+        "date": "2023-12-18",
+        "priceEur": 620000,
+        "typeLocal": "Maison",
+        "surfaceM2": 167,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a2b13f62d53": {
+    "id": "5a2b13f62d53",
+    "label": "5046 DONNADIEU, Babeau-Bouldoux",
+    "lat": 43.424674,
+    "lng": 2.890264,
+    "transactions": [
+      {
+        "date": "2024-03-07",
+        "priceEur": 3000,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  }
+}

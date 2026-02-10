@@ -1,0 +1,92 @@
+{
+  "fc8b5934a24d": {
+    "id": "fc8b5934a24d",
+    "label": "8 RTE D AUZEVILLE, Ocqueville",
+    "lat": 49.797263,
+    "lng": 0.67528,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 209000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e0bdba78801": {
+    "id": "9e0bdba78801",
+    "label": "32 RUE DES ESTAMINETS, Ocqueville",
+    "lat": 49.796805,
+    "lng": 0.675308,
+    "transactions": [
+      {
+        "date": "2022-11-17",
+        "priceEur": 298000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6732fe25be9": {
+    "id": "f6732fe25be9",
+    "label": "7 RTE D AUZEVILLE, Ocqueville",
+    "lat": 49.796911,
+    "lng": 0.675765,
+    "transactions": [
+      {
+        "date": "2024-05-28",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "aaffba8297d7": {
+    "id": "aaffba8297d7",
+    "label": "6 CHE DES CHAUMIERS, Ocqueville",
+    "lat": 49.800727,
+    "lng": 0.674486,
+    "transactions": [
+      {
+        "date": "2024-07-26",
+        "priceEur": 144000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ec7e77e9dc8": {
+    "id": "4ec7e77e9dc8",
+    "label": "26 RUE DES ESTAMINETS, Ocqueville",
+    "lat": 49.795871,
+    "lng": 0.675643,
+    "transactions": [
+      {
+        "date": "2024-08-05",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "44e2cddbcb97": {
+    "id": "44e2cddbcb97",
+    "label": "3 RTE D AUZEVILLE, Ocqueville",
+    "lat": 49.797155,
+    "lng": 0.676943,
+    "transactions": [
+      {
+        "date": "2024-11-30",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

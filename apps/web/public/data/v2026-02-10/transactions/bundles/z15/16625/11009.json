@@ -1,0 +1,47 @@
+{
+  "0dfd3f2cd65d": {
+    "id": "0dfd3f2cd65d",
+    "label": "99 COPMAN STRAETE, Merris",
+    "lat": 50.727704,
+    "lng": 2.649962,
+    "transactions": [
+      {
+        "date": "2023-03-06",
+        "priceEur": 545400,
+        "typeLocal": "Maison",
+        "surfaceM2": 187,
+        "isVefa": false
+      }
+    ]
+  },
+  "0996ef4230da": {
+    "id": "0996ef4230da",
+    "label": "477 COPMAN STRAETE, Merris",
+    "lat": 50.726546,
+    "lng": 2.652095,
+    "transactions": [
+      {
+        "date": "2023-12-19",
+        "priceEur": 96000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "0bdb0d1f9577": {
+    "id": "0bdb0d1f9577",
+    "label": "237 COPMAN STRAETE, Merris",
+    "lat": 50.727465,
+    "lng": 2.65538,
+    "transactions": [
+      {
+        "date": "2025-04-03",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

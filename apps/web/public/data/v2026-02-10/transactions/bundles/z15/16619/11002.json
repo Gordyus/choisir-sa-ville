@@ -1,0 +1,39 @@
+{
+  "12d8fce93656": {
+    "id": "12d8fce93656",
+    "label": "585 CHE VERT, Eecke",
+    "lat": 50.771849,
+    "lng": 2.588136,
+    "transactions": [
+      {
+        "date": "2023-09-08",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-17",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9ec9c8c98ce": {
+    "id": "a9ec9c8c98ce",
+    "label": "576 CHE VERT, Eecke",
+    "lat": 50.772986,
+    "lng": 2.588189,
+    "transactions": [
+      {
+        "date": "2024-10-11",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  }
+}

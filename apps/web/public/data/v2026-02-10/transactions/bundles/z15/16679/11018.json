@@ -1,0 +1,77 @@
+{
+  "c7c9869db619": {
+    "id": "c7c9869db619",
+    "label": "100 RUE DE NECHIN, Toufflers",
+    "lat": 50.661944,
+    "lng": 3.241094,
+    "transactions": [
+      {
+        "date": "2020-12-08",
+        "priceEur": 229000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff7fde08ae66": {
+    "id": "ff7fde08ae66",
+    "label": "173 RUE DE NECHIN, Toufflers",
+    "lat": 50.662494,
+    "lng": 3.24188,
+    "transactions": [
+      {
+        "date": "2021-09-11",
+        "priceEur": 327470,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "2eb6b253e943": {
+    "id": "2eb6b253e943",
+    "label": "91 CHEM MITOYEN, Toufflers",
+    "lat": 50.661268,
+    "lng": 3.241125,
+    "transactions": [
+      {
+        "date": "2023-02-15",
+        "priceEur": 392000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "317c392b38c7": {
+    "id": "317c392b38c7",
+    "label": "165 RUE DE NECHIN, Toufflers",
+    "lat": 50.662421,
+    "lng": 3.24153,
+    "transactions": [
+      {
+        "date": "2023-07-25",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "0de40d5d85b0": {
+    "id": "0de40d5d85b0",
+    "label": "83 CHEM MITOYEN, Toufflers",
+    "lat": 50.660781,
+    "lng": 3.241068,
+    "transactions": [
+      {
+        "date": "2024-09-11",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

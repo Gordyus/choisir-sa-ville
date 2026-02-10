@@ -1,0 +1,32 @@
+{
+  "0122ae54dcee": {
+    "id": "0122ae54dcee",
+    "label": "135 RTE DE LA RESERVE, Bois-Himont",
+    "lat": 49.585042,
+    "lng": 0.700032,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 365000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "b373ce258fd9": {
+    "id": "b373ce258fd9",
+    "label": "139 RTE DE LA RESERVE, Bois-Himont",
+    "lat": 49.585268,
+    "lng": 0.700011,
+    "transactions": [
+      {
+        "date": "2022-02-08",
+        "priceEur": 180200,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

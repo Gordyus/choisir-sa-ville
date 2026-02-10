@@ -1,0 +1,24 @@
+{
+  "c6d1b150eaba": {
+    "id": "c6d1b150eaba",
+    "label": "24 RUE DES BOIS BLANCS, Radinghem-en-Weppes",
+    "lat": 50.639386,
+    "lng": 2.89765,
+    "transactions": [
+      {
+        "date": "2024-01-26",
+        "priceEur": 860000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-26",
+        "priceEur": 860000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  }
+}

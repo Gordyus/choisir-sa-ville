@@ -1,0 +1,47 @@
+{
+  "4ce561b0f436": {
+    "id": "4ce561b0f436",
+    "label": "11 RUE DES TILLEULS, Romiguières",
+    "lat": 43.817811,
+    "lng": 3.230115,
+    "transactions": [
+      {
+        "date": "2022-10-25",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "42e3295889e7": {
+    "id": "42e3295889e7",
+    "label": "7 RUE DES TILLEULS, Romiguières",
+    "lat": 43.817882,
+    "lng": 3.2302,
+    "transactions": [
+      {
+        "date": "2022-10-18",
+        "priceEur": 108500,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "7289a375c23c": {
+    "id": "7289a375c23c",
+    "label": "2 RUE DE L'ORB, Romiguières",
+    "lat": 43.817885,
+    "lng": 3.23,
+    "transactions": [
+      {
+        "date": "2023-08-30",
+        "priceEur": 151000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

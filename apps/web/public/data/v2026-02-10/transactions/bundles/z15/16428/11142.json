@@ -1,0 +1,77 @@
+{
+  "0e9c67e4d4ae": {
+    "id": "0e9c67e4d4ae",
+    "label": "15 RUE DE LA MER, Écretteville-sur-Mer",
+    "lat": 49.795052,
+    "lng": 0.484644,
+    "transactions": [
+      {
+        "date": "2020-10-15",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "446246b823dc": {
+    "id": "446246b823dc",
+    "label": "31 RUE DU PRIEURE, Écretteville-sur-Mer",
+    "lat": 49.789789,
+    "lng": 0.484441,
+    "transactions": [
+      {
+        "date": "2020-11-06",
+        "priceEur": 308000,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "bdb25107c379": {
+    "id": "bdb25107c379",
+    "label": "1 ALL DES PRES, Écretteville-sur-Mer",
+    "lat": 49.794972,
+    "lng": 0.485578,
+    "transactions": [
+      {
+        "date": "2021-11-05",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "2aca89a0585e": {
+    "id": "2aca89a0585e",
+    "label": "4 RUE DE LA MER, Écretteville-sur-Mer",
+    "lat": 49.795042,
+    "lng": 0.486343,
+    "transactions": [
+      {
+        "date": "2023-01-13",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "c8aa1031a58b": {
+    "id": "c8aa1031a58b",
+    "label": "5 ALL DES HORTENSIAS, Écretteville-sur-Mer",
+    "lat": 49.792293,
+    "lng": 0.48497,
+    "transactions": [
+      {
+        "date": "2024-08-30",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 175,
+        "isVefa": false
+      }
+    ]
+  }
+}

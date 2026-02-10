@@ -1,0 +1,47 @@
+{
+  "c2bdef9e3871": {
+    "id": "c2bdef9e3871",
+    "label": "5120 FERME LEQUERTIER, Saint-Sauveur-d'Émalleville",
+    "lat": 49.604035,
+    "lng": 0.32402,
+    "transactions": [
+      {
+        "date": "2021-05-12",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "40db6c0ee991": {
+    "id": "40db6c0ee991",
+    "label": "1530 RTE DE MANNEVILLE, Saint-Sauveur-d'Émalleville",
+    "lat": 49.603735,
+    "lng": 0.323232,
+    "transactions": [
+      {
+        "date": "2022-07-20",
+        "priceEur": 307500,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "c496ee9a4fd5": {
+    "id": "c496ee9a4fd5",
+    "label": "182 RTE DES ORMES, Manneville-la-Goupil",
+    "lat": 49.605259,
+    "lng": 0.328228,
+    "transactions": [
+      {
+        "date": "2023-07-07",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

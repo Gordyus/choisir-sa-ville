@@ -1,0 +1,38 @@
+{
+  "bb4235e2d62c": {
+    "id": "bb4235e2d62c",
+    "label": "791B RUE DE L EST, Warhem",
+    "lat": 50.979495,
+    "lng": 2.505443,
+    "transactions": [
+      {
+        "date": "2022-05-13",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-13",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-13",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-13",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 39,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "515398e3aa82": {
+    "id": "515398e3aa82",
+    "label": "23 RTE DE DAMPIERRE, Cuy-Saint-Fiacre",
+    "lat": 49.505727,
+    "lng": 1.69941,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 194,
+        "isVefa": false
+      }
+    ]
+  },
+  "f0b1ef959b2a": {
+    "id": "f0b1ef959b2a",
+    "label": "5258 RUE ROGER CRESSENT, Cuy-Saint-Fiacre",
+    "lat": 49.510668,
+    "lng": 1.691903,
+    "transactions": [
+      {
+        "date": "2021-02-27",
+        "priceEur": 283000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-27",
+        "priceEur": 283000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-27",
+        "priceEur": 283000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "33514d349c5c": {
+    "id": "33514d349c5c",
+    "label": "5233 LA GARENNE, Cuy-Saint-Fiacre",
+    "lat": 49.508273,
+    "lng": 1.692627,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 234000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf4ec5b2cd79": {
+    "id": "cf4ec5b2cd79",
+    "label": "5050 LE MENILLET, Cuy-Saint-Fiacre",
+    "lat": 49.508369,
+    "lng": 1.702387,
+    "transactions": [
+      {
+        "date": "2024-10-31",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

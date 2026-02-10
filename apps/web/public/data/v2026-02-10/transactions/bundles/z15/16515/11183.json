@@ -1,0 +1,121 @@
+{
+  "102ae3ccc83e": {
+    "id": "102ae3ccc83e",
+    "label": "672 RUE DU BAS, Saint-Lucien",
+    "lat": 49.502464,
+    "lng": 1.449964,
+    "transactions": [
+      {
+        "date": "2021-03-08",
+        "priceEur": 113000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "4dae27670d79": {
+    "id": "4dae27670d79",
+    "label": "85 RUE DES HAMEAUX, Saint-Lucien",
+    "lat": 49.503767,
+    "lng": 1.442073,
+    "transactions": [
+      {
+        "date": "2021-06-01",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-01",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b54ddcbc3f4": {
+    "id": "7b54ddcbc3f4",
+    "label": "864 RUE DE LA CROIX BLANCHE, Saint-Lucien",
+    "lat": 49.501861,
+    "lng": 1.44478,
+    "transactions": [
+      {
+        "date": "2021-06-23",
+        "priceEur": 235500,
+        "typeLocal": "Maison",
+        "surfaceM2": 186,
+        "isVefa": false
+      }
+    ]
+  },
+  "454b65b8f1d5": {
+    "id": "454b65b8f1d5",
+    "label": "890 RUE DE LA CROIX BLANCHE, Saint-Lucien",
+    "lat": 49.501463,
+    "lng": 1.444029,
+    "transactions": [
+      {
+        "date": "2021-07-23",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b5d28523cc8": {
+    "id": "4b5d28523cc8",
+    "label": "413 RUE DU MONT ROLT, Saint-Lucien",
+    "lat": 49.500551,
+    "lng": 1.439748,
+    "transactions": [
+      {
+        "date": "2023-12-13",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-26",
+        "priceEur": 134000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8a270631936": {
+    "id": "f8a270631936",
+    "label": "722 RUE DE LA CROIX BLANCHE, Saint-Lucien",
+    "lat": 49.502746,
+    "lng": 1.443448,
+    "transactions": [
+      {
+        "date": "2023-09-15",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "0cc19682c266": {
+    "id": "0cc19682c266",
+    "label": "1016 RUE DE LA CROIX BLANCHE, Saint-Lucien",
+    "lat": 49.500762,
+    "lng": 1.44628,
+    "transactions": [
+      {
+        "date": "2024-11-21",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

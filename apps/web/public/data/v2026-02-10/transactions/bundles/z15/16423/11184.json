@@ -1,0 +1,32 @@
+{
+  "b9f09413b0ae": {
+    "id": "b9f09413b0ae",
+    "label": "2086 RTE DE TANCARVILLE, La Cerlangue",
+    "lat": 49.496667,
+    "lng": 0.434533,
+    "transactions": [
+      {
+        "date": "2020-11-20",
+        "priceEur": 220500,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf2c43e62523": {
+    "id": "bf2c43e62523",
+    "label": "120 RUE DU PONT, La Cerlangue",
+    "lat": 49.495638,
+    "lng": 0.436804,
+    "transactions": [
+      {
+        "date": "2022-08-25",
+        "priceEur": 254000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

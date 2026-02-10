@@ -1,0 +1,69 @@
+{
+  "d06acb2b915c": {
+    "id": "d06acb2b915c",
+    "label": "960 RUE DU BOUT D AMONT, Saint-Georges-sur-Fontaine",
+    "lat": 49.542778,
+    "lng": 1.191373,
+    "transactions": [
+      {
+        "date": "2024-02-23",
+        "priceEur": 243650,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-12",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "684a1ce4b20f": {
+    "id": "684a1ce4b20f",
+    "label": "912 RUE DU BOUT D AMONT, Saint-Georges-sur-Fontaine",
+    "lat": 49.54262,
+    "lng": 1.190017,
+    "transactions": [
+      {
+        "date": "2021-11-05",
+        "priceEur": 730340,
+        "typeLocal": "Maison",
+        "surfaceM2": 236,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb259acd8256": {
+    "id": "cb259acd8256",
+    "label": "1045 RUE DU BOUT D AMONT, Saint-Georges-sur-Fontaine",
+    "lat": 49.543232,
+    "lng": 1.192814,
+    "transactions": [
+      {
+        "date": "2021-07-08",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "25a644acb7d4": {
+    "id": "25a644acb7d4",
+    "label": "604 RUE DU BOUT D AMONT, Saint-Georges-sur-Fontaine",
+    "lat": 49.543317,
+    "lng": 1.187419,
+    "transactions": [
+      {
+        "date": "2022-02-03",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 177,
+        "isVefa": false
+      }
+    ]
+  }
+}

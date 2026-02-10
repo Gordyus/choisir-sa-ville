@@ -1,0 +1,107 @@
+{
+  "a17181d4e843": {
+    "id": "a17181d4e843",
+    "label": "38 RUE DE LA HETRAIE, Le Grand-Quevilly",
+    "lat": 49.396649,
+    "lng": 1.051278,
+    "transactions": [
+      {
+        "date": "2021-07-05",
+        "priceEur": 193050,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c2d0ec9039b": {
+    "id": "4c2d0ec9039b",
+    "label": "42 RUE DE LA HETRAIE, Le Grand-Quevilly",
+    "lat": 49.396587,
+    "lng": 1.051542,
+    "transactions": [
+      {
+        "date": "2021-09-06",
+        "priceEur": 192060,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "356fcc959fe1": {
+    "id": "356fcc959fe1",
+    "label": "40 RUE DE LA HETRAIE, Le Grand-Quevilly",
+    "lat": 49.396628,
+    "lng": 1.051419,
+    "transactions": [
+      {
+        "date": "2021-10-19",
+        "priceEur": 205920,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "565d82d85862": {
+    "id": "565d82d85862",
+    "label": "33 ALL DES EGLANTIERS, Le Grand-Quevilly",
+    "lat": 49.396374,
+    "lng": 1.051381,
+    "transactions": [
+      {
+        "date": "2022-02-04",
+        "priceEur": 122500,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "87d35acb7b67": {
+    "id": "87d35acb7b67",
+    "label": "44 RUE DE LA HETRAIE, Le Grand-Quevilly",
+    "lat": 49.39656,
+    "lng": 1.051658,
+    "transactions": [
+      {
+        "date": "2023-12-11",
+        "priceEur": 193550,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "66f590852a0a": {
+    "id": "66f590852a0a",
+    "label": "10 ALL DES EGLANTIERS, Le Grand-Quevilly",
+    "lat": 49.396631,
+    "lng": 1.049496,
+    "transactions": [
+      {
+        "date": "2024-11-29",
+        "priceEur": 354800,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "24251a62acb2": {
+    "id": "24251a62acb2",
+    "label": "27 RUE DE LA CHENAIE, Le Grand-Quevilly",
+    "lat": 49.395905,
+    "lng": 1.050944,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 399000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "7a7a72b511a6": {
+    "id": "7a7a72b511a6",
+    "label": "102 RUE SAINT LOUIS, La Londe",
+    "lat": 49.303578,
+    "lng": 0.953433,
+    "transactions": [
+      {
+        "date": "2021-05-12",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "e524b1e57084": {
+    "id": "e524b1e57084",
+    "label": "76 RUE FAUQUET POTEAU, La Londe",
+    "lat": 49.300889,
+    "lng": 0.955365,
+    "transactions": [
+      {
+        "date": "2021-06-15",
+        "priceEur": 333000,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e88eb82834a": {
+    "id": "7e88eb82834a",
+    "label": "451 RUE DES CANADIENS, La Londe",
+    "lat": 49.300109,
+    "lng": 0.954987,
+    "transactions": [
+      {
+        "date": "2024-05-07",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-28",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ccc9953ee76": {
+    "id": "2ccc9953ee76",
+    "label": "135 RUE FAUQUET POTEAU, La Londe",
+    "lat": 49.301427,
+    "lng": 0.955251,
+    "transactions": [
+      {
+        "date": "2023-05-31",
+        "priceEur": 499990,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "2061f2057ccf": {
+    "id": "2061f2057ccf",
+    "label": "163 RUE FAUQUET POTEAU, La Londe",
+    "lat": 49.301808,
+    "lng": 0.955358,
+    "transactions": [
+      {
+        "date": "2023-08-01",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "efc818911d8a": {
+    "id": "efc818911d8a",
+    "label": "252 RUE DU PUITS, La Londe",
+    "lat": 49.303113,
+    "lng": 0.955028,
+    "transactions": [
+      {
+        "date": "2025-01-24",
+        "priceEur": 166000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "195cb3328f4a": {
+    "id": "195cb3328f4a",
+    "label": "441 RUE DES CANADIENS, La Londe",
+    "lat": 49.300242,
+    "lng": 0.954964,
+    "transactions": [
+      {
+        "date": "2025-02-11",
+        "priceEur": 172500,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  }
+}

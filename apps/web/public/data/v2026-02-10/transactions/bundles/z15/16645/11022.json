@@ -1,0 +1,62 @@
+{
+  "b2f2d1d5b0f2": {
+    "id": "b2f2d1d5b0f2",
+    "label": "1110 RUE JEAN BAPTISTE MESSEAN, Bois-Grenier",
+    "lat": 50.634899,
+    "lng": 2.867994,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 430000,
+        "typeLocal": "Maison",
+        "surfaceM2": 218,
+        "isVefa": false
+      }
+    ]
+  },
+  "581d4d0bc480": {
+    "id": "581d4d0bc480",
+    "label": "50 RUE DE LA GUENNERIE, Bois-Grenier",
+    "lat": 50.635825,
+    "lng": 2.869826,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 419000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e489435dc14": {
+    "id": "2e489435dc14",
+    "label": "801 RUE JEAN BAPTISTE MESSEAN, Bois-Grenier",
+    "lat": 50.636451,
+    "lng": 2.872534,
+    "transactions": [
+      {
+        "date": "2022-06-01",
+        "priceEur": 1390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 237,
+        "isVefa": false
+      }
+    ]
+  },
+  "84df3aab7402": {
+    "id": "84df3aab7402",
+    "label": "1140 RUE JEAN BAPTISTE MESSEAN, Bois-Grenier",
+    "lat": 50.634715,
+    "lng": 2.868094,
+    "transactions": [
+      {
+        "date": "2025-01-31",
+        "priceEur": 555000,
+        "typeLocal": "Maison",
+        "surfaceM2": 287,
+        "isVefa": false
+      }
+    ]
+  }
+}

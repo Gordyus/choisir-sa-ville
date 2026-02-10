@@ -1,0 +1,77 @@
+{
+  "3aa75f966133": {
+    "id": "3aa75f966133",
+    "label": "679 RUE DES BRIQUETIERS, Écretteville-lès-Baons",
+    "lat": 49.619371,
+    "lng": 0.669805,
+    "transactions": [
+      {
+        "date": "2021-01-26",
+        "priceEur": 216000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "33a7ec7eaa72": {
+    "id": "33a7ec7eaa72",
+    "label": "1799 RUE DES TROUBADOURS, Écretteville-lès-Baons",
+    "lat": 49.621699,
+    "lng": 0.659976,
+    "transactions": [
+      {
+        "date": "2022-02-18",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "f467b0a98c72": {
+    "id": "f467b0a98c72",
+    "label": "1314 RUE DES TROUBADOURS, Écretteville-lès-Baons",
+    "lat": 49.62473,
+    "lng": 0.664723,
+    "transactions": [
+      {
+        "date": "2022-03-30",
+        "priceEur": 106000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "d038f0dc12c3": {
+    "id": "d038f0dc12c3",
+    "label": "1197 RUE DES TROUBADOURS, Écretteville-lès-Baons",
+    "lat": 49.624945,
+    "lng": 0.666629,
+    "transactions": [
+      {
+        "date": "2024-04-27",
+        "priceEur": 173200,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9e9dbc1954b": {
+    "id": "c9e9dbc1954b",
+    "label": "1323 RUE DES TROUBADOURS, Écretteville-lès-Baons",
+    "lat": 49.624337,
+    "lng": 0.664955,
+    "transactions": [
+      {
+        "date": "2024-08-08",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "8cfbaa2282d7": {
+    "id": "8cfbaa2282d7",
+    "label": "360 RTE DE LILLEBONNE, Saint-Nicolas-de-la-Taille",
+    "lat": 49.530111,
+    "lng": 0.478903,
+    "transactions": [
+      {
+        "date": "2020-09-23",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "0bd268f68955": {
+    "id": "0bd268f68955",
+    "label": "5002 LE BOURG, Saint-Nicolas-de-la-Taille",
+    "lat": 49.529219,
+    "lng": 0.481801,
+    "transactions": [
+      {
+        "date": "2021-03-11",
+        "priceEur": 222820,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "d2715c7a661d": {
+    "id": "d2715c7a661d",
+    "label": "5062 LE NOUVEAU MONDE, Saint-Antoine-la-Forêt",
+    "lat": 49.530516,
+    "lng": 0.479482,
+    "transactions": [
+      {
+        "date": "2022-05-23",
+        "priceEur": 184500,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "5fc45ea9bc56": {
+    "id": "5fc45ea9bc56",
+    "label": "5033 LE NOUVEAU MONDE, Saint-Nicolas-de-la-Taille",
+    "lat": 49.53013,
+    "lng": 0.475948,
+    "transactions": [
+      {
+        "date": "2022-11-28",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "308fd549b8b6": {
+    "id": "308fd549b8b6",
+    "label": "332 RTE DE LILLEBONNE, Saint-Nicolas-de-la-Taille",
+    "lat": 49.53006,
+    "lng": 0.478687,
+    "transactions": [
+      {
+        "date": "2023-04-28",
+        "priceEur": 213500,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b08954c7824": {
+    "id": "0b08954c7824",
+    "label": "57 LE NOUVEAU MONDE, Saint-Nicolas-de-la-Taille",
+    "lat": 49.529986,
+    "lng": 0.475442,
+    "transactions": [
+      {
+        "date": "2023-11-29",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "52923dc01333": {
+    "id": "52923dc01333",
+    "label": "382 RTE DE LILLEBONNE, Saint-Nicolas-de-la-Taille",
+    "lat": 49.529875,
+    "lng": 0.479382,
+    "transactions": [
+      {
+        "date": "2025-03-24",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-24",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  }
+}

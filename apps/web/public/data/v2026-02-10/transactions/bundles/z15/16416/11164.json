@@ -1,0 +1,32 @@
+{
+  "ce8fccd99dac": {
+    "id": "ce8fccd99dac",
+    "label": "5684 LE BOCAGE, Goderville",
+    "lat": 49.63448,
+    "lng": 0.362336,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a9fc8482438": {
+    "id": "8a9fc8482438",
+    "label": "20 RTE DU BOCAGE, Bornambusc",
+    "lat": 49.633717,
+    "lng": 0.358798,
+    "transactions": [
+      {
+        "date": "2021-08-23",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

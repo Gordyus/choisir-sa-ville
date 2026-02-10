@@ -1,0 +1,62 @@
+{
+  "0bbdeaf29c18": {
+    "id": "0bbdeaf29c18",
+    "label": "1410 RTE DE FORGES, Dampierre-en-Bray",
+    "lat": 49.522181,
+    "lng": 1.647254,
+    "transactions": [
+      {
+        "date": "2021-02-20",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "9701371bdd86": {
+    "id": "9701371bdd86",
+    "label": "5064 LES BRUYERES, Brémontier-Merval",
+    "lat": 49.51868,
+    "lng": 1.641428,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 204150,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "6fc5a8c4437b": {
+    "id": "6fc5a8c4437b",
+    "label": "15 RUE PRINCIPALE, Dampierre-en-Bray",
+    "lat": 49.52289,
+    "lng": 1.646221,
+    "transactions": [
+      {
+        "date": "2021-05-29",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "7251a6520ac2": {
+    "id": "7251a6520ac2",
+    "label": "5121 LE TEURTRE, Dampierre-en-Bray",
+    "lat": 49.525161,
+    "lng": 1.642929,
+    "transactions": [
+      {
+        "date": "2022-04-02",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  }
+}

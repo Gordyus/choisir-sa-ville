@@ -1,0 +1,77 @@
+{
+  "b7110e0d6166": {
+    "id": "b7110e0d6166",
+    "label": "5027 LE BAS DE GANCOURT, Gancourt-Saint-Étienne",
+    "lat": 49.545552,
+    "lng": 1.699669,
+    "transactions": [
+      {
+        "date": "2021-12-14",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "72a5e1066d74": {
+    "id": "72a5e1066d74",
+    "label": "43 RUE DU BAS DE GANCOURT, Gancourt-Saint-Étienne",
+    "lat": 49.544423,
+    "lng": 1.693959,
+    "transactions": [
+      {
+        "date": "2022-02-11",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 248,
+        "isVefa": false
+      }
+    ]
+  },
+  "477fbbbbdbfa": {
+    "id": "477fbbbbdbfa",
+    "label": "31 RUE DU BAS DE GANCOURT, Gancourt-Saint-Étienne",
+    "lat": 49.54581,
+    "lng": 1.698139,
+    "transactions": [
+      {
+        "date": "2022-10-20",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "39aba4be906c": {
+    "id": "39aba4be906c",
+    "label": "21 RUE DU BAS DE GANCOURT, Gancourt-Saint-Étienne",
+    "lat": 49.546016,
+    "lng": 1.702009,
+    "transactions": [
+      {
+        "date": "2022-10-15",
+        "priceEur": 112650,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "b85260a39f8b": {
+    "id": "b85260a39f8b",
+    "label": "35 RUE DU BAS DE GANCOURT, Gancourt-Saint-Étienne",
+    "lat": 49.544879,
+    "lng": 1.696387,
+    "transactions": [
+      {
+        "date": "2023-09-26",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  }
+}

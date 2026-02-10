@@ -1,0 +1,32 @@
+{
+  "df2160e8cbdd": {
+    "id": "df2160e8cbdd",
+    "label": "1676 RTE DE CAUVICOURT, Blainville-Crevon",
+    "lat": 49.515661,
+    "lng": 1.272765,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "724768702bc7": {
+    "id": "724768702bc7",
+    "label": "1682 RTE DE CAUVICOURT, Blainville-Crevon",
+    "lat": 49.516081,
+    "lng": 1.272087,
+    "transactions": [
+      {
+        "date": "2023-10-19",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

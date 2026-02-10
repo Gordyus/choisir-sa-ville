@@ -1,0 +1,62 @@
+{
+  "0376e7bfa6e0": {
+    "id": "0376e7bfa6e0",
+    "label": "53 RUE DES PENSEES, Leffrinckoucke",
+    "lat": 51.036112,
+    "lng": 2.465207,
+    "transactions": [
+      {
+        "date": "2023-07-13",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "0aeba73b9f58": {
+    "id": "0aeba73b9f58",
+    "label": "245 RUE SAINTE CATHERINE, Leffrinckoucke",
+    "lat": 51.035347,
+    "lng": 2.464063,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "667d51c8e510": {
+    "id": "667d51c8e510",
+    "label": "5 SQ DU MUGUET, Leffrinckoucke",
+    "lat": 51.03591,
+    "lng": 2.465136,
+    "transactions": [
+      {
+        "date": "2023-12-16",
+        "priceEur": 356250,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "963710c43cc5": {
+    "id": "963710c43cc5",
+    "label": "289 RUE SAINTE CATHERINE, Leffrinckoucke",
+    "lat": 51.034977,
+    "lng": 2.464297,
+    "transactions": [
+      {
+        "date": "2025-06-02",
+        "priceEur": 256500,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  }
+}

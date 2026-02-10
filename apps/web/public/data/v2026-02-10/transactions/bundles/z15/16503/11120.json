@@ -1,0 +1,32 @@
+{
+  "07338878baf1": {
+    "id": "07338878baf1",
+    "label": "28 RUE DU CLOS HARDY GRENY, Petit-Caux",
+    "lat": 49.949691,
+    "lng": 1.309113,
+    "transactions": [
+      {
+        "date": "2020-11-17",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e46165b1c6b": {
+    "id": "8e46165b1c6b",
+    "label": "20 RUE DU CLOS HARDY GRENY, Petit-Caux",
+    "lat": 49.948887,
+    "lng": 1.308142,
+    "transactions": [
+      {
+        "date": "2025-04-23",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

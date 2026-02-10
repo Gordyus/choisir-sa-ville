@@ -1,0 +1,32 @@
+{
+  "d3fd549b5981": {
+    "id": "d3fd549b5981",
+    "label": "9 ALL DU BOIS DE SAINT GERVAIS, Mont-Saint-Aignan",
+    "lat": 49.481505,
+    "lng": 1.091519,
+    "transactions": [
+      {
+        "date": "2023-10-03",
+        "priceEur": 839000,
+        "typeLocal": "Maison",
+        "surfaceM2": 262,
+        "isVefa": false
+      }
+    ]
+  },
+  "79e6773eba98": {
+    "id": "79e6773eba98",
+    "label": "39A RTE D HOUPPEVILLE, Mont-Saint-Aignan",
+    "lat": 49.480584,
+    "lng": 1.091652,
+    "transactions": [
+      {
+        "date": "2024-10-10",
+        "priceEur": 737000,
+        "typeLocal": "Maison",
+        "surfaceM2": 211,
+        "isVefa": false
+      }
+    ]
+  }
+}

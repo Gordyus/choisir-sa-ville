@@ -1,0 +1,47 @@
+{
+  "622302031bf5": {
+    "id": "622302031bf5",
+    "label": "713 RUE PRINCIPALE, Haucourt",
+    "lat": 49.640206,
+    "lng": 1.65852,
+    "transactions": [
+      {
+        "date": "2021-02-02",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "564259a911cc": {
+    "id": "564259a911cc",
+    "label": "354 IMP DE LA FORET, Haucourt",
+    "lat": 49.645894,
+    "lng": 1.650702,
+    "transactions": [
+      {
+        "date": "2023-05-13",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "f33c8beaa36c": {
+    "id": "f33c8beaa36c",
+    "label": "731 RUE PRINCIPALE, Haucourt",
+    "lat": 49.640347,
+    "lng": 1.65858,
+    "transactions": [
+      {
+        "date": "2023-07-17",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

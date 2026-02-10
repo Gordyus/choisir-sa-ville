@@ -1,0 +1,174 @@
+{
+  "9a5ccd7858fa": {
+    "id": "9a5ccd7858fa",
+    "label": "88 RUE DES SORBIERS, Arelaune-en-Seine",
+    "lat": 49.483447,
+    "lng": 0.769405,
+    "transactions": [
+      {
+        "date": "2020-12-03",
+        "priceEur": 124000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6db09bc2c7b": {
+    "id": "d6db09bc2c7b",
+    "label": "63 RUE DU STADE - LA MAILLERAYE, Arelaune-en-Seine",
+    "lat": 49.482477,
+    "lng": 0.770188,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "724f60e84891": {
+    "id": "724f60e84891",
+    "label": "1020 RUE DU PETIT VILLAGE, Notre-Dame-de-Bliquetuit",
+    "lat": 49.486062,
+    "lng": 0.769262,
+    "transactions": [
+      {
+        "date": "2022-04-25",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "18e4c68791a5": {
+    "id": "18e4c68791a5",
+    "label": "48 RUE DES SORBIERS, Arelaune-en-Seine",
+    "lat": 49.483523,
+    "lng": 0.769905,
+    "transactions": [
+      {
+        "date": "2023-01-27",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b9768388938": {
+    "id": "4b9768388938",
+    "label": "71 RUE JOSEPH HAMEL, Arelaune-en-Seine",
+    "lat": 49.482621,
+    "lng": 0.772878,
+    "transactions": [
+      {
+        "date": "2023-02-22",
+        "priceEur": 84500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3410d3ed7f2": {
+    "id": "c3410d3ed7f2",
+    "label": "86 RUE DU STADE - LA MAILLERAYE, Arelaune-en-Seine",
+    "lat": 49.482923,
+    "lng": 0.770103,
+    "transactions": [
+      {
+        "date": "2023-04-25",
+        "priceEur": 243000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "88dbfebeab3f": {
+    "id": "88dbfebeab3f",
+    "label": "1169 RUE DU PETIT VILLAGE, Notre-Dame-de-Bliquetuit",
+    "lat": 49.485202,
+    "lng": 0.77085,
+    "transactions": [
+      {
+        "date": "2023-04-14",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "eae1b8f5ad56": {
+    "id": "eae1b8f5ad56",
+    "label": "5012 L ANCIEN PETIT PARC, Notre-Dame-de-Bliquetuit",
+    "lat": 49.488269,
+    "lng": 0.769828,
+    "transactions": [
+      {
+        "date": "2024-06-14",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-14",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "8bada566b925": {
+    "id": "8bada566b925",
+    "label": "56 RUE JOSEPH HAMEL, Arelaune-en-Seine",
+    "lat": 49.482942,
+    "lng": 0.772848,
+    "transactions": [
+      {
+        "date": "2024-09-04",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e50404ae35c": {
+    "id": "4e50404ae35c",
+    "label": "95 RUE JOSEPH HAMEL, Arelaune-en-Seine",
+    "lat": 49.482537,
+    "lng": 0.772679,
+    "transactions": [
+      {
+        "date": "2024-10-25",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e07c0de0ef7": {
+    "id": "5e07c0de0ef7",
+    "label": "30 ALL DES LILAS, Arelaune-en-Seine",
+    "lat": 49.484382,
+    "lng": 0.769892,
+    "transactions": [
+      {
+        "date": "2025-03-07",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "b9d5e94daf4c": {
+    "id": "b9d5e94daf4c",
+    "label": "13 CLOS DE LA FORGE, Mesnil-Raoul",
+    "lat": 49.39099,
+    "lng": 1.263207,
+    "transactions": [
+      {
+        "date": "2020-09-15",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b8b450d6c97": {
+    "id": "1b8b450d6c97",
+    "label": "212 RUE DE LA LANDE, Mesnil-Raoul",
+    "lat": 49.393521,
+    "lng": 1.26329,
+    "transactions": [
+      {
+        "date": "2025-04-10",
+        "priceEur": 247400,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-11",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "60e054730c6d": {
+    "id": "60e054730c6d",
+    "label": "325 RUE DE LA LANDE, Mesnil-Raoul",
+    "lat": 49.392532,
+    "lng": 1.262684,
+    "transactions": [
+      {
+        "date": "2022-08-11",
+        "priceEur": 234000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "59f98ebbc04b": {
+    "id": "59f98ebbc04b",
+    "label": "12 RUE DU MESNIL GOSSELIN, Mesnil-Raoul",
+    "lat": 49.392521,
+    "lng": 1.261836,
+    "transactions": [
+      {
+        "date": "2024-07-25",
+        "priceEur": 239000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "20c7578fc4ec": {
+    "id": "20c7578fc4ec",
+    "label": "11 RUE DE LA FORGE, Mesnil-Raoul",
+    "lat": 49.392312,
+    "lng": 1.262518,
+    "transactions": [
+      {
+        "date": "2025-06-16",
+        "priceEur": 301000,
+        "typeLocal": "Maison",
+        "surfaceM2": 161,
+        "isVefa": false
+      }
+    ]
+  }
+}

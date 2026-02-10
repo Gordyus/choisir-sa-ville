@@ -1,0 +1,32 @@
+{
+  "032b8961699e": {
+    "id": "032b8961699e",
+    "label": "1109 RUE DE BLOCK, Herzeele",
+    "lat": 50.874069,
+    "lng": 2.543157,
+    "transactions": [
+      {
+        "date": "2021-07-27",
+        "priceEur": 530000,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  },
+  "983011abdffa": {
+    "id": "983011abdffa",
+    "label": "762 RUE DE BLOCK, Herzeele",
+    "lat": 50.871446,
+    "lng": 2.539604,
+    "transactions": [
+      {
+        "date": "2023-11-13",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  }
+}

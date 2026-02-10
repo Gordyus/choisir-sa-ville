@@ -1,0 +1,77 @@
+{
+  "069cabc4ccd3": {
+    "id": "069cabc4ccd3",
+    "label": "81 RUE COCHETTE, Merville",
+    "lat": 50.654001,
+    "lng": 2.644449,
+    "transactions": [
+      {
+        "date": "2020-08-13",
+        "priceEur": 277600,
+        "typeLocal": "Maison",
+        "surfaceM2": 161,
+        "isVefa": false
+      }
+    ]
+  },
+  "51b4b3d45eba": {
+    "id": "51b4b3d45eba",
+    "label": "25 RUE DU FIN CORNET, Merville",
+    "lat": 50.654997,
+    "lng": 2.643908,
+    "transactions": [
+      {
+        "date": "2021-08-19",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c475dfc8455": {
+    "id": "1c475dfc8455",
+    "label": "5 RUE DU FIN CORNET, Merville",
+    "lat": 50.653386,
+    "lng": 2.642845,
+    "transactions": [
+      {
+        "date": "2021-09-28",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0311a523a99": {
+    "id": "b0311a523a99",
+    "label": "137 RUE VICTORINE DEROIDE, Merville",
+    "lat": 50.65326,
+    "lng": 2.641175,
+    "transactions": [
+      {
+        "date": "2022-08-09",
+        "priceEur": 342900,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c0d37c5e950": {
+    "id": "5c0d37c5e950",
+    "label": "1 RUE DU FIN CORNET, Merville",
+    "lat": 50.653086,
+    "lng": 2.642386,
+    "transactions": [
+      {
+        "date": "2024-03-08",
+        "priceEur": 176500,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

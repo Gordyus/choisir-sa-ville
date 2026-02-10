@@ -1,0 +1,32 @@
+{
+  "cf1a2abeec2c": {
+    "id": "cf1a2abeec2c",
+    "label": "176 RTE D ESTAIRES, La Bassée",
+    "lat": 50.540545,
+    "lng": 2.800925,
+    "transactions": [
+      {
+        "date": "2022-01-24",
+        "priceEur": 171150,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "0f3617d7e17d": {
+    "id": "0f3617d7e17d",
+    "label": "9003 RUE DE LA PLANQUETTE, La Bassée",
+    "lat": 50.534491,
+    "lng": 2.80097,
+    "transactions": [
+      {
+        "date": "2024-09-04",
+        "priceEur": 201100,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

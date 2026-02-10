@@ -1,0 +1,32 @@
+{
+  "0047c72ce379": {
+    "id": "0047c72ce379",
+    "label": "5010 LE BOURG, Saint-Riquier-en-Rivière",
+    "lat": 49.889514,
+    "lng": 1.562027,
+    "transactions": [
+      {
+        "date": "2020-10-28",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "353db7e9c2c6": {
+    "id": "353db7e9c2c6",
+    "label": "5013 LE BOURG, Saint-Riquier-en-Rivière",
+    "lat": 49.889436,
+    "lng": 1.561298,
+    "transactions": [
+      {
+        "date": "2024-03-16",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  }
+}

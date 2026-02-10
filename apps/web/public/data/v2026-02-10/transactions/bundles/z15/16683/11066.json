@@ -1,0 +1,107 @@
+{
+  "289ce642a659": {
+    "id": "289ce642a659",
+    "label": "6 RUE EUGENE DELACROIX, Abscon",
+    "lat": 50.328891,
+    "lng": 3.294978,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b9f0974a489": {
+    "id": "5b9f0974a489",
+    "label": "7 RES ALCIDE MORTELETTE, Abscon",
+    "lat": 50.331278,
+    "lng": 3.295378,
+    "transactions": [
+      {
+        "date": "2021-04-07",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "0664aee807df": {
+    "id": "0664aee807df",
+    "label": "3 RES ALCIDE MORTELETTE, Abscon",
+    "lat": 50.3311,
+    "lng": 3.29569,
+    "transactions": [
+      {
+        "date": "2021-12-03",
+        "priceEur": 196000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "652821501b85": {
+    "id": "652821501b85",
+    "label": "12 RUE PABLO PICASSO, Abscon",
+    "lat": 50.328793,
+    "lng": 3.29571,
+    "transactions": [
+      {
+        "date": "2022-01-28",
+        "priceEur": 208000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "036156a24ca5": {
+    "id": "036156a24ca5",
+    "label": "1 RUE PABLO PICASSO, Abscon",
+    "lat": 50.328765,
+    "lng": 3.295218,
+    "transactions": [
+      {
+        "date": "2022-04-01",
+        "priceEur": 224995,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c5e60411a6c": {
+    "id": "8c5e60411a6c",
+    "label": "20 RUE JEAN ANTOINE WATTEAU, Abscon",
+    "lat": 50.328134,
+    "lng": 3.295342,
+    "transactions": [
+      {
+        "date": "2022-06-14",
+        "priceEur": 251130,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "552734d2bf07": {
+    "id": "552734d2bf07",
+    "label": "11B RTE DE MARQUETTE, Abscon",
+    "lat": 50.324436,
+    "lng": 3.294914,
+    "transactions": [
+      {
+        "date": "2022-09-06",
+        "priceEur": 186000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

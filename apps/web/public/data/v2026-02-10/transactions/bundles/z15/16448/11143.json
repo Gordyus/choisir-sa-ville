@@ -1,0 +1,54 @@
+{
+  "5627c5ec3ff9": {
+    "id": "5627c5ec3ff9",
+    "label": "2 IMP DE LA BARATTE, Sasseville",
+    "lat": 49.782119,
+    "lng": 0.70977,
+    "transactions": [
+      {
+        "date": "2021-08-02",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  },
+  "9eee90f99740": {
+    "id": "9eee90f99740",
+    "label": "3 IMP DES MARAICHERS, Sasseville",
+    "lat": 49.78239,
+    "lng": 0.707707,
+    "transactions": [
+      {
+        "date": "2022-04-15",
+        "priceEur": 223500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "5640be89cf83": {
+    "id": "5640be89cf83",
+    "label": "5 IMP DES MARAICHERS, Sasseville",
+    "lat": 49.78334,
+    "lng": 0.706935,
+    "transactions": [
+      {
+        "date": "2025-01-10",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-24",
+        "priceEur": 144000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

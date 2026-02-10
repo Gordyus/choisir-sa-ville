@@ -1,0 +1,24 @@
+{
+  "a11ea1f28989": {
+    "id": "a11ea1f28989",
+    "label": "44 RUE DE LA DILIGENCE, Sainte-Marie-au-Bosc",
+    "lat": 49.664459,
+    "lng": 0.19216,
+    "transactions": [
+      {
+        "date": "2024-07-19",
+        "priceEur": 234000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-21",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

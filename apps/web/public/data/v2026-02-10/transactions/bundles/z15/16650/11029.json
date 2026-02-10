@@ -1,0 +1,32 @@
+{
+  "8dff0d13dbac": {
+    "id": "8dff0d13dbac",
+    "label": "44 RUE DE LILLE, Wavrin",
+    "lat": 50.585187,
+    "lng": 2.931128,
+    "transactions": [
+      {
+        "date": "2021-03-12",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6d42b5aa99a": {
+    "id": "e6d42b5aa99a",
+    "label": "45 RUE DE LILLE, Wavrin",
+    "lat": 50.586442,
+    "lng": 2.929037,
+    "transactions": [
+      {
+        "date": "2022-04-06",
+        "priceEur": 300482.12,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  }
+}

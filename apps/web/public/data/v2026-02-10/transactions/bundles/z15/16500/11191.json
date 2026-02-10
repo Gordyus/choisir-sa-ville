@@ -1,0 +1,62 @@
+{
+  "e414174f167f": {
+    "id": "e414174f167f",
+    "label": "5112 LE MOUCHEL, Martainville-Épreville",
+    "lat": 49.442264,
+    "lng": 1.27626,
+    "transactions": [
+      {
+        "date": "2020-11-10",
+        "priceEur": 336450,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "fae55e82f32b": {
+    "id": "fae55e82f32b",
+    "label": "520 IMP DE LA FONTAINE, Martainville-Épreville",
+    "lat": 49.442283,
+    "lng": 1.275106,
+    "transactions": [
+      {
+        "date": "2022-06-27",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "326bac186c7d": {
+    "id": "326bac186c7d",
+    "label": "524 IMP DE LA FONTAINE, Martainville-Épreville",
+    "lat": 49.442359,
+    "lng": 1.27491,
+    "transactions": [
+      {
+        "date": "2022-10-28",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "ebe9c0aebeac": {
+    "id": "ebe9c0aebeac",
+    "label": "120 IMP DE LA FONTAINE, Martainville-Épreville",
+    "lat": 49.440705,
+    "lng": 1.279012,
+    "transactions": [
+      {
+        "date": "2025-06-19",
+        "priceEur": 194000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

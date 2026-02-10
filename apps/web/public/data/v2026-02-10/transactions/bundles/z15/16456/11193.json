@@ -1,0 +1,47 @@
+{
+  "cac07b5872bd": {
+    "id": "cac07b5872bd",
+    "label": "5095 QUAI ROGER KERVRANN, Heurteauville",
+    "lat": 49.430421,
+    "lng": 0.800491,
+    "transactions": [
+      {
+        "date": "2021-07-26",
+        "priceEur": 143000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "d563b0e057a9": {
+    "id": "d563b0e057a9",
+    "label": "5096 QUAI ROGER KERVRANN, Heurteauville",
+    "lat": 49.430202,
+    "lng": 0.800539,
+    "transactions": [
+      {
+        "date": "2022-04-08",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6a4512a1de6": {
+    "id": "e6a4512a1de6",
+    "label": "14 COTE DU POTEAU, Heurteauville",
+    "lat": 49.428915,
+    "lng": 0.800548,
+    "transactions": [
+      {
+        "date": "2024-05-06",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

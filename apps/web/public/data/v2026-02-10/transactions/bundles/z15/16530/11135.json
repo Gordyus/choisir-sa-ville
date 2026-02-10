@@ -1,0 +1,107 @@
+{
+  "841607c1dcff": {
+    "id": "841607c1dcff",
+    "label": "5016 LE MESNIL ALLARD, Saint-Léger-aux-Bois",
+    "lat": 49.839677,
+    "lng": 1.606367,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 119000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "949215ff9993": {
+    "id": "949215ff9993",
+    "label": "18 RUE DU MESNIL ALLARD, Saint-Léger-aux-Bois",
+    "lat": 49.840681,
+    "lng": 1.606606,
+    "transactions": [
+      {
+        "date": "2021-02-08",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "d1d7460e3f2d": {
+    "id": "d1d7460e3f2d",
+    "label": "5030 LE MESNIL ALLARD, Saint-Léger-aux-Bois",
+    "lat": 49.840746,
+    "lng": 1.60628,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "a26917df6f93": {
+    "id": "a26917df6f93",
+    "label": "17 RUE DU MESNIL ALLARD, Saint-Léger-aux-Bois",
+    "lat": 49.839677,
+    "lng": 1.606367,
+    "transactions": [
+      {
+        "date": "2024-07-10",
+        "priceEur": 125400,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "622ecb595ea8": {
+    "id": "622ecb595ea8",
+    "label": "29 RUE DU MESNIL ALLARD, Saint-Léger-aux-Bois",
+    "lat": 49.840791,
+    "lng": 1.604025,
+    "transactions": [
+      {
+        "date": "2024-09-27",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "5ef33a26a946": {
+    "id": "5ef33a26a946",
+    "label": "25 RUE DU MESNIL ALLARD, Saint-Léger-aux-Bois",
+    "lat": 49.840514,
+    "lng": 1.605506,
+    "transactions": [
+      {
+        "date": "2024-09-30",
+        "priceEur": 228000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5386a38469a": {
+    "id": "a5386a38469a",
+    "label": "27 RUE DU MESNIL ALLARD, Saint-Léger-aux-Bois",
+    "lat": 49.840673,
+    "lng": 1.60458,
+    "transactions": [
+      {
+        "date": "2025-04-18",
+        "priceEur": 86000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  }
+}

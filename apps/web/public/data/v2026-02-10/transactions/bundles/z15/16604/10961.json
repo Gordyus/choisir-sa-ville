@@ -1,0 +1,103 @@
+{
+  "354b8552c870": {
+    "id": "354b8552c870",
+    "label": "80 AV LOUBET, Dunkerque",
+    "lat": 51.055257,
+    "lng": 2.425954,
+    "transactions": [
+      {
+        "date": "2020-08-13",
+        "priceEur": 293500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 37,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-13",
+        "priceEur": 293500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 32,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-13",
+        "priceEur": 293500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "98729125aee2": {
+    "id": "98729125aee2",
+    "label": "63 AV LOUBET, Dunkerque",
+    "lat": 51.055492,
+    "lng": 2.426284,
+    "transactions": [
+      {
+        "date": "2024-05-31",
+        "priceEur": 400000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-31",
+        "priceEur": 400000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-31",
+        "priceEur": 190000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-13",
+        "priceEur": 427500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-13",
+        "priceEur": 427500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-13",
+        "priceEur": 427500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a86036e6fab": {
+    "id": "7a86036e6fab",
+    "label": "77 AV LOUBET, Dunkerque",
+    "lat": 51.055384,
+    "lng": 2.426452,
+    "transactions": [
+      {
+        "date": "2024-05-06",
+        "priceEur": 371000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-17",
+        "priceEur": 308500,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

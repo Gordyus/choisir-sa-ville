@@ -1,0 +1,32 @@
+{
+  "b54c5227be1e": {
+    "id": "b54c5227be1e",
+    "label": "13 CHE DE VARIMPRE, Callengeville",
+    "lat": 49.805042,
+    "lng": 1.52757,
+    "transactions": [
+      {
+        "date": "2021-12-01",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "68cceed28fc2": {
+    "id": "68cceed28fc2",
+    "label": "25 CHE DE VARIMPRE, Callengeville",
+    "lat": 49.805903,
+    "lng": 1.527913,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 73000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  }
+}

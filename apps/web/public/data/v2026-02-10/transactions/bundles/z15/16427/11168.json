@@ -1,0 +1,114 @@
+{
+  "c022f30fb730": {
+    "id": "c022f30fb730",
+    "label": "506 RUE DE LA CAPITAINERIE, Bernières",
+    "lat": 49.607815,
+    "lng": 0.478926,
+    "transactions": [
+      {
+        "date": "2021-04-29",
+        "priceEur": 209000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "d50039737438": {
+    "id": "d50039737438",
+    "label": "97 RUE DE LA MARE ANDRIEUX, Bernières",
+    "lat": 49.605853,
+    "lng": 0.481316,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 181000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9b5904a698e": {
+    "id": "f9b5904a698e",
+    "label": "505 RUE DE LA CAPITAINERIE, Bernières",
+    "lat": 49.608308,
+    "lng": 0.479061,
+    "transactions": [
+      {
+        "date": "2022-01-31",
+        "priceEur": 130600,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-31",
+        "priceEur": 130600,
+        "typeLocal": "Maison",
+        "surfaceM2": 37,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9c5f39f2144": {
+    "id": "c9c5f39f2144",
+    "label": "490 RUE DE LA CAPITAINERIE, Bernières",
+    "lat": 49.608124,
+    "lng": 0.478821,
+    "transactions": [
+      {
+        "date": "2023-04-05",
+        "priceEur": 110500,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "b94e874a387a": {
+    "id": "b94e874a387a",
+    "label": "422 RUE DE LA CAPITAINERIE, Bernières",
+    "lat": 49.607872,
+    "lng": 0.478457,
+    "transactions": [
+      {
+        "date": "2023-07-07",
+        "priceEur": 100001,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5e82fe98fc1": {
+    "id": "b5e82fe98fc1",
+    "label": "99 RUE DU VAL ROGER, Bernières",
+    "lat": 49.608483,
+    "lng": 0.473369,
+    "transactions": [
+      {
+        "date": "2024-02-09",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "92049cd2cb94": {
+    "id": "92049cd2cb94",
+    "label": "1 RUE DU VAL ROGER, Bernières",
+    "lat": 49.608751,
+    "lng": 0.472933,
+    "transactions": [
+      {
+        "date": "2024-03-27",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  }
+}

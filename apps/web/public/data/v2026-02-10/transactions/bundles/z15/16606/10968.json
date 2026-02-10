@@ -1,0 +1,77 @@
+{
+  "87245727d1fe": {
+    "id": "87245727d1fe",
+    "label": "65 RUE NEUVE, Téteghem-Coudekerque-Village",
+    "lat": 51.013001,
+    "lng": 2.44455,
+    "transactions": [
+      {
+        "date": "2023-12-04",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc4c9cadf3b7": {
+    "id": "cc4c9cadf3b7",
+    "label": "63 RUE NEUVE, Téteghem-Coudekerque-Village",
+    "lat": 51.013032,
+    "lng": 2.444515,
+    "transactions": [
+      {
+        "date": "2023-11-30",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "44d9bfe3c16b": {
+    "id": "44d9bfe3c16b",
+    "label": "67 RUE NEUVE, Téteghem-Coudekerque-Village",
+    "lat": 51.013068,
+    "lng": 2.444494,
+    "transactions": [
+      {
+        "date": "2023-11-30",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "7643b2545c9a": {
+    "id": "7643b2545c9a",
+    "label": "27 RUE VERTE, Téteghem-Coudekerque-Village",
+    "lat": 51.008459,
+    "lng": 2.447662,
+    "transactions": [
+      {
+        "date": "2024-06-13",
+        "priceEur": 410000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "66641dd42e8d": {
+    "id": "66641dd42e8d",
+    "label": "7 RUE DE LA DISTILLERIE, Téteghem-Coudekerque-Village",
+    "lat": 51.011406,
+    "lng": 2.441867,
+    "transactions": [
+      {
+        "date": "2025-04-24",
+        "priceEur": 15000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  }
+}

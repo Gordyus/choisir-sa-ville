@@ -1,0 +1,62 @@
+{
+  "01e0cadc9f87": {
+    "id": "01e0cadc9f87",
+    "label": "5 IMP DES CHENES, Montivilliers",
+    "lat": 49.551641,
+    "lng": 0.214696,
+    "transactions": [
+      {
+        "date": "2020-11-12",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "72ead91fb100": {
+    "id": "72ead91fb100",
+    "label": "9001 LA GRANDE PAYENNIERE, Montivilliers",
+    "lat": 49.552566,
+    "lng": 0.209877,
+    "transactions": [
+      {
+        "date": "2022-02-08",
+        "priceEur": 500000,
+        "typeLocal": "Maison",
+        "surfaceM2": 199,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1b9bc2cad0d": {
+    "id": "e1b9bc2cad0d",
+    "label": "6 IMP DES HETRES, Montivilliers",
+    "lat": 49.55198,
+    "lng": 0.214546,
+    "transactions": [
+      {
+        "date": "2023-10-02",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea8566923c0b": {
+    "id": "ea8566923c0b",
+    "label": "7 IMP DES HETRES, Montivilliers",
+    "lat": 49.55238,
+    "lng": 0.213478,
+    "transactions": [
+      {
+        "date": "2024-12-19",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  }
+}

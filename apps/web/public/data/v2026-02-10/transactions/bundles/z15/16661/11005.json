@@ -1,0 +1,32 @@
+{
+  "b0566752384c": {
+    "id": "b0566752384c",
+    "label": "107 RUE DE LINSELLES, Wervicq-Sud",
+    "lat": 50.755536,
+    "lng": 3.048911,
+    "transactions": [
+      {
+        "date": "2022-12-08",
+        "priceEur": 872700,
+        "typeLocal": "Maison",
+        "surfaceM2": 202,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a002d84f8ca": {
+    "id": "6a002d84f8ca",
+    "label": "90 RUE DE LINSELLES, Wervicq-Sud",
+    "lat": 50.757075,
+    "lng": 3.049334,
+    "transactions": [
+      {
+        "date": "2024-07-30",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  }
+}

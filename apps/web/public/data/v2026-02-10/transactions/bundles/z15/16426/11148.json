@@ -1,0 +1,32 @@
+{
+  "ca7f110932e9": {
+    "id": "ca7f110932e9",
+    "label": "140 IMP DU CORNET, Colleville",
+    "lat": 49.74854,
+    "lng": 0.461512,
+    "transactions": [
+      {
+        "date": "2022-03-08",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "c90daa572ee4": {
+    "id": "c90daa572ee4",
+    "label": "9001 RTE DE VALMONT, Colleville",
+    "lat": 49.747694,
+    "lng": 0.467573,
+    "transactions": [
+      {
+        "date": "2022-03-18",
+        "priceEur": 623321.3,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  }
+}

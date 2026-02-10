@@ -1,0 +1,62 @@
+{
+  "c5af2982aaba": {
+    "id": "c5af2982aaba",
+    "label": "9 RUE DE LA HETRAIE, Flamanville",
+    "lat": 49.628238,
+    "lng": 0.833941,
+    "transactions": [
+      {
+        "date": "2021-09-27",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "925d20608064": {
+    "id": "925d20608064",
+    "label": "6 RUE DES POIRIERS VIONS, Flamanville",
+    "lat": 49.626475,
+    "lng": 0.833521,
+    "transactions": [
+      {
+        "date": "2021-10-11",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "06742b54841c": {
+    "id": "06742b54841c",
+    "label": "11 RUE DES CHAUMIERES, Flamanville",
+    "lat": 49.631789,
+    "lng": 0.833576,
+    "transactions": [
+      {
+        "date": "2025-03-15",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "516b0aa6da73": {
+    "id": "516b0aa6da73",
+    "label": "6 RUE DE LA HETRAIE, Flamanville",
+    "lat": 49.628534,
+    "lng": 0.83287,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 387700,
+        "typeLocal": "Maison",
+        "surfaceM2": 240,
+        "isVefa": false
+      }
+    ]
+  }
+}

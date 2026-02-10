@@ -1,0 +1,32 @@
+{
+  "0cd2cdf29c0f": {
+    "id": "0cd2cdf29c0f",
+    "label": "5056 LES MAISONS BLEUES, Mesnil-Panneville",
+    "lat": 49.598168,
+    "lng": 0.86346,
+    "transactions": [
+      {
+        "date": "2023-05-04",
+        "priceEur": 76000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7b77cea7ed7": {
+    "id": "c7b77cea7ed7",
+    "label": "5057 LES MAISONS BLEUES, Mesnil-Panneville",
+    "lat": 49.596911,
+    "lng": 0.864735,
+    "transactions": [
+      {
+        "date": "2023-07-20",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      }
+    ]
+  }
+}

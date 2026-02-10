@@ -1,0 +1,24 @@
+{
+  "eefa4e9a3231": {
+    "id": "eefa4e9a3231",
+    "label": "30 RUE D ESWARS, Cambrai",
+    "lat": 50.193517,
+    "lng": 3.241972,
+    "transactions": [
+      {
+        "date": "2024-04-08",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-30",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

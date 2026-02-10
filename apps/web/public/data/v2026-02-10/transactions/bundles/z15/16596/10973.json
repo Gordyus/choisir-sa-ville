@@ -1,0 +1,32 @@
+{
+  "17dc703944de": {
+    "id": "17dc703944de",
+    "label": "5502 VC 5 CHEM DE LA SABLIERE, Armbouts-Cappel",
+    "lat": 50.976161,
+    "lng": 2.338741,
+    "transactions": [
+      {
+        "date": "2020-11-10",
+        "priceEur": 239450,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f6c5f1cc70e": {
+    "id": "2f6c5f1cc70e",
+    "label": "600 VC 301 DIT VOIE ROMAINE, Armbouts-Cappel",
+    "lat": 50.973681,
+    "lng": 2.330711,
+    "transactions": [
+      {
+        "date": "2022-06-23",
+        "priceEur": 248100,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,633 @@
+{
+  "49e24729386b": {
+    "id": "49e24729386b",
+    "label": "165 RUE DU GEN DE GAULLE, Le Houlme",
+    "lat": 49.515884,
+    "lng": 1.036615,
+    "transactions": [
+      {
+        "date": "2021-02-10",
+        "priceEur": 290000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-13",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d51e9632846": {
+    "id": "6d51e9632846",
+    "label": "96 RUE GUSTAVE DELARUE, Le Houlme",
+    "lat": 49.51316,
+    "lng": 1.033923,
+    "transactions": [
+      {
+        "date": "2020-09-03",
+        "priceEur": 132500,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "76cbb0880727": {
+    "id": "76cbb0880727",
+    "label": "16 RUE GUSTAVE DELARUE, Le Houlme",
+    "lat": 49.51117,
+    "lng": 1.035627,
+    "transactions": [
+      {
+        "date": "2020-09-24",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "a8c4d3e40917": {
+    "id": "a8c4d3e40917",
+    "label": "5 RUE DU BEL ENDROIT, Le Houlme",
+    "lat": 49.515554,
+    "lng": 1.038076,
+    "transactions": [
+      {
+        "date": "2023-01-05",
+        "priceEur": 104000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-04",
+        "priceEur": 112000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-28",
+        "priceEur": 105000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-20",
+        "priceEur": 91000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-16",
+        "priceEur": 92000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "2bffce4b60fb": {
+    "id": "2bffce4b60fb",
+    "label": "184 RUE DU GEN DE GAULLE, Le Houlme",
+    "lat": 49.517156,
+    "lng": 1.037679,
+    "transactions": [
+      {
+        "date": "2020-11-24",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ccea7bf7eed": {
+    "id": "3ccea7bf7eed",
+    "label": "64 RUE GUSTAVE DELARUE, Le Houlme",
+    "lat": 49.512763,
+    "lng": 1.035521,
+    "transactions": [
+      {
+        "date": "2020-12-15",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee6d6a3198a1": {
+    "id": "ee6d6a3198a1",
+    "label": "68B RUE GUSTAVE DELARUE, Le Houlme",
+    "lat": 49.51301,
+    "lng": 1.036017,
+    "transactions": [
+      {
+        "date": "2020-12-09",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4010f8cb17b": {
+    "id": "f4010f8cb17b",
+    "label": "215 RUE DU GEN DE GAULLE, Le Houlme",
+    "lat": 49.517337,
+    "lng": 1.037315,
+    "transactions": [
+      {
+        "date": "2025-04-07",
+        "priceEur": 114000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-27",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9d1deaa8118": {
+    "id": "b9d1deaa8118",
+    "label": "78 RUE GUSTAVE DELARUE, Le Houlme",
+    "lat": 49.513261,
+    "lng": 1.034768,
+    "transactions": [
+      {
+        "date": "2021-11-17",
+        "priceEur": 156550,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "c10416d43bb8": {
+    "id": "c10416d43bb8",
+    "label": "20 RUE GUSTAVE DELARUE, Le Houlme",
+    "lat": 49.511793,
+    "lng": 1.035663,
+    "transactions": [
+      {
+        "date": "2021-01-11",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "138996fead44": {
+    "id": "138996fead44",
+    "label": "169 RUE DU GEN DE GAULLE, Le Houlme",
+    "lat": 49.514699,
+    "lng": 1.037453,
+    "transactions": [
+      {
+        "date": "2024-10-03",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-08",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "db0abbad8668": {
+    "id": "db0abbad8668",
+    "label": "12 RUE GUSTAVE DELARUE, Le Houlme",
+    "lat": 49.511078,
+    "lng": 1.035517,
+    "transactions": [
+      {
+        "date": "2021-04-01",
+        "priceEur": 181450,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "dfa10693b95f": {
+    "id": "dfa10693b95f",
+    "label": "8 RUE GUSTAVE DELARUE, Le Houlme",
+    "lat": 49.511018,
+    "lng": 1.035486,
+    "transactions": [
+      {
+        "date": "2025-01-06",
+        "priceEur": 176000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-27",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "d793e85307e2": {
+    "id": "d793e85307e2",
+    "label": "171 RUE DU GEN DE GAULLE, Le Houlme",
+    "lat": 49.514759,
+    "lng": 1.036747,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0bc789f433e": {
+    "id": "b0bc789f433e",
+    "label": "7 RUE GUSTAVE DELARUE, Le Houlme",
+    "lat": 49.511466,
+    "lng": 1.035192,
+    "transactions": [
+      {
+        "date": "2021-06-14",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f941deb3f72": {
+    "id": "7f941deb3f72",
+    "label": "181 RUE DU GEN DE GAULLE, Le Houlme",
+    "lat": 49.51482,
+    "lng": 1.03708,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 156000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "155a8083d232": {
+    "id": "155a8083d232",
+    "label": "21 RUE DU VIADUC, Le Houlme",
+    "lat": 49.516021,
+    "lng": 1.036605,
+    "transactions": [
+      {
+        "date": "2021-09-03",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "1cb11739e20a": {
+    "id": "1cb11739e20a",
+    "label": "10 RTE DE DIEPPE, Malaunay",
+    "lat": 49.517707,
+    "lng": 1.037752,
+    "transactions": [
+      {
+        "date": "2021-09-16",
+        "priceEur": 190000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-16",
+        "priceEur": 190000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7d7e6aa6460": {
+    "id": "f7d7e6aa6460",
+    "label": "7 RUE DU BEL ENDROIT, Le Houlme",
+    "lat": 49.515554,
+    "lng": 1.038076,
+    "transactions": [
+      {
+        "date": "2023-07-24",
+        "priceEur": 95000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-04",
+        "priceEur": 115000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-28",
+        "priceEur": 112000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-20",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "757a6a4d0850": {
+    "id": "757a6a4d0850",
+    "label": "40 RUE GUSTAVE DELARUE, Le Houlme",
+    "lat": 49.512223,
+    "lng": 1.035612,
+    "transactions": [
+      {
+        "date": "2022-02-17",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "97d577c51ee8": {
+    "id": "97d577c51ee8",
+    "label": "209 RUE DU GEN DE GAULLE, Le Houlme",
+    "lat": 49.516572,
+    "lng": 1.037167,
+    "transactions": [
+      {
+        "date": "2022-02-15",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6cf54709e8a": {
+    "id": "c6cf54709e8a",
+    "label": "104 RUE GUSTAVE DELARUE, Le Houlme",
+    "lat": 49.513121,
+    "lng": 1.033636,
+    "transactions": [
+      {
+        "date": "2022-02-22",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a7d5a4bc819": {
+    "id": "7a7d5a4bc819",
+    "label": "54 RUE COLONEL ALBERT LESUEUR, Le Houlme",
+    "lat": 49.511047,
+    "lng": 1.036424,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 351400,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "20a3872257f1": {
+    "id": "20a3872257f1",
+    "label": "173 RUE DU GEN DE GAULLE, Le Houlme",
+    "lat": 49.514792,
+    "lng": 1.036869,
+    "transactions": [
+      {
+        "date": "2022-03-08",
+        "priceEur": 132000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "a30fe847c922": {
+    "id": "a30fe847c922",
+    "label": "183 RUE DU GEN DE GAULLE, Le Houlme",
+    "lat": 49.514795,
+    "lng": 1.037322,
+    "transactions": [
+      {
+        "date": "2022-04-01",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "ded11743be35": {
+    "id": "ded11743be35",
+    "label": "52 RUE GUSTAVE DELARUE, Le Houlme",
+    "lat": 49.512515,
+    "lng": 1.035625,
+    "transactions": [
+      {
+        "date": "2022-04-04",
+        "priceEur": 103000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "41a86de45dde": {
+    "id": "41a86de45dde",
+    "label": "48 RUE GUSTAVE DELARUE, Le Houlme",
+    "lat": 49.51242,
+    "lng": 1.035593,
+    "transactions": [
+      {
+        "date": "2022-07-06",
+        "priceEur": 156000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6b5111267ec": {
+    "id": "c6b5111267ec",
+    "label": "14 RUE GUSTAVE DELARUE, Le Houlme",
+    "lat": 49.511132,
+    "lng": 1.035564,
+    "transactions": [
+      {
+        "date": "2023-04-24",
+        "priceEur": 161600,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d2c93c8ee27": {
+    "id": "2d2c93c8ee27",
+    "label": "90 RUE GUSTAVE DELARUE, Le Houlme",
+    "lat": 49.51319,
+    "lng": 1.034212,
+    "transactions": [
+      {
+        "date": "2023-07-11",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b22e5c9cabc": {
+    "id": "4b22e5c9cabc",
+    "label": "46 RUE GUSTAVE DELARUE, Le Houlme",
+    "lat": 49.512378,
+    "lng": 1.035584,
+    "transactions": [
+      {
+        "date": "2023-10-27",
+        "priceEur": 97500,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "772d2ead8575": {
+    "id": "772d2ead8575",
+    "label": "82 RUE GUSTAVE DELARUE, Le Houlme",
+    "lat": 49.51322,
+    "lng": 1.034583,
+    "transactions": [
+      {
+        "date": "2024-03-15",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "f296d9b6450f": {
+    "id": "f296d9b6450f",
+    "label": "32 RUE GUSTAVE DELARUE, Le Houlme",
+    "lat": 49.512051,
+    "lng": 1.035644,
+    "transactions": [
+      {
+        "date": "2024-05-13",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "0623caa915f2": {
+    "id": "0623caa915f2",
+    "label": "50 RUE GUSTAVE DELARUE, Le Houlme",
+    "lat": 49.512481,
+    "lng": 1.035661,
+    "transactions": [
+      {
+        "date": "2024-05-31",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "57305c45f609": {
+    "id": "57305c45f609",
+    "label": "176 RUE DU GEN DE GAULLE, Le Houlme",
+    "lat": 49.516671,
+    "lng": 1.037517,
+    "transactions": [
+      {
+        "date": "2024-08-08",
+        "priceEur": 264900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-08",
+        "priceEur": 264900,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "c41e3bed0b5d": {
+    "id": "c41e3bed0b5d",
+    "label": "86 RUE GUSTAVE DELARUE, Le Houlme",
+    "lat": 49.51321,
+    "lng": 1.034459,
+    "transactions": [
+      {
+        "date": "2024-11-25",
+        "priceEur": 178900,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea5a8a380b6d": {
+    "id": "ea5a8a380b6d",
+    "label": "54 RUE GUSTAVE DELARUE, Le Houlme",
+    "lat": 49.512549,
+    "lng": 1.035617,
+    "transactions": [
+      {
+        "date": "2025-06-13",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

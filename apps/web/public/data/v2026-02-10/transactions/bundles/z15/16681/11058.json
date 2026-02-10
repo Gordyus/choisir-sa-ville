@@ -1,0 +1,84 @@
+{
+  "22f23ab8e16b": {
+    "id": "22f23ab8e16b",
+    "label": "124 RUE JEAN BAPTISTE FIEVET, Somain",
+    "lat": 50.382394,
+    "lng": 3.270611,
+    "transactions": [
+      {
+        "date": "2021-02-24",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-21",
+        "priceEur": 106000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "28a0d949d130": {
+    "id": "28a0d949d130",
+    "label": "118 RUE JEAN BAPTISTE FIEVET, Somain",
+    "lat": 50.382112,
+    "lng": 3.271734,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5352e3563f9": {
+    "id": "a5352e3563f9",
+    "label": "136 RUE JEAN BAPTISTE FIEVET, Somain",
+    "lat": 50.383205,
+    "lng": 3.26842,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "aeaacb3d5ec5": {
+    "id": "aeaacb3d5ec5",
+    "label": "53 RUE JEAN BAPTISTE FIEVET, Rieulay",
+    "lat": 50.381003,
+    "lng": 3.262965,
+    "transactions": [
+      {
+        "date": "2023-03-31",
+        "priceEur": 83000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "a44bab8c93c4": {
+    "id": "a44bab8c93c4",
+    "label": "132 RUE JEAN BAPTISTE FIEVET, Somain",
+    "lat": 50.383194,
+    "lng": 3.26893,
+    "transactions": [
+      {
+        "date": "2025-03-28",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

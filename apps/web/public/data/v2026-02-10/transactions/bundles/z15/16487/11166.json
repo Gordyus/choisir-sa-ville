@@ -1,0 +1,129 @@
+{
+  "b5bfbf50fcb4": {
+    "id": "b5bfbf50fcb4",
+    "label": "81 RTE DU MONT LANDRIN, Frichemesnil",
+    "lat": 49.622028,
+    "lng": 1.135024,
+    "transactions": [
+      {
+        "date": "2021-03-31",
+        "priceEur": 264000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f5bbed294a7": {
+    "id": "7f5bbed294a7",
+    "label": "194 RTE DU BOLHARD, Frichemesnil",
+    "lat": 49.62301,
+    "lng": 1.142288,
+    "transactions": [
+      {
+        "date": "2021-10-18",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "e9fcd352b230": {
+    "id": "e9fcd352b230",
+    "label": "228 IMP DE L'EGLISE, Frichemesnil",
+    "lat": 49.624468,
+    "lng": 1.137744,
+    "transactions": [
+      {
+        "date": "2023-01-12",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2cde7913ae5": {
+    "id": "a2cde7913ae5",
+    "label": "5005 FRICHEMESNIL, Frichemesnil",
+    "lat": 49.62301,
+    "lng": 1.140028,
+    "transactions": [
+      {
+        "date": "2023-01-24",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "6df195018adb": {
+    "id": "6df195018adb",
+    "label": "114 IMP DE L'EGLISE, Frichemesnil",
+    "lat": 49.624242,
+    "lng": 1.138903,
+    "transactions": [
+      {
+        "date": "2023-07-27",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "d96a44c92d7b": {
+    "id": "d96a44c92d7b",
+    "label": "327 RTE DU VAL BOUVIER, Frichemesnil",
+    "lat": 49.618898,
+    "lng": 1.141422,
+    "transactions": [
+      {
+        "date": "2023-10-31",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f591cbf38aa": {
+    "id": "4f591cbf38aa",
+    "label": "118 RTE DE CLERES, Frichemesnil",
+    "lat": 49.621416,
+    "lng": 1.138126,
+    "transactions": [
+      {
+        "date": "2023-12-19",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-19",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a3a106c3f48": {
+    "id": "3a3a106c3f48",
+    "label": "49 IMP DE L'EGLISE, Frichemesnil",
+    "lat": 49.623333,
+    "lng": 1.138188,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  }
+}

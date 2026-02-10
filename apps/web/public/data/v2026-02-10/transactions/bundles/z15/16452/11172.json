@@ -1,0 +1,62 @@
+{
+  "1e735dc81d66": {
+    "id": "1e735dc81d66",
+    "label": "233 RTE DU BOURG HAUTOT, Touffreville-la-Corbeline",
+    "lat": 49.578725,
+    "lng": 0.757586,
+    "transactions": [
+      {
+        "date": "2021-10-16",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "d81e29d528fc": {
+    "id": "d81e29d528fc",
+    "label": "400 RTE DU BOURG HAUTOT, Touffreville-la-Corbeline",
+    "lat": 49.579418,
+    "lng": 0.755856,
+    "transactions": [
+      {
+        "date": "2023-07-06",
+        "priceEur": 272500,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "f2ca0dd0ba54": {
+    "id": "f2ca0dd0ba54",
+    "label": "270 CHE DU BOURG NAUDIN, Touffreville-la-Corbeline",
+    "lat": 49.578493,
+    "lng": 0.754579,
+    "transactions": [
+      {
+        "date": "2023-10-04",
+        "priceEur": 202000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "61dd0c5da506": {
+    "id": "61dd0c5da506",
+    "label": "444 IMP DU CHATEAU DU BOURG NAUDIN, Touffreville-la-Corbeline",
+    "lat": 49.57534,
+    "lng": 0.755628,
+    "transactions": [
+      {
+        "date": "2023-10-23",
+        "priceEur": 625000,
+        "typeLocal": "Maison",
+        "surfaceM2": 228,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "511e3500bb64": {
+    "id": "511e3500bb64",
+    "label": "46 LE BOUT DU CAULE, Le Caule-Sainte-Beuve",
+    "lat": 49.774788,
+    "lng": 1.58741,
+    "transactions": [
+      {
+        "date": "2022-06-17",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-07",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "4dbfd855da1a": {
+    "id": "4dbfd855da1a",
+    "label": "76 RTE DE LA FORET, Le Caule-Sainte-Beuve",
+    "lat": 49.774245,
+    "lng": 1.588493,
+    "transactions": [
+      {
+        "date": "2024-12-26",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  }
+}

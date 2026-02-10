@@ -1,0 +1,32 @@
+{
+  "59063f9924fa": {
+    "id": "59063f9924fa",
+    "label": "1134 RTE DE LA FERTE, Mésangueville",
+    "lat": 49.558831,
+    "lng": 1.559484,
+    "transactions": [
+      {
+        "date": "2021-03-15",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "5663238dfd66": {
+    "id": "5663238dfd66",
+    "label": "1167 RTE DE LA FERTE, Mésangueville",
+    "lat": 49.558314,
+    "lng": 1.557212,
+    "transactions": [
+      {
+        "date": "2023-03-09",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,983 @@
+{
+  "c86cfbb40588": {
+    "id": "c86cfbb40588",
+    "label": "36B RTE DE BERGUES, Cappelle-la-Grande",
+    "lat": 50.999792,
+    "lng": 2.386268,
+    "transactions": [
+      {
+        "date": "2020-07-15",
+        "priceEur": 201000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4cf8f86bd45": {
+    "id": "f4cf8f86bd45",
+    "label": "26 RUE AMBROISE CROIZAT, Cappelle-la-Grande",
+    "lat": 50.994913,
+    "lng": 2.387523,
+    "transactions": [
+      {
+        "date": "2020-07-29",
+        "priceEur": 182000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea85c4a171f9": {
+    "id": "ea85c4a171f9",
+    "label": "5 RUE MARX DORMOY, Cappelle-la-Grande",
+    "lat": 50.995645,
+    "lng": 2.386493,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 188500,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a3e3f1d303d": {
+    "id": "3a3e3f1d303d",
+    "label": "29 RUE DES JARDINS, Cappelle-la-Grande",
+    "lat": 50.998709,
+    "lng": 2.387221,
+    "transactions": [
+      {
+        "date": "2020-08-18",
+        "priceEur": 128600,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "a00e6aef93dc": {
+    "id": "a00e6aef93dc",
+    "label": "1 RUE AMBROISE CROIZAT, Cappelle-la-Grande",
+    "lat": 50.995063,
+    "lng": 2.386318,
+    "transactions": [
+      {
+        "date": "2020-09-16",
+        "priceEur": 215200,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc8355761e0a": {
+    "id": "bc8355761e0a",
+    "label": "26 RUE JULES GUESDE, Cappelle-la-Grande",
+    "lat": 50.995167,
+    "lng": 2.387961,
+    "transactions": [
+      {
+        "date": "2020-11-13",
+        "priceEur": 171000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8312a4ffede": {
+    "id": "e8312a4ffede",
+    "label": "3 RUE AMBROISE CROIZAT, Cappelle-la-Grande",
+    "lat": 50.994923,
+    "lng": 2.386348,
+    "transactions": [
+      {
+        "date": "2020-11-05",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "482770f5b76d": {
+    "id": "482770f5b76d",
+    "label": "4 RUE VAILLANT COUTURIER, Cappelle-la-Grande",
+    "lat": 50.997858,
+    "lng": 2.385338,
+    "transactions": [
+      {
+        "date": "2020-11-19",
+        "priceEur": 143000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "602a0f9ec57e": {
+    "id": "602a0f9ec57e",
+    "label": "5 RUE JEAN JAURES, Cappelle-la-Grande",
+    "lat": 50.997219,
+    "lng": 2.386531,
+    "transactions": [
+      {
+        "date": "2020-11-26",
+        "priceEur": 177500,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "f36d7c3179fe": {
+    "id": "f36d7c3179fe",
+    "label": "84 RTE DE BERGUES, Cappelle-la-Grande",
+    "lat": 50.99796,
+    "lng": 2.390586,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "e5a8b102eefc": {
+    "id": "e5a8b102eefc",
+    "label": "16 RUE JULES GUESDE, Cappelle-la-Grande",
+    "lat": 50.996266,
+    "lng": 2.387558,
+    "transactions": [
+      {
+        "date": "2020-12-21",
+        "priceEur": 158500,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "6f9e9700b278": {
+    "id": "6f9e9700b278",
+    "label": "40 CD 916 RTE DE BERGUES, Téteghem-Coudekerque-Village",
+    "lat": 50.99494,
+    "lng": 2.394144,
+    "transactions": [
+      {
+        "date": "2021-01-20",
+        "priceEur": 88600,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e8885e3b5f8": {
+    "id": "1e8885e3b5f8",
+    "label": "70 RTE DE BERGUES, Cappelle-la-Grande",
+    "lat": 50.998424,
+    "lng": 2.389537,
+    "transactions": [
+      {
+        "date": "2021-03-24",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "abe5417e5720": {
+    "id": "abe5417e5720",
+    "label": "39 CD 916 RTE DE BERGUES, Téteghem-Coudekerque-Village",
+    "lat": 50.994466,
+    "lng": 2.394622,
+    "transactions": [
+      {
+        "date": "2025-03-07",
+        "priceEur": 146500,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-04",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-26",
+        "priceEur": 123500,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "710095fbc438": {
+    "id": "710095fbc438",
+    "label": "31 RUE JULES GUESDE, Cappelle-la-Grande",
+    "lat": 50.997551,
+    "lng": 2.387162,
+    "transactions": [
+      {
+        "date": "2021-05-21",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1f213eb140d": {
+    "id": "f1f213eb140d",
+    "label": "96 RUE LATERALE, Cappelle-la-Grande",
+    "lat": 50.996904,
+    "lng": 2.388077,
+    "transactions": [
+      {
+        "date": "2021-05-24",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "a01dd55ffed5": {
+    "id": "a01dd55ffed5",
+    "label": "64 RTE DE BERGUES, Cappelle-la-Grande",
+    "lat": 50.998567,
+    "lng": 2.388964,
+    "transactions": [
+      {
+        "date": "2021-06-16",
+        "priceEur": 98000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "f38c6b7accf2": {
+    "id": "f38c6b7accf2",
+    "label": "13 RUE JEAN JAURES, Cappelle-la-Grande",
+    "lat": 50.996433,
+    "lng": 2.386974,
+    "transactions": [
+      {
+        "date": "2021-07-01",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "b020a79c7792": {
+    "id": "b020a79c7792",
+    "label": "62 RTE DE BERGUES, Cappelle-la-Grande",
+    "lat": 50.998502,
+    "lng": 2.388652,
+    "transactions": [
+      {
+        "date": "2021-08-12",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3d8d0cc2356": {
+    "id": "b3d8d0cc2356",
+    "label": "10 RUE JULES GUESDE, Cappelle-la-Grande",
+    "lat": 50.997402,
+    "lng": 2.386854,
+    "transactions": [
+      {
+        "date": "2021-09-28",
+        "priceEur": 170500,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "ddf94350ef70": {
+    "id": "ddf94350ef70",
+    "label": "8 RUE PIERRE SEMARD, Cappelle-la-Grande",
+    "lat": 50.996517,
+    "lng": 2.385062,
+    "transactions": [
+      {
+        "date": "2021-10-13",
+        "priceEur": 204750,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "808c1375de33": {
+    "id": "808c1375de33",
+    "label": "56 RTE DE DUNKERQUE, Bierne",
+    "lat": 50.997311,
+    "lng": 2.391741,
+    "transactions": [
+      {
+        "date": "2021-12-23",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "95c3f4f5ca9b": {
+    "id": "95c3f4f5ca9b",
+    "label": "7 RUE DU CLOS DU CAP, Cappelle-la-Grande",
+    "lat": 50.999668,
+    "lng": 2.384098,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 820000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9438ec8ab14": {
+    "id": "b9438ec8ab14",
+    "label": "8 RUE DU CLOS DU CAP, Cappelle-la-Grande",
+    "lat": 50.99959,
+    "lng": 2.384149,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 820000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb6848824663": {
+    "id": "fb6848824663",
+    "label": "85 RTE DE BIERNE, Cappelle-la-Grande",
+    "lat": 50.996359,
+    "lng": 2.384608,
+    "transactions": [
+      {
+        "date": "2022-02-21",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "cacaae34bf6e": {
+    "id": "cacaae34bf6e",
+    "label": "8 RUE GABRIEL PERI, Cappelle-la-Grande",
+    "lat": 50.996692,
+    "lng": 2.385881,
+    "transactions": [
+      {
+        "date": "2022-03-03",
+        "priceEur": 150020,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5d5c02f6d20": {
+    "id": "d5d5c02f6d20",
+    "label": "10 RUE GABRIEL PERI, Cappelle-la-Grande",
+    "lat": 50.996741,
+    "lng": 2.38603,
+    "transactions": [
+      {
+        "date": "2022-03-19",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "89506b13e7dd": {
+    "id": "89506b13e7dd",
+    "label": "39 RUE DES JARDINS, Cappelle-la-Grande",
+    "lat": 50.998324,
+    "lng": 2.387713,
+    "transactions": [
+      {
+        "date": "2022-05-24",
+        "priceEur": 223800,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "a4cb34c7ce08": {
+    "id": "a4cb34c7ce08",
+    "label": "9 RUE VAILLANT COUTURIER, Cappelle-la-Grande",
+    "lat": 50.997657,
+    "lng": 2.384169,
+    "transactions": [
+      {
+        "date": "2022-06-04",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "09464ca9a37e": {
+    "id": "09464ca9a37e",
+    "label": "5 RUE JULES GUESDE, Cappelle-la-Grande",
+    "lat": 50.998476,
+    "lng": 2.386014,
+    "transactions": [
+      {
+        "date": "2022-06-08",
+        "priceEur": 233000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "d0be5ef7633f": {
+    "id": "d0be5ef7633f",
+    "label": "30 RUE PIERRE SEMARD, Cappelle-la-Grande",
+    "lat": 50.995879,
+    "lng": 2.385765,
+    "transactions": [
+      {
+        "date": "2022-06-13",
+        "priceEur": 240500,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "3659c11c0e0a": {
+    "id": "3659c11c0e0a",
+    "label": "21 RUE JULES GUESDE, Cappelle-la-Grande",
+    "lat": 50.997929,
+    "lng": 2.386779,
+    "transactions": [
+      {
+        "date": "2022-06-17",
+        "priceEur": 199900,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "347a6593a6b1": {
+    "id": "347a6593a6b1",
+    "label": "51 RTE DE DUNKERQUE, Bierne",
+    "lat": 50.996764,
+    "lng": 2.392274,
+    "transactions": [
+      {
+        "date": "2022-07-04",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "937a26e66dc1": {
+    "id": "937a26e66dc1",
+    "label": "39 RTE DE BERGUES, Cappelle-la-Grande",
+    "lat": 50.999785,
+    "lng": 2.387087,
+    "transactions": [
+      {
+        "date": "2022-08-01",
+        "priceEur": 202700,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3213636670a": {
+    "id": "d3213636670a",
+    "label": "15 RUE VAILLANT COUTURIER, Cappelle-la-Grande",
+    "lat": 50.998024,
+    "lng": 2.38462,
+    "transactions": [
+      {
+        "date": "2022-09-29",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe7a7e169d42": {
+    "id": "fe7a7e169d42",
+    "label": "1 RUE MARCEL CACHIN, Cappelle-la-Grande",
+    "lat": 50.997025,
+    "lng": 2.38407,
+    "transactions": [
+      {
+        "date": "2022-11-24",
+        "priceEur": 241500,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ab0433692b8": {
+    "id": "2ab0433692b8",
+    "label": "21 RUE AMBROISE CROIZAT, Cappelle-la-Grande",
+    "lat": 50.99518,
+    "lng": 2.387753,
+    "transactions": [
+      {
+        "date": "2022-11-18",
+        "priceEur": 161000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "eaee1536e478": {
+    "id": "eaee1536e478",
+    "label": "71 RUE JULES GUESDE, Cappelle-la-Grande",
+    "lat": 50.995008,
+    "lng": 2.388359,
+    "transactions": [
+      {
+        "date": "2022-12-09",
+        "priceEur": 152100,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "2159b733fcd2": {
+    "id": "2159b733fcd2",
+    "label": "19 RUE MARX DORMOY, Cappelle-la-Grande",
+    "lat": 50.996082,
+    "lng": 2.388056,
+    "transactions": [
+      {
+        "date": "2023-01-09",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee869262dec1": {
+    "id": "ee869262dec1",
+    "label": "2 RUE MARCEL CACHIN, Cappelle-la-Grande",
+    "lat": 50.996717,
+    "lng": 2.384319,
+    "transactions": [
+      {
+        "date": "2023-02-17",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "7de57c8986dd": {
+    "id": "7de57c8986dd",
+    "label": "44 RTE DE DUNKERQUE, Bierne",
+    "lat": 50.995259,
+    "lng": 2.393805,
+    "transactions": [
+      {
+        "date": "2024-08-02",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-22",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "290ec5ac1cf0": {
+    "id": "290ec5ac1cf0",
+    "label": "3 RUE VAILLANT COUTURIER, Cappelle-la-Grande",
+    "lat": 50.997595,
+    "lng": 2.384686,
+    "transactions": [
+      {
+        "date": "2023-04-20",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f8a01773b26": {
+    "id": "5f8a01773b26",
+    "label": "20 RUE DES JARDINS, Cappelle-la-Grande",
+    "lat": 50.998869,
+    "lng": 2.387732,
+    "transactions": [
+      {
+        "date": "2023-05-25",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb10be39bc7b": {
+    "id": "fb10be39bc7b",
+    "label": "22 RUE JEAN JAURES, Cappelle-la-Grande",
+    "lat": 50.996024,
+    "lng": 2.386584,
+    "transactions": [
+      {
+        "date": "2023-06-02",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "dead68ea9548": {
+    "id": "dead68ea9548",
+    "label": "24 RUE AMBROISE CROIZAT, Cappelle-la-Grande",
+    "lat": 50.994841,
+    "lng": 2.387317,
+    "transactions": [
+      {
+        "date": "2023-06-23",
+        "priceEur": 195500,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "356b34e55b2a": {
+    "id": "356b34e55b2a",
+    "label": "19 RUE PIERRE SEMARD, Cappelle-la-Grande",
+    "lat": 50.996017,
+    "lng": 2.386104,
+    "transactions": [
+      {
+        "date": "2023-07-25",
+        "priceEur": 241800,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "df1d53319ec1": {
+    "id": "df1d53319ec1",
+    "label": "4 CITE BRYCHE, Cappelle-la-Grande",
+    "lat": 50.997827,
+    "lng": 2.389748,
+    "transactions": [
+      {
+        "date": "2023-10-11",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9be7cf8b1fa": {
+    "id": "f9be7cf8b1fa",
+    "label": "50 RTE DE DUNKERQUE, Bierne",
+    "lat": 50.996657,
+    "lng": 2.392395,
+    "transactions": [
+      {
+        "date": "2023-11-27",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "9977cbd46bd6": {
+    "id": "9977cbd46bd6",
+    "label": "24 RUE JULES GUESDE, Cappelle-la-Grande",
+    "lat": 50.99532,
+    "lng": 2.387981,
+    "transactions": [
+      {
+        "date": "2023-11-23",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "535f3d23a72b": {
+    "id": "535f3d23a72b",
+    "label": "19 RUE AMBROISE CROIZAT, Cappelle-la-Grande",
+    "lat": 50.995222,
+    "lng": 2.387561,
+    "transactions": [
+      {
+        "date": "2024-01-18",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "f300baec24c9": {
+    "id": "f300baec24c9",
+    "label": "11 RUE JULES GUESDE, Cappelle-la-Grande",
+    "lat": 50.998267,
+    "lng": 2.386294,
+    "transactions": [
+      {
+        "date": "2024-03-29",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "914dd0bb17dc": {
+    "id": "914dd0bb17dc",
+    "label": "3 RUE GABRIEL PERI, Cappelle-la-Grande",
+    "lat": 50.996898,
+    "lng": 2.385508,
+    "transactions": [
+      {
+        "date": "2024-05-03",
+        "priceEur": 161500,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "51d622f09d53": {
+    "id": "51d622f09d53",
+    "label": "5 RUE GABRIEL PERI, Cappelle-la-Grande",
+    "lat": 50.996993,
+    "lng": 2.385586,
+    "transactions": [
+      {
+        "date": "2024-05-06",
+        "priceEur": 191460,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "efa37ab3c497": {
+    "id": "efa37ab3c497",
+    "label": "35 RUE JULES GUESDE, Cappelle-la-Grande",
+    "lat": 50.997035,
+    "lng": 2.387192,
+    "transactions": [
+      {
+        "date": "2024-06-07",
+        "priceEur": 196000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "c1f637b83ae2": {
+    "id": "c1f637b83ae2",
+    "label": "38 RUE PIERRE SEMARD, Cappelle-la-Grande",
+    "lat": 50.995428,
+    "lng": 2.385762,
+    "transactions": [
+      {
+        "date": "2024-07-24",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6975ee4b4cb": {
+    "id": "e6975ee4b4cb",
+    "label": "27 RUE DES JARDINS, Cappelle-la-Grande",
+    "lat": 50.998775,
+    "lng": 2.387131,
+    "transactions": [
+      {
+        "date": "2024-07-29",
+        "priceEur": 112000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "0890f14c2f45": {
+    "id": "0890f14c2f45",
+    "label": "103 RTE DE BIERNE, Cappelle-la-Grande",
+    "lat": 50.995567,
+    "lng": 2.385104,
+    "transactions": [
+      {
+        "date": "2024-07-23",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "0231a2b6f535": {
+    "id": "0231a2b6f535",
+    "label": "24 RUE MARX DORMOY, Cappelle-la-Grande",
+    "lat": 50.995598,
+    "lng": 2.387743,
+    "transactions": [
+      {
+        "date": "2024-07-16",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "371bda99cce5": {
+    "id": "371bda99cce5",
+    "label": "25 RUE JEAN JAURES, Cappelle-la-Grande",
+    "lat": 50.995957,
+    "lng": 2.387373,
+    "transactions": [
+      {
+        "date": "2024-08-30",
+        "priceEur": 180500,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "be30a3220fd1": {
+    "id": "be30a3220fd1",
+    "label": "61 RTE DE DUNKERQUE, Bierne",
+    "lat": 50.997556,
+    "lng": 2.391265,
+    "transactions": [
+      {
+        "date": "2024-09-18",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "f217df6725b6": {
+    "id": "f217df6725b6",
+    "label": "63 RUE DES JARDINS, Cappelle-la-Grande",
+    "lat": 50.997851,
+    "lng": 2.388581,
+    "transactions": [
+      {
+        "date": "2024-10-11",
+        "priceEur": 237500,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e94afb38d65": {
+    "id": "5e94afb38d65",
+    "label": "9 RUE JULES GUESDE, Cappelle-la-Grande",
+    "lat": 50.998368,
+    "lng": 2.38625,
+    "transactions": [
+      {
+        "date": "2024-11-07",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "c596119321ed": {
+    "id": "c596119321ed",
+    "label": "15 RUE GABRIEL PERI, Cappelle-la-Grande",
+    "lat": 50.99725,
+    "lng": 2.386906,
+    "transactions": [
+      {
+        "date": "2025-04-15",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "2dcb93f59477": {
+    "id": "2dcb93f59477",
+    "label": "73 RTE DE BERGUES, Cappelle-la-Grande",
+    "lat": 50.998099,
+    "lng": 2.390193,
+    "transactions": [
+      {
+        "date": "2025-05-23",
+        "priceEur": 237000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

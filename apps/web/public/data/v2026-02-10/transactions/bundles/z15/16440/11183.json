@@ -1,0 +1,77 @@
+{
+  "1490d80ed9f5": {
+    "id": "1490d80ed9f5",
+    "label": "5 RES GUILLEMINE, Port-Jérôme-sur-Seine",
+    "lat": 49.501025,
+    "lng": 0.625091,
+    "transactions": [
+      {
+        "date": "2021-06-22",
+        "priceEur": 194250,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "debd86742155": {
+    "id": "debd86742155",
+    "label": "1 RES DU STADE, Port-Jérôme-sur-Seine",
+    "lat": 49.501888,
+    "lng": 0.62292,
+    "transactions": [
+      {
+        "date": "2022-01-17",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "f61708284b47": {
+    "id": "f61708284b47",
+    "label": "5092 LE VILLAGE - TRIQUERVILLE, Port-Jérôme-sur-Seine",
+    "lat": 49.502184,
+    "lng": 0.62613,
+    "transactions": [
+      {
+        "date": "2022-06-01",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "505055267441": {
+    "id": "505055267441",
+    "label": "53 RTE DE SAINT MAURICE, Port-Jérôme-sur-Seine",
+    "lat": 49.501019,
+    "lng": 0.624174,
+    "transactions": [
+      {
+        "date": "2022-06-15",
+        "priceEur": 182000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "69a0e150fd75": {
+    "id": "69a0e150fd75",
+    "label": "417B D 28, Port-Jérôme-sur-Seine",
+    "lat": 49.497837,
+    "lng": 0.615773,
+    "transactions": [
+      {
+        "date": "2023-02-02",
+        "priceEur": 87500,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  }
+}

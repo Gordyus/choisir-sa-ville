@@ -1,0 +1,32 @@
+{
+  "8f582caa798a": {
+    "id": "8f582caa798a",
+    "label": "5124 VILLY LE HAUT, Avesnes-en-Val",
+    "lat": 49.914355,
+    "lng": 1.431758,
+    "transactions": [
+      {
+        "date": "2021-05-12",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "6dfc8ec55672": {
+    "id": "6dfc8ec55672",
+    "label": "5024 VILLY LE HAUT, Avesnes-en-Val",
+    "lat": 49.914279,
+    "lng": 1.432111,
+    "transactions": [
+      {
+        "date": "2023-02-17",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  }
+}

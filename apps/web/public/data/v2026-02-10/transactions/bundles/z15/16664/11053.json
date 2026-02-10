@@ -1,0 +1,54 @@
+{
+  "f16fa3ab8617": {
+    "id": "f16fa3ab8617",
+    "label": "425 RUE LEON BLUM, Roost-Warendin",
+    "lat": 50.418126,
+    "lng": 3.086425,
+    "transactions": [
+      {
+        "date": "2020-12-21",
+        "priceEur": 74000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "bbf2d670022f": {
+    "id": "bbf2d670022f",
+    "label": "380 RUE LEON BLUM, Roost-Warendin",
+    "lat": 50.417349,
+    "lng": 3.086575,
+    "transactions": [
+      {
+        "date": "2024-11-08",
+        "priceEur": 117900,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-17",
+        "priceEur": 134000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "643427c853f0": {
+    "id": "643427c853f0",
+    "label": "405B RUE LEON BLUM, Roost-Warendin",
+    "lat": 50.418313,
+    "lng": 3.086822,
+    "transactions": [
+      {
+        "date": "2024-02-28",
+        "priceEur": 210500,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  }
+}

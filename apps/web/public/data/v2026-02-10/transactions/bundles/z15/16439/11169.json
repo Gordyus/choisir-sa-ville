@@ -1,0 +1,24 @@
+{
+  "6444ad81bcc8": {
+    "id": "6444ad81bcc8",
+    "label": "44 RTE DE FOUCART, Alvimare",
+    "lat": 49.602153,
+    "lng": 0.613083,
+    "transactions": [
+      {
+        "date": "2023-05-20",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-16",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

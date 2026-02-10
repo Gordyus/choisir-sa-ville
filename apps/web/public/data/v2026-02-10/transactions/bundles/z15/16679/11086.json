@@ -1,0 +1,508 @@
+{
+  "0138909402cd": {
+    "id": "0138909402cd",
+    "label": "108 RUE LEVEQUE, Cambrai",
+    "lat": 50.185565,
+    "lng": 3.24912,
+    "transactions": [
+      {
+        "date": "2020-07-01",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "aeaa47a9e36c": {
+    "id": "aeaa47a9e36c",
+    "label": "72 RUE DE TOURCOING, Cambrai",
+    "lat": 50.184265,
+    "lng": 3.241671,
+    "transactions": [
+      {
+        "date": "2020-10-05",
+        "priceEur": 64000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "19c84f054a05": {
+    "id": "19c84f054a05",
+    "label": "99 ALL SAINT-ROCH, Cambrai",
+    "lat": 50.184751,
+    "lng": 3.242697,
+    "transactions": [
+      {
+        "date": "2020-10-09",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "5ac42795cf6c": {
+    "id": "5ac42795cf6c",
+    "label": "54 RUE LEVEQUE, Cambrai",
+    "lat": 50.185294,
+    "lng": 3.242325,
+    "transactions": [
+      {
+        "date": "2020-09-24",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee1734cfb89b": {
+    "id": "ee1734cfb89b",
+    "label": "15 RUE DU MARAIS, Escaudœuvres",
+    "lat": 50.186866,
+    "lng": 3.25188,
+    "transactions": [
+      {
+        "date": "2020-10-15",
+        "priceEur": 78000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "40ccdb944b8c": {
+    "id": "40ccdb944b8c",
+    "label": "56 RUE LEVEQUE, Cambrai",
+    "lat": 50.185272,
+    "lng": 3.242393,
+    "transactions": [
+      {
+        "date": "2020-11-26",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "f73e6895cb67": {
+    "id": "f73e6895cb67",
+    "label": "15 RUE RENE DUMONT, Cambrai",
+    "lat": 50.184818,
+    "lng": 3.250563,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 189500,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "c1dde79000b6": {
+    "id": "c1dde79000b6",
+    "label": "13 RUE RENE DUMONT, Cambrai",
+    "lat": 50.184907,
+    "lng": 3.250732,
+    "transactions": [
+      {
+        "date": "2021-01-04",
+        "priceEur": 166650,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "489f9677bc6f": {
+    "id": "489f9677bc6f",
+    "label": "98 RUE LEVEQUE, Cambrai",
+    "lat": 50.185554,
+    "lng": 3.247881,
+    "transactions": [
+      {
+        "date": "2023-01-10",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 33,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-10",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-04",
+        "priceEur": 25000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 33,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-04",
+        "priceEur": 25000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee4565e08f69": {
+    "id": "ee4565e08f69",
+    "label": "74 RUE LEVEQUE, Cambrai",
+    "lat": 50.185398,
+    "lng": 3.244943,
+    "transactions": [
+      {
+        "date": "2021-06-16",
+        "priceEur": 139550,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "17de9f2533e6": {
+    "id": "17de9f2533e6",
+    "label": "69 RUE DE TOURCOING, Cambrai",
+    "lat": 50.184136,
+    "lng": 3.241124,
+    "transactions": [
+      {
+        "date": "2023-03-18",
+        "priceEur": 123000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-02",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd9b87527216": {
+    "id": "bd9b87527216",
+    "label": "111 ALL SAINT-ROCH, Cambrai",
+    "lat": 50.185101,
+    "lng": 3.242769,
+    "transactions": [
+      {
+        "date": "2021-07-22",
+        "priceEur": 165850,
+        "typeLocal": "Maison",
+        "surfaceM2": 195,
+        "isVefa": false
+      }
+    ]
+  },
+  "e52d8b2049dd": {
+    "id": "e52d8b2049dd",
+    "label": "10 RUE RENE DUMONT, Cambrai",
+    "lat": 50.184932,
+    "lng": 3.249864,
+    "transactions": [
+      {
+        "date": "2021-08-16",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d0aa0b594eb": {
+    "id": "9d0aa0b594eb",
+    "label": "84 ALL SAINT-ROCH, Cambrai",
+    "lat": 50.184148,
+    "lng": 3.243494,
+    "transactions": [
+      {
+        "date": "2021-08-30",
+        "priceEur": 87140,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e1f2e679812": {
+    "id": "8e1f2e679812",
+    "label": "90 ALL SAINT-ROCH, Cambrai",
+    "lat": 50.184335,
+    "lng": 3.243537,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 193770,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "946b7aef5f5a": {
+    "id": "946b7aef5f5a",
+    "label": "129 RUE LEVEQUE, Cambrai",
+    "lat": 50.186029,
+    "lng": 3.245266,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "713b473a89be": {
+    "id": "713b473a89be",
+    "label": "116 ALL SAINT-ROCH, Cambrai",
+    "lat": 50.185282,
+    "lng": 3.24365,
+    "transactions": [
+      {
+        "date": "2022-03-18",
+        "priceEur": 165000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-18",
+        "priceEur": 165000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-18",
+        "priceEur": 165000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "01629c4a4bb7": {
+    "id": "01629c4a4bb7",
+    "label": "24 RUE DU MARAIS, Escaudœuvres",
+    "lat": 50.18612,
+    "lng": 3.251181,
+    "transactions": [
+      {
+        "date": "2022-04-21",
+        "priceEur": 42000,
+        "typeLocal": "Maison",
+        "surfaceM2": 28,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9454344c0c3": {
+    "id": "c9454344c0c3",
+    "label": "18 RUE DU MARAIS, Escaudœuvres",
+    "lat": 50.185999,
+    "lng": 3.251394,
+    "transactions": [
+      {
+        "date": "2022-09-15",
+        "priceEur": 87300,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "d981b9566b00": {
+    "id": "d981b9566b00",
+    "label": "78 ALL SAINT-ROCH, Cambrai",
+    "lat": 50.183938,
+    "lng": 3.243452,
+    "transactions": [
+      {
+        "date": "2022-10-14",
+        "priceEur": 228000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5768f462de1": {
+    "id": "c5768f462de1",
+    "label": "143 RUE LEVEQUE, Cambrai",
+    "lat": 50.186036,
+    "lng": 3.24822,
+    "transactions": [
+      {
+        "date": "2022-10-19",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c35e0ec2690": {
+    "id": "0c35e0ec2690",
+    "label": "60 RUE LEVEQUE, Cambrai",
+    "lat": 50.185334,
+    "lng": 3.242763,
+    "transactions": [
+      {
+        "date": "2023-02-17",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1c9da138cb0": {
+    "id": "a1c9da138cb0",
+    "label": "62 RUE LEVEQUE, Cambrai",
+    "lat": 50.18544,
+    "lng": 3.243,
+    "transactions": [
+      {
+        "date": "2023-02-17",
+        "priceEur": 225000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-17",
+        "priceEur": 225000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 15,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-17",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "45298358ceda": {
+    "id": "45298358ceda",
+    "label": "112 RUE LEVEQUE, Cambrai",
+    "lat": 50.185619,
+    "lng": 3.249372,
+    "transactions": [
+      {
+        "date": "2023-02-27",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "4945704a16cf": {
+    "id": "4945704a16cf",
+    "label": "118 ALL SAINT-ROCH, Cambrai",
+    "lat": 50.185358,
+    "lng": 3.243628,
+    "transactions": [
+      {
+        "date": "2024-01-08",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "ade8074514fb": {
+    "id": "ade8074514fb",
+    "label": "2 RUE DU MARAIS, Escaudœuvres",
+    "lat": 50.186135,
+    "lng": 3.250745,
+    "transactions": [
+      {
+        "date": "2024-01-23",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "70ec4903c842": {
+    "id": "70ec4903c842",
+    "label": "108 ALL SAINT-ROCH, Cambrai",
+    "lat": 50.184972,
+    "lng": 3.243568,
+    "transactions": [
+      {
+        "date": "2024-05-14",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "df478a949d89": {
+    "id": "df478a949d89",
+    "label": "82 ALL SAINT-ROCH, Cambrai",
+    "lat": 50.184037,
+    "lng": 3.243436,
+    "transactions": [
+      {
+        "date": "2024-05-07",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6743b4c1323": {
+    "id": "f6743b4c1323",
+    "label": "3 RUE DU MARAIS, Escaudœuvres",
+    "lat": 50.186509,
+    "lng": 3.251062,
+    "transactions": [
+      {
+        "date": "2025-01-27",
+        "priceEur": 87900,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "0868e08dd612": {
+    "id": "0868e08dd612",
+    "label": "27 RUE RENE DUMONT, Cambrai",
+    "lat": 50.184303,
+    "lng": 3.249316,
+    "transactions": [
+      {
+        "date": "2025-02-04",
+        "priceEur": 217000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  }
+}

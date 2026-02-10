@@ -1,0 +1,440 @@
+{
+  "5765983d881f": {
+    "id": "5765983d881f",
+    "label": "56 RTE DE CASTRES, Saint-Pons-de-Thomières",
+    "lat": 43.487299,
+    "lng": 2.755177,
+    "transactions": [
+      {
+        "date": "2020-09-15",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe7344c28a52": {
+    "id": "fe7344c28a52",
+    "label": "5457 MARCOURINE, Saint-Pons-de-Thomières",
+    "lat": 43.486975,
+    "lng": 2.754064,
+    "transactions": [
+      {
+        "date": "2024-04-15",
+        "priceEur": 140900,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-27",
+        "priceEur": 107000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a125939f4d7": {
+    "id": "8a125939f4d7",
+    "label": "46 RTE DE CASTRES, Saint-Pons-de-Thomières",
+    "lat": 43.487634,
+    "lng": 2.755575,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-30",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9f36dc66b55": {
+    "id": "b9f36dc66b55",
+    "label": "1 CHE DES PORTES, Saint-Pons-de-Thomières",
+    "lat": 43.489085,
+    "lng": 2.756841,
+    "transactions": [
+      {
+        "date": "2021-02-26",
+        "priceEur": 422000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-26",
+        "priceEur": 422000,
+        "typeLocal": "Maison",
+        "surfaceM2": 296,
+        "isVefa": false
+      }
+    ]
+  },
+  "e7a3c9674581": {
+    "id": "e7a3c9674581",
+    "label": "18 RTE DE MARTHOMIS, Saint-Pons-de-Thomières",
+    "lat": 43.486129,
+    "lng": 2.753328,
+    "transactions": [
+      {
+        "date": "2021-04-07",
+        "priceEur": 98365,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "20a038a0682a": {
+    "id": "20a038a0682a",
+    "label": "5637 RTE DE MARTHOMIS, Saint-Pons-de-Thomières",
+    "lat": 43.485324,
+    "lng": 2.750562,
+    "transactions": [
+      {
+        "date": "2021-04-27",
+        "priceEur": 122800,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "499b28f80e1c": {
+    "id": "499b28f80e1c",
+    "label": "26 RTE DE CASTRES, Saint-Pons-de-Thomières",
+    "lat": 43.488133,
+    "lng": 2.756336,
+    "transactions": [
+      {
+        "date": "2021-04-29",
+        "priceEur": 67000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ee88f758fb0": {
+    "id": "2ee88f758fb0",
+    "label": "5577 RTE DE CASTRES, Saint-Pons-de-Thomières",
+    "lat": 43.48487,
+    "lng": 2.752629,
+    "transactions": [
+      {
+        "date": "2021-05-15",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d5c6c6a8932": {
+    "id": "7d5c6c6a8932",
+    "label": "58 RTE DE CASTRES, Saint-Pons-de-Thomières",
+    "lat": 43.487282,
+    "lng": 2.754998,
+    "transactions": [
+      {
+        "date": "2021-10-06",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "65e3dcf96ca2": {
+    "id": "65e3dcf96ca2",
+    "label": "9 RTE DE LA SALVETAT, Saint-Pons-de-Thomières",
+    "lat": 43.491248,
+    "lng": 2.757145,
+    "transactions": [
+      {
+        "date": "2021-11-19",
+        "priceEur": 79000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-19",
+        "priceEur": 79000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-19",
+        "priceEur": 79000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-19",
+        "priceEur": 79000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "1165615e5fd5": {
+    "id": "1165615e5fd5",
+    "label": "1 RTE DE CASTRES, Saint-Pons-de-Thomières",
+    "lat": 43.488534,
+    "lng": 2.757514,
+    "transactions": [
+      {
+        "date": "2022-04-15",
+        "priceEur": 92300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2cc2c1ae96d": {
+    "id": "a2cc2c1ae96d",
+    "label": "4 RTE DE MARTHOMIS, Saint-Pons-de-Thomières",
+    "lat": 43.486407,
+    "lng": 2.753788,
+    "transactions": [
+      {
+        "date": "2022-06-17",
+        "priceEur": 51000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb1557315940": {
+    "id": "cb1557315940",
+    "label": "1 RUE DE LA SOURCE, Saint-Pons-de-Thomières",
+    "lat": 43.48802,
+    "lng": 2.7575,
+    "transactions": [
+      {
+        "date": "2022-08-12",
+        "priceEur": 15000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0a0b2d1a5d4": {
+    "id": "a0a0b2d1a5d4",
+    "label": "24 MARCOURINE, Saint-Pons-de-Thomières",
+    "lat": 43.488459,
+    "lng": 2.75351,
+    "transactions": [
+      {
+        "date": "2022-09-10",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5bd41bff5f0": {
+    "id": "f5bd41bff5f0",
+    "label": "3 MARCOURINE, Saint-Pons-de-Thomières",
+    "lat": 43.487356,
+    "lng": 2.75434,
+    "transactions": [
+      {
+        "date": "2022-09-20",
+        "priceEur": 157620,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "496538355791": {
+    "id": "496538355791",
+    "label": "25 MARCOURINE, Saint-Pons-de-Thomières",
+    "lat": 43.488232,
+    "lng": 2.753761,
+    "transactions": [
+      {
+        "date": "2022-12-03",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "31e38b63134e": {
+    "id": "31e38b63134e",
+    "label": "3 RTE DE CASTRES, Saint-Pons-de-Thomières",
+    "lat": 43.488479,
+    "lng": 2.757433,
+    "transactions": [
+      {
+        "date": "2024-08-07",
+        "priceEur": 20000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 109,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-29",
+        "priceEur": 18000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-29",
+        "priceEur": 18000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "913fc0589cbf": {
+    "id": "913fc0589cbf",
+    "label": "23 RTE DE CASTRES, Saint-Pons-de-Thomières",
+    "lat": 43.488039,
+    "lng": 2.756685,
+    "transactions": [
+      {
+        "date": "2023-04-06",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b62cd1098cc": {
+    "id": "6b62cd1098cc",
+    "label": "24 RTE DE CASTRES, Saint-Pons-de-Thomières",
+    "lat": 43.488168,
+    "lng": 2.756386,
+    "transactions": [
+      {
+        "date": "2023-08-03",
+        "priceEur": 34000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "16b119cd4aea": {
+    "id": "16b119cd4aea",
+    "label": "25 RTE DE CASTRES, Saint-Pons-de-Thomières",
+    "lat": 43.487986,
+    "lng": 2.756586,
+    "transactions": [
+      {
+        "date": "2023-11-09",
+        "priceEur": 11000,
+        "typeLocal": "Maison",
+        "surfaceM2": 22,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f543e76b05c": {
+    "id": "1f543e76b05c",
+    "label": "1 RTE DE MARTHOMIS, Saint-Pons-de-Thomières",
+    "lat": 43.485806,
+    "lng": 2.75314,
+    "transactions": [
+      {
+        "date": "2023-12-27",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "417156a90786": {
+    "id": "417156a90786",
+    "label": "12 RTE DE MARTHOMIS, Saint-Pons-de-Thomières",
+    "lat": 43.48629,
+    "lng": 2.753598,
+    "transactions": [
+      {
+        "date": "2024-05-15",
+        "priceEur": 33000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "9736c28f6646": {
+    "id": "9736c28f6646",
+    "label": "29 MARCOURINE, Saint-Pons-de-Thomières",
+    "lat": 43.488053,
+    "lng": 2.754571,
+    "transactions": [
+      {
+        "date": "2025-01-09",
+        "priceEur": 144800,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "e78fe0c17812": {
+    "id": "e78fe0c17812",
+    "label": "5424 RUE DE LA SOURCE, Saint-Pons-de-Thomières",
+    "lat": 43.488142,
+    "lng": 2.757381,
+    "transactions": [
+      {
+        "date": "2025-04-05",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "d9f43fb7de9f": {
+    "id": "d9f43fb7de9f",
+    "label": "7 RTE DE CASTRES, Saint-Pons-de-Thomières",
+    "lat": 43.488374,
+    "lng": 2.757316,
+    "transactions": [
+      {
+        "date": "2025-05-13",
+        "priceEur": 85000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2025-05-13",
+        "priceEur": 85000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  }
+}

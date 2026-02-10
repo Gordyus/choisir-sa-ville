@@ -1,0 +1,24 @@
+{
+  "c146daae28da": {
+    "id": "c146daae28da",
+    "label": "56 RUE DE LA GARENNERIE, Maucomble",
+    "lat": 49.682523,
+    "lng": 1.321558,
+    "transactions": [
+      {
+        "date": "2023-05-30",
+        "priceEur": 68000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-31",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "96e3cecd9be6": {
+    "id": "96e3cecd9be6",
+    "label": "3 CHE DU HAUT DE CESSERAS, Cesseras",
+    "lat": 43.32599,
+    "lng": 2.719803,
+    "transactions": [
+      {
+        "date": "2020-11-24",
+        "priceEur": 323945,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b68e8265096": {
+    "id": "0b68e8265096",
+    "label": "5061 RUE MAGE, Cesseras",
+    "lat": 43.325283,
+    "lng": 2.714094,
+    "transactions": [
+      {
+        "date": "2021-02-17",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9b35338ca63": {
+    "id": "a9b35338ca63",
+    "label": "5060 RUE GUILLAUME TAFFANEL, Cesseras",
+    "lat": 43.325234,
+    "lng": 2.71418,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 87970,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd09bd279cc6": {
+    "id": "cd09bd279cc6",
+    "label": "5032 RUE GUILLAUME TAFFANEL, Cesseras",
+    "lat": 43.325403,
+    "lng": 2.714488,
+    "transactions": [
+      {
+        "date": "2022-04-11",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 172,
+        "isVefa": false
+      }
+    ]
+  },
+  "7fa2b86b9da7": {
+    "id": "7fa2b86b9da7",
+    "label": "5040 RUE GUILLAUME TAFFANEL, Cesseras",
+    "lat": 43.325217,
+    "lng": 2.714452,
+    "transactions": [
+      {
+        "date": "2022-09-29",
+        "priceEur": 49000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "817e10931a34": {
+    "id": "817e10931a34",
+    "label": "5041 RUE GUILLAUME TAFFANEL, Cesseras",
+    "lat": 43.325227,
+    "lng": 2.714351,
+    "transactions": [
+      {
+        "date": "2023-04-06",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "1a5342d7af5f": {
+    "id": "1a5342d7af5f",
+    "label": "1678 RTE NATIONALE, Sainte-Marie-Cappel",
+    "lat": 50.785913,
+    "lng": 2.527475,
+    "transactions": [
+      {
+        "date": "2021-08-20",
+        "priceEur": 156000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f3b98b70f38": {
+    "id": "3f3b98b70f38",
+    "label": "1656 RTE NATIONALE, Sainte-Marie-Cappel",
+    "lat": 50.785999,
+    "lng": 2.527129,
+    "transactions": [
+      {
+        "date": "2022-06-27",
+        "priceEur": 420000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "abf79ba54478": {
+    "id": "abf79ba54478",
+    "label": "91 RTE DE TERDEGHEM, Sainte-Marie-Cappel",
+    "lat": 50.787136,
+    "lng": 2.528415,
+    "transactions": [
+      {
+        "date": "2022-08-10",
+        "priceEur": 256000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "0f1cd750dd15": {
+    "id": "0f1cd750dd15",
+    "label": "22 RTE DE WALLON CAPPEL, Morbecque",
+    "lat": 50.700104,
+    "lng": 2.50112,
+    "transactions": [
+      {
+        "date": "2020-09-28",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f1d2d793eb9": {
+    "id": "3f1d2d793eb9",
+    "label": "5787 PTR PETITE RUE DU CRINCHON, Morbecque",
+    "lat": 50.697557,
+    "lng": 2.504752,
+    "transactions": [
+      {
+        "date": "2023-07-17",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  }
+}

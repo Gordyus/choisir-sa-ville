@@ -1,0 +1,129 @@
+{
+  "90d91d7173b9": {
+    "id": "90d91d7173b9",
+    "label": "644 RTE DE CLANQUEMEULE, Morville-le-Héron",
+    "lat": 49.482407,
+    "lng": 1.423857,
+    "transactions": [
+      {
+        "date": "2020-07-01",
+        "priceEur": 61500,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "3690df5b5ce4": {
+    "id": "3690df5b5ce4",
+    "label": "1074 RTE DE CLANQUEMEULE, Morville-le-Héron",
+    "lat": 49.485073,
+    "lng": 1.420779,
+    "transactions": [
+      {
+        "date": "2023-10-23",
+        "priceEur": 161500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-10",
+        "priceEur": 145500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d3284c26bf3": {
+    "id": "6d3284c26bf3",
+    "label": "5023 CLANQUEMEULE, Morville-le-Héron",
+    "lat": 49.488491,
+    "lng": 1.423054,
+    "transactions": [
+      {
+        "date": "2022-12-09",
+        "priceEur": 89000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff66fecd676e": {
+    "id": "ff66fecd676e",
+    "label": "5018 CLANQUEMEULE, Morville-le-Héron",
+    "lat": 49.487323,
+    "lng": 1.421603,
+    "transactions": [
+      {
+        "date": "2023-06-09",
+        "priceEur": 176500,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "174ffeb6eed6": {
+    "id": "174ffeb6eed6",
+    "label": "1520 RTE DE CLANQUEMEULE, Morville-le-Héron",
+    "lat": 49.487477,
+    "lng": 1.422691,
+    "transactions": [
+      {
+        "date": "2023-06-23",
+        "priceEur": 169600,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ec7b4dc2a9e": {
+    "id": "9ec7b4dc2a9e",
+    "label": "1058 RTE DE CLANQUEMEULE, Morville-le-Héron",
+    "lat": 49.484716,
+    "lng": 1.421062,
+    "transactions": [
+      {
+        "date": "2023-08-17",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "416beda3b278": {
+    "id": "416beda3b278",
+    "label": "1363 RTE DE CLANQUEMEULE, Morville-le-Héron",
+    "lat": 49.487441,
+    "lng": 1.420609,
+    "transactions": [
+      {
+        "date": "2023-11-14",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "606d00684c78": {
+    "id": "606d00684c78",
+    "label": "1309B RTE DE CLANQUEMEULE, Morville-le-Héron",
+    "lat": 49.487452,
+    "lng": 1.419792,
+    "transactions": [
+      {
+        "date": "2025-02-26",
+        "priceEur": 223000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "06dcaded132b": {
+    "id": "06dcaded132b",
+    "label": "389 RUE DU NOIR DEBOUT, Auchy-lez-Orchies",
+    "lat": 50.478121,
+    "lng": 3.209628,
+    "transactions": [
+      {
+        "date": "2024-03-06",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e91be85d84b": {
+    "id": "1e91be85d84b",
+    "label": "23 HAM DE MANNEUVILLE, Orchies",
+    "lat": 50.472272,
+    "lng": 3.218365,
+    "transactions": [
+      {
+        "date": "2024-05-22",
+        "priceEur": 216000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  }
+}

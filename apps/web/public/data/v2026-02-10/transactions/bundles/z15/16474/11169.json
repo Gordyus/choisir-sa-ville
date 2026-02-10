@@ -1,0 +1,62 @@
+{
+  "5ac0daf5b761": {
+    "id": "5ac0daf5b761",
+    "label": "5032D L ENFER, Sainte-Austreberthe",
+    "lat": 49.599277,
+    "lng": 0.995131,
+    "transactions": [
+      {
+        "date": "2020-09-24",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "dad584f6c3d7": {
+    "id": "dad584f6c3d7",
+    "label": "964 RTE DE GROSFY, Hugleville-en-Caux",
+    "lat": 49.603431,
+    "lng": 0.991569,
+    "transactions": [
+      {
+        "date": "2021-11-12",
+        "priceEur": 281850,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e8f74e5caf7": {
+    "id": "4e8f74e5caf7",
+    "label": "5032 L ENFER, Sainte-Austreberthe",
+    "lat": 49.599023,
+    "lng": 0.994831,
+    "transactions": [
+      {
+        "date": "2022-11-17",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "781bdb7d3f7d": {
+    "id": "781bdb7d3f7d",
+    "label": "360 RTE DES LILAS, Sainte-Austreberthe",
+    "lat": 49.599652,
+    "lng": 0.995483,
+    "transactions": [
+      {
+        "date": "2023-11-03",
+        "priceEur": 405000,
+        "typeLocal": "Maison",
+        "surfaceM2": 276,
+        "isVefa": false
+      }
+    ]
+  }
+}

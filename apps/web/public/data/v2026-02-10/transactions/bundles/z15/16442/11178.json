@@ -1,0 +1,32 @@
+{
+  "fa43054adcf3": {
+    "id": "fa43054adcf3",
+    "label": "600 RTE DE SAINT ARNOULT, Anquetierville",
+    "lat": 49.535714,
+    "lng": 0.640838,
+    "transactions": [
+      {
+        "date": "2023-02-24",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "098e0875bca9": {
+    "id": "098e0875bca9",
+    "label": "990 RTE DE SAINT ARNOULT, Anquetierville",
+    "lat": 49.534667,
+    "lng": 0.64682,
+    "transactions": [
+      {
+        "date": "2023-08-03",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

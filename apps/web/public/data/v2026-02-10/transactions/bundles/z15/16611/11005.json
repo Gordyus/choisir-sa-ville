@@ -1,0 +1,54 @@
+{
+  "fb5bf1e09938": {
+    "id": "fb5bf1e09938",
+    "label": "189 STEENBERG MEULEN STRAET, Hondeghem",
+    "lat": 50.756457,
+    "lng": 2.499975,
+    "transactions": [
+      {
+        "date": "2023-12-14",
+        "priceEur": 221000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-14",
+        "priceEur": 127500,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "8bda491a1558": {
+    "id": "8bda491a1558",
+    "label": "1267 RUE DE CASSEL, Hondeghem",
+    "lat": 50.754773,
+    "lng": 2.503231,
+    "transactions": [
+      {
+        "date": "2022-09-27",
+        "priceEur": 126000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d639cb8d772": {
+    "id": "6d639cb8d772",
+    "label": "1448 RUE DE STAPLE, Hondeghem",
+    "lat": 50.753069,
+    "lng": 2.502928,
+    "transactions": [
+      {
+        "date": "2023-11-24",
+        "priceEur": 142650,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  }
+}

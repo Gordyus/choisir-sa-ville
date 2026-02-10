@@ -1,0 +1,107 @@
+{
+  "352775217594": {
+    "id": "352775217594",
+    "label": "9458F CHE DE LA GAILLAGUE, Colombiers",
+    "lat": 43.319678,
+    "lng": 3.140101,
+    "transactions": [
+      {
+        "date": "2021-01-14",
+        "priceEur": 525000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "24345c32bd5b": {
+    "id": "24345c32bd5b",
+    "label": "110 RTE DE MONTADY, Colombiers",
+    "lat": 43.323299,
+    "lng": 3.137706,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "1778e478b03a": {
+    "id": "1778e478b03a",
+    "label": "5162F CHE DE LA GAILLAGUE, Colombiers",
+    "lat": 43.32049,
+    "lng": 3.139899,
+    "transactions": [
+      {
+        "date": "2021-11-15",
+        "priceEur": 371800,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "23b7cce73e5b": {
+    "id": "23b7cce73e5b",
+    "label": "102 AV DE MONTADY, Colombiers",
+    "lat": 43.319248,
+    "lng": 3.137001,
+    "transactions": [
+      {
+        "date": "2023-01-16",
+        "priceEur": 182500,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "af99a076645b": {
+    "id": "af99a076645b",
+    "label": "9 TRA DE L'ETANG, Colombiers",
+    "lat": 43.319851,
+    "lng": 3.135842,
+    "transactions": [
+      {
+        "date": "2023-06-07",
+        "priceEur": 85600,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "eb05241348cd": {
+    "id": "eb05241348cd",
+    "label": "5615 LA GAILLAGUE, Colombiers",
+    "lat": 43.324273,
+    "lng": 3.141915,
+    "transactions": [
+      {
+        "date": "2024-01-22",
+        "priceEur": 594000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "df08d8088f05": {
+    "id": "df08d8088f05",
+    "label": "5 TRA DE L'ETANG, Colombiers",
+    "lat": 43.3198,
+    "lng": 3.136048,
+    "transactions": [
+      {
+        "date": "2024-10-25",
+        "priceEur": 127200,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

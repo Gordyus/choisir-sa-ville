@@ -1,0 +1,32 @@
+{
+  "ae344132086c": {
+    "id": "ae344132086c",
+    "label": "522 RUE DU CREVON, Catenay",
+    "lat": 49.497726,
+    "lng": 1.319163,
+    "transactions": [
+      {
+        "date": "2022-07-05",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a182e076243": {
+    "id": "2a182e076243",
+    "label": "132 IMP DES CHENES, Catenay",
+    "lat": 49.497471,
+    "lng": 1.31962,
+    "transactions": [
+      {
+        "date": "2024-07-25",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  }
+}

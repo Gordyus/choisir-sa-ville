@@ -1,0 +1,32 @@
+{
+  "412a72b83d21": {
+    "id": "412a72b83d21",
+    "label": "1679 RUE DU PRESBYTERE, Écrainville",
+    "lat": 49.634179,
+    "lng": 0.296146,
+    "transactions": [
+      {
+        "date": "2022-07-27",
+        "priceEur": 493998.38,
+        "typeLocal": "Maison",
+        "surfaceM2": 182,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ecc6e08cb32": {
+    "id": "4ecc6e08cb32",
+    "label": "5006 HAMEAU DE L ECLUSE, Criquetot-l'Esneval",
+    "lat": 49.638083,
+    "lng": 0.286356,
+    "transactions": [
+      {
+        "date": "2022-09-29",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "07a83c54b17f": {
+    "id": "07a83c54b17f",
+    "label": "8 RTE DES QUATRE FERMES, Saint-Jouin-Bruneval",
+    "lat": 49.649724,
+    "lng": 0.190924,
+    "transactions": [
+      {
+        "date": "2024-04-04",
+        "priceEur": 472300,
+        "typeLocal": "Maison",
+        "surfaceM2": 242,
+        "isVefa": false
+      }
+    ]
+  },
+  "976fdeb6c158": {
+    "id": "976fdeb6c158",
+    "label": "5681 LES 4 FERMES, Saint-Jouin-Bruneval",
+    "lat": 49.652181,
+    "lng": 0.195665,
+    "transactions": [
+      {
+        "date": "2024-07-03",
+        "priceEur": 272800,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "1a7c82b60ed5": {
+    "id": "1a7c82b60ed5",
+    "label": "18 LE VERGER, Étainhus",
+    "lat": 49.568546,
+    "lng": 0.314106,
+    "transactions": [
+      {
+        "date": "2021-04-09",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 220,
+        "isVefa": false
+      }
+    ]
+  },
+  "247ea645aec7": {
+    "id": "247ea645aec7",
+    "label": "24 IMP DE L'EPI, Étainhus",
+    "lat": 49.567984,
+    "lng": 0.310781,
+    "transactions": [
+      {
+        "date": "2021-05-21",
+        "priceEur": 166355,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "57cf6bb241c2": {
+    "id": "57cf6bb241c2",
+    "label": "34 IMP DE L'EPI, Étainhus",
+    "lat": 49.568012,
+    "lng": 0.310911,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 164640,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "773b820a0ebd": {
+    "id": "773b820a0ebd",
+    "label": "485 RTE DU FOUR A PAIN, Étainhus",
+    "lat": 49.571138,
+    "lng": 0.310206,
+    "transactions": [
+      {
+        "date": "2022-01-14",
+        "priceEur": 202500,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ae9b3e2af81": {
+    "id": "7ae9b3e2af81",
+    "label": "530 RTE DE ST SAUVEUR D'EMALLEVILL, Étainhus",
+    "lat": 49.572626,
+    "lng": 0.312159,
+    "transactions": [
+      {
+        "date": "2022-05-11",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e1a55f1a9b9": {
+    "id": "5e1a55f1a9b9",
+    "label": "13 LE VERGER, Étainhus",
+    "lat": 49.568292,
+    "lng": 0.314446,
+    "transactions": [
+      {
+        "date": "2022-08-12",
+        "priceEur": 247900,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

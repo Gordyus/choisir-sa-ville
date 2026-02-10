@@ -1,0 +1,114 @@
+{
+  "dfcb63abb02f": {
+    "id": "dfcb63abb02f",
+    "label": "825 RUE DU MARAIS, Féchain",
+    "lat": 50.261165,
+    "lng": 3.201776,
+    "transactions": [
+      {
+        "date": "2020-12-01",
+        "priceEur": 77000,
+        "typeLocal": "Maison",
+        "surfaceM2": 20,
+        "isVefa": false
+      }
+    ]
+  },
+  "847df3851deb": {
+    "id": "847df3851deb",
+    "label": "47 RUE DU PONT, Fressies",
+    "lat": 50.256897,
+    "lng": 3.198807,
+    "transactions": [
+      {
+        "date": "2024-11-07",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-18",
+        "priceEur": 114000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "162015c5cf6f": {
+    "id": "162015c5cf6f",
+    "label": "240 RUE D HERONVILLE, Fressies",
+    "lat": 50.257734,
+    "lng": 3.197792,
+    "transactions": [
+      {
+        "date": "2021-07-29",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "b882706635ba": {
+    "id": "b882706635ba",
+    "label": "313 RUE D HERONVILLE, Fressies",
+    "lat": 50.257578,
+    "lng": 3.198865,
+    "transactions": [
+      {
+        "date": "2021-12-30",
+        "priceEur": 86000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "be206f542657": {
+    "id": "be206f542657",
+    "label": "58 RUE DU MARAIS, Fressies",
+    "lat": 50.256173,
+    "lng": 3.197564,
+    "transactions": [
+      {
+        "date": "2022-02-22",
+        "priceEur": 212500,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "776510a038c9": {
+    "id": "776510a038c9",
+    "label": "264 RUE D HERONVILLE, Fressies",
+    "lat": 50.257779,
+    "lng": 3.198117,
+    "transactions": [
+      {
+        "date": "2022-02-21",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3695d246048": {
+    "id": "c3695d246048",
+    "label": "254 RUE DU MARAIS, Fressies",
+    "lat": 50.254311,
+    "lng": 3.197714,
+    "transactions": [
+      {
+        "date": "2022-03-16",
+        "priceEur": 208020,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  }
+}

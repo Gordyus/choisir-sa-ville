@@ -1,0 +1,32 @@
+{
+  "8cddf17b77d2": {
+    "id": "8cddf17b77d2",
+    "label": "92 COTE DE L EGLISE, Rocquefort",
+    "lat": 49.665467,
+    "lng": 0.691918,
+    "transactions": [
+      {
+        "date": "2024-04-04",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "364883ea5803": {
+    "id": "364883ea5803",
+    "label": "29 COTE DE L EGLISE, Rocquefort",
+    "lat": 49.66604,
+    "lng": 0.692069,
+    "transactions": [
+      {
+        "date": "2024-09-18",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  }
+}

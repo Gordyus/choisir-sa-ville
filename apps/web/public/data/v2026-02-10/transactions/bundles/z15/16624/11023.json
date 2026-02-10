@@ -1,0 +1,143 @@
+{
+  "15c1ec066f95": {
+    "id": "15c1ec066f95",
+    "label": "175 RUE DU DOC ROUSSEAU, Merville",
+    "lat": 50.630268,
+    "lng": 2.643156,
+    "transactions": [
+      {
+        "date": "2020-09-17",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-17",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a8ef0ee7696": {
+    "id": "5a8ef0ee7696",
+    "label": "3 RUE DE L AERODROME, Merville",
+    "lat": 50.629268,
+    "lng": 2.647127,
+    "transactions": [
+      {
+        "date": "2021-12-23",
+        "priceEur": 1,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "29f8c278567f": {
+    "id": "29f8c278567f",
+    "label": "147 RUE DU DOC ROUSSEAU, Merville",
+    "lat": 50.631605,
+    "lng": 2.642741,
+    "transactions": [
+      {
+        "date": "2024-03-13",
+        "priceEur": 95137.5,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-09",
+        "priceEur": 204000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6a7bfe8bda9": {
+    "id": "b6a7bfe8bda9",
+    "label": "130 RUE DU DOC ROUSSEAU, Merville",
+    "lat": 50.63012,
+    "lng": 2.642565,
+    "transactions": [
+      {
+        "date": "2022-06-20",
+        "priceEur": 211750,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c2c008898ab": {
+    "id": "1c2c008898ab",
+    "label": "141 RUE DU DOC ROUSSEAU, Merville",
+    "lat": 50.631952,
+    "lng": 2.642747,
+    "transactions": [
+      {
+        "date": "2024-10-28",
+        "priceEur": 222540,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-02",
+        "priceEur": 193000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "91c1293a26f4": {
+    "id": "91c1293a26f4",
+    "label": "203 RUE DU DOC ROUSSEAU, Merville",
+    "lat": 50.628668,
+    "lng": 2.643512,
+    "transactions": [
+      {
+        "date": "2022-11-07",
+        "priceEur": 183000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "37217d684ef0": {
+    "id": "37217d684ef0",
+    "label": "110 RUE DU DOC ROUSSEAU, Merville",
+    "lat": 50.631195,
+    "lng": 2.642007,
+    "transactions": [
+      {
+        "date": "2023-01-11",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "52e3711e45f8": {
+    "id": "52e3711e45f8",
+    "label": "169 RUE DU DOC ROUSSEAU, Merville",
+    "lat": 50.6307,
+    "lng": 2.643047,
+    "transactions": [
+      {
+        "date": "2023-05-09",
+        "priceEur": 141000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  }
+}

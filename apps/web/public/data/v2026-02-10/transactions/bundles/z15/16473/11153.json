@@ -1,0 +1,32 @@
+{
+  "a784ff59e897": {
+    "id": "a784ff59e897",
+    "label": "234 RTE DE RENIEVILLE, Val-de-Saâne",
+    "lat": 49.714207,
+    "lng": 0.977915,
+    "transactions": [
+      {
+        "date": "2024-09-20",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "f10ba7d3acba": {
+    "id": "f10ba7d3acba",
+    "label": "233 RTE DE RENIEVILLE, Val-de-Saâne",
+    "lat": 49.714569,
+    "lng": 0.97837,
+    "transactions": [
+      {
+        "date": "2025-01-31",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

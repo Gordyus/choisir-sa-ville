@@ -1,0 +1,107 @@
+{
+  "a2801be2ec3c": {
+    "id": "a2801be2ec3c",
+    "label": "2 ALL DE LA GARENNE, Sainte-Marie-des-Champs",
+    "lat": 49.6288,
+    "lng": 0.776551,
+    "transactions": [
+      {
+        "date": "2020-10-06",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 189,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e6231bd0067": {
+    "id": "3e6231bd0067",
+    "label": "9000 RUE DES MESANGES, Sainte-Marie-des-Champs",
+    "lat": 49.629009,
+    "lng": 0.77505,
+    "transactions": [
+      {
+        "date": "2020-11-02",
+        "priceEur": 232000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "dacb41b4b960": {
+    "id": "dacb41b4b960",
+    "label": "846 RUE DES MESANGES, Sainte-Marie-des-Champs",
+    "lat": 49.630584,
+    "lng": 0.776576,
+    "transactions": [
+      {
+        "date": "2021-04-08",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "8824f62dc0bd": {
+    "id": "8824f62dc0bd",
+    "label": "297 RUE DE LA GARENNE, Sainte-Marie-des-Champs",
+    "lat": 49.628444,
+    "lng": 0.774431,
+    "transactions": [
+      {
+        "date": "2021-07-19",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "470bcc044196": {
+    "id": "470bcc044196",
+    "label": "165 RTE DE GREMONVILLE, Baons-le-Comte",
+    "lat": 49.631853,
+    "lng": 0.774553,
+    "transactions": [
+      {
+        "date": "2021-12-09",
+        "priceEur": 186550,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "51baa44671d0": {
+    "id": "51baa44671d0",
+    "label": "2 RUE MICHELINE OSTERMEYER, Sainte-Marie-des-Champs",
+    "lat": 49.628186,
+    "lng": 0.769593,
+    "transactions": [
+      {
+        "date": "2024-10-04",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "68f8e12eb04c": {
+    "id": "68f8e12eb04c",
+    "label": "9 ALL DE LA PORTE DES CHAMPS, Sainte-Marie-des-Champs",
+    "lat": 49.628779,
+    "lng": 0.775661,
+    "transactions": [
+      {
+        "date": "2024-12-13",
+        "priceEur": 342500,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  }
+}

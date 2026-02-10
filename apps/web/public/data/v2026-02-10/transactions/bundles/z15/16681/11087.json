@@ -1,0 +1,32 @@
+{
+  "36e0b37dd0b1": {
+    "id": "36e0b37dd0b1",
+    "label": "401 RUE DE SOLESMES, Cambrai",
+    "lat": 50.181922,
+    "lng": 3.271624,
+    "transactions": [
+      {
+        "date": "2021-12-10",
+        "priceEur": 252400,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "6693c5ce5a2e": {
+    "id": "6693c5ce5a2e",
+    "label": "34 RUE PABLO PICASSO, Escaudœuvres",
+    "lat": 50.182386,
+    "lng": 3.2722,
+    "transactions": [
+      {
+        "date": "2022-02-18",
+        "priceEur": 361000,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "f9c7ce761c81": {
+    "id": "f9c7ce761c81",
+    "label": "5 DOM LES PASSEREAUX, Frelinghien",
+    "lat": 50.71665,
+    "lng": 2.93616,
+    "transactions": [
+      {
+        "date": "2022-01-31",
+        "priceEur": 352748,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "827bf0074920": {
+    "id": "827bf0074920",
+    "label": "21 DOM LES PASSEREAUX, Frelinghien",
+    "lat": 50.71691,
+    "lng": 2.93577,
+    "transactions": [
+      {
+        "date": "2022-03-02",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "88cce26be091": {
+    "id": "88cce26be091",
+    "label": "7 DOM LES PASSEREAUX, Frelinghien",
+    "lat": 50.716489,
+    "lng": 2.936029,
+    "transactions": [
+      {
+        "date": "2022-03-30",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "76d0241952ba": {
+    "id": "76d0241952ba",
+    "label": "14 RES DU BLANC MESNIL, Frelinghien",
+    "lat": 50.716681,
+    "lng": 2.933765,
+    "transactions": [
+      {
+        "date": "2023-05-13",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f2b4fee4cfc": {
+    "id": "3f2b4fee4cfc",
+    "label": "15 RES DU BLANC MESNIL, Frelinghien",
+    "lat": 50.716855,
+    "lng": 2.933715,
+    "transactions": [
+      {
+        "date": "2023-09-28",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "d970c350ac37": {
+    "id": "d970c350ac37",
+    "label": "52 RES DU BLANC MESNIL, Frelinghien",
+    "lat": 50.716011,
+    "lng": 2.934227,
+    "transactions": [
+      {
+        "date": "2025-02-26",
+        "priceEur": 525200,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  }
+}

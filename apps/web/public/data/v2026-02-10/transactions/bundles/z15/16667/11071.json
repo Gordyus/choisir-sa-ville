@@ -1,0 +1,99 @@
+{
+  "acc11b9749e6": {
+    "id": "acc11b9749e6",
+    "label": "26 CITE DU CAMBRESIS, Arleux",
+    "lat": 50.293103,
+    "lng": 3.117175,
+    "transactions": [
+      {
+        "date": "2023-12-04",
+        "priceEur": 125570,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-23",
+        "priceEur": 81500,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d1af0b7e056": {
+    "id": "2d1af0b7e056",
+    "label": "95 RUE DE CANTIN, Arleux",
+    "lat": 50.291991,
+    "lng": 3.117715,
+    "transactions": [
+      {
+        "date": "2021-10-05",
+        "priceEur": 184680,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "de0857b469da": {
+    "id": "de0857b469da",
+    "label": "253 RUE DE CANTIN, Arleux",
+    "lat": 50.293291,
+    "lng": 3.11824,
+    "transactions": [
+      {
+        "date": "2022-04-21",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "5af729f96aa4": {
+    "id": "5af729f96aa4",
+    "label": "30 CITE DU CAMBRESIS, Arleux",
+    "lat": 50.293245,
+    "lng": 3.116753,
+    "transactions": [
+      {
+        "date": "2023-09-27",
+        "priceEur": 134400,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a158ca49ff0": {
+    "id": "4a158ca49ff0",
+    "label": "65 RUE DE CANTIN, Arleux",
+    "lat": 50.291705,
+    "lng": 3.117716,
+    "transactions": [
+      {
+        "date": "2024-10-16",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4c036a26c53": {
+    "id": "c4c036a26c53",
+    "label": "28 CITE DU CAMBRESIS, Arleux",
+    "lat": 50.29292,
+    "lng": 3.116893,
+    "transactions": [
+      {
+        "date": "2025-02-04",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

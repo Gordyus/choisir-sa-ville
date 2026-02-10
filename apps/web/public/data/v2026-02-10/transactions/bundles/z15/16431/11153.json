@@ -1,0 +1,62 @@
+{
+  "866004785f12": {
+    "id": "866004785f12",
+    "label": "1 RUE DE LA PLAINE, Thiétreville",
+    "lat": 49.717183,
+    "lng": 0.517026,
+    "transactions": [
+      {
+        "date": "2021-04-28",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "146ccccbf22b": {
+    "id": "146ccccbf22b",
+    "label": "23 RUE VERTE, Thiétreville",
+    "lat": 49.715695,
+    "lng": 0.517721,
+    "transactions": [
+      {
+        "date": "2023-02-01",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "febe8a4da390": {
+    "id": "febe8a4da390",
+    "label": "2 RUE VERTE, Thiétreville",
+    "lat": 49.713683,
+    "lng": 0.516399,
+    "transactions": [
+      {
+        "date": "2023-11-24",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e80e3117203": {
+    "id": "6e80e3117203",
+    "label": "16 RUE VERTE, Thiétreville",
+    "lat": 49.716193,
+    "lng": 0.517575,
+    "transactions": [
+      {
+        "date": "2024-12-02",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  }
+}

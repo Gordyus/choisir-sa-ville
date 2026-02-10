@@ -1,0 +1,62 @@
+{
+  "bc62156e3832": {
+    "id": "bc62156e3832",
+    "label": "5184 BOURDEL, Nesle-Normandeuse",
+    "lat": 49.897601,
+    "lng": 1.689101,
+    "transactions": [
+      {
+        "date": "2021-05-12",
+        "priceEur": 13500,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "eb9c6eab0b41": {
+    "id": "eb9c6eab0b41",
+    "label": "5185 BOURDEL, Nesle-Normandeuse",
+    "lat": 49.898021,
+    "lng": 1.688165,
+    "transactions": [
+      {
+        "date": "2021-07-01",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "2623f901bd0f": {
+    "id": "2623f901bd0f",
+    "label": "5181 BOURDEL, Nesle-Normandeuse",
+    "lat": 49.897,
+    "lng": 1.68819,
+    "transactions": [
+      {
+        "date": "2022-11-16",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "abdcbe76718e": {
+    "id": "abdcbe76718e",
+    "label": "5178 BOURDEL, Nesle-Normandeuse",
+    "lat": 49.896443,
+    "lng": 1.685783,
+    "transactions": [
+      {
+        "date": "2024-12-23",
+        "priceEur": 88000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

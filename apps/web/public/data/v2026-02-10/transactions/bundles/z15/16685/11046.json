@@ -1,0 +1,32 @@
+{
+  "087a48843e17": {
+    "id": "087a48843e17",
+    "label": "1084 RUE DE LA PULMEZ, Landas",
+    "lat": 50.465035,
+    "lng": 3.310906,
+    "transactions": [
+      {
+        "date": "2021-07-27",
+        "priceEur": 351730,
+        "typeLocal": "Maison",
+        "surfaceM2": 164,
+        "isVefa": false
+      }
+    ]
+  },
+  "8fa41b761342": {
+    "id": "8fa41b761342",
+    "label": "889 RUE DE LA PULMEZ, Landas",
+    "lat": 50.466769,
+    "lng": 3.309886,
+    "transactions": [
+      {
+        "date": "2022-03-23",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  }
+}

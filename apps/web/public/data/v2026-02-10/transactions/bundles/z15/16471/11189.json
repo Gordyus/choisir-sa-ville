@@ -1,0 +1,84 @@
+{
+  "3f15cdace949": {
+    "id": "3f15cdace949",
+    "label": "315 RTE DE DUCLAIR, Hénouville",
+    "lat": 49.460475,
+    "lng": 0.956074,
+    "transactions": [
+      {
+        "date": "2021-12-06",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "802416086a3e": {
+    "id": "802416086a3e",
+    "label": "190 RTE DE DUCLAIR, Hénouville",
+    "lat": 49.460095,
+    "lng": 0.957985,
+    "transactions": [
+      {
+        "date": "2024-02-29",
+        "priceEur": 208000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-05",
+        "priceEur": 253000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "dabd1d3f3031": {
+    "id": "dabd1d3f3031",
+    "label": "150 RTE DE DUCLAIR, Hénouville",
+    "lat": 49.459988,
+    "lng": 0.958422,
+    "transactions": [
+      {
+        "date": "2024-06-17",
+        "priceEur": 347000,
+        "typeLocal": "Maison",
+        "surfaceM2": 175,
+        "isVefa": false
+      }
+    ]
+  },
+  "d1410a4bd03e": {
+    "id": "d1410a4bd03e",
+    "label": "5281 LE MESNIL, Saint-Martin-de-Boscherville",
+    "lat": 49.460185,
+    "lng": 0.956821,
+    "transactions": [
+      {
+        "date": "2024-07-12",
+        "priceEur": 491000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "a4ec190824a3": {
+    "id": "a4ec190824a3",
+    "label": "129 RTE DU MESNIL, Saint-Martin-de-Boscherville",
+    "lat": 49.457097,
+    "lng": 0.958505,
+    "transactions": [
+      {
+        "date": "2024-12-13",
+        "priceEur": 176800,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  }
+}

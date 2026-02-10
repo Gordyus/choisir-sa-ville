@@ -1,0 +1,32 @@
+{
+  "0bc6a4199b99": {
+    "id": "0bc6a4199b99",
+    "label": "8 IMP DE L'OREE DU BOIS, Fongueusemare",
+    "lat": 49.677896,
+    "lng": 0.305261,
+    "transactions": [
+      {
+        "date": "2021-01-26",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "472c43ba0d01": {
+    "id": "472c43ba0d01",
+    "label": "5039 LES GRANDES FERMES, Fongueusemare",
+    "lat": 49.678978,
+    "lng": 0.307214,
+    "transactions": [
+      {
+        "date": "2022-05-11",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  }
+}

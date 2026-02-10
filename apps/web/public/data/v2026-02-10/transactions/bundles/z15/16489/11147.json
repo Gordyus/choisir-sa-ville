@@ -1,0 +1,54 @@
+{
+  "a368b62fe982": {
+    "id": "a368b62fe982",
+    "label": "400 RTE DE LA CHAPELLE, Le Catelier",
+    "lat": 49.756774,
+    "lng": 1.158562,
+    "transactions": [
+      {
+        "date": "2025-01-31",
+        "priceEur": 335700,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-08",
+        "priceEur": 170700,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "46680dd2c994": {
+    "id": "46680dd2c994",
+    "label": "735 RTE DE LA CHAPELLE, Le Catelier",
+    "lat": 49.759448,
+    "lng": 1.159881,
+    "transactions": [
+      {
+        "date": "2023-11-15",
+        "priceEur": 142100,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1e6bcee5d5d": {
+    "id": "e1e6bcee5d5d",
+    "label": "759 RTE DE LA CHAPELLE, Le Catelier",
+    "lat": 49.75977,
+    "lng": 1.160155,
+    "transactions": [
+      {
+        "date": "2024-09-26",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  }
+}

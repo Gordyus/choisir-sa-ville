@@ -1,0 +1,114 @@
+{
+  "59bfcf7f05e8": {
+    "id": "59bfcf7f05e8",
+    "label": "421 RUE DE LA GARE, Thun-l'Évêque",
+    "lat": 50.22948,
+    "lng": 3.280879,
+    "transactions": [
+      {
+        "date": "2020-08-17",
+        "priceEur": 179750,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "d05f02b36d29": {
+    "id": "d05f02b36d29",
+    "label": "172 RUE ROGER SALENGRO, Thun-l'Évêque",
+    "lat": 50.226222,
+    "lng": 3.284877,
+    "transactions": [
+      {
+        "date": "2020-10-09",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "5ab2a423844f": {
+    "id": "5ab2a423844f",
+    "label": "215 RUE DE LA GARE, Thun-l'Évêque",
+    "lat": 50.227751,
+    "lng": 3.283474,
+    "transactions": [
+      {
+        "date": "2021-09-22",
+        "priceEur": 446000,
+        "typeLocal": "Maison",
+        "surfaceM2": 230,
+        "isVefa": false
+      }
+    ]
+  },
+  "db0b011fcad4": {
+    "id": "db0b011fcad4",
+    "label": "419 RUE DE LA GARE, Thun-l'Évêque",
+    "lat": 50.228884,
+    "lng": 3.281462,
+    "transactions": [
+      {
+        "date": "2024-09-05",
+        "priceEur": 232970,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-01",
+        "priceEur": 232900,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "198cb0888035": {
+    "id": "198cb0888035",
+    "label": "7 RUE DE LA GARE, Thun-l'Évêque",
+    "lat": 50.227104,
+    "lng": 3.281758,
+    "transactions": [
+      {
+        "date": "2022-07-07",
+        "priceEur": 309500,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "447c5b38ad1d": {
+    "id": "447c5b38ad1d",
+    "label": "13 RUE DE LA GARE, Thun-l'Évêque",
+    "lat": 50.227572,
+    "lng": 3.282776,
+    "transactions": [
+      {
+        "date": "2023-02-16",
+        "priceEur": 268741,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "975e42b15bef": {
+    "id": "975e42b15bef",
+    "label": "420 RUE DE LA GARE, Thun-l'Évêque",
+    "lat": 50.227512,
+    "lng": 3.281529,
+    "transactions": [
+      {
+        "date": "2024-07-02",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  }
+}

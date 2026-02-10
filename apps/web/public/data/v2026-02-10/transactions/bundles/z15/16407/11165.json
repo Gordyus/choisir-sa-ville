@@ -1,0 +1,62 @@
+{
+  "8f564a7fc2dc": {
+    "id": "8f564a7fc2dc",
+    "label": "5634 HAMEAU DU CANOT, Criquetot-l'Esneval",
+    "lat": 49.627772,
+    "lng": 0.262473,
+    "transactions": [
+      {
+        "date": "2023-11-06",
+        "priceEur": 165750,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "e39e4ff5117e": {
+    "id": "e39e4ff5117e",
+    "label": "56 RTE DE TURRETOT, Criquetot-l'Esneval",
+    "lat": 49.631326,
+    "lng": 0.260163,
+    "transactions": [
+      {
+        "date": "2023-12-08",
+        "priceEur": 428000,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  },
+  "1938e94176dc": {
+    "id": "1938e94176dc",
+    "label": "5167 HAMEAU DU CANOT, Criquetot-l'Esneval",
+    "lat": 49.62785,
+    "lng": 0.261168,
+    "transactions": [
+      {
+        "date": "2024-03-25",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e5e0c2a7172": {
+    "id": "1e5e0c2a7172",
+    "label": "2 RUE DES CHATAIGNIERS, Criquetot-l'Esneval",
+    "lat": 49.62785,
+    "lng": 0.261168,
+    "transactions": [
+      {
+        "date": "2025-01-16",
+        "priceEur": 285100,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

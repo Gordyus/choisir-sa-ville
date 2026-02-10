@@ -1,0 +1,106 @@
+{
+  "8a5ed6868874": {
+    "id": "8a5ed6868874",
+    "label": "1593 RTE DU GRAND TRAIT, Saint-Nicolas-de-la-Taille",
+    "lat": 49.529835,
+    "lng": 0.451563,
+    "transactions": [
+      {
+        "date": "2022-06-15",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-21",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "42c4a494dd5f": {
+    "id": "42c4a494dd5f",
+    "label": "1379 RTE DU GRAND TRAIT, Saint-Nicolas-de-la-Taille",
+    "lat": 49.529952,
+    "lng": 0.455165,
+    "transactions": [
+      {
+        "date": "2021-11-16",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-16",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "3296da8c215e": {
+    "id": "3296da8c215e",
+    "label": "5035 LE NOUVEAU MONDE, Saint-Antoine-la-Forêt",
+    "lat": 49.530447,
+    "lng": 0.46114,
+    "transactions": [
+      {
+        "date": "2022-07-04",
+        "priceEur": 147390,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5334a07c9bd": {
+    "id": "d5334a07c9bd",
+    "label": "54 SEN A PANIERS, Mélamare",
+    "lat": 49.530748,
+    "lng": 0.453633,
+    "transactions": [
+      {
+        "date": "2024-02-26",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "80cd6ba7199c": {
+    "id": "80cd6ba7199c",
+    "label": "60 SEN A PANIERS, Mélamare",
+    "lat": 49.531271,
+    "lng": 0.454176,
+    "transactions": [
+      {
+        "date": "2024-04-25",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "d21d81e07477": {
+    "id": "d21d81e07477",
+    "label": "1713 RTE DU GRAND TRAIT, Saint-Nicolas-de-la-Taille",
+    "lat": 49.529102,
+    "lng": 0.450723,
+    "transactions": [
+      {
+        "date": "2024-07-10",
+        "priceEur": 348000,
+        "typeLocal": "Maison",
+        "surfaceM2": 159,
+        "isVefa": false
+      }
+    ]
+  }
+}

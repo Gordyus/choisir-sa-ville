@@ -1,0 +1,47 @@
+{
+  "76a2d4499b3c": {
+    "id": "76a2d4499b3c",
+    "label": "9104 VC LA TRAVERSIERE, Bourdainville",
+    "lat": 49.673019,
+    "lng": 0.915932,
+    "transactions": [
+      {
+        "date": "2022-08-19",
+        "priceEur": 209200,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "6db7792259f2": {
+    "id": "6db7792259f2",
+    "label": "5318 LA BERDOLE, Yerville",
+    "lat": 49.667832,
+    "lng": 0.913614,
+    "transactions": [
+      {
+        "date": "2022-11-16",
+        "priceEur": 131000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0ea86ad6481": {
+    "id": "a0ea86ad6481",
+    "label": "462 VC LA TRAVERSIERE, Bourdainville",
+    "lat": 49.672868,
+    "lng": 0.915917,
+    "transactions": [
+      {
+        "date": "2023-07-21",
+        "priceEur": 190500,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  }
+}

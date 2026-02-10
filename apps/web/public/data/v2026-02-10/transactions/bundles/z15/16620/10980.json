@@ -1,0 +1,167 @@
+{
+  "7b6dbaac9a2b": {
+    "id": "7b6dbaac9a2b",
+    "label": "13 RTE DE L EUROPE, Oost-Cappel",
+    "lat": 50.924741,
+    "lng": 2.599184,
+    "transactions": [
+      {
+        "date": "2020-07-17",
+        "priceEur": 123000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "beeaace3dd29": {
+    "id": "beeaace3dd29",
+    "label": "40 RTE DE L EUROPE, Oost-Cappel",
+    "lat": 50.925026,
+    "lng": 2.595927,
+    "transactions": [
+      {
+        "date": "2020-09-17",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "e97eb2182ff4": {
+    "id": "e97eb2182ff4",
+    "label": "19 RUE MITOYENNE, Oost-Cappel",
+    "lat": 50.925444,
+    "lng": 2.600753,
+    "transactions": [
+      {
+        "date": "2021-06-16",
+        "priceEur": 88000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "26bf82b6eb03": {
+    "id": "26bf82b6eb03",
+    "label": "25 RTE DE L EUROPE, Oost-Cappel",
+    "lat": 50.924635,
+    "lng": 2.596209,
+    "transactions": [
+      {
+        "date": "2022-01-28",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "04c8ee3984d8": {
+    "id": "04c8ee3984d8",
+    "label": "17 RUE MITOYENNE, Oost-Cappel",
+    "lat": 50.925409,
+    "lng": 2.600692,
+    "transactions": [
+      {
+        "date": "2022-01-31",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "010dce0b1ad6": {
+    "id": "010dce0b1ad6",
+    "label": "24 RTE DE L EUROPE, Oost-Cappel",
+    "lat": 50.925086,
+    "lng": 2.597623,
+    "transactions": [
+      {
+        "date": "2022-04-13",
+        "priceEur": 127369,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7c9ac03436d": {
+    "id": "f7c9ac03436d",
+    "label": "1 RUE VERTE, Oost-Cappel",
+    "lat": 50.925233,
+    "lng": 2.597798,
+    "transactions": [
+      {
+        "date": "2022-04-06",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f79dedc33bd": {
+    "id": "1f79dedc33bd",
+    "label": "29 RTE DE L EUROPE, Oost-Cappel",
+    "lat": 50.924552,
+    "lng": 2.59545,
+    "transactions": [
+      {
+        "date": "2022-11-30",
+        "priceEur": 235900,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "2bd4e02e3ae2": {
+    "id": "2bd4e02e3ae2",
+    "label": "12 RTE DE L EUROPE, Oost-Cappel",
+    "lat": 50.925235,
+    "lng": 2.599912,
+    "transactions": [
+      {
+        "date": "2023-04-14",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "c50f19fe84fb": {
+    "id": "c50f19fe84fb",
+    "label": "13 RUE MITOYENNE, Oost-Cappel",
+    "lat": 50.924644,
+    "lng": 2.599251,
+    "transactions": [
+      {
+        "date": "2023-08-22",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "b51669fc6518": {
+    "id": "b51669fc6518",
+    "label": "26 RTE DE L EUROPE, Oost-Cappel",
+    "lat": 50.925072,
+    "lng": 2.597528,
+    "transactions": [
+      {
+        "date": "2023-09-25",
+        "priceEur": 71000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

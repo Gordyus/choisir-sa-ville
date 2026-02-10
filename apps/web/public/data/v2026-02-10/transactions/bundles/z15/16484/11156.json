@@ -1,0 +1,32 @@
+{
+  "09cc9723455c": {
+    "id": "09cc9723455c",
+    "label": "5108 ORDEMART, Saint-Maclou-de-Folleville",
+    "lat": 49.693949,
+    "lng": 1.105812,
+    "transactions": [
+      {
+        "date": "2020-08-05",
+        "priceEur": 286500,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1fd747a8480": {
+    "id": "f1fd747a8480",
+    "label": "5114 ORDEMART, Saint-Maclou-de-Folleville",
+    "lat": 49.691609,
+    "lng": 1.106502,
+    "transactions": [
+      {
+        "date": "2021-01-18",
+        "priceEur": 91690,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "1122a734d6a7": {
+    "id": "1122a734d6a7",
+    "label": "395 RUE AU BEURRE, Saint-Jans-Cappel",
+    "lat": 50.763278,
+    "lng": 2.709109,
+    "transactions": [
+      {
+        "date": "2023-10-18",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ea2af79c07b": {
+    "id": "2ea2af79c07b",
+    "label": "334 RUE AU BEURRE, Saint-Jans-Cappel",
+    "lat": 50.763841,
+    "lng": 2.708623,
+    "transactions": [
+      {
+        "date": "2024-06-26",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

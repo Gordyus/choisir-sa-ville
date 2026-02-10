@@ -1,0 +1,99 @@
+{
+  "2dfc81662c4f": {
+    "id": "2dfc81662c4f",
+    "label": "18 RUE DE SPYCKER CD 131, Armbouts-Cappel",
+    "lat": 50.965995,
+    "lng": 2.336929,
+    "transactions": [
+      {
+        "date": "2021-03-12",
+        "priceEur": 256500,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "54ac944a9be1": {
+    "id": "54ac944a9be1",
+    "label": "420 VC 301 DIT VOIE ROMAINE, Armbouts-Cappel",
+    "lat": 50.972187,
+    "lng": 2.331659,
+    "transactions": [
+      {
+        "date": "2021-11-19",
+        "priceEur": 191000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f096e761ed8": {
+    "id": "5f096e761ed8",
+    "label": "4 RUE DU CARREFOUR DU LOUP, Armbouts-Cappel",
+    "lat": 50.969208,
+    "lng": 2.335847,
+    "transactions": [
+      {
+        "date": "2022-03-29",
+        "priceEur": 317900,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "02cfddca2981": {
+    "id": "02cfddca2981",
+    "label": "2 RUE DU CARREFOUR DU LOUP, Armbouts-Cappel",
+    "lat": 50.969052,
+    "lng": 2.335214,
+    "transactions": [
+      {
+        "date": "2022-11-29",
+        "priceEur": 250350,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "0f58b5f4ad7f": {
+    "id": "0f58b5f4ad7f",
+    "label": "170 VC 301 DIT VOIE ROMAINE, Armbouts-Cappel",
+    "lat": 50.970149,
+    "lng": 2.333275,
+    "transactions": [
+      {
+        "date": "2024-02-14",
+        "priceEur": 103000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-25",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea81e441f124": {
+    "id": "ea81e441f124",
+    "label": "110 VC 301 DIT VOIE ROMAINE, Armbouts-Cappel",
+    "lat": 50.969685,
+    "lng": 2.333707,
+    "transactions": [
+      {
+        "date": "2024-09-02",
+        "priceEur": 323800,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

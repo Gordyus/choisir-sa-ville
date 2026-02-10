@@ -1,0 +1,47 @@
+{
+  "16924c430ece": {
+    "id": "16924c430ece",
+    "label": "5373F USCLATS LE BAS, Courniou",
+    "lat": 43.469093,
+    "lng": 2.699124,
+    "transactions": [
+      {
+        "date": "2021-10-25",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "04735798b644": {
+    "id": "04735798b644",
+    "label": "5606F USCLATS LE BAS, Courniou",
+    "lat": 43.469018,
+    "lng": 2.699048,
+    "transactions": [
+      {
+        "date": "2023-10-28",
+        "priceEur": 15000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "17c8f60b88e3": {
+    "id": "17c8f60b88e3",
+    "label": "5129 USCLATS LE BAS, Courniou",
+    "lat": 43.469652,
+    "lng": 2.699645,
+    "transactions": [
+      {
+        "date": "2023-12-18",
+        "priceEur": 94500,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  }
+}

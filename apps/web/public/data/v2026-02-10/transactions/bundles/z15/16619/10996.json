@@ -1,0 +1,32 @@
+{
+  "822a2eb38a9b": {
+    "id": "822a2eb38a9b",
+    "label": "27 RTE D HONDSCHOOTE, Steenvoorde",
+    "lat": 50.812914,
+    "lng": 2.582064,
+    "transactions": [
+      {
+        "date": "2024-03-08",
+        "priceEur": 165650,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "af8d6e41025c": {
+    "id": "af8d6e41025c",
+    "label": "25 CHE DES CENDRES, Steenvoorde",
+    "lat": 50.818814,
+    "lng": 2.58577,
+    "transactions": [
+      {
+        "date": "2024-11-28",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

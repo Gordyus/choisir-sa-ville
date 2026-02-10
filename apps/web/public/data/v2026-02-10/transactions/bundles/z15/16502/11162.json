@@ -1,0 +1,62 @@
+{
+  "370051a17b91": {
+    "id": "370051a17b91",
+    "label": "5113 LA BOISSIERE, Saint-Martin-Osmonville",
+    "lat": 49.648125,
+    "lng": 1.303751,
+    "transactions": [
+      {
+        "date": "2020-10-26",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 192,
+        "isVefa": false
+      }
+    ]
+  },
+  "de3dc3334603": {
+    "id": "de3dc3334603",
+    "label": "5154 BEAUSOLEIL, Saint-Martin-Osmonville",
+    "lat": 49.651518,
+    "lng": 1.297586,
+    "transactions": [
+      {
+        "date": "2021-09-23",
+        "priceEur": 119000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "338ee055e0fe": {
+    "id": "338ee055e0fe",
+    "label": "256 CHEM DE LA BOISSIERE, Saint-Martin-Osmonville",
+    "lat": 49.65116,
+    "lng": 1.300454,
+    "transactions": [
+      {
+        "date": "2022-04-14",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "60bccca17b21": {
+    "id": "60bccca17b21",
+    "label": "5295 LA BOISSIERE, Saint-Martin-Osmonville",
+    "lat": 49.649051,
+    "lng": 1.305207,
+    "transactions": [
+      {
+        "date": "2024-01-08",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  }
+}

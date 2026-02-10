@@ -1,0 +1,122 @@
+{
+  "1a1d53402896": {
+    "id": "1a1d53402896",
+    "label": "5102 HAMEAU DE LAURENQUE, Roquebrun",
+    "lat": 43.519988,
+    "lng": 3.036672,
+    "transactions": [
+      {
+        "date": "2020-11-25",
+        "priceEur": 44000,
+        "typeLocal": "Maison",
+        "surfaceM2": 20,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7e8b28fddf6": {
+    "id": "f7e8b28fddf6",
+    "label": "5666F HAMEAU DE LAURENQUE, Roquebrun",
+    "lat": 43.520383,
+    "lng": 3.037348,
+    "transactions": [
+      {
+        "date": "2021-09-13",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "0f77bc5e3107": {
+    "id": "0f77bc5e3107",
+    "label": "7010F HAMEAU DE LAURENQUE, Roquebrun",
+    "lat": 43.520448,
+    "lng": 3.037294,
+    "transactions": [
+      {
+        "date": "2022-01-07",
+        "priceEur": 2500,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "e923e647ada0": {
+    "id": "e923e647ada0",
+    "label": "5062 LES HORTS DE LAURENQUE, Roquebrun",
+    "lat": 43.520305,
+    "lng": 3.037238,
+    "transactions": [
+      {
+        "date": "2022-01-07",
+        "priceEur": 2500,
+        "typeLocal": "Maison",
+        "surfaceM2": 15,
+        "isVefa": false
+      }
+    ]
+  },
+  "836856ba8054": {
+    "id": "836856ba8054",
+    "label": "5259 HAMEAU DE LAURENQUE, Roquebrun",
+    "lat": 43.520531,
+    "lng": 3.03736,
+    "transactions": [
+      {
+        "date": "2023-02-28",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5a047a86df6": {
+    "id": "c5a047a86df6",
+    "label": "5029 HAMEAU DE LAURENQUE, Roquebrun",
+    "lat": 43.520168,
+    "lng": 3.037218,
+    "transactions": [
+      {
+        "date": "2024-05-13",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "5485b9c17a9b": {
+    "id": "5485b9c17a9b",
+    "label": "5343 HAMEAU DE LAURENQUE, Roquebrun",
+    "lat": 43.521233,
+    "lng": 3.037851,
+    "transactions": [
+      {
+        "date": "2024-10-22",
+        "priceEur": 73780,
+        "typeLocal": "Maison",
+        "surfaceM2": 15,
+        "isVefa": false
+      }
+    ]
+  },
+  "7dd87cc69d89": {
+    "id": "7dd87cc69d89",
+    "label": "5073 HAMEAU DE LAURENQUE, Roquebrun",
+    "lat": 43.520229,
+    "lng": 3.037083,
+    "transactions": [
+      {
+        "date": "2024-12-19",
+        "priceEur": 38000,
+        "typeLocal": "Maison",
+        "surfaceM2": 15,
+        "isVefa": false
+      }
+    ]
+  }
+}

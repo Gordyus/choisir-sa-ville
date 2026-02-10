@@ -1,0 +1,107 @@
+{
+  "47bd932656a6": {
+    "id": "47bd932656a6",
+    "label": "6054 LA CHAPELLE, Bouville",
+    "lat": 49.568684,
+    "lng": 0.900323,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "1930e1b2b02d": {
+    "id": "1930e1b2b02d",
+    "label": "6015 LA CHAPELLE, Bouville",
+    "lat": 49.56861,
+    "lng": 0.899966,
+    "transactions": [
+      {
+        "date": "2022-10-24",
+        "priceEur": 232600,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "de52fb0d0fde": {
+    "id": "de52fb0d0fde",
+    "label": "369 RTE DU BOSC RICARD, Bouville",
+    "lat": 49.570198,
+    "lng": 0.900834,
+    "transactions": [
+      {
+        "date": "2023-07-04",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "661abdccf221": {
+    "id": "661abdccf221",
+    "label": "24 RES ANDRE CHOUILLOU, Bouville",
+    "lat": 49.568684,
+    "lng": 0.900323,
+    "transactions": [
+      {
+        "date": "2024-11-20",
+        "priceEur": 218300,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "a8cf0edb3bd0": {
+    "id": "a8cf0edb3bd0",
+    "label": "100 RUE DE SAINT ANDRE, Bouville",
+    "lat": 49.569409,
+    "lng": 0.900588,
+    "transactions": [
+      {
+        "date": "2025-02-12",
+        "priceEur": 253000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "77dd8f7a7e63": {
+    "id": "77dd8f7a7e63",
+    "label": "321 RUE DE LA CHAPELLE, Bouville",
+    "lat": 49.569161,
+    "lng": 0.899208,
+    "transactions": [
+      {
+        "date": "2025-02-06",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "246c261db2ce": {
+    "id": "246c261db2ce",
+    "label": "720 RTE DU BOSC RICARD, Bouville",
+    "lat": 49.570055,
+    "lng": 0.895788,
+    "transactions": [
+      {
+        "date": "2025-04-18",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "7621c1b90fac": {
+    "id": "7621c1b90fac",
+    "label": "1094F ARDOUANE, Riols",
+    "lat": 43.520766,
+    "lng": 2.817475,
+    "transactions": [
+      {
+        "date": "2021-01-25",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "367f10dfe434": {
+    "id": "367f10dfe434",
+    "label": "1082F ARDOUANE, Riols",
+    "lat": 43.520998,
+    "lng": 2.816955,
+    "transactions": [
+      {
+        "date": "2021-08-02",
+        "priceEur": 341200,
+        "typeLocal": "Maison",
+        "surfaceM2": 222,
+        "isVefa": false
+      }
+    ]
+  },
+  "3204f48dccfc": {
+    "id": "3204f48dccfc",
+    "label": "5230 LES TOURNALS, Prémian",
+    "lat": 43.517551,
+    "lng": 2.82059,
+    "transactions": [
+      {
+        "date": "2023-05-05",
+        "priceEur": 92400,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-12",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7dddd94a439": {
+    "id": "b7dddd94a439",
+    "label": "5063 ARDOUANE, Riols",
+    "lat": 43.521643,
+    "lng": 2.817117,
+    "transactions": [
+      {
+        "date": "2022-07-19",
+        "priceEur": 69000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "185ec418c9d3": {
+    "id": "185ec418c9d3",
+    "label": "5397 LES TOURNALS, Prémian",
+    "lat": 43.518352,
+    "lng": 2.822495,
+    "transactions": [
+      {
+        "date": "2023-02-23",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 20,
+        "isVefa": false
+      }
+    ]
+  },
+  "e9e5acff5903": {
+    "id": "e9e5acff5903",
+    "label": "5674F LES TOURNALS, Prémian",
+    "lat": 43.517893,
+    "lng": 2.819777,
+    "transactions": [
+      {
+        "date": "2023-10-05",
+        "priceEur": 146635,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "df6e28cb6123": {
+    "id": "df6e28cb6123",
+    "label": "1032F ARDOUANE, Riols",
+    "lat": 43.520016,
+    "lng": 2.818386,
+    "transactions": [
+      {
+        "date": "2024-08-22",
+        "priceEur": 300500,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

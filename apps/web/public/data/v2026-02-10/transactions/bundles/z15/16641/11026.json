@@ -1,0 +1,32 @@
+{
+  "2e345bfa7e8f": {
+    "id": "2e345bfa7e8f",
+    "label": "86 RUE DE LEVAL, Aubers",
+    "lat": 50.604216,
+    "lng": 2.825621,
+    "transactions": [
+      {
+        "date": "2020-12-15",
+        "priceEur": 456000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ffd92008929": {
+    "id": "4ffd92008929",
+    "label": "99 RUE DE LEVAL, Aubers",
+    "lat": 50.604435,
+    "lng": 2.824052,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  }
+}

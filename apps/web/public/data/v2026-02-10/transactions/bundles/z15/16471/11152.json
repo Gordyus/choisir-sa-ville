@@ -1,0 +1,32 @@
+{
+  "ca52d8ae0f8b": {
+    "id": "ca52d8ae0f8b",
+    "label": "877 RUE DU BEAU SOLEIL, Val-de-Saâne",
+    "lat": 49.721046,
+    "lng": 0.96673,
+    "transactions": [
+      {
+        "date": "2021-07-08",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 159,
+        "isVefa": false
+      }
+    ]
+  },
+  "de6c1b300664": {
+    "id": "de6c1b300664",
+    "label": "761 RUE DU BEAU SOLEIL, Val-de-Saâne",
+    "lat": 49.720403,
+    "lng": 0.966388,
+    "transactions": [
+      {
+        "date": "2022-03-04",
+        "priceEur": 249000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

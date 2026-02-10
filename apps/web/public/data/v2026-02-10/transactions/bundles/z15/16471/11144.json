@@ -1,0 +1,62 @@
+{
+  "5334af1e754d": {
+    "id": "5334af1e754d",
+    "label": "5029 RUE DU CHASSE MAREE, Royville",
+    "lat": 49.775936,
+    "lng": 0.955844,
+    "transactions": [
+      {
+        "date": "2020-07-29",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "af75c96ea935": {
+    "id": "af75c96ea935",
+    "label": "13 RUE DU CHASSE MAREE, Royville",
+    "lat": 49.775114,
+    "lng": 0.956735,
+    "transactions": [
+      {
+        "date": "2022-08-12",
+        "priceEur": 250900,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "2605d6fb7db9": {
+    "id": "2605d6fb7db9",
+    "label": "7B RUE DU CHASSE MAREE, Royville",
+    "lat": 49.774366,
+    "lng": 0.959743,
+    "transactions": [
+      {
+        "date": "2023-12-04",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "cae13f377b9b": {
+    "id": "cae13f377b9b",
+    "label": "9 RUE DU CHASSE MAREE, Royville",
+    "lat": 49.774776,
+    "lng": 0.957598,
+    "transactions": [
+      {
+        "date": "2025-04-28",
+        "priceEur": 111000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  }
+}

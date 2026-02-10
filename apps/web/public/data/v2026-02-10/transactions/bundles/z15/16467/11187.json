@@ -1,0 +1,32 @@
+{
+  "e0708d8cc2dd": {
+    "id": "e0708d8cc2dd",
+    "label": "467 CHE DE LA FONTAINE, Anneville-Ambourville",
+    "lat": 49.474805,
+    "lng": 0.915666,
+    "transactions": [
+      {
+        "date": "2021-08-17",
+        "priceEur": 259000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "45dcb0cca238": {
+    "id": "45dcb0cca238",
+    "label": "301 IMP DES JONCS QUAIS, Anneville-Ambourville",
+    "lat": 49.474137,
+    "lng": 0.914433,
+    "transactions": [
+      {
+        "date": "2024-05-15",
+        "priceEur": 124000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

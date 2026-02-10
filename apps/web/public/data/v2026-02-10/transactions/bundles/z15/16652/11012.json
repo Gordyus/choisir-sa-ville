@@ -1,0 +1,62 @@
+{
+  "262d35075667": {
+    "id": "262d35075667",
+    "label": "1615 RUE DE MESSINES, Frelinghien",
+    "lat": 50.706867,
+    "lng": 2.953703,
+    "transactions": [
+      {
+        "date": "2020-10-27",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "5df268a0d71b": {
+    "id": "5df268a0d71b",
+    "label": "1910 CHE DE LA CHAPELETTE, Frelinghien",
+    "lat": 50.701693,
+    "lng": 2.948563,
+    "transactions": [
+      {
+        "date": "2022-03-11",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9c0e041c106": {
+    "id": "f9c0e041c106",
+    "label": "1201 RUE DE MESSINES, Frelinghien",
+    "lat": 50.708432,
+    "lng": 2.947775,
+    "transactions": [
+      {
+        "date": "2024-05-30",
+        "priceEur": 398578,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf4bd85e953d": {
+    "id": "cf4bd85e953d",
+    "label": "1905 CHE DE LA CHAPELETTE, Frelinghien",
+    "lat": 50.70225,
+    "lng": 2.948039,
+    "transactions": [
+      {
+        "date": "2024-11-08",
+        "priceEur": 435000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

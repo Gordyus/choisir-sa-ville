@@ -1,0 +1,32 @@
+{
+  "436b9a60033c": {
+    "id": "436b9a60033c",
+    "label": "7 ALL DE LA PETITE CHAPELLE, Vieux-Berquin",
+    "lat": 50.694826,
+    "lng": 2.649,
+    "transactions": [
+      {
+        "date": "2022-06-03",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "898e5ebfa38a": {
+    "id": "898e5ebfa38a",
+    "label": "9 ALL DE LA PETITE CHAPELLE, Vieux-Berquin",
+    "lat": 50.694996,
+    "lng": 2.649603,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 385085,
+        "typeLocal": "Maison",
+        "surfaceM2": 161,
+        "isVefa": false
+      }
+    ]
+  }
+}

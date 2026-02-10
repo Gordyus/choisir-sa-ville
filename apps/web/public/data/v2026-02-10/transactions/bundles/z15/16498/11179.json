@@ -1,0 +1,62 @@
+{
+  "5891077fa369": {
+    "id": "5891077fa369",
+    "label": "93 RUE SAINTE MADELEINE, Morgny-la-Pommeraye",
+    "lat": 49.526212,
+    "lng": 1.259822,
+    "transactions": [
+      {
+        "date": "2021-08-20",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "f39fc7fdf3fd": {
+    "id": "f39fc7fdf3fd",
+    "label": "5092 VIMONT, Morgny-la-Pommeraye",
+    "lat": 49.527713,
+    "lng": 1.259281,
+    "transactions": [
+      {
+        "date": "2022-04-20",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "90495bf3207f": {
+    "id": "90495bf3207f",
+    "label": "211 RUE DE LA TOUR, Morgny-la-Pommeraye",
+    "lat": 49.527657,
+    "lng": 1.25982,
+    "transactions": [
+      {
+        "date": "2023-07-07",
+        "priceEur": 228000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "080829c13d43": {
+    "id": "080829c13d43",
+    "label": "5133 VIMONT, Morgny-la-Pommeraye",
+    "lat": 49.52734,
+    "lng": 1.263227,
+    "transactions": [
+      {
+        "date": "2025-06-11",
+        "priceEur": 165500,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  }
+}

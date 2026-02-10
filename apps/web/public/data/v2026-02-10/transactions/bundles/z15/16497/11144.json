@@ -1,0 +1,99 @@
+{
+  "8c52174fc776": {
+    "id": "8c52174fc776",
+    "label": "121 RUE DE LA SAUSSAYE, Les Grandes-Ventes",
+    "lat": 49.775842,
+    "lng": 1.242438,
+    "transactions": [
+      {
+        "date": "2021-05-05",
+        "priceEur": 100270,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f2ed4be11a7": {
+    "id": "5f2ed4be11a7",
+    "label": "97 RUE DE LA SAUSSAYE, Les Grandes-Ventes",
+    "lat": 49.775635,
+    "lng": 1.24243,
+    "transactions": [
+      {
+        "date": "2022-06-02",
+        "priceEur": 162500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "d4029c00786e": {
+    "id": "d4029c00786e",
+    "label": "82 RUE DE LA SAUSSAYE, Les Grandes-Ventes",
+    "lat": 49.775414,
+    "lng": 1.242807,
+    "transactions": [
+      {
+        "date": "2024-07-18",
+        "priceEur": 146400,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-28",
+        "priceEur": 104500,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "d865e57199be": {
+    "id": "d865e57199be",
+    "label": "298 RUE DE LA SAUSSAYE, Les Grandes-Ventes",
+    "lat": 49.777113,
+    "lng": 1.244414,
+    "transactions": [
+      {
+        "date": "2023-03-15",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "72c199f4b2d3": {
+    "id": "72c199f4b2d3",
+    "label": "350 RUE DE LA SAUSSAYE, Les Grandes-Ventes",
+    "lat": 49.7778,
+    "lng": 1.244388,
+    "transactions": [
+      {
+        "date": "2023-08-25",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "3abaee0fb472": {
+    "id": "3abaee0fb472",
+    "label": "800 RTE D ELIHU, Les Grandes-Ventes",
+    "lat": 49.7751,
+    "lng": 1.251923,
+    "transactions": [
+      {
+        "date": "2024-07-01",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

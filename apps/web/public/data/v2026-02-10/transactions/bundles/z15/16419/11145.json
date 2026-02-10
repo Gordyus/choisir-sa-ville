@@ -1,0 +1,24 @@
+{
+  "5af5e775476e": {
+    "id": "5af5e775476e",
+    "label": "9007 RTE DU PHARE, Fécamp",
+    "lat": 49.767351,
+    "lng": 0.390382,
+    "transactions": [
+      {
+        "date": "2021-01-05",
+        "priceEur": 550000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-05",
+        "priceEur": 550000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  }
+}

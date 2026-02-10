@@ -1,0 +1,114 @@
+{
+  "caaa78bebbd2": {
+    "id": "caaa78bebbd2",
+    "label": "5104 EQUIQUEVILLE, Saint-Vaast-d'Équiqueville",
+    "lat": 49.816928,
+    "lng": 1.252139,
+    "transactions": [
+      {
+        "date": "2020-10-01",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "8142780c3465": {
+    "id": "8142780c3465",
+    "label": "826A RTE D'EQUIQUEVILLE, Saint-Vaast-d'Équiqueville",
+    "lat": 49.818281,
+    "lng": 1.249831,
+    "transactions": [
+      {
+        "date": "2021-03-26",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "ab380a4be743": {
+    "id": "ab380a4be743",
+    "label": "801 RTE D'EQUIQUEVILLE, Saint-Vaast-d'Équiqueville",
+    "lat": 49.81722,
+    "lng": 1.250639,
+    "transactions": [
+      {
+        "date": "2021-03-25",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb408ecae61c": {
+    "id": "bb408ecae61c",
+    "label": "5106 EQUIQUEVILLE, Saint-Vaast-d'Équiqueville",
+    "lat": 49.81677,
+    "lng": 1.251065,
+    "transactions": [
+      {
+        "date": "2022-12-26",
+        "priceEur": 232000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "d345988f75d2": {
+    "id": "d345988f75d2",
+    "label": "826C RTE D'EQUIQUEVILLE, Saint-Vaast-d'Équiqueville",
+    "lat": 49.81846,
+    "lng": 1.249058,
+    "transactions": [
+      {
+        "date": "2023-04-26",
+        "priceEur": 86000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-26",
+        "priceEur": 86000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "7124086ee17e": {
+    "id": "7124086ee17e",
+    "label": "826D RTE D'EQUIQUEVILLE, Saint-Vaast-d'Équiqueville",
+    "lat": 49.818327,
+    "lng": 1.248861,
+    "transactions": [
+      {
+        "date": "2023-05-15",
+        "priceEur": 63000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "40b64691bcbc": {
+    "id": "40b64691bcbc",
+    "label": "5110 EQUIQUEVILLE, Saint-Vaast-d'Équiqueville",
+    "lat": 49.817591,
+    "lng": 1.249307,
+    "transactions": [
+      {
+        "date": "2023-12-01",
+        "priceEur": 279500,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  }
+}

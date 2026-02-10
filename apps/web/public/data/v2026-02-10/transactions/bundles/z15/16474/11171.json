@@ -1,0 +1,47 @@
+{
+  "f7a964ca1421": {
+    "id": "f7a964ca1421",
+    "label": "665 RTE DES SOUCHES, Goupillières",
+    "lat": 49.586501,
+    "lng": 0.997855,
+    "transactions": [
+      {
+        "date": "2023-07-12",
+        "priceEur": 223000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "b8d5bb8debf7": {
+    "id": "b8d5bb8debf7",
+    "label": "5027 PIVRARD HAMEAU, Sainte-Austreberthe",
+    "lat": 49.588976,
+    "lng": 0.993186,
+    "transactions": [
+      {
+        "date": "2023-07-26",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "fcb606c8552e": {
+    "id": "fcb606c8552e",
+    "label": "455 RTE DES SOUCHES, Goupillières",
+    "lat": 49.586914,
+    "lng": 0.996666,
+    "transactions": [
+      {
+        "date": "2024-04-30",
+        "priceEur": 233800,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  }
+}

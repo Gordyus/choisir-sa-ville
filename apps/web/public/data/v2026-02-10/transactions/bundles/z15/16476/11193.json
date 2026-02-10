@@ -1,0 +1,120 @@
+{
+  "eb641c0a016b": {
+    "id": "eb641c0a016b",
+    "label": "32 RUE GERMAINE PICAN, Canteleu",
+    "lat": 49.43169,
+    "lng": 1.019165,
+    "transactions": [
+      {
+        "date": "2020-09-01",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "232faa82a5fa": {
+    "id": "232faa82a5fa",
+    "label": "75 QUAI GUSTAVE FLAUBERT, Canteleu",
+    "lat": 49.425836,
+    "lng": 1.021081,
+    "transactions": [
+      {
+        "date": "2023-12-19",
+        "priceEur": 96000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-20",
+        "priceEur": 142885,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-16",
+        "priceEur": 105000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-31",
+        "priceEur": 95000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-29",
+        "priceEur": 89000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4e72d21b7eb": {
+    "id": "b4e72d21b7eb",
+    "label": "1 RUE VICTOR SCHOELCHER, Canteleu",
+    "lat": 49.43187,
+    "lng": 1.017086,
+    "transactions": [
+      {
+        "date": "2021-05-05",
+        "priceEur": 242900,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0914af0a32b": {
+    "id": "e0914af0a32b",
+    "label": "255 SEN HOUDEVILLE, Canteleu",
+    "lat": 49.431552,
+    "lng": 1.017367,
+    "transactions": [
+      {
+        "date": "2022-01-07",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "36e45f207054": {
+    "id": "36e45f207054",
+    "label": "69 QUAI GUSTAVE FLAUBERT, Canteleu",
+    "lat": 49.426642,
+    "lng": 1.021675,
+    "transactions": [
+      {
+        "date": "2022-06-07",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d0c15f5294e": {
+    "id": "0d0c15f5294e",
+    "label": "295 SEN HOUDEVILLE, Canteleu",
+    "lat": 49.431317,
+    "lng": 1.017778,
+    "transactions": [
+      {
+        "date": "2024-12-06",
+        "priceEur": 237000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

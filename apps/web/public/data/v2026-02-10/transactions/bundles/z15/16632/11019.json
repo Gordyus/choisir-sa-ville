@@ -1,0 +1,47 @@
+{
+  "65e43aa96c4c": {
+    "id": "65e43aa96c4c",
+    "label": "380 RUE DELMORT, Estaires",
+    "lat": 50.65943,
+    "lng": 2.730807,
+    "transactions": [
+      {
+        "date": "2021-11-17",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "a7e1d9405f05": {
+    "id": "a7e1d9405f05",
+    "label": "945 RUE DE L EPINETTE, Estaires",
+    "lat": 50.656571,
+    "lng": 2.733314,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 186000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "e840d69ac1f6": {
+    "id": "e840d69ac1f6",
+    "label": "499 RUE DE L EPINETTE, Estaires",
+    "lat": 50.65387,
+    "lng": 2.727601,
+    "transactions": [
+      {
+        "date": "2023-08-22",
+        "priceEur": 422500,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  }
+}

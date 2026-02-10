@@ -1,0 +1,32 @@
+{
+  "db23f184dfd6": {
+    "id": "db23f184dfd6",
+    "label": "5087 COURCELLES HAMEAU, Haussez",
+    "lat": 49.589288,
+    "lng": 1.699913,
+    "transactions": [
+      {
+        "date": "2022-01-14",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "a35659b38f96": {
+    "id": "a35659b38f96",
+    "label": "28 RUE PIERRE LAISNE, Haussez",
+    "lat": 49.585449,
+    "lng": 1.700753,
+    "transactions": [
+      {
+        "date": "2025-03-25",
+        "priceEur": 83200,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "a1f97b24146e": {
+    "id": "a1f97b24146e",
+    "label": "122 RUE BRACKE DESROUSSEAUX, Armentières",
+    "lat": 50.695073,
+    "lng": 2.872445,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 209800,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4696dff46cf": {
+    "id": "b4696dff46cf",
+    "label": "120 RUE BRACKE DESROUSSEAUX, Armentières",
+    "lat": 50.695063,
+    "lng": 2.87259,
+    "transactions": [
+      {
+        "date": "2022-06-29",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "601046a90346": {
+    "id": "601046a90346",
+    "label": "55 RUE BRACKE DESROUSSEAUX, Armentières",
+    "lat": 50.694756,
+    "lng": 2.873355,
+    "transactions": [
+      {
+        "date": "2024-08-26",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ba0dd32307c": {
+    "id": "0ba0dd32307c",
+    "label": "53 RUE BRACKE DESROUSSEAUX, Armentières",
+    "lat": 50.69476,
+    "lng": 2.873511,
+    "transactions": [
+      {
+        "date": "2024-11-27",
+        "priceEur": 235320,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  }
+}

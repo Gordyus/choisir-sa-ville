@@ -1,0 +1,47 @@
+{
+  "cca69ead65ff": {
+    "id": "cca69ead65ff",
+    "label": "5097 LE BOUT D AMONT, Saint-Jacques-d'Aliermont",
+    "lat": 49.847031,
+    "lng": 1.265908,
+    "transactions": [
+      {
+        "date": "2020-07-15",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e7b6ec56d93": {
+    "id": "2e7b6ec56d93",
+    "label": "396 RUE DE LA MAIRIE, Saint-Jacques-d'Aliermont",
+    "lat": 49.847264,
+    "lng": 1.265136,
+    "transactions": [
+      {
+        "date": "2021-07-06",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "f2c3db9cf810": {
+    "id": "f2c3db9cf810",
+    "label": "5091 LE BOUT D AMONT, Saint-Jacques-d'Aliermont",
+    "lat": 49.846334,
+    "lng": 1.265131,
+    "transactions": [
+      {
+        "date": "2022-09-01",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

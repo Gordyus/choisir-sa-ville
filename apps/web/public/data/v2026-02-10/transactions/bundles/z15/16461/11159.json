@@ -1,0 +1,47 @@
+{
+  "d5105c85b226": {
+    "id": "d5105c85b226",
+    "label": "145 RUE DE LA GROTTE, Criquetot-sur-Ouville",
+    "lat": 49.672869,
+    "lng": 0.851177,
+    "transactions": [
+      {
+        "date": "2022-07-07",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5824d6c5fb8": {
+    "id": "a5824d6c5fb8",
+    "label": "1430 RUE GRANDE, Criquetot-sur-Ouville",
+    "lat": 49.672827,
+    "lng": 0.850075,
+    "transactions": [
+      {
+        "date": "2023-05-24",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e25253731ee": {
+    "id": "7e25253731ee",
+    "label": "25 RUE DU GRAND PRIX DES NATIONS, Criquetot-sur-Ouville",
+    "lat": 49.670068,
+    "lng": 0.852457,
+    "transactions": [
+      {
+        "date": "2024-06-14",
+        "priceEur": 51000,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  }
+}

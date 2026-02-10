@@ -1,0 +1,47 @@
+{
+  "a504125a3132": {
+    "id": "a504125a3132",
+    "label": "5067 LE PARC, Varengeville-sur-Mer",
+    "lat": 49.915613,
+    "lng": 0.982959,
+    "transactions": [
+      {
+        "date": "2020-11-20",
+        "priceEur": 1120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 195,
+        "isVefa": false
+      }
+    ]
+  },
+  "1aaf4cf3ee8f": {
+    "id": "1aaf4cf3ee8f",
+    "label": "3 RUE DU PORT DES MOUTIERS, Varengeville-sur-Mer",
+    "lat": 49.909518,
+    "lng": 0.988521,
+    "transactions": [
+      {
+        "date": "2021-12-20",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "eaab844124c9": {
+    "id": "eaab844124c9",
+    "label": "4 CHE PASCALINE, Varengeville-sur-Mer",
+    "lat": 49.910991,
+    "lng": 0.985971,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 620000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "433915f8bf70": {
+    "id": "433915f8bf70",
+    "label": "29 RUE DE LA CHAPELLE, Nolléval",
+    "lat": 49.502023,
+    "lng": 1.483571,
+    "transactions": [
+      {
+        "date": "2022-04-02",
+        "priceEur": 358000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "17e6d582f7a0": {
+    "id": "17e6d582f7a0",
+    "label": "300 CHEM DE LA BOUVELIERE, Nolléval",
+    "lat": 49.49982,
+    "lng": 1.493329,
+    "transactions": [
+      {
+        "date": "2022-05-20",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  }
+}

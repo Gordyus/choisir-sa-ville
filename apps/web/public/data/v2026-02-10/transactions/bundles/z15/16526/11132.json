@@ -1,0 +1,47 @@
+{
+  "141c60739403": {
+    "id": "141c60739403",
+    "label": "5037 LE BOURG, Fallencourt",
+    "lat": 49.865646,
+    "lng": 1.56803,
+    "transactions": [
+      {
+        "date": "2022-05-31",
+        "priceEur": 93000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "ba2bf84a7a84": {
+    "id": "ba2bf84a7a84",
+    "label": "14B RTE DE CRIEL, Fallencourt",
+    "lat": 49.865671,
+    "lng": 1.567267,
+    "transactions": [
+      {
+        "date": "2022-08-19",
+        "priceEur": 150650,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d6c23e494c9": {
+    "id": "6d6c23e494c9",
+    "label": "5 RTE DE CRIEL, Fallencourt",
+    "lat": 49.863128,
+    "lng": 1.569164,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 240,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "ac02eb74bd1a": {
+    "id": "ac02eb74bd1a",
+    "label": "16 AV DES BOULEAUX, Forges-les-Eaux",
+    "lat": 49.610498,
+    "lng": 1.52199,
+    "transactions": [
+      {
+        "date": "2021-12-07",
+        "priceEur": 323900,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd54f44d212a": {
+    "id": "bd54f44d212a",
+    "label": "13 AV DE LA REINE, Forges-les-Eaux",
+    "lat": 49.610247,
+    "lng": 1.52402,
+    "transactions": [
+      {
+        "date": "2022-06-28",
+        "priceEur": 282900,
+        "typeLocal": "Maison",
+        "surfaceM2": 157,
+        "isVefa": false
+      }
+    ]
+  },
+  "0a997b0fdaa0": {
+    "id": "0a997b0fdaa0",
+    "label": "2 AV DE LA REINE, Forges-les-Eaux",
+    "lat": 49.608875,
+    "lng": 1.525292,
+    "transactions": [
+      {
+        "date": "2022-10-25",
+        "priceEur": 97500,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "78d4bfccc282": {
+    "id": "78d4bfccc282",
+    "label": "4 AV DES BOULEAUX, Forges-les-Eaux",
+    "lat": 49.608778,
+    "lng": 1.522734,
+    "transactions": [
+      {
+        "date": "2023-07-25",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  }
+}

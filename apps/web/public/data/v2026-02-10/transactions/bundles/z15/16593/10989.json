@@ -1,0 +1,54 @@
+{
+  "8d9fa2a03e0c": {
+    "id": "8d9fa2a03e0c",
+    "label": "71 RTE DE WATTEN, Merckeghem",
+    "lat": 50.86219,
+    "lng": 2.29681,
+    "transactions": [
+      {
+        "date": "2021-12-09",
+        "priceEur": 198250,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "af3e362f16f3": {
+    "id": "af3e362f16f3",
+    "label": "369 RTE DE BOLLEZEELE, Merckeghem",
+    "lat": 50.864919,
+    "lng": 2.301452,
+    "transactions": [
+      {
+        "date": "2023-11-16",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-05",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "67051fbce6c0": {
+    "id": "67051fbce6c0",
+    "label": "76 RTE DE BOLLEZEELE, Merckeghem",
+    "lat": 50.861974,
+    "lng": 2.304913,
+    "transactions": [
+      {
+        "date": "2024-09-03",
+        "priceEur": 242500,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  }
+}

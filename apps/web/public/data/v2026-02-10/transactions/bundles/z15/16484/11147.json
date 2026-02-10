@@ -1,0 +1,47 @@
+{
+  "7f1be549599a": {
+    "id": "7f1be549599a",
+    "label": "1276 RTE DE CAUMONT, Gonneville-sur-Scie",
+    "lat": 49.758064,
+    "lng": 1.107136,
+    "transactions": [
+      {
+        "date": "2020-10-16",
+        "priceEur": 111500,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2fe354cf7be": {
+    "id": "c2fe354cf7be",
+    "label": "1300 RTE DE CAUMONT, Gonneville-sur-Scie",
+    "lat": 49.758075,
+    "lng": 1.107408,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c2e87ed6161": {
+    "id": "5c2e87ed6161",
+    "label": "1010 RTE DE CAUMONT, Gonneville-sur-Scie",
+    "lat": 49.756881,
+    "lng": 1.102481,
+    "transactions": [
+      {
+        "date": "2022-11-29",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

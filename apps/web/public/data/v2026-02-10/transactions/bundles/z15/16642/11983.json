@@ -1,0 +1,32 @@
+{
+  "9247c95483bc": {
+    "id": "9247c95483bc",
+    "label": "5181F LE RAMIO, Pardailhan",
+    "lat": 43.453537,
+    "lng": 2.845007,
+    "transactions": [
+      {
+        "date": "2021-06-15",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "70f5a14fc150": {
+    "id": "70f5a14fc150",
+    "label": "5069 LE RAMIO, Pardailhan",
+    "lat": 43.453425,
+    "lng": 2.845023,
+    "transactions": [
+      {
+        "date": "2021-06-15",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  }
+}

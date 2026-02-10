@@ -1,0 +1,92 @@
+{
+  "f4f624efc622": {
+    "id": "f4f624efc622",
+    "label": "739 RTE DU MONASTERE, Martin-Église",
+    "lat": 49.910257,
+    "lng": 1.129376,
+    "transactions": [
+      {
+        "date": "2020-08-07",
+        "priceEur": 365000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d1bc1a1e584": {
+    "id": "0d1bc1a1e584",
+    "label": "9003 RTE DU MONASTERE, Martin-Église",
+    "lat": 49.914998,
+    "lng": 1.125024,
+    "transactions": [
+      {
+        "date": "2020-08-13",
+        "priceEur": 242700,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "662d0e86907b": {
+    "id": "662d0e86907b",
+    "label": "31 RTE DU MONASTERE, Martin-Église",
+    "lat": 49.915854,
+    "lng": 1.122649,
+    "transactions": [
+      {
+        "date": "2021-04-09",
+        "priceEur": 282000,
+        "typeLocal": "Maison",
+        "surfaceM2": 237,
+        "isVefa": false
+      }
+    ]
+  },
+  "36d340ca0460": {
+    "id": "36d340ca0460",
+    "label": "928 RTE DU MONASTERE, Martin-Église",
+    "lat": 49.90922,
+    "lng": 1.131353,
+    "transactions": [
+      {
+        "date": "2022-03-24",
+        "priceEur": 510000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc54011e9ba3": {
+    "id": "cc54011e9ba3",
+    "label": "12 IMP DES MEUNIERS, Martin-Église",
+    "lat": 49.912165,
+    "lng": 1.120669,
+    "transactions": [
+      {
+        "date": "2023-06-01",
+        "priceEur": 303400,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "df4d1272dc5d": {
+    "id": "df4d1272dc5d",
+    "label": "693 RTE DU MONASTERE, Martin-Église",
+    "lat": 49.910428,
+    "lng": 1.129147,
+    "transactions": [
+      {
+        "date": "2024-08-02",
+        "priceEur": 312000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  }
+}

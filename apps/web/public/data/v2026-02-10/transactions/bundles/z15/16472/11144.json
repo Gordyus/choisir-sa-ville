@@ -1,0 +1,32 @@
+{
+  "7d7096d902e5": {
+    "id": "7d7096d902e5",
+    "label": "10 RTE DU MONT ROUGE, Lammerville",
+    "lat": 49.779178,
+    "lng": 0.976213,
+    "transactions": [
+      {
+        "date": "2022-05-20",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "b223190066bc": {
+    "id": "b223190066bc",
+    "label": "8 RTE DU MONT ROUGE, Lammerville",
+    "lat": 49.779517,
+    "lng": 0.976396,
+    "transactions": [
+      {
+        "date": "2022-11-16",
+        "priceEur": 22000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  }
+}

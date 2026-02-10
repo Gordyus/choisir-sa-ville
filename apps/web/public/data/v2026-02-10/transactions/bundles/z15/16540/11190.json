@@ -1,0 +1,62 @@
+{
+  "0780668b5ca4": {
+    "id": "0780668b5ca4",
+    "label": "197 RUE DE LA CAREL, Ernemont-la-Villette",
+    "lat": 49.44967,
+    "lng": 1.723106,
+    "transactions": [
+      {
+        "date": "2021-04-10",
+        "priceEur": 257000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "57290e19a17d": {
+    "id": "57290e19a17d",
+    "label": "65 RUE DE LAUNAY, Ernemont-la-Villette",
+    "lat": 49.44717,
+    "lng": 1.721645,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 181500,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "4268adbe1f18": {
+    "id": "4268adbe1f18",
+    "label": "123 RUE DE LA CAREL, Ernemont-la-Villette",
+    "lat": 49.450309,
+    "lng": 1.71399,
+    "transactions": [
+      {
+        "date": "2021-10-09",
+        "priceEur": 284500,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "eba201324577": {
+    "id": "eba201324577",
+    "label": "68 RUE DE LAUNAY, Ernemont-la-Villette",
+    "lat": 49.446951,
+    "lng": 1.720903,
+    "transactions": [
+      {
+        "date": "2024-03-29",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  }
+}

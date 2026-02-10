@@ -1,0 +1,47 @@
+{
+  "485535e33d08": {
+    "id": "485535e33d08",
+    "label": "160 RTE DE L EGLISE, Saint-Vaast-Dieppedalle",
+    "lat": 49.7558,
+    "lng": 0.721541,
+    "transactions": [
+      {
+        "date": "2021-07-26",
+        "priceEur": 157250,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d195f197c6d": {
+    "id": "8d195f197c6d",
+    "label": "500B RTE DU CALVAIRE, Saint-Vaast-Dieppedalle",
+    "lat": 49.759358,
+    "lng": 0.717324,
+    "transactions": [
+      {
+        "date": "2021-10-18",
+        "priceEur": 123000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "da304ac6d17a": {
+    "id": "da304ac6d17a",
+    "label": "220 RTE DES HAMEAUX, Saint-Vaast-Dieppedalle",
+    "lat": 49.755338,
+    "lng": 0.723873,
+    "transactions": [
+      {
+        "date": "2023-12-15",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  }
+}

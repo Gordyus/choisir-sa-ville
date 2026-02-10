@@ -1,0 +1,62 @@
+{
+  "bb93e523af4b": {
+    "id": "bb93e523af4b",
+    "label": "151 RUE DU MESNIL, Mesnil-Raoul",
+    "lat": 49.388473,
+    "lng": 1.274259,
+    "transactions": [
+      {
+        "date": "2021-09-10",
+        "priceEur": 375100,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "32740a8fb733": {
+    "id": "32740a8fb733",
+    "label": "2586 RTE DE MESNIL RAOUL, La Neuville-Chant-d'Oisel",
+    "lat": 49.383194,
+    "lng": 1.26998,
+    "transactions": [
+      {
+        "date": "2022-03-30",
+        "priceEur": 242000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "9466f9c81077": {
+    "id": "9466f9c81077",
+    "label": "102 RTE DE PARIS, Mesnil-Raoul",
+    "lat": 49.386422,
+    "lng": 1.271761,
+    "transactions": [
+      {
+        "date": "2022-05-10",
+        "priceEur": 197000,
+        "typeLocal": "Maison",
+        "surfaceM2": 237,
+        "isVefa": false
+      }
+    ]
+  },
+  "063c9f214181": {
+    "id": "063c9f214181",
+    "label": "125 RUE DU CLOS, Mesnil-Raoul",
+    "lat": 49.387248,
+    "lng": 1.27263,
+    "transactions": [
+      {
+        "date": "2022-08-01",
+        "priceEur": 248000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  }
+}

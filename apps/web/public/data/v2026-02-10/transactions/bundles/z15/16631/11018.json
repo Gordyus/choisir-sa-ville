@@ -1,0 +1,47 @@
+{
+  "c5aa5bf88bb7": {
+    "id": "c5aa5bf88bb7",
+    "label": "78 RUE DU BOIS, Estaires",
+    "lat": 50.660065,
+    "lng": 2.718443,
+    "transactions": [
+      {
+        "date": "2020-09-10",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "f96453333f07": {
+    "id": "f96453333f07",
+    "label": "490 RUE DU HOUCK, Estaires",
+    "lat": 50.666627,
+    "lng": 2.720867,
+    "transactions": [
+      {
+        "date": "2022-06-27",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "482a3460aa1b": {
+    "id": "482a3460aa1b",
+    "label": "89B RUE DU BOIS, Estaires",
+    "lat": 50.660296,
+    "lng": 2.71767,
+    "transactions": [
+      {
+        "date": "2023-08-18",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  }
+}

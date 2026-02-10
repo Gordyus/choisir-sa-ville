@@ -1,0 +1,827 @@
+{
+  "4bb8d13a2031": {
+    "id": "4bb8d13a2031",
+    "label": "58 RTE AUZOUVILLE, Terres-de-Caux",
+    "lat": 49.64926,
+    "lng": 0.590908,
+    "transactions": [
+      {
+        "date": "2020-07-24",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "b309b3e31212": {
+    "id": "b309b3e31212",
+    "label": "46 RUE DES LONDES, Terres-de-Caux",
+    "lat": 49.652876,
+    "lng": 0.591262,
+    "transactions": [
+      {
+        "date": "2025-02-21",
+        "priceEur": 195000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 77,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-30",
+        "priceEur": 195000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 77,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-12",
+        "priceEur": 50000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 23,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-10",
+        "priceEur": 135000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "64043725cad8": {
+    "id": "64043725cad8",
+    "label": "695 RUE BERNARD THELU, Terres-de-Caux",
+    "lat": 49.652887,
+    "lng": 0.592197,
+    "transactions": [
+      {
+        "date": "2020-12-23",
+        "priceEur": 97500,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a7efd094236": {
+    "id": "5a7efd094236",
+    "label": "25 RUE DES JARDINS, Terres-de-Caux",
+    "lat": 49.653251,
+    "lng": 0.585681,
+    "transactions": [
+      {
+        "date": "2021-04-19",
+        "priceEur": 267000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0289ccbe4de": {
+    "id": "e0289ccbe4de",
+    "label": "723 RUE BERNARD THELU, Terres-de-Caux",
+    "lat": 49.652614,
+    "lng": 0.592177,
+    "transactions": [
+      {
+        "date": "2021-12-03",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "c821e53207c8": {
+    "id": "c821e53207c8",
+    "label": "1006 RUE CHARLES DE GAULLE, Terres-de-Caux",
+    "lat": 49.652734,
+    "lng": 0.587715,
+    "transactions": [
+      {
+        "date": "2021-11-22",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "47c0de1d19e8": {
+    "id": "47c0de1d19e8",
+    "label": "102 RUE DE LA FERME, Terres-de-Caux",
+    "lat": 49.647791,
+    "lng": 0.592963,
+    "transactions": [
+      {
+        "date": "2021-01-20",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5a6db6879c7": {
+    "id": "c5a6db6879c7",
+    "label": "110 PL GASTON SANSON, Terres-de-Caux",
+    "lat": 49.651011,
+    "lng": 0.590925,
+    "transactions": [
+      {
+        "date": "2021-01-28",
+        "priceEur": 325000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 139,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-28",
+        "priceEur": 325000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-28",
+        "priceEur": 325000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-28",
+        "priceEur": 325000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 33,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-28",
+        "priceEur": 325000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 21,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-28",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3cf52676685": {
+    "id": "b3cf52676685",
+    "label": "813 RUE CHARLES DE GAULLE, Terres-de-Caux",
+    "lat": 49.652011,
+    "lng": 0.590028,
+    "transactions": [
+      {
+        "date": "2023-05-04",
+        "priceEur": 115500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-26",
+        "priceEur": 88000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "30de25b862c8": {
+    "id": "30de25b862c8",
+    "label": "74 BD ALLEAUME, Terres-de-Caux",
+    "lat": 49.65127,
+    "lng": 0.593163,
+    "transactions": [
+      {
+        "date": "2022-10-12",
+        "priceEur": 132500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-21",
+        "priceEur": 68000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  },
+  "f51a648f0e83": {
+    "id": "f51a648f0e83",
+    "label": "698 RUE BERNARD THELU, Terres-de-Caux",
+    "lat": 49.652877,
+    "lng": 0.591752,
+    "transactions": [
+      {
+        "date": "2022-03-09",
+        "priceEur": 69800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-26",
+        "priceEur": 15000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 17,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c207e7b5e4d": {
+    "id": "4c207e7b5e4d",
+    "label": "80 IMP DES POTERIES, Terres-de-Caux",
+    "lat": 49.647427,
+    "lng": 0.592426,
+    "transactions": [
+      {
+        "date": "2022-02-22",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c71d03659ef": {
+    "id": "0c71d03659ef",
+    "label": "679 RUE BERNARD THELU, Terres-de-Caux",
+    "lat": 49.653034,
+    "lng": 0.592338,
+    "transactions": [
+      {
+        "date": "2022-03-08",
+        "priceEur": 115000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "28e73e85da8c": {
+    "id": "28e73e85da8c",
+    "label": "80 RUE DE NORMANDIE, Terres-de-Caux",
+    "lat": 49.64927,
+    "lng": 0.592816,
+    "transactions": [
+      {
+        "date": "2022-04-07",
+        "priceEur": 441675,
+        "typeLocal": "Maison",
+        "surfaceM2": 184,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea3160bef9a1": {
+    "id": "ea3160bef9a1",
+    "label": "33 SEN BEURIOTERIE, Terres-de-Caux",
+    "lat": 49.652983,
+    "lng": 0.592531,
+    "transactions": [
+      {
+        "date": "2022-06-27",
+        "priceEur": 107100,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "575b968bc99f": {
+    "id": "575b968bc99f",
+    "label": "45 RUE DE MER, Terres-de-Caux",
+    "lat": 49.652473,
+    "lng": 0.591238,
+    "transactions": [
+      {
+        "date": "2025-03-20",
+        "priceEur": 81000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 111,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-11",
+        "priceEur": 135000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 82,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-08",
+        "priceEur": 150,
+        "typeLocal": "Appartement",
+        "surfaceM2": 111,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-08",
+        "priceEur": 150,
+        "typeLocal": "Appartement",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "64c93414d692": {
+    "id": "64c93414d692",
+    "label": "647 RUE BERNARD THELU, Terres-de-Caux",
+    "lat": 49.65329,
+    "lng": 0.592306,
+    "transactions": [
+      {
+        "date": "2022-07-01",
+        "priceEur": 89000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "9503d37dab2b": {
+    "id": "9503d37dab2b",
+    "label": "10 RUE D AMIOT, Terres-de-Caux",
+    "lat": 49.652101,
+    "lng": 0.590696,
+    "transactions": [
+      {
+        "date": "2022-08-01",
+        "priceEur": 95000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "628539d5173a": {
+    "id": "628539d5173a",
+    "label": "878 RUE BERNARD THELU, Terres-de-Caux",
+    "lat": 49.651326,
+    "lng": 0.591703,
+    "transactions": [
+      {
+        "date": "2025-01-22",
+        "priceEur": 94000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-16",
+        "priceEur": 90000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-27",
+        "priceEur": 96500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-11",
+        "priceEur": 76000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 37,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b6c8d31d8b9": {
+    "id": "4b6c8d31d8b9",
+    "label": "706 RUE CHARLES DE GAULLE, Terres-de-Caux",
+    "lat": 49.652342,
+    "lng": 0.591805,
+    "transactions": [
+      {
+        "date": "2022-09-05",
+        "priceEur": 550000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-05",
+        "priceEur": 550000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-05",
+        "priceEur": 550000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-05",
+        "priceEur": 550000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "27bb43ae09c5": {
+    "id": "27bb43ae09c5",
+    "label": "639 RUE BERNARD THELU, Terres-de-Caux",
+    "lat": 49.653346,
+    "lng": 0.59245,
+    "transactions": [
+      {
+        "date": "2022-10-06",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "cbf08e59e712": {
+    "id": "cbf08e59e712",
+    "label": "22 RUE DE NORMANDIE, Terres-de-Caux",
+    "lat": 49.648694,
+    "lng": 0.592294,
+    "transactions": [
+      {
+        "date": "2022-11-21",
+        "priceEur": 5183562,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "186358e42a5f": {
+    "id": "186358e42a5f",
+    "label": "933 RUE CHARLES DE GAULLE, Terres-de-Caux",
+    "lat": 49.652286,
+    "lng": 0.588733,
+    "transactions": [
+      {
+        "date": "2022-11-21",
+        "priceEur": 5183562,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "829d0388f585": {
+    "id": "829d0388f585",
+    "label": "40 RUE D AMIOT, Terres-de-Caux",
+    "lat": 49.651867,
+    "lng": 0.590805,
+    "transactions": [
+      {
+        "date": "2022-11-21",
+        "priceEur": 5183562,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-21",
+        "priceEur": 5183562,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-21",
+        "priceEur": 5183562,
+        "typeLocal": "Appartement",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "28cf3f6fac86": {
+    "id": "28cf3f6fac86",
+    "label": "120 PL GASTON SANSON, Terres-de-Caux",
+    "lat": 49.651135,
+    "lng": 0.591167,
+    "transactions": [
+      {
+        "date": "2022-12-21",
+        "priceEur": 200000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-21",
+        "priceEur": 200000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 19,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-21",
+        "priceEur": 200000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 26,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-21",
+        "priceEur": 200000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": false
+      }
+    ]
+  },
+  "68b2e991ade1": {
+    "id": "68b2e991ade1",
+    "label": "71 RUE TRAVERSIERE, Terres-de-Caux",
+    "lat": 49.652211,
+    "lng": 0.588997,
+    "transactions": [
+      {
+        "date": "2023-03-10",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2685e670d41": {
+    "id": "c2685e670d41",
+    "label": "71 SEN BEURIOTERIE, Terres-de-Caux",
+    "lat": 49.653048,
+    "lng": 0.593091,
+    "transactions": [
+      {
+        "date": "2023-06-15",
+        "priceEur": 61600,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "8cf049dd7b73": {
+    "id": "8cf049dd7b73",
+    "label": "1030 RUE CHARLES DE GAULLE, Terres-de-Caux",
+    "lat": 49.652804,
+    "lng": 0.587422,
+    "transactions": [
+      {
+        "date": "2025-03-17",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-28",
+        "priceEur": 202000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "a45073415fea": {
+    "id": "a45073415fea",
+    "label": "843 RUE CHARLES DE GAULLE, Terres-de-Caux",
+    "lat": 49.652159,
+    "lng": 0.589801,
+    "transactions": [
+      {
+        "date": "2023-07-24",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "65c4fe9afe12": {
+    "id": "65c4fe9afe12",
+    "label": "193 RUE DU VAL CAYEUX, Terres-de-Caux",
+    "lat": 49.652759,
+    "lng": 0.583872,
+    "transactions": [
+      {
+        "date": "2023-10-27",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "316be3df97be": {
+    "id": "316be3df97be",
+    "label": "16 RUE DES LONDES, Terres-de-Caux",
+    "lat": 49.652473,
+    "lng": 0.591238,
+    "transactions": [
+      {
+        "date": "2023-11-03",
+        "priceEur": 35000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca9607b90fd5": {
+    "id": "ca9607b90fd5",
+    "label": "721 RUE BERNARD THELU, Terres-de-Caux",
+    "lat": 49.652673,
+    "lng": 0.592183,
+    "transactions": [
+      {
+        "date": "2024-01-11",
+        "priceEur": 134000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "675d6b3bcb70": {
+    "id": "675d6b3bcb70",
+    "label": "123 RUE DES VALLONS, Terres-de-Caux",
+    "lat": 49.651893,
+    "lng": 0.588148,
+    "transactions": [
+      {
+        "date": "2024-04-09",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3b2f25e6a97": {
+    "id": "c3b2f25e6a97",
+    "label": "746 RUE BERNARD THELU, Terres-de-Caux",
+    "lat": 49.652496,
+    "lng": 0.591696,
+    "transactions": [
+      {
+        "date": "2024-09-25",
+        "priceEur": 65000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-20",
+        "priceEur": 139000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "904fab7c6974": {
+    "id": "904fab7c6974",
+    "label": "831 RUE BERNARD THELU, Terres-de-Caux",
+    "lat": 49.651682,
+    "lng": 0.592118,
+    "transactions": [
+      {
+        "date": "2024-07-05",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a1d4feb12e7": {
+    "id": "6a1d4feb12e7",
+    "label": "51 RUE DES VALLONS, Terres-de-Caux",
+    "lat": 49.652436,
+    "lng": 0.587449,
+    "transactions": [
+      {
+        "date": "2024-07-18",
+        "priceEur": 172500,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "ffa6f7252529": {
+    "id": "ffa6f7252529",
+    "label": "858 RUE BERNARD THELU, Terres-de-Caux",
+    "lat": 49.651429,
+    "lng": 0.591719,
+    "transactions": [
+      {
+        "date": "2024-08-09",
+        "priceEur": 240000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "ec3f879716b0": {
+    "id": "ec3f879716b0",
+    "label": "983 RUE BERNARD THELU, Terres-de-Caux",
+    "lat": 49.650318,
+    "lng": 0.592062,
+    "transactions": [
+      {
+        "date": "2025-02-13",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-13",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-13",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "a07dc73e0e1f": {
+    "id": "a07dc73e0e1f",
+    "label": "947 RUE BERNARD THELU, Terres-de-Caux",
+    "lat": 49.650524,
+    "lng": 0.592565,
+    "transactions": [
+      {
+        "date": "2025-03-28",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "165dc9dab8a1": {
+    "id": "165dc9dab8a1",
+    "label": "694 RUE BERNARD THELU, Terres-de-Caux",
+    "lat": 49.652912,
+    "lng": 0.591767,
+    "transactions": [
+      {
+        "date": "2025-04-04",
+        "priceEur": 146500,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d224df456dc": {
+    "id": "9d224df456dc",
+    "label": "5654 LE VAL CAYEUX, Terres-de-Caux",
+    "lat": 49.652806,
+    "lng": 0.584868,
+    "transactions": [
+      {
+        "date": "2025-05-26",
+        "priceEur": 186000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      },
+      {
+        "date": "2025-05-26",
+        "priceEur": 186000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "d94d030c3f86": {
+    "id": "d94d030c3f86",
+    "label": "469 RTE DE LA CHAUSSEE, Terres-de-Caux",
+    "lat": 49.666725,
+    "lng": 0.627108,
+    "transactions": [
+      {
+        "date": "2022-02-02",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "36f11f36bfba": {
+    "id": "36f11f36bfba",
+    "label": "800 RTE DE LA CHAUSSEE, Terres-de-Caux",
+    "lat": 49.667588,
+    "lng": 0.630859,
+    "transactions": [
+      {
+        "date": "2022-11-21",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "a21c4b525420": {
+    "id": "a21c4b525420",
+    "label": "858 CHE DE LA PLAINE, Terres-de-Caux",
+    "lat": 49.666864,
+    "lng": 0.628988,
+    "transactions": [
+      {
+        "date": "2022-11-07",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "eeb68b11fc40": {
+    "id": "eeb68b11fc40",
+    "label": "107 CHE DE LA PLAINE, Terres-de-Caux",
+    "lat": 49.661111,
+    "lng": 0.629916,
+    "transactions": [
+      {
+        "date": "2025-01-14",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  }
+}

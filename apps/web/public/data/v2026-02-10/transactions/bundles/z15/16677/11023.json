@@ -1,0 +1,159 @@
+{
+  "20eee0010ae9": {
+    "id": "20eee0010ae9",
+    "label": "1 RUE DE CHERENG, Willems",
+    "lat": 50.627365,
+    "lng": 3.219456,
+    "transactions": [
+      {
+        "date": "2021-06-15",
+        "priceEur": 420000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "20a9d002d1de": {
+    "id": "20a9d002d1de",
+    "label": "46 RUE DE FRANCE, Willems",
+    "lat": 50.625834,
+    "lng": 3.229066,
+    "transactions": [
+      {
+        "date": "2024-11-05",
+        "priceEur": 288000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-15",
+        "priceEur": 279000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c28cd146c9b": {
+    "id": "3c28cd146c9b",
+    "label": "6T RUE DE LA VICTOIRE, Willems",
+    "lat": 50.628736,
+    "lng": 3.229657,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 701600,
+        "typeLocal": "Maison",
+        "surfaceM2": 189,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf79075fc5b3": {
+    "id": "bf79075fc5b3",
+    "label": "12B RUE DE LA VICTOIRE, Willems",
+    "lat": 50.62667,
+    "lng": 3.229328,
+    "transactions": [
+      {
+        "date": "2022-05-31",
+        "priceEur": 660000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "48c1a238b4d4": {
+    "id": "48c1a238b4d4",
+    "label": "40 RUE DE FRANCE, Willems",
+    "lat": 50.625682,
+    "lng": 3.229388,
+    "transactions": [
+      {
+        "date": "2023-10-18",
+        "priceEur": 286000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "6104a679fa94": {
+    "id": "6104a679fa94",
+    "label": "50 RUE DE FRANCE, Willems",
+    "lat": 50.625873,
+    "lng": 3.22889,
+    "transactions": [
+      {
+        "date": "2023-10-23",
+        "priceEur": 272000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd1ba751d374": {
+    "id": "bd1ba751d374",
+    "label": "54 RUE DE FRANCE, Willems",
+    "lat": 50.626051,
+    "lng": 3.228684,
+    "transactions": [
+      {
+        "date": "2023-11-08",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0c39dfc4d0e": {
+    "id": "a0c39dfc4d0e",
+    "label": "38 RUE DE LA VICTOIRE, Willems",
+    "lat": 50.625797,
+    "lng": 3.229648,
+    "transactions": [
+      {
+        "date": "2023-11-17",
+        "priceEur": 238000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d353fc03d58": {
+    "id": "2d353fc03d58",
+    "label": "2 RUE DU BON CONSEIL, Willems",
+    "lat": 50.630201,
+    "lng": 3.227445,
+    "transactions": [
+      {
+        "date": "2024-05-02",
+        "priceEur": 1074500,
+        "typeLocal": "Maison",
+        "surfaceM2": 157,
+        "isVefa": false
+      }
+    ]
+  },
+  "8bf397877e1f": {
+    "id": "8bf397877e1f",
+    "label": "5B RUE DE FRANCE, Willems",
+    "lat": 50.626762,
+    "lng": 3.225371,
+    "transactions": [
+      {
+        "date": "2024-09-16",
+        "priceEur": 355284,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  }
+}

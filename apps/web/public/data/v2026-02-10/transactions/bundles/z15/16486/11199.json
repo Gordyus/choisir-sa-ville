@@ -1,0 +1,114 @@
+{
+  "e93240500422": {
+    "id": "e93240500422",
+    "label": "24 CHE DE LA POTERIE, Belbeuf",
+    "lat": 49.388647,
+    "lng": 1.127377,
+    "transactions": [
+      {
+        "date": "2022-07-04",
+        "priceEur": 399850,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-26",
+        "priceEur": 344350,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "57f9ac7921f2": {
+    "id": "57f9ac7921f2",
+    "label": "32 RTE DE PARIS, Belbeuf",
+    "lat": 49.384956,
+    "lng": 1.125184,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "f186d71c3e85": {
+    "id": "f186d71c3e85",
+    "label": "20 CHE DE LA POTERIE, Belbeuf",
+    "lat": 49.388443,
+    "lng": 1.128016,
+    "transactions": [
+      {
+        "date": "2022-06-01",
+        "priceEur": 279000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "127423eed135": {
+    "id": "127423eed135",
+    "label": "22 RTE DE PARIS, Belbeuf",
+    "lat": 49.385754,
+    "lng": 1.125129,
+    "transactions": [
+      {
+        "date": "2023-06-29",
+        "priceEur": 222000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "64431caa3540": {
+    "id": "64431caa3540",
+    "label": "25 RTE DE PARIS, Belbeuf",
+    "lat": 49.384351,
+    "lng": 1.126121,
+    "transactions": [
+      {
+        "date": "2023-07-24",
+        "priceEur": 297000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "0a0d859b956b": {
+    "id": "0a0d859b956b",
+    "label": "23 RTE DE PARIS, Belbeuf",
+    "lat": 49.384913,
+    "lng": 1.126514,
+    "transactions": [
+      {
+        "date": "2023-11-24",
+        "priceEur": 173000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3f7f1f5aceb": {
+    "id": "b3f7f1f5aceb",
+    "label": "9B RTE DE PARIS, Belbeuf",
+    "lat": 49.38867,
+    "lng": 1.126634,
+    "transactions": [
+      {
+        "date": "2024-11-07",
+        "priceEur": 67200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  }
+}

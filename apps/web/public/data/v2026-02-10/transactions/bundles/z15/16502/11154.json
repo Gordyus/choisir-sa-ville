@@ -1,0 +1,84 @@
+{
+  "5e93f7d05d2d": {
+    "id": "5e93f7d05d2d",
+    "label": "219 RTE DE L EGLISE, Ventes-Saint-Rémy",
+    "lat": 49.710006,
+    "lng": 1.304643,
+    "transactions": [
+      {
+        "date": "2020-09-01",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "087e345350af": {
+    "id": "087e345350af",
+    "label": "560 RTE DE POMMEREVAL, Ventes-Saint-Rémy",
+    "lat": 49.706837,
+    "lng": 1.299755,
+    "transactions": [
+      {
+        "date": "2023-09-29",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-26",
+        "priceEur": 129500,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b4ff55de3dc": {
+    "id": "6b4ff55de3dc",
+    "label": "956 RTE DE POMMEREVAL, Ventes-Saint-Rémy",
+    "lat": 49.710129,
+    "lng": 1.301594,
+    "transactions": [
+      {
+        "date": "2021-08-25",
+        "priceEur": 216700,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c998e913fb7": {
+    "id": "8c998e913fb7",
+    "label": "504 RTE DE POMMEREVAL, Ventes-Saint-Rémy",
+    "lat": 49.706337,
+    "lng": 1.299623,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "5097440130fb": {
+    "id": "5097440130fb",
+    "label": "60 RTE DE L ECOLE, Ventes-Saint-Rémy",
+    "lat": 49.710057,
+    "lng": 1.305772,
+    "transactions": [
+      {
+        "date": "2024-07-04",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

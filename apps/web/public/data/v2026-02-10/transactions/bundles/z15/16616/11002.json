@@ -1,0 +1,751 @@
+{
+  "9252da85bbc5": {
+    "id": "9252da85bbc5",
+    "label": "66 RTE DE LA CHAPELLE, Saint-Sylvestre-Cappel",
+    "lat": 50.777527,
+    "lng": 2.554758,
+    "transactions": [
+      {
+        "date": "2020-10-16",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd1d72b4228a": {
+    "id": "bd1d72b4228a",
+    "label": "24 RTE NATIONALE, Saint-Sylvestre-Cappel",
+    "lat": 50.777291,
+    "lng": 2.55267,
+    "transactions": [
+      {
+        "date": "2020-11-17",
+        "priceEur": 168500,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d2ae392fde4": {
+    "id": "1d2ae392fde4",
+    "label": "79 RTE NATIONALE, Saint-Sylvestre-Cappel",
+    "lat": 50.77661,
+    "lng": 2.555871,
+    "transactions": [
+      {
+        "date": "2020-12-11",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "4bca614671a6": {
+    "id": "4bca614671a6",
+    "label": "9 RUE DES MESANGES, Saint-Sylvestre-Cappel",
+    "lat": 50.77372,
+    "lng": 2.553219,
+    "transactions": [
+      {
+        "date": "2020-08-19",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a33f93e7c7e": {
+    "id": "4a33f93e7c7e",
+    "label": "17 RUE JACQUES PREVERT, Saint-Sylvestre-Cappel",
+    "lat": 50.77435,
+    "lng": 2.552809,
+    "transactions": [
+      {
+        "date": "2020-09-07",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a835e3ed4d8": {
+    "id": "7a835e3ed4d8",
+    "label": "3 RUE DES MOULINS, Saint-Sylvestre-Cappel",
+    "lat": 50.774472,
+    "lng": 2.558146,
+    "transactions": [
+      {
+        "date": "2025-06-12",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-03",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "7586609a0240": {
+    "id": "7586609a0240",
+    "label": "23 RUE JACQUES PREVERT, Saint-Sylvestre-Cappel",
+    "lat": 50.774213,
+    "lng": 2.55236,
+    "transactions": [
+      {
+        "date": "2020-10-07",
+        "priceEur": 121000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "3adca7f8bd7f": {
+    "id": "3adca7f8bd7f",
+    "label": "8 RUE DES HOUBLONNIERES, Saint-Sylvestre-Cappel",
+    "lat": 50.775119,
+    "lng": 2.551757,
+    "transactions": [
+      {
+        "date": "2021-03-01",
+        "priceEur": 261995,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "16b11191cbbb": {
+    "id": "16b11191cbbb",
+    "label": "29 RTE NATIONALE, Saint-Sylvestre-Cappel",
+    "lat": 50.777898,
+    "lng": 2.552503,
+    "transactions": [
+      {
+        "date": "2021-03-31",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "085d2a2ec032": {
+    "id": "085d2a2ec032",
+    "label": "23 PL DE L EGLISE, Saint-Sylvestre-Cappel",
+    "lat": 50.777171,
+    "lng": 2.552997,
+    "transactions": [
+      {
+        "date": "2021-04-26",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ee8de1a6b6b": {
+    "id": "7ee8de1a6b6b",
+    "label": "2B RUE DES MOULINS, Saint-Sylvestre-Cappel",
+    "lat": 50.775171,
+    "lng": 2.557882,
+    "transactions": [
+      {
+        "date": "2021-05-27",
+        "priceEur": 416000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "44f43113287b": {
+    "id": "44f43113287b",
+    "label": "4 RUE DES MESANGES, Saint-Sylvestre-Cappel",
+    "lat": 50.774408,
+    "lng": 2.553594,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac2c9d70f5d8": {
+    "id": "ac2c9d70f5d8",
+    "label": "6 RUE DES MOULINS, Saint-Sylvestre-Cappel",
+    "lat": 50.775104,
+    "lng": 2.557588,
+    "transactions": [
+      {
+        "date": "2021-06-08",
+        "priceEur": 229800,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "5cb35d9d2b49": {
+    "id": "5cb35d9d2b49",
+    "label": "15 RUE DES MESANGES, Saint-Sylvestre-Cappel",
+    "lat": 50.774002,
+    "lng": 2.55304,
+    "transactions": [
+      {
+        "date": "2021-06-24",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e5df8a5b073": {
+    "id": "9e5df8a5b073",
+    "label": "93B RTE NATIONALE, Saint-Sylvestre-Cappel",
+    "lat": 50.775877,
+    "lng": 2.558159,
+    "transactions": [
+      {
+        "date": "2021-06-26",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d0d04801e8b": {
+    "id": "2d0d04801e8b",
+    "label": "86 RTE DE LA CHAPELLE, Saint-Sylvestre-Cappel",
+    "lat": 50.777648,
+    "lng": 2.554881,
+    "transactions": [
+      {
+        "date": "2021-07-05",
+        "priceEur": 84000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d0f4e446800": {
+    "id": "5d0f4e446800",
+    "label": "54 RTE NATIONALE, Saint-Sylvestre-Cappel",
+    "lat": 50.776157,
+    "lng": 2.556097,
+    "transactions": [
+      {
+        "date": "2021-07-19",
+        "priceEur": 96000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "21e400a54b08": {
+    "id": "21e400a54b08",
+    "label": "9 RUE DES HOUBLONNIERES, Saint-Sylvestre-Cappel",
+    "lat": 50.774888,
+    "lng": 2.551793,
+    "transactions": [
+      {
+        "date": "2021-08-19",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "19c89ec6bf68": {
+    "id": "19c89ec6bf68",
+    "label": "17 RTE NATIONALE, Saint-Sylvestre-Cappel",
+    "lat": 50.778147,
+    "lng": 2.55165,
+    "transactions": [
+      {
+        "date": "2021-10-20",
+        "priceEur": 170500,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b8097f19503": {
+    "id": "6b8097f19503",
+    "label": "19 PL DE L EGLISE, Saint-Sylvestre-Cappel",
+    "lat": 50.777025,
+    "lng": 2.552529,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 305000,
+        "typeLocal": "Maison",
+        "surfaceM2": 226,
+        "isVefa": false
+      }
+    ]
+  },
+  "e459a95c6e3c": {
+    "id": "e459a95c6e3c",
+    "label": "21 RTE NATIONALE, Saint-Sylvestre-Cappel",
+    "lat": 50.778061,
+    "lng": 2.551852,
+    "transactions": [
+      {
+        "date": "2021-10-22",
+        "priceEur": 112000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "fdbd2be7ac1b": {
+    "id": "fdbd2be7ac1b",
+    "label": "3 RUE DES ACACIAS, Saint-Sylvestre-Cappel",
+    "lat": 50.775083,
+    "lng": 2.554656,
+    "transactions": [
+      {
+        "date": "2021-11-02",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "bacb4c11f6fd": {
+    "id": "bacb4c11f6fd",
+    "label": "45 RTE NATIONALE, Saint-Sylvestre-Cappel",
+    "lat": 50.777473,
+    "lng": 2.553539,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 202000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "1012c765173c": {
+    "id": "1012c765173c",
+    "label": "11 PL DE L EGLISE, Saint-Sylvestre-Cappel",
+    "lat": 50.776613,
+    "lng": 2.552917,
+    "transactions": [
+      {
+        "date": "2022-02-14",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e75cf0e6a20": {
+    "id": "2e75cf0e6a20",
+    "label": "25 PL DE L EGLISE, Saint-Sylvestre-Cappel",
+    "lat": 50.777244,
+    "lng": 2.553069,
+    "transactions": [
+      {
+        "date": "2022-05-04",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd2587a01f7a": {
+    "id": "dd2587a01f7a",
+    "label": "19 RUE DES MESANGES, Saint-Sylvestre-Cappel",
+    "lat": 50.774091,
+    "lng": 2.552876,
+    "transactions": [
+      {
+        "date": "2024-09-06",
+        "priceEur": 123000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-17",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "960f75c96229": {
+    "id": "960f75c96229",
+    "label": "25 RTE NATIONALE, Saint-Sylvestre-Cappel",
+    "lat": 50.777987,
+    "lng": 2.552092,
+    "transactions": [
+      {
+        "date": "2022-07-18",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "62b0da22373c": {
+    "id": "62b0da22373c",
+    "label": "3 CHE DES SAISONS, Saint-Sylvestre-Cappel",
+    "lat": 50.774303,
+    "lng": 2.559376,
+    "transactions": [
+      {
+        "date": "2022-09-19",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e875db760f3": {
+    "id": "6e875db760f3",
+    "label": "78 RTE DE LA CHAPELLE, Saint-Sylvestre-Cappel",
+    "lat": 50.7776,
+    "lng": 2.554823,
+    "transactions": [
+      {
+        "date": "2022-09-20",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "9115e56fa15a": {
+    "id": "9115e56fa15a",
+    "label": "39 RTE NATIONALE, Saint-Sylvestre-Cappel",
+    "lat": 50.777671,
+    "lng": 2.553025,
+    "transactions": [
+      {
+        "date": "2022-11-09",
+        "priceEur": 184900,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f3c5f19b2b5": {
+    "id": "8f3c5f19b2b5",
+    "label": "8 RUE DES MOULINS, Saint-Sylvestre-Cappel",
+    "lat": 50.775039,
+    "lng": 2.557351,
+    "transactions": [
+      {
+        "date": "2022-12-05",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "477612e69410": {
+    "id": "477612e69410",
+    "label": "77 RTE NATIONALE, Saint-Sylvestre-Cappel",
+    "lat": 50.776701,
+    "lng": 2.555822,
+    "transactions": [
+      {
+        "date": "2023-01-10",
+        "priceEur": 157500,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "b70b56463666": {
+    "id": "b70b56463666",
+    "label": "38 RUE DES MOULINS, Saint-Sylvestre-Cappel",
+    "lat": 50.773379,
+    "lng": 2.552801,
+    "transactions": [
+      {
+        "date": "2023-03-01",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf4e03684696": {
+    "id": "cf4e03684696",
+    "label": "2 RUE DES MOULINS, Saint-Sylvestre-Cappel",
+    "lat": 50.775192,
+    "lng": 2.558484,
+    "transactions": [
+      {
+        "date": "2023-03-08",
+        "priceEur": 185500,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c23d59423bf": {
+    "id": "3c23d59423bf",
+    "label": "1 RUE DES MESANGES, Saint-Sylvestre-Cappel",
+    "lat": 50.773537,
+    "lng": 2.553552,
+    "transactions": [
+      {
+        "date": "2023-04-28",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "2656f6b9127e": {
+    "id": "2656f6b9127e",
+    "label": "23 RTE NATIONALE, Saint-Sylvestre-Cappel",
+    "lat": 50.778028,
+    "lng": 2.551978,
+    "transactions": [
+      {
+        "date": "2023-05-11",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "e773053c8555": {
+    "id": "e773053c8555",
+    "label": "20 RTE NATIONALE, Saint-Sylvestre-Cappel",
+    "lat": 50.777261,
+    "lng": 2.552245,
+    "transactions": [
+      {
+        "date": "2023-06-20",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "d43ef5b88258": {
+    "id": "d43ef5b88258",
+    "label": "108 RTE DE LA CHAPELLE, Saint-Sylvestre-Cappel",
+    "lat": 50.777829,
+    "lng": 2.555176,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "701ff5ff4be4": {
+    "id": "701ff5ff4be4",
+    "label": "2 RUE DU DOCTEUR POUPART, Saint-Sylvestre-Cappel",
+    "lat": 50.775552,
+    "lng": 2.552342,
+    "transactions": [
+      {
+        "date": "2023-08-23",
+        "priceEur": 256980,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "680e9bc7a1de": {
+    "id": "680e9bc7a1de",
+    "label": "91 RTE NATIONALE, Saint-Sylvestre-Cappel",
+    "lat": 50.776247,
+    "lng": 2.557094,
+    "transactions": [
+      {
+        "date": "2023-10-20",
+        "priceEur": 221000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6231a5383c3": {
+    "id": "e6231a5383c3",
+    "label": "46 RTE NATIONALE, Saint-Sylvestre-Cappel",
+    "lat": 50.77631,
+    "lng": 2.555661,
+    "transactions": [
+      {
+        "date": "2023-12-15",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "8803394db98f": {
+    "id": "8803394db98f",
+    "label": "40 RTE NATIONALE, Saint-Sylvestre-Cappel",
+    "lat": 50.776607,
+    "lng": 2.554907,
+    "transactions": [
+      {
+        "date": "2024-01-19",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "374d73e0b2e2": {
+    "id": "374d73e0b2e2",
+    "label": "14 RTE NATIONALE, Saint-Sylvestre-Cappel",
+    "lat": 50.777557,
+    "lng": 2.551625,
+    "transactions": [
+      {
+        "date": "2024-10-08",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "ebb4af6a5cad": {
+    "id": "ebb4af6a5cad",
+    "label": "1 RUE DES ACACIAS, Saint-Sylvestre-Cappel",
+    "lat": 50.775163,
+    "lng": 2.554259,
+    "transactions": [
+      {
+        "date": "2024-11-18",
+        "priceEur": 197000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "8aa5a4c58898": {
+    "id": "8aa5a4c58898",
+    "label": "1 PL DE L EGLISE, Saint-Sylvestre-Cappel",
+    "lat": 50.776284,
+    "lng": 2.553483,
+    "transactions": [
+      {
+        "date": "2025-01-10",
+        "priceEur": 181950,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "25b5dd86ceb4": {
+    "id": "25b5dd86ceb4",
+    "label": "10 RUE DES MOULINS, Saint-Sylvestre-Cappel",
+    "lat": 50.774964,
+    "lng": 2.557123,
+    "transactions": [
+      {
+        "date": "2025-01-30",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "386c4b5816b9": {
+    "id": "386c4b5816b9",
+    "label": "52 RTE NATIONALE, Saint-Sylvestre-Cappel",
+    "lat": 50.776197,
+    "lng": 2.555986,
+    "transactions": [
+      {
+        "date": "2025-02-20",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "a54c7b103aa6": {
+    "id": "a54c7b103aa6",
+    "label": "4 RUE DES MOULINS, Saint-Sylvestre-Cappel",
+    "lat": 50.774999,
+    "lng": 2.557958,
+    "transactions": [
+      {
+        "date": "2025-04-26",
+        "priceEur": 267040,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d92c6ad530e": {
+    "id": "5d92c6ad530e",
+    "label": "8B RTE D HONDEGHEM, Saint-Sylvestre-Cappel",
+    "lat": 50.775565,
+    "lng": 2.551,
+    "transactions": [
+      {
+        "date": "2025-04-28",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "8581269b1b03": {
+    "id": "8581269b1b03",
+    "label": "7 RUE DE L EGLISE, Saint-Pierre-des-Jonquières",
+    "lat": 49.849863,
+    "lng": 1.450889,
+    "transactions": [
+      {
+        "date": "2024-07-24",
+        "priceEur": 126000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "58ef47ff4960": {
+    "id": "58ef47ff4960",
+    "label": "1 RUE DE L EGLISE, Saint-Pierre-des-Jonquières",
+    "lat": 49.850938,
+    "lng": 1.451616,
+    "transactions": [
+      {
+        "date": "2025-03-27",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

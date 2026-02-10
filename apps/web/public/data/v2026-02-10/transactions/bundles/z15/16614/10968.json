@@ -1,0 +1,39 @@
+{
+  "05de91b59df4": {
+    "id": "05de91b59df4",
+    "label": "10 VC 2 DIT DU SUD, Ghyvelde",
+    "lat": 51.011442,
+    "lng": 2.537119,
+    "transactions": [
+      {
+        "date": "2022-12-19",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-03",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "6bfcacb920d1": {
+    "id": "6bfcacb920d1",
+    "label": "9 VC 2 DIT DU SUD, Ghyvelde",
+    "lat": 51.00907,
+    "lng": 2.527002,
+    "transactions": [
+      {
+        "date": "2024-08-02",
+        "priceEur": 299000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  }
+}

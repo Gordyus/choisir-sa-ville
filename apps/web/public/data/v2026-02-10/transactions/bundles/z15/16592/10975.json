@@ -1,0 +1,32 @@
+{
+  "fd30f5ae4969": {
+    "id": "fd30f5ae4969",
+    "label": "10 RUE DU BOIS CV N8, Brouckerque",
+    "lat": 50.962835,
+    "lng": 2.285916,
+    "transactions": [
+      {
+        "date": "2020-12-08",
+        "priceEur": 123500,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "661c67da7459": {
+    "id": "661c67da7459",
+    "label": "1 RUE DU BOIS CV N8, Brouckerque",
+    "lat": 50.96016,
+    "lng": 2.29327,
+    "transactions": [
+      {
+        "date": "2023-06-16",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  }
+}

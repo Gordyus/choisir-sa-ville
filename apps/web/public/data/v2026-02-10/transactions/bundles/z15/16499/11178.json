@@ -1,0 +1,106 @@
+{
+  "e05e274ba350": {
+    "id": "e05e274ba350",
+    "label": "5022 LE VILLAGE, Bierville",
+    "lat": 49.537485,
+    "lng": 1.270645,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-30",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "81a933cf0b55": {
+    "id": "81a933cf0b55",
+    "label": "5018 LE VILLAGE, Bierville",
+    "lat": 49.535603,
+    "lng": 1.274119,
+    "transactions": [
+      {
+        "date": "2023-04-25",
+        "priceEur": 347000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "24beaa34aaae": {
+    "id": "24beaa34aaae",
+    "label": "192 RUE DES CANADIENS, Bierville",
+    "lat": 49.539247,
+    "lng": 1.272722,
+    "transactions": [
+      {
+        "date": "2023-08-11",
+        "priceEur": 174000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "952a001d2d04": {
+    "id": "952a001d2d04",
+    "label": "104 IMP DES MARRONNIERS, Bierville",
+    "lat": 49.535627,
+    "lng": 1.273687,
+    "transactions": [
+      {
+        "date": "2023-09-08",
+        "priceEur": 554000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4460dd36f56": {
+    "id": "b4460dd36f56",
+    "label": "97 RUE HENRY DE LA VAUX, Bierville",
+    "lat": 49.535866,
+    "lng": 1.273121,
+    "transactions": [
+      {
+        "date": "2023-11-20",
+        "priceEur": 230000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-20",
+        "priceEur": 230000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0fb5c7bd502": {
+    "id": "e0fb5c7bd502",
+    "label": "2 RUE DES FOSSES TREMBLES, Bierville",
+    "lat": 49.53838,
+    "lng": 1.271499,
+    "transactions": [
+      {
+        "date": "2025-04-07",
+        "priceEur": 597000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  }
+}

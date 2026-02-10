@@ -1,0 +1,24 @@
+{
+  "440dd109f1a3": {
+    "id": "440dd109f1a3",
+    "label": "556 RTE DES MOULINS, Robertot",
+    "lat": 49.709647,
+    "lng": 0.689948,
+    "transactions": [
+      {
+        "date": "2025-06-25",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-05",
+        "priceEur": 285714,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "faf605b1a27e": {
+    "id": "faf605b1a27e",
+    "label": "5083 LE CENTRE, Morgny-la-Pommeraye",
+    "lat": 49.509458,
+    "lng": 1.254938,
+    "transactions": [
+      {
+        "date": "2022-05-07",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-03",
+        "priceEur": 63000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc6ea4ae881a": {
+    "id": "bc6ea4ae881a",
+    "label": "5118 LE BOURG, Morgny-la-Pommeraye",
+    "lat": 49.509068,
+    "lng": 1.256638,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "30e1295c12bc": {
+    "id": "30e1295c12bc",
+    "label": "396 RUE DE L'EGLISE, Morgny-la-Pommeraye",
+    "lat": 49.510178,
+    "lng": 1.255982,
+    "transactions": [
+      {
+        "date": "2022-11-23",
+        "priceEur": 433000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "4deb66d241ef": {
+    "id": "4deb66d241ef",
+    "label": "194 RUE DE L'EGLISE, Morgny-la-Pommeraye",
+    "lat": 49.509049,
+    "lng": 1.256334,
+    "transactions": [
+      {
+        "date": "2023-03-29",
+        "priceEur": 234000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "eaa00c225337": {
+    "id": "eaa00c225337",
+    "label": "5088 LE BOURG, Morgny-la-Pommeraye",
+    "lat": 49.509471,
+    "lng": 1.255602,
+    "transactions": [
+      {
+        "date": "2023-06-06",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "eabed18007a2": {
+    "id": "eabed18007a2",
+    "label": "5010 LE BOURG, Morgny-la-Pommeraye",
+    "lat": 49.508768,
+    "lng": 1.25566,
+    "transactions": [
+      {
+        "date": "2024-09-04",
+        "priceEur": 348700,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

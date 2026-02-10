@@ -1,0 +1,32 @@
+{
+  "4cdd88981925": {
+    "id": "4cdd88981925",
+    "label": "1651 RTE DE STEENVOORDE, Oudezeele",
+    "lat": 50.836042,
+    "lng": 2.526956,
+    "transactions": [
+      {
+        "date": "2023-02-06",
+        "priceEur": 315250,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "d04cbc9712f8": {
+    "id": "d04cbc9712f8",
+    "label": "1683 RTE DE STEENVOORDE, Oudezeele",
+    "lat": 50.835871,
+    "lng": 2.527108,
+    "transactions": [
+      {
+        "date": "2024-11-14",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  }
+}

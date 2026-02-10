@@ -1,0 +1,107 @@
+{
+  "96244b532265": {
+    "id": "96244b532265",
+    "label": "12 RUE DU CALVAIRE, Fontaine-la-Mallet",
+    "lat": 49.54134,
+    "lng": 0.154332,
+    "transactions": [
+      {
+        "date": "2020-10-23",
+        "priceEur": 223000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "c08e55619fcf": {
+    "id": "c08e55619fcf",
+    "label": "5003 RUE DE FREVILLE, Fontaine-la-Mallet",
+    "lat": 49.540741,
+    "lng": 0.1545,
+    "transactions": [
+      {
+        "date": "2022-01-27",
+        "priceEur": 356200,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "252e0e393532": {
+    "id": "252e0e393532",
+    "label": "38 RUE DE FREVILLE, Fontaine-la-Mallet",
+    "lat": 49.540577,
+    "lng": 0.156181,
+    "transactions": [
+      {
+        "date": "2023-01-27",
+        "priceEur": 513000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "daa1d44b268d": {
+    "id": "daa1d44b268d",
+    "label": "17 RUE DU CALVAIRE, Fontaine-la-Mallet",
+    "lat": 49.541739,
+    "lng": 0.154808,
+    "transactions": [
+      {
+        "date": "2023-09-08",
+        "priceEur": 465000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5be05d9105e": {
+    "id": "d5be05d9105e",
+    "label": "46 RUE DE FREVILLE, Fontaine-la-Mallet",
+    "lat": 49.541469,
+    "lng": 0.158459,
+    "transactions": [
+      {
+        "date": "2023-10-27",
+        "priceEur": 744700,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "e9a9a9cb68b7": {
+    "id": "e9a9a9cb68b7",
+    "label": "13 RUE DU CALVAIRE, Fontaine-la-Mallet",
+    "lat": 49.541753,
+    "lng": 0.154242,
+    "transactions": [
+      {
+        "date": "2024-08-08",
+        "priceEur": 485000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8edb7aef750": {
+    "id": "e8edb7aef750",
+    "label": "1210 CHE DES MOISSONS, Montivilliers",
+    "lat": 49.542974,
+    "lng": 0.155566,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 500000,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "d61f48fb1682": {
+    "id": "d61f48fb1682",
+    "label": "5094 BOIS D ENNEBOURG, Bois-d'Ennebourg",
+    "lat": 49.425085,
+    "lng": 1.257876,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 212300,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ea482910ef9": {
+    "id": "9ea482910ef9",
+    "label": "6020 BOIS D ENNEBOURG, Bois-d'Ennebourg",
+    "lat": 49.424333,
+    "lng": 1.258414,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "71ef58de7599": {
+    "id": "71ef58de7599",
+    "label": "5044 BOIS D ENNEBOURG, Bois-d'Ennebourg",
+    "lat": 49.424687,
+    "lng": 1.259261,
+    "transactions": [
+      {
+        "date": "2021-07-23",
+        "priceEur": 247630,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "23ceb32a8e73": {
+    "id": "23ceb32a8e73",
+    "label": "5030A BOUT DE BAS, Bois-d'Ennebourg",
+    "lat": 49.421675,
+    "lng": 1.255084,
+    "transactions": [
+      {
+        "date": "2022-12-20",
+        "priceEur": 292500,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "746535207117": {
+    "id": "746535207117",
+    "label": "132 IMP DES PEUPLIERS, Bois-d'Ennebourg",
+    "lat": 49.424483,
+    "lng": 1.258129,
+    "transactions": [
+      {
+        "date": "2024-01-16",
+        "priceEur": 188500,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  }
+}

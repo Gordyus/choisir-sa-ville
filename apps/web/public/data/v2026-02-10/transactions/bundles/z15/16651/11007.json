@@ -1,0 +1,32 @@
+{
+  "a34826535aff": {
+    "id": "a34826535aff",
+    "label": "26 RUE DE L HOSPICE, Deûlémont",
+    "lat": 50.736899,
+    "lng": 2.944026,
+    "transactions": [
+      {
+        "date": "2021-07-28",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "970de11f2692": {
+    "id": "970de11f2692",
+    "label": "28 RUE DE L HOSPICE, Deûlémont",
+    "lat": 50.737076,
+    "lng": 2.943885,
+    "transactions": [
+      {
+        "date": "2021-07-28",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

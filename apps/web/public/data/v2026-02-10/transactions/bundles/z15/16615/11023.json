@@ -1,0 +1,47 @@
+{
+  "6e6b51522a24": {
+    "id": "6e6b51522a24",
+    "label": "215 VC DE LA LYS, Haverskerque",
+    "lat": 50.627464,
+    "lng": 2.544524,
+    "transactions": [
+      {
+        "date": "2021-04-12",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2e7a63876b2": {
+    "id": "e2e7a63876b2",
+    "label": "221 VC DE LA LYS, Haverskerque",
+    "lat": 50.627616,
+    "lng": 2.544376,
+    "transactions": [
+      {
+        "date": "2021-06-15",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b62040e6841": {
+    "id": "6b62040e6841",
+    "label": "1398 RUE DU HUIT MAI 1945, Haverskerque",
+    "lat": 50.630116,
+    "lng": 2.548076,
+    "transactions": [
+      {
+        "date": "2022-06-08",
+        "priceEur": 246200,
+        "typeLocal": "Maison",
+        "surfaceM2": 189,
+        "isVefa": false
+      }
+    ]
+  }
+}

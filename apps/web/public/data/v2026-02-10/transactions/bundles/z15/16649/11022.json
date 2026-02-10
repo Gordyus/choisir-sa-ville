@@ -1,0 +1,32 @@
+{
+  "511151ba605d": {
+    "id": "511151ba605d",
+    "label": "5109 TROIS FETUS, Ennetières-en-Weppes",
+    "lat": 50.638648,
+    "lng": 2.919855,
+    "transactions": [
+      {
+        "date": "2023-03-30",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "63acdffac560": {
+    "id": "63acdffac560",
+    "label": "34 RUE DES OBEAUX, Radinghem-en-Weppes",
+    "lat": 50.634431,
+    "lng": 2.912197,
+    "transactions": [
+      {
+        "date": "2023-07-03",
+        "priceEur": 1105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 199,
+        "isVefa": false
+      }
+    ]
+  }
+}

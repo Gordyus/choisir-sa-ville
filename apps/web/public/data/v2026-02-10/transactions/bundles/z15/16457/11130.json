@@ -1,0 +1,32 @@
+{
+  "4f75d118dc4f": {
+    "id": "4f75d118dc4f",
+    "label": "3 ALL EUGENE BOUDIN, Veules-les-Roses",
+    "lat": 49.873682,
+    "lng": 0.802617,
+    "transactions": [
+      {
+        "date": "2022-10-19",
+        "priceEur": 165200,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2c7466f2712": {
+    "id": "c2c7466f2712",
+    "label": "5 ALL EUGENE BOUDIN, Veules-les-Roses",
+    "lat": 49.873441,
+    "lng": 0.80276,
+    "transactions": [
+      {
+        "date": "2023-06-23",
+        "priceEur": 218800,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

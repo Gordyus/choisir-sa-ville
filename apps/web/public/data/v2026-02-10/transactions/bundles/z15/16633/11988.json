@@ -1,0 +1,47 @@
+{
+  "36f713303fe8": {
+    "id": "36f713303fe8",
+    "label": "5312F LE VILLAGE, Rieussec",
+    "lat": 43.417094,
+    "lng": 2.738189,
+    "transactions": [
+      {
+        "date": "2020-12-22",
+        "priceEur": 54000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "d584f7ce5452": {
+    "id": "d584f7ce5452",
+    "label": "5088F LA VIGNASSE, Rieussec",
+    "lat": 43.421008,
+    "lng": 2.744429,
+    "transactions": [
+      {
+        "date": "2021-03-22",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "a31331f8eaa8": {
+    "id": "a31331f8eaa8",
+    "label": "5075 LES TAILLADES, Rieussec",
+    "lat": 43.416546,
+    "lng": 2.739811,
+    "transactions": [
+      {
+        "date": "2024-12-28",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  }
+}

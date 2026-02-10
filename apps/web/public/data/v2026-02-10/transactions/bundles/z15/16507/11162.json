@@ -1,0 +1,92 @@
+{
+  "2f29809ee929": {
+    "id": "2f29809ee929",
+    "label": "5087 LE BOURG, Neufbosc",
+    "lat": 49.649827,
+    "lng": 1.360007,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "9dae6f6d404e": {
+    "id": "9dae6f6d404e",
+    "label": "5083 LE BOURG, Neufbosc",
+    "lat": 49.650036,
+    "lng": 1.35899,
+    "transactions": [
+      {
+        "date": "2022-06-29",
+        "priceEur": 164500,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "a750d37138c5": {
+    "id": "a750d37138c5",
+    "label": "146 RTE DE BOSC MESNIL, Neufbosc",
+    "lat": 49.648823,
+    "lng": 1.358808,
+    "transactions": [
+      {
+        "date": "2022-09-12",
+        "priceEur": 182000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1c61da8f980": {
+    "id": "e1c61da8f980",
+    "label": "416 RTE DE BOSC MESNIL, Neufbosc",
+    "lat": 49.64769,
+    "lng": 1.361711,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 327000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "29d412f0e733": {
+    "id": "29d412f0e733",
+    "label": "339 RTE DE MAURAY, Neufbosc",
+    "lat": 49.646332,
+    "lng": 1.359167,
+    "transactions": [
+      {
+        "date": "2023-08-10",
+        "priceEur": 213500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "edc82df6275f": {
+    "id": "edc82df6275f",
+    "label": "5080 LE BOURG, Neufbosc",
+    "lat": 49.648818,
+    "lng": 1.360303,
+    "transactions": [
+      {
+        "date": "2024-08-01",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  }
+}

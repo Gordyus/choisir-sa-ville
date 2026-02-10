@@ -1,0 +1,24 @@
+{
+  "9358a6433f00": {
+    "id": "9358a6433f00",
+    "label": "5066 CLAIRAC, Cazouls-lès-Béziers",
+    "lat": 43.365215,
+    "lng": 3.126747,
+    "transactions": [
+      {
+        "date": "2021-06-24",
+        "priceEur": 13000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-24",
+        "priceEur": 13000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "1ac7f111253d": {
+    "id": "1ac7f111253d",
+    "label": "1582 RUE PRINCIPALE CD 72, Téteghem-Coudekerque-Village",
+    "lat": 50.977075,
+    "lng": 2.4245,
+    "transactions": [
+      {
+        "date": "2021-04-21",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-21",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "dcc7206cb773": {
+    "id": "dcc7206cb773",
+    "label": "18 IMP DES LILAS, Bierne",
+    "lat": 50.976827,
+    "lng": 2.417795,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-15",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "16aa2fe97a4e": {
+    "id": "16aa2fe97a4e",
+    "label": "20 IMP DES PEUPLIERS, Bierne",
+    "lat": 50.977093,
+    "lng": 2.417575,
+    "transactions": [
+      {
+        "date": "2021-12-09",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "14a7617003d4": {
+    "id": "14a7617003d4",
+    "label": "8 RTE DE DUNKERQUE, Bierne",
+    "lat": 50.974219,
+    "lng": 2.422803,
+    "transactions": [
+      {
+        "date": "2022-12-16",
+        "priceEur": 398000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-05",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "23714a68f129": {
+    "id": "23714a68f129",
+    "label": "11 IMP DES ROSES, Bierne",
+    "lat": 50.975141,
+    "lng": 2.421167,
+    "transactions": [
+      {
+        "date": "2024-12-02",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  }
+}

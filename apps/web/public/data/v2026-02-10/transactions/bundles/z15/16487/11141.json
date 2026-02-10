@@ -1,0 +1,47 @@
+{
+  "b7f228e76226": {
+    "id": "b7f228e76226",
+    "label": "73 RUE DU CENTRE, Sainte-Foy",
+    "lat": 49.796319,
+    "lng": 1.136637,
+    "transactions": [
+      {
+        "date": "2022-08-05",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "76b6d3670c7d": {
+    "id": "76b6d3670c7d",
+    "label": "1 RTE DU PUITS MARTIN, Sainte-Foy",
+    "lat": 49.797312,
+    "lng": 1.133668,
+    "transactions": [
+      {
+        "date": "2025-03-15",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "212fa24884d3": {
+    "id": "212fa24884d3",
+    "label": "2 IMP PRIVEE, Sainte-Foy",
+    "lat": 49.795959,
+    "lng": 1.136327,
+    "transactions": [
+      {
+        "date": "2025-04-09",
+        "priceEur": 81200,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

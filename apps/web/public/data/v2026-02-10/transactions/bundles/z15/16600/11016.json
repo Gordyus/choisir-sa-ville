@@ -1,0 +1,32 @@
+{
+  "4776020a2029": {
+    "id": "4776020a2029",
+    "label": "304 RUE DU MONT DUPIL, Blaringhem",
+    "lat": 50.678535,
+    "lng": 2.380701,
+    "transactions": [
+      {
+        "date": "2023-01-09",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "cfd5ab4c55d4": {
+    "id": "cfd5ab4c55d4",
+    "label": "242 RUE DU PONT HENAUX, Blaringhem",
+    "lat": 50.679479,
+    "lng": 2.375137,
+    "transactions": [
+      {
+        "date": "2024-07-16",
+        "priceEur": 211050,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  }
+}

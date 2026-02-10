@@ -1,0 +1,32 @@
+{
+  "437e47074192": {
+    "id": "437e47074192",
+    "label": "910 RTE DES CENDRES, Winnezeele",
+    "lat": 50.857979,
+    "lng": 2.589205,
+    "transactions": [
+      {
+        "date": "2025-02-13",
+        "priceEur": 334350,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "e36e3146528c": {
+    "id": "e36e3146528c",
+    "label": "1112 RTE DE WATOU, Winnezeele",
+    "lat": 50.856479,
+    "lng": 2.583089,
+    "transactions": [
+      {
+        "date": "2025-02-28",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  }
+}

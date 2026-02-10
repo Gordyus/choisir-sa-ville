@@ -1,0 +1,47 @@
+{
+  "f8c62f7c83c1": {
+    "id": "f8c62f7c83c1",
+    "label": "164 RTE DE LA VALLEE, Saint-Hellier",
+    "lat": 49.720704,
+    "lng": 1.209847,
+    "transactions": [
+      {
+        "date": "2022-12-16",
+        "priceEur": 180500,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "793815d6a34b": {
+    "id": "793815d6a34b",
+    "label": "78 RTE DE LA VALLEE, Saint-Hellier",
+    "lat": 49.720175,
+    "lng": 1.21041,
+    "transactions": [
+      {
+        "date": "2022-12-23",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "88435c740264": {
+    "id": "88435c740264",
+    "label": "284 RTE DE LA VALLEE, Saint-Hellier",
+    "lat": 49.721211,
+    "lng": 1.20931,
+    "transactions": [
+      {
+        "date": "2024-12-19",
+        "priceEur": 182500,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

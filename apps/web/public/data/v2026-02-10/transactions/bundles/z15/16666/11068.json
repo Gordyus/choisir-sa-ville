@@ -1,0 +1,92 @@
+{
+  "f2971eee20eb": {
+    "id": "f2971eee20eb",
+    "label": "169 RUE RESIDENCE DE LA PRAIRIE, Gœulzin",
+    "lat": 50.316025,
+    "lng": 3.099067,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "870db3a71de0": {
+    "id": "870db3a71de0",
+    "label": "204 RUE RESIDENCE DE LA PRAIRIE, Gœulzin",
+    "lat": 50.316216,
+    "lng": 3.099901,
+    "transactions": [
+      {
+        "date": "2021-07-19",
+        "priceEur": 314520,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "c130d5eda565": {
+    "id": "c130d5eda565",
+    "label": "285 RES LE VAL FLEURI, Gœulzin",
+    "lat": 50.31427,
+    "lng": 3.099908,
+    "transactions": [
+      {
+        "date": "2022-06-07",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "14496d9ee312": {
+    "id": "14496d9ee312",
+    "label": "284 RES LE VAL FLEURI, Gœulzin",
+    "lat": 50.313535,
+    "lng": 3.09867,
+    "transactions": [
+      {
+        "date": "2023-06-02",
+        "priceEur": 237600,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "499fb23c8cd3": {
+    "id": "499fb23c8cd3",
+    "label": "392 RUE RESIDENCE DE LA PRAIRIE, Gœulzin",
+    "lat": 50.316751,
+    "lng": 3.100002,
+    "transactions": [
+      {
+        "date": "2024-07-10",
+        "priceEur": 380000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f014e70189b": {
+    "id": "4f014e70189b",
+    "label": "280 RUE RESIDENCE DE LA PRAIRIE, Gœulzin",
+    "lat": 50.316738,
+    "lng": 3.098814,
+    "transactions": [
+      {
+        "date": "2025-06-16",
+        "priceEur": 293500,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  }
+}

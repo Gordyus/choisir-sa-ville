@@ -1,0 +1,92 @@
+{
+  "edf165f903e2": {
+    "id": "edf165f903e2",
+    "label": "8 RUE DE LA CROIX BLANCHE, Baromesnil",
+    "lat": 49.984508,
+    "lng": 1.408649,
+    "transactions": [
+      {
+        "date": "2021-07-02",
+        "priceEur": 109000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "61abcd5645a5": {
+    "id": "61abcd5645a5",
+    "label": "44 RUE DU FAYEL, Baromesnil",
+    "lat": 49.981839,
+    "lng": 1.414365,
+    "transactions": [
+      {
+        "date": "2022-02-21",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "36e18beff1b3": {
+    "id": "36e18beff1b3",
+    "label": "14 RUE DU FAYEL, Baromesnil",
+    "lat": 49.983245,
+    "lng": 1.410989,
+    "transactions": [
+      {
+        "date": "2022-09-21",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "25ffef130e3a": {
+    "id": "25ffef130e3a",
+    "label": "10 RUE DE LA CROIX BLANCHE, Baromesnil",
+    "lat": 49.984283,
+    "lng": 1.408298,
+    "transactions": [
+      {
+        "date": "2024-01-25",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b0af1cedc1a": {
+    "id": "7b0af1cedc1a",
+    "label": "9 RUE DU FAYEL, Baromesnil",
+    "lat": 49.984763,
+    "lng": 1.411024,
+    "transactions": [
+      {
+        "date": "2024-06-10",
+        "priceEur": 453450,
+        "typeLocal": "Maison",
+        "surfaceM2": 240,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c64bc9c723d": {
+    "id": "7c64bc9c723d",
+    "label": "14 RUE DE LA CROIX BLANCHE, Baromesnil",
+    "lat": 49.983771,
+    "lng": 1.40809,
+    "transactions": [
+      {
+        "date": "2024-08-28",
+        "priceEur": 181400,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "5f9f06d9d910": {
+    "id": "5f9f06d9d910",
+    "label": "5182 TRUSCAS, Avène",
+    "lat": 43.731886,
+    "lng": 3.120169,
+    "transactions": [
+      {
+        "date": "2021-08-04",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "6dc8fd7f706d": {
+    "id": "6dc8fd7f706d",
+    "label": "6103F TRUSCAS, Avène",
+    "lat": 43.732177,
+    "lng": 3.120559,
+    "transactions": [
+      {
+        "date": "2022-08-01",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 34,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f7bf81fef86": {
+    "id": "2f7bf81fef86",
+    "label": "6096F TRUSCAS, Avène",
+    "lat": 43.731773,
+    "lng": 3.121275,
+    "transactions": [
+      {
+        "date": "2022-12-20",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 23,
+        "isVefa": false
+      }
+    ]
+  }
+}

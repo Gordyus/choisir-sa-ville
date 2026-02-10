@@ -1,0 +1,32 @@
+{
+  "738b34fc4fd0": {
+    "id": "738b34fc4fd0",
+    "label": "5215 LES CURES, Saint-Martin-du-Manoir",
+    "lat": 49.535487,
+    "lng": 0.217295,
+    "transactions": [
+      {
+        "date": "2020-08-26",
+        "priceEur": 265400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3a9bf0abf55": {
+    "id": "c3a9bf0abf55",
+    "label": "5185 LES CURES, Saint-Martin-du-Manoir",
+    "lat": 49.534032,
+    "lng": 0.215507,
+    "transactions": [
+      {
+        "date": "2022-05-05",
+        "priceEur": 335350,
+        "typeLocal": "Maison",
+        "surfaceM2": 159,
+        "isVefa": false
+      }
+    ]
+  }
+}

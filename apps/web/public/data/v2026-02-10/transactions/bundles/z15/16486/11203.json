@@ -1,0 +1,32 @@
+{
+  "82ddb2231e3d": {
+    "id": "82ddb2231e3d",
+    "label": "454 RTE DE PARIS, Gouy",
+    "lat": 49.35549,
+    "lng": 1.129512,
+    "transactions": [
+      {
+        "date": "2021-07-15",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "f09304572155": {
+    "id": "f09304572155",
+    "label": "921 RTE DE PARIS, Gouy",
+    "lat": 49.359666,
+    "lng": 1.129759,
+    "transactions": [
+      {
+        "date": "2024-03-04",
+        "priceEur": 87000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  }
+}

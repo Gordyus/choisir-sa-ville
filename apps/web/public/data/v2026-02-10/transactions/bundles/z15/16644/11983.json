@@ -1,0 +1,107 @@
+{
+  "716ae014f6e4": {
+    "id": "716ae014f6e4",
+    "label": "5151 RIEUSSEC, Pardailhan",
+    "lat": 43.456933,
+    "lng": 2.862547,
+    "transactions": [
+      {
+        "date": "2021-10-30",
+        "priceEur": 33000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "abac98101517": {
+    "id": "abac98101517",
+    "label": "5115 RIEUSSEC, Pardailhan",
+    "lat": 43.456724,
+    "lng": 2.862932,
+    "transactions": [
+      {
+        "date": "2021-12-10",
+        "priceEur": 68000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "065421268905": {
+    "id": "065421268905",
+    "label": "5173 RIEUSSEC, Pardailhan",
+    "lat": 43.456935,
+    "lng": 2.862646,
+    "transactions": [
+      {
+        "date": "2022-06-09",
+        "priceEur": 22000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "70a018237adf": {
+    "id": "70a018237adf",
+    "label": "5139 RIEUSSEC, Pardailhan",
+    "lat": 43.457122,
+    "lng": 2.86284,
+    "transactions": [
+      {
+        "date": "2022-07-21",
+        "priceEur": 299400,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "f52850ddc358": {
+    "id": "f52850ddc358",
+    "label": "5097 RIEUSSEC, Pardailhan",
+    "lat": 43.457164,
+    "lng": 2.862512,
+    "transactions": [
+      {
+        "date": "2023-07-11",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "bceaef934481": {
+    "id": "bceaef934481",
+    "label": "5140 RIEUSSEC, Pardailhan",
+    "lat": 43.456272,
+    "lng": 2.862103,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 116400,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "246b3a88ee07": {
+    "id": "246b3a88ee07",
+    "label": "5252F LES HORTS, Pardailhan",
+    "lat": 43.455845,
+    "lng": 2.86288,
+    "transactions": [
+      {
+        "date": "2024-08-06",
+        "priceEur": 39000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  }
+}

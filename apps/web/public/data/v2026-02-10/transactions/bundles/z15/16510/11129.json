@@ -1,0 +1,32 @@
+{
+  "3982bf677066": {
+    "id": "3982bf677066",
+    "label": "4 RUE DE LA MARE, Les Ifs",
+    "lat": 49.884772,
+    "lng": 1.393787,
+    "transactions": [
+      {
+        "date": "2024-08-30",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "b904bef61eaa": {
+    "id": "b904bef61eaa",
+    "label": "12 RUE DE LA MARE, Les Ifs",
+    "lat": 49.884057,
+    "lng": 1.393001,
+    "transactions": [
+      {
+        "date": "2024-10-09",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

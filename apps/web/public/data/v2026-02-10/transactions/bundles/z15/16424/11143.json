@@ -1,0 +1,77 @@
+{
+  "ce69bae2ab6f": {
+    "id": "ce69bae2ab6f",
+    "label": "24 RUE DE BOISVAL, Életot",
+    "lat": 49.786376,
+    "lng": 0.449701,
+    "transactions": [
+      {
+        "date": "2021-01-19",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "acea6db27123": {
+    "id": "acea6db27123",
+    "label": "22 LE CLOS, Életot",
+    "lat": 49.787058,
+    "lng": 0.449117,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 83000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb32a6e6e2ff": {
+    "id": "cb32a6e6e2ff",
+    "label": "300 GRAND RUE, Életot",
+    "lat": 49.78549,
+    "lng": 0.45002,
+    "transactions": [
+      {
+        "date": "2022-12-15",
+        "priceEur": 211000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "1dc52de8ee25": {
+    "id": "1dc52de8ee25",
+    "label": "42 COUR SOUVERAINE, Életot",
+    "lat": 49.786504,
+    "lng": 0.44858,
+    "transactions": [
+      {
+        "date": "2023-02-13",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "82221419d6be": {
+    "id": "82221419d6be",
+    "label": "242 GRAND RUE, Életot",
+    "lat": 49.786054,
+    "lng": 0.45005,
+    "transactions": [
+      {
+        "date": "2024-09-05",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

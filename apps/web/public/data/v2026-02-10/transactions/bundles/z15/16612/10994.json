@@ -1,0 +1,47 @@
+{
+  "9fcf58760c5e": {
+    "id": "9fcf58760c5e",
+    "label": "890 RTE DE CASSEL, Oudezeele",
+    "lat": 50.829822,
+    "lng": 2.506643,
+    "transactions": [
+      {
+        "date": "2021-11-09",
+        "priceEur": 253800,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0eb3c701522": {
+    "id": "c0eb3c701522",
+    "label": "850 RTE DE CASSEL, Oudezeele",
+    "lat": 50.830289,
+    "lng": 2.506446,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 228600,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc4f7cb80939": {
+    "id": "cc4f7cb80939",
+    "label": "539 RTE DE CASSEL, Oudezeele",
+    "lat": 50.832616,
+    "lng": 2.508808,
+    "transactions": [
+      {
+        "date": "2022-11-03",
+        "priceEur": 189850,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

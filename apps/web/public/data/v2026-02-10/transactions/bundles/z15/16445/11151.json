@@ -1,0 +1,32 @@
+{
+  "ffc8e360a3c4": {
+    "id": "ffc8e360a3c4",
+    "label": "85 ALL DES SAPINETTES, Oherville",
+    "lat": 49.724503,
+    "lng": 0.680853,
+    "transactions": [
+      {
+        "date": "2021-03-29",
+        "priceEur": 164000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed702dd38aca": {
+    "id": "ed702dd38aca",
+    "label": "40 IMP DU BOIS, Oherville",
+    "lat": 49.726315,
+    "lng": 0.675001,
+    "transactions": [
+      {
+        "date": "2021-05-10",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  }
+}

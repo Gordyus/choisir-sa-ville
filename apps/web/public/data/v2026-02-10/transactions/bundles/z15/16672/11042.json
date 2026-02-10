@@ -1,0 +1,180 @@
+{
+  "5e7e03e5c33a": {
+    "id": "5e7e03e5c33a",
+    "label": "2030 GR GRANDE RUE, Bersée",
+    "lat": 50.493955,
+    "lng": 3.165535,
+    "transactions": [
+      {
+        "date": "2020-10-13",
+        "priceEur": 403700,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d80e3e7a24e": {
+    "id": "5d80e3e7a24e",
+    "label": "8A RUE FLORIMOND DESPREZ, Cappelle-en-Pévèle",
+    "lat": 50.494111,
+    "lng": 3.170988,
+    "transactions": [
+      {
+        "date": "2022-05-12",
+        "priceEur": 200487,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-01",
+        "priceEur": 590000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "85cd238e0ecf": {
+    "id": "85cd238e0ecf",
+    "label": "12 RUE DE WATTINES, Cappelle-en-Pévèle",
+    "lat": 50.493083,
+    "lng": 3.167886,
+    "transactions": [
+      {
+        "date": "2021-10-11",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "247da8946018": {
+    "id": "247da8946018",
+    "label": "10 RUE DE WATTINES, Cappelle-en-Pévèle",
+    "lat": 50.493173,
+    "lng": 3.167788,
+    "transactions": [
+      {
+        "date": "2023-04-11",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca68cbebb6df": {
+    "id": "ca68cbebb6df",
+    "label": "7 RUE FLORIMOND DESPREZ, Cappelle-en-Pévèle",
+    "lat": 50.493855,
+    "lng": 3.17217,
+    "transactions": [
+      {
+        "date": "2023-04-17",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "87297d3da36e": {
+    "id": "87297d3da36e",
+    "label": "18 RUE DE WATTINES, Cappelle-en-Pévèle",
+    "lat": 50.49259,
+    "lng": 3.168502,
+    "transactions": [
+      {
+        "date": "2024-03-27",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2024-03-27",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2024-03-27",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "c12ef0c9aece": {
+    "id": "c12ef0c9aece",
+    "label": "5 RUE DE WATTINES, Bersée",
+    "lat": 50.492529,
+    "lng": 3.167267,
+    "transactions": [
+      {
+        "date": "2024-03-27",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 457,
+        "isVefa": false
+      },
+      {
+        "date": "2024-03-27",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "6bc7a47a315f": {
+    "id": "6bc7a47a315f",
+    "label": "19 RUE FLORIMOND DESPREZ, Cappelle-en-Pévèle",
+    "lat": 50.492704,
+    "lng": 3.168517,
+    "transactions": [
+      {
+        "date": "2024-03-27",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "07e7e60665d6": {
+    "id": "07e7e60665d6",
+    "label": "1896 GR GRANDE RUE, Bersée",
+    "lat": 50.492964,
+    "lng": 3.164886,
+    "transactions": [
+      {
+        "date": "2024-03-27",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5aabea38420": {
+    "id": "c5aabea38420",
+    "label": "1883 GR GRANDE RUE, Bersée",
+    "lat": 50.492943,
+    "lng": 3.164632,
+    "transactions": [
+      {
+        "date": "2024-03-27",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

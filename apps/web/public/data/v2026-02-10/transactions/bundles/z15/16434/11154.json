@@ -1,0 +1,62 @@
+{
+  "4376ce32345b": {
+    "id": "4376ce32345b",
+    "label": "9B RUE DU CARREAU DES ROMAINS, Sorquainville",
+    "lat": 49.706126,
+    "lng": 0.549337,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "d86d6f14998b": {
+    "id": "d86d6f14998b",
+    "label": "15 RUE DES RANDONNEURS, Sorquainville",
+    "lat": 49.707746,
+    "lng": 0.555839,
+    "transactions": [
+      {
+        "date": "2021-09-16",
+        "priceEur": 208000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "acebc9fe738e": {
+    "id": "acebc9fe738e",
+    "label": "8 RUE DE L EGLISE, Sorquainville",
+    "lat": 49.706066,
+    "lng": 0.552228,
+    "transactions": [
+      {
+        "date": "2022-04-14",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b7b5e6986a0": {
+    "id": "0b7b5e6986a0",
+    "label": "9 RUE DE L EGLISE, Sorquainville",
+    "lat": 49.707106,
+    "lng": 0.555706,
+    "transactions": [
+      {
+        "date": "2023-10-26",
+        "priceEur": 222100,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

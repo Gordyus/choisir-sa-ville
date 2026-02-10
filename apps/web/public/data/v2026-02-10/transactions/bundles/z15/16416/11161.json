@@ -1,0 +1,77 @@
+{
+  "f8d10eec9aaf": {
+    "id": "f8d10eec9aaf",
+    "label": "6 IMP DU CHATEAU MAIGRET, Sausseuzemare-en-Caux",
+    "lat": 49.657273,
+    "lng": 0.356306,
+    "transactions": [
+      {
+        "date": "2021-04-23",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "9de65b0e0918": {
+    "id": "9de65b0e0918",
+    "label": "639 RTE DE FECAMP, Bretteville-du-Grand-Caux",
+    "lat": 49.658254,
+    "lng": 0.359344,
+    "transactions": [
+      {
+        "date": "2022-05-02",
+        "priceEur": 251000,
+        "typeLocal": "Maison",
+        "surfaceM2": 345,
+        "isVefa": false
+      }
+    ]
+  },
+  "277defcf3db9": {
+    "id": "277defcf3db9",
+    "label": "675 RTE DE FECAMP, Bretteville-du-Grand-Caux",
+    "lat": 49.658485,
+    "lng": 0.358109,
+    "transactions": [
+      {
+        "date": "2022-05-17",
+        "priceEur": 503000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb75fb5d62fe": {
+    "id": "fb75fb5d62fe",
+    "label": "20 RTE DE GODERVILLE, Sausseuzemare-en-Caux",
+    "lat": 49.655823,
+    "lng": 0.351952,
+    "transactions": [
+      {
+        "date": "2024-07-17",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf0e7b1980a9": {
+    "id": "cf0e7b1980a9",
+    "label": "339 RTE DE FECAMP, Bretteville-du-Grand-Caux",
+    "lat": 49.656057,
+    "lng": 0.360027,
+    "transactions": [
+      {
+        "date": "2024-10-12",
+        "priceEur": 218000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  }
+}

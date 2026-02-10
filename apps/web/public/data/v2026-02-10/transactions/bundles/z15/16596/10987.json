@@ -1,0 +1,39 @@
+{
+  "0e6792e24196": {
+    "id": "0e6792e24196",
+    "label": "15 RTE DE GRAVELINES, Bollezeele",
+    "lat": 50.879161,
+    "lng": 2.338425,
+    "transactions": [
+      {
+        "date": "2022-05-09",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "23371fdefc0d": {
+    "id": "23371fdefc0d",
+    "label": "4 CHE DU COUVENT, Bollezeele",
+    "lat": 50.880015,
+    "lng": 2.3342,
+    "transactions": [
+      {
+        "date": "2024-12-20",
+        "priceEur": 314400,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-18",
+        "priceEur": 275560,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  }
+}

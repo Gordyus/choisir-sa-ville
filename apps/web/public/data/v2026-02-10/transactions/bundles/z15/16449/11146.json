@@ -1,0 +1,47 @@
+{
+  "97e12c4e56c0": {
+    "id": "97e12c4e56c0",
+    "label": "92 IMP DE LA FORGE, Saint-Vaast-Dieppedalle",
+    "lat": 49.763012,
+    "lng": 0.716674,
+    "transactions": [
+      {
+        "date": "2020-11-16",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "3affe738371f": {
+    "id": "3affe738371f",
+    "label": "38 RTE DU COLOMBIER, Saint-Vaast-Dieppedalle",
+    "lat": 49.76203,
+    "lng": 0.714963,
+    "transactions": [
+      {
+        "date": "2021-02-26",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "b77c5caebf63": {
+    "id": "b77c5caebf63",
+    "label": "1115 RTE DE LA GARE, Saint-Vaast-Dieppedalle",
+    "lat": 49.762452,
+    "lng": 0.717079,
+    "transactions": [
+      {
+        "date": "2022-07-08",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

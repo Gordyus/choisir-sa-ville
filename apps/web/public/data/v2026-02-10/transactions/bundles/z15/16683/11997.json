@@ -1,0 +1,24 @@
+{
+  "8b9e6dcdf4cd": {
+    "id": "8b9e6dcdf4cd",
+    "label": "123 RUE KONRAD ADENAUER, Béziers",
+    "lat": 43.341769,
+    "lng": 3.287594,
+    "transactions": [
+      {
+        "date": "2024-10-15",
+        "priceEur": 5900000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 105,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-29",
+        "priceEur": 3840000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  }
+}

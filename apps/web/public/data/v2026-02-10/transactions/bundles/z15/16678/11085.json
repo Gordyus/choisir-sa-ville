@@ -1,0 +1,24 @@
+{
+  "fe9a8c07b249": {
+    "id": "fe9a8c07b249",
+    "label": "1 RUE D ESWARS, Cambrai",
+    "lat": 50.192286,
+    "lng": 3.238968,
+    "transactions": [
+      {
+        "date": "2022-01-12",
+        "priceEur": 356950,
+        "typeLocal": "Appartement",
+        "surfaceM2": 112,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-12",
+        "priceEur": 356950,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  }
+}

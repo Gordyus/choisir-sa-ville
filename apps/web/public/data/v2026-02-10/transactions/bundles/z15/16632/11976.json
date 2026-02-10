@@ -1,0 +1,68 @@
+{
+  "54c54291fc2b": {
+    "id": "54c54291fc2b",
+    "label": "5600 RIEUMAJOU, Saint-Pons-de-Thomières",
+    "lat": 43.513626,
+    "lng": 2.733013,
+    "transactions": [
+      {
+        "date": "2021-04-08",
+        "priceEur": 16000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "32b8b8ca2f6f": {
+    "id": "32b8b8ca2f6f",
+    "label": "5744F BRASSAC, Saint-Pons-de-Thomières",
+    "lat": 43.50889,
+    "lng": 2.735263,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 433790,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "a627a20f14f5": {
+    "id": "a627a20f14f5",
+    "label": "5006 BAYSSIERES, Saint-Pons-de-Thomières",
+    "lat": 43.515298,
+    "lng": 2.726585,
+    "transactions": [
+      {
+        "date": "2024-12-20",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2024-12-20",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2024-12-20",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2024-12-20",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  }
+}

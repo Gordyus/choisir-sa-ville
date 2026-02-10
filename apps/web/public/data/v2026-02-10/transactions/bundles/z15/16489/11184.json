@@ -1,0 +1,92 @@
+{
+  "e7a8e44694d1": {
+    "id": "e7a8e44694d1",
+    "label": "597 RUE DU MESNIL, Isneauville",
+    "lat": 49.494206,
+    "lng": 1.159438,
+    "transactions": [
+      {
+        "date": "2021-03-23",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "b309606cb226": {
+    "id": "b309606cb226",
+    "label": "224 RUE DE LA PRAIRIE, Isneauville",
+    "lat": 49.49574,
+    "lng": 1.155869,
+    "transactions": [
+      {
+        "date": "2021-06-01",
+        "priceEur": 423300,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "82c2a94e0d1e": {
+    "id": "82c2a94e0d1e",
+    "label": "260 RUE DE LA PRAIRIE, Isneauville",
+    "lat": 49.495815,
+    "lng": 1.155461,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 630500,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae4199b72467": {
+    "id": "ae4199b72467",
+    "label": "86 RUE DE LA PRAIRIE, Isneauville",
+    "lat": 49.496365,
+    "lng": 1.154434,
+    "transactions": [
+      {
+        "date": "2022-05-06",
+        "priceEur": 574000,
+        "typeLocal": "Maison",
+        "surfaceM2": 216,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f9ab440beb4": {
+    "id": "3f9ab440beb4",
+    "label": "94 RUE DE LA PRAIRIE, Isneauville",
+    "lat": 49.496291,
+    "lng": 1.154563,
+    "transactions": [
+      {
+        "date": "2022-05-31",
+        "priceEur": 539200,
+        "typeLocal": "Maison",
+        "surfaceM2": 207,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8e43039fb4d": {
+    "id": "e8e43039fb4d",
+    "label": "316 RUE DE LA PRAIRIE, Isneauville",
+    "lat": 49.49503,
+    "lng": 1.155308,
+    "transactions": [
+      {
+        "date": "2023-05-10",
+        "priceEur": 425700,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  }
+}

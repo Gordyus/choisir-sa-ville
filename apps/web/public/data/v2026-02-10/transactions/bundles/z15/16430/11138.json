@@ -1,0 +1,32 @@
+{
+  "78d40212a0fc": {
+    "id": "78d40212a0fc",
+    "label": "11 RUE DES PEQUEUX, Sassetot-le-Mauconduit",
+    "lat": 49.817948,
+    "lng": 0.512487,
+    "transactions": [
+      {
+        "date": "2023-05-15",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "2846e8c8d5f0": {
+    "id": "2846e8c8d5f0",
+    "label": "14 RUE DES PEQUEUX, Saint-Pierre-en-Port",
+    "lat": 49.817772,
+    "lng": 0.512111,
+    "transactions": [
+      {
+        "date": "2024-06-24",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  }
+}

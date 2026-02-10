@@ -1,0 +1,32 @@
+{
+  "43af78b348c5": {
+    "id": "43af78b348c5",
+    "label": "5183 LE PETIT BRUNVILLE, Limésy",
+    "lat": 49.603732,
+    "lng": 0.914716,
+    "transactions": [
+      {
+        "date": "2020-11-26",
+        "priceEur": 216250,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2aa66fbc16c": {
+    "id": "e2aa66fbc16c",
+    "label": "5117 PLATEAU DE BECQUIGNY, Limésy",
+    "lat": 49.610622,
+    "lng": 0.922555,
+    "transactions": [
+      {
+        "date": "2022-03-02",
+        "priceEur": 305000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

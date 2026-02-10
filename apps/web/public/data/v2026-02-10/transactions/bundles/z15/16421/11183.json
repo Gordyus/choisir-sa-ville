@@ -1,0 +1,62 @@
+{
+  "cba5917cc5e3": {
+    "id": "cba5917cc5e3",
+    "label": "600 RTE DE TANCARVILLE, La Cerlangue",
+    "lat": 49.50317,
+    "lng": 0.416665,
+    "transactions": [
+      {
+        "date": "2023-01-02",
+        "priceEur": 32000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "0874e04b9adf": {
+    "id": "0874e04b9adf",
+    "label": "1364 RUE DU BOCQUETAL, La Cerlangue",
+    "lat": 49.497155,
+    "lng": 0.41039,
+    "transactions": [
+      {
+        "date": "2023-02-21",
+        "priceEur": 267000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "12583e4ba9d2": {
+    "id": "12583e4ba9d2",
+    "label": "618 RTE DE TANCARVILLE, La Cerlangue",
+    "lat": 49.503181,
+    "lng": 0.417346,
+    "transactions": [
+      {
+        "date": "2024-07-23",
+        "priceEur": 119000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "da002a3ac21d": {
+    "id": "da002a3ac21d",
+    "label": "381 RUE DE LA MARE DES CHAUDIERES, La Cerlangue",
+    "lat": 49.503233,
+    "lng": 0.411156,
+    "transactions": [
+      {
+        "date": "2025-02-11",
+        "priceEur": 228371.25,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

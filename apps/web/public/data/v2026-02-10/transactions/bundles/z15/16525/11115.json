@@ -1,0 +1,54 @@
+{
+  "15c85aad90ac": {
+    "id": "15c85aad90ac",
+    "label": "11 RTE DE NORMANDIE, Longroy",
+    "lat": 49.983989,
+    "lng": 1.550835,
+    "transactions": [
+      {
+        "date": "2021-10-09",
+        "priceEur": 122600,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-11",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "872ae0b2057c": {
+    "id": "872ae0b2057c",
+    "label": "10 RTE DE NORMANDIE, Longroy",
+    "lat": 49.982617,
+    "lng": 1.549616,
+    "transactions": [
+      {
+        "date": "2023-05-06",
+        "priceEur": 107000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e41d3e29240": {
+    "id": "1e41d3e29240",
+    "label": "14 CHE DU MOULIN BENOIT, Longroy",
+    "lat": 49.981997,
+    "lng": 1.553723,
+    "transactions": [
+      {
+        "date": "2023-12-20",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  }
+}

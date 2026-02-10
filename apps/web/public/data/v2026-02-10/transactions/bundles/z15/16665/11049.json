@@ -1,0 +1,129 @@
+{
+  "5a92c9aef0a8": {
+    "id": "5a92c9aef0a8",
+    "label": "1280 RUE HENRI LENNE, Raimbeaucourt",
+    "lat": 50.443638,
+    "lng": 3.088623,
+    "transactions": [
+      {
+        "date": "2020-10-21",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-21",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "653c566923f4": {
+    "id": "653c566923f4",
+    "label": "18 CHEM VERT, Raimbeaucourt",
+    "lat": 50.444273,
+    "lng": 3.097346,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "553d1e1c7f31": {
+    "id": "553d1e1c7f31",
+    "label": "855 RUE MARECHAL FOCH, Raimbeaucourt",
+    "lat": 50.443812,
+    "lng": 3.091957,
+    "transactions": [
+      {
+        "date": "2020-11-16",
+        "priceEur": 393000,
+        "typeLocal": "Maison",
+        "surfaceM2": 202,
+        "isVefa": false
+      }
+    ]
+  },
+  "b60ea86814e8": {
+    "id": "b60ea86814e8",
+    "label": "327 RUE SAINTE BARBE, Raimbeaucourt",
+    "lat": 50.447913,
+    "lng": 3.088392,
+    "transactions": [
+      {
+        "date": "2023-04-20",
+        "priceEur": 307040,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "887f6358b3ea": {
+    "id": "887f6358b3ea",
+    "label": "17 CHEM VERT, Raimbeaucourt",
+    "lat": 50.444444,
+    "lng": 3.097246,
+    "transactions": [
+      {
+        "date": "2023-07-06",
+        "priceEur": 275100,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "dbac28671b5a": {
+    "id": "dbac28671b5a",
+    "label": "14 CHEM VERT, Raimbeaucourt",
+    "lat": 50.444277,
+    "lng": 3.096433,
+    "transactions": [
+      {
+        "date": "2023-10-19",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f3bcf815042": {
+    "id": "8f3bcf815042",
+    "label": "701 RUE MARECHAL FOCH, Raimbeaucourt",
+    "lat": 50.443539,
+    "lng": 3.093701,
+    "transactions": [
+      {
+        "date": "2024-02-21",
+        "priceEur": 164000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "cebf472a369d": {
+    "id": "cebf472a369d",
+    "label": "442 RUE SAINTE BARBE, Raimbeaucourt",
+    "lat": 50.447608,
+    "lng": 3.088068,
+    "transactions": [
+      {
+        "date": "2024-03-26",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  }
+}

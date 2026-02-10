@@ -1,0 +1,32 @@
+{
+  "70873532ad40": {
+    "id": "70873532ad40",
+    "label": "7012 RTE DE BUCHY, 76358",
+    "lat": 49.494,
+    "lng": 1.393816,
+    "transactions": [
+      {
+        "date": "2022-04-08",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7462166f724": {
+    "id": "b7462166f724",
+    "label": "5087 CROIX DU TOT, 76358",
+    "lat": 49.492877,
+    "lng": 1.395068,
+    "transactions": [
+      {
+        "date": "2022-11-25",
+        "priceEur": 268560,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  }
+}

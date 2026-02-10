@@ -1,0 +1,32 @@
+{
+  "ee85b8508ad3": {
+    "id": "ee85b8508ad3",
+    "label": "651 RUE DE BREMARE, Saint-Aubin-de-Crétot",
+    "lat": 49.576791,
+    "lng": 0.636037,
+    "transactions": [
+      {
+        "date": "2021-05-20",
+        "priceEur": 145700,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "019b3381951c": {
+    "id": "019b3381951c",
+    "label": "43 RUE BREMARE, Allouville-Bellefosse",
+    "lat": 49.581285,
+    "lng": 0.631591,
+    "transactions": [
+      {
+        "date": "2023-06-14",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  }
+}

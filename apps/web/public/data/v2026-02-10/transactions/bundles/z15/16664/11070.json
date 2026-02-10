@@ -1,0 +1,77 @@
+{
+  "2d85a39f7cdb": {
+    "id": "2d85a39f7cdb",
+    "label": "31 RUE DU MONT DE LA VIGNE, Estrées",
+    "lat": 50.300325,
+    "lng": 3.079776,
+    "transactions": [
+      {
+        "date": "2021-07-12",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "400445f25472": {
+    "id": "400445f25472",
+    "label": "11 RUE DU MONT DE LA VIGNE, Estrées",
+    "lat": 50.300437,
+    "lng": 3.077922,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 213700,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "189bf6c61d90": {
+    "id": "189bf6c61d90",
+    "label": "27 RUE DE L ESPERANCE, Estrées",
+    "lat": 50.30194,
+    "lng": 3.076584,
+    "transactions": [
+      {
+        "date": "2021-03-26",
+        "priceEur": 236000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "61ff0f834090": {
+    "id": "61ff0f834090",
+    "label": "8 RUE DU MOULINET, Estrées",
+    "lat": 50.300818,
+    "lng": 3.076338,
+    "transactions": [
+      {
+        "date": "2022-05-23",
+        "priceEur": 206000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "5604a56bba99": {
+    "id": "5604a56bba99",
+    "label": "45 RUE DU MONT DE LA VIGNE, Estrées",
+    "lat": 50.301351,
+    "lng": 3.079914,
+    "transactions": [
+      {
+        "date": "2022-07-19",
+        "priceEur": 288600,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  }
+}

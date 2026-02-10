@@ -1,0 +1,106 @@
+{
+  "cd207d090e96": {
+    "id": "cd207d090e96",
+    "label": "39 CHE DES HAUTS DE POURVILLE, Hautot-sur-Mer",
+    "lat": 49.918149,
+    "lng": 1.040665,
+    "transactions": [
+      {
+        "date": "2023-01-28",
+        "priceEur": 868450,
+        "typeLocal": "Maison",
+        "surfaceM2": 395,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4cac9372b0c": {
+    "id": "f4cac9372b0c",
+    "label": "240 CHE DES HAUTS DE POURVILLE, Hautot-sur-Mer",
+    "lat": 49.91823,
+    "lng": 1.038453,
+    "transactions": [
+      {
+        "date": "2023-04-14",
+        "priceEur": 880000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "c27fe1647dec": {
+    "id": "c27fe1647dec",
+    "label": "300 CHE DU CORPS DE GARDE, Hautot-sur-Mer",
+    "lat": 49.91765,
+    "lng": 1.038618,
+    "transactions": [
+      {
+        "date": "2025-05-13",
+        "priceEur": 95000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 26,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-06",
+        "priceEur": 68000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-06",
+        "priceEur": 127230,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4eeb422e62b": {
+    "id": "b4eeb422e62b",
+    "label": "296 CHE DU CORPS DE GARDE, Hautot-sur-Mer",
+    "lat": 49.917676,
+    "lng": 1.039666,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 531600,
+        "typeLocal": "Maison",
+        "surfaceM2": 178,
+        "isVefa": false
+      }
+    ]
+  },
+  "bbf7be023d51": {
+    "id": "bbf7be023d51",
+    "label": "462 ALL JEAN MARCHAND, Hautot-sur-Mer",
+    "lat": 49.917907,
+    "lng": 1.041858,
+    "transactions": [
+      {
+        "date": "2024-10-25",
+        "priceEur": 650000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "35092aaa6bee": {
+    "id": "35092aaa6bee",
+    "label": "133 CHE DES HAUTS DE POURVILLE, Hautot-sur-Mer",
+    "lat": 49.918442,
+    "lng": 1.03956,
+    "transactions": [
+      {
+        "date": "2024-10-09",
+        "priceEur": 1371600,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "94330a8cde1a": {
+    "id": "94330a8cde1a",
+    "label": "5003 VILLAGE DE SAINT MARTIN, Saint-Martin-au-Bosc",
+    "lat": 49.832574,
+    "lng": 1.663364,
+    "transactions": [
+      {
+        "date": "2021-10-08",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "41bc1126497f": {
+    "id": "41bc1126497f",
+    "label": "5005B VILLAGE DE SAINT MARTIN, Saint-Martin-au-Bosc",
+    "lat": 49.831761,
+    "lng": 1.662841,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "55c2d904786c": {
+    "id": "55c2d904786c",
+    "label": "5040 VILLAGE DE SAINT MARTIN, Saint-Martin-au-Bosc",
+    "lat": 49.831181,
+    "lng": 1.664251,
+    "transactions": [
+      {
+        "date": "2022-04-30",
+        "priceEur": 53000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "ec3c488c6d0d": {
+    "id": "ec3c488c6d0d",
+    "label": "5006 VILLAGE DE SAINT MARTIN, Saint-Martin-au-Bosc",
+    "lat": 49.83162,
+    "lng": 1.66199,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 131850,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "1893af93bd76": {
+    "id": "1893af93bd76",
+    "label": "17 RTE PRINCIPALE, Saint-Martin-au-Bosc",
+    "lat": 49.832137,
+    "lng": 1.658984,
+    "transactions": [
+      {
+        "date": "2024-03-01",
+        "priceEur": 246000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5eb34d04308": {
+    "id": "d5eb34d04308",
+    "label": "23 RTE PRINCIPALE, Saint-Martin-au-Bosc",
+    "lat": 49.831817,
+    "lng": 1.660804,
+    "transactions": [
+      {
+        "date": "2024-04-22",
+        "priceEur": 77000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  }
+}

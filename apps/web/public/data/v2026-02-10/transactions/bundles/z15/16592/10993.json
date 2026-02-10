@@ -1,0 +1,54 @@
+{
+  "02a2cb958a57": {
+    "id": "02a2cb958a57",
+    "label": "17 RTE DE BOLLEZEELE, Volckerinckhove",
+    "lat": 50.837472,
+    "lng": 2.292327,
+    "transactions": [
+      {
+        "date": "2021-12-13",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "5298b65102b2": {
+    "id": "5298b65102b2",
+    "label": "34 RTE DE BOLLEZEELE, Volckerinckhove",
+    "lat": 50.838611,
+    "lng": 2.293548,
+    "transactions": [
+      {
+        "date": "2023-01-04",
+        "priceEur": 228000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-03",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "40ceed465810": {
+    "id": "40ceed465810",
+    "label": "71 CHE DES TEMPLIERS, Volckerinckhove",
+    "lat": 50.835941,
+    "lng": 2.295605,
+    "transactions": [
+      {
+        "date": "2023-08-28",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 208,
+        "isVefa": false
+      }
+    ]
+  }
+}

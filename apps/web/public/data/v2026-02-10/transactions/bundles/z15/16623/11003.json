@@ -1,0 +1,92 @@
+{
+  "2a3d09386877": {
+    "id": "2a3d09386877",
+    "label": "1355 RUE DU PAIN SEC, Caëstre",
+    "lat": 50.765193,
+    "lng": 2.628501,
+    "transactions": [
+      {
+        "date": "2020-12-15",
+        "priceEur": 570000,
+        "typeLocal": "Maison",
+        "surfaceM2": 238,
+        "isVefa": false
+      }
+    ]
+  },
+  "709439069f1d": {
+    "id": "709439069f1d",
+    "label": "1109 RUE DU THIEUSHOUCK, Flêtre",
+    "lat": 50.766653,
+    "lng": 2.632974,
+    "transactions": [
+      {
+        "date": "2021-04-09",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "d18777a11f2f": {
+    "id": "d18777a11f2f",
+    "label": "1135 RUE DU THIEUSHOUCK, Flêtre",
+    "lat": 50.766456,
+    "lng": 2.632741,
+    "transactions": [
+      {
+        "date": "2021-07-26",
+        "priceEur": 166850,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "43165afdfb43": {
+    "id": "43165afdfb43",
+    "label": "1434 RUE DU PAIN SEC, Caëstre",
+    "lat": 50.764807,
+    "lng": 2.629175,
+    "transactions": [
+      {
+        "date": "2022-02-21",
+        "priceEur": 467000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "736c24cde437": {
+    "id": "736c24cde437",
+    "label": "1139 RUE DU THIEUSHOUCK, Flêtre",
+    "lat": 50.76645,
+    "lng": 2.632635,
+    "transactions": [
+      {
+        "date": "2023-04-05",
+        "priceEur": 226000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "359cb24998b0": {
+    "id": "359cb24998b0",
+    "label": "1351 RUE DU THIEUSHOUCK, Flêtre",
+    "lat": 50.765458,
+    "lng": 2.630633,
+    "transactions": [
+      {
+        "date": "2024-02-09",
+        "priceEur": 607090,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  }
+}

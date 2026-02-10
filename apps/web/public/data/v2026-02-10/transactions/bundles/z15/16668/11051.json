@@ -1,0 +1,69 @@
+{
+  "645de59f85a7": {
+    "id": "645de59f85a7",
+    "label": "401 RUE HYACINTHE LENNE, Raimbeaucourt",
+    "lat": 50.430109,
+    "lng": 3.121879,
+    "transactions": [
+      {
+        "date": "2024-08-06",
+        "priceEur": 256000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-13",
+        "priceEur": 254000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "565c8ab4a2e0": {
+    "id": "565c8ab4a2e0",
+    "label": "1164 RUE JEAN JAURES, Raimbeaucourt",
+    "lat": 50.434577,
+    "lng": 3.12482,
+    "transactions": [
+      {
+        "date": "2021-03-18",
+        "priceEur": 171000,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad5d687022a7": {
+    "id": "ad5d687022a7",
+    "label": "1520 RUE JEAN JAURES, Raimbeaucourt",
+    "lat": 50.433942,
+    "lng": 3.129584,
+    "transactions": [
+      {
+        "date": "2022-04-20",
+        "priceEur": 369000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "8ab31baf0f6c": {
+    "id": "8ab31baf0f6c",
+    "label": "930 RUE HYACINTHE LENNE, Raimbeaucourt",
+    "lat": 50.42958,
+    "lng": 3.129148,
+    "transactions": [
+      {
+        "date": "2022-04-28",
+        "priceEur": 41000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

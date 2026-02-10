@@ -1,0 +1,32 @@
+{
+  "c47490471435": {
+    "id": "c47490471435",
+    "label": "248 IMP DES CHATAIGNIERS, Saint-Léonard",
+    "lat": 49.733121,
+    "lng": 0.362643,
+    "transactions": [
+      {
+        "date": "2023-02-09",
+        "priceEur": 83600,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca38aa1061c1": {
+    "id": "ca38aa1061c1",
+    "label": "168 IMP DES CHATAIGNIERS, Saint-Léonard",
+    "lat": 49.732791,
+    "lng": 0.362558,
+    "transactions": [
+      {
+        "date": "2025-02-15",
+        "priceEur": 351000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  }
+}

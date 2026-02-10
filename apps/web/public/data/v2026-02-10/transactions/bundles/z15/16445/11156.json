@@ -1,0 +1,47 @@
+{
+  "f474892eebf8": {
+    "id": "f474892eebf8",
+    "label": "137 RTE D HERICOURT, Ancourteville-sur-Héricourt",
+    "lat": 49.695856,
+    "lng": 0.670544,
+    "transactions": [
+      {
+        "date": "2020-07-10",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "515b5af07955": {
+    "id": "515b5af07955",
+    "label": "80 CHE DU BOIS, Ancourteville-sur-Héricourt",
+    "lat": 49.694796,
+    "lng": 0.670253,
+    "transactions": [
+      {
+        "date": "2020-11-09",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "10ea946fb7a5": {
+    "id": "10ea946fb7a5",
+    "label": "140 CHE DU BOIS, Ancourteville-sur-Héricourt",
+    "lat": 49.694369,
+    "lng": 0.670452,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

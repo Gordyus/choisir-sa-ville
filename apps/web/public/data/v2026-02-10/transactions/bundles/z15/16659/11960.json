@@ -1,0 +1,114 @@
+{
+  "8c5b4369e597": {
+    "id": "8c5b4369e597",
+    "label": "5374F COURS LE HAUT, Rosis",
+    "lat": 43.642539,
+    "lng": 3.027971,
+    "transactions": [
+      {
+        "date": "2023-06-01",
+        "priceEur": 346279,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-17",
+        "priceEur": 270500,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "c22bd0137e43": {
+    "id": "c22bd0137e43",
+    "label": "5135F COURS LE BAS, Rosis",
+    "lat": 43.644008,
+    "lng": 3.031825,
+    "transactions": [
+      {
+        "date": "2021-01-07",
+        "priceEur": 311905,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d50317c1429": {
+    "id": "3d50317c1429",
+    "label": "5056 COURS LE HAUT, Rosis",
+    "lat": 43.64165,
+    "lng": 3.028356,
+    "transactions": [
+      {
+        "date": "2021-10-13",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 37,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ee6e4f70c0b": {
+    "id": "3ee6e4f70c0b",
+    "label": "5362F COURS LE HAUT, Rosis",
+    "lat": 43.641736,
+    "lng": 3.028981,
+    "transactions": [
+      {
+        "date": "2022-02-01",
+        "priceEur": 267550,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4ee1ed174cb": {
+    "id": "b4ee1ed174cb",
+    "label": "5255 COURS LE HAUT, Rosis",
+    "lat": 43.641735,
+    "lng": 3.02886,
+    "transactions": [
+      {
+        "date": "2022-02-01",
+        "priceEur": 267550,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "354b7a7ce79e": {
+    "id": "354b7a7ce79e",
+    "label": "5057 COURS LE HAUT, Rosis",
+    "lat": 43.641745,
+    "lng": 3.028474,
+    "transactions": [
+      {
+        "date": "2022-12-15",
+        "priceEur": 44000,
+        "typeLocal": "Maison",
+        "surfaceM2": 16,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3d940cfa592": {
+    "id": "a3d940cfa592",
+    "label": "5129 COURS LE HAUT, Rosis",
+    "lat": 43.642655,
+    "lng": 3.028288,
+    "transactions": [
+      {
+        "date": "2024-10-09",
+        "priceEur": 138550,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  }
+}

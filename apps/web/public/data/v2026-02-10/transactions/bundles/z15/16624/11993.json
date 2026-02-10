@@ -1,0 +1,32 @@
+{
+  "7b508be249cf": {
+    "id": "7b508be249cf",
+    "label": "5636F HAM DE CANTIGNERGUES, La Livinière",
+    "lat": 43.377298,
+    "lng": 2.643886,
+    "transactions": [
+      {
+        "date": "2020-07-21",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "babf19457878": {
+    "id": "babf19457878",
+    "label": "5590F HAM DE CANTIGNERGUES, La Livinière",
+    "lat": 43.37732,
+    "lng": 2.642928,
+    "transactions": [
+      {
+        "date": "2022-04-19",
+        "priceEur": 20000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  }
+}

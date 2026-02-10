@@ -1,0 +1,113 @@
+{
+  "9cebe80db8d6": {
+    "id": "9cebe80db8d6",
+    "label": "27 RUE DE LA FORGETTE, Neuville-en-Ferrain",
+    "lat": 50.750392,
+    "lng": 3.168572,
+    "transactions": [
+      {
+        "date": "2021-02-12",
+        "priceEur": 296000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "43631fc54770": {
+    "id": "43631fc54770",
+    "label": "5 RUE DES FORTS, Neuville-en-Ferrain",
+    "lat": 50.75272,
+    "lng": 3.165927,
+    "transactions": [
+      {
+        "date": "2021-05-26",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3d0ee4e0c70": {
+    "id": "b3d0ee4e0c70",
+    "label": "68A RUE BERQUIER, Neuville-en-Ferrain",
+    "lat": 50.750473,
+    "lng": 3.174746,
+    "transactions": [
+      {
+        "date": "2025-02-21",
+        "priceEur": 216150,
+        "typeLocal": "Appartement",
+        "surfaceM2": 69,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-01",
+        "priceEur": 92500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-21",
+        "priceEur": 235000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 69,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-28",
+        "priceEur": 169450,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "7308dbe1a837": {
+    "id": "7308dbe1a837",
+    "label": "21 RUE DE LA FORGETTE, Neuville-en-Ferrain",
+    "lat": 50.750608,
+    "lng": 3.168871,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "0029f2e6f6bd": {
+    "id": "0029f2e6f6bd",
+    "label": "46B RUE BERQUIER, Neuville-en-Ferrain",
+    "lat": 50.750973,
+    "lng": 3.174486,
+    "transactions": [
+      {
+        "date": "2022-10-07",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "578e7d30664d": {
+    "id": "578e7d30664d",
+    "label": "46 RUE BERQUIER, Neuville-en-Ferrain",
+    "lat": 50.750918,
+    "lng": 3.174384,
+    "transactions": [
+      {
+        "date": "2022-12-22",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

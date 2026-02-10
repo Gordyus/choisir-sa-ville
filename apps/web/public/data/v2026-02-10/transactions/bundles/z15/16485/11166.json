@@ -1,0 +1,122 @@
+{
+  "fd365a1601d0": {
+    "id": "fd365a1601d0",
+    "label": "6041 LE VILLAGE, Grugny",
+    "lat": 49.621565,
+    "lng": 1.110991,
+    "transactions": [
+      {
+        "date": "2020-09-02",
+        "priceEur": 5000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a97771dec25": {
+    "id": "8a97771dec25",
+    "label": "68 IMP DU FOND DES BOIS, Frichemesnil",
+    "lat": 49.623324,
+    "lng": 1.119534,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 185400,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "64d5fb357c28": {
+    "id": "64d5fb357c28",
+    "label": "5080 LE VILLAGE, Grugny",
+    "lat": 49.621992,
+    "lng": 1.111831,
+    "transactions": [
+      {
+        "date": "2021-01-05",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d0bea4a8b00": {
+    "id": "3d0bea4a8b00",
+    "label": "6026 LE VILLAGE, Grugny",
+    "lat": 49.622029,
+    "lng": 1.113649,
+    "transactions": [
+      {
+        "date": "2021-10-05",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "d783b6aa6d0d": {
+    "id": "d783b6aa6d0d",
+    "label": "5079 LE VILLAGE, Grugny",
+    "lat": 49.622169,
+    "lng": 1.113135,
+    "transactions": [
+      {
+        "date": "2022-05-30",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "76b99a294ca2": {
+    "id": "76b99a294ca2",
+    "label": "10 RUE ANDRE MARTIN, Grugny",
+    "lat": 49.622024,
+    "lng": 1.110995,
+    "transactions": [
+      {
+        "date": "2023-10-03",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "ded40125878a": {
+    "id": "ded40125878a",
+    "label": "18 CHE D'ORMESNIL, Grugny",
+    "lat": 49.621869,
+    "lng": 1.113057,
+    "transactions": [
+      {
+        "date": "2024-06-18",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0f5bf1a3150": {
+    "id": "c0f5bf1a3150",
+    "label": "1263A RTE DE DIEPPE, Grugny",
+    "lat": 49.620833,
+    "lng": 1.111567,
+    "transactions": [
+      {
+        "date": "2025-02-21",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  }
+}

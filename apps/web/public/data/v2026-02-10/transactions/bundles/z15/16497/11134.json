@@ -1,0 +1,62 @@
+{
+  "4672d57081e1": {
+    "id": "4672d57081e1",
+    "label": "660 RUE DU VALLON, Saint-Jacques-d'Aliermont",
+    "lat": 49.85166,
+    "lng": 1.249898,
+    "transactions": [
+      {
+        "date": "2020-12-23",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "177652ecb8eb": {
+    "id": "177652ecb8eb",
+    "label": "419 RUE DU VALLON, Saint-Jacques-d'Aliermont",
+    "lat": 49.849776,
+    "lng": 1.252277,
+    "transactions": [
+      {
+        "date": "2021-06-14",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "0239d13774f3": {
+    "id": "0239d13774f3",
+    "label": "806 RUE DU VALLON, Saint-Jacques-d'Aliermont",
+    "lat": 49.851923,
+    "lng": 1.248197,
+    "transactions": [
+      {
+        "date": "2022-06-04",
+        "priceEur": 137100,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ac84b4782d5": {
+    "id": "0ac84b4782d5",
+    "label": "609 RUE DU VALLON, Saint-Jacques-d'Aliermont",
+    "lat": 49.850336,
+    "lng": 1.251486,
+    "transactions": [
+      {
+        "date": "2023-02-16",
+        "priceEur": 185600,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  }
+}

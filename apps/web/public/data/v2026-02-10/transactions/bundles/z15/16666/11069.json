@@ -1,0 +1,24 @@
+{
+  "061186700811": {
+    "id": "061186700811",
+    "label": "71 RUE DU MOULINEL, Cantin",
+    "lat": 50.30843,
+    "lng": 3.108889,
+    "transactions": [
+      {
+        "date": "2024-06-10",
+        "priceEur": 244000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-04",
+        "priceEur": 268000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  }
+}

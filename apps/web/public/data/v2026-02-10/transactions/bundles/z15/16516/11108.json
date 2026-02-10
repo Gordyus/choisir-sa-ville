@@ -1,0 +1,39 @@
+{
+  "1f25d89f78dd": {
+    "id": "1f25d89f78dd",
+    "label": "36 RTE D'INCHEVILLE, Ponts-et-Marais",
+    "lat": 50.033378,
+    "lng": 1.460388,
+    "transactions": [
+      {
+        "date": "2023-10-27",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-27",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 18,
+        "isVefa": false
+      }
+    ]
+  },
+  "88702d9d5092": {
+    "id": "88702d9d5092",
+    "label": "9 LE PETIT BEAUMONT, Eu",
+    "lat": 50.034883,
+    "lng": 1.456472,
+    "transactions": [
+      {
+        "date": "2024-07-29",
+        "priceEur": 333850,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  }
+}

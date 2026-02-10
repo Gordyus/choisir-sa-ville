@@ -1,0 +1,77 @@
+{
+  "d947f236d7f8": {
+    "id": "d947f236d7f8",
+    "label": "495 RUE DE LA HAUTE RUE, Saint-Nicolas-de-la-Haie",
+    "lat": 49.558446,
+    "lng": 0.628941,
+    "transactions": [
+      {
+        "date": "2020-10-19",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f67bc82294e": {
+    "id": "2f67bc82294e",
+    "label": "515 RUE DE LA HAUTE RUE, Saint-Nicolas-de-la-Haie",
+    "lat": 49.558801,
+    "lng": 0.628704,
+    "transactions": [
+      {
+        "date": "2021-12-16",
+        "priceEur": 174000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e8d302e6db2": {
+    "id": "2e8d302e6db2",
+    "label": "142 RTE D ANQUETIERVILLE, Saint-Aubin-de-Crétot",
+    "lat": 49.560501,
+    "lng": 0.634767,
+    "transactions": [
+      {
+        "date": "2022-01-18",
+        "priceEur": 143000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "377b435ecdca": {
+    "id": "377b435ecdca",
+    "label": "745 RUE DE LA HAUTE RUE, Saint-Nicolas-de-la-Haie",
+    "lat": 49.560094,
+    "lng": 0.627051,
+    "transactions": [
+      {
+        "date": "2022-08-08",
+        "priceEur": 186000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "906d8c90011a": {
+    "id": "906d8c90011a",
+    "label": "775 RUE DE LA HAUTE RUE, Saint-Nicolas-de-la-Haie",
+    "lat": 49.560404,
+    "lng": 0.626434,
+    "transactions": [
+      {
+        "date": "2024-09-05",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

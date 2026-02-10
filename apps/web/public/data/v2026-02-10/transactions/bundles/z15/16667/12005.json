@@ -1,0 +1,62 @@
+{
+  "be006cabeea9": {
+    "id": "be006cabeea9",
+    "label": "6340 PUECH ROUCH, Nissan-lez-Enserune",
+    "lat": 43.280106,
+    "lng": 3.117806,
+    "transactions": [
+      {
+        "date": "2021-10-14",
+        "priceEur": 519000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "fc92d81137b3": {
+    "id": "fc92d81137b3",
+    "label": "6218 LES AGASSES, Nissan-lez-Enserune",
+    "lat": 43.282046,
+    "lng": 3.114689,
+    "transactions": [
+      {
+        "date": "2022-02-24",
+        "priceEur": 490000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "28f20fdede12": {
+    "id": "28f20fdede12",
+    "label": "23 RUE SELENE, Nissan-lez-Enserune",
+    "lat": 43.284922,
+    "lng": 3.119938,
+    "transactions": [
+      {
+        "date": "2024-04-04",
+        "priceEur": 248000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b006585b780": {
+    "id": "5b006585b780",
+    "label": "25 RUE SELENE, Nissan-lez-Enserune",
+    "lat": 43.284927,
+    "lng": 3.119825,
+    "transactions": [
+      {
+        "date": "2024-07-12",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

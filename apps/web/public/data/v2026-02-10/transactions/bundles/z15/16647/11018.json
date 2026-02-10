@@ -1,0 +1,88 @@
+{
+  "0311e27ab198": {
+    "id": "0311e27ab198",
+    "label": "61B AV DU PRESIDENT KENNEDY, La Chapelle-d'Armentières",
+    "lat": 50.662669,
+    "lng": 2.898783,
+    "transactions": [
+      {
+        "date": "2025-01-29",
+        "priceEur": 226500,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-07",
+        "priceEur": 178250,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a72f1695fce": {
+    "id": "1a72f1695fce",
+    "label": "48A AV DU PRESIDENT KENNEDY, La Chapelle-d'Armentières",
+    "lat": 50.663949,
+    "lng": 2.897841,
+    "transactions": [
+      {
+        "date": "2023-10-13",
+        "priceEur": 2260000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-13",
+        "priceEur": 2260000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 33,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-13",
+        "priceEur": 2260000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-13",
+        "priceEur": 2260000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-13",
+        "priceEur": 2260000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-13",
+        "priceEur": 2260000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-13",
+        "priceEur": 2260000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-13",
+        "priceEur": 2260000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  }
+}

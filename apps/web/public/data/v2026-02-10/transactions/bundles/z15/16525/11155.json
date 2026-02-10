@@ -1,0 +1,32 @@
+{
+  "7b31b3abc13f": {
+    "id": "7b31b3abc13f",
+    "label": "5018 LA CORBIERE, Beaussault",
+    "lat": 49.70057,
+    "lng": 1.550171,
+    "transactions": [
+      {
+        "date": "2021-01-27",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "13fd6bf092e0": {
+    "id": "13fd6bf092e0",
+    "label": "5218 BERNIMONT, Beaussault",
+    "lat": 49.696123,
+    "lng": 1.55334,
+    "transactions": [
+      {
+        "date": "2022-07-11",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

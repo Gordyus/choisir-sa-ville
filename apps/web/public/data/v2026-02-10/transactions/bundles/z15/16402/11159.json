@@ -1,0 +1,60 @@
+{
+  "9ed8f9d97df6": {
+    "id": "9ed8f9d97df6",
+    "label": "770 RTE DU TILLEUL, Sainte-Marie-au-Bosc",
+    "lat": 49.670127,
+    "lng": 0.205661,
+    "transactions": [
+      {
+        "date": "2023-05-02",
+        "priceEur": 260500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "38cc96feb7cc": {
+    "id": "38cc96feb7cc",
+    "label": "756 RTE DU TILLEUL, Sainte-Marie-au-Bosc",
+    "lat": 49.669668,
+    "lng": 0.20519,
+    "transactions": [
+      {
+        "date": "2025-04-26",
+        "priceEur": 906500,
+        "typeLocal": "Maison",
+        "surfaceM2": 24,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-26",
+        "priceEur": 906500,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-26",
+        "priceEur": 906500,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-26",
+        "priceEur": 906500,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      },
+      {
+        "date": "2025-04-26",
+        "priceEur": 906500,
+        "typeLocal": "Maison",
+        "surfaceM2": 34,
+        "isVefa": false
+      }
+    ]
+  }
+}

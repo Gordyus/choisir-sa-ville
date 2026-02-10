@@ -1,0 +1,62 @@
+{
+  "d415ffc60e86": {
+    "id": "d415ffc60e86",
+    "label": "56 IMP DU SABOTIER, Robertot",
+    "lat": 49.716787,
+    "lng": 0.69248,
+    "transactions": [
+      {
+        "date": "2020-12-02",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d7d8254a5a0": {
+    "id": "4d7d8254a5a0",
+    "label": "37 RTE DE LA VALLEE, Robertot",
+    "lat": 49.714818,
+    "lng": 0.6937,
+    "transactions": [
+      {
+        "date": "2021-01-11",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "f14f61c910ee": {
+    "id": "f14f61c910ee",
+    "label": "121 RUE DU FOYER RURAL, Robertot",
+    "lat": 49.715181,
+    "lng": 0.692453,
+    "transactions": [
+      {
+        "date": "2022-07-05",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca9711933bcc": {
+    "id": "ca9711933bcc",
+    "label": "61 IMP DU SABOTIER, Robertot",
+    "lat": 49.71713,
+    "lng": 0.693287,
+    "transactions": [
+      {
+        "date": "2022-11-18",
+        "priceEur": 146000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

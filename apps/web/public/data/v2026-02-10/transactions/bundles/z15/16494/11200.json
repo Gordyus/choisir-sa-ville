@@ -1,0 +1,62 @@
+{
+  "322ed0afc675": {
+    "id": "322ed0afc675",
+    "label": "149 ALL DES FORGERONS, Boos",
+    "lat": 49.381191,
+    "lng": 1.209233,
+    "transactions": [
+      {
+        "date": "2023-05-05",
+        "priceEur": 296500,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "a54227f66b8c": {
+    "id": "a54227f66b8c",
+    "label": "224 ALL DES FORGERONS, Boos",
+    "lat": 49.381517,
+    "lng": 1.209426,
+    "transactions": [
+      {
+        "date": "2023-06-07",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "363661b73ad8": {
+    "id": "363661b73ad8",
+    "label": "116 SQ DES TANNEURS, Boos",
+    "lat": 49.382202,
+    "lng": 1.210243,
+    "transactions": [
+      {
+        "date": "2024-01-29",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6c68b0cf9b9": {
+    "id": "e6c68b0cf9b9",
+    "label": "32 SQ DES TONNELIERS, Boos",
+    "lat": 49.382017,
+    "lng": 1.209277,
+    "transactions": [
+      {
+        "date": "2024-02-12",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  }
+}

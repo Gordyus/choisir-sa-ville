@@ -1,0 +1,92 @@
+{
+  "a5aa531f8c4c": {
+    "id": "a5aa531f8c4c",
+    "label": "62 RUE DE L EGALITE, Villers-Outréaux",
+    "lat": 50.026724,
+    "lng": 3.293866,
+    "transactions": [
+      {
+        "date": "2020-09-10",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "b828075cbceb": {
+    "id": "b828075cbceb",
+    "label": "46 RUE DE CAMBRAI, Villers-Outréaux",
+    "lat": 50.028477,
+    "lng": 3.295558,
+    "transactions": [
+      {
+        "date": "2022-01-26",
+        "priceEur": 201020,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b45ed1f19b2": {
+    "id": "0b45ed1f19b2",
+    "label": "31 RUE DE L EGALITE, Villers-Outréaux",
+    "lat": 50.028869,
+    "lng": 3.29278,
+    "transactions": [
+      {
+        "date": "2022-03-18",
+        "priceEur": 15000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "6df41b471fa5": {
+    "id": "6df41b471fa5",
+    "label": "32 RUE DE L EGALITE, Villers-Outréaux",
+    "lat": 50.028857,
+    "lng": 3.292039,
+    "transactions": [
+      {
+        "date": "2022-03-15",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "d1f52a9a1cd5": {
+    "id": "d1f52a9a1cd5",
+    "label": "53 RUE DE L EGALITE, Villers-Outréaux",
+    "lat": 50.027198,
+    "lng": 3.294382,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 202000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "32c0087c7d66": {
+    "id": "32c0087c7d66",
+    "label": "48 RUE DE L EGALITE, Villers-Outréaux",
+    "lat": 50.027253,
+    "lng": 3.293324,
+    "transactions": [
+      {
+        "date": "2023-12-20",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  }
+}

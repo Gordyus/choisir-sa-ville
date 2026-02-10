@@ -1,0 +1,32 @@
+{
+  "7f1de720c8fd": {
+    "id": "7f1de720c8fd",
+    "label": "1728 RTE DE WATTEN, Rubrouck",
+    "lat": 50.815857,
+    "lng": 2.347109,
+    "transactions": [
+      {
+        "date": "2021-07-28",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "d23dd9814de0": {
+    "id": "d23dd9814de0",
+    "label": "1774 RTE DE WATTEN, Rubrouck",
+    "lat": 50.817111,
+    "lng": 2.345925,
+    "transactions": [
+      {
+        "date": "2023-08-31",
+        "priceEur": 346000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "3528ee0f9680": {
+    "id": "3528ee0f9680",
+    "label": "11 LES TERRES QUEMINES, Hautot-sur-Seine",
+    "lat": 49.367209,
+    "lng": 0.974149,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 231000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "eaa0e7be8a02": {
+    "id": "eaa0e7be8a02",
+    "label": "5049 LE BUISSON, Hautot-sur-Seine",
+    "lat": 49.365996,
+    "lng": 0.977158,
+    "transactions": [
+      {
+        "date": "2021-06-10",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-10",
+        "priceEur": 157500,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "a80e1bf30923": {
+    "id": "a80e1bf30923",
+    "label": "63 CHE DU MOULIN DU TEMPLE, Hautot-sur-Seine",
+    "lat": 49.367827,
+    "lng": 0.967433,
+    "transactions": [
+      {
+        "date": "2021-06-18",
+        "priceEur": 336550,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "53ff4810af6f": {
+    "id": "53ff4810af6f",
+    "label": "11 RUE LOUIS LEZURIER DE LA MARTE, Hautot-sur-Seine",
+    "lat": 49.363996,
+    "lng": 0.973346,
+    "transactions": [
+      {
+        "date": "2023-05-10",
+        "priceEur": 257000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "59cc7993b137": {
+    "id": "59cc7993b137",
+    "label": "44 RUE DU ROUAGE, Hautot-sur-Seine",
+    "lat": 49.36542,
+    "lng": 0.977698,
+    "transactions": [
+      {
+        "date": "2023-09-01",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "7cb0e5cff484": {
+    "id": "7cb0e5cff484",
+    "label": "6 IMP DU ROUAGE, Hautot-sur-Seine",
+    "lat": 49.366631,
+    "lng": 0.977672,
+    "transactions": [
+      {
+        "date": "2024-01-31",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c55b23009b5": {
+    "id": "0c55b23009b5",
+    "label": "13 CHE DU MOULIN DU TEMPLE, Hautot-sur-Seine",
+    "lat": 49.366626,
+    "lng": 0.974309,
+    "transactions": [
+      {
+        "date": "2024-06-14",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "83aa35831de6": {
+    "id": "83aa35831de6",
+    "label": "14 RUE DU BUISSON, Hautot-sur-Seine",
+    "lat": 49.363932,
+    "lng": 0.977426,
+    "transactions": [
+      {
+        "date": "2025-05-28",
+        "priceEur": 228750,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  }
+}

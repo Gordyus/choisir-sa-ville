@@ -1,0 +1,129 @@
+{
+  "3344a3665541": {
+    "id": "3344a3665541",
+    "label": "305 RUE PRINCIPALE, Ochtezeele",
+    "lat": 50.817867,
+    "lng": 2.397864,
+    "transactions": [
+      {
+        "date": "2021-02-15",
+        "priceEur": 238970,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "b85aa00776df": {
+    "id": "b85aa00776df",
+    "label": "17 RUE DU CHAMP DU COUTRE, Ochtezeele",
+    "lat": 50.818474,
+    "lng": 2.39805,
+    "transactions": [
+      {
+        "date": "2021-05-12",
+        "priceEur": 55400,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "dc0429085d11": {
+    "id": "dc0429085d11",
+    "label": "27 RUE DU CHAMP DU COUTRE, Ochtezeele",
+    "lat": 50.818694,
+    "lng": 2.398631,
+    "transactions": [
+      {
+        "date": "2024-04-19",
+        "priceEur": 223300,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-29",
+        "priceEur": 202700,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "5cc503b7dba2": {
+    "id": "5cc503b7dba2",
+    "label": "286 RUE PRINCIPALE, Ochtezeele",
+    "lat": 50.817152,
+    "lng": 2.398535,
+    "transactions": [
+      {
+        "date": "2022-03-18",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "1703d5068cf2": {
+    "id": "1703d5068cf2",
+    "label": "345 RUE PRINCIPALE, Ochtezeele",
+    "lat": 50.817584,
+    "lng": 2.398947,
+    "transactions": [
+      {
+        "date": "2022-07-01",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "360956a79734": {
+    "id": "360956a79734",
+    "label": "365 RUE PRINCIPALE, Ochtezeele",
+    "lat": 50.81754,
+    "lng": 2.399632,
+    "transactions": [
+      {
+        "date": "2022-09-23",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "5772563767ef": {
+    "id": "5772563767ef",
+    "label": "112 RUE DE LA MAIRIE, Ochtezeele",
+    "lat": 50.818073,
+    "lng": 2.401288,
+    "transactions": [
+      {
+        "date": "2023-02-10",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "88ee20e03e74": {
+    "id": "88ee20e03e74",
+    "label": "719 RUE PRINCIPALE, Ochtezeele",
+    "lat": 50.816306,
+    "lng": 2.404435,
+    "transactions": [
+      {
+        "date": "2024-07-31",
+        "priceEur": 72500,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  }
+}

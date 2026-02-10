@@ -1,0 +1,47 @@
+{
+  "9e9b033ae174": {
+    "id": "9e9b033ae174",
+    "label": "1120 RTE DE LA GARE, Mirville",
+    "lat": 49.601586,
+    "lng": 0.431257,
+    "transactions": [
+      {
+        "date": "2021-01-07",
+        "priceEur": 314350,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb4664f729d7": {
+    "id": "fb4664f729d7",
+    "label": "35 RUE DES PONTS, Mirville",
+    "lat": 49.602083,
+    "lng": 0.432688,
+    "transactions": [
+      {
+        "date": "2021-11-30",
+        "priceEur": 260900,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5efae26ed8d": {
+    "id": "f5efae26ed8d",
+    "label": "155 RUE DES PONTS, Mirville",
+    "lat": 49.603,
+    "lng": 0.431803,
+    "transactions": [
+      {
+        "date": "2024-02-21",
+        "priceEur": 237000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  }
+}

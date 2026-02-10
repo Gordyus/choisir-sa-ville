@@ -1,0 +1,92 @@
+{
+  "b727f4df1202": {
+    "id": "b727f4df1202",
+    "label": "912 RUE DU GHIEN, Beuvry-la-Forêt",
+    "lat": 50.448098,
+    "lng": 3.296656,
+    "transactions": [
+      {
+        "date": "2020-09-04",
+        "priceEur": 238300,
+        "typeLocal": "Maison",
+        "surfaceM2": 173,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f002c767d11": {
+    "id": "4f002c767d11",
+    "label": "1165 RUE DU GHIEN, Beuvry-la-Forêt",
+    "lat": 50.44581,
+    "lng": 3.296249,
+    "transactions": [
+      {
+        "date": "2020-12-09",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "1930c82ab084": {
+    "id": "1930c82ab084",
+    "label": "899 RUE DU GHIEN, Beuvry-la-Forêt",
+    "lat": 50.448259,
+    "lng": 3.297065,
+    "transactions": [
+      {
+        "date": "2021-10-28",
+        "priceEur": 334000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "987eabc603f7": {
+    "id": "987eabc603f7",
+    "label": "999 RUE DU GHIEN, Beuvry-la-Forêt",
+    "lat": 50.447332,
+    "lng": 3.297206,
+    "transactions": [
+      {
+        "date": "2021-02-11",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "4fa5fa012987": {
+    "id": "4fa5fa012987",
+    "label": "1145 RUE DU GHIEN, Beuvry-la-Forêt",
+    "lat": 50.446081,
+    "lng": 3.296297,
+    "transactions": [
+      {
+        "date": "2023-02-03",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "a066d97e8fd9": {
+    "id": "a066d97e8fd9",
+    "label": "860 RUE DU GHIEN, Beuvry-la-Forêt",
+    "lat": 50.448481,
+    "lng": 3.296421,
+    "transactions": [
+      {
+        "date": "2023-10-02",
+        "priceEur": 146666.66,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  }
+}

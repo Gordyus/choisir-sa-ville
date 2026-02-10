@@ -1,0 +1,32 @@
+{
+  "d8d1eda7c1c2": {
+    "id": "d8d1eda7c1c2",
+    "label": "5452 HAMEAU DU TOT, Gonneville-la-Mallet",
+    "lat": 49.639522,
+    "lng": 0.203773,
+    "transactions": [
+      {
+        "date": "2022-09-01",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "b8431dfd80a2": {
+    "id": "b8431dfd80a2",
+    "label": "12 HAMEAU DU TOT, Gonneville-la-Mallet",
+    "lat": 49.642248,
+    "lng": 0.203591,
+    "transactions": [
+      {
+        "date": "2024-09-18",
+        "priceEur": 192600,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  }
+}

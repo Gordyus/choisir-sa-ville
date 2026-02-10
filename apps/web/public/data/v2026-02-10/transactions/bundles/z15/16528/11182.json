@@ -1,0 +1,32 @@
+{
+  "bbef8862bb71": {
+    "id": "bbef8862bb71",
+    "label": "5006A LE BOURG, Beauvoir-en-Lyons",
+    "lat": 49.504521,
+    "lng": 1.584845,
+    "transactions": [
+      {
+        "date": "2022-12-17",
+        "priceEur": 147000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f590e1d138e": {
+    "id": "2f590e1d138e",
+    "label": "16 RTE DU MONT COQUEREL, Beauvoir-en-Lyons",
+    "lat": 49.504746,
+    "lng": 1.582406,
+    "transactions": [
+      {
+        "date": "2024-08-27",
+        "priceEur": 27000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  }
+}

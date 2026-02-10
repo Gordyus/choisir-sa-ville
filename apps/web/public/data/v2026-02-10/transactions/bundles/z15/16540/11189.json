@@ -1,0 +1,24 @@
+{
+  "a9b52705df98": {
+    "id": "a9b52705df98",
+    "label": "173 RUE DE LA VILLETTE, Ernemont-la-Villette",
+    "lat": 49.460264,
+    "lng": 1.719747,
+    "transactions": [
+      {
+        "date": "2024-11-15",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-10",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  }
+}

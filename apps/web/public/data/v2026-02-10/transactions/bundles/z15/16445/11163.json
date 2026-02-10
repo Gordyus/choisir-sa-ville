@@ -1,0 +1,32 @@
+{
+  "f364b678c121": {
+    "id": "f364b678c121",
+    "label": "1000 RTE DES DEUX VILLAGES, Écretteville-lès-Baons",
+    "lat": 49.644974,
+    "lng": 0.674035,
+    "transactions": [
+      {
+        "date": "2021-09-23",
+        "priceEur": 204805,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "2dc9cf8c07f3": {
+    "id": "2dc9cf8c07f3",
+    "label": "12 IMP DES DEUX VILLAGES, Hautot-le-Vatois",
+    "lat": 49.645323,
+    "lng": 0.67585,
+    "transactions": [
+      {
+        "date": "2021-01-25",
+        "priceEur": 214000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  }
+}

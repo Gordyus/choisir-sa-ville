@@ -1,0 +1,77 @@
+{
+  "38354d454198": {
+    "id": "38354d454198",
+    "label": "3 PAS EMILE BERNEVAL, Épinay-sur-Duclair",
+    "lat": 49.524222,
+    "lng": 0.83572,
+    "transactions": [
+      {
+        "date": "2021-09-17",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "1dc61daad94e": {
+    "id": "1dc61daad94e",
+    "label": "1 PAS EMILE BERNEVAL, Épinay-sur-Duclair",
+    "lat": 49.524436,
+    "lng": 0.835546,
+    "transactions": [
+      {
+        "date": "2022-10-27",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "626e75b0bcd1": {
+    "id": "626e75b0bcd1",
+    "label": "10 IMP DES CHARMILLES, Épinay-sur-Duclair",
+    "lat": 49.523946,
+    "lng": 0.838101,
+    "transactions": [
+      {
+        "date": "2023-07-25",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "db19a4a5fa67": {
+    "id": "db19a4a5fa67",
+    "label": "8 IMP DES CHARMILLES, Épinay-sur-Duclair",
+    "lat": 49.524238,
+    "lng": 0.838496,
+    "transactions": [
+      {
+        "date": "2023-07-25",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "35b3b33145a3": {
+    "id": "35b3b33145a3",
+    "label": "29 RUE DE LA MAIRIE, Épinay-sur-Duclair",
+    "lat": 49.523463,
+    "lng": 0.837568,
+    "transactions": [
+      {
+        "date": "2024-05-15",
+        "priceEur": 202000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

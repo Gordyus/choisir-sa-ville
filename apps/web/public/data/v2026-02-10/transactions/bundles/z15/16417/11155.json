@@ -1,0 +1,32 @@
+{
+  "51a64af300cc": {
+    "id": "51a64af300cc",
+    "label": "5 HAM LA GRAND MARE, Épreville",
+    "lat": 49.697831,
+    "lng": 0.367664,
+    "transactions": [
+      {
+        "date": "2022-05-12",
+        "priceEur": 147000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "7952def32c74": {
+    "id": "7952def32c74",
+    "label": "2A IMP LA PETITE MARE, Épreville",
+    "lat": 49.698772,
+    "lng": 0.367891,
+    "transactions": [
+      {
+        "date": "2025-04-28",
+        "priceEur": 269500,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

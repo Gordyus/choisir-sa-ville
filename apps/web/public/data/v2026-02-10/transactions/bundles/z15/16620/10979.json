@@ -1,0 +1,47 @@
+{
+  "2d89a6a59b62": {
+    "id": "2d89a6a59b62",
+    "label": "32 RUE VERTE, Oost-Cappel",
+    "lat": 50.933784,
+    "lng": 2.594597,
+    "transactions": [
+      {
+        "date": "2022-04-19",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "ef30e55e5de2": {
+    "id": "ef30e55e5de2",
+    "label": "26 RUE VERTE, Oost-Cappel",
+    "lat": 50.93078,
+    "lng": 2.595238,
+    "transactions": [
+      {
+        "date": "2023-02-23",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  },
+  "ce29328198b3": {
+    "id": "ce29328198b3",
+    "label": "42 RUE VERTE, Oost-Cappel",
+    "lat": 50.93542,
+    "lng": 2.598225,
+    "transactions": [
+      {
+        "date": "2025-04-24",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

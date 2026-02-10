@@ -1,0 +1,47 @@
+{
+  "539c40313a18": {
+    "id": "539c40313a18",
+    "label": "11 RUE DES PUITS, Grumesnil",
+    "lat": 49.621115,
+    "lng": 1.69851,
+    "transactions": [
+      {
+        "date": "2021-04-15",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e59105389dd": {
+    "id": "0e59105389dd",
+    "label": "9 RUE DES PUITS, Grumesnil",
+    "lat": 49.621549,
+    "lng": 1.698454,
+    "transactions": [
+      {
+        "date": "2021-09-17",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "ef13fc054367": {
+    "id": "ef13fc054367",
+    "label": "18 RUE DU MONT FIQUET, Grumesnil",
+    "lat": 49.61876,
+    "lng": 1.69892,
+    "transactions": [
+      {
+        "date": "2024-01-15",
+        "priceEur": 147000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

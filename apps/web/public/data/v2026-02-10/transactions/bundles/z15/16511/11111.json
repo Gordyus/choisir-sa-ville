@@ -1,0 +1,47 @@
+{
+  "9a42fbdc6e56": {
+    "id": "9a42fbdc6e56",
+    "label": "5 RUE DE LA CROIX DE PIERRE, Saint-Rémy-Boscrocourt",
+    "lat": 50.0102,
+    "lng": 1.395605,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 307500,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c4fb7e66741": {
+    "id": "0c4fb7e66741",
+    "label": "5001 LE BOURG, Saint-Rémy-Boscrocourt",
+    "lat": 50.008542,
+    "lng": 1.39595,
+    "transactions": [
+      {
+        "date": "2021-10-01",
+        "priceEur": 71000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "a58e564b66f1": {
+    "id": "a58e564b66f1",
+    "label": "11 RUE DU VALLON, Saint-Rémy-Boscrocourt",
+    "lat": 50.010854,
+    "lng": 1.395672,
+    "transactions": [
+      {
+        "date": "2024-02-15",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  }
+}

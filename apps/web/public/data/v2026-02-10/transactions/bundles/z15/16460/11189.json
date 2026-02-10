@@ -1,0 +1,47 @@
+{
+  "07efd750a0bf": {
+    "id": "07efd750a0bf",
+    "label": "282 RUE DE L ESSART, Yainville",
+    "lat": 49.455601,
+    "lng": 0.836436,
+    "transactions": [
+      {
+        "date": "2022-09-19",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "af73405f0371": {
+    "id": "af73405f0371",
+    "label": "476 RUE DE L ESSART, Yainville",
+    "lat": 49.456975,
+    "lng": 0.835266,
+    "transactions": [
+      {
+        "date": "2023-03-20",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b48657f21b2": {
+    "id": "7b48657f21b2",
+    "label": "333 RUE DE L ESSART, Yainville",
+    "lat": 49.455644,
+    "lng": 0.835404,
+    "transactions": [
+      {
+        "date": "2024-05-14",
+        "priceEur": 208000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  }
+}

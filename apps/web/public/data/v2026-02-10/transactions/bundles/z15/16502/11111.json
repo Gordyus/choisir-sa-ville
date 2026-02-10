@@ -1,0 +1,76 @@
+{
+  "66f4d5b3cd33": {
+    "id": "66f4d5b3cd33",
+    "label": "9000 RUE SAINTE GENEVIEVE, Criel-sur-Mer",
+    "lat": 50.013313,
+    "lng": 1.302362,
+    "transactions": [
+      {
+        "date": "2022-01-07",
+        "priceEur": 131840,
+        "typeLocal": "Appartement",
+        "surfaceM2": 98,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-17",
+        "priceEur": 135000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 99,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-06",
+        "priceEur": 116240,
+        "typeLocal": "Appartement",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "e21b9042de59": {
+    "id": "e21b9042de59",
+    "label": "2T RTE DE TOCQUEVILLE, Criel-sur-Mer",
+    "lat": 50.012696,
+    "lng": 1.300635,
+    "transactions": [
+      {
+        "date": "2023-01-09",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8c85a859a82": {
+    "id": "f8c85a859a82",
+    "label": "6 RTE DE TOCQUEVILLE, Criel-sur-Mer",
+    "lat": 50.012068,
+    "lng": 1.300574,
+    "transactions": [
+      {
+        "date": "2023-02-07",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "32ec32fa070d": {
+    "id": "32ec32fa070d",
+    "label": "4 RTE DE TOCQUEVILLE, Criel-sur-Mer",
+    "lat": 50.012225,
+    "lng": 1.300872,
+    "transactions": [
+      {
+        "date": "2024-07-11",
+        "priceEur": 176000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  }
+}

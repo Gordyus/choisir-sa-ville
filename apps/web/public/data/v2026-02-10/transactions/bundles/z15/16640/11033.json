@@ -1,0 +1,47 @@
+{
+  "8b5f6e5d12fb": {
+    "id": "8b5f6e5d12fb",
+    "label": "13 HAMEAU DU TRANSLOY, Illies",
+    "lat": 50.555358,
+    "lng": 2.822142,
+    "transactions": [
+      {
+        "date": "2022-01-08",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "32250965d531": {
+    "id": "32250965d531",
+    "label": "9 HAMEAU DU TRANSLOY, Illies",
+    "lat": 50.555507,
+    "lng": 2.82245,
+    "transactions": [
+      {
+        "date": "2024-06-18",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7ea745896ba": {
+    "id": "f7ea745896ba",
+    "label": "5 HAMEAU DU TRANSLOY, Illies",
+    "lat": 50.555708,
+    "lng": 2.823384,
+    "transactions": [
+      {
+        "date": "2024-10-30",
+        "priceEur": 328000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

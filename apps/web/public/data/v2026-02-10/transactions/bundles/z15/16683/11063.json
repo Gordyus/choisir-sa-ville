@@ -1,0 +1,114 @@
+{
+  "5c1148b78489": {
+    "id": "5c1148b78489",
+    "label": "65 RUE CASIMIR PERRIER, Somain",
+    "lat": 50.34819,
+    "lng": 3.295369,
+    "transactions": [
+      {
+        "date": "2021-07-29",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "2855989dcf5a": {
+    "id": "2855989dcf5a",
+    "label": "138 RUE JOSEPH BOULIEZ, Somain",
+    "lat": 50.351796,
+    "lng": 3.287976,
+    "transactions": [
+      {
+        "date": "2022-03-30",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "e19b8600f3db": {
+    "id": "e19b8600f3db",
+    "label": "187 RUE JOSEPH BOULIEZ, Somain",
+    "lat": 50.35224,
+    "lng": 3.288348,
+    "transactions": [
+      {
+        "date": "2022-04-21",
+        "priceEur": 286000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c0a04cb19ed": {
+    "id": "7c0a04cb19ed",
+    "label": "187B RUE JOSEPH BOULIEZ, Somain",
+    "lat": 50.352003,
+    "lng": 3.288411,
+    "transactions": [
+      {
+        "date": "2022-04-21",
+        "priceEur": 286000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "68983fd2a9da": {
+    "id": "68983fd2a9da",
+    "label": "173 RUE JOSEPH BOULIEZ, Somain",
+    "lat": 50.352442,
+    "lng": 3.287422,
+    "transactions": [
+      {
+        "date": "2023-06-16",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-17",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae0f6df2fc6b": {
+    "id": "ae0f6df2fc6b",
+    "label": "203 RUE JOSEPH BOULIEZ, Somain",
+    "lat": 50.351936,
+    "lng": 3.289675,
+    "transactions": [
+      {
+        "date": "2023-05-05",
+        "priceEur": 264000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "06d4194e834c": {
+    "id": "06d4194e834c",
+    "label": "4 CHE DE LA JUSTICE, Somain",
+    "lat": 50.351622,
+    "lng": 3.286082,
+    "transactions": [
+      {
+        "date": "2023-08-10",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  }
+}

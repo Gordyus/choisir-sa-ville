@@ -1,0 +1,77 @@
+{
+  "55e6ab0b9ca1": {
+    "id": "55e6ab0b9ca1",
+    "label": "4 LOT LE MURSAN, Saint-Étienne-Estréchoux",
+    "lat": 43.663147,
+    "lng": 3.109624,
+    "transactions": [
+      {
+        "date": "2020-10-09",
+        "priceEur": 172500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "b222f838a15c": {
+    "id": "b222f838a15c",
+    "label": "5508 GOURG POUIRIT, Saint-Étienne-Estréchoux",
+    "lat": 43.663046,
+    "lng": 3.109773,
+    "transactions": [
+      {
+        "date": "2021-09-17",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f11ed9bee62": {
+    "id": "2f11ed9bee62",
+    "label": "3 LA GRANGE, Saint-Étienne-Estréchoux",
+    "lat": 43.661092,
+    "lng": 3.109932,
+    "transactions": [
+      {
+        "date": "2022-09-27",
+        "priceEur": 249000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "5cada9a7dd94": {
+    "id": "5cada9a7dd94",
+    "label": "3 LOT LE MURSAN, Saint-Étienne-Estréchoux",
+    "lat": 43.663306,
+    "lng": 3.109433,
+    "transactions": [
+      {
+        "date": "2024-02-23",
+        "priceEur": 133450,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "98351abe5aed": {
+    "id": "98351abe5aed",
+    "label": "1 LA GRANGE, Saint-Étienne-Estréchoux",
+    "lat": 43.660675,
+    "lng": 3.110402,
+    "transactions": [
+      {
+        "date": "2024-11-07",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

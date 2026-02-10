@@ -1,0 +1,32 @@
+{
+  "27d7fc4ba707": {
+    "id": "27d7fc4ba707",
+    "label": "29 RTE DE MASTAING, Abscon",
+    "lat": 50.322812,
+    "lng": 3.29914,
+    "transactions": [
+      {
+        "date": "2022-02-01",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "a62fbf7b91c5": {
+    "id": "a62fbf7b91c5",
+    "label": "20 RTE DE MASTAING, Abscon",
+    "lat": 50.323581,
+    "lng": 3.297357,
+    "transactions": [
+      {
+        "date": "2022-10-13",
+        "priceEur": 187000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

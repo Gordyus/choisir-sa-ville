@@ -1,0 +1,62 @@
+{
+  "a68e097d037b": {
+    "id": "a68e097d037b",
+    "label": "356 CHE DE L'ALOUETTE, Grainville-Ymauville",
+    "lat": 49.642594,
+    "lng": 0.412657,
+    "transactions": [
+      {
+        "date": "2021-05-21",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "29baa862b728": {
+    "id": "29baa862b728",
+    "label": "5157 ANTIVILLE, Grainville-Ymauville",
+    "lat": 49.642515,
+    "lng": 0.406849,
+    "transactions": [
+      {
+        "date": "2022-05-04",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "a45c53e7fb80": {
+    "id": "a45c53e7fb80",
+    "label": "1010 RTE DU ROUVRAY, Grainville-Ymauville",
+    "lat": 49.639928,
+    "lng": 0.414919,
+    "transactions": [
+      {
+        "date": "2022-10-07",
+        "priceEur": 310200,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "71359a6c4074": {
+    "id": "71359a6c4074",
+    "label": "1701 RTE D'ANTIVILLE, Grainville-Ymauville",
+    "lat": 49.639219,
+    "lng": 0.410555,
+    "transactions": [
+      {
+        "date": "2024-10-02",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 195,
+        "isVefa": false
+      }
+    ]
+  }
+}

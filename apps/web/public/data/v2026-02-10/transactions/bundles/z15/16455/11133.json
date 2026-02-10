@@ -1,0 +1,39 @@
+{
+  "d8a33fe8eabe": {
+    "id": "d8a33fe8eabe",
+    "label": "16 RUE DU FOND DE TUMPOT, Blosseville",
+    "lat": 49.853968,
+    "lng": 0.788915,
+    "transactions": [
+      {
+        "date": "2024-05-03",
+        "priceEur": 236000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-28",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "04c5cbdcaa04": {
+    "id": "04c5cbdcaa04",
+    "label": "11 RUE DU FOND DE TUMPOT, Blosseville",
+    "lat": 49.854458,
+    "lng": 0.789968,
+    "transactions": [
+      {
+        "date": "2023-08-08",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  }
+}

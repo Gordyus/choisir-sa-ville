@@ -1,0 +1,69 @@
+{
+  "6219b95403d0": {
+    "id": "6219b95403d0",
+    "label": "134 RTE DE WATTEN, Merckeghem",
+    "lat": 50.862149,
+    "lng": 2.295775,
+    "transactions": [
+      {
+        "date": "2021-11-09",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "d711fec3826e": {
+    "id": "d711fec3826e",
+    "label": "228 RTE DE WATTEN, Merckeghem",
+    "lat": 50.86181,
+    "lng": 2.294519,
+    "transactions": [
+      {
+        "date": "2022-06-14",
+        "priceEur": 207900,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "7eef31d1e6a1": {
+    "id": "7eef31d1e6a1",
+    "label": "136 RTE DE WATTEN, Merckeghem",
+    "lat": 50.862132,
+    "lng": 2.295669,
+    "transactions": [
+      {
+        "date": "2024-06-26",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-04",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "c16fe632a287": {
+    "id": "c16fe632a287",
+    "label": "172 RTE DE WATTEN, Merckeghem",
+    "lat": 50.862098,
+    "lng": 2.294768,
+    "transactions": [
+      {
+        "date": "2023-09-20",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

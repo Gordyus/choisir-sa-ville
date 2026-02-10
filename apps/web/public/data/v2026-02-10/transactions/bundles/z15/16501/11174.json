@@ -1,0 +1,122 @@
+{
+  "6dcf2d5156d4": {
+    "id": "6dcf2d5156d4",
+    "label": "122 RTE DE BUCHY, Vieux-Manoir",
+    "lat": 49.567698,
+    "lng": 1.295864,
+    "transactions": [
+      {
+        "date": "2021-02-25",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ed6bce4885f": {
+    "id": "1ed6bce4885f",
+    "label": "90 RUE PIERRE CUINAT, Vieux-Manoir",
+    "lat": 49.566353,
+    "lng": 1.294652,
+    "transactions": [
+      {
+        "date": "2021-03-29",
+        "priceEur": 288000,
+        "typeLocal": "Maison",
+        "surfaceM2": 177,
+        "isVefa": false
+      }
+    ]
+  },
+  "9030528872ff": {
+    "id": "9030528872ff",
+    "label": "123 RTE DE SAINT AUBIN, Vieux-Manoir",
+    "lat": 49.565801,
+    "lng": 1.292821,
+    "transactions": [
+      {
+        "date": "2022-09-27",
+        "priceEur": 156000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d5c9a5ff24e": {
+    "id": "2d5c9a5ff24e",
+    "label": "147 RUE PIERRE CUINAT, Vieux-Manoir",
+    "lat": 49.566634,
+    "lng": 1.295984,
+    "transactions": [
+      {
+        "date": "2022-09-23",
+        "priceEur": 221300,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "76c45f6ac45a": {
+    "id": "76c45f6ac45a",
+    "label": "15 SQ DU BEL AIR, Vieux-Manoir",
+    "lat": 49.567821,
+    "lng": 1.292327,
+    "transactions": [
+      {
+        "date": "2023-08-17",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a41132f6a4e": {
+    "id": "9a41132f6a4e",
+    "label": "469 RTE DE SAINT AUBIN, Vieux-Manoir",
+    "lat": 49.563635,
+    "lng": 1.291183,
+    "transactions": [
+      {
+        "date": "2024-04-10",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f389078f368": {
+    "id": "2f389078f368",
+    "label": "30 SQ DU BEL AIR, Vieux-Manoir",
+    "lat": 49.567696,
+    "lng": 1.291562,
+    "transactions": [
+      {
+        "date": "2024-07-12",
+        "priceEur": 147000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "795130835b6a": {
+    "id": "795130835b6a",
+    "label": "104 RTE DU MOULIN D'ECALLES, Vieux-Manoir",
+    "lat": 49.567966,
+    "lng": 1.292866,
+    "transactions": [
+      {
+        "date": "2024-07-30",
+        "priceEur": 230670,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  }
+}

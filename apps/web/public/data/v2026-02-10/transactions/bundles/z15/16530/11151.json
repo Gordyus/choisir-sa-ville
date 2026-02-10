@@ -1,0 +1,32 @@
+{
+  "2c46047c0ac8": {
+    "id": "2c46047c0ac8",
+    "label": "13 RUE DES GARIOTTES, Ronchois",
+    "lat": 49.727677,
+    "lng": 1.606905,
+    "transactions": [
+      {
+        "date": "2021-10-23",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4f612cbc6cd": {
+    "id": "c4f612cbc6cd",
+    "label": "2B RUE DU TILLEUL, Ronchois",
+    "lat": 49.728983,
+    "lng": 1.60575,
+    "transactions": [
+      {
+        "date": "2023-06-02",
+        "priceEur": 73689,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

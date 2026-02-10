@@ -1,0 +1,523 @@
+{
+  "904451e2d2ac": {
+    "id": "904451e2d2ac",
+    "label": "18 RUE DU GRENESEY, Gainneville",
+    "lat": 49.516124,
+    "lng": 0.261262,
+    "transactions": [
+      {
+        "date": "2020-08-10",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "2766c2582c19": {
+    "id": "2766c2582c19",
+    "label": "3 RUE MARTIN LUTHER KING, Gainneville",
+    "lat": 49.514789,
+    "lng": 0.260242,
+    "transactions": [
+      {
+        "date": "2020-10-15",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "12b1ea787116": {
+    "id": "12b1ea787116",
+    "label": "10 RUE HENRI DUNANT, Gainneville",
+    "lat": 49.514546,
+    "lng": 0.261035,
+    "transactions": [
+      {
+        "date": "2020-11-02",
+        "priceEur": 288200,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6fa0df7247b": {
+    "id": "f6fa0df7247b",
+    "label": "80 RUE DE LA LIBERATION, Gainneville",
+    "lat": 49.517751,
+    "lng": 0.255238,
+    "transactions": [
+      {
+        "date": "2021-03-06",
+        "priceEur": 149670,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ff3365e37b4": {
+    "id": "0ff3365e37b4",
+    "label": "25 RUE NELSON MANDELA, Gainneville",
+    "lat": 49.513424,
+    "lng": 0.261771,
+    "transactions": [
+      {
+        "date": "2023-03-15",
+        "priceEur": 317000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-08",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "5900537294a6": {
+    "id": "5900537294a6",
+    "label": "116 RUE DE LA LIBERATION, Gainneville",
+    "lat": 49.51762,
+    "lng": 0.261269,
+    "transactions": [
+      {
+        "date": "2024-01-17",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-30",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-26",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "79a184114ffa": {
+    "id": "79a184114ffa",
+    "label": "6 RUE FERDINAND BUISSON, Gainneville",
+    "lat": 49.515215,
+    "lng": 0.258886,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 327600,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "b2d76670d584": {
+    "id": "b2d76670d584",
+    "label": "40 RUE MARTIN LUTHER KING, Gainneville",
+    "lat": 49.512104,
+    "lng": 0.259146,
+    "transactions": [
+      {
+        "date": "2021-07-26",
+        "priceEur": 378000,
+        "typeLocal": "Maison",
+        "surfaceM2": 157,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e7f97e4602c": {
+    "id": "0e7f97e4602c",
+    "label": "10 RUE PABLO PICASSO, Gainneville",
+    "lat": 49.515628,
+    "lng": 0.261936,
+    "transactions": [
+      {
+        "date": "2022-02-02",
+        "priceEur": 263000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "83fbaaf1110d": {
+    "id": "83fbaaf1110d",
+    "label": "138 RUE DE LA LIBERATION, Gainneville",
+    "lat": 49.517988,
+    "lng": 0.263538,
+    "transactions": [
+      {
+        "date": "2022-01-28",
+        "priceEur": 176000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "e823c61f18fb": {
+    "id": "e823c61f18fb",
+    "label": "16 RUE PABLO PICASSO, Gainneville",
+    "lat": 49.515304,
+    "lng": 0.263356,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 237600,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3f8250d42f4": {
+    "id": "d3f8250d42f4",
+    "label": "29 RUE NELSON MANDELA, Gainneville",
+    "lat": 49.51345,
+    "lng": 0.261038,
+    "transactions": [
+      {
+        "date": "2022-03-25",
+        "priceEur": 267200,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "dfa367dad58d": {
+    "id": "dfa367dad58d",
+    "label": "14 RUE JODY WILLIAMS, Gainneville",
+    "lat": 49.512855,
+    "lng": 0.25975,
+    "transactions": [
+      {
+        "date": "2022-03-15",
+        "priceEur": 283800,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "98b8f991f0e3": {
+    "id": "98b8f991f0e3",
+    "label": "108 RUE DE LA LIBERATION, Gainneville",
+    "lat": 49.51795,
+    "lng": 0.259646,
+    "transactions": [
+      {
+        "date": "2023-05-25",
+        "priceEur": 111850,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-16",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-04",
+        "priceEur": 41000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "eb1995b06789": {
+    "id": "eb1995b06789",
+    "label": "17 RUE DU 19 MARS 1962, Gainneville",
+    "lat": 49.515373,
+    "lng": 0.26173,
+    "transactions": [
+      {
+        "date": "2022-07-07",
+        "priceEur": 272000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-31",
+        "priceEur": 236000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f303b84f76c": {
+    "id": "5f303b84f76c",
+    "label": "12 RUE NELSON MANDELA, Gainneville",
+    "lat": 49.513647,
+    "lng": 0.263344,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5152d5eab94": {
+    "id": "b5152d5eab94",
+    "label": "82 RUE DE LA LIBERATION, Gainneville",
+    "lat": 49.517764,
+    "lng": 0.255317,
+    "transactions": [
+      {
+        "date": "2022-08-25",
+        "priceEur": 113000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac31f65870a9": {
+    "id": "ac31f65870a9",
+    "label": "17 RUE MARTIN LUTHER KING, Gainneville",
+    "lat": 49.513371,
+    "lng": 0.259789,
+    "transactions": [
+      {
+        "date": "2024-07-08",
+        "priceEur": 218000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-05",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "274294d9d951": {
+    "id": "274294d9d951",
+    "label": "4 RUE DU GRENESEY, Gainneville",
+    "lat": 49.516006,
+    "lng": 0.259091,
+    "transactions": [
+      {
+        "date": "2022-10-18",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "725cc452f13c": {
+    "id": "725cc452f13c",
+    "label": "1 RUE FERDINAND BUISSON, Gainneville",
+    "lat": 49.5146,
+    "lng": 0.259674,
+    "transactions": [
+      {
+        "date": "2022-12-07",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "05a5e3d9815d": {
+    "id": "05a5e3d9815d",
+    "label": "6B RUE DU 19 MARS 1962, Gainneville",
+    "lat": 49.515378,
+    "lng": 0.259546,
+    "transactions": [
+      {
+        "date": "2022-12-13",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "9da87f456b7d": {
+    "id": "9da87f456b7d",
+    "label": "104 RUE DE LA LIBERATION, Gainneville",
+    "lat": 49.517554,
+    "lng": 0.25992,
+    "transactions": [
+      {
+        "date": "2022-12-30",
+        "priceEur": 366000,
+        "typeLocal": "Maison",
+        "surfaceM2": 167,
+        "isVefa": false
+      }
+    ]
+  },
+  "de322053e0cd": {
+    "id": "de322053e0cd",
+    "label": "22 RUE MARTIN LUTHER KING, Gainneville",
+    "lat": 49.513466,
+    "lng": 0.258581,
+    "transactions": [
+      {
+        "date": "2023-02-27",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "5db7c2ba92e9": {
+    "id": "5db7c2ba92e9",
+    "label": "130 RUE DE LA LIBERATION, Gainneville",
+    "lat": 49.518025,
+    "lng": 0.263102,
+    "transactions": [
+      {
+        "date": "2023-03-24",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f99e3083075": {
+    "id": "1f99e3083075",
+    "label": "22 RTE DE ROGERVILLE, Gainneville",
+    "lat": 49.51598,
+    "lng": 0.263584,
+    "transactions": [
+      {
+        "date": "2025-03-24",
+        "priceEur": 79000,
+        "typeLocal": "Maison",
+        "surfaceM2": 29,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-01",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 29,
+        "isVefa": false
+      }
+    ]
+  },
+  "0daaebb4127d": {
+    "id": "0daaebb4127d",
+    "label": "11 RUE DU GRENESEY, Gainneville",
+    "lat": 49.516576,
+    "lng": 0.263451,
+    "transactions": [
+      {
+        "date": "2024-06-04",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff6dbcd19e03": {
+    "id": "ff6dbcd19e03",
+    "label": "86 RUE DE LA LIBERATION, Gainneville",
+    "lat": 49.517744,
+    "lng": 0.255546,
+    "transactions": [
+      {
+        "date": "2024-07-29",
+        "priceEur": 231000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c9ff3f2f0e7": {
+    "id": "1c9ff3f2f0e7",
+    "label": "12T RTE DE ROGERVILLE, Gainneville",
+    "lat": 49.5171,
+    "lng": 0.263511,
+    "transactions": [
+      {
+        "date": "2024-07-22",
+        "priceEur": 244000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "9eb6a3b50ab4": {
+    "id": "9eb6a3b50ab4",
+    "label": "9 RUE HENRI DUNANT, Gainneville",
+    "lat": 49.514198,
+    "lng": 0.261781,
+    "transactions": [
+      {
+        "date": "2024-10-09",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a928c64202d": {
+    "id": "6a928c64202d",
+    "label": "5 RUE DU GRENESEY, Gainneville",
+    "lat": 49.516478,
+    "lng": 0.26062,
+    "transactions": [
+      {
+        "date": "2024-10-18",
+        "priceEur": 249000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "ded780aa07b6": {
+    "id": "ded780aa07b6",
+    "label": "14 RTE DE ROGERVILLE, Gainneville",
+    "lat": 49.517011,
+    "lng": 0.263656,
+    "transactions": [
+      {
+        "date": "2025-05-28",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  }
+}

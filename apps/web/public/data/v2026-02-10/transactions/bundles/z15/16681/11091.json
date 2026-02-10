@@ -1,0 +1,54 @@
+{
+  "285b10c5ea84": {
+    "id": "285b10c5ea84",
+    "label": "22 RUE DES ALPES, Cambrai",
+    "lat": 50.155783,
+    "lng": 3.264894,
+    "transactions": [
+      {
+        "date": "2022-01-28",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "9efc76b18f4b": {
+    "id": "9efc76b18f4b",
+    "label": "50 RUE DES PYRENEES, Cambrai",
+    "lat": 50.155252,
+    "lng": 3.266816,
+    "transactions": [
+      {
+        "date": "2024-05-27",
+        "priceEur": 257000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-14",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d4e12af3002": {
+    "id": "9d4e12af3002",
+    "label": "8 RUE MARC SANGNIER, Cambrai",
+    "lat": 50.154218,
+    "lng": 3.263481,
+    "transactions": [
+      {
+        "date": "2024-03-28",
+        "priceEur": 70400,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  }
+}

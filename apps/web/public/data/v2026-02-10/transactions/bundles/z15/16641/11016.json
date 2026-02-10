@@ -1,0 +1,77 @@
+{
+  "e31155a1a2c3": {
+    "id": "e31155a1a2c3",
+    "label": "28 RUE DU MOULIN, Erquinghem-Lys",
+    "lat": 50.674749,
+    "lng": 2.83384,
+    "transactions": [
+      {
+        "date": "2020-10-15",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4fa87e00503": {
+    "id": "f4fa87e00503",
+    "label": "538 RUE DE L ALLOEU, Erquinghem-Lys",
+    "lat": 50.674392,
+    "lng": 2.829933,
+    "transactions": [
+      {
+        "date": "2021-05-10",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e1d0f22d2d9": {
+    "id": "7e1d0f22d2d9",
+    "label": "334 RUE DE L ALLOEU, Erquinghem-Lys",
+    "lat": 50.676071,
+    "lng": 2.83214,
+    "transactions": [
+      {
+        "date": "2023-04-26",
+        "priceEur": 1980000,
+        "typeLocal": "Maison",
+        "surfaceM2": 368,
+        "isVefa": false
+      }
+    ]
+  },
+  "a8d8a89ff9e1": {
+    "id": "a8d8a89ff9e1",
+    "label": "532 RUE DE L ALLOEU, Erquinghem-Lys",
+    "lat": 50.674179,
+    "lng": 2.83007,
+    "transactions": [
+      {
+        "date": "2023-09-20",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f4bdbb1a364": {
+    "id": "8f4bdbb1a364",
+    "label": "542 RUE DE L ALLOEU, Erquinghem-Lys",
+    "lat": 50.674244,
+    "lng": 2.829915,
+    "transactions": [
+      {
+        "date": "2024-05-14",
+        "priceEur": 168600,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  }
+}

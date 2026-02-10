@@ -1,0 +1,62 @@
+{
+  "55d2a943bfc2": {
+    "id": "55d2a943bfc2",
+    "label": "5053 CHV N5, Petit-Caux",
+    "lat": 49.957551,
+    "lng": 1.219373,
+    "transactions": [
+      {
+        "date": "2021-11-09",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "e89085580ea1": {
+    "id": "e89085580ea1",
+    "label": "5392 PLAINE DE LA JUSTICE SUD, Petit-Caux",
+    "lat": 49.952719,
+    "lng": 1.217845,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 382500,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "e7274b615140": {
+    "id": "e7274b615140",
+    "label": "5040 PLAINE DE LA JUSTICE, Petit-Caux",
+    "lat": 49.952297,
+    "lng": 1.217894,
+    "transactions": [
+      {
+        "date": "2022-04-08",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "84da4ffb80a5": {
+    "id": "84da4ffb80a5",
+    "label": "5502 IMP DU CHATEAU D'EAU, Petit-Caux",
+    "lat": 49.952255,
+    "lng": 1.217536,
+    "transactions": [
+      {
+        "date": "2025-02-14",
+        "priceEur": 239000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

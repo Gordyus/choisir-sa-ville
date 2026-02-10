@@ -1,0 +1,39 @@
+{
+  "019c42d127b2": {
+    "id": "019c42d127b2",
+    "label": "632 RTE D HAZEBROUCK, Merville",
+    "lat": 50.662805,
+    "lng": 2.596472,
+    "transactions": [
+      {
+        "date": "2024-02-14",
+        "priceEur": 177000,
+        "typeLocal": "Maison",
+        "surfaceM2": 161,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-30",
+        "priceEur": 253500,
+        "typeLocal": "Maison",
+        "surfaceM2": 161,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe70128283a8": {
+    "id": "fe70128283a8",
+    "label": "140 HAUTE RUE, Merville",
+    "lat": 50.665621,
+    "lng": 2.600094,
+    "transactions": [
+      {
+        "date": "2022-10-18",
+        "priceEur": 750000,
+        "typeLocal": "Maison",
+        "surfaceM2": 275,
+        "isVefa": false
+      }
+    ]
+  }
+}

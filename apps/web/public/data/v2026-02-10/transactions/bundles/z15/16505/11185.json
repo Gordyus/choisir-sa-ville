@@ -1,0 +1,47 @@
+{
+  "fd5feb233492": {
+    "id": "fd5feb233492",
+    "label": "231 RTE DU MOULIN, Saint-Aignan-sur-Ry",
+    "lat": 49.489529,
+    "lng": 1.332,
+    "transactions": [
+      {
+        "date": "2020-12-26",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "7af234c90d23": {
+    "id": "7af234c90d23",
+    "label": "5160 L EPINAY, Saint-Aignan-sur-Ry",
+    "lat": 49.488079,
+    "lng": 1.332475,
+    "transactions": [
+      {
+        "date": "2021-02-25",
+        "priceEur": 23000,
+        "typeLocal": "Maison",
+        "surfaceM2": 15,
+        "isVefa": false
+      }
+    ]
+  },
+  "31ff0c981699": {
+    "id": "31ff0c981699",
+    "label": "137 RTE DU MOULIN, Saint-Aignan-sur-Ry",
+    "lat": 49.489378,
+    "lng": 1.333172,
+    "transactions": [
+      {
+        "date": "2022-08-06",
+        "priceEur": 186000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "99f38f91310c": {
+    "id": "99f38f91310c",
+    "label": "37 HAMEAU DE GOURNAY, Épreville",
+    "lat": 49.716459,
+    "lng": 0.377721,
+    "transactions": [
+      {
+        "date": "2022-01-07",
+        "priceEur": 344400,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "45ab7ce71a53": {
+    "id": "45ab7ce71a53",
+    "label": "5 IMP LE PETIT GOURNAY, Épreville",
+    "lat": 49.713698,
+    "lng": 0.380302,
+    "transactions": [
+      {
+        "date": "2022-08-10",
+        "priceEur": 291000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "98dc314b677a": {
+    "id": "98dc314b677a",
+    "label": "2 IMP LE PETIT GOURNAY, Épreville",
+    "lat": 49.714088,
+    "lng": 0.37878,
+    "transactions": [
+      {
+        "date": "2023-09-08",
+        "priceEur": 219500,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  }
+}

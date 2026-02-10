@@ -1,0 +1,47 @@
+{
+  "0838e15172e7": {
+    "id": "0838e15172e7",
+    "label": "29 RUE JEAN MOULIN, Râches",
+    "lat": 50.416835,
+    "lng": 3.142328,
+    "transactions": [
+      {
+        "date": "2021-11-10",
+        "priceEur": 184800,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "504593fa5bbe": {
+    "id": "504593fa5bbe",
+    "label": "596 RUE DE BAILLON, Râches",
+    "lat": 50.416027,
+    "lng": 3.144889,
+    "transactions": [
+      {
+        "date": "2022-05-31",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "730295701bab": {
+    "id": "730295701bab",
+    "label": "665 RUE DE BAILLON, Râches",
+    "lat": 50.416759,
+    "lng": 3.145767,
+    "transactions": [
+      {
+        "date": "2023-03-16",
+        "priceEur": 238000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

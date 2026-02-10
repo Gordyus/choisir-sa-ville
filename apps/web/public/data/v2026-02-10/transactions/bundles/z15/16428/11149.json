@@ -1,0 +1,32 @@
+{
+  "5d0e3e6dd4ad": {
+    "id": "5d0e3e6dd4ad",
+    "label": "24B RUE ANDRE FIQUET, Valmont",
+    "lat": 49.745488,
+    "lng": 0.487239,
+    "transactions": [
+      {
+        "date": "2022-10-14",
+        "priceEur": 25100,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2e7720f106a": {
+    "id": "e2e7720f106a",
+    "label": "28 RUE ANDRE FIQUET, Valmont",
+    "lat": 49.745677,
+    "lng": 0.486503,
+    "transactions": [
+      {
+        "date": "2024-12-31",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "68e54bec3f0c": {
+    "id": "68e54bec3f0c",
+    "label": "818 RUE DE LA PIERRE BLANCHE, Gueutteville-les-Grès",
+    "lat": 49.837652,
+    "lng": 0.764243,
+    "transactions": [
+      {
+        "date": "2020-09-24",
+        "priceEur": 211000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "d19b66c630f8": {
+    "id": "d19b66c630f8",
+    "label": "77 CAVEE DE LA PIERRE BLANCHE, Gueutteville-les-Grès",
+    "lat": 49.837373,
+    "lng": 0.762577,
+    "transactions": [
+      {
+        "date": "2021-08-26",
+        "priceEur": 453000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e7fad8408fe": {
+    "id": "1e7fad8408fe",
+    "label": "706 RUE DE LA PIERRE BLANCHE, Gueutteville-les-Grès",
+    "lat": 49.837782,
+    "lng": 0.763044,
+    "transactions": [
+      {
+        "date": "2021-12-01",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "e95479d2406a": {
+    "id": "e95479d2406a",
+    "label": "373 RTE DU CABARET, Gueutteville-les-Grès",
+    "lat": 49.83736,
+    "lng": 0.761742,
+    "transactions": [
+      {
+        "date": "2022-04-08",
+        "priceEur": 238000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "57d43107f240": {
+    "id": "57d43107f240",
+    "label": "5010 MAS DE NOUGUIER, Valmascle",
+    "lat": 43.610156,
+    "lng": 3.288874,
+    "transactions": [
+      {
+        "date": "2021-11-16",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "960d0d8e4c10": {
+    "id": "960d0d8e4c10",
+    "label": "5009 MAS DE NOUGUIER, Valmascle",
+    "lat": 43.610124,
+    "lng": 3.289079,
+    "transactions": [
+      {
+        "date": "2021-11-16",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "f072f713aa68": {
+    "id": "f072f713aa68",
+    "label": "5011 MAS DE NOUGUIER, Valmascle",
+    "lat": 43.609933,
+    "lng": 3.288707,
+    "transactions": [
+      {
+        "date": "2021-11-16",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 36,
+        "isVefa": false
+      }
+    ]
+  },
+  "4faf1c5459e9": {
+    "id": "4faf1c5459e9",
+    "label": "5647F MAS DE NOUGUIER, Valmascle",
+    "lat": 43.609497,
+    "lng": 3.293921,
+    "transactions": [
+      {
+        "date": "2022-08-22",
+        "priceEur": 418266,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-22",
+        "priceEur": 418266,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  }
+}

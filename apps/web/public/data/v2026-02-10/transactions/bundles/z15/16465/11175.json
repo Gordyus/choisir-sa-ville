@@ -1,0 +1,62 @@
+{
+  "d26dcbd01464": {
+    "id": "d26dcbd01464",
+    "label": "6077 BELINTOT OUEST, Bouville",
+    "lat": 49.555201,
+    "lng": 0.900038,
+    "transactions": [
+      {
+        "date": "2021-08-17",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6f5b5456671": {
+    "id": "f6f5b5456671",
+    "label": "5118 LA ROCHELLE NORD, Bouville",
+    "lat": 49.558144,
+    "lng": 0.89048,
+    "transactions": [
+      {
+        "date": "2022-05-13",
+        "priceEur": 299400,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      }
+    ]
+  },
+  "0fc8f483b5a1": {
+    "id": "0fc8f483b5a1",
+    "label": "5218 LE BOURG NORD, Bouville",
+    "lat": 49.560136,
+    "lng": 0.890966,
+    "transactions": [
+      {
+        "date": "2022-08-31",
+        "priceEur": 247050,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "73452d2ced52": {
+    "id": "73452d2ced52",
+    "label": "5217 LE BOURG NORD, Bouville",
+    "lat": 49.559685,
+    "lng": 0.890806,
+    "transactions": [
+      {
+        "date": "2022-09-29",
+        "priceEur": 232000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  }
+}

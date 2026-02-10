@@ -1,0 +1,54 @@
+{
+  "586c21f38b59": {
+    "id": "586c21f38b59",
+    "label": "170 RTE DE L'ESTRANGLE, Saint-Vigor-d'Ymonville",
+    "lat": 49.489368,
+    "lng": 0.346858,
+    "transactions": [
+      {
+        "date": "2022-12-23",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "38e90da7a712": {
+    "id": "38e90da7a712",
+    "label": "240 RTE DE L'ESTRANGLE, Saint-Vigor-d'Ymonville",
+    "lat": 49.488905,
+    "lng": 0.346074,
+    "transactions": [
+      {
+        "date": "2023-05-03",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "61d657b2d063": {
+    "id": "61d657b2d063",
+    "label": "420 RTE DE L'ESTRANGLE, Saint-Vigor-d'Ymonville",
+    "lat": 49.487474,
+    "lng": 0.344063,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 128500,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-29",
+        "priceEur": 117500,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  }
+}

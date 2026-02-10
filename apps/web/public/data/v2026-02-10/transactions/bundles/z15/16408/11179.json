@@ -1,0 +1,47 @@
+{
+  "5f6ec743aeeb": {
+    "id": "5f6ec743aeeb",
+    "label": "11 RTE DU CHATEAU, Saint-Laurent-de-Brèvedent",
+    "lat": 49.526666,
+    "lng": 0.266936,
+    "transactions": [
+      {
+        "date": "2023-06-29",
+        "priceEur": 336000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "e7664cffbe5f": {
+    "id": "e7664cffbe5f",
+    "label": "5 RUE DES MARRONNIERS, Saint-Laurent-de-Brèvedent",
+    "lat": 49.525329,
+    "lng": 0.264187,
+    "transactions": [
+      {
+        "date": "2024-08-05",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a8c2ef15622": {
+    "id": "7a8c2ef15622",
+    "label": "1 RTE DU CHATEAU, Saint-Laurent-de-Brèvedent",
+    "lat": 49.526339,
+    "lng": 0.26556,
+    "transactions": [
+      {
+        "date": "2024-10-02",
+        "priceEur": 537500,
+        "typeLocal": "Maison",
+        "surfaceM2": 250,
+        "isVefa": false
+      }
+    ]
+  }
+}

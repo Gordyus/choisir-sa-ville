@@ -1,0 +1,62 @@
+{
+  "a7bfe9981507": {
+    "id": "a7bfe9981507",
+    "label": "12 RUE DU CIMETIERE, Bec-de-Mortagne",
+    "lat": 49.701073,
+    "lng": 0.448076,
+    "transactions": [
+      {
+        "date": "2021-04-16",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "fcfdb3ed2995": {
+    "id": "fcfdb3ed2995",
+    "label": "30 RTE DE LA VALLEE, Bec-de-Mortagne",
+    "lat": 49.702961,
+    "lng": 0.448261,
+    "transactions": [
+      {
+        "date": "2022-10-07",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ed956094bb3": {
+    "id": "7ed956094bb3",
+    "label": "58 RTE DE LA VALLEE, Bec-de-Mortagne",
+    "lat": 49.702522,
+    "lng": 0.450059,
+    "transactions": [
+      {
+        "date": "2023-02-27",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9c485ee7480": {
+    "id": "c9c485ee7480",
+    "label": "50 RTE DE LA VALLEE, Bec-de-Mortagne",
+    "lat": 49.702709,
+    "lng": 0.449735,
+    "transactions": [
+      {
+        "date": "2024-08-09",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  }
+}

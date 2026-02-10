@@ -1,0 +1,92 @@
+{
+  "217d01ff000e": {
+    "id": "217d01ff000e",
+    "label": "24 RTE DE BOURBOURG, Holque",
+    "lat": 50.855776,
+    "lng": 2.203309,
+    "transactions": [
+      {
+        "date": "2021-02-25",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "16d4d7368287": {
+    "id": "16d4d7368287",
+    "label": "50 RUE BASSE, Holque",
+    "lat": 50.855344,
+    "lng": 2.200628,
+    "transactions": [
+      {
+        "date": "2021-03-01",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "0f576e1c8526": {
+    "id": "0f576e1c8526",
+    "label": "14 RUE ST GOEWAERT, Holque",
+    "lat": 50.854547,
+    "lng": 2.200688,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "d4cac36fcc75": {
+    "id": "d4cac36fcc75",
+    "label": "316 RUE BASSE, Holque",
+    "lat": 50.85715,
+    "lng": 2.198365,
+    "transactions": [
+      {
+        "date": "2022-08-17",
+        "priceEur": 181905,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "3fa003322d15": {
+    "id": "3fa003322d15",
+    "label": "30 RTE DE BOURBOURG, Holque",
+    "lat": 50.85979,
+    "lng": 2.202401,
+    "transactions": [
+      {
+        "date": "2022-09-15",
+        "priceEur": 164210,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "9cf251f2c701": {
+    "id": "9cf251f2c701",
+    "label": "14 RTE DE BOURBOURG, Holque",
+    "lat": 50.854988,
+    "lng": 2.203725,
+    "transactions": [
+      {
+        "date": "2025-04-28",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

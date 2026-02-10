@@ -1,0 +1,32 @@
+{
+  "fba199e75af3": {
+    "id": "fba199e75af3",
+    "label": "125 ALL DE SAINT VAAST, Les Rues-des-Vignes",
+    "lat": 50.099444,
+    "lng": 3.236898,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "c044f4db7a3a": {
+    "id": "c044f4db7a3a",
+    "label": "71 ALL DE SAINT VAAST, Les Rues-des-Vignes",
+    "lat": 50.099736,
+    "lng": 3.238167,
+    "transactions": [
+      {
+        "date": "2024-09-13",
+        "priceEur": 241000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  }
+}

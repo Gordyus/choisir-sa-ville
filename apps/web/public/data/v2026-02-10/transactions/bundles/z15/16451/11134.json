@@ -1,0 +1,62 @@
+{
+  "6a35364bb4b5": {
+    "id": "6a35364bb4b5",
+    "label": "669 RUE SAINTE GERTRUDE, Cailleville",
+    "lat": 49.845697,
+    "lng": 0.743092,
+    "transactions": [
+      {
+        "date": "2020-10-20",
+        "priceEur": 278600,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "ccd6e78cd320": {
+    "id": "ccd6e78cd320",
+    "label": "5083 REUTTEVILLE, Cailleville",
+    "lat": 49.847602,
+    "lng": 0.739511,
+    "transactions": [
+      {
+        "date": "2020-11-17",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "f34acffd0a42": {
+    "id": "f34acffd0a42",
+    "label": "17 RUE DU MOULIN, Cailleville",
+    "lat": 49.847563,
+    "lng": 0.741538,
+    "transactions": [
+      {
+        "date": "2021-10-21",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a3508ef1da8": {
+    "id": "8a3508ef1da8",
+    "label": "5063 REUTTEVILLE, Cailleville",
+    "lat": 49.845754,
+    "lng": 0.742289,
+    "transactions": [
+      {
+        "date": "2022-03-29",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

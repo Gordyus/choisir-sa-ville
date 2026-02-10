@@ -1,0 +1,47 @@
+{
+  "568e8f43e599": {
+    "id": "568e8f43e599",
+    "label": "11 BOSC LA MER, Le Bocasse",
+    "lat": 49.597088,
+    "lng": 1.078561,
+    "transactions": [
+      {
+        "date": "2021-12-29",
+        "priceEur": 242500,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "ddf480d2dacc": {
+    "id": "ddf480d2dacc",
+    "label": "50A CHE DU BOSC, Le Bocasse",
+    "lat": 49.596757,
+    "lng": 1.078718,
+    "transactions": [
+      {
+        "date": "2025-02-26",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "b73cf9f77993": {
+    "id": "b73cf9f77993",
+    "label": "592 RUE DE L EGLISE, Le Bocasse",
+    "lat": 49.602557,
+    "lng": 1.076885,
+    "transactions": [
+      {
+        "date": "2025-03-05",
+        "priceEur": 230500,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "bb8509855f9a": {
+    "id": "bb8509855f9a",
+    "label": "1126 RTE DE NEUFMESNIL, Cideville",
+    "lat": 49.602758,
+    "lng": 0.898507,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "92144a04973f": {
+    "id": "92144a04973f",
+    "label": "1120 RTE DE NEUFMESNIL, Cideville",
+    "lat": 49.603043,
+    "lng": 0.897734,
+    "transactions": [
+      {
+        "date": "2021-07-23",
+        "priceEur": 243000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

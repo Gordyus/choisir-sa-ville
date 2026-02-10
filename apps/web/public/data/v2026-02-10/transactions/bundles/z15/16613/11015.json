@@ -1,0 +1,47 @@
+{
+  "b31c30fa635b": {
+    "id": "b31c30fa635b",
+    "label": "26 RUE DU POT, Morbecque",
+    "lat": 50.683336,
+    "lng": 2.520976,
+    "transactions": [
+      {
+        "date": "2020-08-13",
+        "priceEur": 82000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a070395c9fd": {
+    "id": "4a070395c9fd",
+    "label": "39 RUE DU POT, Morbecque",
+    "lat": 50.681982,
+    "lng": 2.52365,
+    "transactions": [
+      {
+        "date": "2023-07-07",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d3d3bd73c5a": {
+    "id": "5d3d3bd73c5a",
+    "label": "24 RUE DU BAS SCHOUBROUCK, Morbecque",
+    "lat": 50.686833,
+    "lng": 2.52643,
+    "transactions": [
+      {
+        "date": "2024-04-30",
+        "priceEur": 495000,
+        "typeLocal": "Maison",
+        "surfaceM2": 225,
+        "isVefa": false
+      }
+    ]
+  }
+}

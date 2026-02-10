@@ -1,0 +1,62 @@
+{
+  "e51f612dd426": {
+    "id": "e51f612dd426",
+    "label": "1667 RTE DE SAINT CRESPIN, Gonneville-sur-Scie",
+    "lat": 49.76741,
+    "lng": 1.10072,
+    "transactions": [
+      {
+        "date": "2021-05-31",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed7d9ecfb987": {
+    "id": "ed7d9ecfb987",
+    "label": "5036 FERME DU MANOIR DE CAMP, Saint-Crespin",
+    "lat": 49.773916,
+    "lng": 1.105574,
+    "transactions": [
+      {
+        "date": "2022-06-01",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "4fd367600e9a": {
+    "id": "4fd367600e9a",
+    "label": "15 RTE DU MANOIR DE CAMP, Saint-Crespin",
+    "lat": 49.773386,
+    "lng": 1.106529,
+    "transactions": [
+      {
+        "date": "2024-08-05",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "ba170a1dbf9e": {
+    "id": "ba170a1dbf9e",
+    "label": "1673 RTE DE SAINT CRESPIN, Gonneville-sur-Scie",
+    "lat": 49.767234,
+    "lng": 1.100812,
+    "transactions": [
+      {
+        "date": "2024-09-12",
+        "priceEur": 123900,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  }
+}

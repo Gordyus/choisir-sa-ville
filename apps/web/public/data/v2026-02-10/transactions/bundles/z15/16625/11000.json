@@ -1,0 +1,99 @@
+{
+  "7d1d66c82bcd": {
+    "id": "7d1d66c82bcd",
+    "label": "82 CHE DU MOULIN, Godewaersvelde",
+    "lat": 50.78642,
+    "lng": 2.658045,
+    "transactions": [
+      {
+        "date": "2022-03-31",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-08",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f6480906da5": {
+    "id": "9f6480906da5",
+    "label": "611 RTE DU MONT DES CATS, Godewaersvelde",
+    "lat": 50.788862,
+    "lng": 2.648211,
+    "transactions": [
+      {
+        "date": "2020-08-20",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "d95c5d1534e1": {
+    "id": "d95c5d1534e1",
+    "label": "186 VC CHEM PRIVE RTE DE L ABBAYE, Godewaersvelde",
+    "lat": 50.785965,
+    "lng": 2.657962,
+    "transactions": [
+      {
+        "date": "2021-07-13",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "8bf9843aead2": {
+    "id": "8bf9843aead2",
+    "label": "943 RTE DU MONT DES CATS, Godewaersvelde",
+    "lat": 50.786709,
+    "lng": 2.650799,
+    "transactions": [
+      {
+        "date": "2022-06-02",
+        "priceEur": 333500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac242cf22b0c": {
+    "id": "ac242cf22b0c",
+    "label": "1338B RTE DE L ABBAYE, Godewaersvelde",
+    "lat": 50.787033,
+    "lng": 2.658165,
+    "transactions": [
+      {
+        "date": "2022-12-02",
+        "priceEur": 177100,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea778cce30cd": {
+    "id": "ea778cce30cd",
+    "label": "1338 RTE DE L ABBAYE, Godewaersvelde",
+    "lat": 50.786882,
+    "lng": 2.658218,
+    "transactions": [
+      {
+        "date": "2024-12-10",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  }
+}

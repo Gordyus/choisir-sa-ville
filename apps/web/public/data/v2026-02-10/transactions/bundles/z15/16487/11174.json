@@ -1,0 +1,32 @@
+{
+  "9c4819b65eac": {
+    "id": "9c4819b65eac",
+    "label": "220 RUE STANISLAS HELIOT, Fontaine-le-Bourg",
+    "lat": 49.561382,
+    "lng": 1.138635,
+    "transactions": [
+      {
+        "date": "2023-05-05",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a5c15ce5ec7": {
+    "id": "7a5c15ce5ec7",
+    "label": "5240 HAMEAU DU PETIT TENDOS, Fontaine-le-Bourg",
+    "lat": 49.561476,
+    "lng": 1.138427,
+    "transactions": [
+      {
+        "date": "2023-05-25",
+        "priceEur": 500,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "4528492bfd97": {
+    "id": "4528492bfd97",
+    "label": "4 RES DU CALVAIRE, Saint-Sylvain",
+    "lat": 49.845214,
+    "lng": 0.669119,
+    "transactions": [
+      {
+        "date": "2020-10-13",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "12f8e41473b9": {
+    "id": "12f8e41473b9",
+    "label": "16 RES DU CALVAIRE, Saint-Sylvain",
+    "lat": 49.845363,
+    "lng": 0.669894,
+    "transactions": [
+      {
+        "date": "2020-10-14",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "3589862ec250": {
+    "id": "3589862ec250",
+    "label": "120 RUE DU BOIS, Saint-Sylvain",
+    "lat": 49.845544,
+    "lng": 0.66027,
+    "transactions": [
+      {
+        "date": "2021-03-24",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "0a7a8143fc10": {
+    "id": "0a7a8143fc10",
+    "label": "245 RUE DU BOIS, Saint-Sylvain",
+    "lat": 49.846514,
+    "lng": 0.659319,
+    "transactions": [
+      {
+        "date": "2024-12-23",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

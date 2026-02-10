@@ -1,0 +1,99 @@
+{
+  "4078b218b65f": {
+    "id": "4078b218b65f",
+    "label": "10B COTE DU CHATEAU, Arques-la-Bataille",
+    "lat": 49.872812,
+    "lng": 1.134952,
+    "transactions": [
+      {
+        "date": "2021-12-30",
+        "priceEur": 234000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "b19a8af1fbd3": {
+    "id": "b19a8af1fbd3",
+    "label": "9 COTE DU CHATEAU, Arques-la-Bataille",
+    "lat": 49.871555,
+    "lng": 1.136914,
+    "transactions": [
+      {
+        "date": "2021-08-26",
+        "priceEur": 243000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "dbdf280365f9": {
+    "id": "dbdf280365f9",
+    "label": "5 COTE DU CHATEAU, Arques-la-Bataille",
+    "lat": 49.871858,
+    "lng": 1.136639,
+    "transactions": [
+      {
+        "date": "2022-05-20",
+        "priceEur": 193000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9e48acda59f": {
+    "id": "c9e48acda59f",
+    "label": "135 RUE DE LA LIBERATION, Arques-la-Bataille",
+    "lat": 49.872359,
+    "lng": 1.136936,
+    "transactions": [
+      {
+        "date": "2025-02-21",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-26",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "2aa197240bc4": {
+    "id": "2aa197240bc4",
+    "label": "131 RUE DE LA LIBERATION, Arques-la-Bataille",
+    "lat": 49.872507,
+    "lng": 1.136739,
+    "transactions": [
+      {
+        "date": "2024-05-02",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "15ea2db4a70b": {
+    "id": "15ea2db4a70b",
+    "label": "9 RES LES COTES DU CHATEAU, Arques-la-Bataille",
+    "lat": 49.871555,
+    "lng": 1.136914,
+    "transactions": [
+      {
+        "date": "2024-07-31",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  }
+}

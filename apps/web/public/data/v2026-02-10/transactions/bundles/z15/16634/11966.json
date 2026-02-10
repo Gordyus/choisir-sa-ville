@@ -1,0 +1,69 @@
+{
+  "9e31adbdffe8": {
+    "id": "9e31adbdffe8",
+    "label": "5313 LE PRADAS, Fraisse-sur-Agout",
+    "lat": 43.59196,
+    "lng": 2.756,
+    "transactions": [
+      {
+        "date": "2021-10-11",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "82e18b2aa067": {
+    "id": "82e18b2aa067",
+    "label": "789 CHE DU VERGNAS, Fraisse-sur-Agout",
+    "lat": 43.589391,
+    "lng": 2.754659,
+    "transactions": [
+      {
+        "date": "2024-07-11",
+        "priceEur": 124250,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "0a3fcd026a1f": {
+    "id": "0a3fcd026a1f",
+    "label": "787 CHE DU VERGNAS, Fraisse-sur-Agout",
+    "lat": 43.589381,
+    "lng": 2.75489,
+    "transactions": [
+      {
+        "date": "2024-07-11",
+        "priceEur": 124250,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-11",
+        "priceEur": 124250,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3f6c470f9db": {
+    "id": "d3f6c470f9db",
+    "label": "1429 CHE DU VERGNAS, Fraisse-sur-Agout",
+    "lat": 43.59196,
+    "lng": 2.756,
+    "transactions": [
+      {
+        "date": "2024-12-09",
+        "priceEur": 166950,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

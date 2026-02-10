@@ -1,0 +1,68 @@
+{
+  "3c8d782f395c": {
+    "id": "3c8d782f395c",
+    "label": "108 HAM DE L EPINETTE, Houplines",
+    "lat": 50.682876,
+    "lng": 2.929656,
+    "transactions": [
+      {
+        "date": "2021-05-27",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "173f009e0497": {
+    "id": "173f009e0497",
+    "label": "44 CHE DU PILORI, Houplines",
+    "lat": 50.681011,
+    "lng": 2.922568,
+    "transactions": [
+      {
+        "date": "2021-12-27",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 214,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-27",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-27",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-27",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "9994a05a2de3": {
+    "id": "9994a05a2de3",
+    "label": "107 HAM DE L EPINETTE, Houplines",
+    "lat": 50.683344,
+    "lng": 2.930337,
+    "transactions": [
+      {
+        "date": "2025-03-06",
+        "priceEur": 369400,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

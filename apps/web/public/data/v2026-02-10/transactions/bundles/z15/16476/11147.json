@@ -1,0 +1,62 @@
+{
+  "56d263917353": {
+    "id": "56d263917353",
+    "label": "13 RTE DE LA VIENNE, Saint-Mards",
+    "lat": 49.759284,
+    "lng": 1.011989,
+    "transactions": [
+      {
+        "date": "2021-12-02",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "b82f65e7a86a": {
+    "id": "b82f65e7a86a",
+    "label": "15 RTE DE LA VIENNE, Saint-Mards",
+    "lat": 49.759593,
+    "lng": 1.012184,
+    "transactions": [
+      {
+        "date": "2021-08-01",
+        "priceEur": 259700,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e51788f5d6d": {
+    "id": "9e51788f5d6d",
+    "label": "14 RTE DE LA VIENNE, Saint-Mards",
+    "lat": 49.759142,
+    "lng": 1.012855,
+    "transactions": [
+      {
+        "date": "2022-05-25",
+        "priceEur": 96500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ce4a229d234": {
+    "id": "0ce4a229d234",
+    "label": "10B RTE DE LA VIENNE, Saint-Mards",
+    "lat": 49.758305,
+    "lng": 1.013429,
+    "transactions": [
+      {
+        "date": "2025-05-28",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  }
+}

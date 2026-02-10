@@ -1,0 +1,77 @@
+{
+  "4d61b59f17e7": {
+    "id": "4d61b59f17e7",
+    "label": "174 RUE DU PUITS, Bertrimont",
+    "lat": 49.667577,
+    "lng": 1.002642,
+    "transactions": [
+      {
+        "date": "2021-04-20",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "d746d5b17596": {
+    "id": "d746d5b17596",
+    "label": "162 RUE DU PUITS, Bertrimont",
+    "lat": 49.667287,
+    "lng": 1.002704,
+    "transactions": [
+      {
+        "date": "2023-11-14",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "779871841f57": {
+    "id": "779871841f57",
+    "label": "86 RUE DU PUITS, Bertrimont",
+    "lat": 49.667015,
+    "lng": 1.001937,
+    "transactions": [
+      {
+        "date": "2024-02-20",
+        "priceEur": 181000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "0513d6ccac5b": {
+    "id": "0513d6ccac5b",
+    "label": "158 RUE DU PUITS, Bertrimont",
+    "lat": 49.667353,
+    "lng": 1.002124,
+    "transactions": [
+      {
+        "date": "2024-08-02",
+        "priceEur": 129000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ae6a62a3409": {
+    "id": "2ae6a62a3409",
+    "label": "75 RUE DU PUITS, Bertrimont",
+    "lat": 49.66676,
+    "lng": 1.000901,
+    "transactions": [
+      {
+        "date": "2025-05-27",
+        "priceEur": 100691.25,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

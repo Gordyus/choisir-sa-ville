@@ -1,0 +1,32 @@
+{
+  "3942141cbf40": {
+    "id": "3942141cbf40",
+    "label": "5 IMP DE LA CHAMPAIGNE, Saint-Martin-aux-Buneaux",
+    "lat": 49.831439,
+    "lng": 0.564788,
+    "transactions": [
+      {
+        "date": "2024-09-23",
+        "priceEur": 10000,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e55d11cefd6": {
+    "id": "0e55d11cefd6",
+    "label": "16 RUE DE SEPTIMANVILLE, Saint-Martin-aux-Buneaux",
+    "lat": 49.831352,
+    "lng": 0.560747,
+    "transactions": [
+      {
+        "date": "2024-12-20",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

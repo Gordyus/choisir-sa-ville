@@ -1,0 +1,84 @@
+{
+  "9d73e0d3033e": {
+    "id": "9d73e0d3033e",
+    "label": "459 RTE DE CANDOS, Saint-Pierre-de-Varengeville",
+    "lat": 49.504631,
+    "lng": 0.935757,
+    "transactions": [
+      {
+        "date": "2020-12-23",
+        "priceEur": 304600,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "01a944c88c5c": {
+    "id": "01a944c88c5c",
+    "label": "303 RTE DES MAILLES, Saint-Pierre-de-Varengeville",
+    "lat": 49.505176,
+    "lng": 0.944555,
+    "transactions": [
+      {
+        "date": "2024-05-27",
+        "priceEur": 329000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-09",
+        "priceEur": 312050,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "9641b5d80df5": {
+    "id": "9641b5d80df5",
+    "label": "105 CHE DU HARIDON, Saint-Pierre-de-Varengeville",
+    "lat": 49.503838,
+    "lng": 0.940399,
+    "transactions": [
+      {
+        "date": "2022-10-06",
+        "priceEur": 287000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a7cbddd6c1e": {
+    "id": "9a7cbddd6c1e",
+    "label": "61 RTE DES MAILLES, Saint-Pierre-de-Varengeville",
+    "lat": 49.505074,
+    "lng": 0.94135,
+    "transactions": [
+      {
+        "date": "2023-01-12",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4388f87a744": {
+    "id": "b4388f87a744",
+    "label": "155 RTE DES MAILLES, Saint-Pierre-de-Varengeville",
+    "lat": 49.505226,
+    "lng": 0.942174,
+    "transactions": [
+      {
+        "date": "2025-04-11",
+        "priceEur": 394500,
+        "typeLocal": "Maison",
+        "surfaceM2": 192,
+        "isVefa": false
+      }
+    ]
+  }
+}

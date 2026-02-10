@@ -1,0 +1,872 @@
+{
+  "061013c44472": {
+    "id": "061013c44472",
+    "label": "5 RUE DE LA LAVANDE, Béziers",
+    "lat": 43.332304,
+    "lng": 3.246121,
+    "transactions": [
+      {
+        "date": "2020-07-17",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb8818a333fc": {
+    "id": "cb8818a333fc",
+    "label": "35 RUE DES GENETS, Béziers",
+    "lat": 43.331453,
+    "lng": 3.244579,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e01a934ba16": {
+    "id": "3e01a934ba16",
+    "label": "13 RUE DE COSTESEQUE, Béziers",
+    "lat": 43.327605,
+    "lng": 3.245769,
+    "transactions": [
+      {
+        "date": "2020-10-12",
+        "priceEur": 211000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e2d0ebf1ff4": {
+    "id": "8e2d0ebf1ff4",
+    "label": "105 RUE MAURICE BEJART, Béziers",
+    "lat": 43.33208,
+    "lng": 3.251748,
+    "transactions": [
+      {
+        "date": "2025-04-16",
+        "priceEur": 87000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-25",
+        "priceEur": 80000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-02",
+        "priceEur": 81400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-23",
+        "priceEur": 75000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-13",
+        "priceEur": 73200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-12",
+        "priceEur": 79800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-31",
+        "priceEur": 76000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-25",
+        "priceEur": 95000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-05",
+        "priceEur": 71000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-30",
+        "priceEur": 93000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-22",
+        "priceEur": 68250,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-13",
+        "priceEur": 72000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-25",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-14",
+        "priceEur": 66000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-23",
+        "priceEur": 58450,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-23",
+        "priceEur": 59400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-14",
+        "priceEur": 95000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-12",
+        "priceEur": 63000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-29",
+        "priceEur": 67000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-07",
+        "priceEur": 59950,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-03",
+        "priceEur": 78000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-19",
+        "priceEur": 65400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-30",
+        "priceEur": 78000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-24",
+        "priceEur": 68500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-16",
+        "priceEur": 59950,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-06",
+        "priceEur": 56000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-27",
+        "priceEur": 62000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-30",
+        "priceEur": 63430,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-24",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-10",
+        "priceEur": 58000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      }
+    ]
+  },
+  "47a4a440637b": {
+    "id": "47a4a440637b",
+    "label": "1 RUE DES SYCOMORES, Béziers",
+    "lat": 43.333105,
+    "lng": 3.241564,
+    "transactions": [
+      {
+        "date": "2020-11-03",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7f172c742c2": {
+    "id": "f7f172c742c2",
+    "label": "39 RUE DES GENETS, Béziers",
+    "lat": 43.331468,
+    "lng": 3.244304,
+    "transactions": [
+      {
+        "date": "2020-11-24",
+        "priceEur": 222000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "b60dbe33ce7b": {
+    "id": "b60dbe33ce7b",
+    "label": "6 IMP DES CHATAIGNIERS, Béziers",
+    "lat": 43.332786,
+    "lng": 3.242033,
+    "transactions": [
+      {
+        "date": "2020-12-15",
+        "priceEur": 360530,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "765dd274c064": {
+    "id": "765dd274c064",
+    "label": "5 RUE DES GENETS, Béziers",
+    "lat": 43.331518,
+    "lng": 3.246825,
+    "transactions": [
+      {
+        "date": "2021-01-20",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "0247d255f919": {
+    "id": "0247d255f919",
+    "label": "14 RUE DU THYM, Béziers",
+    "lat": 43.33201,
+    "lng": 3.245622,
+    "transactions": [
+      {
+        "date": "2021-02-11",
+        "priceEur": 133500,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "bfa36d2da8e3": {
+    "id": "bfa36d2da8e3",
+    "label": "21 RUE DE LA LAVANDE, Béziers",
+    "lat": 43.332348,
+    "lng": 3.244832,
+    "transactions": [
+      {
+        "date": "2021-03-08",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb89dffd9173": {
+    "id": "bb89dffd9173",
+    "label": "17 RUE DE LA LAVANDE, Béziers",
+    "lat": 43.332342,
+    "lng": 3.245033,
+    "transactions": [
+      {
+        "date": "2021-03-04",
+        "priceEur": 177000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f6bbfc2e643": {
+    "id": "9f6bbfc2e643",
+    "label": "7 IMP DES CHATAIGNIERS, Béziers",
+    "lat": 43.3326,
+    "lng": 3.241874,
+    "transactions": [
+      {
+        "date": "2021-03-22",
+        "priceEur": 318000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6100d65f940": {
+    "id": "c6100d65f940",
+    "label": "12 RUE DE COSTESEQUE, Béziers",
+    "lat": 43.328157,
+    "lng": 3.244982,
+    "transactions": [
+      {
+        "date": "2021-05-27",
+        "priceEur": 347850,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c3bdc75770e": {
+    "id": "9c3bdc75770e",
+    "label": "15 RUE DU REC D ARIEGES, Béziers",
+    "lat": 43.329512,
+    "lng": 3.246109,
+    "transactions": [
+      {
+        "date": "2023-08-30",
+        "priceEur": 311200,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-11",
+        "priceEur": 244200,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "36179b18ff17": {
+    "id": "36179b18ff17",
+    "label": "19 RUE DE CONSTANTINE, Béziers",
+    "lat": 43.332178,
+    "lng": 3.247303,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 223250,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "8da69c61b853": {
+    "id": "8da69c61b853",
+    "label": "23 RUE DE LA LAVANDE, Béziers",
+    "lat": 43.332322,
+    "lng": 3.244748,
+    "transactions": [
+      {
+        "date": "2021-07-02",
+        "priceEur": 144000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "97de79926fe8": {
+    "id": "97de79926fe8",
+    "label": "77 CR 53 MOULINS ST PIERRE BO, Béziers",
+    "lat": 43.326625,
+    "lng": 3.243178,
+    "transactions": [
+      {
+        "date": "2021-07-26",
+        "priceEur": 492000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e87cce40833": {
+    "id": "2e87cce40833",
+    "label": "21 RUE DE COSTESEQUE, Béziers",
+    "lat": 43.326973,
+    "lng": 3.246288,
+    "transactions": [
+      {
+        "date": "2021-08-06",
+        "priceEur": 279000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf22ce9ea825": {
+    "id": "bf22ce9ea825",
+    "label": "17 RUE DE SAINT BITOU, Béziers",
+    "lat": 43.329453,
+    "lng": 3.245559,
+    "transactions": [
+      {
+        "date": "2021-09-09",
+        "priceEur": 371000,
+        "typeLocal": "Maison",
+        "surfaceM2": 174,
+        "isVefa": false
+      }
+    ]
+  },
+  "e58900861028": {
+    "id": "e58900861028",
+    "label": "11 RUE DES GENETS, Béziers",
+    "lat": 43.331522,
+    "lng": 3.246423,
+    "transactions": [
+      {
+        "date": "2021-09-20",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "82bcce9e94db": {
+    "id": "82bcce9e94db",
+    "label": "55 RUE DES GENETS, Béziers",
+    "lat": 43.331519,
+    "lng": 3.243239,
+    "transactions": [
+      {
+        "date": "2021-10-19",
+        "priceEur": 344000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "5225611683fe": {
+    "id": "5225611683fe",
+    "label": "9023 RUE DES GRENADIERS, Béziers",
+    "lat": 43.332822,
+    "lng": 3.246919,
+    "transactions": [
+      {
+        "date": "2021-11-24",
+        "priceEur": 163800,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "56dff382156a": {
+    "id": "56dff382156a",
+    "label": "31 RUE DE LA LAVANDE, Béziers",
+    "lat": 43.332292,
+    "lng": 3.243603,
+    "transactions": [
+      {
+        "date": "2022-01-06",
+        "priceEur": 204000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "dc5c28222fe3": {
+    "id": "dc5c28222fe3",
+    "label": "9031 RTE D AGDE  D612B, Béziers",
+    "lat": 43.327489,
+    "lng": 3.244961,
+    "transactions": [
+      {
+        "date": "2022-01-28",
+        "priceEur": 159500,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "86006be66a97": {
+    "id": "86006be66a97",
+    "label": "18 RUE DE LA LAVANDE, Béziers",
+    "lat": 43.332585,
+    "lng": 3.245519,
+    "transactions": [
+      {
+        "date": "2022-01-31",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "cbffc1c46cc0": {
+    "id": "cbffc1c46cc0",
+    "label": "9025 RUE DES GRENADIERS, Béziers",
+    "lat": 43.332946,
+    "lng": 3.246701,
+    "transactions": [
+      {
+        "date": "2022-02-07",
+        "priceEur": 228390,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "37ee0f7c3b88": {
+    "id": "37ee0f7c3b88",
+    "label": "29 RUE DES GENETS, Béziers",
+    "lat": 43.331497,
+    "lng": 3.245182,
+    "transactions": [
+      {
+        "date": "2022-07-15",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "ab8229dc026b": {
+    "id": "ab8229dc026b",
+    "label": "7 RUE DES GENETS, Béziers",
+    "lat": 43.331516,
+    "lng": 3.246689,
+    "transactions": [
+      {
+        "date": "2022-08-11",
+        "priceEur": 299250,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "d86daed74e5a": {
+    "id": "d86daed74e5a",
+    "label": "11 RUE DE SAINT BITOU, Béziers",
+    "lat": 43.329413,
+    "lng": 3.244544,
+    "transactions": [
+      {
+        "date": "2022-08-22",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "a513637eeb0d": {
+    "id": "a513637eeb0d",
+    "label": "26 RUE DE COSTESEQUE, Béziers",
+    "lat": 43.326458,
+    "lng": 3.246296,
+    "transactions": [
+      {
+        "date": "2022-09-19",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "d7bbe2fee72a": {
+    "id": "d7bbe2fee72a",
+    "label": "38 RUE DU THYM, Béziers",
+    "lat": 43.331906,
+    "lng": 3.24394,
+    "transactions": [
+      {
+        "date": "2022-10-10",
+        "priceEur": 307925,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "57f4760cedc4": {
+    "id": "57f4760cedc4",
+    "label": "21 RUE DU REC D ARIEGES, Béziers",
+    "lat": 43.329192,
+    "lng": 3.247048,
+    "transactions": [
+      {
+        "date": "2022-10-12",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "f45ecc8a866e": {
+    "id": "f45ecc8a866e",
+    "label": "9043 RUE DES GRENADIERS, Béziers",
+    "lat": 43.332985,
+    "lng": 3.244059,
+    "transactions": [
+      {
+        "date": "2022-11-17",
+        "priceEur": 149580,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "42fa3ab9df8a": {
+    "id": "42fa3ab9df8a",
+    "label": "7 RUE DE LA JULIANE, Béziers",
+    "lat": 43.328027,
+    "lng": 3.244579,
+    "transactions": [
+      {
+        "date": "2023-01-17",
+        "priceEur": 323000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "720911b291cb": {
+    "id": "720911b291cb",
+    "label": "15 RUE DES GENETS, Béziers",
+    "lat": 43.331511,
+    "lng": 3.246149,
+    "transactions": [
+      {
+        "date": "2023-05-23",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "3afb61aa77fd": {
+    "id": "3afb61aa77fd",
+    "label": "281 CHE DE HALAGE, Béziers",
+    "lat": 43.325217,
+    "lng": 3.246082,
+    "transactions": [
+      {
+        "date": "2023-11-08",
+        "priceEur": 520000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "f39d2bd467a2": {
+    "id": "f39d2bd467a2",
+    "label": "43 RUE DES GRENADIERS, Béziers",
+    "lat": 43.332878,
+    "lng": 3.244059,
+    "transactions": [
+      {
+        "date": "2023-11-10",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "feb9642f1b45": {
+    "id": "feb9642f1b45",
+    "label": "8 RUE DE CONSTANTINE, Béziers",
+    "lat": 43.332444,
+    "lng": 3.247529,
+    "transactions": [
+      {
+        "date": "2024-10-23",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "4276d4e214fb": {
+    "id": "4276d4e214fb",
+    "label": "14 RUE DE COSTESEQUE, Béziers",
+    "lat": 43.32797,
+    "lng": 3.244954,
+    "transactions": [
+      {
+        "date": "2024-10-11",
+        "priceEur": 299000,
+        "typeLocal": "Maison",
+        "surfaceM2": 176,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a18a399a2b4": {
+    "id": "5a18a399a2b4",
+    "label": "10 RUE DE CONSTANTINE, Béziers",
+    "lat": 43.332673,
+    "lng": 3.247789,
+    "transactions": [
+      {
+        "date": "2025-01-06",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e094205e7d6": {
+    "id": "4e094205e7d6",
+    "label": "2 AV DU CAPISCOL, Béziers",
+    "lat": 43.328703,
+    "lng": 3.243811,
+    "transactions": [
+      {
+        "date": "2025-02-03",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "26e59ec12233": {
+    "id": "26e59ec12233",
+    "label": "14 RUE DE CONSTANTINE, Béziers",
+    "lat": 43.332277,
+    "lng": 3.248365,
+    "transactions": [
+      {
+        "date": "2025-02-06",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "59df61b8f131": {
+    "id": "59df61b8f131",
+    "label": "51 RUE DES GENETS, Béziers",
+    "lat": 43.331536,
+    "lng": 3.243495,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 175500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "40a2f560fd47": {
+    "id": "40a2f560fd47",
+    "label": "8 RUE DU THYM, Béziers",
+    "lat": 43.331838,
+    "lng": 3.245949,
+    "transactions": [
+      {
+        "date": "2025-05-14",
+        "priceEur": 195034,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  }
+}

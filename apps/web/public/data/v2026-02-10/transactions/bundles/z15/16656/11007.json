@@ -1,0 +1,32 @@
+{
+  "d63a9003a1b7": {
+    "id": "d63a9003a1b7",
+    "label": "1229 CHE DU HEL, Comines",
+    "lat": 50.741817,
+    "lng": 2.994863,
+    "transactions": [
+      {
+        "date": "2022-04-01",
+        "priceEur": 304000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d2a80f4aa96": {
+    "id": "5d2a80f4aa96",
+    "label": "1257 CHE DU HEL, Comines",
+    "lat": 50.741752,
+    "lng": 2.994965,
+    "transactions": [
+      {
+        "date": "2022-06-15",
+        "priceEur": 272400,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "350b1b327632": {
+    "id": "350b1b327632",
+    "label": "1 CHE DE LA SAPINIERE, Marcq-en-Barœul",
+    "lat": 50.702947,
+    "lng": 3.112179,
+    "transactions": [
+      {
+        "date": "2024-11-18",
+        "priceEur": 603000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "c25d3c75460f": {
+    "id": "c25d3c75460f",
+    "label": "14 CHE DE GHESLES, Marcq-en-Barœul",
+    "lat": 50.702341,
+    "lng": 3.111845,
+    "transactions": [
+      {
+        "date": "2025-06-30",
+        "priceEur": 2387050,
+        "typeLocal": "Maison",
+        "surfaceM2": 302,
+        "isVefa": false
+      },
+      {
+        "date": "2025-06-30",
+        "priceEur": 2387050,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  }
+}

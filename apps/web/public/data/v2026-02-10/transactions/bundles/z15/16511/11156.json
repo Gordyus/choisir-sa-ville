@@ -1,0 +1,62 @@
+{
+  "a11a6cb6e053": {
+    "id": "a11a6cb6e053",
+    "label": "33 LE BOURG, Massy",
+    "lat": 49.690496,
+    "lng": 1.397852,
+    "transactions": [
+      {
+        "date": "2021-09-18",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb6447934f2e": {
+    "id": "fb6447934f2e",
+    "label": "48A RTE DE NEUFCHATEL, Massy",
+    "lat": 49.695427,
+    "lng": 1.404424,
+    "transactions": [
+      {
+        "date": "2023-05-15",
+        "priceEur": 146500,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "913547bb81b3": {
+    "id": "913547bb81b3",
+    "label": "5023 LE BOURG, Massy",
+    "lat": 49.689293,
+    "lng": 1.398172,
+    "transactions": [
+      {
+        "date": "2023-08-01",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "31c871ae5e5c": {
+    "id": "31c871ae5e5c",
+    "label": "3 CHE DU LAVOIR, Massy",
+    "lat": 49.689821,
+    "lng": 1.399478,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

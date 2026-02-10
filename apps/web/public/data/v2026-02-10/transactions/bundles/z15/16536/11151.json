@@ -1,0 +1,54 @@
+{
+  "72d730d50f68": {
+    "id": "72d730d50f68",
+    "label": "87 RTE DE LA VIEILLE COTE, Haudricourt",
+    "lat": 49.729959,
+    "lng": 1.680591,
+    "transactions": [
+      {
+        "date": "2022-08-12",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e923b8c5da3": {
+    "id": "3e923b8c5da3",
+    "label": "437 RTE DE LA VIEILLE COTE, Haudricourt",
+    "lat": 49.728786,
+    "lng": 1.675479,
+    "transactions": [
+      {
+        "date": "2024-11-13",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-28",
+        "priceEur": 128500,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "765c338f38a9": {
+    "id": "765c338f38a9",
+    "label": "897 RTE DE LA VIEILLE COTE, Haudricourt",
+    "lat": 49.728421,
+    "lng": 1.673317,
+    "transactions": [
+      {
+        "date": "2024-07-06",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  }
+}

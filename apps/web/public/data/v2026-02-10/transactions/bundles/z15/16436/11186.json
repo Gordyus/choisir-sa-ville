@@ -1,0 +1,47 @@
+{
+  "d21e0d9d3cf7": {
+    "id": "d21e0d9d3cf7",
+    "label": "6 ALL HECTOR MALOT, Port-Jérôme-sur-Seine",
+    "lat": 49.480853,
+    "lng": 0.573921,
+    "transactions": [
+      {
+        "date": "2020-07-24",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "aea58b0ddde0": {
+    "id": "aea58b0ddde0",
+    "label": "40 RUE HENRI DUNANT, Port-Jérôme-sur-Seine",
+    "lat": 49.481062,
+    "lng": 0.572361,
+    "transactions": [
+      {
+        "date": "2023-06-15",
+        "priceEur": 168500,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "f66d559c18ea": {
+    "id": "f66d559c18ea",
+    "label": "1 ALL HECTOR MALOT, Port-Jérôme-sur-Seine",
+    "lat": 49.481016,
+    "lng": 0.5731,
+    "transactions": [
+      {
+        "date": "2023-10-13",
+        "priceEur": 191000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  }
+}

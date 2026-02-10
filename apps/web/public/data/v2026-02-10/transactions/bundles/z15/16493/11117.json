@@ -1,0 +1,615 @@
+{
+  "93bbf25675b7": {
+    "id": "93bbf25675b7",
+    "label": "5152 RUE DU RAVIN, Petit-Caux",
+    "lat": 49.967854,
+    "lng": 1.200887,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "c761adcc7ad1": {
+    "id": "c761adcc7ad1",
+    "label": "5114 RUE DES ALBATROS, Petit-Caux",
+    "lat": 49.966604,
+    "lng": 1.201982,
+    "transactions": [
+      {
+        "date": "2020-09-01",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "e4ef3a2c8130": {
+    "id": "e4ef3a2c8130",
+    "label": "6 RUE DES PETRELS, Petit-Caux",
+    "lat": 49.967392,
+    "lng": 1.20232,
+    "transactions": [
+      {
+        "date": "2020-11-05",
+        "priceEur": 208000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "875ae9ae142b": {
+    "id": "875ae9ae142b",
+    "label": "5094 RUE DU COTEAU ST MARTIN, Petit-Caux",
+    "lat": 49.966212,
+    "lng": 1.198069,
+    "transactions": [
+      {
+        "date": "2020-09-17",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d7005191ab7": {
+    "id": "7d7005191ab7",
+    "label": "10 RUE DU 19 AOUT 1942, Petit-Caux",
+    "lat": 49.966914,
+    "lng": 1.205271,
+    "transactions": [
+      {
+        "date": "2020-11-20",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "186a99a15011": {
+    "id": "186a99a15011",
+    "label": "5176 RTE DE VASSONVILLE, Petit-Caux",
+    "lat": 49.967408,
+    "lng": 1.19821,
+    "transactions": [
+      {
+        "date": "2020-11-24",
+        "priceEur": 101000,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  },
+  "7130f8565be3": {
+    "id": "7130f8565be3",
+    "label": "7 RUE DU 19 AOUT 1942, Petit-Caux",
+    "lat": 49.967351,
+    "lng": 1.205821,
+    "transactions": [
+      {
+        "date": "2020-12-22",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "e95a5752829c": {
+    "id": "e95a5752829c",
+    "label": "5183 RUE MARIE ALEXIS ST MARTIN, Petit-Caux",
+    "lat": 49.967683,
+    "lng": 1.197804,
+    "transactions": [
+      {
+        "date": "2025-04-22",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-29",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "56342677631c": {
+    "id": "56342677631c",
+    "label": "5441 HAM DU PETIT BERNEVAL ST M, Petit-Caux",
+    "lat": 49.966556,
+    "lng": 1.202183,
+    "transactions": [
+      {
+        "date": "2021-11-08",
+        "priceEur": 191489,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "91e6ac17e873": {
+    "id": "91e6ac17e873",
+    "label": "5321 RUE DES ALBATROS, Petit-Caux",
+    "lat": 49.966818,
+    "lng": 1.202973,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 254000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "f13f5691daa5": {
+    "id": "f13f5691daa5",
+    "label": "5253 LE MONT DE VASSONVILLE, Petit-Caux",
+    "lat": 49.967456,
+    "lng": 1.208392,
+    "transactions": [
+      {
+        "date": "2021-02-11",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "79048a3fec65": {
+    "id": "79048a3fec65",
+    "label": "5325 RUE DES GREBES, Petit-Caux",
+    "lat": 49.966893,
+    "lng": 1.203611,
+    "transactions": [
+      {
+        "date": "2021-03-11",
+        "priceEur": 134000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ae36e7e691b": {
+    "id": "7ae36e7e691b",
+    "label": "5085 RUE DU COTEAU ST MARTIN, Petit-Caux",
+    "lat": 49.966401,
+    "lng": 1.199337,
+    "transactions": [
+      {
+        "date": "2023-06-16",
+        "priceEur": 332500,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-17",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee71ebb239bf": {
+    "id": "ee71ebb239bf",
+    "label": "5120 RUE DES GREBES, Petit-Caux",
+    "lat": 49.966788,
+    "lng": 1.20367,
+    "transactions": [
+      {
+        "date": "2021-06-17",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a663e234931": {
+    "id": "1a663e234931",
+    "label": "5110 RUE DE VASSONVILLE, Petit-Caux",
+    "lat": 49.966828,
+    "lng": 1.200304,
+    "transactions": [
+      {
+        "date": "2021-07-12",
+        "priceEur": 216550,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a7db2725c0f": {
+    "id": "3a7db2725c0f",
+    "label": "6 RUE DU 19 AOUT 1942, Petit-Caux",
+    "lat": 49.967097,
+    "lng": 1.204936,
+    "transactions": [
+      {
+        "date": "2021-08-10",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad36907f4c85": {
+    "id": "ad36907f4c85",
+    "label": "28 RUE DU 19 AOUT 1942, Petit-Caux",
+    "lat": 49.966049,
+    "lng": 1.207077,
+    "transactions": [
+      {
+        "date": "2022-02-24",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "74e632e6ab0a": {
+    "id": "74e632e6ab0a",
+    "label": "21 RUE DU COTEAU ST MARTIN, Petit-Caux",
+    "lat": 49.966622,
+    "lng": 1.200022,
+    "transactions": [
+      {
+        "date": "2022-09-28",
+        "priceEur": 292000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "5cb5ef89394b": {
+    "id": "5cb5ef89394b",
+    "label": "7 RUE DES FALAISES, Petit-Caux",
+    "lat": 49.967882,
+    "lng": 1.203737,
+    "transactions": [
+      {
+        "date": "2022-12-03",
+        "priceEur": 95818,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ff2c9d42cab": {
+    "id": "1ff2c9d42cab",
+    "label": "5185 RUE MARIE ALEXIS ST MARTIN, Petit-Caux",
+    "lat": 49.967441,
+    "lng": 1.197588,
+    "transactions": [
+      {
+        "date": "2024-09-13",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-16",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "03cd92ef1d68": {
+    "id": "03cd92ef1d68",
+    "label": "5162 HAM DU PETIT BERNEVAL ST M, Petit-Caux",
+    "lat": 49.967966,
+    "lng": 1.199577,
+    "transactions": [
+      {
+        "date": "2023-04-17",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "d1782c6ef500": {
+    "id": "d1782c6ef500",
+    "label": "5065C LE VAL DE L EGLISE, Petit-Caux",
+    "lat": 49.966188,
+    "lng": 1.206821,
+    "transactions": [
+      {
+        "date": "2023-04-03",
+        "priceEur": 56000,
+        "typeLocal": "Maison",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-03",
+        "priceEur": 56000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9de6956a9e8": {
+    "id": "c9de6956a9e8",
+    "label": "5345 RUE DES CANARDS SAUVAGES, Petit-Caux",
+    "lat": 49.967635,
+    "lng": 1.20154,
+    "transactions": [
+      {
+        "date": "2023-05-04",
+        "priceEur": 159254,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "df801616c3a7": {
+    "id": "df801616c3a7",
+    "label": "56 RUE DES FALAISES, Petit-Caux",
+    "lat": 49.96915,
+    "lng": 1.199209,
+    "transactions": [
+      {
+        "date": "2023-07-05",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "3bc50b3af8b1": {
+    "id": "3bc50b3af8b1",
+    "label": "14 RUE DES ALBATROS, Petit-Caux",
+    "lat": 49.9664,
+    "lng": 1.203485,
+    "transactions": [
+      {
+        "date": "2023-07-25",
+        "priceEur": 112500,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "1898e98891c7": {
+    "id": "1898e98891c7",
+    "label": "5232 RUE DES FALAISES, Petit-Caux",
+    "lat": 49.969123,
+    "lng": 1.199641,
+    "transactions": [
+      {
+        "date": "2023-09-11",
+        "priceEur": 185150,
+        "typeLocal": "Maison",
+        "surfaceM2": 37,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ebe8f117492": {
+    "id": "1ebe8f117492",
+    "label": "5182 RUE MARIE ALEXIS ST MARTIN, Petit-Caux",
+    "lat": 49.967831,
+    "lng": 1.197931,
+    "transactions": [
+      {
+        "date": "2023-10-17",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 157,
+        "isVefa": false
+      }
+    ]
+  },
+  "46c5610bc320": {
+    "id": "46c5610bc320",
+    "label": "5178 RUE DE LA PLAGE, Petit-Caux",
+    "lat": 49.967791,
+    "lng": 1.198389,
+    "transactions": [
+      {
+        "date": "2023-12-18",
+        "priceEur": 132499,
+        "typeLocal": "Maison",
+        "surfaceM2": 28,
+        "isVefa": false
+      }
+    ]
+  },
+  "8523a3f26184": {
+    "id": "8523a3f26184",
+    "label": "5115 RUE DES MOUETTES, Petit-Caux",
+    "lat": 49.966277,
+    "lng": 1.2031,
+    "transactions": [
+      {
+        "date": "2024-06-10",
+        "priceEur": 89000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "5321d22c8485": {
+    "id": "5321d22c8485",
+    "label": "5108 VASSONVILLE HAMEAU, Petit-Caux",
+    "lat": 49.967004,
+    "lng": 1.199394,
+    "transactions": [
+      {
+        "date": "2024-05-31",
+        "priceEur": 153000,
+        "typeLocal": "Maison",
+        "surfaceM2": 37,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9ec3bfe5b6b": {
+    "id": "c9ec3bfe5b6b",
+    "label": "5361 LE MONT DE VASSONVILLE, Petit-Caux",
+    "lat": 49.967746,
+    "lng": 1.205492,
+    "transactions": [
+      {
+        "date": "2024-09-13",
+        "priceEur": 131655,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "55a64e4c3761": {
+    "id": "55a64e4c3761",
+    "label": "5107 VASSONVILLE HAMEAU, Petit-Caux",
+    "lat": 49.967078,
+    "lng": 1.19903,
+    "transactions": [
+      {
+        "date": "2024-09-26",
+        "priceEur": 158200,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c986d09ccd6": {
+    "id": "8c986d09ccd6",
+    "label": "12 RUE DES CANARDS SAUVAGES, Petit-Caux",
+    "lat": 49.967239,
+    "lng": 1.201394,
+    "transactions": [
+      {
+        "date": "2024-09-27",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "591581318c8c": {
+    "id": "591581318c8c",
+    "label": "5118 RUE DES ALBATROS, Petit-Caux",
+    "lat": 49.966395,
+    "lng": 1.2032,
+    "transactions": [
+      {
+        "date": "2024-10-01",
+        "priceEur": 54720,
+        "typeLocal": "Maison",
+        "surfaceM2": 21,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee28f239550e": {
+    "id": "ee28f239550e",
+    "label": "5251 RUE DE VASSONVILLE, Petit-Caux",
+    "lat": 49.96755,
+    "lng": 1.207328,
+    "transactions": [
+      {
+        "date": "2024-10-25",
+        "priceEur": 201000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "6977eeeacfac": {
+    "id": "6977eeeacfac",
+    "label": "5205 RUE DU RAVIN, Petit-Caux",
+    "lat": 49.968295,
+    "lng": 1.199266,
+    "transactions": [
+      {
+        "date": "2024-12-19",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "6f4ec75bcece": {
+    "id": "6f4ec75bcece",
+    "label": "9 RUE DU 19 AOUT 1942, Petit-Caux",
+    "lat": 49.967145,
+    "lng": 1.206117,
+    "transactions": [
+      {
+        "date": "2025-01-16",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d609af1ca9f": {
+    "id": "7d609af1ca9f",
+    "label": "5472 HAM DU PETIT BERNEVAL ST M, Petit-Caux",
+    "lat": 49.966266,
+    "lng": 1.202102,
+    "transactions": [
+      {
+        "date": "2025-03-07",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "4149e869432b": {
+    "id": "4149e869432b",
+    "label": "5263 LE FOND DE TILLEVAL, Petit-Caux",
+    "lat": 49.967154,
+    "lng": 1.207998,
+    "transactions": [
+      {
+        "date": "2025-06-20",
+        "priceEur": 181000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  }
+}

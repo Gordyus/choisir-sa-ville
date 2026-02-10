@@ -1,0 +1,77 @@
+{
+  "fd5cfb4ed970": {
+    "id": "fd5cfb4ed970",
+    "label": "5233 RUE DE LA MITROUILLE, Blaringhem",
+    "lat": 50.699542,
+    "lng": 2.403449,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 143500,
+        "typeLocal": "Maison",
+        "surfaceM2": 198,
+        "isVefa": false
+      }
+    ]
+  },
+  "aab56f47d67a": {
+    "id": "aab56f47d67a",
+    "label": "545 RUE DE LA MITROUILLE, Blaringhem",
+    "lat": 50.698175,
+    "lng": 2.405697,
+    "transactions": [
+      {
+        "date": "2022-01-20",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "36694d4747c1": {
+    "id": "36694d4747c1",
+    "label": "292 RUE DE LA MITROUILLE, Blaringhem",
+    "lat": 50.695823,
+    "lng": 2.404538,
+    "transactions": [
+      {
+        "date": "2022-07-18",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "caf672850741": {
+    "id": "caf672850741",
+    "label": "134 IMP DU HAMELET, Blaringhem",
+    "lat": 50.698775,
+    "lng": 2.398235,
+    "transactions": [
+      {
+        "date": "2022-10-21",
+        "priceEur": 220700,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "408605d2aa88": {
+    "id": "408605d2aa88",
+    "label": "860 RUE ANDRE WOETS, Blaringhem",
+    "lat": 50.70017,
+    "lng": 2.395818,
+    "transactions": [
+      {
+        "date": "2024-07-19",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

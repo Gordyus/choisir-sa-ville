@@ -1,0 +1,84 @@
+{
+  "26cccf2a74d9": {
+    "id": "26cccf2a74d9",
+    "label": "5155 LE VILLAGE, Sassetot-le-Mauconduit",
+    "lat": 49.802069,
+    "lng": 0.527074,
+    "transactions": [
+      {
+        "date": "2024-02-28",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "75f14c44f93d": {
+    "id": "75f14c44f93d",
+    "label": "2A COTE DES ROULETTES, Sassetot-le-Mauconduit",
+    "lat": 49.799939,
+    "lng": 0.526795,
+    "transactions": [
+      {
+        "date": "2024-03-27",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2024-03-27",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f047d1f1e75": {
+    "id": "1f047d1f1e75",
+    "label": "5023 FONDS DU HETRE, Sassetot-le-Mauconduit",
+    "lat": 49.797923,
+    "lng": 0.524767,
+    "transactions": [
+      {
+        "date": "2024-04-22",
+        "priceEur": 103885,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "af32e14520b7": {
+    "id": "af32e14520b7",
+    "label": "2B COTE DES ROULETTES, Sassetot-le-Mauconduit",
+    "lat": 49.799927,
+    "lng": 0.527023,
+    "transactions": [
+      {
+        "date": "2024-08-12",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ead32466d63": {
+    "id": "7ead32466d63",
+    "label": "17 RUE ABBE LEMAITRE, Sassetot-le-Mauconduit",
+    "lat": 49.802375,
+    "lng": 0.526831,
+    "transactions": [
+      {
+        "date": "2025-01-10",
+        "priceEur": 355000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

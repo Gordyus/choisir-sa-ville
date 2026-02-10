@@ -1,0 +1,32 @@
+{
+  "65abb8ffe893": {
+    "id": "65abb8ffe893",
+    "label": "5010 LE BOURG, Sainte-Geneviève",
+    "lat": 49.653348,
+    "lng": 1.433164,
+    "transactions": [
+      {
+        "date": "2022-11-02",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "f212dee69e2d": {
+    "id": "f212dee69e2d",
+    "label": "391 RTE DE L'EGLISE, Sainte-Geneviève",
+    "lat": 49.653245,
+    "lng": 1.432979,
+    "transactions": [
+      {
+        "date": "2024-11-05",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  }
+}

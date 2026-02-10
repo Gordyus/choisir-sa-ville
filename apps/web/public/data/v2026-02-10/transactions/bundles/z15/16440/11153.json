@@ -1,0 +1,32 @@
+{
+  "908694669635": {
+    "id": "908694669635",
+    "label": "94 SEN DES PERELLES, Beuzeville-la-Guérard",
+    "lat": 49.716028,
+    "lng": 0.615566,
+    "transactions": [
+      {
+        "date": "2020-07-17",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e7d1907907d": {
+    "id": "2e7d1907907d",
+    "label": "75 LE VILLAGE, Beuzeville-la-Guérard",
+    "lat": 49.713464,
+    "lng": 0.617826,
+    "transactions": [
+      {
+        "date": "2025-03-28",
+        "priceEur": 178350,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

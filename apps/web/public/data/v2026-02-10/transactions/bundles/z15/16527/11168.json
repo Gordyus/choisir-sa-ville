@@ -1,0 +1,47 @@
+{
+  "f9d5c1c422af": {
+    "id": "f9d5c1c422af",
+    "label": "5013 LE POINT DU JOUR, Forges-les-Eaux",
+    "lat": 49.609966,
+    "lng": 1.576812,
+    "transactions": [
+      {
+        "date": "2020-09-21",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "eba65712e45d": {
+    "id": "eba65712e45d",
+    "label": "5020 LE POINT DU JOUR, Forges-les-Eaux",
+    "lat": 49.609944,
+    "lng": 1.57813,
+    "transactions": [
+      {
+        "date": "2021-03-02",
+        "priceEur": 168500,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "5748de7deae0": {
+    "id": "5748de7deae0",
+    "label": "38 IMP DE LA MARE ANSON, Forges-les-Eaux",
+    "lat": 49.604057,
+    "lng": 1.571703,
+    "transactions": [
+      {
+        "date": "2024-11-06",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "f23a2b25cace": {
+    "id": "f23a2b25cace",
+    "label": "25 RUE DE LA RAPERIE, Mœuvres",
+    "lat": 50.155913,
+    "lng": 3.06559,
+    "transactions": [
+      {
+        "date": "2021-07-02",
+        "priceEur": 174900,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "33133ce9410a": {
+    "id": "33133ce9410a",
+    "label": "19 RUE DE LA RAPERIE, Mœuvres",
+    "lat": 50.156576,
+    "lng": 3.065397,
+    "transactions": [
+      {
+        "date": "2024-12-09",
+        "priceEur": 273000,
+        "typeLocal": "Maison",
+        "surfaceM2": 166,
+        "isVefa": false
+      }
+    ]
+  }
+}

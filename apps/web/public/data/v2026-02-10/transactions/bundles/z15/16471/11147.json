@@ -1,0 +1,32 @@
+{
+  "53f5b00c99f2": {
+    "id": "53f5b00c99f2",
+    "label": "41 LOT COMMUNAL, Saint-Ouen-le-Mauger",
+    "lat": 49.757169,
+    "lng": 0.960288,
+    "transactions": [
+      {
+        "date": "2021-01-25",
+        "priceEur": 181000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d16d9e8d716": {
+    "id": "7d16d9e8d716",
+    "label": "55 RTE DU BOIS SEIGNEUR, Saint-Ouen-le-Mauger",
+    "lat": 49.759579,
+    "lng": 0.962147,
+    "transactions": [
+      {
+        "date": "2025-03-12",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  }
+}

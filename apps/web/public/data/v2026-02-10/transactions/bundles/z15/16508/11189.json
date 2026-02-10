@@ -1,0 +1,54 @@
+{
+  "ddaf9bdb87ce": {
+    "id": "ddaf9bdb87ce",
+    "label": "350 RTE DE LA VALLEE, Saint-Denis-le-Thiboult",
+    "lat": 49.457763,
+    "lng": 1.365007,
+    "transactions": [
+      {
+        "date": "2022-08-17",
+        "priceEur": 63000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "0af23b0532fa": {
+    "id": "0af23b0532fa",
+    "label": "75 CHE DE LA MESSE, Saint-Denis-le-Thiboult",
+    "lat": 49.460884,
+    "lng": 1.362866,
+    "transactions": [
+      {
+        "date": "2023-01-30",
+        "priceEur": 194700,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a5c33c4bbdb": {
+    "id": "2a5c33c4bbdb",
+    "label": "5022 SAINT DENIS VILLAGE, Saint-Denis-le-Thiboult",
+    "lat": 49.455739,
+    "lng": 1.362649,
+    "transactions": [
+      {
+        "date": "2023-12-04",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-04",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

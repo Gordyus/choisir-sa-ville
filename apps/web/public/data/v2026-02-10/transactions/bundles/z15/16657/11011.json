@@ -1,0 +1,1358 @@
+{
+  "52d49623aed6": {
+    "id": "52d49623aed6",
+    "label": "42 RUE BELLE CROIX, Quesnoy-sur-Deûle",
+    "lat": 50.712571,
+    "lng": 2.999657,
+    "transactions": [
+      {
+        "date": "2020-07-17",
+        "priceEur": 239000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "8adea02e063d": {
+    "id": "8adea02e063d",
+    "label": "25 RUE GEORGES CLEMENCEAU, Quesnoy-sur-Deûle",
+    "lat": 50.710249,
+    "lng": 3.004293,
+    "transactions": [
+      {
+        "date": "2020-07-21",
+        "priceEur": 277500,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "085dff78d001": {
+    "id": "085dff78d001",
+    "label": "13 RUE SAINT VINCENT, Quesnoy-sur-Deûle",
+    "lat": 50.712532,
+    "lng": 3.002756,
+    "transactions": [
+      {
+        "date": "2020-07-09",
+        "priceEur": 202700,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "5340bb515488": {
+    "id": "5340bb515488",
+    "label": "118 RUE DU MARECHAL FOCH, Quesnoy-sur-Deûle",
+    "lat": 50.709786,
+    "lng": 3.007874,
+    "transactions": [
+      {
+        "date": "2020-07-07",
+        "priceEur": 151000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "d08038944262": {
+    "id": "d08038944262",
+    "label": "5 PL DU GEN DE GAULLE, Quesnoy-sur-Deûle",
+    "lat": 50.711953,
+    "lng": 3.001628,
+    "transactions": [
+      {
+        "date": "2020-07-20",
+        "priceEur": 194850,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "6394bf5814d1": {
+    "id": "6394bf5814d1",
+    "label": "24 RUE DU MARECHAL FOCH, Quesnoy-sur-Deûle",
+    "lat": 50.711809,
+    "lng": 3.0018,
+    "transactions": [
+      {
+        "date": "2020-10-08",
+        "priceEur": 281000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "62b88d0eb64d": {
+    "id": "62b88d0eb64d",
+    "label": "56 RUE SAINT VINCENT, Quesnoy-sur-Deûle",
+    "lat": 50.713124,
+    "lng": 3.003982,
+    "transactions": [
+      {
+        "date": "2020-10-19",
+        "priceEur": 244800,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "d37befbadb04": {
+    "id": "d37befbadb04",
+    "label": "32 RUE BELLE CROIX, Quesnoy-sur-Deûle",
+    "lat": 50.712286,
+    "lng": 2.999328,
+    "transactions": [
+      {
+        "date": "2025-01-21",
+        "priceEur": 356000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-16",
+        "priceEur": 303000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "04d006f3a751": {
+    "id": "04d006f3a751",
+    "label": "50 ALL DES ETREINDELLES, Quesnoy-sur-Deûle",
+    "lat": 50.710598,
+    "lng": 3.003304,
+    "transactions": [
+      {
+        "date": "2021-01-08",
+        "priceEur": 535500,
+        "typeLocal": "Maison",
+        "surfaceM2": 196,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a3115c399d7": {
+    "id": "6a3115c399d7",
+    "label": "21 RUE GEORGES CLEMENCEAU, Quesnoy-sur-Deûle",
+    "lat": 50.71017,
+    "lng": 3.004505,
+    "transactions": [
+      {
+        "date": "2021-01-04",
+        "priceEur": 269000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "f32803ec4930": {
+    "id": "f32803ec4930",
+    "label": "20 RUE DU GENERAL KOENIG, Quesnoy-sur-Deûle",
+    "lat": 50.711333,
+    "lng": 2.999328,
+    "transactions": [
+      {
+        "date": "2021-01-28",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "81e70b09b9f5": {
+    "id": "81e70b09b9f5",
+    "label": "3 RUE DU MARECHAL JOFFRE, Quesnoy-sur-Deûle",
+    "lat": 50.713196,
+    "lng": 3.001891,
+    "transactions": [
+      {
+        "date": "2025-03-13",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-21",
+        "priceEur": 215000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "16db04a572d1": {
+    "id": "16db04a572d1",
+    "label": "11 RUE DE COMINES, Quesnoy-sur-Deûle",
+    "lat": 50.71386,
+    "lng": 2.999483,
+    "transactions": [
+      {
+        "date": "2021-03-22",
+        "priceEur": 214000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc58956aa130": {
+    "id": "cc58956aa130",
+    "label": "140 CHE DU GRD MEURCHIN, Quesnoy-sur-Deûle",
+    "lat": 50.711522,
+    "lng": 3.005406,
+    "transactions": [
+      {
+        "date": "2021-04-16",
+        "priceEur": 157500,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "de3631e67471": {
+    "id": "de3631e67471",
+    "label": "47 RUE DE LA PAIX, Quesnoy-sur-Deûle",
+    "lat": 50.715338,
+    "lng": 3.007315,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 273500,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "5be707a07e55": {
+    "id": "5be707a07e55",
+    "label": "7 PL DU GEN DE GAULLE, Quesnoy-sur-Deûle",
+    "lat": 50.711936,
+    "lng": 3.001554,
+    "transactions": [
+      {
+        "date": "2021-07-05",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "c906242a22d8": {
+    "id": "c906242a22d8",
+    "label": "48 RUE DE COMINES, Quesnoy-sur-Deûle",
+    "lat": 50.714997,
+    "lng": 3.00205,
+    "transactions": [
+      {
+        "date": "2021-07-06",
+        "priceEur": 239000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c3585f6d971": {
+    "id": "8c3585f6d971",
+    "label": "58 RUE DU MARECHAL FOCH, Quesnoy-sur-Deûle",
+    "lat": 50.710915,
+    "lng": 3.005169,
+    "transactions": [
+      {
+        "date": "2021-07-12",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "b59884784201": {
+    "id": "b59884784201",
+    "label": "69 RUE DE LA PAIX, Quesnoy-sur-Deûle",
+    "lat": 50.715194,
+    "lng": 3.008762,
+    "transactions": [
+      {
+        "date": "2021-08-24",
+        "priceEur": 401615,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "41d040e28229": {
+    "id": "41d040e28229",
+    "label": "43 RUE DU MARECHAL FOCH, Quesnoy-sur-Deûle",
+    "lat": 50.711726,
+    "lng": 3.003408,
+    "transactions": [
+      {
+        "date": "2021-08-20",
+        "priceEur": 272000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a864dc159a3": {
+    "id": "4a864dc159a3",
+    "label": "212 CHE DU GRD MEURCHIN, Quesnoy-sur-Deûle",
+    "lat": 50.711739,
+    "lng": 3.007461,
+    "transactions": [
+      {
+        "date": "2021-09-08",
+        "priceEur": 762500,
+        "typeLocal": "Maison",
+        "surfaceM2": 208,
+        "isVefa": false
+      }
+    ]
+  },
+  "1806179c0356": {
+    "id": "1806179c0356",
+    "label": "61 RUE DU MARECHAL FOCH, Quesnoy-sur-Deûle",
+    "lat": 50.711503,
+    "lng": 3.005112,
+    "transactions": [
+      {
+        "date": "2021-09-16",
+        "priceEur": 204800,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "838090a8ebf7": {
+    "id": "838090a8ebf7",
+    "label": "54 RUE SAINT VINCENT, Quesnoy-sur-Deûle",
+    "lat": 50.71307,
+    "lng": 3.003931,
+    "transactions": [
+      {
+        "date": "2021-10-22",
+        "priceEur": 216000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "d38f219e33f5": {
+    "id": "d38f219e33f5",
+    "label": "56T RUE DU MARECHAL FOCH, Quesnoy-sur-Deûle",
+    "lat": 50.710911,
+    "lng": 3.005029,
+    "transactions": [
+      {
+        "date": "2021-11-04",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 177,
+        "isVefa": false
+      }
+    ]
+  },
+  "573420fb3622": {
+    "id": "573420fb3622",
+    "label": "8 RUE DU CHENE, Quesnoy-sur-Deûle",
+    "lat": 50.713613,
+    "lng": 3.008623,
+    "transactions": [
+      {
+        "date": "2021-11-09",
+        "priceEur": 470000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "d732baf0ab52": {
+    "id": "d732baf0ab52",
+    "label": "28 ALL DE LA ROSEBECK, Quesnoy-sur-Deûle",
+    "lat": 50.715094,
+    "lng": 2.999384,
+    "transactions": [
+      {
+        "date": "2021-11-30",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "65c69eb9f8f2": {
+    "id": "65c69eb9f8f2",
+    "label": "22 RUE DE COMINES, Quesnoy-sur-Deûle",
+    "lat": 50.71361,
+    "lng": 3.000076,
+    "transactions": [
+      {
+        "date": "2024-04-25",
+        "priceEur": 237920,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-29",
+        "priceEur": 173000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "972d0b57a0c9": {
+    "id": "972d0b57a0c9",
+    "label": "5 ALL DES ACACIAS, Quesnoy-sur-Deûle",
+    "lat": 50.714499,
+    "lng": 3.005947,
+    "transactions": [
+      {
+        "date": "2021-12-29",
+        "priceEur": 281400,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "c1406e7a7639": {
+    "id": "c1406e7a7639",
+    "label": "63 RUE DE LA PAIX, Quesnoy-sur-Deûle",
+    "lat": 50.715415,
+    "lng": 3.008354,
+    "transactions": [
+      {
+        "date": "2022-01-24",
+        "priceEur": 327000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "85803cf6f1d9": {
+    "id": "85803cf6f1d9",
+    "label": "41 RUE DE LA PAIX, Quesnoy-sur-Deûle",
+    "lat": 50.715039,
+    "lng": 3.007104,
+    "transactions": [
+      {
+        "date": "2022-02-15",
+        "priceEur": 320720,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "5327917fbcbb": {
+    "id": "5327917fbcbb",
+    "label": "3 RUE DE WARNETON, Quesnoy-sur-Deûle",
+    "lat": 50.713011,
+    "lng": 2.999404,
+    "transactions": [
+      {
+        "date": "2022-02-15",
+        "priceEur": 244000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "de6a7c89a578": {
+    "id": "de6a7c89a578",
+    "label": "16 ALL DES AUBEPINES, Quesnoy-sur-Deûle",
+    "lat": 50.715187,
+    "lng": 3.006661,
+    "transactions": [
+      {
+        "date": "2022-03-04",
+        "priceEur": 234300,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "5eb43394c019": {
+    "id": "5eb43394c019",
+    "label": "8 RUE VERTE, Quesnoy-sur-Deûle",
+    "lat": 50.713767,
+    "lng": 3.001231,
+    "transactions": [
+      {
+        "date": "2022-03-25",
+        "priceEur": 160600,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "15e944945c8a": {
+    "id": "15e944945c8a",
+    "label": "54 RUE DE LILLE, Quesnoy-sur-Deûle",
+    "lat": 50.709252,
+    "lng": 3.000136,
+    "transactions": [
+      {
+        "date": "2022-04-12",
+        "priceEur": 236700,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c4852d2e0be": {
+    "id": "4c4852d2e0be",
+    "label": "4 RUE DU GENERAL KOENIG, Quesnoy-sur-Deûle",
+    "lat": 50.711732,
+    "lng": 2.999584,
+    "transactions": [
+      {
+        "date": "2022-05-05",
+        "priceEur": 176000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f97475711ca": {
+    "id": "1f97475711ca",
+    "label": "51 RUE DU MARECHAL FOCH, Quesnoy-sur-Deûle",
+    "lat": 50.71172,
+    "lng": 3.004428,
+    "transactions": [
+      {
+        "date": "2024-06-06",
+        "priceEur": 248000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-20",
+        "priceEur": 165330,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-23",
+        "priceEur": 155430,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-02",
+        "priceEur": 155430,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-28",
+        "priceEur": 155430,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-21",
+        "priceEur": 158400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-24",
+        "priceEur": 158400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-24",
+        "priceEur": 138000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 51,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-18",
+        "priceEur": 154000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-17",
+        "priceEur": 129000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-17",
+        "priceEur": 137000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-13",
+        "priceEur": 144000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "5763aa6f82e7": {
+    "id": "5763aa6f82e7",
+    "label": "16 RUE JEANNE D ARC, Quesnoy-sur-Deûle",
+    "lat": 50.713719,
+    "lng": 3.001461,
+    "transactions": [
+      {
+        "date": "2022-05-12",
+        "priceEur": 253000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "7625f2bcb845": {
+    "id": "7625f2bcb845",
+    "label": "13 RTE DE LINSELLES, Quesnoy-sur-Deûle",
+    "lat": 50.712417,
+    "lng": 3.004324,
+    "transactions": [
+      {
+        "date": "2022-05-06",
+        "priceEur": 485000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "a88d457a65ad": {
+    "id": "a88d457a65ad",
+    "label": "19 RUE DU MARECHAL FOCH, Quesnoy-sur-Deûle",
+    "lat": 50.712208,
+    "lng": 3.002105,
+    "transactions": [
+      {
+        "date": "2022-05-30",
+        "priceEur": 386000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2aa73589181": {
+    "id": "a2aa73589181",
+    "label": "27 ALL DE LA ROSEBECK, Quesnoy-sur-Deûle",
+    "lat": 50.715324,
+    "lng": 2.999335,
+    "transactions": [
+      {
+        "date": "2022-05-24",
+        "priceEur": 410200,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d6c414c2257": {
+    "id": "6d6c414c2257",
+    "label": "2 ALL DES HERONS, Quesnoy-sur-Deûle",
+    "lat": 50.710522,
+    "lng": 3.008374,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 725000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "675d03312833": {
+    "id": "675d03312833",
+    "label": "34 RUE DU MARECHAL FOCH, Quesnoy-sur-Deûle",
+    "lat": 50.711693,
+    "lng": 3.002271,
+    "transactions": [
+      {
+        "date": "2022-08-08",
+        "priceEur": 301500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "782d533df60b": {
+    "id": "782d533df60b",
+    "label": "57 RUE DU MARECHAL FOCH, Quesnoy-sur-Deûle",
+    "lat": 50.711624,
+    "lng": 3.004872,
+    "transactions": [
+      {
+        "date": "2022-07-27",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "1843ae160e14": {
+    "id": "1843ae160e14",
+    "label": "52 RUE DE COMINES, Quesnoy-sur-Deûle",
+    "lat": 50.715058,
+    "lng": 3.002127,
+    "transactions": [
+      {
+        "date": "2022-08-18",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "7aebf91d37c8": {
+    "id": "7aebf91d37c8",
+    "label": "122 RUE DU MARECHAL FOCH, Quesnoy-sur-Deûle",
+    "lat": 50.708805,
+    "lng": 3.009317,
+    "transactions": [
+      {
+        "date": "2022-09-09",
+        "priceEur": 274510,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "3eb606d88ac3": {
+    "id": "3eb606d88ac3",
+    "label": "3 RUE SAINT VINCENT, Quesnoy-sur-Deûle",
+    "lat": 50.71217,
+    "lng": 3.002549,
+    "transactions": [
+      {
+        "date": "2022-08-25",
+        "priceEur": 177000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d48a9232d9a": {
+    "id": "7d48a9232d9a",
+    "label": "63 RUE DU MARECHAL FOCH, Quesnoy-sur-Deûle",
+    "lat": 50.711521,
+    "lng": 3.005213,
+    "transactions": [
+      {
+        "date": "2022-12-15",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc1025013312": {
+    "id": "bc1025013312",
+    "label": "32 RUE DE LILLE, Quesnoy-sur-Deûle",
+    "lat": 50.709582,
+    "lng": 2.999367,
+    "transactions": [
+      {
+        "date": "2022-12-21",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd7aaf584faf": {
+    "id": "dd7aaf584faf",
+    "label": "40 RUE DE LILLE, Quesnoy-sur-Deûle",
+    "lat": 50.7094,
+    "lng": 2.999679,
+    "transactions": [
+      {
+        "date": "2023-01-27",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "c21c63bead06": {
+    "id": "c21c63bead06",
+    "label": "13 RUE GEORGES CLEMENCEAU, Quesnoy-sur-Deûle",
+    "lat": 50.71037,
+    "lng": 3.004567,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-31",
+        "priceEur": 230000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "f12bca4ef288": {
+    "id": "f12bca4ef288",
+    "label": "11 RUE DE LILLE, Quesnoy-sur-Deûle",
+    "lat": 50.709907,
+    "lng": 2.999919,
+    "transactions": [
+      {
+        "date": "2023-04-17",
+        "priceEur": 420000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "cbab8e1c0b02": {
+    "id": "cbab8e1c0b02",
+    "label": "80 RUE DU MARECHAL FOCH, Quesnoy-sur-Deûle",
+    "lat": 50.710548,
+    "lng": 3.00614,
+    "transactions": [
+      {
+        "date": "2023-05-22",
+        "priceEur": 307560,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "2649de33c26e": {
+    "id": "2649de33c26e",
+    "label": "7 RTE DE LINSELLES, Quesnoy-sur-Deûle",
+    "lat": 50.712236,
+    "lng": 3.00418,
+    "transactions": [
+      {
+        "date": "2023-06-15",
+        "priceEur": 272288,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "bbb07a0aedf6": {
+    "id": "bbb07a0aedf6",
+    "label": "6 RUE VERTE, Quesnoy-sur-Deûle",
+    "lat": 50.713726,
+    "lng": 3.001217,
+    "transactions": [
+      {
+        "date": "2023-07-04",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "f33491d7e3ea": {
+    "id": "f33491d7e3ea",
+    "label": "14 RUE DE COMINES, Quesnoy-sur-Deûle",
+    "lat": 50.713547,
+    "lng": 2.999868,
+    "transactions": [
+      {
+        "date": "2023-08-01",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f6a2f69de1b": {
+    "id": "1f6a2f69de1b",
+    "label": "12 RUE DU GENERAL KOENIG, Quesnoy-sur-Deûle",
+    "lat": 50.711632,
+    "lng": 2.999373,
+    "transactions": [
+      {
+        "date": "2023-08-18",
+        "priceEur": 225000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 96,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-18",
+        "priceEur": 225000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 89,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-18",
+        "priceEur": 225000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "e7de2d0b5fa7": {
+    "id": "e7de2d0b5fa7",
+    "label": "65 RUE DU MARECHAL FOCH, Quesnoy-sur-Deûle",
+    "lat": 50.71149,
+    "lng": 3.00527,
+    "transactions": [
+      {
+        "date": "2023-10-05",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "febd3e56f35e": {
+    "id": "febd3e56f35e",
+    "label": "3 RUE DU MARECHAL FOCH, Quesnoy-sur-Deûle",
+    "lat": 50.712904,
+    "lng": 3.000063,
+    "transactions": [
+      {
+        "date": "2023-12-06",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "71f6ea6dbc62": {
+    "id": "71f6ea6dbc62",
+    "label": "18 RUE DE VERLINGHEM, Quesnoy-sur-Deûle",
+    "lat": 50.708833,
+    "lng": 2.999743,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 650000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "0cb6c46d664b": {
+    "id": "0cb6c46d664b",
+    "label": "110 RUE DU MARECHAL FOCH, Quesnoy-sur-Deûle",
+    "lat": 50.709975,
+    "lng": 3.007551,
+    "transactions": [
+      {
+        "date": "2024-02-01",
+        "priceEur": 196000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "31e00a42874e": {
+    "id": "31e00a42874e",
+    "label": "108 RUE DU MARECHAL FOCH, Quesnoy-sur-Deûle",
+    "lat": 50.710101,
+    "lng": 3.007562,
+    "transactions": [
+      {
+        "date": "2024-03-11",
+        "priceEur": 184500,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5cf9c03d891": {
+    "id": "c5cf9c03d891",
+    "label": "9 RUE DU CHENE, Quesnoy-sur-Deûle",
+    "lat": 50.71326,
+    "lng": 3.009238,
+    "transactions": [
+      {
+        "date": "2024-03-11",
+        "priceEur": 422000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d143af5e133": {
+    "id": "4d143af5e133",
+    "label": "116 RUE DU MARECHAL FOCH, Quesnoy-sur-Deûle",
+    "lat": 50.709849,
+    "lng": 3.007813,
+    "transactions": [
+      {
+        "date": "2024-03-07",
+        "priceEur": 267000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "e85d915c3c5d": {
+    "id": "e85d915c3c5d",
+    "label": "2 RUE DU 6 OCTOBRE 1914, Quesnoy-sur-Deûle",
+    "lat": 50.71387,
+    "lng": 3.008704,
+    "transactions": [
+      {
+        "date": "2024-04-09",
+        "priceEur": 429370,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "8db6f45252b5": {
+    "id": "8db6f45252b5",
+    "label": "45 RUE DE COMINES, Quesnoy-sur-Deûle",
+    "lat": 50.715043,
+    "lng": 3.000755,
+    "transactions": [
+      {
+        "date": "2025-01-06",
+        "priceEur": 235600,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-12",
+        "priceEur": 239600,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "8966e36712c6": {
+    "id": "8966e36712c6",
+    "label": "46 RUE DU MARECHAL FOCH, Quesnoy-sur-Deûle",
+    "lat": 50.711556,
+    "lng": 3.002785,
+    "transactions": [
+      {
+        "date": "2024-04-17",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e0a4bb54a79": {
+    "id": "1e0a4bb54a79",
+    "label": "2 RUE DE L EGLISE, Quesnoy-sur-Deûle",
+    "lat": 50.712064,
+    "lng": 2.999771,
+    "transactions": [
+      {
+        "date": "2024-05-30",
+        "priceEur": 503000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "e11cf16a7ff1": {
+    "id": "e11cf16a7ff1",
+    "label": "4 RUE DE L EGLISE, Quesnoy-sur-Deûle",
+    "lat": 50.712052,
+    "lng": 2.999695,
+    "transactions": [
+      {
+        "date": "2024-05-30",
+        "priceEur": 503000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6929d8fcd2c": {
+    "id": "f6929d8fcd2c",
+    "label": "2 RUE RENE MEAUZOONE, Quesnoy-sur-Deûle",
+    "lat": 50.714904,
+    "lng": 3.007251,
+    "transactions": [
+      {
+        "date": "2024-05-31",
+        "priceEur": 303200,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd45e0e68490": {
+    "id": "bd45e0e68490",
+    "label": "20 RUE DE COMINES, Quesnoy-sur-Deûle",
+    "lat": 50.713644,
+    "lng": 2.999995,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "65c07bb443a0": {
+    "id": "65c07bb443a0",
+    "label": "58T RUE DU MARECHAL FOCH, Quesnoy-sur-Deûle",
+    "lat": 50.710878,
+    "lng": 3.005339,
+    "transactions": [
+      {
+        "date": "2024-06-27",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "ab25e443edb0": {
+    "id": "ab25e443edb0",
+    "label": "37 RUE DE COMINES, Quesnoy-sur-Deûle",
+    "lat": 50.714932,
+    "lng": 3.000631,
+    "transactions": [
+      {
+        "date": "2024-07-26",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1cf181a91aa": {
+    "id": "a1cf181a91aa",
+    "label": "9 RTE DE LINSELLES, Quesnoy-sur-Deûle",
+    "lat": 50.712293,
+    "lng": 3.00419,
+    "transactions": [
+      {
+        "date": "2024-08-06",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "72336ec45570": {
+    "id": "72336ec45570",
+    "label": "6 RUE DE WARNETON, Quesnoy-sur-Deûle",
+    "lat": 50.71337,
+    "lng": 2.999537,
+    "transactions": [
+      {
+        "date": "2024-09-13",
+        "priceEur": 180000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "49aa07c2bed4": {
+    "id": "49aa07c2bed4",
+    "label": "84 RUE DU MARECHAL FOCH, Quesnoy-sur-Deûle",
+    "lat": 50.710587,
+    "lng": 3.006363,
+    "transactions": [
+      {
+        "date": "2024-10-08",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "55758dc0c7a8": {
+    "id": "55758dc0c7a8",
+    "label": "1 ALL DES ACACIAS, Quesnoy-sur-Deûle",
+    "lat": 50.714667,
+    "lng": 3.00607,
+    "transactions": [
+      {
+        "date": "2024-11-28",
+        "priceEur": 255500,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "5717108389c5": {
+    "id": "5717108389c5",
+    "label": "3 RUE GEORGES CLEMENCEAU, Quesnoy-sur-Deûle",
+    "lat": 50.71037,
+    "lng": 3.004567,
+    "transactions": [
+      {
+        "date": "2025-01-21",
+        "priceEur": 239000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "5728155576e9": {
+    "id": "5728155576e9",
+    "label": "10 RUE DU 6 OCTOBRE 1914, Quesnoy-sur-Deûle",
+    "lat": 50.713841,
+    "lng": 3.010239,
+    "transactions": [
+      {
+        "date": "2025-02-27",
+        "priceEur": 342000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf937b98a3ef": {
+    "id": "cf937b98a3ef",
+    "label": "17 RUE DE COMINES, Quesnoy-sur-Deûle",
+    "lat": 50.713954,
+    "lng": 2.999663,
+    "transactions": [
+      {
+        "date": "2025-02-28",
+        "priceEur": 420000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "df957cc9a6fd": {
+    "id": "df957cc9a6fd",
+    "label": "7 ALL DES AUBEPINES, Quesnoy-sur-Deûle",
+    "lat": 50.715434,
+    "lng": 3.006269,
+    "transactions": [
+      {
+        "date": "2025-03-25",
+        "priceEur": 266800,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "13715ba52f74": {
+    "id": "13715ba52f74",
+    "label": "58 RUE DE COMINES, Quesnoy-sur-Deûle",
+    "lat": 50.715355,
+    "lng": 3.002144,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 700000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "3063b128a4da": {
+    "id": "3063b128a4da",
+    "label": "22 RUE DE LA PAIX, Quesnoy-sur-Deûle",
+    "lat": 50.714853,
+    "lng": 3.008476,
+    "transactions": [
+      {
+        "date": "2025-05-28",
+        "priceEur": 438790,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  }
+}

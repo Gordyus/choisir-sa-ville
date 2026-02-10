@@ -1,0 +1,32 @@
+{
+  "09b499edd25f": {
+    "id": "09b499edd25f",
+    "label": "45 CHE DE VERSAILLES, Raffetot",
+    "lat": 49.603673,
+    "lng": 0.516932,
+    "transactions": [
+      {
+        "date": "2021-08-06",
+        "priceEur": 102000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e2624912058": {
+    "id": "7e2624912058",
+    "label": "5103 VILLAGE DE RAFFETOT, Raffetot",
+    "lat": 49.604461,
+    "lng": 0.51664,
+    "transactions": [
+      {
+        "date": "2024-06-14",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

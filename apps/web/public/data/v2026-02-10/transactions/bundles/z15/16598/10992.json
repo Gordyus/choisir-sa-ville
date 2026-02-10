@@ -1,0 +1,62 @@
+{
+  "0ebecd99d66f": {
+    "id": "0ebecd99d66f",
+    "label": "409 RUE BOTTER STRAETE, Rubrouck",
+    "lat": 50.84426,
+    "lng": 2.359158,
+    "transactions": [
+      {
+        "date": "2023-04-24",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "85a76faf8bf1": {
+    "id": "85a76faf8bf1",
+    "label": "65 RUE BOTTER STRAETE, Rubrouck",
+    "lat": 50.842096,
+    "lng": 2.35588,
+    "transactions": [
+      {
+        "date": "2023-07-12",
+        "priceEur": 183000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "138b1c6035c3": {
+    "id": "138b1c6035c3",
+    "label": "314 CHE DE LA PROCESSION, Rubrouck",
+    "lat": 50.84069,
+    "lng": 2.359269,
+    "transactions": [
+      {
+        "date": "2024-02-29",
+        "priceEur": 164000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f09a5241071": {
+    "id": "7f09a5241071",
+    "label": "371 RUE BOTTER STRAETE, Rubrouck",
+    "lat": 50.844093,
+    "lng": 2.358714,
+    "transactions": [
+      {
+        "date": "2024-04-12",
+        "priceEur": 83700,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

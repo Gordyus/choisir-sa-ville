@@ -1,0 +1,32 @@
+{
+  "e32f0c78714c": {
+    "id": "e32f0c78714c",
+    "label": "4 RTE DE LA SCIE, Notre-Dame-du-Parc",
+    "lat": 49.747573,
+    "lng": 1.115365,
+    "transactions": [
+      {
+        "date": "2021-10-12",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "eecd6e016f99": {
+    "id": "eecd6e016f99",
+    "label": "7 RTE DU PARC, Notre-Dame-du-Parc",
+    "lat": 49.746959,
+    "lng": 1.117084,
+    "transactions": [
+      {
+        "date": "2023-06-27",
+        "priceEur": 153600,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  }
+}

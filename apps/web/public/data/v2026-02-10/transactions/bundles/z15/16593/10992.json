@@ -1,0 +1,32 @@
+{
+  "364f5b176d12": {
+    "id": "364f5b176d12",
+    "label": "5 VC BRAEMVELT STRAETE, Volckerinckhove",
+    "lat": 50.841412,
+    "lng": 2.296324,
+    "transactions": [
+      {
+        "date": "2021-10-11",
+        "priceEur": 267255,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "031e74a5a817": {
+    "id": "031e74a5a817",
+    "label": "70 RTE DE BOLLEZEELE, Volckerinckhove",
+    "lat": 50.840811,
+    "lng": 2.297381,
+    "transactions": [
+      {
+        "date": "2024-07-05",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  }
+}

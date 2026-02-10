@@ -1,0 +1,47 @@
+{
+  "45ed8269a773": {
+    "id": "45ed8269a773",
+    "label": "254 RUE DE L EGLISE, Yvecrique",
+    "lat": 49.687981,
+    "lng": 0.813154,
+    "transactions": [
+      {
+        "date": "2020-10-17",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "1646bcd38f9d": {
+    "id": "1646bcd38f9d",
+    "label": "237 RUE DE L EGLISE, Yvecrique",
+    "lat": 49.687337,
+    "lng": 0.813303,
+    "transactions": [
+      {
+        "date": "2021-10-28",
+        "priceEur": 173000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "a112172d7bfb": {
+    "id": "a112172d7bfb",
+    "label": "511 RUE DES CERISIERS, Yvecrique",
+    "lat": 49.686242,
+    "lng": 0.813251,
+    "transactions": [
+      {
+        "date": "2023-09-27",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "2d73630c3d5c": {
+    "id": "2d73630c3d5c",
+    "label": "49 RUE PASTEUR, Terdeghem",
+    "lat": 50.805076,
+    "lng": 2.580789,
+    "transactions": [
+      {
+        "date": "2020-07-07",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "0a0666f001c2": {
+    "id": "0a0666f001c2",
+    "label": "21 RUE DES CYGNES, Steenvoorde",
+    "lat": 50.805788,
+    "lng": 2.57777,
+    "transactions": [
+      {
+        "date": "2024-06-03",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-28",
+        "priceEur": 191800,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c8e1864dd9e": {
+    "id": "4c8e1864dd9e",
+    "label": "2 SQ DE L EY BECQUE, Steenvoorde",
+    "lat": 50.805075,
+    "lng": 2.579087,
+    "transactions": [
+      {
+        "date": "2021-04-19",
+        "priceEur": 223000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b9507b7bcd3": {
+    "id": "8b9507b7bcd3",
+    "label": "47 AV JOSEPH DECANTER, Terdeghem",
+    "lat": 50.804484,
+    "lng": 2.580686,
+    "transactions": [
+      {
+        "date": "2021-10-04",
+        "priceEur": 254000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "8ca6f0c0827d": {
+    "id": "8ca6f0c0827d",
+    "label": "3 RUE DE L ABBE FRANCOIS, Steenvoorde",
+    "lat": 50.805604,
+    "lng": 2.579452,
+    "transactions": [
+      {
+        "date": "2022-07-12",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "911377c48ebc": {
+    "id": "911377c48ebc",
+    "label": "10 SQ DE L EY BECQUE, Steenvoorde",
+    "lat": 50.804706,
+    "lng": 2.579597,
+    "transactions": [
+      {
+        "date": "2023-12-15",
+        "priceEur": 268000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "43a4a4ef95c7": {
+    "id": "43a4a4ef95c7",
+    "label": "37 AV JOSEPH DECANTER, Terdeghem",
+    "lat": 50.804343,
+    "lng": 2.580917,
+    "transactions": [
+      {
+        "date": "2024-11-25",
+        "priceEur": 221000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  }
+}

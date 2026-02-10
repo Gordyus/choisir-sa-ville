@@ -1,0 +1,77 @@
+{
+  "4b730025837f": {
+    "id": "4b730025837f",
+    "label": "809 RUE DES DAMETTES, Gommerville",
+    "lat": 49.544213,
+    "lng": 0.377801,
+    "transactions": [
+      {
+        "date": "2021-02-26",
+        "priceEur": 317500,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  },
+  "1041b15d0e17": {
+    "id": "1041b15d0e17",
+    "label": "5001 LES DAMETTES, Gommerville",
+    "lat": 49.544517,
+    "lng": 0.376288,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 185600,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca2f87442976": {
+    "id": "ca2f87442976",
+    "label": "5901 LA BROCHE A ROTIR, Saint-Romain-de-Colbosc",
+    "lat": 49.544524,
+    "lng": 0.38247,
+    "transactions": [
+      {
+        "date": "2021-07-15",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "8bcc54e6102a": {
+    "id": "8bcc54e6102a",
+    "label": "106 RUE DE L'OISELIERE, Les Trois-Pierres",
+    "lat": 49.545655,
+    "lng": 0.382981,
+    "transactions": [
+      {
+        "date": "2021-12-03",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca4fc7b52a01": {
+    "id": "ca4fc7b52a01",
+    "label": "30 RUE DE LA BROCHE A ROTIR, Les Trois-Pierres",
+    "lat": 49.545527,
+    "lng": 0.383843,
+    "transactions": [
+      {
+        "date": "2024-06-06",
+        "priceEur": 267000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

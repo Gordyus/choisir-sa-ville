@@ -1,0 +1,362 @@
+{
+  "bb7eb692ffec": {
+    "id": "bb7eb692ffec",
+    "label": "2 RUE GENEVIEVE DE GAULLE, Saint-Étienne-du-Rouvray",
+    "lat": 49.389214,
+    "lng": 1.08637,
+    "transactions": [
+      {
+        "date": "2025-04-22",
+        "priceEur": 110900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-29",
+        "priceEur": 118000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2023-10-20",
+        "priceEur": 130500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-30",
+        "priceEur": 125500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-24",
+        "priceEur": 119600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-24",
+        "priceEur": 119000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-29",
+        "priceEur": 118800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-25",
+        "priceEur": 83050,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  },
+  "aeaf80d59ebc": {
+    "id": "aeaf80d59ebc",
+    "label": "9 RUE SALVADOR ALLENDE, Saint-Étienne-du-Rouvray",
+    "lat": 49.387693,
+    "lng": 1.087597,
+    "transactions": [
+      {
+        "date": "2020-08-27",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "f095eb6be4dc": {
+    "id": "f095eb6be4dc",
+    "label": "22 RUE KATHLEEN FERRIER, Saint-Étienne-du-Rouvray",
+    "lat": 49.387433,
+    "lng": 1.085669,
+    "transactions": [
+      {
+        "date": "2020-09-01",
+        "priceEur": 181950,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5c9cbf6723f": {
+    "id": "f5c9cbf6723f",
+    "label": "8 JOSEPHINE BAKER, Saint-Étienne-du-Rouvray",
+    "lat": 49.387442,
+    "lng": 1.087578,
+    "transactions": [
+      {
+        "date": "2020-12-16",
+        "priceEur": 119000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "cdec7e426a32": {
+    "id": "cdec7e426a32",
+    "label": "1 RUE GENEVIEVE DE GAULLE, Saint-Étienne-du-Rouvray",
+    "lat": 49.38867,
+    "lng": 1.086425,
+    "transactions": [
+      {
+        "date": "2024-10-04",
+        "priceEur": 105000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-04",
+        "priceEur": 124000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-15",
+        "priceEur": 117000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-20",
+        "priceEur": 121000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-20",
+        "priceEur": 112000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-25",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-24",
+        "priceEur": 125550,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-28",
+        "priceEur": 112500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-29",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "434d0c4ab909": {
+    "id": "434d0c4ab909",
+    "label": "1 RUE MADELEINE LE QUELLEC, Saint-Étienne-du-Rouvray",
+    "lat": 49.388277,
+    "lng": 1.087597,
+    "transactions": [
+      {
+        "date": "2021-01-04",
+        "priceEur": 219000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "f66027d5fdc2": {
+    "id": "f66027d5fdc2",
+    "label": "11 RUE GENEVIEVE DE GAULLE, Saint-Étienne-du-Rouvray",
+    "lat": 49.389084,
+    "lng": 1.084811,
+    "transactions": [
+      {
+        "date": "2021-03-26",
+        "priceEur": 232800,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d1d251a4396": {
+    "id": "9d1d251a4396",
+    "label": "11 RUE JULIENNE ET YVON BONNARD, Saint-Étienne-du-Rouvray",
+    "lat": 49.388268,
+    "lng": 1.083843,
+    "transactions": [
+      {
+        "date": "2021-07-13",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "d09e5422e715": {
+    "id": "d09e5422e715",
+    "label": "19 RUE MADELEINE LE QUELLEC, Saint-Étienne-du-Rouvray",
+    "lat": 49.389045,
+    "lng": 1.087564,
+    "transactions": [
+      {
+        "date": "2021-10-25",
+        "priceEur": 196000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "80a639b2d243": {
+    "id": "80a639b2d243",
+    "label": "17 RUE MADELEINE LE QUELLEC, Saint-Étienne-du-Rouvray",
+    "lat": 49.388986,
+    "lng": 1.087497,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 208500,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "e7c3a12ed763": {
+    "id": "e7c3a12ed763",
+    "label": "17 RUE GENEVIEVE DE GAULLE, Saint-Étienne-du-Rouvray",
+    "lat": 49.389375,
+    "lng": 1.084019,
+    "transactions": [
+      {
+        "date": "2022-02-02",
+        "priceEur": 325910,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "08f9c02ae508": {
+    "id": "08f9c02ae508",
+    "label": "19 RUE JULIENNE ET YVON BONNARD, Saint-Étienne-du-Rouvray",
+    "lat": 49.387872,
+    "lng": 1.08486,
+    "transactions": [
+      {
+        "date": "2022-08-10",
+        "priceEur": 340500,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa637019e49a": {
+    "id": "fa637019e49a",
+    "label": "9 RUE JULIENNE ET YVON BONNARD, Saint-Étienne-du-Rouvray",
+    "lat": 49.388441,
+    "lng": 1.083651,
+    "transactions": [
+      {
+        "date": "2023-05-22",
+        "priceEur": 272000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed57daa92b0a": {
+    "id": "ed57daa92b0a",
+    "label": "9017 RUE DES CATELIERS, Saint-Étienne-du-Rouvray",
+    "lat": 49.384197,
+    "lng": 1.086885,
+    "transactions": [
+      {
+        "date": "2023-09-05",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "f3682611b660": {
+    "id": "f3682611b660",
+    "label": "10 RUE KATHLEEN FERRIER, Saint-Étienne-du-Rouvray",
+    "lat": 49.387655,
+    "lng": 1.086134,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "31c793671dec": {
+    "id": "31c793671dec",
+    "label": "36 RUE JULIENNE ET YVON BONNARD, Saint-Étienne-du-Rouvray",
+    "lat": 49.387802,
+    "lng": 1.085269,
+    "transactions": [
+      {
+        "date": "2024-02-21",
+        "priceEur": 298850,
+        "typeLocal": "Maison",
+        "surfaceM2": 174,
+        "isVefa": false
+      }
+    ]
+  },
+  "b14a2c4501a0": {
+    "id": "b14a2c4501a0",
+    "label": "13 RUE JULIENNE ET YVON BONNARD, Saint-Étienne-du-Rouvray",
+    "lat": 49.388195,
+    "lng": 1.084119,
+    "transactions": [
+      {
+        "date": "2024-11-18",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "915741b4c6ce": {
+    "id": "915741b4c6ce",
+    "label": "1242 RUE DU HAUT HOTEL, Saint-Gilles-de-Crétot",
+    "lat": 49.569635,
+    "lng": 0.645391,
+    "transactions": [
+      {
+        "date": "2020-08-25",
+        "priceEur": 119000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e535c02f8ae": {
+    "id": "9e535c02f8ae",
+    "label": "306 RUE DE L EGLISE, Saint-Aubin-de-Crétot",
+    "lat": 49.569887,
+    "lng": 0.638711,
+    "transactions": [
+      {
+        "date": "2021-11-19",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "18b4879dadb9": {
+    "id": "18b4879dadb9",
+    "label": "360 RUE DE L EGLISE, Saint-Aubin-de-Crétot",
+    "lat": 49.569818,
+    "lng": 0.63759,
+    "transactions": [
+      {
+        "date": "2021-02-26",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "295e6fdc672d": {
+    "id": "295e6fdc672d",
+    "label": "210 RUE DE L EGLISE, Saint-Aubin-de-Crétot",
+    "lat": 49.570962,
+    "lng": 0.637963,
+    "transactions": [
+      {
+        "date": "2024-04-15",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d09bbb38f25": {
+    "id": "3d09bbb38f25",
+    "label": "1079 RUE DE BREMARE, Saint-Aubin-de-Crétot",
+    "lat": 49.573079,
+    "lng": 0.638181,
+    "transactions": [
+      {
+        "date": "2024-04-17",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "10a554a6aa8a": {
+    "id": "10a554a6aa8a",
+    "label": "1130 RUE DE BREMARE, Saint-Aubin-de-Crétot",
+    "lat": 49.572552,
+    "lng": 0.638319,
+    "transactions": [
+      {
+        "date": "2024-07-30",
+        "priceEur": 89050,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "393b1876cec0": {
+    "id": "393b1876cec0",
+    "label": "1073 RUE DE BREMARE, Saint-Aubin-de-Crétot",
+    "lat": 49.573314,
+    "lng": 0.638256,
+    "transactions": [
+      {
+        "date": "2024-09-24",
+        "priceEur": 258750,
+        "typeLocal": "Maison",
+        "surfaceM2": 205,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a3a47fdc432": {
+    "id": "9a3a47fdc432",
+    "label": "1192 RUE DU HAUT HOTEL, Saint-Gilles-de-Crétot",
+    "lat": 49.569343,
+    "lng": 0.6452,
+    "transactions": [
+      {
+        "date": "2025-01-15",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf76d6487c6a": {
+    "id": "bf76d6487c6a",
+    "label": "1379 RUE DE BREMARE, Saint-Aubin-de-Crétot",
+    "lat": 49.572236,
+    "lng": 0.64086,
+    "transactions": [
+      {
+        "date": "2025-03-05",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

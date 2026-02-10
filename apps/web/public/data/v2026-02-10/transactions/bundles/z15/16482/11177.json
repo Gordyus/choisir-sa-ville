@@ -1,0 +1,107 @@
+{
+  "76568577ea1e": {
+    "id": "76568577ea1e",
+    "label": "35 RUE RES HECTOR BERLIOZ, Montville",
+    "lat": 49.545766,
+    "lng": 1.077157,
+    "transactions": [
+      {
+        "date": "2021-03-30",
+        "priceEur": 222000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b22baf21325": {
+    "id": "0b22baf21325",
+    "label": "18 RUE DES DEPORTES, Montville",
+    "lat": 49.546353,
+    "lng": 1.079444,
+    "transactions": [
+      {
+        "date": "2022-02-11",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "10cdd1ad5530": {
+    "id": "10cdd1ad5530",
+    "label": "41 RUE RES HECTOR BERLIOZ, Montville",
+    "lat": 49.544812,
+    "lng": 1.077183,
+    "transactions": [
+      {
+        "date": "2022-03-04",
+        "priceEur": 249000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ec0c0242c84": {
+    "id": "9ec0c0242c84",
+    "label": "3 RES BARON BIGOT, Montville",
+    "lat": 49.546059,
+    "lng": 1.078998,
+    "transactions": [
+      {
+        "date": "2022-04-28",
+        "priceEur": 275500,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d463a400521": {
+    "id": "4d463a400521",
+    "label": "2 RUE BARON BIGOT, Montville",
+    "lat": 49.545598,
+    "lng": 1.079073,
+    "transactions": [
+      {
+        "date": "2022-06-24",
+        "priceEur": 269100,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6ade667a445": {
+    "id": "d6ade667a445",
+    "label": "17 RUE RES HECTOR BERLIOZ, Montville",
+    "lat": 49.54595,
+    "lng": 1.076722,
+    "transactions": [
+      {
+        "date": "2023-01-20",
+        "priceEur": 217500,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "100cfafea7cf": {
+    "id": "100cfafea7cf",
+    "label": "21A RUE EVODE CHEVALIER, Montville",
+    "lat": 49.546452,
+    "lng": 1.076751,
+    "transactions": [
+      {
+        "date": "2024-06-25",
+        "priceEur": 337500,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  }
+}

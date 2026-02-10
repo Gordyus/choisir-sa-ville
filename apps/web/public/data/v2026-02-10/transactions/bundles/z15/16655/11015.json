@@ -1,0 +1,107 @@
+{
+  "d73c5f902c74": {
+    "id": "d73c5f902c74",
+    "label": "29 CHE DE LA TUILERIE, Verlinghem",
+    "lat": 50.685408,
+    "lng": 2.987563,
+    "transactions": [
+      {
+        "date": "2021-04-09",
+        "priceEur": 735000,
+        "typeLocal": "Maison",
+        "surfaceM2": 286,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a5b221b312a": {
+    "id": "6a5b221b312a",
+    "label": "8 RUE DE LA PETITE CHAMPREUILLE, Verlinghem",
+    "lat": 50.686777,
+    "lng": 2.980859,
+    "transactions": [
+      {
+        "date": "2021-07-12",
+        "priceEur": 275468,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "092ccc2b2f28": {
+    "id": "092ccc2b2f28",
+    "label": "8B RUE DE LA PETITE CHAMPREUILLE, Verlinghem",
+    "lat": 50.686325,
+    "lng": 2.980242,
+    "transactions": [
+      {
+        "date": "2023-07-07",
+        "priceEur": 560000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "36f805ad5e8b": {
+    "id": "36f805ad5e8b",
+    "label": "2 RUE DE LA PETITE CHAMPREUILLE, Verlinghem",
+    "lat": 50.68749,
+    "lng": 2.982169,
+    "transactions": [
+      {
+        "date": "2024-02-22",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "63718bebf5eb": {
+    "id": "63718bebf5eb",
+    "label": "19 RUE DE LA GRANDE CHAMPREUILLE, Verlinghem",
+    "lat": 50.687218,
+    "lng": 2.977473,
+    "transactions": [
+      {
+        "date": "2024-10-31",
+        "priceEur": 567600,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  },
+  "7fad34f0bf08": {
+    "id": "7fad34f0bf08",
+    "label": "1 RUE DE LA GRANDE CHAMPREUILLE, Verlinghem",
+    "lat": 50.681005,
+    "lng": 2.982465,
+    "transactions": [
+      {
+        "date": "2025-04-28",
+        "priceEur": 550000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ada129ffade": {
+    "id": "7ada129ffade",
+    "label": "13B RUE DE LA GRANDE CHAMPREUILLE, Verlinghem",
+    "lat": 50.68697,
+    "lng": 2.979595,
+    "transactions": [
+      {
+        "date": "2025-05-28",
+        "priceEur": 262000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  }
+}

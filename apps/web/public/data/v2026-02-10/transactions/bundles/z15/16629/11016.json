@@ -1,0 +1,76 @@
+{
+  "5d88677c265a": {
+    "id": "5d88677c265a",
+    "label": "130 RUE PRUVOST, Le Doulieu",
+    "lat": 50.677994,
+    "lng": 2.698229,
+    "transactions": [
+      {
+        "date": "2025-01-31",
+        "priceEur": 262800,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-27",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "aed2d6f92d9c": {
+    "id": "aed2d6f92d9c",
+    "label": "43 RUE PRUVOST, Le Doulieu",
+    "lat": 50.677506,
+    "lng": 2.700441,
+    "transactions": [
+      {
+        "date": "2024-04-15",
+        "priceEur": 760000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-21",
+        "priceEur": 445500,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "968b2d4fbefe": {
+    "id": "968b2d4fbefe",
+    "label": "106 RUE DU COURANT, Le Doulieu",
+    "lat": 50.676913,
+    "lng": 2.701016,
+    "transactions": [
+      {
+        "date": "2022-11-02",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "7014acd0b5b3": {
+    "id": "7014acd0b5b3",
+    "label": "714 VC COURTE RUE, Le Doulieu",
+    "lat": 50.678868,
+    "lng": 2.700322,
+    "transactions": [
+      {
+        "date": "2025-02-05",
+        "priceEur": 421500,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

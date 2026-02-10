@@ -1,0 +1,47 @@
+{
+  "ae7d8d3cec0a": {
+    "id": "ae7d8d3cec0a",
+    "label": "136 RUE COLBERT, Villeneuve-d'Ascq",
+    "lat": 50.618705,
+    "lng": 3.17597,
+    "transactions": [
+      {
+        "date": "2021-02-10",
+        "priceEur": 550000,
+        "typeLocal": "Maison",
+        "surfaceM2": 178,
+        "isVefa": false
+      }
+    ]
+  },
+  "8dcebe318d84": {
+    "id": "8dcebe318d84",
+    "label": "142 RUE COLBERT, Villeneuve-d'Ascq",
+    "lat": 50.620751,
+    "lng": 3.181033,
+    "transactions": [
+      {
+        "date": "2021-10-19",
+        "priceEur": 339000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6ffbd57e2ef": {
+    "id": "e6ffbd57e2ef",
+    "label": "11 RUE DU GRAND RUAGE, Villeneuve-d'Ascq",
+    "lat": 50.620296,
+    "lng": 3.177724,
+    "transactions": [
+      {
+        "date": "2024-02-27",
+        "priceEur": 14000000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  }
+}

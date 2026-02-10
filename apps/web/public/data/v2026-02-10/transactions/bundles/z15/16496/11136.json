@@ -1,0 +1,99 @@
+{
+  "b9b57471d232": {
+    "id": "b9b57471d232",
+    "label": "5146 MEULERS, Meulers",
+    "lat": 49.833307,
+    "lng": 1.237617,
+    "transactions": [
+      {
+        "date": "2020-07-06",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "a50c7c1d7ded": {
+    "id": "a50c7c1d7ded",
+    "label": "2215 RTE DE DIEPPE, Meulers",
+    "lat": 49.833551,
+    "lng": 1.237326,
+    "transactions": [
+      {
+        "date": "2024-02-09",
+        "priceEur": 302920,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-10",
+        "priceEur": 313800,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ea39618ead4": {
+    "id": "9ea39618ead4",
+    "label": "5034A MEULERS, Meulers",
+    "lat": 49.836948,
+    "lng": 1.233659,
+    "transactions": [
+      {
+        "date": "2021-09-03",
+        "priceEur": 150850,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "d01482647b36": {
+    "id": "d01482647b36",
+    "label": "78 RLE TROCHET, Meulers",
+    "lat": 49.835156,
+    "lng": 1.236879,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "54f83881700d": {
+    "id": "54f83881700d",
+    "label": "1986 RTE DE DIEPPE, Meulers",
+    "lat": 49.835304,
+    "lng": 1.235583,
+    "transactions": [
+      {
+        "date": "2022-05-16",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "0600184acc70": {
+    "id": "0600184acc70",
+    "label": "1659 RTE DE DIEPPE, Meulers",
+    "lat": 49.837093,
+    "lng": 1.232062,
+    "transactions": [
+      {
+        "date": "2024-06-25",
+        "priceEur": 144500,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

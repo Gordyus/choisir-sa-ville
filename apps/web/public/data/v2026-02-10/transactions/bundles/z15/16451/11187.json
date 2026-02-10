@@ -1,0 +1,99 @@
+{
+  "1d3d3477826c": {
+    "id": "1d3d3477826c",
+    "label": "2079 LE WUY, Arelaune-en-Seine",
+    "lat": 49.474275,
+    "lng": 0.74142,
+    "transactions": [
+      {
+        "date": "2020-09-22",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "af247ee63ab8": {
+    "id": "af247ee63ab8",
+    "label": "25 RUE MOUSSARD, Arelaune-en-Seine",
+    "lat": 49.47521,
+    "lng": 0.744205,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "d7e33438082a": {
+    "id": "d7e33438082a",
+    "label": "2288 LE WUY, Arelaune-en-Seine",
+    "lat": 49.474622,
+    "lng": 0.739193,
+    "transactions": [
+      {
+        "date": "2023-06-08",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-24",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "c23d2378620e": {
+    "id": "c23d2378620e",
+    "label": "1984 LE WUY, Arelaune-en-Seine",
+    "lat": 49.47482,
+    "lng": 0.742955,
+    "transactions": [
+      {
+        "date": "2022-07-26",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "7acc035ce814": {
+    "id": "7acc035ce814",
+    "label": "2173 LE WUY, Arelaune-en-Seine",
+    "lat": 49.474294,
+    "lng": 0.740458,
+    "transactions": [
+      {
+        "date": "2023-01-24",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a1af9380e75": {
+    "id": "8a1af9380e75",
+    "label": "2320 LE WUY, Arelaune-en-Seine",
+    "lat": 49.474986,
+    "lng": 0.738999,
+    "transactions": [
+      {
+        "date": "2024-10-18",
+        "priceEur": 352300,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

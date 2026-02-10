@@ -1,0 +1,62 @@
+{
+  "53388fd944d4": {
+    "id": "53388fd944d4",
+    "label": "91 RUE VICTOR LECLERCQ, Bois-Grenier",
+    "lat": 50.657899,
+    "lng": 2.869743,
+    "transactions": [
+      {
+        "date": "2021-03-01",
+        "priceEur": 162500,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "34f7973b803f": {
+    "id": "34f7973b803f",
+    "label": "1161 RUE D ARMENTIERES, Bois-Grenier",
+    "lat": 50.65968,
+    "lng": 2.871669,
+    "transactions": [
+      {
+        "date": "2022-04-19",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0079744fd11": {
+    "id": "b0079744fd11",
+    "label": "1136 RUE D ARMENTIERES, Bois-Grenier",
+    "lat": 50.659051,
+    "lng": 2.871929,
+    "transactions": [
+      {
+        "date": "2023-01-13",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "d0a7360b2b8c": {
+    "id": "d0a7360b2b8c",
+    "label": "85 RUE VICTOR LECLERCQ, Bois-Grenier",
+    "lat": 50.657891,
+    "lng": 2.869836,
+    "transactions": [
+      {
+        "date": "2024-04-05",
+        "priceEur": 175500,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  }
+}

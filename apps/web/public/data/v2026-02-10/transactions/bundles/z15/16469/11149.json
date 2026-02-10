@@ -1,0 +1,69 @@
+{
+  "c4000f145d65": {
+    "id": "c4000f145d65",
+    "label": "3 RUE DES CHAUMIERES, Auzouville-sur-Saâne",
+    "lat": 49.743742,
+    "lng": 0.936725,
+    "transactions": [
+      {
+        "date": "2025-02-21",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-29",
+        "priceEur": 183000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "b661c94ddf35": {
+    "id": "b661c94ddf35",
+    "label": "1 PL DANIEL NEVEU, Auzouville-sur-Saâne",
+    "lat": 49.745229,
+    "lng": 0.935026,
+    "transactions": [
+      {
+        "date": "2024-02-06",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "fcc7ef46b14f": {
+    "id": "fcc7ef46b14f",
+    "label": "10 LOT LE TEILLAGE, Auzouville-sur-Saâne",
+    "lat": 49.744976,
+    "lng": 0.937891,
+    "transactions": [
+      {
+        "date": "2024-08-13",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "f39524be315d": {
+    "id": "f39524be315d",
+    "label": "4 RTE DE LA MER, Auzouville-sur-Saâne",
+    "lat": 49.744293,
+    "lng": 0.935676,
+    "transactions": [
+      {
+        "date": "2025-01-13",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  }
+}

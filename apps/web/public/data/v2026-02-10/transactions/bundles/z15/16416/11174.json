@@ -1,0 +1,62 @@
+{
+  "a1bf86d1dde6": {
+    "id": "a1bf86d1dde6",
+    "label": "445 RUE DE LA CHOUETTE, Saint-Gilles-de-la-Neuville",
+    "lat": 49.566754,
+    "lng": 0.356104,
+    "transactions": [
+      {
+        "date": "2020-12-28",
+        "priceEur": 193800,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "f77529e07ac4": {
+    "id": "f77529e07ac4",
+    "label": "5084 LE JARDIN, Gommerville",
+    "lat": 49.565223,
+    "lng": 0.358892,
+    "transactions": [
+      {
+        "date": "2021-08-25",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "32767a2776b6": {
+    "id": "32767a2776b6",
+    "label": "505 RUE DE LA CHOUETTE, Saint-Gilles-de-la-Neuville",
+    "lat": 49.566079,
+    "lng": 0.357052,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 218000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c1b56b55f30": {
+    "id": "8c1b56b55f30",
+    "label": "890 RUE DE LA CHOUETTE, Gommerville",
+    "lat": 49.565583,
+    "lng": 0.361632,
+    "transactions": [
+      {
+        "date": "2023-07-27",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  }
+}

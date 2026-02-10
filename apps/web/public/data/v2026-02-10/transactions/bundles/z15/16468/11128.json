@@ -1,0 +1,32 @@
+{
+  "86bf5618a8a2": {
+    "id": "86bf5618a8a2",
+    "label": "135 CHE DU MOULIN A VENT, Longueil",
+    "lat": 49.887841,
+    "lng": 0.93356,
+    "transactions": [
+      {
+        "date": "2020-12-23",
+        "priceEur": 68000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "9690cd2a938c": {
+    "id": "9690cd2a938c",
+    "label": "63 CHE DU MOULIN A VENT, Longueil",
+    "lat": 49.888155,
+    "lng": 0.932699,
+    "transactions": [
+      {
+        "date": "2021-10-04",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  }
+}

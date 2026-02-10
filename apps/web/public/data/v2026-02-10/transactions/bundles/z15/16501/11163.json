@@ -1,0 +1,77 @@
+{
+  "f18683037ff0": {
+    "id": "f18683037ff0",
+    "label": "5398 LE VAL MESNIER, Saint-Martin-Osmonville",
+    "lat": 49.640521,
+    "lng": 1.29443,
+    "transactions": [
+      {
+        "date": "2020-11-09",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e89bbcd8bc7": {
+    "id": "1e89bbcd8bc7",
+    "label": "19C RTE DU VAL MESNIER, Saint-Martin-Osmonville",
+    "lat": 49.640904,
+    "lng": 1.292423,
+    "transactions": [
+      {
+        "date": "2021-11-29",
+        "priceEur": 180900,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "dc5908d19eca": {
+    "id": "dc5908d19eca",
+    "label": "5023 LE VILLAGE, Saint-Martin-Osmonville",
+    "lat": 49.640874,
+    "lng": 1.293303,
+    "transactions": [
+      {
+        "date": "2021-03-04",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "61bee2babfba": {
+    "id": "61bee2babfba",
+    "label": "5380 RTE DU VAL MESNIER, Saint-Martin-Osmonville",
+    "lat": 49.641121,
+    "lng": 1.292412,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 166000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "6bc2697b80d7": {
+    "id": "6bc2697b80d7",
+    "label": "5312 LE VILLAGE, Saint-Martin-Osmonville",
+    "lat": 49.641339,
+    "lng": 1.292481,
+    "transactions": [
+      {
+        "date": "2023-05-25",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

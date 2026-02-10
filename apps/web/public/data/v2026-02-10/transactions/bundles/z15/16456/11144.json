@@ -1,0 +1,92 @@
+{
+  "f5cdd830afab": {
+    "id": "f5cdd830afab",
+    "label": "2 RTE DE L EGLISE, Anglesqueville-la-Bras-Long",
+    "lat": 49.779472,
+    "lng": 0.79166,
+    "transactions": [
+      {
+        "date": "2021-10-20",
+        "priceEur": 231000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "c76c3bde5afc": {
+    "id": "c76c3bde5afc",
+    "label": "17 LE BOURETOUT, Anglesqueville-la-Bras-Long",
+    "lat": 49.7809,
+    "lng": 0.791838,
+    "transactions": [
+      {
+        "date": "2021-10-16",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "a8d1b85b0650": {
+    "id": "a8d1b85b0650",
+    "label": "24 RUE DU BOURRETOUT, Anglesqueville-la-Bras-Long",
+    "lat": 49.777862,
+    "lng": 0.792708,
+    "transactions": [
+      {
+        "date": "2023-08-28",
+        "priceEur": 267800,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a583ecc2f17": {
+    "id": "8a583ecc2f17",
+    "label": "13 RUE DU BOURRETOUT, Héberville",
+    "lat": 49.778376,
+    "lng": 0.793345,
+    "transactions": [
+      {
+        "date": "2024-09-06",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "d65fb031d2c6": {
+    "id": "d65fb031d2c6",
+    "label": "11 RUE DU BOURRETOUT, Héberville",
+    "lat": 49.778349,
+    "lng": 0.793037,
+    "transactions": [
+      {
+        "date": "2024-10-01",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "f59574f58ff3": {
+    "id": "f59574f58ff3",
+    "label": "8 RUE DE LA PLAINE, Héberville",
+    "lat": 49.779461,
+    "lng": 0.794175,
+    "transactions": [
+      {
+        "date": "2024-10-02",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  }
+}

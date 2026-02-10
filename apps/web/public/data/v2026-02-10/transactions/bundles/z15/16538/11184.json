@@ -1,0 +1,47 @@
+{
+  "a507a4914ef7": {
+    "id": "a507a4914ef7",
+    "label": "1760 CHE DES MORUES, Gournay-en-Bray",
+    "lat": 49.494669,
+    "lng": 1.694828,
+    "transactions": [
+      {
+        "date": "2022-10-06",
+        "priceEur": 269500,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      }
+    ]
+  },
+  "47976ab144b2": {
+    "id": "47976ab144b2",
+    "label": "1805 CHE DES MORUES, Gournay-en-Bray",
+    "lat": 49.494532,
+    "lng": 1.694169,
+    "transactions": [
+      {
+        "date": "2022-11-26",
+        "priceEur": 184800,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "b02c80f447bd": {
+    "id": "b02c80f447bd",
+    "label": "1620 CHE DES MORUES, Gournay-en-Bray",
+    "lat": 49.495757,
+    "lng": 1.695677,
+    "transactions": [
+      {
+        "date": "2024-09-19",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  }
+}

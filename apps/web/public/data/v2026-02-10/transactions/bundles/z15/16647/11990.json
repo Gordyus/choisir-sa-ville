@@ -1,0 +1,47 @@
+{
+  "80db1159d675": {
+    "id": "80db1159d675",
+    "label": "7003 AV DE SAINT CHINIAN, Assignan",
+    "lat": 43.399264,
+    "lng": 2.890942,
+    "transactions": [
+      {
+        "date": "2021-05-11",
+        "priceEur": 182550,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "519ae0cf1c7c": {
+    "id": "519ae0cf1c7c",
+    "label": "5106 LE VILLAGE, Assignan",
+    "lat": 43.397111,
+    "lng": 2.889414,
+    "transactions": [
+      {
+        "date": "2022-07-11",
+        "priceEur": 72000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "46e0a6c6c267": {
+    "id": "46e0a6c6c267",
+    "label": "1 AV DE SAINT CHINIAN, Assignan",
+    "lat": 43.398189,
+    "lng": 2.890008,
+    "transactions": [
+      {
+        "date": "2024-11-04",
+        "priceEur": 119000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

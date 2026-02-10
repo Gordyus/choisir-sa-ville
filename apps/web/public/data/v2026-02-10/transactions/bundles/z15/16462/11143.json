@@ -1,0 +1,122 @@
+{
+  "9678604f2390": {
+    "id": "9678604f2390",
+    "label": "3 RTE DE CANVILLE, Brametot",
+    "lat": 49.783985,
+    "lng": 0.867042,
+    "transactions": [
+      {
+        "date": "2020-10-02",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "37e98d4f67a2": {
+    "id": "37e98d4f67a2",
+    "label": "3 RUE DE LA RUETTE, Brametot",
+    "lat": 49.786766,
+    "lng": 0.864432,
+    "transactions": [
+      {
+        "date": "2021-05-26",
+        "priceEur": 156500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "466e81ff0239": {
+    "id": "466e81ff0239",
+    "label": "5 RUE DE LA RUETTE, Brametot",
+    "lat": 49.78786,
+    "lng": 0.864724,
+    "transactions": [
+      {
+        "date": "2021-07-02",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "c81b2dcc0978": {
+    "id": "c81b2dcc0978",
+    "label": "4 RTE DE CANVILLE, Brametot",
+    "lat": 49.784873,
+    "lng": 0.867813,
+    "transactions": [
+      {
+        "date": "2021-07-27",
+        "priceEur": 180200,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2d9dc80de6b": {
+    "id": "c2d9dc80de6b",
+    "label": "8 RTE DE CANVILLE, Brametot",
+    "lat": 49.78425,
+    "lng": 0.865753,
+    "transactions": [
+      {
+        "date": "2022-07-21",
+        "priceEur": 120748,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c6ac789aa14": {
+    "id": "4c6ac789aa14",
+    "label": "24 RUE DE L EGLISE, Brametot",
+    "lat": 49.786577,
+    "lng": 0.864201,
+    "transactions": [
+      {
+        "date": "2023-03-27",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d4cf7d49584": {
+    "id": "9d4cf7d49584",
+    "label": "2 LOT LES JONCS MARINS, Brametot",
+    "lat": 49.783248,
+    "lng": 0.864036,
+    "transactions": [
+      {
+        "date": "2024-04-29",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3795a25679a": {
+    "id": "a3795a25679a",
+    "label": "14 RUE DE L EGLISE, Brametot",
+    "lat": 49.785783,
+    "lng": 0.865411,
+    "transactions": [
+      {
+        "date": "2025-05-07",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  }
+}

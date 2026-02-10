@@ -1,0 +1,32 @@
+{
+  "e0ed054e91b2": {
+    "id": "e0ed054e91b2",
+    "label": "10 RTE DE CRIEL, Fallencourt",
+    "lat": 49.867325,
+    "lng": 1.597152,
+    "transactions": [
+      {
+        "date": "2023-01-30",
+        "priceEur": 362250,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "a233d38f0404": {
+    "id": "a233d38f0404",
+    "label": "28 VAL JACOB, Fallencourt",
+    "lat": 49.867337,
+    "lng": 1.596631,
+    "transactions": [
+      {
+        "date": "2023-01-30",
+        "priceEur": 362250,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

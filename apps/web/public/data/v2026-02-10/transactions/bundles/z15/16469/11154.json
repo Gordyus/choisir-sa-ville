@@ -1,0 +1,54 @@
+{
+  "7b9a638ff3eb": {
+    "id": "7b9a638ff3eb",
+    "label": "574 RUE D'ETAUHAGUE, Imbleville",
+    "lat": 49.709498,
+    "lng": 0.935262,
+    "transactions": [
+      {
+        "date": "2022-12-16",
+        "priceEur": 249550,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-14",
+        "priceEur": 182400,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "d091d4f36c60": {
+    "id": "d091d4f36c60",
+    "label": "1992 RUE DE LA CROIX SAINT JEAN, Imbleville",
+    "lat": 49.707238,
+    "lng": 0.935881,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b65cad61abc": {
+    "id": "0b65cad61abc",
+    "label": "2000 RUE DE LA CROIX SAINT JEAN, Imbleville",
+    "lat": 49.707305,
+    "lng": 0.935372,
+    "transactions": [
+      {
+        "date": "2021-07-12",
+        "priceEur": 229000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  }
+}

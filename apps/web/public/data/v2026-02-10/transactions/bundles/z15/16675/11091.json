@@ -1,0 +1,62 @@
+{
+  "5a91f8e07c5c": {
+    "id": "5a91f8e07c5c",
+    "label": "21 RUE RENE DUMONT, Proville",
+    "lat": 50.154694,
+    "lng": 3.208003,
+    "transactions": [
+      {
+        "date": "2020-12-16",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "38e095f30e35": {
+    "id": "38e095f30e35",
+    "label": "12 RUE RENE DUMONT, Proville",
+    "lat": 50.155142,
+    "lng": 3.207646,
+    "transactions": [
+      {
+        "date": "2021-03-26",
+        "priceEur": 171600,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "295f68fbcb2a": {
+    "id": "295f68fbcb2a",
+    "label": "9 RUE PAUL EMILE VICTOR, Proville",
+    "lat": 50.154769,
+    "lng": 3.207563,
+    "transactions": [
+      {
+        "date": "2021-03-31",
+        "priceEur": 230100,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "068f7c002159": {
+    "id": "068f7c002159",
+    "label": "5 RUE PIERRE MAUROY, Proville",
+    "lat": 50.154212,
+    "lng": 3.206122,
+    "transactions": [
+      {
+        "date": "2022-11-07",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

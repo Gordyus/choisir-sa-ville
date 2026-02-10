@@ -1,0 +1,47 @@
+{
+  "34835827485b": {
+    "id": "34835827485b",
+    "label": "5042 LES MAISONS ROUGES, Saint-Maclou-de-Folleville",
+    "lat": 49.664772,
+    "lng": 1.071046,
+    "transactions": [
+      {
+        "date": "2020-08-10",
+        "priceEur": 99000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "d2651168d79e": {
+    "id": "d2651168d79e",
+    "label": "5043 LES MAISONS ROUGES, Saint-Maclou-de-Folleville",
+    "lat": 49.664587,
+    "lng": 1.071296,
+    "transactions": [
+      {
+        "date": "2020-08-10",
+        "priceEur": 99000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "75d6c04f38ac": {
+    "id": "75d6c04f38ac",
+    "label": "5040 LES MAISONS ROUGES, Saint-Maclou-de-Folleville",
+    "lat": 49.664539,
+    "lng": 1.073301,
+    "transactions": [
+      {
+        "date": "2023-03-13",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

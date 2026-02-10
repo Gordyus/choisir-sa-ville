@@ -1,0 +1,99 @@
+{
+  "66ee94a76519": {
+    "id": "66ee94a76519",
+    "label": "2019 RTE DE BRAY DUNES, Winnezeele",
+    "lat": 50.853253,
+    "lng": 2.572773,
+    "transactions": [
+      {
+        "date": "2020-11-19",
+        "priceEur": 216000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "41f968ca7ca6": {
+    "id": "41f968ca7ca6",
+    "label": "1415 RTE DE BRAY DUNES, Winnezeele",
+    "lat": 50.848313,
+    "lng": 2.570998,
+    "transactions": [
+      {
+        "date": "2021-01-22",
+        "priceEur": 304000,
+        "typeLocal": "Maison",
+        "surfaceM2": 161,
+        "isVefa": false
+      }
+    ]
+  },
+  "b95052872233": {
+    "id": "b95052872233",
+    "label": "364 RTE DE WATOU, Winnezeele",
+    "lat": 50.851492,
+    "lng": 2.576068,
+    "transactions": [
+      {
+        "date": "2021-07-28",
+        "priceEur": 105500,
+        "typeLocal": "Maison",
+        "surfaceM2": 27,
+        "isVefa": false
+      }
+    ]
+  },
+  "51925c02f3c7": {
+    "id": "51925c02f3c7",
+    "label": "232 RTE DE WATOU, Winnezeele",
+    "lat": 50.851125,
+    "lng": 2.574331,
+    "transactions": [
+      {
+        "date": "2022-03-03",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-03",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d84aba291f1": {
+    "id": "0d84aba291f1",
+    "label": "342 RTE DE WATOU, Winnezeele",
+    "lat": 50.851407,
+    "lng": 2.576021,
+    "transactions": [
+      {
+        "date": "2024-06-26",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "2883ebba8968": {
+    "id": "2883ebba8968",
+    "label": "1556 RTE DE BRAY DUNES, Winnezeele",
+    "lat": 50.849349,
+    "lng": 2.571447,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

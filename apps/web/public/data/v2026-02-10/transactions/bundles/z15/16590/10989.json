@@ -1,0 +1,32 @@
+{
+  "9f24c922f777": {
+    "id": "9f24c922f777",
+    "label": "1775 RTE DU BEAUFORT, Merckeghem",
+    "lat": 50.867538,
+    "lng": 2.269588,
+    "transactions": [
+      {
+        "date": "2021-04-22",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "89e2aea352ca": {
+    "id": "89e2aea352ca",
+    "label": "1955 RTE DU BEAUFORT, Merckeghem",
+    "lat": 50.868165,
+    "lng": 2.26733,
+    "transactions": [
+      {
+        "date": "2024-08-08",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

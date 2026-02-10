@@ -1,0 +1,32 @@
+{
+  "f7bdbed44386": {
+    "id": "f7bdbed44386",
+    "label": "2B RUE DE FOLLEVILLE, Montroty",
+    "lat": 49.443506,
+    "lng": 1.673399,
+    "transactions": [
+      {
+        "date": "2020-09-26",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ad4e6267b0b": {
+    "id": "1ad4e6267b0b",
+    "label": "1030 RUE DE FOLLEVILLE, Montroty",
+    "lat": 49.443974,
+    "lng": 1.674743,
+    "transactions": [
+      {
+        "date": "2023-12-13",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  }
+}

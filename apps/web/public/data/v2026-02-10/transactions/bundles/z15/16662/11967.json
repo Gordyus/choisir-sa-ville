@@ -1,0 +1,84 @@
+{
+  "91b898457e12": {
+    "id": "91b898457e12",
+    "label": "6 LOT ST LOUIS IV, Le Poujol-sur-Orb",
+    "lat": 43.581797,
+    "lng": 3.061248,
+    "transactions": [
+      {
+        "date": "2021-08-02",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "8630e9753fda": {
+    "id": "8630e9753fda",
+    "label": "9 LOT ST LOUIS IV, Le Poujol-sur-Orb",
+    "lat": 43.581356,
+    "lng": 3.061495,
+    "transactions": [
+      {
+        "date": "2021-12-20",
+        "priceEur": 91000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "a7f692f4b413": {
+    "id": "a7f692f4b413",
+    "label": "26 RUE DE L ESPINOUSE, Le Poujol-sur-Orb",
+    "lat": 43.582234,
+    "lng": 3.054214,
+    "transactions": [
+      {
+        "date": "2022-02-04",
+        "priceEur": 332000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "62da80d78c58": {
+    "id": "62da80d78c58",
+    "label": "3 LOT ST LOUIS IV, Le Poujol-sur-Orb",
+    "lat": 43.581743,
+    "lng": 3.062245,
+    "transactions": [
+      {
+        "date": "2022-10-27",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "78ba6eecdf32": {
+    "id": "78ba6eecdf32",
+    "label": "28 LOT DE LA COMBE, Le Poujol-sur-Orb",
+    "lat": 43.583891,
+    "lng": 3.063613,
+    "transactions": [
+      {
+        "date": "2025-02-14",
+        "priceEur": 213990,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-01",
+        "priceEur": 175820,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "af24d434a5c3": {
+    "id": "af24d434a5c3",
+    "label": "5440 FONTAINE AUX CAILLOUX, Fontaine-la-Mallet",
+    "lat": 49.539574,
+    "lng": 0.141629,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd08fe88f32b": {
+    "id": "bd08fe88f32b",
+    "label": "5475 FONTAINE AUX CAILLOUX, Fontaine-la-Mallet",
+    "lat": 49.539638,
+    "lng": 0.141321,
+    "transactions": [
+      {
+        "date": "2022-08-02",
+        "priceEur": 503000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  }
+}

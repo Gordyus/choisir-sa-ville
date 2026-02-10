@@ -1,0 +1,32 @@
+{
+  "eced5705a457": {
+    "id": "eced5705a457",
+    "label": "418B RUE SAINT HUBERT, Bouvines",
+    "lat": 50.574194,
+    "lng": 3.189426,
+    "transactions": [
+      {
+        "date": "2021-11-10",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "bed431b92867": {
+    "id": "bed431b92867",
+    "label": "126 RUE DU MELCHAMEZ, Bouvines",
+    "lat": 50.572653,
+    "lng": 3.19114,
+    "transactions": [
+      {
+        "date": "2021-11-22",
+        "priceEur": 378000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  }
+}

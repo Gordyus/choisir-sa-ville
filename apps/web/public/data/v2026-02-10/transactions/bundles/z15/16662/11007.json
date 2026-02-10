@@ -1,0 +1,189 @@
+{
+  "e78540118e7a": {
+    "id": "e78540118e7a",
+    "label": "161 RUE DE WERVICQ, Linselles",
+    "lat": 50.742259,
+    "lng": 3.06242,
+    "transactions": [
+      {
+        "date": "2022-09-19",
+        "priceEur": 605000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-31",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "04aa9389dee5": {
+    "id": "04aa9389dee5",
+    "label": "167B RUE DE WERVICQ, Linselles",
+    "lat": 50.742547,
+    "lng": 3.061322,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 294550,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e1debef4685": {
+    "id": "3e1debef4685",
+    "label": "13 CHE DE LA VIGNE, Linselles",
+    "lat": 50.74052,
+    "lng": 3.061432,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 633500,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "f626865d0ff7": {
+    "id": "f626865d0ff7",
+    "label": "146B RUE DE WERVICQ, Linselles",
+    "lat": 50.742863,
+    "lng": 3.062126,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 530350,
+        "typeLocal": "Maison",
+        "surfaceM2": 158,
+        "isVefa": false
+      }
+    ]
+  },
+  "18d35adb03db": {
+    "id": "18d35adb03db",
+    "label": "19 CHE DE LA VIGNE, Linselles",
+    "lat": 50.738792,
+    "lng": 3.061966,
+    "transactions": [
+      {
+        "date": "2021-04-23",
+        "priceEur": 482000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8da23894801": {
+    "id": "e8da23894801",
+    "label": "161T RUE DE WERVICQ, Linselles",
+    "lat": 50.741857,
+    "lng": 3.062256,
+    "transactions": [
+      {
+        "date": "2021-08-03",
+        "priceEur": 616300,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "bdc0f0b58c22": {
+    "id": "bdc0f0b58c22",
+    "label": "173 RUE DE WERVICQ, Linselles",
+    "lat": 50.742943,
+    "lng": 3.060978,
+    "transactions": [
+      {
+        "date": "2021-08-09",
+        "priceEur": 293980,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "c41dfb764d3c": {
+    "id": "c41dfb764d3c",
+    "label": "159 RUE DE WERVICQ, Linselles",
+    "lat": 50.741882,
+    "lng": 3.063009,
+    "transactions": [
+      {
+        "date": "2021-09-27",
+        "priceEur": 514975,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "d53feaac446b": {
+    "id": "d53feaac446b",
+    "label": "169 RUE DE WERVICQ, Linselles",
+    "lat": 50.74272,
+    "lng": 3.061032,
+    "transactions": [
+      {
+        "date": "2022-10-07",
+        "priceEur": 393000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "8081246d8fd5": {
+    "id": "8081246d8fd5",
+    "label": "6 CHE DE LA VIGNE, Linselles",
+    "lat": 50.741361,
+    "lng": 3.060704,
+    "transactions": [
+      {
+        "date": "2023-04-11",
+        "priceEur": 921800,
+        "typeLocal": "Maison",
+        "surfaceM2": 184,
+        "isVefa": false
+      }
+    ]
+  },
+  "195c0b38e597": {
+    "id": "195c0b38e597",
+    "label": "157 RUE DE WERVICQ, Linselles",
+    "lat": 50.741882,
+    "lng": 3.063009,
+    "transactions": [
+      {
+        "date": "2024-10-14",
+        "priceEur": 523500,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "64323064674f": {
+    "id": "64323064674f",
+    "label": "13C CHE DE LA VIGNE, Linselles",
+    "lat": 50.740544,
+    "lng": 3.061689,
+    "transactions": [
+      {
+        "date": "2025-05-07",
+        "priceEur": 756500,
+        "typeLocal": "Maison",
+        "surfaceM2": 211,
+        "isVefa": false
+      }
+    ]
+  }
+}

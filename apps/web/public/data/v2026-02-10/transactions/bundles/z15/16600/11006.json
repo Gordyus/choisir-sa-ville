@@ -1,0 +1,91 @@
+{
+  "70ac111e3cb5": {
+    "id": "70ac111e3cb5",
+    "label": "1 RTE DE LE NIEPPE, Renescure",
+    "lat": 50.744886,
+    "lng": 2.381773,
+    "transactions": [
+      {
+        "date": "2020-08-12",
+        "priceEur": 238000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-12",
+        "priceEur": 238000,
+        "typeLocal": "Maison",
+        "surfaceM2": 201,
+        "isVefa": false
+      }
+    ]
+  },
+  "0a43dccba747": {
+    "id": "0a43dccba747",
+    "label": "135 RTE DE CASSEL, Renescure",
+    "lat": 50.743872,
+    "lng": 2.379031,
+    "transactions": [
+      {
+        "date": "2025-01-07",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-10",
+        "priceEur": 116300,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f7ae6800f4e": {
+    "id": "9f7ae6800f4e",
+    "label": "111 RTE DE CASSEL, Renescure",
+    "lat": 50.745586,
+    "lng": 2.376623,
+    "transactions": [
+      {
+        "date": "2021-05-26",
+        "priceEur": 228220,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "ddb40621db3a": {
+    "id": "ddb40621db3a",
+    "label": "141 RTE DE CASSEL, Renescure",
+    "lat": 50.743805,
+    "lng": 2.37975,
+    "transactions": [
+      {
+        "date": "2021-12-11",
+        "priceEur": 207030,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "66de1900a6ba": {
+    "id": "66de1900a6ba",
+    "label": "139 RTE DE CASSEL, Renescure",
+    "lat": 50.743741,
+    "lng": 2.379469,
+    "transactions": [
+      {
+        "date": "2025-01-29",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  }
+}

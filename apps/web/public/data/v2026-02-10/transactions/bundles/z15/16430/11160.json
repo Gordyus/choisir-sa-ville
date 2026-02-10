@@ -1,0 +1,61 @@
+{
+  "b08a25129c3d": {
+    "id": "b08a25129c3d",
+    "label": "6 RUE DE L'ANCIEN FOUR, Tocqueville-les-Murs",
+    "lat": 49.666323,
+    "lng": 0.50708,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 71000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-04",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "09fa913549e9": {
+    "id": "09fa913549e9",
+    "label": "3 IMP DU CHEMIN VERT, Tocqueville-les-Murs",
+    "lat": 49.661607,
+    "lng": 0.508843,
+    "transactions": [
+      {
+        "date": "2021-10-07",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "329e71be8c21": {
+    "id": "329e71be8c21",
+    "label": "7 RTE DE LA FLAMME OLYMPIQUE, Tocqueville-les-Murs",
+    "lat": 49.662747,
+    "lng": 0.508892,
+    "transactions": [
+      {
+        "date": "2025-01-10",
+        "priceEur": 67500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-31",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

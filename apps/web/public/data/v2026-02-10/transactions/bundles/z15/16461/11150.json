@@ -1,0 +1,61 @@
+{
+  "021eedabbbfa": {
+    "id": "021eedabbbfa",
+    "label": "2 RUE ANDRE RAIMBOURG, Prétot-Vicquemare",
+    "lat": 49.731681,
+    "lng": 0.853497,
+    "transactions": [
+      {
+        "date": "2020-08-27",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d95bd90a4c1": {
+    "id": "2d95bd90a4c1",
+    "label": "3 RTE DE BOUDEVILLE, Prétot-Vicquemare",
+    "lat": 49.732464,
+    "lng": 0.856295,
+    "transactions": [
+      {
+        "date": "2021-07-23",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-23",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-23",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f7fbbc73a57": {
+    "id": "9f7fbbc73a57",
+    "label": "1 RUE DE LA MARE, Prétot-Vicquemare",
+    "lat": 49.734912,
+    "lng": 0.851063,
+    "transactions": [
+      {
+        "date": "2021-11-10",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

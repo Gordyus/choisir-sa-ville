@@ -1,0 +1,47 @@
+{
+  "560bb91eb7ae": {
+    "id": "560bb91eb7ae",
+    "label": "760 RUE CROIX DE TROUVILLE, Bois-d'Ennebourg",
+    "lat": 49.430132,
+    "lng": 1.267509,
+    "transactions": [
+      {
+        "date": "2022-10-20",
+        "priceEur": 183800,
+        "typeLocal": "Maison",
+        "surfaceM2": 192,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e166d36346a": {
+    "id": "3e166d36346a",
+    "label": "1382 RUE DE COQUEREAUMONT, Bois-d'Ennebourg",
+    "lat": 49.425434,
+    "lng": 1.274081,
+    "transactions": [
+      {
+        "date": "2024-09-04",
+        "priceEur": 304000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "b992116560e6": {
+    "id": "b992116560e6",
+    "label": "91 RUE CROIX DE TROUVILLE, Bois-d'Ennebourg",
+    "lat": 49.426095,
+    "lng": 1.274211,
+    "transactions": [
+      {
+        "date": "2025-05-16",
+        "priceEur": 345300,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  }
+}

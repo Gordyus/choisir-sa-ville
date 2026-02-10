@@ -1,0 +1,24 @@
+{
+  "f1daf0c81224": {
+    "id": "f1daf0c81224",
+    "label": "2 SAINT NAZAIRE LE HAUT, Capestang",
+    "lat": 43.308927,
+    "lng": 3.033664,
+    "transactions": [
+      {
+        "date": "2021-07-22",
+        "priceEur": 385000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-22",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 189,
+        "isVefa": false
+      }
+    ]
+  }
+}

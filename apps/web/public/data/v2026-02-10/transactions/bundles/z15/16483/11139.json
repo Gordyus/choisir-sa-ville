@@ -1,0 +1,47 @@
+{
+  "7a02f1be570a": {
+    "id": "7a02f1be570a",
+    "label": "28 RTE DE LA MER, Dénestanville",
+    "lat": 49.813761,
+    "lng": 1.095848,
+    "transactions": [
+      {
+        "date": "2023-05-25",
+        "priceEur": 71000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "d80a5d0c5c41": {
+    "id": "d80a5d0c5c41",
+    "label": "5 RTE DE LA MER, Dénestanville",
+    "lat": 49.81198,
+    "lng": 1.096154,
+    "transactions": [
+      {
+        "date": "2024-07-05",
+        "priceEur": 251520,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b85b53be243": {
+    "id": "0b85b53be243",
+    "label": "1 IMP DES AUBEPINES, Dénestanville",
+    "lat": 49.812183,
+    "lng": 1.09498,
+    "transactions": [
+      {
+        "date": "2025-03-24",
+        "priceEur": 87200,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  }
+}

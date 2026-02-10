@@ -1,0 +1,32 @@
+{
+  "99d52942ce8d": {
+    "id": "99d52942ce8d",
+    "label": "369 RUE DES TROIS ROIS, Nieppe",
+    "lat": 50.710565,
+    "lng": 2.834961,
+    "transactions": [
+      {
+        "date": "2022-05-12",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "462fae2c070c": {
+    "id": "462fae2c070c",
+    "label": "245 RUE DES TROIS ROIS, Nieppe",
+    "lat": 50.709286,
+    "lng": 2.83469,
+    "transactions": [
+      {
+        "date": "2024-03-28",
+        "priceEur": 283000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  }
+}

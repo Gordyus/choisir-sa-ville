@@ -1,0 +1,159 @@
+{
+  "0d2c034f0fee": {
+    "id": "0d2c034f0fee",
+    "label": "166 RTE DE MAYRES, Lodève",
+    "lat": 43.741137,
+    "lng": 3.314829,
+    "transactions": [
+      {
+        "date": "2020-11-26",
+        "priceEur": 235500,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac22e78eb129": {
+    "id": "ac22e78eb129",
+    "label": "181 CHE DES MESANGES, Lodève",
+    "lat": 43.742717,
+    "lng": 3.316788,
+    "transactions": [
+      {
+        "date": "2021-08-24",
+        "priceEur": 287500,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "76645dab206d": {
+    "id": "76645dab206d",
+    "label": "170 CHE DE L OPPIDUM, Lodève",
+    "lat": 43.740382,
+    "lng": 3.308227,
+    "transactions": [
+      {
+        "date": "2021-11-16",
+        "priceEur": 450000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "d99904772cac": {
+    "id": "d99904772cac",
+    "label": "97 CHE DES MESANGES, Lodève",
+    "lat": 43.742012,
+    "lng": 3.317228,
+    "transactions": [
+      {
+        "date": "2022-01-24",
+        "priceEur": 325330,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "674319ca830b": {
+    "id": "674319ca830b",
+    "label": "3 LOT LE CHATEAU D EAU, Lodève",
+    "lat": 43.7421,
+    "lng": 3.316058,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 337500,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1efcee82c6a": {
+    "id": "b1efcee82c6a",
+    "label": "495 RTE DE MAYRES, Lodève",
+    "lat": 43.742187,
+    "lng": 3.314248,
+    "transactions": [
+      {
+        "date": "2022-12-13",
+        "priceEur": 474155,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-13",
+        "priceEur": 474155,
+        "typeLocal": "Appartement",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  },
+  "45d8d898e08e": {
+    "id": "45d8d898e08e",
+    "label": "9268 LES GRASSERIES HAUTES, Lodève",
+    "lat": 43.746729,
+    "lng": 3.311911,
+    "transactions": [
+      {
+        "date": "2023-10-30",
+        "priceEur": 32000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "42d7523be8c1": {
+    "id": "42d7523be8c1",
+    "label": "9001 LES ROUCANS, Lodève",
+    "lat": 43.743604,
+    "lng": 3.317371,
+    "transactions": [
+      {
+        "date": "2024-04-12",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 24,
+        "isVefa": false
+      }
+    ]
+  },
+  "302f753a6b4a": {
+    "id": "302f753a6b4a",
+    "label": "1014 RTE DE MAYRES, Lodève",
+    "lat": 43.742009,
+    "lng": 3.311136,
+    "transactions": [
+      {
+        "date": "2025-01-07",
+        "priceEur": 369300,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d74750e7791": {
+    "id": "1d74750e7791",
+    "label": "444 RTE DE MAYRES, Lodève",
+    "lat": 43.741432,
+    "lng": 3.313618,
+    "transactions": [
+      {
+        "date": "2025-04-18",
+        "priceEur": 354570,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  }
+}

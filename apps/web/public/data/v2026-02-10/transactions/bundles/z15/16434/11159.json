@@ -1,0 +1,91 @@
+{
+  "67059814e1db": {
+    "id": "67059814e1db",
+    "label": "426 RUE DU MANOIR, Terres-de-Caux",
+    "lat": 49.669746,
+    "lng": 0.550673,
+    "transactions": [
+      {
+        "date": "2020-10-16",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d43b5e8b3d1": {
+    "id": "8d43b5e8b3d1",
+    "label": "59 RTE MANOURY, Terres-de-Caux",
+    "lat": 49.669177,
+    "lng": 0.550201,
+    "transactions": [
+      {
+        "date": "2022-07-12",
+        "priceEur": 149900,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f55817d9ae9": {
+    "id": "1f55817d9ae9",
+    "label": "210B RUE DU MANOIR, Terres-de-Caux",
+    "lat": 49.671115,
+    "lng": 0.552089,
+    "transactions": [
+      {
+        "date": "2022-11-07",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-07",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-07",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "16debc586f43": {
+    "id": "16debc586f43",
+    "label": "78 RUE DU MANOIR, Terres-de-Caux",
+    "lat": 49.672085,
+    "lng": 0.553498,
+    "transactions": [
+      {
+        "date": "2022-11-21",
+        "priceEur": 864379.2,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "eb194ea5e385": {
+    "id": "eb194ea5e385",
+    "label": "179 RUE DES 3 FERMES, Terres-de-Caux",
+    "lat": 49.672285,
+    "lng": 0.550592,
+    "transactions": [
+      {
+        "date": "2025-01-23",
+        "priceEur": 188384,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

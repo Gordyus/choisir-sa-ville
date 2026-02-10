@@ -1,0 +1,69 @@
+{
+  "4e9eedcfed6f": {
+    "id": "4e9eedcfed6f",
+    "label": "80 ALL DES FRENES, Loffre",
+    "lat": 50.359272,
+    "lng": 3.184591,
+    "transactions": [
+      {
+        "date": "2021-12-03",
+        "priceEur": 243500,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "150a412c9996": {
+    "id": "150a412c9996",
+    "label": "1424 RUE DES MOINES, Loffre",
+    "lat": 50.356761,
+    "lng": 3.175904,
+    "transactions": [
+      {
+        "date": "2021-03-29",
+        "priceEur": 246385,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "b61eab4ea460": {
+    "id": "b61eab4ea460",
+    "label": "1665 RUE DES MOINES, Loffre",
+    "lat": 50.358579,
+    "lng": 3.178088,
+    "transactions": [
+      {
+        "date": "2022-04-06",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "357dfb265724": {
+    "id": "357dfb265724",
+    "label": "1715 RUE DES MOINES, Loffre",
+    "lat": 50.358715,
+    "lng": 3.178732,
+    "transactions": [
+      {
+        "date": "2024-11-06",
+        "priceEur": 197500,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-16",
+        "priceEur": 205600,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

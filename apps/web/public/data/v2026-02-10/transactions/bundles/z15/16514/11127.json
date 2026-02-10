@@ -1,0 +1,32 @@
+{
+  "51e6cead9cbe": {
+    "id": "51e6cead9cbe",
+    "label": "5030 TOUFFECAL HAMEAU, Fresnoy-Folny",
+    "lat": 49.89549,
+    "lng": 1.435263,
+    "transactions": [
+      {
+        "date": "2021-03-06",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "c75f7ac53527": {
+    "id": "c75f7ac53527",
+    "label": "5027 TOUFFECAL HAMEAU, Fresnoy-Folny",
+    "lat": 49.895173,
+    "lng": 1.434044,
+    "transactions": [
+      {
+        "date": "2023-12-26",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  }
+}

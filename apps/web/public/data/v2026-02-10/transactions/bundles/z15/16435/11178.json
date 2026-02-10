@@ -1,0 +1,61 @@
+{
+  "88d221c6f8e5": {
+    "id": "88d221c6f8e5",
+    "label": "13 RUE DE LA MARE MENARD, La Frénaye",
+    "lat": 49.532544,
+    "lng": 0.567253,
+    "transactions": [
+      {
+        "date": "2021-04-22",
+        "priceEur": 233000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "e139cfbcdabf": {
+    "id": "e139cfbcdabf",
+    "label": "5007 LE PUITS MAILLE, Lintot",
+    "lat": 49.539406,
+    "lng": 0.561056,
+    "transactions": [
+      {
+        "date": "2022-12-20",
+        "priceEur": 161000,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-24",
+        "priceEur": 56000,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  },
+  "17cb52c8262b": {
+    "id": "17cb52c8262b",
+    "label": "5008 LE PUITS MAILLE, Lintot",
+    "lat": 49.53943,
+    "lng": 0.561162,
+    "transactions": [
+      {
+        "date": "2022-12-20",
+        "priceEur": 161000,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-24",
+        "priceEur": 56000,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "bb0a47bee97b": {
+    "id": "bb0a47bee97b",
+    "label": "625 RUNETOT, Motteville",
+    "lat": 49.613193,
+    "lng": 0.840926,
+    "transactions": [
+      {
+        "date": "2021-07-21",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3167f2af4f8": {
+    "id": "c3167f2af4f8",
+    "label": "660 RUNETOT, Motteville",
+    "lat": 49.613426,
+    "lng": 0.840152,
+    "transactions": [
+      {
+        "date": "2021-07-08",
+        "priceEur": 191000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "a8b3df9ea26d": {
+    "id": "a8b3df9ea26d",
+    "label": "257 RUNETOT, Motteville",
+    "lat": 49.614732,
+    "lng": 0.841611,
+    "transactions": [
+      {
+        "date": "2024-11-08",
+        "priceEur": 259150,
+        "typeLocal": "Maison",
+        "surfaceM2": 181,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-27",
+        "priceEur": 253000,
+        "typeLocal": "Maison",
+        "surfaceM2": 181,
+        "isVefa": false
+      }
+    ]
+  },
+  "305d9d14f102": {
+    "id": "305d9d14f102",
+    "label": "614 RUNETOT, Motteville",
+    "lat": 49.61349,
+    "lng": 0.840838,
+    "transactions": [
+      {
+        "date": "2023-07-24",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "292ebead625f": {
+    "id": "292ebead625f",
+    "label": "569 RUNETOT, Motteville",
+    "lat": 49.613889,
+    "lng": 0.84229,
+    "transactions": [
+      {
+        "date": "2023-09-01",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "06c0bb23d4bc": {
+    "id": "06c0bb23d4bc",
+    "label": "231 RUNETOT, Motteville",
+    "lat": 49.615679,
+    "lng": 0.841939,
+    "transactions": [
+      {
+        "date": "2024-09-11",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "596b03b467b6": {
+    "id": "596b03b467b6",
+    "label": "5 RUE DU DOMAINE DE LA COLME, Looberghe",
+    "lat": 50.915415,
+    "lng": 2.270122,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 217000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "9008e1162945": {
+    "id": "9008e1162945",
+    "label": "8 RUE DU DOMAINE DE LA COLME, Looberghe",
+    "lat": 50.916052,
+    "lng": 2.270281,
+    "transactions": [
+      {
+        "date": "2020-12-07",
+        "priceEur": 250250,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "b351fdbe225e": {
+    "id": "b351fdbe225e",
+    "label": "100 CHE DE HALAGE, Looberghe",
+    "lat": 50.916269,
+    "lng": 2.268095,
+    "transactions": [
+      {
+        "date": "2024-12-31",
+        "priceEur": 187000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-23",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "cdf288f918e3": {
+    "id": "cdf288f918e3",
+    "label": "393 RTE DE CASSEL, Looberghe",
+    "lat": 50.916565,
+    "lng": 2.273985,
+    "transactions": [
+      {
+        "date": "2021-12-23",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "54b08adeb214": {
+    "id": "54b08adeb214",
+    "label": "7 RUE DU DOMAINE DE LA COLME, Looberghe",
+    "lat": 50.915856,
+    "lng": 2.270089,
+    "transactions": [
+      {
+        "date": "2022-02-07",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "15dbbdaa784f": {
+    "id": "15dbbdaa784f",
+    "label": "12 RUE DU VIEUX MOULIN, Looberghe",
+    "lat": 50.916201,
+    "lng": 2.26513,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 195148,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "5bce4b723e9a": {
+    "id": "5bce4b723e9a",
+    "label": "83 RUE DU ROSENDAEL, Looberghe",
+    "lat": 50.91002,
+    "lng": 2.274057,
+    "transactions": [
+      {
+        "date": "2023-11-06",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "6891048c9f08": {
+    "id": "6891048c9f08",
+    "label": "9 RUE DU DOMAINE DE LA COLME, Looberghe",
+    "lat": 50.91627,
+    "lng": 2.270466,
+    "transactions": [
+      {
+        "date": "2024-02-05",
+        "priceEur": 235600,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "b996579b1320": {
+    "id": "b996579b1320",
+    "label": "275 RTE DE CASSEL, Looberghe",
+    "lat": 50.91672,
+    "lng": 2.272401,
+    "transactions": [
+      {
+        "date": "2025-06-19",
+        "priceEur": 166000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

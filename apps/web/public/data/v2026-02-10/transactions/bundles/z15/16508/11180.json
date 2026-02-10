@@ -1,0 +1,32 @@
+{
+  "8ad939ce2a0e": {
+    "id": "8ad939ce2a0e",
+    "label": "583 HAM DE MESNIL JEAN, Boissay",
+    "lat": 49.522946,
+    "lng": 1.362747,
+    "transactions": [
+      {
+        "date": "2020-10-20",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "41f84dba9a1b": {
+    "id": "41f84dba9a1b",
+    "label": "669 HAM DE MESNIL JEAN, Boissay",
+    "lat": 49.523152,
+    "lng": 1.363661,
+    "transactions": [
+      {
+        "date": "2023-03-28",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  }
+}

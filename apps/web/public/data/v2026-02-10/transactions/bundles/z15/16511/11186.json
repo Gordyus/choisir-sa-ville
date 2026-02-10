@@ -1,0 +1,46 @@
+{
+  "3e1262bb4469": {
+    "id": "3e1262bb4469",
+    "label": "5008 LE HERON, 76358",
+    "lat": 49.477258,
+    "lng": 1.405869,
+    "transactions": [
+      {
+        "date": "2021-11-02",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "803fc24f8155": {
+    "id": "803fc24f8155",
+    "label": "5010 LE HERON, 76358",
+    "lat": 49.477315,
+    "lng": 1.406192,
+    "transactions": [
+      {
+        "date": "2022-12-14",
+        "priceEur": 190000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-14",
+        "priceEur": 190000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-14",
+        "priceEur": 190000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

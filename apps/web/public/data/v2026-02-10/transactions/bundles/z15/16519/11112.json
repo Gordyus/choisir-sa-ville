@@ -1,0 +1,99 @@
+{
+  "f20d006e643f": {
+    "id": "f20d006e643f",
+    "label": "59 RUE PIERRE ET MARIE CURIE, Incheville",
+    "lat": 50.007415,
+    "lng": 1.490992,
+    "transactions": [
+      {
+        "date": "2020-07-07",
+        "priceEur": 90500,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "b04d93641bf7": {
+    "id": "b04d93641bf7",
+    "label": "1 LOT ARISTIDE BRIAND, Incheville",
+    "lat": 50.005574,
+    "lng": 1.490477,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "06e4874f77cc": {
+    "id": "06e4874f77cc",
+    "label": "9061 RUE VICTOR HUGO, Incheville",
+    "lat": 50.003657,
+    "lng": 1.489572,
+    "transactions": [
+      {
+        "date": "2022-06-29",
+        "priceEur": 144400,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "cea20aef7821": {
+    "id": "cea20aef7821",
+    "label": "17 RUE GEORGES BRASSENS, Incheville",
+    "lat": 50.006683,
+    "lng": 1.489334,
+    "transactions": [
+      {
+        "date": "2022-07-05",
+        "priceEur": 216775,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "0926aa85d016": {
+    "id": "0926aa85d016",
+    "label": "28 RUE GEORGES BRASSENS, Incheville",
+    "lat": 50.006115,
+    "lng": 1.488068,
+    "transactions": [
+      {
+        "date": "2024-04-12",
+        "priceEur": 202000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "4853567d349f": {
+    "id": "4853567d349f",
+    "label": "67 RUE VICTOR HUGO, Incheville",
+    "lat": 50.003346,
+    "lng": 1.488828,
+    "transactions": [
+      {
+        "date": "2025-01-14",
+        "priceEur": 2057470.1,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-14",
+        "priceEur": 2057470.1,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  }
+}

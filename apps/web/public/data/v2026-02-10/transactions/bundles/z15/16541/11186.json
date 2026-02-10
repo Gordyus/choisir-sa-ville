@@ -1,0 +1,994 @@
+{
+  "d4dec8e9bb4f": {
+    "id": "d4dec8e9bb4f",
+    "label": "1 RUE CHARLES DE GAULLE, Gournay-en-Bray",
+    "lat": 49.481811,
+    "lng": 1.724944,
+    "transactions": [
+      {
+        "date": "2020-07-20",
+        "priceEur": 304000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-20",
+        "priceEur": 304000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-20",
+        "priceEur": 304000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ab9390d3f54": {
+    "id": "2ab9390d3f54",
+    "label": "10 RUE DU PETIT PRE, Gournay-en-Bray",
+    "lat": 49.478429,
+    "lng": 1.726434,
+    "transactions": [
+      {
+        "date": "2020-10-14",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "9940517c720b": {
+    "id": "9940517c720b",
+    "label": "12 RUE BOUCAULT, Gournay-en-Bray",
+    "lat": 49.480885,
+    "lng": 1.731181,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 250000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "d86abaec8fe4": {
+    "id": "d86abaec8fe4",
+    "label": "5242 RTE NEUVE, Ferrières-en-Bray",
+    "lat": 49.480932,
+    "lng": 1.734612,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 18000,
+        "typeLocal": "Maison",
+        "surfaceM2": 18,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d981288b991": {
+    "id": "5d981288b991",
+    "label": "2C AV SADI CARNOT, Gournay-en-Bray",
+    "lat": 49.48017,
+    "lng": 1.726264,
+    "transactions": [
+      {
+        "date": "2020-11-10",
+        "priceEur": 405000,
+        "typeLocal": "Maison",
+        "surfaceM2": 197,
+        "isVefa": false
+      }
+    ]
+  },
+  "4461f9682ff1": {
+    "id": "4461f9682ff1",
+    "label": "17 RUE DU PETIT PRE, Gournay-en-Bray",
+    "lat": 49.478371,
+    "lng": 1.727543,
+    "transactions": [
+      {
+        "date": "2020-12-16",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 15,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-16",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c3c7863a3fc": {
+    "id": "0c3c7863a3fc",
+    "label": "5 RUE DES URSULINES, Gournay-en-Bray",
+    "lat": 49.481962,
+    "lng": 1.725568,
+    "transactions": [
+      {
+        "date": "2023-11-27",
+        "priceEur": 123500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-24",
+        "priceEur": 110000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-17",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "c1b94da737bb": {
+    "id": "c1b94da737bb",
+    "label": "1 RUE LEGRAND BAUDU, Gournay-en-Bray",
+    "lat": 49.480493,
+    "lng": 1.724979,
+    "transactions": [
+      {
+        "date": "2020-12-30",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d4356ebefb0": {
+    "id": "4d4356ebefb0",
+    "label": "6 RUE BOUCAULT, Gournay-en-Bray",
+    "lat": 49.481406,
+    "lng": 1.730777,
+    "transactions": [
+      {
+        "date": "2021-10-26",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-26",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 24,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-26",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": false
+      }
+    ]
+  },
+  "88e502dd1ea0": {
+    "id": "88e502dd1ea0",
+    "label": "18 RUE FELIX FAURE, Gournay-en-Bray",
+    "lat": 49.479233,
+    "lng": 1.726843,
+    "transactions": [
+      {
+        "date": "2021-12-15",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "31e562267585": {
+    "id": "31e562267585",
+    "label": "18 RUE DU REMPART, Gournay-en-Bray",
+    "lat": 49.481873,
+    "lng": 1.726359,
+    "transactions": [
+      {
+        "date": "2021-12-22",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "598314ab5e83": {
+    "id": "598314ab5e83",
+    "label": "5125 RTE NEUVE, Ferrières-en-Bray",
+    "lat": 49.479995,
+    "lng": 1.730127,
+    "transactions": [
+      {
+        "date": "2021-03-17",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "03d86510dcff": {
+    "id": "03d86510dcff",
+    "label": "10 RUE BOUCAULT, Gournay-en-Bray",
+    "lat": 49.481034,
+    "lng": 1.731025,
+    "transactions": [
+      {
+        "date": "2021-04-06",
+        "priceEur": 190000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "02d3662c6046": {
+    "id": "02d3662c6046",
+    "label": "5129 RTE NEUVE, Ferrières-en-Bray",
+    "lat": 49.480609,
+    "lng": 1.731773,
+    "transactions": [
+      {
+        "date": "2021-04-13",
+        "priceEur": 132000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "713d4afd8abb": {
+    "id": "713d4afd8abb",
+    "label": "38 RUE DU DOCTEUR DUCHESNE, Gournay-en-Bray",
+    "lat": 49.482117,
+    "lng": 1.726862,
+    "transactions": [
+      {
+        "date": "2023-09-05",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-17",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-31",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5beb69352d8": {
+    "id": "b5beb69352d8",
+    "label": "6 RUE FELIX FAURE, Gournay-en-Bray",
+    "lat": 49.479227,
+    "lng": 1.724993,
+    "transactions": [
+      {
+        "date": "2021-05-18",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "e92af10edb44": {
+    "id": "e92af10edb44",
+    "label": "14 RUE BOUCAULT, Gournay-en-Bray",
+    "lat": 49.480596,
+    "lng": 1.73066,
+    "transactions": [
+      {
+        "date": "2021-05-12",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "6cfa8fb3a19d": {
+    "id": "6cfa8fb3a19d",
+    "label": "3 RUE DES URSULINES, Gournay-en-Bray",
+    "lat": 49.482248,
+    "lng": 1.725815,
+    "transactions": [
+      {
+        "date": "2021-06-01",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "86e7ee79ac10": {
+    "id": "86e7ee79ac10",
+    "label": "9 RUE DU PETIT PRE, Gournay-en-Bray",
+    "lat": 49.478913,
+    "lng": 1.726339,
+    "transactions": [
+      {
+        "date": "2022-04-20",
+        "priceEur": 292400,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-20",
+        "priceEur": 290400,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "d1b0c7c272dd": {
+    "id": "d1b0c7c272dd",
+    "label": "20B BD DES PLANQUETTES, Gournay-en-Bray",
+    "lat": 49.481448,
+    "lng": 1.729591,
+    "transactions": [
+      {
+        "date": "2021-08-12",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "d99e353b9857": {
+    "id": "d99e353b9857",
+    "label": "69 RUE DE FERRIERES, Gournay-en-Bray",
+    "lat": 49.482331,
+    "lng": 1.729513,
+    "transactions": [
+      {
+        "date": "2021-08-23",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "e85e011b0d63": {
+    "id": "e85e011b0d63",
+    "label": "40 RUE DE FERRIERES, Gournay-en-Bray",
+    "lat": 49.481891,
+    "lng": 1.72783,
+    "transactions": [
+      {
+        "date": "2021-10-06",
+        "priceEur": 102000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "067ff58ae880": {
+    "id": "067ff58ae880",
+    "label": "20 SAINT CRESPIN, Gournay-en-Bray",
+    "lat": 49.475705,
+    "lng": 1.72653,
+    "transactions": [
+      {
+        "date": "2021-10-14",
+        "priceEur": 64000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "52899deb16a7": {
+    "id": "52899deb16a7",
+    "label": "5116 RTE NEUVE, Ferrières-en-Bray",
+    "lat": 49.480897,
+    "lng": 1.735495,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 132400,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "604e171c4199": {
+    "id": "604e171c4199",
+    "label": "9023 AV SADI CARNOT, Gournay-en-Bray",
+    "lat": 49.480153,
+    "lng": 1.728385,
+    "transactions": [
+      {
+        "date": "2022-03-22",
+        "priceEur": 147000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0729ef98da1": {
+    "id": "b0729ef98da1",
+    "label": "5119 RTE NEUVE, Ferrières-en-Bray",
+    "lat": 49.480831,
+    "lng": 1.735177,
+    "transactions": [
+      {
+        "date": "2022-03-15",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "96530d0302df": {
+    "id": "96530d0302df",
+    "label": "34C RUE FELIX FAURE, Gournay-en-Bray",
+    "lat": 49.479544,
+    "lng": 1.728983,
+    "transactions": [
+      {
+        "date": "2022-04-04",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc4928d107f1": {
+    "id": "cc4928d107f1",
+    "label": "65 RUE DE FERRIERES, Gournay-en-Bray",
+    "lat": 49.482271,
+    "lng": 1.729298,
+    "transactions": [
+      {
+        "date": "2022-06-09",
+        "priceEur": 145000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-09",
+        "priceEur": 145000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-09",
+        "priceEur": 145000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-09",
+        "priceEur": 145000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 18,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-09",
+        "priceEur": 145000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ae49553874c": {
+    "id": "7ae49553874c",
+    "label": "24 BD DES PLANQUETTES, Gournay-en-Bray",
+    "lat": 49.481509,
+    "lng": 1.729882,
+    "transactions": [
+      {
+        "date": "2022-09-15",
+        "priceEur": 231650,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "490f6491d1a6": {
+    "id": "490f6491d1a6",
+    "label": "54 AV DE LA 1ER ARMEE FRANCAISE, Gournay-en-Bray",
+    "lat": 49.475928,
+    "lng": 1.724924,
+    "transactions": [
+      {
+        "date": "2022-09-23",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "48c790216627": {
+    "id": "48c790216627",
+    "label": "72 RUE DE FERRIERES, Gournay-en-Bray",
+    "lat": 49.482092,
+    "lng": 1.729911,
+    "transactions": [
+      {
+        "date": "2023-01-26",
+        "priceEur": 121075,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "689d4f6452f8": {
+    "id": "689d4f6452f8",
+    "label": "12 RUE DU PETIT PRE, Gournay-en-Bray",
+    "lat": 49.478367,
+    "lng": 1.726678,
+    "transactions": [
+      {
+        "date": "2023-02-08",
+        "priceEur": 228000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "127e3b49fd0c": {
+    "id": "127e3b49fd0c",
+    "label": "36 RUE DU DOCTEUR DUCHESNE, Gournay-en-Bray",
+    "lat": 49.482117,
+    "lng": 1.726862,
+    "transactions": [
+      {
+        "date": "2023-09-05",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2023-03-17",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f0d3b2ca926": {
+    "id": "5f0d3b2ca926",
+    "label": "30 RTE NEUVE, Ferrières-en-Bray",
+    "lat": 49.480894,
+    "lng": 1.734204,
+    "transactions": [
+      {
+        "date": "2023-05-02",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "8841d95abe8d": {
+    "id": "8841d95abe8d",
+    "label": "42 RUE DU DOCTEUR DUCHESNE, Gournay-en-Bray",
+    "lat": 49.482075,
+    "lng": 1.727085,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "97eb3a47928e": {
+    "id": "97eb3a47928e",
+    "label": "6 PL DE LA LIBERATION, Gournay-en-Bray",
+    "lat": 49.480519,
+    "lng": 1.725066,
+    "transactions": [
+      {
+        "date": "2023-07-13",
+        "priceEur": 155000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-13",
+        "priceEur": 155000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc1214c9e5ff": {
+    "id": "bc1214c9e5ff",
+    "label": "9027 RUE SADI CARNOT, Gournay-en-Bray",
+    "lat": 49.480408,
+    "lng": 1.727772,
+    "transactions": [
+      {
+        "date": "2023-07-18",
+        "priceEur": 240100,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "5951c0795351": {
+    "id": "5951c0795351",
+    "label": "11 RUE DES URSULINES, Gournay-en-Bray",
+    "lat": 49.481647,
+    "lng": 1.725341,
+    "transactions": [
+      {
+        "date": "2023-09-25",
+        "priceEur": 153000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "bef07c274296": {
+    "id": "bef07c274296",
+    "label": "16 RUE FELIX FAURE, Gournay-en-Bray",
+    "lat": 49.479339,
+    "lng": 1.726529,
+    "transactions": [
+      {
+        "date": "2023-09-19",
+        "priceEur": 171000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea3915d1e4d3": {
+    "id": "ea3915d1e4d3",
+    "label": "57 AV DE LA 1ER ARMEE FRANCAISE, Gournay-en-Bray",
+    "lat": 49.476431,
+    "lng": 1.725233,
+    "transactions": [
+      {
+        "date": "2023-10-24",
+        "priceEur": 185000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "47f722ce92d2": {
+    "id": "47f722ce92d2",
+    "label": "4 BD DES PLANQUETTES, Gournay-en-Bray",
+    "lat": 49.480951,
+    "lng": 1.726278,
+    "transactions": [
+      {
+        "date": "2023-10-27",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ab64b2b4e83": {
+    "id": "4ab64b2b4e83",
+    "label": "4B RUE GERAUD CASTAGNE, Gournay-en-Bray",
+    "lat": 49.481776,
+    "lng": 1.725586,
+    "transactions": [
+      {
+        "date": "2023-11-03",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-03",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-03",
+        "priceEur": 150000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "23d82c9903a6": {
+    "id": "23d82c9903a6",
+    "label": "46 RTE NEUVE, Ferrières-en-Bray",
+    "lat": 49.480856,
+    "lng": 1.733434,
+    "transactions": [
+      {
+        "date": "2024-06-03",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  },
+  "c087b32cd74f": {
+    "id": "c087b32cd74f",
+    "label": "19 RUE DU REMPART, Gournay-en-Bray",
+    "lat": 49.482344,
+    "lng": 1.725172,
+    "transactions": [
+      {
+        "date": "2025-04-23",
+        "priceEur": 72000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-05",
+        "priceEur": 110000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "e21f67773ddb": {
+    "id": "e21f67773ddb",
+    "label": "67B RUE DE FERRIERES, Gournay-en-Bray",
+    "lat": 49.482307,
+    "lng": 1.729466,
+    "transactions": [
+      {
+        "date": "2024-06-19",
+        "priceEur": 11000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "1abb3aa4e39a": {
+    "id": "1abb3aa4e39a",
+    "label": "13 RUE ATHANASE CAUX, Gournay-en-Bray",
+    "lat": 49.481481,
+    "lng": 1.733417,
+    "transactions": [
+      {
+        "date": "2024-07-04",
+        "priceEur": 193000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "f27adfa4e5da": {
+    "id": "f27adfa4e5da",
+    "label": "13 BD DES PLANQUETTES, Gournay-en-Bray",
+    "lat": 49.481819,
+    "lng": 1.727555,
+    "transactions": [
+      {
+        "date": "2024-07-31",
+        "priceEur": 224000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "172a54e1fa65": {
+    "id": "172a54e1fa65",
+    "label": "51 RUE DE FERRIERES, Gournay-en-Bray",
+    "lat": 49.482241,
+    "lng": 1.728582,
+    "transactions": [
+      {
+        "date": "2024-08-21",
+        "priceEur": 151500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-21",
+        "priceEur": 151500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 92,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-21",
+        "priceEur": 151500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-21",
+        "priceEur": 151500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-21",
+        "priceEur": 151500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "d713add8925c": {
+    "id": "d713add8925c",
+    "label": "53 RUE DE FERRIERES, Gournay-en-Bray",
+    "lat": 49.482327,
+    "lng": 1.728735,
+    "transactions": [
+      {
+        "date": "2024-08-21",
+        "priceEur": 151500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-21",
+        "priceEur": 151500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2024-08-21",
+        "priceEur": 151500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "cfde9599f1ab": {
+    "id": "cfde9599f1ab",
+    "label": "29 RTE NEUVE, Ferrières-en-Bray",
+    "lat": 49.480811,
+    "lng": 1.734956,
+    "transactions": [
+      {
+        "date": "2024-09-16",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      },
+      {
+        "date": "2024-09-16",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  },
+  "d823ceb7b8f3": {
+    "id": "d823ceb7b8f3",
+    "label": "27 RTE NEUVE, Ferrières-en-Bray",
+    "lat": 49.480831,
+    "lng": 1.735177,
+    "transactions": [
+      {
+        "date": "2024-12-06",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "859025a0a4d9": {
+    "id": "859025a0a4d9",
+    "label": "3 RTE NEUVE, Ferrières-en-Bray",
+    "lat": 49.48091,
+    "lng": 1.734376,
+    "transactions": [
+      {
+        "date": "2025-01-24",
+        "priceEur": 83000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "0fb7f67b2f4a": {
+    "id": "0fb7f67b2f4a",
+    "label": "4 RUE BOUCAULT, Gournay-en-Bray",
+    "lat": 49.481647,
+    "lng": 1.730796,
+    "transactions": [
+      {
+        "date": "2025-01-07",
+        "priceEur": 124000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "f63da5d60ded": {
+    "id": "f63da5d60ded",
+    "label": "21 RUE CHARLES DE GAULLE, Gournay-en-Bray",
+    "lat": 49.48135,
+    "lng": 1.724964,
+    "transactions": [
+      {
+        "date": "2025-02-06",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  }
+}

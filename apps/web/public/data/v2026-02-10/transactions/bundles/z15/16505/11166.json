@@ -1,0 +1,32 @@
+{
+  "94a272279287": {
+    "id": "94a272279287",
+    "label": "5 RTE DU BOURG, Montérolier",
+    "lat": 49.623367,
+    "lng": 1.333825,
+    "transactions": [
+      {
+        "date": "2021-01-12",
+        "priceEur": 146000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "017c10019d46": {
+    "id": "017c10019d46",
+    "label": "626 RTE DU BOSC AU RENARD, Montérolier",
+    "lat": 49.622633,
+    "lng": 1.334909,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 203000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  }
+}

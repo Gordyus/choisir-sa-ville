@@ -1,0 +1,99 @@
+{
+  "08fc0ba3453f": {
+    "id": "08fc0ba3453f",
+    "label": "8 RUE DU FRENE, Rouxmesnil-Bouteilles",
+    "lat": 49.889894,
+    "lng": 1.089302,
+    "transactions": [
+      {
+        "date": "2020-09-18",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "79720487909b": {
+    "id": "79720487909b",
+    "label": "177 RUE DU VALLON, Rouxmesnil-Bouteilles",
+    "lat": 49.890101,
+    "lng": 1.08794,
+    "transactions": [
+      {
+        "date": "2021-08-16",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "efbf6c64d473": {
+    "id": "efbf6c64d473",
+    "label": "63 RUE DU FRESNE, Saint-Aubin-sur-Scie",
+    "lat": 49.889511,
+    "lng": 1.08897,
+    "transactions": [
+      {
+        "date": "2024-07-19",
+        "priceEur": 324000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-22",
+        "priceEur": 256340,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e5a27330632": {
+    "id": "6e5a27330632",
+    "label": "18 RUE DU FRENE, Rouxmesnil-Bouteilles",
+    "lat": 49.889361,
+    "lng": 1.09052,
+    "transactions": [
+      {
+        "date": "2024-02-29",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "93f0f06b4576": {
+    "id": "93f0f06b4576",
+    "label": "16 RES SAINT DENIS, Rouxmesnil-Bouteilles",
+    "lat": 49.888041,
+    "lng": 1.094194,
+    "transactions": [
+      {
+        "date": "2024-05-14",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "487e30f9bc80": {
+    "id": "487e30f9bc80",
+    "label": "5 RES SAINT DENIS, Rouxmesnil-Bouteilles",
+    "lat": 49.888556,
+    "lng": 1.092443,
+    "transactions": [
+      {
+        "date": "2024-05-13",
+        "priceEur": 316650,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  }
+}

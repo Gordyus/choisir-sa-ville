@@ -1,0 +1,106 @@
+{
+  "16d6919267c9": {
+    "id": "16d6919267c9",
+    "label": "122 RTE NATIONALE, Flers-en-Escrebieux",
+    "lat": 50.404025,
+    "lng": 3.02753,
+    "transactions": [
+      {
+        "date": "2021-08-18",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "25b7be4d3e60": {
+    "id": "25b7be4d3e60",
+    "label": "5 RUE DE CHALONS, Flers-en-Escrebieux",
+    "lat": 50.40358,
+    "lng": 3.026301,
+    "transactions": [
+      {
+        "date": "2021-09-08",
+        "priceEur": 109900,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "a51edd012fe1": {
+    "id": "a51edd012fe1",
+    "label": "148 RTE NATIONALE, Flers-en-Escrebieux",
+    "lat": 50.404758,
+    "lng": 3.024914,
+    "transactions": [
+      {
+        "date": "2021-01-14",
+        "priceEur": 233000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "d4344221695c": {
+    "id": "d4344221695c",
+    "label": "156 RTE NATIONALE, Flers-en-Escrebieux",
+    "lat": 50.405025,
+    "lng": 3.023889,
+    "transactions": [
+      {
+        "date": "2023-03-07",
+        "priceEur": 1,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-29",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "f204e534cd24": {
+    "id": "f204e534cd24",
+    "label": "154 RTE NATIONALE, Flers-en-Escrebieux",
+    "lat": 50.404931,
+    "lng": 3.024098,
+    "transactions": [
+      {
+        "date": "2023-03-07",
+        "priceEur": 1,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-23",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  },
+  "2de905ac4aa2": {
+    "id": "2de905ac4aa2",
+    "label": "57 RTE NATIONALE, Flers-en-Escrebieux",
+    "lat": 50.402946,
+    "lng": 3.029615,
+    "transactions": [
+      {
+        "date": "2024-09-30",
+        "priceEur": 124850,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

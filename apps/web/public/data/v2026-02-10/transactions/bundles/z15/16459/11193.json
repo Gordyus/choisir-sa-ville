@@ -1,0 +1,92 @@
+{
+  "6f4d70fd6d32": {
+    "id": "6f4d70fd6d32",
+    "label": "479 RUE DU MOULIN, Jumièges",
+    "lat": 49.425785,
+    "lng": 0.831849,
+    "transactions": [
+      {
+        "date": "2021-07-20",
+        "priceEur": 318700,
+        "typeLocal": "Maison",
+        "surfaceM2": 167,
+        "isVefa": false
+      }
+    ]
+  },
+  "190663bbd00e": {
+    "id": "190663bbd00e",
+    "label": "6013A LE QUESNEY, Jumièges",
+    "lat": 49.430529,
+    "lng": 0.826386,
+    "transactions": [
+      {
+        "date": "2023-07-21",
+        "priceEur": 98000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "e55cfe3475ae": {
+    "id": "e55cfe3475ae",
+    "label": "1 RUE PIHAN, Jumièges",
+    "lat": 49.430118,
+    "lng": 0.824887,
+    "transactions": [
+      {
+        "date": "2023-09-20",
+        "priceEur": 322000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "eca08da562bc": {
+    "id": "eca08da562bc",
+    "label": "723 RUE DU MOULIN, Jumièges",
+    "lat": 49.427139,
+    "lng": 0.834518,
+    "transactions": [
+      {
+        "date": "2024-02-23",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "ceca9aa8f5d6": {
+    "id": "ceca9aa8f5d6",
+    "label": "387 RUE DU QUESNEY, Jumièges",
+    "lat": 49.426231,
+    "lng": 0.824559,
+    "transactions": [
+      {
+        "date": "2024-03-22",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "f33048743ade": {
+    "id": "f33048743ade",
+    "label": "838 RUE DU QUESNEY, Jumièges",
+    "lat": 49.43054,
+    "lng": 0.824095,
+    "transactions": [
+      {
+        "date": "2025-01-23",
+        "priceEur": 114000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

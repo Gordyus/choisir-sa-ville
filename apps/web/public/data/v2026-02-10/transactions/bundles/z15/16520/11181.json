@@ -1,0 +1,61 @@
+{
+  "fa8f95a185d1": {
+    "id": "fa8f95a185d1",
+    "label": "5064 NORMANVILLE, Le Mesnil-Lieubray",
+    "lat": 49.516139,
+    "lng": 1.49716,
+    "transactions": [
+      {
+        "date": "2020-09-02",
+        "priceEur": 191000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-02",
+        "priceEur": 191000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "0519889b4160": {
+    "id": "0519889b4160",
+    "label": "171 RTE DE LA REINE BLANCHE, Le Mesnil-Lieubray",
+    "lat": 49.517637,
+    "lng": 1.499445,
+    "transactions": [
+      {
+        "date": "2022-06-17",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-17",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "64bb6a7b1dd8": {
+    "id": "64bb6a7b1dd8",
+    "label": "223 RTE DE LA REINE BLANCHE, Le Mesnil-Lieubray",
+    "lat": 49.516963,
+    "lng": 1.498067,
+    "transactions": [
+      {
+        "date": "2022-06-21",
+        "priceEur": 169500,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  }
+}

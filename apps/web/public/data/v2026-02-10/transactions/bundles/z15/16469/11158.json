@@ -1,0 +1,32 @@
+{
+  "4f8ab3ce2556": {
+    "id": "4f8ab3ce2556",
+    "label": "905 CHE DES FORRIERES, Bourdainville",
+    "lat": 49.678416,
+    "lng": 0.938215,
+    "transactions": [
+      {
+        "date": "2023-03-13",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "554a8d3c5a8a": {
+    "id": "554a8d3c5a8a",
+    "label": "18 RUE HENRI DUCLOS, Bourdainville",
+    "lat": 49.675091,
+    "lng": 0.943509,
+    "transactions": [
+      {
+        "date": "2023-05-30",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  }
+}

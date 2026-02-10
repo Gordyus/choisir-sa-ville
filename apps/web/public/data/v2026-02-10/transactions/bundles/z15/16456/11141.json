@@ -1,0 +1,32 @@
+{
+  "7e1dc1af108f": {
+    "id": "7e1dc1af108f",
+    "label": "11 RUE DU FOUR A PAIN, Ermenouville",
+    "lat": 49.800163,
+    "lng": 0.791203,
+    "transactions": [
+      {
+        "date": "2020-12-05",
+        "priceEur": 241500,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7c962ad2fcf": {
+    "id": "b7c962ad2fcf",
+    "label": "3 CHE DU GRES, Ermenouville",
+    "lat": 49.800421,
+    "lng": 0.792392,
+    "transactions": [
+      {
+        "date": "2024-10-14",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

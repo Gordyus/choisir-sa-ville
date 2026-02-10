@@ -1,0 +1,32 @@
+{
+  "f188e802b2a3": {
+    "id": "f188e802b2a3",
+    "label": "9 RTE DU FRESNE, Baromesnil",
+    "lat": 49.983151,
+    "lng": 1.418656,
+    "transactions": [
+      {
+        "date": "2023-01-23",
+        "priceEur": 95700,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "1dfad3b4bf0e": {
+    "id": "1dfad3b4bf0e",
+    "label": "5 RTE DE MESNIL REAUME, Baromesnil",
+    "lat": 49.98111,
+    "lng": 1.419135,
+    "transactions": [
+      {
+        "date": "2023-09-27",
+        "priceEur": 194000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

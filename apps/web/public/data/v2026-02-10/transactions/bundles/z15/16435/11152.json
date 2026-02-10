@@ -1,0 +1,77 @@
+{
+  "83067680fdea": {
+    "id": "83067680fdea",
+    "label": "6 RUE DU CHATEAU, Riville",
+    "lat": 49.719386,
+    "lng": 0.56627,
+    "transactions": [
+      {
+        "date": "2020-08-04",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 175,
+        "isVefa": false
+      }
+    ]
+  },
+  "589eb17334e0": {
+    "id": "589eb17334e0",
+    "label": "7 RUE DU CHATEAU, Riville",
+    "lat": 49.718672,
+    "lng": 0.568316,
+    "transactions": [
+      {
+        "date": "2020-11-20",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "bfebf205f272": {
+    "id": "bfebf205f272",
+    "label": "9 RUE DU CHATEAU, Riville",
+    "lat": 49.718544,
+    "lng": 0.569029,
+    "transactions": [
+      {
+        "date": "2020-12-23",
+        "priceEur": 179900,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "579aff33e354": {
+    "id": "579aff33e354",
+    "label": "2A RUE DU CHATEAU, Riville",
+    "lat": 49.7195,
+    "lng": 0.565489,
+    "transactions": [
+      {
+        "date": "2022-09-14",
+        "priceEur": 206000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e5535ad65aa": {
+    "id": "2e5535ad65aa",
+    "label": "10 RUE DU CHATEAU, Riville",
+    "lat": 49.719335,
+    "lng": 0.568571,
+    "transactions": [
+      {
+        "date": "2023-01-13",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  }
+}

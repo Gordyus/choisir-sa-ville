@@ -1,0 +1,193 @@
+{
+  "08fe53b8245a": {
+    "id": "08fe53b8245a",
+    "label": "37 DIG JEAN CORRUBLE, Veulettes-sur-Mer",
+    "lat": 49.852753,
+    "lng": 0.600463,
+    "transactions": [
+      {
+        "date": "2022-12-20",
+        "priceEur": 22000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-09",
+        "priceEur": 15000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 18,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-25",
+        "priceEur": 121900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-29",
+        "priceEur": 60000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 22,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-29",
+        "priceEur": 60000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-29",
+        "priceEur": 60000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 32,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-10",
+        "priceEur": 59000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 29,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-30",
+        "priceEur": 32000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 18,
+        "isVefa": false
+      }
+    ]
+  },
+  "2cf73c9be92b": {
+    "id": "2cf73c9be92b",
+    "label": "25 DIG JEAN CORRUBLE, Veulettes-sur-Mer",
+    "lat": 49.852747,
+    "lng": 0.599198,
+    "transactions": [
+      {
+        "date": "2021-12-09",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "99c5d0c15575": {
+    "id": "99c5d0c15575",
+    "label": "12 CHE DU CORPS DE GARDE, Veulettes-sur-Mer",
+    "lat": 49.852554,
+    "lng": 0.60006,
+    "transactions": [
+      {
+        "date": "2021-01-05",
+        "priceEur": 196000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "f11d746c0b9f": {
+    "id": "f11d746c0b9f",
+    "label": "53 DIG JEAN CORRUBLE, Veulettes-sur-Mer",
+    "lat": 49.853382,
+    "lng": 0.603473,
+    "transactions": [
+      {
+        "date": "2021-01-05",
+        "priceEur": 147000,
+        "typeLocal": "Maison",
+        "surfaceM2": 14,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-05",
+        "priceEur": 147000,
+        "typeLocal": "Maison",
+        "surfaceM2": 20,
+        "isVefa": false
+      }
+    ]
+  },
+  "517d56ca1d8e": {
+    "id": "517d56ca1d8e",
+    "label": "33 DIG JEAN CORRUBLE, Veulettes-sur-Mer",
+    "lat": 49.852779,
+    "lng": 0.599448,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 96500,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6a7e5980265": {
+    "id": "b6a7e5980265",
+    "label": "1 RTE DE FECAMP, Veulettes-sur-Mer",
+    "lat": 49.85241,
+    "lng": 0.595886,
+    "transactions": [
+      {
+        "date": "2022-05-12",
+        "priceEur": 95000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9b2086a6f6b": {
+    "id": "a9b2086a6f6b",
+    "label": "43 DIG JEAN CORRUBLE, Veulettes-sur-Mer",
+    "lat": 49.85287,
+    "lng": 0.601984,
+    "transactions": [
+      {
+        "date": "2022-06-27",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e44c6f9f580": {
+    "id": "3e44c6f9f580",
+    "label": "3 RTE DE FECAMP, Veulettes-sur-Mer",
+    "lat": 49.852311,
+    "lng": 0.595659,
+    "transactions": [
+      {
+        "date": "2022-12-15",
+        "priceEur": 460000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d7a65f16248": {
+    "id": "8d7a65f16248",
+    "label": "6 RTE DE MALLEVILLE, Veulettes-sur-Mer",
+    "lat": 49.85221,
+    "lng": 0.59768,
+    "transactions": [
+      {
+        "date": "2023-01-03",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

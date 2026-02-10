@@ -1,0 +1,32 @@
+{
+  "0c9a505a9804": {
+    "id": "0c9a505a9804",
+    "label": "61 RUE DE LA MARE AU LEU, Les Trois-Pierres",
+    "lat": 49.5541,
+    "lng": 0.402195,
+    "transactions": [
+      {
+        "date": "2020-11-17",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f5524e90f92": {
+    "id": "1f5524e90f92",
+    "label": "78 RUE DE LA MARE AU LEU, Les Trois-Pierres",
+    "lat": 49.555653,
+    "lng": 0.401844,
+    "transactions": [
+      {
+        "date": "2023-12-27",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "bc09b787b0a8": {
+    "id": "bc09b787b0a8",
+    "label": "5096 LE MERISIER, Mannevillette",
+    "lat": 49.59097,
+    "lng": 0.173834,
+    "transactions": [
+      {
+        "date": "2020-09-22",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae7c12963301": {
+    "id": "ae7c12963301",
+    "label": "5114 LE VILLAGE, Mannevillette",
+    "lat": 49.595916,
+    "lng": 0.174015,
+    "transactions": [
+      {
+        "date": "2021-05-21",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee5d5adad30b": {
+    "id": "ee5d5adad30b",
+    "label": "5076 LA FORGE, Mannevillette",
+    "lat": 49.589629,
+    "lng": 0.175483,
+    "transactions": [
+      {
+        "date": "2021-07-05",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "e82335c70419": {
+    "id": "e82335c70419",
+    "label": "1 ALL DU SUROIT, Mannevillette",
+    "lat": 49.595926,
+    "lng": 0.173638,
+    "transactions": [
+      {
+        "date": "2021-12-01",
+        "priceEur": 293200,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5aebc760c3b": {
+    "id": "c5aebc760c3b",
+    "label": "2 IMP DU CALVAIRE, Mannevillette",
+    "lat": 49.592225,
+    "lng": 0.173602,
+    "transactions": [
+      {
+        "date": "2023-07-21",
+        "priceEur": 445000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "af76147d72bc": {
+    "id": "af76147d72bc",
+    "label": "2 RUE DES CHARRONS, Mannevillette",
+    "lat": 49.590811,
+    "lng": 0.175239,
+    "transactions": [
+      {
+        "date": "2024-05-31",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "379638f56191": {
+    "id": "379638f56191",
+    "label": "35 RUE D'ESTOUTEVILLE, Mannevillette",
+    "lat": 49.592223,
+    "lng": 0.174665,
+    "transactions": [
+      {
+        "date": "2024-12-06",
+        "priceEur": 242700,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "5636bce2ac08": {
+    "id": "5636bce2ac08",
+    "label": "12 RTE DU BOS MALLARD, Brémontier-Merval",
+    "lat": 49.514339,
+    "lng": 1.618113,
+    "transactions": [
+      {
+        "date": "2021-11-08",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "29094142547c": {
+    "id": "29094142547c",
+    "label": "35 RTE DU BOS MALLARD, Brémontier-Merval",
+    "lat": 49.512759,
+    "lng": 1.617888,
+    "transactions": [
+      {
+        "date": "2021-12-30",
+        "priceEur": 94500,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2a80769d632": {
+    "id": "c2a80769d632",
+    "label": "5 CHE DE LA VIGNE, Brémontier-Merval",
+    "lat": 49.513406,
+    "lng": 1.61664,
+    "transactions": [
+      {
+        "date": "2021-08-25",
+        "priceEur": 172500,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "42c264f15b3b": {
+    "id": "42c264f15b3b",
+    "label": "9 RTE DU BOS MALLARD, Brémontier-Merval",
+    "lat": 49.51407,
+    "lng": 1.619903,
+    "transactions": [
+      {
+        "date": "2022-03-22",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "15d34bb33f28": {
+    "id": "15d34bb33f28",
+    "label": "9 RTE D ELBEUF, Brémontier-Merval",
+    "lat": 49.512469,
+    "lng": 1.625592,
+    "transactions": [
+      {
+        "date": "2022-04-08",
+        "priceEur": 229000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "77b818935b43": {
+    "id": "77b818935b43",
+    "label": "4 RTE DU BOS MALLARD, Brémontier-Merval",
+    "lat": 49.514446,
+    "lng": 1.619428,
+    "transactions": [
+      {
+        "date": "2023-03-17",
+        "priceEur": 206000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd5fc0ed2ede": {
+    "id": "dd5fc0ed2ede",
+    "label": "29 RTE DU BOS MALLARD, Brémontier-Merval",
+    "lat": 49.513405,
+    "lng": 1.618851,
+    "transactions": [
+      {
+        "date": "2023-05-31",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  }
+}

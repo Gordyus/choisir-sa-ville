@@ -1,0 +1,77 @@
+{
+  "ead9b0e07f4f": {
+    "id": "ead9b0e07f4f",
+    "label": "9001 SAINT ANTOINE NORD, Mesnil-Panneville",
+    "lat": 49.588421,
+    "lng": 0.877346,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 235100,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "775119960984": {
+    "id": "775119960984",
+    "label": "143 RTE DE SAINT ANTOINE, Mesnil-Panneville",
+    "lat": 49.587524,
+    "lng": 0.877288,
+    "transactions": [
+      {
+        "date": "2023-07-13",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "98a8b1da743a": {
+    "id": "98a8b1da743a",
+    "label": "7013 SAINT ANTOINE SUD, Mesnil-Panneville",
+    "lat": 49.588134,
+    "lng": 0.877925,
+    "transactions": [
+      {
+        "date": "2023-07-05",
+        "priceEur": 273400,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "84d47359ed16": {
+    "id": "84d47359ed16",
+    "label": "168 RTE DE PANNEVILLE, Mesnil-Panneville",
+    "lat": 49.586766,
+    "lng": 0.878686,
+    "transactions": [
+      {
+        "date": "2023-09-20",
+        "priceEur": 348500,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "d01a97e80a7f": {
+    "id": "d01a97e80a7f",
+    "label": "158 RTE DE SAINT ANTOINE, Mesnil-Panneville",
+    "lat": 49.588134,
+    "lng": 0.877925,
+    "transactions": [
+      {
+        "date": "2024-09-04",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "2a6770d6e039": {
+    "id": "2a6770d6e039",
+    "label": "9019 AV DES ALBATROS, Le Tréport",
+    "lat": 50.056445,
+    "lng": 1.35934,
+    "transactions": [
+      {
+        "date": "2021-11-09",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "3104ba460d28": {
+    "id": "3104ba460d28",
+    "label": "9010 IMP JEAN LE POVRE MOYNE, Le Tréport",
+    "lat": 50.056445,
+    "lng": 1.35934,
+    "transactions": [
+      {
+        "date": "2023-10-20",
+        "priceEur": 143000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e1815bccdd7": {
+    "id": "5e1815bccdd7",
+    "label": "2 RUE ANDRE MALRAUX, Le Tréport",
+    "lat": 50.056392,
+    "lng": 1.360374,
+    "transactions": [
+      {
+        "date": "2025-03-12",
+        "priceEur": 182850,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "59ea8319a872": {
+    "id": "59ea8319a872",
+    "label": "5049 FOND DE BULLY, Bully",
+    "lat": 49.726458,
+    "lng": 1.376154,
+    "transactions": [
+      {
+        "date": "2021-02-12",
+        "priceEur": 426500,
+        "typeLocal": "Maison",
+        "surfaceM2": 217,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3a0a15529db": {
+    "id": "d3a0a15529db",
+    "label": "5054 LE BOURG, Bully",
+    "lat": 49.728237,
+    "lng": 1.373904,
+    "transactions": [
+      {
+        "date": "2021-04-09",
+        "priceEur": 99000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  }
+}

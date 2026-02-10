@@ -1,0 +1,74 @@
+{
+  "098d787850d5": {
+    "id": "098d787850d5",
+    "label": "40 RUE DU SAULE, Saint-Denis-d'Aclon",
+    "lat": 49.866198,
+    "lng": 0.95393,
+    "transactions": [
+      {
+        "date": "2025-01-17",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "622a611379b4": {
+    "id": "622a611379b4",
+    "label": "1 RES LA HOUPILLIERE, Saint-Denis-d'Aclon",
+    "lat": 49.861897,
+    "lng": 0.953479,
+    "transactions": [
+      {
+        "date": "2025-02-05",
+        "priceEur": 596930.7,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-05",
+        "priceEur": 596930.7,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-05",
+        "priceEur": 596930.7,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-05",
+        "priceEur": 596930.7,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-05",
+        "priceEur": 596930.7,
+        "typeLocal": "Appartement",
+        "surfaceM2": 61,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-05",
+        "priceEur": 596930.7,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-05",
+        "priceEur": 596930.7,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

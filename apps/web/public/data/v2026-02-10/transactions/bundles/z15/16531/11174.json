@@ -1,0 +1,62 @@
+{
+  "910c6595c3f2": {
+    "id": "910c6595c3f2",
+    "label": "5120 LA CORBIERE, Saumont-la-Poterie",
+    "lat": 49.561892,
+    "lng": 1.620747,
+    "transactions": [
+      {
+        "date": "2020-08-24",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "f90220175cae": {
+    "id": "f90220175cae",
+    "label": "427 RTE DE PARIS, Saumont-la-Poterie",
+    "lat": 49.566261,
+    "lng": 1.617289,
+    "transactions": [
+      {
+        "date": "2023-03-06",
+        "priceEur": 71000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6e29e8771bb": {
+    "id": "d6e29e8771bb",
+    "label": "27 RTE DES CRIQUETIERS, Saumont-la-Poterie",
+    "lat": 49.561153,
+    "lng": 1.622548,
+    "transactions": [
+      {
+        "date": "2023-09-28",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "b147c704295b": {
+    "id": "b147c704295b",
+    "label": "485 RTE DE PARIS, Saumont-la-Poterie",
+    "lat": 49.561546,
+    "lng": 1.619304,
+    "transactions": [
+      {
+        "date": "2024-10-02",
+        "priceEur": 48000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

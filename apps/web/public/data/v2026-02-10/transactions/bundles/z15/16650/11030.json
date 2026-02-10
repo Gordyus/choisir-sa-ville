@@ -1,0 +1,62 @@
+{
+  "6b847e550f99": {
+    "id": "6b847e550f99",
+    "label": "39T RUE DE LILLE, Wavrin",
+    "lat": 50.579657,
+    "lng": 2.931057,
+    "transactions": [
+      {
+        "date": "2020-12-29",
+        "priceEur": 573000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  },
+  "667196120a03": {
+    "id": "667196120a03",
+    "label": "39 RUE DE LILLE, Wavrin",
+    "lat": 50.579934,
+    "lng": 2.932132,
+    "transactions": [
+      {
+        "date": "2022-10-17",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa5ca743834a": {
+    "id": "aa5ca743834a",
+    "label": "31B RUE DE LILLE, Wavrin",
+    "lat": 50.578755,
+    "lng": 2.933173,
+    "transactions": [
+      {
+        "date": "2024-09-27",
+        "priceEur": 540000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c491a246f69": {
+    "id": "3c491a246f69",
+    "label": "31 RUE DE LILLE, Wavrin",
+    "lat": 50.578525,
+    "lng": 2.93311,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 276500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

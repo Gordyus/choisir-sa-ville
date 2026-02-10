@@ -1,0 +1,47 @@
+{
+  "27a1fd302c51": {
+    "id": "27a1fd302c51",
+    "label": "5068 BELEVENT, Saint-Maclou-de-Folleville",
+    "lat": 49.672223,
+    "lng": 1.088146,
+    "transactions": [
+      {
+        "date": "2021-12-29",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "07572bb61224": {
+    "id": "07572bb61224",
+    "label": "5076 EPINAY, Saint-Maclou-de-Folleville",
+    "lat": 49.6696,
+    "lng": 1.091522,
+    "transactions": [
+      {
+        "date": "2022-02-02",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "87fcdabc41b4": {
+    "id": "87fcdabc41b4",
+    "label": "208 RUE DE LA RUETTE, Saint-Maclou-de-Folleville",
+    "lat": 49.669249,
+    "lng": 1.09201,
+    "transactions": [
+      {
+        "date": "2024-12-30",
+        "priceEur": 126000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  }
+}

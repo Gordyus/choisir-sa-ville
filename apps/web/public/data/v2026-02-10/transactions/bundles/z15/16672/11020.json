@@ -1,0 +1,122 @@
+{
+  "c3bc84774236": {
+    "id": "c3bc84774236",
+    "label": "330 RUE DE LANNOY, Villeneuve-d'Ascq",
+    "lat": 50.652324,
+    "lng": 3.173105,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 247600,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "175d09e8b149": {
+    "id": "175d09e8b149",
+    "label": "316 RUE DE LANNOY, Villeneuve-d'Ascq",
+    "lat": 50.652005,
+    "lng": 3.172686,
+    "transactions": [
+      {
+        "date": "2021-03-04",
+        "priceEur": 145600,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a989c01c4ad": {
+    "id": "4a989c01c4ad",
+    "label": "326 RUE DE LANNOY, Villeneuve-d'Ascq",
+    "lat": 50.652225,
+    "lng": 3.173026,
+    "transactions": [
+      {
+        "date": "2021-09-15",
+        "priceEur": 209500,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "bff844e88df1": {
+    "id": "bff844e88df1",
+    "label": "22 ALL DE LA CORBEILLE, Villeneuve-d'Ascq",
+    "lat": 50.64607,
+    "lng": 3.164961,
+    "transactions": [
+      {
+        "date": "2022-11-09",
+        "priceEur": 303500,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9bc75a5bfc6": {
+    "id": "c9bc75a5bfc6",
+    "label": "83 RUE DES MARCHENELLES, Villeneuve-d'Ascq",
+    "lat": 50.647181,
+    "lng": 3.171472,
+    "transactions": [
+      {
+        "date": "2023-07-10",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c0e41f264c1": {
+    "id": "9c0e41f264c1",
+    "label": "322 RUE DE LANNOY, Villeneuve-d'Ascq",
+    "lat": 50.652143,
+    "lng": 3.172889,
+    "transactions": [
+      {
+        "date": "2023-07-20",
+        "priceEur": 185280,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "1593dfcd155c": {
+    "id": "1593dfcd155c",
+    "label": "32 ALL DE LA CORBEILLE, Villeneuve-d'Ascq",
+    "lat": 50.646023,
+    "lng": 3.164433,
+    "transactions": [
+      {
+        "date": "2023-10-30",
+        "priceEur": 319220,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b5a0ae3df70": {
+    "id": "5b5a0ae3df70",
+    "label": "324 RUE DE LANNOY, Villeneuve-d'Ascq",
+    "lat": 50.652177,
+    "lng": 3.172953,
+    "transactions": [
+      {
+        "date": "2024-11-20",
+        "priceEur": 207550,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  }
+}

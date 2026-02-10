@@ -1,0 +1,32 @@
+{
+  "5c30382eccc4": {
+    "id": "5c30382eccc4",
+    "label": "4A RUE DE BABYLONE, La Remuée",
+    "lat": 49.520378,
+    "lng": 0.424953,
+    "transactions": [
+      {
+        "date": "2023-08-31",
+        "priceEur": 211000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd3487b0c44a": {
+    "id": "bd3487b0c44a",
+    "label": "954 RUE DE BABYLONE, La Cerlangue",
+    "lat": 49.519609,
+    "lng": 0.427195,
+    "transactions": [
+      {
+        "date": "2024-09-18",
+        "priceEur": 208000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "ffd0ae052ff9": {
+    "id": "ffd0ae052ff9",
+    "label": "11 RTE DE SOLESMES, Cauroir",
+    "lat": 50.180735,
+    "lng": 3.287041,
+    "transactions": [
+      {
+        "date": "2022-02-04",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "da5056566998": {
+    "id": "da5056566998",
+    "label": "8 RTE DE SOLESMES, Cauroir",
+    "lat": 50.181384,
+    "lng": 3.28894,
+    "transactions": [
+      {
+        "date": "2022-12-30",
+        "priceEur": 40000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e29ca9dd64d": {
+    "id": "7e29ca9dd64d",
+    "label": "37 RTE DE SOLESMES, Cauroir",
+    "lat": 50.18041,
+    "lng": 3.289396,
+    "transactions": [
+      {
+        "date": "2024-11-14",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  }
+}

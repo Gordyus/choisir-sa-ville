@@ -1,0 +1,47 @@
+{
+  "d549d653d1d3": {
+    "id": "d549d653d1d3",
+    "label": "630 RUE DE LA PESCHERIE, Longueil",
+    "lat": 49.892462,
+    "lng": 0.95076,
+    "transactions": [
+      {
+        "date": "2020-08-05",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d145d96c4f9": {
+    "id": "3d145d96c4f9",
+    "label": "341 RUE DE LA PESCHERIE, Longueil",
+    "lat": 49.890324,
+    "lng": 0.953528,
+    "transactions": [
+      {
+        "date": "2023-10-02",
+        "priceEur": 412000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "0576663702e1": {
+    "id": "0576663702e1",
+    "label": "192 RUE DE LA PESCHERIE, Longueil",
+    "lat": 49.888855,
+    "lng": 0.953943,
+    "transactions": [
+      {
+        "date": "2025-06-30",
+        "priceEur": 370211,
+        "typeLocal": "Maison",
+        "surfaceM2": 178,
+        "isVefa": false
+      }
+    ]
+  }
+}

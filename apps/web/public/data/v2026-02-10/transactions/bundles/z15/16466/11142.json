@@ -1,0 +1,32 @@
+{
+  "e21e41226f9e": {
+    "id": "e21e41226f9e",
+    "label": "20 RUE DE L'EGLISE, Vénestanville",
+    "lat": 49.792427,
+    "lng": 0.905094,
+    "transactions": [
+      {
+        "date": "2021-10-04",
+        "priceEur": 108400,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "86a5637f3947": {
+    "id": "86a5637f3947",
+    "label": "4 RUE DE LA SAANE, Vénestanville",
+    "lat": 49.793919,
+    "lng": 0.907493,
+    "transactions": [
+      {
+        "date": "2024-02-19",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  }
+}

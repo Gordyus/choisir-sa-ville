@@ -1,0 +1,151 @@
+{
+  "203fa1516da1": {
+    "id": "203fa1516da1",
+    "label": "39A BEAU SOLEIL, Ourville-en-Caux",
+    "lat": 49.723454,
+    "lng": 0.603817,
+    "transactions": [
+      {
+        "date": "2020-12-21",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-21",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-21",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "95b64b8f4e6b": {
+    "id": "95b64b8f4e6b",
+    "label": "67 RTE DU BEAU SOLEIL, Ourville-en-Caux",
+    "lat": 49.722961,
+    "lng": 0.603835,
+    "transactions": [
+      {
+        "date": "2021-06-21",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "84cf9574beb7": {
+    "id": "84cf9574beb7",
+    "label": "5210 LE GRAND TORCY, Ourville-en-Caux",
+    "lat": 49.719285,
+    "lng": 0.599464,
+    "transactions": [
+      {
+        "date": "2021-09-28",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "20664f03caff": {
+    "id": "20664f03caff",
+    "label": "5295 LE GRAND TORCY, Ourville-en-Caux",
+    "lat": 49.719405,
+    "lng": 0.597922,
+    "transactions": [
+      {
+        "date": "2021-01-25",
+        "priceEur": 221500,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5f0efedcd45": {
+    "id": "a5f0efedcd45",
+    "label": "170 IMP DU CHATEAU D EAU, Ourville-en-Caux",
+    "lat": 49.719994,
+    "lng": 0.597865,
+    "transactions": [
+      {
+        "date": "2021-03-24",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "096c79db700a": {
+    "id": "096c79db700a",
+    "label": "5288 LE GRAND TORCY, Ourville-en-Caux",
+    "lat": 49.719256,
+    "lng": 0.598266,
+    "transactions": [
+      {
+        "date": "2022-06-23",
+        "priceEur": 77000,
+        "typeLocal": "Maison",
+        "surfaceM2": 39,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1f54ca965f5": {
+    "id": "e1f54ca965f5",
+    "label": "635 RTE DU BEAU SOLEIL, Ourville-en-Caux",
+    "lat": 49.719205,
+    "lng": 0.598673,
+    "transactions": [
+      {
+        "date": "2023-10-03",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "22f7845698cd": {
+    "id": "22f7845698cd",
+    "label": "40 IMP DU MONT ROTY, Ourville-en-Caux",
+    "lat": 49.718201,
+    "lng": 0.59465,
+    "transactions": [
+      {
+        "date": "2024-11-29",
+        "priceEur": 228000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b431f84fe87": {
+    "id": "8b431f84fe87",
+    "label": "628 RTE DE LA SAANE, Ourville-en-Caux",
+    "lat": 49.718958,
+    "lng": 0.594187,
+    "transactions": [
+      {
+        "date": "2024-12-26",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

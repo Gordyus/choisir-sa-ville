@@ -1,0 +1,122 @@
+{
+  "a0c57c6807a1": {
+    "id": "a0c57c6807a1",
+    "label": "85 RTE DE LA FORGE, Anquetierville",
+    "lat": 49.530096,
+    "lng": 0.632759,
+    "transactions": [
+      {
+        "date": "2021-07-01",
+        "priceEur": 211150,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe29e69081f1": {
+    "id": "fe29e69081f1",
+    "label": "500 RTE DE L EGLISE, Anquetierville",
+    "lat": 49.531701,
+    "lng": 0.634463,
+    "transactions": [
+      {
+        "date": "2022-01-31",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1cd58986783": {
+    "id": "a1cd58986783",
+    "label": "530 RTE DE L EGLISE, Anquetierville",
+    "lat": 49.531478,
+    "lng": 0.634232,
+    "transactions": [
+      {
+        "date": "2022-02-09",
+        "priceEur": 149500,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "d9603d417e85": {
+    "id": "d9603d417e85",
+    "label": "621 RTE DE L EGLISE, Anquetierville",
+    "lat": 49.531162,
+    "lng": 0.632941,
+    "transactions": [
+      {
+        "date": "2022-04-29",
+        "priceEur": 177000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "7928c4f22d1d": {
+    "id": "7928c4f22d1d",
+    "label": "549 RTE DE L EGLISE, Anquetierville",
+    "lat": 49.531335,
+    "lng": 0.633966,
+    "transactions": [
+      {
+        "date": "2022-09-16",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f9e2c73e815": {
+    "id": "5f9e2c73e815",
+    "label": "305 RTE DEPARTEMENTALE 982, Anquetierville",
+    "lat": 49.529782,
+    "lng": 0.634318,
+    "transactions": [
+      {
+        "date": "2023-02-10",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "855d6e3d807d": {
+    "id": "855d6e3d807d",
+    "label": "48 RTE DE SAINT ARNOULT, Anquetierville",
+    "lat": 49.532213,
+    "lng": 0.634859,
+    "transactions": [
+      {
+        "date": "2023-08-16",
+        "priceEur": 289700,
+        "typeLocal": "Maison",
+        "surfaceM2": 217,
+        "isVefa": false
+      }
+    ]
+  },
+  "94135847d5d4": {
+    "id": "94135847d5d4",
+    "label": "130 RTE DEPARTEMENTALE 982, Anquetierville",
+    "lat": 49.529829,
+    "lng": 0.63172,
+    "transactions": [
+      {
+        "date": "2023-11-27",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  }
+}

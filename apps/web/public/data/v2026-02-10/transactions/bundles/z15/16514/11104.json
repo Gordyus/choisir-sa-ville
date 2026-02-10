@@ -1,0 +1,47 @@
+{
+  "cdffae0989c8": {
+    "id": "cdffae0989c8",
+    "label": "9015 RUE DE L EUROPE, Eu",
+    "lat": 50.06318,
+    "lng": 1.430358,
+    "transactions": [
+      {
+        "date": "2022-02-01",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "e08ad31cbdb6": {
+    "id": "e08ad31cbdb6",
+    "label": "9019 RUE DE L EUROPE, Eu",
+    "lat": 50.063283,
+    "lng": 1.430798,
+    "transactions": [
+      {
+        "date": "2025-01-10",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "3cb2ac92e2a9": {
+    "id": "3cb2ac92e2a9",
+    "label": "9007 RUE DE L EUROPE, Eu",
+    "lat": 50.062872,
+    "lng": 1.429871,
+    "transactions": [
+      {
+        "date": "2025-01-08",
+        "priceEur": 198010,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

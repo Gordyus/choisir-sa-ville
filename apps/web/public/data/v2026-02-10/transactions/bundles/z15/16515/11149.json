@@ -1,0 +1,47 @@
+{
+  "5428a2ac345e": {
+    "id": "5428a2ac345e",
+    "label": "12 RUE DES BLEUETS, Neufchâtel-en-Bray",
+    "lat": 49.74278,
+    "lng": 1.441809,
+    "transactions": [
+      {
+        "date": "2021-04-29",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "24680e148edb": {
+    "id": "24680e148edb",
+    "label": "28 RUE DES BLEUETS, Neufchâtel-en-Bray",
+    "lat": 49.74147,
+    "lng": 1.441689,
+    "transactions": [
+      {
+        "date": "2024-07-18",
+        "priceEur": 220500,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "6f2aa8c55b86": {
+    "id": "6f2aa8c55b86",
+    "label": "22 RUE DES BLEUETS, Neufchâtel-en-Bray",
+    "lat": 49.742469,
+    "lng": 1.440915,
+    "transactions": [
+      {
+        "date": "2025-04-22",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

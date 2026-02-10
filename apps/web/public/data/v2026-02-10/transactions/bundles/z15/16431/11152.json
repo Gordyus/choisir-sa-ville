@@ -1,0 +1,77 @@
+{
+  "1b30dccdf6b1": {
+    "id": "1b30dccdf6b1",
+    "label": "13 RUE BERNARD DECAEN, Thiétreville",
+    "lat": 49.719598,
+    "lng": 0.522598,
+    "transactions": [
+      {
+        "date": "2021-10-07",
+        "priceEur": 233000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "e4acb946f32d": {
+    "id": "e4acb946f32d",
+    "label": "13 RUE DE LA FORGE, Thiétreville",
+    "lat": 49.719838,
+    "lng": 0.519906,
+    "transactions": [
+      {
+        "date": "2022-03-17",
+        "priceEur": 124400,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a2db7d8cc97": {
+    "id": "4a2db7d8cc97",
+    "label": "7 RTE DU BEL EVENT, Thiétreville",
+    "lat": 49.721174,
+    "lng": 0.521312,
+    "transactions": [
+      {
+        "date": "2023-06-29",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  },
+  "860dc6a00f2e": {
+    "id": "860dc6a00f2e",
+    "label": "7 RUE BERNARD DECAEN, Thiétreville",
+    "lat": 49.718389,
+    "lng": 0.520324,
+    "transactions": [
+      {
+        "date": "2024-01-26",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e823188650f": {
+    "id": "2e823188650f",
+    "label": "19 RUE DE LA FORGE, Thiétreville",
+    "lat": 49.720484,
+    "lng": 0.520432,
+    "transactions": [
+      {
+        "date": "2024-04-02",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 198,
+        "isVefa": false
+      }
+    ]
+  }
+}

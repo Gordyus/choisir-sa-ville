@@ -1,0 +1,32 @@
+{
+  "faccb2f383c1": {
+    "id": "faccb2f383c1",
+    "label": "1113 RUE DES COMMUNAUX, Isneauville",
+    "lat": 49.515695,
+    "lng": 1.124875,
+    "transactions": [
+      {
+        "date": "2021-01-06",
+        "priceEur": 554500,
+        "typeLocal": "Maison",
+        "surfaceM2": 188,
+        "isVefa": false
+      }
+    ]
+  },
+  "3bd5123e9b71": {
+    "id": "3bd5123e9b71",
+    "label": "955 RUE DES COMMUNAUX, Isneauville",
+    "lat": 49.515873,
+    "lng": 1.126283,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 880000,
+        "typeLocal": "Maison",
+        "surfaceM2": 217,
+        "isVefa": false
+      }
+    ]
+  }
+}

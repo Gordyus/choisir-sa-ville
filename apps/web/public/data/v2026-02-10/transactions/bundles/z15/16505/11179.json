@@ -1,0 +1,32 @@
+{
+  "472c89d34d63": {
+    "id": "472c89d34d63",
+    "label": "5052 RAIMBOUVILLE, Saint-Germain-des-Essourts",
+    "lat": 49.52682,
+    "lng": 1.336271,
+    "transactions": [
+      {
+        "date": "2022-08-12",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "04a41d7108fe": {
+    "id": "04a41d7108fe",
+    "label": "5045 LA CAMPAGNE, Saint-Germain-des-Essourts",
+    "lat": 49.531884,
+    "lng": 1.329683,
+    "transactions": [
+      {
+        "date": "2022-09-02",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  }
+}

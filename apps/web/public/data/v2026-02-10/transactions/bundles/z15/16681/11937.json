@@ -1,0 +1,47 @@
+{
+  "0e4a3294f5da": {
+    "id": "0e4a3294f5da",
+    "label": "5 RTE DES RIVES, Les Rives",
+    "lat": 43.820793,
+    "lng": 3.264734,
+    "transactions": [
+      {
+        "date": "2021-11-17",
+        "priceEur": 59000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "d71f7d8a928a": {
+    "id": "d71f7d8a928a",
+    "label": "1 PL DE LA LAITERIE, Les Rives",
+    "lat": 43.820481,
+    "lng": 3.263968,
+    "transactions": [
+      {
+        "date": "2023-02-28",
+        "priceEur": 104541,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b7d6f2f8673": {
+    "id": "6b7d6f2f8673",
+    "label": "4 RUE DU PAILLER, Les Rives",
+    "lat": 43.819693,
+    "lng": 3.264035,
+    "transactions": [
+      {
+        "date": "2024-10-28",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  }
+}

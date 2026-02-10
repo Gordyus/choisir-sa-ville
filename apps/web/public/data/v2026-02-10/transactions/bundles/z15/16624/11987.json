@@ -1,0 +1,32 @@
+{
+  "8c1ff405c98b": {
+    "id": "8c1ff405c98b",
+    "label": "5194F HAM DE PEYREFICHE, Ferrals-les-Montagnes",
+    "lat": 43.427609,
+    "lng": 2.638127,
+    "transactions": [
+      {
+        "date": "2023-06-13",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c377073e21b": {
+    "id": "9c377073e21b",
+    "label": "5089 HAM DE PEYREFICHE, Ferrals-les-Montagnes",
+    "lat": 43.427542,
+    "lng": 2.638071,
+    "transactions": [
+      {
+        "date": "2023-06-13",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  }
+}

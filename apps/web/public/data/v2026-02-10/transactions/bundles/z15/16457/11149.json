@@ -1,0 +1,47 @@
+{
+  "39a3dc815d71": {
+    "id": "39a3dc815d71",
+    "label": "10 RUE DES PEUPLIERS, Étalleville",
+    "lat": 49.739025,
+    "lng": 0.812572,
+    "transactions": [
+      {
+        "date": "2021-01-28",
+        "priceEur": 78000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "9501502ffd4b": {
+    "id": "9501502ffd4b",
+    "label": "1 IMP DE LA SABLIERE, Bénesville",
+    "lat": 49.745431,
+    "lng": 0.811444,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 63333.33,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a0b21b6b580": {
+    "id": "6a0b21b6b580",
+    "label": "2 IMP DE LA SABLIERE, Bénesville",
+    "lat": 49.744699,
+    "lng": 0.811922,
+    "transactions": [
+      {
+        "date": "2025-04-17",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  }
+}

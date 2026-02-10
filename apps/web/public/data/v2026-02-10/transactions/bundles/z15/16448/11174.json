@@ -1,0 +1,32 @@
+{
+  "b167f7d34329": {
+    "id": "b167f7d34329",
+    "label": "860 RTE DU MONT SAINT, Louvetot",
+    "lat": 49.563674,
+    "lng": 0.709011,
+    "transactions": [
+      {
+        "date": "2021-09-17",
+        "priceEur": 244000,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  },
+  "49606a2f961e": {
+    "id": "49606a2f961e",
+    "label": "656 RTE DU MONT SAINT, Maulévrier-Sainte-Gertrude",
+    "lat": 49.562687,
+    "lng": 0.710237,
+    "transactions": [
+      {
+        "date": "2023-06-19",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "a04cfdf00ee4": {
+    "id": "a04cfdf00ee4",
+    "label": "5123 FERME VASSELIN, Meulers",
+    "lat": 49.842416,
+    "lng": 1.213755,
+    "transactions": [
+      {
+        "date": "2021-12-02",
+        "priceEur": 184900,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "6c1aeb436c81": {
+    "id": "6c1aeb436c81",
+    "label": "5106 ECREMESNIL, Meulers",
+    "lat": 49.840926,
+    "lng": 1.216834,
+    "transactions": [
+      {
+        "date": "2021-01-11",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e56526f9c41": {
+    "id": "1e56526f9c41",
+    "label": "5093 ECREMESNIL, Meulers",
+    "lat": 49.840695,
+    "lng": 1.216029,
+    "transactions": [
+      {
+        "date": "2021-03-26",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b3d608f67ab": {
+    "id": "0b3d608f67ab",
+    "label": "386 RUE DU BOIS DE PIMONT, Meulers",
+    "lat": 49.839767,
+    "lng": 1.216361,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 143000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "002b8355c522": {
+    "id": "002b8355c522",
+    "label": "5150 ECREMESNIL, Meulers",
+    "lat": 49.843285,
+    "lng": 1.217963,
+    "transactions": [
+      {
+        "date": "2023-01-26",
+        "priceEur": 500000,
+        "typeLocal": "Maison",
+        "surfaceM2": 307,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ea762482c9b": {
+    "id": "7ea762482c9b",
+    "label": "598 RUE DU BOIS DE PIMONT, Meulers",
+    "lat": 49.838382,
+    "lng": 1.217905,
+    "transactions": [
+      {
+        "date": "2023-02-06",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  }
+}

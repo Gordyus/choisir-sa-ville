@@ -1,0 +1,47 @@
+{
+  "ac8a8d15df21": {
+    "id": "ac8a8d15df21",
+    "label": "29 IMP DE LA PLAINE, Hattenville",
+    "lat": 49.647706,
+    "lng": 0.513773,
+    "transactions": [
+      {
+        "date": "2020-12-23",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "15a31541bccc": {
+    "id": "15a31541bccc",
+    "label": "32 IMP DE LA PLAINE, Hattenville",
+    "lat": 49.647226,
+    "lng": 0.51382,
+    "transactions": [
+      {
+        "date": "2021-12-10",
+        "priceEur": 249000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "922c2a992881": {
+    "id": "922c2a992881",
+    "label": "175 IMP DU MANOIR, Hattenville",
+    "lat": 49.651173,
+    "lng": 0.516152,
+    "transactions": [
+      {
+        "date": "2022-06-03",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 245,
+        "isVefa": false
+      }
+    ]
+  }
+}

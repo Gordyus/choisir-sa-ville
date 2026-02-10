@@ -1,0 +1,32 @@
+{
+  "98c6a2e27bfb": {
+    "id": "98c6a2e27bfb",
+    "label": "54 CLOS BOQUET, Rives-en-Seine",
+    "lat": 49.52512,
+    "lng": 0.769069,
+    "transactions": [
+      {
+        "date": "2020-07-15",
+        "priceEur": 103000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "89aa64bd1297": {
+    "id": "89aa64bd1297",
+    "label": "48 CLOS BOQUET, Rives-en-Seine",
+    "lat": 49.525112,
+    "lng": 0.769897,
+    "transactions": [
+      {
+        "date": "2024-02-14",
+        "priceEur": 109500,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

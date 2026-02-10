@@ -1,0 +1,107 @@
+{
+  "d0d40fd65cec": {
+    "id": "d0d40fd65cec",
+    "label": "151 RUE MARCEL CACHIN, Guesnain",
+    "lat": 50.349617,
+    "lng": 3.153754,
+    "transactions": [
+      {
+        "date": "2021-10-07",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "590370ba7764": {
+    "id": "590370ba7764",
+    "label": "20 RUE ALAN SHEPARD, Guesnain",
+    "lat": 50.350749,
+    "lng": 3.15808,
+    "transactions": [
+      {
+        "date": "2023-03-03",
+        "priceEur": 153000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "e07fefa72024": {
+    "id": "e07fefa72024",
+    "label": "171 RUE YOURI GAGARINE, Guesnain",
+    "lat": 50.351127,
+    "lng": 3.153573,
+    "transactions": [
+      {
+        "date": "2023-03-10",
+        "priceEur": 117600,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "5ac8f6273949": {
+    "id": "5ac8f6273949",
+    "label": "18 RUE DE BONNIERES, Guesnain",
+    "lat": 50.349336,
+    "lng": 3.156603,
+    "transactions": [
+      {
+        "date": "2023-04-07",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "028ccc7b429e": {
+    "id": "028ccc7b429e",
+    "label": "151 RUE YOURI GAGARINE, Guesnain",
+    "lat": 50.351224,
+    "lng": 3.153354,
+    "transactions": [
+      {
+        "date": "2023-07-18",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca22fba05173": {
+    "id": "ca22fba05173",
+    "label": "47 RUE ALAN SHEPARD, Guesnain",
+    "lat": 50.350733,
+    "lng": 3.157422,
+    "transactions": [
+      {
+        "date": "2023-07-13",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "0413825bdc71": {
+    "id": "0413825bdc71",
+    "label": "203 RUE YOURI GAGARINE, Guesnain",
+    "lat": 50.351071,
+    "lng": 3.154104,
+    "transactions": [
+      {
+        "date": "2024-09-25",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

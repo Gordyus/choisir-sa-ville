@@ -1,0 +1,92 @@
+{
+  "598466ee9681": {
+    "id": "598466ee9681",
+    "label": "12 RES DU CALVAIRE, Saint-Sylvain",
+    "lat": 49.844821,
+    "lng": 0.669544,
+    "transactions": [
+      {
+        "date": "2020-09-29",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "3348b3d3d0ee": {
+    "id": "3348b3d3d0ee",
+    "label": "14 RES DU CALVAIRE, Saint-Sylvain",
+    "lat": 49.845056,
+    "lng": 0.669598,
+    "transactions": [
+      {
+        "date": "2020-10-29",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "fec0bb532740": {
+    "id": "fec0bb532740",
+    "label": "13 RES DU CALVAIRE, Saint-Sylvain",
+    "lat": 49.844956,
+    "lng": 0.669374,
+    "transactions": [
+      {
+        "date": "2020-10-05",
+        "priceEur": 114000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "0cb96d317b43": {
+    "id": "0cb96d317b43",
+    "label": "5 RES DU CALVAIRE, Saint-Sylvain",
+    "lat": 49.845041,
+    "lng": 0.669028,
+    "transactions": [
+      {
+        "date": "2020-10-21",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b6c47662657": {
+    "id": "9b6c47662657",
+    "label": "9 RES DU CALVAIRE, Saint-Sylvain",
+    "lat": 49.844549,
+    "lng": 0.669212,
+    "transactions": [
+      {
+        "date": "2021-12-23",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "20d3487f4e37": {
+    "id": "20d3487f4e37",
+    "label": "326 RTE DE BERTHEAUVILLE, Saint-Sylvain",
+    "lat": 49.840534,
+    "lng": 0.660881,
+    "transactions": [
+      {
+        "date": "2022-05-17",
+        "priceEur": 768084.6,
+        "typeLocal": "Maison",
+        "surfaceM2": 359,
+        "isVefa": false
+      }
+    ]
+  }
+}

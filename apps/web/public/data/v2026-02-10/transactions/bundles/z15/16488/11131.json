@@ -1,0 +1,32 @@
+{
+  "687045095abc": {
+    "id": "687045095abc",
+    "label": "93 RUE CHARLES LEBON, Martigny",
+    "lat": 49.866644,
+    "lng": 1.151091,
+    "transactions": [
+      {
+        "date": "2020-10-02",
+        "priceEur": 590000,
+        "typeLocal": "Maison",
+        "surfaceM2": 207,
+        "isVefa": false
+      }
+    ]
+  },
+  "be611cad73c0": {
+    "id": "be611cad73c0",
+    "label": "5115 LE CHATEAU, Martigny",
+    "lat": 49.872397,
+    "lng": 1.14328,
+    "transactions": [
+      {
+        "date": "2023-05-27",
+        "priceEur": 910000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  }
+}

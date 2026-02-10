@@ -1,0 +1,32 @@
+{
+  "7ff8fa68c143": {
+    "id": "7ff8fa68c143",
+    "label": "9003 BOIS DE BRISEUX, Esnes",
+    "lat": 50.084526,
+    "lng": 3.304188,
+    "transactions": [
+      {
+        "date": "2020-10-28",
+        "priceEur": 506000,
+        "typeLocal": "Maison",
+        "surfaceM2": 264,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a918fb97999": {
+    "id": "8a918fb97999",
+    "label": "9001 BOIS DE BRISEUX, Esnes",
+    "lat": 50.084942,
+    "lng": 3.302902,
+    "transactions": [
+      {
+        "date": "2020-10-28",
+        "priceEur": 143012.5,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  }
+}

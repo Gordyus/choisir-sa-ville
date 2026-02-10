@@ -1,0 +1,77 @@
+{
+  "5814ada93c50": {
+    "id": "5814ada93c50",
+    "label": "5250A LA BOUDINIERE, Sainte-Marguerite-sur-Duclair",
+    "lat": 49.520085,
+    "lng": 0.806711,
+    "transactions": [
+      {
+        "date": "2021-10-27",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4e915af8405": {
+    "id": "f4e915af8405",
+    "label": "5254 BEAUQUESNET, Sainte-Marguerite-sur-Duclair",
+    "lat": 49.524162,
+    "lng": 0.803461,
+    "transactions": [
+      {
+        "date": "2021-05-11",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "7befd3daac85": {
+    "id": "7befd3daac85",
+    "label": "5251 LA BOUDINIERE, Sainte-Marguerite-sur-Duclair",
+    "lat": 49.519925,
+    "lng": 0.805625,
+    "transactions": [
+      {
+        "date": "2022-06-13",
+        "priceEur": 438300,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "e53170ac79c5": {
+    "id": "e53170ac79c5",
+    "label": "94 RTE DU BEAUQUESNAY, Sainte-Marguerite-sur-Duclair",
+    "lat": 49.525075,
+    "lng": 0.802836,
+    "transactions": [
+      {
+        "date": "2022-11-29",
+        "priceEur": 219000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f7a38ba5f96": {
+    "id": "3f7a38ba5f96",
+    "label": "308 RTE DU GLATIGNY, Sainte-Marguerite-sur-Duclair",
+    "lat": 49.520247,
+    "lng": 0.811805,
+    "transactions": [
+      {
+        "date": "2023-06-14",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "659adb29e789": {
+    "id": "659adb29e789",
+    "label": "6038 LE BOCAGE, Goderville",
+    "lat": 49.633994,
+    "lng": 0.362638,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "b85f5dbdaf7e": {
+    "id": "b85f5dbdaf7e",
+    "label": "5950 FERME DECULTOT, Goderville",
+    "lat": 49.633443,
+    "lng": 0.371403,
+    "transactions": [
+      {
+        "date": "2023-03-01",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c4edc9fdff7": {
+    "id": "0c4edc9fdff7",
+    "label": "570 RTE DU BOCAGE, Bornambusc",
+    "lat": 49.63344,
+    "lng": 0.366166,
+    "transactions": [
+      {
+        "date": "2024-07-25",
+        "priceEur": 153000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

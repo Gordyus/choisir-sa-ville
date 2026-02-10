@@ -1,0 +1,47 @@
+{
+  "ce57038284b7": {
+    "id": "ce57038284b7",
+    "label": "81 RUE DU MANEGE, Normanville",
+    "lat": 49.7016,
+    "lng": 0.577081,
+    "transactions": [
+      {
+        "date": "2024-04-19",
+        "priceEur": 175600,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "b916d6051f3a": {
+    "id": "b916d6051f3a",
+    "label": "656 RTE DE SORQUAINVILLE, Normanville",
+    "lat": 49.700981,
+    "lng": 0.579274,
+    "transactions": [
+      {
+        "date": "2025-01-14",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "379be88a653b": {
+    "id": "379be88a653b",
+    "label": "791 RTE DE SORQUAINVILLE, Normanville",
+    "lat": 49.70127,
+    "lng": 0.576917,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 374608,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  }
+}

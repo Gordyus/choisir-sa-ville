@@ -1,0 +1,77 @@
+{
+  "7bddc98acca8": {
+    "id": "7bddc98acca8",
+    "label": "107 RUE DES LAURIERS, Hondeghem",
+    "lat": 50.751931,
+    "lng": 2.514956,
+    "transactions": [
+      {
+        "date": "2020-12-04",
+        "priceEur": 227200,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "14a4b44184c8": {
+    "id": "14a4b44184c8",
+    "label": "417 STEENBERG STRAET, Hondeghem",
+    "lat": 50.756558,
+    "lng": 2.51304,
+    "transactions": [
+      {
+        "date": "2021-02-03",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "ecfeb70d2d88": {
+    "id": "ecfeb70d2d88",
+    "label": "557 STEENBERG STRAET, Hondeghem",
+    "lat": 50.756451,
+    "lng": 2.511225,
+    "transactions": [
+      {
+        "date": "2021-06-25",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 168,
+        "isVefa": false
+      }
+    ]
+  },
+  "56664eec46bf": {
+    "id": "56664eec46bf",
+    "label": "659 KALVERSTRAET, Hondeghem",
+    "lat": 50.750969,
+    "lng": 2.511494,
+    "transactions": [
+      {
+        "date": "2021-07-26",
+        "priceEur": 424000,
+        "typeLocal": "Maison",
+        "surfaceM2": 191,
+        "isVefa": false
+      }
+    ]
+  },
+  "3520141a41ff": {
+    "id": "3520141a41ff",
+    "label": "40 RUE DES LAURIERS, Hondeghem",
+    "lat": 50.752428,
+    "lng": 2.514297,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 289655,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  }
+}

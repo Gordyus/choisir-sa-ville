@@ -1,0 +1,107 @@
+{
+  "0a496dc9cacd": {
+    "id": "0a496dc9cacd",
+    "label": "5004 LES ECORCHE BOEUFS, Fréauville",
+    "lat": 49.828775,
+    "lng": 1.413692,
+    "transactions": [
+      {
+        "date": "2020-07-04",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd41684a92b5": {
+    "id": "bd41684a92b5",
+    "label": "5061 LE BOURG, Fréauville",
+    "lat": 49.825701,
+    "lng": 1.414865,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "dc96ec062b9b": {
+    "id": "dc96ec062b9b",
+    "label": "30 RUE DU MOULIN A HUILE, Londinières",
+    "lat": 49.830337,
+    "lng": 1.407839,
+    "transactions": [
+      {
+        "date": "2021-10-09",
+        "priceEur": 171500,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "47d8bfe13c78": {
+    "id": "47d8bfe13c78",
+    "label": "26 RUE DU MOULIN A HUILE, Londinières",
+    "lat": 49.830836,
+    "lng": 1.407909,
+    "transactions": [
+      {
+        "date": "2022-05-20",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "20b0930d4da9": {
+    "id": "20b0930d4da9",
+    "label": "5678 RUE DU BEAU SOLEIL, Londinières",
+    "lat": 49.830391,
+    "lng": 1.406478,
+    "transactions": [
+      {
+        "date": "2022-07-09",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "db30e8925e89": {
+    "id": "db30e8925e89",
+    "label": "6B RUE DU BEAU SOLEIL, Londinières",
+    "lat": 49.829798,
+    "lng": 1.406464,
+    "transactions": [
+      {
+        "date": "2022-11-18",
+        "priceEur": 304000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "9091574a790c": {
+    "id": "9091574a790c",
+    "label": "17 RUE DU MOULIN A HUILE, Londinières",
+    "lat": 49.830804,
+    "lng": 1.408572,
+    "transactions": [
+      {
+        "date": "2023-05-30",
+        "priceEur": 217800,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

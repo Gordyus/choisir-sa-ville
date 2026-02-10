@@ -1,0 +1,32 @@
+{
+  "06f6f81b9720": {
+    "id": "06f6f81b9720",
+    "label": "885 RTE DE RONCHEROLLES, Roncherolles-en-Bray",
+    "lat": 49.615332,
+    "lng": 1.487567,
+    "transactions": [
+      {
+        "date": "2022-02-03",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "4aa5170d8aec": {
+    "id": "4aa5170d8aec",
+    "label": "1302 RUE DU MESNIL TREFLET, Roncherolles-en-Bray",
+    "lat": 49.616678,
+    "lng": 1.489021,
+    "transactions": [
+      {
+        "date": "2024-06-26",
+        "priceEur": 194650,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

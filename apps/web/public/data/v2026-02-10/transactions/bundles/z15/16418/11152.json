@@ -1,0 +1,32 @@
+{
+  "c5462b17a968": {
+    "id": "c5462b17a968",
+    "label": "5072 MIAUTERIE, Tourville-les-Ifs",
+    "lat": 49.719856,
+    "lng": 0.383109,
+    "transactions": [
+      {
+        "date": "2021-11-12",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "50026c88979f": {
+    "id": "50026c88979f",
+    "label": "2 MIAUTERIE, Tourville-les-Ifs",
+    "lat": 49.719856,
+    "lng": 0.383109,
+    "transactions": [
+      {
+        "date": "2024-09-13",
+        "priceEur": 110967.34,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  }
+}

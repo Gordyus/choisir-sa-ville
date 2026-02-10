@@ -1,0 +1,6718 @@
+{
+  "5a15d9b4e704": {
+    "id": "5a15d9b4e704",
+    "label": "50 RUE DESCARTES, Tourcoing",
+    "lat": 50.735575,
+    "lng": 3.158683,
+    "transactions": [
+      {
+        "date": "2020-07-02",
+        "priceEur": 202500,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "786447df4343": {
+    "id": "786447df4343",
+    "label": "38 RUE MONTAIGNE, Tourcoing",
+    "lat": 50.733975,
+    "lng": 3.156501,
+    "transactions": [
+      {
+        "date": "2020-07-02",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "792ff7bf7a28": {
+    "id": "792ff7bf7a28",
+    "label": "42 RUE JEAN BART, Tourcoing",
+    "lat": 50.731665,
+    "lng": 3.15531,
+    "transactions": [
+      {
+        "date": "2020-07-16",
+        "priceEur": 155100,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "f3533145bead": {
+    "id": "f3533145bead",
+    "label": "57 RUE ARAGO, Tourcoing",
+    "lat": 50.731598,
+    "lng": 3.157396,
+    "transactions": [
+      {
+        "date": "2020-07-20",
+        "priceEur": 91000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "86f542f5261a": {
+    "id": "86f542f5261a",
+    "label": "75 RUE AUBER, Tourcoing",
+    "lat": 50.729874,
+    "lng": 3.161881,
+    "transactions": [
+      {
+        "date": "2020-07-20",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a6d27143a96": {
+    "id": "8a6d27143a96",
+    "label": "292 RUE DE GAND, Tourcoing",
+    "lat": 50.734322,
+    "lng": 3.161674,
+    "transactions": [
+      {
+        "date": "2020-07-17",
+        "priceEur": 106500,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "703227e550f3": {
+    "id": "703227e550f3",
+    "label": "69 RUE LA FONTAINE, Tourcoing",
+    "lat": 50.733986,
+    "lng": 3.156922,
+    "transactions": [
+      {
+        "date": "2020-08-05",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "9583e68869c7": {
+    "id": "9583e68869c7",
+    "label": "14 RUE INGRES, Tourcoing",
+    "lat": 50.733269,
+    "lng": 3.160502,
+    "transactions": [
+      {
+        "date": "2023-05-31",
+        "priceEur": 76000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-28",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "14edcc80652e": {
+    "id": "14edcc80652e",
+    "label": "33 RUE CH VAN DE VEEGAETE, Tourcoing",
+    "lat": 50.732455,
+    "lng": 3.162333,
+    "transactions": [
+      {
+        "date": "2021-04-12",
+        "priceEur": 67200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-09",
+        "priceEur": 67753,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-10",
+        "priceEur": 68400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae8c51bdcb90": {
+    "id": "ae8c51bdcb90",
+    "label": "2 RUE DU GENERAL DAMPIERRE, Tourcoing",
+    "lat": 50.73366,
+    "lng": 3.153797,
+    "transactions": [
+      {
+        "date": "2020-08-21",
+        "priceEur": 137700,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d98a1606b1e": {
+    "id": "9d98a1606b1e",
+    "label": "41 RUE DUPLEIX, Tourcoing",
+    "lat": 50.732186,
+    "lng": 3.15365,
+    "transactions": [
+      {
+        "date": "2020-08-21",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f7f922bd6e4": {
+    "id": "7f7f922bd6e4",
+    "label": "166B RUE DE GAND, Tourcoing",
+    "lat": 50.731322,
+    "lng": 3.160605,
+    "transactions": [
+      {
+        "date": "2020-09-09",
+        "priceEur": 166000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "7740fb5066db": {
+    "id": "7740fb5066db",
+    "label": "39 RUE LA FONTAINE, Tourcoing",
+    "lat": 50.733294,
+    "lng": 3.155879,
+    "transactions": [
+      {
+        "date": "2020-08-27",
+        "priceEur": 129238,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ed165b22e18": {
+    "id": "1ed165b22e18",
+    "label": "92 RUE TURGOT, Tourcoing",
+    "lat": 50.733679,
+    "lng": 3.154727,
+    "transactions": [
+      {
+        "date": "2020-09-03",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "6197c7e7978f": {
+    "id": "6197c7e7978f",
+    "label": "8 RUE FENELON, Tourcoing",
+    "lat": 50.731298,
+    "lng": 3.159164,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "e032dcfeba08": {
+    "id": "e032dcfeba08",
+    "label": "332 RUE DE GAND, Tourcoing",
+    "lat": 50.73545,
+    "lng": 3.162146,
+    "transactions": [
+      {
+        "date": "2020-09-15",
+        "priceEur": 148500,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "5919a30aedc7": {
+    "id": "5919a30aedc7",
+    "label": "49 RUE ARAGO, Tourcoing",
+    "lat": 50.731441,
+    "lng": 3.15762,
+    "transactions": [
+      {
+        "date": "2020-09-22",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "a574ce3e5d5a": {
+    "id": "a574ce3e5d5a",
+    "label": "42 RUE JENNER, Tourcoing",
+    "lat": 50.732064,
+    "lng": 3.153534,
+    "transactions": [
+      {
+        "date": "2020-09-24",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "236f66f0b7c8": {
+    "id": "236f66f0b7c8",
+    "label": "10 PL DES PHALEMPINS, Tourcoing",
+    "lat": 50.732274,
+    "lng": 3.15845,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "dfb4f824613c": {
+    "id": "dfb4f824613c",
+    "label": "168 RUE DE MENIN, Tourcoing",
+    "lat": 50.730064,
+    "lng": 3.153746,
+    "transactions": [
+      {
+        "date": "2020-10-19",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "57e17a712050": {
+    "id": "57e17a712050",
+    "label": "192 RUE DE MENIN, Tourcoing",
+    "lat": 50.730574,
+    "lng": 3.15327,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "6f8924178a35": {
+    "id": "6f8924178a35",
+    "label": "185 RUE INGRES, Tourcoing",
+    "lat": 50.735735,
+    "lng": 3.154988,
+    "transactions": [
+      {
+        "date": "2020-10-23",
+        "priceEur": 349000,
+        "typeLocal": "Maison",
+        "surfaceM2": 165,
+        "isVefa": false
+      }
+    ]
+  },
+  "8245a2fdf1a5": {
+    "id": "8245a2fdf1a5",
+    "label": "38 RUE ARAGO, Tourcoing",
+    "lat": 50.731775,
+    "lng": 3.157764,
+    "transactions": [
+      {
+        "date": "2020-10-26",
+        "priceEur": 100500,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "dc2f7d16f92d": {
+    "id": "dc2f7d16f92d",
+    "label": "29 RUE CH VAN DE VEEGAETE, Tourcoing",
+    "lat": 50.732455,
+    "lng": 3.162333,
+    "transactions": [
+      {
+        "date": "2025-04-15",
+        "priceEur": 74000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2024-05-22",
+        "priceEur": 65000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-10",
+        "priceEur": 68700,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-18",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-12",
+        "priceEur": 57000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "3fb50653c242": {
+    "id": "3fb50653c242",
+    "label": "28 RUE ARCHIMEDE, Tourcoing",
+    "lat": 50.733213,
+    "lng": 3.159357,
+    "transactions": [
+      {
+        "date": "2020-10-28",
+        "priceEur": 164200,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "bffb23056878": {
+    "id": "bffb23056878",
+    "label": "327 RUE DE GAND, Tourcoing",
+    "lat": 50.734677,
+    "lng": 3.161354,
+    "transactions": [
+      {
+        "date": "2020-10-15",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3a790d4c43f": {
+    "id": "b3a790d4c43f",
+    "label": "77 RUE LA FONTAINE, Tourcoing",
+    "lat": 50.734105,
+    "lng": 3.157084,
+    "transactions": [
+      {
+        "date": "2020-11-05",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f90aee43684": {
+    "id": "1f90aee43684",
+    "label": "27 RUE CH VAN DE VEEGAETE, Tourcoing",
+    "lat": 50.732455,
+    "lng": 3.162333,
+    "transactions": [
+      {
+        "date": "2025-05-26",
+        "priceEur": 65000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-11",
+        "priceEur": 68300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-26",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-28",
+        "priceEur": 74000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "05fd8aaed0e6": {
+    "id": "05fd8aaed0e6",
+    "label": "346 RUE DE GAND, Tourcoing",
+    "lat": 50.735746,
+    "lng": 3.162227,
+    "transactions": [
+      {
+        "date": "2020-10-15",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d1209d67e1f": {
+    "id": "8d1209d67e1f",
+    "label": "148 RUE INGRES, Tourcoing",
+    "lat": 50.735252,
+    "lng": 3.157063,
+    "transactions": [
+      {
+        "date": "2021-04-19",
+        "priceEur": 104000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-27",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "7eec69678e65": {
+    "id": "7eec69678e65",
+    "label": "146 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.732855,
+    "lng": 3.154178,
+    "transactions": [
+      {
+        "date": "2020-11-09",
+        "priceEur": 166000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7a74d425d0c": {
+    "id": "b7a74d425d0c",
+    "label": "92 RUE DE COURTRAI, Tourcoing",
+    "lat": 50.735799,
+    "lng": 3.163989,
+    "transactions": [
+      {
+        "date": "2020-10-29",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c306baf8102": {
+    "id": "7c306baf8102",
+    "label": "8 RUE DE CARVIN, Tourcoing",
+    "lat": 50.72958,
+    "lng": 3.162654,
+    "transactions": [
+      {
+        "date": "2020-10-27",
+        "priceEur": 42000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ee0a2ce4c5e": {
+    "id": "4ee0a2ce4c5e",
+    "label": "147 RUE AUBER, Tourcoing",
+    "lat": 50.730346,
+    "lng": 3.159771,
+    "transactions": [
+      {
+        "date": "2020-11-19",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "52ed3c9a85ab": {
+    "id": "52ed3c9a85ab",
+    "label": "183 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.732697,
+    "lng": 3.153517,
+    "transactions": [
+      {
+        "date": "2020-11-16",
+        "priceEur": 112500,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c81db95bd62": {
+    "id": "0c81db95bd62",
+    "label": "152 RUE INGRES, Tourcoing",
+    "lat": 50.735306,
+    "lng": 3.156991,
+    "transactions": [
+      {
+        "date": "2020-10-29",
+        "priceEur": 136000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "04b58028b325": {
+    "id": "04b58028b325",
+    "label": "125 RUE SIMON TIBERGHIEN, Tourcoing",
+    "lat": 50.731378,
+    "lng": 3.160804,
+    "transactions": [
+      {
+        "date": "2025-04-09",
+        "priceEur": 154030,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-18",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "1911b91eadeb": {
+    "id": "1911b91eadeb",
+    "label": "7 VC PLANCKAERT 164 RUE DE GAND, Tourcoing",
+    "lat": 50.73118,
+    "lng": 3.160568,
+    "transactions": [
+      {
+        "date": "2020-12-03",
+        "priceEur": 83850,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff906256b734": {
+    "id": "ff906256b734",
+    "label": "32 RUE ALBERT INGHELS, Tourcoing",
+    "lat": 50.732456,
+    "lng": 3.159314,
+    "transactions": [
+      {
+        "date": "2020-11-06",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "4312302ce84c": {
+    "id": "4312302ce84c",
+    "label": "11 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.730605,
+    "lng": 3.157584,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 174850,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "39a859779020": {
+    "id": "39a859779020",
+    "label": "150 RUE DE GAND, Tourcoing",
+    "lat": 50.730999,
+    "lng": 3.16003,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 98000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "26f2aa6c2fca": {
+    "id": "26f2aa6c2fca",
+    "label": "26 RUE D AMIENS, Tourcoing",
+    "lat": 50.733771,
+    "lng": 3.155892,
+    "transactions": [
+      {
+        "date": "2020-12-08",
+        "priceEur": 104150,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "5314770f15d2": {
+    "id": "5314770f15d2",
+    "label": "76 RUE MAURICE SARRAUT, Tourcoing",
+    "lat": 50.735954,
+    "lng": 3.159327,
+    "transactions": [
+      {
+        "date": "2020-12-14",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b336645f53c": {
+    "id": "2b336645f53c",
+    "label": "338 RUE DE GAND, Tourcoing",
+    "lat": 50.735564,
+    "lng": 3.162206,
+    "transactions": [
+      {
+        "date": "2020-12-07",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b8276d2f919": {
+    "id": "5b8276d2f919",
+    "label": "148 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.732879,
+    "lng": 3.154122,
+    "transactions": [
+      {
+        "date": "2020-11-04",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "84756ce182d1": {
+    "id": "84756ce182d1",
+    "label": "98 RUE DE GAND, Tourcoing",
+    "lat": 50.729749,
+    "lng": 3.158893,
+    "transactions": [
+      {
+        "date": "2020-11-17",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "30b376eed19a": {
+    "id": "30b376eed19a",
+    "label": "157 RUE INGRES, Tourcoing",
+    "lat": 50.735322,
+    "lng": 3.156128,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 69000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1f7df0a48c4": {
+    "id": "f1f7df0a48c4",
+    "label": "71 RUE DUPUYTREN, Tourcoing",
+    "lat": 50.729743,
+    "lng": 3.161701,
+    "transactions": [
+      {
+        "date": "2020-12-09",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "acba825d88eb": {
+    "id": "acba825d88eb",
+    "label": "51 RUE DE CASSEL, Tourcoing",
+    "lat": 50.73271,
+    "lng": 3.15884,
+    "transactions": [
+      {
+        "date": "2020-12-28",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "afc5e570536b": {
+    "id": "afc5e570536b",
+    "label": "12 RUE DE MADRID, Tourcoing",
+    "lat": 50.735512,
+    "lng": 3.157545,
+    "transactions": [
+      {
+        "date": "2020-12-16",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "7dfb95604b8b": {
+    "id": "7dfb95604b8b",
+    "label": "8 RUE DU GENERAL DAMPIERRE, Tourcoing",
+    "lat": 50.733764,
+    "lng": 3.153712,
+    "transactions": [
+      {
+        "date": "2020-12-29",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d15f8fd1701": {
+    "id": "9d15f8fd1701",
+    "label": "34 RUE DE MADRID, Tourcoing",
+    "lat": 50.735686,
+    "lng": 3.15691,
+    "transactions": [
+      {
+        "date": "2020-12-24",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "5356f28202d6": {
+    "id": "5356f28202d6",
+    "label": "169 RUE DE MENIN, Tourcoing",
+    "lat": 50.72999,
+    "lng": 3.15326,
+    "transactions": [
+      {
+        "date": "2020-12-24",
+        "priceEur": 84000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ba5a946687b": {
+    "id": "6ba5a946687b",
+    "label": "175 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.732522,
+    "lng": 3.153875,
+    "transactions": [
+      {
+        "date": "2020-12-21",
+        "priceEur": 197600,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "c56148f26dbe": {
+    "id": "c56148f26dbe",
+    "label": "33 RUE MONTAIGNE, Tourcoing",
+    "lat": 50.733293,
+    "lng": 3.156832,
+    "transactions": [
+      {
+        "date": "2020-12-22",
+        "priceEur": 83000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "813b3e64ebf5": {
+    "id": "813b3e64ebf5",
+    "label": "22 RUE FRANCIS DE PRESSENCE, Tourcoing",
+    "lat": 50.736194,
+    "lng": 3.153148,
+    "transactions": [
+      {
+        "date": "2020-12-30",
+        "priceEur": 128500,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9095b4b4d3d": {
+    "id": "a9095b4b4d3d",
+    "label": "11 RUE DU GENERAL DAMPIERRE, Tourcoing",
+    "lat": 50.733642,
+    "lng": 3.153192,
+    "transactions": [
+      {
+        "date": "2021-01-13",
+        "priceEur": 127500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "0bd3baede51d": {
+    "id": "0bd3baede51d",
+    "label": "133 RUE AUBER, Tourcoing",
+    "lat": 50.730222,
+    "lng": 3.160208,
+    "transactions": [
+      {
+        "date": "2021-01-22",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "55998bf7a6fa": {
+    "id": "55998bf7a6fa",
+    "label": "47 RUE DUPLEIX, Tourcoing",
+    "lat": 50.732269,
+    "lng": 3.153506,
+    "transactions": [
+      {
+        "date": "2021-01-13",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "579bdcc0324c": {
+    "id": "579bdcc0324c",
+    "label": "43 RUE SIMON TIBERGHIEN, Tourcoing",
+    "lat": 50.730386,
+    "lng": 3.162824,
+    "transactions": [
+      {
+        "date": "2021-01-19",
+        "priceEur": 136000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "9173c4c8cc2a": {
+    "id": "9173c4c8cc2a",
+    "label": "71 RUE LA FONTAINE, Tourcoing",
+    "lat": 50.734019,
+    "lng": 3.15696,
+    "transactions": [
+      {
+        "date": "2021-01-11",
+        "priceEur": 132000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "f27ce8e89052": {
+    "id": "f27ce8e89052",
+    "label": "16 RUE CHARLES DHERIN, Tourcoing",
+    "lat": 50.735648,
+    "lng": 3.153672,
+    "transactions": [
+      {
+        "date": "2021-01-26",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "f004490323c9": {
+    "id": "f004490323c9",
+    "label": "164 RUE AUBER, Tourcoing",
+    "lat": 50.730793,
+    "lng": 3.159536,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "eea51235c565": {
+    "id": "eea51235c565",
+    "label": "10 RUE MAURICE SARRAUT, Tourcoing",
+    "lat": 50.735006,
+    "lng": 3.16089,
+    "transactions": [
+      {
+        "date": "2021-12-01",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-22",
+        "priceEur": 93000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "293387ff7b7d": {
+    "id": "293387ff7b7d",
+    "label": "12 RUE MAURICE SARRAUT, Tourcoing",
+    "lat": 50.735024,
+    "lng": 3.16082,
+    "transactions": [
+      {
+        "date": "2022-10-07",
+        "priceEur": 187000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-22",
+        "priceEur": 92500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "9531f8e9a8bd": {
+    "id": "9531f8e9a8bd",
+    "label": "8 RUE BASSE, Tourcoing",
+    "lat": 50.735822,
+    "lng": 3.156211,
+    "transactions": [
+      {
+        "date": "2021-02-03",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "2fb35bd5fcec": {
+    "id": "2fb35bd5fcec",
+    "label": "14 RUE MONTAIGNE, Tourcoing",
+    "lat": 50.733261,
+    "lng": 3.157605,
+    "transactions": [
+      {
+        "date": "2021-02-12",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "61922d791404": {
+    "id": "61922d791404",
+    "label": "2 RUE ARCHIMEDE, Tourcoing",
+    "lat": 50.732705,
+    "lng": 3.158737,
+    "transactions": [
+      {
+        "date": "2021-02-16",
+        "priceEur": 117350,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "46150e4a4606": {
+    "id": "46150e4a4606",
+    "label": "142 RUE HOUCHARD, Tourcoing",
+    "lat": 50.731983,
+    "lng": 3.157618,
+    "transactions": [
+      {
+        "date": "2022-07-20",
+        "priceEur": 142500,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-10",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c0f662f60fa": {
+    "id": "0c0f662f60fa",
+    "label": "144 RUE DE MENIN, Tourcoing",
+    "lat": 50.729558,
+    "lng": 3.154287,
+    "transactions": [
+      {
+        "date": "2021-02-23",
+        "priceEur": 122000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "17fe99ba6f02": {
+    "id": "17fe99ba6f02",
+    "label": "35 RUE CH VAN DE VEEGAETE, Tourcoing",
+    "lat": 50.732455,
+    "lng": 3.162333,
+    "transactions": [
+      {
+        "date": "2021-07-05",
+        "priceEur": 67000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-24",
+        "priceEur": 72000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "55cb7090dbfd": {
+    "id": "55cb7090dbfd",
+    "label": "83 RUE SAINT BLAISE, Tourcoing",
+    "lat": 50.729581,
+    "lng": 3.155451,
+    "transactions": [
+      {
+        "date": "2021-03-05",
+        "priceEur": 105500,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "99e88fa917a7": {
+    "id": "99e88fa917a7",
+    "label": "79 RUE SAINT BLAISE, Tourcoing",
+    "lat": 50.729542,
+    "lng": 3.155568,
+    "transactions": [
+      {
+        "date": "2021-03-19",
+        "priceEur": 73057.5,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "dac34331fa50": {
+    "id": "dac34331fa50",
+    "label": "93 RUE SIMON TIBERGHIEN, Tourcoing",
+    "lat": 50.731045,
+    "lng": 3.161615,
+    "transactions": [
+      {
+        "date": "2021-03-19",
+        "priceEur": 156181,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c3c091592a6": {
+    "id": "9c3c091592a6",
+    "label": "115 RUE MAURICE SARRAUT, Tourcoing",
+    "lat": 50.736345,
+    "lng": 3.157176,
+    "transactions": [
+      {
+        "date": "2021-03-17",
+        "priceEur": 173000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "da3382dd0c91": {
+    "id": "da3382dd0c91",
+    "label": "138 RUE AUBER, Tourcoing",
+    "lat": 50.730541,
+    "lng": 3.160538,
+    "transactions": [
+      {
+        "date": "2021-03-23",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "54528f1feab1": {
+    "id": "54528f1feab1",
+    "label": "29 RUE HOUCHARD, Tourcoing",
+    "lat": 50.729867,
+    "lng": 3.154808,
+    "transactions": [
+      {
+        "date": "2021-03-31",
+        "priceEur": 107000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "eca641279fe8": {
+    "id": "eca641279fe8",
+    "label": "184 RUE INGRES, Tourcoing",
+    "lat": 50.735735,
+    "lng": 3.156295,
+    "transactions": [
+      {
+        "date": "2021-04-08",
+        "priceEur": 191100,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "220d6a705527": {
+    "id": "220d6a705527",
+    "label": "54 RUE MARCEAU, Tourcoing",
+    "lat": 50.729514,
+    "lng": 3.153411,
+    "transactions": [
+      {
+        "date": "2021-04-14",
+        "priceEur": 319900,
+        "typeLocal": "Maison",
+        "surfaceM2": 179,
+        "isVefa": false
+      }
+    ]
+  },
+  "2fa1cce077fa": {
+    "id": "2fa1cce077fa",
+    "label": "110 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.732461,
+    "lng": 3.154992,
+    "transactions": [
+      {
+        "date": "2021-03-29",
+        "priceEur": 148860,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-29",
+        "priceEur": 148860,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "214d65017e96": {
+    "id": "214d65017e96",
+    "label": "31 RUE CH VAN DE VEEGAETE, Tourcoing",
+    "lat": 50.732455,
+    "lng": 3.162333,
+    "transactions": [
+      {
+        "date": "2025-03-04",
+        "priceEur": 89200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2024-12-23",
+        "priceEur": 87500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-23",
+        "priceEur": 75000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-29",
+        "priceEur": 66600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-02",
+        "priceEur": 35000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "3fd646e160ee": {
+    "id": "3fd646e160ee",
+    "label": "28 RUE JEAN BART, Tourcoing",
+    "lat": 50.731213,
+    "lng": 3.154799,
+    "transactions": [
+      {
+        "date": "2021-04-06",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "000688a3e5e9": {
+    "id": "000688a3e5e9",
+    "label": "33 RUE HOUCHARD, Tourcoing",
+    "lat": 50.729927,
+    "lng": 3.154894,
+    "transactions": [
+      {
+        "date": "2021-04-14",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "ece31c80214c": {
+    "id": "ece31c80214c",
+    "label": "26 RUE DU GENERAL DAMPIERRE, Tourcoing",
+    "lat": 50.734145,
+    "lng": 3.15312,
+    "transactions": [
+      {
+        "date": "2021-04-23",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "2310d6bdaaf6": {
+    "id": "2310d6bdaaf6",
+    "label": "78 RUE INGRES, Tourcoing",
+    "lat": 50.734273,
+    "lng": 3.158675,
+    "transactions": [
+      {
+        "date": "2021-04-26",
+        "priceEur": 154500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "80581074d89c": {
+    "id": "80581074d89c",
+    "label": "8 RUE DE MADAGASCAR, Tourcoing",
+    "lat": 50.729899,
+    "lng": 3.15426,
+    "transactions": [
+      {
+        "date": "2021-04-23",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "3dfefa661905": {
+    "id": "3dfefa661905",
+    "label": "21 RUE FENELON, Tourcoing",
+    "lat": 50.731625,
+    "lng": 3.158213,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 131000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "1bdfbc596c5d": {
+    "id": "1bdfbc596c5d",
+    "label": "7 RUE D ATHENES, Tourcoing",
+    "lat": 50.734896,
+    "lng": 3.155078,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "9538034e3d86": {
+    "id": "9538034e3d86",
+    "label": "39 RUE LA TOUR D AUVERGNE, Tourcoing",
+    "lat": 50.733893,
+    "lng": 3.158466,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 132000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "93ed7d076786": {
+    "id": "93ed7d076786",
+    "label": "10 RUE DE COURTRAI, Tourcoing",
+    "lat": 50.734319,
+    "lng": 3.162059,
+    "transactions": [
+      {
+        "date": "2021-05-05",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "949c7815bd95": {
+    "id": "949c7815bd95",
+    "label": "16 RUE AUBER, Tourcoing",
+    "lat": 50.729826,
+    "lng": 3.163868,
+    "transactions": [
+      {
+        "date": "2021-05-11",
+        "priceEur": 191600,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d57b2d27540": {
+    "id": "2d57b2d27540",
+    "label": "220 RUE DE GAND, Tourcoing",
+    "lat": 50.732545,
+    "lng": 3.16115,
+    "transactions": [
+      {
+        "date": "2021-05-04",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ec3698f0840": {
+    "id": "1ec3698f0840",
+    "label": "135 RUE SIMON TIBERGHIEN, Tourcoing",
+    "lat": 50.731474,
+    "lng": 3.160555,
+    "transactions": [
+      {
+        "date": "2021-05-12",
+        "priceEur": 156200,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "d528d0a04177": {
+    "id": "d528d0a04177",
+    "label": "172 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.733159,
+    "lng": 3.153577,
+    "transactions": [
+      {
+        "date": "2021-05-07",
+        "priceEur": 143000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "68b15413b378": {
+    "id": "68b15413b378",
+    "label": "24 RUE D AMIENS, Tourcoing",
+    "lat": 50.733745,
+    "lng": 3.155843,
+    "transactions": [
+      {
+        "date": "2021-05-21",
+        "priceEur": 96000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "7024b8109aef": {
+    "id": "7024b8109aef",
+    "label": "6 RUE D ATHENES, Tourcoing",
+    "lat": 50.73509,
+    "lng": 3.155474,
+    "transactions": [
+      {
+        "date": "2021-05-07",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc4118a1adeb": {
+    "id": "cc4118a1adeb",
+    "label": "285 RUE DE GAND, Tourcoing",
+    "lat": 50.733318,
+    "lng": 3.160856,
+    "transactions": [
+      {
+        "date": "2021-05-18",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "a652722f7993": {
+    "id": "a652722f7993",
+    "label": "62 RUE SAINT BLAISE, Tourcoing",
+    "lat": 50.729636,
+    "lng": 3.156855,
+    "transactions": [
+      {
+        "date": "2021-05-20",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f4522d42082": {
+    "id": "3f4522d42082",
+    "label": "29 RUE ALBERT INGHELS, Tourcoing",
+    "lat": 50.732079,
+    "lng": 3.15901,
+    "transactions": [
+      {
+        "date": "2021-05-07",
+        "priceEur": 107000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a9bb7cf56c9": {
+    "id": "4a9bb7cf56c9",
+    "label": "33 RUE SAINT LOUIS, Tourcoing",
+    "lat": 50.73128,
+    "lng": 3.153257,
+    "transactions": [
+      {
+        "date": "2021-05-14",
+        "priceEur": 103000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb0f8047b472": {
+    "id": "fb0f8047b472",
+    "label": "134 RUE DES PHALEMPINS, Tourcoing",
+    "lat": 50.734631,
+    "lng": 3.156048,
+    "transactions": [
+      {
+        "date": "2021-05-25",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "832a788dae4c": {
+    "id": "832a788dae4c",
+    "label": "242 RUE DE GAND, Tourcoing",
+    "lat": 50.733368,
+    "lng": 3.161536,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 160200,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "b8c39778fa26": {
+    "id": "b8c39778fa26",
+    "label": "32 RUE TURGOT, Tourcoing",
+    "lat": 50.732911,
+    "lng": 3.156479,
+    "transactions": [
+      {
+        "date": "2021-06-11",
+        "priceEur": 129000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "cca107a1e139": {
+    "id": "cca107a1e139",
+    "label": "81 RUE HOUCHARD, Tourcoing",
+    "lat": 50.731097,
+    "lng": 3.15626,
+    "transactions": [
+      {
+        "date": "2021-06-08",
+        "priceEur": 142449,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5186413aea4": {
+    "id": "b5186413aea4",
+    "label": "89 RUE INGRES, Tourcoing",
+    "lat": 50.734008,
+    "lng": 3.157911,
+    "transactions": [
+      {
+        "date": "2021-06-14",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "78856720fdd4": {
+    "id": "78856720fdd4",
+    "label": "39 RUE DUPLEIX, Tourcoing",
+    "lat": 50.732157,
+    "lng": 3.153692,
+    "transactions": [
+      {
+        "date": "2021-06-03",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "ecbfd7544ad8": {
+    "id": "ecbfd7544ad8",
+    "label": "25 RUE ALBERT INGHELS, Tourcoing",
+    "lat": 50.732053,
+    "lng": 3.159121,
+    "transactions": [
+      {
+        "date": "2021-06-10",
+        "priceEur": 99000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "5ee316c81d8d": {
+    "id": "5ee316c81d8d",
+    "label": "27 RUE ARCHIMEDE, Tourcoing",
+    "lat": 50.734021,
+    "lng": 3.159422,
+    "transactions": [
+      {
+        "date": "2021-06-03",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "141847a544ec": {
+    "id": "141847a544ec",
+    "label": "37B RUE SIMON TIBERGHIEN, Tourcoing",
+    "lat": 50.73054,
+    "lng": 3.163189,
+    "transactions": [
+      {
+        "date": "2021-06-11",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "2632cfc241fc": {
+    "id": "2632cfc241fc",
+    "label": "41 RUE LA TOUR D AUVERGNE, Tourcoing",
+    "lat": 50.733934,
+    "lng": 3.158508,
+    "transactions": [
+      {
+        "date": "2021-07-09",
+        "priceEur": 121300,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1111c8a8cee": {
+    "id": "a1111c8a8cee",
+    "label": "20 RUE DE MADAGASCAR, Tourcoing",
+    "lat": 50.730071,
+    "lng": 3.154472,
+    "transactions": [
+      {
+        "date": "2021-06-25",
+        "priceEur": 68000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "751ac3bd4344": {
+    "id": "751ac3bd4344",
+    "label": "340 RUE DE GAND, Tourcoing",
+    "lat": 50.735607,
+    "lng": 3.16221,
+    "transactions": [
+      {
+        "date": "2021-07-06",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "237bb29afdbb": {
+    "id": "237bb29afdbb",
+    "label": "12 RUE DE MADAGASCAR, Tourcoing",
+    "lat": 50.729956,
+    "lng": 3.154324,
+    "transactions": [
+      {
+        "date": "2021-07-09",
+        "priceEur": 151000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ba3dea8a0e1": {
+    "id": "4ba3dea8a0e1",
+    "label": "23 RUE MAURICE SARRAUT, Tourcoing",
+    "lat": 50.734743,
+    "lng": 3.160636,
+    "transactions": [
+      {
+        "date": "2021-07-07",
+        "priceEur": 154500,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed68d4fa301b": {
+    "id": "ed68d4fa301b",
+    "label": "45 RUE AUBER, Tourcoing",
+    "lat": 50.729601,
+    "lng": 3.162927,
+    "transactions": [
+      {
+        "date": "2021-07-12",
+        "priceEur": 103000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "dea72acad010": {
+    "id": "dea72acad010",
+    "label": "57 RUE HOUCHARD, Tourcoing",
+    "lat": 50.730601,
+    "lng": 3.15573,
+    "transactions": [
+      {
+        "date": "2021-07-15",
+        "priceEur": 78500,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-15",
+        "priceEur": 103300,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "e25fe4f328b5": {
+    "id": "e25fe4f328b5",
+    "label": "49 RUE INGRES, Tourcoing",
+    "lat": 50.733378,
+    "lng": 3.159537,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 85100,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e1ddfc39c02": {
+    "id": "0e1ddfc39c02",
+    "label": "3 RUE PAUL BEULQUE, Tourcoing",
+    "lat": 50.732986,
+    "lng": 3.162245,
+    "transactions": [
+      {
+        "date": "2021-07-06",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "4145d2521c01": {
+    "id": "4145d2521c01",
+    "label": "282 RUE DE GAND, Tourcoing",
+    "lat": 50.734144,
+    "lng": 3.161633,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 143900,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "710430897f38": {
+    "id": "710430897f38",
+    "label": "44 RUE MONTAIGNE, Tourcoing",
+    "lat": 50.73407,
+    "lng": 3.156381,
+    "transactions": [
+      {
+        "date": "2021-07-13",
+        "priceEur": 158600,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "56d7d1ee5af6": {
+    "id": "56d7d1ee5af6",
+    "label": "27 RUE DE COURTRAI, Tourcoing",
+    "lat": 50.735091,
+    "lng": 3.16254,
+    "transactions": [
+      {
+        "date": "2021-06-28",
+        "priceEur": 126000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b9972b231e5": {
+    "id": "8b9972b231e5",
+    "label": "2 RUE MONTAIGNE, Tourcoing",
+    "lat": 50.733051,
+    "lng": 3.157795,
+    "transactions": [
+      {
+        "date": "2021-07-20",
+        "priceEur": 102500,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e1948f620c5": {
+    "id": "0e1948f620c5",
+    "label": "77 RUE MAURICE SARRAUT, Tourcoing",
+    "lat": 50.735754,
+    "lng": 3.158884,
+    "transactions": [
+      {
+        "date": "2021-07-22",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "412abbdd9a4f": {
+    "id": "412abbdd9a4f",
+    "label": "6 RUE DE CARVIN, Tourcoing",
+    "lat": 50.729591,
+    "lng": 3.162624,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 129500,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "14d1cc0e8741": {
+    "id": "14d1cc0e8741",
+    "label": "43 RUE AUBER, Tourcoing",
+    "lat": 50.729587,
+    "lng": 3.162992,
+    "transactions": [
+      {
+        "date": "2021-08-20",
+        "priceEur": 134000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "6c2cabc109aa": {
+    "id": "6c2cabc109aa",
+    "label": "105 RUE DES PHALEMPINS, Tourcoing",
+    "lat": 50.734751,
+    "lng": 3.155237,
+    "transactions": [
+      {
+        "date": "2021-08-26",
+        "priceEur": 179600,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "0fec894ab6ea": {
+    "id": "0fec894ab6ea",
+    "label": "348 RUE DE GAND, Tourcoing",
+    "lat": 50.735814,
+    "lng": 3.162405,
+    "transactions": [
+      {
+        "date": "2022-11-29",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-04",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "6cb7c7a2dc6c": {
+    "id": "6cb7c7a2dc6c",
+    "label": "28 RUE FENELON, Tourcoing",
+    "lat": 50.731725,
+    "lng": 3.15892,
+    "transactions": [
+      {
+        "date": "2021-08-25",
+        "priceEur": 235880,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "848c3c7afef3": {
+    "id": "848c3c7afef3",
+    "label": "124 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.732709,
+    "lng": 3.154852,
+    "transactions": [
+      {
+        "date": "2021-08-23",
+        "priceEur": 231000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ce3ca343a1f": {
+    "id": "4ce3ca343a1f",
+    "label": "179T RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.732727,
+    "lng": 3.153705,
+    "transactions": [
+      {
+        "date": "2021-09-01",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "437939d6dff4": {
+    "id": "437939d6dff4",
+    "label": "4 RUE TURGOT, Tourcoing",
+    "lat": 50.732528,
+    "lng": 3.157155,
+    "transactions": [
+      {
+        "date": "2021-08-27",
+        "priceEur": 107000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "15e6dbaa1dbc": {
+    "id": "15e6dbaa1dbc",
+    "label": "2B RUE MAURICE SARRAUT, Tourcoing",
+    "lat": 50.734621,
+    "lng": 3.161374,
+    "transactions": [
+      {
+        "date": "2021-09-15",
+        "priceEur": 329000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-15",
+        "priceEur": 329000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-15",
+        "priceEur": 329000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "58630ea60fc4": {
+    "id": "58630ea60fc4",
+    "label": "333 RUE DE GAND, Tourcoing",
+    "lat": 50.734793,
+    "lng": 3.161343,
+    "transactions": [
+      {
+        "date": "2021-09-08",
+        "priceEur": 160340,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "e81331347ed8": {
+    "id": "e81331347ed8",
+    "label": "62 RUE MONTAIGNE, Tourcoing",
+    "lat": 50.734359,
+    "lng": 3.155864,
+    "transactions": [
+      {
+        "date": "2022-10-27",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-14",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "968841d601b6": {
+    "id": "968841d601b6",
+    "label": "32 RUE BASSE, Tourcoing",
+    "lat": 50.73637,
+    "lng": 3.156761,
+    "transactions": [
+      {
+        "date": "2021-09-17",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "9869d7f9287c": {
+    "id": "9869d7f9287c",
+    "label": "198 RUE DE GAND, Tourcoing",
+    "lat": 50.732203,
+    "lng": 3.160729,
+    "transactions": [
+      {
+        "date": "2021-09-21",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad7f45a1897a": {
+    "id": "ad7f45a1897a",
+    "label": "16 RUE TURGOT, Tourcoing",
+    "lat": 50.732721,
+    "lng": 3.15687,
+    "transactions": [
+      {
+        "date": "2021-09-18",
+        "priceEur": 144400,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9f19d8015b6": {
+    "id": "b9f19d8015b6",
+    "label": "36 RUE DE CASSEL, Tourcoing",
+    "lat": 50.732854,
+    "lng": 3.159532,
+    "transactions": [
+      {
+        "date": "2021-09-13",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "f656a7adb8f8": {
+    "id": "f656a7adb8f8",
+    "label": "6 RUE MAURICE SARRAUT, Tourcoing",
+    "lat": 50.734943,
+    "lng": 3.160968,
+    "transactions": [
+      {
+        "date": "2021-09-09",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "960c2d745a50": {
+    "id": "960c2d745a50",
+    "label": "32 RUE ARCHIMEDE, Tourcoing",
+    "lat": 50.733292,
+    "lng": 3.159368,
+    "transactions": [
+      {
+        "date": "2021-10-01",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "9cc9a6241b27": {
+    "id": "9cc9a6241b27",
+    "label": "37 RUE SIMON TIBERGHIEN, Tourcoing",
+    "lat": 50.730518,
+    "lng": 3.16328,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "de51f7bb6241": {
+    "id": "de51f7bb6241",
+    "label": "22 RUE JENNER, Tourcoing",
+    "lat": 50.731835,
+    "lng": 3.154016,
+    "transactions": [
+      {
+        "date": "2023-09-27",
+        "priceEur": 144000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-15",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "798b8b915e3a": {
+    "id": "798b8b915e3a",
+    "label": "57 RUE INGRES, Tourcoing",
+    "lat": 50.733664,
+    "lng": 3.159049,
+    "transactions": [
+      {
+        "date": "2021-10-14",
+        "priceEur": 67500,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "80c203865a79": {
+    "id": "80c203865a79",
+    "label": "337 RUE DE GAND, Tourcoing",
+    "lat": 50.734951,
+    "lng": 3.161409,
+    "transactions": [
+      {
+        "date": "2021-10-08",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7809cbc76b5": {
+    "id": "f7809cbc76b5",
+    "label": "44 RUE DE MACON, Tourcoing",
+    "lat": 50.734923,
+    "lng": 3.15324,
+    "transactions": [
+      {
+        "date": "2021-10-22",
+        "priceEur": 50328,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "0dbc99210dda": {
+    "id": "0dbc99210dda",
+    "label": "24 RUE AUBER, Tourcoing",
+    "lat": 50.72985,
+    "lng": 3.163624,
+    "transactions": [
+      {
+        "date": "2021-10-26",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "1538aa3b9720": {
+    "id": "1538aa3b9720",
+    "label": "173 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.732494,
+    "lng": 3.153926,
+    "transactions": [
+      {
+        "date": "2021-10-13",
+        "priceEur": 248700,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7c40fafddb8": {
+    "id": "c7c40fafddb8",
+    "label": "102B RUE AUBER, Tourcoing",
+    "lat": 50.730403,
+    "lng": 3.161241,
+    "transactions": [
+      {
+        "date": "2021-10-27",
+        "priceEur": 144000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "13b40bc7b1de": {
+    "id": "13b40bc7b1de",
+    "label": "168 RUE DE GAND, Tourcoing",
+    "lat": 50.731533,
+    "lng": 3.160234,
+    "transactions": [
+      {
+        "date": "2021-10-13",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "f3e1eaca7660": {
+    "id": "f3e1eaca7660",
+    "label": "10 RUE JEAN BART, Tourcoing",
+    "lat": 50.7309,
+    "lng": 3.154509,
+    "transactions": [
+      {
+        "date": "2021-11-12",
+        "priceEur": 153500,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "d8019557e7c2": {
+    "id": "d8019557e7c2",
+    "label": "24 RUE LA FONTAINE, Tourcoing",
+    "lat": 50.732647,
+    "lng": 3.155724,
+    "transactions": [
+      {
+        "date": "2021-11-26",
+        "priceEur": 132000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc0adc2b547f": {
+    "id": "cc0adc2b547f",
+    "label": "49 RUE HOUCHARD, Tourcoing",
+    "lat": 50.730435,
+    "lng": 3.155352,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "7dd5958000dc": {
+    "id": "7dd5958000dc",
+    "label": "128 RUE HOUCHARD, Tourcoing",
+    "lat": 50.731523,
+    "lng": 3.157426,
+    "transactions": [
+      {
+        "date": "2021-12-02",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "2652522d7269": {
+    "id": "2652522d7269",
+    "label": "59 RUE DES GIRONDINS, Tourcoing",
+    "lat": 50.729569,
+    "lng": 3.155704,
+    "transactions": [
+      {
+        "date": "2021-12-08",
+        "priceEur": 44000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "645926ee2e13": {
+    "id": "645926ee2e13",
+    "label": "115 RUE AUBER, Tourcoing",
+    "lat": 50.729995,
+    "lng": 3.1607,
+    "transactions": [
+      {
+        "date": "2024-11-22",
+        "priceEur": 191000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-16",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "33740499e3b1": {
+    "id": "33740499e3b1",
+    "label": "168 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.73312,
+    "lng": 3.153675,
+    "transactions": [
+      {
+        "date": "2021-12-14",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "c12a9482c297": {
+    "id": "c12a9482c297",
+    "label": "89 RUE DU TONKIN, Tourcoing",
+    "lat": 50.733948,
+    "lng": 3.16291,
+    "transactions": [
+      {
+        "date": "2021-12-22",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "b484b08dcc53": {
+    "id": "b484b08dcc53",
+    "label": "63 RUE DUPUYTREN, Tourcoing",
+    "lat": 50.729599,
+    "lng": 3.161586,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "d18fda145edc": {
+    "id": "d18fda145edc",
+    "label": "106 RUE AUBER, Tourcoing",
+    "lat": 50.730409,
+    "lng": 3.161097,
+    "transactions": [
+      {
+        "date": "2021-12-22",
+        "priceEur": 123500,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "78f4dd98f256": {
+    "id": "78f4dd98f256",
+    "label": "56 RUE LA PEROUSE, Tourcoing",
+    "lat": 50.734611,
+    "lng": 3.159688,
+    "transactions": [
+      {
+        "date": "2021-12-29",
+        "priceEur": 46250,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e08383cd30a": {
+    "id": "1e08383cd30a",
+    "label": "15 RUE KELLERMAN, Tourcoing",
+    "lat": 50.732334,
+    "lng": 3.156268,
+    "transactions": [
+      {
+        "date": "2021-01-29",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c33568c1fe0": {
+    "id": "2c33568c1fe0",
+    "label": "89 RUE HOUCHARD, Tourcoing",
+    "lat": 50.731266,
+    "lng": 3.156296,
+    "transactions": [
+      {
+        "date": "2022-01-10",
+        "priceEur": 184000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "d36b5c40f52a": {
+    "id": "d36b5c40f52a",
+    "label": "43 RUE JEAN BART, Tourcoing",
+    "lat": 50.73184,
+    "lng": 3.154921,
+    "transactions": [
+      {
+        "date": "2022-01-19",
+        "priceEur": 146000,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  },
+  "13b836b91fd0": {
+    "id": "13b836b91fd0",
+    "label": "158 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.73299,
+    "lng": 3.15391,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "466d7eacddba": {
+    "id": "466d7eacddba",
+    "label": "88 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.732291,
+    "lng": 3.155746,
+    "transactions": [
+      {
+        "date": "2022-01-26",
+        "priceEur": 274700,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "c25b51ddf989": {
+    "id": "c25b51ddf989",
+    "label": "9 RUE D AMIENS, Tourcoing",
+    "lat": 50.733807,
+    "lng": 3.155125,
+    "transactions": [
+      {
+        "date": "2022-01-27",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "b2655b91d2e2": {
+    "id": "b2655b91d2e2",
+    "label": "121 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.731717,
+    "lng": 3.155631,
+    "transactions": [
+      {
+        "date": "2022-02-01",
+        "priceEur": 153000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "25dad4e67abf": {
+    "id": "25dad4e67abf",
+    "label": "160 RUE DE GAND, Tourcoing",
+    "lat": 50.731307,
+    "lng": 3.160084,
+    "transactions": [
+      {
+        "date": "2022-01-31",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "707de1d5cbe0": {
+    "id": "707de1d5cbe0",
+    "label": "302 RUE DE GAND, Tourcoing",
+    "lat": 50.734631,
+    "lng": 3.161747,
+    "transactions": [
+      {
+        "date": "2022-02-03",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a8eb9148494": {
+    "id": "9a8eb9148494",
+    "label": "115 RUE DES PHALEMPINS, Tourcoing",
+    "lat": 50.734963,
+    "lng": 3.155577,
+    "transactions": [
+      {
+        "date": "2022-01-28",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "1fedb1d4b8d3": {
+    "id": "1fedb1d4b8d3",
+    "label": "97 RUE MONTAIGNE, Tourcoing",
+    "lat": 50.734121,
+    "lng": 3.15545,
+    "transactions": [
+      {
+        "date": "2022-02-17",
+        "priceEur": 165720,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d83afe4cc06": {
+    "id": "5d83afe4cc06",
+    "label": "6 RUE DE MADAGASCAR, Tourcoing",
+    "lat": 50.729872,
+    "lng": 3.154229,
+    "transactions": [
+      {
+        "date": "2022-02-16",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5b9bb48ac10": {
+    "id": "c5b9bb48ac10",
+    "label": "1 RUE MAURICE SARRAUT, Tourcoing",
+    "lat": 50.734435,
+    "lng": 3.161165,
+    "transactions": [
+      {
+        "date": "2023-11-28",
+        "priceEur": 106500,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-12",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c8f8148d994": {
+    "id": "9c8f8148d994",
+    "label": "83 RUE DUPUYTREN, Tourcoing",
+    "lat": 50.729887,
+    "lng": 3.162114,
+    "transactions": [
+      {
+        "date": "2022-02-23",
+        "priceEur": 227000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "63ca6fd38267": {
+    "id": "63ca6fd38267",
+    "label": "59 RUE DES MARAICHERS, Tourcoing",
+    "lat": 50.735002,
+    "lng": 3.153557,
+    "transactions": [
+      {
+        "date": "2022-02-24",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "912460fea716": {
+    "id": "912460fea716",
+    "label": "146 RUE DES PHALEMPINS, Tourcoing",
+    "lat": 50.734802,
+    "lng": 3.156349,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d07d16e3c07": {
+    "id": "0d07d16e3c07",
+    "label": "66 RUE MONTAIGNE, Tourcoing",
+    "lat": 50.734417,
+    "lng": 3.155704,
+    "transactions": [
+      {
+        "date": "2022-02-28",
+        "priceEur": 126000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "bff4268486ba": {
+    "id": "bff4268486ba",
+    "label": "26 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.730944,
+    "lng": 3.158046,
+    "transactions": [
+      {
+        "date": "2022-03-02",
+        "priceEur": 215200,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "c20eebc30ea8": {
+    "id": "c20eebc30ea8",
+    "label": "76 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.732156,
+    "lng": 3.155977,
+    "transactions": [
+      {
+        "date": "2022-03-01",
+        "priceEur": 485300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-01",
+        "priceEur": 485300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-01",
+        "priceEur": 485300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 37,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f4b1ca90a95": {
+    "id": "3f4b1ca90a95",
+    "label": "66 RUE TURGOT, Tourcoing",
+    "lat": 50.733277,
+    "lng": 3.155404,
+    "transactions": [
+      {
+        "date": "2022-02-15",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "1607e2a09356": {
+    "id": "1607e2a09356",
+    "label": "53 RUE LA FONTAINE, Tourcoing",
+    "lat": 50.73346,
+    "lng": 3.15629,
+    "transactions": [
+      {
+        "date": "2022-03-07",
+        "priceEur": 137500,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "263d68dd3b1c": {
+    "id": "263d68dd3b1c",
+    "label": "49 RUE DES PHALEMPINS, Tourcoing",
+    "lat": 50.733518,
+    "lng": 3.153246,
+    "transactions": [
+      {
+        "date": "2022-03-11",
+        "priceEur": 190500,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0c2c1fa60e6": {
+    "id": "a0c2c1fa60e6",
+    "label": "66 RUE HOUCHARD, Tourcoing",
+    "lat": 50.730277,
+    "lng": 3.156039,
+    "transactions": [
+      {
+        "date": "2022-03-30",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "3243f8a77577": {
+    "id": "3243f8a77577",
+    "label": "1 RUE D ATHENES, Tourcoing",
+    "lat": 50.734827,
+    "lng": 3.155212,
+    "transactions": [
+      {
+        "date": "2022-03-30",
+        "priceEur": 129500,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc404f388a80": {
+    "id": "cc404f388a80",
+    "label": "95 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.73143,
+    "lng": 3.156288,
+    "transactions": [
+      {
+        "date": "2022-03-31",
+        "priceEur": 78000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d8ba459e961": {
+    "id": "6d8ba459e961",
+    "label": "145 RUE AUBER, Tourcoing",
+    "lat": 50.730313,
+    "lng": 3.15981,
+    "transactions": [
+      {
+        "date": "2022-04-07",
+        "priceEur": 229300,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "b743e19c4be0": {
+    "id": "b743e19c4be0",
+    "label": "26 PL DES PHALEMPINS, Tourcoing",
+    "lat": 50.732145,
+    "lng": 3.157297,
+    "transactions": [
+      {
+        "date": "2022-04-12",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d859091e0d7": {
+    "id": "3d859091e0d7",
+    "label": "55 RUE LA FONTAINE, Tourcoing",
+    "lat": 50.733511,
+    "lng": 3.156363,
+    "transactions": [
+      {
+        "date": "2022-04-26",
+        "priceEur": 99000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "0fc621cb5b38": {
+    "id": "0fc621cb5b38",
+    "label": "2 RUE DE CASSEL, Tourcoing",
+    "lat": 50.732517,
+    "lng": 3.160328,
+    "transactions": [
+      {
+        "date": "2022-04-27",
+        "priceEur": 83000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a0f51f26fbf": {
+    "id": "8a0f51f26fbf",
+    "label": "30 RUE DES ROSES, Tourcoing",
+    "lat": 50.731559,
+    "lng": 3.155487,
+    "transactions": [
+      {
+        "date": "2022-05-03",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e4d337ca8db": {
+    "id": "9e4d337ca8db",
+    "label": "37 RUE JEAN BART, Tourcoing",
+    "lat": 50.731665,
+    "lng": 3.154644,
+    "transactions": [
+      {
+        "date": "2022-04-08",
+        "priceEur": 131000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "094d8f22a09b": {
+    "id": "094d8f22a09b",
+    "label": "30 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.730912,
+    "lng": 3.157835,
+    "transactions": [
+      {
+        "date": "2022-04-15",
+        "priceEur": 105200,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "887ab52a6016": {
+    "id": "887ab52a6016",
+    "label": "119 RUE SAINT BLAISE, Tourcoing",
+    "lat": 50.730488,
+    "lng": 3.154045,
+    "transactions": [
+      {
+        "date": "2022-05-11",
+        "priceEur": 156000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "b28d34a7b006": {
+    "id": "b28d34a7b006",
+    "label": "125 RUE AUBER, Tourcoing",
+    "lat": 50.730192,
+    "lng": 3.160475,
+    "transactions": [
+      {
+        "date": "2022-04-20",
+        "priceEur": 167950,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ce28c37b0cb": {
+    "id": "3ce28c37b0cb",
+    "label": "133 RUE SIMON TIBERGHIEN, Tourcoing",
+    "lat": 50.731442,
+    "lng": 3.1606,
+    "transactions": [
+      {
+        "date": "2022-05-13",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "4caf5f5c3f2f": {
+    "id": "4caf5f5c3f2f",
+    "label": "53 RUE DE COURTRAI, Tourcoing",
+    "lat": 50.735534,
+    "lng": 3.162883,
+    "transactions": [
+      {
+        "date": "2022-05-23",
+        "priceEur": 124000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "d90c563faacf": {
+    "id": "d90c563faacf",
+    "label": "58 RUE HOUCHARD, Tourcoing",
+    "lat": 50.730141,
+    "lng": 3.155894,
+    "transactions": [
+      {
+        "date": "2022-05-23",
+        "priceEur": 144000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "52c57eb62884": {
+    "id": "52c57eb62884",
+    "label": "137 RUE AUBER, Tourcoing",
+    "lat": 50.730269,
+    "lng": 3.160037,
+    "transactions": [
+      {
+        "date": "2022-05-23",
+        "priceEur": 194000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "d0d68f1974f3": {
+    "id": "d0d68f1974f3",
+    "label": "63 RUE MAURICE SARRAUT, Tourcoing",
+    "lat": 50.73554,
+    "lng": 3.15934,
+    "transactions": [
+      {
+        "date": "2022-05-24",
+        "priceEur": 206900,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "5bd367299f5a": {
+    "id": "5bd367299f5a",
+    "label": "28 RUE HOUCHARD, Tourcoing",
+    "lat": 50.729575,
+    "lng": 3.155206,
+    "transactions": [
+      {
+        "date": "2022-05-11",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "038435dee852": {
+    "id": "038435dee852",
+    "label": "134 RUE INGRES, Tourcoing",
+    "lat": 50.735013,
+    "lng": 3.157364,
+    "transactions": [
+      {
+        "date": "2022-06-09",
+        "priceEur": 232000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "1aa1c65f18c9": {
+    "id": "1aa1c65f18c9",
+    "label": "21 PL DES PHALEMPINS, Tourcoing",
+    "lat": 50.732472,
+    "lng": 3.15727,
+    "transactions": [
+      {
+        "date": "2022-06-20",
+        "priceEur": 76000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "8432aa273901": {
+    "id": "8432aa273901",
+    "label": "121 RUE AUBER, Tourcoing",
+    "lat": 50.730062,
+    "lng": 3.160519,
+    "transactions": [
+      {
+        "date": "2022-06-10",
+        "priceEur": 215300,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae3b4f861d34": {
+    "id": "ae3b4f861d34",
+    "label": "161 RUE DE GAND, Tourcoing",
+    "lat": 50.730835,
+    "lng": 3.158815,
+    "transactions": [
+      {
+        "date": "2022-06-21",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ed97a8dd70e": {
+    "id": "3ed97a8dd70e",
+    "label": "18 PL DES PHALEMPINS, Tourcoing",
+    "lat": 50.732633,
+    "lng": 3.15729,
+    "transactions": [
+      {
+        "date": "2022-06-28",
+        "priceEur": 114000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0517ca279dc": {
+    "id": "e0517ca279dc",
+    "label": "50 RUE MARCEAU, Tourcoing",
+    "lat": 50.729526,
+    "lng": 3.153254,
+    "transactions": [
+      {
+        "date": "2022-07-01",
+        "priceEur": 83000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8414d23f718": {
+    "id": "e8414d23f718",
+    "label": "77 RUE DUPUYTREN, Tourcoing",
+    "lat": 50.729802,
+    "lng": 3.161975,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "79d93fcbba1a": {
+    "id": "79d93fcbba1a",
+    "label": "244 RUE DE GAND, Tourcoing",
+    "lat": 50.733442,
+    "lng": 3.161516,
+    "transactions": [
+      {
+        "date": "2022-06-13",
+        "priceEur": 182000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "c51890e80399": {
+    "id": "c51890e80399",
+    "label": "80 RUE SAINT BLAISE, Tourcoing",
+    "lat": 50.730154,
+    "lng": 3.156347,
+    "transactions": [
+      {
+        "date": "2024-12-16",
+        "priceEur": 337950,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-30",
+        "priceEur": 276450,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e81d4a464ab": {
+    "id": "8e81d4a464ab",
+    "label": "30 RUE ALBERT INGHELS, Tourcoing",
+    "lat": 50.732436,
+    "lng": 3.159362,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 87000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "706fe46a4df4": {
+    "id": "706fe46a4df4",
+    "label": "143 RUE DE GAND, Tourcoing",
+    "lat": 50.730443,
+    "lng": 3.158667,
+    "transactions": [
+      {
+        "date": "2023-11-17",
+        "priceEur": 440000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-17",
+        "priceEur": 440000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2023-11-17",
+        "priceEur": 440000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-28",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-28",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-28",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "59892f676e87": {
+    "id": "59892f676e87",
+    "label": "73 RUE AUBER, Tourcoing",
+    "lat": 50.729872,
+    "lng": 3.161978,
+    "transactions": [
+      {
+        "date": "2022-07-07",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "e85afec38aad": {
+    "id": "e85afec38aad",
+    "label": "36 RUE DE MADAGASCAR, Tourcoing",
+    "lat": 50.730664,
+    "lng": 3.155015,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f7186deaa2e": {
+    "id": "4f7186deaa2e",
+    "label": "3 RUE DU GENERAL DAMPIERRE, Tourcoing",
+    "lat": 50.733529,
+    "lng": 3.153353,
+    "transactions": [
+      {
+        "date": "2023-09-21",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-13",
+        "priceEur": 138700,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "722b2842f527": {
+    "id": "722b2842f527",
+    "label": "161 RUE AUBER, Tourcoing",
+    "lat": 50.730535,
+    "lng": 3.15943,
+    "transactions": [
+      {
+        "date": "2022-07-19",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "c964dc162250": {
+    "id": "c964dc162250",
+    "label": "21 RUE TURGOT, Tourcoing",
+    "lat": 50.732506,
+    "lng": 3.15611,
+    "transactions": [
+      {
+        "date": "2022-07-18",
+        "priceEur": 226285,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "877e62c8293e": {
+    "id": "877e62c8293e",
+    "label": "78 RUE SAINT BLAISE, Tourcoing",
+    "lat": 50.72999,
+    "lng": 3.156692,
+    "transactions": [
+      {
+        "date": "2022-06-29",
+        "priceEur": 233750,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b9b3bf504ca": {
+    "id": "9b9b3bf504ca",
+    "label": "11 RUE ARAGO, Tourcoing",
+    "lat": 50.730986,
+    "lng": 3.158614,
+    "transactions": [
+      {
+        "date": "2022-07-11",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d810e4c21fa": {
+    "id": "4d810e4c21fa",
+    "label": "1 RUE LA FONTAINE, Tourcoing",
+    "lat": 50.732393,
+    "lng": 3.154987,
+    "transactions": [
+      {
+        "date": "2022-08-03",
+        "priceEur": 153000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 34,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-03",
+        "priceEur": 153000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-03",
+        "priceEur": 153000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2a007853d09": {
+    "id": "a2a007853d09",
+    "label": "28 RUE JENNER, Tourcoing",
+    "lat": 50.731903,
+    "lng": 3.153862,
+    "transactions": [
+      {
+        "date": "2022-07-21",
+        "priceEur": 133500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "9b4ebe715829": {
+    "id": "9b4ebe715829",
+    "label": "5 RUE ALBERT INGHELS, Tourcoing",
+    "lat": 50.731922,
+    "lng": 3.159759,
+    "transactions": [
+      {
+        "date": "2022-08-01",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "109f16f83a78": {
+    "id": "109f16f83a78",
+    "label": "34 RUE LA PEROUSE, Tourcoing",
+    "lat": 50.734323,
+    "lng": 3.16016,
+    "transactions": [
+      {
+        "date": "2022-08-02",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "985d2c21089c": {
+    "id": "985d2c21089c",
+    "label": "51 RUE DUPLEIX, Tourcoing",
+    "lat": 50.732316,
+    "lng": 3.153423,
+    "transactions": [
+      {
+        "date": "2022-07-25",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "929731023406": {
+    "id": "929731023406",
+    "label": "92 RUE DE GAND, Tourcoing",
+    "lat": 50.729558,
+    "lng": 3.158955,
+    "transactions": [
+      {
+        "date": "2022-08-02",
+        "priceEur": 181000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "2fe0afef27c7": {
+    "id": "2fe0afef27c7",
+    "label": "27 RUE JEAN BART, Tourcoing",
+    "lat": 50.731466,
+    "lng": 3.15448,
+    "transactions": [
+      {
+        "date": "2022-08-16",
+        "priceEur": 202800,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "e9ba518584d3": {
+    "id": "e9ba518584d3",
+    "label": "7 RUE ROSSINI, Tourcoing",
+    "lat": 50.730663,
+    "lng": 3.16124,
+    "transactions": [
+      {
+        "date": "2022-08-19",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "8d15c53ba188": {
+    "id": "8d15c53ba188",
+    "label": "115 RUE SAINT BLAISE, Tourcoing",
+    "lat": 50.730437,
+    "lng": 3.154137,
+    "transactions": [
+      {
+        "date": "2022-08-01",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "441f8bd37c5e": {
+    "id": "441f8bd37c5e",
+    "label": "2 PL DES PHALEMPINS, Tourcoing",
+    "lat": 50.73198,
+    "lng": 3.157717,
+    "transactions": [
+      {
+        "date": "2022-08-31",
+        "priceEur": 153000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "1494a6ebb4b6": {
+    "id": "1494a6ebb4b6",
+    "label": "79 RUE HOUCHARD, Tourcoing",
+    "lat": 50.731064,
+    "lng": 3.156232,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad9e709821d7": {
+    "id": "ad9e709821d7",
+    "label": "10 RUE MONTAIGNE, Tourcoing",
+    "lat": 50.73322,
+    "lng": 3.157711,
+    "transactions": [
+      {
+        "date": "2022-08-17",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "40353d5886eb": {
+    "id": "40353d5886eb",
+    "label": "42 RUE DE MADRID, Tourcoing",
+    "lat": 50.735869,
+    "lng": 3.156816,
+    "transactions": [
+      {
+        "date": "2022-08-30",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e4d1d88670c": {
+    "id": "7e4d1d88670c",
+    "label": "25 RUE CHARLES DHERIN, Tourcoing",
+    "lat": 50.736185,
+    "lng": 3.153567,
+    "transactions": [
+      {
+        "date": "2022-08-30",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "121e2bcd9af7": {
+    "id": "121e2bcd9af7",
+    "label": "255B RUE DE GAND, Tourcoing",
+    "lat": 50.732583,
+    "lng": 3.16042,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 72000,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2227c4663a9": {
+    "id": "a2227c4663a9",
+    "label": "315 RUE DE GAND, Tourcoing",
+    "lat": 50.734361,
+    "lng": 3.161086,
+    "transactions": [
+      {
+        "date": "2022-08-30",
+        "priceEur": 171700,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1db7d6f0cbe": {
+    "id": "f1db7d6f0cbe",
+    "label": "31 RUE FENELON, Tourcoing",
+    "lat": 50.731769,
+    "lng": 3.158025,
+    "transactions": [
+      {
+        "date": "2022-09-02",
+        "priceEur": 168500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "02bbb5e822fe": {
+    "id": "02bbb5e822fe",
+    "label": "58 RUE ALBERT INGHELS, Tourcoing",
+    "lat": 50.732651,
+    "lng": 3.158619,
+    "transactions": [
+      {
+        "date": "2022-09-16",
+        "priceEur": 123200,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "59bd2363811d": {
+    "id": "59bd2363811d",
+    "label": "56 RUE TURGOT, Tourcoing",
+    "lat": 50.733169,
+    "lng": 3.155692,
+    "transactions": [
+      {
+        "date": "2022-09-19",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "302003955e81": {
+    "id": "302003955e81",
+    "label": "12 RUE LA FONTAINE, Tourcoing",
+    "lat": 50.732387,
+    "lng": 3.155587,
+    "transactions": [
+      {
+        "date": "2022-09-12",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "46b849cebffb": {
+    "id": "46b849cebffb",
+    "label": "156 RUE DE MENIN, Tourcoing",
+    "lat": 50.72975,
+    "lng": 3.154175,
+    "transactions": [
+      {
+        "date": "2022-09-13",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "9e3bfd31ad34": {
+    "id": "9e3bfd31ad34",
+    "label": "29 RUE DUPLEIX, Tourcoing",
+    "lat": 50.732046,
+    "lng": 3.153929,
+    "transactions": [
+      {
+        "date": "2022-09-29",
+        "priceEur": 164900,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "88097fc481b0": {
+    "id": "88097fc481b0",
+    "label": "121 RUE SAINT BLAISE, Tourcoing",
+    "lat": 50.730528,
+    "lng": 3.154013,
+    "transactions": [
+      {
+        "date": "2022-09-15",
+        "priceEur": 166000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "3bae20f1320d": {
+    "id": "3bae20f1320d",
+    "label": "171 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.732461,
+    "lng": 3.153972,
+    "transactions": [
+      {
+        "date": "2022-10-14",
+        "priceEur": 143200,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d6ca8e9d5c9": {
+    "id": "2d6ca8e9d5c9",
+    "label": "44 RUE ALBERT INGHELS, Tourcoing",
+    "lat": 50.732555,
+    "lng": 3.159019,
+    "transactions": [
+      {
+        "date": "2023-04-03",
+        "priceEur": 122000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-27",
+        "priceEur": 111000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "13e673d584a8": {
+    "id": "13e673d584a8",
+    "label": "31 RUE PAUL BEULQUE, Tourcoing",
+    "lat": 50.733389,
+    "lng": 3.16337,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 116000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "107ec3f3c3e4": {
+    "id": "107ec3f3c3e4",
+    "label": "91 RUE HOUCHARD, Tourcoing",
+    "lat": 50.731303,
+    "lng": 3.156338,
+    "transactions": [
+      {
+        "date": "2022-11-03",
+        "priceEur": 227300,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "ebfada2d59d0": {
+    "id": "ebfada2d59d0",
+    "label": "286 RUE DE GAND, Tourcoing",
+    "lat": 50.734215,
+    "lng": 3.161658,
+    "transactions": [
+      {
+        "date": "2022-11-07",
+        "priceEur": 87000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "31bfcd445c03": {
+    "id": "31bfcd445c03",
+    "label": "144 RUE DE GAND, Tourcoing",
+    "lat": 50.730955,
+    "lng": 3.159788,
+    "transactions": [
+      {
+        "date": "2022-11-15",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a610dfc7b11": {
+    "id": "7a610dfc7b11",
+    "label": "6 RUE BASSE, Tourcoing",
+    "lat": 50.735793,
+    "lng": 3.156179,
+    "transactions": [
+      {
+        "date": "2024-02-01",
+        "priceEur": 89000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-19",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-30",
+        "priceEur": 106000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d0c0488794e": {
+    "id": "5d0c0488794e",
+    "label": "11 RUE DUPLEIX, Tourcoing",
+    "lat": 50.731831,
+    "lng": 3.154377,
+    "transactions": [
+      {
+        "date": "2022-12-01",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "d1346a4f83de": {
+    "id": "d1346a4f83de",
+    "label": "119 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.731687,
+    "lng": 3.155673,
+    "transactions": [
+      {
+        "date": "2022-11-28",
+        "priceEur": 157700,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "74c3cf4647dc": {
+    "id": "74c3cf4647dc",
+    "label": "53 RUE ARAGO, Tourcoing",
+    "lat": 50.731532,
+    "lng": 3.157523,
+    "transactions": [
+      {
+        "date": "2022-12-09",
+        "priceEur": 156300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-09",
+        "priceEur": 156300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ea5d0331b08": {
+    "id": "4ea5d0331b08",
+    "label": "40 RUE DE CASSEL, Tourcoing",
+    "lat": 50.732871,
+    "lng": 3.15943,
+    "transactions": [
+      {
+        "date": "2022-12-09",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "aba30628e679": {
+    "id": "aba30628e679",
+    "label": "173 RUE INGRES, Tourcoing",
+    "lat": 50.735506,
+    "lng": 3.155693,
+    "transactions": [
+      {
+        "date": "2022-12-28",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a0d5d1ae304": {
+    "id": "8a0d5d1ae304",
+    "label": "197 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.732885,
+    "lng": 3.15326,
+    "transactions": [
+      {
+        "date": "2022-12-28",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f45703f7d84": {
+    "id": "1f45703f7d84",
+    "label": "45 RUE INGRES, Tourcoing",
+    "lat": 50.7333,
+    "lng": 3.159542,
+    "transactions": [
+      {
+        "date": "2022-12-19",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c6c1218717c": {
+    "id": "3c6c1218717c",
+    "label": "54 RUE ALBERT INGHELS, Tourcoing",
+    "lat": 50.732639,
+    "lng": 3.158761,
+    "transactions": [
+      {
+        "date": "2023-01-05",
+        "priceEur": 124200,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "73da7c67c677": {
+    "id": "73da7c67c677",
+    "label": "156 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.732967,
+    "lng": 3.153947,
+    "transactions": [
+      {
+        "date": "2023-01-10",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f319fddeffb": {
+    "id": "3f319fddeffb",
+    "label": "91 RUE LA FONTAINE, Tourcoing",
+    "lat": 50.734299,
+    "lng": 3.157386,
+    "transactions": [
+      {
+        "date": "2023-01-13",
+        "priceEur": 119500,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "6f423a89780e": {
+    "id": "6f423a89780e",
+    "label": "12 ALL LUCIE ET RAYMOND AUBRAC, Tourcoing",
+    "lat": 50.7327,
+    "lng": 3.163776,
+    "transactions": [
+      {
+        "date": "2023-01-13",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "5aa5e16f7079": {
+    "id": "5aa5e16f7079",
+    "label": "49 RUE DES MARAICHERS, Tourcoing",
+    "lat": 50.734925,
+    "lng": 3.153855,
+    "transactions": [
+      {
+        "date": "2023-01-11",
+        "priceEur": 153000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "189e5c906378": {
+    "id": "189e5c906378",
+    "label": "70B RUE INGRES, Tourcoing",
+    "lat": 50.734108,
+    "lng": 3.158856,
+    "transactions": [
+      {
+        "date": "2025-02-26",
+        "priceEur": 135500,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-30",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a1d997e141b": {
+    "id": "6a1d997e141b",
+    "label": "74 RUE HOUCHARD, Tourcoing",
+    "lat": 50.730406,
+    "lng": 3.156178,
+    "transactions": [
+      {
+        "date": "2023-01-17",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b46697c8446": {
+    "id": "4b46697c8446",
+    "label": "7 RUE DU GENERAL DAMPIERRE, Tourcoing",
+    "lat": 50.733583,
+    "lng": 3.153269,
+    "transactions": [
+      {
+        "date": "2023-02-10",
+        "priceEur": 142500,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1020b289a23": {
+    "id": "a1020b289a23",
+    "label": "4 RUE FRANCIS DE PRESSENCE, Tourcoing",
+    "lat": 50.735792,
+    "lng": 3.153208,
+    "transactions": [
+      {
+        "date": "2023-02-15",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "7fc097e8c9f2": {
+    "id": "7fc097e8c9f2",
+    "label": "114 RUE AUBER, Tourcoing",
+    "lat": 50.730419,
+    "lng": 3.160877,
+    "transactions": [
+      {
+        "date": "2023-02-09",
+        "priceEur": 180000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-09",
+        "priceEur": 180000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 27,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-09",
+        "priceEur": 180000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  },
+  "4222e768f359": {
+    "id": "4222e768f359",
+    "label": "38 RUE HOUCHARD, Tourcoing",
+    "lat": 50.729744,
+    "lng": 3.15537,
+    "transactions": [
+      {
+        "date": "2023-02-22",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "0cbc71e5363e": {
+    "id": "0cbc71e5363e",
+    "label": "26 RUE DE CASSEL, Tourcoing",
+    "lat": 50.732755,
+    "lng": 3.159743,
+    "transactions": [
+      {
+        "date": "2023-03-01",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f25174d20ac": {
+    "id": "1f25174d20ac",
+    "label": "73 RUE MAURICE SARRAUT, Tourcoing",
+    "lat": 50.735686,
+    "lng": 3.159054,
+    "transactions": [
+      {
+        "date": "2023-02-28",
+        "priceEur": 192600,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "02aa37dde0b9": {
+    "id": "02aa37dde0b9",
+    "label": "5 COUR BOSSUT 94 BIS RUE DE GAND, Tourcoing",
+    "lat": 50.729598,
+    "lng": 3.159227,
+    "transactions": [
+      {
+        "date": "2023-03-02",
+        "priceEur": 48000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "05519d4b5636": {
+    "id": "05519d4b5636",
+    "label": "7 RUE DE RIVOLI, Tourcoing",
+    "lat": 50.730094,
+    "lng": 3.162874,
+    "transactions": [
+      {
+        "date": "2023-03-24",
+        "priceEur": 166800,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "e79faf8543ba": {
+    "id": "e79faf8543ba",
+    "label": "43 RUE INGRES, Tourcoing",
+    "lat": 50.733274,
+    "lng": 3.159632,
+    "transactions": [
+      {
+        "date": "2023-03-08",
+        "priceEur": 221400,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "425b8f1b7b80": {
+    "id": "425b8f1b7b80",
+    "label": "75 RUE LA FONTAINE, Tourcoing",
+    "lat": 50.734071,
+    "lng": 3.157037,
+    "transactions": [
+      {
+        "date": "2023-03-14",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f5cca1fd3f8": {
+    "id": "4f5cca1fd3f8",
+    "label": "154 RUE INGRES, Tourcoing",
+    "lat": 50.735321,
+    "lng": 3.156947,
+    "transactions": [
+      {
+        "date": "2023-04-05",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f5f3b4aaf32": {
+    "id": "8f5f3b4aaf32",
+    "label": "9 RUE DE MACON, Tourcoing",
+    "lat": 50.735227,
+    "lng": 3.154504,
+    "transactions": [
+      {
+        "date": "2024-09-26",
+        "priceEur": 124000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-11",
+        "priceEur": 113000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "b36a6864a589": {
+    "id": "b36a6864a589",
+    "label": "13 RUE LA FONTAINE, Tourcoing",
+    "lat": 50.732712,
+    "lng": 3.155134,
+    "transactions": [
+      {
+        "date": "2023-04-20",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "947cf008aabe": {
+    "id": "947cf008aabe",
+    "label": "12 RUE LA PEROUSE, Tourcoing",
+    "lat": 50.734173,
+    "lng": 3.160664,
+    "transactions": [
+      {
+        "date": "2023-04-18",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 220,
+        "isVefa": false
+      }
+    ]
+  },
+  "81a75fabd893": {
+    "id": "81a75fabd893",
+    "label": "20 RUE D AMIENS, Tourcoing",
+    "lat": 50.733678,
+    "lng": 3.155775,
+    "transactions": [
+      {
+        "date": "2023-04-20",
+        "priceEur": 107400,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "c68d790a16f4": {
+    "id": "c68d790a16f4",
+    "label": "120 RUE DE GAND, Tourcoing",
+    "lat": 50.730249,
+    "lng": 3.158938,
+    "transactions": [
+      {
+        "date": "2023-04-17",
+        "priceEur": 215000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb1fc33049fc": {
+    "id": "cb1fc33049fc",
+    "label": "17 RUE LA FONTAINE, Tourcoing",
+    "lat": 50.732784,
+    "lng": 3.155198,
+    "transactions": [
+      {
+        "date": "2023-04-19",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c3a88bb9313": {
+    "id": "8c3a88bb9313",
+    "label": "1 VC BOURLA 182B RUE DE MENIN, Tourcoing",
+    "lat": 50.730308,
+    "lng": 3.153463,
+    "transactions": [
+      {
+        "date": "2023-05-03",
+        "priceEur": 66000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ff3a396d503": {
+    "id": "2ff3a396d503",
+    "label": "14 RUE LA FONTAINE, Tourcoing",
+    "lat": 50.732422,
+    "lng": 3.155624,
+    "transactions": [
+      {
+        "date": "2023-12-04",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-02",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "c1e320d11b11": {
+    "id": "c1e320d11b11",
+    "label": "210 RUE DE GAND, Tourcoing",
+    "lat": 50.732425,
+    "lng": 3.1609,
+    "transactions": [
+      {
+        "date": "2023-04-18",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-18",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "0476813726f9": {
+    "id": "0476813726f9",
+    "label": "1 RUE CHAPTAL, Tourcoing",
+    "lat": 50.730644,
+    "lng": 3.15578,
+    "transactions": [
+      {
+        "date": "2023-05-02",
+        "priceEur": 109300,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "ef1f89c133d8": {
+    "id": "ef1f89c133d8",
+    "label": "7 RUE TURGOT, Tourcoing",
+    "lat": 50.732416,
+    "lng": 3.15654,
+    "transactions": [
+      {
+        "date": "2023-04-24",
+        "priceEur": 131790,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "4892301b3d51": {
+    "id": "4892301b3d51",
+    "label": "331 RUE DE GAND, Tourcoing",
+    "lat": 50.734756,
+    "lng": 3.161319,
+    "transactions": [
+      {
+        "date": "2023-04-28",
+        "priceEur": 67100,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "452dc020fa65": {
+    "id": "452dc020fa65",
+    "label": "186 RUE INGRES, Tourcoing",
+    "lat": 50.735698,
+    "lng": 3.156178,
+    "transactions": [
+      {
+        "date": "2023-05-10",
+        "priceEur": 78000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "8fbb36e58a93": {
+    "id": "8fbb36e58a93",
+    "label": "114 RUE SIMON TIBERGHIEN, Tourcoing",
+    "lat": 50.731648,
+    "lng": 3.161414,
+    "transactions": [
+      {
+        "date": "2023-05-23",
+        "priceEur": 167500,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "a527209eefb1": {
+    "id": "a527209eefb1",
+    "label": "107 RUE MAURICE SARRAUT, Tourcoing",
+    "lat": 50.736245,
+    "lng": 3.157492,
+    "transactions": [
+      {
+        "date": "2023-05-16",
+        "priceEur": 124200,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "13178e8f8f70": {
+    "id": "13178e8f8f70",
+    "label": "43 RUE LA PEROUSE, Tourcoing",
+    "lat": 50.734245,
+    "lng": 3.159419,
+    "transactions": [
+      {
+        "date": "2023-04-26",
+        "priceEur": 79000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "4409cdedead8": {
+    "id": "4409cdedead8",
+    "label": "26 RUE DE MADRID, Tourcoing",
+    "lat": 50.735556,
+    "lng": 3.157093,
+    "transactions": [
+      {
+        "date": "2023-05-23",
+        "priceEur": 228200,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca54f122a26f": {
+    "id": "ca54f122a26f",
+    "label": "27 RUE MAURICE SARRAUT, Tourcoing",
+    "lat": 50.734705,
+    "lng": 3.160372,
+    "transactions": [
+      {
+        "date": "2023-05-25",
+        "priceEur": 184500,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "d740020f02eb": {
+    "id": "d740020f02eb",
+    "label": "68 RUE LA FONTAINE, Tourcoing",
+    "lat": 50.733789,
+    "lng": 3.157181,
+    "transactions": [
+      {
+        "date": "2023-05-31",
+        "priceEur": 81000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "117f48d4ecae": {
+    "id": "117f48d4ecae",
+    "label": "150 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.732912,
+    "lng": 3.154102,
+    "transactions": [
+      {
+        "date": "2023-05-23",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "331784b9f94b": {
+    "id": "331784b9f94b",
+    "label": "64 RUE TURGOT, Tourcoing",
+    "lat": 50.73331,
+    "lng": 3.155525,
+    "transactions": [
+      {
+        "date": "2023-06-06",
+        "priceEur": 166000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "aad6e73155dc": {
+    "id": "aad6e73155dc",
+    "label": "24 RUE DE RIVOLI, Tourcoing",
+    "lat": 50.730177,
+    "lng": 3.163608,
+    "transactions": [
+      {
+        "date": "2023-06-06",
+        "priceEur": 163347,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b7198c6230f": {
+    "id": "8b7198c6230f",
+    "label": "21 RUE ARAGO, Tourcoing",
+    "lat": 50.731087,
+    "lng": 3.158319,
+    "transactions": [
+      {
+        "date": "2023-06-21",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "b2c758a74c21": {
+    "id": "b2c758a74c21",
+    "label": "2 RUE SAINT LOUIS, Tourcoing",
+    "lat": 50.731102,
+    "lng": 3.154207,
+    "transactions": [
+      {
+        "date": "2023-06-29",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "f68e94296c2b": {
+    "id": "f68e94296c2b",
+    "label": "40 RUE CH VAN DE VEEGAETE, Tourcoing",
+    "lat": 50.732493,
+    "lng": 3.163594,
+    "transactions": [
+      {
+        "date": "2023-07-19",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "5998d9d5df37": {
+    "id": "5998d9d5df37",
+    "label": "42 RUE DE CASSEL, Tourcoing",
+    "lat": 50.732896,
+    "lng": 3.15937,
+    "transactions": [
+      {
+        "date": "2023-07-21",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "844faae7b066": {
+    "id": "844faae7b066",
+    "label": "17 RUE TURGOT, Tourcoing",
+    "lat": 50.732482,
+    "lng": 3.156256,
+    "transactions": [
+      {
+        "date": "2025-06-20",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2023-07-27",
+        "priceEur": 100500,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b357fcd2067": {
+    "id": "4b357fcd2067",
+    "label": "14 RUE DU GENERAL DAMPIERRE, Tourcoing",
+    "lat": 50.733807,
+    "lng": 3.153562,
+    "transactions": [
+      {
+        "date": "2023-07-28",
+        "priceEur": 131500,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "88227e817f5d": {
+    "id": "88227e817f5d",
+    "label": "8 RUE LA TOUR D AUVERGNE, Tourcoing",
+    "lat": 50.733572,
+    "lng": 3.158788,
+    "transactions": [
+      {
+        "date": "2023-07-19",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "bba0d65ad2b3": {
+    "id": "bba0d65ad2b3",
+    "label": "81 RUE SAINT BLAISE, Tourcoing",
+    "lat": 50.72955,
+    "lng": 3.155488,
+    "transactions": [
+      {
+        "date": "2023-08-21",
+        "priceEur": 164000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "01162e9d3524": {
+    "id": "01162e9d3524",
+    "label": "30 RUE FENELON, Tourcoing",
+    "lat": 50.731768,
+    "lng": 3.158877,
+    "transactions": [
+      {
+        "date": "2023-08-21",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "19666c27807b": {
+    "id": "19666c27807b",
+    "label": "50 RUE DE MADRID, Tourcoing",
+    "lat": 50.736002,
+    "lng": 3.15665,
+    "transactions": [
+      {
+        "date": "2023-09-11",
+        "priceEur": 170550,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "36557e7ad87e": {
+    "id": "36557e7ad87e",
+    "label": "59 RUE DU TONKIN, Tourcoing",
+    "lat": 50.733637,
+    "lng": 3.163604,
+    "transactions": [
+      {
+        "date": "2023-09-08",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e8c104964af": {
+    "id": "8e8c104964af",
+    "label": "13 RUE SAINT LOUIS, Tourcoing",
+    "lat": 50.731016,
+    "lng": 3.153672,
+    "transactions": [
+      {
+        "date": "2023-09-01",
+        "priceEur": 144000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "b7df0af3a063": {
+    "id": "b7df0af3a063",
+    "label": "17 RUE PAUL BEULQUE, Tourcoing",
+    "lat": 50.733304,
+    "lng": 3.162622,
+    "transactions": [
+      {
+        "date": "2023-08-30",
+        "priceEur": 117500,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "a99f18d4f17e": {
+    "id": "a99f18d4f17e",
+    "label": "72 RUE LA FONTAINE, Tourcoing",
+    "lat": 50.733885,
+    "lng": 3.15728,
+    "transactions": [
+      {
+        "date": "2023-09-22",
+        "priceEur": 98000,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac79fb0f1c71": {
+    "id": "ac79fb0f1c71",
+    "label": "5 RUE LA FONTAINE, Tourcoing",
+    "lat": 50.732594,
+    "lng": 3.154957,
+    "transactions": [
+      {
+        "date": "2023-09-25",
+        "priceEur": 121000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "94058244f075": {
+    "id": "94058244f075",
+    "label": "22 RUE DE CASSEL, Tourcoing",
+    "lat": 50.732719,
+    "lng": 3.159854,
+    "transactions": [
+      {
+        "date": "2023-09-18",
+        "priceEur": 112500,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "51bb40aed6ed": {
+    "id": "51bb40aed6ed",
+    "label": "1 RUE ARAGO, Tourcoing",
+    "lat": 50.730945,
+    "lng": 3.158898,
+    "transactions": [
+      {
+        "date": "2023-09-21",
+        "priceEur": 143000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f9025f7fff7": {
+    "id": "3f9025f7fff7",
+    "label": "142 RUE DE GAND, Tourcoing",
+    "lat": 50.730915,
+    "lng": 3.159744,
+    "transactions": [
+      {
+        "date": "2023-09-22",
+        "priceEur": 126500,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "40911245c8bd": {
+    "id": "40911245c8bd",
+    "label": "126 RUE SIMON TIBERGHIEN, Tourcoing",
+    "lat": 50.731814,
+    "lng": 3.161053,
+    "transactions": [
+      {
+        "date": "2023-09-12",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "3cbed6210c22": {
+    "id": "3cbed6210c22",
+    "label": "109 RUE AUBER, Tourcoing",
+    "lat": 50.729908,
+    "lng": 3.160901,
+    "transactions": [
+      {
+        "date": "2023-10-17",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 174,
+        "isVefa": false
+      }
+    ]
+  },
+  "c15645e5a7d3": {
+    "id": "c15645e5a7d3",
+    "label": "2 RUE DU MOULIN, Tourcoing",
+    "lat": 50.730175,
+    "lng": 3.161123,
+    "transactions": [
+      {
+        "date": "2023-10-17",
+        "priceEur": 220000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "6b646c6e731f": {
+    "id": "6b646c6e731f",
+    "label": "33 RUE DE COURTRAI, Tourcoing",
+    "lat": 50.735217,
+    "lng": 3.162543,
+    "transactions": [
+      {
+        "date": "2023-10-26",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "1dbfb35551d6": {
+    "id": "1dbfb35551d6",
+    "label": "32 RUE ARAGO, Tourcoing",
+    "lat": 50.731726,
+    "lng": 3.157893,
+    "transactions": [
+      {
+        "date": "2023-10-20",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "10bca022dec0": {
+    "id": "10bca022dec0",
+    "label": "8 RUE MAURICE SARRAUT, Tourcoing",
+    "lat": 50.734979,
+    "lng": 3.160926,
+    "transactions": [
+      {
+        "date": "2023-10-25",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "5923bfef3c66": {
+    "id": "5923bfef3c66",
+    "label": "249 RUE DE GAND, Tourcoing",
+    "lat": 50.732452,
+    "lng": 3.160407,
+    "transactions": [
+      {
+        "date": "2023-11-16",
+        "priceEur": 131000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9d6cb6eb9d4": {
+    "id": "b9d6cb6eb9d4",
+    "label": "4 RUE DE CARVIN, Tourcoing",
+    "lat": 50.729611,
+    "lng": 3.162557,
+    "transactions": [
+      {
+        "date": "2023-11-17",
+        "priceEur": 116500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "84e25250baff": {
+    "id": "84e25250baff",
+    "label": "12 RUE D AMIENS, Tourcoing",
+    "lat": 50.733501,
+    "lng": 3.155724,
+    "transactions": [
+      {
+        "date": "2023-11-23",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d88d62b48c4": {
+    "id": "9d88d62b48c4",
+    "label": "67 RUE TURGOT, Tourcoing",
+    "lat": 50.733078,
+    "lng": 3.154738,
+    "transactions": [
+      {
+        "date": "2023-11-30",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "1fdf37efe477": {
+    "id": "1fdf37efe477",
+    "label": "31 RUE SIMON TIBERGHIEN, Tourcoing",
+    "lat": 50.730216,
+    "lng": 3.16374,
+    "transactions": [
+      {
+        "date": "2023-11-28",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "f610cb722022": {
+    "id": "f610cb722022",
+    "label": "60 RUE MARCEAU, Tourcoing",
+    "lat": 50.729731,
+    "lng": 3.153428,
+    "transactions": [
+      {
+        "date": "2023-12-04",
+        "priceEur": 88000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "6af80b9cb521": {
+    "id": "6af80b9cb521",
+    "label": "41 RUE DE MADAGASCAR, Tourcoing",
+    "lat": 50.730891,
+    "lng": 3.154768,
+    "transactions": [
+      {
+        "date": "2023-12-14",
+        "priceEur": 138500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1f6aeb012ad": {
+    "id": "a1f6aeb012ad",
+    "label": "89 RUE LA FONTAINE, Tourcoing",
+    "lat": 50.734274,
+    "lng": 3.157326,
+    "transactions": [
+      {
+        "date": "2023-12-13",
+        "priceEur": 108400,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "e14fc968b7dd": {
+    "id": "e14fc968b7dd",
+    "label": "29 RUE ARAGO, Tourcoing",
+    "lat": 50.731213,
+    "lng": 3.158134,
+    "transactions": [
+      {
+        "date": "2023-12-26",
+        "priceEur": 210500,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "80416182a57d": {
+    "id": "80416182a57d",
+    "label": "1 PL DES PHALEMPINS, Tourcoing",
+    "lat": 50.732033,
+    "lng": 3.157649,
+    "transactions": [
+      {
+        "date": "2024-01-15",
+        "priceEur": 93000,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "176d59804ae3": {
+    "id": "176d59804ae3",
+    "label": "63 RUE TURGOT, Tourcoing",
+    "lat": 50.733048,
+    "lng": 3.154864,
+    "transactions": [
+      {
+        "date": "2024-01-17",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "e41c15d40985": {
+    "id": "e41c15d40985",
+    "label": "48 RUE DE MADRID, Tourcoing",
+    "lat": 50.735942,
+    "lng": 3.156664,
+    "transactions": [
+      {
+        "date": "2024-01-08",
+        "priceEur": 144000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "ef49101c30ed": {
+    "id": "ef49101c30ed",
+    "label": "139 RUE AUBER, Tourcoing",
+    "lat": 50.730285,
+    "lng": 3.159988,
+    "transactions": [
+      {
+        "date": "2024-02-06",
+        "priceEur": 88000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "61195dd9a237": {
+    "id": "61195dd9a237",
+    "label": "17 RUE HOUCHARD, Tourcoing",
+    "lat": 50.729609,
+    "lng": 3.154529,
+    "transactions": [
+      {
+        "date": "2024-02-08",
+        "priceEur": 142500,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "f318d03f6a64": {
+    "id": "f318d03f6a64",
+    "label": "38 RUE DES PHALEMPINS, Tourcoing",
+    "lat": 50.73315,
+    "lng": 3.153491,
+    "transactions": [
+      {
+        "date": "2024-02-15",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "afb35aba192a": {
+    "id": "afb35aba192a",
+    "label": "98 RUE SIMON TIBERGHIEN, Tourcoing",
+    "lat": 50.731468,
+    "lng": 3.161798,
+    "transactions": [
+      {
+        "date": "2024-02-09",
+        "priceEur": 126000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "47de0489e741": {
+    "id": "47de0489e741",
+    "label": "113 RUE DES PHALEMPINS, Tourcoing",
+    "lat": 50.734919,
+    "lng": 3.155549,
+    "transactions": [
+      {
+        "date": "2024-02-12",
+        "priceEur": 117600,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "c264276f39dc": {
+    "id": "c264276f39dc",
+    "label": "16 RUE FRANCIS DE PRESSENCE, Tourcoing",
+    "lat": 50.736046,
+    "lng": 3.153082,
+    "transactions": [
+      {
+        "date": "2024-02-22",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "342c1bfdda77": {
+    "id": "342c1bfdda77",
+    "label": "132 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.732767,
+    "lng": 3.154596,
+    "transactions": [
+      {
+        "date": "2024-02-13",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "0adf0a2a3d3a": {
+    "id": "0adf0a2a3d3a",
+    "label": "127 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.731861,
+    "lng": 3.15553,
+    "transactions": [
+      {
+        "date": "2024-03-11",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "a51e9ed54848": {
+    "id": "a51e9ed54848",
+    "label": "342 RUE DE GAND, Tourcoing",
+    "lat": 50.735644,
+    "lng": 3.162233,
+    "transactions": [
+      {
+        "date": "2024-03-20",
+        "priceEur": 120690,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "037cdf3b3ca1": {
+    "id": "037cdf3b3ca1",
+    "label": "19 PL DES PHALEMPINS, Tourcoing",
+    "lat": 50.732588,
+    "lng": 3.157236,
+    "transactions": [
+      {
+        "date": "2024-03-29",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "41df72c823e1": {
+    "id": "41df72c823e1",
+    "label": "47 RUE AUBER, Tourcoing",
+    "lat": 50.729614,
+    "lng": 3.162873,
+    "transactions": [
+      {
+        "date": "2025-03-05",
+        "priceEur": 150500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-02",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "c05b2bcfcc3d": {
+    "id": "c05b2bcfcc3d",
+    "label": "7 RUE SAINT LOUIS, Tourcoing",
+    "lat": 50.730956,
+    "lng": 3.153823,
+    "transactions": [
+      {
+        "date": "2024-03-22",
+        "priceEur": 109600,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "99a48fa42c59": {
+    "id": "99a48fa42c59",
+    "label": "16 RUE DES MARAICHERS, Tourcoing",
+    "lat": 50.734916,
+    "lng": 3.154774,
+    "transactions": [
+      {
+        "date": "2024-04-12",
+        "priceEur": 146000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "edf458f0ea56": {
+    "id": "edf458f0ea56",
+    "label": "272 RUE DE GAND, Tourcoing",
+    "lat": 50.733787,
+    "lng": 3.161774,
+    "transactions": [
+      {
+        "date": "2024-04-15",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "e026071597e0": {
+    "id": "e026071597e0",
+    "label": "25 RUE SAINT LOUIS, Tourcoing",
+    "lat": 50.731088,
+    "lng": 3.153389,
+    "transactions": [
+      {
+        "date": "2024-04-16",
+        "priceEur": 158925,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "c475d9e248c7": {
+    "id": "c475d9e248c7",
+    "label": "5 RUE DE MADAGASCAR, Tourcoing",
+    "lat": 50.730104,
+    "lng": 3.153865,
+    "transactions": [
+      {
+        "date": "2024-04-23",
+        "priceEur": 67000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "25a46b734a0f": {
+    "id": "25a46b734a0f",
+    "label": "12 RUE D ATHENES, Tourcoing",
+    "lat": 50.735161,
+    "lng": 3.155333,
+    "transactions": [
+      {
+        "date": "2024-05-03",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "12c24ef112b6": {
+    "id": "12c24ef112b6",
+    "label": "77 RUE INGRES, Tourcoing",
+    "lat": 50.733979,
+    "lng": 3.158354,
+    "transactions": [
+      {
+        "date": "2024-05-14",
+        "priceEur": 89000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "c8972559e793": {
+    "id": "c8972559e793",
+    "label": "24 RUE ALBERT INGHELS, Tourcoing",
+    "lat": 50.732382,
+    "lng": 3.159506,
+    "transactions": [
+      {
+        "date": "2024-04-18",
+        "priceEur": 103000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "c8db131d94f1": {
+    "id": "c8db131d94f1",
+    "label": "90 RUE SIMON TIBERGHIEN, Tourcoing",
+    "lat": 50.731368,
+    "lng": 3.161981,
+    "transactions": [
+      {
+        "date": "2024-04-26",
+        "priceEur": 122000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "de568efc9de1": {
+    "id": "de568efc9de1",
+    "label": "111 RUE INGRES, Tourcoing",
+    "lat": 50.734501,
+    "lng": 3.157416,
+    "transactions": [
+      {
+        "date": "2024-04-25",
+        "priceEur": 56000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "0765df2f6ed0": {
+    "id": "0765df2f6ed0",
+    "label": "225 RUE DE GAND, Tourcoing",
+    "lat": 50.73188,
+    "lng": 3.159718,
+    "transactions": [
+      {
+        "date": "2024-05-20",
+        "priceEur": 146000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "b673b33a10b4": {
+    "id": "b673b33a10b4",
+    "label": "41 RUE DE CASSEL, Tourcoing",
+    "lat": 50.732628,
+    "lng": 3.159097,
+    "transactions": [
+      {
+        "date": "2024-05-07",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "5cf054de124a": {
+    "id": "5cf054de124a",
+    "label": "111 RUE HOUCHARD, Tourcoing",
+    "lat": 50.731958,
+    "lng": 3.156967,
+    "transactions": [
+      {
+        "date": "2024-05-14",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "3b179117189d": {
+    "id": "3b179117189d",
+    "label": "73 RUE TURGOT, Tourcoing",
+    "lat": 50.733158,
+    "lng": 3.154595,
+    "transactions": [
+      {
+        "date": "2024-05-31",
+        "priceEur": 144000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "0878dae5e829": {
+    "id": "0878dae5e829",
+    "label": "24 RUE DES PHALEMPINS, Tourcoing",
+    "lat": 50.732781,
+    "lng": 3.15309,
+    "transactions": [
+      {
+        "date": "2024-05-14",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "d894549e77ff": {
+    "id": "d894549e77ff",
+    "label": "101 RUE MONTAIGNE, Tourcoing",
+    "lat": 50.734223,
+    "lng": 3.155307,
+    "transactions": [
+      {
+        "date": "2024-05-31",
+        "priceEur": 201500,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "57b470224c52": {
+    "id": "57b470224c52",
+    "label": "33 RUE MAURICE SARRAUT, Tourcoing",
+    "lat": 50.734809,
+    "lng": 3.160237,
+    "transactions": [
+      {
+        "date": "2024-06-03",
+        "priceEur": 147000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "bcc22adfd978": {
+    "id": "bcc22adfd978",
+    "label": "7 PL DES PHALEMPINS, Tourcoing",
+    "lat": 50.732119,
+    "lng": 3.158396,
+    "transactions": [
+      {
+        "date": "2024-05-31",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f79104ab29e": {
+    "id": "1f79104ab29e",
+    "label": "1 RUE TURGOT, Tourcoing",
+    "lat": 50.732217,
+    "lng": 3.157065,
+    "transactions": [
+      {
+        "date": "2024-06-17",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "a8c7b7d42325": {
+    "id": "a8c7b7d42325",
+    "label": "1 RUE INGRES, Tourcoing",
+    "lat": 50.732975,
+    "lng": 3.160489,
+    "transactions": [
+      {
+        "date": "2024-06-24",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "070c5d11854b": {
+    "id": "070c5d11854b",
+    "label": "80 RUE LA FONTAINE, Tourcoing",
+    "lat": 50.733958,
+    "lng": 3.157572,
+    "transactions": [
+      {
+        "date": "2024-06-18",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "d8423e209879": {
+    "id": "d8423e209879",
+    "label": "29 RUE MAURICE SARRAUT, Tourcoing",
+    "lat": 50.734743,
+    "lng": 3.160335,
+    "transactions": [
+      {
+        "date": "2024-06-27",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd07125b4fed": {
+    "id": "dd07125b4fed",
+    "label": "164 RUE INGRES, Tourcoing",
+    "lat": 50.735434,
+    "lng": 3.156723,
+    "transactions": [
+      {
+        "date": "2024-06-27",
+        "priceEur": 150500,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "18defb6f3e77": {
+    "id": "18defb6f3e77",
+    "label": "8 RUE MONTAIGNE, Tourcoing",
+    "lat": 50.733126,
+    "lng": 3.157668,
+    "transactions": [
+      {
+        "date": "2024-07-04",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "af9237d4a8ec": {
+    "id": "af9237d4a8ec",
+    "label": "100 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.732301,
+    "lng": 3.155416,
+    "transactions": [
+      {
+        "date": "2024-07-11",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "38bd515003d6": {
+    "id": "38bd515003d6",
+    "label": "187 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.732756,
+    "lng": 3.153454,
+    "transactions": [
+      {
+        "date": "2024-07-10",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "260e1328d4b4": {
+    "id": "260e1328d4b4",
+    "label": "251 RUE DE GAND, Tourcoing",
+    "lat": 50.73248,
+    "lng": 3.160405,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 88000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "92dec25ecc3d": {
+    "id": "92dec25ecc3d",
+    "label": "4 RUE D ATHENES, Tourcoing",
+    "lat": 50.735069,
+    "lng": 3.155512,
+    "transactions": [
+      {
+        "date": "2024-07-31",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "6468d6ca3004": {
+    "id": "6468d6ca3004",
+    "label": "4 RUE BASSE, Tourcoing",
+    "lat": 50.735783,
+    "lng": 3.156087,
+    "transactions": [
+      {
+        "date": "2024-08-06",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "74e6a53bd16c": {
+    "id": "74e6a53bd16c",
+    "label": "8 RUE DE RIVOLI, Tourcoing",
+    "lat": 50.72991,
+    "lng": 3.163401,
+    "transactions": [
+      {
+        "date": "2024-08-06",
+        "priceEur": 156900,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "8437c05bdfa9": {
+    "id": "8437c05bdfa9",
+    "label": "21 ALL ALBERT SAMAIN, Tourcoing",
+    "lat": 50.735121,
+    "lng": 3.158739,
+    "transactions": [
+      {
+        "date": "2024-07-23",
+        "priceEur": 222300,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "473d8a9478e9": {
+    "id": "473d8a9478e9",
+    "label": "25 RUE CH VAN DE VEEGAETE, Tourcoing",
+    "lat": 50.732455,
+    "lng": 3.162333,
+    "transactions": [
+      {
+        "date": "2024-07-17",
+        "priceEur": 68600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "824b4df032a1": {
+    "id": "824b4df032a1",
+    "label": "117 RUE SAINT BLAISE, Tourcoing",
+    "lat": 50.730454,
+    "lng": 3.154096,
+    "transactions": [
+      {
+        "date": "2024-08-12",
+        "priceEur": 106810,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "6fddc06441bf": {
+    "id": "6fddc06441bf",
+    "label": "50 RUE LA PEROUSE, Tourcoing",
+    "lat": 50.734511,
+    "lng": 3.159826,
+    "transactions": [
+      {
+        "date": "2024-08-30",
+        "priceEur": 147600,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "64c5e4d14d9d": {
+    "id": "64c5e4d14d9d",
+    "label": "36 RUE HOUCHARD, Tourcoing",
+    "lat": 50.729716,
+    "lng": 3.155329,
+    "transactions": [
+      {
+        "date": "2024-09-02",
+        "priceEur": 91000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "2748b5018603": {
+    "id": "2748b5018603",
+    "label": "38 RUE DE MADAGASCAR, Tourcoing",
+    "lat": 50.730698,
+    "lng": 3.155066,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 134000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd5bad12a50a": {
+    "id": "dd5bad12a50a",
+    "label": "10 RUE DE RIVOLI, Tourcoing",
+    "lat": 50.729944,
+    "lng": 3.163443,
+    "transactions": [
+      {
+        "date": "2024-09-26",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "d06de2f6ef46": {
+    "id": "d06de2f6ef46",
+    "label": "94 RUE HOUCHARD, Tourcoing",
+    "lat": 50.730697,
+    "lng": 3.156608,
+    "transactions": [
+      {
+        "date": "2024-09-26",
+        "priceEur": 112000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "786f67a8e382": {
+    "id": "786f67a8e382",
+    "label": "54 RUE JENNER, Tourcoing",
+    "lat": 50.732232,
+    "lng": 3.153273,
+    "transactions": [
+      {
+        "date": "2024-09-27",
+        "priceEur": 150500,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e946c538f89": {
+    "id": "4e946c538f89",
+    "label": "65 RUE MAURICE SARRAUT, Tourcoing",
+    "lat": 50.735564,
+    "lng": 3.159277,
+    "transactions": [
+      {
+        "date": "2024-10-11",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b859acd33bc": {
+    "id": "0b859acd33bc",
+    "label": "289 RUE DE GAND, Tourcoing",
+    "lat": 50.733449,
+    "lng": 3.160918,
+    "transactions": [
+      {
+        "date": "2024-10-23",
+        "priceEur": 154000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ae16f9aefaa": {
+    "id": "0ae16f9aefaa",
+    "label": "34 RUE BASSE, Tourcoing",
+    "lat": 50.736432,
+    "lng": 3.156731,
+    "transactions": [
+      {
+        "date": "2024-10-23",
+        "priceEur": 145900,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "c78b0b6fd450": {
+    "id": "c78b0b6fd450",
+    "label": "91 RUE INGRES, Tourcoing",
+    "lat": 50.734158,
+    "lng": 3.158026,
+    "transactions": [
+      {
+        "date": "2024-09-16",
+        "priceEur": 3435641.5,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "9024e8831e77": {
+    "id": "9024e8831e77",
+    "label": "16 RUE SAINT LOUIS, Tourcoing",
+    "lat": 50.731484,
+    "lng": 3.153626,
+    "transactions": [
+      {
+        "date": "2024-10-21",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7ae08ad45fe": {
+    "id": "f7ae08ad45fe",
+    "label": "70 RUE SAINT BLAISE, Tourcoing",
+    "lat": 50.729697,
+    "lng": 3.156663,
+    "transactions": [
+      {
+        "date": "2024-10-25",
+        "priceEur": 112000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "baf899c63979": {
+    "id": "baf899c63979",
+    "label": "37 RUE ALBERT INGHELS, Tourcoing",
+    "lat": 50.732198,
+    "lng": 3.158815,
+    "transactions": [
+      {
+        "date": "2024-10-23",
+        "priceEur": 177150,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "04a6c6466ac3": {
+    "id": "04a6c6466ac3",
+    "label": "32 RUE DE CASSEL, Tourcoing",
+    "lat": 50.732809,
+    "lng": 3.159616,
+    "transactions": [
+      {
+        "date": "2024-11-07",
+        "priceEur": 77500,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "5781c5fe9b47": {
+    "id": "5781c5fe9b47",
+    "label": "18 RUE LA FONTAINE, Tourcoing",
+    "lat": 50.732493,
+    "lng": 3.155664,
+    "transactions": [
+      {
+        "date": "2024-11-04",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "aae23357818f": {
+    "id": "aae23357818f",
+    "label": "2 RUE LA PEROUSE, Tourcoing",
+    "lat": 50.734083,
+    "lng": 3.160982,
+    "transactions": [
+      {
+        "date": "2024-12-11",
+        "priceEur": 114000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "2fb47cada1dc": {
+    "id": "2fb47cada1dc",
+    "label": "157 RUE DE LA BAILLE, Tourcoing",
+    "lat": 50.732388,
+    "lng": 3.154387,
+    "transactions": [
+      {
+        "date": "2024-12-03",
+        "priceEur": 118410,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "b221d9736015": {
+    "id": "b221d9736015",
+    "label": "13 RUE DES MARAICHERS, Tourcoing",
+    "lat": 50.734556,
+    "lng": 3.154419,
+    "transactions": [
+      {
+        "date": "2024-12-19",
+        "priceEur": 174000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "a6dcba6242c0": {
+    "id": "a6dcba6242c0",
+    "label": "39 RUE MONTAIGNE, Tourcoing",
+    "lat": 50.733361,
+    "lng": 3.156692,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "917a83ef215a": {
+    "id": "917a83ef215a",
+    "label": "23 RUE JENNER, Tourcoing",
+    "lat": 50.731637,
+    "lng": 3.153644,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 82000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "e5dd29210ebc": {
+    "id": "e5dd29210ebc",
+    "label": "270 RUE DE GAND, Tourcoing",
+    "lat": 50.733788,
+    "lng": 3.161571,
+    "transactions": [
+      {
+        "date": "2024-12-20",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f754bcc2c01": {
+    "id": "7f754bcc2c01",
+    "label": "14 RUE DE CASSEL, Tourcoing",
+    "lat": 50.732668,
+    "lng": 3.16005,
+    "transactions": [
+      {
+        "date": "2024-12-26",
+        "priceEur": 125250,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c616a554dd6": {
+    "id": "7c616a554dd6",
+    "label": "69 RUE SAINT BLAISE, Tourcoing",
+    "lat": 50.729538,
+    "lng": 3.156141,
+    "transactions": [
+      {
+        "date": "2024-12-02",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "bfb1efe822eb": {
+    "id": "bfb1efe822eb",
+    "label": "160 RUE DES PHALEMPINS, Tourcoing",
+    "lat": 50.735104,
+    "lng": 3.156447,
+    "transactions": [
+      {
+        "date": "2025-01-07",
+        "priceEur": 87000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d5bac3d732c": {
+    "id": "7d5bac3d732c",
+    "label": "9 RUE DE MADAGASCAR, Tourcoing",
+    "lat": 50.730175,
+    "lng": 3.153904,
+    "transactions": [
+      {
+        "date": "2025-01-06",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "fc4cdcaf139b": {
+    "id": "fc4cdcaf139b",
+    "label": "19 RUE DE RIVOLI, Tourcoing",
+    "lat": 50.730329,
+    "lng": 3.162964,
+    "transactions": [
+      {
+        "date": "2025-01-13",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "253d145698b9": {
+    "id": "253d145698b9",
+    "label": "14 RUE ALBERT INGHELS, Tourcoing",
+    "lat": 50.732275,
+    "lng": 3.15979,
+    "transactions": [
+      {
+        "date": "2025-02-13",
+        "priceEur": 148185,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "6f189f3c8015": {
+    "id": "6f189f3c8015",
+    "label": "60 RUE AUBER, Tourcoing",
+    "lat": 50.729973,
+    "lng": 3.162746,
+    "transactions": [
+      {
+        "date": "2025-02-10",
+        "priceEur": 190000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2025-02-10",
+        "priceEur": 190000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1feff72a8e0": {
+    "id": "a1feff72a8e0",
+    "label": "7 RUE LA FONTAINE, Tourcoing",
+    "lat": 50.73264,
+    "lng": 3.154996,
+    "transactions": [
+      {
+        "date": "2025-02-17",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "d972a8b39cb0": {
+    "id": "d972a8b39cb0",
+    "label": "14 RUE DES MARAICHERS, Tourcoing",
+    "lat": 50.734885,
+    "lng": 3.154822,
+    "transactions": [
+      {
+        "date": "2025-02-28",
+        "priceEur": 153000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "767de22b73f4": {
+    "id": "767de22b73f4",
+    "label": "16 RUE ARCHIMEDE, Tourcoing",
+    "lat": 50.733045,
+    "lng": 3.159066,
+    "transactions": [
+      {
+        "date": "2025-03-06",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d150795e980": {
+    "id": "9d150795e980",
+    "label": "5 RUE SAINT LOUIS, Tourcoing",
+    "lat": 50.730914,
+    "lng": 3.153871,
+    "transactions": [
+      {
+        "date": "2025-03-05",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "77f0636a3a09": {
+    "id": "77f0636a3a09",
+    "label": "54 RUE DUPLEIX, Tourcoing",
+    "lat": 50.732617,
+    "lng": 3.153648,
+    "transactions": [
+      {
+        "date": "2025-03-03",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "849a1f8789c7": {
+    "id": "849a1f8789c7",
+    "label": "31 RUE MONTAIGNE, Tourcoing",
+    "lat": 50.733223,
+    "lng": 3.156701,
+    "transactions": [
+      {
+        "date": "2025-03-13",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "5334b18b23c7": {
+    "id": "5334b18b23c7",
+    "label": "25 RUE SIMON TIBERGHIEN, Tourcoing",
+    "lat": 50.730145,
+    "lng": 3.163845,
+    "transactions": [
+      {
+        "date": "2025-02-28",
+        "priceEur": 160250,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "36cbd9b4fe4b": {
+    "id": "36cbd9b4fe4b",
+    "label": "81 RUE LA FONTAINE, Tourcoing",
+    "lat": 50.734159,
+    "lng": 3.157165,
+    "transactions": [
+      {
+        "date": "2025-03-21",
+        "priceEur": 75500,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "c38c7a7b1630": {
+    "id": "c38c7a7b1630",
+    "label": "156 RUE AUBER, Tourcoing",
+    "lat": 50.730782,
+    "lng": 3.15977,
+    "transactions": [
+      {
+        "date": "2025-04-02",
+        "priceEur": 82000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "42ab3289ab83": {
+    "id": "42ab3289ab83",
+    "label": "3 VC MASURE 194B RUE DE GAND, Tourcoing",
+    "lat": 50.732141,
+    "lng": 3.160931,
+    "transactions": [
+      {
+        "date": "2025-03-21",
+        "priceEur": 88000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "0fa1d88075b7": {
+    "id": "0fa1d88075b7",
+    "label": "158 RUE DE MENIN, Tourcoing",
+    "lat": 50.729773,
+    "lng": 3.154091,
+    "transactions": [
+      {
+        "date": "2025-04-01",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "0bcac5cb39f2": {
+    "id": "0bcac5cb39f2",
+    "label": "37 RUE MONTAIGNE, Tourcoing",
+    "lat": 50.733322,
+    "lng": 3.1567,
+    "transactions": [
+      {
+        "date": "2025-04-18",
+        "priceEur": 102000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "84de80477d77": {
+    "id": "84de80477d77",
+    "label": "61 RUE TURGOT, Tourcoing",
+    "lat": 50.732995,
+    "lng": 3.154881,
+    "transactions": [
+      {
+        "date": "2025-04-17",
+        "priceEur": 164000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "fbfb9f2799fe": {
+    "id": "fbfb9f2799fe",
+    "label": "160 RUE INGRES, Tourcoing",
+    "lat": 50.735393,
+    "lng": 3.156808,
+    "transactions": [
+      {
+        "date": "2025-04-24",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9805c5e7598": {
+    "id": "c9805c5e7598",
+    "label": "17 RUE ARAGO, Tourcoing",
+    "lat": 50.731035,
+    "lng": 3.158423,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 205640,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "26d2ce85ec38": {
+    "id": "26d2ce85ec38",
+    "label": "94 RUE DE GAND, Tourcoing",
+    "lat": 50.729614,
+    "lng": 3.158866,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 69000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5bfebf4ab89": {
+    "id": "b5bfebf4ab89",
+    "label": "97 RUE MAURICE SARRAUT, Tourcoing",
+    "lat": 50.736056,
+    "lng": 3.157861,
+    "transactions": [
+      {
+        "date": "2025-06-04",
+        "priceEur": 285500,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "ec12a65f8bca": {
+    "id": "ec12a65f8bca",
+    "label": "24 RUE BASSE, Tourcoing",
+    "lat": 50.736281,
+    "lng": 3.156531,
+    "transactions": [
+      {
+        "date": "2025-06-05",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "e93d8a26243d": {
+    "id": "e93d8a26243d",
+    "label": "50 RUE ALBERT INGHELS, Tourcoing",
+    "lat": 50.73261,
+    "lng": 3.158861,
+    "transactions": [
+      {
+        "date": "2025-06-30",
+        "priceEur": 138500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "5061924133cb": {
+    "id": "5061924133cb",
+    "label": "54 RUE LA PEROUSE, Tourcoing",
+    "lat": 50.734556,
+    "lng": 3.159711,
+    "transactions": [
+      {
+        "date": "2025-06-24",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  }
+}

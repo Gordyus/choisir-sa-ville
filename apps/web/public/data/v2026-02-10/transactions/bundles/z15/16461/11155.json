@@ -1,0 +1,47 @@
+{
+  "8278bdd0c4ee": {
+    "id": "8278bdd0c4ee",
+    "label": "87 SEN DES NOISETIERS, Ouville-l'Abbaye",
+    "lat": 49.700388,
+    "lng": 0.856544,
+    "transactions": [
+      {
+        "date": "2020-08-28",
+        "priceEur": 214000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "1b67b4835ee7": {
+    "id": "1b67b4835ee7",
+    "label": "195 CHE DE LA MARE FAUCON, Ouville-l'Abbaye",
+    "lat": 49.697779,
+    "lng": 0.85673,
+    "transactions": [
+      {
+        "date": "2021-03-01",
+        "priceEur": 255760,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "e9f5f403670d": {
+    "id": "e9f5f403670d",
+    "label": "498 CHE DE LA MARE QUESNEL, Ouville-l'Abbaye",
+    "lat": 49.700762,
+    "lng": 0.85566,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  }
+}

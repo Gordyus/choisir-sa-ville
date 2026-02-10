@@ -1,0 +1,114 @@
+{
+  "0a9d508b1c03": {
+    "id": "0a9d508b1c03",
+    "label": "249 RUE DE BRETEUIL, Cailleville",
+    "lat": 49.833264,
+    "lng": 0.732119,
+    "transactions": [
+      {
+        "date": "2020-08-11",
+        "priceEur": 244600,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee17bde9e625": {
+    "id": "ee17bde9e625",
+    "label": "5025 LE VILLAGE, Cailleville",
+    "lat": 49.833585,
+    "lng": 0.73243,
+    "transactions": [
+      {
+        "date": "2020-11-24",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "a8d5d5a8dcde": {
+    "id": "a8d5d5a8dcde",
+    "label": "5009 LE VILLAGE, Cailleville",
+    "lat": 49.835045,
+    "lng": 0.728742,
+    "transactions": [
+      {
+        "date": "2020-11-06",
+        "priceEur": 214400,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd0b2ccea32c": {
+    "id": "bd0b2ccea32c",
+    "label": "70 RUE DE LA MARE DES CHAMPS, Cailleville",
+    "lat": 49.832041,
+    "lng": 0.732492,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 1075000,
+        "typeLocal": "Maison",
+        "surfaceM2": 510,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-29",
+        "priceEur": 1075000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "a43ace104320": {
+    "id": "a43ace104320",
+    "label": "690 RUE DE LA MARE DES CHAMPS, Cailleville",
+    "lat": 49.837124,
+    "lng": 0.729887,
+    "transactions": [
+      {
+        "date": "2023-10-31",
+        "priceEur": 168300,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "4421ebce420c": {
+    "id": "4421ebce420c",
+    "label": "289 RUE DE LA MARE DES CHAMPS, Cailleville",
+    "lat": 49.833551,
+    "lng": 0.730251,
+    "transactions": [
+      {
+        "date": "2024-06-26",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "1af7c5f1a2d8": {
+    "id": "1af7c5f1a2d8",
+    "label": "50 RUE DE L EGLISE, Cailleville",
+    "lat": 49.832167,
+    "lng": 0.735562,
+    "transactions": [
+      {
+        "date": "2025-03-15",
+        "priceEur": 314000,
+        "typeLocal": "Maison",
+        "surfaceM2": 157,
+        "isVefa": false
+      }
+    ]
+  }
+}

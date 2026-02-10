@@ -1,0 +1,114 @@
+{
+  "4597c1935ea2": {
+    "id": "4597c1935ea2",
+    "label": "417 RUE DU PLIX, Bracquetuit",
+    "lat": 49.659352,
+    "lng": 1.187094,
+    "transactions": [
+      {
+        "date": "2021-07-09",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d57b226b16b": {
+    "id": "0d57b226b16b",
+    "label": "2 RUE DES GARENNES, Grigneuseville",
+    "lat": 49.655504,
+    "lng": 1.19294,
+    "transactions": [
+      {
+        "date": "2021-09-07",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "f48f85290828": {
+    "id": "f48f85290828",
+    "label": "5120 LE BOURG, Grigneuseville",
+    "lat": 49.655307,
+    "lng": 1.191347,
+    "transactions": [
+      {
+        "date": "2023-06-21",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-10",
+        "priceEur": 187550,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "d9844e2da492": {
+    "id": "d9844e2da492",
+    "label": "3 IMP DU VERGER, Grigneuseville",
+    "lat": 49.654532,
+    "lng": 1.190776,
+    "transactions": [
+      {
+        "date": "2022-04-20",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "67781c0b4bde": {
+    "id": "67781c0b4bde",
+    "label": "5096 LE BOURG, Grigneuseville",
+    "lat": 49.654981,
+    "lng": 1.190701,
+    "transactions": [
+      {
+        "date": "2023-10-26",
+        "priceEur": 169200,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "788fac24412c": {
+    "id": "788fac24412c",
+    "label": "5003 LE BOURG, Grigneuseville",
+    "lat": 49.653679,
+    "lng": 1.191534,
+    "transactions": [
+      {
+        "date": "2024-09-05",
+        "priceEur": 228000,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  },
+  "185df85fbd99": {
+    "id": "185df85fbd99",
+    "label": "15 IMP DES CHAMPS, Grigneuseville",
+    "lat": 49.654116,
+    "lng": 1.187401,
+    "transactions": [
+      {
+        "date": "2025-03-06",
+        "priceEur": 95400,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  }
+}

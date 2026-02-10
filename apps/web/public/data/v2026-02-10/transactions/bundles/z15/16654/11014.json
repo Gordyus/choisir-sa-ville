@@ -1,0 +1,32 @@
+{
+  "b7f3716a992c": {
+    "id": "b7f3716a992c",
+    "label": "4714 RUE DU QUESNOY, Frelinghien",
+    "lat": 50.689124,
+    "lng": 2.969661,
+    "transactions": [
+      {
+        "date": "2020-10-02",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a47d06d10cc": {
+    "id": "3a47d06d10cc",
+    "label": "4559 RUE DE QUESNOY, Frelinghien",
+    "lat": 50.691064,
+    "lng": 2.969873,
+    "transactions": [
+      {
+        "date": "2024-12-23",
+        "priceEur": 645000,
+        "typeLocal": "Maison",
+        "surfaceM2": 167,
+        "isVefa": false
+      }
+    ]
+  }
+}

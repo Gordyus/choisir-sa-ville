@@ -1,0 +1,32 @@
+{
+  "e78a75f7c175": {
+    "id": "e78a75f7c175",
+    "label": "78 IMP DES JACQUETTES, Haucourt",
+    "lat": 49.641359,
+    "lng": 1.695047,
+    "transactions": [
+      {
+        "date": "2022-05-06",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "9da31ef7ef59": {
+    "id": "9da31ef7ef59",
+    "label": "36 RUE DE LA CHAPELLE, Haucourt",
+    "lat": 49.644266,
+    "lng": 1.698305,
+    "transactions": [
+      {
+        "date": "2024-11-14",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

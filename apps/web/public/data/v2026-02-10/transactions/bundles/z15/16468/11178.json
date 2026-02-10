@@ -1,0 +1,47 @@
+{
+  "5cb476d90540": {
+    "id": "5cb476d90540",
+    "label": "5174 VALLEE DE BELLEGARDE, Villers-Écalles",
+    "lat": 49.533022,
+    "lng": 0.931081,
+    "transactions": [
+      {
+        "date": "2021-08-05",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "43cff7736446": {
+    "id": "43cff7736446",
+    "label": "6146 VALLEE DE BELLEGARDE, Villers-Écalles",
+    "lat": 49.53385,
+    "lng": 0.928033,
+    "transactions": [
+      {
+        "date": "2023-03-29",
+        "priceEur": 110376,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "7cd5d4b9aaa8": {
+    "id": "7cd5d4b9aaa8",
+    "label": "4 RES DU COTEAU, Villers-Écalles",
+    "lat": 49.533575,
+    "lng": 0.92867,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  }
+}

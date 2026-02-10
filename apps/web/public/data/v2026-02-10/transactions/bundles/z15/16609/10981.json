@@ -1,0 +1,46 @@
+{
+  "df09cdf31376": {
+    "id": "df09cdf31376",
+    "label": "2401 RTE DE WYLDER, Quaëdypre",
+    "lat": 50.923264,
+    "lng": 2.47991,
+    "transactions": [
+      {
+        "date": "2025-01-22",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-07",
+        "priceEur": 27000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-01",
+        "priceEur": 15000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "f072d609c1be": {
+    "id": "f072d609c1be",
+    "label": "2391 RTE DE WYLDER, Quaëdypre",
+    "lat": 50.923405,
+    "lng": 2.47986,
+    "transactions": [
+      {
+        "date": "2023-12-29",
+        "priceEur": 17001,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  }
+}

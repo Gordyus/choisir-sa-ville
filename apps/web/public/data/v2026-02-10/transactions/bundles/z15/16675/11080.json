@@ -1,0 +1,47 @@
+{
+  "7a0567f19392": {
+    "id": "7a0567f19392",
+    "label": "50 RUE YVES DEFOSSEZ, Abancourt",
+    "lat": 50.231239,
+    "lng": 3.205772,
+    "transactions": [
+      {
+        "date": "2020-09-15",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b9aa490f668": {
+    "id": "2b9aa490f668",
+    "label": "5 RUE DE LA GARE, Abancourt",
+    "lat": 50.231132,
+    "lng": 3.20292,
+    "transactions": [
+      {
+        "date": "2021-03-20",
+        "priceEur": 224465,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "c79253983ea0": {
+    "id": "c79253983ea0",
+    "label": "3 RUE DE LA GARE, Abancourt",
+    "lat": 50.230771,
+    "lng": 3.203864,
+    "transactions": [
+      {
+        "date": "2024-12-16",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  }
+}

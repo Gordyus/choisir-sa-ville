@@ -1,0 +1,32 @@
+{
+  "e3e69a161c31": {
+    "id": "e3e69a161c31",
+    "label": "9003 HAM DE BEAUMONT, Eu",
+    "lat": 50.031506,
+    "lng": 1.443155,
+    "transactions": [
+      {
+        "date": "2021-03-17",
+        "priceEur": 357000,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc4b94042937": {
+    "id": "cc4b94042937",
+    "label": "19 RTE DE BEAUMONT, Eu",
+    "lat": 50.033726,
+    "lng": 1.439398,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  }
+}

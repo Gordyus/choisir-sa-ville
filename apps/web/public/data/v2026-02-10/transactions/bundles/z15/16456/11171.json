@@ -1,0 +1,32 @@
+{
+  "475d08fc71dc": {
+    "id": "475d08fc71dc",
+    "label": "44 IMP DU VAL AU CESNE, Touffreville-la-Corbeline",
+    "lat": 49.587809,
+    "lng": 0.798408,
+    "transactions": [
+      {
+        "date": "2020-08-17",
+        "priceEur": 249700,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "a45f0ed09e76": {
+    "id": "a45f0ed09e76",
+    "label": "183 IMP DU VERBOSC, Touffreville-la-Corbeline",
+    "lat": 49.584752,
+    "lng": 0.794104,
+    "transactions": [
+      {
+        "date": "2022-05-03",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

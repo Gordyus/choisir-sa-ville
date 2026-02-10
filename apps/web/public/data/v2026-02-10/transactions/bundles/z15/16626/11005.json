@@ -1,0 +1,32 @@
+{
+  "5ad2c7e4a72d": {
+    "id": "5ad2c7e4a72d",
+    "label": "907 VC GODDELOOZENHOUCK STRAETE, Méteren",
+    "lat": 50.754781,
+    "lng": 2.666681,
+    "transactions": [
+      {
+        "date": "2020-11-03",
+        "priceEur": 612000,
+        "typeLocal": "Maison",
+        "surfaceM2": 239,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b7b80abb3f9": {
+    "id": "8b7b80abb3f9",
+    "label": "831 VC GODDELOOZENHOUCK STRAETE, Méteren",
+    "lat": 50.755408,
+    "lng": 2.667878,
+    "transactions": [
+      {
+        "date": "2022-12-09",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "ea46d5b3e6a6": {
+    "id": "ea46d5b3e6a6",
+    "label": "5016 LE CATILLON HAMEAU, Elbeuf-sur-Andelle",
+    "lat": 49.47496,
+    "lng": 1.371233,
+    "transactions": [
+      {
+        "date": "2021-12-28",
+        "priceEur": 104000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "fc8ad64de2a3": {
+    "id": "fc8ad64de2a3",
+    "label": "5017 LE CATILLON HAMEAU, Elbeuf-sur-Andelle",
+    "lat": 49.474657,
+    "lng": 1.372797,
+    "transactions": [
+      {
+        "date": "2022-10-03",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "afab9014a322": {
+    "id": "afab9014a322",
+    "label": "450 RTE DU MAQUIS, Saint-Denis-le-Thiboult",
+    "lat": 49.474151,
+    "lng": 1.363027,
+    "transactions": [
+      {
+        "date": "2024-04-05",
+        "priceEur": 77000,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "96b24088e9e1": {
+    "id": "96b24088e9e1",
+    "label": "1454 RTE DES VENTES, Saint-Denis-le-Thiboult",
+    "lat": 49.472862,
+    "lng": 1.36283,
+    "transactions": [
+      {
+        "date": "2025-02-03",
+        "priceEur": 131000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  }
+}

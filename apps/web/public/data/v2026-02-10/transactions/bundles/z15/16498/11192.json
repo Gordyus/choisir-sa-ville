@@ -1,0 +1,77 @@
+{
+  "7df1c56c8b3f": {
+    "id": "7df1c56c8b3f",
+    "label": "22 SEN DE LA RENARDIERE, Bois-d'Ennebourg",
+    "lat": 49.434914,
+    "lng": 1.256259,
+    "transactions": [
+      {
+        "date": "2020-12-22",
+        "priceEur": 214050,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "c69b7044f8ba": {
+    "id": "c69b7044f8ba",
+    "label": "54 SEN DE LA RENARDIERE, Bois-d'Ennebourg",
+    "lat": 49.434783,
+    "lng": 1.255775,
+    "transactions": [
+      {
+        "date": "2021-03-24",
+        "priceEur": 321200,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "9344f25c6fb5": {
+    "id": "9344f25c6fb5",
+    "label": "6001 HAMEAU DE L EGLISE, Bois-d'Ennebourg",
+    "lat": 49.433517,
+    "lng": 1.257957,
+    "transactions": [
+      {
+        "date": "2021-10-25",
+        "priceEur": 239000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "e72aec877bbd": {
+    "id": "e72aec877bbd",
+    "label": "467 RUE DE L'EGLISE, Bois-d'Ennebourg",
+    "lat": 49.433605,
+    "lng": 1.258625,
+    "transactions": [
+      {
+        "date": "2022-10-28",
+        "priceEur": 259100,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ff58f5a7a26": {
+    "id": "2ff58f5a7a26",
+    "label": "5074 HAMEAU DE L EGLISE, Bois-d'Ennebourg",
+    "lat": 49.434097,
+    "lng": 1.255399,
+    "transactions": [
+      {
+        "date": "2023-02-15",
+        "priceEur": 430000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  }
+}

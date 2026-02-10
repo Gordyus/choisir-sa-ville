@@ -1,0 +1,32 @@
+{
+  "1258d3710ee3": {
+    "id": "1258d3710ee3",
+    "label": "1448 RTE DE LA GRANDE FERME, Trouville",
+    "lat": 49.579108,
+    "lng": 0.578442,
+    "transactions": [
+      {
+        "date": "2024-03-28",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ad514e49a81": {
+    "id": "2ad514e49a81",
+    "label": "3 CHE DE LA FOSSE, Trouville",
+    "lat": 49.581909,
+    "lng": 0.578161,
+    "transactions": [
+      {
+        "date": "2024-11-19",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "669b2b934fa8": {
+    "id": "669b2b934fa8",
+    "label": "4 RUE DE HURLE VENT, Villers-Plouich",
+    "lat": 50.08006,
+    "lng": 3.133676,
+    "transactions": [
+      {
+        "date": "2021-03-16",
+        "priceEur": 132000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "eb293c2a17d9": {
+    "id": "eb293c2a17d9",
+    "label": "4 RUE DE LA GARITTE, Villers-Plouich",
+    "lat": 50.07924,
+    "lng": 3.136524,
+    "transactions": [
+      {
+        "date": "2022-03-11",
+        "priceEur": 135800,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "c5379134fa44": {
+    "id": "c5379134fa44",
+    "label": "8 RUE DE HURLE VENT, Villers-Plouich",
+    "lat": 50.080451,
+    "lng": 3.133551,
+    "transactions": [
+      {
+        "date": "2022-08-26",
+        "priceEur": 44900,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "efb0c333928d": {
+    "id": "efb0c333928d",
+    "label": "9 RUE DE LA GARITTE, Villers-Plouich",
+    "lat": 50.079184,
+    "lng": 3.136273,
+    "transactions": [
+      {
+        "date": "2023-01-04",
+        "priceEur": 5500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "88d89c3c29ed": {
+    "id": "88d89c3c29ed",
+    "label": "12 RUE DE HURLE VENT, Villers-Plouich",
+    "lat": 50.080405,
+    "lng": 3.133402,
+    "transactions": [
+      {
+        "date": "2023-08-03",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "6c9bb9549d2c": {
+    "id": "6c9bb9549d2c",
+    "label": "24 RUE DE L ARGILLIERE, Villers-Plouich",
+    "lat": 50.080069,
+    "lng": 3.136258,
+    "transactions": [
+      {
+        "date": "2024-01-12",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "a40df2ea5dda": {
+    "id": "a40df2ea5dda",
+    "label": "34 RUE DE HURLE VENT, Villers-Plouich",
+    "lat": 50.083117,
+    "lng": 3.132275,
+    "transactions": [
+      {
+        "date": "2024-07-15",
+        "priceEur": 91000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

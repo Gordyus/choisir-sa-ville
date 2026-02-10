@@ -1,0 +1,77 @@
+{
+  "ff665700cba8": {
+    "id": "ff665700cba8",
+    "label": "5029 LE BOURG, Criquiers",
+    "lat": 49.680704,
+    "lng": 1.72299,
+    "transactions": [
+      {
+        "date": "2021-03-26",
+        "priceEur": 87000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "842fb80b36aa": {
+    "id": "842fb80b36aa",
+    "label": "31 RUE PRINCIPALE, Criquiers",
+    "lat": 49.676367,
+    "lng": 1.716734,
+    "transactions": [
+      {
+        "date": "2021-06-23",
+        "priceEur": 221000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "88f7f93cd9f6": {
+    "id": "88f7f93cd9f6",
+    "label": "15B RUE PRINCIPALE, Criquiers",
+    "lat": 49.678893,
+    "lng": 1.719047,
+    "transactions": [
+      {
+        "date": "2022-02-02",
+        "priceEur": 224900,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f6cf113872c": {
+    "id": "8f6cf113872c",
+    "label": "5021 LE BOURG, Criquiers",
+    "lat": 49.67864,
+    "lng": 1.717302,
+    "transactions": [
+      {
+        "date": "2022-03-31",
+        "priceEur": 39000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e989bde78bc": {
+    "id": "7e989bde78bc",
+    "label": "35 RUE PRINCIPALE, Criquiers",
+    "lat": 49.677358,
+    "lng": 1.715281,
+    "transactions": [
+      {
+        "date": "2023-11-16",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  }
+}

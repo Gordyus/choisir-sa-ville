@@ -1,0 +1,54 @@
+{
+  "6815110b523d": {
+    "id": "6815110b523d",
+    "label": "5166 TERRE DU CHEMIN DE ST JACQ, Saint-Vaast-d'Équiqueville",
+    "lat": 49.820458,
+    "lng": 1.259944,
+    "transactions": [
+      {
+        "date": "2022-10-08",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-07",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed2fc669976b": {
+    "id": "ed2fc669976b",
+    "label": "5003 LE BOURG, Saint-Vaast-d'Équiqueville",
+    "lat": 49.81872,
+    "lng": 1.262814,
+    "transactions": [
+      {
+        "date": "2022-06-03",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "8706b45e7fdc": {
+    "id": "8706b45e7fdc",
+    "label": "339 RTE DE DIEPPE, Saint-Vaast-d'Équiqueville",
+    "lat": 49.81973,
+    "lng": 1.262965,
+    "transactions": [
+      {
+        "date": "2023-06-29",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  }
+}

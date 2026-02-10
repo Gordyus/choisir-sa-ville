@@ -1,0 +1,92 @@
+{
+  "1c190bcbb82b": {
+    "id": "1c190bcbb82b",
+    "label": "12 VOIE DES CALETES, Sandouville",
+    "lat": 49.49524,
+    "lng": 0.312745,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 238000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ee9598397fc": {
+    "id": "2ee9598397fc",
+    "label": "63 RTE DU VACHAT, Sandouville",
+    "lat": 49.495587,
+    "lng": 0.314067,
+    "transactions": [
+      {
+        "date": "2022-03-10",
+        "priceEur": 277000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "4009fb80b127": {
+    "id": "4009fb80b127",
+    "label": "5178 RUE DU CAMP ROMAIN, Sandouville",
+    "lat": 49.494672,
+    "lng": 0.318359,
+    "transactions": [
+      {
+        "date": "2022-08-01",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "61cd165d71ab": {
+    "id": "61cd165d71ab",
+    "label": "5225 RTE DE LA SEINE, Sandouville",
+    "lat": 49.49643,
+    "lng": 0.310706,
+    "transactions": [
+      {
+        "date": "2022-10-11",
+        "priceEur": 277000,
+        "typeLocal": "Maison",
+        "surfaceM2": 171,
+        "isVefa": false
+      }
+    ]
+  },
+  "157c088c1a97": {
+    "id": "157c088c1a97",
+    "label": "1 VOIE DES CALETES, Sandouville",
+    "lat": 49.495927,
+    "lng": 0.311726,
+    "transactions": [
+      {
+        "date": "2024-09-30",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d99be205fdb": {
+    "id": "2d99be205fdb",
+    "label": "16 VOIE DES CALETES, Sandouville",
+    "lat": 49.49562,
+    "lng": 0.31203,
+    "transactions": [
+      {
+        "date": "2025-01-15",
+        "priceEur": 304000,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "00a78ce80a1e": {
+    "id": "00a78ce80a1e",
+    "label": "31 RUE VERTE, Ennevelin",
+    "lat": 50.549671,
+    "lng": 3.147489,
+    "transactions": [
+      {
+        "date": "2022-05-24",
+        "priceEur": 133200,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "604f30b273ab": {
+    "id": "604f30b273ab",
+    "label": "29 RUE VERTE, Ennevelin",
+    "lat": 50.549961,
+    "lng": 3.148492,
+    "transactions": [
+      {
+        "date": "2022-09-28",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "da24efcebc57": {
+    "id": "da24efcebc57",
+    "label": "5022 RUE DE LA MARQUE, Ennevelin",
+    "lat": 50.552649,
+    "lng": 3.14902,
+    "transactions": [
+      {
+        "date": "2025-01-27",
+        "priceEur": 777350,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-27",
+        "priceEur": 777350,
+        "typeLocal": "Maison",
+        "surfaceM2": 240,
+        "isVefa": false
+      }
+    ]
+  }
+}

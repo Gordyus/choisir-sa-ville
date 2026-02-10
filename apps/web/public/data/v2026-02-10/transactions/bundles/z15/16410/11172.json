@@ -1,0 +1,32 @@
+{
+  "01f16e1228c2": {
+    "id": "01f16e1228c2",
+    "label": "360 RTE DU LOIR, Angerville-l'Orcher",
+    "lat": 49.581108,
+    "lng": 0.290457,
+    "transactions": [
+      {
+        "date": "2020-08-17",
+        "priceEur": 177000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "1fe09b3be31c": {
+    "id": "1fe09b3be31c",
+    "label": "4248 RTE D'ETRETAT, Étainhus",
+    "lat": 49.578693,
+    "lng": 0.287244,
+    "transactions": [
+      {
+        "date": "2020-09-11",
+        "priceEur": 263000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

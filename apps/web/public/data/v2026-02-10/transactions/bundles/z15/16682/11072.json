@@ -1,0 +1,62 @@
+{
+  "da60ef46e9fe": {
+    "id": "da60ef46e9fe",
+    "label": "2 CHE LOETTE, Marquette-en-Ostrevant",
+    "lat": 50.288348,
+    "lng": 3.278512,
+    "transactions": [
+      {
+        "date": "2022-02-23",
+        "priceEur": 105500,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ccd8b2eb752": {
+    "id": "2ccd8b2eb752",
+    "label": "18C RUE WIGNOLLE LEDIEU, Marquette-en-Ostrevant",
+    "lat": 50.289289,
+    "lng": 3.274601,
+    "transactions": [
+      {
+        "date": "2022-04-22",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1d63dc9359b": {
+    "id": "e1d63dc9359b",
+    "label": "45 RUE PIERRE BROSSOLETTE, Marquette-en-Ostrevant",
+    "lat": 50.286305,
+    "lng": 3.274284,
+    "transactions": [
+      {
+        "date": "2022-06-29",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "1aaf409f3795": {
+    "id": "1aaf409f3795",
+    "label": "32 RUE WIGNOLLE LEDIEU, Marquette-en-Ostrevant",
+    "lat": 50.289206,
+    "lng": 3.279652,
+    "transactions": [
+      {
+        "date": "2025-03-31",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  }
+}

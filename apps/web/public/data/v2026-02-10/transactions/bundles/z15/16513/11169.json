@@ -1,0 +1,47 @@
+{
+  "ed61b54752a9": {
+    "id": "ed61b54752a9",
+    "label": "906 RTE DE LA HOUSSAYE, Bosc-Bordel",
+    "lat": 49.598277,
+    "lng": 1.418709,
+    "transactions": [
+      {
+        "date": "2021-10-06",
+        "priceEur": 171000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "de231e785754": {
+    "id": "de231e785754",
+    "label": "996 RTE DE LA HOUSSAYE, Bosc-Bordel",
+    "lat": 49.598786,
+    "lng": 1.41952,
+    "transactions": [
+      {
+        "date": "2023-01-13",
+        "priceEur": 268000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "f17f8b61c375": {
+    "id": "f17f8b61c375",
+    "label": "956 RTE DE LA HOUSSAYE, Bosc-Bordel",
+    "lat": 49.598643,
+    "lng": 1.419335,
+    "transactions": [
+      {
+        "date": "2024-07-12",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  }
+}

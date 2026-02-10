@@ -1,0 +1,77 @@
+{
+  "776f3521ea2a": {
+    "id": "776f3521ea2a",
+    "label": "21 RUE DU CROQUET, Avelin",
+    "lat": 50.524743,
+    "lng": 3.087975,
+    "transactions": [
+      {
+        "date": "2020-09-25",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "6c1c5e7c0239": {
+    "id": "6c1c5e7c0239",
+    "label": "24B RUE DE LA TREUPE, Avelin",
+    "lat": 50.521626,
+    "lng": 3.095022,
+    "transactions": [
+      {
+        "date": "2021-04-27",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "2de19c29791c": {
+    "id": "2de19c29791c",
+    "label": "27 RUE DU CROQUET, Avelin",
+    "lat": 50.52419,
+    "lng": 3.087523,
+    "transactions": [
+      {
+        "date": "2021-08-26",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "bddfbcccff97": {
+    "id": "bddfbcccff97",
+    "label": "43B RUE DU CROQUET, Avelin",
+    "lat": 50.522648,
+    "lng": 3.087397,
+    "transactions": [
+      {
+        "date": "2021-09-03",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "074b9fe91a4c": {
+    "id": "074b9fe91a4c",
+    "label": "13 RUE DU CROQUET, Avelin",
+    "lat": 50.525177,
+    "lng": 3.088306,
+    "transactions": [
+      {
+        "date": "2025-01-10",
+        "priceEur": 550000,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  }
+}

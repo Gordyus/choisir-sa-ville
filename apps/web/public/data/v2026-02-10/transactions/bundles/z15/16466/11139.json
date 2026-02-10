@@ -1,0 +1,92 @@
+{
+  "cb7350cfdcd5": {
+    "id": "cb7350cfdcd5",
+    "label": "94 RUE DU GENERAL DE GAULLE, Luneray",
+    "lat": 49.81444,
+    "lng": 0.910242,
+    "transactions": [
+      {
+        "date": "2020-10-13",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f5d28caf538": {
+    "id": "9f5d28caf538",
+    "label": "177 RUE DE LA GRANDE MARE, Greuville",
+    "lat": 49.810526,
+    "lng": 0.911745,
+    "transactions": [
+      {
+        "date": "2023-04-07",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "78af5132457e": {
+    "id": "78af5132457e",
+    "label": "180 RUE DE LA GRANDE MARE, Greuville",
+    "lat": 49.809947,
+    "lng": 0.911129,
+    "transactions": [
+      {
+        "date": "2023-08-21",
+        "priceEur": 209800,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "bce8b8061e45": {
+    "id": "bce8b8061e45",
+    "label": "7 RUE DU CHATEAU, Luneray",
+    "lat": 49.816114,
+    "lng": 0.908908,
+    "transactions": [
+      {
+        "date": "2024-08-13",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "b08dca129990": {
+    "id": "b08dca129990",
+    "label": "50 RUE DE LA GRANDE MARE, Greuville",
+    "lat": 49.811777,
+    "lng": 0.911283,
+    "transactions": [
+      {
+        "date": "2024-07-24",
+        "priceEur": 264500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3f1e9238249": {
+    "id": "d3f1e9238249",
+    "label": "452 RUE DES HETRES, Greuville",
+    "lat": 49.810032,
+    "lng": 0.90805,
+    "transactions": [
+      {
+        "date": "2025-02-14",
+        "priceEur": 93500,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  }
+}

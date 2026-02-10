@@ -1,0 +1,39 @@
+{
+  "8b8033eed987": {
+    "id": "8b8033eed987",
+    "label": "7 CHE DU NIEUWGRACHT VC 18, Bourbourg",
+    "lat": 50.942896,
+    "lng": 2.240865,
+    "transactions": [
+      {
+        "date": "2024-10-30",
+        "priceEur": 164280,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-11",
+        "priceEur": 133600,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "f78a3d70cd1d": {
+    "id": "f78a3d70cd1d",
+    "label": "9 CHE DU NIEUWGRACHT VC 18, Bourbourg",
+    "lat": 50.942547,
+    "lng": 2.241177,
+    "transactions": [
+      {
+        "date": "2022-11-16",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 186,
+        "isVefa": false
+      }
+    ]
+  }
+}

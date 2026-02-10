@@ -1,0 +1,32 @@
+{
+  "2b486f63afc5": {
+    "id": "2b486f63afc5",
+    "label": "2 IMP DES MARAIS, Grumesnil",
+    "lat": 49.606838,
+    "lng": 1.702619,
+    "transactions": [
+      {
+        "date": "2021-12-23",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 164,
+        "isVefa": false
+      }
+    ]
+  },
+  "a195025d05fd": {
+    "id": "a195025d05fd",
+    "label": "12 RUE DE LA LIBERATION, Grumesnil",
+    "lat": 49.609944,
+    "lng": 1.692193,
+    "transactions": [
+      {
+        "date": "2023-01-23",
+        "priceEur": 160900,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  }
+}

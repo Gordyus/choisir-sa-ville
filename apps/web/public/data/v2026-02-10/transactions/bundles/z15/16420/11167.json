@@ -1,0 +1,47 @@
+{
+  "4d948c19615b": {
+    "id": "4d948c19615b",
+    "label": "36 RTE DE LA MISERE, Houquetot",
+    "lat": 49.611192,
+    "lng": 0.396561,
+    "transactions": [
+      {
+        "date": "2022-01-20",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "518f9358f84f": {
+    "id": "518f9358f84f",
+    "label": "35 RTE DE LA MISERE, Houquetot",
+    "lat": 49.611132,
+    "lng": 0.396307,
+    "transactions": [
+      {
+        "date": "2023-10-19",
+        "priceEur": 141500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a9dc1557dcd": {
+    "id": "6a9dc1557dcd",
+    "label": "100 IMP DES TROIS CORNETS, Bréauté",
+    "lat": 49.616682,
+    "lng": 0.397484,
+    "transactions": [
+      {
+        "date": "2025-04-16",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

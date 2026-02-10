@@ -1,0 +1,32 @@
+{
+  "c94134eb3bba": {
+    "id": "c94134eb3bba",
+    "label": "1764 RUE DE LA CROIX DU BAC, Nieppe",
+    "lat": 50.682545,
+    "lng": 2.809153,
+    "transactions": [
+      {
+        "date": "2020-07-09",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "b9e0fc735e6b": {
+    "id": "b9e0fc735e6b",
+    "label": "1882 RUE DE LA CROIX DU BAC, Nieppe",
+    "lat": 50.681558,
+    "lng": 2.808085,
+    "transactions": [
+      {
+        "date": "2022-12-16",
+        "priceEur": 232000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

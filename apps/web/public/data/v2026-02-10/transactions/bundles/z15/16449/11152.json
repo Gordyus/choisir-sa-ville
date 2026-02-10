@@ -1,0 +1,32 @@
+{
+  "89f5ffed38b4": {
+    "id": "89f5ffed38b4",
+    "label": "2 IMP DE LA CHAUMIERE, Carville-Pot-de-Fer",
+    "lat": 49.718516,
+    "lng": 0.724424,
+    "transactions": [
+      {
+        "date": "2021-10-12",
+        "priceEur": 262000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "97408e0f9808": {
+    "id": "97408e0f9808",
+    "label": "103 CHE DES FONDS, Carville-Pot-de-Fer",
+    "lat": 49.723668,
+    "lng": 0.723313,
+    "transactions": [
+      {
+        "date": "2025-01-16",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  }
+}

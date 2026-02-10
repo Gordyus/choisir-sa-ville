@@ -1,0 +1,47 @@
+{
+  "492af8d6881c": {
+    "id": "492af8d6881c",
+    "label": "7 RUE DU FORT ROUGE, Renescure",
+    "lat": 50.737986,
+    "lng": 2.359531,
+    "transactions": [
+      {
+        "date": "2021-11-05",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "3267026c3c71": {
+    "id": "3267026c3c71",
+    "label": "75 RUE DE BAILLEUL, Renescure",
+    "lat": 50.739875,
+    "lng": 2.356578,
+    "transactions": [
+      {
+        "date": "2022-11-22",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "3cea567b0988": {
+    "id": "3cea567b0988",
+    "label": "1 RUE DU FORT ROUGE, Renescure",
+    "lat": 50.738331,
+    "lng": 2.360054,
+    "transactions": [
+      {
+        "date": "2024-03-26",
+        "priceEur": 173570,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  }
+}

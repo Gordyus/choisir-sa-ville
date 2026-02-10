@@ -1,0 +1,122 @@
+{
+  "7df623f2a260": {
+    "id": "7df623f2a260",
+    "label": "5139 CANTEPY, Norville",
+    "lat": 49.489889,
+    "lng": 0.65218,
+    "transactions": [
+      {
+        "date": "2020-08-14",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "4eacc1e24a0f": {
+    "id": "4eacc1e24a0f",
+    "label": "8 RTE DU GRAND VAL, Norville",
+    "lat": 49.490407,
+    "lng": 0.654183,
+    "transactions": [
+      {
+        "date": "2020-10-14",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e9b1b1e4180": {
+    "id": "4e9b1b1e4180",
+    "label": "5131 CANTEPY, Norville",
+    "lat": 49.490765,
+    "lng": 0.656516,
+    "transactions": [
+      {
+        "date": "2021-04-06",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "8ac6e883689e": {
+    "id": "8ac6e883689e",
+    "label": "9T RTE DU GRAND VAL, Norville",
+    "lat": 49.490822,
+    "lng": 0.655196,
+    "transactions": [
+      {
+        "date": "2022-02-17",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "ddefe349aa85": {
+    "id": "ddefe349aa85",
+    "label": "18A RTE DE CANTEPIE, Norville",
+    "lat": 49.489655,
+    "lng": 0.650056,
+    "transactions": [
+      {
+        "date": "2023-05-11",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "712e91d8514a": {
+    "id": "712e91d8514a",
+    "label": "20 RTE DU GRAND VAL, Norville",
+    "lat": 49.491268,
+    "lng": 0.656526,
+    "transactions": [
+      {
+        "date": "2024-04-17",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "c8048bd8dc32": {
+    "id": "c8048bd8dc32",
+    "label": "4 CHE DE CAUMONT, Norville",
+    "lat": 49.490597,
+    "lng": 0.650142,
+    "transactions": [
+      {
+        "date": "2024-09-30",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb28af637e50": {
+    "id": "bb28af637e50",
+    "label": "16A RTE DU GRAND VAL, Norville",
+    "lat": 49.490438,
+    "lng": 0.655084,
+    "transactions": [
+      {
+        "date": "2024-12-10",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

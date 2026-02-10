@@ -1,0 +1,159 @@
+{
+  "bc55c72791e6": {
+    "id": "bc55c72791e6",
+    "label": "5073 HAUT DE BLANCMESNIL, Sainte-Marguerite-sur-Mer",
+    "lat": 49.909328,
+    "lng": 0.965845,
+    "transactions": [
+      {
+        "date": "2020-10-15",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e7176b806b6": {
+    "id": "3e7176b806b6",
+    "label": "5303 SOUS LES BRUYERES, Sainte-Marguerite-sur-Mer",
+    "lat": 49.910242,
+    "lng": 0.956844,
+    "transactions": [
+      {
+        "date": "2020-12-04",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "b23c0d6fbf32": {
+    "id": "b23c0d6fbf32",
+    "label": "290 CHE SOUS LES BRUYERES, Sainte-Marguerite-sur-Mer",
+    "lat": 49.910235,
+    "lng": 0.959033,
+    "transactions": [
+      {
+        "date": "2021-12-08",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "3da07ef019b4": {
+    "id": "3da07ef019b4",
+    "label": "375 CHE SOUS LES BRUYERES, Sainte-Marguerite-sur-Mer",
+    "lat": 49.909489,
+    "lng": 0.958236,
+    "transactions": [
+      {
+        "date": "2024-10-04",
+        "priceEur": 657400,
+        "typeLocal": "Maison",
+        "surfaceM2": 188,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-30",
+        "priceEur": 647400,
+        "typeLocal": "Maison",
+        "surfaceM2": 188,
+        "isVefa": false
+      }
+    ]
+  },
+  "f0071f9fe1b8": {
+    "id": "f0071f9fe1b8",
+    "label": "54 CHE DES DROSERAS, Sainte-Marguerite-sur-Mer",
+    "lat": 49.91203,
+    "lng": 0.961472,
+    "transactions": [
+      {
+        "date": "2022-06-28",
+        "priceEur": 524000,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d7caa339e67": {
+    "id": "3d7caa339e67",
+    "label": "41 CHE SOUS LES BRUYERES, Sainte-Marguerite-sur-Mer",
+    "lat": 49.910295,
+    "lng": 0.962447,
+    "transactions": [
+      {
+        "date": "2023-11-02",
+        "priceEur": 415000,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "8739755870d8": {
+    "id": "8739755870d8",
+    "label": "477 CHE SOUS LES BRUYERES, Sainte-Marguerite-sur-Mer",
+    "lat": 49.90918,
+    "lng": 0.956687,
+    "transactions": [
+      {
+        "date": "2024-02-02",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "0bff0de212fb": {
+    "id": "0bff0de212fb",
+    "label": "30 CHE DES DROSERAS, Sainte-Marguerite-sur-Mer",
+    "lat": 49.912313,
+    "lng": 0.962042,
+    "transactions": [
+      {
+        "date": "2024-07-02",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6636dc2a247": {
+    "id": "c6636dc2a247",
+    "label": "460 CHE SOUS LES BRUYERES, Sainte-Marguerite-sur-Mer",
+    "lat": 49.909934,
+    "lng": 0.956355,
+    "transactions": [
+      {
+        "date": "2024-07-22",
+        "priceEur": 353000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "c1aa482cc026": {
+    "id": "c1aa482cc026",
+    "label": "95 RTE DU PHARE D AILLY, Sainte-Marguerite-sur-Mer",
+    "lat": 49.910703,
+    "lng": 0.962833,
+    "transactions": [
+      {
+        "date": "2025-06-11",
+        "priceEur": 630000,
+        "typeLocal": "Maison",
+        "surfaceM2": 246,
+        "isVefa": false
+      }
+    ]
+  }
+}

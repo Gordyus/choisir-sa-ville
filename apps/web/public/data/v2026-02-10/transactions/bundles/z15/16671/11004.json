@@ -1,0 +1,92 @@
+{
+  "d5a4daacf277": {
+    "id": "d5a4daacf277",
+    "label": "35 DOM DES PRES, Neuville-en-Ferrain",
+    "lat": 50.762952,
+    "lng": 3.156204,
+    "transactions": [
+      {
+        "date": "2020-07-29",
+        "priceEur": 177550,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "5fc11b84b7ce": {
+    "id": "5fc11b84b7ce",
+    "label": "36 DOM DES PRES, Neuville-en-Ferrain",
+    "lat": 50.763003,
+    "lng": 3.156298,
+    "transactions": [
+      {
+        "date": "2020-08-12",
+        "priceEur": 178907,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "a93512e57a2f": {
+    "id": "a93512e57a2f",
+    "label": "65 RUE DU DRONCKAERT, Neuville-en-Ferrain",
+    "lat": 50.763195,
+    "lng": 3.154152,
+    "transactions": [
+      {
+        "date": "2024-10-17",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "a82c834b7281": {
+    "id": "a82c834b7281",
+    "label": "25 DOM DES PRES, Neuville-en-Ferrain",
+    "lat": 50.762458,
+    "lng": 3.15521,
+    "transactions": [
+      {
+        "date": "2025-02-27",
+        "priceEur": 297000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a7f120118c0": {
+    "id": "1a7f120118c0",
+    "label": "79 RUE DU DRONCKAERT, Neuville-en-Ferrain",
+    "lat": 50.763592,
+    "lng": 3.154805,
+    "transactions": [
+      {
+        "date": "2025-04-15",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "c95d9174722b": {
+    "id": "c95d9174722b",
+    "label": "74 RUE DU DRONCKAERT, Neuville-en-Ferrain",
+    "lat": 50.760987,
+    "lng": 3.153516,
+    "transactions": [
+      {
+        "date": "2025-06-23",
+        "priceEur": 287156,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

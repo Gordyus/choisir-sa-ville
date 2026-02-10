@@ -1,0 +1,32 @@
+{
+  "a341f3e7e90e": {
+    "id": "a341f3e7e90e",
+    "label": "1229 PCH PETIT CHEMIN DE LA GARE, Cassel",
+    "lat": 50.793376,
+    "lng": 2.475176,
+    "transactions": [
+      {
+        "date": "2020-09-30",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "0e1b5a250dc3": {
+    "id": "0e1b5a250dc3",
+    "label": "9999 PCH PETIT CHEMIN DE LA GARE, Cassel",
+    "lat": 50.797454,
+    "lng": 2.480052,
+    "transactions": [
+      {
+        "date": "2021-11-12",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  }
+}

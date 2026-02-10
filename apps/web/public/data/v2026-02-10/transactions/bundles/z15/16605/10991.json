@@ -1,0 +1,32 @@
+{
+  "4b272822ee64": {
+    "id": "4b272822ee64",
+    "label": "17 LA CAMPAGNARDE, Ledringhem",
+    "lat": 50.853525,
+    "lng": 2.436666,
+    "transactions": [
+      {
+        "date": "2020-10-01",
+        "priceEur": 283250,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  },
+  "519cfeb170ee": {
+    "id": "519cfeb170ee",
+    "label": "6 RUE HENRI WALLAERT, Ledringhem",
+    "lat": 50.853555,
+    "lng": 2.438954,
+    "transactions": [
+      {
+        "date": "2025-06-11",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  }
+}

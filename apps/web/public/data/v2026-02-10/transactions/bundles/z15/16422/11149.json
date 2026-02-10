@@ -1,0 +1,47 @@
+{
+  "1583bf59689b": {
+    "id": "1583bf59689b",
+    "label": "20 RUE BRUYERE SUR LE ROC, Toussaint",
+    "lat": 49.739223,
+    "lng": 0.418437,
+    "transactions": [
+      {
+        "date": "2023-04-27",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "12ca141f5f06": {
+    "id": "12ca141f5f06",
+    "label": "16 RUE BRUYERE SUR LE ROC, Toussaint",
+    "lat": 49.738855,
+    "lng": 0.419033,
+    "transactions": [
+      {
+        "date": "2023-08-22",
+        "priceEur": 259200,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "5185c50175fc": {
+    "id": "5185c50175fc",
+    "label": "10 RUE DU STADE, Toussaint",
+    "lat": 49.739373,
+    "lng": 0.421906,
+    "transactions": [
+      {
+        "date": "2023-11-28",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  }
+}

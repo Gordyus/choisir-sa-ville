@@ -1,0 +1,121 @@
+{
+  "74dc87816aa2": {
+    "id": "74dc87816aa2",
+    "label": "4 RUE DU BOUT DU HAUT, Rétonval",
+    "lat": 49.8202,
+    "lng": 1.595786,
+    "transactions": [
+      {
+        "date": "2020-12-09",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "f876d794f5bc": {
+    "id": "f876d794f5bc",
+    "label": "2B RUE DE LA VENTILETTE, Rétonval",
+    "lat": 49.819496,
+    "lng": 1.593592,
+    "transactions": [
+      {
+        "date": "2021-06-07",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "aab73e7fa6ba": {
+    "id": "aab73e7fa6ba",
+    "label": "4 RUE DE LA VENTILETTE, Rétonval",
+    "lat": 49.81925,
+    "lng": 1.593284,
+    "transactions": [
+      {
+        "date": "2022-01-07",
+        "priceEur": 168500,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "a591344d8506": {
+    "id": "a591344d8506",
+    "label": "5040 LE BOURG, Rétonval",
+    "lat": 49.820498,
+    "lng": 1.594988,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-22",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-22",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 37,
+        "isVefa": false
+      }
+    ]
+  },
+  "9836e0610ca3": {
+    "id": "9836e0610ca3",
+    "label": "20 RUE DU BOUT DU HAUT, Rétonval",
+    "lat": 49.817467,
+    "lng": 1.599931,
+    "transactions": [
+      {
+        "date": "2022-12-16",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "20b93e6fa998": {
+    "id": "20b93e6fa998",
+    "label": "1 RTE DE SAINT LEGER, Rétonval",
+    "lat": 49.821786,
+    "lng": 1.595239,
+    "transactions": [
+      {
+        "date": "2022-12-27",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "4414192f6790": {
+    "id": "4414192f6790",
+    "label": "8 RUE DU BOUT DU HAUT, Rétonval",
+    "lat": 49.819693,
+    "lng": 1.597691,
+    "transactions": [
+      {
+        "date": "2024-04-17",
+        "priceEur": 264300,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  }
+}

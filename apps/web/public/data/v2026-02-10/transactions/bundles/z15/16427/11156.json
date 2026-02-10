@@ -1,0 +1,106 @@
+{
+  "c7e8ad5680da": {
+    "id": "c7e8ad5680da",
+    "label": "15 RUE DE LA VIERGE, Daubeuf-Serville",
+    "lat": 49.692658,
+    "lng": 0.477358,
+    "transactions": [
+      {
+        "date": "2020-10-09",
+        "priceEur": 262136,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7db4941fa78": {
+    "id": "c7db4941fa78",
+    "label": "4 RUE DE LA VIERGE, Daubeuf-Serville",
+    "lat": 49.693856,
+    "lng": 0.477183,
+    "transactions": [
+      {
+        "date": "2023-02-20",
+        "priceEur": 197500,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-01",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc80dc943c61": {
+    "id": "bc80dc943c61",
+    "label": "1 RUE DU CHEVAL BLANC, Daubeuf-Serville",
+    "lat": 49.694604,
+    "lng": 0.477449,
+    "transactions": [
+      {
+        "date": "2021-03-25",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5c42450a489": {
+    "id": "b5c42450a489",
+    "label": "3 RTE DE GODERVILLE, Daubeuf-Serville",
+    "lat": 49.690028,
+    "lng": 0.477791,
+    "transactions": [
+      {
+        "date": "2024-07-30",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-24",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf469f95f18f": {
+    "id": "cf469f95f18f",
+    "label": "6 RUE DE LA VIERGE, Daubeuf-Serville",
+    "lat": 49.693219,
+    "lng": 0.476159,
+    "transactions": [
+      {
+        "date": "2022-04-26",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "19337011aab0": {
+    "id": "19337011aab0",
+    "label": "2 RUE DE LA VIERGE, Daubeuf-Serville",
+    "lat": 49.694143,
+    "lng": 0.477147,
+    "transactions": [
+      {
+        "date": "2024-05-28",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  }
+}

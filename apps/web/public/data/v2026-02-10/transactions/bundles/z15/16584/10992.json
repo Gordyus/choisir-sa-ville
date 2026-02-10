@@ -1,0 +1,76 @@
+{
+  "c19759a5543a": {
+    "id": "c19759a5543a",
+    "label": "3 RUE DU PONT, Holque",
+    "lat": 50.843303,
+    "lng": 2.20584,
+    "transactions": [
+      {
+        "date": "2021-01-22",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-22",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3af8365297a": {
+    "id": "c3af8365297a",
+    "label": "2 RUE DES ECLUSES, Holque",
+    "lat": 50.841464,
+    "lng": 2.207576,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 224000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "5ffd2f63e90c": {
+    "id": "5ffd2f63e90c",
+    "label": "13 RUE DE L AA, Holque",
+    "lat": 50.843909,
+    "lng": 2.202576,
+    "transactions": [
+      {
+        "date": "2022-08-26",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-26",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "e9e468fe65c5": {
+    "id": "e9e468fe65c5",
+    "label": "1 RTE DE RUMINGHEM, Holque",
+    "lat": 50.846699,
+    "lng": 2.204558,
+    "transactions": [
+      {
+        "date": "2024-07-12",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  }
+}

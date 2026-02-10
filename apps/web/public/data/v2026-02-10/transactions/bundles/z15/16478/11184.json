@@ -1,0 +1,32 @@
+{
+  "82a001b3a3e6": {
+    "id": "82a001b3a3e6",
+    "label": "21 RUE DE LA REPUBLIQUE, Notre-Dame-de-Bondeville",
+    "lat": 49.489588,
+    "lng": 1.043049,
+    "transactions": [
+      {
+        "date": "2020-12-17",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "22405cc52889": {
+    "id": "22405cc52889",
+    "label": "18 RUE DE LA REPUBLIQUE, Notre-Dame-de-Bondeville",
+    "lat": 49.489823,
+    "lng": 1.042785,
+    "transactions": [
+      {
+        "date": "2023-07-05",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

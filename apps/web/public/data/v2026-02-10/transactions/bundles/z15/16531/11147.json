@@ -1,0 +1,76 @@
+{
+  "b920feec99ab": {
+    "id": "b920feec99ab",
+    "label": "31 MESNIL DAVID, Illois",
+    "lat": 49.755172,
+    "lng": 1.615233,
+    "transactions": [
+      {
+        "date": "2020-10-01",
+        "priceEur": 274800,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-01",
+        "priceEur": 274800,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-01",
+        "priceEur": 274800,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "35e240cfb416": {
+    "id": "35e240cfb416",
+    "label": "5020 MESNIL DAVID HAMEAU, Illois",
+    "lat": 49.754615,
+    "lng": 1.615671,
+    "transactions": [
+      {
+        "date": "2022-01-12",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "8ac4551a24d4": {
+    "id": "8ac4551a24d4",
+    "label": "6 MESNIL DAVID HAMEAU, Illois",
+    "lat": 49.755347,
+    "lng": 1.621728,
+    "transactions": [
+      {
+        "date": "2023-07-27",
+        "priceEur": 68000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "d72495040399": {
+    "id": "d72495040399",
+    "label": "11 MESNIL DAVID HAMEAU, Illois",
+    "lat": 49.757544,
+    "lng": 1.621012,
+    "transactions": [
+      {
+        "date": "2024-11-23",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  }
+}

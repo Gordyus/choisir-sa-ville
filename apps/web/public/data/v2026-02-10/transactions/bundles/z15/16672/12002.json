@@ -1,0 +1,75 @@
+{
+  "99cb091bca31": {
+    "id": "99cb091bca31",
+    "label": "5096 CANTEGALS, Colombiers",
+    "lat": 43.307734,
+    "lng": 3.165468,
+    "transactions": [
+      {
+        "date": "2021-02-23",
+        "priceEur": 2000000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "017b93d66250": {
+    "id": "017b93d66250",
+    "label": "5022F LA BERGERIE, Colombiers",
+    "lat": 43.306117,
+    "lng": 3.171232,
+    "transactions": [
+      {
+        "date": "2021-09-01",
+        "priceEur": 674500,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-01",
+        "priceEur": 674500,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-01",
+        "priceEur": 674500,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-01",
+        "priceEur": 674500,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-01",
+        "priceEur": 674500,
+        "typeLocal": "Maison",
+        "surfaceM2": 174,
+        "isVefa": false
+      }
+    ]
+  },
+  "32c53a6f6c76": {
+    "id": "32c53a6f6c76",
+    "label": "4 RUE DE L ARTISANAT, Colombiers",
+    "lat": 43.307212,
+    "lng": 3.167499,
+    "transactions": [
+      {
+        "date": "2022-09-09",
+        "priceEur": 465000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  }
+}

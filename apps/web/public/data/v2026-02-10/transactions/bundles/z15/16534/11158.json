@@ -1,0 +1,114 @@
+{
+  "d3af5ba132e3": {
+    "id": "d3af5ba132e3",
+    "label": "5008 LE CAMP D OS, Gaillefontaine",
+    "lat": 49.680415,
+    "lng": 1.651689,
+    "transactions": [
+      {
+        "date": "2020-12-23",
+        "priceEur": 107000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6d72aa0771d": {
+    "id": "c6d72aa0771d",
+    "label": "5713 LE CAMP D OS, Gaillefontaine",
+    "lat": 49.677783,
+    "lng": 1.649951,
+    "transactions": [
+      {
+        "date": "2022-08-04",
+        "priceEur": 242750,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-15",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "65d711b28f96": {
+    "id": "65d711b28f96",
+    "label": "19 RTE DU CHAMP HAUT, Gaillefontaine",
+    "lat": 49.67911,
+    "lng": 1.649545,
+    "transactions": [
+      {
+        "date": "2023-08-16",
+        "priceEur": 104000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "6bb04a56b6b6": {
+    "id": "6bb04a56b6b6",
+    "label": "14 RTE DE FORMERIE - LE CAMPDOS, Gaillefontaine",
+    "lat": 49.681067,
+    "lng": 1.650841,
+    "transactions": [
+      {
+        "date": "2023-09-15",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4d2b2bac4ae": {
+    "id": "c4d2b2bac4ae",
+    "label": "21 RTE DU CHAMP HAUT, Gaillefontaine",
+    "lat": 49.680415,
+    "lng": 1.651689,
+    "transactions": [
+      {
+        "date": "2024-07-06",
+        "priceEur": 137940,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "90879d7f2af8": {
+    "id": "90879d7f2af8",
+    "label": "1659 RTE DE FORMERIE, Conteville",
+    "lat": 49.680169,
+    "lng": 1.653419,
+    "transactions": [
+      {
+        "date": "2025-01-16",
+        "priceEur": 77000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "ba82a55d8aa6": {
+    "id": "ba82a55d8aa6",
+    "label": "17 RTE DU CHAMP HAUT, Gaillefontaine",
+    "lat": 49.67846,
+    "lng": 1.648521,
+    "transactions": [
+      {
+        "date": "2025-02-07",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  }
+}

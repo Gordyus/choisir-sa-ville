@@ -1,0 +1,77 @@
+{
+  "4211b097d36b": {
+    "id": "4211b097d36b",
+    "label": "12 RES JACQUES PREVERT, Sainte-Austreberthe",
+    "lat": 49.596707,
+    "lng": 0.978534,
+    "transactions": [
+      {
+        "date": "2021-03-31",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "940cd536b40a": {
+    "id": "940cd536b40a",
+    "label": "5036C LA GAILLARDE, Sainte-Austreberthe",
+    "lat": 49.597943,
+    "lng": 0.978269,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 180700,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "d6182e57e8c9": {
+    "id": "d6182e57e8c9",
+    "label": "5036F LA GAILLARDE, Sainte-Austreberthe",
+    "lat": 49.598148,
+    "lng": 0.9783,
+    "transactions": [
+      {
+        "date": "2022-06-21",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3eb0742212a": {
+    "id": "c3eb0742212a",
+    "label": "32 RUE DE FONTENELLE, Sainte-Austreberthe",
+    "lat": 49.597003,
+    "lng": 0.977919,
+    "transactions": [
+      {
+        "date": "2023-07-12",
+        "priceEur": 194385,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "8965f3a470bf": {
+    "id": "8965f3a470bf",
+    "label": "14 RUE PIERRE CORNEILLE, Sainte-Austreberthe",
+    "lat": 49.598148,
+    "lng": 0.9783,
+    "transactions": [
+      {
+        "date": "2024-08-29",
+        "priceEur": 189700,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

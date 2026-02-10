@@ -1,0 +1,99 @@
+{
+  "6e3b2de93a49": {
+    "id": "6e3b2de93a49",
+    "label": "1505 RUE MARYSE BASTIE, Port-Jérôme-sur-Seine",
+    "lat": 49.484467,
+    "lng": 0.59795,
+    "transactions": [
+      {
+        "date": "2024-11-28",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-26",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "07cfc4925ad7": {
+    "id": "07cfc4925ad7",
+    "label": "1190 RUE MARYSE BASTIE, Port-Jérôme-sur-Seine",
+    "lat": 49.486939,
+    "lng": 0.595552,
+    "transactions": [
+      {
+        "date": "2022-04-20",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e23aa763958": {
+    "id": "5e23aa763958",
+    "label": "1293 RUE MARYSE BASTIE, Port-Jérôme-sur-Seine",
+    "lat": 49.486212,
+    "lng": 0.596797,
+    "transactions": [
+      {
+        "date": "2024-11-14",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "e12f96be2dd6": {
+    "id": "e12f96be2dd6",
+    "label": "1375 RUE MARYSE BASTIE, Port-Jérôme-sur-Seine",
+    "lat": 49.485512,
+    "lng": 0.597176,
+    "transactions": [
+      {
+        "date": "2024-11-28",
+        "priceEur": 229850,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "ebe46bd92fd2": {
+    "id": "ebe46bd92fd2",
+    "label": "9037 RUE MARYSE BASTIE, Port-Jérôme-sur-Seine",
+    "lat": 49.485134,
+    "lng": 0.597741,
+    "transactions": [
+      {
+        "date": "2024-11-28",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad3d26472d40": {
+    "id": "ad3d26472d40",
+    "label": "7 RUE DE BERNE, Port-Jérôme-sur-Seine",
+    "lat": 49.488932,
+    "lng": 0.593816,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 197000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

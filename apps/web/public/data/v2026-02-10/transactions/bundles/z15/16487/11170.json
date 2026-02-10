@@ -1,0 +1,107 @@
+{
+  "2475f72c1ec0": {
+    "id": "2475f72c1ec0",
+    "label": "212 RUE DU CALVAIRE, Authieux-Ratiéville",
+    "lat": 49.592846,
+    "lng": 1.139308,
+    "transactions": [
+      {
+        "date": "2020-08-27",
+        "priceEur": 186000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "e63f19d99d28": {
+    "id": "e63f19d99d28",
+    "label": "5217 RATIEVILLE, Authieux-Ratiéville",
+    "lat": 49.590064,
+    "lng": 1.137342,
+    "transactions": [
+      {
+        "date": "2020-10-01",
+        "priceEur": 226000,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "4649952ed125": {
+    "id": "4649952ed125",
+    "label": "5213 RATIEVILLE, Authieux-Ratiéville",
+    "lat": 49.590956,
+    "lng": 1.13808,
+    "transactions": [
+      {
+        "date": "2021-02-05",
+        "priceEur": 237490,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "df7ac59f059d": {
+    "id": "df7ac59f059d",
+    "label": "173 RUE DE LA MARE, Authieux-Ratiéville",
+    "lat": 49.589788,
+    "lng": 1.137458,
+    "transactions": [
+      {
+        "date": "2022-07-12",
+        "priceEur": 349000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "022d393bb31f": {
+    "id": "022d393bb31f",
+    "label": "83 RUE DE LA HOUSSIETTE, Authieux-Ratiéville",
+    "lat": 49.589777,
+    "lng": 1.135622,
+    "transactions": [
+      {
+        "date": "2023-03-20",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea9ad264b44d": {
+    "id": "ea9ad264b44d",
+    "label": "171 RUE DE LA HOUSSIETTE, Authieux-Ratiéville",
+    "lat": 49.590138,
+    "lng": 1.134272,
+    "transactions": [
+      {
+        "date": "2023-09-08",
+        "priceEur": 289900,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "cca3eb37fdb5": {
+    "id": "cca3eb37fdb5",
+    "label": "266 RUE DE LA FORGE, Authieux-Ratiéville",
+    "lat": 49.591151,
+    "lng": 1.139537,
+    "transactions": [
+      {
+        "date": "2023-11-02",
+        "priceEur": 318000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  }
+}

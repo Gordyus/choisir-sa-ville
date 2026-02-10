@@ -1,0 +1,817 @@
+{
+  "51c8d2329fd1": {
+    "id": "51c8d2329fd1",
+    "label": "32B RUE CAMILLE DESMOULINS, Provin",
+    "lat": 50.509785,
+    "lng": 2.911833,
+    "transactions": [
+      {
+        "date": "2020-07-08",
+        "priceEur": 197500,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad1ae7cdd3d2": {
+    "id": "ad1ae7cdd3d2",
+    "label": "3 RUE LAFAYETTE, Provin",
+    "lat": 50.511591,
+    "lng": 2.916888,
+    "transactions": [
+      {
+        "date": "2020-08-27",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e383355a9e0": {
+    "id": "7e383355a9e0",
+    "label": "31 RUE CAMILLE DESMOULINS, Provin",
+    "lat": 50.509602,
+    "lng": 2.913158,
+    "transactions": [
+      {
+        "date": "2021-11-08",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-04",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b3bc8b2f79f": {
+    "id": "2b3bc8b2f79f",
+    "label": "49B RUE NATIONALE, Provin",
+    "lat": 50.512702,
+    "lng": 2.915494,
+    "transactions": [
+      {
+        "date": "2020-09-23",
+        "priceEur": 122000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "0030d07b7c55": {
+    "id": "0030d07b7c55",
+    "label": "83B RUE NATIONALE, Provin",
+    "lat": 50.51273,
+    "lng": 2.919177,
+    "transactions": [
+      {
+        "date": "2022-12-19",
+        "priceEur": 232700,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-30",
+        "priceEur": 227000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "a468e50ca322": {
+    "id": "a468e50ca322",
+    "label": "57 RUE NATIONALE, Provin",
+    "lat": 50.51262,
+    "lng": 2.915626,
+    "transactions": [
+      {
+        "date": "2020-10-16",
+        "priceEur": 119000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "18afc92a67a2": {
+    "id": "18afc92a67a2",
+    "label": "2 RUE LAFAYETTE, Provin",
+    "lat": 50.512007,
+    "lng": 2.917059,
+    "transactions": [
+      {
+        "date": "2020-10-14",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "82c2bdb45565": {
+    "id": "82c2bdb45565",
+    "label": "2 CLOS SAINT JOSEPH, Provin",
+    "lat": 50.510162,
+    "lng": 2.915982,
+    "transactions": [
+      {
+        "date": "2020-12-01",
+        "priceEur": 318500,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "78b21f5c9eb7": {
+    "id": "78b21f5c9eb7",
+    "label": "363 RUE CAMILLE DESMOULINS, Provin",
+    "lat": 50.50745,
+    "lng": 2.916927,
+    "transactions": [
+      {
+        "date": "2025-01-24",
+        "priceEur": 328000,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-23",
+        "priceEur": 315200,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "556688a61305": {
+    "id": "556688a61305",
+    "label": "3 CLOS SAINT JOSEPH, Provin",
+    "lat": 50.509849,
+    "lng": 2.916066,
+    "transactions": [
+      {
+        "date": "2021-04-23",
+        "priceEur": 315720,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e50d4c7441a": {
+    "id": "2e50d4c7441a",
+    "label": "83A RUE NATIONALE, Provin",
+    "lat": 50.51264,
+    "lng": 2.919019,
+    "transactions": [
+      {
+        "date": "2021-05-03",
+        "priceEur": 226000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2ca7c9b8b9b": {
+    "id": "e2ca7c9b8b9b",
+    "label": "25 RUE CAMILLE DESMOULINS, Provin",
+    "lat": 50.509998,
+    "lng": 2.912266,
+    "transactions": [
+      {
+        "date": "2021-07-05",
+        "priceEur": 227400,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "144952aa6f1f": {
+    "id": "144952aa6f1f",
+    "label": "64 RUE NATIONALE, Provin",
+    "lat": 50.512311,
+    "lng": 2.916872,
+    "transactions": [
+      {
+        "date": "2021-06-28",
+        "priceEur": 234000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "a77e205a3c9e": {
+    "id": "a77e205a3c9e",
+    "label": "11 RUE CARNOT, Provin",
+    "lat": 50.513068,
+    "lng": 2.915196,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 144000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-26",
+        "priceEur": 163900,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "13fbda5ac970": {
+    "id": "13fbda5ac970",
+    "label": "3 RUE HENRI DURRE, Provin",
+    "lat": 50.512071,
+    "lng": 2.917567,
+    "transactions": [
+      {
+        "date": "2021-08-05",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "c34137302194": {
+    "id": "c34137302194",
+    "label": "10 RUE LEON BLUM, Provin",
+    "lat": 50.51315,
+    "lng": 2.913926,
+    "transactions": [
+      {
+        "date": "2021-08-30",
+        "priceEur": 209000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a070827e5ba": {
+    "id": "4a070827e5ba",
+    "label": "4 RUE DU SILO, Provin",
+    "lat": 50.512938,
+    "lng": 2.918856,
+    "transactions": [
+      {
+        "date": "2021-08-27",
+        "priceEur": 288000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "69207e405b9f": {
+    "id": "69207e405b9f",
+    "label": "4 RUE LEON BLUM, Provin",
+    "lat": 50.512873,
+    "lng": 2.913809,
+    "transactions": [
+      {
+        "date": "2025-06-18",
+        "priceEur": 206680,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-17",
+        "priceEur": 228900,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe827eb556e4": {
+    "id": "fe827eb556e4",
+    "label": "308 RUE CAMILLE DESMOULINS, Provin",
+    "lat": 50.507201,
+    "lng": 2.916573,
+    "transactions": [
+      {
+        "date": "2021-10-01",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6d1e4f93c98": {
+    "id": "b6d1e4f93c98",
+    "label": "27 RUE HENRI DURRE, Provin",
+    "lat": 50.511334,
+    "lng": 2.918138,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc289bba0d2f": {
+    "id": "cc289bba0d2f",
+    "label": "17 RUE NATIONALE, Provin",
+    "lat": 50.512564,
+    "lng": 2.912629,
+    "transactions": [
+      {
+        "date": "2021-10-11",
+        "priceEur": 750000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "451a3e11f042": {
+    "id": "451a3e11f042",
+    "label": "43 RUE LAFAYETTE, Provin",
+    "lat": 50.510771,
+    "lng": 2.913058,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 165100,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "b11478aa006d": {
+    "id": "b11478aa006d",
+    "label": "48 RUE CAMILLE DESMOULINS, Provin",
+    "lat": 50.5087,
+    "lng": 2.913498,
+    "transactions": [
+      {
+        "date": "2021-11-02",
+        "priceEur": 263050,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2260f01bbd8": {
+    "id": "a2260f01bbd8",
+    "label": "3 RUE DU SILO, Provin",
+    "lat": 50.512966,
+    "lng": 2.918016,
+    "transactions": [
+      {
+        "date": "2021-11-29",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "d8fc4cc1de52": {
+    "id": "d8fc4cc1de52",
+    "label": "36 RUE NATIONALE, Provin",
+    "lat": 50.512247,
+    "lng": 2.914224,
+    "transactions": [
+      {
+        "date": "2021-11-26",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "37474433e703": {
+    "id": "37474433e703",
+    "label": "151 RUE CAMILLE DESMOULINS, Provin",
+    "lat": 50.508646,
+    "lng": 2.914885,
+    "transactions": [
+      {
+        "date": "2021-12-14",
+        "priceEur": 263550,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0a18aaca98e": {
+    "id": "a0a18aaca98e",
+    "label": "6 RES DOMAINE DU RIEZ, Provin",
+    "lat": 50.513309,
+    "lng": 2.917532,
+    "transactions": [
+      {
+        "date": "2021-11-30",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8844c8ed3f3": {
+    "id": "e8844c8ed3f3",
+    "label": "16 RUE HENRI DURRE, Provin",
+    "lat": 50.511101,
+    "lng": 2.917367,
+    "transactions": [
+      {
+        "date": "2022-01-26",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c55ef83a36a": {
+    "id": "1c55ef83a36a",
+    "label": "37B RUE NATIONALE, Provin",
+    "lat": 50.512891,
+    "lng": 2.914649,
+    "transactions": [
+      {
+        "date": "2022-02-01",
+        "priceEur": 124000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "fa1d893f029b": {
+    "id": "fa1d893f029b",
+    "label": "412 RUE CAMILLE DESMOULINS, Provin",
+    "lat": 50.506528,
+    "lng": 2.917924,
+    "transactions": [
+      {
+        "date": "2022-02-15",
+        "priceEur": 399000,
+        "typeLocal": "Maison",
+        "surfaceM2": 175,
+        "isVefa": false
+      }
+    ]
+  },
+  "e99fe0a98405": {
+    "id": "e99fe0a98405",
+    "label": "412B RUE CAMILLE DESMOULINS, Provin",
+    "lat": 50.506679,
+    "lng": 2.917928,
+    "transactions": [
+      {
+        "date": "2022-02-15",
+        "priceEur": 399000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "9761704e40a4": {
+    "id": "9761704e40a4",
+    "label": "29B RUE CAMILLE DESMOULINS, Provin",
+    "lat": 50.509661,
+    "lng": 2.913066,
+    "transactions": [
+      {
+        "date": "2022-02-18",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "b12b5c8c6589": {
+    "id": "b12b5c8c6589",
+    "label": "29 RUE NATIONALE, Provin",
+    "lat": 50.512677,
+    "lng": 2.914115,
+    "transactions": [
+      {
+        "date": "2022-04-21",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed311fc1b5b5": {
+    "id": "ed311fc1b5b5",
+    "label": "2A RES DOMAINE DU RIEZ, Provin",
+    "lat": 50.513146,
+    "lng": 2.916531,
+    "transactions": [
+      {
+        "date": "2022-04-29",
+        "priceEur": 570000,
+        "typeLocal": "Maison",
+        "surfaceM2": 262,
+        "isVefa": false
+      }
+    ]
+  },
+  "0cd7b9258b80": {
+    "id": "0cd7b9258b80",
+    "label": "14 RUE HENRI DURRE, Provin",
+    "lat": 50.511208,
+    "lng": 2.917437,
+    "transactions": [
+      {
+        "date": "2022-05-16",
+        "priceEur": 217000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "4218a474e08d": {
+    "id": "4218a474e08d",
+    "label": "24 RUE LAFAYETTE, Provin",
+    "lat": 50.511216,
+    "lng": 2.914129,
+    "transactions": [
+      {
+        "date": "2022-05-09",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "288af0200698": {
+    "id": "288af0200698",
+    "label": "10 RUE HENRI DURRE, Provin",
+    "lat": 50.511382,
+    "lng": 2.917142,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "42369fe4a33b": {
+    "id": "42369fe4a33b",
+    "label": "51 RUE NATIONALE, Provin",
+    "lat": 50.512604,
+    "lng": 2.915461,
+    "transactions": [
+      {
+        "date": "2022-07-12",
+        "priceEur": 122600,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "f256716697ca": {
+    "id": "f256716697ca",
+    "label": "59 RUE NATIONALE, Provin",
+    "lat": 50.512653,
+    "lng": 2.91576,
+    "transactions": [
+      {
+        "date": "2022-10-13",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "4abe44161fec": {
+    "id": "4abe44161fec",
+    "label": "65A RUE NATIONALE, Provin",
+    "lat": 50.512854,
+    "lng": 2.91723,
+    "transactions": [
+      {
+        "date": "2022-11-09",
+        "priceEur": 377500,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "f847ec44cc5a": {
+    "id": "f847ec44cc5a",
+    "label": "280 RUE CAMILLE DESMOULINS, Provin",
+    "lat": 50.507059,
+    "lng": 2.915875,
+    "transactions": [
+      {
+        "date": "2022-11-21",
+        "priceEur": 136000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a3da557174d": {
+    "id": "1a3da557174d",
+    "label": "32 RUE NATIONALE, Provin",
+    "lat": 50.511938,
+    "lng": 2.914136,
+    "transactions": [
+      {
+        "date": "2022-12-20",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "ab81fbbea77a": {
+    "id": "ab81fbbea77a",
+    "label": "25 RUE NATIONALE, Provin",
+    "lat": 50.512553,
+    "lng": 2.913821,
+    "transactions": [
+      {
+        "date": "2022-12-09",
+        "priceEur": 288000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "3589ff830fd3": {
+    "id": "3589ff830fd3",
+    "label": "6 RUE NATIONALE, Provin",
+    "lat": 50.512008,
+    "lng": 2.911951,
+    "transactions": [
+      {
+        "date": "2023-02-10",
+        "priceEur": 231000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e9884fce1cd": {
+    "id": "6e9884fce1cd",
+    "label": "21 RUE NATIONALE, Provin",
+    "lat": 50.512602,
+    "lng": 2.913256,
+    "transactions": [
+      {
+        "date": "2023-07-20",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4b6d7e38380": {
+    "id": "b4b6d7e38380",
+    "label": "75 RUE NATIONALE, Provin",
+    "lat": 50.51244,
+    "lng": 2.917882,
+    "transactions": [
+      {
+        "date": "2023-09-15",
+        "priceEur": 152600,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e8c77c324cf": {
+    "id": "2e8c77c324cf",
+    "label": "246 RUE CAMILLE DESMOULINS, Provin",
+    "lat": 50.508037,
+    "lng": 2.915966,
+    "transactions": [
+      {
+        "date": "2024-01-26",
+        "priceEur": 510000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "04ab087d8b82": {
+    "id": "04ab087d8b82",
+    "label": "18 RUE PIERRE MENDES FRANCE, Provin",
+    "lat": 50.511173,
+    "lng": 2.912533,
+    "transactions": [
+      {
+        "date": "2024-12-20",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca7e8475fdd6": {
+    "id": "ca7e8475fdd6",
+    "label": "50 RUE CAMILLE DESMOULINS, Provin",
+    "lat": 50.508773,
+    "lng": 2.913968,
+    "transactions": [
+      {
+        "date": "2024-12-09",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "e761ba6a271b": {
+    "id": "e761ba6a271b",
+    "label": "72 RUE NATIONALE, Provin",
+    "lat": 50.5121,
+    "lng": 2.917881,
+    "transactions": [
+      {
+        "date": "2025-01-10",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "89ba839ed1cb": {
+    "id": "89ba839ed1cb",
+    "label": "19B RUE NATIONALE, Provin",
+    "lat": 50.512405,
+    "lng": 2.912985,
+    "transactions": [
+      {
+        "date": "2025-01-31",
+        "priceEur": 127900,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "2dfdd0e0d665": {
+    "id": "2dfdd0e0d665",
+    "label": "61 RUE DU SILO, Provin",
+    "lat": 50.513307,
+    "lng": 2.921076,
+    "transactions": [
+      {
+        "date": "2025-02-07",
+        "priceEur": 285700,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  }
+}

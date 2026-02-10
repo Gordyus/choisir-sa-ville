@@ -1,0 +1,62 @@
+{
+  "19da052df495": {
+    "id": "19da052df495",
+    "label": "601 RTE DU PAYS DE CAUX, Angerville-l'Orcher",
+    "lat": 49.589838,
+    "lng": 0.293775,
+    "transactions": [
+      {
+        "date": "2020-12-03",
+        "priceEur": 366115,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "f403d54b141f": {
+    "id": "f403d54b141f",
+    "label": "780 RTE DE BLESIMARE, Angerville-l'Orcher",
+    "lat": 49.594206,
+    "lng": 0.29174,
+    "transactions": [
+      {
+        "date": "2021-08-12",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "77a95acb2d9f": {
+    "id": "77a95acb2d9f",
+    "label": "1 RTE DU CHESNAY, Angerville-l'Orcher",
+    "lat": 49.589375,
+    "lng": 0.294842,
+    "transactions": [
+      {
+        "date": "2023-02-20",
+        "priceEur": 173500,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "662e4c88cfb1": {
+    "id": "662e4c88cfb1",
+    "label": "681 RTE DU PAYS DE CAUX, Angerville-l'Orcher",
+    "lat": 49.589847,
+    "lng": 0.29493,
+    "transactions": [
+      {
+        "date": "2025-03-18",
+        "priceEur": 510000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  }
+}

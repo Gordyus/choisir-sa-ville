@@ -1,0 +1,47 @@
+{
+  "e70bc7d33c7c": {
+    "id": "e70bc7d33c7c",
+    "label": "4 RUE DU BOUT MAUDIT, Bourville",
+    "lat": 49.7967,
+    "lng": 0.826354,
+    "transactions": [
+      {
+        "date": "2020-07-15",
+        "priceEur": 271000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "79a899c52fdc": {
+    "id": "79a899c52fdc",
+    "label": "2 RUE DU BOURG, Bourville",
+    "lat": 49.796065,
+    "lng": 0.825952,
+    "transactions": [
+      {
+        "date": "2022-10-21",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "738490ba48e9": {
+    "id": "738490ba48e9",
+    "label": "3 RUE DU BOURG, Bourville",
+    "lat": 49.79603,
+    "lng": 0.824723,
+    "transactions": [
+      {
+        "date": "2024-05-07",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "2490ba987d6a": {
+    "id": "2490ba987d6a",
+    "label": "75 RTE DE WATOU, Steenvoorde",
+    "lat": 50.819203,
+    "lng": 2.601765,
+    "transactions": [
+      {
+        "date": "2020-12-05",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "fe647f3b7594": {
+    "id": "fe647f3b7594",
+    "label": "16 RTE DE WATOU, Steenvoorde",
+    "lat": 50.813354,
+    "lng": 2.599326,
+    "transactions": [
+      {
+        "date": "2024-04-26",
+        "priceEur": 203000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  }
+}

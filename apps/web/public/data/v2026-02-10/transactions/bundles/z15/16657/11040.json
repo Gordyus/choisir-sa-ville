@@ -1,0 +1,62 @@
+{
+  "63cd576c43fe": {
+    "id": "63cd576c43fe",
+    "label": "11 RUE LOUISE DE BETTIGNIES, Phalempin",
+    "lat": 50.512407,
+    "lng": 3.009317,
+    "transactions": [
+      {
+        "date": "2021-04-27",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "d1759d1c4a55": {
+    "id": "d1759d1c4a55",
+    "label": "17 RUE MAURICE SCHUMANN, Phalempin",
+    "lat": 50.512189,
+    "lng": 3.010253,
+    "transactions": [
+      {
+        "date": "2021-09-27",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed03af2432de": {
+    "id": "ed03af2432de",
+    "label": "14 RUE MAURICE SCHUMANN, Phalempin",
+    "lat": 50.512193,
+    "lng": 3.009995,
+    "transactions": [
+      {
+        "date": "2022-03-14",
+        "priceEur": 332000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "b94e0d079601": {
+    "id": "b94e0d079601",
+    "label": "5065 RUE DE LA CROISETTE, Camphin-en-Carembault",
+    "lat": 50.507446,
+    "lng": 3.010192,
+    "transactions": [
+      {
+        "date": "2023-06-22",
+        "priceEur": 341170,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "d1beb9564d44": {
+    "id": "d1beb9564d44",
+    "label": "501A RTE DE DAUBEUF, Angerville-la-Martel",
+    "lat": 49.772695,
+    "lng": 0.518534,
+    "transactions": [
+      {
+        "date": "2022-05-30",
+        "priceEur": 279000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "64b5b4570a7f": {
+    "id": "64b5b4570a7f",
+    "label": "506B IMP DES PERDRIX, Angerville-la-Martel",
+    "lat": 49.774143,
+    "lng": 0.518332,
+    "transactions": [
+      {
+        "date": "2022-10-21",
+        "priceEur": 228500,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  }
+}

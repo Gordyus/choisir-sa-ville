@@ -1,0 +1,62 @@
+{
+  "3a31eb35a574": {
+    "id": "3a31eb35a574",
+    "label": "559 RUE DES PRES, Cleuville",
+    "lat": 49.710676,
+    "lng": 0.631477,
+    "transactions": [
+      {
+        "date": "2020-12-15",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "818eb7ddadd1": {
+    "id": "818eb7ddadd1",
+    "label": "1043 RTE DU CHATEAU, Cleuville",
+    "lat": 49.713382,
+    "lng": 0.637113,
+    "transactions": [
+      {
+        "date": "2021-08-12",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5da3c8430ff": {
+    "id": "b5da3c8430ff",
+    "label": "211 RUE DE L EGLISE, Cleuville",
+    "lat": 49.710287,
+    "lng": 0.631812,
+    "transactions": [
+      {
+        "date": "2022-06-11",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "52e3ff099692": {
+    "id": "52e3ff099692",
+    "label": "196 RUE DE L EGLISE, Cleuville",
+    "lat": 49.710393,
+    "lng": 0.632742,
+    "transactions": [
+      {
+        "date": "2022-08-05",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

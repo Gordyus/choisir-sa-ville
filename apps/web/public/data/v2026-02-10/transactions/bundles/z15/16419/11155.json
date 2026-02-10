@@ -1,0 +1,62 @@
+{
+  "ad030b42ea92": {
+    "id": "ad030b42ea92",
+    "label": "2 RTE D'AUBERVILLE, Tourville-les-Ifs",
+    "lat": 49.701905,
+    "lng": 0.388215,
+    "transactions": [
+      {
+        "date": "2021-06-01",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8a87bb1d36c": {
+    "id": "e8a87bb1d36c",
+    "label": "11 RTE DES IFS, Tourville-les-Ifs",
+    "lat": 49.702324,
+    "lng": 0.388562,
+    "transactions": [
+      {
+        "date": "2021-06-09",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "cfaa9f4c6239": {
+    "id": "cfaa9f4c6239",
+    "label": "1 RTE D'AUBERVILLE, Tourville-les-Ifs",
+    "lat": 49.702033,
+    "lng": 0.388489,
+    "transactions": [
+      {
+        "date": "2023-05-09",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c81423ec72b": {
+    "id": "8c81423ec72b",
+    "label": "9004 RTE DES IFS, Tourville-les-Ifs",
+    "lat": 49.698362,
+    "lng": 0.393933,
+    "transactions": [
+      {
+        "date": "2023-11-29",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

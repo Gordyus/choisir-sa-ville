@@ -1,0 +1,32 @@
+{
+  "72c95a53ca03": {
+    "id": "72c95a53ca03",
+    "label": "1589 RUE DU PETIT BOIS, Vibeuf",
+    "lat": 49.688814,
+    "lng": 0.924303,
+    "transactions": [
+      {
+        "date": "2022-07-26",
+        "priceEur": 373600,
+        "typeLocal": "Maison",
+        "surfaceM2": 214,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e6030814ec7": {
+    "id": "7e6030814ec7",
+    "label": "1577 RUE DU PETIT BOIS, Vibeuf",
+    "lat": 49.688124,
+    "lng": 0.924331,
+    "transactions": [
+      {
+        "date": "2024-08-12",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  }
+}

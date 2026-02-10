@@ -1,0 +1,107 @@
+{
+  "e9d5eb0fe584": {
+    "id": "e9d5eb0fe584",
+    "label": "5220 LE FRESNE HAMEAU, Saint-Pierre-en-Val",
+    "lat": 50.006429,
+    "lng": 1.438195,
+    "transactions": [
+      {
+        "date": "2020-10-22",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "2cd65815b4e2": {
+    "id": "2cd65815b4e2",
+    "label": "76 RUE DU FRESNE, Saint-Pierre-en-Val",
+    "lat": 50.007253,
+    "lng": 1.437387,
+    "transactions": [
+      {
+        "date": "2021-02-25",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "aca4f3ac69a6": {
+    "id": "aca4f3ac69a6",
+    "label": "5129 LE FRESNE HAMEAU, Saint-Pierre-en-Val",
+    "lat": 50.005422,
+    "lng": 1.436603,
+    "transactions": [
+      {
+        "date": "2021-05-06",
+        "priceEur": 116300,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "fae28b5e4389": {
+    "id": "fae28b5e4389",
+    "label": "5194 LE FRESNE HAMEAU, Saint-Pierre-en-Val",
+    "lat": 50.006956,
+    "lng": 1.436581,
+    "transactions": [
+      {
+        "date": "2021-08-13",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "c90ceef348e6": {
+    "id": "c90ceef348e6",
+    "label": "1 LE FRESNE HAMEAU, Saint-Pierre-en-Val",
+    "lat": 50.007273,
+    "lng": 1.434975,
+    "transactions": [
+      {
+        "date": "2021-09-10",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e7af5abc131": {
+    "id": "1e7af5abc131",
+    "label": "72B RUE DU FRESNE, Saint-Pierre-en-Val",
+    "lat": 50.007718,
+    "lng": 1.437556,
+    "transactions": [
+      {
+        "date": "2024-05-15",
+        "priceEur": 185800,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "093364e30342": {
+    "id": "093364e30342",
+    "label": "5135 LE FRESNE HAMEAU, Saint-Pierre-en-Val",
+    "lat": 50.005275,
+    "lng": 1.437335,
+    "transactions": [
+      {
+        "date": "2024-09-17",
+        "priceEur": 116000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  }
+}

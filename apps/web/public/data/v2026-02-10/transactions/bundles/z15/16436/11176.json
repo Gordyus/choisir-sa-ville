@@ -1,0 +1,32 @@
+{
+  "329cecae4990": {
+    "id": "329cecae4990",
+    "label": "7 CHE DU CHATEAU D'EAU, Lintot",
+    "lat": 49.551285,
+    "lng": 0.581791,
+    "transactions": [
+      {
+        "date": "2021-02-23",
+        "priceEur": 247130,
+        "typeLocal": "Maison",
+        "surfaceM2": 179,
+        "isVefa": false
+      }
+    ]
+  },
+  "e7b7ca2b3f2b": {
+    "id": "e7b7ca2b3f2b",
+    "label": "5016 LA POINTE, Lintot",
+    "lat": 49.552005,
+    "lng": 0.57145,
+    "transactions": [
+      {
+        "date": "2021-10-19",
+        "priceEur": 68000,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  }
+}

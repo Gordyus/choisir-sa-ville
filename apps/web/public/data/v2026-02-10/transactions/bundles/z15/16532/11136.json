@@ -1,0 +1,32 @@
+{
+  "a1016ad9dac7": {
+    "id": "a1016ad9dac7",
+    "label": "34 RUE DU ROUAGE, Saint-Léger-aux-Bois",
+    "lat": 49.8319,
+    "lng": 1.630054,
+    "transactions": [
+      {
+        "date": "2022-04-02",
+        "priceEur": 105100,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ae79836ae5c": {
+    "id": "3ae79836ae5c",
+    "label": "32B RUE DU ROUAGE, Saint-Léger-aux-Bois",
+    "lat": 49.83183,
+    "lng": 1.629647,
+    "transactions": [
+      {
+        "date": "2023-06-03",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

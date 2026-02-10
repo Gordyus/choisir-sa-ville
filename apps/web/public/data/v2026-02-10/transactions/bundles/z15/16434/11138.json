@@ -1,0 +1,107 @@
+{
+  "a0067a43634a": {
+    "id": "a0067a43634a",
+    "label": "3 RTE D AUBERVILLE, Saint-Martin-aux-Buneaux",
+    "lat": 49.823584,
+    "lng": 0.556255,
+    "transactions": [
+      {
+        "date": "2021-08-19",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0337e1d7b1f": {
+    "id": "e0337e1d7b1f",
+    "label": "4 RTE D AUBERVILLE, Saint-Martin-aux-Buneaux",
+    "lat": 49.823428,
+    "lng": 0.557003,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "02b8a3aa0d4a": {
+    "id": "02b8a3aa0d4a",
+    "label": "16 RUE DE LA COUR DES CHAMPS, Saint-Martin-aux-Buneaux",
+    "lat": 49.820662,
+    "lng": 0.55933,
+    "transactions": [
+      {
+        "date": "2021-12-23",
+        "priceEur": 290650,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ac0a242c5c9": {
+    "id": "3ac0a242c5c9",
+    "label": "1B RUE DU MOULIN, Saint-Martin-aux-Buneaux",
+    "lat": 49.82379,
+    "lng": 0.552129,
+    "transactions": [
+      {
+        "date": "2022-01-17",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "6f51a3b80a4e": {
+    "id": "6f51a3b80a4e",
+    "label": "9 RUE DU MOULIN, Saint-Martin-aux-Buneaux",
+    "lat": 49.822651,
+    "lng": 0.553411,
+    "transactions": [
+      {
+        "date": "2022-07-18",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "b2a7db1137c1": {
+    "id": "b2a7db1137c1",
+    "label": "14 RUE DE LA FERME SEIGNEUR, Saint-Martin-aux-Buneaux",
+    "lat": 49.822482,
+    "lng": 0.549535,
+    "transactions": [
+      {
+        "date": "2022-12-09",
+        "priceEur": 253000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "3becdcb04278": {
+    "id": "3becdcb04278",
+    "label": "5 RTE D AUBERVILLE, Saint-Martin-aux-Buneaux",
+    "lat": 49.823643,
+    "lng": 0.556408,
+    "transactions": [
+      {
+        "date": "2023-12-13",
+        "priceEur": 118750,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

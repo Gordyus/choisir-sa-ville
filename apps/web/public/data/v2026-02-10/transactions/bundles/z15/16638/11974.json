@@ -1,0 +1,39 @@
+{
+  "74f665f8cf80": {
+    "id": "74f665f8cf80",
+    "label": "5464F RTE DE BORDEVIEILLE, Riols",
+    "lat": 43.527877,
+    "lng": 2.797112,
+    "transactions": [
+      {
+        "date": "2021-09-29",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 32,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e654ebb7881": {
+    "id": "7e654ebb7881",
+    "label": "5652F RTE DE BORDEVIEILLE, Riols",
+    "lat": 43.528239,
+    "lng": 2.797235,
+    "transactions": [
+      {
+        "date": "2021-09-29",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-29",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  }
+}

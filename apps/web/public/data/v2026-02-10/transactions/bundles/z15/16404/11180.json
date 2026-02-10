@@ -1,0 +1,645 @@
+{
+  "c4f95ec7ba3b": {
+    "id": "c4f95ec7ba3b",
+    "label": "7 RUE JULIEN SERON, Gonfreville-l'Orcher",
+    "lat": 49.523159,
+    "lng": 0.225868,
+    "transactions": [
+      {
+        "date": "2020-09-14",
+        "priceEur": 223000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7e805825012": {
+    "id": "c7e805825012",
+    "label": "9002 CITE CAMUS, Gonfreville-l'Orcher",
+    "lat": 49.523285,
+    "lng": 0.222423,
+    "transactions": [
+      {
+        "date": "2023-08-11",
+        "priceEur": 164000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-11",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "129e618e3343": {
+    "id": "129e618e3343",
+    "label": "9012 CITE CAMUS, Gonfreville-l'Orcher",
+    "lat": 49.523285,
+    "lng": 0.222423,
+    "transactions": [
+      {
+        "date": "2020-11-02",
+        "priceEur": 152300,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "785c44b85c5e": {
+    "id": "785c44b85c5e",
+    "label": "2 RUE JACQUES PREVERT, Gonfreville-l'Orcher",
+    "lat": 49.523996,
+    "lng": 0.230345,
+    "transactions": [
+      {
+        "date": "2020-11-16",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "63214e47a524": {
+    "id": "63214e47a524",
+    "label": "9059 VALLEE DE GOURNAY, Gonfreville-l'Orcher",
+    "lat": 49.523323,
+    "lng": 0.228131,
+    "transactions": [
+      {
+        "date": "2020-11-24",
+        "priceEur": 273838,
+        "typeLocal": "Maison",
+        "surfaceM2": 183,
+        "isVefa": false
+      }
+    ]
+  },
+  "d01c94b8b613": {
+    "id": "d01c94b8b613",
+    "label": "13 RUE JACQUES PREVERT, Gonfreville-l'Orcher",
+    "lat": 49.523638,
+    "lng": 0.229876,
+    "transactions": [
+      {
+        "date": "2020-11-12",
+        "priceEur": 223000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9f4946c5c42": {
+    "id": "a9f4946c5c42",
+    "label": "13 RUE JACQUES BREL, Gonfreville-l'Orcher",
+    "lat": 49.521697,
+    "lng": 0.225632,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 269000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "58149f38cac5": {
+    "id": "58149f38cac5",
+    "label": "73 ALL DES MESANGES, Gonfreville-l'Orcher",
+    "lat": 49.524308,
+    "lng": 0.222824,
+    "transactions": [
+      {
+        "date": "2021-01-18",
+        "priceEur": 136000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f1fa1e95439": {
+    "id": "1f1fa1e95439",
+    "label": "51 ALL DES GRIVES, Gonfreville-l'Orcher",
+    "lat": 49.524308,
+    "lng": 0.222824,
+    "transactions": [
+      {
+        "date": "2021-02-19",
+        "priceEur": 98000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "d9bea5d5e96f": {
+    "id": "d9bea5d5e96f",
+    "label": "5 RUE DES CRESSONNIERES, Gonfreville-l'Orcher",
+    "lat": 49.522707,
+    "lng": 0.222161,
+    "transactions": [
+      {
+        "date": "2021-06-07",
+        "priceEur": 242000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "72e7f03f72f5": {
+    "id": "72e7f03f72f5",
+    "label": "155 CITE CAMUS, Gonfreville-l'Orcher",
+    "lat": 49.523285,
+    "lng": 0.222423,
+    "transactions": [
+      {
+        "date": "2021-06-21",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "11f3276f2664": {
+    "id": "11f3276f2664",
+    "label": "75 ALL DES MESANGES, Gonfreville-l'Orcher",
+    "lat": 49.524308,
+    "lng": 0.222824,
+    "transactions": [
+      {
+        "date": "2021-05-31",
+        "priceEur": 112500,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3b135b63490": {
+    "id": "a3b135b63490",
+    "label": "2 VALLEE DE GOURNAY, Gonfreville-l'Orcher",
+    "lat": 49.521972,
+    "lng": 0.22094,
+    "transactions": [
+      {
+        "date": "2021-06-24",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d6cf276ed71": {
+    "id": "1d6cf276ed71",
+    "label": "13 ALL DES ALOUETTES, Gonfreville-l'Orcher",
+    "lat": 49.524308,
+    "lng": 0.222824,
+    "transactions": [
+      {
+        "date": "2021-07-12",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f92401ea37d": {
+    "id": "4f92401ea37d",
+    "label": "9011 RTE DE ST LAURENT, Gonfreville-l'Orcher",
+    "lat": 49.523469,
+    "lng": 0.220573,
+    "transactions": [
+      {
+        "date": "2021-09-06",
+        "priceEur": 178000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "758768578ea5": {
+    "id": "758768578ea5",
+    "label": "10 RTE DE ST LAURENT, Gonfreville-l'Orcher",
+    "lat": 49.523064,
+    "lng": 0.220846,
+    "transactions": [
+      {
+        "date": "2021-10-04",
+        "priceEur": 155000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-04",
+        "priceEur": 155000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "37df96fdbc98": {
+    "id": "37df96fdbc98",
+    "label": "63 ALL DES HIRONDELLES, Gonfreville-l'Orcher",
+    "lat": 49.524308,
+    "lng": 0.222824,
+    "transactions": [
+      {
+        "date": "2021-11-15",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "f878d646c151": {
+    "id": "f878d646c151",
+    "label": "9 CITE HAUGUEL, Gonfreville-l'Orcher",
+    "lat": 49.524157,
+    "lng": 0.22949,
+    "transactions": [
+      {
+        "date": "2021-12-27",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e0cf62de3c6": {
+    "id": "3e0cf62de3c6",
+    "label": "9 RUE DE LA RIVIERE, Gonfreville-l'Orcher",
+    "lat": 49.523613,
+    "lng": 0.227706,
+    "transactions": [
+      {
+        "date": "2022-04-12",
+        "priceEur": 252000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "61cd165f2488": {
+    "id": "61cd165f2488",
+    "label": "9006 CITE CAMUS, Gonfreville-l'Orcher",
+    "lat": 49.523285,
+    "lng": 0.222423,
+    "transactions": [
+      {
+        "date": "2022-05-25",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "554e6e49e2d3": {
+    "id": "554e6e49e2d3",
+    "label": "45 ALL DES FAUVETTES, Gonfreville-l'Orcher",
+    "lat": 49.524308,
+    "lng": 0.222824,
+    "transactions": [
+      {
+        "date": "2022-05-19",
+        "priceEur": 144000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ada067c2a16": {
+    "id": "6ada067c2a16",
+    "label": "55 ALL DES GRIVES, Gonfreville-l'Orcher",
+    "lat": 49.524308,
+    "lng": 0.222824,
+    "transactions": [
+      {
+        "date": "2024-03-12",
+        "priceEur": 171850,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-03",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d77674037d0": {
+    "id": "6d77674037d0",
+    "label": "52 ALL DES GRIVES, Gonfreville-l'Orcher",
+    "lat": 49.524308,
+    "lng": 0.222824,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f8308fb9b2a": {
+    "id": "2f8308fb9b2a",
+    "label": "102 ALL DES ROSSIGNOLS, Gonfreville-l'Orcher",
+    "lat": 49.524308,
+    "lng": 0.222824,
+    "transactions": [
+      {
+        "date": "2022-08-26",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "eb88408067ae": {
+    "id": "eb88408067ae",
+    "label": "96 ALL DES ROITELETS, Gonfreville-l'Orcher",
+    "lat": 49.524308,
+    "lng": 0.222824,
+    "transactions": [
+      {
+        "date": "2022-10-28",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f91b14e85df": {
+    "id": "1f91b14e85df",
+    "label": "9003 CITE CAMUS, Gonfreville-l'Orcher",
+    "lat": 49.523285,
+    "lng": 0.222423,
+    "transactions": [
+      {
+        "date": "2023-01-17",
+        "priceEur": 133000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "c68cbc0cf7b2": {
+    "id": "c68cbc0cf7b2",
+    "label": "9068 VALLEE DE GOURNAY, Gonfreville-l'Orcher",
+    "lat": 49.523239,
+    "lng": 0.227641,
+    "transactions": [
+      {
+        "date": "2023-01-24",
+        "priceEur": 276000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b0b7eaefab4": {
+    "id": "4b0b7eaefab4",
+    "label": "148 CITE CAMUS, Gonfreville-l'Orcher",
+    "lat": 49.523285,
+    "lng": 0.222423,
+    "transactions": [
+      {
+        "date": "2023-02-27",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "29a1b6c82462": {
+    "id": "29a1b6c82462",
+    "label": "81 ALL DES PINSONS, Gonfreville-l'Orcher",
+    "lat": 49.524308,
+    "lng": 0.222824,
+    "transactions": [
+      {
+        "date": "2023-11-02",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "ae7221326cbd": {
+    "id": "ae7221326cbd",
+    "label": "9010 CITE CAMUS, Gonfreville-l'Orcher",
+    "lat": 49.523285,
+    "lng": 0.222423,
+    "transactions": [
+      {
+        "date": "2023-11-09",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "20af4815612f": {
+    "id": "20af4815612f",
+    "label": "8 RTE DE ST LAURENT, Gonfreville-l'Orcher",
+    "lat": 49.523064,
+    "lng": 0.220846,
+    "transactions": [
+      {
+        "date": "2023-12-26",
+        "priceEur": 268500,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "5fad23f86389": {
+    "id": "5fad23f86389",
+    "label": "9005 CITE CAMUS, Gonfreville-l'Orcher",
+    "lat": 49.523285,
+    "lng": 0.222423,
+    "transactions": [
+      {
+        "date": "2024-03-25",
+        "priceEur": 104000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "0a9b2e6a4224": {
+    "id": "0a9b2e6a4224",
+    "label": "33 ALL DES CIGOGNES, Gonfreville-l'Orcher",
+    "lat": 49.524308,
+    "lng": 0.222824,
+    "transactions": [
+      {
+        "date": "2024-04-17",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "0217cc467817": {
+    "id": "0217cc467817",
+    "label": "9101 HAMEAU DE GOURNAY, Gonfreville-l'Orcher",
+    "lat": 49.522283,
+    "lng": 0.220177,
+    "transactions": [
+      {
+        "date": "2024-06-07",
+        "priceEur": 262000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ffd81555ae2": {
+    "id": "0ffd81555ae2",
+    "label": "3 RUE DE LA VALLEE, Gonfreville-l'Orcher",
+    "lat": 49.521871,
+    "lng": 0.220688,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "c56153f9f30d": {
+    "id": "c56153f9f30d",
+    "label": "70 ALL DES MESANGES, Gonfreville-l'Orcher",
+    "lat": 49.524308,
+    "lng": 0.222824,
+    "transactions": [
+      {
+        "date": "2024-08-28",
+        "priceEur": 186500,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "a54344fd6d9a": {
+    "id": "a54344fd6d9a",
+    "label": "90 ALL DES ROITELETS, Gonfreville-l'Orcher",
+    "lat": 49.524308,
+    "lng": 0.222824,
+    "transactions": [
+      {
+        "date": "2025-03-17",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-17",
+        "priceEur": 74000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "f225fc948adc": {
+    "id": "f225fc948adc",
+    "label": "7 CITE HAUGUEL, Gonfreville-l'Orcher",
+    "lat": 49.524157,
+    "lng": 0.22949,
+    "transactions": [
+      {
+        "date": "2025-01-28",
+        "priceEur": 82500,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "2ee4e79a122d": {
+    "id": "2ee4e79a122d",
+    "label": "10 RUE DES CRESSONNIERES, Gonfreville-l'Orcher",
+    "lat": 49.522411,
+    "lng": 0.221576,
+    "transactions": [
+      {
+        "date": "2025-01-16",
+        "priceEur": 171000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6e67b886ceb": {
+    "id": "b6e67b886ceb",
+    "label": "92 ALL DES ROITELETS, Gonfreville-l'Orcher",
+    "lat": 49.524308,
+    "lng": 0.222824,
+    "transactions": [
+      {
+        "date": "2025-03-17",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc83d0de4735": {
+    "id": "cc83d0de4735",
+    "label": "19 RUE JACQUES BREL, Gonfreville-l'Orcher",
+    "lat": 49.521221,
+    "lng": 0.226409,
+    "transactions": [
+      {
+        "date": "2025-04-03",
+        "priceEur": 268700,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  }
+}

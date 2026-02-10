@@ -1,0 +1,32 @@
+{
+  "0d2c7517956d": {
+    "id": "0d2c7517956d",
+    "label": "1 ALL DES MESANGES, Notre-Dame-de-Bondeville",
+    "lat": 49.487775,
+    "lng": 1.065674,
+    "transactions": [
+      {
+        "date": "2022-05-30",
+        "priceEur": 215700,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ca8faae823d": {
+    "id": "0ca8faae823d",
+    "label": "6 ALL DES MESANGES, Notre-Dame-de-Bondeville",
+    "lat": 49.48752,
+    "lng": 1.06603,
+    "transactions": [
+      {
+        "date": "2024-09-11",
+        "priceEur": 228000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

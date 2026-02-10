@@ -1,0 +1,47 @@
+{
+  "9985e87357be": {
+    "id": "9985e87357be",
+    "label": "843 RTE DE L'EGLISE, Pommeréval",
+    "lat": 49.739888,
+    "lng": 1.316554,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9f43af263a7": {
+    "id": "a9f43af263a7",
+    "label": "1237 RTE DES TROIS MAISONS, Pommeréval",
+    "lat": 49.745039,
+    "lng": 1.313127,
+    "transactions": [
+      {
+        "date": "2022-07-13",
+        "priceEur": 220900,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "796c067bed3e": {
+    "id": "796c067bed3e",
+    "label": "881 RTE DE L'EGLISE, Pommeréval",
+    "lat": 49.739952,
+    "lng": 1.31774,
+    "transactions": [
+      {
+        "date": "2023-08-22",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  }
+}

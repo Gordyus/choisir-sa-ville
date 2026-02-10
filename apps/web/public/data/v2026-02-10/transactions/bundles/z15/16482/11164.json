@@ -1,0 +1,47 @@
+{
+  "0b4b4de7b27f": {
+    "id": "0b4b4de7b27f",
+    "label": "76 RTE DE L'EGLISE, La Houssaye-Béranger",
+    "lat": 49.63212,
+    "lng": 1.082742,
+    "transactions": [
+      {
+        "date": "2020-12-16",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "b97b66f916a9": {
+    "id": "b97b66f916a9",
+    "label": "5047 LA HOUSSAYE, La Houssaye-Béranger",
+    "lat": 49.632421,
+    "lng": 1.083298,
+    "transactions": [
+      {
+        "date": "2021-05-31",
+        "priceEur": 114000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "398404aa0838": {
+    "id": "398404aa0838",
+    "label": "5057 LA HOUSSAYE, La Houssaye-Béranger",
+    "lat": 49.633626,
+    "lng": 1.081001,
+    "transactions": [
+      {
+        "date": "2022-07-18",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

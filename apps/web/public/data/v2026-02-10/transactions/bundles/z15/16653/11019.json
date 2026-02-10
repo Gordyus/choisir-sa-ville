@@ -1,0 +1,92 @@
+{
+  "15004a4778a1": {
+    "id": "15004a4778a1",
+    "label": "1313 RUE CHARLES DE GAULLE, Prémesques",
+    "lat": 50.657709,
+    "lng": 2.960042,
+    "transactions": [
+      {
+        "date": "2021-01-04",
+        "priceEur": 700615,
+        "typeLocal": "Maison",
+        "surfaceM2": 184,
+        "isVefa": false
+      }
+    ]
+  },
+  "379441fa69b2": {
+    "id": "379441fa69b2",
+    "label": "66 RUE DU COUVENT, Prémesques",
+    "lat": 50.656628,
+    "lng": 2.955336,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 675000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5daccb13151": {
+    "id": "a5daccb13151",
+    "label": "1040B RUE CHARLES DE GAULLE, Prémesques",
+    "lat": 50.656616,
+    "lng": 2.956025,
+    "transactions": [
+      {
+        "date": "2023-02-24",
+        "priceEur": 415000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd51b0414b2f": {
+    "id": "fd51b0414b2f",
+    "label": "60 RUE DE VERDUN, Prémesques",
+    "lat": 50.659304,
+    "lng": 2.959252,
+    "transactions": [
+      {
+        "date": "2024-02-27",
+        "priceEur": 409550,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "443f2663e947": {
+    "id": "443f2663e947",
+    "label": "20 DOMAINE DE LA FERME, Prémesques",
+    "lat": 50.654712,
+    "lng": 2.955382,
+    "transactions": [
+      {
+        "date": "2024-10-25",
+        "priceEur": 302200,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "af5a7fdaa53f": {
+    "id": "af5a7fdaa53f",
+    "label": "1 ALL DE SENARMONT, Prémesques",
+    "lat": 50.659562,
+    "lng": 2.956849,
+    "transactions": [
+      {
+        "date": "2025-04-17",
+        "priceEur": 562400,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  }
+}

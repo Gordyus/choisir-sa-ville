@@ -1,0 +1,47 @@
+{
+  "a4656f0088cc": {
+    "id": "a4656f0088cc",
+    "label": "204 RUE DU CHATEAU CR7, Quaëdypre",
+    "lat": 50.939317,
+    "lng": 2.437385,
+    "transactions": [
+      {
+        "date": "2021-04-22",
+        "priceEur": 156087.8,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "5856006d05cc": {
+    "id": "5856006d05cc",
+    "label": "1499 D RD 916, Quaëdypre",
+    "lat": 50.937675,
+    "lng": 2.435455,
+    "transactions": [
+      {
+        "date": "2024-03-08",
+        "priceEur": 340000,
+        "typeLocal": "Maison",
+        "surfaceM2": 215,
+        "isVefa": false
+      }
+    ]
+  },
+  "f03e5c644f23": {
+    "id": "f03e5c644f23",
+    "label": "104 RUE DU CHATEAU CR7, Quaëdypre",
+    "lat": 50.937949,
+    "lng": 2.436102,
+    "transactions": [
+      {
+        "date": "2025-04-18",
+        "priceEur": 382000,
+        "typeLocal": "Maison",
+        "surfaceM2": 195,
+        "isVefa": false
+      }
+    ]
+  }
+}

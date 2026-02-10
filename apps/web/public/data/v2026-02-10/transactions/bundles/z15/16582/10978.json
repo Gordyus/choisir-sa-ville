@@ -1,0 +1,67 @@
+{
+  "b4839b18e8e4": {
+    "id": "b4839b18e8e4",
+    "label": "11 RUE DU CHATEAU, Bourbourg",
+    "lat": 50.938045,
+    "lng": 2.185744,
+    "transactions": [
+      {
+        "date": "2022-11-04",
+        "priceEur": 755000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 31,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-04",
+        "priceEur": 755000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-04",
+        "priceEur": 755000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 36,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-04",
+        "priceEur": 755000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 27,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-04",
+        "priceEur": 755000,
+        "typeLocal": "Maison",
+        "surfaceM2": 161,
+        "isVefa": false
+      },
+      {
+        "date": "2022-11-04",
+        "priceEur": 755000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ba6006d037f": {
+    "id": "0ba6006d037f",
+    "label": "960 RTE DU GUINDAL, Bourbourg",
+    "lat": 50.944432,
+    "lng": 2.179924,
+    "transactions": [
+      {
+        "date": "2024-08-21",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 164,
+        "isVefa": false
+      }
+    ]
+  }
+}

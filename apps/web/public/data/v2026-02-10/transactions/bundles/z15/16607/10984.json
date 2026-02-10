@@ -1,0 +1,61 @@
+{
+  "d77be6e5158e": {
+    "id": "d77be6e5158e",
+    "label": "1358 RUE DE BERGUES, Wormhout",
+    "lat": 50.896666,
+    "lng": 2.460856,
+    "transactions": [
+      {
+        "date": "2020-11-20",
+        "priceEur": 247000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "0cf647abee42": {
+    "id": "0cf647abee42",
+    "label": "461 RTE D'ESQUELBECQ-LA BELLE VUE, Wormhout",
+    "lat": 50.902533,
+    "lng": 2.450822,
+    "transactions": [
+      {
+        "date": "2023-12-21",
+        "priceEur": 346200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 153,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-21",
+        "priceEur": 346200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 48,
+        "isVefa": false
+      },
+      {
+        "date": "2023-12-21",
+        "priceEur": 346200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "c98769a3635c": {
+    "id": "c98769a3635c",
+    "label": "108 RUE LUCIEN BELLVERT, Wormhout",
+    "lat": 50.900417,
+    "lng": 2.455503,
+    "transactions": [
+      {
+        "date": "2024-05-23",
+        "priceEur": 307000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  }
+}

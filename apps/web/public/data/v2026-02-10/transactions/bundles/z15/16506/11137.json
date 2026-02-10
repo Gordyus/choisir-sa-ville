@@ -1,0 +1,77 @@
+{
+  "82b83f28188c": {
+    "id": "82b83f28188c",
+    "label": "80 GR GRAND RUE DE NORMANDIE, Sainte-Agathe-d'Aliermont",
+    "lat": 49.824533,
+    "lng": 1.340356,
+    "transactions": [
+      {
+        "date": "2021-04-17",
+        "priceEur": 63000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "af92a4d01cf2": {
+    "id": "af92a4d01cf2",
+    "label": "66 GR GRAND RUE DE NORMANDIE, Sainte-Agathe-d'Aliermont",
+    "lat": 49.823813,
+    "lng": 1.343408,
+    "transactions": [
+      {
+        "date": "2021-09-08",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c4717b442c9": {
+    "id": "7c4717b442c9",
+    "label": "70 GR GRAND RUE DE NORMANDIE, Sainte-Agathe-d'Aliermont",
+    "lat": 49.824037,
+    "lng": 1.342232,
+    "transactions": [
+      {
+        "date": "2022-09-07",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5d4a38dce12": {
+    "id": "d5d4a38dce12",
+    "label": "72 GR GRAND RUE DE NORMANDIE, Sainte-Agathe-d'Aliermont",
+    "lat": 49.824143,
+    "lng": 1.341922,
+    "transactions": [
+      {
+        "date": "2024-12-14",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "89ec8280f870": {
+    "id": "89ec8280f870",
+    "label": "68 GR GRAND RUE DE NORMANDIE, Sainte-Agathe-d'Aliermont",
+    "lat": 49.82397,
+    "lng": 1.342679,
+    "transactions": [
+      {
+        "date": "2024-12-20",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  }
+}

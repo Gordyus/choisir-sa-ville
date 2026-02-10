@@ -1,0 +1,32 @@
+{
+  "5fbecde2e103": {
+    "id": "5fbecde2e103",
+    "label": "5072 LE BOURG - CRESSY, Val-de-Scie",
+    "lat": 49.724069,
+    "lng": 1.161994,
+    "transactions": [
+      {
+        "date": "2020-10-16",
+        "priceEur": 164200,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e92dcbb82e0": {
+    "id": "1e92dcbb82e0",
+    "label": "119 RTE D AUFFAY - CRESSY, Val-de-Scie",
+    "lat": 49.722347,
+    "lng": 1.163565,
+    "transactions": [
+      {
+        "date": "2022-06-29",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  }
+}

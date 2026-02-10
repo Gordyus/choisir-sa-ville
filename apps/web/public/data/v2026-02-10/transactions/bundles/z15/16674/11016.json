@@ -1,0 +1,3409 @@
+{
+  "afd6eb5e367d": {
+    "id": "afd6eb5e367d",
+    "label": "184 RUE DU CHEMIN NEUF, Roubaix",
+    "lat": 50.676074,
+    "lng": 3.192669,
+    "transactions": [
+      {
+        "date": "2020-07-15",
+        "priceEur": 323550,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "655416c79615": {
+    "id": "655416c79615",
+    "label": "6 RUE BELLEVUE, Roubaix",
+    "lat": 50.680786,
+    "lng": 3.187324,
+    "transactions": [
+      {
+        "date": "2020-07-20",
+        "priceEur": 73000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "a8dd5f55d4c7": {
+    "id": "a8dd5f55d4c7",
+    "label": "23 RUE PAUL WANTE, Roubaix",
+    "lat": 50.677207,
+    "lng": 3.187531,
+    "transactions": [
+      {
+        "date": "2020-07-30",
+        "priceEur": 219600,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "b909f0b6d1eb": {
+    "id": "b909f0b6d1eb",
+    "label": "28 AV LINNE, Roubaix",
+    "lat": 50.680747,
+    "lng": 3.191888,
+    "transactions": [
+      {
+        "date": "2020-08-07",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "4fb1f33695a3": {
+    "id": "4fb1f33695a3",
+    "label": "9 VC FOURNIER RUE PAUL WANTE, Roubaix",
+    "lat": 50.677127,
+    "lng": 3.186141,
+    "transactions": [
+      {
+        "date": "2020-07-30",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "61216885c17d": {
+    "id": "61216885c17d",
+    "label": "194 BD DE REIMS, Roubaix",
+    "lat": 50.679178,
+    "lng": 3.188601,
+    "transactions": [
+      {
+        "date": "2020-08-24",
+        "priceEur": 290250,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "a670df65b5b8": {
+    "id": "a670df65b5b8",
+    "label": "9003 RUE LOUIS BRAILLE, Roubaix",
+    "lat": 50.676804,
+    "lng": 3.19243,
+    "transactions": [
+      {
+        "date": "2024-08-05",
+        "priceEur": 59000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-26",
+        "priceEur": 60000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2024-03-18",
+        "priceEur": 59000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-27",
+        "priceEur": 69500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-24",
+        "priceEur": 64000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-25",
+        "priceEur": 68300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "867674d48c3b": {
+    "id": "867674d48c3b",
+    "label": "21 RUE MICHEL ANGE, Roubaix",
+    "lat": 50.678763,
+    "lng": 3.19625,
+    "transactions": [
+      {
+        "date": "2020-08-21",
+        "priceEur": 204355,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "6fb2c0dd066c": {
+    "id": "6fb2c0dd066c",
+    "label": "130 AV LINNE, Roubaix",
+    "lat": 50.678756,
+    "lng": 3.189676,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 183000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "3992d9f7e5c6": {
+    "id": "3992d9f7e5c6",
+    "label": "538 RUE DE LANNOY, Roubaix",
+    "lat": 50.678821,
+    "lng": 3.196859,
+    "transactions": [
+      {
+        "date": "2020-08-27",
+        "priceEur": 242000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "7df71473ec4b": {
+    "id": "7df71473ec4b",
+    "label": "204 RUE JOUFFROY, Roubaix",
+    "lat": 50.68049,
+    "lng": 3.190243,
+    "transactions": [
+      {
+        "date": "2020-09-07",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "03caba458cef": {
+    "id": "03caba458cef",
+    "label": "1 RUE LECOMTE BAILLON, Roubaix",
+    "lat": 50.678533,
+    "lng": 3.195024,
+    "transactions": [
+      {
+        "date": "2024-03-22",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-27",
+        "priceEur": 191500,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "af7795d217b5": {
+    "id": "af7795d217b5",
+    "label": "181 BD DE REIMS, Roubaix",
+    "lat": 50.679027,
+    "lng": 3.189537,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 223250,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "9020980509ba": {
+    "id": "9020980509ba",
+    "label": "161 RUE DU CHEMIN NEUF, Roubaix",
+    "lat": 50.676295,
+    "lng": 3.193474,
+    "transactions": [
+      {
+        "date": "2023-07-05",
+        "priceEur": 113000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-24",
+        "priceEur": 80000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-25",
+        "priceEur": 87530,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-20",
+        "priceEur": 91000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-15",
+        "priceEur": 52800,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-28",
+        "priceEur": 67000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "481abfe5273c": {
+    "id": "481abfe5273c",
+    "label": "26 RUE LEON MARLOT, Roubaix",
+    "lat": 50.676004,
+    "lng": 3.188578,
+    "transactions": [
+      {
+        "date": "2020-09-14",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "5493668f1ef4": {
+    "id": "5493668f1ef4",
+    "label": "79 RUE LEON MARLOT, Roubaix",
+    "lat": 50.675276,
+    "lng": 3.19107,
+    "transactions": [
+      {
+        "date": "2020-09-03",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "be32654998e6": {
+    "id": "be32654998e6",
+    "label": "222 RUE JOUFFROY, Roubaix",
+    "lat": 50.680162,
+    "lng": 3.190857,
+    "transactions": [
+      {
+        "date": "2020-09-18",
+        "priceEur": 268500,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b0aa4a78402": {
+    "id": "7b0aa4a78402",
+    "label": "49 RUE LECOMTE BAILLON, Roubaix",
+    "lat": 50.677709,
+    "lng": 3.19676,
+    "transactions": [
+      {
+        "date": "2025-04-17",
+        "priceEur": 164300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 92,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-08",
+        "priceEur": 126010,
+        "typeLocal": "Appartement",
+        "surfaceM2": 92,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-23",
+        "priceEur": 152500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-15",
+        "priceEur": 105000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-05",
+        "priceEur": 124400,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "998ae8840d29": {
+    "id": "998ae8840d29",
+    "label": "496B RUE DE LANNOY, Roubaix",
+    "lat": 50.679859,
+    "lng": 3.195274,
+    "transactions": [
+      {
+        "date": "2021-03-29",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-09",
+        "priceEur": 217000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "42aea84c1f69": {
+    "id": "42aea84c1f69",
+    "label": "53 RUE DU CHEMIN NEUF, Roubaix",
+    "lat": 50.678601,
+    "lng": 3.194909,
+    "transactions": [
+      {
+        "date": "2020-10-08",
+        "priceEur": 225000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-08",
+        "priceEur": 225000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-08",
+        "priceEur": 225000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e56c308f21e": {
+    "id": "6e56c308f21e",
+    "label": "228 RUE DU CHEMIN NEUF, Roubaix",
+    "lat": 50.674934,
+    "lng": 3.192248,
+    "transactions": [
+      {
+        "date": "2020-10-05",
+        "priceEur": 151000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "18f85fcde27c": {
+    "id": "18f85fcde27c",
+    "label": "536 RUE DE LANNOY, Roubaix",
+    "lat": 50.678851,
+    "lng": 3.196818,
+    "transactions": [
+      {
+        "date": "2020-10-14",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "c0aef078e09b": {
+    "id": "c0aef078e09b",
+    "label": "237 BD DE REIMS, Roubaix",
+    "lat": 50.678089,
+    "lng": 3.18706,
+    "transactions": [
+      {
+        "date": "2020-10-23",
+        "priceEur": 234660,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b815d9802d8": {
+    "id": "2b815d9802d8",
+    "label": "123 BD DE REIMS, Roubaix",
+    "lat": 50.680355,
+    "lng": 3.19011,
+    "transactions": [
+      {
+        "date": "2020-10-21",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e468d1629e5": {
+    "id": "6e468d1629e5",
+    "label": "196 RUE DUPUY DE LOME, Roubaix",
+    "lat": 50.680039,
+    "lng": 3.187449,
+    "transactions": [
+      {
+        "date": "2020-10-19",
+        "priceEur": 242000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "1787de9da9d6": {
+    "id": "1787de9da9d6",
+    "label": "229 BD DE REIMS, Roubaix",
+    "lat": 50.678202,
+    "lng": 3.187237,
+    "transactions": [
+      {
+        "date": "2020-10-22",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "47700f82aa54": {
+    "id": "47700f82aa54",
+    "label": "217 RUE JOUFFROY, Roubaix",
+    "lat": 50.680527,
+    "lng": 3.191151,
+    "transactions": [
+      {
+        "date": "2020-10-23",
+        "priceEur": 151000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "befb4a3d7a7a": {
+    "id": "befb4a3d7a7a",
+    "label": "10 ALL ANTOINE WATTEAU, Roubaix",
+    "lat": 50.67501,
+    "lng": 3.192898,
+    "transactions": [
+      {
+        "date": "2023-06-15",
+        "priceEur": 98000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-27",
+        "priceEur": 75000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-22",
+        "priceEur": 75150,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "49444759eb32": {
+    "id": "49444759eb32",
+    "label": "248 RUE DU CHEMIN NEUF, Roubaix",
+    "lat": 50.674546,
+    "lng": 3.192103,
+    "transactions": [
+      {
+        "date": "2020-11-12",
+        "priceEur": 223000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "549e26c6a86d": {
+    "id": "549e26c6a86d",
+    "label": "77 RUE LEON MARLOT, Roubaix",
+    "lat": 50.675302,
+    "lng": 3.191007,
+    "transactions": [
+      {
+        "date": "2020-10-19",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "640157b2e041": {
+    "id": "640157b2e041",
+    "label": "57 RUE LECOMTE BAILLON, Roubaix",
+    "lat": 50.677709,
+    "lng": 3.19676,
+    "transactions": [
+      {
+        "date": "2023-03-02",
+        "priceEur": 160000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 96,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-25",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "227c315cb321": {
+    "id": "227c315cb321",
+    "label": "91 AV LINNE, Roubaix",
+    "lat": 50.679004,
+    "lng": 3.191013,
+    "transactions": [
+      {
+        "date": "2020-12-22",
+        "priceEur": 104000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "61c727321f8f": {
+    "id": "61c727321f8f",
+    "label": "157 BD DE REIMS, Roubaix",
+    "lat": 50.679546,
+    "lng": 3.189761,
+    "transactions": [
+      {
+        "date": "2020-12-17",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "d59fc47f3969": {
+    "id": "d59fc47f3969",
+    "label": "52 RUE DU CHEMIN NEUF, Roubaix",
+    "lat": 50.678906,
+    "lng": 3.194795,
+    "transactions": [
+      {
+        "date": "2020-12-30",
+        "priceEur": 237500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "8a753d1be2b5": {
+    "id": "8a753d1be2b5",
+    "label": "480 RUE DE LANNOY, Roubaix",
+    "lat": 50.680344,
+    "lng": 3.195127,
+    "transactions": [
+      {
+        "date": "2020-12-22",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "7fcaa95996a3": {
+    "id": "7fcaa95996a3",
+    "label": "196 RUE DU CHEMIN NEUF, Roubaix",
+    "lat": 50.675798,
+    "lng": 3.192762,
+    "transactions": [
+      {
+        "date": "2021-01-15",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "09ec94027e3d": {
+    "id": "09ec94027e3d",
+    "label": "195 AV LINNE, Roubaix",
+    "lat": 50.677008,
+    "lng": 3.188524,
+    "transactions": [
+      {
+        "date": "2021-02-08",
+        "priceEur": 212500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "b711674fe272": {
+    "id": "b711674fe272",
+    "label": "157 RUE DU CHEMIN NEUF, Roubaix",
+    "lat": 50.676295,
+    "lng": 3.193474,
+    "transactions": [
+      {
+        "date": "2024-06-26",
+        "priceEur": 96000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-19",
+        "priceEur": 94000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-09",
+        "priceEur": 94521,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-10",
+        "priceEur": 61200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "96402a89a446": {
+    "id": "96402a89a446",
+    "label": "17 SQ DES PLATANES, Roubaix",
+    "lat": 50.677834,
+    "lng": 3.190359,
+    "transactions": [
+      {
+        "date": "2024-10-10",
+        "priceEur": 261200,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-18",
+        "priceEur": 201200,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "6be8aa8e4756": {
+    "id": "6be8aa8e4756",
+    "label": "226 AV LINNE, Roubaix",
+    "lat": 50.676812,
+    "lng": 3.187485,
+    "transactions": [
+      {
+        "date": "2024-07-26",
+        "priceEur": 281950,
+        "typeLocal": "Maison",
+        "surfaceM2": 205,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-19",
+        "priceEur": 295000,
+        "typeLocal": "Maison",
+        "surfaceM2": 205,
+        "isVefa": false
+      }
+    ]
+  },
+  "03940ae9f897": {
+    "id": "03940ae9f897",
+    "label": "5 RUE BELLEVUE, Roubaix",
+    "lat": 50.680582,
+    "lng": 3.187657,
+    "transactions": [
+      {
+        "date": "2025-05-14",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-26",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "a03bf903ec8e": {
+    "id": "a03bf903ec8e",
+    "label": "29 RUE DU PONT ROUGE, Roubaix",
+    "lat": 50.680697,
+    "lng": 3.197007,
+    "transactions": [
+      {
+        "date": "2021-02-18",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "9bcde9b2d2b6": {
+    "id": "9bcde9b2d2b6",
+    "label": "85B AV LINNE, Roubaix",
+    "lat": 50.67966,
+    "lng": 3.191628,
+    "transactions": [
+      {
+        "date": "2021-03-19",
+        "priceEur": 367000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f4234b667ac": {
+    "id": "5f4234b667ac",
+    "label": "10 RUE BELLEVUE, Roubaix",
+    "lat": 50.680725,
+    "lng": 3.18728,
+    "transactions": [
+      {
+        "date": "2021-04-26",
+        "priceEur": 102000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "10c93fb21acc": {
+    "id": "10c93fb21acc",
+    "label": "183 RUE DUPUY DE LOME, Roubaix",
+    "lat": 50.680302,
+    "lng": 3.187959,
+    "transactions": [
+      {
+        "date": "2021-04-15",
+        "priceEur": 93500,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f84cf24a096": {
+    "id": "2f84cf24a096",
+    "label": "212 RUE JOUFFROY, Roubaix",
+    "lat": 50.680331,
+    "lng": 3.190448,
+    "transactions": [
+      {
+        "date": "2021-04-23",
+        "priceEur": 436630,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f8ce947f735": {
+    "id": "3f8ce947f735",
+    "label": "23 RUE ARMAND MEESCHAERT, Roubaix",
+    "lat": 50.677854,
+    "lng": 3.187252,
+    "transactions": [
+      {
+        "date": "2021-04-14",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "dcac1eb99a1d": {
+    "id": "dcac1eb99a1d",
+    "label": "38 RUE LEON MARLOT, Roubaix",
+    "lat": 50.675782,
+    "lng": 3.188954,
+    "transactions": [
+      {
+        "date": "2021-05-12",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1a9be1e206a": {
+    "id": "e1a9be1e206a",
+    "label": "12 RUE BELLEVUE, Roubaix",
+    "lat": 50.680695,
+    "lng": 3.187242,
+    "transactions": [
+      {
+        "date": "2021-05-19",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0e34aa1ea58": {
+    "id": "b0e34aa1ea58",
+    "label": "9002 RUE LOUIS BRAILLE, Roubaix",
+    "lat": 50.676804,
+    "lng": 3.19243,
+    "transactions": [
+      {
+        "date": "2024-07-11",
+        "priceEur": 53000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-13",
+        "priceEur": 59000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-06",
+        "priceEur": 75000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-18",
+        "priceEur": 72000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d88e6ad1aee": {
+    "id": "4d88e6ad1aee",
+    "label": "17 RUE ARMAND MEESCHAERT, Roubaix",
+    "lat": 50.677752,
+    "lng": 3.187068,
+    "transactions": [
+      {
+        "date": "2021-06-18",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6e368628c30": {
+    "id": "e6e368628c30",
+    "label": "9001 ALL MAURICE MERTENS, Roubaix",
+    "lat": 50.679004,
+    "lng": 3.191013,
+    "transactions": [
+      {
+        "date": "2024-06-18",
+        "priceEur": 59000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-29",
+        "priceEur": 63000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-16",
+        "priceEur": 73000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-28",
+        "priceEur": 93900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-12",
+        "priceEur": 86000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-27",
+        "priceEur": 63000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-07",
+        "priceEur": 89000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "e94d729a2554": {
+    "id": "e94d729a2554",
+    "label": "155 AV LINNE, Roubaix",
+    "lat": 50.678017,
+    "lng": 3.189629,
+    "transactions": [
+      {
+        "date": "2021-06-25",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "b11ccf78be92": {
+    "id": "b11ccf78be92",
+    "label": "258 AV LINNE, Roubaix",
+    "lat": 50.676461,
+    "lng": 3.187056,
+    "transactions": [
+      {
+        "date": "2023-01-16",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-15",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "79238da5b978": {
+    "id": "79238da5b978",
+    "label": "9004 RUE LOUIS BRAILLE, Roubaix",
+    "lat": 50.676804,
+    "lng": 3.19243,
+    "transactions": [
+      {
+        "date": "2024-09-24",
+        "priceEur": 65000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2024-03-27",
+        "priceEur": 57000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-05",
+        "priceEur": 72000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2023-08-24",
+        "priceEur": 62000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-13",
+        "priceEur": 89000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-21",
+        "priceEur": 52000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-11",
+        "priceEur": 83850,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "0db95471d9bd": {
+    "id": "0db95471d9bd",
+    "label": "17 RUE PAUL WANTE, Roubaix",
+    "lat": 50.677644,
+    "lng": 3.186754,
+    "transactions": [
+      {
+        "date": "2021-06-11",
+        "priceEur": 273000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f6937ba7b54": {
+    "id": "4f6937ba7b54",
+    "label": "246 AV LINNE, Roubaix",
+    "lat": 50.676647,
+    "lng": 3.187171,
+    "transactions": [
+      {
+        "date": "2021-07-08",
+        "priceEur": 288400,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "098d779cdfd4": {
+    "id": "098d779cdfd4",
+    "label": "44 RUE VOLTA, Roubaix",
+    "lat": 50.680261,
+    "lng": 3.188237,
+    "transactions": [
+      {
+        "date": "2021-06-28",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "86337d095c0b": {
+    "id": "86337d095c0b",
+    "label": "30 RUE PAUL WANTE, Roubaix",
+    "lat": 50.677063,
+    "lng": 3.186504,
+    "transactions": [
+      {
+        "date": "2021-07-05",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f59620aa942": {
+    "id": "4f59620aa942",
+    "label": "181 RUE DE LA POTENNERIE, Roubaix",
+    "lat": 50.680444,
+    "lng": 3.189334,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 103500,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0c59abadd49": {
+    "id": "e0c59abadd49",
+    "label": "53 RUE LECOMTE BAILLON, Roubaix",
+    "lat": 50.677709,
+    "lng": 3.19676,
+    "transactions": [
+      {
+        "date": "2024-08-28",
+        "priceEur": 110000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 69,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-16",
+        "priceEur": 167000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 92,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-07",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-15",
+        "priceEur": 113000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 68,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-11",
+        "priceEur": 123000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "96329004676a": {
+    "id": "96329004676a",
+    "label": "21 RUE ARMAND MEESCHAERT, Roubaix",
+    "lat": 50.677802,
+    "lng": 3.187204,
+    "transactions": [
+      {
+        "date": "2021-08-05",
+        "priceEur": 151050,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "03008cfba3a2": {
+    "id": "03008cfba3a2",
+    "label": "64 RUE PHILIPPE AUGUSTE, Roubaix",
+    "lat": 50.679173,
+    "lng": 3.186788,
+    "transactions": [
+      {
+        "date": "2025-02-28",
+        "priceEur": 70000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-16",
+        "priceEur": 245200,
+        "typeLocal": "Appartement",
+        "surfaceM2": 122,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-06",
+        "priceEur": 126000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 148,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-03",
+        "priceEur": 124500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "67d1ff7de3c1": {
+    "id": "67d1ff7de3c1",
+    "label": "158 BD DE REIMS, Roubaix",
+    "lat": 50.68015,
+    "lng": 3.189313,
+    "transactions": [
+      {
+        "date": "2021-07-28",
+        "priceEur": 181000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "420f85b63d15": {
+    "id": "420f85b63d15",
+    "label": "31 RUE LEON MARLOT, Roubaix",
+    "lat": 50.676132,
+    "lng": 3.18939,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "a47ed5e3cab7": {
+    "id": "a47ed5e3cab7",
+    "label": "82 RUE DU CHEMIN NEUF, Roubaix",
+    "lat": 50.678167,
+    "lng": 3.193853,
+    "transactions": [
+      {
+        "date": "2021-07-26",
+        "priceEur": 208000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea11375f2a98": {
+    "id": "ea11375f2a98",
+    "label": "11 RUE BELLEVUE, Roubaix",
+    "lat": 50.680487,
+    "lng": 3.187555,
+    "transactions": [
+      {
+        "date": "2023-10-30",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-23",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "10ce0aaffd8f": {
+    "id": "10ce0aaffd8f",
+    "label": "226 BD DE REIMS, Roubaix",
+    "lat": 50.678863,
+    "lng": 3.188144,
+    "transactions": [
+      {
+        "date": "2021-08-20",
+        "priceEur": 223500,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa56fa810427": {
+    "id": "aa56fa810427",
+    "label": "264B RUE JOUFFROY, Roubaix",
+    "lat": 50.678932,
+    "lng": 3.193217,
+    "transactions": [
+      {
+        "date": "2021-09-06",
+        "priceEur": 199250,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d82996162d8": {
+    "id": "0d82996162d8",
+    "label": "63 RUE LECOMTE BAILLON, Roubaix",
+    "lat": 50.677709,
+    "lng": 3.19676,
+    "transactions": [
+      {
+        "date": "2022-06-23",
+        "priceEur": 200000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 99,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-14",
+        "priceEur": 162000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "44e475d65858": {
+    "id": "44e475d65858",
+    "label": "6 RUE MICHEL ANGE, Roubaix",
+    "lat": 50.678664,
+    "lng": 3.195613,
+    "transactions": [
+      {
+        "date": "2021-09-21",
+        "priceEur": 93000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf40c5948061": {
+    "id": "bf40c5948061",
+    "label": "50 RUE LECOMTE BAILLON, Roubaix",
+    "lat": 50.677526,
+    "lng": 3.195874,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 206490,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a49113ca0f6": {
+    "id": "2a49113ca0f6",
+    "label": "7 RUE SAINT CHARLES, Roubaix",
+    "lat": 50.680419,
+    "lng": 3.188169,
+    "transactions": [
+      {
+        "date": "2021-10-11",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "b701156a4406": {
+    "id": "b701156a4406",
+    "label": "201B RUE DU CHEMIN NEUF, Roubaix",
+    "lat": 50.67514,
+    "lng": 3.192959,
+    "transactions": [
+      {
+        "date": "2021-09-28",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "f18fa475649d": {
+    "id": "f18fa475649d",
+    "label": "262B RUE JOUFFROY, Roubaix",
+    "lat": 50.679008,
+    "lng": 3.192949,
+    "transactions": [
+      {
+        "date": "2021-10-28",
+        "priceEur": 339000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-28",
+        "priceEur": 339000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "2119a92abc89": {
+    "id": "2119a92abc89",
+    "label": "175 RUE DE LA POTENNERIE, Roubaix",
+    "lat": 50.680501,
+    "lng": 3.189168,
+    "transactions": [
+      {
+        "date": "2021-11-09",
+        "priceEur": 56000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "55037a9e91b6": {
+    "id": "55037a9e91b6",
+    "label": "55 RUE ACHILLE SCREPEL, Roubaix",
+    "lat": 50.680668,
+    "lng": 3.191227,
+    "transactions": [
+      {
+        "date": "2021-11-16",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d384bb7a36f": {
+    "id": "0d384bb7a36f",
+    "label": "15B AV CORDONNIER, Roubaix",
+    "lat": 50.680309,
+    "lng": 3.193971,
+    "transactions": [
+      {
+        "date": "2021-11-03",
+        "priceEur": 352500,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e2d5aec772f": {
+    "id": "2e2d5aec772f",
+    "label": "52 RUE EDGARD QUINET, Roubaix",
+    "lat": 50.676298,
+    "lng": 3.186447,
+    "transactions": [
+      {
+        "date": "2021-11-04",
+        "priceEur": 132800,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "617452787b2c": {
+    "id": "617452787b2c",
+    "label": "20 RUE LECOMTE BAILLON, Roubaix",
+    "lat": 50.677978,
+    "lng": 3.194986,
+    "transactions": [
+      {
+        "date": "2021-11-18",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "7461fa89446f": {
+    "id": "7461fa89446f",
+    "label": "2 ALL HENRI MATISSE, Roubaix",
+    "lat": 50.676963,
+    "lng": 3.191366,
+    "transactions": [
+      {
+        "date": "2021-11-25",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "61ba6ceabceb": {
+    "id": "61ba6ceabceb",
+    "label": "2 RUE GEORGES VERRIEST, Roubaix",
+    "lat": 50.678808,
+    "lng": 3.196683,
+    "transactions": [
+      {
+        "date": "2021-12-03",
+        "priceEur": 148170,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "50089af14a3c": {
+    "id": "50089af14a3c",
+    "label": "4 ALL ANTOINE WATTEAU, Roubaix",
+    "lat": 50.67501,
+    "lng": 3.192898,
+    "transactions": [
+      {
+        "date": "2021-11-22",
+        "priceEur": 81300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ba1c16fb3bd": {
+    "id": "0ba1c16fb3bd",
+    "label": "36 RUE LEON MARLOT, Roubaix",
+    "lat": 50.675826,
+    "lng": 3.188904,
+    "transactions": [
+      {
+        "date": "2021-12-17",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ed6b5562928": {
+    "id": "6ed6b5562928",
+    "label": "179 BD DE REIMS, Roubaix",
+    "lat": 50.679084,
+    "lng": 3.189579,
+    "transactions": [
+      {
+        "date": "2021-12-14",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "7a1b958720a3": {
+    "id": "7a1b958720a3",
+    "label": "16 RUE EDOUARD BRANLY, Roubaix",
+    "lat": 50.677157,
+    "lng": 3.189979,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 176000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "3331278052e6": {
+    "id": "3331278052e6",
+    "label": "9 SQ DES PLATANES, Roubaix",
+    "lat": 50.677371,
+    "lng": 3.189766,
+    "transactions": [
+      {
+        "date": "2021-12-28",
+        "priceEur": 213500,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "e2b384eb1030": {
+    "id": "e2b384eb1030",
+    "label": "12 RUE CLOS GUSTAVE EIFFEL, Roubaix",
+    "lat": 50.679693,
+    "lng": 3.187832,
+    "transactions": [
+      {
+        "date": "2021-12-29",
+        "priceEur": 98000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "910e59a4efe7": {
+    "id": "910e59a4efe7",
+    "label": "502B RUE DE LANNOY, Roubaix",
+    "lat": 50.679577,
+    "lng": 3.1961,
+    "transactions": [
+      {
+        "date": "2023-04-03",
+        "priceEur": 149000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-06",
+        "priceEur": 67000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "c05abe62b8d3": {
+    "id": "c05abe62b8d3",
+    "label": "6 ALL RAOUL DUFY, Roubaix",
+    "lat": 50.676999,
+    "lng": 3.189716,
+    "transactions": [
+      {
+        "date": "2022-01-20",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "e42d2f892965": {
+    "id": "e42d2f892965",
+    "label": "101 RUE PHILIPPE AUGUSTE, Roubaix",
+    "lat": 50.679239,
+    "lng": 3.188345,
+    "transactions": [
+      {
+        "date": "2022-02-03",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b04a50d0583": {
+    "id": "4b04a50d0583",
+    "label": "8 RUE MICHEL ANGE, Roubaix",
+    "lat": 50.678651,
+    "lng": 3.195677,
+    "transactions": [
+      {
+        "date": "2022-02-16",
+        "priceEur": 141176,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "53062350a54e": {
+    "id": "53062350a54e",
+    "label": "472 RUE DE LANNOY, Roubaix",
+    "lat": 50.68065,
+    "lng": 3.195068,
+    "transactions": [
+      {
+        "date": "2022-02-17",
+        "priceEur": 131960,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "bc51bc6a7ffd": {
+    "id": "bc51bc6a7ffd",
+    "label": "262 AV LINNE, Roubaix",
+    "lat": 50.676186,
+    "lng": 3.186636,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 627900,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "59f20eeeff41": {
+    "id": "59f20eeeff41",
+    "label": "26 RUE PAUL WANTE, Roubaix",
+    "lat": 50.677254,
+    "lng": 3.18653,
+    "transactions": [
+      {
+        "date": "2022-03-15",
+        "priceEur": 135550,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd57dc4709c6": {
+    "id": "dd57dc4709c6",
+    "label": "488 RUE DE LANNOY, Roubaix",
+    "lat": 50.680267,
+    "lng": 3.195408,
+    "transactions": [
+      {
+        "date": "2022-03-29",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad2b0d63912f": {
+    "id": "ad2b0d63912f",
+    "label": "56 RUE PHILIPPE AUGUSTE, Roubaix",
+    "lat": 50.679322,
+    "lng": 3.186412,
+    "transactions": [
+      {
+        "date": "2023-06-09",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-30",
+        "priceEur": 138200,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "12c552e8de4a": {
+    "id": "12c552e8de4a",
+    "label": "178 BD DE REIMS, Roubaix",
+    "lat": 50.679594,
+    "lng": 3.188898,
+    "transactions": [
+      {
+        "date": "2022-03-25",
+        "priceEur": 315200,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "a123aa19561b": {
+    "id": "a123aa19561b",
+    "label": "159 AV LINNE, Roubaix",
+    "lat": 50.677849,
+    "lng": 3.189591,
+    "transactions": [
+      {
+        "date": "2022-04-19",
+        "priceEur": 222970,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1902b2421d8": {
+    "id": "f1902b2421d8",
+    "label": "216 RUE JOUFFROY, Roubaix",
+    "lat": 50.680217,
+    "lng": 3.190583,
+    "transactions": [
+      {
+        "date": "2022-04-14",
+        "priceEur": 425000,
+        "typeLocal": "Maison",
+        "surfaceM2": 176,
+        "isVefa": false
+      }
+    ]
+  },
+  "c38212995711": {
+    "id": "c38212995711",
+    "label": "8 ALL HENRI MATISSE, Roubaix",
+    "lat": 50.676649,
+    "lng": 3.191194,
+    "transactions": [
+      {
+        "date": "2022-04-25",
+        "priceEur": 142000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "90037bb128eb": {
+    "id": "90037bb128eb",
+    "label": "17 RUE LEON MARLOT, Roubaix",
+    "lat": 50.676365,
+    "lng": 3.188934,
+    "transactions": [
+      {
+        "date": "2022-04-28",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "7be09dc026d7": {
+    "id": "7be09dc026d7",
+    "label": "7 RUE ARMAND MEESCHAERT, Roubaix",
+    "lat": 50.677506,
+    "lng": 3.186944,
+    "transactions": [
+      {
+        "date": "2022-04-06",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "6434984f4286": {
+    "id": "6434984f4286",
+    "label": "12 VC FOURNIER RUE PAUL WANTE, Roubaix",
+    "lat": 50.67722,
+    "lng": 3.186269,
+    "transactions": [
+      {
+        "date": "2024-01-26",
+        "priceEur": 105050,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-04",
+        "priceEur": 53000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f96de56cfae": {
+    "id": "9f96de56cfae",
+    "label": "29 RUE DU CHEMIN NEUF, Roubaix",
+    "lat": 50.679048,
+    "lng": 3.195629,
+    "transactions": [
+      {
+        "date": "2022-04-29",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "914009af680c": {
+    "id": "914009af680c",
+    "label": "177 BD DE REIMS, Roubaix",
+    "lat": 50.67915,
+    "lng": 3.189609,
+    "transactions": [
+      {
+        "date": "2022-05-16",
+        "priceEur": 284000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "567a3b284f0c": {
+    "id": "567a3b284f0c",
+    "label": "3 RUE GEORGES VERRIEST, Roubaix",
+    "lat": 50.678564,
+    "lng": 3.196874,
+    "transactions": [
+      {
+        "date": "2022-05-17",
+        "priceEur": 77000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "306421600f81": {
+    "id": "306421600f81",
+    "label": "40 RUE LECOMTE BAILLON, Roubaix",
+    "lat": 50.67771,
+    "lng": 3.195592,
+    "transactions": [
+      {
+        "date": "2022-05-30",
+        "priceEur": 237060,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "f44a2b005c0f": {
+    "id": "f44a2b005c0f",
+    "label": "36 RUE DU CHEMIN NEUF, Roubaix",
+    "lat": 50.679217,
+    "lng": 3.19503,
+    "transactions": [
+      {
+        "date": "2022-05-30",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "447fc824de77": {
+    "id": "447fc824de77",
+    "label": "38 RUE VOLTA, Roubaix",
+    "lat": 50.680374,
+    "lng": 3.188278,
+    "transactions": [
+      {
+        "date": "2022-08-23",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-02",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "0c10a783ca04": {
+    "id": "0c10a783ca04",
+    "label": "21 RUE LECOMTE BAILLON, Roubaix",
+    "lat": 50.678199,
+    "lng": 3.195687,
+    "transactions": [
+      {
+        "date": "2022-06-13",
+        "priceEur": 341210,
+        "typeLocal": "Maison",
+        "surfaceM2": 161,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d71d1eaa138": {
+    "id": "3d71d1eaa138",
+    "label": "229 AV LINNE, Roubaix",
+    "lat": 50.676445,
+    "lng": 3.187912,
+    "transactions": [
+      {
+        "date": "2022-06-10",
+        "priceEur": 374000,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  },
+  "a39df9ae5aea": {
+    "id": "a39df9ae5aea",
+    "label": "28 RUE LEON MARLOT, Roubaix",
+    "lat": 50.675977,
+    "lng": 3.188672,
+    "transactions": [
+      {
+        "date": "2022-06-20",
+        "priceEur": 140800,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d5e95dbc59d": {
+    "id": "1d5e95dbc59d",
+    "label": "68 RUE LEON MARLOT, Roubaix",
+    "lat": 50.675133,
+    "lng": 3.189876,
+    "transactions": [
+      {
+        "date": "2022-06-29",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "e89933627663": {
+    "id": "e89933627663",
+    "label": "45 RUE VOLTA, Roubaix",
+    "lat": 50.680155,
+    "lng": 3.18864,
+    "transactions": [
+      {
+        "date": "2022-06-10",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "00db93f8e0e3": {
+    "id": "00db93f8e0e3",
+    "label": "506 RUE DE LANNOY, Roubaix",
+    "lat": 50.679395,
+    "lng": 3.196161,
+    "transactions": [
+      {
+        "date": "2022-06-28",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "adf5762c3830": {
+    "id": "adf5762c3830",
+    "label": "7 ALL DES ROSIERS, Roubaix",
+    "lat": 50.679728,
+    "lng": 3.194579,
+    "transactions": [
+      {
+        "date": "2022-06-07",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "7040439ea0eb": {
+    "id": "7040439ea0eb",
+    "label": "10 RUE JEAN JOSEPH WEERTS, Roubaix",
+    "lat": 50.674672,
+    "lng": 3.186389,
+    "transactions": [
+      {
+        "date": "2024-07-30",
+        "priceEur": 222220,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-20",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "edc7a1c3812c": {
+    "id": "edc7a1c3812c",
+    "label": "8 ALL ANTOINE WATTEAU, Roubaix",
+    "lat": 50.67501,
+    "lng": 3.192898,
+    "transactions": [
+      {
+        "date": "2023-10-31",
+        "priceEur": 92000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-25",
+        "priceEur": 111010,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "f279ba08cb89": {
+    "id": "f279ba08cb89",
+    "label": "102 AV LINNE, Roubaix",
+    "lat": 50.67922,
+    "lng": 3.190211,
+    "transactions": [
+      {
+        "date": "2022-08-02",
+        "priceEur": 244000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "dfd414b72bb7": {
+    "id": "dfd414b72bb7",
+    "label": "23 RUE ERNEST RENAN, Roubaix",
+    "lat": 50.679668,
+    "lng": 3.186917,
+    "transactions": [
+      {
+        "date": "2022-08-26",
+        "priceEur": 186150,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "623d5ca254ab": {
+    "id": "623d5ca254ab",
+    "label": "218 RUE JOUFFROY, Roubaix",
+    "lat": 50.680272,
+    "lng": 3.190755,
+    "transactions": [
+      {
+        "date": "2022-08-19",
+        "priceEur": 209200,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "afe0092ab2d3": {
+    "id": "afe0092ab2d3",
+    "label": "19 RUE EDOUARD BRANLY, Roubaix",
+    "lat": 50.676611,
+    "lng": 3.190749,
+    "transactions": [
+      {
+        "date": "2022-09-07",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "7821b2d1b19b": {
+    "id": "7821b2d1b19b",
+    "label": "69 RUE JEAN MACE, Roubaix",
+    "lat": 50.674912,
+    "lng": 3.189014,
+    "transactions": [
+      {
+        "date": "2022-12-08",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-23",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "029b5344da35": {
+    "id": "029b5344da35",
+    "label": "47 RUE VOLTA, Roubaix",
+    "lat": 50.680126,
+    "lng": 3.188615,
+    "transactions": [
+      {
+        "date": "2022-10-19",
+        "priceEur": 107800,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "ac8147624064": {
+    "id": "ac8147624064",
+    "label": "461 RUE DE LANNOY, Roubaix",
+    "lat": 50.680496,
+    "lng": 3.195812,
+    "transactions": [
+      {
+        "date": "2022-10-28",
+        "priceEur": 168924,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "ebe581625217": {
+    "id": "ebe581625217",
+    "label": "19T AV CORDONNIER, Roubaix",
+    "lat": 50.679808,
+    "lng": 3.193743,
+    "transactions": [
+      {
+        "date": "2022-11-07",
+        "priceEur": 434800,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "bdd9322f8c5e": {
+    "id": "bdd9322f8c5e",
+    "label": "266 AV LINNE, Roubaix",
+    "lat": 50.676039,
+    "lng": 3.186477,
+    "transactions": [
+      {
+        "date": "2022-10-28",
+        "priceEur": 279390,
+        "typeLocal": "Maison",
+        "surfaceM2": 174,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a734bcf04bb": {
+    "id": "5a734bcf04bb",
+    "label": "228 RUE DUPUY DE LOME, Roubaix",
+    "lat": 50.679715,
+    "lng": 3.188736,
+    "transactions": [
+      {
+        "date": "2022-11-07",
+        "priceEur": 20000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "efbf799170f7": {
+    "id": "efbf799170f7",
+    "label": "122 AV LINNE, Roubaix",
+    "lat": 50.678896,
+    "lng": 3.189843,
+    "transactions": [
+      {
+        "date": "2022-11-18",
+        "priceEur": 227000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "a179472ba4e1": {
+    "id": "a179472ba4e1",
+    "label": "42 RUE ARMAND MEESCHAERT, Roubaix",
+    "lat": 50.678307,
+    "lng": 3.188675,
+    "transactions": [
+      {
+        "date": "2022-12-13",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "635c525fe116": {
+    "id": "635c525fe116",
+    "label": "5 VC FOURNIER RUE PAUL WANTE, Roubaix",
+    "lat": 50.67705,
+    "lng": 3.186384,
+    "transactions": [
+      {
+        "date": "2022-12-09",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "d767e04c2a74": {
+    "id": "d767e04c2a74",
+    "label": "90 AV LINNE, Roubaix",
+    "lat": 50.679564,
+    "lng": 3.190534,
+    "transactions": [
+      {
+        "date": "2022-12-16",
+        "priceEur": 370000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d00045cbb42": {
+    "id": "3d00045cbb42",
+    "label": "71B RUE DU CHEMIN NEUF, Roubaix",
+    "lat": 50.677973,
+    "lng": 3.194686,
+    "transactions": [
+      {
+        "date": "2022-12-20",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "27354833b4c1": {
+    "id": "27354833b4c1",
+    "label": "47 PL DE LA FRATERNITE, Roubaix",
+    "lat": 50.680764,
+    "lng": 3.192963,
+    "transactions": [
+      {
+        "date": "2023-01-19",
+        "priceEur": 222500,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "66a54ab1c6cc": {
+    "id": "66a54ab1c6cc",
+    "label": "156 AV LINNE, Roubaix",
+    "lat": 50.678079,
+    "lng": 3.188964,
+    "transactions": [
+      {
+        "date": "2023-01-25",
+        "priceEur": 283050,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "389278504d91": {
+    "id": "389278504d91",
+    "label": "2 VC FOURNIER RUE PAUL WANTE, Roubaix",
+    "lat": 50.677141,
+    "lng": 3.186511,
+    "transactions": [
+      {
+        "date": "2023-01-30",
+        "priceEur": 97000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "a8d3b8a62a82": {
+    "id": "a8d3b8a62a82",
+    "label": "26 RUE LECOMTE BAILLON, Roubaix",
+    "lat": 50.677841,
+    "lng": 3.195329,
+    "transactions": [
+      {
+        "date": "2023-01-30",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a5fa0a72d45": {
+    "id": "2a5fa0a72d45",
+    "label": "271 AV ALFRED MOTTE, Roubaix",
+    "lat": 50.676503,
+    "lng": 3.196677,
+    "transactions": [
+      {
+        "date": "2023-02-07",
+        "priceEur": 442000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb13b33fb082": {
+    "id": "cb13b33fb082",
+    "label": "189 RUE DU CHEMIN NEUF, Roubaix",
+    "lat": 50.675607,
+    "lng": 3.193191,
+    "transactions": [
+      {
+        "date": "2023-02-15",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-15",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 71,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-15",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 46,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-15",
+        "priceEur": 300000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "a301f09dc788": {
+    "id": "a301f09dc788",
+    "label": "42 AV LINNE, Roubaix",
+    "lat": 50.680484,
+    "lng": 3.191805,
+    "transactions": [
+      {
+        "date": "2023-02-17",
+        "priceEur": 279000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 37,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-17",
+        "priceEur": 279000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-17",
+        "priceEur": 279000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-17",
+        "priceEur": 279000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 23,
+        "isVefa": false
+      }
+    ]
+  },
+  "e4ad34aa3870": {
+    "id": "e4ad34aa3870",
+    "label": "12 RUE PAUL WANTE, Roubaix",
+    "lat": 50.677413,
+    "lng": 3.186134,
+    "transactions": [
+      {
+        "date": "2023-04-21",
+        "priceEur": 211850,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "216c5a5909ad": {
+    "id": "216c5a5909ad",
+    "label": "5 RUE MICHEL ANGE, Roubaix",
+    "lat": 50.678973,
+    "lng": 3.19591,
+    "transactions": [
+      {
+        "date": "2023-06-12",
+        "priceEur": 149400,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "116c31ba55a5": {
+    "id": "116c31ba55a5",
+    "label": "1 CHE BOUSSEMART RUE DE LANNOY, Roubaix",
+    "lat": 50.67951,
+    "lng": 3.196997,
+    "transactions": [
+      {
+        "date": "2023-06-08",
+        "priceEur": 79000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "75ed44f646f8": {
+    "id": "75ed44f646f8",
+    "label": "8 VC FOURNIER RUE PAUL WANTE, Roubaix",
+    "lat": 50.677103,
+    "lng": 3.1861,
+    "transactions": [
+      {
+        "date": "2023-06-06",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "d801eae46b1c": {
+    "id": "d801eae46b1c",
+    "label": "32 RUE GEORGES VERRIEST, Roubaix",
+    "lat": 50.678237,
+    "lng": 3.195902,
+    "transactions": [
+      {
+        "date": "2023-06-26",
+        "priceEur": 254000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "9aaca1839cb4": {
+    "id": "9aaca1839cb4",
+    "label": "10 VC FOURNIER RUE PAUL WANTE, Roubaix",
+    "lat": 50.677165,
+    "lng": 3.186182,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 10000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "878d1ff8a4f0": {
+    "id": "878d1ff8a4f0",
+    "label": "143 AV ALFRED MOTTE, Roubaix",
+    "lat": 50.673863,
+    "lng": 3.192668,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 490000,
+        "typeLocal": "Maison",
+        "surfaceM2": 155,
+        "isVefa": false
+      }
+    ]
+  },
+  "74e8dde03a1b": {
+    "id": "74e8dde03a1b",
+    "label": "15 RUE MICHEL ANGE, Roubaix",
+    "lat": 50.678852,
+    "lng": 3.196112,
+    "transactions": [
+      {
+        "date": "2023-08-09",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd107bf0b9e5": {
+    "id": "fd107bf0b9e5",
+    "label": "10 ALL DES ROSIERS, Roubaix",
+    "lat": 50.679166,
+    "lng": 3.193896,
+    "transactions": [
+      {
+        "date": "2023-08-23",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "0bcde2b04638": {
+    "id": "0bcde2b04638",
+    "label": "226 RUE JOUFFROY, Roubaix",
+    "lat": 50.680102,
+    "lng": 3.191006,
+    "transactions": [
+      {
+        "date": "2023-08-25",
+        "priceEur": 307000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e8c680d4d12": {
+    "id": "4e8c680d4d12",
+    "label": "44 RUE ARMAND MEESCHAERT, Roubaix",
+    "lat": 50.678352,
+    "lng": 3.188764,
+    "transactions": [
+      {
+        "date": "2023-09-14",
+        "priceEur": 195450,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "3e73ee01c508": {
+    "id": "3e73ee01c508",
+    "label": "24 RUE LEON MARLOT, Roubaix",
+    "lat": 50.676051,
+    "lng": 3.188501,
+    "transactions": [
+      {
+        "date": "2023-09-22",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "1cd87433f819": {
+    "id": "1cd87433f819",
+    "label": "491 RUE DE LANNOY, Roubaix",
+    "lat": 50.679673,
+    "lng": 3.196788,
+    "transactions": [
+      {
+        "date": "2023-10-17",
+        "priceEur": 191000,
+        "typeLocal": "Maison",
+        "surfaceM2": 172,
+        "isVefa": false
+      }
+    ]
+  },
+  "92f816f2ebdf": {
+    "id": "92f816f2ebdf",
+    "label": "481B RUE DE LANNOY, Roubaix",
+    "lat": 50.679749,
+    "lng": 3.196528,
+    "transactions": [
+      {
+        "date": "2024-12-31",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-26",
+        "priceEur": 57000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2e08ed8ed40": {
+    "id": "a2e08ed8ed40",
+    "label": "241 AV ALFRED MOTTE, Roubaix",
+    "lat": 50.675888,
+    "lng": 3.195997,
+    "transactions": [
+      {
+        "date": "2023-10-10",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "daba53b8b78a": {
+    "id": "daba53b8b78a",
+    "label": "168 AV LINNE, Roubaix",
+    "lat": 50.677792,
+    "lng": 3.188657,
+    "transactions": [
+      {
+        "date": "2023-11-24",
+        "priceEur": 248000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "26a90315f6a2": {
+    "id": "26a90315f6a2",
+    "label": "540 RUE DE LANNOY, Roubaix",
+    "lat": 50.678666,
+    "lng": 3.197004,
+    "transactions": [
+      {
+        "date": "2023-12-06",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "d003dbb8c055": {
+    "id": "d003dbb8c055",
+    "label": "10 RUE LECOMTE BAILLON, Roubaix",
+    "lat": 50.678159,
+    "lng": 3.194769,
+    "transactions": [
+      {
+        "date": "2024-02-14",
+        "priceEur": 347000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "cba29cb0d2cf": {
+    "id": "cba29cb0d2cf",
+    "label": "39 RUE VOLTA, Roubaix",
+    "lat": 50.680255,
+    "lng": 3.188736,
+    "transactions": [
+      {
+        "date": "2024-02-15",
+        "priceEur": 78000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "48447dbc44e4": {
+    "id": "48447dbc44e4",
+    "label": "82 RUE LECOMTE BAILLON, Roubaix",
+    "lat": 50.677007,
+    "lng": 3.196697,
+    "transactions": [
+      {
+        "date": "2024-02-20",
+        "priceEur": 238000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "f6384401c354": {
+    "id": "f6384401c354",
+    "label": "175 BD DE REIMS, Roubaix",
+    "lat": 50.679205,
+    "lng": 3.189614,
+    "transactions": [
+      {
+        "date": "2024-03-25",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c6ebd78a581": {
+    "id": "7c6ebd78a581",
+    "label": "192 RUE DUPUY DE LOME, Roubaix",
+    "lat": 50.680095,
+    "lng": 3.187201,
+    "transactions": [
+      {
+        "date": "2024-04-25",
+        "priceEur": 171500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "29e59df869f1": {
+    "id": "29e59df869f1",
+    "label": "459 RUE DE LANNOY, Roubaix",
+    "lat": 50.680684,
+    "lng": 3.19579,
+    "transactions": [
+      {
+        "date": "2024-05-23",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "4087220f66fb": {
+    "id": "4087220f66fb",
+    "label": "228 RUE JOUFFROY, Roubaix",
+    "lat": 50.680067,
+    "lng": 3.191055,
+    "transactions": [
+      {
+        "date": "2024-06-14",
+        "priceEur": 118010,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f5527790ac5": {
+    "id": "1f5527790ac5",
+    "label": "14 VC FOURNIER RUE PAUL WANTE, Roubaix",
+    "lat": 50.677284,
+    "lng": 3.186363,
+    "transactions": [
+      {
+        "date": "2024-06-26",
+        "priceEur": 83000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "78155ef3cffa": {
+    "id": "78155ef3cffa",
+    "label": "278 AV LINNE, Roubaix",
+    "lat": 50.675683,
+    "lng": 3.186264,
+    "transactions": [
+      {
+        "date": "2024-07-02",
+        "priceEur": 246000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "0176ee91cd51": {
+    "id": "0176ee91cd51",
+    "label": "178 RUE DE LA POTENNERIE, Roubaix",
+    "lat": 50.680148,
+    "lng": 3.188986,
+    "transactions": [
+      {
+        "date": "2024-07-05",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 28,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-05",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 96,
+        "isVefa": false
+      },
+      {
+        "date": "2024-07-05",
+        "priceEur": 100000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "351fe269ac5d": {
+    "id": "351fe269ac5d",
+    "label": "206 RUE JOUFFROY, Roubaix",
+    "lat": 50.680453,
+    "lng": 3.190283,
+    "transactions": [
+      {
+        "date": "2024-07-30",
+        "priceEur": 276350,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "de0f605232aa": {
+    "id": "de0f605232aa",
+    "label": "189 AV ALFRED MOTTE, Roubaix",
+    "lat": 50.675093,
+    "lng": 3.194222,
+    "transactions": [
+      {
+        "date": "2024-08-05",
+        "priceEur": 320010,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "cfacfc6956d7": {
+    "id": "cfacfc6956d7",
+    "label": "163 AV ALFRED MOTTE, Roubaix",
+    "lat": 50.67442,
+    "lng": 3.193543,
+    "transactions": [
+      {
+        "date": "2024-07-23",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "67e87f0189c6": {
+    "id": "67e87f0189c6",
+    "label": "11 AV CORDONNIER, Roubaix",
+    "lat": 50.68043,
+    "lng": 3.194392,
+    "transactions": [
+      {
+        "date": "2024-08-13",
+        "priceEur": 405000,
+        "typeLocal": "Maison",
+        "surfaceM2": 176,
+        "isVefa": false
+      }
+    ]
+  },
+  "cb3b1331b436": {
+    "id": "cb3b1331b436",
+    "label": "60 RUE PHILIPPE AUGUSTE, Roubaix",
+    "lat": 50.679264,
+    "lng": 3.186571,
+    "transactions": [
+      {
+        "date": "2024-08-28",
+        "priceEur": 282000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "33f71f933c78": {
+    "id": "33f71f933c78",
+    "label": "457 RUE DE LANNOY, Roubaix",
+    "lat": 50.680575,
+    "lng": 3.195697,
+    "transactions": [
+      {
+        "date": "2024-09-11",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "931c8f56992f": {
+    "id": "931c8f56992f",
+    "label": "105 RUE JEAN MACE, Roubaix",
+    "lat": 50.67447,
+    "lng": 3.189895,
+    "transactions": [
+      {
+        "date": "2024-10-07",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d0a06af82ac": {
+    "id": "9d0a06af82ac",
+    "label": "2 RUE SAINT HUBERT, Roubaix",
+    "lat": 50.679794,
+    "lng": 3.196297,
+    "transactions": [
+      {
+        "date": "2024-10-09",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2024-10-09",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5d748982052": {
+    "id": "d5d748982052",
+    "label": "169 RUE DE LA POTENNERIE, Roubaix",
+    "lat": 50.680565,
+    "lng": 3.188998,
+    "transactions": [
+      {
+        "date": "2024-10-15",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d36dfffc57e": {
+    "id": "4d36dfffc57e",
+    "label": "470B RUE DE LANNOY, Roubaix",
+    "lat": 50.680731,
+    "lng": 3.195014,
+    "transactions": [
+      {
+        "date": "2024-12-03",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "55242f0ed8ed": {
+    "id": "55242f0ed8ed",
+    "label": "3 RUE MICHEL ANGE, Roubaix",
+    "lat": 50.678997,
+    "lng": 3.195859,
+    "transactions": [
+      {
+        "date": "2024-12-31",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "b3ddc357fba4": {
+    "id": "b3ddc357fba4",
+    "label": "233 RUE DU CHEMIN NEUF, Roubaix",
+    "lat": 50.674571,
+    "lng": 3.192727,
+    "transactions": [
+      {
+        "date": "2025-01-06",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "b76250199fa6": {
+    "id": "b76250199fa6",
+    "label": "500 RUE DE LANNOY, Roubaix",
+    "lat": 50.67982,
+    "lng": 3.195932,
+    "transactions": [
+      {
+        "date": "2025-02-06",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb62d3a0a8ea": {
+    "id": "fb62d3a0a8ea",
+    "label": "15 AV CORDONNIER, Roubaix",
+    "lat": 50.680354,
+    "lng": 3.194033,
+    "transactions": [
+      {
+        "date": "2025-01-21",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "fb233757653e": {
+    "id": "fb233757653e",
+    "label": "22 RUE EDOUARD BRANLY, Roubaix",
+    "lat": 50.676862,
+    "lng": 3.190115,
+    "transactions": [
+      {
+        "date": "2025-01-28",
+        "priceEur": 111500,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e1ba2d379bc": {
+    "id": "5e1ba2d379bc",
+    "label": "4 RUE ARMAND MEESCHAERT, Roubaix",
+    "lat": 50.677322,
+    "lng": 3.187387,
+    "transactions": [
+      {
+        "date": "2025-01-29",
+        "priceEur": 187650,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c7f025c7218": {
+    "id": "5c7f025c7218",
+    "label": "172 RUE DE LA POTENNERIE, Roubaix",
+    "lat": 50.680279,
+    "lng": 3.188851,
+    "transactions": [
+      {
+        "date": "2025-03-04",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "229805ec77ad": {
+    "id": "229805ec77ad",
+    "label": "2 CRS PLANCHON AVENUE ALFRED MOT, Roubaix",
+    "lat": 50.675884,
+    "lng": 3.19558,
+    "transactions": [
+      {
+        "date": "2025-03-05",
+        "priceEur": 83000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "d30e29bc9648": {
+    "id": "d30e29bc9648",
+    "label": "28 RUE PAUL WANTE, Roubaix",
+    "lat": 50.677244,
+    "lng": 3.186596,
+    "transactions": [
+      {
+        "date": "2025-03-19",
+        "priceEur": 106000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "c7621ec932f9": {
+    "id": "c7621ec932f9",
+    "label": "210 RUE JOUFFROY, Roubaix",
+    "lat": 50.680324,
+    "lng": 3.190314,
+    "transactions": [
+      {
+        "date": "2025-03-26",
+        "priceEur": 302000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "c440a5030e23": {
+    "id": "c440a5030e23",
+    "label": "211 BD DE REIMS, Roubaix",
+    "lat": 50.67835,
+    "lng": 3.187929,
+    "transactions": [
+      {
+        "date": "2025-03-26",
+        "priceEur": 182000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "329f641cf39c": {
+    "id": "329f641cf39c",
+    "label": "183 AV ALFRED MOTTE, Roubaix",
+    "lat": 50.674876,
+    "lng": 3.194153,
+    "transactions": [
+      {
+        "date": "2025-04-09",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "67dfabb0bd9e": {
+    "id": "67dfabb0bd9e",
+    "label": "125 BD DE REIMS, Roubaix",
+    "lat": 50.680316,
+    "lng": 3.190071,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "674f0645a3ed": {
+    "id": "674f0645a3ed",
+    "label": "264 AV LINNE, Roubaix",
+    "lat": 50.676043,
+    "lng": 3.186625,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 174400,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "14a7db7891b9": {
+    "id": "14a7db7891b9",
+    "label": "40 RUE VOLTA, Roubaix",
+    "lat": 50.680341,
+    "lng": 3.188255,
+    "transactions": [
+      {
+        "date": "2025-05-27",
+        "priceEur": 134400,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "2899af2d8eca": {
+    "id": "2899af2d8eca",
+    "label": "8 ALL PIERRE AUGUSTE RENOIR, Roubaix",
+    "lat": 50.673943,
+    "lng": 3.188973,
+    "transactions": [
+      {
+        "date": "2025-05-22",
+        "priceEur": 1,
+        "typeLocal": "Appartement",
+        "surfaceM2": 49,
+        "isVefa": false
+      },
+      {
+        "date": "2025-05-22",
+        "priceEur": 1,
+        "typeLocal": "Appartement",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

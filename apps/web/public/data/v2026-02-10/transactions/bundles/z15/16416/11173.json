@@ -1,0 +1,92 @@
+{
+  "185b21b86268": {
+    "id": "185b21b86268",
+    "label": "1847 GR GRANDE RUE, Saint-Gilles-de-la-Neuville",
+    "lat": 49.571536,
+    "lng": 0.351702,
+    "transactions": [
+      {
+        "date": "2020-10-20",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa2061510a1c": {
+    "id": "aa2061510a1c",
+    "label": "1700 GR GRANDE RUE, Saint-Gilles-de-la-Neuville",
+    "lat": 49.572149,
+    "lng": 0.353052,
+    "transactions": [
+      {
+        "date": "2020-12-22",
+        "priceEur": 232400,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "cac38f31c22a": {
+    "id": "cac38f31c22a",
+    "label": "1720 GR GRANDE RUE, Saint-Gilles-de-la-Neuville",
+    "lat": 49.571999,
+    "lng": 0.352776,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 208000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "cc3666392198": {
+    "id": "cc3666392198",
+    "label": "1310 GR GRANDE RUE, Saint-Gilles-de-la-Neuville",
+    "lat": 49.57323,
+    "lng": 0.358092,
+    "transactions": [
+      {
+        "date": "2021-10-29",
+        "priceEur": 206000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "591b428a346f": {
+    "id": "591b428a346f",
+    "label": "1655 GR GRANDE RUE, Saint-Gilles-de-la-Neuville",
+    "lat": 49.571841,
+    "lng": 0.354272,
+    "transactions": [
+      {
+        "date": "2023-02-01",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "295412984dd2": {
+    "id": "295412984dd2",
+    "label": "35 IMP DE LA SABLIERE, Saint-Gilles-de-la-Neuville",
+    "lat": 49.574041,
+    "lng": 0.36005,
+    "transactions": [
+      {
+        "date": "2024-07-04",
+        "priceEur": 259200,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  }
+}

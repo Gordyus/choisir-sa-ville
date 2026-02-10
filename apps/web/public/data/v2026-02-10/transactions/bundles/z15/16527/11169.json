@@ -1,0 +1,32 @@
+{
+  "1993882d4c64": {
+    "id": "1993882d4c64",
+    "label": "137 RTE DE GOURNAY - LE FOSSE, Forges-les-Eaux",
+    "lat": 49.598146,
+    "lng": 1.578025,
+    "transactions": [
+      {
+        "date": "2022-02-17",
+        "priceEur": 128295,
+        "typeLocal": "Maison",
+        "surfaceM2": 188,
+        "isVefa": false
+      }
+    ]
+  },
+  "82c1ec6e61f4": {
+    "id": "82c1ec6e61f4",
+    "label": "5057 LE PONT BAIN, Forges-les-Eaux",
+    "lat": 49.60004,
+    "lng": 1.575364,
+    "transactions": [
+      {
+        "date": "2023-09-22",
+        "priceEur": 57500,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  }
+}

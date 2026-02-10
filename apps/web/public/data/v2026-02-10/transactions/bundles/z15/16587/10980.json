@@ -1,0 +1,54 @@
+{
+  "85e20f6864bf": {
+    "id": "85e20f6864bf",
+    "label": "75 RTE DE LOOBERGHE, Bourbourg",
+    "lat": 50.928696,
+    "lng": 2.230733,
+    "transactions": [
+      {
+        "date": "2022-05-24",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "535237da97da": {
+    "id": "535237da97da",
+    "label": "79 RTE DE LOOBERGHE, Bourbourg",
+    "lat": 50.928231,
+    "lng": 2.232605,
+    "transactions": [
+      {
+        "date": "2025-01-08",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-27",
+        "priceEur": 151000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "ec9e4f283044": {
+    "id": "ec9e4f283044",
+    "label": "82 RTE DE LOOBERGHE, Bourbourg",
+    "lat": 50.927299,
+    "lng": 2.234558,
+    "transactions": [
+      {
+        "date": "2025-04-14",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

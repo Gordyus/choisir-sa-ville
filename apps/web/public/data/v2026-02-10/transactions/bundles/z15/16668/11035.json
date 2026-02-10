@@ -1,0 +1,571 @@
+{
+  "66d98dde7c0a": {
+    "id": "66d98dde7c0a",
+    "label": "16 RUE DE L'ARTOIS, Ennevelin",
+    "lat": 50.543172,
+    "lng": 3.128288,
+    "transactions": [
+      {
+        "date": "2020-08-14",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "ce28499a4f6e": {
+    "id": "ce28499a4f6e",
+    "label": "20 RUE DE L'ARTOIS, Ennevelin",
+    "lat": 50.54335,
+    "lng": 3.128333,
+    "transactions": [
+      {
+        "date": "2020-09-04",
+        "priceEur": 254260,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "67b65ee592d5": {
+    "id": "67b65ee592d5",
+    "label": "12 RUE DE LA CAROTTE, Ennevelin",
+    "lat": 50.543758,
+    "lng": 3.124559,
+    "transactions": [
+      {
+        "date": "2020-08-28",
+        "priceEur": 440000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "ecd77e08146e": {
+    "id": "ecd77e08146e",
+    "label": "36 RUE CALMETTE GUERIN, Ennevelin",
+    "lat": 50.543389,
+    "lng": 3.126759,
+    "transactions": [
+      {
+        "date": "2020-12-30",
+        "priceEur": 232000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "bbd6b0d35a5b": {
+    "id": "bbd6b0d35a5b",
+    "label": "8B RUE CALMETTE GUERIN, Ennevelin",
+    "lat": 50.542038,
+    "lng": 3.127336,
+    "transactions": [
+      {
+        "date": "2021-02-18",
+        "priceEur": 326000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "735c88ec2938": {
+    "id": "735c88ec2938",
+    "label": "19 RUE PIERRE ET MARIE CURIE, Ennevelin",
+    "lat": 50.541963,
+    "lng": 3.129721,
+    "transactions": [
+      {
+        "date": "2021-03-16",
+        "priceEur": 290000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "412ed8b3b656": {
+    "id": "412ed8b3b656",
+    "label": "5020 RUE CALMETTE GUERIN, Ennevelin",
+    "lat": 50.543726,
+    "lng": 3.126396,
+    "transactions": [
+      {
+        "date": "2021-03-25",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "38c1a2960c82": {
+    "id": "38c1a2960c82",
+    "label": "4 RUE VICTOR HUGO, Ennevelin",
+    "lat": 50.542489,
+    "lng": 3.12954,
+    "transactions": [
+      {
+        "date": "2021-06-05",
+        "priceEur": 243000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "f24d3d477cde": {
+    "id": "f24d3d477cde",
+    "label": "18 RUE PIERRE ET MARIE CURIE, Ennevelin",
+    "lat": 50.541374,
+    "lng": 3.129213,
+    "transactions": [
+      {
+        "date": "2021-07-15",
+        "priceEur": 512000,
+        "typeLocal": "Maison",
+        "surfaceM2": 220,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e455998cf1e": {
+    "id": "1e455998cf1e",
+    "label": "27 RUE CALMETTE GUERIN, Ennevelin",
+    "lat": 50.542142,
+    "lng": 3.126307,
+    "transactions": [
+      {
+        "date": "2022-05-04",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-10",
+        "priceEur": 221000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "452a8fa0dbda": {
+    "id": "452a8fa0dbda",
+    "label": "25 RUE CALMETTE GUERIN, Ennevelin",
+    "lat": 50.542085,
+    "lng": 3.126212,
+    "transactions": [
+      {
+        "date": "2022-03-09",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-10",
+        "priceEur": 221000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "7705114247a3": {
+    "id": "7705114247a3",
+    "label": "11 RUE LAVOISIER, Ennevelin",
+    "lat": 50.542299,
+    "lng": 3.125279,
+    "transactions": [
+      {
+        "date": "2021-11-24",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "46b4b4c01a34": {
+    "id": "46b4b4c01a34",
+    "label": "5 RUE DES CARRES JARDINS, Ennevelin",
+    "lat": 50.545179,
+    "lng": 3.127228,
+    "transactions": [
+      {
+        "date": "2021-12-10",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1e1c62d1651": {
+    "id": "e1e1c62d1651",
+    "label": "50 RUE CALMETTE GUERIN, Ennevelin",
+    "lat": 50.544032,
+    "lng": 3.126355,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2d08bdc7dff": {
+    "id": "c2d08bdc7dff",
+    "label": "20 RUE JULES GUESDE, Ennevelin",
+    "lat": 50.543281,
+    "lng": 3.124276,
+    "transactions": [
+      {
+        "date": "2022-02-01",
+        "priceEur": 445770,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "62c3b19c6812": {
+    "id": "62c3b19c6812",
+    "label": "16 RUE DE LA PLAINE, Ennevelin",
+    "lat": 50.544644,
+    "lng": 3.127149,
+    "transactions": [
+      {
+        "date": "2022-03-14",
+        "priceEur": 377000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ed49b4f4cff": {
+    "id": "6ed49b4f4cff",
+    "label": "10 RUE JULES GUESDE, Ennevelin",
+    "lat": 50.541837,
+    "lng": 3.124852,
+    "transactions": [
+      {
+        "date": "2022-04-01",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "e6808b1d26d5": {
+    "id": "e6808b1d26d5",
+    "label": "35 RUE DE L'ARTOIS, Ennevelin",
+    "lat": 50.543527,
+    "lng": 3.126994,
+    "transactions": [
+      {
+        "date": "2022-04-25",
+        "priceEur": 279900,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "46cc29300d20": {
+    "id": "46cc29300d20",
+    "label": "8 RUE DE LA CROISEE DES CHEMINS, Ennevelin",
+    "lat": 50.543806,
+    "lng": 3.128325,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 444000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "3d10c14ac0d6": {
+    "id": "3d10c14ac0d6",
+    "label": "28 RUE PIERRE ET MARIE CURIE, Ennevelin",
+    "lat": 50.54153,
+    "lng": 3.130078,
+    "transactions": [
+      {
+        "date": "2022-10-10",
+        "priceEur": 403350,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "64683933f9da": {
+    "id": "64683933f9da",
+    "label": "4 RUE JULES GUESDE, Ennevelin",
+    "lat": 50.541587,
+    "lng": 3.124715,
+    "transactions": [
+      {
+        "date": "2022-11-03",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "3349934c2a31": {
+    "id": "3349934c2a31",
+    "label": "27 RUE PIERRE ET MARIE CURIE, Ennevelin",
+    "lat": 50.541778,
+    "lng": 3.130807,
+    "transactions": [
+      {
+        "date": "2022-12-16",
+        "priceEur": 383200,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "eaca0749da7b": {
+    "id": "eaca0749da7b",
+    "label": "2 RUE DE LA CORNETTE, Ennevelin",
+    "lat": 50.54287,
+    "lng": 3.125447,
+    "transactions": [
+      {
+        "date": "2022-12-26",
+        "priceEur": 438000,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "43b387c00e98": {
+    "id": "43b387c00e98",
+    "label": "11 RUE CALMETTE GUERIN, Ennevelin",
+    "lat": 50.541685,
+    "lng": 3.127111,
+    "transactions": [
+      {
+        "date": "2023-03-28",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "9cc9e4f1046c": {
+    "id": "9cc9e4f1046c",
+    "label": "12 RUE CALMETTE GUERIN, Ennevelin",
+    "lat": 50.54306,
+    "lng": 3.127645,
+    "transactions": [
+      {
+        "date": "2023-04-03",
+        "priceEur": 390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "0413ccdb9d26": {
+    "id": "0413ccdb9d26",
+    "label": "20 RUE DE LA PLAINE, Ennevelin",
+    "lat": 50.544407,
+    "lng": 3.127288,
+    "transactions": [
+      {
+        "date": "2023-04-21",
+        "priceEur": 448700,
+        "typeLocal": "Maison",
+        "surfaceM2": 159,
+        "isVefa": false
+      }
+    ]
+  },
+  "979704f4013c": {
+    "id": "979704f4013c",
+    "label": "7 RUE DES CARRES JARDINS, Ennevelin",
+    "lat": 50.545361,
+    "lng": 3.127324,
+    "transactions": [
+      {
+        "date": "2023-05-30",
+        "priceEur": 345000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "abc2d2e07670": {
+    "id": "abc2d2e07670",
+    "label": "30 RUE DU MOULIN, Ennevelin",
+    "lat": 50.541554,
+    "lng": 3.12352,
+    "transactions": [
+      {
+        "date": "2023-06-09",
+        "priceEur": 408000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "361aa4b5789e": {
+    "id": "361aa4b5789e",
+    "label": "12 RUE DE L'ARTOIS, Ennevelin",
+    "lat": 50.543012,
+    "lng": 3.128174,
+    "transactions": [
+      {
+        "date": "2023-07-03",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "529a976a0e1e": {
+    "id": "529a976a0e1e",
+    "label": "30 RUE CALMETTE GUERIN, Ennevelin",
+    "lat": 50.543168,
+    "lng": 3.126649,
+    "transactions": [
+      {
+        "date": "2023-12-26",
+        "priceEur": 254100,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "e5ec7a97e5e5": {
+    "id": "e5ec7a97e5e5",
+    "label": "2 RUE DE LA PLAINE, Ennevelin",
+    "lat": 50.544657,
+    "lng": 3.126053,
+    "transactions": [
+      {
+        "date": "2024-01-17",
+        "priceEur": 260545,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca44b7fa6ca3": {
+    "id": "ca44b7fa6ca3",
+    "label": "1 RUE DE LA CORNETTE, Ennevelin",
+    "lat": 50.542795,
+    "lng": 3.125746,
+    "transactions": [
+      {
+        "date": "2024-01-30",
+        "priceEur": 407000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "98b1671ede87": {
+    "id": "98b1671ede87",
+    "label": "1 RUE VICTOR HUGO, Ennevelin",
+    "lat": 50.54239,
+    "lng": 3.129183,
+    "transactions": [
+      {
+        "date": "2024-02-28",
+        "priceEur": 193000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "77df59c8c564": {
+    "id": "77df59c8c564",
+    "label": "32 RUE DU MOULIN, Ennevelin",
+    "lat": 50.541605,
+    "lng": 3.123265,
+    "transactions": [
+      {
+        "date": "2024-05-06",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "c41f7f788685": {
+    "id": "c41f7f788685",
+    "label": "20 RUE DE LA CROISEE DES CHEMINS, Ennevelin",
+    "lat": 50.545177,
+    "lng": 3.128041,
+    "transactions": [
+      {
+        "date": "2025-01-07",
+        "priceEur": 431000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0a6d4d0df33": {
+    "id": "a0a6d4d0df33",
+    "label": "24 RUE DE L'ARTOIS, Ennevelin",
+    "lat": 50.543579,
+    "lng": 3.128481,
+    "transactions": [
+      {
+        "date": "2025-02-05",
+        "priceEur": 231200,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "769cd95f2cf4": {
+    "id": "769cd95f2cf4",
+    "label": "14 RUE DE LA PLAINE, Ennevelin",
+    "lat": 50.544436,
+    "lng": 3.126949,
+    "transactions": [
+      {
+        "date": "2025-06-06",
+        "priceEur": 478150,
+        "typeLocal": "Maison",
+        "surfaceM2": 175,
+        "isVefa": false
+      }
+    ]
+  }
+}

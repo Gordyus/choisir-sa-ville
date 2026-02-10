@@ -1,0 +1,69 @@
+{
+  "1ca6b0ac3731": {
+    "id": "1ca6b0ac3731",
+    "label": "33 RTE DE LA COTE, La Poterie-Cap-d'Antifer",
+    "lat": 49.684596,
+    "lng": 0.178134,
+    "transactions": [
+      {
+        "date": "2021-12-22",
+        "priceEur": 247000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "481dbd9dc144": {
+    "id": "481dbd9dc144",
+    "label": "7 RUE DES CHATAIGNIERS, La Poterie-Cap-d'Antifer",
+    "lat": 49.68491,
+    "lng": 0.18185,
+    "transactions": [
+      {
+        "date": "2022-10-19",
+        "priceEur": 241300,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-14",
+        "priceEur": 323500,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "7d053b301d33": {
+    "id": "7d053b301d33",
+    "label": "7 IMP DES MESANGES, La Poterie-Cap-d'Antifer",
+    "lat": 49.68242,
+    "lng": 0.179004,
+    "transactions": [
+      {
+        "date": "2022-09-28",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e522e0fb1be": {
+    "id": "1e522e0fb1be",
+    "label": "29 RTE DE LA COTE, La Poterie-Cap-d'Antifer",
+    "lat": 49.683874,
+    "lng": 0.177976,
+    "transactions": [
+      {
+        "date": "2024-09-18",
+        "priceEur": 275000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  }
+}

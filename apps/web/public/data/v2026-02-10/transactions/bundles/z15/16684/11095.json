@@ -1,0 +1,92 @@
+{
+  "d29a62303a3d": {
+    "id": "d29a62303a3d",
+    "label": "1B RUE DES  PEUPLIERS, Wambaix",
+    "lat": 50.126521,
+    "lng": 3.305051,
+    "transactions": [
+      {
+        "date": "2021-12-27",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 290,
+        "isVefa": false
+      }
+    ]
+  },
+  "28a81d6be9bd": {
+    "id": "28a81d6be9bd",
+    "label": "5 CHE DE LONGSART, Wambaix",
+    "lat": 50.126565,
+    "lng": 3.306859,
+    "transactions": [
+      {
+        "date": "2022-07-12",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "e5b73c46b4ea": {
+    "id": "e5b73c46b4ea",
+    "label": "14 RUE DE LA CHAPELLE, Wambaix",
+    "lat": 50.127357,
+    "lng": 3.305695,
+    "transactions": [
+      {
+        "date": "2024-03-28",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "f833791c01bd": {
+    "id": "f833791c01bd",
+    "label": "1A RUE DES PEUPLIERS, Wambaix",
+    "lat": 50.126702,
+    "lng": 3.305339,
+    "transactions": [
+      {
+        "date": "2024-07-12",
+        "priceEur": 297480,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "0232bf126b65": {
+    "id": "0232bf126b65",
+    "label": "6 RUE DES PEUPLIERS, Wambaix",
+    "lat": 50.127213,
+    "lng": 3.305024,
+    "transactions": [
+      {
+        "date": "2024-07-26",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "f5d303160a8f": {
+    "id": "f5d303160a8f",
+    "label": "5 RUE DES PEUPLIERS, Wambaix",
+    "lat": 50.127555,
+    "lng": 3.303596,
+    "transactions": [
+      {
+        "date": "2024-09-05",
+        "priceEur": 169900,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  }
+}

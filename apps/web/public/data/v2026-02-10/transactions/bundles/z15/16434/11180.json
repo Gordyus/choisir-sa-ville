@@ -1,0 +1,62 @@
+{
+  "80f3aed25e7b": {
+    "id": "80f3aed25e7b",
+    "label": "8 AV RENE COTY, Lillebonne",
+    "lat": 49.523557,
+    "lng": 0.551422,
+    "transactions": [
+      {
+        "date": "2020-11-09",
+        "priceEur": 118550,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  },
+  "98796e7aaed3": {
+    "id": "98796e7aaed3",
+    "label": "9003 AV RENE COTY, Lillebonne",
+    "lat": 49.523148,
+    "lng": 0.551391,
+    "transactions": [
+      {
+        "date": "2022-02-23",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "57161b5214c0": {
+    "id": "57161b5214c0",
+    "label": "6 AV RENE COTY, Lillebonne",
+    "lat": 49.523476,
+    "lng": 0.551423,
+    "transactions": [
+      {
+        "date": "2023-01-06",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "6c7b6504fa94": {
+    "id": "6c7b6504fa94",
+    "label": "4T AV RENE COTY, Lillebonne",
+    "lat": 49.523148,
+    "lng": 0.551391,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "af5c81352de0": {
+    "id": "af5c81352de0",
+    "label": "1065 RTE DEPART DE SERIGNAN RD 19, Béziers",
+    "lat": 43.327094,
+    "lng": 3.221112,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c993a95dc9f": {
+    "id": "9c993a95dc9f",
+    "label": "21 AV DU PRADO, Béziers",
+    "lat": 43.332004,
+    "lng": 3.220751,
+    "transactions": [
+      {
+        "date": "2021-02-11",
+        "priceEur": 591000,
+        "typeLocal": "Maison",
+        "surfaceM2": 220,
+        "isVefa": false
+      }
+    ]
+  },
+  "783fb53fc705": {
+    "id": "783fb53fc705",
+    "label": "17 AV JOSEPH LAZARE, Béziers",
+    "lat": 43.332821,
+    "lng": 3.226155,
+    "transactions": [
+      {
+        "date": "2022-01-31",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "8534735f3c6c": {
+    "id": "8534735f3c6c",
+    "label": "23B AV JOSEPH LAZARE, Béziers",
+    "lat": 43.332646,
+    "lng": 3.227108,
+    "transactions": [
+      {
+        "date": "2022-08-11",
+        "priceEur": 112500,
+        "typeLocal": "Appartement",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "44b64a6be339": {
+    "id": "44b64a6be339",
+    "label": "1185 RTE DEPART DE SERIGNAN RD 19, Béziers",
+    "lat": 43.32924,
+    "lng": 3.222759,
+    "transactions": [
+      {
+        "date": "2022-09-20",
+        "priceEur": 445000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "f74053ec7c6e": {
+    "id": "f74053ec7c6e",
+    "label": "7 AV DU PRADO, Béziers",
+    "lat": 43.332565,
+    "lng": 3.223639,
+    "transactions": [
+      {
+        "date": "2024-10-28",
+        "priceEur": 219800,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  }
+}

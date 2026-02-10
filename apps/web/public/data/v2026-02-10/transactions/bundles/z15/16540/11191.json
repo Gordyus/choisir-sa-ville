@@ -1,0 +1,32 @@
+{
+  "e5ae477d2756": {
+    "id": "e5ae477d2756",
+    "label": "36 RUE DES CROISETTES, Ernemont-la-Villette",
+    "lat": 49.445883,
+    "lng": 1.721538,
+    "transactions": [
+      {
+        "date": "2022-06-10",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c804a55b9e6": {
+    "id": "1c804a55b9e6",
+    "label": "33 RUE DES CROISETTES, Ernemont-la-Villette",
+    "lat": 49.44652,
+    "lng": 1.721201,
+    "transactions": [
+      {
+        "date": "2024-09-03",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  }
+}

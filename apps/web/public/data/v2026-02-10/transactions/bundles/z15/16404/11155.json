@@ -1,0 +1,32 @@
+{
+  "9be45df86eaf": {
+    "id": "9be45df86eaf",
+    "label": "2 IMP DES CHARMILLES, Bordeaux-Saint-Clair",
+    "lat": 49.702829,
+    "lng": 0.226444,
+    "transactions": [
+      {
+        "date": "2024-02-13",
+        "priceEur": 252100,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "f3dba35e39b4": {
+    "id": "f3dba35e39b4",
+    "label": "18 RTE DE SAINT CLAIR, Bordeaux-Saint-Clair",
+    "lat": 49.702883,
+    "lng": 0.229132,
+    "transactions": [
+      {
+        "date": "2025-06-13",
+        "priceEur": 702500,
+        "typeLocal": "Maison",
+        "surfaceM2": 172,
+        "isVefa": false
+      }
+    ]
+  }
+}

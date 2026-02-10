@@ -1,0 +1,77 @@
+{
+  "0ae0ace6965b": {
+    "id": "0ae0ace6965b",
+    "label": "37 RUE DE POPERINGHE IMP CASERNE, Boeschepe",
+    "lat": 50.809878,
+    "lng": 2.69478,
+    "transactions": [
+      {
+        "date": "2020-12-30",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "764bf57a640d": {
+    "id": "764bf57a640d",
+    "label": "1155 RUE DE POPERINGHE, Boeschepe",
+    "lat": 50.809497,
+    "lng": 2.694914,
+    "transactions": [
+      {
+        "date": "2021-07-19",
+        "priceEur": 168000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d1a6a98149f": {
+    "id": "9d1a6a98149f",
+    "label": "1171 RUE DE POPERINGHE, Boeschepe",
+    "lat": 50.809651,
+    "lng": 2.695071,
+    "transactions": [
+      {
+        "date": "2022-03-18",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "955c9dde87fb": {
+    "id": "955c9dde87fb",
+    "label": "1195 RUE DE POPERINGHE, Boeschepe",
+    "lat": 50.80989,
+    "lng": 2.695162,
+    "transactions": [
+      {
+        "date": "2024-08-01",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "c66d6878ba76": {
+    "id": "c66d6878ba76",
+    "label": "17 RUE DE POPERINGHE IMP CASERNE, Boeschepe",
+    "lat": 50.809864,
+    "lng": 2.695061,
+    "transactions": [
+      {
+        "date": "2024-12-12",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  }
+}

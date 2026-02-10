@@ -1,0 +1,47 @@
+{
+  "625e2258ce1f": {
+    "id": "625e2258ce1f",
+    "label": "5030 VILLAGE D HERMANVILLE, Hermanville",
+    "lat": 49.817801,
+    "lng": 0.99303,
+    "transactions": [
+      {
+        "date": "2020-12-04",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2133ade46a7": {
+    "id": "a2133ade46a7",
+    "label": "14 RTE DE SAINT MARTIN, Hermanville",
+    "lat": 49.819588,
+    "lng": 0.988933,
+    "transactions": [
+      {
+        "date": "2021-06-23",
+        "priceEur": 85400,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "acc866c6a69c": {
+    "id": "acc866c6a69c",
+    "label": "3 IMP DE LA VIENNE, Hermanville",
+    "lat": 49.819043,
+    "lng": 0.98896,
+    "transactions": [
+      {
+        "date": "2023-07-18",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  }
+}

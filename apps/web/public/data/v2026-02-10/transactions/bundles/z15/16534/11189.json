@@ -1,0 +1,32 @@
+{
+  "65947397c1e6": {
+    "id": "65947397c1e6",
+    "label": "41 RTE PRINCIPALE, Bosc-Hyons",
+    "lat": 49.45603,
+    "lng": 1.649834,
+    "transactions": [
+      {
+        "date": "2021-12-16",
+        "priceEur": 73700,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "3f263954884f": {
+    "id": "3f263954884f",
+    "label": "43 RTE PRINCIPALE, Bosc-Hyons",
+    "lat": 49.45595,
+    "lng": 1.650282,
+    "transactions": [
+      {
+        "date": "2021-06-29",
+        "priceEur": 143500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

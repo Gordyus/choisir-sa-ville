@@ -1,0 +1,32 @@
+{
+  "6f17d16602e9": {
+    "id": "6f17d16602e9",
+    "label": "4233 RTE DES TOURTERELLES, Angerville-la-Martel",
+    "lat": 49.774862,
+    "lng": 0.503651,
+    "transactions": [
+      {
+        "date": "2024-10-19",
+        "priceEur": 322000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "6731fbc5cf70": {
+    "id": "6731fbc5cf70",
+    "label": "4235 RTE DES TOURTERELLES, Angerville-la-Martel",
+    "lat": 49.77471,
+    "lng": 0.502977,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 206000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "a291bbd94bb9": {
+    "id": "a291bbd94bb9",
+    "label": "5030 LE BOURG, Morgny-la-Pommeraye",
+    "lat": 49.512752,
+    "lng": 1.253617,
+    "transactions": [
+      {
+        "date": "2021-01-11",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "0799351f478b": {
+    "id": "0799351f478b",
+    "label": "220 RUE DE L'EGLISE, Morgny-la-Pommeraye",
+    "lat": 49.511898,
+    "lng": 1.255097,
+    "transactions": [
+      {
+        "date": "2021-03-03",
+        "priceEur": 218000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "89c1bd419cff": {
+    "id": "89c1bd419cff",
+    "label": "723 RUE DE L'EGLISE, Morgny-la-Pommeraye",
+    "lat": 49.512188,
+    "lng": 1.252871,
+    "transactions": [
+      {
+        "date": "2021-06-23",
+        "priceEur": 374000,
+        "typeLocal": "Maison",
+        "surfaceM2": 179,
+        "isVefa": false
+      }
+    ]
+  },
+  "1061bd5b5488": {
+    "id": "1061bd5b5488",
+    "label": "729 RUE DE L'EGLISE, Morgny-la-Pommeraye",
+    "lat": 49.511854,
+    "lng": 1.252785,
+    "transactions": [
+      {
+        "date": "2022-02-23",
+        "priceEur": 314700,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "ecb95c4b0887": {
+    "id": "ecb95c4b0887",
+    "label": "689 RUE DE L'EGLISE, Morgny-la-Pommeraye",
+    "lat": 49.511745,
+    "lng": 1.253598,
+    "transactions": [
+      {
+        "date": "2023-02-20",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "cfacb44abb5b": {
+    "id": "cfacb44abb5b",
+    "label": "5022 LE BOURG, Morgny-la-Pommeraye",
+    "lat": 49.511218,
+    "lng": 1.254733,
+    "transactions": [
+      {
+        "date": "2023-03-31",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "255f5c80c6b6": {
+    "id": "255f5c80c6b6",
+    "label": "5031 LE BOURG, Morgny-la-Pommeraye",
+    "lat": 49.512056,
+    "lng": 1.25361,
+    "transactions": [
+      {
+        "date": "2024-07-19",
+        "priceEur": 359700,
+        "typeLocal": "Maison",
+        "surfaceM2": 199,
+        "isVefa": false
+      }
+    ]
+  }
+}

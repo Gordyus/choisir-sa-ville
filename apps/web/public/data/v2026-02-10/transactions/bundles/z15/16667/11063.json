@@ -1,0 +1,32 @@
+{
+  "8fa3794598d2": {
+    "id": "8fa3794598d2",
+    "label": "491 RUE DE ROUCOURT, Sin-le-Noble",
+    "lat": 50.351961,
+    "lng": 3.11967,
+    "transactions": [
+      {
+        "date": "2023-07-12",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c7471f585fc": {
+    "id": "7c7471f585fc",
+    "label": "673 RUE PAUL FOUCAULT, Sin-le-Noble",
+    "lat": 50.35094,
+    "lng": 3.109339,
+    "transactions": [
+      {
+        "date": "2023-10-24",
+        "priceEur": 234600,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  }
+}

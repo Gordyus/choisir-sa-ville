@@ -1,0 +1,47 @@
+{
+  "2382066e730a": {
+    "id": "2382066e730a",
+    "label": "2297 RUE DE LA GARE, Boeschepe",
+    "lat": 50.815694,
+    "lng": 2.675547,
+    "transactions": [
+      {
+        "date": "2021-02-15",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a6dd5985007": {
+    "id": "4a6dd5985007",
+    "label": "2341 RUE DE LA GARE, Boeschepe",
+    "lat": 50.816519,
+    "lng": 2.676459,
+    "transactions": [
+      {
+        "date": "2021-11-26",
+        "priceEur": 228000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ace049697a6": {
+    "id": "7ace049697a6",
+    "label": "1880 RUE DE LA GARE, Boeschepe",
+    "lat": 50.812932,
+    "lng": 2.679475,
+    "transactions": [
+      {
+        "date": "2024-10-18",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  }
+}

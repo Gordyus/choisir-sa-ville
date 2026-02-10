@@ -1,0 +1,32 @@
+{
+  "43cff973dc4c": {
+    "id": "43cff973dc4c",
+    "label": "17 IMP DU CHEMIN VERT, Belleville-en-Caux",
+    "lat": 49.708171,
+    "lng": 0.989613,
+    "transactions": [
+      {
+        "date": "2021-10-11",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 15,
+        "isVefa": false
+      }
+    ]
+  },
+  "9a1c1b98e562": {
+    "id": "9a1c1b98e562",
+    "label": "6 RUE DE LA FRESNAY, Belleville-en-Caux",
+    "lat": 49.704523,
+    "lng": 0.988779,
+    "transactions": [
+      {
+        "date": "2024-05-30",
+        "priceEur": 249150,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

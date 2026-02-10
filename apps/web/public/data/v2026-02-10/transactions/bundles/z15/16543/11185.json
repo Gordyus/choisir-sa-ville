@@ -1,0 +1,32 @@
+{
+  "8fb23a0d3050": {
+    "id": "8fb23a0d3050",
+    "label": "5315A LA CROIX VERTE, Ferrières-en-Bray",
+    "lat": 49.488869,
+    "lng": 1.753611,
+    "transactions": [
+      {
+        "date": "2021-12-03",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "de9aad34e4e5": {
+    "id": "de9aad34e4e5",
+    "label": "20 RES LES ARGILIERES, Ferrières-en-Bray",
+    "lat": 49.488124,
+    "lng": 1.747079,
+    "transactions": [
+      {
+        "date": "2023-07-21",
+        "priceEur": 265450,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  }
+}

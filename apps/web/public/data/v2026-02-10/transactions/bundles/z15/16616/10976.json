@@ -1,0 +1,47 @@
+{
+  "521eb00ba3d2": {
+    "id": "521eb00ba3d2",
+    "label": "3 RUE PHILIPPE DE GIRARD, Killem",
+    "lat": 50.958398,
+    "lng": 2.557109,
+    "transactions": [
+      {
+        "date": "2020-10-09",
+        "priceEur": 313342,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "a3378060285d": {
+    "id": "a3378060285d",
+    "label": "1 RUE DES ACACIAS, Killem",
+    "lat": 50.957202,
+    "lng": 2.558848,
+    "transactions": [
+      {
+        "date": "2024-01-25",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b84eeb19414": {
+    "id": "5b84eeb19414",
+    "label": "8 RTE DE ST OMER, Killem",
+    "lat": 50.958269,
+    "lng": 2.558961,
+    "transactions": [
+      {
+        "date": "2024-07-18",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  }
+}

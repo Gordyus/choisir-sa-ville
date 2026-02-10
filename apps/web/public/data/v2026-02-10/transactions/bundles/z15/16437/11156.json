@@ -1,0 +1,77 @@
+{
+  "79ba5dc8b125": {
+    "id": "79ba5dc8b125",
+    "label": "170 RUE DU CHATEAU D EAU, Normanville",
+    "lat": 49.694716,
+    "lng": 0.590751,
+    "transactions": [
+      {
+        "date": "2021-12-03",
+        "priceEur": 182000,
+        "typeLocal": "Maison",
+        "surfaceM2": 191,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b949ad95a0d": {
+    "id": "7b949ad95a0d",
+    "label": "196 RUE DU CHATEAU D EAU, Normanville",
+    "lat": 49.694077,
+    "lng": 0.591384,
+    "transactions": [
+      {
+        "date": "2022-12-27",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "02a33afcbbd7": {
+    "id": "02a33afcbbd7",
+    "label": "153 RUE DES PETITS JARDINS, Normanville",
+    "lat": 49.695401,
+    "lng": 0.591193,
+    "transactions": [
+      {
+        "date": "2024-01-26",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8cf44b552a7": {
+    "id": "e8cf44b552a7",
+    "label": "55 RUE DES PETITS JARDINS, Normanville",
+    "lat": 49.695376,
+    "lng": 0.592689,
+    "transactions": [
+      {
+        "date": "2024-07-26",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ae2d8b96948": {
+    "id": "6ae2d8b96948",
+    "label": "62 RUE DU CHATEAU D EAU, Normanville",
+    "lat": 49.695371,
+    "lng": 0.591968,
+    "transactions": [
+      {
+        "date": "2024-08-28",
+        "priceEur": 271500,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

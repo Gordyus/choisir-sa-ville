@@ -1,0 +1,107 @@
+{
+  "3acd25fda163": {
+    "id": "3acd25fda163",
+    "label": "168 VC ROMAINE, Lynde",
+    "lat": 50.728183,
+    "lng": 2.46895,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 172,
+        "isVefa": false
+      }
+    ]
+  },
+  "380aceb4de40": {
+    "id": "380aceb4de40",
+    "label": "92 LA RUE DU DOM DES TILLEULS, Lynde",
+    "lat": 50.727888,
+    "lng": 2.469066,
+    "transactions": [
+      {
+        "date": "2022-02-28",
+        "priceEur": 275190,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d884a67b4b8": {
+    "id": "6d884a67b4b8",
+    "label": "145 VOIE ROMAINE, Wallon-Cappel",
+    "lat": 50.728039,
+    "lng": 2.470205,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 490000,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  },
+  "50eff61b4159": {
+    "id": "50eff61b4159",
+    "label": "87 RTE D HAZEBROUCK, Wallon-Cappel",
+    "lat": 50.725161,
+    "lng": 2.471854,
+    "transactions": [
+      {
+        "date": "2023-08-29",
+        "priceEur": 223000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "5897f2c5f232": {
+    "id": "5897f2c5f232",
+    "label": "594 VC ROMAINE, Lynde",
+    "lat": 50.724569,
+    "lng": 2.468616,
+    "transactions": [
+      {
+        "date": "2023-11-27",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "19107b7435d7": {
+    "id": "19107b7435d7",
+    "label": "255 RUE DU COEVOET, Wallon-Cappel",
+    "lat": 50.727792,
+    "lng": 2.471371,
+    "transactions": [
+      {
+        "date": "2024-02-21",
+        "priceEur": 411500,
+        "typeLocal": "Maison",
+        "surfaceM2": 177,
+        "isVefa": false
+      }
+    ]
+  },
+  "369ca3b043af": {
+    "id": "369ca3b043af",
+    "label": "108 LA RUE DU DOM DES TILLEULS, Lynde",
+    "lat": 50.727887,
+    "lng": 2.468535,
+    "transactions": [
+      {
+        "date": "2024-08-30",
+        "priceEur": 529700,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  }
+}

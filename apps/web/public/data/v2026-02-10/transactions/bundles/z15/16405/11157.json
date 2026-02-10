@@ -1,0 +1,69 @@
+{
+  "ac4f31a344cb": {
+    "id": "ac4f31a344cb",
+    "label": "38 RTE D'EPIVENT, Bordeaux-Saint-Clair",
+    "lat": 49.687977,
+    "lng": 0.240169,
+    "transactions": [
+      {
+        "date": "2023-06-22",
+        "priceEur": 438000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-17",
+        "priceEur": 348000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff5bed9d932f": {
+    "id": "ff5bed9d932f",
+    "label": "23 RTE D'EPIVENT, Bordeaux-Saint-Clair",
+    "lat": 49.685558,
+    "lng": 0.236478,
+    "transactions": [
+      {
+        "date": "2021-06-22",
+        "priceEur": 188500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a2dbb2e014a": {
+    "id": "5a2dbb2e014a",
+    "label": "44B RTE D'EPIVENT, Bordeaux-Saint-Clair",
+    "lat": 49.686869,
+    "lng": 0.237451,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 250200,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb30c429f8c6": {
+    "id": "bb30c429f8c6",
+    "label": "52 RTE D'EPIVENT, Bordeaux-Saint-Clair",
+    "lat": 49.686709,
+    "lng": 0.235849,
+    "transactions": [
+      {
+        "date": "2025-05-23",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

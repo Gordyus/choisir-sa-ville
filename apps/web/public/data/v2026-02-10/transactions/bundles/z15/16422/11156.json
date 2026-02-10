@@ -1,0 +1,62 @@
+{
+  "543c7e7136e2": {
+    "id": "543c7e7136e2",
+    "label": "549 IMP DE PETREVAL, Mentheville",
+    "lat": 49.695224,
+    "lng": 0.418433,
+    "transactions": [
+      {
+        "date": "2021-01-05",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "5da5d2b22356": {
+    "id": "5da5d2b22356",
+    "label": "5001 MENTHEVILLE VILLAGE, Mentheville",
+    "lat": 49.694473,
+    "lng": 0.417981,
+    "transactions": [
+      {
+        "date": "2021-04-12",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0329f6a31c3": {
+    "id": "a0329f6a31c3",
+    "label": "524 IMP DE PETREVAL, Mentheville",
+    "lat": 49.694716,
+    "lng": 0.418841,
+    "transactions": [
+      {
+        "date": "2023-12-07",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "4428a753444e": {
+    "id": "4428a753444e",
+    "label": "501 IMP DE PETREVAL, Mentheville",
+    "lat": 49.694956,
+    "lng": 0.417919,
+    "transactions": [
+      {
+        "date": "2024-09-05",
+        "priceEur": 258750,
+        "typeLocal": "Maison",
+        "surfaceM2": 177,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "579bb1e9605a": {
+    "id": "579bb1e9605a",
+    "label": "22 ENITOT HAMEAU, Saint-Martin-du-Manoir",
+    "lat": 49.543216,
+    "lng": 0.2371,
+    "transactions": [
+      {
+        "date": "2021-03-12",
+        "priceEur": 460800,
+        "typeLocal": "Maison",
+        "surfaceM2": 300,
+        "isVefa": false
+      }
+    ]
+  },
+  "b2cbbfaf05d4": {
+    "id": "b2cbbfaf05d4",
+    "label": "29 ENITOT HAMEAU, Saint-Martin-du-Manoir",
+    "lat": 49.543593,
+    "lng": 0.235652,
+    "transactions": [
+      {
+        "date": "2022-02-28",
+        "priceEur": 282000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "73da907bf066": {
+    "id": "73da907bf066",
+    "label": "5001 RTE D'ENITOT, Saint-Martin-du-Manoir",
+    "lat": 49.542242,
+    "lng": 0.237208,
+    "transactions": [
+      {
+        "date": "2022-07-08",
+        "priceEur": 686750,
+        "typeLocal": "Maison",
+        "surfaceM2": 260,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1014051c8e5": {
+    "id": "f1014051c8e5",
+    "label": "15 ENITOT HAMEAU, Saint-Martin-du-Manoir",
+    "lat": 49.541858,
+    "lng": 0.236131,
+    "transactions": [
+      {
+        "date": "2023-03-23",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  }
+}

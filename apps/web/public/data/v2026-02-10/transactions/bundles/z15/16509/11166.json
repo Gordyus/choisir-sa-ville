@@ -1,0 +1,92 @@
+{
+  "3f032776287a": {
+    "id": "3f032776287a",
+    "label": "133 CHE DU CHATEAU, Mathonville",
+    "lat": 49.620127,
+    "lng": 1.384203,
+    "transactions": [
+      {
+        "date": "2020-10-23",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "e1016aead775": {
+    "id": "e1016aead775",
+    "label": "5370 RTE DE SAVEAUMARE, Mathonville",
+    "lat": 49.622134,
+    "lng": 1.377227,
+    "transactions": [
+      {
+        "date": "2022-04-13",
+        "priceEur": 204000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  },
+  "d71afc81ecb7": {
+    "id": "d71afc81ecb7",
+    "label": "336B RTE DE SAVEAUMARE, Mathonville",
+    "lat": 49.621137,
+    "lng": 1.374563,
+    "transactions": [
+      {
+        "date": "2022-07-11",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "c9331259818d": {
+    "id": "c9331259818d",
+    "label": "5091 LE BOURG, Mathonville",
+    "lat": 49.621405,
+    "lng": 1.382926,
+    "transactions": [
+      {
+        "date": "2022-08-25",
+        "priceEur": 251000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "e111393c1709": {
+    "id": "e111393c1709",
+    "label": "100 RTE DE NEUFBOSC, Mathonville",
+    "lat": 49.623634,
+    "lng": 1.379314,
+    "transactions": [
+      {
+        "date": "2022-11-02",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "226036678360": {
+    "id": "226036678360",
+    "label": "5009 LE BOURG, Mathonville",
+    "lat": 49.621612,
+    "lng": 1.381542,
+    "transactions": [
+      {
+        "date": "2023-11-09",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  }
+}

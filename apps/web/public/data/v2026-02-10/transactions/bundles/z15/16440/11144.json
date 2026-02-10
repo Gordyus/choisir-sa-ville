@@ -1,0 +1,54 @@
+{
+  "5ba7db72da0b": {
+    "id": "5ba7db72da0b",
+    "label": "6228 VINFRAINVILLE OUEST, Cany-Barville",
+    "lat": 49.778755,
+    "lng": 0.615591,
+    "transactions": [
+      {
+        "date": "2024-04-20",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-06",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "675d9b93cf9c": {
+    "id": "675d9b93cf9c",
+    "label": "16 VINFRAINVILLE, Cany-Barville",
+    "lat": 49.779886,
+    "lng": 0.620479,
+    "transactions": [
+      {
+        "date": "2022-06-13",
+        "priceEur": 179500,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "5edf867c59a7": {
+    "id": "5edf867c59a7",
+    "label": "11 VINFRAINVILLE, Cany-Barville",
+    "lat": 49.778242,
+    "lng": 0.616354,
+    "transactions": [
+      {
+        "date": "2023-10-25",
+        "priceEur": 261397,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

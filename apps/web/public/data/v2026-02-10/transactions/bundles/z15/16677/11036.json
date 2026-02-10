@@ -1,0 +1,84 @@
+{
+  "47239a611fca": {
+    "id": "47239a611fca",
+    "label": "557 RTE DE COBRIEUX, Genech",
+    "lat": 50.535557,
+    "lng": 3.219945,
+    "transactions": [
+      {
+        "date": "2022-06-01",
+        "priceEur": 152000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-24",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1b043d54b4f": {
+    "id": "f1b043d54b4f",
+    "label": "5B RUE A POIS, Cobrieux",
+    "lat": 50.540891,
+    "lng": 3.224943,
+    "transactions": [
+      {
+        "date": "2022-10-31",
+        "priceEur": 413300,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "0d56c759de82": {
+    "id": "0d56c759de82",
+    "label": "9B RUE A POIS, Cobrieux",
+    "lat": 50.540634,
+    "lng": 3.224236,
+    "transactions": [
+      {
+        "date": "2022-12-20",
+        "priceEur": 323950,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "d42123ba4824": {
+    "id": "d42123ba4824",
+    "label": "1368 RTE DE COBRIEUX, Genech",
+    "lat": 50.541299,
+    "lng": 3.221946,
+    "transactions": [
+      {
+        "date": "2023-10-05",
+        "priceEur": 431000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "23494a527063": {
+    "id": "23494a527063",
+    "label": "7 RUE A POIS, Cobrieux",
+    "lat": 50.540803,
+    "lng": 3.224538,
+    "transactions": [
+      {
+        "date": "2025-02-20",
+        "priceEur": 259000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  }
+}

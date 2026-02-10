@@ -1,0 +1,32 @@
+{
+  "1e888344ad9e": {
+    "id": "1e888344ad9e",
+    "label": "1 RUE DU FORAGE, Emmerin",
+    "lat": 50.583613,
+    "lng": 3.014684,
+    "transactions": [
+      {
+        "date": "2021-11-29",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "82a80663c1ee": {
+    "id": "82a80663c1ee",
+    "label": "1 RUE DE LA SOURCE, Emmerin",
+    "lat": 50.583969,
+    "lng": 3.010268,
+    "transactions": [
+      {
+        "date": "2025-03-28",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  }
+}

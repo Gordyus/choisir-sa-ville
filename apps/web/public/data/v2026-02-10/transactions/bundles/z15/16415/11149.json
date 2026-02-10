@@ -1,0 +1,114 @@
+{
+  "51acfe1ca043": {
+    "id": "51acfe1ca043",
+    "label": "165 RTE DE GRAINVAL, Saint-Léonard",
+    "lat": 49.745624,
+    "lng": 0.346459,
+    "transactions": [
+      {
+        "date": "2024-03-26",
+        "priceEur": 288000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-28",
+        "priceEur": 61000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "cfa2bbc33336": {
+    "id": "cfa2bbc33336",
+    "label": "126 RTE DE GRAINVAL, Saint-Léonard",
+    "lat": 49.742905,
+    "lng": 0.347208,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 369000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "c84ce39e04fb": {
+    "id": "c84ce39e04fb",
+    "label": "121 RTE DE GRAINVAL, Saint-Léonard",
+    "lat": 49.742363,
+    "lng": 0.346424,
+    "transactions": [
+      {
+        "date": "2021-10-01",
+        "priceEur": 78000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e8785528e29": {
+    "id": "4e8785528e29",
+    "label": "144 RTE DE GRAINVAL, Saint-Léonard",
+    "lat": 49.744585,
+    "lng": 0.347324,
+    "transactions": [
+      {
+        "date": "2021-11-29",
+        "priceEur": 76000,
+        "typeLocal": "Maison",
+        "surfaceM2": 22,
+        "isVefa": false
+      }
+    ]
+  },
+  "40c5590ad207": {
+    "id": "40c5590ad207",
+    "label": "143 RTE DE GRAINVAL, Saint-Léonard",
+    "lat": 49.743835,
+    "lng": 0.346633,
+    "transactions": [
+      {
+        "date": "2023-06-08",
+        "priceEur": 153000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "2eec5c95b042": {
+    "id": "2eec5c95b042",
+    "label": "145 RTE DE GRAINVAL, Saint-Léonard",
+    "lat": 49.74396,
+    "lng": 0.346545,
+    "transactions": [
+      {
+        "date": "2023-08-08",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "fad340574dfa": {
+    "id": "fad340574dfa",
+    "label": "135 RTE DE GRAINVAL, Saint-Léonard",
+    "lat": 49.743579,
+    "lng": 0.346347,
+    "transactions": [
+      {
+        "date": "2023-09-08",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

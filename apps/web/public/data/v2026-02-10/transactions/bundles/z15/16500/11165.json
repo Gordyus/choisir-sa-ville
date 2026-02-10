@@ -1,0 +1,114 @@
+{
+  "ca4fd84a0313": {
+    "id": "ca4fd84a0313",
+    "label": "5393 LA PREE, Saint-Martin-Osmonville",
+    "lat": 49.631244,
+    "lng": 1.276334,
+    "transactions": [
+      {
+        "date": "2022-09-05",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-10",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "47dc484fa888": {
+    "id": "47dc484fa888",
+    "label": "5189 LA PREE, Saint-Martin-Osmonville",
+    "lat": 49.62651,
+    "lng": 1.278773,
+    "transactions": [
+      {
+        "date": "2020-12-11",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "2be5e3d612c1": {
+    "id": "2be5e3d612c1",
+    "label": "389 RUE DE L INTERIEUR DE LA PREE, Saint-Martin-Osmonville",
+    "lat": 49.630413,
+    "lng": 1.277159,
+    "transactions": [
+      {
+        "date": "2021-01-19",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "37df8ae473bf": {
+    "id": "37df8ae473bf",
+    "label": "458 RUE DE L'INTERIEUR, Saint-Martin-Osmonville",
+    "lat": 49.631007,
+    "lng": 1.276733,
+    "transactions": [
+      {
+        "date": "2021-03-19",
+        "priceEur": 221000,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "55abea996aa6": {
+    "id": "55abea996aa6",
+    "label": "5362 LA PREE, Saint-Martin-Osmonville",
+    "lat": 49.626475,
+    "lng": 1.282285,
+    "transactions": [
+      {
+        "date": "2022-06-01",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "ead9e7fc4ea6": {
+    "id": "ead9e7fc4ea6",
+    "label": "5275 LA PREE, Saint-Martin-Osmonville",
+    "lat": 49.626371,
+    "lng": 1.279576,
+    "transactions": [
+      {
+        "date": "2022-06-30",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "6d3110141ad3": {
+    "id": "6d3110141ad3",
+    "label": "345 RUE DE L INTERIEUR DE LA PREE, Saint-Martin-Osmonville",
+    "lat": 49.630348,
+    "lng": 1.277505,
+    "transactions": [
+      {
+        "date": "2022-12-29",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 167,
+        "isVefa": false
+      }
+    ]
+  }
+}

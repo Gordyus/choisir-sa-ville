@@ -1,0 +1,32 @@
+{
+  "b3cb0e921382": {
+    "id": "b3cb0e921382",
+    "label": "5020 LA MARE DUPUIS, Lintot",
+    "lat": 49.568042,
+    "lng": 0.558428,
+    "transactions": [
+      {
+        "date": "2020-12-15",
+        "priceEur": 203040,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f21b20073e6": {
+    "id": "9f21b20073e6",
+    "label": "5102 LE FAUX BUISSON, Lintot",
+    "lat": 49.569136,
+    "lng": 0.560073,
+    "transactions": [
+      {
+        "date": "2021-12-16",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  }
+}

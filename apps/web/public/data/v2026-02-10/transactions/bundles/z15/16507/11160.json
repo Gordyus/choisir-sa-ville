@@ -1,0 +1,32 @@
+{
+  "066d77388d29": {
+    "id": "066d77388d29",
+    "label": "357 RTE DU CENTRE, Bosc-Mesnil",
+    "lat": 49.662711,
+    "lng": 1.353287,
+    "transactions": [
+      {
+        "date": "2022-03-24",
+        "priceEur": 227525,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "1cceac3a7401": {
+    "id": "1cceac3a7401",
+    "label": "183 RTE DU CENTRE, Bosc-Mesnil",
+    "lat": 49.662827,
+    "lng": 1.355455,
+    "transactions": [
+      {
+        "date": "2024-02-23",
+        "priceEur": 57500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "93153581b01b": {
+    "id": "93153581b01b",
+    "label": "126 SAINTE BEUVE AUX CHAMPS, Le Caule-Sainte-Beuve",
+    "lat": 49.77071,
+    "lng": 1.61235,
+    "transactions": [
+      {
+        "date": "2023-01-27",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "4992431beb67": {
+    "id": "4992431beb67",
+    "label": "105 SAINTE BEUVE AUX CHAMPS, Le Caule-Sainte-Beuve",
+    "lat": 49.770529,
+    "lng": 1.607088,
+    "transactions": [
+      {
+        "date": "2023-02-25",
+        "priceEur": 25000,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "172c2b6e20fa": {
+    "id": "172c2b6e20fa",
+    "label": "29 RTE DE SAINTE BEUVE, Le Caule-Sainte-Beuve",
+    "lat": 49.770977,
+    "lng": 1.611256,
+    "transactions": [
+      {
+        "date": "2025-01-27",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  }
+}

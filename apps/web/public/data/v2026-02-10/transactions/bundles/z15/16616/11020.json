@@ -1,0 +1,24 @@
+{
+  "93f67b273b4a": {
+    "id": "93f67b273b4a",
+    "label": "850 RUE VERTE, Haverskerque",
+    "lat": 50.647318,
+    "lng": 2.550042,
+    "transactions": [
+      {
+        "date": "2024-09-11",
+        "priceEur": 401800,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-17",
+        "priceEur": 390200,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  }
+}

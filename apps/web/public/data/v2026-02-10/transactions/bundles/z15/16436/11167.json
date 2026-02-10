@@ -1,0 +1,32 @@
+{
+  "fb8528622ec4": {
+    "id": "fb8528622ec4",
+    "label": "736 RTE DE LA MARE AUX ROSEAUX, Foucart",
+    "lat": 49.611936,
+    "lng": 0.574577,
+    "transactions": [
+      {
+        "date": "2020-07-24",
+        "priceEur": 186500,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "eb2c525f1608": {
+    "id": "eb2c525f1608",
+    "label": "150 RTE DE LA MARE AUX ROSEAUX, Foucart",
+    "lat": 49.614623,
+    "lng": 0.581729,
+    "transactions": [
+      {
+        "date": "2022-08-04",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  }
+}

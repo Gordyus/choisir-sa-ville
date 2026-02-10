@@ -1,0 +1,105 @@
+{
+  "c9203d567a6f": {
+    "id": "c9203d567a6f",
+    "label": "5195 LA MARE CARELLE, Saint-Eustache-la-Forêt",
+    "lat": 49.559924,
+    "lng": 0.442164,
+    "transactions": [
+      {
+        "date": "2022-08-24",
+        "priceEur": 728500,
+        "typeLocal": "Maison",
+        "surfaceM2": 260,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-24",
+        "priceEur": 728500,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-20",
+        "priceEur": 478500,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-20",
+        "priceEur": 478500,
+        "typeLocal": "Maison",
+        "surfaceM2": 260,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f53f6145828": {
+    "id": "1f53f6145828",
+    "label": "24 LA MARE CARELLE, Saint-Eustache-la-Forêt",
+    "lat": 49.559112,
+    "lng": 0.439518,
+    "transactions": [
+      {
+        "date": "2022-09-16",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "82ea795a36e9": {
+    "id": "82ea795a36e9",
+    "label": "22 LA MARE CARELLE, Saint-Eustache-la-Forêt",
+    "lat": 49.559128,
+    "lng": 0.439566,
+    "transactions": [
+      {
+        "date": "2025-02-05",
+        "priceEur": 107500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-08",
+        "priceEur": 28000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "d813f1e51c97": {
+    "id": "d813f1e51c97",
+    "label": "5560 LA MARE CARELLE, Saint-Eustache-la-Forêt",
+    "lat": 49.56059,
+    "lng": 0.446382,
+    "transactions": [
+      {
+        "date": "2024-05-24",
+        "priceEur": 206000,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8b8315e451c": {
+    "id": "f8b8315e451c",
+    "label": "412 LA MARE CARELLE, Saint-Eustache-la-Forêt",
+    "lat": 49.559777,
+    "lng": 0.443188,
+    "transactions": [
+      {
+        "date": "2024-08-23",
+        "priceEur": 184500,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  }
+}

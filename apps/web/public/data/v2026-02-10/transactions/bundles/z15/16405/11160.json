@@ -1,0 +1,106 @@
+{
+  "7e7f8dd8f46f": {
+    "id": "7e7f8dd8f46f",
+    "label": "12 RTE DE PIERREFIQUES, Villainville",
+    "lat": 49.664356,
+    "lng": 0.238219,
+    "transactions": [
+      {
+        "date": "2021-04-29",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "75e669c20c30": {
+    "id": "75e669c20c30",
+    "label": "1113 RTE D'ETRETAT, Villainville",
+    "lat": 49.663989,
+    "lng": 0.239296,
+    "transactions": [
+      {
+        "date": "2023-10-16",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-27",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "6249b680ca68": {
+    "id": "6249b680ca68",
+    "label": "5 RUE DU VILLAGE, Pierrefiques",
+    "lat": 49.665561,
+    "lng": 0.236534,
+    "transactions": [
+      {
+        "date": "2021-11-10",
+        "priceEur": 493550,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ac691431812": {
+    "id": "0ac691431812",
+    "label": "523 RUE DE LA FERME DE VILLAINVILL, Villainville",
+    "lat": 49.665212,
+    "lng": 0.241191,
+    "transactions": [
+      {
+        "date": "2021-11-08",
+        "priceEur": 199500,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "1cc033198258": {
+    "id": "1cc033198258",
+    "label": "5001 LA FORGE, Villainville",
+    "lat": 49.664644,
+    "lng": 0.236685,
+    "transactions": [
+      {
+        "date": "2021-12-23",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "6f795d712b41": {
+    "id": "6f795d712b41",
+    "label": "4 RTE DE PIERREFIQUES, Villainville",
+    "lat": 49.663808,
+    "lng": 0.239149,
+    "transactions": [
+      {
+        "date": "2025-03-19",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2025-03-19",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 41,
+        "isVefa": false
+      }
+    ]
+  }
+}

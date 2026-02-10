@@ -1,0 +1,129 @@
+{
+  "766bf275c823": {
+    "id": "766bf275c823",
+    "label": "52 RUE DES ECUYERS, Luneray",
+    "lat": 49.831117,
+    "lng": 0.927472,
+    "transactions": [
+      {
+        "date": "2020-08-10",
+        "priceEur": 62000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "8532dc8b3836": {
+    "id": "8532dc8b3836",
+    "label": "26 LOT LE VAL DES ECUYERS, Luneray",
+    "lat": 49.832109,
+    "lng": 0.932175,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 266700,
+        "typeLocal": "Maison",
+        "surfaceM2": 177,
+        "isVefa": false
+      }
+    ]
+  },
+  "43a5419dfe3e": {
+    "id": "43a5419dfe3e",
+    "label": "28 LOT LE VAL DES ECUYERS, Luneray",
+    "lat": 49.831892,
+    "lng": 0.931646,
+    "transactions": [
+      {
+        "date": "2024-12-21",
+        "priceEur": 181000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-11",
+        "priceEur": 153800,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "a006444418b7": {
+    "id": "a006444418b7",
+    "label": "53 RUE DES ECUYERS, Luneray",
+    "lat": 49.831851,
+    "lng": 0.927183,
+    "transactions": [
+      {
+        "date": "2022-12-20",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "bddaf8f7fa34": {
+    "id": "bddaf8f7fa34",
+    "label": "1 IMP DES SIAMOISIERS, Luneray",
+    "lat": 49.831021,
+    "lng": 0.925186,
+    "transactions": [
+      {
+        "date": "2023-06-20",
+        "priceEur": 146500,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "4756521b91e8": {
+    "id": "4756521b91e8",
+    "label": "20 IMP DES ECUYERS, Luneray",
+    "lat": 49.831067,
+    "lng": 0.92666,
+    "transactions": [
+      {
+        "date": "2023-11-29",
+        "priceEur": 114000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8f08713ec4b": {
+    "id": "e8f08713ec4b",
+    "label": "6 IMP DES SIAMOISIERS, Luneray",
+    "lat": 49.831098,
+    "lng": 0.926256,
+    "transactions": [
+      {
+        "date": "2023-11-30",
+        "priceEur": 103500,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "0306de976e35": {
+    "id": "0306de976e35",
+    "label": "81 RUE DES ECUYERS, Luneray",
+    "lat": 49.831233,
+    "lng": 0.931241,
+    "transactions": [
+      {
+        "date": "2025-02-07",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  }
+}

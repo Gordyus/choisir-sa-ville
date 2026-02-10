@@ -1,0 +1,99 @@
+{
+  "f3265acdbff9": {
+    "id": "f3265acdbff9",
+    "label": "6022 LE SABLON, Yville-sur-Seine",
+    "lat": 49.41982,
+    "lng": 0.89356,
+    "transactions": [
+      {
+        "date": "2020-10-12",
+        "priceEur": 163000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "dde0517c0c88": {
+    "id": "dde0517c0c88",
+    "label": "5086 CLOS AU LOUP, Yville-sur-Seine",
+    "lat": 49.418347,
+    "lng": 0.892367,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "96c8b35b92ab": {
+    "id": "96c8b35b92ab",
+    "label": "2268 RTE DES SABLONS, Yville-sur-Seine",
+    "lat": 49.421462,
+    "lng": 0.893068,
+    "transactions": [
+      {
+        "date": "2022-10-03",
+        "priceEur": 93250,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-20",
+        "priceEur": 180800,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "b2f94e8754ad": {
+    "id": "b2f94e8754ad",
+    "label": "7015 LE SABLON, Yville-sur-Seine",
+    "lat": 49.420793,
+    "lng": 0.893726,
+    "transactions": [
+      {
+        "date": "2022-07-27",
+        "priceEur": 207000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "95e008e107d2": {
+    "id": "95e008e107d2",
+    "label": "5089 LE SABLON, Yville-sur-Seine",
+    "lat": 49.420927,
+    "lng": 0.895413,
+    "transactions": [
+      {
+        "date": "2022-12-29",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "454a1ae270b8": {
+    "id": "454a1ae270b8",
+    "label": "2565 LE SABLON, Yville-sur-Seine",
+    "lat": 49.424427,
+    "lng": 0.891725,
+    "transactions": [
+      {
+        "date": "2024-10-14",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

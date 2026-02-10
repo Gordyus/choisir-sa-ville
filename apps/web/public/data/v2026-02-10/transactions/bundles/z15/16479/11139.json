@@ -1,0 +1,47 @@
+{
+  "7b5e046514ad": {
+    "id": "7b5e046514ad",
+    "label": "26 RTE DE LA TOUFFE A QUIN, Bertreville-Saint-Ouen",
+    "lat": 49.811073,
+    "lng": 1.053131,
+    "transactions": [
+      {
+        "date": "2022-11-18",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4229d825124": {
+    "id": "c4229d825124",
+    "label": "27 RTE DES CHATAIGNIERS, Bertreville-Saint-Ouen",
+    "lat": 49.811327,
+    "lng": 1.052253,
+    "transactions": [
+      {
+        "date": "2023-01-12",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "10af48475e06": {
+    "id": "10af48475e06",
+    "label": "1 IMP DE LA SENTE, Bertreville-Saint-Ouen",
+    "lat": 49.811722,
+    "lng": 1.050207,
+    "transactions": [
+      {
+        "date": "2023-03-04",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  }
+}

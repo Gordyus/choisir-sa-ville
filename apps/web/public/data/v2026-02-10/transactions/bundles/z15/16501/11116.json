@@ -1,0 +1,32 @@
+{
+  "208ae51605ae": {
+    "id": "208ae51605ae",
+    "label": "17 RUE DES CEREALIERS, Petit-Caux",
+    "lat": 49.97789,
+    "lng": 1.290985,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 351500,
+        "typeLocal": "Maison",
+        "surfaceM2": 185,
+        "isVefa": false
+      }
+    ]
+  },
+  "4720cc0b4a46": {
+    "id": "4720cc0b4a46",
+    "label": "24 RUE DES CEREALIERS, Petit-Caux",
+    "lat": 49.97935,
+    "lng": 1.290178,
+    "transactions": [
+      {
+        "date": "2024-01-31",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

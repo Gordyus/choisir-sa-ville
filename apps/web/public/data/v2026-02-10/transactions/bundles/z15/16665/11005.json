@@ -1,0 +1,47 @@
+{
+  "acfe81ca325e": {
+    "id": "acfe81ca325e",
+    "label": "9 VC MADAME DEFLANDRE, Roncq",
+    "lat": 50.756913,
+    "lng": 3.096757,
+    "transactions": [
+      {
+        "date": "2022-09-29",
+        "priceEur": 580410,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "c37b4882df5a": {
+    "id": "c37b4882df5a",
+    "label": "43 RUE PASTEUR, Roncq",
+    "lat": 50.752686,
+    "lng": 3.089827,
+    "transactions": [
+      {
+        "date": "2023-05-31",
+        "priceEur": 840000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "785ac2d3c67a": {
+    "id": "785ac2d3c67a",
+    "label": "136 RUE PASTEUR, Roncq",
+    "lat": 50.750994,
+    "lng": 3.096356,
+    "transactions": [
+      {
+        "date": "2024-06-20",
+        "priceEur": 714300,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "8cdcece439a9": {
+    "id": "8cdcece439a9",
+    "label": "9002 LA CHAPELLE, Fécamp",
+    "lat": 49.767271,
+    "lng": 0.371416,
+    "transactions": [
+      {
+        "date": "2021-03-19",
+        "priceEur": 950000,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "5869d1a02964": {
+    "id": "5869d1a02964",
+    "label": "9009 SEN DE LA CHAPELLE, Fécamp",
+    "lat": 49.767262,
+    "lng": 0.370915,
+    "transactions": [
+      {
+        "date": "2021-03-19",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 317,
+        "isVefa": false
+      }
+    ]
+  }
+}

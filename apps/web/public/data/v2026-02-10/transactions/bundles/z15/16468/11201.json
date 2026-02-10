@@ -1,0 +1,62 @@
+{
+  "7c74b2fd9f0a": {
+    "id": "7c74b2fd9f0a",
+    "label": "17 RUE DU PUITS FOUQUET, Sahurs",
+    "lat": 49.373634,
+    "lng": 0.927586,
+    "transactions": [
+      {
+        "date": "2021-10-14",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "9147f475d7fc": {
+    "id": "9147f475d7fc",
+    "label": "45 LA GRANDE VOIE, Sahurs",
+    "lat": 49.375045,
+    "lng": 0.928928,
+    "transactions": [
+      {
+        "date": "2023-06-14",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c17361629aa": {
+    "id": "4c17361629aa",
+    "label": "11 RUE DU PUITS FOUQUET, Sahurs",
+    "lat": 49.373363,
+    "lng": 0.92787,
+    "transactions": [
+      {
+        "date": "2024-07-16",
+        "priceEur": 173000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "132616bfa6fd": {
+    "id": "132616bfa6fd",
+    "label": "23 RUE DU PUITS FOUQUET, Sahurs",
+    "lat": 49.374639,
+    "lng": 0.927099,
+    "transactions": [
+      {
+        "date": "2024-12-02",
+        "priceEur": 177280,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  }
+}

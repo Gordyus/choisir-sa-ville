@@ -1,0 +1,62 @@
+{
+  "9d0494e11a6a": {
+    "id": "9d0494e11a6a",
+    "label": "30 HAMEAU DE LIGNY LE GRAND, Illies",
+    "lat": 50.576253,
+    "lng": 2.824005,
+    "transactions": [
+      {
+        "date": "2021-01-15",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9dbd405a0d1": {
+    "id": "f9dbd405a0d1",
+    "label": "16A HAMEAU DE LIGNY LE GRAND, Illies",
+    "lat": 50.573973,
+    "lng": 2.824416,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 755000,
+        "typeLocal": "Maison",
+        "surfaceM2": 166,
+        "isVefa": false
+      }
+    ]
+  },
+  "311f0b5fa9d5": {
+    "id": "311f0b5fa9d5",
+    "label": "4A HAMEAU DE LIGNY LE GRAND, Illies",
+    "lat": 50.57146,
+    "lng": 2.826276,
+    "transactions": [
+      {
+        "date": "2022-01-31",
+        "priceEur": 421870,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed203bc360ba": {
+    "id": "ed203bc360ba",
+    "label": "22B HAM DE L AVENTURE, Illies",
+    "lat": 50.575723,
+    "lng": 2.827843,
+    "transactions": [
+      {
+        "date": "2022-04-29",
+        "priceEur": 999500,
+        "typeLocal": "Maison",
+        "surfaceM2": 223,
+        "isVefa": false
+      }
+    ]
+  }
+}

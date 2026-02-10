@@ -1,0 +1,32 @@
+{
+  "a8e0069a73ee": {
+    "id": "a8e0069a73ee",
+    "label": "5 LE CHENE AUX FEES, Butot",
+    "lat": 49.615843,
+    "lng": 1.00059,
+    "transactions": [
+      {
+        "date": "2021-02-25",
+        "priceEur": 314000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "3b5bde64e0a9": {
+    "id": "3b5bde64e0a9",
+    "label": "3 HAM LE CHENE AUX FEES, Butot",
+    "lat": 49.615518,
+    "lng": 1.000901,
+    "transactions": [
+      {
+        "date": "2023-11-03",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  }
+}

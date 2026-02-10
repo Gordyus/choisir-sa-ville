@@ -1,0 +1,685 @@
+{
+  "543cc2e23eb6": {
+    "id": "543cc2e23eb6",
+    "label": "8 RUE DE BERGUES, Wormhout",
+    "lat": 50.884079,
+    "lng": 2.467576,
+    "transactions": [
+      {
+        "date": "2025-04-04",
+        "priceEur": 290000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-17",
+        "priceEur": 200000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ac016900881": {
+    "id": "0ac016900881",
+    "label": "402 RUE DE BERGUES, Wormhout",
+    "lat": 50.888457,
+    "lng": 2.465355,
+    "transactions": [
+      {
+        "date": "2020-08-14",
+        "priceEur": 140000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-13",
+        "priceEur": 146150,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "18bb1e2de461": {
+    "id": "18bb1e2de461",
+    "label": "326 RTE DE BERGUES, Wormhout",
+    "lat": 50.887757,
+    "lng": 2.464486,
+    "transactions": [
+      {
+        "date": "2020-08-10",
+        "priceEur": 271000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "29583d0d9d98": {
+    "id": "29583d0d9d98",
+    "label": "49 RUE D HERZEELE, Wormhout",
+    "lat": 50.882534,
+    "lng": 2.471813,
+    "transactions": [
+      {
+        "date": "2022-12-21",
+        "priceEur": 130000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-11",
+        "priceEur": 145900,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-16",
+        "priceEur": 155000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-04",
+        "priceEur": 220300,
+        "typeLocal": "Appartement",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-27",
+        "priceEur": 139000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-02",
+        "priceEur": 179565,
+        "typeLocal": "Appartement",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-24",
+        "priceEur": 169000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  },
+  "57373bae84ee": {
+    "id": "57373bae84ee",
+    "label": "80 PL DU GEN DE GAULLE, Wormhout",
+    "lat": 50.883893,
+    "lng": 2.468281,
+    "transactions": [
+      {
+        "date": "2020-10-09",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "82c03b5d365a": {
+    "id": "82c03b5d365a",
+    "label": "36 RUE DE LA RESISTANCE, Wormhout",
+    "lat": 50.884748,
+    "lng": 2.470233,
+    "transactions": [
+      {
+        "date": "2023-11-20",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-18",
+        "priceEur": 405000,
+        "typeLocal": "Maison",
+        "surfaceM2": 196,
+        "isVefa": false
+      }
+    ]
+  },
+  "2a91d4202564": {
+    "id": "2a91d4202564",
+    "label": "13B RUE D'ESQUELBECQ, Wormhout",
+    "lat": 50.882824,
+    "lng": 2.466139,
+    "transactions": [
+      {
+        "date": "2020-12-10",
+        "priceEur": 293000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 110,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-10",
+        "priceEur": 293000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "05a174a04838": {
+    "id": "05a174a04838",
+    "label": "4B RUE D'ESQUELBECQ, Wormhout",
+    "lat": 50.883652,
+    "lng": 2.466092,
+    "transactions": [
+      {
+        "date": "2025-03-14",
+        "priceEur": 169000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2021-02-05",
+        "priceEur": 65600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 43,
+        "isVefa": false
+      }
+    ]
+  },
+  "da76cffa4c2c": {
+    "id": "da76cffa4c2c",
+    "label": "15 RUE DE BERGUES, Wormhout",
+    "lat": 50.884068,
+    "lng": 2.466912,
+    "transactions": [
+      {
+        "date": "2021-03-12",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "9f95bf5f6ab2": {
+    "id": "9f95bf5f6ab2",
+    "label": "4A RUE D'ESQUELBECQ, Wormhout",
+    "lat": 50.883645,
+    "lng": 2.466501,
+    "transactions": [
+      {
+        "date": "2021-03-30",
+        "priceEur": 114011.63,
+        "typeLocal": "Appartement",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "5166f4be6fe6": {
+    "id": "5166f4be6fe6",
+    "label": "279 RUE DE BERGUES, Wormhout",
+    "lat": 50.887309,
+    "lng": 2.46477,
+    "transactions": [
+      {
+        "date": "2021-05-27",
+        "priceEur": 237750,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "e9a2ab4f997f": {
+    "id": "e9a2ab4f997f",
+    "label": "29 RUE D'ESQUELBECQ, Wormhout",
+    "lat": 50.882981,
+    "lng": 2.464185,
+    "transactions": [
+      {
+        "date": "2021-07-09",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "dfee18a996f6": {
+    "id": "dfee18a996f6",
+    "label": "10 RUE DE BERGUES, Wormhout",
+    "lat": 50.884136,
+    "lng": 2.467525,
+    "transactions": [
+      {
+        "date": "2021-08-06",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "24ca6549356a": {
+    "id": "24ca6549356a",
+    "label": "37 PL DU GEN DE GAULLE, Wormhout",
+    "lat": 50.882284,
+    "lng": 2.467588,
+    "transactions": [
+      {
+        "date": "2021-09-22",
+        "priceEur": 162500,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e2724adbe9c": {
+    "id": "2e2724adbe9c",
+    "label": "5 RES DU PARC, Wormhout",
+    "lat": 50.882334,
+    "lng": 2.465451,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 257000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "94a11c0e9499": {
+    "id": "94a11c0e9499",
+    "label": "19 RUE DE BERGUES, Wormhout",
+    "lat": 50.884248,
+    "lng": 2.46658,
+    "transactions": [
+      {
+        "date": "2021-10-20",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "97ca7accc62c": {
+    "id": "97ca7accc62c",
+    "label": "82 PL DU GEN DE GAULLE, Wormhout",
+    "lat": 50.883848,
+    "lng": 2.468161,
+    "transactions": [
+      {
+        "date": "2021-11-29",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a1b5923d7b7": {
+    "id": "5a1b5923d7b7",
+    "label": "5 RUE DE BERGUES, Wormhout",
+    "lat": 50.883769,
+    "lng": 2.467134,
+    "transactions": [
+      {
+        "date": "2022-02-07",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd7b9860e86b": {
+    "id": "cd7b9860e86b",
+    "label": "15 RUE D HERZEELE, Wormhout",
+    "lat": 50.882729,
+    "lng": 2.470516,
+    "transactions": [
+      {
+        "date": "2022-02-07",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "6807b60264dc": {
+    "id": "6807b60264dc",
+    "label": "435 RUE DE BERGUES, Wormhout",
+    "lat": 50.888652,
+    "lng": 2.46404,
+    "transactions": [
+      {
+        "date": "2022-02-17",
+        "priceEur": 186300,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "08b2a07ec999": {
+    "id": "08b2a07ec999",
+    "label": "6 RUE DE LA GARE, Wormhout",
+    "lat": 50.885158,
+    "lng": 2.46535,
+    "transactions": [
+      {
+        "date": "2022-04-04",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "05940d855b38": {
+    "id": "05940d855b38",
+    "label": "3 RUE D'ESQUELBECQ, Wormhout",
+    "lat": 50.883103,
+    "lng": 2.467253,
+    "transactions": [
+      {
+        "date": "2022-05-06",
+        "priceEur": 184500,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "584d3068f754": {
+    "id": "584d3068f754",
+    "label": "68 PL DU GEN DE GAULLE, Wormhout",
+    "lat": 50.883544,
+    "lng": 2.468604,
+    "transactions": [
+      {
+        "date": "2022-05-12",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "6ab1e24304c7": {
+    "id": "6ab1e24304c7",
+    "label": "3 RUE DE BERGUES, Wormhout",
+    "lat": 50.88373,
+    "lng": 2.467212,
+    "transactions": [
+      {
+        "date": "2022-07-02",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "e74571b23503": {
+    "id": "e74571b23503",
+    "label": "8 RUE DE LA RESISTANCE, Wormhout",
+    "lat": 50.883614,
+    "lng": 2.469154,
+    "transactions": [
+      {
+        "date": "2022-07-06",
+        "priceEur": 86000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "16ad6b172bbb": {
+    "id": "16ad6b172bbb",
+    "label": "13 RUE ODOUL, Wormhout",
+    "lat": 50.885286,
+    "lng": 2.469179,
+    "transactions": [
+      {
+        "date": "2022-08-26",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "2cfd77cc3f39": {
+    "id": "2cfd77cc3f39",
+    "label": "97 RUE ROGER DENBANCK, Wormhout",
+    "lat": 50.888538,
+    "lng": 2.463319,
+    "transactions": [
+      {
+        "date": "2022-11-14",
+        "priceEur": 179760,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "25df6465a523": {
+    "id": "25df6465a523",
+    "label": "56 PL DU GEN DE GAULLE, Wormhout",
+    "lat": 50.882895,
+    "lng": 2.469324,
+    "transactions": [
+      {
+        "date": "2022-11-30",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "26bdb0aa8b90": {
+    "id": "26bdb0aa8b90",
+    "label": "63 PL DU GEN DE GAULLE, Wormhout",
+    "lat": 50.883172,
+    "lng": 2.467814,
+    "transactions": [
+      {
+        "date": "2022-12-20",
+        "priceEur": 125000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "c660cff74dd0": {
+    "id": "c660cff74dd0",
+    "label": "84 PL DU GEN DE GAULLE, Wormhout",
+    "lat": 50.883975,
+    "lng": 2.468169,
+    "transactions": [
+      {
+        "date": "2023-02-08",
+        "priceEur": 700000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-08",
+        "priceEur": 700000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "8805496c021e": {
+    "id": "8805496c021e",
+    "label": "24 RUE DE LEDRINGHEM, Wormhout",
+    "lat": 50.882277,
+    "lng": 2.466766,
+    "transactions": [
+      {
+        "date": "2023-08-11",
+        "priceEur": 145500,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3f78ad080b7": {
+    "id": "c3f78ad080b7",
+    "label": "72 PL DU GEN DE GAULLE, Wormhout",
+    "lat": 50.883838,
+    "lng": 2.468532,
+    "transactions": [
+      {
+        "date": "2023-09-28",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      },
+      {
+        "date": "2023-09-28",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 123,
+        "isVefa": false
+      }
+    ]
+  },
+  "731c9b2d9528": {
+    "id": "731c9b2d9528",
+    "label": "402 RTE DE BERGUES, Wormhout",
+    "lat": 50.888457,
+    "lng": 2.465355,
+    "transactions": [
+      {
+        "date": "2023-12-26",
+        "priceEur": 191600,
+        "typeLocal": "Appartement",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a9fcfe498c3": {
+    "id": "1a9fcfe498c3",
+    "label": "14 RUE DE LEDRINGHEM, Wormhout",
+    "lat": 50.882746,
+    "lng": 2.466877,
+    "transactions": [
+      {
+        "date": "2025-01-24",
+        "priceEur": 176000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-30",
+        "priceEur": 200000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "00aa76b52f48": {
+    "id": "00aa76b52f48",
+    "label": "6 RUE DE BERGUES, Wormhout",
+    "lat": 50.884013,
+    "lng": 2.467606,
+    "transactions": [
+      {
+        "date": "2024-06-19",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "422666b4f2aa": {
+    "id": "422666b4f2aa",
+    "label": "2 RUE D HERZEELE, Wormhout",
+    "lat": 50.882807,
+    "lng": 2.469496,
+    "transactions": [
+      {
+        "date": "2024-12-11",
+        "priceEur": 162550,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8fdb066921b": {
+    "id": "f8fdb066921b",
+    "label": "37 RUE D'ESQUELBECQ, Wormhout",
+    "lat": 50.88291,
+    "lng": 2.462996,
+    "transactions": [
+      {
+        "date": "2025-01-08",
+        "priceEur": 134000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "16a784834506": {
+    "id": "16a784834506",
+    "label": "11 RUE ODOUL, Wormhout",
+    "lat": 50.885305,
+    "lng": 2.468943,
+    "transactions": [
+      {
+        "date": "2025-03-24",
+        "priceEur": 176000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "c78028012b9f": {
+    "id": "c78028012b9f",
+    "label": "305 RTE DE BERGUES, Wormhout",
+    "lat": 50.887545,
+    "lng": 2.46433,
+    "transactions": [
+      {
+        "date": "2025-06-05",
+        "priceEur": 372600,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  }
+}

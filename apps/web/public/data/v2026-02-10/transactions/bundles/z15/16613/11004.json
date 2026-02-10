@@ -1,0 +1,47 @@
+{
+  "45840b104cdd": {
+    "id": "45840b104cdd",
+    "label": "46 RUE DU PATRONAGE, Hondeghem",
+    "lat": 50.757535,
+    "lng": 2.519914,
+    "transactions": [
+      {
+        "date": "2021-12-22",
+        "priceEur": 53000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "3277fe85d4aa": {
+    "id": "3277fe85d4aa",
+    "label": "95 IMP DE LA MAISON DES VICAIRES, Hondeghem",
+    "lat": 50.757892,
+    "lng": 2.522342,
+    "transactions": [
+      {
+        "date": "2022-03-30",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "ef5129bb6f49": {
+    "id": "ef5129bb6f49",
+    "label": "105 GPL GRAND PLACE, Hondeghem",
+    "lat": 50.757311,
+    "lng": 2.521225,
+    "transactions": [
+      {
+        "date": "2023-03-29",
+        "priceEur": 320000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  }
+}

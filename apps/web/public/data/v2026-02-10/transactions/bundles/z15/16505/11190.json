@@ -1,0 +1,47 @@
+{
+  "45afae9c0ddf": {
+    "id": "45afae9c0ddf",
+    "label": "215 RTE DE LA HUCHETTE, Saint-Denis-le-Thiboult",
+    "lat": 49.452659,
+    "lng": 1.337125,
+    "transactions": [
+      {
+        "date": "2023-11-03",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "013686159f1b": {
+    "id": "013686159f1b",
+    "label": "11 IMP DU FOSSE, Saint-Denis-le-Thiboult",
+    "lat": 49.448904,
+    "lng": 1.331889,
+    "transactions": [
+      {
+        "date": "2024-08-30",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "15abc018121a": {
+    "id": "15abc018121a",
+    "label": "973 RTE NATIONALE, Saint-Denis-le-Thiboult",
+    "lat": 49.45183,
+    "lng": 1.337263,
+    "transactions": [
+      {
+        "date": "2024-11-15",
+        "priceEur": 201900,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  }
+}

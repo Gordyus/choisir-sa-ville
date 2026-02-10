@@ -1,0 +1,77 @@
+{
+  "6fbfc1818b92": {
+    "id": "6fbfc1818b92",
+    "label": "2112F HAMEAU DES HORTS, Saint-Julien",
+    "lat": 43.569361,
+    "lng": 2.93303,
+    "transactions": [
+      {
+        "date": "2021-02-05",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "612ca055827a": {
+    "id": "612ca055827a",
+    "label": "7000F LES BURGUES, Saint-Julien",
+    "lat": 43.569742,
+    "lng": 2.928825,
+    "transactions": [
+      {
+        "date": "2021-06-07",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "e87648460ec4": {
+    "id": "e87648460ec4",
+    "label": "2163F LA FABREGUE-BASSE, Saint-Julien",
+    "lat": 43.567923,
+    "lng": 2.923834,
+    "transactions": [
+      {
+        "date": "2021-11-19",
+        "priceEur": 228300,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "158e1db00229": {
+    "id": "158e1db00229",
+    "label": "5720F HAMEAU DES CASTAGNES, Saint-Julien",
+    "lat": 43.569854,
+    "lng": 2.926062,
+    "transactions": [
+      {
+        "date": "2022-02-21",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "e0c6fd6f527d": {
+    "id": "e0c6fd6f527d",
+    "label": "5170 SOUS CASTAGNES, Saint-Julien",
+    "lat": 43.568377,
+    "lng": 2.92847,
+    "transactions": [
+      {
+        "date": "2023-09-15",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

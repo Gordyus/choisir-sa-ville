@@ -1,0 +1,62 @@
+{
+  "998833e77548": {
+    "id": "998833e77548",
+    "label": "10 CLOS DES GROSEILLERS, Ymare",
+    "lat": 49.35466,
+    "lng": 1.180302,
+    "transactions": [
+      {
+        "date": "2020-10-07",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "10c562402300": {
+    "id": "10c562402300",
+    "label": "5 CLOS DES GROSEILLERS, Ymare",
+    "lat": 49.354134,
+    "lng": 1.179334,
+    "transactions": [
+      {
+        "date": "2024-11-15",
+        "priceEur": 286500,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "68504926e1bd": {
+    "id": "68504926e1bd",
+    "label": "4 CLOS DES GROSEILLERS, Ymare",
+    "lat": 49.353886,
+    "lng": 1.179326,
+    "transactions": [
+      {
+        "date": "2025-01-31",
+        "priceEur": 297000,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b31eef50462": {
+    "id": "2b31eef50462",
+    "label": "14 CLOS DES GROSEILLERS, Ymare",
+    "lat": 49.353928,
+    "lng": 1.180502,
+    "transactions": [
+      {
+        "date": "2025-01-31",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  }
+}

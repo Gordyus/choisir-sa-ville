@@ -1,0 +1,152 @@
+{
+  "454e4d841faf": {
+    "id": "454e4d841faf",
+    "label": "144 RUE DE LIMARE, Carville-la-Folletière",
+    "lat": 49.56273,
+    "lng": 0.818267,
+    "transactions": [
+      {
+        "date": "2021-03-09",
+        "priceEur": 219000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e39d4c054ae": {
+    "id": "7e39d4c054ae",
+    "label": "4 LE NOUVEAU MONDE, Carville-la-Folletière",
+    "lat": 49.562377,
+    "lng": 0.817601,
+    "transactions": [
+      {
+        "date": "2021-09-22",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "538b72b5b2ec": {
+    "id": "538b72b5b2ec",
+    "label": "496 RUE DU NOUVEAU MONDE, Carville-la-Folletière",
+    "lat": 49.563511,
+    "lng": 0.819221,
+    "transactions": [
+      {
+        "date": "2022-04-29",
+        "priceEur": 248900,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "16dd85fd11a9": {
+    "id": "16dd85fd11a9",
+    "label": "603 RUE ST MARTIN, Saint Martin de l'If",
+    "lat": 49.564678,
+    "lng": 0.822564,
+    "transactions": [
+      {
+        "date": "2022-10-11",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "bccea7c31538": {
+    "id": "bccea7c31538",
+    "label": "912 RTE DE FREVILLE, Carville-la-Folletière",
+    "lat": 49.561105,
+    "lng": 0.822368,
+    "transactions": [
+      {
+        "date": "2023-09-19",
+        "priceEur": 410000,
+        "typeLocal": "Maison",
+        "surfaceM2": 262,
+        "isVefa": false
+      }
+    ]
+  },
+  "4e6158d26bc6": {
+    "id": "4e6158d26bc6",
+    "label": "591 RUE DE LIMARE, Carville-la-Folletière",
+    "lat": 49.56389,
+    "lng": 0.818671,
+    "transactions": [
+      {
+        "date": "2023-09-27",
+        "priceEur": 214000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a7b5d579092": {
+    "id": "3a7b5d579092",
+    "label": "50A RUE DE LIMARE, Carville-la-Folletière",
+    "lat": 49.562394,
+    "lng": 0.817026,
+    "transactions": [
+      {
+        "date": "2024-12-19",
+        "priceEur": 179000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "9180a24dd0b3": {
+    "id": "9180a24dd0b3",
+    "label": "360 RUE DE LIMARE, Carville-la-Folletière",
+    "lat": 49.563473,
+    "lng": 0.820131,
+    "transactions": [
+      {
+        "date": "2025-01-28",
+        "priceEur": 204000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "374c89051df9": {
+    "id": "374c89051df9",
+    "label": "1 LE NOUVEAU MONDE, Carville-la-Folletière",
+    "lat": 49.562438,
+    "lng": 0.818068,
+    "transactions": [
+      {
+        "date": "2025-01-31",
+        "priceEur": 212200,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "27d9c177a6e0": {
+    "id": "27d9c177a6e0",
+    "label": "110 IMP DU NOUVEAU MONDE, Carville-la-Folletière",
+    "lat": 49.561999,
+    "lng": 0.820068,
+    "transactions": [
+      {
+        "date": "2025-05-30",
+        "priceEur": 58000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  }
+}

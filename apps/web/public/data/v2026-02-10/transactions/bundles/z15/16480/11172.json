@@ -1,0 +1,32 @@
+{
+  "1deab3ec2527": {
+    "id": "1deab3ec2527",
+    "label": "5054K PLAINE DES CAMBRES, Anceaumeville",
+    "lat": 49.579048,
+    "lng": 1.064697,
+    "transactions": [
+      {
+        "date": "2020-07-27",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ec7efdc1b54": {
+    "id": "3ec7efdc1b54",
+    "label": "5054M PLAINE DES CAMBRES, Anceaumeville",
+    "lat": 49.578584,
+    "lng": 1.065321,
+    "transactions": [
+      {
+        "date": "2020-10-28",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "6362c019fdb7": {
+    "id": "6362c019fdb7",
+    "label": "243 CR DES CARRIERES CR 150, Béziers",
+    "lat": 43.317055,
+    "lng": 3.197223,
+    "transactions": [
+      {
+        "date": "2021-05-12",
+        "priceEur": 460000,
+        "typeLocal": "Maison",
+        "surfaceM2": 228,
+        "isVefa": false
+      }
+    ]
+  },
+  "7bfaedf057af": {
+    "id": "7bfaedf057af",
+    "label": "318 CR DES CARRIERES CR 150, Béziers",
+    "lat": 43.315944,
+    "lng": 3.197183,
+    "transactions": [
+      {
+        "date": "2022-06-22",
+        "priceEur": 270000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      },
+      {
+        "date": "2021-10-22",
+        "priceEur": 6140,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "3a5894ddb963": {
+    "id": "3a5894ddb963",
+    "label": "1010 CR 148 BREGINES A BAYSSAN, Béziers",
+    "lat": 43.312012,
+    "lng": 3.198324,
+    "transactions": [
+      {
+        "date": "2022-03-29",
+        "priceEur": 598500,
+        "typeLocal": "Maison",
+        "surfaceM2": 238,
+        "isVefa": false
+      }
+    ]
+  },
+  "563bbf669a6a": {
+    "id": "563bbf669a6a",
+    "label": "572 CR DES CARRIERES CR 149, Béziers",
+    "lat": 43.314432,
+    "lng": 3.197554,
+    "transactions": [
+      {
+        "date": "2024-11-06",
+        "priceEur": 185000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 67,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-06",
+        "priceEur": 185000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-06",
+        "priceEur": 185000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 52,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-06",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-06",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  }
+}

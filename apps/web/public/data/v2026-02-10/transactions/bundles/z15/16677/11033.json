@@ -1,0 +1,32 @@
+{
+  "127a793e9fc6": {
+    "id": "127a793e9fc6",
+    "label": "234 RUE DES PRES, Cysoing",
+    "lat": 50.5611,
+    "lng": 3.22957,
+    "transactions": [
+      {
+        "date": "2023-01-09",
+        "priceEur": 525000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d716510190b": {
+    "id": "9d716510190b",
+    "label": "280 RUE DES PRES, Cysoing",
+    "lat": 50.56054,
+    "lng": 3.229583,
+    "transactions": [
+      {
+        "date": "2025-04-07",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  }
+}

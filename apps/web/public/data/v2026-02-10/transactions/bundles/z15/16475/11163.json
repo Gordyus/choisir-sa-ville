@@ -1,0 +1,62 @@
+{
+  "7aaa0c65bbdc": {
+    "id": "7aaa0c65bbdc",
+    "label": "5022 L EGLISE, Saint-Ouen-du-Breuil",
+    "lat": 49.639745,
+    "lng": 1.008615,
+    "transactions": [
+      {
+        "date": "2020-11-12",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "4bd1433935c2": {
+    "id": "4bd1433935c2",
+    "label": "1 ALL JEAN ANGO, Saint-Ouen-du-Breuil",
+    "lat": 49.640281,
+    "lng": 1.010334,
+    "transactions": [
+      {
+        "date": "2021-11-25",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "5ecb1563b25b": {
+    "id": "5ecb1563b25b",
+    "label": "3 RUE GUILLAUME LE CONQUERANT, Saint-Ouen-du-Breuil",
+    "lat": 49.640362,
+    "lng": 1.010021,
+    "transactions": [
+      {
+        "date": "2021-12-30",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "00079ccc5e45": {
+    "id": "00079ccc5e45",
+    "label": "64 ALL CAUCHOISE, Saint-Ouen-du-Breuil",
+    "lat": 49.639717,
+    "lng": 1.010427,
+    "transactions": [
+      {
+        "date": "2024-09-17",
+        "priceEur": 99000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  }
+}

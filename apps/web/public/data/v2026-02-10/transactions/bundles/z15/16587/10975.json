@@ -1,0 +1,32 @@
+{
+  "486cc788e389": {
+    "id": "486cc788e389",
+    "label": "9 RTE DE CRAYWICK CD 217, Bourbourg",
+    "lat": 50.96144,
+    "lng": 2.234179,
+    "transactions": [
+      {
+        "date": "2021-05-20",
+        "priceEur": 75000,
+        "typeLocal": "Maison",
+        "surfaceM2": 240,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0bd47e7757e": {
+    "id": "b0bd47e7757e",
+    "label": "6 RTE DE CRAYWICK CD 217, Bourbourg",
+    "lat": 50.958893,
+    "lng": 2.231683,
+    "transactions": [
+      {
+        "date": "2021-06-10",
+        "priceEur": 82000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "084aa481039a": {
+    "id": "084aa481039a",
+    "label": "2 RUE DE L ANCIENNE MARE, Crasville-la-Rocquefort",
+    "lat": 49.805634,
+    "lng": 0.871794,
+    "transactions": [
+      {
+        "date": "2020-10-02",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "95fe6493c3d2": {
+    "id": "95fe6493c3d2",
+    "label": "3 RUE DE LA FORIERE DU CALVAIRE, Crasville-la-Rocquefort",
+    "lat": 49.80476,
+    "lng": 0.869189,
+    "transactions": [
+      {
+        "date": "2020-10-07",
+        "priceEur": 79500,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "4fb7adbf1ed9": {
+    "id": "4fb7adbf1ed9",
+    "label": "1 RUE DE LA FORIERE DU CALVAIRE, Crasville-la-Rocquefort",
+    "lat": 49.805167,
+    "lng": 0.87031,
+    "transactions": [
+      {
+        "date": "2024-01-20",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "928a159afc70": {
+    "id": "928a159afc70",
+    "label": "9 RUE DE LA MOTTE FEODALE, Crasville-la-Rocquefort",
+    "lat": 49.802942,
+    "lng": 0.868715,
+    "transactions": [
+      {
+        "date": "2025-02-14",
+        "priceEur": 318000,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  }
+}

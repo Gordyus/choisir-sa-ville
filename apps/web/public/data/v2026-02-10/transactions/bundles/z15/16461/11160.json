@@ -1,0 +1,32 @@
+{
+  "d19e228face0": {
+    "id": "d19e228face0",
+    "label": "1077 RUE DE BEAUMONT, Criquetot-sur-Ouville",
+    "lat": 49.663182,
+    "lng": 0.849574,
+    "transactions": [
+      {
+        "date": "2020-09-14",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "aa570ccfdf74": {
+    "id": "aa570ccfdf74",
+    "label": "1010 RUE DE BEAUMONT, Criquetot-sur-Ouville",
+    "lat": 49.662755,
+    "lng": 0.848593,
+    "transactions": [
+      {
+        "date": "2021-08-16",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  }
+}

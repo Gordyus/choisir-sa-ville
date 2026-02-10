@@ -1,0 +1,77 @@
+{
+  "b9bf24ddfa56": {
+    "id": "b9bf24ddfa56",
+    "label": "19 RUE DE DRUMETZ, Attiches",
+    "lat": 50.493078,
+    "lng": 3.070847,
+    "transactions": [
+      {
+        "date": "2020-10-23",
+        "priceEur": 271000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4c094cb6a3b": {
+    "id": "b4c094cb6a3b",
+    "label": "17 RUE DE DRUMETZ, Attiches",
+    "lat": 50.49303,
+    "lng": 3.071211,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "67d00b7dcc03": {
+    "id": "67d00b7dcc03",
+    "label": "5023 RUE DE L ATTARGETTE, Attiches",
+    "lat": 50.498885,
+    "lng": 3.073799,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 508500,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  },
+  "64fed8e5ab8d": {
+    "id": "64fed8e5ab8d",
+    "label": "15 RUE DE DRUMETZ, Attiches",
+    "lat": 50.492915,
+    "lng": 3.071651,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 615000,
+        "typeLocal": "Maison",
+        "surfaceM2": 199,
+        "isVefa": false
+      }
+    ]
+  },
+  "3892b5aeb54a": {
+    "id": "3892b5aeb54a",
+    "label": "1 RTE DES TAILLES, Attiches",
+    "lat": 50.493189,
+    "lng": 3.069212,
+    "transactions": [
+      {
+        "date": "2023-08-02",
+        "priceEur": 655000,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      }
+    ]
+  }
+}

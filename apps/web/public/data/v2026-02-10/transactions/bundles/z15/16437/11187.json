@@ -1,0 +1,77 @@
+{
+  "280246e401e1": {
+    "id": "280246e401e1",
+    "label": "595 RUE DU PROCES, Petiville",
+    "lat": 49.468237,
+    "lng": 0.585248,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "437910cb388d": {
+    "id": "437910cb388d",
+    "label": "807 RUE DE GRASQUESNE, Petiville",
+    "lat": 49.471556,
+    "lng": 0.588471,
+    "transactions": [
+      {
+        "date": "2021-08-11",
+        "priceEur": 201000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "1c16abb1acaf": {
+    "id": "1c16abb1acaf",
+    "label": "482 RUE DU PAS GRILLANT, Petiville",
+    "lat": 49.470958,
+    "lng": 0.587409,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd96848f422e": {
+    "id": "dd96848f422e",
+    "label": "779 RUE DU PAS GRILLANT, Petiville",
+    "lat": 49.470576,
+    "lng": 0.58372,
+    "transactions": [
+      {
+        "date": "2022-12-16",
+        "priceEur": 371000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "4f6862af4d7e": {
+    "id": "4f6862af4d7e",
+    "label": "622 RUE DU PAS GRILLANT, Petiville",
+    "lat": 49.471211,
+    "lng": 0.585571,
+    "transactions": [
+      {
+        "date": "2025-04-18",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

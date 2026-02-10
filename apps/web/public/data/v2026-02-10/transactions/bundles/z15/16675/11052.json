@@ -1,0 +1,32 @@
+{
+  "afb53763a4fb": {
+    "id": "afb53763a4fb",
+    "label": "77 RUE PIERRE CARPENTIER, Coutiches",
+    "lat": 50.427904,
+    "lng": 3.207705,
+    "transactions": [
+      {
+        "date": "2022-02-28",
+        "priceEur": 355876,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "186f5a586f59": {
+    "id": "186f5a586f59",
+    "label": "119 RUE PIERRE CARPENTIER, Coutiches",
+    "lat": 50.427929,
+    "lng": 3.20685,
+    "transactions": [
+      {
+        "date": "2023-09-01",
+        "priceEur": 395000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  }
+}

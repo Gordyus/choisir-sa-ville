@@ -1,0 +1,151 @@
+{
+  "d5ebe8704ba7": {
+    "id": "d5ebe8704ba7",
+    "label": "85 RUE D'ECUQUETOT, Turretot",
+    "lat": 49.606377,
+    "lng": 0.2472,
+    "transactions": [
+      {
+        "date": "2020-10-22",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "f0fd98078910": {
+    "id": "f0fd98078910",
+    "label": "70 RUE DU FEU DE LA SAINT JEAN, Turretot",
+    "lat": 49.606678,
+    "lng": 0.245522,
+    "transactions": [
+      {
+        "date": "2021-04-19",
+        "priceEur": 386500,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "5dedbc8e4c99": {
+    "id": "5dedbc8e4c99",
+    "label": "13 ALL DES CANADIENS, Turretot",
+    "lat": 49.60755,
+    "lng": 0.247364,
+    "transactions": [
+      {
+        "date": "2022-02-17",
+        "priceEur": 354000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "87058b3d21b4": {
+    "id": "87058b3d21b4",
+    "label": "270 RTE DE NOTRE DAME, Turretot",
+    "lat": 49.603728,
+    "lng": 0.247739,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 2500,
+        "typeLocal": "Maison",
+        "surfaceM2": 16,
+        "isVefa": false
+      }
+    ]
+  },
+  "845e83ed6cb7": {
+    "id": "845e83ed6cb7",
+    "label": "87 IMP DE LA BOUILLOTTE, Turretot",
+    "lat": 49.605242,
+    "lng": 0.24541,
+    "transactions": [
+      {
+        "date": "2022-10-10",
+        "priceEur": 443250,
+        "typeLocal": "Maison",
+        "surfaceM2": 196,
+        "isVefa": false
+      }
+    ]
+  },
+  "62917b1a2d67": {
+    "id": "62917b1a2d67",
+    "label": "1 ALL DES CANADIENS, Turretot",
+    "lat": 49.60697,
+    "lng": 0.246688,
+    "transactions": [
+      {
+        "date": "2024-06-24",
+        "priceEur": 389000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      },
+      {
+        "date": "2022-10-13",
+        "priceEur": 410000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "23a3d2d4418b": {
+    "id": "23a3d2d4418b",
+    "label": "364 RUE D'ECUQUETOT, Turretot",
+    "lat": 49.605604,
+    "lng": 0.243615,
+    "transactions": [
+      {
+        "date": "2023-01-10",
+        "priceEur": 247000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "01f4fec0c90d": {
+    "id": "01f4fec0c90d",
+    "label": "11 ALL DES CANADIENS, Turretot",
+    "lat": 49.607862,
+    "lng": 0.247212,
+    "transactions": [
+      {
+        "date": "2024-06-14",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      },
+      {
+        "date": "2023-01-18",
+        "priceEur": 410000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "86058d06198b": {
+    "id": "86058d06198b",
+    "label": "986 RTE D'HERMEVILLE, Turretot",
+    "lat": 49.609956,
+    "lng": 0.246043,
+    "transactions": [
+      {
+        "date": "2023-08-21",
+        "priceEur": 292000,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  }
+}

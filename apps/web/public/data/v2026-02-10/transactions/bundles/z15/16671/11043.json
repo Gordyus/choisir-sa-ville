@@ -1,0 +1,62 @@
+{
+  "c82b8599aa70": {
+    "id": "c82b8599aa70",
+    "label": "1166 GR GRANDE RUE, Bersée",
+    "lat": 50.488868,
+    "lng": 3.15692,
+    "transactions": [
+      {
+        "date": "2021-03-25",
+        "priceEur": 895000,
+        "typeLocal": "Maison",
+        "surfaceM2": 350,
+        "isVefa": false
+      }
+    ]
+  },
+  "44192abab5ff": {
+    "id": "44192abab5ff",
+    "label": "1492 GR GRANDE RUE, Bersée",
+    "lat": 50.490764,
+    "lng": 3.1602,
+    "transactions": [
+      {
+        "date": "2022-06-24",
+        "priceEur": 122550,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "cfb89b9293db": {
+    "id": "cfb89b9293db",
+    "label": "1477 GR GRANDE RUE, Bersée",
+    "lat": 50.490638,
+    "lng": 3.160096,
+    "transactions": [
+      {
+        "date": "2022-12-21",
+        "priceEur": 165000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "39cffac74ab4": {
+    "id": "39cffac74ab4",
+    "label": "1376 GR GRANDE RUE, Bersée",
+    "lat": 50.490083,
+    "lng": 3.158924,
+    "transactions": [
+      {
+        "date": "2024-03-27",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  }
+}

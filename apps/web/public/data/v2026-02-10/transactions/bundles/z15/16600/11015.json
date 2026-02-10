@@ -1,0 +1,24 @@
+{
+  "2ed2e5dca567": {
+    "id": "2ed2e5dca567",
+    "label": "831 RUE DU MONT DUPIL, Blaringhem",
+    "lat": 50.681881,
+    "lng": 2.374778,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 318000,
+        "typeLocal": "Maison",
+        "surfaceM2": 37,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-30",
+        "priceEur": 318000,
+        "typeLocal": "Maison",
+        "surfaceM2": 124,
+        "isVefa": false
+      }
+    ]
+  }
+}

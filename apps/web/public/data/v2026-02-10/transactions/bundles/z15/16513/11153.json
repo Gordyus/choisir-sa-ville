@@ -1,0 +1,62 @@
+{
+  "ba12357e2ef1": {
+    "id": "ba12357e2ef1",
+    "label": "5160 LA CERISERAIE, Quièvrecourt",
+    "lat": 49.717157,
+    "lng": 1.422144,
+    "transactions": [
+      {
+        "date": "2021-04-09",
+        "priceEur": 141500,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2d45f94de13": {
+    "id": "a2d45f94de13",
+    "label": "1 RTE DE ROUEN, Esclavelles",
+    "lat": 49.714763,
+    "lng": 1.417857,
+    "transactions": [
+      {
+        "date": "2021-07-28",
+        "priceEur": 770000,
+        "typeLocal": "Maison",
+        "surfaceM2": 400,
+        "isVefa": false
+      }
+    ]
+  },
+  "ff93dbb91848": {
+    "id": "ff93dbb91848",
+    "label": "5163 LA CERISERAIE, Quièvrecourt",
+    "lat": 49.716591,
+    "lng": 1.420782,
+    "transactions": [
+      {
+        "date": "2022-02-26",
+        "priceEur": 172500,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "644c4b2762a8": {
+    "id": "644c4b2762a8",
+    "label": "5158 LA CERISERAIE, Quièvrecourt",
+    "lat": 49.716176,
+    "lng": 1.420116,
+    "transactions": [
+      {
+        "date": "2023-01-26",
+        "priceEur": 173000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

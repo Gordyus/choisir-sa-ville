@@ -1,0 +1,62 @@
+{
+  "5fe8ccb8d898": {
+    "id": "5fe8ccb8d898",
+    "label": "29 AV GEORGES BRASSENS, Wambrechies",
+    "lat": 50.700986,
+    "lng": 3.070038,
+    "transactions": [
+      {
+        "date": "2021-04-23",
+        "priceEur": 758000,
+        "typeLocal": "Maison",
+        "surfaceM2": 188,
+        "isVefa": false
+      }
+    ]
+  },
+  "8741a9b706ac": {
+    "id": "8741a9b706ac",
+    "label": "317 ALL DES BLEUETS, Bondues",
+    "lat": 50.701552,
+    "lng": 3.074631,
+    "transactions": [
+      {
+        "date": "2021-08-20",
+        "priceEur": 554600,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "394d37708c53": {
+    "id": "394d37708c53",
+    "label": "310 CHE DU BAS PLAT, Wambrechies",
+    "lat": 50.70087,
+    "lng": 3.065676,
+    "transactions": [
+      {
+        "date": "2022-08-25",
+        "priceEur": 560000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4f04e019153": {
+    "id": "c4f04e019153",
+    "label": "5 AV GEORGES BRASSENS, Wambrechies",
+    "lat": 50.700144,
+    "lng": 3.070789,
+    "transactions": [
+      {
+        "date": "2023-03-31",
+        "priceEur": 590200,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  }
+}

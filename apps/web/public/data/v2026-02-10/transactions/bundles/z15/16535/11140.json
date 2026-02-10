@@ -1,0 +1,62 @@
+{
+  "296e9154413a": {
+    "id": "296e9154413a",
+    "label": "15 RTE D AUBEGUIMONT, Richemont",
+    "lat": 49.806967,
+    "lng": 1.660764,
+    "transactions": [
+      {
+        "date": "2022-05-14",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a8ce70ec138": {
+    "id": "1a8ce70ec138",
+    "label": "5062 LE VILLAGE, Aubéguimont",
+    "lat": 49.808867,
+    "lng": 1.667404,
+    "transactions": [
+      {
+        "date": "2022-11-30",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "a25569d19b6b": {
+    "id": "a25569d19b6b",
+    "label": "13B RUE CENTRALE, Aubéguimont",
+    "lat": 49.808178,
+    "lng": 1.668351,
+    "transactions": [
+      {
+        "date": "2023-06-24",
+        "priceEur": 1,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "1e6ee6a256a6": {
+    "id": "1e6ee6a256a6",
+    "label": "5138 AUBEGUIMONT, Richemont",
+    "lat": 49.808178,
+    "lng": 1.663436,
+    "transactions": [
+      {
+        "date": "2024-01-26",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 200,
+        "isVefa": false
+      }
+    ]
+  }
+}

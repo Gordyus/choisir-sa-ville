@@ -1,0 +1,77 @@
+{
+  "36f007121061": {
+    "id": "36f007121061",
+    "label": "5016 LE BOURG, Fontaine-en-Bray",
+    "lat": 49.676745,
+    "lng": 1.420199,
+    "transactions": [
+      {
+        "date": "2020-11-27",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "b83425b7feb2": {
+    "id": "b83425b7feb2",
+    "label": "498 RUE DU BOURG, Fontaine-en-Bray",
+    "lat": 49.675968,
+    "lng": 1.42819,
+    "transactions": [
+      {
+        "date": "2021-09-04",
+        "priceEur": 209000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "613df2361b96": {
+    "id": "613df2361b96",
+    "label": "5060 LE BOURG, Fontaine-en-Bray",
+    "lat": 49.675768,
+    "lng": 1.426336,
+    "transactions": [
+      {
+        "date": "2022-04-26",
+        "priceEur": 86000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "1db023b3350f": {
+    "id": "1db023b3350f",
+    "label": "5013 LE BOURG, Fontaine-en-Bray",
+    "lat": 49.675273,
+    "lng": 1.424496,
+    "transactions": [
+      {
+        "date": "2022-06-21",
+        "priceEur": 112000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "25ee6bedc103": {
+    "id": "25ee6bedc103",
+    "label": "5046 LE BOURG, Fontaine-en-Bray",
+    "lat": 49.678862,
+    "lng": 1.4255,
+    "transactions": [
+      {
+        "date": "2024-01-26",
+        "priceEur": 423000,
+        "typeLocal": "Maison",
+        "surfaceM2": 268,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "3339997708cb": {
+    "id": "3339997708cb",
+    "label": "2665 RTE DE L HOSSENAERE, Looberghe",
+    "lat": 50.900868,
+    "lng": 2.279484,
+    "transactions": [
+      {
+        "date": "2021-12-20",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee73fadbb732": {
+    "id": "ee73fadbb732",
+    "label": "2740 RTE DE L HOSSENAERE, Looberghe",
+    "lat": 50.899435,
+    "lng": 2.280301,
+    "transactions": [
+      {
+        "date": "2023-06-29",
+        "priceEur": 113000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

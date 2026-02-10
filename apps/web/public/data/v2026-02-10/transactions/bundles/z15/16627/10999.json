@@ -1,0 +1,69 @@
+{
+  "13d18c7b6101": {
+    "id": "13d18c7b6101",
+    "label": "978 RUE DE LA MONTAGNE, Boeschepe",
+    "lat": 50.792272,
+    "lng": 2.678519,
+    "transactions": [
+      {
+        "date": "2021-07-22",
+        "priceEur": 223000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5984f13b134": {
+    "id": "b5984f13b134",
+    "label": "92 RUE CINQ CHEMINS VERTS IMP 565, Boeschepe",
+    "lat": 50.792742,
+    "lng": 2.673029,
+    "transactions": [
+      {
+        "date": "2022-09-08",
+        "priceEur": 105000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ff0f619bb3a": {
+    "id": "3ff0f619bb3a",
+    "label": "1018 RUE DE LA MONTAGNE, Boeschepe",
+    "lat": 50.792074,
+    "lng": 2.678145,
+    "transactions": [
+      {
+        "date": "2025-03-11",
+        "priceEur": 4400,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      },
+      {
+        "date": "2023-04-25",
+        "priceEur": 8800,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "2e0dc268cae5": {
+    "id": "2e0dc268cae5",
+    "label": "802 RUE DU MOULIN, Boeschepe",
+    "lat": 50.798752,
+    "lng": 2.679233,
+    "transactions": [
+      {
+        "date": "2023-09-08",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      }
+    ]
+  }
+}

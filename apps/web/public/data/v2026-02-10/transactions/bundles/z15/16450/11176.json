@@ -1,0 +1,47 @@
+{
+  "4f2f3b32e322": {
+    "id": "4f2f3b32e322",
+    "label": "220 CHE DE LA VENERIE, Maulévrier-Sainte-Gertrude",
+    "lat": 49.55321,
+    "lng": 0.732654,
+    "transactions": [
+      {
+        "date": "2020-10-08",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e808f5e8bc2": {
+    "id": "6e808f5e8bc2",
+    "label": "441 RTE DU PANAGE, Maulévrier-Sainte-Gertrude",
+    "lat": 49.553286,
+    "lng": 0.731978,
+    "transactions": [
+      {
+        "date": "2023-03-17",
+        "priceEur": 213000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1948ef4e91b": {
+    "id": "b1948ef4e91b",
+    "label": "110 CHE DE LA VENERIE, Maulévrier-Sainte-Gertrude",
+    "lat": 49.553633,
+    "lng": 0.731334,
+    "transactions": [
+      {
+        "date": "2025-03-14",
+        "priceEur": 168350,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  }
+}

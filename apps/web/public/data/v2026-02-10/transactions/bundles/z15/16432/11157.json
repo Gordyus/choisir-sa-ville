@@ -1,0 +1,84 @@
+{
+  "77e2dd959f51": {
+    "id": "77e2dd959f51",
+    "label": "7 RUE DU SABOTIER, Ypreville-Biville",
+    "lat": 49.68581,
+    "lng": 0.531043,
+    "transactions": [
+      {
+        "date": "2021-09-09",
+        "priceEur": 205000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-22",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "d2b377f450a3": {
+    "id": "d2b377f450a3",
+    "label": "5 RTE DU HAMEAU JOYEUX, Ypreville-Biville",
+    "lat": 49.686383,
+    "lng": 0.530585,
+    "transactions": [
+      {
+        "date": "2020-07-21",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "8b514c72032d": {
+    "id": "8b514c72032d",
+    "label": "15 RUE DE LA PETITE CROIX, Ypreville-Biville",
+    "lat": 49.684357,
+    "lng": 0.533718,
+    "transactions": [
+      {
+        "date": "2021-03-10",
+        "priceEur": 164000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "b2c89d6f63aa": {
+    "id": "b2c89d6f63aa",
+    "label": "9 RTE DU HAMEAU JOYEUX, Ypreville-Biville",
+    "lat": 49.6862,
+    "lng": 0.529735,
+    "transactions": [
+      {
+        "date": "2024-07-23",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "26b636e93276": {
+    "id": "26b636e93276",
+    "label": "7 RTE DU HAMEAU JOYEUX, Ypreville-Biville",
+    "lat": 49.686273,
+    "lng": 0.530314,
+    "transactions": [
+      {
+        "date": "2025-04-28",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  }
+}

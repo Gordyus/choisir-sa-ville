@@ -1,0 +1,47 @@
+{
+  "a662c507f55b": {
+    "id": "a662c507f55b",
+    "label": "1163 RTE DE SAINT ARNOULT, Anquetierville",
+    "lat": 49.534026,
+    "lng": 0.648608,
+    "transactions": [
+      {
+        "date": "2023-01-03",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b9f4e81ace6": {
+    "id": "5b9f4e81ace6",
+    "label": "1225 RTE DE SAINT ARNOULT, Anquetierville",
+    "lat": 49.533745,
+    "lng": 0.64822,
+    "transactions": [
+      {
+        "date": "2024-07-22",
+        "priceEur": 240950,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  },
+  "ddfd550eee6b": {
+    "id": "ddfd550eee6b",
+    "label": "1230 RTE DE SAINT ARNOULT, Anquetierville",
+    "lat": 49.53366,
+    "lng": 0.648975,
+    "transactions": [
+      {
+        "date": "2024-07-22",
+        "priceEur": 240950,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  }
+}

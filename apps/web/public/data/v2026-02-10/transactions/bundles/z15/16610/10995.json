@@ -1,0 +1,106 @@
+{
+  "27654fc46c6e": {
+    "id": "27654fc46c6e",
+    "label": "275 RTE WYLDER STRAETE, Hardifort",
+    "lat": 50.821974,
+    "lng": 2.487116,
+    "transactions": [
+      {
+        "date": "2020-12-01",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "c62fc4c5c069": {
+    "id": "c62fc4c5c069",
+    "label": "636 RTE DE LA PLACE, Hardifort",
+    "lat": 50.820637,
+    "lng": 2.485434,
+    "transactions": [
+      {
+        "date": "2022-09-01",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-09",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd019af41540": {
+    "id": "fd019af41540",
+    "label": "650 RTE DE LA PLACE, Hardifort",
+    "lat": 50.820697,
+    "lng": 2.48521,
+    "transactions": [
+      {
+        "date": "2021-06-21",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "b95a651bd3a4": {
+    "id": "b95a651bd3a4",
+    "label": "400 RTE D OUDEZEELE, Hardifort",
+    "lat": 50.822922,
+    "lng": 2.48555,
+    "transactions": [
+      {
+        "date": "2021-08-02",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "6a648c174c23": {
+    "id": "6a648c174c23",
+    "label": "200 RTE WYLDER STRAETE, Hardifort",
+    "lat": 50.821207,
+    "lng": 2.487072,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 594910,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-30",
+        "priceEur": 594910,
+        "typeLocal": "Maison",
+        "surfaceM2": 207,
+        "isVefa": false
+      }
+    ]
+  },
+  "4ba74877ed83": {
+    "id": "4ba74877ed83",
+    "label": "613 RTE DE LA PLACE, Hardifort",
+    "lat": 50.820241,
+    "lng": 2.485239,
+    "transactions": [
+      {
+        "date": "2022-09-16",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  }
+}

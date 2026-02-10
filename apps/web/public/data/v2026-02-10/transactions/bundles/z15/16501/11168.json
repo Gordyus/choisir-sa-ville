@@ -1,0 +1,32 @@
+{
+  "b66c915f2356": {
+    "id": "b66c915f2356",
+    "label": "5062 LA MISSION, Rocquemont",
+    "lat": 49.604784,
+    "lng": 1.294987,
+    "transactions": [
+      {
+        "date": "2022-08-04",
+        "priceEur": 118000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea305ac91568": {
+    "id": "ea305ac91568",
+    "label": "5155 LE BOURG, Rocquemont",
+    "lat": 49.603894,
+    "lng": 1.290458,
+    "transactions": [
+      {
+        "date": "2022-08-16",
+        "priceEur": 208720,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  }
+}

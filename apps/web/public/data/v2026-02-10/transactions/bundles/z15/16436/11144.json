@@ -1,0 +1,47 @@
+{
+  "2c7b091097e1": {
+    "id": "2c7b091097e1",
+    "label": "965 RTE DE THEUVILLE, Ouainville",
+    "lat": 49.776622,
+    "lng": 0.573014,
+    "transactions": [
+      {
+        "date": "2021-05-03",
+        "priceEur": 166000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "ef99a8b5ca34": {
+    "id": "ef99a8b5ca34",
+    "label": "1050 RTE DE THEUVILLE, Ouainville",
+    "lat": 49.77699,
+    "lng": 0.571638,
+    "transactions": [
+      {
+        "date": "2021-12-15",
+        "priceEur": 209200,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "e40df263bd67": {
+    "id": "e40df263bd67",
+    "label": "911 RTE DE THEUVILLE, Ouainville",
+    "lat": 49.776997,
+    "lng": 0.573996,
+    "transactions": [
+      {
+        "date": "2022-06-08",
+        "priceEur": 298000,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      }
+    ]
+  }
+}

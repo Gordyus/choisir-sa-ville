@@ -1,0 +1,99 @@
+{
+  "a0810b49337f": {
+    "id": "a0810b49337f",
+    "label": "10 HAMEAU DE BELLEVUE, Deûlémont",
+    "lat": 50.736941,
+    "lng": 2.957948,
+    "transactions": [
+      {
+        "date": "2020-07-28",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "ea7a575b26bd": {
+    "id": "ea7a575b26bd",
+    "label": "2 IMP CLOS DES MONTS DE FLANDRE, Deûlémont",
+    "lat": 50.737612,
+    "lng": 2.955751,
+    "transactions": [
+      {
+        "date": "2020-10-21",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "450b8f835ef3": {
+    "id": "450b8f835ef3",
+    "label": "19 RTE DE COMINES, Deûlémont",
+    "lat": 50.737333,
+    "lng": 2.959042,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 420000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "8510aa016a10": {
+    "id": "8510aa016a10",
+    "label": "8 HAMEAU DE BELLEVUE, Deûlémont",
+    "lat": 50.736972,
+    "lng": 2.957909,
+    "transactions": [
+      {
+        "date": "2022-01-17",
+        "priceEur": 151600,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "53d015b7b10b": {
+    "id": "53d015b7b10b",
+    "label": "21 RTE DE COMINES, Deûlémont",
+    "lat": 50.737407,
+    "lng": 2.959311,
+    "transactions": [
+      {
+        "date": "2022-07-07",
+        "priceEur": 162500,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-31",
+        "priceEur": 325000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b85da8e7e1f": {
+    "id": "7b85da8e7e1f",
+    "label": "6 HAMEAU DE BELLEVUE, Deûlémont",
+    "lat": 50.737,
+    "lng": 2.957858,
+    "transactions": [
+      {
+        "date": "2023-04-25",
+        "priceEur": 189500,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "ad5930fbe30c": {
+    "id": "ad5930fbe30c",
+    "label": "992 RTE DE SAINT AUBIN, Vieux-Manoir",
+    "lat": 49.560427,
+    "lng": 1.285976,
+    "transactions": [
+      {
+        "date": "2020-08-13",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "4be9f632fd25": {
+    "id": "4be9f632fd25",
+    "label": "1008 RTE DE SAINT AUBIN, Vieux-Manoir",
+    "lat": 49.560068,
+    "lng": 1.285767,
+    "transactions": [
+      {
+        "date": "2025-01-10",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  }
+}

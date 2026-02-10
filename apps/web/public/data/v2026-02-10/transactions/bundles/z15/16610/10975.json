@@ -1,0 +1,77 @@
+{
+  "cf00bf609ecd": {
+    "id": "cf00bf609ecd",
+    "label": "972 RTE D YPRES RD 916, Warhem",
+    "lat": 50.9641,
+    "lng": 2.486661,
+    "transactions": [
+      {
+        "date": "2020-10-12",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf8d9e2d61ae": {
+    "id": "bf8d9e2d61ae",
+    "label": "861 RTE D YPRES RD 916, Warhem",
+    "lat": 50.964836,
+    "lng": 2.485557,
+    "transactions": [
+      {
+        "date": "2020-11-05",
+        "priceEur": 292850,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "f24e4f4cedc3": {
+    "id": "f24e4f4cedc3",
+    "label": "1012 RTE D YPRES RD 916, Warhem",
+    "lat": 50.964197,
+    "lng": 2.487592,
+    "transactions": [
+      {
+        "date": "2021-09-01",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 210,
+        "isVefa": false
+      }
+    ]
+  },
+  "d509e8422efd": {
+    "id": "d509e8422efd",
+    "label": "791 RTE D YPRES RD 916, Warhem",
+    "lat": 50.964741,
+    "lng": 2.484411,
+    "transactions": [
+      {
+        "date": "2023-11-30",
+        "priceEur": 196500,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "df6c61a590bd": {
+    "id": "df6c61a590bd",
+    "label": "1044 RTE D HONDSCHOOTE CD110, Warhem",
+    "lat": 50.964483,
+    "lng": 2.488534,
+    "transactions": [
+      {
+        "date": "2024-07-16",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

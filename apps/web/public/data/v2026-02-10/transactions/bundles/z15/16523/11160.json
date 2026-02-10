@@ -1,0 +1,32 @@
+{
+  "8e9d65de4365": {
+    "id": "8e9d65de4365",
+    "label": "1 RTE DU BEL ENDROIT, Mesnil-Mauger",
+    "lat": 49.664718,
+    "lng": 1.531946,
+    "transactions": [
+      {
+        "date": "2023-05-12",
+        "priceEur": 610950,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "65a6eb32877b": {
+    "id": "65a6eb32877b",
+    "label": "415 RUE DU BEL ENDROIT, Beaubec-la-Rosière",
+    "lat": 49.66113,
+    "lng": 1.532471,
+    "transactions": [
+      {
+        "date": "2023-12-27",
+        "priceEur": 338250,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

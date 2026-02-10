@@ -1,0 +1,159 @@
+{
+  "25479118c9f2": {
+    "id": "25479118c9f2",
+    "label": "5092 LE BOURG, Limésy",
+    "lat": 49.613032,
+    "lng": 0.922578,
+    "transactions": [
+      {
+        "date": "2021-01-08",
+        "priceEur": 161500,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "6655ab081a74": {
+    "id": "6655ab081a74",
+    "label": "5098C LE BOURG, Limésy",
+    "lat": 49.613861,
+    "lng": 0.919994,
+    "transactions": [
+      {
+        "date": "2021-02-01",
+        "priceEur": 224500,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "d096c13c1db9": {
+    "id": "d096c13c1db9",
+    "label": "371 RUE GRANDE RUE, Limésy",
+    "lat": 49.61319,
+    "lng": 0.920907,
+    "transactions": [
+      {
+        "date": "2022-12-06",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-09-26",
+        "priceEur": 51000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "641a0f60a0a1": {
+    "id": "641a0f60a0a1",
+    "label": "326 RUE GRANDE RUE, Limésy",
+    "lat": 49.613032,
+    "lng": 0.921885,
+    "transactions": [
+      {
+        "date": "2023-01-23",
+        "priceEur": 55000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "aea4fa8ab38a": {
+    "id": "aea4fa8ab38a",
+    "label": "19 RUE LES PRES ST MARTIN, Limésy",
+    "lat": 49.615094,
+    "lng": 0.92089,
+    "transactions": [
+      {
+        "date": "2023-05-26",
+        "priceEur": 141000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "890978c8c882": {
+    "id": "890978c8c882",
+    "label": "265 IMP DU MONT AUGER, Limésy",
+    "lat": 49.611408,
+    "lng": 0.916787,
+    "transactions": [
+      {
+        "date": "2023-06-05",
+        "priceEur": 271000,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c0197f45959": {
+    "id": "5c0197f45959",
+    "label": "351 RUE GRANDE RUE, Limésy",
+    "lat": 49.612846,
+    "lng": 0.92107,
+    "transactions": [
+      {
+        "date": "2023-08-17",
+        "priceEur": 147900,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "ccb6dddec944": {
+    "id": "ccb6dddec944",
+    "label": "251 RUE GRANDE RUE, Limésy",
+    "lat": 49.612679,
+    "lng": 0.922816,
+    "transactions": [
+      {
+        "date": "2024-10-30",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd6020ce5abb": {
+    "id": "bd6020ce5abb",
+    "label": "164 IMP DE LA MARE, Limésy",
+    "lat": 49.613658,
+    "lng": 0.91835,
+    "transactions": [
+      {
+        "date": "2024-11-25",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "671223af5881": {
+    "id": "671223af5881",
+    "label": "1 RUE LES PRES ST MARTIN, Limésy",
+    "lat": 49.61426,
+    "lng": 0.920972,
+    "transactions": [
+      {
+        "date": "2024-12-26",
+        "priceEur": 118500,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  }
+}

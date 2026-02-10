@@ -1,0 +1,62 @@
+{
+  "431ddf55bbc2": {
+    "id": "431ddf55bbc2",
+    "label": "3060 RUE DE CAILLY, Quincampoix",
+    "lat": 49.536409,
+    "lng": 1.195099,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 294200,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "08854a3cc488": {
+    "id": "08854a3cc488",
+    "label": "2900 RUE DE CAILLY, Quincampoix",
+    "lat": 49.53538,
+    "lng": 1.193283,
+    "transactions": [
+      {
+        "date": "2022-08-31",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3cce895b0ba": {
+    "id": "c3cce895b0ba",
+    "label": "2984 RUE DE CAILLY, Quincampoix",
+    "lat": 49.536074,
+    "lng": 1.195092,
+    "transactions": [
+      {
+        "date": "2022-10-31",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "8fa1656bac0d": {
+    "id": "8fa1656bac0d",
+    "label": "3176 RUE DE CAILLY, Quincampoix",
+    "lat": 49.537254,
+    "lng": 1.195092,
+    "transactions": [
+      {
+        "date": "2022-12-14",
+        "priceEur": 266000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  }
+}

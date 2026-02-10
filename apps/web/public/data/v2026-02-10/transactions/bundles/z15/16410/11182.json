@@ -1,0 +1,54 @@
+{
+  "cba14b9235c3": {
+    "id": "cba14b9235c3",
+    "label": "422 RTE DE VERGUETOT, Oudalle",
+    "lat": 49.508174,
+    "lng": 0.29246,
+    "transactions": [
+      {
+        "date": "2022-11-25",
+        "priceEur": 271969,
+        "typeLocal": "Maison",
+        "surfaceM2": 164,
+        "isVefa": false
+      }
+    ]
+  },
+  "d266cc840aa6": {
+    "id": "d266cc840aa6",
+    "label": "294 RTE DE VERGUETOT, Oudalle",
+    "lat": 49.507466,
+    "lng": 0.294747,
+    "transactions": [
+      {
+        "date": "2024-11-15",
+        "priceEur": 296000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-20",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "d2c6ac4ab468": {
+    "id": "d2c6ac4ab468",
+    "label": "487 RTE DE VERGUETOT, Oudalle",
+    "lat": 49.508987,
+    "lng": 0.292271,
+    "transactions": [
+      {
+        "date": "2024-08-02",
+        "priceEur": 288400,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  }
+}

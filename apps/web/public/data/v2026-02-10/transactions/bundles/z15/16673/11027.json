@@ -1,0 +1,38 @@
+{
+  "32c52aee74aa": {
+    "id": "32c52aee74aa",
+    "label": "44 RUE JEAN JAURES, Anstaing",
+    "lat": 50.603849,
+    "lng": 3.184654,
+    "transactions": [
+      {
+        "date": "2021-11-08",
+        "priceEur": 355000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-08",
+        "priceEur": 355000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-26",
+        "priceEur": 267000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-26",
+        "priceEur": 267000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

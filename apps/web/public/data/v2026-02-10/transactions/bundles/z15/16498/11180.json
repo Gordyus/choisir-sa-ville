@@ -1,0 +1,129 @@
+{
+  "326e8f1fed68": {
+    "id": "326e8f1fed68",
+    "label": "341 RTE DE MONDETOUR, Morgny-la-Pommeraye",
+    "lat": 49.520712,
+    "lng": 1.25332,
+    "transactions": [
+      {
+        "date": "2021-06-16",
+        "priceEur": 62500,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "4444d2066dda": {
+    "id": "4444d2066dda",
+    "label": "55 RUE DU FOUR A CHAUX, Morgny-la-Pommeraye",
+    "lat": 49.523545,
+    "lng": 1.259371,
+    "transactions": [
+      {
+        "date": "2021-07-27",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "f71481c7d107": {
+    "id": "f71481c7d107",
+    "label": "362 MONDETOUR, Morgny-la-Pommeraye",
+    "lat": 49.520295,
+    "lng": 1.253581,
+    "transactions": [
+      {
+        "date": "2021-08-09",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "de9571ac338a": {
+    "id": "de9571ac338a",
+    "label": "8 RUE DES SAULES, Morgny-la-Pommeraye",
+    "lat": 49.521555,
+    "lng": 1.252876,
+    "transactions": [
+      {
+        "date": "2022-03-18",
+        "priceEur": 254400,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "e59f3502cf2d": {
+    "id": "e59f3502cf2d",
+    "label": "45 RUE DU RAVIN, Morgny-la-Pommeraye",
+    "lat": 49.521968,
+    "lng": 1.258912,
+    "transactions": [
+      {
+        "date": "2023-09-16",
+        "priceEur": 226000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      },
+      {
+        "date": "2022-05-18",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "feb725a5af06": {
+    "id": "feb725a5af06",
+    "label": "13 RUE DES SAULES, Morgny-la-Pommeraye",
+    "lat": 49.521197,
+    "lng": 1.252632,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 279300,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd58303eef16": {
+    "id": "fd58303eef16",
+    "label": "5111 MONDETOUR, Morgny-la-Pommeraye",
+    "lat": 49.520903,
+    "lng": 1.254282,
+    "transactions": [
+      {
+        "date": "2023-09-15",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c1b4a54a847": {
+    "id": "5c1b4a54a847",
+    "label": "5110 MONDETOUR, Morgny-la-Pommeraye",
+    "lat": 49.52097,
+    "lng": 1.253552,
+    "transactions": [
+      {
+        "date": "2024-06-19",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

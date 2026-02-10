@@ -1,0 +1,62 @@
+{
+  "413b0b9ef38d": {
+    "id": "413b0b9ef38d",
+    "label": "5002 BLOCUS, Mons-en-Pévèle",
+    "lat": 50.4975,
+    "lng": 3.125639,
+    "transactions": [
+      {
+        "date": "2021-04-09",
+        "priceEur": 1431000,
+        "typeLocal": "Maison",
+        "surfaceM2": 307,
+        "isVefa": false
+      }
+    ]
+  },
+  "bab7f7c04eed": {
+    "id": "bab7f7c04eed",
+    "label": "44 ALL DE LA PETITE MARQUE, Mérignies",
+    "lat": 50.499157,
+    "lng": 3.123509,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 650000,
+        "typeLocal": "Maison",
+        "surfaceM2": 173,
+        "isVefa": false
+      }
+    ]
+  },
+  "99c03867d344": {
+    "id": "99c03867d344",
+    "label": "438 RUE DU BLOCUS, Mérignies",
+    "lat": 50.498571,
+    "lng": 3.122706,
+    "transactions": [
+      {
+        "date": "2024-04-23",
+        "priceEur": 622000,
+        "typeLocal": "Maison",
+        "surfaceM2": 188,
+        "isVefa": false
+      }
+    ]
+  },
+  "c26df7121d5c": {
+    "id": "c26df7121d5c",
+    "label": "36 ALL DE LA PETITE MARQUE, Mérignies",
+    "lat": 50.499037,
+    "lng": 3.123026,
+    "transactions": [
+      {
+        "date": "2024-11-22",
+        "priceEur": 528000,
+        "typeLocal": "Maison",
+        "surfaceM2": 159,
+        "isVefa": false
+      }
+    ]
+  }
+}

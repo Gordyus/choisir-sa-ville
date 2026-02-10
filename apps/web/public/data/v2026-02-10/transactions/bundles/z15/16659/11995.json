@@ -1,0 +1,114 @@
+{
+  "5c64873b1bb8": {
+    "id": "5c64873b1bb8",
+    "label": "31 CHE DE MONTFAUCON, Puisserguier",
+    "lat": 43.36019,
+    "lng": 3.031339,
+    "transactions": [
+      {
+        "date": "2020-07-31",
+        "priceEur": 215600,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "ced899c4f25d": {
+    "id": "ced899c4f25d",
+    "label": "7 CHE DE SAINT VINCENT, Puisserguier",
+    "lat": 43.362406,
+    "lng": 3.03016,
+    "transactions": [
+      {
+        "date": "2021-05-18",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f86edf93bf2": {
+    "id": "2f86edf93bf2",
+    "label": "9 CHEMIN DE QUARANTE, Puisserguier",
+    "lat": 43.361616,
+    "lng": 3.030562,
+    "transactions": [
+      {
+        "date": "2022-01-24",
+        "priceEur": 235250,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  },
+  "05345019ae9a": {
+    "id": "05345019ae9a",
+    "label": "4 CHEMIN DE QUARANTE, Puisserguier",
+    "lat": 43.361973,
+    "lng": 3.032018,
+    "transactions": [
+      {
+        "date": "2023-02-28",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "384a7760a79e": {
+    "id": "384a7760a79e",
+    "label": "2B CHEMIN DE QUARANTE, Puisserguier",
+    "lat": 43.362326,
+    "lng": 3.032053,
+    "transactions": [
+      {
+        "date": "2023-02-23",
+        "priceEur": 305000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "758813dfc0d5": {
+    "id": "758813dfc0d5",
+    "label": "37 CHE DE MONTFAUCON, Puisserguier",
+    "lat": 43.359985,
+    "lng": 3.030997,
+    "transactions": [
+      {
+        "date": "2024-02-17",
+        "priceEur": 400000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 158,
+        "isVefa": false
+      },
+      {
+        "date": "2024-02-17",
+        "priceEur": 400000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5537c36673b": {
+    "id": "d5537c36673b",
+    "label": "6 SAINT-VINCENT, Puisserguier",
+    "lat": 43.362851,
+    "lng": 3.030001,
+    "transactions": [
+      {
+        "date": "2024-08-30",
+        "priceEur": 339300,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  }
+}

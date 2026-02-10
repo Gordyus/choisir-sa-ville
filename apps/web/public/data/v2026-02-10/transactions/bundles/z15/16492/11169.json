@@ -1,0 +1,92 @@
+{
+  "ff42760322ae": {
+    "id": "ff42760322ae",
+    "label": "135 RUE DE L'ECOLE, Claville-Motteville",
+    "lat": 49.599663,
+    "lng": 1.186649,
+    "transactions": [
+      {
+        "date": "2020-10-23",
+        "priceEur": 338000,
+        "typeLocal": "Maison",
+        "surfaceM2": 225,
+        "isVefa": false
+      }
+    ]
+  },
+  "b05a43cd6087": {
+    "id": "b05a43cd6087",
+    "label": "594 RTE DE CAILLY, Claville-Motteville",
+    "lat": 49.598439,
+    "lng": 1.190404,
+    "transactions": [
+      {
+        "date": "2021-06-03",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "d2273bde2c3a": {
+    "id": "d2273bde2c3a",
+    "label": "6013 LE VILLAGE, Claville-Motteville",
+    "lat": 49.599744,
+    "lng": 1.192657,
+    "transactions": [
+      {
+        "date": "2022-03-12",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "cce2a435b4cb": {
+    "id": "cce2a435b4cb",
+    "label": "6005 LE VILLAGE, Claville-Motteville",
+    "lat": 49.599757,
+    "lng": 1.193696,
+    "transactions": [
+      {
+        "date": "2022-12-14",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ac723002740": {
+    "id": "1ac723002740",
+    "label": "90 RUE DE L'EGLISE, Claville-Motteville",
+    "lat": 49.59995,
+    "lng": 1.191133,
+    "transactions": [
+      {
+        "date": "2023-03-29",
+        "priceEur": 222000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "d486c217cd50": {
+    "id": "d486c217cd50",
+    "label": "363 RTE DE CAILLY, Claville-Motteville",
+    "lat": 49.600373,
+    "lng": 1.188443,
+    "transactions": [
+      {
+        "date": "2025-04-03",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  }
+}

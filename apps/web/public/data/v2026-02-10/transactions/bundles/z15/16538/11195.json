@@ -1,0 +1,99 @@
+{
+  "57ac177ac56b": {
+    "id": "57ac177ac56b",
+    "label": "8 RUE DES HAYES, Neuf-Marché",
+    "lat": 49.417786,
+    "lng": 1.692378,
+    "transactions": [
+      {
+        "date": "2020-10-29",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "f86f3662db5b": {
+    "id": "f86f3662db5b",
+    "label": "5 RUE CLAUDE HEUILLARD, Neuf-Marché",
+    "lat": 49.417083,
+    "lng": 1.691948,
+    "transactions": [
+      {
+        "date": "2021-04-14",
+        "priceEur": 206650,
+        "typeLocal": "Maison",
+        "surfaceM2": 131,
+        "isVefa": false
+      }
+    ]
+  },
+  "eb2056e5f8d8": {
+    "id": "eb2056e5f8d8",
+    "label": "3 RUE SAINT JEAN, Neuf-Marché",
+    "lat": 49.417065,
+    "lng": 1.69295,
+    "transactions": [
+      {
+        "date": "2022-06-02",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "0fef58a5353c": {
+    "id": "0fef58a5353c",
+    "label": "1 RUE DES MORINS, Neuf-Marché",
+    "lat": 49.417688,
+    "lng": 1.69457,
+    "transactions": [
+      {
+        "date": "2022-08-23",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "d1c0b459265e": {
+    "id": "d1c0b459265e",
+    "label": "13 RUE DES MORINS, Neuf-Marché",
+    "lat": 49.417819,
+    "lng": 1.697157,
+    "transactions": [
+      {
+        "date": "2023-03-29",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "304ca65cd0fa": {
+    "id": "304ca65cd0fa",
+    "label": "3B RUE DES MORINS, Neuf-Marché",
+    "lat": 49.417788,
+    "lng": 1.695126,
+    "transactions": [
+      {
+        "date": "2024-06-11",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2024-06-11",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  }
+}

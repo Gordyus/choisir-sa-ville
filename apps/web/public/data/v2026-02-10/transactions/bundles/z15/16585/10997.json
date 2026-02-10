@@ -1,0 +1,92 @@
+{
+  "a365e91983b4": {
+    "id": "a365e91983b4",
+    "label": "256 RUE PASCAL LEULLIETTE, Watten",
+    "lat": 50.812189,
+    "lng": 2.217795,
+    "transactions": [
+      {
+        "date": "2020-10-19",
+        "priceEur": 146000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "128b37752e10": {
+    "id": "128b37752e10",
+    "label": "266 RUE PASCAL LEULLIETTE, Watten",
+    "lat": 50.811471,
+    "lng": 2.218654,
+    "transactions": [
+      {
+        "date": "2021-03-09",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 174,
+        "isVefa": false
+      }
+    ]
+  },
+  "b30e0c3e5b52": {
+    "id": "b30e0c3e5b52",
+    "label": "248 RUE PASCAL LEULLIETTE, Watten",
+    "lat": 50.812783,
+    "lng": 2.217458,
+    "transactions": [
+      {
+        "date": "2022-05-11",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "b065d12c3cfd": {
+    "id": "b065d12c3cfd",
+    "label": "9 SEN DE LA MUISSENS, Watten",
+    "lat": 50.812246,
+    "lng": 2.216845,
+    "transactions": [
+      {
+        "date": "2023-01-27",
+        "priceEur": 39870,
+        "typeLocal": "Maison",
+        "surfaceM2": 20,
+        "isVefa": false
+      }
+    ]
+  },
+  "872e7fc5d2b6": {
+    "id": "872e7fc5d2b6",
+    "label": "22 CHE DE LA HOULLE, Watten",
+    "lat": 50.812647,
+    "lng": 2.215546,
+    "transactions": [
+      {
+        "date": "2023-02-17",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "193dd4f83022": {
+    "id": "193dd4f83022",
+    "label": "17 SEN DE LA MUISSENS, Watten",
+    "lat": 50.811687,
+    "lng": 2.217341,
+    "transactions": [
+      {
+        "date": "2024-09-10",
+        "priceEur": 40000,
+        "typeLocal": "Maison",
+        "surfaceM2": 23,
+        "isVefa": false
+      }
+    ]
+  }
+}

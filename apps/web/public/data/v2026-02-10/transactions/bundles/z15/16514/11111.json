@@ -1,0 +1,91 @@
+{
+  "70df06b9c22f": {
+    "id": "70df06b9c22f",
+    "label": "56 RUE DU FRESNE, Saint-Pierre-en-Val",
+    "lat": 50.009689,
+    "lng": 1.437772,
+    "transactions": [
+      {
+        "date": "2023-07-24",
+        "priceEur": 157160,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      },
+      {
+        "date": "2020-11-27",
+        "priceEur": 130900,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "8091f9f94ee3": {
+    "id": "8091f9f94ee3",
+    "label": "5145 LE FRESNE HAMEAU, Saint-Pierre-en-Val",
+    "lat": 50.00895,
+    "lng": 1.438405,
+    "transactions": [
+      {
+        "date": "2021-12-21",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-21",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "707b3c3c8c62": {
+    "id": "707b3c3c8c62",
+    "label": "67B RUE DU FRESNE, Saint-Pierre-en-Val",
+    "lat": 50.008241,
+    "lng": 1.438521,
+    "transactions": [
+      {
+        "date": "2022-08-19",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "a349987fb5bf": {
+    "id": "a349987fb5bf",
+    "label": "5254 FOND DE LA BOURDAINE, Saint-Pierre-en-Val",
+    "lat": 50.008668,
+    "lng": 1.43305,
+    "transactions": [
+      {
+        "date": "2023-06-28",
+        "priceEur": 258550,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ee00e46b541": {
+    "id": "7ee00e46b541",
+    "label": "67 RUE DU FRESNE, Saint-Pierre-en-Val",
+    "lat": 50.008373,
+    "lng": 1.438276,
+    "transactions": [
+      {
+        "date": "2023-08-08",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "8d630decd144": {
+    "id": "8d630decd144",
+    "label": "5 RUE DU CENTRE, La Feuillie",
+    "lat": 49.460867,
+    "lng": 1.515194,
+    "transactions": [
+      {
+        "date": "2021-06-02",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "a6aef8dbdd0d": {
+    "id": "a6aef8dbdd0d",
+    "label": "6 RES THERESE PATIN, La Feuillie",
+    "lat": 49.46015,
+    "lng": 1.511327,
+    "transactions": [
+      {
+        "date": "2021-10-08",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d11ab74992f": {
+    "id": "2d11ab74992f",
+    "label": "9 RUE DU LANDEL, La Feuillie",
+    "lat": 49.455678,
+    "lng": 1.515609,
+    "transactions": [
+      {
+        "date": "2023-04-12",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  },
+  "c553db463629": {
+    "id": "c553db463629",
+    "label": "100 RTE DE ROUEN, La Feuillie",
+    "lat": 49.459548,
+    "lng": 1.514426,
+    "transactions": [
+      {
+        "date": "2023-12-15",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "eb64e4266733": {
+    "id": "eb64e4266733",
+    "label": "76 RTE DE ROUEN, La Feuillie",
+    "lat": 49.45935,
+    "lng": 1.509442,
+    "transactions": [
+      {
+        "date": "2025-04-02",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 169,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a0969a0d6cd": {
+    "id": "1a0969a0d6cd",
+    "label": "16 RES THERESE PATIN, La Feuillie",
+    "lat": 49.460758,
+    "lng": 1.51363,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

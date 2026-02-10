@@ -1,0 +1,77 @@
+{
+  "40c57c6a85f4": {
+    "id": "40c57c6a85f4",
+    "label": "1156 RUE DU BOIS, Steenbecque",
+    "lat": 50.668151,
+    "lng": 2.493357,
+    "transactions": [
+      {
+        "date": "2020-11-30",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "6accebdeb394": {
+    "id": "6accebdeb394",
+    "label": "7 RUE DE VERDUN, Steenbecque",
+    "lat": 50.673569,
+    "lng": 2.483465,
+    "transactions": [
+      {
+        "date": "2021-11-15",
+        "priceEur": 123500,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "dcbcfdbe9f52": {
+    "id": "dcbcfdbe9f52",
+    "label": "559 RUE DU BOIS, Steenbecque",
+    "lat": 50.671646,
+    "lng": 2.487397,
+    "transactions": [
+      {
+        "date": "2023-05-17",
+        "priceEur": 144000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "facbb91ba926": {
+    "id": "facbb91ba926",
+    "label": "591 RUE DU BOIS, Steenbecque",
+    "lat": 50.671507,
+    "lng": 2.487569,
+    "transactions": [
+      {
+        "date": "2024-06-11",
+        "priceEur": 203700,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "d720d69dca76": {
+    "id": "d720d69dca76",
+    "label": "3 RUE DE VERDUN, Steenbecque",
+    "lat": 50.673621,
+    "lng": 2.483659,
+    "transactions": [
+      {
+        "date": "2024-08-14",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

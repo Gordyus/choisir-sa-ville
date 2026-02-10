@@ -1,0 +1,92 @@
+{
+  "1fbc7fe8150f": {
+    "id": "1fbc7fe8150f",
+    "label": "345 KETELSTRAETE, Bailleul",
+    "lat": 50.742339,
+    "lng": 2.712113,
+    "transactions": [
+      {
+        "date": "2020-12-22",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "cac81cf73a09": {
+    "id": "cac81cf73a09",
+    "label": "1762 RTE DE METEREN, Bailleul",
+    "lat": 50.739659,
+    "lng": 2.708714,
+    "transactions": [
+      {
+        "date": "2021-01-07",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "0160da3d224b": {
+    "id": "0160da3d224b",
+    "label": "1850 ALL DES RAMIERS, Bailleul",
+    "lat": 50.739823,
+    "lng": 2.707507,
+    "transactions": [
+      {
+        "date": "2022-06-27",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "dd3b0bc19cad": {
+    "id": "dd3b0bc19cad",
+    "label": "65 VC ABEEL STRAETE, Bailleul",
+    "lat": 50.739843,
+    "lng": 2.70978,
+    "transactions": [
+      {
+        "date": "2022-07-29",
+        "priceEur": 174000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "35ad452f943d": {
+    "id": "35ad452f943d",
+    "label": "51 VC ABEEL STRAETE, Bailleul",
+    "lat": 50.739746,
+    "lng": 2.709981,
+    "transactions": [
+      {
+        "date": "2024-09-26",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      }
+    ]
+  },
+  "88c713542813": {
+    "id": "88c713542813",
+    "label": "1053 DONDER STRAETE, Bailleul",
+    "lat": 50.737268,
+    "lng": 2.710735,
+    "transactions": [
+      {
+        "date": "2024-11-20",
+        "priceEur": 525000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "d7fc90fcf1aa": {
+    "id": "d7fc90fcf1aa",
+    "label": "60 RUE PABLO PICASSO, Émerchicourt",
+    "lat": 50.312968,
+    "lng": 3.251952,
+    "transactions": [
+      {
+        "date": "2021-09-17",
+        "priceEur": 123772,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "67f6f2d9eb02": {
+    "id": "67f6f2d9eb02",
+    "label": "64 RUE PABLO PICASSO, Émerchicourt",
+    "lat": 50.312843,
+    "lng": 3.251717,
+    "transactions": [
+      {
+        "date": "2022-02-24",
+        "priceEur": 119120,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

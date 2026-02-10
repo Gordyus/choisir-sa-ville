@@ -1,0 +1,24 @@
+{
+  "c8f42b765fee": {
+    "id": "c8f42b765fee",
+    "label": "21 RTE DE LA CENTRALE, Wavrin",
+    "lat": 50.553658,
+    "lng": 2.940271,
+    "transactions": [
+      {
+        "date": "2025-03-10",
+        "priceEur": 77350,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-20",
+        "priceEur": 56000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  }
+}

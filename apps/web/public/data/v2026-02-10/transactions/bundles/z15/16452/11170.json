@@ -1,0 +1,47 @@
+{
+  "f5941291eb10": {
+    "id": "f5941291eb10",
+    "label": "394 RTE DU NEUFBOURG, Touffreville-la-Corbeline",
+    "lat": 49.592939,
+    "lng": 0.752754,
+    "transactions": [
+      {
+        "date": "2021-02-01",
+        "priceEur": 242000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "4009267c6922": {
+    "id": "4009267c6922",
+    "label": "483 RTE DU NEUFBOURG, Touffreville-la-Corbeline",
+    "lat": 49.593877,
+    "lng": 0.753342,
+    "transactions": [
+      {
+        "date": "2023-07-15",
+        "priceEur": 223000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "14e7a9bc3503": {
+    "id": "14e7a9bc3503",
+    "label": "422 RTE DU NEUFBOURG, Touffreville-la-Corbeline",
+    "lat": 49.592748,
+    "lng": 0.753102,
+    "transactions": [
+      {
+        "date": "2024-06-21",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

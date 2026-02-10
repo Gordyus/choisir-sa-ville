@@ -1,0 +1,32 @@
+{
+  "08a55d67f6b2": {
+    "id": "08a55d67f6b2",
+    "label": "13 CLOS SAINT JULIEN, Criquetot-sur-Longueville",
+    "lat": 49.777443,
+    "lng": 1.078453,
+    "transactions": [
+      {
+        "date": "2022-01-08",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  },
+  "89d8464f9e6a": {
+    "id": "89d8464f9e6a",
+    "label": "9 RUE DE L EGLISE, Criquetot-sur-Longueville",
+    "lat": 49.776628,
+    "lng": 1.078515,
+    "transactions": [
+      {
+        "date": "2025-06-24",
+        "priceEur": 76190,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  }
+}

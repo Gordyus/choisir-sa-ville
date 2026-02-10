@@ -1,0 +1,32 @@
+{
+  "d13f7419cdce": {
+    "id": "d13f7419cdce",
+    "label": "712 RUE DELCAMBRE, Montigny-en-Ostrevent",
+    "lat": 50.366466,
+    "lng": 3.174451,
+    "transactions": [
+      {
+        "date": "2021-04-29",
+        "priceEur": 278000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "756a48869600": {
+    "id": "756a48869600",
+    "label": "528 RUE SAINT JEAN, Loffre",
+    "lat": 50.359763,
+    "lng": 3.170031,
+    "transactions": [
+      {
+        "date": "2025-01-24",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

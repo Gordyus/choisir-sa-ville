@@ -1,0 +1,47 @@
+{
+  "92bb12fced93": {
+    "id": "92bb12fced93",
+    "label": "305 RUE CLOVIS BURETTE, Clères",
+    "lat": 49.604643,
+    "lng": 1.119891,
+    "transactions": [
+      {
+        "date": "2020-09-23",
+        "priceEur": 158000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "baa7b0c96aa3": {
+    "id": "baa7b0c96aa3",
+    "label": "67 RUE DES GEAIS, Clères",
+    "lat": 49.604171,
+    "lng": 1.120259,
+    "transactions": [
+      {
+        "date": "2020-11-26",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "ee02d0f577c7": {
+    "id": "ee02d0f577c7",
+    "label": "121 RUE DES GEAIS, Clères",
+    "lat": 49.603619,
+    "lng": 1.120552,
+    "transactions": [
+      {
+        "date": "2021-11-18",
+        "priceEur": 121000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

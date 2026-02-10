@@ -1,0 +1,157 @@
+{
+  "a424963258b0": {
+    "id": "a424963258b0",
+    "label": "232 RUE DES DUNES MARDYCK, Dunkerque",
+    "lat": 51.024713,
+    "lng": 2.252016,
+    "transactions": [
+      {
+        "date": "2020-08-25",
+        "priceEur": 127700,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "a5fe52bcca49": {
+    "id": "a5fe52bcca49",
+    "label": "48 PL DU VILLAGE MARDYCK, Dunkerque",
+    "lat": 51.020877,
+    "lng": 2.250097,
+    "transactions": [
+      {
+        "date": "2020-09-22",
+        "priceEur": 311400,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "ffdf2a02a427": {
+    "id": "ffdf2a02a427",
+    "label": "378 RUE DE LA MER MARDYCK, Dunkerque",
+    "lat": 51.024499,
+    "lng": 2.248714,
+    "transactions": [
+      {
+        "date": "2020-09-29",
+        "priceEur": 204700,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "2c1e4b5d4429": {
+    "id": "2c1e4b5d4429",
+    "label": "36 RUE DES DUNES MARDYCK, Dunkerque",
+    "lat": 51.024366,
+    "lng": 2.249162,
+    "transactions": [
+      {
+        "date": "2020-12-15",
+        "priceEur": 298200,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "f05881381380": {
+    "id": "f05881381380",
+    "label": "335 RUE DE LA MER MARDYCK, Dunkerque",
+    "lat": 51.024016,
+    "lng": 2.248309,
+    "transactions": [
+      {
+        "date": "2020-12-08",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a82cf8bc72f": {
+    "id": "1a82cf8bc72f",
+    "label": "86 RUE DES DUNES MARDYCK, Dunkerque",
+    "lat": 51.024372,
+    "lng": 2.249963,
+    "transactions": [
+      {
+        "date": "2020-12-08",
+        "priceEur": 67200,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1515f3792fe": {
+    "id": "f1515f3792fe",
+    "label": "148 RUE DES DUNES MARDYCK, Dunkerque",
+    "lat": 51.024424,
+    "lng": 2.250737,
+    "transactions": [
+      {
+        "date": "2021-11-08",
+        "priceEur": 320000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 27,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-08",
+        "priceEur": 320000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 20,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-08",
+        "priceEur": 320000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 39,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-08",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      },
+      {
+        "date": "2021-11-08",
+        "priceEur": 320000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ae81a6cc708": {
+    "id": "9ae81a6cc708",
+    "label": "28 CD 1 MARDYCK, Dunkerque",
+    "lat": 51.021273,
+    "lng": 2.247981,
+    "transactions": [
+      {
+        "date": "2023-12-01",
+        "priceEur": 119200,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      },
+      {
+        "date": "2023-05-12",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  }
+}

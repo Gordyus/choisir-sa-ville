@@ -1,0 +1,32 @@
+{
+  "621453f9471e": {
+    "id": "621453f9471e",
+    "label": "5029 LE BOURG, Sainte-Beuve-en-Rivière",
+    "lat": 49.758835,
+    "lng": 1.527914,
+    "transactions": [
+      {
+        "date": "2021-09-17",
+        "priceEur": 122000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "d4952c6f6026": {
+    "id": "d4952c6f6026",
+    "label": "5016 EPINAY, Sainte-Beuve-en-Rivière",
+    "lat": 49.757007,
+    "lng": 1.535738,
+    "transactions": [
+      {
+        "date": "2022-04-05",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  }
+}

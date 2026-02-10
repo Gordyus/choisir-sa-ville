@@ -1,0 +1,60 @@
+{
+  "265d5f353f92": {
+    "id": "265d5f353f92",
+    "label": "5048 LE CHATEAU, Daubeuf-Serville",
+    "lat": 49.709563,
+    "lng": 0.476865,
+    "transactions": [
+      {
+        "date": "2024-01-25",
+        "priceEur": 68952,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3cdf41a0051": {
+    "id": "d3cdf41a0051",
+    "label": "5045 LE CHATEAU, Daubeuf-Serville",
+    "lat": 49.707652,
+    "lng": 0.478012,
+    "transactions": [
+      {
+        "date": "2024-01-25",
+        "priceEur": 68952,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-25",
+        "priceEur": 68952,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-25",
+        "priceEur": 68952,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-25",
+        "priceEur": 68952,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      },
+      {
+        "date": "2024-01-25",
+        "priceEur": 68952,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

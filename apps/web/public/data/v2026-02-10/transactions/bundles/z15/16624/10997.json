@@ -1,0 +1,76 @@
+{
+  "9f4c99bec082": {
+    "id": "9f4c99bec082",
+    "label": "296 VC LE KEUKAERT, Godewaersvelde",
+    "lat": 50.806567,
+    "lng": 2.645327,
+    "transactions": [
+      {
+        "date": "2020-09-11",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "2fd736d35fa8": {
+    "id": "2fd736d35fa8",
+    "label": "100 ZA DE CALLICANES, Godewaersvelde",
+    "lat": 50.811191,
+    "lng": 2.638229,
+    "transactions": [
+      {
+        "date": "2021-03-31",
+        "priceEur": 460000,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-31",
+        "priceEur": 460000,
+        "typeLocal": "Maison",
+        "surfaceM2": 59,
+        "isVefa": false
+      },
+      {
+        "date": "2021-03-31",
+        "priceEur": 460000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d39419b907d": {
+    "id": "2d39419b907d",
+    "label": "1878 RTE DE CALLICANES, Godewaersvelde",
+    "lat": 50.809176,
+    "lng": 2.637098,
+    "transactions": [
+      {
+        "date": "2021-07-24",
+        "priceEur": 419000,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "37f4d131af73": {
+    "id": "37f4d131af73",
+    "label": "100 AV DE LA HOUBLONNIERE, Godewaersvelde",
+    "lat": 50.812044,
+    "lng": 2.644171,
+    "transactions": [
+      {
+        "date": "2022-01-21",
+        "priceEur": 660000,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "5ffe557f77d6": {
+    "id": "5ffe557f77d6",
+    "label": "5 RUE DU QUIMBERGE, Nomain",
+    "lat": 50.508781,
+    "lng": 3.237736,
+    "transactions": [
+      {
+        "date": "2020-10-05",
+        "priceEur": 256000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "beb4a515f8e0": {
+    "id": "beb4a515f8e0",
+    "label": "14 RUE DU QUIMBERGE, Nomain",
+    "lat": 50.509437,
+    "lng": 3.237997,
+    "transactions": [
+      {
+        "date": "2021-07-23",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "d841744506c3": {
+    "id": "d841744506c3",
+    "label": "19 RUE D OUVIGNIES, Nomain",
+    "lat": 50.506491,
+    "lng": 3.230123,
+    "transactions": [
+      {
+        "date": "2022-08-02",
+        "priceEur": 390000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "59da2c52c704": {
+    "id": "59da2c52c704",
+    "label": "7 RUE DU QUIMBERGE, Nomain",
+    "lat": 50.508922,
+    "lng": 3.237389,
+    "transactions": [
+      {
+        "date": "2022-09-02",
+        "priceEur": 61320,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

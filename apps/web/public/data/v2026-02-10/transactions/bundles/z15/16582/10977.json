@@ -1,0 +1,92 @@
+{
+  "2359a7f43d8a": {
+    "id": "2359a7f43d8a",
+    "label": "35 RTE DU GUINDAL, Bourbourg",
+    "lat": 50.945289,
+    "lng": 2.182592,
+    "transactions": [
+      {
+        "date": "2021-06-03",
+        "priceEur": 102000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "ded0b2c276db": {
+    "id": "ded0b2c276db",
+    "label": "37 RTE DU GUINDAL, Bourbourg",
+    "lat": 50.94535,
+    "lng": 2.182279,
+    "transactions": [
+      {
+        "date": "2021-07-15",
+        "priceEur": 177000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "a20683d7c87b": {
+    "id": "a20683d7c87b",
+    "label": "22 RTE DU GUINDAL, Bourbourg",
+    "lat": 50.946605,
+    "lng": 2.18457,
+    "transactions": [
+      {
+        "date": "2021-07-13",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "68c2abcd0fb2": {
+    "id": "68c2abcd0fb2",
+    "label": "36 RTE DU GUINDAL, Bourbourg",
+    "lat": 50.945411,
+    "lng": 2.18238,
+    "transactions": [
+      {
+        "date": "2021-10-27",
+        "priceEur": 214980,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "734b25d10bf8": {
+    "id": "734b25d10bf8",
+    "label": "9010 CHE DE SAINT GEORGES VC 7, Bourbourg",
+    "lat": 50.948239,
+    "lng": 2.181889,
+    "transactions": [
+      {
+        "date": "2022-12-13",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 180,
+        "isVefa": false
+      }
+    ]
+  },
+  "c96482bf16f4": {
+    "id": "c96482bf16f4",
+    "label": "27 RTE DU GUINDAL, Bourbourg",
+    "lat": 50.946342,
+    "lng": 2.184128,
+    "transactions": [
+      {
+        "date": "2023-01-16",
+        "priceEur": 128000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  }
+}

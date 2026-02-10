@@ -1,0 +1,69 @@
+{
+  "191ac76a7b37": {
+    "id": "191ac76a7b37",
+    "label": "17 RUE LUCIE AUBRAC, Thézan-lès-Béziers",
+    "lat": 43.420311,
+    "lng": 3.163265,
+    "transactions": [
+      {
+        "date": "2022-06-18",
+        "priceEur": 382000,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-02",
+        "priceEur": 304800,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "235867035817": {
+    "id": "235867035817",
+    "label": "1 RUE ALBERT CAMUS, Thézan-lès-Béziers",
+    "lat": 43.420152,
+    "lng": 3.164052,
+    "transactions": [
+      {
+        "date": "2022-02-25",
+        "priceEur": 221100,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "db27ffbb1119": {
+    "id": "db27ffbb1119",
+    "label": "14 RUE GASTON ESPARVIER, Thézan-lès-Béziers",
+    "lat": 43.419224,
+    "lng": 3.163859,
+    "transactions": [
+      {
+        "date": "2022-09-28",
+        "priceEur": 275360,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "65cd5bfc2efc": {
+    "id": "65cd5bfc2efc",
+    "label": "21 RUE LUCIE AUBRAC, Thézan-lès-Béziers",
+    "lat": 43.420364,
+    "lng": 3.162824,
+    "transactions": [
+      {
+        "date": "2025-04-10",
+        "priceEur": 263700,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

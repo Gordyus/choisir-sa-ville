@@ -1,0 +1,62 @@
+{
+  "2ef863116259": {
+    "id": "2ef863116259",
+    "label": "1301 RTE DE GOURNAY, Saint-Jacques-sur-Darnétal",
+    "lat": 49.442503,
+    "lng": 1.187663,
+    "transactions": [
+      {
+        "date": "2021-03-02",
+        "priceEur": 405000,
+        "typeLocal": "Maison",
+        "surfaceM2": 177,
+        "isVefa": false
+      }
+    ]
+  },
+  "5ddefc4621a0": {
+    "id": "5ddefc4621a0",
+    "label": "1235 RTE DE GOURNAY, Saint-Jacques-sur-Darnétal",
+    "lat": 49.442206,
+    "lng": 1.186988,
+    "transactions": [
+      {
+        "date": "2021-08-13",
+        "priceEur": 281400,
+        "typeLocal": "Maison",
+        "surfaceM2": 195,
+        "isVefa": false
+      }
+    ]
+  },
+  "582897e5ba41": {
+    "id": "582897e5ba41",
+    "label": "1279 RTE DE GOURNAY, Saint-Jacques-sur-Darnétal",
+    "lat": 49.44228,
+    "lng": 1.187045,
+    "transactions": [
+      {
+        "date": "2022-05-25",
+        "priceEur": 266400,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "ba8eca720ee1": {
+    "id": "ba8eca720ee1",
+    "label": "1581 RTE DE GOURNAY, Saint-Jacques-sur-Darnétal",
+    "lat": 49.442683,
+    "lng": 1.190495,
+    "transactions": [
+      {
+        "date": "2022-06-16",
+        "priceEur": 315500,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  }
+}

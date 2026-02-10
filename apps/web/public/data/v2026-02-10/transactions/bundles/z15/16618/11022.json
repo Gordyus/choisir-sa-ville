@@ -1,0 +1,32 @@
+{
+  "74622f8ab526": {
+    "id": "74622f8ab526",
+    "label": "2030 RUE BASSE, Haverskerque",
+    "lat": 50.634757,
+    "lng": 2.573317,
+    "transactions": [
+      {
+        "date": "2020-09-03",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "211b75726edc": {
+    "id": "211b75726edc",
+    "label": "150 VC DE LA LYS, Haverskerque",
+    "lat": 50.632741,
+    "lng": 2.576464,
+    "transactions": [
+      {
+        "date": "2021-10-18",
+        "priceEur": 365500,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

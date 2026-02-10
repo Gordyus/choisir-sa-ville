@@ -1,0 +1,77 @@
+{
+  "f541f7d4f332": {
+    "id": "f541f7d4f332",
+    "label": "828 RTE DU MONT DU CUL, Touffreville-la-Corbeline",
+    "lat": 49.571289,
+    "lng": 0.759987,
+    "transactions": [
+      {
+        "date": "2021-02-17",
+        "priceEur": 315000,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "93572d2ee188": {
+    "id": "93572d2ee188",
+    "label": "525 RTE DU MONT DU CUL, Touffreville-la-Corbeline",
+    "lat": 49.573667,
+    "lng": 0.762278,
+    "transactions": [
+      {
+        "date": "2021-11-29",
+        "priceEur": 194500,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd50b6290fe3": {
+    "id": "fd50b6290fe3",
+    "label": "691 RTE DU MONT DU CUL, Touffreville-la-Corbeline",
+    "lat": 49.572391,
+    "lng": 0.76144,
+    "transactions": [
+      {
+        "date": "2023-09-01",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "9dbe7b57c9cd": {
+    "id": "9dbe7b57c9cd",
+    "label": "14 IMP DU MONT DU CUL, Touffreville-la-Corbeline",
+    "lat": 49.572369,
+    "lng": 0.76044,
+    "transactions": [
+      {
+        "date": "2024-08-06",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "1a47d2d3d902": {
+    "id": "1a47d2d3d902",
+    "label": "653 RTE DU MONT DU CUL, Touffreville-la-Corbeline",
+    "lat": 49.572666,
+    "lng": 0.761746,
+    "transactions": [
+      {
+        "date": "2025-03-25",
+        "priceEur": 237000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  }
+}

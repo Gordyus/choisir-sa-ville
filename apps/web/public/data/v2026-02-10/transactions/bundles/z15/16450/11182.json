@@ -1,0 +1,99 @@
+{
+  "78795f707ddd": {
+    "id": "78795f707ddd",
+    "label": "118 RTE DU FAYEL, Arelaune-en-Seine",
+    "lat": 49.506885,
+    "lng": 0.726195,
+    "transactions": [
+      {
+        "date": "2023-02-27",
+        "priceEur": 249250,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-18",
+        "priceEur": 223300,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "d66bea69646d": {
+    "id": "d66bea69646d",
+    "label": "1120 GRANDE RUE, Arelaune-en-Seine",
+    "lat": 49.508048,
+    "lng": 0.728083,
+    "transactions": [
+      {
+        "date": "2021-08-05",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2eea383d214": {
+    "id": "c2eea383d214",
+    "label": "18 RUE DES SABLONS, Arelaune-en-Seine",
+    "lat": 49.508491,
+    "lng": 0.72576,
+    "transactions": [
+      {
+        "date": "2021-11-19",
+        "priceEur": 149250,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "43c57bb77e76": {
+    "id": "43c57bb77e76",
+    "label": "935 GRANDE RUE, Arelaune-en-Seine",
+    "lat": 49.507386,
+    "lng": 0.730618,
+    "transactions": [
+      {
+        "date": "2021-12-28",
+        "priceEur": 200300,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "49e703af94cd": {
+    "id": "49e703af94cd",
+    "label": "5 RUE DES SABLONS, Arelaune-en-Seine",
+    "lat": 49.509171,
+    "lng": 0.725257,
+    "transactions": [
+      {
+        "date": "2022-03-15",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "a65bb82ad02b": {
+    "id": "a65bb82ad02b",
+    "label": "1 RUE DES SABLONS, Arelaune-en-Seine",
+    "lat": 49.509164,
+    "lng": 0.726563,
+    "transactions": [
+      {
+        "date": "2025-02-06",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  }
+}

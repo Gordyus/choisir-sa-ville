@@ -1,0 +1,428 @@
+{
+  "aadaf500062b": {
+    "id": "aadaf500062b",
+    "label": "117 RUE FERDINAND CAPELLE, Merville",
+    "lat": 50.648511,
+    "lng": 2.649085,
+    "transactions": [
+      {
+        "date": "2020-12-30",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "09f31e62c293": {
+    "id": "09f31e62c293",
+    "label": "7 RUE HENRI DEHAINE, Merville",
+    "lat": 50.648592,
+    "lng": 2.649214,
+    "transactions": [
+      {
+        "date": "2020-12-30",
+        "priceEur": 335000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "564bcc0297c1": {
+    "id": "564bcc0297c1",
+    "label": "7 RUE MARCEL WANTIEZ, Merville",
+    "lat": 50.6514,
+    "lng": 2.648729,
+    "transactions": [
+      {
+        "date": "2021-05-11",
+        "priceEur": 98351,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      },
+      {
+        "date": "2020-07-31",
+        "priceEur": 202077,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "9c09335ae464": {
+    "id": "9c09335ae464",
+    "label": "1 RUE AUGUSTE MANCHUELLE, Merville",
+    "lat": 50.649351,
+    "lng": 2.648236,
+    "transactions": [
+      {
+        "date": "2021-01-14",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "171be110cdb4": {
+    "id": "171be110cdb4",
+    "label": "7 RUE GILBERT ROLANDE PETITPREZ, Merville",
+    "lat": 50.650689,
+    "lng": 2.648818,
+    "transactions": [
+      {
+        "date": "2021-10-19",
+        "priceEur": 288600,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "f89a2323e330": {
+    "id": "f89a2323e330",
+    "label": "39 RUE COCHETTE, Merville",
+    "lat": 50.652203,
+    "lng": 2.648904,
+    "transactions": [
+      {
+        "date": "2023-08-07",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      },
+      {
+        "date": "2021-12-22",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "fbcd49a9938c": {
+    "id": "fbcd49a9938c",
+    "label": "182 RUE FERDINAND CAPELLE, Merville",
+    "lat": 50.649828,
+    "lng": 2.657607,
+    "transactions": [
+      {
+        "date": "2022-01-28",
+        "priceEur": 335900,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "30c989b8daf3": {
+    "id": "30c989b8daf3",
+    "label": "18 RUE HONORE DESPRETZ, Merville",
+    "lat": 50.649994,
+    "lng": 2.651965,
+    "transactions": [
+      {
+        "date": "2022-03-29",
+        "priceEur": 227000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "1ef330e48d55": {
+    "id": "1ef330e48d55",
+    "label": "8 RUE ANNE MARIE SMAGUE, Merville",
+    "lat": 50.650008,
+    "lng": 2.650296,
+    "transactions": [
+      {
+        "date": "2022-04-04",
+        "priceEur": 64150.41,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2022-04-04",
+        "priceEur": 60643.51,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "15fd0abd3124": {
+    "id": "15fd0abd3124",
+    "label": "5 RUE FERNAND DECONINCK, Merville",
+    "lat": 50.650512,
+    "lng": 2.650839,
+    "transactions": [
+      {
+        "date": "2022-05-11",
+        "priceEur": 268600,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "0239e94bce52": {
+    "id": "0239e94bce52",
+    "label": "6 RUE FERNAND DECONINCK, Merville",
+    "lat": 50.650804,
+    "lng": 2.650969,
+    "transactions": [
+      {
+        "date": "2022-05-31",
+        "priceEur": 248320,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "e7003a808a02": {
+    "id": "e7003a808a02",
+    "label": "13 RUE ANNE MARIE SMAGUE, Merville",
+    "lat": 50.649721,
+    "lng": 2.649127,
+    "transactions": [
+      {
+        "date": "2022-07-12",
+        "priceEur": 279000,
+        "typeLocal": "Maison",
+        "surfaceM2": 144,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8e8ba521544": {
+    "id": "f8e8ba521544",
+    "label": "3 RUE AUGUSTE MANCHUELLE, Merville",
+    "lat": 50.649192,
+    "lng": 2.647978,
+    "transactions": [
+      {
+        "date": "2022-08-01",
+        "priceEur": 227280,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "679a7cde04ab": {
+    "id": "679a7cde04ab",
+    "label": "16 RUE MARCEL WANTIEZ, Merville",
+    "lat": 50.652012,
+    "lng": 2.647732,
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "priceEur": 267100,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "b4f5167c5106": {
+    "id": "b4f5167c5106",
+    "label": "23 RUE ANNE MARIE SMAGUE, Merville",
+    "lat": 50.650302,
+    "lng": 2.648995,
+    "transactions": [
+      {
+        "date": "2022-12-07",
+        "priceEur": 217000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "596e27bc2454": {
+    "id": "596e27bc2454",
+    "label": "5 AV OSCAR DELACHE, Merville",
+    "lat": 50.649168,
+    "lng": 2.648807,
+    "transactions": [
+      {
+        "date": "2023-03-17",
+        "priceEur": 187000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "8e9652a4ab4a": {
+    "id": "8e9652a4ab4a",
+    "label": "7 RUE GERARD ET GERARDA LAVENS, Merville",
+    "lat": 50.650693,
+    "lng": 2.648006,
+    "transactions": [
+      {
+        "date": "2023-04-21",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "83327ebf0a79": {
+    "id": "83327ebf0a79",
+    "label": "1 RUE GERARD ET GERARDA LAVENS, Merville",
+    "lat": 50.650478,
+    "lng": 2.648691,
+    "transactions": [
+      {
+        "date": "2023-05-17",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  },
+  "8dd9c740db63": {
+    "id": "8dd9c740db63",
+    "label": "3 RUE HENRI DEHAINE, Merville",
+    "lat": 50.649035,
+    "lng": 2.648517,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a401de93c8a": {
+    "id": "4a401de93c8a",
+    "label": "9 RUE GERARD ET GERARDA LAVENS, Merville",
+    "lat": 50.650777,
+    "lng": 2.647739,
+    "transactions": [
+      {
+        "date": "2024-04-19",
+        "priceEur": 233900,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "a91b98882cd3": {
+    "id": "a91b98882cd3",
+    "label": "41 RUE COCHETTE, Merville",
+    "lat": 50.652271,
+    "lng": 2.648719,
+    "transactions": [
+      {
+        "date": "2024-05-02",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c81a2246184": {
+    "id": "4c81a2246184",
+    "label": "20 RUE COCHETTE, Merville",
+    "lat": 50.651558,
+    "lng": 2.651712,
+    "transactions": [
+      {
+        "date": "2024-05-23",
+        "priceEur": 58835,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "bec3e6318350": {
+    "id": "bec3e6318350",
+    "label": "5 RUE GERARD ET GERARDA LAVENS, Merville",
+    "lat": 50.650601,
+    "lng": 2.648222,
+    "transactions": [
+      {
+        "date": "2024-07-25",
+        "priceEur": 187500,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "01c0bd8b90f3": {
+    "id": "01c0bd8b90f3",
+    "label": "116 RUE FERDINAND CAPELLE, Neuf-Berquin",
+    "lat": 50.65224,
+    "lng": 2.656028,
+    "transactions": [
+      {
+        "date": "2024-10-14",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9d33bb82279": {
+    "id": "f9d33bb82279",
+    "label": "84 RUE FERDINAND CAPELLE, Merville",
+    "lat": 50.647775,
+    "lng": 2.648159,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "7775a458e5a6": {
+    "id": "7775a458e5a6",
+    "label": "33 RUE JEAN PIERRE BLANCHARD, Merville",
+    "lat": 50.646839,
+    "lng": 2.651137,
+    "transactions": [
+      {
+        "date": "2025-01-15",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "2bf93f9454c1": {
+    "id": "2bf93f9454c1",
+    "label": "9010 RUE COCHETTE, Merville",
+    "lat": 50.651629,
+    "lng": 2.651478,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  }
+}

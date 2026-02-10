@@ -1,0 +1,47 @@
+{
+  "8b4364af7c50": {
+    "id": "8b4364af7c50",
+    "label": "62 RTE DE CASSEL, Renescure",
+    "lat": 50.740214,
+    "lng": 2.370361,
+    "transactions": [
+      {
+        "date": "2021-04-07",
+        "priceEur": 135850,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "8af8f40f54c5": {
+    "id": "8af8f40f54c5",
+    "label": "70 RTE DE CASSEL, Renescure",
+    "lat": 50.740977,
+    "lng": 2.371711,
+    "transactions": [
+      {
+        "date": "2022-11-21",
+        "priceEur": 196400,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "36148610aa65": {
+    "id": "36148610aa65",
+    "label": "25 RUE DU COIN DE L ABBAYE, Renescure",
+    "lat": 50.742457,
+    "lng": 2.368444,
+    "transactions": [
+      {
+        "date": "2023-02-23",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 176,
+        "isVefa": false
+      }
+    ]
+  }
+}

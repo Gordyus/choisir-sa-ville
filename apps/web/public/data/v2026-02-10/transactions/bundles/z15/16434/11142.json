@@ -1,0 +1,62 @@
+{
+  "2e939dbaea72": {
+    "id": "2e939dbaea72",
+    "label": "2 RUE DU CHATEAU, Criquetot-le-Mauconduit",
+    "lat": 49.792027,
+    "lng": 0.553901,
+    "transactions": [
+      {
+        "date": "2021-07-22",
+        "priceEur": 20000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b033a713543": {
+    "id": "7b033a713543",
+    "label": "4B RTE DE LA DISTILLERIE, Criquetot-le-Mauconduit",
+    "lat": 49.793095,
+    "lng": 0.559434,
+    "transactions": [
+      {
+        "date": "2022-09-02",
+        "priceEur": 183925,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  },
+  "958d7d264916": {
+    "id": "958d7d264916",
+    "label": "6 RTE DE LA DISTILLERIE, Criquetot-le-Mauconduit",
+    "lat": 49.793103,
+    "lng": 0.558882,
+    "transactions": [
+      {
+        "date": "2023-03-31",
+        "priceEur": 126000,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "4b7335ac58e9": {
+    "id": "4b7335ac58e9",
+    "label": "8 RTE DE LA DISTILLERIE, Criquetot-le-Mauconduit",
+    "lat": 49.792662,
+    "lng": 0.553576,
+    "transactions": [
+      {
+        "date": "2023-05-26",
+        "priceEur": 307500,
+        "typeLocal": "Maison",
+        "surfaceM2": 220,
+        "isVefa": false
+      }
+    ]
+  }
+}

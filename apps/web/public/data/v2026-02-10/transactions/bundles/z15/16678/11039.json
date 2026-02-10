@@ -1,0 +1,62 @@
+{
+  "9895e37f2030": {
+    "id": "9895e37f2030",
+    "label": "8 RUE DU BOIS, Nomain",
+    "lat": 50.513856,
+    "lng": 3.236956,
+    "transactions": [
+      {
+        "date": "2020-08-24",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "9612efb38cd7": {
+    "id": "9612efb38cd7",
+    "label": "16 RUE DU BOIS, Nomain",
+    "lat": 50.513765,
+    "lng": 3.238369,
+    "transactions": [
+      {
+        "date": "2022-05-31",
+        "priceEur": 565000,
+        "typeLocal": "Maison",
+        "surfaceM2": 159,
+        "isVefa": false
+      }
+    ]
+  },
+  "f85b4124b748": {
+    "id": "f85b4124b748",
+    "label": "22 RUE DU BOIS, Nomain",
+    "lat": 50.515056,
+    "lng": 3.240245,
+    "transactions": [
+      {
+        "date": "2022-06-29",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 132,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6e23a8629a6": {
+    "id": "c6e23a8629a6",
+    "label": "1 RUE DU BOIS, Nomain",
+    "lat": 50.514708,
+    "lng": 3.237754,
+    "transactions": [
+      {
+        "date": "2022-07-28",
+        "priceEur": 247000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  }
+}

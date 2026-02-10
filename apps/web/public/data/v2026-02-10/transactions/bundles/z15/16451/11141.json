@@ -1,0 +1,69 @@
+{
+  "88b9ec0f0877": {
+    "id": "88b9ec0f0877",
+    "label": "406 RTE DU CALVAIRE, Drosay",
+    "lat": 49.798012,
+    "lng": 0.74178,
+    "transactions": [
+      {
+        "date": "2020-08-04",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "894444c58c3c": {
+    "id": "894444c58c3c",
+    "label": "360 RTE DU CALVAIRE, Drosay",
+    "lat": 49.797387,
+    "lng": 0.741412,
+    "transactions": [
+      {
+        "date": "2021-01-27",
+        "priceEur": 225500,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "b11ae145f51f": {
+    "id": "b11ae145f51f",
+    "label": "134B RTE DU CALVAIRE, Drosay",
+    "lat": 49.795953,
+    "lng": 0.741512,
+    "transactions": [
+      {
+        "date": "2022-02-22",
+        "priceEur": 153500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "f87f7d3cd48c": {
+    "id": "f87f7d3cd48c",
+    "label": "292 RTE DU CALVAIRE, Drosay",
+    "lat": 49.797086,
+    "lng": 0.740872,
+    "transactions": [
+      {
+        "date": "2023-06-13",
+        "priceEur": 275320,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      },
+      {
+        "date": "2023-06-13",
+        "priceEur": 275320,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  }
+}

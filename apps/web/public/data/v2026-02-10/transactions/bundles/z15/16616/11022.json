@@ -1,0 +1,32 @@
+{
+  "792b8470eb95": {
+    "id": "792b8470eb95",
+    "label": "640 RUE DE LA MALADRERIE, Haverskerque",
+    "lat": 50.635524,
+    "lng": 2.549907,
+    "transactions": [
+      {
+        "date": "2021-07-27",
+        "priceEur": 171000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f4726666a3c": {
+    "id": "7f4726666a3c",
+    "label": "405 RUE DE LA MALADRERIE, Haverskerque",
+    "lat": 50.637462,
+    "lng": 2.549916,
+    "transactions": [
+      {
+        "date": "2024-09-05",
+        "priceEur": 83060,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  }
+}

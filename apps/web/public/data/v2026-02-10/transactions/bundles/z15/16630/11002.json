@@ -1,0 +1,32 @@
+{
+  "3a9bd2c31e82": {
+    "id": "3a9bd2c31e82",
+    "label": "1113 RTE DE BAILLEUL, Berthen",
+    "lat": 50.774973,
+    "lng": 2.703412,
+    "transactions": [
+      {
+        "date": "2020-09-11",
+        "priceEur": 166000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "f16132243e0a": {
+    "id": "f16132243e0a",
+    "label": "1174 RTE DE BAILLEUL, Berthen",
+    "lat": 50.773808,
+    "lng": 2.703418,
+    "transactions": [
+      {
+        "date": "2021-03-04",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "6ae823b3773a": {
+    "id": "6ae823b3773a",
+    "label": "511 L'OREE DU BOIS, Saint-Germain-sous-Cailly",
+    "lat": 49.574317,
+    "lng": 1.209186,
+    "transactions": [
+      {
+        "date": "2020-08-31",
+        "priceEur": 203000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b8bae8c1196": {
+    "id": "5b8bae8c1196",
+    "label": "505 RTE DU MONT JEANNE, Saint-Germain-sous-Cailly",
+    "lat": 49.573926,
+    "lng": 1.209628,
+    "transactions": [
+      {
+        "date": "2022-06-20",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "03291041e7e0": {
+    "id": "03291041e7e0",
+    "label": "550 MONT JEANNE HAMEAU, Saint-Germain-sous-Cailly",
+    "lat": 49.574615,
+    "lng": 1.209147,
+    "transactions": [
+      {
+        "date": "2023-07-04",
+        "priceEur": 89000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  }
+}

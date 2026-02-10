@@ -1,0 +1,69 @@
+{
+  "84b553a696f1": {
+    "id": "84b553a696f1",
+    "label": "15 RUE ALBERT MARQUET, Grand-Couronne",
+    "lat": 49.345983,
+    "lng": 0.997174,
+    "transactions": [
+      {
+        "date": "2022-06-15",
+        "priceEur": 223000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-15",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "4dca9683aac4": {
+    "id": "4dca9683aac4",
+    "label": "8 ALL JACQUES VILLON, Grand-Couronne",
+    "lat": 49.346221,
+    "lng": 0.995725,
+    "transactions": [
+      {
+        "date": "2021-08-23",
+        "priceEur": 224300,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "7ced71b95b5b": {
+    "id": "7ced71b95b5b",
+    "label": "6 RUE ALBERT MARQUET, Grand-Couronne",
+    "lat": 49.346589,
+    "lng": 0.997146,
+    "transactions": [
+      {
+        "date": "2023-06-30",
+        "priceEur": 159000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "6edb09a720b3": {
+    "id": "6edb09a720b3",
+    "label": "6 ALL JACQUES VILLON, Grand-Couronne",
+    "lat": 49.346408,
+    "lng": 0.995468,
+    "transactions": [
+      {
+        "date": "2023-07-26",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "2cf842364236": {
+    "id": "2cf842364236",
+    "label": "192 RUE DE LA CAVEE DU MOULIN, Rives-en-Seine",
+    "lat": 49.521643,
+    "lng": 0.794346,
+    "transactions": [
+      {
+        "date": "2022-07-07",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ff3b895ab9f": {
+    "id": "9ff3b895ab9f",
+    "label": "80 RTE DES COMMUNAUX, Rives-en-Seine",
+    "lat": 49.521211,
+    "lng": 0.792426,
+    "transactions": [
+      {
+        "date": "2024-01-22",
+        "priceEur": 138000,
+        "typeLocal": "Maison",
+        "surfaceM2": 67,
+        "isVefa": false
+      }
+    ]
+  }
+}

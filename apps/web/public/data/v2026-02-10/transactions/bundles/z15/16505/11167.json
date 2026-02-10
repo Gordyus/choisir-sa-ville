@@ -1,0 +1,62 @@
+{
+  "983672b2dcb3": {
+    "id": "983672b2dcb3",
+    "label": "5085 SAUVEMARE, Montérolier",
+    "lat": 49.611827,
+    "lng": 1.334386,
+    "transactions": [
+      {
+        "date": "2020-11-25",
+        "priceEur": 132050,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "0f79c1d6bcb1": {
+    "id": "0f79c1d6bcb1",
+    "label": "5080 SAUVEMARE, Montérolier",
+    "lat": 49.610774,
+    "lng": 1.33252,
+    "transactions": [
+      {
+        "date": "2021-07-15",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "f1925c5bc241": {
+    "id": "f1925c5bc241",
+    "label": "39 RTE DE L ECOLE, Montérolier",
+    "lat": 49.611014,
+    "lng": 1.333264,
+    "transactions": [
+      {
+        "date": "2022-02-03",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "b90c2f01f72c": {
+    "id": "b90c2f01f72c",
+    "label": "5081 SAUVEMARE, Montérolier",
+    "lat": 49.611136,
+    "lng": 1.332877,
+    "transactions": [
+      {
+        "date": "2022-10-27",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  }
+}

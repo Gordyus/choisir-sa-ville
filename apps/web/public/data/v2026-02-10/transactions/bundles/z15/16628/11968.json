@@ -1,0 +1,47 @@
+{
+  "5f5c2c1a334d": {
+    "id": "5f5c2c1a334d",
+    "label": "664 HAMEAU DE PLANACAN, La Salvetat-sur-Agout",
+    "lat": 43.579852,
+    "lng": 2.687418,
+    "transactions": [
+      {
+        "date": "2021-06-04",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 35,
+        "isVefa": false
+      }
+    ]
+  },
+  "45e4bfdb7e93": {
+    "id": "45e4bfdb7e93",
+    "label": "5163F HAMEAU DE PLANACAN, La Salvetat-sur-Agout",
+    "lat": 43.578915,
+    "lng": 2.688251,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 142500,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "199dd417ff89": {
+    "id": "199dd417ff89",
+    "label": "6333 PLO DE LA VERGNE, La Salvetat-sur-Agout",
+    "lat": 43.575823,
+    "lng": 2.688343,
+    "transactions": [
+      {
+        "date": "2022-01-06",
+        "priceEur": 78650,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  }
+}

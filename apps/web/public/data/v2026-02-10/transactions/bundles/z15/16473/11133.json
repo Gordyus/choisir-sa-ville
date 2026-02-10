@@ -1,0 +1,68 @@
+{
+  "9e0868db6b0e": {
+    "id": "9e0868db6b0e",
+    "label": "1 BOUT DE GUEURES, Ambrumesnil",
+    "lat": 49.858454,
+    "lng": 0.986858,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  },
+  "4cd0a1e10dbe": {
+    "id": "4cd0a1e10dbe",
+    "label": "1050 RUE DE L ANCIENNE MARE, Ambrumesnil",
+    "lat": 49.858355,
+    "lng": 0.988764,
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd7306fa9146": {
+    "id": "bd7306fa9146",
+    "label": "1196 RUE DE L ANCIENNE MARE, Ambrumesnil",
+    "lat": 49.858494,
+    "lng": 0.985762,
+    "transactions": [
+      {
+        "date": "2025-01-10",
+        "priceEur": 450000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-10",
+        "priceEur": 450000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-10",
+        "priceEur": 450000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-10",
+        "priceEur": 450000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  }
+}

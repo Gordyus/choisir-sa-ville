@@ -1,0 +1,47 @@
+{
+  "695f8180c186": {
+    "id": "695f8180c186",
+    "label": "266 RTE DES MEANDRES, Mauny",
+    "lat": 49.388285,
+    "lng": 0.916248,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 264300,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "048d03cd8143": {
+    "id": "048d03cd8143",
+    "label": "243 RTE DES MEANDRES, Mauny",
+    "lat": 49.387759,
+    "lng": 0.914934,
+    "transactions": [
+      {
+        "date": "2022-02-23",
+        "priceEur": 247000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "abfef815fe83": {
+    "id": "abfef815fe83",
+    "label": "5023 LE BAS MAUNY, Mauny",
+    "lat": 49.388525,
+    "lng": 0.915753,
+    "transactions": [
+      {
+        "date": "2023-03-02",
+        "priceEur": 178350,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

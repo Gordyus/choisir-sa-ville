@@ -1,0 +1,62 @@
+{
+  "0ceb3a6d6e07": {
+    "id": "0ceb3a6d6e07",
+    "label": "5035 LE VILLAGE, Richemont",
+    "lat": 49.817598,
+    "lng": 1.63321,
+    "transactions": [
+      {
+        "date": "2021-07-16",
+        "priceEur": 15500,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f0914d729f1": {
+    "id": "7f0914d729f1",
+    "label": "5057 LE VILLAGE, Richemont",
+    "lat": 49.81694,
+    "lng": 1.636914,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "bb6fc924e441": {
+    "id": "bb6fc924e441",
+    "label": "5032 LE VILLAGE, Richemont",
+    "lat": 49.817479,
+    "lng": 1.634213,
+    "transactions": [
+      {
+        "date": "2022-10-20",
+        "priceEur": 48000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "7c1c8ddc1ec3": {
+    "id": "7c1c8ddc1ec3",
+    "label": "5053 LE VILLAGE, Richemont",
+    "lat": 49.817248,
+    "lng": 1.63545,
+    "transactions": [
+      {
+        "date": "2024-02-13",
+        "priceEur": 20000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

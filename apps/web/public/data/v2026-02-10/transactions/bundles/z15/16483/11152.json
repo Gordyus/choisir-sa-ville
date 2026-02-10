@@ -1,0 +1,332 @@
+{
+  "2dffb7d50d07": {
+    "id": "2dffb7d50d07",
+    "label": "4 RUE DES GRANGES, Val-de-Scie",
+    "lat": 49.718746,
+    "lng": 1.096741,
+    "transactions": [
+      {
+        "date": "2020-07-30",
+        "priceEur": 28772,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c9fabdf0ad1": {
+    "id": "5c9fabdf0ad1",
+    "label": "2 RUE APPOLINE GERVAIS, Val-de-Scie",
+    "lat": 49.719277,
+    "lng": 1.096569,
+    "transactions": [
+      {
+        "date": "2021-03-17",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "78da1bfd4758": {
+    "id": "78da1bfd4758",
+    "label": "24 RUE DUQUESNE, Val-de-Scie",
+    "lat": 49.721511,
+    "lng": 1.095171,
+    "transactions": [
+      {
+        "date": "2021-04-15",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 145,
+        "isVefa": false
+      }
+    ]
+  },
+  "f400dd91a105": {
+    "id": "f400dd91a105",
+    "label": "206 RUE DU MARECHAL FOCH, Heugleville-sur-Scie",
+    "lat": 49.722064,
+    "lng": 1.096895,
+    "transactions": [
+      {
+        "date": "2021-06-21",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "55dab51f87b6": {
+    "id": "55dab51f87b6",
+    "label": "3 RUE DE VERDUN, Val-de-Scie",
+    "lat": 49.718965,
+    "lng": 1.09699,
+    "transactions": [
+      {
+        "date": "2022-03-10",
+        "priceEur": 102000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "778603d11706": {
+    "id": "778603d11706",
+    "label": "168 RTE DE LA VALLEE, Heugleville-sur-Scie",
+    "lat": 49.724345,
+    "lng": 1.097134,
+    "transactions": [
+      {
+        "date": "2022-04-27",
+        "priceEur": 154400,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "b38928ba8530": {
+    "id": "b38928ba8530",
+    "label": "44 RUE DE VERDUN, Val-de-Scie",
+    "lat": 49.718554,
+    "lng": 1.089788,
+    "transactions": [
+      {
+        "date": "2022-07-05",
+        "priceEur": 301000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "639f93c6b970": {
+    "id": "639f93c6b970",
+    "label": "25B RUE DUQUESNE, Val-de-Scie",
+    "lat": 49.722144,
+    "lng": 1.093785,
+    "transactions": [
+      {
+        "date": "2022-09-02",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "ddc7f4a74d38": {
+    "id": "ddc7f4a74d38",
+    "label": "191 RUE DU MARECHAL FOCH, Heugleville-sur-Scie",
+    "lat": 49.72213,
+    "lng": 1.097324,
+    "transactions": [
+      {
+        "date": "2022-10-07",
+        "priceEur": 72000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "f62c6b42923b": {
+    "id": "f62c6b42923b",
+    "label": "3A RTE DE BENNETOT, Heugleville-sur-Scie",
+    "lat": 49.722875,
+    "lng": 1.094124,
+    "transactions": [
+      {
+        "date": "2022-12-22",
+        "priceEur": 217000,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  },
+  "48bb20959fd3": {
+    "id": "48bb20959fd3",
+    "label": "18 RUE DUQUESNE, Val-de-Scie",
+    "lat": 49.721423,
+    "lng": 1.095486,
+    "transactions": [
+      {
+        "date": "2023-03-01",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "f4d4b1fad640": {
+    "id": "f4d4b1fad640",
+    "label": "14 RUE DUQUESNE, Val-de-Scie",
+    "lat": 49.720868,
+    "lng": 1.095915,
+    "transactions": [
+      {
+        "date": "2023-03-14",
+        "priceEur": 248000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "80984eeb2107": {
+    "id": "80984eeb2107",
+    "label": "20 RUE DUQUESNE, Val-de-Scie",
+    "lat": 49.721387,
+    "lng": 1.095359,
+    "transactions": [
+      {
+        "date": "2023-03-29",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a3d16c027a6": {
+    "id": "4a3d16c027a6",
+    "label": "231 RUE DU MARECHAL FOCH, Heugleville-sur-Scie",
+    "lat": 49.722347,
+    "lng": 1.097345,
+    "transactions": [
+      {
+        "date": "2023-08-09",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "2f7cce3c03c6": {
+    "id": "2f7cce3c03c6",
+    "label": "16B RUE PASTEUR, Val-de-Scie",
+    "lat": 49.719656,
+    "lng": 1.098065,
+    "transactions": [
+      {
+        "date": "2023-08-18",
+        "priceEur": 136000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "54caa8399d85": {
+    "id": "54caa8399d85",
+    "label": "36 RUE DE VERDUN, Val-de-Scie",
+    "lat": 49.718458,
+    "lng": 1.091557,
+    "transactions": [
+      {
+        "date": "2023-12-14",
+        "priceEur": 114000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "c3c1bb165396": {
+    "id": "c3c1bb165396",
+    "label": "9 RUE DE VERDUN, Val-de-Scie",
+    "lat": 49.718706,
+    "lng": 1.096503,
+    "transactions": [
+      {
+        "date": "2024-06-14",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8926cc92376": {
+    "id": "f8926cc92376",
+    "label": "15 RUE MAL FOCH, Val-de-Scie",
+    "lat": 49.720524,
+    "lng": 1.098524,
+    "transactions": [
+      {
+        "date": "2025-02-24",
+        "priceEur": 36750,
+        "typeLocal": "Maison",
+        "surfaceM2": 33,
+        "isVefa": false
+      }
+    ]
+  },
+  "72deb4fe9135": {
+    "id": "72deb4fe9135",
+    "label": "22 RUE DUQUESNE, Val-de-Scie",
+    "lat": 49.721517,
+    "lng": 1.095396,
+    "transactions": [
+      {
+        "date": "2025-03-31",
+        "priceEur": 137000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "067d043f01e4": {
+    "id": "067d043f01e4",
+    "label": "1 RUE DUQUESNE, Val-de-Scie",
+    "lat": 49.719507,
+    "lng": 1.096782,
+    "transactions": [
+      {
+        "date": "2025-04-09",
+        "priceEur": 116000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "0eb1698a48ad": {
+    "id": "0eb1698a48ad",
+    "label": "277 RUE DU MARECHAL FOCH, Heugleville-sur-Scie",
+    "lat": 49.722634,
+    "lng": 1.096619,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 271200,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd0c179dfb37": {
+    "id": "fd0c179dfb37",
+    "label": "16 RUE DUQUESNE, Val-de-Scie",
+    "lat": 49.721103,
+    "lng": 1.095729,
+    "transactions": [
+      {
+        "date": "2025-04-25",
+        "priceEur": 228100,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

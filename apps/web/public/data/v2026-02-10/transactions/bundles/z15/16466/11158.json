@@ -1,0 +1,62 @@
+{
+  "024e854bb9ac": {
+    "id": "024e854bb9ac",
+    "label": "461 RUE DES TOURELLES, Vibeuf",
+    "lat": 49.67904,
+    "lng": 0.911835,
+    "transactions": [
+      {
+        "date": "2020-09-14",
+        "priceEur": 139000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "3554980c6499": {
+    "id": "3554980c6499",
+    "label": "1819 RUE DES MOISSONS, Vibeuf",
+    "lat": 49.680145,
+    "lng": 0.911542,
+    "transactions": [
+      {
+        "date": "2021-08-03",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "7b27cadc939d": {
+    "id": "7b27cadc939d",
+    "label": "1756 RUE DES MOISSONS, Vibeuf",
+    "lat": 49.679522,
+    "lng": 0.910867,
+    "transactions": [
+      {
+        "date": "2022-06-29",
+        "priceEur": 136200,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf944107f771": {
+    "id": "bf944107f771",
+    "label": "1600 RUE DES MOISSONS, Vibeuf",
+    "lat": 49.679806,
+    "lng": 0.908477,
+    "transactions": [
+      {
+        "date": "2025-01-31",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  }
+}

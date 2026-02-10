@@ -1,0 +1,62 @@
+{
+  "b7af14342fbe": {
+    "id": "b7af14342fbe",
+    "label": "270 RUE QUEUE DE RENARD, Fécamp",
+    "lat": 49.762633,
+    "lng": 0.403098,
+    "transactions": [
+      {
+        "date": "2021-06-30",
+        "priceEur": 235500,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "24b0fe7f8d7f": {
+    "id": "24b0fe7f8d7f",
+    "label": "239 RUE QUEUE DE RENARD, Fécamp",
+    "lat": 49.761745,
+    "lng": 0.398895,
+    "transactions": [
+      {
+        "date": "2022-01-17",
+        "priceEur": 182750,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "1cb2ed87fbc8": {
+    "id": "1cb2ed87fbc8",
+    "label": "35 RUE DU 2 SEPTEMBRE 1944, Fécamp",
+    "lat": 49.760485,
+    "lng": 0.398234,
+    "transactions": [
+      {
+        "date": "2023-07-11",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "b494b3438cdd": {
+    "id": "b494b3438cdd",
+    "label": "213 RUE QUEUE DE RENARD, Fécamp",
+    "lat": 49.760761,
+    "lng": 0.396032,
+    "transactions": [
+      {
+        "date": "2024-04-24",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

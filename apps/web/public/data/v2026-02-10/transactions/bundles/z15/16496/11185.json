@@ -1,0 +1,47 @@
+{
+  "7525c58b457c": {
+    "id": "7525c58b457c",
+    "label": "360 RUE DU QUESNAY, Préaux",
+    "lat": 49.48375,
+    "lng": 1.234624,
+    "transactions": [
+      {
+        "date": "2022-03-31",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "f7a9b762c79d": {
+    "id": "f7a9b762c79d",
+    "label": "106 RUE DU QUESNAY, Préaux",
+    "lat": 49.483499,
+    "lng": 1.231045,
+    "transactions": [
+      {
+        "date": "2022-06-21",
+        "priceEur": 301300,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad3e3cdbdbcd": {
+    "id": "ad3e3cdbdbcd",
+    "label": "803 RUE DU QUESNAY, Préaux",
+    "lat": 49.484589,
+    "lng": 1.240463,
+    "transactions": [
+      {
+        "date": "2022-10-27",
+        "priceEur": 365000,
+        "typeLocal": "Maison",
+        "surfaceM2": 150,
+        "isVefa": false
+      }
+    ]
+  }
+}

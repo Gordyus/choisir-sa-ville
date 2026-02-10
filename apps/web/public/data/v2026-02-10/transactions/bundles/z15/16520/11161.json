@@ -1,0 +1,39 @@
+{
+  "b667e6fbc588": {
+    "id": "b667e6fbc588",
+    "label": "5035 LE MONT GRIPON, Beaubec-la-Rosière",
+    "lat": 49.65655,
+    "lng": 1.498799,
+    "transactions": [
+      {
+        "date": "2022-03-02",
+        "priceEur": 45000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "dda0b5eee0f7": {
+    "id": "dda0b5eee0f7",
+    "label": "10 RTE DE BEAUBEC, Mesnil-Mauger",
+    "lat": 49.656911,
+    "lng": 1.49807,
+    "transactions": [
+      {
+        "date": "2023-11-24",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      },
+      {
+        "date": "2022-03-29",
+        "priceEur": 120800,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

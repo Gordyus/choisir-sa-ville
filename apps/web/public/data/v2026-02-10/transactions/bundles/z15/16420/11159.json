@@ -1,0 +1,32 @@
+{
+  "2220b9f0d69d": {
+    "id": "2220b9f0d69d",
+    "label": "1 LE BRULE, Bretteville-du-Grand-Caux",
+    "lat": 49.67272,
+    "lng": 0.404507,
+    "transactions": [
+      {
+        "date": "2023-01-20",
+        "priceEur": 241000,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "22de5e27f1f9": {
+    "id": "22de5e27f1f9",
+    "label": "740 RTE DU CHATEAU D'EAU, Bretteville-du-Grand-Caux",
+    "lat": 49.668814,
+    "lng": 0.398902,
+    "transactions": [
+      {
+        "date": "2024-12-04",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

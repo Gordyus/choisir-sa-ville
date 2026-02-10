@@ -1,0 +1,31 @@
+{
+  "4355ec1ecbd9": {
+    "id": "4355ec1ecbd9",
+    "label": "780 RUE DE TEMPLEUVE, Péronne-en-Mélantois",
+    "lat": 50.560734,
+    "lng": 3.169199,
+    "transactions": [
+      {
+        "date": "2024-10-31",
+        "priceEur": 429900,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2022-08-29",
+        "priceEur": 335000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-04",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "528278a15503": {
+    "id": "528278a15503",
+    "label": "23 RUE D HEM, Willems",
+    "lat": 50.635322,
+    "lng": 3.220928,
+    "transactions": [
+      {
+        "date": "2021-04-28",
+        "priceEur": 211000,
+        "typeLocal": "Maison",
+        "surfaceM2": 112,
+        "isVefa": false
+      }
+    ]
+  },
+  "c422dd199303": {
+    "id": "c422dd199303",
+    "label": "14 RUE D HEM, Willems",
+    "lat": 50.635714,
+    "lng": 3.223933,
+    "transactions": [
+      {
+        "date": "2024-08-13",
+        "priceEur": 460380,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

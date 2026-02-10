@@ -1,0 +1,62 @@
+{
+  "62e624fcbea2": {
+    "id": "62e624fcbea2",
+    "label": "37 RUE DE MASNIERES, Marcoing",
+    "lat": 50.118689,
+    "lng": 3.195599,
+    "transactions": [
+      {
+        "date": "2021-02-12",
+        "priceEur": 122000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "9fa4e6bed9bc": {
+    "id": "9fa4e6bed9bc",
+    "label": "32 RUE DE MASNIERES, Marcoing",
+    "lat": 50.117763,
+    "lng": 3.190126,
+    "transactions": [
+      {
+        "date": "2021-06-03",
+        "priceEur": 143000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "fbd24072e80c": {
+    "id": "fbd24072e80c",
+    "label": "26 RUE DE MASNIERES, Marcoing",
+    "lat": 50.117715,
+    "lng": 3.189368,
+    "transactions": [
+      {
+        "date": "2022-08-25",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "d20c5b3290e3": {
+    "id": "d20c5b3290e3",
+    "label": "9006 ECLUSE DE BRACHEUX, Marcoing",
+    "lat": 50.117702,
+    "lng": 3.193692,
+    "transactions": [
+      {
+        "date": "2023-05-12",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  }
+}

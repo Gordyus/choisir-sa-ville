@@ -1,0 +1,32 @@
+{
+  "d626d24a4592": {
+    "id": "d626d24a4592",
+    "label": "5 IMP SAINT LOUIS, Sainte-Hélène-Bondeville",
+    "lat": 49.761485,
+    "lng": 0.462111,
+    "transactions": [
+      {
+        "date": "2021-10-22",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "7104969d2ebb": {
+    "id": "7104969d2ebb",
+    "label": "13 RUE PIERRE DELASSIZE, Sainte-Hélène-Bondeville",
+    "lat": 49.761131,
+    "lng": 0.463579,
+    "transactions": [
+      {
+        "date": "2024-09-05",
+        "priceEur": 240000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "11993d376732": {
+    "id": "11993d376732",
+    "label": "21 LE MARAIS, Saint-Pierre-de-Manneville",
+    "lat": 49.391429,
+    "lng": 0.923353,
+    "transactions": [
+      {
+        "date": "2020-10-02",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 226,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e8b707b5053": {
+    "id": "6e8b707b5053",
+    "label": "9 LA RUE SAINT-PIERRE, Saint-Pierre-de-Manneville",
+    "lat": 49.392475,
+    "lng": 0.93279,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 272000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-18",
+        "priceEur": 272000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "46e994d1d050": {
+    "id": "46e994d1d050",
+    "label": "1B ALL DES CHENES, Saint-Pierre-de-Manneville",
+    "lat": 49.394293,
+    "lng": 0.932398,
+    "transactions": [
+      {
+        "date": "2021-03-01",
+        "priceEur": 204000,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  },
+  "70cc1a25d372": {
+    "id": "70cc1a25d372",
+    "label": "17 CHEMIN DU ROY, Saint-Pierre-de-Manneville",
+    "lat": 49.39109,
+    "lng": 0.930978,
+    "transactions": [
+      {
+        "date": "2022-10-27",
+        "priceEur": 258000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "14ff0008283b": {
+    "id": "14ff0008283b",
+    "label": "17 PL DE L'EGLISE, Saint-Pierre-de-Manneville",
+    "lat": 49.392573,
+    "lng": 0.931678,
+    "transactions": [
+      {
+        "date": "2023-01-13",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1e8c0ffcc68": {
+    "id": "b1e8c0ffcc68",
+    "label": "3 PL DE L'EGLISE, Saint-Pierre-de-Manneville",
+    "lat": 49.391883,
+    "lng": 0.930883,
+    "transactions": [
+      {
+        "date": "2023-12-21",
+        "priceEur": 104000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c3fab243619": {
+    "id": "4c3fab243619",
+    "label": "9B RUE DE SAINT PIERRE, Saint-Pierre-de-Manneville",
+    "lat": 49.392406,
+    "lng": 0.93299,
+    "transactions": [
+      {
+        "date": "2025-04-10",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  }
+}

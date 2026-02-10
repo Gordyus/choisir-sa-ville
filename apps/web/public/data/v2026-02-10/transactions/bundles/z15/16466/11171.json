@@ -1,0 +1,92 @@
+{
+  "0b0c26c2da50": {
+    "id": "0b0c26c2da50",
+    "label": "5075 HAMEAU D HARDOUVILLE NORD, Mesnil-Panneville",
+    "lat": 49.58927,
+    "lng": 0.904329,
+    "transactions": [
+      {
+        "date": "2020-09-29",
+        "priceEur": 237000,
+        "typeLocal": "Maison",
+        "surfaceM2": 106,
+        "isVefa": false
+      }
+    ]
+  },
+  "5e3729ea5fc1": {
+    "id": "5e3729ea5fc1",
+    "label": "332 RTE D HARDOUVILLE, Mesnil-Panneville",
+    "lat": 49.588596,
+    "lng": 0.904413,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3784a0d1bbb": {
+    "id": "d3784a0d1bbb",
+    "label": "5077 HAMEAU D HARDOUVILLE NORD, Mesnil-Panneville",
+    "lat": 49.588845,
+    "lng": 0.904554,
+    "transactions": [
+      {
+        "date": "2023-03-08",
+        "priceEur": 106000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed52a6da8b6a": {
+    "id": "ed52a6da8b6a",
+    "label": "308 RTE D HARDOUVILLE, Mesnil-Panneville",
+    "lat": 49.588479,
+    "lng": 0.904921,
+    "transactions": [
+      {
+        "date": "2023-11-20",
+        "priceEur": 241000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "e72ad91077cc": {
+    "id": "e72ad91077cc",
+    "label": "30 RTE D HARDOUVILLE, Mesnil-Panneville",
+    "lat": 49.588531,
+    "lng": 0.902405,
+    "transactions": [
+      {
+        "date": "2024-01-12",
+        "priceEur": 184900,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "414fda31c87e": {
+    "id": "414fda31c87e",
+    "label": "235 RTE D HARDOUVILLE, Mesnil-Panneville",
+    "lat": 49.588975,
+    "lng": 0.90512,
+    "transactions": [
+      {
+        "date": "2024-12-09",
+        "priceEur": 189000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  }
+}

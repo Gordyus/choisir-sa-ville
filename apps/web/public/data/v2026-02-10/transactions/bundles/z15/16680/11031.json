@@ -1,0 +1,114 @@
+{
+  "f01c63c8cfbc": {
+    "id": "f01c63c8cfbc",
+    "label": "425 RUE DU CHEMIN VERT, Wannehain",
+    "lat": 50.572779,
+    "lng": 3.262473,
+    "transactions": [
+      {
+        "date": "2020-09-14",
+        "priceEur": 258000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "037071bc7651": {
+    "id": "037071bc7651",
+    "label": "54 RUE DU CLOS DU CHEMIN VERT, Wannehain",
+    "lat": 50.57228,
+    "lng": 3.262689,
+    "transactions": [
+      {
+        "date": "2021-09-22",
+        "priceEur": 329865,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "41889857ad56": {
+    "id": "41889857ad56",
+    "label": "53 RUE DU VERT PRE, Wannehain",
+    "lat": 50.569622,
+    "lng": 3.259556,
+    "transactions": [
+      {
+        "date": "2021-10-15",
+        "priceEur": 393700,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "d2f9725dbdc8": {
+    "id": "d2f9725dbdc8",
+    "label": "167 RUE DU VERT PRE, Wannehain",
+    "lat": 50.570104,
+    "lng": 3.261283,
+    "transactions": [
+      {
+        "date": "2022-05-12",
+        "priceEur": 584000,
+        "typeLocal": "Maison",
+        "surfaceM2": 190,
+        "isVefa": false
+      }
+    ]
+  },
+  "e41e4c5c59e3": {
+    "id": "e41e4c5c59e3",
+    "label": "1225 RUE DE LA VACHE BLEUE, Wannehain",
+    "lat": 50.572593,
+    "lng": 3.262427,
+    "transactions": [
+      {
+        "date": "2024-05-13",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-06",
+        "priceEur": 274000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "543fad76db36": {
+    "id": "543fad76db36",
+    "label": "229 RUE JEAN BAPTISTE TONNEL, Wannehain",
+    "lat": 50.570078,
+    "lng": 3.262075,
+    "transactions": [
+      {
+        "date": "2023-08-31",
+        "priceEur": 424000,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "263d3def554c": {
+    "id": "263d3def554c",
+    "label": "417 RUE DU CHEMIN VERT, Wannehain",
+    "lat": 50.572821,
+    "lng": 3.26288,
+    "transactions": [
+      {
+        "date": "2024-08-27",
+        "priceEur": 280760,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  }
+}

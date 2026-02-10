@@ -1,0 +1,32 @@
+{
+  "401f316017ff": {
+    "id": "401f316017ff",
+    "label": "216 RUE DES MAISONNETTES, Ancretiéville-Saint-Victor",
+    "lat": 49.654492,
+    "lng": 0.969802,
+    "transactions": [
+      {
+        "date": "2023-07-18",
+        "priceEur": 198000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "a8462a1a9a78": {
+    "id": "a8462a1a9a78",
+    "label": "226 RUE DES MAISONNETTES, Ancretiéville-Saint-Victor",
+    "lat": 49.654952,
+    "lng": 0.970085,
+    "transactions": [
+      {
+        "date": "2024-09-02",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "d75c5614c431": {
+    "id": "d75c5614c431",
+    "label": "5799 LE MAZELET HAUT, Hérépian",
+    "lat": 43.597258,
+    "lng": 3.10173,
+    "transactions": [
+      {
+        "date": "2021-05-12",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "870016998b6c": {
+    "id": "870016998b6c",
+    "label": "10 CHE DE L'ANCIEN RELAIS, Hérépian",
+    "lat": 43.598411,
+    "lng": 3.108297,
+    "transactions": [
+      {
+        "date": "2021-05-31",
+        "priceEur": 221920,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "4624acf0cf45": {
+    "id": "4624acf0cf45",
+    "label": "5852F CHAMPS GRANDS, Hérépian",
+    "lat": 43.596785,
+    "lng": 3.107977,
+    "transactions": [
+      {
+        "date": "2021-12-01",
+        "priceEur": 143500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "df23118792f3": {
+    "id": "df23118792f3",
+    "label": "34 CHE DE L'ANCIEN RELAIS, Hérépian",
+    "lat": 43.602424,
+    "lng": 3.107225,
+    "transactions": [
+      {
+        "date": "2022-08-23",
+        "priceEur": 378000,
+        "typeLocal": "Maison",
+        "surfaceM2": 114,
+        "isVefa": false
+      }
+    ]
+  },
+  "89b777508302": {
+    "id": "89b777508302",
+    "label": "24T CHE DE L'ANCIEN RELAIS, Hérépian",
+    "lat": 43.600915,
+    "lng": 3.107476,
+    "transactions": [
+      {
+        "date": "2023-01-30",
+        "priceEur": 265200,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "56243cf596c0": {
+    "id": "56243cf596c0",
+    "label": "5844 CHE DE L'ANCIEN RELAIS, Hérépian",
+    "lat": 43.598846,
+    "lng": 3.108037,
+    "transactions": [
+      {
+        "date": "2023-11-13",
+        "priceEur": 234000,
+        "typeLocal": "Maison",
+        "surfaceM2": 161,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "ed93e9ce389a": {
+    "id": "ed93e9ce389a",
+    "label": "97 RUE DU PERREY, Jumièges",
+    "lat": 49.427711,
+    "lng": 0.804824,
+    "transactions": [
+      {
+        "date": "2021-12-13",
+        "priceEur": 145000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "816cb5286228": {
+    "id": "816cb5286228",
+    "label": "5206 LE PASSAGE, Jumièges",
+    "lat": 49.429844,
+    "lng": 0.81181,
+    "transactions": [
+      {
+        "date": "2021-09-17",
+        "priceEur": 178600,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      },
+      {
+        "date": "2021-09-17",
+        "priceEur": 178600,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "474cc4a568eb": {
+    "id": "474cc4a568eb",
+    "label": "135 RUE ALPHONSE CALLAIS, Jumièges",
+    "lat": 49.429193,
+    "lng": 0.805778,
+    "transactions": [
+      {
+        "date": "2022-04-08",
+        "priceEur": 224000,
+        "typeLocal": "Maison",
+        "surfaceM2": 77,
+        "isVefa": false
+      }
+    ]
+  },
+  "f20ce9f786b3": {
+    "id": "f20ce9f786b3",
+    "label": "5220 LES CLOS, Jumièges",
+    "lat": 49.431975,
+    "lng": 0.805467,
+    "transactions": [
+      {
+        "date": "2022-06-03",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "63ffe1d0a330": {
+    "id": "63ffe1d0a330",
+    "label": "6099 LE PASSAGE, Jumièges",
+    "lat": 49.429701,
+    "lng": 0.810555,
+    "transactions": [
+      {
+        "date": "2023-09-29",
+        "priceEur": 166000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "a0619e32f62a": {
+    "id": "a0619e32f62a",
+    "label": "212 RUE DES CLOS, Jumièges",
+    "lat": 49.430629,
+    "lng": 0.805326,
+    "transactions": [
+      {
+        "date": "2024-03-21",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "eeded45099f8": {
+    "id": "eeded45099f8",
+    "label": "421 RUE DES CLOS, Jumièges",
+    "lat": 49.432078,
+    "lng": 0.804845,
+    "transactions": [
+      {
+        "date": "2024-09-20",
+        "priceEur": 318000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "1d137e269af0": {
+    "id": "1d137e269af0",
+    "label": "465 RUE ALPHONSE CALLAIS, Jumièges",
+    "lat": 49.430104,
+    "lng": 0.810855,
+    "transactions": [
+      {
+        "date": "2024-12-07",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "f000ce48cf41": {
+    "id": "f000ce48cf41",
+    "label": "5099 VILLAGE DE SAINT MARTIN, Saint-Martin-au-Bosc",
+    "lat": 49.82949,
+    "lng": 1.664841,
+    "transactions": [
+      {
+        "date": "2021-02-11",
+        "priceEur": 100000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "5f891fc56cbc": {
+    "id": "5f891fc56cbc",
+    "label": "5043 VILLAGE DE SAINT MARTIN, Saint-Martin-au-Bosc",
+    "lat": 49.830315,
+    "lng": 1.664453,
+    "transactions": [
+      {
+        "date": "2021-09-13",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "d923abda7b44": {
+    "id": "d923abda7b44",
+    "label": "5091 COTE DE LA VALLEE, Saint-Martin-au-Bosc",
+    "lat": 49.82928,
+    "lng": 1.666311,
+    "transactions": [
+      {
+        "date": "2022-04-19",
+        "priceEur": 130000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "4ca9770d03df": {
+    "id": "4ca9770d03df",
+    "label": "265 RUE VERTE, Les Grandes-Ventes",
+    "lat": 49.784422,
+    "lng": 1.245611,
+    "transactions": [
+      {
+        "date": "2021-04-14",
+        "priceEur": 167500,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "1159c1f1f761": {
+    "id": "1159c1f1f761",
+    "label": "316 RUE VERTE, Les Grandes-Ventes",
+    "lat": 49.783995,
+    "lng": 1.246633,
+    "transactions": [
+      {
+        "date": "2024-07-26",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  }
+}

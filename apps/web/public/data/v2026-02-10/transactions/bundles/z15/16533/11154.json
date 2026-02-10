@@ -1,0 +1,32 @@
+{
+  "5cb1f6a3115c": {
+    "id": "5cb1f6a3115c",
+    "label": "190 PL DE LA NEUVILLE, Conteville",
+    "lat": 49.706539,
+    "lng": 1.640422,
+    "transactions": [
+      {
+        "date": "2024-06-19",
+        "priceEur": 21000,
+        "typeLocal": "Maison",
+        "surfaceM2": 64,
+        "isVefa": false
+      }
+    ]
+  },
+  "66807815e08c": {
+    "id": "66807815e08c",
+    "label": "156 PL DE LA NEUVILLE, Conteville",
+    "lat": 49.705435,
+    "lng": 1.641273,
+    "transactions": [
+      {
+        "date": "2024-07-05",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  }
+}

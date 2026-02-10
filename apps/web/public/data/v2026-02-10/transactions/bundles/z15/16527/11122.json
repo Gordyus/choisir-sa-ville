@@ -1,0 +1,106 @@
+{
+  "cd2fe8690b30": {
+    "id": "cd2fe8690b30",
+    "label": "7 IMP DES SOURCES, Rieux",
+    "lat": 49.93415,
+    "lng": 1.578416,
+    "transactions": [
+      {
+        "date": "2020-12-17",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-17",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "2d192dd59a4b": {
+    "id": "2d192dd59a4b",
+    "label": "1A RUE DE L ABREUVOIR, Rieux",
+    "lat": 49.936005,
+    "lng": 1.580611,
+    "transactions": [
+      {
+        "date": "2021-12-08",
+        "priceEur": 171600,
+        "typeLocal": "Maison",
+        "surfaceM2": 71,
+        "isVefa": false
+      }
+    ]
+  },
+  "7f0f06798ec1": {
+    "id": "7f0f06798ec1",
+    "label": "7001 RUE DE DIEPPE, Rieux",
+    "lat": 49.932449,
+    "lng": 1.581953,
+    "transactions": [
+      {
+        "date": "2021-02-26",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "956ac8213da2": {
+    "id": "956ac8213da2",
+    "label": "5227 RUE DE DIEPPE, Rieux",
+    "lat": 49.932977,
+    "lng": 1.581736,
+    "transactions": [
+      {
+        "date": "2022-10-06",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-21",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "66bb13a4b16b": {
+    "id": "66bb13a4b16b",
+    "label": "20 RUE DE L ABREUVOIR, Rieux",
+    "lat": 49.936852,
+    "lng": 1.581644,
+    "transactions": [
+      {
+        "date": "2023-12-27",
+        "priceEur": 16000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "3b9e715d2af4": {
+    "id": "3b9e715d2af4",
+    "label": "18 RUE DE DIEPPE, Rieux",
+    "lat": 49.934683,
+    "lng": 1.581016,
+    "transactions": [
+      {
+        "date": "2024-06-27",
+        "priceEur": 169000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

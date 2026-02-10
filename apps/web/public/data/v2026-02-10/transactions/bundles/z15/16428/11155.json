@@ -1,0 +1,91 @@
+{
+  "d757993c0480": {
+    "id": "d757993c0480",
+    "label": "8B GR GRANDE RUE, Daubeuf-Serville",
+    "lat": 49.698556,
+    "lng": 0.48575,
+    "transactions": [
+      {
+        "date": "2022-12-29",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-21",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-30",
+        "priceEur": 224000,
+        "typeLocal": "Maison",
+        "surfaceM2": 81,
+        "isVefa": false
+      }
+    ]
+  },
+  "913777a1a854": {
+    "id": "913777a1a854",
+    "label": "2 RUE DE LA MARE FINE, Daubeuf-Serville",
+    "lat": 49.697526,
+    "lng": 0.488232,
+    "transactions": [
+      {
+        "date": "2021-06-10",
+        "priceEur": 236000,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6df07f99758": {
+    "id": "c6df07f99758",
+    "label": "5148 HAMEAU DE TREVET, Daubeuf-Serville",
+    "lat": 49.696832,
+    "lng": 0.488256,
+    "transactions": [
+      {
+        "date": "2022-02-21",
+        "priceEur": 191850,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "8c2f517fece8": {
+    "id": "8c2f517fece8",
+    "label": "3 RUE DE LA MARE FINE, Daubeuf-Serville",
+    "lat": 49.697566,
+    "lng": 0.487194,
+    "transactions": [
+      {
+        "date": "2022-02-11",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "63481bc53157": {
+    "id": "63481bc53157",
+    "label": "3 RUE BABEUF, Daubeuf-Serville",
+    "lat": 49.696906,
+    "lng": 0.489868,
+    "transactions": [
+      {
+        "date": "2022-03-12",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  }
+}

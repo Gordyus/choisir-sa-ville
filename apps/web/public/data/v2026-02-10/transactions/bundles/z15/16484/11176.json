@@ -1,0 +1,39 @@
+{
+  "e12d4b837b06": {
+    "id": "e12d4b837b06",
+    "label": "11 DOM DES FRAISIERS, Montville",
+    "lat": 49.546803,
+    "lng": 1.101856,
+    "transactions": [
+      {
+        "date": "2022-09-26",
+        "priceEur": 845000,
+        "typeLocal": "Maison",
+        "surfaceM2": 261,
+        "isVefa": false
+      },
+      {
+        "date": "2020-08-31",
+        "priceEur": 635000,
+        "typeLocal": "Maison",
+        "surfaceM2": 261,
+        "isVefa": false
+      }
+    ]
+  },
+  "a76e3bbd61c2": {
+    "id": "a76e3bbd61c2",
+    "label": "462 RUE DU PETIT BOSC GUERARD, Bosc-Guérard-Saint-Adrien",
+    "lat": 49.546849,
+    "lng": 1.108803,
+    "transactions": [
+      {
+        "date": "2021-09-17",
+        "priceEur": 393000,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "5235ba53661c": {
+    "id": "5235ba53661c",
+    "label": "5294 HAM DE FAUZAN, Cesseras",
+    "lat": 43.344481,
+    "lng": 2.693628,
+    "transactions": [
+      {
+        "date": "2020-09-11",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  },
+  "551408dd9a2e": {
+    "id": "551408dd9a2e",
+    "label": "5000 HAM DE FAUZAN, Cesseras",
+    "lat": 43.344893,
+    "lng": 2.692751,
+    "transactions": [
+      {
+        "date": "2022-08-29",
+        "priceEur": 82000,
+        "typeLocal": "Maison",
+        "surfaceM2": 29,
+        "isVefa": false
+      }
+    ]
+  }
+}

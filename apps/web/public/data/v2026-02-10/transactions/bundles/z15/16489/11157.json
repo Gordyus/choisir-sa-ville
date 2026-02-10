@@ -1,0 +1,47 @@
+{
+  "2d2042f77b84": {
+    "id": "2d2042f77b84",
+    "label": "484 CHE DE LA RUETTE, Montreuil-en-Caux",
+    "lat": 49.682485,
+    "lng": 1.154346,
+    "transactions": [
+      {
+        "date": "2023-11-24",
+        "priceEur": 180500,
+        "typeLocal": "Maison",
+        "surfaceM2": 128,
+        "isVefa": false
+      }
+    ]
+  },
+  "f625b64c74a0": {
+    "id": "f625b64c74a0",
+    "label": "1 RES LE CHASSE-MAREE, Montreuil-en-Caux",
+    "lat": 49.681978,
+    "lng": 1.155845,
+    "transactions": [
+      {
+        "date": "2024-11-14",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "79f6cb5e2447": {
+    "id": "79f6cb5e2447",
+    "label": "139 RTE DE LA ROUGE MAISON, Montreuil-en-Caux",
+    "lat": 49.682663,
+    "lng": 1.155283,
+    "transactions": [
+      {
+        "date": "2025-01-31",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  }
+}

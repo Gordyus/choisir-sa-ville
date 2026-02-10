@@ -1,0 +1,77 @@
+{
+  "acf929dac45f": {
+    "id": "acf929dac45f",
+    "label": "5001 RTE DU PETIT GOMARD, Le Mesnil-Réaume",
+    "lat": 49.967468,
+    "lng": 1.452612,
+    "transactions": [
+      {
+        "date": "2021-12-15",
+        "priceEur": 178050,
+        "typeLocal": "Maison",
+        "surfaceM2": 125,
+        "isVefa": false
+      }
+    ]
+  },
+  "7fa82c271030": {
+    "id": "7fa82c271030",
+    "label": "5052 VILLAGE, Le Mesnil-Réaume",
+    "lat": 49.966593,
+    "lng": 1.453086,
+    "transactions": [
+      {
+        "date": "2023-05-30",
+        "priceEur": 148000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "2bfe50fae44c": {
+    "id": "2bfe50fae44c",
+    "label": "9001 RTE DE MESNIL REAUME, Melleville",
+    "lat": 49.966999,
+    "lng": 1.456472,
+    "transactions": [
+      {
+        "date": "2023-06-12",
+        "priceEur": 159250,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b31388eb25b": {
+    "id": "0b31388eb25b",
+    "label": "35 RUE REAULME, Le Mesnil-Réaume",
+    "lat": 49.96728,
+    "lng": 1.455741,
+    "transactions": [
+      {
+        "date": "2024-09-12",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "6bdf8f3d23ae": {
+    "id": "6bdf8f3d23ae",
+    "label": "21 RUE REAULME, Le Mesnil-Réaume",
+    "lat": 49.968159,
+    "lng": 1.453178,
+    "transactions": [
+      {
+        "date": "2025-04-28",
+        "priceEur": 150000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "c3875cc3dd04": {
+    "id": "c3875cc3dd04",
+    "label": "38 RUE DE L EGLISE, Smermesnil",
+    "lat": 49.839788,
+    "lng": 1.468369,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 87500,
+        "typeLocal": "Maison",
+        "surfaceM2": 122,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6ac3d24629c": {
+    "id": "c6ac3d24629c",
+    "label": "5053 LE VILLAGE, Smermesnil",
+    "lat": 49.839434,
+    "lng": 1.468799,
+    "transactions": [
+      {
+        "date": "2022-01-26",
+        "priceEur": 92750,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  },
+  "dbacc909e343": {
+    "id": "dbacc909e343",
+    "label": "5048 LE VILLAGE, Smermesnil",
+    "lat": 49.840012,
+    "lng": 1.47069,
+    "transactions": [
+      {
+        "date": "2023-02-10",
+        "priceEur": 42000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "5668af0df98c": {
+    "id": "5668af0df98c",
+    "label": "47 RUE DE L EGLISE, Smermesnil",
+    "lat": 49.839324,
+    "lng": 1.468678,
+    "transactions": [
+      {
+        "date": "2023-07-06",
+        "priceEur": 135000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "dcd696c87a5c": {
+    "id": "dcd696c87a5c",
+    "label": "36 RTE NATIONALE, Boursies",
+    "lat": 50.139401,
+    "lng": 3.030572,
+    "transactions": [
+      {
+        "date": "2020-07-01",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 148,
+        "isVefa": false
+      }
+    ]
+  },
+  "c1253e36ddd6": {
+    "id": "c1253e36ddd6",
+    "label": "5 RUE DE DEMICOURT, Boursies",
+    "lat": 50.138529,
+    "lng": 3.029977,
+    "transactions": [
+      {
+        "date": "2022-01-22",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "e3f6dc89d450": {
+    "id": "e3f6dc89d450",
+    "label": "30 RTE NATIONALE, Boursies",
+    "lat": 50.139843,
+    "lng": 3.032136,
+    "transactions": [
+      {
+        "date": "2022-02-28",
+        "priceEur": 70400,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "53e9a5fcbbfd": {
+    "id": "53e9a5fcbbfd",
+    "label": "37 RTE NATIONALE, Boursies",
+    "lat": 50.140189,
+    "lng": 3.030742,
+    "transactions": [
+      {
+        "date": "2023-05-09",
+        "priceEur": 160000,
+        "typeLocal": "Maison",
+        "surfaceM2": 142,
+        "isVefa": false
+      }
+    ]
+  }
+}

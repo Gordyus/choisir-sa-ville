@@ -1,0 +1,47 @@
+{
+  "9ef38cdba735": {
+    "id": "9ef38cdba735",
+    "label": "698 RTE DE LA HEUZE, Bellencombre",
+    "lat": 49.713027,
+    "lng": 1.225174,
+    "transactions": [
+      {
+        "date": "2021-09-27",
+        "priceEur": 172000,
+        "typeLocal": "Maison",
+        "surfaceM2": 162,
+        "isVefa": false
+      }
+    ]
+  },
+  "c32bbeae83b6": {
+    "id": "c32bbeae83b6",
+    "label": "258 RTE DE DIEPPE, Bellencombre",
+    "lat": 49.710706,
+    "lng": 1.227008,
+    "transactions": [
+      {
+        "date": "2023-03-13",
+        "priceEur": 95000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f2038d9c6c2": {
+    "id": "8f2038d9c6c2",
+    "label": "516 RTE DE LA HEUZE, Bellencombre",
+    "lat": 49.713713,
+    "lng": 1.223474,
+    "transactions": [
+      {
+        "date": "2023-09-22",
+        "priceEur": 179300,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  }
+}

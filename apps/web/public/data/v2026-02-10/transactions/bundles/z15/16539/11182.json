@@ -1,0 +1,24 @@
+{
+  "a07c16f71ccd": {
+    "id": "a07c16f71ccd",
+    "label": "5167 LES MONTS, Cuy-Saint-Fiacre",
+    "lat": 49.507264,
+    "lng": 1.707023,
+    "transactions": [
+      {
+        "date": "2021-08-20",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      },
+      {
+        "date": "2021-08-20",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "f03b12ecdb7c": {
+    "id": "f03b12ecdb7c",
+    "label": "1136 PARC DES CATELIERS, Buchy",
+    "lat": 49.588158,
+    "lng": 1.346796,
+    "transactions": [
+      {
+        "date": "2021-05-20",
+        "priceEur": 360000,
+        "typeLocal": "Maison",
+        "surfaceM2": 40,
+        "isVefa": false
+      }
+    ]
+  },
+  "3231ce320344": {
+    "id": "3231ce320344",
+    "label": "590 RTE DE ROUEN BUCHY, Buchy",
+    "lat": 49.584589,
+    "lng": 1.351078,
+    "transactions": [
+      {
+        "date": "2022-10-24",
+        "priceEur": 191000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d9219f2c6ec": {
+    "id": "5d9219f2c6ec",
+    "label": "38 RTE DE ROCQUEMONT ESTOUTEVILLE, Buchy",
+    "lat": 49.586684,
+    "lng": 1.341086,
+    "transactions": [
+      {
+        "date": "2023-09-05",
+        "priceEur": 260000,
+        "typeLocal": "Maison",
+        "surfaceM2": 151,
+        "isVefa": false
+      }
+    ]
+  }
+}

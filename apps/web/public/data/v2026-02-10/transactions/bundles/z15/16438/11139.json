@@ -1,0 +1,62 @@
+{
+  "f25b08d8494f": {
+    "id": "f25b08d8494f",
+    "label": "16 RUE DU MANOIR, Canouville",
+    "lat": 49.810004,
+    "lng": 0.597735,
+    "transactions": [
+      {
+        "date": "2021-03-30",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  },
+  "3ff5d1ca061c": {
+    "id": "3ff5d1ca061c",
+    "label": "20 RUE DU PETIT BUTOT, Butot-Vénesville",
+    "lat": 49.815626,
+    "lng": 0.593515,
+    "transactions": [
+      {
+        "date": "2022-02-01",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "6cdda2201e4c": {
+    "id": "6cdda2201e4c",
+    "label": "2 IMP DES CHATAIGNIERS, Canouville",
+    "lat": 49.809759,
+    "lng": 0.596852,
+    "transactions": [
+      {
+        "date": "2022-07-06",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 66,
+        "isVefa": false
+      }
+    ]
+  },
+  "fbe71f7610cb": {
+    "id": "fbe71f7610cb",
+    "label": "2 RUE DU PETIT BUTOT, Butot-Vénesville",
+    "lat": 49.811946,
+    "lng": 0.59327,
+    "transactions": [
+      {
+        "date": "2024-09-30",
+        "priceEur": 174800,
+        "typeLocal": "Maison",
+        "surfaceM2": 115,
+        "isVefa": false
+      }
+    ]
+  }
+}

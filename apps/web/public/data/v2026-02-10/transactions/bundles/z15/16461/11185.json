@@ -1,0 +1,69 @@
+{
+  "112a6c111c61": {
+    "id": "112a6c111c61",
+    "label": "513 CHE DU PATIS, Duclair",
+    "lat": 49.484648,
+    "lng": 0.853622,
+    "transactions": [
+      {
+        "date": "2024-10-24",
+        "priceEur": 450000,
+        "typeLocal": "Maison",
+        "surfaceM2": 204,
+        "isVefa": false
+      },
+      {
+        "date": "2021-07-13",
+        "priceEur": 320000,
+        "typeLocal": "Maison",
+        "surfaceM2": 189,
+        "isVefa": false
+      }
+    ]
+  },
+  "a2b03b269f75": {
+    "id": "a2b03b269f75",
+    "label": "572 CHE DU CHATEAU, Duclair",
+    "lat": 49.488079,
+    "lng": 0.855183,
+    "transactions": [
+      {
+        "date": "2022-02-28",
+        "priceEur": 339000,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  },
+  "75d2ffeccfab": {
+    "id": "75d2ffeccfab",
+    "label": "6064 LE VAUROUY, Duclair",
+    "lat": 49.488808,
+    "lng": 0.852203,
+    "transactions": [
+      {
+        "date": "2022-03-01",
+        "priceEur": 151000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "9af13795f0a7": {
+    "id": "9af13795f0a7",
+    "label": "6061 LE VAUROUY, Duclair",
+    "lat": 49.487775,
+    "lng": 0.855412,
+    "transactions": [
+      {
+        "date": "2022-08-02",
+        "priceEur": 399500,
+        "typeLocal": "Maison",
+        "surfaceM2": 146,
+        "isVefa": false
+      }
+    ]
+  }
+}

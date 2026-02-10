@@ -1,0 +1,62 @@
+{
+  "2556487d9974": {
+    "id": "2556487d9974",
+    "label": "480 RTE DU MANOIR, Cleuville",
+    "lat": 49.706273,
+    "lng": 0.639819,
+    "transactions": [
+      {
+        "date": "2021-11-03",
+        "priceEur": 333000,
+        "typeLocal": "Maison",
+        "surfaceM2": 260,
+        "isVefa": false
+      }
+    ]
+  },
+  "42448de74c25": {
+    "id": "42448de74c25",
+    "label": "510 RTE DU MANOIR, Cleuville",
+    "lat": 49.70614,
+    "lng": 0.640395,
+    "transactions": [
+      {
+        "date": "2022-06-20",
+        "priceEur": 235000,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e9e0f28d285": {
+    "id": "6e9e0f28d285",
+    "label": "68 RUE DE LA HETRAIE, Cleuville",
+    "lat": 49.706381,
+    "lng": 0.637998,
+    "transactions": [
+      {
+        "date": "2023-08-18",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 166,
+        "isVefa": false
+      }
+    ]
+  },
+  "68bdd6b0a95b": {
+    "id": "68bdd6b0a95b",
+    "label": "69 RUE DE LA HETRAIE, Cleuville",
+    "lat": 49.706319,
+    "lng": 0.638563,
+    "transactions": [
+      {
+        "date": "2023-12-08",
+        "priceEur": 51000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "bf3ab1e7dbc7": {
+    "id": "bf3ab1e7dbc7",
+    "label": "5001 PLAINE DE FRESQUIENNES, Anceaumeville",
+    "lat": 49.572017,
+    "lng": 1.048767,
+    "transactions": [
+      {
+        "date": "2020-12-29",
+        "priceEur": 334800,
+        "typeLocal": "Maison",
+        "surfaceM2": 263,
+        "isVefa": false
+      }
+    ]
+  },
+  "822ef2975ce7": {
+    "id": "822ef2975ce7",
+    "label": "754 HAMEAU DES CAMBRES, Anceaumeville",
+    "lat": 49.569227,
+    "lng": 1.054506,
+    "transactions": [
+      {
+        "date": "2021-11-29",
+        "priceEur": 310000,
+        "typeLocal": "Maison",
+        "surfaceM2": 143,
+        "isVefa": false
+      }
+    ]
+  },
+  "829fd0800e22": {
+    "id": "829fd0800e22",
+    "label": "992 RTE DES CAMBRES, Anceaumeville",
+    "lat": 49.569232,
+    "lng": 1.053545,
+    "transactions": [
+      {
+        "date": "2021-10-04",
+        "priceEur": 425000,
+        "typeLocal": "Maison",
+        "surfaceM2": 208,
+        "isVefa": false
+      }
+    ]
+  },
+  "989094faf017": {
+    "id": "989094faf017",
+    "label": "346 RTE DE DIEPPE, Anceaumeville",
+    "lat": 49.571628,
+    "lng": 1.050275,
+    "transactions": [
+      {
+        "date": "2022-02-15",
+        "priceEur": 429800,
+        "typeLocal": "Maison",
+        "surfaceM2": 25,
+        "isVefa": false
+      }
+    ]
+  },
+  "c4d02f99c027": {
+    "id": "c4d02f99c027",
+    "label": "5005B HAMEAU DES CAMBRES, Anceaumeville",
+    "lat": 49.568754,
+    "lng": 1.051275,
+    "transactions": [
+      {
+        "date": "2022-02-09",
+        "priceEur": 167000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "9021aedfb510": {
+    "id": "9021aedfb510",
+    "label": "1016 RTE DES CAMBRES, Anceaumeville",
+    "lat": 49.569098,
+    "lng": 1.052706,
+    "transactions": [
+      {
+        "date": "2022-05-02",
+        "priceEur": 205500,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  }
+}

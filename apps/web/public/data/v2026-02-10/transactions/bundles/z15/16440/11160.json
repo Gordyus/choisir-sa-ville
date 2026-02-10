@@ -1,0 +1,39 @@
+{
+  "888a4335e331": {
+    "id": "888a4335e331",
+    "label": "291 RTE DU HAMET, Terres-de-Caux",
+    "lat": 49.661909,
+    "lng": 0.622853,
+    "transactions": [
+      {
+        "date": "2020-08-06",
+        "priceEur": 218800,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "03ebca6130dc": {
+    "id": "03ebca6130dc",
+    "label": "244 RTE DU HAMET, Terres-de-Caux",
+    "lat": 49.66108,
+    "lng": 0.622702,
+    "transactions": [
+      {
+        "date": "2023-02-01",
+        "priceEur": 129382.83,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      },
+      {
+        "date": "2023-02-01",
+        "priceEur": 60617.17,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  }
+}

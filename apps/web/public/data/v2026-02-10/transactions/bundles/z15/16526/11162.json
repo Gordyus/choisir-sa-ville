@@ -1,0 +1,32 @@
+{
+  "ff79c8534286": {
+    "id": "ff79c8534286",
+    "label": "5006 QUARTIER DES MONTS BENARD, Le Thil-Riberpré",
+    "lat": 49.650178,
+    "lng": 1.568935,
+    "transactions": [
+      {
+        "date": "2020-12-17",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "d3a06a825da2": {
+    "id": "d3a06a825da2",
+    "label": "5025 BELLEFOITIERE, Compainville",
+    "lat": 49.653307,
+    "lng": 1.561687,
+    "transactions": [
+      {
+        "date": "2022-08-10",
+        "priceEur": 77000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

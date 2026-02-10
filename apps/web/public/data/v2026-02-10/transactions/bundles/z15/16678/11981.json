@@ -1,0 +1,189 @@
+{
+  "f6a9c7f1b9f5": {
+    "id": "f6a9c7f1b9f5",
+    "label": "3 RUE DU CHEVREFEUILLE, Magalas",
+    "lat": 43.469247,
+    "lng": 3.231161,
+    "transactions": [
+      {
+        "date": "2020-07-23",
+        "priceEur": 257000,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "40e8a84cbbff": {
+    "id": "40e8a84cbbff",
+    "label": "11 RUE DU CHEVREFEUILLE, Magalas",
+    "lat": 43.469471,
+    "lng": 3.231718,
+    "transactions": [
+      {
+        "date": "2021-10-07",
+        "priceEur": 328644,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      },
+      {
+        "date": "2021-01-07",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "82df7db39c3e": {
+    "id": "82df7db39c3e",
+    "label": "21 RUE DES ARBOUSIERS, Magalas",
+    "lat": 43.470227,
+    "lng": 3.230821,
+    "transactions": [
+      {
+        "date": "2021-04-09",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "0b09e3b44af5": {
+    "id": "0b09e3b44af5",
+    "label": "3 RUE DES TERRASSES DE MONTFO, Magalas",
+    "lat": 43.471976,
+    "lng": 3.231307,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 225000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "bd296a83b601": {
+    "id": "bd296a83b601",
+    "label": "7 RUE DES TERRASSES DE MONTFO, Magalas",
+    "lat": 43.471917,
+    "lng": 3.23102,
+    "transactions": [
+      {
+        "date": "2021-10-01",
+        "priceEur": 352500,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  },
+  "fdbe54be5cd1": {
+    "id": "fdbe54be5cd1",
+    "label": "4 RUE DES TERRASSES DE MONTFO, Magalas",
+    "lat": 43.472556,
+    "lng": 3.231601,
+    "transactions": [
+      {
+        "date": "2022-08-23",
+        "priceEur": 352500,
+        "typeLocal": "Maison",
+        "surfaceM2": 121,
+        "isVefa": false
+      }
+    ]
+  },
+  "b656f8fa1db7": {
+    "id": "b656f8fa1db7",
+    "label": "4 RUE DE L'AUBEPINE, Magalas",
+    "lat": 43.469459,
+    "lng": 3.230968,
+    "transactions": [
+      {
+        "date": "2023-02-06",
+        "priceEur": 285000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "adb2c868f3ab": {
+    "id": "adb2c868f3ab",
+    "label": "3 RUE DES CLEMATITES, Magalas",
+    "lat": 43.471466,
+    "lng": 3.230847,
+    "transactions": [
+      {
+        "date": "2023-03-09",
+        "priceEur": 318300,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "756a952f4d5b": {
+    "id": "756a952f4d5b",
+    "label": "26 RUE DES CLEMATITES, Magalas",
+    "lat": 43.471,
+    "lng": 3.230006,
+    "transactions": [
+      {
+        "date": "2023-11-16",
+        "priceEur": 282780,
+        "typeLocal": "Maison",
+        "surfaceM2": 92,
+        "isVefa": false
+      }
+    ]
+  },
+  "56ed8b78b3a1": {
+    "id": "56ed8b78b3a1",
+    "label": "1 RUE DES CLEMATITES, Magalas",
+    "lat": 43.471251,
+    "lng": 3.230939,
+    "transactions": [
+      {
+        "date": "2024-02-01",
+        "priceEur": 227500,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "602e876a3522": {
+    "id": "602e876a3522",
+    "label": "25 RUE DES CYSTES, Magalas",
+    "lat": 43.470531,
+    "lng": 3.230271,
+    "transactions": [
+      {
+        "date": "2024-12-27",
+        "priceEur": 379050,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "f2289619bbef": {
+    "id": "f2289619bbef",
+    "label": "23 RUE DES CYSTES, Magalas",
+    "lat": 43.470491,
+    "lng": 3.230361,
+    "transactions": [
+      {
+        "date": "2025-02-28",
+        "priceEur": 373000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

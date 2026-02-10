@@ -1,0 +1,32 @@
+{
+  "88df7e2fbcb9": {
+    "id": "88df7e2fbcb9",
+    "label": "525 RTE DES BOIS ILLARDS, Saint-Saire",
+    "lat": 49.664819,
+    "lng": 1.479059,
+    "transactions": [
+      {
+        "date": "2021-09-04",
+        "priceEur": 210300,
+        "typeLocal": "Maison",
+        "surfaceM2": 154,
+        "isVefa": false
+      }
+    ]
+  },
+  "474aa99e637b": {
+    "id": "474aa99e637b",
+    "label": "500 RTE DES BOIS ILLARDS, Saint-Saire",
+    "lat": 49.665032,
+    "lng": 1.478437,
+    "transactions": [
+      {
+        "date": "2023-06-21",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

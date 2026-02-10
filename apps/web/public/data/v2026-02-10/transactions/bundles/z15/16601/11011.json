@@ -1,0 +1,92 @@
+{
+  "3447f3b8ad74": {
+    "id": "3447f3b8ad74",
+    "label": "5 RUE DE MADAGASCAR, Renescure",
+    "lat": 50.711954,
+    "lng": 2.393751,
+    "transactions": [
+      {
+        "date": "2020-11-23",
+        "priceEur": 415000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ef5cddf1fdf": {
+    "id": "0ef5cddf1fdf",
+    "label": "20 LE TONKIN, Renescure",
+    "lat": 50.711867,
+    "lng": 2.390694,
+    "transactions": [
+      {
+        "date": "2021-04-06",
+        "priceEur": 58000,
+        "typeLocal": "Maison",
+        "surfaceM2": 38,
+        "isVefa": false
+      }
+    ]
+  },
+  "a1d5448c2506": {
+    "id": "a1d5448c2506",
+    "label": "21 LE TONKIN, Renescure",
+    "lat": 50.712194,
+    "lng": 2.390397,
+    "transactions": [
+      {
+        "date": "2021-05-12",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 79,
+        "isVefa": false
+      }
+    ]
+  },
+  "ca9565224a94": {
+    "id": "ca9565224a94",
+    "label": "910 RUE DU MONT D'HIVER, Blaringhem",
+    "lat": 50.708708,
+    "lng": 2.387222,
+    "transactions": [
+      {
+        "date": "2021-11-10",
+        "priceEur": 153400,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d98391559b6": {
+    "id": "4d98391559b6",
+    "label": "1095 RUE DU MONT D'HIVER, Blaringhem",
+    "lat": 50.70944,
+    "lng": 2.384771,
+    "transactions": [
+      {
+        "date": "2022-06-10",
+        "priceEur": 129700,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "14e46bc21807": {
+    "id": "14e46bc21807",
+    "label": "11 RUE DE MADAGASCAR, Renescure",
+    "lat": 50.71115,
+    "lng": 2.392728,
+    "transactions": [
+      {
+        "date": "2023-04-07",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  }
+}

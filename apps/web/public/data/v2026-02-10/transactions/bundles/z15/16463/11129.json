@@ -1,0 +1,99 @@
+{
+  "d88b2395f7f9": {
+    "id": "d88b2395f7f9",
+    "label": "107 CITE MOREL, Saint-Aubin-sur-Mer",
+    "lat": 49.886867,
+    "lng": 0.87246,
+    "transactions": [
+      {
+        "date": "2021-05-11",
+        "priceEur": 145750,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "0542c4f5518a": {
+    "id": "0542c4f5518a",
+    "label": "104 RUE DU CHEMIN SALE, Saint-Aubin-sur-Mer",
+    "lat": 49.88651,
+    "lng": 0.871604,
+    "transactions": [
+      {
+        "date": "2022-08-20",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  },
+  "e4c5bd3f8b63": {
+    "id": "e4c5bd3f8b63",
+    "label": "1 RUE DE L'ISOLETTE, Saint-Aubin-sur-Mer",
+    "lat": 49.886612,
+    "lng": 0.877519,
+    "transactions": [
+      {
+        "date": "2023-04-26",
+        "priceEur": 286000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "fd9c4924bbb1": {
+    "id": "fd9c4924bbb1",
+    "label": "71 CITE MOREL, Saint-Aubin-sur-Mer",
+    "lat": 49.887066,
+    "lng": 0.872693,
+    "transactions": [
+      {
+        "date": "2024-10-18",
+        "priceEur": 180000,
+        "typeLocal": "Maison",
+        "surfaceM2": 42,
+        "isVefa": false
+      }
+    ]
+  },
+  "f05a1c685ef4": {
+    "id": "f05a1c685ef4",
+    "label": "116 RTE D ENGLESQUEVILLE, Saint-Aubin-sur-Mer",
+    "lat": 49.886954,
+    "lng": 0.877793,
+    "transactions": [
+      {
+        "date": "2025-01-03",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      },
+      {
+        "date": "2025-01-03",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "631eb40f4e69": {
+    "id": "631eb40f4e69",
+    "label": "7 CITE DU CHEMIN SALE, Saint-Aubin-sur-Mer",
+    "lat": 49.88683,
+    "lng": 0.870543,
+    "transactions": [
+      {
+        "date": "2025-03-03",
+        "priceEur": 229650,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  }
+}

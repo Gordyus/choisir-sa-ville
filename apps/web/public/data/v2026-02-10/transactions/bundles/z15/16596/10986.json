@@ -1,0 +1,32 @@
+{
+  "d3a852bf9f0f": {
+    "id": "d3a852bf9f0f",
+    "label": "800 VC VERROERE STRAETE VC 5, Eringhem",
+    "lat": 50.888891,
+    "lng": 2.339125,
+    "transactions": [
+      {
+        "date": "2023-08-08",
+        "priceEur": 172500,
+        "typeLocal": "Maison",
+        "surfaceM2": 118,
+        "isVefa": false
+      }
+    ]
+  },
+  "078d73bf0dcd": {
+    "id": "078d73bf0dcd",
+    "label": "1820 VC VERROERE STRAETE VC 5, Eringhem",
+    "lat": 50.884749,
+    "lng": 2.334235,
+    "transactions": [
+      {
+        "date": "2025-04-29",
+        "priceEur": 400000,
+        "typeLocal": "Maison",
+        "surfaceM2": 185,
+        "isVefa": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "d1038ff00054": {
+    "id": "d1038ff00054",
+    "label": "351 RUE DES CHASSE MAREE, Saint-Georges-sur-Fontaine",
+    "lat": 49.54523,
+    "lng": 1.185592,
+    "transactions": [
+      {
+        "date": "2020-10-05",
+        "priceEur": 416665,
+        "typeLocal": "Maison",
+        "surfaceM2": 250,
+        "isVefa": false
+      }
+    ]
+  },
+  "7844bbacef9e": {
+    "id": "7844bbacef9e",
+    "label": "100 IMP DE L EGLISE, Saint-Georges-sur-Fontaine",
+    "lat": 49.545045,
+    "lng": 1.178068,
+    "transactions": [
+      {
+        "date": "2021-05-11",
+        "priceEur": 699000,
+        "typeLocal": "Maison",
+        "surfaceM2": 175,
+        "isVefa": false
+      }
+    ]
+  },
+  "35b5502b9da2": {
+    "id": "35b5502b9da2",
+    "label": "94 PL DU VILLAGE, Saint-Georges-sur-Fontaine",
+    "lat": 49.543663,
+    "lng": 1.178374,
+    "transactions": [
+      {
+        "date": "2021-05-28",
+        "priceEur": 30000,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "c75d8a020d89": {
+    "id": "c75d8a020d89",
+    "label": "37 IMP DE L EGLISE, Saint-Georges-sur-Fontaine",
+    "lat": 49.545498,
+    "lng": 1.176402,
+    "transactions": [
+      {
+        "date": "2021-06-18",
+        "priceEur": 248900,
+        "typeLocal": "Maison",
+        "surfaceM2": 153,
+        "isVefa": false
+      }
+    ]
+  },
+  "0621bc520065": {
+    "id": "0621bc520065",
+    "label": "158 RUE DU VARAT, Saint-Georges-sur-Fontaine",
+    "lat": 49.5452,
+    "lng": 1.180992,
+    "transactions": [
+      {
+        "date": "2021-09-22",
+        "priceEur": 269850,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "432ab38b9ef8": {
+    "id": "432ab38b9ef8",
+    "label": "140 PL DU VILLAGE, Saint-Georges-sur-Fontaine",
+    "lat": 49.543704,
+    "lng": 1.178666,
+    "transactions": [
+      {
+        "date": "2022-01-14",
+        "priceEur": 182000,
+        "typeLocal": "Maison",
+        "surfaceM2": 51,
+        "isVefa": false
+      },
+      {
+        "date": "2022-01-14",
+        "priceEur": 182000,
+        "typeLocal": "Maison",
+        "surfaceM2": 48,
+        "isVefa": false
+      }
+    ]
+  },
+  "3820effca4a9": {
+    "id": "3820effca4a9",
+    "label": "485 RUE DES CHASSE MAREE, Saint-Georges-sur-Fontaine",
+    "lat": 49.545985,
+    "lng": 1.18467,
+    "transactions": [
+      {
+        "date": "2022-02-28",
+        "priceEur": 120200,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      },
+      {
+        "date": "2022-02-28",
+        "priceEur": 120200,
+        "typeLocal": "Maison",
+        "surfaceM2": 63,
+        "isVefa": false
+      }
+    ]
+  },
+  "ead79f6a2650": {
+    "id": "ead79f6a2650",
+    "label": "481 RUE DU BOUT D AMONT, Saint-Georges-sur-Fontaine",
+    "lat": 49.544214,
+    "lng": 1.185716,
+    "transactions": [
+      {
+        "date": "2022-07-13",
+        "priceEur": 341250,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-13",
+        "priceEur": 341250,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "62d21eeb5859": {
+    "id": "62d21eeb5859",
+    "label": "54 RUE DE L'EGLISE, Saint-Georges-sur-Fontaine",
+    "lat": 49.544426,
+    "lng": 1.176956,
+    "transactions": [
+      {
+        "date": "2022-09-29",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "0003b6fa402d": {
+    "id": "0003b6fa402d",
+    "label": "464 RUE DU BOUT D AMONT, Saint-Georges-sur-Fontaine",
+    "lat": 49.543719,
+    "lng": 1.185207,
+    "transactions": [
+      {
+        "date": "2022-11-07",
+        "priceEur": 376900,
+        "typeLocal": "Maison",
+        "surfaceM2": 230,
+        "isVefa": false
+      }
+    ]
+  },
+  "a4a2cf6f9c8c": {
+    "id": "a4a2cf6f9c8c",
+    "label": "145 RUE DES PEUPLIERS, Saint-Georges-sur-Fontaine",
+    "lat": 49.543323,
+    "lng": 1.179667,
+    "transactions": [
+      {
+        "date": "2023-12-20",
+        "priceEur": 280000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  }
+}

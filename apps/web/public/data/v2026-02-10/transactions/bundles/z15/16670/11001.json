@@ -1,0 +1,47 @@
+{
+  "5ffda948f622": {
+    "id": "5ffda948f622",
+    "label": "144 CHE DES MEURINS, Halluin",
+    "lat": 50.781954,
+    "lng": 3.144749,
+    "transactions": [
+      {
+        "date": "2021-04-09",
+        "priceEur": 585000,
+        "typeLocal": "Maison",
+        "surfaceM2": 156,
+        "isVefa": false
+      }
+    ]
+  },
+  "ec84f3ebb035": {
+    "id": "ec84f3ebb035",
+    "label": "143 CHE DE LA CAVALE ROUGE, Halluin",
+    "lat": 50.784929,
+    "lng": 3.146968,
+    "transactions": [
+      {
+        "date": "2022-07-08",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 34,
+        "isVefa": false
+      }
+    ]
+  },
+  "d5dfb1ac28c5": {
+    "id": "d5dfb1ac28c5",
+    "label": "124 CHE DES MEURINS, Halluin",
+    "lat": 50.7827,
+    "lng": 3.143503,
+    "transactions": [
+      {
+        "date": "2023-12-13",
+        "priceEur": 420000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  }
+}

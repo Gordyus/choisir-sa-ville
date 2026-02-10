@@ -1,0 +1,47 @@
+{
+  "adf0d113fce4": {
+    "id": "adf0d113fce4",
+    "label": "71 RUE DU CDT DOISE, Thun-l'Évêque",
+    "lat": 50.225295,
+    "lng": 3.284763,
+    "transactions": [
+      {
+        "date": "2020-12-14",
+        "priceEur": 92500,
+        "typeLocal": "Maison",
+        "surfaceM2": 102,
+        "isVefa": false
+      }
+    ]
+  },
+  "830f740ea0b0": {
+    "id": "830f740ea0b0",
+    "label": "61 RUE DU CDT DOISE, Thun-l'Évêque",
+    "lat": 50.225431,
+    "lng": 3.284488,
+    "transactions": [
+      {
+        "date": "2022-03-14",
+        "priceEur": 193200,
+        "typeLocal": "Maison",
+        "surfaceM2": 94,
+        "isVefa": false
+      }
+    ]
+  },
+  "59235d35e942": {
+    "id": "59235d35e942",
+    "label": "74 RUE ROGER SALENGRO, Thun-l'Évêque",
+    "lat": 50.226062,
+    "lng": 3.28334,
+    "transactions": [
+      {
+        "date": "2024-07-03",
+        "priceEur": 142350,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  }
+}

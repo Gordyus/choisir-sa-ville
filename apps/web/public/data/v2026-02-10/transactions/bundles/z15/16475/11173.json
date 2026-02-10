@@ -1,0 +1,47 @@
+{
+  "c48f9661c758": {
+    "id": "c48f9661c758",
+    "label": "601 RTE DE GOUPILLIERES, Fresquiennes",
+    "lat": 49.569768,
+    "lng": 1.002461,
+    "transactions": [
+      {
+        "date": "2021-11-10",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "cd7fc6dd0752": {
+    "id": "cd7fc6dd0752",
+    "label": "5172 BINEMARE, Fresquiennes",
+    "lat": 49.570947,
+    "lng": 1.001284,
+    "transactions": [
+      {
+        "date": "2021-12-23",
+        "priceEur": 188000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "a9cc5596e37a": {
+    "id": "a9cc5596e37a",
+    "label": "720 RTE DE GOUPILLIERES, Fresquiennes",
+    "lat": 49.57068,
+    "lng": 1.002729,
+    "transactions": [
+      {
+        "date": "2022-08-26",
+        "priceEur": 173500,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  }
+}

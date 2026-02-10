@@ -1,0 +1,32 @@
+{
+  "e0dc740eca4c": {
+    "id": "e0dc740eca4c",
+    "label": "8 RTE DE MONT A CAILLEUX, Saint-Riquier-en-Rivière",
+    "lat": 49.881491,
+    "lng": 1.581331,
+    "transactions": [
+      {
+        "date": "2020-09-12",
+        "priceEur": 35000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "9ae54d222968": {
+    "id": "9ae54d222968",
+    "label": "6 RTE DE MONT A CAILLEUX, Saint-Riquier-en-Rivière",
+    "lat": 49.881182,
+    "lng": 1.581214,
+    "transactions": [
+      {
+        "date": "2021-11-30",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

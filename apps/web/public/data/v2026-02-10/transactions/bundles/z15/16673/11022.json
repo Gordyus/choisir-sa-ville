@@ -1,0 +1,62 @@
+{
+  "ee6d7bfa58f9": {
+    "id": "ee6d7bfa58f9",
+    "label": "120 LE HAMEAU DES LACS, Forest-sur-Marque",
+    "lat": 50.632609,
+    "lng": 3.185407,
+    "transactions": [
+      {
+        "date": "2020-07-20",
+        "priceEur": 330000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "bfe4063c5a17": {
+    "id": "bfe4063c5a17",
+    "label": "104 LE HAMEAU DES LACS, Forest-sur-Marque",
+    "lat": 50.63366,
+    "lng": 3.185717,
+    "transactions": [
+      {
+        "date": "2020-10-09",
+        "priceEur": 382000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8f6bdd6c21a": {
+    "id": "f8f6bdd6c21a",
+    "label": "26 RUE DE L EVEILLE, Forest-sur-Marque",
+    "lat": 50.632379,
+    "lng": 3.185181,
+    "transactions": [
+      {
+        "date": "2022-07-13",
+        "priceEur": 314000,
+        "typeLocal": "Maison",
+        "surfaceM2": 97,
+        "isVefa": false
+      }
+    ]
+  },
+  "b6022e5e9f90": {
+    "id": "b6022e5e9f90",
+    "label": "110 LE HAMEAU DES LACS, Forest-sur-Marque",
+    "lat": 50.633257,
+    "lng": 3.185594,
+    "transactions": [
+      {
+        "date": "2024-04-16",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  }
+}

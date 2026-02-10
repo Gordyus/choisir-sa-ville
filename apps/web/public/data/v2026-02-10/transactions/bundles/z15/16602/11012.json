@@ -1,0 +1,39 @@
+{
+  "27ab6ec658c5": {
+    "id": "27ab6ec658c5",
+    "label": "213 RUE DE SAINT OMER, Blaringhem",
+    "lat": 50.705378,
+    "lng": 2.39877,
+    "transactions": [
+      {
+        "date": "2022-03-25",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-05",
+        "priceEur": 70000,
+        "typeLocal": "Maison",
+        "surfaceM2": 56,
+        "isVefa": false
+      }
+    ]
+  },
+  "0a2f2831b636": {
+    "id": "0a2f2831b636",
+    "label": "315 RUE GUMEZ, Blaringhem",
+    "lat": 50.702868,
+    "lng": 2.397158,
+    "transactions": [
+      {
+        "date": "2024-12-17",
+        "priceEur": 230360,
+        "typeLocal": "Maison",
+        "surfaceM2": 126,
+        "isVefa": false
+      }
+    ]
+  }
+}

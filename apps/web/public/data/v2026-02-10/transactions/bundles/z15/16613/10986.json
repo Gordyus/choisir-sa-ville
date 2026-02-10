@@ -1,0 +1,84 @@
+{
+  "4381e9538698": {
+    "id": "4381e9538698",
+    "label": "51 RUE DES AUBEPINES, Herzeele",
+    "lat": 50.885631,
+    "lng": 2.524664,
+    "transactions": [
+      {
+        "date": "2021-03-31",
+        "priceEur": 258000,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "0a2ca5c7760d": {
+    "id": "0a2ca5c7760d",
+    "label": "125 RUE DES AUBEPINES, Herzeele",
+    "lat": 50.885307,
+    "lng": 2.525373,
+    "transactions": [
+      {
+        "date": "2021-07-30",
+        "priceEur": 162000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "0de853813879": {
+    "id": "0de853813879",
+    "label": "33 RUE DES AUBEPINES, Herzeele",
+    "lat": 50.885742,
+    "lng": 2.524649,
+    "transactions": [
+      {
+        "date": "2022-01-24",
+        "priceEur": 199000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "604f1557b80c": {
+    "id": "604f1557b80c",
+    "label": "420 RUE DE WORMHOUT, Herzeele",
+    "lat": 50.886288,
+    "lng": 2.524656,
+    "transactions": [
+      {
+        "date": "2024-06-20",
+        "priceEur": 128500,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2022-07-06",
+        "priceEur": 109000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "48e90ea709b1": {
+    "id": "48e90ea709b1",
+    "label": "30 RUE DES AUBEPINES, Herzeele",
+    "lat": 50.885703,
+    "lng": 2.524094,
+    "transactions": [
+      {
+        "date": "2022-06-22",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  }
+}

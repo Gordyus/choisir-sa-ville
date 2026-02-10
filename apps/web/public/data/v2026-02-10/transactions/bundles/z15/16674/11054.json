@@ -1,0 +1,54 @@
+{
+  "4588240f7a3e": {
+    "id": "4588240f7a3e",
+    "label": "24A RUE DU MARAICHON, Flines-lez-Raches",
+    "lat": 50.414445,
+    "lng": 3.189217,
+    "transactions": [
+      {
+        "date": "2022-12-01",
+        "priceEur": 860000,
+        "typeLocal": "Maison",
+        "surfaceM2": 83,
+        "isVefa": false
+      },
+      {
+        "date": "2022-12-01",
+        "priceEur": 860000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "55da7924f923": {
+    "id": "55da7924f923",
+    "label": "47 RUE DU MARAICHON, Flines-lez-Raches",
+    "lat": 50.41377,
+    "lng": 3.190588,
+    "transactions": [
+      {
+        "date": "2024-06-26",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  },
+  "12fa17b4f2c2": {
+    "id": "12fa17b4f2c2",
+    "label": "39 RUE DU MARAICHON, Flines-lez-Raches",
+    "lat": 50.414827,
+    "lng": 3.190452,
+    "transactions": [
+      {
+        "date": "2025-03-24",
+        "priceEur": 344300,
+        "typeLocal": "Maison",
+        "surfaceM2": 113,
+        "isVefa": false
+      }
+    ]
+  }
+}

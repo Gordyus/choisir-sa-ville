@@ -1,0 +1,92 @@
+{
+  "4602afb120c0": {
+    "id": "4602afb120c0",
+    "label": "409 RUE DU VAL DES CHENES, Gruchet-le-Valasse",
+    "lat": 49.557587,
+    "lng": 0.508615,
+    "transactions": [
+      {
+        "date": "2020-08-17",
+        "priceEur": 253500,
+        "typeLocal": "Maison",
+        "surfaceM2": 117,
+        "isVefa": false
+      }
+    ]
+  },
+  "90618459a6d7": {
+    "id": "90618459a6d7",
+    "label": "279 RUE DU VAL DES CHENES, Gruchet-le-Valasse",
+    "lat": 49.556986,
+    "lng": 0.505939,
+    "transactions": [
+      {
+        "date": "2020-09-10",
+        "priceEur": 117000,
+        "typeLocal": "Maison",
+        "surfaceM2": 82,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8a3969445a2": {
+    "id": "e8a3969445a2",
+    "label": "485 RUE DU VAL CERISIER, Gruchet-le-Valasse",
+    "lat": 49.556085,
+    "lng": 0.509071,
+    "transactions": [
+      {
+        "date": "2021-03-12",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 163,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d90ff72f9a5": {
+    "id": "4d90ff72f9a5",
+    "label": "715 RUE DU VAL CERISIER, Gruchet-le-Valasse",
+    "lat": 49.557354,
+    "lng": 0.509927,
+    "transactions": [
+      {
+        "date": "2022-07-07",
+        "priceEur": 247490,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "d1732df857e9": {
+    "id": "d1732df857e9",
+    "label": "255 RUE DU VAL DES CHENES, Gruchet-le-Valasse",
+    "lat": 49.556782,
+    "lng": 0.505626,
+    "transactions": [
+      {
+        "date": "2024-11-15",
+        "priceEur": 221000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "017d78b2e039": {
+    "id": "017d78b2e039",
+    "label": "884 RUE DU VAL CERISIER, Gruchet-le-Valasse",
+    "lat": 49.557745,
+    "lng": 0.513839,
+    "transactions": [
+      {
+        "date": "2025-06-03",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

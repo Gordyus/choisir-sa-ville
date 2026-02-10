@@ -1,0 +1,54 @@
+{
+  "588a2ae0b17a": {
+    "id": "588a2ae0b17a",
+    "label": "142 RUE DU HAMEAU NEUF, Yébleron",
+    "lat": 49.630462,
+    "lng": 0.540714,
+    "transactions": [
+      {
+        "date": "2025-01-08",
+        "priceEur": 198100,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      },
+      {
+        "date": "2022-06-03",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "35c41088003e": {
+    "id": "35c41088003e",
+    "label": "770 RTE DE FOUCART, Yébleron",
+    "lat": 49.629301,
+    "lng": 0.546108,
+    "transactions": [
+      {
+        "date": "2023-09-26",
+        "priceEur": 192000,
+        "typeLocal": "Maison",
+        "surfaceM2": 89,
+        "isVefa": false
+      }
+    ]
+  },
+  "87b29dbc449f": {
+    "id": "87b29dbc449f",
+    "label": "497 RTE DE BOLLEVILLE, Yébleron",
+    "lat": 49.630172,
+    "lng": 0.539784,
+    "transactions": [
+      {
+        "date": "2024-09-25",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  }
+}

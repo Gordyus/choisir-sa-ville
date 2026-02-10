@@ -1,0 +1,92 @@
+{
+  "43300d4e9abf": {
+    "id": "43300d4e9abf",
+    "label": "351 RUE DE LA REGIE, Greuville",
+    "lat": 49.81267,
+    "lng": 0.914726,
+    "transactions": [
+      {
+        "date": "2021-11-09",
+        "priceEur": 180500,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "0644297df4e9": {
+    "id": "0644297df4e9",
+    "label": "211 RUE DE LA GRANDE MARE, Greuville",
+    "lat": 49.810074,
+    "lng": 0.911877,
+    "transactions": [
+      {
+        "date": "2022-04-20",
+        "priceEur": 289000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "eeeb3f18a7bc": {
+    "id": "eeeb3f18a7bc",
+    "label": "94 RUE DE L ECOLE, Greuville",
+    "lat": 49.810552,
+    "lng": 0.913135,
+    "transactions": [
+      {
+        "date": "2022-05-04",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 47,
+        "isVefa": false
+      }
+    ]
+  },
+  "555364babee2": {
+    "id": "555364babee2",
+    "label": "163 RUE DE L ECOLE, Greuville",
+    "lat": 49.811349,
+    "lng": 0.914046,
+    "transactions": [
+      {
+        "date": "2022-10-08",
+        "priceEur": 186000,
+        "typeLocal": "Maison",
+        "surfaceM2": 96,
+        "isVefa": false
+      }
+    ]
+  },
+  "5a5481f3ffeb": {
+    "id": "5a5481f3ffeb",
+    "label": "325 RUE DE LA REGIE, Greuville",
+    "lat": 49.812974,
+    "lng": 0.914447,
+    "transactions": [
+      {
+        "date": "2023-06-29",
+        "priceEur": 405900,
+        "typeLocal": "Maison",
+        "surfaceM2": 189,
+        "isVefa": false
+      }
+    ]
+  },
+  "e06df5463498": {
+    "id": "e06df5463498",
+    "label": "154 RUE DES FORRIERES, Greuville",
+    "lat": 49.811219,
+    "lng": 0.915496,
+    "transactions": [
+      {
+        "date": "2024-10-11",
+        "priceEur": 336000,
+        "typeLocal": "Maison",
+        "surfaceM2": 101,
+        "isVefa": false
+      }
+    ]
+  }
+}

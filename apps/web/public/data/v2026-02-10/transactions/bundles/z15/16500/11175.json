@@ -1,0 +1,47 @@
+{
+  "175310904cc5": {
+    "id": "175310904cc5",
+    "label": "196 RTE DE LA GARE, Vieux-Manoir",
+    "lat": 49.55495,
+    "lng": 1.279749,
+    "transactions": [
+      {
+        "date": "2021-09-13",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "47f20644be12": {
+    "id": "47f20644be12",
+    "label": "1213 RTE DE SAINT AUBIN, Vieux-Manoir",
+    "lat": 49.558704,
+    "lng": 1.284449,
+    "transactions": [
+      {
+        "date": "2022-03-21",
+        "priceEur": 352500,
+        "typeLocal": "Maison",
+        "surfaceM2": 182,
+        "isVefa": false
+      }
+    ]
+  },
+  "4a73da1a9839": {
+    "id": "4a73da1a9839",
+    "label": "1245 RTE DE SAINT AUBIN, Vieux-Manoir",
+    "lat": 49.558341,
+    "lng": 1.283728,
+    "transactions": [
+      {
+        "date": "2023-08-29",
+        "priceEur": 339000,
+        "typeLocal": "Maison",
+        "surfaceM2": 103,
+        "isVefa": false
+      }
+    ]
+  }
+}

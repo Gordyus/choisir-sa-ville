@@ -1,0 +1,129 @@
+{
+  "449308bb4285": {
+    "id": "449308bb4285",
+    "label": "3 RUE DU BOIS, Villers-Guislain",
+    "lat": 50.039766,
+    "lng": 3.152631,
+    "transactions": [
+      {
+        "date": "2020-08-28",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "a03cb2a73f8d": {
+    "id": "a03cb2a73f8d",
+    "label": "13 RUE DU MARECHAL FOCH, Villers-Guislain",
+    "lat": 50.039506,
+    "lng": 3.151188,
+    "transactions": [
+      {
+        "date": "2020-11-06",
+        "priceEur": 126500,
+        "typeLocal": "Maison",
+        "surfaceM2": 109,
+        "isVefa": false
+      }
+    ]
+  },
+  "a4e16358cd63": {
+    "id": "a4e16358cd63",
+    "label": "5B RUE DU MARECHAL FOCH, Villers-Guislain",
+    "lat": 50.038522,
+    "lng": 3.151992,
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "priceEur": 125000,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      },
+      {
+        "date": "2021-04-07",
+        "priceEur": 103500,
+        "typeLocal": "Maison",
+        "surfaceM2": 53,
+        "isVefa": false
+      }
+    ]
+  },
+  "5d3c82d14926": {
+    "id": "5d3c82d14926",
+    "label": "6T RUE DU BOIS, Villers-Guislain",
+    "lat": 50.04034,
+    "lng": 3.152538,
+    "transactions": [
+      {
+        "date": "2021-08-31",
+        "priceEur": 75960,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "be3410d7e159": {
+    "id": "be3410d7e159",
+    "label": "5 RUE DU BOIS, Villers-Guislain",
+    "lat": 50.0397,
+    "lng": 3.152445,
+    "transactions": [
+      {
+        "date": "2022-08-25",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "b05fd81a02e5": {
+    "id": "b05fd81a02e5",
+    "label": "13 RUE DU COMMANDANT WILBERT, Villers-Guislain",
+    "lat": 50.04134,
+    "lng": 3.152263,
+    "transactions": [
+      {
+        "date": "2024-02-01",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 160,
+        "isVefa": false
+      }
+    ]
+  },
+  "3c954d9835b7": {
+    "id": "3c954d9835b7",
+    "label": "6B RUE DU MARECHAL FOCH, Villers-Guislain",
+    "lat": 50.038691,
+    "lng": 3.152576,
+    "transactions": [
+      {
+        "date": "2024-05-28",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  },
+  "552a1279e9e4": {
+    "id": "552a1279e9e4",
+    "label": "6 RUE CLEMENCEAU, Villers-Guislain",
+    "lat": 50.0383,
+    "lng": 3.151801,
+    "transactions": [
+      {
+        "date": "2024-08-19",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 73,
+        "isVefa": false
+      }
+    ]
+  }
+}

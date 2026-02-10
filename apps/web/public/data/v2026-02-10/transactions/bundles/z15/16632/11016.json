@@ -1,0 +1,47 @@
+{
+  "609fcd6991a1": {
+    "id": "609fcd6991a1",
+    "label": "1018 RUE DES ECOLES, Le Doulieu",
+    "lat": 50.67536,
+    "lng": 2.72852,
+    "transactions": [
+      {
+        "date": "2021-06-19",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "6aaa67b32270": {
+    "id": "6aaa67b32270",
+    "label": "310 VC RESIDENCE DES MARGUERITES, Le Doulieu",
+    "lat": 50.680574,
+    "lng": 2.724822,
+    "transactions": [
+      {
+        "date": "2021-09-15",
+        "priceEur": 307210,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f7a0699e424": {
+    "id": "1f7a0699e424",
+    "label": "26 RESIDENCE LES VERTS PRES, Le Doulieu",
+    "lat": 50.678752,
+    "lng": 2.725178,
+    "transactions": [
+      {
+        "date": "2023-01-09",
+        "priceEur": 245000,
+        "typeLocal": "Maison",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  }
+}

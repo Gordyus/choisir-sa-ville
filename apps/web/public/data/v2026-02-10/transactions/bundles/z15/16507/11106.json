@@ -1,0 +1,39 @@
+{
+  "69fa26df3a9a": {
+    "id": "69fa26df3a9a",
+    "label": "255 RUE DES FERMES, Le Tréport",
+    "lat": 50.043048,
+    "lng": 1.355328,
+    "transactions": [
+      {
+        "date": "2021-09-07",
+        "priceEur": 127000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      },
+      {
+        "date": "2020-12-21",
+        "priceEur": 85000,
+        "typeLocal": "Maison",
+        "surfaceM2": 62,
+        "isVefa": false
+      }
+    ]
+  },
+  "2b5ea5062eeb": {
+    "id": "2b5ea5062eeb",
+    "label": "19D RUE DES FERMES, Le Tréport",
+    "lat": 50.044161,
+    "lng": 1.355434,
+    "transactions": [
+      {
+        "date": "2024-03-18",
+        "priceEur": 630000,
+        "typeLocal": "Maison",
+        "surfaceM2": 130,
+        "isVefa": false
+      }
+    ]
+  }
+}

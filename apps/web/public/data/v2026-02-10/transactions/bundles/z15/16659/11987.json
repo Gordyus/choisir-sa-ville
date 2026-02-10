@@ -1,0 +1,579 @@
+{
+  "a76cdf497555": {
+    "id": "a76cdf497555",
+    "label": "8 RUE DES MELIAS, Cazedarnes",
+    "lat": 43.423333,
+    "lng": 3.02871,
+    "transactions": [
+      {
+        "date": "2020-08-19",
+        "priceEur": 219523,
+        "typeLocal": "Maison",
+        "surfaceM2": 119,
+        "isVefa": false
+      }
+    ]
+  },
+  "f979c498069b": {
+    "id": "f979c498069b",
+    "label": "96 AV DES DEUX FONTAINES, Cazedarnes",
+    "lat": 43.425945,
+    "lng": 3.030128,
+    "transactions": [
+      {
+        "date": "2020-12-21",
+        "priceEur": 164450,
+        "typeLocal": "Maison",
+        "surfaceM2": 76,
+        "isVefa": false
+      }
+    ]
+  },
+  "dabb7c70cfdc": {
+    "id": "dabb7c70cfdc",
+    "label": "16 RUE DE LA TREILLE, Cazedarnes",
+    "lat": 43.42672,
+    "lng": 3.031594,
+    "transactions": [
+      {
+        "date": "2020-12-18",
+        "priceEur": 37000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "97c3a954f0a4": {
+    "id": "97c3a954f0a4",
+    "label": "25 AV DES DEUX FONTAINES, Cazedarnes",
+    "lat": 43.422614,
+    "lng": 3.0243,
+    "transactions": [
+      {
+        "date": "2021-03-16",
+        "priceEur": 82500,
+        "typeLocal": "Maison",
+        "surfaceM2": 55,
+        "isVefa": false
+      }
+    ]
+  },
+  "e88563fff500": {
+    "id": "e88563fff500",
+    "label": "2 RUE DE LA TREILLE, Cazedarnes",
+    "lat": 43.425221,
+    "lng": 3.029547,
+    "transactions": [
+      {
+        "date": "2021-06-09",
+        "priceEur": 228000,
+        "typeLocal": "Maison",
+        "surfaceM2": 90,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1e193b3c121": {
+    "id": "b1e193b3c121",
+    "label": "1 CHE DU PECH, Cazedarnes",
+    "lat": 43.427256,
+    "lng": 3.03049,
+    "transactions": [
+      {
+        "date": "2021-06-25",
+        "priceEur": 350000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      },
+      {
+        "date": "2021-06-25",
+        "priceEur": 350000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      }
+    ]
+  },
+  "83031cfd8066": {
+    "id": "83031cfd8066",
+    "label": "12 RUE DE LA TIPLE, Cazedarnes",
+    "lat": 43.423203,
+    "lng": 3.024015,
+    "transactions": [
+      {
+        "date": "2021-08-30",
+        "priceEur": 57000,
+        "typeLocal": "Maison",
+        "surfaceM2": 57,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8010dd25d11": {
+    "id": "e8010dd25d11",
+    "label": "69 AV DES DEUX FONTAINES, Cazedarnes",
+    "lat": 43.424076,
+    "lng": 3.027955,
+    "transactions": [
+      {
+        "date": "2021-10-07",
+        "priceEur": 265000,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "6767815e2195": {
+    "id": "6767815e2195",
+    "label": "1 AV DES DEUX FONTAINES, Cazedarnes",
+    "lat": 43.422254,
+    "lng": 3.022719,
+    "transactions": [
+      {
+        "date": "2021-10-07",
+        "priceEur": 120000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed891d2463f3": {
+    "id": "ed891d2463f3",
+    "label": "84 AV DES DEUX FONTAINES, Cazedarnes",
+    "lat": 43.425587,
+    "lng": 3.029567,
+    "transactions": [
+      {
+        "date": "2021-11-26",
+        "priceEur": 116620,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "59138219e992": {
+    "id": "59138219e992",
+    "label": "6B RUE DES MELIAS, Cazedarnes",
+    "lat": 43.423405,
+    "lng": 3.028518,
+    "transactions": [
+      {
+        "date": "2022-02-18",
+        "priceEur": 194100,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "7766e8bfcbe5": {
+    "id": "7766e8bfcbe5",
+    "label": "6 RUE DE LA TREILLE, Cazedarnes",
+    "lat": 43.426055,
+    "lng": 3.030566,
+    "transactions": [
+      {
+        "date": "2022-04-08",
+        "priceEur": 305000,
+        "typeLocal": "Maison",
+        "surfaceM2": 136,
+        "isVefa": false
+      }
+    ]
+  },
+  "d9f476d2cb1e": {
+    "id": "d9f476d2cb1e",
+    "label": "7 PL ST ROCH, Cazedarnes",
+    "lat": 43.423068,
+    "lng": 3.024239,
+    "transactions": [
+      {
+        "date": "2022-07-05",
+        "priceEur": 128100,
+        "typeLocal": "Maison",
+        "surfaceM2": 58,
+        "isVefa": false
+      }
+    ]
+  },
+  "651a43d48879": {
+    "id": "651a43d48879",
+    "label": "8 AV DES DEUX FONTAINES, Cazedarnes",
+    "lat": 43.422157,
+    "lng": 3.023039,
+    "transactions": [
+      {
+        "date": "2022-06-29",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 75,
+        "isVefa": false
+      }
+    ]
+  },
+  "494cd0dcd829": {
+    "id": "494cd0dcd829",
+    "label": "6 RUE DE LA TIPLE, Cazedarnes",
+    "lat": 43.42309,
+    "lng": 3.024092,
+    "transactions": [
+      {
+        "date": "2022-09-15",
+        "priceEur": 107140,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "d760c4aa7cd3": {
+    "id": "d760c4aa7cd3",
+    "label": "8 RUE DU LAURIER, Cazedarnes",
+    "lat": 43.422931,
+    "lng": 3.023888,
+    "transactions": [
+      {
+        "date": "2022-10-26",
+        "priceEur": 121000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "f8e54c7845dd": {
+    "id": "f8e54c7845dd",
+    "label": "14 RUE DE LA TREILLE, Cazedarnes",
+    "lat": 43.426696,
+    "lng": 3.031412,
+    "transactions": [
+      {
+        "date": "2022-10-20",
+        "priceEur": 41000,
+        "typeLocal": "Maison",
+        "surfaceM2": 61,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f20a4778d79": {
+    "id": "1f20a4778d79",
+    "label": "99 AV DES DEUX FONTAINES, Cazedarnes",
+    "lat": 43.426408,
+    "lng": 3.030101,
+    "transactions": [
+      {
+        "date": "2023-01-06",
+        "priceEur": 90000,
+        "typeLocal": "Maison",
+        "surfaceM2": 44,
+        "isVefa": false
+      }
+    ]
+  },
+  "897502bdfb42": {
+    "id": "897502bdfb42",
+    "label": "87 AV DES DEUX FONTAINES, Cazedarnes",
+    "lat": 43.425734,
+    "lng": 3.029353,
+    "transactions": [
+      {
+        "date": "2023-01-30",
+        "priceEur": 385000,
+        "typeLocal": "Maison",
+        "surfaceM2": 174,
+        "isVefa": false
+      }
+    ]
+  },
+  "8f9a90629e73": {
+    "id": "8f9a90629e73",
+    "label": "13 RUE DE LA TIPLE, Cazedarnes",
+    "lat": 43.423096,
+    "lng": 3.023899,
+    "transactions": [
+      {
+        "date": "2023-04-14",
+        "priceEur": 74000,
+        "typeLocal": "Maison",
+        "surfaceM2": 46,
+        "isVefa": false
+      }
+    ]
+  },
+  "bf77b3233449": {
+    "id": "bf77b3233449",
+    "label": "3 RUE DU FRENE, Cazedarnes",
+    "lat": 43.422828,
+    "lng": 3.023413,
+    "transactions": [
+      {
+        "date": "2023-04-20",
+        "priceEur": 161860,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "f9e40824fbce": {
+    "id": "f9e40824fbce",
+    "label": "14B RUE DES MELIAS, Cazedarnes",
+    "lat": 43.422994,
+    "lng": 3.028705,
+    "transactions": [
+      {
+        "date": "2023-06-23",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 65,
+        "isVefa": false
+      }
+    ]
+  },
+  "d19d7e46f6d1": {
+    "id": "d19d7e46f6d1",
+    "label": "14 LOT LES JARDINS D'ANTOINE, Cazedarnes",
+    "lat": 43.423774,
+    "lng": 3.029372,
+    "transactions": [
+      {
+        "date": "2023-06-28",
+        "priceEur": 265600,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d20d40ce474": {
+    "id": "4d20d40ce474",
+    "label": "10 AV DES DEUX FONTAINES, Cazedarnes",
+    "lat": 43.422198,
+    "lng": 3.023136,
+    "transactions": [
+      {
+        "date": "2023-08-31",
+        "priceEur": 65000,
+        "typeLocal": "Maison",
+        "surfaceM2": 78,
+        "isVefa": false
+      }
+    ]
+  },
+  "57ad894ddc69": {
+    "id": "57ad894ddc69",
+    "label": "5B RUE DES MELIAS, Cazedarnes",
+    "lat": 43.42373,
+    "lng": 3.028812,
+    "transactions": [
+      {
+        "date": "2023-08-31",
+        "priceEur": 200460,
+        "typeLocal": "Maison",
+        "surfaceM2": 74,
+        "isVefa": false
+      }
+    ]
+  },
+  "c789e3552c40": {
+    "id": "c789e3552c40",
+    "label": "18 RUE DE LA TIPLE, Cazedarnes",
+    "lat": 43.423349,
+    "lng": 3.023852,
+    "transactions": [
+      {
+        "date": "2023-09-12",
+        "priceEur": 110000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "efd1d59e1cca": {
+    "id": "efd1d59e1cca",
+    "label": "12B RUE DE LA TIPLE, Cazedarnes",
+    "lat": 43.423239,
+    "lng": 3.023971,
+    "transactions": [
+      {
+        "date": "2023-09-29",
+        "priceEur": 54000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "e33d04d1e96a": {
+    "id": "e33d04d1e96a",
+    "label": "4 LOUS CHAPPAUS, Cazedarnes",
+    "lat": 43.424898,
+    "lng": 3.027993,
+    "transactions": [
+      {
+        "date": "2024-01-02",
+        "priceEur": 155000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "2385fa25e6c3": {
+    "id": "2385fa25e6c3",
+    "label": "24 CHE DES PRES, Cazedarnes",
+    "lat": 43.424803,
+    "lng": 3.030991,
+    "transactions": [
+      {
+        "date": "2024-04-05",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  },
+  "beed963b76bc": {
+    "id": "beed963b76bc",
+    "label": "18 RUE DES MELIAS, Cazedarnes",
+    "lat": 43.422746,
+    "lng": 3.02837,
+    "transactions": [
+      {
+        "date": "2024-06-21",
+        "priceEur": 321100,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "a299770c8f7e": {
+    "id": "a299770c8f7e",
+    "label": "7 RUE CLAR DE LUNO, Cazedarnes",
+    "lat": 43.422851,
+    "lng": 3.024183,
+    "transactions": [
+      {
+        "date": "2024-07-08",
+        "priceEur": 92000,
+        "typeLocal": "Maison",
+        "surfaceM2": 147,
+        "isVefa": false
+      }
+    ]
+  },
+  "34515d17532a": {
+    "id": "34515d17532a",
+    "label": "4 RUE DU FRENE, Cazedarnes",
+    "lat": 43.42284,
+    "lng": 3.02371,
+    "transactions": [
+      {
+        "date": "2024-08-08",
+        "priceEur": 140000,
+        "typeLocal": "Maison",
+        "surfaceM2": 69,
+        "isVefa": false
+      }
+    ]
+  },
+  "0ddb37872587": {
+    "id": "0ddb37872587",
+    "label": "7 RUE DES ARBOUSIERS, Cazedarnes",
+    "lat": 43.425287,
+    "lng": 3.031423,
+    "transactions": [
+      {
+        "date": "2024-10-25",
+        "priceEur": 297750,
+        "typeLocal": "Maison",
+        "surfaceM2": 149,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1995f604aed": {
+    "id": "b1995f604aed",
+    "label": "14 AV DES DEUX FONTAINES, Cazedarnes",
+    "lat": 43.422258,
+    "lng": 3.023326,
+    "transactions": [
+      {
+        "date": "2024-12-10",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 80,
+        "isVefa": false
+      }
+    ]
+  },
+  "673551d5705f": {
+    "id": "673551d5705f",
+    "label": "28 AV DES DEUX FONTAINES, Cazedarnes",
+    "lat": 43.422426,
+    "lng": 3.024042,
+    "transactions": [
+      {
+        "date": "2024-12-13",
+        "priceEur": 215000,
+        "typeLocal": "Maison",
+        "surfaceM2": 170,
+        "isVefa": false
+      }
+    ]
+  },
+  "b0ba76b64736": {
+    "id": "b0ba76b64736",
+    "label": "5545F CAMP D EN FRANCES, Cazedarnes",
+    "lat": 43.425405,
+    "lng": 3.031014,
+    "transactions": [
+      {
+        "date": "2025-02-12",
+        "priceEur": 284275,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "99c65e5aa377": {
+    "id": "99c65e5aa377",
+    "label": "4 IMP DES MAGNOLIAS, Cazedarnes",
+    "lat": 43.423074,
+    "lng": 3.029834,
+    "transactions": [
+      {
+        "date": "2025-03-24",
+        "priceEur": 431800,
+        "typeLocal": "Maison",
+        "surfaceM2": 135,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed17b91b1485": {
+    "id": "ed17b91b1485",
+    "label": "13 RUE DES ARBOUSIERS, Cazedarnes",
+    "lat": 43.425013,
+    "lng": 3.03093,
+    "transactions": [
+      {
+        "date": "2025-05-27",
+        "priceEur": 316414,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  }
+}

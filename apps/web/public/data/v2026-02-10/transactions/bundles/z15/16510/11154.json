@@ -1,0 +1,54 @@
+{
+  "c036445e8c58": {
+    "id": "c036445e8c58",
+    "label": "5023 LE BOURG, Esclavelles",
+    "lat": 49.706415,
+    "lng": 1.390637,
+    "transactions": [
+      {
+        "date": "2020-11-18",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 134,
+        "isVefa": false
+      }
+    ]
+  },
+  "5fa05a158ec1": {
+    "id": "5fa05a158ec1",
+    "label": "18 RUE DU CENTRE, Esclavelles",
+    "lat": 49.70515,
+    "lng": 1.391294,
+    "transactions": [
+      {
+        "date": "2021-04-20",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  },
+  "d1ea20840bd3": {
+    "id": "d1ea20840bd3",
+    "label": "18A RUE DU CENTRE, Esclavelles",
+    "lat": 49.70515,
+    "lng": 1.391294,
+    "transactions": [
+      {
+        "date": "2024-07-31",
+        "priceEur": 207800,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      },
+      {
+        "date": "2024-04-03",
+        "priceEur": 237000,
+        "typeLocal": "Maison",
+        "surfaceM2": 133,
+        "isVefa": false
+      }
+    ]
+  }
+}

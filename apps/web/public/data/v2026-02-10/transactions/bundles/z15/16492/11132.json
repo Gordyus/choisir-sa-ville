@@ -1,0 +1,159 @@
+{
+  "e251432c2a48": {
+    "id": "e251432c2a48",
+    "label": "5100 LE VILLAGE, Saint-Aubin-le-Cauf",
+    "lat": 49.865472,
+    "lng": 1.187876,
+    "transactions": [
+      {
+        "date": "2020-07-27",
+        "priceEur": 124000,
+        "typeLocal": "Maison",
+        "surfaceM2": 105,
+        "isVefa": false
+      }
+    ]
+  },
+  "38ddc78ec936": {
+    "id": "38ddc78ec936",
+    "label": "438 RUE LAMAZIERE, Saint-Aubin-le-Cauf",
+    "lat": 49.863836,
+    "lng": 1.191286,
+    "transactions": [
+      {
+        "date": "2020-12-12",
+        "priceEur": 251180,
+        "typeLocal": "Maison",
+        "surfaceM2": 229,
+        "isVefa": false
+      }
+    ]
+  },
+  "7e1a0d16529c": {
+    "id": "7e1a0d16529c",
+    "label": "133 RUE DES THUYAS, Dampierre-Saint-Nicolas",
+    "lat": 49.862847,
+    "lng": 1.197274,
+    "transactions": [
+      {
+        "date": "2021-09-03",
+        "priceEur": 157000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "e8fac7a971a9": {
+    "id": "e8fac7a971a9",
+    "label": "5022C PLAINE DE L EGLISE, Dampierre-Saint-Nicolas",
+    "lat": 49.862723,
+    "lng": 1.196816,
+    "transactions": [
+      {
+        "date": "2022-12-08",
+        "priceEur": 170000,
+        "typeLocal": "Maison",
+        "surfaceM2": 99,
+        "isVefa": false
+      }
+    ]
+  },
+  "26168fa2f82f": {
+    "id": "26168fa2f82f",
+    "label": "5012 PLAINE DE L EGLISE, Dampierre-Saint-Nicolas",
+    "lat": 49.862328,
+    "lng": 1.195682,
+    "transactions": [
+      {
+        "date": "2023-01-06",
+        "priceEur": 247950,
+        "typeLocal": "Maison",
+        "surfaceM2": 141,
+        "isVefa": false
+      }
+    ]
+  },
+  "d0e4286a1ac7": {
+    "id": "d0e4286a1ac7",
+    "label": "568 RUE LAMAZIERE, Saint-Aubin-le-Cauf",
+    "lat": 49.863783,
+    "lng": 1.192138,
+    "transactions": [
+      {
+        "date": "2023-07-11",
+        "priceEur": 190000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "73fd6a891def": {
+    "id": "73fd6a891def",
+    "label": "113 RUE DU BIFFRET, Saint-Aubin-le-Cauf",
+    "lat": 49.864238,
+    "lng": 1.188988,
+    "transactions": [
+      {
+        "date": "2023-07-27",
+        "priceEur": 230000,
+        "typeLocal": "Maison",
+        "surfaceM2": 91,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2a31aae86df": {
+    "id": "c2a31aae86df",
+    "label": "234 RUE DU BIFFRET, Saint-Aubin-le-Cauf",
+    "lat": 49.863804,
+    "lng": 1.18787,
+    "transactions": [
+      {
+        "date": "2024-07-19",
+        "priceEur": 126000,
+        "typeLocal": "Maison",
+        "surfaceM2": 54,
+        "isVefa": false
+      }
+    ]
+  },
+  "88f4bc73952f": {
+    "id": "88f4bc73952f",
+    "label": "132 RUE LAMAZIERE, Saint-Aubin-le-Cauf",
+    "lat": 49.865914,
+    "lng": 1.187636,
+    "transactions": [
+      {
+        "date": "2024-11-27",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 55,
+        "isVefa": false
+      },
+      {
+        "date": "2024-11-27",
+        "priceEur": 120000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 72,
+        "isVefa": false
+      }
+    ]
+  },
+  "5b7e5d3845ef": {
+    "id": "5b7e5d3845ef",
+    "label": "255 RTE DE DIEPPE, Dampierre-Saint-Nicolas",
+    "lat": 49.862053,
+    "lng": 1.194811,
+    "transactions": [
+      {
+        "date": "2025-01-27",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

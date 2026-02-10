@@ -1,0 +1,32 @@
+{
+  "fe2071c93aaa": {
+    "id": "fe2071c93aaa",
+    "label": "300 CHEM COL DU GOULET, Les Plans",
+    "lat": 43.755765,
+    "lng": 3.258328,
+    "transactions": [
+      {
+        "date": "2021-07-01",
+        "priceEur": 108000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "b5aee1b8f2d7": {
+    "id": "b5aee1b8f2d7",
+    "label": "5740F SOULAGES, Les Plans",
+    "lat": 43.756181,
+    "lng": 3.25927,
+    "transactions": [
+      {
+        "date": "2022-05-10",
+        "priceEur": 60000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  }
+}

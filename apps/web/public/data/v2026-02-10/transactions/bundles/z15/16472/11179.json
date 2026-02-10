@@ -1,0 +1,47 @@
+{
+  "bfec37461e84": {
+    "id": "bfec37461e84",
+    "label": "453 BD DE L'EUROPE, Barentin",
+    "lat": 49.527698,
+    "lng": 0.967023,
+    "transactions": [
+      {
+        "date": "2020-07-29",
+        "priceEur": 212000,
+        "typeLocal": "Maison",
+        "surfaceM2": 84,
+        "isVefa": false
+      }
+    ]
+  },
+  "186ae89cec85": {
+    "id": "186ae89cec85",
+    "label": "1247 RTE DE MALZAIZE, Pissy-Pôville",
+    "lat": 49.530127,
+    "lng": 0.976826,
+    "transactions": [
+      {
+        "date": "2021-04-30",
+        "priceEur": 185000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "9d1db87af9bb": {
+    "id": "9d1db87af9bb",
+    "label": "5023 MALZAIZE, Roumare",
+    "lat": 49.529944,
+    "lng": 0.971975,
+    "transactions": [
+      {
+        "date": "2024-01-22",
+        "priceEur": 200000,
+        "typeLocal": "Maison",
+        "surfaceM2": 95,
+        "isVefa": false
+      }
+    ]
+  }
+}

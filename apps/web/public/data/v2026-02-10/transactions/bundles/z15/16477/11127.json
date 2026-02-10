@@ -1,0 +1,128 @@
+{
+  "f668469b19b0": {
+    "id": "f668469b19b0",
+    "label": "30 CHE DE LA MARE AUX SANGSUES, Hautot-sur-Mer",
+    "lat": 49.901541,
+    "lng": 1.022939,
+    "transactions": [
+      {
+        "date": "2023-04-14",
+        "priceEur": 183500,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      },
+      {
+        "date": "2020-09-26",
+        "priceEur": 122000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "5c52dbe9547d": {
+    "id": "5c52dbe9547d",
+    "label": "131 RUE GRIMALDI, Hautot-sur-Mer",
+    "lat": 49.898134,
+    "lng": 1.029137,
+    "transactions": [
+      {
+        "date": "2020-10-26",
+        "priceEur": 280000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 60,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-26",
+        "priceEur": 280000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2020-10-26",
+        "priceEur": 280000,
+        "typeLocal": "Appartement",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "d7c78c59df9d": {
+    "id": "d7c78c59df9d",
+    "label": "140 RUE GRIMALDI, Hautot-sur-Mer",
+    "lat": 49.898302,
+    "lng": 1.029523,
+    "transactions": [
+      {
+        "date": "2022-02-08",
+        "priceEur": 126000,
+        "typeLocal": "Maison",
+        "surfaceM2": 111,
+        "isVefa": false
+      }
+    ]
+  },
+  "c6b1d4620982": {
+    "id": "c6b1d4620982",
+    "label": "273 RUE DE BERNOUVILLE, Hautot-sur-Mer",
+    "lat": 49.899685,
+    "lng": 1.032582,
+    "transactions": [
+      {
+        "date": "2022-03-07",
+        "priceEur": 595970,
+        "typeLocal": "Maison",
+        "surfaceM2": 166,
+        "isVefa": false
+      }
+    ]
+  },
+  "ed337d00ba60": {
+    "id": "ed337d00ba60",
+    "label": "5 CHE DES PETITES BRUYERES, Hautot-sur-Mer",
+    "lat": 49.897599,
+    "lng": 1.030258,
+    "transactions": [
+      {
+        "date": "2023-07-07",
+        "priceEur": 167500,
+        "typeLocal": "Maison",
+        "surfaceM2": 52,
+        "isVefa": false
+      }
+    ]
+  },
+  "339f608d80fd": {
+    "id": "339f608d80fd",
+    "label": "70 CHE DE LA MARE AUX SANGSUES, Hautot-sur-Mer",
+    "lat": 49.901362,
+    "lng": 1.021938,
+    "transactions": [
+      {
+        "date": "2023-09-28",
+        "priceEur": 300000,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  },
+  "cfc8866ffa6f": {
+    "id": "cfc8866ffa6f",
+    "label": "2 RUE GRIMALDI, Hautot-sur-Mer",
+    "lat": 49.897617,
+    "lng": 1.031287,
+    "transactions": [
+      {
+        "date": "2024-01-31",
+        "priceEur": 505000,
+        "typeLocal": "Maison",
+        "surfaceM2": 152,
+        "isVefa": false
+      }
+    ]
+  }
+}

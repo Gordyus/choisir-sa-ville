@@ -1,0 +1,32 @@
+{
+  "4d5e395fb0b6": {
+    "id": "4d5e395fb0b6",
+    "label": "28 RUE DU CHALET, Capestang",
+    "lat": 43.32698,
+    "lng": 3.054282,
+    "transactions": [
+      {
+        "date": "2023-06-14",
+        "priceEur": 255000,
+        "typeLocal": "Maison",
+        "surfaceM2": 100,
+        "isVefa": false
+      }
+    ]
+  },
+  "b1db917cec47": {
+    "id": "b1db917cec47",
+    "label": "5 CHE SAINT PIERRE, Capestang",
+    "lat": 43.327518,
+    "lng": 3.054784,
+    "transactions": [
+      {
+        "date": "2023-08-21",
+        "priceEur": 435000,
+        "typeLocal": "Maison",
+        "surfaceM2": 129,
+        "isVefa": false
+      }
+    ]
+  }
+}

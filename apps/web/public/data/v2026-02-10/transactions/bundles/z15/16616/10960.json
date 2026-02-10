@@ -1,0 +1,32 @@
+{
+  "d6b5b74c307b": {
+    "id": "d6b5b74c307b",
+    "label": "648 RTE DE FURNES, Ghyvelde",
+    "lat": 51.063225,
+    "lng": 2.555151,
+    "transactions": [
+      {
+        "date": "2022-11-18",
+        "priceEur": 520000,
+        "typeLocal": "Maison",
+        "surfaceM2": 49,
+        "isVefa": false
+      }
+    ]
+  },
+  "321d1c285090": {
+    "id": "321d1c285090",
+    "label": "640 RTE DE FURNES, Ghyvelde",
+    "lat": 51.063936,
+    "lng": 2.553986,
+    "transactions": [
+      {
+        "date": "2022-11-18",
+        "priceEur": 520000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  }
+}

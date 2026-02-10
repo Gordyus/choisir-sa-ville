@@ -1,0 +1,107 @@
+{
+  "078f31e79b8a": {
+    "id": "078f31e79b8a",
+    "label": "510 RTE DE SAINT JEAN, Saint-André-sur-Cailly",
+    "lat": 49.550181,
+    "lng": 1.227902,
+    "transactions": [
+      {
+        "date": "2020-11-06",
+        "priceEur": 289150,
+        "typeLocal": "Maison",
+        "surfaceM2": 229,
+        "isVefa": false
+      }
+    ]
+  },
+  "28833db627e3": {
+    "id": "28833db627e3",
+    "label": "9003 RTE DE PIERREVAL, Saint-André-sur-Cailly",
+    "lat": 49.547695,
+    "lng": 1.225696,
+    "transactions": [
+      {
+        "date": "2020-10-30",
+        "priceEur": 288000,
+        "typeLocal": "Maison",
+        "surfaceM2": 127,
+        "isVefa": false
+      }
+    ]
+  },
+  "4c4604d1438c": {
+    "id": "4c4604d1438c",
+    "label": "7000 HAMEAU DE L EGLISE, Saint-André-sur-Cailly",
+    "lat": 49.547381,
+    "lng": 1.222046,
+    "transactions": [
+      {
+        "date": "2021-12-16",
+        "priceEur": 144000,
+        "typeLocal": "Maison",
+        "surfaceM2": 68,
+        "isVefa": false
+      }
+    ]
+  },
+  "cf55a9f67318": {
+    "id": "cf55a9f67318",
+    "label": "656 RTE DE SAINT JEAN, Saint-André-sur-Cailly",
+    "lat": 49.550917,
+    "lng": 1.229195,
+    "transactions": [
+      {
+        "date": "2021-02-22",
+        "priceEur": 261500,
+        "typeLocal": "Maison",
+        "surfaceM2": 116,
+        "isVefa": false
+      }
+    ]
+  },
+  "ad4cc646298e": {
+    "id": "ad4cc646298e",
+    "label": "505 RTE DE SAINT JEAN, Saint-André-sur-Cailly",
+    "lat": 49.55075,
+    "lng": 1.227273,
+    "transactions": [
+      {
+        "date": "2022-05-16",
+        "priceEur": 210000,
+        "typeLocal": "Maison",
+        "surfaceM2": 88,
+        "isVefa": false
+      }
+    ]
+  },
+  "38e4f862c77b": {
+    "id": "38e4f862c77b",
+    "label": "65 RTE DE SAINT JEAN, Saint-André-sur-Cailly",
+    "lat": 49.548172,
+    "lng": 1.222678,
+    "transactions": [
+      {
+        "date": "2022-07-07",
+        "priceEur": 342000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  },
+  "c2fd24ebba5f": {
+    "id": "c2fd24ebba5f",
+    "label": "310 RTE DE SAINT JEAN, Saint-André-sur-Cailly",
+    "lat": 49.549202,
+    "lng": 1.225314,
+    "transactions": [
+      {
+        "date": "2022-08-01",
+        "priceEur": 216500,
+        "typeLocal": "Maison",
+        "surfaceM2": 93,
+        "isVefa": false
+      }
+    ]
+  }
+}

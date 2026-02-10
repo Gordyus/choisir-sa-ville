@@ -1,0 +1,32 @@
+{
+  "e425c1cdbfc1": {
+    "id": "e425c1cdbfc1",
+    "label": "5234 LA CHAPELLE, Bouville",
+    "lat": 49.567458,
+    "lng": 0.90224,
+    "transactions": [
+      {
+        "date": "2020-11-03",
+        "priceEur": 227000,
+        "typeLocal": "Maison",
+        "surfaceM2": 85,
+        "isVefa": false
+      }
+    ]
+  },
+  "34be116a8c7f": {
+    "id": "34be116a8c7f",
+    "label": "518 RUE DES TROIS CORNETS, Bouville",
+    "lat": 49.567913,
+    "lng": 0.902737,
+    "transactions": [
+      {
+        "date": "2024-07-03",
+        "priceEur": 294500,
+        "typeLocal": "Maison",
+        "surfaceM2": 140,
+        "isVefa": false
+      }
+    ]
+  }
+}

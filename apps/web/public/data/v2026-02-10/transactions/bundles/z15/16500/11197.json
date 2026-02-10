@@ -1,0 +1,47 @@
+{
+  "b89cc35c8a97": {
+    "id": "b89cc35c8a97",
+    "label": "19 RUE DU TILLEUL, Mesnil-Raoul",
+    "lat": 49.398505,
+    "lng": 1.274645,
+    "transactions": [
+      {
+        "date": "2021-09-17",
+        "priceEur": 237000,
+        "typeLocal": "Maison",
+        "surfaceM2": 98,
+        "isVefa": false
+      }
+    ]
+  },
+  "1f6e3fa6b81f": {
+    "id": "1f6e3fa6b81f",
+    "label": "43 RUE DU TILLEUL, Mesnil-Raoul",
+    "lat": 49.398715,
+    "lng": 1.27469,
+    "transactions": [
+      {
+        "date": "2023-11-02",
+        "priceEur": 195000,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  },
+  "6e583ab278b4": {
+    "id": "6e583ab278b4",
+    "label": "88 LE CHEMIN ARQUOIS, Mesnil-Raoul",
+    "lat": 49.397493,
+    "lng": 1.276048,
+    "transactions": [
+      {
+        "date": "2025-04-15",
+        "priceEur": 250000,
+        "typeLocal": "Maison",
+        "surfaceM2": 86,
+        "isVefa": false
+      }
+    ]
+  }
+}

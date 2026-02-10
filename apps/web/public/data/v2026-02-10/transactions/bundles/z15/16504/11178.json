@@ -1,0 +1,32 @@
+{
+  "5c6a74e3dabc": {
+    "id": "5c6a74e3dabc",
+    "label": "5044 LA CAMPAGNE, Saint-Germain-des-Essourts",
+    "lat": 49.532658,
+    "lng": 1.327958,
+    "transactions": [
+      {
+        "date": "2021-09-30",
+        "priceEur": 115000,
+        "typeLocal": "Maison",
+        "surfaceM2": 70,
+        "isVefa": false
+      }
+    ]
+  },
+  "8601799ec9e0": {
+    "id": "8601799ec9e0",
+    "label": "193 LA CAMPAGNE, Saint-Germain-des-Essourts",
+    "lat": 49.532642,
+    "lng": 1.329318,
+    "transactions": [
+      {
+        "date": "2022-07-22",
+        "priceEur": 214500,
+        "typeLocal": "Maison",
+        "surfaceM2": 120,
+        "isVefa": false
+      }
+    ]
+  }
+}

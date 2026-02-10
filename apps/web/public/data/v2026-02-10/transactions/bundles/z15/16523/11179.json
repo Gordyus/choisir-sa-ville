@@ -1,0 +1,32 @@
+{
+  "53cac5e5494b": {
+    "id": "53cac5e5494b",
+    "label": "5036 LE HAUT DE FRY, Fry",
+    "lat": 49.526612,
+    "lng": 1.532916,
+    "transactions": [
+      {
+        "date": "2020-11-28",
+        "priceEur": 80000,
+        "typeLocal": "Maison",
+        "surfaceM2": 50,
+        "isVefa": false
+      }
+    ]
+  },
+  "0fa0c5a607ee": {
+    "id": "0fa0c5a607ee",
+    "label": "5017 FRY, Fry",
+    "lat": 49.530735,
+    "lng": 1.528891,
+    "transactions": [
+      {
+        "date": "2023-02-24",
+        "priceEur": 209500,
+        "typeLocal": "Maison",
+        "surfaceM2": 104,
+        "isVefa": false
+      }
+    ]
+  }
+}

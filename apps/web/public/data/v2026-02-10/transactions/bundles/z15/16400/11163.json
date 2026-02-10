@@ -1,0 +1,32 @@
+{
+  "2a3257e15fe1": {
+    "id": "2a3257e15fe1",
+    "label": "10 RTE DES PINS, Saint-Jouin-Bruneval",
+    "lat": 49.642827,
+    "lng": 0.183041,
+    "transactions": [
+      {
+        "date": "2024-01-05",
+        "priceEur": 330850,
+        "typeLocal": "Maison",
+        "surfaceM2": 138,
+        "isVefa": false
+      }
+    ]
+  },
+  "9cd4ea8aa1de": {
+    "id": "9cd4ea8aa1de",
+    "label": "5804 BEAUMESNIL, Saint-Jouin-Bruneval",
+    "lat": 49.642737,
+    "lng": 0.179318,
+    "transactions": [
+      {
+        "date": "2024-09-20",
+        "priceEur": 223000,
+        "typeLocal": "Maison",
+        "surfaceM2": 110,
+        "isVefa": false
+      }
+    ]
+  }
+}

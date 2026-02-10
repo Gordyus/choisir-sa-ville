@@ -1,0 +1,31 @@
+{
+  "9fd9840ef016": {
+    "id": "9fd9840ef016",
+    "label": "2 IMP DU REBOURS, Haussez",
+    "lat": 49.591665,
+    "lng": 1.688893,
+    "transactions": [
+      {
+        "date": "2021-05-10",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-10",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 30,
+        "isVefa": false
+      },
+      {
+        "date": "2021-05-10",
+        "priceEur": 375000,
+        "typeLocal": "Maison",
+        "surfaceM2": 107,
+        "isVefa": false
+      }
+    ]
+  }
+}

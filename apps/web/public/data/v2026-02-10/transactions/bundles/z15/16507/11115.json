@@ -1,0 +1,32 @@
+{
+  "80b86839dee9": {
+    "id": "80b86839dee9",
+    "label": "5055 LE BOURG L ABBE, Canehan",
+    "lat": 49.986013,
+    "lng": 1.360359,
+    "transactions": [
+      {
+        "date": "2021-01-07",
+        "priceEur": 50000,
+        "typeLocal": "Maison",
+        "surfaceM2": 45,
+        "isVefa": false
+      }
+    ]
+  },
+  "3b90089582e9": {
+    "id": "3b90089582e9",
+    "label": "140 RUE DES POTIERS, Canehan",
+    "lat": 49.984081,
+    "lng": 1.351747,
+    "transactions": [
+      {
+        "date": "2024-03-08",
+        "priceEur": 246000,
+        "typeLocal": "Maison",
+        "surfaceM2": 139,
+        "isVefa": false
+      }
+    ]
+  }
+}

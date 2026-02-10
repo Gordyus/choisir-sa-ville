@@ -1,0 +1,62 @@
+{
+  "ddb5d59a4d45": {
+    "id": "ddb5d59a4d45",
+    "label": "9 RUE DE L ANCIENNE ECOLE, Bosc-Hyons",
+    "lat": 49.449475,
+    "lng": 1.660104,
+    "transactions": [
+      {
+        "date": "2020-11-24",
+        "priceEur": 148500,
+        "typeLocal": "Maison",
+        "surfaceM2": 87,
+        "isVefa": false
+      }
+    ]
+  },
+  "07f68b583761": {
+    "id": "07f68b583761",
+    "label": "12 RUE DU BUS, Bosc-Hyons",
+    "lat": 49.450371,
+    "lng": 1.660521,
+    "transactions": [
+      {
+        "date": "2021-07-29",
+        "priceEur": 220000,
+        "typeLocal": "Maison",
+        "surfaceM2": 137,
+        "isVefa": false
+      }
+    ]
+  },
+  "4d66ce697ecd": {
+    "id": "4d66ce697ecd",
+    "label": "2B RUE DE L EGLISE, Bosc-Hyons",
+    "lat": 49.447232,
+    "lng": 1.658938,
+    "transactions": [
+      {
+        "date": "2023-12-22",
+        "priceEur": 132000,
+        "typeLocal": "Maison",
+        "surfaceM2": 60,
+        "isVefa": false
+      }
+    ]
+  },
+  "121714fe44be": {
+    "id": "121714fe44be",
+    "label": "4 RTE DES ANDELYS, Bosc-Hyons",
+    "lat": 49.447721,
+    "lng": 1.665534,
+    "transactions": [
+      {
+        "date": "2025-05-27",
+        "priceEur": 175000,
+        "typeLocal": "Maison",
+        "surfaceM2": 108,
+        "isVefa": false
+      }
+    ]
+  }
+}
