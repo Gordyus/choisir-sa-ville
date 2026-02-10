@@ -119,6 +119,7 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
                         appConfig.debug.showCollisionBoxes;
                 }
 
+
                 // Add controls
                 map.addControl(new NavigationControl({ visualizePitch: true }), "top-right");
                 map.addControl(new maplibregl.AttributionControl({ compact: true }), "bottom-right");

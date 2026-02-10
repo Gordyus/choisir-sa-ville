@@ -13,18 +13,21 @@
 import type { Map as MapLibreMap } from "maplibre-gl";
 
 import { getTransactionAddressesGeoJsonUrl } from "@/lib/data/transactionBundles";
+import { ENTITY_STATE_COLORS } from "./layers/entityVisualStateColors";
 
 import { LAYER_IDS, SOURCE_IDS, ZOOM_RANGES } from "./registry/layerRegistry";
 
 // ============================================================================
-// Constants
+// Point Size Configuration (easily adjustable)
 // ============================================================================
 
-/** Brand color for transaction points */
-const POINT_COLOR = "#1b4d3e";
-const POINT_COLOR_ACTIVE = "#e07020";
-const POINT_RADIUS_BASE = 4;
-const POINT_RADIUS_ACTIVE = 7;
+/** Base circle radius in pixels (normal state) */
+const POINT_RADIUS = 12;
+/** Circle radius when entity is active (selected) */
+const POINT_RADIUS_ACTIVE = 21;
+/** Circle radius when entity is highlighted (hovered) */
+const POINT_RADIUS_HIGHLIGHT = 16;
+/** Circle opacity */
 const POINT_OPACITY = 0.8;
 
 // ============================================================================
@@ -65,22 +68,37 @@ export async function addTransactionLayer(
                 "case",
                 ["boolean", ["feature-state", "active"], false],
                 POINT_RADIUS_ACTIVE,
-                POINT_RADIUS_BASE
+                ["boolean", ["feature-state", "highlight"], false],
+                POINT_RADIUS_HIGHLIGHT,
+                POINT_RADIUS
             ],
             "circle-color": [
                 "case",
                 ["boolean", ["feature-state", "active"], false],
-                POINT_COLOR_ACTIVE,
-                POINT_COLOR
+                ENTITY_STATE_COLORS.active,
+                ["boolean", ["feature-state", "highlight"], false],
+                ENTITY_STATE_COLORS.highlight,
+                ["boolean", ["feature-state", "hasData"], false],
+                ENTITY_STATE_COLORS.hasData,
+                ENTITY_STATE_COLORS.noData
             ],
             "circle-opacity": POINT_OPACITY,
             "circle-stroke-width": [
                 "case",
+                ["boolean", ["feature-state", "active"], false],
+                3,
                 ["boolean", ["feature-state", "highlight"], false],
-                2,
+                2.5,
                 0.5
             ],
-            "circle-stroke-color": "#ffffff"
+            "circle-stroke-color": [
+                "case",
+                ["boolean", ["feature-state", "active"], false],
+                "#ffffff",
+                ["boolean", ["feature-state", "highlight"], false],
+                "#ffffff",
+                "#ffffff"
+            ]
         }
     });
 

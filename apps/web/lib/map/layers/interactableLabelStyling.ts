@@ -14,11 +14,12 @@
 import type { ExpressionSpecification, LayerSpecification, SymbolLayerSpecification } from "maplibre-gl";
 
 import type { CityLabelStyleConfig } from "@/lib/config/mapTilesConfig";
+import { ENTITY_STATE_COLORS } from "./entityVisualStateColors";
 
 const DEFAULTS = {
-    textColor: "#111827",
-    highlightTextColor: "#2563eb",
-    activeTextColor: "#f59e0b",
+    textColor: ENTITY_STATE_COLORS.hasData,
+    highlightTextColor: ENTITY_STATE_COLORS.highlight,
+    activeTextColor: ENTITY_STATE_COLORS.active,
     textHaloColor: "#ffffff",
     highlightTextHaloColor: "#ffffff",
     activeTextHaloColor: "#ffffff",
@@ -26,7 +27,7 @@ const DEFAULTS = {
     highlightTextHaloWidth: 3.6,
     activeTextHaloWidth: 4.2,
 
-    noDataTextColor: "#797c83",
+    noDataTextColor: ENTITY_STATE_COLORS.noData,
     noDataTextOpacity: 1,
     noDataTextHaloColor: "rgba(255,255,255,0.65)",
     noDataTextHaloWidth: 1.4
