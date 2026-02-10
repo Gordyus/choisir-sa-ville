@@ -130,11 +130,12 @@ async function downloadSources(): Promise<{
     const standardSources = Object.fromEntries(pairs) as unknown as Record<SourceKey, SourceMeta>;
 
     // DVF geo-dvf sources (per-department, per-year)
-    const dvfEntries = buildDvfSourceEntries();
+    const dvfEntries = await buildDvfSourceEntries();
     console.info(`[download] Fetching ${dvfEntries.length} DVF geo-dvf files...`);
     const dvfSources: DvfSourceMeta[] = await Promise.all(
         dvfEntries.map(async ({ year, department, url, cacheTtlMs }) => {
-            const meta = await downloadFile(url, { cacheTtlMs });
+            const destinationPath = path.join(process.cwd(), "dvf-source", String(year), "departements", `${department}.csv.gz`);
+            const meta = await downloadFile(url, { cacheTtlMs, destinationPath });
             const cached = meta.fromCache ? " (cached)" : "";
             console.info(`  ✓ DVF ${year} dept ${department}${cached}`);
             return { ...meta, year, department };

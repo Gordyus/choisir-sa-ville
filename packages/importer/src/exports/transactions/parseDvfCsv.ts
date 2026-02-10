@@ -9,12 +9,7 @@ import type { DvfRawRow } from "./types.js";
 const VALID_TYPE_LOCAL = new Set(["Maison", "Appartement"]);
 const VALID_NATURE_MUTATION = new Set(["Vente", "Vente en l'état futur d'achèvement"]);
 
-/** Departments to include in the MVP. */
-const MVP_DEPARTMENTS = new Set(["34"]);
-
 type ParseDvfOptions = {
-    /** If provided, only include these departments. If undefined, include all. */
-    departments?: Set<string>;
     /** Called for each valid row after filtering. */
     onRow: (row: DvfRawRow) => void;
     /** Called periodically with the number of rows processed so far. */
@@ -23,10 +18,9 @@ type ParseDvfOptions = {
 
 /**
  * Streams and parses the DVF géolocalisé CSV file (gzipped).
- * Filters in-flight: department, type_local, nature_mutation, streetNumber, valid coords.
+ * Filters in-flight: type_local, nature_mutation, streetNumber, valid coords.
  */
 export async function parseDvfCsvStreaming(filePath: string, options: ParseDvfOptions): Promise<{ processed: number; accepted: number }> {
-    const departments = options.departments ?? MVP_DEPARTMENTS;
     let processed = 0;
     let accepted = 0;
     const isGzipped = await isGzipFile(filePath);
@@ -52,7 +46,7 @@ export async function parseDvfCsvStreaming(filePath: string, options: ParseDvfOp
                 options.onProgress?.(processed, accepted);
             }
 
-            const row = extractDvfRow(record, departments);
+            const row = extractDvfRow(record);
             if (row) {
                 accepted++;
                 options.onRow(row);
@@ -83,10 +77,7 @@ async function isGzipFile(filePath: string): Promise<boolean> {
     }
 }
 
-function extractDvfRow(record: Record<string, string>, departments: Set<string>): DvfRawRow | null {
-    const codeDepartement = (record["code_departement"] ?? "").trim();
-    if (departments.size > 0 && !departments.has(codeDepartement)) return null;
-
+function extractDvfRow(record: Record<string, string>): DvfRawRow | null {
     const typeLocal = (record["type_local"] ?? "").trim();
     if (!VALID_TYPE_LOCAL.has(typeLocal)) return null;
 

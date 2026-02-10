@@ -22,8 +22,11 @@ const DVF_FIRST_YEAR = 2020;
 const CACHE_TTL_COMPLETED_MS = 180 * 24 * 60 * 60 * 1000; // 180 days
 const CACHE_TTL_CURRENT_MS = 7 * 24 * 60 * 60 * 1000; // 7 days
 
-/** Departments to import. MVP: Hérault only. */
-export const DVF_DEPARTMENTS = ["34"] as const;
+/**
+ * Departments to import.
+ * If empty, importer fetches all available departments for each year from geo-dvf.
+ */
+export const DVF_DEPARTMENTS: readonly string[] = ["34", "59", "75", "76"];
 
 export type DvfSourceEntry = {
     year: number;
@@ -36,20 +39,25 @@ export type DvfSourceEntry = {
  * Builds the list of DVF source files to download.
  * One entry per (year, department) pair.
  */
-export function buildDvfSourceEntries(options?: {
+export async function buildDvfSourceEntries(options?: {
     departments?: readonly string[];
     firstYear?: number;
     lastYear?: number;
-}): DvfSourceEntry[] {
-    const departments = options?.departments ?? DVF_DEPARTMENTS;
+}): Promise<DvfSourceEntry[]> {
+    const configuredDepartments = normalizeDepartmentCodes(options?.departments ?? DVF_DEPARTMENTS);
     const currentYear = new Date().getFullYear();
     const firstYear = options?.firstYear ?? DVF_FIRST_YEAR;
     // geo-dvf data for the current year is typically not yet published
     const lastYear = options?.lastYear ?? currentYear - 1;
 
     const sources: DvfSourceEntry[] = [];
+    const allDepartmentsByYear = new Map<number, string[]>();
 
     for (let year = firstYear; year <= lastYear; year++) {
+        const departments = configuredDepartments.length > 0
+            ? configuredDepartments
+            : await getAllAvailableDepartmentsForYear(year, allDepartmentsByYear);
+
         for (const dept of departments) {
             sources.push({
                 year,
@@ -61,4 +69,42 @@ export function buildDvfSourceEntries(options?: {
     }
 
     return sources;
+}
+
+function normalizeDepartmentCodes(departments: readonly string[]): string[] {
+    const normalized = departments
+        .map((dept) => dept.trim())
+        .filter((dept) => dept.length > 0);
+    return Array.from(new Set(normalized)).sort((a, b) => a.localeCompare(b));
+}
+
+async function getAllAvailableDepartmentsForYear(
+    year: number,
+    cache: Map<number, string[]>
+): Promise<string[]> {
+    const cached = cache.get(year);
+    if (cached) return cached;
+
+    const url = `${GEO_DVF_BASE_URL}/${year}/departements/`;
+    const response = await fetch(url);
+    if (!response.ok) {
+        throw new Error(`[dvf] Failed to list available departments for ${year}: ${response.status} ${response.statusText}`);
+    }
+
+    const html = await response.text();
+    const pattern = /href="([0-9A-Za-z]{2,3})\.csv\.gz"/g;
+    const departments = new Set<string>();
+
+    for (const match of html.matchAll(pattern)) {
+        const dept = match[1];
+        if (dept) departments.add(dept);
+    }
+
+    const allDepartments = Array.from(departments).sort((a, b) => a.localeCompare(b));
+    if (allDepartments.length === 0) {
+        throw new Error(`[dvf] No department files found for ${year} at ${url}`);
+    }
+
+    cache.set(year, allDepartments);
+    return allDepartments;
 }
