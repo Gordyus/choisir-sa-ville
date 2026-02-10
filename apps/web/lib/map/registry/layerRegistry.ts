@@ -13,7 +13,9 @@ export const SOURCE_IDS = {
     /** Commune polygon overlays */
     communes: "communes",
     /** Arrondissement municipal polygon overlays */
-    arrMunicipal: "arr_municipal"
+    arrMunicipal: "arr_municipal",
+    /** DVF transaction address points (GeoJSON) */
+    transactionAddresses: "transaction-addresses"
 } as const;
 
 export type SourceId = (typeof SOURCE_IDS)[keyof typeof SOURCE_IDS];
@@ -38,7 +40,9 @@ export const LAYER_IDS = {
     communesFill: "communes-fill",
     communesLine: "communes-line",
     arrMunicipalFill: "arr-municipal-fill",
-    arrMunicipalLine: "arr-municipal-line"
+    arrMunicipalLine: "arr-municipal-line",
+    // DVF transaction points
+    transactionAddresses: "transaction-addresses"
 } as const;
 
 // ============================================================================
@@ -47,7 +51,8 @@ export const LAYER_IDS = {
 
 export const ZOOM_RANGES = {
     communes: { min: 5, max: 15 } as const,
-    arrMunicipal: { min: 11, max: 15 } as const
+    arrMunicipal: { min: 11, max: 15 } as const,
+    transactionAddresses: { min: 14, max: 24 } as const
 } as const;
 
 // ============================================================================

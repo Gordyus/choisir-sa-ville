@@ -26,6 +26,7 @@ import { normalizeName } from "@/lib/data/nameNormalization";
 import { entityRefKey, getEntityStateService, type EntityRef } from "@/lib/selection";
 
 import { extractLabelIdentity, type LabelIdentity } from "./interactiveLayers";
+import { LAYER_IDS } from "./registry/layerRegistry";
 
 // ============================================================================
 // Constants
@@ -113,33 +114,50 @@ export function attachMapInteractionService(
             return;
         }
 
-        const nextId = hit?.label.featureId ?? null;
-        if (nextId === lastHighlightFeatureId) {
-            return;
-        }
-        lastHighlightFeatureId = nextId;
-
-        if (!hit) {
-            canvas.style.cursor = "";
-            entityStateService.setHighlighted(null);
-            return;
-        }
-
-        const lngLat = map.unproject(event.point);
-        void hasDataEvaluator.evaluateAndCache(hit.label, hit.featureStateTarget, lngLat).then((evaluation) => {
-            if (disposed || requestId !== highlightRequestToken) {
+        // Priority 1: Labels (with async evaluation)
+        if (hit) {
+            const nextId = hit.label.featureId;
+            if (nextId === lastHighlightFeatureId) {
                 return;
             }
+            lastHighlightFeatureId = nextId;
 
-            if (!evaluation.hasData || !evaluation.entityRef) {
-                canvas.style.cursor = "";
-                entityStateService.setHighlighted(null);
-                return;
-            }
+            const lngLat = map.unproject(event.point);
+            void hasDataEvaluator.evaluateAndCache(hit.label, hit.featureStateTarget, lngLat).then((evaluation) => {
+                if (disposed || requestId !== highlightRequestToken) {
+                    return;
+                }
 
+                if (!evaluation.hasData || !evaluation.entityRef) {
+                    canvas.style.cursor = "";
+                    entityStateService.setHighlighted(null);
+                    return;
+                }
+
+                canvas.style.cursor = "pointer";
+                entityStateService.setHighlighted(evaluation.entityRef);
+            });
+            return;
+        }
+
+        // Priority 2: Transaction addresses (synchronous, no hasData check needed)
+        const txRef = pickTransactionFeature(map, event.point);
+        const txId = txRef ? entityRefKey(txRef) : null;
+
+        if (txId === lastHighlightFeatureId) {
+            return;
+        }
+        lastHighlightFeatureId = txId;
+
+        if (txRef) {
             canvas.style.cursor = "pointer";
-            entityStateService.setHighlighted(evaluation.entityRef);
-        });
+            entityStateService.setHighlighted(txRef);
+            return;
+        }
+
+        // Priority 3: Empty map (clear highlight)
+        canvas.style.cursor = "";
+        entityStateService.setHighlighted(null);
     };
 
     const handleMouseLeave = (): void => {
@@ -160,7 +178,13 @@ export function attachMapInteractionService(
                 }
 
                 if (!hit) {
-                    entityStateService.setActive(null);
+                    // Fallback: check transaction address points
+                    const txRef = pickTransactionFeature(map, event.point);
+                    if (txRef) {
+                        entityStateService.setActive(txRef);
+                    } else {
+                        entityStateService.setActive(null);
+                    }
                     return;
                 }
 
@@ -405,7 +429,7 @@ class LabelHasDataEvaluator {
 // ============================================================================
 
 /** Sources that come from our own dataset — always have data */
-const OWN_DATA_SOURCES = new Set(["commune-labels-vector", "arr_municipal"]);
+const OWN_DATA_SOURCES = new Set(["commune-labels-vector", "arr_municipal", "transaction-addresses"]);
 
 function isOwnDataSource(source: string): boolean {
     return OWN_DATA_SOURCES.has(source);
@@ -508,6 +532,46 @@ function getFeatureLngLat(feature: MapGeoJSONFeature): { lng: number; lat: numbe
     }
 
     return null;
+}
+
+// ============================================================================
+// Transaction Feature Picking
+// ============================================================================
+
+function pickTransactionFeature(map: MapLibreMap, point: PointLike): EntityRef | null {
+    if (!map.isStyleLoaded()) {
+        return null;
+    }
+
+    if (!map.getLayer(LAYER_IDS.transactionAddresses)) {
+        return null;
+    }
+
+    const features = map.queryRenderedFeatures(point, { layers: [LAYER_IDS.transactionAddresses] });
+    if (!features.length) {
+        return null;
+    }
+
+    const feature = features[0];
+    if (!feature) {
+        return null;
+    }
+
+    const props = feature.properties as Record<string, unknown> | null;
+    if (!props) {
+        return null;
+    }
+
+    const id = props["id"];
+    const z = props["z"];
+    const x = props["x"];
+    const y = props["y"];
+
+    if (typeof id !== "string" || typeof z !== "number" || typeof x !== "number" || typeof y !== "number") {
+        return null;
+    }
+
+    return { kind: "transactionAddress", id, bundleZ: z, bundleX: x, bundleY: y };
 }
 
 // ============================================================================

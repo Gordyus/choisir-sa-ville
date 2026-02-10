@@ -7,12 +7,14 @@ import { exportMetricsHousing } from "./communes/exportMetricsHousing.js";
 import { exportPostalIndex } from "./communes/exportPostalIndex.js";
 import { exportMetricsInsecurity } from "./communes/metrics/insecurity/exportMetricsInsecurity.js";
 import { SOURCE_URLS, type SourceKey } from "./constants.js";
+import { exportTransactions } from "./transactions/exportTransactions.js";
+import { buildDvfSourceEntries } from "./transactions/dvfGeoDvfSources.js";
 import { exportInfraZonesIndexLite } from "./infra-zones/exportIndexLite.js";
 import { downloadFile } from "./shared/downloadFile.js";
 import { ensureDir, writeJsonAtomic } from "./shared/fileSystem.js";
 import { parseCsv, parseCsvFile, type CsvRecord } from "./shared/parseCsv.js";
 import { readZipEntryText } from "./shared/readZipEntry.js";
-import type { ExportCommune, ExportContext, ExportInfraZone, PostalRecord, SourceMeta } from "./shared/types.js";
+import type { ExportCommune, ExportContext, ExportInfraZone, PostalRecord, SourceMeta, DvfSourceMeta } from "./shared/types.js";
 import { writeManifest } from "./writeManifest.js";
 
 async function main(): Promise<void> {
@@ -22,14 +24,14 @@ async function main(): Promise<void> {
 
     console.info(`[dataset] Target directory: ${datasetDir}`);
 
-    const sources = await downloadSources();
+    const { standardSources, dvfSources } = await downloadSources();
     const [communeRecords, regionRecords, departmentRecords, postalRecordsRaw] = await Promise.all([
-        parseCsvFile(sources.communes.filePath),
-        parseCsvFile(sources.regions.filePath),
-        parseCsvFile(sources.departments.filePath),
-        parseCsvFile(sources.postal.filePath)
+        parseCsvFile(standardSources.communes.filePath),
+        parseCsvFile(standardSources.regions.filePath),
+        parseCsvFile(standardSources.departments.filePath),
+        parseCsvFile(standardSources.postal.filePath)
     ]);
-    const populationCsv = await readZipEntryText(sources.populationRef.filePath, "donnees_communes.csv");
+    const populationCsv = await readZipEntryText(standardSources.populationRef.filePath, "donnees_communes.csv");
     const populationRecords = parseCsv(populationCsv);
 
     const departmentRegionMap = buildDepartmentRegionMap(departmentRecords);
@@ -63,11 +65,28 @@ async function main(): Promise<void> {
         ...(await exportMetricsInsecurity({
             context,
             communes,
-            ssmsiSource: sources.ssmsi
+            ssmsiSource: standardSources.ssmsi
         }))
     );
 
-    await writeManifest({ datasetDir, datasetVersion, files, sources: Object.values(sources) });
+    // DVF transactions — per-department annual files from geo-dvf
+    const communeNameByInsee = new Map<string, string>();
+    for (const c of communes) {
+        communeNameByInsee.set(c.insee, c.name);
+    }
+    files.push(
+        ...(await exportTransactions({
+            context,
+            dvfSources,
+            communeNameByInsee
+        }))
+    );
+
+    const allSources: SourceMeta[] = [
+        ...Object.values(standardSources),
+        ...dvfSources
+    ];
+    await writeManifest({ datasetDir, datasetVersion, files, sources: allSources });
     await writeCurrentManifest({ currentManifestPath, datasetVersion, files });
 
     console.info(
@@ -92,7 +111,12 @@ async function resolveDatasetDir(datasetVersion: string): Promise<{
     return { datasetDir, currentManifestPath };
 }
 
-async function downloadSources(): Promise<Record<SourceKey, SourceMeta>> {
+async function downloadSources(): Promise<{
+    standardSources: Record<SourceKey, SourceMeta>;
+    dvfSources: DvfSourceMeta[];
+}> {
+    // Standard sources (INSEE, postal, SSMSI)
+    console.info("[download] Fetching standard sources...");
     const entries = Object.entries(SOURCE_URLS) as [SourceKey, string][];
     const pairs = await Promise.all(
         entries.map(async ([key, url]) => {
@@ -103,7 +127,23 @@ async function downloadSources(): Promise<Record<SourceKey, SourceMeta>> {
             return [key, await downloadFile(url)] as const;
         })
     );
-    return Object.fromEntries(pairs) as unknown as Record<SourceKey, SourceMeta>;
+    const standardSources = Object.fromEntries(pairs) as unknown as Record<SourceKey, SourceMeta>;
+
+    // DVF geo-dvf sources (per-department, per-year)
+    const dvfEntries = await buildDvfSourceEntries();
+    console.info(`[download] Fetching ${dvfEntries.length} DVF geo-dvf files...`);
+    const dvfSources: DvfSourceMeta[] = await Promise.all(
+        dvfEntries.map(async ({ year, department, url, cacheTtlMs }) => {
+            const destinationPath = path.join(process.cwd(), "dvf-source", String(year), "departements", `${department}.csv.gz`);
+            const meta = await downloadFile(url, { cacheTtlMs, destinationPath });
+            const cached = meta.fromCache ? " (cached)" : "";
+            console.info(`  ✓ DVF ${year} dept ${department}${cached}`);
+            return { ...meta, year, department };
+        })
+    );
+
+    console.info(`[download] All sources downloaded (${entries.length} standard + ${dvfSources.length} DVF)`);
+    return { standardSources, dvfSources };
 }
 
 function computeDatasetVersion(referenceDate = new Date()): string {

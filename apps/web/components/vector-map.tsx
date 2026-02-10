@@ -24,11 +24,12 @@ import { MapDebugOverlay } from "@/components/map-debug-overlay";
 import { MapLayerMenu } from "@/components/map-layer-menu";
 import { loadAppConfig, type AppConfig } from "@/lib/config/appConfig";
 import { attachEntityGraphicsBinder } from "@/lib/map/entityGraphicsBinder";
-import { getCommuneLabelsVectorLayerId } from "@/lib/map/layers/communeLabelsVector";
 import { getArrMunicipalLabelsVectorLayerId } from "@/lib/map/layers/arrMunicipalLabelsVector";
+import { getCommuneLabelsVectorLayerId } from "@/lib/map/layers/communeLabelsVector";
 import { attachMapInteractionService } from "@/lib/map/mapInteractionService";
 import { attachDisplayBinder } from "@/lib/map/state/displayBinder";
 import { loadMapStyle } from "@/lib/map/style/stylePipeline";
+import { addTransactionLayer } from "@/lib/map/transactionLayer";
 import { formatViewForURL, parseViewFromURL } from "@/lib/map/urlState";
 import { cn } from "@/lib/utils";
 
@@ -58,6 +59,7 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
     const detachInteractionsRef = useRef<(() => void) | null>(null);
     const detachBinderRef = useRef<(() => void) | null>(null);
     const detachDisplayBinderRef = useRef<(() => void) | null>(null);
+    const detachTransactionLayerRef = useRef<(() => void) | null>(null);
     const debugZoomCleanupRef = useRef<(() => void) | null>(null);
     const urlSyncCleanupRef = useRef<(() => void) | null>(null);
     const initializedRef = useRef(false);
@@ -117,6 +119,7 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
                         appConfig.debug.showCollisionBoxes;
                 }
 
+
                 // Add controls
                 map.addControl(new NavigationControl({ visualizePitch: true }), "top-right");
                 map.addControl(new maplibregl.AttributionControl({ compact: true }), "bottom-right");
@@ -167,7 +170,6 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
             const communeLabelsLayerId = getCommuneLabelsVectorLayerId();
 
             // Attach interaction service - handles user interactions and EntityStateService updates
-            // Use our custom commune labels layer + arrondissement labels for full interaction coverage
             const interactionResult = attachMapInteractionService(map, {
                 debug,
                 labelLayerId: communeLabelsLayerId,
@@ -182,6 +184,15 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
 
             // Attach display binder - handles choropleth mode switching
             detachDisplayBinderRef.current = attachDisplayBinder(map);
+
+            // Add transaction addresses layer (async, non-blocking)
+            void addTransactionLayer(map, controller.signal).then((cleanup) => {
+                if (!disposed) {
+                    detachTransactionLayerRef.current = cleanup;
+                } else {
+                    cleanup();
+                }
+            });
         }
 
         void initMap();
@@ -191,6 +202,8 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
             controller.abort();
             urlSyncCleanupRef.current?.();
             urlSyncCleanupRef.current = null;
+            detachTransactionLayerRef.current?.();
+            detachTransactionLayerRef.current = null;
             detachDisplayBinderRef.current?.();
             detachDisplayBinderRef.current = null;
             detachBinderRef.current?.();

@@ -16,10 +16,12 @@ import type { HTMLAttributes } from "react";
 import { useEffect, useState } from "react";
 
 import { InsecurityBadge } from "@/components/insecurity-badge";
+import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { getCommuneByInsee, type CommuneIndexLiteEntry } from "@/lib/data/communesIndexLite";
 import { getInfraZoneById, type InfraZoneIndexLiteEntry } from "@/lib/data/infraZonesIndexLite";
-import { useActiveEntity, type EntityRef } from "@/lib/selection";
+import { getTransactionHistory } from "@/lib/data/transactionBundles";
+import { useActiveEntity, type EntityRef, type TransactionAddressData } from "@/lib/selection";
 import { cn } from "@/lib/utils";
 
 // ============================================================================
@@ -35,6 +37,8 @@ type CardStatus = "idle" | "loading" | "ready" | "missing" | "error";
 // ============================================================================
 
 const numberFormatter = new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 0 });
+const priceFormatter = new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR", maximumFractionDigits: 0 });
+const pricePerM2Formatter = new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR", maximumFractionDigits: 0 });
 
 function formatPopulation(value: number | null): string {
     if (typeof value === "number" && Number.isFinite(value)) {
@@ -63,6 +67,7 @@ export default function RightPanelDetailsCard({
     const [communeDetails, setCommuneDetails] = useState<CommuneIndexLiteEntry | null>(null);
     const [infraZoneDetails, setInfraZoneDetails] = useState<InfraZoneIndexLiteEntry | null>(null);
     const [parentCommuneDetails, setParentCommuneDetails] = useState<CommuneIndexLiteEntry | null>(null);
+    const [transactionDetails, setTransactionDetails] = useState<TransactionAddressData | null>(null);
 
     // Derive selection key for effect dependency
     const selectionKey = activeEntity
@@ -78,6 +83,7 @@ export default function RightPanelDetailsCard({
             setCommuneDetails(null);
             setInfraZoneDetails(null);
             setParentCommuneDetails(null);
+            setTransactionDetails(null);
             return;
         }
 
@@ -89,6 +95,7 @@ export default function RightPanelDetailsCard({
         setCommuneDetails(null);
         setInfraZoneDetails(null);
         setParentCommuneDetails(null);
+        setTransactionDetails(null);
 
         async function loadEntity(ref: EntityRef): Promise<void> {
             try {
@@ -98,6 +105,19 @@ export default function RightPanelDetailsCard({
 
                     if (entry) {
                         setCommuneDetails(entry);
+                        setStatus("ready");
+                    } else {
+                        setStatus("missing");
+                    }
+                    return;
+                }
+
+                if (ref.kind === "transactionAddress") {
+                    const history = await getTransactionHistory(ref, signal);
+                    if (!alive) return;
+
+                    if (history) {
+                        setTransactionDetails(history);
                         setStatus("ready");
                     } else {
                         setStatus("missing");
@@ -145,9 +165,11 @@ export default function RightPanelDetailsCard({
 
     // Build description
     const description = activeEntity
-        ? activeEntity.kind === "infraZone"
-            ? `Zone infra-communale sélectionnée`
-            : `Commune sélectionnée`
+        ? activeEntity.kind === "transactionAddress"
+            ? "Transactions à cette adresse"
+            : activeEntity.kind === "infraZone"
+                ? "Zone infra-communale sélectionnée"
+                : "Commune sélectionnée"
         : "Sélectionne une zone ou une commune pour afficher ses informations.";
 
     return (
@@ -162,7 +184,8 @@ export default function RightPanelDetailsCard({
                     activeEntity,
                     communeDetails,
                     infraZoneDetails,
-                    parentCommuneDetails
+                    parentCommuneDetails,
+                    transactionDetails
                 })}
             </CardContent>
         </Card>
@@ -178,13 +201,15 @@ function renderContent({
     activeEntity,
     communeDetails,
     infraZoneDetails,
-    parentCommuneDetails
+    parentCommuneDetails,
+    transactionDetails
 }: {
     status: CardStatus;
     activeEntity: EntityRef | null;
     communeDetails: CommuneIndexLiteEntry | null;
     infraZoneDetails: InfraZoneIndexLiteEntry | null;
     parentCommuneDetails: CommuneIndexLiteEntry | null;
+    transactionDetails: TransactionAddressData | null;
 }): JSX.Element {
     if (!activeEntity || status === "idle") {
         return <InfoMessage message="Aucune sélection active." />;
@@ -200,6 +225,13 @@ function renderContent({
 
     if (status === "error") {
         return <InfoMessage message="Erreur lors du chargement des données." />;
+    }
+
+    if (activeEntity.kind === "transactionAddress") {
+        if (!transactionDetails) {
+            return <InfoMessage message="Données indisponibles pour cette adresse." />;
+        }
+        return <TransactionHistoryView data={transactionDetails} />;
     }
 
     if (activeEntity.kind === "infraZone") {
@@ -240,6 +272,78 @@ function renderContent({
             <DetailRow label="Population" value={formatPopulation(commune.population)} />
         </div>
     );
+}
+
+// ============================================================================
+// Transaction History View
+// ============================================================================
+
+function TransactionHistoryView({ data }: { data: TransactionAddressData }): JSX.Element {
+    const sortedTransactions = [...data.transactions].sort((a, b) => b.date.localeCompare(a.date));
+
+    return (
+        <div className="space-y-3">
+            <div className="rounded-2xl border border-brand/10 px-3 py-2">
+                <span className="text-xs text-brand/50">Adresse</span>
+                <p className="font-semibold text-brand-dark">{data.label}</p>
+            </div>
+            <div className="rounded-2xl border border-brand/10 px-3 py-2">
+                <span className="text-xs text-brand/50">Nombre de transactions</span>
+                <p className="font-semibold text-brand-dark">{data.transactions.length}</p>
+            </div>
+            <div className="space-y-2">
+                {sortedTransactions.map((tx) => {
+                    const pricePerM2 = tx.surfaceM2 && tx.surfaceM2 > 0
+                        ? pricePerM2Formatter.format(Math.round(tx.priceEur / tx.surfaceM2))
+                        : null;
+
+                    return (
+                        <div
+                            key={`${tx.date}-${tx.priceEur}-${tx.typeLocal}-${tx.surfaceM2 ?? 'null'}`}
+                            className="rounded-2xl border border-brand/10 px-3 py-2 space-y-1"
+                        >
+                            <div className="flex items-center justify-between">
+                                <span className="text-xs text-brand/50">{formatDate(tx.date)}</span>
+                                <div className="flex items-center gap-1.5">
+                                    <Badge variant="default" className="text-xs">
+                                        {tx.typeLocal}
+                                    </Badge>
+                                    {tx.isVefa && (
+                                        <Badge variant="info" className="text-xs">
+                                            VEFA
+                                        </Badge>
+                                    )}
+                                </div>
+                            </div>
+                            <div className="flex items-baseline justify-between">
+                                <span className="text-base font-semibold text-brand-dark">
+                                    {priceFormatter.format(tx.priceEur)}
+                                </span>
+                                {tx.surfaceM2 != null && tx.surfaceM2 > 0 && (
+                                    <span className="text-xs text-brand/60">
+                                        {tx.surfaceM2} m² {pricePerM2 ? `· ${pricePerM2}/m²` : ""}
+                                    </span>
+                                )}
+                            </div>
+                        </div>
+                    );
+                })}
+            </div>
+        </div>
+    );
+}
+
+function formatDate(isoDate: string): string {
+    try {
+        const date = new Date(isoDate);
+        return new Intl.DateTimeFormat("fr-FR", {
+            day: "numeric",
+            month: "long",
+            year: "numeric"
+        }).format(date);
+    } catch {
+        return isoDate;
+    }
 }
 
 // ============================================================================

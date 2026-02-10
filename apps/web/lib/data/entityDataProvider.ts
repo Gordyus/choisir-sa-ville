@@ -68,8 +68,13 @@ export abstract class BaseEntityDataProvider implements EntityDataProvider {
             const data = await this.getCommune(ref.inseeCode, signal);
             return data ? { kind: "commune", data } : null;
         }
-        const data = await this.getInfraZone(ref.id, signal);
-        return data ? { kind: "infraZone", data } : null;
+        if (ref.kind === "infraZone") {
+            const data = await this.getInfraZone(ref.id, signal);
+            return data ? { kind: "infraZone", data } : null;
+        }
+        // transactionAddress is not resolved via EntityDataProvider;
+        // it uses the dedicated transactionBundles loader.
+        return null;
     }
 
     async hasEntity(ref: EntityRef, signal?: AbortSignal): Promise<boolean> {

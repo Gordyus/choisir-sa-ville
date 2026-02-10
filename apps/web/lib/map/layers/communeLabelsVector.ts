@@ -19,6 +19,8 @@
 
 import type { ExpressionSpecification, LayerSpecification, StyleSpecification } from "maplibre-gl";
 
+import { ENTITY_STATE_COLORS } from "./entityVisualStateColors";
+
 const COMMUNE_LABELS_SOURCE_ID = "commune-labels-vector";
 const COMMUNE_LABELS_LAYER_ID = "commune_labels";
 
@@ -118,12 +120,12 @@ export function injectCommuneLabelsVector(
             "text-color": [
                 "case",
                 ["boolean", ["feature-state", "active"], false],
-                "#f59e0b",
+                ENTITY_STATE_COLORS.active,
                 ["boolean", ["feature-state", "highlight"], false],
-                "#2563eb",
+                ENTITY_STATE_COLORS.highlight,
                 ["boolean", ["feature-state", "hasData"], false],
-                "#111827",
-                "#6b7280"
+                ENTITY_STATE_COLORS.hasData,
+                ENTITY_STATE_COLORS.noData
             ],
             "text-halo-color": "#ffffff",
             "text-halo-width": [

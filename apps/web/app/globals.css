@@ -33,3 +33,7 @@ body {
     padding: 0 !important;
     background: transparent !important;
 }
+
+.maplibregl-canvas-container {
+    cursor: unset !important;
+}
