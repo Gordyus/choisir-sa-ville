@@ -6,7 +6,7 @@ import { BUNDLE_ZOOM, latLngToTile } from "./tileCoords.js";
 import type { DvfRawRow, TransactionAddressHistory, TransactionLine } from "./types.js";
 
 import { ensureDir, writeJsonAtomic } from "../shared/fileSystem.js";
-import type { ExportContext, SourceMeta } from "../shared/types.js";
+import type { ExportContext, DvfSourceMeta } from "../shared/types.js";
 
 type AddressAccumulator = {
     addressKey: string;
@@ -22,70 +22,111 @@ type AddressAccumulator = {
 
 type ExportTransactionsParams = {
     context: ExportContext;
-    dvfSource: SourceMeta;
+    dvfSources: DvfSourceMeta[];
     communeNameByInsee: Map<string, string>;
 };
 
 /**
  * Main export function for DVF transaction data.
- * Parses the DVF CSV, groups by address, and exports:
+ * Parses multiple annual per-department DVF CSVs, groups by address, deduplicates, and exports:
  * - addresses.geojson (point layer for MapLibre)
  * - bundles/z15/{x}/{y}.json (transaction history per tile)
  *
  * Returns the list of relative file paths added.
  */
-export async function exportTransactions({ context, dvfSource, communeNameByInsee }: ExportTransactionsParams): Promise<string[]> {
+export async function exportTransactions({ context, dvfSources, communeNameByInsee }: ExportTransactionsParams): Promise<string[]> {
     const transactionsDir = path.join(context.datasetDir, "transactions");
     await ensureDir(transactionsDir);
 
-    console.info("[transactions] Parsing DVF CSV...");
+    const yearRange = dvfSources.length > 0
+        ? `${Math.min(...dvfSources.map((s) => s.year))}–${Math.max(...dvfSources.map((s) => s.year))}`
+        : "none";
+    console.info(`[transactions] Parsing ${dvfSources.length} DVF files (${yearRange})...`);
 
-    // Phase 1: Parse and accumulate by address
+    // Phase 1: Parse all source files and accumulate by address
     const addressMap = new Map<string, AddressAccumulator>();
+    let totalProcessed = 0;
+    let totalAccepted = 0;
 
-    const { processed, accepted } = await parseDvfCsvStreaming(dvfSource.filePath, {
-        onRow: (row: DvfRawRow) => {
-            const addressKey = buildAddressKey(row.inseeCode, row.streetNumber, row.streetName);
-            let accumulator = addressMap.get(addressKey);
+    for (const source of dvfSources) {
+        console.info(`[transactions]   Parsing DVF ${source.year} dept ${source.department}...`);
 
-            if (!accumulator) {
-                accumulator = {
-                    addressKey,
-                    inseeCode: row.inseeCode,
-                    communeName: communeNameByInsee.get(row.inseeCode) ?? row.inseeCode,
-                    streetNumber: row.streetNumber,
-                    streetName: row.streetName,
-                    transactions: [],
-                    latestDate: row.date,
-                    latestLat: row.lat,
-                    latestLng: row.lng
-                };
-                addressMap.set(addressKey, accumulator);
+        const { processed, accepted } = await parseDvfCsvStreaming(source.filePath, {
+            onRow: (row: DvfRawRow) => {
+                const addressKey = buildAddressKey(row.inseeCode, row.streetNumber, row.streetName);
+                let accumulator = addressMap.get(addressKey);
+
+                if (!accumulator) {
+                    accumulator = {
+                        addressKey,
+                        inseeCode: row.inseeCode,
+                        communeName: communeNameByInsee.get(row.inseeCode) ?? row.inseeCode,
+                        streetNumber: row.streetNumber,
+                        streetName: row.streetName,
+                        transactions: [],
+                        latestDate: row.date,
+                        latestLat: row.lat,
+                        latestLng: row.lng
+                    };
+                    addressMap.set(addressKey, accumulator);
+                }
+
+                accumulator.transactions.push({
+                    date: row.date,
+                    priceEur: row.priceEur,
+                    typeLocal: row.typeLocal,
+                    surfaceM2: row.surfaceM2,
+                    isVefa: row.isVefa
+                });
+
+                if (row.date > accumulator.latestDate) {
+                    accumulator.latestDate = row.date;
+                    accumulator.latestLat = row.lat;
+                    accumulator.latestLng = row.lng;
+                }
+            },
+            onProgress: (p, a) => {
+                if (p % 500_000 === 0) {
+                    console.info(`[transactions]     ${p.toLocaleString()} processed, ${a.toLocaleString()} accepted`);
+                }
             }
+        });
 
-            accumulator.transactions.push({
-                date: row.date,
-                priceEur: row.priceEur,
-                typeLocal: row.typeLocal,
-                surfaceM2: row.surfaceM2,
-                isVefa: row.isVefa
-            });
+        console.info(`[transactions]   ✓ DVF ${source.year} dept ${source.department}: ${processed.toLocaleString()} processed, ${accepted.toLocaleString()} accepted`);
+        totalProcessed += processed;
+        totalAccepted += accepted;
+    }
 
-            // Update coords to latest transaction
-            if (row.date > accumulator.latestDate) {
-                accumulator.latestDate = row.date;
-                accumulator.latestLat = row.lat;
-                accumulator.latestLng = row.lng;
+    console.info(
+        `[transactions] All files parsed: ${totalProcessed.toLocaleString()} total, ${totalAccepted.toLocaleString()} accepted, ${addressMap.size.toLocaleString()} unique addresses`
+    );
+
+    // Phase 2: Deduplicate transactions per address
+    console.info("[transactions] Deduplicating transactions...");
+    let totalBefore = 0;
+    let totalAfter = 0;
+
+    for (const accumulator of addressMap.values()) {
+        totalBefore += accumulator.transactions.length;
+
+        const uniqueMap = new Map<string, TransactionLine>();
+        for (const tx of accumulator.transactions) {
+            const key = `${tx.date}|${tx.priceEur}|${tx.typeLocal}|${tx.surfaceM2 ?? "null"}`;
+            if (!uniqueMap.has(key)) {
+                uniqueMap.set(key, tx);
             }
-        },
-        onProgress: (p, a) => {
-            console.info(`[transactions]   processed ${p} rows, accepted ${a}`);
         }
-    });
 
-    console.info(`[transactions] Parsed ${processed} rows, accepted ${accepted}, grouped into ${addressMap.size} addresses`);
+        accumulator.transactions = Array.from(uniqueMap.values()).sort((a, b) => b.date.localeCompare(a.date));
+        totalAfter += accumulator.transactions.length;
+    }
 
-    // Phase 2: Build GeoJSON features and partition into bundles
+    console.info(
+        `[transactions] Dedup: ${totalBefore.toLocaleString()} → ${totalAfter.toLocaleString()} (${(totalBefore - totalAfter).toLocaleString()} duplicates removed)`
+    );
+
+    // Phase 3: Build GeoJSON features and partition into bundles
+    console.info("[transactions] Generating GeoJSON and bundles...");
     const geojsonFeatures: GeoJsonFeature[] = [];
     const bundleMap = new Map<string, Map<string, TransactionAddressHistory>>();
 
@@ -93,9 +134,6 @@ export async function exportTransactions({ context, dvfSource, communeNameByInse
         const addressId = deriveAddressId(acc.addressKey);
         const tile = latLngToTile(acc.latestLat, acc.latestLng, BUNDLE_ZOOM);
         const bundleKey = `${tile.z}/${tile.x}/${tile.y}`;
-
-        // Sort transactions by date descending
-        acc.transactions.sort((a, b) => b.date.localeCompare(a.date));
 
         const history: TransactionAddressHistory = {
             id: addressId,
@@ -105,7 +143,6 @@ export async function exportTransactions({ context, dvfSource, communeNameByInse
             transactions: acc.transactions
         };
 
-        // GeoJSON feature
         geojsonFeatures.push({
             type: "Feature",
             id: addressId,
@@ -122,7 +159,6 @@ export async function exportTransactions({ context, dvfSource, communeNameByInse
             }
         });
 
-        // Bundle accumulation
         let bundle = bundleMap.get(bundleKey);
         if (!bundle) {
             bundle = new Map();
@@ -131,9 +167,9 @@ export async function exportTransactions({ context, dvfSource, communeNameByInse
         bundle.set(addressId, history);
     }
 
-    console.info(`[transactions] Generated ${geojsonFeatures.length} GeoJSON features, ${bundleMap.size} bundles`);
+    console.info(`[transactions] Generated ${geojsonFeatures.length.toLocaleString()} features, ${bundleMap.size} bundles`);
 
-    // Phase 3: Write GeoJSON
+    // Phase 4: Write GeoJSON
     const geojson: GeoJsonFeatureCollection = {
         type: "FeatureCollection",
         features: geojsonFeatures
@@ -144,7 +180,7 @@ export async function exportTransactions({ context, dvfSource, communeNameByInse
 
     const files: string[] = ["transactions/addresses.geojson"];
 
-    // Phase 4: Write bundles
+    // Phase 5: Write bundles
     const bundlesDir = path.join(transactionsDir, "bundles");
     for (const [bundleKey, addressesMap] of bundleMap) {
         const bundlePath = path.join(bundlesDir, `z${bundleKey}.json`);
@@ -153,7 +189,7 @@ export async function exportTransactions({ context, dvfSource, communeNameByInse
         files.push(`transactions/bundles/z${bundleKey}.json`);
     }
 
-    console.info(`[transactions] Wrote ${files.length} files (1 GeoJSON + ${bundleMap.size} bundles)`);
+    console.info(`[transactions] ✓ Wrote ${files.length} files (1 GeoJSON + ${bundleMap.size} bundles)`);
 
     return files;
 }

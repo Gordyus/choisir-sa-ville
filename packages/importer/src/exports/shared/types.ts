@@ -42,3 +42,9 @@ export type SourceMeta = {
     retrievedAtUtc: string;
     checksumSha256: string;
 };
+
+/** Metadata for a single DVF geo-dvf source file (one year × one department). */
+export type DvfSourceMeta = SourceMeta & {
+    year: number;
+    department: string;
+};

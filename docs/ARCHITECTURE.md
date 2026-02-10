@@ -69,10 +69,13 @@ Exemple pour l'agrégat insécurité au niveau commune :
 
 ### Transactions DVF
 
-Les données de transactions immobilières (DVF+) sont servies sous `transactions/` :
+Les données de transactions immobilières proviennent de **DVF géolocalisées** (Etalab, `files.data.gouv.fr/geo-dvf`).
+Le pipeline télécharge les fichiers CSV par département et par année (cache incrémental avec TTL).
+Les données sont servies sous `transactions/` :
 - `addresses.geojson` : points géolocalisés des adresses avec transactions (couche MapLibre)
 - `bundles/z15/{x}/{y}.json` : historiques complets partitionnés par tuile WebMercator
 
+Source : `packages/importer/src/exports/transactions/dvfGeoDvfSources.ts`
 Spec de référence : `docs/feature/transactions-address-history/spec.md`
 
 **Insécurité (SSMSI)** :

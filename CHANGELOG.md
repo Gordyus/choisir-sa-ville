@@ -17,6 +17,7 @@ et ce projet adhère au [Semantic Versioning](https://semver.org/lang/fr/).
 - **Panneau d'historique** : affichage des ventes immobilières par adresse avec date, prix, type de bien, surface, badge VEFA
 - **Pattern bundles z15** : partitionnement des données par tuiles WebMercator pour performance optimale
 - **hasData automatique** pour les sources propres (commune-labels-vector, arr_municipal, transaction-addresses)
+- **Pipeline DVF incrémental** : sources geo-dvf par département/année (2020→2025), cache avec TTL, déduplication inter-années
 
 #### URL Synchronization
 - **Synchronisation viewport** : état de la carte (centre + zoom) sauvegardé dans les query parameters `?view=lat,lng,zoom`

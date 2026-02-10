@@ -49,8 +49,10 @@ Produire et servir des données **100% statiques**, versionnées par dataset (`v
 ## 4) Décisions & hypothèses (MVP)
 
 ### Source de données (référence)
-- Dataset : **DVF open data (DVF+)** sur data.gouv.fr  
-  Lien de référence (page dataset) : `https://www.data.gouv.fr/datasets/dvf-open-data`
+- Dataset : **DVF géolocalisées** (Etalab) sur data.gouv.fr  
+  Lien de référence (page dataset) : `https://www.data.gouv.fr/datasets/demandes-de-valeurs-foncieres-geolocalisees`
+- Fichiers par département et par année : `https://files.data.gouv.fr/geo-dvf/latest/csv/{YEAR}/departements/{DEPT}.csv.gz`
+- Couverture : fenêtre glissante de ~5 ans (actuellement 2020 → 2025), mise à jour semestrielle (avril + octobre)
 
 ### Décisions fonctionnelles
 - **Entité cliquable** : *AdresseTransactionnelle* (un point sur la carte).
@@ -60,8 +62,8 @@ Produire et servir des données **100% statiques**, versionnées par dataset (`v
 - **Lignes sans numéro de voie** : **ignorées** (pas d’adresse exploitable).
 
 ### Décisions techniques
-- Source privilégiée : **DVF+ open-data géolocalisé**, pour éviter tout pipeline de géocodage build-time.
-- Format d’ingestion MVP : **CSV (table “mutations” à plat)**, car directement parseable en Node (pas de dépendance PostGIS/GDAL).
+- Source : **DVF géolocalisées Etalab** (iles.data.gouv.fr/geo-dvf), fichiers CSV par département/année.
+- Format d’ingestion : **CSV gzippé par département** (table « mutations » à plat), parseable en Node streaming.
 - Partitionnement des historiques : par **tuiles WebMercator** (z fixe), pour éviter “1 fichier par commune”.
 - MVP carte : **GeoJSON** pour la couche de points (simple à intégrer), avec option future **PMTiles** si nécessaire.
 - Coordonnées du point : **dernière vente** (date max) *(décision MVP)*.
@@ -205,9 +207,9 @@ Règle MVP : si `streetNumber` est absent/vide, la ligne est ignorée.
 `pnpm --filter @choisir-sa-ville/importer export:static`
 
 ### 9.2. Étapes (décision complète)
-1. **Téléchargement** DVF+ (CSV) via `downloadFile()` (cache `packages/importer/.cache/`).
-2. **Parsing CSV streaming**, extraction des colonnes minimales nécessaires.
-3. **Filtrage** au fil de l’eau :
+### 9.2. Étapes (décision complète)
+1. **Téléchargement** DVF géolocalisées par département/année via downloadFile() (cache packages/importer/.cache/, TTL 180 jours pour années complètes, 7 jours pour année courante). Le relancement ne re-télécharge pas les fichiers déjà en cache.
+2. **Parsing CSV streaming** de chaque fichier annuel, extraction des colonnes minimales nécessaires.
    - département 34,
    - type_local Maison/Appartement,
    - nature_mutation Vente/VEFA,
@@ -222,13 +224,14 @@ Règle MVP : si `streetNumber` est absent/vide, la ligne est ignorée.
    - accumuler `transactions[]` par `addressId`,
    - définir `lat/lng` de l’adresse = coords de la dernière vente (date max),
    - construire `label` d’affichage (sans info personnelle).
-6. **Partitionnement bundles** :
+6. **Déduplication** : clé composite date|prix|type|surface pour éliminer les doublons inter-années.
+7. **Partitionnement bundles** :
    - calculer `(bundleZ, bundleX, bundleY)` depuis `lat/lng` (WebMercator),
    - écrire l’entrée dans le bon bundle.
-7. **Exports** :
+8. **Exports** :
    - `addresses.geojson`,
    - `bundles/...`.
-8. **Manifest** :
+9. **Manifest** :
    - ajouter tous les fichiers produits à `files[]`.
 
 ### 9.3. Zoom de bundle (MVP)
