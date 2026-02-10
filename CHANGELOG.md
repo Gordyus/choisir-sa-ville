@@ -13,6 +13,7 @@ et ce projet adhère au [Semantic Versioning](https://semver.org/lang/fr/).
 
 #### DVF Transaction History (Hérault)
 - **Transaction points sur la carte** (zoom ≥14) pour le département de l'Hérault (34)
+- **Points interactifs de première classe** : highlight au survol (bordure blanche élargie) + état active au clic (couleur orange, taille agrandie)
 - **Panneau d'historique** : affichage des ventes immobilières par adresse avec date, prix, type de bien, surface, badge VEFA
 - **Pattern bundles z15** : partitionnement des données par tuiles WebMercator pour performance optimale
 - **hasData automatique** pour les sources propres (commune-labels-vector, arr_municipal, transaction-addresses)

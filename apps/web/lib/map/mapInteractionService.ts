@@ -114,33 +114,50 @@ export function attachMapInteractionService(
             return;
         }
 
-        const nextId = hit?.label.featureId ?? null;
-        if (nextId === lastHighlightFeatureId) {
-            return;
-        }
-        lastHighlightFeatureId = nextId;
-
-        if (!hit) {
-            canvas.style.cursor = "";
-            entityStateService.setHighlighted(null);
-            return;
-        }
-
-        const lngLat = map.unproject(event.point);
-        void hasDataEvaluator.evaluateAndCache(hit.label, hit.featureStateTarget, lngLat).then((evaluation) => {
-            if (disposed || requestId !== highlightRequestToken) {
+        // Priority 1: Labels (with async evaluation)
+        if (hit) {
+            const nextId = hit.label.featureId;
+            if (nextId === lastHighlightFeatureId) {
                 return;
             }
+            lastHighlightFeatureId = nextId;
 
-            if (!evaluation.hasData || !evaluation.entityRef) {
-                canvas.style.cursor = "";
-                entityStateService.setHighlighted(null);
-                return;
-            }
+            const lngLat = map.unproject(event.point);
+            void hasDataEvaluator.evaluateAndCache(hit.label, hit.featureStateTarget, lngLat).then((evaluation) => {
+                if (disposed || requestId !== highlightRequestToken) {
+                    return;
+                }
 
+                if (!evaluation.hasData || !evaluation.entityRef) {
+                    canvas.style.cursor = "";
+                    entityStateService.setHighlighted(null);
+                    return;
+                }
+
+                canvas.style.cursor = "pointer";
+                entityStateService.setHighlighted(evaluation.entityRef);
+            });
+            return;
+        }
+
+        // Priority 2: Transaction addresses (synchronous, no hasData check needed)
+        const txRef = pickTransactionFeature(map, event.point);
+        const txId = txRef ? entityRefKey(txRef) : null;
+
+        if (txId === lastHighlightFeatureId) {
+            return;
+        }
+        lastHighlightFeatureId = txId;
+
+        if (txRef) {
             canvas.style.cursor = "pointer";
-            entityStateService.setHighlighted(evaluation.entityRef);
-        });
+            entityStateService.setHighlighted(txRef);
+            return;
+        }
+
+        // Priority 3: Empty map (clear highlight)
+        canvas.style.cursor = "";
+        entityStateService.setHighlighted(null);
     };
 
     const handleMouseLeave = (): void => {
