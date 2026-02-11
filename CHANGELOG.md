@@ -73,7 +73,7 @@ conforme aux standards internationaux (ONU-ICVS, classements homicides, littéra
 - Dataset version: `v2026-02-08` (nouvelle structure)
 - Frontend: Mise à jour automatique via hook `useInsecurityMetrics`
 
-**Référence**: `specs/security-index-population-classification.md`
+**Référence**: `docs/archive/security-index-population-classification.md`
 
 #### Fix: Adoption des Quintiles Standards pour le Mapping de Niveaux
 
@@ -121,8 +121,8 @@ Cette version marque une **refonte complète de l'architecture** :
 
 - **Documentation complète**
   - `AGENTS.md` : Règles techniques réécrites pour architecture actuelle
-  - `docs/ARCHITECTURE.md` : Architecture détaillée avec diagrammes
-  - `docs/DATA_PIPELINE.md` : Documentation du pipeline de données
+  - `docs/architecture/overview.md` : Architecture détaillée avec diagrammes
+  - `docs/architecture/data-pipeline.md` : Documentation du pipeline de données
   - `docs/INDEX.md` : Index de la documentation
   - `CLEANUP_GUIDE.md` : Guide de nettoyage post-migration
 

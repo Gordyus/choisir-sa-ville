@@ -4,8 +4,8 @@
 
 1. `README.md`
 2. `AGENTS.md` (règles NON NÉGOCIABLES)
-3. `docs/ARCHITECTURE.md`
-4. `docs/LOCALITY_MODEL.md`
+3. `docs/architecture/overview.md`
+4. `docs/architecture/locality-model.md`
 
 ## Pré-requis
 
@@ -36,6 +36,6 @@ pnpm lint:eslint
 
 Toute modification d’architecture ou de format de données implique une mise à jour de :
 - `AGENTS.md`
-- `docs/ARCHITECTURE.md`
-- `docs/DATA_PIPELINE.md` (si pipeline/dataset)
+- `docs/architecture/overview.md`
+- `docs/architecture/data-pipeline.md` (si pipeline/dataset)
 

@@ -50,7 +50,7 @@ If ANY of the following are true, STOP immediately, do not apply any change, and
 - The change crosses architectural layer boundaries (e.g., touches both `lib/selection/` and `components/`).
 - The request is ambiguous or could be interpreted in multiple ways.
 - Multiple design or implementation choices must be weighed.
-- The change requires understanding domain/product rules documented in `specs/` or `docs/`.
+- The change requires understanding domain/product rules documented in `docs/feature/` or `docs/`.
 - The resulting diff would touch more than ~3 files (a strong signal the scope is not minor).
 
 ## Required Output Format

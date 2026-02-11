@@ -1,5 +1,8 @@
 # Métrique Insécurité (SSMSI)
 
+**Statut** : Implémenté  
+**Dernière révision** : 2026-02-08
+
 **Source** : Bases statistiques communales de la délinquance enregistrée – SSMSI (Ministère de l'Intérieur)  
 **Licence** : Licence Ouverte / Etalab  
 **Niveau géographique** : Commune (pivot territorial)  
@@ -406,7 +409,7 @@ Pas de calcul runtime, juste lookup palette.
 
 **Dernière mise à jour** : 2026-02-08  
 **Version dataset** : v2026-02-08  
-**Spec de référence** : `specs/security-index-population-classification.md`  
+**Spec de référence** : `docs/archive/security-index-population-classification.md`  
 **Tasks implémentées** : 
 - Task 2 (population Parquet)
 - Task 1 (quartiles + level)

@@ -83,7 +83,7 @@ Spec de référence : `docs/feature/transactions-address-history/spec.md`
 - **Niveaux** : 0–4 (Très faible → Plus élevé), quartiles calculés sur `scoreRaw > 0`, baked au build-time
 - **Rendu carto** : Feature-state viewport-only (moveend + zoomend), pas de match géant
 - **Performance** : Batching RAF (200 features/frame), adaptive opacity mobile
-- **Documentation** : Voir `docs/METRICS_INSECURITY.md`
+- **Documentation** : Voir `docs/metrics/insecurity.md`
 
 ### 2) Config runtime (JSON)
 

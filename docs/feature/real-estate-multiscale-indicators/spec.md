@@ -1,9 +1,12 @@
 # Spécification — Indicateurs immobiliers multi-échelle (commune + hexagones)
 
-**Statut** : Draft  
-**Date** : 10 février 2026  
-**Périmètre MVP** : France (selon couverture des sources)  
+**Statut** : ✅ Validé (prêt implémentation)  
+**Date** : 11 février 2026 (validation finale)  
+**Validation PO/Architect** : 11 février 2026  
+**Périmètre MVP** : France (selon couverture DVF)  
 **Architecture** : Jamstack (datasets statiques + Next.js), sans backend applicatif runtime
+
+**Scope MVP** : Vente uniquement (DVF observé). Loyer reporté post-MVP (voir `roadmap-loyers.md`).
 
 ---
 
@@ -15,10 +18,7 @@ L'objectif est d'ajouter un mode cartographique immobilier plus fin :
 - vue **micro** à l'échelle hexagonale (zoom fort),
 - en conservant des garde-fous de qualité.
 
-Le projet conserve en parallèle :
-- les prix DVF (observés, build-time),
-- un import INSEE des prix immobiliers communaux (garde-fou / baseline),
-- un import INSEE des loyers communaux (baseline loyers).
+**Source unique (MVP)** : DVF géolocalisées (ventes observées), déjà importé pour la feature `transactions-address-history`.
 
 ---
 
@@ -53,18 +53,19 @@ Rester 100% statique :
 
 ## 4) Sources & décisions de données
 
-### 4.1 Sources obligatoires
+### 4.1 Source unique (MVP)
 
-1. **DVF géolocalisées** (ventes, micro-spatial).  
-2. **INSEE prix immobiliers communaux** (baseline / garde-fou).  
-3. **INSEE loyers communaux** (baseline loyers).
+**DVF géolocalisées** (ventes observées, build-time)  
+**URL** : `https://files.data.gouv.fr/geo-dvf/latest/csv/{YEAR}/departements/{DEPT}.csv.gz`  
+**Import** : Déjà implémenté pour feature `transactions-address-history` via `packages/importer/src/exports/transactions/dvfGeoDvfSources.ts`  
+**Réutilisation** : Module partagé `dvfSharedParsing.ts` (parsing + calcul €/m² factorisé)
 
-### 4.2 Principes de fiabilité
+### 4.2 Principes de fiabilité et factorisation
 
-- Le prix de vente micro provient des transactions (DVF) agrégées.
-- Le loyer reste ancré sur la source loyers officielle communale.
-- Le micro-loyer (si affiché) est une **estimation spatialisée** explicitement taguée comme telle.
+- Le prix de vente micro provient des transactions DVF agrégées (même méthodologie que `transactions-address-history`).
+- **Baseline prix** = médiane DVF communale calculée (pas d'import INSEE externe).
 - Les mutations multi-lots complexes suivent la règle de regroupement par mutation (cf. feature transactions-address-history) pour éviter les biais.
+- **Factorisation obligatoire** : Le parsing DVF et le calcul €/m² doivent être partagés entre `transactions-address-history` et `real-estate` via un module commun.
 
 ---
 
@@ -72,9 +73,11 @@ Rester 100% statique :
 
 ### 5.1 Mode cartographique
 
-Nouveau mode `realEstate` avec sélecteur :
-- `metric = sale` (prix vente €/m2),
-- `metric = rent` (loyer €/m2/mois).
+Nouveau mode `realEstate` (MVP : vente uniquement).
+
+**Post-MVP** : Ajout sélecteur `metric` :
+- `metric = sale` (prix vente €/m²),
+- `metric = rent` (loyer €/m²/mois, voir `roadmap-loyers.md`).
 
 ### 5.2 Règle d'échelle
 
@@ -85,67 +88,78 @@ Nouveau mode `realEstate` avec sélecteur :
 ### 5.3 Pertinence micro (hexagones)
 
 Un hexagone est colorable uniquement si les seuils qualité sont atteints :
-- Vente : `nSalesComparable >= 3` sur fenêtre glissante 24 mois.
-- Loyer estimé : `nSalesComparable >= 3` + baseline loyer commune disponible.
+- **Vente** (MVP) : `nSalesComparable >= 3` sur fenêtre glissante 24 mois.
 
-Un territoire communal est “éligible micro” si :
-- `nSalesComparableCommune >= 20` sur 24 mois, ou
+Un territoire communal est "éligible micro" si :
+- `nSalesComparableCommune >= 20` sur 24 mois, OU
 - dispersion intra-commune élevée (`IQR / median >= 0.25`).
+
+### 5.4 Statut architectural des hexagones
+
+**Décision** : Les hexagones H3 sont des **artefacts de visualisation uniquement**, pas des entités du modèle territorial.
+
+**Rationnel** :
+- Le modèle territorial (`LOCALITY_MODEL.md`) définit `EntityRef.kind` = `"commune" | "infraZone"` | `"transactionAddress"`.'
+- Les hexagones ne sont **ni des communes, ni des infrazones, ni des adresses**.
+- Ils sont un maillage géographique transversal pour visualisation de données agrégées.
+
+**Implications** :
+1. **Non-cliquables** : Pas d'extension de `SelectionService` pour hexagones (violation modèle territorial).
+2. **Tooltip uniquement** : Infobulle sur hover affiche indicateur sans modifier sélection.
+3. **Click-through** : Le clic sur hexagone résout l'entité label sous-jacente (commune ou infrazone).
+4. **Pas de routage** : Pas d'URL `/hex/{hexId}` (seulement `/commune/{insee}` ou `/infrazone/{code}`).
+
+**Cohérence avec insecurity mode** :
+- Même pattern que mode `insecurity` : hexagones affichent données, mais entités restent communes + infraZones.
 
 ---
 
 ## 6) Indicateurs calculés
 
-### 6.1 Vente (observé)
+### 6.1 Vente (observé DVF)
 
-- `saleMedianPerM2Commune` (DVF comparables).
-- `saleMedianPerM2Hex` (DVF comparables).
-- `saleInseeBaselinePerM2Commune`.
-- `saleGapVsInseePct = (saleMedianPerM2Commune - saleInseeBaselinePerM2Commune) / saleInseeBaselinePerM2Commune`.
+- `saleMedianPerM2Commune` (DVF comparables agrégés par commune).
+- `saleMedianPerM2Hex` (DVF comparables agrégés par hexagone H3).
+- `saleGapVsBaselinePct = (saleMedianPerM2Commune - saleMedianPerM2National) / saleMedianPerM2National` (optionnel : écart vs médiane nationale).
 
-### 6.2 Loyer
+**Note** : La baseline est calculée à partir de DVF (médiane communale), pas importée depuis une source INSEE externe.
 
-- `rentBaselinePerM2Commune` (INSEE/observatoire).
-- `rentEstimatedPerM2Hex` (proxy spatial), formule MVP :
-  - `rentEstimatedHex = rentBaselineCommune * (saleHex / saleCommune)^alpha`
-  - `alpha` configurable (valeur initiale recommandée : `0.6`).
-
-Le loyer hexagonal doit être labellisé `estimé`.
-
-### 6.3 Méthode €/m2 vente
+### 6.2 Méthode €/m² vente
 
 - Numérateur : valeur foncière mutation.
 - Dénominateur : surface habitable logement (maisons/appartements) strictement positive.
 - Exclure dépendances/sol/parcelles du dénominateur.
 - Si non comparable : exclure des agrégats micro.
+- **Factorisation** : Même méthode que `transactions-address-history` (module partagé `dvfSharedParsing.ts`).
 
 ---
 
-## 7) Code couleur (décision MVP)
+## 7) Code couleur (MVP : vente uniquement)
 
-### 7.1 Vente (absolu)
+### 7.1 Vente (palette séquentielle neutre)
 
-Palette séquentielle bleue (bas -> haut) :
-- `#EAF2FF`
-- `#C7DCFF`
-- `#93BEFF`
-- `#5B95F5`
-- `#2F6FD6`
-- `#1B4B99`
+Palette progressive bleu clair → bleu foncé (6 classes) pour éviter confusion sémantique avec mode `insecurity` :
+- `#E3F2FD` (bas - prix faibles)
+- `#BBDEFB`
+- `#90CAF9`
+- `#42A5F5`
+- `#1E88E5`
+- `#1565C0` (haut - prix élevés)
 
-### 7.2 Loyer (absolu)
+**Rationnel** :
+- Palette neutre progressive sans connotation "bon/mauvais"
+- Accessible WCAG AA (contraste suffisant sur fond blanc)
+- Différenciée de la palette insécurité (rouge/orange/vert)
 
-Palette séquentielle verte (bas -> haut) :
-- `#EAF8EF`
-- `#CBEED8`
-- `#9FDEB8`
-- `#68C993`
-- `#39AA70`
-- `#1F7A4D`
+**Seuils de classes** : Définis au build-time dans `meta.json` (quartiles nationaux ou départementaux selon calibration).
 
-### 7.3 Écart à baseline (optionnel MVP+)
+### 7.2 Loyer (réservé post-MVP)
 
-Palette divergente centrée sur 0 :
+Post-MVP : Palette à définir lors de l'ajout de la métrique loyer (commune + hexagones).
+
+### 7.3 Écart à baseline (optionnel post-MVP)
+
+Palette divergente centrée sur 0 (optionnel pour affichage écart vs médiane nationale) :
 - bleu = en dessous de la baseline,
 - neutre = proche baseline,
 - rouge = au-dessus.
@@ -157,19 +171,19 @@ Palette divergente centrée sur 0 :
 Sous `apps/web/public/data/{datasetVersion}/real-estate/` :
 
 1. `communes.json`  
-   - entrée par commune :
-   - `insee`, `saleMedianPerM2`, `saleInseeBaselinePerM2`, `rentBaselinePerM2`, `qualityFlags`.
+   - Entrée par commune : `{ insee, saleMedianPerM2, nSales, qualityLevel }`
+   - `qualityLevel` : "low" (< 10 ventes/24 mois), "medium" (10-30), "high" (> 30)
 
-2. `hex/{metric}/z{bundleZ}/{x}/{y}.json`  
-   - `metric` dans `{sale, rent}`.
-   - cellules hex visibles + valeurs + score qualité.
+2. `hex/sale/z{bundleZ}/{x}/{y}.json`  
+   - MVP : vente uniquement
+   - Cellules hex visibles + valeurs + score qualité
+   - Post-MVP : ajouter `hex/rent/` après implémentation métrique loyer
 
 3. `meta.json`  
-   - période temporelle,
-   - seuils de qualité,
-   - `alpha`,
-   - palettes,
-   - bornes de classes.
+   - Période temporelle (fenêtre glissante 24 mois)
+   - Seuils de qualité (`nMin`, `nEligibleCommune`, `iqrThreshold`)
+   - Palette (`classes`, `colors`)
+   - Bornes de classes (quartiles/déciles)
 
 Le pipeline doit référencer tous ces fichiers dans les manifests versionnés.
 
@@ -181,13 +195,18 @@ Commande inchangée :
 `pnpm --filter @choisir-sa-ville/importer export:static`
 
 Étapes MVP :
-1. Charger DVF + sources INSEE (prix + loyers).
-2. Construire les agrégats communaux vente + loyers baseline.
-3. Identifier les communes éligibles micro.
-4. Calculer les agrégats hexagonaux vente.
-5. Calculer les loyers hex estimés (si baseline dispo).
-6. Écrire `communes.json`, bundles hex, `meta.json`.
-7. Mettre à jour `manifest.json` dataset + `current`.
+1. **Charger DVF** : Réutiliser `dvfGeoDvfSources.ts` (déjà implémenté pour `transactions-address-history`).
+2. **Parser DVF** : Factoriser via module partagé `dvfSharedParsing.ts` (parsing + calcul €/m²).
+3. **Construire agrégats communaux vente** : Médiane, quartiles, nb transactions par commune.
+4. **Identifier communes éligibles micro** : `nSales >= 20` ou `IQR/median >= 0.25`.
+5. **Calculer agrégats hexagonaux vente** : Pour communes éligibles, agréger par hexagone H3.
+   - **Résolution H3** : **Niveau 8** (par défaut, configurable via `packages/shared/src/config/realEstateConfig.ts`).
+   - Rationnel niveau 8 : ~0.74 km² par hexagone, compromis granularité/performance.
+   - Configuration : `H3_RESOLUTION_HEXAGONS = 8` (modifiable sans changement code, permet A/B testing résolutions 7-9).
+6. **Écrire datasets** : `communes.json`, `hex/sale/z{bundleZ}/{x}/{y}.json`, `meta.json`.
+7. **Mettre à jour manifests** : `manifest.json` dataset + `current`.
+
+**Post-MVP** : Ajouter étapes import source loyers + calcul loyers commune/hex.
 
 ---
 
@@ -195,24 +214,33 @@ Commande inchangée :
 
 ### 10.1 État d'affichage
 
-- Étendre `displayModeService` avec `realEstate`.
-- Ajouter un état `realEstateMetric` : `sale | rent`.
+- Étendre `displayModeService` avec mode `realEstate`.
+- MVP : Pas de sélecteur métrique (vente uniquement).
+- Post-MVP : Ajouter état `realEstateMetric : "sale" | "rent"`.
 
 ### 10.2 Couches MapLibre
 
 - Couche commune (fill) active jusqu'à `z < 12`.
 - Couche hex (fill) active pour `z >= 12`.
+- **Règles d'interaction** :
+  - Les hexagones sont **non-cliquables** (pas de `queryRenderedFeatures` sur le layer hex).
+  - Le clic résout toujours l'entité label sous-jacente (commune/infraZone) via le layer labels.
+  - **Infobulle au survol** : `mousemove` sur layer hex → affiche tooltip avec :
+    - Prix médian (€/m²)
+    - Nombre de transactions (24 mois)
+    - Niveau de fiabilité (Faible < 10 / Moyen 10-30 / Fort > 30)
 - Respect strict des événements projet pour traitements viewport :
   - `moveend`
   - `zoomend`
+  - **AbortController obligatoire** pour annulation requests au changement de viewport
 
 ### 10.3 Légende / UI
 
 - Indiquer clairement :
-  - métrique (`Vente` ou `Loyer`),
-  - unité (`€/m2` ou `€/m2/mois`),
-  - statut `estimé` pour le loyer hex,
-  - niveau de fiabilité (faible/moyen/fort).
+  - Métrique : `Vente` (€/m²)
+  - Niveau de fiabilité : basé sur nombre de transactions
+  - Période : fenêtre glissante 24 mois
+- Post-MVP : Ajouter sélecteur `Vente | Loyer` avec indication "Estimé" pour loyers hex.
 
 ---
 
@@ -228,29 +256,38 @@ Commande inchangée :
 ## 12) Critères d'acceptation (MVP)
 
 1. Le mode `realEstate` est disponible en plus de `default` et `insecurity`.
-2. Le sélecteur `Vente | Loyer` fonctionne sans rechargement de page.
+2. MVP : Vente uniquement (pas de sélecteur métrique au MVP).
 3. `zoom < 12` : affichage communal ; `zoom >= 12` : affichage micro hex quand éligible.
-4. Les communes/hex avec données insuffisantes ne sont pas colorées comme données fiables.
-5. Les imports INSEE prix immo + loyers sont présents dans le pipeline et versionnés dans les datasets.
-6. Le loyer micro est explicitement indiqué comme estimation.
-7. Aucun backend runtime n'est introduit.
+4. Les communes/hex avec données insuffisantes ne sont pas colorées (ou colorées avec opacité réduite + badge "Faible fiabilité").
+5. Le parsing DVF est factorisé avec `transactions-address-history` (module partagé `dvfSharedParsing.ts`).
+6. Les hexagones sont **non-cliquables** (clic résout entité label).
+7. Infobulle au survol des hexagones affiche : prix médian, nb transactions, niveau fiabilité.
+8. Aucun backend runtime n'est introduit (architecture Jamstack inchangée).
 
 ---
 
 ## 13) Risques & garde-fous
 
-- Risque de confusion “mesuré vs estimé” pour loyers :
-  - garde-fou : badge `estimé` + tooltip méthodo.
 - Risque de bruit statistique en zones peu liquides :
-  - garde-fou : seuils `n` minimaux + fiabilité.
-- Risque de divergence forte avec baseline INSEE :
-  - garde-fou : conserver baseline importée et traçable, et exposer l'écart.
+  - garde-fou : seuils `n` minimaux + niveau fiabilité affiché.
+- Risque de sur-interprétation données hexagones (granularité apparente forte) :
+  - garde-fou : tooltip explicite niveau fiabilité + nb transactions.
+- Risque de confusion "baseline nationale" :
+  - garde-fou : baseline = médiane DVF calculée et traçable dans `meta.json` (pas importée source externe).
 
 ---
 
 ## 14) Backlog post-MVP
 
-- Calibration empirique de `alpha` par département/typologie.
-- Ajout d'une couche optionnelle “écart à baseline”.
-- Ajout de segmentation (maison/appartement, meublé/non meublé si source disponible).
-- Évaluation d'un format vector tiles/PMTiles pour montée en charge.
+**Métrique loyer** (priorité haute - voir `roadmap-loyers.md`) :
+- Import source CLAMEUR 2025 (loyers d'annonce commune-level)
+- Ajout sélecteur `Vente | Loyer`
+- Disclaimer UI obligatoire (loyers annonces vs réels)
+- Loyers hexagones = valeur commune nearest (pas de formule proxy)
+
+**Évolutions qualité données** :
+- Segmentation type logement (maison/appartement)
+- Ajout couche "écart à baseline" (optionnel)
+- Évaluation vector tiles/PMTiles si montée en charge
+
+**Backlog-loyers complet** : Voir `docs/feature/real-estate-multiscale-indicators/roadmap-loyers.md`

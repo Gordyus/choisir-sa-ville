@@ -85,9 +85,9 @@ La **commune** est l'unité pivot de tout le système de données. Les types INS
 ## Fichiers de référence à lire avant de modifier le code
 
 - `AGENTS.md` — Règles techniques exhaustives du projet (source de vérité).
-- `docs/ARCHITECTURE.md` — Diagrammes et patterns d'architecture détaillés.
-- `docs/LOCALITY_MODEL.md` — Modèle territorial et décisions produit.
-- `specs/` — Spécifications fonctionnelles par feature (avant d'implémenter une feature).
+- `docs/architecture/overview.md` — Diagrammes et patterns d'architecture détaillés.
+- `docs/architecture/locality-model.md` — Modèle territorial et décisions produit.
+- `docs/feature/` — Spécifications fonctionnelles par feature (avant d'implémenter une feature).
 
 ---
 

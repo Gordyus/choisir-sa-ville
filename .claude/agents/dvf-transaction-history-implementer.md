@@ -15,7 +15,7 @@ Read these files completely before writing any code:
 
 1. `docs/feature/transactions-address-history/spec.md` — **Source of truth** for this feature
 2. `AGENTS.md` — Non-negotiable project rules
-3. `docs/ARCHITECTURE.md` — Runtime and build-time architecture
+3. `docs/architecture/overview.md` — Runtime and build-time architecture
 4. `packages/importer/src/exports/exportDataset.ts` — Pipeline orchestrator (follow this pattern)
 5. `apps/web/lib/data/insecurityMetrics.ts` — Data loading pattern to reproduce
 6. `apps/web/lib/map/mapInteractionService.ts` — Interaction service to extend

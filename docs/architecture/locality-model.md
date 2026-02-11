@@ -45,7 +45,7 @@ Les données sont produites au niveau le plus fin disponible. Le runtime remonte
 
 ## Héritage géographique (fallback)
 
-Quand une donnée n'existe pas pour une entité donnée, le runtime peut **hériter** de la donnée du niveau parent géographique. Ce comportement est déclaré par le champ `fallbackChain` dans le `meta.json` de chaque agrégat (voir `docs/ARCHITECTURE.md`).
+Quand une donnée n'existe pas pour une entité donnée, le runtime peut **hériter** de la donnée du niveau parent géographique. Ce comportement est déclaré par le champ `fallbackChain` dans le `meta.json` de chaque agrégat (voir `docs/architecture/overview.md`).
 
 Exemple concret : l'agrégat insécurité est produit au niveau commune. Pour une infraZone (arrondissement), le runtime récupère la valeur de la commune parente via `parentId`. Dans le futur, un agrégat au niveau quartier pourrait fallback vers l'arrondissement puis vers la commune.
 

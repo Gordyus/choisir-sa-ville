@@ -1,5 +1,8 @@
 # Feature — Modes d’affichage carto (Layer Display) + Menu “Couches”
 
+**Statut** : Implémenté  
+**Implémentation** : Terminée  
+**Dernière révision** : 2026-02-05
 ## Contexte
 
 Le projet **choisir-sa-ville** est une application Jamstack : données statiques versionnées servies par le frontend (Next.js) et consommées côté client. La carte est un **adaptateur MapLibre GL** : elle doit rester **performante, prévisible** et **découplée** des composants UI et de la logique métier.

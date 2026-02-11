@@ -1,5 +1,8 @@
 # Specification — Progressive City Display (Stack-Agnostic)
 
+**Statut** : Draft  
+**Implémentation** : Non commencée
+
 ## 1. Purpose
 
 This specification defines a stack-agnostic system to stabilize map navigation and city display

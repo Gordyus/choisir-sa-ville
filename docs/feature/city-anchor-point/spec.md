@@ -1,5 +1,8 @@
 # Specification — City Anchor Point (User-Friendly City Marker)
 
+**Statut** : Draft  
+**Implémentation** : Non commencée
+
 ## 1. Purpose
 
 This specification defines a **stack-agnostic** method to compute and use a **City Anchor Point** (the “center users expect”)

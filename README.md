@@ -38,7 +38,8 @@ Configuration statique servie par Next.js :
 ## Documentation
 
 - `AGENTS.md` : règles techniques (source de vérité)
-- `docs/INDEX.md` : index + parcours de lecture
-- `docs/ARCHITECTURE.md` : architecture actuelle (basée sur le code)
-- `docs/DATA_PIPELINE.md` : génération des datasets statiques
+- `docs/INDEX.md` : table des matières complète avec statuts
+- `docs/architecture/overview.md` : architecture actuelle (basée sur le code)
+- `docs/architecture/data-pipeline.md` : génération des datasets statiques
+- `CONTRIBUTING.md` : guide de contribution
 

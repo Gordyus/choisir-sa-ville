@@ -1,4 +1,7 @@
-# App-urbaine - City Search + Travel-Time Ranking (Host-Agnostic Spec)
+# City Search + Travel-Time Ranking (Host-Agnostic Spec)
+
+**Statut** : Draft  
+**Implémentation** : Non commencée
 
 ## 1) Scope
 

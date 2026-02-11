@@ -1,7 +1,8 @@
 # Zone Political Color Index Spec
-Status: Draft  
-Owner: Product/Tech  
-Last updated: 2026-01-20
+
+**Statut** : Draft  
+**Implémentation** : Non commencée  
+**Dernière révision** : 2026-01-20
 
 ## 1. Purpose
 Add a **“political color / political orientation”** aggregate to each *Zone* so users can:

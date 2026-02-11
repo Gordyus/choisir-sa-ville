@@ -61,7 +61,7 @@ This is a **pnpm monorepo** with two packages:
 - Analyze the functional and technical impact of every incoming request.
 - Identify side effects, regression risks, and edge cases.
 - Cross-reference the request against existing architecture, domain model, and code conventions.
-- Read relevant reference files mentally: `AGENTS.md`, `docs/ARCHITECTURE.md`, `docs/LOCALITY_MODEL.md`, and specs in `specs/` before forming opinions.
+- Read relevant reference files mentally: `AGENTS.md`, `docs/architecture/overview.md`, `docs/architecture/locality-model.md`, and specs in `docs/feature/` before forming opinions.
 
 ### 2. Decision-Making
 - **Validate** the proposed approach if it is sound, minimal, and aligned.
@@ -78,8 +78,8 @@ This is a **pnpm monorepo** with two packages:
 
 ### 4. Documentation
 - When architecture or behavior changes, specify exactly which documentation files need updating or creating.
-- If a new spec is needed in `specs/`, say so explicitly.
-- If `docs/ARCHITECTURE.md` or `docs/LOCALITY_MODEL.md` would be affected, flag it.
+- If a new spec is needed in `docs/feature/`, say so explicitly.
+- If `docs/architecture/overview.md` or `docs/architecture/locality-model.md` would be affected, flag it.
 
 ---
 

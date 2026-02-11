@@ -30,7 +30,9 @@ choisir-sa-ville/
 │           ├── config/     # Config runtime (JSON)
 │           └── data/       # Datasets statiques versionnés
 ├── docs/
-└── specs/
+│   ├── architecture/       # Architecture & patterns techniques
+│   ├── metrics/            # Documentation métriques (insécurité, etc.)
+│   └── feature/            # Spécifications features (1 dossier = 1 feature)
 ```
 
 **Règle**: Toute configuration métier partagée entre importer et web doit vivre dans `packages/shared/`. Aucune duplication autorisée.
@@ -100,7 +102,7 @@ Pays → Région → Département → Commune (pivot) → Zone infra (optionnell
 
 Règle : une zone infra n’existe jamais sans commune parente (ARM/COMD/COMA).
 
-Voir `docs/LOCALITY_MODEL.md`.
+Voir `docs/architecture/locality-model.md`.
 
 ---
 

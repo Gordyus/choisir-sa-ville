@@ -63,7 +63,7 @@ Avant implémentation future, valider :
 
 ## Liens
 
-- `docs/LOCALITY_MODEL.md` — Hiérarchie territoriale et ARM
+- `docs/architecture/locality-model.md` — Hiérarchie territoriale et ARM
 - `packages/importer/src/exports/communes/metrics/insecurity/` — Export existant
 - `apps/web/lib/map/layers/adminPolygons.ts` — Layers carte communes + ARM
 - `apps/web/lib/data/insecurityMetrics.ts` — Couche data insécurité (à étendre si go)
