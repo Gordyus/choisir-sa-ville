@@ -24,9 +24,9 @@ import maplibregl from "maplibre-gl";
 import { INSECURITY_COLORS } from "@/lib/config/insecurityPalette";
 import { getCommuneByInsee } from "@/lib/data/communesIndexLite";
 import { loadInsecurityMeta, loadInsecurityYear, type InsecurityMetricsRow } from "@/lib/data/insecurityMetrics";
-import { COMMUNE_COLORS } from "@/lib/map/layers/highlightState";
-import { LAYER_IDS } from "@/lib/map/registry/layerRegistry";
+import { buildLineWidthExpr, COMMUNE_COLORS, COMMUNE_LINE_WIDTH } from "@/lib/map/layers/highlightState";
 import { GenericPopup, type PopupContent } from "@/lib/map/popupRenderer";
+import { LAYER_IDS } from "@/lib/map/registry/layerRegistry";
 import { getEntityStateService } from "@/lib/selection";
 
 import { displayModeService, type DisplayMode } from "./displayModeService";
@@ -44,6 +44,8 @@ type SavedExpressions = {
     fillColor: ExpressionSpecification | string | undefined;
     fillOpacity: ExpressionSpecification | number | undefined;
     lineColor: ExpressionSpecification | string | undefined;
+    lineOpacity: ExpressionSpecification | number | undefined;
+    lineWidth: ExpressionSpecification | number | undefined;
 };
 
 type DisplayBinderState = {
@@ -78,6 +80,10 @@ const INSECURITY_FILL_OPACITY_DESKTOP = 0.75;
 
 /** Fill opacity for insecurity choroplèthe (mobile - more visible) */
 const INSECURITY_FILL_OPACITY_MOBILE = 1;
+
+/** Line opacity for insecurity mode (show white outlines by default) */
+const INSECURITY_LINE_OPACITY = 1;
+const INSECURITY_LINE_WIDTH_BASE = 1;
 
 /** Default fill color when no data */
 const DEFAULT_FILL_COLOR = "#64748b"; // slate-500
@@ -173,8 +179,20 @@ function buildInsecurityLineColorExpr(): ExpressionSpecification {
         COMMUNE_COLORS.line.active,
         ["boolean", ["feature-state", "highlight"], false],
         COMMUNE_COLORS.line.highlight,
-        COMMUNE_COLORS.line.base
+        "#FFFFFF"
     ] as ExpressionSpecification;
+}
+
+/**
+ * Build line-width expression for insecurity mode.
+ * Keeps active/highlight widths and enables visible base outline.
+ */
+function buildInsecurityLineWidthExpr(): ExpressionSpecification {
+    return buildLineWidthExpr(
+        INSECURITY_LINE_WIDTH_BASE,
+        COMMUNE_LINE_WIDTH.highlight,
+        COMMUNE_LINE_WIDTH.active
+    );
 }
 
 // ============================================================================
@@ -304,6 +322,14 @@ function saveCurrentExpressions(map: MapLibreMap): SavedExpressions {
             | ExpressionSpecification
             | string
             | undefined,
+        lineOpacity: map.getPaintProperty(LINE_LAYER_ID, "line-opacity") as
+            | ExpressionSpecification
+            | number
+            | undefined,
+        lineWidth: map.getPaintProperty(LINE_LAYER_ID, "line-width") as
+            | ExpressionSpecification
+            | number
+            | undefined,
     };
 }
 
@@ -313,6 +339,7 @@ function saveCurrentExpressions(map: MapLibreMap): SavedExpressions {
 function applyInsecurityExpressions(state: DisplayBinderState): void {
     const fillColorExpr = buildInsecurityFillColorExpr();
     const lineColorExpr = buildInsecurityLineColorExpr();
+    const lineWidthExpr = buildInsecurityLineWidthExpr();
 
     // Determine fill-opacity based on mobile detection
     const fillOpacity = state.isMobile
@@ -322,6 +349,8 @@ function applyInsecurityExpressions(state: DisplayBinderState): void {
     state.map.setPaintProperty(FILL_LAYER_ID, "fill-color", fillColorExpr);
     state.map.setPaintProperty(FILL_LAYER_ID, "fill-opacity", fillOpacity);
     state.map.setPaintProperty(LINE_LAYER_ID, "line-color", lineColorExpr);
+    state.map.setPaintProperty(LINE_LAYER_ID, "line-opacity", INSECURITY_LINE_OPACITY);
+    state.map.setPaintProperty(LINE_LAYER_ID, "line-width", lineWidthExpr);
 }
 
 /**
@@ -336,6 +365,12 @@ function restoreOriginalExpressions(map: MapLibreMap, saved: SavedExpressions): 
     }
     if (saved.lineColor !== undefined) {
         map.setPaintProperty(LINE_LAYER_ID, "line-color", saved.lineColor);
+    }
+    if (saved.lineOpacity !== undefined) {
+        map.setPaintProperty(LINE_LAYER_ID, "line-opacity", saved.lineOpacity);
+    }
+    if (saved.lineWidth !== undefined) {
+        map.setPaintProperty(LINE_LAYER_ID, "line-width", saved.lineWidth);
     }
 }
 
