@@ -2,8 +2,8 @@
 
 Ce document définit les règles **NON NÉGOCIABLES** pour le développement du projet.
 
-**Dernière mise à jour** : 4 février 2026  
-**Architecture** : Jamstack (données statiques + Next.js)
+**Dernière mise à jour** : 12 février 2026  
+**Architecture** : Jamstack étendu (données statiques + Next.js + backend routing minimal)
 
 ---
 
@@ -11,10 +11,13 @@ Ce document définit les règles **NON NÉGOCIABLES** pour le développement du 
 
 ### Principe fondamental
 
-Le projet utilise une **architecture statique** :
-- **Build time** : génération de datasets JSON depuis des sources ouvertes (INSEE, etc.)
-- **Runtime** : Next.js sert des fichiers statiques (données + config)
-- **Aucun backend API** applicatif, **aucune base de données** au runtime
+Le projet utilise une **architecture Jamstack étendue** :
+- **Build time** : génération de datasets JSON depuis des sources ouvertes (INSEE, DVF, etc.)
+- **Runtime frontend** : Next.js sert des fichiers statiques (données + config)
+- **Runtime backend** : Service routing minimal **uniquement** (calcul temps de trajet)
+  - Scope strict : orchestration API routage externe (TomTom), cache optionnel
+  - **Interdit** : logique métier, agrégation données, authentification utilisateur
+  - **Exception unique** motivée par impossibilité technique : temps de trajet avec heure de départ = API externe obligatoire
 
 ### Monorepo
 
@@ -25,17 +28,27 @@ choisir-sa-ville/
 │   │   └── src/config/     # Configs métier (insecurityMetrics, etc.)
 │   └── importer/           # Pipeline de génération (batch, build-time)
 ├── apps/
-│   └── web/                # Next.js (frontend)
-│       └── public/
-│           ├── config/     # Config runtime (JSON)
-│           └── data/       # Datasets statiques versionnés
+│   ├── web/                # Next.js (frontend)
+│   │   └── public/
+│   │       ├── config/     # Config runtime (JSON)
+│   │       └── data/       # Datasets statiques versionnés
+│   └── api-routing/        # Backend routing (Fastify + PostgreSQL optionnel)
+│       ├── src/
+│       │   ├── routes/     # Endpoints (/api/routing/matrix, /api/geocode)
+│       │   ├── services/   # RoutingProvider (abstraction TomTom/OSRM)
+│       │   └── config/     # Variables env
+│       └── package.json
 ├── docs/
 │   ├── architecture/       # Architecture & patterns techniques
 │   ├── metrics/            # Documentation métriques (insécurité, etc.)
 │   └── feature/            # Spécifications features (1 dossier = 1 feature)
 ```
 
-**Règle**: Toute configuration métier partagée entre importer et web doit vivre dans `packages/shared/`. Aucune duplication autorisée.
+**Règles** :
+- Configuration métier partagée : **obligatoirement** dans `packages/shared/` (aucune duplication)
+- Backend routing : **scope strict** limité au calcul temps de trajet (voir spec `docs/feature/routing-service/spec.md`)
+- Pattern **Adapter** obligatoire pour abstraction provider (interface `RoutingProvider`, implémentations `TomTomProvider`, `OSRMProvider`, etc.)
+- **Aucune logique métier** dans le backend (scoring, filtrage, agrégations → client-side uniquement)
 
 ### Séparation des responsabilités (apps/web)
 
@@ -60,7 +73,36 @@ choisir-sa-ville/
 
 ---
 
-## 2) Frontend (NON NÉGOCIABLE)
+## 2) Backend Routing (SCOPE LIMITÉ)
+
+### Stack obligatoire
+
+- **Fastify** (Node.js + TypeScript)
+- **PostgreSQL** (optionnel cache, peut être mocké en MVP)
+- **Pattern Adapter** : abstraction provider routing (TomTom, OpenRouteService, OSRM)
+
+### Endpoints autorisés
+
+**UNIQUEMENT** :
+1. `POST /api/routing/matrix` — Calcul temps de trajet commune → destination(s)
+2. `POST /api/geocode` — Géocodage adresse → coordonnées GPS
+3. `GET /api/health` — Health check monitoring
+
+**Configuration** : Variables env pour provider, cache, marges d'erreur (voir `docs/feature/routing-service/spec.md`)
+
+### Interdictions strictes
+
+- ❌ Logique métier (scoring, filtrage communes, agrégations)
+- ❌ Authentification / gestion utilisateurs
+- ❌ Stockage données métier (communes, transactions, métriques)
+- ❌ Endpoints non listés ci-dessus
+- ❌ Dépendance forte à un provider (code métier doit utiliser interface `RoutingProvider`)
+
+**Principe** : Le backend est un **proxy cache** vers API routing externe, **rien d'autre**.
+
+---
+
+## 3) Frontend (NON NÉGOCIABLE)
 
 ### Stack obligatoire
 
@@ -94,7 +136,7 @@ Interdits : autre framework UI, autre framework CSS, état global React “gratu
 
 ---
 
-## 3) Données (décisions produit)
+## 4) Données (décisions produit)
 
 Hiérarchie :
 
@@ -106,7 +148,7 @@ Voir `docs/architecture/locality-model.md`.
 
 ---
 
-## 4) Pipeline de données (packages/importer)
+## 5) Pipeline de données (packages/importer)
 
 - Batch Node.js, jamais appelé au runtime
 - Produit un dataset versionné `vYYYY-MM-DD`
@@ -119,7 +161,7 @@ pnpm --filter @choisir-sa-ville/importer export:static
 
 ---
 
-## 5) Conventions
+## 6) Conventions
 
 - TypeScript strict (pas de `any` sans justification)
 - camelCase partout dans le code
@@ -127,7 +169,7 @@ pnpm --filter @choisir-sa-ville/importer export:static
 
 ---
 
-## 6) Qualité
+## 7) Qualité
 
 - `pnpm typecheck` doit passer
 - `pnpm lint:eslint` doit passer (0 warning)
