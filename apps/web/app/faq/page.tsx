@@ -8,12 +8,12 @@ export default function FAQPage() {
     const [openId, setOpenId] = useState<string | null>(FAQ_ITEMS[0]?.id ?? null);
 
     return (
-        <div className="flex-1 overflow-y-auto py-12 px-4">
+        <div className="flex-1 overflow-y-auto px-4 py-12">
             <div className="mx-auto max-w-2xl">
-                <h1 className="text-4xl font-bold mb-2 text-foreground">
+                <h1 className="mb-2 text-4xl font-bold text-brand-dark">
                     Questions fréquentes
                 </h1>
-                <p className="text-lg text-muted-foreground mb-8">
+                <p className="mb-8 text-lg text-brand/60">
                     Tout ce que vous devez savoir sur les données et indicateurs affichés.
                 </p>
 
@@ -26,10 +26,10 @@ export default function FAQPage() {
                                 setOpenId(isOpen ? item.id : null)
                             }
                         >
-                            <CollapsibleTrigger className="w-full flex items-center justify-between px-4 py-3 bg-card border border-border rounded-lg hover:bg-card/80 transition-colors text-left font-semibold text-foreground">
+                            <CollapsibleTrigger className="flex w-full items-center justify-between rounded-lg border border-brand/15 bg-white px-4 py-3 text-left font-semibold text-brand-dark transition-colors hover:bg-brand/5">
                                 {item.title}
                                 <svg
-                                    className={`h-5 w-5 transition-transform ${
+                                    className={`h-5 w-5 text-brand/50 transition-transform ${
                                         openId === item.id ? "rotate-180" : ""
                                     }`}
                                     fill="none"
@@ -44,7 +44,7 @@ export default function FAQPage() {
                                     />
                                 </svg>
                             </CollapsibleTrigger>
-                            <CollapsibleContent className="px-4 py-4 bg-card/50 border border-t-0 border-border rounded-b-lg text-sm text-foreground/80 whitespace-pre-wrap space-y-3">
+                            <CollapsibleContent className="space-y-3 whitespace-pre-wrap rounded-b-lg border border-t-0 border-brand/15 bg-brand/[0.02] px-4 py-4 text-sm text-brand/80">
                                 {typeof item.content === "string" ? (
                                     <div className="leading-relaxed">
                                         {item.content}

@@ -51,8 +51,8 @@ export function MapLayerMenu(): JSX.Element {
         />
       )}
 
-      {/* Menu Container */}
-      <div className="fixed left-4 top-4 z-50">
+      {/* Menu Container — overlay inside map, bottom-left */}
+      <div className="absolute bottom-4 left-4 z-50">
         {/* Toggle Button */}
         <Button
           onClick={() => setIsOpen(!isOpen)}
@@ -100,7 +100,7 @@ export function MapLayerMenu(): JSX.Element {
         {/* Dropdown Menu */}
         {isOpen && (
           <div
-            className="absolute left-0 top-full mt-2 w-40 rounded-lg border border-slate-200 bg-white shadow-lg"
+            className="absolute bottom-full left-0 mb-2 w-40 rounded-lg border border-slate-200 bg-white shadow-lg"
             role="menu"
           >
             {/* Default Mode */}

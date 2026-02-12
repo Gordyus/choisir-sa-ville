@@ -181,12 +181,12 @@ export default function RightPanelDetailsCard({
         : "Sélectionne une zone ou une commune pour afficher ses informations.";
 
     return (
-        <Card className={cn("flex h-full min-h-0 flex-col", className)} {...props}>
-            <CardHeader className="flex-shrink-0">
-                <CardTitle className="text-xl text-brand-dark">Détails</CardTitle>
-                <CardDescription>{description}</CardDescription>
+        <Card className={cn("flex h-full min-h-0 flex-col border-0 bg-transparent shadow-none", className)} {...props}>
+            <CardHeader className="flex-shrink-0 px-5 pb-3 pt-5">
+                <CardTitle className="text-lg font-semibold text-brand-dark">Détails</CardTitle>
+                <CardDescription className="text-xs">{description}</CardDescription>
             </CardHeader>
-            <CardContent className="min-h-0 flex-1 overflow-y-auto text-sm text-brand/80">
+            <CardContent className="min-h-0 flex-1 overflow-y-auto px-5 pb-5 text-sm text-brand/80">
                 {renderContent({
                     status,
                     activeEntity,
@@ -248,17 +248,18 @@ function renderContent({
             return <InfoMessage message="Données indisponibles pour cette zone." />;
         }
         return (
-            <div className="space-y-3">
-                <div className="flex items-center justify-between">
-                    <DetailRow label="Nom" value={zone.name} emphasized />
+            <div className="space-y-1">
+                <div className="flex items-center justify-between pb-2">
+                    <h3 className="text-base font-semibold text-brand-dark">{zone.name}</h3>
                     <InsecurityBadge inseeCode={zone.parentCommuneCode} />
                 </div>
-                <DetailRow label="Type" value={zone.type || "—"} />
-                <DetailRow label="Code" value={zone.code || zone.id} />
-                <DetailRow label="Identifiant" value={zone.id} />
-                <DetailRow label="Population" value={formatPopulation(zone.population)} />
-                <DetailRow label="Commune parente" value={parentCommuneDetails?.name ?? "—"} />
-                <DetailRow label="Code commune parente" value={zone.parentCommuneCode || "—"} />
+                <div className="divide-y divide-brand/5">
+                    <DetailRow label="Type" value={zone.type || "—"} />
+                    <DetailRow label="Code" value={zone.code || zone.id} />
+                    <DetailRow label="Population" value={formatPopulation(zone.population)} />
+                    <DetailRow label="Commune parente" value={parentCommuneDetails?.name ?? "—"} />
+                    <DetailRow label="Code commune" value={zone.parentCommuneCode || "—"} />
+                </div>
             </div>
         );
     }
@@ -269,15 +270,17 @@ function renderContent({
     }
 
     return (
-        <div className="space-y-3">
-            <div className="flex items-center justify-between">
-                <DetailRow label="Nom" value={commune.name} emphasized />
+        <div className="space-y-1">
+            <div className="flex items-center justify-between pb-2">
+                <h3 className="text-base font-semibold text-brand-dark">{commune.name}</h3>
                 <InsecurityBadge inseeCode={commune.inseeCode} />
             </div>
-            <DetailRow label="Code INSEE" value={commune.inseeCode} />
-            <DetailRow label="Département" value={commune.departmentCode || "—"} />
-            <DetailRow label="Région" value={commune.regionCode || "—"} />
-            <DetailRow label="Population" value={formatPopulation(commune.population)} />
+            <div className="divide-y divide-brand/5">
+                <DetailRow label="Code INSEE" value={commune.inseeCode} />
+                <DetailRow label="Département" value={commune.departmentCode || "—"} />
+                <DetailRow label="Région" value={commune.regionCode || "—"} />
+                <DetailRow label="Population" value={formatPopulation(commune.population)} />
+            </div>
         </div>
     );
 }
@@ -475,9 +478,9 @@ function DetailRow({
     emphasized?: boolean;
 }): JSX.Element {
     return (
-        <div className="flex items-center justify-between rounded-2xl border border-brand/10 px-3 py-2">
-            <span className="text-brand/70">{label}</span>
-            <span className={cn("font-semibold", emphasized ? "text-brand-dark" : "text-brand-dark/70")}>
+        <div className="flex items-center justify-between py-2">
+            <span className="text-xs text-brand/50">{label}</span>
+            <span className={cn("text-sm font-medium", emphasized ? "text-brand-dark" : "text-brand-dark/80")}>
                 {value}
             </span>
         </div>
@@ -488,11 +491,11 @@ function InfoMessage({ message, loading = false }: { message: string; loading?: 
     return (
         <div
             className={cn(
-                "flex h-full min-h-[120px] items-center justify-center rounded-2xl border border-brand/10 px-4",
+                "flex h-full min-h-[120px] items-center justify-center px-4",
                 loading && "animate-pulse"
             )}
         >
-            <p className="text-center text-brand/70">{message}</p>
+            <p className="text-center text-sm text-brand/40">{message}</p>
         </div>
     );
 }
