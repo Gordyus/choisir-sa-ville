@@ -29,7 +29,7 @@ import { getCommuneLabelsVectorLayerId } from "@/lib/map/layers/communeLabelsVec
 import { attachMapInteractionService } from "@/lib/map/mapInteractionService";
 import { attachDisplayBinder } from "@/lib/map/state/displayBinder";
 import { loadMapStyle } from "@/lib/map/style/stylePipeline";
-import { addTransactionLayer } from "@/lib/map/transactionLayer";
+import { addTransactionLayer } from "@/features/transactions";
 import { formatViewForURL, parseViewFromURL } from "@/lib/map/urlState";
 import { cn } from "@/lib/utils";
 

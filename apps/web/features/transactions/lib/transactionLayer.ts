@@ -12,10 +12,10 @@
 
 import type { Map as MapLibreMap } from "maplibre-gl";
 
-import { getTransactionAddressesGeoJsonUrl } from "@/lib/data/transactionBundles";
-import { ENTITY_STATE_COLORS } from "./layers/entityVisualStateColors";
+import { getTransactionAddressesGeoJsonUrl } from "./transactionBundles";
+import { ENTITY_STATE_COLORS } from "@/lib/map/layers/entityVisualStateColors";
 
-import { LAYER_IDS, SOURCE_IDS, ZOOM_RANGES } from "./registry/layerRegistry";
+import { LAYER_IDS, SOURCE_IDS, ZOOM_RANGES } from "@/lib/map/registry/layerRegistry";
 
 // ============================================================================
 // Point Size Configuration (easily adjustable)

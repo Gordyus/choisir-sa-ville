@@ -22,14 +22,14 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { getCommuneByInsee, type CommuneIndexLiteEntry } from "@/lib/data/communesIndexLite";
 import { getInfraZoneById, type InfraZoneIndexLiteEntry } from "@/lib/data/infraZonesIndexLite";
-import { getTransactionHistory } from "@/lib/data/transactionBundles";
+import { getTransactionHistory } from "@/features/transactions";
 import {
     buildMutationCompositionLabel,
     computePricePerM2,
     hasLotDetails,
     isMutationComplex,
     isMutationGrouped
-} from "@/lib/data/transactions/mutationFormatters";
+} from "@/features/transactions";
 import { useActiveEntity, type EntityRef, type MutationSummary, type TransactionAddressData } from "@/lib/selection";
 import { cn } from "@/lib/utils";
 

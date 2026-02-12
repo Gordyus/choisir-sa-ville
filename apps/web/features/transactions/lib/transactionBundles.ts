@@ -9,7 +9,7 @@
 
 import type { TransactionAddressData } from "@/lib/selection/types";
 
-import { debugLogEntityFetch } from "./entityFetchDebug";
+import { debugLogEntityFetch } from "@/lib/data/entityFetchDebug";
 
 // ============================================================================
 // Constants

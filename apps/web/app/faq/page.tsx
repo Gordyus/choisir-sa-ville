@@ -1,7 +1,7 @@
 "use client";
 
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
-import { FAQ_ITEMS } from "@/lib/data/faqContent";
+import { FAQ_ITEMS } from "@/features/faq";
 import { useState } from "react";
 
 export default function FAQPage() {
