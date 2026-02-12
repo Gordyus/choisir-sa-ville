@@ -37,7 +37,7 @@ export class MockProvider implements RoutingProvider {
     return { durations, distances };
   }
 
-  async geocode(address: string): Promise<Coordinates> {
+  async geocode(_address: string): Promise<Coordinates> {
     // Mock geocoding - return fixed coordinates for testing
     // In real usage, this would call an external geocoding API
     return {

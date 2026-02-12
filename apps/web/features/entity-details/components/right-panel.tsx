@@ -7,7 +7,7 @@
 
 import type { HTMLAttributes } from "react";
 
-import RightPanelDetailsCard from "@/components/right-panel-details-card";
+import RightPanelDetailsCard from "@/features/entity-details/components/right-panel-details-card";
 import { cn } from "@/lib/utils";
 
 type RightPanelProps = HTMLAttributes<HTMLDivElement>;

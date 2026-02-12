@@ -20,8 +20,8 @@ import maplibregl, { Map as MapLibreMap, NavigationControl } from "maplibre-gl";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
-import { MapDebugOverlay } from "@/components/map-debug-overlay";
-import { MapLayerMenu } from "@/components/map-layer-menu";
+import { MapDebugOverlay } from "@/features/map-viewer/components/map-debug-overlay";
+import { MapLayerMenu } from "@/features/map-viewer/components/map-layer-menu";
 import { loadAppConfig, type AppConfig } from "@/lib/config/appConfig";
 import { attachEntityGraphicsBinder } from "@/lib/map/entityGraphicsBinder";
 import { getArrMunicipalLabelsVectorLayerId } from "@/lib/map/layers/arrMunicipalLabelsVector";

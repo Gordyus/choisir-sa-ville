@@ -29,11 +29,10 @@ Il n'y a pas de framework de test configuré en ce moment (vitest est prévu). `
 
 ## Architecture — points critiques
 
-**C'est un monorepo pnpm avec deux packages :**
+**C'est un monorepo pnpm avec trois packages :**
 - `apps/web` — Application Next.js 15 (App Router). Tout le frontend.
+- `apps/api` — Backend API minimal (Fastify). Structuré par domaine (`routing/`, `health/`, `shared/`). Scope strict : orchestration API routage externe.
 - `packages/importer` — Script Node.js batch uniquement. Génère les données statiques dans `apps/web/public/data/`. **Jamais appelé au runtime.**
-
-**Il n'y a aucun backend API et aucune base de données.** Le `docker-compose.yml` à la racine et les références PostgreSQL dans `.env` sont des restes de l'architecture v0.1.x — les ignorer. De même, `apps/api` n'existe plus.
 
 **Les données sont versionées** dans `apps/web/public/data/v{YYYY}-{MM}-{DD}/`. Un symlink `current` pointe vers la dernière version. Le frontend récupère les données via des requêtes HTTP vers ces fichiers statiques.
 
@@ -48,7 +47,8 @@ Cette séparation est **non négociable**. Les quatre couches ne se mélangent p
 | **Selection** | `lib/selection/` | État de sélection (highlighted / active). Pattern observable avec listeners. | TypeScript pur — **aucune** dépendance React ni MapLibre |
 | **Data** | `lib/data/` | Accès aux données via `EntityDataProvider` (interface). Implémentations : `StaticFilesEntityDataProvider` (fetch HTTP) + décorateur `CachedEntityDataProvider` (IndexedDB, TTL 7 jours). Hooks React : `useEntity`, `useCommune`, `useInfraZone`. | Peut importer de `lib/selection/` pour lire l'état |
 | **Map** | `lib/map/` | Adaptateur MapLibre. Consomme `SelectionService`, produit des événements highlight/active, applique les feature-states sur les labels. | Dépend de `lib/selection/`. **Ne fetch pas les données directement.** |
-| **Components** | `components/` | UI React uniquement. Consomme les hooks de selection et data. | Hooks uniquement — pas d'accès direct à la carte ni à la logique métier |
+| **Components** | `components/` | Composants UI **partagés** : `ui/` (shadcn primitives), `layout/` (header, footer). | Hooks uniquement — pas d'accès direct à la carte ni à la logique métier |
+| **Features** | `features/` | Domaines métier : 1 dossier = 1 feature autonome (`components/`, `hooks/`, `types.ts`). Consomme `lib/*` et `components/ui/`. | Peut importer de `lib/*` et `components/ui/`. **Jamais d'import cross-feature.** |
 
 ---
 

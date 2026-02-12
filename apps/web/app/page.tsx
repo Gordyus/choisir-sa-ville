@@ -7,8 +7,8 @@
  * NO local selection state - uses centralized SelectionService.
  */
 
-import RightPanel from "@/components/right-panel";
-import VectorMap from "@/components/vector-map";
+import RightPanel from "@/features/entity-details/components/right-panel";
+import VectorMap from "@/features/map-viewer/components/vector-map";
 
 export default function HomePage(): JSX.Element {
     return (

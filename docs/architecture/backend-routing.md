@@ -34,7 +34,7 @@ Le backend routing est un **service minimal** qui orchestre les appels à une AP
 ### Structure du projet
 
 ```
-apps/api-routing/
+apps/api/
 ├── src/
 │   ├── index.ts                          # Point d'entrée Fastify
 │   ├── config/
@@ -690,3 +690,4 @@ const API_BASE_URL =
 - [Geohash Wikipedia](https://en.wikipedia.org/wiki/Geohash)
 - [Fastify Documentation](https://fastify.dev/)
 - [Railway.app Documentation](https://docs.railway.app/)
+

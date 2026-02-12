@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import type { ReactNode } from "react";
 
-import Footer from "@/components/footer";
-import Header from "@/components/header";
+import Footer from "@/components/layout/footer";
+import Header from "@/components/layout/header";
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], display: "swap" });

@@ -32,10 +32,11 @@ choisir-sa-ville/
 │   │   └── public/
 │   │       ├── config/     # Config runtime (JSON)
 │   │       └── data/       # Datasets statiques versionnés
-│   └── api-routing/        # Backend routing (Fastify + PostgreSQL optionnel)
+│   └── api/                # Backend API (Fastify, structuré par domaine)
 │       ├── src/
-│       │   ├── routes/     # Endpoints (/api/routing/matrix, /api/geocode)
-│       │   ├── services/   # RoutingProvider (abstraction TomTom/OSRM)
+│       │   ├── routing/    # Domaine routing (providers, cache, utils)
+│       │   ├── health/     # Domaine monitoring
+│       │   ├── shared/     # Code partagé cross-domain (errors, types)
 │       │   └── config/     # Variables env
 │       └── package.json
 ├── docs/
@@ -67,9 +68,16 @@ choisir-sa-ville/
 - Gère interactions via `mapInteractionService.ts`
 - Met à jour `SelectionService` (pas de logique UI)
 
-**components/** (UI)
-- Aucune logique métier lourde
-- Consomme `SelectionService` (hooks) et `lib/data/*` pour charger les infos à afficher
+**components/** (UI partagée)
+- `components/ui/` : primitives shadcn/ui uniquement
+- `components/layout/` : header, footer, shell applicatif
+
+**features/** (domaines métier)
+- 1 domaine = 1 dossier autonome (`components/`, `hooks/`, `types.ts`)
+- Chaque feature consomme `lib/*` (transversal) et `components/ui/` (primitives)
+- **Ne créer un dossier feature que lorsque le code est implémenté** (pas de dossiers vides anticipés)
+- Domaines actuels : `map-viewer`, `entity-details`
+- Domaines futurs (post-MVP) : `search`, `reports`
 
 ---
 
