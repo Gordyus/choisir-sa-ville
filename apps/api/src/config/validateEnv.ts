@@ -8,11 +8,11 @@
 export interface EnvConfig {
   // Provider
   ROUTING_PROVIDER: 'tomtom' | 'mock';
-  TOMTOM_API_KEY?: string;
+  TOMTOM_API_KEY: string | undefined;
 
   // Cache
   ENABLE_CACHE: boolean;
-  DATABASE_URL?: string;
+  DATABASE_URL: string | undefined;
 
   // Optimizations
   GEOHASH_PRECISION: number;
@@ -30,7 +30,7 @@ export interface EnvConfig {
   NODE_ENV: 'development' | 'production' | 'test';
 
   // Monitoring (optional)
-  SENTRY_DSN?: string;
+  SENTRY_DSN: string | undefined;
 }
 
 export const env: EnvConfig = {
