@@ -15,7 +15,7 @@
 import type { HTMLAttributes } from "react";
 import { useEffect, useState } from "react";
 
-import { InsecurityBadge } from "@/features/entity-details/components/insecurity-badge";
+import { InsecurityBadge } from "@/features/entity-details";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
