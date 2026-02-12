@@ -131,8 +131,9 @@ Interdits : autre framework UI, autre framework CSS, état global React “gratu
 - Résolution d’entité : nom normalisé → candidates (index lite) → nearest par distance
 
 **Feature-state**
-- Vocabulaire strict (labels) : `hasData`, `highlight`, `active`
+- Vocabulaire strict (labels) : `hasData`, `highlight`, `active`, `score`, `isSearchResult`
 - Le style applique la priorité : `active > highlight > hasData > default`
+- Vocabulaire recherche (labels) : `score` (number 0-1), `isSearchResult` (boolean)
 
 ---
 
