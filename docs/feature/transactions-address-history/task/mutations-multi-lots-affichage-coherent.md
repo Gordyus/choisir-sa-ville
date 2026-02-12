@@ -1,7 +1,8 @@
 # Task — Historique transactions : afficher les ventes multi-lots par mutation (vue cohérente)
 
-**Statut** : Approved (with conditions)  
-**Date validation** : 11 février 2026
+**Statut** : ✅ Implémenté  
+**Date validation** : 11 février 2026  
+**Date implémentation** : 11 février 2026
 
 ## Problème observé
 

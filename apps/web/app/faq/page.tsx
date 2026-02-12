@@ -8,13 +8,13 @@ export default function FAQPage() {
     const [openId, setOpenId] = useState<string | null>(FAQ_ITEMS[0]?.id ?? null);
 
     return (
-        <div className="min-h-screen bg-background py-12 px-4">
+        <div className="flex-1 overflow-y-auto py-12 px-4">
             <div className="mx-auto max-w-2xl">
                 <h1 className="text-4xl font-bold mb-2 text-foreground">
                     Questions fréquentes
                 </h1>
                 <p className="text-lg text-muted-foreground mb-8">
-                    Tout ce que vous devez savoir sur le classement des communes par insécurité.
+                    Tout ce que vous devez savoir sur les données et indicateurs affichés.
                 </p>
 
                 <div className="space-y-2">

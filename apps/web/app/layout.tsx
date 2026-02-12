@@ -19,7 +19,7 @@ export default function RootLayout({ children }: { children: ReactNode }): JSX.E
     return (
         <html lang="fr" className="h-full">
             <body className={`${spaceGrotesk.className} h-full bg-transparent text-slate-900`}>
-                <div className="flex min-h-dvh flex-col bg-transparent">
+                <div className="flex h-dvh flex-col overflow-hidden bg-transparent">
                     <Header />
                     <main className="flex min-h-0 w-full flex-1 flex-col bg-transparent">
                         <div className="flex min-h-0 w-full flex-1 flex-col">{children}</div>

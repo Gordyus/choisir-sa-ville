@@ -1,7 +1,7 @@
 # Spécification — Historique des transactions à l’adresse (DVF+) — MVP Hérault (34)
 
-**Statut** : Draft  
-**Date** : 5 février 2026  
+**Statut** : ✅ Implémenté (MVP 34) — Multi-lots implémenté (11 fév 2026)
+**Date** : 5 février 2026 (mise à jour : 11 février 2026)
 **Périmètre MVP** : Département de l’Hérault (34)  
 **Architecture** : Jamstack (datasets statiques + Next.js), sans backend applicatif runtime
 
@@ -207,13 +207,9 @@ Règle MVP : si `streetNumber` est absent/vide, la ligne est ignorée.
 `pnpm --filter @choisir-sa-ville/importer export:static`
 
 ### 9.2. Étapes (décision complète)
-### 9.2. Étapes (décision complète)
 1. **Téléchargement** DVF géolocalisées par département/année via downloadFile() (cache packages/importer/.cache/, TTL 180 jours pour années complètes, 7 jours pour année courante). Le relancement ne re-télécharge pas les fichiers déjà en cache.
 2. **Parsing CSV streaming** de chaque fichier annuel, extraction des colonnes minimales nécessaires.
-   - département 34,
-   - type_local Maison/Appartement,
-   - nature_mutation Vente/VEFA,
-   - `streetNumber` requis,
+   - département 34,\n   - type_local Maison/Appartement/Dépendance/Sol (types étendus depuis 11 fév 2026),\n   - nature_mutation Vente/VEFA,\n   - `id_mutation` (champ DVF officiel pour identifier l'acte notarié),\n   - `streetNumber` requis,
    - `lat/lng` requis et finies,
    - suppression de toute colonne non nécessaire à l’affichage.
 4. **Normalisation adresse** :

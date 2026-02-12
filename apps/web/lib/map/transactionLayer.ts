@@ -22,11 +22,11 @@ import { LAYER_IDS, SOURCE_IDS, ZOOM_RANGES } from "./registry/layerRegistry";
 // ============================================================================
 
 /** Base circle radius in pixels (normal state) */
-const POINT_RADIUS = 12;
+const POINT_RADIUS = 10;
 /** Circle radius when entity is active (selected) */
-const POINT_RADIUS_ACTIVE = 21;
+const POINT_RADIUS_ACTIVE = 12;
 /** Circle radius when entity is highlighted (hovered) */
-const POINT_RADIUS_HIGHLIGHT = 16;
+const POINT_RADIUS_HIGHLIGHT = 12;
 /** Circle opacity */
 const POINT_OPACITY = 0.8;
 
@@ -51,10 +51,13 @@ export async function addTransactionLayer(
     }
 
     // Add GeoJSON source
+    // promoteId: "id" tells MapLibre to use properties.id as the feature identifier
+    // for setFeatureState(). Without this, feature-state won't work on GeoJSON sources
+    // with string IDs.
     map.addSource(SOURCE_IDS.transactionAddresses, {
         type: "geojson",
         data: geojsonUrl,
-        generateId: false
+        promoteId: "id"
     });
 
     // Add circle layer

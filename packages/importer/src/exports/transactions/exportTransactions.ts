@@ -1,9 +1,10 @@
 import path from "node:path";
 
 import { buildAddressKey, buildAddressLabel, deriveAddressId } from "./addressNormalization.js";
+import { aggregateByMutation, buildMutationKey } from "./mutationAggregation.js";
 import { parseDvfCsvStreaming } from "./parseDvfCsv.js";
 import { BUNDLE_ZOOM, latLngToTile } from "./tileCoords.js";
-import type { DvfRawRow, TransactionAddressHistory, TransactionLine } from "./types.js";
+import type { DvfRawRow, TransactionAddressHistory } from "./types.js";
 
 import { ensureDir, writeJsonAtomic } from "../shared/fileSystem.js";
 import type { ExportContext, DvfSourceMeta } from "../shared/types.js";
@@ -14,7 +15,7 @@ type AddressAccumulator = {
     communeName: string;
     streetNumber: string;
     streetName: string;
-    transactions: TransactionLine[];
+    rawRows: DvfRawRow[]; // Store raw rows for mutation aggregation
     latestDate: string;
     latestLat: number;
     latestLng: number;
@@ -45,25 +46,29 @@ export async function exportTransactions({ context, dvfSources, communeNameByIns
 
     // Phase 1: Parse all source files and accumulate by address
     const addressMap = new Map<string, AddressAccumulator>();
+    const mutationToAddresses = new Map<string, Set<string>>(); // Track all addresses per mutation
     let totalProcessed = 0;
     let totalAccepted = 0;
+    let totalMissingIdMutation = 0;
 
     for (const source of dvfSources) {
         console.info(`[transactions]   Parsing DVF ${source.year} dept ${source.department}...`);
 
-        const { processed, accepted } = await parseDvfCsvStreaming(source.filePath, {
+        const { processed, accepted, missingIdMutationCount } = await parseDvfCsvStreaming(source.filePath, {
             onRow: (row: DvfRawRow) => {
                 const addressKey = buildAddressKey(row.inseeCode, row.streetNumber, row.streetName);
                 let accumulator = addressMap.get(addressKey);
+
+                const communeName = communeNameByInsee.get(row.inseeCode) ?? row.inseeCode;
 
                 if (!accumulator) {
                     accumulator = {
                         addressKey,
                         inseeCode: row.inseeCode,
-                        communeName: communeNameByInsee.get(row.inseeCode) ?? row.inseeCode,
+                        communeName,
                         streetNumber: row.streetNumber,
                         streetName: row.streetName,
-                        transactions: [],
+                        rawRows: [],
                         latestDate: row.date,
                         latestLat: row.lat,
                         latestLng: row.lng
@@ -71,19 +76,21 @@ export async function exportTransactions({ context, dvfSources, communeNameByIns
                     addressMap.set(addressKey, accumulator);
                 }
 
-                accumulator.transactions.push({
-                    date: row.date,
-                    priceEur: row.priceEur,
-                    typeLocal: row.typeLocal,
-                    surfaceM2: row.surfaceM2,
-                    isVefa: row.isVefa
-                });
+                accumulator.rawRows.push(row);
 
                 if (row.date > accumulator.latestDate) {
                     accumulator.latestDate = row.date;
                     accumulator.latestLat = row.lat;
                     accumulator.latestLng = row.lng;
                 }
+
+                // Track which addresses are involved in which mutations
+                const mutationKey = buildMutationKey(row);
+                if (!mutationToAddresses.has(mutationKey)) {
+                    mutationToAddresses.set(mutationKey, new Set());
+                }
+                const addressLabel = buildAddressLabel(row.streetNumber, row.streetName, communeName);
+                mutationToAddresses.get(mutationKey)!.add(addressLabel);
             },
             onProgress: (p, a) => {
                 if (p % 500_000 === 0) {
@@ -95,34 +102,71 @@ export async function exportTransactions({ context, dvfSources, communeNameByIns
         console.info(`[transactions]   ✓ DVF ${source.year} dept ${source.department}: ${processed.toLocaleString()} processed, ${accepted.toLocaleString()} accepted`);
         totalProcessed += processed;
         totalAccepted += accepted;
+        totalMissingIdMutation += missingIdMutationCount;
     }
 
     console.info(
         `[transactions] All files parsed: ${totalProcessed.toLocaleString()} total, ${totalAccepted.toLocaleString()} accepted, ${addressMap.size.toLocaleString()} unique addresses`
     );
 
-    // Phase 2: Deduplicate transactions per address
-    console.info("[transactions] Deduplicating transactions...");
-    let totalBefore = 0;
-    let totalAfter = 0;
+    // Log multi-address mutations
+    const multiAddressMutations = Array.from(mutationToAddresses.values()).filter(
+        (addresses) => addresses.size > 1
+    ).length;
+    if (multiAddressMutations > 0) {
+        console.info(
+            `[transactions] ${multiAddressMutations.toLocaleString()} mutations multi-adresses détectées`
+        );
+    }
+
+    // Log warning if too many rows missing id_mutation
+    if (totalAccepted > 0) {
+        const missingPercent = (totalMissingIdMutation / totalAccepted) * 100;
+        if (missingPercent > 5) {
+            console.warn(
+                `[transactions] ⚠️  ${missingPercent.toFixed(1)}% of rows (${totalMissingIdMutation.toLocaleString()}/${totalAccepted.toLocaleString()}) are missing id_mutation (pre-2018 data?)`
+            );
+        } else {
+            console.info(
+                `[transactions] id_mutation coverage: ${(100 - missingPercent).toFixed(1)}% (${totalMissingIdMutation.toLocaleString()} missing)`
+            );
+        }
+    }
+
+    // Phase 2: Deduplicate raw rows per address, then aggregate by mutation
+    console.info("[transactions] Deduplicating and aggregating by mutation...");
+    let totalRowsBefore = 0;
+    let totalRowsAfterDedup = 0;
+    let totalMutations = 0;
 
     for (const accumulator of addressMap.values()) {
-        totalBefore += accumulator.transactions.length;
+        totalRowsBefore += accumulator.rawRows.length;
 
-        const uniqueMap = new Map<string, TransactionLine>();
-        for (const tx of accumulator.transactions) {
-            const key = `${tx.date}|${tx.priceEur}|${tx.typeLocal}|${tx.surfaceM2 ?? "null"}`;
+        // Deduplicate raw rows by composite key
+        const uniqueMap = new Map<string, DvfRawRow>();
+        for (const row of accumulator.rawRows) {
+            const key = `${row.date}|${row.priceEur}|${row.typeLocal}|${row.surfaceM2 ?? "null"}|${row.idMutation ?? "null"}`;
             if (!uniqueMap.has(key)) {
-                uniqueMap.set(key, tx);
+                uniqueMap.set(key, row);
             }
         }
 
-        accumulator.transactions = Array.from(uniqueMap.values()).sort((a, b) => b.date.localeCompare(a.date));
-        totalAfter += accumulator.transactions.length;
+        const dedupedRows = Array.from(uniqueMap.values());
+        totalRowsAfterDedup += dedupedRows.length;
+
+        // Aggregate deduplicated rows into mutations
+        const mutations = aggregateByMutation(dedupedRows);
+        totalMutations += mutations.length;
+
+        // Store mutations in accumulator (we'll use this for export)
+        (accumulator as AddressAccumulator & { mutations: typeof mutations }).mutations = mutations;
     }
 
     console.info(
-        `[transactions] Dedup: ${totalBefore.toLocaleString()} → ${totalAfter.toLocaleString()} (${(totalBefore - totalAfter).toLocaleString()} duplicates removed)`
+        `[transactions] Deduplication: ${totalRowsBefore.toLocaleString()} → ${totalRowsAfterDedup.toLocaleString()} rows (${(totalRowsBefore - totalRowsAfterDedup).toLocaleString()} duplicates removed)`
+    );
+    console.info(
+        `[transactions] Aggregation: ${totalRowsAfterDedup.toLocaleString()} rows → ${totalMutations.toLocaleString()} mutations`
     );
 
     // Phase 3: Build GeoJSON features and partition into bundles
@@ -131,6 +175,17 @@ export async function exportTransactions({ context, dvfSources, communeNameByIns
     const bundleMap = new Map<string, Map<string, TransactionAddressHistory>>();
 
     for (const acc of addressMap.values()) {
+        // TypeScript: we added mutations in phase 2
+        const mutations = (acc as AddressAccumulator & { mutations: TransactionAddressHistory["mutations"] }).mutations;
+
+        // Enrich mutations with related addresses
+        for (const mutation of mutations) {
+            const allAddresses = mutationToAddresses.get(mutation.mutationId);
+            if (allAddresses && allAddresses.size > 1) {
+                mutation.relatedAddresses = Array.from(allAddresses).sort();
+            }
+        }
+
         const addressId = deriveAddressId(acc.addressKey);
         const tile = latLngToTile(acc.latestLat, acc.latestLng, BUNDLE_ZOOM);
         const bundleKey = `${tile.z}/${tile.x}/${tile.y}`;
@@ -140,7 +195,7 @@ export async function exportTransactions({ context, dvfSources, communeNameByIns
             label: buildAddressLabel(acc.streetNumber, acc.streetName, acc.communeName),
             lat: acc.latestLat,
             lng: acc.latestLng,
-            transactions: acc.transactions
+            mutations
         };
 
         geojsonFeatures.push({
@@ -155,7 +210,7 @@ export async function exportTransactions({ context, dvfSources, communeNameByIns
                 z: tile.z,
                 x: tile.x,
                 y: tile.y,
-                n: acc.transactions.length
+                n: mutations.length
             }
         });
 

@@ -17,11 +17,20 @@ import { useEffect, useState } from "react";
 
 import { InsecurityBadge } from "@/components/insecurity-badge";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { getCommuneByInsee, type CommuneIndexLiteEntry } from "@/lib/data/communesIndexLite";
 import { getInfraZoneById, type InfraZoneIndexLiteEntry } from "@/lib/data/infraZonesIndexLite";
 import { getTransactionHistory } from "@/lib/data/transactionBundles";
-import { useActiveEntity, type EntityRef, type TransactionAddressData } from "@/lib/selection";
+import {
+    buildMutationCompositionLabel,
+    computePricePerM2,
+    hasLotDetails,
+    isMutationComplex,
+    isMutationGrouped
+} from "@/lib/data/transactions/mutationFormatters";
+import { useActiveEntity, type EntityRef, type MutationSummary, type TransactionAddressData } from "@/lib/selection";
 import { cn } from "@/lib/utils";
 
 // ============================================================================
@@ -38,7 +47,6 @@ type CardStatus = "idle" | "loading" | "ready" | "missing" | "error";
 
 const numberFormatter = new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 0 });
 const priceFormatter = new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR", maximumFractionDigits: 0 });
-const pricePerM2Formatter = new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR", maximumFractionDigits: 0 });
 
 function formatPopulation(value: number | null): string {
     if (typeof value === "number" && Number.isFinite(value)) {
@@ -173,12 +181,12 @@ export default function RightPanelDetailsCard({
         : "Sélectionne une zone ou une commune pour afficher ses informations.";
 
     return (
-        <Card className={cn("flex h-full min-h-[240px] flex-col lg:min-h-[260px]", className)} {...props}>
-            <CardHeader>
+        <Card className={cn("flex h-full min-h-0 flex-col", className)} {...props}>
+            <CardHeader className="flex-shrink-0">
                 <CardTitle className="text-xl text-brand-dark">Détails</CardTitle>
                 <CardDescription>{description}</CardDescription>
             </CardHeader>
-            <CardContent className="flex-1 overflow-auto text-sm text-brand/80">
+            <CardContent className="min-h-0 flex-1 overflow-y-auto text-sm text-brand/80">
                 {renderContent({
                     status,
                     activeEntity,
@@ -279,56 +287,163 @@ function renderContent({
 // ============================================================================
 
 function TransactionHistoryView({ data }: { data: TransactionAddressData }): JSX.Element {
-    const sortedTransactions = [...data.transactions].sort((a, b) => b.date.localeCompare(a.date));
+    const sortedMutations = [...data.mutations].sort((a, b) => b.date.localeCompare(a.date));
 
     return (
-        <div className="space-y-3">
-            <div className="rounded-2xl border border-brand/10 px-3 py-2">
-                <span className="text-xs text-brand/50">Adresse</span>
-                <p className="font-semibold text-brand-dark">{data.label}</p>
+        <div className="space-y-4">
+            {/* Header: Address + count (compact, no borders) */}
+            <div>
+                <h3 className="font-semibold text-brand-dark">{data.label}</h3>
+                <p className="text-xs text-brand/50">
+                    Nombre de ventes : {data.mutations.length}
+                </p>
             </div>
-            <div className="rounded-2xl border border-brand/10 px-3 py-2">
-                <span className="text-xs text-brand/50">Nombre de transactions</span>
-                <p className="font-semibold text-brand-dark">{data.transactions.length}</p>
-            </div>
-            <div className="space-y-2">
-                {sortedTransactions.map((tx) => {
-                    const pricePerM2 = tx.surfaceM2 && tx.surfaceM2 > 0
-                        ? pricePerM2Formatter.format(Math.round(tx.priceEur / tx.surfaceM2))
-                        : null;
 
-                    return (
-                        <div
-                            key={`${tx.date}-${tx.priceEur}-${tx.typeLocal}-${tx.surfaceM2 ?? 'null'}`}
-                            className="rounded-2xl border border-brand/10 px-3 py-2 space-y-1"
-                        >
-                            <div className="flex items-center justify-between">
-                                <span className="text-xs text-brand/50">{formatDate(tx.date)}</span>
-                                <div className="flex items-center gap-1.5">
-                                    <Badge variant="default" className="text-xs">
-                                        {tx.typeLocal}
-                                    </Badge>
-                                    {tx.isVefa && (
-                                        <Badge variant="info" className="text-xs">
-                                            VEFA
-                                        </Badge>
-                                    )}
-                                </div>
-                            </div>
-                            <div className="flex items-baseline justify-between">
-                                <span className="text-base font-semibold text-brand-dark">
-                                    {priceFormatter.format(tx.priceEur)}
-                                </span>
-                                {tx.surfaceM2 != null && tx.surfaceM2 > 0 && (
-                                    <span className="text-xs text-brand/60">
-                                        {tx.surfaceM2} m² {pricePerM2 ? `· ${pricePerM2}/m²` : ""}
-                                    </span>
-                                )}
-                            </div>
-                        </div>
-                    );
-                })}
+            {/* Scrollable list of mutations */}
+            <div className="space-y-2">
+                {sortedMutations.map((mutation) => (
+                    <MutationCard key={mutation.mutationId} mutation={mutation} currentAddressLabel={data.label} />
+                ))}
             </div>
+        </div>
+    );
+}
+
+function MutationCard({ mutation, currentAddressLabel }: { mutation: MutationSummary; currentAddressLabel?: string }): JSX.Element {
+    const [showDetails, setShowDetails] = useState(false);
+    const compositionLabel = buildMutationCompositionLabel(mutation);
+    const pricePerM2 = computePricePerM2(mutation);
+    const isGrouped = isMutationGrouped(mutation);
+    const isComplex = isMutationComplex(mutation);
+    const hasMultipleCadastralParcels = mutation.cadastralParcelCount > 5;
+
+    // Filter out current address from related addresses
+    const relatedAddresses = mutation.relatedAddresses
+        ? mutation.relatedAddresses.filter((addr) => addr !== currentAddressLabel)
+        : [];
+    const hasMultipleAddresses = relatedAddresses.length > 0;
+
+    return (
+        <div className="rounded-lg border border-brand/10 bg-white px-3 py-2.5 space-y-2">
+            {/* Date */}
+            <div className="flex items-center justify-between">
+                <span className="text-xs font-medium text-brand/70">{formatDate(mutation.date)}</span>
+                <TooltipProvider>
+                    <div className="flex items-center gap-1.5">
+                        {isGrouped && (
+                            <Tooltip>
+                                <TooltipTrigger asChild>
+                                    <Badge variant="default" className="text-[10px] px-1.5 py-0.5">
+                                        Vente groupée
+                                    </Badge>
+                                </TooltipTrigger>
+                                <TooltipContent>
+                                    <p className="max-w-xs">
+                                        Cette vente concerne plusieurs logements achetés ensemble lors du même acte notarié.
+                                    </p>
+                                </TooltipContent>
+                            </Tooltip>
+                        )}
+                        {isComplex && (
+                            <Tooltip>
+                                <TooltipTrigger asChild>
+                                    <Badge variant="info" className="text-[10px] px-1.5 py-0.5">
+                                        Vente complexe
+                                    </Badge>
+                                </TooltipTrigger>
+                                <TooltipContent>
+                                    <p className="max-w-xs">
+                                        Cette vente inclut des dépendances (cave, parking...) ou de nombreuses parcelles cadastrales. Le prix affiché représente l'ensemble et n'est pas directement comparable à un bien isolé.
+                                    </p>
+                                </TooltipContent>
+                            </Tooltip>
+                        )}
+                    </div>
+                </TooltipProvider>
+            </div>
+
+            {/* Warning: Multi-parcel sale */}
+            {hasMultipleCadastralParcels && (
+                <div className="rounded-md bg-amber-50 border border-amber-200 px-2 py-1.5 text-[11px] text-amber-900">
+                    <span className="font-semibold">⚠️ Vente multi-parcelles</span>
+                    <span className="ml-1">
+                        ({mutation.cadastralParcelCount} parcelles cadastrales) — Prix global non représentatif d'un bien isolé
+                    </span>
+                </div>
+            )}
+
+            {/* Composition */}
+            <div className="text-sm font-medium text-brand-dark">
+                {compositionLabel}
+            </div>
+
+            {/* Related addresses */}
+            {hasMultipleAddresses && (
+                <div className="rounded-md bg-blue-50 border border-blue-200 px-2 py-1.5 text-[11px] text-blue-900">
+                    <details className="cursor-pointer">
+                        <summary className="font-semibold list-none">
+                            <span className="hover:underline">
+                                📍 Cette vente concerne aussi {relatedAddresses.length} autre{relatedAddresses.length > 1 ? "s" : ""} adresse{relatedAddresses.length > 1 ? "s" : ""}
+                            </span>
+                        </summary>
+                        <div className="mt-1.5 space-y-0.5 pl-3">
+                            {relatedAddresses.slice(0, 10).map((addr, idx) => (
+                                <div key={idx} className="text-[11px] text-blue-800">
+                                    • {addr}
+                                </div>
+                            ))}
+                            {relatedAddresses.length > 10 && (
+                                <div className="text-[11px] text-blue-700 italic">
+                                    ... et {relatedAddresses.length - 10} autre{relatedAddresses.length - 10 > 1 ? "s" : ""} adresse{relatedAddresses.length - 10 > 1 ? "s" : ""}
+                                </div>
+                            )}
+                        </div>
+                    </details>
+                </div>
+            )}
+
+            {/* Price + Price/m² */}
+            <div className="flex items-baseline justify-between pt-1">
+                <span className="text-base font-bold text-brand-dark">
+                    {priceFormatter.format(mutation.priceEurTotal)}
+                </span>
+                {pricePerM2 !== null ? (
+                    <span className="text-sm font-semibold text-brand/70">
+                        {priceFormatter.format(pricePerM2)}/m²
+                    </span>
+                ) : (
+                    <span className="text-xs text-brand/40 italic">
+                        Prix/m² non pertinent
+                    </span>
+                )}
+            </div>
+
+            {/* Optional: Show lot details — only if lots have info beyond the summary */}
+            {hasLotDetails(mutation) && (
+                <div>
+                    <Button
+                        variant="ghost"
+                        size="sm"
+                        className="h-auto p-0 text-xs text-brand/70 hover:text-brand hover:bg-transparent"
+                        onClick={() => setShowDetails(!showDetails)}
+                    >
+                        {showDetails ? "Masquer le détail" : "Voir le détail"}
+                    </Button>
+                    {showDetails && (
+                        <div className="mt-2 space-y-1 border-l-2 border-brand/20 pl-3">
+                            {mutation.lots!.map((lot, idx: number) => (
+                                <div key={idx} className="text-xs text-brand/60">
+                                    • {lot.typeLocal}
+                                    {lot.roomCount !== null && ` ${lot.roomCount}p`}
+                                    {lot.surfaceM2 !== null && ` (${Math.round(lot.surfaceM2)} m²)`}
+                                    {lot.landSurfaceM2 !== null && lot.landSurfaceM2 > 0 && `, terrain ${Math.round(lot.landSurfaceM2)} m²`}
+                                    {lot.isVefa && " - VEFA"}
+                                </div>
+                            ))}
+                        </div>
+                    )}
+                </div>
+            )}
         </div>
     );
 }
