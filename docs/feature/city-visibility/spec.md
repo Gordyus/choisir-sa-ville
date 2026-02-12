@@ -1,192 +1,180 @@
-# Specification — Progressive City Display (Stack-Agnostic)
+# Progressive City Display (MapLibre Text Size Expression)
 
-**Statut** : Draft  
-**Implémentation** : Non commencée
-
-## 1. Purpose
-
-This specification defines a stack-agnostic system to stabilize map navigation and city display
-by replacing numeric clustering (pastilles) with a progressive, priority-based city rendering.
-
-Goals:
-
-- Fewer cities at low zoom levels
-- More cities as the user zooms in
-- Stable visual behavior during pan and zoom
-- Predictable, configurable rules suitable for a POC
-
-Non-goals (POC):
-
-- No routing
-- No advanced label collision engine
-- No heavy server-side preprocessing
+**Statut** : Implémenté  
+**Implémentation** : Terminée  
+**Dernière révision** : 2026-02-11
 
 ---
 
-## 2. Definitions
+## Vue d'ensemble
 
-- City: A geographic entity with coordinates and a priority score
-- Viewport: The currently visible geographic area + screen dimensions
-- Zoom Tier: A zoom/scale range defining a target density
-- Grid Cell: A screen-space rectangle used to limit density
-- Display Budget: Maximum number of visible cities
+Le système d'affichage progressif des communes est implémenté via **une expression MapLibre de taille de texte dynamique** (`text-size`) qui varie selon :
+- Le **niveau de zoom**
+- La **population de la commune**
 
----
+Les communes avec `text-size: 0` sont effectivement masquées par MapLibre (pas de rendu).
 
-## 3. Required Data
-
-### 3.1 City Data Model (Minimal)
-
-- id: string
-- name: string
-- lat: number
-- lon: number
-- population?: number
-- adminLevel?: enum (optional)
-- priorityScore: number
-
-### 3.2 Priority Score
-
-Default rule (POC):
-priorityScore = log10(population)
-
-Fallback:
-priorityScore = 1
-
-Optional extension:
-priorityScore = log10(population) + adminLevelBonus
-
-The score must be deterministic and stable.
+**Principe** : Plus le zoom est élevé, plus on affiche de communes. Au sein d'un niveau de zoom, les grandes villes ont un texte plus large.
 
 ---
 
-## 4. Zoom Tiers
+## Implémentation
 
-A zoom tier defines how many cities may be shown and how they are distributed.
+### Fichier source
 
-Each tier contains:
+`apps/web/lib/map/layers/communeLabelsVector.ts`
 
-- id
-- zoomRange (or scaleRange)
-- targetMaxVisibleCities
-- gridCellSizePx
-- maxCitiesPerCell
-- optional minScoreThreshold
+### Approche technique
 
-Example (indicative):
+- **Type de couche** : `symbol` (labels vectoriels)
+- **Source de données** : `commune-labels.mbtiles` (tuiles vectorielles générées depuis `indexLite.json`)
+- **Propriété clé** : `text-size` définie par une expression MapLibre `["step", ["zoom"], ...]`
+- **Critère de visibilité** : Propriété `population` de chaque feature
 
-| Tier | Budget | Cell Size | Max / Cell |
-|----|----|----|----|
-| A (low zoom) | 50 | 220px | 1 |
-| B | 200 | 180px | 1 |
-| C | 800 | 140px | 1 |
-| D (high zoom) | 3000 | 110px | 2 |
+### Seuils de visibilité par zoom
 
----
+| Niveau de zoom | Seuil de population | Description |
+|----------------|---------------------|-------------|
+| **z0–5** | > 300,000 | Mégapoles uniquement (Paris, Lyon, Marseille, etc.) |
+| **z6–7** | > 50,000 | Grandes villes |
+| **z8–9** | > 10,000 | Villes moyennes |
+| **z10–11** | > 2,000 | Petites villes |
+| **z12+** | Toutes | Villages inclus |
 
-## 5. City Selection Algorithm
+### Tailles de texte par population
 
-Triggered on viewport update.
+Au sein de chaque niveau de zoom, la taille du texte varie selon la population :
 
-### Step 1 — Spatial Filtering
-
-Select cities inside the viewport bounding box
-(optional overscan margin allowed).
-
-### Step 2 — Grid Distribution
-
-- Divide viewport into grid cells (screen space).
-- Assign each city to a cell.
-- For each cell, keep up to maxCitiesPerCell
-  with the highest priorityScore.
-
-### Step 3 — Global Budget Enforcement
-
-If total cities exceed targetMaxVisibleCities:
-
-- Sort by priorityScore descending
-- Keep only the top N
-
-### Output
-
-Return a deterministic list of visible cities.
+| Population | Taille texte (z12+) |
+|------------|---------------------|
+| < 5,000 | 14px (villages) |
+| 5,000–99,999 | 14px |
+| 100,000–299,999 | 16px |
+| ≥ 300,000 | 20px (mégapoles) |
 
 ---
 
-## 6. Visual Stability Rules
+## Code source (extrait)
 
-### 6.1 Update Timing
+```typescript
+const TEXT_SIZE_EXPRESSION: ExpressionSpecification = [
+    "step", ["zoom"],
+    // z0-5: Only megacities (> 300k)
+    ["step", ["coalesce", ["get", "population"], 0],
+        0,        // pop < 300k: hidden
+        300000, 20
+    ],
+    // z6-7: Major cities (> 50k)
+    6, ["step", ["coalesce", ["get", "population"], 0],
+        0,        // pop < 50k: hidden
+        50000, 14,
+        100000, 16,
+        300000, 20
+    ],
+    // ... (autres niveaux de zoom)
+];
+```
 
-- Recompute city list only on pan/zoom end
-- Or use debounce (120–250 ms)
-
-### 6.2 Zoom Hysteresis
-
-To avoid flicker between tiers:
-
-- Tier change only occurs if zoom exceeds
-  threshold ± hysteresisMargin
-
-Recommended margin: 0.3
-
-### 6.3 Stickiness (Optional)
-
-Once displayed, a city remains visible for a short duration:
-
-- stickyDurationMs: 300–600 ms
-- A city can be replaced only if the new candidate
-  has a priorityScore greater by replaceFactor (e.g. 1.15)
-- Or if the city exits the viewport
+**Note critique** : Utilisation de `"step"` (pas `"interpolate"`) au niveau racine pour éviter l'interpolation de zoom qui casserait les seuils de population entre niveaux.
 
 ---
 
-## 7. Performance Constraints
+## Intégration dans le pipeline
 
-- Display budget must always be enforced
-- Spatial filtering should use an index if available
-  (quadtree, geohash, R-tree)
-- Target computation time (indicative): < 50 ms
+### Appel depuis `stylePipeline.ts`
 
----
+```typescript
+// Step 7: Inject custom commune labels vector layer
+injectCommuneLabelsVector(style, {
+    tileJsonUrl: `${window.location.origin}/tiles/commune-labels.json`,
+    sourceLayer: "commune_labels"
+});
+```
 
-## 8. Configuration Parameters
+### Position dans la pile de couches
 
-- zoomTiers[]
-- priorityScore(city)
-- hysteresisMargin
-- debounceMs
-- stickyDurationMs
-- replaceFactor
-- overscanBBoxFactor
+Le layer `commune_labels` est **inséré avant** `place_label_other` (labels OSM d'arrondissements) pour garantir le bon ordre de rendu (z-index).
 
 ---
 
-## 9. Edge Cases
+## Génération des tuiles
 
-- Empty viewport → no cities
-- Missing population → fallback score
-- High-density areas handled via grid
-- Label collisions out of scope (POC)
+**Source** : `indexLite.json` (données communes)  
+**Format de sortie** : `commune-labels.mbtiles` (MBTiles vectoriel)  
+**Propriétés exposées** :
+- `insee` (code INSEE, utilisé comme `promoteId` pour feature-state)
+- `name` (nom de la commune)
+- `population` (nombre d'habitants)
 
----
-
-## 10. Acceptance Criteria
-
-- No numeric clustering pastilles
-- City count increases smoothly with zoom
-- No visible flicker when panning
-- Stable behavior near zoom thresholds
-- Even spatial distribution at low zoom
-- Readable density at high zoom
+> ⚠️ **TODO** : Documenter le script de génération MBTiles (voir `docs/BACKLOG.md`)
 
 ---
 
-## 11. Future Extensions (Post-POC)
+## Interactions
 
-- Server-side pre-aggregation per zoom tier
-- Tile-based city datasets
-- POI layers
-- Advanced label collision handling
-- Local-importance weighting (per region/department)
+### Feature-state supportés
+
+Le layer supporte les états interactifs via `feature-state` :
+- `hasData` : la commune a des données disponibles (couleur verte)
+- `highlight` : survol (couleur jaune)
+- `active` : sélection/clic (couleur orange)
+
+### Couleurs de texte
+
+Définies dans `entityVisualStateColors.ts` :
+```typescript
+"text-color": [
+    "case",
+    ["boolean", ["feature-state", "active"], false],
+    ENTITY_STATE_COLORS.active,
+    ["boolean", ["feature-state", "highlight"], false],
+    ENTITY_STATE_COLORS.highlight,
+    ["boolean", ["feature-state", "hasData"], false],
+    ENTITY_STATE_COLORS.hasData,
+    ENTITY_STATE_COLORS.noData
+]
+```
 
 ---
+
+## Différences avec la spec d'origine
+
+| Spec d'origine | Implémentation réelle |
+|----------------|----------------------|
+| Algorithme JavaScript de sélection de villes | Expression MapLibre native (GPU-side) |
+| Budget de villes (50–3000) | Pas de budget global, seuils de population |
+| Grid cells + priorityScore | Collision MapLibre native (`text-allow-overlap: false`) |
+| Zoom hysteresis + stickiness | Seuils fixes, pas d'hystérésis |
+| Calcul runtime JS | Aucun calcul JS, tout déclaratif |
+
+**Avantages de l'approche implémentée** :
+- ✅ **Simplicité** : pas de code runtime complexe
+- ✅ **Performance** : rendu GPU natif MapLibre
+- ✅ **Déterminisme** : comportement prévisible basé population
+- ✅ **Maintenance** : expression déclarative dans un seul fichier
+
+---
+
+## Tests de validation
+
+### Comportement attendu
+
+1. **z0–5** : Seules les mégapoles (Paris, Lyon, Marseille, etc.) visibles
+2. **z6–7** : Ajout des grandes villes (Bordeaux, Nantes, Strasbourg, etc.)
+3. **z8–9** : Ajout des villes moyennes (Béziers, Annecy, etc.)
+4. **z10–11** : Ajout des petites villes (> 2k hab)
+5. **z12+** : Tous les villages visibles
+
+### Cas limites
+
+- Communes sans population → `text-size: 0` (masquées) via `["coalesce", ["get", "population"], 0]`
+- Collision de labels → gérée par MapLibre (`text-allow-overlap: false`, `text-padding: 3`)
+- Tri des labels → `symbol-sort-key: ["-", ["coalesce", ["get", "population"], 0]]` (grandes villes au-dessus)
+
+---
+
+## Références
+
+- **Code source** : `apps/web/lib/map/layers/communeLabelsVector.ts`
+- **Pipeline d'intégration** : `apps/web/lib/map/stylePipeline.ts` (step 7)
+- **Couleurs d'état** : `apps/web/lib/map/layers/entityVisualStateColors.ts`

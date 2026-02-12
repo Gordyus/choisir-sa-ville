@@ -6,7 +6,7 @@ import { parse } from "csv-parse";
 
 import type { DvfRawRow } from "./types.js";
 
-const VALID_TYPE_LOCAL = new Set(["Maison", "Appartement"]);
+const VALID_TYPE_LOCAL = new Set(["Maison", "Appartement", "Dépendance", "Sol"]);
 const VALID_NATURE_MUTATION = new Set(["Vente", "Vente en l'état futur d'achèvement"]);
 
 type ParseDvfOptions = {
@@ -16,13 +16,20 @@ type ParseDvfOptions = {
     onProgress?: (processed: number, accepted: number) => void;
 };
 
+type ParseDvfResult = {
+    processed: number;
+    accepted: number;
+    missingIdMutationCount: number;
+};
+
 /**
  * Streams and parses the DVF géolocalisé CSV file (gzipped).
  * Filters in-flight: type_local, nature_mutation, streetNumber, valid coords.
  */
-export async function parseDvfCsvStreaming(filePath: string, options: ParseDvfOptions): Promise<{ processed: number; accepted: number }> {
+export async function parseDvfCsvStreaming(filePath: string, options: ParseDvfOptions): Promise<ParseDvfResult> {
     let processed = 0;
     let accepted = 0;
+    let missingIdMutationCount = 0;
     const isGzipped = await isGzipFile(filePath);
 
     return new Promise((resolve, reject) => {
@@ -49,13 +56,16 @@ export async function parseDvfCsvStreaming(filePath: string, options: ParseDvfOp
             const row = extractDvfRow(record);
             if (row) {
                 accepted++;
+                if (!row.idMutation) {
+                    missingIdMutationCount++;
+                }
                 options.onRow(row);
             }
         });
 
         parser.on("end", () => {
             options.onProgress?.(processed, accepted);
-            resolve({ processed, accepted });
+            resolve({ processed, accepted, missingIdMutationCount });
         });
 
         parser.on("error", reject);
@@ -109,19 +119,56 @@ function extractDvfRow(record: Record<string, string>): DvfRawRow | null {
     const surfaceRaw = (record["surface_reelle_bati"] ?? "").trim();
     const surfaceM2 = surfaceRaw ? parseFloat(surfaceRaw) : null;
 
+    const roomCountRaw = (record["nombre_pieces_principales"] ?? "").trim();
+    const roomCount = roomCountRaw ? parseInt(roomCountRaw, 10) : null;
+    // Only keep if valid positive integer
+    const validRoomCount = roomCount !== null && Number.isFinite(roomCount) && roomCount > 0 ? roomCount : null;
+
+    const landSurfaceRaw = (record["surface_terrain"] ?? "").trim();
+    const landSurfaceM2 = landSurfaceRaw ? parseFloat(landSurfaceRaw) : null;
+    // Only keep if valid positive finite number
+    const validLandSurfaceM2 = landSurfaceM2 !== null && Number.isFinite(landSurfaceM2) && landSurfaceM2 > 0 ? landSurfaceM2 : null;
+
     const suffix = (record["adresse_suffixe"] ?? "").trim();
     const fullStreetNumber = suffix ? `${streetNumber}${suffix}` : streetNumber;
 
-    return {
+    const idMutationRaw = (record["id_mutation"] ?? "").trim();
+    const idMutation = idMutationRaw || null;
+
+    // Parse l_codpar (cadastral parcel codes) if present
+    const lCodparRaw = (record["l_codpar"] ?? "").trim();
+    let parcelCodes: string[] | undefined = undefined;
+    if (lCodparRaw) {
+        // Split by common delimiters: comma, pipe, semicolon, multiple spaces
+        const codes = lCodparRaw
+            .split(/[,|;\s]+/)
+            .map((code) => code.trim())
+            .filter((code) => code.length > 0);
+        if (codes.length > 0) {
+            parcelCodes = codes;
+        }
+    }
+
+    const baseRow = {
         inseeCode,
         streetNumber: fullStreetNumber,
         streetName,
         date: dateRaw,
         priceEur,
-        typeLocal: typeLocal as "Maison" | "Appartement",
+        typeLocal: typeLocal as "Maison" | "Appartement" | "Dépendance" | "Sol",
         surfaceM2: surfaceM2 !== null && Number.isFinite(surfaceM2) && surfaceM2 > 0 ? surfaceM2 : null,
         isVefa: natureMutation === "Vente en l'état futur d'achèvement",
         lat,
-        lng
+        lng,
+        idMutation,
+        roomCount: validRoomCount,
+        landSurfaceM2: validLandSurfaceM2
     };
+
+    // Only include parcelCodes if present (for strict optional property types)
+    if (parcelCodes !== undefined) {
+        return { ...baseRow, parcelCodes };
+    }
+
+    return baseRow;
 }

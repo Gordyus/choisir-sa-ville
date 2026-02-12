@@ -32,7 +32,7 @@ import { LAYER_IDS } from "./registry/layerRegistry";
 // Constants
 // ============================================================================
 
-const HIGHLIGHT_THROTTLE_MS = 100;
+const HIGHLIGHT_THROTTLE_MS = 50;
 const HAS_DATA_THROTTLE_MS = 150;
 const HAS_DATA_TTL_MS = 60_000;
 const HAS_DATA_BATCH_SIZE = 40;
@@ -562,6 +562,8 @@ function pickTransactionFeature(map: MapLibreMap, point: PointLike): EntityRef |
         return null;
     }
 
+    // With promoteId: "id" on the GeoJSON source, MapLibre uses properties.id
+    // as the feature identifier for both queryRenderedFeatures and setFeatureState.
     const id = props["id"];
     const z = props["z"];
     const x = props["x"];

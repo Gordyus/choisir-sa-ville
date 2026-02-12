@@ -116,14 +116,31 @@ export type InfraZoneData = {
 };
 
 /**
- * Transaction line as returned by the data provider.
+ * Lot detail within a mutation (for grouped sales).
  */
-export type TransactionLine = {
-    date: string;
-    priceEur: number;
-    typeLocal: "Maison" | "Appartement";
+export type TransactionLot = {
+    typeLocal: "Maison" | "Appartement" | "Dépendance" | "Sol";
     surfaceM2: number | null;
     isVefa: boolean;
+    roomCount: number | null; // nombre_pieces_principales
+    landSurfaceM2: number | null; // surface_terrain
+};
+
+/**
+ * Mutation summary (single notarial act, possibly multi-lot).
+ * Contains only primitive data - UI labels/badges computed at runtime.
+ */
+export type MutationSummary = {
+    mutationId: string;
+    date: string; // YYYY-MM-DD
+    priceEurTotal: number;
+    housingCount: number; // Count of Maison + Appartement
+    housingSurfaceM2Total: number | null; // Sum of surfaces for Maison + Appartement only
+    dependencyCount: number; // Count of Dépendance lots
+    parcelCount: number; // Count of Sol lots (parcels without buildings)
+    cadastralParcelCount: number; // Count of unique cadastral parcels from l_codpar
+    relatedAddresses?: string[]; // List of all addresses involved in this mutation
+    lots?: TransactionLot[]; // Optional detailed breakdown
 };
 
 /**
@@ -134,7 +151,7 @@ export type TransactionAddressData = {
     label: string;
     lat: number;
     lng: number;
-    transactions: TransactionLine[];
+    mutations: MutationSummary[];
 };
 
 /**

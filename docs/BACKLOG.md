@@ -26,6 +26,14 @@
 
 ## 🔜 Planifié
 
+### Documentation : Script génération MBTiles labels communes
+
+- **Scope** : Documentation
+- **Résumé** : Documenter le script qui génère `commune-labels.mbtiles` depuis `indexLite.json` pour le layer de labels progressifs.
+- **Context** : Le layer `communeLabelsVector.ts` utilise ces tuiles mais le processus de génération n'est pas documenté.
+- **Fichier à créer** : Section dans `docs/architecture/data-pipeline.md` ou script dédié dans `packages/importer/`
+- **Priorité** : Documentation uniquement (fonctionnalité déjà active)
+
 ### Factorisation parsing DVF partagé
 
 - **Scope** : `packages/importer`

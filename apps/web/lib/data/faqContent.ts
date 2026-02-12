@@ -96,5 +96,48 @@ Limites importantes :
 • Un niveau "élevé" ne signifie pas qu'une commune est dangereuse, mais qu'elle se situe dans la partie haute de la distribution nationale
 
 Utilisez cet indice comme un élément d'information parmi d'autres, pas comme un critère unique de décision.`
+    },
+    {
+        id: "dvf-transactions",
+        title: "Transactions immobilières (DVF) : d'où viennent les données ?",
+        content: `Les transactions immobilières affichées sur la carte proviennent des données DVF (Demandes de Valeurs Foncières), publiées en open data par la Direction Générale des Finances Publiques (DGFiP).
+
+Qu'est-ce que DVF ?
+
+DVF enregistre toutes les ventes immobilières réalisées en France métropolitaine (hors Alsace-Moselle et Mayotte). Chaque transaction correspond à un acte notarié authentique enregistré par l'administration fiscale.
+
+Les informations disponibles pour chaque vente :
+• Date de la transaction
+• Prix de vente
+• Type de bien (maison, appartement, dépendance, terrain)
+• Surface habitable et surface du terrain
+• Nombre de pièces principales
+• Adresse et parcelle cadastrale
+
+Quelle période est couverte ?
+
+Les données couvrent les transactions de 2020 à aujourd'hui (source : Etalab geo-dvf). Un délai de 3 à 6 mois existe entre une vente et sa publication dans DVF.
+
+Comment interpréter les prix ?
+
+• Le prix affiché est le prix de vente global de l'acte notarié, pas un prix au m²
+• Une même vente peut inclure plusieurs lots (appartement + cave + parking)
+• Les badges « Vente groupée » et « Vente complexe » signalent les transactions particulières
+
+Vente groupée : plusieurs logements achetés ensemble dans le même acte (ex : un immeuble entier). Le prix affiché est le total pour tous les logements.
+
+Vente complexe : la vente inclut des dépendances (cave, garage, parking) ou concerne de nombreuses parcelles cadastrales. Le prix n'est pas directement comparable à un bien isolé.
+
+Comment utiliser ces données ?
+
+✅ Identifier la tendance des prix dans un quartier sur plusieurs années
+✅ Comparer des biens similaires (même type, même surface) dans un même secteur
+✅ Repérer des ventes récentes pour estimer un ordre de grandeur
+
+⚠️ Ne pas comparer directement le prix d'une vente groupée avec celui d'un bien individuel
+⚠️ Ne pas confondre le prix de vente avec une estimation de la valeur actuelle du bien
+⚠️ Les ventes entre membres d'une même famille ou à prix symbolique apparaissent aussi dans DVF
+
+Source officielle : data.gouv.fr — Demandes de Valeurs Foncières géolocalisées (Etalab / DGFiP)`
     }
 ];

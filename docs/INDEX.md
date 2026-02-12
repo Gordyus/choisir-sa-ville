@@ -43,10 +43,10 @@
 | Feature | Spec | Statut | Implémentation |
 |---------|------|--------|----------------|
 | **Modes d'affichage carto** | [`feature/display-modes-layer-menu/spec.md`](feature/display-modes-layer-menu/spec.md) | ✅ Implémenté | Terminée |
-| **Transactions DVF** | [`feature/transactions-address-history/spec.md`](feature/transactions-address-history/spec.md) | Draft | En cours (Hérault) |
+| **Progressive City Display** | [`feature/city-visibility/spec.md`](feature/city-visibility/spec.md) | ✅ Implémenté | Terminée |
+| **Transactions DVF** | [`feature/transactions-address-history/spec.md`](feature/transactions-address-history/spec.md) | ✅ Implémenté | Terminée (MVP 34 + multi-lots) |
 | **Indicateurs immobiliers** | [`feature/real-estate-multiscale-indicators/spec.md`](feature/real-estate-multiscale-indicators/spec.md) | Validé | Non commencée |
-| **City Anchor Point** | [`feature/city-anchor-point/spec.md`](feature/city-anchor-point/spec.md) | Draft | Non commencée |
-| **City Visibility** | [`feature/city-visibility/spec.md`](feature/city-visibility/spec.md) | Draft | Non commencée |
+| **City Visibility** | [`feature/city-visibility/spec.md`](feature/city-visibility/spec.md) | ✅ Implémenté | Terminée |
 | **Search + Travel** | [`feature/search-travel/spec.md`](feature/search-travel/spec.md) | Draft | Non commencée |
 | **Political Color** | [`feature/political-color/spec.md`](feature/political-color/spec.md) | Draft | Non commencée |
 
@@ -63,6 +63,7 @@
 ## Archive
 
 `archive/` contient la documentation historique :
+
 - `API_CONTRACT.md`, `DB_MODEL.md` — ancienne architecture API/DB (abandonnée)
 - `security-index-population-classification.md` — spec implémentée de classification par taille de population
 - `FEATURE-2026-02-08-population-classification-COMPLETE.md` — rapport de complétion

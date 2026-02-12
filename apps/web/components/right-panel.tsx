@@ -16,14 +16,14 @@ export default function RightPanel({ className, ...props }: RightPanelProps): JS
     return (
         <section
             className={cn(
-                "flex h-full w-full flex-col rounded-3xl border border-brand/15 bg-white/80 p-6 shadow-lg",
+                "flex h-full w-full flex-col overflow-hidden rounded-3xl border border-brand/15 bg-white/80 p-6 shadow-lg",
                 "backdrop-blur",
                 className
             )}
             {...props}
         >
-            <div className="flex h-full flex-col gap-6">
-                <div className="space-y-4">
+            <div className="flex h-full min-h-0 flex-col gap-6">
+                <div className="flex-shrink-0 space-y-4">
                     <header className="space-y-2">
                         <p className="text-xs uppercase tracking-[0.3em] text-brand/60">Panneau</p>
                         <h2 className="text-2xl font-semibold text-brand-dark">Analyse à venir</h2>
@@ -37,7 +37,7 @@ export default function RightPanel({ className, ...props }: RightPanelProps): JS
                         seront automatiquement annulées avant d&apos;être relancées.
                     </div>
                 </div>
-                <RightPanelDetailsCard className="w-full lg:mt-auto lg:flex-1" />
+                <RightPanelDetailsCard className="min-h-0 w-full flex-1" />
             </div>
         </section>
     );
