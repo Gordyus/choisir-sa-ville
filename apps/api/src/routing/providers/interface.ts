@@ -1,8 +1,12 @@
 /**
  * Routing Provider Interface
  * 
- * Abstraction layer for external routing APIs (TomTom, OSRM, etc.).
+ * Abstraction layer for external routing APIs (TomTom, Navitia, etc.).
  * Implements the Adapter pattern to decouple business logic from provider-specific code.
+ * 
+ * Two distinct operations:
+ * - calculateMatrix: Bulk time/distance calculations (no geometry, fast, cacheable)
+ * - calculateRoute: Single route with geometry for map display (on-demand)
  */
 
 export interface Coordinates {
@@ -18,26 +22,38 @@ export interface MatrixParams {
   mode: 'car' | 'truck' | 'pedestrian';
 }
 
-export interface RouteGeometry {
-  points: Coordinates[]; // Polyline points for map display
-}
-
 export interface MatrixResult {
   durations: number[][]; // Seconds (origins x destinations)
   distances: number[][]; // Meters (origins x destinations)
-  routes: RouteGeometry[][]; // Route geometries (origins x destinations)
+}
+
+export interface RouteParams {
+  origin: Coordinates;
+  destination: Coordinates;
+  departureTime?: string;
+  arrivalTime?: string;
+  mode: 'car' | 'truck' | 'pedestrian';
+}
+
+export interface RouteResult {
+  duration: number;  // Seconds
+  distance: number;  // Meters
+  geometry: {
+    type: 'LineString';
+    coordinates: [number, number][]; // [lng, lat] GeoJSON format (MapLibre-ready)
+  };
 }
 
 export interface RoutingProvider {
   /**
-   * Calculate travel time matrix between multiple origins and destinations
+   * Calculate travel time/distance matrix (no geometry, optimized for bulk)
    */
   calculateMatrix(params: MatrixParams): Promise<MatrixResult>;
 
   /**
-   * Geocode an address to GPS coordinates
+   * Calculate a single route with full geometry for map display
    */
-  geocode(address: string): Promise<Coordinates>;
+  calculateRoute(params: RouteParams): Promise<RouteResult>;
 
   /**
    * Get provider name for logging/monitoring

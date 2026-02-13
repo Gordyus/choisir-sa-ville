@@ -2,20 +2,15 @@
  * Navitia (SNCF) Routing Provider
  * 
  * French public transit and routing API with generous free tier (150k req/month).
- * Supports multimodal routing, native matrix calculations, and GeoJSON geometries.
+ * Supports multimodal routing and GeoJSON geometries.
  * 
  * @see https://doc.navitia.io/
  * @see https://numerique.sncf.com/startup/api/
  */
 
 import pRetry from 'p-retry';
-import type { Coordinates, MatrixParams, MatrixResult, RouteGeometry, RoutingProvider } from './interface.js';
+import type { Coordinates, MatrixParams, MatrixResult, RouteParams, RouteResult, RoutingProvider } from './interface.js';
 import { QuotaExceededError, TimeoutError } from '../../shared/errors/index.js';
-
-interface NavitiaCoordinates {
-  lon: number;
-  lat: number;
-}
 
 interface NavitiaSection {
   type: string;
@@ -46,36 +41,33 @@ interface NavitiaResponse {
 
 export class NavitiaProvider implements RoutingProvider {
   private readonly apiKey: string;
+  private readonly authHeader: string;
   private readonly baseUrl = 'https://api.navitia.io/v1';
-  private readonly timeout = 15000; // 15 seconds (Navitia can be slower than TomTom)
-  
-  // Navitia uses regional coverage zones
-  // 'fr' = France nationwide, 'fr-idf' = Île-de-France, etc.
-  private readonly defaultCoverage = 'fr';
+  private readonly timeout = 15000;
+  private readonly defaultCoverage = 'sandbox';
 
   constructor(apiKey: string) {
     this.apiKey = apiKey;
+    this.authHeader = 'Basic ' + Buffer.from(apiKey + ':').toString('base64');
   }
 
   async calculateMatrix(params: MatrixParams): Promise<MatrixResult> {
     const durations: number[][] = [];
     const distances: number[][] = [];
-    const routes: RouteGeometry[][] = [];
 
     for (const origin of params.origins) {
       const durationRow: number[] = [];
       const distanceRow: number[] = [];
-      const routeRow: RouteGeometry[] = [];
 
       for (const destination of params.destinations) {
         const result = await pRetry(
-          () => this.callJourneysApi(origin, destination, params),
+          () => this.callJourneysApi(origin, destination, params, false),
           {
             retries: 2,
             minTimeout: 1000,
             onFailedAttempt: (error) => {
               console.warn(
-                `Navitia Journeys API attempt ${error.attemptNumber} failed. ${error.retriesLeft} retries left.`,
+                `Navitia matrix attempt ${error.attemptNumber} failed. ${error.retriesLeft} retries left.`,
                 error.message
               );
             }
@@ -84,100 +76,96 @@ export class NavitiaProvider implements RoutingProvider {
 
         durationRow.push(result.duration);
         distanceRow.push(result.distance);
-        routeRow.push({ points: result.points });
       }
 
       durations.push(durationRow);
       distances.push(distanceRow);
-      routes.push(routeRow);
     }
 
-    return { durations, distances, routes };
+    return { durations, distances };
   }
 
-  async geocode(address: string): Promise<Coordinates> {
-    const url = `${this.baseUrl}/coverage/${this.defaultCoverage}/places`;
-    
-    const params = new URLSearchParams({
-      q: address,
-      type: 'address',
-      count: '1'
-    });
+  async calculateRoute(params: RouteParams): Promise<RouteResult> {
+    const matrixParams = {
+      origins: [params.origin],
+      destinations: [params.destination],
+      mode: params.mode,
+      ...(params.departureTime !== undefined ? { departureTime: params.departureTime } : {}),
+      ...(params.arrivalTime !== undefined ? { arrivalTime: params.arrivalTime } : {})
+    } satisfies MatrixParams;
 
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), this.timeout);
-
-    try {
-      const response = await fetch(`${url}?${params}`, {
-        headers: {
-          'Authorization': this.apiKey
-        },
-        signal: controller.signal
-      });
-
-      if (response.status === 429) {
-        throw new QuotaExceededError('Navitia API rate limit exceeded');
+    const result = await pRetry(
+      () => this.callJourneysApi(params.origin, params.destination, matrixParams, true),
+      {
+        retries: 2,
+        minTimeout: 1000,
+        onFailedAttempt: (error) => {
+          console.warn(
+            `Navitia route attempt ${error.attemptNumber} failed. ${error.retriesLeft} retries left.`,
+            error.message
+          );
+        }
       }
+    );
 
-      if (!response.ok) {
-        throw new Error(`Navitia Geocoding error: ${response.status} ${response.statusText}`);
+    return {
+      duration: result.duration,
+      distance: result.distance,
+      geometry: {
+        type: 'LineString',
+        coordinates: result.coordinates
       }
-
-      const data = await response.json() as {
-        places?: Array<{
-          embedded_type?: string;
-          address?: {
-            coord?: NavitiaCoordinates;
-          };
-        }>;
-      };
-
-      const place = data.places?.[0];
-      const coord = place?.address?.coord;
-
-      if (!coord) {
-        throw new Error('No geocoding results found');
-      }
-
-      return {
-        lat: coord.lat,
-        lng: coord.lon
-      };
-    } catch (error) {
-      if ((error as Error).name === 'AbortError') {
-        throw new TimeoutError('Navitia Geocoding timeout');
-      }
-      throw error;
-    } finally {
-      clearTimeout(timeoutId);
-    }
+    };
   }
 
   getName(): string {
     return 'navitia';
   }
 
+  private async getCoverageForCoordinates(lat: number, lng: number): Promise<string> {
+    const url = `${this.baseUrl}/coverage/${lng};${lat}`;
+
+    try {
+      const response = await fetch(url, {
+        headers: { 'Authorization': this.authHeader }
+      });
+
+      if (!response.ok) {
+        console.warn(`Coverage detection failed for ${lat},${lng}, falling back to ${this.defaultCoverage}`);
+        return this.defaultCoverage;
+      }
+
+      const data = await response.json() as {
+        regions?: Array<{ id: string }>;
+      };
+
+      return data.regions?.[0]?.id || this.defaultCoverage;
+    } catch (error) {
+      console.warn(`Coverage detection error: ${error}. Using ${this.defaultCoverage}`);
+      return this.defaultCoverage;
+    }
+  }
+
   /**
    * Call Navitia Journeys API for a single origin→destination pair.
-   * 
-   * Navitia returns journeys with sections that include GeoJSON LineStrings.
-   * We extract all section geometries and merge them into a single route.
+   * When withGeometry=false, we still parse the journey but skip geometry extraction.
    */
   private async callJourneysApi(
     origin: Coordinates,
     destination: Coordinates,
-    params: MatrixParams
-  ): Promise<{ duration: number; distance: number; points: Coordinates[] }> {
-    const url = `${this.baseUrl}/coverage/${this.defaultCoverage}/journeys`;
+    params: MatrixParams,
+    withGeometry: boolean
+  ): Promise<{ duration: number; distance: number; coordinates: [number, number][] }> {
+    const coverage = await this.getCoverageForCoordinates(origin.lat, origin.lng);
+    const url = `${this.baseUrl}/coverage/${coverage}/journeys`;
 
-    // Navitia uses format: lon;lat (opposite of lat,lng)
     const fromCoord = `${origin.lng};${origin.lat}`;
     const toCoord = `${destination.lng};${destination.lat}`;
 
     const queryParams = new URLSearchParams({
       from: fromCoord,
       to: toCoord,
-      count: '1', // Only want the best journey
+      count: '1',
       ...this.buildTimeParams(params),
       ...this.buildModeParams(params.mode)
     });
@@ -187,9 +175,7 @@ export class NavitiaProvider implements RoutingProvider {
 
     try {
       const response = await fetch(`${url}?${queryParams}`, {
-        headers: {
-          'Authorization': this.apiKey
-        },
+        headers: { 'Authorization': this.authHeader },
         signal: controller.signal
       });
 
@@ -213,33 +199,34 @@ export class NavitiaProvider implements RoutingProvider {
         throw new Error('No journey found');
       }
 
-      // Extract geometry from all sections
-      const points: Coordinates[] = [];
+      // Extract distance and optionally geometry from sections
       let totalDistance = 0;
+      const coordinates: [number, number][] = [];
 
       for (const section of journey.sections) {
-        if (section.geojson?.coordinates) {
-          // GeoJSON uses [lng, lat] format
-          for (const [lng, lat] of section.geojson.coordinates) {
-            points.push({ lat, lng });
-          }
-        }
-
-        // Accumulate distance (Navitia sometimes provides it per section)
         if (section.length) {
           totalDistance += section.length;
         }
+        if (withGeometry && section.geojson?.coordinates) {
+          for (const coord of section.geojson.coordinates) {
+            coordinates.push(coord);
+          }
+        }
       }
 
-      // Fallback: estimate distance from journey data or use Haversine
       if (totalDistance === 0) {
         totalDistance = this.estimateDistance(journey, origin, destination);
+      }
+
+      // Fallback geometry: straight line
+      if (withGeometry && coordinates.length === 0) {
+        coordinates.push([origin.lng, origin.lat], [destination.lng, destination.lat]);
       }
 
       return {
         duration: journey.duration,
         distance: Math.round(totalDistance),
-        points: points.length > 0 ? points : [origin, destination] // Fallback to straight line
+        coordinates
       };
     } catch (error) {
       if ((error as Error).name === 'AbortError') {
@@ -252,7 +239,6 @@ export class NavitiaProvider implements RoutingProvider {
   }
 
   private buildTimeParams(params: MatrixParams): Record<string, string> {
-    // Navitia datetime format: YYYYMMDDTHHmmss (no separators, no timezone)
     const formatNavitiaDate = (isoDate: string): string => {
       return isoDate.replace(/[-:]/g, '').replace(/\.\d{3}Z$/, '');
     };
@@ -269,60 +255,30 @@ export class NavitiaProvider implements RoutingProvider {
       };
     }
 
-    // Default: departure now
-    return {
-      datetime_represents: 'departure'
-    };
+    return { datetime_represents: 'departure' };
   }
 
   private buildModeParams(mode: string): Record<string, string> {
-    // Navitia modes:
-    // - car, bike, bss (bike sharing), walking, ridesharing
-    // - physical_mode:Bus, physical_mode:Metro, etc.
-    
     switch (mode) {
       case 'car':
-        return {
-          first_section_mode: 'car',
-          last_section_mode: 'car'
-        };
+        return { first_section_mode: 'car', last_section_mode: 'car' };
       case 'truck':
-        // Navitia doesn't have truck mode, fallback to car
-        return {
-          first_section_mode: 'car',
-          last_section_mode: 'car'
-        };
+        return { first_section_mode: 'car', last_section_mode: 'car' };
       case 'pedestrian':
-        return {
-          first_section_mode: 'walking',
-          last_section_mode: 'walking'
-        };
+        return { first_section_mode: 'walking', last_section_mode: 'walking' };
       default:
-        return {
-          first_section_mode: 'car',
-          last_section_mode: 'car'
-        };
+        return { first_section_mode: 'car', last_section_mode: 'car' };
     }
   }
 
-  /**
-   * Estimate distance from journey metadata or Haversine formula.
-   */
   private estimateDistance(journey: NavitiaJourney, origin: Coordinates, destination: Coordinates): number {
-    // Try to get distance from journey metadata
-    if (journey.distances?.car) {
-      return journey.distances.car;
-    }
-    if (journey.distances?.walking) {
-      return journey.distances.walking;
-    }
-
-    // Fallback: Haversine distance
+    if (journey.distances?.car) return journey.distances.car;
+    if (journey.distances?.walking) return journey.distances.walking;
     return this.calculateHaversineDistance(origin, destination);
   }
 
   private calculateHaversineDistance(coord1: Coordinates, coord2: Coordinates): number {
-    const R = 6371e3; // Earth radius in meters
+    const R = 6371e3;
     const φ1 = (coord1.lat * Math.PI) / 180;
     const φ2 = (coord2.lat * Math.PI) / 180;
     const Δφ = ((coord2.lat - coord1.lat) * Math.PI) / 180;

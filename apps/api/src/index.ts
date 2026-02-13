@@ -65,7 +65,7 @@ const routingService = new RoutingService(routingProvider, cacheService, {
 });
 
 // Register routes
-await fastify.register(createRoutingRoutes(routingService, routingProvider));
+await fastify.register(createRoutingRoutes(routingService));
 await fastify.register(createHealthRoute());
 
 // Start server

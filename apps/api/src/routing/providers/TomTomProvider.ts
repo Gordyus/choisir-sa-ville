@@ -7,7 +7,7 @@
  */
 
 import pRetry from 'p-retry';
-import type { Coordinates, MatrixParams, MatrixResult, RouteGeometry, RoutingProvider } from './interface.js';
+import type { Coordinates, MatrixParams, MatrixResult, RouteParams, RouteResult, RoutingProvider } from './interface.js';
 import { QuotaExceededError, TimeoutError } from '../../shared/errors/index.js';
 
 interface TomTomRouteSummary {
@@ -35,7 +35,7 @@ interface TomTomRouteResponse {
 export class TomTomProvider implements RoutingProvider {
   private readonly apiKey: string;
   private readonly baseUrl = 'https://api.tomtom.com';
-  private readonly timeout = 10000; // 10 seconds
+  private readonly timeout = 10000;
 
   constructor(apiKey: string) {
     this.apiKey = apiKey;
@@ -44,16 +44,14 @@ export class TomTomProvider implements RoutingProvider {
   async calculateMatrix(params: MatrixParams): Promise<MatrixResult> {
     const durations: number[][] = [];
     const distances: number[][] = [];
-    const routes: RouteGeometry[][] = [];
 
     for (const origin of params.origins) {
       const durationRow: number[] = [];
       const distanceRow: number[] = [];
-      const routeRow: RouteGeometry[] = [];
 
       for (const destination of params.destinations) {
         const result = await pRetry(
-          () => this.callCalculateRoute(origin, destination, params),
+          () => this.callCalculateRoute(origin, destination, params, false),
           {
             retries: 2,
             minTimeout: 1000,
@@ -68,59 +66,48 @@ export class TomTomProvider implements RoutingProvider {
 
         durationRow.push(result.travelTimeInSeconds);
         distanceRow.push(result.lengthInMeters);
-        routeRow.push({ points: result.points });
       }
 
       durations.push(durationRow);
       distances.push(distanceRow);
-      routes.push(routeRow);
     }
 
-    return { durations, distances, routes };
+    return { durations, distances };
   }
 
-  async geocode(address: string): Promise<Coordinates> {
-    const url = `${this.baseUrl}/search/2/geocode/${encodeURIComponent(address)}.json?key=${this.apiKey}`;
+  async calculateRoute(params: RouteParams): Promise<RouteResult> {
+    const matrixParams = {
+      origins: [params.origin],
+      destinations: [params.destination],
+      mode: params.mode,
+      ...(params.departureTime !== undefined ? { departureTime: params.departureTime } : {}),
+      ...(params.arrivalTime !== undefined ? { arrivalTime: params.arrivalTime } : {})
+    } satisfies MatrixParams;
 
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), this.timeout);
-
-    try {
-      const response = await fetch(url, { signal: controller.signal });
-
-      if (response.status === 403) {
-        throw new QuotaExceededError('TomTom API quota exceeded');
+    const result = await pRetry(
+      () => this.callCalculateRoute(params.origin, params.destination, matrixParams, true),
+      {
+        retries: 2,
+        minTimeout: 1000,
+        onFailedAttempt: (error) => {
+          console.warn(
+            `TomTom Route attempt ${error.attemptNumber} failed. ${error.retriesLeft} retries left.`,
+            error.message
+          );
+        }
       }
+    );
 
-      if (!response.ok) {
-        throw new Error(`TomTom Geocoding API error: ${response.status} ${response.statusText}`);
+    const coordinates: [number, number][] = result.points.map(p => [p.lng, p.lat]);
+
+    return {
+      duration: result.travelTimeInSeconds,
+      distance: result.lengthInMeters,
+      geometry: {
+        type: 'LineString',
+        coordinates
       }
-
-      const data = await response.json() as {
-        results?: Array<{
-          position?: { lat?: number; lon?: number };
-        }>;
-      };
-
-      const result = data.results?.[0];
-      const position = result?.position;
-
-      if (!position?.lat || !position?.lon) {
-        throw new Error('No geocoding results found');
-      }
-
-      return {
-        lat: position.lat,
-        lng: position.lon
-      };
-    } catch (error) {
-      if ((error as Error).name === 'AbortError') {
-        throw new TimeoutError('TomTom Geocoding API timeout');
-      }
-      throw error;
-    } finally {
-      clearTimeout(timeoutId);
-    }
+    };
   }
 
   getName(): string {
@@ -129,12 +116,13 @@ export class TomTomProvider implements RoutingProvider {
 
   /**
    * Call TomTom Calculate Route API for a single origin→destination pair.
-   * Uses GET with polyline to get route geometry for map display.
+   * When withGeometry=false, skips polyline fetching for faster response.
    */
   private async callCalculateRoute(
     origin: Coordinates,
     destination: Coordinates,
-    params: MatrixParams
+    params: MatrixParams,
+    withGeometry: boolean
   ): Promise<{ travelTimeInSeconds: number; lengthInMeters: number; points: Coordinates[] }> {
     const locations = `${origin.lat},${origin.lng}:${destination.lat},${destination.lng}`;
     const travelMode = this.mapModeToTomTom(params.mode);
@@ -142,11 +130,13 @@ export class TomTomProvider implements RoutingProvider {
     const queryParams = new URLSearchParams({
       key: this.apiKey,
       travelMode,
-      traffic: 'true',
-      routeRepresentation: 'polyline'
+      traffic: 'true'
     });
 
-    // Add departAt or arriveAt (mutually exclusive)
+    if (withGeometry) {
+      queryParams.set('routeRepresentation', 'polyline');
+    }
+
     if (params.departureTime) {
       queryParams.set('departAt', params.departureTime);
     } else if (params.arrivalTime) {
@@ -177,9 +167,8 @@ export class TomTomProvider implements RoutingProvider {
         throw new Error('No route found');
       }
 
-      // Extract polyline points from all legs
       const points: Coordinates[] = [];
-      if (route.legs) {
+      if (withGeometry && route.legs) {
         for (const leg of route.legs) {
           if (leg.points) {
             for (const point of leg.points) {
@@ -206,14 +195,10 @@ export class TomTomProvider implements RoutingProvider {
 
   private mapModeToTomTom(mode: string): string {
     switch (mode) {
-      case 'car':
-        return 'car';
-      case 'truck':
-        return 'truck';
-      case 'pedestrian':
-        return 'pedestrian';
-      default:
-        return 'car';
+      case 'car': return 'car';
+      case 'truck': return 'truck';
+      case 'pedestrian': return 'pedestrian';
+      default: return 'car';
     }
   }
 }

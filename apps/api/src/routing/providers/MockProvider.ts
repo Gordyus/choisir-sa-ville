@@ -5,7 +5,7 @@
  * Uses Haversine formula for distance calculation and assumes 80 km/h average speed.
  */
 
-import type { Coordinates, MatrixParams, MatrixResult, RouteGeometry, RoutingProvider } from './interface.js';
+import type { Coordinates, MatrixParams, MatrixResult, RouteParams, RouteResult, RoutingProvider } from './interface.js';
 
 export class MockProvider implements RoutingProvider {
   async calculateMatrix(params: MatrixParams): Promise<MatrixResult> {
@@ -13,12 +13,10 @@ export class MockProvider implements RoutingProvider {
 
     const durations: number[][] = [];
     const distances: number[][] = [];
-    const routes: RouteGeometry[][] = [];
 
     for (const origin of origins) {
       const durationRow: number[] = [];
       const distanceRow: number[] = [];
-      const routeRow: RouteGeometry[] = [];
 
       for (const destination of destinations) {
         const distanceMeters = this.calculateHaversineDistance(origin, destination);
@@ -30,38 +28,32 @@ export class MockProvider implements RoutingProvider {
 
         durationRow.push(durationSeconds);
         distanceRow.push(Math.round(distanceMeters));
-        
-        // Mock route: straight line with 3 intermediate points
-        routeRow.push({
-          points: [
-            origin,
-            {
-              lat: origin.lat + (destination.lat - origin.lat) * 0.33,
-              lng: origin.lng + (destination.lng - origin.lng) * 0.33
-            },
-            {
-              lat: origin.lat + (destination.lat - origin.lat) * 0.66,
-              lng: origin.lng + (destination.lng - origin.lng) * 0.66
-            },
-            destination
-          ]
-        });
       }
 
       durations.push(durationRow);
       distances.push(distanceRow);
-      routes.push(routeRow);
     }
 
-    return { durations, distances, routes };
+    return { durations, distances };
   }
 
-  async geocode(_address: string): Promise<Coordinates> {
-    // Mock geocoding - return fixed coordinates for testing
-    // In real usage, this would call an external geocoding API
+  async calculateRoute(params: RouteParams): Promise<RouteResult> {
+    const { origin, destination } = params;
+    const distanceMeters = this.calculateHaversineDistance(origin, destination);
+    const durationSeconds = Math.round((distanceMeters / 1000 / 80) * 3600);
+
     return {
-      lat: 48.8566,
-      lng: 2.3522
+      duration: durationSeconds,
+      distance: Math.round(distanceMeters),
+      geometry: {
+        type: 'LineString',
+        coordinates: [
+          [origin.lng, origin.lat],
+          [origin.lng + (destination.lng - origin.lng) * 0.33, origin.lat + (destination.lat - origin.lat) * 0.33],
+          [origin.lng + (destination.lng - origin.lng) * 0.66, origin.lat + (destination.lat - origin.lat) * 0.66],
+          [destination.lng, destination.lat]
+        ]
+      }
     };
   }
 
@@ -69,12 +61,8 @@ export class MockProvider implements RoutingProvider {
     return 'mock';
   }
 
-  /**
-   * Calculate distance using Haversine formula
-   * Returns distance in meters
-   */
   private calculateHaversineDistance(coord1: Coordinates, coord2: Coordinates): number {
-    const R = 6371e3; // Earth radius in meters
+    const R = 6371e3;
     const φ1 = (coord1.lat * Math.PI) / 180;
     const φ2 = (coord2.lat * Math.PI) / 180;
     const Δφ = ((coord2.lat - coord1.lat) * Math.PI) / 180;
