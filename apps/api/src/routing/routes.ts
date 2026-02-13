@@ -86,9 +86,9 @@ export const createRoutingRoutes = (
               },
               mode: {
                 type: 'string',
-                enum: ['car', 'truck', 'pedestrian'],
+                enum: ['car', 'truck', 'pedestrian', 'transit'],
                 default: 'car',
-                description: 'Travel mode'
+                description: 'Travel mode (transit uses Navitia in smart mode)'
               }
             }
           },
@@ -175,9 +175,9 @@ export const createRoutingRoutes = (
               },
               mode: {
                 type: 'string',
-                enum: ['car', 'truck', 'pedestrian'],
+                enum: ['car', 'truck', 'pedestrian', 'transit'],
                 default: 'car',
-                description: 'Travel mode'
+                description: 'Travel mode (transit uses Navitia in smart mode)'
               }
             }
           },

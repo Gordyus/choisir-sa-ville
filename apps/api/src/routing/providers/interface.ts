@@ -19,7 +19,7 @@ export interface MatrixParams {
   destinations: Coordinates[];
   departureTime?: string; // ISO 8601, mutually exclusive with arrivalTime
   arrivalTime?: string;   // ISO 8601, mutually exclusive with departureTime
-  mode: 'car' | 'truck' | 'pedestrian';
+  mode: 'car' | 'truck' | 'pedestrian' | 'transit';
 }
 
 export interface MatrixResult {
@@ -32,7 +32,7 @@ export interface RouteParams {
   destination: Coordinates;
   departureTime?: string;
   arrivalTime?: string;
-  mode: 'car' | 'truck' | 'pedestrian';
+  mode: 'car' | 'truck' | 'pedestrian' | 'transit';
 }
 
 export interface RouteResult {

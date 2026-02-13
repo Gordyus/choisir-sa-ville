@@ -7,7 +7,7 @@
 
 export interface EnvConfig {
   // Provider
-  ROUTING_PROVIDER: 'tomtom' | 'navitia' | 'mock';
+  ROUTING_PROVIDER: 'smart' | 'tomtom' | 'navitia' | 'mock';
   TOMTOM_API_KEY: string | undefined;
   NAVITIA_API_KEY: string | undefined;
 
@@ -35,7 +35,7 @@ export interface EnvConfig {
 }
 
 export const env: EnvConfig = {
-  ROUTING_PROVIDER: (process.env.ROUTING_PROVIDER as 'tomtom' | 'navitia' | 'mock') || 'mock',
+  ROUTING_PROVIDER: (process.env.ROUTING_PROVIDER as 'smart' | 'tomtom' | 'navitia' | 'mock') || 'mock',
   TOMTOM_API_KEY: process.env.TOMTOM_API_KEY,
   NAVITIA_API_KEY: process.env.NAVITIA_API_KEY,
 
@@ -69,6 +69,10 @@ export function validateEnv(): void {
   }
 
   // Provider-specific validation
+  if (env.ROUTING_PROVIDER === 'smart' && (!env.NAVITIA_API_KEY || !env.TOMTOM_API_KEY)) {
+    errors.push('Both NAVITIA_API_KEY and TOMTOM_API_KEY are required when ROUTING_PROVIDER=smart');
+  }
+
   if (env.ROUTING_PROVIDER === 'tomtom' && !env.TOMTOM_API_KEY) {
     errors.push('TOMTOM_API_KEY is required when ROUTING_PROVIDER=tomtom');
   }
