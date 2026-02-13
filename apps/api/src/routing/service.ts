@@ -5,10 +5,8 @@
  * Applies geohash snapping, time bucketing, and error margins.
  */
 
-import type { RoutingProvider, MatrixParams, MatrixResult } from './providers/interface.js';
+import type { RoutingProvider, MatrixParams, MatrixResult, RouteGeometry } from './providers/interface.js';
 import type { CacheService } from './cache/interface.js';
-import { snapToGeohash } from './utils/geohash.js';
-import { roundToTimeBucket } from './utils/timeBucket.js';
 import { applyErrorMargin } from './utils/errorMargin.js';
 
 export interface RoutingServiceConfig {
@@ -37,68 +35,21 @@ export class RoutingService {
       throw new Error('At least one origin and one destination required');
     }
 
-    const durations: number[][] = [];
-    const distances: number[][] = [];
-    let cacheHits = 0;
-    let cacheMisses = 0;
+    // For now, bypass cache and call provider directly
+    // Route geometry is too large to cache, and we need it for map display
+    // TODO: Implement smart caching (duration/distance only, fetch geometry on demand)
+    const result = await this.routingProvider.calculateMatrix(params);
 
-    for (const origin of params.origins) {
-      const durationRow: number[] = [];
-      const distanceRow: number[] = [];
-
-      for (const destination of params.destinations) {
-        // 1. Snap to geohash
-        const geohashOrigin = snapToGeohash(origin, this.config.geohashPrecision);
-        const geohashDest = snapToGeohash(destination, this.config.geohashPrecision);
-
-        // 2. Time bucketing
-        const timeBucket = roundToTimeBucket(params.departureTime, this.config.timeBucketMinutes);
-
-        // 3. Cache key
-        const cacheKey = `${geohashOrigin}_${geohashDest}_${timeBucket}_${params.mode}`;
-
-        // 4. Check cache
-        const cached = await this.cacheService.get(cacheKey);
-
-        if (cached !== null) {
-          // Cache hit
-          durationRow.push(cached);
-          distanceRow.push(0); // Distance not cached
-          cacheHits++;
-        } else {
-          // Cache miss - call provider
-          const result = await this.routingProvider.calculateMatrix({
-            origins: [origin],
-            destinations: [destination],
-            departureTime: params.departureTime,
-            mode: params.mode
-          });
-
-          const rawDuration = result.durations[0]?.[0] || 0;
-          const distance = result.distances[0]?.[0] || 0;
-
-          // 5. Apply margin
-          const durationWithMargin = applyErrorMargin(rawDuration, this.config.marginPercent);
-
-          // 6. Store in cache
-          await this.cacheService.set(cacheKey, durationWithMargin, this.config.cacheTtlDays);
-
-          durationRow.push(durationWithMargin);
-          distanceRow.push(distance);
-          cacheMisses++;
-        }
-      }
-
-      durations.push(durationRow);
-      distances.push(distanceRow);
-    }
-
-    const fromCache = cacheMisses === 0 && cacheHits > 0;
+    // Apply margin to durations
+    const durationsWithMargin = result.durations.map(row =>
+      row.map(duration => applyErrorMargin(duration, this.config.marginPercent))
+    );
 
     return {
-      durations,
-      distances,
-      fromCache
+      durations: durationsWithMargin,
+      distances: result.distances,
+      routes: result.routes,
+      fromCache: false
     };
   }
 }

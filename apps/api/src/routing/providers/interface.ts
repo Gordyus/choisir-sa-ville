@@ -13,13 +13,19 @@ export interface Coordinates {
 export interface MatrixParams {
   origins: Coordinates[];
   destinations: Coordinates[];
-  departureTime: string; // ISO 8601
-  mode: 'car' | 'transit' | 'walk' | 'bike';
+  departureTime?: string; // ISO 8601, mutually exclusive with arrivalTime
+  arrivalTime?: string;   // ISO 8601, mutually exclusive with departureTime
+  mode: 'car' | 'truck' | 'pedestrian';
+}
+
+export interface RouteGeometry {
+  points: Coordinates[]; // Polyline points for map display
 }
 
 export interface MatrixResult {
   durations: number[][]; // Seconds (origins x destinations)
   distances: number[][]; // Meters (origins x destinations)
+  routes: RouteGeometry[][]; // Route geometries (origins x destinations)
 }
 
 export interface RoutingProvider {

@@ -5,7 +5,7 @@
  * Uses Haversine formula for distance calculation and assumes 80 km/h average speed.
  */
 
-import type { Coordinates, MatrixParams, MatrixResult, RoutingProvider } from './interface.js';
+import type { Coordinates, MatrixParams, MatrixResult, RouteGeometry, RoutingProvider } from './interface.js';
 
 export class MockProvider implements RoutingProvider {
   async calculateMatrix(params: MatrixParams): Promise<MatrixResult> {
@@ -13,10 +13,12 @@ export class MockProvider implements RoutingProvider {
 
     const durations: number[][] = [];
     const distances: number[][] = [];
+    const routes: RouteGeometry[][] = [];
 
     for (const origin of origins) {
       const durationRow: number[] = [];
       const distanceRow: number[] = [];
+      const routeRow: RouteGeometry[] = [];
 
       for (const destination of destinations) {
         const distanceMeters = this.calculateHaversineDistance(origin, destination);
@@ -28,13 +30,30 @@ export class MockProvider implements RoutingProvider {
 
         durationRow.push(durationSeconds);
         distanceRow.push(Math.round(distanceMeters));
+        
+        // Mock route: straight line with 3 intermediate points
+        routeRow.push({
+          points: [
+            origin,
+            {
+              lat: origin.lat + (destination.lat - origin.lat) * 0.33,
+              lng: origin.lng + (destination.lng - origin.lng) * 0.33
+            },
+            {
+              lat: origin.lat + (destination.lat - origin.lat) * 0.66,
+              lng: origin.lng + (destination.lng - origin.lng) * 0.66
+            },
+            destination
+          ]
+        });
       }
 
       durations.push(durationRow);
       distances.push(distanceRow);
+      routes.push(routeRow);
     }
 
-    return { durations, distances };
+    return { durations, distances, routes };
   }
 
   async geocode(_address: string): Promise<Coordinates> {

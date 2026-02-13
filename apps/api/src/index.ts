@@ -5,19 +5,19 @@
  * Orchestrates external routing API calls with intelligent caching.
  */
 
-import 'dotenv/config';
-import Fastify from 'fastify';
 import cors from '@fastify/cors';
 import rateLimit from '@fastify/rate-limit';
 import swagger from '@fastify/swagger';
 import swaggerUi from '@fastify/swagger-ui';
-import { env, validateEnv } from './config/validateEnv.js';
+import 'dotenv/config';
+import Fastify from 'fastify';
 import { swaggerOptions, swaggerUiOptions } from './config/swagger.js';
-import { createRoutingProvider } from './routing/providers/factory.js';
-import { MockCacheService } from './routing/cache/MockCacheService.js';
-import { RoutingService } from './routing/service.js';
-import { createRoutingRoutes } from './routing/routes.js';
+import { env, validateEnv } from './config/validateEnv.js';
 import { createHealthRoute } from './health/routes.js';
+import { MockCacheService } from './routing/cache/MockCacheService.js';
+import { createRoutingProvider } from './routing/providers/factory.js';
+import { createRoutingRoutes } from './routing/routes.js';
+import { RoutingService } from './routing/service.js';
 
 // Validate environment at startup
 validateEnv();
@@ -29,15 +29,17 @@ const fastify = Fastify({
   }
 });
 
-// Register CORS
+// Register CORS (permissive in dev, strict in prod)
 await fastify.register(cors, {
-  origin: env.CORS_ORIGIN
+  origin: env.NODE_ENV === 'development' ? true : env.CORS_ORIGIN,
 });
 
-// Register rate limiting
+// Register rate limiting (exclude docs/health routes)
 await fastify.register(rateLimit, {
   max: env.RATE_LIMIT_REQUESTS_PER_WINDOW,
   timeWindow: env.RATE_LIMIT_WINDOW_MS,
+  skipOnError: true,
+  allowList: ['/docs', '/docs/json', '/docs/static/*', '/api/health'],
   errorResponseBuilder: () => {
     return {
       statusCode: 429,
