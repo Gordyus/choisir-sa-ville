@@ -1,16 +1,105 @@
 # Backend Routing Service
 
-Minimal backend API for travel time calculations with intelligent caching.
+Minimal Fastify backend for travel time calculations with intelligent caching and routing provider abstraction.
 
-## Overview
+## Quick Start
 
-This service orchestrates external routing API calls (TomTom, OSRM, etc.) to calculate travel times with departure time specificity. It implements:
+```bash
+# Install dependencies
+pnpm install
 
-- **Pattern Adapter** for routing provider abstraction
-- **Geohash6 snapping** (~1km precision) for cache optimization
-- **Time bucketing** (30-minute slots) for cache hit rate improvement
-- **Error margin** (+10% default) for realistic travel time estimates
-- **Rate limiting** (6 req/min per IP)
+# Configure environment
+cp .env.example .env
+# Edit .env and add your API key (see Routing Providers below)
+
+# Start development server
+pnpm dev
+
+# Server runs on http://localhost:3005
+# Swagger UI at http://localhost:3005/docs
+```
+
+## Routing Providers
+
+The API supports multiple routing providers via environment configuration:
+
+| Provider | Free Tier | Best For | Get API Key |
+|----------|-----------|----------|-------------|
+| **Navitia** ⭐ | 150k req/month | French cities, public transit | [SNCF API Portal](https://numerique.sncf.com/startup/api/) |
+| **TomTom** | 75k req/month | Global coverage, real-time traffic | [TomTom Developer](https://developer.tomtom.com/) |
+| **Mock** | Unlimited | Development/testing | No setup needed |
+
+**Recommended for MVP:** Use **Navitia** (doubles quota vs TomTom, excellent French coverage).
+
+### Switching Providers
+
+No code changes needed — just update `.env` and restart:
+
+```bash
+# .env
+ROUTING_PROVIDER=navitia  # navitia | tomtom | mock
+NAVITIA_API_KEY=your_token_here
+```
+
+See [docs/architecture/routing-providers.md](../../docs/architecture/routing-providers.md) for detailed comparison.
+
+## API Endpoints
+
+### POST /api/routing/matrix
+
+Calculate travel times, distances, and route geometries.
+
+**Request:**
+```json
+{
+  "origins": [{ "lat": 43.6108, "lng": 3.8767 }],
+  "destinations": [{ "lat": 48.8566, "lng": 2.3522 }],
+  "departureTime": "2026-03-15T08:30:00Z",  // OR arrivalTime (mutually exclusive)
+  "mode": "car"  // car | truck | pedestrian
+}
+```
+
+**Response:**
+```json
+{
+  "durations": [[26945]],     // seconds
+  "distances": [[749247]],    // meters  
+  "routes": [[{
+    "points": [              // ~9k points for Montpellier→Paris
+      { "lat": 43.6108, "lng": 3.8767 },
+      { "lat": 43.6125, "lng": 3.8801 },
+      ...
+    ]
+  }]],
+  "fromCache": false
+}
+```
+
+### GET /api/health
+
+Health check endpoint.
+
+```json
+{
+  "status": "ok",
+  "version": "1.0.0",
+  "uptime": 3600,
+  "provider": "navitia",
+  "cache": { "enabled": false },
+  "environment": "development"
+}
+```
+
+## Features
+
+- ✅ **arriveAt** or **departAt** support (mutually exclusive)
+- ✅ **Route geometry** for map display (~9k points per route)
+- ✅ **Provider abstraction** (switch in 1 env var)
+- ✅ **Rate limiting** (configurable, excludes /docs and /health)
+- ✅ **CORS** (permissive in dev, strict in prod)
+- ✅ **Swagger/OpenAPI** documentation at `/docs`
+- ✅ **TypeScript** strict mode
+- ⏸️  **Caching** (temporarily disabled while route geometry support is finalized)
 
 ## Architecture
 
@@ -20,36 +109,30 @@ The project is organized by **domain** (routing, health) with shared cross-domai
 apps/api/
 ├── src/
 │   ├── index.ts                     # Fastify entry point
-│   ├── config/                      # Configuration globale
-│   │   └── validateEnv.ts
-│   ├── shared/                      # Code partagé cross-domain
-│   │   ├── errors/
-│   │   │   └── index.ts             # QuotaExceededError, TimeoutError
-│   │   └── types/
-│   │       └── ngeohash.d.ts        # Type declarations
-│   ├── routing/                     # Domaine: Routing externe
-│   │   ├── routes.ts                # POST /api/routing/matrix, /geocode
+│   ├── config/                      # Global configuration
+│   │   ├── validateEnv.ts
+│   │   └── swagger.ts
+│   ├── shared/                      # Shared cross-domain code
+│   │   └── errors/
+│   │       └── index.ts             # QuotaExceededError, TimeoutError
+│   ├── routing/                     # Domain: External routing APIs
+│   │   ├── routes.ts                # POST /api/routing/matrix
 │   │   ├── service.ts               # RoutingService (orchestration)
 │   │   ├── providers/
-│   │   │   ├── interface.ts
-│   │   │   ├── TomTomProvider.ts
-│   │   │   ├── MockProvider.ts
-│   │   │   └── factory.ts
+│   │   │   ├── interface.ts         # RoutingProvider contract
+│   │   │   ├── NavitiaProvider.ts   # SNCF API (150k req/month)
+│   │   │   ├── TomTomProvider.ts    # TomTom Calculate Route v1
+│   │   │   ├── MockProvider.ts      # Haversine + straight line
+│   │   │   └── factory.ts           # Provider selection
 │   │   ├── cache/
 │   │   │   ├── interface.ts
 │   │   │   └── MockCacheService.ts
 │   │   └── utils/
-│   │       ├── geohash.ts
-│   │       ├── timeBucket.ts
-│   │       └── errorMargin.ts
-│   └── health/                      # Domaine: Monitoring
+│   │       ├── geohash.ts           # Coordinate snapping
+│   │       ├── timeBucket.ts        # Time rounding
+│   │       └── errorMargin.ts       # Travel time margin
+│   └── health/                      # Domain: Monitoring
 │       └── routes.ts                # GET /api/health
-└── __tests__/
-    ├── routing/
-    │   ├── unit/
-    │   └── integration/
-    └── health/
-        └── integration/
 ```
 
 ### Design Principles
@@ -66,245 +149,104 @@ POST /api/routing/matrix → RoutingService → RoutingProvider (TomTom/Mock)
                           CacheService (Memory/PostgreSQL)
 ```
 
-## Quick Start
-
-### Installation
-
-```bash
-cd apps/api
-pnpm install
-```
-
-### Configuration
-
-Copy `.env.example` to `.env`:
-
-```bash
-cp .env.example .env
-```
-
-For development with **MockProvider** (no API key needed):
-```bash
-ROUTING_PROVIDER=mock
-ENABLE_CACHE=false
-PORT=3001
-CORS_ORIGIN=http://localhost:3000
-NODE_ENV=development
-```
-
-For production with **TomTom**:
-```bash
-ROUTING_PROVIDER=tomtom
-TOMTOM_API_KEY=your_api_key_here
-ENABLE_CACHE=true
-DATABASE_URL=postgresql://...
-```
-
-### Development
-
-```bash
-pnpm dev  # Starts server with watch mode on port 3001
-```
-
-### Build
-
-```bash
-pnpm build  # Compiles TypeScript to dist/
-```
-
-### Production
-
-```bash
-pnpm start  # Runs compiled dist/index.js
-```
-
 ## Testing
 
-### Run all tests
-
 ```bash
-pnpm test
-```
-
-### Unit tests only
-
-```bash
-pnpm test:unit
-```
-
-### Integration tests only
-
-```bash
-pnpm test:integration
-```
-
-### Type checking
-
-```bash
+# Type check
 pnpm typecheck
-```
 
-## API Endpoints
+# Lint
+pnpm lint
 
-### POST /api/routing/matrix
-
-Calculate travel time matrix between origins and destinations.
-
-**Request:**
-```json
-{
-  "origins": [{ "lat": 43.6108, "lng": 3.8767 }],
-  "destinations": [{ "lat": 48.8566, "lng": 2.3522 }],
-  "departureTime": "2026-03-15T08:30:00Z",
-  "mode": "car"
-}
-```
-
-**Response:**
-```json
-{
-  "durations": [[25200]],
-  "distances": [[750000]],
-  "fromCache": false
-}
-```
-
-### POST /api/geocode
-
-Convert address to GPS coordinates.
-
-**Request:**
-```json
-{
-  "address": "1 Rue de Rivoli, 75001 Paris, France"
-}
-```
-
-**Response:**
-```json
-{
-  "lat": 48.8606,
-  "lng": 2.3376
-}
-```
-
-### GET /api/health
-
-Health check for monitoring.
-
-**Response:**
-```json
-{
-  "status": "ok",
-  "version": "1.0.0",
-  "uptime": 3600,
-  "provider": "mock",
-  "cache": {
-    "enabled": false
-  },
-  "environment": "development"
-}
-```
-
-## Manual Testing with curl
-
-### Health check
-```bash
-curl http://localhost:3001/api/health
-```
-
-### Routing matrix
-```bash
-curl -X POST http://localhost:3001/api/routing/matrix \
+# Test with curl
+curl -X POST http://localhost:3005/api/routing/matrix \
   -H "Content-Type: application/json" \
   -d '{
-    "origins": [{"lat": 43.6108, "lng": 3.8767}],
-    "destinations": [{"lat": 48.8566, "lng": 2.3522}],
-    "departureTime": "2026-03-15T08:30:00Z",
-    "mode": "car"
+    "origins":[{"lat":43.6108,"lng":3.8767}],
+    "destinations":[{"lat":48.8566,"lng":2.3522}],
+    "departureTime":"2026-03-15T08:30:00Z",
+    "mode":"car"
   }'
+
+# Or use Swagger UI
+open http://localhost:3005/docs
 ```
 
-### Geocoding
+## Environment Variables
+
 ```bash
-curl -X POST http://localhost:3001/api/geocode \
-  -H "Content-Type: application/json" \
-  -d '{"address": "1 Rue de Rivoli, Paris"}'
+# Provider (choose one: navitia | tomtom | mock)
+ROUTING_PROVIDER=navitia
+NAVITIA_API_KEY=xxx              # Required if provider=navitia
+TOMTOM_API_KEY=xxx               # Required if provider=tomtom
+
+# Server
+PORT=3005
+CORS_ORIGIN=http://localhost:3000
+NODE_ENV=development             # development | production | test
+
+# Optimization (for future caching re-enablement)
+GEOHASH_PRECISION=6              # 1-9 (6 = ~1.2km cell)
+TIME_BUCKET_MINUTES=30           # Round times to nearest N minutes
+TRAVEL_TIME_MARGIN_PERCENT=10    # Add +N% safety margin
+
+# Rate limiting
+RATE_LIMIT_REQUESTS_PER_WINDOW=1000
+RATE_LIMIT_WINDOW_MS=60000       # 1 minute
+
+# Monitoring (optional)
+SENTRY_DSN=
 ```
 
-## Cache Strategy
+## Provider Migration Guide
 
-### Geohash6 Snapping
+Thanks to the Adapter pattern, switching providers requires **zero code changes**:
 
-Coordinates are snapped to geohash6 grid (~1km precision):
-- Montpellier: `43.6108, 3.8767` → `spey2b`
-- Reduces 35k communes to ~5k unique geohashes
+1. Update `.env`: `ROUTING_PROVIDER=navitia`
+2. Add API key: `NAVITIA_API_KEY=your_token`
+3. Restart server
 
-### Time Bucketing
+All providers implement the same `RoutingProvider` interface, guaranteeing consistent behavior.
 
-Departure times rounded to 30-minute slots:
-- `08:17` → `08:00`
-- `08:43` → `08:30`
+## Cost Analysis
 
-### Cache Key Format
+| Monthly Requests | Strategy | Cost |
+|------------------|----------|------|
+| <150k | Navitia free tier | 0€ |
+| 150k-225k | Navitia + TomTom fallback | 0€ |
+| >225k | Self-host Valhalla | ~20€ (VPS) |
 
-```
-{geohashOrigin}_{geohashDest}_{timeBucket}_{mode}
-Example: spey2b_spfn48_2026-03-15T08:30:00Z_car
-```
-
-### TTL
-
-Default: 30 days (configurable via `CACHE_TTL_DAYS`)
-
-## Error Handling
-
-- **Quota exceeded** (403) → 503 Service Unavailable
-- **Timeout** (10s) → 504 Gateway Timeout
-- **Rate limit** (6 req/min) → 429 Too Many Requests
+Break-even point for self-hosting: ~200k requests/month.
 
 ## Deployment
 
-### Railway.app (Recommended MVP)
-
-1. Create new project on Railway.app
-2. Connect GitHub repository
-3. Set environment variables
-4. Deploy automatically on push
-
-**Free tier**: 500h/month execution (sufficient for MVP)
-
-### Environment Variables (Production)
+**Railway.app (recommended for MVP):**
 
 ```bash
-ROUTING_PROVIDER=tomtom
-TOMTOM_API_KEY=***
-ENABLE_CACHE=false  # true if PostgreSQL added
-DATABASE_URL=postgresql://...
-PORT=3001
-CORS_ORIGIN=https://choisir-sa-ville.fr
+# Set environment variables in dashboard
+ROUTING_PROVIDER=navitia
+NAVITIA_API_KEY=xxx
+PORT=3005
 NODE_ENV=production
-SENTRY_DSN=***  # Optional
+CORS_ORIGIN=https://your-domain.com
+
+# Deploy
+railway up
 ```
 
-## Monitoring
+**Monitoring Targets:**
+- Latency P95: <5s
+- Error rate: <1%  
+- Provider quota: Track daily usage vs limits
 
-Key metrics to track:
-- **Cache hit rate**: Target >70%
-- **Latency P95**: Target <5s
-- **Error rate**: Target <1%
-- **TomTom quota**: 2500 req/day free tier
+## Roadmap
 
-## Provider Migration
-
-Thanks to the Adapter pattern, switching providers requires:
-
-1. Create new provider class (e.g., `OSRMProvider.ts`)
-2. Implement `RoutingProvider` interface
-3. Add case to `factory.ts`
-4. Change `ROUTING_PROVIDER` env variable
-
-**Zero business logic changes required.**
+- [ ] Re-enable caching (duration/distance only, on-demand geometry)
+- [ ] Add `ValhallProvider.ts` for self-hosted option
+- [ ] Implement smart provider fallback chain
+- [ ] Add Sentry monitoring integration
+- [ ] Support batch matrix calculations
+- [ ] Per-provider cost tracking
 
 ## License
 

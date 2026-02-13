@@ -7,8 +7,9 @@
 
 export interface EnvConfig {
   // Provider
-  ROUTING_PROVIDER: 'tomtom' | 'mock';
+  ROUTING_PROVIDER: 'tomtom' | 'navitia' | 'mock';
   TOMTOM_API_KEY: string | undefined;
+  NAVITIA_API_KEY: string | undefined;
 
   // Cache
   ENABLE_CACHE: boolean;
@@ -34,8 +35,9 @@ export interface EnvConfig {
 }
 
 export const env: EnvConfig = {
-  ROUTING_PROVIDER: (process.env.ROUTING_PROVIDER as 'tomtom' | 'mock') || 'mock',
+  ROUTING_PROVIDER: (process.env.ROUTING_PROVIDER as 'tomtom' | 'navitia' | 'mock') || 'mock',
   TOMTOM_API_KEY: process.env.TOMTOM_API_KEY,
+  NAVITIA_API_KEY: process.env.NAVITIA_API_KEY,
 
   ENABLE_CACHE: process.env.ENABLE_CACHE === 'true',
   DATABASE_URL: process.env.DATABASE_URL,
@@ -69,6 +71,10 @@ export function validateEnv(): void {
   // Provider-specific validation
   if (env.ROUTING_PROVIDER === 'tomtom' && !env.TOMTOM_API_KEY) {
     errors.push('TOMTOM_API_KEY is required when ROUTING_PROVIDER=tomtom');
+  }
+
+  if (env.ROUTING_PROVIDER === 'navitia' && !env.NAVITIA_API_KEY) {
+    errors.push('NAVITIA_API_KEY is required when ROUTING_PROVIDER=navitia');
   }
 
   // Cache validation
