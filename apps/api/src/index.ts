@@ -5,10 +5,14 @@
  * Orchestrates external routing API calls with intelligent caching.
  */
 
+import 'dotenv/config';
 import Fastify from 'fastify';
 import cors from '@fastify/cors';
 import rateLimit from '@fastify/rate-limit';
+import swagger from '@fastify/swagger';
+import swaggerUi from '@fastify/swagger-ui';
 import { env, validateEnv } from './config/validateEnv.js';
+import { swaggerOptions, swaggerUiOptions } from './config/swagger.js';
 import { createRoutingProvider } from './routing/providers/factory.js';
 import { MockCacheService } from './routing/cache/MockCacheService.js';
 import { RoutingService } from './routing/service.js';
@@ -42,6 +46,10 @@ await fastify.register(rateLimit, {
     };
   }
 });
+
+// Register Swagger documentation
+await fastify.register(swagger, swaggerOptions);
+await fastify.register(swaggerUi, swaggerUiOptions);
 
 // Initialize services
 const routingProvider = createRoutingProvider();
