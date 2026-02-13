@@ -6,7 +6,7 @@
  * Provides React integration for the EntityDataProvider.
  */
 
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 import type {
     CommuneData,
@@ -16,64 +16,25 @@ import type {
 } from "@/lib/selection/types";
 
 import { getEntityDataProvider } from "./index";
+import { useAsyncData, type AsyncDataResult } from "./useAsyncData";
+
+// Re-export the result type so existing consumers keep working
+export type UseEntityResult<T> = AsyncDataResult<T>;
 
 // ============================================================================
 // useEntity Hook
 // ============================================================================
 
-export interface UseEntityResult<T> {
-    data: T | null;
-    loading: boolean;
-    error: Error | null;
-    refetch: () => void;
-}
-
 /**
  * Hook to fetch entity data with loading/error states.
  */
 export function useEntity(ref: EntityRef | null): UseEntityResult<EntityData> {
-    const [data, setData] = useState<EntityData | null>(null);
-    const [loading, setLoading] = useState(false);
-    const [error, setError] = useState<Error | null>(null);
-    const [refetchTrigger, setRefetchTrigger] = useState(0);
+    const fetcher = useMemo(
+        () => ref ? (signal: AbortSignal) => getEntityDataProvider().getEntity(ref, signal) : null,
+        [ref?.kind, ref?.kind === "commune" ? ref.inseeCode : ref?.id]
+    );
 
-    const refetch = useCallback(() => {
-        setRefetchTrigger((n) => n + 1);
-    }, []);
-
-    useEffect(() => {
-        if (!ref) {
-            setData(null);
-            setLoading(false);
-            setError(null);
-            return;
-        }
-
-        const controller = new AbortController();
-        setLoading(true);
-        setError(null);
-
-        getEntityDataProvider()
-            .getEntity(ref, controller.signal)
-            .then((result) => {
-                if (!controller.signal.aborted) {
-                    setData(result);
-                    setLoading(false);
-                }
-            })
-            .catch((err: unknown) => {
-                if (!controller.signal.aborted) {
-                    setError(err instanceof Error ? err : new Error(String(err)));
-                    setLoading(false);
-                }
-            });
-
-        return () => {
-            controller.abort();
-        };
-    }, [ref?.kind, ref?.kind === "commune" ? ref.inseeCode : ref?.id, refetchTrigger]);
-
-    return { data, loading, error, refetch };
+    return useAsyncData(fetcher);
 }
 
 // ============================================================================
@@ -84,48 +45,12 @@ export function useEntity(ref: EntityRef | null): UseEntityResult<EntityData> {
  * Hook to fetch commune data by INSEE code.
  */
 export function useCommune(inseeCode: string | null): UseEntityResult<CommuneData> {
-    const [data, setData] = useState<CommuneData | null>(null);
-    const [loading, setLoading] = useState(false);
-    const [error, setError] = useState<Error | null>(null);
-    const [refetchTrigger, setRefetchTrigger] = useState(0);
+    const fetcher = useMemo(
+        () => inseeCode ? (signal: AbortSignal) => getEntityDataProvider().getCommune(inseeCode, signal) : null,
+        [inseeCode]
+    );
 
-    const refetch = useCallback(() => {
-        setRefetchTrigger((n) => n + 1);
-    }, []);
-
-    useEffect(() => {
-        if (!inseeCode) {
-            setData(null);
-            setLoading(false);
-            setError(null);
-            return;
-        }
-
-        const controller = new AbortController();
-        setLoading(true);
-        setError(null);
-
-        getEntityDataProvider()
-            .getCommune(inseeCode, controller.signal)
-            .then((result) => {
-                if (!controller.signal.aborted) {
-                    setData(result);
-                    setLoading(false);
-                }
-            })
-            .catch((err: unknown) => {
-                if (!controller.signal.aborted) {
-                    setError(err instanceof Error ? err : new Error(String(err)));
-                    setLoading(false);
-                }
-            });
-
-        return () => {
-            controller.abort();
-        };
-    }, [inseeCode, refetchTrigger]);
-
-    return { data, loading, error, refetch };
+    return useAsyncData(fetcher);
 }
 
 // ============================================================================
@@ -136,48 +61,12 @@ export function useCommune(inseeCode: string | null): UseEntityResult<CommuneDat
  * Hook to fetch infra-zone data by ID.
  */
 export function useInfraZone(id: string | null): UseEntityResult<InfraZoneData> {
-    const [data, setData] = useState<InfraZoneData | null>(null);
-    const [loading, setLoading] = useState(false);
-    const [error, setError] = useState<Error | null>(null);
-    const [refetchTrigger, setRefetchTrigger] = useState(0);
+    const fetcher = useMemo(
+        () => id ? (signal: AbortSignal) => getEntityDataProvider().getInfraZone(id, signal) : null,
+        [id]
+    );
 
-    const refetch = useCallback(() => {
-        setRefetchTrigger((n) => n + 1);
-    }, []);
-
-    useEffect(() => {
-        if (!id) {
-            setData(null);
-            setLoading(false);
-            setError(null);
-            return;
-        }
-
-        const controller = new AbortController();
-        setLoading(true);
-        setError(null);
-
-        getEntityDataProvider()
-            .getInfraZone(id, controller.signal)
-            .then((result) => {
-                if (!controller.signal.aborted) {
-                    setData(result);
-                    setLoading(false);
-                }
-            })
-            .catch((err: unknown) => {
-                if (!controller.signal.aborted) {
-                    setError(err instanceof Error ? err : new Error(String(err)));
-                    setLoading(false);
-                }
-            });
-
-        return () => {
-            controller.abort();
-        };
-    }, [id, refetchTrigger]);
-
-    return { data, loading, error, refetch };
+    return useAsyncData(fetcher);
 }
 
 // ============================================================================
