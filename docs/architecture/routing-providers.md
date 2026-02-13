@@ -2,72 +2,104 @@
 
 ## Overview
 
-The routing backend uses an **Adapter pattern** to abstract external routing APIs. This allows switching providers without changing business logic or frontend code.
+The routing backend uses an **Adapter pattern** to abstract external routing APIs, with a **performance-optimized split architecture**:
+- **Matrix endpoint** (`calculateMatrix`): Bulk durations/distances (no geometry, cacheable)
+- **Route endpoint** (`calculateRoute`): Single route with GeoJSON geometry (on-demand)
+
+This allows switching providers without changing business logic or frontend code.
+
+## Architecture Evolution
+
+### Before (Single Endpoint with Geometry)
+```
+POST /api/routing/matrix → {durations[][], distances[][], routes[][]} 
+Problem: 6.8MB response for 100 communes, 15s+ response time
+```
+
+### After (Split Architecture)
+```
+POST /api/routing/matrix → {durations[][], distances[][]}  // ~200 bytes, <3s
+POST /api/routing/route  → {duration, distance, geometry}  // ~68KB, on-demand
+Benefit: 34x faster initial load, geometry only when user clicks
+```
 
 ## Current Architecture
 
 ```
 apps/api/src/routing/providers/
-├── interface.ts           # Common interface (RoutingProvider)
+├── interface.ts           # RoutingProvider contract (2 methods)
 ├── factory.ts             # Provider selection via env var
 ├── TomTomProvider.ts      # TomTom Calculate Route API v1
-├── NavitiaProvider.ts     # Navitia (SNCF) API
+├── NavitiaProvider.ts     # Navitia (SNCF) Journeys API
 ├── MockProvider.ts        # Development/testing (Haversine)
-└── (future) ValhallProvider.ts  # Self-hosted OSM-based
+└── (future) ValhallaProvider.ts  # Self-hosted OSM-based
 ```
 
 ## Provider Comparison
 
 ### Quick Reference
 
-| Provider | Type | Free Tier | Matrix | Geometry | Transit | France Focus |
-|----------|------|-----------|--------|----------|---------|--------------|
-| **Navitia** | SaaS | 150k req/month | ✅ Native | ✅ GeoJSON | ⭐⭐⭐ | ✅ SNCF official |
-| **TomTom** | SaaS | 2.5k req/day (~75k/month) | ❌ Calculate Route only | ✅ Polyline | ❌ | Global |
+| Provider | Type | Free Tier | Matrix Support | Geometry | Transit | France Focus |
+|----------|------|-----------|----------------|----------|---------|--------------|
+| **Navitia** | SaaS | 150k req/month | ✅ Journeys API | ✅ GeoJSON | ⭐⭐⭐ | ✅ SNCF official |
+| **TomTom** | SaaS | 75k req/month | ⚠️ Loop Calculate Route | ✅ Polyline | ❌ | Global |
 | **Valhalla** | Self-hosted | Unlimited (server cost) | ✅ Very fast | ✅ Polyline | ⭐⭐ (with GTFS) | Via OSM+GTFS |
-| **IGN Géoplateforme** | SaaS | Free (5 req/sec) | ⚠️ Limited | ✅ GeoJSON | ⭐ | ✅ French gov |
+| **IGN Géoplateforme** | SaaS | Free (5 req/sec) | ❌ **Not available** | ✅ GeoJSON | ⚠️ Limited | ✅ French gov |
 
 ### Detailed Analysis
 
-#### 1. Navitia (Recommended for MVP)
+#### 1. Navitia ⭐ (Recommended for MVP)
 
 **Strengths:**
 - **150k requests/month free** via [SNCF API Portal](https://numerique.sncf.com/startup/api/)
 - Native support for French public transit (Train, Bus, Métro, Tram)
-- Matrix endpoint: `/journeys` with multiple origins/destinations
-- Polylines included in journey responses (GeoJSON format)
+- Journeys endpoint supports matrix-like queries (1 origin → N destinations)
+- GeoJSON geometry in journey sections
 - `datetime_represents` param: `arrival` or `departure`
 - Open-source (can self-host if needed later)
+- **Regional coverage** (fr-idf, fr-ne, fr-se, etc.)
 
 **Limitations:**
 - Road routing less optimized than dedicated car routing APIs
 - API rate limits: 10 requests/second
+- Coverage detection needed (no global 'fr' coverage)
 
 **Use case:** **Primary provider for MVP phase**. Doubles quota vs TomTom, excellent for French cities.
 
+**Split Architecture Implementation:**
+- `calculateMatrix`: Loop Journeys API without geometry param
+- `calculateRoute`: Call Journeys API, extract sections' GeoJSON
+
 **API Example:**
 ```bash
-GET https://api.navitia.io/v1/coverage/fr-idf/journeys
-  ?from=2.37715;48.84552
-  &to=2.33629;48.86699
+GET https://api.navitia.io/v1/coverage/fr-se/journeys
+  ?from=3.8767;43.6108
+  &to=2.3522;48.8566
   &datetime=20260315T083000
   &datetime_represents=departure
+  &first_section_mode=car
+  &last_section_mode=car
 ```
 
-#### 2. TomTom Calculate Route (Current)
+#### 2. TomTom Calculate Route (Fallback)
 
 **Strengths:**
 - Global coverage with real-time traffic
 - Clean API, good documentation
 - Polyline geometry included
 - Supports `departAt` and `arriveAt`
+- Fast response times (<2s per route)
 
 **Limitations:**
-- **2,500 requests/day** on free tier (~75k/month)
+- **75k requests/month** on free tier (vs 150k for Navitia)
 - No native matrix endpoint (must loop Calculate Route)
 - More expensive at scale
 
 **Use case:** **Fallback provider** when Navitia quota exceeded or for non-French regions.
+
+**Split Architecture Implementation:**
+- `calculateMatrix`: Loop Calculate Route API without polyline
+- `calculateRoute`: Single Calculate Route with `routeRepresentation=polyline`
 
 **API Example:**
 ```bash
@@ -76,9 +108,21 @@ GET https://api.tomtom.com/routing/1/calculateRoute/43.6108,3.8767:48.8566,2.352
   &travelMode=car
   &traffic=true
   &departAt=2026-03-15T08:30:00Z
+  &routeRepresentation=polyline  // Only for route endpoint
 ```
 
-#### 3. Valhalla (Future: Self-hosted)
+#### 3. IGN Géoplateforme ❌ (Not Suitable)
+
+**Research Findings (Feb 2026):**
+- **No Matrix API available** - Only point-to-point route calculation
+- 100 communes = 100 sequential requests = ~50 seconds response time
+- **Rejected for MVP** - Cannot meet <3s requirement
+
+**Use case:** None for this project. Use Navitia or TomTom instead.
+
+See: `files/ign-api-research.md` for full analysis.
+
+#### 4. Valhalla (Future: Self-hosted)
 
 **Strengths:**
 - **Unlimited requests** (only server cost)
@@ -180,12 +224,16 @@ if (query.mode === 'transit') {
 
 ## Interface Contract
 
-All providers implement `RoutingProvider`:
+All providers implement `RoutingProvider` with **2 distinct methods**:
 
 ```typescript
 interface RoutingProvider {
+  // Bulk calculations (no geometry, fast, cacheable)
   calculateMatrix(params: MatrixParams): Promise<MatrixResult>;
-  geocode(address: string): Promise<Coordinates>;
+  
+  // Single route with geometry (on-demand, for map display)
+  calculateRoute(params: RouteParams): Promise<RouteResult>;
+  
   getName(): string;
 }
 
@@ -198,9 +246,26 @@ interface MatrixParams {
 }
 
 interface MatrixResult {
-  durations: number[][];        // seconds
-  distances: number[][];        // meters
-  routes: RouteGeometry[][];    // polylines for map
+  durations: number[][];   // seconds (origins × destinations)
+  distances: number[][];   // meters (origins × destinations)
+  // ❌ routes removed - use calculateRoute() instead
+}
+
+interface RouteParams {
+  origin: Coordinates;
+  destination: Coordinates;
+  departureTime?: string;
+  arrivalTime?: string;
+  mode: 'car' | 'truck' | 'pedestrian';
+}
+
+interface RouteResult {
+  duration: number;       // seconds
+  distance: number;       // meters
+  geometry: {
+    type: 'LineString';
+    coordinates: [number, number][]; // [lng, lat] GeoJSON
+  };
 }
 ```
 
@@ -208,6 +273,51 @@ interface MatrixResult {
 - Frontend never knows which provider is used
 - Switching provider = change 1 env var
 - All providers return consistent data shapes
+- Matrix response: ~200 bytes (vs 6.8MB before)
+- Route response: ~68KB (geometry only when needed)
+
+---
+
+## Usage Strategy (Performance-Optimized)
+
+### Recommended Flow for MVP
+
+**Phase 1: Display 100+ communes with travel times**
+```typescript
+// User enters work address → Search for communes within commute time
+const result = await fetch('/api/routing/matrix', {
+  body: JSON.stringify({
+    origins: [workAddress],
+    destinations: allCommuneCentroids, // 100 communes
+    departureTime: '2026-03-15T08:30:00Z',
+    mode: 'car'
+  })
+});
+
+// Result: ~200 bytes response in <3s
+// Display: Color-coded markers (green <20min, orange <40min)
+```
+
+**Phase 2: Show route when user clicks a commune**
+```typescript
+// User clicks on a commune → Display route on map
+const route = await fetch('/api/routing/route', {
+  body: JSON.stringify({
+    origin: workAddress,
+    destination: communeCentroid,
+    departureTime: '2026-03-15T08:30:00Z',
+    mode: 'car'
+  })
+});
+
+// Result: ~68KB response with GeoJSON geometry
+// Display: MapLibre polyline layer
+```
+
+**Performance gains:**
+- Initial load: 34x faster (6.8MB → 200 bytes)
+- Time to interactive: <3s (vs 15s+ before)
+- Geometry: Only fetched for 1-3 clicked communes (not 100)
 
 ---
 
@@ -223,6 +333,11 @@ interface MatrixResult {
 | **Enterprise** | >1M | Valhalla cluster | ~100€ (3 servers) |
 
 **Break-even:** Self-hosting Valhalla becomes cheaper than SaaS at ~200k requests/month.
+
+**Request estimation for MVP:**
+- Matrix calls: 10 searches/day × 100 communes = 1k req/day = 30k/month
+- Route calls: 30 route displays/day = 900 req/month
+- **Total: ~31k req/month** (well within Navitia free tier)
 
 ---
 
