@@ -25,20 +25,27 @@ The API supports multiple routing providers via environment configuration:
 
 | Provider | Free Tier | Best For | Get API Key |
 |----------|-----------|----------|-------------|
-| **Navitia** ⭐ | 150k req/month | French cities, public transit | [SNCF API Portal](https://numerique.sncf.com/startup/api/) |
+| **Smart** ⭐ | Unlimited + 150k | MVP recommended (Valhalla + Navitia) | See below |
+| **Valhalla** | Unlimited (self-hosted) | Historical traffic, no quota limits | Self-hosted (Docker) |
+| **Navitia** | 150k req/month | French cities, public transit | [SNCF API Portal](https://numerique.sncf.com/startup/api/) |
 | **TomTom** | 75k req/month | Global coverage, real-time traffic | [TomTom Developer](https://developer.tomtom.com/) |
 | **Mock** | Unlimited | Development/testing | No setup needed |
 
-**Recommended for MVP:** Use **Navitia** (doubles quota vs TomTom, excellent French coverage).
+**Recommended for MVP:** Use **Smart** mode (Valhalla for matrix calculations + Navitia fallback for route geometry). Valhalla is self-hosted with unlimited requests and historical traffic data.
 
 ### Switching Providers
 
 No code changes needed — just update `.env` and restart:
 
 ```bash
-# .env
-ROUTING_PROVIDER=navitia  # navitia | tomtom | mock
-NAVITIA_API_KEY=your_token_here
+# .env — Smart mode (recommended for MVP)
+ROUTING_PROVIDER=smart           # smart | valhalla | navitia | tomtom | mock
+VALHALLA_BASE_URL=http://localhost:8002
+NAVITIA_API_KEY=your_token_here  # Used as fallback in smart mode
+
+# .env — Valhalla only
+ROUTING_PROVIDER=valhalla
+VALHALLA_BASE_URL=http://localhost:8002
 ```
 
 See [docs/architecture/routing-providers.md](../../docs/architecture/routing-providers.md) for detailed comparison.
@@ -184,11 +191,13 @@ apps/api/
 │   │   ├── routes.ts                # 2 endpoints: /matrix + /route
 │   │   ├── service.ts               # RoutingService (orchestration)
 │   │   ├── providers/
-│   │   │   ├── interface.ts         # RoutingProvider contract
-│   │   │   ├── NavitiaProvider.ts   # SNCF API (150k req/month)
-│   │   │   ├── TomTomProvider.ts    # TomTom Calculate Route v1
-│   │   │   ├── MockProvider.ts      # Haversine + straight line
-│   │   │   └── factory.ts           # Provider selection
+│   │   │   ├── interface.ts             # RoutingProvider contract
+│   │   │   ├── ValhallaProvider.ts      # Valhalla self-hosted (unlimited)
+│   │   │   ├── NavitiaProvider.ts       # SNCF API (150k req/month)
+│   │   │   ├── TomTomProvider.ts        # TomTom Calculate Route v1
+│   │   │   ├── SmartRoutingProvider.ts  # Mode-based provider selection
+│   │   │   ├── MockProvider.ts          # Haversine + straight line
+│   │   │   └── factory.ts              # Provider selection
 │   │   ├── cache/
 │   │   │   ├── interface.ts
 │   │   │   └── MockCacheService.ts
@@ -256,9 +265,10 @@ open http://localhost:3001/docs
 ## Environment Variables
 
 ```bash
-# Provider (choose one: navitia | tomtom | mock)
-ROUTING_PROVIDER=navitia
-NAVITIA_API_KEY=xxx              # Required if provider=navitia
+# Provider (choose one: smart | valhalla | navitia | tomtom | mock)
+ROUTING_PROVIDER=smart
+VALHALLA_BASE_URL=http://localhost:8002  # Required if provider=smart|valhalla
+NAVITIA_API_KEY=xxx              # Required if provider=smart|navitia
 TOMTOM_API_KEY=xxx               # Required if provider=tomtom
 
 # Server
@@ -294,11 +304,11 @@ All providers implement the same `RoutingProvider` interface, guaranteeing consi
 
 | Monthly Requests | Strategy | Cost |
 |------------------|----------|------|
-| <150k | Navitia free tier | 0€ |
-| 150k-225k | Navitia + TomTom fallback | 0€ |
-| >225k | Self-host Valhalla | ~20€ (VPS) |
+| MVP | Valhalla self-hosted (Smart mode) | ~15-20€/month (VPS) |
+| MVP + fallback | Smart (Valhalla + Navitia free tier) | ~15-20€/month |
+| High volume | Valhalla only (no external API limits) | ~15-20€/month |
 
-Break-even point for self-hosting: ~200k requests/month.
+**MVP strategy:** Valhalla self-hosted handles all matrix calculations (unlimited, historical traffic). Navitia serves as fallback for route geometry via Smart mode. Total cost: ~15-20€/month for a VPS regardless of request volume.
 
 ## Deployment
 
@@ -306,7 +316,8 @@ Break-even point for self-hosting: ~200k requests/month.
 
 ```bash
 # Set environment variables in dashboard
-ROUTING_PROVIDER=navitia
+ROUTING_PROVIDER=smart
+VALHALLA_BASE_URL=http://valhalla-service:8002
 NAVITIA_API_KEY=xxx
 PORT=3001
 NODE_ENV=production
@@ -341,10 +352,13 @@ railway up
 ## Roadmap
 
 - [x] Split matrix/route endpoints
+- [x] Add `ValhallaProvider.ts` for self-hosted option
+- [x] Implement `SmartRoutingProvider.ts` (Valhalla + Navitia)
 - [ ] Re-enable caching (matrix: 7 days, route: 24h)
 - [ ] Add `IGNProvider.ts` (abandoned - no Matrix API)
-- [ ] Add `ValhallaProvider.ts` for self-hosted option
-- [ ] Implement smart provider fallback chain
+- [ ] Docker setup for Valhalla (France extract)
+- [ ] Integration tests for Valhalla provider
+- [ ] Deploy Valhalla on Railway
 - [ ] Add Sentry monitoring integration
 - [ ] Per-provider cost tracking
 

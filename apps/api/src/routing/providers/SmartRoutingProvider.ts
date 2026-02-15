@@ -3,7 +3,7 @@
  * 
  * Intelligently selects the best provider based on travel mode:
  * - transit: Navitia (excellent French public transport coverage)
- * - car/truck/pedestrian: TomTom (optimized for road routing)
+ * - car/truck/pedestrian: Valhalla (self-hosted, optimized for road routing)
  * 
  * Falls back to a default provider if mode-specific provider unavailable.
  */

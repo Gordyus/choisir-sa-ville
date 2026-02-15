@@ -7,7 +7,8 @@
 
 export interface EnvConfig {
   // Provider
-  ROUTING_PROVIDER: 'smart' | 'tomtom' | 'navitia' | 'mock';
+  ROUTING_PROVIDER: 'smart' | 'valhalla' | 'tomtom' | 'navitia' | 'mock';
+  VALHALLA_BASE_URL: string | undefined;
   TOMTOM_API_KEY: string | undefined;
   NAVITIA_API_KEY: string | undefined;
 
@@ -35,7 +36,8 @@ export interface EnvConfig {
 }
 
 export const env: EnvConfig = {
-  ROUTING_PROVIDER: (process.env.ROUTING_PROVIDER as 'smart' | 'tomtom' | 'navitia' | 'mock') || 'mock',
+  ROUTING_PROVIDER: (process.env.ROUTING_PROVIDER as 'smart' | 'valhalla' | 'tomtom' | 'navitia' | 'mock') || 'mock',
+  VALHALLA_BASE_URL: process.env.VALHALLA_BASE_URL,
   TOMTOM_API_KEY: process.env.TOMTOM_API_KEY,
   NAVITIA_API_KEY: process.env.NAVITIA_API_KEY,
 
@@ -69,8 +71,12 @@ export function validateEnv(): void {
   }
 
   // Provider-specific validation
-  if (env.ROUTING_PROVIDER === 'smart' && (!env.NAVITIA_API_KEY || !env.TOMTOM_API_KEY)) {
-    errors.push('Both NAVITIA_API_KEY and TOMTOM_API_KEY are required when ROUTING_PROVIDER=smart');
+  if (env.ROUTING_PROVIDER === 'smart' && (!env.NAVITIA_API_KEY || !env.VALHALLA_BASE_URL)) {
+    errors.push('Both NAVITIA_API_KEY and VALHALLA_BASE_URL are required when ROUTING_PROVIDER=smart');
+  }
+
+  if (env.ROUTING_PROVIDER === 'valhalla' && !env.VALHALLA_BASE_URL) {
+    errors.push('VALHALLA_BASE_URL is required when ROUTING_PROVIDER=valhalla');
   }
 
   if (env.ROUTING_PROVIDER === 'tomtom' && !env.TOMTOM_API_KEY) {

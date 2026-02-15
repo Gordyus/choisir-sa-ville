@@ -4,92 +4,73 @@
 
 **Project**: Choisir sa Ville (greenfield Next.js + Fastify app)
 **Architecture**: Jamstack extended (static data + Next.js + minimal backend routing API)
-**Branch Reviewed**: feature/mvp-phase1-backend-routing
 
 ## Key Standards (From CLAUDE.md)
 
 ### Non-Negotiable Rules
-1. **TypeScript Strict Mode**: All files must have `strict: true`, `noUncheckedIndexedAccess: true`, `exactOptionalPropertyTypes: true`
-2. **camelCase Everywhere**: Code, JSON keys, filenames (no snake_case)
-3. **Four-Layer Architecture** (apps/web only): Selection / Data / Map / Components - must never mix
-4. **Backend Scope**: STRICTLY limited to routing orchestration - NO business logic, NO data aggregation
-5. **Adapter Pattern**: Required for provider abstraction (RoutingProvider interface)
-6. **No Legacy Code**: Greenfield project - zero tolerance for backward compatibility shims
+1. **TypeScript Strict Mode**: `strict: true`, `noUncheckedIndexedAccess: true`, `exactOptionalPropertyTypes: true`
+2. **camelCase Everywhere**: Code, JSON keys, filenames (exception: external API interface fields match provider contract)
+3. **Four-Layer Architecture** (apps/web only): Selection / Data / Map / Components
+4. **Backend Scope**: STRICTLY limited to routing orchestration - NO business logic
+5. **Adapter Pattern**: Required - RoutingProvider interface, factory.ts is only instantiation point
+6. **No Legacy Code**: Greenfield project - zero tolerance
 
 ### Backend API Specific Rules (apps/api)
 - Domain-driven structure: routing/, health/, shared/
-- Provider abstraction via factory pattern
-- No direct TomTom imports outside factory.ts
-- Fastify framework (not Express, not Hono despite what AGENTS.md says)
-- Geohash6 snapping + time bucketing for cache optimization
-- Error margin +10% on travel times
+- Fastify framework (NOT Express, NOT Hono)
+- TypeScript strict config verified in `apps/api/tsconfig.json`
+- Custom error classes: `shared/errors/index.ts` (QuotaExceededError, TimeoutError)
+- Geohash6 snapping + time bucketing for cache (post-MVP)
 
-## Common Anti-Patterns Found in This Codebase
+## Provider Implementation Patterns
 
-### ✅ GOOD PATTERNS (Found in feature/mvp-phase1-backend-routing)
-1. **Proper TypeScript strictness**: All files use strict mode, proper typing
-2. **Clean adapter pattern**: RoutingProvider interface with factory
-3. **Separation of concerns**: Cache, providers, utils cleanly separated
-4. **Comprehensive testing**: Unit + integration tests with good coverage
-5. **Proper error handling**: Custom error classes, HTTP status mapping
-6. **Environment validation**: validateEnv() at startup with clear messages
+All providers follow this established pattern:
+- `p-retry` for retries (2 retries, 1s min timeout, warn on failure)
+- Types from `./interface.js`, errors from `../../shared/errors/index.js`
+- AbortController + setTimeout for timeouts, cleanup in `finally` block
+- External API interfaces may use snake_case (matching provider API) - acceptable
+- Mode mapping via private method (`mapModeTo*`)
 
-### ❌ ANTI-PATTERNS TO WATCH FOR
-1. **Framework mismatch**: AGENTS.md says "Fastify" but could drift to Hono - stay vigilant
-2. **Scope creep**: Backend must NEVER add business logic (scoring, filtering, aggregations)
-3. **Provider coupling**: Code must NEVER import TomTomProvider directly (only via interface)
+### Provider Inventory
+| Provider | File | Notes |
+|----------|------|-------|
+| TomTom | TomTomProvider.ts | Cloud API, O(N*M) loop for matrix, QuotaExceededError on 403 |
+| Navitia | NavitiaProvider.ts | SNCF API, coverage detection, Basic auth, QuotaExceededError on 429 |
+| Valhalla | ValhallaProvider.ts | Self-hosted, native batch matrix, 6-digit polyline decoder |
+| Mock | MockProvider.ts | Haversine, no external calls |
+| Smart | SmartRoutingProvider.ts | Delegates by mode via ProviderMap |
 
-## Review Insights
+## Common Issues Found
 
-### Branch: feature/mvp-phase1-backend-routing
+### DateTime Formatting Regex Bug
+- Regex stripping "last :XX" from ISO strings can eat minutes if input lacks seconds
+- Safe pattern: `isoString.match(/^(\d{4}-\d{2}-\d{2}T\d{2}:\d{2})/)`
+- Valhalla expects LOCAL time - never use `new Date()` parsing (converts to UTC)
 
-**Status**: APPROVED FOR MERGE (with minor documentation note)
+### Stale Comments After Provider Wiring Changes
+- When factory.ts changes provider assignments, SmartRoutingProvider.ts JSDoc must be updated
+- README.md provider comparison table must also be updated
 
-**Highlights**:
-- Excellent architecture alignment with specs
-- Clean TypeScript, proper error handling
-- Comprehensive test coverage (unit + integration)
-- Follows adapter pattern correctly
-- No code smells, TODOs, or technical debt
+### Breaking Schema Changes
+- Schema maxItems reductions (e.g., destinations 100->3) are breaking - note in PR
 
-**Minor Issues**:
-- AGENTS.md mentions "Hono" backend but implementation uses Fastify (doc inconsistency, not code issue)
-- This is acceptable as it matches the original spec.md which specified Fastify
+## Checklist for Backend Routing PRs
 
-**Key Learnings**:
-1. This branch demonstrates EXCELLENT greenfield architecture - use as reference
-2. Adapter pattern implementation is textbook quality
-3. Test structure (unit/ and integration/ separation) should be standard
-4. Environment validation pattern (validateEnv.ts) should be reused
-
-## Checklist Template for Future Reviews
-
-### Architecture Compliance
-- [ ] Backend scope limited to routing/geocoding (no business logic)
-- [ ] Provider abstraction via interface (no direct imports)
-- [ ] Domain-driven structure (routing/, health/, shared/)
-- [ ] TypeScript strict mode enabled
-
-### Code Quality
-- [ ] No TODO/FIXME/HACK comments
-- [ ] No `any` types (unless documented)
-- [ ] No dead code or unused imports
-- [ ] Proper error handling with custom error classes
-- [ ] camelCase naming throughout
-
-### Testing
-- [ ] Unit tests for utils and providers
-- [ ] Integration tests for API endpoints
-- [ ] Test coverage >80% for critical paths
-
-### Documentation
-- [ ] README.md up to date
-- [ ] API endpoints documented
-- [ ] Environment variables documented
-- [ ] Architecture decisions recorded
+- [ ] `pnpm typecheck` passes (0 errors)
+- [ ] Provider implements full RoutingProvider interface
+- [ ] Factory.ts is the only place provider is instantiated
+- [ ] No business logic (scoring, filtering, aggregation)
+- [ ] AbortController cleanup in finally blocks
+- [ ] Retry logic with p-retry (consistent pattern)
+- [ ] Error handling matches existing providers
+- [ ] camelCase in code, snake_case only in external API interfaces
+- [ ] JSDoc comments accurate (especially SmartRoutingProvider)
+- [ ] ENV validation in validateEnv.ts for new env vars
+- [ ] No `any` types without justification
+- [ ] docker-compose.yml: no deprecated `version` field
 
 ## Notes
 
-- The routing backend is a rare case where backend code is allowed (strict exception due to departure time requirement)
-- Future features should remain client-side unless similarly justified
-- This implementation is reference quality - can be used as template for future backend needs
+- Backend routing is a rare exception where backend code is allowed (departure time requirement)
+- This implementation is reference quality - use existing providers as template
+- `mapModeTo*` methods accept `string` instead of union type across all providers (pre-existing pattern, minor)

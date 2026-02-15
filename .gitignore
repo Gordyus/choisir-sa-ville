@@ -74,6 +74,13 @@ cypress/screenshots/
 .pnpm-store/
 
 # =========================
+# Routing / OSM data
+# =========================
+valhalla_tiles/
+*.osm.pbf
+*.osrm*
+
+# =========================
 # Misc
 # =========================
 *.swp

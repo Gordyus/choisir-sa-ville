@@ -70,9 +70,9 @@ export const createRoutingRoutes = (
               destinations: {
                 type: 'array',
                 minItems: 1,
-                maxItems: 100,
+                maxItems: 3,
                 items: coordinateSchema,
-                description: 'Destination points'
+                description: 'Destination points (up to 3: e.g. work A, work B, school)'
               },
               departureTime: {
                 type: 'string',
@@ -88,7 +88,7 @@ export const createRoutingRoutes = (
                 type: 'string',
                 enum: ['car', 'truck', 'pedestrian', 'transit'],
                 default: 'car',
-                description: 'Travel mode (transit uses Navitia in smart mode)'
+                description: 'Travel mode (smart mode: Valhalla for car/truck/pedestrian with historical traffic, Navitia for transit)'
               }
             }
           },
@@ -177,7 +177,7 @@ export const createRoutingRoutes = (
                 type: 'string',
                 enum: ['car', 'truck', 'pedestrian', 'transit'],
                 default: 'car',
-                description: 'Travel mode (transit uses Navitia in smart mode)'
+                description: 'Travel mode (smart mode: Valhalla for car/truck/pedestrian with historical traffic, Navitia for transit)'
               }
             }
           },

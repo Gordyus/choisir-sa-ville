@@ -1,0 +1,54 @@
+# Docker Compose for Routing Service Development
+#
+# Services:
+# - valhalla: Self-hosted routing engine with historical traffic support
+#
+# Usage:
+#   docker-compose up -d valhalla      # Start Valhalla service
+#   docker-compose logs -f valhalla    # View logs
+#   docker-compose down                # Stop all services
+
+version: '3.8'
+
+services:
+  # Valhalla Routing Engine
+  # Self-hosted alternative to TomTom/OpenRouteService
+  # Supports time-dependent routing with historical traffic patterns
+  valhalla:
+    image: ghcr.io/valhalla/valhalla:latest
+    container_name: choisir-sa-ville-valhalla
+    ports:
+      - "8002:8002"
+    volumes:
+      # Custom tiles will be mounted here after building
+      # Run: docker run -v $(pwd)/valhalla_tiles:/custom_files ghcr.io/valhalla/valhalla valhalla_build_tiles ...
+      - ./valhalla_tiles:/custom_files
+    environment:
+      # Serve pre-built tiles
+      - serve_tiles=True
+      - use_tiles_ignore_pbf=True
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8002/status"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+  # PostgreSQL (optional, for caching)
+  # Uncomment when implementing cache layer (post-MVP)
+  # postgres:
+  #   image: postgres:16-alpine
+  #   container_name: choisir-sa-ville-postgres
+  #   ports:
+  #     - "5432:5432"
+  #   environment:
+  #     POSTGRES_USER: postgres
+  #     POSTGRES_PASSWORD: postgres
+  #     POSTGRES_DB: routing_cache
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+  #   restart: unless-stopped
+
+# volumes:
+#   postgres_data:
