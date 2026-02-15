@@ -6,7 +6,7 @@
 **Architecture**: Jamstack extended (static data + Next.js + minimal backend routing API)
 **Branch Reviewed**: feature/mvp-phase1-backend-routing
 
-## Key Standards (From AGENTS.md & CLAUDE.md)
+## Key Standards (From CLAUDE.md)
 
 ### Non-Negotiable Rules
 1. **TypeScript Strict Mode**: All files must have `strict: true`, `noUncheckedIndexedAccess: true`, `exactOptionalPropertyTypes: true`

@@ -3,7 +3,7 @@
 ## Lecture obligatoire
 
 1. `README.md`
-2. `AGENTS.md` (règles NON NÉGOCIABLES)
+2. `CLAUDE.md` (règles NON NÉGOCIABLES)
 3. `docs/architecture/overview.md`
 4. `docs/architecture/locality-model.md`
 
@@ -34,8 +34,8 @@ pnpm lint:eslint
 
 ## Documentation
 
-Toute modification d’architecture ou de format de données implique une mise à jour de :
-- `AGENTS.md`
+Toute modification d'architecture ou de format de données implique une mise à jour de :
+- `CLAUDE.md`
 - `docs/architecture/overview.md`
 - `docs/architecture/data-pipeline.md` (si pipeline/dataset)
 

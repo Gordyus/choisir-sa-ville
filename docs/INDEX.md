@@ -10,8 +10,7 @@
 | Fichier | Rôle |
 |---------|------|
 | [`README.md`](../README.md) | Vue d'ensemble du projet |
-| [`AGENTS.md`](../AGENTS.md) | Règles techniques non négociables (source de vérité) |
-| [`CLAUDE.md`](../CLAUDE.md) | Référence rapide pour agents IA |
+| [`CLAUDE.md`](../CLAUDE.md) | Règles techniques et architecture (source de vérité) |
 | [`CONTRIBUTING.md`](../CONTRIBUTING.md) | Guide de contribution |
 | [`CHANGELOG.md`](../CHANGELOG.md) | Historique des versions |
 

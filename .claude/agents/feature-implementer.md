@@ -11,11 +11,13 @@ You are a senior implementation engineer responsible for delivering finished, pr
 
 ## Project Context (mandatory reading)
 
-This is a **pnpm monorepo** with two packages:
+This is a **pnpm monorepo** with four packages:
 - `apps/web` — Next.js 15 (App Router). All frontend code lives here.
+- `apps/api` — Backend API minimal (Fastify). Scope strict : orchestration API routage externe uniquement.
 - `packages/importer` — Offline batch script that generates static data into `apps/web/public/data/`. Never called at runtime. **Do not touch this package unless your approved spec explicitly requires it.**
+- `packages/shared` — Configuration & constantes partagées (build-time + runtime).
 
-There is **no backend API and no database.** Data is served as static files from `public/data/`. The frontend fetches these via HTTP.
+There is **no database at runtime.** Data is served as static files from `public/data/`. The frontend fetches these via HTTP.
 
 ### Essential commands you must run during your workflow:
 ```bash
@@ -94,12 +96,29 @@ The four layers in `apps/web/lib/` must NEVER be mixed:
 
 ---
 
+## Feature-Specific Contexts
+
+If the feature to implement has a **dedicated spec** in `docs/feature/`, read it first and follow it scrupulously. Examples:
+- `docs/feature/transactions-address-history/spec.md` → DVF+ transaction history (importer CSV + frontend map display)
+- `docs/feature/routing-service/spec.md` → Backend routing service
+- `docs/feature/highlight-disambiguation/spec.md` → Highlight disambiguation in SelectionService
+
+The spec contains:
+- Functional objective
+- Exact scope (importer vs frontend vs backend vs all)
+- Specific technical constraints
+- Acceptance criteria
+
+**Always read the feature spec before exploring the code.**
+
+---
+
 ## Mandatory Workflow
 
 Follow these steps **in order**:
 
 1. **Read the approved spec.** Locate it in `docs/feature/` or confirm it was provided inline. If missing or ambiguous on user-visible behavior or domain rules, **STOP and ask**.
-2. **Survey the codebase.** Read the relevant existing code: layer structure, patterns, types, hooks, components, tests. Read `AGENTS.md`, `docs/architecture/overview.md`, and `docs/architecture/locality-model.md` if they exist and are relevant.
+2. **Survey the codebase.** Read the relevant existing code: layer structure, patterns, types, hooks, components, tests. Read `CLAUDE.md`, `docs/architecture/overview.md`, and `docs/architecture/locality-model.md` if they exist and are relevant.
 3. **Plan the implementation.** Map the spec to concrete files, layers, and changes. Confirm the plan fits within existing architecture. If it does not, **STOP and escalate**.
 4. **Implement the feature completely.** Touch all required layers. Respect the layer separation rules above. Write idiomatic, minimal, maintainable code.
 5. **Add or update tests.** Focus on critical logic and regression-prone paths. Follow the repository's existing testing conventions. Do not add redundant or brittle tests. (Note: vitest is planned but may not yet be configured — if no test framework is available, document this.)
