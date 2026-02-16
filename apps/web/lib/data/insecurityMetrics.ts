@@ -11,8 +11,6 @@
 
 "use client";
 
-import { useEffect, useState } from "react";
-
 import type { PopulationCategory } from "@choisir-sa-ville/shared/config/insecurity-metrics";
 
 // ============================================================================
@@ -51,8 +49,6 @@ interface RawInsecurityData {
     rows: Array<Array<string | number | null>>;
 }
 
-export type InsecurityLevel = "faible" | "modere" | "eleve" | "tres-eleve";
-
 export interface InsecurityMetricsResult {
     population: number | null;
     populationCategory: PopulationCategory | null;
@@ -66,47 +62,6 @@ export interface InsecurityMetricsResult {
     rankInCategory: string | null;
     dataCompleteness: number;
     year: number;
-}
-
-// ============================================================================
-// Level Thresholds (baked at build time per spec)
-// ============================================================================
-
-/**
- * Compute insecurity level from indexGlobal (0-100 percentile rank).
- *
- * | Level       | Range    |
- * |-------------|----------|
- * | Faible      | 0–24     |
- * | Modéré      | 25–49    |
- * | Élevé       | 50–74    |
- * | Très élevé  | 75–100   |
- */
-export function computeInsecurityLevel(indexGlobal: number | null): InsecurityLevel | null {
-    if (indexGlobal === null || !Number.isFinite(indexGlobal)) {
-        return null;
-    }
-
-    if (indexGlobal < 25) return "faible";
-    if (indexGlobal < 50) return "modere";
-    if (indexGlobal < 75) return "eleve";
-    return "tres-eleve";
-}
-
-/**
- * Get display label for insecurity level.
- */
-export function getInsecurityLevelLabel(level: InsecurityLevel | null): string {
-    if (!level) return "";
-
-    const labels: Record<InsecurityLevel, string> = {
-        faible: "Faible",
-        modere: "Modéré",
-        eleve: "Élevé",
-        "tres-eleve": "Très élevé"
-    };
-
-    return labels[level];
 }
 
 // ============================================================================
@@ -343,11 +298,9 @@ export async function getLatestInsecurityYear(signal?: AbortSignal): Promise<num
 // React Hook
 // ============================================================================
 
-export interface UseInsecurityMetricsResult {
-    data: InsecurityMetricsResult | null;
-    loading: boolean;
-    error: Error | null;
-}
+import { useMemo } from "react";
+
+import { useAsyncData, type AsyncDataResult } from "./useAsyncData";
 
 /**
  * React hook to fetch insecurity metrics for a commune.
@@ -360,45 +313,11 @@ export interface UseInsecurityMetricsResult {
 export function useInsecurityMetrics(
     inseeCode: string | null,
     year?: number
-): UseInsecurityMetricsResult {
-    const [data, setData] = useState<InsecurityMetricsResult | null>(null);
-    const [loading, setLoading] = useState(false);
-    const [error, setError] = useState<Error | null>(null);
+): AsyncDataResult<InsecurityMetricsResult> {
+    const fetcher = useMemo(
+        () => inseeCode ? (signal: AbortSignal) => getInsecurityMetrics(inseeCode, year, signal) : null,
+        [inseeCode, year]
+    );
 
-    useEffect(() => {
-        if (!inseeCode) {
-            setData(null);
-            setLoading(false);
-            setError(null);
-            return;
-        }
-
-        const controller = new AbortController();
-        setLoading(true);
-        setError(null);
-
-        getInsecurityMetrics(inseeCode, year, controller.signal)
-            .then((result) => {
-                if (!controller.signal.aborted) {
-                    setData(result);
-                    setLoading(false);
-                }
-            })
-            .catch((err: unknown) => {
-                if (!controller.signal.aborted) {
-                    // Don't report abort errors
-                    if (err instanceof DOMException && err.name === "AbortError") {
-                        return;
-                    }
-                    setError(err instanceof Error ? err : new Error(String(err)));
-                    setLoading(false);
-                }
-            });
-
-        return () => {
-            controller.abort();
-        };
-    }, [inseeCode, year]);
-
-    return { data, loading, error };
+    return useAsyncData(fetcher);
 }

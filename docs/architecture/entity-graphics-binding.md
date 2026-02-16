@@ -2,7 +2,7 @@
 
 Cette note documente le binding entre les **entités du domaine** (`EntityRef`) et leurs **représentations graphiques** MapLibre (labels, polygones), ainsi que la répartition des responsabilités entre les services concernés.
 
-Contexte : le projet suit une architecture stricte `selection / data / map / ui` (voir `AGENTS.md`).
+Contexte : le projet suit une architecture stricte `selection / data / map / ui` (voir `CLAUDE.md`).
 
 ---
 
@@ -30,7 +30,7 @@ Le type canonique est `EntityRef` :
 
 ### États visuels (MapLibre feature-state)
 
-Le vocabulaire est strict (voir `AGENTS.md`) :
+Le vocabulaire est strict (voir `CLAUDE.md`) :
 
 - `hasData` : l'entité a des données (cliquable / "utile")
 - `highlight` : hover ou focus

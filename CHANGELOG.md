@@ -120,7 +120,7 @@ Cette version marque une **refonte complète de l'architecture** :
   - Versioning automatique des datasets
 
 - **Documentation complète**
-  - `AGENTS.md` : Règles techniques réécrites pour architecture actuelle
+  - `CLAUDE.md` : Règles techniques et architecture (source de vérité unique)
   - `docs/architecture/overview.md` : Architecture détaillée avec diagrammes
   - `docs/architecture/data-pipeline.md` : Documentation du pipeline de données
   - `docs/INDEX.md` : Index de la documentation
