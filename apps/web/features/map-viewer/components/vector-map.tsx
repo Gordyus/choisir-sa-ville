@@ -64,7 +64,6 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
     const detachTransactionLayerRef = useRef<(() => void) | null>(null);
     const debugZoomCleanupRef = useRef<(() => void) | null>(null);
     const urlSyncCleanupRef = useRef<(() => void) | null>(null);
-    const navigationCleanupRef = useRef<(() => void) | null>(null);
     const initializedRef = useRef(false);
     const [debugZoom, setDebugZoom] = useState<number | null>(null);
     const [debugOverlayEnabled, setDebugOverlayEnabled] = useState(false);
@@ -152,15 +151,6 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
                     map.off("zoomend", handleViewChange);
                 };
 
-                // Subscribe to programmatic navigation requests
-                navigationCleanupRef.current = mapNavigationService.subscribe((request) => {
-                    map.flyTo({
-                        center: request.center,
-                        zoom: request.zoom,
-                        duration: 1500,
-                    });
-                });
-
                 // Setup interactions once map is loaded
                 map.once("load", () => {
                     setupInteractions(map, appConfig);
@@ -215,8 +205,6 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
         return () => {
             disposed = true;
             controller.abort();
-            navigationCleanupRef.current?.();
-            navigationCleanupRef.current = null;
             urlSyncCleanupRef.current?.();
             urlSyncCleanupRef.current = null;
             detachTransactionLayerRef.current?.();
@@ -238,6 +226,20 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
                 mapRef.current = null;
             }
         };
+    }, []);
+
+    // Subscribe to programmatic navigation — separate effect so it's synchronous
+    useEffect(() => {
+        const unsubscribe = mapNavigationService.subscribe((request) => {
+            if (mapRef.current) {
+                mapRef.current.flyTo({
+                    center: request.center,
+                    zoom: request.zoom,
+                    duration: 1500,
+                });
+            }
+        });
+        return unsubscribe;
     }, []);
 
     return (
