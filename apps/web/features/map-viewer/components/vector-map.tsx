@@ -28,8 +28,11 @@ import { getArrMunicipalLabelsVectorLayerId } from "@/lib/map/layers/arrMunicipa
 import { getCommuneLabelsVectorLayerId } from "@/lib/map/layers/communeLabelsVector";
 import { attachMapInteractionService } from "@/lib/map/mapInteractionService";
 import { mapNavigationService } from "@/lib/map/mapNavigationService";
+import { mapViewportService } from "@/lib/map/mapViewportService";
 import { attachDisplayBinder } from "@/lib/map/state/displayBinder";
 import { attachSearchDisplayBinder } from "@/lib/map/state/searchDisplayBinder";
+import { addRoutePolylineLayer } from "@/lib/map/layers/routePolyline";
+import { attachRoutePolylineBinder } from "@/lib/map/state/routePolylineBinder";
 import { loadMapStyle } from "@/lib/map/style/stylePipeline";
 import { formatViewForURL, parseViewFromURL } from "@/lib/map/urlState";
 import { cn } from "@/lib/utils";
@@ -62,6 +65,8 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
     const detachDisplayBinderRef = useRef<(() => void) | null>(null);
     const detachSearchDisplayBinderRef = useRef<(() => void) | null>(null);
     const detachTransactionLayerRef = useRef<(() => void) | null>(null);
+    const cleanupRouteLayerRef = useRef<(() => void) | null>(null);
+    const detachRouteBinderRef = useRef<(() => void) | null>(null);
     const debugZoomCleanupRef = useRef<(() => void) | null>(null);
     const urlSyncCleanupRef = useRef<(() => void) | null>(null);
     const initializedRef = useRef(false);
@@ -136,13 +141,17 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
                     map.off("zoomend", handleZoomChange);
                 };
 
-                // URL synchronization - update URL on viewport changes
+                // URL synchronization + viewport service - update on viewport changes
                 const handleViewChange = (): void => {
                     const center = map.getCenter();
                     const zoom = map.getZoom();
                     const viewParam = formatViewForURL([center.lng, center.lat], zoom);
                     const newUrl = `${window.location.pathname}?${viewParam}`;
                     window.history.replaceState(null, "", newUrl);
+                    mapViewportService.update({
+                        center: { lat: center.lat, lng: center.lng },
+                        zoom,
+                    });
                 };
                 map.on("moveend", handleViewChange);
                 map.on("zoomend", handleViewChange);
@@ -190,6 +199,11 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
             // Attach search display binder - handles search result coloring
             detachSearchDisplayBinderRef.current = attachSearchDisplayBinder(map);
 
+            // Attach route polyline layer + binder - displays itinerary when a commune is active in search mode
+            const { updateRoute, cleanup: cleanupRouteLayer } = addRoutePolylineLayer(map);
+            cleanupRouteLayerRef.current = cleanupRouteLayer;
+            detachRouteBinderRef.current = attachRoutePolylineBinder(updateRoute);
+
             // Add transaction addresses layer (async, non-blocking)
             void addTransactionLayer(map, controller.signal).then((cleanup) => {
                 if (!disposed) {
@@ -209,6 +223,10 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
             urlSyncCleanupRef.current = null;
             detachTransactionLayerRef.current?.();
             detachTransactionLayerRef.current = null;
+            detachRouteBinderRef.current?.();
+            detachRouteBinderRef.current = null;
+            cleanupRouteLayerRef.current?.();
+            cleanupRouteLayerRef.current = null;
             detachSearchDisplayBinderRef.current?.();
             detachSearchDisplayBinderRef.current = null;
             detachDisplayBinderRef.current?.();
