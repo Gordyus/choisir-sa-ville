@@ -6,12 +6,13 @@
  * Parameters for selected criteria appear below the grid.
  */
 
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { Separator } from "@/components/ui/separator";
 import { Slider } from "@/components/ui/slider";
+import { mapNavigationService, zoomForRadiusKm } from "@/lib/map/mapNavigationService";
 import { displayModeService } from "@/lib/map/state/displayModeService";
 import { getSearchService } from "@/lib/search/searchService";
 import type { Destination, LivingPreference, SearchCriteria } from "@/lib/search/types";
@@ -55,6 +56,26 @@ export default function SearchForm() {
     const [selectedCriteria, setSelectedCriteria] = useState<Set<CriterionId>>(
         () => new Set(["travelTime"])
     );
+
+    // Fly map to destination when selected or radius changes
+    const radiusDebounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+    useEffect(() => {
+        if (radiusDebounceRef.current !== null) {
+            clearTimeout(radiusDebounceRef.current);
+        }
+        if (destination === null) return;
+        radiusDebounceRef.current = setTimeout(() => {
+            mapNavigationService.flyTo({
+                center: [destination.lng, destination.lat],
+                zoom: zoomForRadiusKm(radiusKm),
+            });
+        }, 150);
+        return () => {
+            if (radiusDebounceRef.current !== null) {
+                clearTimeout(radiusDebounceRef.current);
+            }
+        };
+    }, [destination, radiusKm]);
 
     const { count, isLoading: isCountLoading } = useEstimatedCount({
         destination,

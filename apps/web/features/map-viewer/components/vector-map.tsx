@@ -27,7 +27,9 @@ import { attachEntityGraphicsBinder } from "@/lib/map/entityGraphicsBinder";
 import { getArrMunicipalLabelsVectorLayerId } from "@/lib/map/layers/arrMunicipalLabelsVector";
 import { getCommuneLabelsVectorLayerId } from "@/lib/map/layers/communeLabelsVector";
 import { attachMapInteractionService } from "@/lib/map/mapInteractionService";
+import { mapNavigationService } from "@/lib/map/mapNavigationService";
 import { attachDisplayBinder } from "@/lib/map/state/displayBinder";
+import { attachSearchDisplayBinder } from "@/lib/map/state/searchDisplayBinder";
 import { loadMapStyle } from "@/lib/map/style/stylePipeline";
 import { formatViewForURL, parseViewFromURL } from "@/lib/map/urlState";
 import { cn } from "@/lib/utils";
@@ -58,9 +60,11 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
     const detachInteractionsRef = useRef<(() => void) | null>(null);
     const detachBinderRef = useRef<(() => void) | null>(null);
     const detachDisplayBinderRef = useRef<(() => void) | null>(null);
+    const detachSearchDisplayBinderRef = useRef<(() => void) | null>(null);
     const detachTransactionLayerRef = useRef<(() => void) | null>(null);
     const debugZoomCleanupRef = useRef<(() => void) | null>(null);
     const urlSyncCleanupRef = useRef<(() => void) | null>(null);
+    const navigationCleanupRef = useRef<(() => void) | null>(null);
     const initializedRef = useRef(false);
     const [debugZoom, setDebugZoom] = useState<number | null>(null);
     const [debugOverlayEnabled, setDebugOverlayEnabled] = useState(false);
@@ -148,6 +152,15 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
                     map.off("zoomend", handleViewChange);
                 };
 
+                // Subscribe to programmatic navigation requests
+                navigationCleanupRef.current = mapNavigationService.subscribe((request) => {
+                    map.flyTo({
+                        center: request.center,
+                        zoom: request.zoom,
+                        duration: 1500,
+                    });
+                });
+
                 // Setup interactions once map is loaded
                 map.once("load", () => {
                     setupInteractions(map, appConfig);
@@ -184,6 +197,9 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
             // Attach display binder - handles choropleth mode switching
             detachDisplayBinderRef.current = attachDisplayBinder(map);
 
+            // Attach search display binder - handles search result coloring
+            detachSearchDisplayBinderRef.current = attachSearchDisplayBinder(map);
+
             // Add transaction addresses layer (async, non-blocking)
             void addTransactionLayer(map, controller.signal).then((cleanup) => {
                 if (!disposed) {
@@ -199,10 +215,14 @@ export default function VectorMap({ className }: VectorMapProps): JSX.Element {
         return () => {
             disposed = true;
             controller.abort();
+            navigationCleanupRef.current?.();
+            navigationCleanupRef.current = null;
             urlSyncCleanupRef.current?.();
             urlSyncCleanupRef.current = null;
             detachTransactionLayerRef.current?.();
             detachTransactionLayerRef.current = null;
+            detachSearchDisplayBinderRef.current?.();
+            detachSearchDisplayBinderRef.current = null;
             detachDisplayBinderRef.current?.();
             detachDisplayBinderRef.current = null;
             detachBinderRef.current?.();
