@@ -51,13 +51,14 @@ export function attachRoutePolylineBinder(
             if (!commune || controller.signal.aborted) return;
 
             const searchState = getSearchService().getState();
-            const destination = searchState.criteria.destination;
-            if (!destination) {
+            const firstTarget = searchState.criteria.travelTimeTargets[0];
+            if (!firstTarget) {
                 updateRoute(null);
                 return;
             }
 
-            const mode = searchState.criteria.travelTimeTargets[0]?.mode ?? "car";
+            const destination = firstTarget.destination;
+            const mode = firstTarget.mode;
 
             const response = await fetch(`${API_BASE}/api/routing/route`, {
                 method: "POST",
