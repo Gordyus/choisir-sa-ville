@@ -9,7 +9,7 @@
 
 import { Suspense } from "react";
 
-import { RightPanel } from "@/features/entity-details";
+import RightPanelShell from "@/components/layout/rightPanelShell";
 import { VectorMap } from "@/features/map-viewer";
 
 export default function HomePage(): JSX.Element {
@@ -23,7 +23,7 @@ export default function HomePage(): JSX.Element {
                 </div>
             </div>
             <div className="min-h-0 w-full lg:w-[40%]">
-                <RightPanel className="h-full" />
+                <RightPanelShell className="h-full" />
             </div>
         </section>
     );

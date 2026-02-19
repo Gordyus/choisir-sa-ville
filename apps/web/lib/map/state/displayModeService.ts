@@ -2,7 +2,7 @@
  * displayModeService.ts
  *
  * Service observable SANS DÉPENDANCE React/MapLibre
- * Gère l'état global du mode d'affichage (default | insecurity)
+ * Gère l'état global du mode d'affichage (default | insecurity | search)
  *
  * Architecture:
  * - Singleton headless (aucune UI, aucune side-effect MapLibre)
@@ -15,7 +15,7 @@
  * - mapInteractionService (si besoin)
  */
 
-export type DisplayMode = "default" | "insecurity";
+export type DisplayMode = "default" | "insecurity" | "search";
 
 interface Subscriber {
     (mode: DisplayMode): void;
@@ -37,7 +37,7 @@ class DisplayModeService {
     private loadFromStorage(): void {
         if (typeof window === "undefined") return;
         const stored = sessionStorage.getItem(this.storageKey);
-        if (stored === "insecurity" || stored === "default") {
+        if (stored === "insecurity" || stored === "default" || stored === "search") {
             this.mode = stored;
         }
     }

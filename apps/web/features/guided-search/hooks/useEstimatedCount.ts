@@ -16,7 +16,6 @@ const DEBOUNCE_MS = 200;
 
 interface EstimatedCountParams {
     destination: Destination | null;
-    maxTravelMinutes: number;
     radiusKm: number;
     minSecurityLevel: number | null;
     livingPreference: LivingPreference;
@@ -33,7 +32,7 @@ export function useEstimatedCount(params: EstimatedCountParams): UseEstimatedCou
     const abortRef = useRef<AbortController | null>(null);
     const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-    const { destination, maxTravelMinutes, radiusKm, minSecurityLevel, livingPreference } = params;
+    const { destination, radiusKm, minSecurityLevel, livingPreference } = params;
 
     useEffect(() => {
         if (timerRef.current !== null) {
@@ -71,7 +70,6 @@ export function useEstimatedCount(params: EstimatedCountParams): UseEstimatedCou
                     const filtered = filterCommunesByGeo({
                         communes,
                         destination: dest,
-                        maxTravelMinutes,
                         radiusKm,
                         minSecurityLevel,
                         livingPreference,
@@ -101,7 +99,7 @@ export function useEstimatedCount(params: EstimatedCountParams): UseEstimatedCou
                 abortRef.current = null;
             }
         };
-    }, [destination, maxTravelMinutes, radiusKm, minSecurityLevel, livingPreference]);
+    }, [destination, radiusKm, minSecurityLevel, livingPreference]);
 
     return { count, isLoading };
 }

@@ -18,7 +18,6 @@ const RURAL_MAX_POPULATION = 10_000;
 interface FilterParams {
     communes: Map<string, CommuneIndexLiteEntry>;
     destination: Destination;
-    maxTravelMinutes: number;
     radiusKm: number;
     minSecurityLevel: number | null;
     livingPreference: LivingPreference;

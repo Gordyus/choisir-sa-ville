@@ -16,7 +16,10 @@ interface UseAddressSearchResult {
     isLoading: boolean;
 }
 
-export function useAddressSearch(query: string): UseAddressSearchResult {
+export function useAddressSearch(
+    query: string,
+    geoBias?: { lat: number; lng: number } | null
+): UseAddressSearchResult {
     const [suggestions, setSuggestions] = useState<BanSuggestion[]>([]);
     const [isLoading, setIsLoading] = useState(false);
     const abortRef = useRef<AbortController | null>(null);
@@ -48,7 +51,7 @@ export function useAddressSearch(query: string): UseAddressSearchResult {
             const controller = new AbortController();
             abortRef.current = controller;
 
-            searchAddress(trimmed, controller.signal)
+            searchAddress(trimmed, controller.signal, geoBias ?? undefined)
                 .then((results) => {
                     if (!controller.signal.aborted) {
                         setSuggestions(results);
@@ -73,7 +76,7 @@ export function useAddressSearch(query: string): UseAddressSearchResult {
                 abortRef.current = null;
             }
         };
-    }, [query]);
+    }, [query, geoBias?.lat, geoBias?.lng]);
 
     return { suggestions, isLoading };
 }

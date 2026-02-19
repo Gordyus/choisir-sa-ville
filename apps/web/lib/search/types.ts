@@ -23,10 +23,18 @@ export type Destination = {
 
 export type LivingPreference = "urban" | "rural" | "any";
 
+export type TransportMode = "car" | "transit";
+
+export type TravelTimeTarget = {
+    destination: Destination;
+    maxMinutes: number;
+    mode: TransportMode;
+};
+
 export type SearchCriteria = {
     destination: Destination | null;
-    maxTravelMinutes: number;
     radiusKm: number;
+    travelTimeTargets: TravelTimeTarget[];
     minSecurityLevel: number | null;
     livingPreference: LivingPreference;
 };
@@ -96,8 +104,8 @@ export type BanSuggestion = {
 
 export const DEFAULT_CRITERIA: SearchCriteria = {
     destination: null,
-    maxTravelMinutes: 30,
     radiusKm: 10,
+    travelTimeTargets: [],
     minSecurityLevel: null,
     livingPreference: "any"
 };

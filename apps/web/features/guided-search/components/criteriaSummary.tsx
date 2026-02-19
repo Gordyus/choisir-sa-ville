@@ -33,9 +33,12 @@ export default function CriteriaSummary({ criteria }: CriteriaSummaryProps) {
             {criteria.destination !== null && (
                 <Badge>{criteria.destination.label}</Badge>
             )}
-            <span className="text-muted-foreground">
-                {criteria.maxTravelMinutes} min max
-            </span>
+            {criteria.travelTimeTargets.map((target, i) => (
+                <span key={i} className="text-muted-foreground">
+                    {target.destination.label} · {target.maxMinutes} min
+                    · {target.mode === "car" ? "Voiture" : "Transports"}
+                </span>
+            ))}
             {criteria.minSecurityLevel !== null && (
                 <span
                     className="inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium text-white"

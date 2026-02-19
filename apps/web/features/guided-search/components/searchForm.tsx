@@ -15,7 +15,14 @@ import { Slider } from "@/components/ui/slider";
 import { mapNavigationService, zoomForRadiusKm } from "@/lib/map/mapNavigationService";
 import { displayModeService } from "@/lib/map/state/displayModeService";
 import { getSearchService } from "@/lib/search/searchService";
-import type { Destination, LivingPreference, SearchCriteria } from "@/lib/search/types";
+import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
+import type {
+    Destination,
+    LivingPreference,
+    SearchCriteria,
+    TransportMode,
+    TravelTimeTarget,
+} from "@/lib/search/types";
 import { DEFAULT_CRITERIA } from "@/lib/search/types";
 
 import { useEstimatedCount } from "../hooks/useEstimatedCount";
@@ -25,6 +32,13 @@ import LivingPreferencePicker from "./livingPreferencePicker";
 import SecurityLevelPicker from "./securityLevelPicker";
 
 type CriterionId = "travelTime" | "security" | "livingPreference" | "budget";
+
+type TravelEntry = {
+    label: string;
+    destination: Destination | null;
+    mode: TransportMode;
+    maxMinutes: number;
+};
 
 const CRITERIA_DEFINITIONS: Array<{
     id: CriterionId;
@@ -39,13 +53,18 @@ const CRITERIA_DEFINITIONS: Array<{
     { id: "budget", label: "Budget", icon: "\u{1F4B0}", disabled: true, disabledLabel: "Bientot" },
 ];
 
+const MAX_TRAVEL_ENTRIES = 3;
+
+function createDefaultEntry(index: number): TravelEntry {
+    const label = index === 0 ? "Travail" : `Lieu ${index + 1}`;
+    return { label, destination: null, mode: "car", maxMinutes: 30 };
+}
+
 export default function SearchForm() {
     const [destination, setDestination] = useState<Destination | null>(
         DEFAULT_CRITERIA.destination
     );
-    const [maxTravelMinutes, setMaxTravelMinutes] = useState(
-        DEFAULT_CRITERIA.maxTravelMinutes
-    );
+    const [travelEntries, setTravelEntries] = useState<TravelEntry[]>([createDefaultEntry(0)]);
     const [minSecurityLevel, setMinSecurityLevel] = useState<number | null>(
         DEFAULT_CRITERIA.minSecurityLevel
     );
@@ -79,7 +98,6 @@ export default function SearchForm() {
 
     const { count, isLoading: isCountLoading } = useEstimatedCount({
         destination,
-        maxTravelMinutes,
         radiusKm,
         minSecurityLevel,
         livingPreference,
@@ -97,6 +115,33 @@ export default function SearchForm() {
         });
     }, []);
 
+    const updateEntry = useCallback((index: number, patch: Partial<TravelEntry>) => {
+        setTravelEntries((prev) =>
+            prev.map((entry, i) => (i === index ? { ...entry, ...patch } : entry))
+        );
+    }, []);
+
+    const addEntry = useCallback(() => {
+        setTravelEntries((prev) => {
+            if (prev.length >= MAX_TRAVEL_ENTRIES) return prev;
+            const label = prev.length === 0 ? "Travail" : `Lieu ${prev.length + 1}`;
+            return [...prev, { label, destination: null, mode: "car", maxMinutes: 30 }];
+        });
+    }, []);
+
+    const removeEntry = useCallback((index: number) => {
+        setTravelEntries((prev) => {
+            if (prev.length <= 1) return prev;
+            return prev.filter((_, i) => i !== index);
+        });
+    }, []);
+
+    const travelTimeTargets: TravelTimeTarget[] = selectedCriteria.has("travelTime")
+        ? travelEntries
+              .filter((e): e is TravelEntry & { destination: Destination } => e.destination !== null)
+              .map((e) => ({ destination: e.destination, maxMinutes: e.maxMinutes, mode: e.mode }))
+        : [];
+
     const handleSubmit = useCallback(
         (e: React.FormEvent) => {
             e.preventDefault();
@@ -104,8 +149,8 @@ export default function SearchForm() {
 
             const criteria: SearchCriteria = {
                 destination,
-                maxTravelMinutes,
                 radiusKm,
+                travelTimeTargets,
                 minSecurityLevel: selectedCriteria.has("security") ? minSecurityLevel : null,
                 livingPreference: selectedCriteria.has("livingPreference") ? livingPreference : "any",
             };
@@ -113,7 +158,7 @@ export default function SearchForm() {
             getSearchService().startSearch(criteria);
             displayModeService.setMode("search");
         },
-        [destination, maxTravelMinutes, radiusKm, minSecurityLevel, livingPreference, selectedCriteria]
+        [destination, radiusKm, travelTimeTargets, minSecurityLevel, livingPreference, selectedCriteria]
     );
 
     const ctaLabel = (() => {
@@ -122,6 +167,12 @@ export default function SearchForm() {
         if (count !== null) return `Rechercher (~${count} communes)`;
         return "Rechercher";
     })();
+
+    const lastEntry = travelEntries[travelEntries.length - 1];
+    const canAddEntry =
+        travelEntries.length < MAX_TRAVEL_ENTRIES &&
+        lastEntry !== undefined &&
+        lastEntry.destination !== null;
 
     return (
         <form onSubmit={handleSubmit} className="flex flex-col h-full">
@@ -192,25 +243,89 @@ export default function SearchForm() {
                         <Separator />
                         <div className="space-y-5">
                             {selectedCriteria.has("travelTime") && (
-                                <div className="space-y-2">
-                                    <div className="flex items-center justify-between">
-                                        <Label>Temps de trajet max</Label>
-                                        <span className="text-sm font-medium text-brand">
-                                            {maxTravelMinutes} min
-                                        </span>
-                                    </div>
-                                    <Slider
-                                        min={15}
-                                        max={90}
-                                        step={5}
-                                        value={[maxTravelMinutes]}
-                                        onValueChange={(values: number[]) => {
-                                            const next = values[0];
-                                            if (next !== undefined) {
-                                                setMaxTravelMinutes(next);
-                                            }
-                                        }}
-                                    />
+                                <div className="space-y-3">
+                                    <Label>Temps de trajet</Label>
+                                    {travelEntries.map((entry, index) => (
+                                        <div key={index} className="space-y-2 rounded-lg border p-2">
+                                            <div className="flex items-center justify-between">
+                                                <input
+                                                    type="text"
+                                                    value={entry.label}
+                                                    onChange={(e) => updateEntry(index, { label: e.target.value })}
+                                                    placeholder={index === 0 ? "Travail" : `Lieu ${index + 1}`}
+                                                    className="text-sm font-medium bg-transparent border-transparent outline-none focus:outline-none w-full max-w-[160px]"
+                                                />
+                                                {travelEntries.length > 1 && (
+                                                    <button
+                                                        type="button"
+                                                        className="text-xs text-muted-foreground hover:text-destructive transition-colors flex-shrink-0"
+                                                        onClick={() => removeEntry(index)}
+                                                    >
+                                                        Supprimer
+                                                    </button>
+                                                )}
+                                            </div>
+                                            <div className="flex items-center gap-2">
+                                                <div className="flex-1 min-w-0">
+                                                    <AddressAutocomplete
+                                                        value={entry.destination}
+                                                        onSelect={(dest) => updateEntry(index, { destination: dest })}
+                                                        placeholder="Lieu de travail, ecole..."
+                                                    />
+                                                </div>
+                                                {entry.destination !== null && (
+                                                    <>
+                                                        <ToggleGroup
+                                                            type="single"
+                                                            variant="outline"
+                                                            value={entry.mode}
+                                                            onValueChange={(value: string) => {
+                                                                if (value !== "") {
+                                                                    updateEntry(index, { mode: value as TransportMode });
+                                                                }
+                                                            }}
+                                                            className="flex-shrink-0 gap-1"
+                                                            size="sm"
+                                                        >
+                                                            <ToggleGroupItem value="car" aria-label="Voiture">
+                                                                Voiture
+                                                            </ToggleGroupItem>
+                                                            <ToggleGroupItem value="transit" aria-label="Transports en commun">
+                                                                TC
+                                                            </ToggleGroupItem>
+                                                        </ToggleGroup>
+                                                        <div className="flex items-center gap-2 flex-shrink-0">
+                                                            <Slider
+                                                                className="w-24"
+                                                                min={15}
+                                                                max={90}
+                                                                step={5}
+                                                                value={[entry.maxMinutes]}
+                                                                onValueChange={(values: number[]) => {
+                                                                    const next = values[0];
+                                                                    if (next !== undefined) {
+                                                                        updateEntry(index, { maxMinutes: next });
+                                                                    }
+                                                                }}
+                                                            />
+                                                            <span className="text-xs font-medium text-brand whitespace-nowrap w-10 text-right">
+                                                                {entry.maxMinutes}min
+                                                            </span>
+                                                        </div>
+                                                    </>
+                                                )}
+                                            </div>
+                                        </div>
+                                    ))}
+                                    {canAddEntry && (
+                                        <button
+                                            type="button"
+                                            className="text-sm text-brand hover:text-brand/80 transition-colors font-medium"
+                                            onClick={addEntry}
+                                        >
+                                            + Ajouter un lieu
+                                        </button>
+                                    )}
                                 </div>
                             )}
 

@@ -611,14 +611,14 @@ async function handleModeChange(state: DisplayBinderState, mode: DisplayMode): P
 
     state.currentMode = mode;
 
-    if (mode === "default") {
-        // Clean up insecurity mode
+    if (mode === "default" || mode === "search") {
+        // Clean up insecurity mode (search mode is handled by searchDisplayBinder)
         removeViewportHandlers(state);
         removeHighlightPopupSubscription(state);
         clearInsecurityFeatureStates(state);
         state.insecurityLevelMap = null;
 
-        // Restore original expressions
+        // Restore original expressions (searchDisplayBinder will apply its own if needed)
         if (state.saved) {
             restoreOriginalExpressions(state.map, state.saved);
         }

@@ -11,19 +11,23 @@ import { Input } from "@/components/ui/input";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import type { Destination } from "@/lib/search/types";
 
+import { useMapCenter } from "@/lib/map/hooks/useMapCenter";
+
 import { useAddressSearch } from "../hooks/useAddressSearch";
 
 interface AddressAutocompleteProps {
     value: Destination | null;
     onSelect: (destination: Destination | null) => void;
+    placeholder?: string | undefined;
 }
 
-export default function AddressAutocomplete({ value, onSelect }: AddressAutocompleteProps) {
+export default function AddressAutocomplete({ value, onSelect, placeholder }: AddressAutocompleteProps) {
     const [query, setQuery] = useState("");
     const [open, setOpen] = useState(false);
     const [highlightedIndex, setHighlightedIndex] = useState(-1);
     const inputRef = useRef<HTMLInputElement>(null);
-    const { suggestions, isLoading } = useAddressSearch(query);
+    const center = useMapCenter();
+    const { suggestions, isLoading } = useAddressSearch(query, center);
 
     useEffect(() => {
         setHighlightedIndex(-1);
@@ -34,7 +38,7 @@ export default function AddressAutocomplete({ value, onSelect }: AddressAutocomp
             onSelect({
                 lat: suggestion.lat,
                 lng: suggestion.lng,
-                label: `${suggestion.city} (${suggestion.postcode})`,
+                label: suggestion.label,
             });
             setQuery("");
             setOpen(false);
@@ -119,7 +123,7 @@ export default function AddressAutocomplete({ value, onSelect }: AddressAutocomp
                     <Input
                         ref={inputRef}
                         type="text"
-                        placeholder="Ajouter une localisation"
+                        placeholder={placeholder ?? "Ajouter une localisation"}
                         value={query}
                         className="pl-8"
                         onChange={(e) => {
